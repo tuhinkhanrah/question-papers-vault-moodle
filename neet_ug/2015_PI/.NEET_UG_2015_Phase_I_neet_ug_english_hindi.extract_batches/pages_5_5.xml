@@ -1,0 +1,1347 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+<question type="multichoice">
+    <name>
+      <text>NEET_UG_PHYSICS_2015_SEMICONDUCTORS_MCQ_Q44 - Output waveform across load resistor in pn junction</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>If in a p-n junction, a square input signal of \(10\text{ V}\) is applied, as shown,</p>
+<p><img src="@@PLUGINFILE@@/img-12.jpeg" alt="Square input signal" /></p>
+<p><img src="@@PLUGINFILE@@/img-13.jpeg" alt="Circuit diagram" /></p>
+<p>then the output across \(R_L\) will be:</p>
+<hr/>
+<p>यदि एक p-n संधि में, चित्रानुसार \(10\text{ V}\) का एक वर्गाकार निवेशी संकेत लगाया जाता है,</p>
+<p><img src="@@PLUGINFILE@@/img-12.jpeg" alt="निवेशी संकेत" /></p>
+<p><img src="@@PLUGINFILE@@/img-13.jpeg" alt="परिपथ आरेख" /></p>
+<p>तो \(R_L\) के सिरों पर निर्गत संकेत होगा:</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>
+An alternating square wave input signal is applied to a p-n junction diode connected in series with a load resistor \(R_L\). The input voltage alternates between \(+5\text{ V}\) and \(-5\text{ V}\), giving a peak-to-peak voltage swing of \(10\text{ V}\).</p>
+<p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>
+The p-n junction diode is considered ideal. Under forward bias, an ideal diode offers zero forward resistance with no internal voltage drop. Under reverse bias, it offers infinite resistance, allowing zero current to pass.</p>
+<p><strong>Step 3: Relevant Formulae and Principles</strong><br/>
+A p-n junction diode conducts when forward biased, which occurs when the anode (p-type region) is at a higher potential than the cathode (n-type region). The output voltage across the load resistor is given by Ohm's law:
+\[
+V_{\text{out}} = I R_L
+\]</p>
+<p><strong>Step 4: Step-by-Step Working</strong><br/>
+1. During the positive half of the input pulse, the potential at the anode (p-side) is \(+5\text{ V}\) with respect to the common reference terminal. Since the p-side is at a higher potential than the n-side, the diode becomes forward biased and behaves as a closed switch with zero resistance. Consequently, the entire input voltage appears across the load resistor:
+\[
+V_{\text{out}} = +5\text{ V}
+\]
+2. During the negative half of the input pulse, the potential at the anode is \(-5\text{ V}\). The p-side is at a lower potential than the reference line, rendering the diode reverse biased. The diode behaves as an open switch, blocking current flow through the circuit (\(I = 0\)). Consequently, the voltage across \(R_L\) is:
+\[
+V_{\text{out}} = 0\text{ V}
+\]</p>
+<p><strong>Step 5: Check and Final Answer</strong><br/>
+The output signal is a series of positive square pulses with a peak value of \(5\text{ V}\) during the positive half-cycles and \(0\text{ V}\) during the negative half-cycles. Therefore, the output signal corresponds to the unidirectional square pulse of amplitude \(5\text{ V}\).</p>
+<hr/>
+<p><strong>चरण 1: दिए गए आँकड़े और शर्तें</strong><br/>
+एक भार प्रतिरोधक \(R_L\) के साथ श्रेणीक्रम में जुड़े एक p-n संधि डायोड पर एक प्रत्यावर्ती वर्गाकार निवेशी संकेत लगाया गया है। निवेशी संकेत \(+5\text{ V}\) और \(-5\text{ V}\) के बीच परिवर्तित होता है, जिसका कुल वोल्टेज विस्तार \(10\text{ V}\) है।</p>
+<p><strong>चरण 2: मान्यताएँ और चिन्ह परिपाटी</strong><br/>
+डायोड को आदर्श माना गया है। अग्र अभिनति की स्थिति में, आदर्श डायोड शून्य प्रतिरोध और शून्य विभव पात प्रदर्शित करता है। उत्क्रम अभिनति में, यह अनंत प्रतिरोध प्रस्तुत करता है और परिपथ में कोई धारा प्रवाहित नहीं होती।</p>
+<p><strong>चरण 3: संबंधित सूत्र और सिद्धांत</strong><br/>
+एक p-n संधि डायोड केवल अग्र अभिनति में चालन करता है, अर्थात् जब एनोड (p-सिरा) का विभव कैथोड (n-सिरे) से अधिक होता है। भार प्रतिरोधक के सिरों पर निर्गत विभव ओम के नियम द्वारा दिया जाता है:
+\[
+V_{\text{out}} = I R_L
+\]</p>
+<p><strong>चरण 4: चरणबद्ध गणना</strong><br/>
+1. जब निवेशी संकेत \(+5\text{ V}\) होता है, तो p-सिरा संदर्भ तार की तुलना में धनात्मक विभव पर होता है, जिससे डायोड अग्र अभिनत होकर बंद स्विच की तरह व्यवहार करता है। इस स्थिति में सम्पूर्ण विभव भार प्रतिरोधक के सिरों पर प्राप्त होता है:
+\[
+V_{\text{out}} = +5\text{ V}
+\]
+2. जब निवेशी संकेत \(-5\text{ V}\) होता है, तो p-सिरा ऋणात्मक विभव पर आ जाता है, जिससे डायोड उत्क्रम अभिनत हो जाता है और खुले परिपथ की भांति कार्य करता है (\(I = 0\))। अत: \(R_L\) के सिरों पर निर्गत विभव:
+\[
+V_{\text{out}} = 0\text{ V}
+\]</p>
+<p><strong>चरण 5: सत्यापन एवं अंतिम उत्तर</strong><br/>
+निर्गत संकेत धनात्मक अर्ध-चक्र में \(5\text{ V}\) के आयाम वाला वर्गाकार स्पंद और ऋणात्मक अर्ध-चक्र में \(0\text{ V}\) रहता है। अतः सही निर्गत तरंगरूप \(5\text{ V}\) की धनात्मक स्पंद वाली तरंग है।</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>4.0000000</defaultgrade>
+    <penalty>0.2500000</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p><img src="@@PLUGINFILE@@/img-14.jpeg" alt="Waveform A" /></p>]]></text>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p><img src="@@PLUGINFILE@@/img-15.jpeg" alt="Waveform B" /></p>]]></text>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p><img src="@@PLUGINFILE@@/img-16.jpeg" alt="Waveform C" /></p>]]></text>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p><img src="@@PLUGINFILE@@/img-17.jpeg" alt="Waveform D" /></p>]]></text>
+    </answer>
+    <tags>
+      <tag><text>standard:neet_ug</text></tag>
+      <tag><text>year:2015</text></tag>
+      <tag><text>lang:en</text></tag>
+      <tag><text>lang:hi</text></tag>
+      <tag><text>subject:physics</text></tag>
+      <tag><text>class:class_12</text></tag>
+      <tag><text>topic:semiconductor_devices</text></tag>
+      <tag><text>chapter:semiconductor_electronics_materials_devices_and_simple_circuits</text></tag>
+      <tag><text>typology:single_choice</text></tag>
+      <tag><text>difficulty:easy</text></tag>
+      <tag><text>blooms:apply</text></tag>
+      <tag><text>calculation:light</text></tag>
+      <tag><text>media:circuit</text></tag>
+      <tag><text>multiconcept:false</text></tag>
+    </tags>
+  </question>
+<question type="multichoice">
+    <name>
+      <text>NEET_UG_PHYSICS_2015_SEMICONDUCTORS_MCQ_Q45 - Logic gate combination of two inverters and a NOR gate</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Which logic gate is represented by the following combination of logic gates?</p>
+<p><img src="@@PLUGINFILE@@/img-18.jpeg" alt="Logic gate circuit" /></p>
+<hr/>
+<p>लॉजिक गेटों का निम्नलिखित संयोजन किस लॉजिक गेट को निरूपित करता है?</p>
+<p><img src="@@PLUGINFILE@@/img-18.jpeg" alt="लॉजिक गेट परिपथ" /></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>
+The circuit consists of two inverters (NOT gates) followed by a two-input NOR gate. Boolean algebra and De Morgan's laws can be used to evaluate the overall transfer function relating inputs \(A\) and \(B\) to output \(Y\).</p>
+<p><strong>Step 2: Evaluation of Gate Outputs</strong><br/>
+Input \(A\) passes through the first NOT gate to produce output:
+\[
+Y_1 = \overline{A}
+\]
+Input \(B\) passes through the second NOT gate to produce output:
+\[
+Y_2 = \overline{B}
+\]
+These signals act as the two inputs to a NOR gate. The output of a NOR gate is given by:
+\[
+Y = \overline{Y_1 + Y_2} = \overline{\overline{A} + \overline{B}}
+\]</p>
+<p><strong>Step 3: Application of De Morgan's Law</strong><br/>
+According to De Morgan's theorem, the complement of a sum is equal to the product of the complements:
+\[
+\overline{\overline{A} + \overline{B}} = \overline{\overline{A}} \cdot \overline{\overline{B}} = A \cdot B
+\]</p>
+<p><strong>Step 4: Final Conclusion</strong><br/>
+The resultant Boolean expression \(Y = A \cdot B\) defines the operation of a standard two-input AND gate. Therefore, the combination represents an AND gate.</p>
+<hr/>
+<p><strong>चरण 1: वैचारिक सिद्धांत</strong><br/>
+प्रस्तुत परिपथ में दो निवेशी संकेत दो NOT गेटों से गुजरने के पश्चात एक 2-निवेशी NOR गेट में प्रविष्ट होते हैं। निर्गत संबंध प्राप्त करने के लिए डी मॉर्गन के नियमों का अनुप्रयोग किया जाता है।</p>
+<p><strong>चरण 2: मध्यवर्ती निर्गतों का निर्धारण</strong><br/>
+निवेश \(A\) पहले NOT गेट से गुजरकर \(Y_1 = \overline{A}\) देता है।<br/>
+निवेश \(B\) दूसरे NOT गेट से गुजरकर \(Y_2 = \overline{B}\) देता है।<br/>
+ये दोनों संकेत NOR गेट के निवेश बनते हैं, जिससे अंतिम निर्गत प्राप्त होता है:
+\[
+Y = \overline{Y_1 + Y_2} = \overline{\overline{A} + \overline{B}}
+\]</p>
+<p><strong>चरण 3: डी मॉर्गन के नियम का अनुप्रयोग</strong><br/>
+डी मॉर्गन के प्रमेय के अनुसार:
+\[
+\overline{\overline{A} + \overline{B}} = \overline{\overline{A}} \cdot \overline{\overline{B}} = A \cdot B
+\]</p>
+<p><strong>चरण 4: अंतिम निष्कर्ष</strong><br/>
+प्राप्त बूलियन व्यंजक \(Y = A \cdot B\) एक मानक AND गेट के व्यवहार को व्यक्त करता है। अतः यह संयोजन एक AND गेट को प्रदर्शित करता है।</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>4.0000000</defaultgrade>
+    <penalty>0.2500000</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>OR</p>]]></text>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>NAND</p>]]></text>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>AND</p>]]></text>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>NOR</p>]]></text>
+    </answer>
+    <tags>
+      <tag><text>standard:neet_ug</text></tag>
+      <tag><text>year:2015</text></tag>
+      <tag><text>lang:en</text></tag>
+      <tag><text>lang:hi</text></tag>
+      <tag><text>subject:physics</text></tag>
+      <tag><text>class:class_12</text></tag>
+      <tag><text>topic:logic_gates</text></tag>
+      <tag><text>chapter:semiconductor_electronics_materials_devices_and_simple_circuits</text></tag>
+      <tag><text>typology:single_choice</text></tag>
+      <tag><text>difficulty:easy</text></tag>
+      <tag><text>blooms:understand</text></tag>
+      <tag><text>calculation:light</text></tag>
+      <tag><text>media:circuit</text></tag>
+      <tag><text>multiconcept:false</text></tag>
+    </tags>
+  </question>
+<question type="multichoice">
+    <name>
+      <text>NEET_UG_CHEMISTRY_2015_CHEMICAL_BONDING_MCQ_Q46 - Species containing equal number of sigma and pi bonds</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Which of the following species contains equal number of \(\sigma\) and \(\pi\)-bonds?</p>
+<hr/>
+<p>निम्नलिखित में से किस स्पीशीज में \(\sigma\) और \(\pi\)-बंधों की संख्या समान है?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>
+Every single covalent bond constitutes one \(\sigma\)-bond. A double covalent bond comprises one \(\sigma\)-bond and one \(\pi\)-bond. A triple covalent bond consists of one \(\sigma\)-bond and two \(\pi\)-bonds.</p>
+<p><strong>Step 2: Evaluation of Structures</strong><br/>
+1. In \(\mathrm{HCO}_3^-\), the bicarbonate ion has carbon bonded to one \(=\mathrm{O}\), one \(-\mathrm{O}^-\), and one \(-\mathrm{OH}\) group (which contains an \(\mathrm{O}-\mathrm{H}\) bond). This yields \(4\) \(\sigma\)-bonds and \(1\) \(\pi\)-bond.<br/>
+2. In \(\mathrm{XeO}_4\), xenon forms four double bonds with four terminal oxygen atoms in a tetrahedral geometry (\(\mathrm{O}=\mathrm{Xe}(=\mathrm{O})(=\mathrm{O})=\mathrm{O}\)). Each of the four \(\mathrm{Xe}=\mathrm{O}\) double bonds consists of one \(\sigma\)-bond and one \(\pi\)-bond. Thus, \(\mathrm{XeO}_4\) possesses exactly \(4\) \(\sigma\)-bonds and \(4\) \(\pi\)-bonds.<br/>
+3. In \((\mathrm{CN})_2\) (cyanogen, \(\mathrm{N}\equiv\mathrm{C}-\mathrm{C}\equiv\mathrm{N}\)), there is one \(\mathrm{C}-\mathrm{C}\) single bond and two \(\mathrm{C}\equiv\mathrm{N}\) triple bonds, giving \(3\) \(\sigma\)-bonds and \(4\) \(\pi\)-bonds.<br/>
+4. In \(\mathrm{CH}_2(\mathrm{CN})_2\) (malononitrile, \(\mathrm{N}\equiv\mathrm{C}-\mathrm{CH}_2-\mathrm{C}\equiv\mathrm{N}\)), there are two \(\mathrm{C}-\mathrm{H}\) bonds, two \(\mathrm{C}-\mathrm{C}\) bonds, and two \(\mathrm{C}\equiv\mathrm{N}\) triple bonds, giving \(6\) \(\sigma\)-bonds and \(4\) \(\pi\)-bonds.</p>
+<p><strong>Step 3: Final Conclusion</strong><br/>
+The species \(\mathrm{XeO}_4\) contains an equal number of \(\sigma\)-bonds and \(\pi\)-bonds (four of each).</p>
+<hr/>
+<p><strong>चरण 1: वैचारिक सिद्धांत</strong><br/>
+प्रत्येक एकल सहसंयोजक बंध एक \(\sigma\)-बंध होता है। द्वि-बंध में एक \(\sigma\)-बंध और एक \(\pi\)-बंध होता है, तथा त्रि-बंध में एक \(\sigma\)-बंध और दो \(\pi\)-बंध होते हैं।</p>
+<p><strong>चरण 2: संरचनाओं का विश्लेषण</strong><br/>
+1. \(\mathrm{HCO}_3^-\) में \(4\) \(\sigma\)-बंध और \(1\) \(\pi\)-बंध उपस्थित होते हैं।<br/>
+2. \(\mathrm{XeO}_4\) में केंद्रीय जीनॉन परमाणु चतुष्फलकीय ज्यामिति में चार ऑक्सीजन परमाणुओं के साथ चार द्वि-बंध (\(\mathrm{Xe}=\mathrm{O}\)) बनाता है। प्रत्येक द्वि-बंध में एक \(\sigma\)-बंध और एक \(\pi\)-बंध होने के कारण कुल \(4\) \(\sigma\)-बंध और \(4\) \(\pi\)-बंध होते हैं।<br/>
+3. \((\mathrm{CN})_2\) (\(\mathrm{N}\equiv\mathrm{C}-\mathrm{C}\equiv\mathrm{N}\)) में \(3\) \(\sigma\)-बंध और \(4\) \(\pi\)-बंध होते हैं।<br/>
+4. \(\mathrm{CH}_2(\mathrm{CN})_2\) में \(6\) \(\sigma\)-बंध और \(4\) \(\pi\)-बंध होते हैं।</p>
+<p><strong>चरण 3: अंतिम निष्कर्ष</strong><br/>
+\(\mathrm{XeO}_4\) में \(\sigma\) और \(\pi\)-बंधों की संख्या समान (प्रत्येक की संख्या \(4\)) है।</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>4.0000000</defaultgrade>
+    <penalty>0.2500000</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>\(\mathrm{HCO}_3^-\)</p>]]></text>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>\(\mathrm{XeO}_4\)</p>]]></text>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>\((\mathrm{CN})_2\)</p>]]></text>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>\(\mathrm{CH}_2(\mathrm{CN})_2\)</p>]]></text>
+    </answer>
+    <tags>
+      <tag><text>standard:neet_ug</text></tag>
+      <tag><text>year:2015</text></tag>
+      <tag><text>lang:en</text></tag>
+      <tag><text>lang:hi</text></tag>
+      <tag><text>subject:chemistry</text></tag>
+      <tag><text>class:class_11</text></tag>
+      <tag><text>topic:covalent_bonding</text></tag>
+      <tag><text>chapter:chemical_bonding_and_molecular_structure</text></tag>
+      <tag><text>typology:single_choice</text></tag>
+      <tag><text>difficulty:easy</text></tag>
+      <tag><text>blooms:analyze</text></tag>
+      <tag><text>calculation:light</text></tag>
+      <tag><text>media:text</text></tag>
+      <tag><text>multiconcept:false</text></tag>
+    </tags>
+  </question>
+<question type="multichoice">
+    <name>
+      <text>NEET_UG_CHEMISTRY_2015_PERIODIC_TABLE_MCQ_Q47 - Increasing order of radii for isoelectronic species Ar K plus Ca 2 plus</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>The species \(\mathrm{Ar}\), \(\mathrm{K}^+\) and \(\mathrm{Ca}^{2+}\) contain the same number of electrons. In which order do their radii increase?</p>
+<hr/>
+<p>स्पीशीज \(\mathrm{Ar}\), \(\mathrm{K}^+\) तथा \(\mathrm{Ca}^{2+}\) में इलेक्ट्रॉनों की संख्या समान है। इनकी त्रिज्याओं के बढ़ने का सही क्रम क्या है?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>
+Species that possess identical numbers of electrons are defined as isoelectronic species. For isoelectronic ions and neutral atoms, the number of electron shells and electron shielding remain constant, while the nuclear charge varies with atomic number \(Z\).</p>
+<p><strong>Step 2: Evaluation of Nuclear Charge</strong><br/>
+The species \(\mathrm{Ca}^{2+}\), \(\mathrm{K}^+\), and \(\mathrm{Ar}\) each contain \(18\) electrons. Their respective nuclear charges (atomic numbers, \(Z\)) are:
+\[
+Z(\mathrm{Ca}^{2+}) = 20,\quad Z(\mathrm{K}^+) = 19,\quad Z(\mathrm{Ar}) = 18
+\]
+As the positive nuclear charge \(Z\) increases for a fixed number of electrons, the effective nuclear charge (\(Z_{\text{eff}}\)) felt by the valence electrons increases. The greater electrostatic attraction pulls the electron cloud closer to the nucleus, thereby decreasing the radius.</p>
+<p><strong>Step 3: Final Conclusion</strong><br/>
+The radius is inversely related to the nuclear charge among isoelectronic species:
+\[
+\text{Radius: } \mathrm{Ca}^{2+} < \mathrm{K}^+ < \mathrm{Ar}
+\]
+Hence, the correct increasing order of radii is \(\mathrm{Ca}^{2+} < \mathrm{K}^+ < \mathrm{Ar}\).</p>
+<hr/>
+<p><strong>चरण 1: वैचारिक सिद्धांत</strong><br/>
+समान इलेक्ट्रॉन संख्या वाली स्पीशीज को सम-इलेक्ट्रॉनी स्पीशीज कहते हैं। सम-इलेक्ट्रॉनी स्पीशीज के लिए कोशों की संख्या समान होती है, परंतु परमाणु क्रमांक \(Z\) के साथ नाभिकीय आवेश परिवर्तित होता है।</p>
+<p><strong>चरण 2: नाभिकीय आवेश की तुलना</strong><br/>
+स्पीशीज \(\mathrm{Ca}^{2+}\), \(\mathrm{K}^+\) और \(\mathrm{Ar}\) प्रत्येक में \(18\) इलेक्ट्रॉन उपस्थित हैं। इनके परमाणु क्रमांक निम्नलिखित हैं:
+\[
+Z(\mathrm{Ca}^{2+}) = 20,\quad Z(\mathrm{K}^+) = 19,\quad Z(\mathrm{Ar}) = 18
+\]
+इलेक्ट्रॉनों की समान संख्या होने पर जैसे-जैसे नाभिकीय आवेश बढ़ता है, प्रभावी नाभिकीय आवेश (\(Z_{\text{eff}}\)) में वृद्धि होती है। इससे बाह्यतम कोश के इलेक्ट्रॉन नाभिक की ओर अधिक तीव्रता से आकर्षित होते हैं और आयनिक/परमाणु त्रिज्या घट जाती है।</p>
+<p><strong>चरण 3: अंतिम निष्कर्ष</strong><br/>
+अतः त्रिज्याओं के बढ़ने का सही क्रम \(\mathrm{Ca}^{2+} < \mathrm{K}^+ < \mathrm{Ar}\) है।</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>4.0000000</defaultgrade>
+    <penalty>0.2500000</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>\(\mathrm{Ar} < \mathrm{K}^+ < \mathrm{Ca}^{2+}\)</p>]]></text>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>\(\mathrm{Ca}^{2+} < \mathrm{Ar} < \mathrm{K}^+\)</p>]]></text>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>\(\mathrm{Ca}^{2+} < \mathrm{K}^+ < \mathrm{Ar}\)</p>]]></text>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>\(\mathrm{K}^+ < \mathrm{Ar} < \mathrm{Ca}^{2+}\)</p>]]></text>
+    </answer>
+    <tags>
+      <tag><text>standard:neet_ug</text></tag>
+      <tag><text>year:2015</text></tag>
+      <tag><text>lang:en</text></tag>
+      <tag><text>lang:hi</text></tag>
+      <tag><text>subject:chemistry</text></tag>
+      <tag><text>class:class_11</text></tag>
+      <tag><text>topic:periodic_trends_in_properties</text></tag>
+      <tag><text>chapter:classification_of_elements_and_periodicity_in_properties</text></tag>
+      <tag><text>typology:single_choice</text></tag>
+      <tag><text>difficulty:easy</text></tag>
+      <tag><text>blooms:understand</text></tag>
+      <tag><text>calculation:light</text></tag>
+      <tag><text>media:text</text></tag>
+      <tag><text>multiconcept:false</text></tag>
+    </tags>
+  </question>
+<question type="multichoice">
+    <name>
+      <text>NEET_UG_CHEMISTRY_2015_S_BLOCK_MCQ_Q48 - Biologically important ion constituent of sodium pump</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>The function of "Sodium pump" is a biological process operating in each and every cell of all animals. Which of the following biologically important ions is also a constituent of this pump?</p>
+<hr/>
+<p>"सोडियम पंप" सभी जंतुओं की प्रत्येक कोशिका में संचालित होने वाली एक जैविक प्रक्रिया है। निम्नलिखित में से कौन-सा जैविक रूप से महत्वपूर्ण आयन भी इस पंप का एक घटक है?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>
+The biological mechanism responsible for maintaining the concentration gradient of alkali metal cations across the animal cell membrane is the sodium-potassium pump (\(\mathrm{Na}^+/\mathrm{K}^+\)-ATPase pump).</p>
+<p><strong>Step 2: Operating Mechanism</strong><br/>
+This transmembrane enzyme actively transports three \(\mathrm{Na}^+\) ions out of the cell for every two \(\mathrm{K}^+\) ions pumped into the cell, driven by the hydrolysis of ATP. This creates an electrochemical gradient essential for the transmission of nerve signals, maintenance of cell volume, and active transport of nutrients.</p>
+<p><strong>Step 3: Final Conclusion</strong><br/>
+The biologically important ion operating alongside sodium in this pump is the potassium ion, \(\mathrm{K}^+\).</p>
+<hr/>
+<p><strong>चरण 1: वैचारिक सिद्धांत</strong><br/>
+जंतु कोशिका झिल्ली के आर-पार क्षार धातु धनायनों की सांद्रता प्रवणता को बनाए रखने वाली जैविक प्रक्रिया को सोडियम-पोटैशियम पंप (\(\mathrm{Na}^+/\mathrm{K}^+\) पंप) कहा जाता है।</p>
+<p><strong>चरण 2: क्रियाविधि</strong><br/>
+यह एंजाइम ATP के जल-अपघटन द्वारा प्रत्येक चक्र में तीन \(\mathrm{Na}^+\) आयनों को कोशिका से बाहर तथा दो \(\mathrm{K}^+\) आयनों को कोशिका के अंदर स्थानांतरित करता है। यह तंत्रिका आवेगों के संचरण एवं परासरणी संतुलन के लिए आवश्यक है।</p>
+<p><strong>चरण 3: अंतिम निष्कर्ष</strong><br/>
+इस जैविक पंप में सोडियम के साथ भाग लेने वाला अन्य अनिवार्य घटक पोटैशियम आयन (\(\mathrm{K}^+\)) है।</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>4.0000000</defaultgrade>
+    <penalty>0.2500000</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>\(\mathrm{Ca}^{2+}\)</p>]]></text>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>\(\mathrm{Mg}^{2+}\)</p>]]></text>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>\(\mathrm{K}^+\)</p>]]></text>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>\(\mathrm{Fe}^{2+}\)</p>]]></text>
+    </answer>
+    <tags>
+      <tag><text>standard:neet_ug</text></tag>
+      <tag><text>year:2015</text></tag>
+      <tag><text>lang:en</text></tag>
+      <tag><text>lang:hi</text></tag>
+      <tag><text>subject:chemistry</text></tag>
+      <tag><text>class:class_11</text></tag>
+      <tag><text>topic:biological_importance_of_sodium_and_potassium</text></tag>
+      <tag><text>chapter:the_s_block_elements</text></tag>
+      <tag><text>typology:single_choice</text></tag>
+      <tag><text>difficulty:easy</text></tag>
+      <tag><text>blooms:remember</text></tag>
+      <tag><text>calculation:light</text></tag>
+      <tag><text>media:text</text></tag>
+      <tag><text>multiconcept:false</text></tag>
+    </tags>
+  </question>
+<question type="multichoice">
+    <name>
+      <text>NEET_UG_CHEMISTRY_2015_METALLURGY_MCQ_Q49 - Reason why metals are not found as nitrates in ores</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>'Metals are usually not found as nitrates in their ores'. Out of the following two (I and II) reasons which is/are true for the above observation?</p>
+<p>I. Metal nitrates are highly unstable.</p>
+<p>II. Metal nitrates are highly soluble in water.</p>
+<hr/>
+<p>'धातुएं प्रायः अपने अयस्कों में नाइट्रेट के रूप में नहीं पाई जाती हैं'। उपरोक्त प्रेक्षण के लिए निम्नलिखित दो (I और II) कारणों में से कौन-सा/से सही है/हैं?</p>
+<p>I. धातु नाइट्रेट अत्यधिक अस्थायी होते हैं।</p>
+<p>II. धातु नाइट्रेट जल में अत्यधिक विलेय होते हैं।</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p><strong>Step 1: Evaluation of Reason I</strong><br/>
+Most metal nitrates are chemically stable under ambient environmental conditions and decompose only when subjected to high temperatures. Therefore, instability is not the reason for their absence in mineral ores. Hence, Reason I is false.</p>
+<p><strong>Step 2: Evaluation of Reason II</strong><br/>
+Virtually all metal nitrates are extremely soluble in water due to high hydration energies of their ions and low lattice energies with the large, singly-charged nitrate anion (\(\mathrm{NO}_3^-\)). Because of this exceptional solubility, metal nitrates are readily leached away by rainwater and surface runoff, preventing them from accumulating as solid deposits or ores in the Earth's crust. Hence, Reason II is true.</p>
+<p><strong>Step 3: Final Conclusion</strong><br/>
+Statement I is false but Statement II is true.</p>
+<hr/>
+<p><strong>चरण 1: कारण I का मूल्यांकन</strong><br/>
+सामान्य वातावरणीय ताप और दाब पर धातु नाइट्रेट स्थिर यौगिक होते हैं और केवल उच्च ताप पर गर्म करने पर ही अपघटित होते हैं। अतः वे अत्यधिक अस्थायी नहीं होते। इसलिए कथन I असत्य है।</p>
+<p><strong>चरण 2: कारण II का मूल्यांकन</strong><br/>
+लगभग सभी सामान्य धातु नाइट्रेट जल में अत्यधिक विलेय होते हैं। अत्यधिक विलेयता के कारण वर्षा के जल और भूजल द्वारा इनका निक्षालन (leaching) हो जाता है, जिससे भूपर्पटी में अयस्कों के रूप में इनका जमाव नहीं हो पाता। इसलिए कथन II सत्य है।</p>
+<p><strong>चरण 3: अंतिम निष्कर्ष</strong><br/>
+कथन I असत्य है परन्तु कथन II सत्य है।</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>4.0000000</defaultgrade>
+    <penalty>0.2500000</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>false</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>I and II are true.</p>]]></text>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>I and II are false.</p>]]></text>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>I is false but II is true.</p>]]></text>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>I is true but II is false.</p>]]></text>
+    </answer>
+    <tags>
+      <tag><text>standard:neet_ug</text></tag>
+      <tag><text>year:2015</text></tag>
+      <tag><text>lang:en</text></tag>
+      <tag><text>lang:hi</text></tag>
+      <tag><text>subject:chemistry</text></tag>
+      <tag><text>class:class_12</text></tag>
+      <tag><text>topic:occurrence_of_metals</text></tag>
+      <tag><text>chapter:general_principles_and_processes_of_isolation_of_elements</text></tag>
+      <tag><text>typology:single_choice</text></tag>
+      <tag><text>difficulty:medium</text></tag>
+      <tag><text>blooms:understand</text></tag>
+      <tag><text>calculation:light</text></tag>
+      <tag><text>media:text</text></tag>
+      <tag><text>multiconcept:false</text></tag>
+    </tags>
+  </question>
+<question type="multichoice">
+    <name>
+      <text>NEET_UG_CHEMISTRY_2015_S_BLOCK_MCQ_Q50 - Solubility sequence of alkaline earth metal sulphates in water</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Solubility of the alkaline earth's metal sulphates in water decreases in the sequence:</p>
+<hr/>
+<p>क्षारीय मृदा धातुओं के सल्फेटों की जल में विलेयता किस क्रम में घटती है?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>
+The solubility of an ionic compound in water is governed by the relative magnitudes of its hydration enthalpy (\(\Delta_{\text{hyd}}H\)) and lattice enthalpy (\(\Delta_{\text{latt}}H\)). Dissolution is favored when hydration enthalpy exceeds lattice enthalpy.</p>
+<p><strong>Step 2: Trend Down Group 2</strong><br/>
+For alkaline earth metal sulphates, the sulphate anion (\(\mathrm{SO}_4^{2-}\)) is large, so the lattice enthalpy remains relatively constant down the group as the cation radius increases from \(\mathrm{Mg}^{2+}\) to \(\mathrm{Ba}^{2+}\). In contrast, the hydration enthalpy of the divalent cations decreases sharply with increasing cationic size (\(\Delta_{\text{hyd}}H \propto 1/r\)):
+\[
+\mathrm{Mg}^{2+} > \mathrm{Ca}^{2+} > \mathrm{Sr}^{2+} > \mathrm{Ba}^{2+}
+\]
+Because hydration enthalpy decreases more rapidly than lattice enthalpy down the group, the solubility of the sulphates decreases down Group 2.</p>
+<p><strong>Step 3: Final Conclusion</strong><br/>
+The correct decreasing sequence of solubility is:
+\[
+\mathrm{Mg} > \mathrm{Ca} > \mathrm{Sr} > \mathrm{Ba}
+\]</p>
+<hr/>
+<p><strong>चरण 1: वैचारिक सिद्धांत</strong><br/>
+किसी आयनिक यौगिक की जल में विलेयता उसकी जलयोजन एन्थैल्पी (\(\Delta_{\text{hyd}}H\)) और जालक एन्थैल्पी (\(\Delta_{\text{latt}}H\)) के अंतर पर निर्भर करती है। विलेयता तब सुगम होती है जब जलयोजन ऊर्जा, जालक ऊर्जा से अधिक हो।</p>
+<p><strong>चरण 2: वर्ग 2 में आवर्ती गुणधर्म</strong><br/>
+सल्फेट आयन (\(\mathrm{SO}_4^{2-}\)) का आकार बड़ा होने के कारण वर्ग में नीचे जाने पर जालक एन्थैल्पी में अधिक परिवर्तन नहीं होता। परंतु धनायन का आकार बढ़ने से जलयोजन एन्थैल्पी तीव्र गति से घटती है:
+\[
+\mathrm{Mg}^{2+} > \mathrm{Ca}^{2+} > \mathrm{Sr}^{2+} > \mathrm{Ba}^{2+}
+\]
+चूंकि जलयोजन एन्थैल्पी में होने वाली कमी जालक एन्थैल्पी की तुलना में अधिक प्रभावी होती है, अतः सल्फेटों की विलेयता वर्ग में नीचे जाने पर घटती है।</p>
+<p><strong>चरण 3: अंतिम निष्कर्ष</strong><br/>
+विलेयता के घटने का सही क्रम \(\mathrm{Mg} > \mathrm{Ca} > \mathrm{Sr} > \mathrm{Ba}\) है।</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>4.0000000</defaultgrade>
+    <penalty>0.2500000</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>\(\mathrm{Mg} > \mathrm{Ca} > \mathrm{Sr} > \mathrm{Ba}\)</p>]]></text>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>\(\mathrm{Ca} > \mathrm{Sr} > \mathrm{Ba} > \mathrm{Mg}\)</p>]]></text>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>\(\mathrm{Sr} > \mathrm{Ca} > \mathrm{Mg} > \mathrm{Ba}\)</p>]]></text>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>\(\mathrm{Ba} > \mathrm{Mg} > \mathrm{Sr} > \mathrm{Ca}\)</p>]]></text>
+    </answer>
+    <tags>
+      <tag><text>standard:neet_ug</text></tag>
+      <tag><text>year:2015</text></tag>
+      <tag><text>lang:en</text></tag>
+      <tag><text>lang:hi</text></tag>
+      <tag><text>subject:chemistry</text></tag>
+      <tag><text>class:class_11</text></tag>
+      <tag><text>topic:solubility_of_group_2_compounds</text></tag>
+      <tag><text>chapter:the_s_block_elements</text></tag>
+      <tag><text>typology:single_choice</text></tag>
+      <tag><text>difficulty:medium</text></tag>
+      <tag><text>blooms:understand</text></tag>
+      <tag><text>calculation:light</text></tag>
+      <tag><text>media:text</text></tag>
+      <tag><text>multiconcept:false</text></tag>
+    </tags>
+  </question>
+<question type="multichoice">
+    <name>
+      <text>NEET_UG_CHEMISTRY_2015_D_AND_F_BLOCK_MCQ_Q51 - Pairs of elements with nearly same atomic radii due to lanthanoid contraction</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Because of lanthanoid contraction, which of the following pairs of elements have nearly same atomic radii? (Numbers in the parenthesis are atomic numbers).</p>
+<hr/>
+<p>लैन्थेनॉइड आकुंचन के कारण, निम्नलिखित में से तत्वों के किस युग्म की परमाणु त्रिज्याएँ लगभग समान होती हैं? (कोष्ठक में दी गई संख्याएँ परमाणु क्रमांक हैं)।</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>
+Lanthanoid contraction is the steady decrease in atomic and ionic radii along the lanthanoid series (from \(Z = 57\) to \(Z = 71\)) caused by the poor shielding effect of intervening \(4f\) electrons against the steadily increasing nuclear charge.</p>
+<p><strong>Step 2: Consequence on Post-Lanthanoid Transition Metals</strong><br/>
+Zirconium (\(\mathrm{Zr}\), \(Z = 40\)) belongs to the second transition series (\(4d\)), while Hafnium (\(\mathrm{Hf}\), \(Z = 72\)) belongs to the third transition series (\(5d\)) directly below it in Group 4. Normally, an element in a lower period is expected to have a significantly larger atomic radius due to the addition of an extra electron shell. However, the 14 lanthanoid elements intervene between \(Z = 57\) and \(Z = 72\), where \(4f\) electrons are added. Because \(4f\) orbitals have diffuse shapes and very poor shielding ability, the effective nuclear charge increases markedly, contracting the electron cloud of \(\mathrm{Hf}\).</p>
+<p><strong>Step 3: Comparison and Final Conclusion</strong><br/>
+This contraction compensates almost exactly for the expected size increase due to the extra principal energy level. As a result, \(\mathrm{Zr}\) (atomic radius \(\approx 160\text{ pm}\)) and \(\mathrm{Hf}\) (atomic radius \(\approx 159\text{ pm}\)) have nearly identical atomic radii. Thus, the pair having nearly the same atomic radii is \(\mathrm{Zr}\ (40)\) and \(\mathrm{Hf}\ (72)\).</p>
+<hr/>
+<p><strong>चरण 1: वैचारिक सिद्धांत</strong><br/>
+लैन्थेनॉइड तत्वों (परमाणु क्रमांक \(57\) से \(71\)) में \(4f\) कक्षकों के दुर्बल परिरक्षण प्रभाव तथा नाभिकीय आवेश में नियमित वृद्धि के कारण परमाणु और आयनिक त्रिज्याओं में होने वाली क्रमिक कमी को लैन्थेनॉइड आकुंचन कहते हैं।</p>
+<p><strong>चरण 2: संक्रमण तत्वों पर प्रभाव</strong><br/>
+ज़र्कोनियम (\(\mathrm{Zr}\), \(Z = 40\)) द्वितीय संक्रमण श्रेणी (\(4d\)) तथा हेफ़्नियम (\(\mathrm{Hf}\), \(Z = 72\)) तृतीय संक्रमण श्रेणी (\(5d\)) के वर्ग 4 के तत्व हैं। आवर्त में नीचे जाने पर नए मुख्य कोश के जुड़ने से त्रिज्या बढ़नी चाहिए, परंतु \(\mathrm{Hf}\) से ठीक पहले \(14\) लैन्थेनॉइड तत्वों में दुर्बल परिरक्षण वाले \(4f\) उपकोश भरते हैं। इससे \(\mathrm{Hf}\) पर प्रभावी नाभिकीय आवेश अत्यधिक बढ़ जाता है, जिससे इसका आकार संकुचित हो जाता है।</p>
+<p><strong>चरण 3: अंतिम निष्कर्ष</strong><br/>
+लैन्थेनॉइड आकुंचन अतिरिक्त कोश द्वारा होने वाली त्रिज्या-वृद्धि को संतुलित कर देता है, जिसके परिणामस्वरूप \(\mathrm{Zr}\ (40)\) और \(\mathrm{Hf}\ (72)\) की परमाणु त्रिज्याएँ लगभग समान (\(\approx 160\text{ pm}\) और \(\approx 159\text{ pm}\)) हो जाती हैं।</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>4.0000000</defaultgrade>
+    <penalty>0.2500000</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Ti (22) and Zr (40)</p>]]></text>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>\(\mathrm{Zr}\) (40) and Nb (41)</p>]]></text>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>\(\mathrm{Zr}\) (40) and Hf (72)</p>]]></text>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>\(\mathrm{Zr}\) (40) and Ta (73)</p>]]></text>
+    </answer>
+    <tags>
+      <tag><text>standard:neet_ug</text></tag>
+      <tag><text>year:2015</text></tag>
+      <tag><text>lang:en</text></tag>
+      <tag><text>lang:hi</text></tag>
+      <tag><text>subject:chemistry</text></tag>
+      <tag><text>class:class_12</text></tag>
+      <tag><text>topic:lanthanoid_contraction</text></tag>
+      <tag><text>chapter:the_d_and_f_block_elements</text></tag>
+      <tag><text>typology:single_choice</text></tag>
+      <tag><text>difficulty:easy</text></tag>
+      <tag><text>blooms:remember</text></tag>
+      <tag><text>calculation:light</text></tag>
+      <tag><text>media:text</text></tag>
+      <tag><text>multiconcept:false</text></tag>
+    </tags>
+  </question>
+<question type="multichoice">
+    <name>
+      <text>NEET_UG_CHEMISTRY_2015_REDOX_MCQ_Q52 - Process that does not involve oxidation of iron</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Which of the following processes does not involve oxidation of iron?</p>
+<hr/>
+<p>निम्नलिखित में से किस प्रक्रम में आयरन का ऑक्सीकरण नहीं होता है?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>
+Oxidation of an element corresponds to an increase in its oxidation state due to the loss of electrons. A process does not involve oxidation of iron if iron either remains in the same oxidation state or is reduced.</p>
+<p><strong>Step 2: Evaluation of Each Process</strong><br/>
+1. In the rusting of iron sheets, iron metal (\(\mathrm{Fe}^0\)) reacts with atmospheric oxygen and moisture to form hydrated iron(III) oxide (\(\mathrm{Fe}_2\mathrm{O}_3 \cdot x\mathrm{H}_2\mathrm{O}\)). The oxidation state of iron increases from \(0\) to \(+3\), which is an oxidation process.<br/>
+2. In the decolourisation of blue \(\mathrm{CuSO}_4\) solution by iron, metallic iron displaces copper:
+\[
+\mathrm{Fe}^0 + \mathrm{Cu}^{2+} \to \mathrm{Fe}^{2+} + \mathrm{Cu}^0
+\]
+Here, iron is oxidised from oxidation state \(0\) to \(+2\).<br/>
+3. In the liberation of \(\mathrm{H}_2\) from steam by iron at high temperature, the reaction produces ferrosoferric oxide:
+\[
+3\mathrm{Fe}^0 + 4\mathrm{H}_2\mathrm{O} \to \mathrm{Fe}_3\mathrm{O}_4 + 4\mathrm{H}_2
+\]
+Iron is oxidised from oxidation state \(0\) to a mixed \(+2\) and \(+3\) state.<br/>
+4. In the formation of iron pentacarbonyl, \(\mathrm{Fe}(\mathrm{CO})_5\), iron metal reacts with neutral carbon monoxide ligands:
+\[
+\mathrm{Fe}^0 + 5\mathrm{CO} \to [\mathrm{Fe}^0(\mathrm{CO})_5]
+\]
+Because \(\mathrm{CO}\) is a neutral ligand, the oxidation state of iron in \(\mathrm{Fe}(\mathrm{CO})_5\) remains zero (\(0\)).</p>
+<p><strong>Step 3: Final Conclusion</strong><br/>
+The formation of \(\mathrm{Fe}(\mathrm{CO})_5\) from \(\mathrm{Fe}\) involves no change in the oxidation state of iron and therefore does not involve oxidation of iron.</p>
+<hr/>
+<p><strong>चरण 1: वैचारिक सिद्धांत</strong><br/>
+ऑक्सीकरण वह प्रक्रिया है जिसमें किसी तत्व की ऑक्सीकरण संख्या में वृद्धि (इलेक्ट्रॉनों का त्याग) होती है। यदि आयरन की ऑक्सीकरण संख्या में कोई वृद्धि नहीं होती है, तो उस प्रक्रम में आयरन का ऑक्सीकरण नहीं होता।</p>
+<p><strong>चरण 2: प्रक्रमों का मूल्यांकन</strong><br/>
+1. लोहे पर जंग लगना: आयरन (\(\mathrm{Fe}^0\)) नमी व ऑक्सीजन से क्रिया कर \(\mathrm{Fe}_2\mathrm{O}_3 \cdot x\mathrm{H}_2\mathrm{O}\) (\(\mathrm{Fe}^{+3}\)) बनाता है, जो कि एक ऑक्सीकरण प्रक्रिया है।<br/>
+2. लोहे द्वारा \(\mathrm{CuSO}_4\) विलयन का रंगहीन होना: \(\mathrm{Fe}^0 + \mathrm{CuSO}_4 \to \mathrm{FeSO}_4 + \mathrm{Cu}\)। यहाँ आयरन की ऑक्सीकरण संख्या \(0\) से \(+2\) हो जाती है।<br/>
+3. उच्च ताप पर भाप से \(\mathrm{H}_2\) की मुक्ति: \(3\mathrm{Fe}^0 + 4\mathrm{H}_2\mathrm{O} \to \mathrm{Fe}_3\mathrm{O}_4 + 4\mathrm{H}_2\)। यहाँ आयरन \(0\) से \(+2\) तथा \(+3\) ऑक्सीकरण अवस्था में ऑक्सीकृत होता है।<br/>
+4. \(\mathrm{Fe}\) से \(\mathrm{Fe}(\mathrm{CO})_5\) का निर्माण: कार्बन मोनोऑक्साइड एक उदासीन लिगैंड है, अतः संकुल \(\mathrm{Fe}(\mathrm{CO})_5\) में आयरन की ऑक्सीकरण अवस्था शून्य (\(0\)) ही रहती है।</p>
+<p><strong>चरण 3: अंतिम निष्कर्ष</strong><br/>
+\(\mathrm{Fe}\) से \(\mathrm{Fe}(\mathrm{CO})_5\) के निर्माण में आयरन की ऑक्सीकरण संख्या अपरिवर्तित रहती है, अतः इसमें आयरन का ऑक्सीकरण नहीं होता है।</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>4.0000000</defaultgrade>
+    <penalty>0.2500000</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Rusting of iron sheets</p>]]></text>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Decolourisation of blue \(\mathrm{CuSO}_4\) solution by iron</p>]]></text>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Formation of \(\mathrm{Fe(CO)}_5\) from Fe</p>]]></text>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Liberation of \(\mathrm{H}_2\) from steam by iron at high temperature</p>]]></text>
+    </answer>
+    <tags>
+      <tag><text>standard:neet_ug</text></tag>
+      <tag><text>year:2015</text></tag>
+      <tag><text>lang:en</text></tag>
+      <tag><text>lang:hi</text></tag>
+      <tag><text>subject:chemistry</text></tag>
+      <tag><text>class:class_11</text></tag>
+      <tag><text>topic:types_of_redox_reactions</text></tag>
+      <tag><text>chapter:redox_reactions</text></tag>
+      <tag><text>typology:single_choice</text></tag>
+      <tag><text>difficulty:easy</text></tag>
+      <tag><text>blooms:understand</text></tag>
+      <tag><text>calculation:light</text></tag>
+      <tag><text>media:text</text></tag>
+      <tag><text>multiconcept:false</text></tag>
+    </tags>
+  </question>
+<question type="multichoice">
+    <name>
+      <text>NEET_UG_CHEMISTRY_2015_CHEMICAL_BONDING_MCQ_Q53 - Isoelectronic and isostructural pair of ions</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Which of the following pairs of ions are isoelectronic and isostructural?</p>
+<hr/>
+<p>आयनों का निम्नलिखित में से कौन-सा युग्म सम-इलेक्ट्रॉनी तथा सम-संरचनात्मक है?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>
+Isoelectronic species possess the identical total number of electrons. Isostructural species have the same hybridisation state of the central atom and the same three-dimensional geometry/molecular shape.</p>
+<p><strong>Step 2: Total Electron Count in \(\mathrm{ClO}_3^-\) and \(\mathrm{SO}_3^{2-}\)</strong><br/>
+1. For \(\mathrm{ClO}_3^-\):
+\[
+\text{Total electrons} = 17 (\mathrm{Cl}) + 3 \times 8 (\mathrm{O}) + 1 (\text{charge}) = 17 + 24 + 1 = 42\text{ electrons}
+\]
+2. For \(\mathrm{SO}_3^{2-}\):
+\[
+\text{Total electrons} = 16 (\mathrm{S}) + 3 \times 8 (\mathrm{O}) + 2 (\text{charge}) = 16 + 24 + 2 = 42\text{ electrons}
+\]
+Thus, \(\mathrm{ClO}_3^-\) and \(\mathrm{SO}_3^{2-}\) are isoelectronic.</p>
+<p><strong>Step 3: Geometry and Hybridisation</strong><br/>
+For both central atoms (\(\mathrm{Cl}\) in \(\mathrm{ClO}_3^-\) and \(\mathrm{S}\) in \(\mathrm{SO}_3^{2-}\)):
+\[
+\text{Steric Number} = \frac{1}{2} [V + M - C + A]
+\]
+- For \(\mathrm{ClO}_3^-\): \(\frac{1}{2}[7 + 0 - 0 + 1] = 4 \implies sp^3\) hybridisation with 3 bond pairs and 1 lone pair, giving a trigonal pyramidal shape.<br/>
+- For \(\mathrm{SO}_3^{2-}\): \(\frac{1}{2}[6 + 0 - 0 + 2] = 4 \implies sp^3\) hybridisation with 3 bond pairs and 1 lone pair, giving a trigonal pyramidal shape.</p>
+<p><strong>Step 4: Final Conclusion</strong><br/>
+Because both ions possess 42 electrons and exhibit a trigonal pyramidal shape, the pair \(\mathrm{ClO}_3^-\) and \(\mathrm{SO}_3^{2-}\) is both isoelectronic and isostructural.</p>
+<hr/>
+<p><strong>चरण 1: वैचारिक सिद्धांत</strong><br/>
+सम-इलेक्ट्रॉनी स्पीशीज में इलेक्ट्रॉनों की कुल संख्या समान होती है तथा सम-संरचनात्मक स्पीशीज में केंद्रीय परमाणु का संकरण और ज्यामितीय आकृति एक जैसी होती है।</p>
+<p><strong>चरण 2: इलेक्ट्रॉनों की कुल संख्या</strong><br/>
+- \(\mathrm{ClO}_3^-\) में कुल इलेक्ट्रॉन \(= 17 + 3(8) + 1 = 42\)<br/>
+- \(\mathrm{SO}_3^{2-}\) में कुल इलेक्ट्रॉन \(= 16 + 3(8) + 2 = 42\)<br/>
+अतः दोनों आयन सम-इलेक्ट्रॉनी हैं।</p>
+<p><strong>चरण 3: संकरण एवं ज्यामिति</strong><br/>
+दोनों में केंद्रीय परमाणु (\(\mathrm{Cl}\) तथा \(\mathrm{S}\)) \(sp^3\) संकरित हैं और प्रत्येक में 3 बंध युग्म तथा 1 एकाकी इलेक्ट्रॉन युग्म उपस्थित है। अतः दोनों की संरचना पिरामिडी (trigonal pyramidal) होती है।</p>
+<p><strong>चरण 4: अंतिम निष्कर्ष</strong><br/>
+अतः \(\mathrm{ClO}_3^-\) तथा \(\mathrm{SO}_3^{2-}\) सम-इलेक्ट्रॉनी तथा सम-संरचनात्मक आयन हैं।</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>4.0000000</defaultgrade>
+    <penalty>0.2500000</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>\(\mathrm{CO}_3^{2-}, \mathrm{SO}_3^{2-}\)</p>]]></text>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>\(\mathrm{ClO}_3^-, \mathrm{CO}_3^{2-}\)</p>]]></text>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>\(\mathrm{SO}_3^{2-}, \mathrm{NO}_3^-\)</p>]]></text>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>\(\mathrm{ClO}_3^-, \mathrm{SO}_3^{2-}\)</p>]]></text>
+    </answer>
+    <tags>
+      <tag><text>standard:neet_ug</text></tag>
+      <tag><text>year:2015</text></tag>
+      <tag><text>lang:en</text></tag>
+      <tag><text>lang:hi</text></tag>
+      <tag><text>subject:chemistry</text></tag>
+      <tag><text>class:class_11</text></tag>
+      <tag><text>topic:vsepr_theory</text></tag>
+      <tag><text>chapter:chemical_bonding_and_molecular_structure</text></tag>
+      <tag><text>typology:single_choice</text></tag>
+      <tag><text>difficulty:medium</text></tag>
+      <tag><text>blooms:analyze</text></tag>
+      <tag><text>calculation:light</text></tag>
+      <tag><text>media:text</text></tag>
+      <tag><text>multiconcept:false</text></tag>
+    </tags>
+  </question>
+<question type="multichoice">
+    <name>
+      <text>NEET_UG_CHEMISTRY_2015_CHEMICAL_BONDING_MCQ_Q54 - Correct bond order of oxygen species</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Which of the following options represents the correct bond order?</p>
+<hr/>
+<p>निम्नलिखित में से कौन-सा विकल्प सही बंध क्रम को प्रदर्शित करता है?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p><strong>Step 1: Relevant Principles</strong><br/>
+According to Molecular Orbital Theory (MOT), bond order is calculated using:
+\[
+\text{Bond Order} = \frac{N_b - N_a}{2}
+\]
+where \(N_b\) is the number of electrons in bonding molecular orbitals and \(N_a\) is the number in antibonding molecular orbitals.</p>
+<p><strong>Step 2: Step-by-Step Calculation for Oxygen Species</strong><br/>
+1. For \(\mathrm{O}_2\) (\(16\) electrons):
+\[
+\sigma 1s^2\ \sigma^*1s^2\ \sigma 2s^2\ \sigma^*2s^2\ \sigma 2p_z^2\ (\pi 2p_x^2 = \pi 2p_y^2)\ (\pi^*2p_x^1 = \pi^*2p_y^1)
+\]
+\[
+N_b = 10,\quad N_a = 6 \implies \text{Bond Order} = \frac{10 - 6}{2} = 2.0
+\]
+2. For \(\mathrm{O}_2^+\) (\(15\) electrons):
+One electron is removed from an antibonding orbital (\(\pi^* 2p\)):
+\[
+N_b = 10,\quad N_a = 5 \implies \text{Bond Order} = \frac{10 - 5}{2} = 2.5
+\]
+3. For \(\mathrm{O}_2^-\) (\(17\) electrons):
+One electron is added to an antibonding orbital (\(\pi^* 2p\)):
+\[
+N_b = 10,\quad N_a = 7 \implies \text{Bond Order} = \frac{10 - 7}{2} = 1.5
+\]</p>
+<p><strong>Step 3: Check and Final Answer</strong><br/>
+Arranging in increasing order:
+\[
+\mathrm{O}_2^-\ (1.5) < \mathrm{O}_2\ (2.0) < \mathrm{O}_2^+\ (2.5)
+\]
+Therefore, the correct relation is \(\mathrm{O}_2^- < \mathrm{O}_2 < \mathrm{O}_2^+\).</p>
+<hr/>
+<p><strong>चरण 1: आण्विक कक्षक सिद्धांत</strong><br/>
+आण्विक कक्षक सिद्धांत के अनुसार, बंध कोटि की गणना निम्नलिखित सूत्र से की जाती है:
+\[
+\text{बंध कोटि (Bond Order)} = \frac{N_b - N_a}{2}
+\]
+जहाँ \(N_b\) आबंधी कक्षकों में और \(N_a\) विपरीत-आबंधी कक्षकों में उपस्थित इलेक्ट्रॉनों की संख्या है।</p>
+<p><strong>चरण 2: बंध कोटि की गणना</strong><br/>
+1. \(\mathrm{O}_2\) (\(16\) इलेक्ट्रॉन): \(N_b = 10\), \(N_a = 6 \implies \text{बंध कोटि} = \frac{10 - 6}{2} = 2.0\)<br/>
+2. \(\mathrm{O}_2^+\) (\(15\) इलेक्ट्रॉन): एक विपरीत-आबंधी इलेक्ट्रॉन हटने पर, \(N_b = 10\), \(N_a = 5 \implies \text{बंध कोटि} = \frac{10 - 5}{2} = 2.5\)<br/>
+3. \(\mathrm{O}_2^-\) (\(17\) इलेक्ट्रॉन): एक विपरीत-आबंधी इलेक्ट्रॉन जुड़ने पर, \(N_b = 10\), \(N_a = 7 \implies \text{बंध कोटि} = \frac{10 - 7}{2} = 1.5\)</p>
+<p><strong>चरण 3: अंतिम निष्कर्ष</strong><br/>
+बंध कोटि का सही बढ़ता हुआ क्रम \(\mathrm{O}_2^- < \mathrm{O}_2 < \mathrm{O}_2^+\) है।</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>4.0000000</defaultgrade>
+    <penalty>0.2500000</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>\(\mathrm{O}_2^- > \mathrm{O}_2 > \mathrm{O}_2^+\)</p>]]></text>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>\(\mathrm{O}_2^- < \mathrm{O}_2 > \mathrm{O}_2^+\)</p>]]></text>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>\(\mathrm{O}_2^- > \mathrm{O}_2 < \mathrm{O}_2^+\)</p>]]></text>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>\(\mathrm{O}_2^- < \mathrm{O}_2 < \mathrm{O}_2^+\)</p>]]></text>
+    </answer>
+    <tags>
+      <tag><text>standard:neet_ug</text></tag>
+      <tag><text>year:2015</text></tag>
+      <tag><text>lang:en</text></tag>
+      <tag><text>lang:hi</text></tag>
+      <tag><text>subject:chemistry</text></tag>
+      <tag><text>class:class_11</text></tag>
+      <tag><text>topic:molecular_orbital_theory</text></tag>
+      <tag><text>chapter:chemical_bonding_and_molecular_structure</text></tag>
+      <tag><text>typology:single_choice</text></tag>
+      <tag><text>difficulty:easy</text></tag>
+      <tag><text>blooms:apply</text></tag>
+      <tag><text>calculation:light</text></tag>
+      <tag><text>media:text</text></tag>
+      <tag><text>multiconcept:false</text></tag>
+    </tags>
+  </question>
+<question type="multichoice">
+    <name>
+      <text>NEET_UG_CHEMISTRY_2015_P_BLOCK_MCQ_Q55 - Distinctive property between nitrogen dioxide and sulphur dioxide</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Nitrogen dioxide and sulphur dioxide have some properties in common. Which property is shown by one of these compounds, but not by the other?</p>
+<hr/>
+<p>नाइट्रोजन डाइऑक्साइड और सल्फर डाइऑक्साइड में कुछ गुण समान होते हैं। निम्नलिखित में से कौन-सा गुण इन यौगिकों में से एक दर्शाता है, परन्तु दूसरा नहीं?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p><strong>Step 1: Shared Characteristics</strong><br/>
+Both nitrogen dioxide (\(\mathrm{NO}_2\)) and sulphur dioxide (\(\mathrm{SO}_2\)) are acidic oxides that dissolve readily in water to form acids (\(\mathrm{HNO}_2/\mathrm{HNO}_3\) and \(\mathrm{H}_2\mathrm{SO}_3\)), contributing directly to acid rain. Both gases can also exhibit redox properties under appropriate chemical conditions.</p>
+<p><strong>Step 2: Distinctive Characteristic</strong><br/>
+Sulphur dioxide (\(\mathrm{SO}_2\)) and its salts (sulphites and bisulphites) possess potent antimicrobial and antioxidant activities, preventing discoloration and spoilage in dried fruits, fruit juices, and wines. Consequently, \(\mathrm{SO}_2\) is widely utilized as a regulated food preservative. In stark contrast, nitrogen dioxide (\(\mathrm{NO}_2\)) is highly toxic and irritant, with no application whatsoever as a food preservative.</p>
+<p><strong>Step 3: Final Conclusion</strong><br/>
+The property that is displayed by sulphur dioxide but not by nitrogen dioxide is being used as a food preservative.</p>
+<hr/>
+<p><strong>चरण 1: उभयनिष्ठ गुणधर्म</strong><br/>
+नाइट्रोजन डाइऑक्साइड (\(\mathrm{NO}_2\)) तथा सल्फर डाइऑक्साइड (\(\mathrm{SO}_2\)) दोनों ही अम्लीय ऑक्साइड हैं, जल में अत्यधिक विलेय हैं तथा वायुमंडलीय नमी के साथ अम्ल बनाकर अम्लीय वर्षा (acid-rain) का निर्माण करते हैं।</p>
+<p><strong>चरण 2: विभेदक गुणधर्म</strong><br/>
+सल्फर डाइऑक्साइड (\(\mathrm{SO}_2\)) का उपयोग सूक्ष्मजीवरोधी और ऑक्सीकरणरोधी गुणों के कारण खाद्य पदार्थों (जैसे सूखे मेवे, शर्बत आदि) के परिरक्षण (food preservative) में सुरक्षित सीमाओं में किया जाता है। इसके विपरीत, \(\mathrm{NO}_2\) एक अत्यधिक विषैली गैस है और इसका उपयोग खाद्य परिरक्षक के रूप में कदापि नहीं किया जाता।</p>
+<p><strong>चरण 3: अंतिम निष्कर्ष</strong><br/>
+अतः वह गुण जो केवल एक यौगिक प्रदर्शित करता है, खाद्य परिरक्षक के रूप में प्रयुक्त होना (Is used as a food-preservative) है।</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>4.0000000</defaultgrade>
+    <penalty>0.2500000</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Forms acid-rain</p>]]></text>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Is a reducing agent</p>]]></text>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Is soluble in water</p>]]></text>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Is used as a food-preservative</p>]]></text>
+    </answer>
+    <tags>
+      <tag><text>standard:neet_ug</text></tag>
+      <tag><text>year:2015</text></tag>
+      <tag><text>lang:en</text></tag>
+      <tag><text>lang:hi</text></tag>
+      <tag><text>subject:chemistry</text></tag>
+      <tag><text>class:class_12</text></tag>
+      <tag><text>topic:oxides_of_nitrogen_and_sulphur</text></tag>
+      <tag><text>chapter:the_p_block_elements</text></tag>
+      <tag><text>typology:single_choice</text></tag>
+      <tag><text>difficulty:medium</text></tag>
+      <tag><text>blooms:remember</text></tag>
+      <tag><text>calculation:light</text></tag>
+      <tag><text>media:text</text></tag>
+      <tag><text>multiconcept:false</text></tag>
+    </tags>
+  </question>
+<question type="multichoice">
+    <name>
+      <text>NEET_UG_CHEMISTRY_2015_CHEMICAL_BONDING_MCQ_Q56 - Maximum bond angle at nitrogen in nitrogen species</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Maximum bond angle at nitrogen is present in which of the following?</p>
+<hr/>
+<p>निम्नलिखित में से किसमें नाइट्रोजन पर अधिकतम बंध कोण उपस्थित है?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>
+The bond angle around a central atom depends on its hybridisation state, the number of electron domains (steric number), and the repulsive interactions involving lone pairs or unpaired electrons according to VSEPR theory.</p>
+<p><strong>Step 2: Analysis of Given Nitrogen Species</strong><br/>
+1. In the nitronium ion, \(\mathrm{NO}_2^+\), nitrogen has two \(\sigma\)-bond pairs and zero non-bonding valence electrons. The steric number is \(2\), corresponding to \(sp\) hybridisation. The molecular geometry is strictly linear:
+\[
+\text{Bond angle } (\mathrm{O}-\mathrm{N}-\mathrm{O}) = 180^\circ
+\]
+2. In the nitrate ion, \(\mathrm{NO}_3^-\), nitrogen forms three \(\sigma\)-bonds with zero lone pairs. The steric number is \(3\), corresponding to \(sp^2\) hybridisation and a trigonal planar shape:
+\[
+\text{Bond angle } (\mathrm{O}-\mathrm{N}-\mathrm{O}) = 120^\circ
+\]
+3. In nitrogen dioxide, \(\mathrm{NO}_2\), nitrogen has two \(\sigma\)-bonds and one single unpaired electron. The repulsive force of an odd electron is less than that of a full lone pair, giving a bent shape with a bond angle of approximately \(134^\circ\).<br/>
+4. In the nitrite ion, \(\mathrm{NO}_2^-\), nitrogen has two \(\sigma\)-bonds and one complete lone pair. The stronger lone pair–bond pair repulsion decreases the bond angle to approximately \(115^\circ\).</p>
+<p><strong>Step 3: Final Conclusion</strong><br/>
+The linear species \(\mathrm{NO}_2^+\) exhibits the maximum bond angle of \(180^\circ\).</p>
+<hr/>
+<p><strong>चरण 1: वैचारिक सिद्धांत</strong><br/>
+केंद्रीय परमाणु पर बंध कोण उसके संकरण और VSEPR सिद्धांत के अनुसार उपस्थित एकाकी युग्मों या अयुग्मित इलेक्ट्रॉनों के प्रतिकर्षण पर निर्भर करता है।</p>
+<p><strong>चरण 2: विभिन्न स्पीशीज का विश्लेषण</strong><br/>
+1. नाइट्रोनियम आयन (\(\mathrm{NO}_2^+\)) में केंद्रीय नाइट्रोजन पर 2 बंध युग्म और 0 एकाकी युग्म होते हैं। इसका संकरण \(sp\) होता है और इसकी ज्यामिति पूर्णतः रेखीय होती है:
+\[
+\text{बंध कोण} = 180^\circ
+\]
+2. \(\mathrm{NO}_2\) में एक अयुग्मित इलेक्ट्रॉन के प्रतिकर्षण के कारण बंध कोण लगभग \(134^\circ\) होता है।<br/>
+3. \(\mathrm{NO}_3^-\) त्रिकोणीय समतलीय (\(sp^2\)) होता है तथा इसका बंध कोण \(120^\circ\) होता है।<br/>
+4. \(\mathrm{NO}_2^-\) में एक एकाकी इलेक्ट्रॉन युग्म के प्रतिकर्षण के कारण बंध कोण घटकर लगभग \(115^\circ\) रह जाता है।</p>
+<p><strong>चरण 3: अंतिम निष्कर्ष</strong><br/>
+अतः नाइट्रोजन पर अधिकतम बंध कोण \(\mathrm{NO}_2^+\) में उपस्थित होता है।</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>4.0000000</defaultgrade>
+    <penalty>0.2500000</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>\(\mathrm{NO}_2\)</p>]]></text>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>\(\mathrm{NO}_2^-\)</p>]]></text>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>\(\mathrm{NO}_2^+\)</p>]]></text>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>\(\mathrm{NO}_3^-\)</p>]]></text>
+    </answer>
+    <tags>
+      <tag><text>standard:neet_ug</text></tag>
+      <tag><text>year:2015</text></tag>
+      <tag><text>lang:en</text></tag>
+      <tag><text>lang:hi</text></tag>
+      <tag><text>subject:chemistry</text></tag>
+      <tag><text>class:class_11</text></tag>
+      <tag><text>topic:vsepr_theory</text></tag>
+      <tag><text>chapter:chemical_bonding_and_molecular_structure</text></tag>
+      <tag><text>typology:single_choice</text></tag>
+      <tag><text>difficulty:easy</text></tag>
+      <tag><text>blooms:analyze</text></tag>
+      <tag><text>calculation:light</text></tag>
+      <tag><text>media:text</text></tag>
+      <tag><text>multiconcept:false</text></tag>
+    </tags>
+  </question>
+<question type="multichoice">
+    <name>
+      <text>NEET_UG_CHEMISTRY_2015_D_AND_F_BLOCK_MCQ_Q57 - Transition metal ion giving magnetic moment of 2 point 84 BM</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Magnetic moment \(2.84\text{ BM}\) is given by (At. no. \(\mathrm{Ni} = 28\), \(\mathrm{Ti} = 22\), \(\mathrm{Cr} = 24\), \(\mathrm{Co} = 27\))</p>
+<hr/>
+<p>\(2.84\text{ BM}\) चुंबकीय आघूर्ण किस आयन द्वारा दर्शाया जाता है? (परमाणु क्रमांक \(\mathrm{Ni} = 28\), \(\mathrm{Ti} = 22\), \(\mathrm{Cr} = 24\), \(\mathrm{Co} = 27\))</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p><strong>Step 1: Relevant Formula</strong><br/>
+The spin-only magnetic moment (\(\mu\)) of a transition metal ion is given by:
+\[
+\mu = \sqrt{n(n + 2)}\text{ BM}
+\]
+where \(n\) is the number of unpaired electrons and \(\text{BM}\) denotes Bohr Magnetons.</p>
+<p><strong>Step 2: Number of Unpaired Electrons for \(\mu = 2.84\text{ BM}\)</strong><br/>
+Equating \(\mu\) to \(2.84\):
+\[
+\sqrt{n(n + 2)} = 2.84 \implies n(n + 2) \approx (2.84)^2 \approx 8.0 \implies n = 2
+\]
+Thus, the ion must contain exactly \(2\) unpaired electrons.</p>
+<p><strong>Step 3: Electronic Configurations of the Ions</strong><br/>
+1. For \(\mathrm{Ti}^{3+}\) (\(Z = 22\)): Ground configuration is \([\mathrm{Ar}] 3d^1\), so \(n = 1\), giving \(\mu = \sqrt{1(3)} = 1.73\text{ BM}\).<br/>
+2. For \(\mathrm{Cr}^{3+}\) (\(Z = 24\)): Ground configuration is \([\mathrm{Ar}] 3d^3\), so \(n = 3\), giving \(\mu = \sqrt{3(5)} = 3.87\text{ BM}\).<br/>
+3. For \(\mathrm{Co}^{2+}\) (\(Z = 27\)): Ground configuration is \([\mathrm{Ar}] 3d^7\), with 3 unpaired electrons (\(n = 3\)), giving \(\mu = \sqrt{3(5)} = 3.87\text{ BM}\).<br/>
+4. For \(\mathrm{Ni}^{2+}\) (\(Z = 28\)): Ground configuration is \([\mathrm{Ar}] 3d^8\). In the \(3d\) subshell, eight electrons pair up into three orbitals, leaving two singly occupied orbitals. Hence, \(n = 2\), giving:
+\[
+\mu = \sqrt{2(2 + 2)} = \sqrt{8} \approx 2.83-2.84\text{ BM}
+\]</p>
+<p><strong>Step 4: Final Conclusion</strong><br/>
+The ion that gives a magnetic moment of \(2.84\text{ BM}\) is \(\mathrm{Ni}^{2+}\).</p>
+<hr/>
+<p><strong>चरण 1: प्रयुक्त सूत्र</strong><br/>
+केवल-प्रचक्रण चुंबकीय आघूर्ण (\(\mu\)) की गणना का सूत्र है:
+\[
+\mu = \sqrt{n(n + 2)}\text{ BM}
+\]
+जहाँ \(n\) अयुग्मित इलेक्ट्रॉनों की संख्या है।</p>
+<p><strong>चरण 2: \(2.84\text{ BM}\) के लिए अयुग्मित इलेक्ट्रॉन</strong><br/>
+\[
+\sqrt{n(n + 2)} = 2.84 \implies n(n + 2) \approx 8 \implies n = 2
+\]
+अतः आयन में \(2\) अयुग्मित इलेक्ट्रॉन होने चाहिए।</p>
+<p><strong>चरण 3: आयनों का इलेक्ट्रॉनिक विन्यास</strong><br/>
+1. \(\mathrm{Ti}^{3+}\) (\(Z = 22\)): \([\mathrm{Ar}] 3d^1 \implies n = 1 \implies \mu = 1.73\text{ BM}\)<br/>
+2. \(\mathrm{Cr}^{3+}\) (\(Z = 24\)): \([\mathrm{Ar}] 3d^3 \implies n = 3 \implies \mu = 3.87\text{ BM}\)<br/>
+3. \(\mathrm{Co}^{2+}\) (\(Z = 27\)): \([\mathrm{Ar}] 3d^7 \implies n = 3 \implies \mu = 3.87\text{ BM}\)<br/>
+4. \(\mathrm{Ni}^{2+}\) (\(Z = 28\)): \([\mathrm{Ar}] 3d^8\)। इसमें आठ इलेक्ट्रॉन होने के कारण \(3\) कक्षक युग्मित तथा \(2\) कक्षक अयुग्मित होते हैं, जिससे \(n = 2\):
+\[
+\mu = \sqrt{2(4)} = \sqrt{8} \approx 2.84\text{ BM}
+\]</p>
+<p><strong>चरण 4: अंतिम निष्कर्ष</strong><br/>
+अतः \(2.84\text{ BM}\) का चुंबकीय आघूर्ण \(\mathrm{Ni}^{2+}\) द्वारा दर्शाया जाता है।</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>4.0000000</defaultgrade>
+    <penalty>0.2500000</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>\(\mathrm{Co}^{2+}\)</p>]]></text>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>\(\mathrm{Ti}^{3+}\)</p>]]></text>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>\(\mathrm{Cr}^{3+}\)</p>]]></text>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>\(\mathrm{Ni}^{2+}\)</p>]]></text>
+    </answer>
+    <tags>
+      <tag><text>standard:neet_ug</text></tag>
+      <tag><text>year:2015</text></tag>
+      <tag><text>lang:en</text></tag>
+      <tag><text>lang:hi</text></tag>
+      <tag><text>subject:chemistry</text></tag>
+      <tag><text>class:class_12</text></tag>
+      <tag><text>topic:magnetic_properties_of_transition_metals</text></tag>
+      <tag><text>chapter:the_d_and_f_block_elements</text></tag>
+      <tag><text>typology:single_choice</text></tag>
+      <tag><text>difficulty:easy</text></tag>
+      <tag><text>blooms:apply</text></tag>
+      <tag><text>calculation:light</text></tag>
+      <tag><text>media:text</text></tag>
+      <tag><text>multiconcept:false</text></tag>
+    </tags>
+  </question>
+<question type="multichoice">
+    <name>
+      <text>NEET_UG_CHEMISTRY_2015_COORDINATION_COMPOUNDS_MCQ_Q58 - Complex of cobalt III chloride not giving test for chloride ions with silver nitrate</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Cobalt (III) chloride forms several octahedral complexes with ammonia. Which of the following will not give test for chloride ions with silver nitrate at \(25^{\circ}\mathrm{C}\)?</p>
+<hr/>
+<p>कोबाल्ट (III) क्लोराइड अमोनिया के साथ कई अष्टफलकीय संकुल बनाता है। निम्नलिखित में से कौन \(25^{\circ}\mathrm{C}\) पर सिल्वर नाइट्रेट के साथ क्लोराइड आयनों का परीक्षण नहीं देगा?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>
+According to Werner's coordination theory, an octahedral complex of cobalt(III) has a coordination number of \(6\). Only the species located outside the coordination sphere (ionisation sphere) dissociate in aqueous solution to yield free ions that react with silver nitrate (\(\mathrm{AgNO}_3\)) to form a precipitate of silver chloride (\(\mathrm{AgCl}\)). Ligands within the coordination sphere are directly bonded to the metal center and do not ionise.</p>
+<p><strong>Step 2: Formulations of the Given Complexes</strong><br/>
+1. \(\mathrm{CoCl}_3 \cdot 6\mathrm{NH}_3 \implies [\mathrm{Co}(\mathrm{NH}_3)_6]\mathrm{Cl}_3\): Releases \(3\ \mathrm{Cl}^-\) ions per formula unit, precipitating \(3\) moles of \(\mathrm{AgCl}\).<br/>
+2. \(\mathrm{CoCl}_3 \cdot 5\mathrm{NH}_3 \implies [\mathrm{Co}(\mathrm{NH}_3)_5\mathrm{Cl}]\mathrm{Cl}_2\): Releases \(2\ \mathrm{Cl}^-\) ions per formula unit, precipitating \(2\) moles of \(\mathrm{AgCl}\).<br/>
+3. \(\mathrm{CoCl}_3 \cdot 4\mathrm{NH}_3 \implies [\mathrm{Co}(\mathrm{NH}_3)_4\mathrm{Cl}_2]\mathrm{Cl}\): Releases \(1\ \mathrm{Cl}^-\) ion per formula unit, precipitating \(1\) mole of \(\mathrm{AgCl}\).<br/>
+4. \(\mathrm{CoCl}_3 \cdot 3\mathrm{NH}_3 \implies [\mathrm{Co}(\mathrm{NH}_3)_3\mathrm{Cl}_3]\): All three chloride ions and all three ammonia molecules occupy the coordination sphere to fulfill the coordination number of \(6\). No chloride ions remain outside the coordination sphere.</p>
+<p><strong>Step 3: Final Conclusion</strong><br/>
+Because \([\mathrm{Co}(\mathrm{NH}_3)_3\mathrm{Cl}_3]\) does not ionise in water to produce free chloride ions, it will not yield a precipitate of \(\mathrm{AgCl}\) with silver nitrate. Therefore, \(\mathrm{CoCl}_3 \cdot 3\mathrm{NH}_3\) will not give the test for chloride ions.</p>
+<hr/>
+<p><strong>चरण 1: वैचारिक सिद्धांत</strong><br/>
+वर्नर के उपसहसंयोजन सिद्धांत के अनुसार, कोबाल्ट(III) के अष्टफलकीय संकुलों की उपसहसंयोजन संख्या \(6\) होती है। जलीय विलयन में केवल उपसहसंयोजन सत्ता (coordination sphere) के बाहर उपस्थित आयन ही आयनित होकर सिल्वर नाइट्रेट (\(\mathrm{AgNO}_3\)) के साथ \(\mathrm{AgCl}\) का अवक्षेप बनाते हैं।</p>
+<p><strong>चरण 2: संकुलों का सूत्र निरूपण</strong><br/>
+1. \(\mathrm{CoCl}_3 \cdot 6\mathrm{NH}_3 \implies [\mathrm{Co}(\mathrm{NH}_3)_6]\mathrm{Cl}_3\): विलयन में \(3\) क्लोराइड आयन मुक्त करता है।<br/>
+2. \(\mathrm{CoCl}_3 \cdot 5\mathrm{NH}_3 \implies [\mathrm{Co}(\mathrm{NH}_3)_5\mathrm{Cl}]\mathrm{Cl}_2\): विलयन में \(2\) क्लोराइड आयन मुक्त करता है।<br/>
+3. \(\mathrm{CoCl}_3 \cdot 4\mathrm{NH}_3 \implies [\mathrm{Co}(\mathrm{NH}_3)_4\mathrm{Cl}_2]\mathrm{Cl}\): विलयन में \(1\) क्लोराइड आयन मुक्त करता है।<br/>
+4. \(\mathrm{CoCl}_3 \cdot 3\mathrm{NH}_3 \implies [\mathrm{Co}(\mathrm{NH}_3)_3\mathrm{Cl}_3]\): सभी तीनों क्लोराइड आयन और तीनों अमोनिया अणु उपसहसंयोजन सत्ता के भीतर केंद्रीय आयन से जुड़े होते हैं। सत्ता के बाहर कोई क्लोराइड आयन उपस्थित नहीं होता।</p>
+<p><strong>चरण 3: अंतिम निष्कर्ष</strong><br/>
+जलीय विलयन में कोई मुक्त क्लोराइड आयन न होने के कारण \(\mathrm{CoCl}_3 \cdot 3\mathrm{NH}_3\) सिल्वर नाइट्रेट के साथ कोई अवक्षेप नहीं देता है।</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>4.0000000</defaultgrade>
+    <penalty>0.2500000</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>\(\mathrm{CoCl}_3 \cdot 3\mathrm{NH}_3\)</p>]]></text>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>\(\mathrm{CoCl}_3 \cdot 4\mathrm{NH}_3\)</p>]]></text>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>\(\mathrm{CoCl}_3 \cdot 5\mathrm{NH}_3\)</p>]]></text>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>\(\mathrm{CoCl}_3 \cdot 6\mathrm{NH}_3\)</p>]]></text>
+    </answer>
+    <tags>
+      <tag><text>standard:neet_ug</text></tag>
+      <tag><text>year:2015</text></tag>
+      <tag><text>lang:en</text></tag>
+      <tag><text>lang:hi</text></tag>
+      <tag><text>subject:chemistry</text></tag>
+      <tag><text>class:class_12</text></tag>
+      <tag><text>topic:werners_theory</text></tag>
+      <tag><text>chapter:coordination_compounds</text></tag>
+      <tag><text>typology:single_choice</text></tag>
+      <tag><text>difficulty:easy</text></tag>
+      <tag><text>blooms:understand</text></tag>
+      <tag><text>calculation:light</text></tag>
+      <tag><text>media:text</text></tag>
+      <tag><text>multiconcept:false</text></tag>
+    </tags>
+  </question>
+<question type="multichoice">
+    <name>
+      <text>NEET_UG_CHEMISTRY_2015_COORDINATION_COMPOUNDS_MCQ_Q59 - Electronic configuration and spin state of hexacyanocobaltate III ion</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Which of these statements about \([\mathrm{Co}(\mathrm{CN})_6]^{3-}\) is true?</p>
+<hr/>
+<p>\([\mathrm{Co}(\mathrm{CN})_6]^{3-}\) के संदर्भ में निम्नलिखित कथनों में से कौन-सा सत्य है?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p><strong>Step 1: Oxidation State and Configuration of Central Metal</strong><br/>
+In the complex ion \([\mathrm{Co}(\mathrm{CN})_6]^{3-}\):
+\[
+x + 6(-1) = -3 \implies x = +3
+\]
+The central cobalt ion is \(\mathrm{Co}^{3+}\). The atomic number of cobalt is \(27\). The electronic configuration of the neutral atom is \([\mathrm{Ar}] 3d^7 4s^2\). For \(\mathrm{Co}^{3+}\), the configuration is:
+\[
+\mathrm{Co}^{3+}: [\mathrm{Ar}] 3d^6
+\]</p>
+<p><strong>Step 2: Crystal Field Splitting and Electron Pairing</strong><br/>
+Cyanide (\(\mathrm{CN}^-\)) is a strong-field ligand lying near the top of the spectrochemical series. It produces a very large crystal field splitting energy (\(\Delta_o\)) that significantly exceeds the electron pairing energy (\(P\)):
+\[
+\Delta_o > P
+\]
+Consequently, all six \(3d\) electrons enter the lower-energy \(t_{2g}\) orbitals and pair up completely, rather than occupying the higher-energy \(e_g\) orbitals:
+\[
+\text{Configuration} = t_{2g}^6 e_g^0
+\]</p>
+<p><strong>Step 3: Magnetic Character and Spin State</strong><br/>
+Because all six electrons are paired in the \(t_{2g}\) orbitals, there are zero unpaired electrons (\(n = 0\)). The complete pairing induced by the strong field yields a low-spin (inner-orbital) complex.</p>
+<p><strong>Step 4: Final Conclusion</strong><br/>
+The ion \([\mathrm{Co}(\mathrm{CN})_6]^{3-}\) has no unpaired electrons and exists in a low-spin configuration.</p>
+<hr/>
+<p><strong>चरण 1: केंद्रीय धातु की ऑक्सीकरण अवस्था एवं विन्यास</strong><br/>
+संकुल \([\mathrm{Co}(\mathrm{CN})_6]^{3-}\) में:
+\[
+x + 6(-1) = -3 \implies x = +3
+\]
+कोबाल्ट की ऑक्सीकरण अवस्था \(+3\) है। \(\mathrm{Co}\) (\(Z = 27\)) का विन्यास \([\mathrm{Ar}] 3d^7 4s^2\) होता है, अतः \(\mathrm{Co}^{3+}\) का विन्यास \([\mathrm{Ar}] 3d^6\) है।</p>
+<p><strong>चरण 2: क्रिस्टल क्षेत्र विपाटन और युग्मन</strong><br/>
+सायनाइड (\(\mathrm{CN}^-\)) स्पेक्ट्रमी-रासायनिक श्रेणी में एक प्रबल क्षेत्र लिगैंड है, जिसके कारण क्रिस्टल क्षेत्र विपाटन ऊर्जा युग्मन ऊर्जा से अधिक होती है (\(\Delta_o > P\))। फलस्वरूप सभी \(6\) इलेक्ट्रॉन निम्न ऊर्जा वाले \(t_{2g}\) कक्षकों में युग्मित हो जाते हैं:
+\[
+t_{2g}^6 e_g^0
+\]</p>
+<p><strong>चरण 3: प्रचक्रण अवस्था एवं अयुग्मित इलेक्ट्रॉन</strong><br/>
+सभी इलेक्ट्रॉन युग्मित होने के कारण अयुग्मित इलेक्ट्रॉनों की संख्या शून्य (\(n = 0\)) होती है तथा यह एक निम्न-प्रचक्रण (low-spin) संकुल बनाता है।</p>
+<p><strong>चरण 4: अंतिम निष्कर्ष</strong><br/>
+अतः \([\mathrm{Co}(\mathrm{CN})_6]^{3-}\) में कोई अयुग्मित इलेक्ट्रॉन नहीं होता है और यह निम्न-प्रचक्रण विन्यास में रहता है।</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>4.0000000</defaultgrade>
+    <penalty>0.2500000</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>\([\mathrm{Co}(\mathrm{CN})_6]^{3-}\) has no unpaired electrons and will be in a low-spin configuration.</p>]]></text>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>\([\mathrm{Co}(\mathrm{CN})_6]^{3-}\) has four unpaired electrons and will be in a low-spin configuration.</p>]]></text>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>\([\mathrm{Co}(\mathrm{CN})_6]^{3-}\) has four unpaired electrons and will be in a high-spin configuration.</p>]]></text>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>\([\mathrm{Co}(\mathrm{CN})_6]^{3-}\) has no unpaired electrons and will be in a high-spin configuration.</p>]]></text>
+    </answer>
+    <tags>
+      <tag><text>standard:neet_ug</text></tag>
+      <tag><text>year:2015</text></tag>
+      <tag><text>lang:en</text></tag>
+      <tag><text>lang:hi</text></tag>
+      <tag><text>subject:chemistry</text></tag>
+      <tag><text>class:class_12</text></tag>
+      <tag><text>topic:crystal_field_theory</text></tag>
+      <tag><text>chapter:coordination_compounds</text></tag>
+      <tag><text>typology:single_choice</text></tag>
+      <tag><text>difficulty:medium</text></tag>
+      <tag><text>blooms:understand</text></tag>
+      <tag><text>calculation:light</text></tag>
+      <tag><text>media:text</text></tag>
+      <tag><text>multiconcept:false</text></tag>
+    </tags>
+  </question>
+<question type="multichoice">
+    <name>
+      <text>NEET_UG_CHEMISTRY_2015_CHEMICAL_KINETICS_MCQ_Q60 - Determination of activation energy from graph slope</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>The activation energy of a reaction can be determined from the slope of which of the following graphs?</p>
+<hr/>
+<p>किसी अभिक्रिया की सक्रियण ऊर्जा निम्नलिखित में से किस ग्राफ की ढाल (प्रवणता) से ज्ञात की जा सकती है?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p><strong>Step 1: Relevant Formula</strong><br/>
+The temperature dependence of the rate constant of a chemical reaction is described by the Arrhenius equation:
+\[
+k = A e^{-E_a / RT}
+\]
+where \(k\) is the rate constant, \(A\) is the pre-exponential factor, \(E_a\) is the activation energy, \(R\) is the universal gas constant, and \(T\) is the absolute temperature.</p>
+<p><strong>Step 2: Logarithmic Transformation</strong><br/>
+Taking the natural logarithm of both sides:
+\[
+\ln k = \ln A - \frac{E_a}{RT} = \left(-\frac{E_a}{R}\right)\left(\frac{1}{T}\right) + \ln A
+\]
+This expression is of the standard linear form \(y = mx + c\), where:
+\[
+y = \ln k,\quad x = \frac{1}{T},\quad m = -\frac{E_a}{R},\quad c = \ln A
+\]</p>
+<p><strong>Step 3: Final Conclusion</strong><br/>
+A plot of \(\ln k\) against \(\frac{1}{T}\) yields a straight line with a slope equal to \(-\frac{E_a}{R}\). Hence, the activation energy can be determined directly from the slope of the graph of \(\ln k\) vs \(\frac{1}{T}\) as \(E_a = -\text{slope} \times R\).</p>
+<hr/>
+<p><strong>चरण 1: प्रयुक्त सूत्र</strong><br/>
+अभिक्रिया के वेग स्थिरांक की ताप पर निर्भरता आरेनियस समीकरण द्वारा दी जाती है:
+\[
+k = A e^{-E_a / RT}
+\]
+जहाँ \(k\) वेग स्थिरांक, \(A\) आरेनियस गुणक, \(E_a\) सक्रियण ऊर्जा, \(R\) सार्वत्रिक गैस नियतांक और \(T\) परमताप है।</p>
+<p><strong>चरण 2: रैखिक समीकरण में रूपांतरण</strong><br/>
+दोनों पक्षों का प्राकृतिक लघुगणक (\(\ln\)) लेने पर:
+\[
+\ln k = \left(-\frac{E_a}{R}\right)\left(\frac{1}{T}\right) + \ln A
+\]
+यह सरल रेखा के समीकरण \(y = mx + c\) के अनुरूप है, जहाँ:
+\[
+y = \ln k,\quad x = \frac{1}{T},\quad m = -\frac{E_a}{R}
+\]</p>
+<p><strong>चरण 3: अंतिम निष्कर्ष</strong><br/>
+\(\ln k\) और \(\frac{1}{T}\) के मध्य खींचा गया आलेख एक सरल रेखा देता है जिसकी ढाल \(-\frac{E_a}{R}\) होती है। अतः सक्रियण ऊर्जा \(\ln k\) बनाम \(\frac{1}{T}\) के ग्राफ की ढाल से ज्ञात की जा सकती है।</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>4.0000000</defaultgrade>
+    <penalty>0.2500000</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>\(\ln k\) vs T</p>]]></text>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>\(\frac{\ln k}{T}\) vs T</p>]]></text>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>\(\ln k\) vs \(\frac{1}{T}\)</p>]]></text>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>\(\frac{T}{\ln k}\) vs \(\frac{1}{T}\)</p>]]></text>
+    </answer>
+    <tags>
+      <tag><text>standard:neet_ug</text></tag>
+      <tag><text>year:2015</text></tag>
+      <tag><text>lang:en</text></tag>
+      <tag><text>lang:hi</text></tag>
+      <tag><text>subject:chemistry</text></tag>
+      <tag><text>class:class_12</text></tag>
+      <tag><text>topic:arrhenius_equation</text></tag>
+      <tag><text>chapter:chemical_kinetics</text></tag>
+      <tag><text>typology:single_choice</text></tag>
+      <tag><text>difficulty:easy</text></tag>
+      <tag><text>blooms:understand</text></tag>
+      <tag><text>calculation:light</text></tag>
+      <tag><text>media:equation</text></tag>
+      <tag><text>multiconcept:false</text></tag>
+    </tags>
+  </question>
+<question type="multichoice">
+    <name>
+      <text>NEET_UG_CHEMISTRY_2015_SOLUTIONS_MCQ_Q61 - Thermodynamic property not equal to zero for ideal solution</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Which one is not equal to zero for an ideal solution?</p>
+<hr/>
+<p>एक आदर्श विलयन के लिए निम्नलिखित में से कौन-सा शून्य के बराबर नहीं होता है?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p><strong>Step 1: Definition of an Ideal Solution</strong><br/>
+An ideal solution is defined as one in which the intermolecular interactions between solute and solvent molecules (\(\mathrm{A}-\mathrm{B}\)) are identical in strength to the interactions between like molecules (\(\mathrm{A}-\mathrm{A}\) and \(\mathrm{B}-\mathrm{B}\)). It obeys Raoult's law over the entire range of concentrations and temperatures.</p>
+<p><strong>Step 2: Thermodynamic Conditions for an Ideal Solution</strong><br/>
+1. Because the intermolecular forces are identical, no heat is absorbed or released during mixing:
+\[
+\Delta H_{\text{mix}} = 0
+\]
+2. The total volume of the solution equals the sum of the volumes of the unmixed components:
+\[
+\Delta V_{\text{mix}} = 0
+\]
+3. The observed vapor pressure matches Raoult's law precisely across all compositions:
+\[
+\Delta P = P_{\text{observed}} - P_{\text{Raoult}} = 0
+\]
+4. Spontaneous mixing of two components always leads to greater molecular dispersal and disorder. According to the second law of thermodynamics, the entropy of mixing is strictly positive for any spontaneous solution formation:
+\[
+\Delta S_{\text{mix}} > 0
+\]</p>
+<p><strong>Step 3: Final Conclusion</strong><br/>
+The property that is not equal to zero for an ideal solution is the entropy of mixing, \(\Delta S_{\text{mix}}\).</p>
+<hr/>
+<p><strong>चरण 1: आदर्श विलयन की परिभाषा</strong><br/>
+आदर्श विलयन वह होता है जो सभी सांद्रताओं और तापों पर राउल्ट के नियम का पूर्णतः पालन करता है, तथा जिसमें विलेय-विलायक अन्तराण्विक आकर्षण बल, शुद्ध घटकों के आकर्षण बलों के समान होते हैं।</p>
+<p><strong>चरण 2: ऊष्मागतिकीय गुणधर्म</strong><br/>
+1. मिश्रण बनने पर एन्थैल्पी परिवर्तन शून्य होता है: \(\Delta H_{\text{mix}} = 0\)<br/>
+2. मिश्रण बनने पर आयतन परिवर्तन शून्य होता है: \(\Delta V_{\text{mix}} = 0\)<br/>
+3. वाष्प दाब में कोई विचलन नहीं होता: \(\Delta P = P_{\text{observed}} - P_{\text{Raoult}} = 0\)<br/>
+4. दो द्रवों के स्वतः मिश्रण से आण्विक अव्यवस्था (randomness) सदैव बढ़ती है, जिसके कारण मिश्रण की एन्ट्रॉपी सदैव धनात्मक होती है:
+\[
+\Delta S_{\text{mix}} > 0
+\]</p>
+<p><strong>चरण 3: अंतिम निष्कर्ष</strong><br/>
+अतः एक आदर्श विलयन के लिए मिश्रण की एन्ट्रॉपी (\(\Delta S_{\text{mix}}\)) शून्य के बराबर नहीं होती है।</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>4.0000000</defaultgrade>
+    <penalty>0.2500000</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>\(\Delta H_{\mathrm{mix}}\)</p>]]></text>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>\(\Delta S_{\mathrm{mix}}\)</p>]]></text>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>\(\Delta V_{\mathrm{mix}}\)</p>]]></text>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>\(\Delta P = P_{\mathrm{observed}} - P_{\mathrm{Raoult}}\)</p>]]></text>
+    </answer>
+    <tags>
+      <tag><text>standard:neet_ug</text></tag>
+      <tag><text>year:2015</text></tag>
+      <tag><text>lang:en</text></tag>
+      <tag><text>lang:hi</text></tag>
+      <tag><text>subject:chemistry</text></tag>
+      <tag><text>class:class_12</text></tag>
+      <tag><text>topic:ideal_solutions</text></tag>
+      <tag><text>chapter:solutions</text></tag>
+      <tag><text>typology:single_choice</text></tag>
+      <tag><text>difficulty:easy</text></tag>
+      <tag><text>blooms:understand</text></tag>
+      <tag><text>calculation:light</text></tag>
+      <tag><text>media:equation</text></tag>
+      <tag><text>multiconcept:false</text></tag>
+    </tags>
+  </question>
+</quiz>

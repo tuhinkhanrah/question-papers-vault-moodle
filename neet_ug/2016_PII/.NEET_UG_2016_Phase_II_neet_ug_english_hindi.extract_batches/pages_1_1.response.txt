@@ -1,0 +1,1089 @@
+<question type="multichoice">
+  <name><text>NEET_UG_PHYSICS_2016_MCQ_Q01 - Dimension of length from fundamental constants</text></name>
+  <questiontext format="html">
+    <text><![CDATA[
+<p>Planck's constant (\(h\)), speed of light in vacuum (\(c\)) and Newton's gravitational constant (\(G\)) are three fundamental constants. Which of the following combinations of these has the dimension of length?</p>
+<hr/>
+<p>प्लांक नियतांक (\(h\)), निर्वात में प्रकाश की चाल (\(c\)) तथा न्यूटन का गुरुत्वाकर्षण नियतांक (\(G\)) तीन मूल नियतांक हैं। इनमें से किस संयोजन की विमा लम्बाई की विमा के समान होगी?</p>
+    ]]></text>
+  </questiontext>
+  <generalfeedback format="html">
+    <text><![CDATA[
+<p><strong>Step 1: Given Data and Conditions</strong><br/>
+The given fundamental constants and their physical dimensions are:
+Planck's constant: \([h] = [\text{M}\text{L}^2\text{T}^{-1}]\)
+Speed of light in vacuum: \([c] = [\text{L}\text{T}^{-1}]\)
+Newton's universal gravitational constant: \([G] = [\text{M}^{-1}\text{L}^3\text{T}^{-2}]\)
+We require a combination \(h^x c^y G^z\) that has the dimensions of length: \([\text{L}] = [\text{M}^0\text{L}^1\text{T}^0]\).</p>
+
+<p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>
+Assume length \(L\) depends on powers of fundamental constants:
+\(L \propto h^x c^y G^z\), where \(x\), \(y\), and \(z\) are real exponents to be determined using dimensional homogeneity.</p>
+
+<p><strong>Step 3: Relevant Formulae and Principles</strong><br/>
+By the principle of dimensional homogeneity, the exponents of base dimensions \(\text{M}\), \(\text{L}\), and \(\text{T}\) on both sides of the equation must be equal:
+\([\text{M}^0\text{L}^1\text{T}^0] = [\text{M}\text{L}^2\text{T}^{-1}]^x [\text{L}\text{T}^{-1}]^y [\text{M}^{-1}\text{L}^3\text{T}^{-2}]^z = [\text{M}^{x-z}\text{L}^{2x+y+3z}\text{T}^{-x-y-2z}]\)</p>
+
+<p><strong>Step 4: Step-by-Step Working</strong><br/>
+Equating powers of base dimensions:
+For mass (\(\text{M}\)):
+\(x - z = 0 \implies x = z\)
+
+For time (\(\text{T}\)):
+\(-x - y - 2z = 0 \implies y = -x - 2z = -3x\)
+
+For length (\(\text{L}\)):
+\(2x + y + 3z = 1\)
+Substitute \(z = x\) and \(y = -3x\):
+\(2x + (-3x) + 3x = 1\)
+\(2x = 1 \implies x = \frac{1}{2}\)
+Hence, \(z = \frac{1}{2}\) and \(y = -3\left(\frac{1}{2}\right) = -\frac{3}{2}\).
+
+Substituting the exponents into the expression:
+\(L \propto h^{1/2} c^{-3/2} G^{1/2} = \sqrt{\frac{hG}{c^3}}\)</p>
+
+<p><strong>Step 5: Check and Final Answer</strong><br/>
+Check the dimensions directly:
+\(\left[\frac{hG}{c^3}\right] = \frac{(\text{M}\text{L}^2\text{T}^{-1})(\text{M}^{-1}\text{L}^3\text{T}^{-2})}{(\text{L}\text{T}^{-1})^3} = \frac{\text{L}^5\text{T}^{-3}}{\text{L}^3\text{T}^{-3}} = \text{L}^2\)
+Taking the square root gives:
+\(\left[\sqrt{\frac{hG}{c^3}}\right] = \sqrt{\text{L}^2} = \text{L}\)
+The dimension is precisely that of length.
+Therefore, the combination is \(\sqrt{\frac{hG}{c^3}}\).</p>
+<hr/>
+<p><strong>चरण 1: दिए गए आँकड़े और शर्तें</strong><br/>
+दिए गए मूल नियतांक तथा उनकी विमाएँ निम्नलिखित हैं:
+प्लांक नियतांक: \([h] = [\text{M}\text{L}^2\text{T}^{-1}]\)
+निर्वात में प्रकाश की चाल: \([c] = [\text{L}\text{T}^{-1}]\)
+न्यूटन का गुरुत्वाकर्षण नियतांक: \([G] = [\text{M}^{-1}\text{L}^3\text{T}^{-2}]\)
+हमें ऐसा संयोजन \(h^x c^y G^z\) प्राप्त करना है जिसकी विमा लम्बाई की हो: \([\text{L}] = [\text{M}^0\text{L}^1\text{T}^0]\)।</p>
+
+<p><strong>चरण 2: अवधारणाएँ और चिन्ह परिपाटी</strong><br/>
+माना कि लम्बाई \(L\), मूल नियतांकों की घातों पर निर्भर करती है:
+\(L \propto h^x c^y G^z\), जहाँ \(x\), \(y\), और \(z\) विमीय समघातता द्वारा ज्ञात की जाने वाली घातांक संख्याएँ हैं।</p>
+
+<p><strong>चरण 3: संबंधित सूत्र और सिद्धांत</strong><br/>
+विमीय समघातता के सिद्धांत के अनुसार, दोनों पक्षों में मूल राशियों \(\text{M}\), \(\text{L}\), तथा \(\text{T}\) की विमाएँ समान होनी चाहिए:
+\([\text{M}^0\text{L}^1\text{T}^0] = [\text{M}\text{L}^2\text{T}^{-1}]^x [\text{L}\text{T}^{-1}]^y [\text{M}^{-1}\text{L}^3\text{T}^{-2}]^z = [\text{M}^{x-z}\text{L}^{2x+y+3z}\text{T}^{-x-y-2z}]\)</p>
+
+<p><strong>चरण 4: चरण-दर-चरण गणना</strong><br/>
+विमाओं की घातों की तुलना करने पर:
+द्रव्यमान (\(\text{M}\)) के लिए:
+\(x - z = 0 \implies x = z\)
+
+समय (\(\text{T}\)) के लिए:
+\(-x - y - 2z = 0 \implies y = -x - 2z = -3x\)
+
+लम्बाई (\(\text{L}\)) के लिए:
+\(2x + y + 3z = 1\)
+\(z = x\) तथा \(y = -3x\) रखने पर:
+\(2x - 3x + 3x = 1 \implies 2x = 1 \implies x = \frac{1}{2}\)
+अतः \(z = \frac{1}{2}\) तथा \(y = -\frac{3}{2}\)।
+
+मान रखने पर:
+\(L \propto h^{1/2} c^{-3/2} G^{1/2} = \sqrt{\frac{hG}{c^3}}\)</p>
+
+<p><strong>चरण 5: जाँच और अंतिम उत्तर</strong><br/>
+सीधे विमा की जाँच करने पर:
+\(\left[\frac{hG}{c^3}\right] = \frac{(\text{M}\text{L}^2\text{T}^{-1})(\text{M}^{-1}\text{L}^3\text{T}^{-2})}{(\text{L}\text{T}^{-1})^3} = \frac{\text{L}^5\text{T}^{-3}}{\text{L}^3\text{T}^{-3}} = \text{L}^2\)
+वर्गमूल लेने पर:
+\(\left[\sqrt{\frac{hG}{c^3}}\right] = \text{L}\)
+अतः सही संयोजन \(\sqrt{\frac{hG}{c^3}}\) है।</p>
+    ]]></text>
+  </generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="100" format="html">
+    <text><![CDATA[<p>\(\sqrt{\frac{hG}{c^3}}\)</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(\sqrt{\frac{hG}{c^5}}\)</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(\sqrt{\frac{hc}{G}}\)</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(\sqrt{\frac{Gc}{h^3}}\)</p>]]></text>
+  </answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>year:2016</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:hi</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>class:11</text></tag>
+    <tag><text>topic:dimensional_analysis</text></tag>
+    <tag><text>chapter:units_and_measurements</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:medium</text></tag>
+    <tag><text>blooms:apply</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:text</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+
+<question type="multichoice">
+  <name><text>NEET_UG_PHYSICS_2016_MCQ_Q02 - Time when two cars have equal velocity</text></name>
+  <questiontext format="html">
+    <text><![CDATA[
+<p>Two cars P and Q start from a point at the same time in a straight line and their positions are represented by \(x_P(t) = at + bt^2\) and \(x_Q(t) = ft - t^2\). At what time do the cars have the same velocity?</p>
+<hr/>
+<p>दो कारें P तथा Q एक ही बिंदु से एक ही समय पर एक सीधी रेखा में चलना प्रारंभ करती हैं और उनकी स्थितियों को क्रमशः \(x_P(t) = at + bt^2\) तथा \(x_Q(t) = ft - t^2\) द्वारा निरूपित किया जाता है। किस समय पर दोनों कारों का वेग समान होगा?</p>
+    ]]></text>
+  </questiontext>
+  <generalfeedback format="html">
+    <text><![CDATA[
+<p><strong>Step 1: Given Data and Conditions</strong><br/>
+Position of car P as a function of time: \(x_P(t) = at + bt^2\)
+Position of car Q as a function of time: \(x_Q(t) = ft - t^2\)
+Condition: \(v_P(t) = v_Q(t)\) at time \(t\).</p>
+
+<p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>
+Motion is along a single straight line (one-dimensional kinematics).
+Instantaneous velocity is the first time derivative of the position vector: \(v = \frac{dx}{dt}\).</p>
+
+<p><strong>Step 3: Relevant Formulae and Principles</strong><br/>
+\(v_P = \frac{d}{dt}[x_P(t)]\)
+\(v_Q = \frac{d}{dt}[x_Q(t)]\)
+Set \(v_P = v_Q\) and solve for \(t\).</p>
+
+<p><strong>Step 4: Step-by-Step Working</strong><br/>
+Differentiate the position equation for car P:
+\(v_P = \frac{d}{dt}(at + bt^2) = a + 2bt\)
+
+Differentiate the position equation for car Q:
+\(v_Q = \frac{d}{dt}(ft - t^2) = f - 2t\)
+
+Equate the two velocities:
+\(a + 2bt = f - 2t\)
+
+Rearrange terms containing \(t\) to one side:
+\(2bt + 2t = f - a\)
+\(2t(1 + b) = f - a\)
+\(t = \frac{f - a}{2(1 + b)}\)</p>
+
+<p><strong>Step 5: Check and Final Answer</strong><br/>
+Check dimensions:
+\([a] = [\text{L}\text{T}^{-1}]\), \([b] = [\text{L}\text{T}^{-2}]\), \([f] = [\text{L}\text{T}^{-1}]\).
+Since \(x_Q = ft - t^2\), the coefficient of \(t^2\) is \(1\), which carries dimensions of acceleration \([\text{L}\text{T}^{-2}]\).
+Thus, \(f - a\) has dimensions of velocity \([\text{L}\text{T}^{-1}]\), and \(2(1+b)\) has dimensions of acceleration \([\text{L}\text{T}^{-2}]\).
+The quotient \(\frac{[\text{L}\text{T}^{-1}]}{[\text{L}\text{T}^{-2}]} = [\text{T}]\), which represents time.
+The time at which the two cars have equal velocity is \(\frac{f - a}{2(1 + b)}\).</p>
+<hr/>
+<p><strong>चरण 1: दिए गए आँकड़े और शर्तें</strong><br/>
+कार P की स्थिति: \(x_P(t) = at + bt^2\)
+कार Q की स्थिति: \(x_Q(t) = ft - t^2\)
+शर्त: समय \(t\) पर \(v_P(t) = v_Q(t)\)।</p>
+
+<p><strong>चरण 2: अवधारणाएँ और चिन्ह परिपाटी</strong><br/>
+गति एकविमीय सरल रेखा में है। तात्क्षणिक वेग, स्थिति के समय के सापेक्ष अवकलन के बराबर होता है: \(v = \frac{dx}{dt}\)।</p>
+
+<p><strong>चरण 3: संबंधित सूत्र और सिद्धांत</strong><br/>
+\(v_P = \frac{d}{dt}[x_P(t)]\)
+\(v_Q = \frac{d}{dt}[x_Q(t)]\)
+दोनों वेगों को बराबर करके \(t\) का मान ज्ञात करते हैं।</p>
+
+<p><strong>चरण 4: चरण-दर-चरण गणना</strong><br/>
+कार P के लिए अवकलन करने पर:
+\(v_P = \frac{d}{dt}(at + bt^2) = a + 2bt\)
+
+कार Q के लिए अवकलन करने पर:
+\(v_Q = \frac{d}{dt}(ft - t^2) = f - 2t\)
+
+दोनों वेगों को बराबर रखने पर:
+\(a + 2bt = f - 2t\)
+\(2bt + 2t = f - a\)
+\(2t(1 + b) = f - a\)
+\(t = \frac{f - a}{2(1 + b)}\)</p>
+
+<p><strong>चरण 5: जाँच और अंतिम उत्तर</strong><br/>
+विमा की जाँच करने पर प्राप्त मान समय \([\text{T}]\) को निरूपित करता है।
+अतः वह समय जिस पर दोनों कारों का वेग समान होगा, \(\frac{f - a}{2(1 + b)}\) है।</p>
+    ]]></text>
+  </generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(\frac{a - f}{1 + b}\)</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(\frac{a + f}{2(b - 1)}\)</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(\frac{a + f}{2(1 + b)}\)</p>]]></text>
+  </answer>
+  <answer fraction="100" format="html">
+    <text><![CDATA[<p>\(\frac{f - a}{2(1 + b)}\)</p>]]></text>
+  </answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>year:2016</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:hi</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>class:11</text></tag>
+    <tag><text>topic:rectilinear_motion</text></tag>
+    <tag><text>chapter:motion_in_a_straight_line</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:easy</text></tag>
+    <tag><text>blooms:apply</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:text</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+
+<question type="multichoice">
+  <name><text>NEET_UG_PHYSICS_2016_MCQ_Q03 - Speed of particle in circular motion</text></name>
+  <questiontext format="html">
+    <text><![CDATA[
+<p>In the given figure, \(a = 15\text{ m/s}^2\) represents the total acceleration of a particle moving in the clockwise direction in the circle of radius \(R = 2.5\text{ m}\) at a given instant of time. The speed of the particle is</p>
+<p><img src="@@PLUGINFILE@@/img-0.jpeg" alt="Particle in clockwise circular motion with total acceleration" /></p>
+<hr/>
+<p>दिए गए चित्र में, किसी दिए गए क्षण पर \(R = 2.5\text{ m}\) त्रिज्या के वृत्त में दक्षिणावर्त (clockwise) दिशा में गतिमान एक कण का कुल त्वरण \(a = 15\text{ m/s}^2\) द्वारा निरूपित किया गया है। कण की चाल होगी</p>
+    ]]></text>
+  </questiontext>
+  <generalfeedback format="html">
+    <text><![CDATA[
+<p><strong>Step 1: Given Data and Conditions</strong><br/>
+Total acceleration magnitude: \(a = 15\text{ m/s}^2\)
+Radius of the circular trajectory: \(R = 2.5\text{ m}\)
+From the figure, the vector of total acceleration \(\vec{a}\) makes an angle \(\theta = 30^\circ\) with the radius vector directed towards the center \(O\).</p>
+
+<p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>
+The motion is non-uniform circular motion.
+The total acceleration has two mutually perpendicular components:
+1. Centripetal (radial) acceleration directed towards the center: \(a_c = a \cos 30^\circ\)
+2. Tangential acceleration directed along the velocity vector: \(a_t = a \sin 30^\circ\)</p>
+
+<p><strong>Step 3: Relevant Formulae and Principles</strong><br/>
+The centripetal acceleration is related to the instantaneous speed \(v\) and circular radius \(R\) by:
+\(a_c = \frac{v^2}{R}\)
+Therefore:
+\(v = \sqrt{a_c R} = \sqrt{a R \cos 30^\circ}\)</p>
+
+<p><strong>Step 4: Step-by-Step Working</strong><br/>
+Calculate the centripetal acceleration component:
+\(a_c = 15 \times \cos 30^\circ = 15 \times \frac{\sqrt{3}}{2} \approx 15 \times 0.8660 = 12.99\text{ m/s}^2\)
+
+Calculate the speed:
+\(v^2 = a_c R = 12.99 \times 2.5 = 32.475\text{ m}^2/\text{s}^2\)
+\(v = \sqrt{32.475} \approx 5.6987\text{ m/s} \approx 5.7\text{ m/s}\)</p>
+
+<p><strong>Step 5: Check and Final Answer</strong><br/>
+Check: \(\sqrt{32.475}\) lies between \(\sqrt{25} = 5.0\) and \(\sqrt{36} = 6.0\), precisely around \(5.7\text{ m/s}\).
+The speed of the particle is approximately \(5.7\text{ m/s}\).</p>
+<hr/>
+<p><strong>चरण 1: दिए गए आँकड़े और शर्तें</strong><br/>
+कुल त्वरण का परिमाण: \(a = 15\text{ m/s}^2\)
+वृत्तीय पथ की त्रिज्या: \(R = 2.5\text{ m}\)
+दिए गए चित्र के अनुसार, कुल त्वरण \(\vec{a}\) वृत्त के केंद्र \(O\) की ओर दिष्ट त्रिज्या सदिश के साथ \(\theta = 30^\circ\) का कोण बनाता है।</p>
+
+<p><strong>चरण 2: अवधारणाएँ और चिन्ह परिपाटी</strong><br/>
+यह असमान वृत्तीय गति है। कुल त्वरण के दो घटक होते हैं:
+1. अभिकेंद्रीय त्वरण (केंद्र की ओर): \(a_c = a \cos 30^\circ\)
+2. स्पर्शरेखीय त्वरण (स्पर्श रेखा के अनुदिश): \(a_t = a \sin 30^\circ\)</p>
+
+<p><strong>चरण 3: संबंधित सूत्र और सिद्धांत</strong><br/>
+अभिकेंद्रीय त्वरण तथा चाल में संबंध:
+\(a_c = \frac{v^2}{R} \implies v = \sqrt{a_c R}\)</p>
+
+<p><strong>चरण 4: चरण-दर-चरण गणना</strong><br/>
+अभिकेंद्रीय त्वरण का मान:
+\(a_c = 15 \cos 30^\circ = 15 \times \frac{\sqrt{3}}{2} \approx 12.99\text{ m/s}^2\)
+
+चाल की गणना:
+\(v = \sqrt{12.99 \times 2.5} = \sqrt{32.475} \approx 5.7\text{ m/s}\)</p>
+
+<p><strong>चरण 5: जाँच और अंतिम उत्तर</strong><br/>
+गणना की जाँच करने पर चाल लगभग \(5.7\text{ m/s}\) प्राप्त होती है।</p>
+    ]]></text>
+  </generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(4.5\text{ m/s}\)</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(5.0\text{ m/s}\)</p>]]></text>
+  </answer>
+  <answer fraction="100" format="html">
+    <text><![CDATA[<p>\(5.7\text{ m/s}\)</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(6.2\text{ m/s}\)</p>]]></text>
+  </answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>year:2016</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:hi</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>class:11</text></tag>
+    <tag><text>topic:circular_motion</text></tag>
+    <tag><text>chapter:motion_in_a_plane</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:medium</text></tag>
+    <tag><text>blooms:apply</text></tag>
+    <tag><text>calculation:moderate</text></tag>
+    <tag><text>media:diagram</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+
+<question type="multichoice">
+  <name><text>NEET_UG_PHYSICS_2016_MCQ_Q04 - Impulse imparted by wall on colliding ball</text></name>
+  <questiontext format="html">
+    <text><![CDATA[
+<p>A rigid ball of mass \(m\) strikes a rigid wall at \(60^\circ\) and gets reflected without loss of speed as shown in the figure. The value of impulse imparted by the wall on the ball will be</p>
+<p><img src="@@PLUGINFILE@@/img-1.jpeg" alt="Ball colliding with rigid wall at sixty degrees" /></p>
+<hr/>
+<p>द्रव्यमान \(m\) की एक दृढ़ गेंद किसी दृढ़ दीवार से \(60^\circ\) के कोण पर टकराती है तथा चित्र में दर्शाए अनुसार बिना किसी चाल हानि के परावर्तित हो जाती है। दीवार द्वारा गेंद पर आरोपित आवेग का मान होगा</p>
+    ]]></text>
+  </questiontext>
+  <generalfeedback format="html">
+    <text><![CDATA[
+<p><strong>Step 1: Given Data and Conditions</strong><br/>
+Mass of the ball: \(m\)
+Speed of the ball before collision: \(V\)
+Speed of the ball after collision: \(V\) (no loss of speed)
+Angle between the incoming velocity vector and the normal to the wall: \(\theta = 60^\circ\)
+Angle between the reflected velocity vector and the normal to the wall: \(\theta = 60^\circ\)</p>
+
+<p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>
+Set up a Cartesian coordinate system:
+Let the \(x\)-axis be perpendicular to the wall pointing outward (along the normal away from the wall).
+Let the \(y\)-axis be parallel to the surface of the wall (pointing downward along the wall).
+The impulse \(\vec{J}\) imparted by the wall equals the change in momentum of the ball: \(\vec{J} = \Delta \vec{p} = \vec{p}_f - \vec{p}_i\).</p>
+
+<p><strong>Step 3: Relevant Formulae and Principles</strong><br/>
+Initial momentum:
+\(\vec{p}_i = -mV \cos 60^\circ \hat{i} + mV \sin 60^\circ \hat{j}\)
+
+Final momentum:
+\(\vec{p}_f = +mV \cos 60^\circ \hat{i} + mV \sin 60^\circ \hat{j}\)
+
+Impulse:
+\(\vec{J} = \vec{p}_f - \vec{p}_i\)</p>
+
+<p><strong>Step 4: Step-by-Step Working</strong><br/>
+Parallel component (along \(y\)-axis):
+\(J_y = p_{fy} - p_{iy} = mV \sin 60^\circ - mV \sin 60^\circ = 0\)
+
+Perpendicular component (along \(x\)-axis):
+\(J_x = p_{fx} - p_{ix} = mV \cos 60^\circ - (-mV \cos 60^\circ) = 2mV \cos 60^\circ\)
+
+Substitute \(\cos 60^\circ = \frac{1}{2}\):
+\(J_x = 2mV \left(\frac{1}{2}\right) = mV\)
+
+The magnitude of the total impulse is:
+\(J = \sqrt{J_x^2 + J_y^2} = mV\)</p>
+
+<p><strong>Step 5: Check and Final Answer</strong><br/>
+The collision is elastic and frictionless along the surface, so momentum changes only perpendicular to the surface.
+Magnitude of impulse imparted by the wall is \(mV\).</p>
+<hr/>
+<p><strong>चरण 1: दिए गए आँकड़े और शर्तें</strong><br/>
+गेंद का द्रव्यमान: \(m\)
+टकराने से पूर्व चाल: \(V\)
+टकराने के बाद चाल: \(V\)
+दीवार के अभिलंब के साथ आपतन तथा परावर्तन कोण: \(\theta = 60^\circ\)</p>
+
+<p><strong>चरण 2: अवधारणाएँ और चिन्ह परिपाटी</strong><br/>
+दीवार के लम्बवत (बाहर की ओर) दिशा को \(x\)-अक्ष तथा दीवार के समांतर दिशा को \(y\)-अक्ष मानते हैं।
+आवेग, संवेग में परिवर्तन के बराबर होता है: \(\vec{J} = \Delta \vec{p} = \vec{p}_f - \vec{p}_i\)।</p>
+
+<p><strong>चरण 3: संबंधित सूत्र और सिद्धांत</strong><br/>
+प्रारंभिक संवेग:
+\(\vec{p}_i = -mV \cos 60^\circ \hat{i} + mV \sin 60^\circ \hat{j}\)
+अंतिम संवेग:
+\(\vec{p}_f = mV \cos 60^\circ \hat{i} + mV \sin 60^\circ \hat{j}\)</p>
+
+<p><strong>चरण 4: चरण-दर-चरण गणना</strong><br/>
+दीवार के समांतर दिशा में संवेग परिवर्तन:
+\(\Delta p_y = mV \sin 60^\circ - mV \sin 60^\circ = 0\)
+
+दीवार के लम्बवत दिशा में संवेग परिवर्तन:
+\(\Delta p_x = mV \cos 60^\circ - (-mV \cos 60^\circ) = 2mV \cos 60^\circ\)
+
+\(\cos 60^\circ = \frac{1}{2}\) रखने पर:
+\(J = 2mV \times \frac{1}{2} = mV\)</p>
+
+<p><strong>चरण 5: जाँच और अंतिम उत्तर</strong><br/>
+दीवार द्वारा गेंद पर आरोपित आवेग का कुल परिमाण \(mV\) है।</p>
+    ]]></text>
+  </generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(\frac{mV}{2}\)</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(\frac{mV}{3}\)</p>]]></text>
+  </answer>
+  <answer fraction="100" format="html">
+    <text><![CDATA[<p>\(mV\)</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(2mV\)</p>]]></text>
+  </answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>year:2016</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:hi</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>class:11</text></tag>
+    <tag><text>topic:impulse_and_momentum</text></tag>
+    <tag><text>chapter:laws_of_motion</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:medium</text></tag>
+    <tag><text>blooms:apply</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:diagram</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+
+<question type="multichoice">
+  <name><text>NEET_UG_PHYSICS_2016_MCQ_Q05 - Speed of bullet emerging from suspended block</text></name>
+  <questiontext format="html">
+    <text><![CDATA[
+<p>A bullet of mass \(10\text{ g}\) moving horizontally with a velocity of \(400\text{ m/s}\) strikes a wooden block of mass \(2\text{ kg}\) which is suspended by a light inextensible string of length \(5\text{ m}\). As a result, the centre of gravity of the block is found to rise a vertical distance of \(10\text{ cm}\). The speed of the bullet after it emerges horizontally from the block will be</p>
+<hr/>
+<p>\(10\text{ g}\) द्रव्यमान की एक गोली क्षैतिज रूप से \(400\text{ m/s}\) के वेग से गति करते हुए \(2\text{ kg}\) द्रव्यमान के एक लकड़ी के गुटके से टकराती है, जो \(5\text{ m}\) लम्बी हल्की अवितान्य डोरी से लटका हुआ है। इसके परिणामस्वरूप गुटके का गुरुत्व केंद्र ऊर्ध्वाधर दिशा में \(10\text{ cm}\) ऊपर उठ जाता है। गुटके से क्षैतिज रूप से बाहर निकलने के बाद गोली की चाल होगी</p>
+    ]]></text>
+  </questiontext>
+  <generalfeedback format="html">
+    <text><![CDATA[
+<p><strong>Step 1: Given Data and Conditions</strong><br/>
+Mass of the bullet: \(m = 10\text{ g} = 0.01\text{ kg}\)
+Initial horizontal velocity of the bullet: \(u = 400\text{ m/s}\)
+Mass of the wooden block: \(M = 2\text{ kg}\)
+Vertical rise of the block's centre of gravity: \(h = 10\text{ cm} = 0.1\text{ m}\)
+Acceleration due to gravity: \(g = 9.8\text{ m/s}^2\)</p>
+
+<p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>
+During the brief collision interval, external forces in the horizontal direction are negligible, so linear momentum is conserved horizontally.
+After the collision, the mechanical energy of the suspended block is conserved as it swings upward against gravity.</p>
+
+<p><strong>Step 3: Relevant Formulae and Principles</strong><br/>
+Velocity of the block immediately after the bullet emerges:
+\(V = \sqrt{2gh}\)
+By conservation of linear momentum:
+\(m u = M V + m v\)
+where \(v\) is the emerging speed of the bullet.</p>
+
+<p><strong>Step 4: Step-by-Step Working</strong><br/>
+Calculate the velocity of the block just after collision:
+\(V = \sqrt{2 \times 9.8 \times 0.1} = \sqrt{1.96} = 1.4\text{ m/s}\)
+
+Apply conservation of horizontal linear momentum:
+\((0.01\text{ kg}) \times (400\text{ m/s}) = (2\text{ kg}) \times (1.4\text{ m/s}) + (0.01\text{ kg}) \times v\)
+\(4 = 2.8 + 0.01 v\)
+\(0.01 v = 4 - 2.8 = 1.2\)
+\(v = \frac{1.2}{0.01} = 120\text{ m/s}\)</p>
+
+<p><strong>Step 5: Check and Final Answer</strong><br/>
+Initial momentum is \(4\text{ N s}\). Block takes \(2.8\text{ N s}\) and bullet retains \(0.01 \times 120 = 1.2\text{ N s}\). Total momentum is conserved (\(2.8 + 1.2 = 4.0\text{ N s}\)).
+The speed of the bullet after emerging is \(120\text{ m/s}\).</p>
+<hr/>
+<p><strong>चरण 1: दिए गए आँकड़े और शर्तें</strong><br/>
+गोली का द्रव्यमान: \(m = 10\text{ g} = 0.01\text{ kg}\)
+गोली का प्रारंभिक वेग: \(u = 400\text{ m/s}\)
+गुटके का द्रव्यमान: \(M = 2\text{ kg}\)
+गुटके की ऊर्ध्वाधर ऊँचाई: \(h = 10\text{ cm} = 0.1\text{ m}\)
+गुरुत्वीय त्वरण: \(g = 9.8\text{ m/s}^2\)</p>
+
+<p><strong>चरण 2: अवधारणाएँ और चिन्ह परिपाटी</strong><br/>
+संघट्ट के अत्यंत सूक्ष्म अंतराल के दौरान क्षैतिज दिशा में बाह्य बल नगण्य है, अतः क्षैतिज रेखीय संवेग संरक्षित रहता है। संघट्ट के बाद गुटके की यांत्रिक ऊर्जा संरक्षित रहती है।</p>
+
+<p><strong>चरण 3: संबंधित सूत्र और सिद्धांत</strong><br/>
+संघट्ट के तुरंत बाद गुटके का वेग:
+\(V = \sqrt{2gh}\)
+रेखीय संवेग संरक्षण के नियम से:
+\(m u = M V + m v\)</p>
+
+<p><strong>चरण 4: चरण-दर-चरण गणना</strong><br/>
+गुटके का वेग:
+\(V = \sqrt{2 \times 9.8 \times 0.1} = \sqrt{1.96} = 1.4\text{ m/s}\)
+
+संवेग संरक्षण का समीकरण:
+\(0.01 \times 400 = 2 \times 1.4 + 0.01 v\)
+\(4 = 2.8 + 0.01 v\)
+\(0.01 v = 1.2 \implies v = 120\text{ m/s}\)</p>
+
+<p><strong>चरण 5: जाँच और अंतिम उत्तर</strong><br/>
+गुटके से बाहर निकलने के बाद गोली की चाल \(120\text{ m/s}\) है।</p>
+    ]]></text>
+  </generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(100\text{ m/s}\)</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(80\text{ m/s}\)</p>]]></text>
+  </answer>
+  <answer fraction="100" format="html">
+    <text><![CDATA[<p>\(120\text{ m/s}\)</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(160\text{ m/s}\)</p>]]></text>
+  </answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>year:2016</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:hi</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>class:11</text></tag>
+    <tag><text>topic:collisions</text></tag>
+    <tag><text>chapter:work_energy_and_power</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:medium</text></tag>
+    <tag><text>blooms:apply</text></tag>
+    <tag><text>calculation:moderate</text></tag>
+    <tag><text>media:text</text></tag>
+    <tag><text>multiconcept:true</text></tag>
+  </tags>
+</question>
+
+<question type="multichoice">
+  <name><text>NEET_UG_PHYSICS_2016_MCQ_Q06 - Velocities after one dimensional elastic collision</text></name>
+  <questiontext format="html">
+    <text><![CDATA[
+<p>Two identical balls A and B having velocities of \(0.5\text{ m/s}\) and \(-0.3\text{ m/s}\) respectively collide elastically in one dimension. The velocities of B and A after the collision respectively will be</p>
+<hr/>
+<p>दो एकसमान गेंदें A और B जिनके वेग क्रमशः \(0.5\text{ m/s}\) तथा \(-0.3\text{ m/s}\) हैं, एक विमीय रूप से प्रत्यास्थ संघट्ट करती हैं। संघट्ट के बाद B तथा A के वेग क्रमशः होंगे</p>
+    ]]></text>
+  </questiontext>
+  <generalfeedback format="html">
+    <text><![CDATA[
+<p><strong>Step 1: Given Data and Conditions</strong><br/>
+Mass of ball A: \(m_A = m\)
+Mass of ball B: \(m_B = m\) (identical balls)
+Initial velocity of ball A: \(u_A = 0.5\text{ m/s}\)
+Initial velocity of ball B: \(u_B = -0.3\text{ m/s}\)
+Nature of collision: Perfectly elastic in one dimension (coefficient of restitution \(e = 1\)).</p>
+
+<p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>
+The motion is purely one-dimensional along a straight line.
+Positive velocity indicates motion in the forward direction and negative velocity indicates motion in the opposite direction.</p>
+
+<p><strong>Step 3: Relevant Formulae and Principles</strong><br/>
+For a head-on elastic collision between two bodies of equal mass:
+The velocities of the two colliding bodies are completely exchanged after the collision:
+\(v_A = u_B\)
+\(v_B = u_A\)</p>
+
+<p><strong>Step 4: Step-by-Step Working</strong><br/>
+Using the velocity interchange property for equal mass elastic collision:
+Velocity of ball A after collision:
+\(v_A = u_B = -0.3\text{ m/s}\)
+
+Velocity of ball B after collision:
+\(v_B = u_A = 0.5\text{ m/s}\)
+
+The question specifically asks for the velocities of B and A respectively:
+Velocity of B = \(0.5\text{ m/s}\)
+Velocity of A = \(-0.3\text{ m/s}\)</p>
+
+<p><strong>Step 5: Check and Final Answer</strong><br/>
+Total initial momentum:
+\(p_i = m(0.5) + m(-0.3) = 0.2m\)
+Total final momentum:
+\(p_f = m(-0.3) + m(0.5) = 0.2m\)
+Momentum and kinetic energy are conserved.
+The velocities of B and A after collision are \(0.5\text{ m/s}\) and \(-0.3\text{ m/s}\) respectively.</p>
+<hr/>
+<p><strong>चरण 1: दिए गए आँकड़े और शर्तें</strong><br/>
+गेंदों के द्रव्यमान: \(m_A = m_B = m\) (समान द्रव्यमान)
+गेंद A का प्रारंभिक वेग: \(u_A = 0.5\text{ m/s}\)
+गेंद B का प्रारंभिक वेग: \(u_B = -0.3\text{ m/s}\)
+संघट्ट: एक विमीय पूर्णतः प्रत्यास्थ संघट्ट (\(e = 1\))।</p>
+
+<p><strong>चरण 2: अवधारणाएँ और चिन्ह परिपाटी</strong><br/>
+गति एकविमीय है। वेग के चिन्ह गति की दिशा को दर्शाते हैं।</p>
+
+<p><strong>चरण 3: संबंधित सूत्र और सिद्धांत</strong><br/>
+समान द्रव्यमान वाले दो पिंडों के एकविमीय प्रत्यास्थ संघट्ट में उनके वेग आपस में परस्पर बदल (interchange) जाते हैं:
+\(v_A = u_B\)
+\(v_B = u_A\)</p>
+
+<p><strong>चरण 4: चरण-दर-चरण गणना</strong><br/>
+संघट्ट के बाद:
+गेंद A का वेग: \(v_A = u_B = -0.3\text{ m/s}\)
+गेंद B का वेग: \(v_B = u_A = 0.5\text{ m/s}\)
+प्रश्न में B तथा A के वेग क्रमशः पूछे गए हैं:
+B का वेग = \(0.5\text{ m/s}\)
+A का वेग = \(-0.3\text{ m/s}\)</p>
+
+<p><strong>चरण 5: जाँच और अंतिम उत्तर</strong><br/>
+संवेग तथा गतिज ऊर्जा पूर्णतः संरक्षित हैं।
+अतः संघट्ट के बाद B तथा A के वेग क्रमशः \(0.5\text{ m/s}\) तथा \(-0.3\text{ m/s}\) होंगे।</p>
+    ]]></text>
+  </generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(-0.5\text{ m/s}\) and \(0.3\text{ m/s}\)</p>]]></text>
+  </answer>
+  <answer fraction="100" format="html">
+    <text><![CDATA[<p>\(0.5\text{ m/s}\) and \(-0.3\text{ m/s}\)</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(-0.3\text{ m/s}\) and \(0.5\text{ m/s}\)</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(0.3\text{ m/s}\) and \(0.5\text{ m/s}\)</p>]]></text>
+  </answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>year:2016</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:hi</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>class:11</text></tag>
+    <tag><text>topic:elastic_collisions</text></tag>
+    <tag><text>chapter:work_energy_and_power</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:easy</text></tag>
+    <tag><text>blooms:understand</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:text</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+
+<question type="multichoice">
+  <name><text>NEET_UG_PHYSICS_2016_MCQ_Q07 - Work done by constant force in displacement</text></name>
+  <questiontext format="html">
+    <text><![CDATA[
+<p>A particle moves from a point \((-2\hat{i} + 5\hat{j})\) to \((4\hat{j} + 3\hat{k})\) when a force of \((4\hat{i} + 3\hat{j})\text{ N}\) is applied. How much work has been done by the force?</p>
+<hr/>
+<p>किसी कण पर \((4\hat{i} + 3\hat{j})\text{ N}\) का बल लगाने पर वह बिंदु \((-2\hat{i} + 5\hat{j})\) से बिंदु \((4\hat{j} + 3\hat{k})\) तक विस्थापित होता है। बल द्वारा किया गया कार्य कितना होगा?</p>
+    ]]></text>
+  </questiontext>
+  <generalfeedback format="html">
+    <text><![CDATA[
+<p><strong>Step 1: Given Data and Conditions</strong><br/>
+Initial position vector: \(\vec{r}_1 = -2\hat{i} + 5\hat{j} + 0\hat{k}\)
+Final position vector: \(\vec{r}_2 = 0\hat{i} + 4\hat{j} + 3\hat{k}\)
+Applied force vector: \(\vec{F} = 4\hat{i} + 3\hat{j} + 0\hat{k}\text{ N}\)</p>
+
+<p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>
+The applied force is constant in magnitude and direction.
+Standard Cartesian coordinates with unit vectors \(\hat{i}\), \(\hat{j}\), and \(\hat{k}\) along the \(x\), \(y\), and \(z\) axes are used.</p>
+
+<p><strong>Step 3: Relevant Formulae and Principles</strong><br/>
+Displacement vector:
+\(\Delta\vec{r} = \vec{r}_2 - \vec{r}_1\)
+Work done by a constant force is the scalar (dot) product of force and displacement:
+\(W = \vec{F} \cdot \Delta\vec{r} = F_x \Delta x + F_y \Delta y + F_z \Delta z\)</p>
+
+<p><strong>Step 4: Step-by-Step Working</strong><br/>
+Find the displacement vector \(\Delta\vec{r}\):
+\(\Delta\vec{r} = (0\hat{i} + 4\hat{j} + 3\hat{k}) - (-2\hat{i} + 5\hat{j} + 0\hat{k})\)
+\(\Delta\vec{r} = (0 - (-2))\hat{i} + (4 - 5)\hat{j} + (3 - 0)\hat{k} = 2\hat{i} - 1\hat{j} + 3\hat{k}\)
+
+Calculate the dot product with \(\vec{F}\):
+\(W = (4\hat{i} + 3\hat{j} + 0\hat{k}) \cdot (2\hat{i} - 1\hat{j} + 3\hat{k})\)
+\(W = (4)(2) + (3)(-1) + (0)(3)\)
+\(W = 8 - 3 + 0 = 5\text{ J}\)</p>
+
+<p><strong>Step 5: Check and Final Answer</strong><br/>
+Units are in Newtons and meters, resulting in Joules. The calculated work done is \(5\text{ J}\).</p>
+<hr/>
+<p><strong>चरण 1: दिए गए आँकड़े और शर्तें</strong><br/>
+प्रारंभिक स्थिति सदिश: \(\vec{r}_1 = -2\hat{i} + 5\hat{j} + 0\hat{k}\)
+अंतिम स्थिति सदिश: \(\vec{r}_2 = 0\hat{i} + 4\hat{j} + 3\hat{k}\)
+आरोपित बल सदिश: \(\vec{F} = 4\hat{i} + 3\hat{j} + 0\hat{k}\text{ N}\)</p>
+
+<p><strong>चरण 2: अवधारणाएँ और चिन्ह परिपाटी</strong><br/>
+बल नियत है। मानक कार्तीय निर्देशांक पद्धति का उपयोग किया गया है।</p>
+
+<p><strong>चरण 3: संबंधित सूत्र और सिद्धांत</strong><br/>
+विस्थापन सदिश:
+\(\Delta\vec{r} = \vec{r}_2 - \vec{r}_1\)
+नियत बल द्वारा किया गया कार्य:
+\(W = \vec{F} \cdot \Delta\vec{r}\)</p>
+
+<p><strong>चरण 4: चरण-दर-चरण गणना</strong><br/>
+विस्थापन सदिश:
+\(\Delta\vec{r} = (0\hat{i} + 4\hat{j} + 3\hat{k}) - (-2\hat{i} + 5\hat{j} + 0\hat{k}) = 2\hat{i} - \hat{j} + 3\hat{k}\)
+
+अदिश गुणनफल द्वारा कार्य की गणना:
+\(W = (4\hat{i} + 3\hat{j} + 0\hat{k}) \cdot (2\hat{i} - \hat{j} + 3\hat{k})\)
+\(W = (4 \times 2) + (3 \times -1) + (0 \times 3) = 8 - 3 + 0 = 5\text{ J}\)</p>
+
+<p><strong>चरण 5: जाँच और अंतिम उत्तर</strong><br/>
+बल द्वारा किया गया कुल कार्य \(5\text{ J}\) है।</p>
+    ]]></text>
+  </generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(8\text{ J}\)</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(11\text{ J}\)</p>]]></text>
+  </answer>
+  <answer fraction="100" format="html">
+    <text><![CDATA[<p>\(5\text{ J}\)</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(2\text{ J}\)</p>]]></text>
+  </answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>year:2016</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:hi</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>class:11</text></tag>
+    <tag><text>topic:work_done_by_constant_force</text></tag>
+    <tag><text>chapter:work_energy_and_power</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:easy</text></tag>
+    <tag><text>blooms:apply</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:text</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+
+<question type="multichoice">
+  <name><text>NEET_UG_PHYSICS_2016_MCQ_Q08 - Angular momentum relation for equal rotational energy</text></name>
+  <questiontext format="html">
+    <text><![CDATA[
+<p>Two rotating bodies A and B of masses \(m\) and \(2m\) with moments of inertia \(I_A\) and \(I_B\) (\(I_B > I_A\)) have equal kinetic energy of rotation. If \(L_A\) and \(L_B\) be their angular momenta respectively, then</p>
+<hr/>
+<p>द्रव्यमान \(m\) और \(2m\) तथा जड़त्व आघूर्ण \(I_A\) और \(I_B\) (\(I_B > I_A\)) वाले दो घूर्णन करते हुए पिंडों A तथा B की घूर्णन गतिज ऊर्जाएँ समान हैं। यदि उनके कोणीय संवेग क्रमशः \(L_A\) तथा \(L_B\) हों, तो</p>
+    ]]></text>
+  </questiontext>
+  <generalfeedback format="html">
+    <text><![CDATA[
+<p><strong>Step 1: Given Data and Conditions</strong><br/>
+Moments of inertia: \(I_A\) and \(I_B\) with \(I_B > I_A\)
+Masses: \(m_A = m\) and \(m_B = 2m\)
+Rotational kinetic energy: \(K_A = K_B = K\)
+Angular momenta: \(L_A\) and \(L_B\)</p>
+
+<p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>
+Both bodies rotate about their respective fixed axes of rotation. Kinetic energy of rotation depends purely on the moment of inertia and angular momentum.</p>
+
+<p><strong>Step 3: Relevant Formulae and Principles</strong><br/>
+Rotational kinetic energy in terms of angular momentum and moment of inertia is:
+\(K = \frac{L^2}{2I}\)
+Rearranging for angular momentum:
+\(L = \sqrt{2 I K}\)</p>
+
+<p><strong>Step 4: Step-by-Step Working</strong><br/>
+Since both bodies have the exact same kinetic energy of rotation \(K\):
+\(L \propto \sqrt{I}\)
+Taking the ratio of their angular momenta:
+\(\frac{L_B}{L_A} = \sqrt{\frac{I_B}{I_A}}\)
+Because \(I_B > I_A\), the ratio satisfies:
+\(\frac{I_B}{I_A} > 1 \implies \sqrt{\frac{I_B}{I_A}} > 1\)
+Therefore:
+\(\frac{L_B}{L_A} > 1 \implies L_B > L_A\)</p>
+
+<p><strong>Step 5: Check and Final Answer</strong><br/>
+For equal kinetic energy, the body with the greater moment of inertia must possess the greater angular momentum.
+Thus, the relationship is \(L_B > L_A\).</p>
+<hr/>
+<p><strong>चरण 1: दिए गए आँकड़े और शर्तें</strong><br/>
+जड़त्व आघूर्ण: \(I_A\) तथा \(I_B\), जहाँ \(I_B > I_A\)
+घूर्णन गतिज ऊर्जा: \(K_A = K_B = K\)
+कोणीय संवेग: \(L_A\) तथा \(L_B\)</p>
+
+<p><strong>चरण 2: अवधारणाएँ और चिन्ह परिपाटी</strong><br/>
+दोनों पिंड स्थिर अक्ष के परितः घूर्णन कर रहे हैं।</p>
+
+<p><strong>चरण 3: संबंधित सूत्र और सिद्धांत</strong><br/>
+घूर्णन गतिज ऊर्जा तथा कोणीय संवेग में संबंध:
+\(K = \frac{L^2}{2I} \implies L = \sqrt{2IK}\)</p>
+
+<p><strong>चरण 4: चरण-दर-चरण गणना</strong><br/>
+चूँकि दोनों पिंडों की गतिज ऊर्जा \(K\) समान है:
+\(L \propto \sqrt{I}\)
+अनुपात लेने पर:
+\(\frac{L_B}{L_A} = \sqrt{\frac{I_B}{I_A}}\)
+चूँकि \(I_B > I_A\), अतः:
+\(\sqrt{\frac{I_B}{I_A}} > 1 \implies L_B > L_A\)</p>
+
+<p><strong>चरण 5: जाँच और अंतिम उत्तर</strong><br/>
+समान घूर्णन गतिज ऊर्जा के लिए, जिस पिंड का जड़त्व आघूर्ण अधिक होगा उसका कोणीय संवेग भी अधिक होगा।
+अतः सही संबंध \(L_B > L_A\) है।</p>
+    ]]></text>
+  </generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(L_A = \frac{L_B}{2}\)</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(L_A = 2L_B\)</p>]]></text>
+  </answer>
+  <answer fraction="100" format="html">
+    <text><![CDATA[<p>\(L_B > L_A\)</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(L_A > L_B\)</p>]]></text>
+  </answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>year:2016</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:hi</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>class:11</text></tag>
+    <tag><text>topic:rotational_kinetic_energy</text></tag>
+    <tag><text>chapter:system_of_particles_and_rotational_motion</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:easy</text></tag>
+    <tag><text>blooms:understand</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:text</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+
+<question type="multichoice">
+  <name><text>NEET_UG_PHYSICS_2016_MCQ_Q09 - Ratio of rotational kinetic energy of sphere and cylinder</text></name>
+  <questiontext format="html">
+    <text><![CDATA[
+<p>A solid sphere of mass \(m\) and radius \(R\) is rotating about its diameter. A solid cylinder of the same mass and same radius is also rotating about its geometrical axis with an angular speed twice that of the sphere. The ratio of their kinetic energies of rotation \(\left(\frac{E_{\text{sphere}}}{E_{\text{cylinder}}}\right)\) will be</p>
+<hr/>
+<p>द्रव्यमान \(m\) तथा त्रिज्या \(R\) का एक ठोस गोला अपने व्यास के परितः घूर्णन कर रहा है। समान द्रव्यमान तथा समान त्रिज्या का एक ठोस बेलन भी अपने ज्यामितीय अक्ष के परितः गोले की कोणीय चाल से दोगुनी कोणीय चाल से घूर्णन कर रहा है। उनकी घूर्णन गतिज ऊर्जाओं का अनुपात \(\left(\frac{E_{\text{sphere}}}{E_{\text{cylinder}}}\right)\) होगा</p>
+    ]]></text>
+  </questiontext>
+  <generalfeedback format="html">
+    <text><![CDATA[
+<p><strong>Step 1: Given Data and Conditions</strong><br/>
+Mass of both sphere and cylinder: \(m\)
+Radius of both sphere and cylinder: \(R\)
+Angular speed of the sphere: \(\omega_{\text{sphere}} = \omega\)
+Angular speed of the cylinder: \(\omega_{\text{cylinder}} = 2\omega\)</p>
+
+<p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>
+The solid sphere rotates about its diameter: moment of inertia \(I_{\text{sphere}} = \frac{2}{5} m R^2\).
+The solid cylinder rotates about its longitudinal geometrical axis: moment of inertia \(I_{\text{cylinder}} = \frac{1}{2} m R^2\).</p>
+
+<p><strong>Step 3: Relevant Formulae and Principles</strong><br/>
+The rotational kinetic energy of a body with moment of inertia \(I\) rotating with angular velocity \(\omega\) is:
+\(E = \frac{1}{2} I \omega^2\)</p>
+
+<p><strong>Step 4: Step-by-Step Working</strong><br/>
+Rotational kinetic energy of the solid sphere:
+\(E_{\text{sphere}} = \frac{1}{2} I_{\text{sphere}} \omega_{\text{sphere}}^2 = \frac{1}{2} \left(\frac{2}{5} m R^2\right) \omega^2 = \frac{1}{5} m R^2 \omega^2\)
+
+Rotational kinetic energy of the solid cylinder:
+\(E_{\text{cylinder}} = \frac{1}{2} I_{\text{cylinder}} \omega_{\text{cylinder}}^2 = \frac{1}{2} \left(\frac{1}{2} m R^2\right) (2\omega)^2 = \frac{1}{4} m R^2 (4 \omega^2) = m R^2 \omega^2\)
+
+Taking the ratio:
+\(\frac{E_{\text{sphere}}}{E_{\text{cylinder}}} = \frac{\frac{1}{5} m R^2 \omega^2}{m R^2 \omega^2} = \frac{1}{5}\)</p>
+
+<p><strong>Step 5: Check and Final Answer</strong><br/>
+The ratio is \(\frac{1}{5}\), which corresponds to \(1 : 5\).
+The required ratio of rotational kinetic energies is \(1 : 5\).</p>
+<hr/>
+<p><strong>चरण 1: दिए गए आँकड़े और शर्तें</strong><br/>
+गोले और बेलन का द्रव्यमान: \(m\)
+गोले और बेलन की त्रिज्या: \(R\)
+गोले की कोणीय चाल: \(\omega_{\text{sphere}} = \omega\)
+बेलन की कोणीय चाल: \(\omega_{\text{cylinder}} = 2\omega\)</p>
+
+<p><strong>चरण 2: अवधारणाएँ और चिन्ह परिपाटी</strong><br/>
+ठोस गोले का व्यास के परितः जड़त्व आघूर्ण: \(I_{\text{sphere}} = \frac{2}{5} m R^2\)
+ठोस बेलन का ज्यामितीय अक्ष के परितः जड़त्व आघूर्ण: \(I_{\text{cylinder}} = \frac{1}{2} m R^2\)</p>
+
+<p><strong>चरण 3: संबंधित सूत्र और सिद्धांत</strong><br/>
+घूर्णन गतिज ऊर्जा का सूत्र:
+\(E = \frac{1}{2} I \omega^2\)</p>
+
+<p><strong>चरण 4: चरण-दर-चरण गणना</strong><br/>
+गोले की घूर्णन गतिज ऊर्जा:
+\(E_{\text{sphere}} = \frac{1}{2} \left(\frac{2}{5} m R^2\right) \omega^2 = \frac{1}{5} m R^2 \omega^2\)
+
+बेलन की घूर्णन गतिज ऊर्जा:
+\(E_{\text{cylinder}} = \frac{1}{2} \left(\frac{1}{2} m R^2\right) (2\omega)^2 = \frac{1}{4} m R^2 (4\omega^2) = m R^2 \omega^2\)
+
+अनुपात:
+\(\frac{E_{\text{sphere}}}{E_{\text{cylinder}}} = \frac{\frac{1}{5} m R^2 \omega^2}{m R^2 \omega^2} = \frac{1}{5}\)</p>
+
+<p><strong>चरण 5: जाँच और अंतिम उत्तर</strong><br/>
+गतिज ऊर्जाओं का अभीष्ट अनुपात \(1 : 5\) है।</p>
+    ]]></text>
+  </generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(2 : 3\)</p>]]></text>
+  </answer>
+  <answer fraction="100" format="html">
+    <text><![CDATA[<p>\(1 : 5\)</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(1 : 4\)</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(3 : 1\)</p>]]></text>
+  </answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>year:2016</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:hi</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>class:11</text></tag>
+    <tag><text>topic:moment_of_inertia_and_rotational_energy</text></tag>
+    <tag><text>chapter:system_of_particles_and_rotational_motion</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:easy</text></tag>
+    <tag><text>blooms:apply</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:text</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+
+<question type="multichoice">
+  <name><text>NEET_UG_PHYSICS_2016_MCQ_Q10 - Moment of inertia about centre of mass axis</text></name>
+  <questiontext format="html">
+    <text><![CDATA[
+<p>A light rod of length \(l\) has two masses \(m_1\) and \(m_2\) attached to its two ends. The moment of inertia of the system about an axis perpendicular to the rod and passing through the centre of mass is</p>
+<hr/>
+<p>\(l\) लम्बाई की एक हल्की छड़ के दोनों सिरों पर दो द्रव्यमान \(m_1\) तथा \(m_2\) जुड़े हैं। छड़ के लम्बवत तथा द्रव्यमान केंद्र से गुजरने वाले अक्ष के परितः निकाय का जड़त्व आघूर्ण होगा</p>
+    ]]></text>
+  </questiontext>
+  <generalfeedback format="html">
+    <text><![CDATA[
+<p><strong>Step 1: Given Data and Conditions</strong><br/>
+Masses attached at the ends of the rod: \(m_1\) and \(m_2\)
+Length of the light rod (massless): \(l\)
+Axis: Perpendicular to the rod and passing through the centre of mass of the system.</p>
+
+<p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>
+The rod is considered rigid and of negligible mass.
+Let the origin be at mass \(m_1\). Mass \(m_2\) is situated at position \(x = l\).
+The distances of \(m_1\) and \(m_2\) from the centre of mass are \(r_1\) and \(r_2\), where \(r_1 + r_2 = l\).</p>
+
+<p><strong>Step 3: Relevant Formulae and Principles</strong><br/>
+Position of the centre of mass from \(m_1\):
+\(r_1 = \frac{m_2 l}{m_1 + m_2}\)
+Position of the centre of mass from \(m_2\):
+\(r_2 = \frac{m_1 l}{m_1 + m_2}\)
+Total moment of inertia about the centre of mass axis:
+\(I = m_1 r_1^2 + m_2 r_2^2\)</p>
+
+<p><strong>Step 4: Step-by-Step Working</strong><br/>
+Substitute \(r_1\) and \(r_2\) into the moment of inertia formula:
+\(I = m_1 \left(\frac{m_2 l}{m_1 + m_2}\right)^2 + m_2 \left(\frac{m_1 l}{m_1 + m_2}\right)^2\)
+\(I = \frac{m_1 m_2^2 l^2 + m_2 m_1^2 l^2}{(m_1 + m_2)^2}\)
+Factor out \(m_1 m_2 l^2\) from the numerator:
+\(I = \frac{m_1 m_2 (m_1 + m_2) l^2}{(m_1 + m_2)^2} = \frac{m_1 m_2}{m_1 + m_2} l^2\)</p>
+
+<p><strong>Step 5: Check and Final Answer</strong><br/>
+The expression equals the reduced mass \(\mu\) multiplied by \(l^2\), where \(\mu = \frac{m_1 m_2}{m_1 + m_2}\).
+Dimensionally, \([\text{M}][\text{L}^2]\) is consistent with moment of inertia.
+The moment of inertia of the system is \(\frac{m_1 m_2}{m_1 + m_2} l^2\).</p>
+<hr/>
+<p><strong>चरण 1: दिए गए आँकड़े और शर्तें</strong><br/>
+छड़ के सिरों पर जुड़े द्रव्यमान: \(m_1\) तथा \(m_2\)
+हल्की छड़ की लम्बाई: \(l\)
+अक्ष: छड़ के लम्बवत तथा निकाय के द्रव्यमान केंद्र से गुजरने वाला अक्ष।</p>
+
+<p><strong>चरण 2: अवधारणाएँ और चिन्ह परिपाटी</strong><br/>
+छड़ द्रव्यमानहीन है।
+द्रव्यमान केंद्र से \(m_1\) की दूरी \(r_1\) तथा \(m_2\) की दूरी \(r_2\) है, जहाँ \(r_1 + r_2 = l\)।</p>
+
+<p><strong>चरण 3: संबंधित सूत्र और सिद्धांत</strong><br/>
+द्रव्यमान केंद्र से दूरियाँ:
+\(r_1 = \frac{m_2 l}{m_1 + m_2}\)
+\(r_2 = \frac{m_1 l}{m_1 + m_2}\)
+द्रव्यमान केंद्र के परितः जड़त्व आघूर्ण:
+\(I = m_1 r_1^2 + m_2 r_2^2\)</p>
+
+<p><strong>चरण 4: चरण-दर-चरण गणना</strong><br/>
+मान रखने पर:
+\(I = m_1 \left(\frac{m_2 l}{m_1 + m_2}\right)^2 + m_2 \left(\frac{m_1 l}{m_1 + m_2}\right)^2\)
+\(I = \frac{m_1 m_2 (m_2 + m_1) l^2}{(m_1 + m_2)^2} = \frac{m_1 m_2}{m_1 + m_2} l^2\)</p>
+
+<p><strong>चरण 5: जाँच और अंतिम उत्तर</strong><br/>
+यह मान समानित द्रव्यमान (reduced mass) \(\mu = \frac{m_1 m_2}{m_1 + m_2}\) के पदों में \(\mu l^2\) के तुल्य है।
+अतः निकाय का जड़त्व आघूर्ण \(\frac{m_1 m_2}{m_1 + m_2} l^2\) है।</p>
+    ]]></text>
+  </generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="100" format="html">
+    <text><![CDATA[<p>\(\frac{m_1 m_2}{m_1 + m_2} l^2\)</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(\frac{m_1 + m_2}{m_1 m_2} l^2\)</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\((m_1 + m_2) l^2\)</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(\sqrt{m_1 m_2} l^2\)</p>]]></text>
+  </answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>year:2016</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:hi</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>class:11</text></tag>
+    <tag><text>topic:center_of_mass_and_moment_of_inertia</text></tag>
+    <tag><text>chapter:system_of_particles_and_rotational_motion</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:medium</text></tag>
+    <tag><text>blooms:apply</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:text</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>

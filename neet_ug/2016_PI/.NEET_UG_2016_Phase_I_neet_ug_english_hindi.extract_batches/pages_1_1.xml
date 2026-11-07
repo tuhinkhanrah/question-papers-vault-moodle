@@ -1,0 +1,852 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+<question type="multichoice">
+  <name><text>NEET_UG_PHYSICS_2016_MCQ_Q01 - Percentage of stored capacitor energy dissipated</text></name>
+  <questiontext format="html">
+    <text><![CDATA[
+<p>A capacitor of \(2\,\mu\text{F}\) is charged as shown in the figure. When the switch \(\text{S}\) is turned to position 2, the percentage of its stored energy dissipated is</p>
+<p><img src="@@PLUGINFILE@@/img-0.jpeg" alt="Capacitor circuit diagram" /></p>
+<hr/>
+<p>\(2\,\mu\text{F}\) का एक संधारित्र चित्र में दिखाए अनुसार आवेशित किया जाता है। जब स्विच \(\text{S}\) को स्थिति 2 पर घुमाया जाता है, तो इसकी संचित ऊर्जा का कितना प्रतिशत व्यय (क्षय) हो जाता है?</p>
+<p><img src="@@PLUGINFILE@@/img-0.jpeg" alt="संधारित्र परिपथ आरेख" /></p>
+    ]]></text>
+  </questiontext>
+  <generalfeedback format="html">
+    <text><![CDATA[
+<p><strong>Step 1: Given Data and Conditions</strong><br/>
+Initial capacitance connected to battery of voltage \(V\): \(C_1 = 2\,\mu\text{F}\).<br/>
+Uncharged capacitance connected in parallel upon switching to position 2: \(C_2 = 8\,\mu\text{F}\).</p>
+<p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>
+Charge is conserved during the redistribution between the two capacitors when the switch is thrown from position 1 to position 2.</p>
+<p><strong>Step 3: Relevant Formulae and Principles</strong><br/>
+Initial energy stored in the capacitor:<br/>
+\[U_i = \frac{1}{2} C_1 V^2\]
+Common potential after connection:<br/>
+\[V_c = \frac{C_1 V}{C_1 + C_2}\]
+Loss in electrostatic energy during redistribution:<br/>
+\[\Delta U = \frac{1}{2} \frac{C_1 C_2}{C_1 + C_2} V^2\]
+Percentage of stored energy dissipated:<br/>
+\[\text{Percentage loss} = \frac{\Delta U}{U_i} \times 100\%\]</p>
+<p><strong>Step 4: Step-by-Step Working</strong><br/>
+Substituting the values of \(C_1\) and \(C_2\):<br/>
+\[U_i = \frac{1}{2} (2) V^2 = V^2\]
+\[\Delta U = \frac{1}{2} \left(\frac{2 \times 8}{2 + 8}\right) V^2 = \frac{1}{2} \left(\frac{16}{10}\right) V^2 = 0.8 V^2\]
+\[\text{Percentage loss} = \frac{0.8 V^2}{V^2} \times 100\% = 80\%\]</p>
+<p><strong>Step 5: Check and Final Answer</strong><br/>
+The final energy is \(U_f = \frac{1}{2}(C_1 + C_2)V_c^2 = \frac{1}{2}(10)\left(\frac{2V}{10}\right)^2 = 0.2 V^2\), which is \(20\%\) of the original energy. Thus, the dissipated energy is \(80\%\).</p>
+<hr/>
+<p><strong>चरण 1: दिए गए आँकड़े और शर्तें</strong><br/>
+विभव \(V\) की बैटरी से जुड़ा प्रारंभिक संधारित्र: \(C_1 = 2\,\mu\text{F}\)।<br/>
+स्थिति 2 पर जोड़ने पर समांतर क्रम में जुड़ा अनावेशित संधारित्र: \(C_2 = 8\,\mu\text{F}\)।</p>
+<p><strong>चरण 2: अवधारणा और परिपाटी</strong><br/>
+जब स्विच को स्थिति 1 से स्थिति 2 पर किया जाता है, तो दोनों संधारित्रों के बीच आवेश के पुनर्वितरण के दौरान कुल आवेश संरक्षित रहता है।</p>
+<p><strong>चरण 3: संबंधित सूत्र और सिद्धांत</strong><br/>
+संधारित्र में संचित प्रारंभिक ऊर्जा:<br/>
+\[U_i = \frac{1}{2} C_1 V^2\]
+उभयनिष्ठ विभव:<br/>
+\[V_c = \frac{C_1 V}{C_1 + C_2}\]
+ऊर्जा ह्रास (ऊष्मा एवं विकिरण के रूप में व्यय ऊर्जा):<br/>
+\[\Delta U = \frac{1}{2} \frac{C_1 C_2}{C_1 + C_2} V^2\]
+ऊर्जा ह्रास का प्रतिशत:<br/>
+\[\text{प्रतिशत ह्रास} = \frac{\Delta U}{U_i} \times 100\%\]</p>
+<p><strong>चरण 4: चरण-दर-चरण गणना</strong><br/>
+\(C_1\) और \(C_2\) के मान रखने पर:<br/>
+\[U_i = \frac{1}{2} (2) V^2 = V^2\]
+\[\Delta U = \frac{1}{2} \left(\frac{2 \times 8}{2 + 8}\right) V^2 = 0.8 V^2\]
+\[\text{प्रतिशत ह्रास} = \frac{0.8 V^2}{V^2} \times 100\% = 80\%\]</p>
+<p><strong>चरण 5: जाँच एवं अंतिम उत्तर</strong><br/>
+अंतिम संचित ऊर्जा \(0.2 V^2\) है जो प्रारंभिक मान का \(20\%\) है, अतः व्यय हुई ऊर्जा \(80\%\) है।</p>
+    ]]></text>
+  </generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(20\%\)</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(75\%\)</p>]]></text>
+  </answer>
+  <answer fraction="100" format="html">
+    <text><![CDATA[<p>\(80\%\)</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(0\%\)</p>]]></text>
+  </answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>year:2016</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:hi</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>chapter:electrostatic_potential_and_capacitance</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:medium</text></tag>
+    <tag><text>blooms:apply</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:circuit</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+<question type="multichoice">
+  <name><text>NEET_UG_PHYSICS_2016_MCQ_Q02 - Logic gate circuit inputs for high output</text></name>
+  <questiontext format="html">
+    <text><![CDATA[
+<p>To get output 1 for the following circuit, the correct choice for the input is</p>
+<p><img src="@@PLUGINFILE@@/img-1.jpeg" alt="Logic gate circuit diagram" /></p>
+<hr/>
+<p>निम्नलिखित परिपथ के लिए निर्गत 1 प्राप्त करने हेतु, निवेश (इनपुट) का सही चयन है:</p>
+<p><img src="@@PLUGINFILE@@/img-1.jpeg" alt="लॉजिक गेट परिपथ आरेख" /></p>
+    ]]></text>
+  </questiontext>
+  <generalfeedback format="html">
+    <text><![CDATA[
+<p><strong>Step 1: Given Data and Conditions</strong><br/>
+The circuit consists of an OR gate followed by an AND gate.<br/>
+Inputs to the OR gate are \(\text{A}\) and \(\text{B}\).<br/>
+The output of the OR gate and a third input \(\text{C}\) are fed into the AND gate.<br/>
+The desired final output is \(Y = 1\).</p>
+<p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>
+Standard Boolean logic operations are used where high is represented by 1 and low by 0.</p>
+<p><strong>Step 3: Relevant Formulae and Principles</strong><br/>
+Output of the OR gate: \(X = \text{A} + \text{B}\).<br/>
+Output of the AND gate: \(Y = X \cdot \text{C} = (\text{A} + \text{B}) \cdot \text{C}\).</p>
+<p><strong>Step 4: Step-by-Step Working</strong><br/>
+For the AND gate output to be \(Y = 1\), both of its inputs must be 1:<br/>
+1. \(\text{C} = 1\)<br/>
+2. \(\text{A} + \text{B} = 1\), which requires at least one of \(\text{A}\) or \(\text{B}\) to be 1.<br/>
+Evaluating the conditions shows that input \(\text{C}\) must strictly be 1. Among the choices, the set of values satisfying \(\text{C} = 1\) and \((\text{A} + \text{B}) = 1\) is \(\text{A} = 1, \text{B} = 0, \text{C} = 1\).</p>
+<p><strong>Step 5: Check and Final Answer</strong><br/>
+Substituting \(\text{A} = 1, \text{B} = 0, \text{C} = 1\):<br/>
+\(Y = (1 + 0) \cdot 1 = 1 \cdot 1 = 1\).<br/>
+The correct input combination is \(\text{A} = 1, \text{B} = 0, \text{C} = 1\).</p>
+<hr/>
+<p><strong>चरण 1: दिए गए आँकड़े और शर्तें</strong><br/>
+परिपथ में एक OR गेट और उसके बाद एक AND गेट लगा है।<br/>
+OR गेट के निवेश \(\text{A}\) और \(\text{B}\) हैं।<br/>
+OR गेट का निर्गत और तीसरा निवेश \(\text{C}\), AND गेट के निवेश हैं।<br/>
+वांछित अंतिम निर्गत \(Y = 1\) है।</p>
+<p><strong>चरण 2: अवधारणा और परिपाटी</strong><br/>
+मानक बूलियन बीजगणित के नियमों का पालन किया जाता है जहाँ उच्च अवस्था 1 तथा निम्न अवस्था 0 होती है।</p>
+<p><strong>चरण 3: संबंधित सूत्र और सिद्धांत</strong><br/>
+OR गेट का निर्गत: \(X = \text{A} + \text{B}\)।<br/>
+AND गेट का अंतिम निर्गत: \(Y = X \cdot \text{C} = (\text{A} + \text{B}) \cdot \text{C}\)।</p>
+<p><strong>चरण 4: चरण-दर-चरण गणना</strong><br/>
+AND गेट के निर्गत \(Y = 1\) होने के लिए, इसके दोनों निवेश 1 होने चाहिए:<br/>
+1. \(\text{C} = 1\)<br/>
+2. \(\text{A} + \text{B} = 1\), जिसका अर्थ है कि \(\text{A}\) या \(\text{B}\) में से कम से कम एक 1 होना चाहिए।<br/>
+विकल्पों में से केवल वही समूह इसे संतुष्ट करता है जिसमें \(\text{C} = 1\) हो, अर्थात \(\text{A} = 1, \text{B} = 0, \text{C} = 1\)।</p>
+<p><strong>चरण 5: जाँच एवं अंतिम उत्तर</strong><br/>
+मान रखने पर: \(Y = (1 + 0) \cdot 1 = 1 \cdot 1 = 1\)।<br/>
+अतः सही निवेश संयोजन \(\text{A} = 1, \text{B} = 0, \text{C} = 1\) है।</p>
+    ]]></text>
+  </generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(\text{A} = 1, \text{B} = 0, \text{C} = 0\)</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(\text{A} = 1, \text{B} = 1, \text{C} = 0\)</p>]]></text>
+  </answer>
+  <answer fraction="100" format="html">
+    <text><![CDATA[<p>\(\text{A} = 1, \text{B} = 0, \text{C} = 1\)</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(\text{A} = 0, \text{B} = 1, \text{C} = 0\)</p>]]></text>
+  </answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>year:2016</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:hi</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>chapter:semiconductor_electronics</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:easy</text></tag>
+    <tag><text>blooms:understand</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:circuit</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+<question type="multichoice">
+  <name><text>NEET_UG_PHYSICS_2016_MCQ_Q03 - Ratio of emf of two cells using potentiometer</text></name>
+  <questiontext format="html">
+    <text><![CDATA[
+<p>A potentiometer wire is \(100\,\text{cm}\) long and a constant potential difference is maintained across it. Two cells are connected in series first to support one another and then in opposite direction. The balance points are obtained at \(50\,\text{cm}\) and \(10\,\text{cm}\) from the positive end of the wire in the two cases. The ratio of emf is</p>
+<hr/>
+<p>एक विभवमापी तार \(100\,\text{cm}\) लंबा है और इसके सिरों पर एक नियत विभवांतर बनाए रखा गया है। दो सेलों को श्रेणीक्रम में पहले एक-दूसरे की सहायता करते हुए और फिर विपरीत दिशा में जोड़ा जाता है। दोनों स्थितियों में संतुलन बिंदु तार के धनात्मक सिरे से क्रमशः \(50\,\text{cm}\) और \(10\,\text{cm}\) पर प्राप्त होते हैं। उनके विद्युत वाहक बलों (emf) का अनुपात है:</p>
+    ]]></text>
+  </questiontext>
+  <generalfeedback format="html">
+    <text><![CDATA[
+<p><strong>Step 1: Given Data and Conditions</strong><br/>
+Balancing length when cells assist each other: \(l_1 = 50\,\text{cm}\).<br/>
+Balancing length when cells oppose each other: \(l_2 = 10\,\text{cm}\).</p>
+<p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>
+The potential gradient \(k\) along the potentiometer wire is uniform and constant.<br/>
+Let \(E_1\) and \(E_2\) be the emfs of the two cells with \(E_1 > E_2\).</p>
+<p><strong>Step 3: Relevant Formulae and Principles</strong><br/>
+In assisting combination: \(E_1 + E_2 = k l_1\).<br/>
+In opposing combination: \(E_1 - E_2 = k l_2\).<br/>
+Dividing the two equations gives:<br/>
+\[\frac{E_1 + E_2}{E_1 - E_2} = \frac{l_1}{l_2}\]<br/>
+Using the componendo and dividendo rule:<br/>
+\[\frac{E_1}{E_2} = \frac{l_1 + l_2}{l_1 - l_2}\]</p>
+<p><strong>Step 4: Step-by-Step Working</strong><br/>
+Substitute the given balancing lengths \(l_1 = 50\,\text{cm}\) and \(l_2 = 10\,\text{cm}\):<br/>
+\[\frac{E_1}{E_2} = \frac{50 + 10}{50 - 10} = \frac{60}{40} = \frac{3}{2}\]</p>
+<p><strong>Step 5: Check and Final Answer</strong><br/>
+The ratio of their electromotive forces is \(3 : 2\).</p>
+<hr/>
+<p><strong>चरण 1: दिए गए आँकड़े और शर्तें</strong><br/>
+सहायक संयोजन में संतुलन लंबाई: \(l_1 = 50\,\text{cm}\)।<br/>
+विरोधी संयोजन में संतुलन लंबाई: \(l_2 = 10\,\text{cm}\)।</p>
+<p><strong>चरण 2: अवधारणा और परिपाटी</strong><br/>
+विभवमापी तार पर विभव प्रवणता \(k\) एकसमान और नियत है।<br/>
+माना दोनों सेलों के विद्युत वाहक बल \(E_1\) और \(E_2\) हैं (\(E_1 > E_2\))।</p>
+<p><strong>चरण 3: संबंधित सूत्र और सिद्धांत</strong><br/>
+सहायक संयोजन में: \(E_1 + E_2 = k l_1\)।<br/>
+विपरीत (विरोधी) संयोजन में: \(E_1 - E_2 = k l_2\)।<br/>
+दोनों समीकरणों का अनुपात लेने पर:<br/>
+\[\frac{E_1 + E_2}{E_1 - E_2} = \frac{l_1}{l_2}\]<br/>
+योगानुपात एवं अंतरानुपात (Componendo and Dividendo) नियम से:<br/>
+\[\frac{E_1}{E_2} = \frac{l_1 + l_2}{l_1 - l_2}\]</p>
+<p><strong>चरण 4: चरण-दर-चरण गणना</strong><br/>
+दिए गए मान रखने पर:<br/>
+\[\frac{E_1}{E_2} = \frac{50 + 10}{50 - 10} = \frac{60}{40} = \frac{3}{2}\]</p>
+<p><strong>चरण 5: जाँच एवं अंतिम उत्तर</strong><br/>
+दोनों सेलों के विद्युत वाहक बलों का अनुपात \(3 : 2\) है।</p>
+    ]]></text>
+  </generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(5 : 4\)</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(3 : 4\)</p>]]></text>
+  </answer>
+  <answer fraction="100" format="html">
+    <text><![CDATA[<p>\(3 : 2\)</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(5 : 1\)</p>]]></text>
+  </answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>year:2016</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:hi</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>chapter:current_electricity</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:easy</text></tag>
+    <tag><text>blooms:apply</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:text</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+<question type="multichoice">
+  <name><text>NEET_UG_PHYSICS_2016_MCQ_Q04 - Threshold wavelength from stopping potentials</text></name>
+  <questiontext format="html">
+    <text><![CDATA[
+<p>When a metallic surface is illuminated with radiation of wavelength \(\lambda\), the stopping potential is \(V\). If the same surface is illuminated with radiation of wavelength \(2\lambda\), the stopping potential is \(\frac{V}{4}\). The threshold wavelength for the metallic surface is</p>
+<hr/>
+<p>जब किसी धातु की सतह को \(\lambda\) तरंगदैर्घ्य के विकिरण से प्रदीप्त किया जाता है, तो निरोधी विभव \(V\) होता है। यदि उसी सतह को \(2\lambda\) तरंगदैर्घ्य के विकिरण से प्रदीप्त किया जाए, तो निरोधी विभव \(\frac{V}{4}\) हो जाता है। धात्विक सतह के लिए देहली तरंगदैर्घ्य है:</p>
+    ]]></text>
+  </questiontext>
+  <generalfeedback format="html">
+    <text><![CDATA[
+<p><strong>Step 1: Given Data and Conditions</strong><br/>
+Case 1: Incident wavelength \(\lambda_1 = \lambda\), stopping potential \(V_1 = V\).<br/>
+Case 2: Incident wavelength \(\lambda_2 = 2\lambda\), stopping potential \(V_2 = \frac{V}{4}\).</p>
+<p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>
+Let \(W\) be the work function of the metal and \(\lambda_0\) be the threshold wavelength such that \(W = \frac{hc}{\lambda_0}\).</p>
+<p><strong>Step 3: Relevant Formulae and Principles</strong><br/>
+Einstein's photoelectric equation relates incident photon energy, work function, and stopping potential:<br/>
+\[eV_0 = \frac{hc}{\lambda} - W\]</p>
+<p><strong>Step 4: Step-by-Step Working</strong><br/>
+From the first case:<br/>
+\[eV = \frac{hc}{\lambda} - W \quad \text{--- (1)}\]<br/>
+From the second case:<br/>
+\[e\left(\frac{V}{4}\right) = \frac{hc}{2\lambda} - W \implies eV = \frac{4hc}{2\lambda} - 4W = \frac{2hc}{\lambda} - 4W \quad \text{--- (2)}\]<br/>
+Equating equation (1) and equation (2):<br/>
+\[\frac{hc}{\lambda} - W = \frac{2hc}{\lambda} - 4W\]<br/>
+\[3W = \frac{hc}{\lambda}\]<br/>
+Substitute \(W = \frac{hc}{\lambda_0}\):<br/>
+\[3\left(\frac{hc}{\lambda_0}\right) = \frac{hc}{\lambda} \implies \lambda_0 = 3\lambda\]</p>
+<p><strong>Step 5: Check and Final Answer</strong><br/>
+The threshold wavelength of the metallic surface is \(3\lambda\).</p>
+<hr/>
+<p><strong>चरण 1: दिए गए आँकड़े और शर्तें</strong><br/>
+स्थिति 1: आपतित तरंगदैर्घ्य \(\lambda_1 = \lambda\), निरोधी विभव \(V_1 = V\)।<br/>
+स्थिति 2: आपतित तरंगदैर्घ्य \(\lambda_2 = 2\lambda\), निरोधी विभव \(V_2 = \frac{V}{4}\)।</p>
+<p><strong>चरण 2: अवधारणा और परिपाटी</strong><br/>
+माना धातु का कार्यफलन \(W\) और देहली तरंगदैर्घ्य \(\lambda_0\) है, जहाँ \(W = \frac{hc}{\lambda_0}\)।</p>
+<p><strong>चरण 3: संबंधित सूत्र और सिद्धांत</strong><br/>
+आइंस्टीन का प्रकाश-विद्युत समीकरण:<br/>
+\[eV_0 = \frac{hc}{\lambda} - W\]</p>
+<p><strong>चरण 4: चरण-दर-चरण गणना</strong><br/>
+प्रथम स्थिति से:<br/>
+\[eV = \frac{hc}{\lambda} - W \quad \text{--- (1)}\]<br/>
+द्वितीय स्थिति से:<br/>
+\[e\left(\frac{V}{4}\right) = \frac{hc}{2\lambda} - W \implies eV = \frac{2hc}{\lambda} - 4W \quad \text{--- (2)}\]<br/>
+समीकरण (1) तथा (2) की तुलना करने पर:<br/>
+\[\frac{hc}{\lambda} - W = \frac{2hc}{\lambda} - 4W\]<br/>
+\[3W = \frac{hc}{\lambda}\]<br/>
+\(W = \frac{hc}{\lambda_0}\) रखने पर:<br/>
+\[3\left(\frac{hc}{\lambda_0}\right) = \frac{hc}{\lambda} \implies \lambda_0 = 3\lambda\]</p>
+<p><strong>चरण 5: जाँच एवं अंतिम उत्तर</strong><br/>
+धातु की सतह के लिए देहली तरंगदैर्घ्य \(3\lambda\) है।</p>
+    ]]></text>
+  </generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(5\lambda\)</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(\frac{5}{2}\lambda\)</p>]]></text>
+  </answer>
+  <answer fraction="100" format="html">
+    <text><![CDATA[<p>\(3\lambda\)</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(4\lambda\)</p>]]></text>
+  </answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>year:2016</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:hi</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>chapter:dual_nature_of_radiation_and_matter</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:medium</text></tag>
+    <tag><text>blooms:apply</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:equation</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+<question type="multichoice">
+  <name><text>NEET_UG_PHYSICS_2016_MCQ_Q05 - Density of cylinder floating in two immiscible liquids</text></name>
+  <questiontext format="html">
+    <text><![CDATA[
+<p>Two non-mixing liquids of densities \(\rho\) and \(n\rho\; (n > 1)\) are put in a container. The height of each liquid is \(h\). A solid cylinder of length \(L\) and density \(d\) is put in this container. The cylinder floats with its axis vertical and length \(pL\; (p < 1)\) in the denser liquid. The density \(d\) is equal to</p>
+<hr/>
+<p>एक पात्र में \(\rho\) तथा \(n\rho\; (n > 1)\) घनत्व वाले दो अमिश्रणीय द्रव भरे जाते हैं। प्रत्येक द्रव की ऊँचाई \(h\) है। इस पात्र में \(L\) लंबाई और \(d\) घनत्व का एक ठोस बेलन डाला जाता है। यह बेलन अपने अक्ष को ऊर्ध्वाधर रखते हुए सघन द्रव में \(pL\; (p < 1)\) लंबाई के साथ तैरता है। घनत्व \(d\) बराबर है:</p>
+    ]]></text>
+  </questiontext>
+  <generalfeedback format="html">
+    <text><![CDATA[
+<p><strong>Step 1: Given Data and Conditions</strong><br/>
+Density of upper liquid: \(\rho_1 = \rho\).<br/>
+Density of lower (denser) liquid: \(\rho_2 = n\rho\) with \(n > 1\).<br/>
+Length of cylinder: \(L\).<br/>
+Length submerged in denser liquid: \(L_2 = pL\) with \(p < 1\).<br/>
+Remaining length submerged in upper liquid: \(L_1 = L - pL = (1 - p)L\).<br/>
+Density of cylinder: \(d\).</p>
+<p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>
+Let the uniform cross-sectional area of the cylinder be \(A\).<br/>
+The cylinder floats in equilibrium; thus, downward weight equals total upward buoyant force.</p>
+<p><strong>Step 3: Relevant Formulae and Principles</strong><br/>
+Condition for floating equilibrium:<br/>
+\[\text{Weight of cylinder} = \text{Upthrust from denser liquid} + \text{Upthrust from less dense liquid}\]<br/>
+\[(A L d) g = (A L_2 \rho_2) g + (A L_1 \rho_1) g\]</p>
+<p><strong>Step 4: Step-by-Step Working</strong><br/>
+Dividing both sides by \(A g\):<br/>
+\[L d = (pL)(n\rho) + (1 - p)L \rho\]<br/>
+Dividing both sides by \(L\):<br/>
+\[d = p n \rho + (1 - p)\rho\]<br/>
+Factor out \(\rho\):<br/>
+\[d = \{pn + 1 - p\}\rho = \{1 + (n - 1)p\}\rho\]</p>
+<p><strong>Step 5: Check and Final Answer</strong><br/>
+The density of the cylinder is \(\{1 + (n - 1)p\}\rho\).</p>
+<hr/>
+<p><strong>चरण 1: दिए गए आँकड़े और शर्तें</strong><br/>
+ऊपरी द्रव का घनत्व: \(\rho_1 = \rho\)।<br/>
+निचले (सघन) द्रव का घनत्व: \(\rho_2 = n\rho\) (\(n > 1\))।<br/>
+बेलन की कुल लंबाई: \(L\)।<br/>
+सघन द्रव में डूबी लंबाई: \(L_2 = pL\) (\(p < 1\))।<br/>
+ऊपरी द्रव में डूबी लंबाई: \(L_1 = (1 - p)L\)।<br/>
+बेलन का घनत्व: \(d\)।</p>
+<p><strong>चरण 2: अवधारणा और परिपाटी</strong><br/>
+माना बेलन का अनुप्रस्थ काट क्षेत्रफल \(A\) है।<br/>
+प्लवन (संतुलन) की स्थिति में बेलन का कुल भार उस पर लगने वाले कुल उत्प्लावन बल के बराबर होता है।</p>
+<p><strong>चरण 3: संबंधित सूत्र और सिद्धांत</strong><br/>
+प्लवन की शर्त:<br/>
+\[\text{बेलन का भार} = \text{सघन द्रव द्वारा उत्प्लावन बल} + \text{विरल द्रव द्वारा उत्प्लावन बल}\]<br/>
+\[(A L d) g = (A L_2 \rho_2) g + (A L_1 \rho_1) g\]</p>
+<p><strong>चरण 4: चरण-दर-चरण गणना</strong><br/>
+दोनों पक्षों को \(A g\) से भाग देने पर:<br/>
+\[L d = (pL)(n\rho) + (1 - p)L \rho\]<br/>
+दोनों पक्षों को \(L\) से भाग देने पर:<br/>
+\[d = p n \rho + (1 - p)\rho = \{1 + (n - 1)p\}\rho\]</p>
+<p><strong>चरण 5: जाँच एवं अंतिम उत्तर</strong><br/>
+ठोस बेलन का घनत्व \(\{1 + (n - 1)p\}\rho\) के बराबर है।</p>
+    ]]></text>
+  </generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(\{2 + (n + 1)p\}\rho\)</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(\{2 + (n - 1)p\}\rho\)</p>]]></text>
+  </answer>
+  <answer fraction="100" format="html">
+    <text><![CDATA[<p>\(\{1 + (n - 1)p\}\rho\)</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(\{1 + (n + 1)p\}\rho\)</p>]]></text>
+  </answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>year:2016</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:hi</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>chapter:mechanical_properties_of_fluids</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:medium</text></tag>
+    <tag><text>blooms:apply</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:equation</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+<question type="multichoice">
+  <name><text>NEET_UG_PHYSICS_2016_MCQ_Q06 - Source of propagating electromagnetic wave</text></name>
+  <questiontext format="html">
+    <text><![CDATA[
+<p>Out of the following options which one can be used to produce a propagating electromagnetic wave?</p>
+<hr/>
+<p>निम्नलिखित में से किसका उपयोग संचरित होने वाली विद्युतचुंबकीय तरंग उत्पन्न करने के लिए किया जा सकता है?</p>
+    ]]></text>
+  </questiontext>
+  <generalfeedback format="html">
+    <text><![CDATA[
+<p><strong>Step 1: Conceptual Principle</strong><br/>
+A static electric charge produces only a static electrostatic field. A charge moving with a constant (uniform) velocity produces both a constant electric field and a steady magnetic field, but neither field varies with time, so no energy is radiated as electromagnetic waves.</p>
+<p><strong>Step 2: Evaluation</strong><br/>
+An accelerated charge has a time-varying velocity, which produces a time-varying electric field. According to Maxwell's equations, a changing electric field produces a changing magnetic field, and vice versa. These coupled, mutually perpendicular time-varying fields propagate continuously through space as electromagnetic waves.</p>
+<p><strong>Step 3: Application and Final Conclusion</strong><br/>
+A neutral (chargeless) particle does not produce electromagnetic fields. A stationary charge or a charge moving with constant velocity does not radiate energy. Therefore, only an accelerating charge can generate a propagating electromagnetic wave.</p>
+<hr/>
+<p><strong>चरण 1: सैद्धांतिक सिद्धांत</strong><br/>
+एक स्थिर विद्युत आवेश केवल स्थिर वैद्युत क्षेत्र उत्पन्न करता है। नियत वेग से गतिमान आवेश एक नियत विद्युत क्षेत्र और स्थिर चुंबकीय क्षेत्र उत्पन्न करता है, जिससे ऊर्जा विद्युतचुंबकीय तरंगों के रूप में उत्सर्जित नहीं होती है।</p>
+<p><strong>चरण 2: मूल्यांकन</strong><br/>
+एक त्वरित आवेश का वेग समय के साथ बदलता है, जिससे समय के साथ परिवर्तनशील विद्युत क्षेत्र उत्पन्न होता है। मैक्सवेल के समीकरणों के अनुसार, समय-परिवर्ती विद्युत क्षेत्र एक समय-परिवर्ती चुंबकीय क्षेत्र उत्पन्न करता है और यह प्रक्रिया परस्पर आगे बढ़ती है, जिससे अंतरिक्ष में विद्युतचुंबकीय तरंगें संचरित होती हैं।</p>
+<p><strong>चरण 3: अनुप्रयोग एवं अंतिम निष्कर्ष</strong><br/>
+अनावेशित कण विद्युतचुंबकीय क्षेत्र उत्पन्न नहीं कर सकता, तथा स्थिर या नियत वेग से गतिमान आवेश तरंगें उत्सर्जित नहीं करते। अतः संचरित विद्युतचुंबकीय तरंग केवल एक त्वरित आवेश द्वारा ही उत्पन्न की जा सकती है।</p>
+    ]]></text>
+  </generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>A stationary charge.</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>A chargeless particle.</p>]]></text>
+  </answer>
+  <answer fraction="100" format="html">
+    <text><![CDATA[<p>An accelerating charge.</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>A charge moving at constant velocity.</p>]]></text>
+  </answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>year:2016</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:hi</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>chapter:electromagnetic_waves</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:easy</text></tag>
+    <tag><text>blooms:remember</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:text</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+<question type="multichoice">
+  <name><text>NEET_UG_PHYSICS_2016_MCQ_Q07 - Total heat produced in resistance by time-varying charge</text></name>
+  <questiontext format="html">
+    <text><![CDATA[
+<p>The charge flowing through a resistance \(R\) varies with time \(t\) as \(Q = at - bt^2\), where \(a\) and \(b\) are positive constants. The total heat produced in \(R\) is</p>
+<hr/>
+<p>एक प्रतिरोध \(R\) से प्रवाहित आवेश समय \(t\) के साथ \(Q = at - bt^2\) के रूप में परिवर्तित होता है, जहाँ \(a\) और \(b\) धनात्मक नियतांक हैं। \(R\) में उत्पन्न कुल ऊष्मा है:</p>
+    ]]></text>
+  </questiontext>
+  <generalfeedback format="html">
+    <text><![CDATA[
+<p><strong>Step 1: Given Data and Conditions</strong><br/>
+Charge function: \(Q(t) = at - bt^2\).<br/>
+\(a\) and \(b\) are positive constants.<br/>
+Resistance is \(R\).</p>
+<p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>
+Current is defined as \(i = \frac{dQ}{dt}\). Current flows from \(t = 0\) until it becomes zero at some time \(t_0\).</p>
+<p><strong>Step 3: Relevant Formulae and Principles</strong><br/>
+Electric current:<br/>
+\[i = \frac{dQ}{dt} = a - 2bt\]<br/>
+Setting \(i = 0\) gives the upper limit of time:<br/>
+\[a - 2bt_0 = 0 \implies t_0 = \frac{a}{2b}\]<br/>
+Total heat produced via Joule heating:<br/>
+\[H = \int_{0}^{t_0} i^2 R \, dt\]</p>
+<p><strong>Step 4: Step-by-Step Working</strong><br/>
+Substitute \(i = a - 2bt\):<br/>
+\[H = R \int_{0}^{a/(2b)} (a - 2bt)^2 \, dt\]<br/>
+Let \(u = a - 2bt\), so \(du = -2b \, dt \implies dt = -\frac{du}{2b}\).<br/>
+When \(t = 0\), \(u = a\). When \(t = \frac{a}{2b}\), \(u = 0\).<br/>
+\[H = R \int_{a}^{0} u^2 \left(-\frac{du}{2b}\right) = \frac{R}{2b} \int_{0}^{a} u^2 \, du\]<br/>
+\[H = \frac{R}{2b} \left[ \frac{u^3}{3} \right]_0^a = \frac{R}{2b} \left( \frac{a^3}{3} \right) = \frac{a^3 R}{6b}\]</p>
+<p><strong>Step 5: Check and Final Answer</strong><br/>
+The total heat produced in the resistance is \(\frac{a^3 R}{6b}\).</p>
+<hr/>
+<p><strong>चरण 1: दिए गए आँकड़े और शर्तें</strong><br/>
+समय के साथ आवेश का फलन: \(Q(t) = at - bt^2\)।<br/>
+\(a\) और \(b\) धनात्मक नियतांक हैं।<br/>
+तार का प्रतिरोध \(R\) है।</p>
+<p><strong>चरण 2: अवधारणा और परिपाटी</strong><br/>
+विद्युत धारा \(i = \frac{dQ}{dt}\) होती है। धारा \(t = 0\) से तब तक प्रवाहित होती है जब तक कि यह शून्य नहीं हो जाती।</p>
+<p><strong>चरण 3: संबंधित सूत्र और सिद्धांत</strong><br/>
+विद्युत धारा:<br/>
+\[i = \frac{dQ}{dt} = a - 2bt\]<br/>
+धारा शून्य होने का समय:<br/>
+\[i = 0 \implies t_0 = \frac{a}{2b}\]<br/>
+जूल के नियम से उत्पन्न कुल ऊष्मा:<br/>
+\[H = \int_{0}^{t_0} i^2 R \, dt\]</p>
+<p><strong>चरण 4: चरण-दर-चरण गणना</strong><br/>
+मान रखने पर:<br/>
+\[H = R \int_{0}^{a/(2b)} (a - 2bt)^2 \, dt\]<br/>
+प्रतिस्थापन विधि से समाकलन करने पर:<br/>
+\[H = \frac{R}{2b} \left[ \frac{u^3}{3} \right]_{0}^{a} = \frac{a^3 R}{6b}\]</p>
+<p><strong>चरण 5: जाँच एवं अंतिम उत्तर</strong><br/>
+प्रतिरोध \(R\) में उत्पन्न कुल ऊष्मा \(\frac{a^3 R}{6b}\) है।</p>
+    ]]></text>
+  </generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(\frac{a^3 R}{3b}\)</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(\frac{a^3 R}{2b}\)</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(\frac{a^3 R}{b}\)</p>]]></text>
+  </answer>
+  <answer fraction="100" format="html">
+    <text><![CDATA[<p>\(\frac{a^3 R}{6b}\)</p>]]></text>
+  </answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>year:2016</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:hi</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>chapter:current_electricity</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:medium</text></tag>
+    <tag><text>blooms:apply</text></tag>
+    <tag><text>calculation:moderate</text></tag>
+    <tag><text>media:equation</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+<question type="multichoice">
+  <name><text>NEET_UG_PHYSICS_2016_MCQ_Q08 - Height where gravitational potential and acceleration due to gravity are given</text></name>
+  <questiontext format="html">
+    <text><![CDATA[
+<p>At what height from the surface of earth the gravitational potential and the value of \(g\) are \(-5.4 \times 10^{7}\,\text{J}\,\text{kg}^{-1}\) and \(6.0\,\text{m}\,\text{s}^{-2}\) respectively?<br/>(Take the radius of earth as \(6400\,\text{km}\).)</p>
+<hr/>
+<p>पृथ्वी की सतह से किस ऊँचाई पर गुरुत्वीय विभव और \(g\) का मान क्रमशः \(-5.4 \times 10^{7}\,\text{J}\,\text{kg}^{-1}\) तथा \(6.0\,\text{m}\,\text{s}^{-2}\) है?<br/>(पृथ्वी की त्रिज्या \(6400\,\text{km}\) लें।)</p>
+    ]]></text>
+  </questiontext>
+  <generalfeedback format="html">
+    <text><![CDATA[
+<p><strong>Step 1: Given Data and Conditions</strong><br/>
+Gravitational potential: \(V = -5.4 \times 10^{7}\,\text{J}\,\text{kg}^{-1}\).<br/>
+Acceleration due to gravity at that point: \(g = 6.0\,\text{m}\,\text{s}^{-2}\).<br/>
+Radius of Earth: \(R = 6400\,\text{km} = 6.4 \times 10^6\,\text{m}\).</p>
+<p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>
+Let \(h\) be the height above Earth's surface and \(r = R + h\) be the distance from the center of Earth.</p>
+<p><strong>Step 3: Relevant Formulae and Principles</strong><br/>
+Gravitational potential at distance \(r\):<br/>
+\[V = -\frac{GM}{r}\]<br/>
+Acceleration due to gravity at distance \(r\):<br/>
+\[g = \frac{GM}{r^2}\]<br/>
+Taking the ratio of the magnitude of potential to acceleration due to gravity:<br/>
+\[\frac{|V|}{g} = \frac{GM/r}{GM/r^2} = r\]</p>
+<p><strong>Step 4: Step-by-Step Working</strong><br/>
+Calculate \(r\):<br/>
+\[r = \frac{5.4 \times 10^7}{6.0} = 0.9 \times 10^7\,\text{m} = 9000 \times 10^3\,\text{m} = 9000\,\text{km}\]<br/>
+Now, find the height \(h\) from the surface of Earth:<br/>
+\[h = r - R = 9000\,\text{km} - 6400\,\text{km} = 2600\,\text{km}\]</p>
+<p><strong>Step 5: Check and Final Answer</strong><br/>
+The height from the surface of Earth is \(2600\,\text{km}\).</p>
+<hr/>
+<p><strong>चरण 1: दिए गए आँकड़े और शर्तें</strong><br/>
+गुरुत्वीय विभव: \(V = -5.4 \times 10^{7}\,\text{J}\,\text{kg}^{-1}\)।<br/>
+गुरुत्वीय त्वरण: \(g = 6.0\,\text{m}\,\text{s}^{-2}\)।<br/>
+पृथ्वी की त्रिज्या: \(R = 6400\,\text{km} = 6.4 \times 10^6\,\text{m}\)।</p>
+<p><strong>चरण 2: अवधारणा और परिपाटी</strong><br/>
+माना पृथ्वी की सतह से ऊँचाई \(h\) है और केंद्र से दूरी \(r = R + h\) है।</p>
+<p><strong>चरण 3: संबंधित सूत्र और सिद्धांत</strong><br/>
+दूरी \(r\) पर गुरुत्वीय विभव:<br/>
+\[V = -\frac{GM}{r}\]<br/>
+दूरी \(r\) पर गुरुत्वीय त्वरण:<br/>
+\[g = \frac{GM}{r^2}\]<br/>
+विभव के परिमाण और गुरुत्वीय त्वरण का अनुपात:<br/>
+\[\frac{|V|}{g} = r\]</p>
+<p><strong>चरण 4: चरण-दर-चरण गणना</strong><br/>
+दूरी \(r\) का मान:<br/>
+\[r = \frac{5.4 \times 10^7}{6.0} = 9 \times 10^6\,\text{m} = 9000\,\text{km}\]<br/>
+पृथ्वी की सतह से ऊँचाई \(h\):<br/>
+\[h = r - R = 9000\,\text{km} - 6400\,\text{km} = 2600\,\text{km}\]</p>
+<p><strong>चरण 5: जाँच एवं अंतिम उत्तर</strong><br/>
+पृथ्वी की सतह से अभीष्ट ऊँचाई \(2600\,\text{km}\) है।</p>
+    ]]></text>
+  </generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(1600\,\text{km}\)</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(1400\,\text{km}\)</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(2000\,\text{km}\)</p>]]></text>
+  </answer>
+  <answer fraction="100" format="html">
+    <text><![CDATA[<p>\(2600\,\text{km}\)</p>]]></text>
+  </answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>year:2016</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:hi</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>chapter:gravitation</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:easy</text></tag>
+    <tag><text>blooms:apply</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:equation</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+<question type="multichoice">
+  <name><text>NEET_UG_PHYSICS_2016_MCQ_Q09 - Thermal expansion condition for constant difference in length</text></name>
+  <questiontext format="html">
+    <text><![CDATA[
+<p>Coefficient of linear expansion of brass and steel rods are \(\alpha_{1}\) and \(\alpha_{2}\). Lengths of brass and steel rods are \(l_{1}\) and \(l_{2}\) respectively. If \((l_{2} - l_{1})\) is maintained same at all temperatures, which one of the following relations holds good?</p>
+<hr/>
+<p>पीतल और स्टील की छड़ों के रेखीय प्रसार गुणांक क्रमशः \(\alpha_{1}\) और \(\alpha_{2}\) हैं। पीतल और स्टील की छड़ों की लंबाइयाँ क्रमशः \(l_{1}\) और \(l_{2}\) हैं। यदि सभी तापों पर \((l_{2} - l_{1})\) समान बना रहता है, तो निम्नलिखित में से कौन-सा संबंध सही है?</p>
+    ]]></text>
+  </questiontext>
+  <generalfeedback format="html">
+    <text><![CDATA[
+<p><strong>Step 1: Given Data and Conditions</strong><br/>
+Brass rod: coefficient \(\alpha_1\), initial length \(l_1\).<br/>
+Steel rod: coefficient \(\alpha_2\), initial length \(l_2\).<br/>
+Condition: The difference \((l_2 - l_1)\) remains constant for any temperature change \(\Delta T\).</p>
+<p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>
+Both rods undergo the same change in temperature \(\Delta T\).</p>
+<p><strong>Step 3: Relevant Formulae and Principles</strong><br/>
+Thermal expansion in length is given by:<br/>
+\[\Delta l = l \alpha \Delta T\]<br/>
+For the difference in length to be independent of temperature:<br/>
+\[(l_2 + \Delta l_2) - (l_1 + \Delta l_1) = l_2 - l_1 \implies \Delta l_2 - \Delta l_1 = 0 \implies \Delta l_1 = \Delta l_2\]</p>
+<p><strong>Step 4: Step-by-Step Working</strong><br/>
+Substitute the expansion expressions:<br/>
+\[l_1 \alpha_1 \Delta T = l_2 \alpha_2 \Delta T\]<br/>
+Dividing by \(\Delta T\):<br/>
+\[\alpha_1 l_1 = \alpha_2 l_2\]</p>
+<p><strong>Step 5: Check and Final Answer</strong><br/>
+The required condition is \(\alpha_{1}l_{1} = \alpha_{2}l_{2}\).</p>
+<hr/>
+<p><strong>चरण 1: दिए गए आँकड़े और शर्तें</strong><br/>
+पीतल की छड़: रेखीय प्रसार गुणांक \(\alpha_1\), लंबाई \(l_1\)।<br/>
+स्टील की छड़: रेखीय प्रसार गुणांक \(\alpha_2\), लंबाई \(l_2\)।<br/>
+शर्त: सभी तापों पर लंबाइयों का अंतर \((l_2 - l_1)\) नियत रहता है।</p>
+<p><strong>चरण 2: अवधारणा और परिपाटी</strong><br/>
+दोनों छड़ों के ताप में समान वृद्धि \(\Delta T\) होती है।</p>
+<p><strong>चरण 3: संबंधित सूत्र और सिद्धांत</strong><br/>
+तापीय प्रसार का सूत्र:<br/>
+\[\Delta l = l \alpha \Delta T\]<br/>
+लंबाइयों का अंतर नियत रहने के लिए, दोनों में लंबाई की वृद्धि समान होनी चाहिए:<br/>
+\[\Delta l_1 = \Delta l_2\]</p>
+<p><strong>चरण 4: चरण-दर-चरण गणना</strong><br/>
+मान रखने पर:<br/>
+\[l_1 \alpha_1 \Delta T = l_2 \alpha_2 \Delta T\]<br/>
+\(\Delta T\) निरस्त करने पर:<br/>
+\[\alpha_1 l_1 = \alpha_2 l_2\]</p>
+<p><strong>चरण 5: जाँच एवं अंतिम उत्तर</strong><br/>
+अतः सही संबंध \(\alpha_{1}l_{1} = \alpha_{2}l_{2}\) है।</p>
+    ]]></text>
+  </generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(\alpha_{1}l_{2}^{2} = \alpha_{2}l_{1}^{2}\)</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(\alpha_{1}^{2}l_{2} = \alpha_{2}^{2}l_{1}\)</p>]]></text>
+  </answer>
+  <answer fraction="100" format="html">
+    <text><![CDATA[<p>\(\alpha_{1}l_{1} = \alpha_{2}l_{2}\)</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(\alpha_{1}l_{2} = \alpha_{2}l_{1}\)</p>]]></text>
+  </answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>year:2016</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:hi</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>chapter:thermal_properties_of_matter</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:easy</text></tag>
+    <tag><text>blooms:understand</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:equation</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+<question type="multichoice">
+  <name><text>NEET_UG_PHYSICS_2016_MCQ_Q10 - Intensity in front of one slit in Young double slit experiment</text></name>
+  <questiontext format="html">
+    <text><![CDATA[
+<p>The intensity at the maximum in a Young's double slit experiment is \(I_0\). Distance between two slits is \(d = 5\lambda\), where \(\lambda\) is the wavelength of light used in the experiment. What will be the intensity in front of one of the slits on the screen placed at a distance \(D = 10d\)?</p>
+<hr/>
+<p>यंग के द्वि-झिरी प्रयोग में उच्चिष्ठ पर तीव्रता \(I_0\) है। दो झिरियों के बीच की दूरी \(d = 5\lambda\) है, जहाँ \(\lambda\) प्रयोग में प्रयुक्त प्रकाश की तरंगदैर्घ्य है। झिरियों से \(D = 10d\) दूरी पर रखे पर्दे पर किसी एक झिरी के ठीक सामने तीव्रता क्या होगी?</p>
+    ]]></text>
+  </questiontext>
+  <generalfeedback format="html">
+    <text><![CDATA[
+<p><strong>Step 1: Given Data and Conditions</strong><br/>
+Maximum intensity on screen: \(I_{\text{max}} = I_0\).<br/>
+Slit separation: \(d = 5\lambda\).<br/>
+Screen distance: \(D = 10d = 10(5\lambda) = 50\lambda\).<br/>
+Point on the screen is in front of one of the slits, which is at a distance \(y = \frac{d}{2}\) from the central axis.</p>
+<p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>
+Since \(D \gg d\), the standard path difference approximation \(\Delta x \approx \frac{y d}{D}\) holds.</p>
+<p><strong>Step 3: Relevant Formulae and Principles</strong><br/>
+Path difference at distance \(y\):<br/>
+\[\Delta x = \frac{y d}{D} = \frac{(d/2) d}{D} = \frac{d^2}{2D}\]<br/>
+Phase difference \(\phi\):<br/>
+\[\phi = \frac{2\pi}{\lambda} \Delta x\]<br/>
+Resultant intensity:<br/>
+\[I = I_0 \cos^2\left(\frac{\phi}{2}\right)\]</p>
+<p><strong>Step 4: Step-by-Step Working</strong><br/>
+Substitute \(d = 5\lambda\) and \(D = 50\lambda\):<br/>
+\[\Delta x = \frac{(5\lambda)^2}{2(50\lambda)} = \frac{25\lambda^2}{100\lambda} = \frac{\lambda}{4}\]<br/>
+Calculate phase difference:<br/>
+\[\phi = \frac{2\pi}{\lambda} \left(\frac{\lambda}{4}\right) = \frac{\pi}{2}\]<br/>
+Substitute into the intensity formula:<br/>
+\[I = I_0 \cos^2\left(\frac{\pi/2}{2}\right) = I_0 \cos^2\left(\frac{\pi}{4}\right) = I_0 \left(\frac{1}{\sqrt{2}}\right)^2 = \frac{I_0}{2}\]</p>
+<p><strong>Step 5: Check and Final Answer</strong><br/>
+The intensity in front of one of the slits is \(\frac{I_0}{2}\).</p>
+<hr/>
+<p><strong>चरण 1: दिए गए आँकड़े और शर्तें</strong><br/>
+केंद्रीय उच्चिष्ठ पर अधिकतम तीव्रता: \(I_{\text{max}} = I_0\)।<br/>
+झिरियों के बीच की दूरी: \(d = 5\lambda\)।<br/>
+पर्दे की दूरी: \(D = 10d = 50\lambda\)।<br/>
+एक झिरी के ठीक सामने स्थित बिंदु की केंद्रीय अक्ष से दूरी: \(y = \frac{d}{2}\)।</p>
+<p><strong>चरण 2: अवधारणा और परिपाटी</strong><br/>
+चूँकि \(D \gg d\), पथांतर के लिए मानक निकटता \(\Delta x \approx \frac{y d}{D}\) मान्य है।</p>
+<p><strong>चरण 3: संबंधित सूत्र और सिद्धांत</strong><br/>
+पथांतर:<br/>
+\[\Delta x = \frac{y d}{D} = \frac{d^2}{2D}\]<br/>
+कलांतर:<br/>
+\[\phi = \frac{2\pi}{\lambda} \Delta x\]<br/>
+परिणामी तीव्रता:<br/>
+\[I = I_0 \cos^2\left(\frac{\phi}{2}\right)\]</p>
+<p><strong>चरण 4: चरण-दर-चरण गणना</strong><br/>
+मान रखने पर पथांतर:<br/>
+\[\Delta x = \frac{(5\lambda)^2}{2(50\lambda)} = \frac{\lambda}{4}\]<br/>
+कलांतर:<br/>
+\[\phi = \frac{2\pi}{\lambda} \times \frac{\lambda}{4} = \frac{\pi}{2}\]<br/>
+परिणामी तीव्रता:<br/>
+\[I = I_0 \cos^2\left(\frac{\pi}{4}\right) = I_0 \left(\frac{1}{\sqrt{2}}\right)^2 = \frac{I_0}{2}\]</p>
+<p><strong>चरण 5: जाँच एवं अंतिम उत्तर</strong><br/>
+झिरी के सामने पर्दे पर अभीष्ट तीव्रता \(\frac{I_0}{2}\) होगी।</p>
+    ]]></text>
+  </generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(\frac{I_0}{4}\)</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(\frac{3}{4}I_0\)</p>]]></text>
+  </answer>
+  <answer fraction="100" format="html">
+    <text><![CDATA[<p>\(\frac{I_0}{2}\)</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(I_0\)</p>]]></text>
+  </answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>year:2016</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:hi</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>chapter:wave_optics</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:medium</text></tag>
+    <tag><text>blooms:apply</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:equation</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+</quiz>

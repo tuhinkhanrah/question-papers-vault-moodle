@@ -1,0 +1,1321 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+<question type="multichoice">
+  <name><text>NEET_UG_PHYSICS_2015_MCQ_Q20 - Incorrect statement regarding circular motion from position vector</text></name>
+  <questiontext format="html">
+    <text><![CDATA[
+<p>The position vector of a particle \(\vec{R}\) as a function of time is given by
+\[\vec{R} = 4 \sin (2\pi t) \, \hat{i} + 4 \cos (2\pi t) \, \hat{j}\]
+where \(\vec{R}\) is in meter, \(t\) is in seconds and \(\hat{i}\) and \(\hat{j}\) denote unit vectors along \(x\) and \(y\)-directions, respectively. Which one of the following statements is wrong for the motion of particle?</p>
+<hr/>
+<p>একটি কণার অবস্থান ভেক্টর \(\vec{R}\) সময়ের অপেক্ষক হিসাবে নিম্নরূপ প্রদত্ত:
+\[\vec{R} = 4 \sin (2\pi t) \, \hat{i} + 4 \cos (2\pi t) \, \hat{j}\]
+যেখানে \(\vec{R}\) মিটারে, \(t\) সেকেন্ডে এবং \(\hat{i}\) ও \(\hat{j}\) যথাক্রমে \(x\) ও \(y\)-অক্ষ বরাবর একক ভেক্টর। কণাটির গতির ক্ষেত্রে নিচের কোন বিবৃতিটি ভুল?</p>
+]]></text>
+  </questiontext>
+  <generalfeedback format="html">
+    <text><![CDATA[
+<p><strong>Step 1: Given Data and Conditions</strong><br/>
+Position vector: \(\vec{R}(t) = 4 \sin (2\pi t) \, \hat{i} + 4 \cos (2\pi t) \, \hat{j}\)<br/>
+Here, \(x = 4 \sin (2\pi t)\) and \(y = 4 \cos (2\pi t)\).</p>
+<p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>
+Velocity is the first time derivative of position, and acceleration is the second time derivative of position.</p>
+<p><strong>Step 3: Relevant Formulae and Principles</strong><br/>
+Velocity: \(\vec{v} = \frac{d\vec{R}}{dt}\)<br/>
+Acceleration: \(\vec{a} = \frac{d\vec{v}}{dt} = \frac{d^2\vec{R}}{dt^2}\)<br/>
+Equation of path: \(x^2 + y^2 = R^2\)</p>
+<p><strong>Step 4: Step-by-Step Working</strong><br/>
+1. Path of the particle:
+\[x^2 + y^2 = [4 \sin (2\pi t)]^2 + [4 \cos (2\pi t)]^2 = 16 (\sin^2 2\pi t + \cos^2 2\pi t) = 16 = 4^2\]
+This represents a circle of radius \(4\text{ m}\) centered at the origin. Thus, the path is circular with radius \(4\text{ m}\).<br/>
+2. Velocity vector:
+\[\vec{v} = \frac{d\vec{R}}{dt} = 4(2\pi) \cos(2\pi t) \, \hat{i} - 4(2\pi) \sin(2\pi t) \, \hat{j} = 8\pi \cos(2\pi t) \, \hat{i} - 8\pi \sin(2\pi t) \, \hat{j}\]
+Magnitude of velocity:
+\[|\vec{v}| = \sqrt{(8\pi \cos 2\pi t)^2 + (-8\pi \sin 2\pi t)^2} = 8\pi \sqrt{\cos^2 2\pi t + \sin^2 2\pi t} = 8\pi\text{ ms}^{-1}\]
+The actual speed is \(8\pi\text{ ms}^{-1}\), which differs from \(8\text{ ms}^{-1}\).<br/>
+3. Acceleration vector:
+\[\vec{a} = \frac{d\vec{v}}{dt} = -8\pi(2\pi) \sin(2\pi t) \, \hat{i} - 8\pi(2\pi) \cos(2\pi t) \, \hat{j} = -(2\pi)^2 [4 \sin(2\pi t)\hat{i} + 4 \cos(2\pi t)\hat{j}] = -(2\pi)^2 \vec{R}\]
+Since \(-(2\pi)^2 < 0\), the acceleration vector is directed radially inward along \(-\vec{R}\).<br/>
+4. Magnitude of acceleration:
+\[|\vec{a}| = (2\pi)^2 |\vec{R}| = 4\pi^2 (4) = 16\pi^2\text{ ms}^{-2}\]
+Using \(v = 8\pi\) and \(R = 4\):
+\[\frac{v^2}{R} = \frac{(8\pi)^2}{4} = \frac{64\pi^2}{4} = 16\pi^2\text{ ms}^{-2}\]
+Hence, the acceleration magnitude equals \(\frac{v^2}{R}\).</p>
+<p><strong>Step 5: Check and Final Answer</strong><br/>
+All statements are physically valid except the claim that the magnitude of the velocity is \(8\text{ m/s}\), since the true magnitude includes the factor \(\pi\) and equals \(8\pi\text{ ms}^{-1}\).<br/>
+Final Answer: Magnitude of the velocity of particle is 8 m/s.</p>
+<hr/>
+<p><strong>ধাপ ১: প্রদত্ত উপাত্ত এবং শর্তাবলী</strong><br/>
+অবস্থান ভেক্টর: \(\vec{R}(t) = 4 \sin (2\pi t) \, \hat{i} + 4 \cos (2\pi t) \, \hat{j}\)<br/>
+এখানে, \(x = 4 \sin (2\pi t)\) এবং \(y = 4 \cos (2\pi t)\)।</p>
+<p><strong>ধাপ ২: অনুমান এবং চিহ্ন নীতি</strong><br/>
+বেগ হলো অবস্থানের প্রথম অবকলন এবং ত্বরণ হলো বেগের সময়-অবকলন।</p>
+<p><strong>ধাপ ৩: প্রাসঙ্গিক সূত্র ও নীতি</strong><br/>
+বেগ: \(\vec{v} = \frac{d\vec{R}}{dt}\)<br/>
+ত্বরণ: \(\vec{a} = \frac{d\vec{v}}{dt}\)</p>
+<p><strong>ধাপ ৪: ধাপে ধাপে সমাধান</strong><br/>
+১. গতিপথের সমীকরণ:
+\[x^2 + y^2 = 16(\sin^2 2\pi t + \cos^2 2\pi t) = 16 = 4^2\]
+এটি \(4\text{ m}\) ব্যাসার্ধের একটি বৃত্ত নির্দেশ করে।<br/>
+২. বেগের মান:
+\[\vec{v} = 8\pi \cos(2\pi t) \, \hat{i} - 8\pi \sin(2\pi t) \, \hat{j}\]
+\[|\vec{v}| = 8\pi\text{ ms}^{-1}\]
+প্রকৃত দ্রুতি \(8\pi\text{ ms}^{-1}\), \(8\text{ ms}^{-1}\) নয়।<br/>
+৩. ত্বরণ ভেক্টর:
+\[\vec{a} = -(2\pi)^2 \vec{R}\]
+সুতরাং ত্বরণ \(-\vec{R}\) অভিমুখে কেন্দ্রাভিমুখী।<br/>
+৪. ত্বরণের মান:
+\[|\vec{a}| = \frac{v^2}{R} = \frac{(8\pi)^2}{4} = 16\pi^2\text{ ms}^{-2}\]</p>
+<p><strong>ধাপ ৫: যাচাই এবং চূড়ান্ত উত্তর</strong><br/>
+কণাটির প্রকৃত দ্রুতি \(8\pi\text{ ms}^{-1}\) হওয়ায় "Magnitude of the velocity of particle is 8 m/s" বিবৃতিটি ভুল।<br/>
+চূড়ান্ত উত্তর: Magnitude of the velocity of particle is 8 m/s.</p>
+]]></text>
+  </generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="0" format="html">
+    <text><![CDATA[Acceleration vector is along \(-\vec{R}\).]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[Magnitude of acceleration vector is \(\frac{v^2}{R}\), where \(v\) is the velocity of particle.]]></text>
+  </answer>
+  <answer fraction="100" format="html">
+    <text><![CDATA[Magnitude of the velocity of particle is 8 m/s.]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[Path of the particle is a circle of radius 4 m.]]></text>
+  </answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>year:2015</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:bn</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>class:class_11</text></tag>
+    <tag><text>topic:uniform_circular_motion</text></tag>
+    <tag><text>chapter:motion_in_a_plane</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:medium</text></tag>
+    <tag><text>blooms:analyze</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:equation</text></tag>
+    <tag><text>multiconcept:true</text></tag>
+  </tags>
+</question>
+<question type="multichoice">
+  <name><text>NEET_UG_PHYSICS_2015_MCQ_Q21 - Voltage and current comparison in RC circuit with dielectric</text></name>
+  <questiontext format="html">
+    <text><![CDATA[
+<p>A series R-C circuit is connected to an alternating voltage source. Consider two situations:
+<ol>
+  <li>When capacitor is air filled.</li>
+  <li>When capacitor is mica filled.</li>
+</ol>
+Current through resistor is \(i\) and voltage across capacitor is \(V\), then</p>
+<hr/>
+<p>একটি শ্রেণি R-C বর্তনীকে একটি পরিবর্তী বিভব উৎসের সাথে যুক্ত করা হলো। দুটি ক্ষেত্র বিবেচনা করো:
+<ol>
+  <li>যখন ধারকটি বায়ু দ্বারা পূর্ণ।</li>
+  <li>যখন ধারকটি অভ্র (mica) দ্বারা পূর্ণ।</li>
+</ol>
+রোধের মধ্য দিয়ে তড়িৎপ্রবাহ \(i\) এবং ধারকের দুই প্রান্তের বিভব \(V\) হলে,</p>
+]]></text>
+  </questiontext>
+  <generalfeedback format="html">
+    <text><![CDATA[
+<p><strong>Step 1: Given Data and Conditions</strong><br/>
+A series R-C circuit driven by an AC voltage source \(V_{\text{rms}}\).<br/>
+Situation (a): Capacitor is air filled, capacitance = \(C_a\).<br/>
+Situation (b): Capacitor is mica filled, dielectric constant \(K > 1\), capacitance = \(C_b = K C_a > C_a\).<br/>
+Resistor current: \(i_a\) and \(i_b\).<br/>
+Capacitor voltage: \(V_a\) and \(V_b\).</p>
+<p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>
+The frequency \(\omega\) of the AC source and the resistance \(R\) remain unchanged between the two situations.</p>
+<p><strong>Step 3: Relevant Formulae and Principles</strong><br/>
+Capacitive reactance:
+\[X_C = \frac{1}{\omega C}\]
+Total circuit impedance:
+\[Z = \sqrt{R^2 + X_C^2}\]
+Circuit current:
+\[i = \frac{V_{\text{rms}}}{Z}\]
+Voltage drop across the capacitor:
+\[V_C = i X_C = \frac{V_{\text{rms}} X_C}{\sqrt{R^2 + X_C^2}} = \frac{V_{\text{rms}}}{\sqrt{\frac{R^2}{X_C^2} + 1}} = \frac{V_{\text{rms}}}{\sqrt{R^2 \omega^2 C^2 + 1}}\]</p>
+<p><strong>Step 4: Step-by-Step Working</strong><br/>
+When mica is introduced, the dielectric constant \(K > 1\) causes capacitance to increase:
+\[C_b > C_a\]
+Looking at the voltage across the capacitor:
+\[V_C = \frac{V_{\text{rms}}}{\sqrt{1 + \omega^2 R^2 C^2}}\]
+Because \(C_b > C_a\), the denominator in situation (b) is greater than in situation (a):
+\[\sqrt{1 + \omega^2 R^2 C_b^2} > \sqrt{1 + \omega^2 R^2 C_a^2}\]
+Consequently, the potential difference across the capacitor decreases:
+\[V_a > V_b\]
+For the current:
+\[Z_b = \sqrt{R^2 + \frac{1}{\omega^2 C_b^2}} < Z_a = \sqrt{R^2 + \frac{1}{\omega^2 C_a^2}}\]
+which implies \(i_b > i_a\).</p>
+<p><strong>Step 5: Check and Final Answer</strong><br/>
+Since inserting a dielectric increases capacitance, capacitive reactance drops, shifting more of the source voltage drop to the resistor and less to the capacitor, resulting in \(V_a > V_b\).<br/>
+Final Answer: \(V_a > V_b\)</p>
+<hr/>
+<p><strong>ধাপ ১: প্রদত্ত উপাত্ত এবং শর্তাবলী</strong><br/>
+একটি শ্রেণি R-C পরিবর্তী বর্তনী।<br/>
+ক্ষেত্র (a): ধারকটি বায়ুপূর্ণ, ধারকত্ব = \(C_a\)।<br/>
+ক্ষেত্র (b): ধারকটি অভ্রপূর্ণ, পরাবৈদ্যুতিক ধ্রুবক \(K > 1\), ধারকত্ব = \(C_b = K C_a > C_a\)।</p>
+<p><strong>ধাপ ২: অনুমান এবং চিহ্ন নীতি</strong><br/>
+উৎস ভোল্টেজ \(V_{\text{rms}}\), কম্পাঙ্ক \(\omega\) এবং রোধ \(R\) উভয় ক্ষেত্রে অপরিবর্তিত থাকে।</p>
+<p><strong>ধাপ ৩: প্রাসঙ্গিক সূত্র ও নীতি</strong><br/>
+ধারকীয় প্রতিঘাত: \(X_C = \frac{1}{\omega C}\)<br/>
+বর্তনী প্রবাহ: \(i = \frac{V_{\text{rms}}}{\sqrt{R^2 + X_C^2}}\)<br/>
+ধারকের দুই প্রান্তের বিভব প্রভেদ:
+\[V_C = i X_C = \frac{V_{\text{rms}}}{\sqrt{1 + \omega^2 R^2 C^2}}\]</p>
+<p><strong>ধাপ ৪: ধাপে ধাপে সমাধান</strong><br/>
+অভ্র প্রবেশ করালে ধারকত্ব বৃদ্ধি পায় (\(C_b > C_a\))।<br/>
+যেহেতু \(V_C = \frac{V_{\text{rms}}}{\sqrt{1 + \omega^2 R^2 C^2}}\), তাই \(C\) বৃদ্ধি পেলে হর বৃদ্ধি পায় এবং \(V_C\) হ্রাস পায়।<br/>
+অতএব, \(V_a > V_b\)।<br/>
+একইসাথে প্রতিঘাত কমায় প্রতিবাধা \(Z\) কমে এবং তড়িৎপ্রবাহ বাড়ে (\(i_b > i_a\))।</p>
+<p><strong>ধাপ ৫: যাচাই এবং চূড়ান্ত উত্তর</strong><br/>
+ধারকত্ব বাড়লে ধারকে বিভব পতন হ্রাস পায়, ফলে \(V_a > V_b\)।<br/>
+চূড়ান্ত উত্তর: \(V_a > V_b\)</p>
+]]></text>
+  </generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="0" format="html">
+    <text><![CDATA[\(V_a < V_b\)]]></text>
+  </answer>
+  <answer fraction="100" format="html">
+    <text><![CDATA[\(V_a > V_b\)]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[\(i_a > i_b\)]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[\(V_a = V_b\)]]></text>
+  </answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>year:2015</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:bn</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>class:class_12</text></tag>
+    <tag><text>topic:ac_circuits_rc_series</text></tag>
+    <tag><text>chapter:alternating_current</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:medium</text></tag>
+    <tag><text>blooms:analyze</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:equation</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+<question type="multichoice">
+  <name><text>NEET_UG_PHYSICS_2015_MCQ_Q22 - Lowest resonant frequency of stretched string</text></name>
+  <questiontext format="html">
+    <text><![CDATA[
+<p>A string is stretched between fixed points separated by \(75.0\text{ cm}\). It is observed to have resonant frequencies of \(420\text{ Hz}\) and \(315\text{ Hz}\). There are no other resonant frequencies between these two. The lowest resonant frequency for this string is</p>
+<hr/>
+<p>\(75.0\text{ cm}\) ব্যবধানে থাকা দুটি দৃঢ় বিন্দুর মধ্যে একটি তার টানটান করে বাঁধা আছে। দেখা গেল এর অনুনাদী কম্পাঙ্কগুলি হলো \(420\text{ Hz}\) এবং \(315\text{ Hz}\)। এই দুটির মধ্যে অন্য কোনো অনুনাদী কম্পাঙ্ক নেই। তারটির সর্বনিম্ন অনুনাদী কম্পাঙ্ক কত?</p>
+]]></text>
+  </questiontext>
+  <generalfeedback format="html">
+    <text><![CDATA[
+<p><strong>Step 1: Given Data and Conditions</strong><br/>
+Length of the string, \(L = 75.0\text{ cm}\)<br/>
+Two consecutive resonant frequencies: \(f_n = 315\text{ Hz}\) and \(f_{n+1} = 420\text{ Hz}\)<br/>
+No other resonant frequencies lie between these two values.</p>
+<p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>
+A string fixed at both ends produces standing waves with nodes at both ends. All harmonics are integer multiples of the fundamental (lowest) resonant frequency \(f_1\).</p>
+<p><strong>Step 3: Relevant Formulae and Principles</strong><br/>
+Resonant frequencies of a string fixed at both ends:
+\[f_n = n f_1 = n \left(\frac{v}{2L}\right), \quad n = 1, 2, 3, \dots\]
+The difference between two consecutive resonant frequencies equals the fundamental frequency:
+\[f_{n+1} - f_n = (n + 1) f_1 - n f_1 = f_1\]</p>
+<p><strong>Step 4: Step-by-Step Working</strong><br/>
+Calculate the difference:
+\[f_1 = 420\text{ Hz} - 315\text{ Hz} = 105\text{ Hz}\]
+Verifying the harmonic order \(n\):
+\[n = \frac{315}{105} = 3\]
+\[n + 1 = \frac{420}{105} = 4\]
+The two observed frequencies are the 3rd and 4th harmonics, confirming that the lowest resonant frequency (fundamental, \(n = 1\)) is \(105\text{ Hz}\).</p>
+<p><strong>Step 5: Check and Final Answer</strong><br/>
+Since \(105\text{ Hz}\) divides both \(315\text{ Hz}\) and \(420\text{ Hz}\) by consecutive integers (3 and 4), the result is fully self-consistent.<br/>
+Final Answer: \(105\text{ Hz}\)</p>
+<hr/>
+<p><strong>ধাপ ১: প্রদত্ত উপাত্ত এবং শর্তাবলী</strong><br/>
+তারটির দৈর্ঘ্য, \(L = 75.0\text{ cm}\)<br/>
+দুটি পরপর অনুনাদী কম্পাঙ্ক: \(315\text{ Hz}\) এবং \(420\text{ Hz}\)<br/>
+এই দুটির মাঝে অন্য কোনো অনুনাদী কম্পাঙ্ক নেই।</p>
+<p><strong>ধাপ ২: অনুমান এবং চিহ্ন নীতি</strong><br/>
+দুই প্রান্তে আবদ্ধ তারের ক্ষেত্রে অনুনাদী কম্পাঙ্কগুলি মূল সুরের পূর্ণসংখ্যার গুণিতক হয়।</p>
+<p><strong>ধাপ ৩: প্রাসঙ্গিক সূত্র ও নীতি</strong><br/>
+\(n\)-তম সমমেলের কম্পাঙ্ক:
+\[f_n = n f_1\]
+দুটি ক্রমিক সমমেলের কম্পাঙ্কের অন্তর মূল সুরের (সর্বনিম্ন অনুনাদী কম্পাঙ্ক) সমান:
+\[f_{n+1} - f_n = f_1\]</p>
+<p><strong>ধাপ ৪: ধাপে ধাপে সমাধান</strong><br/>
+মূল কম্পাঙ্ক নির্ণয়:
+\[f_1 = 420 - 315 = 105\text{ Hz}\]
+এখানে \(315 = 3 \times 105\) এবং \(420 = 4 \times 105\), অর্থাৎ এগুলি যথাক্রমে ৩য় ও ৪র্থ সমমেল।<br/>
+সুতরাং সর্বনিম্ন অনুনাদী কম্পাঙ্ক হলো \(105\text{ Hz}\)।</p>
+<p><strong>ধাপ ৫: যাচাই এবং চূড়ান্ত উত্তর</strong><br/>
+কম্পাঙ্কগুলির অনুপাত \(3:4\), যা নিশ্চিত করে যে মৌলিক কম্পাঙ্ক \(105\text{ Hz}\)।<br/>
+চূড়ান্ত উত্তর: \(105\text{ Hz}\)</p>
+]]></text>
+  </generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="0" format="html">
+    <text><![CDATA[\(155\text{ Hz}\)]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[\(205\text{ Hz}\)]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[\(10.5\text{ Hz}\)]]></text>
+  </answer>
+  <answer fraction="100" format="html">
+    <text><![CDATA[\(105\text{ Hz}\)]]></text>
+  </answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>year:2015</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:bn</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>class:class_11</text></tag>
+    <tag><text>topic:standing_waves_in_stretched_strings</text></tag>
+    <tag><text>chapter:waves</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:easy</text></tag>
+    <tag><text>blooms:apply</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:text</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+<question type="multichoice">
+  <name><text>NEET_UG_PHYSICS_2015_MCQ_Q23 - Surrounding temperature for a given refrigerator COP</text></name>
+  <questiontext format="html">
+    <text><![CDATA[
+<p>The coefficient of performance of a refrigerator is \(5\). If the temperature inside freezer is \(-20^\circ\text{C}\), the temperature of the surroundings to which it rejects heat is</p>
+<hr/>
+<p>একটি রেফ্রিজারেটরের কার্যদক্ষতা গুণাঙ্ক (coefficient of performance) হলো \(5\)। যদি ফ্রিজারের ভেতরের তাপমাত্রা \(-20^\circ\text{C}\) হয়, তবে পারিপার্শ্বিকের তাপমাত্রা (যেখানে এটি তাপ বর্জন করে) কত?</p>
+]]></text>
+  </questiontext>
+  <generalfeedback format="html">
+    <text><![CDATA[
+<p><strong>Step 1: Given Data and Conditions</strong><br/>
+Coefficient of performance, \(\beta = 5\)<br/>
+Freezer temperature (cold reservoir), \(T_2 = -20^\circ\text{C} = 273.15 - 20 = 253\text{ K}\)<br/>
+Surrounding temperature (hot reservoir) = \(T_1\)</p>
+<p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>
+The refrigerator operates as an ideal Carnot refrigerator between reservoirs at absolute temperatures \(T_1\) and \(T_2\) (with \(T_1 > T_2\)).</p>
+<p><strong>Step 3: Relevant Formulae and Principles</strong><br/>
+Coefficient of performance of a refrigerator:
+\[\beta = \frac{T_2}{T_1 - T_2}\]</p>
+<p><strong>Step 4: Step-by-Step Working</strong><br/>
+Rearranging to solve for \(T_1\):
+\[T_1 - T_2 = \frac{T_2}{\beta}\]
+\[T_1 = T_2 \left(1 + \frac{1}{\beta}\right) = T_2 \left(\frac{\beta + 1}{\beta}\right)\]
+Substitute the values:
+\[T_1 = 253 \left(\frac{5 + 1}{5}\right) = 253 \times \frac{6}{5} = 253 \times 1.2 = 303.6\text{ K}\]
+Converting back to Celsius:
+\[t_1 = 303.6 - 273.15 \approx 30.45^\circ\text{C} \approx 31^\circ\text{C}\]
+(Using \(T_2 = 253\text{ K}\) and \(T_1 - 253 = \frac{253}{5} = 50.6 \implies T_1 = 303.6\text{ K} \implies t_1 \approx 31^\circ\text{C}\)).</p>
+<p><strong>Step 5: Check and Final Answer</strong><br/>
+The surrounding temperature is higher than the freezer, and \(\beta = \frac{253}{304 - 253} = \frac{253}{51} \approx 4.96 \approx 5\), which is correct.<br/>
+Final Answer: \(31^\circ\text{C}\)</p>
+<hr/>
+<p><strong>ধাপ ১: প্রদত্ত উপাত্ত এবং শর্তাবলী</strong><br/>
+কার্যদক্ষতা গুণাঙ্ক, \(\beta = 5\)<br/>
+ফ্রিজারের তাপমাত্রা, \(T_2 = -20^\circ\text{C} = 273 - 20 = 253\text{ K}\)<br/>
+পারিপার্শ্বিকের তাপমাত্রা = \(T_1\)</p>
+<p><strong>ধাপ ২: অনুমান এবং চিহ্ন নীতি</strong><br/>
+রেফ্রিজারেটরটি একটি আদর্শ কার্নো রেফ্রিজারেটর হিসেবে কাজ করে। পরম তাপমাত্রার স্কেল ব্যবহার করতে হবে।</p>
+<p><strong>ধাপ ৩: প্রাসঙ্গিক সূত্র ও নীতি</strong><br/>
+রেফ্রিজারেটরের কার্যদক্ষতা গুণাঙ্ক:
+\[\beta = \frac{T_2}{T_1 - T_2}\]</p>
+<p><strong>ধাপ ৪: ধাপে ধাপে সমাধান</strong><br/>
+মান বসিয়ে পাই:
+\[5 = \frac{253}{T_1 - 253}\]
+\[T_1 - 253 = \frac{253}{5} = 50.6\text{ K}\]
+\[T_1 = 253 + 50.6 = 303.6\text{ K}\]
+সেলসিয়াস স্কেলে রূপান্তর:
+\[t_1 = 303.6 - 273 = 30.6^\circ\text{C} \approx 31^\circ\text{C}\]
+</p>
+<p><strong>ধাপ ৫: যাচাই এবং চূড়ান্ত উত্তর</strong><br/>
+প্রাপ্ত পারিপার্শ্বিক তাপমাত্রা \(31^\circ\text{C}\) প্রদত্ত গুণাঙ্কের সাথে সম্পূর্ণ সঙ্গতিপূর্ণ।<br/>
+চূড়ান্ত উত্তর: \(31^\circ\text{C}\)</p>
+]]></text>
+  </generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="100" format="html">
+    <text><![CDATA[\(31^\circ\text{C}\)]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[\(41^\circ\text{C}\)]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[\(11^\circ\text{C}\)]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[\(21^\circ\text{C}\)]]></text>
+  </answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>year:2015</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:bn</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>class:class_11</text></tag>
+    <tag><text>topic:refrigerator_and_cop</text></tag>
+    <tag><text>chapter:thermodynamics</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:easy</text></tag>
+    <tag><text>blooms:apply</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:text</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+<question type="multichoice">
+  <name><text>NEET_UG_PHYSICS_2015_MCQ_Q24 - Work function from photoelectric emission with two wavelengths</text></name>
+  <questiontext format="html">
+    <text><![CDATA[
+<p>A photoelectric surface is illuminated successively by monochromatic light of wavelength \(\lambda\) and \(\frac{\lambda}{2}\). If the maximum kinetic energy of the emitted photoelectrons in the second case is \(3\) times that in the first case, the work function of the surface of the material is (\(h =\) Planck's constant, \(c =\) speed of light)</p>
+<hr/>
+<p>একটি আলোকতড়িৎ পৃষ্ঠকে পর্যায়ক্রমে \(\lambda\) এবং \(\frac{\lambda}{2}\) তরঙ্গদৈর্ঘ্যের একবর্ণী আলো দ্বারা আলোকিত করা হলো। যদি দ্বিতীয় ক্ষেত্রে নিঃসৃত আলোক-ইলেকট্রনের সর্বোচ্চ গতিশক্তি প্রথম ক্ষেত্রের তুলনায় \(3\) গুণ হয়, তবে পৃষ্ঠের পদার্থের কার্য-অপেক্ষক হলো (\(h =\) প্ল্যাঙ্কের ধ্রুবক, \(c =\) আলোর দ্রুতি)</p>
+]]></text>
+  </questiontext>
+  <generalfeedback format="html">
+    <text><![CDATA[
+<p><strong>Step 1: Given Data and Conditions</strong><br/>
+Wavelength in case 1 = \(\lambda\); Maximum kinetic energy = \(K_1\)<br/>
+Wavelength in case 2 = \(\frac{\lambda}{2}\); Maximum kinetic energy = \(K_2\)<br/>
+Condition: \(K_2 = 3 K_1\)<br/>
+Work function of the metal = \(\phi\)</p>
+<p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>
+Einstein's photoelectric equation applies directly to each illumination event.</p>
+<p><strong>Step 3: Relevant Formulae and Principles</strong><br/>
+Einstein's photoelectric equation:
+\[K_{\max} = \frac{hc}{\lambda} - \phi\]</p>
+<p><strong>Step 4: Step-by-Step Working</strong><br/>
+For the first illumination:
+\[K_1 = \frac{hc}{\lambda} - \phi\]
+For the second illumination:
+\[K_2 = \frac{hc}{\left(\frac{\lambda}{2}\right)} - \phi = \frac{2hc}{\lambda} - \phi\]
+Given \(K_2 = 3 K_1\):
+\[\frac{2hc}{\lambda} - \phi = 3\left(\frac{hc}{\lambda} - \phi\right)\]
+Expand the right-hand side:
+\[\frac{2hc}{\lambda} - \phi = \frac{3hc}{\lambda} - 3\phi\]
+Rearrange terms:
+\[3\phi - \phi = \frac{3hc}{\lambda} - \frac{2hc}{\lambda}\]
+\[2\phi = \frac{hc}{\lambda}\]
+\[\phi = \frac{hc}{2\lambda}\]
+</p>
+<p><strong>Step 5: Check and Final Answer</strong><br/>
+With \(\phi = \frac{hc}{2\lambda}\), \(K_1 = \frac{hc}{\lambda} - \frac{hc}{2\lambda} = \frac{hc}{2\lambda}\), and \(K_2 = \frac{2hc}{\lambda} - \frac{hc}{2\lambda} = \frac{3hc}{2\lambda} = 3 K_1\), which satisfies the condition.<br/>
+Final Answer: \(\frac{hc}{2\lambda}\)</p>
+<hr/>
+<p><strong>ধাপ ১: প্রদত্ত উপাত্ত এবং শর্তাবলী</strong><br/>
+প্রথম তরঙ্গদৈর্ঘ্য = \(\lambda\), সর্বোচ্চ গতিশক্তি = \(K_1\)<br/>
+দ্বিতীয় তরঙ্গদৈর্ঘ্য = \(\frac{\lambda}{2}\), সর্বোচ্চ গতিশক্তি = \(K_2\)<br/>
+শর্ত: \(K_2 = 3 K_1\)<br/>
+ধাতুর কার্য-অপেক্ষক = \(\phi\)</p>
+<p><strong>ধাপ ২: অনুমান এবং চিহ্ন নীতি</strong><br/>
+আইনস্টাইনের আলোকতড়িৎ সমীকরণ প্রযোজ্য।</p>
+<p><strong>ধাপ ৩: প্রাসঙ্গিক সূত্র ও নীতি</strong><br/>
+আলোকতড়িৎ সমীকরণ:
+\[K_{\max} = \frac{hc}{\lambda} - \phi\]</p>
+<p><strong>ধাপ ৪: ধাপে ধাপে সমাধান</strong><br/>
+প্রথম ক্ষেত্রে:
+\[K_1 = \frac{hc}{\lambda} - \phi\]
+দ্বিতীয় ক্ষেত্রে:
+\[K_2 = \frac{2hc}{\lambda} - \phi\]
+প্রদত্ত শর্তানুসারে:
+\[\frac{2hc}{\lambda} - \phi = 3\left(\frac{hc}{\lambda} - \phi\right)\]
+\[\frac{2hc}{\lambda} - \phi = \frac{3hc}{\lambda} - 3\phi\]
+\[2\phi = \frac{hc}{\lambda} \implies \phi = \frac{hc}{2\lambda}\]
+</p>
+<p><strong>ধাপ ৫: যাচাই এবং চূড়ান্ত উত্তর</strong><br/>
+\(\phi = \frac{hc}{2\lambda}\) বসালে \(K_1 = \frac{hc}{2\lambda}\) এবং \(K_2 = \frac{3hc}{2\lambda} = 3K_1\), যা সম্পূর্ণরূপে সঠিক।<br/>
+চূড়ান্ত উত্তর: \(\frac{hc}{2\lambda}\)</p>
+]]></text>
+  </generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="100" format="html">
+    <text><![CDATA[\(\frac{hc}{2\lambda}\)]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[\(\frac{hc}{\lambda}\)]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[\(\frac{2hc}{\lambda}\)]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[\(\frac{hc}{3\lambda}\)]]></text>
+  </answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>year:2015</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:bn</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>class:class_12</text></tag>
+    <tag><text>topic:photoelectric_effect</text></tag>
+    <tag><text>chapter:dual_nature_of_radiation_and_matter</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:easy</text></tag>
+    <tag><text>blooms:apply</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:equation</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+<question type="multichoice">
+  <name><text>NEET_UG_PHYSICS_2015_MCQ_Q25 - Magnification of astronomical telescope from objective line image</text></name>
+  <questiontext format="html">
+    <text><![CDATA[
+<p>In an astronomical telescope in normal adjustment a straight black line of length \(L\) is drawn on inside part of objective lens. The eye-piece forms a real image of this line. The length of this image is \(l\). The magnification of the telescope is</p>
+<hr/>
+<p>স্বাভাবিক ফোকাসিং-এ থাকা একটি নভোদুরবীক্ষণ যন্ত্রের অভিলক্ষ্য লেন্সের ভেতরের অংশে \(L\) দৈর্ঘ্যের একটি সোজা কালো দাগ টানা হলো। অভিনেত্র লেন্সটি এই দাগের একটি সদবিম্ব গঠন করে। এই প্রতিবিম্বটির দৈর্ঘ্য \(l\) হলে, দূরবীক্ষণ যন্ত্রটির বিবর্ধন হবে</p>
+]]></text>
+  </questiontext>
+  <generalfeedback format="html">
+    <text><![CDATA[
+<p><strong>Step 1: Given Data and Conditions</strong><br/>
+Astronomical telescope in normal adjustment.<br/>
+Focal length of objective = \(f_o\); Focal length of eyepiece = \(f_e\).<br/>
+Object for the eyepiece is the line drawn on the objective lens, so object size = \(L\).<br/>
+Distance from objective to eyepiece in normal adjustment: \(u = -(f_o + f_e)\).<br/>
+Size of the real image formed by eyepiece = \(l\).</p>
+<p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>
+Standard Cartesian sign convention is applied for the thin eyepiece lens of focal length \(+f_e\).</p>
+<p><strong>Step 3: Relevant Formulae and Principles</strong><br/>
+Lens formula for the eyepiece:
+\[\frac{1}{v} - \frac{1}{u} = \frac{1}{f_e}\]
+Linear magnification of the eyepiece:
+\[m = \frac{l}{L} = \left|\frac{v}{u}\right|\]
+Angular magnification (magnifying power) of an astronomical telescope in normal adjustment:
+\[M = \frac{f_o}{f_e}\]</p>
+<p><strong>Step 4: Step-by-Step Working</strong><br/>
+Substitute \(u = -(f_o + f_e)\) into the lens formula for the eyepiece:
+\[\frac{1}{v} - \frac{1}{-(f_o + f_e)} = \frac{1}{f_e}\]
+\[\frac{1}{v} = \frac{1}{f_e} - \frac{1}{f_o + f_e} = \frac{(f_o + f_e) - f_e}{f_e (f_o + f_e)} = \frac{f_o}{f_e (f_o + f_e)}\]
+Therefore, the image distance is:
+\[v = \frac{f_e (f_o + f_e)}{f_o}\]
+Now, the linear magnification produced by the eyepiece is:
+\[m = \frac{l}{L} = \frac{v}{|u|} = \frac{\frac{f_e (f_o + f_e)}{f_o}}{f_o + f_e} = \frac{f_e}{f_o}\]
+Taking the reciprocal gives the magnifying power of the telescope:
+\[M = \frac{f_o}{f_e} = \frac{L}{l}\]
+</p>
+<p><strong>Step 5: Check and Final Answer</strong><br/>
+Since the objective is much larger and farther than the eyepiece focal distance, the real image formed by the eyepiece is reduced (\(l < L\)), so \(M = \frac{L}{l} > 1\).<br/>
+Final Answer: \(\frac{L}{l}\)</p>
+<hr/>
+<p><strong>ধাপ ১: প্রদত্ত উপাত্ত এবং শর্তাবলী</strong><br/>
+নভোদুরবীক্ষণ যন্ত্র স্বাভাবিক ফোকাসিং-এ রয়েছে।<br/>
+অভিলক্ষ্যের ফোকাস দৈর্ঘ্য = \(f_o\), অভিনেত্রের ফোকাস দৈর্ঘ্য = \(f_e\)।<br/>
+বস্তুর আকার (অভিলক্ষ্যে টানা দাগ) = \(L\)।<br/>
+অভিনেত্র থেকে বস্তুর দূরত্ব, \(u = -(f_o + f_e)\)।<br/>
+প্রতিবিম্বের আকার = \(l\)।</p>
+<p><strong>ধাপ ২: অনুমান এবং চিহ্ন নীতি</strong><br/>
+অভিনেত্র লেন্সের ক্ষেত্রে কার্তেসীয় চিহ্ন নীতি প্রযোজ্য।</p>
+<p><strong>ধাপ ৩: প্রাসঙ্গিক সূত্র ও নীতি</strong><br/>
+লেন্স সূত্র:
+\[\frac{1}{v} - \frac{1}{u} = \frac{1}{f_e}\]
+রৈখিক বিবর্ধন:
+\[m = \frac{l}{L} = \frac{v}{|u|}\]
+স্বাভাবিক ফোকাসিং-এ দূরবীক্ষণের বিবর্ধন ক্ষমতা:
+\[M = \frac{f_o}{f_e}\]</p>
+<p><strong>ধাপ ৪: ধাপে ধাপে সমাধান</strong><br/>
+অভিনেত্রের লেন্স সূত্রে মান বসিয়ে:
+\[\frac{1}{v} = \frac{1}{f_e} - \frac{1}{f_o + f_e} = \frac{f_o}{f_e (f_o + f_e)}\]
+\[v = \frac{f_e(f_o + f_e)}{f_o}\]
+রৈখিক বিবর্ধন:
+\[\frac{l}{L} = \frac{v}{|u|} = \frac{f_e}{f_o}\]
+অনুপাতটি উল্টে দিলে দূরবীক্ষণের বিবর্ধন ক্ষমতা পাওয়া যায়:
+\[M = \frac{f_o}{f_e} = \frac{L}{l}\]
+</p>
+<p><strong>ধাপ ৫: যাচাই এবং চূড়ান্ত উত্তর</strong><br/>
+ফোকাস দূরত্বের অনুপাত সরাসরি \(\frac{L}{l}\)-এর সমান হয়।<br/>
+চূড়ান্ত উত্তর: \(\frac{L}{l}\)</p>
+]]></text>
+  </generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="0" format="html">
+    <text><![CDATA[\(\frac{L}{l} + 1\)]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[\(\frac{L}{l} - 1\)]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[\(\frac{L+1}{L-1}\)]]></text>
+  </answer>
+  <answer fraction="100" format="html">
+    <text><![CDATA[\(\frac{L}{l}\)]]></text>
+  </answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>year:2015</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:bn</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>class:class_12</text></tag>
+    <tag><text>topic:astronomical_telescope</text></tag>
+    <tag><text>chapter:ray_optics_and_optical_instruments</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:medium</text></tag>
+    <tag><text>blooms:apply</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:equation</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+<question type="multichoice">
+  <name><text>NEET_UG_PHYSICS_2015_MCQ_Q26 - Ratio of maximum to minimum intensity in Young double slit</text></name>
+  <questiontext format="html">
+    <text><![CDATA[
+<p>Two slits in Young's experiment have widths in the ratio \(1 : 25\). The ratio of intensity at the maxima and minima in the interference pattern \(\frac{I_{\max}}{I_{\min}}\) is</p>
+<hr/>
+<p>ইয়ং-এর দ্বি-রেখাছিদ্র পরীক্ষায় দুটি রেখাছিদ্রের প্রস্থের অনুপাত \(1 : 25\)। ব্যতিচার সজ্জায় চরম এবং অবম তীব্রতার অনুপাত \(\frac{I_{\max}}{I_{\min}}\) হবে</p>
+]]></text>
+  </questiontext>
+  <generalfeedback format="html">
+    <text><![CDATA[
+<p><strong>Step 1: Given Data and Conditions</strong><br/>
+Ratio of slit widths: \(\frac{w_1}{w_2} = \frac{1}{25}\)</p>
+<p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>
+The intensity of light emerging from a slit is directly proportional to the slit width:
+\[I \propto w\]
+The amplitude \(A\) of the wave is proportional to the square root of intensity:
+\[A \propto \sqrt{I} \propto \sqrt{w}\]</p>
+<p><strong>Step 3: Relevant Formulae and Principles</strong><br/>
+Ratio of amplitudes:
+\[\frac{A_1}{A_2} = \sqrt{\frac{w_1}{w_2}} = \sqrt{\frac{1}{25}} = \frac{1}{5}\]
+Maximum and minimum intensities in interference:
+\[I_{\max} = (A_1 + A_2)^2\]
+\[I_{\min} = (A_1 - A_2)^2\]
+Thus, the ratio is:
+\[\frac{I_{\max}}{I_{\min}} = \left(\frac{A_1 + A_2}{A_1 - A_2}\right)^2 = \left(\frac{\frac{A_1}{A_2} + 1}{\frac{A_1}{A_2} - 1}\right)^2\]</p>
+<p><strong>Step 4: Step-by-Step Working</strong><br/>
+Let \(A_1 = 1\) and \(A_2 = 5\):
+\[I_{\max} = (1 + 5)^2 = 6^2 = 36\]
+\[I_{\min} = (1 - 5)^2 = (-4)^2 = 16\]
+Taking the ratio:
+\[\frac{I_{\max}}{I_{\min}} = \frac{36}{16} = \frac{9}{4}\]
+</p>
+<p><strong>Step 5: Check and Final Answer</strong><br/>
+The ratio of intensities is greater than 1, properly simplified to the lowest integer fraction \(\frac{9}{4}\).<br/>
+Final Answer: \(\frac{9}{4}\)</p>
+<hr/>
+<p><strong>ধাপ ১: প্রদত্ত উপাত্ত এবং শর্তাবলী</strong><br/>
+রেখাছিদ্র দুটির প্রস্থের অনুপাত: \(\frac{w_1}{w_2} = \frac{1}{25}\)</p>
+<p><strong>ধাপ ২: অনুমান এবং চিহ্ন নীতি</strong><br/>
+রেখাছিদ্র দিয়ে নির্গত আলোর তীব্রতা রেখাছিদ্রের প্রস্থের সমানুপাতিক (\(I \propto w\)) এবং বিস্তার তীব্রতার বর্গমূলের সমানুপাতিক (\(A \propto \sqrt{w}\))।</p>
+<p><strong>ধাপ ৩: প্রাসঙ্গিক সূত্র ও নীতি</strong><br/>
+বিস্তারের অনুপাত:
+\[\frac{A_1}{A_2} = \sqrt{\frac{w_1}{w_2}} = \frac{1}{5}\]
+চরম ও অবম তীব্রতার অনুপাত:
+\[\frac{I_{\max}}{I_{\min}} = \left(\frac{A_1 + A_2}{A_1 - A_2}\right)^2\]</p>
+<p><strong>ধাপ ৪: ধাপে ধাপে সমাধান</strong><br/>
+মান বসিয়ে পাই:
+\[\frac{I_{\max}}{I_{\min}} = \left(\frac{1 + 5}{1 - 5}\right)^2 = \left(\frac{6}{-4}\right)^2 = \left(-\frac{3}{2}\right)^2 = \frac{9}{4}\]
+</p>
+<p><strong>ধাপ ৫: যাচাই এবং চূড়ান্ত উত্তর</strong><br/>
+গণনাটি ব্যতিচারের তীব্রতা সূত্রের সাথে পুরোপুরি সঙ্গতিপূর্ণ।<br/>
+চূড়ান্ত উত্তর: \(\frac{9}{4}\)</p>
+]]></text>
+  </generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="100" format="html">
+    <text><![CDATA[\(\frac{9}{4}\)]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[\(\frac{121}{49}\)]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[\(\frac{49}{121}\)]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[\(\frac{4}{9}\)]]></text>
+  </answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>year:2015</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:bn</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>class:class_12</text></tag>
+    <tag><text>topic:youngs_double_slit_experiment</text></tag>
+    <tag><text>chapter:wave_optics</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:easy</text></tag>
+    <tag><text>blooms:apply</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:equation</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+<question type="multichoice">
+  <name><text>NEET_UG_PHYSICS_2015_MCQ_Q27 - Ratio of molecular weights of two ideal gases</text></name>
+  <questiontext format="html">
+    <text><![CDATA[
+<p>Two vessels separately contain two ideal gases A and B at the same temperature, the pressure of A being twice that of B. Under such conditions, the density of A is found to be \(1.5\) times the density of B. The ratio of molecular weight of A and B is</p>
+<hr/>
+<p>দুটি ভিন্ন পাত্রে একই তাপমাত্রায় দুটি আদর্শ গ্যাস A এবং B রয়েছে; A-এর চাপ B-এর চাপের দ্বিগুণ। এই অবস্থায় দেখা গেল যে A-এর ঘনত্ব B-এর ঘনত্বের \(1.5\) গুণ। A এবং B-এর আণবিক ভরের অনুপাত হলো</p>
+]]></text>
+  </questiontext>
+  <generalfeedback format="html">
+    <text><![CDATA[
+<p><strong>Step 1: Given Data and Conditions</strong><br/>
+Same temperature: \(T_A = T_B = T\)<br/>
+Pressure relation: \(P_A = 2 P_B \implies \frac{P_A}{P_B} = 2\)<br/>
+Density relation: \(\rho_A = 1.5 \rho_B \implies \frac{\rho_A}{\rho_B} = 1.5 = \frac{3}{2}\)</p>
+<p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>
+Both gases behave as ideal gases satisfying the equation of state.</p>
+<p><strong>Step 3: Relevant Formulae and Principles</strong><br/>
+Ideal gas equation in terms of density \(\rho\) and molecular weight \(M\):
+\[P V = n R T = \frac{m}{M} R T \implies P = \frac{m}{V} \frac{R T}{M} = \frac{\rho R T}{M}\]
+Rearranging for molecular weight:
+\[M = \frac{\rho R T}{P}\]</p>
+<p><strong>Step 4: Step-by-Step Working</strong><br/>
+Forming the ratio of molecular weights for gases A and B:
+\[\frac{M_A}{M_B} = \left(\frac{\rho_A}{\rho_B}\right) \left(\frac{P_B}{P_A}\right) \left(\frac{T_A}{T_B}\right)\]
+Since temperatures are identical, \(\frac{T_A}{T_B} = 1\):
+\[\frac{M_A}{M_B} = \left(\frac{\rho_A}{\rho_B}\right) \times \left(\frac{P_B}{P_A}\right)\]
+Substitute the given numerical ratios:
+\[\frac{M_A}{M_B} = \left(\frac{3}{2}\right) \times \left(\frac{1}{2}\right) = \frac{3}{4}\]
+</p>
+<p><strong>Step 5: Check and Final Answer</strong><br/>
+With \(P_A = 2 P_B\) and \(M_A = \frac{3}{4} M_B\), the density is \(\rho_A = \frac{P_A M_A}{R T} = \frac{2 P_B \times \frac{3}{4} M_B}{R T} = 1.5 \rho_B\), which precisely recovers the given condition.<br/>
+Final Answer: \(\frac{3}{4}\)</p>
+<hr/>
+<p><strong>ধাপ ১: প্রদত্ত উপাত্ত এবং শর্তাবলী</strong><br/>
+উভয় গ্যাসের তাপমাত্রা একই: \(T_A = T_B\)<br/>
+চাপের সম্পর্ক: \(P_A = 2 P_B\)<br/>
+ঘনত্বের সম্পর্ক: \(\rho_A = 1.5 \rho_B\)</p>
+<p><strong>ধাপ ২: অনুমান এবং চিহ্ন নীতি</strong><br/>
+উভয় গ্যাসই আদর্শ গ্যাসের সমীকরণ মেনে চলে।</p>
+<p><strong>ধাপ ৩: প্রাসঙ্গিক সূত্র ও নীতি</strong><br/>
+আদর্শ গ্যাসের সমীকরণ:
+\[P = \frac{\rho R T}{M} \implies M = \frac{\rho R T}{P}\]</p>
+<p><strong>ধাপ ৪: ধাপে ধাপে সমাধান</strong><br/>
+আণবিক ভরের অনুপাত:
+\[\frac{M_A}{M_B} = \left(\frac{\rho_A}{\rho_B}\right) \left(\frac{P_B}{P_A}\right)\]
+মান বসিয়ে পাই:
+\[\frac{M_A}{M_B} = 1.5 \times \frac{1}{2} = \frac{3}{2} \times \frac{1}{2} = \frac{3}{4}\]
+</p>
+<p><strong>ধাপ ৫: যাচাই এবং চূড়ান্ত উত্তর</strong><br/>
+নির্ণীত অনুপাতটি গ্যাসের সমীকরণের সাথে সম্পূর্ণ সামঞ্জস্যপূর্ণ।<br/>
+চূড়ান্ত উত্তর: \(\frac{3}{4}\)</p>
+]]></text>
+  </generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="0" format="html">
+    <text><![CDATA[\(\frac{2}{3}\)]]></text>
+  </answer>
+  <answer fraction="100" format="html">
+    <text><![CDATA[\(\frac{3}{4}\)]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[2]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[\(\frac{1}{2}\)]]></text>
+  </answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>year:2015</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:bn</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>class:class_11</text></tag>
+    <tag><text>topic:ideal_gas_equation_density</text></tag>
+    <tag><text>chapter:kinetic_theory_of_gases</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:easy</text></tag>
+    <tag><text>blooms:apply</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:equation</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+<question type="multichoice">
+  <name><text>NEET_UG_PHYSICS_2015_MCQ_Q28 - Reading of shunted ammeter in series circuit</text></name>
+  <questiontext format="html">
+    <text><![CDATA[
+<p>A circuit contains an ammeter, a battery of \(30\text{ V}\) and a resistance \(40.8\ \Omega\) all connected in series. If the ammeter has a coil of resistance \(480\ \Omega\) and a shunt of \(20\ \Omega\), then reading in the ammeter will be</p>
+<hr/>
+<p>একটি বর্তনীতে একটি অ্যামিটার, একটি \(30\text{ V}\) ব্যাটারি এবং একটি \(40.8\ \Omega\) রোধ শ্রেণি সমবায়ে যুক্ত আছে। যদি অ্যামিটারের কুণ্ডলীর রোধ \(480\ \Omega\) এবং সান্ট \(20\ \Omega\) হয়, তবে অ্যামিটারের পাঠ কত হবে?</p>
+]]></text>
+  </questiontext>
+  <generalfeedback format="html">
+    <text><![CDATA[
+<p><strong>Step 1: Given Data and Conditions</strong><br/>
+Battery EMF, \(V = 30\text{ V}\)<br/>
+External series resistance, \(R = 40.8\ \Omega\)<br/>
+Ammeter coil (galvanometer) resistance, \(R_g = 480\ \Omega\)<br/>
+Shunt resistance, \(S = 20\ \Omega\)</p>
+<p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>
+The ammeter consists of the coil and shunt connected in parallel. The entire combination is in series with the external resistance and battery.</p>
+<p><strong>Step 3: Relevant Formulae and Principles</strong><br/>
+Equivalent resistance of the ammeter:
+\[R_A = \frac{R_g \times S}{R_g + S}\]
+Total circuit resistance:
+\[R_{\text{total}} = R + R_A\]
+Current measured by the ammeter (total current leaving the battery):
+\[I = \frac{V}{R_{\text{total}}}\]</p>
+<p><strong>Step 4: Step-by-Step Working</strong><br/>
+1. Compute the effective resistance of the ammeter:
+\[R_A = \frac{480 \times 20}{480 + 20} = \frac{9600}{500} = 19.2\ \Omega\]
+2. Compute the total circuit resistance:
+\[R_{\text{total}} = 40.8\ \Omega + 19.2\ \Omega = 60.0\ \Omega\]
+3. Compute the current flowing through the circuit:
+\[I = \frac{30\text{ V}}{60.0\ \Omega} = 0.5\text{ A}\]
+The ammeter is calibrated to measure the total line current, which is \(0.5\text{ A}\).</p>
+<p><strong>Step 5: Check and Final Answer</strong><br/>
+The equivalent circuit resistance is exactly \(60\ \Omega\), driven by \(30\text{ V}\), producing precisely \(0.5\text{ A}\).<br/>
+Final Answer: \(0.5\text{ A}\)</p>
+<hr/>
+<p><strong>ধাপ ১: প্রদত্ত উপাত্ত এবং শর্তাবলী</strong><br/>
+ব্যাটারির তড়িচ্চালক বল, \(V = 30\text{ V}\)<br/>
+বহিঃস্থ রোধ, \(R = 40.8\ \Omega\)<br/>
+অ্যামিটার কুণ্ডলীর রোধ, \(R_g = 480\ \Omega\)<br/>
+শান্ট রোধ, \(S = 20\ \Omega\)</p>
+<p><strong>ধাপ ২: অনুমান এবং চিহ্ন নীতি</strong><br/>
+কুণ্ডলী ও সান্ট সমান্তরাল সমবায়ে যুক্ত হয়ে সম্পূর্ণ অ্যামিটারটি গঠন করে, যা বহিঃস্থ রোধের সাথে শ্রেণিতে রয়েছে।</p>
+<p><strong>ধাপ ৩: প্রাসঙ্গিক সূত্র ও নীতি</strong><br/>
+অ্যামিটারের তুল্য রোধ:
+\[R_A = \frac{R_g \times S}{R_g + S}\]
+বর্তণীর মোট রোধ:
+\[R_{\text{total}} = R + R_A\]
+তড়িৎপ্রবাহ:
+\[I = \frac{V}{R_{\text{total}}}\]</p>
+<p><strong>ধাপ ৪: ধাপে ধাপে সমাধান</strong><br/>
+১. অ্যামিটারের তুল্য রোধ নির্ণয়:
+\[R_A = \frac{480 \times 20}{480 + 20} = \frac{9600}{500} = 19.2\ \Omega\]
+২. মোট রোধ:
+\[R_{\text{total}} = 40.8 + 19.2 = 60\ \Omega\]
+৩. অ্যামিটারের পাঠ (বর্তণীর মূল প্রবাহ):
+\[I = \frac{30}{60} = 0.5\text{ A}\]
+</p>
+<p><strong>ধাপ ৫: যাচাই এবং চূড়ান্ত উত্তর</strong><br/>
+\(60\ \Omega\) রোধে \(30\text{ V}\) প্রয়োগ করলে প্রবাহ \(0.5\text{ A}\) হয়।<br/>
+চূড়ান্ত উত্তর: \(0.5\text{ A}\)</p>
+]]></text>
+  </generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="100" format="html">
+    <text><![CDATA[\(0.5\text{ A}\)]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[\(0.25\text{ A}\)]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[\(2\text{ A}\)]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[\(1\text{ A}\)]]></text>
+  </answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>year:2015</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:bn</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>class:class_12</text></tag>
+    <tag><text>topic:conversion_of_galvanometer_into_ammeter</text></tag>
+    <tag><text>chapter:moving_charges_and_magnetism</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:easy</text></tag>
+    <tag><text>blooms:apply</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:equation</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+<question type="multichoice">
+  <name><text>NEET_UG_PHYSICS_2015_MCQ_Q29 - Fractional change in density of glycerin with temperature</text></name>
+  <questiontext format="html">
+    <text><![CDATA[
+<p>The value of coefficient of volume expansion of glycerin is \(5 \times 10^{-4}\text{ K}^{-1}\). The fractional change in the density of glycerin for a rise of \(40^\circ\text{C}\) in its temperature is</p>
+<hr/>
+<p>গ্লিসারিনের আয়তন প্রসারণ গুণাঙ্কের মান \(5 \times 10^{-4}\text{ K}^{-1}\)। তাপমাত্রা \(40^\circ\text{C}\) বৃদ্ধির জন্য গ্লিসারিনের ঘনত্বের ভগ্নাংশিক পরিবর্তন কত হবে?</p>
+]]></text>
+  </questiontext>
+  <generalfeedback format="html">
+    <text><![CDATA[
+<p><strong>Step 1: Given Data and Conditions</strong><br/>
+Coefficient of volume expansion of glycerin, \(\gamma = 5 \times 10^{-4}\text{ K}^{-1}\)<br/>
+Rise in temperature, \(\Delta T = 40^\circ\text{C} = 40\text{ K}\)</p>
+<p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>
+Mass of glycerin remains constant as volume expands with temperature.</p>
+<p><strong>Step 3: Relevant Formulae and Principles</strong><br/>
+Variation of density \(\rho\) with temperature:
+\[\rho = \frac{\rho_0}{1 + \gamma \Delta T} \approx \rho_0 (1 - \gamma \Delta T)\]
+Change in density:
+\[\Delta \rho = \rho_0 - \rho \approx \rho_0 \gamma \Delta T\]
+Fractional change in density:
+\[\frac{\Delta \rho}{\rho_0} = \gamma \Delta T\]</p>
+<p><strong>Step 4: Step-by-Step Working</strong><br/>
+Substitute the given values:
+\[\frac{\Delta \rho}{\rho_0} = (5 \times 10^{-4}\text{ K}^{-1}) \times 40\text{ K}\]
+\[\frac{\Delta \rho}{\rho_0} = 200 \times 10^{-4} = 0.020\]
+(Using the exact denominator form: \(\frac{\rho_0 - \rho}{\rho_0} = 1 - \frac{1}{1 + 0.02} = \frac{0.02}{1.02} \approx 0.0196 \approx 0.020\)).</p>
+<p><strong>Step 5: Check and Final Answer</strong><br/>
+The value is dimensionless and consistent with thermal expansion of liquids.<br/>
+Final Answer: \(0.020\)</p>
+<hr/>
+<p><strong>ধাপ ১: প্রদত্ত উপাত্ত এবং শর্তাবলী</strong><br/>
+গ্লিসারিনের আয়তন প্রসারণ গুণাঙ্ক, \(\gamma = 5 \times 10^{-4}\text{ K}^{-1}\)<br/>
+তাপমাত্রা বৃদ্ধি, \(\Delta T = 40^\circ\text{C} = 40\text{ K}\)</p>
+<p><strong>ধাপ ২: অনুমান এবং চিহ্ন নীতি</strong><br/>
+তাপমাত্রা বৃদ্ধির ফলে আয়তন প্রসারিত হলেও ভর অপরিবর্তিত থাকে।</p>
+<p><strong>ধাপ ৩: প্রাসঙ্গিক সূত্র ও নীতি</strong><br/>
+তাপমাত্রার সাথে ঘনত্বের সম্পর্ক:
+\[\rho = \rho_0 (1 - \gamma \Delta T)\]
+ঘনত্বের ভগ্নাংশিক পরিবর্তন:
+\[\frac{\Delta \rho}{\rho_0} = \gamma \Delta T\]</p>
+<p><strong>ধাপ ৪: ধাপে ধাপে সমাধান</strong><br/>
+মান বসিয়ে পাই:
+\[\frac{\Delta \rho}{\rho_0} = (5 \times 10^{-4}) \times 40 = 200 \times 10^{-4} = 0.020\]
+</p>
+<p><strong>ধাপ ৫: যাচাই এবং চূড়ান্ত উত্তর</strong><br/>
+ভগ্নাংশিক পরিবর্তন একটি মাত্রাহীন রাশি এবং এর মান \(0.020\)।<br/>
+চূড়ান্ত উত্তর: \(0.020\)</p>
+]]></text>
+  </generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="0" format="html">
+    <text><![CDATA[0.015]]></text>
+  </answer>
+  <answer fraction="100" format="html">
+    <text><![CDATA[0.020]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[0.025]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[0.010]]></text>
+  </answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>year:2015</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:bn</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>class:class_11</text></tag>
+    <tag><text>topic:thermal_expansion_of_liquids</text></tag>
+    <tag><text>chapter:thermal_properties_of_matter</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:easy</text></tag>
+    <tag><text>blooms:apply</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:equation</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+<question type="multichoice">
+  <name><text>NEET_UG_PHYSICS_2015_MCQ_Q30 - Power delivered by human heart pumping blood</text></name>
+  <questiontext format="html">
+    <text><![CDATA[
+<p>The heart of a man pumps \(5\text{ L}\) of blood through the arteries per minute at a pressure of \(150\text{ mm of mercury}\). If the density of mercury be \(13.6 \times 10^3\text{ kg/m}^3\) and \(g = 10\text{ m/s}^2\), then the power of heart in watt is</p>
+<hr/>
+<p>একজন মানুষের হৃৎপিণ্ড প্রতি মিনিটে \(150\text{ mm of mercury}\) চাপে ধমনীর মধ্য দিয়ে \(5\text{ L}\) রক্ত পাম্প করে। পারদের ঘনত্ব \(13.6 \times 10^3\text{ kg/m}^3\) এবং \(g = 10\text{ m/s}^2\) হলে, ওয়াট এককে হৃৎপিণ্ডের ক্ষমতা হবে</p>
+]]></text>
+  </questiontext>
+  <generalfeedback format="html">
+    <text><![CDATA[
+<p><strong>Step 1: Given Data and Conditions</strong><br/>
+Volume of blood pumped per minute, \(V = 5\text{ L} = 5 \times 10^{-3}\text{ m}^3\)<br/>
+Time interval, \(t = 1\text{ minute} = 60\text{ s}\)<br/>
+Pressure head, \(h = 150\text{ mm} = 0.15\text{ m of Hg}\)<br/>
+Density of mercury, \(\rho = 13.6 \times 10^3\text{ kg/m}^3\)<br/>
+Acceleration due to gravity, \(g = 10\text{ m/s}^2\)</p>
+<p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>
+The power is the rate at which pressure work is performed in circulating the blood volume.</p>
+<p><strong>Step 3: Relevant Formulae and Principles</strong><br/>
+Hydrostatic pressure of mercury column:
+\[P = h \rho g\]
+Volume flow rate:
+\[\frac{dV}{dt} = \frac{V}{t}\]
+Power:
+\[P_{\text{power}} = P \times \frac{dV}{dt} = (h \rho g) \left(\frac{V}{t}\right)\]</p>
+<p><strong>Step 4: Step-by-Step Working</strong><br/>
+1. Compute the pressure in Pascals:
+\[P = 0.15\text{ m} \times (13.6 \times 10^3\text{ kg/m}^3) \times 10\text{ m/s}^2 = 20400\text{ N/m}^2\]
+2. Compute the volume flow rate in \(\text{m}^3/\text{s}\):
+\[\frac{dV}{dt} = \frac{5 \times 10^{-3}\text{ m}^3}{60\text{ s}}\]
+3. Calculate the power delivered:
+\[P_{\text{power}} = 20400 \times \frac{5 \times 10^{-3}}{60} = \frac{102}{60} = 1.70\text{ W}\]
+</p>
+<p><strong>Step 5: Check and Final Answer</strong><br/>
+Units are \(\text{N m}^{-2} \times \text{m}^3 \text{s}^{-1} = \text{J s}^{-1} = \text{W}\), consistent with the standard physiological output of the human heart (\(\approx 1\text{--}2\text{ W}\)).<br/>
+Final Answer: \(1.70\)</p>
+<hr/>
+<p><strong>ধাপ ১: প্রদত্ত উপাত্ত এবং শর্তাবলী</strong><br/>
+রক্তের আয়তন, \(V = 5\text{ L} = 5 \times 10^{-3}\text{ m}^3\)<br/>
+সময়, \(t = 1\text{ min} = 60\text{ s}\)<br/>
+পারদ স্তম্ভের উচ্চতা, \(h = 150\text{ mm} = 0.15\text{ m}\)<br/>
+পারদের ঘনত্ব, \(\rho = 13.6 \times 10^3\text{ kg/m}^3\)<br/>
+\(g = 10\text{ m/s}^2\)</p>
+<p><strong>ধাপ ২: অনুমান এবং চিহ্ন নীতি</strong><br/>
+হৃৎপিণ্ডের ক্ষমতা হলো চাপজনিত কৃতকার্যের হার।</p>
+<p><strong>ধাপ ৩: প্রাসঙ্গিক সূত্র ও নীতি</strong><br/>
+চাপ: \(P = h \rho g\)<br/>
+ক্ষমতা:
+\[P_{\text{power}} = P \times \frac{V}{t}\]</p>
+<p><strong>ধাপ ৪: ধাপে ধাপে সমাধান</strong><br/>
+চাপ নির্ণয়:
+\[P = 0.15 \times 13.6 \times 10^3 \times 10 = 20400\text{ N/m}^2\]
+ক্ষমতা নির্ণয়:
+\[P_{\text{power}} = 20400 \times \frac{5 \times 10^{-3}}{60} = \frac{102}{60} = 1.70\text{ W}\]
+</p>
+<p><strong>ধাপ ৫: যাচাই এবং চূড়ান্ত উত্তর</strong><br/>
+গণনাটি পদার্থবিদ্যার মূল সূত্রের সাথে সম্পূর্ণ সঙ্গতিপূর্ণ।<br/>
+চূড়ান্ত উত্তর: \(1.70\)</p>
+]]></text>
+  </generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="100" format="html">
+    <text><![CDATA[1.70]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[2.35]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[3.0]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[1.50]]></text>
+  </answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>year:2015</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:bn</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>class:class_11</text></tag>
+    <tag><text>topic:fluid_pressure_and_power</text></tag>
+    <tag><text>chapter:mechanical_properties_of_fluids</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:easy</text></tag>
+    <tag><text>blooms:apply</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:equation</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+<question type="multichoice">
+  <name><text>NEET_UG_PHYSICS_2015_MCQ_Q31 - Separation of colour components by right angled prism</text></name>
+  <questiontext format="html">
+    <text><![CDATA[
+<p>A beam of light consisting of red, green and blue colours is incident on a right angled prism. The refractive index of the material of the prism for the above red, green and blue wavelength are \(1.39\), \(1.44\) and \(1.47\), respectively.</p>
+<p><img src="@@PLUGINFILE@@/img-4.jpeg" alt="Right angled prism with incident beam" /></p>
+<p>The prism will</p>
+<hr/>
+<p>একটি সমকোণী প্রিজমের উপর লাল, সবুজ এবং নীল বর্ণের সমন্বয়ে গঠিত একটি আলোক রশ্মিগুচ্ছ আপতিত হলো। লাল, সবুজ এবং নীল বর্ণের জন্য প্রিজমের উপাদানের প্রতিসরাঙ্ক যথাক্রমে \(1.39\), \(1.44\) এবং \(1.47\)। প্রিজমটি</p>
+]]></text>
+  </questiontext>
+  <generalfeedback format="html">
+    <text><![CDATA[
+<p><strong>Step 1: Given Data and Conditions</strong><br/>
+Right-angled isosceles prism with angles \(45^\circ\text{--}90^\circ\text{--}45^\circ\).<br/>
+The light beam enters normally through the vertical face AB (\(i = 0^\circ\)).<br/>
+Angle of incidence at the hypotenuse face AC is \(i = 45^\circ\).<br/>
+Refractive indices:
+\(\mu_{\text{red}} = 1.39\), \(\mu_{\text{green}} = 1.44\), \(\mu_{\text{blue}} = 1.47\)</p>
+<p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>
+Light travels from the denser prism glass into the rarer medium (air, \(\mu_{\text{air}} = 1\)).</p>
+<p><strong>Step 3: Relevant Formulae and Principles</strong><br/>
+Total Internal Reflection (TIR) occurs at face AC if the angle of incidence exceeds the critical angle:
+\[i > \theta_c \iff \sin i > \sin \theta_c\]
+Since \(\sin \theta_c = \frac{1}{\mu}\), the condition for TIR is:
+\[\sin 45^\circ > \frac{1}{\mu} \implies \frac{1}{\sqrt{2}} > \frac{1}{\mu} \implies \mu > \sqrt{2} \approx 1.414\]</p>
+<p><strong>Step 4: Step-by-Step Working</strong><br/>
+Comparing the refractive indices with the critical threshold \(\mu_c = 1.414\):<br/>
+1. For red light:
+\[\mu_{\text{red}} = 1.39 < 1.414\]
+Condition for TIR is not satisfied. Thus, red light refracts through face AC and emerges into air.<br/>
+2. For green light:
+\[\mu_{\text{green}} = 1.44 > 1.414\]
+Condition for TIR is satisfied. Green light suffers total internal reflection.<br/>
+3. For blue light:
+\[\mu_{\text{blue}} = 1.47 > 1.414\]
+Condition for TIR is satisfied. Blue light suffers total internal reflection.<br/>
+Consequently, green and blue rays are totally internally reflected downwards towards face BC, while the red ray is transmitted through the hypotenuse face AC. Therefore, the prism separates the red colour part from the green and blue colours.</p>
+<p><strong>Step 5: Check and Final Answer</strong><br/>
+Only colours with \(\mu > 1.414\) undergo TIR, meaning the green and blue rays are reflected together while red escapes through refraction.<br/>
+Final Answer: separate the red colour part from the green and blue colours.</p>
+<hr/>
+<p><strong>ধাপ ১: প্রদত্ত উপাত্ত এবং শর্তাবলী</strong><br/>
+একটি \(45^\circ\text{--}90^\circ\text{--}45^\circ\) সমকোণী প্রিজম।<br/>
+আলো খাড়া তল AB-তে লম্বভাবে আপতিত হয়, ফলে কোনো প্রতিসরণ ছাড়া প্রিজমে প্রবেশ করে।<br/>
+অতিভুজ তল AC-তে আপতন কোণ, \(i = 45^\circ\)।<br/>
+প্রতিসরাঙ্ক: \(\mu_{\text{লাল}} = 1.39\), \(\mu_{\text{সবুজ}} = 1.44\), \(\mu_{\text{নীল}} = 1.47\)</p>
+<p><strong>ধাপ ২: অনুমান এবং চিহ্ন নীতি</strong><br/>
+কাচ (ঘন মাধ্যম) থেকে বায়ু (লঘু মাধ্যম)-তে আলো যাওয়ার সময় অভ্যন্তরীণ পূর্ণ প্রতিফলন ঘটে।</p>
+<p><strong>ধাপ ৩: প্রাসঙ্গিক সূত্র ও নীতি</strong><br/>
+অভ্যন্তরীণ পূর্ণ প্রতিফলনের শর্ত:
+\[i > \theta_c \implies \sin 45^\circ > \frac{1}{\mu} \implies \mu > \sqrt{2} \approx 1.414\]</p>
+<p><strong>ধাপ ৪: ধাপে ধাপে সমাধান</strong><br/>
+প্রতিটি বর্ণের জন্য তুলনা:
+১. লাল আলো: \(\mu = 1.39 < 1.414\), ফলে অভ্যন্তরীণ পূর্ণ প্রতিফলন ঘটবে না এবং এটি AC তল দিয়ে বায়ুতে প্রতিসৃত হয়ে যাবে।<br/>
+২. সবুজ আলো: \(\mu = 1.44 > 1.414\), অভ্যন্তরীণ পূর্ণ প্রতিফলন ঘটবে।<br/>
+৩. নীল আলো: \(\mu = 1.47 > 1.414\), অভ্যন্তরীণ পূর্ণ প্রতিফলন ঘটবে।<br/>
+অতএব প্রিজমটি লাল বর্ণকে সবুজ এবং নীল বর্ণ থেকে পৃথক করবে।</p>
+<p><strong>ধাপ ৫: যাচাই এবং চূড়ান্ত উত্তর</strong><br/>
+শুধুমাত্র লালের ক্ষেত্রে প্রতিসরাঙ্ক সংকট মানের চেয়ে কম হওয়ায় লাল আলাদা হয়ে যায়।<br/>
+চূড়ান্ত উত্তর: separate the red colour part from the green and blue colours.</p>
+]]></text>
+  </generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="0" format="html">
+    <text><![CDATA[separate the blue colour part from the red and green colours.]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[separate all the three colours from one another.]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[not separate the three colours at all.]]></text>
+  </answer>
+  <answer fraction="100" format="html">
+    <text><![CDATA[separate the red colour part from the green and blue colours.]]></text>
+  </answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>year:2015</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:bn</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>class:class_12</text></tag>
+    <tag><text>topic:total_internal_reflection</text></tag>
+    <tag><text>chapter:ray_optics_and_optical_instruments</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:medium</text></tag>
+    <tag><text>blooms:apply</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:diagram</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+<question type="multichoice">
+  <name><text>NEET_UG_PHYSICS_2015_MCQ_Q32 - Torque required to maintain equilibrium of rectangular coil</text></name>
+  <questiontext format="html">
+    <text><![CDATA[
+<p>A rectangular coil of length \(0.12\text{ m}\) and width \(0.1\text{ m}\) having \(50\) turns of wire is suspended vertically in a uniform magnetic field of strength \(0.2\text{ Wb/m}^2\). The coil carries a current of \(2\text{ A}\). If the plane of the coil is inclined at an angle of \(30^\circ\) with the direction of the field, the torque required to keep the coil in stable equilibrium will be</p>
+<hr/>
+<p>\(0.12\text{ m}\) দৈর্ঘ্য এবং \(0.1\text{ m}\) প্রস্থের একটি আয়তাকার কুণ্ডলীতে তারের \(50\)-টি পাক রয়েছে এবং এটি \(0.2\text{ Wb/m}^2\) মানের একটি সুষম চৌম্বক ক্ষেত্রে উল্লম্বভাবে ঝুলন্ত। কুণ্ডলীটির মধ্য দিয়ে \(2\text{ A}\) তড়িৎ প্রবাহিত হচ্ছে। কুণ্ডলীর তলটি যদি চৌম্বক ক্ষেত্রের অভিমুখের সাথে \(30^\circ\) কোণে আনত থাকে, তবে কুণ্ডলীটিকে সাম্যাবস্থায় ধরে রাখার জন্য প্রয়োজনীয় টর্কের মান হবে</p>
+]]></text>
+  </questiontext>
+  <generalfeedback format="html">
+    <text><![CDATA[
+<p><strong>Step 1: Given Data and Conditions</strong><br/>
+Number of turns, \(N = 50\)<br/>
+Length of coil, \(l = 0.12\text{ m}\)<br/>
+Width of coil, \(w = 0.1\text{ m}\)<br/>
+Area of coil, \(A = l \times w = 0.12 \times 0.1 = 0.012\text{ m}^2\)<br/>
+Magnetic field, \(B = 0.2\text{ Wb/m}^2\)<br/>
+Current, \(I = 2\text{ A}\)<br/>
+Angle between the plane of the coil and the magnetic field, \(\alpha = 30^\circ\)</p>
+<p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>
+The angle \(\theta\) between the magnetic dipole moment vector (normal to the plane of the coil) and the magnetic field vector \(\vec{B}\) is:
+\[\theta = 90^\circ - \alpha = 90^\circ - 30^\circ = 60^\circ\]</p>
+<p><strong>Step 3: Relevant Formulae and Principles</strong><br/>
+The deflecting magnetic torque acting on the coil:
+\[\tau = N I A B \sin\theta = N I A B \cos\alpha\]
+To keep the coil in equilibrium, an equal and opposite restoring torque must be applied.</p>
+<p><strong>Step 4: Step-by-Step Working</strong><br/>
+Substitute the given values:
+\[\tau = 50 \times 2\text{ A} \times 0.012\text{ m}^2 \times 0.2\text{ Wb/m}^2 \times \cos 30^\circ\]
+\[\tau = 100 \times 0.0024 \times \frac{\sqrt{3}}{2} = 0.24 \times 0.866 \approx 0.2078\text{ Nm} \approx 0.20\text{ Nm}\]
+</p>
+<p><strong>Step 5: Check and Final Answer</strong><br/>
+Units of torque are \(\text{Nm}\). The numerical calculation rounds directly to \(0.20\text{ Nm}\).<br/>
+Final Answer: \(0.20\text{ Nm}\)</p>
+<hr/>
+<p><strong>ধাপ ১: প্রদত্ত উপাত্ত এবং শর্তাবলী</strong><br/>
+পাক সংখ্যা, \(N = 50\)<br/>
+দৈর্ঘ্য, \(l = 0.12\text{ m}\); প্রস্থ, \(w = 0.1\text{ m}\)<br/>
+ক্ষেত্রফল, \(A = 0.12 \times 0.1 = 0.012\text{ m}^2\)<br/>
+চৌম্বক ক্ষেত্র, \(B = 0.2\text{ Wb/m}^2\)<br/>
+তড়িৎপ্রবাহ, \(I = 2\text{ A}\)<br/>
+কুণ্ডলীর তলের সাথে চৌম্বক ক্ষেত্রের কোণ, \(\alpha = 30^\circ\)</p>
+<p><strong>ধাপ ২: অনুমান এবং চিহ্ন নীতি</strong><br/>
+চৌম্বক ভ্রামক ভেক্টর (কুণ্ডলীর তলের লম্ব) এবং চৌম্বক ক্ষেত্রের মধ্যবর্তী কোণ:
+\[\theta = 90^\circ - 30^\circ = 60^\circ\]</p>
+<p><strong>ধাপ ৩: প্রাসঙ্গিক সূত্র ও নীতি</strong><br/>
+কুণ্ডলীর উপর প্রযুক্ত টর্ক:
+\[\tau = N I A B \cos\alpha\]</p>
+<p><strong>ধাপ ৪: ধাপে ধাপে সমাধান</strong><br/>
+মান বসিয়ে পাই:
+\[\tau = 50 \times 2 \times 0.012 \times 0.2 \times \cos 30^\circ\]
+\[\tau = 0.24 \times \frac{\sqrt{3}}{2} \approx 0.2078\text{ Nm} \approx 0.20\text{ Nm}\]
+</p>
+<p><strong>ধাপ ৫: যাচাই এবং চূড়ান্ত উত্তর</strong><br/>
+প্রয়োজনীয় টর্কের মান প্রায় \(0.20\text{ Nm}\)।<br/>
+চূড়ান্ত উত্তর: \(0.20\text{ Nm}\)</p>
+]]></text>
+  </generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="0" format="html">
+    <text><![CDATA[\(0.15\text{ Nm}\)]]></text>
+  </answer>
+  <answer fraction="100" format="html">
+    <text><![CDATA[\(0.20\text{ Nm}\)]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[\(0.24\text{ Nm}\)]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[\(0.12\text{ Nm}\)]]></text>
+  </answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>year:2015</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:bn</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>class:class_12</text></tag>
+    <tag><text>topic:torque_on_current_loop</text></tag>
+    <tag><text>chapter:moving_charges_and_magnetism</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:medium</text></tag>
+    <tag><text>blooms:apply</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:equation</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+<question type="multichoice">
+  <name><text>NEET_UG_PHYSICS_2015_MCQ_Q33 - Direction of induced current by moving electron</text></name>
+  <questiontext format="html">
+    <text><![CDATA[
+<p>An electron moves on a straight line path XY as shown. The abcd is a coil adjacent in the path of electron. What will be the direction of current, if any induced in the coil?</p>
+<p><img src="@@PLUGINFILE@@/img-5.jpeg" alt="Electron path near circular coil" /></p>
+<hr/>
+<p>একটি ইলেকট্রন চিত্রে প্রদর্শিত XY সরলরেখা বরাবর গতিশীল। ইলেকট্রনের গতিপথের সন্নিকটে abcd একটি কুণ্ডলী অবস্থিত। কুণ্ডলীতে আবিষ্ট তড়িৎপ্রবাহের দিক (যদি আবিষ্ট হয়) কীরূপ হবে?</p>
+]]></text>
+  </questiontext>
+  <generalfeedback format="html">
+    <text><![CDATA[
+<p><strong>Step 1: Conceptual Principle</strong><br/>
+An electron carrying negative charge moving from X to Y (left to right) is equivalent to a conventional current directed from Y to X (right to left). By the right-hand grip rule, this equivalent current produces a magnetic field that points out of the plane of the page inside the region of the circular coil abcd.</p>
+<p><strong>Step 2: Evaluation of the Approaching Phase</strong><br/>
+As the electron approaches the coil from the left, the magnetic flux pointing out of the page through the coil increases with time (\(\frac{d\Phi}{dt} > 0\)). According to Lenz's law, the induced current in the coil must oppose this increase by generating an opposing magnetic field into the page. To produce a field pointing into the page, the induced current must flow clockwise (along the path a-d-c-b).</p>
+<p><strong>Step 3: Evaluation of the Receding Phase</strong><br/>
+As the electron passes the coil and moves away towards Y, the distance increases, so the magnetic flux pointing out of the page through the coil decreases (\(\frac{d\Phi}{dt} < 0\)). By Lenz's law, the induced current must oppose this decrease by producing a supporting magnetic field pointing out of the page. This requires the induced current to flow counter-clockwise (along the path a-b-c-d).</p>
+<p><strong>Step 4: Final Conclusion</strong><br/>
+Because the time derivative of the magnetic flux changes sign as the electron moves from approaching to receding, the induced current in the coil will reverse its direction as the electron goes past the coil.<br/>
+Final Answer: The current will reverse its direction as the electron goes past the coil.</p>
+<hr/>
+<p><strong>ধাপ ১: ধারণাগত নীতি</strong><br/>
+একটি ঋণাত্মক আধানযুক্ত ইলেকট্রন যখন বাম থেকে ডানে (X থেকে Y) গতিশীল হয়, তখন তা ডান থেকে বামে (Y থেকে X) প্রচলিত তড়িৎপ্রবাহের সমতুল্য। ডানহাতের নিয়ম অনুসারে, এই প্রবাহের কারণে কুণ্ডলী abcd-এর তল বরাবর কাগজের ওপরের দিকে বহির্মুখী চৌম্বক ক্ষেত্র সৃষ্টি হয়।</p>
+<p><strong>ধাপ ২: কাছে আসার সময় বিশ্লেষণ</strong><br/>
+ইলেকট্রনটি যখন কুণ্ডলীর কাছাকাছি আসে, তখন কুণ্ডলীর মধ্য দিয়ে বহির্মুখী চৌম্বক ফ্লাক্স বৃদ্ধি পায়। লেন্‌জের সূত্র অনুসারে আবিষ্ট প্রবাহ এই বৃদ্ধিকে বাধা দেবে, অর্থাৎ কাগজের ভেতরের দিকে অন্তর্মুখী চৌম্বক ক্ষেত্র তৈরি করবে। এর জন্য আবিষ্ট প্রবাহ ঘড়ির কাঁটার দিকে (a-d-c-b অভিমুখে) প্রবাহিত হবে।</p>
+<p><strong>ধাপ ৩: দূরে যাওয়ার সময় বিশ্লেষণ</strong><br/>
+ইলেকট্রনটি যখন কুণ্ডলী অতিক্রম করে দূরে সরে যায়, তখন বহির্মুখী চৌম্বক ফ্লাক্স হ্রাস পায়। লেন্‌জের সূত্র অনুযায়ী আবিষ্ট প্রবাহ এই হ্রাসকে প্রতিহত করতে বহির্মুখী ক্ষেত্র তৈরি করবে, যার ফলে প্রবাহের দিক উল্টে ঘড়ির কাঁটার বিপরীত দিকে (a-b-c-d অভিমুখে) পরিবর্তিত হবে।</p>
+<p><strong>ধাপ ৪: চূড়ান্ত সিদ্ধান্ত</strong><br/>
+অতএব, ইলেকট্রনটি কুণ্ডলী পার হওয়ার সাথে সাথে আবিষ্ট প্রবাহের দিক পরিবর্তিত (উল্টে) যাবে।<br/>
+চূড়ান্ত উত্তর: The current will reverse its direction as the electron goes past the coil.</p>
+]]></text>
+  </generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="0" format="html">
+    <text><![CDATA[abcd]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[adcb]]></text>
+  </answer>
+  <answer fraction="100" format="html">
+    <text><![CDATA[The current will reverse its direction as the electron goes past the coil.]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[No current induced]]></text>
+  </answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>year:2015</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:bn</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>class:class_12</text></tag>
+    <tag><text>topic:lenzs_law</text></tag>
+    <tag><text>chapter:electromagnetic_induction</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:medium</text></tag>
+    <tag><text>blooms:understand</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:diagram</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+</quiz>

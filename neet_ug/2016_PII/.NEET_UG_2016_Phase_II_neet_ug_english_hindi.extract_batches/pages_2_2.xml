@@ -1,0 +1,1305 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+<question type="multichoice">
+  <name><text>NEET_UG_PHYSICS_2016_MCQ_Q11 - Variation of acceleration due to gravity</text></name>
+  <questiontext format="html">
+    <text><![CDATA[
+<p>Starting from the centre of the earth having radius \(R\), the variation of \(g\) (acceleration due to gravity) is shown by</p>
+<hr/>
+<p>त्रिज्या \(R\) वाली पृथ्वी के केंद्र से प्रारंभ करने पर, गुरुत्वीय त्वरण \(g\) के परिवर्तन को दर्शाया जाता है</p>
+    ]]></text>
+  </questiontext>
+  <generalfeedback format="html">
+    <text><![CDATA[
+<p><strong>Step 1: Given Data and Conditions</strong><br/>
+Earth of radius \(R\) is modeled as a uniform solid sphere of mass \(M\).
+The distance from the centre of the Earth is \(r\).
+Acceleration due to gravity at distance \(r\) is \(g(r)\).</p>
+
+<p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>
+Assume the Earth has uniform mass density \(\rho\).
+At the centre of the Earth, \(r = 0\).
+At the surface of the Earth, \(r = R\).</p>
+
+<p><strong>Step 3: Relevant Formulae and Principles</strong><br/>
+Inside the Earth (\(r \le R\)):
+The effective mass attracting a point mass at distance \(r\) is \(M' = M \frac{r^3}{R^3}\).
+Thus, \(g(r) = \frac{G M'}{r^2} = \frac{G M}{R^3} r \propto r\).
+Outside the Earth (\(r \ge R\)):
+The entire mass \(M\) acts as if concentrated at the centre.
+Thus, \(g(r) = \frac{G M}{r^2} \propto \frac{1}{r^2}\).</p>
+
+<p><strong>Step 4: Step-by-Step Working</strong><br/>
+For \(0 \le r \le R\):
+\(g(r)\) is directly proportional to \(r\). The graph must be a straight line passing through the origin \((0, 0)\) with a positive constant slope until \(r = R\), where \(g\) reaches its maximum value \(g_{\text{max}} = \frac{GM}{R^2}\).
+
+For \(r > R\):
+\(g(r)\) is inversely proportional to \(r^2\). The graph decreases smoothly along a hyperbola-like curve asymptotically approaching zero as \(r \to \infty\).</p>
+
+<p><strong>Step 5: Check and Final Answer</strong><br/>
+At the center \(r = 0\), \(g = 0\). At \(r = R\), \(g\) is maximum. For \(r > R\), \(g \propto \frac{1}{r^2}\).
+The graph showing a straight line from the origin to \(r = R\) followed by an inverse-square decrease for \(r > R\) correctly represents this variation.</p>
+<hr/>
+<p><strong>चरण 1: दिए गए आँकड़े और शर्तें</strong><br/>
+पृथ्वी को \(R\) त्रिज्या तथा \(M\) द्रव्यमान का एक समान ठोस गोला माना गया है।
+पृथ्वी के केंद्र से दूरी \(r\) तथा गुरुत्वीय त्वरण \(g(r)\) है।</p>
+
+<p><strong>चरण 2: अवधारणाएँ और चिन्ह परिपाटी</strong><br/>
+पृथ्वी का घनत्व एकसमान माना गया है। पृथ्वी के केंद्र पर \(r = 0\) तथा सतह पर \(r = R\) है।</p>
+
+<p><strong>चरण 3: संबंधित सूत्र और सिद्धांत</strong><br/>
+पृथ्वी के अंदर (\(r \le R\)):
+\(g(r) = \frac{GM}{R^3} r \propto r\)
+पृथ्वी के बाहर (\(r \ge R\)):
+\(g(r) = \frac{GM}{r^2} \propto \frac{1}{r^2}\)</p>
+
+<p><strong>चरण 4: चरण-दर-चरण गणना</strong><br/>
+\(0 \le r \le R\) के लिए:
+\(g(r)\), \(r\) के समानुपाती है, अतः ग्राफ मूल बिंदु \((0, 0)\) से प्रारंभ होकर \(r = R\) तक एक सीधी रेखा के रूप में बढ़ता है जहाँ \(g\) अधिकतम होता है।
+
+\(r > R\) के लिए:
+\(g(r)\), \(r^2\) के व्युत्क्रमानुपाती होता है, अतः ग्राफ घटते हुए वक्र के रूप में अग्रसर होता है।</p>
+
+<p><strong>चरण 5: जाँच और अंतिम उत्तर</strong><br/>
+मूल बिंदु से \(r = R\) तक सरल रेखा तथा उसके बाद व्युत्क्रम वर्ग नियम के अनुसार घटने वाला ग्राफ सही संबंध को प्रदर्शित करता है।</p>
+    ]]></text>
+  </generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>false</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p><img src="@@PLUGINFILE@@/img-2.jpeg" alt="Graph of g versus r with non-linear rise inside" /></p>]]></text>
+  </answer>
+  <answer fraction="100" format="html">
+    <text><![CDATA[<p><img src="@@PLUGINFILE@@/img-3.jpeg" alt="Graph of g versus r with linear rise inside and inverse square fall outside" /></p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p><img src="@@PLUGINFILE@@/img-4.jpeg" alt="Graph of g versus r with parabolic curve inside" /></p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p><img src="@@PLUGINFILE@@/img-5.jpeg" alt="Graph of g versus r constant inside and inverse square outside" /></p>]]></text>
+  </answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>year:2016</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:hi</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>class:11</text></tag>
+    <tag><text>topic:gravitational_acceleration_variation</text></tag>
+    <tag><text>chapter:gravitation</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:easy</text></tag>
+    <tag><text>blooms:understand</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:diagram</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+<question type="multichoice">
+  <name><text>NEET_UG_PHYSICS_2016_MCQ_Q12 - Total energy of orbiting satellite</text></name>
+  <questiontext format="html">
+    <text><![CDATA[
+<p>A satellite of mass \(m\) is orbiting the earth (of radius \(R\)) at a height \(h\) from its surface. The total energy of the satellite in terms of \(g_0\), the value of acceleration due to gravity at the earth's surface is</p>
+<hr/>
+<p>द्रव्यमान \(m\) का एक उपग्रह पृथ्वी (त्रिज्या \(R\)) की सतह से \(h\) ऊँचाई पर परिक्रमा कर रहा है। पृथ्वी की सतह पर गुरुत्वीय त्वरण \(g_0\) के पदों में उपग्रह की कुल ऊर्जा है</p>
+    ]]></text>
+  </questiontext>
+  <generalfeedback format="html">
+    <text><![CDATA[
+<p><strong>Step 1: Given Data and Conditions</strong><br/>
+Mass of the satellite: \(m\)
+Radius of the Earth: \(R\)
+Height above the Earth's surface: \(h\)
+Orbital radius: \(r = R + h\)
+Acceleration due to gravity at the Earth's surface: \(g_0\)</p>
+
+<p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>
+The satellite follows a circular orbit.
+Potential energy is defined to be zero at infinity (\(U(\infty) = 0\)).
+Since the satellite is gravitationally bound, its total mechanical energy is negative.</p>
+
+<p><strong>Step 3: Relevant Formulae and Principles</strong><br/>
+Gravitational potential energy at distance \(r\):
+\(U = -\frac{GMm}{r}\)
+Orbital speed is given by equating centripetal force to gravitational attraction:
+\(\frac{mv^2}{r} = \frac{GMm}{r^2} \implies K = \frac{1}{2}mv^2 = \frac{GMm}{2r}\)
+Total mechanical energy:
+\(E = K + U = \frac{GMm}{2r} - \frac{GMm}{r} = -\frac{GMm}{2r} = -\frac{GMm}{2(R+h)}\)
+At the Earth's surface:
+\(g_0 = \frac{GM}{R^2} \implies GM = g_0 R^2\)</p>
+
+<p><strong>Step 4: Step-by-Step Working</strong><br/>
+Substitute \(GM = g_0 R^2\) into the total energy equation:
+\(E = -\frac{m (g_0 R^2)}{2(R+h)} = -\frac{mg_0 R^2}{2(R+h)}\)</p>
+
+<p><strong>Step 5: Check and Final Answer</strong><br/>
+Dimensionally, \([mg_0 R] = [\text{M}\text{L}^2\text{T}^{-2}]\), which corresponds to energy. The negative sign confirms the bound orbit.
+The total energy of the satellite is \(-\frac{mg_0 R^2}{2(R+h)}\).</p>
+<hr/>
+<p><strong>चरण 1: दिए गए आँकड़े और शर्तें</strong><br/>
+उपग्रह का द्रव्यमान: \(m\)
+पृथ्वी की त्रिज्या: \(R\)
+सतह से ऊँचाई: \(h\)
+कक्षीय त्रिज्या: \(r = R + h\)
+पृथ्वी की सतह पर गुरुत्वीय त्वरण: \(g_0\)</p>
+
+<p><strong>चरण 2: अवधारणाएँ और चिन्ह परिपाटी</strong><br/>
+कक्षा वृत्ताकार है तथा अनंत पर स्थितिज ऊर्जा शून्य मानी गई है। बद्ध निकाय होने के कारण कुल ऊर्जा ऋणात्मक होगी।</p>
+
+<p><strong>चरण 3: संबंधित सूत्र और सिद्धांत</strong><br/>
+गतिज ऊर्जा: \(K = \frac{GMm}{2r}\)
+स्थितिज ऊर्जा: \(U = -\frac{GMm}{r}\)
+कुल ऊर्जा: \(E = K + U = -\frac{GMm}{2r} = -\frac{GMm}{2(R+h)}\)
+पृथ्वी की सतह पर संबंध: \(GM = g_0 R^2\)</p>
+
+<p><strong>चरण 4: चरण-दर-चरण गणना</strong><br/>
+\(GM\) का मान रखने पर:
+\(E = -\frac{m(g_0 R^2)}{2(R+h)} = -\frac{mg_0 R^2}{2(R+h)}\)</p>
+
+<p><strong>चरण 5: जाँच और अंतिम उत्तर</strong><br/>
+उपग्रह की कुल यांत्रिक ऊर्जा \(-\frac{mg_0 R^2}{2(R+h)}\) है।</p>
+    ]]></text>
+  </generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(\frac{mg_0 R^2}{2(R+h)}\)</p>]]></text>
+  </answer>
+  <answer fraction="100" format="html">
+    <text><![CDATA[<p>\(-\frac{mg_0 R^2}{2(R+h)}\)</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(\frac{2mg_0 R^2}{R+h}\)</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(-\frac{2mg_0 R^2}{R+h}\)</p>]]></text>
+  </answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>year:2016</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:hi</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>class:11</text></tag>
+    <tag><text>topic:satellite_energy</text></tag>
+    <tag><text>chapter:gravitation</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:easy</text></tag>
+    <tag><text>blooms:apply</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:text</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+<question type="multichoice">
+  <name><text>NEET_UG_PHYSICS_2016_MCQ_Q13 - Surface tension of extended liquid film</text></name>
+  <questiontext format="html">
+    <text><![CDATA[
+<p>A rectangular film of liquid is extended from \((4\text{ cm} \times 2\text{ cm})\) to \((5\text{ cm} \times 4\text{ cm})\). If the work done is \(3 \times 10^{-4}\text{ J}\), the value of the surface tension of the liquid is</p>
+<hr/>
+<p>किसी द्रव की एक आयताकार फिल्म का विस्तार \((4\text{ cm} \times 2\text{ cm})\) से \((5\text{ cm} \times 4\text{ cm})\) तक किया जाता है। यदि किया गया कार्य \(3 \times 10^{-4}\text{ J}\) है, तो द्रव के पृष्ठ तनाव का मान है</p>
+    ]]></text>
+  </questiontext>
+  <generalfeedback format="html">
+    <text><![CDATA[
+<p><strong>Step 1: Given Data and Conditions</strong><br/>
+Initial dimensions: \(4\text{ cm} \times 2\text{ cm}\)
+Initial single-side area: \(A_1 = 8\text{ cm}^2 = 8 \times 10^{-4}\text{ m}^2\)
+Final dimensions: \(5\text{ cm} \times 4\text{ cm}\)
+Final single-side area: \(A_2 = 20\text{ cm}^2 = 20 \times 10^{-4}\text{ m}^2\)
+Work done: \(W = 3 \times 10^{-4}\text{ J}\)</p>
+
+<p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>
+A liquid film suspended in air has two free surfaces (front and back).
+The process occurs isothermally.</p>
+
+<p><strong>Step 3: Relevant Formulae and Principles</strong><br/>
+Total increase in surface area for a film with two free surfaces:
+\(\Delta A_{\text{total}} = 2 (A_2 - A_1)\)
+Work done in stretching the liquid film:
+\(W = T \cdot \Delta A_{\text{total}} = 2 T (A_2 - A_1)\)
+Surface tension:
+\(T = \frac{W}{2 (A_2 - A_1)}\)</p>
+
+<p><strong>Step 4: Step-by-Step Working</strong><br/>
+Calculate the change in single-side area:
+\(\Delta A = A_2 - A_1 = (20 - 8)\text{ cm}^2 = 12\text{ cm}^2 = 12 \times 10^{-4}\text{ m}^2\)
+
+Calculate the total increase in surface area:
+\(\Delta A_{\text{total}} = 2 \times 12 \times 10^{-4}\text{ m}^2 = 24 \times 10^{-4}\text{ m}^2\)
+
+Calculate surface tension:
+\(T = \frac{3 \times 10^{-4}\text{ J}}{24 \times 10^{-4}\text{ m}^2} = \frac{3}{24} = \frac{1}{8} = 0.125\text{ N/m}\)</p>
+
+<p><strong>Step 5: Check and Final Answer</strong><br/>
+Units of surface tension are \(\text{N/m}\) or \(\text{N m}^{-1}\). The calculated value is \(0.125\text{ N m}^{-1}\).
+The surface tension of the liquid is \(0.125\text{ N m}^{-1}\).</p>
+<hr/>
+<p><strong>चरण 1: दिए गए आँकड़े और शर्तें</strong><br/>
+प्रारंभिक क्षेत्रफल: \(A_1 = 4\text{ cm} \times 2\text{ cm} = 8\text{ cm}^2 = 8 \times 10^{-4}\text{ m}^2\)
+अंतिम क्षेत्रफल: \(A_2 = 5\text{ cm} \times 4\text{ cm} = 20\text{ cm}^2 = 20 \times 10^{-4}\text{ m}^2\)
+किया गया कार्य: \(W = 3 \times 10^{-4}\text{ J}\)</p>
+
+<p><strong>चरण 2: अवधारणाएँ और चिन्ह परिपाटी</strong><br/>
+द्रव की फिल्म के दो मुक्त पृष्ठ होते हैं।</p>
+
+<p><strong>चरण 3: संबंधित सूत्र और सिद्धांत</strong><br/>
+फिल्म के क्षेत्रफल में कुल वृद्धि:
+\(\Delta A_{\text{total}} = 2(A_2 - A_1)\)
+कार्य और पृष्ठ तनाव में संबंध:
+\(W = T \cdot \Delta A_{\text{total}} \implies T = \frac{W}{2(A_2 - A_1)}\)</p>
+
+<p><strong>चरण 4: चरण-दर-चरण गणना</strong><br/>
+क्षेत्रफल में कुल वृद्धि:
+\(\Delta A_{\text{total}} = 2 \times (20 - 8) \times 10^{-4} = 24 \times 10^{-4}\text{ m}^2\)
+
+पृष्ठ तनाव:
+\(T = \frac{3 \times 10^{-4}}{24 \times 10^{-4}} = \frac{1}{8} = 0.125\text{ N m}^{-1}\)</p>
+
+<p><strong>चरण 5: जाँच और अंतिम उत्तर</strong><br/>
+द्रव का पृष्ठ तनाव \(0.125\text{ N m}^{-1}\) है।</p>
+    ]]></text>
+  </generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(0.250\text{ N m}^{-1}\)</p>]]></text>
+  </answer>
+  <answer fraction="100" format="html">
+    <text><![CDATA[<p>\(0.125\text{ N m}^{-1}\)</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(0.2\text{ N m}^{-1}\)</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(8.0\text{ N m}^{-1}\)</p>]]></text>
+  </answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>year:2016</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:hi</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>class:11</text></tag>
+    <tag><text>topic:surface_tension</text></tag>
+    <tag><text>chapter:mechanical_properties_of_fluids</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:medium</text></tag>
+    <tag><text>blooms:apply</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:text</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+<question type="multichoice">
+  <name><text>NEET_UG_PHYSICS_2016_MCQ_Q14 - Angles of contact for capillary rise</text></name>
+  <questiontext format="html">
+    <text><![CDATA[
+<p>Three liquids of densities \(\rho_1\), \(\rho_2\) and \(\rho_3\) (with \(\rho_1 > \rho_2 > \rho_3\)), having the same value of surface tension \(T\), rise to the same height in three identical capillaries. The angles of contact \(\theta_1\), \(\theta_2\) and \(\theta_3\) obey</p>
+<hr/>
+<p>घनत्व \(\rho_1\), \(\rho_2\) तथा \(\rho_3\) (\(\rho_1 > \rho_2 > \rho_3\)) वाले तीन द्रव, जिनका पृष्ठ तनाव \(T\) समान है, तीन एकसमान केशनलियों में समान ऊँचाई तक चढ़ते हैं। स्पर्श कोण \(\theta_1\), \(\theta_2\) तथा \(\theta_3\) किस संबंध का पालन करेंगे?</p>
+    ]]></text>
+  </questiontext>
+  <generalfeedback format="html">
+    <text><![CDATA[
+<p><strong>Step 1: Given Data and Conditions</strong><br/>
+Densities of the three liquids: \(\rho_1\), \(\rho_2\), \(\rho_3\) with \(\rho_1 > \rho_2 > \rho_3 > 0\)
+Surface tension of all three liquids: \(T\) (same)
+Capillary rise height in identical tubes: \(h\) (same)
+Tube radius: \(r\) (identical tubes)</p>
+
+<p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>
+The capillary rise is positive (\(h > 0\)), which requires \(\cos\theta > 0\), meaning the contact angles must be acute (\(0 \le \theta < \frac{\pi}{2}\)).</p>
+
+<p><strong>Step 3: Relevant Formulae and Principles</strong><br/>
+Capillary ascent is given by Jurin's law:
+\(h = \frac{2 T \cos\theta}{r \rho g}\)
+Rearranging for \(\cos\theta\):
+\(\cos\theta = \frac{h r g}{2 T} \rho\)
+Since \(h\), \(r\), \(g\), and \(T\) are constant for all three cases:
+\(\cos\theta \propto \rho\)</p>
+
+<p><strong>Step 4: Step-by-Step Working</strong><br/>
+Given \(\rho_1 > \rho_2 > \rho_3 > 0\), it follows directly that:
+\(\cos\theta_1 > \cos\theta_2 > \cos\theta_3 > 0\)
+
+In the interval \(\left[0, \frac{\pi}{2}\right)\), the cosine function \(\cos\theta\) is strictly decreasing as \(\theta\) increases.
+Consequently, a larger value of \(\cos\theta\) corresponds to a smaller angle \(\theta\):
+\(\cos\theta_1 > \cos\theta_2 > \cos\theta_3 \implies 0 \le \theta_1 < \theta_2 < \theta_3 < \frac{\pi}{2}\)</p>
+
+<p><strong>Step 5: Check and Final Answer</strong><br/>
+For dense liquids to reach the same height as less dense liquids, the upward capillary force must be greater, requiring \(\cos\theta\) to be larger, and hence \(\theta\) must be smaller.
+Therefore, the correct relation is \(0 \le \theta_1 < \theta_2 < \theta_3 < \frac{\pi}{2}\).</p>
+<hr/>
+<p><strong>चरण 1: दिए गए आँकड़े और शर्तें</strong><br/>
+द्रवों के घनत्व: \(\rho_1 > \rho_2 > \rho_3 > 0\)
+पृष्ठ तनाव: \(T\) (समान)
+केशनलियों में चढ़ी ऊँचाई: \(h\) (समान)
+त्रिज्या: \(r\) (समान)</p>
+
+<p><strong>चरण 2: अवधारणाएँ और चिन्ह परिपाटी</strong><br/>
+चूँकि द्रव केशनली में ऊपर चढ़ता है (\(h > 0\)), अतः \(\cos\theta > 0\) होना चाहिए, अर्थात् स्पर्श कोण न्यूनकोण होगा (\(0 \le \theta < \frac{\pi}{2}\))।</p>
+
+<p><strong>चरण 3: संबंधित सूत्र और सिद्धांत</strong><br/>
+केशनली उन्नयन का सूत्र:
+\(h = \frac{2T\cos\theta}{r\rho g} \implies \cos\theta = \left(\frac{hrg}{2T}\right)\rho\)
+अतः \(\cos\theta \propto \rho\)</p>
+
+<p><strong>चरण 4: चरण-दर-चरण गणना</strong><br/>
+चूँकि \(\rho_1 > \rho_2 > \rho_3 > 0\):
+\(\cos\theta_1 > \cos\theta_2 > \cos\theta_3 > 0\)
+प्रथम चतुर्थांश \(\left[0, \frac{\pi}{2}\right)\) में जैसे-जैसे कोण \(\theta\) बढ़ता है, \(\cos\theta\) का मान घटता है।
+अतः:
+\(0 \le \theta_1 < \theta_2 < \theta_3 < \frac{\pi}{2}\)</p>
+
+<p><strong>चरण 5: जाँच और अंतिम उत्तर</strong><br/>
+स्पर्श कोणों का सही क्रम \(0 \le \theta_1 < \theta_2 < \theta_3 < \frac{\pi}{2}\) है।</p>
+    ]]></text>
+  </generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(\frac{\pi}{2} > \theta_1 > \theta_2 > \theta_3 \ge 0\)</p>]]></text>
+  </answer>
+  <answer fraction="100" format="html">
+    <text><![CDATA[<p>\(0 \le \theta_1 < \theta_2 < \theta_3 < \frac{\pi}{2}\)</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(\frac{\pi}{2} < \theta_1 < \theta_2 < \theta_3 < \pi\)</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(\pi > \theta_1 > \theta_2 > \theta_3 > \frac{\pi}{2}\)</p>]]></text>
+  </answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>year:2016</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:hi</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>class:11</text></tag>
+    <tag><text>topic:capillarity</text></tag>
+    <tag><text>chapter:mechanical_properties_of_fluids</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:medium</text></tag>
+    <tag><text>blooms:analyze</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:text</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+<question type="multichoice">
+  <name><text>NEET_UG_PHYSICS_2016_MCQ_Q15 - Final temperature of bodies in contact</text></name>
+  <questiontext format="html">
+    <text><![CDATA[
+<p>Two identical bodies are made of a material for which the heat capacity increases with temperature. One of these is at \(100^\circ\text{C}\), while the other one is at \(0^\circ\text{C}\). If the two bodies are brought into contact, then assuming no heat loss, the final common temperature is</p>
+<hr/>
+<p>दो एकसमान पिंड ऐसे पदार्थ से बने हैं जिसकी ऊष्मा धारिता ताप के साथ बढ़ती है। इनमें से एक \(100^\circ\text{C}\) पर है, जबकि दूसरा \(0^\circ\text{C}\) पर है। यदि दोनों पिंडों को संपर्क में लाया जाए, तो ऊष्मा हानि न मानते हुए, अंतिम उभयनिष्ठ ताप होगा</p>
+    ]]></text>
+  </questiontext>
+  <generalfeedback format="html">
+    <text><![CDATA[
+<p><strong>Step 1: Given Data and Conditions</strong><br/>
+Two identical bodies of identical mass \(m\).
+Initial temperature of hotter body: \(T_1 = 100^\circ\text{C}\)
+Initial temperature of colder body: \(T_2 = 0^\circ\text{C}\)
+Heat capacity \(C(T)\) increases monotonically with temperature: \(\frac{dC}{dT} > 0\).
+No heat loss to the surroundings.</p>
+
+<p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>
+Let \(T_f\) be the final equilibrium temperature, where \(0^\circ\text{C} < T_f < 100^\circ\text{C}\).
+Heat lost by the hotter body equals the heat gained by the colder body.</p>
+
+<p><strong>Step 3: Relevant Formulae and Principles</strong><br/>
+Heat exchanged over a temperature range is:
+\(Q = \int C(T) \, dT\)
+By conservation of thermal energy:
+\(\int_{T_f}^{100} C(T) \, dT = \int_{0}^{T_f} C(T) \, dT\)</p>
+
+<p><strong>Step 4: Step-by-Step Working</strong><br/>
+Because \(C(T)\) is an increasing function of \(T\), for any value of \(T\) in \([50^\circ\text{C}, 100^\circ\text{C}]\), \(C(T)\) is strictly greater than for any \(T\) in \([0^\circ\text{C}, 50^\circ\text{C}]\).
+If the final temperature were \(50^\circ\text{C}\):
+The heat lost by cooling from \(100^\circ\text{C}\) to \(50^\circ\text{C}\) would be:
+\(Q_{\text{lost}} = \int_{50}^{100} C(T) \, dT\)
+The heat gained by warming from \(0^\circ\text{C}\) to \(50^\circ\text{C}\) would be:
+\(Q_{\text{gained}} = \int_{0}^{50} C(T) \, dT\)
+Since \(C(T)\) is larger in the upper interval, \(\int_{50}^{100} C(T) \, dT > \int_{0}^{50} C(T) \, dT\), which means \(Q_{\text{lost}} > Q_{\text{gained}}\).
+To achieve thermal equilibrium (\(Q_{\text{lost}} = Q_{\text{gained}}\)), the temperature change of the hotter body must be smaller and that of the colder body must be larger.
+Therefore, the final equilibrium temperature \(T_f\) must satisfy \(T_f > 50^\circ\text{C}\).</p>
+
+<p><strong>Step 5: Check and Final Answer</strong><br/>
+Because more heat is required to change temperature at higher temperatures, a small drop from \(100^\circ\text{C}\) releases enough heat to cause a larger rise from \(0^\circ\text{C}\).
+Thus, the final common temperature is more than \(50^\circ\text{C}\).</p>
+<hr/>
+<p><strong>चरण 1: दिए गए आँकड़े और शर्तें</strong><br/>
+दो सर्वसम पिंड, एक का प्रारंभिक ताप \(100^\circ\text{C}\) तथा दूसरे का \(0^\circ\text{C}\)।
+ऊष्मा धारिता ताप बढ़ने के साथ बढ़ती है (\(\frac{dC}{dT} > 0\))। कोई ऊष्मा हानि नहीं होती।</p>
+
+<p><strong>चरण 2: अवधारणाएँ और चिन्ह परिपाटी</strong><br/>
+अंतिम उभयनिष्ठ ताप \(T_f\) है। गर्म पिंड द्वारा दी गई ऊष्मा = ठंडे पिंड द्वारा ली गई ऊष्मा।</p>
+
+<p><strong>चरण 3: संबंधित सूत्र और सिद्धांत</strong><br/>
+ऊष्मा विनिमय:
+\(\int_{T_f}^{100} C(T) \, dT = \int_{0}^{T_f} C(T) \, dT\)</p>
+
+<p><strong>चरण 4: चरण-दर-चरण गणना</strong><br/>
+चूँकि ऊष्मा धारिता उच्च ताप पर अधिक होती है, अतः \(50^\circ\text{C}\) से \(100^\circ\text{C}\) के परास में \(C(T)\) का औसत मान \(0^\circ\text{C}\) से \(50^\circ\text{C}\) के परास की तुलना में अधिक है।
+यदि अंतिम ताप \(50^\circ\text{C}\) होता, तो दी गई ऊष्मा ली गई ऊष्मा से अधिक हो जाती।
+ऊष्मा संतुलन बनाए रखने के लिए, उच्च ताप वाले पिंड का तापांतर कम तथा निम्न ताप वाले पिंड का तापांतर अधिक होना चाहिए।
+अतः अंतिम ताप \(50^\circ\text{C}\) से अधिक होगा।</p>
+
+<p><strong>चरण 5: जाँच और अंतिम उत्तर</strong><br/>
+अंतिम उभयनिष्ठ ताप \(50^\circ\text{C}\) से अधिक होगा।</p>
+    ]]></text>
+  </generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(50^\circ\text{C}\)</p>]]></text>
+  </answer>
+  <answer fraction="100" format="html">
+    <text><![CDATA[<p>more than \(50^\circ\text{C}\)</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>less than \(50^\circ\text{C}\) but greater than \(0^\circ\text{C}\)</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(0^\circ\text{C}\)</p>]]></text>
+  </answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>year:2016</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:hi</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>class:11</text></tag>
+    <tag><text>topic:calorimetry</text></tag>
+    <tag><text>chapter:thermal_properties_of_matter</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:medium</text></tag>
+    <tag><text>blooms:analyze</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:text</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+<question type="multichoice">
+  <name><text>NEET_UG_PHYSICS_2016_MCQ_Q16 - Temperature of body after cooling interval</text></name>
+  <questiontext format="html">
+    <text><![CDATA[
+<p>A body cools from a temperature \(3T\) to \(2T\) in \(10\text{ minutes}\). The room temperature is \(T\). Assume that Newton's law of cooling is applicable. The temperature of the body at the end of next \(10\text{ minutes}\) will be</p>
+<hr/>
+<p>न्यूटन के शीतलन नियम का पालन करते हुए एक पिंड \(10\text{ मिनट}\) में ताप \(3T\) से \(2T\) तक ठंडा होता है। कमरे का ताप \(T\) है। अगले \(10\text{ मिनट}\) के अंत में पिंड का ताप होगा</p>
+    ]]></text>
+  </questiontext>
+  <generalfeedback format="html">
+    <text><![CDATA[
+<p><strong>Step 1: Given Data and Conditions</strong><br/>
+Surrounding (room) temperature: \(T_0 = T\)
+Initial temperature: \(T(0) = 3T\)
+Temperature after \(t = 10\text{ min}\): \(T(10) = 2T\)
+We need to find the temperature at \(t = 20\text{ min}\), denoted as \(T(20)\).</p>
+
+<p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>
+Newton's law of cooling applies in its exact exponential decay form:
+\(\frac{dT}{dt} = -k(T - T_0)\), where \(k\) is a positive cooling constant.</p>
+
+<p><strong>Step 3: Relevant Formulae and Principles</strong><br/>
+Integrating Newton's law of cooling gives:
+\(T(t) - T_0 = (T_{\text{initial}} - T_0) e^{-kt}\)</p>
+
+<p><strong>Step 4: Step-by-Step Working</strong><br/>
+For the first \(10\text{ minutes}\) (\(t = 0\) to \(t = 10\)):
+\(T(10) - T = (3T - T) e^{-10k}\)
+\(2T - T = 2T e^{-10k}\)
+\(T = 2T e^{-10k} \implies e^{-10k} = \frac{1}{2}\)
+
+For the next \(10\text{ minutes}\) (\(t = 20\text{ min}\)):
+\(T(20) - T = (3T - T) e^{-20k} = 2T \left(e^{-10k}\right)^2\)
+Substitute \(e^{-10k} = \frac{1}{2}\):
+\(T(20) - T = 2T \left(\frac{1}{2}\right)^2 = 2T \left(\frac{1}{4}\right) = \frac{T}{2}\)
+\(T(20) = T + \frac{T}{2} = \frac{3}{2}T\)</p>
+
+<p><strong>Step 5: Check and Final Answer</strong><br/>
+In each equal time interval of \(10\text{ minutes}\), the temperature excess above the room temperature reduces by a factor of \(2\).
+Initial excess: \(3T - T = 2T\).
+Excess after 10 min: \(\frac{2T}{2} = T\), giving temperature \(T + T = 2T\).
+Excess after 20 min: \(\frac{T}{2}\), giving temperature \(T + \frac{T}{2} = \frac{3}{2}T\).
+The temperature at the end of the next 10 minutes will be \(\frac{3}{2}T\).</p>
+<hr/>
+<p><strong>चरण 1: दिए गए आँकड़े और शर्तें</strong><br/>
+परिवेश का ताप: \(T_0 = T\)
+प्रारंभिक ताप (\(t = 0\)): \(3T\)
+\(10\text{ मिनट}\) बाद ताप: \(2T\)
+अगले \(10\text{ मिनट}\) बाद (\(t = 20\text{ मिनट}\)) ताप ज्ञात करना है।</p>
+
+<p><strong>चरण 2: अवधारणाएँ और चिन्ह परिपाटी</strong><br/>
+न्यूटन के शीतलन नियम के अनुसार, ताप आधिक्य का चरघातांकी क्षय होता है।</p>
+
+<p><strong>चरण 3: संबंधित सूत्र और सिद्धांत</strong><br/>
+\(T(t) - T_0 = (T_{\text{initial}} - T_0)e^{-kt}\)</p>
+
+<p><strong>चरण 4: चरण-दर-चरण गणना</strong><br/>
+प्रथम \(10\text{ मिनट}\) के लिए:
+\(2T - T = (3T - T)e^{-10k} \implies T = 2T e^{-10k} \implies e^{-10k} = \frac{1}{2}\)
+
+कुल \(20\text{ मिनट}\) के लिए:
+\(T(20) - T = 2T (e^{-10k})^2 = 2T \left(\frac{1}{2}\right)^2 = \frac{T}{2}\)
+\(T(20) = T + \frac{T}{2} = \frac{3}{2}T\)</p>
+
+<p><strong>चरण 5: जाँच और अंतिम उत्तर</strong><br/>
+प्रत्येक \(10\text{ मिनट}\) में ताप आधिक्य आधा हो जाता है।
+अतः अगले \(10\text{ मिनट}\) बाद ताप \(\frac{3}{2}T\) होगा।</p>
+    ]]></text>
+  </generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(\frac{7}{4}T\)</p>]]></text>
+  </answer>
+  <answer fraction="100" format="html">
+    <text><![CDATA[<p>\(\frac{3}{2}T\)</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(\frac{4}{3}T\)</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(T\)</p>]]></text>
+  </answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>year:2016</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:hi</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>class:11</text></tag>
+    <tag><text>topic:newtons_law_of_cooling</text></tag>
+    <tag><text>chapter:thermal_properties_of_matter</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:easy</text></tag>
+    <tag><text>blooms:apply</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:text</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+<question type="multichoice">
+  <name><text>NEET_UG_PHYSICS_2016_MCQ_Q17 - Molar heat capacity in polytropic process</text></name>
+  <questiontext format="html">
+    <text><![CDATA[
+<p>One mole of an ideal monatomic gas undergoes a process described by the equation \(pV^3 = \text{constant}\). The heat capacity of the gas during this process is</p>
+<hr/>
+<p>एक आदर्श एकपरमाणुक गैस का एक मोल समीकरण \(pV^3 = \text{constant}\) द्वारा वर्णित प्रक्रम से गुजरता है। इस प्रक्रम के दौरान गैस की ऊष्मा धारिता है</p>
+    ]]></text>
+  </questiontext>
+  <generalfeedback format="html">
+    <text><![CDATA[
+<p><strong>Step 1: Given Data and Conditions</strong><br/>
+Number of moles of gas: \(n = 1\)
+Gas type: Ideal monatomic gas
+Polytropic process equation: \(p V^x = \text{constant}\), with polytropic index \(x = 3\).</p>
+
+<p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>
+The gas behaves ideally. For a monatomic ideal gas, the molar heat capacity at constant volume is \(C_v = \frac{3}{2}R\).</p>
+
+<p><strong>Step 3: Relevant Formulae and Principles</strong><br/>
+The molar heat capacity \(C\) of an ideal gas in a polytropic process \(p V^x = \text{constant}\) is given by:
+\(C = C_v + \frac{R}{1 - x}\)</p>
+
+<p><strong>Step 4: Step-by-Step Working</strong><br/>
+Substitute \(C_v = \frac{3}{2}R\) and \(x = 3\):
+\(C = \frac{3}{2}R + \frac{R}{1 - 3}\)
+\(C = \frac{3}{2}R + \frac{R}{-2}\)
+\(C = \frac{3}{2}R - \frac{1}{2}R = R\)</p>
+
+<p><strong>Step 5: Check and Final Answer</strong><br/>
+Since the number of moles is \(n = 1\), the heat capacity equals the molar heat capacity \(C = R\).
+The heat capacity of the gas during this process is \(R\).</p>
+<hr/>
+<p><strong>चरण 1: दिए गए आँकड़े और शर्तें</strong><br/>
+मोलों की संख्या: \(n = 1\)
+गैस: आदर्श एकपरमाणुक गैस
+प्रक्रम का समीकरण: \(pV^3 = \text{constant}\), जहाँ बहुदैशिक सूचकांक \(x = 3\) है।</p>
+
+<p><strong>चरण 2: अवधारणाएँ और चिन्ह परिपाटी</strong><br/>
+एकपरमाणुक गैस के लिए नियत आयतन पर मोलर ऊष्मा धारिता \(C_v = \frac{3}{2}R\) होती है।</p>
+
+<p><strong>चरण 3: संबंधित सूत्र और सिद्धांत</strong><br/>
+बहुदैशिक प्रक्रम \(pV^x = \text{constant}\) के लिए मोलर ऊष्मा धारिता:
+\(C = C_v + \frac{R}{1 - x}\)</p>
+
+<p><strong>चरण 4: चरण-दर-चरण गणना</strong><br/>
+मान रखने पर:
+\(C = \frac{3}{2}R + \frac{R}{1 - 3} = \frac{3}{2}R - \frac{R}{2} = R\)</p>
+
+<p><strong>चरण 5: जाँच और अंतिम उत्तर</strong><br/>
+इस प्रक्रम के दौरान गैस की ऊष्मा धारिता \(R\) है।</p>
+    ]]></text>
+  </generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(\frac{3}{2}R\)</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(\frac{5}{2}R\)</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(2R\)</p>]]></text>
+  </answer>
+  <answer fraction="100" format="html">
+    <text><![CDATA[<p>\(R\)</p>]]></text>
+  </answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>year:2016</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:hi</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>class:11</text></tag>
+    <tag><text>topic:polytropic_process</text></tag>
+    <tag><text>chapter:thermodynamics</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:easy</text></tag>
+    <tag><text>blooms:apply</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:text</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+<question type="multichoice">
+  <name><text>NEET_UG_PHYSICS_2016_MCQ_Q18 - Heat delivered to room by refrigerator</text></name>
+  <questiontext format="html">
+    <text><![CDATA[
+<p>The temperature inside a refrigerator is \(t_2^\circ\text{C}\) and the room temperature is \(t_1^\circ\text{C}\). The amount of heat delivered to the room for each joule of electrical energy consumed ideally will be</p>
+<hr/>
+<p>एक रेफ्रिजरेटर के अंदर का ताप \(t_2^\circ\text{C}\) तथा कमरे का ताप \(t_1^\circ\text{C}\) है। आदर्श रूप से उपभुक्त प्रत्येक जूल विद्युत ऊर्जा के लिए कमरे को दी गई ऊष्मा की मात्रा होगी</p>
+    ]]></text>
+  </questiontext>
+  <generalfeedback format="html">
+    <text><![CDATA[
+<p><strong>Step 1: Given Data and Conditions</strong><br/>
+Cold reservoir temperature (inside refrigerator): \(T_2 = (t_2 + 273)\text{ K}\)
+Hot reservoir temperature (room): \(T_1 = (t_1 + 273)\text{ K}\)
+Work done (electrical energy consumed): \(W = 1\text{ J}\)</p>
+
+<p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>
+The refrigerator operates as an ideal Carnot refrigerator.
+\(Q_2\) is the heat extracted from the interior (cold reservoir).
+\(Q_1\) is the heat rejected/delivered to the room (hot reservoir).
+By the first law of thermodynamics, \(Q_1 = Q_2 + W\).</p>
+
+<p><strong>Step 3: Relevant Formulae and Principles</strong><br/>
+For a Carnot cycle operating between temperatures \(T_1\) and \(T_2\):
+\(\frac{Q_1}{Q_2} = \frac{T_1}{T_2}\)
+Since \(W = Q_1 - Q_2\):
+\(\frac{Q_1}{W} = \frac{Q_1}{Q_1 - Q_2} = \frac{T_1}{T_1 - T_2}\)</p>
+
+<p><strong>Step 4: Step-by-Step Working</strong><br/>
+Substitute the absolute temperatures into the expression:
+\(T_1 = t_1 + 273\)
+\(T_1 - T_2 = (t_1 + 273) - (t_2 + 273) = t_1 - t_2\)
+
+Therefore, the heat delivered to the room per unit work done is:
+\(\frac{Q_1}{W} = \frac{t_1 + 273}{t_1 - t_2}\)
+For \(W = 1\text{ J}\):
+\(Q_1 = \frac{t_1 + 273}{t_1 - t_2}\text{ J}\)</p>
+
+<p><strong>Step 5: Check and Final Answer</strong><br/>
+The coefficient of performance is \(\beta = \frac{Q_2}{W} = \frac{T_2}{T_1 - T_2}\).
+The heat delivered to the hot reservoir per unit work is \(1 + \beta = 1 + \frac{T_2}{T_1 - T_2} = \frac{T_1}{T_1 - T_2} = \frac{t_1 + 273}{t_1 - t_2}\).
+The amount of heat delivered to the room is \(\frac{t_1 + 273}{t_1 - t_2}\).</p>
+<hr/>
+<p><strong>चरण 1: दिए गए आँकड़े और शर्तें</strong><br/>
+रेफ्रिजरेटर के अंदर का ताप (ठंडा स्रोत): \(T_2 = (t_2 + 273)\text{ K}\)
+कमरे का ताप (गर्म स्रोत): \(T_1 = (t_1 + 273)\text{ K}\)
+उपभुक्त कार्य: \(W = 1\text{ J}\)</p>
+
+<p><strong>चरण 2: अवधारणाएँ और चिन्ह परिपाटी</strong><br/>
+रेफ्रिजरेटर को आदर्श कार्नो चक्र पर आधारित माना गया है। कमरे को दी गई ऊष्मा \(Q_1 = Q_2 + W\) है।</p>
+
+<p><strong>चरण 3: संबंधित सूत्र और सिद्धांत</strong><br/>
+कार्नो चक्र के लिए:
+\(\frac{Q_1}{W} = \frac{T_1}{T_1 - T_2}\)</p>
+
+<p><strong>चरण 4: चरण-दर-चरण गणना</strong><br/>
+परम ताप के मान रखने पर:
+\(T_1 = t_1 + 273\)
+\(T_1 - T_2 = t_1 - t_2\)
+अतः प्रति जूल कार्य पर कमरे को दी गई ऊष्मा:
+\(Q_1 = \frac{t_1 + 273}{t_1 - t_2}\)</p>
+
+<p><strong>चरण 5: जाँच और अंतिम उत्तर</strong><br/>
+कमरे को दी गई अभीष्ट ऊष्मा \(\frac{t_1 + 273}{t_1 - t_2}\) है।</p>
+    ]]></text>
+  </generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(\frac{t_1}{t_1 - t_2}\)</p>]]></text>
+  </answer>
+  <answer fraction="100" format="html">
+    <text><![CDATA[<p>\(\frac{t_1 + 273}{t_1 - t_2}\)</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(\frac{t_2 + 273}{t_1 - t_2}\)</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(\frac{t_1 + t_2}{t_1 + 273}\)</p>]]></text>
+  </answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>year:2016</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:hi</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>class:11</text></tag>
+    <tag><text>topic:refrigerator_and_heat_pump</text></tag>
+    <tag><text>chapter:thermodynamics</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:easy</text></tag>
+    <tag><text>blooms:apply</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:text</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+<question type="multichoice">
+  <name><text>NEET_UG_PHYSICS_2016_MCQ_Q19 - Density of ideal gas from state variables</text></name>
+  <questiontext format="html">
+    <text><![CDATA[
+<p>A given sample of an ideal gas occupies a volume \(V\) at a pressure \(p\) and absolute temperature \(T\). The mass of each molecule of the gas is \(m\). Which of the following gives the density of the gas?</p>
+<hr/>
+<p>एक आदर्श गैस का एक दिया गया नमूना दाब \(p\) तथा परम ताप \(T\) पर आयतन \(V\) घेरता है। गैस के प्रत्येक अणु का द्रव्यमान \(m\) है। निम्नलिखित में से कौन गैस का घनत्व दर्शाता है?</p>
+    ]]></text>
+  </questiontext>
+  <generalfeedback format="html">
+    <text><![CDATA[
+<p><strong>Step 1: Given Data and Conditions</strong><br/>
+Pressure: \(p\)
+Volume: \(V\)
+Absolute temperature: \(T\)
+Mass of a single molecule: \(m\)
+Boltzmann constant: \(k\)</p>
+
+<p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>
+The gas satisfies the ideal gas law: \(p V = N k T\), where \(N\) is the total number of molecules.
+Density \(\rho\) is defined as total mass per unit volume: \(\rho = \frac{M_{\text{total}}}{V}\).</p>
+
+<p><strong>Step 3: Relevant Formulae and Principles</strong><br/>
+Total mass of the gas:
+\(M_{\text{total}} = N m\)
+From the ideal gas equation:
+\(N = \frac{p V}{k T}\)</p>
+
+<p><strong>Step 4: Step-by-Step Working</strong><br/>
+Substitute \(N\) into the expression for total mass:
+\(M_{\text{total}} = \left(\frac{p V}{k T}\right) m\)
+
+Calculate density \(\rho\):
+\(\rho = \frac{M_{\text{total}}}{V} = \frac{\frac{p V m}{k T}}{V} = \frac{p m}{k T}\)</p>
+
+<p><strong>Step 5: Check and Final Answer</strong><br/>
+Dimensions of \(\frac{pm}{kT}\):
+\([p] = [\text{M}\text{L}^{-1}\text{T}^{-2}]\), \([m] = [\text{M}]\), \([kT] = [\text{M}\text{L}^2\text{T}^{-2}]\).
+\(\left[\frac{pm}{kT}\right] = \frac{[\text{M}\text{L}^{-1}\text{T}^{-2}][\text{M}]}{[\text{M}\text{L}^2\text{T}^{-2}]} = [\text{M}\text{L}^{-3}]\), which is precisely the dimension of density.
+The density of the gas is \(\frac{pm}{kT}\).</p>
+<hr/>
+<p><strong>चरण 1: दिए गए आँकड़े और शर्तें</strong><br/>
+दाब: \(p\), आयतन: \(V\), परम ताप: \(T\)
+प्रत्येक अणु का द्रव्यमान: \(m\)
+बोल्ट्ज़मान नियतांक: \(k\)</p>
+
+<p><strong>चरण 2: अवधारणाएँ और चिन्ह परिपाटी</strong><br/>
+आदर्श गैस समीकरण: \(pV = NkT\), जहाँ \(N\) कुल अणुओं की संख्या है। घनत्व \(\rho = \frac{M_{\text{total}}}{V}\) होता है।</p>
+
+<p><strong>चरण 3: संबंधित सूत्र और सिद्धांत</strong><br/>
+कुल अणुओं की संख्या: \(N = \frac{pV}{kT}\)
+गैस का कुल द्रव्यमान: \(M_{\text{total}} = N \cdot m\)</p>
+
+<p><strong>चरण 4: चरण-दर-चरण गणना</strong><br/>
+कुल द्रव्यमान:
+\(M_{\text{total}} = \frac{pVm}{kT}\)
+
+घनत्व:
+\(\rho = \frac{M_{\text{total}}}{V} = \frac{pm}{kT}\)</p>
+
+<p><strong>चरण 5: जाँच और अंतिम उत्तर</strong><br/>
+विमीय रूप से यह घनत्व \([\text{M}\text{L}^{-3}]\) के संगत है।
+अतः गैस का घनत्व \(\frac{pm}{kT}\) है।</p>
+    ]]></text>
+  </generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(\frac{p}{(kT)}\)</p>]]></text>
+  </answer>
+  <answer fraction="100" format="html">
+    <text><![CDATA[<p>\(\frac{pm}{(kT)}\)</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(\frac{p}{(kTV)}\)</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(mkT\)</p>]]></text>
+  </answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>year:2016</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:hi</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>class:11</text></tag>
+    <tag><text>topic:ideal_gas_equation</text></tag>
+    <tag><text>chapter:kinetic_theory</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:easy</text></tag>
+    <tag><text>blooms:understand</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:text</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+<question type="multichoice">
+  <name><text>NEET_UG_PHYSICS_2016_MCQ_Q20 - Mass of body on oscillating spring</text></name>
+  <questiontext format="html">
+    <text><![CDATA[
+<p>A body of mass \(m\) is attached to the lower end of a spring whose upper end is fixed. The spring has negligible mass. When the mass \(m\) is slightly pulled down and released, it oscillates with a time period of \(3\text{ s}\). When the mass \(m\) is increased by \(1\text{ kg}\), the time period of oscillations becomes \(5\text{ s}\). The value of \(m\) in \(\text{kg}\) is</p>
+<hr/>
+<p>द्रव्यमान \(m\) का एक पिंड एक ऐसी स्प्रिंग के निचले सिरे से जुड़ा है जिसका ऊपरी सिरा स्थिर है। स्प्रिंग का द्रव्यमान नगण्य है। जब द्रव्यमान \(m\) को थोड़ा नीचे खींचकर छोड़ दिया जाता है, तो यह \(3\text{ s}\) के आवर्तकाल से दोलन करता है। जब द्रव्यमान \(m\) में \(1\text{ kg}\) की वृद्धि की जाती है, तो दोलन का आवर्तकाल \(5\text{ s}\) हो जाता है। \(m\) का मान \(\text{kg}\) में है</p>
+    ]]></text>
+  </questiontext>
+  <generalfeedback format="html">
+    <text><![CDATA[
+<p><strong>Step 1: Given Data and Conditions</strong><br/>
+Initial mass: \(m_1 = m\)
+Initial time period: \(T_1 = 3\text{ s}\)
+New mass: \(m_2 = m + 1\text{ kg}\)
+New time period: \(T_2 = 5\text{ s}\)
+Spring constant: \(k\) (constant)</p>
+
+<p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>
+The motion is simple harmonic motion (SHM) of an ideal spring-mass system with a massless spring.</p>
+
+<p><strong>Step 3: Relevant Formulae and Principles</strong><br/>
+The time period of oscillation of a spring-mass system is:
+\(T = 2\pi \sqrt{\frac{m}{k}}\)
+Taking the ratio of time periods for two masses:
+\(\frac{T_2}{T_1} = \sqrt{\frac{m_2}{m_1}} = \sqrt{\frac{m + 1}{m}}\)</p>
+
+<p><strong>Step 4: Step-by-Step Working</strong><br/>
+Substitute the given time periods into the ratio:
+\(\frac{5}{3} = \sqrt{\frac{m + 1}{m}}\)
+
+Square both sides:
+\(\frac{25}{9} = \frac{m + 1}{m} = 1 + \frac{1}{m}\)
+
+Solve for \(m\):
+\(\frac{1}{m} = \frac{25}{9} - 1 = \frac{16}{9}\)
+\(m = \frac{9}{16}\text{ kg}\)</p>
+
+<p><strong>Step 5: Check and Final Answer</strong><br/>
+Check:
+If \(m = \frac{9}{16}\text{ kg}\), then \(m + 1 = \frac{25}{16}\text{ kg}\).
+Ratio of time periods: \(\sqrt{\frac{25/16}{9/16}} = \sqrt{\frac{25}{9}} = \frac{5}{3}\), which exactly matches the ratio \(5\text{ s} / 3\text{ s}\).
+The value of \(m\) is \(\frac{9}{16}\text{ kg}\).</p>
+<hr/>
+<p><strong>चरण 1: दिए गए आँकड़े और शर्तें</strong><br/>
+प्रारंभिक द्रव्यमान: \(m_1 = m\), आवर्तकाल: \(T_1 = 3\text{ s}\)
+परिवर्तित द्रव्यमान: \(m_2 = m + 1\text{ kg}\), आवर्तकाल: \(T_2 = 5\text{ s}\)
+स्प्रिंग नियतांक: \(k\)</p>
+
+<p><strong>चरण 2: अवधारणाएँ और चिन्ह परिपाटी</strong><br/>
+निकाय सरल आवर्त गति करता है तथा स्प्रिंग द्रव्यमानहीन है।</p>
+
+<p><strong>चरण 3: संबंधित सूत्र और सिद्धांत</strong><br/>
+स्प्रिंग-द्रव्यमान निकाय का आवर्तकाल:
+\(T = 2\pi\sqrt{\frac{m}{k}} \implies \frac{T_2}{T_1} = \sqrt{\frac{m+1}{m}}\)</p>
+
+<p><strong>चरण 4: चरण-दर-चरण गणना</strong><br/>
+मान रखने पर:
+\(\frac{5}{3} = \sqrt{\frac{m+1}{m}}\)
+दोनों पक्षों का वर्ग करने पर:
+\(\frac{25}{9} = 1 + \frac{1}{m}\)
+\(\frac{1}{m} = \frac{25}{9} - 1 = \frac{16}{9} \implies m = \frac{9}{16}\text{ kg}\)</p>
+
+<p><strong>चरण 5: जाँच और अंतिम उत्तर</strong><br/>
+\(m\) का मान \(\frac{9}{16}\text{ kg}\) है।</p>
+    ]]></text>
+  </generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(\frac{3}{4}\)</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(\frac{4}{3}\)</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(\frac{16}{9}\)</p>]]></text>
+  </answer>
+  <answer fraction="100" format="html">
+    <text><![CDATA[<p>\(\frac{9}{16}\)</p>]]></text>
+  </answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>year:2016</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:hi</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>class:11</text></tag>
+    <tag><text>topic:spring_mass_system</text></tag>
+    <tag><text>chapter:oscillations</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:easy</text></tag>
+    <tag><text>blooms:apply</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:text</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+<question type="multichoice">
+  <name><text>NEET_UG_PHYSICS_2016_MCQ_Q21 - Length of open organ pipe for resonance</text></name>
+  <questiontext format="html">
+    <text><![CDATA[
+<p>The second overtone of an open organ pipe has the same frequency as the first overtone of a closed pipe \(L\text{ meter}\) long. The length of the open pipe will be</p>
+<hr/>
+<p>एक खुले आर्गन पाइप के द्वितीय अधिस्वरक की आवृत्ति, \(L\text{ मीटर}\) लम्बे बंद पाइप के प्रथम अधिस्वरक की आवृत्ति के समान है। खुले पाइप की लम्बाई होगी</p>
+    ]]></text>
+  </questiontext>
+  <generalfeedback format="html">
+    <text><![CDATA[
+<p><strong>Step 1: Given Data and Conditions</strong><br/>
+Length of closed organ pipe: \(L_c = L\)
+Length of open organ pipe: \(L_o\)
+Speed of sound in air: \(v\) (same in both pipes)
+Condition: Frequency of the second overtone of the open pipe equals the frequency of the first overtone of the closed pipe.</p>
+
+<p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>
+Ignore end corrections. Both pipes are operated under identical atmospheric conditions.</p>
+
+<p><strong>Step 3: Relevant Formulae and Principles</strong><br/>
+For a closed organ pipe (one end closed, one end open):
+Fundamental frequency: \(f_1 = \frac{v}{4L}\)
+Only odd harmonics exist: \(f_n = (2n - 1)\frac{v}{4L}\)
+The first overtone corresponds to the 3rd harmonic (\(n = 2\)):
+\(f_{\text{closed, 1st overtone}} = \frac{3v}{4L}\)
+
+For an open organ pipe (both ends open):
+Fundamental frequency: \(f_1 = \frac{v}{2L_o}\)
+All harmonics exist: \(f_n = n \frac{v}{2L_o}\)
+The second overtone corresponds to the 3rd harmonic (\(n = 3\)):
+\(f_{\text{open, 2nd overtone}} = \frac{3v}{2L_o}\)</p>
+
+<p><strong>Step 4: Step-by-Step Working</strong><br/>
+Equate the two overtone frequencies:
+\(f_{\text{open, 2nd overtone}} = f_{\text{closed, 1st overtone}}\)
+\(\frac{3v}{2L_o} = \frac{3v}{4L}\)
+
+Cancel \(3v\) from both sides:
+\(\frac{1}{2L_o} = \frac{1}{4L}\)
+\(2L_o = 4L \implies L_o = 2L\)</p>
+
+<p><strong>Step 5: Check and Final Answer</strong><br/>
+Substituting \(L_o = 2L\):
+\(f_{\text{open, 2nd overtone}} = \frac{3v}{2(2L)} = \frac{3v}{4L}\), which matches the first overtone of the closed pipe of length \(L\).
+The length of the open pipe is \(2L\).</p>
+<hr/>
+<p><strong>चरण 1: दिए गए आँकड़े और शर्तें</strong><br/>
+बंद पाइप की लम्बाई: \(L_c = L\)
+खुले पाइप की लम्बाई: \(L_o\)
+ध्वनि की चाल: \(v\)
+शर्त: खुले पाइप का द्वितीय अधिस्वरक = बंद पाइप का प्रथम अधिस्वरक।</p>
+
+<p><strong>चरण 2: अवधारणाएँ और चिन्ह परिपाटी</strong><br/>
+सिरा संशोधन को नगण्य माना गया है।</p>
+
+<p><strong>चरण 3: संबंधित सूत्र और सिद्धांत</strong><br/>
+बंद आर्गन पाइप के लिए:
+प्रथम अधिस्वरक (तीसरा संनादी) = \(3\left(\frac{v}{4L}\right) = \frac{3v}{4L}\)
+
+खुले आर्गन पाइप के लिए:
+द्वितीय अधिस्वरक (तीसरा संनादी) = \(3\left(\frac{v}{2L_o}\right) = \frac{3v}{2L_o}\)</p>
+
+<p><strong>चरण 4: चरण-दर-चरण गणना</strong><br/>
+दोनों आवृत्तियों को बराबर रखने पर:
+\(\frac{3v}{2L_o} = \frac{3v}{4L}\)
+\(\frac{1}{2L_o} = \frac{1}{4L} \implies 2L_o = 4L \implies L_o = 2L\)</p>
+
+<p><strong>चरण 5: जाँच और अंतिम उत्तर</strong><br/>
+खुले आर्गन पाइप की अभीष्ट लम्बाई \(2L\) है।</p>
+    ]]></text>
+  </generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(L\)</p>]]></text>
+  </answer>
+  <answer fraction="100" format="html">
+    <text><![CDATA[<p>\(2L\)</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(\frac{L}{2}\)</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(4L\)</p>]]></text>
+  </answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>year:2016</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:hi</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>class:11</text></tag>
+    <tag><text>topic:organ_pipes_and_resonance</text></tag>
+    <tag><text>chapter:waves</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:easy</text></tag>
+    <tag><text>blooms:apply</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:text</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+<question type="multichoice">
+  <name><text>NEET_UG_PHYSICS_2016_MCQ_Q22 - Number of beats from three sound waves</text></name>
+  <questiontext format="html">
+    <text><![CDATA[
+<p>Three sound waves of equal amplitudes have frequencies \((n - 1)\), \(n\), and \((n + 1)\). They superimpose to give beats. The number of beats produced per second will be</p>
+<hr/>
+<p>समान आयाम वाली तीन ध्वनि तरंगों की आवृत्तियाँ \((n - 1)\), \(n\), तथा \((n + 1)\) हैं। उनके अध्यारोपण से विस्पंद उत्पन्न होते हैं। प्रति सेकंड उत्पन्न विस्पंदों की संख्या होगी</p>
+    ]]></text>
+  </questiontext>
+  <generalfeedback format="html">
+    <text><![CDATA[
+<p><strong>Step 1: Given Data and Conditions</strong><br/>
+Three sound waves have equal amplitude \(A\).
+Frequencies: \(f_1 = n - 1\), \(f_2 = n\), \(f_3 = n + 1\).</p>
+
+<p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>
+The waves travel in the same direction and superimpose linearly at a given observation point in space:
+\(y(t) = y_1(t) + y_2(t) + y_3(t)\).</p>
+
+<p><strong>Step 3: Relevant Formulae and Principles</strong><br/>
+Representing each wave by a sinusoidal function:
+\(y_1 = A \sin[2\pi (n-1) t]\)
+\(y_2 = A \sin(2\pi n t)\)
+\(y_3 = A \sin[2\pi (n+1) t]\)
+Using the sum-to-product trigonometric identity:
+\(\sin[2\pi(n-1)t] + \sin[2\pi(n+1)t] = 2 \sin(2\pi n t) \cos(2\pi t)\)</p>
+
+<p><strong>Step 4: Step-by-Step Working</strong><br/>
+Superposing the three waves:
+\(y = y_2 + (y_1 + y_3) = A \sin(2\pi n t) + 2A \sin(2\pi n t) \cos(2\pi t)\)
+\(y = A [1 + 2\cos(2\pi t)] \sin(2\pi n t)\)
+
+The resultant wave can be viewed as an oscillation of carrier frequency \(n\) with a time-varying amplitude:
+\(R(t) = A [1 + 2\cos(2\pi t)]\)
+The intensity of sound is proportional to the square of the amplitude:
+\(I(t) \propto R(t)^2 = A^2 [1 + 2\cos(2\pi t)]^2\)
+Maximal intensity occurs when \(\cos(2\pi t) = 1\), giving maximum amplitude \(3A\).
+In addition, the maximum frequency difference between the interfering components is:
+\(\Delta f_{\text{max}} = (n + 1) - (n - 1) = 2\)
+Hence, two beats are produced per second.</p>
+
+<p><strong>Step 5: Check and Final Answer</strong><br/>
+The envelope oscillates with extreme frequency difference \((n + 1) - (n - 1) = 2\text{ Hz}\).
+Therefore, the number of beats produced per second is \(2\).</p>
+<hr/>
+<p><strong>चरण 1: दिए गए आँकड़े और शर्तें</strong><br/>
+तीन ध्वनि तरंगों का आयाम समान (\(A\)) है।
+आवृत्तियाँ: \(f_1 = n - 1\), \(f_2 = n\), \(f_3 = n + 1\)।</p>
+
+<p><strong>चरण 2: अवधारणाएँ और चिन्ह परिपाटी</strong><br/>
+तरंगों का अध्यारोपण रैखिक होता है: \(y = y_1 + y_2 + y_3\)।</p>
+
+<p><strong>चरण 3: संबंधित सूत्र और सिद्धांत</strong><br/>
+त्रिकोणमितीय सूत्र:
+\(\sin(A - B) + \sin(A + B) = 2 \sin A \cos B\)</p>
+
+<p><strong>चरण 4: चरण-दर-चरण गणना</strong><br/>
+तरंगों का योग करने पर:
+\(y = A \sin(2\pi n t) + 2A \sin(2\pi n t) \cos(2\pi t) = A [1 + 2\cos(2\pi t)] \sin(2\pi n t)\)
+तरंगों में अधिकतम आवृत्ति अंतर:
+\(\Delta f = (n + 1) - (n - 1) = 2\)
+अतः प्रति सेकंड विस्पंदों की संख्या \(2\) होती है।</p>
+
+<p><strong>चरण 5: जाँच और अंतिम उत्तर</strong><br/>
+प्रति सेकंड उत्पन्न विस्पंदों की संख्या \(2\) है।</p>
+    ]]></text>
+  </generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(1\)</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(4\)</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(3\)</p>]]></text>
+  </answer>
+  <answer fraction="100" format="html">
+    <text><![CDATA[<p>\(2\)</p>]]></text>
+  </answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>year:2016</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:hi</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>class:11</text></tag>
+    <tag><text>topic:beats</text></tag>
+    <tag><text>chapter:waves</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:medium</text></tag>
+    <tag><text>blooms:analyze</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:text</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+<question type="multichoice">
+  <name><text>NEET_UG_PHYSICS_2016_MCQ_Q23 - Charge on electric dipole experiencing torque</text></name>
+  <questiontext format="html">
+    <text><![CDATA[
+<p>An electric dipole is placed at an angle of \(30^\circ\) with an electric field intensity \(2 \times 10^5\text{ N/C}\). It experiences a torque equal to \(4\text{ N m}\). The charge on the dipole, if the dipole length is \(2\text{ cm}\), is</p>
+<hr/>
+<p>एक विद्युत द्विध्रुव \(2 \times 10^5\text{ N/C}\) तीव्रता के विद्युत क्षेत्र से \(30^\circ\) के कोण पर रखा गया है। यह \(4\text{ N m}\) का बल आघूर्ण अनुभव करता है। यदि द्विध्रुव की लम्बाई \(2\text{ cm}\) हो, तो द्विध्रुव पर आवेश है</p>
+    ]]></text>
+  </questiontext>
+  <generalfeedback format="html">
+    <text><![CDATA[
+<p><strong>Step 1: Given Data and Conditions</strong><br/>
+Electric field intensity: \(E = 2 \times 10^5\text{ N/C}\)
+Angle between dipole moment and electric field: \(\theta = 30^\circ\)
+Torque experienced: \(\tau = 4\text{ N m}\)
+Dipole length (separation between charges): \(2a = 2\text{ cm} = 2 \times 10^{-2}\text{ m}\)</p>
+
+<p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>
+The electric field is uniform.
+The dipole consists of two equal and opposite charges \(\pm q\) separated by distance \(2a\).
+The magnitude of the electric dipole moment is \(p = q(2a)\).</p>
+
+<p><strong>Step 3: Relevant Formulae and Principles</strong><br/>
+The torque experienced by an electric dipole in a uniform electric field is:
+\(\tau = p E \sin\theta = q (2a) E \sin\theta\)
+Rearranging to solve for charge \(q\):
+\(q = \frac{\tau}{(2a) E \sin\theta}\)</p>
+
+<p><strong>Step 4: Step-by-Step Working</strong><br/>
+Substitute the given numerical values:
+\(q = \frac{4}{(2 \times 10^{-2}\text{ m}) \times (2 \times 10^5\text{ N/C}) \times \sin 30^\circ}\)
+Since \(\sin 30^\circ = \frac{1}{2}\):
+\(q = \frac{4}{(4 \times 10^3) \times \frac{1}{2}} = \frac{4}{2 \times 10^3} = 2 \times 10^{-3}\text{ C} = 2\text{ mC}\)</p>
+
+<p><strong>Step 5: Check and Final Answer</strong><br/>
+Check: \(\tau = (2 \times 10^{-3} \times 0.02) \times (2 \times 10^5) \times 0.5 = (4 \times 10^{-5}) \times 10^5 = 4\text{ N m}\). The calculation is fully consistent.
+The charge on the dipole is \(2\text{ mC}\).</p>
+<hr/>
+<p><strong>चरण 1: दिए गए आँकड़े और शर्तें</strong><br/>
+विद्युत क्षेत्र की तीव्रता: \(E = 2 \times 10^5\text{ N/C}\)
+कोण: \(\theta = 30^\circ\)
+बल आघूर्ण: \(\tau = 4\text{ N m}\)
+द्विध्रुव की लम्बाई: \(2a = 2\text{ cm} = 2 \times 10^{-2}\text{ m}\)</p>
+
+<p><strong>चरण 2: अवधारणाएँ और चिन्ह परिपाटी</strong><br/>
+विद्युत क्षेत्र एकसमान है। द्विध्रुव आघूर्ण \(p = q(2a)\) होता है।</p>
+
+<p><strong>चरण 3: संबंधित सूत्र और सिद्धांत</strong><br/>
+बल आघूर्ण का सूत्र:
+\(\tau = p E \sin\theta = q(2a)E\sin\theta \implies q = \frac{\tau}{(2a)E\sin\theta}\)</p>
+
+<p><strong>चरण 4: चरण-दर-चरण गणना</strong><br/>
+मान रखने पर:
+\(q = \frac{4}{(2 \times 10^{-2}) \times (2 \times 10^5) \times \sin 30^\circ}\)
+\(\sin 30^\circ = \frac{1}{2}\) रखने पर:
+\(q = \frac{4}{2 \times 10^3} = 2 \times 10^{-3}\text{ C} = 2\text{ mC}\)</p>
+
+<p><strong>चरण 5: जाँच और अंतिम उत्तर</strong><br/>
+द्विध्रुव पर आवेश का मान \(2\text{ mC}\) है।</p>
+    ]]></text>
+  </generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(8\text{ mC}\)</p>]]></text>
+  </answer>
+  <answer fraction="100" format="html">
+    <text><![CDATA[<p>\(2\text{ mC}\)</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(5\text{ mC}\)</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(7\text{ mC}\)</p>]]></text>
+  </answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>year:2016</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:hi</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>class:12</text></tag>
+    <tag><text>topic:electric_dipole_in_uniform_field</text></tag>
+    <tag><text>chapter:electric_charges_and_fields</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:easy</text></tag>
+    <tag><text>blooms:apply</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:text</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+</quiz>

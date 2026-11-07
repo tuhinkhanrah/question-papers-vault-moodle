@@ -1,0 +1,623 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+<question type="multichoice">
+  <name><text>NEET_UG_PHYSICS_2017_MCQ_Q01 - Ratio of series to parallel spring constant</text></name>
+  <questiontext format="html">
+    <text><![CDATA[
+<p>A spring of force constant \(k\) is cut into lengths of ratio \(1 : 2 : 3\). They are connected in series and the new force constant is \(k'\). Then they are connected in parallel and force constant is \(k''\). Then \(k' : k''\) is</p>
+<hr/>
+<p>একটি স্প্রিং যার বল ধ্রুবক \(k\), সেটিকে \(1 : 2 : 3\) দৈর্ঘ্যের অনুপাতে কাটা হলো। টুকরোগুলিকে শ্রেণি সমবায়ে যুক্ত করলে নতুন বল ধ্রুবক হয় \(k'\)। এরপর সেগুলিকে সমান্তরাল সমবায়ে যুক্ত করলে বল ধ্রুবক হয় \(k''\)। তাহলে \(k' : k''\) হবে</p>
+    ]]></text>
+  </questiontext>
+  <generalfeedback format="html">
+    <text><![CDATA[
+<p><strong>Step 1: Given Data and Conditions</strong><br/>
+Original spring constant: \(k\)<br/>
+Total initial length: \(L\)<br/>
+Ratio of the cut lengths: \(L_1 : L_2 : L_3 = 1 : 2 : 3\)<br/>
+Equivalent spring constant in series: \(k'\)<br/>
+Equivalent spring constant in parallel: \(k''\)</p>
+<p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>
+The spring is uniform in material and cross-section. The force constant of a piece of spring is inversely proportional to its length (\(k \propto \frac{1}{L}\)).</p>
+<p><strong>Step 3: Relevant Formulae and Principles</strong><br/>
+1. For a uniform spring of constant \(k\) and length \(L\):<br/>
+\[k \cdot L = \text{constant}\]<br/>
+2. For springs connected in series:<br/>
+\[\frac{1}{k_{\text{series}}} = \frac{1}{k_1} + \frac{1}{k_2} + \frac{1}{k_3}\]<br/>
+3. For springs connected in parallel:<br/>
+\[k_{\text{parallel}} = k_1 + k_2 + k_3\]</p>
+<p><strong>Step 4: Step-by-Step Working</strong><br/>
+The lengths of the three cut pieces are:<br/>
+\[L_1 = \frac{1}{1 + 2 + 3}L = \frac{1}{6}L\]<br/>
+\[L_2 = \frac{2}{6}L = \frac{1}{3}L\]<br/>
+\[L_3 = \frac{3}{6}L = \frac{1}{2}L\]<br/>
+Their respective spring constants are:<br/>
+\[k_1 = \frac{L}{L_1}k = 6k\]<br/>
+\[k_2 = \frac{L}{L_2}k = 3k\]<br/>
+\[k_3 = \frac{L}{L_3}k = 2k\]<br/>
+When connected in series, the equivalent spring constant \(k'\) is:<br/>
+\[\frac{1}{k'} = \frac{1}{k_1} + \frac{1}{k_2} + \frac{1}{k_3} = \frac{1}{6k} + \frac{1}{3k} + \frac{1}{2k} = \frac{1 + 2 + 3}{6k} = \frac{6}{6k} = \frac{1}{k} \implies k' = k\]<br/>
+When connected in parallel, the equivalent spring constant \(k''\) is:<br/>
+\[k'' = k_1 + k_2 + k_3 = 6k + 3k + 2k = 11k\]<br/>
+Taking the ratio of the series constant to the parallel constant:<br/>
+\[\frac{k'}{k''} = \frac{k}{11k} = \frac{1}{11}\]</p>
+<p><strong>Step 5: Check and Final Answer</strong><br/>
+Connecting the cut pieces back in series reproduces the original spring length and force constant \(k\). Summing the individual constants in parallel gives \(11k\). Hence, the required ratio is \(1 : 11\).</p>
+<hr/>
+<p><strong>ধাপ ১: প্রদত্ত তথ্য ও শর্তাবলী</strong><br/>
+মূল স্প্রিংটির বল ধ্রুবক: \(k\)<br/>
+প্রাথমিক মোট দৈর্ঘ্য: \(L\)<br/>
+কাটা টুকরোগুলির দৈর্ঘ্যের অনুপাত: \(L_1 : L_2 : L_3 = 1 : 2 : 3\)<br/>
+শ্রেণি সমবায়ে তুল্য বল ধ্রুবক: \(k'\)<br/>
+সমান্তরাল সমবায়ে তুল্য বল ধ্রুবক: \(k''\)</p>
+<p><strong>ধাপ ২: অনুমান ও চিহ্নের নিয়ম</strong><br/>
+স্প্রিংটির উপাদান ও প্রস্থচ্ছেদ সর্বত্র সুষম। একটি সুষম স্প্রিংয়ের বল ধ্রুবক তার দৈর্ঘ্যের ব্যস্তানুপাতিক (\(k \propto \frac{1}{L}\))।</p>
+<p><strong>ধাপ ৩: প্রাসঙ্গিক সূত্র ও নীতি</strong><br/>
+১. \(L\) দৈর্ঘ্যের ও \(k\) বল ধ্রুবকের একটি সুষম স্প্রিংয়ের ক্ষেত্রে:<br/>
+\[k \cdot L = \text{ধ্রুবক}\]<br/>
+২. শ্রেণি সমবায়ে যুক্ত স্প্রিংয়ের ক্ষেত্রে:<br/>
+\[\frac{1}{k_{\text{series}}} = \frac{1}{k_1} + \frac{1}{k_2} + \frac{1}{k_3}\]<br/>
+৩. সমান্তরাল সমবায়ে যুক্ত স্প্রিংয়ের ক্ষেত্রে:<br/>
+\[k_{\text{parallel}} = k_1 + k_2 + k_3\]</p>
+<p><strong>ধাপ ৪: ধাপে ধাপে সমাধান</strong><br/>
+তিনটি টুকরোর দৈর্ঘ্য হলো:<br/>
+\[L_1 = \frac{1}{6}L, \quad L_2 = \frac{2}{6}L = \frac{1}{3}L, \quad L_3 = \frac{3}{6}L = \frac{1}{2}L\]<br/>
+তাদের নিজ নিজ বল ধ্রুবক হলো:<br/>
+\[k_1 = 6k, \quad k_2 = 3k, \quad k_3 = 2k\]<br/>
+টুকরোগুলিকে শ্রেণি সমবায়ে যুক্ত করলে তুল্য বল ধ্রুবক \(k'\) হয়:<br/>
+\[\frac{1}{k'} = \frac{1}{6k} + \frac{1}{3k} + \frac{1}{2k} = \frac{6}{6k} = \frac{1}{k} \implies k' = k\]<br/>
+টুকরোগুলিকে সমান্তরাল সমবায়ে যুক্ত করলে তুল্য বল ধ্রুবক \(k''\) হয়:<br/>
+\[k'' = 6k + 3k + 2k = 11k\]<br/>
+সুতরাং নির্ণেয় অনুপাত:<br/>
+\[\frac{k'}{k''} = \frac{k}{11k} = \frac{1}{11}\]</p>
+<p><strong>ধাপ ৫: যাচাই ও চূড়ান্ত উত্তর</strong><br/>
+টুকরোগুলিকে শ্রেণিতে পুনরায় জুড়লে আদি স্প্রিং ধ্রুবক \(k\) ফিরে পাওয়া যায় এবং সমান্তরাল সমবায়ে তা \(11k\) হয়। অতএব চূড়ান্ত অনুপাত হলো \(1 : 11\)।</p>
+    ]]></text>
+  </generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>1 : 14</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>1 : 6</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>1 : 9</p>]]></text>
+  </answer>
+  <answer fraction="100" format="html">
+    <text><![CDATA[<p>1 : 11</p>]]></text>
+  </answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>year:2017</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:bn</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>class:class_11</text></tag>
+    <tag><text>topic:work_energy_power</text></tag>
+    <tag><text>chapter:work_energy_and_power</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:easy</text></tag>
+    <tag><text>blooms:apply</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:text</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+<question type="multichoice">
+  <name><text>NEET_UG_PHYSICS_2017_MCQ_Q02 - Matching thermodynamic processes on PV indicator diagram</text></name>
+  <questiontext format="html">
+    <text><![CDATA[
+<p>Thermodynamic processes are indicated in the following diagram</p>
+<p><img src="@@PLUGINFILE@@/img-0.jpeg" alt="Thermodynamic processes on PV indicator diagram" /></p>
+<p>Match the following :</p>
+<table>
+  <thead>
+    <tr>
+      <th style="border: 1px solid black; padding: 5px;">Column-I</th>
+      <th style="border: 1px solid black; padding: 5px;">Column-II</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="border: 1px solid black; padding: 5px;">P. Process I</td>
+      <td style="border: 1px solid black; padding: 5px;">a. Adiabatic</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid black; padding: 5px;">Q. Process II</td>
+      <td style="border: 1px solid black; padding: 5px;">b. Isobaric</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid black; padding: 5px;">R. Process III</td>
+      <td style="border: 1px solid black; padding: 5px;">c. Isochoric</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid black; padding: 5px;">S. Process IV</td>
+      <td style="border: 1px solid black; padding: 5px;">d. Isothermal</td>
+    </tr>
+  </tbody>
+</table>
+<hr/>
+<p>নিম্নলিখিত চিত্রে তাপগতীয় প্রক্রিয়াগুলি নির্দেশিত হয়েছে</p>
+<p><img src="@@PLUGINFILE@@/img-0.jpeg" alt="Thermodynamic processes on PV indicator diagram" /></p>
+<p>নিম্নলিখিতগুলি মেলাও :</p>
+<table>
+  <thead>
+    <tr>
+      <th style="border: 1px solid black; padding: 5px;">স্তম্ভ-I</th>
+      <th style="border: 1px solid black; padding: 5px;">স্তম্ভ-II</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="border: 1px solid black; padding: 5px;">P. প্রক্রিয়া I</td>
+      <td style="border: 1px solid black; padding: 5px;">a. রুদ্ধতাপীয়</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid black; padding: 5px;">Q. প্রক্রিয়া II</td>
+      <td style="border: 1px solid black; padding: 5px;">b. সমচাপীয়</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid black; padding: 5px;">R. প্রক্রিয়া III</td>
+      <td style="border: 1px solid black; padding: 5px;">c. সম-আয়তনিক</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid black; padding: 5px;">S. প্রক্রিয়া IV</td>
+      <td style="border: 1px solid black; padding: 5px;">d. সমোষ্ণ</td>
+    </tr>
+  </tbody>
+</table>
+    ]]></text>
+  </questiontext>
+  <generalfeedback format="html">
+    <text><![CDATA[
+<p><strong>Step 1: Conceptual Principles</strong><br/>
+In a pressure-volume (\(P\)-\(V\)) indicator diagram:<br/>
+1. An isochoric process occurs at constant volume (\(V = \text{constant}\)), represented by a vertical line parallel to the pressure axis.<br/>
+2. An isobaric process occurs at constant pressure (\(P = \text{constant}\)), represented by a horizontal line parallel to the volume axis.<br/>
+3. An isothermal process occurs at constant temperature, following the hyperbolic curve \(PV = \text{constant}\), where the magnitude of the slope is \(\left|\frac{dP}{dV}\right| = \frac{P}{V}\).<br/>
+4. An adiabatic process follows \(PV^{\gamma} = \text{constant}\), where the magnitude of the slope is \(\left|\frac{dP}{dV}\right| = \gamma \frac{P}{V}\). Since the adiabatic index \(\gamma > 1\), the adiabatic curve has a steeper negative slope than an isothermal curve at any intersection point.</p>
+<p><strong>Step 2: Identification of Curves from the Diagram</strong><br/>
+- Process I is a vertical line downward where volume does not change: it represents an isochoric process.<br/>
+- Process IV is a horizontal line where pressure remains constant: it represents an isobaric process.<br/>
+- For the expansion curves starting from the same initial state, Process II drops more steeply than Process III. Therefore, Process II is an adiabatic process, and Process III is an isothermal process along the constant temperature isotherm.</p>
+<p><strong>Step 3: Matching Evaluation</strong><br/>
+- Process I (P) matches with Isochoric (c).<br/>
+- Process II (Q) matches with Adiabatic (a).<br/>
+- Process III (R) matches with Isothermal (d).<br/>
+- Process IV (S) matches with Isobaric (b).</p>
+<p><strong>Step 4: Final Conclusion</strong><br/>
+The correct sequence of matches is \(P \rightarrow c, Q \rightarrow a, R \rightarrow d, S \rightarrow b\).</p>
+<hr/>
+<p><strong>ধাপ ১: ধারণাগত নীতি</strong><br/>
+চাপ-আয়তন (\(P\)-\(V\)) লেখচিত্রে:<br/>
+১. সম-আয়তনিক প্রক্রিয়ায় আয়তন স্থির থাকে (\(V = \text{ধ্রুবক}\)), যা চাপ অক্ষের সমান্তরাল একটি উলম্ব রেখা দ্বারা প্রকাশিত হয়।<br/>
+২. সমচাপীয় প্রক্রিয়ায় চাপ স্থির থাকে (\(P = \text{ধ্রুবক}\)), যা আয়তন অক্ষের সমান্তরাল একটি অনুভূমিক রেখা দ্বারা প্রকাশিত হয়।<br/>
+৩. সমোষ্ণ প্রক্রিয়ায় তাপমাত্রা স্থির থাকে (\(PV = \text{ধ্রুবক}\)), যার নতির মান \(\left|\frac{dP}{dV}\right| = \frac{P}{V}\)।<br/>
+৪. রুদ্ধতাপীয় প্রক্রিয়ায় \(PV^{\gamma} = \text{ধ্রুবক}\), যার নতির মান \(\left|\frac{dP}{dV}\right| = \gamma \frac{P}{V}\)। যেহেতু \(\gamma > 1\), তাই যেকোনো বিন্দুতে রুদ্ধতাপীয় রেখার নতি সমোষ্ণ রেখার নতি অপেক্ষা বেশি খাড়া হয়।</p>
+<p><strong>ধাপ ২: লেখচিত্র থেকে প্রক্রিয়াগুলির শনাক্তকরণ</strong><br/>
+- প্রক্রিয়া I একটি উলম্ব রেখা বরাবর নিম্নগামী যেখানে আয়তন অপরিবর্তিত থাকে: এটি সম-আয়তনিক প্রক্রিয়া।<br/>
+- প্রক্রিয়া IV একটি অনুভূমিক রেখা যেখানে চাপ অপরিবর্তিত থাকে: এটি সমচাপীয় প্রক্রিয়া।<br/>
+- প্রারম্ভিক বিন্দু থেকে শুরু হওয়া দুটি প্রসারণ বক্ররেখার মধ্যে, প্রক্রিয়া II এর নতি প্রক্রিয়া III এর চেয়ে বেশি খাড়া। সুতরাং, প্রক্রিয়া II হলো রুদ্ধতাপীয় প্রক্রিয়া এবং প্রক্রিয়া III হলো সমোষ্ণ প্রক্রিয়া।</p>
+<p><strong>ধাপ ৩: মিল যাচাই</strong><br/>
+- প্রক্রিয়া I (P) নির্দেশ করে সম-আয়তনিক (c)।<br/>
+- প্রক্রিয়া II (Q) নির্দেশ করে রুদ্ধতাপীয় (a)।<br/>
+- প্রক্রিয়া III (R) নির্দেশ করে সমোষ্ণ (d)।<br/>
+- প্রক্রিয়া IV (S) নির্দেশ করে সমচাপীয় (b)।</p>
+<p><strong>ধাপ ৪: চূড়ান্ত সিদ্ধান্ত</strong><br/>
+সঠিক সম্পর্কযুক্ত বিন্যাসটি হলো \(P \rightarrow c, Q \rightarrow a, R \rightarrow d, S \rightarrow b\)।</p>
+    ]]></text>
+  </generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>false</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(P \rightarrow d, Q \rightarrow b, R \rightarrow a, S \rightarrow c\)</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(P \rightarrow a, Q \rightarrow c, R \rightarrow d, S \rightarrow b\)</p>]]></text>
+  </answer>
+  <answer fraction="100" format="html">
+    <text><![CDATA[<p>\(P \rightarrow c, Q \rightarrow a, R \rightarrow d, S \rightarrow b\)</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(P \rightarrow c, Q \rightarrow d, R \rightarrow b, S \rightarrow a\)</p>]]></text>
+  </answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>year:2017</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:bn</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>class:class_11</text></tag>
+    <tag><text>topic:thermodynamics</text></tag>
+    <tag><text>chapter:thermodynamics</text></tag>
+    <tag><text>typology:matching-mcq</text></tag>
+    <tag><text>difficulty:medium</text></tag>
+    <tag><text>blooms:analyze</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:graph</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+<question type="multichoice">
+  <name><text>NEET_UG_PHYSICS_2017_MCQ_Q03 - Electrostatic energy of connected parallel capacitors</text></name>
+  <questiontext format="html">
+    <text><![CDATA[
+<p>A capacitor is charged by a battery. The battery is removed and another identical uncharged capacitor is connected in parallel. The total electrostatic energy of resulting system</p>
+<hr/>
+<p>একটি ধারককে একটি ব্যাটারি দ্বারা আহিত করা হলো। ব্যাটারিটি সরিয়ে নিয়ে অপর একটি সমরূপ অনাহিত ধারক সমান্তরাল সমবায়ে যুক্ত করা হলো। চূড়ান্ত সংস্থাটির মোট স্থিরতাড়িৎ শক্তি</p>
+    ]]></text>
+  </questiontext>
+  <generalfeedback format="html">
+    <text><![CDATA[
+<p><strong>Step 1: Given Data and Conditions</strong><br/>
+Initial capacitance of the charged capacitor: \(C_1 = C\)<br/>
+Initial potential difference across the capacitor: \(V\)<br/>
+Capacitance of the identical uncharged capacitor: \(C_2 = C\)<br/>
+The battery is disconnected prior to connecting the second capacitor.</p>
+<p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>
+Because the system is isolated after disconnecting the battery, the total electrostatic charge is conserved during charge redistribution.</p>
+<p><strong>Step 3: Relevant Formulae and Principles</strong><br/>
+1. Initial charge on the capacitor: \(Q = C V\)<br/>
+2. Initial electrostatic energy: \(U_i = \frac{Q^2}{2C}\)<br/>
+3. Equivalent capacitance in parallel: \(C_{\text{eq}} = C_1 + C_2\)<br/>
+4. Final electrostatic energy: \(U_f = \frac{Q^2}{2C_{\text{eq}}}\)</p>
+<p><strong>Step 4: Step-by-Step Working</strong><br/>
+The total initial charge is \(Q\).<br/>
+When connected in parallel, the equivalent capacitance becomes:<br/>
+\[C_{\text{eq}} = C + C = 2C\]<br/>
+Since no external source supplies charge, the total charge remains \(Q\).<br/>
+The final total electrostatic energy of the two-capacitor system is:<br/>
+\[U_f = \frac{Q^2}{2C_{\text{eq}}} = \frac{Q^2}{2(2C)} = \frac{1}{2}\left(\frac{Q^2}{2C}\right) = \frac{U_i}{2}\]</p>
+<p><strong>Step 5: Check and Final Answer</strong><br/>
+The final energy is half of the initial energy. Therefore, the total electrostatic energy of the resulting system decreases by a factor of 2.</p>
+<hr/>
+<p><strong>ধাপ ১: প্রদত্ত তথ্য ও শর্তাবলী</strong><br/>
+আহিত ধারকের প্রাথমিক ধারকত্ব: \(C_1 = C\)<br/>
+ধারকের দুই প্রান্তের প্রাথমিক বিভবপ্রভেদ: \(V\)<br/>
+অনুরূপ অনাহিত ধারকের ধারকত্ব: \(C_2 = C\)<br/>
+দ্বিতীয় ধারকটি যুক্ত করার পূর্বে ব্যাটারিটি বিচ্ছিন্ন করা হয়েছে।</p>
+<p><strong>ধাপ ২: অনুমান ও চিহ্নের নিয়ম</strong><br/>
+ব্যাটারিটি বিচ্ছিন্ন করায় সংস্থাটি তড়িৎগতভাবে বিচ্ছিন্ন, ফলে আধানের পুনর্বণ্টনের সময় মোট আধান অপরিবর্তিত থাকে।</p>
+<p><strong>ধাপ ৩: প্রাসঙ্গিক সূত্র ও নীতি</strong><br/>
+১. ধারকের প্রাথমিক আধান: \(Q = C V\)<br/>
+২. প্রাথমিক স্থিরতাড়িৎ শক্তি: \(U_i = \frac{Q^2}{2C}\)<br/>
+৩. সমান্তরাল সমবায়ে তুল্য ধারকত্ব: \(C_{\text{eq}} = C_1 + C_2\)<br/>
+৪. চূড়ান্ত স্থিরতাড়িৎ শক্তি: \(U_f = \frac{Q^2}{2C_{\text{eq}}}\)</p>
+<p><strong>ধাপ ৪: ধাপে ধাপে সমাধান</strong><br/>
+সংস্থার মোট প্রাথমিক আধান হলো \(Q\)।<br/>
+ধারক দুটি সমান্তরাল সমবায়ে যুক্ত করায় তুল্য ধারকত্ব দাঁড়ায়:<br/>
+\[C_{\text{eq}} = C + C = 2C\]<br/>
+যেহেতু কোনো অতিরিক্ত আধান বাইরে থেকে যুক্ত হয়নি, মোট আধান \(Q\) থাকে।<br/>
+অতএব সংস্থাটির চূড়ান্ত স্থিরতাড়িৎ শক্তি:<br/>
+\[U_f = \frac{Q^2}{2(2C)} = \frac{1}{2}\left(\frac{Q^2}{2C}\right) = \frac{U_i}{2}\]</p>
+<p><strong>ধাপ ৫: যাচাই ও চূড়ান্ত উত্তর</strong><br/>
+চূড়ান্ত সঞ্চিত শক্তি প্রাথমিক শক্তির অর্ধেক। অর্থাৎ চূড়ান্ত সংস্থাটির মোট স্থিরতাড়িৎ শক্তি 2 গুণ হ্রাস পায় (decreases by a factor of 2)।</p>
+    ]]></text>
+  </generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>increases by a factor of 2.</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>increases by a factor of 4.</p>]]></text>
+  </answer>
+  <answer fraction="100" format="html">
+    <text><![CDATA[<p>decreases by a factor of 2.</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>remains the same.</p>]]></text>
+  </answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>year:2017</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:bn</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>class:class_12</text></tag>
+    <tag><text>topic:electrostatic_potential_capacitance</text></tag>
+    <tag><text>chapter:electrostatic_potential_and_capacitance</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:easy</text></tag>
+    <tag><text>blooms:understand</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:text</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+<question type="multichoice">
+  <name><text>NEET_UG_PHYSICS_2017_MCQ_Q04 - Density of immiscible oil in U tube</text></name>
+  <questiontext format="html">
+    <text><![CDATA[
+<p>A U tube with both ends open to the atmosphere, is partially filled with water. Oil, which is immiscible with water, is poured into one side until it stands at a distance of \(10\text{ mm}\) above the water level on the other side. Meanwhile the water rises by \(65\text{ mm}\) from its original level (see diagram). The density of the oil is</p>
+<p><img src="@@PLUGINFILE@@/img-1.jpeg" alt="U-tube manometer with oil and water columns" /></p>
+<hr/>
+<p>উভয় মুখ বায়ুমণ্ডলে উন্মুক্ত এমন একটি U-নল আংশিকভাবে জল দ্বারা পূর্ণ আছে। জলের সাথে অমিশ্রণীয় একটি তেল একপাশে এমনভাবে ঢালা হলো যাতে তা অন্যপাশের জলস্তরের চেয়ে \(10\text{ mm}\) উপরে অবস্থান করে। ইতিমধ্যে জল তার প্রাথমিক স্তর থেকে \(65\text{ mm}\) উপরে ওঠে (চিত্র দেখুন)। তেলের ঘনত্ব হলো</p>
+<p><img src="@@PLUGINFILE@@/img-1.jpeg" alt="U-tube manometer with oil and water columns" /></p>
+    ]]></text>
+  </questiontext>
+  <generalfeedback format="html">
+    <text><![CDATA[
+<p><strong>Step 1: Given Data and Conditions</strong><br/>
+Rise of water level above the initial line in the right limb: \(\Delta h_1 = 65\text{ mm}\)<br/>
+Distance of top oil surface above final water level: \(\Delta h_2 = 10\text{ mm}\)<br/>
+Standard density of water: \(\rho_{\text{water}} = 1000\text{ kg m}^{-3}\)</p>
+<p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>
+The U-tube has a uniform cross-sectional area. Atmospheric pressure \(P_a\) is exerted equally on both open surfaces. Both fluids are in static equilibrium, and the interface represents a continuous boundary.</p>
+<p><strong>Step 3: Relevant Formulae and Principles</strong><br/>
+1. In a uniform tube, when water rises by \(\Delta h_1\) in one limb, it depresses by an equal amount \(\Delta h_1\) in the other limb below the original line.<br/>
+2. Hydrostatic equilibrium equation at the horizontal datum line passing through the oil-water interface (level B–C):<br/>
+\[P_B = P_C\]<br/>
+\[P_a + \rho_{\text{oil}} g h_{\text{oil}} = P_a + \rho_{\text{water}} g h_{\text{water}}\]<br/>
+\[\rho_{\text{oil}} h_{\text{oil}} = \rho_{\text{water}} h_{\text{water}}\]</p>
+<p><strong>Step 4: Step-by-Step Working</strong><br/>
+The water level in the right limb rises by \(65\text{ mm}\) above the initial level, and the water level in the left limb depresses by \(65\text{ mm}\) below the initial level.<br/>
+Thus, the total height of the water column above the interface level B is:<br/>
+\[h_{\text{water}} = 65\text{ mm} + 65\text{ mm} = 130\text{ mm}\]<br/>
+The top surface of the oil is \(10\text{ mm}\) above the final water level, so the total height of the oil column above the interface level B is:<br/>
+\[h_{\text{oil}} = h_{\text{water}} + 10\text{ mm} = 130\text{ mm} + 10\text{ mm} = 140\text{ mm}\]<br/>
+Equating the pressures at the interface level:<br/>
+\[\rho_{\text{oil}} \times 140\text{ mm} = 1000\text{ kg m}^{-3} \times 130\text{ mm}\]<br/>
+\[\rho_{\text{oil}} = \frac{130}{140} \times 1000\text{ kg m}^{-3} = \frac{13}{14} \times 1000\text{ kg m}^{-3} \approx 928.57\text{ kg m}^{-3}\]</p>
+<p><strong>Step 5: Check and Final Answer</strong><br/>
+Rounding to the nearest integer gives an oil density of \(928\text{ kg m}^{-3}\).</p>
+<hr/>
+<p><strong>ধাপ ১: প্রদত্ত তথ্য ও শর্তাবলী</strong><br/>
+ডান বাহুতে প্রাথমিক স্তরের সাপেক্ষে জলের উচ্চতা বৃদ্ধি: \(\Delta h_1 = 65\text{ mm}\)<br/>
+ডান বাহুর চূড়ান্ত জলস্তরের সাপেক্ষে তেলের শীর্ষতলের বাড়তি উচ্চতা: \(\Delta h_2 = 10\text{ mm}\)<br/>
+জলের আদর্শ ঘনত্ব: \(\rho_{\text{water}} = 1000\text{ kg m}^{-3}\)</p>
+<p><strong>ধাপ ২: অনুমান ও চিহ্নের নিয়ম</strong><br/>
+U-নলটির প্রস্থচ্ছেদ সর্বত্র সুষম। উভয় বাহুর উন্মুক্ত তলে একই বায়ুমণ্ডলীয় চাপ \(P_a\) ক্রিয়াশীল। তরল দুটি স্থির সাম্যাবস্থায় রয়েছে।</p>
+<p><strong>ধাপ ৩: প্রাসঙ্গিক সূত্র ও নীতি</strong><br/>
+১. সুষম নলের ক্ষেত্রে এক বাহুতে জল \(\Delta h_1\) পরিমাণ উপরে উঠলে অপর বাহুতে জলের তল প্রাথমিক স্তর থেকে ঠিক \(\Delta h_1\) পরিমাণ নিচে নেমে যায়।<br/>
+২. তেল-জল সংযোগস্থল (তল B–C) বরাবর স্থির তরলের একই অনুভূমিক রেখায় চাপ সমান হয়:<br/>
+\[P_B = P_C\]<br/>
+\[P_a + \rho_{\text{oil}} g h_{\text{oil}} = P_a + \rho_{\text{water}} g h_{\text{water}}\]<br/>
+\[\rho_{\text{oil}} h_{\text{oil}} = \rho_{\text{water}} h_{\text{water}}\]</p>
+<p><strong>ধাপ ৪: ধাপে ধাপে সমাধান</strong><br/>
+ডান বাহুতে জল প্রাথমিক স্তর থেকে \(65\text{ mm}\) উপরে উঠেছে এবং বাঁ বাহুতে জল প্রাথমিক স্তর থেকে \(65\text{ mm}\) নিচে নেমেছে।<br/>
+সুতরাং সংযোগস্থল B-এর সাপেক্ষে জলের স্তম্ভের মোট উচ্চতা:<br/>
+\[h_{\text{water}} = 65\text{ mm} + 65\text{ mm} = 130\text{ mm}\]<br/>
+তেলের উপরিতল চূড়ান্ত জলস্তরের চেয়ে আরও \(10\text{ mm}\) উপরে অবস্থিত, সুতরাং তেলের স্তম্ভের মোট উচ্চতা:<br/>
+\[h_{\text{oil}} = 130\text{ mm} + 10\text{ mm} = 140\text{ mm}\]<br/>
+সংযোগস্থল বরাবর চাপ সমান করে পাই:<br/>
+\[\rho_{\text{oil}} \times 140 = 1000 \times 130\]<br/>
+\[\rho_{\text{oil}} = \frac{13}{14} \times 1000 \approx 928.57\text{ kg m}^{-3}\]</p>
+<p><strong>ধাপ ৫: যাচাই ও চূড়ান্ত উত্তর</strong><br/>
+আসন্ন মানে তেলের ঘনত্ব পাওয়া যায় \(928\text{ kg m}^{-3}\)।</p>
+    ]]></text>
+  </generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="100" format="html">
+    <text><![CDATA[<p>928 kg m\(^{-3}\)</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>650 kg m\(^{-3}\)</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>425 kg m\(^{-3}\)</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>800 kg m\(^{-3}\)</p>]]></text>
+  </answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>year:2017</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:bn</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>class:class_11</text></tag>
+    <tag><text>topic:mechanical_properties_of_fluids</text></tag>
+    <tag><text>chapter:mechanical_properties_of_fluids</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:medium</text></tag>
+    <tag><text>blooms:apply</text></tag>
+    <tag><text>calculation:moderate</text></tag>
+    <tag><text>media:diagram</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+<question type="multichoice">
+  <name><text>NEET_UG_PHYSICS_2017_MCQ_Q05 - De Broglie wavelength of thermal neutron</text></name>
+  <questiontext format="html">
+    <text><![CDATA[
+<p>The de-Broglie wavelength of a neutron in thermal equilibrium with heavy water at a temperature \(T\) (Kelvin) and mass \(m\), is</p>
+<hr/>
+<p>\(T\) (কেলভিন) তাপমাত্রায় ভারী জলের সাথে তাপীয় সাম্যাবস্থায় থাকা \(m\) ভরের একটি নিউট্রনের দ্য ব্রয় তরঙ্গদৈর্ঘ্য হলো</p>
+    ]]></text>
+  </questiontext>
+  <generalfeedback format="html">
+    <text><![CDATA[
+<p><strong>Step 1: Given Data and Conditions</strong><br/>
+Mass of the neutron: \(m\)<br/>
+Absolute temperature of thermal equilibrium: \(T\)<br/>
+Planck's constant: \(h\)<br/>
+Boltzmann constant: \(k\)</p>
+<p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>
+A thermal neutron in thermal equilibrium possesses three translational degrees of freedom with no internal rotational or vibrational modes. The particle behaves non-relativistically.</p>
+<p><strong>Step 3: Relevant Formulae and Principles</strong><br/>
+1. By the law of equipartition of energy, the mean translational kinetic energy of a particle with 3 translational degrees of freedom at temperature \(T\) is:<br/>
+\[E = \frac{3}{2}kT\]<br/>
+2. Momentum \(p\) in terms of kinetic energy \(E\):<br/>
+\[p = \sqrt{2mE}\]<br/>
+3. The de Broglie wavelength formula:<br/>
+\[\lambda = \frac{h}{p}\]</p>
+<p><strong>Step 4: Step-by-Step Working</strong><br/>
+Substituting the average kinetic energy into the expression for momentum gives:<br/>
+\[p = \sqrt{2m\left(\frac{3}{2}kT\right)} = \sqrt{3mkT}\]<br/>
+Substituting momentum \(p\) into the de Broglie relation gives:<br/>
+\[\lambda = \frac{h}{\sqrt{3mkT}}\]</p>
+<p><strong>Step 5: Check and Final Answer</strong><br/>
+The units match the dimension of length. Hence, the de Broglie wavelength of the thermal neutron is \(\frac{h}{\sqrt{3mkT}}\).</p>
+<hr/>
+<p><strong>ধাপ ১: প্রদত্ত তথ্য ও শর্তাবলী</strong><br/>
+নিউট্রনের ভর: \(m\)<br/>
+তাপীয় সাম্যাবস্থার পরম তাপমাত্রা: \(T\)<br/>
+প্ল্যাঙ্কের ধ্রুবক: \(h\)<br/>
+বোল্টজম্যান ধ্রুবক: \(k\)</p>
+<p><strong>ধাপ ২: অনুমান ও চিহ্নের নিয়ম</strong><br/>
+তাপীয় সাম্যাবস্থায় থাকা নিউট্রনের শুধুমাত্র ৩টি চলন স্বাধীনতা মাত্রা (degrees of freedom) রয়েছে এবং কণাটি অ-আপেক্ষিকীয় গতিতে চলে।</p>
+<p><strong>ধাপ ৩: প্রাসঙ্গিক সূত্র ও নীতি</strong><br/>
+১. শক্তির সমবিভাজন নীতি অনুসারে \(T\) তাপমাত্রায় ৩টি চলন স্বাধীনতা মাত্রাবিশিষ্ট কণার গড় গতিশক্তি:<br/>
+\[E = \frac{3}{2}kT\]<br/>
+২. ভরবেগ ও গতিশক্তির সম্পর্ক:<br/>
+\[p = \sqrt{2mE}\]<br/>
+৩. দ্য ব্রয় তরঙ্গদৈর্ঘ্যের সূত্র:<br/>
+\[\lambda = \frac{h}{p}\]</p>
+<p><strong>ধাপ ৪: ধাপে ধাপে সমাধান</strong><br/>
+ভরবেগের সমীকরণে গতিশক্তির মান বসিয়ে পাই:<br/>
+\[p = \sqrt{2m\left(\frac{3}{2}kT\right)} = \sqrt{3mkT}\]<br/>
+দ্য ব্রয় সূত্রে ভরবেগ \(p\)-এর মান বসালে তরঙ্গদৈর্ঘ্য দাঁড়ায়:<br/>
+\[\lambda = \frac{h}{\sqrt{3mkT}}\]</p>
+<p><strong>ধাপ ৫: যাচাই ও চূড়ান্ত উত্তর</strong><br/>
+রাশিটির মাত্রা দৈর্ঘ্যের সমান। অতএব তাপীয় নিউট্রনের দ্য ব্রয় তরঙ্গদৈর্ঘ্য হলো \(\frac{h}{\sqrt{3mkT}}\)।</p>
+    ]]></text>
+  </generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(\frac{2h}{\sqrt{mkT}}\)</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(\frac{h}{\sqrt{mkT}}\)</p>]]></text>
+  </answer>
+  <answer fraction="100" format="html">
+    <text><![CDATA[<p>\(\frac{h}{\sqrt{3mkT}}\)</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(\frac{2h}{\sqrt{3mkT}}\)</p>]]></text>
+  </answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>year:2017</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:bn</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>class:class_12</text></tag>
+    <tag><text>topic:dual_nature_of_matter_radiation</text></tag>
+    <tag><text>chapter:dual_nature_of_radiation_and_matter</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:easy</text></tag>
+    <tag><text>blooms:remember</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:text</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+<question type="multichoice">
+  <name><text>NEET_UG_PHYSICS_2017_MCQ_Q06 - Variation of gravity with height and depth</text></name>
+  <questiontext format="html">
+    <text><![CDATA[
+<p>The acceleration due to gravity at a height \(1\text{ km}\) above the earth is the same as at a depth \(d\) below the surface of earth. Then</p>
+<hr/>
+<p>পৃথিবীপৃষ্ঠ থেকে \(1\text{ km}\) উচ্চতায় অভিকর্ষজ ত্বরণের মান এবং পৃথিবীপৃষ্ঠ থেকে \(d\) গভীরতায় অভিকর্ষজ ত্বরণের মান সমান। তাহলে</p>
+    ]]></text>
+  </questiontext>
+  <generalfeedback format="html">
+    <text><![CDATA[
+<p><strong>Step 1: Given Data and Conditions</strong><br/>
+Height above the Earth's surface: \(h = 1\text{ km}\)<br/>
+Depth below the Earth's surface: \(d\)<br/>
+Condition: The acceleration due to gravity at height \(h\) equals that at depth \(d\) (\(g_h = g_d\)).</p>
+<p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>
+The Earth is treated as a uniform solid sphere of radius \(R \approx 6400\text{ km}\). Since \(h = 1\text{ km} \ll R\), the first-order binomial expansion for variation of gravity with height is valid.</p>
+<p><strong>Step 3: Relevant Formulae and Principles</strong><br/>
+1. Acceleration due to gravity at small height \(h \ll R\):<br/>
+\[g_h = g\left(1 - \frac{2h}{R}\right)\]<br/>
+2. Acceleration due to gravity at depth \(d\):<br/>
+\[g_d = g\left(1 - \frac{d}{R}\right)\]</p>
+<p><strong>Step 4: Step-by-Step Working</strong><br/>
+Equating the two expressions as given by the problem condition:<br/>
+\[g\left(1 - \frac{2h}{R}\right) = g\left(1 - \frac{d}{R}\right)\]<br/>
+Dividing both sides by \(g\):<br/>
+\[1 - \frac{2h}{R} = 1 - \frac{d}{R}\]<br/>
+Cancelling 1 from both sides:<br/>
+\[\frac{d}{R} = \frac{2h}{R} \implies d = 2h\]<br/>
+Substituting the given value \(h = 1\text{ km}\):<br/>
+\[d = 2 \times 1\text{ km} = 2\text{ km}\]</p>
+<p><strong>Step 5: Check and Final Answer</strong><br/>
+At small distances from the surface, the rate of decrease of gravity with height is twice that with depth. Therefore, achieving the same decrease in gravity requires a depth equal to twice the height, giving \(d = 2\text{ km}\).</p>
+<hr/>
+<p><strong>ধাপ ১: প্রদত্ত তথ্য ও শর্তাবলী</strong><br/>
+পৃথিবীপৃষ্ঠের উপরে উচ্চতা: \(h = 1\text{ km}\)<br/>
+পৃথিবীপৃষ্ঠের নিচে গভীরতা: \(d\)<br/>
+শর্ত: \(h\) উচ্চতায় অভিকর্ষজ ত্বরণ এবং \(d\) গভীরতায় অভিকর্ষজ ত্বরণ সমান (\(g_h = g_d\))।</p>
+<p><strong>ধাপ ২: অনুমান ও চিহ্নের নিয়ম</strong><br/>
+পৃথিবীকে \(R \approx 6400\text{ km}\) ব্যাসার্ধবিশিষ্ট একটি সুষম গোলক বিবেচনা করা হয়েছে। যেহেতু \(h = 1\text{ km} \ll R\), তাই উচ্চতার সাথে অভিকর্ষজ ত্বরণের পরিবর্তনের ক্ষেত্রে দ্বিপদ উপপাদ্যের আসন্ন মান প্রযোজ্য।</p>
+<p><strong>ধাপ ৩: প্রাসঙ্গিক সূত্র ও নীতি</strong><br/>
+১. স্বল্প উচ্চতায় (\(h \ll R\)) অভিকর্ষজ ত্বরণ:<br/>
+\[g_h = g\left(1 - \frac{2h}{R}\right)\]<br/>
+২. পৃথিবীপৃষ্ঠ থেকে \(d\) গভীরতায় অভিকর্ষজ ত্বরণ:<br/>
+\[g_d = g\left(1 - \frac{d}{R}\right)\]</p>
+<p><strong>ধাপ ৪: ধাপে ধাপে সমাধান</strong><br/>
+শর্তানুসারে সমীকরণ দুটি সমান করে পাই:<br/>
+\[g\left(1 - \frac{2h}{R}\right) = g\left(1 - \frac{d}{R}\right)\]<br/>
+উভয় পক্ষকে \(g\) দিয়ে ভাগ করে পাই:<br/>
+\[1 - \frac{2h}{R} = 1 - \frac{d}{R}\]<br/>
+সুতরাং:<br/>
+\[\frac{d}{R} = \frac{2h}{R} \implies d = 2h\]<br/>
+প্রদত্ত \(h = 1\text{ km}\) বসিয়ে পাই:<br/>
+\[d = 2 \times 1\text{ km} = 2\text{ km}\]</p>
+<p><strong>ধাপ ৫: যাচাই ও চূড়ান্ত উত্তর</strong><br/>
+স্বল্প দূরত্বের ক্ষেত্রে উচ্চতার সাথে অভিকর্ষজ ত্বরণ হ্রাসের হার গভীরতার তুলনায় দ্বিগুণ। অতএব অভিকর্ষজ ত্বরণ সমান হতে হলে গভীরতা উচ্চতার দ্বিগুণ হতে হবে, যা \(d = 2\text{ km}\)।</p>
+    ]]></text>
+  </generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="100" format="html">
+    <text><![CDATA[<p>\(d = 2\text{ km}\)</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(d = \frac{1}{2}\text{ km}\)</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(d = 1\text{ km}\)</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(d = \frac{3}{2}\text{ km}\)</p>]]></text>
+  </answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>year:2017</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:bn</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>class:class_11</text></tag>
+    <tag><text>topic:gravitation</text></tag>
+    <tag><text>chapter:gravitation</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:easy</text></tag>
+    <tag><text>blooms:apply</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:text</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+</quiz>

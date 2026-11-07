@@ -1,0 +1,399 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+<question type="multichoice">
+  <name>
+    <text>AIPMT_PHYSICS_2014_MCQ_Q21 - Natural oscillations of air column in pipe closed at one end</text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>The number of possible natural oscillations of air column in a pipe closed at one end of length \(85\text{ cm}\) whose frequencies lie below \(1250\text{ Hz}\) are (velocity of sound \(= 340\text{ m s}^{-1}\)):</p><hr/><p>एक सिरे पर बंद \(85\text{ cm}\) लंबे पाइप में वायु स्तंभ के संभव प्राकृतिक दोलनों की संख्या, जिनकी आवृत्तियाँ \(1250\text{ Hz}\) से नीचे हैं, होगी (ध्वनि का वेग \(= 340\text{ m s}^{-1}\)):</p>]]></text>
+  </questiontext>
+  <generalfeedback format="html">
+    <text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>Length of closed organ pipe: \(L = 85\text{ cm} = 0.85\text{ m}\)<br/>Speed of sound in air: \(v = 340\text{ m s}^{-1}\)<br/>Frequency upper bound: \(f < 1250\text{ Hz}\)</p><p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>The pipe is closed at one end and open at the other, creating a displacement node at the closed end and an antinode at the open end. End corrections are neglected.</p><p><strong>Step 3: Relevant Formulae and Principles</strong><br/>An air column closed at one end produces only odd harmonics of the fundamental frequency:<br/>\[f_N = (2N - 1) \frac{v}{4L}, \quad N = 1, 2, 3, \dots\]<br/>where \(f_1 = \frac{v}{4L}\) is the fundamental frequency.</p><p><strong>Step 4: Step-by-Step Working</strong><br/>Calculate the fundamental frequency:<br/>\[f_1 = \frac{340\text{ m s}^{-1}}{4 \times 0.85\text{ m}} = \frac{340}{3.4} = 100\text{ Hz}\]<br/>The natural frequencies are the odd integer multiples of \(100\text{ Hz}\):<br/>- \(N = 1\): \(f_1 = 1 \times 100 = 100\text{ Hz}\)<br/>- \(N = 2\): \(f_2 = 3 \times 100 = 300\text{ Hz}\)<br/>- \(N = 3\): \(f_3 = 5 \times 100 = 500\text{ Hz}\)<br/>- \(N = 4\): \(f_4 = 7 \times 100 = 700\text{ Hz}\)<br/>- \(N = 5\): \(f_5 = 9 \times 100 = 900\text{ Hz}\)<br/>- \(N = 6\): \(f_6 = 11 \times 100 = 1100\text{ Hz}\)<br/>- \(N = 7\): \(f_7 = 13 \times 100 = 1300\text{ Hz}\) (exceeds the \(1250\text{ Hz}\) limit)<br/>Counting the allowed modes strictly below \(1250\text{ Hz}\): \(100\text{ Hz}, 300\text{ Hz}, 500\text{ Hz}, 700\text{ Hz}, 900\text{ Hz},\) and \(1100\text{ Hz}\), giving a total of \(6\) natural oscillations.</p><p><strong>Step 5: Check and Final Answer</strong><br/>Using \((2N - 1) \times 100 < 1250 \implies 2N - 1 < 12.5 \implies 2N < 13.5 \implies N \le 6\). Exactly 6 modes exist.<br/>The number of possible natural oscillations is 6.</p><hr/><p><strong>चरण 1: दिए गए आँकड़े और प्रतिबंध</strong><br/>बंद ऑर्गन पाइप की लंबाई: \(L = 85\text{ cm} = 0.85\text{ m}\)<br/>वायु में ध्वनि की चाल: \(v = 340\text{ m s}^{-1}\)<br/>आवृत्ति की उच्च सीमा: \(f < 1250\text{ Hz}\)</p><p><strong>चरण 2: मान्यताएँ और परिपाटी</strong><br/>पाइप एक सिरे पर बंद तथा दूसरे पर खुला है, जिससे केवल विषम संनादी उत्पन्न होते हैं। सिरे के संशोधन को नगण्य माना गया है।</p><p><strong>चरण 3: संबंधित सूत्र और सिद्धांत</strong><br/>एक सिरे पर बंद वायु स्तंभ की आवृत्तियाँ:<br/>\[f_N = (2N - 1) \frac{v}{4L}, \quad N = 1, 2, 3, \dots\]<br/>जहाँ मूल आवृत्ति \(f_1 = \frac{v}{4L}\) है।</p><p><strong>चरण 4: चरणबद्ध हल</strong><br/>मूल आवृत्ति की गणना:<br/>\[f_1 = \frac{340}{4 \times 0.85} = 100\text{ Hz}\]<br/>प्राकृतिक आवृत्तियाँ मूल आवृत्ति के विषम गुणज होंगी:<br/>- \(100\text{ Hz}\)<br/>- \(300\text{ Hz}\)<br/>- \(500\text{ Hz}\)<br/>- \(700\text{ Hz}\)<br/>- \(900\text{ Hz}\)<br/>- \(1100\text{ Hz}\)<br/>अगली आवृत्ति \(1300\text{ Hz}\) दी गई सीमा \(1250\text{ Hz}\) से अधिक है। अतः कुल 6 आवृत्तियाँ सीमा के भीतर हैं।</p><p><strong>चरण 5: जाँच और अंतिम उत्तर</strong><br/>\(2N - 1 < 12.5\) से अधिकतम पूर्णांक मान \(N = 6\) प्राप्त होता है।<br/>अतः संभव प्राकृतिक दोलनों की संख्या 6 है।</p>]]></text>
+  </generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>4</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>5</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>7</p>]]></text>
+  </answer>
+  <answer fraction="100" format="html">
+    <text><![CDATA[<p>6</p>]]></text>
+  </answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>year:2014</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:hi</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>class:11</text></tag>
+    <tag><text>chapter:waves</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:easy</text></tag>
+    <tag><text>blooms:apply</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:text</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+<question type="multichoice">
+  <name>
+    <text>AIPMT_PHYSICS_2014_MCQ_Q22 - Apparent frequency of honking car heard by motorcyclist</text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>A speeding motorcyclist sees traffic jam ahead of him. He slows down to \(36\text{ km h}^{-1}\). He finds that traffic has eased and a car moving ahead of him at \(18\text{ km h}^{-1}\) is honking at a frequency of \(1392\text{ Hz}\). If the speed of sound is \(343\text{ m s}^{-1}\), the frequency of the honk as heard by him will be:</p><hr/><p>एक तेज गति से चल रहा मोटरसाइकिल सवार अपने आगे ट्रैफिक जाम देखता है। वह अपनी गति घटाकर \(36\text{ km h}^{-1}\) कर लेता है। वह पाता है कि ट्रैफिक सुगम हो गया है और उसके आगे \(18\text{ km h}^{-1}\) की चाल से चल रही एक कार \(1392\text{ Hz}\) की आवृत्ति का हॉर्न बजा रही है। यदि ध्वनि की चाल \(343\text{ m s}^{-1}\) हो, तो उसके द्वारा सुने जाने वाले हॉर्न की आवृत्ति होगी:</p>]]></text>
+  </questiontext>
+  <generalfeedback format="html">
+    <text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>Speed of motorcyclist (observer): \(v_o = 36\text{ km h}^{-1} = 36 \times \frac{5}{18}\text{ m s}^{-1} = 10\text{ m s}^{-1}\)<br/>Speed of car (source): \(v_s = 18\text{ km h}^{-1} = 18 \times \frac{5}{18}\text{ m s}^{-1} = 5\text{ m s}^{-1}\)<br/>Original frequency emitted by source: \(f = 1392\text{ Hz}\)<br/>Speed of sound in air: \(v = 343\text{ m s}^{-1}\)<br/>Relative positions: The motorcyclist is behind the car, and both travel in the same direction.</p><p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>The motorcyclist (observer) is moving toward the car (source), which increases the received frequency. The car (source) is moving away from the motorcyclist, which decreases the frequency.</p><p><strong>Step 3: Relevant Formulae and Principles</strong><br/>Doppler's formula for relative motion along a straight line:<br/>\[f' = f \left(\frac{v + v_o}{v + v_s}\right)\]</p><p><strong>Step 4: Step-by-Step Working</strong><br/>Substitute the values into the Doppler equation:<br/>\[f' = 1392 \times \left(\frac{343 + 10}{343 + 5}\right) = 1392 \times \left(\frac{353}{348}\right)\]<br/>Dividing \(1392\) by \(348\):<br/>\[\frac{1392}{348} = 4\]<br/>Multiply by \(353\):<br/>\[f' = 4 \times 353 = 1412\text{ Hz}\]</p><p><strong>Step 5: Check and Final Answer</strong><br/>Because the observer approaches the source faster than the source recedes (\(10\text{ m s}^{-1} > 5\text{ m s}^{-1}\)), the separation distance decreases, leading to a net upward frequency shift from \(1392\text{ Hz}\) to \(1412\text{ Hz}\).<br/>The frequency of the honk as heard by him is \(1412\text{ Hz}\).</p><hr/><p><strong>चरण 1: दिए गए आँकड़े और प्रतिबंध</strong><br/>मोटरसाइकिल सवार (श्रोता) की चाल: \(v_o = 36\text{ km h}^{-1} = 10\text{ m s}^{-1}\)<br/>कार (स्रोत) की चाल: \(v_s = 18\text{ km h}^{-1} = 5\text{ m s}^{-1}\)<br/>हॉर्न की वास्तविक आवृत्ति: \(f = 1392\text{ Hz}\)<br/>ध्वनि की चाल: \(v = 343\text{ m s}^{-1}\)<br/>दोनों वाहन एक ही दिशा में गतिमान हैं तथा मोटरसाइकिल सवार कार के पीछे है।</p><p><strong>चरण 2: मान्यताएँ और परिपाटी</strong><br/>श्रोता स्रोत की ओर गति कर रहा है (आवृत्ति बढ़ाने की प्रवृत्ति) तथा स्रोत श्रोता से दूर जा रहा है (आवृत्ति घटाने की प्रवृत्ति)।</p><p><strong>चरण 3: संबंधित सूत्र और सिद्धांत</strong><br/>डॉप्लर प्रभाव का सूत्र:<br/>\[f' = f \left(\frac{v + v_o}{v + v_s}\right)\]</p><p><strong>चरण 4: चरणबद्ध हल</strong><br/>मान प्रतिस्थापित करने पर:<br/>\[f' = 1392 \times \left(\frac{343 + 10}{343 + 5}\right) = 1392 \times \frac{353}{348}\]<br/>सरल करने पर:<br/>\[f' = 4 \times 353 = 1412\text{ Hz}\]</p><p><strong>चरण 5: जाँच और अंतिम उत्तर</strong><br/>श्रोता की चाल स्रोत से अधिक होने के कारण आभासी आवृत्ति वास्तविक आवृत्ति से अधिक होगी।<br/>अतः सुनी जाने वाली आवृत्ति \(1412\text{ Hz}\) है।</p>]]></text>
+  </generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>1332 Hz</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>1372 Hz</p>]]></text>
+  </answer>
+  <answer fraction="100" format="html">
+    <text><![CDATA[<p>1412 Hz</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>1454 Hz</p>]]></text>
+  </answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>year:2014</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:hi</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>class:11</text></tag>
+    <tag><text>chapter:waves</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:medium</text></tag>
+    <tag><text>blooms:apply</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:text</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+<question type="multichoice">
+  <name>
+    <text>AIPMT_PHYSICS_2014_MCQ_Q23 - Electric field variation with distance in capacitor with two dielectric slabs</text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>Two thin dielectric slabs of dielectric constants \(K_1\) and \(K_2\) (\(K_1 < K_2\)) are inserted between plates of a parallel plate capacitor, as shown in the figure. The variation of electric field \(E\) between the plates with distance \(d\) as measured from plate \(\mathrm{P}\) is correctly shown by:</p><p><img src="@@PLUGINFILE@@/img-7.jpeg" alt="Parallel plate capacitor with two dielectric slabs" /></p><hr/><p>समानांतर पट्टिका संधारित्र की पट्टिकाओं के बीच परावैद्युतांक \(K_1\) तथा \(K_2\) (\(K_1 < K_2\)) की दो पतली परावैद्युत पट्टिकाएँ रखी गई हैं, जैसा कि चित्र में दर्शाया गया है। पट्टिका \(\mathrm{P}\) से मापी गई दूरी \(d\) के साथ पट्टिकाओं के बीच विद्युत क्षेत्र \(E\) का परिवर्तन सही रूप में दर्शाया गया है:</p>]]></text>
+  </questiontext>
+  <generalfeedback format="html">
+    <text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>Parallel plate capacitor with positive plate \(\mathrm{P}\) and negative plate \(\mathrm{Q}\).<br/>Two dielectric slabs inserted in between: slab 1 has dielectric constant \(K_1\), slab 2 has dielectric constant \(K_2\).<br/>Given condition: \(1 < K_1 < K_2\).<br/>Gaps of vacuum/air exist before, between, and after the slabs.</p><p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>Plates are assumed large relative to separation so edge effects are negligible, producing a uniform field in each region directed from plate \(\mathrm{P}\) to plate \(\mathrm{Q}\).</p><p><strong>Step 3: Relevant Formulae and Principles</strong><br/>- Electric field in the air/vacuum gaps: \(E_0 = \frac{\sigma}{\varepsilon_0}\)<br/>- Electric field inside a dielectric slab of constant \(K\): \(E = \frac{E_0}{K}\)</p><p><strong>Step 4: Step-by-Step Working</strong><br/>- In all free space/air regions (before slab 1, between slab 1 and slab 2, and after slab 2), the dielectric constant is \(K = 1\), so the electric field maintains its maximum uniform value \(E_0\).<br/>- Inside the first slab, the field reduces to \(E_1 = \frac{E_0}{K_1}\).<br/>- Inside the second slab, the field reduces to \(E_2 = \frac{E_0}{K_2}\).<br/>- Because \(K_2 > K_1 > 1\), the fields satisfy:<br/>\[E_0 > E_1 > E_2\]<br/>- Thus, the graph of \(E\) versus \(d\) is constant at \(E_0\) in the air gaps, steps down to \(E_1\) in the first slab, returns to \(E_0\) in the intermediate gap, steps down further to a lower value \(E_2\) in the second slab, and returns to \(E_0\) before dropping to zero outside the plates.</p><p><strong>Step 5: Check and Final Answer</strong><br/>A higher dielectric constant creates greater opposing polarization, resulting in a deeper drop in the net electric field. The curve showing a moderate decrease in the first slab and a deeper decrease in the second slab correctly represents this behavior.<br/>The correct representation is graph (c).</p><hr/><p><strong>चरण 1: दिए गए आँकड़े और प्रतिबंध</strong><br/>समानांतर पट्टिका संधारित्र जिसमें धनात्मक पट्टिका \(\mathrm{P}\) तथा ऋणात्मक पट्टिका \(\mathrm{Q}\) है।<br/>परावैद्युत पट्टिकाओं के परावैद्युतांक \(K_1\) तथा \(K_2\) हैं, जहाँ \(1 < K_1 < K_2\) है।</p><p><strong>चरण 2: मान्यताएँ और परिपाटी</strong><br/>प्रत्येक क्षेत्र में विद्युत क्षेत्र एकसमान है तथा दिशा \(\mathrm{P}\) से \(\mathrm{Q}\) की ओर है।</p><p><strong>चरण 3: संबंधित सूत्र और सिद्धांत</strong><br/>- वायु/निर्वात में विद्युत क्षेत्र: \(E_0 = \frac{\sigma}{\varepsilon_0}\)<br/>- परावैद्युत माध्यम में विद्युत क्षेत्र: \(E = \frac{E_0}{K}\)</p><p><strong>चरण 4: चरणबद्ध हल</strong><br/>- वायु अंतरालों में विद्युत क्षेत्र का मान अधिकतम और एकसमान (\(E_0\)) रहता है।<br/>- प्रथम पट्टिका (\(K_1\)) में क्षेत्र घटकर \(E_1 = \frac{E_0}{K_1}\) हो जाता है।<br/>- द्वितीय पट्टिका (\(K_2\)) में क्षेत्र और अधिक घटकर \(E_2 = \frac{E_0}{K_2}\) हो जाता है।<br/>- चूँकि \(K_2 > K_1\) है, अतः \(E_0 > E_1 > E_2\) होगा।<br/>- अतः ग्राफ में वायु अंतरालों में मान \(E_0\) रहेगा, प्रथम स्लैब में कम होगा और द्वितीय स्लैब में और भी कम होगा।</p><p><strong>चरण 5: जाँच और अंतिम उत्तर</strong><br/>अधिक परावैद्युतांक माध्यम में विद्युत क्षेत्र में अधिक कमी आती है, जो ग्राफ (c) में प्रदर्शित है।<br/>अतः सही परिवर्तन ग्राफ (c) द्वारा प्रदर्शित होता है।</p>]]></text>
+  </generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>false</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p><img src="@@PLUGINFILE@@/img-8.jpeg" alt="Graph (a)" /></p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p><img src="@@PLUGINFILE@@/img-9.jpeg" alt="Graph (b)" /></p>]]></text>
+  </answer>
+  <answer fraction="100" format="html">
+    <text><![CDATA[<p><img src="@@PLUGINFILE@@/img-10.jpeg" alt="Graph (c)" /></p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p><img src="@@PLUGINFILE@@/img-11.jpeg" alt="Graph (d)" /></p>]]></text>
+  </answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>year:2014</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:hi</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>class:12</text></tag>
+    <tag><text>chapter:electrostatic_potential_and_capacitance</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:medium</text></tag>
+    <tag><text>blooms:understand</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:graph</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+<question type="multichoice">
+  <name>
+    <text>AIPMT_PHYSICS_2014_MCQ_Q24 - Electric potential and electric field at centre of charged conducting sphere</text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>A conducting sphere of radius \(R\) is given a charge \(Q\). The electric potential and the electric field at the centre of the sphere respectively are:</p><hr/><p>त्रिज्या \(R\) के एक चालक गोले को आवेश \(Q\) दिया जाता है। गोले के केन्द्र पर विद्युत विभव तथा विद्युत क्षेत्र क्रमशः हैं:</p>]]></text>
+  </questiontext>
+  <generalfeedback format="html">
+    <text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>Object: Conducting sphere of radius \(R\).<br/>Total charge: \(Q\).<br/>Location of interest: Centre of the sphere (\(r = 0\)).</p><p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>Under electrostatic equilibrium, excess charge on a conductor resides entirely on its outer surface, and the electric potential at infinity is taken as zero.</p><p><strong>Step 3: Relevant Formulae and Principles</strong><br/>- Electric field inside an electrostatic conductor: \(E = 0\).<br/>- Relationship between potential and field: \(E = -\frac{dV}{dr} = 0 \implies V = \text{constant}\).<br/>- Potential on the surface of a spherical conductor: \(V_{\text{surface}} = \frac{Q}{4\pi\varepsilon_0 R}\).</p><p><strong>Step 4: Step-by-Step Working</strong><br/>- By Gauss's law, enclosing a Gaussian surface inside the conductor yields zero net enclosed charge, so \(E_{\text{centre}} = 0\).<br/>- Because \(E = 0\) everywhere throughout the entire interior of the conducting sphere, the potential does not change from the surface to the centre.<br/>- Therefore, the potential at the centre equals the surface potential:<br/>\[V_{\text{centre}} = V_{\text{surface}} = \frac{Q}{4\pi\varepsilon_0 R}\]<br/>Thus, the electric potential and electric field at the centre are respectively \(\frac{Q}{4\pi\varepsilon_0 R}\) and zero.</p><p><strong>Step 5: Check and Final Answer</strong><br/>The potential is non-zero because work is required to bring a test charge from infinity up to the surface of the sphere, but no additional work is done to move it from the surface to the centre.<br/>The electric potential and the electric field are \(\frac{Q}{4\pi\varepsilon_0 R}\) and zero.</p><hr/><p><strong>चरण 1: दिए गए आँकड़े और प्रतिबंध</strong><br/>वस्तु: त्रिज्या \(R\) का चालक गोला।<br/>कुल आवेश: \(Q\)।<br/>बिन्दु: गोले का केंद्र (\(r = 0\))।</p><p><strong>चरण 2: मान्यताएँ और परिपाटी</strong><br/>स्थिरवैद्युत संतुलन में चालक का संपूर्ण आवेश उसकी बाहरी सतह पर वितरित रहता है तथा अनंत पर विभव शून्य माना गया है।</p><p><strong>चरण 3: संबंधित सूत्र और सिद्धांत</strong><br/>- चालक के भीतर प्रत्येक बिन्दु पर विद्युत क्षेत्र: \(E = 0\)।<br/>- संबंध \(E = -\frac{dV}{dr}\) के अनुसार, यदि \(E = 0\) हो तो विभव \(V\) नियत रहता है।<br/>- सतह पर विभव: \(V = \frac{Q}{4\pi\varepsilon_0 R}\)।</p><p><strong>चरण 4: चरणबद्ध हल</strong><br/>- गाउस के नियम से गोले के भीतर आवेश शून्य होने के कारण केन्द्र पर विद्युत क्षेत्र शून्य (\(E = 0\)) होता है।<br/>- चूँकि पूरे आंतरिक भाग में विद्युत क्षेत्र शून्य है, अतः केन्द्र पर विभव सतह के विभव के बराबर होगा:<br/>\[V = \frac{Q}{4\pi\varepsilon_0 R}\]<br/>अतः केन्द्र पर विद्युत विभव \(\frac{Q}{4\pi\varepsilon_0 R}\) तथा विद्युत क्षेत्र शून्य है।</p><p><strong>चरण 5: जाँच और अंतिम उत्तर</strong><br/>अनंत से सतह तक आवेश लाने में कार्य करना पड़ता है इसलिए विभव अशून्य है, जबकि भीतर कोई अतिरिक्त कार्य नहीं होता।<br/>अतः विद्युत विभव \(\frac{Q}{4\pi\varepsilon_0 R}\) तथा विद्युत क्षेत्र शून्य है।</p>]]></text>
+  </generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>zero and \(\frac{Q}{4\pi\varepsilon_0 R^2}\)</p>]]></text>
+  </answer>
+  <answer fraction="100" format="html">
+    <text><![CDATA[<p>\(\frac{Q}{4\pi\varepsilon_0 R}\) and zero</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(\frac{Q}{4\pi\varepsilon_0 R}\) and \(\frac{Q}{4\pi\varepsilon_0 R^2}\)</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>Both are zero</p>]]></text>
+  </answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>year:2014</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:hi</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>class:12</text></tag>
+    <tag><text>chapter:electrostatic_potential_and_capacitance</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:easy</text></tag>
+    <tag><text>blooms:remember</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:text</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+<question type="multichoice">
+  <name>
+    <text>AIPMT_PHYSICS_2014_MCQ_Q25 - Electric force on point charge from three dimensional potential function</text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>In a region, the potential is represented by \(V(x,y,z) = 6x - 8xy - 8y + 6yz\), where \(V\) is in volts and \(x,y,z\) are in metres. The electric force experienced by a charge of \(2\text{ C}\) situated at point \((1, 1, 1)\) is:</p><hr/><p>किसी क्षेत्र में विभव को \(V(x,y,z) = 6x - 8xy - 8y + 6yz\) द्वारा निरूपित किया जाता है, जहाँ \(V\) वोल्ट में तथा \(x,y,z\) मीटर में हैं। बिन्दु \((1, 1, 1)\) पर स्थित \(2\text{ C}\) के आवेश द्वारा अनुभव किया जाने वाला विद्युत बल है:</p>]]></text>
+  </questiontext>
+  <generalfeedback format="html">
+    <text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>Potential function: \(V(x,y,z) = 6x - 8xy - 8y + 6yz\)<br/>Charge: \(q = 2\text{ C}\)<br/>Position: \((x, y, z) = (1, 1, 1)\text{ m}\)</p><p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>The electric field is related to the negative gradient of the electric potential: \(\vec{E} = -\nabla V\). The electric force is \(\vec{F} = q\vec{E}\).</p><p><strong>Step 3: Relevant Formulae and Principles</strong><br/>Cartesian components of the electric field:<br/>\[E_x = -\frac{\partial V}{\partial x}, \quad E_y = -\frac{\partial V}{\partial y}, \quad E_z = -\frac{\partial V}{\partial z}\]<br/>Electric force magnitude:<br/>\[F = q |\vec{E}| = q \sqrt{E_x^2 + E_y^2 + E_z^2}\]</p><p><strong>Step 4: Step-by-Step Working</strong><br/>1. Find \(E_x\):<br/>\[E_x = -\frac{\partial}{\partial x}(6x - 8xy - 8y + 6yz) = -(6 - 8y) = 8y - 6\]<br/>At \((1, 1, 1)\):<br/>\[E_x = 8(1) - 6 = 2\text{ V m}^{-1}\]<br/>2. Find \(E_y\):<br/>\[E_y = -\frac{\partial}{\partial y}(6x - 8xy - 8y + 6yz) = -(-8x - 8 + 6z) = 8x + 8 - 6z\]<br/>At \((1, 1, 1)\):<br/>\[E_y = 8(1) + 8 - 6(1) = 10\text{ V m}^{-1}\]<br/>3. Find \(E_z\):<br/>\[E_z = -\frac{\partial}{\partial z}(6x - 8xy - 8y + 6yz) = -(6y) = -6y\]<br/>At \((1, 1, 1)\):<br/>\[E_z = -6(1) = -6\text{ V m}^{-1}\]<br/>4. Magnitude of electric field \(\vec{E}\):<br/>\[|\vec{E}| = \sqrt{2^2 + 10^2 + (-6)^2} = \sqrt{4 + 100 + 36} = \sqrt{140} = \sqrt{4 \times 35} = 2\sqrt{35}\text{ V m}^{-1}\]<br/>5. Calculate electric force:<br/>\[F = q |\vec{E}| = 2\text{ C} \times 2\sqrt{35}\text{ N C}^{-1} = 4\sqrt{35}\text{ N}\]</p><p><strong>Step 5: Check and Final Answer</strong><br/>The field components are \(2\hat{i} + 10\hat{j} - 6\hat{k}\), giving a magnitude of \(2\sqrt{35}\text{ N C}^{-1}\). Multiplying by \(2\text{ C}\) gives \(4\sqrt{35}\text{ N}\).<br/>The electric force experienced by the charge is \(4\sqrt{35}\text{ N}\).</p><hr/><p><strong>चरण 1: दिए गए आँकड़े और प्रतिबंध</strong><br/>विभव फलन: \(V(x,y,z) = 6x - 8xy - 8y + 6yz\)<br/>आवेश: \(q = 2\text{ C}\)<br/>बिन्दु: \((1, 1, 1)\text{ m}\)</p><p><strong>चरण 2: मान्यताएँ और परिपाटी</strong><br/>विद्युत क्षेत्र विभव की ऋणात्मक प्रवणता के बराबर होता है: \(\vec{E} = -\nabla V\)।</p><p><strong>चरण 3: संबंधित सूत्र और सिद्धांत</strong><br/>घटकों के सूत्र:<br/>\[E_x = -\frac{\partial V}{\partial x}, \quad E_y = -\frac{\partial V}{\partial y}, \quad E_z = -\frac{\partial V}{\partial z}\]<br/>विद्युत बल: \(F = q |\vec{E}|\)</p><p><strong>चरण 4: चरणबद्ध हल</strong><br/>1. \(E_x = -(6 - 8y) = 8y - 6\)<br/>\((1, 1, 1)\) पर: \(E_x = 8(1) - 6 = 2\text{ V m}^{-1}\)<br/>2. \(E_y = -(-8x - 8 + 6z) = 8x + 8 - 6z\)<br/>\((1, 1, 1)\) पर: \(E_y = 8 + 8 - 6 = 10\text{ V m}^{-1}\)<br/>3. \(E_z = -(6y) = -6y\)<br/>\((1, 1, 1)\) पर: \(E_z = -6\text{ V m}^{-1}\)<br/>4. विद्युत क्षेत्र का परिमाण:<br/>\[|\vec{E}| = \sqrt{2^2 + 10^2 + (-6)^2} = \sqrt{140} = 2\sqrt{35}\text{ V m}^{-1}\]<br/>5. विद्युत बल:<br/>\[F = 2 \times 2\sqrt{35} = 4\sqrt{35}\text{ N}\]</p><p><strong>चरण 5: जाँच और अंतिम उत्तर</strong><br/>बल का मात्रक न्यूटन है तथा परिमाण सही है।<br/>अतः अनुभव किया जाने वाला विद्युत बल \(4\sqrt{35}\text{ N}\) है।</p>]]></text>
+  </generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(6\sqrt{5}\text{ N}\)</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(30\text{ N}\)</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(24\text{ N}\)</p>]]></text>
+  </answer>
+  <answer fraction="100" format="html">
+    <text><![CDATA[<p>\(4\sqrt{35}\text{ N}\)</p>]]></text>
+  </answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>year:2014</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:hi</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>class:12</text></tag>
+    <tag><text>chapter:electrostatic_potential_and_capacitance</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:medium</text></tag>
+    <tag><text>blooms:apply</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:text</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+<question type="multichoice">
+  <name>
+    <text>AIPMT_PHYSICS_2014_MCQ_Q26 - Power loss in transmission line between two cities</text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>Two cities are \(150\text{ km}\) apart. Electric power is sent from one city to another city through copper wires. The fall of potential per km is \(8\text{ V}\) and the average resistance per km is \(0.5\,\Omega\). The power loss in the wire is:</p><hr/><p>दो शहर एक-दूसरे से \(150\text{ km}\) की दूरी पर हैं। ताँबे के तारों द्वारा एक शहर से दूसरे शहर को विद्युत शक्ति भेजी जाती है। विभव पात प्रति किलोमीटर \(8\text{ V}\) है और औसत प्रतिरोध प्रति किलोमीटर \(0.5\,\Omega\) है। तार में शक्ति क्षय है:</p>]]></text>
+  </questiontext>
+  <generalfeedback format="html">
+    <text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>Total transmission distance: \(d = 150\text{ km}\)<br/>Potential drop per unit distance: \(\frac{\Delta V}{d} = 8\text{ V km}^{-1}\)<br/>Resistance per unit distance: \(\frac{R}{d} = 0.5\,\Omega\text{ km}^{-1}\)</p><p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>The transmission line parameters are uniformly distributed along the entire length.</p><p><strong>Step 3: Relevant Formulae and Principles</strong><br/>Total voltage drop: \(\Delta V_{\text{total}} = d \times (\text{potential drop per km})\)<br/>Total resistance: \(R_{\text{total}} = d \times (\text{resistance per km})\)<br/>Power dissipation in a resistor: \(P = \frac{(\Delta V_{\text{total}})^2}{R_{\text{total}}} = I^2 R_{\text{total}}\)</p><p><strong>Step 4: Step-by-Step Working</strong><br/>Calculate total potential drop:<br/>\[\Delta V = 150\text{ km} \times 8\text{ V km}^{-1} = 1200\text{ V}\]<br/>Calculate total wire resistance:<br/>\[R = 150\text{ km} \times 0.5\,\Omega\text{ km}^{-1} = 75\,\Omega\]<br/>Current flowing through the transmission wire:<br/>\[I = \frac{\Delta V}{R} = \frac{1200\text{ V}}{75\,\Omega} = 16\text{ A}\]<br/>Compute the total power loss:<br/>\[P = I^2 R = (16)^2 \times 75 = 256 \times 75 = 19200\text{ W} = 19.2\text{ kW}\]</p><p><strong>Step 5: Check and Final Answer</strong><br/>Alternatively: \(P = \frac{\Delta V^2}{R} = \frac{(1200)^2}{75} = \frac{1440000}{75} = 19200\text{ W} = 19.2\text{ kW}\). The values match.<br/>The power loss in the wire is \(19.2\text{ kW}\).</p><hr/><p><strong>चरण 1: दिए गए आँकड़े और प्रतिबंध</strong><br/>कुल दूरी: \(d = 150\text{ km}\)<br/>प्रति किलोमीटर विभव पात: \(8\text{ V km}^{-1}\)<br/>प्रति किलोमीटर प्रतिरोध: \(0.5\,\Omega\text{ km}^{-1}\)</p><p><strong>चरण 2: मान्यताएँ और परिपाटी</strong><br/>तार के भौतिक गुण संपूर्ण लंबाई में एकसमान हैं।</p><p><strong>चरण 3: संबंधित सूत्र और सिद्धांत</strong><br/>कुल विभव पात: \(\Delta V = 150 \times 8\)<br/>कुल प्रतिरोध: \(R = 150 \times 0.5\)<br/>तार में शक्ति क्षय: \(P = \frac{\Delta V^2}{R}\)</p><p><strong>चरण 4: चरणबद्ध हल</strong><br/>कुल विभव पात:<br/>\[\Delta V = 150 \times 8 = 1200\text{ V}\]<br/>कुल प्रतिरोध:<br/>\[R = 150 \times 0.5 = 75\,\Omega\]<br/>शक्ति क्षय की गणना:<br/>\[P = \frac{(1200)^2}{75} = \frac{1440000}{75} = 19200\text{ W} = 19.2\text{ kW}\]</p><p><strong>चरण 5: जाँच और अंतिम उत्तर</strong><br/>गणना से प्राप्त मान \(19200\text{ W} = 19.2\text{ kW}\) है।<br/>अतः तार में शक्ति क्षय \(19.2\text{ kW}\) है।</p>]]></text>
+  </generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>19.2 W</p>]]></text>
+  </answer>
+  <answer fraction="100" format="html">
+    <text><![CDATA[<p>19.2 kW</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>19.2 J</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>12.2 kW</p>]]></text>
+  </answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>year:2014</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:hi</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>class:12</text></tag>
+    <tag><text>chapter:current_electricity</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:easy</text></tag>
+    <tag><text>blooms:apply</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:text</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+<question type="multichoice">
+  <name>
+    <text>AIPMT_PHYSICS_2014_MCQ_Q27 - Determination of unknown resistance in meter bridge with shunted arm</text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>The resistances in the two arms of the meter bridge are \(5\,\Omega\) and \(R\,\Omega\), respectively. When the resistance \(R\) is shunted with an equal resistance, the new balance point is at \(1.6l_1\). The resistance \(R\), is:</p><p><img src="@@PLUGINFILE@@/img-12.jpeg" alt="Meter bridge circuit with unknown resistance R" /></p><hr/><p>मीटर सेतु की दो भुजाओं में प्रतिरोध क्रमशः \(5\,\Omega\) तथा \(R\,\Omega\) हैं। जब प्रतिरोध \(R\) को एक समान प्रतिरोध से शंट किया जाता है, तो नया संतुलन बिन्दु \(1.6l_1\) पर प्राप्त होता है। प्रतिरोध \(R\) का मान है:</p>]]></text>
+  </questiontext>
+  <generalfeedback format="html">
+    <text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>Resistance in left arm: \(R_{\text{left}} = 5\,\Omega\)<br/>Initial resistance in right arm: \(R_{\text{right}} = R\)<br/>Initial balance length from left end \(\mathrm{A}\): \(l_1\)<br/>Shunt added in parallel to \(R\): An equal resistance \(R\)<br/>New balance length from left end \(\mathrm{A}\): \(l_2 = 1.6l_1\)<br/>Total bridge wire length: \(100\text{ cm}\)</p><p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>The meter bridge wire is uniform with constant resistance per unit length. The bridge operates under the Wheatstone principle at null deflection.</p><p><strong>Step 3: Relevant Formulae and Principles</strong><br/>Wheatstone bridge balance condition:<br/>\[\frac{R_{\text{left}}}{R_{\text{right}}} = \frac{l}{100 - l}\]<br/>Equivalent resistance of two equal resistors in parallel:<br/>\[R' = \frac{R \cdot R}{R + R} = \frac{R}{2}\]</p><p><strong>Step 4: Step-by-Step Working</strong><br/>1. Initial balanced state:<br/>\[\frac{5}{R} = \frac{l_1}{100 - l_1} \quad \text{--- (1)}\]<br/>2. After shunting with an equal resistance \(R\), the effective right-arm resistance is \(\frac{R}{2}\):<br/>\[\frac{5}{R/2} = \frac{1.6l_1}{100 - 1.6l_1} \implies \frac{10}{R} = \frac{1.6l_1}{100 - 1.6l_1} \quad \text{--- (2)}\]<br/>3. Divide equation (2) by equation (1):<br/>\[\frac{10/R}{5/R} = \frac{\left(\frac{1.6l_1}{100 - 1.6l_1}\right)}{\left(\frac{l_1}{100 - l_1}\right)} \implies 2 = 1.6 \left(\frac{100 - l_1}{100 - 1.6l_1}\right)\]<br/>4. Simplify and solve for \(l_1\):<br/>\[\frac{2}{1.6} = \frac{5}{4} = \frac{100 - l_1}{100 - 1.6l_1}\]<br/>Cross-multiplying:<br/>\[5(100 - 1.6l_1) = 4(100 - l_1)\]<br/>\[500 - 8l_1 = 400 - 4l_1 \implies 4l_1 = 100 \implies l_1 = 25\text{ cm}\]<br/>5. Substitute \(l_1 = 25\text{ cm}\) back into equation (1):<br/>\[\frac{5}{R} = \frac{25}{100 - 25} = \frac{25}{75} = \frac{1}{3} \implies R = 5 \times 3 = 15\,\Omega\]</p><p><strong>Step 5: Check and Final Answer</strong><br/>With \(R = 15\,\Omega\), \(l_1 = 25\text{ cm}\). Shunting gives \(R' = 7.5\,\Omega\), resulting in balance length \(l_2 = \frac{5 \times 100}{5 + 7.5} = 40\text{ cm}\), which equals \(1.6 \times 25\text{ cm} = 40\text{ cm}\).<br/>The resistance \(R\) is \(15\,\Omega\).</p><hr/><p><strong>चरण 1: दिए गए आँकड़े और प्रतिबंध</strong><br/>बाएँ सिरे का प्रतिरोध: \(5\,\Omega\)<br/>दाएँ सिरे का प्रारंभिक प्रतिरोध: \(R\)<br/>प्रारंभिक संतुलन लंबाई: \(l_1\)<br/>\(R\) के समानांतर समान प्रतिरोध \(R\) जोड़ने पर नया संतुलन बिन्दु: \(1.6l_1\)<br/>तार की कुल लंबाई: \(100\text{ cm}\)</p><p><strong>चरण 2: मान्यताएँ और परिपाटी</strong><br/>मीटर सेतु का तार एकसमान है तथा संतुलन की स्थिति में व्हीटस्टोन सेतु का सिद्धांत लागू होता है।</p><p><strong>चरण 3: संबंधित सूत्र और सिद्धांत</strong><br/>संतुलन प्रतिबंध:<br/>\[\frac{R_1}{R_2} = \frac{l}{100 - l}\]<br/>समानांतर में तुल्य प्रतिरोध: \(R' = \frac{R}{2}\)</p><p><strong>चरण 4: चरणबद्ध हल</strong><br/>प्रारंभिक स्थिति:<br/>\[\frac{5}{R} = \frac{l_1}{100 - l_1} \quad \text{--- (1)}\]<br/>शंट करने के पश्चात:<br/>\[\frac{10}{R} = \frac{1.6l_1}{100 - 1.6l_1} \quad \text{--- (2)}\]<br/>समीकरण (2) को (1) से भाग देने पर:<br/>\[2 = 1.6 \left(\frac{100 - l_1}{100 - 1.6l_1}\right) \implies \frac{5}{4} = \frac{100 - l_1}{100 - 1.6l_1}\]<br/>हल करने पर:<br/>\[500 - 8l_1 = 400 - 4l_1 \implies 4l_1 = 100 \implies l_1 = 25\text{ cm}\]<br/>\(l_1 = 25\text{ cm}\) समीकरण (1) में रखने पर:<br/>\[\frac{5}{R} = \frac{25}{75} = \frac{1}{3} \implies R = 15\,\Omega\]</p><p><strong>चरण 5: जाँच और अंतिम उत्तर</strong><br/>नया संतुलन बिन्दु \(40\text{ cm} = 1.6 \times 25\text{ cm}\) प्राप्त होता है।<br/>अतः प्रतिरोध \(R\) का मान \(15\,\Omega\) है।</p>]]></text>
+  </generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(10\,\Omega\)</p>]]></text>
+  </answer>
+  <answer fraction="100" format="html">
+    <text><![CDATA[<p>\(15\,\Omega\)</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(20\,\Omega\)</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(25\,\Omega\)</p>]]></text>
+  </answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>year:2014</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:hi</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>class:12</text></tag>
+    <tag><text>chapter:current_electricity</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:medium</text></tag>
+    <tag><text>blooms:apply</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:diagram</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+<question type="multichoice">
+  <name>
+    <text>AIPMT_PHYSICS_2014_MCQ_Q28 - Internal resistance of cell using potentiometer</text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>A potentiometer circuit has been set up for finding the internal resistance of a given cell. The main battery, used across the potentiometer wire, has an emf of \(2.0\text{ V}\) and a negligible internal resistance. The potentiometer wire itself is \(4\text{ m}\) long. When the resistance, \(R\), connected across the given cell, has values of<br/>(i) infinity<br/>(ii) \(9.5\,\Omega\)<br/>the 'balancing lengths', on the potentiometer wire are found to be \(3\text{ m}\) and \(2.85\text{ m}\), respectively. The value of internal resistance of the cell is:</p><hr/><p>किसी दिए गए सेल का आंतरिक प्रतिरोध ज्ञात करने के लिए एक विभवमापी परिपथ व्यवस्थित किया गया है। विभवमापी तार के सिरों पर प्रयुक्त मुख्य बैटरी का विद्युत वाहक बल \(2.0\text{ V}\) तथा आंतरिक प्रतिरोध नगण्य है। विभवमापी तार की लंबाई \(4\text{ m}\) है। जब दिए गए सेल के सिरों पर जुड़े प्रतिरोध \(R\) के मान क्रमशः<br/>(i) अनंत<br/>(ii) \(9.5\,\Omega\)<br/>होते हैं, तो विभवमापी तार पर 'संतुलन लंबाइयाँ' क्रमशः \(3\text{ m}\) तथा \(2.85\text{ m}\) प्राप्त होती हैं। सेल के आंतरिक प्रतिरोध का मान है:</p>]]></text>
+  </questiontext>
+  <generalfeedback format="html">
+    <text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>Open-circuit balancing length (when \(R \to \infty\)): \(l_1 = 3\text{ m}\)<br/>Closed-circuit balancing length (when \(R = 9.5\,\Omega\)): \(l_2 = 2.85\text{ m}\)<br/>Shunt resistance across the cell: \(R = 9.5\,\Omega\)</p><p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>Potential gradient along the potentiometer wire is constant throughout the measurement.</p><p><strong>Step 3: Relevant Formulae and Principles</strong><br/>When the external resistance is infinite, no current flows from the test cell, so balancing occurs across its open-circuit emf \(E\):<br/>\[E \propto l_1\]<br/>When external resistance \(R\) is connected, current flows and the potential across the cell drops to terminal potential difference \(V\):<br/>\[V \propto l_2\]<br/>The internal resistance \(r\) of the cell is given by:<br/>\[r = R \left(\frac{E - V}{V}\right) = R \left(\frac{l_1 - l_2}{l_2}\right)\]</p><p><strong>Step 4: Step-by-Step Working</strong><br/>Substitute the measured balancing lengths and resistance value:<br/>\[r = 9.5\,\Omega \times \left(\frac{3\text{ m} - 2.85\text{ m}}{2.85\text{ m}}\right)\]<br/>\[r = 9.5 \times \frac{0.15}{2.85}\]<br/>Simplify the fraction:<br/>\[\frac{0.15}{2.85} = \frac{15}{285} = \frac{1}{19}\]<br/>Calculate the internal resistance:<br/>\[r = \frac{9.5}{19} = 0.5\,\Omega\]</p><p><strong>Step 5: Check and Final Answer</strong><br/>The ratio \(\frac{l_1}{l_2} = \frac{3}{2.85} = \frac{20}{19} = 1 + \frac{r}{R} \implies \frac{r}{R} = \frac{1}{19} \implies r = \frac{9.5}{19} = 0.5\,\Omega\).<br/>The value of internal resistance of the cell is \(0.5\,\Omega\).</p><hr/><p><strong>चरण 1: दिए गए आँकड़े और प्रतिबंध</strong><br/>खुले परिपथ में संतुलन लंबाई (\(R \to \infty\)): \(l_1 = 3\text{ m}\)<br/>बंद परिपथ में संतुलन लंबाई (\(R = 9.5\,\Omega\)): \(l_2 = 2.85\text{ m}\)<br/>बाह्य प्रतिरोध: \(R = 9.5\,\Omega\)</p><p><strong>चरण 2: मान्यताएँ और परिपाटी</strong><br/>विभवमापी तार की विभव प्रवणता प्रयोग के दौरान नियत रहती है।</p><p><strong>चरण 3: संबंधित सूत्र और सिद्धांत</strong><br/>खुले परिपथ में सेल का विद्युत वाहक बल \(E \propto l_1\)<br/>बंद परिपथ में टर्मिनल विभवांतर \(V \propto l_2\)<br/>सेल का आंतरिक प्रतिरोध:<br/>\[r = R \left(\frac{l_1 - l_2}{l_2}\right)\]</p><p><strong>चरण 4: चरणबद्ध हल</strong><br/>मानों को प्रतिस्थापित करने पर:<br/>\[r = 9.5 \times \left(\frac{3 - 2.85}{2.85}\right) = 9.5 \times \frac{0.15}{2.85}\]<br/>सरल करने पर:<br/>\[r = 9.5 \times \frac{1}{19} = 0.5\,\Omega\]</p><p><strong>चरण 5: जाँच और अंतिम उत्तर</strong><br/>गणना से प्राप्त मान \(0.5\,\Omega\) है।<br/>अतः सेल का आंतरिक प्रतिरोध \(0.5\,\Omega\) है।</p>]]></text>
+  </generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(0.25\,\Omega\)</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(0.95\,\Omega\)</p>]]></text>
+  </answer>
+  <answer fraction="100" format="html">
+    <text><![CDATA[<p>\(0.5\,\Omega\)</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(0.75\,\Omega\)</p>]]></text>
+  </answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>year:2014</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:hi</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>class:12</text></tag>
+    <tag><text>chapter:current_electricity</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:easy</text></tag>
+    <tag><text>blooms:apply</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:text</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+<question type="multichoice">
+  <name>
+    <text>AIPMT_PHYSICS_2014_MCQ_Q29 - Configuration with highest net magnetic dipole moment</text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>Following figures show the arrangement of bar magnets in different configurations. Each magnet has magnetic dipole moment \(m\). Which configuration has highest net magnetic dipole moment?</p><p><img src="@@PLUGINFILE@@/img-13.jpeg" alt="Configuration (i)" /></p><p><img src="@@PLUGINFILE@@/img-14.jpeg" alt="Configuration (ii)" /></p><p><img src="@@PLUGINFILE@@/img-15.jpeg" alt="Configuration (iii)" /></p><p><img src="@@PLUGINFILE@@/img-16.jpeg" alt="Configuration (iv)" /></p><hr/><p>नीचे दिए गए चित्र विभिन्न विन्यासों में दण्ड चुम्बकों की व्यवस्था को दर्शाते हैं। प्रत्येक चुम्बक का चुम्बकीय द्विध्रुव आघूर्ण \(m\) है। किस विन्यास का परिणामी चुम्बकीय द्विध्रुव आघूर्ण उच्चतम है?</p>]]></text>
+  </questiontext>
+  <generalfeedback format="html">
+    <text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>Each bar magnet has a magnetic dipole moment of magnitude \(m\).<br/>The configurations have different geometric orientations and relative angles \(\theta\) between the two magnetic dipole moment vectors.</p><p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>The magnetic dipole moment is a vector quantity pointing internally from the South pole to the North pole (\(\mathrm{S} \to \mathrm{N}\)).</p><p><strong>Step 3: Relevant Formulae and Principles</strong><br/>The resultant of two vectors of equal magnitude \(m\) inclined at an angle \(\theta\) is given by:<br/>\[M_{\text{net}} = \sqrt{m^2 + m^2 + 2m^2 \cos\theta} = \sqrt{2m^2(1 + \cos\theta)} = 2m \cos\left(\frac{\theta}{2}\right)\]<br/>Since cosine is a decreasing function for angles from \(0^\circ\) to \(180^\circ\), the resultant is greatest when the angle \(\theta\) between the magnetic dipole vectors is smallest.</p><p><strong>Step 4: Step-by-Step Working</strong><br/>Analyzing each configuration:<br/>- Configuration (i): One vector points along the \(+y\)-axis (\(\mathrm{S} \to \mathrm{N}\) upwards) and the other points along the \(+x\)-axis (\(\mathrm{S} \to \mathrm{N}\) to the right). The angle is \(\theta = 90^\circ\):<br/>\[M_{(\text{i})} = \sqrt{m^2 + m^2} = \sqrt{2}m \approx 1.414m\]<br/>- Configuration (ii): The two magnets are arranged antiparallel to each other (\(\theta = 180^\circ\)):<br/>\[M_{(\text{ii})} = m - m = 0\]<br/>- Configuration (iii): Both dipole vectors emanate from their South poles with an angle of \(\theta = 30^\circ\) between them:<br/>\[M_{(\text{iii})} = 2m \cos\left(\frac{30^\circ}{2}\right) = 2m \cos(15^\circ) \approx 2m(0.9659) \approx 1.932m\]<br/>- Configuration (iv): Both dipole vectors have an angle of \(\theta = 60^\circ\) between them:<br/>\[M_{(\text{iv})} = 2m \cos\left(\frac{60^\circ}{2}\right) = 2m \cos(30^\circ) = 2m \left(\frac{\sqrt{3}}{2}\right) = \sqrt{3}m \approx 1.732m\]<br/>Comparing the calculated values: \(1.932m > 1.732m > 1.414m > 0\).</p><p><strong>Step 5: Check and Final Answer</strong><br/>The smallest angle between the dipole vectors occurs in configuration (iii) (\(\theta = 30^\circ\)), producing the maximum constructive vector sum.<br/>The configuration with the highest net magnetic dipole moment is (iii).</p><hr/><p><strong>चरण 1: दिए गए आँकड़े और प्रतिबंध</strong><br/>प्रत्येक दण्ड चुम्बक का चुम्बकीय द्विध्रुव आघूर्ण \(m\) है। विभिन्न विन्यासों में चुम्बकों के मध्य कोण भिन्न-भिन्न हैं।</p><p><strong>चरण 2: मान्यताएँ और परिपाटी</strong><br/>चुम्बकीय द्विध्रुव आघूर्ण एक सदिश राशि है, जिसकी दिशा दक्षिणी ध्रुव से उत्तरी ध्रुव (\(\mathrm{S} \to \mathrm{N}\)) की ओर होती है।</p><p><strong>चरण 3: संबंधित सूत्र और सिद्धांत</strong><br/>समान परिमाण \(m\) के दो सदिशों का परिणामी:<br/>\[M_{\text{net}} = 2m \cos\left(\frac{\theta}{2}\right)\]<br/>कोण \(\theta\) का मान जितना कम होगा, परिणामी आघूर्ण उतना ही अधिक होगा।</p><p><strong>चरण 4: चरणबद्ध हल</strong><br/>प्रत्येक विन्यास का परिणामी मान:<br/>- विन्यास (i): \(\theta = 90^\circ \implies M = \sqrt{2}m \approx 1.414m\)<br/>- विन्यास (ii): \(\theta = 180^\circ \implies M = 0\)<br/>- विन्यास (iii): \(\theta = 30^\circ \implies M = 2m \cos(15^\circ) \approx 1.932m\)<br/>- विन्यास (iv): \(\theta = 60^\circ \implies M = \sqrt{3}m \approx 1.732m\)<br/>अतः विन्यास (iii) में मान सर्वाधिक प्राप्त होता है।</p><p><strong>चरण 5: जाँच और अंतिम उत्तर</strong><br/>न्यूनतम कोण (\(30^\circ\)) होने के कारण सदिश योग उच्चतम है।<br/>अतः उच्चतम परिणामी चुम्बकीय द्विध्रुव आघूर्ण वाला विन्यास (iii) है।</p>]]></text>
+  </generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>(i)</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>(ii)</p>]]></text>
+  </answer>
+  <answer fraction="100" format="html">
+    <text><![CDATA[<p>(iii)</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>(iv)</p>]]></text>
+  </answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>year:2014</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:hi</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>class:12</text></tag>
+    <tag><text>chapter:magnetism_and_matter</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:easy</text></tag>
+    <tag><text>blooms:apply</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:diagram</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+</quiz>

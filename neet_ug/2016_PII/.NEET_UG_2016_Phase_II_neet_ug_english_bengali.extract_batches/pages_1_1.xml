@@ -1,0 +1,1044 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+<question type="multichoice">
+  <name>
+    <text>NEET_UG_PHYSICS_2016_MCQ_Q01 - Dimension of length from fundamental constants</text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>Planck's constant (\(h\)), speed of light in vacuum (\(c\)) and Newton's gravitational constant (\(G\)) are three fundamental constants. Which of the following combinations of these has the dimension of length?</p><hr/><p>প্ল্যাঙ্কের ধ্রুবক (\(h\)), শূন্য মাধ্যমে আলোর দ্রুতি (\(c\)) এবং নিউটনের মহাকর্ষীয় ধ্রুবক (\(G\)) হলো তিনটি মৌলিক ধ্রুবক। এদের মধ্যে কোন সমন্বয়টির মাত্রা দৈর্ঘ্যের মাত্রার সমান?</p>]]></text>
+  </questiontext>
+  <generalfeedback format="html">
+    <text><![CDATA[<p><strong>Given Data and Conditions:</strong><br/>
+Fundamental constants given:
+Planck's constant \(h\), speed of light \(c\), and universal gravitational constant \(G\). We seek a combination \(L \propto h^x c^y G^z\) that has the dimension of length \([L]\).</p>
+<p><strong>Assumptions and Sign Conventions:</strong><br/>
+The dimensions of mass, length, and time are represented by \(M\), \(L\), and \(T\) respectively.</p>
+<p><strong>Relevant Formulae and Principles:</strong><br/>
+Dimensional formula of energy: \(E = h\nu \implies [h] = \frac{[E]}{[\nu]} = \frac{[M L^2 T^{-2}]}{[T^{-1}]} = [M L^2 T^{-1}]\).<br/>
+Dimensional formula of speed of light: \([c] = [L T^{-1}]\).<br/>
+Dimensional formula of gravitational constant from \(F = \frac{G m_1 m_2}{r^2}\):<br/>
+\([G] = \frac{[F][r^2]}{[m^2]} = \frac{[M L T^{-2}][L^2]}{[M^2]} = [M^{-1} L^3 T^{-2}]\).</p>
+<p><strong>Step-by-Step Working:</strong><br/>
+Let the length dimension be given by:
+\[
+[L] = [h]^x [c]^y [G]^z
+\]
+Substitute the dimensional formulas:
+\[
+[M^0 L^1 T^0] = [M L^2 T^{-1}]^x [L T^{-1}]^y [M^{-1} L^3 T^{-2}]^z = [M^{x-z} L^{2x+y+3z} T^{-x-y-2z}]
+\]
+Equating exponents on both sides:
+1. For \(M\): \(x - z = 0 \implies x = z\)
+2. For \(T\): \(-x - y - 2z = 0 \implies -x - y - 2x = 0 \implies y = -3x\)
+3. For \(L\): \(2x + y + 3z = 1 \implies 2x - 3x + 3x = 1 \implies 2x = 1 \implies x = \frac{1}{2}\)
+Therefore:
+\[
+z = \frac{1}{2}, \quad y = -\frac{3}{2}
+\]
+The combination is:
+\[
+h^{1/2} c^{-3/2} G^{1/2} = \sqrt{\frac{hG}{c^3}}
+\]</p>
+<p><strong>Check and Final Answer:</strong><br/>
+Dimension of \(\frac{hG}{c^3}\) is:
+\[
+\frac{[M L^2 T^{-1}][M^{-1} L^3 T^{-2}]}{[L^3 T^{-3}]} = \frac{[L^5 T^{-3}]}{[L^3 T^{-3}]} = [L^2]
+\]
+Taking the square root gives \([L]\). Thus, the correct combination is \(\sqrt{\frac{hG}{c^3}}\).</p><hr/><p><strong>প্রদত্ত তথ্য ও শর্তাবলী:</strong><br/>
+প্রদত্ত মৌলিক ধ্রুবকগুলি হলো প্ল্যাঙ্কের ধ্রুবক \(h\), আলোর দ্রুতি \(c\) এবং সার্বজনীন মহাকর্ষীয় ধ্রুবক \(G\)। এমন একটি সমন্বয় \(L \propto h^x c^y G^z\) নির্ণয় করতে হবে যার মাত্রা দৈর্ঘ্যের মাত্রা \([L]\)-এর সমান।</p>
+<p><strong>অনুমিতি ও চিহ্নের নিয়ম:</strong><br/>
+ভর, দৈর্ঘ্য এবং সময়ের মাত্রাকে যথাক্রমে \(M\), \(L\), এবং \(T\) দ্বারা প্রকাশ করা হয়।</p>
+<p><strong>প্রাসঙ্গিক সূত্র ও মূলনীতি:</strong><br/>
+শক্তি ও কম্পাঙ্কের সম্পর্ক থেকে: \([h] = \frac{[E]}{[\nu]} = [M L^2 T^{-1}]\)।<br/>
+আলোর দ্রুতির মাত্রা: \([c] = [L T^{-1}]\)।<br/>
+নিউটনের মহাকর্ষ সূত্র থেকে: \([G] = \frac{[F][r^2]}{[m^2]} = [M^{-1} L^3 T^{-2}]\)।</p>
+<p><strong>ধাপে ধাপে সমাধান:</strong><br/>
+ধরি,
+\[
+[L] = [h]^x [c]^y [G]^z
+\]
+মাত্রাগুলি বসিয়ে পাই:
+\[
+[M^0 L^1 T^0] = [M^{x-z} L^{2x+y+3z} T^{-x-y-2z}]
+\]
+উভয়পক্ষের ঘাত তুলনা করে পাই:
+\(x - z = 0 \implies x = z\)<br/>
+\(-x - y - 2z = 0 \implies y = -3x\)<br/>
+\(2x + y + 3z = 1 \implies 2x - 3x + 3x = 1 \implies 2x = 1 \implies x = \frac{1}{2}\)<br/>
+অতএব, \(z = \frac{1}{2}\) এবং \(y = -\frac{3}{2}\)।<br/>
+নির্ণেয় রাশিমালাটি হলো:
+\[
+\sqrt{\frac{hG}{c^3}}
+\]</p>
+<p><strong>যাচাই ও চূড়ান্ত উত্তর:</strong><br/>
+রাশিটির মাত্রা নির্ণয় করে দেখা যায় \(\left[\sqrt{\frac{hG}{c^3}}\right] = \sqrt{[L^2]} = [L]\), যা দৈর্ঘ্যের মাত্রার সমান। সুতরাং সঠিক রূপটি হলো \(\sqrt{\frac{hG}{c^3}}\)।</p>]]></text>
+  </generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="100" format="html">
+    <text><![CDATA[<p>\(\sqrt{\frac{hG}{c^3}}\)</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(\sqrt{\frac{hG}{c^5}}\)</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(\sqrt{\frac{hc}{G}}\)</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(\sqrt{\frac{Gc}{h^3}}\)</p>]]></text>
+  </answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>year:2016</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:bn</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>class:class_11</text></tag>
+    <tag><text>topic:units_and_measurements</text></tag>
+    <tag><text>chapter:units_and_measurements</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:easy</text></tag>
+    <tag><text>blooms:apply</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:equation</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+<question type="multichoice">
+  <name>
+    <text>NEET_UG_PHYSICS_2016_MCQ_Q02 - Time when two cars have equal velocity</text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>Two cars P and Q start from a point at the same time in a straight line and their positions are represented by \(x_P(t) = at + bt^2\) and \(x_Q(t) = ft - t^2\). At what time do the cars have the same velocity?</p><hr/><p>দুটি গাড়ি P এবং Q একই সময়ে একই বিন্দু থেকে একটি সরলরেখা বরাবর যাত্রা শুরু করে এবং তাদের অবস্থান যথাক্রমে \(x_P(t) = at + bt^2\) এবং \(x_Q(t) = ft - t^2\) দ্বারা প্রকাশিত। কোন সময়ে গাড়ি দুটির বেগ সমান হবে?</p>]]></text>
+  </questiontext>
+  <generalfeedback format="html">
+    <text><![CDATA[<p><strong>Given Data and Conditions:</strong><br/>
+Position functions of the two cars:<br/>
+\(x_P(t) = at + bt^2\)<br/>
+\(x_Q(t) = ft - t^2\)<br/>
+Condition: The velocities of both cars are equal, i.e., \(v_P(t) = v_Q(t)\).</p>
+<p><strong>Assumptions and Sign Conventions:</strong><br/>
+Motion is one-dimensional along a straight line. Velocity is obtained by taking the first time derivative of the position function.</p>
+<p><strong>Relevant Formulae and Principles:</strong><br/>
+Instantaneous velocity: \(v(t) = \frac{dx}{dt}\).</p>
+<p><strong>Step-by-Step Working:</strong><br/>
+Differentiate \(x_P(t)\) with respect to time \(t\):
+\[
+v_P(t) = \frac{d}{dt}(at + bt^2) = a + 2bt
+\]
+Differentiate \(x_Q(t)\) with respect to time \(t\):
+\[
+v_Q(t) = \frac{d}{dt}(ft - t^2) = f - 2t
+\]
+Set the two velocities equal:
+\[
+a + 2bt = f - 2t
+\]
+Rearrange terms to isolate \(t\):
+\[
+2bt + 2t = f - a
+\]
+\[
+2t(1 + b) = f - a
+\]
+\[
+t = \frac{f - a}{2(1 + b)}
+\]</p>
+<p><strong>Check and Final Answer:</strong><br/>
+The time dimension is correct since numerator has dimension of velocity and denominator has dimension of acceleration multiplied by time, yielding time. Thus, the time at which both cars have the same velocity is \(\frac{f - a}{2(1 + b)}\).</p><hr/><p><strong>প্রদত্ত তথ্য ও শর্তাবলী:</strong><br/>
+গাড়ি দুটির অবস্থান সমীকরণ:<br/>
+\(x_P(t) = at + bt^2\)<br/>
+\(x_Q(t) = ft - t^2\)<br/>
+শর্ত: গাড়ি দুটির বেগ সমান, অর্থাৎ \(v_P(t) = v_Q(t)\)।</p>
+<p><strong>অনুমিতি ও চিহ্নের নিয়ম:</strong><br/>
+গতি একমাত্রিক সরলরেখা বরাবর। অবস্থান অপেক্ষককে সময়ের সাপেক্ষে অবকলন করে বেগ পাওয়া যায়।</p>
+<p><strong>প্রাসঙ্গিক সূত্র ও মূলনীতি:</strong><br/>
+তাৎক্ষণিক বেগ: \(v(t) = \frac{dx}{dt}\)।</p>
+<p><strong>ধাপে ধাপে সমাধান:</strong><br/>
+সময়ের সাপেক্ষে \(x_P(t)\)-এর অবকলন করে পাই:
+\[
+v_P(t) = \frac{d}{dt}(at + bt^2) = a + 2bt
+\]
+সময়ের সাপেক্ষে \(x_Q(t)\)-এর অবকলন করে পাই:
+\[
+v_Q(t) = \frac{d}{dt}(ft - t^2) = f - 2t
+\]
+বেগ দুটি সমান করে পাই:
+\[
+a + 2bt = f - 2t
+\]
+\[
+2t(1 + b) = f - a \implies t = \frac{f - a}{2(1 + b)}
+\]</p>
+<p><strong>যাচাই ও চূড়ান্ত উত্তর:</strong><br/>
+সুতরাং নির্ণেয় সময় হলো \(\frac{f - a}{2(1 + b)}\)।</p>]]></text>
+  </generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(\frac{a - f}{1 + b}\)</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(\frac{a + f}{2(b - 1)}\)</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(\frac{a + f}{2(1 + b)}\)</p>]]></text>
+  </answer>
+  <answer fraction="100" format="html">
+    <text><![CDATA[<p>\(\frac{f - a}{2(1 + b)}\)</p>]]></text>
+  </answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>year:2016</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:bn</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>class:class_11</text></tag>
+    <tag><text>topic:motion_in_a_straight_line</text></tag>
+    <tag><text>chapter:motion_in_a_straight_line</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:easy</text></tag>
+    <tag><text>blooms:apply</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:equation</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+<question type="multichoice">
+  <name>
+    <text>NEET_UG_PHYSICS_2016_MCQ_Q03 - Speed of particle in circular motion</text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>In the given figure, \(a = 15\text{ m/s}^2\) represents the total acceleration of a particle moving in the clockwise direction in the circle of radius \(R = 2.5\text{ m}\) at a given instant of time. The speed of the particle is</p><p><img src="@@PLUGINFILE@@/img-0.jpeg" alt="Circular motion with total acceleration" /></p><hr/><p>প্রদত্ত চিত্রে, একটি কণা \(R = 2.5\text{ m}\) ব্যাসার্ধের বৃত্তাকার পথে ঘড়ির কাঁটার দিকে গতিশীল এবং কোনো একটি নির্দিষ্ট মুহূর্তে তার মোট ত্বরণ \(a = 15\text{ m/s}^2\)। কণাটির দ্রুতি হলো</p><p><img src="@@PLUGINFILE@@/img-0.jpeg" alt="Circular motion with total acceleration" /></p>]]></text>
+  </questiontext>
+  <generalfeedback format="html">
+    <text><![CDATA[<p><strong>Given Data and Conditions:</strong><br/>
+Total acceleration of the particle: \(a = 15\text{ m/s}^2\).<br/>
+Radius of circular path: \(R = 2.5\text{ m}\).<br/>
+Angle between the total acceleration vector and the radial line toward the center: \(\theta = 30^\circ\).</p>
+<p><strong>Assumptions and Sign Conventions:</strong><br/>
+The total acceleration in non-uniform circular motion has two mutually perpendicular components: the radial (centripetal) acceleration \(a_c\) directed toward the center and the tangential acceleration \(a_t\) along the tangent.</p>
+<p><strong>Relevant Formulae and Principles:</strong><br/>
+Radial (centripetal) acceleration component:
+\[
+a_c = a \cos\theta
+\]
+Relationship between centripetal acceleration, speed \(v\), and radius \(R\):
+\[
+a_c = \frac{v^2}{R} \implies v = \sqrt{a_c R}
+\]</p>
+<p><strong>Step-by-Step Working:</strong><br/>
+Calculate the centripetal acceleration:
+\[
+a_c = 15 \times \cos 30^\circ = 15 \times \frac{\sqrt{3}}{2} \approx 15 \times 0.8660 = 12.99\text{ m/s}^2
+\]
+Calculate the speed of the particle:
+\[
+v = \sqrt{a_c R} = \sqrt{12.99 \times 2.5} = \sqrt{32.476} \approx 5.6988\text{ m/s} \approx 5.7\text{ m/s}
+\]</p>
+<p><strong>Check and Final Answer:</strong><br/>
+The resulting speed \(5.7\text{ m/s}\) is physically consistent with non-uniform circular motion. Thus, the speed of the particle is \(5.7\text{ m/s}\).</p><hr/><p><strong>প্রদত্ত তথ্য ও শর্তাবলী:</strong><br/>
+কণাটির মোট ত্বরণ: \(a = 15\text{ m/s}^2\)।<br/>
+বৃত্তাকার পথের ব্যাসার্ধ: \(R = 2.5\text{ m}\)।<br/>
+মোট ত্বরণ এবং কেন্দ্রের অভিমুখী ব্যাসার্ধের মধ্যবর্তী কোণ: \(\theta = 30^\circ\)।</p>
+<p><strong>অনুমিতি ও চিহ্নের নিয়ম:</strong><br/>
+বৃত্তাকার গতিতে মোট ত্বরণের দুটি পরস্পর লম্ব উপাংশ থাকে: ব্যাসার্ধ বরাবর কেন্দ্রের অভিমুখী অভিকেন্দ্র ত্বরণ \(a_c\) এবং স্পর্শক বরাবর স্পর্শকীয় ত্বরণ \(a_t\)।</p>
+<p><strong>প্রাসঙ্গিক সূত্র ও মূলনীতি:</strong><br/>
+অভিকেন্দ্র ত্বরণ:
+\[
+a_c = a \cos\theta
+\]
+দ্রুতি \(v\) এবং ব্যাসার্ধ \(R\)-এর সাথে সম্পর্ক:
+\[
+a_c = \frac{v^2}{R} \implies v = \sqrt{a_c R}
+\]</p>
+<p><strong>ধাপে ধাপে সমাধান:</strong><br/>
+অভিকেন্দ্র ত্বরণের মান:
+\[
+a_c = 15 \times \cos 30^\circ = 15 \times \frac{\sqrt{3}}{2} \approx 12.99\text{ m/s}^2
+\]
+কণাটির দ্রুতি:
+\[
+v = \sqrt{12.99 \times 2.5} = \sqrt{32.476} \approx 5.7\text{ m/s}
+\]</p>
+<p><strong>যাচাই ও চূড়ান্ত উত্তর:</strong><br/>
+সুতরাং কণাটির নির্ণেয় দ্রুতি হলো \(5.7\text{ m/s}\)।</p>]]></text>
+  </generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(4.5\text{ m/s}\)</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(5.0\text{ m/s}\)</p>]]></text>
+  </answer>
+  <answer fraction="100" format="html">
+    <text><![CDATA[<p>\(5.7\text{ m/s}\)</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(6.2\text{ m/s}\)</p>]]></text>
+  </answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>year:2016</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:bn</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>class:class_11</text></tag>
+    <tag><text>topic:motion_in_a_plane</text></tag>
+    <tag><text>chapter:motion_in_a_plane</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:medium</text></tag>
+    <tag><text>blooms:apply</text></tag>
+    <tag><text>calculation:moderate</text></tag>
+    <tag><text>media:diagram</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+<question type="multichoice">
+  <name>
+    <text>NEET_UG_PHYSICS_2016_MCQ_Q04 - Impulse imparted by wall on bouncing ball</text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>A rigid ball of mass \(m\) strikes a rigid wall at \(60^\circ\) and gets reflected without loss of speed as shown in the figure. The value of impulse imparted by the wall on the ball will be</p><p><img src="@@PLUGINFILE@@/img-1.jpeg" alt="Ball colliding with wall at sixty degrees" /></p><hr/><p>\(m\) ভরের একটি দৃঢ় বল একটি দৃঢ় দেওয়ালে \(60^\circ\) কোণে আঘাত করে এবং দ্রুতির কোনো পরিবর্তন না হয়ে চিত্রে প্রদর্শিত উপায়ে প্রতিফলিত হয়। দেওয়াল কর্তৃক বলটির উপর প্রযুক্ত বলের ঘাতের মান হবে</p><p><img src="@@PLUGINFILE@@/img-1.jpeg" alt="Ball colliding with wall at sixty degrees" /></p>]]></text>
+  </questiontext>
+  <generalfeedback format="html">
+    <text><![CDATA[<p><strong>Given Data and Conditions:</strong><br/>
+Mass of the ball = \(m\).<br/>
+Speed before and after reflection = \(V\).<br/>
+Angle made by the trajectory with the normal to the wall = \(60^\circ\).</p>
+<p><strong>Assumptions and Sign Conventions:</strong><br/>
+Let the normal to the wall be along the \(x\)-axis (inward direction as \(+\hat{i}\), outward as \(-\hat{i}\)) and the plane of the wall be along the \(y\)-axis (\(\hat{j}\)).</p>
+<p><strong>Relevant Formulae and Principles:</strong><br/>
+Impulse equals the change in linear momentum:
+\[
+\vec{J} = \Delta \vec{p} = \vec{p}_f - \vec{p}_i
+\]</p>
+<p><strong>Step-by-Step Working:</strong><br/>
+The initial velocity vector of the ball is:
+\[
+\vec{v}_i = V \cos 60^\circ\,\hat{i} - V \sin 60^\circ\,\hat{j}
+\]
+The initial momentum is:
+\[
+\vec{p}_i = m V \cos 60^\circ\,\hat{i} - m V \sin 60^\circ\,\hat{j}
+\]
+After elastic reflection, the component of velocity parallel to the wall remains unchanged, while the component perpendicular to the wall reverses direction:
+\[
+\vec{v}_f = -V \cos 60^\circ\,\hat{i} - V \sin 60^\circ\,\hat{j}
+\]
+The final momentum is:
+\[
+\vec{p}_f = -m V \cos 60^\circ\,\hat{i} - m V \sin 60^\circ\,\hat{j}
+\]
+Calculate the impulse imparted by the wall:
+\[
+\vec{J} = \vec{p}_f - \vec{p}_i = \left(-m V \cos 60^\circ - m V \cos 60^\circ\right)\hat{i} + 0\,\hat{j} = -2 m V \cos 60^\circ\,\hat{i}
+\]
+Since \(\cos 60^\circ = \frac{1}{2}\):
+\[
+|\vec{J}| = 2 m V \left(\frac{1}{2}\right) = mV
+\]</p>
+<p><strong>Check and Final Answer:</strong><br/>
+The magnitude of impulse imparted on the ball is \(mV\).</p><hr/><p><strong>প্রদত্ত তথ্য ও শর্তাবলী:</strong><br/>
+বলের ভর = \(m\)।<br/>
+প্রতিফলনের পূর্বে ও পরে দ্রুতি = \(V\)।<br/>
+দেওয়ালের অভিলম্বের সাথে কোণ = \(60^\circ\)।</p>
+<p><strong>অনুমিতি ও চিহ্নের নিয়ম:</strong><br/>
+ধরি, দেওয়ালের অভিলম্ব বরাবর একক ভেক্টর \(x\)-অক্ষ এবং দেওয়ালের তল বরাবর একক ভেক্টর \(y\)-অক্ষ নির্দেশ করে।</p>
+<p><strong>প্রাসঙ্গিক সূত্র ও মূলনীতি:</strong><br/>
+বলের ঘাত ভরবেগের পরিবর্তনের সমান:
+\[
+\vec{J} = \Delta \vec{p} = \vec{p}_f - \vec{p}_i
+\]</p>
+<p><strong>ধাপে ধাপে সমাধান:</strong><br/>
+সংঘর্ষের পূর্বে প্রাথমিক ভরবেগ:
+\[
+\vec{p}_i = m V \cos 60^\circ\,\hat{i} - m V \sin 60^\circ\,\hat{j}
+\]
+সংঘর্ষের পর চূড়ান্ত ভরবেগ:
+\[
+\vec{p}_f = -m V \cos 60^\circ\,\hat{i} - m V \sin 60^\circ\,\hat{j}
+\]
+বলের ঘাত:
+\[
+\vec{J} = \vec{p}_f - \vec{p}_i = -2 m V \cos 60^\circ\,\hat{i}
+\]
+যেহেতু \(\cos 60^\circ = \frac{1}{2}\):
+\[
+|\vec{J}| = 2 m V \left(\frac{1}{2}\right) = mV
+\]</p>
+<p><strong>যাচাই ও চূড়ান্ত উত্তর:</strong><br/>
+সুতরাং দেওয়াল কর্তৃক প্রযুক্ত বলের ঘাতের মান হলো \(mV\)।</p>]]></text>
+  </generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(\frac{mV}{2}\)</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(\frac{mV}{3}\)</p>]]></text>
+  </answer>
+  <answer fraction="100" format="html">
+    <text><![CDATA[<p>\(mV\)</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(2mV\)</p>]]></text>
+  </answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>year:2016</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:bn</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>class:class_11</text></tag>
+    <tag><text>topic:laws_of_motion</text></tag>
+    <tag><text>chapter:laws_of_motion</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:easy</text></tag>
+    <tag><text>blooms:apply</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:diagram</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+<question type="multichoice">
+  <name>
+    <text>NEET_UG_PHYSICS_2016_MCQ_Q05 - Speed of bullet emerging from wooden block</text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>A bullet of mass \(10\text{ g}\) moving horizontally with a velocity of \(400\text{ m/s}\) strikes a wooden block of mass \(2\text{ kg}\) which is suspended by a light inextensible string of length \(5\text{ m}\). As a result, the centre of gravity of the block is found to rise a vertical distance of \(10\text{ cm}\). The speed of the bullet after it emerges horizontally from the block will be</p><hr/><p>\(10\text{ g}\) ভরের একটি বুলেট অনুভূমিকভাবে \(400\text{ m/s}\) বেগে গতিশীল হয়ে \(5\text{ m}\) দৈর্ঘ্যের একটি অপ্রসার্য হালকা সুতো দ্বারা ঝুলন্ত \(2\text{ kg}\) ভরের একটি কাঠের ব্লকে আঘাত করে। এর ফলে ব্লকটির ভরকেন্দ্র উলম্বভাবে \(10\text{ cm}\) উচ্চতায় ওঠে। ব্লকটি থেকে অনুভূমিকভাবে নির্গত হওয়ার পর বুলেটের দ্রুতি কত হবে?</p>]]></text>
+  </questiontext>
+  <generalfeedback format="html">
+    <text><![CDATA[<p><strong>Given Data and Conditions:</strong><br/>
+Mass of bullet: \(m = 10\text{ g} = 0.01\text{ kg}\).<br/>
+Initial velocity of bullet: \(u = 400\text{ m/s}\).<br/>
+Mass of wooden block: \(M = 2\text{ kg}\).<br/>
+Vertical rise of block's centre of gravity: \(h = 10\text{ cm} = 0.1\text{ m}\).<br/>
+Acceleration due to gravity: \(g = 9.8\text{ m/s}^2\).</p>
+<p><strong>Assumptions and Sign Conventions:</strong><br/>
+Linear momentum is conserved horizontally during the brief collision interval between the bullet and the block. After the bullet emerges, the mechanical energy of the swinging block is conserved.</p>
+<p><strong>Relevant Formulae and Principles:</strong><br/>
+1. Conservation of mechanical energy for the block after collision:
+\[
+\frac{1}{2} M V^2 = M g h \implies V = \sqrt{2gh}
+\]
+where \(V\) is the velocity acquired by the block immediately after the bullet emerges.<br/>
+2. Conservation of linear momentum along the horizontal direction:
+\[
+m u = m v + M V
+\]
+where \(v\) is the emerging speed of the bullet.</p>
+<p><strong>Step-by-Step Working:</strong><br/>
+Find the speed of the block immediately after impact:
+\[
+V = \sqrt{2 \times 9.8 \times 0.1} = \sqrt{1.96} = 1.4\text{ m/s}
+\]
+Apply the conservation of momentum equation:
+\[
+0.01 \times 400 = (0.01 \times v) + (2 \times 1.4)
+\]
+\[
+4.0 = 0.01v + 2.8
+\]
+\[
+0.01v = 4.0 - 2.8 = 1.2
+\]
+\[
+v = \frac{1.2}{0.01} = 120\text{ m/s}
+\]</p>
+<p><strong>Check and Final Answer:</strong><br/>
+The bullet slows down from \(400\text{ m/s}\) to \(120\text{ m/s}\), imparting kinetic energy to the block. Thus, the speed of the bullet upon emerging is \(120\text{ m/s}\).</p><hr/><p><strong>প্রদত্ত তথ্য ও শর্তাবলী:</strong><br/>
+বুলেটের ভর: \(m = 10\text{ g} = 0.01\text{ kg}\)।<br/>
+বুলেটের প্রাথমিক বেগ: \(u = 400\text{ m/s}\)।<br/>
+কাঠের ব্লকের ভর: \(M = 2\text{ kg}\)।<br/>
+ব্লকের ভরকেন্দ্রের উলম্ব সরণ: \(h = 10\text{ cm} = 0.1\text{ m}\)।<br/>
+অভিকর্ষজ ত্বরণ: \(g = 9.8\text{ m/s}^2\)।</p>
+<p><strong>অনুমিতি ও চিহ্নের নিয়ম:</strong><br/>
+সংঘর্ষ চলাকালীন অনুভূমিক দিকে রৈখিক ভরবেগ সংরক্ষিত থাকে। সংঘর্ষের পর ব্লকের যান্ত্রিক শক্তি সংরক্ষিত থাকে।</p>
+<p><strong>প্রাসঙ্গিক সূত্র ও মূলনীতি:</strong><br/>
+ব্লকের ক্ষেত্রে শক্তির সংরক্ষণশীলতা:
+\[
+V = \sqrt{2gh}
+\]
+অনুভূমিক দিকে রৈখিক ভরবেগের সংরক্ষণশীলতা:
+\[
+m u = m v + M V
+\]</p>
+<p><strong>ধাপে ধাপে সমাধান:</strong><br/>
+সংঘর্ষের ঠিক পরেই ব্লকের অর্জিত বেগ:
+\[
+V = \sqrt{2 \times 9.8 \times 0.1} = \sqrt{1.96} = 1.4\text{ m/s}
+\]
+ভরবেগের সংরক্ষণ সূত্র প্রয়োগ করে পাই:
+\[
+0.01 \times 400 = 0.01v + 2 \times 1.4
+\]
+\[
+4.0 = 0.01v + 2.8 \implies 0.01v = 1.2 \implies v = 120\text{ m/s}
+\]</p>
+<p><strong>যাচাই ও চূড়ান্ত উত্তর:</strong><br/>
+অতএব, ব্লক থেকে নির্গত হওয়ার পর বুলেটের দ্রুতি হলো \(120\text{ m/s}\)।</p>]]></text>
+  </generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(100\text{ m/s}\)</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(80\text{ m/s}\)</p>]]></text>
+  </answer>
+  <answer fraction="100" format="html">
+    <text><![CDATA[<p>\(120\text{ m/s}\)</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(160\text{ m/s}\)</p>]]></text>
+  </answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>year:2016</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:bn</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>class:class_11</text></tag>
+    <tag><text>topic:work_energy_and_power</text></tag>
+    <tag><text>chapter:work_energy_and_power</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:medium</text></tag>
+    <tag><text>blooms:apply</text></tag>
+    <tag><text>calculation:moderate</text></tag>
+    <tag><text>media:text</text></tag>
+    <tag><text>multiconcept:true</text></tag>
+  </tags>
+</question>
+<question type="multichoice">
+  <name>
+    <text>NEET_UG_PHYSICS_2016_MCQ_Q06 - Velocities after one dimensional elastic collision</text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>Two identical balls A and B having velocities of \(0.5\text{ m/s}\) and \(-0.3\text{ m/s}\) respectively collide elastically in one dimension. The velocities of B and A after the collision respectively will be</p><hr/><p>\(0.5\text{ m/s}\) এবং \(-0.3\text{ m/s}\) বেগসম্পন্ন দুটি অভিন্ন বল A এবং B-এর মধ্যে একমাত্রিক স্থিতিস্থাপক সংঘর্ষ ঘটে। সংঘর্ষের পর যথাক্রমে B এবং A-এর বেগ হবে</p>]]></text>
+  </questiontext>
+  <generalfeedback format="html">
+    <text><![CDATA[<p><strong>Given Data and Conditions:</strong><br/>
+Two identical balls of equal mass: \(m_A = m_B = m\).<br/>
+Initial velocity of ball A: \(u_A = 0.5\text{ m/s}\).<br/>
+Initial velocity of ball B: \(u_B = -0.3\text{ m/s}\).<br/>
+Type of collision: One-dimensional elastic collision (\(e = 1\)).</p>
+<p><strong>Assumptions and Sign Conventions:</strong><br/>
+Motion is along a single straight line. Velocities in one direction are taken as positive and opposite as negative.</p>
+<p><strong>Relevant Formulae and Principles:</strong><br/>
+For a head-on elastic collision between two bodies of equal mass (\(m_1 = m_2\)):
+\[
+v_1 = \left(\frac{m_1 - m_2}{m_1 + m_2}\right)u_1 + \left(\frac{2m_2}{m_1 + m_2}\right)u_2
+\]
+\[
+v_2 = \left(\frac{2m_1}{m_1 + m_2}\right)u_1 + \left(\frac{m_2 - m_1}{m_1 + m_2}\right)u_2
+\]
+When masses are identical, the bodies exchange their velocities completely:
+\[
+v_A = u_B \quad \text{and} \quad v_B = u_A
+\]</p>
+<p><strong>Step-by-Step Working:</strong><br/>
+Applying velocity exchange:
+The final velocity of ball A is:
+\[
+v_A = u_B = -0.3\text{ m/s}
+\]
+The final velocity of ball B is:
+\[
+v_B = u_A = 0.5\text{ m/s}
+\]
+The question specifically asks for the velocities of B and A respectively:
+\[
+v_B = 0.5\text{ m/s} \quad \text{and} \quad v_A = -0.3\text{ m/s}
+\]</p>
+<p><strong>Check and Final Answer:</strong><br/>
+Total initial momentum: \(m(0.5) + m(-0.3) = 0.2m\).<br/>
+Total final momentum: \(m(-0.3) + m(0.5) = 0.2m\). Momentum and kinetic energy are conserved.<br/>
+Thus, the velocities of B and A after collision are respectively \(0.5\text{ m/s}\) and \(-0.3\text{ m/s}\).</p><hr/><p><strong>প্রদত্ত তথ্য ও শর্তাবলী:</strong><br/>
+দুটি অভিন্ন বলের ভর সমান: \(m_A = m_B = m\)।<br/>
+বল A-এর প্রাথমিক বেগ: \(u_A = 0.5\text{ m/s}\)।<br/>
+বল B-এর প্রাথমিক বেগ: \(u_B = -0.3\text{ m/s}\)।<br/>
+সংঘর্ষটি একমাত্রিক স্থিতিস্থাপক (\(e = 1\))।</p>
+<p><strong>অনুমিতি ও চিহ্নের নিয়ম:</strong><br/>
+গতি সরলরৈখিক। নির্দিষ্ট দিকে ধনাত্মক এবং বিপরীত দিকে ঋণাত্মক বেগ ধরা হয়েছে।</p>
+<p><strong>প্রাসঙ্গিক সূত্র ও মূলনীতি:</strong><br/>
+সমান ভরের দুটি বস্তুর মধ্যে একমাত্রিক পূর্ণ স্থিতিস্থাপক সংঘর্ষ হলে বস্তু দুটি পরস্পরের মধ্যে বেগের বিনিময় ঘটায়:
+\[
+v_A = u_B \quad \text{এবং} \quad v_B = u_A
+\]</p>
+<p><strong>ধাপে ধাপে সমাধান:</strong><br/>
+বেগের বিনিময় ঘটিয়ে পাই:
+সংঘর্ষের পর A-এর বেগ:
+\[
+v_A = u_B = -0.3\text{ m/s}
+\]
+সংঘর্ষের পর B-এর বেগ:
+\[
+v_B = u_A = 0.5\text{ m/s}
+\]
+প্রশ্নানুসারে, যথাক্রমে B এবং A-এর বেগ চাওয়া হয়েছে:
+\[
+0.5\text{ m/s} \quad \text{এবং} \quad -0.3\text{ m/s}
+\]</p>
+<p><strong>যাচাই ও চূড়ান্ত উত্তর:</strong><br/>
+সুতরাং সংঘর্ষের পর যথাক্রমে B এবং A-এর বেগ হবে \(0.5\text{ m/s}\) এবং \(-0.3\text{ m/s}\)।</p>]]></text>
+  </generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(-0.5\text{ m/s}\) and \(0.3\text{ m/s}\)</p>]]></text>
+  </answer>
+  <answer fraction="100" format="html">
+    <text><![CDATA[<p>\(0.5\text{ m/s}\) and \(-0.3\text{ m/s}\)</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(-0.3\text{ m/s}\) and \(0.5\text{ m/s}\)</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(0.3\text{ m/s}\) and \(0.5\text{ m/s}\)</p>]]></text>
+  </answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>year:2016</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:bn</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>class:class_11</text></tag>
+    <tag><text>topic:work_energy_and_power</text></tag>
+    <tag><text>chapter:work_energy_and_power</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:easy</text></tag>
+    <tag><text>blooms:apply</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:text</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+<question type="multichoice">
+  <name>
+    <text>NEET_UG_PHYSICS_2016_MCQ_Q07 - Work done by constant force on particle</text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>A particle moves from a point \((-2\hat{i} + 5\hat{j})\) to \((4\hat{j} + 3\hat{k})\) when a force of \((4\hat{i} + 3\hat{j})\text{ N}\) is applied. How much work has been done by the force?</p><hr/><p>একটি কণার উপর \((4\hat{i} + 3\hat{j})\text{ N}\) বল প্রয়োগ করায় কণাটি \((-2\hat{i} + 5\hat{j})\) বিন্দু থেকে \((4\hat{j} + 3\hat{k})\) বিন্দুতে স্থানান্তরিত হয়। বলটি দ্বারা কৃতকার্যের পরিমাণ কত?</p>]]></text>
+  </questiontext>
+  <generalfeedback format="html">
+    <text><![CDATA[<p><strong>Given Data and Conditions:</strong><br/>
+Initial position vector: \(\vec{r}_1 = -2\hat{i} + 5\hat{j} + 0\hat{k}\).<br/>
+Final position vector: \(\vec{r}_2 = 0\hat{i} + 4\hat{j} + 3\hat{k}\).<br/>
+Applied force: \(\vec{F} = (4\hat{i} + 3\hat{j})\text{ N} = 4\hat{i} + 3\hat{j} + 0\hat{k}\text{ N}\).</p>
+<p><strong>Assumptions and Sign Conventions:</strong><br/>
+The force is constant throughout the displacement. Work done is the scalar (dot) product of force and displacement vectors.</p>
+<p><strong>Relevant Formulae and Principles:</strong><br/>
+Displacement vector:
+\[
+\Delta \vec{r} = \vec{r}_2 - \vec{r}_1
+\]
+Work done:
+\[
+W = \vec{F} \cdot \Delta \vec{r} = F_x \Delta x + F_y \Delta y + F_z \Delta z
+\]</p>
+<p><strong>Step-by-Step Working:</strong><br/>
+Determine the displacement vector:
+\[
+\Delta \vec{r} = (0 - (-2))\hat{i} + (4 - 5)\hat{j} + (3 - 0)\hat{k} = 2\hat{i} - \hat{j} + 3\hat{k}
+\]
+Calculate the work done via dot product:
+\[
+W = (4\hat{i} + 3\hat{j} + 0\hat{k}) \cdot (2\hat{i} - \hat{j} + 3\hat{k})
+\]
+\[
+W = (4 \times 2) + (3 \times (-1)) + (0 \times 3) = 8 - 3 + 0 = 5\text{ J}
+\]</p>
+<p><strong>Check and Final Answer:</strong><br/>
+The positive work indicates that the component of force along displacement is positive, resulting in \(5\text{ J}\) of work done.</p><hr/><p><strong>প্রদত্ত তথ্য ও শর্তাবলী:</strong><br/>
+প্রাথমিক অবস্থান ভেক্টর: \(\vec{r}_1 = -2\hat{i} + 5\hat{j} + 0\hat{k}\)।<br/>
+চূড়ান্ত অবস্থান ভেক্টর: \(\vec{r}_2 = 0\hat{i} + 4\hat{j} + 3\hat{k}\)।<br/>
+প্রযুক্ত বল: \(\vec{F} = 4\hat{i} + 3\hat{j} + 0\hat{k}\text{ N}\)।</p>
+<p><strong>অনুমিতি ও চিহ্নের নিয়ম:</strong><br/>
+বলটি ধ্রুবক। বল ও সরণ ভেক্টরের ডট গুণফলের মাধ্যমে কৃতকার্য নির্ণয় করা হয়।</p>
+<p><strong>প্রাসঙ্গিক সূত্র ও মূলনীতি:</strong><br/>
+সরণ ভেক্টর:
+\[
+\Delta \vec{r} = \vec{r}_2 - \vec{r}_1
+\]
+কৃতকার্য:
+\[
+W = \vec{F} \cdot \Delta \vec{r}
+\]</p>
+<p><strong>ধাপে ধাপে সমাধান:</strong><br/>
+সরণ ভেক্টর নির্ণয়:
+\[
+\Delta \vec{r} = (0 - (-2))\hat{i} + (4 - 5)\hat{j} + (3 - 0)\hat{k} = 2\hat{i} - \hat{j} + 3\hat{k}
+\]
+স্কেলার গুণফল নির্ণয় করে পাই:
+\[
+W = (4 \times 2) + (3 \times (-1)) + (0 \times 3) = 8 - 3 = 5\text{ J}
+\]</p>
+<p><strong>যাচাই ও চূড়ান্ত উত্তর:</strong><br/>
+সুতরাং বলটি দ্বারা কৃতকার্যের মান হলো \(5\text{ J}\)।</p>]]></text>
+  </generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(8\text{ J}\)</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(11\text{ J}\)</p>]]></text>
+  </answer>
+  <answer fraction="100" format="html">
+    <text><![CDATA[<p>\(5\text{ J}\)</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(2\text{ J}\)</p>]]></text>
+  </answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>year:2016</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:bn</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>class:class_11</text></tag>
+    <tag><text>topic:work_energy_and_power</text></tag>
+    <tag><text>chapter:work_energy_and_power</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:easy</text></tag>
+    <tag><text>blooms:apply</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:equation</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+<question type="multichoice">
+  <name>
+    <text>NEET_UG_PHYSICS_2016_MCQ_Q08 - Angular momentum comparison of rotating bodies</text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>Two rotating bodies A and B of masses \(m\) and \(2m\) with moments of inertia \(I_A\) and \(I_B\) (\(I_B > I_A\)) have equal kinetic energy of rotation. If \(L_A\) and \(L_B\) be their angular momenta respectively, then</p><hr/><p>\(m\) এবং \(2m\) ভরের দুটি ঘূর্ণনশীল বস্তু A এবং B-এর জড়তা ভ্রামক যথাক্রমে \(I_A\) এবং \(I_B\) (\(I_B > I_A\))। তাদের ঘূর্ণন গতিশক্তি সমান। যদি \(L_A\) এবং \(L_B\) যথাক্রমে তাদের কৌণিক ভরবেগ হয়, তবে</p>]]></text>
+  </questiontext>
+  <generalfeedback format="html">
+    <text><![CDATA[<p><strong>Given Data and Conditions:</strong><br/>
+Moments of inertia: \(I_A\) and \(I_B\) such that \(I_B > I_A\).<br/>
+Kinetic energies of rotation are equal: \(K_A = K_B = K\).<br/>
+Angular momenta are \(L_A\) and \(L_B\).</p>
+<p><strong>Assumptions and Sign Conventions:</strong><br/>
+The bodies undergo pure rotation about fixed axes.</p>
+<p><strong>Relevant Formulae and Principles:</strong><br/>
+Rotational kinetic energy expressed in terms of angular momentum \(L\) and moment of inertia \(I\):
+\[
+K = \frac{L^2}{2I} \implies L = \sqrt{2IK}
+\]</p>
+<p><strong>Step-by-Step Working:</strong><br/>
+For body A:
+\[
+L_A = \sqrt{2 I_A K}
+\]
+For body B:
+\[
+L_B = \sqrt{2 I_B K}
+\]
+Taking the ratio:
+\[
+\frac{L_B}{L_A} = \sqrt{\frac{I_B}{I_A}}
+\]
+Since it is given that \(I_B > I_A\):
+\[
+\frac{I_B}{I_A} > 1 \implies \sqrt{\frac{I_B}{I_A}} > 1 \implies \frac{L_B}{L_A} > 1 \implies L_B > L_A
+\]</p>
+<p><strong>Check and Final Answer:</strong><br/>
+For a given kinetic energy, the body with a larger moment of inertia possesses a larger angular momentum. Thus, the relationship is \(L_B > L_A\).</p><hr/><p><strong>প্রদত্ত তথ্য ও শর্তাবলী:</strong><br/>
+বস্তুদ্বয়ের জড়তা ভ্রামক \(I_A\) এবং \(I_B\), যেখানে \(I_B > I_A\)।<br/>
+ঘূর্ণন গতিশক্তি সমান: \(K_A = K_B = K\)।<br/>
+কৌণিক ভরবেগ যথাক্রমে \(L_A\) এবং \(L_B\)।</p>
+<p><strong>অনুমিতি ও চিহ্নের নিয়ম:</strong><br/>
+বস্তু দুটি নির্দিষ্ট অক্ষের সাপেক্ষে বিশুদ্ধ ঘূর্ণন গতিতে রয়েছে।</p>
+<p><strong>প্রাসঙ্গিক সূত্র ও মূলনীতি:</strong><br/>
+কৌণিক ভরবেগ এবং জড়তা ভ্রামকের মাধ্যমে ঘূর্ণন গতিশক্তি:
+\[
+K = \frac{L^2}{2I} \implies L = \sqrt{2IK}
+\]</p>
+<p><strong>ধাপে ধাপে সমাধান:</strong><br/>
+উভয় বস্তুর গতিশক্তি সমান হওয়ায়:
+\[
+L_A = \sqrt{2 I_A K} \quad \text{এবং} \quad L_B = \sqrt{2 I_B K}
+\]
+অনুপাত নির্ণয় করে পাই:
+\[
+\frac{L_B}{L_A} = \sqrt{\frac{I_B}{I_A}}
+\]
+যেহেতু \(I_B > I_A\), তাই \(\sqrt{\frac{I_B}{I_A}} > 1\), যার ফলে \(L_B > L_A\)।</p>
+<p><strong>যাচাই ও চূড়ান্ত উত্তর:</strong><br/>
+সুতরাং নির্ণেয় সম্পর্কটি হলো \(L_B > L_A\)।</p>]]></text>
+  </generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(L_A = \frac{L_B}{2}\)</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(L_A = 2L_B\)</p>]]></text>
+  </answer>
+  <answer fraction="100" format="html">
+    <text><![CDATA[<p>\(L_B > L_A\)</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(L_A > L_B\)</p>]]></text>
+  </answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>year:2016</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:bn</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>class:class_11</text></tag>
+    <tag><text>topic:system_of_particles_and_rotational_motion</text></tag>
+    <tag><text>chapter:system_of_particles_and_rotational_motion</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:easy</text></tag>
+    <tag><text>blooms:understand</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:equation</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+<question type="multichoice">
+  <name>
+    <text>NEET_UG_PHYSICS_2016_MCQ_Q09 - Ratio of rotational kinetic energies</text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>A solid sphere of mass \(m\) and radius \(R\) is rotating about its diameter. A solid cylinder of the same mass and same radius is also rotating about its geometrical axis with an angular speed twice that of the sphere. The ratio of their kinetic energies of rotation \(\left(\frac{E_{\text{sphere}}}{E_{\text{cylinder}}}\right)\) will be</p><hr/><p>\(m\) ভর এবং \(R\) ব্যাসার্ধের একটি নিরেট গোলক তার একটি ব্যাসের সাপেক্ষে ঘুরছে। একই ভর ও একই ব্যাসার্ধের একটি নিরেট চোঙও তার জ্যামিতিক অক্ষের সাপেক্ষে গোলকের দ্বিগুণ কৌণিক দ্রুতিতে ঘুরছে। তাদের ঘূর্ণন গতিশক্তির অনুপাত \(\left(\frac{E_{\text{sphere}}}{E_{\text{cylinder}}}\right)\) হবে</p>]]></text>
+  </questiontext>
+  <generalfeedback format="html">
+    <text><![CDATA[<p><strong>Given Data and Conditions:</strong><br/>
+Solid sphere: mass \(m\), radius \(R\), angular speed \(\omega_{\text{sphere}} = \omega\).<br/>
+Solid cylinder: mass \(m\), radius \(R\), angular speed \(\omega_{\text{cylinder}} = 2\omega\).</p>
+<p><strong>Assumptions and Sign Conventions:</strong><br/>
+The solid sphere rotates about its diameter; the solid cylinder rotates about its central longitudinal geometrical axis.</p>
+<p><strong>Relevant Formulae and Principles:</strong><br/>
+Moment of inertia of a solid sphere about its diameter:
+\[
+I_{\text{sphere}} = \frac{2}{5} m R^2
+\]
+Moment of inertia of a solid cylinder about its geometrical axis:
+\[
+I_{\text{cylinder}} = \frac{1}{2} m R^2
+\]
+Rotational kinetic energy:
+\[
+E = \frac{1}{2} I \omega^2
+\]</p>
+<p><strong>Step-by-Step Working:</strong><br/>
+Kinetic energy of the solid sphere:
+\[
+E_{\text{sphere}} = \frac{1}{2} I_{\text{sphere}} \omega_{\text{sphere}}^2 = \frac{1}{2} \left(\frac{2}{5} m R^2\right) \omega^2 = \frac{1}{5} m R^2 \omega^2
+\]
+Kinetic energy of the solid cylinder:
+\[
+E_{\text{cylinder}} = \frac{1}{2} I_{\text{cylinder}} \omega_{\text{cylinder}}^2 = \frac{1}{2} \left(\frac{1}{2} m R^2\right) (2\omega)^2 = \frac{1}{4} m R^2 (4\omega^2) = m R^2 \omega^2
+\]
+Taking the ratio:
+\[
+\frac{E_{\text{sphere}}}{E_{\text{cylinder}}} = \frac{\frac{1}{5} m R^2 \omega^2}{m R^2 \omega^2} = \frac{1}{5}
+\]</p>
+<p><strong>Check and Final Answer:</strong><br/>
+The ratio is expressed as \(1 : 5\).</p><hr/><p><strong>প্রদত্ত তথ্য ও শর্তাবলী:</strong><br/>
+নিরেট গোলক: ভর \(m\), ব্যাসার্ধ \(R\), কৌণিক বেগ \(\omega_{\text{sphere}} = \omega\)।<br/>
+নিরেট চোঙ: ভর \(m\), ব্যাসার্ধ \(R\), কৌণিক বেগ \(\omega_{\text{cylinder}} = 2\omega\)।</p>
+<p><strong>অনুমিতি ও চিহ্নের নিয়ম:</strong><br/>
+গোলকটি তার ব্যাস বরাবর অক্ষের সাপেক্ষে এবং চোঙটি তার কেন্দ্রীয় জ্যামিতিক অক্ষের সাপেক্ষে ঘূর্ণায়মান।</p>
+<p><strong>প্রাসঙ্গিক সূত্র ও মূলনীতি:</strong><br/>
+ব্যাস সাপেক্ষে নিরেট গোলকের জড়তা ভ্রামক:
+\[
+I_{\text{sphere}} = \frac{2}{5} m R^2
+\]
+জ্যামিতিক অক্ষ সাপেক্ষে নিরেট চোঙের জড়তা ভ্রামক:
+\[
+I_{\text{cylinder}} = \frac{1}{2} m R^2
+\]
+ঘূর্ণন গতিশক্তি:
+\[
+E = \frac{1}{2} I \omega^2
+\]</p>
+<p><strong>ধাপে ধাপে সমাধান:</strong><br/>
+গোলকের ঘূর্ণন গতিশক্তি:
+\[
+E_{\text{sphere}} = \frac{1}{2} \left(\frac{2}{5} m R^2\right) \omega^2 = \frac{1}{5} m R^2 \omega^2
+\]
+চোঙের ঘূর্ণন গতিশক্তি:
+\[
+E_{\text{cylinder}} = \frac{1}{2} \left(\frac{1}{2} m R^2\right) (2\omega)^2 = m R^2 \omega^2
+\]
+উভয়ের অনুপাত:
+\[
+\frac{E_{\text{sphere}}}{E_{\text{cylinder}}} = \frac{\frac{1}{5} m R^2 \omega^2}{m R^2 \omega^2} = \frac{1}{5}
+\]</p>
+<p><strong>যাচাই ও চূড়ান্ত উত্তর:</strong><br/>
+সুতরাং নির্ণেয় অনুপাতটি হলো \(1 : 5\)।</p>]]></text>
+  </generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(2 : 3\)</p>]]></text>
+  </answer>
+  <answer fraction="100" format="html">
+    <text><![CDATA[<p>\(1 : 5\)</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(1 : 4\)</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(3 : 1\)</p>]]></text>
+  </answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>year:2016</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:bn</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>class:class_11</text></tag>
+    <tag><text>topic:system_of_particles_and_rotational_motion</text></tag>
+    <tag><text>chapter:system_of_particles_and_rotational_motion</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:easy</text></tag>
+    <tag><text>blooms:apply</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:equation</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+<question type="multichoice">
+  <name>
+    <text>NEET_UG_PHYSICS_2016_MCQ_Q10 - Moment of inertia about centre of mass</text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>A light rod of length \(l\) has two masses \(m_1\) and \(m_2\) attached to its two ends. The moment of inertia of the system about an axis perpendicular to the rod and passing through the centre of mass is</p><hr/><p>\(l\) দৈর্ঘ্যের একটি হালকা দণ্ডের দুই প্রান্তে \(m_1\) এবং \(m_2\) ভরের দুটি বস্তু যুক্ত আছে। দণ্ডটির সাথে লম্ব এবং সংস্থার ভরকেন্দ্র দিয়ে গমনকারী অক্ষের সাপেক্ষে সংস্থাটির জড়তা ভ্রামক হলো</p>]]></text>
+  </questiontext>
+  <generalfeedback format="html">
+    <text><![CDATA[<p><strong>Given Data and Conditions:</strong><br/>
+Masses attached at the ends: \(m_1\) and \(m_2\).<br/>
+Length of the light (negligible mass) rod: \(l\).<br/>
+Axis of rotation: Perpendicular to the rod, passing through the centre of mass of the two-particle system.</p>
+<p><strong>Assumptions and Sign Conventions:</strong><br/>
+The mass of the rod is negligible. The masses \(m_1\) and \(m_2\) are treated as point masses situated at the ends of the rod.</p>
+<p><strong>Relevant Formulae and Principles:</strong><br/>
+Let the centre of mass be at distance \(r_1\) from \(m_1\) and \(r_2\) from \(m_2\), with \(r_1 + r_2 = l\).<br/>
+Condition for centre of mass:
+\[
+m_1 r_1 = m_2 r_2 \implies r_1 = \frac{m_2}{m_1 + m_2} l, \quad r_2 = \frac{m_1}{m_1 + m_2} l
+\]
+Moment of inertia of the system about the axis through the centre of mass:
+\[
+I = m_1 r_1^2 + m_2 r_2^2
+\]</p>
+<p><strong>Step-by-Step Working:</strong><br/>
+Substitute \(r_1\) and \(r_2\) into the expression for \(I\):
+\[
+I = m_1 \left(\frac{m_2 l}{m_1 + m_2}\right)^2 + m_2 \left(\frac{m_1 l}{m_1 + m_2}\right)^2
+\]
+Expand the terms:
+\[
+I = \frac{m_1 m_2^2 l^2}{(m_1 + m_2)^2} + \frac{m_2 m_1^2 l^2}{(m_1 + m_2)^2}
+\]
+Factor out the common terms:
+\[
+I = \frac{m_1 m_2 (m_2 + m_1) l^2}{(m_1 + m_2)^2} = \frac{m_1 m_2}{m_1 + m_2} l^2
+\]</p>
+<p><strong>Check and Final Answer:</strong><br/>
+The result corresponds to \(\mu l^2\), where \(\mu = \frac{m_1 m_2}{m_1 + m_2}\) is the reduced mass of the two-body system, which is dimensionally and physically correct. Thus, the moment of inertia is \(\frac{m_1 m_2}{m_1 + m_2} l^2\).</p><hr/><p><strong>প্রদত্ত তথ্য ও শর্তাবলী:</strong><br/>
+দণ্ডের দুই প্রান্তে যুক্ত ভর: \(m_1\) এবং \(m_2\)।<br/>
+হালকা দণ্ডটির দৈর্ঘ্য: \(l\)।<br/>
+ঘূর্ণন অক্ষ: দণ্ডের সাথে লম্ব এবং সংস্থার ভরকেন্দ্রগামী।</p>
+<p><strong>অনুমিতি ও চিহ্নের নিয়ম:</strong><br/>
+দণ্ডের ভর নগণ্য ধরা হয়েছে এবং প্রান্তের ভর দুটিকে বিন্দু ভর হিসেবে বিবেচনা করা হয়েছে।</p>
+<p><strong>প্রাসঙ্গিক সূত্র ও মূলনীতি:</strong><br/>
+ভরকেন্দ্র থেকে \(m_1\) এবং \(m_2\)-এর দূরত্ব যথাক্রমে \(r_1\) ও \(r_2\) হলে:
+\[
+r_1 = \frac{m_2}{m_1 + m_2} l, \quad r_2 = \frac{m_1}{m_1 + m_2} l
+\]
+ভরকেন্দ্রের সাপেক্ষে মোট জড়তা ভ্রামক:
+\[
+I = m_1 r_1^2 + m_2 r_2^2
+\]</p>
+<p><strong>ধাপে ধাপে সমাধান:</strong><br/>
+\(r_1\) এবং \(r_2\)-এর মান বসিয়ে পাই:
+\[
+I = m_1 \left(\frac{m_2 l}{m_1 + m_2}\right)^2 + m_2 \left(\frac{m_1 l}{m_1 + m_2}\right)^2
+\]
+\[
+I = \frac{m_1 m_2^2 + m_2 m_1^2}{(m_1 + m_2)^2} l^2 = \frac{m_1 m_2 (m_1 + m_2)}{(m_1 + m_2)^2} l^2 = \frac{m_1 m_2}{m_1 + m_2} l^2
+\]</p>
+<p><strong>যাচাই ও চূড়ান্ত উত্তর:</strong><br/>
+সংস্থাটির নির্ণেয় জড়তা ভ্রামক হলো \(\frac{m_1 m_2}{m_1 + m_2} l^2\)।</p>]]></text>
+  </generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="100" format="html">
+    <text><![CDATA[<p>\(\frac{m_1 m_2}{m_1 + m_2} l^2\)</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(\frac{m_1 + m_2}{m_1 m_2} l^2\)</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\((m_1 + m_2) l^2\)</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(\sqrt{m_1 m_2} l^2\)</p>]]></text>
+  </answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>year:2016</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:bn</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>class:class_11</text></tag>
+    <tag><text>topic:system_of_particles_and_rotational_motion</text></tag>
+    <tag><text>chapter:system_of_particles_and_rotational_motion</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:easy</text></tag>
+    <tag><text>blooms:apply</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:equation</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+</quiz>

@@ -1,0 +1,1083 @@
+<question type="multichoice">
+  <name><text>NEET_UG_PHYSICS_2019_MCQ_Q12 - Work done to raise a mass to height equal to Earth radius</text></name>
+  <questiontext format="html">
+    <text><![CDATA[
+      <p>The work done to raise a mass \( m \) from the surface of the earth to a height \( h \), which is equal to the radius of the earth, is</p>
+      <hr/>
+      <p>পৃথিবীর পৃষ্ঠ থেকে পৃথিবীর ব্যাসার্ধের সমান উচ্চতা \( h \)-তে একটি \( m \) ভরের বস্তুকে তুলতে কৃতকার্যের মান হলো</p>
+    ]]></text>
+  </questiontext>
+  <generalfeedback format="html">
+    <text><![CDATA[
+      <p><strong>Given Data and Conditions:</strong><br/>
+      Mass of the body: \( m \)<br/>
+      Mass of the Earth: \( M \)<br/>
+      Radius of the Earth: \( R \)<br/>
+      Height above the Earth's surface: \( h = R \)<br/>
+      Acceleration due to gravity at the surface: \( g = \frac{GM}{R^2} \implies GM = gR^2 \)</p>
+      <p><strong>Relevant Formulae and Principles:</strong><br/>
+      The work done \( W \) against the gravitational force equals the change in gravitational potential energy of the body:<br/>
+      \[ W = \Delta U = U_f - U_i \]<br/>
+      The gravitational potential energy at a distance \( r \) from the centre of the Earth is:<br/>
+      \[ U(r) = -\frac{GMm}{r} \]</p>
+      <p><strong>Step-by-Step Working:</strong><br/>
+      1. Initial distance from the Earth's centre (at the surface): \( r_i = R \)<br/>
+      \[ U_i = -\frac{GMm}{R} \]<br/>
+      2. Final distance from the Earth's centre: \( r_f = R + h = R + R = 2R \)<br/>
+      \[ U_f = -\frac{GMm}{2R} \]<br/>
+      3. Compute the change in potential energy:<br/>
+      \[ W = U_f - U_i = \left(-\frac{GMm}{2R}\right) - \left(-\frac{GMm}{R}\right) = \frac{GMm}{R} - \frac{GMm}{2R} = \frac{GMm}{2R} \]<br/>
+      4. Express in terms of surface gravitational acceleration \( g \) using \( GM = gR^2 \):<br/>
+      \[ W = \frac{(gR^2)m}{2R} = \frac{1}{2}mgR \]</p>
+      <p><strong>Check and Final Answer:</strong><br/>
+      The required work done is \( \frac{1}{2}mgR \).</p>
+      <hr/>
+      <p><strong>প্রদত্ত তথ্য এবং শর্তাবলী:</strong><br/>
+      বস্তুর ভর: \( m \)<br/>
+      পৃথিবীর ব্যাসার্ধ: \( R \)<br/>
+      উচ্চতা: \( h = R \)<br/>
+      ভূপৃষ্ঠে অভিকর্ষজ ত্বরণ: \( g = \frac{GM}{R^2} \implies GM = gR^2 \)</p>
+      <p><strong>প্রাসঙ্গিক সূত্র ও নীতি:</strong><br/>
+      অভিকর্ষীয় বলের বিরুদ্ধে কৃতকার্য স্থিতিশক্তির পরিবর্তনের সমান:<br/>
+      \[ W = \Delta U = U_f - U_i \]<br/>
+      কেন্দ্র থেকে \( r \) দূরত্বে স্থিতিশক্তি: \( U(r) = -\frac{GMm}{r} \)</p>
+      <p><strong>ধাপে ধাপে সমাধান:</strong><br/>
+      প্রাথমিক দূরত্ব \( r_i = R \), চূড়ান্ত দূরত্ব \( r_f = 2R \)<br/>
+      \[ W = -\frac{GMm}{2R} - \left(-\frac{GMm}{R}\right) = \frac{GMm}{2R} \]<br/>
+      \( GM = gR^2 \) বসিয়ে পাই:<br/>
+      \[ W = \frac{gR^2 m}{2R} = \frac{1}{2}mgR \]</p>
+      <p><strong>চূড়ান্ত উত্তর:</strong><br/>
+      প্রয়োজনীয় কৃতকার্যের মান হলো \( \frac{1}{2}mgR \)।</p>
+    ]]></text>
+  </generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\( 2mgR \)</p>]]></text>
+  </answer>
+  <answer fraction="100" format="html">
+    <text><![CDATA[<p>\( \frac{1}{2} mgR \)</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\( \frac{3}{2} mgR \)</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\( mgR \)</p>]]></text>
+  </answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>year:2019</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:bn</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>class:11</text></tag>
+    <tag><text>topic:gravitation</text></tag>
+    <tag><text>chapter:gravitation</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:easy</text></tag>
+    <tag><text>blooms:apply</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:text</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+
+<question type="multichoice">
+  <name><text>NEET_UG_PHYSICS_2019_MCQ_Q13 - Thermodynamic process with no heat exchange</text></name>
+  <questiontext format="html">
+    <text><![CDATA[
+      <p>In which of the following processes, heat is neither absorbed nor released by a system?</p>
+      <hr/>
+      <p>নিম্নের কোন্ প্রক্রিয়ায় একটি সংস্থা দ্বারা তাপ শোষিত বা বর্জিত হয় না?</p>
+    ]]></text>
+  </questiontext>
+  <generalfeedback format="html">
+    <text><![CDATA[
+      <p><strong>Conceptual Principle:</strong><br/>
+      Thermodynamic processes are classified based on the state variables held constant or the constraints imposed on heat and work transfer:<br/>
+      - An <strong>isothermal process</strong> takes place at constant temperature (\( \Delta T = 0 \)), during which heat exchange with the surroundings can occur.<br/>
+      - An <strong>isobaric process</strong> takes place at constant pressure (\( \Delta P = 0 \)), with heat exchange given by \( \Delta Q = n C_p \Delta T \).<br/>
+      - An <strong>isochoric process</strong> takes place at constant volume (\( \Delta V = 0 \)), with heat exchange given by \( \Delta Q = n C_v \Delta T \).<br/>
+      - An <strong>adiabatic process</strong> is defined as a thermodynamic process in which the system is thermally insulated from its surroundings such that no heat enters or leaves the system (\( \Delta Q = 0 \)).</p>
+      <p><strong>Final Answer:</strong><br/>
+      In an adiabatic process, heat is neither absorbed nor released by the system.</p>
+      <hr/>
+      <p><strong>তাত্ত্বিক নীতি:</strong><br/>
+      তাপগতিবিদ্যার বিভিন্ন প্রক্রিয়াগুলির বৈশিষ্ট্য নিম্নরূপ:<br/>
+      - <strong>সমোষ্ণ প্রক্রিয়া:</strong> তাপমাত্রা স্থির থাকে (\( \Delta T = 0 \)), তবে তাপের আদান-প্রদান ঘটে।<br/>
+      - <strong>সমচাপ প্রক্রিয়া:</strong> চাপ স্থির থাকে (\( \Delta P = 0 \)), এবং তাপের আদান-প্রদান ঘটে।<br/>
+      - <strong>সমআয়তন প্রক্রিয়া:</strong> আয়তন স্থির থাকে (\( \Delta V = 0 \)), এবং তাপের আদান-প্রদান ঘটে।<br/>
+      - <strong>রুদ্ধতাপ প্রক্রিয়া:</strong> যে প্রক্রিয়ায় সংস্থা ও তার পরিপার্শ্বের মধ্যে কোনো তাপীয় আদান-প্রদান ঘটে না, অর্থাৎ তাপ শোষিত বা বর্জিত হয় না (\( \Delta Q = 0 \))।</p>
+      <p><strong>চূড়ান্ত উত্তর:</strong><br/>
+      রুদ্ধতাপ (adiabatic) প্রক্রিয়ায় কোনো তাপ শোষিত বা বর্জিত হয় না।</p>
+    ]]></text>
+  </generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="100" format="html">
+    <text><![CDATA[<p>adiabatic</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>isobaric</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>isochoric</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>isothermal</p>]]></text>
+  </answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>year:2019</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:bn</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>class:11</text></tag>
+    <tag><text>topic:thermodynamics</text></tag>
+    <tag><text>chapter:thermodynamics</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:easy</text></tag>
+    <tag><text>blooms:remember</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:text</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+
+<question type="multichoice">
+  <name><text>NEET_UG_PHYSICS_2019_MCQ_Q14 - Electrostatic force after fractional charge transfer</text></name>
+  <questiontext format="html">
+    <text><![CDATA[
+      <p>Two point charges A and B, having charges \( +Q \) and \( -Q \) respectively, are placed at certain distance apart and force acting between them is \( F \). If \( 25\% \) charge of A is transferred to B, then force between the charges becomes</p>
+      <hr/>
+      <p>যথাক্রমে \( +Q \) এবং \( -Q \) আধানযুক্ত দুটি বিন্দু আধান A এবং B নির্দিষ্ট দূরত্বে অবস্থিত এবং তাদের মধ্যে ক্রিয়াশীল বল \( F \)। যদি A-এর \( 25\% \) আধান B-তে স্থানান্তরিত করা হয়, তবে আধান দুটির মধ্যবর্তী বল হবে</p>
+    ]]></text>
+  </questiontext>
+  <generalfeedback format="html">
+    <text><![CDATA[
+      <p><strong>Given Data and Conditions:</strong><br/>
+      Initial charge on A: \( q_A = +Q \)<br/>
+      Initial charge on B: \( q_B = -Q \)<br/>
+      Distance between charges: \( r \)<br/>
+      Initial electrostatic force: \( F = \frac{k |q_A q_B|}{r^2} = \frac{k Q^2}{r^2} \)<br/>
+      Amount of charge transferred from A to B: \( \Delta q = 25\%\text{ of } Q = \frac{Q}{4} \)</p>
+      <p><strong>Relevant Formulae and Principles:</strong><br/>
+      By Coulomb's law, the electrostatic force between two point charges is proportional to the product of their charges:<br/>
+      \[ F' = \frac{k |q_A' q_B'|}{r^2} \]</p>
+      <p><strong>Step-by-Step Working:</strong><br/>
+      1. New charge on A after transferring \( \frac{Q}{4} \):<br/>
+      \[ q_A' = Q - \frac{Q}{4} = \frac{3Q}{4} \]<br/>
+      2. New charge on B after receiving \( \frac{Q}{4} \):<br/>
+      \[ q_B' = -Q + \frac{Q}{4} = -\frac{3Q}{4} \]<br/>
+      3. Compute the magnitude of the new force:<br/>
+      \[ F' = \frac{k \left|\left(\frac{3Q}{4}\right)\left(-\frac{3Q}{4}\right)\right|}{r^2} = \frac{9}{16} \frac{k Q^2}{r^2} \]<br/>
+      Since \( F = \frac{k Q^2}{r^2} \), we have:<br/>
+      \[ F' = \frac{9F}{16} \]</p>
+      <p><strong>Check and Final Answer:</strong><br/>
+      The force between the charges becomes \( \frac{9F}{16} \).</p>
+      <hr/>
+      <p><strong>প্রদত্ত তথ্য এবং শর্তাবলী:</strong><br/>
+      A-এর প্রাথমিক আধান: \( +Q \)<br/>
+      B-এর প্রাথমিক আধান: \( -Q \)<br/>
+      প্রাথমিক বল: \( F = \frac{k Q^2}{r^2} \)<br/>
+      A থেকে B-তে স্থানান্তরিত আধান: \( \frac{Q}{4} \)</p>
+      <p><strong>প্রাসঙ্গিক সূত্র ও নীতি:</strong><br/>
+      কুলম্বের সূত্রানুসারে: \( F' = \frac{k |q_A' q_B'|}{r^2} \)</p>
+      <p><strong>ধাপে ধাপে সমাধান:</strong><br/>
+      ১. A-এর নতুন আধান: \( q_A' = Q - \frac{Q}{4} = \frac{3Q}{4} \)<br/>
+      ২. B-এর নতুন আধান: \( q_B' = -Q + \frac{Q}{4} = -\frac{3Q}{4} \)<br/>
+      ৩. নতুন বলের মান:<br/>
+      \[ F' = \frac{k \left(\frac{3Q}{4}\right)^2}{r^2} = \frac{9}{16} \frac{k Q^2}{r^2} = \frac{9F}{16} \]</p>
+      <p><strong>চূড়ান্ত উত্তর:</strong><br/>
+      আধান দুটির মধ্যবর্তী নতুন বল হবে \( \frac{9F}{16} \)।</p>
+    ]]></text>
+  </generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="100" format="html">
+    <text><![CDATA[<p>\( \frac{9F}{16} \)</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\( \frac{16F}{9} \)</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\( \frac{4F}{3} \)</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\( F \)</p>]]></text>
+  </answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>year:2019</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:bn</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>class:12</text></tag>
+    <tag><text>topic:electrostatics</text></tag>
+    <tag><text>chapter:electric_charges_and_fields</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:easy</text></tag>
+    <tag><text>blooms:apply</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:text</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+
+<question type="multichoice">
+  <name><text>NEET_UG_PHYSICS_2019_MCQ_Q15 - Boolean operation of switch-controlled LED circuit</text></name>
+  <questiontext format="html">
+    <text><![CDATA[
+      <p>The correct Boolean operation represented by the circuit diagram drawn is</p>
+      <p><img src="@@PLUGINFILE@@/img-1.jpeg" alt="Logic gate circuit diagram" /></p>
+      <hr/>
+      <p>অঙ্কিত বর্তনী চিত্রটি যে সঠিক বুলিয়ান প্রক্রিয়া নির্দেশ করে তা হলো</p>
+    ]]></text>
+  </questiontext>
+  <generalfeedback format="html">
+    <text><![CDATA[
+      <p><strong>Circuit Analysis and Layout Interpretation:</strong><br/>
+      A \( +6\text{ V} \) DC power supply is connected through an upper resistor \( R \), an LED \( Y \), and a lower resistor \( R \) to ground (\( 0\text{ V} \)).<br/>
+      Switches \( A \) and \( B \) have common terminals tied together. When an input is set to \( 0 \), the corresponding switch is open. When set to \( 1 \), the terminal connects to the branch across the LED: switch \( A \) connects above the LED, and switch \( B \) connects below the LED.</p>
+      <p><strong>Truth Table Evaluation:</strong><br/>
+      - Case 1 (\( A = 0, B = 0 \)): Both switches are open. Current flows from \( +6\text{ V} \) through resistor \( R \), passes through the LED, and goes through the lower resistor \( R \) to ground. The LED glows, so \( Y = 1 \).<br/>
+      - Case 2 (\( A = 1, B = 0 \)): Switch \( A \) is closed to position 1, but switch \( B \) remains open at position 0. No closed loop bypasses the LED. Current continues to flow through the LED, so \( Y = 1 \).<br/>
+      - Case 3 (\( A = 0, B = 1 \)): Switch \( A \) is open, while switch \( B \) is closed. No bypass path is completed. Current still flows through the LED, so \( Y = 1 \).<br/>
+      - Case 4 (\( A = 1, B = 1 \)): Both switches are closed to position 1. This creates a zero-resistance short-circuit path in parallel across the LED. All current bypasses the LED through the switches. Consequently, no current flows through the LED, it does not glow, and \( Y = 0 \).</p>
+      <p><strong>Gate Identification:</strong><br/>
+      The output is \( 0 \) only when both inputs are \( 1 \), and \( 1 \) for all other combinations. This precisely defines the truth table of a NAND gate (\( Y = \overline{A \cdot B} \)).</p>
+      <p><strong>Final Answer:</strong><br/>
+      The circuit represents a NAND operation.</p>
+      <hr/>
+      <p><strong>বর্তনী বিশ্লেষণ:</strong><br/>
+      \( +6\text{ V} \) উৎসের সাথে রোধ \( R \), LED \( Y \) এবং অপর একটি রোধ \( R \) শ্রেণি সমবায়ে ভূ-সংযুক্ত। সুইচ \( A \) এবং \( B \)-এর সাধারণ প্রান্ত পরস্পরের সাথে যুক্ত। মান \( 0 \) নির্দেশ করে সুইচ খোলা এবং \( 1 \) নির্দেশ করে সুইচ যুক্ত।</p>
+      <p><strong>সত্যক সারণি মূল্যায়ন:</strong><br/>
+      - যখন \( A = 0, B = 0 \): উভয় সুইচ খোলা থাকে। ফলে LED-এর মধ্য দিয়ে তড়িৎ প্রবাহিত হয় এবং LED জ্বলে, অর্থাৎ \( Y = 1 \)।<br/>
+      - যখন \( A = 1, B = 0 \): সুইচ \( B \) খোলা থাকায় বাইপাস পথ সম্পূর্ণ হয় না। LED-এর মধ্য দিয়ে তড়িৎ প্রবাহিত হয়, অর্থাৎ \( Y = 1 \)।<br/>
+      - যখন \( A = 0, B = 1 \): সুইচ \( A \) খোলা থাকায় কোনো শর্ট-সার্কিট হয় না। ফলে \( Y = 1 \)।<br/>
+      - যখন \( A = 1, B = 1 \): উভয় সুইচই যুক্ত হওয়ায় LED-এর দুই প্রান্তের মধ্যে একটি শর্ট-সার্কিট তৈরি হয়। সম্পূর্ণ তড়িৎপ্রবাহ সুইচ দুটির মধ্য দিয়ে চলে যায় এবং LED দিয়ে কোনো প্রবাহ যায় না, ফলে LED নিভে যায়, অর্থাৎ \( Y = 0 \)।</p>
+      <p><strong>গেটের প্রকৃতি:</strong><br/>
+      কেবলমাত্র উভয় ইনপুট \( 1 \) হলেই আউটপুট \( 0 \) হয়, অন্যথায় আউটপুট সর্বদা \( 1 \) থাকে। এটি একটি NAND গেটের নির্দেশক সত্যক সারণি।</p>
+      <p><strong>চূড়ান্ত উত্তর:</strong><br/>
+      বর্তনীটি NAND প্রক্রিয়া নির্দেশ করে।</p>
+    ]]></text>
+  </generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>OR</p>]]></text>
+  </answer>
+  <answer fraction="100" format="html">
+    <text><![CDATA[<p>NAND</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>NOR</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>AND</p>]]></text>
+  </answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>year:2019</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:bn</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>class:12</text></tag>
+    <tag><text>topic:semiconductors</text></tag>
+    <tag><text>chapter:semiconductor_electronics</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:medium</text></tag>
+    <tag><text>blooms:analyze</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:diagram</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+
+<question type="multichoice">
+  <name><text>NEET_UG_PHYSICS_2019_MCQ_Q16 - Identification of circuit protection device</text></name>
+  <questiontext format="html">
+    <text><![CDATA[
+      <p>Which of the following acts as a circuit protection device?</p>
+      <hr/>
+      <p>নিম্নের কোন্টি বর্তনী সুরক্ষার যন্ত্র হিসেবে কাজ করে?</p>
+    ]]></text>
+  </questiontext>
+  <generalfeedback format="html">
+    <text><![CDATA[
+      <p><strong>Conceptual Principle:</strong><br/>
+      A circuit protection device is an electrical safety device that operates to provide overcurrent protection of an electrical circuit.<br/>
+      - A <strong>fuse</strong> consists of a wire with a low melting point and high resistance. When an excessive current flows through the circuit, Joule heating (\( H = I^2Rt \)) causes the fuse wire to melt rapidly, breaking the circuit and preventing damage to equipment and wiring due to fire or overloading.<br/>
+      - An inductor stores energy in its magnetic field and opposes changes in alternating current, but does not serve as an overcurrent protection device.<br/>
+      - A switch is used to manually open or close an electric circuit.<br/>
+      - A conductor simply allows electric current to flow with low resistance.</p>
+      <p><strong>Final Answer:</strong><br/>
+      A fuse acts as a circuit protection device.</p>
+      <hr/>
+      <p><strong>তাত্ত্বিক নীতি:</strong><br/>
+      বর্তনী সুরক্ষা যন্ত্র এমন একটি নিরাপত্তা সরঞ্জাম যা অতিরিক্ত তড়িৎপ্রবাহজনিত ক্ষতি থেকে বর্তনীকে রক্ষা করে।<br/>
+      - <strong>ফিউজ (fuse)</strong> এমন একটি তার দিয়ে তৈরি যার গলনাঙ্ক কম এবং রোধ তুলনামূলকভাবে বেশি। বর্তনীতে অনুমোদিত মাত্রার চেয়ে বেশি তড়িৎ প্রবাহিত হলে জুলের তাপীয় ক্রিয়ার দরুন ফিউজ তারটি গলে গিয়ে সংযোগ বিচ্ছিন্ন করে দেয়, ফলে বর্তনী ও বৈদ্যুতিক সরঞ্জাম ক্ষতিগ্রস্ত হওয়া থেকে রক্ষা পায়।<br/>
+      - আবেশক চৌম্বক ক্ষেত্রে শক্তি সঞ্চয় করে এবং প্রবাহের পরিবর্তনকে বাধা দেয়।<br/>
+      - সুইচ বর্তনী চালু বা বন্ধ করার জন্য ব্যবহৃত হয়।<br/>
+      - পরিবাহী তড়িৎ পরিবহনে সহায়তা করে।</p>
+      <p><strong>চূড়ান্ত উত্তর:</strong><br/>
+      ফিউজ (fuse) একটি বর্তনী সুরক্ষা যন্ত্র হিসেবে কাজ করে।</p>
+    ]]></text>
+  </generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>inductor</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>switch</p>]]></text>
+  </answer>
+  <answer fraction="100" format="html">
+    <text><![CDATA[<p>fuse</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>conductor</p>]]></text>
+  </answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>year:2019</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:bn</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>class:12</text></tag>
+    <tag><text>topic:current_electricity</text></tag>
+    <tag><text>chapter:current_electricity</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:easy</text></tag>
+    <tag><text>blooms:remember</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:text</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+
+<question type="multichoice">
+  <name><text>NEET_UG_PHYSICS_2019_MCQ_Q17 - Thermal expansion of copper and aluminium rods</text></name>
+  <questiontext format="html">
+    <text><![CDATA[
+      <p>A copper rod of \( 88\text{ cm} \) and an aluminium rod of unknown length have their increase in length independent of increase in temperature. The length of aluminium rod is (\( \alpha_{\text{Cu}} = 1.7 \times 10^{-5}\text{ K}^{-1} \) and \( \alpha_{\text{Al}} = 2.2 \times 10^{-5}\text{ K}^{-1} \))</p>
+      <hr/>
+      <p>\( 88\text{ cm} \) দৈর্ঘ্যের একটি তামার দণ্ড এবং অজানা দৈর্ঘ্যের একটি অ্যালুমিনিয়াম দণ্ডের দৈর্ঘ্যের বৃদ্ধি তাপমাত্রা বৃদ্ধির ওপর নির্ভরশীল নয়। অ্যালুমিনিয়াম দণ্ডটির দৈর্ঘ্য হলো (\( \alpha_{\text{Cu}} = 1.7 \times 10^{-5}\text{ K}^{-1} \) এবং \( \alpha_{\text{Al}} = 2.2 \times 10^{-5}\text{ K}^{-1} \))</p>
+    ]]></text>
+  </questiontext>
+  <generalfeedback format="html">
+    <text><![CDATA[
+      <p><strong>Given Data and Conditions:</strong><br/>
+      Length of the copper rod: \( L_{\text{Cu}} = 88\text{ cm} \)<br/>
+      Coefficient of linear expansion of copper: \( \alpha_{\text{Cu}} = 1.7 \times 10^{-5}\text{ K}^{-1} \)<br/>
+      Coefficient of linear expansion of aluminium: \( \alpha_{\text{Al}} = 2.2 \times 10^{-5}\text{ K}^{-1} \)<br/>
+      Condition: The difference in their lengths is independent of temperature, meaning the increase in length for both rods is identical for any temperature increment \( \Delta T \):<br/>
+      \[ \Delta L_{\text{Cu}} = \Delta L_{\text{Al}} \]</p>
+      <p><strong>Relevant Formulae and Principles:</strong><br/>
+      Linear thermal expansion equation:<br/>
+      \[ \Delta L = L \alpha \Delta T \]</p>
+      <p><strong>Step-by-Step Working:</strong><br/>
+      Equating the thermal expansions:<br/>
+      \[ L_{\text{Cu}} \alpha_{\text{Cu}} \Delta T = L_{\text{Al}} \alpha_{\text{Al}} \Delta T \]<br/>
+      Cancelling \( \Delta T \) from both sides:<br/>
+      \[ L_{\text{Cu}} \alpha_{\text{Cu}} = L_{\text{Al}} \alpha_{\text{Al}} \]<br/>
+      Rearranging for the length of the aluminium rod \( L_{\text{Al}} \):<br/>
+      \[ L_{\text{Al}} = L_{\text{Cu}} \frac{\alpha_{\text{Cu}}}{\alpha_{\text{Al}}} \]<br/>
+      Substitute the given numerical values:<br/>
+      \[ L_{\text{Al}} = 88\text{ cm} \times \frac{1.7 \times 10^{-5}\text{ K}^{-1}}{2.2 \times 10^{-5}\text{ K}^{-1}} = 88 \times \frac{1.7}{2.2} \]<br/>
+      Notice that \( \frac{88}{2.2} = 40 \):<br/>
+      \[ L_{\text{Al}} = 40 \times 1.7 = 68\text{ cm} \]</p>
+      <p><strong>Check and Final Answer:</strong><br/>
+      The length of the aluminium rod is \( 68\text{ cm} \).</p>
+      <hr/>
+      <p><strong>প্রদত্ত তথ্য এবং শর্তাবলী:</strong><br/>
+      তামার দণ্ডের দৈর্ঘ্য \( L_{\text{Cu}} = 88\text{ cm} \)<br/>
+      তামার দৈর্ঘ্য প্রসারণ গুণাঙ্ক \( \alpha_{\text{Cu}} = 1.7 \times 10^{-5}\text{ K}^{-1} \)<br/>
+      অ্যালুমিনিয়ামের দৈর্ঘ্য প্রসারণ গুণাঙ্ক \( \alpha_{\text{Al}} = 2.2 \times 10^{-5}\text{ K}^{-1} \)<br/>
+      দৈর্ঘ্যের পার্থক্য তাপমাত্রা বৃদ্ধির ওপর নির্ভরশীল না হওয়ায়: \( \Delta L_{\text{Cu}} = \Delta L_{\text{Al}} \)</p>
+      <p><strong>প্রাসঙ্গিক সূত্র ও নীতি:</strong><br/>
+      রৈখিক প্রসারণের সূত্র:<br/>
+      \[ \Delta L = L \alpha \Delta T \]</p>
+      <p><strong>ধাপে ধাপে সমাধান:</strong><br/>
+      উভয় প্রসারণ সমান করে পাই:<br/>
+      \[ L_{\text{Cu}} \alpha_{\text{Cu}} = L_{\text{Al}} \alpha_{\text{Al}} \]<br/>
+      \[ L_{\text{Al}} = L_{\text{Cu}} \frac{\alpha_{\text{Cu}}}{\alpha_{\text{Al}}} = 88 \times \frac{1.7 \times 10^{-5}}{2.2 \times 10^{-5}} = 88 \times \frac{1.7}{2.2} = 40 \times 1.7 = 68\text{ cm} \]</p>
+      <p><strong>চূড়ান্ত উত্তর:</strong><br/>
+      অ্যালুমিনিয়াম দণ্ডটির দৈর্ঘ্য হলো \( 68\text{ cm} \)।</p>
+    ]]></text>
+  </generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>113.9 cm</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>88 cm</p>]]></text>
+  </answer>
+  <answer fraction="100" format="html">
+    <text><![CDATA[<p>68 cm</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>6.8 cm</p>]]></text>
+  </answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>year:2019</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:bn</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>class:11</text></tag>
+    <tag><text>topic:thermal_physics</text></tag>
+    <tag><text>chapter:thermal_properties_of_matter</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:easy</text></tag>
+    <tag><text>blooms:apply</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:text</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+
+<question type="multichoice">
+  <name><text>NEET_UG_PHYSICS_2019_MCQ_Q18 - Conduction and displacement current in charging capacitor</text></name>
+  <questiontext format="html">
+    <text><![CDATA[
+      <p>A parallel plate capacitor of capacitance \( 20\text{ }\mu\text{F} \) is being charged by a voltage source whose potential is changing at the rate of \( 3\text{ V/s} \). The conduction current through the connecting wires, and the displacement current through the plates of the capacitor, would be, respectively</p>
+      <hr/>
+      <p>\( 20\text{ }\mu\text{F} \) ধারকত্বের একটি সমান্তরাল পাত ধারককে এমন একটি ভোল্টেজ উৎস দ্বারা আহিত করা হচ্ছে যার বিভব \( 3\text{ V/s} \) হারে পরিবর্তিত হচ্ছে। সংযোগকারী তারের মধ্য দিয়ে পরিবহন প্রবাহ এবং ধারকের পাত দুটির মধ্যবর্তী অঞ্চলের সরণ প্রবাহের মান যথাক্রমে হবে</p>
+    ]]></text>
+  </questiontext>
+  <generalfeedback format="html">
+    <text><![CDATA[
+      <p><strong>Given Data and Conditions:</strong><br/>
+      Capacitance of the capacitor: \( C = 20\text{ }\mu\text{F} = 20 \times 10^{-6}\text{ F} \)<br/>
+      Rate of change of potential difference: \( \frac{dV}{dt} = 3\text{ V/s} \)</p>
+      <p><strong>Relevant Formulae and Principles:</strong><br/>
+      1. Conduction current \( i_c \) charging the capacitor is the rate of flow of charge into the plates:<br/>
+      \[ q = CV \implies i_c = \frac{dq}{dt} = C \frac{dV}{dt} \]<br/>
+      2. Displacement current \( i_d \) between the capacitor plates is given by Maxwell's formula:<br/>
+      \[ i_d = \varepsilon_0 \frac{d\Phi_E}{dt} \]<br/>
+      By Ampere-Maxwell law, for a charging capacitor, continuity of current demands that the displacement current between the plates is at all times equal to the conduction current in the connecting leads:<br/>
+      \[ i_d = i_c \]</p>
+      <p><strong>Step-by-Step Working:</strong><br/>
+      1. Compute the conduction current:<br/>
+      \[ i_c = C \frac{dV}{dt} = (20 \times 10^{-6}\text{ F}) \times (3\text{ V/s}) = 60 \times 10^{-6}\text{ A} = 60\text{ }\mu\text{A} \]<br/>
+      2. Compute the displacement current:<br/>
+      \[ i_d = i_c = 60\text{ }\mu\text{A} \]</p>
+      <p><strong>Check and Final Answer:</strong><br/>
+      The conduction current and displacement current are, respectively, \( 60\text{ }\mu\text{A} \) and \( 60\text{ }\mu\text{A} \).</p>
+      <hr/>
+      <p><strong>প্রদত্ত তথ্য এবং শর্তাবলী:</strong><br/>
+      ধারকত্ব \( C = 20\text{ }\mu\text{F} = 20 \times 10^{-6}\text{ F} \)<br/>
+      বিভবের পরিবর্তনের হার \( \frac{dV}{dt} = 3\text{ V/s} \)</p>
+      <p><strong>প্রাসঙ্গিক সূত্র ও নীতি:</strong><br/>
+      পরিবহন প্রবাহ: \( i_c = \frac{dq}{dt} = C \frac{dV}{dt} \)<br/>
+      অ্যাম্পিয়ার-ম্যাক্সওয়েল সূত্রানুযায়ী, বর্তনীর নিরবচ্ছিন্নতা রক্ষার্থে তারের পরিবহন প্রবাহ ধারকের পাতের মধ্যবর্তী অঞ্চলের সরণ প্রবাহের সমান হয়: \( i_d = i_c \)।</p>
+      <p><strong>ধাপে ধাপে সমাধান:</strong><br/>
+      ১. পরিবহন প্রবাহ গণনা:<br/>
+      \[ i_c = 20 \times 10^{-6} \times 3 = 60 \times 10^{-6}\text{ A} = 60\text{ }\mu\text{A} \]<br/>
+      ২. সরণ প্রবাহ:<br/>
+      \[ i_d = i_c = 60\text{ }\mu\text{A} \]</p>
+      <p><strong>চূড়ান্ত উত্তর:</strong><br/>
+      পরিবহন প্রবাহ এবং সরণ প্রবাহের মান যথাক্রমে \( 60\text{ }\mu\text{A} \) এবং \( 60\text{ }\mu\text{A} \)।</p>
+    ]]></text>
+  </generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="100" format="html">
+    <text><![CDATA[<p>\( 60\mu \mathrm{A}, 60\mu \mathrm{A} \)</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\( 60\mu \mathrm{A} \), zero</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>zero, zero</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>zero, \( 60\mu \mathrm{A} \)</p>]]></text>
+  </answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>year:2019</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:bn</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>class:12</text></tag>
+    <tag><text>topic:electromagnetism</text></tag>
+    <tag><text>chapter:electromagnetic_waves</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:easy</text></tag>
+    <tag><text>blooms:apply</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:text</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+
+<question type="multichoice">
+  <name><text>NEET_UG_PHYSICS_2019_MCQ_Q19 - Composition of alpha particle</text></name>
+  <questiontext format="html">
+    <text><![CDATA[
+      <p>\( \alpha \)-particle consists of</p>
+      <hr/>
+      <p>\( \alpha \)-কণা গঠিত হয়</p>
+    ]]></text>
+  </questiontext>
+  <generalfeedback format="html">
+    <text><![CDATA[
+      <p><strong>Conceptual Principle:</strong><br/>
+      An alpha particle (\( \alpha \)) is identical to the nucleus of a helium-4 atom (\( ^{4}_{2}\text{He}^{2+} \)).<br/>
+      - The atomic number of helium is \( Z = 2 \), which represents \( 2 \) protons.<br/>
+      - The mass number of helium-4 is \( A = 4 \), which represents the total number of nucleons (protons + neutrons).<br/>
+      - The number of neutrons is given by \( N = A - Z = 4 - 2 = 2 \) neutrons.<br/>
+      Because an alpha particle is a bare nucleus stripped of its atomic electrons, it carries a charge of \( +2e \) and contains no orbital electrons.</p>
+      <p><strong>Final Answer:</strong><br/>
+      An \( \alpha \)-particle consists of \( 2 \) protons and \( 2 \) neutrons only.</p>
+      <hr/>
+      <p><strong>তাত্ত্বিক নীতি:</strong><br/>
+      একটি আলফা কণা (\( \alpha \)) মূলত হিলিয়াম পরমাণুর নিউক্লিয়াস (\( ^{4}_{2}\text{He}^{2+} \))।<br/>
+      - এর পারমাণবিক সংখ্যা \( Z = 2 \), অর্থাৎ এতে \( 2 \)টি প্রোটন রয়েছে।<br/>
+      - ভর সংখ্যা \( A = 4 \), অর্থাৎ নিউক্লিয়াসে নিউট্রন সংখ্যা \( N = A - Z = 4 - 2 = 2 \)।<br/>
+      যেহেতু এটি দ্বিগুণ আধানযুক্ত আয়নিত হিলিয়াম আয়ন বা নিউক্লিয়াস, তাই এতে কোনো ইলেকট্রন থাকে না।</p>
+      <p><strong>চূড়ান্ত উত্তর:</strong><br/>
+      \( \alpha \)-কণা শুধুমাত্র \( 2 \)টি প্রোটন ও \( 2 \)টি নিউট্রন দিয়ে গঠিত।</p>
+    ]]></text>
+  </generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>2 electrons, 2 protons and 2 neutrons.</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>2 electrons and 4 protons only.</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>2 protons only.</p>]]></text>
+  </answer>
+  <answer fraction="100" format="html">
+    <text><![CDATA[<p>2 protons and 2 neutrons only.</p>]]></text>
+  </answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>year:2019</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:bn</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>class:12</text></tag>
+    <tag><text>topic:nuclear_physics</text></tag>
+    <tag><text>chapter:nuclei</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:easy</text></tag>
+    <tag><text>blooms:remember</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:text</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+
+<question type="multichoice">
+  <name><text>NEET_UG_PHYSICS_2019_MCQ_Q20 - Minimum angular velocity of rotor to prevent slipping</text></name>
+  <questiontext format="html">
+    <text><![CDATA[
+      <p>A block of mass \( 10\text{ kg} \) is in contact against the inner wall of a hollow cylindrical drum of radius \( 1\text{ m} \). The coefficient of friction between the block and the inner wall of the cylinder is \( 0.1 \). The minimum angular velocity needed for the cylinder to keep the block stationary when the cylinder is vertical and rotating about its axis, will be (\( g = 10\text{ m/s}^2 \))</p>
+      <hr/>
+      <p>\( 1\text{ m} \) ব্যাসার্ধের একটি ফাঁপা চোঙাকৃতি ড্রামের ভেতরের দেওয়ালে \( 10\text{ kg} \) ভরের একটি ব্লক সংস্পর্শে রয়েছে। ব্লক এবং চোঙের ভেতরের দেওয়ালের মধ্যবর্তী ঘর্ষণ গুণাঙ্ক \( 0.1 \)। চোঙটি উল্লম্ব অবস্থায় তার অক্ষের চারদিকে আবর্তিত হলে ব্লককে স্থির রাখার জন্য চোঙটির প্রয়োজনীয় সর্বনিম্ন কৌণিক বেগ কত হবে? (\( g = 10\text{ m/s}^2 \))</p>
+    ]]></text>
+  </questiontext>
+  <generalfeedback format="html">
+    <text><![CDATA[
+      <p><strong>Given Data and Conditions:</strong><br/>
+      Mass of block: \( m = 10\text{ kg} \)<br/>
+      Radius of cylinder: \( R = 1\text{ m} \)<br/>
+      Coefficient of static friction: \( \mu = 0.1 \)<br/>
+      Acceleration due to gravity: \( g = 10\text{ m/s}^2 \)</p>
+      <p><strong>Relevant Formulae and Principles:</strong><br/>
+      In the rotating frame of reference, the normal force \( N \) exerted horizontally by the cylindrical wall provides the necessary centripetal acceleration:<br/>
+      \[ N = m\omega^2 R \]<br/>
+      The upward force of static friction \( f_s \) balances the downward weight of the block:<br/>
+      \[ f_s = mg \]<br/>
+      For the block to remain stationary without slipping down the wall:<br/>
+      \[ f_s \le f_{s,\text{max}} = \mu N \implies mg \le \mu (m\omega^2 R) \]</p>
+      <p><strong>Step-by-Step Working:</strong><br/>
+      1. Cancelling mass \( m \) from both sides yields:<br/>
+      \[ g \le \mu \omega^2 R \implies \omega^2 \ge \frac{g}{\mu R} \]<br/>
+      2. The minimum angular velocity is obtained at the equality threshold:<br/>
+      \[ \omega_{\text{min}} = \sqrt{\frac{g}{\mu R}} \]<br/>
+      3. Substituting numerical values:<br/>
+      \[ \omega_{\text{min}} = \sqrt{\frac{10}{0.1 \times 1}} = \sqrt{\frac{10}{0.1}} = \sqrt{100} = 10\text{ rad/s} \]</p>
+      <p><strong>Check and Final Answer:</strong><br/>
+      The minimum required angular velocity is \( 10\text{ rad/s} \).</p>
+      <hr/>
+      <p><strong>প্রদত্ত তথ্য এবং শর্তাবলী:</strong><br/>
+      ব্লকের ভর \( m = 10\text{ kg} \)<br/>
+      চোঙের ব্যাসার্ধ \( R = 1\text{ m} \)<br/>
+      ঘর্ষণ গুণাঙ্ক \( \mu = 0.1 \)<br/>
+      \( g = 10\text{ m/s}^2 \)</p>
+      <p><strong>প্রাসঙ্গিক সূত্র ও নীতি:</strong><br/>
+      দেওয়াল কর্তৃক লম্ব প্রতিক্রিয়া অভিকেন্দ্র বলের যোগান দেয়: \( N = m\omega^2 R \)<br/>
+      উল্লম্বভাবে ব্লকের ওজন ঘর্ষণ বল দ্বারা প্রশমিত হয়: \( mg = f_s \)<br/>
+      ব্লকটিকে স্থির রাখার শর্ত: \( mg \le \mu N = \mu m \omega^2 R \)</p>
+      <p><strong>ধাপে ধাপে সমাধান:</strong><br/>
+      \[ \omega^2 \ge \frac{g}{\mu R} \implies \omega_{\text{min}} = \sqrt{\frac{g}{\mu R}} \]<br/>
+      মান বসিয়ে পাই:<br/>
+      \[ \omega_{\text{min}} = \sqrt{\frac{10}{0.1 \times 1}} = \sqrt{100} = 10\text{ rad/s} \]</p>
+      <p><strong>চূড়ান্ত উত্তর:</strong><br/>
+      প্রয়োজনীয় সর্বনিম্ন কৌণিক বেগ হলো \( 10\text{ rad/s} \)।</p>
+    ]]></text>
+  </generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\( \frac{10}{2\pi}\text{ rad/s} \)</p>]]></text>
+  </answer>
+  <answer fraction="100" format="html">
+    <text><![CDATA[<p>\( 10\text{ rad/s} \)</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\( 10\pi\text{ rad/s} \)</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\( \sqrt{10}\text{ rad/s} \)</p>]]></text>
+  </answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>year:2019</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:bn</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>class:11</text></tag>
+    <tag><text>topic:mechanics</text></tag>
+    <tag><text>chapter:laws_of_motion</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:easy</text></tag>
+    <tag><text>blooms:apply</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:text</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+
+<question type="multichoice">
+  <name><text>NEET_UG_PHYSICS_2019_MCQ_Q21 - Effect of temperature increase on gas molecules</text></name>
+  <questiontext format="html">
+    <text><![CDATA[
+      <p>Increase in temperature of a gas filled in a container would lead to</p>
+      <hr/>
+      <p>একটি পাত্রে আবদ্ধ গ্যাসের তাপমাত্রা বৃদ্ধির ফলে নিম্নের কোন্টি ঘটবে?</p>
+    ]]></text>
+  </questiontext>
+  <generalfeedback format="html">
+    <text><![CDATA[
+      <p><strong>Conceptual Principle:</strong><br/>
+      According to the Kinetic Theory of Gases, temperature is a direct microscopic measure of the average translational kinetic energy of the gas molecules:<br/>
+      \[ E_k = \frac{3}{2} k_B T \]<br/>
+      where \( k_B \) is Boltzmann's constant and \( T \) is the absolute temperature in kelvin.</p>
+      <p><strong>Evaluation of Gas Parameters:</strong><br/>
+      - <strong>Kinetic Energy:</strong> Because \( E_k \propto T \), raising the temperature directly increases the root-mean-square speed and average translational kinetic energy of the molecules.<br/>
+      - <strong>Pressure:</strong> For a rigid closed container with constant volume, Gay-Lussac's law (\( P \propto T \)) states that pressure increases, not decreases.<br/>
+      - <strong>Intermolecular Distance:</strong> For a fixed mass and fixed container volume, the average separation between molecules remains constant.<br/>
+      - <strong>Mass:</strong> The total mass of the gas molecules is conserved and does not depend on temperature.</p>
+      <p><strong>Final Answer:</strong><br/>
+      An increase in temperature leads to an increase in the kinetic energy of the gas molecules.</p>
+      <hr/>
+      <p><strong>তাত্ত্বিক নীতি:</strong><br/>
+      গ্যাসের গতিতত্ত্ব অনুযায়ী, গ্যাসের পরম তাপমাত্রা অণুগুলির গড় গতিশক্তির সমানুপাতিক:<br/>
+      \[ E_k = \frac{3}{2} k_B T \]</p>
+      <p><strong>বৈশিষ্ট্যসমূহ মূল্যায়ন:</strong><br/>
+      - তাপমাত্রা বৃদ্ধি পেলে অণুগুলির গড় গতিশক্তি বৃদ্ধি পায়।<br/>
+      - বদ্ধ পাত্রে তাপমাত্রা বাড়লে চাপ বৃদ্ধি পায় (হ্রাস পায় না)।<br/>
+      - পাত্রের আয়তন নির্দিষ্ট থাকায় অণুগুলির পারস্পরিক দূরত্ব অপরিবর্তিত থাকে।<br/>
+      - গ্যাসের ভর তাপমাত্রার পরিবর্তনের সাথে পরিবর্তিত হয় না।</p>
+      <p><strong>চূড়ান্ত উত্তর:</strong><br/>
+      পাত্রে আবদ্ধ গ্যাসের তাপমাত্রা বাড়লে এর গতিশক্তি বৃদ্ধি পাবে।</p>
+    ]]></text>
+  </generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="100" format="html">
+    <text><![CDATA[<p>increase in its kinetic energy.</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>decrease in its pressure.</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>decrease in intermolecular distance.</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>increase in its mass.</p>]]></text>
+  </answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>year:2019</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:bn</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>class:11</text></tag>
+    <tag><text>topic:kinetic_theory</text></tag>
+    <tag><text>chapter:kinetic_theory</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:easy</text></tag>
+    <tag><text>blooms:understand</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:text</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+
+<question type="multichoice">
+  <name><text>NEET_UG_PHYSICS_2019_MCQ_Q22 - Induced emf in rotating coil in magnetic field</text></name>
+  <questiontext format="html">
+    <text><![CDATA[
+      <p>A \( 800 \) turn coil of effective area \( 0.05\text{ m}^2 \) is kept perpendicular to a magnetic field \( 5 \times 10^{-5}\text{ T} \). When the plane of the coil is rotated by \( 90^\circ \) around any of its coplanar axis in \( 0.1\text{ s} \), the emf induced in the coil will be</p>
+      <hr/>
+      <p>\( 0.05\text{ m}^2 \) কার্যকর ক্ষেত্রফল এবং \( 800 \) পাক বিশিষ্ট একটি কুণ্ডলীকে \( 5 \times 10^{-5}\text{ T} \) চৌম্বক ক্ষেত্রের সাথে লম্বভাবে রাখা হয়েছে। কুণ্ডলীটির তলকে তার সমতলীয় যেকোনো অক্ষের সাপেক্ষে \( 0.1\text{ s} \)-এ \( 90^\circ \) কোণে ঘোরানো হলে কুণ্ডলীতে আবিষ্ট তড়িৎচালক বলের মান হবে</p>
+    ]]></text>
+  </questiontext>
+  <generalfeedback format="html">
+    <text><![CDATA[
+      <p><strong>Given Data and Conditions:</strong><br/>
+      Number of turns: \( N = 800 \)<br/>
+      Effective cross-sectional area: \( A = 0.05\text{ m}^2 \)<br/>
+      Magnetic field: \( B = 5 \times 10^{-5}\text{ T} \)<br/>
+      Time interval: \( \Delta t = 0.1\text{ s} \)<br/>
+      Initial angle between area vector and magnetic field: \( \theta_1 = 0^\circ \) (plane is perpendicular to \( \vec{B} \))<br/>
+      Final angle between area vector and magnetic field: \( \theta_2 = 90^\circ \) (plane is rotated by \( 90^\circ \))</p>
+      <p><strong>Relevant Formulae and Principles:</strong><br/>
+      Magnetic flux through each turn of the coil:<br/>
+      \[ \Phi = B A \cos\theta \]<br/>
+      By Faraday's law of electromagnetic induction, the magnitude of induced emf is:<br/>
+      \[ e = N \left| \frac{\Delta \Phi}{\Delta t} \right| = N \frac{|\Phi_2 - \Phi_1|}{\Delta t} \]</p>
+      <p><strong>Step-by-Step Working:</strong><br/>
+      1. Calculate initial magnetic flux:<br/>
+      \[ \Phi_1 = B A \cos 0^\circ = (5 \times 10^{-5}\text{ T}) \times (0.05\text{ m}^2) \times 1 = 2.5 \times 10^{-6}\text{ Wb} \]<br/>
+      2. Calculate final magnetic flux:<br/>
+      \[ \Phi_2 = B A \cos 90^\circ = 0 \]<br/>
+      3. Compute change in flux:<br/>
+      \[ |\Delta \Phi| = |\Phi_2 - \Phi_1| = 2.5 \times 10^{-6}\text{ Wb} \]<br/>
+      4. Compute induced emf:<br/>
+      \[ e = 800 \times \frac{2.5 \times 10^{-6}\text{ Wb}}{0.1\text{ s}} = 800 \times 2.5 \times 10^{-5} = 2000 \times 10^{-5}\text{ V} = 0.02\text{ V} \]</p>
+      <p><strong>Check and Final Answer:</strong><br/>
+      The induced emf in the coil is \( 0.02\text{ V} \).</p>
+      <hr/>
+      <p><strong>প্রদত্ত তথ্য এবং শর্তাবলী:</strong><br/>
+      পাকসংখ্যা \( N = 800 \)<br/>
+      ক্ষেত্রফল \( A = 0.05\text{ m}^2 \)<br/>
+      চৌম্বক ক্ষেত্র \( B = 5 \times 10^{-5}\text{ T} \)<br/>
+      সময় ব্যবধান \( \Delta t = 0.1\text{ s} \)</p>
+      <p><strong>প্রাসঙ্গিক সূত্র ও নীতি:</strong><br/>
+      চৌম্বক ফ্লাক্স: \( \Phi = B A \cos\theta \)<br/>
+      ফ্যারাডের সূত্রানুসারে আবিষ্ট তড়িৎচালক বলের মান:<br/>
+      \[ e = N \frac{|\Delta \Phi|}{\Delta t} \]</p>
+      <p><strong>ধাপে ধাপে সমাধান:</strong><br/>
+      ১. প্রাথমিক ফ্লাক্স: \( \Phi_1 = B A \cos 0^\circ = 2.5 \times 10^{-6}\text{ Wb} \)<br/>
+      ২. চূড়ান্ত ফ্লাক্স: \( \Phi_2 = B A \cos 90^\circ = 0 \)<br/>
+      ৩. ফ্লাক্সের পরিবর্তন: \( |\Delta \Phi| = 2.5 \times 10^{-6}\text{ Wb} \)<br/>
+      ৪. আবিষ্ট তড়িৎচালক বল:<br/>
+      \[ e = 800 \times \frac{2.5 \times 10^{-6}}{0.1} = 0.02\text{ V} \]</p>
+      <p><strong>চূড়ান্ত উত্তর:</strong><br/>
+      আবিষ্ট তড়িৎচালক বলের মান হলো \( 0.02\text{ V} \)।</p>
+    ]]></text>
+  </generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>0.2 V</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\( 2 \times 10^{-3}\text{ V} \)</p>]]></text>
+  </answer>
+  <answer fraction="100" format="html">
+    <text><![CDATA[<p>0.02 V</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>2 V</p>]]></text>
+  </answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>year:2019</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:bn</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>class:12</text></tag>
+    <tag><text>topic:electromagnetism</text></tag>
+    <tag><text>chapter:electromagnetic_induction</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:easy</text></tag>
+    <tag><text>blooms:apply</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:text</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+
+<question type="multichoice">
+  <name><text>NEET_UG_PHYSICS_2019_MCQ_Q23 - Electric field midway between oppositely charged parallel line charges</text></name>
+  <questiontext format="html">
+    <text><![CDATA[
+      <p>Two parallel infinite line charges with linear charge densities \( +\lambda\text{ C/m} \) and \( -\lambda\text{ C/m} \) are placed at a distance of \( 2R \) in free space. What is the electric field mid-way between the two line charges?</p>
+      <hr/>
+      <p>শূন্য মাধ্যমে দুটি সমান্তরাল অসীম রৈখিক আধান, যাদের রৈখিক আধান ঘনত্ব যথাক্রমে \( +\lambda\text{ C/m} \) এবং \( -\lambda\text{ C/m} \), পরস্পরের থেকে \( 2R \) দূরত্বে অবস্থিত। রৈখিক আধান দুটির মধ্যবর্তী ঠিক মাঝের বিন্দুতে তড়িৎক্ষেত্রের মান কত?</p>
+    ]]></text>
+  </questiontext>
+  <generalfeedback format="html">
+    <text><![CDATA[
+      <p><strong>Given Data and Conditions:</strong><br/>
+      Linear charge density of positive line charge: \( \lambda_+ = +\lambda \)<br/>
+      Linear charge density of negative line charge: \( \lambda_- = -\lambda \)<br/>
+      Separation between the two parallel infinite line charges: \( 2R \)<br/>
+      Midway point distance from either line charge: \( r = R \)</p>
+      <p><strong>Relevant Formulae and Principles:</strong><br/>
+      Using Gauss's law, the electric field due to an infinite line charge of linear density \( \lambda \) at a radial distance \( r \) is:<br/>
+      \[ E = \frac{\lambda}{2\pi\varepsilon_0 r} \]<br/>
+      The electric field is directed radially away from a positive line charge and radially toward a negative line charge.</p>
+      <p><strong>Step-by-Step Working:</strong><br/>
+      1. At the midpoint between the charges:<br/>
+      - The electric field due to \( +\lambda \) points away from it, which is directed toward the negative line charge:<br/>
+      \[ E_+ = \frac{\lambda}{2\pi\varepsilon_0 R} \]<br/>
+      - The electric field due to \( -\lambda \) points toward it, which is in the exact same direction as \( E_+ \):<br/>
+      \[ E_- = \frac{\lambda}{2\pi\varepsilon_0 R} \]<br/>
+      2. Since both field vectors point along the same line and direction, they add constructively:<br/>
+      \[ E_{\text{net}} = E_+ + E_- = \frac{\lambda}{2\pi\varepsilon_0 R} + \frac{\lambda}{2\pi\varepsilon_0 R} = \frac{2\lambda}{2\pi\varepsilon_0 R} = \frac{\lambda}{\pi\varepsilon_0 R}\text{ N/C} \]</p>
+      <p><strong>Check and Final Answer:</strong><br/>
+      The electric field midway between the two line charges is \( \frac{\lambda}{\pi\varepsilon_0 R}\text{ N/C} \).</p>
+      <hr/>
+      <p><strong>প্রদত্ত তথ্য এবং শর্তাবলী:</strong><br/>
+      রৈখিক আধান ঘনত্ব যথাক্রমে \( +\lambda \) এবং \( -\lambda \)<br/>
+      আধান দুটির মধ্যবর্তী দূরত্ব \( 2R \)<br/>
+      মাঝের বিন্দুটির দূরত্ব প্রতি তার থেকে \( r = R \)</p>
+      <p><strong>প্রাসঙ্গিক সূত্র ও নীতি:</strong><br/>
+      অসীম রৈখিক আধানের জন্য দূরবর্তী বিন্দুতে তড়িৎক্ষেত্রের মান:<br/>
+      \[ E = \frac{\lambda}{2\pi\varepsilon_0 r} \]</p>
+      <p><strong>ধাপে ধাপে সমাধান:</strong><br/>
+      ১. ধনাত্মক আধানের দরুন তড়িৎক্ষেত্র তার বিপরীত দিকে (ঋণাত্মক তারের দিকে) নির্দেশ করে: \( E_+ = \frac{\lambda}{2\pi\varepsilon_0 R} \)<br/>
+      ২. ঋণাত্মক আধানের দরুন তড়িৎক্ষেত্র তার নিজের দিকে নির্দেশ করে: \( E_- = \frac{\lambda}{2\pi\varepsilon_0 R} \)<br/>
+      ৩. উভয়ের দিক একই হওয়ায় লব্ধি তড়িৎক্ষেত্র:<br/>
+      \[ E_{\text{net}} = E_+ + E_- = \frac{\lambda}{2\pi\varepsilon_0 R} + \frac{\lambda}{2\pi\varepsilon_0 R} = \frac{\lambda}{\pi\varepsilon_0 R}\text{ N/C} \]</p>
+      <p><strong>চূড়ান্ত উত্তর:</strong><br/>
+      মাঝের বিন্দুতে তড়িৎক্ষেত্রের মান হলো \( \frac{\lambda}{\pi\varepsilon_0 R}\text{ N/C} \)।</p>
+    ]]></text>
+  </generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\( \frac{2\lambda}{\pi\varepsilon_0R}\text{ N/C} \)</p>]]></text>
+  </answer>
+  <answer fraction="100" format="html">
+    <text><![CDATA[<p>\( \frac{\lambda}{\pi\varepsilon_0R}\text{ N/C} \)</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\( \frac{\lambda}{2\pi\varepsilon_0R}\text{ N/C} \)</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>zero</p>]]></text>
+  </answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>year:2019</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:bn</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>class:12</text></tag>
+    <tag><text>topic:electrostatics</text></tag>
+    <tag><text>chapter:electric_charges_and_fields</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:easy</text></tag>
+    <tag><text>blooms:apply</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:text</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+
+<question type="multichoice">
+  <name><text>NEET_UG_PHYSICS_2019_MCQ_Q24 - Angle of refraction at critical angle incidence</text></name>
+  <questiontext format="html">
+    <text><![CDATA[
+      <p>In total internal reflection when the angle of incidence is equal to the critical angle for the pair of media in contact, what will be angle of refraction?</p>
+      <hr/>
+      <p>অভ্যন্তরীণ পূর্ণ প্রতিফলনের ক্ষেত্রে যখন আপতন কোণ সংস্পর্শে থাকা মাধ্যমদ্বয়ের সংকট কোণের সমান হয়, তখন প্রতিসরণ কোণ কত হবে?</p>
+    ]]></text>
+  </questiontext>
+  <generalfeedback format="html">
+    <text><![CDATA[
+      <p><strong>Conceptual Principle:</strong><br/>
+      When a light ray travels from an optically denser medium of refractive index \( \mu_1 \) to an optically rarer medium of refractive index \( \mu_2 \) (\( \mu_1 > \mu_2 \)), it bends away from the normal according to Snell's law:<br/>
+      \[ \mu_1 \sin i = \mu_2 \sin r \]</p>
+      <p><strong>Critical Angle Definition:</strong><br/>
+      The <strong>critical angle</strong> \( i_c \) is specifically defined as the angle of incidence in the denser medium for which the angle of refraction in the rarer medium becomes exactly \( 90^\circ \), causing the refracted ray to graze along the boundary between the two media:<br/>
+      \[ \mu_1 \sin i_c = \mu_2 \sin 90^\circ = \mu_2 \implies \sin i_c = \frac{\mu_2}{\mu_1} \]<br/>
+      Therefore, when the angle of incidence equals the critical angle (\( i = i_c \)), the angle of refraction is precisely \( 90^\circ \).</p>
+      <p><strong>Final Answer:</strong><br/>
+      The angle of refraction is \( 90^\circ \).</p>
+      <hr/>
+      <p><strong>তাত্ত্বিক নীতি:</strong><br/>
+      যখন আলোক রশ্মি ঘন মাধ্যম (প্রতিসরাঙ্ক \( \mu_1 \)) থেকে লঘু মাধ্যমে (প্রতিসরাঙ্ক \( \mu_2 \)) প্রবেশ করে, তখন স্নেলের সূত্র প্রযোজ্য হয়:<br/>
+      \[ \mu_1 \sin i = \mu_2 \sin r \]</p>
+      <p><strong>সংকট কোণের সংজ্ঞা:</strong><br/>
+      ঘন মাধ্যমে যে নির্দিষ্ট আপতন কোণের জন্য লঘু মাধ্যমে প্রতিসরণ কোণের মান ঠিক \( 90^\circ \) হয় এবং প্রতিসরিত রশ্মি দুই মাধ্যমের বিভেদতল ঘেঁষে চলে যায়, তাকে সংকট কোণ বলে। অর্থাৎ, আপতন কোণ সংকট কোণের সমান হলে প্রতিসরণ কোণ হবে \( 90^\circ \)।</p>
+      <p><strong>চূড়ান্ত উত্তর:</strong><br/>
+      প্রতিসরণ কোণের মান হবে \( 90^\circ \)।</p>
+    ]]></text>
+  </generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\( 0^\circ \)</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>equal to angle of incidence</p>]]></text>
+  </answer>
+  <answer fraction="100" format="html">
+    <text><![CDATA[<p>\( 90^\circ \)</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\( 180^\circ \)</p>]]></text>
+  </answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>year:2019</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:bn</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>class:12</text></tag>
+    <tag><text>topic:optics</text></tag>
+    <tag><text>chapter:ray_optics_and_optical_instruments</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:easy</text></tag>
+    <tag><text>blooms:remember</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:text</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+
+<question type="multichoice">
+  <name><text>NEET_UG_PHYSICS_2019_MCQ_Q25 - de Broglie wavelength of accelerated electron</text></name>
+  <questiontext format="html">
+    <text><![CDATA[
+      <p>An electron is accelerated through a potential difference of \( 10,000\text{ V} \). Its de-Broglie wavelength is (nearly): (\( m_e = 9 \times 10^{-31}\text{ kg} \))</p>
+      <hr/>
+      <p>একটি ইলেকট্রনকে \( 10,000\text{ V} \) বিভবপ্রভেদের মধ্য দিয়ে ত্বরান্বিত করা হলো। এর দ্য ব্রগলি তরঙ্গদৈর্ঘ্য (প্রায়) হবে: (\( m_e = 9 \times 10^{-31}\text{ kg} \))</p>
+    ]]></text>
+  </questiontext>
+  <generalfeedback format="html">
+    <text><![CDATA[
+      <p><strong>Given Data and Conditions:</strong><br/>
+      Accelerating potential difference: \( V = 10,000\text{ V} = 10^4\text{ V} \)<br/>
+      Mass of electron: \( m_e = 9 \times 10^{-31}\text{ kg} \)<br/>
+      Charge of electron: \( e = 1.6 \times 10^{-19}\text{ C} \)<br/>
+      Planck's constant: \( h = 6.63 \times 10^{-34}\text{ J}\cdot\text{s} \)</p>
+      <p><strong>Relevant Formulae and Principles:</strong><br/>
+      Kinetic energy gained by the electron: \( K = eV \)<br/>
+      The de-Broglie wavelength is given by:<br/>
+      \[ \lambda = \frac{h}{p} = \frac{h}{\sqrt{2m_e eV}} \]<br/>
+      For an electron, this standard relation simplifies to:<br/>
+      \[ \lambda = \frac{1.227}{\sqrt{V}}\text{ nm} = \frac{12.27}{\sqrt{V}} \times 10^{-10}\text{ m} \]</p>
+      <p><strong>Step-by-Step Working:</strong><br/>
+      Substitute \( V = 10,000\text{ V} \):<br/>
+      \[ \sqrt{V} = \sqrt{10^4} = 100\text{ V}^{1/2} \]<br/>
+      Calculate the de-Broglie wavelength:<br/>
+      \[ \lambda = \frac{1.227}{100}\text{ nm} = 0.01227\text{ nm} = 1.227 \times 10^{-11}\text{ m} = 12.27 \times 10^{-12}\text{ m} \approx 12.2 \times 10^{-12}\text{ m} \]</p>
+      <p><strong>Check and Final Answer:</strong><br/>
+      The de-Broglie wavelength of the electron is approximately \( 12.2 \times 10^{-12}\text{ m} \).</p>
+      <hr/>
+      <p><strong>প্রদত্ত তথ্য এবং শর্তাবলী:</strong><br/>
+      ত্বরান্বিত বিভবপ্রভেদ \( V = 10,000\text{ V} = 10^4\text{ V} \)<br/>
+      ইলেকট্রনের ভর \( m_e = 9 \times 10^{-31}\text{ kg} \)</p>
+      <p><strong>প্রাসঙ্গিক সূত্র ও নীতি:</strong><br/>
+      ইলেকট্রনের দ্য ব্রগলি তরঙ্গদৈর্ঘ্যের সূত্র:<br/>
+      \[ \lambda = \frac{h}{\sqrt{2m_e eV}} \approx \frac{1.227}{\sqrt{V}}\text{ nm} \]</p>
+      <p><strong>ধাপে ধাপে সমাধান:</strong><br/>
+      \( \sqrt{V} = \sqrt{10^4} = 100 \) বসিয়ে পাই:<br/>
+      \[ \lambda = \frac{1.227}{100}\text{ nm} = 12.27 \times 10^{-12}\text{ m} \approx 12.2 \times 10^{-12}\text{ m} \]</p>
+      <p><strong>চূড়ান্ত উত্তর:</strong><br/>
+      ইলেকট্রনটির দ্য ব্রগলি তরঙ্গদৈর্ঘ্য প্রায় \( 12.2 \times 10^{-12}\text{ m} \)।</p>
+    ]]></text>
+  </generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="100" format="html">
+    <text><![CDATA[<p>\( 12.2 \times 10^{-12} \mathrm{~m} \)</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\( 12.2 \times 10^{-14} \mathrm{~m} \)</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\( 12.2\mathrm{nm} \)</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\( 12.2 \times 10^{-13} \mathrm{~m} \)</p>]]></text>
+  </answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>year:2019</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:bn</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>class:12</text></tag>
+    <tag><text>topic:modern_physics</text></tag>
+    <tag><text>chapter:dual_nature_of_radiation_and_matter</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:easy</text></tag>
+    <tag><text>blooms:apply</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:text</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>

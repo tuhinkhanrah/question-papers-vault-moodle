@@ -1,0 +1,1331 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+<question type="multichoice">
+  <name>
+    <text>NEET_UG_PHYSICS_2013_Q08 - Initial angular acceleration of hinged rod</text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[
+<p>A rod \(PQ\) of mass \(M\) and length \(L\) is hinged at end \(P\). The rod is kept horizontal by a massless string tied to point \(Q\) as shown in figure. When string is cut, the initial angular acceleration of the rod is</p>
+<p><img src="@@PLUGINFILE@@/img-2.jpeg" alt="Horizontal rod PQ hinged at P and supported by vertical string at Q" /></p>
+<hr/>
+<p>द्रव्यमान \(M\) तथा लंबाई \(L\) की एक छड़ \(PQ\) सिरे \(P\) पर कीलकित (hinged) है। चित्र में दर्शाए अनुसार छड़ को बिंदु \(Q\) पर बँधी एक द्रव्यमानहीन डोरी द्वारा क्षैतिज रखा गया है। जब डोरी को काट दिया जाता है, तो छड़ का प्रारंभिक कोणीय त्वरण होगा:</p>
+    ]]></text>
+  </questiontext>
+  <generalfeedback format="html">
+    <text><![CDATA[
+<p><strong>Step 1: Given Data and Conditions</strong><br/>
+Mass of the uniform rod: \(M\).<br/>
+Length of the rod: \(L\).<br/>
+Hinge axis passes through end \(P\).<br/>
+The rod is initially horizontal when the string supporting end \(Q\) is cut.</p>
+
+<p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>
+The rod is uniform, so its center of mass is located at its geometric midpoint, a distance \(\frac{L}{2}\) from hinge \(P\). Gravitational acceleration \(g\) acts vertically downward. Clockwise rotation about hinge \(P\) is taken as positive.</p>
+
+<p><strong>Step 3: Relevant Formulae and Principles</strong><br/>
+Rotational analogue of Newton's second law:
+\[ \tau = I \alpha \]
+where \(\tau\) is the net external torque about the hinge axis, \(I\) is the moment of inertia about the hinge axis, and \(\alpha\) is the angular acceleration.<br/>
+The torque due to gravity about end \(P\) is:
+\[ \tau = Mg \left(\frac{L}{2}\right) \]
+The moment of inertia of a uniform rod of mass \(M\) and length \(L\) rotating about an axis perpendicular to its length through one end is:
+\[ I = \frac{1}{3}ML^2 \]</p>
+
+<p><strong>Step 4: Step-by-Step Working</strong><br/>
+Substitute torque and moment of inertia into the rotational equation:
+\[ Mg \left(\frac{L}{2}\right) = \left(\frac{1}{3}ML^2\right) \alpha \]
+Solving for \(\alpha\):
+\[ \alpha = \frac{Mg \left(\frac{L}{2}\right)}{\frac{1}{3}ML^2} = \frac{3MgL}{2ML^2} = \frac{3g}{2L} \]</p>
+
+<p><strong>Step 5: Check and Final Answer</strong><br/>
+Dimensional verification: \([g/L] = \frac{\text{m/s}^2}{\text{m}} = \text{s}^{-2}\), which represents angular acceleration in \(\text{rad/s}^2\). The result exceeds \(\frac{g}{L}\) because mass is distributed along the rod rather than concentrated at the end.<br/>
+The initial angular acceleration of the rod is \(\frac{3g}{2L}\).</p>
+<hr/>
+<p><strong>चरण 1: दिए गए आँकड़े और स्थितियाँ (Given Data and Conditions)</strong><br/>
+एकसमान छड़ का द्रव्यमान: \(M\)।<br/>
+छड़ की लंबाई: \(L\)।<br/>
+घूर्णन अक्ष सिरे \(P\) से होकर गुजरता है। डोरी काटने के क्षण छड़ क्षैतिज अवस्था में है।</p>
+
+<p><strong>चरण 2: मान्यताएँ और चिन्ह परिपाटी (Assumptions and Sign Conventions)</strong><br/>
+छड़ एकसमान है, अतः इसका द्रव्यमान केंद्र सिरे \(P\) से \(\frac{L}{2}\) दूरी पर स्थित है। गुरुत्वीय बल नीचे की ओर कार्य करता है।</p>
+
+<p><strong>चरण 3: संबंधित सूत्र और सिद्धांत (Relevant Formulae and Principles)</strong><br/>
+घूर्णन गति का मूलभूत समीकरण:
+\[ \tau = I \alpha \]
+सिरे \(P\) के परितः गुरुत्वीय बल आघूर्ण:
+\[ \tau = Mg \left(\frac{L}{2}\right) \]
+एक सिरे से गुजरने वाले लंबवत अक्ष के परितः छड़ का जड़त्व आघूर्ण:
+\[ I = \frac{1}{3}ML^2 \]</p>
+
+<p><strong>चरण 4: चरणबद्ध हल (Step-by-Step Working)</strong><br/>
+मानों को समीकरण में रखने पर:
+\[ Mg\left(\frac{L}{2}\right) = \left(\frac{1}{3}ML^2\right)\alpha \]
+\[ \alpha = \frac{3g}{2L} \]</p>
+
+<p><strong>चरण 5: जाँच एवं अंतिम उत्तर (Check and Final Answer)</strong><br/>
+विमीय रूप से \(\frac{g}{L}\) का मात्रक \(\text{rad/s}^2\) है।<br/>
+अतः छड़ का प्रारंभिक कोणीय त्वरण \(\frac{3g}{2L}\) है।</p>
+    ]]></text>
+  </generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(\frac{g}{L}\)</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(\frac{2g}{L}\)</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(\frac{2g}{3L}\)</p>]]></text>
+  </answer>
+  <answer fraction="100" format="html">
+    <text><![CDATA[<p>\(\frac{3g}{2L}\)</p>]]></text>
+  </answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>year:2013</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:hi</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>class:11</text></tag>
+    <tag><text>topic:torque_and_angular_acceleration</text></tag>
+    <tag><text>chapter:system_of_particles_and_rotational_motion</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:medium</text></tag>
+    <tag><text>blooms:apply</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:diagram</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+<question type="multichoice">
+  <name>
+    <text>NEET_UG_PHYSICS_2013_Q09 - Identification of rolling body on curved surface</text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[
+<p>A small object of uniform density rolls up a curved surface with an initial velocity \(v\). It reaches up to a maximum height of \(\frac{3v^2}{4g}\) with respect to the initial position. The object is</p>
+<hr/>
+<p>एकसमान घनत्व की एक छोटी वस्तु प्रारंभिक वेग \(v\) से एक वक्र पृष्ठ पर ऊपर की ओर लुढ़कती है। यह प्रारंभिक स्थिति के सापेक्ष अधिकतम ऊँचाई \(\frac{3v^2}{4g}\) तक पहुँचती है। यह वस्तु है:</p>
+    ]]></text>
+  </questiontext>
+  <generalfeedback format="html">
+    <text><![CDATA[
+<p><strong>Step 1: Given Data and Conditions</strong><br/>
+Initial translational velocity: \(v\).<br/>
+Maximum vertical height reached while rolling without slipping: \(h = \frac{3v^2}{4g}\).<br/>
+Object has uniform density.</p>
+
+<p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>
+Rolling without slipping occurs throughout the ascent, so mechanical energy is conserved without dissipative losses. At the highest point, the object momentarily comes to rest (\(v = 0, \omega = 0\)).</p>
+
+<p><strong>Step 3: Relevant Formulae and Principles</strong><br/>
+Total kinetic energy of a rolling body of mass \(M\), radius \(R\), and radius of gyration \(k\) is:
+\[ K = K_{\text{trans}} + K_{\text{rot}} = \frac{1}{2}Mv^2 + \frac{1}{2}I\omega^2 = \frac{1}{2}Mv^2\left(1 + \frac{k^2}{R^2}\right) \]
+By conservation of mechanical energy:
+\[ Mgh = \frac{1}{2}Mv^2\left(1 + \frac{k^2}{R^2}\right) \]</p>
+
+<p><strong>Step 4: Step-by-Step Working</strong><br/>
+Substitute \(h = \frac{3v^2}{4g}\) into the conservation of energy equation:
+\[ Mg\left(\frac{3v^2}{4g}\right) = \frac{1}{2}Mv^2\left(1 + \frac{k^2}{R^2}\right) \]
+Divide both sides by \(Mv^2\) and cancel \(g\):
+\[ \frac{3}{4} = \frac{1}{2}\left(1 + \frac{k^2}{R^2}\right) \]
+Multiply both sides by 2:
+\[ \frac{3}{2} = 1 + \frac{k^2}{R^2} \]
+\[ \frac{k^2}{R^2} = \frac{3}{2} - 1 = \frac{1}{2} \]
+For a circular disc (or solid cylinder), the moment of inertia about its symmetry axis is \(I = \frac{1}{2}MR^2\), which corresponds to \(\frac{k^2}{R^2} = \frac{1}{2}\).</p>
+
+<p><strong>Step 5: Check and Final Answer</strong><br/>
+Comparing \(\frac{k^2}{R^2}\) values:
+- Solid sphere: \(\frac{2}{5} = 0.4\)
+- Hollow sphere: \(\frac{2}{3} \approx 0.67\)
+- Ring: \(1\)
+- Disc: \(\frac{1}{2} = 0.5\)
+The value \(\frac{1}{2}\) uniquely matches a disc.<br/>
+The object is a Disc.</p>
+<hr/>
+<p><strong>चरण 1: दिए गए आँकड़े और स्थितियाँ (Given Data and Conditions)</strong><br/>
+प्रारंभिक रेखीय वेग: \(v\)।<br/>
+बिना फिसले लुढ़कते हुए प्राप्त अधिकतम ऊँचाई: \(h = \frac{3v^2}{4g}\)।</p>
+
+<p><strong>चरण 2: मान्यताएँ और चिन्ह परिपाटी (Assumptions and Sign Conventions)</strong><br/>
+वस्तु शुद्ध लोटनिक गति (pure rolling) करती है, अतः यांत्रिक ऊर्जा संरक्षित रहती है। उच्चतम बिंदु पर संपूर्ण गतिज ऊर्जा स्थितिज ऊर्जा में परिवर्तित हो जाती है।</p>
+
+<p><strong>चरण 3: संबंधित सूत्र और सिद्धांत (Relevant Formulae and Principles)</strong><br/>
+लोटनिक गतिज ऊर्जा:
+\[ K = \frac{1}{2}Mv^2\left(1 + \frac{k^2}{R^2}\right) \]
+ऊर्जा संरक्षण से:
+\[ Mgh = \frac{1}{2}Mv^2\left(1 + \frac{k^2}{R^2}\right) \]</p>
+
+<p><strong>चरण 4: चरणबद्ध हल (Step-by-Step Working)</strong><br/>
+\(h\) का मान रखने पर:
+\[ Mg\left(\frac{3v^2}{4g}\right) = \frac{1}{2}Mv^2\left(1 + \frac{k^2}{R^2}\right) \]
+\[ \frac{3}{4} = \frac{1}{2}\left(1 + \frac{k^2}{R^2}\right) \]
+\[ \frac{k^2}{R^2} = \frac{1}{2} \]
+एक चकती (Disc) के लिए घूर्णन त्रिज्या का अनुपात \(\frac{k^2}{R^2} = \frac{1}{2}\) होता है।</p>
+
+<p><strong>चरण 5: जाँच एवं अंतिम उत्तर (Check and Final Answer)</strong><br/>
+प्राप्त अनुपात \(\frac{1}{2}\) चकती के जड़त्व आघूर्ण \(I = \frac{1}{2}MR^2\) से पूर्णतः मेल खाता है।<br/>
+अतः वह वस्तु चकती (Disc) है।</p>
+    ]]></text>
+  </generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>Solid sphere</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>Hollow sphere</p>]]></text>
+  </answer>
+  <answer fraction="100" format="html">
+    <text><![CDATA[<p>Disc</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>Ring</p>]]></text>
+  </answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>year:2013</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:hi</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>class:11</text></tag>
+    <tag><text>topic:rolling_motion</text></tag>
+    <tag><text>chapter:system_of_particles_and_rotational_motion</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:medium</text></tag>
+    <tag><text>blooms:apply</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:text</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+<question type="multichoice">
+  <name>
+    <text>NEET_UG_PHYSICS_2013_Q10 - Gravitational potential energy change at height</text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[
+<p>A body of mass \(m\) is taken from the earth's surface to the height equal to twice the radius (\(R\)) of the earth. The change in potential energy of body will be</p>
+<hr/>
+<p>द्रव्यमान \(m\) के एक पिंड को पृथ्वी की सतह से पृथ्वी की त्रिज्या (\(R\)) की दोगुनी ऊँचाई तक ले जाया जाता है। पिंड की स्थितिज ऊर्जा में परिवर्तन होगा:</p>
+    ]]></text>
+  </questiontext>
+  <generalfeedback format="html">
+    <text><![CDATA[
+<p><strong>Step 1: Given Data and Conditions</strong><br/>
+Mass of the body: \(m\).<br/>
+Radius of the Earth: \(R\).<br/>
+Initial position: surface of the Earth, at distance \(r_i = R\) from the center.<br/>
+Height above surface: \(h = 2R\).<br/>
+Final position: at distance \(r_f = R + h = R + 2R = 3R\) from the center.</p>
+
+<p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>
+The Earth is treated as a uniform sphere of mass \(M\). Gravitational potential energy at distance \(r \ge R\) from the center is referenced to zero at infinity.</p>
+
+<p><strong>Step 3: Relevant Formulae and Principles</strong><br/>
+Gravitational potential energy of mass \(m\) at distance \(r\) from the Earth's center is:
+\[ U(r) = -\frac{GMm}{r} \]
+The change in gravitational potential energy is:
+\[ \Delta U = U_f - U_i = -\frac{GMm}{r_f} - \left(-\frac{GMm}{r_i}\right) = GMm\left(\frac{1}{r_i} - \frac{1}{r_f}\right) \]
+Using the surface relation \(GM = gR^2\):
+\[ \Delta U = mgR^2\left(\frac{1}{r_i} - \frac{1}{r_f}\right) \]</p>
+
+<p><strong>Step 4: Step-by-Step Working</strong><br/>
+Substitute \(r_i = R\) and \(r_f = 3R\):
+\[ \Delta U = mgR^2\left(\frac{1}{R} - \frac{1}{3R}\right) \]
+\[ \Delta U = mgR^2\left(\frac{2}{3R}\right) = \frac{2}{3}mgR \]</p>
+
+<p><strong>Step 5: Check and Final Answer</strong><br/>
+Since the body is moved further away from the Earth, potential energy increases (\(\Delta U > 0\)), and \(\frac{2}{3}mgR < mgh = 2mgR\) as expected because gravitational field decreases with distance.<br/>
+The change in potential energy of the body is \(\frac{2}{3}mgR\).</p>
+<hr/>
+<p><strong>चरण 1: दिए गए आँकड़े और स्थितियाँ (Given Data and Conditions)</strong><br/>
+पिंड का द्रव्यमान: \(m\)।<br/>
+पृथ्वी की त्रिज्या: \(R\)।<br/>
+प्रारंभिक दूरी केंद्र से: \(r_i = R\)।<br/>
+सतह से ऊँचाई: \(h = 2R\)।<br/>
+अंतिम दूरी केंद्र से: \(r_f = R + 2R = 3R\)।</p>
+
+<p><strong>चरण 2: मान्यताएँ और चिन्ह परिपाटी (Assumptions and Sign Conventions)</strong><br/>
+पृथ्वी को एकसमान गोला माना गया है। अनंत पर गुरुत्वीय स्थितिज ऊर्जा शून्य मानी जाती है।</p>
+
+<p><strong>चरण 3: संबंधित सूत्र और सिद्धांत (Relevant Formulae and Principles)</strong><br/>
+गुरुत्वीय स्थितिज ऊर्जा:
+\[ U = -\frac{GMm}{r} \]
+स्थितिज ऊर्जा में परिवर्तन:
+\[ \Delta U = GMm\left(\frac{1}{r_i} - \frac{1}{r_f}\right) \]
+सतह पर संबंध \(GM = gR^2\) का उपयोग करने पर:
+\[ \Delta U = mgR^2\left(\frac{1}{r_i} - \frac{1}{r_f}\right) \]</p>
+
+<p><strong>चरण 4: चरणबद्ध हल (Step-by-Step Working)</strong><br/>
+\(r_i = R\) तथा \(r_f = 3R\) रखने पर:
+\[ \Delta U = mgR^2\left(\frac{1}{R} - \frac{1}{3R}\right) = mgR^2\left(\frac{2}{3R}\right) = \frac{2}{3}mgR \]</p>
+
+<p><strong>चरण 5: जाँच एवं अंतिम उत्तर (Check and Final Answer)</strong><br/>
+सतह से दूर जाने पर स्थितिज ऊर्जा बढ़ती है और मान \(\frac{2}{3}mgR\) प्राप्त होता है।<br/>
+अतः स्थितिज ऊर्जा में परिवर्तन \(\frac{2}{3}mgR\) है।</p>
+    ]]></text>
+  </generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(2mgR\)</p>]]></text>
+  </answer>
+  <answer fraction="100" format="html">
+    <text><![CDATA[<p>\(\frac{2}{3}mgR\)</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(3mgR\)</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(\frac{1}{3}mgR\)</p>]]></text>
+  </answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>year:2013</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:hi</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>class:11</text></tag>
+    <tag><text>topic:gravitational_potential_energy</text></tag>
+    <tag><text>chapter:gravitation</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:easy</text></tag>
+    <tag><text>blooms:apply</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:text</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+<question type="multichoice">
+  <name>
+    <text>NEET_UG_PHYSICS_2013_Q11 - Gravitational potential due to infinite masses</text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[
+<p>Infinite number of bodies, each of mass \(2\text{ kg}\) are situated on x-axis at distance \(1\text{ m}, 2\text{ m}, 4\text{ m}, 8\text{ m}, \dots\) respectively from the origin. The resulting gravitational potential due to this system at the origin will be</p>
+<hr/>
+<p>अनंत संख्या में पिंड, जिनमें प्रत्येक का द्रव्यमान \(2\text{ kg}\) है, मूल बिंदु से क्रमशः \(1\text{ m}, 2\text{ m}, 4\text{ m}, 8\text{ m}, \dots\) दूरियों पर x-अक्ष पर स्थित हैं। इस निकाय के कारण मूल बिंदु पर परिणामी गुरुत्वीय विभव होगा:</p>
+    ]]></text>
+  </questiontext>
+  <generalfeedback format="html">
+    <text><![CDATA[
+<p><strong>Step 1: Given Data and Conditions</strong><br/>
+Mass of each body: \(m = 2\text{ kg}\).<br/>
+Positions along the x-axis: \(x_1 = 1\text{ m}\), \(x_2 = 2\text{ m}\), \(x_3 = 4\text{ m}\), \(x_4 = 8\text{ m}, \dots, x_n = 2^{n-1}\text{ m}\).<br/>
+Number of bodies: infinite.</p>
+
+<p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>
+Gravitational potential is a scalar quantity, and the potential at the origin is the algebraic sum of the potentials contributed by all individual point masses. Standard convention: gravitational potential due to an attractive mass is negative everywhere in space.</p>
+
+<p><strong>Step 3: Relevant Formulae and Principles</strong><br/>
+Gravitational potential at distance \(r\) from a point mass \(m\) is:
+\[ V = -\frac{Gm}{r} \]
+By the principle of superposition:
+\[ V_{\text{net}} = \sum_{n=1}^{\infty} \left(-\frac{Gm}{x_n}\right) = -Gm \sum_{n=1}^{\infty} \frac{1}{x_n} \]
+The sum of an infinite geometric series with first term \(a\) and common ratio \(r < 1\) is:
+\[ S_{\infty} = \frac{a}{1 - r} \]</p>
+
+<p><strong>Step 4: Step-by-Step Working</strong><br/>
+Set up the series:
+\[ V_{\text{net}} = -G(2)\left[\frac{1}{1} + \frac{1}{2} + \frac{1}{4} + \frac{1}{8} + \dots\right] \]
+Here, \(a = 1\) and common ratio \(r = \frac{1}{2}\).<br/>
+Sum of the infinite series:
+\[ S_{\infty} = \frac{1}{1 - \frac{1}{2}} = \frac{1}{\frac{1}{2}} = 2 \]
+Substitute the sum back into the potential expression:
+\[ V_{\text{net}} = -G(2)(2) = -4G \]</p>
+
+<p><strong>Step 5: Check and Final Answer</strong><br/>
+Each term is negative, so the infinite sum must be negative and finite because the geometric series converges.<br/>
+The resulting gravitational potential at the origin is \(-4G\).</p>
+<hr/>
+<p><strong>चरण 1: दिए गए आँकड़े और स्थितियाँ (Given Data and Conditions)</strong><br/>
+प्रत्येक पिंड का द्रव्यमान: \(m = 2\text{ kg}\)।<br/>
+मूल बिंदु से स्थितियाँ: \(1\text{ m}, 2\text{ m}, 4\text{ m}, 8\text{ m}, \dots\)।</p>
+
+<p><strong>चरण 2: मान्यताएँ और चिन्ह परिपाटी (Assumptions and Sign Conventions)</strong><br/>
+गुरुत्वीय विभव एक अदिश राशि है, अतः मूल बिंदु पर कुल विभव सभी कणों के विभवों का बीजगणितीय योग होगा।</p>
+
+<p><strong>चरण 3: संबंधित सूत्र और सिद्धांत (Relevant Formulae and Principles)</strong><br/>
+बिंदु द्रव्यमान के कारण विभव:
+\[ V = -\frac{Gm}{r} \]
+अध्यारोपण सिद्धांत से:
+\[ V = -Gm\left(1 + \frac{1}{2} + \frac{1}{4} + \frac{1}{8} + \dots\right) \]
+अनंत गुणोत्तर श्रेणी का योग:
+\[ S_{\infty} = \frac{a}{1 - r} \]</p>
+
+<p><strong>चरण 4: चरणबद्ध हल (Step-by-Step Working)</strong><br/>
+श्रेणी का प्रथम पद \(a = 1\) तथा सार्व अनुपात \(r = \frac{1}{2}\) है:
+\[ S_{\infty} = \frac{1}{1 - \frac{1}{2}} = 2 \]
+कुल विभव:
+\[ V = -G(2)(2) = -4G \]</p>
+
+<p><strong>चरण 5: जाँच एवं अंतिम उत्तर (Check and Final Answer)</strong><br/>
+अनंत श्रेणी अभिसारी (convergent) है और कुल मान \(-4G\) प्राप्त होता है।<br/>
+अतः मूल बिंदु पर परिणामी गुरुत्वीय विभव \(-4G\) है।</p>
+    ]]></text>
+  </generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(-G\)</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(-\frac{8}{3}G\)</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(-\frac{4}{3}G\)</p>]]></text>
+  </answer>
+  <answer fraction="100" format="html">
+    <text><![CDATA[<p>\(-4G\)</p>]]></text>
+  </answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>year:2013</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:hi</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>class:11</text></tag>
+    <tag><text>topic:gravitational_potential</text></tag>
+    <tag><text>chapter:gravitation</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:easy</text></tag>
+    <tag><text>blooms:apply</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:text</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+<question type="multichoice">
+  <name>
+    <text>NEET_UG_PHYSICS_2013_Q12 - Largest extension of wires under tension</text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[
+<p>The following four wires are made of the same material. Which of these will have the largest extension when the same tension is applied?</p>
+<hr/>
+<p>निम्नलिखित चार तार एक ही पदार्थ के बने हैं। समान तनाव (बल) आरोपित करने पर इनमें से किस तार में सबसे अधिक प्रसार (खिंचाव) होगा?</p>
+    ]]></text>
+  </questiontext>
+  <generalfeedback format="html">
+    <text><![CDATA[
+<p><strong>Step 1: Given Data and Conditions</strong><br/>
+All four wires are made of the same material (identical Young's modulus \(Y\)).<br/>
+The applied tension (force \(F\)) is identical for all wires.<br/>
+Wire parameters to compare:<br/>
+- Length \(= 50\text{ cm}\), diameter \(= 0.5\text{ mm}\)<br/>
+- Length \(= 100\text{ cm}\), diameter \(= 1\text{ mm}\)<br/>
+- Length \(= 200\text{ cm}\), diameter \(= 2\text{ mm}\)<br/>
+- Length \(= 300\text{ cm}\), diameter \(= 3\text{ mm}\)</p>
+
+<p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>
+Deformation remains within the elastic limit so that Hooke's law is valid. The cross-section is circular with area \(A = \frac{\pi D^2}{4}\).</p>
+
+<p><strong>Step 3: Relevant Formulae and Principles</strong><br/>
+From Hooke's law:
+\[ Y = \frac{\text{Stress}}{\text{Strain}} = \frac{F/A}{\Delta L / L} \]
+Rearranging for longitudinal extension \(\Delta L\):
+\[ \Delta L = \frac{F L}{A Y} = \frac{F L}{\left(\frac{\pi D^2}{4}\right) Y} = \frac{4F}{\pi Y} \left(\frac{L}{D^2}\right) \]
+Since \(F\) and \(Y\) are constant:
+\[ \Delta L \propto \frac{L}{D^2} \]</p>
+
+<p><strong>Step 4: Step-by-Step Working</strong><br/>
+Calculate the proportional factor \(\frac{L}{D^2}\) for each configuration using consistent units (\(\text{cm}/\text{mm}^2\)):<br/>
+1. For Length \(= 50\text{ cm}\), diameter \(= 0.5\text{ mm}\):
+\[ \frac{50}{(0.5)^2} = \frac{50}{0.25} = 200\text{ cm/mm}^2 \]
+2. For Length \(= 100\text{ cm}\), diameter \(= 1\text{ mm}\):
+\[ \frac{100}{1^2} = 100\text{ cm/mm}^2 \]
+3. For Length \(= 200\text{ cm}\), diameter \(= 2\text{ mm}\):
+\[ \frac{200}{2^2} = \frac{200}{4} = 50\text{ cm/mm}^2 \]
+4. For Length \(= 300\text{ cm}\), diameter \(= 3\text{ mm}\):
+\[ \frac{300}{3^2} = \frac{300}{9} \approx 33.3\text{ cm/mm}^2 \]</p>
+
+<p><strong>Step 5: Check and Final Answer</strong><br/>
+Comparing the calculated values, \(200 > 100 > 50 > 33.3\). The maximum value of \(\frac{L}{D^2}\) corresponds to the wire with length \(50\text{ cm}\) and diameter \(0.5\text{ mm}\).<br/>
+The wire that will have the largest extension has Length \(= 50\text{ cm}\), diameter \(= 0.5\text{ mm}\).</p>
+<hr/>
+<p><strong>चरण 1: दिए गए आँकड़े और स्थितियाँ (Given Data and Conditions)</strong><br/>
+सभी चार तार एक ही पदार्थ के बने हैं (यंग प्रत्यास्थता गुणांक \(Y\) समान है)।<br/>
+सभी तारों पर आरोपित तनाव \(F\) समान है।</p>
+
+<p><strong>चरण 2: मान्यताएँ और चिन्ह परिपाटी (Assumptions and Sign Conventions)</strong><br/>
+प्रत्यास्थता की सीमा के भीतर हुक का नियम लागू होता है। वृत्ताकार अनुप्रस्थ-काट का क्षेत्रफल \(A = \frac{\pi D^2}{4}\) है।</p>
+
+<p><strong>चरण 3: संबंधित सूत्र और सिद्धांत (Relevant Formulae and Principles)</strong><br/>
+यंग प्रत्यास्थता गुणांक के सूत्र से:
+\[ \Delta L = \frac{F L}{A Y} = \frac{4F L}{\pi D^2 Y} \]
+अतः:
+\[ \Delta L \propto \frac{L}{D^2} \]</p>
+
+<p><strong>चरण 4: चरणबद्ध हल (Step-by-Step Working)</strong><br/>
+प्रत्येक तार के लिए \(\frac{L}{D^2}\) का अनुपात ज्ञात करने पर:<br/>
+1. लंबाई \(= 50\text{ cm}\), व्यास \(= 0.5\text{ mm}\):
+\[ \frac{50}{(0.5)^2} = \frac{50}{0.25} = 200 \]
+2. लंबाई \(= 100\text{ cm}\), व्यास \(= 1\text{ mm}\):
+\[ \frac{100}{1^2} = 100 \]
+3. लंबाई \(= 200\text{ cm}\), व्यास \(= 2\text{ mm}\):
+\[ \frac{200}{4} = 50 \]
+4. लंबाई \(= 300\text{ cm}\), व्यास \(= 3\text{ mm}\):
+\[ \frac{300}{9} \approx 33.3 \]</p>
+
+<p><strong>चरण 5: जाँच एवं अंतिम उत्तर (Check and Final Answer)</strong><br/>
+अनुपात \(\frac{L}{D^2}\) का मान लंबाई \(50\text{ cm}\) तथा व्यास \(0.5\text{ mm}\) वाले तार के लिए अधिकतम (200) है।<br/>
+अतः सर्वाधिक प्रसार लंबाई \(= 50\text{ cm}\), व्यास \(= 0.5\text{ mm}\) वाले तार में होगा।</p>
+    ]]></text>
+  </generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="100" format="html">
+    <text><![CDATA[<p>Length = \(50\text{ cm}\), diameter = \(0.5\text{ mm}\)</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>Length = \(100\text{ cm}\), diameter = \(1\text{ mm}\)</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>Length = \(200\text{ cm}\), diameter = \(2\text{ mm}\)</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>Length = \(300\text{ cm}\), diameter = \(3\text{ mm}\)</p>]]></text>
+  </answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>year:2013</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:hi</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>class:11</text></tag>
+    <tag><text>topic:elasticity</text></tag>
+    <tag><text>chapter:mechanical_properties_of_solids</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:easy</text></tag>
+    <tag><text>blooms:apply</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:text</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+<question type="multichoice">
+  <name>
+    <text>NEET_UG_PHYSICS_2013_Q13 - Primary factor governing wettability of surface</text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[
+<p>The wet-ability of a surface by a liquid depends primarily on</p>
+<hr/>
+<p>किसी द्रव द्वारा किसी पृष्ठ को गीला करने की क्षमता (आर्द्रता/wet-ability) मुख्य रूप से निर्भर करती है:</p>
+    ]]></text>
+  </questiontext>
+  <generalfeedback format="html">
+    <text><![CDATA[
+<p><strong>Step 1: Given Data and Conditions</strong><br/>
+Physical property under consideration: Wettability of a solid surface by a liquid.</p>
+
+<p><strong>Step 2: Assumptions and Physical Concepts</strong><br/>
+Wettability is governed by the interfacial tensions between solid, liquid, and vapour phases at the line of contact, which determines the profile and contact boundary of the liquid droplet on the solid surface.</p>
+
+<p><strong>Step 3: Relevant Formulae and Principles</strong><br/>
+According to Young's relation:
+\[ \gamma_{SV} = \gamma_{SL} + \gamma_{LV}\cos\theta_c \]
+where \(\gamma_{SV}\), \(\gamma_{SL}\), and \(\gamma_{LV}\) are the interfacial surface energies of solid-vapour, solid-liquid, and liquid-vapour boundaries respectively, and \(\theta_c\) is the angle of contact.<br/>
+- When the angle of contact is acute (\(\theta_c < 90^\circ\)), adhesive forces between liquid and solid dominate, causing the liquid to spread and wet the surface.<br/>
+- When the angle of contact is obtuse (\(\theta_c > 90^\circ\)), cohesive forces within the liquid dominate, causing the liquid to bead up and not wet the surface.</p>
+
+<p><strong>Step 4: Step-by-Step Working</strong><br/>
+While surface tension sets the scale of interfacial energy, the degree of wetting (whether a liquid spreads completely, partially, or recedes into beads) is quantitatively and primarily measured and decided by the angle of contact between the surface and the liquid.</p>
+
+<p><strong>Step 5: Check and Final Answer</strong><br/>
+Density and viscosity dictate flow dynamics but do not govern whether a liquid wets a surface. Surface tension alone does not define wetting without the solid-liquid interaction angle.<br/>
+The wettability depends primarily on the angle of contact between the surface and the liquid.</p>
+<hr/>
+<p><strong>चरण 1: दिए गए आँकड़े और स्थितियाँ (Given Data and Conditions)</strong><br/>
+विचारणीय भौतिक परिघटना: किसी ठोस पृष्ठ की द्रव द्वारा गीला करने की क्षमता (Wettability)।</p>
+
+<p><strong>चरण 2: मान्यताएँ और भौतिक सिद्धांत (Assumptions and Physical Concepts)</strong><br/>
+गीला करने की क्षमता ठोस, द्रव और वाष्प के अंतरापृष्ठीय तनावों तथा ससंजक व आसंजक बलों के संतुलन पर निर्भर करती है।</p>
+
+<p><strong>चरण 3: संबंधित सूत्र और सिद्धांत (Relevant Formulae and Principles)</strong><br/>
+यंग के समीकरण के अनुसार:
+\[ \cos\theta_c = \frac{\gamma_{SV} - \gamma_{SL}}{\gamma_{LV}} \]
+जहाँ \(\theta_c\) स्पर्श कोण (angle of contact) है।<br/>
+- यदि स्पर्श कोण न्यूनकोण हो (\(\theta_c < 90^\circ\)), तो द्रव ठोस पृष्ठ को गीला करता है।<br/>
+- यदि स्पर्श कोण अधिककोण हो (\(\theta_c > 90^\circ\)), तो द्रव पृष्ठ को गीला नहीं करता है।</p>
+
+<p><strong>चरण 4: चरणबद्ध हल (Step-by-Step Working)</strong><br/>
+द्रव द्वारा सतह को गीला करने अथवा न करने का प्राथमिक निर्धारक स्पर्श कोण (angle of contact) होता है।</p>
+
+<p><strong>चरण 5: जाँच एवं अंतिम उत्तर (Check and Final Answer)</strong><br/>
+श्यानता और घनत्व गतिज गुण हैं, जबकि आर्द्रता पृष्ठ और द्रव के मध्य बनने वाले स्पर्श कोण द्वारा निर्धारित होती है।<br/>
+अतः पृष्ठ को गीला करने की क्षमता मुख्य रूप से पृष्ठ और द्रव के बीच के स्पर्श कोण (angle of contact) पर निर्भर करती है।</p>
+    ]]></text>
+  </generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>density.</p>]]></text>
+  </answer>
+  <answer fraction="100" format="html">
+    <text><![CDATA[<p>angle of contact between the surface and the liquid.</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>viscosity.</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>surface tension.</p>]]></text>
+  </answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>year:2013</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:hi</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>class:11</text></tag>
+    <tag><text>topic:surface_tension_and_wettability</text></tag>
+    <tag><text>chapter:mechanical_properties_of_fluids</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:easy</text></tag>
+    <tag><text>blooms:remember</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:text</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+<question type="multichoice">
+  <name>
+    <text>NEET_UG_PHYSICS_2013_Q14 - Molar specific heat at constant volume</text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[
+<p>The molar specific heats of an ideal gas at constant pressure and volume are denoted by \(C_p\) and \(C_v\), respectively. If \(\gamma = \frac{C_p}{C_v}\) and \(R\) is the universal gas constant, then \(C_v\) is equal to</p>
+<hr/>
+<p>किसी आदर्श गैस की नियत दाब तथा नियत आयतन पर मोलर विशिष्ट ऊष्माओं को क्रमशः \(C_p\) तथा \(C_v\) द्वारा दर्शाया गया है। यदि \(\gamma = \frac{C_p}{C_v}\) तथा \(R\) सार्वत्रिक गैस नियतांक है, तो \(C_v\) का मान बराबर है:</p>
+    ]]></text>
+  </questiontext>
+  <generalfeedback format="html">
+    <text><![CDATA[
+<p><strong>Step 1: Given Data and Conditions</strong><br/>
+Molar heat capacity at constant pressure: \(C_p\).<br/>
+Molar heat capacity at constant volume: \(C_v\).<br/>
+Ratio of molar heat capacities: \(\gamma = \frac{C_p}{C_v}\).<br/>
+Universal gas constant: \(R\).</p>
+
+<p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>
+The gas behaves ideally and obeys Mayer's relation across the thermodynamic states.</p>
+
+<p><strong>Step 3: Relevant Formulae and Principles</strong><br/>
+1. Mayer's relation for an ideal gas:
+\[ C_p - C_v = R \]
+2. Definition of adiabatic index \(\gamma\):
+\[ C_p = \gamma C_v \]</p>
+
+<p><strong>Step 4: Step-by-Step Working</strong><br/>
+Substitute \(C_p = \gamma C_v\) into Mayer's relation:
+\[ \gamma C_v - C_v = R \]
+Factor out \(C_v\):
+\[ C_v(\gamma - 1) = R \]
+Divide both sides by \((\gamma - 1)\):
+\[ C_v = \frac{R}{\gamma - 1} \]</p>
+
+<p><strong>Step 5: Check and Final Answer</strong><br/>
+For a monatomic gas where \(\gamma = \frac{5}{3}\): \(C_v = \frac{R}{\frac{5}{3} - 1} = \frac{R}{2/3} = \frac{3}{2}R\), which matches the known theoretical value.<br/>
+The molar specific heat \(C_v\) is equal to \(\frac{R}{\gamma - 1}\).</p>
+<hr/>
+<p><strong>चरण 1: दिए गए आँकड़े और स्थितियाँ (Given Data and Conditions)</strong><br/>
+नियत दाब पर मोलर विशिष्ट ऊष्मा: \(C_p\)।<br/>
+नियत आयतन पर मोलर विशिष्ट ऊष्मा: \(C_v\)।<br/>
+अनुपात: \(\gamma = \frac{C_p}{C_v}\)।<br/>
+सार्वत्रिक गैस नियतांक: \(R\)।</p>
+
+<p><strong>चरण 2: मान्यताएँ और चिन्ह परिपाटी (Assumptions and Sign Conventions)</strong><br/>
+गैस एक आदर्श गैस है और मेयर के संबंध का पालन करती है।</p>
+
+<p><strong>चरण 3: संबंधित सूत्र और सिद्धांत (Relevant Formulae and Principles)</strong><br/>
+मेयर का सूत्र:
+\[ C_p - C_v = R \]
+विशिष्ट ऊष्मा अनुपात से:
+\[ C_p = \gamma C_v \]</p>
+
+<p><strong>चरण 4: चरणबद्ध हल (Step-by-Step Working)</strong><br/>
+मेयर के सूत्र में \(C_p\) का मान रखने पर:
+\[ \gamma C_v - C_v = R \]
+\[ C_v(\gamma - 1) = R \]
+\[ C_v = \frac{R}{\gamma - 1} \]</p>
+
+<p><strong>चरण 5: जाँच एवं अंतिम उत्तर (Check and Final Answer)</strong><br/>
+एकपरमाण्विक गैस (\(\gamma = 5/3\)) के लिए \(C_v = \frac{3}{2}R\) प्राप्त होता है, जो पूर्णतः सही है।<br/>
+अतः \(C_v\) का मान \(\frac{R}{\gamma - 1}\) के बराबर है।</p>
+    ]]></text>
+  </generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(\gamma R\)</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(\frac{1+\gamma}{1-\gamma}\)</p>]]></text>
+  </answer>
+  <answer fraction="100" format="html">
+    <text><![CDATA[<p>\(\frac{R}{\gamma-1}\)</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(\frac{\gamma-1}{R}\)</p>]]></text>
+  </answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>year:2013</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:hi</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>class:11</text></tag>
+    <tag><text>topic:molar_specific_heat</text></tag>
+    <tag><text>chapter:thermodynamics</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:easy</text></tag>
+    <tag><text>blooms:remember</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:text</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+<question type="multichoice">
+  <name>
+    <text>NEET_UG_PHYSICS_2013_Q15 - Colour change of heated iron rod</text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[
+<p>A piece of iron is heated in a flame. It first becomes dull red then becomes reddish yellow and finally turns to white hot. The correct explanation for the above observation is possible by using</p>
+<hr/>
+<p>लोहे के एक टुकड़े को ज्वाला में गर्म किया जाता है। यह पहले हल्का लाल (dull red), फिर रक्ताभ पीला (reddish yellow) तथा अंत में श्वेत तप्त (white hot) हो जाता है। उपर्युक्त प्रेक्षण का सही स्पष्टीकरण किसके प्रयोग द्वारा संभव है?</p>
+    ]]></text>
+  </questiontext>
+  <generalfeedback format="html">
+    <text><![CDATA[
+<p><strong>Step 1: Given Data and Conditions</strong><br/>
+Observation: An iron body heated progressively changes colour from dull red to reddish yellow, and finally to white hot as temperature increases.</p>
+
+<p><strong>Step 2: Assumptions and Physical Concepts</strong><br/>
+The heated iron piece emits thermal radiation approximating blackbody radiation characteristics at elevated temperatures.</p>
+
+<p><strong>Step 3: Relevant Formulae and Principles</strong><br/>
+According to Wien's displacement law:
+\[ \lambda_m T = b \]
+where \(\lambda_m\) is the wavelength corresponding to maximum spectral radiant energy, \(T\) is absolute temperature, and \(b\) is Wien's constant (\(\approx 2.898 \times 10^{-3}\text{ m}\cdot\text{K}\)).<br/>
+This expresses an inverse relationship:
+\[ \lambda_m \propto \frac{1}{T} \]</p>
+
+<p><strong>Step 4: Step-by-Step Working</strong><br/>
+1. At lower temperatures, \(\lambda_m\) lies in the infrared; as temperature rises, the peak enters the longer-wavelength end of the visible spectrum, appearing dull red.<br/>
+2. With further heating, \(T\) increases and \(\lambda_m\) shifts to shorter wavelengths (towards orange and yellow), making the object appear reddish yellow.<br/>
+3. At very high temperatures, substantial emission occurs across all visible wavelengths, resulting in the composite perception of white hot radiation.</p>
+
+<p><strong>Step 5: Check and Final Answer</strong><br/>
+Stefan's law determines total radiated energy per second (\(E \propto T^4\)), Kirchhoff's law relates emissivity to absorptivity, and Newton's law of cooling governs rate of heat loss. The spectral shift in perceived colour with temperature is uniquely explained by Wien's displacement law.<br/>
+The correct explanation is provided by Wien's displacement law.</p>
+<hr/>
+<p><strong>चरण 1: दिए गए आँकड़े और स्थितियाँ (Given Data and Conditions)</strong><br/>
+प्रेक्षण: गर्म किए जाने पर लोहे का टुकड़ा तापमान बढ़ने के साथ हल्के लाल से रक्ताभ पीले और अंत में श्वेत तप्त रंग में बदलता है।</p>
+
+<p><strong>चरण 2: मान्यताएँ और भौतिक सिद्धांत (Assumptions and Physical Concepts)</strong><br/>
+तप्त लोहा कृष्णिका विकिरण (blackbody radiation) की भाँति तापीय विकिरण उत्सर्जित करता है।</p>
+
+<p><strong>चरण 3: संबंधित सूत्र और सिद्धांत (Relevant Formulae and Principles)</strong><br/>
+वीन के विस्थापन नियम के अनुसार:
+\[ \lambda_m T = b \implies \lambda_m \propto \frac{1}{T} \]
+जहाँ \(\lambda_m\) अधिकतम उत्सर्जन क्षमता के संगत तरंगदैर्घ्य तथा \(T\) परम ताप है।</p>
+
+<p><strong>चरण 4: चरणबद्ध हल (Step-by-Step Working)</strong><br/>
+तापमान \(T\) बढ़ने पर अधिकतम विकिरण ऊर्जा का तरंगदैर्घ्य \(\lambda_m\) कम तरंगदैर्घ्य की ओर विस्थापित होता है। यह पहले लाल रंग (दीर्घ तरंगदैर्घ्य), फिर पीले रंग, और अत्यधिक उच्च ताप पर सभी दृश्य तरंगदैर्घ्यों के एकसाथ उत्सर्जन के कारण श्वेत दिखाई देता है।</p>
+
+<p><strong>चरण 5: जाँच एवं अंतिम उत्तर (Check and Final Answer)</strong><br/>
+रंग में होने वाला यह क्रमिक परिवर्तन तरंगदैर्घ्य के विस्थापन के कारण होता है, जिसे वीन का नियम समझाता है।<br/>
+अतः सही स्पष्टीकरण वीन के विस्थापन नियम (Wien's displacement law) द्वारा संभव है।</p>
+    ]]></text>
+  </generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>Stefan's law.</p>]]></text>
+  </answer>
+  <answer fraction="100" format="html">
+    <text><![CDATA[<p>Wien's displacement law.</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>Kirchhoff's law.</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>Newton's law of cooling.</p>]]></text>
+  </answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>year:2013</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:hi</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>class:11</text></tag>
+    <tag><text>topic:thermal_radiation</text></tag>
+    <tag><text>chapter:thermal_properties_of_matter</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:easy</text></tag>
+    <tag><text>blooms:understand</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:text</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+<question type="multichoice">
+  <name>
+    <text>NEET_UG_PHYSICS_2013_Q16 - Net work done in cyclic process</text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[
+<p>A gas is taken through the cycle \(A \rightarrow B \rightarrow C \rightarrow A\), as shown. What is the net work done by the gas?</p>
+<p><img src="@@PLUGINFILE@@/img-3.jpeg" alt="Indicator diagram p-V showing triangular cyclic process A to B to C to A" /></p>
+<hr/>
+<p>चित्र में दर्शाए अनुसार एक गैस को चक्र \(A \rightarrow B \rightarrow C \rightarrow A\) से गुजारा जाता है। गैस द्वारा किया गया कुल (नेट) कार्य क्या है?</p>
+    ]]></text>
+  </questiontext>
+  <generalfeedback format="html">
+    <text><![CDATA[
+<p><strong>Step 1: Given Data and Conditions</strong><br/>
+Cyclic process: \(A \rightarrow B \rightarrow C \rightarrow A\) represented on a \(p\)-\(V\) diagram.<br/>
+Coordinates of the vertices:<br/>
+State \(A\): \(V_A = 2 \times 10^{-3}\text{ m}^3\), \(p_A = 2 \times 10^5\text{ Pa}\)<br/>
+State \(B\): \(V_B = 7 \times 10^{-3}\text{ m}^3\), \(p_B = 6 \times 10^5\text{ Pa}\)<br/>
+State \(C\): \(V_C = 7 \times 10^{-3}\text{ m}^3\), \(p_C = 2 \times 10^5\text{ Pa}\)</p>
+
+<p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>
+The cycle forms a right-angled triangle in the \(p\)-\(V\) plane. The cycle is traversed in the clockwise direction (\(A \rightarrow B \rightarrow C \rightarrow A\)), so the net work done by the gas is positive.</p>
+
+<p><strong>Step 3: Relevant Formulae and Principles</strong><br/>
+The net work done during one complete cycle in a \(p\)-\(V\) indicator diagram is equal to the area enclosed by the cycle:
+\[ W_{\text{net}} = \text{Area of }\triangle ABC = \frac{1}{2} \times \text{base} \times \text{height} \]
+where:<br/>
+Base \(= \Delta V = V_C - V_A\)<br/>
+Height \(= \Delta p = p_B - p_C\)</p>
+
+<p><strong>Step 4: Step-by-Step Working</strong><br/>
+Compute the base of the triangle:
+\[ \Delta V = (7 - 2) \times 10^{-3}\text{ m}^3 = 5 \times 10^{-3}\text{ m}^3 \]
+Compute the height of the triangle:
+\[ \Delta p = (6 - 2) \times 10^5\text{ Pa} = 4 \times 10^5\text{ Pa} \]
+Calculate the enclosed triangular area:
+\[ W_{\text{net}} = \frac{1}{2} \times (5 \times 10^{-3}\text{ m}^3) \times (4 \times 10^5\text{ Pa}) \]
+\[ W_{\text{net}} = \frac{1}{2} \times 2000\text{ J} = 1000\text{ J} \]</p>
+
+<p><strong>Step 5: Check and Final Answer</strong><br/>
+Because the path is clockwise, work done during the expansion \(A \rightarrow B\) exceeds work done during the compression \(C \rightarrow A\), confirming a positive net work of \(+1000\text{ J}\).<br/>
+The net work done by the gas is \(1000\text{ J}\).</p>
+<hr/>
+<p><strong>चरण 1: दिए गए आँकड़े और स्थितियाँ (Given Data and Conditions)</strong><br/>
+\(p\)-\(V\) आरेख पर चक्रीय प्रक्रम: \(A \rightarrow B \rightarrow C \rightarrow A\)।<br/>
+शीर्षों के निर्देशांक:<br/>
+\(A\): \(V_A = 2 \times 10^{-3}\text{ m}^3\), \(p_A = 2 \times 10^5\text{ Pa}\)<br/>
+\(B\): \(V_B = 7 \times 10^{-3}\text{ m}^3\), \(p_B = 6 \times 10^5\text{ Pa}\)<br/>
+\(C\): \(V_C = 7 \times 10^{-3}\text{ m}^3\), \(p_C = 2 \times 10^5\text{ Pa}\)</p>
+
+<p><strong>चरण 2: मान्यताएँ और चिन्ह परिपाटी (Assumptions and Sign Conventions)</strong><br/>
+प्रक्रम दक्षिणावर्त (clockwise) दिशा में है, अतः गैस द्वारा किया गया नेट कार्य धनात्मक होगा।</p>
+
+<p><strong>चरण 3: संबंधित सूत्र और सिद्धांत (Relevant Formulae and Principles)</strong><br/>
+चक्रीय प्रक्रम में कुल किया गया कार्य \(p\)-\(V\) वक्र द्वारा घेरे गए क्षेत्रफल के बराबर होता है:
+\[ W_{\text{कुल}} = \frac{1}{2} \times \text{आधार} \times \text{ऊँचाई} \]</p>
+
+<p><strong>चरण 4: चरणबद्ध हल (Step-by-Step Working)</strong><br/>
+आधार \(\Delta V = (7 - 2) \times 10^{-3}\text{ m}^3 = 5 \times 10^{-3}\text{ m}^3\)<br/>
+ऊँचाई \(\Delta p = (6 - 2) \times 10^5\text{ Pa} = 4 \times 10^5\text{ Pa}\)<br/>
+क्षेत्रफल:
+\[ W_{\text{कुल}} = \frac{1}{2} \times (5 \times 10^{-3}) \times (4 \times 10^5) = 1000\text{ J} \]</p>
+
+<p><strong>चरण 5: जाँच एवं अंतिम उत्तर (Check and Final Answer)</strong><br/>
+चक्र दक्षिणावर्त होने से कार्य धनात्मक (\(+1000\text{ J}\)) है।<br/>
+अतः गैस द्वारा किया गया नेट कार्य \(1000\text{ J}\) है।</p>
+    ]]></text>
+  </generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(-2000\text{ J}\)</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(2000\text{ J}\)</p>]]></text>
+  </answer>
+  <answer fraction="100" format="html">
+    <text><![CDATA[<p>\(1000\text{ J}\)</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>Zero</p>]]></text>
+  </answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>year:2013</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:hi</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>class:11</text></tag>
+    <tag><text>topic:work_done_in_cyclic_process</text></tag>
+    <tag><text>chapter:thermodynamics</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:easy</text></tag>
+    <tag><text>blooms:apply</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:diagram</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+<question type="multichoice">
+  <name>
+    <text>NEET_UG_PHYSICS_2013_Q17 - Ratio of specific heats in adiabatic process</text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[
+<p>During an adiabatic process, the pressure of a gas is found to be proportional to the cube of its absolute temperature. The ratio of \(\frac{C_p}{C_v}\) for the gas is</p>
+<hr/>
+<p>एक रुद्धोष्म प्रक्रम के दौरान, किसी गैस का दाब उसके परम ताप के घन के समानुपाती पाया जाता है। गैस के लिए \(\frac{C_p}{C_v}\) का अनुपात है:</p>
+    ]]></text>
+  </questiontext>
+  <generalfeedback format="html">
+    <text><![CDATA[
+<p><strong>Step 1: Given Data and Conditions</strong><br/>
+Process: Reversible adiabatic process.<br/>
+Given proportionality: \(P \propto T^3\), where \(P\) is pressure and \(T\) is absolute temperature.<br/>
+Ratio to determine: \(\gamma = \frac{C_p}{C_v}\).</p>
+
+<p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>
+The gas behaves ideally and satisfies the adiabatic condition \(PV^\gamma = \text{constant}\).</p>
+
+<p><strong>Step 3: Relevant Formulae and Principles</strong><br/>
+For an ideal gas undergoing an adiabatic process, the relation between \(P\) and \(T\) is derived from the ideal gas equation \(V = \frac{nRT}{P}\):
+\[ P\left(\frac{nRT}{P}\right)^\gamma = \text{constant} \]
+\[ P^{1-\gamma} T^\gamma = \text{constant} \]
+Expressing \(P\) as a function of \(T\):
+\[ P \propto T^{\frac{\gamma}{\gamma - 1}} \]</p>
+
+<p><strong>Step 4: Step-by-Step Working</strong><br/>
+Equate the temperature exponents from the general relation and the given condition:
+\[ \frac{\gamma}{\gamma - 1} = 3 \]
+Cross-multiply and solve for \(\gamma\):
+\[ \gamma = 3(\gamma - 1) \]
+\[ \gamma = 3\gamma - 3 \]
+\[ 3\gamma - \gamma = 3 \]
+\[ 2\gamma = 3 \]
+\[ \gamma = \frac{3}{2} \]</p>
+
+<p><strong>Step 5: Check and Final Answer</strong><br/>
+Substitute \(\gamma = \frac{3}{2}\) back into the exponent:
+\(\frac{3/2}{3/2 - 1} = \frac{3/2}{1/2} = 3\), giving \(P \propto T^3\), which confirms the solution.<br/>
+The ratio \(\frac{C_p}{C_v}\) for the gas is \(\frac{3}{2}\).</p>
+<hr/>
+<p><strong>चरण 1: दिए गए आँकड़े और स्थितियाँ (Given Data and Conditions)</strong><br/>
+प्रक्रम: रुद्धोष्म प्रक्रम (adiabatic process)।<br/>
+दी गई शर्त: \(P \propto T^3\)।<br/>
+ज्ञात करना है: \(\gamma = \frac{C_p}{C_v}\)।</p>
+
+<p><strong>चरण 2: मान्यताएँ और चिन्ह परिपाटी (Assumptions and Sign Conventions)</strong><br/>
+गैस आदर्श है और रुद्धोष्म समीकरण \(PV^\gamma = \text{नियत}\) का पालन करती है।</p>
+
+<p><strong>चरण 3: संबंधित सूत्र और सिद्धांत (Relevant Formulae and Principles)</strong><br/>
+दाब और ताप के बीच रुद्धोष्म संबंध:
+\[ P^{1-\gamma} T^\gamma = \text{नियत} \implies P \propto T^{\frac{\gamma}{\gamma - 1}} \]</p>
+
+<p><strong>चरण 4: चरणबद्ध हल (Step-by-Step Working)</strong><br/>
+दी गई शर्त से घातों की तुलना करने पर:
+\[ \frac{\gamma}{\gamma - 1} = 3 \]
+\[ \gamma = 3\gamma - 3 \]
+\[ 2\gamma = 3 \]
+\[ \gamma = \frac{3}{2} \]</p>
+
+<p><strong>चरण 5: जाँच एवं अंतिम उत्तर (Check and Final Answer)</strong><br/>
+\(\gamma = 3/2\) रखने पर \(P \propto T^3\) की पुष्टि होती है।<br/>
+अतः गैस के लिए विशिष्ट ऊष्माओं का अनुपात \(\frac{C_p}{C_v} = \frac{3}{2}\) है।</p>
+    ]]></text>
+  </generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="100" format="html">
+    <text><![CDATA[<p>\(\frac{3}{2}\)</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(\frac{4}{3}\)</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(2\)</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(\frac{5}{3}\)</p>]]></text>
+  </answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>year:2013</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:hi</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>class:11</text></tag>
+    <tag><text>topic:adiabatic_processes</text></tag>
+    <tag><text>chapter:thermodynamics</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:easy</text></tag>
+    <tag><text>blooms:apply</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:text</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+<question type="multichoice">
+  <name>
+    <text>NEET_UG_PHYSICS_2013_Q18 - Comparison of isobaric slopes in VT diagram</text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[
+<p>In the given \((V - T)\) diagram, what is the relation between pressure \(P_1\) and \(P_2\)?</p>
+<p><img src="@@PLUGINFILE@@/img-4.jpeg" alt="V-T diagram showing two isobaric lines labeled P1 and P2 with different angles from the T axis" /></p>
+<hr/>
+<p>दिए गए \((V - T)\) आरेख में, दाब \(P_1\) तथा \(P_2\) के बीच क्या संबंध है?</p>
+    ]]></text>
+  </questiontext>
+  <generalfeedback format="html">
+    <text><![CDATA[
+<p><strong>Step 1: Given Data and Conditions</strong><br/>
+A \(V - T\) diagram shows two straight lines passing through the origin representing constant pressure processes at pressures \(P_1\) and \(P_2\).<br/>
+The line for \(P_1\) has angle \(\theta_1\) with the \(T\)-axis.<br/>
+The line for \(P_2\) has a strictly larger inclination angle (\(\theta_1 + \theta_2\)) with the \(T\)-axis.</p>
+
+<p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>
+The gas is an ideal gas of a fixed amount \(n\). Volume \(V\) is on the vertical axis and absolute temperature \(T\) is on the horizontal axis.</p>
+
+<p><strong>Step 3: Relevant Formulae and Principles</strong><br/>
+From the ideal gas equation of state:
+\[ PV = nRT \]
+Rearranging for volume as a function of temperature:
+\[ V = \left(\frac{nR}{P}\right)T \]
+The slope of a straight line on the \(V - T\) plane is:
+\[ \text{Slope} = \tan\theta = \frac{V}{T} = \frac{nR}{P} \]
+For a given quantity of gas, the slope is inversely proportional to pressure:
+\[ \text{Slope} \propto \frac{1}{P} \]</p>
+
+<p><strong>Step 4: Step-by-Step Working</strong><br/>
+From the given diagram:
+\[ \text{Slope}(P_2) > \text{Slope}(P_1) \]
+Using the inverse relationship between slope and pressure:
+\[ \frac{nR}{P_2} > \frac{nR}{P_1} \]
+Taking the reciprocal reverses the inequality:
+\[ P_2 < P_1 \]</p>
+
+<p><strong>Step 5: Check and Final Answer</strong><br/>
+Alternatively, draw a horizontal line of constant volume \(V_0\). It intersects the line of \(P_2\) at a lower temperature \(T_2\) and the line of \(P_1\) at a higher temperature \(T_1\) (\(T_1 > T_2\)). For constant volume, pressure is directly proportional to temperature (\(P \propto T\)), so \(P_1 > P_2\), which is equivalent to \(P_2 < P_1\).<br/>
+The relation between the pressures is \(P_2 < P_1\).</p>
+<hr/>
+<p><strong>चरण 1: दिए गए आँकड़े और स्थितियाँ (Given Data and Conditions)</strong><br/>
+\(V - T\) आरेख में मूल बिंदु से गुजरने वाली दो सरल रेखाएँ दाब \(P_1\) और \(P_2\) को दर्शाती हैं।<br/>
+रेखा \(P_2\) का \(T\)-अक्ष से झुकाव कोण रेखा \(P_1\) के झुकाव कोण से अधिक है।</p>
+
+<p><strong>चरण 2: मान्यताएँ और चिन्ह परिपाटी (Assumptions and Sign Conventions)</strong><br/>
+गैस आदर्श है तथा मोलों की संख्या \(n\) नियत है। ऊर्ध्वाधर अक्ष पर आयतन \(V\) तथा क्षैतिज अक्ष पर ताप \(T\) है।</p>
+
+<p><strong>चरण 3: संबंधित सूत्र और सिद्धांत (Relevant Formulae and Principles)</strong><br/>
+आदर्श गैस समीकरण से:
+\[ PV = nRT \implies V = \left(\frac{nR}{P}\right)T \]
+रेखा की प्रवणता (ढाल):
+\[ \text{प्रवणता} = \frac{nR}{P} \implies \text{प्रवणता} \propto \frac{1}{P} \]</p>
+
+<p><strong>चरण 4: चरणबद्ध हल (Step-by-Step Working)</strong><br/>
+आरेख से स्पष्ट है कि रेखा \(P_2\) की ढाल रेखा \(P_1\) की ढाल से अधिक है:
+\[ \text{Slope}_2 > \text{Slope}_1 \]
+\[ \frac{nR}{P_2} > \frac{nR}{P_1} \]
+व्युत्क्रम करने पर:
+\[ P_2 < P_1 \]</p>
+
+<p><strong>चरण 5: जाँच एवं अंतिम उत्तर (Check and Final Answer)</strong><br/>
+समान आयतन पर कम ताप का अर्थ कम दाब होता है (\(P_2 < P_1\))।<br/>
+अतः सही संबंध \(P_2 < P_1\) है।</p>
+    ]]></text>
+  </generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>Cannot be predicted</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(P_2 = P_1\)</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(P_2 > P_1\)</p>]]></text>
+  </answer>
+  <answer fraction="100" format="html">
+    <text><![CDATA[<p>\(P_2 < P_1\)</p>]]></text>
+  </answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>year:2013</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:hi</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>class:11</text></tag>
+    <tag><text>topic:ideal_gas_laws</text></tag>
+    <tag><text>chapter:thermodynamics</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:easy</text></tag>
+    <tag><text>blooms:understand</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:diagram</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+<question type="multichoice">
+  <name>
+    <text>NEET_UG_PHYSICS_2013_Q19 - Heat energy required to heat helium gas</text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[
+<p>The amount of heat energy required to raise the temperature of \(1\text{ g}\) of helium at NTP, from \(T_1\text{ K}\) to \(T_2\text{ K}\) is</p>
+<hr/>
+<p>NTP पर हीलियम के \(1\text{ g}\) का ताप \(T_1\text{ K}\) से \(T_2\text{ K}\) तक बढ़ाने के लिए आवश्यक ऊष्मा ऊर्जा की मात्रा है:</p>
+    ]]></text>
+  </questiontext>
+  <generalfeedback format="html">
+    <text><![CDATA[
+<p><strong>Step 1: Given Data and Conditions</strong><br/>
+Mass of helium gas: \(m = 1\text{ g}\).<br/>
+Temperature change: from \(T_1\text{ K}\) to \(T_2\text{ K}\), so \(\Delta T = (T_2 - T_1)\text{ K}\).<br/>
+Gas: Helium (monoatomic gas, molar mass \(M = 4\text{ g/mol}\)).<br/>
+Constants: \(N_a\) is Avogadro's number, \(k_B\) is Boltzmann's constant.</p>
+
+<p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>
+Heat supplied to raise the internal kinetic energy of a gas is given at constant volume unless a volume change is specified.</p>
+
+<p><strong>Step 3: Relevant Formulae and Principles</strong><br/>
+Number of moles \(n\) is given by:
+\[ n = \frac{m}{M} \]
+For a monoatomic ideal gas, the molar heat capacity at constant volume is:
+\[ C_v = \frac{3}{2}R \]
+The universal gas constant relates to Boltzmann's constant by:
+\[ R = N_a k_B \]
+The required heat energy is:
+\[ Q = n C_v \Delta T \]</p>
+
+<p><strong>Step 4: Step-by-Step Working</strong><br/>
+Calculate the number of moles of helium:
+\[ n = \frac{1\text{ g}}{4\text{ g/mol}} = \frac{1}{4}\text{ mol} \]
+Substitute \(n\), \(C_v = \frac{3}{2}N_a k_B\), and \(\Delta T = (T_2 - T_1)\):
+\[ Q = \left(\frac{1}{4}\right)\left(\frac{3}{2}N_a k_B\right)(T_2 - T_1) \]
+\[ Q = \frac{3}{8}N_a k_B(T_2 - T_1) \]</p>
+
+<p><strong>Step 5: Check and Final Answer</strong><br/>
+Helium has 3 translational degrees of freedom, each molecule contributing \(\frac{3}{2}k_B \Delta T\). The total number of atoms in \(1\text{ g}\) is \(\frac{N_a}{4}\), giving total energy \(\left(\frac{N_a}{4}\right)\left(\frac{3}{2}k_B\Delta T\right) = \frac{3}{8}N_a k_B(T_2 - T_1)\).<br/>
+The amount of heat energy required is \(\frac{3}{8}N_a k_B(T_2 - T_1)\).</p>
+<hr/>
+<p><strong>चरण 1: दिए गए आँकड़े और स्थितियाँ (Given Data and Conditions)</strong><br/>
+हीलियम का द्रव्यमान: \(m = 1\text{ g}\)।<br/>
+तापमान में परिवर्तन: \(T_1\text{ K}\) से \(T_2\text{ K}\) (\(\Delta T = T_2 - T_1\))।<br/>
+हीलियम एकपरमाण्विक गैस है, जिसका मोलर द्रव्यमान \(M = 4\text{ g/mol}\) है।</p>
+
+<p><strong>चरण 2: मान्यताएँ और चिन्ह परिपाटी (Assumptions and Sign Conventions)</strong><br/>
+गैस का ताप बढ़ाने के लिए आवश्यक ऊष्मा उसके आंतरिक ऊर्जा परिवर्तन (नियत आयतन) पर आधारित है।</p>
+
+<p><strong>चरण 3: संबंधित सूत्र और सिद्धांत (Relevant Formulae and Principles)</strong><br/>
+मोलों की संख्या:
+\[ n = \frac{m}{M} \]
+एकपरमाण्विक गैस के लिए मोलर विशिष्ट ऊष्मा:
+\[ C_v = \frac{3}{2}R = \frac{3}{2}N_a k_B \]
+आवश्यक ऊष्मा ऊर्जा:
+\[ Q = n C_v \Delta T \]</p>
+
+<p><strong>चरण 4: चरणबद्ध हल (Step-by-Step Working)</strong><br/>
+मोलों की संख्या:
+\[ n = \frac{1}{4}\text{ mol} \]
+ऊष्मा ऊर्जा की गणना:
+\[ Q = \left(\frac{1}{4}\right) \times \left(\frac{3}{2}N_a k_B\right) \times (T_2 - T_1) = \frac{3}{8}N_a k_B(T_2 - T_1) \]</p>
+
+<p><strong>चरण 5: जाँच एवं अंतिम उत्तर (Check and Final Answer)</strong><br/>
+\(1\text{ g}\) में परमाणुओं की संख्या \(\frac{N_a}{4}\) है और प्रत्येक परमाणु की ऊर्जा \(\frac{3}{2}k_B \Delta T\) बढ़ती है, जिससे मान \(\frac{3}{8}N_a k_B(T_2 - T_1)\) प्राप्त होता है।<br/>
+अतः आवश्यक ऊष्मा ऊर्जा \(\frac{3}{8}N_a k_B(T_2 - T_1)\) है।</p>
+    ]]></text>
+  </generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="100" format="html">
+    <text><![CDATA[<p>\(\frac{3}{8}N_a k_B(T_2 - T_1)\)</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(\frac{3}{2}N_a k_B(T_2 - T_1)\)</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(\frac{3}{4}N_a k_B(T_2 - T_1)\)</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(\frac{3}{4}N_a k_B\left(\frac{T_2}{T_1}\right)\)</p>]]></text>
+  </answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>year:2013</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:hi</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>class:11</text></tag>
+    <tag><text>topic:kinetic_theory_of_gases</text></tag>
+    <tag><text>chapter:kinetic_theory</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:medium</text></tag>
+    <tag><text>blooms:apply</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:text</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+<question type="multichoice">
+  <name>
+    <text>NEET_UG_PHYSICS_2013_Q20 - Wave equation travelling in positive direction</text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[
+<p>A wave travelling in the positive x-direction having displacement along y-direction as \(1\text{ m}\), wavelength \(2\pi\text{ m}\) and frequency of \(\frac{1}{\pi}\text{ Hz}\) is represented by</p>
+<hr/>
+<p>धनात्मक x-दिशा में संचरित होने वाली एक तरंग, जिसका y-दिशा में विस्थापन (आयाम) \(1\text{ m}\), तरंगदैर्घ्य \(2\pi\text{ m}\) तथा आवृत्ति \(\frac{1}{\pi}\text{ Hz}\) है, निम्न द्वारा निरूपित की जाती है:</p>
+    ]]></text>
+  </questiontext>
+  <generalfeedback format="html">
+    <text><![CDATA[
+<p><strong>Step 1: Given Data and Conditions</strong><br/>
+Direction of wave propagation: Positive x-direction (\(+x\)).<br/>
+Amplitude (maximum displacement along y): \(A = 1\text{ m}\).<br/>
+Wavelength: \(\lambda = 2\pi\text{ m}\).<br/>
+Frequency: \(\nu = \frac{1}{\pi}\text{ Hz}\).</p>
+
+<p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>
+The wave is a sinusoidal harmonic wave. For a wave propagating in the positive x-direction, the spatial and temporal terms in the phase have opposite signs, typically of the form \((kx - \omega t)\).</p>
+
+<p><strong>Step 3: Relevant Formulae and Principles</strong><br/>
+General equation of a harmonic wave travelling along the positive x-direction:
+\[ y(x, t) = A \sin(kx - \omega t) \]
+where:<br/>
+Propagation constant (wave number):
+\[ k = \frac{2\pi}{\lambda} \]
+Angular frequency:
+\[ \omega = 2\pi\nu \]</p>
+
+<p><strong>Step 4: Step-by-Step Working</strong><br/>
+1. Compute the wave number \(k\):
+\[ k = \frac{2\pi}{2\pi\text{ m}} = 1\text{ m}^{-1} \]
+2. Compute the angular frequency \(\omega\):
+\[ \omega = 2\pi \left(\frac{1}{\pi}\text{ s}^{-1}\right) = 2\text{ rad/s} \]
+3. Substitute \(A = 1\), \(k = 1\), and \(\omega = 2\) into the wave equation:
+\[ y = 1 \cdot \sin(1 \cdot x - 2 \cdot t) = \sin(x - 2t) \]</p>
+
+<p><strong>Step 5: Check and Final Answer</strong><br/>
+Wave speed is \(v = \frac{\omega}{k} = \frac{2}{1} = 2\text{ m/s}\), which matches \(\nu \lambda = \left(\frac{1}{\pi}\right)(2\pi) = 2\text{ m/s}\). The minus sign ensures propagation in the \(+x\) direction.<br/>
+The wave is represented by \(y = \sin(x - 2t)\).</p>
+<hr/>
+<p><strong>चरण 1: दिए गए आँकड़े और स्थितियाँ (Given Data and Conditions)</strong><br/>
+संचरण दिशा: धनात्मक x-दिशा (\(+x\))।<br/>
+y-दिशा में विस्थापन (आयाम): \(A = 1\text{ m}\)।<br/>
+तरंगदैर्घ्य: \(\lambda = 2\pi\text{ m}\)।<br/>
+आवृत्ति: \(\nu = \frac{1}{\pi}\text{ Hz}\)।</p>
+
+<p><strong>चरण 2: मान्यताएँ और चिन्ह परिपाटी (Assumptions and Sign Conventions)</strong><br/>
+धनात्मक x-दिशा में गतिशील प्रगामी तरंग के लिए कला में पद \((kx - \omega t)\) रूप में होते हैं।</p>
+
+<p><strong>चरण 3: संबंधित सूत्र और सिद्धांत (Relevant Formulae and Principles)</strong><br/>
+प्रगामी तरंग का मानक समीकरण:
+\[ y = A \sin(kx - \omega t) \]
+तरंग संचरण नियतांक:
+\[ k = \frac{2\pi}{\lambda} \]
+कोणीय आवृत्ति:
+\[ \omega = 2\pi\nu \]</p>
+
+<p><strong>चरण 4: चरणबद्ध हल (Step-by-Step Working)</strong><br/>
+\(k\) का मान:
+\[ k = \frac{2\pi}{2\pi} = 1\text{ m}^{-1} \]
+\(\omega\) का मान:
+\[ \omega = 2\pi \left(\frac{1}{\pi}\right) = 2\text{ rad/s} \]
+समीकरण में मान रखने पर:
+\[ y = \sin(x - 2t) \]</p>
+
+<p><strong>चरण 5: जाँच एवं अंतिम उत्तर (Check and Final Answer)</strong><br/>
+तरंग की चाल \(v = \nu\lambda = \left(\frac{1}{\pi}\right)(2\pi) = 2\text{ m/s}\) तथा \(\frac{\omega}{k} = 2\text{ m/s}\) पूर्णतः संरेखित हैं।<br/>
+अतः तरंग का सही समीकरण \(y = \sin(x - 2t)\) है।</p>
+    ]]></text>
+  </generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(y = \sin(2\pi x + 2\pi t)\)</p>]]></text>
+  </answer>
+  <answer fraction="100" format="html">
+    <text><![CDATA[<p>\(y = \sin(x - 2t)\)</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(y = \sin(2\pi x - 2\pi t)\)</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(y = \sin(10\pi x - 20\pi t)\)</p>]]></text>
+  </answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>year:2013</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:hi</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>class:11</text></tag>
+    <tag><text>topic:travelling_waves</text></tag>
+    <tag><text>chapter:waves</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:easy</text></tag>
+    <tag><text>blooms:apply</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:text</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+</quiz>

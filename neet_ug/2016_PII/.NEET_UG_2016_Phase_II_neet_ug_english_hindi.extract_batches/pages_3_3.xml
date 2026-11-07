@@ -1,0 +1,1433 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+<question type="multichoice">
+  <name><text>NEET_UG_PHYSICS_2016_MCQ_Q24 - Equivalent dielectric constant of parallel plate capacitor</text></name>
+  <questiontext format="html">
+    <text><![CDATA[
+<p>A parallel-plate capacitor of area \(A\), plate separation \(d\) and capacitance \(C\) is filled with four dielectric materials having dielectric constants \(k_1\), \(k_2\), \(k_3\) and \(k_4\) as shown in the figure below. If a single dielectric material is to be used to have the same capacitance \(C\) in this capacitor, then its dielectric constant \(k\) is given by</p>
+<p><img src="@@PLUGINFILE@@/img-6.jpeg" alt="Parallel plate capacitor with four dielectric slabs" /></p>
+<hr/>
+<p>क्षेत्रफल \(A\), प्लेटों के बीच की दूरी \(d\) तथा धारिता \(C\) वाले एक समांतर पट्टिका संधारित्र को चार परावैद्युत पदार्थों से भरा गया है जिनके परावैद्युतांक क्रमशः \(k_1\), \(k_2\), \(k_3\) तथा \(k_4\) हैं जैसा कि नीचे दिए गए चित्र में दर्शाया गया है। यदि इस संधारित्र में समान धारिता \(C\) प्राप्त करने के लिए केवल एक परावैद्युत पदार्थ का उपयोग किया जाए, तो उसका परावैद्युतांक \(k\) किस समीकरण द्वारा दिया जाएगा?</p>
+    ]]></text>
+  </questiontext>
+  <generalfeedback format="html">
+    <text><![CDATA[
+<p><strong>Step 1: Given Data and Conditions</strong><br/>
+Total plate area: \(A\)
+Total plate separation: \(d\)
+The upper region has thickness \(\frac{d}{2}\) and is split into three equal sections each of area \(\frac{A}{3}\) with dielectric constants \(k_1\), \(k_2\), and \(k_3\).
+The lower region has thickness \(\frac{d}{2}\) and area \(A\) filled entirely with dielectric constant \(k_4\).</p>
+
+<p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>
+The electric field is assumed uniform (neglecting fringing fields).
+The three upper sub-capacitors share common equipotential planes at their top and bottom surfaces, so they are connected in parallel.
+The entire upper composite layer is connected in series with the lower layer.</p>
+
+<p><strong>Step 3: Relevant Formulae and Principles</strong><br/>
+Capacitance of a dielectric-filled parallel plate capacitor:
+\(C = \frac{k \varepsilon_0 A'}{d'}\)
+For capacitors in parallel: \(C_p = C_1 + C_2 + C_3\)
+For capacitors in series: \(\frac{1}{C} = \frac{1}{C_p} + \frac{1}{C_4}\)
+Equivalent single dielectric capacitance: \(C = \frac{k \varepsilon_0 A}{d}\)</p>
+
+<p><strong>Step 4: Step-by-Step Working</strong><br/>
+The capacitances of the three upper sections are:
+\(C_1 = \frac{k_1 \varepsilon_0 (A/3)}{d/2} = \frac{2 k_1 \varepsilon_0 A}{3d}\)
+\(C_2 = \frac{k_2 \varepsilon_0 (A/3)}{d/2} = \frac{2 k_2 \varepsilon_0 A}{3d}\)
+\(C_3 = \frac{k_3 \varepsilon_0 (A/3)}{d/2} = \frac{2 k_3 \varepsilon_0 A}{3d}\)
+
+Their parallel combination is:
+\(C_{\text{upper}} = C_1 + C_2 + C_3 = \frac{2 \varepsilon_0 A}{3d} (k_1 + k_2 + k_3)\)
+
+The capacitance of the lower section is:
+\(C_{\text{lower}} = C_4 = \frac{k_4 \varepsilon_0 A}{d/2} = \frac{2 k_4 \varepsilon_0 A}{d}\)
+
+The total capacitance \(C\) is the series combination of \(C_{\text{upper}}\) and \(C_{\text{lower}}\):
+\(\frac{1}{C} = \frac{1}{C_{\text{upper}}} + \frac{1}{C_{\text{lower}}}\)
+
+For an equivalent capacitor filled with dielectric constant \(k\):
+\(\frac{1}{C} = \frac{d}{k \varepsilon_0 A}\)
+
+Equating the two:
+\(\frac{d}{k \varepsilon_0 A} = \frac{3d}{2(k_1 + k_2 + k_3)\varepsilon_0 A} + \frac{d}{2k_4 \varepsilon_0 A}\)
+
+Dividing both sides by \(\frac{d}{\varepsilon_0 A}\):
+\(\frac{1}{k} = \frac{3}{2(k_1 + k_2 + k_3)} + \frac{1}{2k_4}\)
+
+Multiplying the entire equation by \(2\):
+\(\frac{2}{k} = \frac{3}{k_1 + k_2 + k_3} + \frac{1}{k_4}\)</p>
+
+<p><strong>Step 5: Check and Final Answer</strong><br/>
+If all dielectrics are identical (\(k_1 = k_2 = k_3 = k_4 = k_0\)):
+\(\frac{2}{k} = \frac{3}{3k_0} + \frac{1}{k_0} = \frac{1}{k_0} + \frac{1}{k_0} = \frac{2}{k_0} \implies k = k_0\), which confirms physical consistency.
+The dielectric constant \(k\) is given by \(\frac{2}{k} = \frac{3}{k_1 + k_2 + k_3} + \frac{1}{k_4}\).</p>
+<hr/>
+<p><strong>चरण 1: दिए गए आँकड़े और शर्तें</strong><br/>
+प्लेटों का कुल क्षेत्रफल: \(A\), प्लेटों के बीच की दूरी: \(d\)
+ऊपरी भाग की मोटाई \(\frac{d}{2}\) है और यह \(\frac{A}{3}\) क्षेत्रफल के तीन बराबर भागों में विभाजित है जिनके परावैद्युतांक \(k_1\), \(k_2\), तथा \(k_3\) हैं।
+निचले भाग की मोटाई \(\frac{d}{2}\) तथा क्षेत्रफल \(A\) है जिसका परावैद्युतांक \(k_4\) है।</p>
+
+<p><strong>चरण 2: अवधारणाएँ और चिन्ह परिपाटी</strong><br/>
+ऊपरी तीनों भाग समांतर क्रम में जुड़े हैं तथा यह संयोजन निचले भाग के साथ श्रेणीक्रम में जुड़ा है।</p>
+
+<p><strong>चरण 3: संबंधित सूत्र और सिद्धांत</strong><br/>
+संधारित्र की धारिता: \(C = \frac{k\varepsilon_0 A}{d}\)
+समांतर संयोजन: \(C_p = C_1 + C_2 + C_3\)
+श्रेणी संयोजन: \(\frac{1}{C} = \frac{1}{C_p} + \frac{1}{C_4}\)</p>
+
+<p><strong>चरण 4: चरण-दर-चरण गणना</strong><br/>
+ऊपरी भाग की धारिता:
+\(C_{\text{upper}} = \frac{2\varepsilon_0 A}{3d}(k_1 + k_2 + k_3)\)
+
+निचले भाग की धारिता:
+\(C_{\text{lower}} = \frac{2k_4\varepsilon_0 A}{d}\)
+
+कुल धारिता:
+\(\frac{d}{k\varepsilon_0 A} = \frac{3d}{2(k_1 + k_2 + k_3)\varepsilon_0 A} + \frac{d}{2k_4\varepsilon_0 A}\)
+
+दोनों पक्षों को \(\frac{2\varepsilon_0 A}{d}\) से गुणा करने पर:
+\(\frac{2}{k} = \frac{3}{k_1 + k_2 + k_3} + \frac{1}{k_4}\)</p>
+
+<p><strong>चरण 5: जाँच और अंतिम उत्तर</strong><br/>
+तुल्य परावैद्युतांक \(k\) का संबंध \(\frac{2}{k} = \frac{3}{k_1 + k_2 + k_3} + \frac{1}{k_4}\) है।</p>
+    ]]></text>
+  </generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(k = k_1 + k_2 + k_3 + 3k_4\)</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(k = \frac{2}{3} (k_1 + k_2 + k_3) + 2k_4\)</p>]]></text>
+  </answer>
+  <answer fraction="100" format="html">
+    <text><![CDATA[<p>\(\frac{2}{k} = \frac{3}{k_1 + k_2 + k_3} + \frac{1}{k_4}\)</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(\frac{1}{k} = \frac{1}{k_1} + \frac{1}{k_2} + \frac{1}{k_3} + \frac{3}{2k_4}\)</p>]]></text>
+  </answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>year:2016</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:hi</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>class:12</text></tag>
+    <tag><text>topic:combination_of_capacitors</text></tag>
+    <tag><text>chapter:electrostatic_potential_and_capacitance</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:medium</text></tag>
+    <tag><text>blooms:apply</text></tag>
+    <tag><text>calculation:moderate</text></tag>
+    <tag><text>media:diagram</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+<question type="multichoice">
+  <name><text>NEET_UG_PHYSICS_2016_MCQ_Q25 - Potential difference between two circuit points</text></name>
+  <questiontext format="html">
+    <text><![CDATA[
+<p>The potential difference \((V_A - V_B)\) between the points A and B in the given figure is</p>
+<p><img src="@@PLUGINFILE@@/img-7.jpeg" alt="Circuit diagram between terminals A and B" /></p>
+<hr/>
+<p>दिए गए चित्र में बिंदुओं A तथा B के बीच विभवांतर \((V_A - V_B)\) है</p>
+    ]]></text>
+  </questiontext>
+  <generalfeedback format="html">
+    <text><![CDATA[
+<p><strong>Step 1: Given Data and Conditions</strong><br/>
+Current through the branch: \(I = 2\text{ A}\) directed from terminal A to terminal B.
+First resistor: \(R_1 = 2\,\Omega\)
+DC voltage source: \(E = 3\text{ V}\), with positive terminal towards A and negative terminal towards B.
+Second resistor: \(R_2 = 1\,\Omega\)</p>
+
+<p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>
+Follow the potential line from point A to point B:
+- Moving along the direction of current across a resistor causes a potential drop of \(I R\).
+- Moving from the positive to the negative terminal of a DC source causes a potential drop of \(E\).</p>
+
+<p><strong>Step 3: Relevant Formulae and Principles</strong><br/>
+Kirchhoff's voltage law along the open branch:
+\(V_A - I R_1 - E - I R_2 = V_B\)</p>
+
+<p><strong>Step 4: Step-by-Step Working</strong><br/>
+Substitute the given values into the potential line equation:
+\(V_A - (2\text{ A})(2\,\Omega) - 3\text{ V} - (2\text{ A})(1\,\Omega) = V_B\)
+\(V_A - 4\text{ V} - 3\text{ V} - 2\text{ V} = V_B\)
+\(V_A - 9\text{ V} = V_B\)
+
+Rearranging to find \((V_A - V_B)\):
+\(V_A - V_B = +9\text{ V}\)</p>
+
+<p><strong>Step 5: Check and Final Answer</strong><br/>
+Since all three components cause potential drops along the direction of current from A to B, terminal A is at a strictly higher potential than terminal B by \(4 + 3 + 2 = 9\text{ V}\).
+The potential difference \((V_A - V_B)\) is \(+9\text{ V}\).</p>
+<hr/>
+<p><strong>चरण 1: दिए गए आँकड़े और शर्तें</strong><br/>
+शाखा में धारा: \(I = 2\text{ A}\) (A से B की ओर)
+प्रतिरोध: \(R_1 = 2\,\Omega\) तथा \(R_2 = 1\,\Omega\)
+विद्युत वाहक बल: \(E = 3\text{ V}\) (धनात्मक सिरा A की ओर, ऋणात्मक B की ओर)</p>
+
+<p><strong>चरण 2: अवधारणाएँ और चिन्ह परिपाटी</strong><br/>
+धारा की दिशा में प्रतिरोध को पार करने पर विभव में कमी \(IR\) होती है। बैटरी के धनात्मक से ऋणात्मक सिरे की ओर जाने पर विभव में कमी \(E\) होती है।</p>
+
+<p><strong>चरण 3: संबंधित सूत्र और सिद्धांत</strong><br/>
+किरचॉफ के नियम से:
+\(V_A - IR_1 - E - IR_2 = V_B\)</p>
+
+<p><strong>चरण 4: चरण-दर-चरण गणना</strong><br/>
+मान रखने पर:
+\(V_A - (2 \times 2) - 3 - (2 \times 1) = V_B\)
+\(V_A - 4 - 3 - 2 = V_B\)
+\(V_A - 9 = V_B \implies V_A - V_B = +9\text{ V}\)</p>
+
+<p><strong>चरण 5: जाँच और अंतिम उत्तर</strong><br/>
+बिंदु A और B के बीच विभवांतर \((V_A - V_B)\) का मान \(+9\text{ V}\) है।</p>
+    ]]></text>
+  </generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(-3\text{ V}\)</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(+3\text{ V}\)</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(+6\text{ V}\)</p>]]></text>
+  </answer>
+  <answer fraction="100" format="html">
+    <text><![CDATA[<p>\(+9\text{ V}\)</p>]]></text>
+  </answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>year:2016</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:hi</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>class:12</text></tag>
+    <tag><text>topic:kirchhoffs_voltage_law</text></tag>
+    <tag><text>chapter:current_electricity</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:easy</text></tag>
+    <tag><text>blooms:apply</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:circuit</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+<question type="multichoice">
+  <name><text>NEET_UG_PHYSICS_2016_MCQ_Q26 - Series resistance for filament bulb operation</text></name>
+  <questiontext format="html">
+    <text><![CDATA[
+<p>A filament bulb (\(500\text{ W}\), \(100\text{ V}\)) is to be used in a \(230\text{ V}\) main supply. When a resistance \(R\) is connected in series, it works perfectly and the bulb consumes \(500\text{ W}\). The value of \(R\) is</p>
+<hr/>
+<p>एक फिलामेंट बल्ब (\(500\text{ W}\), \(100\text{ V}\)) को \(230\text{ V}\) की मुख्य आपूर्ति में उपयोग किया जाना है। जब एक प्रतिरोधक \(R\) को इसके साथ श्रेणीक्रम में जोड़ा जाता है, तो यह सुचारू रूप से कार्य करता है और बल्ब \(500\text{ W}\) शक्ति का उपभोग करता है। \(R\) का मान है</p>
+    ]]></text>
+  </questiontext>
+  <generalfeedback format="html">
+    <text><![CDATA[
+<p><strong>Step 1: Given Data and Conditions</strong><br/>
+Bulb rated power: \(P = 500\text{ W}\)
+Bulb rated operating voltage: \(V_{\text{bulb}} = 100\text{ V}\)
+Main supply voltage: \(V_{\text{supply}} = 230\text{ V}\)
+Condition: The bulb operates at its rated power (\(500\text{ W}\)).</p>
+
+<p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>
+The bulb and resistor \(R\) form a pure series circuit.
+The current through the series resistor equals the operating current of the bulb.</p>
+
+<p><strong>Step 3: Relevant Formulae and Principles</strong><br/>
+Rated current of the bulb:
+\(I = \frac{P}{V_{\text{bulb}}}\)
+Voltage across the series resistor:
+\(V_R = V_{\text{supply}} - V_{\text{bulb}}\)
+Resistance value by Ohm's law:
+\(R = \frac{V_R}{I}\)</p>
+
+<p><strong>Step 4: Step-by-Step Working</strong><br/>
+Calculate the rated current of the bulb:
+\(I = \frac{500\text{ W}}{100\text{ V}} = 5\text{ A}\)
+
+Calculate the potential drop across the series resistor:
+\(V_R = 230\text{ V} - 100\text{ V} = 130\text{ V}\)
+
+Calculate the series resistance:
+\(R = \frac{130\text{ V}}{5\text{ A}} = 26\,\Omega\)</p>
+
+<p><strong>Step 5: Check and Final Answer</strong><br/>
+Resistance of the bulb itself is \(R_{\text{bulb}} = \frac{V_{\text{bulb}}^2}{P} = \frac{100^2}{500} = 20\,\Omega\).
+Total circuit resistance is \(R_{\text{total}} = 20 + 26 = 46\,\Omega\).
+Total current is \(\frac{230\text{ V}}{46\,\Omega} = 5\text{ A}\).
+Power consumed by the bulb is \(I^2 R_{\text{bulb}} = 5^2 \times 20 = 500\text{ W}\).
+The required value of \(R\) is \(26\,\Omega\).</p>
+<hr/>
+<p><strong>चरण 1: दिए गए आँकड़े और शर्तें</strong><br/>
+बल्ब की अनुमत शक्ति: \(P = 500\text{ W}\)
+बल्ब की अनुमत वोल्टता: \(V_{\text{bulb}} = 100\text{ V}\)
+आपूर्ति वोल्टता: \(V_{\text{supply}} = 230\text{ V}\)</p>
+
+<p><strong>चरण 2: अवधारणाएँ और चिन्ह परिपाटी</strong><br/>
+बल्ब तथा प्रतिरोधक \(R\) श्रेणीक्रम में जुड़े हैं, अतः दोनों में प्रवाहित धारा समान होगी।</p>
+
+<p><strong>चरण 3: संबंधित सूत्र और सिद्धांत</strong><br/>
+बल्ब की सामान्य धारा: \(I = \frac{P}{V_{\text{bulb}}}\)
+प्रतिरोधक के सिरों पर विभवांतर: \(V_R = V_{\text{supply}} - V_{\text{bulb}}\)
+प्रतिरोध: \(R = \frac{V_R}{I}\)</p>
+
+<p><strong>चरण 4: चरण-दर-चरण गणना</strong><br/>
+परिपथ में धारा:
+\(I = \frac{500}{100} = 5\text{ A}\)
+
+प्रतिरोधक पर आवश्यक विभव पतन:
+\(V_R = 230 - 100 = 130\text{ V}\)
+
+प्रतिरोध \(R\) का मान:
+\(R = \frac{130}{5} = 26\,\Omega\)</p>
+
+<p><strong>चरण 5: जाँच और अंतिम उत्तर</strong><br/>
+श्रेणी प्रतिरोध \(R\) का अभीष्ट मान \(26\,\Omega\) है।</p>
+    ]]></text>
+  </generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(230\,\Omega\)</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(46\,\Omega\)</p>]]></text>
+  </answer>
+  <answer fraction="100" format="html">
+    <text><![CDATA[<p>\(26\,\Omega\)</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(13\,\Omega\)</p>]]></text>
+  </answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>year:2016</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:hi</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>class:12</text></tag>
+    <tag><text>topic:electric_power_and_series_circuits</text></tag>
+    <tag><text>chapter:current_electricity</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:easy</text></tag>
+    <tag><text>blooms:apply</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:text</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+<question type="multichoice">
+  <name><text>NEET_UG_PHYSICS_2016_MCQ_Q27 - Magnetic field at centre of circular coil</text></name>
+  <questiontext format="html">
+    <text><![CDATA[
+<p>A long wire carrying a steady current is bent into a circular loop of one turn. The magnetic field at the centre of the loop is \(B\). It is then bent into a circular coil of \(n\) turns. The magnetic field at the centre of this coil of \(n\) turns will be</p>
+<hr/>
+<p>एक स्थायी धारा प्रवाहित तार को एक फेरे के वृत्ताकार लूप में मोड़ा जाता है। लूप के केंद्र पर चुंबकीय क्षेत्र \(B\) है। इसके बाद इसे \(n\) फेरों की वृत्ताकार कुंडली में मोड़ा जाता है। इस \(n\) फेरों की कुंडली के केंद्र पर चुंबकीय क्षेत्र होगा</p>
+    ]]></text>
+  </questiontext>
+  <generalfeedback format="html">
+    <text><![CDATA[
+<p><strong>Step 1: Given Data and Conditions</strong><br/>
+Total length of wire: \(L\) (constant)
+Current through the wire: \(I\) (constant)
+Case 1: Single turn (\(N_1 = 1\)), radius \(R\), magnetic field at centre \(B_1 = B\).
+Case 2: \(n\) turns (\(N_2 = n\)), new radius \(r\), magnetic field at centre \(B_2\).</p>
+
+<p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>
+The wire is thin, and the coil is tightly wound in a flat circular plane.</p>
+
+<p><strong>Step 3: Relevant Formulae and Principles</strong><br/>
+Length conservation:
+\(L = 2\pi R = n (2\pi r) \implies r = \frac{R}{n}\)
+Magnetic field at the centre of a circular coil of \(N\) turns and radius \(r'\):
+\(B = \frac{\mu_0 N I}{2 r'}\)</p>
+
+<p><strong>Step 4: Step-by-Step Working</strong><br/>
+For the single turn loop:
+\(B = \frac{\mu_0 (1) I}{2 R} = \frac{\mu_0 I}{2R}\)
+
+For the coil with \(n\) turns of radius \(r = \frac{R}{n}\):
+\(B_2 = \frac{\mu_0 n I}{2 r} = \frac{\mu_0 n I}{2 (R/n)} = n^2 \left(\frac{\mu_0 I}{2R}\right) = n^2 B\)</p>
+
+<p><strong>Step 5: Check and Final Answer</strong><br/>
+The magnetic field increases by a factor of \(n\) due to the number of turns, and by another factor of \(n\) due to the reduction in radius by \(\frac{1}{n}\), yielding an overall factor of \(n^2\).
+The magnetic field at the centre of the coil is \(n^2 B\).</p>
+<hr/>
+<p><strong>चरण 1: दिए गए आँकड़े और शर्तें</strong><br/>
+तार की लम्बाई: \(L\) (नियत), धारा: \(I\) (नियत)
+प्रारंभिक स्थिति: \(N_1 = 1\), त्रिज्या \(R\), चुंबकीय क्षेत्र \(B\)
+द्वितीय स्थिति: \(N_2 = n\), त्रिज्या \(r\), चुंबकीय क्षेत्र \(B_2\)</p>
+
+<p><strong>चरण 2: अवधारणाएँ और चिन्ह परिपाटी</strong><br/>
+तार की कुल लम्बाई दोनों स्थितियों में समान रहती है।</p>
+
+<p><strong>चरण 3: संबंधित सूत्र और सिद्धांत</strong><br/>
+लम्बाई संरक्षण:
+\(L = 2\pi R = n(2\pi r) \implies r = \frac{R}{n}\)
+वृत्ताकार कुंडली के केंद्र पर चुंबकीय क्षेत्र:
+\(B = \frac{\mu_0 N I}{2r'}\)</p>
+
+<p><strong>चरण 4: चरण-दर-चरण गणना</strong><br/>
+प्रथम स्थिति: \(B = \frac{\mu_0 I}{2R}\)
+द्वितीय स्थिति:
+\(B_2 = \frac{\mu_0 n I}{2(R/n)} = n^2 \left(\frac{\mu_0 I}{2R}\right) = n^2 B\)</p>
+
+<p><strong>चरण 5: जाँच और अंतिम उत्तर</strong><br/>
+\(n\) फेरों वाली कुंडली के केंद्र पर चुंबकीय क्षेत्र \(n^2 B\) होगा।</p>
+    ]]></text>
+  </generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(n\text{B}\)</p>]]></text>
+  </answer>
+  <answer fraction="100" format="html">
+    <text><![CDATA[<p>\(n^2\text{B}\)</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(2n\text{B}\)</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(2n^2\text{B}\)</p>]]></text>
+  </answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>year:2016</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:hi</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>class:12</text></tag>
+    <tag><text>topic:magnetic_field_circular_loop</text></tag>
+    <tag><text>chapter:moving_charges_and_magnetism</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:easy</text></tag>
+    <tag><text>blooms:apply</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:text</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+<question type="multichoice">
+  <name><text>NEET_UG_PHYSICS_2016_MCQ_Q28 - Torque required to hold deflected bar magnet</text></name>
+  <questiontext format="html">
+    <text><![CDATA[
+<p>A bar magnet is hung by a thin cotton thread in a uniform horizontal magnetic field and is in equilibrium state. The energy required to rotate it by \(60^\circ\) is \(W\). Now the torque required to keep the magnet in this new position is</p>
+<hr/>
+<p>एक छड़ चुंबक को एक समान क्षैतिज चुंबकीय क्षेत्र में एक पतले सूती धागे द्वारा लटकाया गया है और यह संतुलन अवस्था में है। इसे \(60^\circ\) कोण से घुमाने के लिए आवश्यक ऊर्जा \(W\) है। अब चुंबक को इस नई स्थिति में बनाए रखने के लिए आवश्यक बल आघूर्ण है</p>
+    ]]></text>
+  </questiontext>
+  <generalfeedback format="html">
+    <text><![CDATA[
+<p><strong>Step 1: Given Data and Conditions</strong><br/>
+Initial equilibrium orientation: \(\theta_1 = 0^\circ\)
+Deflected angle: \(\theta_2 = 60^\circ\)
+Work required to rotate the magnet: \(W\)
+Magnetic dipole moment: \(M\)
+Uniform magnetic field: \(B\)</p>
+
+<p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>
+The equilibrium state corresponds to alignment with the external magnetic field (\(\theta = 0^\circ\)).
+Torque must balance the restoring magnetic torque at \(\theta = 60^\circ\).</p>
+
+<p><strong>Step 3: Relevant Formulae and Principles</strong><br/>
+Work done in rotating a magnetic dipole in a magnetic field:
+\(W = M B (\cos\theta_1 - \cos\theta_2)\)
+Torque on a magnetic dipole at angle \(\theta\):
+\(\tau = M B \sin\theta\)</p>
+
+<p><strong>Step 4: Step-by-Step Working</strong><br/>
+Substitute \(\theta_1 = 0^\circ\) and \(\theta_2 = 60^\circ\) into the work equation:
+\(W = M B (\cos 0^\circ - \cos 60^\circ) = M B \left(1 - \frac{1}{2}\right) = \frac{1}{2} M B\)
+Hence:
+\(M B = 2 W\)
+
+Calculate the torque required to hold the magnet at \(\theta = 60^\circ\):
+\(\tau = M B \sin 60^\circ\)
+Substitute \(M B = 2 W\) and \(\sin 60^\circ = \frac{\sqrt{3}}{2}\):
+\(\tau = (2 W) \left(\frac{\sqrt{3}}{2}\right) = \sqrt{3} W\)</p>
+
+<p><strong>Step 5: Check and Final Answer</strong><br/>
+Work done is \(\frac{1}{2}MB\), while torque is \(\frac{\sqrt{3}}{2}MB\). The ratio \(\frac{\tau}{W} = \frac{\sqrt{3}/2}{1/2} = \sqrt{3}\), giving \(\tau = \sqrt{3}W\).
+The required torque is \(\sqrt{3}W\).</p>
+<hr/>
+<p><strong>चरण 1: दिए गए आँकड़े और शर्तें</strong><br/>
+प्रारंभिक संतुलन कोण: \(\theta_1 = 0^\circ\)
+अंतिम कोण: \(\theta_2 = 60^\circ\)
+किया गया कार्य: \(W\)</p>
+
+<p><strong>चरण 2: अवधारणाएँ और चिन्ह परिपाटी</strong><br/>
+संतुलन में चुंबक चुंबकीय क्षेत्र के समांतर होता है (\(\theta = 0^\circ\))।</p>
+
+<p><strong>चरण 3: संबंधित सूत्र और सिद्धांत</strong><br/>
+चुंबक को घुमाने में किया गया कार्य:
+\(W = MB(\cos\theta_1 - \cos\theta_2)\)
+चुंबकीय क्षेत्र में बल आघूर्ण:
+\(\tau = MB\sin\theta\)</p>
+
+<p><strong>चरण 4: चरण-दर-चरण गणना</strong><br/>
+कार्य का समीकरण:
+\(W = MB(1 - \cos 60^\circ) = MB\left(1 - \frac{1}{2}\right) = \frac{MB}{2} \implies MB = 2W\)
+
+बल आघूर्ण की गणना:
+\(\tau = MB \sin 60^\circ = (2W)\left(\frac{\sqrt{3}}{2}\right) = \sqrt{3}W\)</p>
+
+<p><strong>चरण 5: जाँच और अंतिम उत्तर</strong><br/>
+चुंबक को इस स्थिति में बनाए रखने के लिए आवश्यक बल आघूर्ण \(\sqrt{3}W\) है।</p>
+    ]]></text>
+  </generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(\frac{\mathrm{W}}{\sqrt{3}}\)</p>]]></text>
+  </answer>
+  <answer fraction="100" format="html">
+    <text><![CDATA[<p>\(\sqrt{3}\mathrm{W}\)</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(\frac{\sqrt{3}\mathrm{W}}{2}\)</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(\frac{2\mathrm{W}}{\sqrt{3}}\)</p>]]></text>
+  </answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>year:2016</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:hi</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>class:12</text></tag>
+    <tag><text>topic:torque_and_work_on_magnetic_dipole</text></tag>
+    <tag><text>chapter:magnetism_and_matter</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:easy</text></tag>
+    <tag><text>blooms:apply</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:text</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+<question type="multichoice">
+  <name><text>NEET_UG_PHYSICS_2016_MCQ_Q29 - Frequency of revolution of electron in magnetic field</text></name>
+  <questiontext format="html">
+    <text><![CDATA[
+<p>An electron is moving in a circular path under the influence of a transverse magnetic field of \(3.57 \times 10^{-2}\text{ T}\). If the value of \(e/m\) is \(1.76 \times 10^{11}\text{ C/kg}\), the frequency of revolution of the electron is</p>
+<hr/>
+<p>एक इलेक्ट्रॉन \(3.57 \times 10^{-2}\text{ T}\) के अनुप्रस्थ चुंबकीय क्षेत्र के प्रभाव में वृत्ताकार पथ में गति कर रहा है। यदि \(e/m\) का मान \(1.76 \times 10^{11}\text{ C/kg}\) हो, तो इलेक्ट्रॉन के परिक्रमण की आवृत्ति होगी</p>
+    ]]></text>
+  </questiontext>
+  <generalfeedback format="html">
+    <text><![CDATA[
+<p><strong>Step 1: Given Data and Conditions</strong><br/>
+Magnetic field: \(B = 3.57 \times 10^{-2}\text{ T}\)
+Specific charge of electron: \(\frac{e}{m} = 1.76 \times 10^{11}\text{ C/kg}\)</p>
+
+<p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>
+The magnetic field is transverse (perpendicular) to the velocity of the electron, providing the necessary centripetal force for circular motion.</p>
+
+<p><strong>Step 3: Relevant Formulae and Principles</strong><br/>
+Centripetal force is provided by the magnetic Lorentz force:
+\(\frac{m v^2}{r} = e v B \implies \omega = \frac{v}{r} = \frac{e B}{m}\)
+The frequency of revolution (cyclotron frequency) is:
+\(f = \frac{\omega}{2\pi} = \frac{1}{2\pi} \left(\frac{e}{m}\right) B\)</p>
+
+<p><strong>Step 4: Step-by-Step Working</strong><br/>
+Substitute the given numerical values:
+\(f = \frac{(1.76 \times 10^{11}\text{ C/kg}) \times (3.57 \times 10^{-2}\text{ T})}{2 \times \pi}\)
+
+Calculate the product in the numerator:
+\(1.76 \times 3.57 = 6.2832\)
+Since \(2\pi \approx 2 \times 3.14159 = 6.2832\):
+\(f = \frac{6.2832}{6.2832} \times 10^{11 - 2}\text{ Hz} = 1.0 \times 10^9\text{ Hz}\)
+
+Convert to gigahertz (\(\text{GHz}\)):
+\(f = 1\text{ GHz}\)</p>
+
+<p><strong>Step 5: Check and Final Answer</strong><br/>
+Dimensional check: \(\left[\frac{\text{C}\cdot\text{T}}{\text{kg}}\right] = \text{s}^{-1} = \text{Hz}\). The value \(10^9\text{ Hz}\) corresponds to \(1\text{ GHz}\).
+The frequency of revolution is \(1\text{ GHz}\).</p>
+<hr/>
+<p><strong>चरण 1: दिए गए आँकड़े और शर्तें</strong><br/>
+चुंबकीय क्षेत्र: \(B = 3.57 \times 10^{-2}\text{ T}\)
+विशिष्ट आवेश: \(\frac{e}{m} = 1.76 \times 10^{11}\text{ C/kg}\)</p>
+
+<p><strong>चरण 2: अवधारणाएँ और चिन्ह परिपाटी</strong><br/>
+चुंबकीय क्षेत्र अनुप्रस्थ है, अतः इलेक्ट्रॉन वृत्ताकार पथ पर गति करता है।</p>
+
+<p><strong>चरण 3: संबंधित सूत्र और सिद्धांत</strong><br/>
+साइक्लोट्रॉन आवृत्ति:
+\(f = \frac{eB}{2\pi m} = \frac{1}{2\pi}\left(\frac{e}{m}\right)B\)</p>
+
+<p><strong>चरण 4: चरण-दर-चरण गणना</strong><br/>
+मान रखने पर:
+\(f = \frac{(1.76 \times 10^{11}) \times (3.57 \times 10^{-2})}{2\pi}\)
+\(1.76 \times 3.57 \approx 6.283\) तथा \(2\pi \approx 6.283\)
+\(f = 1 \times 10^9\text{ Hz} = 1\text{ GHz}\)</p>
+
+<p><strong>चरण 5: जाँच और अंतिम उत्तर</strong><br/>
+इलेक्ट्रॉन के परिक्रमण की आवृत्ति \(1\text{ GHz}\) है।</p>
+    ]]></text>
+  </generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="100" format="html">
+    <text><![CDATA[<p>\(1\text{ GHz}\)</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(100\text{ MHz}\)</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(62.8\text{ MHz}\)</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(6.28\text{ MHz}\)</p>]]></text>
+  </answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>year:2016</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:hi</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>class:12</text></tag>
+    <tag><text>topic:motion_in_magnetic_field</text></tag>
+    <tag><text>chapter:moving_charges_and_magnetism</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:easy</text></tag>
+    <tag><text>blooms:apply</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:text</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+<question type="multichoice">
+  <name><text>NEET_UG_PHYSICS_2016_MCQ_Q30 - Optimum circuit parameters for better LCR tuning</text></name>
+  <questiontext format="html">
+    <text><![CDATA[
+<p>Which of the following combinations should be selected for better tuning of an L-C-R circuit used for communication?</p>
+<hr/>
+<p>संचार व्यवस्था में प्रयुक्त L-C-R परिपथ के बेहतर समस्वरण (tuning) के लिए निम्नलिखित में से किस संयोजन का चयन किया जाना चाहिए?</p>
+    ]]></text>
+  </questiontext>
+  <generalfeedback format="html">
+    <text><![CDATA[
+<p><strong>Step 1: Given Data and Conditions</strong><br/>
+Four candidate parameter sets of \(R\), \(L\), and \(C\) are given:
+- Set 1: \(R = 20\,\Omega\), \(L = 1.5\text{ H}\), \(C = 35\,\mu\text{F}\)
+- Set 2: \(R = 25\,\Omega\), \(L = 2.5\text{ H}\), \(C = 45\,\mu\text{F}\)
+- Set 3: \(R = 15\,\Omega\), \(L = 3.5\text{ H}\), \(C = 30\,\mu\text{F}\)
+- Set 4: \(R = 25\,\Omega\), \(L = 1.5\text{ H}\), \(C = 45\,\mu\text{F}\)</p>
+
+<p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>
+Better tuning in communication circuits requires high selectivity and sharp resonance, which corresponds to maximizing the Quality factor \(Q\).</p>
+
+<p><strong>Step 3: Relevant Formulae and Principles</strong><br/>
+The Quality factor \(Q\) of a series L-C-R resonant circuit is:
+\(Q = \frac{1}{R}\sqrt{\frac{L}{C}}\)
+Hence, to maximize \(Q\), the circuit should have:
+1. Low resistance \(R\)
+2. High inductance \(L\)
+3. Low capacitance \(C\)</p>
+
+<p><strong>Step 4: Step-by-Step Working</strong><br/>
+Evaluate \(Q\) for each given set:
+- For \(R = 20\,\Omega\), \(L = 1.5\text{ H}\), \(C = 35\,\mu\text{F}\):
+\(Q = \frac{1}{20}\sqrt{\frac{1.5}{35 \times 10^{-6}}} \approx \frac{207.0}{20} \approx 10.35\)
+
+- For \(R = 25\,\Omega\), \(L = 2.5\text{ H}\), \(C = 45\,\mu\text{F}\):
+\(Q = \frac{1}{25}\sqrt{\frac{2.5}{45 \times 10^{-6}}} \approx \frac{235.7}{25} \approx 9.43\)
+
+- For \(R = 15\,\Omega\), \(L = 3.5\text{ H}\), \(C = 30\,\mu\text{F}\):
+\(Q = \frac{1}{15}\sqrt{\frac{3.5}{30 \times 10^{-6}}} \approx \frac{341.6}{15} \approx 22.77\)
+
+- For \(R = 25\,\Omega\), \(L = 1.5\text{ H}\), \(C = 45\,\mu\text{F}\):
+\(Q = \frac{1}{25}\sqrt{\frac{1.5}{45 \times 10^{-6}}} \approx \frac{182.6}{25} \approx 7.30\)</p>
+
+<p><strong>Step 5: Check and Final Answer</strong><br/>
+The combination with \(R = 15\,\Omega\), \(L = 3.5\text{ H}\), and \(C = 30\,\mu\text{F}\) provides the minimum resistance, maximum inductance, and minimum capacitance among all sets, yielding the highest quality factor \(Q \approx 22.8\).
+The optimal combination is \(R = 15\,\Omega\), \(L = 3.5\text{ H}\), and \(C = 30\,\mu\text{F}\).</p>
+<hr/>
+<p><strong>चरण 1: दिए गए आँकड़े और शर्तें</strong><br/>
+चार विकल्प दिए गए हैं जिनमें \(R\), \(L\), तथा \(C\) के विभिन्न मान हैं।</p>
+
+<p><strong>चरण 2: अवधारणाएँ और चिन्ह परिपाटी</strong><br/>
+संचार व्यवस्था में बेहतर समस्वरण के लिए अनुनाद तीक्ष्ण होना चाहिए, जिसके लिए विशेषता गुणांक (Q-factor) अधिकतम होना आवश्यक है।</p>
+
+<p><strong>चरण 3: संबंधित सूत्र और सिद्धांत</strong><br/>
+विशेषता गुणांक:
+\(Q = \frac{1}{R}\sqrt{\frac{L}{C}}\)
+\(Q\) को अधिकतम करने के लिए \(R\) न्यूनतम, \(L\) अधिकतम तथा \(C\) न्यूनतम होना चाहिए।</p>
+
+<p><strong>चरण 4: चरण-दर-चरण गणना</strong><br/>
+संयोजन \(R = 15\,\Omega\), \(L = 3.5\text{ H}\), तथा \(C = 30\,\mu\text{F}\) के लिए:
+\(Q = \frac{1}{15}\sqrt{\frac{3.5}{30 \times 10^{-6}}} \approx 22.77\)
+यह मान अन्य सभी संयोजनों की तुलना में सर्वाधिक है।</p>
+
+<p><strong>चरण 5: जाँच और अंतिम उत्तर</strong><br/>
+सर्वोत्तम समस्वरण के लिए अभीष्ट संयोजन \(R = 15\,\Omega, L = 3.5\text{ H}, C = 30\,\mu\text{F}\) है।</p>
+    ]]></text>
+  </generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(R = 20\,\Omega, L = 1.5\text{ H}, C = 35\,\mu\text{F}\)</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(R = 25\,\Omega, L = 2.5\text{ H}, C = 45\,\mu\text{F}\)</p>]]></text>
+  </answer>
+  <answer fraction="100" format="html">
+    <text><![CDATA[<p>\(R = 15\,\Omega, L = 3.5\text{ H}, C = 30\,\mu\text{F}\)</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(R = 25\,\Omega, L = 1.5\text{ H}, C = 45\,\mu\text{F}\)</p>]]></text>
+  </answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>year:2016</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:hi</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>class:12</text></tag>
+    <tag><text>topic:quality_factor_and_resonance</text></tag>
+    <tag><text>chapter:alternating_current</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:easy</text></tag>
+    <tag><text>blooms:apply</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:text</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+<question type="multichoice">
+  <name><text>NEET_UG_PHYSICS_2016_MCQ_Q31 - Induced electromotive force in concentric loops</text></name>
+  <questiontext format="html">
+    <text><![CDATA[
+<p>A uniform magnetic field is restricted within a region of radius \(r\). The magnetic field changes with time at a rate \(\frac{dB}{dt}\). Loop 1 of radius \(R > r\) encloses the region \(r\) and loop 2 of radius \(R\) is outside the region of magnetic field as shown in the figure. Then, the emf generated is</p>
+<p><img src="@@PLUGINFILE@@/img-8.jpeg" alt="Two loops placed near a restricted time varying magnetic field region" /></p>
+<hr/>
+<p>एक समान चुंबकीय क्षेत्र \(r\) त्रिज्या के एक सीमित क्षेत्र में स्थित है। चुंबकीय क्षेत्र समय के साथ \(\frac{dB}{dt}\) की दर से परिवर्तित होता है। \(R > r\) त्रिज्या का लूप 1 इस \(r\) त्रिज्या के क्षेत्र को परिबद्ध करता है तथा \(R\) त्रिज्या का लूप 2 चुंबकीय क्षेत्र वाले क्षेत्र से बाहर है, जैसा कि चित्र में दर्शाया गया है। तब प्रेरित विद्युत वाहक बल (emf) होगा</p>
+    ]]></text>
+  </questiontext>
+  <generalfeedback format="html">
+    <text><![CDATA[
+<p><strong>Step 1: Given Data and Conditions</strong><br/>
+Magnetic field region: circular of radius \(r\).
+Rate of change of magnetic field: \(\frac{dB}{dt}\).
+Loop 1: radius \(R > r\), completely encloses the magnetic field region.
+Loop 2: radius \(R\), placed completely outside the magnetic field region.</p>
+
+<p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>
+The magnetic field is strictly confined to the circle of radius \(r\) and is zero everywhere outside.
+The emf induced in any closed conducting loop is governed by Faraday's law of electromagnetic induction.</p>
+
+<p><strong>Step 3: Relevant Formulae and Principles</strong><br/>
+Faraday's law:
+\(\mathcal{E} = -\frac{d\Phi_B}{dt}\)
+where \(\Phi_B = \int \vec{B} \cdot d\vec{A}\) is the total magnetic flux passing through the surface enclosed by the loop.</p>
+
+<p><strong>Step 4: Step-by-Step Working</strong><br/>
+For Loop 1:
+The total magnetic flux passing through Loop 1 is restricted to the area where the magnetic field exists:
+\(\Phi_{B1} = B \cdot (\pi r^2)\)
+Differentiating with respect to time:
+\(\mathcal{E}_1 = -\frac{d\Phi_{B1}}{dt} = -\frac{dB}{dt}\pi r^2\)
+
+For Loop 2:
+Because Loop 2 lies completely in the region where \(B = 0\), the magnetic flux linked with Loop 2 is identically zero at all times:
+\(\Phi_{B2} = 0\)
+Differentiating with respect to time:
+\(\mathcal{E}_2 = -\frac{d\Phi_{B2}}{dt} = 0\)</p>
+
+<p><strong>Step 5: Check and Final Answer</strong><br/>
+Only the loop enclosing changing magnetic flux experiences an induced emf. Loop 2 links no magnetic flux, so its induced emf is zero.
+Therefore, the emf generated is \(-\frac{dB}{dt}\pi r^2\) in loop 1 and zero in loop 2.</p>
+<hr/>
+<p><strong>चरण 1: दिए गए आँकड़े और शर्तें</strong><br/>
+चुंबकीय क्षेत्र \(r\) त्रिज्या के क्षेत्र तक सीमित है।
+चुंबकीय क्षेत्र के परिवर्तन की दर: \(\frac{dB}{dt}\)
+लूप 1 (\(R > r\)) क्षेत्र को परिबद्ध करता है।
+लूप 2 चुंबकीय क्षेत्र से पूर्णतः बाहर स्थित है।</p>
+
+<p><strong>चरण 2: अवधारणाएँ और चिन्ह परिपाटी</strong><br/>
+फैराडे के विद्युत चुंबकीय प्रेरण के नियमानुसार, किसी बंद लूप में प्रेरित emf चुंबकीय फ्लक्स में परिवर्तन की दर के बराबर होता है।</p>
+
+<p><strong>चरण 3: संबंधित सूत्र और सिद्धांत</strong><br/>
+\(\mathcal{E} = -\frac{d\Phi_B}{dt}\)</p>
+
+<p><strong>चरण 4: चरण-दर-चरण गणना</strong><br/>
+लूप 1 के लिए:
+लूप 1 से बद्ध चुंबकीय फ्लक्स:
+\(\Phi_{B1} = B(\pi r^2)\)
+प्रेरित विद्युत वाहक बल:
+\(\mathcal{E}_1 = -\frac{dB}{dt}\pi r^2\)
+
+लूप 2 के लिए:
+लूप 2 के क्षेत्रफल में चुंबकीय क्षेत्र शून्य है (\(B = 0\)):
+\(\Phi_{B2} = 0 \implies \mathcal{E}_2 = 0\)</p>
+
+<p><strong>चरण 5: जाँच और अंतिम उत्तर</strong><br/>
+प्रेरित विद्युत वाहक बल लूप 1 में \(-\frac{dB}{dt}\pi r^2\) तथा लूप 2 में शून्य होगा।</p>
+    ]]></text>
+  </generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>zero in loop 1 and zero in loop 2</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(-\frac{dB}{dt}\pi r^2\) in loop 1 and \(-\frac{dB}{dt}\pi r^2\) in loop 2</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(-\frac{dB}{dt}\pi R^2\) in loop 1 and zero in loop 2</p>]]></text>
+  </answer>
+  <answer fraction="100" format="html">
+    <text><![CDATA[<p>\(-\frac{dB}{dt}\pi r^2\) in loop 1 and zero in loop 2</p>]]></text>
+  </answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>year:2016</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:hi</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>class:12</text></tag>
+    <tag><text>topic:faradays_law_and_induced_emf</text></tag>
+    <tag><text>chapter:electromagnetic_induction</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:easy</text></tag>
+    <tag><text>blooms:understand</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:diagram</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+<question type="multichoice">
+  <name><text>NEET_UG_PHYSICS_2016_MCQ_Q32 - Power factor of series LCR circuit</text></name>
+  <questiontext format="html">
+    <text><![CDATA[
+<p>The potential differences across the resistance, capacitance and inductance are \(80\text{ V}\), \(40\text{ V}\) and \(100\text{ V}\) respectively in an L-C-R circuit. The power factor of this circuit is</p>
+<hr/>
+<p>एक L-C-R परिपथ में प्रतिरोध, धारिता तथा प्रेरकत्व के सिरों पर विभवांतर क्रमशः \(80\text{ V}\), \(40\text{ V}\) तथा \(100\text{ V}\) हैं। इस परिपथ का शक्ति गुणांक है</p>
+    ]]></text>
+  </questiontext>
+  <generalfeedback format="html">
+    <text><![CDATA[
+<p><strong>Step 1: Given Data and Conditions</strong><br/>
+Potential difference across resistance: \(V_R = 80\text{ V}\)
+Potential difference across capacitance: \(V_C = 40\text{ V}\)
+Potential difference across inductance: \(V_L = 100\text{ V}\)</p>
+
+<p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>
+The circuit is a series L-C-R circuit driven by an AC sinusoidal source.
+In phasor representation, \(V_R\) is in phase with current, \(V_L\) leads current by \(90^\circ\), and \(V_C\) lags current by \(90^\circ\).</p>
+
+<p><strong>Step 3: Relevant Formulae and Principles</strong><br/>
+Net applied voltage across the circuit:
+\(V = \sqrt{V_R^2 + (V_L - V_C)^2}\)
+Power factor \(\cos\phi\) of the circuit:
+\(\cos\phi = \frac{V_R}{V}\)</p>
+
+<p><strong>Step 4: Step-by-Step Working</strong><br/>
+Calculate net reactive voltage:
+\(V_L - V_C = 100\text{ V} - 40\text{ V} = 60\text{ V}\)
+
+Calculate total supply voltage \(V\):
+\(V = \sqrt{80^2 + 60^2} = \sqrt{6400 + 3600} = \sqrt{10000} = 100\text{ V}\)
+
+Calculate the power factor:
+\(\cos\phi = \frac{V_R}{V} = \frac{80\text{ V}}{100\text{ V}} = 0.8\)</p>
+
+<p><strong>Step 5: Check and Final Answer</strong><br/>
+Power factor is a dimensionless number between 0 and 1. The value \(0.8\) is physically sound and matches the phasor triangle ratios \((60, 80, 100)\).
+The power factor of this circuit is \(0.8\).</p>
+<hr/>
+<p><strong>चरण 1: दिए गए आँकड़े और शर्तें</strong><br/>
+प्रतिरोध पर विभवांतर: \(V_R = 80\text{ V}\)
+संधारित्र पर विभवांतर: \(V_C = 40\text{ V}\)
+प्रेरकत्व पर विभवांतर: \(V_L = 100\text{ V}\)</p>
+
+<p><strong>चरण 2: अवधारणाएँ और चिन्ह परिपाटी</strong><br/>
+श्रेणी L-C-R परिपथ में कुल विभव फेजर योग से ज्ञात किया जाता है।</p>
+
+<p><strong>चरण 3: संबंधित सूत्र और सिद्धांत</strong><br/>
+कुल विभव: \(V = \sqrt{V_R^2 + (V_L - V_C)^2}\)
+शक्ति गुणांक: \(\cos\phi = \frac{V_R}{V}\)</p>
+
+<p><strong>चरण 4: चरण-दर-चरण गणना</strong><br/>
+कुल विभव:
+\(V = \sqrt{80^2 + (100 - 40)^2} = \sqrt{80^2 + 60^2} = \sqrt{6400 + 3600} = 100\text{ V}\)
+
+शक्ति गुणांक:
+\(\cos\phi = \frac{80}{100} = 0.8\)</p>
+
+<p><strong>चरण 5: जाँच और अंतिम उत्तर</strong><br/>
+इस परिपथ का शक्ति गुणांक \(0.8\) है।</p>
+    ]]></text>
+  </generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(0.4\)</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(0.5\)</p>]]></text>
+  </answer>
+  <answer fraction="100" format="html">
+    <text><![CDATA[<p>\(0.8\)</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(1.0\)</p>]]></text>
+  </answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>year:2016</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:hi</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>class:12</text></tag>
+    <tag><text>topic:power_factor</text></tag>
+    <tag><text>chapter:alternating_current</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:easy</text></tag>
+    <tag><text>blooms:apply</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:text</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+<question type="multichoice">
+  <name><text>NEET_UG_PHYSICS_2016_MCQ_Q33 - Peak displacement current in series RC circuit</text></name>
+  <questiontext format="html">
+    <text><![CDATA[
+<p>A \(100\,\Omega\) resistance and a capacitor of \(100\,\Omega\) reactance are connected in series across a \(220\text{ V}\) source. When the capacitor is \(50\%\) charged, the peak value of the displacement current is</p>
+<hr/>
+<p>एक \(100\,\Omega\) का प्रतिरोधक तथा \(100\,\Omega\) प्रतिघात का एक संधारित्र \(220\text{ V}\) के स्रोत के साथ श्रेणीक्रम में जुड़े हैं। जब संधारित्र \(50\%\) आवेशित होता है, तो विस्थापन धारा का शिखर मान होगा</p>
+    ]]></text>
+  </questiontext>
+  <generalfeedback format="html">
+    <text><![CDATA[
+<p><strong>Step 1: Given Data and Conditions</strong><br/>
+Resistance: \(R = 100\,\Omega\)
+Capacitive reactance: \(X_C = 100\,\Omega\)
+AC source RMS voltage: \(V_{\text{rms}} = 220\text{ V}\)</p>
+
+<p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>
+In an AC circuit connected to a capacitor, the displacement current \(i_d\) between the capacitor plates is identically equal to the conduction current \(i_c\) in the connecting wires at every instant (\(i_d(t) = i_c(t)\)).
+The peak value of the displacement current is the maximum amplitude of this alternating current cycle, which depends solely on the source peak voltage and the circuit impedance.</p>
+
+<p><strong>Step 3: Relevant Formulae and Principles</strong><br/>
+Impedance of series RC circuit:
+\(Z = \sqrt{R^2 + X_C^2}\)
+Peak supply voltage:
+\(V_0 = \sqrt{2} V_{\text{rms}}\)
+Peak value of displacement current:
+\(I_{d0} = I_0 = \frac{V_0}{Z}\)</p>
+
+<p><strong>Step 4: Step-by-Step Working</strong><br/>
+Calculate total impedance \(Z\):
+\(Z = \sqrt{100^2 + 100^2} = 100\sqrt{2}\,\Omega\)
+
+Calculate peak voltage \(V_0\):
+\(V_0 = 220\sqrt{2}\text{ V}\)
+
+Calculate peak displacement current:
+\(I_{d0} = \frac{V_0}{Z} = \frac{220\sqrt{2}\text{ V}}{100\sqrt{2}\,\Omega} = \frac{220}{100}\text{ A} = 2.2\text{ A}\)</p>
+
+<p><strong>Step 5: Check and Final Answer</strong><br/>
+The peak amplitude of the steady-state sinusoidal current is invariant with respect to the percentage charge at any arbitrary instant during the oscillation cycle.
+The peak value of the displacement current is \(2.2\text{ A}\).</p>
+<hr/>
+<p><strong>चरण 1: दिए गए आँकड़े और शर्तें</strong><br/>
+प्रतिरोध: \(R = 100\,\Omega\), धारितीय प्रतिघात: \(X_C = 100\,\Omega\)
+स्रोत की rms वोल्टता: \(V_{\text{rms}} = 220\text{ V}\)</p>
+
+<p><strong>चरण 2: अवधारणाएँ और चिन्ह परिपाटी</strong><br/>
+संधारित्र की प्लेटों के बीच विस्थापन धारा, परिपथ में चालन धारा के बराबर होती है (\(i_d = i_c\))। विस्थापन धारा का शिखर मान परिपथ की प्रतिबाधा तथा शिखर वोल्टता पर निर्भर करता है।</p>
+
+<p><strong>चरण 3: संबंधित सूत्र और सिद्धांत</strong><br/>
+प्रतिबाधा: \(Z = \sqrt{R^2 + X_C^2}\)
+शिखर वोल्टता: \(V_0 = \sqrt{2}V_{\text{rms}}\)
+शिखर धारा: \(I_0 = \frac{V_0}{Z}\)</p>
+
+<p><strong>चरण 4: चरण-दर-चरण गणना</strong><br/>
+प्रतिबाधा:
+\(Z = \sqrt{100^2 + 100^2} = 100\sqrt{2}\,\Omega\)
+
+शिखर वोल्टता:
+\(V_0 = 220\sqrt{2}\text{ V}\)
+
+विस्थापन धारा का शिखर मान:
+\(I_0 = \frac{220\sqrt{2}}{100\sqrt{2}} = 2.2\text{ A}\)</p>
+
+<p><strong>चरण 5: जाँच और अंतिम उत्तर</strong><br/>
+विस्थापन धारा का शिखर मान \(2.2\text{ A}\) है।</p>
+    ]]></text>
+  </generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="100" format="html">
+    <text><![CDATA[<p>\(2.2\text{ A}\)</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(11\text{ A}\)</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(4.4\text{ A}\)</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(11\sqrt{2}\text{ A}\)</p>]]></text>
+  </answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>year:2016</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:hi</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>class:12</text></tag>
+    <tag><text>topic:displacement_current</text></tag>
+    <tag><text>chapter:electromagnetic_waves</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:medium</text></tag>
+    <tag><text>blooms:apply</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:text</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+<question type="multichoice">
+  <name><text>NEET_UG_PHYSICS_2016_MCQ_Q34 - Focal length of combination of lenses with water</text></name>
+  <questiontext format="html">
+    <text><![CDATA[
+<p>Two identical glass \(\left(\mu_g = \frac{3}{2}\right)\) equi-convex lenses of focal length \(f\) each are kept in contact. The space between the two lenses is filled with water \(\left(\mu_w = \frac{4}{3}\right)\). The focal length of the combination is</p>
+<hr/>
+<p>काँच \(\left(\mu_g = \frac{3}{2}\right)\) के दो सर्वसम सम-उत्तल लेंस, जिनमें प्रत्येक की फोकस दूरी \(f\) है, एक-दूसरे के संपर्क में रखे गए हैं। दोनों लेंसों के बीच के रिक्त स्थान को जल \(\left(\mu_w = \frac{4}{3}\right)\) से भर दिया जाता है। इस संयोजन की फोकस दूरी होगी</p>
+    ]]></text>
+  </questiontext>
+  <generalfeedback format="html">
+    <text><![CDATA[
+<p><strong>Step 1: Given Data and Conditions</strong><br/>
+Refractive index of glass: \(\mu_g = \frac{3}{2}\)
+Refractive index of water: \(\mu_w = \frac{4}{3}\)
+Focal length of each equi-convex glass lens in air: \(f_1 = f_2 = f\)</p>
+
+<p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>
+Lenses are thin and placed coaxially in direct contact.
+The space enclosed between the two convex surfaces forms an equi-concave water lens with radii of curvature equal to the radius of curvature \(R\) of the glass lenses.</p>
+
+<p><strong>Step 3: Relevant Formulae and Principles</strong><br/>
+Lens maker's formula for an equi-convex lens of radius \(R\):
+\(\frac{1}{f} = (\mu_g - 1)\left(\frac{1}{R} - \left(-\frac{1}{R}\right)\right) = (\mu_g - 1)\frac{2}{R}\)
+For the equi-concave water lens:
+\(\frac{1}{f_w} = (\mu_w - 1)\left(-\frac{1}{R} - \frac{1}{R}\right) = -(\mu_w - 1)\frac{2}{R}\)
+Equivalent focal length of thin lenses in contact:
+\(\frac{1}{F} = \frac{1}{f_1} + \frac{1}{f_w} + \frac{1}{f_2}\)</p>
+
+<p><strong>Step 4: Step-by-Step Working</strong><br/>
+For the glass lens:
+\(\frac{1}{f} = \left(\frac{3}{2} - 1\right)\frac{2}{R} = \frac{1}{2} \cdot \frac{2}{R} = \frac{1}{R} \implies R = f\)
+
+For the water lens formed in the intermediate cavity:
+\(\frac{1}{f_w} = -\left(\frac{4}{3} - 1\right)\frac{2}{R} = -\frac{1}{3} \cdot \frac{2}{f} = -\frac{2}{3f}\)
+
+Total power of the combination:
+\(\frac{1}{F} = \frac{1}{f} + \left(-\frac{2}{3f}\right) + \frac{1}{f} = \frac{2}{f} - \frac{2}{3f} = \frac{4}{3f}\)
+
+Inverting to find \(F\):
+\(F = \frac{3f}{4}\)</p>
+
+<p><strong>Step 5: Check and Final Answer</strong><br/>
+Since the diverging power of the water lens (\(-\frac{2}{3f}\)) is less than the converging power of the two lenses (\(\frac{2}{f}\)), the combination remains convergent with focal length \(F = \frac{3f}{4}\).
+The focal length of the combination is \(\frac{3f}{4}\).</p>
+<hr/>
+<p><strong>चरण 1: दिए गए आँकड़े और शर्तें</strong><br/>
+काँच का अपवर्तनांक: \(\mu_g = \frac{3}{2}\)
+जल का अपवर्तनांक: \(\mu_w = \frac{4}{3}\)
+प्रत्येक सम-उत्तल लेंस की फोकस दूरी: \(f\)</p>
+
+<p><strong>चरण 2: अवधारणाएँ और चिन्ह परिपाटी</strong><br/>
+दोनों लेंसों के बीच भरा जल एक सम-अवतल लेंस की भाँति कार्य करता है जिसकी वक्रता त्रिज्या \(R\) काँच के लेंसों की वक्रता त्रिज्या के बराबर होती है।</p>
+
+<p><strong>चरण 3: संबंधित सूत्र और सिद्धांत</strong><br/>
+लेंस निर्माता सूत्र: \(\frac{1}{f} = (\mu - 1)\left(\frac{1}{R_1} - \frac{1}{R_2}\right)\)
+संयोजन की फोकस दूरी: \(\frac{1}{F} = \frac{1}{f_1} + \frac{1}{f_w} + \frac{1}{f_2}\)</p>
+
+<p><strong>चरण 4: चरण-दर-चरण गणना</strong><br/>
+काँच के लेंस के लिए:
+\(\frac{1}{f} = \left(\frac{3}{2} - 1\right)\frac{2}{R} = \frac{1}{R} \implies R = f\)
+
+जल के अवतल लेंस के लिए:
+\(\frac{1}{f_w} = \left(\frac{4}{3} - 1\right)\left(-\frac{2}{R}\right) = -\frac{2}{3f}\)
+
+संयोजन की फोकस दूरी:
+\(\frac{1}{F} = \frac{1}{f} - \frac{2}{3f} + \frac{1}{f} = \frac{2}{f} - \frac{2}{3f} = \frac{4}{3f} \implies F = \frac{3f}{4}\)</p>
+
+<p><strong>चरण 5: जाँच और अंतिम उत्तर</strong><br/>
+संयोजन की तुल्य फोकस दूरी \(\frac{3f}{4}\) है।</p>
+    ]]></text>
+  </generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(\frac{f}{3}\)</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(f\)</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(\frac{4f}{3}\)</p>]]></text>
+  </answer>
+  <answer fraction="100" format="html">
+    <text><![CDATA[<p>\(\frac{3f}{4}\)</p>]]></text>
+  </answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>year:2016</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:hi</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>class:12</text></tag>
+    <tag><text>topic:combination_of_thin_lenses</text></tag>
+    <tag><text>chapter:ray_optics_and_optical_instruments</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:medium</text></tag>
+    <tag><text>blooms:apply</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:text</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+<question type="multichoice">
+  <name><text>NEET_UG_PHYSICS_2016_MCQ_Q35 - Real thickness of glass slab with air bubble</text></name>
+  <questiontext format="html">
+    <text><![CDATA[
+<p>An air bubble in a glass slab with refractive index \(1.5\) (near normal incidence) is \(5\text{ cm}\) deep when viewed from one surface and \(3\text{ cm}\) deep when viewed from the opposite face. The thickness (in \(\text{cm}\)) of the slab is</p>
+<hr/>
+<p>अपवर्तनांक \(1.5\) वाले काँच के एक गुटके में एक वायु का बुलबुला (लगभग लम्बवत आपतन पर) एक सतह से देखने पर \(5\text{ cm}\) गहरा तथा विपरीत सतह से देखने पर \(3\text{ cm}\) गहरा दिखाई देता है। गुटके की मोटाई (\(\text{cm}\) में) है</p>
+    ]]></text>
+  </questiontext>
+  <generalfeedback format="html">
+    <text><![CDATA[
+<p><strong>Step 1: Given Data and Conditions</strong><br/>
+Refractive index of glass slab: \(\mu = 1.5\)
+Apparent depth from first face: \(d_1 = 5\text{ cm}\)
+Apparent depth from opposite face: \(d_2 = 3\text{ cm}\)</p>
+
+<p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>
+Observations are made at near normal incidence.
+Let the actual distance of the bubble from the first surface be \(x_1\) and from the second surface be \(x_2\).
+Total physical thickness of the slab is \(t = x_1 + x_2\).</p>
+
+<p><strong>Step 3: Relevant Formulae and Principles</strong><br/>
+For refraction at a plane interface when viewed from a rarer medium:
+\(\text{Apparent depth} = \frac{\text{Real depth}}{\mu}\)
+Thus:
+\(x_1 = \mu d_1\)
+\(x_2 = \mu d_2\)</p>
+
+<p><strong>Step 4: Step-by-Step Working</strong><br/>
+Express total thickness \(t\):
+\(t = x_1 + x_2 = \mu d_1 + \mu d_2 = \mu (d_1 + d_2)\)
+
+Substitute the values:
+\(t = 1.5 \times (5\text{ cm} + 3\text{ cm}) = 1.5 \times 8\text{ cm} = 12\text{ cm}\)</p>
+
+<p><strong>Step 5: Check and Final Answer</strong><br/>
+Check: If real thickness is \(12\text{ cm}\), with \(x_1 = 7.5\text{ cm}\) and \(x_2 = 4.5\text{ cm}\), then \(\frac{7.5}{1.5} = 5\text{ cm}\) and \(\frac{4.5}{1.5} = 3\text{ cm}\), which satisfies the problem perfectly.
+The thickness of the slab is \(12\text{ cm}\).</p>
+<hr/>
+<p><strong>चरण 1: दिए गए आँकड़े और शर्तें</strong><br/>
+काँच का अपवर्तनांक: \(\mu = 1.5\)
+प्रथम सतह से आभासी गहराई: \(d_1 = 5\text{ cm}\)
+विपरीत सतह से आभासी गहराई: \(d_2 = 3\text{ cm}\)</p>
+
+<p><strong>चरण 2: अवधारणाएँ और चिन्ह परिपाटी</strong><br/>
+माना कि दोनों सतहों से वास्तविक दूरियाँ \(x_1\) तथा \(x_2\) हैं। गुटके की कुल मोटाई \(t = x_1 + x_2\) है।</p>
+
+<p><strong>चरण 3: संबंधित सूत्र और सिद्धांत</strong><br/>
+आभासी गहराई:
+\(d = \frac{\text{वास्तविक गहराई}}{\mu} \implies \text{वास्तविक गहराई} = \mu \times d\)</p>
+
+<p><strong>चरण 4: चरण-दर-चरण गणना</strong><br/>
+कुल मोटाई:
+\(t = x_1 + x_2 = \mu(d_1 + d_2) = 1.5 \times (5 + 3) = 1.5 \times 8 = 12\text{ cm}\)</p>
+
+<p><strong>चरण 5: जाँच और अंतिम उत्तर</strong><br/>
+काँच के गुटके की वास्तविक मोटाई \(12\text{ cm}\) है।</p>
+    ]]></text>
+  </generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(8\)</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(10\)</p>]]></text>
+  </answer>
+  <answer fraction="100" format="html">
+    <text><![CDATA[<p>\(12\)</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(16\)</p>]]></text>
+  </answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>year:2016</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:hi</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>class:12</text></tag>
+    <tag><text>topic:refraction_apparent_depth</text></tag>
+    <tag><text>chapter:ray_optics_and_optical_instruments</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:easy</text></tag>
+    <tag><text>blooms:apply</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:text</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+<question type="multichoice">
+  <name><text>NEET_UG_PHYSICS_2016_MCQ_Q36 - Interference pattern intensity ratio of coherent sources</text></name>
+  <questiontext format="html">
+    <text><![CDATA[
+<p>The interference pattern is obtained with two coherent light sources of intensity ratio \(n\). In the interference pattern, the ratio \(\frac{I_{\text{max}} - I_{\text{min}}}{I_{\text{max}} + I_{\text{min}}}\) will be</p>
+<hr/>
+<p>तीव्रता अनुपात \(n\) वाले दो कला-संबद्ध प्रकाश स्रोतों द्वारा व्यतिकरण प्रतिरूप प्राप्त किया जाता है। व्यतिकरण प्रतिरूप में, अनुपात \(\frac{I_{\text{max}} - I_{\text{min}}}{I_{\text{max}} + I_{\text{min}}}\) का मान होगा</p>
+    ]]></text>
+  </questiontext>
+  <generalfeedback format="html">
+    <text><![CDATA[
+<p><strong>Step 1: Given Data and Conditions</strong><br/>
+Ratio of intensities of two coherent sources: \(\frac{I_1}{I_2} = n\)</p>
+
+<p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>
+The two sources interfere constructively at maxima and destructively at minima.
+Intensity is proportional to the square of amplitude: \(I \propto A^2 \implies \frac{A_1}{A_2} = \sqrt{\frac{I_1}{I_2}} = \sqrt{n}\).</p>
+
+<p><strong>Step 3: Relevant Formulae and Principles</strong><br/>
+Maximum and minimum intensities in interference:
+\(I_{\text{max}} = (\sqrt{I_1} + \sqrt{I_2})^2 = I_1 + I_2 + 2\sqrt{I_1 I_2}\)
+\(I_{\text{min}} = (\sqrt{I_1} - \sqrt{I_2})^2 = I_1 + I_2 - 2\sqrt{I_1 I_2}\)</p>
+
+<p><strong>Step 4: Step-by-Step Working</strong><br/>
+Compute the difference:
+\(I_{\text{max}} - I_{\text{min}} = 4\sqrt{I_1 I_2}\)
+
+Compute the sum:
+\(I_{\text{max}} + I_{\text{min}} = 2(I_1 + I_2)\)
+
+Take their ratio:
+\(\frac{I_{\text{max}} - I_{\text{min}}}{I_{\text{max}} + I_{\text{min}}} = \frac{4\sqrt{I_1 I_2}}{2(I_1 + I_2)} = \frac{2\sqrt{I_1 I_2}}{I_1 + I_2}\)
+
+Divide both numerator and denominator by \(I_2\):
+\(\frac{I_{\text{max}} - I_{\text{min}}}{I_{\text{max}} + I_{\text{min}}} = \frac{2\sqrt{\frac{I_1}{I_2}}}{\frac{I_1}{I_2} + 1} = \frac{2\sqrt{n}}{n + 1}\)</p>
+
+<p><strong>Step 5: Check and Final Answer</strong><br/>
+For identical sources (\(n = 1\)), \(I_{\text{min}} = 0\), giving a ratio of \(\frac{2\sqrt{1}}{1+1} = 1\), as expected for full contrast.
+The ratio is \(\frac{2\sqrt{n}}{n + 1}\).</p>
+<hr/>
+<p><strong>चरण 1: दिए गए आँकड़े और शर्तें</strong><br/>
+स्रोतों की तीव्रताओं का अनुपात: \(\frac{I_1}{I_2} = n\)</p>
+
+<p><strong>चरण 2: अवधारणाएँ और चिन्ह परिपाटी</strong><br/>
+आयामों का अनुपात: \(\frac{A_1}{A_2} = \sqrt{n}\)</p>
+
+<p><strong>चरण 3: संबंधित सूत्र और सिद्धांत</strong><br/>
+व्यतिकरण में उच्चिष्ठ और निम्निष्ठ तीव्रता:
+\(I_{\text{max}} = (\sqrt{I_1} + \sqrt{I_2})^2\)
+\(I_{\text{min}} = (\sqrt{I_1} - \sqrt{I_2})^2\)</p>
+
+<p><strong>चरण 4: चरण-दर-चरण गणना</strong><br/>
+अन्तर: \(I_{\text{max}} - I_{\text{min}} = 4\sqrt{I_1 I_2}\)
+योग: \(I_{\text{max}} + I_{\text{min}} = 2(I_1 + I_2)\)
+अनुपात:
+\(\frac{I_{\text{max}} - I_{\text{min}}}{I_{\text{max}} + I_{\text{min}}} = \frac{2\sqrt{I_1 I_2}}{I_1 + I_2} = \frac{2\sqrt{n}}{n + 1}\)</p>
+
+<p><strong>चरण 5: जाँच और अंतिम उत्तर</strong><br/>
+अभीष्ट अनुपात \(\frac{2\sqrt{n}}{n + 1}\) है।</p>
+    ]]></text>
+  </generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(\frac{\sqrt{n}}{n + 1}\)</p>]]></text>
+  </answer>
+  <answer fraction="100" format="html">
+    <text><![CDATA[<p>\(\frac{2\sqrt{n}}{n + 1}\)</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(\frac{\sqrt{n}}{(n + 1)^2}\)</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(\frac{2\sqrt{n}}{(n + 1)^2}\)</p>]]></text>
+  </answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>year:2016</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:hi</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>class:12</text></tag>
+    <tag><text>topic:wave_interference_fringe_contrast</text></tag>
+    <tag><text>chapter:wave_optics</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:easy</text></tag>
+    <tag><text>blooms:apply</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:text</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+<question type="multichoice">
+  <name><text>NEET_UG_PHYSICS_2016_MCQ_Q37 - Correcting lens power for maximum distinct vision</text></name>
+  <questiontext format="html">
+    <text><![CDATA[
+<p>A person can see clearly objects only when they lie between \(50\text{ cm}\) and \(400\text{ cm}\) from his eyes. In order to increase the maximum distance of distinct vision to infinity, the type and power of the correcting lens, the person has to use, will be</p>
+<hr/>
+<p>एक व्यक्ति केवल तभी वस्तुओं को स्पष्ट रूप से देख सकता है जब वे उसकी आँखों से \(50\text{ cm}\) और \(400\text{ cm}\) के बीच स्थित हों। स्पष्ट दृष्टि की अधिकतम दूरी को अनंत तक बढ़ाने के लिए व्यक्ति को किस प्रकार के तथा कितनी क्षमता के संशोधक लेंस का उपयोग करना होगा?</p>
+    ]]></text>
+  </questiontext>
+  <generalfeedback format="html">
+    <text><![CDATA[
+<p><strong>Step 1: Given Data and Conditions</strong><br/>
+Near point of the defective eye: \(d_{\text{near}} = 50\text{ cm}\)
+Far point of the defective eye: \(d_{\text{far}} = 400\text{ cm} = 4\text{ m}\)
+Target object distance: \(u = -\infty\)
+Target image distance (at far point): \(v = -400\text{ cm} = -4\text{ m}\)</p>
+
+<p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>
+Standard Cartesian sign convention is applied: distances measured in the direction opposite to incident light are negative.
+Because the person cannot see distant objects beyond \(4\text{ m}\), the defect is myopia, requiring a diverging (concave) lens.</p>
+
+<p><strong>Step 3: Relevant Formulae and Principles</strong><br/>
+Lens formula:
+\(\frac{1}{f} = \frac{1}{v} - \frac{1}{u}\)
+Power of the lens in diopters:
+\(P = \frac{1}{f\text{ (in meters)}}\)</p>
+
+<p><strong>Step 4: Step-by-Step Working</strong><br/>
+Substitute \(u = -\infty\) and \(v = -4\text{ m}\):
+\(\frac{1}{f} = \frac{1}{-4\text{ m}} - \frac{1}{-\infty} = -\frac{1}{4}\text{ m}^{-1} - 0 = -0.25\text{ m}^{-1}\)
+
+Focal length:
+\(f = -4\text{ m}\)
+
+Power of the correcting lens:
+\(P = \frac{1}{f} = -0.25\text{ D}\)
+The negative power corresponds to a concave lens.</p>
+
+<p><strong>Step 5: Check and Final Answer</strong><br/>
+A concave lens of focal length \(4\text{ m}\) produces a virtual image of an object at infinity at \(4\text{ m}\) in front of the eye, within the person's visible range.
+The person has to use a concave lens of power \(-0.25\text{ diopter}\).</p>
+<hr/>
+<p><strong>चरण 1: दिए गए आँकड़े और शर्तें</strong><br/>
+दूर बिंदु (far point): \(400\text{ cm} = 4\text{ m}\)
+निकट बिंदु: \(50\text{ cm}\)
+वस्तु की अभीष्ट स्थिति: \(u = -\infty\)
+प्रतिबिंब की स्थिति: \(v = -4\text{ m}\)</p>
+
+<p><strong>चरण 2: अवधारणाएँ और चिन्ह परिपाटी</strong><br/>
+दूर की वस्तु को न देख पाना निकट दृष्टि दोष (मायोपिया) कहलाता है, जिसके निवारण हेतु अवतल लेंस का उपयोग किया जाता है।</p>
+
+<p><strong>चरण 3: संबंधित सूत्र और सिद्धांत</strong><br/>
+लेंस सूत्र: \(\frac{1}{f} = \frac{1}{v} - \frac{1}{u}\)
+लेंस की क्षमता: \(P = \frac{1}{f\text{ (मीटर में)}}\)</p>
+
+<p><strong>चरण 4: चरण-दर-चरण गणना</strong><br/>
+\(\frac{1}{f} = \frac{1}{-4} - \frac{1}{-\infty} = -\frac{1}{4}\text{ m}^{-1}\)
+\(P = -0.25\text{ D}\)
+ऋणात्मक क्षमता अवतल लेंस को दर्शाती है।</p>
+
+<p><strong>चरण 5: जाँच और अंतिम उत्तर</strong><br/>
+व्यक्ति को \(-0.25\text{ diopter}\) क्षमता के अवतल (concave) लेंस का उपयोग करना होगा।</p>
+    ]]></text>
+  </generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>convex, \(+2.25\text{ diopter}\)</p>]]></text>
+  </answer>
+  <answer fraction="100" format="html">
+    <text><![CDATA[<p>concave, \(-0.25\text{ diopter}\)</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>concave, \(-0.2\text{ diopter}\)</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>convex, \(+0.15\text{ diopter}\)</p>]]></text>
+  </answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>year:2016</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:hi</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>class:12</text></tag>
+    <tag><text>topic:defects_of_vision</text></tag>
+    <tag><text>chapter:ray_optics_and_optical_instruments</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:easy</text></tag>
+    <tag><text>blooms:apply</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:text</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+</quiz>

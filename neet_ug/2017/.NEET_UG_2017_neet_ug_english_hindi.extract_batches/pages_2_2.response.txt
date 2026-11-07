@@ -1,0 +1,643 @@
+<question type="multichoice">
+  <name>
+    <text>NEET_UG_PHYSICS_2017_MCQ_Q07 - Acceleration of particle from position coordinates</text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>The \(x\) and \(y\) coordinates of the particle at any time are \(x = 5t - 2t^2\) and \(y = 10t\) respectively, where \(x\) and \(y\) are in meters and \(t\) in seconds. The acceleration of the particle at \(t = 2\text{ s}\) is</p><hr/><p>किसी कण के किसी समय \(t\) पर \(x\) तथा \(y\) निर्देशांक क्रमशः \(x = 5t - 2t^2\) तथा \(y = 10t\) हैं, जहाँ \(x\) और \(y\) मीटर में तथा \(t\) सेकंड में हैं। \(t = 2\text{ s}\) पर कण का त्वरण है:</p>]]></text>
+  </questiontext>
+  <generalfeedback format="html">
+    <text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>Position coordinates of the particle as a function of time:<br/>\(x(t) = 5t - 2t^2\)<br/>\(y(t) = 10t\)<br/>Time of interest: \(t = 2\text{ s}\).</p><p><strong>Step 2: Relevant Formulae and Principles</strong><br/>The velocity components along the coordinate axes are obtained by the first time derivative of position:<br/>\[v_x = \frac{dx}{dt}, \quad v_y = \frac{dy}{dt}\]<br/>The acceleration components are obtained by the second time derivative of position:<br/>\[a_x = \frac{dv_x}{dt} = \frac{d^2x}{dt^2}, \quad a_y = \frac{dv_y}{dt} = \frac{d^2y}{dt^2}\]<br/>The total acceleration vector is \(\vec{a} = a_x \hat{i} + a_y \hat{j}\).</p><p><strong>Step 3: Step-by-Step Differentiation</strong><br/>Differentiating \(x(t)\) with respect to \(t\):<br/>\[v_x = \frac{d}{dt}(5t - 2t^2) = 5 - 4t\]<br/>\[a_x = \frac{d}{dt}(5 - 4t) = -4\text{ m/s}^2\]<br/>Differentiating \(y(t)\) with respect to \(t\):<br/>\[v_y = \frac{d}{dt}(10t) = 10\]<br/>\[a_y = \frac{d}{dt}(10) = 0\text{ m/s}^2\]</p><p><strong>Step 4: Check and Final Answer</strong><br/>The acceleration along the \(x\)-direction is constant at all times (\(-4\text{ m/s}^2\)), and the acceleration along the \(y\)-direction is zero. Thus, at \(t = 2\text{ s}\), the acceleration of the particle is \(-4\text{ m/s}^2\).</p><hr/><p><strong>चरण 1: दिया गया डेटा एवं स्थितियाँ</strong><br/>समय \(t\) के फलन के रूप में कण के स्थिति निर्देशांक:<br/>\(x(t) = 5t - 2t^2\)<br/>\(y(t) = 10t\)<br/>वांछित समय: \(t = 2\text{ s}\)।</p><p><strong>चरण 2: संबंधित सूत्र एवं सिद्धांत</strong><br/>वेग के घटक समय के सापेक्ष स्थिति के प्रथम अवकलज द्वारा प्राप्त होते हैं:<br/>\[v_x = \frac{dx}{dt}, \quad v_y = \frac{dy}{dt}\]<br/>त्वरण के घटक समय के सापेक्ष वेग के अवकलज द्वारा प्राप्त होते हैं:<br/>\[a_x = \frac{dv_x}{dt}, \quad a_y = \frac{dv_y}{dt}\]</p><p><strong>चरण 3: अवकलन एवं मान ज्ञात करना</strong><br/>\(x\) निर्देशांक का अवकलन:<br/>\[v_x = \frac{d}{dt}(5t - 2t^2) = 5 - 4t\]<br/>\[a_x = \frac{d}{dt}(5 - 4t) = -4\text{ m/s}^2\]<br/>\(y\) निर्देशांक का अवकलन:<br/>\[v_y = \frac{d}{dt}(10t) = 10\]<br/>\[a_y = \frac{d}{dt}(10) = 0\text{ m/s}^2\]</p><p><strong>चरण 4: अंतिम निष्कर्ष</strong><br/>\(x\)-दिशा में त्वरण सभी समय पर नियत (\(-4\text{ m/s}^2\)) रहता है और \(y\)-दिशा में त्वरण शून्य है। अतः \(t = 2\text{ s}\) पर कण का त्वरण \(-4\text{ m/s}^2\) है।</p>]]></text>
+  </generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(-8\text{ m/s}^2\)</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(0\)</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(5\text{ m/s}^2\)</p>]]></text>
+  </answer>
+  <answer fraction="100" format="html">
+    <text><![CDATA[<p>\(-4\text{ m/s}^2\)</p>]]></text>
+  </answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>year:2017</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:hi</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>class:class_11</text></tag>
+    <tag><text>topic:kinematics_in_two_dimensions</text></tag>
+    <tag><text>chapter:motion_in_a_plane</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:easy</text></tag>
+    <tag><text>blooms:apply</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:text</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+
+<question type="multichoice">
+  <name>
+    <text>NEET_UG_PHYSICS_2017_MCQ_Q08 - Voltage and power gain of CE transistor amplifier</text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>In a common emitter transistor amplifier the audio signal voltage across the collector is \(3\text{ V}\). The resistance of collector is \(3\text{ k}\Omega\). If current gain is \(100\) and the base resistance is \(2\text{ k}\Omega\), the voltage and power gain of the amplifier is</p><hr/><p>उभयनिष्ठ उत्सर्जक ट्रांजिस्टर प्रवर्धक में संग्राही के सिरों पर श्रव्य संकेत वोल्टता \(3\text{ V}\) है। संग्राही का प्रतिरोध \(3\text{ k}\Omega\) है। यदि धारा लब्धि \(100\) तथा आधार प्रतिरोध \(2\text{ k}\Omega\) है, तो प्रवर्धक की वोल्टता लब्धि तथा शक्ति लब्धि है:</p>]]></text>
+  </questiontext>
+  <generalfeedback format="html">
+    <text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>Collector resistance: \(R_C = 3\text{ k}\Omega = 3000\,\Omega\).<br/>Base resistance: \(R_B = 2\text{ k}\Omega = 2000\,\Omega\).<br/>Current gain in common emitter configuration: \(\beta = 100\).</p><p><strong>Step 2: Relevant Formulae</strong><br/>The resistance gain is given by:<br/>\[A_R = \frac{R_C}{R_B}\]<br/>The voltage gain is given by:<br/>\[A_v = \beta \times \frac{R_C}{R_B}\]<br/>The power gain is given by:<br/>\[A_p = \text{Current Gain} \times \text{Voltage Gain} = \beta \times A_v = \beta^2 \frac{R_C}{R_B}\]</p><p><strong>Step 3: Step-by-Step Calculation</strong><br/>Calculating the voltage gain:<br/>\[A_v = 100 \times \frac{3000}{2000} = 100 \times 1.5 = 150\]<br/>Calculating the power gain:<br/>\[A_p = \beta \times A_v = 100 \times 150 = 15000\]</p><p><strong>Step 4: Check and Final Answer</strong><br/>The values of voltage gain and power gain are \(150\) and \(15000\) respectively.</p><hr/><p><strong>चरण 1: दिया गया डेटा एवं स्थितियाँ</strong><br/>संग्राही प्रतिरोध: \(R_C = 3\text{ k}\Omega = 3000\,\Omega\)।<br/>आधार प्रतिरोध: \(R_B = 2\text{ k}\Omega = 2000\,\Omega\)।<br/>धारा लब्धि: \(\beta = 100\)।</p><p><strong>चरण 2: संबंधित सूत्र</strong><br/>प्रतिरोध लब्धि: \(A_R = \frac{R_C}{R_B}\)<br/>वोल्टता लब्धि: \(A_v = \beta \times \frac{R_C}{R_B}\)<br/>शक्ति लब्धि: \(A_p = \beta \times A_v\)</p><p><strong>चरण 3: गणना</strong><br/>वोल्टता लब्धि:<br/>\[A_v = 100 \times \frac{3000}{2000} = 150\]<br/>शक्ति लब्धि:<br/>\[A_p = 100 \times 150 = 15000\]</p><p><strong>चरण 4: अंतिम निष्कर्ष</strong><br/>प्रवर्धक की वोल्टता लब्धि \(150\) तथा शक्ति लब्धि \(15000\) है।</p>]]></text>
+  </generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>20 and 2000</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>200 and 1000</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>15 and 200</p>]]></text>
+  </answer>
+  <answer fraction="100" format="html">
+    <text><![CDATA[<p>150 and 15000</p>]]></text>
+  </answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>year:2017</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:hi</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>class:class_12</text></tag>
+    <tag><text>topic:transistor_amplifier</text></tag>
+    <tag><text>chapter:semiconductor_electronics</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:easy</text></tag>
+    <tag><text>blooms:apply</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:text</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+
+<question type="multichoice">
+  <name>
+    <text>NEET_UG_PHYSICS_2017_MCQ_Q09 - Magnetic force per unit length on middle wire</text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>An arrangement of three parallel straight wires placed perpendicular to plane of paper carrying same current 'I' along the same direction is shown in Fig. Magnitude of force per unit length on the middle wire 'B' is given by</p><p><img src="@@PLUGINFILE@@/img-2.jpeg" alt="Three parallel current carrying wires arrangement" /></p><hr/><p>कागज के तल के लंबवत स्थित तीन समानांतर सीधे तारों की एक व्यवस्था, जिनमें समान दिशा में समान धारा 'I' प्रवाहित हो रही है, चित्र में दिखाई गई है। मध्य तार 'B' पर प्रति इकाई लंबाई बल का परिमाण दिया जाता है:</p><p><img src="@@PLUGINFILE@@/img-2.jpeg" alt="तीन समानांतर धारावाही तारों की व्यवस्था" /></p>]]></text>
+  </questiontext>
+  <generalfeedback format="html">
+    <text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>Three long parallel wires: A, B, and C carrying identical currents \(I\) perpendicular to the paper in the same direction.<br/>The wire B is located at the vertex of a right angle (\(90^\circ\)).<br/>Distance between A and B: \(d_{AB} = d\).<br/>Distance between C and B: \(d_{BC} = d\).</p><p><strong>Step 2: Physical Principle and Directions</strong><br/>Parallel currents flowing in the same direction attract each other.<br/>The magnitude of magnetic force per unit length between two parallel long wires carrying current \(I\) separated by distance \(d\) is:<br/>\[f = \frac{\mu_0 I^2}{2\pi d}\]<br/>Wire A exerts an attractive force per unit length \(f_{BA}\) on wire B directed towards A.<br/>Wire C exerts an attractive force per unit length \(f_{BC}\) on wire B directed towards C.<br/>The angle between the lines BA and BC is \(90^\circ\), meaning the two force vectors \(\vec{f}_{BA}\) and \(\vec{f}_{BC}\) are mutually perpendicular.</p><p><strong>Step 3: Vector Addition of Forces</strong><br/>The net force per unit length on wire B is the vector sum of two perpendicular forces of equal magnitude \(f\):<br/>\[f_{\text{net}} = \sqrt{f_{BA}^2 + f_{BC}^2} = \sqrt{f^2 + f^2} = \sqrt{2} f\]<br/>Substituting \(f = \frac{\mu_0 I^2}{2\pi d}\):<br/>\[f_{\text{net}} = \sqrt{2} \left(\frac{\mu_0 I^2}{2\pi d}\right) = \frac{\mu_0 I^2}{\sqrt{2}\pi d}\]</p><p><strong>Step 4: Check and Final Answer</strong><br/>The magnitude of force per unit length on the middle wire B is \(\frac{\mu_0 I^2}{\sqrt{2}\pi d}\).</p><hr/><p><strong>चरण 1: दिया गया डेटा एवं स्थितियाँ</strong><br/>कागज के तल के लंबवत समान दिशा में धारा \(I\) ले जाने वाले तीन समानांतर तार: A, B, C।<br/>मध्य तार B एक समकोण (\(90^\circ\)) के शीर्ष पर स्थित है।<br/>A तथा B के बीच की दूरी \(= d\)।<br/>C तथा B के बीच की दूरी \(= d\)।</p><p><strong>चरण 2: सिद्धांत एवं दिशा</strong><br/>समान दिशा में प्रवाहित समानांतर धाराएँ एक-दूसरे को आकर्षित करती हैं।<br/>दो समानांतर तारों के मध्य प्रति एकांक लंबाई लगने वाले बल का परिमाण:<br/>\[f = \frac{\mu_0 I^2}{2\pi d}\]<br/>तार A द्वारा B पर आकर्षण बल BA की दिशा में लगता है।<br/>तार C द्वारा B पर आकर्षण बल BC की दिशा में लगता है।<br/>चूँकि BA और BC के मध्य कोण \(90^\circ\) है, दोनों बल सदिश परस्पर लंबवत हैं।</p><p><strong>चरण 3: परिणामी बल की गणना</strong><br/>लंबवत बलों का परिणामी बल:<br/>\[f_{\text{net}} = \sqrt{f^2 + f^2} = \sqrt{2}f = \sqrt{2}\left(\frac{\mu_0 I^2}{2\pi d}\right) = \frac{\mu_0 I^2}{\sqrt{2}\pi d}\]</p><p><strong>चरण 4: अंतिम निष्कर्ष</strong><br/>मध्य तार 'B' पर प्रति एकांक लंबाई परिणामी बल का परिमाण \(\frac{\mu_0 I^2}{\sqrt{2}\pi d}\) है।</p>]]></text>
+  </generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="100" format="html">
+    <text><![CDATA[<p>\(\frac{\mu_0I^2}{\sqrt{2}\pi d}\)</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(\frac{\mu_0I^2}{2\pi d}\)</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(\frac{2\mu_0I^2}{\pi d}\)</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(\frac{\sqrt{2}\mu_0I^2}{\pi d}\)</p>]]></text>
+  </answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>year:2017</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:hi</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>class:class_12</text></tag>
+    <tag><text>topic:force_between_parallel_currents</text></tag>
+    <tag><text>chapter:moving_charges_and_magnetism</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:medium</text></tag>
+    <tag><text>blooms:apply</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:diagram</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+
+<question type="multichoice">
+  <name>
+    <text>NEET_UG_PHYSICS_2017_MCQ_Q10 - Mutual gravitational attraction between astronauts in space</text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>Two astronauts are floating in gravitational free space after having lost contact with their spaceship. The two will</p><hr/><p>अपने अंतरिक्ष यान से संपर्क टूटने के बाद दो अंतरिक्ष यात्री गुरुत्वाकर्षण मुक्त अंतरिक्ष में तैर रहे हैं। वे दोनों:</p>]]></text>
+  </questiontext>
+  <generalfeedback format="html">
+    <text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>According to Newton's Universal Law of Gravitation, any two bodies with mass exert a mutual gravitational attraction on each other regardless of location:<br/>\[F = \frac{G m_1 m_2}{r^2}\]<br/>where \(G\) is the universal gravitational constant, \(m_1\) and \(m_2\) are the masses of the astronauts, and \(r\) is the separation distance between them.</p><p><strong>Step 2: Evaluation of Forces</strong><br/>In "gravitational free space," external gravitational influences from planets, stars, and the spaceship are negligible or zero. However, the internal mutual gravitational force between the two astronauts remains nonzero and is always attractive in nature.</p><p><strong>Step 3: Application to Motion</strong><br/>Since there are no external opposing forces, the mutual gravitational attraction causes each astronaut to accelerate towards the other. As a result, the two astronauts will move towards each other.</p><hr/><p><strong>चरण 1: सिद्धांत एवं अवधारणा</strong><br/>न्यूटन के सार्वत्रिक गुरुत्वाकर्षण नियम के अनुसार, द्रव्यमान वाले किन्हीं दो पिंडों के मध्य सदैव एक पारस्परिक आकर्षण बल कार्य करता है:<br/>\[F = \frac{G m_1 m_2}{r^2}\]<br/>जहाँ \(m_1\) और \(m_2\) दोनों अंतरिक्ष यात्रियों के द्रव्यमान हैं तथा \(r\) उनके बीच की दूरी है।</p><p><strong>चरण 2: बलों का विश्लेषण</strong><br/>"गुरुत्वाकर्षण मुक्त अंतरिक्ष" में किसी अन्य खगोलीय पिंड या अंतरिक्ष यान का बाह्य गुरुत्वाकर्षण बल नगण्य है। परन्तु दोनों अंतरिक्ष यात्रियों के द्रव्यमानों के कारण उनके बीच लगने वाला पारस्परिक गुरुत्वाकर्षण बल उपस्थित रहता है, जो स्वभाव से सदैव आकर्षक होता है।</p><p><strong>चरण 3: अंतिम निष्कर्ष</strong><br/>इस पारस्परिक आकर्षण बल के कारण दोनों अंतरिक्ष यात्री एक-दूसरे की ओर त्वरित होंगे और एक-दूसरे की ओर गति करने लगेंगे।</p>]]></text>
+  </generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>become stationary.</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>keep floating at the same distance between them.</p>]]></text>
+  </answer>
+  <answer fraction="100" format="html">
+    <text><![CDATA[<p>move towards each other.</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>move away from each other.</p>]]></text>
+  </answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>year:2017</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:hi</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>class:class_11</text></tag>
+    <tag><text>topic:gravitational_attraction</text></tag>
+    <tag><text>chapter:gravitation</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:easy</text></tag>
+    <tag><text>blooms:understand</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:text</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+
+<question type="multichoice">
+  <name>
+    <text>NEET_UG_PHYSICS_2017_MCQ_Q11 - Heat absorbed by Carnot refrigerator</text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>A Carnot engine having an efficiency of \(\frac{1}{10}\) as heat engine, is used as a refrigerator. If the work done on the system is \(10\text{ J}\), the amount of energy absorbed from the reservoir at lower temperature is</p><hr/><p>एक कार्नो इंजन, जिसकी ऊष्मा इंजन के रूप में दक्षता \(\frac{1}{10}\) है, प्रशीतक के रूप में उपयोग किया जाता है। यदि निकाय पर किया गया कार्य \(10\text{ J}\) है, तो निम्न ताप वाले कुंड से अवशोषित ऊर्जा की मात्रा है:</p>]]></text>
+  </questiontext>
+  <generalfeedback format="html">
+    <text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>Efficiency of the Carnot engine: \(\eta = \frac{1}{10}\).<br/>Work done on the refrigerator: \(W = 10\text{ J}\).</p><p><strong>Step 2: Relevant Principles and Formulae</strong><br/>For a Carnot cycle, the coefficient of performance (\(\beta\) or \(\text{COP}\)) of a refrigerator is related to the efficiency (\(\eta\)) of the corresponding heat engine operating between the same two temperatures by:<br/>\[\beta = \frac{1 - \eta}{\eta}\]<br/>By definition, the coefficient of performance of a refrigerator is the ratio of heat extracted from the cold reservoir (\(Q_2\)) to the external work done (\(W\)):<br/>\[\beta = \frac{Q_2}{W}\]</p><p><strong>Step 3: Step-by-Step Calculation</strong><br/>Calculate \(\beta\):<br/>\[\beta = \frac{1 - \frac{1}{10}}{\frac{1}{10}} = \frac{\frac{9}{10}}{\frac{1}{10}} = 9\]<br/>Calculate the heat absorbed from the lower temperature reservoir (\(Q_2\)):<br/>\[Q_2 = \beta \times W = 9 \times 10\text{ J} = 90\text{ J}\]</p><p><strong>Step 4: Check and Final Answer</strong><br/>The amount of energy absorbed from the reservoir at lower temperature is \(90\text{ J}\).</p><hr/><p><strong>चरण 1: दिया गया डेटा एवं स्थितियाँ</strong><br/>कार्नो इंजन की दक्षता: \(\eta = \frac{1}{10}\)।<br/>निकाय पर किया गया कार्य: \(W = 10\text{ J}\)।</p><p><strong>चरण 2: संबंधित सूत्र</strong><br/>समान तापमानों के बीच कार्यरत प्रशीतक का कार्य-निष्पादन गुणांक (\(\beta\)) और ऊष्मा इंजन की दक्षता (\(\eta\)) में संबंध:<br/>\[\beta = \frac{1 - \eta}{\eta}\]<br/>प्रशीतक के लिए कार्य-निष्पादन गुणांक:<br/>\[\beta = \frac{Q_2}{W}\]<br/>जहाँ \(Q_2\) निम्न ताप कुंड से अवशोषित ऊष्मा है।</p><p><strong>चरण 3: गणना</strong><br/>कार्य-निष्पादन गुणांक:<br/>\[\beta = \frac{1 - 1/10}{1/10} = 9\]<br/>अवशोषित ऊष्मा:<br/>\[Q_2 = \beta \times W = 9 \times 10\text{ J} = 90\text{ J}\]</p><p><strong>चरण 4: अंतिम निष्कर्ष</strong><br/>अतः निम्न ताप वाले कुंड से अवशोषित ऊर्जा की मात्रा \(90\text{ J}\) है।</p>]]></text>
+  </generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>100 J</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>1 J</p>]]></text>
+  </answer>
+  <answer fraction="100" format="html">
+    <text><![CDATA[<p>90 J</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>99 J</p>]]></text>
+  </answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>year:2017</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:hi</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>class:class_11</text></tag>
+    <tag><text>topic:carnot_refrigerator</text></tag>
+    <tag><text>chapter:thermodynamics</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:easy</text></tag>
+    <tag><text>blooms:apply</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:text</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+
+<question type="multichoice">
+  <name>
+    <text>NEET_UG_PHYSICS_2017_MCQ_Q12 - Work done rotating rectangular coil in magnetic field</text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>A 250-Turn rectangular coil of length \(2.1\text{ cm}\) and width \(1.25\text{ cm}\) carries a current of \(85\,\mu\text{A}\) and subjected to a magnetic field of strength \(0.85\text{ T}\). Work done for rotating the coil by \(180^{\circ}\) against the torque is</p><hr/><p>लंबाई \(2.1\text{ cm}\) और चौड़ाई \(1.25\text{ cm}\) वाली \(250\) फेरों की एक आयताकार कुंडली में \(85\,\mu\text{A}\) की धारा प्रवाहित हो रही है और इसे \(0.85\text{ T}\) सामर्थ्य वाले चुंबकीय क्षेत्र में रखा गया है। बलाघूर्ण के विरुद्ध कुंडली को \(180^{\circ}\) घुमाने में किया गया कार्य है:</p>]]></text>
+  </questiontext>
+  <generalfeedback format="html">
+    <text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>Number of turns: \(N = 250\).<br/>Length of the coil: \(l = 2.1\text{ cm} = 2.1 \times 10^{-2}\text{ m}\).<br/>Width of the coil: \(b = 1.25\text{ cm} = 1.25 \times 10^{-2}\text{ m}\).<br/>Current in the coil: \(I = 85\,\mu\text{A} = 85 \times 10^{-6}\text{ A}\).<br/>Magnetic field strength: \(B = 0.85\text{ T}\).<br/>Initial angle: \(\theta_1 = 0^{\circ}\) (stable equilibrium position).<br/>Final angle: \(\theta_2 = 180^{\circ}\).</p><p><strong>Step 2: Relevant Formulae</strong><br/>Area of the coil: \(A = l \times b\).<br/>Magnetic dipole moment of the coil: \(M = N I A\).<br/>The potential energy of a magnetic dipole in a uniform magnetic field is \(U = -M B \cos\theta\).<br/>Work done against the magnetic torque to rotate the coil from \(\theta_1\) to \(\theta_2\) is:<br/>\[W = U(\theta_2) - U(\theta_1) = -M B \cos\theta_2 - (-M B \cos\theta_1) = M B (\cos\theta_1 - \cos\theta_2)\]</p><p><strong>Step 3: Step-by-Step Calculation</strong><br/>For \(\theta_1 = 0^{\circ}\) and \(\theta_2 = 180^{\circ}\):<br/>\[W = M B (\cos 0^{\circ} - \cos 180^{\circ}) = M B [1 - (-1)] = 2 M B\]<br/>Calculate the area \(A\):<br/>\[A = (2.1 \times 10^{-2}\text{ m}) \times (1.25 \times 10^{-2}\text{ m}) = 2.625 \times 10^{-4}\text{ m}^2\]<br/>Calculate the magnetic moment \(M\):<br/>\[M = 250 \times (85 \times 10^{-6}\text{ A}) \times (2.625 \times 10^{-4}\text{ m}^2) = 5.578125 \times 10^{-6}\text{ A}\cdot\text{m}^2\]<br/>Calculate the work done \(W\):<br/>\[W = 2 \times (5.578125 \times 10^{-6}) \times 0.85 = 9.48 \times 10^{-6}\text{ J} \approx 9.1\,\mu\text{J}\]</p><p><strong>Step 4: Check and Final Answer</strong><br/>The calculated work done against the torque is approximately \(9.1\,\mu\text{J}\).</p><hr/><p><strong>चरण 1: दिया गया डेटा एवं स्थितियाँ</strong><br/>फेरों की संख्या: \(N = 250\)।<br/>कुंडली की लंबाई: \(l = 2.1 \times 10^{-2}\text{ m}\)।<br/>कुंडली की चौड़ाई: \(b = 1.25 \times 10^{-2}\text{ m}\)।<br/>धारा: \(I = 85 \times 10^{-6}\text{ A}\)।<br/>चुंबकीय क्षेत्र: \(B = 0.85\text{ T}\)।<br/>प्रारंभिक कोण: \(\theta_1 = 0^{\circ}\)।<br/>अंतिम कोण: \(\theta_2 = 180^{\circ}\)।</p><p><strong>चरण 2: संबंधित सूत्र</strong><br/>कुंडली का क्षेत्रफल: \(A = l \times b\)<br/>चुंबकीय आघूर्ण: \(M = N I A\)<br/>बलाघूर्ण के विरुद्ध किया गया कार्य:<br/>\[W = M B (\cos\theta_1 - \cos\theta_2) = 2 M B\]</p><p><strong>चरण 3: गणना</strong><br/>क्षेत्रफल \(A = 2.625 \times 10^{-4}\text{ m}^2\)<br/>चुंबकीय आघूर्ण \(M = 250 \times 85 \times 10^{-6} \times 2.625 \times 10^{-4} \approx 5.58 \times 10^{-6}\text{ A m}^2\)<br/>कार्य:<br/>\[W = 2 \times 5.58 \times 10^{-6} \times 0.85 \approx 9.1\,\mu\text{J}\]</p><p><strong>चरण 4: अंतिम निष्कर्ष</strong><br/>अतः कुंडली को \(180^{\circ}\) घुमाने में किया गया कार्य \(9.1\,\mu\text{J}\) है।</p>]]></text>
+  </generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(1.15\,\mu\text{J}\)</p>]]></text>
+  </answer>
+  <answer fraction="100" format="html">
+    <text><![CDATA[<p>\(9.1\,\mu\text{J}\)</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(4.55\,\mu\text{J}\)</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(2.3\,\mu\text{J}\)</p>]]></text>
+  </answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>year:2017</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:hi</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>class:class_12</text></tag>
+    <tag><text>topic:magnetic_dipole_moment</text></tag>
+    <tag><text>chapter:moving_charges_and_magnetism</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:medium</text></tag>
+    <tag><text>blooms:apply</text></tag>
+    <tag><text>calculation:moderate</text></tag>
+    <tag><text>media:text</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+
+<question type="multichoice">
+  <name>
+    <text>NEET_UG_PHYSICS_2017_MCQ_Q13 - Identification of forward biased diode circuit</text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>Which one of the following represents forward bias diode?</p><p><img src="@@PLUGINFILE@@/img-3.jpeg" alt="Diode circuits with potential values" /></p><hr/><p>निम्नलिखित में से कौन-सा अग्र अभिनत डायोड को दर्शाता है?</p><p><img src="@@PLUGINFILE@@/img-3.jpeg" alt="विभव मानों के साथ डायोड परिपथ" /></p>]]></text>
+  </questiontext>
+  <generalfeedback format="html">
+    <text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>A p-n junction diode is forward biased if the electric potential applied to the p-side (anode, represented by the triangle) is at a higher potential than the electric potential applied to the n-side (cathode, represented by the vertical line):<br/>\[V_p > V_n\]<br/>If \(V_p < V_n\), the diode is reverse biased.</p><p><strong>Step 2: Evaluation of Each Circuit</strong><br/>- In the first circuit: \(V_p = 3\text{ V}\) and \(V_n = 5\text{ V}\). Since \(3\text{ V} < 5\text{ V}\), the diode is reverse biased.<br/>- In the second circuit: \(V_p = 0\text{ V}\) and \(V_n = -2\text{ V}\). Since \(0\text{ V} > -2\text{ V}\), the p-side is at a higher potential than the n-side, so the diode is <strong>forward biased</strong>.<br/>- In the third circuit: \(V_p = -4\text{ V}\) and \(V_n = -3\text{ V}\). Since \(-4\text{ V} < -3\text{ V}\), the diode is reverse biased.<br/>- In the fourth circuit: \(V_p = -2\text{ V}\) and \(V_n = +2\text{ V}\). Since \(-2\text{ V} < +2\text{ V}\), the diode is reverse biased.</p><p><strong>Step 3: Final Conclusion</strong><br/>The forward biased condition is satisfied when the p-side is at \(0\text{ V}\) and the n-side is connected to \(-2\text{ V}\).</p><hr/><p><strong>चरण 1: सिद्धांत एवं नियम</strong><br/>एक p-n संधि डायोड अग्र अभिनत (forward biased) तब होता है जब p-सिरा (एनोड) n-सिरे (कैथोड) की तुलना में उच्च विभव पर हो:<br/>\[V_p > V_n\]<br/>यदि \(V_p < V_n\) हो, तो डायोड पश्च अभिनत (reverse biased) होता है।</p><p><strong>चरण 2: परिपथों का विश्लेषण</strong><br/>- प्रथम परिपथ: \(V_p = 3\text{ V}\), \(V_n = 5\text{ V}\) (\(3\text{ V} < 5\text{ V}\)), अतः यह पश्च अभिनत है।<br/>- द्वितीय परिपथ: \(V_p = 0\text{ V}\), \(V_n = -2\text{ V}\)। चूँकि \(0\text{ V} > -2\text{ V}\), p-सिरा n-सिरे से उच्च विभव पर है, अतः यह <strong>अग्र अभिनत</strong> है।<br/>- तृतीय परिपथ: \(V_p = -4\text{ V}\), \(V_n = -3\text{ V}\) (\(-4\text{ V} < -3\text{ V}\)), अतः यह पश्च अभिनत है।<br/>- चतुर्थ परिपथ: \(V_p = -2\text{ V}\), \(V_n = +2\text{ V}\) (\(-2\text{ V} < +2\text{ V}\)), अतः यह पश्च अभिनत है।</p><p><strong>चरण 3: अंतिम निष्कर्ष</strong><br/>अग्र अभिनत डायोड वह है जिसमें p-सिरे पर \(0\text{ V}\) और n-सिरे पर \(-2\text{ V}\) विभव उपस्थित है।</p>]]></text>
+  </generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>false</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>Circuit (a): \(3\text{ V}\) at p-side and \(5\text{ V}\) at n-side</p>]]></text>
+  </answer>
+  <answer fraction="100" format="html">
+    <text><![CDATA[<p>Circuit (b): \(0\text{ V}\) at p-side and \(-2\text{ V}\) at n-side</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>Circuit (c): \(-4\text{ V}\) at p-side and \(-3\text{ V}\) at n-side</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>Circuit (d): \(-2\text{ V}\) at p-side and \(+2\text{ V}\) at n-side</p>]]></text>
+  </answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>year:2017</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:hi</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>class:class_12</text></tag>
+    <tag><text>topic:pn_junction_diode</text></tag>
+    <tag><text>chapter:semiconductor_electronics</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:easy</text></tag>
+    <tag><text>blooms:understand</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:diagram</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+
+<question type="multichoice">
+  <name>
+    <text>NEET_UG_PHYSICS_2017_MCQ_Q14 - Ratio of series limit wavelengths of Balmer and Lyman series</text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>The ratio of wavelengths of the last line of Balmer series and the last line of Lyman series is</p><hr/><p>बामर श्रेणी की अंतिम रेखा तथा लाइमन श्रेणी की अंतिम रेखा की तरंगदैर्ध्यों का अनुपात है:</p>]]></text>
+  </questiontext>
+  <generalfeedback format="html">
+    <text><![CDATA[<p><strong>Step 1: Relevant Principles and Formulae</strong><br/>The wavelength \(\lambda\) for hydrogen spectral series is given by the Rydberg formula:<br/>\[\frac{1}{\lambda} = R \left(\frac{1}{n_1^2} - \frac{1}{n_2^2}\right)\]<br/>where \(R\) is the Rydberg constant.<br/>The "last line" of any spectral series corresponds to the series limit where the electron transitions from \(n_2 = \infty\):<br/>\[\frac{1}{\lambda_{\text{limit}}} = R \left(\frac{1}{n_1^2} - \frac{1}{\infty^2}\right) = \frac{R}{n_1^2} \implies \lambda_{\text{limit}} = \frac{n_1^2}{R}\]</p><p><strong>Step 2: Step-by-Step Calculation</strong><br/>For the Balmer series: \(n_1 = 2\). The wavelength of the last line is:<br/>\[\lambda_B = \frac{2^2}{R} = \frac{4}{R}\]<br/>For the Lyman series: \(n_1 = 1\). The wavelength of the last line is:<br/>\[\lambda_L = \frac{1^2}{R} = \frac{1}{R}\]</p><p><strong>Step 3: Ratio and Final Answer</strong><br/>The ratio of the wavelengths is:<br/>\[\frac{\lambda_B}{\lambda_L} = \frac{\frac{4}{R}}{\frac{1}{R}} = 4\]<br/>Hence, the ratio of the wavelengths is \(4\).</p><hr/><p><strong>चरण 1: संबंधित सिद्धांत एवं सूत्र</strong><br/>हाइड्रोजन स्पेक्ट्रमी रेखाओं के लिए रिडबर्ग सूत्र:<br/>\[\frac{1}{\lambda} = R \left(\frac{1}{n_1^2} - \frac{1}{n_2^2}\right)\]<br/>किसी भी स्पेक्ट्रमी श्रेणी की "अंतिम रेखा" (श्रेणी सीमा) \(n_2 = \infty\) से संक्रमण के संगत होती है:<br/>\[\lambda_{\text{limit}} = \frac{n_1^2}{R}\]</p><p><strong>चरण 2: गणना</strong><br/>बामर श्रेणी के लिए: \(n_1 = 2\)<br/>\[\lambda_B = \frac{2^2}{R} = \frac{4}{R}\]<br/>लाइमन श्रेणी के लिए: \(n_1 = 1\)<br/>\[\lambda_L = \frac{1^2}{R} = \frac{1}{R}\]</p><p><strong>चरण 3: अंतिम निष्कर्ष</strong><br/>वांछित अनुपात:<br/>\[\frac{\lambda_B}{\lambda_L} = \frac{4/R}{1/R} = 4\]<br/>अतः तरंगदैर्ध्यों का अनुपात \(4\) है।</p>]]></text>
+  </generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>0.5</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>2</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>1</p>]]></text>
+  </answer>
+  <answer fraction="100" format="html">
+    <text><![CDATA[<p>4</p>]]></text>
+  </answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>year:2017</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:hi</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>class:class_12</text></tag>
+    <tag><text>topic:hydrogen_spectrum</text></tag>
+    <tag><text>chapter:atoms</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:easy</text></tag>
+    <tag><text>blooms:apply</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:text</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+
+<question type="multichoice">
+  <name>
+    <text>NEET_UG_PHYSICS_2017_MCQ_Q15 - Initial current in LR circuit immediately after closing switch</text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>Figure shows a circuit contains three identical resistors with resistance \(R = 9.0\,\Omega\) each, two identical inductors with inductance \(L = 2.0\text{ mH}\) each, and an ideal battery with emf \(E = 18\text{ V}\). The current \(i\) through the battery just after the switch closed is</p><p><img src="@@PLUGINFILE@@/img-4.jpeg" alt="Circuit with battery, switch, inductors, and resistors" /></p><hr/><p>चित्र में एक परिपथ दर्शाया गया है जिसमें तीन समरूप प्रतिरोधक जिनमें प्रत्येक का प्रतिरोध \(R = 9.0\,\Omega\) है, दो समरूप प्रेरकत्व जिनमें प्रत्येक का प्रेरकत्व \(L = 2.0\text{ mH}\) है, तथा एक आदर्श बैटरी जिसका विद्युत वाहक बल \(E = 18\text{ V}\) है, उपस्थित हैं। कुंजी बंद करने के तुरंत बाद बैटरी से प्रवाहित होने वाली धारा \(i\) है:</p><p><img src="@@PLUGINFILE@@/img-4.jpeg" alt="बैटरी, कुंजी, प्रेरकत्व और प्रतिरोधकों का परिपथ" /></p>]]></text>
+  </questiontext>
+  <generalfeedback format="html">
+    <text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>Resistances: \(R = 9.0\,\Omega\) each.<br/>Inductances: \(L = 2.0\text{ mH}\) each.<br/>Battery emf: \(E = 18\text{ V}\).<br/>Condition: Immediately after the switch is closed at time \(t = 0^+\).</p><p><strong>Step 2: Physical Principle</strong><br/>An inductor opposes any instantaneous change in current through it due to self-induced back emf (\(\mathcal{E}_L = -L \frac{di}{dt}\)). Since current was zero before closing the switch, the current through an unenergized inductor must remain zero immediately after closing the switch (\(i_L(0^+) = 0\)).<br/>Thus, at \(t = 0^+\), every inductor acts as an <strong>open circuit</strong>.</p><p><strong>Step 3: Circuit Analysis at \(t = 0^+\)</strong><br/>- Any branch containing an inductor in series conducts zero current because the inductor behaves as a break in that branch.<br/>- The purely resistive middle branch containing resistor \(R\) conducts current immediately because it contains no inductor.<br/>- The current flowing through this purely resistive branch connected directly across the battery is:<br/>\[i = \frac{E}{R} = \frac{18\text{ V}}{9.0\,\Omega} = 2\text{ A}\]</p><p><strong>Step 4: Check and Final Answer</strong><br/>The current delivered by the battery just after the switch is closed is \(2\text{ A}\).</p><hr/><p><strong>चरण 1: दिया गया डेटा एवं स्थितियाँ</strong><br/>प्रत्येक प्रतिरोध: \(R = 9.0\,\Omega\)।<br/>प्रत्येक प्रेरकत्व: \(L = 2.0\text{ mH}\)।<br/>बैटरी का विद्युत वाहक बल: \(E = 18\text{ V}\)।<br/>स्थिति: कुंजी बंद करने के ठीक बाद (\(t = 0^+\))।</p><p><strong>चरण 2: भौतिक सिद्धांत</strong><br/>प्रेरकत्व अपने से प्रवाहित धारा में अचानक परिवर्तन का विरोध करता है। प्रारंभ में धारा शून्य होने के कारण, कुंजी बंद करने के ठीक बाद प्रेरकत्व से प्रवाहित धारा शून्य ही रहती है (\(i_L(0^+) = 0\))।<br/>अतः \(t = 0^+\) पर प्रेरकत्व एक <strong>खुले परिपथ (open circuit)</strong> की तरह व्यवहार करता है।</p><p><strong>चरण 3: परिपथ का विश्लेषण</strong><br/>- प्रेरकत्व वाली शाखाओं में धारा प्रवाहित नहीं हो सकती।<br/>- केवल मध्य वाली शाखा जिसमें केवल प्रतिरोधक \(R\) उपस्थित है, धारा प्रवाहित करने के लिए उपलब्ध रहती है।<br/>- अतः बैटरी से प्रवाहित होने वाली कुल धारा:<br/>\[i = \frac{E}{R} = \frac{18\text{ V}}{9.0\,\Omega} = 2\text{ A}\]</p><p><strong>चरण 4: अंतिम निष्कर्ष</strong><br/>कुंजी बंद करने के तुरंत बाद बैटरी से प्रवाहित धारा \(2\text{ A}\) है।</p>]]></text>
+  </generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>0 A</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(2\text{ mA}\)</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(0.2\text{ A}\)</p>]]></text>
+  </answer>
+  <answer fraction="100" format="html">
+    <text><![CDATA[<p>2 A</p>]]></text>
+  </answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>year:2017</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:hi</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>class:class_12</text></tag>
+    <tag><text>topic:growth_of_current_in_lr_circuit</text></tag>
+    <tag><text>chapter:electromagnetic_induction</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:medium</text></tag>
+    <tag><text>blooms:apply</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:diagram</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+
+<question type="multichoice">
+  <name>
+    <text>NEET_UG_PHYSICS_2017_MCQ_Q16 - Accelerations of connected blocks immediately after cutting string</text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>Two blocks A and B of masses \(3m\) and \(m\) respectively are connected by a massless and inextensible string. The whole system is suspended by a massless spring as shown in figure. The magnitudes of acceleration of A and B immediately after the string is cut, are respectively</p><p><img src="@@PLUGINFILE@@/img-5.jpeg" alt="Spring block system suspended vertically" /></p><hr/><p>द्रव्यमान \(3m\) तथा \(m\) के दो गुटके A तथा B क्रमशः एक द्रव्यमानहीन तथा अवितान्य डोरी से जुड़े हैं। संपूर्ण निकाय एक द्रव्यमानहीन स्प्रिंग द्वारा लटकाया गया है जैसा कि चित्र में दर्शाया गया है। डोरी को काटने के तुरंत बाद A तथा B के त्वरण का परिमाण क्रमशः होगा:</p><p><img src="@@PLUGINFILE@@/img-5.jpeg" alt="ऊर्ध्वाधर रूप से लटका हुआ स्प्रिंग-गुटका निकाय" /></p>]]></text>
+  </questiontext>
+  <generalfeedback format="html">
+    <text><![CDATA[<p><strong>Step 1: Given Data and Initial Equilibrium</strong><br/>Mass of block A: \(m_A = 3m\).<br/>Mass of block B: \(m_B = m\).<br/>Before the string is cut, the system is in static equilibrium.<br/>- For block B: The downward gravitational force is \(m g\), balanced by the upward tension \(T\) in the string:<br/>\[T = m g\]<br/>- For block A: Downward forces are its weight \(3m g\) and tension \(T = m g\). The upward restoring force of the spring \(F_s\) balances both:<br/>\[F_s = 3m g + T = 3m g + m g = 4m g\]</p><p><strong>Step 2: Immediate Conditions Upon Cutting the String</strong><br/>Immediately after the string connecting A and B is cut:<br/>- The tension in the string drops instantaneously to zero: \(T = 0\).<br/>- The elongation of the spring cannot change instantaneously, so the upward spring force acting on block A remains unchanged: \(F_s = 4m g\).</p><p><strong>Step 3: Calculating Accelerations</strong><br/>- <strong>For block A:</strong><br/>The net upward force on A is:<br/>\[F_{\text{net}, A} = F_s - 3m g = 4m g - 3m g = m g \quad (\text{upward})\]<br/>The magnitude of acceleration of block A is:<br/>\[a_A = \frac{F_{\text{net}, A}}{m_A} = \frac{m g}{3m} = \frac{g}{3}\]<br/>- <strong>For block B:</strong><br/>With \(T = 0\), the only force acting on B is its own weight \(m g\) downwards (free fall):<br/>\[F_{\text{net}, B} = m g \quad (\text{downward})\]<br/>The magnitude of acceleration of block B is:<br/>\[a_B = \frac{m g}{m} = g\]</p><p><strong>Step 4: Check and Final Answer</strong><br/>The magnitudes of acceleration of blocks A and B immediately after the string is cut are \(\frac{g}{3}\) and \(g\) respectively.</p><hr/><p><strong>चरण 1: प्रारंभिक साम्यावस्था</strong><br/>गुटका A का द्रव्यमान: \(3m\)।<br/>गुटका B का द्रव्यमान: \(m\)।<br/>डोरी काटने से पूर्व निकाय साम्यावस्था में है:<br/>गुटके B के लिए डोरी में तनाव: \(T = m g\)।<br/>गुटके A के लिए स्प्रिंग बल: \(F_s = 3m g + T = 3m g + m g = 4m g\) (ऊपर की ओर)।</p><p><strong>चरण 2: डोरी काटने के तुरंत बाद की स्थितियाँ</strong><br/>डोरी कटते ही डोरी का तनाव तुरंत शून्य हो जाता है (\(T = 0\))।<br/>स्प्रिंग का खिंचाव तुरंत परिवर्तित नहीं हो सकता, अतः स्प्रिंग बल \(F_s = 4m g\) ही रहता है।</p><p><strong>चरण 3: त्वरण की गणना</strong><br/>- <strong>गुटका A के लिए:</strong><br/>परिणामी ऊर्ध्वाधर बल:<br/>\[F_{\text{net}, A} = 4m g - 3m g = m g \quad (\text{ऊपर की ओर})\]<br/>त्वरण का परिमाण:<br/>\[a_A = \frac{m g}{3m} = \frac{g}{3}\]<br/>- <strong>गुटका B के लिए:</strong><br/>गुटके B पर केवल गुरुत्व बल कार्य करता है, अतः यह स्वतंत्र रूप से गिरता है:<br/>\[a_B = \frac{m g}{m} = g\]</p><p><strong>चरण 4: अंतिम निष्कर्ष</strong><br/>डोरी काटने के तुरंत बाद A तथा B के त्वरण के परिमाण क्रमशः \(\frac{g}{3}\) तथा \(g\) हैं।</p>]]></text>
+  </generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(\frac{g}{3}, \frac{g}{3}\)</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(g, \frac{g}{3}\)</p>]]></text>
+  </answer>
+  <answer fraction="100" format="html">
+    <text><![CDATA[<p>\(\frac{g}{3}, g\)</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(g, g\)</p>]]></text>
+  </answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>year:2017</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:hi</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>class:class_11</text></tag>
+    <tag><text>topic:newtons_laws_of_motion</text></tag>
+    <tag><text>chapter:laws_of_motion</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:medium</text></tag>
+    <tag><text>blooms:apply</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:diagram</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+
+<question type="multichoice">
+  <name>
+    <text>NEET_UG_PHYSICS_2017_MCQ_Q17 - Induced charge through coil inside long solenoid</text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>A long solenoid of diameter \(0.1\text{ m}\) has \(2\times 10^{4}\) turns per metre. At the centre of the solenoid, a coil of \(100\) turns and radius \(0.01\text{ m}\) is placed with its axis coinciding with the solenoid axis. The current in the solenoid reduces at a constant rate to \(0\text{ A}\) from \(4\text{ A}\) in \(0.05\text{ s}\). If the resistance of the coil is \(10\pi^2\,\Omega\), the total charge flowing through the coil during this time is</p><hr/><p>व्यास \(0.1\text{ m}\) की एक लंबी परिनालिका में प्रति मीटर \(2\times 10^{4}\) फेरे हैं। परिनालिका के केंद्र पर \(100\) फेरों तथा त्रिज्या \(0.01\text{ m}\) की एक कुंडली इस प्रकार रखी गई है कि इसकी अक्ष परिनालिका की अक्ष के संपाती है। परिनालिका में धारा एकसमान दर से \(0.05\text{ s}\) में \(4\text{ A}\) से घटकर \(0\text{ A}\) हो जाती है। यदि कुंडली का प्रतिरोध \(10\pi^2\,\Omega\) है, तो इस समय के दौरान कुंडली से प्रवाहित होने वाला कुल आवेश है:</p>]]></text>
+  </questiontext>
+  <generalfeedback format="html">
+    <text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>Turns per unit length of solenoid: \(n = 2 \times 10^4\text{ m}^{-1}\).<br/>Radius of the inner coil: \(r = 0.01\text{ m}\).<br/>Number of turns of the inner coil: \(N = 100\).<br/>Initial current in solenoid: \(I_i = 4\text{ A}\).<br/>Final current in solenoid: \(I_f = 0\text{ A}\).<br/>Resistance of the coil: \(R = 10\pi^2\,\Omega\).</p><p><strong>Step 2: Relevant Formulae</strong><br/>The magnetic field inside an ideal long solenoid carrying current \(I\) is uniform:<br/>\[B = \mu_0 n I\]<br/>Since the radius of the coil (\(0.01\text{ m}\)) is smaller than the radius of the solenoid (\(0.05\text{ m}\)), the magnetic field is entirely enclosed within the coil's area.<br/>The cross-sectional area of the coil is \(A = \pi r^2\).<br/>The total magnetic flux linked with the \(N\)-turn coil is:<br/>\[\Phi = N B A = N (\mu_0 n I) (\pi r^2)\]<br/>By Faraday's law of induction, the total charge \(\Delta q\) passing through a circuit of resistance \(R\) is independent of time and depends only on the change in flux:<br/>\[\Delta q = \frac{|\Delta \Phi|}{R} = \frac{N \Delta B A}{R} = \frac{N \mu_0 n \Delta I (\pi r^2)}{R}\]</p><p><strong>Step 3: Step-by-Step Calculation</strong><br/>Change in current: \(\Delta I = 4\text{ A} - 0\text{ A} = 4\text{ A}\).<br/>Substitute the values with \(\mu_0 = 4\pi \times 10^{-7}\text{ T}\cdot\text{m/A}\):<br/>\[\Delta \Phi = 100 \times (4\pi \times 10^{-7}) \times (2 \times 10^4) \times 4 \times \pi (0.01)^2\]<br/>\[\Delta \Phi = 100 \times 4\pi \times 10^{-7} \times 2 \times 10^4 \times 4 \times \pi \times 10^{-4}\]<br/>\[\Delta \Phi = (100 \times 10^{-7} \times 2 \times 10^4 \times 4 \times 10^{-4}) \times 4\pi^2 = 32\pi^2 \times 10^{-5}\text{ Wb}\]<br/>Total charge:<br/>\[\Delta q = \frac{32\pi^2 \times 10^{-5}\text{ Wb}}{10\pi^2\,\Omega} = 3.2 \times 10^{-5}\text{ C} = 32\,\mu\text{C}\]</p><p><strong>Step 4: Check and Final Answer</strong><br/>The total charge flowing through the coil is \(32\,\mu\text{C}\).</p><hr/><p><strong>चरण 1: दिया गया डेटा एवं स्थितियाँ</strong><br/>परिनालिका में प्रति इकाई लंबाई फेरे: \(n = 2 \times 10^4\text{ m}^{-1}\)।<br/>कुंडली की त्रिज्या: \(r = 0.01\text{ m}\)।<br/>कुंडली में फेरों की संख्या: \(N = 100\)।<br/>धारा में परिवर्तन: \(\Delta I = 4\text{ A} - 0\text{ A} = 4\text{ A}\)।<br/>कुंडली का प्रतिरोध: \(R = 10\pi^2\,\Omega\)।</p><p><strong>चरण 2: संबंधित सूत्र</strong><br/>परिनालिका के अंदर चुंबकीय क्षेत्र: \(B = \mu_0 n I\)।<br/>कुंडली से बद्ध फ्लक्स: \(\Phi = N B A = N \mu_0 n I (\pi r^2)\)।<br/>प्रेरित कुल आवेश केवल फ्लक्स परिवर्तन और प्रतिरोध पर निर्भर करता है:<br/>\[\Delta q = \frac{\Delta \Phi}{R}\]</p><p><strong>चरण 3: गणना</strong><br/>फ्लक्स में कुल परिवर्तन:<br/>\[\Delta \Phi = 100 \times (4\pi \times 10^{-7}) \times (2 \times 10^4) \times 4 \times \pi (0.01)^2 = 32\pi^2 \times 10^{-5}\text{ Wb}\]<br/>प्रवाहित कुल आवेश:<br/>\[\Delta q = \frac{32\pi^2 \times 10^{-5}}{10\pi^2} = 3.2 \times 10^{-5}\text{ C} = 32\,\mu\text{C}\]</p><p><strong>चरण 4: अंतिम निष्कर्ष</strong><br/>अतः कुंडली से प्रवाहित होने वाला कुल आवेश \(32\,\mu\text{C}\) है।</p>]]></text>
+  </generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(16\pi\,\mu\text{C}\)</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(32\pi\,\mu\text{C}\)</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(16\,\mu\text{C}\)</p>]]></text>
+  </answer>
+  <answer fraction="100" format="html">
+    <text><![CDATA[<p>\(32\,\mu\text{C}\)</p>]]></text>
+  </answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>year:2017</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:hi</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>class:class_12</text></tag>
+    <tag><text>topic:induced_charge</text></tag>
+    <tag><text>chapter:electromagnetic_induction</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:medium</text></tag>
+    <tag><text>blooms:apply</text></tag>
+    <tag><text>calculation:moderate</text></tag>
+    <tag><text>media:text</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+
+<question type="multichoice">
+  <name>
+    <text>NEET_UG_PHYSICS_2017_MCQ_Q18 - Dimensional analysis for quantity of length</text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>A physical quantity of the dimensions of length that can be formed out of \(c\), \(G\) and \(\frac{e^2}{4\pi\varepsilon_0}\) is: [\(c\) is velocity of light, \(G\) is universal constant of gravitation and \(e\) is charge]</p><hr/><p>\(c\), \(G\) तथा \(\frac{e^2}{4\pi\varepsilon_0}\) से बनने वाली लंबाई की विमा वाली एक भौतिक राशि है: [\(c\) प्रकाश का वेग, \(G\) सार्वत्रिक गुरुत्वाकर्षण नियतांक तथा \(e\) आवेश है]</p>]]></text>
+  </questiontext>
+  <generalfeedback format="html">
+    <text><![CDATA[<p><strong>Step 1: Dimensional Formulae of the Quantities</strong><br/>1. Velocity of light, \(c\):<br/>\[[c] = [\text{L}\text{T}^{-1}]\]<br/>2. Universal constant of gravitation, \(G\):<br/>From \(F = \frac{G m^2}{r^2}\):<br/>\[[G] = \frac{[F][r^2]}{[m^2]} = \frac{[\text{M}\text{L}\text{T}^{-2}][\text{L}^2]}{[\text{M}^2]} = [\text{M}^{-1}\text{L}^3\text{T}^{-2}]\]<br/>3. Electrostatic quantity, \(\frac{e^2}{4\pi\varepsilon_0}\):<br/>From Coulomb's law \(F = \frac{1}{4\pi\varepsilon_0}\frac{e^2}{r^2}\):<br/>\[\left[\frac{e^2}{4\pi\varepsilon_0}\right] = [F][r^2] = [\text{M}\text{L}\text{T}^{-2}][\text{L}^2] = [\text{M}\text{L}^3\text{T}^{-2}]\]</p><p><strong>Step 2: Combining the Quantities</strong><br/>Consider the product of \(G\) and \(\frac{e^2}{4\pi\varepsilon_0}\):<br/>\[\left[G \frac{e^2}{4\pi\varepsilon_0}\right] = [\text{M}^{-1}\text{L}^3\text{T}^{-2}] \times [\text{M}\text{L}^3\text{T}^{-2}] = [\text{L}^6\text{T}^{-4}]\]<br/>Taking the square root:<br/>\[\left[G \frac{e^2}{4\pi\varepsilon_0}\right]^{\frac{1}{2}} = \left([\text{L}^6\text{T}^{-4}]\right)^{\frac{1}{2}} = [\text{L}^3\text{T}^{-2}]\]<br/>Now divide by \(c^2\), where \([c^2] = [\text{L}^2\text{T}^{-2}]\):<br/>\[\left[\frac{1}{c^2}\left(G \frac{e^2}{4\pi\varepsilon_0}\right)^{\frac{1}{2}}\right] = \frac{[\text{L}^3\text{T}^{-2}]}{[\text{L}^2\text{T}^{-2}]} = [\text{L}]\]</p><p><strong>Step 3: Check and Final Answer</strong><br/>The expression has the dimensions of length: \(\frac{1}{c^2}\left[G\frac{e^2}{4\pi\varepsilon_0}\right]^{\frac{1}{2}}\).</p><hr/><p><strong>चरण 1: दी गई राशियों के विमीय सूत्र</strong><br/>1. प्रकाश का वेग \(c\): \([c] = [\text{L}\text{T}^{-1}]\)<br/>2. सार्वत्रिक गुरुत्वाकर्षण नियतांक \(G\): \([G] = [\text{M}^{-1}\text{L}^3\text{T}^{-2}]\)<br/>3. कूलॉम बल से: \(\left[\frac{e^2}{4\pi\varepsilon_0}\right] = [F r^2] = [\text{M}\text{L}^3\text{T}^{-2}]\)</p><p><strong>चरण 2: संयोजन एवं विमा विश्लेषण</strong><br/>\(G\) तथा \(\frac{e^2}{4\pi\varepsilon_0}\) का गुणनफल:<br/>\[\left[G \frac{e^2}{4\pi\varepsilon_0}\right] = [\text{M}^{-1}\text{L}^3\text{T}^{-2}][\text{M}\text{L}^3\text{T}^{-2}] = [\text{L}^6\text{T}^{-4}]\]<br/>वर्गमूल लेने पर:<br/>\[\left[G \frac{e^2}{4\pi\varepsilon_0}\right]^{\frac{1}{2}} = [\text{L}^3\text{T}^{-2}]\]<br/>\(c^2\) (\([c^2] = [\text{L}^2\text{T}^{-2}]\)) से भाग देने पर:<br/>\[\left[\frac{1}{c^2}\left(G \frac{e^2}{4\pi\varepsilon_0}\right)^{\frac{1}{2}}\right] = \frac{[\text{L}^3\text{T}^{-2}]}{[\text{L}^2\text{T}^{-2}]} = [\text{L}]\]</p><p><strong>चरण 3: अंतिम निष्कर्ष</strong><br/>अतः लंबाई की विमा वाली राशि \(\frac{1}{c^2}\left[G\frac{e^2}{4\pi\varepsilon_0}\right]^{\frac{1}{2}}\) है।</p>]]></text>
+  </generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(\frac{1}{c} G \frac{e^2}{4\pi\varepsilon_0}\)</p>]]></text>
+  </answer>
+  <answer fraction="100" format="html">
+    <text><![CDATA[<p>\(\frac{1}{c^2}\left[G\frac{e^2}{4\pi\varepsilon_0}\right]^{\frac{1}{2}}\)</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(c^2\left[G\frac{e^2}{4\pi\varepsilon_0}\right]^{\frac{1}{2}}\)</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(\frac{1}{c^2}\left[\frac{e^2}{G4\pi\varepsilon_0}\right]^{\frac{1}{2}}\)</p>]]></text>
+  </answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>year:2017</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:hi</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>class:class_11</text></tag>
+    <tag><text>topic:dimensional_analysis</text></tag>
+    <tag><text>chapter:units_and_measurements</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:medium</text></tag>
+    <tag><text>blooms:analyze</text></tag>
+    <tag><text>calculation:moderate</text></tag>
+    <tag><text>media:equation</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+
+<question type="multichoice">
+  <name>
+    <text>NEET_UG_PHYSICS_2017_MCQ_Q19 - Peak value of magnetic field in electromagnetic wave</text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>In an electromagnetic wave in free space the root mean square value of the electric field is \(E_{\text{rms}} = 6\,\text{V/m}\). The peak value of the magnetic field is</p><hr/><p>मुक्त आकाश में एक विद्युतचुंबकीय तरंग में विद्युत क्षेत्र का वर्ग-माध्य-मूल मान \(E_{\text{rms}} = 6\,\text{V/m}\) है। चुंबकीय क्षेत्र का शिखर मान है:</p>]]></text>
+  </questiontext>
+  <generalfeedback format="html">
+    <text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>Root-mean-square value of electric field: \(E_{\text{rms}} = 6\,\text{V/m}\).<br/>Speed of light in vacuum: \(c = 3 \times 10^8\text{ m/s}\).</p><p><strong>Step 2: Relevant Formulae</strong><br/>The relationship between peak value \(E_0\) and rms value \(E_{\text{rms}}\) of a sinusoidal field is:<br/>\[E_0 = \sqrt{2} E_{\text{rms}}\]<br/>The relationship between the amplitudes of the electric and magnetic fields in an electromagnetic wave in vacuum is:<br/>\[c = \frac{E_0}{B_0} \implies B_0 = \frac{E_0}{c} = \frac{\sqrt{2} E_{\text{rms}}}{c}\]</p><p><strong>Step 3: Step-by-Step Calculation</strong><br/>Substitute the given values:<br/>\[B_0 = \frac{\sqrt{2} \times 6\,\text{V/m}}{3 \times 10^8\text{ m/s}} = 2\sqrt{2} \times 10^{-8}\text{ T}\]<br/>Using \(\sqrt{2} \approx 1.414\):<br/>\[B_0 = 2 \times 1.414 \times 10^{-8}\text{ T} = 2.828 \times 10^{-8}\text{ T} \approx 2.83 \times 10^{-8}\text{ T}\]</p><p><strong>Step 4: Check and Final Answer</strong><br/>The peak value of the magnetic field is \(2.83 \times 10^{-8}\text{ T}\).</p><hr/><p><strong>चरण 1: दिया गया डेटा एवं स्थितियाँ</strong><br/>विद्युत क्षेत्र का rms मान: \(E_{\text{rms}} = 6\,\text{V/m}\)।<br/>प्रकाश का वेग: \(c = 3 \times 10^8\text{ m/s}\)।</p><p><strong>चरण 2: संबंधित सूत्र</strong><br/>विद्युत क्षेत्र का शिखर मान: \(E_0 = \sqrt{2} E_{\text{rms}}\)<br/>विद्युत और चुंबकीय क्षेत्र के आयामों में संबंध:<br/>\[B_0 = \frac{E_0}{c} = \frac{\sqrt{2} E_{\text{rms}}}{c}\]</p><p><strong>चरण 3: गणना</strong><br/>\[B_0 = \frac{\sqrt{2} \times 6}{3 \times 10^8} = 2\sqrt{2} \times 10^{-8}\text{ T}\]<br/>\[B_0 \approx 2 \times 1.414 \times 10^{-8} \approx 2.83 \times 10^{-8}\text{ T}\]</p><p><strong>चरण 4: अंतिम निष्कर्ष</strong><br/>अतः चुंबकीय क्षेत्र का शिखर मान \(2.83 \times 10^{-8}\text{ T}\) है।</p>]]></text>
+  </generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(4.23 \times 10^{-8}\text{ T}\)</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(1.41 \times 10^{-8}\text{ T}\)</p>]]></text>
+  </answer>
+  <answer fraction="100" format="html">
+    <text><![CDATA[<p>\(2.83 \times 10^{-8}\text{ T}\)</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(0.70 \times 10^{-8}\text{ T}\)</p>]]></text>
+  </answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>year:2017</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:hi</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>class:class_12</text></tag>
+    <tag><text>topic:electromagnetic_wave_characteristics</text></tag>
+    <tag><text>chapter:electromagnetic_waves</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:easy</text></tag>
+    <tag><text>blooms:apply</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:text</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+
+<question type="multichoice">
+  <name>
+    <text>NEET_UG_PHYSICS_2017_MCQ_Q20 - Resistance of stretched wire</text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>The resistance of a wire is '\(R\)' ohm. If it is melted and stretched to '\(n\)' times its original length, its new resistance will be</p><hr/><p>एक तार का प्रतिरोध '\(R\)' ओम है। यदि इसे पिघलाकर इसकी मूल लंबाई का '\(n\)' गुना खींचा जाता है, तो इसका नया प्रतिरोध होगा:</p>]]></text>
+  </questiontext>
+  <generalfeedback format="html">
+    <text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>Initial resistance: \(R\).<br/>Initial length: \(L\).<br/>Initial cross-sectional area: \(A\).<br/>Final length after stretching: \(L' = n L\).</p><p><strong>Step 2: Conservation of Volume and Formulae</strong><br/>Since the wire is melted and restretched, the mass and density of the material remain constant, meaning its volume \(V\) is conserved:<br/>\[V = A L = A' L'\]<br/>Therefore, the new cross-sectional area \(A'\) is:<br/>\[A' = \frac{A L}{L'} = \frac{A L}{n L} = \frac{A}{n}\]<br/>The electrical resistance of a uniform wire of resistivity \(\rho\) is given by:<br/>\[R = \rho \frac{L}{A}\]</p><p><strong>Step 3: Step-by-Step Calculation</strong><br/>The new resistance \(R'\) is:<br/>\[R' = \rho \frac{L'}{A'} = \rho \frac{n L}{\frac{A}{n}} = n^2 \left(\rho \frac{L}{A}\right) = n^2 R\]</p><p><strong>Step 4: Check and Final Answer</strong><br/>Since stretching increases length by a factor of \(n\) and simultaneously reduces cross-sectional area by a factor of \(n\), the resistance increases by a factor of \(n^2\). The new resistance will be \(n^2 R\).</p><hr/><p><strong>चरण 1: दिया गया डेटा एवं स्थितियाँ</strong><br/>प्रारंभिक प्रतिरोध: \(R\)।<br/>प्रारंभिक लंबाई: \(L\)।<br/>प्रारंभिक अनुप्रस्थ काट क्षेत्रफल: \(A\)।<br/>खींचने के बाद नई लंबाई: \(L' = n L\)।</p><p><strong>चरण 2: आयतन संरक्षण एवं सूत्र</strong><br/>तार को पिघलाकर खींचे जाने पर उसका आयतन \(V\) संरक्षित रहता है:<br/>\[V = A L = A' L' \implies A' = \frac{A L}{n L} = \frac{A}{n}\]<br/>प्रतिरोध का सूत्र:<br/>\[R = \rho \frac{L}{A}\]</p><p><strong>चरण 3: गणना</strong><br/>नया प्रतिरोध:<br/>\[R' = \rho \frac{L'}{A'} = \rho \frac{n L}{A / n} = n^2 \left(\rho \frac{L}{A}\right) = n^2 R\]</p><p><strong>चरण 4: अंतिम निष्कर्ष</strong><br/>अतः तार का नया प्रतिरोध \(n^2 R\) होगा।</p>]]></text>
+  </generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(\frac{R}{n^2}\)</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(n R\)</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(\frac{R}{n}\)</p>]]></text>
+  </answer>
+  <answer fraction="100" format="html">
+    <text><![CDATA[<p>\(n^2 R\)</p>]]></text>
+  </answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>year:2017</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:hi</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>class:class_12</text></tag>
+    <tag><text>topic:resistivity_and_resistance</text></tag>
+    <tag><text>chapter:current_electricity</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:easy</text></tag>
+    <tag><text>blooms:apply</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:text</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>

@@ -1,0 +1,761 @@
+<question type="multichoice">
+  <name>
+    <text>NEET_UG_PHYSICS_2013_Q01 - Percentage error in calculated quantity P</text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[
+<p>In an experiment four quantities \(a, b, c\) and \(d\) are measured with percentage error \(1\%, 2\%, 3\%\) and \(4\%\) respectively. Quantity \(P\) is calculated as follows</p>
+<p>\[ P = \frac{a^3 b^2}{cd} \]</p>
+<p>Percentage error in \(P\) is</p>
+<hr/>
+<p>एक प्रयोग में चार राशियों \(a, b, c\) तथा \(d\) के मापन में प्रतिशत त्रुटियाँ क्रमशः \(1\%, 2\%, 3\%\) और \(4\%\) हैं। एक राशि \(P\) का मान निम्न प्रकार से परिकलित किया जाता है:</p>
+<p>\[ P = \frac{a^3 b^2}{cd} \]</p>
+<p>\(P\) के मापन में प्रतिशत त्रुटि है:</p>
+    ]]></text>
+  </questiontext>
+  <generalfeedback format="html">
+    <text><![CDATA[
+<p><strong>Step 1: Given Data and Conditions</strong><br/>
+The given percentage errors in the measured quantities are:<br/>
+Percentage error in \(a = \frac{\Delta a}{a} \times 100 = 1\%\)<br/>
+Percentage error in \(b = \frac{\Delta b}{b} \times 100 = 2\%\)<br/>
+Percentage error in \(c = \frac{\Delta c}{c} \times 100 = 3\%\)<br/>
+Percentage error in \(d = \frac{\Delta d}{d} \times 100 = 4\%\)<br/>
+The quantity \(P\) is defined by the relation:
+\[ P = \frac{a^3 b^2}{cd} \]</p>
+
+<p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>
+The percentage errors are small, so the maximum permissible fractional error can be determined using differential error analysis. In determining the maximum possible error, all individual fractional errors contribute additively regardless of whether the variables are in the numerator or denominator.</p>
+
+<p><strong>Step 3: Relevant Formulae and Principles</strong><br/>
+For a derived physical quantity expressed in the form \(P = \frac{a^x b^y}{c^z d^w}\), the maximum fractional error is given by:
+\[ \frac{\Delta P}{P} = x\left(\frac{\Delta a}{a}\right) + y\left(\frac{\Delta b}{b}\right) + z\left(\frac{\Delta c}{c}\right) + w\left(\frac{\Delta d}{d}\right) \]
+Multiplying throughout by \(100\) gives the maximum percentage error:
+\[ \frac{\Delta P}{P} \times 100 = x\left(\frac{\Delta a}{a} \times 100\right) + y\left(\frac{\Delta b}{b} \times 100\right) + z\left(\frac{\Delta c}{c} \times 100\right) + w\left(\frac{\Delta d}{d} \times 100\right) \]</p>
+
+<p><strong>Step 4: Step-by-Step Working</strong><br/>
+Here, the exponents are \(x = 3\), \(y = 2\), \(z = 1\), and \(w = 1\).<br/>
+Substitute the given percentage errors into the formula:
+\[ \frac{\Delta P}{P} \times 100 = 3(1\%) + 2(2\%) + 1(3\%) + 1(4\%) \]
+\[ \frac{\Delta P}{P} \times 100 = 3\% + 4\% + 3\% + 4\% = 14\% \]</p>
+
+<p><strong>Step 5: Check and Final Answer</strong><br/>
+Summing the individual contributions confirms:
+\(3\% + 4\% + 3\% + 4\% = 14\%\).<br/>
+The maximum percentage error in \(P\) is \(14\%\).</p>
+<hr/>
+<p><strong>चरण 1: दिए गए आँकड़े और स्थितियाँ (Given Data and Conditions)</strong><br/>
+मापी गई राशियों में दी गई प्रतिशत त्रुटियाँ निम्न हैं:<br/>
+\(a\) में प्रतिशत त्रुटि \(= \frac{\Delta a}{a} \times 100 = 1\%\)<br/>
+\(b\) में प्रतिशत त्रुटि \(= \frac{\Delta b}{b} \times 100 = 2\%\)<br/>
+\(c\) में प्रतिशत त्रुटि \(= \frac{\Delta c}{c} \times 100 = 3\%\)<br/>
+\(d\) में प्रतिशत त्रुटि \(= \frac{\Delta d}{d} \times 100 = 4\%\)<br/>
+राशि \(P\) का सूत्र है:
+\[ P = \frac{a^3 b^2}{cd} \]</p>
+
+<p><strong>चरण 2: मान्यताएँ और चिन्ह परिपाटी (Assumptions and Sign Conventions)</strong><br/>
+प्रतिशत त्रुटियों के मान बहुत कम हैं, इसलिए अवकलज विधि (differential approximation) का उपयोग करके अधिकतम भिन्नात्मक त्रुटि ज्ञात की जा सकती है। अधिकतम संभावित त्रुटि ज्ञात करने के लिए अंश तथा हर दोनों में उपस्थित राशियों की त्रुटियाँ धनात्मक रूप से जुड़ती हैं।</p>
+
+<p><strong>चरण 3: संबंधित सूत्र और सिद्धांत (Relevant Formulae and Principles)</strong><br/>
+यदि कोई व्युत्पन्न राशि \(P = \frac{a^x b^y}{c^z d^w}\) द्वारा दी गई हो, तो अधिकतम प्रतिशत त्रुटि निम्न सूत्र से दी जाती है:
+\[ \frac{\Delta P}{P} \times 100 = x\left(\frac{\Delta a}{a} \times 100\right) + y\left(\frac{\Delta b}{b} \times 100\right) + z\left(\frac{\Delta c}{c} \times 100\right) + w\left(\frac{\Delta d}{d} \times 100\right) \]</p>
+
+<p><strong>चरण 4: चरणबद्ध हल (Step-by-Step Working)</strong><br/>
+यहाँ घातें \(x = 3\), \(y = 2\), \(z = 1\) तथा \(w = 1\) हैं।<br/>
+दिए गए मानों को सूत्र में प्रतिस्थापित करने पर:
+\[ \frac{\Delta P}{P} \times 100 = 3(1\%) + 2(2\%) + 1(3\%) + 1(4\%) \]
+\[ \frac{\Delta P}{P} \times 100 = 3\% + 4\% + 3\% + 4\% = 14\% \]</p>
+
+<p><strong>चरण 5: जाँच एवं अंतिम उत्तर (Check and Final Answer)</strong><br/>
+सभी घटकों का योग करने पर गणना की पुष्टि होती है:
+\(3\% + 4\% + 3\% + 4\% = 14\%\).<br/>
+अतः \(P\) के मापन में प्रतिशत त्रुटि \(14\%\) है।</p>
+    ]]></text>
+  </generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="100" format="html">
+    <text><![CDATA[<p>\(14\%\)</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(10\%\)</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(7\%\)</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(4\%\)</p>]]></text>
+  </answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>year:2013</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:hi</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>class:11</text></tag>
+    <tag><text>topic:error_analysis</text></tag>
+    <tag><text>chapter:units_and_measurements</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:easy</text></tag>
+    <tag><text>blooms:apply</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:text</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+
+<question type="multichoice">
+  <name>
+    <text>NEET_UG_PHYSICS_2013_Q02 - Velocity of projectile at landing point</text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[
+<p>The velocity of a projectile at the initial point \(A\) is \(2\hat{i} + 3\hat{j}\text{ m/s}\). Its velocity (in \(\text{m/s}\)) at point \(B\) is</p>
+<p><img src="@@PLUGINFILE@@/img-0.jpeg" alt="Projectile trajectory showing launch at point A and landing at point B" /></p>
+<hr/>
+<p>प्रारंभिक बिंदु \(A\) पर किसी प्रक्षेप्य का वेग \(2\hat{i} + 3\hat{j}\text{ m/s}\) है। बिंदु \(B\) पर इसका वेग (\(\text{m/s}\) में) होगा:</p>
+    ]]></text>
+  </questiontext>
+  <generalfeedback format="html">
+    <text><![CDATA[
+<p><strong>Step 1: Given Data and Conditions</strong><br/>
+Velocity at the initial point of projection \(A\):
+\[ \vec{v}_A = 2\hat{i} + 3\hat{j}\text{ m/s} \]
+Point \(B\) is at the same horizontal reference level (\(y = 0\)) as point \(A\) along the parabolic flight path shown in the figure.</p>
+
+<p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>
+Neglect air resistance. Acceleration due to gravity acts uniformly downward:
+\[ \vec{a} = -g\hat{j} \]
+The horizontal acceleration is zero:
+\[ a_x = 0 \]</p>
+
+<p><strong>Step 3: Relevant Formulae and Principles</strong><br/>
+In ideal projectile motion:
+1. The horizontal velocity component remains constant throughout the motion because no horizontal force acts on the projectile:
+\[ v_{Bx} = v_{Ax} \]
+2. At the same vertical level as the launch height, the magnitude of the vertical velocity component is conserved, while its direction reverses:
+\[ v_{By} = -v_{Ay} \]</p>
+
+<p><strong>Step 4: Step-by-Step Working</strong><br/>
+From the given initial velocity \(\vec{v}_A = 2\hat{i} + 3\hat{j}\text{ m/s}\):
+\[ v_{Ax} = 2\text{ m/s} \]
+\[ v_{Ay} = 3\text{ m/s} \]
+At point \(B\), which lies at the same horizontal plane level:
+\[ v_{Bx} = v_{Ax} = 2\text{ m/s} \]
+\[ v_{By} = -v_{Ay} = -3\text{ m/s} \]
+Writing the complete velocity vector at point \(B\):
+\[ \vec{v}_B = 2\hat{i} - 3\hat{j}\text{ m/s} \]</p>
+
+<p><strong>Step 5: Check and Final Answer</strong><br/>
+The speed at point \(B\) is \(\sqrt{2^2 + (-3)^2} = \sqrt{13}\text{ m/s}\), matching the initial launch speed at point \(A\) as required by the conservation of mechanical energy.<br/>
+The velocity at point \(B\) is \(2\hat{i} - 3\hat{j}\text{ m/s}\).</p>
+<hr/>
+<p><strong>चरण 1: दिए गए आँकड़े और स्थितियाँ (Given Data and Conditions)</strong><br/>
+प्रारंभिक प्रक्षेपण बिंदु \(A\) पर वेग:
+\[ \vec{v}_A = 2\hat{i} + 3\hat{j}\text{ m/s} \]
+चित्र के अनुसार बिंदु \(B\), बिंदु \(A\) के समान ही क्षैतिज तल (\(y = 0\)) पर स्थित है।</p>
+
+<p><strong>चरण 2: मान्यताएँ और चिन्ह परिपाटी (Assumptions and Sign Conventions)</strong><br/>
+वायु प्रतिरोध नगण्य है। गुरुत्वीय त्वरण ऊर्ध्वाधर नीचे की ओर एकसमान कार्य करता है (\(\vec{a} = -g\hat{j}\)) तथा क्षैतिज दिशा में त्वरण शून्य होता है (\(a_x = 0\))।</p>
+
+<p><strong>चरण 3: संबंधित सूत्र और सिद्धांत (Relevant Formulae and Principles)</strong><br/>
+प्रक्षेप्य गति में:
+1. क्षैतिज दिशा में कोई बल न होने के कारण वेग का क्षैतिज घटक सदैव नियत रहता है:
+\[ v_{Bx} = v_{Ax} \]
+2. समान ऊँचाई पर वेग के ऊर्ध्वाधर घटक का परिमाण वही रहता है, परंतु दिशा विपरीत (नीचे की ओर) हो जाती है:
+\[ v_{By} = -v_{Ay} \]</p>
+
+<p><strong>चरण 4: चरणबद्ध हल (Step-by-Step Working)</strong><br/>
+दिए गए प्रारंभिक वेग \(\vec{v}_A = 2\hat{i} + 3\hat{j}\text{ m/s}\) से:
+\[ v_{Ax} = 2\text{ m/s} \]
+\[ v_{Ay} = 3\text{ m/s} \]
+बिंदु \(B\) पर:
+\[ v_{Bx} = 2\text{ m/s} \]
+\[ v_{By} = -3\text{ m/s} \]
+अतः बिंदु \(B\) पर वेग सदिश:
+\[ \vec{v}_B = 2\hat{i} - 3\hat{j}\text{ m/s} \]</p>
+
+<p><strong>चरण 5: जाँच एवं अंतिम उत्तर (Check and Final Answer)</strong><br/>
+बिंदु \(B\) पर चाल \(\sqrt{2^2 + (-3)^2} = \sqrt{13}\text{ m/s}\) है, जो बिंदु \(A\) पर प्रारंभिक चाल के बराबर है और यांत्रिक ऊर्जा संरक्षण के अनुरूप है।<br/>
+अतः बिंदु \(B\) पर वेग \(2\hat{i} - 3\hat{j}\text{ m/s}\) है।</p>
+    ]]></text>
+  </generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(-2\hat{i} - 3\hat{j}\)</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(-2\hat{i} + 3\hat{j}\)</p>]]></text>
+  </answer>
+  <answer fraction="100" format="html">
+    <text><![CDATA[<p>\(2\hat{i} - 3\hat{j}\)</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(2\hat{i} + 3\hat{j}\)</p>]]></text>
+  </answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>year:2013</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:hi</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>class:11</text></tag>
+    <tag><text>topic:projectile_motion</text></tag>
+    <tag><text>chapter:motion_in_a_plane</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:easy</text></tag>
+    <tag><text>blooms:understand</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:diagram</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+
+<question type="multichoice">
+  <name>
+    <text>NEET_UG_PHYSICS_2013_Q03 - Distances covered by freely falling body</text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[
+<p>A stone falls freely under gravity. It covers distances \(h_1, h_2\) and \(h_3\) in the first 5 seconds, the next 5 seconds and the next 5 seconds respectively. The relation between \(h_1, h_2\) and \(h_3\) is</p>
+<hr/>
+<p>एक पत्थर गुरुत्व के अधीन स्वतंत्र रूप से गिरता है। यह पहले \(5\text{ s}\) में \(h_1\), अगले \(5\text{ s}\) में \(h_2\) तथा उसके अगले \(5\text{ s}\) में \(h_3\) दूरियाँ तय करता है। \(h_1, h_2\) तथा \(h_3\) के बीच संबंध है:</p>
+    ]]></text>
+  </questiontext>
+  <generalfeedback format="html">
+    <text><![CDATA[
+<p><strong>Step 1: Given Data and Conditions</strong><br/>
+A body falls freely from rest: initial velocity \(u = 0\).<br/>
+Distance covered in the first time interval (\(0\) to \(5\text{ s}\)) is \(h_1\).<br/>
+Distance covered in the next time interval (\(5\) to \(10\text{ s}\)) is \(h_2\).<br/>
+Distance covered in the subsequent time interval (\(10\) to \(15\text{ s}\)) is \(h_3\).</p>
+
+<p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>
+The motion takes place under constant downward acceleration due to gravity \(g\). Air resistance is negligible. Taking the downward direction as positive and initial position as origin (\(y = 0\)).</p>
+
+<p><strong>Step 3: Relevant Formulae and Principles</strong><br/>
+Total distance covered from rest in time \(t\) under uniform acceleration is:
+\[ s(t) = ut + \frac{1}{2}gt^2 = \frac{1}{2}gt^2 \]
+The distance covered between times \(t_1\) and \(t_2\) is:
+\[ \Delta s = s(t_2) - s(t_1) \]
+Galileo's law of odd numbers states that for an object released from rest under uniform acceleration, the distances covered in successive equal time intervals are in the ratio of consecutive odd integers:
+\[ 1 : 3 : 5 : 7 : \dots \]</p>
+
+<p><strong>Step 4: Step-by-Step Working</strong><br/>
+Distance covered in the first \(5\text{ s}\):
+\[ h_1 = \frac{1}{2}g(5)^2 = \frac{25}{2}g \]
+Distance covered in the next \(5\text{ s}\) (from \(t = 5\text{ s}\) to \(t = 10\text{ s}\)):
+\[ h_2 = \frac{1}{2}g(10)^2 - \frac{1}{2}g(5)^2 = \frac{100 - 25}{2}g = \frac{75}{2}g = 3\left(\frac{25}{2}g\right) = 3h_1 \]
+Distance covered in the third interval of \(5\text{ s}\) (from \(t = 10\text{ s}\) to \(t = 15\text{ s}\)):
+\[ h_3 = \frac{1}{2}g(15)^2 - \frac{1}{2}g(10)^2 = \frac{225 - 100}{2}g = \frac{125}{2}g = 5\left(\frac{25}{2}g\right) = 5h_1 \]
+From these expressions:
+\[ h_1 = \frac{h_2}{3} = \frac{h_3}{5} \]</p>
+
+<p><strong>Step 5: Check and Final Answer</strong><br/>
+The ratio \(h_1 : h_2 : h_3 = 1 : 3 : 5\) corresponds to \(h_1 = \frac{h_2}{3} = \frac{h_3}{5}\), which directly satisfies Galileo's law of odd numbers.<br/>
+The relationship between the distances is \(h_1 = \frac{h_2}{3} = \frac{h_3}{5}\).</p>
+<hr/>
+<p><strong>चरण 1: दिए गए आँकड़े और स्थितियाँ (Given Data and Conditions)</strong><br/>
+पत्थर विरामावस्था से स्वतंत्र रूप से गिरता है: प्रारंभिक वेग \(u = 0\)।<br/>
+प्रथम समय अंतराल (\(0\) से \(5\text{ s}\)) में तय की गई दूरी \(= h_1\)<br/>
+अगले समय अंतराल (\(5\) से \(10\text{ s}\)) में तय की गई दूरी \(= h_2\)<br/>
+उसके अगले समय अंतराल (\(10\) से \(15\text{ s}\)) में तय की गई दूरी \(= h_3\)</p>
+
+<p><strong>चरण 2: मान्यताएँ और चिन्ह परिपाटी (Assumptions and Sign Conventions)</strong><br/>
+गति नियत गुरुत्वीय त्वरण \(g\) के अधीन होती है। वायु प्रतिरोध नगण्य है। नीचे की दिशा को धनात्मक माना गया है।</p>
+
+<p><strong>चरण 3: संबंधित सूत्र और सिद्धांत (Relevant Formulae and Principles)</strong><br/>
+विरामावस्था से समय \(t\) में तय की गई कुल दूरी:
+\[ s(t) = \frac{1}{2}gt^2 \]
+गैलिलियो के विषम अंक नियम के अनुसार, एकसमान त्वरण के अंतर्गत समान समयांतरालों में तय की गई दूरियों का अनुपात क्रमागत विषम संख्याओं के अनुपात में होता है:
+\[ 1 : 3 : 5 : \dots \]</p>
+
+<p><strong>चरण 4: चरणबद्ध हल (Step-by-Step Working)</strong><br/>
+पहले \(5\text{ s}\) में तय दूरी:
+\[ h_1 = \frac{1}{2}g(5)^2 = \frac{25}{2}g \]
+अगले \(5\text{ s}\) में तय दूरी (\(t = 5\text{ s}\) से \(t = 10\text{ s}\)):
+\[ h_2 = \frac{1}{2}g(10)^2 - \frac{1}{2}g(5)^2 = \frac{75}{2}g = 3h_1 \]
+उसके अगले \(5\text{ s}\) में तय दूरी (\(t = 10\text{ s}\) से \(t = 15\text{ s}\)):
+\[ h_3 = \frac{1}{2}g(15)^2 - \frac{1}{2}g(10)^2 = \frac{125}{2}g = 5h_1 \]
+अतः:
+\[ h_1 = \frac{h_2}{3} = \frac{h_3}{5} \]</p>
+
+<p><strong>चरण 5: जाँच एवं अंतिम उत्तर (Check and Final Answer)</strong><br/>
+दूरियों का अनुपात \(h_1 : h_2 : h_3 = 1 : 3 : 5\) प्राप्त होता है, जो गैलिलियो के विषम संख्या नियम की पुष्टि करता है।<br/>
+अतः सही संबंध \(h_1 = \frac{h_2}{3} = \frac{h_3}{5}\) है।</p>
+    ]]></text>
+  </generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(h_1 = 2h_2 = 3h_3\)</p>]]></text>
+  </answer>
+  <answer fraction="100" format="html">
+    <text><![CDATA[<p>\(h_1 = \frac{h_2}{3} = \frac{h_3}{5}\)</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(h_2 = 3h_1\) and \(h_3 = 3h_2\)</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(h_1 = h_2 = h_3\)</p>]]></text>
+  </answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>year:2013</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:hi</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>class:11</text></tag>
+    <tag><text>topic:free_fall</text></tag>
+    <tag><text>chapter:motion_in_a_straight_line</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:easy</text></tag>
+    <tag><text>blooms:apply</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:text</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+
+<question type="multichoice">
+  <name>
+    <text>NEET_UG_PHYSICS_2013_Q04 - Net force on block moving upwards</text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[
+<p>Three blocks with masses \(m, 2m\) and \(3m\) are connected by strings, as shown in the figure. After an upward force \(F\) is applied on block \(m\), the masses move upward at constant speed \(v\). What is the net force on the block of mass \(2m\)? (\(g\) is the acceleration due to gravity)</p>
+<p><img src="@@PLUGINFILE@@/img-1.jpeg" alt="Three blocks of masses m, 2m, and 3m connected by vertical strings moving upward with constant speed v" /></p>
+<hr/>
+<p>चित्र में दर्शाए अनुसार, द्रव्यमान \(m, 2m\) और \(3m\) के तीन गुटके डोरियों द्वारा परस्पर जुड़े हैं। गुटके \(m\) पर ऊपर की ओर एक बल \(F\) आरोपित करने पर, सभी द्रव्यमान नियत चाल \(v\) से ऊपर की ओर गति करते हैं। द्रव्यमान \(2m\) के गुटके पर लगने वाला परिणामी (कुल) बल क्या है? (\(g\) गुरुत्वीय त्वरण है)</p>
+    ]]></text>
+  </questiontext>
+  <generalfeedback format="html">
+    <text><![CDATA[
+<p><strong>Step 1: Given Data and Conditions</strong><br/>
+Masses of the blocks: \(m\), \(2m\), and \(3m\).<br/>
+Motion: The system moves upward with a constant speed \(v\).<br/>
+Acceleration due to gravity: \(g\).</p>
+
+<p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>
+Strings are light and inextensible. "Constant speed" in a fixed straight vertical direction indicates a constant velocity vector.</p>
+
+<p><strong>Step 3: Relevant Formulae and Principles</strong><br/>
+According to Newton's second law of motion:
+\[ \vec{F}_{\text{net}} = M \vec{a} \]
+where \(M\) is the mass of the body and \(\vec{a} = \frac{d\vec{v}}{dt}\) is its acceleration.</p>
+
+<p><strong>Step 4: Step-by-Step Working</strong><br/>
+Because the blocks move with a constant speed in a straight line, the velocity is constant:
+\[ \frac{d\vec{v}}{dt} = \vec{a} = 0 \]
+Substituting \(\vec{a} = 0\) into Newton's second law for the block of mass \(2m\):
+\[ \vec{F}_{\text{net}} = (2m) \times 0 = 0 \]</p>
+
+<p><strong>Step 5: Check and Final Answer</strong><br/>
+Although individual vertical forces (upward string tension, downward string tension, and gravity) act on the block of mass \(2m\), they balance each other completely to maintain uniform motion without acceleration.<br/>
+The net force on the block of mass \(2m\) is zero.</p>
+<hr/>
+<p><strong>चरण 1: दिए गए आँकड़े और स्थितियाँ (Given Data and Conditions)</strong><br/>
+गुटकों के द्रव्यमान: \(m\), \(2m\) तथा \(3m\)।<br/>
+निकाय नियत चाल \(v\) से ऊपर की ओर गति कर रहा है।<br/>
+गुरुत्वीय त्वरण \(g\) है।</p>
+
+<p><strong>चरण 2: मान्यताएँ और चिन्ह परिपाटी (Assumptions and Sign Conventions)</strong><br/>
+डोरियाँ द्रव्यमानहीन और अवितान्य हैं। एक ही दिशा में नियत चाल का अर्थ है कि वेग सदिश नियत है।</p>
+
+<p><strong>चरण 3: संबंधित सूत्र और सिद्धांत (Relevant Formulae and Principles)</strong><br/>
+न्यूटन के गति के द्वितीय नियम के अनुसार:
+\[ \vec{F}_{\text{net}} = M \vec{a} \]
+जहाँ \(M\) पिंड का द्रव्यमान तथा \(\vec{a}\) उसका त्वरण है।</p>
+
+<p><strong>चरण 4: चरणबद्ध हल (Step-by-Step Working)</strong><br/>
+चूँकि गुटका नियत वेग से गतिमान है, अतः त्वरण शून्य है:
+\[ \vec{a} = \frac{d\vec{v}}{dt} = 0 \]
+द्रव्यमान \(2m\) के गुटके के लिए न्यूटन का द्वितीय नियम लागू करने पर:
+\[ \vec{F}_{\text{net}} = (2m)(0) = 0 \]</p>
+
+<p><strong>चरण 5: जाँच एवं अंतिम उत्तर (Check and Final Answer)</strong><br/>
+यद्यपि गुटके पर तनाव और गुरुत्व बल कार्य कर रहे हैं, किंतु उनका परिणामी बल शून्य है क्योंकि गुटका बिना किसी त्वरण के गति कर रहा है।<br/>
+अतः द्रव्यमान \(2m\) के गुटके पर लगने वाला परिणामी बल शून्य है।</p>
+    ]]></text>
+  </generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="100" format="html">
+    <text><![CDATA[<p>Zero</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(2mg\)</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(3mg\)</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(6mg\)</p>]]></text>
+  </answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>year:2013</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:hi</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>class:11</text></tag>
+    <tag><text>topic:newtons_laws_of_motion</text></tag>
+    <tag><text>chapter:laws_of_motion</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:easy</text></tag>
+    <tag><text>blooms:understand</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:diagram</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+
+<question type="multichoice">
+  <name>
+    <text>NEET_UG_PHYSICS_2013_Q05 - Friction coefficient of inclined plane surface</text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[
+<p>The upper half of an inclined plane of inclination \(\theta\) is perfectly smooth while lower half is rough. A block starting from rest at the top of the plane will again come to rest at the bottom, if the coefficient of friction between the block and lower half of the plane is given by</p>
+<hr/>
+<p>झुकाव कोण \(\theta\) वाले एक नत तल का ऊपरी आधा भाग पूर्णतः चिकना (घर्षणरहित) है जबकि निचला आधा भाग खुरदरा है। नत तल के शीर्ष से विरामावस्था से फिसलना शुरू करने वाला एक गुटका पुनः तल के पेंदे पर विरामावस्था में आ जाएगा, यदि गुटके और नत तल के निचले आधे भाग के बीच घर्षण गुणांक निम्न द्वारा दिया जाता है:</p>
+    ]]></text>
+  </questiontext>
+  <generalfeedback format="html">
+    <text><![CDATA[
+<p><strong>Step 1: Given Data and Conditions</strong><br/>
+Inclination of plane: \(\theta\).<br/>
+Let the total length of the inclined plane be \(L\).<br/>
+Length of upper smooth half: \(s_1 = \frac{L}{2}\) with coefficient of friction \(\mu_1 = 0\).<br/>
+Length of lower rough half: \(s_2 = \frac{L}{2}\) with coefficient of friction \(\mu_2 = \mu\).<br/>
+Initial velocity at the top: \(u = 0\).<br/>
+Final velocity at the bottom: \(v = 0\).</p>
+
+<p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>
+Displacement is directed down the incline. Work done by forces in the direction of motion is positive, while work done by friction opposing the motion is negative.</p>
+
+<p><strong>Step 3: Relevant Formulae and Principles</strong><br/>
+By the Work-Energy Theorem:
+\[ W_{\text{net}} = \Delta K = K_f - K_i \]
+Since the block begins at rest and ends at rest:
+\[ \Delta K = 0 \implies W_{\text{net}} = 0 \]
+The forces doing work on the block are gravity and friction:<br/>
+1. Component of gravity along the incline is \(mg\sin\theta\). The total work done by gravity over the entire length \(L\) is:
+\[ W_g = (mg\sin\theta) L \]
+2. Normal reaction on the incline is \(N = mg\cos\theta\).<br/>
+Kinetic friction on the lower half is \(f_k = \mu N = \mu mg\cos\theta\).<br/>
+The work done by friction over the lower half of length \(\frac{L}{2}\) is:
+\[ W_f = -f_k \left(\frac{L}{2}\right) = -\mu mg\cos\theta \left(\frac{L}{2}\right) \]</p>
+
+<p><strong>Step 4: Step-by-Step Working</strong><br/>
+Equate total work done to zero:
+\[ W_g + W_f = 0 \]
+\[ mg L \sin\theta - \mu mg\cos\theta \left(\frac{L}{2}\right) = 0 \]
+Divide throughout by \(mg L \neq 0\):
+\[ \sin\theta - \frac{\mu}{2}\cos\theta = 0 \]
+\[ \frac{\mu}{2}\cos\theta = \sin\theta \]
+\[ \mu = \frac{2\sin\theta}{\cos\theta} = 2\tan\theta \]</p>
+
+<p><strong>Step 5: Check and Final Answer</strong><br/>
+For the block to stop, the deceleration on the rough section must equal the acceleration on the smooth section. The acceleration on the smooth section is \(a_1 = g\sin\theta\), and on the rough section it is \(a_2 = g\sin\theta - \mu g\cos\theta\). For equal distances, \(a_1 = -a_2 \implies g\sin\theta = -(g\sin\theta - \mu g\cos\theta) \implies \mu = 2\tan\theta\), which confirms the result.<br/>
+The coefficient of friction is \(\mu = 2\tan\theta\).</p>
+<hr/>
+<p><strong>चरण 1: दिए गए आँकड़े और स्थितियाँ (Given Data and Conditions)</strong><br/>
+नत तल का झुकाव कोण: \(\theta\)।<br/>
+मान लीजिए नत तल की कुल लंबाई \(L\) है।<br/>
+ऊपरी चिकने भाग की लंबाई \(= \frac{L}{2}\) (घर्षण गुणांक \(= 0\))।<br/>
+निचले खुरदरे भाग की लंबाई \(= \frac{L}{2}\) (घर्षण गुणांक \(= \mu\))।<br/>
+प्रारंभिक वेग \(u = 0\), अंतिम वेग \(v = 0\)।</p>
+
+<p><strong>चरण 2: मान्यताएँ और चिन्ह परिपाटी (Assumptions and Sign Conventions)</strong><br/>
+गति नत तल के अनुदिश नीचे की ओर है। गति की दिशा में कार्य धनात्मक तथा गति के विपरीत घर्षण द्वारा किया गया कार्य ऋणात्मक होता है।</p>
+
+<p><strong>चरण 3: संबंधित सूत्र और सिद्धांत (Relevant Formulae and Principles)</strong><br/>
+कार्य-ऊर्जा प्रमेय के अनुसार:
+\[ W_{\text{कुल}} = \Delta K = 0 \]
+गुरुत्व बल द्वारा किया गया कार्य:
+\[ W_g = (mg\sin\theta) L \]
+निचले आधे भाग पर घर्षण बल द्वारा किया गया कार्य:
+\[ W_f = -(\mu mg\cos\theta)\left(\frac{L}{2}\right) \]</p>
+
+<p><strong>चरण 4: चरणबद्ध हल (Step-by-Step Working)</strong><br/>
+कुल कार्य को शून्य के बराबर रखने पर:
+\[ mg L \sin\theta - \mu mg\cos\theta \left(\frac{L}{2}\right) = 0 \]
+\(mg L\) से दोनों पक्षों को भाग देने पर:
+\[ \sin\theta = \frac{\mu}{2}\cos\theta \]
+\[ \mu = 2\tan\theta \]</p>
+
+<p><strong>चरण 5: जाँच एवं अंतिम उत्तर (Check and Final Answer)</strong><br/>
+समान दूरियों के लिए मंदन का मान त्वरण के बराबर होना चाहिए, जिससे \(\mu = 2\tan\theta\) प्राप्त होता है।<br/>
+अतः घर्षण गुणांक का मान \(\mu = 2\tan\theta\) है।</p>
+    ]]></text>
+  </generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(\mu = \frac{2}{\tan\theta}\)</p>]]></text>
+  </answer>
+  <answer fraction="100" format="html">
+    <text><![CDATA[<p>\(\mu = 2\tan\theta\)</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(\mu = \tan\theta\)</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(\mu = \frac{1}{\tan\theta}\)</p>]]></text>
+  </answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>year:2013</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:hi</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>class:11</text></tag>
+    <tag><text>topic:friction_on_inclined_plane</text></tag>
+    <tag><text>chapter:laws_of_motion</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:medium</text></tag>
+    <tag><text>blooms:apply</text></tag>
+    <tag><text>calculation:moderate</text></tag>
+    <tag><text>media:text</text></tag>
+    <tag><text>multiconcept:true</text></tag>
+  </tags>
+</question>
+
+<question type="multichoice">
+  <name>
+    <text>NEET_UG_PHYSICS_2013_Q06 - Work done by uniform force displacement</text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[
+<p>A uniform force of \((3\hat{i} + \hat{j})\text{ N}\) acts on a particle of mass \(2\text{ kg}\). Hence the particle is displaced from position \((2\hat{i} + \hat{k})\text{ m}\) to position \((4\hat{i} + 3\hat{j} - \hat{k})\text{ m}\). The work done by the force on the particle is</p>
+<hr/>
+<p>\(2\text{ kg}\) द्रव्यमान के एक कण पर एकसमान बल \((3\hat{i} + \hat{j})\text{ N}\) कार्य करता है। इसके कारण कण स्थिति \((2\hat{i} + \hat{k})\text{ m}\) से स्थिति \((4\hat{i} + 3\hat{j} - \hat{k})\text{ m}\) तक विस्थापित होता है। बल द्वारा कण पर किया गया कार्य है:</p>
+    ]]></text>
+  </questiontext>
+  <generalfeedback format="html">
+    <text><![CDATA[
+<p><strong>Step 1: Given Data and Conditions</strong><br/>
+Force vector: \(\vec{F} = (3\hat{i} + \hat{j})\text{ N} = 3\hat{i} + 1\hat{j} + 0\hat{k}\text{ N}\).<br/>
+Mass of the particle: \(m = 2\text{ kg}\).<br/>
+Initial position: \(\vec{r}_1 = (2\hat{i} + \hat{k})\text{ m} = 2\hat{i} + 0\hat{j} + 1\hat{k}\text{ m}\).<br/>
+Final position: \(\vec{r}_2 = (4\hat{i} + 3\hat{j} - \hat{k})\text{ m}\).</p>
+
+<p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>
+The force is uniform (constant in magnitude and direction) over the entire displacement. Cartesian coordinates are used.</p>
+
+<p><strong>Step 3: Relevant Formulae and Principles</strong><br/>
+Displacement vector \(\Delta \vec{r}\) is the change in position:
+\[ \Delta \vec{r} = \vec{r}_2 - \vec{r}_1 \]
+The work done by a constant force is the scalar product of force and displacement:
+\[ W = \vec{F} \cdot \Delta \vec{r} = F_x \Delta x + F_y \Delta y + F_z \Delta z \]</p>
+
+<p><strong>Step 4: Step-by-Step Working</strong><br/>
+Calculate displacement vector \(\Delta \vec{r}\):
+\[ \Delta \vec{r} = (4\hat{i} + 3\hat{j} - \hat{k}) - (2\hat{i} + 0\hat{j} + 1\hat{k}) \]
+\[ \Delta \vec{r} = (4 - 2)\hat{i} + (3 - 0)\hat{j} + (-1 - 1)\hat{k} = 2\hat{i} + 3\hat{j} - 2\hat{k}\text{ m} \]
+Compute the dot product with \(\vec{F} = 3\hat{i} + 1\hat{j} + 0\hat{k}\text{ N}\):
+\[ W = \vec{F} \cdot \Delta \vec{r} = (3)(2) + (1)(3) + (0)(-2) \]
+\[ W = 6 + 3 + 0 = 9\text{ J} \]</p>
+
+<p><strong>Step 5: Check and Final Answer</strong><br/>
+Units check: \(\text{N} \cdot \text{m} = \text{J}\). The mass \(2\text{ kg}\) is superfluous for computing work directly from force and displacement.<br/>
+The work done by the force on the particle is \(9\text{ J}\).</p>
+<hr/>
+<p><strong>चरण 1: दिए गए आँकड़े और स्थितियाँ (Given Data and Conditions)</strong><br/>
+एकसमान बल: \(\vec{F} = 3\hat{i} + 1\hat{j} + 0\hat{k}\text{ N}\)।<br/>
+कण का द्रव्यमान: \(m = 2\text{ kg}\)।<br/>
+प्रारंभिक स्थिति: \(\vec{r}_1 = 2\hat{i} + 0\hat{j} + 1\hat{k}\text{ m}\)।<br/>
+अंतिम स्थिति: \(\vec{r}_2 = 4\hat{i} + 3\hat{j} - 1\hat{k}\text{ m}\)।</p>
+
+<p><strong>चरण 2: मान्यताएँ और चिन्ह परिपाटी (Assumptions and Sign Conventions)</strong><br/>
+बल संपूर्ण विस्थापन के दौरान नियत (एकसमान) रहता है। मानक कार्तीय निर्देशांक प्रणाली का उपयोग किया गया है।</p>
+
+<p><strong>चरण 3: संबंधित सूत्र और सिद्धांत (Relevant Formulae and Principles)</strong><br/>
+विस्थापन सदिश:
+\[ \Delta \vec{r} = \vec{r}_2 - \vec{r}_1 \]
+नियत बल द्वारा किया गया कार्य अदिश गुणनफल द्वारा दिया जाता है:
+\[ W = \vec{F} \cdot \Delta \vec{r} \]</p>
+
+<p><strong>चरण 4: चरणबद्ध हल (Step-by-Step Working)</strong><br/>
+विस्थापन सदिश का मान:
+\[ \Delta \vec{r} = (4 - 2)\hat{i} + (3 - 0)\hat{j} + (-1 - 1)\hat{k} = 2\hat{i} + 3\hat{j} - 2\hat{k}\text{ m} \]
+कार्य की गणना:
+\[ W = (3)(2) + (1)(3) + (0)(-2) \]
+\[ W = 6 + 3 + 0 = 9\text{ J} \]</p>
+
+<p><strong>चरण 5: जाँच एवं अंतिम उत्तर (Check and Final Answer)</strong><br/>
+मात्रक परीक्षण: \(\text{N}\cdot\text{m} = \text{J}\)।<br/>
+अतः बल द्वारा कण पर किया गया कार्य \(9\text{ J}\) है।</p>
+    ]]></text>
+  </generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(6\text{ J}\)</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(13\text{ J}\)</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(15\text{ J}\)</p>]]></text>
+  </answer>
+  <answer fraction="100" format="html">
+    <text><![CDATA[<p>\(9\text{ J}\)</p>]]></text>
+  </answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>year:2013</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:hi</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>class:11</text></tag>
+    <tag><text>topic:work_done_by_force</text></tag>
+    <tag><text>chapter:work_energy_and_power</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:easy</text></tag>
+    <tag><text>blooms:apply</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:text</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+
+<question type="multichoice">
+  <name>
+    <text>NEET_UG_PHYSICS_2013_Q07 - Mass of third fragment in rock explosion</text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[
+<p>An explosion breaks a rock into three parts in a horizontal plane. Two of them go off at right angles to each other. The first part of mass \(1\text{ kg}\) moves with a speed of \(12\text{ ms}^{-1}\) and the second part of mass \(2\text{ kg}\) moves with \(8\text{ ms}^{-1}\) speed. If the third part flies off with \(4\text{ ms}^{-1}\) speed, then its mass is</p>
+<hr/>
+<p>एक क्षैतिज तल में एक विस्फोट के कारण एक चट्टान तीन टुकड़ों में टूट जाती है। इनमें से दो टुकड़े एक-दूसरे के लंबवत दिशा में चले जाते हैं। \(1\text{ kg}\) द्रव्यमान का पहला टुकड़ा \(12\text{ ms}^{-1}\) की चाल से गति करता है तथा \(2\text{ kg}\) द्रव्यमान का दूसरा टुकड़ा \(8\text{ ms}^{-1}\) की चाल से गति करता है। यदि तीसरा टुकड़ा \(4\text{ ms}^{-1}\) की चाल से उड़ता है, तो उसका द्रव्यमान है:</p>
+    ]]></text>
+  </questiontext>
+  <generalfeedback format="html">
+    <text><![CDATA[
+<p><strong>Step 1: Given Data and Conditions</strong><br/>
+Rock is initially at rest: initial momentum \(\vec{P}_i = 0\).<br/>
+Part 1: mass \(m_1 = 1\text{ kg}\), speed \(v_1 = 12\text{ ms}^{-1}\).<br/>
+Part 2: mass \(m_2 = 2\text{ kg}\), speed \(v_2 = 8\text{ ms}^{-1}\).<br/>
+Angle between directions of part 1 and part 2 is \(90^\circ\).<br/>
+Part 3: speed \(v_3 = 4\text{ ms}^{-1}\), mass \(m_3\) to be found.</p>
+
+<p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>
+The explosion occurs due to internal forces alone; external horizontal forces are negligible during the explosion, so total linear momentum in the horizontal plane is conserved.<br/>
+Choose the direction of the first fragment along the positive \(x\)-axis (\(\hat{i}\)) and the second fragment along the positive \(y\)-axis (\(\hat{j}\)).</p>
+
+<p><strong>Step 3: Relevant Formulae and Principles</strong><br/>
+By the principle of conservation of linear momentum:
+\[ \vec{P}_i = \vec{P}_f = \vec{p}_1 + \vec{p}_2 + \vec{p}_3 = 0 \]
+\[ \vec{p}_3 = -(\vec{p}_1 + \vec{p}_2) \]
+The magnitude of the third part's momentum must equal the magnitude of the vector resultant of \(\vec{p}_1\) and \(\vec{p}_2\):
+\[ |\vec{p}_3| = \sqrt{p_1^2 + p_2^2} \]
+Since \(p_3 = m_3 v_3\):
+\[ m_3 = \frac{|\vec{p}_3|}{v_3} \]</p>
+
+<p><strong>Step 4: Step-by-Step Working</strong><br/>
+Calculate the linear momentum of the first two fragments:
+\[ p_1 = m_1 v_1 = (1\text{ kg})(12\text{ ms}^{-1}) = 12\text{ kg}\cdot\text{ms}^{-1} \]
+\[ p_2 = m_2 v_2 = (2\text{ kg})(8\text{ ms}^{-1}) = 16\text{ kg}\cdot\text{ms}^{-1} \]
+Since they travel along mutually perpendicular axes:
+\[ |\vec{p}_3| = \sqrt{12^2 + 16^2} = \sqrt{144 + 256} = \sqrt{400} = 20\text{ kg}\cdot\text{ms}^{-1} \]
+Using \(p_3 = m_3 v_3\):
+\[ 20 = m_3 \times 4 \]
+\[ m_3 = \frac{20}{4} = 5\text{ kg} \]</p>
+
+<p><strong>Step 5: Check and Final Answer</strong><br/>
+Dimensional check: \(\frac{\text{kg}\cdot\text{m/s}}{\text{m/s}} = \text{kg}\). The values 12, 16, and 20 form a standard Pythagorean triplet (\(3 \times 4\), \(4 \times 4\), \(5 \times 4\)).<br/>
+The mass of the third part is \(5\text{ kg}\).</p>
+<hr/>
+<p><strong>चरण 1: दिए गए आँकड़े और स्थितियाँ (Given Data and Conditions)</strong><br/>
+चट्टान प्रारंभ में विरामावस्था में है: \(\vec{P}_i = 0\)।<br/>
+पहला टुकड़ा: \(m_1 = 1\text{ kg}\), चाल \(v_1 = 12\text{ ms}^{-1}\)।<br/>
+दूसरा टुकड़ा: \(m_2 = 2\text{ kg}\), चाल \(v_2 = 8\text{ ms}^{-1}\)।<br/>
+दोनों टुकड़े परस्पर \(90^\circ\) के कोण पर गति करते हैं।<br/>
+तीसरा टुकड़ा: चाल \(v_3 = 4\text{ ms}^{-1}\), द्रव्यमान \(m_3\) ज्ञात करना है।</p>
+
+<p><strong>चरण 2: मान्यताएँ और चिन्ह परिपाटी (Assumptions and Sign Conventions)</strong><br/>
+विस्फोट केवल आंतरिक बलों के कारण होता है, अतः क्षैतिज तल में कुल रेखीय संवेग संरक्षित रहता है। पहले टुकड़े की दिशा को \(+x\) अक्ष तथा दूसरे की दिशा को \(+y\) अक्ष माना गया है।</p>
+
+<p><strong>चरण 3: संबंधित सूत्र और सिद्धांत (Relevant Formulae and Principles)</strong><br/>
+संवेग संरक्षण के नियमानुसार:
+\[ \vec{p}_1 + \vec{p}_2 + \vec{p}_3 = 0 \]
+\[ |\vec{p}_3| = \sqrt{p_1^2 + p_2^2} \]
+द्रव्यमान ज्ञात करने का सूत्र:
+\[ m_3 = \frac{|\vec{p}_3|}{v_3} \]</p>
+
+<p><strong>चरण 4: चरणबद्ध हल (Step-by-Step Working)</strong><br/>
+पहले दो टुकड़ों का संवेग:
+\[ p_1 = 1 \times 12 = 12\text{ kg}\cdot\text{ms}^{-1} \]
+\[ p_2 = 2 \times 8 = 16\text{ kg}\cdot\text{ms}^{-1} \]
+तीसरे टुकड़े का संवेग परिमाण:
+\[ |\vec{p}_3| = \sqrt{12^2 + 16^2} = \sqrt{144 + 256} = \sqrt{400} = 20\text{ kg}\cdot\text{ms}^{-1} \]
+द्रव्यमान \(m_3\):
+\[ m_3 = \frac{20}{4} = 5\text{ kg} \]</p>
+
+<p><strong>चरण 5: जाँच एवं अंतिम उत्तर (Check and Final Answer)</strong><br/>
+संवेग संतुलन की पुष्टि होती है।<br/>
+अतः तीसरे टुकड़े का द्रव्यमान \(5\text{ kg}\) है।</p>
+    ]]></text>
+  </generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(3\text{ kg}\)</p>]]></text>
+  </answer>
+  <answer fraction="100" format="html">
+    <text><![CDATA[<p>\(5\text{ kg}\)</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(7\text{ kg}\)</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(17\text{ kg}\)</p>]]></text>
+  </answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>year:2013</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:hi</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>class:11</text></tag>
+    <tag><text>topic:conservation_of_linear_momentum</text></tag>
+    <tag><text>chapter:work_energy_and_power</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:medium</text></tag>
+    <tag><text>blooms:apply</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:text</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>

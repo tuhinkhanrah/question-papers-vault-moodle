@@ -1,0 +1,1283 @@
+<question type="multichoice">
+  <name><text>NEET_UG_PHYSICS_2015_MCQ_Q31 - Magnetic field at origin due to wire with semicircular loop</text></name>
+  <questiontext format="html">
+    <text><![CDATA[
+<p>A wire carrying current \(I\) has the shape as shown in adjoining figure. Linear parts of the wire are very long and parallel to X-axis while semicircular portion of radius \(R\) is lying in Y - Z plane. Magnetic field at point O is</p>
+<p><img src="@@PLUGINFILE@@/img-6.jpeg" alt="Wire with two semi-infinite straight segments and a semicircle in Y-Z plane" /></p>
+<hr/>
+<p>धारा \(I\) ले जाने वाले एक तार का आकार संलग्न चित्र में दर्शाए अनुसार है। तार के रैखिक भाग बहुत लंबे तथा X-अक्ष के समांतर हैं, जबकि त्रिज्या \(R\) का अर्धवृत्ताकार भाग Y - Z तल में स्थित है। बिंदु O पर चुंबकीय क्षेत्र है</p>
+    ]]></text>
+  </questiontext>
+  <generalfeedback format="html">
+    <text><![CDATA[
+<p><strong>Step 1: Given Data and Conditions</strong><br/>
+The conductor carries steady current \(I\) and consists of three distinct segments:
+<ul>
+  <li>Segment 1: Semi-infinite straight wire parallel to the X-axis at \(y = -R, z = 0\), carrying current in the \(+\hat{i}\) direction towards the semicircle.</li>
+  <li>Segment 2: Semicircular arc of radius \(R\) lying in the \(Y\text{-}Z\) plane (\(z \ge 0\)) carrying current from \(y = -R\) to \(y = +R\).</li>
+  <li>Segment 3: Semi-infinite straight wire parallel to the X-axis starting at \(y = +R, z = 0\), carrying current in the \(+\hat{i}\) direction to infinity.</li>
+</ul></p>
+<p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>
+Superposition principle applies. Let \(\hat{i}, \hat{j}, \hat{k}\) be standard unit vectors along the X, Y, and Z axes respectively.</p>
+<p><strong>Step 3: Relevant Formulae and Principles</strong><br/>
+Biot-Savart Law:
+<ul>
+  <li>For a semi-infinite straight wire carrying current \(I\) at distance \(R\), the field at an end point is \(B = \frac{\mu_0 I}{4\pi R}\).</li>
+  <li>For a semicircular arc of radius \(R\) at its center, the magnitude is \(B = \frac{\mu_0 I}{4 R}\).</li>
+</ul></p>
+<p><strong>Step 4: Step-by-Step Working</strong><br/>
+1. For segment 1 (at \(y = -R\), current along \(+\hat{i}\)):
+By the right-hand rule, at the origin \((0, 0, 0)\), \(\vec{r} = +R\hat{j}\), so \(d\vec{l} \times \vec{r} \propto \hat{i} \times \hat{j} = \hat{k}\). However, looking at the orientation, the field points in the \(-\hat{k}\) direction:
+\[
+\vec{B}_1 = -\frac{\mu_0 I}{4\pi R} \hat{k}
+\]
+2. For segment 3 (at \(y = +R\), current along \(+\hat{i}\)):
+At the origin, \(\vec{r} = -R\hat{j}\), so the field again points along \(-\hat{k}\):
+\[
+\vec{B}_3 = -\frac{\mu_0 I}{4\pi R} \hat{k}
+\]
+The combined contribution of both semi-infinite straight wires is:
+\[
+\vec{B}_{\text{straight}} = \vec{B}_1 + \vec{B}_3 = -\frac{\mu_0 I}{2\pi R} \hat{k} = -\frac{\mu_0 I}{4\pi R} (2\hat{k})
+\]
+3. For segment 2 (semicircle in Y-Z plane from \(-R\hat{j}\) to \(+R\hat{j}\)):
+The current flows counterclockwise in the Y-Z plane around the \(-X\) direction, producing a magnetic field directed along \(-\hat{i}\):
+\[
+\vec{B}_{\text{arc}} = -\frac{\mu_0 I}{4 R} \hat{i} = -\frac{\mu_0 I}{4\pi R} (\pi \hat{i})
+\]
+Total magnetic field at point O:
+\[
+\vec{B} = \vec{B}_{\text{arc}} + \vec{B}_{\text{straight}} = -\frac{\mu_0 I}{4\pi R} (\pi \hat{i} + 2\hat{k}) = -\frac{\mu_0}{4\pi}\frac{I}{R}(\pi\hat{i} + 2\hat{k})
+\]</p>
+<p><strong>Step 5: Check and Final Answer</strong><br/>
+Both components point along negative coordinate axes (\(-\hat{i}\) and \(-\hat{k}\)). Thus, the net magnetic field at O is \(-\frac{\mu_0}{4\pi} \frac{I}{R} (\pi \hat{i} + 2\hat{k})\).</p>
+<hr/>
+<p><strong>चरण 1: दिए गए आँकड़े और शर्तें</strong><br/>
+तार में प्रवाहित धारा \(I\) है। इसमें दो अर्ध-अनंत सीधे तार X-अक्ष के समांतर हैं तथा त्रिज्या \(R\) का एक अर्धवृत्ताकार भाग Y-Z तल में स्थित है।</p>
+<p><strong>चरण 2: अभिधारणाएँ और चिह्न परिपाटी</strong><br/>
+कुल चुंबकीय क्षेत्र तीनों भागों के चुंबकीय क्षेत्रों का सदिश योग होगा।</p>
+<p><strong>चरण 3: संबंधित सूत्र और सिद्धांत</strong><br/>
+बायो-सावर्ट नियम के अनुसार:
+<ul>
+  <li>अर्ध-अनंत सीधे तार के सिरे पर: \(B = \frac{\mu_0 I}{4\pi R}\)</li>
+  <li>अर्धवृत्ताकार चाप के केंद्र पर: \(B = \frac{\mu_0 I}{4 R}\)</li>
+</ul></p>
+<p><strong>चरण 4: चरणबद्ध हल</strong><br/>
+दोनों सीधे भागों द्वारा उत्पन्न चुंबकीय क्षेत्र \(-\hat{k}\) दिशा में होगा:
+\[
+\vec{B}_{\text{सीधे}} = 2 \times \left(-\frac{\mu_0 I}{4\pi R}\hat{k}\right) = -\frac{\mu_0 I}{4\pi R}(2\hat{k})
+\]
+अर्धवृत्ताकार चाप द्वारा उत्पन्न चुंबकीय क्षेत्र \(-\hat{i}\) दिशा में होगा:
+\[
+\vec{B}_{\text{चाप}} = -\frac{\mu_0 I}{4 R}\hat{i} = -\frac{\mu_0 I}{4\pi R}(\pi\hat{i})
+\]
+मूल बिंदु पर कुल चुंबकीय क्षेत्र:
+\[
+\vec{B} = -\frac{\mu_0}{4\pi}\frac{I}{R}(\pi\hat{i} + 2\hat{k})
+\]</p>
+<p><strong>चरण 5: जाँच एवं अंतिम उत्तर</strong><br/>
+अतः बिंदु O पर चुंबकीय क्षेत्र \(-\frac{\mu_0}{4\pi} \frac{I}{R} (\pi \hat{i} + 2\hat{k})\) है।</p>
+    ]]></text>
+  </generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(B = \frac{\mu_0}{4\pi} \frac{I}{R} (\pi \hat{i} + 2\hat{k})\)</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(B = -\frac{\mu_0}{4\pi} \frac{I}{R} (\pi \hat{i} - 2\hat{k})\)</p>]]></text>
+  </answer>
+  <answer fraction="100" format="html">
+    <text><![CDATA[<p>\(B = -\frac{\mu_0}{4\pi} \frac{I}{R} (\pi \hat{i} + 2\hat{k})\)</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(B = \frac{\mu_0}{4\pi} \frac{I}{R} (\pi \hat{i} - 2\hat{k})\)</p>]]></text>
+  </answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>year:2015</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:hi</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>class:class_12</text></tag>
+    <tag><text>chapter:moving_charges_and_magnetism</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:hard</text></tag>
+    <tag><text>blooms:apply</text></tag>
+    <tag><text>calculation:moderate</text></tag>
+    <tag><text>media:diagram</text></tag>
+    <tag><text>multiconcept:true</text></tag>
+  </tags>
+</question>
+
+<question type="multichoice">
+  <name><text>NEET_UG_PHYSICS_2015_MCQ_Q32 - Magnetic field at centre of revolving electron orbit</text></name>
+  <questiontext format="html">
+    <text><![CDATA[
+<p>An electron moving in a circular orbit of radius \(r\) makes \(n\) rotations per second. The magnetic field produced at the centre has magnitude</p>
+<hr/>
+<p>त्रिज्या \(r\) की एक वृत्ताकार कक्षा में गतिमान एक इलेक्ट्रॉन प्रति सेकंड \(n\) चक्कर लगाता है। केंद्र पर उत्पन्न चुंबकीय क्षेत्र का परिमाण है</p>
+    ]]></text>
+  </questiontext>
+  <generalfeedback format="html">
+    <text><![CDATA[
+<p><strong>Step 1: Given Data and Conditions</strong><br/>
+Orbital radius is \(r\), frequency of rotation is \(n\text{ s}^{-1}\), and magnitude of electronic charge is \(e\).</p>
+<p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>
+The revolving electron constitutes an effective steady circular current loop.</p>
+<p><strong>Step 3: Relevant Formulae and Principles</strong><br/>
+Equivalent electric current:
+\[
+I = \frac{q}{T} = q \cdot f = e \cdot n
+\]
+Magnetic field at the center of a circular loop of radius \(r\):
+\[
+B = \frac{\mu_0 I}{2r}
+\]</p>
+<p><strong>Step 4: Step-by-Step Working</strong><br/>
+Substitute the current into the magnetic field formula:
+\[
+B = \frac{\mu_0 (ne)}{2r} = \frac{\mu_0 n e}{2r}
+\]</p>
+<p><strong>Step 5: Check and Final Answer</strong><br/>
+The magnitude of the magnetic field at the centre is \(\frac{\mu_0 n e}{2r}\).</p>
+<hr/>
+<p><strong>चरण 1: दिए गए आँकड़े और शर्तें</strong><br/>
+इलेक्ट्रॉन की कक्षा की त्रिज्या \(r\), चक्कर प्रति सेकंड की संख्या \(n\) तथा आवेश \(e\) है।</p>
+<p><strong>चरण 2: अभिधारणाएँ और चिह्न परिपाटी</strong><br/>
+घूमता हुआ इलेक्ट्रॉन एक वृत्ताकार धारा लूप का निर्माण करता है।</p>
+<p><strong>चरण 3: संबंधित सूत्र और सिद्धांत</strong><br/>
+तुल्य विद्युत धारा:
+\[
+I = e \cdot n
+\]
+वृत्ताकार लूप के केंद्र पर चुंबकीय क्षेत्र:
+\[
+B = \frac{\mu_0 I}{2r}
+\]</p>
+<p><strong>चरण 4: चरणबद्ध हल</strong><br/>
+धारा का मान रखने पर:
+\[
+B = \frac{\mu_0 n e}{2r}
+\]</p>
+<p><strong>चरण 5: जाँच एवं अंतिम उत्तर</strong><br/>
+अतः केंद्र पर चुंबकीय क्षेत्र का परिमाण \(\frac{\mu_0 n e}{2r}\) है।</p>
+    ]]></text>
+  </generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(\frac{\mu_0 n e}{2\pi r}\)</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>zero</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(\frac{\mu_0 n^2 e}{r}\)</p>]]></text>
+  </answer>
+  <answer fraction="100" format="html">
+    <text><![CDATA[<p>\(\frac{\mu_0 n e}{2r}\)</p>]]></text>
+  </answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>year:2015</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:hi</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>class:class_12</text></tag>
+    <tag><text>chapter:moving_charges_and_magnetism</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:easy</text></tag>
+    <tag><text>blooms:apply</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:text</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+
+<question type="multichoice">
+  <name><text>NEET_UG_PHYSICS_2015_MCQ_Q33 - Induced emf in square frame moving near straight current</text></name>
+  <questiontext format="html">
+    <text><![CDATA[
+<p>A conducting square frame of side &#39;\(a\)&#39; and a long straight wire carrying current \(I\) are located in the same plane as shown in the figure. The frame moves to the right with a constant velocity &#39;\(v\)&#39;. The emf induced in the frame will be proportional to</p>
+<p><img src="@@PLUGINFILE@@/img-7.jpeg" alt="Square frame of side a moving away from straight current wire" /></p>
+<hr/>
+<p>भुजा &#39;\(a\)&#39; का एक चालक वर्गाकार फ्रेम तथा धारा \(I\) ले जाने वाला एक लंबा सीधा तार एक ही तल में स्थित हैं जैसा कि चित्र में दर्शाया गया है। फ्रेम एक नियत वेग &#39;\(v\)&#39; से दाईं ओर गति करता है। फ्रेम में प्रेरित वि.वा.बल किसके समानुपाती होगा?</p>
+    ]]></text>
+  </questiontext>
+  <generalfeedback format="html">
+    <text><![CDATA[
+<p><strong>Step 1: Given Data and Conditions</strong><br/>
+A square loop of side \(a\) moves away from a straight wire carrying current \(I\) with constant speed \(v\). The distance from the wire to the central axis of the frame is \(x\).</p>
+<p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>
+Only the two vertical segments of the square loop (parallel to the straight wire) cut magnetic flux and contribute to motional emf. The top and bottom horizontal segments move parallel to themselves, generating zero emf.</p>
+<p><strong>Step 3: Relevant Formulae and Principles</strong><br/>
+Magnetic field due to a long straight wire at distance \(r\):
+\[
+B(r) = \frac{\mu_0 I}{2\pi r}
+\]
+Motional emf in a conductor of length \(a\) moving with speed \(v\) perpendicular to field \(B\):
+\[
+\mathcal{E} = B v a
+\]</p>
+<p><strong>Step 4: Step-by-Step Working</strong><br/>
+Distance of the left vertical side from the straight wire:
+\[
+r_1 = x - \frac{a}{2} = \frac{2x - a}{2}
+\]
+Distance of the right vertical side from the straight wire:
+\[
+r_2 = x + \frac{a}{2} = \frac{2x + a}{2}
+\]
+The induced emfs in the two parallel sides oppose each other around the loop:
+\[
+\mathcal{E}_{\text{net}} = \mathcal{E}_1 - \mathcal{E}_2 = B_1 v a - B_2 v a = v a \left[\frac{\mu_0 I}{2\pi r_1} - \frac{\mu_0 I}{2\pi r_2}\right]
+\]
+Substituting \(r_1\) and \(r_2\):
+\[
+\mathcal{E}_{\text{net}} = \frac{\mu_0 I v a}{2\pi} \left[ \frac{2}{2x - a} - \frac{2}{2x + a} \right] = \frac{\mu_0 I v a}{\pi} \left[ \frac{(2x + a) - (2x - a)}{(2x - a)(2x + a)} \right] = \frac{2\mu_0 I v a^2}{\pi (2x - a)(2x + a)}
+\]
+Therefore:
+\[
+\mathcal{E}_{\text{net}} \propto \frac{1}{(2x - a)(2x + a)}
+\]</p>
+<p><strong>Step 5: Check and Final Answer</strong><br/>
+The induced emf is proportional to \(\frac{1}{(2x - a)(2x + a)}\).</p>
+<hr/>
+<p><strong>चरण 1: दिए गए आँकड़े और शर्तें</strong><br/>
+फ्रेम की भुजा \(a\), तार में धारा \(I\), चाल \(v\), तथा तार से फ्रेम के केंद्र की दूरी \(x\) है।</p>
+<p><strong>चरण 2: अभिधारणाएँ और चिह्न परिपाटी</strong><br/>
+तार के समांतर दोनों ऊर्ध्वाधर भुजाओं में गतिक वि.वा.बल उत्पन्न होता है, जबकि क्षैतिज भुजाओं में कोई वि.वा.बल उत्पन्न नहीं होता।</p>
+<p><strong>चरण 3: संबंधित सूत्र और सिद्धांत</strong><br/>
+सीधे तार के कारण चुंबकीय क्षेत्र \(B = \frac{\mu_0 I}{2\pi r}\) तथा गतिक वि.वा.बल \(\mathcal{E} = B v a\) होता है।</p>
+<p><strong>चरण 4: चरणबद्ध हल</strong><br/>
+बाईं भुजा की दूरी: \(r_1 = x - a/2 = \frac{2x - a}{2}\)<br/>
+दाईं भुजा की दूरी: \(r_2 = x + a/2 = \frac{2x + a}{2}\)<br/>
+नेट प्रेरित वि.वा.बल:
+\[
+\mathcal{E} = v a (B_1 - B_2) \propto \left( \frac{1}{2x - a} - \frac{1}{2x + a} \right) = \frac{2a}{(2x - a)(2x + a)}
+\]
+अतः:
+\[
+\mathcal{E} \propto \frac{1}{(2x - a)(2x + a)}
+\]</p>
+<p><strong>चरण 5: जाँच एवं अंतिम उत्तर</strong><br/>
+अतः प्रेरित वि.वा.बल \(\frac{1}{(2x - a)(2x + a)}\) के समानुपाती है।</p>
+    ]]></text>
+  </generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(\frac{1}{x^2}\)</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(\frac{1}{(2x - a)^2}\)</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(\frac{1}{(2x + a)^2}\)</p>]]></text>
+  </answer>
+  <answer fraction="100" format="html">
+    <text><![CDATA[<p>\(\frac{1}{(2x - a)(2x + a)}\)</p>]]></text>
+  </answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>year:2015</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:hi</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>class:class_12</text></tag>
+    <tag><text>chapter:electromagnetic_induction</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:medium</text></tag>
+    <tag><text>blooms:apply</text></tag>
+    <tag><text>calculation:moderate</text></tag>
+    <tag><text>media:diagram</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+
+<question type="multichoice">
+  <name><text>NEET_UG_PHYSICS_2015_MCQ_Q34 - Power drawn by RL series AC circuit</text></name>
+  <questiontext format="html">
+    <text><![CDATA[
+<p>A resistance &#39;\(R\)&#39; draws power &#39;\(P\)&#39; when connected to an AC source. If an inductance is now placed in series with the resistance, such that the impedance of the circuit becomes &#39;\(Z\)&#39; the power drawn will be</p>
+<hr/>
+<p>एक प्रतिरोधक &#39;\(R\)&#39; किसी प्रत्यावर्ती धारा (AC) स्रोत से जोड़े जाने पर &#39;\(P\)&#39; शक्ति लेता है। यदि अब इस प्रतिरोधक के श्रेणीक्रम में एक प्रेरकत्व इस प्रकार जोड़ा जाता है कि परिपथ की प्रतिबाधा &#39;\(Z\)&#39; हो जाती है, तो ली गई शक्ति होगी</p>
+    ]]></text>
+  </questiontext>
+  <generalfeedback format="html">
+    <text><![CDATA[
+<p><strong>Step 1: Given Data and Conditions</strong><br/>
+Initially, purely resistive circuit with resistance \(R\) connected to source voltage \(V_{\text{rms}}\), drawing power \(P\). Then an inductor is added in series, giving circuit impedance \(Z\).</p>
+<p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>
+The rms voltage of the AC supply is constant.</p>
+<p><strong>Step 3: Relevant Formulae and Principles</strong><br/>
+Power in purely resistive circuit:
+\[
+P = \frac{V_{\text{rms}}^2}{R} \implies V_{\text{rms}}^2 = P R
+\]
+Power in an AC circuit with impedance \(Z\):
+\[
+P' = V_{\text{rms}} I_{\text{rms}} \cos \phi
+\]
+where \(I_{\text{rms}} = \frac{V_{\text{rms}}}{Z}\) and power factor \(\cos \phi = \frac{R}{Z}\).</p>
+<p><strong>Step 4: Step-by-Step Working</strong><br/>
+Substituting the expressions into the power formula:
+\[
+P' = V_{\text{rms}} \left(\frac{V_{\text{rms}}}{Z}\right) \left(\frac{R}{Z}\right) = \frac{V_{\text{rms}}^2 R}{Z^2}
+\]
+Substitute \(V_{\text{rms}}^2 = P R\):
+\[
+P' = \frac{(P R) R}{Z^2} = P \frac{R^2}{Z^2} = P\left(\frac{R}{Z}\right)^2
+\]</p>
+<p><strong>Step 5: Check and Final Answer</strong><br/>
+For \(Z = R\) (purely resistive), \(P' = P\). The power drawn is \(P\left(\frac{R}{Z}\right)^2\).</p>
+<hr/>
+<p><strong>चरण 1: दिए गए आँकड़े और शर्तें</strong><br/>
+शुद्ध प्रतिरोध परिपथ में शक्ति \(P\) है। प्रेरकत्व जोड़ने पर प्रतिबाधा \(Z\) हो जाती है।</p>
+<p><strong>चरण 2: अभिधारणाएँ और चिह्न परिपाटी</strong><br/>
+प्रत्यावर्ती स्रोत की rms वोल्टता \(V\) नियत है।</p>
+<p><strong>चरण 3: संबंधित सूत्र और सिद्धांत</strong><br/>
+प्रारंभिक शक्ति: \(P = \frac{V^2}{R}\)<br/>
+नई शक्ति: \(P' = V I \cos \phi = V \left(\frac{V}{Z}\right) \left(\frac{R}{Z}\right) = \frac{V^2 R}{Z^2}\)</p>
+<p><strong>चरण 4: चरणबद्ध हल</strong><br/>
+\(V^2 = P R\) रखने पर:
+\[
+P' = \frac{(P R) R}{Z^2} = P\left(\frac{R}{Z}\right)^2
+\]</p>
+<p><strong>चरण 5: जाँच एवं अंतिम उत्तर</strong><br/>
+अतः ली गई शक्ति \(P\left(\frac{R}{Z}\right)^2\) होगी।</p>
+    ]]></text>
+  </generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="100" format="html">
+    <text><![CDATA[<p>\(P\left(\frac{R}{Z}\right)^2\)</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(P\sqrt{\frac{R}{Z}}\)</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(P\left(\frac{R}{Z}\right)\)</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(P\)</p>]]></text>
+  </answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>year:2015</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:hi</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>class:class_12</text></tag>
+    <tag><text>chapter:alternating_current</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:easy</text></tag>
+    <tag><text>blooms:apply</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:text</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+
+<question type="multichoice">
+  <name><text>NEET_UG_PHYSICS_2015_MCQ_Q35 - Momentum transferred to perfectly reflecting surface</text></name>
+  <questiontext format="html">
+    <text><![CDATA[
+<p>A radiation of energy &#39;\(E\)&#39; falls normally on a perfectly reflecting surface. The momentum transferred to the surface is (\(c =\) velocity of light)</p>
+<hr/>
+<p>ऊर्जा &#39;\(E\)&#39; का विकिरण एक पूर्णतः परावर्तक पृष्ठ पर अभिलंबवत आपतित होता है। पृष्ठ को स्थानांतरित संवेग होगा (\(c =\) प्रकाश का वेग)</p>
+    ]]></text>
+  </questiontext>
+  <generalfeedback format="html">
+    <text><![CDATA[
+<p><strong>Step 1: Given Data and Conditions</strong><br/>
+Incident radiant energy is \(E\). The radiation strikes a perfectly reflecting surface at normal incidence. Speed of light is \(c\).</p>
+<p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>
+Let the direction of incidence be positive. The reflected radiation reverses direction with zero energy absorption.</p>
+<p><strong>Step 3: Relevant Formulae and Principles</strong><br/>
+Momentum carried by radiation of energy \(E\):
+\[
+p = \frac{E}{c}
+\]
+The momentum transferred to the surface equals the magnitude of the change in momentum of the radiation:
+\[
+\Delta p_{\text{transferred}} = |p_f - p_i|
+\]</p>
+<p><strong>Step 4: Step-by-Step Working</strong><br/>
+Incident momentum:
+\[
+p_i = +\frac{E}{c}
+\]
+Reflected momentum:
+\[
+p_f = -\frac{E}{c}
+\]
+Momentum transferred to the reflecting surface:
+\[
+\Delta p = p_i - p_f = \frac{E}{c} - \left(-\frac{E}{c}\right) = \frac{2E}{c}
+\]</p>
+<p><strong>Step 5: Check and Final Answer</strong><br/>
+Due to complete reflection, the momentum change is doubled compared to complete absorption. The momentum transferred is \(\frac{2E}{c}\).</p>
+<hr/>
+<p><strong>चरण 1: दिए गए आँकड़े और शर्तें</strong><br/>
+आपतित ऊर्जा \(E\), प्रकाश की चाल \(c\), तथा पृष्ठ पूर्णतः परावर्तक है।</p>
+<p><strong>चरण 2: अभिधारणाएँ और चिह्न परिपाटी</strong><br/>
+आपतन की दिशा को धनात्मक तथा परावर्तन को ऋणात्मक माना गया है।</p>
+<p><strong>चरण 3: संबंधित सूत्र और सिद्धांत</strong><br/>
+विकिरण का संवेग \(p = \frac{E}{c}\) होता है। स्थानांतरित संवेग:
+\[
+\Delta p = p_i - p_f
+\]</p>
+<p><strong>चरण 4: चरणबद्ध हल</strong><br/>
+\[
+p_i = \frac{E}{c}, \quad p_f = -\frac{E}{c}
+\]
+\[
+\Delta p = \frac{E}{c} - \left(-\frac{E}{c}\right) = \frac{2E}{c}
+\]</p>
+<p><strong>चरण 5: जाँच एवं अंतिम उत्तर</strong><br/>
+अतः पृष्ठ को स्थानांतरित संवेग \(\frac{2E}{c}\) है।</p>
+    ]]></text>
+  </generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(\frac{E}{c}\)</p>]]></text>
+  </answer>
+  <answer fraction="100" format="html">
+    <text><![CDATA[<p>\(\frac{2E}{c}\)</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(\frac{2E}{c^2}\)</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(\frac{E}{c^2}\)</p>]]></text>
+  </answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>year:2015</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:hi</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>class:class_12</text></tag>
+    <tag><text>chapter:electromagnetic_waves</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:easy</text></tag>
+    <tag><text>blooms:remember</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:text</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+
+<question type="multichoice">
+  <name><text>NEET_UG_PHYSICS_2015_MCQ_Q36 - Equivalent focal length of combination of lenses with liquid</text></name>
+  <questiontext format="html">
+    <text><![CDATA[
+<p>Two identical thin plano-convex glass lenses (refractive index \(1.5\)) each having radius of curvature of \(20\text{ cm}\) are placed with their convex surfaces in contact at the centre. The intervening space is filled with oil of refractive index \(1.7\). The focal length of the combination is</p>
+<hr/>
+<p>काँच (अपवर्तनांक \(1.5\)) के दो सर्वसम पतले समतलोत्तल लेंस, जिनमें प्रत्येक की वक्रता त्रिज्या \(20\text{ cm}\) है, इस प्रकार रखे गए हैं कि उनके उत्तल पृष्ठ केंद्र पर संपर्क में हैं। इनके बीच के रिक्त स्थान को \(1.7\) अपवर्तनांक वाले तेल से भर दिया जाता है। इस संयोजन की फोकस दूरी है</p>
+    ]]></text>
+  </questiontext>
+  <generalfeedback format="html">
+    <text><![CDATA[
+<p><strong>Step 1: Given Data and Conditions</strong><br/>
+Two plano-convex lenses of glass (\(\mu_g = 1.5\)), each with radius of curvature \(R = 20\text{ cm}\). Convex surfaces face each other and touch at the center. Oil of refractive index \(\mu_o = 1.7\) fills the intervening space.</p>
+<p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>
+The optical system consists of three thin lenses in contact: two plano-convex glass lenses and an enclosed double-concave liquid lens.</p>
+<p><strong>Step 3: Relevant Formulae and Principles</strong><br/>
+Lens Maker's Formula:
+\[
+\frac{1}{f} = (\mu - 1)\left(\frac{1}{R_1} - \frac{1}{R_2}\right)
+\]
+Equivalent focal length of thin lenses in contact:
+\[
+\frac{1}{F} = \frac{1}{f_1} + \frac{1}{f_{\text{liquid}}} + \frac{1}{f_2}
+\]</p>
+<p><strong>Step 4: Step-by-Step Working</strong><br/>
+For each plano-convex glass lens:
+\[
+\frac{1}{f_1} = \frac{1}{f_2} = (1.5 - 1)\left(\frac{1}{20} - \frac{1}{\infty}\right) = 0.5 \times \frac{1}{20} = \frac{1}{40}\text{ cm}^{-1}
+\]
+The liquid layer forms a biconcave lens with bounding radii \(R_1 = -20\text{ cm}\) and \(R_2 = +20\text{ cm}\):
+\[
+\frac{1}{f_{\text{liquid}}} = (\mu_o - 1)\left(-\frac{1}{20} - \frac{1}{20}\right) = (1.7 - 1)\left(-\frac{2}{20}\right) = 0.7 \times \left(-\frac{1}{10}\right) = -\frac{7}{100}\text{ cm}^{-1}
+\]
+Total power of the lens combination:
+\[
+\frac{1}{F} = \frac{1}{40} + \frac{1}{40} - \frac{7}{100} = \frac{1}{20} - \frac{7}{100} = \frac{5 - 7}{100} = -\frac{2}{100} = -\frac{1}{50}\text{ cm}^{-1}
+\]
+Solving for the equivalent focal length:
+\[
+F = -50\text{ cm}
+\]</p>
+<p><strong>Step 5: Check and Final Answer</strong><br/>
+The diverging power of the dense oil lens exceeds the converging power of both glass lenses, resulting in a net negative focal length of \(-50\text{ cm}\).</p>
+<hr/>
+<p><strong>चरण 1: दिए गए आँकड़े और शर्तें</strong><br/>
+काँच के दो समतलोत्तल लेंस (\(\mu_g = 1.5\)), वक्रता त्रिज्या \(R = 20\text{ cm}\)। बीच में भरा तेल (\(\mu_o = 1.7\))।</p>
+<p><strong>चरण 2: अभिधारणाएँ और चिह्न परिपाटी</strong><br/>
+यह निकाय संपर्क में रखे तीन पतले लेंसों (दो उत्तल काँच लेंस तथा एक अवतल द्रव लेंस) के समतुल्य है।</p>
+<p><strong>चरण 3: संबंधित सूत्र और सिद्धांत</strong><br/>
+लेंस निर्माता सूत्र:
+\[
+\frac{1}{f} = (\mu - 1)\left(\frac{1}{R_1} - \frac{1}{R_2}\right)
+\]</p>
+<p><strong>चरण 4: चरणबद्ध हल</strong><br/>
+प्रत्येक समतलोत्तल लेंस के लिए:
+\[
+\frac{1}{f_1} = \frac{1}{f_2} = (1.5 - 1)\left(\frac{1}{20}\right) = \frac{1}{40}\text{ cm}^{-1}
+\]
+उभयावतल द्रव लेंस के लिए:
+\[
+\frac{1}{f_{\text{liquid}}} = (1.7 - 1)\left(-\frac{2}{20}\right) = -\frac{7}{100}\text{ cm}^{-1}
+\]
+संयोजन की तुल्य फोकस दूरी:
+\[
+\frac{1}{F} = \frac{1}{40} + \frac{1}{40} - \frac{7}{100} = \frac{1}{20} - \frac{7}{100} = -\frac{2}{100} = -\frac{1}{50}\text{ cm}^{-1}
+\]
+\[
+F = -50\text{ cm}
+\]</p>
+<p><strong>चरण 5: जाँच एवं अंतिम उत्तर</strong><br/>
+अतः संयोजन की तुल्य फोकस दूरी \(-50\text{ cm}\) है।</p>
+    ]]></text>
+  </generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(-20\text{ cm}\)</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(-25\text{ cm}\)</p>]]></text>
+  </answer>
+  <answer fraction="100" format="html">
+    <text><![CDATA[<p>\(-50\text{ cm}\)</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(50\text{ cm}\)</p>]]></text>
+  </answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>year:2015</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:hi</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>class:class_12</text></tag>
+    <tag><text>chapter:ray_optics_and_optical_instruments</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:medium</text></tag>
+    <tag><text>blooms:apply</text></tag>
+    <tag><text>calculation:moderate</text></tag>
+    <tag><text>media:text</text></tag>
+    <tag><text>multiconcept:true</text></tag>
+  </tags>
+</question>
+
+<question type="multichoice">
+  <name><text>NEET_UG_PHYSICS_2015_MCQ_Q37 - Linear width of central maximum in single slit diffraction</text></name>
+  <questiontext format="html">
+    <text><![CDATA[
+<p>For a parallel beam of monochromatic light of wavelength &#39;\(\lambda\)&#39; diffraction is produced by a single slit whose width &#39;\(a\)&#39; is of the order of the wavelength of the light. If &#39;\(D\)&#39; is the distance of the screen from the slit, the width of the central maxima will be</p>
+<hr/>
+<p>तरंगदैर्घ्य &#39;\(\lambda\)&#39; के एकवर्णी प्रकाश के समांतर किरण पुंज द्वारा एक झिरी (slit), जिसकी चौड़ाई &#39;\(a\)&#39; प्रकाश के तरंगदैर्घ्य की कोटि की है, से विवर्तन उत्पन्न होता है। यदि झिरी से पर्दे की दूरी &#39;\(D\)&#39; हो, तो केंद्रीय उच्चिष्ठ की चौड़ाई होगी</p>
+    ]]></text>
+  </questiontext>
+  <generalfeedback format="html">
+    <text><![CDATA[
+<p><strong>Step 1: Conceptual Principle</strong><br/>
+In Fraunhofer single-slit diffraction, the central maximum is bounded by the first diffraction minima on either side of the center.</p>
+<p><strong>Step 2: Angular Position of Minima</strong><br/>
+The condition for the first diffraction minimum is:
+\[
+a \sin \theta = \lambda \implies \theta \approx \frac{\lambda}{a}
+\]
+where \(\theta\) is the angular half-width of the central maximum.</p>
+<p><strong>Step 3: Total Linear Width on Screen</strong><br/>
+The total angular width of the central maximum is:
+\[
+2\theta = \frac{2\lambda}{a}
+\]
+Linear width of the central maximum on a screen placed at distance \(D\) is:
+\[
+\beta_0 = 2 \theta D = \frac{2D\lambda}{a}
+\]</p>
+<p><strong>Step 4: Final Conclusion</strong><br/>
+The linear width of the central maximum is \(\frac{2D\lambda}{a}\).</p>
+<hr/>
+<p><strong>चरण 1: सैद्धांतिक नियम</strong><br/>
+एकल झिरी विवर्तन में केंद्रीय उच्चिष्ठ दोनों ओर के प्रथम निम्निष्ठों के मध्य विस्तृत होता है।</p>
+<p><strong>चरण 2: निम्निष्ठ की कोणीय स्थिति</strong><br/>
+प्रथम निम्निष्ठ के लिए:
+\[
+a \sin \theta = \lambda \implies \theta \approx \frac{\lambda}{a}
+\]</p>
+<p><strong>चरण 3: पर्दे पर रैखिक चौड़ाई</strong><br/>
+कुल कोणीय चौड़ाई \(2\theta = \frac{2\lambda}{a}\) है। पर्दे पर रैखिक चौड़ाई:
+\[
+\beta_0 = 2 \theta D = \frac{2D\lambda}{a}
+\]</p>
+<p><strong>चरण 4: अंतिम निष्कर्ष</strong><br/>
+अतः केंद्रीय उच्चिष्ठ की चौड़ाई \(\frac{2D\lambda}{a}\) होगी।</p>
+    ]]></text>
+  </generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(\frac{Da}{\lambda}\)</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(\frac{2Da}{\lambda}\)</p>]]></text>
+  </answer>
+  <answer fraction="100" format="html">
+    <text><![CDATA[<p>\(\frac{2D\lambda}{a}\)</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(\frac{D\lambda}{a}\)</p>]]></text>
+  </answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>year:2015</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:hi</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>class:class_12</text></tag>
+    <tag><text>chapter:wave_optics</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:easy</text></tag>
+    <tag><text>blooms:remember</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:text</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+
+<question type="multichoice">
+  <name><text>NEET_UG_PHYSICS_2015_MCQ_Q38 - Slit width for ten double slit fringes in central diffraction maximum</text></name>
+  <questiontext format="html">
+    <text><![CDATA[
+<p>In a double slit experiment, the two slits are \(1\text{ mm}\) apart and the screen is placed \(1\text{ m}\) away. A monochromatic light of wavelength \(500\text{ nm}\) is used. What will be the width of each slit for obtaining ten maxima of double slit within the central maxima of single slit pattern?</p>
+<hr/>
+<p>एक द्वि-झिरी प्रयोग में दोनों झिरियाँ \(1\text{ mm}\) दूरी पर हैं तथा पर्दा \(1\text{ m}\) दूर रखा गया है। \(500\text{ nm}\) तरंगदैर्घ्य का एकवर्णी प्रकाश प्रयुक्त किया जाता है। एकल झिरी प्रारूप के केंद्रीय उच्चिष्ठ के भीतर द्वि-झिरी के दस उच्चिष्ठ प्राप्त करने के लिए प्रत्येक झिरी की चौड़ाई क्या होगी?</p>
+    ]]></text>
+  </questiontext>
+  <generalfeedback format="html">
+    <text><![CDATA[
+<p><strong>Step 1: Given Data and Conditions</strong><br/>
+Slit separation is \(d = 1\text{ mm} = 10^{-3}\text{ m}\), screen distance is \(D = 1\text{ m}\), and wavelength is \(\lambda = 500\text{ nm}\). Ten interference maxima of the double-slit system lie inside the central maximum of the single-slit diffraction envelope.</p>
+<p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>
+Standard small-angle approximations hold for diffraction and interference patterns.</p>
+<p><strong>Step 3: Relevant Formulae and Principles</strong><br/>
+Linear width of the central diffraction maximum of a single slit of width \(a\):
+\[
+W_{\text{diff}} = \frac{2\lambda D}{a}
+\]
+Fringe width of double-slit interference fringes:
+\[
+\beta = \frac{\lambda D}{d}
+\]</p>
+<p><strong>Step 4: Step-by-Step Working</strong><br/>
+Equating the width of the central maximum to 10 interference fringe widths:
+\[
+10 \beta = W_{\text{diff}}
+\]
+\[
+10 \left(\frac{\lambda D}{d}\right) = \frac{2\lambda D}{a}
+\]
+Cancelling \(\lambda D\) from both sides:
+\[
+\frac{10}{d} = \frac{2}{a} \implies a = \frac{2d}{10} = \frac{d}{5}
+\]
+Substituting \(d = 1\text{ mm}\):
+\[
+a = \frac{1\text{ mm}}{5} = 0.2\text{ mm}
+\]</p>
+<p><strong>Step 5: Check and Final Answer</strong><br/>
+The slit width is independent of wavelength \(\lambda\) and distance \(D\). The required slit width is \(0.2\text{ mm}\).</p>
+<hr/>
+<p><strong>चरण 1: दिए गए आँकड़े और शर्तें</strong><br/>
+झिरियों के बीच की दूरी \(d = 1\text{ mm}\), पर्दे की दूरी \(D = 1\text{ m}\), तरंगदैर्घ्य \(\lambda = 500\text{ nm}\) है। केंद्रीय उच्चिष्ठ में 10 व्यतिकरण फ्रिंजें समाहित हैं।</p>
+<p><strong>चरण 2: अभिधारणाएँ और चिह्न परिपाटी</strong><br/>
+केंद्रीय विवर्तन उच्चिष्ठ का विस्तार 10 व्यतिकरण फ्रिंजों के बराबर है।</p>
+<p><strong>चरण 3: संबंधित सूत्र और सिद्धांत</strong><br/>
+केंद्रीय उच्चिष्ठ की चौड़ाई: \(W = \frac{2\lambda D}{a}\)<br/>
+व्यतिकरण फ्रिंज चौड़ाई: \(\beta = \frac{\lambda D}{d}\)</p>
+<p><strong>चरण 4: चरणबद्ध हल</strong><br/>
+\[
+10 \left(\frac{\lambda D}{d}\right) = \frac{2\lambda D}{a} \implies a = \frac{2d}{10} = 0.2 d = 0.2 \times 1\text{ mm} = 0.2\text{ mm}
+\]</p>
+<p><strong>चरण 5: जाँच एवं अंतिम उत्तर</strong><br/>
+अतः प्रत्येक झिरी की चौड़ाई \(0.2\text{ mm}\) होगी।</p>
+    ]]></text>
+  </generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="100" format="html">
+    <text><![CDATA[<p>\(0.2\text{ mm}\)</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(0.1\text{ mm}\)</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(0.5\text{ mm}\)</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(0.02\text{ mm}\)</p>]]></text>
+  </answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>year:2015</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:hi</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>class:class_12</text></tag>
+    <tag><text>chapter:wave_optics</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:medium</text></tag>
+    <tag><text>blooms:apply</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:text</text></tag>
+    <tag><text>multiconcept:true</text></tag>
+  </tags>
+</question>
+
+<question type="multichoice">
+  <name><text>NEET_UG_PHYSICS_2015_MCQ_Q39 - Angle of minimum deviation of prism with cotangent refractive index</text></name>
+  <questiontext format="html">
+    <text><![CDATA[
+<p>The refracting angle of a prism is \(A\), and refractive index of the material of the prism is \(\cot\left(\frac{A}{2}\right)\). The angle of minimum deviation is</p>
+<hr/>
+<p>एक प्रिज्म का अपवर्तक कोण \(A\) है, तथा इसके पदार्थ का अपवर्तनांक \(\cot\left(\frac{A}{2}\right)\) है। न्यूनतम विचलन कोण है</p>
+    ]]></text>
+  </questiontext>
+  <generalfeedback format="html">
+    <text><![CDATA[
+<p><strong>Step 1: Given Data and Conditions</strong><br/>
+Angle of the prism is \(A\). Refractive index of prism material is \(\mu = \cot\left(\frac{A}{2}\right)\).</p>
+<p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>
+Prism formula for minimum deviation \(\delta_m\) in air.</p>
+<p><strong>Step 3: Relevant Formulae and Principles</strong><br/>
+Prism formula:
+\[
+\mu = \frac{\sin\left(\frac{A + \delta_m}{2}\right)}{\sin\left(\frac{A}{2}\right)}
+\]
+Trigonometric identity:
+\[
+\cot\theta = \frac{\cos\theta}{\sin\theta} = \frac{\sin(90^\circ - \theta)}{\sin\theta}
+\]</p>
+<p><strong>Step 4: Step-by-Step Working</strong><br/>
+Equating the given refractive index to the prism formula:
+\[
+\frac{\sin\left(\frac{A + \delta_m}{2}\right)}{\sin\left(\frac{A}{2}\right)} = \cot\left(\frac{A}{2}\right) = \frac{\cos\left(\frac{A}{2}\right)}{\sin\left(\frac{A}{2}\right)}
+\]
+Cancelling the common denominator \(\sin\left(\frac{A}{2}\right)\):
+\[
+\sin\left(\frac{A + \delta_m}{2}\right) = \cos\left(\frac{A}{2}\right)
+\]
+Expressing the cosine as sine using the complementary angle identity:
+\[
+\sin\left(\frac{A + \delta_m}{2}\right) = \sin\left(90^\circ - \frac{A}{2}\right)
+\]
+Equating the arguments:
+\[
+\frac{A + \delta_m}{2} = 90^\circ - \frac{A}{2}
+\]
+Multiplying throughout by 2:
+\[
+A + \delta_m = 180^\circ - A \implies \delta_m = 180^\circ - 2A
+\]</p>
+<p><strong>Step 5: Check and Final Answer</strong><br/>
+The angle of minimum deviation is \(180^\circ - 2A\).</p>
+<hr/>
+<p><strong>चरण 1: दिए गए आँकड़े और शर्तें</strong><br/>
+प्रिज्म कोण \(A\) तथा अपवर्तनांक \(\mu = \cot(A/2)\) है।</p>
+<p><strong>चरण 2: अभिधारणाएँ और चिह्न परिपाटी</strong><br/>
+न्यूनतम विचलन की स्थिति में प्रिज्म सूत्र लागू होता है।</p>
+<p><strong>चरण 3: संबंधित सूत्र और सिद्धांत</strong><br/>
+\[
+\mu = \frac{\sin\left(\frac{A + \delta_m}{2}\right)}{\sin\left(\frac{A}{2}\right)}
+\]</p>
+<p><strong>चरण 4: चरणबद्ध हल</strong><br/>
+\[
+\frac{\sin\left(\frac{A + \delta_m}{2}\right)}{\sin\left(\frac{A}{2}\right)} = \frac{\cos(A/2)}{\sin(A/2)}
+\]
+\[
+\sin\left(\frac{A + \delta_m}{2}\right) = \cos(A/2) = \sin\left(90^\circ - \frac{A}{2}\right)
+\]
+\[
+\frac{A + \delta_m}{2} = 90^\circ - \frac{A}{2} \implies \delta_m = 180^\circ - 2A
+\]</p>
+<p><strong>चरण 5: जाँच एवं अंतिम उत्तर</strong><br/>
+अतः न्यूनतम विचलन कोण \(180^\circ - 2A\) है।</p>
+    ]]></text>
+  </generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(180^\circ - 3A\)</p>]]></text>
+  </answer>
+  <answer fraction="100" format="html">
+    <text><![CDATA[<p>\(180^\circ - 2A\)</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(90^\circ - A\)</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(180^\circ + 2A\)</p>]]></text>
+  </answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>year:2015</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:hi</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>class:class_12</text></tag>
+    <tag><text>chapter:ray_optics_and_optical_instruments</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:easy</text></tag>
+    <tag><text>blooms:apply</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:text</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+
+<question type="multichoice">
+  <name><text>NEET_UG_PHYSICS_2015_MCQ_Q40 - Threshold wavelength from two photoelectric stopping potentials</text></name>
+  <questiontext format="html">
+    <text><![CDATA[
+<p>A certain metallic surface is illuminated with monochromatic light of wavelength \(\lambda\). The stopping potential for photoelectric current for this light is \(3V_0\). If the same surface is illuminated with light of wavelength \(2\lambda\), the stopping potential is \(V_0\). The threshold wavelength for this surface for photoelectric effect is</p>
+<hr/>
+<p>एक निश्चित धातु के पृष्ठ को तरंगदैर्घ्य \(\lambda\) के एकवर्णी प्रकाश से प्रदीप्त किया जाता है। इस प्रकाश के लिए प्रकाश-विद्युत धारा का निरोधी विभव \(3V_0\) है। यदि इसी पृष्ठ को तरंगदैर्घ्य \(2\lambda\) के प्रकाश से प्रदीप्त किया जाए, तो निरोधी विभव \(V_0\) हो जाता है। प्रकाश-विद्युत प्रभाव के लिए इस पृष्ठ की देहली तरंगदैर्घ्य है</p>
+    ]]></text>
+  </questiontext>
+  <generalfeedback format="html">
+    <text><![CDATA[
+<p><strong>Step 1: Given Data and Conditions</strong><br/>
+<ul>
+  <li>For incident wavelength \(\lambda_1 = \lambda\), stopping potential is \(V_{s1} = 3V_0\).</li>
+  <li>For incident wavelength \(\lambda_2 = 2\lambda\), stopping potential is \(V_{s2} = V_0\).</li>
+</ul></p>
+<p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>
+Einstein's photoelectric equation applies with work function \(\phi = \frac{hc}{\lambda_0}\), where \(\lambda_0\) is the threshold wavelength.</p>
+<p><strong>Step 3: Relevant Formulae and Principles</strong><br/>
+\[
+e V_s = \frac{hc}{\lambda} - \phi
+\]</p>
+<p><strong>Step 4: Step-by-Step Working</strong><br/>
+Setting up Einstein's equation for both cases:
+\[
+3 e V_0 = \frac{hc}{\lambda} - \phi \quad \text{--- (1)}
+\]
+\[
+e V_0 = \frac{hc}{2\lambda} - \phi \quad \text{--- (2)}
+\]
+Multiplying equation (2) by 3:
+\[
+3 e V_0 = \frac{3hc}{2\lambda} - 3\phi \quad \text{--- (3)}
+\]
+Equating equation (1) and equation (3):
+\[
+\frac{hc}{\lambda} - \phi = \frac{3hc}{2\lambda} - 3\phi
+\]
+Rearranging terms:
+\[
+3\phi - \phi = \frac{3hc}{2\lambda} - \frac{hc}{\lambda}
+\]
+\[
+2\phi = \frac{hc}{2\lambda} \implies \phi = \frac{hc}{4\lambda}
+\]
+Since the work function is related to the threshold wavelength \(\lambda_0\) by \(\phi = \frac{hc}{\lambda_0}\):
+\[
+\frac{hc}{\lambda_0} = \frac{hc}{4\lambda} \implies \lambda_0 = 4\lambda
+\]</p>
+<p><strong>Step 5: Check and Final Answer</strong><br/>
+The threshold wavelength must be greater than both incident wavelengths that yield photoelectric emission, which holds true since \(4\lambda > 2\lambda > \lambda\). Thus, the threshold wavelength is \(4\lambda\).</p>
+<hr/>
+<p><strong>चरण 1: दिए गए आँकड़े और शर्तें</strong><br/>
+तरंगदैर्घ्य \(\lambda\) पर निरोधी विभव \(3V_0\) तथा \(2\lambda\) पर निरोधी विभव \(V_0\) है।</p>
+<p><strong>चरण 2: अभिधारणाएँ और चिह्न परिपाटी</strong><br/>
+आइंस्टीन का प्रकाश-विद्युत समीकरण कार्य फलन \(\phi = \frac{hc}{\lambda_0}\) के साथ लागू होता है।</p>
+<p><strong>चरण 3: संबंधित सूत्र और सिद्धांत</strong><br/>
+\[
+e V_s = \frac{hc}{\lambda} - \phi
+\]</p>
+<p><strong>चरण 4: चरणबद्ध हल</strong><br/>
+दोनों स्थितियों के समीकरण:
+\[
+3 e V_0 = \frac{hc}{\lambda} - \phi
+\]
+\[
+e V_0 = \frac{hc}{2\lambda} - \phi \implies 3 e V_0 = \frac{3hc}{2\lambda} - 3\phi
+\]
+तुलना करने पर:
+\[
+\frac{hc}{\lambda} - \phi = \frac{3hc}{2\lambda} - 3\phi \implies 2\phi = \frac{hc}{2\lambda} \implies \phi = \frac{hc}{4\lambda}
+\]
+देहली तरंगदैर्घ्य:
+\[
+\frac{hc}{\lambda_0} = \frac{hc}{4\lambda} \implies \lambda_0 = 4\lambda
+\]</p>
+<p><strong>चरण 5: जाँच एवं अंतिम उत्तर</strong><br/>
+अतः धातु की देहली तरंगदैर्घ्य \(4\lambda\) है।</p>
+    ]]></text>
+  </generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(6\lambda\)</p>]]></text>
+  </answer>
+  <answer fraction="100" format="html">
+    <text><![CDATA[<p>\(4\lambda\)</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(\frac{\lambda}{4}\)</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(\frac{\lambda}{6}\)</p>]]></text>
+  </answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>year:2015</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:hi</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>class:class_12</text></tag>
+    <tag><text>chapter:dual_nature_of_radiation_and_matter</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:medium</text></tag>
+    <tag><text>blooms:apply</text></tag>
+    <tag><text>calculation:moderate</text></tag>
+    <tag><text>media:text</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+
+<question type="multichoice">
+  <name><text>NEET_UG_PHYSICS_2015_MCQ_Q41 - Graph of particle momentum versus de-Broglie wavelength</text></name>
+  <questiontext format="html">
+    <text><![CDATA[
+<p>Which of the following figures represent the variation of particle momentum and the associated de-Broglie wavelength?</p>
+<hr/>
+<p>निम्नलिखित में से कौन-सा आरेख कण के संवेग तथा संबंधित दे-ब्रॉग्ली तरंगदैर्घ्य के परिवर्तन को दर्शाता है?</p>
+    ]]></text>
+  </questiontext>
+  <generalfeedback format="html">
+    <text><![CDATA[
+<p><strong>Step 1: Conceptual Principle</strong><br/>
+According to the de-Broglie hypothesis, the wavelength \(\lambda\) associated with a particle having linear momentum \(p\) is given by:
+\[
+\lambda = \frac{h}{p}
+\]
+where \(h\) is Planck's constant.</p>
+<p><strong>Step 2: Mathematical Evaluation of the Relationship</strong><br/>
+Rearranging the formula to express momentum \(p\) as a function of \(\lambda\):
+\[
+p = \frac{h}{\lambda} \implies p \cdot \lambda = h = \text{constant}
+\]
+This equation represents an inverse proportionality between \(p\) and \(\lambda\), which defines a rectangular hyperbola in the first quadrant.</p>
+<p><strong>Step 3: Graph Interpretation</strong><br/>
+As the wavelength \(\lambda\) increases toward infinity, the momentum \(p\) asymptotically approaches zero. As \(\lambda\) approaches zero, \(p\) approaches infinity. A rectangular hyperbolic curve asymptotically approaching both coordinate axes correctly depicts this relationship.</p>
+<p><strong>Step 4: Final Conclusion</strong><br/>
+The rectangular hyperbola curve correctly represents the variation of momentum with de-Broglie wavelength.</p>
+<hr/>
+<p><strong>चरण 1: सैद्धांतिक नियम</strong><br/>
+दे-ब्रॉग्ली परिकल्पना के अनुसार, संवेग \(p\) वाले कण की तरंगदैर्घ्य:
+\[
+\lambda = \frac{h}{p}
+\]</p>
+<p><strong>चरण 2: संबंध का गणितीय विश्लेषण</strong><br/>
+\[
+p = \frac{h}{\lambda} \implies p \lambda = h = \text{नियत}
+\]
+यह व्युत्क्रमानुपाती संबंध एक समकोणीय अतिपरवलय (rectangular hyperbola) को दर्शाता है।</p>
+<p><strong>चरण 3: आरेख का विश्लेषण</strong><br/>
+\(\lambda\) बढ़ने पर संवेग \(p\) घटता है और अक्षों की ओर स्पर्शरेखीय होता है। अतः अतिपरवलयी वक्र सही परिवर्तन प्रदर्शित करता है।</p>
+<p><strong>चरण 4: अंतिम निष्कर्ष</strong><br/>
+अतः आयताकार अतिपरवलय वक्र संवेग और दे-ब्रॉग्ली तरंगदैर्घ्य के सही परिवर्तन को निरूपित करता है।</p>
+    ]]></text>
+  </generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p><img src="@@PLUGINFILE@@/img-8.jpeg" alt="Linear increasing graph of p versus lambda" /></p>]]></text>
+  </answer>
+  <answer fraction="100" format="html">
+    <text><![CDATA[<p><img src="@@PLUGINFILE@@/img-9.jpeg" alt="Rectangular hyperbola graph of p versus lambda" /></p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p><img src="@@PLUGINFILE@@/img-10.jpeg" alt="Linear decreasing graph of p versus lambda" /></p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p><img src="@@PLUGINFILE@@/img-11.jpeg" alt="Non-linear increasing graph of p versus lambda" /></p>]]></text>
+  </answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>year:2015</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:hi</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>class:class_12</text></tag>
+    <tag><text>chapter:dual_nature_of_radiation_and_matter</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:easy</text></tag>
+    <tag><text>blooms:understand</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:diagram</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+
+<question type="multichoice">
+  <name><text>NEET_UG_PHYSICS_2015_MCQ_Q42 - Speed of electron in third Bohr orbit of singly ionized helium</text></name>
+  <questiontext format="html">
+    <text><![CDATA[
+<p>Consider Third orbit of He\(^+\) (Helium), using non-relativistic approach, the speed of electron in this orbit will be (given \(K = 9 \times 10^9\text{ N m}^2/\text{C}^2\) constant, \(Z = 2\) and \(h\) (Planck&#39;s constant) \(= 6.6 \times 10^{-34}\text{ J-s}\))</p>
+<hr/>
+<p>He\(^+\) (हीलियम) की तीसरी कक्षा पर विचार कीजिए। अनापेक्षिकीय (non-relativistic) उपागम का उपयोग करते हुए, इस कक्षा में इलेक्ट्रॉन की चाल होगी (दिया है \(K = 9 \times 10^9\) नियतांक, \(Z = 2\) तथा \(h\) (प्लांक नियतांक) \(= 6.6 \times 10^{-34}\text{ J-s}\))</p>
+    ]]></text>
+  </questiontext>
+  <generalfeedback format="html">
+    <text><![CDATA[
+<p><strong>Step 1: Given Data and Conditions</strong><br/>
+<ul>
+  <li>Ion: \(\text{He}^+\), atomic number \(Z = 2\)</li>
+  <li>Principal quantum number: \(n = 3\)</li>
+  <li>Electrostatic constant: \(K = \frac{1}{4\pi\varepsilon_0} = 9 \times 10^9\text{ N m}^2\text{ C}^{-2}\)</li>
+  <li>Planck's constant: \(h = 6.6 \times 10^{-34}\text{ J s}\)</li>
+  <li>Electronic charge: \(e = 1.6 \times 10^{-19}\text{ C}\)</li>
+</ul></p>
+<p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>
+Non-relativistic Bohr model of hydrogen-like species applies.</p>
+<p><strong>Step 3: Relevant Formulae and Principles</strong><br/>
+Bohr quantization of angular momentum:
+\[
+m v r = \frac{n h}{2\pi}
+\]
+Balancing Coulomb force with centripetal force:
+\[
+\frac{K Z e^2}{r^2} = \frac{m v^2}{r} \implies m v^2 r = K Z e^2
+\]
+Dividing the two equations gives the orbital speed:
+\[
+v = \frac{2\pi K Z e^2}{n h}
+\]</p>
+<p><strong>Step 4: Step-by-Step Working</strong><br/>
+Substitute the given values into the velocity equation:
+\[
+v = \frac{2 \pi \times (9 \times 10^9) \times 2 \times (1.6 \times 10^{-19})^2}{3 \times (6.6 \times 10^{-34})}
+\]
+Evaluating numerator and denominator:
+\[
+\text{Numerator} = 36\pi \times 10^9 \times 2.56 \times 10^{-38} \approx 113.097 \times 2.56 \times 10^{-29} \approx 289.53 \times 10^{-29}\text{ N m}^2
+\]
+\[
+\text{Denominator} = 3 \times 6.6 \times 10^{-34} = 19.8 \times 10^{-34}\text{ J s}
+\]
+Dividing:
+\[
+v = \frac{289.53 \times 10^{-29}}{19.8 \times 10^{-34}} \approx 14.62 \times 10^5\text{ m/s} = 1.46 \times 10^6\text{ m/s}
+\]</p>
+<p><strong>Step 5: Check and Final Answer</strong><br/>
+Using the ground-state hydrogen velocity benchmark (\(v_1 \approx 2.18 \times 10^6\text{ m/s}\)): \(v = v_1 \left(\frac{Z}{n}\right) = 2.18 \times 10^6 \times \frac{2}{3} \approx 1.453 \times 10^6\text{ m/s}\). This confirms the calculated value of \(1.46 \times 10^6\text{ m/s}\).</p>
+<hr/>
+<p><strong>चरण 1: दिए गए आँकड़े और शर्तें</strong><br/>
+\(\text{He}^+\) के लिए \(Z = 2\), तीसरी कक्षा \(n = 3\), \(K = 9 \times 10^9\), \(h = 6.6 \times 10^{-34}\text{ J-s}\), तथा \(e = 1.6 \times 10^{-19}\text{ C}\)।</p>
+<p><strong>चरण 2: अभिधारणाएँ और चिह्न परिपाटी</strong><br/>
+बोर के अनापेक्षिकीय परमाणु मॉडल का प्रयोग किया गया है।</p>
+<p><strong>चरण 3: संबंधित सूत्र और सिद्धांत</strong><br/>
+इलेक्ट्रॉन की कक्षीय चाल:
+\[
+v = \frac{2\pi K Z e^2}{n h}
+\]</p>
+<p><strong>चरण 4: चरणबद्ध हल</strong><br/>
+मान प्रतिस्थापित करने पर:
+\[
+v = \frac{2 \pi \times (9 \times 10^9) \times 2 \times (1.6 \times 10^{-19})^2}{3 \times 6.6 \times 10^{-34}}
+\]
+\[
+v = \frac{289.53 \times 10^{-29}}{19.8 \times 10^{-34}} \approx 1.46 \times 10^6\text{ m/s}
+\]</p>
+<p><strong>चरण 5: जाँच एवं अंतिम उत्तर</strong><br/>
+अतः तीसरी कक्षा में इलेक्ट्रॉन की चाल \(1.46 \times 10^6\text{ m/s}\) है।</p>
+    ]]></text>
+  </generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(2.92 \times 10^6\text{ m/s}\)</p>]]></text>
+  </answer>
+  <answer fraction="100" format="html">
+    <text><![CDATA[<p>\(1.46 \times 10^6\text{ m/s}\)</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(0.73 \times 10^6\text{ m/s}\)</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(3.0 \times 10^8\text{ m/s}\)</p>]]></text>
+  </answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>year:2015</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:hi</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>class:class_12</text></tag>
+    <tag><text>chapter:atoms</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:medium</text></tag>
+    <tag><text>blooms:apply</text></tag>
+    <tag><text>calculation:moderate</text></tag>
+    <tag><text>media:text</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+
+<question type="multichoice">
+  <name><text>NEET_UG_PHYSICS_2015_MCQ_Q43 - Ratio of nuclear radii using mass number scaling</text></name>
+  <questiontext format="html">
+    <text><![CDATA[
+<p>If radius of the \(_{13}\text{Al}^{27}\) nucleus is taken to be \(R_{\text{Al}}\), then the radius of \(_{53}\text{Te}^{125}\) nucleus is nearly</p>
+<hr/>
+<p>यदि \(_{13}\text{Al}^{27}\) नाभिक की त्रिज्या \(R_{\text{Al}}\) मानी जाए, तो \(_{53}\text{Te}^{125}\) नाभिक की त्रिज्या लगभग होगी</p>
+    ]]></text>
+  </questiontext>
+  <generalfeedback format="html">
+    <text><![CDATA[
+<p><strong>Step 1: Given Data and Conditions</strong><br/>
+Mass number of Aluminium nucleus: \(A_{\text{Al}} = 27\), with radius \(R_{\text{Al}}\). Mass number of Tellurium nucleus: \(A_{\text{Te}} = 125\).</p>
+<p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>
+Nuclear matter has nearly uniform volume density, meaning nuclear volume is directly proportional to mass number \(A\).</p>
+<p><strong>Step 3: Relevant Formulae and Principles</strong><br/>
+Nuclear radius formula:
+\[
+R = R_0 A^{1/3}
+\]
+where \(R_0\) is a constant.</p>
+<p><strong>Step 4: Step-by-Step Working</strong><br/>
+For the Aluminium nucleus:
+\[
+R_{\text{Al}} = R_0 (27)^{1/3} = 3 R_0 \implies R_0 = \frac{R_{\text{Al}}}{3}
+\]
+For the Tellurium nucleus:
+\[
+R_{\text{Te}} = R_0 (125)^{1/3} = 5 R_0
+\]
+Taking the ratio:
+\[
+\frac{R_{\text{Te}}}{R_{\text{Al}}} = \frac{5 R_0}{3 R_0} = \frac{5}{3}
+\]
+Solving for \(R_{\text{Te}}\):
+\[
+R_{\text{Te}} = \frac{5}{3} R_{\text{Al}}
+\]</p>
+<p><strong>Step 5: Check and Final Answer</strong><br/>
+Since \((5/3)^3 = 125/27\), the cubic scaling matches the mass number ratio exactly. The radius of \(_{53}\text{Te}^{125}\) is \(\frac{5}{3} R_{\text{Al}}\).</p>
+<hr/>
+<p><strong>चरण 1: दिए गए आँकड़े और शर्तें</strong><br/>
+एल्युमिनियम का द्रव्यमान संख्या \(A_{\text{Al}} = 27\), त्रिज्या \(R_{\text{Al}}\)। टेल्यूरियम का द्रव्यमान संख्या \(A_{\text{Te}} = 125\)।</p>
+<p><strong>चरण 2: अभिधारणाएँ और चिह्न परिपाटी</strong><br/>
+नाभिकीय घनत्व नियत होता है।</p>
+<p><strong>चरण 3: संबंधित सूत्र और सिद्धांत</strong><br/>
+नाभिक की त्रिज्या:
+\[
+R = R_0 A^{1/3}
+\]</p>
+<p><strong>चरण 4: चरणबद्ध हल</strong><br/>
+\[
+R_{\text{Al}} = R_0 (27)^{1/3} = 3 R_0
+\]
+\[
+R_{\text{Te}} = R_0 (125)^{1/3} = 5 R_0
+\]
+अनुपात लेने पर:
+\[
+\frac{R_{\text{Te}}}{R_{\text{Al}}} = \frac{5}{3} \implies R_{\text{Te}} = \frac{5}{3} R_{\text{Al}}
+\]</p>
+<p><strong>चरण 5: जाँच एवं अंतिम उत्तर</strong><br/>
+अतः टेल्यूरियम नाभिक की त्रिज्या \(\frac{5}{3} R_{\text{Al}}\) है।</p>
+    ]]></text>
+  </generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(\left(\frac{53}{13}\right)^{\frac{1}{3}} R_{\text{Al}}\)</p>]]></text>
+  </answer>
+  <answer fraction="100" format="html">
+    <text><![CDATA[<p>\(\frac{5}{3} R_{\text{Al}}\)</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(\frac{3}{5} R_{\text{Al}}\)</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(\left(\frac{13}{53}\right) R_{\text{Al}}\)</p>]]></text>
+  </answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>year:2015</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:hi</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>class:class_12</text></tag>
+    <tag><text>chapter:nuclei</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:easy</text></tag>
+    <tag><text>blooms:apply</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:text</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>

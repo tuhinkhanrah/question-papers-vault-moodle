@@ -1,0 +1,453 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+<question type="multichoice">
+    <name>
+      <text>NEET_UG_PHYSICS_2019_MCQ_Q26 - Magnetic field of cylindrical current carrying conductor</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>A cylindrical conductor of radius \( R \) is carrying a constant current. The plot of the magnitude of the magnetic field \( B \) with the distance \( d \) from the centre of the conductor, is correctly represented by the figure</p><hr/><p>\( R \) त्रिज्या का एक बेलनाकार चालक एक नियत धारा वहन कर रहा है। चालक के केंद्र से दूरी \( d \) के साथ चुंबकीय क्षेत्र \( B \) के परिमाण का आलेख सही रूप से किस चित्र द्वारा दर्शाया गया है?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>- Long cylindrical conductor of radius \( R \).<br/>- Steady current \( I \) uniformly distributed over its cross-sectional area.<br/>- Distance from the cylindrical axis is \( d \).</p><p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>The conductor has infinite length and cylindrical symmetry, allowing the direct application of Ampere's circuital law.</p><p><strong>Step 3: Relevant Formulae and Principles</strong><br/>According to Ampere's circuital law: \[ \oint \vec{B} \cdot d\vec{l} = \mu_0 I_{\text{enclosed}} \] Along a circular path of radius \( d \) concentric with the conductor: \[ B (2\pi d) = \mu_0 I_{\text{enclosed}} \]</p><p><strong>Step 4: Step-by-Step Working</strong><br/><em>Inside the conductor (\( d \le R \)):</em><br/>The current enclosed within radius \( d \) is proportional to area: \[ I_{\text{enclosed}} = I \frac{\pi d^2}{\pi R^2} = I \frac{d^2}{R^2} \] Applying Ampere's law: \[ B (2\pi d) = \mu_0 I \frac{d^2}{R^2} \implies B = \left(\frac{\mu_0 I}{2\pi R^2}\right) d \] Thus, \( B \propto d \). The field increases linearly from zero at the center (\( d = 0 \)) to its maximum value at the surface (\( d = R \)).<br/><br/><em>Outside the conductor (\( d \ge R \)):</em><br/>The entire current is enclosed: \[ I_{\text{enclosed}} = I \] Applying Ampere's law: \[ B (2\pi d) = \mu_0 I \implies B = \frac{\mu_0 I}{2\pi d} \] Thus, \( B \propto \frac{1}{d} \). The field decreases hyperbolically with distance beyond the surface.</p><p><strong>Step 5: Check and Final Answer</strong><br/>The correct plot starts at zero at the center, increases linearly up to \( d = R \), and then decays inversely with distance (\( \propto 1/d \)) for \( d > R \).</p><hr/><p><strong>चरण 1: दिए गए आँकड़े और स्थितियाँ</strong><br/>- त्रिज्या \( R \) का लंबा ठोस बेलनाकार चालक।<br/>- चालक में प्रवाहित नियत धारा \( I \) इसके अनुप्रस्थ परिच्छेद पर एकसमान रूप से वितरित है।<br/>- केंद्र से दूरी \( d \) है।</p><p><strong>चरण 2: मान्यताएँ और चिह्न परिपाटी</strong><br/>बेलनाकार सममिति के कारण ऐम्पियर के परिपथीय नियम का उपयोग किया जाता है।</p><p><strong>चरण 3: संबंधित सूत्र और सिद्धांत</strong><br/>ऐम्पियर का परिपथीय नियम: \[ \oint \vec{B} \cdot d\vec{l} = \mu_0 I_{\text{enclosed}} \]<br/>त्रिज्या \( d \) के वृत्ताकार लूप के लिए: \[ B (2\pi d) = \mu_0 I_{\text{enclosed}} \]</p><p><strong>चरण 4: चरणबद्ध हल</strong><br/><em>चालक के अंदर (\( d \le R \)):</em><br/>परिबद्ध धारा: \[ I_{\text{enclosed}} = I \frac{d^2}{R^2} \]<br/>\[ B (2\pi d) = \mu_0 I \frac{d^2}{R^2} \implies B = \left(\frac{\mu_0 I}{2\pi R^2}\right) d \propto d \]<br/>चुंबकीय क्षेत्र केंद्र (\( d = 0 \)) पर शून्य से प्रारंभ होकर सतह (\( d = R \)) तक रेखीय रूप से बढ़ता है।<br/><br/><em>चालक के बाहर (\( d \ge R \)):</em><br/>कुल धारा परिबद्ध होती है: \[ I_{\text{enclosed}} = I \]<br/>\[ B = \frac{\mu_0 I}{2\pi d} \propto \frac{1}{d} \]<br/>सतह के बाहर चुंबकीय क्षेत्र दूरी के व्युत्क्रमानुपाती (\( \propto 1/d \)) होकर घटता है।</p><p><strong>चरण 5: जाँच और अंतिम उत्तर</strong><br/>सही आलेख \( d = 0 \) से \( d = R \) तक एक सरल रेखा के रूप में बढ़ता है और उसके बाद अतिपरवलयिक रूप से घटता है।</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>4.0000000</defaultgrade>
+    <penalty>0.2500000</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p><img src="@@PLUGINFILE@@/img-2.jpeg" alt="Option A graph" /></p>]]></text>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p><img src="@@PLUGINFILE@@/img-3.jpeg" alt="Option B graph" /></p>]]></text>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p><img src="@@PLUGINFILE@@/img-4.jpeg" alt="Option C graph" /></p>]]></text>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p><img src="@@PLUGINFILE@@/img-5.jpeg" alt="Option D graph" /></p>]]></text>
+    </answer>
+    <tags>
+      <tag><text>standard:neet_ug</text></tag>
+      <tag><text>year:2019</text></tag>
+      <tag><text>lang:en</text></tag>
+      <tag><text>lang:hi</text></tag>
+      <tag><text>subject:physics</text></tag>
+      <tag><text>class:class_12</text></tag>
+      <tag><text>topic:magnetic_effects_of_current_and_magnetism</text></tag>
+      <tag><text>chapter:moving_charges_and_magnetism</text></tag>
+      <tag><text>typology:mcq</text></tag>
+      <tag><text>difficulty:easy</text></tag>
+      <tag><text>blooms:understand</text></tag>
+      <tag><text>calculation:light</text></tag>
+      <tag><text>media:graph</text></tag>
+      <tag><text>multiconcept:false</text></tag>
+    </tags>
+  </question>
+<question type="multichoice">
+    <name>
+      <text>NEET_UG_PHYSICS_2019_MCQ_Q27 - Incorrect statement regarding rainbow formation</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Pick the wrong answer in the context with rainbow.</p><hr/><p>इंद्रधनुष के संदर्भ में गलत उत्तर चुनिए।</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>A rainbow is an optical phenomenon formed by the dispersion, refraction, and internal reflection of sunlight in spherical water droplets suspended in the atmosphere.</p><p><strong>Step 2: Evaluation of Observer Conditions</strong><br/>For an observer to see a rainbow, the sun must be situated behind the observer while rain or mist is in front of the observer. Sunlight enters the droplets, gets refracted and dispersed, reflects internally, and emerges back toward the observer's eye. Hence, an observer cannot see a rainbow when facing toward the sun.</p><p><strong>Step 3: Evaluation of Other Characteristics</strong><br/>- A primary rainbow involves one internal reflection, whereas a secondary rainbow involves two internal reflections inside the water droplets.<br/>- Due to the additional internal reflection in the secondary rainbow, the order of colours is reversed relative to the primary rainbow, with red on the inside and violet on the outside.<br/>- Rainbow formation fundamentally requires dispersion, refraction, and reflection of light.</p><p><strong>Step 4: Final Conclusion</strong><br/>The statement stating that an observer can see a rainbow when facing the sun is incorrect, and thus is the selected response.</p><hr/><p><strong>चरण 1: वैचारिक सिद्धांत</strong><br/>इंद्रधनुष वायुमंडल में उपस्थित जल की बूंदों द्वारा सूर्य के प्रकाश के परिक्षेपण (वर्ण-विक्षेपण), अपवर्तन तथा आंतरिक परावर्तन का संयुक्त परिणाम है।</p><p><strong>चरण 2: प्रेक्षक की स्थिति का मूल्यांकन</strong><br/>इंद्रधनुष देखने के लिए यह अनिवार्य शर्त है कि सूर्य प्रेक्षक के पीछे (पीठ की ओर) होना चाहिए तथा जल की बूंदें प्रेक्षक के सामने होनी चाहिए। यदि प्रेक्षक का मुख सूर्य की ओर होगा, तो वह इंद्रधनुष नहीं देख सकता।</p><p><strong>चरण 3: अन्य विशेषताओं का मूल्यांकन</strong><br/>- द्वितीयक इंद्रधनुष में जल की बूंद के भीतर दो आंतरिक परावर्तन होते हैं।<br/>- दो परावर्तनों के कारण द्वितीयक इंद्रधनुष में रंगों का क्रम प्राथमिक इंद्रधनुष के विपरीत (उल्टा) होता है।<br/>- इंद्रधनुष अपवर्तन, परिक्षेपण तथा परावर्तन का संयुक्त प्रभाव है।</p><p><strong>चरण 4: अंतिम निष्कर्ष</strong><br/>यह कथन कि प्रेक्षक इंद्रधनुष तब देख सकता है जब उसका मुख सूर्य की ओर हो, गलत (अमान्य) है।</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>4.0000000</defaultgrade>
+    <penalty>0.2500000</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>An observer can see a rainbow when his front is towards the sun.</p>]]></text>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Rainbow is a combined effect of dispersion refraction and reflection of sunlight.</p>]]></text>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>When the light rays undergo two internal reflections in a water drop, a secondary rainbow is formed.</p>]]></text>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>The order of colours is reversed in the secondary rainbow.</p>]]></text>
+    </answer>
+    <tags>
+      <tag><text>standard:neet_ug</text></tag>
+      <tag><text>year:2019</text></tag>
+      <tag><text>lang:en</text></tag>
+      <tag><text>lang:hi</text></tag>
+      <tag><text>subject:physics</text></tag>
+      <tag><text>class:class_12</text></tag>
+      <tag><text>topic:optics</text></tag>
+      <tag><text>chapter:ray_optics_and_optical_instruments</text></tag>
+      <tag><text>typology:mcq</text></tag>
+      <tag><text>difficulty:easy</text></tag>
+      <tag><text>blooms:remember</text></tag>
+      <tag><text>calculation:light</text></tag>
+      <tag><text>media:text</text></tag>
+      <tag><text>multiconcept:false</text></tag>
+    </tags>
+  </question>
+<question type="multichoice">
+    <name>
+      <text>NEET_UG_PHYSICS_2019_MCQ_Q28 - Kinetic and potential energy of atomic electron</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>The total energy of an electron in an atom in an orbit is \( -3.4\text{ eV} \). Its kinetic and potential energies are, respectively.</p><hr/><p>किसी परमाणु की किसी कक्षा में एक इलेक्ट्रॉन की कुल ऊर्जा \( -3.4\text{ eV} \) है। इसकी गतिज और स्थितिज ऊर्जाएँ क्रमशः हैं</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>- Total energy of the orbiting electron: \( E = -3.4\text{ eV} \)</p><p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>The electron is in a bound Bohr orbit governed by an inverse-square electrostatic Coulomb potential, where potential energy is defined to be zero at infinite separation.</p><p><strong>Step 3: Relevant Formulae and Principles</strong><br/>By the Virial Theorem for an inverse-square central force field: \[ K = -E \] \[ U = 2E \] where \( K \) is the kinetic energy, \( U \) is the potential energy, and \( E = K + U \) is the total energy.</p><p><strong>Step 4: Step-by-Step Working</strong><br/>- Kinetic energy: \[ K = -(-3.4\text{ eV}) = +3.4\text{ eV} \] - Potential energy: \[ U = 2 \times (-3.4\text{ eV}) = -6.8\text{ eV} \]</p><p><strong>Step 5: Check and Final Answer</strong><br/>Kinetic energy must always be positive (\( 3.4\text{ eV} \)), and potential energy must be negative for a bound state (\( -6.8\text{ eV} \)). Summing them confirms: \( 3.4\text{ eV} + (-6.8\text{ eV}) = -3.4\text{ eV} \). The energies are \( 3.4\text{ eV}, -6.8\text{ eV} \).</p><hr/><p><strong>चरण 1: दिए गए आँकड़े और स्थितियाँ</strong><br/>- इलेक्ट्रॉन की कुल ऊर्जा: \( E = -3.4\text{ eV} \)</p><p><strong>चरण 2: मान्यताएँ और चिह्न परिपाटी</strong><br/>इलेक्ट्रॉन व्युत्क्रम-वर्ग कूलॉम बल क्षेत्र में बद्ध अवस्था में गति कर रहा है। अनंत पर स्थितिज ऊर्जा शून्य मानी गई है।</p><p><strong>चरण 3: संबंधित सूत्र और सिद्धांत</strong><br/>विरीयल प्रमेय (Virial Theorem) के अनुसार: \[ K = -E \]<br/>\[ U = 2E \]</p><p><strong>चरण 4: चरणबद्ध हल</strong><br/>- गतिज ऊर्जा: \[ K = -(-3.4\text{ eV}) = 3.4\text{ eV} \]<br/>- स्थितिज ऊर्जा: \[ U = 2(-3.4\text{ eV}) = -6.8\text{ eV} \]</p><p><strong>चरण 5: जाँच और अंतिम उत्तर</strong><br/>गतिज और स्थितिज ऊर्जाएँ क्रमशः \( 3.4\text{ eV}, -6.8\text{ eV} \) हैं।</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>4.0000000</defaultgrade>
+    <penalty>0.2500000</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>\( 3.4\text{ eV}, -6.8\text{ eV} \)</p>]]></text>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>\( 3.4\text{ eV}, 3.4\text{ eV} \)</p>]]></text>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>\( -3.4\text{ eV}, -3.4\text{ eV} \)</p>]]></text>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>\( -3.4\text{ eV}, -6.8\text{ eV} \)</p>]]></text>
+    </answer>
+    <tags>
+      <tag><text>standard:neet_ug</text></tag>
+      <tag><text>year:2019</text></tag>
+      <tag><text>lang:en</text></tag>
+      <tag><text>lang:hi</text></tag>
+      <tag><text>subject:physics</text></tag>
+      <tag><text>class:class_12</text></tag>
+      <tag><text>topic:atoms</text></tag>
+      <tag><text>chapter:atoms</text></tag>
+      <tag><text>typology:mcq</text></tag>
+      <tag><text>difficulty:easy</text></tag>
+      <tag><text>blooms:apply</text></tag>
+      <tag><text>calculation:light</text></tag>
+      <tag><text>media:text</text></tag>
+      <tag><text>multiconcept:false</text></tag>
+    </tags>
+  </question>
+<question type="multichoice">
+    <name>
+      <text>NEET_UG_PHYSICS_2019_MCQ_Q29 - Amplitude of superposed harmonic oscillations</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>The displacement of a particle executing simple harmonic motion is given by \[ y = A_0 + A \sin \omega t + B \cos \omega t \] Then the amplitude of its oscillation is given by</p><hr/><p>सरल आवर्त गति कर रहे किसी कण का विस्थापन \[ y = A_0 + A \sin \omega t + B \cos \omega t \] द्वारा दिया गया है। तब इसके दोलन का आयाम होगा</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>- Displacement equation: \[ y = A_0 + A \sin \omega t + B \cos \omega t \]</p><p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>The constant term \( A_0 \) represents a static translation of the mean (equilibrium) position of oscillation from the origin.</p><p><strong>Step 3: Relevant Formulae and Principles</strong><br/>- Rewrite the displacement relative to the equilibrium position \( y_0 = A_0 \): \[ y - A_0 = A \sin \omega t + B \cos \omega t \] - The linear combination of orthogonal harmonic functions \( A \sin \omega t + B \cos \omega t \) can be expressed as a single sinusoidal function: \[ A \sin \omega t + B \cos \omega t = R \sin(\omega t + \phi) \] where the amplitude is given by: \[ R = \sqrt{A^2 + B^2} \]</p><p><strong>Step 4: Step-by-Step Working</strong><br/>Let \( A = R \cos\phi \) and \( B = R \sin\phi \).<br/>Squaring and adding both equations: \[ A^2 + B^2 = R^2 \cos^2\phi + R^2 \sin^2\phi = R^2 (\cos^2\phi + \sin^2\phi) = R^2 \] Taking the square root gives the amplitude: \[ R = \sqrt{A^2 + B^2} \] The term \( A_0 \) does not influence the oscillation amplitude around the mean position.</p><p><strong>Step 5: Check and Final Answer</strong><br/>The amplitude of the oscillation is \( \sqrt{A^2 + B^2} \).</p><hr/><p><strong>चरण 1: दिए गए आँकड़े और स्थितियाँ</strong><br/>- विस्थापन समीकरण: \[ y = A_0 + A \sin \omega t + B \cos \omega t \]</p><p><strong>चरण 2: मान्यताएँ और चिह्न परिपाटी</strong><br/>अचर पद \( A_0 \) माध्य (साम्यावस्था) स्थिति का विस्थापन दर्शाता है।</p><p><strong>चरण 3: संबंधित सूत्र और सिद्धांत</strong><br/>- साम्यावस्था के सापेक्ष विस्थापन: \[ y - A_0 = A \sin \omega t + B \cos \omega t \]<br/>- दो लंबवत आवर्ती फलनों का संयोजन: \[ A \sin \omega t + B \cos \omega t = R \sin(\omega t + \phi) \]<br/>जहाँ दोलन का परिणामी आयाम: \[ R = \sqrt{A^2 + B^2} \]</p><p><strong>चरण 4: चरणबद्ध हल</strong><br/>माना \( A = R \cos\phi \) तथा \( B = R \sin\phi \)।<br/>वर्ग करके जोड़ने पर: \[ A^2 + B^2 = R^2 \implies R = \sqrt{A^2 + B^2} \]<br/>अचर पद \( A_0 \) आयाम को प्रभावित नहीं करता है।</p><p><strong>चरण 5: जाँच और अंतिम उत्तर</strong><br/>दोलन का अभीष्ट आयाम \( \sqrt{A^2 + B^2} \) है।</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>4.0000000</defaultgrade>
+    <penalty>0.2500000</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>\( \sqrt{A^2 + B^2} \)</p>]]></text>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>\( \sqrt{A_0^2 + (A + B)^2} \)</p>]]></text>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>\( A + B \)</p>]]></text>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>\( A_0 + \sqrt{A^2 + B^2} \)</p>]]></text>
+    </answer>
+    <tags>
+      <tag><text>standard:neet_ug</text></tag>
+      <tag><text>year:2019</text></tag>
+      <tag><text>lang:en</text></tag>
+      <tag><text>lang:hi</text></tag>
+      <tag><text>subject:physics</text></tag>
+      <tag><text>class:class_11</text></tag>
+      <tag><text>topic:oscillations_and_waves</text></tag>
+      <tag><text>chapter:oscillations</text></tag>
+      <tag><text>typology:mcq</text></tag>
+      <tag><text>difficulty:easy</text></tag>
+      <tag><text>blooms:apply</text></tag>
+      <tag><text>calculation:light</text></tag>
+      <tag><text>media:equation</text></tag>
+      <tag><text>multiconcept:false</text></tag>
+    </tags>
+  </question>
+<question type="multichoice">
+    <name>
+      <text>NEET_UG_PHYSICS_2019_MCQ_Q30 - Majority charge carriers and dopants in p-type semiconductor</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>For a \( p \)-type semiconductor, which of the following statements is true?</p><hr/><p>\( p \)-प्रकार के अर्धचालक के लिए निम्नलिखित में से कौन सा कथन सही है?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>An extrinsic semiconductor is formed by doping an intrinsic tetravalent semiconductor (such as Silicon or Germanium) with specific impurity atoms to alter its charge carrier concentrations.</p><p><strong>Step 2: Analysis of p-type Semiconductor</strong><br/>- When a tetravalent host crystal (valency = 4) is doped with trivalent impurity atoms (valency = 3, such as Indium, Boron, Gallium, or Aluminium), each dopant atom shares three electrons with neighbouring silicon atoms, leaving a deficiency of an electron (a hole) in the fourth covalent bond.<br/>- These trivalent impurities are known as acceptor impurities because they readily accept electrons from the valence band, generating a large concentration of mobile holes.<br/>- Thermal excitation also creates a small number of electron-hole pairs, but the concentration of holes (\( n_h \)) vastly exceeds the concentration of electrons (\( n_e \)): \[ n_h \gg n_e \]</p><p><strong>Step 3: Final Conclusion</strong><br/>In a \( p \)-type semiconductor, holes are the majority charge carriers and trivalent atoms are the dopants.</p><hr/><p><strong>चरण 1: वैचारिक सिद्धांत</strong><br/>अपद्रव्यी (बाह्य) अर्धचालक का निर्माण नैज चतुःसंयोजी अर्धचालक (जैसे Si या Ge) में उपयुक्त अपमिश्रक परमाणु मिलाकर किया जाता है।</p><p><strong>चरण 2: \( p \)-प्रकार के अर्धचालक का विश्लेषण</strong><br/>- जब शुद्ध सिलिकॉन या जर्मेनियम में त्रिसंयोजी अशुद्धि (जैसे B, Al, In, Ga) मिलाई जाती है, तो त्रिसंयोजी परमाणु के तीन संयोजी इलेक्ट्रॉन निकटवर्ती परमाणुओं के साथ सहसंयोजक बंध बना लेते हैं, जबकि चौथे बंध में एक रिक्ति (होल अथवा कोटर) रह जाती है।<br/>- इस प्रकार क्रिस्टल में होलों की सांद्रता अत्यधिक बढ़ जाती है, जिससे होल बहुसंख्यक आवेश वाहक बन जाते हैं तथा इलेक्ट्रॉन अल्पसंख्यक वाहक होते हैं: \[ n_h \gg n_e \]</p><p><strong>चरण 3: अंतिम निष्कर्ष</strong><br/>\( p \)-प्रकार के अर्धचालक के लिए होल बहुसंख्यक वाहक होते हैं तथा त्रिसंयोजी परमाणु अपमिश्रक होते हैं।</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>4.0000000</defaultgrade>
+    <penalty>0.2500000</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Holes are the majority carriers and trivalent atoms are the dopants.</p>]]></text>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Holes are the majority carriers and pentavalent atoms are the dopants.</p>]]></text>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Electrons are the majority carriers and pentavalent atoms are the dopants.</p>]]></text>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Electrons are the majority carriers and trivalent atoms are the dopants.</p>]]></text>
+    </answer>
+    <tags>
+      <tag><text>standard:neet_ug</text></tag>
+      <tag><text>year:2019</text></tag>
+      <tag><text>lang:en</text></tag>
+      <tag><text>lang:hi</text></tag>
+      <tag><text>subject:physics</text></tag>
+      <tag><text>class:class_12</text></tag>
+      <tag><text>topic:semiconductor_electronics</text></tag>
+      <tag><text>chapter:semiconductor_electronics_materials_devices_and_simple_circuits</text></tag>
+      <tag><text>typology:mcq</text></tag>
+      <tag><text>difficulty:easy</text></tag>
+      <tag><text>blooms:remember</text></tag>
+      <tag><text>calculation:light</text></tag>
+      <tag><text>media:text</text></tag>
+      <tag><text>multiconcept:false</text></tag>
+    </tags>
+  </question>
+<question type="multichoice">
+    <name>
+      <text>NEET_UG_PHYSICS_2019_MCQ_Q31 - Devices utilizing eddy current effects</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>In which of the following devices, the eddy current effect is not used?</p><hr/><p>निम्नलिखित में से किस युक्ति में भंवर धारा (eddy current) प्रभाव का उपयोग नहीं किया जाता है?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>Eddy currents are circulating currents induced in bulk conductors when exposed to changing magnetic flux.</p><p><strong>Step 2: Evaluation of Devices</strong><br/>- <em>Magnetic braking in trains:</em> Strong electromagnets induce eddy currents in rotating metallic drums attached to train wheels; by Lenz's law, the magnetic force opposes the rotation, smoothly decelerating the train.<br/>- <em>Induction furnace:</em> Rapidly alternating magnetic fields induce massive eddy currents in metals placed within the coil, generating extreme heat through Joule dissipation and melting the metal.<br/>- <em>Electromagnet:</em> When dynamic currents pass through coils wound on ferromagnetic cores, induced eddy currents occur within the core material (and are managed by lamination).<br/>- <em>Electric heater:</em> An electric heater functions purely via the Joule heating effect (\( H = I^2 R t \)) caused by regular conduction current flowing through a high-resistance wire (such as nichrome). It does not employ induced eddy currents.</p><p><strong>Step 3: Final Conclusion</strong><br/>The eddy current effect is not used in an electric heater.</p><hr/><p><strong>चरण 1: वैचारिक सिद्धांत</strong><br/>भंवर धाराएँ (Eddy currents) किसी विस्तृत चालक पिंड में परिवर्ती चुंबकीय फ्लक्स के कारण प्रेरित होने वाली संवृत धाराएँ हैं।</p><p><strong>चरण 2: युक्तियों का मूल्यांकन</strong><br/>- <em>ट्रेनों में चुंबकीय ब्रेक:</em> पहियों में भंवर धाराएँ प्रेरित कर लेन्ज के नियम द्वारा गति का विरोध किया जाता है।<br/>- <em>प्रेरण भट्टी (Induction furnace):</em> धातु में तीव्र भंवर धाराएँ उत्पन्न कर उच्च ताप उत्पन्न किया जाता है जिससे धातु पिघल जाती है।<br/>- <em>विद्युत चुंबक (Electromagnet):</em> चुंबकीय क्षेत्र तथा क्रोड में भंवर धारा प्रभाव उपस्थित रहता है।<br/>- <em>विद्युत हीटर (Electric heater):</em> यह विशुद्ध रूप से उच्च प्रतिरोध वाले तार (जैसे नाइक्रोम) में चालन धारा द्वारा उत्पन्न जूल ऊष्मीय प्रभाव (\( H = I^2 R t \)) पर कार्य करता है। इसमें भंवर धाराओं की कोई भूमिका नहीं होती।</p><p><strong>चरण 3: अंतिम निष्कर्ष</strong><br/>विद्युत हीटर में भंवर धारा प्रभाव का उपयोग नहीं किया जाता है।</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>4.0000000</defaultgrade>
+    <penalty>0.2500000</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>magnetic braking in train</p>]]></text>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>electromagnet</p>]]></text>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>electric heater</p>]]></text>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>induction furnace</p>]]></text>
+    </answer>
+    <tags>
+      <tag><text>standard:neet_ug</text></tag>
+      <tag><text>year:2019</text></tag>
+      <tag><text>lang:en</text></tag>
+      <tag><text>lang:hi</text></tag>
+      <tag><text>subject:physics</text></tag>
+      <tag><text>class:class_12</text></tag>
+      <tag><text>topic:electromagnetic_induction</text></tag>
+      <tag><text>chapter:electromagnetic_induction</text></tag>
+      <tag><text>typology:mcq</text></tag>
+      <tag><text>difficulty:easy</text></tag>
+      <tag><text>blooms:remember</text></tag>
+      <tag><text>calculation:light</text></tag>
+      <tag><text>media:text</text></tag>
+      <tag><text>multiconcept:false</text></tag>
+    </tags>
+  </question>
+<question type="multichoice">
+    <name>
+      <text>NEET_UG_PHYSICS_2019_MCQ_Q32 - River crossing along the shortest path</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>The speed of a swimmer in still water is \( 20\text{ m/s} \). The speed of river water is \( 10\text{ m/s} \) and is flowing due east. If he is standing on the south bank and wishes to cross the river along the shortest path, the angle at which he should make his strokes w.r.t. north is given by</p><hr/><p>शांत जल में किसी तैराक की चाल \( 20\text{ m/s} \) है। नदी के जल की चाल \( 10\text{ m/s} \) है और यह पूर्व की ओर बह रही है। यदि वह दक्षिणी किनारे पर खड़ा है और नदी को लघुतम पथ के अनुदिश पार करना चाहता है, तो उत्तर दिशा के सापेक्ष वह कोण जिस पर उसे तैरना शुरू करना चाहिए, होगा</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>- Speed of swimmer in still water: \( v_s = 20\text{ m/s} \)<br/>- Speed of river flow: \( v_r = 10\text{ m/s} \) (directed due East)<br/>- Initial position: South bank of the river.<br/>- Goal: Cross along the shortest path (straight across to the opposite North bank, resulting in zero drift).</p><p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>Taking East as the \( +x \) direction and North as the \( +y \) direction. The resultant velocity of the swimmer relative to the ground must have zero component along the East-West axis.</p><p><strong>Step 3: Relevant Formulae and Principles</strong><br/>Let \( \theta \) be the angle made by the swimmer's velocity vector with the North direction towards the West. The horizontal component of the swimmer's velocity must balance the eastward velocity of the river: \[ v_s \sin\theta = v_r \]</p><p><strong>Step 4: Step-by-Step Working</strong><br/>Substitute the values: \[ 20 \sin\theta = 10 \] \[ \sin\theta = \frac{10}{20} = \frac{1}{2} \] Solving for \( \theta \): \[ \theta = \arcsin\left(\frac{1}{2}\right) = 30^\circ \] Since the river flows towards the East, the swimmer must orient his strokes upstream, which is \( 30^\circ \) West of North.</p><p><strong>Step 5: Check and Final Answer</strong><br/>The angle is \( 30^\circ\text{ west} \) with respect to North.</p><hr/><p><strong>चरण 1: दिए गए आँकड़े और स्थितियाँ</strong><br/>- शांत जल में तैराक की चाल: \( v_s = 20\text{ m/s} \)<br/>- नदी के जल की चाल: \( v_r = 10\text{ m/s} \) (पूर्व दिशा में)<br/>- लक्ष्य: न्यूनतम पथ (बिना किसी बहाव के ठीक उत्तर दिशा में सामने वाले किनारे पर पहुँचना)।</p><p><strong>चरण 2: मान्यताएँ और चिह्न परिपाटी</strong><br/>पूर्व दिशा को \( +x \) तथा उत्तर दिशा को \( +y \) माना गया है। तैराक का पृथ्वी के सापेक्ष परिणामी वेग पूर्णतः उत्तर की ओर होना चाहिए।</p><p><strong>चरण 3: संबंधित सूत्र और सिद्धांत</strong><br/>यदि उत्तर से पश्चिम की ओर कोण \( \theta \) हो, तो पूर्व-पश्चिम दिशा में परिणामी वेग शून्य होने के लिए: \[ v_s \sin\theta = v_r \]</p><p><strong>चरण 4: चरणबद्ध हल</strong><br/>मान रखने पर: \[ 20 \sin\theta = 10 \implies \sin\theta = \frac{1}{2} \]<br/>\[ \theta = 30^\circ \]<br/>अतः तैराक को उत्तर दिशा से \( 30^\circ \) पश्चिम की ओर तैरना चाहिए।</p><p><strong>चरण 5: जाँच और अंतिम उत्तर</strong><br/>उत्तर दिशा के सापेक्ष अभीष्ट कोण \( 30^\circ\text{ west} \) है।</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>4.0000000</defaultgrade>
+    <penalty>0.2500000</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>\( 0^\circ \)</p>]]></text>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>\( 60^\circ\text{ west} \)</p>]]></text>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>\( 45^\circ\text{ west} \)</p>]]></text>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>\( 30^\circ\text{ west} \)</p>]]></text>
+    </answer>
+    <tags>
+      <tag><text>standard:neet_ug</text></tag>
+      <tag><text>year:2019</text></tag>
+      <tag><text>lang:en</text></tag>
+      <tag><text>lang:hi</text></tag>
+      <tag><text>subject:physics</text></tag>
+      <tag><text>class:class_11</text></tag>
+      <tag><text>topic:kinematics</text></tag>
+      <tag><text>chapter:motion_in_a_plane</text></tag>
+      <tag><text>typology:mcq</text></tag>
+      <tag><text>difficulty:easy</text></tag>
+      <tag><text>blooms:apply</text></tag>
+      <tag><text>calculation:light</text></tag>
+      <tag><text>media:text</text></tag>
+      <tag><text>multiconcept:false</text></tag>
+    </tags>
+  </question>
+<question type="multichoice">
+    <name>
+      <text>NEET_UG_PHYSICS_2019_MCQ_Q33 - Elastic potential energy in extended wire</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>When a block of mass \( M \) is suspended by a long wire of length \( L \), the length of the wire becomes \( (L + l) \). The elastic potential energy stored in the extended wire is</p><hr/><p>जब द्रव्यमान \( M \) का एक गुटका लंबाई \( L \) के एक लंबे तार से लटकाया जाता है, तो तार की लंबाई \( (L + l) \) हो जाती है। खींचे हुए तार में संचित प्रत्यास्थ स्थितिज ऊर्जा है</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>- Initial unstretched length of wire: \( L \)<br/>- Mass of suspended block: \( M \)<br/>- Stretching force applied to the wire: \( F = Mg \)<br/>- Final length of wire: \( L + l \)<br/>- Elongation in wire: \( \Delta L = (L + l) - L = l \)</p><p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>The wire obeys Hooke's Law throughout the deformation, so the restoring force varies linearly with extension from \( 0 \) to \( Mg \).</p><p><strong>Step 3: Relevant Formulae and Principles</strong><br/>- The elastic potential energy stored in a stretched wire is: \[ U = \int_0^l F(x)\,dx = \frac{1}{2} \times \text{Stretching Force} \times \text{Extension} \] \[ U = \frac{1}{2} F l \]</p><p><strong>Step 4: Step-by-Step Working</strong><br/>Substitute the stretching force \( F = Mg \): \[ U = \frac{1}{2} (Mg) l = \frac{1}{2} Mgl \]</p><p><strong>Step 5: Check and Final Answer</strong><br/>The energy stored is half the work done by gravity on the block (\( Mgl \)), with the other half lost as internal dissipation (heat) during stretching. The elastic potential energy is \( \frac{1}{2} Mgl \).</p><hr/><p><strong>चरण 1: दिए गए आँकड़े और स्थितियाँ</strong><br/>- तार की प्रारंभिक लंबाई: \( L \)<br/>- लटकाया गया द्रव्यमान: \( M \)<br/>- तनन बल: \( F = Mg \)<br/>- तार की अंतिम लंबाई: \( L + l \)<br/>- लंबाई में वृद्धि: \( l \)</p><p><strong>चरण 2: मान्यताएँ और चिह्न परिपाटी</strong><br/>तार हुक के नियम का पालन करता है, अतः प्रत्यनयन बल प्रसार के साथ शून्य से \( Mg \) तक रेखीय रूप से बढ़ता है।</p><p><strong>चरण 3: संबंधित सूत्र और सिद्धांत</strong><br/>- खींचे गए तार में संचित प्रत्यास्थ स्थितिज ऊर्जा: \[ U = \frac{1}{2} \times \text{औसत बल} \times \text{विस्तार} = \frac{1}{2} F l \]</p><p><strong>चरण 4: चरणबद्ध हल</strong><br/>बल \( F = Mg \) रखने पर: \[ U = \frac{1}{2} Mgl \]</p><p><strong>चरण 5: जाँच और अंतिम उत्तर</strong><br/>तार में संचित प्रत्यास्थ स्थितिज ऊर्जा \( \frac{1}{2} Mgl \) है।</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>4.0000000</defaultgrade>
+    <penalty>0.2500000</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>\( \frac{1}{2} Mgl \)</p>]]></text>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>\( \frac{1}{2} MgL \)</p>]]></text>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>\( Mgl \)</p>]]></text>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>\( MgL \)</p>]]></text>
+    </answer>
+    <tags>
+      <tag><text>standard:neet_ug</text></tag>
+      <tag><text>year:2019</text></tag>
+      <tag><text>lang:en</text></tag>
+      <tag><text>lang:hi</text></tag>
+      <tag><text>subject:physics</text></tag>
+      <tag><text>class:class_11</text></tag>
+      <tag><text>topic:properties_of_bulk_matter</text></tag>
+      <tag><text>chapter:mechanical_properties_of_solids</text></tag>
+      <tag><text>typology:mcq</text></tag>
+      <tag><text>difficulty:easy</text></tag>
+      <tag><text>blooms:apply</text></tag>
+      <tag><text>calculation:light</text></tag>
+      <tag><text>media:equation</text></tag>
+      <tag><text>multiconcept:false</text></tag>
+    </tags>
+  </question>
+<question type="multichoice">
+    <name>
+      <text>NEET_UG_PHYSICS_2019_MCQ_Q34 - Ideal voltmeter and ammeter readings in circuits</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>In the circuits shown below, the readings of voltmeters and the ammeters will be</p><p><img src="@@PLUGINFILE@@/img-6.jpeg" alt="Circuit 1" /></p><p><img src="@@PLUGINFILE@@/img-7.jpeg" alt="Circuit 2" /></p><hr/><p>नीचे दर्शाए गए परिपथों में वोल्टमीटरों तथा ऐमीटरों के पाठ्यांक होंगे</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>- Circuit 1: A \( 10\text{ V} \) battery is connected across a \( 10\ \Omega \) resistor with an ammeter \( \text{A}_1 \) measuring current \( i_1 \), and a voltmeter \( \text{V}_1 \) connected in parallel with the resistor.<br/>- Circuit 2: A \( 10\text{ V} \) battery is connected across a \( 10\ \Omega \) resistor with an ammeter \( \text{A}_2 \) measuring current \( i_2 \). A branch containing a \( 10\ \Omega \) resistor in series with a voltmeter \( \text{V}_2 \) is connected in parallel with the main \( 10\ \Omega \) resistor.</p><p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>The voltmeters and ammeters are ideal unless specified otherwise. An ideal voltmeter has infinite internal resistance (\( R_V \to \infty \)), drawing zero current. An ideal ammeter has zero internal resistance (\( R_A \to 0 \)), causing zero potential drop.</p><p><strong>Step 3: Relevant Formulae and Principles</strong><br/>- Ohm's law: \( V = i R \)<br/>- Equivalent resistance of parallel branches: \( \frac{1}{R_p} = \frac{1}{R_1} + \frac{1}{R_2} \)</p><p><strong>Step 4: Step-by-Step Working</strong><br/><em>Circuit 1:</em><br/>Since \( R_V \to \infty \), the voltmeter draws no current. The entire circuit resistance is \( R_{\text{eq1}} = 10\ \Omega \).<br/>Current measured by ammeter \( \text{A}_1 \): \[ i_1 = \frac{10\text{ V}}{10\ \Omega} = 1\text{ A} \]<br/>Voltage read by voltmeter \( \text{V}_1 \): \[ V_1 = i_1 \times (10\ \Omega) = 1\text{ A} \times 10\ \Omega = 10\text{ V} \]<br/><br/><em>Circuit 2:</em><br/>The lower branch contains a \( 10\ \Omega \) resistor in series with voltmeter \( \text{V}_2 \). Since \( R_V \to \infty \), the resistance of this branch is \( 10\ \Omega + \infty = \infty \). Consequently, no current flows through this parallel branch.<br/>The total equivalent resistance of Circuit 2 remains: \[ R_{\text{eq2}} = 10\ \Omega \]<br/>Current measured by ammeter \( \text{A}_2 \): \[ i_2 = \frac{10\text{ V}}{10\ \Omega} = 1\text{ A} \]<br/>The potential difference across the parallel combination is \( 10\text{ V} \). Since zero current flows through the series \( 10\ \Omega \) resistor in the voltmeter branch, the potential drop across that resistor is \( 0\text{ V} \). Therefore, the entire \( 10\text{ V} \) appears across voltmeter \( \text{V}_2 \): \[ V_2 = 10\text{ V} \]</p><p><strong>Step 5: Check and Final Answer</strong><br/>Comparing the results gives \( V_1 = V_2 \) and \( i_1 = i_2 \).</p><hr/><p><strong>चरण 1: दिए गए आँकड़े और स्थितियाँ</strong><br/>- परिपथ 1: \( 10\text{ V} \) की बैटरी, \( 10\ \Omega \) का प्रतिरोधक, वोल्टमीटर \( \text{V}_1 \) तथा ऐमीटर \( \text{A}_1 \)।<br/>- परिपथ 2: \( 10\text{ V} \) की बैटरी, \( 10\ \Omega \) का प्रतिरोधक, वोल्टमीटर \( \text{V}_2 \) के श्रेणी में एक अन्य \( 10\ \Omega \) का प्रतिरोधक तथा ऐमीटर \( \text{A}_2 \)।</p><p><strong>चरण 2: मान्यताएँ और चिह्न परिपाटी</strong><br/>आदर्श वोल्टमीटर का प्रतिरोध अनंत (\( R_V = \infty \)) होता है तथा आदर्श ऐमीटर का प्रतिरोध शून्य (\( R_A = 0 \)) होता है।</p><p><strong>चरण 3: संबंधित सूत्र और सिद्धांत</strong><br/>ओम का नियम: \[ V = i R \]</p><p><strong>चरण 4: चरणबद्ध हल</strong><br/><em>परिपथ 1:</em><br/>वोल्टमीटर में धारा शून्य होने के कारण कुल प्रतिरोध \( 10\ \Omega \) है।<br/>\[ i_1 = \frac{10\text{ V}}{10\ \Omega} = 1\text{ A} \]<br/>\[ V_1 = 10\text{ V} \]<br/><br/><em>परिपथ 2:</em><br/>वोल्टमीटर \( \text{V}_2 \) वाली शाखा का कुल प्रतिरोध अनंत है, अतः उस शाखा में धारा शून्य होगी। परिपथ का कुल तुल्य प्रतिरोध \( 10\ \Omega \) ही रहेगा।<br/>\[ i_2 = \frac{10\text{ V}}{10\ \Omega} = 1\text{ A} \]<br/>वोल्टमीटर शाखा के \( 10\ \Omega \) प्रतिरोधक पर विभव पतन शून्य होगा, अतः वोल्टमीटर \( \text{V}_2 \) का पाठ्यांक: \[ V_2 = 10\text{ V} \]</p><p><strong>चरण 5: जाँच और अंतिम उत्तर</strong><br/>दोनों परिपथों के पाठ्यांकों की तुलना करने पर: \( V_1 = V_2 \) तथा \( i_1 = i_2 \)।</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>4.0000000</defaultgrade>
+    <penalty>0.2500000</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>\( V_1 = V_2 \) and \( i_1 = i_2 \)</p>]]></text>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>\( V_1 > V_2 \) and \( i_1 > i_2 \)</p>]]></text>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>\( V_1 > V_2 \) and \( i_1 = i_2 \)</p>]]></text>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>\( V_1 = V_2 \) and \( i_1 > i_2 \)</p>]]></text>
+    </answer>
+    <tags>
+      <tag><text>standard:neet_ug</text></tag>
+      <tag><text>year:2019</text></tag>
+      <tag><text>lang:en</text></tag>
+      <tag><text>lang:hi</text></tag>
+      <tag><text>subject:physics</text></tag>
+      <tag><text>class:class_12</text></tag>
+      <tag><text>topic:current_electricity</text></tag>
+      <tag><text>chapter:current_electricity</text></tag>
+      <tag><text>typology:mcq</text></tag>
+      <tag><text>difficulty:easy</text></tag>
+      <tag><text>blooms:apply</text></tag>
+      <tag><text>calculation:light</text></tag>
+      <tag><text>media:circuit</text></tag>
+      <tag><text>multiconcept:false</text></tag>
+    </tags>
+  </question>
+<question type="multichoice">
+    <name>
+      <text>NEET_UG_PHYSICS_2019_MCQ_Q35 - Fraction of kinetic energy lost in elastic collision</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Body A of mass \( 4m \) moving with speed \( u \) collides with another body B of mass \( 2m \), at rest. The collision is head on and elastic in nature. After the collision the fraction of energy lost by the colliding body A is</p><hr/><p>द्रव्यमान \( 4m \) का कोई पिण्ड A चाल \( u \) से गतिशील होकर विराम में स्थित द्रव्यमान \( 2m \) के किसी अन्य पिण्ड B से सम्मुख प्रत्यास्थ संघट्ट करता है। संघट्ट के पश्चात टकराने वाले पिण्ड A द्वारा ऊर्जा का क्षय हुआ प्रभाज (fraction) है</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>- Mass of body A: \( m_1 = 4m \)<br/>- Initial velocity of body A: \( u_1 = u \)<br/>- Mass of body B: \( m_2 = 2m \)<br/>- Initial velocity of body B: \( u_2 = 0 \)<br/>- Nature of collision: One-dimensional (head-on), perfectly elastic (\( e = 1 \)).</p><p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>Motion takes place along a straight horizontal line. The direction of initial velocity \( u \) is defined as positive.</p><p><strong>Step 3: Relevant Formulae and Principles</strong><br/>In a one-dimensional perfectly elastic collision, the velocity of mass \( m_1 \) after collision is given by: \[ v_1 = \left(\frac{m_1 - m_2}{m_1 + m_2}\right) u_1 + \left(\frac{2m_2}{m_1 + m_2}\right) u_2 \] The fraction of kinetic energy retained by body A is: \[ f_{\text{retained}} = \frac{K_f}{K_i} = \frac{\frac{1}{2} m_1 v_1^2}{\frac{1}{2} m_1 u^2} = \left(\frac{v_1}{u}\right)^2 \] The fraction of kinetic energy lost by body A is: \[ f_{\text{lost}} = 1 - f_{\text{retained}} = 1 - \left(\frac{v_1}{u}\right)^2 \]</p><p><strong>Step 4: Step-by-Step Working</strong><br/>Since \( u_2 = 0 \), calculate \( v_1 \): \[ v_1 = \left(\frac{4m - 2m}{4m + 2m}\right) u = \left(\frac{2m}{6m}\right) u = \frac{1}{3} u \] Compute the fraction of kinetic energy retained: \[ f_{\text{retained}} = \left(\frac{u/3}{u}\right)^2 = \left(\frac{1}{3}\right)^2 = \frac{1}{9} \] Compute the fraction of kinetic energy lost: \[ f_{\text{lost}} = 1 - \frac{1}{9} = \frac{8}{9} \]</p><p><strong>Step 5: Check and Final Answer</strong><br/>The lost fraction represents kinetic energy transferred to body B. Using \( \Delta K / K_i = \frac{4m_1 m_2}{(m_1+m_2)^2} = \frac{4(4m)(2m)}{(6m)^2} = \frac{32}{36} = \frac{8}{9} \), the result is verified as \( \frac{8}{9} \).</p><hr/><p><strong>चरण 1: दिए गए आँकड़े और स्थितियाँ</strong><br/>- पिण्ड A का द्रव्यमान: \( m_1 = 4m \)<br/>- पिण्ड A का प्रारंभिक वेग: \( u_1 = u \)<br/>- पिण्ड B का द्रव्यमान: \( m_2 = 2m \)<br/>- पिण्ड B का प्रारंभिक वेग: \( u_2 = 0 \)<br/>- संघट्ट: एकविमीय तथा पूर्णतः प्रत्यास्थ।</p><p><strong>चरण 2: मान्यताएँ और चिह्न परिपाटी</strong><br/>गति एक ही रेखा के अनुदिश है तथा प्रारंभिक गति की दिशा को धनात्मक माना गया है।</p><p><strong>चरण 3: संबंधित सूत्र और सिद्धांत</strong><br/>प्रत्यास्थ संघट्ट के पश्चात पिण्ड A का वेग: \[ v_1 = \left(\frac{m_1 - m_2}{m_1 + m_2}\right) u_1 \]<br/>ऊर्जा क्षय (स्थानांतरण) का प्रभाज: \[ f_{\text{lost}} = 1 - \frac{K_f}{K_i} = 1 - \left(\frac{v_1}{u}\right)^2 \]</p><p><strong>चरण 4: चरणबद्ध हल</strong><br/>\( v_1 \) का मान: \[ v_1 = \left(\frac{4m - 2m}{4m + 2m}\right) u = \frac{2m}{6m} u = \frac{u}{3} \]<br/>शेष बची गतिज ऊर्जा का प्रभाज: \[ \frac{K_f}{K_i} = \left(\frac{1}{3}\right)^2 = \frac{1}{9} \]<br/>क्षय हुआ ऊर्जा प्रभाज: \[ f_{\text{lost}} = 1 - \frac{1}{9} = \frac{8}{9} \]</p><p><strong>चरण 5: जाँच और अंतिम उत्तर</strong><br/>पिण्ड A द्वारा खोई गई गतिज ऊर्जा का प्रभाज \( \frac{8}{9} \) है।</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>4.0000000</defaultgrade>
+    <penalty>0.2500000</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>\( \frac{4}{9} \)</p>]]></text>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>\( \frac{5}{9} \)</p>]]></text>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>\( \frac{1}{9} \)</p>]]></text>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>\( \frac{8}{9} \)</p>]]></text>
+    </answer>
+    <tags>
+      <tag><text>standard:neet_ug</text></tag>
+      <tag><text>year:2019</text></tag>
+      <tag><text>lang:en</text></tag>
+      <tag><text>lang:hi</text></tag>
+      <tag><text>subject:physics</text></tag>
+      <tag><text>class:class_11</text></tag>
+      <tag><text>topic:mechanics</text></tag>
+      <tag><text>chapter:work_energy_and_power</text></tag>
+      <tag><text>typology:mcq</text></tag>
+      <tag><text>difficulty:medium</text></tag>
+      <tag><text>blooms:apply</text></tag>
+      <tag><text>calculation:light</text></tag>
+      <tag><text>media:equation</text></tag>
+      <tag><text>multiconcept:false</text></tag>
+    </tags>
+  </question>
+</quiz>

@@ -1,0 +1,819 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+<question type="multichoice">
+  <name>
+    <text>NEET_UG_PHYSICS_2016_MCQ_Q41 - Ratio of de Broglie wavelengths of electron and photon</text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>An electron of mass \(m\) and a photon have same energy \(E\). The ratio of de-Broglie wavelength associated with them is</p>
+<hr/>
+<p>\(m\) ভরের একটি ইলেকট্রন এবং একটি ফোটনের শক্তি একই (\(E\))। এদের সাথে সম্পর্কিত দ্য ব্রয় তরঙ্গদৈর্ঘ্যের অনুপাত হলো</p>]]></text>
+  </questiontext>
+  <generalfeedback format="html">
+    <text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>Mass of the electron = \(m\)<br/>Kinetic energy of the electron = \(E\)<br/>Energy of the photon = \(E\)<br/>Speed of light in vacuum = \(c\)</p>
+<p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>The electron is treated non-relativistically with kinetic energy \(E = \frac{p_e^2}{2m}\). The photon travels at the speed of light \(c\) with energy \(E = p_{\text{ph}} c\).</p>
+<p><strong>Step 3: Relevant Formulae and Principles</strong><br/>The de-Broglie wavelength for any particle with momentum \(p\) is:
+\[
+\lambda = \frac{h}{p}
+\]
+For the electron:
+\[
+p_e = \sqrt{2mE} \implies \lambda_e = \frac{h}{\sqrt{2mE}}
+\]
+For the photon:
+\[
+E = \frac{hc}{\lambda_{\text{ph}}} \implies \lambda_{\text{ph}} = \frac{hc}{E}
+\]</p>
+<p><strong>Step 4: Step-by-Step Working</strong><br/>Taking the ratio of the de-Broglie wavelength of the electron to that of the photon:
+\[
+\frac{\lambda_e}{\lambda_{\text{ph}}} = \frac{\frac{h}{\sqrt{2mE}}}{\frac{hc}{E}} = \frac{h}{\sqrt{2mE}} \times \frac{E}{hc} = \frac{1}{c} \frac{E}{\sqrt{2mE}}
+\]
+Simplifying the energy term:
+\[
+\frac{E}{\sqrt{2mE}} = \sqrt{\frac{E^2}{2mE}} = \sqrt{\frac{E}{2m}} = \left(\frac{E}{2m}\right)^{\frac{1}{2}}
+\]
+Thus, the ratio is:
+\[
+\frac{\lambda_e}{\lambda_{\text{ph}}} = \frac{1}{c}\left(\frac{E}{2m}\right)^{\frac{1}{2}}
+\]</p>
+<p><strong>Step 5: Check and Final Answer</strong><br/>Dimensional analysis verifies that \(\frac{1}{c}\sqrt{\frac{E}{m}}\) has dimensions of \(\frac{1}{\text{m s}^{-1}} \times (\text{m s}^{-1}) = 1\) (dimensionless). The correct ratio is \(\frac{1}{c}\left(\frac{E}{2m}\right)^{\frac{1}{2}}\).</p>
+<hr/>
+<p><strong>ধাপ ১: প্রদত্ত তথ্য ও শর্তাবলী</strong><br/>ইলেকট্রনের ভর = \(m\)<br/>ইলেকট্রনের গতিশক্তি = \(E\)<br/>ফোটনের শক্তি = \(E\)<br/>শূন্য মাধ্যমে আলোর দ্রুতি = \(c\)</p>
+<p><strong>ধাপ ২: অনুমান ও চিহ্ন রীতি</strong><br/>ইলেকট্রনটিকে অহপেক্ষিকীয় (non-relativistic) বিবেচনা করা হয়েছে যার গতিশক্তি \(E = \frac{p_e^2}{2m}\)। ফোটনের ক্ষেত্রে শক্তি \(E = p_{\text{ph}} c\)।</p>
+<p><strong>ধাপ ৩: প্রাসঙ্গিক সূত্র ও নীতি</strong><br/>ভরবেগ \(p\) বিশিষ্ট যেকোনো কণার দ্য ব্রয় তরঙ্গদৈর্ঘ্য:
+\[
+\lambda = \frac{h}{p}
+\]
+ইলেকট্রনের ক্ষেত্রে:
+\[
+\lambda_e = \frac{h}{\sqrt{2mE}}
+\]
+ফোটনের ক্ষেত্রে:
+\[
+\lambda_{\text{ph}} = \frac{hc}{E}
+\]</p>
+<p><strong>ধাপ ৪: ধাপে ধাপে গণনা</strong><br/>ইলেকট্রন ও ফোটনের তরঙ্গদৈর্ঘ্যের অনুপাত:
+\[
+\frac{\lambda_e}{\lambda_{\text{ph}}} = \frac{\frac{h}{\sqrt{2mE}}}{\frac{hc}{E}} = \frac{1}{c} \frac{E}{\sqrt{2mE}} = \frac{1}{c}\left(\frac{E}{2m}\right)^{\frac{1}{2}}
+\]</p>
+<p><strong>ধাপ ৫: যাচাই ও চূড়ান্ত উত্তর</strong><br/>অনুপাতটি মাত্রাহীন এবং সঠিক মান হলো \(\frac{1}{c}\left(\frac{E}{2m}\right)^{\frac{1}{2}}\)।</p>]]></text>
+  </generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(\left(\frac{E}{2m}\right)^{\frac{1}{2}}\)</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(c(2mE)^{\frac{1}{2}}\)</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(\frac{1}{c}\left(\frac{2m}{E}\right)^{\frac{1}{2}}\)</p>]]></text>
+  </answer>
+  <answer fraction="100" format="html">
+    <text><![CDATA[<p>\(\frac{1}{c}\left(\frac{E}{2m}\right)^{\frac{1}{2}}\)</p>]]></text>
+  </answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>year:2016</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:bn</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>class:12</text></tag>
+    <tag><text>chapter:dual_nature_of_radiation_and_matter</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:easy</text></tag>
+    <tag><text>blooms:apply</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:text</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+<question type="multichoice">
+  <name>
+    <text>NEET_UG_PHYSICS_2016_MCQ_Q42 - Distance of closest approach dependence on mass</text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>When an \(\alpha\)-particle of mass \(m\) moving with velocity \(v\) bombards on a heavy nucleus of charge \(Ze\), its distance of closest approach from the nucleus depends on \(m\) as</p>
+<hr/>
+<p>\(m\) ভরের এবং \(v\) বেগে গতিশীল একটি \(\alpha\)-কণা যখন \(Ze\) আধানযুক্ত একটি ভারী নিউক্লিয়াসে আঘাত হানে, তখন নিউক্লিয়াস থেকে তার নিকটতম দূরত্বের মান \(m\)-এর উপর কীভাবে নির্ভর করে?</p>]]></text>
+  </questiontext>
+  <generalfeedback format="html">
+    <text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>Mass of \(\alpha\)-particle = \(m\)<br/>Velocity of \(\alpha\)-particle = \(v\)<br/>Charge of \(\alpha\)-particle = \(q_1 = 2e\)<br/>Charge of heavy target nucleus = \(q_2 = Ze\)<br/>Initial separation is very large (infinite).</p>
+<p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>The target nucleus is assumed to remain stationary due to its large mass. At the distance of closest approach \(r_0\), the entire initial kinetic energy of the \(\alpha\)-particle is momentarily converted into electrostatic potential energy.</p>
+<p><strong>Step 3: Relevant Formulae and Principles</strong><br/>By the conservation of mechanical energy:
+\[
+K_i + U_i = K_f + U_f
+\]
+\[
+\frac{1}{2} m v^2 + 0 = 0 + \frac{1}{4\pi\varepsilon_0} \frac{q_1 q_2}{r_0}
+\]</p>
+<p><strong>Step 4: Step-by-Step Working</strong><br/>Substituting \(q_1 = 2e\) and \(q_2 = Ze\):
+\[
+\frac{1}{2} m v^2 = \frac{1}{4\pi\varepsilon_0} \frac{(2e)(Ze)}{r_0} = \frac{2Ze^2}{4\pi\varepsilon_0 r_0}
+\]
+Solving for the distance of closest approach \(r_0\):
+\[
+r_0 = \frac{4Ze^2}{4\pi\varepsilon_0 m v^2}
+\]
+For a given velocity \(v\) and atomic number \(Z\):
+\[
+r_0 \propto \frac{1}{m}
+\]</p>
+<p><strong>Step 5: Check and Final Answer</strong><br/>A particle with larger mass possesses greater kinetic energy at a given speed, allowing it to penetrate deeper into the repulsive Coulomb potential before stopping. Thus, the distance of closest approach is inversely proportional to \(m\), or \(\frac{1}{m}\).</p>
+<hr/>
+<p><strong>ধাপ ১: প্রদত্ত তথ্য ও শর্তাবলী</strong><br/>\(\alpha\)-কণার ভর = \(m\)<br/>\(\alpha\)-কণার বেগ = \(v\)<br/>\(\alpha\)-কণার আধান = \(2e\)<br/>ভারী নিউক্লিয়াসের আধান = \(Ze\)</p>
+<p><strong>ধাপ ২: অনুমান ও চিহ্ন রীতি</strong><br/>ভারী নিউক্লিয়াসটিকে স্থির ধরা হয়েছে। নিকটতম দূরত্ব \(r_0\)-তে \(\alpha\)-কণার সমস্ত প্রাথমিক গতিশক্তি স্থিরতাড়িত স্থিতিশক্তিতে রূপান্তরিত হয়।</p>
+<p><strong>ধাপ ৩: প্রাসঙ্গিক সূত্র ও নীতি</strong><br/>যান্ত্রিক শক্তি সংরক্ষণ নীতি অনুযায়ী:
+\[
+\frac{1}{2} m v^2 = \frac{1}{4\pi\varepsilon_0} \frac{(2e)(Ze)}{r_0}
+\]</p>
+<p><strong>ধাপ ৪: ধাপে ধাপে গণনা</strong><br/>নিকটতম দূরত্ব \(r_0\)-এর মান নির্ণয়:
+\[
+r_0 = \frac{4Ze^2}{4\pi\varepsilon_0 m v^2}
+\]
+অতএব, \(m\)-এর সাথে সম্পর্ক:
+\[
+r_0 \propto \frac{1}{m}
+\]</p>
+<p><strong>ধাপ ৫: যাচাই ও চূড়ান্ত উত্তর</strong><br/>নির্দিষ্ট বেগে গতিশীল কণার ভর বৃদ্ধি পেলে তার গতিশক্তি বৃদ্ধি পায়, ফলে নিকটতম দূরত্ব হ্রাস পায়। দূরত্বটি \(\frac{1}{m}\)-এর সমানুপাতিক।</p>]]></text>
+  </generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(\frac{1}{\sqrt{m}}\)</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(\frac{1}{m^2}\)</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(m\)</p>]]></text>
+  </answer>
+  <answer fraction="100" format="html">
+    <text><![CDATA[<p>\(\frac{1}{m}\)</p>]]></text>
+  </answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>year:2016</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:bn</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>class:12</text></tag>
+    <tag><text>chapter:atoms</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:easy</text></tag>
+    <tag><text>blooms:understand</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:text</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+<question type="multichoice">
+  <name>
+    <text>NEET_UG_PHYSICS_2016_MCQ_Q43 - Power required for refrigerator operating between temperatures</text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>A refrigerator works between \(4^{\circ}\mathrm{C}\) and \(30^{\circ}\mathrm{C}\). It is required to remove 600 calories of heat every second in order to keep the temperature of the refrigerated space constant. The power required is<br/>[Take, \(1\text{ cal} = 4.2\text{ J}\)]</p>
+<hr/>
+<p>একটি রেফ্রিজারেটর \(4^{\circ}\mathrm{C}\) এবং \(30^{\circ}\mathrm{C}\) তাপমাত্রার মধ্যে কাজ করে। রেফ্রিজারেটরের ভেতরের তাপমাত্রা স্থির রাখতে প্রতি সেকেন্ডে 600 ক্যালরি তাপ অপসারণ করতে হয়। প্রয়োজনীয় ক্ষমতা হলো<br/>[\(1\text{ cal} = 4.2\text{ J}\) ধরুন]</p>]]></text>
+  </questiontext>
+  <generalfeedback format="html">
+    <text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>Lower operating temperature (refrigerated space): \(T_2 = 4^{\circ}\mathrm{C} = 4 + 273 = 277\text{ K}\)<br/>Higher operating temperature (surroundings): \(T_1 = 30^{\circ}\mathrm{C} = 30 + 273 = 303\text{ K}\)<br/>Rate of heat removal: \(\frac{Q_2}{t} = 600\text{ cal/s}\)<br/>Conversion factor: \(1\text{ cal} = 4.2\text{ J}\)</p>
+<p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>The refrigerator is modeled as an ideal Carnot refrigerator operating reversibly between the two thermal reservoirs.</p>
+<p><strong>Step 3: Relevant Formulae and Principles</strong><br/>The coefficient of performance (\(\beta\)) of a Carnot refrigerator is:
+\[
+\beta = \frac{T_2}{T_1 - T_2}
+\]
+By definition, \(\beta\) relates the heat removed from the cold body (\(Q_2\)) to the external work done (\(W\)):
+\[
+\beta = \frac{Q_2}{W} \implies W = \frac{Q_2}{\beta} = Q_2 \left(\frac{T_1 - T_2}{T_2}\right)
+\]
+Power required is the rate of work done:
+\[
+P = \frac{W}{t} = \left(\frac{Q_2}{t}\right)\left(\frac{T_1 - T_2}{T_2}\right)
+\]</p>
+<p><strong>Step 4: Step-by-Step Working</strong><br/>Converting heat extraction rate to Joules per second (Watts):
+\[
+\frac{Q_2}{t} = 600 \times 4.2\text{ J/s} = 2520\text{ W}
+\]
+Evaluating the temperature terms:
+\[
+T_1 - T_2 = 303\text{ K} - 277\text{ K} = 26\text{ K}
+\]
+Calculating the coefficient of performance:
+\[
+\beta = \frac{277}{26} \approx 10.654
+\]
+Calculating the power required:
+\[
+P = \frac{2520\text{ W}}{10.654} = \frac{2520 \times 26}{277} = \frac{65520}{277} \approx 236.53\text{ W} \approx 236.5\text{ W}
+\]</p>
+<p><strong>Step 5: Check and Final Answer</strong><br/>With \(\beta \approx 10.65\), the required mechanical/electrical power is \(\frac{2520}{10.65} \approx 236.5\text{ W}\).</p>
+<hr/>
+<p><strong>ধাপ ১: প্রদত্ত তথ্য ও শর্তাবলী</strong><br/>নিম্ন তাপমাত্রা: \(T_2 = 4^{\circ}\mathrm{C} = 277\text{ K}\)<br/>উচ্চ তাপমাত্রা: \(T_1 = 30^{\circ}\mathrm{C} = 303\text{ K}\)<br/>তাপ অপসারণের হার: \(\frac{Q_2}{t} = 600\text{ cal/s}\)<br/>রূপান্তর গুণক: \(1\text{ cal} = 4.2\text{ J}\)</p>
+<p><strong>ধাপ ২: অনুমান ও চিহ্ন রীতি</strong><br/>রেফ্রিজারেটরটিকে একটি আদর্শ কার্নো রেফ্রিজারেটর হিসেবে বিবেচনা করা হয়েছে।</p>
+<p><strong>ধাপ ৩: প্রাসঙ্গিক সূত্র ও নীতি</strong><br/>কার্নো রেফ্রিজারেটরের কার্যকারিতা গুণাঙ্ক (\(\beta\)):
+\[
+\beta = \frac{T_2}{T_1 - T_2}
+\]
+প্রয়োজনীয় ক্ষমতা:
+\[
+P = \frac{W}{t} = \frac{Q_2/t}{\beta}
+\]</p>
+<p><strong>ধাপ ৪: ধাপে ধাপে গণনা</strong><br/>অপসারিত তাপকে ওয়াটে রূপান্তর:
+\[
+\frac{Q_2}{t} = 600 \times 4.2 = 2520\text{ W}
+\]
+তাপমাত্রার পার্থক্য: \(T_1 - T_2 = 303 - 277 = 26\text{ K}\)<br/>প্রয়োজনীয় ক্ষমতা:
+\[
+P = \frac{2520 \times 26}{277} \approx 236.5\text{ W}
+\]</p>
+<p><strong>ধাপ ৫: যাচাই ও চূড়ান্ত উত্তর</strong><br/>হিসাব অনুযায়ী প্রয়োজনীয় ক্ষমতা হলো \(236.5\text{ W}\)।</p>]]></text>
+  </generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>23.65 W</p>]]></text>
+  </answer>
+  <answer fraction="100" format="html">
+    <text><![CDATA[<p>236.5 W</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>2365 W</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>2.365 W</p>]]></text>
+  </answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>year:2016</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:bn</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>class:11</text></tag>
+    <tag><text>chapter:thermodynamics</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:medium</text></tag>
+    <tag><text>blooms:apply</text></tag>
+    <tag><text>calculation:moderate</text></tag>
+    <tag><text>media:text</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+<question type="multichoice">
+  <name>
+    <text>NEET_UG_PHYSICS_2016_MCQ_Q44 - Tangential acceleration of particle in circular motion</text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>A particle of mass \(10\text{ g}\) moves along a circle of radius \(6.4\text{ cm}\) with a constant tangential acceleration. What is the magnitude of this acceleration, if the kinetic energy of the particle becomes equal to \(8\times 10^{-4}\text{ J}\) by the end of the second revolution after the beginning of the motion?</p>
+<hr/>
+<p>\(10\text{ g}\) ভরের একটি কণা একটি স্থির স্পর্শকীয় ত্বরণ নিয়ে \(6.4\text{ cm}\) ব্যাসার্ধের একটি বৃত্ত বরাবর গতিশীল। গতি শুরুর পর দ্বিতীয় আবর্তন শেষে কণাটির গতিশক্তি \(8\times 10^{-4}\text{ J}\) হলে, এই ত্বরণের মান কত?</p>]]></text>
+  </questiontext>
+  <generalfeedback format="html">
+    <text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>Mass: \(m = 10\text{ g} = 0.01\text{ kg} = 10^{-2}\text{ kg}\)<br/>Radius: \(r = 6.4\text{ cm} = 0.064\text{ m} = 6.4 \times 10^{-2}\text{ m}\)<br/>Initial speed: \(u = 0\) (starts from rest)<br/>Number of revolutions: \(n = 2\)<br/>Final kinetic energy: \(K = 8 \times 10^{-4}\text{ J}\)</p>
+<p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>The tangential acceleration \(a_t\) is constant throughout the motion along the circular path.</p>
+<p><strong>Step 3: Relevant Formulae and Principles</strong><br/>Final speed \(v\) is obtained from kinetic energy:
+\[
+K = \frac{1}{2} m v^2 \implies v^2 = \frac{2K}{m}
+\]
+The total linear distance travelled along the circumference in \(n\) revolutions is:
+\[
+s = n(2\pi r) = 2 \times 2\pi r = 4\pi r
+\]
+Using the third kinematic equation for tangential motion:
+\[
+v^2 = u^2 + 2 a_t s
+\]</p>
+<p><strong>Step 4: Step-by-Step Working</strong><br/>Calculating \(v^2\):
+\[
+v^2 = \frac{2 \times (8 \times 10^{-4}\text{ J})}{10^{-2}\text{ kg}} = \frac{16 \times 10^{-4}}{10^{-2}} = 0.16\text{ m}^2/\text{s}^2
+\]
+Substituting into the kinematic equation with \(u = 0\):
+\[
+0.16 = 2 a_t (4\pi r) = 8\pi r a_t
+\]
+Solving for \(a_t\):
+\[
+a_t = \frac{0.16}{8\pi \times 0.064} = \frac{0.16}{0.512\pi} = \frac{160}{512\pi} = \frac{5}{16\pi} = \frac{1}{3.2\pi}
+\]
+Using \(\pi \approx 3.1416\):
+\[
+3.2 \times \pi \approx 3.2 \times 3.1416 \approx 10.053
+\]
+\[
+a_t = \frac{1}{10.053} \approx 0.0995\text{ m/s}^2 \approx 0.1\text{ m/s}^2
+\]</p>
+<p><strong>Step 5: Check and Final Answer</strong><br/>With distance \(s \approx 0.804\text{ m}\) and \(v^2 = 0.16\text{ m}^2/\text{s}^2\), \(a_t = \frac{0.16}{2 \times 0.804} \approx 0.1\text{ m/s}^2\).</p>
+<hr/>
+<p><strong>ধাপ ১: প্রদত্ত তথ্য ও শর্তাবলী</strong><br/>ভর: \(m = 10\text{ g} = 0.01\text{ kg}\)<br/>ব্যাসার্ধ: \(r = 6.4\text{ cm} = 0.064\text{ m}\)<br/>প্রাথমিক দ্রুতি: \(u = 0\)<br/>আবর্তন সংখ্যা: \(n = 2\)<br/>অন্তিম গতিশক্তি: \(K = 8 \times 10^{-4}\text{ J}\)</p>
+<p><strong>ধাপ ২: অনুমান ও চিহ্ন রীতি</strong><br/>বৃত্তীয় পথ বরাবর স্পর্শকীয় ত্বরণ \(a_t\) সর্বত্র স্থির থাকে।</p>
+<p><strong>ধাপ ৩: প্রাসঙ্গিক সূত্র ও নীতি</strong><br/>গতিশক্তি থেকে:
+\[
+K = \frac{1}{2} m v^2 \implies v^2 = \frac{2K}{m}
+\]
+২ বার আবর্তনে অতিক্রান্ত দূরত্ব:
+\[
+s = 2 \times (2\pi r) = 4\pi r
+\]
+গতিবিদ্যার তৃতীয় সমীকরণ:
+\[
+v^2 = u^2 + 2 a_t s
+\]</p>
+<p><strong>ধাপ ৪: ধাপে ধাপে গণনা</strong><br/>\(v^2\) গণনা:
+\[
+v^2 = \frac{2 \times 8 \times 10^{-4}}{0.01} = 0.16\text{ m}^2/\text{s}^2
+\]
+মান বসিয়ে:
+\[
+0.16 = 2 a_t (4\pi \times 0.064) = 8\pi (0.064) a_t
+\]
+\[
+a_t = \frac{0.16}{0.512\pi} = \frac{1}{3.2\pi} \approx \frac{1}{10.05} \approx 0.1\text{ m/s}^2
+\]</p>
+<p><strong>ধাপ ৫: যাচাই ও চূড়ান্ত উত্তর</strong><br/>স্পর্শকীয় ত্বরণের মান সঠিকভাবে গণনা করে পাওয়া যায় \(0.1\text{ m/s}^2\)।</p>]]></text>
+  </generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(0.15\text{ m/s}^2\)</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(0.18\text{ m/s}^2\)</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(0.2\text{ m/s}^2\)</p>]]></text>
+  </answer>
+  <answer fraction="100" format="html">
+    <text><![CDATA[<p>\(0.1\text{ m/s}^2\)</p>]]></text>
+  </answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>year:2016</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:bn</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>class:11</text></tag>
+    <tag><text>chapter:motion_in_a_plane</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:medium</text></tag>
+    <tag><text>blooms:apply</text></tag>
+    <tag><text>calculation:moderate</text></tag>
+    <tag><text>media:text</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+<question type="multichoice">
+  <name>
+    <text>NEET_UG_PHYSICS_2016_MCQ_Q45 - Minimum deviation and refractive index of prism</text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>The angle of incidence for a ray of light at a refracting surface of a prism is \(45^{\circ}\). The angle of prism is \(60^{\circ}\). If the ray suffers minimum deviation through the prism, the angle of minimum deviation and refractive index of the material of the prism respectively, are</p>
+<hr/>
+<p>একটি প্রিজমের প্রতিসারক তলে একটি আলোক রশ্মির আপাতন কোণ \(45^{\circ}\)। প্রিজমের কোণ \(60^{\circ}\)। যদি রশ্মিটি প্রিজমের মধ্য দিয়ে ন্যূনতম চ্যুতিতে নির্গত হয়, তবে ন্যূনতম চ্যুতি কোণ এবং প্রিজমের উপাদানের প্রতিসরাঙ্ক যথাক্রমে হলো</p>]]></text>
+  </questiontext>
+  <generalfeedback format="html">
+    <text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>Angle of incidence: \(i = 45^{\circ}\)<br/>Prism angle: \(A = 60^{\circ}\)<br/>Condition: The light ray suffers minimum deviation (\(\delta = \delta_m\)).</p>
+<p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>The prism is surrounded by air (\(\mu_{\text{air}} \approx 1\)). At minimum deviation, the path of the light ray inside the prism is symmetric, meaning the angle of emergence equals the angle of incidence (\(e = i\)) and the internal angles of refraction satisfy \(r_1 = r_2 = \frac{A}{2}\).</p>
+<p><strong>Step 3: Relevant Formulae and Principles</strong><br/>The general relation for deviation in a prism is:
+\[
+A + \delta = i + e
+\]
+At minimum deviation:
+\[
+\delta_m = 2i - A
+\]
+The refractive index of the prism material is given by the prism formula:
+\[
+\mu = \frac{\sin\left(\frac{A + \delta_m}{2}\right)}{\sin\left(\frac{A}{2}\right)}
+\]</p>
+<p><strong>Step 4: Step-by-Step Working</strong><br/>Calculating the angle of minimum deviation \(\delta_m\):
+\[
+\delta_m = 2(45^{\circ}) - 60^{\circ} = 90^{\circ} - 60^{\circ} = 30^{\circ}
+\]
+Calculating the refractive index \(\mu\):
+\[
+\mu = \frac{\sin\left(\frac{60^{\circ} + 30^{\circ}}{2}\right)}{\sin\left(\frac{60^{\circ}}{2}\right)} = \frac{\sin(45^{\circ})}{\sin(30^{\circ})} = \frac{\frac{1}{\sqrt{2}}}{\frac{1}{2}} = \frac{2}{\sqrt{2}} = \sqrt{2}
+\]</p>
+<p><strong>Step 5: Check and Final Answer</strong><br/>The calculated minimum deviation is \(30^{\circ}\) and the refractive index is \(\sqrt{2} \approx 1.414\), which is a physically standard value for optical glass.</p>
+<hr/>
+<p><strong>ধাপ ১: প্রদত্ত তথ্য ও শর্তাবলী</strong><br/>আপাতন কোণ: \(i = 45^{\circ}\)<br/>প্রিজম কোণ: \(A = 60^{\circ}\)<br/>শর্ত: আলোকরশ্মির ন্যূনতম চ্যুতি ঘটে (\(\delta = \delta_m\))।</p>
+<p><strong>ধাপ ২: অনুমান ও চিহ্ন রীতি</strong><br/>ন্যূনতম চ্যুতির ক্ষেত্রে প্রিজমের অভ্যন্তরে আলোকের গতিপথ প্রতিসম হয়, অর্থাৎ নির্গমন কোণ আপাতন কোণের সমান হয় (\(e = i\)) এবং প্রতিসরণ কোণ \(r = \frac{A}{2}\)।</p>
+<p><strong>ধাপ ৩: প্রাসঙ্গিক সূত্র ও নীতি</strong><br/>চ্যুতি কোণের সমীকরণ:
+\[
+\delta_m = 2i - A
+\]
+প্রিজমের প্রতিসরাঙ্ক সূত্র:
+\[
+\mu = \frac{\sin\left(\frac{A + \delta_m}{2}\right)}{\sin\left(\frac{A}{2}\right)}
+\]</p>
+<p><strong>ধাপ ৪: ধাপে ধাপে গণনা</strong><br/>ন্যূনতম চ্যুতি কোণ:
+\[
+\delta_m = 2(45^{\circ}) - 60^{\circ} = 30^{\circ}
+\]
+প্রতিসরাঙ্ক:
+\[
+\mu = \frac{\sin 45^{\circ}}{\sin 30^{\circ}} = \frac{1/\sqrt{2}}{1/2} = \sqrt{2}
+\]</p>
+<p><strong>ধাপ ৫: যাচাই ও চূড়ান্ত উত্তর</strong><br/>ন্যূনতম চ্যুতি কোণ হলো \(30^{\circ}\) এবং প্রতিসরাঙ্ক হলো \(\sqrt{2}\)।</p>]]></text>
+  </generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="100" format="html">
+    <text><![CDATA[<p>\(30^{\circ};\sqrt{2}\)</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(45^{\circ};\sqrt{2}\)</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(30^{\circ};\frac{1}{\sqrt{2}}\)</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(45^{\circ};\frac{1}{\sqrt{2}}\)</p>]]></text>
+  </answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>year:2016</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:bn</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>class:12</text></tag>
+    <tag><text>chapter:ray_optics_and_optical_instruments</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:easy</text></tag>
+    <tag><text>blooms:apply</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:text</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+<question type="multichoice">
+  <name>
+    <text>NEET_UG_CHEMISTRY_2016_MCQ_Q46 - Effect of catalyst on activation energy</text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>The addition of a catalyst during a chemical reaction alters which of the following quantities?</p>
+<hr/>
+<p>একটি রাসায়নিক বিক্রিয়ায় অনুঘটক যোগ করলে নিচের কোন রাশিটির পরিবর্তন ঘটে?</p>]]></text>
+  </questiontext>
+  <generalfeedback format="html">
+    <text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>A catalyst accelerates the rate of a chemical reaction by participating in the reaction mechanism and offering an alternate transition state pathway with lower activation energy.</p>
+<p><strong>Step 2: Thermodynamic vs Kinetic Parameters</strong><br/>Thermodynamic properties of the system—such as internal energy (\(U\)), enthalpy (\(H\)), entropy (\(S\)), and Gibbs free energy (\(G\))—are state functions that depend solely on the initial state of the reactants and the final state of the products. Because a catalyst does not alter the energy of either the reactants or the products, the values of \(\Delta U\), \(\Delta H\), \(\Delta S\), and \(\Delta G\) remain strictly unchanged.</p>
+<p><strong>Step 3: Kinetic Evaluation</strong><br/>The catalyst lowers the potential energy barrier between reactants and products, directly reducing the activation energy (\(E_a\)) for both the forward and reverse reactions equally.</p>
+<p><strong>Step 4: Final Conclusion</strong><br/>The quantity altered by the addition of a catalyst is the activation energy.</p>
+<hr/>
+<p><strong>ধাপ ১: ধারণাগত নীতি</strong><br/>অনুঘটক রাসায়নিক বিক্রিয়ায় বিকল্প পথ প্রদানের মাধ্যমে সক্রিয়করণ শক্তি হ্রাস করে বিক্রিয়ার হার বৃদ্ধি করে।</p>
+<p><strong>ধাপ ২: তাপগতীয় বনাম গতিবিদ্যাগত পরিমিতি</strong><br/>অভ্যন্তরীণ শক্তি (\(U\)), এনথ্যালপি (\(H\)), এন্ট্রপি (\(S\)) এবং গিবস মুক্ত শক্তি (\(G\)) হলো অবস্থাগত অপেক্ষক (state functions)। বিক্রিয়ক এবং বিক্রিয়াজাত পদার্থের সামগ্রিক শক্তির কোনো পরিবর্তন না হওয়ায় \(\Delta U\), \(\Delta H\) কিংবা \(\Delta S\)-এর মান অপরিবর্তিত থাকে।</p>
+<p><strong>ধাপ ৩: গতিবিদ্যাগত বিশ্লেষণ</strong><br/>অনুঘটক শুধুমাত্র মধ্যবর্তী জটিল যৌগের শক্তি বাধা কমিয়ে দেয়, অর্থাৎ সক্রিয়করণ শক্তির মান পরিবর্তন করে।</p>
+<p><strong>ধাপ ৪: চূড়ান্ত সিদ্ধান্ত</strong><br/>অনুঘটক যোগ করার ফলে সক্রিয়করণ শক্তি পরিবর্তিত হয়।</p>]]></text>
+  </generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>Internal energy</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>Enthalpy</p>]]></text>
+  </answer>
+  <answer fraction="100" format="html">
+    <text><![CDATA[<p>Activation energy</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>Entropy</p>]]></text>
+  </answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>year:2016</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:bn</text></tag>
+    <tag><text>subject:chemistry</text></tag>
+    <tag><text>class:12</text></tag>
+    <tag><text>chapter:chemical_kinetics</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:easy</text></tag>
+    <tag><text>blooms:remember</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:text</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+<question type="multichoice">
+  <name>
+    <text>NEET_UG_CHEMISTRY_2016_MCQ_Q47 - VSEPR order of electron pair repulsions</text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>Predict the correct order among the following.</p>
+<hr/>
+<p>নিচের কোনটি সঠিক ক্রম তা নির্দেশ করো।</p>]]></text>
+  </questiontext>
+  <generalfeedback format="html">
+    <text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>According to the Valence Shell Electron Pair Repulsion (VSEPR) theory, the geometry of a molecule depends on the electrostatic repulsion between electron pairs occupying the valence shell of the central atom.</p>
+<p><strong>Step 2: Electron Pair Spatial Distribution</strong><br/>A lone pair is localized solely on the central nucleus and is attracted by only one positive core. Consequently, its electron cloud occupies a larger volume in space. In contrast, a bond pair is shared between two nuclei and is held more tightly, occupying a narrower spatial region.</p>
+<p><strong>Step 3: Comparison of Repulsive Forces</strong><br/>Because lone pairs occupy more space around the central atom, the repulsive interactions between two lone pairs are the strongest, followed by repulsions between a lone pair and a bond pair, with repulsions between two bond pairs being the weakest.</p>
+<p><strong>Step 4: Final Conclusion</strong><br/>The decreasing order of repulsive interactions is:
+lone pair-lone pair \(>\) lone pair-bond pair \(>\) bond pair-bond pair.</p>
+<hr/>
+<p><strong>ধাপ ১: ধারণাগত নীতি</strong><br/>যোজ্যতা কক্ষ ইলেকট্রন জোড় বিকর্ষণ (VSEPR) তত্ত্ব অনুযায়ী, কেন্দ্রীয় পরমাণুর যোজ্যতা কক্ষে অবস্থিত ইলেকট্রন জোড়গুলির মধ্যকার স্থিরতাড়িত বিকর্ষণের ওপর অণুর আকৃতি নির্ভর করে।</p>
+<p><strong>ধাপ ২: ইলেকট্রন জোড়ের স্থানিক বিস্তার</strong><br/>নিঃসঙ্গ জোড় (lone pair) কেবল একটি নিউক্লিয়াস দ্বারা আকৃষ্ট হওয়ায় এটি বেশি স্থান জুড়ে বিস্তৃত থাকে। অপরপক্ষে, বন্ধন জোড় (bond pair) দুটি নিউক্লিয়াসের মধ্যে আবদ্ধ থাকায় কম স্থান দখল করে।</p>
+<p><strong>ধাপ ৩: বিকর্ষণ বলের তুলনা</strong><br/>স্থানিক বিস্তারের কারণে দুটি নিঃসঙ্গ জোড়ের মধ্যে বিকর্ষণ সর্বাধিক হয়, নিঃসঙ্গ জোড় ও বন্ধন জোড়ের মধ্যে মাঝারি এবং দুটি বন্ধন জোড়ের মধ্যে বিকর্ষণ সর্বনিম্ন হয়।</p>
+<p><strong>ধাপ ৪: চূড়ান্ত সিদ্ধান্ত</strong><br/>বিকর্ষণের সঠিক ক্রম হলো:
+নিঃসঙ্গ জোড়-নিঃসঙ্গ জোড় \(>\) নিঃসঙ্গ জোড়-বন্ধন জোড় \(>\) বন্ধন জোড়-বন্ধন জোড় (lone pair-lone pair \(>\) lone pair-bond pair \(>\) bond pair-bond pair)।</p>]]></text>
+  </generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>lone pair-lone pair \(>\) bond pair-bond pair \(>\) lone pair-bond pair</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>bond pair-bond pair \(>\) lone pair-bond pair \(>\) lone pair-lone pair</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>lone pair-bond pair \(>\) bond pair-bond pair \(>\) lone pair-lone pair</p>]]></text>
+  </answer>
+  <answer fraction="100" format="html">
+    <text><![CDATA[<p>lone pair-lone pair \(>\) lone pair-bond pair \(>\) bond pair-bond pair</p>]]></text>
+  </answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>year:2016</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:bn</text></tag>
+    <tag><text>subject:chemistry</text></tag>
+    <tag><text>class:11</text></tag>
+    <tag><text>chapter:chemical_bonding_and_molecular_structure</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:easy</text></tag>
+    <tag><text>blooms:remember</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:text</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+<question type="multichoice">
+  <name>
+    <text>NEET_UG_CHEMISTRY_2016_MCQ_Q48 - Basicity of arylamines compared to alkylamines</text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>The correct statement regarding the basicity of arylamines is</p>
+<hr/>
+<p>অ্যারাইলঅ্যামিনের ক্ষারকত্ব সম্পর্কিত সঠিক বিবৃতিটি হলো</p>]]></text>
+  </questiontext>
+  <generalfeedback format="html">
+    <text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>The basicity of amines is governed by the availability of the unshared electron pair on the nitrogen atom to coordinate with a proton (\(\mathrm{H}^+\)).</p>
+<p><strong>Step 2: Electronic Effects in Arylamines</strong><br/>In arylamines such as aniline (\(\mathrm{C}_6\mathrm{H}_5\mathrm{NH}_2\)), the non-bonding electron pair on the nitrogen atom is in conjugation with the \(\pi\)-orbital system of the benzene ring. Through resonance, this lone pair is delocalized over the ortho- and para-positions of the aromatic ring, making it substantially less available for proton donation.</p>
+<p><strong>Step 3: Comparison with Alkylamines</strong><br/>In alkylamines, the lone pair on the nitrogen atom is localized. Furthermore, alkyl groups exert an electron-donating inductive effect (\(+I\)), which increases electron density on the nitrogen atom and stabilizes the conjugate ammonium cation. Consequently, arylamines are generally weaker bases than alkylamines.</p>
+<p><strong>Step 4: Final Conclusion</strong><br/>Arylamines are generally less basic than alkylamines because the nitrogen lone-pair electrons are delocalized by interaction with the aromatic ring \(\pi\)-electron system.</p>
+<hr/>
+<p><strong>ধাপ ১: ধারণাগত নীতি</strong><br/>অ্যামিনের ক্ষারকত্ব নাইট্রোজেন পরমাণুতে উপস্থিত নিঃসঙ্গ ইলেকট্রন জোড়ের প্রোটন (\(\mathrm{H}^+\)) গ্রহণের সহজলভ্যতার ওপর নির্ভর করে।</p>
+<p><strong>ধাপ ২: অ্যারাইলঅ্যামিনে ইলেকট্রনীয় প্রভাব</strong><br/>অ্যারাইলঅ্যামিনে (যেমন অ্যানিলিন) নাইট্রোজেনের নিঃসঙ্গ ইলেকট্রন জোড়টি বেনজিন বলয়ের \(\pi\)-ইলেকট্রন সিস্টেমের সাথে রেজোন্যান্সে অংশ নেয় এবং বলয়ে স্থানান্তরিত (delocalized) হয়। ফলে নাইট্রোজেনে ইলেকট্রন ঘনত্ব হ্রাস পায়।</p>
+<p><strong>ধাপ ৩: অ্যালকাইলঅ্যামিনের সাথে তুলনা</strong><br/>অ্যালকাইলঅ্যামিনে অ্যালকাইল গ্রুপের \(+I\) প্রভাবের কারণে নাইট্রোজেনের ওপর নিঃসঙ্গ ইলেকট্রন জোড় স্থানীয়করণ অবস্থায় থাকে এবং সহজে প্রোটন গ্রহণ করতে পারে। ফলে অ্যারাইলঅ্যামিন অ্যালকাইলঅ্যামিনের চেয়ে কম ক্ষারীয় হয়।</p>
+<p><strong>ধাপ ৪: চূড়ান্ত সিদ্ধান্ত</strong><br/>নাইট্রোজেনের নিঃসঙ্গ ইলেকট্রন জোড় অ্যারোমেটিক বলয়ের \(\pi\)-ইলেকট্রন সিস্টেমের সাথে রেজোন্যান্সে বিস্তৃত হওয়ায় অ্যারাইলঅ্যামিন সাধারণত অ্যালকাইলঅ্যামিনের তুলনায় কম ক্ষারীয় হয়।</p>]]></text>
+  </generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>Arylamines are generally more basic than alkylamines because the nitrogen lone-pair electrons are not delocalized by interaction with the aromatic ring \(\pi\)-electron system.</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>Arylamines are generally more basic than alkylamines because of aryl group.</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>Arylamines are generally more basic than alkylamines, because the nitrogen atom in arylamines is sp-hybridized.</p>]]></text>
+  </answer>
+  <answer fraction="100" format="html">
+    <text><![CDATA[<p>Arylamines are generally less basic than alkylamines because the nitrogen lone-pair electrons are delocalized by interaction with the aromatic ring \(\pi\)-electron system.</p>]]></text>
+  </answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>year:2016</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:bn</text></tag>
+    <tag><text>subject:chemistry</text></tag>
+    <tag><text>class:12</text></tag>
+    <tag><text>chapter:amines</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:easy</text></tag>
+    <tag><text>blooms:understand</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:text</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+<question type="multichoice">
+  <name>
+    <text>NEET_UG_CHEMISTRY_2016_MCQ_Q49 - Reaction of copper with concentrated nitric acid</text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>When copper is heated with conc. \(\mathrm{HNO}_3\) it produces</p>
+<hr/>
+<p>কপারকে গাঢ় \(\mathrm{HNO}_3\)-এর সাথে উত্তপ্ত করলে কী উৎপন্ন হয়?</p>]]></text>
+  </questiontext>
+  <generalfeedback format="html">
+    <text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>Nitric acid acts as both an acid and a strong oxidizing agent. Because copper has a positive standard reduction potential (\(E^\circ = +0.34\text{ V}\)), it does not liberate hydrogen gas with acids, but instead undergoes redox reactions where the nitrogen in \(\mathrm{HNO}_3\) is reduced to lower oxidation states depending on acid concentration.</p>
+<p><strong>Step 2: Chemical Reaction with Concentrated Nitric Acid</strong><br/>When copper metal reacts with concentrated nitric acid (where \(\mathrm{HNO}_3\) is typically around 68%), copper is oxidized from an oxidation state of \(0\) to \(+2\), forming copper(II) nitrate. Concurrently, concentrated nitric acid is reduced to brown nitrogen dioxide gas (\(\mathrm{NO}_2\)), where nitrogen's oxidation state decreases from \(+5\) to \(+4\):
+\[
+\mathrm{Cu} + 4\mathrm{HNO}_3\text{ (conc.)} \rightarrow \mathrm{Cu(NO_3)_2} + 2\mathrm{NO}_2 + 2\mathrm{H}_2\mathrm{O}
+\]</p>
+<p><strong>Step 3: Contrast with Dilute Nitric Acid</strong><br/>By contrast, reaction with dilute nitric acid produces nitric oxide (\(\mathrm{NO}\)):
+\[
+3\mathrm{Cu} + 8\mathrm{HNO}_3\text{ (dil.)} \rightarrow 3\mathrm{Cu(NO_3)_2} + 2\mathrm{NO} + 4\mathrm{H}_2\mathrm{O}
+\]</p>
+<p><strong>Step 4: Final Conclusion</strong><br/>Heating copper with concentrated nitric acid specifically produces \(\mathrm{Cu(NO_3)_2}\) and \(\mathrm{NO}_2\).</p>
+<hr/>
+<p><strong>ধাপ ১: ধারণাগত নীতি</strong><br/>নাইট্রিক অ্যাসিড একটি শক্তিশালী জারক পদার্থ এবং অ্যাসিড। কপার তড়িৎরাসায়নিক শ্রেণীতে হাইড্রোজেনের নিচে অবস্থিত হওয়ায় এটি হাইড্রোজেন গ্যাস প্রতিস্থাপন করতে পারে না; পরিবর্তে জারণ-বিজারণ প্রক্রিয়ায় কপার জারিত হয় এবং নাইট্রিক অ্যাসিড বিজারিত হয়।</p>
+<p><strong>ধাপ ২: গাঢ় নাইট্রিক অ্যাসিডের সাথে বিক্রিয়া</strong><br/>কপারকে গাঢ় \(\mathrm{HNO}_3\)-এর সাথে উত্তপ্ত করলে কপার জারিত হয়ে কপার(II) নাইট্রেট গঠন করে এবং গাঢ় অ্যাসিড বিজারিত হয়ে বাদামী বর্ণের নাইট্রোজেন ডাইঅক্সাইড (\(\mathrm{NO}_2\)) গ্যাস উৎপন্ন করে:
+\[
+\mathrm{Cu} + 4\mathrm{HNO}_3\text{ (গাঢ়)} \rightarrow \mathrm{Cu(NO_3)_2} + 2\mathrm{NO}_2 + 2\mathrm{H}_2\mathrm{O}
+\]</p>
+<p><strong>ধাপ ৩: লঘু অ্যাসিডের সাথে পার্থক্য</strong><br/>লঘু \(\mathrm{HNO}_3\)-এর সাথে বিক্রিয়ায় নাইট্রিক অক্সাইড (\(\mathrm{NO}\)) গ্যাস উৎপন্ন হয়।</p>
+<p><strong>ধাপ ৪: চূড়ান্ত সিদ্ধান্ত</strong><br/>গাঢ় \(\mathrm{HNO}_3\)-এর সাথে বিক্রিয়ায় উৎপন্ন পদার্থগুলি হলো \(\mathrm{Cu(NO_3)_2}\) এবং \(\mathrm{NO}_2\)।</p>]]></text>
+  </generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(\mathrm{Cu(NO_3)_2}\) and \(\mathrm{NO}\)</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(\mathrm{Cu(NO_3)_2}\), \(\mathrm{NO}\) and \(\mathrm{NO}_2\)</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(\mathrm{Cu(NO_3)_2}\) and \(\mathrm{N}_2\mathrm{O}\)</p>]]></text>
+  </answer>
+  <answer fraction="100" format="html">
+    <text><![CDATA[<p>\(\mathrm{Cu(NO_3)_2}\) and \(\mathrm{NO}_2\)</p>]]></text>
+  </answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>year:2016</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:bn</text></tag>
+    <tag><text>subject:chemistry</text></tag>
+    <tag><text>class:12</text></tag>
+    <tag><text>chapter:p_block_elements</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:easy</text></tag>
+    <tag><text>blooms:remember</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:text</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+<question type="multichoice">
+  <name>
+    <text>NEET_UG_CHEMISTRY_2016_MCQ_Q50 - Classification of organic chemical reaction types</text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>For the following reactions,</p>
+<p>(i) \(\mathrm{CH}_3\mathrm{CH}_2\mathrm{CH}_2\mathrm{Br} + \mathrm{KOH} \rightarrow \mathrm{CH}_3\mathrm{CH}=\mathrm{CH}_2 + \mathrm{KBr} + \mathrm{H}_2\mathrm{O}\)</p>
+<p>(ii) \((\mathrm{CH}_3)_3\mathrm{CBr} + \mathrm{KOH} \rightarrow (\mathrm{CH}_3)_3\mathrm{COH} + \mathrm{KBr}\)</p>
+<p>(iii) \(\mathrm{C}_6\mathrm{H}_{10} + \mathrm{Br}_2 \rightarrow \mathrm{C}_6\mathrm{H}_{10}\mathrm{Br}_2\) (Bromination of cyclohexene across the double bond)</p>
+<p>Which of the following statement is correct?</p>
+<hr/>
+<p>নিচের বিক্রিয়াগুলির জন্য,</p>
+<p>(i) \(\mathrm{CH}_3\mathrm{CH}_2\mathrm{CH}_2\mathrm{Br} + \mathrm{KOH} \rightarrow \mathrm{CH}_3\mathrm{CH}=\mathrm{CH}_2 + \mathrm{KBr} + \mathrm{H}_2\mathrm{O}\)</p>
+<p>(ii) \((\mathrm{CH}_3)_3\mathrm{CBr} + \mathrm{KOH} \rightarrow (\mathrm{CH}_3)_3\mathrm{COH} + \mathrm{KBr}\)</p>
+<p>(iii) \(\mathrm{C}_6\mathrm{H}_{10} + \mathrm{Br}_2 \rightarrow \mathrm{C}_6\mathrm{H}_{10}\mathrm{Br}_2\) (সাইক্লোহেক্সিনের দ্বি-বন্ধনে ব্রোমিনের সংযোজন)</p>
+<p>নিচের কোন বিবৃতিটি সঠিক?</p>]]></text>
+  </questiontext>
+  <generalfeedback format="html">
+    <text><![CDATA[<p><strong>Step 1: Classification Principles</strong><br/>1. An elimination reaction involves the removal of atoms or groups from two adjacent carbon atoms to form a multiple bond (\(\pi\)-bond).<br/>2. A substitution reaction involves the replacement of an atom or group of atoms in a molecule by another atom or group.<br/>3. An addition reaction involves the combination of two reacting molecules to form a single product, converting a \(\pi\)-bond into two new \(\sigma\)-bonds.</p>
+<p><strong>Step 2: Analysis of Reaction (i)</strong><br/>In \(\mathrm{CH}_3\mathrm{CH}_2\mathrm{CH}_2\mathrm{Br} + \mathrm{KOH} \rightarrow \mathrm{CH}_3\mathrm{CH}=\mathrm{CH}_2 + \mathrm{KBr} + \mathrm{H}_2\mathrm{O}\), a hydrogen atom from the \(\beta\)-carbon and a bromine atom from the \(\alpha\)-carbon are removed to create a carbon-carbon double bond. This process is a \(\beta\)-elimination (dehydrohalogenation) reaction.</p>
+<p><strong>Step 3: Analysis of Reaction (ii)</strong><br/>In \((\mathrm{CH}_3)_3\mathrm{CBr} + \mathrm{KOH} \rightarrow (\mathrm{CH}_3)_3\mathrm{COH} + \mathrm{KBr}\), the bromide ion is substituted by the nucleophilic hydroxide (\(\mathrm{OH}^-\)) group without any change in saturation. This is a nucleophilic substitution reaction.</p>
+<p><strong>Step 4: Analysis of Reaction (iii)</strong><br/>In the reaction of cyclohexene with bromine to yield 1,2-dibromocyclohexane, the carbon-carbon double bond opens up as two bromine atoms add across it. This is an electrophilic addition reaction.</p>
+<p><strong>Step 5: Final Conclusion</strong><br/>Reaction (i) is an elimination reaction, (ii) is a substitution reaction, and (iii) is an addition reaction.</p>
+<hr/>
+<p><strong>ধাপ ১: শ্রেণিবিভাগের নীতি</strong><br/>১. অপসারণ (elimination) বিক্রিয়ায় সংলগ্ন দুটি কার্বন থেকে পরমাণু বা মূলক অপসারিত হয়ে একটি নতুন \(\pi\)-বন্ধন গঠিত হয়।<br/>২. প্রতিস্থাপন (substitution) বিক্রিয়ায় কোনো অণুর একটি পরমাণু বা মূলক অপর একটি পরমাণু বা মূলক দ্বারা প্রতিস্থাপিত হয়।<br/>৩. যুত (addition) বিক্রিয়ায় অসম্পৃক্ত বন্ধনের সাথে বিকারক যুক্ত হয়ে একক উৎপাদ গঠন করে।</p>
+<p><strong>ধাপ ২: বিক্রিয়া (i)-এর বিশ্লেষণ</strong><br/>\(\mathrm{CH}_3\mathrm{CH}_2\mathrm{CH}_2\mathrm{Br}\)-এর সাথে \(\mathrm{KOH}\)-এর বিক্রিয়ায় \(\mathrm{HBr}\) অপসারিত হয়ে প্রোপিন উৎপন্ন হয়। এটি একটি ডিহাইড্রোহ্যালোজেনেশন বা অপসারণ বিক্রিয়া।</p>
+<p><strong>ধাপ ৩: বিক্রিয়া (ii)-এর বিশ্লেষণ</strong><br/>টারশিয়ারি বিউটাইল ব্রোমাইডের ব্রোমিন পরমাণুটি হাইড্রক্সিল (\(-\mathrm{OH}\)) মূলক দ্বারা প্রতিস্থাপিত হয়। এটি একটি কেন্দ্রাকর্ষী প্রতিস্থাপন বিক্রিয়া।</p>
+<p><strong>ধাপ ৪: বিক্রিয়া (iii)-এর বিশ্লেষণ</strong><br/>সাইক্লোহেক্সিনের দ্বি-বন্ধনে ব্রোমিন যুক্ত হয়ে 1,2-ডাইব্রোমোসাইক্লোহেক্সেন উৎপন্ন হয়। এটি একটি যুত বিক্রিয়া।</p>
+<p><strong>ধাপ ৫: চূড়ান্ত সিদ্ধান্ত</strong><br/>(i) হলো অপসারণ বিক্রিয়া, (ii) হলো প্রতিস্থাপন বিক্রিয়া এবং (iii) হলো যুত বিক্রিয়া।</p>]]></text>
+  </generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="100" format="html">
+    <text><![CDATA[<p>(i) is elimination, reaction, (ii) is substitution and (iii) is addition reaction</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>(i) is elimination, (ii) and (iii) are substitution reactions</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>(i) is substitution, (ii) and (iii) are addition reactions</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>(i) and (ii) are elimination reactions and (iii) is addition reaction</p>]]></text>
+  </answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>year:2016</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:bn</text></tag>
+    <tag><text>subject:chemistry</text></tag>
+    <tag><text>class:12</text></tag>
+    <tag><text>chapter:haloalkanes_and_haloarenes</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:easy</text></tag>
+    <tag><text>blooms:understand</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:text</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+<question type="multichoice">
+  <name>
+    <text>NEET_UG_CHEMISTRY_2016_MCQ_Q51 - Quantum number distinguishing electrons in same orbital</text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>Two electrons occupying the same orbital are distinguished by</p>
+<hr/>
+<p>একই কক্ষকে অবস্থানকারী দুটি ইলেকট্রনকে কীসের দ্বারা পৃথক করা যায়?</p>]]></text>
+  </questiontext>
+  <generalfeedback format="html">
+    <text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>According to Pauli's Exclusion Principle, no two electrons in an isolated atom can possess an identical set of all four quantum numbers: principal (\(n\)), azimuthal (\(l\)), magnetic (\(m_l\)), and spin (\(m_s\)).</p>
+<p><strong>Step 2: Quantum Numbers of an Orbital</strong><br/>An atomic orbital is uniquely characterized by three spatial quantum numbers:
+- Principal quantum number (\(n\)), which defines the main energy shell and size.
+- Azimuthal quantum number (\(l\)), which specifies the subshell and orbital shape.
+- Magnetic quantum number (\(m_l\)), which determines the spatial orientation of the orbital.</p>
+<p><strong>Step 3: Differentiation by Spin</strong><br/>Because any two electrons occupying the same individual orbital share identical values for \(n\), \(l\), and \(m_l\), they can only coexist in that orbital if they have opposite intrinsic angular momenta. Thus, their spin quantum numbers must differ, with one electron having \(m_s = +\frac{1}{2}\) (spin-up) and the other having \(m_s = -\frac{1}{2}\) (spin-down).</p>
+<p><strong>Step 4: Final Conclusion</strong><br/>Two electrons occupying the same orbital are distinguished exclusively by their spin quantum number.</p>
+<hr/>
+<p><strong>ধাপ ১: ধারণাগত নীতি</strong><br/>পাউলির অপবর্জন নীতি অনুযায়ী, কোনো পরমাণুতে উপস্থিত যেকোনো দুটি ইলেকট্রনের চারটি কোয়ান্টাম সংখ্যার মান কখনোই একই হতে পারে না।</p>
+<p><strong>ধাপ ২: কক্ষকের কোয়ান্টাম সংখ্যা</strong><br/>একটি নির্দিষ্ট পারমাণবিক কক্ষক তিনটি স্থানিক কোয়ান্টাম সংখ্যা দ্বারা নির্ধারিত হয়:
+- মুখ্য কোয়ান্টাম সংখ্যা (\(n\)), যা শক্তিস্তর ও আকার নির্দেশ করে।
+- গৌণ কোয়ান্টাম সংখ্যা (\(l\)), যা উপকক্ষ ও আকৃতি নির্দেশ করে।
+- চুম্বকীয় কোয়ান্টাম সংখ্যা (\(m_l\)), যা ত্রিমাত্রিক বিন্যাস নির্দেশ করে।</p>
+<p><strong>ধাপ ৩: ঘূর্ণনের মাধ্যমে পৃথকীকরণ</strong><br/>একই কক্ষকে অবস্থানকারী দুটি ইলেকট্রনের ক্ষেত্রে \(n\), \(l\) এবং \(m_l\)-এর মান অভিন্ন হয়। সুতরাং পাউলির নীতি মেনে চলতে হলে তাদের ঘূর্ণন কোয়ান্টাম সংখ্যা (\(m_s\)) অবশ্যই ভিন্ন হতে হবে (একটি \(+\frac{1}{2}\) এবং অন্যটি \(-\frac{1}{2}\))।</p>
+<p><strong>ধাপ ৪: চূড়ান্ত সিদ্ধান্ত</strong><br/>একই কক্ষকে অবস্থিত দুটি ইলেকট্রনকে ঘূর্ণন কোয়ান্টাম সংখ্যা (spin quantum number) দ্বারা পৃথক করা হয়।</p>]]></text>
+  </generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>magnetic quantum number.</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>azimuthal quantum number.</p>]]></text>
+  </answer>
+  <answer fraction="100" format="html">
+    <text><![CDATA[<p>spin quantum number.</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>principal quantum number.</p>]]></text>
+  </answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>year:2016</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:bn</text></tag>
+    <tag><text>subject:chemistry</text></tag>
+    <tag><text>class:11</text></tag>
+    <tag><text>chapter:structure_of_atom</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:easy</text></tag>
+    <tag><text>blooms:remember</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:text</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+</quiz>

@@ -1,0 +1,459 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+<question type="multichoice">
+  <name>
+    <text>NEET_UG_PHYSICS_2022_SECTION_A_MCQ_Q05 - Phase relationship in capacitive alternating circuit</text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>Given below are two statements:</p><p><strong>Statement-I:</strong> In an a.c. circuit, the current through a capacitor leads the voltage across it.</p><p><strong>Statement-II:</strong> In a.c. circuits containing pure capacitance only, the phase difference between the current and the voltage is \(\pi\).</p><p>In the light of the above statements, choose the most appropriate answer from the options given below:</p><hr/><p>नीचे दो कथन दिए गए हैं:</p><p><strong>कथन-I:</strong> एक a.c. परिपथ में, संधारित्र से प्रवाहित धारा इसके सिरों पर वोल्टता से आगे (अग्रगामी) होती है।</p><p><strong>कथन-II:</strong> केवल शुद्ध धारिता वाले a.c. परिपथों में, धारा और वोल्टता के बीच कलांतर \(\pi\) होता है।</p><p>उपरोक्त कथनों के आलोक में, नीचे दिए गए विकल्पों में से सबसे उपयुक्त उत्तर चुनिए:</p>]]></text>
+  </questiontext>
+  <generalfeedback format="html">
+    <text><![CDATA[<p><strong>Conceptual Principle:</strong><br/>In an alternating current circuit containing a pure capacitor of capacitance \(C\), the instantaneous charge on the plates is \(q(t) = C v(t)\). For an applied alternating potential \(v(t) = V_0 \sin(\omega t)\), the instantaneous current is given by:<br/>\[i(t) = \frac{dq}{dt} = \omega C V_0 \cos(\omega t) = I_0 \sin\left(\omega t + \frac{\pi}{2}\right)\]</p><p><strong>Evaluation:</strong><br/>- The phase of the alternating current is \(\left(\omega t + \frac{\pi}{2}\right)\) and the phase of the applied voltage is \(\omega t\).<br/>- This indicates that the current reaches its crest a quarter of a cycle earlier than the voltage. Therefore, the current through a capacitor leads the voltage across it.<br/>- The phase difference between the current and the voltage across a pure capacitor is \(\Delta \phi = \left(\omega t + \frac{\pi}{2}\right) - \omega t = \frac{\pi}{2}\) radians (\(90^\circ\)), not \(\pi\) radians (\(180^\circ\)).</p><p><strong>Application:</strong><br/>The statement asserting that current leads voltage across a capacitor is scientifically correct. The assertion claiming that the phase difference between current and voltage in a purely capacitive circuit is \(\pi\) is incorrect because the actual phase difference is \(\frac{\pi}{2}\).</p><p><strong>Final Conclusion:</strong><br/>Statement-I is correct but Statement-II is incorrect.</p><hr/><p><strong>सैद्धांतिक सिद्धांत:</strong><br/>धारिता \(C\) वाले एक शुद्ध संधारित्र युक्त प्रत्यावर्ती धारा परिपथ में, प्लेटों पर तात्क्षणिक आवेश \(q(t) = C v(t)\) होता है। आरोपित प्रत्यावर्ती विभव \(v(t) = V_0 \sin(\omega t)\) के लिए, तात्क्षणिक धारा निम्न समीकरण से दी जाती है:<br/>\[i(t) = \frac{dq}{dt} = \omega C V_0 \cos(\omega t) = I_0 \sin\left(\omega t + \frac{\pi}{2}\right)\]</p><p><strong>मूल्यांकन:</strong><br/>- प्रत्यावर्ती धारा की कला \(\left(\omega t + \frac{\pi}{2}\right)\) है जबकि आरोपित वोल्टता की कला \(\omega t\) है।<br/>- यह स्पष्ट करता है कि धारा, वोल्टता से एक-चौथाई चक्र पहले अपने शिखर मान तक पहुँचती है। अतः संधारित्र से प्रवाहित धारा इसके सिरों पर वोल्टता से कला में आगे (अग्रगामी) होती है।<br/>- एक शुद्ध धारितीय परिपथ में धारा और वोल्टता के मध्य वास्तविक कलांतर \(\Delta \phi = \left(\omega t + \frac{\pi}{2}\right) - \omega t = \frac{\pi}{2}\) रेडियन (\(90^\circ\)) होता है, न कि \(\pi\) रेडियन (\(180^\circ\))।</p><p><strong>अनुप्रयोग:</strong><br/>यह कथन कि संधारित्र से प्रवाहित धारा वोल्टता से अग्रगामी होती है, सही है। जबकि यह कथन कि शुद्ध धारितीय परिपथ में धारा और वोल्टता के बीच कलांतर \(\pi\) होता है, गलत है क्योंकि वास्तविक कलांतर \(\frac{\pi}{2}\) होता है।</p><p><strong>अंतिम निष्कर्ष:</strong><br/>कथन-I सही है लेकिन कथन-II गलत है।</p>]]></text>
+  </generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>false</shuffleanswers>
+  <answernumbering>123</answernumbering>
+  <answer fraction="0" format="html">
+    <text><![CDATA[Both statement-I and statement-II are correct]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[Both statement-I and statement-II are incorrect]]></text>
+  </answer>
+  <answer fraction="100" format="html">
+    <text><![CDATA[Statement-I is correct but statement-II is incorrect]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[Statement-I is incorrect but statement-II is correct]]></text>
+  </answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>year:2022</text></tag>
+    <tag><text>code:u6</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:hi</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>section:section_a</text></tag>
+    <tag><text>class:class_12</text></tag>
+    <tag><text>chapter:alternating_current</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:easy</text></tag>
+    <tag><text>blooms:understand</text></tag>
+    <tag><text>media:text</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+<question type="multichoice">
+  <name>
+    <text>NEET_UG_PHYSICS_2022_SECTION_A_MCQ_Q06 - Equivalent resistance of infinite ladder network</text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>The equivalent resistance of the infinite network given below is:</p><p><img src="@@PLUGINFILE@@/img-0.jpeg" alt="Infinite network of resistors" /></p><hr/><p>नीचे दिए गए अनंत परिपथ का तुल्य प्रतिरोध है:</p>]]></text>
+  </questiontext>
+  <generalfeedback format="html">
+    <text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>- An infinite ladder network consists of repeated identical units.<br/>- Each horizontal series branch contains a resistance of \(1\ \Omega\) in the top arm and \(1\ \Omega\) in the bottom arm.<br/>- Each vertical shunt branch contains a resistance of \(1\ \Omega\).</p><p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>- Since the ladder network is infinite, adding or removing a single initial stage does not alter the overall equivalent resistance across the input terminals.<br/>- Let the total equivalent resistance of the infinite network be \(R_{\text{eq}}\).</p><p><strong>Step 3: Relevant Formulae and Principles</strong><br/>- The parallel combination of the first vertical branch (\(1\ \Omega\)) with the entire remaining infinite network (\(R_{\text{eq}}\)) has equivalent resistance:<br/>\[R_p = \frac{1 \times R_{\text{eq}}}{1 + R_{\text{eq}}}\]<br/>- The total equivalent resistance is obtained by adding the series arm resistors:<br/>\[R_{\text{eq}} = 1 + 1 + R_p = 2 + \frac{R_{\text{eq}}}{1 + R_{\text{eq}}}\]</p><p><strong>Step 4: Step-by-Step Working</strong><br/>1. Formulate the algebraic equation:<br/>\[R_{\text{eq}} = 2 + \frac{R_{\text{eq}}}{1 + R_{\text{eq}}}\]<br/>2. Multiply through by \((1 + R_{\text{eq}})\):<br/>\[R_{\text{eq}}(1 + R_{\text{eq}}) = 2(1 + R_{\text{eq}}) + R_{\text{eq}}\]<br/>\[R_{\text{eq}}^2 + R_{\text{eq}} = 2 + 2R_{\text{eq}} + R_{\text{eq}}\]<br/>\[R_{\text{eq}}^2 - 2R_{\text{eq}} - 2 = 0\]<br/>3. Solve using the quadratic formula \(R_{\text{eq}} = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}\):<br/>\[R_{\text{eq}} = \frac{2 \pm \sqrt{(-2)^2 - 4(1)(-2)}}{2} = \frac{2 \pm \sqrt{4 + 8}}{2} = \frac{2 \pm \sqrt{12}}{2} = \frac{2 \pm 2\sqrt{3}}{2} = 1 \pm \sqrt{3}\]<br/>4. Discard the negative root since resistance must be positive:<br/>\[R_{\text{eq}} = (1 + \sqrt{3})\ \Omega\]</p><p><strong>Step 5: Check and Final Answer</strong><br/>The numerical value is \(1 + 1.732 = 2.732\ \Omega\), which is physically reasonable and strictly greater than the initial series resistance of \(2\ \Omega\).<br/>The equivalent resistance of the infinite network is \((1 + \sqrt{3})\ \Omega\).</p><hr/><p><strong>चरण 1: दिए गए आँकड़े और शर्तें</strong><br/>- एक अनंत सीढ़ीनुमा परिपथ में समान आवर्ती इकाइयाँ हैं।<br/>- ऊपरी भुजा में \(1\ \Omega\) और निचली भुजा में \(1\ \Omega\) का क्षैतिज प्रतिरोध है।<br/>- प्रत्येक ऊर्ध्वाधर शंट भुजा में \(1\ \Omega\) का प्रतिरोध है।</p><p><strong>चरण 2: मान्यताएँ और चिन्ह परिपाटी</strong><br/>- परिपथ अनंत होने के कारण, परिपथ से एक इकाई हटाने अथवा जोड़ने पर कुल तुल्य प्रतिरोध में कोई परिवर्तन नहीं होता है।<br/>- माना संपूर्ण अनंत परिपथ का कुल तुल्य प्रतिरोध \(R_{\text{eq}}\) है।</p><p><strong>चरण 3: संबंधित सूत्र और सिद्धांत</strong><br/>- प्रथम ऊर्ध्वाधर शाखा (\(1\ \Omega\)) तथा शेष अनंत परिपथ (\(R_{\text{eq}}\)) के समांतर संयोजन का प्रतिरोध:<br/>\[R_p = \frac{1 \times R_{\text{eq}}}{1 + R_{\text{eq}}}\]<br/>- कुल तुल्य प्रतिरोध दो श्रेणीक्रम प्रतिरोधों के योग से प्राप्त होता है:<br/>\[R_{\text{eq}} = 1 + 1 + R_p = 2 + \frac{R_{\text{eq}}}{1 + R_{\text{eq}}}\]</p><p><strong>चरण 4: चरण-दर-चरण गणना</strong><br/>1. बीजगणितीय समीकरण स्थापित करने पर:<br/>\[R_{\text{eq}} = 2 + \frac{R_{\text{eq}}}{1 + R_{\text{eq}}}\]<br/>2. दोनों पक्षों में \((1 + R_{\text{eq}})\) से गुणा करने पर:<br/>\[R_{\text{eq}}(1 + R_{\text{eq}}) = 2(1 + R_{\text{eq}}) + R_{\text{eq}}\]<br/>\[R_{\text{eq}}^2 + R_{\text{eq}} = 2 + 2R_{\text{eq}} + R_{\text{eq}}\]<br/>\[R_{\text{eq}}^2 - 2R_{\text{eq}} - 2 = 0\]<br/>3. द्विघात सूत्र \(R_{\text{eq}} = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}\) द्वारा हल करने पर:<br/>\[R_{\text{eq}} = \frac{2 \pm \sqrt{4 - 4(1)(-2)}}{2} = \frac{2 \pm \sqrt{12}}{2} = \frac{2 \pm 2\sqrt{3}}{2} = 1 \pm \sqrt{3}\]<br/>4. प्रतिरोध का मान धनात्मक होने के कारण ऋणात्मक मूल को छोड़ने पर:<br/>\[R_{\text{eq}} = (1 + \sqrt{3})\ \Omega\]</p><p><strong>चरण 5: जाँच और अंतिम उत्तर</strong><br/>मान \(1 + 1.732 = 2.732\ \Omega\) प्राप्त होता है, जो दो श्रेणीक्रम प्रतिरोधों (\(2\ \Omega\)) से अधिक है तथा भौतिक रूप से वैध है।<br/>अनंत परिपथ का तुल्य प्रतिरोध \((1 + \sqrt{3})\ \Omega\) है।</p>]]></text>
+  </generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>123</answernumbering>
+  <answer fraction="0" format="html">
+    <text><![CDATA[\(2\Omega\)]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[\((1 + \sqrt{2})\Omega\)]]></text>
+  </answer>
+  <answer fraction="100" format="html">
+    <text><![CDATA[\((1 + \sqrt{3})\Omega\)]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[\((1 + \sqrt{5})\Omega\)]]></text>
+  </answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>year:2022</text></tag>
+    <tag><text>code:u6</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:hi</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>section:section_a</text></tag>
+    <tag><text>class:class_12</text></tag>
+    <tag><text>chapter:current_electricity</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:medium</text></tag>
+    <tag><text>blooms:apply</text></tag>
+    <tag><text>calculation:moderate</text></tag>
+    <tag><text>media:circuit</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+<question type="multichoice">
+  <name>
+    <text>NEET_UG_PHYSICS_2022_SECTION_A_MCQ_Q07 - Maximum height of projectile motion</text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>A cricket ball is thrown by a player at a speed of \(20\mathrm{m / s}\) in a direction \(30^{\circ}\) above the horizontal. The maximum height attained by the ball during its motion is \((g = 10\mathrm{m / s}^2)\):</p><hr/><p>एक खिलाड़ी द्वारा एक क्रिकेट गेंद को क्षैतिज से \(30^{\circ}\) के कोण पर \(20\mathrm{m / s}\) की चाल से फेंका जाता है। गेंद द्वारा अपनी गति के दौरान प्राप्त की गई अधिकतम ऊँचाई है \((g = 10\mathrm{m / s}^2)\):</p>]]></text>
+  </questiontext>
+  <generalfeedback format="html">
+    <text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>- Initial launch speed: \(u = 20\ \text{m/s}\)<br/>- Angle of projection with the horizontal: \(\theta = 30^\circ\)<br/>- Acceleration due to gravity: \(g = 10\ \text{m/s}^2\)</p><p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>- Air resistance is neglected.<br/>- Upward direction is chosen as positive.<br/>- At the peak of projectile trajectory, the vertical component of velocity becomes zero (\(v_y = 0\)).</p><p><strong>Step 3: Relevant Formulae and Principles</strong><br/>The maximum height \(H\) attained by a projectile launched from level ground is given by:<br/>\[H = \frac{u^2 \sin^2\theta}{2g}\]</p><p><strong>Step 4: Step-by-Step Working</strong><br/>1. Calculate the vertical component value:<br/>\[\sin 30^\circ = \frac{1}{2}\]<br/>\[\sin^2 30^\circ = \left(\frac{1}{2}\right)^2 = \frac{1}{4}\]<br/>2. Substitute the values into the formula:<br/>\[H = \frac{(20\ \text{m/s})^2 \times \frac{1}{4}}{2 \times 10\ \text{m/s}^2} = \frac{400 \times \frac{1}{4}}{20} = \frac{100}{20} = 5\ \text{m}\]</p><p><strong>Step 5: Check and Final Answer</strong><br/>Dimensionally, \(\frac{(\text{m/s})^2}{\text{m/s}^2} = \text{m}\). The value \(5\ \text{m}\) is consistent with kinematics.<br/>The maximum height attained by the ball during its motion is \(5\ \text{m}\).</p><hr/><p><strong>चरण 1: दिए गए आँकड़े और शर्तें</strong><br/>- प्रारंभिक प्रक्षेपण चाल: \(u = 20\ \text{m/s}\)<br/>- क्षैतिज से प्रक्षेपण कोण: \(\theta = 30^\circ\)<br/>- गुरुत्वीय त्वरण: \(g = 10\ \text{m/s}^2\)</p><p><strong>चरण 2: मान्यताएँ और चिन्ह परिपाटी</strong><br/>- वायु के प्रतिरोध को नगण्य माना गया है।<br/>- ऊर्ध्वाधर ऊपर की दिशा को धनात्मक माना गया है।<br/>- उच्चतम बिंदु पर वेग का ऊर्ध्वाधर घटक शून्य हो जाता है (\(v_y = 0\))।</p><p><strong>चरण 3: संबंधित सूत्र और सिद्धांत</strong><br/>प्रक्षेप्य द्वारा प्राप्त अधिकतम ऊँचाई \(H\) का सूत्र है:<br/>\[H = \frac{u^2 \sin^2\theta}{2g}\]</p><p><strong>चरण 4: चरण-दर-चरण गणना</strong><br/>1. कोण के त्रिकोणमितीय मान की गणना:<br/>\[\sin 30^\circ = \frac{1}{2}\]<br/>\[\sin^2 30^\circ = \frac{1}{4}\]<br/>2. सूत्र में मान प्रतिस्थापित करने पर:<br/>\[H = \frac{(20)^2 \times \frac{1}{4}}{2 \times 10} = \frac{400 \times \frac{1}{4}}{20} = \frac{100}{20} = 5\ \text{m}\]</p><p><strong>चरण 5: जाँच और अंतिम उत्तर</strong><br/>विमीय रूप से मान मीटर में प्राप्त होता है तथा गणना शुद्ध है।<br/>गेंद द्वारा अपनी गति के दौरान प्राप्त की गई अधिकतम ऊँचाई \(5\ \text{m}\) है।</p>]]></text>
+  </generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>123</answernumbering>
+  <answer fraction="100" format="html">
+    <text><![CDATA[\(5\mathrm{m}\)]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[\(10\mathrm{m}\)]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[\(20\mathrm{m}\)]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[\(25\mathrm{m}\)]]></text>
+  </answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>year:2022</text></tag>
+    <tag><text>code:u6</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:hi</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>section:section_a</text></tag>
+    <tag><text>class:class_11</text></tag>
+    <tag><text>chapter:motion_in_a_plane</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:easy</text></tag>
+    <tag><text>blooms:apply</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:text</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+<question type="multichoice">
+  <name>
+    <text>NEET_UG_PHYSICS_2022_SECTION_A_MCQ_Q08 - Magnetic field at center of circular coil</text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>A closely packed coil having 1000 turns has an average radius of \(62.8\mathrm{cm}\). If current carried by the wire of the coil is 1 A, the value of magnetic field produced at the centre of the coil will be (permeability of free space \(= 4\pi \times 10^{-7}\mathrm{H / m}\)) nearly:</p><hr/><p>1000 फेरों वाली एक सघन रूप से लिपटी कुंडली की औसत त्रिज्या \(62.8\mathrm{cm}\) है। यदि कुंडली के तार द्वारा प्रवाहित धारा 1 A है, तो कुंडली के केंद्र पर उत्पन्न चुंबकीय क्षेत्र का मान (निर्वात की पारगम्यता \(= 4\pi \times 10^{-7}\mathrm{H / m}\)) लगभग होगा:</p>]]></text>
+  </questiontext>
+  <generalfeedback format="html">
+    <text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>- Number of turns: \(N = 1000\)<br/>- Average radius of the coil: \(R = 62.8\ \text{cm} = 0.628\ \text{m}\)<br/>- Current in the coil: \(I = 1\ \text{A}\)<br/>- Permeability of free space: \(\mu_0 = 4\pi \times 10^{-7}\ \text{H/m}\)</p><p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>- The coil is assumed to be circular, planar, and closely wound so that all turns contribute identically to the central magnetic field.</p><p><strong>Step 3: Relevant Formulae and Principles</strong><br/>The magnetic field at the centre of a flat circular coil of \(N\) turns carrying current \(I\) is given by Biot-Savart law:<br/>\[B = \frac{\mu_0 N I}{2R}\]</p><p><strong>Step 4: Step-by-Step Working</strong><br/>1. Express the denominator:<br/>\[2R = 2 \times 0.628\ \text{m} = 1.256\ \text{m}\]<br/>2. Evaluate the numerator:<br/>\[\mu_0 = 4\pi \times 10^{-7} \approx 4 \times 3.14 \times 10^{-7} = 1.256 \times 10^{-6}\ \text{H/m}\]<br/>\[\mu_0 N I = (1.256 \times 10^{-6}\ \text{H/m}) \times 1000 \times 1\ \text{A} = 1.256 \times 10^{-3}\ \text{T}\cdot\text{m}\]<br/>3. Compute the magnetic field:<br/>\[B = \frac{1.256 \times 10^{-3}\ \text{T}\cdot\text{m}}{1.256\ \text{m}} = 10^{-3}\ \text{T}\]</p><p><strong>Step 5: Check and Final Answer</strong><br/>The unit simplifies to Tesla (\(\text{T}\)), and the magnitude \(10^{-3}\ \text{T}\) is characteristic of laboratory multi-turn coils.<br/>The value of magnetic field produced at the centre of the coil is nearly \(10^{-3}\ \text{T}\).</p><hr/><p><strong>चरण 1: दिए गए आँकड़े और शर्तें</strong><br/>- फेरों की संख्या: \(N = 1000\)<br/>- कुंडली की औसत त्रिज्या: \(R = 62.8\ \text{cm} = 0.628\ \text{m}\)<br/>- कुंडली में धारा: \(I = 1\ \text{A}\)<br/>- निर्वात की चुंबकशीलता: \(\mu_0 = 4\pi \times 10^{-7}\ \text{H/m}\)</p><p><strong>चरण 2: मान्यताएँ और चिन्ह परिपाटी</strong><br/>- कुंडली को वृत्ताकार और सघन रूप से लिपटा माना गया है, जिससे सभी फेरे केंद्र पर समान चुंबकीय क्षेत्र उत्पन्न करते हैं।</p><p><strong>चरण 3: संबंधित सूत्र और सिद्धांत</strong><br/>\(N\) फेरों वाली वृत्ताकार धारावाही कुंडली के केंद्र पर चुंबकीय क्षेत्र का सूत्र है:<br/>\[B = \frac{\mu_0 N I}{2R}\]</p><p><strong>चरण 4: चरण-दर-चरण गणना</strong><br/>1. हर का मान:<br/>\[2R = 2 \times 0.628\ \text{m} = 1.256\ \text{m}\]<br/>2. अंश का मान:<br/>\[\mu_0 \approx 4 \times 3.14 \times 10^{-7} = 1.256 \times 10^{-6}\ \text{H/m}\]<br/>\[\mu_0 N I = (1.256 \times 10^{-6}) \times 1000 \times 1 = 1.256 \times 10^{-3}\ \text{T}\cdot\text{m}\]<br/>3. चुंबकीय क्षेत्र का मान:<br/>\[B = \frac{1.256 \times 10^{-3}}{1.256} = 10^{-3}\ \text{T}\]</p><p><strong>चरण 5: जाँच और अंतिम उत्तर</strong><br/>प्राप्त मान \(10^{-3}\ \text{T}\) पूर्णतः सटीक और संगत है।<br/>कुंडली के केंद्र पर उत्पन्न चुंबकीय क्षेत्र का मान लगभग \(10^{-3}\ \text{T}\) है।</p>]]></text>
+  </generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>123</answernumbering>
+  <answer fraction="0" format="html">
+    <text><![CDATA[\(10^{-1}\mathrm{T}\)]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[\(10^{-2}\mathrm{T}\)]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[\(10^{2}\mathrm{T}\)]]></text>
+  </answer>
+  <answer fraction="100" format="html">
+    <text><![CDATA[\(10^{-3}\mathrm{T}\)]]></text>
+  </answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>year:2022</text></tag>
+    <tag><text>code:u6</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:hi</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>section:section_a</text></tag>
+    <tag><text>class:class_12</text></tag>
+    <tag><text>chapter:moving_charges_and_magnetism</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:easy</text></tag>
+    <tag><text>blooms:apply</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:text</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+<question type="multichoice">
+  <name>
+    <text>NEET_UG_PHYSICS_2022_SECTION_A_MCQ_Q09 - Inductive reactance in alternating and direct current</text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>An inductor of inductance \(2\mathrm{mH}\) is connected to a \(220\mathrm{V}, 50\mathrm{Hz}\) a.c. source. Let inductive reactance in the circuit is \(X_{1}\). If a \(220\mathrm{V}\) d.c. source replaces the a.c. source in the circuit, then the inductive reactance in the circuit is \(X_{2}\). \(X_{1}\) and \(X_{2}\) respectively are:</p><hr/><p>\(2\mathrm{mH}\) प्रेरकत्व वाला एक प्रेरक \(220\mathrm{V}, 50\mathrm{Hz}\) के a.c. स्रोत से जुड़ा है। माना परिपथ में प्रेरणिक प्रतिघात \(X_{1}\) है। यदि परिपथ में a.c. स्रोत को \(220\mathrm{V}\) के d.c. स्रोत से बदल दिया जाए, तो परिपथ में प्रेरणिक प्रतिघात \(X_{2}\) हो जाता है। \(X_{1}\) और \(X_{2}\) क्रमशः हैं:</p>]]></text>
+  </questiontext>
+  <generalfeedback format="html">
+    <text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>- Inductance: \(L = 2\ \text{mH} = 2 \times 10^{-3}\ \text{H}\)<br/>- Alternating current source: \(V_{\text{ac}} = 220\ \text{V}\), frequency \(f = 50\ \text{Hz}\)<br/>- Direct current source: \(V_{\text{dc}} = 220\ \text{V}\), frequency \(f_{\text{dc}} = 0\ \text{Hz}\)</p><p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>- The inductor is an ideal component with zero ohmic resistance.<br/>- The inductive reactance represents the opposition provided purely by the induced electromotive force to changing current.</p><p><strong>Step 3: Relevant Formulae and Principles</strong><br/>The inductive reactance of an inductor of inductance \(L\) at frequency \(f\) is given by:<br/>\[X_L = \omega L = 2\pi f L\]</p><p><strong>Step 4: Step-by-Step Working</strong><br/>1. Calculate inductive reactance \(X_1\) for the a.c. source:<br/>\[X_1 = 2\pi f L = 2 \times \pi \times 50 \times (2 \times 10^{-3})\]<br/>\[X_1 = 200\pi \times 10^{-3} = 0.2\pi\ \Omega\]<br/>Using \(\pi \approx 3.14\):<br/>\[X_1 = 0.2 \times 3.14 = 0.628\ \Omega\]<br/>2. Calculate inductive reactance \(X_2\) for the d.c. source:<br/>Direct current is unidirectional and steady with time; therefore, its frequency is zero (\(f = 0\)):<br/>\[X_2 = 2\pi \times 0 \times L = 0\ \Omega\ (\text{zero})\]</p><p><strong>Step 5: Check and Final Answer</strong><br/>In a steady direct current circuit, the rate of change of current is zero, so no self-induced back electromotive force opposes the steady flow, meaning the inductive reactance vanishes completely.<br/>The inductive reactances \(X_1\) and \(X_2\) are respectively \(0.628\ \Omega\) and zero.</p><hr/><p><strong>चरण 1: दिए गए आँकड़े और शर्तें</strong><br/>- प्रेरकत्व: \(L = 2\ \text{mH} = 2 \times 10^{-3}\ \text{H}\)<br/>- a.c. स्रोत: \(V_{\text{ac}} = 220\ \text{V}\), आवृत्ति \(f = 50\ \text{Hz}\)<br/>- d.c. स्रोत: \(V_{\text{dc}} = 220\ \text{V}\), आवृत्ति \(f_{\text{dc}} = 0\ \text{Hz}\)</p><p><strong>चरण 2: मान्यताएँ और चिन्ह परिपाटी</strong><br/>- प्रेरक को आदर्श माना गया है जिसका अपना ओमीय प्रतिरोध शून्य है।<br/>- प्रेरणिक प्रतिघात धारा परिवर्तन के विरुद्ध प्रेरित विद्युत वाहक बल द्वारा उत्पन्न विरोध को दर्शाता है।</p><p><strong>चरण 3: संबंधित सूत्र और सिद्धांत</strong><br/>प्रेरणिक प्रतिघात का सूत्र निम्न है:<br/>\[X_L = 2\pi f L\]</p><p><strong>चरण 4: चरण-दर-चरण गणना</strong><br/>1. a.c. स्रोत के लिए \(X_1\) की गणना:<br/>\[X_1 = 2\pi \times 50 \times (2 \times 10^{-3}) = 0.2\pi\ \Omega\]<br/>\[X_1 = 0.2 \times 3.14 = 0.628\ \Omega\]<br/>2. d.c. स्रोत के लिए \(X_2\) की गणना:<br/>दिश धारा (d.c.) की आवृत्ति शून्य होती है (\(f = 0\)):<br/>\[X_2 = 2\pi \times 0 \times L = 0\ \Omega\ (\text{शून्य})\]</p><p><strong>चरण 5: जाँच और अंतिम उत्तर</strong><br/>स्थायी d.c. परिपथ में धारा में परिवर्तन की दर शून्य होती है, अतः प्रेरणिक प्रतिघात शून्य होता है।<br/>\(X_1\) और \(X_2\) के मान क्रमशः \(0.628\ \Omega\) और शून्य हैं।</p>]]></text>
+  </generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>123</answernumbering>
+  <answer fraction="0" format="html">
+    <text><![CDATA[\(6.28\Omega\) zero]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[\(6.28\Omega\) infinity]]></text>
+  </answer>
+  <answer fraction="100" format="html">
+    <text><![CDATA[\(0.628\Omega\) zero]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[\(0.628\Omega\) infinity]]></text>
+  </answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>year:2022</text></tag>
+    <tag><text>code:u6</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:hi</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>section:section_a</text></tag>
+    <tag><text>class:class_12</text></tag>
+    <tag><text>chapter:alternating_current</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:easy</text></tag>
+    <tag><text>blooms:apply</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:text</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+<question type="multichoice">
+  <name>
+    <text>NEET_UG_PHYSICS_2022_SECTION_A_MCQ_Q10 - Formation mechanism of primary and secondary rainbows</text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>During a cloudy day, a primary and a secondary rainbow may be created, then the:</p><hr/><p>बादल वाले दिन, एक प्राथमिक और एक द्वितीयक इंद्रधनुष बन सकते हैं, तो:</p>]]></text>
+  </questiontext>
+  <generalfeedback format="html">
+    <text><![CDATA[<p><strong>Conceptual Principle:</strong><br/>Rainbows are optical dispersion phenomena formed by the refraction, dispersion, and internal reflection of sunlight inside spherical raindrops suspended in the atmosphere:<br/>- A primary rainbow is formed by two refractions and one internal reflection of sunlight within each water droplet. It subtends an angular radius of approximately \(40^\circ\) to \(42^\circ\) with respect to the observer's line of sight.<br/>- A secondary rainbow is formed by two refractions and two internal reflections (double internal reflection) inside each droplet. It subtends a larger angular radius of approximately \(50^\circ\) to \(53^\circ\).</p><p><strong>Evaluation:</strong><br/>Because the angular elevation of the secondary rainbow (\(\approx 52^\circ\)) is greater than that of the primary rainbow (\(\approx 42^\circ\)), the secondary rainbow always appears above the primary rainbow in the sky. Additionally, each extra reflection causes a loss of light intensity, which makes the secondary rainbow fainter than the primary one, and reverses the sequence of spectral colours.</p><p><strong>Application:</strong><br/>The secondary rainbow arises from two internal reflections inside the raindrops and consequently appears at a higher angular elevation above the primary rainbow.</p><p><strong>Final Conclusion:</strong><br/>The secondary rainbow is due to double internal reflection and is formed above the primary one.</p><hr/><p><strong>सैद्धांतिक सिद्धांत:</strong><br/>इंद्रधनुष वायुमंडल में निलंबित जल की गोलाकार बूँदों में सूर्य के प्रकाश के अपवर्तन, विक्षेपण और आंतरिक परावर्तन द्वारा निर्मित होने वाली प्रकाशीय घटनाएँ हैं:<br/>- प्राथमिक इंद्रधनुष जल की बूँदों के भीतर सूर्य के प्रकाश के दो अपवर्तनों और एक आंतरिक परावर्तन से बनता है। यह प्रेक्षक की दृष्टि रेखा के सापेक्ष लगभग \(40^\circ\) से \(42^\circ\) का कोणीय कोण बनाता है।<br/>- द्वितीयक इंद्रधनुष जल की बूँदों के भीतर दो अपवर्तनों और दो आंतरिक परावर्तनों (दोहरे आंतरिक परावर्तन) से बनता है। यह लगभग \(50^\circ\) से \(53^\circ\) का बड़ा कोणीय कोण बनाता है।</p><p><strong>मूल्यांकन:</strong><br/>चूँकि द्वितीयक इंद्रधनुष की कोणीय ऊँचाई (\(\approx 52^\circ\)) प्राथमिक इंद्रधनुष (\(\approx 42^\circ\)) से अधिक होती है, अतः द्वितीयक इंद्रधनुष आकाश में सदैव प्राथमिक इंद्रधनुष के ऊपर दिखाई देता है। साथ ही, अतिरिक्त आंतरिक परावर्तन के कारण द्वितीयक इंद्रधनुष प्राथमिक की तुलना में धुंधला होता है और इसमें रंगों का क्रम उलट जाता है।</p><p><strong>अनुप्रयोग:</strong><br/>द्वितीयक इंद्रधनुष जल की बूँदों में दोहरे आंतरिक परावर्तन के कारण बनता है और प्राथमिक इंद्रधनुष के ऊपर स्थित होता है।</p><p><strong>अंतिम निष्कर्ष:</strong><br/>द्वितीयक इंद्रधनुष दोहरे आंतरिक परावर्तन के कारण बनता है और प्राथमिक के ऊपर स्थित होता है।</p>]]></text>
+  </generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>123</answernumbering>
+  <answer fraction="0" format="html">
+    <text><![CDATA[primary rainbow is due to double internal reflection and is formed above the secondary one.]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[primary rainbow is due to double internal reflection and is formed below the secondary one.]]></text>
+  </answer>
+  <answer fraction="100" format="html">
+    <text><![CDATA[secondary rainbow is due to double internal reflection and is formed above the primary one.]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[secondary rainbow is due to single internal reflection and is formed above the primary one.]]></text>
+  </answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>year:2022</text></tag>
+    <tag><text>code:u6</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:hi</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>section:section_a</text></tag>
+    <tag><text>class:class_12</text></tag>
+    <tag><text>chapter:ray_optics_and_optical_instruments</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:easy</text></tag>
+    <tag><text>blooms:remember</text></tag>
+    <tag><text>media:text</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+<question type="multichoice">
+  <name>
+    <text>NEET_UG_PHYSICS_2022_SECTION_A_MCQ_Q11 - Stopping potential in photoelectric effect</text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>The light rays having photons of energy \(4.2\mathrm{eV}\) are falling on a metal surface having a work function of \(2.2\mathrm{eV}\). The stopping potential of the surface is:</p><hr/><p>\(4.2\mathrm{eV}\) ऊर्जा वाले फोटॉनों की प्रकाश किरणें \(2.2\mathrm{eV}\) कार्यफलन वाली एक धातु की सतह पर आपतित हो रही हैं। सतह का निरोधी विभव है:</p>]]></text>
+  </questiontext>
+  <generalfeedback format="html">
+    <text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>- Energy of incident photon: \(E = 4.2\ \text{eV}\)<br/>- Work function of the metal surface: \(\Phi_0 = 2.2\ \text{eV}\)</p><p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>- The process obeys Einstein's photoelectric effect equation.<br/>- Stopping potential \(V_0\) is defined such that the maximum kinetic energy of the emitted photoelectrons equals the work done by the retarding potential: \(K_{\max} = e V_0\).</p><p><strong>Step 3: Relevant Formulae and Principles</strong><br/>1. Einstein's photoelectric equation:<br/>\[K_{\max} = E - \Phi_0\]<br/>2. Relation with stopping potential:<br/>\[e V_0 = K_{\max} \implies V_0 = \frac{K_{\max}}{e}\]</p><p><strong>Step 4: Step-by-Step Working</strong><br/>1. Calculate maximum kinetic energy:<br/>\[K_{\max} = 4.2\ \text{eV} - 2.2\ \text{eV} = 2.0\ \text{eV}\]<br/>2. Calculate the stopping potential:<br/>\[V_0 = \frac{2.0\ \text{eV}}{e} = 2.0\ \text{V}\]</p><p><strong>Step 5: Check and Final Answer</strong><br/>The energy is \(2.0\ \text{eV}\), which means an opposing potential difference of \(2.0\ \text{V}\) brings the emitted electrons to rest. Potential must have the unit Volt (\(\text{V}\)), not electron-volt (\(\text{eV}\)).<br/>The stopping potential of the surface is \(2\ \text{V}\).</p><hr/><p><strong>चरण 1: दिए गए आँकड़े और शर्तें</strong><br/>- आपतित फोटॉन की ऊर्जा: \(E = 4.2\ \text{eV}\)<br/>- धातु की सतह का कार्यफलन: \(\Phi_0 = 2.2\ \text{eV}\)</p><p><strong>चरण 2: मान्यताएँ और चिन्ह परिपाटी</strong><br/>- यह प्रक्रिया आइंस्टीन के प्रकाश विद्युत समीकरण का पालन करती है।<br/>- निरोधी विभव \(V_0\) वह न्यूनतम मंदक विभव है जो अधिकतम गतिज ऊर्जा वाले इलेक्ट्रॉनों को रोकता है: \(K_{\max} = e V_0\)।</p><p><strong>चरण 3: संबंधित सूत्र और सिद्धांत</strong><br/>1. आइंस्टीन का प्रकाश विद्युत समीकरण:<br/>\[K_{\max} = E - \Phi_0\]<br/>2. निरोधी विभव का संबंध:<br/>\[V_0 = \frac{K_{\max}}{e}\]</p><p><strong>चरण 4: चरण-दर-चरण गणना</strong><br/>1. अधिकतम गतिज ऊर्जा की गणना:<br/>\[K_{\max} = 4.2\ \text{eV} - 2.2\ \text{eV} = 2.0\ \text{eV}\]<br/>2. निरोधी विभव की गणना:<br/>\[V_0 = \frac{2.0\ \text{eV}}{e} = 2.0\ \text{V}\]</p><p><strong>चरण 5: जाँच और अंतिम उत्तर</strong><br/>विभव का मात्रक वोल्ट (\(\text{V}\)) होता है, न कि \(\text{eV}\)।<br/>सतह का निरोधी विभव \(2\ \text{V}\) है।</p>]]></text>
+  </generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>123</answernumbering>
+  <answer fraction="0" format="html">
+    <text><![CDATA[\(2\mathrm{eV}\)]]></text>
+  </answer>
+  <answer fraction="100" format="html">
+    <text><![CDATA[\(2\mathrm{V}\)]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[\(1.1\mathrm{V}\)]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[\(6.4\mathrm{V}\)]]></text>
+  </answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>year:2022</text></tag>
+    <tag><text>code:u6</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:hi</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>section:section_a</text></tag>
+    <tag><text>class:class_12</text></tag>
+    <tag><text>chapter:dual_nature_of_radiation_and_matter</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:easy</text></tag>
+    <tag><text>blooms:apply</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:text</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+<question type="multichoice">
+  <name>
+    <text>NEET_UG_PHYSICS_2022_SECTION_A_MCQ_Q12 - Normal contact force between blocks on incline</text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>In the diagram shown, the normal reaction force between \(2\mathrm{kg}\) and \(1\mathrm{kg}\) is (Given \(g = 10\mathrm{ms}^{-2}\)) (Consider the surface, to be smooth):</p><p><img src="@@PLUGINFILE@@/img-1.jpeg" alt="Blocks on inclined plane" /></p><hr/><p>दिखाए गए आरेख में, \(2\mathrm{kg}\) और \(1\mathrm{kg}\) के बीच अभिलंब प्रतिक्रिया बल है (दिया है \(g = 10\mathrm{ms}^{-2}\)) (सतह को चिकना मानिए):</p>]]></text>
+  </questiontext>
+  <generalfeedback format="html">
+    <text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>- Angle of the inclined plane: \(\theta = 30^\circ\)<br/>- Masses in contact: \(m_1 = 3\ \text{kg}\), \(m_2 = 2\ \text{kg}\), \(m_3 = 1\ \text{kg}\)<br/>- Force pushing up the incline on the \(3\ \text{kg}\) block: \(F_1 = 60\ \text{N}\)<br/>- Force pushing down the incline on the \(1\ \text{kg}\) block: \(F_2 = 18\ \text{N}\)<br/>- Acceleration due to gravity: \(g = 10\ \text{m/s}^2\)<br/>- Surface is frictionless (\(\mu = 0\)).</p><p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>- Choose the direction pointing up along the inclined plane as positive.<br/>- All three blocks move together with a common acceleration \(a\) along the incline.</p><p><strong>Step 3: Relevant Formulae and Principles</strong><br/>1. Total mass of the system:<br/>\[M = m_1 + m_2 + m_3\]<br/>2. Downward component of gravitational force along the incline:<br/>\[F_g = M g \sin\theta\]<br/>3. Newton's second law for the system:<br/>\[F_1 - F_2 - M g \sin\theta = M a\]<br/>4. Equation of motion for the \(1\ \text{kg}\) block along the incline:<br/>\[N - F_2 - m_3 g \sin\theta = m_3 a\]<br/>where \(N\) is the normal contact force exerted by the \(2\ \text{kg}\) block on the \(1\ \text{kg}\) block.</p><p><strong>Step 4: Step-by-Step Working</strong><br/>1. Compute total mass and gravitational force along the incline:<br/>\[M = 3 + 2 + 1 = 6\ \text{kg}\]<br/>\[F_g = 6 \times 10 \times \sin 30^\circ = 60 \times \frac{1}{2} = 30\ \text{N}\]<br/>2. Find common acceleration \(a\):<br/>\[60 - 18 - 30 = 6 a\]<br/>\[12 = 6 a \implies a = 2\ \text{m/s}^2\quad (\text{up the incline})\]<br/>3. Consider the free-body diagram of the \(1\ \text{kg}\) block (\(m_3 = 1\ \text{kg}\)):<br/>\[N - 18 - (1 \times 10 \times \sin 30^\circ) = 1 \times 2\]<br/>\[N - 18 - 5 = 2\]<br/>\[N - 23 = 2 \implies N = 25\ \text{N}\]</p><p><strong>Step 5: Check and Final Answer</strong><br/>Checking from the \(3\ \text{kg}\) block: normal contact force between \(3\ \text{kg}\) and \(2\ \text{kg}\) is \(60 - 3(10)\sin 30^\circ - 3(2) = 60 - 15 - 6 = 39\ \text{N}\). For the \(2\ \text{kg}\) block: \(39 - N - 2(10)\sin 30^\circ = 2(2) \implies 39 - N - 10 = 4 \implies N = 25\ \text{N}\). The calculations are fully consistent.<br/>The normal reaction force between \(2\ \text{kg}\) and \(1\ \text{kg}\) is \(25\ \text{N}\).</p><hr/><p><strong>चरण 1: दिए गए आँकड़े और शर्तें</strong><br/>- नत तल का कोण: \(\theta = 30^\circ\)<br/>- संपर्क में रखे द्रव्यमान: \(m_1 = 3\ \text{kg}\), \(m_2 = 2\ \text{kg}\), \(m_3 = 1\ \text{kg}\)<br/>- \(3\ \text{kg}\) गुटके पर ऊपर की ओर बल: \(F_1 = 60\ \text{N}\)<br/>- \(1\ \text{kg}\) गुटके पर नीचे की ओर बल: \(F_2 = 18\ \text{N}\)<br/>- गुरुत्वीय त्वरण: \(g = 10\ \text{m/s}^2\)<br/>- सतह पूर्णतः चिकनी है (\(\mu = 0\))।</p><p><strong>चरण 2: मान्यताएँ और चिन्ह परिपाटी</strong><br/>- नत तल के अनुदिश ऊपर की ओर की दिशा को धनात्मक माना गया है।<br/>- तीनों गुटके एक साथ एक समान त्वरण \(a\) से गति करते हैं।</p><p><strong>चरण 3: संबंधित सूत्र और सिद्धांत</strong><br/>1. निकाय का कुल द्रव्यमान: \(M = m_1 + m_2 + m_3\)<br/>2. नत तल के अनुदिश गुरुत्व बल का घटक: \(F_g = M g \sin\theta\)<br/>3. संपूर्ण निकाय के लिए न्यूटन का द्वितीय नियम:<br/>\[F_1 - F_2 - M g \sin\theta = M a\]<br/>4. \(1\ \text{kg}\) गुटके के लिए गति का समीकरण:<br/>\[N - F_2 - m_3 g \sin\theta = m_3 a\]</p><p><strong>चरण 4: चरण-दर-चरण गणना</strong><br/>1. कुल द्रव्यमान और गुरुत्वीय बल घटक:<br/>\[M = 3 + 2 + 1 = 6\ \text{kg}\]<br/>\[F_g = 6 \times 10 \times \sin 30^\circ = 30\ \text{N}\]<br/>2. निकाय का त्वरण \(a\):<br/>\[60 - 18 - 30 = 6 a\]<br/>\[12 = 6 a \implies a = 2\ \text{m/s}^2\]<br/>3. \(1\ \text{kg}\) गुटके के लिए अभिलंब बल \(N\):<br/>\[N - 18 - (1 \times 10 \times \sin 30^\circ) = 1 \times 2\]<br/>\[N - 18 - 5 = 2 \implies N = 25\ \text{N}\]</p><p><strong>चरण 5: जाँच और अंतिम उत्तर</strong><br/>अन्य गुटकों के मुक्त पिंड आरेख से भी मान \(25\ \text{N}\) ही प्राप्त होता है।<br/>\(2\mathrm{kg}\) और \(1\mathrm{kg}\) के बीच अभिलंब प्रतिक्रिया बल \(25\ \text{N}\) है।</p>]]></text>
+  </generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>123</answernumbering>
+  <answer fraction="100" format="html">
+    <text><![CDATA[\(25\mathrm{N}\)]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[\(39\mathrm{N}\)]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[\(6\mathrm{N}\)]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[\(10\mathrm{N}\)]]></text>
+  </answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>year:2022</text></tag>
+    <tag><text>code:u6</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:hi</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>section:section_a</text></tag>
+    <tag><text>class:class_11</text></tag>
+    <tag><text>chapter:laws_of_motion</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:medium</text></tag>
+    <tag><text>blooms:apply</text></tag>
+    <tag><text>calculation:moderate</text></tag>
+    <tag><text>media:diagram</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+<question type="multichoice">
+  <name>
+    <text>NEET_UG_PHYSICS_2022_SECTION_A_MCQ_Q13 - Equivalent logic gate of parallel switch circuit</text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p><img src="@@PLUGINFILE@@/img-2.jpeg" alt="Logic circuit with LED and switches" /></p><p>Identify the equivalent logic gate represented by the given circuit:</p><hr/><p>दिए गए परिपथ द्वारा निरूपित तुल्य लॉजिक गेट की पहचान कीजिए:</p>]]></text>
+  </questiontext>
+  <generalfeedback format="html">
+    <text><![CDATA[<p><strong>Conceptual Principle:</strong><br/>In electrical switching circuits representing binary logic, an open switch corresponds to logic input 0 (broken path) and a closed switch corresponds to logic input 1 (conducting path). An LED that is glowing represents logic output 1, and an unlit LED represents logic output 0.</p><p><strong>Evaluation:</strong><br/>In the provided circuit, the supply voltage \(+6\ \text{V}\), current-limiting resistor \(R\), and the LED are connected in series with a parallel network of two switches leading to ground:<br/>- When both switches are open (inputs: 0, 0), the connection between the cathode of the LED and ground is open; no current flows, so the LED does not glow (output: 0).<br/>- When either one of the switches is closed (inputs: 1, 0 or 0, 1), current flows from the \(+6\ \text{V}\) terminal through resistor \(R\), through the LED, and through the closed switch branch to ground; the LED glows (output: 1).<br/>- When both switches are closed simultaneously (inputs: 1, 1), current conducts through both parallel paths to ground; the LED glows (output: 1).</p><p><strong>Application:</strong><br/>The output truth values for inputs (0,0), (0,1), (1,0), and (1,1) are respectively 0, 1, 1, and 1. This matches the Boolean function \(Y = A + B\), which characterizes an OR gate.</p><p><strong>Final Conclusion:</strong><br/>The equivalent logic gate represented by the given circuit is OR.</p><hr/><p><strong>सैद्धांतिक सिद्धांत:</strong><br/>द्वि-आधारी लॉजिक को दर्शाने वाले विद्युत स्विचिंग परिपथों में, खुला स्विच लॉजिक इनपुट 0 को और बंद स्विच लॉजिक इनपुट 1 को निरूपित करता है। LED का जलना (प्रदीप्त होना) आउटपुट 1 को और न जलना आउटपुट 0 को दर्शाता है।</p><p><strong>मूल्यांकन:</strong><br/>दिए गए परिपथ में, \(+6\ \text{V}\) की आपूर्ति, प्रतिरोध \(R\) और LED दो समानांतर जुड़े स्विचों के श्रेणीक्रम में भू-संपर्क (ग्राउंड) से जुड़े हैं:<br/>- जब दोनों स्विच खुले होते हैं (0, 0), तो परिपथ अपूर्ण रहता है; कोई धारा प्रवाहित नहीं होती और LED नहीं जलती (आउटपुट: 0)।<br/>- जब कोई एक स्विच बंद किया जाता है (1, 0 अथवा 0, 1), तो बंद स्विच के माध्यम से धारा प्रवाहित होने लगती है और LED जलती है (आउटपुट: 1)।<br/>- जब दोनों स्विच बंद होते हैं (1, 1), तब भी धारा भू-संपर्क की ओर बहती है और LED जलती है (आउटपुट: 1)।</p><p><strong>अनुप्रयोग:</strong><br/>प्राप्त सत्यता सारणी में इनपुट (0,0), (0,1), (1,0), (1,1) के लिए आउटपुट क्रमशः 0, 1, 1, 1 प्राप्त होते हैं। यह बूलियन व्यंजक \(Y = A + B\) के अनुरूप है, जो OR गेट को व्यक्त करता है।</p><p><strong>अंतिम निष्कर्ष:</strong><br/>दिए गए परिपथ द्वारा निरूपित तुल्य लॉजिक गेट OR है।</p>]]></text>
+  </generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>123</answernumbering>
+  <answer fraction="100" format="html">
+    <text><![CDATA[OR]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[NOR]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[AND]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[NAND]]></text>
+  </answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>year:2022</text></tag>
+    <tag><text>code:u6</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:hi</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>section:section_a</text></tag>
+    <tag><text>class:class_12</text></tag>
+    <tag><text>chapter:semiconductor_electronics</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:easy</text></tag>
+    <tag><text>blooms:understand</text></tag>
+    <tag><text>media:circuit</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+<question type="multichoice">
+  <name>
+    <text>NEET_UG_PHYSICS_2022_SECTION_A_MCQ_Q14 - Hydrostatic pressure on base of different vessels</text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>Two copper vessels A and B have the same base area but of different shapes. A takes twice the volume of water as that B requires to fill up to a particular common height. Then the correct statement among the following is:</p><hr/><p>तांबे के दो पात्रों A और B के आधार का क्षेत्रफल समान है लेकिन उनकी आकृतियाँ भिन्न हैं। एक निश्चित उभयनिष्ठ ऊँचाई तक भरने के लिए A में B की तुलना में दोगुना आयतन पानी आता है। तो निम्नलिखित में से सही कथन है:</p>]]></text>
+  </questiontext>
+  <generalfeedback format="html">
+    <text><![CDATA[<p><strong>Conceptual Principle:</strong><br/>According to the principles of fluid statics (hydrostatic paradox), the gauge pressure exerted by a static column of an incompressible liquid at a vertical depth \(h\) below its free open surface depends solely on the vertical depth, the liquid density \(\rho\), and the local acceleration due to gravity \(g\):<br/>\[P = \rho g h\]</p><p><strong>Evaluation:</strong><br/>- The pressure exerted by a liquid column on the bottom surface does not depend on the cross-sectional geometry, wall profile, total liquid volume, or liquid weight contained within the vessel.<br/>- Both vessels are filled with water (same density \(\rho\)) up to the same common vertical height \(h\).<br/>- Therefore, the hydrostatic pressure at the base of vessel A is \(P_A = \rho g h\), and the hydrostatic pressure at the base of vessel B is \(P_B = \rho g h\), which are identical.</p><p><strong>Application:</strong><br/>Although vessel A contains twice the volume and hence twice the weight of water compared to vessel B, the additional weight is counterbalanced by the normal reaction forces exerted by the sloping vessel walls. Thus, the pressure on the base area of both vessels is identical.</p><p><strong>Final Conclusion:</strong><br/>Pressure on the base area of vessels A and B is same.</p><hr/><p><strong>सैद्धांतिक सिद्धांत:</strong><br/>तरल स्थैतिकी के सिद्धांतों (द्रवस्थैतिक विरोधाभास) के अनुसार, किसी स्थिर असंपीड़्य द्रव द्वारा मुक्त सतह से ऊर्ध्वाधर गहराई \(h\) पर लगाया गया दाब केवल द्रव की ऊर्ध्वाधर ऊँचाई, द्रव के घनत्व \(\rho\) और गुरुत्वीय त्वरण \(g\) पर निर्भर करता है:<br/>\[P = \rho g h\]</p><p><strong>मूल्यांकन:</strong><br/>- द्रव के स्तंभ द्वारा आधार पर डाला गया दाब पात्र की आकृति, दीवारों के झुकाव, द्रव के कुल आयतन अथवा द्रव के कुल भार पर निर्भर नहीं करता है।<br/>- दोनों पात्रों में समान द्रव (समान घनत्व \(\rho\)) समान ऊर्ध्वाधर ऊँचाई \(h\) तक भरा गया है।<br/>- अतः पात्र A के आधार पर दाब \(P_A = \rho g h\) तथा पात्र B के आधार पर दाब \(P_B = \rho g h\) होगा, जो कि एक समान हैं।</p><p><strong>अनुप्रयोग:</strong><br/>यद्यपि पात्र A में पानी का आयतन और भार पात्र B से दोगुना है, किंतु अतिरिक्त भार पात्र की दीवारों द्वारा लगाए गए अभिलंब बल द्वारा संतुलित हो जाता है। अतः दोनों पात्रों के आधार क्षेत्रफल पर दाब समान रहता है।</p><p><strong>अंतिम निष्कर्ष:</strong><br/>पात्रों A और B के आधार क्षेत्रफल पर दाब समान है।</p>]]></text>
+  </generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>123</answernumbering>
+  <answer fraction="100" format="html">
+    <text><![CDATA[Pressure on the base area of vessels A and B is same.]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[Pressure on the base area of vessels A and B is not same.]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[Both vessels A and B weigh the same.]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[Vessel B weighs twice that of A.]]></text>
+  </answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>year:2022</text></tag>
+    <tag><text>code:u6</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:hi</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>section:section_a</text></tag>
+    <tag><text>class:class_11</text></tag>
+    <tag><text>chapter:mechanical_properties_of_fluids</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:easy</text></tag>
+    <tag><text>blooms:understand</text></tag>
+    <tag><text>media:text</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+</quiz>

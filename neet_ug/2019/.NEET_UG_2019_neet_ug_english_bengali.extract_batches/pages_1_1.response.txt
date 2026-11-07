@@ -1,0 +1,895 @@
+<question type="multichoice">
+  <name><text>NEET_UG_PHYSICS_2019_MCQ_Q01 - Electric field due to uniformly charged hollow metal sphere</text></name>
+  <questiontext format="html">
+    <text><![CDATA[
+      <p>A hollow metal sphere of radius \( R \) is uniformly charged. The electric field due to the sphere at a distance \( r \) from the centre</p>
+      <hr/>
+      <p>\( R \) ব্যাসার্ধের একটি ফাঁপা ধাতব গোলক সুষমভাবে আহিত। কেন্দ্র থেকে \( r \) দূরত্বে গোলকটির জন্য তড়িৎক্ষেত্র</p>
+    ]]></text>
+  </questiontext>
+  <generalfeedback format="html">
+    <text><![CDATA[
+      <p><strong>Given Data and Conditions:</strong><br/>
+      A hollow conducting metal sphere of radius \( R \) carries a uniform total surface charge \( q \). We need to determine the variation of the electric field \( E \) as a function of the radial distance \( r \) from the centre of the sphere for \( r < R \) and \( r > R \).</p>
+      <p><strong>Assumptions and Physical Principles:</strong><br/>
+      By electrostatic properties of conductors, any excess charge resides entirely on the outer surface of the metal sphere. By spherical symmetry, Gauss's law is applied using a concentric spherical Gaussian surface of radius \( r \):<br/>
+      \[ \oint \vec{E} \cdot d\vec{A} = \frac{q_{\text{enclosed}}}{\varepsilon_0} \]</p>
+      <p><strong>Step-by-Step Evaluation:</strong><br/>
+      1. For inside points (\( r < R \)): A spherical Gaussian surface of radius \( r \) encloses zero net charge (\( q_{\text{enclosed}} = 0 \)). Consequently, the electric field inside the hollow sphere is zero everywhere: \( E = 0 \). As \( r \) increases within the range \( r < R \), the field remains identically zero.<br/>
+      2. For outside points (\( r > R \)): A spherical Gaussian surface of radius \( r \) encloses the entire surface charge \( q \). By Gauss's law:<br/>
+      \[ E \cdot 4\pi r^2 = \frac{q}{\varepsilon_0} \implies E = \frac{1}{4\pi\varepsilon_0}\frac{q}{r^2} \]<br/>
+      Thus, for \( r > R \), the electric field is inversely proportional to \( r^2 \), which means \( E \) decreases as \( r \) increases.</p>
+      <p><strong>Final Answer:</strong><br/>
+      The electric field is zero as \( r \) increases for \( r < R \), and decreases as \( r \) increases for \( r > R \).</p>
+      <hr/>
+      <p><strong>প্রদত্ত তথ্য এবং শর্তাবলী:</strong><br/>
+      \( R \) ব্যাসার্ধের একটি ফাঁপা পরিবাহী ধাতব গোলকে মোট আধান \( q \) সুষমভাবে বণ্টিত রয়েছে। কেন্দ্র থেকে দূরত্বের মান \( r \) বৃদ্ধির সাথে \( r < R \) এবং \( r > R \) অঞ্চলে তড়িৎক্ষেত্র \( E \)-এর পরিবর্তন নির্ণয় করতে হবে।</p>
+      <p><strong>স্বীকার্য এবং নীতি:</strong><br/>
+      স্থিরতড়িৎ বিজ্ঞানের নিয়মানুযায়ী পরিবাহীর সমস্ত অতিরিক্ত আধান কেবল তার বহিঃপৃষ্ঠে অবস্থান করে। গাউসের সূত্র প্রয়োগ করে পাই:<br/>
+      \[ \oint \vec{E} \cdot d\vec{A} = \frac{q_{\text{enclosed}}}{\varepsilon_0} \]</p>
+      <p><strong>ধাপে ধাপে সমাধান:</strong><br/>
+      ১. অভ্যন্তরীণ অঞ্চলের জন্য (\( r < R \)): \( r \) ব্যাসার্ধের গাউসীয় তল কোনো আধান আবদ্ধ করে না (\( q_{\text{enclosed}} = 0 \))। ফলে গোলকের অভ্যন্তরে সর্বত্র তড়িৎক্ষেত্র শূন্য থাকে, অর্থাৎ \( r < R \) বিস্তারে \( r \) বৃদ্ধি পেলেও \( E = 0 \) থাকে।<br/>
+      ২. বহিঃস্থ অঞ্চলের জন্য (\( r > R \)): গাউসীয় তলটি মোট আধান \( q \) আবদ্ধ করে। গাউসের সূত্রানুসারে:<br/>
+      \[ E = \frac{1}{4\pi\varepsilon_0}\frac{q}{r^2} \]<br/>
+      সুতরাং, \( r > R \) হলে তড়িৎক্ষেত্রের প্রাবল্য \( r^2 \)-এর ব্যস্তানুপাতে পরিবর্তিত হয়, যার অর্থ \( r \) বাড়লে তড়িৎক্ষেত্র হ্রাস পায়।</p>
+      <p><strong>চূড়ান্ত উত্তর:</strong><br/>
+      \( r < R \) এর জন্য \( r \) বৃদ্ধি পেলে শূন্য থাকে, এবং \( r > R \) এর জন্য \( r \) বৃদ্ধি পেলে হ্রাস পায়।</p>
+    ]]></text>
+  </generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="100" format="html">
+    <text><![CDATA[<p>zero as \( r \) increases for \( r < R \), decreases as \( r \) increases for \( r > R \)</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>zero as \( r \) increases for \( r < R \), increases as \( r \) increases for \( r > R \)</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>decreases as \( r \) increases for \( r < R \) and for \( r > R \)</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>increases as \( r \) increases for \( r < R \) and for \( r > R \)</p>]]></text>
+  </answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>year:2019</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:bn</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>class:12</text></tag>
+    <tag><text>topic:electrostatics</text></tag>
+    <tag><text>chapter:electric_charges_and_fields</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:easy</text></tag>
+    <tag><text>blooms:understand</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:text</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+
+<question type="multichoice">
+  <name><text>NEET_UG_PHYSICS_2019_MCQ_Q02 - Work done by a position dependent variable force</text></name>
+  <questiontext format="html">
+    <text><![CDATA[
+      <p>A force \( F = 20 + 10y \) acts on a particle in \( y \)-direction where \( F \) is in newton and \( y \) in meter. Work done by this force to move the particle from \( y = 0 \) to \( y = 1\text{ m} \) is</p>
+      <hr/>
+      <p>একটি কণার ওপর \( y \)-অভিমুখে একটি বল \( F = 20 + 10y \) ক্রিয়া করে, যেখানে \( F \) নিউটনে এবং \( y \) মিটারে প্রকাশিত। কণাটিকে \( y = 0 \) থেকে \( y = 1\text{ m} \) অবস্থানে সরাতে এই বল দ্বারা কৃতকার্যের মান হলো</p>
+    ]]></text>
+  </questiontext>
+  <generalfeedback format="html">
+    <text><![CDATA[
+      <p><strong>Given Data and Conditions:</strong><br/>
+      Variable force along the \( y \)-axis: \( F(y) = 20 + 10y \)<br/>
+      Initial position: \( y_i = 0\text{ m} \)<br/>
+      Final position: \( y_f = 1\text{ m} \)</p>
+      <p><strong>Relevant Formulae and Principles:</strong><br/>
+      The work done \( W \) by a one-dimensional variable force \( F(y) \) is obtained by integrating the force over displacement:<br/>
+      \[ W = \int_{y_i}^{y_f} F(y)\,dy \]</p>
+      <p><strong>Step-by-Step Working:</strong><br/>
+      Substitute the given function into the integral:<br/>
+      \[ W = \int_{0}^{1} (20 + 10y)\,dy \]<br/>
+      Evaluating the antiderivative:<br/>
+      \[ W = \left[ 20y + \frac{10y^2}{2} \right]_{0}^{1} = \left[ 20y + 5y^2 \right]_{0}^{1} \]<br/>
+      Substitute the upper and lower limits:<br/>
+      \[ W = \left( 20(1) + 5(1)^2 \right) - \left( 20(0) + 5(0)^2 \right) = 20 + 5 = 25\text{ J} \]</p>
+      <p><strong>Check and Final Answer:</strong><br/>
+      The calculation gives a positive work of \( 25\text{ J} \), which matches physical dimensions and boundary conditions.</p>
+      <hr/>
+      <p><strong>প্রদত্ত তথ্য এবং শর্তাবলী:</strong><br/>
+      \( y \)-অক্ষ বরাবর পরিবর্তনশীল বল: \( F(y) = 20 + 10y \)<br/>
+      প্রাথমিক অবস্থান: \( y_i = 0\text{ m} \)<br/>
+      চূড়ান্ত অবস্থান: \( y_f = 1\text{ m} \)</p>
+      <p><strong>প্রাসঙ্গিক সূত্র ও নীতি:</strong><br/>
+      পরিবর্তনশীল বল দ্বারা কৃতকার্য ইন্টিগ্রেশনের মাধ্যমে পাওয়া যায়:<br/>
+      \[ W = \int_{y_i}^{y_f} F(y)\,dy \]</p>
+      <p><strong>ধাপে ধাপে সমাধান:</strong><br/>
+      নির্দিষ্ট সমাকলনের মান নির্ণয় করে:<br/>
+      \[ W = \int_{0}^{1} (20 + 10y)\,dy = \left[ 20y + 5y^2 \right]_{0}^{1} \]<br/>
+      সীমা বসিয়ে পাই:<br/>
+      \[ W = (20(1) + 5(1)^2) - 0 = 25\text{ J} \]</p>
+      <p><strong>চূড়ান্ত উত্তর:</strong><br/>
+      বল দ্বারা কৃতকার্যের মান \( 25\text{ J} \)।</p>
+    ]]></text>
+  </generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>5 J</p>]]></text>
+  </answer>
+  <answer fraction="100" format="html">
+    <text><![CDATA[<p>25 J</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>20 J</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>30 J</p>]]></text>
+  </answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>year:2019</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:bn</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>class:11</text></tag>
+    <tag><text>topic:mechanics</text></tag>
+    <tag><text>chapter:work_energy_and_power</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:easy</text></tag>
+    <tag><text>blooms:apply</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:text</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+
+<question type="multichoice">
+  <name><text>NEET_UG_PHYSICS_2019_MCQ_Q03 - Ratio of power consumption in bulb network</text></name>
+  <questiontext format="html">
+    <text><![CDATA[
+      <p>Six similar bulbs are connected as shown in the figure with a DC source of emf \( E \), and zero internal resistance. The ratio of power consumption by the bulbs when (i) all are glowing and (ii) in the situation when two from section A and one from section B are glowing, will be</p>
+      <p><img src="@@PLUGINFILE@@/img-0.jpeg" alt="Circuit diagram of six bulbs" /></p>
+      <hr/>
+      <p>চিত্রে প্রদর্শিত বর্তনী অনুযায়ী \( E \) তড়িৎচালক বল এবং অভ্যন্তরীণ রোধহীন একটি DC উৎসের সাথে ছয়টি অভিন্ন বাল্ব যুক্ত রয়েছে। (i) যখন সবকটি বাল্ব জ্বলছে এবং (ii) যখন A অংশ থেকে দুটি এবং B অংশ থেকে একটি বাল্ব জ্বলছে, এই দুই পরিস্থিতিতে বাল্বগুলি দ্বারা ব্যয়িত ক্ষমতার অনুপাত হবে</p>
+    ]]></text>
+  </questiontext>
+  <generalfeedback format="html">
+    <text><![CDATA[
+      <p><strong>Given Data and Conditions:</strong><br/>
+      Total bulbs = 6, each with identical resistance \( R \).<br/>
+      Section A consists of 3 identical bulbs in parallel.<br/>
+      Section B consists of 3 identical bulbs in parallel.<br/>
+      Section A and Section B are connected in series across a source of emf \( E \).</p>
+      <p><strong>Relevant Formulae and Principles:</strong><br/>
+      Equivalent resistance of \( n \) identical resistors \( R \) in parallel: \( R_p = \frac{R}{n} \)<br/>
+      Equivalent resistance of components in series: \( R_{\text{eq}} = R_A + R_B \)<br/>
+      Total power consumed by the circuit: \( P = \frac{E^2}{R_{\text{eq}}} \)</p>
+      <p><strong>Step-by-Step Working:</strong><br/>
+      <em>Case (i): All six bulbs are glowing.</em><br/>
+      Section A has 3 bulbs in parallel: \( R_A = \frac{R}{3} \)<br/>
+      Section B has 3 bulbs in parallel: \( R_B = \frac{R}{3} \)<br/>
+      Total equivalent resistance: \( R_{\text{eq1}} = R_A + R_B = \frac{R}{3} + \frac{R}{3} = \frac{2R}{3} \)<br/>
+      Total power consumed: \( P_1 = \frac{E^2}{R_{\text{eq1}}} = \frac{E^2}{\frac{2R}{3}} = \frac{3E^2}{2R} \)<br/><br/>
+      <em>Case (ii): Two bulbs from section A and one bulb from section B are glowing.</em><br/>
+      Section A has 2 active bulbs in parallel: \( R_A' = \frac{R}{2} \)<br/>
+      Section B has 1 active bulb: \( R_B' = R \)<br/>
+      Total equivalent resistance: \( R_{\text{eq2}} = R_A' + R_B' = \frac{R}{2} + R = \frac{3R}{2} \)<br/>
+      Total power consumed: \( P_2 = \frac{E^2}{R_{\text{eq2}}} = \frac{E^2}{\frac{3R}{2}} = \frac{2E^2}{3R} \)<br/><br/>
+      <em>Ratio of power consumption:</em><br/>
+      \[ \frac{P_1}{P_2} = \frac{\frac{3E^2}{2R}}{\frac{2E^2}{3R}} = \frac{3}{2} \times \frac{3}{2} = \frac{9}{4} \]</p>
+      <p><strong>Check and Final Answer:</strong><br/>
+      The ratio of power consumption is \( 9:4 \).</p>
+      <hr/>
+      <p><strong>প্রদত্ত তথ্য এবং শর্তাবলী:</strong><br/>
+      \( 6 \)টি অভিন্ন বাল্ব, প্রতিটির রোধ \( R \)। উৎসটির তড়িৎচালক বল \( E \) এবং অভ্যন্তরীণ রোধ শূন্য। A অংশ এবং B অংশ পরস্পরের সাথে শ্রেণি সমবায়ে যুক্ত।</p>
+      <p><strong>প্রাসঙ্গিক সূত্র ও নীতি:</strong><br/>
+      সমান্তরাল সমবায়ে তুল্য রোধ: \( R_p = \frac{R}{n} \)<br/>
+      মোট ব্যয়িত ক্ষমতা: \( P = \frac{E^2}{R_{\text{eq}}} \)</p>
+      <p><strong>ধাপে ধাপে সমাধান:</strong><br/>
+      ১. প্রথম ক্ষেত্র: সবকটি বাল্ব জ্বলছে।<br/>
+      \( R_A = \frac{R}{3} \), \( R_B = \frac{R}{3} \)<br/>
+      তুল্য রোধ \( R_{\text{eq1}} = \frac{R}{3} + \frac{R}{3} = \frac{2R}{3} \)<br/>
+      ব্যয়িত ক্ষমতা \( P_1 = \frac{E^2}{\frac{2R}{3}} = \frac{3E^2}{2R} \)<br/><br/>
+      ২. দ্বিতীয় ক্ষেত্র: A থেকে ২টি এবং B থেকে ১টি বাল্ব জ্বলছে।<br/>
+      \( R_A' = \frac{R}{2} \), \( R_B' = R \)<br/>
+      তুল্য রোধ \( R_{\text{eq2}} = \frac{R}{2} + R = \frac{3R}{2} \)<br/>
+      ব্যয়িত ক্ষমতা \( P_2 = \frac{E^2}{\frac{3R}{2}} = \frac{2E^2}{3R} \)<br/><br/>
+      অনুপাত:<br/>
+      \[ \frac{P_1}{P_2} = \frac{\frac{3E^2}{2R}}{\frac{2E^2}{3R}} = \frac{9}{4} \]</p>
+      <p><strong>চূড়ান্ত উত্তর:</strong><br/>
+      ব্যয়িত ক্ষমতার অনুপাত হলো \( 9:4 \)।</p>
+    ]]></text>
+  </generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="100" format="html">
+    <text><![CDATA[<p>9:4</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>1:2</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>2:1</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>4:9</p>]]></text>
+  </answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>year:2019</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:bn</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>class:12</text></tag>
+    <tag><text>topic:current_electricity</text></tag>
+    <tag><text>chapter:current_electricity</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:medium</text></tag>
+    <tag><text>blooms:apply</text></tag>
+    <tag><text>calculation:moderate</text></tag>
+    <tag><text>media:diagram</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+
+<question type="multichoice">
+  <name><text>NEET_UG_PHYSICS_2019_MCQ_Q04 - Depth in liquid matching pressure inside a soap bubble</text></name>
+  <questiontext format="html">
+    <text><![CDATA[
+      <p>A soap bubble, having radius of \( 1\text{ mm} \), is blown from a detergent solution having a surface tension of \( 2.5 \times 10^{-2}\text{ N/m} \). The pressure inside the bubble equals at a point \( Z_0 \) below the free surface of water in a container. Taking \( g = 10\text{ m/s}^2 \), density of water \(= 10^3\text{ kg/m}^3 \), the value of \( Z_0 \) is</p>
+      <hr/>
+      <p>\( 2.5 \times 10^{-2}\text{ N/m} \) পৃষ্ঠটানবিশিষ্ট একটি ডিটারজেন্ট দ্রবণ থেকে \( 1\text{ mm} \) ব্যাসার্ধের একটি সাবানের বুদবুদ তৈরি করা হলো। বুদবুদের ভেতরের চাপ একটি পাত্রে থাকা জলের মুক্ত পৃষ্ঠ থেকে \( Z_0 \) গভীরতার কোনো বিন্দুর চাপের সমান। \( g = 10\text{ m/s}^2 \) এবং জলের ঘনত্ব \(= 10^3\text{ kg/m}^3 \) ধরে \( Z_0 \)-এর মান হবে</p>
+    ]]></text>
+  </questiontext>
+  <generalfeedback format="html">
+    <text><![CDATA[
+      <p><strong>Given Data and Conditions:</strong><br/>
+      Radius of soap bubble: \( r = 1\text{ mm} = 10^{-3}\text{ m} \)<br/>
+      Surface tension of detergent solution: \( T = 2.5 \times 10^{-2}\text{ N/m} \)<br/>
+      Acceleration due to gravity: \( g = 10\text{ m/s}^2 \)<br/>
+      Density of water: \( \rho = 10^3\text{ kg/m}^3 \)<br/>
+      Atmospheric pressure is denoted by \( P_0 \).</p>
+      <p><strong>Relevant Formulae and Principles:</strong><br/>
+      A soap bubble has two liquid-air interfaces, so the excess pressure inside is:<br/>
+      \[ \Delta P = \frac{4T}{r} \]<br/>
+      Total pressure inside the bubble:<br/>
+      \[ P_{\text{in}} = P_0 + \frac{4T}{r} \]<br/>
+      Pressure at depth \( Z_0 \) below the surface of water:<br/>
+      \[ P = P_0 + \rho g Z_0 \]</p>
+      <p><strong>Step-by-Step Working:</strong><br/>
+      Equating the internal pressure of the soap bubble to the hydrostatic pressure at depth \( Z_0 \):<br/>
+      \[ P_0 + \frac{4T}{r} = P_0 + \rho g Z_0 \implies \rho g Z_0 = \frac{4T}{r} \]<br/>
+      Calculate the excess pressure:<br/>
+      \[ \Delta P = \frac{4 \times (2.5 \times 10^{-2}\text{ N/m})}{10^{-3}\text{ m}} = \frac{10^{-1}}{10^{-3}} = 100\text{ N/m}^2\text{ (Pa)} \]<br/>
+      Now solve for \( Z_0 \):<br/>
+      \[ Z_0 = \frac{100}{\rho g} = \frac{100}{10^3 \times 10} = \frac{100}{10^4} = 10^{-2}\text{ m} = 1\text{ cm} \]</p>
+      <p><strong>Check and Final Answer:</strong><br/>
+      The depth \( Z_0 \) is \( 1\text{ cm} \).</p>
+      <hr/>
+      <p><strong>প্রদত্ত তথ্য এবং শর্তাবলী:</strong><br/>
+      বুদবুদের ব্যাসার্ধ \( r = 1\text{ mm} = 10^{-3}\text{ m} \)<br/>
+      পৃষ্ঠটান \( T = 2.5 \times 10^{-2}\text{ N/m} \)<br/>
+      \( g = 10\text{ m/s}^2 \), জলের ঘনত্ব \( \rho = 10^3\text{ kg/m}^3 \)</p>
+      <p><strong>প্রাসঙ্গিক সূত্র ও নীতি:</strong><br/>
+      সাবানের বুদবুদের দুটি তল থাকায় অভ্যন্তরীণ অতিরিক্ত চাপ:<br/>
+      \[ \Delta P = \frac{4T}{r} \]<br/>
+      জলের পৃষ্ঠ থেকে \( Z_0 \) গভীরতায় চাপ:<br/>
+      \[ P = P_0 + \rho g Z_0 \]</p>
+      <p><strong>ধাপে ধাপে সমাধান:</strong><br/>
+      শর্তানুসারে:<br/>
+      \[ \rho g Z_0 = \frac{4T}{r} \]<br/>
+      মান বসিয়ে পাই:<br/>
+      \[ 10^3 \times 10 \times Z_0 = \frac{4 \times 2.5 \times 10^{-2}}{10^{-3}} = 100 \]<br/>
+      \[ Z_0 = \frac{100}{10^4} = 0.01\text{ m} = 1\text{ cm} \]</p>
+      <p><strong>চূড়ান্ত উত্তর:</strong><br/>
+      \( Z_0 \)-এর মান হলো \( 1\text{ cm} \)।</p>
+    ]]></text>
+  </generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>10 cm</p>]]></text>
+  </answer>
+  <answer fraction="100" format="html">
+    <text><![CDATA[<p>1 cm</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>0.5 cm</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>100 cm</p>]]></text>
+  </answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>year:2019</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:bn</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>class:11</text></tag>
+    <tag><text>topic:fluids</text></tag>
+    <tag><text>chapter:mechanical_properties_of_fluids</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:easy</text></tag>
+    <tag><text>blooms:apply</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:text</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+
+<question type="multichoice">
+  <name><text>NEET_UG_PHYSICS_2019_MCQ_Q05 - Colour of light with longest wavelength</text></name>
+  <questiontext format="html">
+    <text><![CDATA[
+      <p>Which colour of the light has the longest wavelength?</p>
+      <hr/>
+      <p>কোন রঙের আলোর তরঙ্গদৈর্ঘ্য সবচেয়ে বেশি?</p>
+    ]]></text>
+  </questiontext>
+  <generalfeedback format="html">
+    <text><![CDATA[
+      <p><strong>Conceptual Principle:</strong><br/>
+      In the visible spectrum of electromagnetic radiation (commonly remembered by the acronym VIBGYOR: Violet, Indigo, Blue, Green, Yellow, Orange, Red), the wavelength increases continuously from violet to red.</p>
+      <p><strong>Wavelength Comparison:</strong><br/>
+      - Violet light has the shortest wavelength in the visible spectrum (\(\approx 380\text{--}450\text{ nm}\)).<br/>
+      - Blue light has a wavelength of around \(450\text{--}495\text{ nm}\).<br/>
+      - Green light has a wavelength of around \(495\text{--}570\text{ nm}\).<br/>
+      - Red light has the longest wavelength in the visible spectrum (\(\approx 620\text{--}750\text{ nm}\)).</p>
+      <p><strong>Final Answer:</strong><br/>
+      Red light possesses the longest wavelength among visible colours.</p>
+      <hr/>
+      <p><strong>তাত্ত্বিক নীতি:</strong><br/>
+      দৃশ্যমান বর্ণালীর মধ্যে (VIBGYOR বা বেনীআসহকলা) বেগুনি থেকে লাল বর্ণের দিকে তরঙ্গদৈর্ঘ্য ক্রমাগত বৃদ্ধি পায়।</p>
+      <p><strong>তরঙ্গদৈর্ঘ্যের তুলনা:</strong><br/>
+      - বেগুনি আলোর তরঙ্গদৈর্ঘ্য সবচেয়ে কম (\(\approx 380\text{--}450\text{ nm}\))।<br/>
+      - নীল আলোর তরঙ্গদৈর্ঘ্য প্রায় \(450\text{--}495\text{ nm}\)।<br/>
+      - সবুজ আলোর তরঙ্গদৈর্ঘ্য প্রায় \(495\text{--}570\text{ nm}\)।<br/>
+      - লাল আলোর তরঙ্গদৈর্ঘ্য দৃশ্যমান আলোকের মধ্যে সবচেয়ে দীর্ঘ (\(\approx 620\text{--}750\text{ nm}\))।</p>
+      <p><strong>চূড়ান্ত উত্তর:</strong><br/>
+      লাল আলোর তরঙ্গদৈর্ঘ্য সবচেয়ে বেশি।</p>
+    ]]></text>
+  </generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>blue</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>green</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>violet</p>]]></text>
+  </answer>
+  <answer fraction="100" format="html">
+    <text><![CDATA[<p>red</p>]]></text>
+  </answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>year:2019</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:bn</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>class:12</text></tag>
+    <tag><text>topic:optics</text></tag>
+    <tag><text>chapter:ray_optics_and_optical_instruments</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:easy</text></tag>
+    <tag><text>blooms:remember</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:text</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+
+<question type="multichoice">
+  <name><text>NEET_UG_PHYSICS_2019_MCQ_Q06 - Variation of body weight with depth</text></name>
+  <questiontext format="html">
+    <text><![CDATA[
+      <p>A body weighs \( 200\text{ N} \) on the surface of earth. How much will it weigh half way down to the centre of the earth?</p>
+      <hr/>
+      <p>ভূপৃষ্ঠে একটি বস্তুর ওজন \( 200\text{ N} \)। পৃথিবীর কেন্দ্রের দিকে অর্ধেক দূরত্বে বস্তুটির ওজন কত হবে?</p>
+    ]]></text>
+  </questiontext>
+  <generalfeedback format="html">
+    <text><![CDATA[
+      <p><strong>Given Data and Conditions:</strong><br/>
+      Weight of the body on the Earth's surface: \( W = mg = 200\text{ N} \)<br/>
+      Depth below the surface: \( d = \frac{R}{2} \), where \( R \) is the radius of the Earth.</p>
+      <p><strong>Relevant Formulae and Principles:</strong><br/>
+      The acceleration due to gravity at a depth \( d \) below the Earth's surface is given by:<br/>
+      \[ g' = g\left(1 - \frac{d}{R}\right) \]<br/>
+      Multiplying both sides by the mass \( m \) of the body gives the weight at depth \( d \):<br/>
+      \[ W' = mg' = mg\left(1 - \frac{d}{R}\right) = W\left(1 - \frac{d}{R}\right) \]</p>
+      <p><strong>Step-by-Step Working:</strong><br/>
+      Substitute \( d = \frac{R}{2} \) into the formula:<br/>
+      \[ W' = 200\left(1 - \frac{R/2}{R}\right) = 200\left(1 - \frac{1}{2}\right) = 200 \times \frac{1}{2} = 100\text{ N} \]</p>
+      <p><strong>Check and Final Answer:</strong><br/>
+      The weight of the body halfway down to the centre is \( 100\text{ N} \).</p>
+      <hr/>
+      <p><strong>প্রদত্ত তথ্য এবং শর্তাবলী:</strong><br/>
+      ভূপৃষ্ঠে বস্তুর ওজন \( W = mg = 200\text{ N} \)<br/>
+      ভূপৃষ্ঠ থেকে গভীরতা \( d = \frac{R}{2} \), যেখানে \( R \) হলো পৃথিবীর ব্যাসার্ধ।</p>
+      <p><strong>প্রাসঙ্গিক সূত্র ও নীতি:</strong><br/>
+      ভূপৃষ্ঠ থেকে \( d \) গভীরতায় অভিকর্ষজ ত্বরণের মান:<br/>
+      \[ g' = g\left(1 - \frac{d}{R}\right) \]<br/>
+      অতএব, \( d \) গভীরতায় বস্তুর ওজন:<br/>
+      \[ W' = W\left(1 - \frac{d}{R}\right) \]</p>
+      <p><strong>ধাপে ধাপে সমাধান:</strong><br/>
+      মান বসিয়ে পাই:<br/>
+      \[ W' = 200\left(1 - \frac{1}{2}\right) = 200 \times \frac{1}{2} = 100\text{ N} \]</p>
+      <p><strong>চূড়ান্ত উত্তর:</strong><br/>
+      বস্তুটির ওজন হবে \( 100\text{ N} \)।</p>
+    ]]></text>
+  </generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>200 N</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>250 N</p>]]></text>
+  </answer>
+  <answer fraction="100" format="html">
+    <text><![CDATA[<p>100 N</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>150 N</p>]]></text>
+  </answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>year:2019</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:bn</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>class:11</text></tag>
+    <tag><text>topic:gravitation</text></tag>
+    <tag><text>chapter:gravitation</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:easy</text></tag>
+    <tag><text>blooms:apply</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:text</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+
+<question type="multichoice">
+  <name><text>NEET_UG_PHYSICS_2019_MCQ_Q07 - Rate of flow of water from tank orifice</text></name>
+  <questiontext format="html">
+    <text><![CDATA[
+      <p>A small hole of area of cross-section \( 2\text{ mm}^2 \) is present near the bottom of a fully filled open tank of height \( 2\text{ m} \). Taking \( g = 10\text{ m/s}^2 \), the rate of flow of water through the open hole would be nearly</p>
+      <hr/>
+      <p>\( 2\text{ m} \) উচ্চতার জলপূর্ণ একটি উন্মুক্ত ট্যাঙ্কের তলদেশের কাছাকাছি অংশে \( 2\text{ mm}^2 \) প্রস্থচ্ছেদের একটি ছোট ছিদ্র রয়েছে। \( g = 10\text{ m/s}^2 \) ধরে ছিদ্রটি দিয়ে জল নির্গমনের হার প্রায়</p>
+    ]]></text>
+  </questiontext>
+  <generalfeedback format="html">
+    <text><![CDATA[
+      <p><strong>Given Data and Conditions:</strong><br/>
+      Cross-sectional area of hole: \( A = 2\text{ mm}^2 = 2 \times 10^{-6}\text{ m}^2 \)<br/>
+      Height of water above the hole: \( h = 2\text{ m} \)<br/>
+      Acceleration due to gravity: \( g = 10\text{ m/s}^2 \)</p>
+      <p><strong>Relevant Formulae and Principles:</strong><br/>
+      According to Torricelli's Law of efflux, the speed of efflux \( v \) of liquid discharging through a small orifice under a liquid head \( h \) is:<br/>
+      \[ v = \sqrt{2gh} \]<br/>
+      The volumetric rate of flow (discharge) \( Q \) is given by the equation of continuity:<br/>
+      \[ Q = A \cdot v = A\sqrt{2gh} \]</p>
+      <p><strong>Step-by-Step Working:</strong><br/>
+      1. Calculate the efflux velocity:<br/>
+      \[ v = \sqrt{2 \times 10 \times 2} = \sqrt{40} \approx 6.3246\text{ m/s} \]<br/>
+      2. Calculate the volume flow rate:<br/>
+      \[ Q = (2 \times 10^{-6}\text{ m}^2) \times 6.3246\text{ m/s} \approx 12.649 \times 10^{-6}\text{ m}^3\text{/s} \approx 12.6 \times 10^{-6}\text{ m}^3\text{/s} \]</p>
+      <p><strong>Check and Final Answer:</strong><br/>
+      The rate of flow of water is nearly \( 12.6 \times 10^{-6}\text{ m}^3\text{/s} \).</p>
+      <hr/>
+      <p><strong>প্রদত্ত তথ্য এবং শর্তাবলী:</strong><br/>
+      ছিদ্রের প্রস্থচ্ছেদের ক্ষেত্রফল \( A = 2\text{ mm}^2 = 2 \times 10^{-6}\text{ m}^2 \)<br/>
+      জলের উচ্চতা \( h = 2\text{ m} \)<br/>
+      \( g = 10\text{ m/s}^2 \)</p>
+      <p><strong>প্রাসঙ্গিক সূত্র ও নীতি:</strong><br/>
+      টোরিসেলির সূত্র অনুযায়ী নির্গমন বেগ:<br/>
+      \[ v = \sqrt{2gh} \]<br/>
+      জল নির্গমনের হার (প্রবাহ হার):<br/>
+      \[ Q = A \cdot v = A\sqrt{2gh} \]</p>
+      <p><strong>ধাপে ধাপে সমাধান:</strong><br/>
+      ১. নির্গমন বেগ নির্ণয়:<br/>
+      \[ v = \sqrt{2 \times 10 \times 2} = \sqrt{40} \approx 6.325\text{ m/s} \]<br/>
+      ২. নির্গমন হার নির্ণয়:<br/>
+      \[ Q = (2 \times 10^{-6}\text{ m}^2) \times 6.325\text{ m/s} \approx 12.6 \times 10^{-6}\text{ m}^3\text{/s} \]</p>
+      <p><strong>চূড়ান্ত উত্তর:</strong><br/>
+      জল নির্গমনের হার প্রায় \( 12.6 \times 10^{-6}\text{ m}^3\text{/s} \)।</p>
+    ]]></text>
+  </generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\( 8.9 \times 10^{-6}\text{ m}^3\text{/s} \)</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\( 2.23 \times 10^{-6}\text{ m}^3\text{/s} \)</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\( 6.4 \times 10^{-6}\text{ m}^3\text{/s} \)</p>]]></text>
+  </answer>
+  <answer fraction="100" format="html">
+    <text><![CDATA[<p>\( 12.6 \times 10^{-6}\text{ m}^3\text{/s} \)</p>]]></text>
+  </answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>year:2019</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:bn</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>class:11</text></tag>
+    <tag><text>topic:fluids</text></tag>
+    <tag><text>chapter:mechanical_properties_of_fluids</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:easy</text></tag>
+    <tag><text>blooms:apply</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:text</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+
+<question type="multichoice">
+  <name><text>NEET_UG_PHYSICS_2019_MCQ_Q08 - Work needed to stop a rolling disc</text></name>
+  <questiontext format="html">
+    <text><![CDATA[
+      <p>A disc of radius \( 2\text{ m} \) and mass \( 100\text{ kg} \) rolls on a horizontal floor. Its centre of mass has speed of \( 20\text{ cm/s} \). How much work is needed to stop it?</p>
+      <hr/>
+      <p>\( 2\text{ m} \) ব্যাসার্ধ এবং \( 100\text{ kg} \) ভরের একটি চাকতি অনুভূমিক মেঝের ওপর দিয়ে গড়াচ্ছে। এর ভরকেন্দ্রের দ্রুতি \( 20\text{ cm/s} \)। এটিকে থামাতে কী পরিমাণ কার্য করতে হবে?</p>
+    ]]></text>
+  </questiontext>
+  <generalfeedback format="html">
+    <text><![CDATA[
+      <p><strong>Given Data and Conditions:</strong><br/>
+      Mass of the disc: \( m = 100\text{ kg} \)<br/>
+      Radius of the disc: \( R = 2\text{ m} \)<br/>
+      Speed of centre of mass: \( v = 20\text{ cm/s} = 0.2\text{ m/s} \)<br/>
+      The disc is in pure rolling motion without slipping on the horizontal surface.</p>
+      <p><strong>Relevant Formulae and Principles:</strong><br/>
+      By the work-energy theorem, the work needed to stop the rolling disc equals its total initial mechanical kinetic energy:<br/>
+      \[ W = K_{\text{total}} = K_{\text{trans}} + K_{\text{rot}} \]<br/>
+      Translational kinetic energy: \( K_{\text{trans}} = \frac{1}{2}mv^2 \)<br/>
+      Rotational kinetic energy: \( K_{\text{rot}} = \frac{1}{2}I\omega^2 \)<br/>
+      For a solid circular disc about its central axis, \( I = \frac{1}{2}mR^2 \), and the rolling condition gives \( \omega = \frac{v}{R} \):<br/>
+      \[ K_{\text{rot}} = \frac{1}{2}\left(\frac{1}{2}mR^2\right)\left(\frac{v}{R}\right)^2 = \frac{1}{4}mv^2 \]<br/>
+      Thus, the total kinetic energy is:<br/>
+      \[ K_{\text{total}} = \frac{1}{2}mv^2 + \frac{1}{4}mv^2 = \frac{3}{4}mv^2 \]</p>
+      <p><strong>Step-by-Step Working:</strong><br/>
+      Substitute the given numeric values:<br/>
+      \[ K_{\text{total}} = \frac{3}{4} \times 100\text{ kg} \times (0.2\text{ m/s})^2 \]<br/>
+      \[ K_{\text{total}} = 75 \times 0.04 = 3\text{ J} \]</p>
+      <p><strong>Check and Final Answer:</strong><br/>
+      The total kinetic energy to be removed to bring the rolling disc to rest is \( 3\text{ J} \).</p>
+      <hr/>
+      <p><strong>প্রদত্ত তথ্য এবং শর্তাবলী:</strong><br/>
+      চাকতির ভর \( m = 100\text{ kg} \)<br/>
+      ব্যাসার্ধ \( R = 2\text{ m} \)<br/>
+      ভরকেন্দ্রের গতিবেগ \( v = 20\text{ cm/s} = 0.2\text{ m/s} \)<br/>
+      চাকতিটি পিছলে না গিয়ে বিশুদ্ধ ঘূর্ণন গতিতে গড়াচ্ছে।</p>
+      <p><strong>প্রাসঙ্গিক সূত্র ও নীতি:</strong><br/>
+      কার্য-শক্তি উপপাদ্য অনুযায়ী চাকতিটিকে থামাতে প্রয়োজনীয় কার্য তার মোট গতিশক্তির সমান:<br/>
+      \[ W = K_{\text{total}} = K_{\text{trans}} + K_{\text{rot}} \]<br/>
+      একটি নিখাদ চাকতির ক্ষেত্রে:<br/>
+      \[ K_{\text{total}} = \frac{1}{2}mv^2 + \frac{1}{4}mv^2 = \frac{3}{4}mv^2 \]</p>
+      <p><strong>ধাপে ধাপে সমাধান:</strong><br/>
+      মান বসিয়ে পাই:<br/>
+      \[ K_{\text{total}} = \frac{3}{4} \times 100 \times (0.2)^2 = 75 \times 0.04 = 3\text{ J} \]</p>
+      <p><strong>চূড়ান্ত উত্তর:</strong><br/>
+      চাকতিটিকে থামাতে প্রয়োজনীয় কার্যের পরিমাণ হলো \( 3\text{ J} \)।</p>
+    ]]></text>
+  </generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>30 kJ</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>2 J</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>1 J</p>]]></text>
+  </answer>
+  <answer fraction="100" format="html">
+    <text><![CDATA[<p>3 J</p>]]></text>
+  </answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>year:2019</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:bn</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>class:11</text></tag>
+    <tag><text>topic:rotational_motion</text></tag>
+    <tag><text>chapter:system_of_particles_and_rotational_motion</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:easy</text></tag>
+    <tag><text>blooms:apply</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:text</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+
+<question type="multichoice">
+  <name><text>NEET_UG_PHYSICS_2019_MCQ_Q09 - Ratio of equivalent focal lengths of lens combination</text></name>
+  <questiontext format="html">
+    <text><![CDATA[
+      <p>Two similar thin equi-convex lenses, of focal length \( f \) each, are kept coaxially in contact with each other such that the focal length of the combination is \( F_1 \). When the space between the two lenses is filled with glycerin (which has the same refractive index (\( \mu = 1.5 \)) as that of glass) then the equivalent focal length is \( F_2 \). The ratio \( F_1 : F_2 \) will be</p>
+      <hr/>
+      <p>প্রতিটির ফোকাস দৈর্ঘ্য \( f \) বিশিষ্ট দুটি অভিন্ন পাতলা সমোত্তল লেন্সকে সমাক্ষীয়ভাবে পরস্পরের সংস্পর্শে রাখা হলো যাতে সমবায়ের ফোকাস দৈর্ঘ্য হয় \( F_1 \)। যখন লেন্স দুটির মধ্যবর্তী স্থানটি গ্লিসারিন (যার প্রতিসরাঙ্ক কাচের প্রতিসরাঙ্কের সমান, \( \mu = 1.5 \)) দ্বারা পূর্ণ করা হয়, তখন সমতুল্য ফোকাস দৈর্ঘ্য হয় \( F_2 \)। \( F_1 : F_2 \) অনুপাতটি হবে</p>
+    ]]></text>
+  </questiontext>
+  <generalfeedback format="html">
+    <text><![CDATA[
+      <p><strong>Given Data and Conditions:</strong><br/>
+      Two thin equi-convex glass lenses, each with focal length \( f \) and refractive index \( \mu_g = 1.5 \).<br/>
+      First combination: two lenses in contact with air in between, having equivalent focal length \( F_1 \).<br/>
+      Second combination: the space between them is filled with glycerin of refractive index \( \mu_{\text{liq}} = 1.5 \), having equivalent focal length \( F_2 \).</p>
+      <p><strong>Relevant Formulae and Principles:</strong><br/>
+      1. Lens maker's formula for a thin lens: \( \frac{1}{f} = (\mu - 1)\left(\frac{1}{R_1} - \frac{1}{R_2}\right) \)<br/>
+      For an equi-convex lens of radius of curvature \( R \):<br/>
+      \[ \frac{1}{f} = (1.5 - 1)\left(\frac{1}{R} - \left(-\frac{1}{R}\right)\right) = 0.5 \times \frac{2}{R} = \frac{1}{R} \implies R = f \]<br/>
+      2. The glycerin trapped between the two convex surfaces forms an equi-concave liquid lens with radii of curvature \( -R \) and \( +R \).<br/>
+      Focal length of the liquid lens \( f_{\text{liq}} \):<br/>
+      \[ \frac{1}{f_{\text{liq}}} = (\mu_{\text{liq}} - 1)\left(-\frac{1}{R} - \frac{1}{R}\right) = (1.5 - 1)\left(-\frac{2}{R}\right) = -\frac{1}{R} = -\frac{1}{f} \]<br/>
+      3. Combination of thin lenses in contact: \( \frac{1}{F} = \sum \frac{1}{f_i} \)</p>
+      <p><strong>Step-by-Step Working:</strong><br/>
+      1. For the initial combination in air:<br/>
+      \[ \frac{1}{F_1} = \frac{1}{f} + \frac{1}{f} = \frac{2}{f} \implies F_1 = \frac{f}{2} \]<br/>
+      2. When glycerin is introduced, the system forms three lenses in series: two convex lenses of focal length \( f \) and one concave liquid lens of focal length \( -f \):<br/>
+      \[ \frac{1}{F_2} = \frac{1}{f} + \frac{1}{f_{\text{liq}}} + \frac{1}{f} = \frac{1}{f} - \frac{1}{f} + \frac{1}{f} = \frac{1}{f} \implies F_2 = f \]<br/>
+      3. Compute the ratio \( F_1 : F_2 \):<br/>
+      \[ \frac{F_1}{F_2} = \frac{f/2}{f} = \frac{1}{2} \implies F_1 : F_2 = 1:2 \]</p>
+      <p><strong>Check and Final Answer:</strong><br/>
+      The ratio \( F_1 : F_2 \) is \( 1:2 \).</p>
+      <hr/>
+      <p><strong>প্রদত্ত তথ্য এবং শর্তাবলী:</strong><br/>
+      দুটি সমোত্তল লেন্সের প্রতিটির ফোকাস দৈর্ঘ্য \( f \) এবং প্রতিসরাঙ্ক \( \mu = 1.5 \)।<br/>
+      লেন্স দুটির মধ্যবর্তী স্থান গ্লিসারিন (\( \mu = 1.5 \)) দ্বারা পূর্ণ করা হয়েছে।</p>
+      <p><strong>প্রাসঙ্গিক সূত্র ও নীতি:</strong><br/>
+      লেন্স প্রস্তুতকারকের সূত্রানুসারে:<br/>
+      \[ \frac{1}{f} = (\mu - 1)\left(\frac{1}{R_1} - \frac{1}{R_2}\right) \]<br/>
+      সমোত্তল লেন্সের জন্য \( R = f \)।<br/>
+      মাঝের গ্লিসারিন স্তরটি একটি সমাবতল লেন্স গঠন করে যার ফোকাস দৈর্ঘ্য:<br/>
+      \[ \frac{1}{f_{\text{liq}}} = (1.5 - 1)\left(-\frac{2}{R}\right) = -\frac{1}{f} \]</p>
+      <p><strong>ধাপে ধাপে সমাধান:</strong><br/>
+      ১. প্রথম ক্ষেত্রে:<br/>
+      \[ \frac{1}{F_1} = \frac{1}{f} + \frac{1}{f} = \frac{2}{f} \implies F_1 = \frac{f}{2} \]<br/>
+      ২. দ্বিতীয় ক্ষেত্রে তিনটি লেন্সের সমবায় তৈরি হয়:<br/>
+      \[ \frac{1}{F_2} = \frac{1}{f} - \frac{1}{f} + \frac{1}{f} = \frac{1}{f} \implies F_2 = f \]<br/>
+      ৩. অনুপাত নির্ণয়:<br/>
+      \[ \frac{F_1}{F_2} = \frac{f/2}{f} = \frac{1}{2} \implies F_1 : F_2 = 1:2 \]</p>
+      <p><strong>চূড়ান্ত উত্তর:</strong><br/>
+      \( F_1 : F_2 \) এর অনুপাত হলো \( 1:2 \)।</p>
+    ]]></text>
+  </generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="100" format="html">
+    <text><![CDATA[<p>1:2</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>2:3</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>3:4</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>2:1</p>]]></text>
+  </answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>year:2019</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:bn</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>class:12</text></tag>
+    <tag><text>topic:optics</text></tag>
+    <tag><text>chapter:ray_optics_and_optical_instruments</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:medium</text></tag>
+    <tag><text>blooms:apply</text></tag>
+    <tag><text>calculation:moderate</text></tag>
+    <tag><text>media:text</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+
+<question type="multichoice">
+  <name><text>NEET_UG_PHYSICS_2019_MCQ_Q10 - Maximum percentage error in calculated quantity</text></name>
+  <questiontext format="html">
+    <text><![CDATA[
+      <p>In an experiment, the percentage of error occurred in the measurement of physical quantities \( A \), \( B \), \( C \) and \( D \) are \( 1\% \), \( 2\% \), \( 3\% \) and \( 4\% \) respectively. Then the maximum percentage of error in the measurement \( X \), where \( X = \frac{A^2 B^{1/2}}{C^{1/3} D^3} \), will be</p>
+      <hr/>
+      <p>একটি পরীক্ষায় \( A \), \( B \), \( C \) এবং \( D \) ভৌত রাশিগুলির পরিমাপে শতকরা ত্রুটি যথাক্রমে \( 1\% \), \( 2\% \), \( 3\% \) এবং \( 4\% \)। তাহলে \( X \)-এর পরিমাপে সর্বোচ্চ শতকরা ত্রুটি কত হবে, যেখানে \( X = \frac{A^2 B^{1/2}}{C^{1/3} D^3} \)?</p>
+    ]]></text>
+  </questiontext>
+  <generalfeedback format="html">
+    <text><![CDATA[
+      <p><strong>Given Data and Conditions:</strong><br/>
+      Percentage error in \( A \): \( \frac{\Delta A}{A} \times 100\% = 1\% \)<br/>
+      Percentage error in \( B \): \( \frac{\Delta B}{B} \times 100\% = 2\% \)<br/>
+      Percentage error in \( C \): \( \frac{\Delta C}{C} \times 100\% = 3\% \)<br/>
+      Percentage error in \( D \): \( \frac{\Delta D}{D} \times 100\% = 4\% \)<br/>
+      Functional relationship: \( X = \frac{A^2 B^{1/2}}{C^{1/3} D^3} = A^2 B^{1/2} C^{-1/3} D^{-3} \)</p>
+      <p><strong>Relevant Formulae and Principles:</strong><br/>
+      For a quantity given by powers of independent measurements, the maximum fractional error is obtained by summing the products of the absolute value of each power and the corresponding fractional error:<br/>
+      \[ \left(\frac{\Delta X}{X}\right)_{\text{max}} = 2\left(\frac{\Delta A}{A}\right) + \frac{1}{2}\left(\frac{\Delta B}{B}\right) + \frac{1}{3}\left(\frac{\Delta C}{C}\right) + 3\left(\frac{\Delta D}{D}\right) \]</p>
+      <p><strong>Step-by-Step Working:</strong><br/>
+      Multiply throughout by \( 100\% \) to evaluate percentage errors:<br/>
+      \[ \left(\frac{\Delta X}{X} \times 100\%\right)_{\text{max}} = 2(1\%) + \frac{1}{2}(2\%) + \frac{1}{3}(3\%) + 3(4\%) \]<br/>
+      Calculate each term individually:<br/>
+      \[ 2(1\%) = 2\% \]<br/>
+      \[ \frac{1}{2}(2\%) = 1\% \]<br/>
+      \[ \frac{1}{3}(3\%) = 1\% \]<br/>
+      \[ 3(4\%) = 12\% \]<br/>
+      Summing all contributions:<br/>
+      \[ \left(\frac{\Delta X}{X} \times 100\%\right)_{\text{max}} = 2\% + 1\% + 1\% + 12\% = 16\% \]</p>
+      <p><strong>Check and Final Answer:</strong><br/>
+      The maximum percentage error in \( X \) is \( 16\% \).</p>
+      <hr/>
+      <p><strong>প্রদত্ত তথ্য এবং শর্তাবলী:</strong><br/>
+      \( A \)-তে ত্রুটি \(= 1\% \), \( B \)-তে ত্রুটি \(= 2\% \), \( C \)-তে ত্রুটি \(= 3\% \), \( D \)-তে ত্রুটি \(= 4\% \)<br/>
+      সম্পর্কটি হলো: \( X = \frac{A^2 B^{1/2}}{C^{1/3} D^3} \)</p>
+      <p><strong>প্রাসঙ্গিক সূত্র ও নীতি:</strong><br/>
+      সর্বোচ্চ আপেক্ষিক ত্রুটি নির্ণয়ের নিয়ম অনুযায়ী সূচকগুলির পরম মানের সাথে সংশ্লিষ্ট ত্রুটির গুণফলের সমষ্টি নেওয়া হয়:<br/>
+      \[ \left(\frac{\Delta X}{X}\right)_{\text{max}} = 2\left(\frac{\Delta A}{A}\right) + \frac{1}{2}\left(\frac{\Delta B}{B}\right) + \frac{1}{3}\left(\frac{\Delta C}{C}\right) + 3\left(\frac{\Delta D}{D}\right) \]</p>
+      <p><strong>ধাপে ধাপে সমাধান:</strong><br/>
+      শতকরা ত্রুটি হিসাব করে পাই:<br/>
+      \[ \left(\frac{\Delta X}{X} \times 100\%\right)_{\text{max}} = 2(1\%) + \frac{1}{2}(2\%) + \frac{1}{3}(3\%) + 3(4\%) \]<br/>
+      \[ = 2\% + 1\% + 1\% + 12\% = 16\% \]</p>
+      <p><strong>চূড়ান্ত উত্তর:</strong><br/>
+      \( X \)-এর পরিমাপে সর্বোচ্চ শতকরা ত্রুটি হবে \( 16\% \)।</p>
+    ]]></text>
+  </generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="100" format="html">
+    <text><![CDATA[<p>16%</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>-10%</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>10%</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\( (3/13)\% \)</p>]]></text>
+  </answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>year:2019</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:bn</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>class:11</text></tag>
+    <tag><text>topic:units_and_measurements</text></tag>
+    <tag><text>chapter:units_and_measurements</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:easy</text></tag>
+    <tag><text>blooms:apply</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:text</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+
+<question type="multichoice">
+  <name><text>NEET_UG_PHYSICS_2019_MCQ_Q11 - SI unit of thermal conductivity</text></name>
+  <questiontext format="html">
+    <text><![CDATA[
+      <p>The unit of thermal conductivity is</p>
+      <hr/>
+      <p>তাপ পরিবাহিতাঙ্কের একক হলো</p>
+    ]]></text>
+  </questiontext>
+  <generalfeedback format="html">
+    <text><![CDATA[
+      <p><strong>Conceptual Principle and Formula:</strong><br/>
+      The rate of heat transfer through a slab of material by conduction is given by Fourier's law of heat conduction:<br/>
+      \[ \frac{dQ}{dt} = k A \frac{\Delta T}{\Delta x} \]<br/>
+      where:<br/>
+      - \( \frac{dQ}{dt} \) is the heat current (power), measured in watts (\( \text{W} \) or \( \text{J}\cdot\text{s}^{-1} \)),<br/>
+      - \( k \) is the thermal conductivity of the material,<br/>
+      - \( A \) is the surface area through which heat flows, in \( \text{m}^2 \),<br/>
+      - \( \Delta T \) is the temperature difference, in kelvin (\( \text{K} \)),<br/>
+      - \( \Delta x \) is the thickness of the material, in meters (\( \text{m} \)).</p>
+      <p><strong>Derivation of Units:</strong><br/>
+      Rearranging the equation for thermal conductivity \( k \):<br/>
+      \[ k = \frac{dQ/dt}{A} \cdot \frac{\Delta x}{\Delta T} \]<br/>
+      Substituting the SI units of each quantity:<br/>
+      \[ [k] = \frac{\text{W}}{\text{m}^2} \cdot \frac{\text{m}}{\text{K}} = \text{W}\cdot\text{m}^{-1}\cdot\text{K}^{-1} \]</p>
+      <p><strong>Final Answer:</strong><br/>
+      The unit of thermal conductivity is \( \text{W}\text{ m}^{-1}\text{ K}^{-1} \).</p>
+      <hr/>
+      <p><strong>তাত্ত্বিক নীতি ও সূত্র:</strong><br/>
+      তাপ পরিবহনের সূত্র অনুযায়ী পরিবাহীর মধ্য দিয়ে তাপ পরিবহনের হার:<br/>
+      \[ \frac{dQ}{dt} = k A \frac{\Delta T}{\Delta x} \]<br/>
+      যেখানে \( k \) হলো উপাদানের তাপ পরিবাহিতাঙ্ক।</p>
+      <p><strong>একক নির্ণয়:</strong><br/>
+      \( k \)-কে আলাদা করে পাই:<br/>
+      \[ k = \frac{dQ/dt}{A} \cdot \frac{\Delta x}{\Delta T} \]<br/>
+      SI এককগুলি বসিয়ে পাই:<br/>
+      \[ [k] = \frac{\text{W}}{\text{m}^2} \cdot \frac{\text{m}}{\text{K}} = \text{W}\text{ m}^{-1}\text{ K}^{-1} \]</p>
+      <p><strong>চূড়ান্ত উত্তর:</strong><br/>
+      তাপ পরিবাহিতাঙ্কের একক হলো \( \text{W}\text{ m}^{-1}\text{ K}^{-1} \)।</p>
+    ]]></text>
+  </generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\( \text{J}\text{ m}^{-1}\text{ K}^{-1} \)</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\( \text{W}\text{ m}\text{ K}^{-1} \)</p>]]></text>
+  </answer>
+  <answer fraction="100" format="html">
+    <text><![CDATA[<p>\( \text{W}\text{ m}^{-1}\text{ K}^{-1} \)</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\( \text{J}\text{ m}\text{ K}^{-1} \)</p>]]></text>
+  </answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>year:2019</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:bn</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>class:11</text></tag>
+    <tag><text>topic:thermal_physics</text></tag>
+    <tag><text>chapter:thermal_properties_of_matter</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:easy</text></tag>
+    <tag><text>blooms:remember</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:text</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>

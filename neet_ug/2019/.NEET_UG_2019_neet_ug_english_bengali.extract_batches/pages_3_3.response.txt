@@ -1,0 +1,869 @@
+<question type="multichoice">
+  <name><text>NEET_UG_PHYSICS_2019_MCQ_Q26 - Magnetic field variation of a cylindrical conductor</text></name>
+  <questiontext format="html">
+    <text><![CDATA[
+<p>A cylindrical conductor of radius \(R\) is carrying a constant current. The plot of the magnitude of the magnetic field, \(B\) with the distance, \(d\) from the centre of the conductor, is correctly represented by the figure:</p>
+<hr/>
+<p>\(R\) ব্যাসার্ধের একটি চোঙাকৃতি পরিবাহী স্থির তড়িৎপ্রবাহ বহন করছে। পরিবাহীর কেন্দ্র থেকে দূরত্ব \(d\)-এর সাথে চৌম্বক ক্ষেত্রের মান \(B\)-এর পরিবর্তনের সঠিক লেখচিত্রটি হলো:</p>
+    ]]></text>
+  </questiontext>
+  <generalfeedback format="html">
+    <text><![CDATA[
+<p><strong>Step 1: Given Data and Conditions</strong><br/>
+A solid cylindrical conductor of radius \(R\) carries a steady current \(I\) distributed uniformly across its circular cross-section. The distance from the central axis is denoted by \(d\).</p>
+<p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>
+Assume the current density \(J = \frac{I}{\pi R^2}\) is uniform throughout the conductor. By cylindrical symmetry, the magnetic field lines are concentric circles centred on the axis of the cylinder, with the magnitude of \(\vec{B}\) depending solely on the radial distance \(d\).</p>
+<p><strong>Step 3: Relevant Formulae and Principles</strong><br/>
+According to Ampere's Circuital Law:
+\[\oint \vec{B} \cdot d\vec{l} = \mu_0 I_{\text{enclosed}}\]
+For a circular Amperian loop of radius \(d\) coaxial with the conductor:
+\[\oint \vec{B} \cdot d\vec{l} = B(2\pi d)\]</p>
+<p><strong>Step 4: Step-by-Step Working</strong><br/>
+Inside the conductor (\(d \le R\)):
+The current enclosed by the Amperian loop of radius \(d\) is proportional to the enclosed cross-sectional area:
+\[I_{\text{enclosed}} = I \times \frac{\pi d^2}{\pi R^2} = I \frac{d^2}{R^2}\]
+Substituting into Ampere's law gives:
+\[B(2\pi d) = \mu_0 I \frac{d^2}{R^2} \implies B = \left(\frac{\mu_0 I}{2\pi R^2}\right) d\]
+Thus, the magnetic field increases linearly with distance from the axis, \(B \propto d\), starting from zero at the center (\(d = 0\)) to a maximum at the surface (\(d = R\)):
+\[B_{\text{max}} = \frac{\mu_0 I}{2\pi R}\]
+Outside the conductor (\(d \ge R\)):
+The Amperian loop encloses the entire current \(I\):
+\[I_{\text{enclosed}} = I\]
+Substituting into Ampere's law:
+\[B(2\pi d) = \mu_0 I \implies B = \frac{\mu_0 I}{2\pi d}\]
+Thus, outside the conductor, the magnetic field decreases inversely with distance, \(B \propto \frac{1}{d}\).</p>
+<p><strong>Step 5: Check and Final Answer</strong><br/>
+At \(d = 0\), \(B = 0\). At \(d = R\), both expressions yield \(B = \frac{\mu_0 I}{2\pi R}\). For \(d > R\), the curve exhibits hyperbolic decay approaching zero as \(d \to \infty\). The correct graph shows a straight line through the origin rising to a peak at \(d = R\) followed by a smooth hyperbolic decay.</p>
+<hr/>
+<p><strong>Step 1: প্রদত্ত তথ্য ও শর্তাবলি</strong><br/>
+\(R\) ব্যাসার্ধের একটি নিরেট চোঙাকৃতি পরিবাহী যার প্রস্থচ্ছেদে সুষমভাবে বণ্টিত একটি স্থির তড়িৎপ্রবাহ \(I\) প্রবাহিত হচ্ছে। কেন্দ্রীয় অক্ষ থেকে দূরত্ব হলো \(d\)।</p>
+<p><strong>Step 2: অনুমান ও চিহ্নের নিয়ম</strong><br/>
+ধরা যাক প্রবাহ ঘনত্ব \(J = \frac{I}{\pi R^2}\) পরিবাহী জুড়ে সুষম। চোঙাকৃতি প্রতিসাম্যের কারণে চৌম্বক বলরেখাগুলি কেন্দ্রীয় অক্ষের চারদিকে সমকেন্দ্রিক বৃত্তাকার এবং \(\vec{B}\)-এর মান কেবল ব্যাসার্ধীয় দূরত্ব \(d\)-এর ওপর নির্ভর করে।</p>
+<p><strong>Step 3: সংশ্লিষ্ট সূত্র ও নীতি</strong><br/>
+অ্যাম্পিয়ারের সূত্রানুসারে:
+\[\oint \vec{B} \cdot d\vec{l} = \mu_0 I_{\text{enclosed}}\]
+অক্ষের সাথে সমাক্ষীয় \(d\) ব্যাসার্ধের বৃত্তাকার লুপের জন্য রেখা সমাকলনটি হবে:
+\[\oint \vec{B} \cdot d\vec{l} = B(2\pi d)\]</p>
+<p><strong>Step 4: ধাপে ধাপে সমাধান</strong><br/>
+পরিবাহীর অভ্যন্তরে (\(d \le R\)):
+\(d\) ব্যাসার্ধের লুপ দ্বারা আবদ্ধ তড়িৎপ্রবাহ:
+\[I_{\text{enclosed}} = I \times \frac{\pi d^2}{\pi R^2} = I \frac{d^2}{R^2}\]
+অ্যাম্পিয়ারের সূত্রে বসিয়ে পাই:
+\[B(2\pi d) = \mu_0 I \frac{d^2}{R^2} \implies B = \left(\frac{\mu_0 I}{2\pi R^2}\right) d\]
+অতএব, পরিবাহীর অভ্যন্তরে চৌম্বক ক্ষেত্র দূরত্বের সমানুপাতিক, অর্থাৎ \(B \propto d\)। মূলবিন্দু (\(d = 0\)) থেকে শুরু হয়ে পরিবাহীর পৃষ্ঠে (\(d = R\)) এটি রৈখিকভাবে সর্বোচ্চ মানে পৌঁছায়:
+\[B_{\text{max}} = \frac{\mu_0 I}{2\pi R}\]
+পরিবাহীর বাইরে (\(d \ge R\)):
+লুপের ভেতরে মোট তড়িৎপ্রবাহ \(I\) আবদ্ধ থাকে:
+\[I_{\text{enclosed}} = I\]
+অ্যাম্পিয়ারের সূত্রে বসিয়ে পাই:
+\[B(2\pi d) = \mu_0 I \implies B = \frac{\mu_0 I}{2\pi d}\]
+অতএব, পরিবাহীর বাইরে চৌম্বক ক্ষেত্র দূরত্বের ব্যস্তানুপাতিক, অর্থাৎ \(B \propto \frac{1}{d}\)।</p>
+<p><strong>Step 5: যাচাই ও চূড়ান্ত উত্তর</strong><br/>
+\(d = 0\) বিন্দুতে \(B = 0\)। পৃষ্ঠে \(d = R\) বিন্দুতে উভয় সমীকরণ থেকেই সর্বোচ্চ মান পাওয়া যায়। \(R\)-এর বাইরে মানটি \(1/d\) হারে পরাবৃত্তীয়ভাবে হ্রাস পায়। সঠিক লেখচিত্রটি মূলবিন্দু থেকে শুরু হয়ে \(d = R\) পর্যন্ত রৈখিক বৃদ্ধি এবং তারপর মসৃণ পরাবৃত্তীয় অবক্ষয় প্রদর্শন করে।</p>
+    ]]></text>
+  </generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>false</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p><img src="@@PLUGINFILE@@/img-2.jpeg" alt="Graph (a)" /></p>]]></text>
+  </answer>
+  <answer fraction="100" format="html">
+    <text><![CDATA[<p><img src="@@PLUGINFILE@@/img-3.jpeg" alt="Graph (b)" /></p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p><img src="@@PLUGINFILE@@/img-4.jpeg" alt="Graph (c)" /></p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p><img src="@@PLUGINFILE@@/img-5.jpeg" alt="Graph (d)" /></p>]]></text>
+  </answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>year:2019</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:bn</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>class:class_12</text></tag>
+    <tag><text>chapter:moving_charges_and_magnetism</text></tag>
+    <tag><text>topic:amperes_circuital_law</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:easy</text></tag>
+    <tag><text>blooms:understand</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:graph</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+
+<question type="multichoice">
+  <name><text>NEET_UG_PHYSICS_2019_MCQ_Q27 - Statement identifying incorrect rainbow formation fact</text></name>
+  <questiontext format="html">
+    <text><![CDATA[
+<p>Pick the wrong answer in the context with rainbow.</p>
+<hr/>
+<p>রামধনুর প্রেক্ষিতে ভুল উত্তরটি নির্বাচন করো।</p>
+    ]]></text>
+  </questiontext>
+  <generalfeedback format="html">
+    <text><![CDATA[
+<p><strong>Step 1: Conceptual Principle</strong><br/>
+A rainbow is an optical phenomenon formed by the dispersion, refraction, and internal reflection of sunlight by spherical raindrops suspended in the atmosphere.</p>
+<p><strong>Step 2: Evaluation of Conditions and Mechanisms</strong><br/>
+To observe a rainbow, the sun must be situated behind the observer while raindrops are located in front of the observer. Sunlight enters a raindrop, refracts and disperses into constituent colours, undergoes internal reflection at the drop's back surface, and refracts once again upon exiting back toward the observer's eyes. If an observer faces toward the sun, the backward-reflected light cannot enter the observer's eyes.</p>
+<p>In addition, a primary rainbow is formed by two refractions and one internal reflection in water drops, with red on the outside and violet on the inside. A secondary rainbow is formed by two refractions and two internal reflections, causing the sequence of colours to be reversed, with violet on the outside and red on the inside.</p>
+<p><strong>Step 3: Final Conclusion</strong><br/>
+The condition stating that an observer can see a rainbow when facing toward the sun contradicts the physical mechanism of reflection. Therefore, the statement that an observer can see a rainbow when his front is towards the sun is the incorrect statement.</p>
+<hr/>
+<p><strong>Step 1: ধারণাগত নীতি</strong><br/>
+বায়ুমণ্ডলে উপস্থিত বৃষ্টির গোলাকার জলের ফোঁটায় সূর্যালোকের বিচ্ছুরণ, প্রতিসরণ এবং অভ্যন্তরীণ প্রতিফলনের যৌথ প্রভাবে আকাশে রামধনু সৃষ্টি হয়।</p>
+<p><strong>Step 2: শর্ত ও প্রক্রিয়ার মূল্যায়ন</strong><br/>
+রামধনু প্রত্যক্ষ করার জন্য সূর্যকে অবশ্যই পর্যবেক্ষকের পেছনে থাকতে হবে এবং জলের ফোঁটাগুলি পর্যবেক্ষকের সামনে অবস্থান করতে হবে। সূর্যালোক ফোঁটার ভেতর প্রবেশকালে প্রতিসরিত ও বিচ্ছুরিত হয়, পেছনের তল থেকে অভ্যন্তরীণ প্রতিফলিত হয় এবং নির্গমনের সময় পুনরায় প্রতিসরিত হয়ে পর্যবেক্ষকের চোখের দিকে আসে। পর্যবেক্ষক যদি সূর্যের দিকে মুখ করে থাকেন, তবে ফোঁটা থেকে প্রতিফলিত রশ্মি পর্যবেক্ষকের চোখে প্রবেশ করতে পারে না।</p>
+<p>তদুপরি, প্রাথমিক রামধনুতে একটি অভ্যন্তরীণ প্রতিফলন ঘটে এবং বাইরের দিকে লাল ও ভেতরের দিকে বেগুনি বর্ণ থাকে। গৌণ রামধনুতে দুটি অভ্যন্তরীণ প্রতিফলন ঘটে, যার ফলে রঙের ক্রম উল্টে গিয়ে বাইরের দিকে বেগুনি এবং ভেতরের দিকে লাল বর্ণ দেখা যায়।</p>
+<p><strong>Step 3: চূড়ান্ত সিদ্ধান্ত</strong><br/>
+সূর্যের দিকে মুখ করে দাঁড়িয়ে রামধনু দেখা সম্ভব—এই উক্তিটি বৈজ্ঞানিক নিয়মের পরিপন্থী। সুতরাং, ভুল বিবৃতিটি হলো পর্যবেক্ষক যখন সূর্যের দিকে মুখ করে থাকেন তখন রামধনু দেখতে পান।</p>
+    ]]></text>
+  </generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="100" format="html">
+    <text><![CDATA[<p>An observer can see a rainbow when his front is towards the sun.</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>Rainbow is a combined effect of dispersion refraction and reflection of sunlight.</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>When the light rays undergo two internal reflections in a water drop, a secondary rainbow is formed.</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>The order of colours is reversed in the secondary rainbow.</p>]]></text>
+  </answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>year:2019</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:bn</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>class:class_12</text></tag>
+    <tag><text>chapter:ray_optics_and_optical_instruments</text></tag>
+    <tag><text>topic:rainbow_formation</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:easy</text></tag>
+    <tag><text>blooms:remember</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:text</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+
+<question type="multichoice">
+  <name><text>NEET_UG_PHYSICS_2019_MCQ_Q28 - Kinetic and potential energy of orbital electron</text></name>
+  <questiontext format="html">
+    <text><![CDATA[
+<p>The total energy of an electron in an atom in an orbit is \(-3.4\text{ eV}\). Its kinetic and potential energies are, respectively:</p>
+<hr/>
+<p>একটি পরমাণুর কোনো কক্ষপথে একটি ইলেকট্রনের মোট শক্তি \(-3.4\text{ eV}\)। এর গতিশক্তি এবং স্থিতিশক্তি যথাক্রমে:</p>
+    ]]></text>
+  </questiontext>
+  <generalfeedback format="html">
+    <text><![CDATA[
+<p><strong>Step 1: Given Data and Conditions</strong><br/>
+Total energy of the electron in the orbit: \(E = -3.4\text{ eV}\).</p>
+<p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>
+According to Bohr's model of the atom, an electron moves in a circular orbit under the attractive inverse-square electrostatic Coulomb force, with the zero of potential energy chosen at infinite separation.</p>
+<p><strong>Step 3: Relevant Formulae and Principles</strong><br/>
+By the virial theorem for an inverse-square force:
+\[K = -E\]
+\[U = 2E\]
+where \(K\) is kinetic energy, \(U\) is potential energy, and \(E = K + U\) is total energy.</p>
+<p><strong>Step 4: Step-by-Step Working</strong><br/>
+Calculate the kinetic energy:
+\[K = -(-3.4\text{ eV}) = +3.4\text{ eV}\]
+Calculate the potential energy:
+\[U = 2 \times (-3.4\text{ eV}) = -6.8\text{ eV}\]
+Verify the total energy:
+\[E = K + U = 3.4\text{ eV} + (-6.8\text{ eV}) = -3.4\text{ eV}\]</p>
+<p><strong>Step 5: Check and Final Answer</strong><br/>
+Kinetic energy must be strictly positive (\(3.4\text{ eV}\)), and potential energy in an attractive bound state must be negative (\(-6.8\text{ eV}\)). The kinetic and potential energies are respectively \(3.4\text{ eV}\) and \(-6.8\text{ eV}\).</p>
+<hr/>
+<p><strong>Step 1: প্রদত্ত তথ্য ও শর্তাবলি</strong><br/>
+কক্ষপথে ইলেকট্রনের মোট শক্তি: \(E = -3.4\text{ eV}\)।</p>
+<p><strong>Step 2: অনুমান ও চিহ্নের নিয়ম</strong><br/>
+বোরের পরমাণু মডেল অনুসারে, কুলম্বীয় আকর্ষণ বলের প্রভাবে ইলেকট্রন বৃত্তাকার কক্ষপথে ঘোরে এবং অসীম দূরত্বে স্থিতিশক্তিকে শূন্য ধরা হয়।</p>
+<p><strong>Step 3: সংশ্লিষ্ট সূত্র ও নীতি</strong><br/>
+আকর্ষণীয় কেন্দ্রীয় বলের ক্ষেত্রে ভিরিয়াল উপপাদ্য অনুসারে:
+\[K = -E\]
+\[U = 2E\]
+যেখানে \(K\) হলো গতিশক্তি, \(U\) হলো স্থিতিশক্তি এবং \(E = K + U\) হলো মোট শক্তি।</p>
+<p><strong>Step 4: ধাপে ধাপে সমাধান</strong><br/>
+গতিশক্তি নির্ণয়:
+\[K = -(-3.4\text{ eV}) = +3.4\text{ eV}\]
+স্থিতিশক্তি নির্ণয়:
+\[U = 2 \times (-3.4\text{ eV}) = -6.8\text{ eV}\]
+মোট শক্তি যাচাই:
+\[E = K + U = 3.4\text{ eV} + (-6.8\text{ eV}) = -3.4\text{ eV}\]</p>
+<p><strong>Step 5: যাচাই ও চূড়ান্ত উত্তর</strong><br/>
+গতিশক্তি সর্বদাই ধনাত্মক (\(3.4\text{ eV}\)) এবং আবদ্ধ অবস্থায় স্থিতিশক্তি ঋণাত্মক (\(-6.8\text{ eV}\))। সুতরাং গতিশক্তি ও স্থিতিশক্তি যথাক্রমে \(3.4\text{ eV}\) এবং \(-6.8\text{ eV}\)।</p>
+    ]]></text>
+  </generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="100" format="html">
+    <text><![CDATA[<p>\(3.4\text{ eV}, -6.8\text{ eV}\)</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(3.4\text{ eV}, 3.4\text{ eV}\)</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(-3.4\text{ eV}, -3.4\text{ eV}\)</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(-3.4\text{ eV}, -6.8\text{ eV}\)</p>]]></text>
+  </answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>year:2019</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:bn</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>class:class_12</text></tag>
+    <tag><text>chapter:atoms</text></tag>
+    <tag><text>topic:bohr_model_energy_levels</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:easy</text></tag>
+    <tag><text>blooms:apply</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:text</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+
+<question type="multichoice">
+  <name><text>NEET_UG_PHYSICS_2019_MCQ_Q29 - Amplitude of simple harmonic motion equation</text></name>
+  <questiontext format="html">
+    <text><![CDATA[
+<p>The displacement of a particle executing simple harmonic motion is given by</p>
+\[y = A_0 + A \sin \omega t + B \cos \omega t.\]
+<p>Then the amplitude of its oscillation is given by:</p>
+<hr/>
+<p>সরল দোলগতি সম্পন্নকারী একটি কণার সরণ নিম্নরূপ সমীকরণ দ্বারা প্রদত্ত:</p>
+\[y = A_0 + A \sin \omega t + B \cos \omega t.\]
+<p>তাহলে এর কম্পনের বিস্তার হবে:</p>
+    ]]></text>
+  </questiontext>
+  <generalfeedback format="html">
+    <text><![CDATA[
+<p><strong>Step 1: Given Data and Conditions</strong><br/>
+Displacement equation of the particle:
+\[y = A_0 + A \sin \omega t + B \cos \omega t\]</p>
+<p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>
+The motion represents harmonic oscillation superimposed on a constant displacement. The constant term \(A_0\) defines a shift in the mean position (\(y_{\text{mean}} = A_0\)). Amplitude is defined as the maximum displacement of the particle from its mean position.</p>
+<p><strong>Step 3: Relevant Formulae and Principles</strong><br/>
+Let the displacement relative to the mean position be \(y'\):
+\[y' = y - A_0 = A \sin \omega t + B \cos \omega t\]
+A linear combination of sine and cosine terms of the same frequency can be written as:
+\[A \sin \omega t + B \cos \omega t = R \sin(\omega t + \phi)\]
+where amplitude \(R = \sqrt{A^2 + B^2}\) and phase constant \(\tan \phi = \frac{B}{A}\).</p>
+<p><strong>Step 4: Step-by-Step Working</strong><br/>
+Let \(A = R \cos \phi\) and \(B = R \sin \phi\).
+Squaring and adding these two relations:
+\[A^2 + B^2 = R^2 \cos^2 \phi + R^2 \sin^2 \phi = R^2(\cos^2 \phi + \sin^2 \phi) = R^2\]
+\[R = \sqrt{A^2 + B^2}\]
+Thus, the equation becomes:
+\[y - A_0 = \sqrt{A^2 + B^2} \sin(\omega t + \phi)\]
+The maximum value of the displacement relative to the mean position \(y_{\text{mean}} = A_0\) is \(\sqrt{A^2 + B^2}\).</p>
+<p><strong>Step 5: Check and Final Answer</strong><br/>
+The constant offset \(A_0\) merely shifts the center of oscillation and does not contribute to the amplitude. Therefore, the amplitude of oscillation is \(\sqrt{A^2 + B^2}\).</p>
+<hr/>
+<p><strong>Step 1: প্রদত্ত তথ্য ও শর্তাবলি</strong><br/>
+কণার সরণ সমীকরণ:
+\[y = A_0 + A \sin \omega t + B \cos \omega t\]</p>
+<p><strong>Step 2: অনুমান ও চিহ্নের নিয়ম</strong><br/>
+এই গতিটি একটি নির্দিষ্ট সাম্যাবস্থানের সাপেক্ষে সরল দোলগতি নির্দেশ করে। ধ্রুবক পদ \(A_0\) নির্দেশ করে যে সাম্যাবস্থানটি মূলবিন্দু থেকে \(y_{\text{mean}} = A_0\) দূরত্বে অবস্থিত। বিস্তার হলো সাম্যাবস্থান থেকে কণার সর্বোচ্চ সরণ।</p>
+<p><strong>Step 3: সংশ্লিষ্ট সূত্র ও নীতি</strong><br/>
+সাম্যাবস্থানের সাপেক্ষে আপেক্ষিক সরণ \(y'\):
+\[y' = y - A_0 = A \sin \omega t + B \cos \omega t\]
+একই কৌণিক কম্পাঙ্কের সাইন ও কোসাইন পদের উপরিপাতনকে প্রকাশ করা যায়:
+\[A \sin \omega t + B \cos \omega t = R \sin(\omega t + \phi)\]
+যেখানে লব্ধি বিস্তার \(R = \sqrt{A^2 + B^2}\) এবং \(\tan \phi = \frac{B}{A}\)।</p>
+<p><strong>Step 4: ধাপে ধাপে সমাধান</strong><br/>
+ধরি, \(A = R \cos \phi\) এবং \(B = R \sin \phi\)।
+বর্গ করে যোগ করে পাই:
+\[A^2 + B^2 = R^2 \cos^2 \phi + R^2 \sin^2 \phi = R^2\]
+\[R = \sqrt{A^2 + B^2}\]
+সুতরাং কণাটির সরণকে লেখা যায়:
+\[y - A_0 = \sqrt{A^2 + B^2} \sin(\omega t + \phi)\]
+সাম্যাবস্থান থেকে সর্বোচ্চ সরণ বা বিস্তারের মান হলো \(\sqrt{A^2 + B^2}\)।</p>
+<p><strong>Step 5: যাচাই ও চূড়ান্ত উত্তর</strong><br/>
+ধ্রুবক পদ \(A_0\) কেবল দোলনের কেন্দ্রবিন্দু নির্ধারণ করে এবং বিস্তারে কোনো অবদান রাখে না। সুতরাং কম্পনের বিস্তার হলো \(\sqrt{A^2 + B^2}\)।</p>
+    ]]></text>
+  </generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="100" format="html">
+    <text><![CDATA[<p>\(\sqrt{A^2 + B^2}\)</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(\sqrt{A_0^2 + (A + B)^2}\)</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(A + B\)</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(A_0 + \sqrt{A^2 + B^2}\)</p>]]></text>
+  </answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>year:2019</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:bn</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>class:class_11</text></tag>
+    <tag><text>chapter:oscillations</text></tag>
+    <tag><text>topic:simple_harmonic_motion</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:easy</text></tag>
+    <tag><text>blooms:apply</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:equation</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+
+<question type="multichoice">
+  <name><text>NEET_UG_PHYSICS_2019_MCQ_Q30 - Majority carriers and dopants in p-type semiconductor</text></name>
+  <questiontext format="html">
+    <text><![CDATA[
+<p>For a \(p\)-type semiconductor, which of the following statements is true?</p>
+<hr/>
+<p>একটি \(p\)-টাইপ অর্ধপরিবাহীর ক্ষেত্রে নিচের কোন উক্তিটি সত্য?</p>
+    ]]></text>
+  </questiontext>
+  <generalfeedback format="html">
+    <text><![CDATA[
+<p><strong>Step 1: Conceptual Principle</strong><br/>
+An extrinsic semiconductor is formed by intentionally introducing impurity atoms (doping) into an intrinsic tetravalent semiconductor crystal such as Silicon or Germanium.</p>
+<p><strong>Step 2: Mechanism of \(p\)-type Doping</strong><br/>
+When a tetravalent semiconductor with four valence electrons is doped with trivalent impurity atoms (such as Boron, Aluminium, Gallium, or Indium), each dopant atom shares its three valence electrons with three neighbouring semiconductor atoms. The bond with the fourth neighbour remains incomplete, creating an electron vacancy known as a hole.</p>
+<p><strong>Step 3: Carrier Concentration Analysis</strong><br/>
+Because each trivalent dopant atom generates an additional hole at negligible thermal energy, the concentration of holes (\(n_h\)) becomes orders of magnitude larger than the concentration of thermally generated free conduction electrons (\(n_e\)). Thus, holes serve as the majority charge carriers, while electrons act as the minority charge carriers, and trivalent atoms serve as the dopants (acceptor impurities).</p>
+<p><strong>Step 4: Final Conclusion</strong><br/>
+Therefore, in a \(p\)-type semiconductor, holes are the majority carriers and trivalent atoms are the dopants.</p>
+<hr/>
+<p><strong>Step 1: ধারণাগত নীতি</strong><br/>
+সিলিকন বা জার্মেনিয়ামের মতো বিশুদ্ধ চতুর্যোজী কেলাসে নিয়ন্ত্রিত মাত্রায় অপদ্রব্য পরমাণু যোগ করে (ডোপিং) বহির্জাত অর্ধপরিবাহী তৈরি করা হয়।</p>
+<p><strong>Step 2: \(p\)-টাইপ ডোপিং প্রক্রিয়া</strong><br/>
+চতুর্যোজী অর্ধপরিবাহীতে যখন ত্রিযোজী অপদ্রব্য (যেমন বোরন, অ্যালুমিনিয়াম, গ্যালিয়াম বা ইন্ডিয়াম) মেশানো হয়, তখন অপদ্রব্যের তিনটি যোজ্যতা ইলেকট্রন তিনটি পার্শ্ববর্তী পরমাণুর সাথে সমযোজী বন্ধন তৈরি করে। চতুর্থ বন্ধনটিতে একটি ইলেকট্রনের ঘাটতি থেকে যায়, যা একটি হোল (hole) সৃষ্টি করে।</p>
+<p><strong>Step 3: আধান বাহকের ঘনত্ব বিশ্লেষণ</strong><br/>
+প্রতিটি ত্রিযোজী পরমাণু একটি করে অতিরিক্ত হোল সৃষ্টি করায় হোলের ঘনত্ব (\(n_h\)) তাপীয়ভাবে সৃষ্ট মুক্ত ইলেকট্রনের ঘনত্বের (\(n_e\)) তুলনায় বহুগুণ বেশি হয়। সুতরাং \(p\)-টাইপ অর্ধপরিবাহীতে হোল হলো সংখ্যাগুরু আধান বাহক, ইলেকট্রন হলো সংখ্যালঘু আধান বাহক এবং ত্রিযোজী পরমাণু হলো ডোপ্যান্ট।</p>
+<p><strong>Step 4: চূড়ান্ত সিদ্ধান্ত</strong><br/>
+অতএব, \(p\)-টাইপ অর্ধপরিবাহীর ক্ষেত্রে সত্য উক্তিটি হলো হোল হলো সংখ্যাগুরু বাহক এবং ত্রিযোজী পরমাণু হলো ডোপ্যান্ট।</p>
+    ]]></text>
+  </generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="100" format="html">
+    <text><![CDATA[<p>Holes are the majority carriers and trivalent atoms are the dopants.</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>Holes are the majority carriers and pentavalent atoms are the dopants.</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>Electrons are the majority carriers and pentavalent atoms are the dopants.</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>Electrons are the majority carriers and trivalent atoms are the dopants.</p>]]></text>
+  </answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>year:2019</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:bn</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>class:class_12</text></tag>
+    <tag><text>chapter:semiconductor_electronics</text></tag>
+    <tag><text>topic:p_type_semiconductors</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:easy</text></tag>
+    <tag><text>blooms:remember</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:text</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+
+<question type="multichoice">
+  <name><text>NEET_UG_PHYSICS_2019_MCQ_Q31 - Device not utilizing eddy current effect</text></name>
+  <questiontext format="html">
+    <text><![CDATA[
+<p>In which of the following devices, the eddy current effect is not used?</p>
+<hr/>
+<p>নিচের কোন যন্ত্রটিতে ঘূর্ণি প্রবাহের (eddy current) প্রভাব ব্যবহৃত হয় না?</p>
+    ]]></text>
+  </questiontext>
+  <generalfeedback format="html">
+    <text><![CDATA[
+<p><strong>Step 1: Conceptual Principle</strong><br/>
+Eddy currents are loops of electric current induced within bulk metallic conductors due to time-varying magnetic fields, in accordance with Faraday's law of electromagnetic induction.</p>
+<p><strong>Step 2: Evaluation of the Given Devices</strong><br/>
+- Magnetic braking in trains: Electromagnets generate magnetic fields across rotating metallic drums or rails. The induced eddy currents oppose the relative motion by Lenz's law, generating an effective braking torque without mechanical wear.<br/>
+- Induction furnace: High-frequency alternating magnetic fields induce massive eddy currents in a bulk piece of metal, producing intense heat through Joule dissipation that melts the metal.<br/>
+- Electromagnet: The alternating magnetic flux induces eddy currents in the core material, an effect utilized in electromagnetic damping to produce deadbeat galvanometers and considered in magnetic core design.<br/>
+- Electric heater: An electric heater relies entirely on the passage of conduction current through a solid resistive heating element (such as Nichrome) governed by Joule's law of heating (\(H = I^2 R t\)). It does not rely on magnetic induction or eddy currents.</p>
+<p><strong>Step 3: Final Conclusion</strong><br/>
+Therefore, the device in which the eddy current effect is not used is the electric heater.</p>
+<hr/>
+<p><strong>Step 1: ধারণাগত নীতি</strong><br/>
+পরিবর্তনশীল চৌম্বক ক্ষেত্রের প্রভাবে পরিবাহী খণ্ডের অভ্যন্তরে ফ্যারাডের আবেশ নীতি অনুসারে যে বদ্ধ লুপের মতো তড়িৎপ্রবাহ আবিষ্ট হয়, তাকে ঘূর্ণি প্রবাহ (eddy current) বলা হয়।</p>
+<p><strong>Step 2: প্রদত্ত যন্ত্রগুলির বিশ্লেষণ</strong><br/>
+- ট্রেনের চৌম্বক ব্রেক: তড়িৎচুম্বক চাকার ধাতব অংশে ঘূর্ণি প্রবাহ আবিষ্ট করে, যা লেঞ্জের সূত্র অনুযায়ী চাকার ঘূর্ণনকে বাধা দিয়ে ঘর্ষণহীন ব্রেকিং ঘটায়।<br/>
+- আবেশ চুল্লি (induction furnace): উচ্চ কম্পাঙ্কের পরিবর্তনশীল চৌম্বক ক্ষেত্রের দ্বারা ধাতব খণ্ডে প্রচণ্ড ঘূর্ণি প্রবাহ সৃষ্টি করা হয়, যার জুলীয় তাপে ধাতু গলে যায়।<br/>
+- তড়িৎচুম্বক: পরিবর্তনশীল চৌম্বক প্রবাহ মজ্জার মধ্যে ঘূর্ণি প্রবাহ সৃষ্টি করে, যা তড়িৎচৌম্বকীয় ড্যাম্পিং ও স্থির গ্যালভানোমিটারে ব্যবহৃত হয়।<br/>
+- বৈদ্যুতিক হিটার: বৈদ্যুতিক হিটার উচ্চ রোধযুক্ত তারের মধ্য দিয়ে তড়িৎ প্রবাহ পাঠিয়ে জুলীয় তাপীয় ক্রিয়ার (\(H = I^2 R t\)) সাহায্যে তাপ উৎপন্ন করে। এতে তড়িৎচৌম্বকীয় আবেশ বা ঘূর্ণি প্রবাহের কোনো ভূমিকা নেই।</p>
+<p><strong>Step 3: চূড়ান্ত সিদ্ধান্ত</strong><br/>
+সুতরাং, যে যন্ত্রটিতে ঘূর্ণি প্রবাহের প্রভাব ব্যবহৃত হয় না, তা হলো বৈদ্যুতিক হিটার।</p>
+    ]]></text>
+  </generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>magnetic braking in train</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>electromagnet</p>]]></text>
+  </answer>
+  <answer fraction="100" format="html">
+    <text><![CDATA[<p>electric heater</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>induction furnace</p>]]></text>
+  </answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>year:2019</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:bn</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>class:class_12</text></tag>
+    <tag><text>chapter:electromagnetic_induction</text></tag>
+    <tag><text>topic:eddy_currents</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:easy</text></tag>
+    <tag><text>blooms:remember</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:text</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+
+<question type="multichoice">
+  <name><text>NEET_UG_PHYSICS_2019_MCQ_Q32 - Angle for crossing river along shortest path</text></name>
+  <questiontext format="html">
+    <text><![CDATA[
+<p>The speed of a swimmer in still water is \(20\text{ m/s}\). The speed of river water is \(10\text{ m/s}\) and is flowing due east. If he is standing on the south bank and wishes to cross the river along the shortest path, the angle at which he should make his strokes w.r.t. north is given by:</p>
+<hr/>
+<p>স্থির জলে একজন সাঁতারুর গতিবেগ \(20\text{ m/s}\)। নদীর জলের বেগ \(10\text{ m/s}\) এবং তা পূর্ব দিকে প্রবাহিত হচ্ছে। সাঁতারু যদি দক্ষিণ তীরে দাঁড়িয়ে থাকে এবং ক্ষুদ্রতম পথ বরাবর নদী পার হতে চায়, তবে উত্তর দিকের সাপেক্ষে তাকে যে কোণে সাঁতার কাটতে হবে তা হলো:</p>
+    ]]></text>
+  </questiontext>
+  <generalfeedback format="html">
+    <text><![CDATA[
+<p><strong>Step 1: Given Data and Conditions</strong><br/>
+Speed of the swimmer in still water: \(v_s = 20\text{ m/s}\).<br/>
+Speed of the river water flowing due East: \(v_r = 10\text{ m/s}\).<br/>
+The swimmer starts from the South bank and wishes to cross along the shortest path (directly across to the opposite North bank).</p>
+<p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>
+Let the eastward direction be represented by the unit vector \(+\hat{i}\) and the northward direction by \(+\hat{j}\). To cross along the shortest path, the swimmer's net velocity with respect to the ground, \(\vec{v} = \vec{v}_{s/r} + \vec{v}_r\), must be directed purely North along \(+\hat{j}\), requiring its net horizontal (East-West) component to be zero.</p>
+<p><strong>Step 3: Relevant Formulae and Principles</strong><br/>
+Let \(\theta\) be the angle made by the swimmer's strokes with respect to North towards the West. The velocity of the swimmer relative to water is:
+\[\vec{v}_{s/r} = -v_s \sin \theta \, \hat{i} + v_s \cos \theta \, \hat{j}\]
+The velocity of the river is:
+\[\vec{v}_r = v_r \, \hat{i}\]
+The resultant velocity relative to the ground is:
+\[\vec{v} = (v_r - v_s \sin \theta)\hat{i} + (v_s \cos \theta)\hat{j}\]</p>
+<p><strong>Step 4: Step-by-Step Working</strong><br/>
+For the path to be strictly northward:
+\[v_r - v_s \sin \theta = 0\]
+\[\sin \theta = \frac{v_r}{v_s}\]
+Substitute the given numerical values:
+\[\sin \theta = \frac{10\text{ m/s}}{20\text{ m/s}} = \frac{1}{2}\]
+Since \(\sin 30^\circ = \frac{1}{2}\):
+\[\theta = 30^\circ\]
+Thus, the swimmer must direct his strokes at an angle of \(30^\circ\) west with respect to north.</p>
+<p><strong>Step 5: Check and Final Answer</strong><br/>
+Because \(v_s > v_r\) (\(20 > 10\)), crossing perpendicularly is physically achievable. The resultant crossing speed is \(v = v_s \cos 30^\circ = 20 \times \frac{\sqrt{3}}{2} = 10\sqrt{3}\text{ m/s}\). The required heading angle is \(30^\circ\text{ west}\).</p>
+<hr/>
+<p><strong>Step 1: প্রদত্ত তথ্য ও শর্তাবলি</strong><br/>
+স্থির জলে সাঁতারুর দ্রুতি: \(v_s = 20\text{ m/s}\)।<br/>
+পূর্ব দিকে নদীর স্রোতের বেগ: \(v_r = 10\text{ m/s}\)।<br/>
+সাঁতারু দক্ষিণ তীরে দাঁড়িয়ে ক্ষুদ্রতম পথ বরাবর নদী পার হতে চায় (অর্থাৎ সরাসরি উত্তর তীরের বিপরীত বিন্দুতে পৌঁছাতে চায়)।</p>
+<p><strong>Step 2: অনুমান ও চিহ্নের নিয়ম</strong><br/>
+পূর্ব দিককে \(+\hat{i}\) এবং উত্তর দিককে \(+\hat{j}\) ধরা হলো। ক্ষুদ্রতম পথ বরাবর নদী পার হতে হলে ভূমির সাপেক্ষে সাঁতারুর লব্ধি বেগ \(\vec{v}\)-এর অভিমুখ কেবল উত্তর দিক বরাবর হতে হবে, অর্থাৎ অনুভূমিক উপাংশ শূন্য হতে হবে।</p>
+<p><strong>Step 3: সংশ্লিষ্ট সূত্র ও নীতি</strong><br/>
+ধরি, উত্তর দিকের সাপেক্ষে পশ্চিম দিকে \(\theta\) কোণে সাঁতারু সাঁতার কাটে।
+জলের সাপেক্ষে সাঁতারুর বেগ:
+\[\vec{v}_{s/r} = -v_s \sin \theta \, \hat{i} + v_s \cos \theta \, \hat{j}\]
+নদীর বেগ:
+\[\vec{v}_r = v_r \, \hat{i}\]
+ভূমির সাপেক্ষে লব্ধি বেগ:
+\[\vec{v} = (v_r - v_s \sin \theta)\hat{i} + (v_s \cos \theta)\hat{j}\]</p>
+<p><strong>Step 4: ধাপে ধাপে সমাধান</strong><br/>
+ক্ষুদ্রতম পথ বরাবর পার হওয়ার জন্য অনুভূমিক উপাংশ শূন্য হতে হবে:
+\[v_r - v_s \sin \theta = 0\]
+\[\sin \theta = \frac{v_r}{v_s} = \frac{10}{20} = \frac{1}{2}\]
+যেহেতু \(\sin 30^\circ = \frac{1}{2}\):
+\[\theta = 30^\circ\]
+অতএব, সাঁতারুকে উত্তর দিকের সাপেক্ষে \(30^\circ\) পশ্চিমে সাঁতার কাটতে হবে।</p>
+<p><strong>Step 5: যাচাই ও চূড়ান্ত উত্তর</strong><br/>
+যেহেতু \(v_s > v_r\) (\(20 > 10\)), তাই সরাসরি নদী পার হওয়া সম্ভব। লব্ধি বেগ \(v = 10\sqrt{3}\text{ m/s}\)। উত্তর দিকের সাপেক্ষে প্রয়োজনীয় কোণ হলো \(30^\circ\text{ west}\)।</p>
+    ]]></text>
+  </generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(0^{\circ}\)</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(60^{\circ}\text{ west}\)</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(45^{\circ}\text{ west}\)</p>]]></text>
+  </answer>
+  <answer fraction="100" format="html">
+    <text><![CDATA[<p>\(30^{\circ}\text{ west}\)</p>]]></text>
+  </answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>year:2019</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:bn</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>class:class_11</text></tag>
+    <tag><text>chapter:motion_in_a_plane</text></tag>
+    <tag><text>topic:relative_velocity_river_swimmer</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:medium</text></tag>
+    <tag><text>blooms:apply</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:text</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+
+<question type="multichoice">
+  <name><text>NEET_UG_PHYSICS_2019_MCQ_Q33 - Elastic potential energy in extended wire</text></name>
+  <questiontext format="html">
+    <text><![CDATA[
+<p>When a block of mass \(M\) is suspended by a long wire of length \(L\), the length of the wire becomes \((L + l)\). The elastic potential energy stored in the extended wire is:</p>
+<hr/>
+<p>যখন \(L\) দৈর্ঘ্যের একটি দীর্ঘ তার থেকে \(M\) ভরের একটি ব্লক ঝুলিয়ে দেওয়া হয়, তখন তারটির দৈর্ঘ্য বৃদ্ধি পেয়ে \((L + l)\) হয়। প্রসারিত তারে সঞ্চিত স্থিতিস্থাপক স্থিতিশক্তি হলো:</p>
+    ]]></text>
+  </questiontext>
+  <generalfeedback format="html">
+    <text><![CDATA[
+<p><strong>Step 1: Given Data and Conditions</strong><br/>
+Initial length of the wire: \(L\).<br/>
+Stretched length of the wire: \(L + l\).<br/>
+Elongation of the wire: \(\Delta L = (L + l) - L = l\).<br/>
+Mass of the suspended block: \(M\).<br/>
+Tension in the wire at static equilibrium: \(F = Mg\).</p>
+<p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>
+Assume the wire is within its elastic limit and obeys Hooke's law. The restoring force increases linearly from \(0\) to \(Mg\) as the wire extends by \(l\).</p>
+<p><strong>Step 3: Relevant Formulae and Principles</strong><br/>
+The work done by the stretching force stored as elastic potential energy \(U\) in the wire is:
+\[U = \int_0^l F(x) \, dx = \frac{1}{2} \times \text{Average Force} \times \text{Extension}\]
+\[U = \frac{1}{2} F \Delta L\]</p>
+<p><strong>Step 4: Step-by-Step Working</strong><br/>
+Substitute the equilibrium stretching force \(F = Mg\) and extension \(\Delta L = l\):
+\[U = \frac{1}{2} (Mg)(l) = \frac{1}{2} Mgl\]</p>
+<p><strong>Step 5: Check and Final Answer</strong><br/>
+The loss in gravitational potential energy of the suspended mass is \(Mgl\). By the work-energy theorem, half of this energy (\(\frac{1}{2} Mgl\)) is converted into elastic potential energy stored in the wire, while the remaining half is dissipated as heat/damping. Thus, the elastic potential energy stored in the wire is \(\frac{1}{2} Mgl\).</p>
+<hr/>
+<p><strong>Step 1: প্রদত্ত তথ্য ও শর্তাবলি</strong><br/>
+তারের প্রাথমিক দৈর্ঘ্য: \(L\)।<br/>
+প্রসারিত দৈর্ঘ্য: \(L + l\)।<br/>
+দৈর্ঘ্য প্রসারণ: \(\Delta L = (L + l) - L = l\)।<br/>
+ঝুলন্ত ব্লকের ভর: \(M\)।<br/>
+সাম্যাবস্থায় তারে টান: \(F = Mg\)।</p>
+<p><strong>Step 2: অনুমান ও চিহ্নের নিয়ম</strong><br/>
+ধরা যাক তারটি স্থিতিস্থাপক সীমার মধ্যে রয়েছে এবং হুকের সূত্র মেনে চলে। তারের প্রসারণের সাথে সাথে বলের মান শূন্য থেকে রৈখিকভাবে বৃদ্ধি পেয়ে \(Mg\) মানে পৌঁছায়।</p>
+<p><strong>Step 3: সংশ্লিষ্ট সূত্র ও নীতি</strong><br/>
+প্রসারিত তারে সঞ্চিত স্থিতিস্থাপক স্থিতিশক্তি হলো প্রযুক্ত গড় বল দ্বারা কৃতকার্যের সমান:
+\[U = \frac{1}{2} \times \text{প্রযুক্ত বল} \times \text{দৈর্ঘ্য প্রসারণ} = \frac{1}{2} F \Delta L\]</p>
+<p><strong>Step 4: ধাপে ধাপে সমাধান</strong><br/>
+সাম্যাবস্থার বল \(F = Mg\) এবং প্রসারণ \(\Delta L = l\) বসিয়ে পাই:
+\[U = \frac{1}{2} (Mg)(l) = \frac{1}{2} Mgl\]</p>
+<p><strong>Step 5: যাচাই ও চূড়ান্ত উত্তর</strong><br/>
+ঝুলন্ত ব্লকের অভিকর্ষজ স্থিতিশক্তির মোট হ্রাস \(Mgl\)-এর অর্ধেক অংশ তারের মধ্যে স্থিতিস্থাপক স্থিতিশক্তি হিসেবে জমা থাকে। সুতরাং প্রসারিত তারে সঞ্চিত স্থিতিশক্তি হলো \(\frac{1}{2} Mgl\)।</p>
+    ]]></text>
+  </generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="100" format="html">
+    <text><![CDATA[<p>\(\frac{1}{2} Mgl\)</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(\frac{1}{2} MgL\)</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(Mgl\)</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(MgL\)</p>]]></text>
+  </answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>year:2019</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:bn</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>class:class_11</text></tag>
+    <tag><text>chapter:mechanical_properties_of_solids</text></tag>
+    <tag><text>topic:elastic_potential_energy</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:easy</text></tag>
+    <tag><text>blooms:understand</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:text</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+
+<question type="multichoice">
+  <name><text>NEET_UG_PHYSICS_2019_MCQ_Q34 - Voltmeter and ammeter readings in circuits</text></name>
+  <questiontext format="html">
+    <text><![CDATA[
+<p>In the circuits shown below, the readings of voltmeters and the ammeters will be:</p>
+<p><img src="@@PLUGINFILE@@/img-6.jpeg" alt="Circuit 1" /></p>
+<p><img src="@@PLUGINFILE@@/img-7.jpeg" alt="Circuit 2" /></p>
+<hr/>
+<p>নিচে প্রদর্শিত বর্তনীগুলিতে ভোল্টমিটার এবং অ্যামিটারের পাঠ হবে:</p>
+<p><img src="@@PLUGINFILE@@/img-6.jpeg" alt="Circuit 1" /></p>
+<p><img src="@@PLUGINFILE@@/img-7.jpeg" alt="Circuit 2" /></p>
+    ]]></text>
+  </questiontext>
+  <generalfeedback format="html">
+    <text><![CDATA[
+<p><strong>Step 1: Given Data and Conditions</strong><br/>
+Circuit 1 contains a \(10\text{ V}\) ideal DC source connected in series with a \(10\ \Omega\) resistor and an ammeter \(\text{A}_1\). A voltmeter \(\text{V}_1\) is connected directly in parallel across the \(10\ \Omega\) resistor.<br/>
+Circuit 2 contains a \(10\text{ V}\) ideal DC source connected in series with an ammeter \(\text{A}_2\). A \(10\ \Omega\) resistor is connected in parallel with a branch that contains another \(10\ \Omega\) resistor in series with a voltmeter \(\text{V}_2\).</p>
+<p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>
+Unless otherwise stated, all measuring instruments are ideal. An ideal voltmeter has infinite internal resistance (\(R_V \to \infty\)), and an ideal ammeter has zero internal resistance (\(R_A \to 0\)).</p>
+<p><strong>Step 3: Relevant Formulae and Principles</strong><br/>
+Ohm's Law states:
+\[I = \frac{V}{R_{\text{eq}}}\]
+Since an ideal voltmeter has infinite resistance, the current passing through any branch containing an ideal voltmeter in series is zero.</p>
+<p><strong>Step 4: Step-by-Step Working</strong><br/>
+In Circuit 1:
+Because the voltmeter \(\text{V}_1\) has infinite resistance, it draws zero current. All current passes through the \(10\ \Omega\) resistor:
+\[i_1 = \frac{10\text{ V}}{10\ \Omega} = 1\text{ A}\]
+The potential difference across the \(10\ \Omega\) resistor measured by \(\text{V}_1\) is:
+\[V_1 = i_1 \times 10\ \Omega = 1\text{ A} \times 10\ \Omega = 10\text{ V}\]
+In Circuit 2:
+The lower branch contains an ideal voltmeter \(\text{V}_2\) with infinite resistance (\(R_V \to \infty\)) in series with a \(10\ \Omega\) resistor. The total resistance of this branch is infinite, so the branch draws zero current.
+Therefore, all current from the battery flows through the upper \(10\ \Omega\) resistor:
+\[i_2 = \frac{10\text{ V}}{10\ \Omega} = 1\text{ A}\]
+Since no current flows through the series \(10\ \Omega\) resistor in the lower branch, there is zero potential drop across it. Thus, the entire voltage of the parallel branch (\(10\text{ V}\)) appears directly across the voltmeter \(\text{V}_2\):
+\[V_2 = 10\text{ V}\]</p>
+<p><strong>Step 5: Check and Final Answer</strong><br/>
+Comparing the readings:
+\[V_1 = 10\text{ V} \quad \text{and} \quad V_2 = 10\text{ V} \implies V_1 = V_2\]
+\[i_1 = 1\text{ A} \quad \text{and} \quad i_2 = 1\text{ A} \implies i_1 = i_2\]
+Therefore, the readings satisfy \(V_1 = V_2\) and \(i_1 = i_2\).</p>
+<hr/>
+<p><strong>Step 1: প্রদত্ত তথ্য ও শর্তাবলি</strong><br/>
+বর্তনী 1-এ একটি \(10\text{ V}\) ব্যাটারির সাথে শ্রেণিতে একটি \(10\ \Omega\) রোধ এবং একটি অ্যামিটার \(\text{A}_1\) যুক্ত। রোধটির দুই প্রান্তে সমান্তরালে একটি ভোল্টমিটার \(\text{V}_1\) যুক্ত রয়েছে।<br/>
+বর্তনী 2-এ একটি \(10\text{ V}\) ব্যাটারির সাথে শ্রেণিতে একটি অ্যামিটার \(\text{A}_2\) যুক্ত। একটি \(10\ \Omega\) রোধের সমান্তরালে অপর একটি শাখা রয়েছে যাতে একটি \(10\ \Omega\) রোধ ও একটি ভোল্টমিটার \(\text{V}_2\) শ্রেণি সমবায়ে যুক্ত।</p>
+<p><strong>Step 2: অনুমান ও চিহ্নের নিয়ম</strong><br/>
+মিটারগুলিকে আদর্শ বিবেচনা করা হয়েছে। আদর্শ ভোল্টমিটারের অভ্যন্তরীণ রোধ অসীম (\(R_V \to \infty\)) এবং আদর্শ অ্যামিটারের রোধ শূন্য (\(R_A \to 0\))।</p>
+<p><strong>Step 3: সংশ্লিষ্ট সূত্র ও নীতি</strong><br/>
+ওহমের সূত্র:
+\[I = \frac{V}{R_{\text{eq}}}\]
+আদর্শ ভোল্টমিটারের রোধ অসীম হওয়ায় এর সাথে শ্রেণিতে যুক্ত কোনো শাখার মধ্য দিয়ে কোনো তড়িৎ প্রবাহিত হয় না।</p>
+<p><strong>Step 4: ধাপে ধাপে সমাধান</strong><br/>
+বর্তনী 1:
+ভোল্টমিটার \(\text{V}_1\)-এর রোধ অসীম হওয়ায় এটি কোনো তড়িৎ নেয় না। মোট তড়িৎপ্রবাহ:
+\[i_1 = \frac{10\text{ V}}{10\ \Omega} = 1\text{ A}\]
+ভোল্টমিটার \(\text{V}_1\)-এর পাঠ:
+\[V_1 = 1\text{ A} \times 10\ \Omega = 10\text{ V}\]
+বর্তনী 2:
+নিচের শাখায় ভোল্টমিটার \(\text{V}_2\) শ্রেণিতে থাকায় ওই শাখার রোধ অসীম, ফলে শাখার মধ্য দিয়ে কোনো প্রবাহ যায় না।
+সব প্রবাহ ওপরের \(10\ \Omega\) রোধ দিয়ে যায়:
+\[i_2 = \frac{10\text{ V}}{10\ \Omega} = 1\text{ A}\]
+নিচের শাখার রোধটিতে কোনো বিভব পতন না ঘটায় সম্পূর্ণ \(10\text{ V}\) বিভবপ্রভেদ \(\text{V}_2\)-এর দুই প্রান্তে কার্যকর হয়:
+\[V_2 = 10\text{ V}\]</p>
+<p><strong>Step 5: যাচাই ও চূড়ান্ত উত্তর</strong><br/>
+উভয় বর্তনীর পাঠ তুলনা করে দেখা যায়:
+\[V_1 = 10\text{ V} \quad \text{এবং} \quad V_2 = 10\text{ V} \implies V_1 = V_2\]
+\[i_1 = 1\text{ A} \quad \text{এবং} \quad i_2 = 1\text{ A} \implies i_1 = i_2\]
+সুতরাং সঠিক সম্পর্কটি হলো \(V_1 = V_2\) এবং \(i_1 = i_2\)।</p>
+    ]]></text>
+  </generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="100" format="html">
+    <text><![CDATA[<p>\(V_1 = V_2\) and \(i_1 = i_2\)</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(V_1 > V_2\) and \(i_1 > i_2\)</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(V_1 > V_2\) and \(i_1 = i_2\)</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(V_1 = V_2\) and \(i_1 > i_2\)</p>]]></text>
+  </answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>year:2019</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:bn</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>class:class_12</text></tag>
+    <tag><text>chapter:current_electricity</text></tag>
+    <tag><text>topic:measuring_instruments</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:medium</text></tag>
+    <tag><text>blooms:analyze</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:circuit</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+
+<question type="multichoice">
+  <name><text>NEET_UG_PHYSICS_2019_MCQ_Q35 - Fraction of kinetic energy lost in collision</text></name>
+  <questiontext format="html">
+    <text><![CDATA[
+<p>Body A of mass \(4m\) moving with speed \(u\) collides with another body B of mass \(2m\), at rest. The collision is head on and elastic in nature. After the collision the fraction of energy lost by the colliding body A is:</p>
+<hr/>
+<p>\(4m\) ভরের একটি বস্তু A \(u\) দ্রুতিতে গতিশীল হয়ে স্থির অবস্থায় থাকা \(2m\) ভরের অপর একটি বস্তু B-এর সাথে সোজাসুজি সংঘর্ষে লিপ্ত হয়। সংঘর্ষটি একমাত্রিক এবং সম্পূর্ণ স্থিতিস্থাপক। সংঘর্ষের পর আঘাতকারী বস্তু A দ্বারা হারানো শক্তির ভগ্নাংশ হলো:</p>
+    ]]></text>
+  </questiontext>
+  <generalfeedback format="html">
+    <text><![CDATA[
+<p><strong>Step 1: Given Data and Conditions</strong><br/>
+Mass of colliding body A: \(m_1 = 4m\).<br/>
+Initial velocity of body A: \(u_1 = u\).<br/>
+Mass of target body B: \(m_2 = 2m\).<br/>
+Initial velocity of body B: \(u_2 = 0\).<br/>
+The collision is one-dimensional (head-on) and perfectly elastic (\(e = 1\)).</p>
+<p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>
+Linear momentum and total mechanical kinetic energy are conserved throughout the collision.</p>
+<p><strong>Step 3: Relevant Formulae and Principles</strong><br/>
+For a head-on elastic collision with a stationary target (\(u_2 = 0\)), the final velocity of the incoming body \(m_1\) is:
+\[v_1 = \left(\frac{m_1 - m_2}{m_1 + m_2}\right) u_1\]
+Initial kinetic energy of body A:
+\[K_i = \frac{1}{2} m_1 u_1^2\]
+Final kinetic energy of body A:
+\[K_f = \frac{1}{2} m_1 v_1^2\]
+The fraction of kinetic energy lost by body A is:
+\[\frac{\Delta K}{K_i} = \frac{K_i - K_f}{K_i} = 1 - \left(\frac{v_1}{u_1}\right)^2 = \frac{4m_1 m_2}{(m_1 + m_2)^2}\]
+</p>
+<p><strong>Step 4: Step-by-Step Working</strong><br/>
+Calculate the velocity ratio after collision:
+\[\frac{v_1}{u_1} = \frac{4m - 2m}{4m + 2m} = \frac{2m}{6m} = \frac{1}{3}\]
+Thus, the final velocity of body A is \(v_1 = \frac{u}{3}\).<br/>
+The remaining kinetic energy fraction of body A is:
+\[\frac{K_f}{K_i} = \left(\frac{v_1}{u_1}\right)^2 = \left(\frac{1}{3}\right)^2 = \frac{1}{9}\]
+The fraction of energy lost by body A is:
+\[\frac{\Delta K}{K_i} = 1 - \frac{1}{9} = \frac{8}{9}\]
+Alternatively, substituting directly into the fractional energy transfer formula:
+\[\frac{\Delta K}{K_i} = \frac{4(4m)(2m)}{(4m + 2m)^2} = \frac{32m^2}{36m^2} = \frac{8}{9}\]</p>
+<p><strong>Step 5: Check and Final Answer</strong><br/>
+The kinetic energy gained by body B is \(\frac{1}{2}(2m)v_2^2\). With \(v_2 = \frac{2(4m)}{6m}u = \frac{4}{3}u\), \(K_B = m\left(\frac{4}{3}u\right)^2 = \frac{16}{9}mu^2 = \frac{8}{9} \times \left(\frac{1}{2}(4m)u^2\right) = \frac{8}{9} K_i\), perfectly conserving energy. Therefore, the fraction of energy lost by body A is \(\frac{8}{9}\).</p>
+<hr/>
+<p><strong>Step 1: প্রদত্ত তথ্য ও শর্তাবলি</strong><br/>
+আঘাতকারী বস্তু A-এর ভর: \(m_1 = 4m\)।<br/>
+বস্তু A-এর প্রাথমিক বেগ: \(u_1 = u\)।<br/>
+স্থির বস্তু B-এর ভর: \(m_2 = 2m\)।<br/>
+বস্তু B-এর প্রাথমিক বেগ: \(u_2 = 0\)।<br/>
+সংঘর্ষটি একমাত্রিক ও সম্পূর্ণ স্থিতিস্থাপক (\(e = 1\))।</p>
+<p><strong>Step 2: অনুমান ও চিহ্নের নিয়ম</strong><br/>
+সংঘর্ষের সময় রৈখিক ভরবেগ এবং মোট গতিশক্তি সংরক্ষিত থাকে।</p>
+<p><strong>Step 3: সংশ্লিষ্ট সূত্র ও নীতি</strong><br/>
+স্থির বস্তুর সাথে একমাত্রিক স্থিতিস্থাপক সংঘর্ষে প্রথম বস্তুর অন্তিম বেগ:
+\[v_1 = \left(\frac{m_1 - m_2}{m_1 + m_2}\right) u_1\]
+প্রথম বস্তুর হারানো গতিশক্তির ভগ্নাংশ:
+\[\frac{\Delta K}{K_i} = 1 - \left(\frac{v_1}{u_1}\right)^2 = \frac{4m_1 m_2}{(m_1 + m_2)^2}\]</p>
+<p><strong>Step 4: ধাপে ধাপে সমাধান</strong><br/>
+সংঘর্ষের পর বেগের অনুপাত:
+\[\frac{v_1}{u_1} = \frac{4m - 2m}{4m + 2m} = \frac{2m}{6m} = \frac{1}{3}\]
+সুতরাং অন্তিম গতিশক্তির অনুপাত:
+\[\frac{K_f}{K_i} = \left(\frac{1}{3}\right)^2 = \frac{1}{9}\]
+হারানো গতিশক্তির ভগ্নাংশ:
+\[\frac{\Delta K}{K_i} = 1 - \frac{1}{9} = \frac{8}{9}\]
+সরাসরি সূত্র প্রয়োগে:
+\[\frac{\Delta K}{K_i} = \frac{4(4m)(2m)}{(6m)^2} = \frac{32}{36} = \frac{8}{9}\]</p>
+<p><strong>Step 5: যাচাই ও চূড়ান্ত উত্তর</strong><br/>
+শক্তি সংরক্ষণ নীতি অনুযায়ী বস্তু A-এর হারানো শক্তি সম্পূর্ণরূপে বস্তু B-এর গতিশক্তিতে রূপান্তরিত হয়। গণনাটি নির্ভুল এবং সংরক্ষিত। অতএব, বস্তু A দ্বারা হারানো শক্তির ভগ্নাংশ হলো \(\frac{8}{9}\)।</p>
+    ]]></text>
+  </generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(\frac{4}{9}\)</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(\frac{5}{9}\)</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(\frac{1}{9}\)</p>]]></text>
+  </answer>
+  <answer fraction="100" format="html">
+    <text><![CDATA[<p>\(\frac{8}{9}\)</p>]]></text>
+  </answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>year:2019</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:bn</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>class:class_11</text></tag>
+    <tag><text>chapter:work_energy_and_power</text></tag>
+    <tag><text>topic:elastic_collision_in_one_dimension</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:easy</text></tag>
+    <tag><text>blooms:apply</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:text</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>

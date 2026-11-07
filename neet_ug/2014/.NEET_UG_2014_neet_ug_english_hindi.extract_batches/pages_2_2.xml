@@ -1,0 +1,575 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+<question type="multichoice">
+  <name>
+    <text>AIPMT_PHYSICS_2014_MCQ_Q08 - Acceleration time graph for simple harmonic oscillation</text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>The oscillation of a body on a smooth horizontal surface is represented by the equation, \(X = A \cos(\omega t)\) where \(X\) = displacement at time \(t\), \(\omega\) = frequency of oscillation. Which one of the following graphs shows correctly the variation of \(a\) with \(t\)? Here, \(a\) = acceleration at time \(t\), \(T\) = time period.</p><p><img src="@@PLUGINFILE@@/img-2.jpeg" alt="Graph (a)" /></p><p><img src="@@PLUGINFILE@@/img-3.jpeg" alt="Graphs (b), (c), and (d)" /></p><hr/><p>एक चिकने क्षैतिज तल पर किसी पिण्ड के दोलन को समीकरण \(X = A \cos(\omega t)\) द्वारा प्रदर्शित किया जाता है, जहाँ \(X\) = समय \(t\) पर विस्थापन, \(\omega\) = दोलन की आवृत्ति है। निम्नलिखित में से कौन-सा ग्राफ समय \(t\) के साथ त्वरण \(a\) के परिवर्तन को सही रूप से दर्शाता है? यहाँ, \(a\) = समय \(t\) पर त्वरण, \(T\) = आवर्तकाल है।</p>]]></text>
+  </questiontext>
+  <generalfeedback format="html">
+    <text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>Displacement function: \(X = A \cos(\omega t)\)<br/>Time period: \(T = \frac{2\pi}{\omega}\)<br/>Variable of interest: Acceleration \(a\) as a function of time \(t\).</p><p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>The motion is simple harmonic motion along the horizontal axis, where acceleration is directed opposite to the displacement from the equilibrium position.</p><p><strong>Step 3: Relevant Formulae and Principles</strong><br/>Velocity is the first time derivative of displacement:<br/>\[v = \frac{dX}{dt} = \frac{d}{dt}[A \cos(\omega t)] = -A\omega \sin(\omega t)\]<br/>Acceleration is the time derivative of velocity:<br/>\[a = \frac{dv}{dt} = \frac{d}{dt}[-A\omega \sin(\omega t)] = -A\omega^2 \cos(\omega t)\]<br/>Equivalently, using \(a = -\omega^2 X\):<br/>\[a = -\omega^2 A \cos(\omega t)\]</p><p><strong>Step 4: Step-by-Step Working</strong><br/>Evaluating acceleration at key instants throughout one complete cycle:<br/>- At \(t = 0\): \(a = -\omega^2 A \cos(0) = -\omega^2 A\) (maximum negative value).<br/>- At \(t = \frac{T}{4}\): \(a = -\omega^2 A \cos\left(\frac{\pi}{2}\right) = 0\).<br/>- At \(t = \frac{T}{2}\): \(a = -\omega^2 A \cos(\pi) = +\omega^2 A\) (maximum positive value).<br/>- At \(t = \frac{3T}{4}\): \(a = -\omega^2 A \cos\left(\frac{3\pi}{2}\right) = 0\).<br/>- At \(t = T\): \(a = -\omega^2 A \cos(2\pi) = -\omega^2 A\).<br/>The graph is an inverted cosine wave which starts at a negative extreme at \(t = 0\), rises to a positive peak at \(t = \frac{T}{2}\), and returns to the negative extreme at \(t = T\).</p><p><strong>Step 5: Check and Final Answer</strong><br/>Because \(a = -\omega^2 X\), the acceleration graph is the exact vertical reflection of the displacement cosine graph. The corresponding curve starts at \(-a\) at time zero and peaks at \(+a\) at half-period.<br/>The correct graph is graph (c).</p><hr/><p><strong>चरण 1: दिए गए आँकड़े और प्रतिबंध</strong><br/>विस्थापन समीकरण: \(X = A \cos(\omega t)\)<br/>आवर्तकाल: \(T = \frac{2\pi}{\omega}\)<br/>ज्ञातव्य: समय \(t\) के साथ त्वरण \(a\) का संबंध।</p><p><strong>चरण 2: मान्यताएँ और परिपाटी</strong><br/>पिण्ड की गति सरल आवर्त गति है, जिसमें त्वरण सदैव माध्य स्थिति से विस्थापन के विपरीत दिशा में होता है।</p><p><strong>चरण 3: संबंधित सूत्र और सिद्धांत</strong><br/>वेग विस्थापन का समय के सापेक्ष अवकलज होता है:<br/>\[v = \frac{dX}{dt} = -A\omega \sin(\omega t)\]<br/>त्वरण वेग का समय के सापेक्ष अवकलज होता है:<br/>\[a = \frac{dv}{dt} = -A\omega^2 \cos(\omega t) = -\omega^2 X\]</p><p><strong>चरण 4: चरणबद्ध हल</strong><br/>एक पूर्ण चक्र में मुख्य समयों पर त्वरण के मान:<br/>- \(t = 0\) पर: \(a = -\omega^2 A\) (ऋणात्मक आयाम)<br/>- \(t = \frac{T}{4}\) पर: \(a = 0\)<br/>- \(t = \frac{T}{2}\) पर: \(a = +\omega^2 A\) (धनात्मक शिखर मान)<br/>- \(t = \frac{3T}{4}\) पर: \(a = 0\)<br/>- \(t = T\) पर: \(a = -\omega^2 A\)<br/>यह एक ऋणात्मक कोज्या (cosine) वक्र है, जो शून्य समय पर ऋणात्मक मान से प्रारंभ होकर आधे आवर्तकाल पर धनात्मक शिखर तक पहुँचता है तथा आवर्तकाल पर पुनः ऋणात्मक मान प्राप्त करता है।</p><p><strong>चरण 5: जाँच और अंतिम उत्तर</strong><br/>चूँकि \(a = -\omega^2 X\) होता है, त्वरण ग्राफ विस्थापन ग्राफ का ठीक उल्टा (प्रतिबिंबित) वक्र होता है।<br/>अतः सही ग्राफ (c) है।</p>]]></text>
+  </generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>false</shuffleanswers>
+  <answernumbering>none</answernumbering>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>(a)</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>(b)</p>]]></text>
+  </answer>
+  <answer fraction="100" format="html">
+    <text><![CDATA[<p>(c)</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>(d)</p>]]></text>
+  </answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>year:2014</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:hi</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>class:11</text></tag>
+    <tag><text>chapter:oscillations</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:easy</text></tag>
+    <tag><text>blooms:understand</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:graph</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+<question type="multichoice">
+  <name>
+    <text>AIPMT_PHYSICS_2014_MCQ_Q09 - String tension to produce angular acceleration of cylinder</text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>A solid cylinder of mass \(50\text{ kg}\) and radius \(0.5\text{ m}\) is free to rotate about the horizontal axis. A massless string is wound round the cylinder with one end attached to it and other hanging freely. Tension in the string required to produce an angular acceleration of \(2\text{ rev s}^{-2}\) is:</p><hr/><p>\(50\text{ kg}\) द्रव्यमान तथा \(0.5\text{ m}\) त्रिज्या का एक ठोस बेलन क्षैतिज अक्ष के परितः घूमने के लिए स्वतंत्र है। एक द्रव्यमानहीन डोरी को बेलन के चारों ओर लपेटा गया है, जिसका एक सिरा बेलन से बँधा है और दूसरा सिरा स्वतंत्र रूप से लटक रहा है। \(2\text{ rev s}^{-2}\) का कोणीय त्वरण उत्पन्न करने के लिए डोरी में आवश्यक तनाव है:</p>]]></text>
+  </questiontext>
+  <generalfeedback format="html">
+    <text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>Mass of solid cylinder: \(M = 50\text{ kg}\)<br/>Radius of cylinder: \(R = 0.5\text{ m}\)<br/>Angular acceleration: \(\alpha = 2\text{ rev s}^{-2} = 2 \times 2\pi\text{ rad s}^{-2} = 4\pi\text{ rad s}^{-2}\)</p><p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>The cylinder rotates about its central longitudinal axis without frictional resistance at the pivots. The string pulls tangentially at the outer rim.</p><p><strong>Step 3: Relevant Formulae and Principles</strong><br/>Moment of inertia of a solid cylinder about its geometric axis:<br/>\[I = \frac{1}{2} M R^2\]<br/>Torque produced by the tension \(T\) acting tangentially at radius \(R\):<br/>\[\tau = T \cdot R\]<br/>Rotational analog of Newton's second law:<br/>\[\tau = I \alpha\]</p><p><strong>Step 4: Step-by-Step Working</strong><br/>Equating torque expressions:<br/>\[T \cdot R = \left(\frac{1}{2} M R^2\right) \alpha \implies T = \frac{1}{2} M R \alpha\]<br/>Substitute the numerical values:<br/>\[T = \frac{1}{2} \times 50 \times 0.5 \times (4\pi) = 25 \times 0.5 \times 4\pi = 50\pi\text{ N}\]<br/>Using \(\pi \approx 3.1416\):<br/>\[T = 50 \times 3.1416 = 157.08\text{ N} \approx 157\text{ N}\]</p><p><strong>Step 5: Check and Final Answer</strong><br/>The units are \(\text{kg}\cdot\text{m}\cdot\text{s}^{-2} = \text{N}\), and the calculated tension magnitude is \(157\text{ N}\).<br/>The tension in the string required is \(157\text{ N}\).</p><hr/><p><strong>चरण 1: दिए गए आँकड़े और प्रतिबंध</strong><br/>ठोस बेलन का द्रव्यमान: \(M = 50\text{ kg}\)<br/>बेलन की त्रिज्या: \(R = 0.5\text{ m}\)<br/>कोणीय त्वरण: \(\alpha = 2\text{ rev s}^{-2} = 2 \times 2\pi = 4\pi\text{ rad s}^{-2}\)</p><p><strong>चरण 2: मान्यताएँ और परिपाटी</strong><br/>बेलन अपनी ज्यामितीय अक्ष के परितः बिना किसी घर्षण के घूर्णन करता है तथा तनाव डोरी की स्पर्शरेखीय दिशा में कार्य करता है।</p><p><strong>चरण 3: संबंधित सूत्र और सिद्धांत</strong><br/>ज्यामितीय अक्ष के परितः ठोस बेलन का जड़त्व आघूर्ण:<br/>\[I = \frac{1}{2} M R^2\]<br/>डोरी के तनाव \(T\) द्वारा उत्पन्न बल आघूर्ण:<br/>\[\tau = T \cdot R\]<br/>घूर्णन गति के लिए न्यूटन का नियम:<br/>\[\tau = I \alpha\]</p><p><strong>चरण 4: चरणबद्ध हल</strong><br/>दोनों समीकरणों से बल आघूर्ण की तुलना करने पर:<br/>\[T \cdot R = \frac{1}{2} M R^2 \alpha \implies T = \frac{1}{2} M R \alpha\]<br/>मान प्रतिस्थापित करने पर:<br/>\[T = \frac{1}{2} \times 50 \times 0.5 \times 4\pi = 50\pi\text{ N}\]<br/>\(\pi \approx 3.1416\) रखने पर:<br/>\[T = 50 \times 3.1416 \approx 157\text{ N}\]</p><p><strong>चरण 5: जाँच और अंतिम उत्तर</strong><br/>मात्रक न्यूटन है तथा गणना भौतिक रूप से सही है।<br/>अतः डोरी में आवश्यक तनाव \(157\text{ N}\) है।</p>]]></text>
+  </generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>25 N</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>50 N</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>78.5 N</p>]]></text>
+  </answer>
+  <answer fraction="100" format="html">
+    <text><![CDATA[<p>157 N</p>]]></text>
+  </answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>year:2014</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:hi</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>class:11</text></tag>
+    <tag><text>chapter:system_of_particles_and_rotational_motion</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:easy</text></tag>
+    <tag><text>blooms:apply</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:text</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+<question type="multichoice">
+  <name>
+    <text>AIPMT_PHYSICS_2014_MCQ_Q10 - Ratio of accelerations for rolling without slipping and pure slipping of sphere</text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>The ratio of the accelerations for a solid sphere (mass \(m\) and radius \(R\)) rolling down an incline of angle \(\theta\) without slipping and slipping down the incline without rolling is:</p><hr/><p>एक ठोस गोले (द्रव्यमान \(m\) तथा त्रिज्या \(R\)) के नत कोण \(\theta\) वाले आनत तल पर बिना फिसले लुढ़कने और बिना लुढ़के फिसलने के त्वरणों का अनुपात है:</p>]]></text>
+  </questiontext>
+  <generalfeedback format="html">
+    <text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>Object: Solid sphere of mass \(m\) and radius \(R\).<br/>Inclined plane angle: \(\theta\).<br/>Case 1: Pure rolling (rolling without slipping).<br/>Case 2: Pure sliding (slipping without rolling, frictionless surface).</p><p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>In pure rolling, static friction provides the necessary torque without dissipating mechanical energy. In pure sliding, friction is absent.</p><p><strong>Step 3: Relevant Formulae and Principles</strong><br/>Moment of inertia of a solid sphere about its diameter: \(I = \frac{2}{5}mR^2\).<br/>Acceleration down an incline for pure rolling:<br/>\[a_{\text{roll}} = \frac{g \sin\theta}{1 + \frac{I}{mR^2}}\]<br/>Acceleration down a smooth incline for pure sliding:<br/>\[a_{\text{slide}} = g \sin\theta\]</p><p><strong>Step 4: Step-by-Step Working</strong><br/>Substitute \(\frac{I}{mR^2} = \frac{2}{5}\) into the rolling acceleration formula:<br/>\[a_{\text{roll}} = \frac{g \sin\theta}{1 + \frac{2}{5}} = \frac{g \sin\theta}{\frac{7}{5}} = \frac{5}{7} g \sin\theta\]<br/>Computing the ratio of the two accelerations:<br/>\[\frac{a_{\text{roll}}}{a_{\text{slide}}} = \frac{\frac{5}{7} g \sin\theta}{g \sin\theta} = \frac{5}{7}\]</p><p><strong>Step 5: Check and Final Answer</strong><br/>Because rolling converts part of the gravitational potential energy into rotational kinetic energy, rolling acceleration is strictly less than sliding acceleration. A ratio of \(5 : 7\) is consistent with this physical principle.<br/>The ratio of the accelerations is \(5 : 7\).</p><hr/><p><strong>चरण 1: दिए गए आँकड़े और प्रतिबंध</strong><br/>वस्तु: द्रव्यमान \(m\) तथा त्रिज्या \(R\) का ठोस गोला।<br/>आनत तल का कोण: \(\theta\)।<br/>स्थिति 1: बिना फिसले शुद्ध लोटनिक गति।<br/>स्थिति 2: बिना लुढ़के शुद्ध फिसलन गति (घर्षणरहित तल)।</p><p><strong>चरण 2: मान्यताएँ और परिपाटी</strong><br/>लोटनिक गति में स्थैतिक घर्षण आवश्यक बल आघूर्ण उत्पन्न करता है, जबकि फिसलन में घर्षण शून्य माना गया है।</p><p><strong>चरण 3: संबंधित सूत्र और सिद्धांत</strong><br/>ठोस गोले का जड़त्व आघूर्ण: \(I = \frac{2}{5}mR^2\)।<br/>आनत तल पर लोटनिक गति का त्वरण:<br/>\[a_{\text{roll}} = \frac{g \sin\theta}{1 + \frac{I}{mR^2}}\]<br/>आनत तल पर फिसलने का त्वरण:<br/>\[a_{\text{slide}} = g \sin\theta\]</p><p><strong>चरण 4: चरणबद्ध हल</strong><br/>मान \(\frac{I}{mR^2} = \frac{2}{5}\) प्रतिस्थापित करने पर:<br/>\[a_{\text{roll}} = \frac{g \sin\theta}{1 + \frac{2}{5}} = \frac{5}{7} g \sin\theta\]<br/>दोनों त्वरणों का अनुपात:<br/>\[\frac{a_{\text{roll}}}{a_{\text{slide}}} = \frac{\frac{5}{7} g \sin\theta}{g \sin\theta} = \frac{5}{7}\]</p><p><strong>चरण 5: जाँच और अंतिम उत्तर</strong><br/>लोटनिक त्वरण फिसलन त्वरण से कम होना चाहिए, जो अनुपात \(5 : 7\) से पुष्ट होता है।<br/>अतः त्वरणों का अनुपात \(5 : 7\) है।</p>]]></text>
+  </generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="100" format="html">
+    <text><![CDATA[<p>5 : 7</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>2 : 3</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>2 : 5</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>7 : 5</p>]]></text>
+  </answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>year:2014</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:hi</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>class:11</text></tag>
+    <tag><text>chapter:system_of_particles_and_rotational_motion</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:easy</text></tag>
+    <tag><text>blooms:apply</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:text</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+<question type="multichoice">
+  <name>
+    <text>AIPMT_PHYSICS_2014_MCQ_Q11 - Compression radius of Earth to form a black hole</text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>A black hole is an object whose gravitational field is so strong that even light cannot escape from it. To what approximate radius would earth (mass = \(5.98 \times 10^{24}\text{ kg}\)) have to be compressed to be a black hole?</p><hr/><p>ब्लैक होल एक ऐसा पिण्ड है जिसका गुरुत्वाकर्षण क्षेत्र इतना प्रबल होता है कि प्रकाश भी इससे बाहर नहीं निकल सकता। पृथ्वी (द्रव्यमान = \(5.98 \times 10^{24}\text{ kg}\)) को ब्लैक होल बनाने के लिए लगभग किस त्रिज्या तक संपीडित करना होगा?</p>]]></text>
+  </questiontext>
+  <generalfeedback format="html">
+    <text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>Mass of Earth: \(M = 5.98 \times 10^{24}\text{ kg}\)<br/>Universal gravitational constant: \(G \approx 6.67 \times 10^{-11}\text{ N m}^2\text{ kg}^{-2}\)<br/>Speed of light in vacuum: \(c = 3.0 \times 10^8\text{ m s}^{-1}\)</p><p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>For light not to escape from the surface of a spherical mass distribution, the escape velocity must be at least equal to the speed of light.</p><p><strong>Step 3: Relevant Formulae and Principles</strong><br/>The escape velocity from the surface of a spherical object of mass \(M\) and radius \(R\) is:<br/>\[v_e = \sqrt{\frac{2GM}{R}}\]<br/>Setting \(v_e = c\) yields the Schwarzschild radius:<br/>\[R = \frac{2GM}{c^2}\]</p><p><strong>Step 4: Step-by-Step Working</strong><br/>Substitute the physical constants and mass of Earth:<br/>\[R = \frac{2 \times (6.67 \times 10^{-11}\text{ N m}^2\text{ kg}^{-2}) \times (5.98 \times 10^{24}\text{ kg})}{(3.0 \times 10^8\text{ m s}^{-1})^2}\]<br/>Simplify numerator and denominator:<br/>\[R = \frac{79.77 \times 10^{13}}{9.0 \times 10^{16}} = 8.86 \times 10^{-3}\text{ m} \approx 9\text{ mm}\]<br/>In order of magnitude, \(8.86 \times 10^{-3}\text{ m}\) is closest to \(10^{-2}\text{ m}\).</p><p><strong>Step 5: Check and Final Answer</strong><br/>The Schwarzschild radius of Earth is well known to be approximately \(0.9\text{ cm}\) (\(10^{-2}\text{ m}\)).<br/>The approximate radius is \(10^{-2}\text{ m}\).</p><hr/><p><strong>चरण 1: दिए गए आँकड़े और प्रतिबंध</strong><br/>पृथ्वी का द्रव्यमान: \(M = 5.98 \times 10^{24}\text{ kg}\)<br/>सार्वत्रिक गुरुत्वाकर्षण नियतांक: \(G = 6.67 \times 10^{-11}\text{ N m}^2\text{ kg}^{-2}\)<br/>प्रकाश की चाल: \(c = 3 \times 10^8\text{ m s}^{-1}\)</p><p><strong>चरण 2: मान्यताएँ और परिपाटी</strong><br/>प्रकाश के बाहर न निकल पाने के लिए पलायन वेग प्रकाश की चाल के बराबर या उससे अधिक होना चाहिए।</p><p><strong>चरण 3: संबंधित सूत्र और सिद्धांत</strong><br/>पलायन वेग का सूत्र:<br/>\[v_e = \sqrt{\frac{2GM}{R}}\]<br/>\(v_e = c\) रखने पर श्वार्ज़शिल्ड त्रिज्या:<br/>\[R = \frac{2GM}{c^2}\]</p><p><strong>चरण 4: चरणबद्ध हल</strong><br/>मानों को प्रतिस्थापित करने पर:<br/>\[R = \frac{2 \times 6.67 \times 10^{-11} \times 5.98 \times 10^{24}}{(3 \times 10^8)^2}\]<br/>\[R = \frac{79.77 \times 10^{13}}{9 \times 10^{16}} \approx 8.86 \times 10^{-3}\text{ m} \approx 10^{-2}\text{ m}\]</p><p><strong>चरण 5: जाँच और अंतिम उत्तर</strong><br/>गणना से प्राप्त मान लगभग \(1\text{ cm}\) अर्थात् \(10^{-2}\text{ m}\) के कोटिमान के बराबर है।<br/>अतः अभीष्ट त्रिज्या \(10^{-2}\text{ m}\) है।</p>]]></text>
+  </generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(10^{-9}\text{ m}\)</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(10^{-6}\text{ m}\)</p>]]></text>
+  </answer>
+  <answer fraction="100" format="html">
+    <text><![CDATA[<p>\(10^{-2}\text{ m}\)</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(100\text{ m}\)</p>]]></text>
+  </answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>year:2014</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:hi</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>class:11</text></tag>
+    <tag><text>chapter:gravitation</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:easy</text></tag>
+    <tag><text>blooms:apply</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:text</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+<question type="multichoice">
+  <name>
+    <text>AIPMT_PHYSICS_2014_MCQ_Q12 - Variation of intensity of gravitational field with distance from centre of Earth</text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>Dependence of intensity of gravitational field (\(E\)) of earth with distance (\(r\)) from centre of earth is correctly represented by:</p><p><img src="@@PLUGINFILE@@/img-4.jpeg" alt="Graphs (a) and (c)" /></p><p><img src="@@PLUGINFILE@@/img-5.jpeg" alt="Graphs (b) and (d)" /></p><hr/><p>पृथ्वी के गुरुत्वीय क्षेत्र की तीव्रता (\(E\)) की पृथ्वी के केन्द्र से दूरी (\(r\)) पर निर्भरता को सही रूप में निरूपित किया जाता है:</p>]]></text>
+  </questiontext>
+  <generalfeedback format="html">
+    <text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>Source body: Earth, modeled as a uniform solid sphere of mass \(M\) and radius \(R\).<br/>Field quantity: Intensity of gravitational field \(E\) as a function of radial distance \(r\) from the centre.</p><p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>Earth is assumed to have uniform mass density. Field intensity magnitude is plotted against radial distance \(r\ge 0\).</p><p><strong>Step 3: Relevant Formulae and Principles</strong><br/>- For internal points (\(r \le R\)):<br/>\[E_{\text{inside}} = \frac{GM}{R^3} r \propto r\]<br/>- For external points (\(r \ge R\)):<br/>\[E_{\text{outside}} = \frac{GM}{r^2} \propto \frac{1}{r^2}\]<br/>- At the surface (\(r = R\)):<br/>\[E_{\text{surface}} = \frac{GM}{R^2}\] (maximum value)</p><p><strong>Step 4: Step-by-Step Working</strong><br/>- Inside the Earth from \(r = 0\) to \(r = R\), the gravitational field intensity increases linearly with \(r\), starting from zero at the center (\(r = 0\)) and forming a straight line with constant positive slope passing through the origin.<br/>- Outside the Earth for \(r > R\), the gravitational field intensity decreases non-linearly, varying inversely with the square of the distance (\(\propto \frac{1}{r^2}\)), asymptotically approaching zero as \(r \to \infty\).<br/>- Therefore, the correct graph starts at the origin, increases linearly up to \(r = R\), and then decays according to an inverse-square curve for \(r > R\).</p><p><strong>Step 5: Check and Final Answer</strong><br/>At the centre \(r = 0\), enclosed mass is zero, so \(E = 0\). At \(r = R\), \(E\) attains its peak. Outside, it falls off as \(r^{-2}\). This piecewise behavior matches graph (b).<br/>The correct representation is graph (b).</p><hr/><p><strong>चरण 1: दिए गए आँकड़े और प्रतिबंध</strong><br/>पिण्ड: पृथ्वी, जिसे द्रव्यमान \(M\) तथा त्रिज्या \(R\) का एकसमान ठोस गोला माना गया है।<br/>ज्ञातव्य: केन्द्र से दूरी \(r\) के साथ गुरुत्वीय क्षेत्र की तीव्रता \(E\) का परिवर्तन।</p><p><strong>चरण 2: मान्यताएँ और परिपाटी</strong><br/>पृथ्वी का घनत्व एकसमान माना गया है तथा तीव्रता के परिमाण को दूरी \(r\) के फलन के रूप में दर्शाया गया है।</p><p><strong>चरण 3: संबंधित सूत्र और सिद्धांत</strong><br/>- आंतरिक बिन्दुओं के लिए (\(r \le R\)):<br/>\[E_{\text{inside}} = \frac{GM}{R^3} r \propto r\]<br/>- बाह्य बिन्दुओं के लिए (\(r \ge R\)):<br/>\[E_{\text{outside}} = \frac{GM}{r^2} \propto \frac{1}{r^2}\]<br/>- सतह पर (\(r = R\)): \(E = \frac{GM}{R^2}\) (अधिकतम मान)</p><p><strong>चरण 4: चरणबद्ध हल</strong><br/>- केन्द्र से सतह तक (\(0 \le r \le R\)) तीव्रता शून्य से प्रारंभ होकर \(r\) के समानुपाती रूप से सरल रेखा में बढ़ती है।<br/>- सतह से बाहर (\(r > R\)) तीव्रता दूरी के वर्ग के व्युत्क्रमानुपाती (\(\propto \frac{1}{r^2}\)) रूप से घटती है।<br/>- अतः सही ग्राफ मूल बिन्दु से प्रारंभ होकर \(r = R\) तक एक सरल रेखा के रूप में बढ़ता है और उसके बाद वक्र के रूप में घटता है।</p><p><strong>चरण 5: जाँच और अंतिम उत्तर</strong><br/>केन्द्र पर तीव्रता शून्य, सतह पर अधिकतम तथा बाहर व्युत्क्रम वर्ग नियम का पालन करती है, जो ग्राफ (b) में सही रूप से प्रदर्शित है।<br/>अतः सही निरूपण ग्राफ (b) है।</p>]]></text>
+  </generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>false</shuffleanswers>
+  <answernumbering>none</answernumbering>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>(a)</p>]]></text>
+  </answer>
+  <answer fraction="100" format="html">
+    <text><![CDATA[<p>(b)</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>(c)</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>(d)</p>]]></text>
+  </answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>year:2014</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:hi</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>class:11</text></tag>
+    <tag><text>chapter:gravitation</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:easy</text></tag>
+    <tag><text>blooms:understand</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:graph</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+<question type="multichoice">
+  <name>
+    <text>AIPMT_PHYSICS_2014_MCQ_Q13 - Straight line graph relation for stretched wire of fixed volume</text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>Copper of fixed volume \(V\) is drawn into a wire of length \(l\). When this wire is subjected to a constant force \(F\), the extension produced in the wire is \(\Delta l\). Which of the following graphs is a straight line?</p><hr/><p>नियत आयतन \(V\) के ताँबे से \(l\) लंबाई का एक तार खींचा जाता है। जब इस तार पर एक नियत बल \(F\) लगाया जाता है, तो तार में उत्पन्न लंबाई में वृद्धि \(\Delta l\) होती है। निम्नलिखित में से कौन-सा ग्राफ एक सरल रेखा है?</p>]]></text>
+  </questiontext>
+  <generalfeedback format="html">
+    <text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>Volume of copper wire is constant: \(V = A \cdot l\)<br/>Original length: \(l\)<br/>Deforming force: Constant force \(F\)<br/>Extension: \(\Delta l\)<br/>Young's modulus of copper: \(Y\) (material constant)</p><p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>The stretching occurs within the elastic limit where Hooke's law is valid.</p><p><strong>Step 3: Relevant Formulae and Principles</strong><br/>Young's modulus is given by:<br/>\[Y = \frac{\text{Stress}}{\text{Strain}} = \frac{F/A}{\Delta l / l} = \frac{F \cdot l}{A \cdot \Delta l}\]<br/>Expressing the cross-sectional area in terms of volume and length:<br/>\[A = \frac{V}{l}\]</p><p><strong>Step 4: Step-by-Step Working</strong><br/>Substitute \(A = \frac{V}{l}\) into the elongation formula:<br/>\[\Delta l = \frac{F \cdot l}{A \cdot Y} = \frac{F \cdot l}{(V/l) \cdot Y} = \frac{F \cdot l^2}{V \cdot Y}\]<br/>Since \(F\), \(V\), and \(Y\) are constants, this simplifies to:<br/>\[\Delta l = \left(\frac{F}{V \cdot Y}\right) l^2 \implies \Delta l \propto l^2\]<br/>An equation of the form \(y = kx\) represents a straight line through the origin. Here, taking \(y = \Delta l\) and \(x = l^2\) yields a linear relationship.</p><p><strong>Step 5: Check and Final Answer</strong><br/>Plotting \(\Delta l\) against \(l^2\) gives a constant slope \(\frac{F}{VY}\), forming a straight line.<br/>The graph of \(\Delta l\) versus \(l^2\) is a straight line.</p><hr/><p><strong>चरण 1: दिए गए आँकड़े और प्रतिबंध</strong><br/>ताँबे के तार का आयतन नियत है: \(V = A \cdot l\)<br/>प्रारंभिक लंबाई: \(l\)<br/>प्रयुक्त बल: नियत बल \(F\)<br/>लंबाई में वृद्धि: \(\Delta l\)<br/>यंग प्रत्यास्थता गुणांक: \(Y\) (पदार्थ का नियतांक)</p><p><strong>चरण 2: मान्यताएँ और परिपाटी</strong><br/>विरूपण प्रत्यास्थता सीमा के भीतर है तथा हुक का नियम लागू होता है।</p><p><strong>चरण 3: संबंधित सूत्र और सिद्धांत</strong><br/>यंग गुणांक का सूत्र:<br/>\[Y = \frac{F \cdot l}{A \cdot \Delta l}\]<br/>आयतन संबंध से अनुप्रस्थ परिच्छेद क्षेत्रफल: \(A = \frac{V}{l}\)</p><p><strong>चरण 4: चरणबद्ध हल</strong><br/>क्षेत्रफल \(A\) का मान प्रतिस्थापित करने पर:<br/>\[\Delta l = \frac{F \cdot l}{(V/l) \cdot Y} = \left(\frac{F}{V \cdot Y}\right) l^2\]<br/>चूँकि \(F\), \(V\) तथा \(Y\) सभी नियतांक हैं, अतः:<br/>\[\Delta l \propto l^2\]<br/>यह समीकरण \(y = mx\) के रूप का है जहाँ \(y = \Delta l\) तथा \(x = l^2\) है।</p><p><strong>चरण 5: जाँच और अंतिम उत्तर</strong><br/>\(\Delta l\) तथा \(l^2\) के मध्य का ग्राफ मूल बिंदु से गुजरने वाली एक सरल रेखा होगी।<br/>अतः \(\Delta l\) बनाम \(l^2\) का ग्राफ एक सरल रेखा है।</p>]]></text>
+  </generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(\Delta l\) versus \(1/l\)</p>]]></text>
+  </answer>
+  <answer fraction="100" format="html">
+    <text><![CDATA[<p>\(\Delta l\) versus \(l^2\)</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(\Delta l\) versus \(1/l^2\)</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(\Delta l\) versus \(l\)</p>]]></text>
+  </answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>year:2014</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:hi</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>class:11</text></tag>
+    <tag><text>chapter:mechanical_properties_of_solids</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:easy</text></tag>
+    <tag><text>blooms:apply</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:text</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+<question type="multichoice">
+  <name>
+    <text>AIPMT_PHYSICS_2014_MCQ_Q14 - Energy released when liquid drops coalesce into a single drop</text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>A certain number of spherical drops of a liquid of radius \(r\) coalesce to form a single drop of radius \(R\) and volume \(V\). If \(T\) is the surface tension of the liquid, then:</p><hr/><p>त्रिज्या \(r\) की द्रव की कुछ गोलाकार बूंदें मिलकर त्रिज्या \(R\) तथा आयतन \(V\) की एक अकेली बड़ी बूंद बनाती हैं। यदि द्रव का पृष्ठ तनाव \(T\) हो, तो:</p>]]></text>
+  </questiontext>
+  <generalfeedback format="html">
+    <text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>Radius of small drops = \(r\)<br/>Radius of coalesced big drop = \(R\)<br/>Volume of big drop = \(V = \frac{4}{3}\pi R^3\)<br/>Surface tension of liquid = \(T\)</p><p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>The liquid is incompressible, so total volume is strictly conserved during coalescence.</p><p><strong>Step 3: Relevant Formulae and Principles</strong><br/>Number of small drops \(n\):<br/>\[n \times \frac{4}{3}\pi r^3 = \frac{4}{3}\pi R^3 = V \implies n = \frac{R^3}{r^3}\]<br/>Surface area of \(n\) small drops:<br/>\[A_i = n (4\pi r^2) = \left(\frac{R^3}{r^3}\right) (4\pi r^2) = \frac{4\pi R^3}{r} = \frac{3V}{r}\]<br/>Surface area of the single large drop:<br/>\[A_f = 4\pi R^2 = \frac{3V}{R}\]<br/>Change in surface energy: \(\Delta U = T \Delta A\)</p><p><strong>Step 4: Step-by-Step Working</strong><br/>Calculate the decrease in total surface area:<br/>\[\Delta A = A_i - A_f = \frac{3V}{r} - \frac{3V}{R} = 3V\left(\frac{1}{r} - \frac{1}{R}\right)\]<br/>Since \(R > r\), the surface area decreases (\(\Delta A > 0\)).<br/>The energy released is given by the reduction in surface energy:<br/>\[\text{Energy released} = T \Delta A = 3VT\left(\frac{1}{r} - \frac{1}{R}\right)\]</p><p><strong>Step 5: Check and Final Answer</strong><br/>Coalescing reduces total exposed surface area, which lowers total surface potential energy, releasing this energy to the system.<br/>Energy = \(3VT(1/r - 1/R)\) is released.</p><hr/><p><strong>चरण 1: दिए गए आँकड़े और प्रतिबंध</strong><br/>छोटी बूंदों की त्रिज्या = \(r\)<br/>बड़ी बूंद की त्रिज्या = \(R\)<br/>बड़ी बूंद का आयतन = \(V = \frac{4}{3}\pi R^3\)<br/>द्रव का पृष्ठ तनाव = \(T\)</p><p><strong>चरण 2: मान्यताएँ और परिपाटी</strong><br/>द्रव असंपीड्य है, अतः बूंदों के मिलने पर कुल आयतन संरक्षित रहता है।</p><p><strong>चरण 3: संबंधित सूत्र और सिद्धांत</strong><br/>छोटी बूंदों की संख्या \(n\):<br/>\[n = \frac{R^3}{r^3}\]<br/>प्रारंभिक कुल पृष्ठीय क्षेत्रफल:<br/>\[A_i = n (4\pi r^2) = \frac{4\pi R^3}{r} = \frac{3V}{r}\]<br/>अंतिम पृष्ठीय क्षेत्रफल:<br/>\[A_f = 4\pi R^2 = \frac{3V}{R}\]<br/>पृष्ठीय ऊर्जा में परिवर्तन: \(\Delta U = T \Delta A\)</p><p><strong>चरण 4: चरणबद्ध हल</strong><br/>पृष्ठीय क्षेत्रफल में कमी:<br/>\[\Delta A = A_i - A_f = 3V\left(\frac{1}{r} - \frac{1}{R}\right)\]<br/>चूँकि क्षेत्रफल घटता है, अतः मुक्त ऊर्जा पृष्ठीय ऊर्जा में कमी के बराबर होगी:<br/>\[\text{मुक्त ऊर्जा} = T \Delta A = 3VT\left(\frac{1}{r} - \frac{1}{R}\right)\]</p><p><strong>चरण 5: जाँच और अंतिम उत्तर</strong><br/>बूंदों के संयुक्त होने पर पृष्ठ क्षेत्रफल घटता है, जिससे ऊर्जा मुक्त होती है।<br/>अतः ऊर्जा = \(3VT(1/r - 1/R)\) मुक्त होती है।</p>]]></text>
+  </generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>Energy = \(4VT(1/r - 1/R)\) is released</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>Energy = \(3VT(1/r + 1/R)\) is absorbed</p>]]></text>
+  </answer>
+  <answer fraction="100" format="html">
+    <text><![CDATA[<p>Energy = \(3VT(1/r - 1/R)\) is released</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>Energy is neither released nor absorbed</p>]]></text>
+  </answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>year:2014</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:hi</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>class:11</text></tag>
+    <tag><text>chapter:mechanical_properties_of_fluids</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:medium</text></tag>
+    <tag><text>blooms:apply</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:text</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+<question type="multichoice">
+  <name>
+    <text>AIPMT_PHYSICS_2014_MCQ_Q15 - Final mass of water when steam is condensed in cold water</text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>Steam at \(100^\circ\text{C}\) is passed into \(20\text{ g}\) of water at \(10^\circ\text{C}\). When water acquires a temperature of \(80^\circ\text{C}\), the mass of water present will be: [Take specific heat of water = \(1\text{ cal g}^{-1}{^\circ\text{C}}^{-1}\) and latent heat of steam = \(540\text{ cal g}^{-1}\)]</p><hr/><p>\(100^\circ\text{C}\) की भाप को \(10^\circ\text{C}\) के \(20\text{ g}\) जल में प्रवाहित किया जाता है। जब जल का ताप \(80^\circ\text{C}\) हो जाता है, तो उपस्थित जल का द्रव्यमान होगा: [जल की विशिष्ट ऊष्मा = \(1\text{ cal g}^{-1}{^\circ\text{C}}^{-1}\) तथा भाप की गुप्त ऊष्मा = \(540\text{ cal g}^{-1}\) लीजिए]</p>]]></text>
+  </questiontext>
+  <generalfeedback format="html">
+    <text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>Mass of cool water: \(m_w = 20\text{ g}\)<br/>Initial temperature of water: \(T_w = 10^\circ\text{C}\)<br/>Final equilibrium temperature: \(T_f = 80^\circ\text{C}\)<br/>Steam temperature: \(T_s = 100^\circ\text{C}\)<br/>Specific heat of water: \(s_w = 1\text{ cal g}^{-1}{^\circ\text{C}}^{-1}\)<br/>Latent heat of steam: \(L_v = 540\text{ cal g}^{-1}\)</p><p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>Heat exchange occurs only between the steam and the water; heat losses to the surroundings or container are negligible.</p><p><strong>Step 3: Relevant Formulae and Principles</strong><br/>Principle of Calorimetry:<br/>\[\text{Heat gained by cold water} = \text{Heat lost by steam}\]<br/>\[Q_{\text{gain}} = m_w s_w (T_f - T_w)\]<br/>\[Q_{\text{lost}} = m_s L_v + m_s s_w (T_s - T_f)\]</p><p><strong>Step 4: Step-by-Step Working</strong><br/>Heat absorbed by cold water to rise from \(10^\circ\text{C}\) to \(80^\circ\text{C}\):<br/>\[Q_{\text{gain}} = 20 \times 1 \times (80 - 10) = 20 \times 70 = 1400\text{ cal}\]<br/>Let \(m_s\) be the mass of steam condensed into water.<br/>Heat released by \(m_s\) grams of steam condensing at \(100^\circ\text{C}\) and cooling to \(80^\circ\text{C}\):<br/>\[Q_{\text{lost}} = m_s \times 540 + m_s \times 1 \times (100 - 80) = 540 m_s + 20 m_s = 560 m_s\text{ cal}\]<br/>Equating heat gained and heat lost:<br/>\[560 m_s = 1400 \implies m_s = \frac{1400}{560} = 2.5\text{ g}\]<br/>Total mass of water present in the system:<br/>\[M_{\text{total}} = m_w + m_s = 20\text{ g} + 2.5\text{ g} = 22.5\text{ g}\]</p><p><strong>Step 5: Check and Final Answer</strong><br/>Condensation of \(2.5\text{ g}\) of steam yields \(1350\text{ cal}\), and subsequent cooling yields \(50\text{ cal}\), summing to \(1400\text{ cal}\), precisely balancing the thermal requirement.<br/>The mass of water present will be \(22.5\text{ g}\).</p><hr/><p><strong>चरण 1: दिए गए आँकड़े और प्रतिबंध</strong><br/>ठंडे जल का द्रव्यमान: \(m_w = 20\text{ g}\)<br/>जल का प्रारंभिक ताप: \(T_w = 10^\circ\text{C}\)<br/>अंतिम साम्यावस्था ताप: \(T_f = 80^\circ\text{C}\)<br/>भाप का ताप: \(T_s = 100^\circ\text{C}\)<br/>जल की विशिष्ट ऊष्मा: \(s_w = 1\text{ cal g}^{-1}{^\circ\text{C}}^{-1}\)<br/>भाप की गुप्त ऊष्मा: \(L_v = 540\text{ cal g}^{-1}\)</p><p><strong>चरण 2: मान्यताएँ और परिपाटी</strong><br/>ऊष्मा विनिमय केवल भाप और जल के मध्य होता है; परिवेश में ऊष्मा हानि नगण्य है।</p><p><strong>चरण 3: संबंधित सूत्र और सिद्धांत</strong><br/>कैलोरीमिति का सिद्धांत:<br/>\[\text{जल द्वारा ली गई ऊष्मा} = \text{भाप द्वारा दी गई ऊष्मा}\]</p><p><strong>चरण 4: चरणबद्ध हल</strong><br/>जल द्वारा \(10^\circ\text{C}\) से \(80^\circ\text{C}\) तक गर्म होने में ली गई ऊष्मा:<br/>\[Q_{\text{gain}} = 20 \times 1 \times (80 - 10) = 1400\text{ cal}\]<br/>माना संघनित भाप का द्रव्यमान \(m_s\) है।<br/>भाप द्वारा संघनन तथा \(80^\circ\text{C}\) तक ठंडा होने में दी गई ऊष्मा:<br/>\[Q_{\text{lost}} = m_s \times 540 + m_s \times 1 \times (100 - 80) = 560 m_s\text{ cal}\]<br/>ऊष्मा संतुलन से:<br/>\[560 m_s = 1400 \implies m_s = 2.5\text{ g}\]<br/>उपस्थित जल का कुल द्रव्यमान:<br/>\[M_{\text{total}} = 20\text{ g} + 2.5\text{ g} = 22.5\text{ g}\]</p><p><strong>चरण 5: जाँच और अंतिम उत्तर</strong><br/>गणना पूर्णतः ऊष्मा संतुलन को संतुष्ट करती है।<br/>अतः उपस्थित जल का कुल द्रव्यमान \(22.5\text{ g}\) होगा।</p>]]></text>
+  </generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>24 g</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>31.5 g</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>42.5 g</p>]]></text>
+  </answer>
+  <answer fraction="100" format="html">
+    <text><![CDATA[<p>22.5 g</p>]]></text>
+  </answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>year:2014</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:hi</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>class:11</text></tag>
+    <tag><text>chapter:thermal_properties_of_matter</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:medium</text></tag>
+    <tag><text>blooms:apply</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:text</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+<question type="multichoice">
+  <name>
+    <text>AIPMT_PHYSICS_2014_MCQ_Q16 - Temperature of surroundings using Newton law of cooling</text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>A certain quantity of water cools from \(70^\circ\text{C}\) to \(60^\circ\text{C}\) in the first \(5\text{ min}\) and to \(54^\circ\text{C}\) in the next \(5\text{ min}\). The temperature of the surroundings is:</p><hr/><p>जल की एक निश्चित मात्रा पहले \(5\text{ min}\) में \(70^\circ\text{C}\) से \(60^\circ\text{C}\) तक ठंडी होती है तथा अगले \(5\text{ min}\) में \(54^\circ\text{C}\) तक ठंडी होती है। परिवेश का ताप है:</p>]]></text>
+  </questiontext>
+  <generalfeedback format="html">
+    <text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>First interval: \(T_1 = 70^\circ\text{C} \to T_2 = 60^\circ\text{C}\) in \(t_1 = 5\text{ min}\).<br/>Second interval: \(T_2 = 60^\circ\text{C} \to T_3 = 54^\circ\text{C}\) in \(t_2 = 5\text{ min}\).<br/>Surrounding temperature to determine: \(T_0\).</p><p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>The cooling follows Newton's law of cooling, where the rate of loss of heat is proportional to the excess temperature over the surroundings.</p><p><strong>Step 3: Relevant Formulae and Principles</strong><br/>Approximate form of Newton's law of cooling:<br/>\[\frac{T_{\text{initial}} - T_{\text{final}}}{t} = K \left(\frac{T_{\text{initial}} + T_{\text{final}}}{2} - T_0\right)\]<br/>where \(K\) is a positive cooling constant.</p><p><strong>Step 4: Step-by-Step Working</strong><br/>For the first \(5\text{ min}\) interval:<br/>\[\frac{70 - 60}{5} = K \left(\frac{70 + 60}{2} - T_0\right) \implies 2 = K (65 - T_0) \quad \text{--- (1)}\]<br/>For the second \(5\text{ min}\) interval:<br/>\[\frac{60 - 54}{5} = K \left(\frac{60 + 54}{2} - T_0\right) \implies 1.2 = K (57 - T_0) \quad \text{--- (2)}\]<br/>Dividing equation (1) by equation (2):<br/>\[\frac{2}{1.2} = \frac{65 - T_0}{57 - T_0} \implies \frac{5}{3} = \frac{65 - T_0}{57 - T_0}\]<br/>Cross-multiplying and solving for \(T_0\):<br/>\[5(57 - T_0) = 3(65 - T_0)\]<br/>\[285 - 5T_0 = 195 - 3T_0\]<br/>\[2T_0 = 285 - 195 = 90 \implies T_0 = 45^\circ\text{C}\]</p><p><strong>Step 5: Check and Final Answer</strong><br/>The surrounding temperature \(45^\circ\text{C}\) is lower than the lowest water temperature (\(54^\circ\text{C}\)), ensuring ongoing cooling as required by thermodynamics.<br/>The temperature of the surroundings is \(45^\circ\text{C}\).</p><hr/><p><strong>चरण 1: दिए गए आँकड़े और प्रतिबंध</strong><br/>प्रथम अंतराल: \(70^\circ\text{C}\) से \(60^\circ\text{C}\), समय \(t_1 = 5\text{ min}\)।<br/>द्वितीय अंतराल: \(60^\circ\text{C}\) से \(54^\circ\text{C}\), समय \(t_2 = 5\text{ min}\)।<br/>परिवेश का ताप: \(T_0\)।</p><p><strong>चरण 2: मान्यताएँ और परिपाटी</strong><br/>शीतलन न्यूटन के शीतलन नियम का पालन करता है।</p><p><strong>चरण 3: संबंधित सूत्र और सिद्धांत</strong><br/>न्यूटन का शीतलन नियम:<br/>\[\frac{T_1 - T_2}{t} = K \left(\frac{T_1 + T_2}{2} - T_0\right)\]</p><p><strong>चरण 4: चरणबद्ध हल</strong><br/>प्रथम \(5\text{ min}\) के लिए:<br/>\[\frac{70 - 60}{5} = K(65 - T_0) \implies 2 = K(65 - T_0)\]<br/>अगले \(5\text{ min}\) के लिए:<br/>\[\frac{60 - 54}{5} = K(57 - T_0) \implies \frac{6}{5} = K(57 - T_0)\]<br/>दोनों समीकरणों का अनुपात लेने पर:<br/>\[\frac{2}{6/5} = \frac{5}{3} = \frac{65 - T_0}{57 - T_0}\]<br/>तिर्यक गुणा करने पर:<br/>\[5(57 - T_0) = 3(65 - T_0)\]<br/>\[285 - 5T_0 = 195 - 3T_0 \implies 2T_0 = 90 \implies T_0 = 45^\circ\text{C}\]</p><p><strong>चरण 5: जाँच और अंतिम उत्तर</strong><br/>परिवेश का ताप जल के अंतिम ताप (\(54^\circ\text{C}\)) से कम है, जो भौतिक रूप से सही है।<br/>अतः परिवेश का ताप \(45^\circ\text{C}\) है।</p>]]></text>
+  </generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="100" format="html">
+    <text><![CDATA[<p>45°C</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>20°C</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>42°C</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>10°C</p>]]></text>
+  </answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>year:2014</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:hi</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>class:11</text></tag>
+    <tag><text>chapter:thermal_properties_of_matter</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:medium</text></tag>
+    <tag><text>blooms:apply</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:text</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+<question type="multichoice">
+  <name>
+    <text>AIPMT_PHYSICS_2014_MCQ_Q17 - Final pressure of gas after isothermal and adiabatic expansion</text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>A monoatomic gas at a pressure \(p\), having a volume \(V\) expands isothermally to a volume \(2V\) and then adiabatically to a volume \(16V\). The final pressure of the gas is (take \(\gamma = 5/3\)):</p><hr/><p>एकपरमाणुक गैस, जिसका दाब \(p\) तथा आयतन \(V\) है, पहले समतापीय रूप से \(2V\) आयतन तक प्रसारित होती है और फिर रुद्धोष्म रूप से \(16V\) आयतन तक प्रसारित होती है। गैस का अंतिम दाब है (\(\gamma = 5/3\) लीजिए):</p>]]></text>
+  </questiontext>
+  <generalfeedback format="html">
+    <text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>Initial state: \(P_1 = p\), \(V_1 = V\)<br/>Intermediate state (after isothermal expansion): volume \(V_2 = 2V\), pressure \(P_2\)<br/>Final state (after adiabatic expansion): volume \(V_3 = 16V\), pressure \(P_3\)<br/>Heat capacity ratio for monoatomic gas: \(\gamma = \frac{5}{3}\)</p><p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>The gas behaves as an ideal gas throughout both reversible expansions.</p><p><strong>Step 3: Relevant Formulae and Principles</strong><br/>- For an isothermal process (constant temperature):<br/>\[P_1 V_1 = P_2 V_2\]<br/>- For an adiabatic process:<br/>\[P_2 V_2^\gamma = P_3 V_3^\gamma\]</p><p><strong>Step 4: Step-by-Step Working</strong><br/>1. Isothermal stage:<br/>\[p \cdot V = P_2 \cdot (2V) \implies P_2 = \frac{p}{2}\]<br/>2. Adiabatic stage:<br/>\[P_3 = P_2 \left(\frac{V_2}{V_3}\right)^\gamma = \frac{p}{2} \left(\frac{2V}{16V}\right)^{5/3} = \frac{p}{2} \left(\frac{1}{8}\right)^{5/3}\]<br/>Expressing \(8\) as \(2^3\):<br/>\[\left(\frac{1}{8}\right)^{5/3} = \left[\left(\frac{1}{2}\right)^3\right]^{5/3} = \left(\frac{1}{2}\right)^5 = \frac{1}{32}\]<br/>Thus, the final pressure is:<br/>\[P_3 = \frac{p}{2} \times \frac{1}{32} = \frac{p}{64}\]</p><p><strong>Step 5: Check and Final Answer</strong><br/>Both stages represent expansions, so the pressure must decrease monotonically. The value \(\frac{p}{64}\) is physically sound.<br/>The final pressure of the gas is \(p/64\).</p><hr/><p><strong>चरण 1: दिए गए आँकड़े और प्रतिबंध</strong><br/>प्रारंभिक अवस्था: \(P_1 = p\), \(V_1 = V\)<br/>मध्यवर्ती अवस्था (समतापीय प्रसार के बाद): \(V_2 = 2V\), दाब \(P_2\)<br/>अंतिम अवस्था (रुद्धोष्म प्रसार के बाद): \(V_3 = 16V\), दाब \(P_3\)<br/>गैस के लिए विशिष्ट ऊष्मा अनुपात: \(\gamma = \frac{5}{3}\)</p><p><strong>चरण 2: मान्यताएँ और परिपाटी</strong><br/>दोनों प्रक्रमों में गैस आदर्श गैस की भाँति व्यवहार करती है।</p><p><strong>चरण 3: संबंधित सूत्र और सिद्धांत</strong><br/>- समतापीय प्रक्रम हेतु: \(P_1 V_1 = P_2 V_2\)<br/>- रुद्धोष्म प्रक्रम हेतु: \(P_2 V_2^\gamma = P_3 V_3^\gamma\)</p><p><strong>चरण 4: चरणबद्ध हल</strong><br/>1. समतापीय प्रसार:<br/>\[p \cdot V = P_2 \cdot (2V) \implies P_2 = \frac{p}{2}\]<br/>2. रुद्धोष्म प्रसार:<br/>\[P_3 = P_2 \left(\frac{V_2}{V_3}\right)^\gamma = \frac{p}{2} \left(\frac{2V}{16V}\right)^{5/3} = \frac{p}{2} \left(\frac{1}{8}\right)^{5/3}\]<br/>घात को हल करने पर:<br/>\[\left(\frac{1}{8}\right)^{5/3} = \left(\frac{1}{2}\right)^5 = \frac{1}{32}\]<br/>अंतिम दाब:<br/>\[P_3 = \frac{p}{2} \times \frac{1}{32} = \frac{p}{64}\]</p><p><strong>चरण 5: जाँच और अंतिम उत्तर</strong><br/>प्रसार के कारण दाब में निरंतर कमी होती है।<br/>अतः गैस का अंतिम दाब \(p/64\) है।</p>]]></text>
+  </generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>64p</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>32p</p>]]></text>
+  </answer>
+  <answer fraction="100" format="html">
+    <text><![CDATA[<p>\(p/64\)</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>16p</p>]]></text>
+  </answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>year:2014</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:hi</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>class:11</text></tag>
+    <tag><text>chapter:thermodynamics</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:easy</text></tag>
+    <tag><text>blooms:apply</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:text</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+<question type="multichoice">
+  <name>
+    <text>AIPMT_PHYSICS_2014_MCQ_Q18 - Work done in self intersecting thermodynamic cyclic process</text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>A thermodynamic system undergoes cyclic process \(ABCDA\) as shown in figure. The work done by the system in the cycle is:</p><p><img src="@@PLUGINFILE@@/img-6.jpeg" alt="Thermodynamic cyclic process ABCDA" /></p><hr/><p>एक ऊष्मागतिकी निकाय चित्र में दिखाए अनुसार चक्रीय प्रक्रम \(ABCDA\) से गुजरता है। चक्र में निकाय द्वारा किया गया कार्य है:</p>]]></text>
+  </questiontext>
+  <generalfeedback format="html">
+    <text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>The \(p\)--\(V\) indicator diagram represents a closed cyclic path \(A \to B \to C \to D \to A\) with vertices:<br/>- \(A(V_0, p_0)\)<br/>- \(B(2V_0, 3p_0)\)<br/>- \(C(V_0, 3p_0)\)<br/>- \(D(2V_0, p_0)\)<br/>The diagonals \(AB\) and \(CD\) intersect at the center point \((1.5V_0, 2p_0)\), dividing the cycle into two symmetrical triangular loops.</p><p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>In a \(p\)--\(V\) diagram, work done during a cyclic process equals the enclosed area. A clockwise loop represents positive net work done by the gas, while a counter-clockwise loop represents negative net work done by the gas.</p><p><strong>Step 3: Relevant Formulae and Principles</strong><br/>Net work done in a cyclic process composed of multiple loops:<br/>\[W_{\text{net}} = \sum W_i = W_{\text{clockwise}} - W_{\text{counter-clockwise}}\]</p><p><strong>Step 4: Step-by-Step Working</strong><br/>Let the central intersection point be \(X(1.5V_0, 2p_0)\).<br/>1. Lower loop (\(A \to X \to D \to A\)):<br/>- Direction: From \(A\) to \(X\) (up and right), \(X\) to \(D\) (down and right), and \(D\) to \(A\) (leftward). This loop is traversed in the clockwise direction.<br/>- Base along horizontal line \(AD\) is \(2V_0 - V_0 = V_0\).<br/>- Height from \(p = p_0\) to \(X\) is \(2p_0 - p_0 = p_0\).<br/>- Work done: \(W_1 = +\frac{1}{2} \times \text{base} \times \text{height} = +\frac{1}{2} p_0 V_0\).<br/>2. Upper loop (\(X \to B \to C \to X\)):<br/>- Direction: From \(X\) to \(B\) (up and right), \(B\) to \(C\) (leftward), and \(C\) to \(X\) (down and right). This loop is traversed in the counter-clockwise direction.<br/>- Base along horizontal line \(BC\) is \(2V_0 - V_0 = V_0\).<br/>- Height from \(X\) to \(p = 3p_0\) is \(3p_0 - 2p_0 = p_0\).<br/>- Work done: \(W_2 = -\frac{1}{2} \times \text{base} \times \text{height} = -\frac{1}{2} p_0 V_0\).<br/>3. Total work done over the complete cycle:<br/>\[W_{\text{net}} = W_1 + W_2 = +\frac{1}{2} p_0 V_0 + \left(-\frac{1}{2} p_0 V_0\right) = 0\]</p><p><strong>Step 5: Check and Final Answer</strong><br/>Because both symmetrical triangular loops enclose identical geometric areas but are traced in opposite senses, the positive work of the clockwise loop cancels the negative work of the counter-clockwise loop entirely.<br/>The work done by the system in the cycle is zero.</p><hr/><p><strong>चरण 1: दिए गए आँकड़े और प्रतिबंध</strong><br/>\(p\)--\(V\) आरेख में चक्रीय प्रक्रम \(A \to B \to C \to D \to A\) दर्शाया गया है, जिसके शीर्ष हैं:<br/>- \(A(V_0, p_0)\)<br/>- \(B(2V_0, 3p_0)\)<br/>- \(C(V_0, 3p_0)\)<br/>- \(D(2V_0, p_0)\)<br/>विकर्ण एक-दूसरे को केंद्र बिन्दु \((1.5V_0, 2p_0)\) पर काटते हैं, जिससे दो सममित त्रिभुजाकार लूप बनते हैं।</p><p><strong>चरण 2: मान्यताएँ और परिपाटी</strong><br/>\(p\)--\(V\) आरेख में दक्षिणावर्त (क्लॉकवाइज) लूप द्वारा किया गया कार्य धनात्मक तथा वामावर्त (एंटी-क्लॉकवाइज) लूप द्वारा किया गया कार्य ऋणात्मक होता है।</p><p><strong>चरण 3: संबंधित सूत्र और सिद्धांत</strong><br/>कुल कार्य प्रत्येक लूप के कार्यों के बीजगणितीय योग के बराबर होता है:<br/>\[W_{\text{net}} = W_1 + W_2\]</p><p><strong>चरण 4: चरणबद्ध हल</strong><br/>माना प्रतिच्छेद बिन्दु \(X\) है:<br/>1. निचला लूप (\(A \to X \to D \to A\)):<br/>यह दक्षिणावर्त दिशा में अनुरेखित है।<br/>क्षेत्रफल = \(\frac{1}{2} \times V_0 \times p_0 = \frac{1}{2} p_0 V_0\)<br/>कार्य: \(W_1 = +\frac{1}{2} p_0 V_0\)<br/>2. ऊपरी लूप (\(X \to B \to C \to X\)):<br/>यह वामावर्त दिशा में अनुरेखित है।<br/>क्षेत्रफल = \(\frac{1}{2} \times V_0 \times p_0 = \frac{1}{2} p_0 V_0\)<br/>कार्य: \(W_2 = -\frac{1}{2} p_0 V_0\)<br/>3. पूर्ण चक्र में कुल कार्य:<br/>\[W_{\text{net}} = +\frac{1}{2} p_0 V_0 - \frac{1}{2} p_0 V_0 = 0\]</p><p><strong>चरण 5: जाँच और अंतिम उत्तर</strong><br/>समान क्षेत्रफल वाले दो विपरीत दिशाओं के लूपों का कुल कार्य शून्य होता है।<br/>अतः चक्र में निकाय द्वारा किया गया कार्य शून्य (zero) है।</p>]]></text>
+  </generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(p_0V_0\)</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(2p_0V_0\)</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(p_0V_0/2\)</p>]]></text>
+  </answer>
+  <answer fraction="100" format="html">
+    <text><![CDATA[<p>zero</p>]]></text>
+  </answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>year:2014</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:hi</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>class:11</text></tag>
+    <tag><text>chapter:thermodynamics</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:easy</text></tag>
+    <tag><text>blooms:apply</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:graph</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+<question type="multichoice">
+  <name>
+    <text>AIPMT_PHYSICS_2014_MCQ_Q19 - Dependence of mean free path on molecular radius</text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>The mean free path of molecules of a gas, (radius \(r\)) is inversely proportional to:</p><hr/><p>किसी गैस के अणुओं का माध्य मुक्त पथ (त्रिज्या \(r\)) किसके व्युत्क्रमानुपाती होता है?</p>]]></text>
+  </questiontext>
+  <generalfeedback format="html">
+    <text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>Molecule geometry: Spherical particle with radius \(r\).<br/>Parameter to relate: Mean free path \(\lambda\) of the gas molecules.</p><p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>Gas molecules are modeled as hard rigid spheres of diameter \(d = 2r\) moving randomly with number density \(n\).</p><p><strong>Step 3: Relevant Formulae and Principles</strong><br/>According to the kinetic theory of gases, the mean free path is given by Clausius-Maxwell's expression:<br/>\[\lambda = \frac{1}{\sqrt{2} \pi d^2 n}\]<br/>where \(d\) is the collision diameter of a molecule and \(n\) is the number density of the gas molecules.</p><p><strong>Step 4: Step-by-Step Working</strong><br/>Substitute the molecular diameter \(d = 2r\) in terms of radius \(r\):<br/>\[\lambda = \frac{1}{\sqrt{2} \pi (2r)^2 n} = \frac{1}{4\sqrt{2} \pi n r^2}\]<br/>For a gas at given density and temperature, all other terms are constant:<br/>\[\lambda \propto \frac{1}{r^2}\]<br/>Thus, the mean free path is inversely proportional to \(r^2\).</p><p><strong>Step 5: Check and Final Answer</strong><br/>Collision cross-section area is \(\sigma = \pi d^2 = 4\pi r^2\). Since mean free path is inversely proportional to cross-sectional area, it must be inversely proportional to the square of the radius.<br/>The mean free path is inversely proportional to \(r^2\).</p><hr/><p><strong>चरण 1: दिए गए आँकड़े और प्रतिबंध</strong><br/>अणुओं की त्रिज्या: \(r\)<br/>ज्ञातव्य: माध्य मुक्त पथ \(\lambda\) की त्रिज्या पर निर्भरता।</p><p><strong>चरण 2: मान्यताएँ और परिपाटी</strong><br/>अणुओं को व्यास \(d = 2r\) वाले दृढ़ गोले माना गया है।</p><p><strong>चरण 3: संबंधित सूत्र और सिद्धांत</strong><br/>गैसों के अणुगति सिद्धांत के अनुसार माध्य मुक्त पथ:<br/>\[\lambda = \frac{1}{\sqrt{2} \pi d^2 n}\]<br/>जहाँ \(d\) संघट्ट व्यास तथा \(n\) संख्या घनत्व है।</p><p><strong>चरण 4: चरणबद्ध हल</strong><br/>व्यास \(d = 2r\) रखने पर:<br/>\[\lambda = \frac{1}{\sqrt{2} \pi (2r)^2 n} = \frac{1}{4\sqrt{2} \pi n r^2}\]<br/>अतः:<br/>\[\lambda \propto \frac{1}{r^2}\]<br/>माध्य मुक्त पथ \(r^2\) के व्युत्क्रमानुपाती होता है।</p><p><strong>चरण 5: जाँच और अंतिम उत्तर</strong><br/>संघट्ट परिच्छेद क्षेत्रफल \(\pi d^2 \propto r^2\) होता है, जिसके व्युत्क्रमानुपाती होने के कारण माध्य मुक्त पथ \(r^2\) पर निर्भर करता है।<br/>अतः माध्य मुक्त पथ \(r^2\) के व्युत्क्रमानुपाती है।</p>]]></text>
+  </generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(r^3\)</p>]]></text>
+  </answer>
+  <answer fraction="100" format="html">
+    <text><![CDATA[<p>\(r^2\)</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(r\)</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(\sqrt{r}\)</p>]]></text>
+  </answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>year:2014</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:hi</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>class:11</text></tag>
+    <tag><text>chapter:kinetic_theory</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:easy</text></tag>
+    <tag><text>blooms:remember</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:text</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+<question type="multichoice">
+  <name>
+    <text>AIPMT_PHYSICS_2014_MCQ_Q20 - Fundamental frequency of segmented vibrating string</text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>If \(n_1\), \(n_2\) and \(n_3\) are the fundamental frequencies of three segments into which a string is divided, then the original fundamental frequency \(n\) of the string is given by:</p><hr/><p>यदि एक डोरी को तीन खंडों में विभाजित किया जाता है और इन खंडों की मूल आवृत्तियाँ क्रमशः \(n_1\), \(n_2\) तथा \(n_3\) हैं, तो पूरी डोरी की मूल आवृत्ति \(n\) होगी:</p>]]></text>
+  </questiontext>
+  <generalfeedback format="html">
+    <text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>Original fundamental frequency of string = \(n\)<br/>Total length of string = \(l\)<br/>Lengths of the three segments = \(l_1\), \(l_2\), \(l_3\)<br/>Sum of segment lengths: \(l = l_1 + l_2 + l_3\)<br/>Fundamental frequencies of the three segments = \(n_1\), \(n_2\), \(n_3\)</p><p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>Tension \(T\) and linear mass density \(\mu\) are uniform throughout the string and remain unchanged when bridges divide the string into segments.</p><p><strong>Step 3: Relevant Formulae and Principles</strong><br/>The fundamental frequency of a stretched string fixed at both ends is given by Mersenne's law:<br/>\[n = \frac{v}{2l} = \frac{1}{2l}\sqrt{\frac{T}{\mu}}\]<br/>Rearranging for length:<br/>\[l = \frac{1}{2n}\sqrt{\frac{T}{\mu}} = \frac{k}{n}\]<br/>where \(k = \frac{1}{2}\sqrt{\frac{T}{\mu}}\) is a constant for the given wire under constant tension.</p><p><strong>Step 4: Step-by-Step Working</strong><br/>For the individual segments vibrating in their fundamental modes:<br/>\[l_1 = \frac{k}{n_1}, \quad l_2 = \frac{k}{n_2}, \quad l_3 = \frac{k}{n_3}\]<br/>Since the total length is the sum of the segment lengths:<br/>\[l = l_1 + l_2 + l_3\]<br/>Substituting the expressions for each length:<br/>\[\frac{k}{n} = \frac{k}{n_1} + \frac{k}{n_2} + \frac{k}{n_3}\]<br/>Dividing through by the non-zero constant \(k\):<br/>\[\frac{1}{n} = \frac{1}{n_1} + \frac{1}{n_2} + \frac{1}{n_3}\]</p><p><strong>Step 5: Check and Final Answer</strong><br/>Because frequency is inversely proportional to vibrating length, lengths add linearly while their inverse frequencies add correspondingly.<br/>The original fundamental frequency is given by \(1/n = 1/n_1 + 1/n_2 + 1/n_3\).</p><hr/><p><strong>चरण 1: दिए गए आँकड़े और प्रतिबंध</strong><br/>संपूर्ण डोरी की मूल आवृत्ति = \(n\)<br/>डोरी की कुल लंबाई = \(l\)<br/>तीनों खंडों की लंबाइयाँ = \(l_1\), \(l_2\), \(l_3\)<br/>कुल लंबाई संबंध: \(l = l_1 + l_2 + l_3\)<br/>खंडों की मूल आवृत्तियाँ = \(n_1\), \(n_2\), \(n_3\)</p><p><strong>चरण 2: मान्यताएँ और परिपाटी</strong><br/>पूरी डोरी में तनाव \(T\) तथा एकांक लंबाई का द्रव्यमान \(\mu\) एकसमान व नियत रहता है।</p><p><strong>चरण 3: संबंधित सूत्र और सिद्धांत</strong><br/>तनी हुई डोरी की मूल आवृत्ति का सूत्र:<br/>\[n = \frac{1}{2l}\sqrt{\frac{T}{\mu}} \implies l = \frac{k}{n}\]<br/>जहाँ \(k = \frac{1}{2}\sqrt{\frac{T}{\mu}}\) एक नियतांक है।</p><p><strong>चरण 4: चरणबद्ध हल</strong><br/>प्रत्येक खंड की लंबाई के लिए:<br/>\[l_1 = \frac{k}{n_1}, \quad l_2 = \frac{k}{n_2}, \quad l_3 = \frac{k}{n_3}\]<br/>कुल लंबाई \(l = l_1 + l_2 + l_3\) में मान प्रतिस्थापित करने पर:<br/>\[\frac{k}{n} = \frac{k}{n_1} + \frac{k}{n_2} + \frac{k}{n_3}\]<br/>दोनों पक्षों को \(k\) से भाग देने पर:<br/>\[\frac{1}{n} = \frac{1}{n_1} + \frac{1}{n_2} + \frac{1}{n_3}\]</p><p><strong>चरण 5: जाँच और अंतिम उत्तर</strong><br/>आवृत्ति लंबाई के व्युत्क्रमानुपाती होती है, अतः लंबाइयों का योग व्युत्क्रम आवृत्तियों के योग के समान होता है।<br/>अतः मूल आवृत्ति का संबंध \(1/n = 1/n_1 + 1/n_2 + 1/n_3\) है।</p>]]></text>
+  </generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="100" format="html">
+    <text><![CDATA[<p>\(1/n = 1/n_1 + 1/n_2 + 1/n_3\)</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(1/\sqrt{n} = 1/\sqrt{n_1} + 1/\sqrt{n_2} + 1/\sqrt{n_3}\)</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(\sqrt{n} = \sqrt{n_1} + \sqrt{n_2} + \sqrt{n_3}\)</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(n = n_1 + n_2 + n_3\)</p>]]></text>
+  </answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>year:2014</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:hi</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>class:11</text></tag>
+    <tag><text>chapter:waves</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:easy</text></tag>
+    <tag><text>blooms:apply</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:text</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+</quiz>
