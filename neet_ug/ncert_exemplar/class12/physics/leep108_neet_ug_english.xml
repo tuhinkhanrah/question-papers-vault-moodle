@@ -1,0 +1,791 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+<question type="multichoice">
+  <name><text>NEET_UG_PHYSICS_MCQI_ELECTROMAGNETICWAVES_MCQ_Q801 - Minimum frequency to dissociate carbon monoxide molecule</text></name>
+  <questiontext format="html">
+    <text><![CDATA[<p>One requires \(11\text{ eV}\) of energy to dissociate a carbon monoxide molecule into carbon and oxygen atoms. The minimum frequency of the appropriate electromagnetic radiation to achieve the dissociation lies in</p>]]></text>
+  </questiontext>
+  <generalfeedback format="html">
+    <text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>
+Dissociation energy required per molecule: \(E = 11\text{ eV}\).<br/>
+Elementary charge: \(e = 1.6 \times 10^{-19}\text{ C}\).<br/>
+Planck's constant: \(h = 6.63 \times 10^{-34}\text{ J}\cdot\text{s}\).<br/>
+Speed of light in vacuum: \(c = 3 \times 10^8\text{ m/s}\).</p>
+<p><strong>Step 2: Assumptions and Physical Principles</strong><br/>
+A single incident photon must provide at least the dissociation energy of the molecule. The energy of an electromagnetic photon is directly proportional to its frequency according to Planck's quantum relation.</p>
+<p><strong>Step 3: Relevant Formulae</strong><br/>
+Photon energy relation:<br/>
+\[E = h\nu\]
+Minimum required frequency:<br/>
+\[\nu_{\min} = \frac{E}{h}\]</p>
+<p><strong>Step 4: Step-by-Step Working</strong><br/>
+Express the dissociation energy in joules:<br/>
+\[E = 11 \times 1.6 \times 10^{-19}\text{ J} = 1.76 \times 10^{-18}\text{ J}\]
+Calculate the threshold frequency:<br/>
+\[\nu_{\min} = \frac{1.76 \times 10^{-18}\text{ J}}{6.63 \times 10^{-34}\text{ J}\cdot\text{s}} \approx 2.65 \times 10^{15}\text{ Hz}\]
+Find the corresponding wavelength in vacuum:<br/>
+\[\lambda = \frac{c}{\nu_{\min}} = \frac{3 \times 10^8\text{ m/s}}{2.65 \times 10^{15}\text{ Hz}} \approx 1.13 \times 10^{-7}\text{ m} = 113\text{ nm}\]
+Evaluate spectral bounds of the electromagnetic spectrum:<br/>
+- Infrared region: \(10^{11}\text{ Hz}\) to \(4 \times 10^{14}\text{ Hz}\) (\(700\text{ nm}\) to \(1\text{ mm}\))<br/>
+- Visible region: \(4 \times 10^{14}\text{ Hz}\) to \(7.5 \times 10^{14}\text{ Hz}\) (\(400\text{ nm}\) to \(700\text{ nm}\))<br/>
+- Ultraviolet region: \(7.5 \times 10^{14}\text{ Hz}\) to \(3 \times 10^{16}\text{ Hz}\) (\(10\text{ nm}\) to \(400\text{ nm}\))<br/>
+- Microwave region: \(10^9\text{ Hz}\) to \(10^{11}\text{ Hz}\) (\(1\text{ mm}\) to \(0.3\text{ m}\))<br/>
+Since \(\nu_{\min} \approx 2.65 \times 10^{15}\text{ Hz}\) and \(\lambda \approx 113\text{ nm}\), the radiation falls squarely in the ultraviolet spectrum.</p>
+<p><strong>Step 5: Check and Final Answer</strong><br/>
+The energy of visible light photons spans approximately \(1.8\text{ eV}\) to \(3.1\text{ eV}\). An energy of \(11\text{ eV}\) exceeds visible photon energies by a factor of nearly four, confirming that the radiation must belong to the ultraviolet region.<br/>
+Final Answer: ultraviolet region.</p>]]></text>
+  </generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>visible region.</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>infrared region.</p>]]></text>
+  </answer>
+  <answer fraction="100" format="html">
+    <text><![CDATA[<p>ultraviolet region.</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>microwave region.</p>]]></text>
+  </answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>section:mcq_i</text></tag>
+    <tag><text>class:12</text></tag>
+    <tag><text>topic:electromagnetic_waves</text></tag>
+    <tag><text>chapter:electromagnetic_waves</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:easy</text></tag>
+    <tag><text>blooms:apply</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:text</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+<question type="multichoice">
+  <name><text>NEET_UG_PHYSICS_MCQI_ELECTROMAGNETICWAVES_MCQ_Q802 - Reflected wave from a perfectly reflecting wall</text></name>
+  <questiontext format="html">
+    <text><![CDATA[<p>A linearly polarized electromagnetic wave given as \(\mathbf{E} = E_0\hat{\mathbf{i}}\cos(kz - \omega t)\) is incident normally on a perfectly reflecting infinite wall at \(z = a\). Assuming that the material of the wall is optically inactive, the reflected wave will be given as</p>]]></text>
+  </questiontext>
+  <generalfeedback format="html">
+    <text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>
+Incident electric field vector: \(\mathbf{E}_i = E_0\hat{\mathbf{i}}\cos(kz - \omega t)\).<br/>
+Direction of propagation of incident wave: along the positive \(z\)-axis.<br/>
+Polarization: linear along the \(x\)-axis (\(\hat{\mathbf{i}}\)).<br/>
+Boundary: perfectly reflecting, infinite, optically inactive plane located at \(z = a\).</p>
+<p><strong>Step 2: Assumptions and Boundary Conditions</strong><br/>
+Normal incidence on a perfectly reflecting conducting boundary reverses the direction of propagation from \(+z\) to \(-z\).<br/>
+The material is optically inactive, meaning it causes no rotation of the polarization plane, so the polarization direction remains parallel to \(\hat{\mathbf{i}}\).<br/>
+At a perfectly conducting reflector, the tangential electric field must cancel out to satisfy boundary conditions, which introduces a phase reversal of \(\pi\) radians upon reflection.</p>
+<p><strong>Step 3: Relevant Formulae and Principles</strong><br/>
+A wave traveling in the negative \(z\)-direction possesses a phase argument of the form \((kz + \omega t)\).<br/>
+A phase shift of \(\pi\) modifies the wave expression as:<br/>
+\[\cos\bigl((kz + \omega t) + \pi\bigr) = -\cos(kz + \omega t)\]</p>
+<p><strong>Step 4: Step-by-Step Working</strong><br/>
+Reversal of propagation direction dictates that the spatial and temporal dependence changes from \(\cos(kz - \omega t)\) to \(\cos(kz + \omega t)\).<br/>
+The boundary condition at the reflector imposes an overall negative sign (a \(\pi\) phase shift).<br/>
+Because the polarization axis is unaffected, the directional unit vector remains \(\hat{\mathbf{i}}\).<br/>
+Combining these effects gives the reflected wave:<br/>
+\[\mathbf{E}_r = -E_0\hat{\mathbf{i}}\cos(kz + \omega t)\]</p>
+<p><strong>Step 5: Check and Final Answer</strong><br/>
+The reflected wave carries energy back into the negative \(z\) half-space. With \(\mathbf{E}_r \propto -\hat{\mathbf{i}}\) and \(\mathbf{B}_r \propto +\hat{\mathbf{j}}\), the Poynting vector points along \(-\hat{\mathbf{k}}\), verifying energy propagation in the \(-z\) direction.<br/>
+Final Answer: \(\mathbf{E}_r = -E_0\hat{\mathbf{i}}\cos(kz + \omega t)\).</p>]]></text>
+  </generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(\mathbf{E}_r = -E_0\hat{\mathbf{i}}\cos(kz - \omega t)\)</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(\mathbf{E}_r = E_0\hat{\mathbf{i}}\cos(kz + \omega t)\)</p>]]></text>
+  </answer>
+  <answer fraction="100" format="html">
+    <text><![CDATA[<p>\(\mathbf{E}_r = -E_0\hat{\mathbf{i}}\cos(kz + \omega t)\)</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(\mathbf{E}_r = E_0\hat{\mathbf{i}}\sin(kz - \omega t)\)</p>]]></text>
+  </answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>section:mcq_i</text></tag>
+    <tag><text>class:12</text></tag>
+    <tag><text>topic:electromagnetic_waves</text></tag>
+    <tag><text>chapter:electromagnetic_waves</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:medium</text></tag>
+    <tag><text>blooms:understand</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:equation</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+<question type="multichoice">
+  <name><text>NEET_UG_PHYSICS_MCQI_ELECTROMAGNETICWAVES_MCQ_Q803 - Total momentum delivered to a nonreflecting surface</text></name>
+  <questiontext format="html">
+    <text><![CDATA[<p>Light with an energy flux of \(20\text{ W/cm}^2\) falls on a non-reflecting surface at normal incidence. If the surface has an area of \(30\text{ cm}^2\), the total momentum delivered (for complete absorption) during \(30\text{ minutes}\) is</p>]]></text>
+  </questiontext>
+  <generalfeedback format="html">
+    <text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>
+Energy flux (intensity): \(\Phi = 20\text{ W/cm}^2\).<br/>
+Surface area: \(A = 30\text{ cm}^2\).<br/>
+Duration of exposure: \(t = 30\text{ minutes} = 30 \times 60\text{ s} = 1800\text{ s}\).<br/>
+Speed of light in vacuum: \(c = 3 \times 10^8\text{ m/s}\).<br/>
+Condition: completely non-reflecting surface (total absorption).</p>
+<p><strong>Step 2: Assumptions and Physical Model</strong><br/>
+Radiation impinges at normal incidence. For a totally absorbing surface, the entire incident radiant energy is absorbed, and each increment of absorbed energy \(U\) delivers linear momentum \(p = \frac{U}{c}\).</p>
+<p><strong>Step 3: Relevant Formulae</strong><br/>
+Total radiant energy incident on the surface:<br/>
+\[U = \Phi \cdot A \cdot t\]
+Total momentum transferred upon complete absorption:<br/>
+\[p = \frac{U}{c}\]</p>
+<p><strong>Step 4: Step-by-Step Working</strong><br/>
+Compute the total incident radiant power:<br/>
+\[P = \Phi \cdot A = (20\text{ W/cm}^2) \times (30\text{ cm}^2) = 600\text{ W}\]
+Compute the total energy delivered over \(1800\text{ s}\):<br/>
+\[U = P \cdot t = 600\text{ W} \times 1800\text{ s} = 1.08 \times 10^6\text{ J}\]
+Calculate the transferred momentum:<br/>
+\[p = \frac{1.08 \times 10^6\text{ J}}{3 \times 10^8\text{ m/s}} = 0.36 \times 10^{-2}\text{ kg}\cdot\text{m/s} = 36 \times 10^{-4}\text{ kg}\cdot\text{m/s}\]
+Equivalently, expressed in scientific notation, this equals \(3.6 \times 10^{-3}\text{ kg}\cdot\text{m/s}\), which matches the numerical value \(36 \times 10^{-4}\text{ kg}\cdot\text{m/s}\).</p>
+<p><strong>Step 5: Check and Final Answer</strong><br/>
+Dimensional verification: \(\frac{\text{J}}{\text{m/s}} = \frac{\text{N}\cdot\text{m}}{\text{m/s}} = \text{N}\cdot\text{s} = \text{kg}\cdot\text{m/s}\). The units and order of magnitude are fully consistent.<br/>
+Final Answer: \(36 \times 10^{-4}\text{ kg}\cdot\text{m/s}\).</p>]]></text>
+  </generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(36 \times 10^{-5}\text{ kg}\cdot\text{m/s}\)</p>]]></text>
+  </answer>
+  <answer fraction="100" format="html">
+    <text><![CDATA[<p>\(36 \times 10^{-4}\text{ kg}\cdot\text{m/s}\)</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(108 \times 10^{4}\text{ kg}\cdot\text{m/s}\)</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(1.08 \times 10^{7}\text{ kg}\cdot\text{m/s}\)</p>]]></text>
+  </answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>section:mcq_i</text></tag>
+    <tag><text>class:12</text></tag>
+    <tag><text>topic:electromagnetic_waves</text></tag>
+    <tag><text>chapter:electromagnetic_waves</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:medium</text></tag>
+    <tag><text>blooms:apply</text></tag>
+    <tag><text>calculation:moderate</text></tag>
+    <tag><text>media:text</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+<question type="multichoice">
+  <name><text>NEET_UG_PHYSICS_MCQI_ELECTROMAGNETICWAVES_MCQ_Q804 - Electric field intensity from a fifty watt bulb</text></name>
+  <questiontext format="html">
+    <text><![CDATA[<p>The electric field intensity produced by the radiations coming from \(100\text{ W}\) bulb at a \(3\text{ m}\) distance is \(E\). The electric field intensity produced by the radiations coming from \(50\text{ W}\) bulb at the same distance is</p>]]></text>
+  </questiontext>
+  <generalfeedback format="html">
+    <text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>
+Power of first source: \(P_1 = 100\text{ W}\).<br/>
+Distance from source: \(r = 3\text{ m}\).<br/>
+Electric field intensity of first source: \(E_1 = E\).<br/>
+Power of second source: \(P_2 = 50\text{ W}\).<br/>
+Distance of second source: \(r = 3\text{ m}\).</p>
+<p><strong>Step 2: Assumptions and Model</strong><br/>
+Both light bulbs radiate isotropically into space as point sources. In free space, the intensity of radiation at distance \(r\) is distributed uniformly over a sphere of radius \(r\).</p>
+<p><strong>Step 3: Relevant Formulae</strong><br/>
+Intensity as a function of source power:<br/>
+\[I = \frac{P}{4\pi r^2}\]
+Intensity in terms of electric field amplitude:<br/>
+\[I = \frac{1}{2}\varepsilon_0 c E^2\]
+Equating both expressions at a fixed distance \(r\):<br/>
+\[E^2 \propto I \propto P \implies E \propto \sqrt{P}\]</p>
+<p><strong>Step 4: Step-by-Step Working</strong><br/>
+Form the ratio of electric field intensities for both bulbs:<br/>
+\[\frac{E_2}{E_1} = \sqrt{\frac{P_2}{P_1}}\]
+Substitute the given values:<br/>
+\[\frac{E_2}{E} = \sqrt{\frac{50}{100}} = \sqrt{\frac{1}{2}} = \frac{1}{\sqrt{2}}\]
+Solve for \(E_2\):<br/>
+\[E_2 = \frac{E}{\sqrt{2}}\]</p>
+<p><strong>Step 5: Check and Final Answer</strong><br/>
+Because intensity scales linearly with power while electric field amplitude scales with the square root of intensity, reducing the source power by half reduces the electric field intensity by \(\sqrt{2}\).<br/>
+Final Answer: \(\frac{E}{\sqrt{2}}\).</p>]]></text>
+  </generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(\frac{E}{2}\)</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(2E\)</p>]]></text>
+  </answer>
+  <answer fraction="100" format="html">
+    <text><![CDATA[<p>\(\frac{E}{\sqrt{2}}\)</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(\sqrt{2} E\)</p>]]></text>
+  </answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>section:mcq_i</text></tag>
+    <tag><text>class:12</text></tag>
+    <tag><text>topic:electromagnetic_waves</text></tag>
+    <tag><text>chapter:electromagnetic_waves</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:easy</text></tag>
+    <tag><text>blooms:apply</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:equation</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+<question type="multichoice">
+  <name><text>NEET_UG_PHYSICS_MCQI_ELECTROMAGNETICWAVES_MCQ_Q805 - Direction of propagation of electromagnetic wave</text></name>
+  <questiontext format="html">
+    <text><![CDATA[<p>If \(\mathbf{E}\) and \(\mathbf{B}\) represent electric and magnetic field vectors of the electromagnetic wave, the direction of propagation of electromagnetic wave is along</p>]]></text>
+  </questiontext>
+  <generalfeedback format="html">
+    <text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>
+An electromagnetic wave in free space is a transverse wave in which the electric field vector \(\mathbf{E}\), the magnetic field vector \(\mathbf{B}\), and the propagation vector \(\mathbf{k}\) form an orthogonal right-handed system.</p>
+<p><strong>Step 2: Poynting Vector and Energy Flow</strong><br/>
+The energy flow per unit area per unit time carried by an electromagnetic wave is defined by the Poynting vector:<br/>
+\[\mathbf{S} = \frac{1}{\mu_0}(\mathbf{E} \times \mathbf{B})\]
+The direction of energy flow corresponds precisely to the direction of propagation of the wavefront.</p>
+<p><strong>Step 3: Evaluation of Vector Directions</strong><br/>
+Because electromagnetic waves are transverse, both \(\mathbf{E}\) and \(\mathbf{B}\) oscillate perpendicular to the direction of motion, ruling out propagation along either individual field vector.<br/>
+By the properties of the right-handed cross product, \(\mathbf{E} \times \mathbf{B}\) points forward along the direction of propagation, whereas the anti-symmetric product \(\mathbf{B} \times \mathbf{E} = -(\mathbf{E} \times \mathbf{B})\) points opposite to it.</p>
+<p><strong>Step 4: Final Conclusion</strong><br/>
+The direction of propagation of the electromagnetic wave is directed along the vector cross product \(\mathbf{E} \times \mathbf{B}\).<br/>
+Final Answer: \(\mathbf{E} \times \mathbf{B}\).</p>]]></text>
+  </generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(\mathbf{E}\)</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(\mathbf{B}\)</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(\mathbf{B} \times \mathbf{E}\)</p>]]></text>
+  </answer>
+  <answer fraction="100" format="html">
+    <text><![CDATA[<p>\(\mathbf{E} \times \mathbf{B}\)</p>]]></text>
+  </answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>section:mcq_i</text></tag>
+    <tag><text>class:12</text></tag>
+    <tag><text>topic:electromagnetic_waves</text></tag>
+    <tag><text>chapter:electromagnetic_waves</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:easy</text></tag>
+    <tag><text>blooms:remember</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:equation</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+<question type="multichoice">
+  <name><text>NEET_UG_PHYSICS_MCQI_ELECTROMAGNETICWAVES_MCQ_Q806 - Ratio of electric and magnetic field contributions</text></name>
+  <questiontext format="html">
+    <text><![CDATA[<p>The ratio of contributions made by the electric field and magnetic field components to the intensity of an EM wave is</p>]]></text>
+  </questiontext>
+  <generalfeedback format="html">
+    <text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>
+A plane electromagnetic wave propagating in free space with electric field component \(E\) and magnetic field component \(B\).</p>
+<p><strong>Step 2: Relevant Formulae and Principles</strong><br/>
+Energy density stored in the electric field:<br/>
+\[u_E = \frac{1}{2}\varepsilon_0 E^2\]
+Energy density stored in the magnetic field:<br/>
+\[u_B = \frac{B^2}{2\mu_0}\]
+Relationship between field magnitudes in free space:<br/>
+\[E = cB\]
+where the speed of light is given by:<br/>
+\[c = \frac{1}{\sqrt{\mu_0\varepsilon_0}} \implies c^2 = \frac{1}{\mu_0\varepsilon_0}\]</p>
+<p><strong>Step 3: Step-by-Step Working</strong><br/>
+Substitute \(E = cB\) into the expression for electric energy density:<br/>
+\[u_E = \frac{1}{2}\varepsilon_0 (cB)^2 = \frac{1}{2}\varepsilon_0 c^2 B^2\]
+Using \(\varepsilon_0 c^2 = \frac{1}{\mu_0}\):<br/>
+\[u_E = \frac{1}{2}\left(\frac{1}{\mu_0}\right)B^2 = \frac{B^2}{2\mu_0} = u_B\]
+The instantaneous, as well as time-averaged, energy densities of the electric and magnetic fields are strictly identical throughout the wave.</p>
+<p><strong>Step 4: Intensity Comparison and Final Conclusion</strong><br/>
+Because intensity is proportional to energy density (\(I = c\,u\)), the contributions from the electric and magnetic fields to the total intensity are equal:<br/>
+\[\frac{I_E}{I_B} = \frac{u_E}{u_B} = \frac{1}{1}\]
+Thus, the contributions share an exact equipartition with a ratio of \(1:1\).<br/>
+Final Answer: \(1:1\).</p>]]></text>
+  </generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(c:1\)</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(c^2:1\)</p>]]></text>
+  </answer>
+  <answer fraction="100" format="html">
+    <text><![CDATA[<p>\(1:1\)</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(\sqrt{c}:1\)</p>]]></text>
+  </answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>section:mcq_i</text></tag>
+    <tag><text>class:12</text></tag>
+    <tag><text>topic:electromagnetic_waves</text></tag>
+    <tag><text>chapter:electromagnetic_waves</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:easy</text></tag>
+    <tag><text>blooms:understand</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:equation</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+<question type="multichoice">
+  <name><text>NEET_UG_PHYSICS_MCQI_ELECTROMAGNETICWAVES_MCQ_Q807 - Radiation electric field falloff from dipole antenna</text></name>
+  <questiontext format="html">
+    <text><![CDATA[<p>An EM wave radiates outwards from a dipole antenna, with \(E_0\) as the amplitude of its electric field vector. The electric field \(E_0\) which transports significant energy from the source falls off as</p>]]></text>
+  </questiontext>
+  <generalfeedback format="html">
+    <text><![CDATA[<p><strong>Step 1: Given Data and Layout</strong><br/>
+An oscillating dipole antenna emits radiation into the surrounding three-dimensional space.<br/>
+Radial distance from the antenna: \(r\).<br/>
+Electric field amplitude of the radiation component transporting energy: \(E_0\).</p>
+<p><strong>Step 2: Assumptions and Field Regimes</strong><br/>
+Close to the antenna (\(r \ll \lambda\)), the electrostatic dipole field dominates and falls off as \(\frac{1}{r^3}\), but this near-field component does not transport energy away.<br/>
+In the radiation zone (far-field, \(r \gg \lambda\)), the outgoing wave carries power permanently away to infinity.</p>
+<p><strong>Step 3: Relevant Formulae and Principles</strong><br/>
+By conservation of energy, the total time-averaged power \(P\) passing through any closed spherical surface of radius \(r\) centered at the antenna must be independent of \(r\):<br/>
+\[P = \oint I\,dA = I(r) \cdot 4\pi r^2 = \text{constant}\]
+Intensity of a wave in terms of its electric field amplitude:<br/>
+\[I \propto E_0^2\]</p>
+<p><strong>Step 4: Step-by-Step Working</strong><br/>
+From power conservation across spherical wavefronts:<br/>
+\[I(r) \propto \frac{1}{r^2}\]
+Substitute \(I \propto E_0^2\):<br/>
+\[E_0^2 \propto \frac{1}{r^2}\]
+Take the square root on both sides:<br/>
+\[E_0 \propto \frac{1}{r}\]</p>
+<p><strong>Step 5: Check and Final Answer</strong><br/>
+If the electric field fell as \(\frac{1}{r^2}\), the intensity would drop as \(\frac{1}{r^4}\), causing the total power crossing a sphere of radius \(r\) to vanish as \(r \to \infty\), which would prevent energy transport to the far field. Hence, the radiation electric field must fall off as \(\frac{1}{r}\).<br/>
+Final Answer: \(\frac{1}{r}\).</p>]]></text>
+  </generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(\frac{1}{r^3}\)</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(\frac{1}{r^2}\)</p>]]></text>
+  </answer>
+  <answer fraction="100" format="html">
+    <text><![CDATA[<p>\(\frac{1}{r}\)</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>remains constant.</p>]]></text>
+  </answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>section:mcq_i</text></tag>
+    <tag><text>class:12</text></tag>
+    <tag><text>topic:electromagnetic_waves</text></tag>
+    <tag><text>chapter:electromagnetic_waves</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:medium</text></tag>
+    <tag><text>blooms:understand</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:equation</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+<question type="multichoice">
+  <name><text>NEET_UG_PHYSICS_MCQII_ELECTROMAGNETICWAVES_MCQ_Q808 - Magnetic field and polarization of plane wave</text></name>
+  <questiontext format="html">
+    <text><![CDATA[<p>An electromagnetic wave travels in vacuum along \(z\) direction: \(\mathbf{E} = (E_1\hat{\mathbf{i}} + E_2\hat{\mathbf{j}})\cos (kz - \omega t)\). Choose the correct options from the following:</p>]]></text>
+  </questiontext>
+  <generalfeedback format="html">
+    <text><![CDATA[<p><strong>Step 1: Given Data and Wave Specification</strong><br/>
+Electric field vector: \(\mathbf{E} = (E_1\hat{\mathbf{i}} + E_2\hat{\mathbf{j}})\cos(kz - \omega t)\).<br/>
+Propagation direction: \(\hat{\mathbf{k}}\) (along the positive \(z\)-axis).<br/>
+Wave speed: \(c\) in vacuum.</p>
+<p><strong>Step 2: Relation Between Electric and Magnetic Fields</strong><br/>
+For a plane electromagnetic wave propagating along the unit propagation vector \(\hat{\mathbf{n}}\), the associated magnetic field vector is given by:<br/>
+\[\mathbf{B} = \frac{1}{c}(\hat{\mathbf{n}} \times \mathbf{E})\]
+Here, \(\hat{\mathbf{n}} = \hat{\mathbf{k}}\).</p>
+<p><strong>Step 3: Evaluation of the Magnetic Field Vector</strong><br/>
+Compute the cross product \(\hat{\mathbf{k}} \times \mathbf{E}\):<br/>
+\[\hat{\mathbf{k}} \times (E_1\hat{\mathbf{i}} + E_2\hat{\mathbf{j}}) = E_1(\hat{\mathbf{k}} \times \hat{\mathbf{i}}) + E_2(\hat{\mathbf{k}} \times \hat{\mathbf{j}})\]
+Using the fundamental cyclic vector relationships \(\hat{\mathbf{k}} \times \hat{\mathbf{i}} = \hat{\mathbf{j}}\) and \(\hat{\mathbf{k}} \times \hat{\mathbf{j}} = -\hat{\mathbf{i}}\):<br/>
+\[\hat{\mathbf{k}} \times (E_1\hat{\mathbf{i}} + E_2\hat{\mathbf{j}}) = E_1\hat{\mathbf{j}} - E_2\hat{\mathbf{i}} = -E_2\hat{\mathbf{i}} + E_1\hat{\mathbf{j}}\]
+Therefore, the magnetic field is:<br/>
+\[\mathbf{B} = \frac{1}{c}(E_1\hat{\mathbf{j}} - E_2\hat{\mathbf{i}})\cos(kz - \omega t)\]</p>
+<p><strong>Step 4: Polarization Analysis</strong><br/>
+Both Cartesian components of \(\mathbf{E}\) oscillate with identical phase \((kz - \omega t)\). The electric field vector maintains a fixed direction in space along the unit vector \(\frac{E_1\hat{\mathbf{i}} + E_2\hat{\mathbf{j}}}{\sqrt{E_1^2 + E_2^2}}\) at an angle \(\theta = \tan^{-1}(E_2/E_1)\) relative to the \(x\)-axis.<br/>
+Because the field oscillates back and forth along a single straight line in the \(xy\)-plane without rotating, the wave is plane (linearly) polarized, rather than circularly polarized.</p>
+<p><strong>Step 5: Final Conclusion</strong><br/>
+The associated magnetic field is given by \(\mathbf{B} = \frac{1}{c}(E_1\hat{\mathbf{j}} - E_2\hat{\mathbf{i}})\cos(kz - \omega t)\), and the electromagnetic wave is plane polarized.<br/>
+Final Answer: The associated magnetic field is given as \(\mathbf{B} = \frac{1}{c}(E_1\hat{\mathbf{j}} - E_2\hat{\mathbf{i}})\cos(kz - \omega t)\), and the given electromagnetic wave is plane polarised.</p>]]></text>
+  </generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>false</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="-50" format="html">
+    <text><![CDATA[<p>The associated magnetic field is given as \(\mathbf{B} = \frac{1}{c} (E_1\hat{\mathbf{i}} - E_2\hat{\mathbf{j}})\cos (kz - \omega t)\).</p>]]></text>
+  </answer>
+  <answer fraction="50" format="html">
+    <text><![CDATA[<p>The associated magnetic field is given as \(\mathbf{B} = \frac{1}{c} (E_1\hat{\mathbf{j}} - E_2\hat{\mathbf{i}})\cos (kz - \omega t)\).</p>]]></text>
+  </answer>
+  <answer fraction="-50" format="html">
+    <text><![CDATA[<p>The given electromagnetic field is circularly polarised.</p>]]></text>
+  </answer>
+  <answer fraction="50" format="html">
+    <text><![CDATA[<p>The given electromagnetic wave is plane polarised.</p>]]></text>
+  </answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>section:mcq_ii</text></tag>
+    <tag><text>class:12</text></tag>
+    <tag><text>topic:electromagnetic_waves</text></tag>
+    <tag><text>chapter:electromagnetic_waves</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:medium</text></tag>
+    <tag><text>blooms:analyze</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:equation</text></tag>
+    <tag><text>multiconcept:true</text></tag>
+  </tags>
+</question>
+<question type="multichoice">
+  <name><text>NEET_UG_PHYSICS_MCQII_ELECTROMAGNETICWAVES_MCQ_Q809 - Relations between electric and magnetic fields in wave</text></name>
+  <questiontext format="html">
+    <text><![CDATA[<p>An electromagnetic wave travelling along \(z\)-axis is given as: \(\mathbf{E} = \mathbf{E}_0\cos (kz - \omega t)\). Choose the correct options from the following:</p>]]></text>
+  </questiontext>
+  <generalfeedback format="html">
+    <text><![CDATA[<p><strong>Step 1: Conceptual Principles</strong><br/>
+For a plane wave propagating in vacuum along \(\hat{\mathbf{k}}\):<br/>
+1. Both \(\mathbf{E}\) and \(\mathbf{B}\) are purely transverse to the direction of motion: \(\hat{\mathbf{k}} \cdot \mathbf{E} = 0\) and \(\hat{\mathbf{k}} \cdot \mathbf{B} = 0\).<br/>
+2. The magnetic field relates to the electric field via \(\mathbf{B} = \frac{1}{c}(\hat{\mathbf{k}} \times \mathbf{E})\).<br/>
+3. The relationship between wave parameters is \(\frac{\omega}{k} = c\).</p>
+<p><strong>Step 2: Evaluation of Field Relations</strong><br/>
+Evaluate the magnetic field expression:<br/>
+\[\mathbf{B} = \frac{1}{c}(\hat{\mathbf{k}} \times \mathbf{E}) = \frac{k}{\omega}(\hat{\mathbf{k}} \times \mathbf{E}) = \frac{1}{\omega}(\mathbf{k} \times \mathbf{E})\]
+Thus, expressing the relation with the unit propagation vector or wave vector gives a consistent description of \(\mathbf{B}\).<br/>
+Next, take the vector cross product of \(\mathbf{B}\) with \(\hat{\mathbf{k}}\):<br/>
+\[\mathbf{B} \times \hat{\mathbf{k}} = \frac{1}{c}(\hat{\mathbf{k}} \times \mathbf{E}) \times \hat{\mathbf{k}} = -\frac{1}{c}\hat{\mathbf{k}} \times (\hat{\mathbf{k}} \times \mathbf{E})\]
+Applying the vector triple product identity \(\mathbf{A} \times (\mathbf{B} \times \mathbf{C}) = \mathbf{B}(\mathbf{A} \cdot \mathbf{C}) - \mathbf{C}(\mathbf{A} \cdot \mathbf{B})\):<br/>
+\[\hat{\mathbf{k}} \times (\hat{\mathbf{k}} \times \mathbf{E}) = \hat{\mathbf{k}}(\hat{\mathbf{k}} \cdot \mathbf{E}) - \mathbf{E}(\hat{\mathbf{k}} \cdot \hat{\mathbf{k}})\]
+Since \(\hat{\mathbf{k}} \cdot \mathbf{E} = 0\) and \(\hat{\mathbf{k}} \cdot \hat{\mathbf{k}} = 1\), this simplifies to \(-\mathbf{E}\). Therefore:<br/>
+\[\mathbf{B} \times \hat{\mathbf{k}} = -\frac{1}{c}(-\mathbf{E}) = \frac{\mathbf{E}}{c} \implies \mathbf{E} = c(\mathbf{B} \times \hat{\mathbf{k}})\]</p>
+<p><strong>Step 3: Evaluation of Cross and Dot Products with Propagation Vector</strong><br/>
+Because electromagnetic waves in free space are transverse, the dot products vanish: \(\hat{\mathbf{k}} \cdot \mathbf{E} = 0\) and \(\hat{\mathbf{k}} \cdot \mathbf{B} = 0\).<br/>
+Conversely, the cross products \(\hat{\mathbf{k}} \times \mathbf{E}\) and \(\hat{\mathbf{k}} \times \mathbf{B}\) are non-zero because neither field is longitudinal.</p>
+<p><strong>Step 4: Final Conclusion</strong><br/>
+The three correct relationships are \(\mathbf{B} = \frac{1}{c}\hat{\mathbf{k}}\times \mathbf{E} = \frac{1}{\omega} (\hat{\mathbf{k}}\times \mathbf{E})\), \(\mathbf{E} = c(\mathbf{B}\times \hat{\mathbf{k}})\), and \(\hat{\mathbf{k}}\cdot\mathbf{E} = 0,\;\hat{\mathbf{k}}\cdot\mathbf{B} = 0\).<br/>
+Final Answer: The associated magnetic field is given as \(\mathbf{B} = \frac{1}{c}\hat{\mathbf{k}}\times \mathbf{E} = \frac{1}{\omega} (\hat{\mathbf{k}}\times \mathbf{E})\); the electromagnetic field can be written as \(\mathbf{E} = c(\mathbf{B}\times \hat{\mathbf{k}})\); and \(\hat{\mathbf{k}}\cdot\mathbf{E} = 0,\;\hat{\mathbf{k}}\cdot\mathbf{B} = 0\).</p>]]></text>
+  </generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>false</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="33.33333" format="html">
+    <text><![CDATA[<p>The associated magnetic field is given as \(\mathbf{B} = \frac{1}{c}\hat{\mathbf{k}}\times \mathbf{E} = \frac{1}{\omega} (\hat{\mathbf{k}}\times \mathbf{E})\)</p>]]></text>
+  </answer>
+  <answer fraction="33.33333" format="html">
+    <text><![CDATA[<p>The electromagnetic field can be written in terms of the associated magnetic field as \(\mathbf{E} = c(\mathbf{B}\times \hat{\mathbf{k}})\).</p>]]></text>
+  </answer>
+  <answer fraction="33.33333" format="html">
+    <text><![CDATA[<p>\(\hat{\mathbf{k}}\cdot\mathbf{E} = 0,\;\hat{\mathbf{k}}\cdot\mathbf{B} = 0\)</p>]]></text>
+  </answer>
+  <answer fraction="-100" format="html">
+    <text><![CDATA[<p>\(\hat{\mathbf{k}}\times \mathbf{E} = 0,\;\hat{\mathbf{k}}\times \mathbf{B} = 0\)</p>]]></text>
+  </answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>section:mcq_ii</text></tag>
+    <tag><text>class:12</text></tag>
+    <tag><text>topic:electromagnetic_waves</text></tag>
+    <tag><text>chapter:electromagnetic_waves</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:medium</text></tag>
+    <tag><text>blooms:analyze</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:equation</text></tag>
+    <tag><text>multiconcept:true</text></tag>
+  </tags>
+</question>
+<question type="multichoice">
+  <name><text>NEET_UG_PHYSICS_MCQII_ELECTROMAGNETICWAVES_MCQ_Q810 - Transverse electric and magnetic field pairs along x</text></name>
+  <questiontext format="html">
+    <text><![CDATA[<p>A plane electromagnetic wave propagating along \(x\) direction can have the following pairs of \(\mathbf{E}\) and \(\mathbf{B}\)</p>]]></text>
+  </questiontext>
+  <generalfeedback format="html">
+    <text><![CDATA[<p><strong>Step 1: Conceptual Principles</strong><br/>
+An electromagnetic wave in free space is strictly transverse. When propagating along the \(x\)-direction (\(\hat{\mathbf{i}}\)):<br/>
+- Neither \(\mathbf{E}\) nor \(\mathbf{B}\) can have a component along the direction of propagation, meaning \(E_x = 0\) and \(B_x = 0\).<br/>
+- Both fields must lie in the transverse \(yz\)-plane and be mutually perpendicular.<br/>
+- The propagation direction must satisfy the right-handed orientation \(\mathbf{E} \times \mathbf{B} \parallel \hat{\mathbf{i}}\).</p>
+<p><strong>Step 2: Analysis of Transverse Field Pairs</strong><br/>
+Any pair containing \(E_x\) or \(B_x\) violates transversality and is physically forbidden for a plane wave propagating along the \(x\)-axis.<br/>
+Now evaluate perpendicular pairs confined to the \(yz\)-plane:<br/>
+1. If \(\mathbf{E}\) is directed along \(\hat{\mathbf{j}}\) (\(E_y\)) and \(\mathbf{B}\) is directed along \(\hat{\mathbf{k}}\) (\(B_z\)), then:<br/>
+\[\hat{\mathbf{j}} \times \hat{\mathbf{k}} = \hat{\mathbf{i}}\]<br/>
+This represents a valid linearly polarized wave propagating along the positive \(x\)-direction.<br/>
+2. If \(\mathbf{E}\) is directed along \(\hat{\mathbf{k}}\) (\(E_z\)) and \(\mathbf{B}\) is directed along \(-\hat{\mathbf{j}}\) (or along the \(y\)-axis with opposite phase), then:<br/>
+\[\hat{\mathbf{k}} \times (-\hat{\mathbf{j}}) = \hat{\mathbf{i}}\]<br/>
+This represents the second independent, orthogonal linear polarization state in the transverse plane.</p>
+<p><strong>Step 3: Final Conclusion</strong><br/>
+A wave propagating along the \(x\)-direction can have the transverse field pairs \(E_y, B_z\) and \(E_z, B_y\).<br/>
+Final Answer: \(E_y, B_z\) and \(E_z, B_y\).</p>]]></text>
+  </generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>false</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="-50" format="html">
+    <text><![CDATA[<p>\(E_{x}, B_{y}\)</p>]]></text>
+  </answer>
+  <answer fraction="50" format="html">
+    <text><![CDATA[<p>\(E_{y}, B_{z}\)</p>]]></text>
+  </answer>
+  <answer fraction="-50" format="html">
+    <text><![CDATA[<p>\(B_{x}, E_{y}\)</p>]]></text>
+  </answer>
+  <answer fraction="50" format="html">
+    <text><![CDATA[<p>\(E_{z}, B_{y}\)</p>]]></text>
+  </answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>section:mcq_ii</text></tag>
+    <tag><text>class:12</text></tag>
+    <tag><text>topic:electromagnetic_waves</text></tag>
+    <tag><text>chapter:electromagnetic_waves</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:easy</text></tag>
+    <tag><text>blooms:understand</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:equation</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+<question type="multichoice">
+  <name><text>NEET_UG_PHYSICS_MCQII_ELECTROMAGNETICWAVES_MCQ_Q811 - Frequency and wavelength of waves from oscillating charge</text></name>
+  <questiontext format="html">
+    <text><![CDATA[<p>A charged particle oscillates about its mean equilibrium position with a frequency of \(10^{9}\text{ Hz}\). The electromagnetic waves produced:</p>]]></text>
+  </questiontext>
+  <generalfeedback format="html">
+    <text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>
+Oscillation frequency of the charged particle: \(\nu = 10^9\text{ Hz} = 1\text{ GHz}\).<br/>
+Speed of electromagnetic waves in vacuum: \(c = 3 \times 10^8\text{ m/s}\).</p>
+<p><strong>Step 2: Frequency of Emitted Waves</strong><br/>
+An accelerated oscillating charge produces an alternating electromagnetic field of the exact same frequency as the mechanical oscillation of the charge itself. Therefore, the frequency of the emitted wave is \(\nu = 10^9\text{ Hz}\).</p>
+<p><strong>Step 3: Wavelength Calculation</strong><br/>
+Using the fundamental wave relation \(c = \nu\lambda\):<br/>
+\[\lambda = \frac{c}{\nu} = \frac{3 \times 10^8\text{ m/s}}{10^9\text{ Hz}} = 0.3\text{ m} = 30\text{ cm}\]</p>
+<p><strong>Step 4: Classification in the Electromagnetic Spectrum</strong><br/>
+Radio waves generally encompass the frequency range from a few hertz up to approximately \(10^9\text{ Hz}\) (wavelengths greater than or around \(0.1\text{ m}\) to \(0.3\text{ m}\)). Hence, radiation with \(\nu = 10^9\text{ Hz}\) and \(\lambda = 0.3\text{ m}\) lies within the radiowave spectrum.</p>
+<p><strong>Step 5: Final Conclusion</strong><br/>
+The electromagnetic waves have a frequency of \(10^9\text{ Hz}\), have a wavelength of \(0.3\text{ m}\), and fall in the region of radiowaves.<br/>
+Final Answer: The waves will have frequency of \(10^9\text{ Hz}\), will have a wavelength of \(0.3\text{ m}\), and fall in the region of radiowaves.</p>]]></text>
+  </generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>false</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="33.33333" format="html">
+    <text><![CDATA[<p>will have frequency of \(10^{9}\text{ Hz}\).</p>]]></text>
+  </answer>
+  <answer fraction="-100" format="html">
+    <text><![CDATA[<p>will have frequency of \(2 \times 10^{9}\text{ Hz}\).</p>]]></text>
+  </answer>
+  <answer fraction="33.33333" format="html">
+    <text><![CDATA[<p>will have a wavelength of \(0.3\text{ m}\).</p>]]></text>
+  </answer>
+  <answer fraction="33.33333" format="html">
+    <text><![CDATA[<p>fall in the region of radiowaves.</p>]]></text>
+  </answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>section:mcq_ii</text></tag>
+    <tag><text>class:12</text></tag>
+    <tag><text>topic:electromagnetic_waves</text></tag>
+    <tag><text>chapter:electromagnetic_waves</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:easy</text></tag>
+    <tag><text>blooms:understand</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:text</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+<question type="multichoice">
+  <name><text>NEET_UG_PHYSICS_MCQII_ELECTROMAGNETICWAVES_MCQ_Q812 - Sources of electromagnetic radiation and accelerating charges</text></name>
+  <questiontext format="html">
+    <text><![CDATA[<p>The source of electromagnetic waves can be a charge</p>]]></text>
+  </questiontext>
+  <generalfeedback format="html">
+    <text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>
+Electromagnetic waves are produced whenever an electric charge undergoes acceleration. According to Maxwell's electromagnetic theory, static charges produce only electrostatic fields, and charges moving at constant velocity produce steady magnetic fields without radiating energy.<br/>
+The total power radiated by an accelerated charge is governed by the Larmor formula:<br/>
+\[P = \frac{q^2 a^2}{6\pi \varepsilon_0 c^3}\]<br/>
+where \(a\) is the acceleration of the charge.</p>
+<p><strong>Step 2: Evaluation of Each Case</strong><br/>
+- Charge at rest: The acceleration is zero (\(a = 0\)). It produces only a static Coulomb electric field and radiates no waves.<br/>
+- Charge moving with constant velocity: The velocity is uniform, so the acceleration is zero (\(a = 0\)). It generates steady electric and magnetic fields, but no energy is radiated into space.<br/>
+- Charge moving in a circular orbit: Even if the speed is constant, the direction of motion continuously changes, resulting in a non-zero centripetal acceleration \(a = \frac{v^2}{r} \neq 0\). Thus, it continuously radiates electromagnetic waves (as in synchrotron radiation).<br/>
+- Charge falling in an electric field: An electric field \(\mathbf{E}\) exerts a force \(\mathbf{F} = q\mathbf{E}\) on the charge, giving it a non-zero acceleration \(\mathbf{a} = \frac{q\mathbf{E}}{m} \neq 0\). Being accelerated, it emits electromagnetic radiation.</p>
+<p><strong>Step 3: Final Conclusion</strong><br/>
+A charge moving in a circular orbit and a charge falling in an electric field both experience acceleration and therefore act as sources of electromagnetic waves.<br/>
+Final Answer: moving in a circular orbit, and falling in an electric field.</p>]]></text>
+  </generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>false</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="-50" format="html">
+    <text><![CDATA[<p>moving with a constant velocity.</p>]]></text>
+  </answer>
+  <answer fraction="50" format="html">
+    <text><![CDATA[<p>moving in a circular orbit.</p>]]></text>
+  </answer>
+  <answer fraction="-50" format="html">
+    <text><![CDATA[<p>at rest.</p>]]></text>
+  </answer>
+  <answer fraction="50" format="html">
+    <text><![CDATA[<p>falling in an electric field.</p>]]></text>
+  </answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>section:mcq_ii</text></tag>
+    <tag><text>class:12</text></tag>
+    <tag><text>topic:electromagnetic_waves</text></tag>
+    <tag><text>chapter:electromagnetic_waves</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:easy</text></tag>
+    <tag><text>blooms:remember</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:text</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+<question type="multichoice">
+  <name><text>NEET_UG_PHYSICS_MCQII_ELECTROMAGNETICWAVES_MCQ_Q813 - Radiation pressure on absorbing and reflecting surfaces</text></name>
+  <questiontext format="html">
+    <text><![CDATA[<p>An EM wave of intensity \(I\) falls on a surface kept in vacuum and exerts radiation pressure \(p\) on it. Which of the following are true?</p>]]></text>
+  </questiontext>
+  <generalfeedback format="html">
+    <text><![CDATA[<p><strong>Step 1: Conceptual Principles</strong><br/>
+An electromagnetic wave of intensity \(I\) delivers energy per unit area per unit time equal to \(I\).<br/>
+Linear momentum per unit volume associated with the wave is \(\frac{I}{c^2}\), so the momentum delivered per unit area per second is \(\frac{I}{c}\).<br/>
+Radiation pressure \(p\) equals the rate of momentum transferred per unit area.</p>
+<p><strong>Step 2: Case Analysis</strong><br/>
+- Completely absorbing surface: The incident radiation is fully absorbed, so the initial momentum flux \(\frac{I}{c}\) is brought to rest. The momentum transferred per unit area per unit time is:<br/>
+\[p = \frac{I}{c}\]<br/>
+- Completely reflecting surface: The incident wave with momentum flux \(\frac{I}{c}\) is reflected back with momentum flux \(-\frac{I}{c}\). The change in momentum per unit area per unit time is:<br/>
+\[p = \frac{I}{c} - \left(-\frac{I}{c}\right) = \frac{2I}{c}\]<br/>
+- Real surfaces: Real physical surfaces are neither perfectly absorbing nor perfectly reflecting; they have a reflection coefficient \(r\) such that \(0 < r < 1\). The resulting radiation pressure is:<br/>
+\[p = (1 + r)\frac{I}{c}\]<br/>
+which lies strictly within the intermediate range \(\frac{I}{c} < p < \frac{2I}{c}\).</p>
+<p><strong>Step 3: Final Conclusion</strong><br/>
+Radiation pressure is \(I/c\) if the wave is totally absorbed, \(2I/c\) if the wave is totally reflected, and lies in the range \(I/c < p < 2I/c\) for real surfaces.<br/>
+Final Answer: Radiation pressure is \(I / c\) if the wave is totally absorbed; radiation pressure is \(2I / c\) if the wave is totally reflected; and radiation pressure is in the range \(I / c < p < 2I / c\) for real surfaces.</p>]]></text>
+  </generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>false</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="33.33333" format="html">
+    <text><![CDATA[<p>Radiation pressure is \(I / c\) if the wave is totally absorbed.</p>]]></text>
+  </answer>
+  <answer fraction="-100" format="html">
+    <text><![CDATA[<p>Radiation pressure is \(I / c\) if the wave is totally reflected.</p>]]></text>
+  </answer>
+  <answer fraction="33.33333" format="html">
+    <text><![CDATA[<p>Radiation pressure is \(2I / c\) if the wave is totally reflected.</p>]]></text>
+  </answer>
+  <answer fraction="33.33333" format="html">
+    <text><![CDATA[<p>Radiation pressure is in the range \(I / c < p < 2I / c\) for real surfaces.</p>]]></text>
+  </answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>section:mcq_ii</text></tag>
+    <tag><text>class:12</text></tag>
+    <tag><text>topic:electromagnetic_waves</text></tag>
+    <tag><text>chapter:electromagnetic_waves</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:medium</text></tag>
+    <tag><text>blooms:understand</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:equation</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+</quiz>

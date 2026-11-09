@@ -1,0 +1,243 @@
+<question type="multichoice">
+  <name><text>NEET_UG_PHYSICS_CURRENT_ELECTRICITY_MCQ_Q01 - Direction of current density in circular wire</text></name>
+  <questiontext format="html">
+    <text><![CDATA[<p>Consider a current carrying wire (current \(I\)) in the shape of a circle. Note that as the current progresses along the wire, the direction of \(\mathbf{j}\) (current density) changes in an exact manner, while the current \(I\) remain unaffected. The agent that is <em>essentially</em> responsible for is</p>]]></text>
+  </questiontext>
+  <generalfeedback format="html">
+    <text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>Current density \(\mathbf{j}\) within a conducting wire is related to the local electric field \(\mathbf{E}\) through the microscopic form of Ohm's law, \(\mathbf{j} = \sigma \mathbf{E}\), where \(\sigma\) represents electrical conductivity. For the current density vector to continuously alter its direction along a circular or curved path, the macroscopic electric field \(\mathbf{E}\) inside the conductor must continuously follow and align tangentially with the geometry of the wire at every point.</p><p><strong>Step 2: Origin of the Guiding Electric Field</strong><br/>The electric field driving current through bends in a circuit is not exerted directly from a distance by the battery or emf source alone. Instead, tiny non-uniform surface charges accumulate on the outer boundary and bends of the conducting wire during the transient setup phase.</p><p><strong>Step 3: Steady-State Mechanism</strong><br/>These accumulated surface charges establish an electrostatic field that, when superposed with the field of the power supply, guides the internal electric field smoothly along the curvature of the conductor. This surface-charge electric field continuously steers the conduction electrons around the bend, ensuring that \(\mathbf{j}\) redirects constantly while the total current \(I\) crossing any transverse cross section remains steady and unaffected.</p><p><strong>Step 4: Final Conclusion</strong><br/>The primary physical agent responsible for steering the direction of the current density vector is the electric field produced by charges accumulated on the surface of the wire.</p>]]></text>
+  </generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>source of emf.</p>]]></text>
+  </answer>
+  <answer fraction="100" format="html">
+    <text><![CDATA[<p>electric field produced by charges accumulated on the surface of wire.</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>the charges just behind a given segment of wire which push them just the right way by repulsion.</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>the charges ahead.</p>]]></text>
+  </answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>class:class_12</text></tag>
+    <tag><text>topic:electric_current_and_current_density</text></tag>
+    <tag><text>chapter:current_electricity</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:medium</text></tag>
+    <tag><text>blooms:understand</text></tag>
+    <tag><text>media:text</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+<question type="multichoice">
+  <name><text>NEET_UG_PHYSICS_CURRENT_ELECTRICITY_MCQ_Q02 - Equivalent emf of two cells in parallel</text></name>
+  <questiontext format="html">
+    <text><![CDATA[<p>Two batteries of emf \(\varepsilon_1\) and \(\varepsilon_2\) (\(\varepsilon_2 > \varepsilon_1\)) and internal resistances \(r_1\) and \(r_2\) respectively are connected in parallel as shown in Fig 3.1.</p><p><img src="@@PLUGINFILE@@/img-0.jpeg" alt="Fig 3.1" /></p>]]></text>
+  </questiontext>
+  <generalfeedback format="html">
+    <text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>- Two batteries have electromotive forces \(\varepsilon_1\) and \(\varepsilon_2\) with \(\varepsilon_2 > \varepsilon_1\).<br/>- Internal resistances of the batteries are \(r_1 > 0\) and \(r_2 > 0\).<br/>- The two cells are connected in parallel with aiding polarities across terminals A and B.</p><p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>The equivalent electromotive force \(\varepsilon_{\text{eq}}\) is the terminal potential difference across the parallel combination when the external current drawn from terminals A and B is zero.</p><p><strong>Step 3: Relevant Formulae and Principles</strong><br/>For two parallel cells with positive terminals joined together, the equivalent electromotive force is given by:<br/>\[\varepsilon_{\text{eq}} = \frac{\frac{\varepsilon_1}{r_1} + \frac{\varepsilon_2}{r_2}}{\frac{1}{r_1} + \frac{1}{r_2}} = \frac{\varepsilon_1 r_2 + \varepsilon_2 r_1}{r_1 + r_2}\]</p><p><strong>Step 4: Step-by-Step Working</strong><br/>Subtract \(\varepsilon_1\) from \(\varepsilon_{\text{eq}}\):<br/>\[\varepsilon_{\text{eq}} - \varepsilon_1 = \frac{\varepsilon_1 r_2 + \varepsilon_2 r_1 - \varepsilon_1(r_1 + r_2)}{r_1 + r_2} = \frac{r_1(\varepsilon_2 - \varepsilon_1)}{r_1 + r_2}\]<br/>Because \(\varepsilon_2 > \varepsilon_1\) and internal resistances \(r_1, r_2 > 0\), the term \(\varepsilon_{\text{eq}} - \varepsilon_1 > 0\), which means \(\varepsilon_{\text{eq}} > \varepsilon_1\).<br/><br/>Subtract \(\varepsilon_{\text{eq}}\) from \(\varepsilon_2\):<br/>\[\varepsilon_2 - \varepsilon_{\text{eq}} = \frac{\varepsilon_2(r_1 + r_2) - (\varepsilon_1 r_2 + \varepsilon_2 r_1)}{r_1 + r_2} = \frac{r_2(\varepsilon_2 - \varepsilon_1)}{r_1 + r_2}\]<br/>Because \(\varepsilon_2 > \varepsilon_1\) and \(r_1, r_2 > 0\), this difference is also strictly positive, which means \(\varepsilon_{\text{eq}} < \varepsilon_2\).<br/><br/>Combining both bounds establishes that \(\varepsilon_1 < \varepsilon_{\text{eq}} < \varepsilon_2\).</p><p><strong>Step 5: Check and Final Answer</strong><br/>The expression for \(\varepsilon_{\text{eq}}\) represents a weighted average of \(\varepsilon_1\) and \(\varepsilon_2\) with strictly positive weights \(1/r_1\) and \(1/r_2\), confirming that the equivalent emf must lie strictly between the smaller and larger individual emfs.<br/>Final conceptual answer: The equivalent emf \(\varepsilon_{\text{eq}}\) of the two cells is between \(\varepsilon_1\) and \(\varepsilon_2\), i.e. \(\varepsilon_1 < \varepsilon_{\text{eq}} < \varepsilon_2\).</p>]]></text>
+  </generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="100" format="html">
+    <text><![CDATA[<p>The equivalent emf \(\varepsilon_{\text{eq}}\) of the two cells is between \(\varepsilon_1\) and \(\varepsilon_2\), i.e. \(\varepsilon_1 < \varepsilon_{\text{eq}} < \varepsilon_2\).</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>The equivalent emf \(\varepsilon_{\text{eq}}\) is smaller than \(\varepsilon_1\).</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>The \(\varepsilon_{\text{eq}}\) is given by \(\varepsilon_{\text{eq}} = \varepsilon_1 + \varepsilon_2\) always.</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(\varepsilon_{\text{eq}}\) is independent of internal resistances \(r_1\) and \(r_2\).</p>]]></text>
+  </answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>class:class_12</text></tag>
+    <tag><text>topic:cells_in_parallel</text></tag>
+    <tag><text>chapter:current_electricity</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:medium</text></tag>
+    <tag><text>blooms:analyze</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:diagram</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+<question type="multichoice">
+  <name><text>NEET_UG_PHYSICS_CURRENT_ELECTRICITY_MCQ_Q03 - Improving accuracy of meter bridge measurement</text></name>
+  <questiontext format="html">
+    <text><![CDATA[<p>A resistance \(R\) is to be measured using a meter bridge. Student chooses the standard resistance \(S\) to be \(100\,\Omega\). He finds the null point at \(l_1 = 2.9\text{ cm}\). He is told to attempt to improve the accuracy. Which of the following is a useful way?</p>]]></text>
+  </questiontext>
+  <generalfeedback format="html">
+    <text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>- Total length of the meter bridge wire \(L = 100\text{ cm}\).<br/>- Standard resistance in the right gap \(S = 100\,\Omega\).<br/>- Null point location from the left end \(l_1 = 2.9\text{ cm}\).<br/>- Remaining segment length \(100 - l_1 = 97.1\text{ cm}\).</p><p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>The meter bridge wire is uniform, meaning wire resistance is proportional to segment length. Reading errors in balancing length dominate the fractional measurement uncertainty.</p><p><strong>Step 3: Relevant Formulae and Principles</strong><br/>The unknown resistance \(R\) satisfies the balance condition:<br/>\[\frac{R}{S} = \frac{l_1}{100 - l_1} \implies R = S \left(\frac{l_1}{100 - l_1}\right)\]<br/>The fractional error in \(R\) due to an uncertainty \(\Delta l\) in locating the null point is:<br/>\[\frac{\Delta R}{R} = \frac{\Delta l}{l_1} + \frac{\Delta l}{100 - l_1} = \frac{100\,\Delta l}{l_1(100 - l_1)}\]<br/>This error is minimal when the product \(l_1(100 - l_1)\) is maximal, which occurs precisely at the midpoint of the wire, \(l_1 = 50\text{ cm}\).</p><p><strong>Step 4: Step-by-Step Working</strong><br/>Estimate the value of the unknown resistance \(R\):<br/>\[R = 100\,\Omega \times \frac{2.9\text{ cm}}{97.1\text{ cm}} \approx 2.99\,\Omega \approx 3\,\Omega\]<br/>To position the null point near the center (\(l_1 \approx 50\text{ cm}\)) where bridge sensitivity is maximized and fractional error is minimized, the ratio \(R/S\) should be close to unity:<br/>\[\frac{R}{S} \approx \frac{50}{50} = 1 \implies S \approx R \approx 3\,\Omega\]<br/>Replacing the \(100\,\Omega\) standard resistor with a \(3\,\Omega\) resistor shifts the balance point toward \(50\text{ cm}\).</p><p><strong>Step 5: Check and Final Answer</strong><br/>Choosing a larger standard resistor such as \(1000\,\Omega\) would shift the null point even closer to the end of the wire, severely magnifying fractional errors. Thus, selecting \(S = 3\,\Omega\) is the correct way to achieve high accuracy.<br/>Final conceptual answer: He should change \(S\) to \(3\,\Omega\) and repeat the experiment.</p>]]></text>
+  </generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>He should measure \(l_1\) more accurately.</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>He should change \(S\) to \(1000\,\Omega\) and repeat the experiment.</p>]]></text>
+  </answer>
+  <answer fraction="100" format="html">
+    <text><![CDATA[<p>He should change \(S\) to \(3\,\Omega\) and repeat the experiment.</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>He should give up hope of a more accurate measurement with a meter bridge.</p>]]></text>
+  </answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>class:class_12</text></tag>
+    <tag><text>topic:meter_bridge</text></tag>
+    <tag><text>chapter:current_electricity</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:medium</text></tag>
+    <tag><text>blooms:apply</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:text</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+<question type="multichoice">
+  <name><text>NEET_UG_PHYSICS_CURRENT_ELECTRICITY_MCQ_Q04 - Comparing emfs using a potentiometer</text></name>
+  <questiontext format="html">
+    <text><![CDATA[<p>Two cells of emf's approximately \(5\text{ V}\) and \(10\text{ V}\) are to be accurately compared using a potentiometer of length \(400\text{ cm}\).</p>]]></text>
+  </questiontext>
+  <generalfeedback format="html">
+    <text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>In a potentiometer, the total potential drop across the working wire must strictly exceed the maximum electromotive force of the cells under test; otherwise, no balance point can be formed on the wire. Furthermore, to maximize precision and sensitivity, the potential gradient along the wire should be kept small so that balance lengths are distributed over a substantial portion of the total available wire length.</p><p><strong>Step 2: Evaluation of Operating Conditions</strong><br/>The larger cell has an emf of approximately \(10\text{ V}\). Therefore, a driver battery of \(8\text{ V}\) cannot produce a balance point for the \(10\text{ V}\) cell. Having a potential drop of \(10\text{ V}\) in the first \(50\text{ cm}\) creates an unnecessarily steep potential gradient across that section and leaves the remaining \(350\text{ cm}\) poorly utilized, reducing measuring resolution.</p><p><strong>Step 3: Application to the Given System</strong><br/>Using a driver source of \(15\text{ V}\) along with an adjustable series rheostat \(R\) allows the potential drop across the entire \(400\text{ cm}\) potentiometer wire to be set slightly above \(10\text{ V}\). Under this adjustment, the \(10\text{ V}\) balance point falls near the far end of the wire and the \(5\text{ V}\) balance point falls near the midpoint, utilizing almost the complete \(400\text{ cm}\) span and minimizing relative uncertainty.</p><p><strong>Step 4: Final Conclusion</strong><br/>The battery of potentiometer can have a voltage of \(15\text{ V}\) and \(R\) adjusted so that the potential drop across the wire slightly exceeds \(10\text{ V}\).</p>]]></text>
+  </generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>The battery that runs the potentiometer should have voltage of \(8\text{ V}\).</p>]]></text>
+  </answer>
+  <answer fraction="100" format="html">
+    <text><![CDATA[<p>The battery of potentiometer can have a voltage of \(15\text{ V}\) and \(R\) adjusted so that the potential drop across the wire slightly exceeds \(10\text{ V}\).</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>The first portion of \(50\text{ cm}\) of wire itself should have a potential drop of \(10\text{ V}\).</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>Potentiometer is usually used for comparing resistances and not voltages.</p>]]></text>
+  </answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>class:class_12</text></tag>
+    <tag><text>topic:potentiometer</text></tag>
+    <tag><text>chapter:current_electricity</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:medium</text></tag>
+    <tag><text>blooms:understand</text></tag>
+    <tag><text>media:text</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+<question type="multichoice">
+  <name><text>NEET_UG_PHYSICS_CURRENT_ELECTRICITY_MCQ_Q05 - Maximum resistance of rectangular metal rod</text></name>
+  <questiontext format="html">
+    <text><![CDATA[<p>A metal rod of length \(10\text{ cm}\) and a rectangular cross-section of \(1\text{ cm} \times \frac{1}{2}\text{ cm}\) is connected to a battery across opposite faces. The resistance will be</p>]]></text>
+  </questiontext>
+  <generalfeedback format="html">
+    <text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>- Dimensions of the rectangular block are \(a = 10\text{ cm}\), \(b = 1\text{ cm}\), and \(c = \frac{1}{2}\text{ cm} = 0.5\text{ cm}\).<br/>- The material has uniform electrical resistivity \(\rho\).<br/>- Opposite pairs of faces are connected to a voltage source.</p><p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>Current density is uniform across the cross-sectional area perpendicular to the direction of current flow. When opposite faces separated by distance \(L\) are connected, \(L\) serves as the conduction length and the face area serves as the cross-sectional area \(A\).</p><p><strong>Step 3: Relevant Formulae and Principles</strong><br/>The electrical resistance of a uniform conductor is given by:<br/>\[R = \rho \frac{L}{A}\]<br/>To obtain the maximum resistance, the ratio \(L/A\) must be maximized, which occurs when the current travels through the longest dimension \(L\) across the smallest cross-sectional area \(A\).</p><p><strong>Step 4: Step-by-Step Working</strong><br/>Evaluate the geometric ratio \(L/A\) for each possible pair of opposite faces:<br/>- When connected across the \(1\text{ cm} \times \frac{1}{2}\text{ cm}\) faces:<br/>\[L_1 = 10\text{ cm}, \quad A_1 = 1\text{ cm} \times 0.5\text{ cm} = 0.5\text{ cm}^2\]<br/>\[R_1 = \rho \frac{10}{0.5} = 20\rho\text{ cm}^{-1}\]<br/>- When connected across the \(10\text{ cm} \times 1\text{ cm}\) faces:<br/>\[L_2 = 0.5\text{ cm}, \quad A_2 = 10\text{ cm} \times 1\text{ cm} = 10\text{ cm}^2\]<br/>\[R_2 = \rho \frac{0.5}{10} = 0.05\rho\text{ cm}^{-1}\]<br/>- When connected across the \(10\text{ cm} \times \frac{1}{2}\text{ cm}\) faces:<br/>\[L_3 = 1\text{ cm}, \quad A_3 = 10\text{ cm} \times 0.5\text{ cm} = 5\text{ cm}^2\]<br/>\[R_3 = \rho \frac{1}{5} = 0.2\rho\text{ cm}^{-1}\]<br/>Comparing these values shows that \(R_1 = 20\rho\) is the greatest resistance.</p><p><strong>Step 5: Check and Final Answer</strong><br/>The largest path length paired with the smallest cross section yields the highest resistance, which corresponds to conducting across the \(1\text{ cm} \times \frac{1}{2}\text{ cm}\) faces.<br/>Final conceptual answer: The resistance will be maximum when the battery is connected across \(1\text{ cm} \times \frac{1}{2}\text{ cm}\) faces.</p>]]></text>
+  </generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="100" format="html">
+    <text><![CDATA[<p>maximum when the battery is connected across \(1\text{ cm} \times \frac{1}{2}\text{ cm}\) faces.</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>maximum when the battery is connected across \(10\text{ cm} \times 1\text{ cm}\) faces.</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>maximum when the battery is connected across \(10\text{ cm} \times \frac{1}{2}\text{ cm}\) faces.</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>same irrespective of the three faces.</p>]]></text>
+  </answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>class:class_12</text></tag>
+    <tag><text>topic:resistance_and_resistivity</text></tag>
+    <tag><text>chapter:current_electricity</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:easy</text></tag>
+    <tag><text>blooms:apply</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:text</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+<question type="multichoice">
+  <name><text>NEET_UG_PHYSICS_CURRENT_ELECTRICITY_MCQ_Q06 - Electron characteristic determining electric current</text></name>
+  <questiontext format="html">
+    <text><![CDATA[<p>Which of the following characteristics of electrons determines the current in a conductor?</p>]]></text>
+  </questiontext>
+  <generalfeedback format="html">
+    <text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>Electric current \(I\) through a conductor represents the net macroscopic rate of charge transfer through its cross-sectional area per unit time. Microscopic drift theory expresses current as:<br/>\[I = n e A v_d\]<br/>where \(n\) is the number density of free conduction electrons, \(e\) is the fundamental electron charge, \(A\) is the cross-sectional area of the conductor, and \(v_d\) is the average drift speed of the electrons.</p><p><strong>Step 2: Role of Thermal Velocity</strong><br/>In a conductor at room temperature, electrons undergo violent thermal motion with speeds on the order of \(10^5\text{ m/s}\). However, thermal velocities are completely random in direction and obey an isotropic distribution, yielding a zero net vector sum across all electrons:<br/>\[\langle \mathbf{v}_{\text{thermal}} \rangle = 0\]<br/>Because the thermal velocities cancel out symmetrically in every direction, thermal motion causes no net spatial displacement of charge and therefore does not contribute to the electric current.</p><p><strong>Step 3: Role of Drift Velocity</strong><br/>When an electric field is applied, an electrostatic force superimposes a net directional movement on top of the random thermal motion. Even though the magnitude of the drift velocity is modest (typically on the order of \(10^{-4}\text{ m/s}\)), its non-zero directional average across all conduction electrons results in a net transport of charge along the conductor.</p><p><strong>Step 4: Final Conclusion</strong><br/>The net flow of charge constituting electric current in a conductor is determined by the drift velocity alone.</p>]]></text>
+  </generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="100" format="html">
+    <text><![CDATA[<p>Drift velocity alone.</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>Thermal velocity alone.</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>Both drift velocity and thermal velocity.</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>Neither drift nor thermal velocity.</p>]]></text>
+  </answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>class:class_12</text></tag>
+    <tag><text>topic:drift_velocity_and_ohms_law</text></tag>
+    <tag><text>chapter:current_electricity</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:easy</text></tag>
+    <tag><text>blooms:remember</text></tag>
+    <tag><text>media:text</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>

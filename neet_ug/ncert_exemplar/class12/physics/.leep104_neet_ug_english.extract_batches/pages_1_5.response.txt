@@ -1,0 +1,305 @@
+<question type="multichoice">
+  <name><text>NEET_UG_PHYSICS_MOVING_CHARGES_AND_MAGNETISM_MCQ_Q01 - Charged particles traversing identical helical paths</text></name>
+  <questiontext format="html">
+    <text><![CDATA[<p>Two charged particles traverse <em>identical</em> helical paths in a completely opposite sense in a uniform magnetic field \(\mathbf{B} = B_0 \hat{\mathbf{k}}\).</p>]]></text>
+  </questiontext>
+  <generalfeedback format="html">
+    <text><![CDATA[
+      <p><strong>Step 1: Given Data and Physical Conditions</strong><br/>Two charged particles move in a uniform magnetic field \(\mathbf{B} = B_0 \hat{\mathbf{k}}\) and traverse identical helical paths in completely opposite senses.</p>
+      <p><strong>Step 2: Relevant Formulae and Principles</strong><br/>For a particle of mass \(m\) and charge \(q\) moving in a uniform magnetic field with velocity components \(v_\perp\) perpendicular to the field and \(v_\parallel\) parallel to the field, the radius of the helical path is given by:
+\[r = \frac{m v_\perp}{|q| B_0}\]
+The pitch of the helix, representing the distance advanced along the magnetic field per revolution period \(T\), is:
+\[p = v_\parallel T = v_\parallel \left(\frac{2\pi m}{|q| B_0}\right)\]
+The sense of rotation in the plane perpendicular to the field is dictated by the direction of the magnetic Lorentz force \(\mathbf{F} = q(\mathbf{v} \times \mathbf{B})\).</p>
+      <p><strong>Step 3: Step-by-Step Evaluation</strong><br/>Because the helical paths are geometrically identical, their radii and pitches must be equal:
+\[r_1 = r_2 \implies \frac{m_1 v_{\perp, 1}}{|q_1| B_0} = \frac{m_2 v_{\perp, 2}}{|q_2| B_0}\]
+Traversing identical paths in an opposite sense requires opposite directions of circular deflection in the plane perpendicular to the field. Under a given magnetic field, opposite deflection requires opposite signs of electric charge:
+\[\operatorname{sgn}(q_1) = -\operatorname{sgn}(q_2)\]
+For identical geometry, the magnitude of the charge-to-mass ratio must also be identical:
+\[\left|\frac{q_1}{m_1}\right| = \left|\frac{q_2}{m_2}\right|\]
+Combining the equal magnitudes and opposite signs of the specific charges gives:
+\[\left(\frac{e}{m}\right)_1 = -\left(\frac{e}{m}\right)_2 \implies \left(\frac{e}{m}\right)_1 + \left(\frac{e}{m}\right)_2 = 0\]
+The individual charges or masses need not be individually identical, and the particles need not be an antiparticle pair.</p>
+      <p><strong>Step 4: Check and Final Conclusion</strong><br/>Opposite traversal of identical helical paths requires equal magnitude and opposite sign of the charge-to-mass ratio. Thus, the charge to mass ratio satisfies \(\left(\frac{e}{m}\right)_1 + \left(\frac{e}{m}\right)_2 = 0\).</p>
+    ]]></text>
+  </generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>They have equal z-components of momenta.</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>They must have equal charges.</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>They necessarily represent a particle-antiparticle pair.</p>]]></text>
+  </answer>
+  <answer fraction="100" format="html">
+    <text><![CDATA[<p>The charge to mass ratio satisfy : \(\left(\frac{e}{m}\right)_1 + \left(\frac{e}{m}\right)_2 = 0\).</p>]]></text>
+  </answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>chapter:moving_charges_and_magnetism</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:medium</text></tag>
+    <tag><text>blooms:understand</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:text</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+<question type="multichoice">
+  <name><text>NEET_UG_PHYSICS_MOVING_CHARGES_AND_MAGNETISM_MCQ_Q02 - Magnetic field produced by moving electrons</text></name>
+  <questiontext format="html">
+    <text><![CDATA[<p>Biot-Savart law indicates that the moving electrons (velocity \(\mathbf{v}\)) produce a magnetic field \(\mathbf{B}\) such that</p>]]></text>
+  </questiontext>
+  <generalfeedback format="html">
+    <text><![CDATA[
+      <p><strong>Step 1: Conceptual Principle</strong><br/>According to the Biot-Savart law, a moving point charge \(q\) moving with velocity \(\mathbf{v}\) produces a magnetic field \(\mathbf{B}\) at a position vector \(\mathbf{r}\) relative to the charge given by:
+\[\mathbf{B} = \frac{\mu_0}{4\pi} \frac{q (\mathbf{v} \times \hat{\mathbf{r}})}{r^2}\]
+where \(\hat{\mathbf{r}}\) is the unit vector pointing from the moving charge to the point of observation, and \(r\) is the distance between them.</p>
+      <p><strong>Step 2: Vector Direction Analysis</strong><br/>By the fundamental properties of the vector cross product, the resulting vector \(\mathbf{v} \times \hat{\mathbf{r}}\) is mutually perpendicular to both \(\mathbf{v}\) and \(\hat{\mathbf{r}}\):
+\[(\mathbf{v} \times \hat{\mathbf{r}}) \cdot \mathbf{v} = 0 \implies \mathbf{B} \cdot \mathbf{v} = 0\]
+Consequently, the magnetic field \(\mathbf{B}\) is perpendicular to the velocity vector \(\mathbf{v}\), which is expressed as \(\mathbf{B} \perp \mathbf{v}\).</p>
+      <p><strong>Step 3: Distance Dependence and Direction Relative to Position Line</strong><br/>The magnitude of the field obeys an inverse-square law (\(B \propto 1/r^2\)) rather than an inverse-cube law. Furthermore, because \(\mathbf{B}\) is normal to \(\hat{\mathbf{r}}\), it is oriented perpendicular to the line joining the electron and the point of observation, not parallel to it.</p>
+      <p><strong>Step 4: Final Conclusion</strong><br/>The moving electrons produce a magnetic field \(\mathbf{B}\) such that \(\mathbf{B} \perp \mathbf{v}\).</p>
+    ]]></text>
+  </generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="100" format="html">
+    <text><![CDATA[<p>\(\mathbf{B} \perp \mathbf{v}\).</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(\mathbf{B} \parallel \mathbf{v}\).</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>it obeys inverse cube law.</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>it is along the line joining the electron and point of observation.</p>]]></text>
+  </answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>chapter:moving_charges_and_magnetism</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:easy</text></tag>
+    <tag><text>blooms:remember</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:text</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+<question type="multichoice">
+  <name><text>NEET_UG_PHYSICS_MOVING_CHARGES_AND_MAGNETISM_MCQ_Q03 - Magnetic moment of bent circular loop</text></name>
+  <questiontext format="html">
+    <text><![CDATA[<p>A current carrying circular loop of radius \(R\) is placed in the \(x\)-\(y\) plane with centre at the origin. Half of the loop with \(x > 0\) is now bent so that it now lies in the \(y\)-\(z\) plane.</p>]]></text>
+  </questiontext>
+  <generalfeedback format="html">
+    <text><![CDATA[
+      <p><strong>Step 1: Given Data and Initial Configuration</strong><br/>A complete planar circular loop of radius \(R\) carrying steady current \(I\) initially lies in the \(x\)-\(y\) plane. Its magnetic moment vector is perpendicular to the loop plane along the \(z\)-axis:
+\[\mathbf{M}_{\text{initial}} = I A \hat{\mathbf{k}} = I (\pi R^2)\hat{\mathbf{k}}\]
+The initial magnitude is \(M_{\text{initial}} = I\pi R^2\).</p>
+      <p><strong>Step 2: Analysis of the Bent Sections</strong><br/>When the half of the loop with \(x > 0\) is bent into the \(y\)-\(z\) plane, the coil is effectively divided into two planar semicircular loops, each enclosing an area of \(\frac{\pi R^2}{2}\). The remaining half in the \(x\)-\(y\) plane has magnetic moment:
+\[\mathbf{M}_1 = I\left(\frac{\pi R^2}{2}\right)\hat{\mathbf{k}}\]
+The bent half in the \(y\)-\(z\) plane has its normal oriented along the \(x\)-axis:
+\[\mathbf{M}_2 = I\left(\frac{\pi R^2}{2}\right)\hat{\mathbf{i}}\]</p>
+      <p><strong>Step 3: Calculation of Net Magnetic Moment Magnitude</strong><br/>Since \(\mathbf{M}_1\) and \(\mathbf{M}_2\) are mutually perpendicular, the net magnetic moment vector is:
+\[\mathbf{M}_{\text{final}} = \mathbf{M}_1 + \mathbf{M}_2 = \frac{I\pi R^2}{2}\hat{\mathbf{i}} + \frac{I\pi R^2}{2}\hat{\mathbf{k}}\]
+The magnitude of the new magnetic moment is:
+\[|\mathbf{M}_{\text{final}}| = \sqrt{\left(\frac{I\pi R^2}{2}\right)^2 + \left(\frac{I\pi R^2}{2}\right)^2} = \frac{I\pi R^2}{\sqrt{2}} = \frac{M_{\text{initial}}}{\sqrt{2}}\]
+Because \(\frac{1}{\sqrt{2}} < 1\), the magnitude of the magnetic moment diminishes.</p>
+      <p><strong>Step 4: Check of Magnetic Field at Distant Axial Coordinates</strong><br/>At distant points \((0, 0, z)\) with \(z \gg R\), the magnetic field along the \(z\)-axis depends directly on the \(z\)-component of the dipole moment. Since this component decreases from \(I\pi R^2\) to \(\frac{I\pi R^2}{2}\), the magnitude of \(\mathbf{B}\) at \((0, 0, z)\) decreases.</p>
+      <p><strong>Step 5: Final Conclusion</strong><br/>The magnitude of magnetic moment now diminishes.</p>
+    ]]></text>
+  </generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="100" format="html">
+    <text><![CDATA[<p>The magnitude of magnetic moment now diminishes.</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>The magnetic moment does not change.</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>The magnitude of \(\mathbf{B}\) at \((0, 0, z)\), \(z \gg R\) increases.</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>The magnitude of \(\mathbf{B}\) at \((0, 0, z)\), \(z \gg R\) is unchanged.</p>]]></text>
+  </answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>chapter:moving_charges_and_magnetism</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:medium</text></tag>
+    <tag><text>blooms:apply</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:text</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+<question type="multichoice">
+  <name><text>NEET_UG_PHYSICS_MOVING_CHARGES_AND_MAGNETISM_MCQ_Q04 - Motion of electron along solenoid axis</text></name>
+  <questiontext format="html">
+    <text><![CDATA[<p>An electron is projected with uniform velocity along the axis of a current carrying long solenoid. Which of the following is true?</p>]]></text>
+  </questiontext>
+  <generalfeedback format="html">
+    <text><![CDATA[
+      <p><strong>Step 1: Given Conditions and Physical System</strong><br/>An electron of charge \(-e\) moves with uniform velocity \(\mathbf{v}\) along the longitudinal axis of an ideal, current-carrying long solenoid.</p>
+      <p><strong>Step 2: Orientation of Velocity and Magnetic Field</strong><br/>Inside a long solenoid, the magnetic field \(\mathbf{B}\) is uniform, steady, and oriented parallel to the central axis. Because the electron is projected along this axis, its velocity vector \(\mathbf{v}\) and the magnetic field vector \(\mathbf{B}\) are collinear, with angle \(\theta = 0^{\circ}\) or \(\theta = 180^{\circ}\).</p>
+      <p><strong>Step 3: Evaluation of the Magnetic Force</strong><br/>The magnetic Lorentz force on a moving charge is:
+\[\mathbf{F} = q(\mathbf{v} \times \mathbf{B})\]
+The magnitude of this force is:
+\[F = |q| v B \sin\theta\]
+Substituting \(\theta = 0^{\circ}\) or \(180^{\circ}\) yields:
+\[\sin\theta = 0 \implies F = 0\]
+Because the magnetic force is identically zero and no other unbalanced forces act on the electron, its acceleration is zero.</p>
+      <p><strong>Step 4: Check and Final Conclusion</strong><br/>In the absence of any net force, the electron obeys Newton's first law and maintains uniform motion without any change in direction or speed. Therefore, the electron will continue to move with uniform velocity along the axis of the solenoid.</p>
+    ]]></text>
+  </generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>The electron will be accelerated along the axis.</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>The electron path will be circular about the axis.</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>The electron will experience a force at \(45^{\circ}\) to the axis and hence execute a helical path.</p>]]></text>
+  </answer>
+  <answer fraction="100" format="html">
+    <text><![CDATA[<p>The electron will continue to move with uniform velocity along the axis of the solenoid.</p>]]></text>
+  </answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>chapter:moving_charges_and_magnetism</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:easy</text></tag>
+    <tag><text>blooms:understand</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:text</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+<question type="multichoice">
+  <name><text>NEET_UG_PHYSICS_MOVING_CHARGES_AND_MAGNETISM_MCQ_Q05 - Acceleration of charged particle in cyclotron</text></name>
+  <questiontext format="html">
+    <text><![CDATA[<p>In a cyclotron, a charged particle</p>]]></text>
+  </questiontext>
+  <generalfeedback format="html">
+    <text><![CDATA[
+      <p><strong>Step 1: Conceptual Principles of Cyclotron Operation</strong><br/>A cyclotron accelerates charged particles using a static, uniform magnetic field inside two hollow D-shaped metallic containers (dees) and a high-frequency alternating electric field across the gap between them.</p>
+      <p><strong>Step 2: Acceleration Inside the Dees</strong><br/>Inside the dees, the electric field is zero due to electrostatic shielding by the metallic walls. The perpendicular magnetic field exerts a Lorentz magnetic force:
+\[\mathbf{F} = q(\mathbf{v} \times \mathbf{B})\]
+Because this force is always perpendicular to the instantaneous velocity, the speed of the particle remains constant. However, the continuous change in the direction of the velocity vector represents a non-zero centripetal acceleration:
+\[a_c = \frac{v^2}{r} = \frac{q v B}{m}\]</p>
+      <p><strong>Step 3: Acceleration in the Gap Between Dees</strong><br/>In the narrow gap between the dees, an oscillating electric field exerts a force \(\mathbf{F} = q\mathbf{E}\) collinear with the velocity. This produces tangential acceleration, increasing the particle's speed and kinetic energy before it re-enters the dees.</p>
+      <p><strong>Step 4: Final Conclusion</strong><br/>Because the particle undergoes centripetal acceleration inside the dees and tangential acceleration in the gap between the dees, the charged particle undergoes acceleration all the time.</p>
+    ]]></text>
+  </generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="100" format="html">
+    <text><![CDATA[<p>undergoes acceleration all the time.</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>speeds up between the dees because of the magnetic field.</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>speeds up in a dee.</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>slows down within a dee and speeds up between dees.</p>]]></text>
+  </answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>chapter:moving_charges_and_magnetism</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:easy</text></tag>
+    <tag><text>blooms:understand</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:text</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+<question type="multichoice">
+  <name><text>NEET_UG_PHYSICS_MOVING_CHARGES_AND_MAGNETISM_MCQ_Q06 - Work done rotating magnetic dipole loop</text></name>
+  <questiontext format="html">
+    <text><![CDATA[<p>A circular current loop of magnetic moment \(M\) is in an arbitrary orientation in an external magnetic field \(\mathbf{B}\). The work done to rotate the loop by \(30^{\circ}\) about an axis perpendicular to its plane is</p>]]></text>
+  </questiontext>
+  <generalfeedback format="html">
+    <text><![CDATA[
+      <p><strong>Step 1: Given Conditions and Physical Model</strong><br/>A circular loop with magnetic dipole moment \(\mathbf{M}\) is placed in an arbitrary orientation in an external magnetic field \(\mathbf{B}\). The loop is rotated by \(30^{\circ}\) about an axis perpendicular to the plane of the loop.</p>
+      <p><strong>Step 2: Potential Energy Formula</strong><br/>The magnetic potential energy of a current loop in an external magnetic field is given by:
+\[U = -\mathbf{M} \cdot \mathbf{B} = -M B \cos\theta\]
+where \(\theta\) is the angle between the magnetic dipole moment vector \(\mathbf{M}\) and the magnetic field vector \(\mathbf{B}\).</p>
+      <p><strong>Step 3: Geometry of the Rotation</strong><br/>The magnetic moment vector \(\mathbf{M}\) of a planar circular loop is perpendicular to the plane of the loop. The specified axis of rotation is also perpendicular to the plane of the loop, which means the axis of rotation is parallel to \(\mathbf{M}\). Rotating the loop about this axis spins the loop within its own geometric plane, causing no change in the spatial orientation of the normal vector \(\mathbf{M}\).</p>
+      <p><strong>Step 4: Work Done Evaluation</strong><br/>Since the direction of \(\mathbf{M}\) remains completely unchanged relative to \(\mathbf{B}\), the angle \(\theta\) between them does not vary:
+\[\Delta \theta = 0 \implies U_{\text{final}} = U_{\text{initial}}\]
+The work done by an external torque to effect this rotation is equal to the change in magnetic potential energy:
+\[W = \Delta U = U_{\text{final}} - U_{\text{initial}} = 0\]</p>
+      <p><strong>Step 5: Final Conclusion</strong><br/>The work done to rotate the loop by \(30^{\circ}\) about an axis perpendicular to its plane is zero.</p>
+    ]]></text>
+  </generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(MB\)</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(\sqrt{3}\frac{MB}{2}\).</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(\frac{MB}{2}\).</p>]]></text>
+  </answer>
+  <answer fraction="100" format="html">
+    <text><![CDATA[<p>zero.</p>]]></text>
+  </answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>chapter:moving_charges_and_magnetism</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:easy</text></tag>
+    <tag><text>blooms:understand</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:text</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>

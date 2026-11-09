@@ -1,0 +1,83 @@
+{
+  "schema_version": 1,
+  "status": "completed",
+  "operation": "full",
+  "source_pdf": "leep501.pdf",
+  "source_sha256": "821c4b4f08ba11ee972d18e133edb0fabcf038efa5091fbf6b326ae3cba03347",
+  "configuration": {
+    "communicator": "AgentSessionBackend",
+    "model_name": "gemini-3.8-flash",
+    "agent_name": "antigravity-preview-09-2026",
+    "agent_type": "antigravity",
+    "bucket_name": null,
+    "ocr_model": "mistral-ocr-latest",
+    "page_check_model_name": "gemini-3.6-flash",
+    "languages": [
+      "english"
+    ],
+    "standards": "neet_ug",
+    "tags": "",
+    "page_range": null,
+    "no_instruction_page": false,
+    "instruction_page": 1,
+    "output_format": "xml",
+    "pdf_engine": "html",
+    "batch_size": 5,
+    "verify_online": false,
+    "rules_sha256": "ac4d9c809f092109c95bbaf4968d9f72c09090e161bc6d8a0dfa5ed3679d233b"
+  },
+  "output_file": "leep501_neet_ug_english.xml",
+  "batch_ids": [
+    "pages_1_5",
+    "pages_6_10",
+    "pages_11_15",
+    "pages_16_16"
+  ],
+  "batches": [
+    {
+      "id": "pages_1_5",
+      "status": "completed",
+      "page_start": 1,
+      "page_end": 5,
+      "response_file": "pages_1_5.response.txt",
+      "questions_file": "pages_1_5.xml",
+      "question_count": 29,
+      "error": null,
+      "attempt_count": 1
+    },
+    {
+      "id": "pages_6_10",
+      "status": "completed",
+      "page_start": 6,
+      "page_end": 10,
+      "response_file": "pages_6_10.response.txt",
+      "questions_file": "pages_6_10.xml",
+      "question_count": 24,
+      "error": null,
+      "attempt_count": 1
+    },
+    {
+      "id": "pages_11_15",
+      "status": "completed",
+      "page_start": 11,
+      "page_end": 15,
+      "response_file": "pages_11_15.response.txt",
+      "questions_file": "pages_11_15.xml",
+      "question_count": 10,
+      "error": null,
+      "attempt_count": 1
+    },
+    {
+      "id": "pages_16_16",
+      "status": "completed",
+      "page_start": 16,
+      "page_end": 16,
+      "response_file": "pages_16_16.response.txt",
+      "questions_file": "pages_16_16.xml",
+      "question_count": 0,
+      "error": null,
+      "attempt_count": 1
+    }
+  ],
+  "final_sha256": "b3dd0a9bb0b61eb8f2ab84d3ee2f0f34cdf941e7ff2c6cab8a5ed6e79393b4bf"
+}

@@ -1,0 +1,567 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+<question type="multichoice">
+  <name><text>NEET_UG_PHYSICS_MCQI_NUCLEI_MCQ_Q01 - Radioactive decay of large number of containers</text></name>
+  <questiontext format="html"><text><![CDATA[<p>Suppose we consider a large number of containers each containing initially 10000 atoms of a radioactive material with a half life of 1 year. After 1 year,</p>
+<hr/>
+<p>मान लीजिए कि हम बड़ी संख्या में ऐसे पात्रों पर विचार करते हैं जिनमें से प्रत्येक में प्रारंभ में 1 वर्ष की अर्ध-आयु वाले एक रेडियोएक्टिव पदार्थ के 10000 परमाणु हैं। 1 वर्ष के बाद,</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>
+Radioactive decay is an intrinsically random and statistical process governed by the laws of probability. For any individual radioactive nucleus, the probability of decaying within one half-life is exactly \(0.5\), and the probability of surviving undecayed is also \(0.5\).</p>
+<p><strong>Step 2: Statistical Behavior of a Finite Sample</strong><br/>
+For a system starting with \(N_0 = 10000\) identical nuclei, the number of undecayed nuclei remaining in any specific container after one half-life fluctuates statistically around the expected value \(\mu = N_0 / 2 = 5000\). The standard deviation of this binomial distribution is given by \(\sigma = \sqrt{N_0 p (1-p)} = \sqrt{10000 \times 0.5 \times 0.5} = 50\). Because of these statistical fluctuations, individual containers will not all end up with identical numbers of atoms; some will have slightly more than 5000, and some will have slightly fewer than 5000.</p>
+<p><strong>Step 3: Average Over a Large Number of Containers</strong><br/>
+According to the law of large numbers, when an ensemble consisting of a very large number of independent identical containers is observed, the fluctuations in opposite directions cancel out. Consequently, the arithmetic mean of the number of surviving atoms across all containers approaches the theoretical expectation value of 5000 very closely.</p>
+<p><strong>Step 4: Final Conclusion</strong><br/>
+In general, individual containers will hold different numbers of radioactive atoms, but their overall average will be close to 5000.</p>
+<hr/>
+<p><strong>चरण 1: संकल्पनात्मक सिद्धांत</strong><br/>
+रेडियोएक्टिव क्षय प्रायिकता के नियमों द्वारा संचालित एक आंतरिक रूप से यादृच्छिक (random) और सांख्यिकीय प्रक्रिया है। किसी भी एकल रेडियोएक्टिव नाभिक के लिए, एक अर्ध-आयु के भीतर क्षयित होने की प्रायिकता ठीक \(0.5\) होती है, और बिना क्षयित हुए बचे रहने की प्रायिकता भी \(0.5\) होती है।</p>
+<p><strong>चरण 2: सीमित नमूने का सांख्यिकीय व्यवहार</strong><br/>
+प्रारंभ में \(N_0 = 10000\) समान नाभिकों वाले निकाय के लिए, एक अर्ध-आयु के बाद किसी विशिष्ट पात्र में शेष बचे नाभिकों की संख्या प्रत्याशित मान \(\mu = N_0 / 2 = 5000\) के चारों ओर सांख्यिकीय रूप से विचलित होती है। इस द्विपद वितरण का मानक विचलन \(\sigma = \sqrt{N_0 p (1-p)} = \sqrt{10000 \times 0.5 \times 0.5} = 50\) होता है। इन सांख्यिकीय उतार-चढ़ावों के कारण, अलग-अलग पात्रों में परमाणुओं की संख्या बिल्कुल समान नहीं होगी; कुछ में 5000 से थोड़े अधिक होंगे और कुछ में 5000 से थोड़े कम होंगे।</p>
+<p><strong>चरण 3: पात्रों की बड़ी संख्या पर औसत</strong><br/>
+बड़ी संख्याओं के नियम के अनुसार, जब बहुत बड़ी संख्या में स्वतंत्र समान पात्रों के समुच्चय का अवलोकन किया जाता है, तो विपरीत दिशाओं के उतार-चढ़ाव एक-दूसरे को निरस्त कर देते हैं। परिणामस्वरूप, सभी पात्रों में शेष बचे परमाणुओं की संख्या का समांतर माध्य सैद्धांतिक प्रत्याशित मान 5000 के अत्यंत निकट पहुँच जाता है।</p>
+<p><strong>चरण 4: अंतिम निष्कर्ष</strong><br/>
+सामान्यतः, अलग-अलग पात्रों में रेडियोएक्टिव परमाणुओं की संख्या भिन्न-भिन्न होगी, परंतु उनका समग्र औसत 5000 के निकट होगा।</p>]]></text></generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="0" format="html"><text><![CDATA[<p>all the containers will have 5000 atoms of the material.</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>all the containers will contain the same number of atoms of the material but that number will only be approximately 5000.</p>]]></text></answer>
+  <answer fraction="100" format="html"><text><![CDATA[<p>the containers will in general have different numbers of the atoms of the material but their average will be close to 5000.</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>none of the containers can have more than 5000 atoms.</p>]]></text></answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:hi</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>section:mcq_i</text></tag>
+    <tag><text>class:class_12</text></tag>
+    <tag><text>topic:radioactivity</text></tag>
+    <tag><text>chapter:nuclei</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:medium</text></tag>
+    <tag><text>blooms:understand</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:text</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+<question type="multichoice">
+  <name><text>NEET_UG_PHYSICS_MCQI_NUCLEI_MCQ_Q02 - Gravitational force between hydrogen atom and particle</text></name>
+  <questiontext format="html"><text><![CDATA[<p>The gravitational force between a H-atom and another particle of mass \(m\) will be given by Newton's law:<br/>
+\[F = G \frac{M \cdot m}{r^2}, \text{ where } r \text{ is in km and}\]</p>
+<hr/>
+<p>एक H-परमाणु और द्रव्यमान \(m\) के किसी अन्य कण के बीच गुरुत्वाकर्षण बल न्यूटन के नियम द्वारा दिया जाएगा:<br/>
+\[F = G \frac{M \cdot m}{r^2}, \text{ जहाँ } r \text{ km में है तथा}\]</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>
+A hydrogen atom consists of one proton and one orbital electron bound by electromagnetic interaction. The binding energy of the hydrogen atom in its ground state is given as \(B = 13.6\text{ eV}\). Newton's law of universal gravitation describes the attractive force between the total effective gravitational mass \(M\) of the hydrogen atom and an external particle of mass \(m\) separated by distance \(r\).</p>
+<p><strong>Step 2: Mass-Energy Equivalence Principle</strong><br/>
+According to Einstein's mass-energy equivalence relation, \(E_0 = M c^2\), the inertial mass (and by the equivalence principle, the gravitational mass) of any bound composite system in its rest frame is determined by its total rest energy divided by \(c^2\).</p>
+<p><strong>Step 3: Energy of the Bound Hydrogen Atom</strong><br/>
+The total energy of a stationary hydrogen atom in its ground state includes the rest energy of the proton, the rest energy of the electron, and the negative potential/binding energy of the bound state:<br/>
+\[E_0 = m_{\text{proton}} c^2 + m_{\text{electron}} c^2 - B\]
+where \(B = 13.6\text{ eV}\) is the binding energy released upon formation of the bound atom.</p>
+<p><strong>Step 4: Step-by-Step Working</strong><br/>
+Dividing the total rest energy by \(c^2\) yields the effective gravitational mass \(M\):<br/>
+\[M = \frac{E_0}{c^2} = m_{\text{proton}} + m_{\text{electron}} - \frac{B}{c^2}\]</p>
+<p><strong>Step 5: Check and Final Conclusion</strong><br/>
+Because the system is bound, its total energy is less than the sum of the energies of the separated constituent particles by exactly the binding energy \(B\). Hence, the correct effective mass is \(M = m_{\text{proton}} + m_{\text{electron}} - \frac{B}{c^2}\) with \(B = 13.6\text{ eV}\).</p>
+<hr/>
+<p><strong>चरण 1: दिए गए आँकड़े और स्थितियाँ</strong><br/>
+एक हाइड्रोजन परमाणु में विद्युत-चुंबकीय अन्योन्यक्रिया द्वारा आबंधित एक प्रोटॉन और एक कक्षीय इलेक्ट्रॉन होता है। मूल अवस्था में हाइड्रोजन परमाणु की बंधन ऊर्जा \(B = 13.6\text{ eV}\) दी गई है। न्यूटन का सार्वत्रिक गुरुत्वाकर्षण नियम हाइड्रोजन परमाणु के कुल प्रभावी गुरुत्वीय द्रव्यमान \(M\) और दूरी \(r\) पर स्थित द्रव्यमान \(m\) के किसी बाहरी कण के बीच आकर्षण बल का वर्णन करता है।</p>
+<p><strong>चरण 2: द्रव्यमान-ऊर्जा समतुल्यता सिद्धांत</strong><br/>
+आइंस्टीन के द्रव्यमान-ऊर्जा समतुल्यता संबंध \(E_0 = M c^2\) के अनुसार, अपने विराम फ्रेम में किसी भी आबंधित संयुक्त निकाय का जड़त्वीय द्रव्यमान (तथा समतुल्यता सिद्धांत के अनुसार, गुरुत्वीय द्रव्यमान) उसकी कुल विराम ऊर्जा को \(c^2\) से विभाजित करके निर्धारित होता है।</p>
+<p><strong>चरण 3: आबंधित हाइड्रोजन परमाणु की ऊर्जा</strong><br/>
+अपनी मूल अवस्था में एक स्थिर हाइड्रोजन परमाणु की कुल ऊर्जा में प्रोटॉन की विराम ऊर्जा, इलेक्ट्रॉन की विराम ऊर्जा, और आबंधित अवस्था की ऋणात्मक स्थितिज/बंधन ऊर्जा सम्मिलित होती है:<br/>
+\[E_0 = m_{\text{proton}} c^2 + m_{\text{electron}} c^2 - B\]
+जहाँ \(B = 13.6\text{ eV}\) आबंधित परमाणु के निर्माण पर मुक्त होने वाली बंधन ऊर्जा है।</p>
+<p><strong>चरण 4: चरणबद्ध गणना</strong><br/>
+कुल विराम ऊर्जा को \(c^2\) से विभाजित करने पर प्रभावी गुरुत्वीय द्रव्यमान \(M\) प्राप्त होता है:<br/>
+\[M = \frac{E_0}{c^2} = m_{\text{proton}} + m_{\text{electron}} - \frac{B}{c^2}\]</p>
+<p><strong>चरण 5: जाँच और अंतिम निष्कर्ष</strong><br/>
+चूँकि निकाय आबंधित है, इसकी कुल ऊर्जा घटक कणों की अलग-अलग ऊर्जाओं के योग से ठीक बंधन ऊर्जा \(B\) के बराबर कम होती है। अतः, सही प्रभावी द्रव्यमान \(M = m_{\text{proton}} + m_{\text{electron}} - \frac{B}{c^2}\) (जहाँ \(B = 13.6\text{ eV}\)) है।</p>]]></text></generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="0" format="html"><text><![CDATA[<p>\(M = m_{\text{proton}} + m_{\text{electron}}\)</p>]]></text></answer>
+  <answer fraction="100" format="html"><text><![CDATA[<p>\(M = m_{\text{proton}} + m_{\text{electron}} - \frac{B}{c^2} \ (B = 13.6 \text{ eV})\)</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>\(M\) is not related to the mass of the hydrogen atom.</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>\(M = m_{\text{proton}} + m_{\text{electron}} - \frac{|V|}{c^2}\) (\(|V| =\) magnitude of the potential energy of electron in the H-atom)</p>]]></text></answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:hi</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>section:mcq_i</text></tag>
+    <tag><text>class:class_12</text></tag>
+    <tag><text>topic:nuclear_binding_energy</text></tag>
+    <tag><text>chapter:nuclei</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:medium</text></tag>
+    <tag><text>blooms:apply</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:equation</text></tag>
+    <tag><text>multiconcept:true</text></tag>
+  </tags>
+</question>
+<question type="multichoice">
+  <name><text>NEET_UG_PHYSICS_MCQI_NUCLEI_MCQ_Q03 - Change in electronic energy levels during radioactive decay</text></name>
+  <questiontext format="html"><text><![CDATA[<p>When a nucleus in an atom undergoes a radioactive decay, the electronic energy levels of the atom</p>
+<hr/>
+<p>जब किसी परमाणु का नाभिक रेडियोएक्टिव क्षय से गुजरता है, तो परमाणु के इलेक्ट्रॉनिक ऊर्जा स्तर</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>
+The electronic energy levels of an atom are determined by the electrostatic Coulomb attraction between the orbiting electrons and the central nucleus. In any atomic model, these orbital energy eigenvalues depend directly on the atomic number \(Z\) (nuclear charge \(+Ze\)), scaling approximately as \(E_n \propto -Z^2 / n^2\).</p>
+<p><strong>Step 2: Evaluation of Alpha Decay</strong><br/>
+In \(\alpha\)-decay, the parent nucleus emits a helium nucleus (\(^4_2\text{He}\)), causing the nuclear charge to decrease by 2 units (\(Z \to Z - 2\)). Because the nuclear charge decreases, the Coulomb potential experienced by the atomic electrons changes, shifting all electronic energy levels.</p>
+<p><strong>Step 3: Evaluation of Beta Decay</strong><br/>
+In \(\beta^-\)-decay, a nuclear neutron transforms into a proton with the emission of an electron and an antineutrino, increasing the nuclear charge by 1 unit (\(Z \to Z + 1\)). In \(\beta^+\)-decay, a nuclear proton transforms into a neutron with the emission of a positron and a neutrino, decreasing the nuclear charge by 1 unit (\(Z \to Z - 1\)). In both cases, the atomic number \(Z\) changes, altering the electric field and modifying the electronic energy levels.</p>
+<p><strong>Step 4: Evaluation of Gamma Decay</strong><br/>
+In \(\gamma\)-decay, an excited nucleus transitions to a lower nuclear energy state by emitting a high-energy photon without changing its proton number \(Z\) or neutron number \(N\). Because \(Z\) remains completely unchanged, the electrostatic Coulomb potential governing the orbital electrons remains identical, leaving the electronic energy levels unchanged.</p>
+<p><strong>Step 5: Final Conclusion</strong><br/>
+The electronic energy levels change for \(\alpha\) and \(\beta\) radioactivity but do not change for \(\gamma\)-radioactivity.</p>
+<hr/>
+<p><strong>चरण 1: संकल्पनात्मक सिद्धांत</strong><br/>
+किसी परमाणु के इलेक्ट्रॉनिक ऊर्जा स्तर परिक्रमा करते इलेक्ट्रॉनों और केंद्रीय नाभिक के बीच स्थिर-वैद्युत कूलॉम आकर्षण द्वारा निर्धारित होते हैं। किसी भी परमाण्वीय मॉडल में, ये कक्षीय ऊर्जा मान सीधे परमाणु क्रमांक \(Z\) (नाभिकीय आवेश \(+Ze\)) पर निर्भर करते हैं, जो लगभग \(E_n \propto -Z^2 / n^2\) के रूप में परिवर्तित होते हैं।</p>
+<p><strong>चरण 2: अल्फा क्षय का मूल्यांकन</strong><br/>
+\(\alpha\)-क्षय में, जनक नाभिक एक हीलियम नाभिक (\(^4_2\text{He}\)) उत्सर्जित करता है, जिससे नाभिकीय आवेश में 2 इकाइयों की कमी आती है (\(Z \to Z - 2\))। नाभिकीय आवेश घटने के कारण, परमाण्वीय इलेक्ट्रॉनों द्वारा अनुभव किया जाने वाला कूलॉम विभव बदल जाता है, जिससे सभी इलेक्ट्रॉनिक ऊर्जा स्तर विस्थापित हो जाते हैं।</p>
+<p><strong>चरण 3: बीटा क्षय का मूल्यांकन</strong><br/>
+\(\beta^-\)-क्षय में, एक नाभिकीय न्यूट्रॉन एक इलेक्ट्रॉन और एक एंटीन्यूट्रिनो के उत्सर्जन के साथ प्रोटॉन में बदल जाता है, जिससे नाभिकीय आवेश 1 इकाई बढ़ जाता है (\(Z \to Z + 1\))। \(\beta^+\)-क्षय में, एक प्रोटॉन पॉज़िट्रॉन और न्यूट्रिनो के उत्सर्जन के साथ न्यूट्रॉन में बदल जाता है, जिससे नाभिकीय आवेश 1 इकाई घट जाता है (\(Z \to Z - 1\))। दोनों स्थितियों में, परमाणु क्रमांक \(Z\) बदल जाता है, जिससे विद्युत क्षेत्र बदल जाता है और इलेक्ट्रॉनिक ऊर्जा स्तर परिवर्तित हो जाते हैं।</p>
+<p><strong>चरण 4: गामा क्षय का मूल्यांकन</strong><br/>
+\(\gamma\)-क्षय में, एक उत्तेजित नाभिक अपने प्रोटॉन क्रमांक \(Z\) या न्यूट्रॉन क्रमांक \(N\) को बदले बिना एक उच्च-ऊर्जा फोटॉन उत्सर्जित करके निम्न नाभिकीय ऊर्जा स्तर में संक्रमण करता है। चूँकि \(Z\) पूरी तरह से अपरिवर्तित रहता है, कक्षीय इलेक्ट्रॉनों को नियंत्रित करने वाला स्थिर-वैद्युत कूलॉम विभव सर्वसम बना रहता है, जिससे इलेक्ट्रॉनिक ऊर्जा स्तर अपरिवर्तित रहते हैं।</p>
+<p><strong>चरण 5: अंतिम निष्कर्ष</strong><br/>
+इलेक्ट्रॉनिक ऊर्जा स्तर \(\alpha\) और \(\beta\) रेडियोएक्टिवता के लिए बदलते हैं, परंतु \(\gamma\)-रेडियोएक्टिवता के लिए नहीं बदलते हैं।</p>]]></text></generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="0" format="html"><text><![CDATA[<p>do not change for any type of radioactivity.</p>]]></text></answer>
+  <answer fraction="100" format="html"><text><![CDATA[<p>change for \(\alpha\) and \(\beta\) radioactivity but not for \(\gamma\)-radioactivity.</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>change for \(\alpha\)-radioactivity but not for others.</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>change for \(\beta\)-radioactivity but not for others.</p>]]></text></answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:hi</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>section:mcq_i</text></tag>
+    <tag><text>class:class_12</text></tag>
+    <tag><text>topic:radioactivity</text></tag>
+    <tag><text>chapter:nuclei</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:easy</text></tag>
+    <tag><text>blooms:understand</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:text</text></tag>
+    <tag><text>multiconcept:true</text></tag>
+  </tags>
+</question>
+<question type="multichoice">
+  <name><text>NEET_UG_PHYSICS_MCQI_NUCLEI_MCQ_Q04 - Q values for beta minus and beta plus decays</text></name>
+  <questiontext format="html"><text><![CDATA[<p>\(M_x\) and \(M_y\) denote the atomic masses of the parent and the daughter nuclei respectively in a radioactive decay. The \(Q\)-value for a \(\beta^-\) decay is \(Q_1\) and that for a \(\beta^+\) decay is \(Q_2\). If \(m_e\) denotes the mass of an electron, then which of the following statements is correct?</p>
+<hr/>
+<p>एक रेडियोएक्टिव क्षय में \(M_x\) और \(M_y\) क्रमशः जनक और संतति नाभिकों के परमाणु द्रव्यमानों को दर्शाते हैं। एक \(\beta^-\) क्षय के लिए \(Q\)-मान \(Q_1\) है और एक \(\beta^+\) क्षय के लिए \(Q_2\) है। यदि \(m_e\) इलेक्ट्रॉन के द्रव्यमान को दर्शाता है, तो निम्नलिखित में से कौन-सा कथन सही है?</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Given Data and Definitions</strong><br/>
+Let \(M_x\) be the neutral atomic mass of parent nuclide \(_Z^A X\), and \(M_y\) be the neutral atomic mass of daughter nuclide \(Y\). The mass of an orbital electron (or emitted \(\beta\) particle) is denoted by \(m_e\). The nuclear mass \(m_N\) is related to the atomic mass by subtracting the mass of the orbital electrons (neglecting atomic electronic binding energies):<br/>
+\[m_N(_Z^A X) = M_x - Z m_e\]</p>
+<p><strong>Step 2: Analysis of Beta-Minus Decay</strong><br/>
+In \(\beta^-\)-decay, the nuclear reaction is:<br/>
+\[_Z^A X \to \, _{Z+1}^A Y + e^- + \bar{\nu}\]<br/>
+The daughter nucleus has atomic number \(Z + 1\), so its nuclear mass is \(m_N(_{Z+1}^A Y) = M_y - (Z+1) m_e\). The disintegration energy \(Q_1\) is:<br/>
+\[Q_1 = [m_N(_Z^A X) - m_N(_{Z+1}^A Y) - m_e] c^2\]<br/>
+Substituting the atomic masses:<br/>
+\[Q_1 = [(M_x - Z m_e) - (M_y - (Z+1)m_e) - m_e] c^2 = (M_x - M_y) c^2\]</p>
+<p><strong>Step 3: Analysis of Beta-Plus Decay</strong><br/>
+In \(\beta^+\)-decay, the nuclear reaction is:<br/>
+\[_Z^A X \to \, _{Z-1}^A Y + e^+ + \nu\]<br/>
+The daughter nucleus has atomic number \(Z - 1\), so its nuclear mass is \(m_N(_{Z-1}^A Y) = M_y - (Z-1) m_e\). The emitted positron has mass \(m_e\). The disintegration energy \(Q_2\) is:<br/>
+\[Q_2 = [m_N(_Z^A X) - m_N(_{Z-1}^A Y) - m_e] c^2\]<br/>
+Substituting the atomic masses:<br/>
+\[Q_2 = [(M_x - Z m_e) - (M_y - (Z-1)m_e) - m_e] c^2 = (M_x - M_y - 2m_e) c^2\]</p>
+<p><strong>Step 4: Check and Final Conclusion</strong><br/>
+Comparing the two obtained expressions, \(Q_1 = (M_x - M_y)c^2\) and \(Q_2 = (M_x - M_y - 2m_e)c^2\).</p>
+<hr/>
+<p><strong>चरण 1: दिए गए आँकड़े और परिभाषाएँ</strong><br/>
+मान लीजिए \(M_x\) जनक नाभिक \(_Z^A X\) का उदासीन परमाणु द्रव्यमान है, तथा \(M_y\) संतति नाभिक \(Y\) का उदासीन परमाणु द्रव्यमान है। कक्षीय इलेक्ट्रॉन (या उत्सर्जित \(\beta\) कण) का द्रव्यमान \(m_e\) है। परमाणु द्रव्यमान में से कक्षीय इलेक्ट्रॉनों का द्रव्यमान घटाकर नाभिकीय द्रव्यमान \(m_N\) प्राप्त होता है:<br/>
+\[m_N(_Z^A X) = M_x - Z m_e\]</p>
+<p><strong>चरण 2: बीटा-माइनस क्षय का विश्लेषण</strong><br/>
+\(\beta^-\)-क्षय में नाभिकीय अभिक्रिया निम्न है:<br/>
+\[_Z^A X \to \, _{Z+1}^A Y + e^- + \bar{\nu}\]<br/>
+संतति नाभिक का परमाणु क्रमांक \(Z + 1\) है, अतः इसका नाभिकीय द्रव्यमान \(m_N(_{Z+1}^A Y) = M_y - (Z+1) m_e\) है। विघटन ऊर्जा \(Q_1\) निम्न है:<br/>
+\[Q_1 = [m_N(_Z^A X) - m_N(_{Z+1}^A Y) - m_e] c^2\]<br/>
+परमाणु द्रव्यमानों को प्रतिस्थापित करने पर:<br/>
+\[Q_1 = [(M_x - Z m_e) - (M_y - (Z+1)m_e) - m_e] c^2 = (M_x - M_y) c^2\]</p>
+<p><strong>चरण 3: बीटा-प्लस क्षय का विश्लेषण</strong><br/>
+\(\beta^+\)-क्षय में नाभिकीय अभिक्रिया निम्न है:<br/>
+\[_Z^A X \to \, _{Z-1}^A Y + e^+ + \nu\]<br/>
+संतति नाभिक का परमाणु क्रमांक \(Z - 1\) है, अतः इसका नाभिकीय द्रव्यमान \(m_N(_{Z-1}^A Y) = M_y - (Z-1) m_e\) है। उत्सर्जित पॉज़िट्रॉन का द्रव्यमान \(m_e\) है। विघटन ऊर्जा \(Q_2\) निम्न है:<br/>
+\[Q_2 = [m_N(_Z^A X) - m_N(_{Z-1}^A Y) - m_e] c^2\]<br/>
+परमाणु द्रव्यमानों को प्रतिस्थापित करने पर:<br/>
+\[Q_2 = [(M_x - Z m_e) - (M_y - (Z-1)m_e) - m_e] c^2 = (M_x - M_y - 2m_e) c^2\]</p>
+<p><strong>चरण 4: जाँच और अंतिम निष्कर्ष</strong><br/>
+प्राप्त दोनों व्यंजकों की तुलना करने पर, \(Q_1 = (M_x - M_y)c^2\) तथा \(Q_2 = (M_x - M_y - 2m_e)c^2\) प्राप्त होता है।</p>]]></text></generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="100" format="html"><text><![CDATA[<p>\(Q_{1} = (M_{x} - M_{y})c^{2}\) and \(Q_{2} = (M_{x} - M_{y} - 2m_{e})c^{2}\)</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>\(Q_{1} = (M_{x} - M_{y})c^{2}\) and \(Q_{2} = (M_{x} - M_{y})c^{2}\)</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>\(Q_{1} = (M_{x} - M_{y} - 2m_{e})c^{2}\) and \(Q_{2} = (M_{x} - M_{y} + 2m_{e})c^{2}\)</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>\(Q_{1} = (M_{x} - M_{y} + 2m_{e})c^{2}\) and \(Q_{2} = (M_{x} - M_{y} + 2m_{e})c^{2}\)</p>]]></text></answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:hi</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>section:mcq_i</text></tag>
+    <tag><text>class:class_12</text></tag>
+    <tag><text>topic:radioactivity</text></tag>
+    <tag><text>chapter:nuclei</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:medium</text></tag>
+    <tag><text>blooms:apply</text></tag>
+    <tag><text>calculation:moderate</text></tag>
+    <tag><text>media:equation</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+<question type="multichoice">
+  <name><text>NEET_UG_PHYSICS_MCQI_NUCLEI_MCQ_Q05 - Spontaneous transformation of triton to helium 3</text></name>
+  <questiontext format="html"><text><![CDATA[<p>Tritium is an isotope of hydrogen whose nucleus Triton contains 2 neutrons and 1 proton. Free neutrons decay into \(p + e^- + \bar{\nu}\). If one of the neutrons in Triton decays, it would transform into \(\text{He}^3\) nucleus. This does not happen. This is because</p>
+<hr/>
+<p>ट्रिटियम हाइड्रोजन का एक समस्थानिक है जिसके नाभिक ट्राइटन में 2 न्यूट्रॉन और 1 प्रोटॉन होते हैं। मुक्त न्यूट्रॉन \(p + e^- + \bar{\nu}\) में क्षयित होते हैं। यदि ट्राइटन में उपस्थित न्यूट्रॉनों में से एक क्षयित हो जाए, तो यह \(\text{He}^3\) नाभिक में रूपांतरित हो जाएगा। ऐसा नहीं होता है। इसका कारण यह है कि</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle of Nuclear Stability</strong><br/>
+A bound nucleus can spontaneously transform into another nuclear state through radioactive decay only if the process is energetically spontaneous, meaning the total rest mass-energy of the parent system must exceed the total rest mass-energy of the resulting daughter system plus emitted particles.</p>
+<p><strong>Step 2: Comparison of Nuclear States</strong><br/>
+A triton nucleus (\(^3_1\text{H}\)) contains 1 proton and 2 neutrons. A helium-3 nucleus (\(^3_2\text{He}\)) contains 2 protons and 1 neutron. Inside the helium-3 nucleus, the presence of two protons introduces electrostatic Coulomb repulsion between them. In contrast, the triton nucleus has only one proton, so there is zero proton-proton electrostatic repulsion, and all mutual interactions between nucleons are attractive strong nuclear forces.</p>
+<p><strong>Step 3: Energy Consideration</strong><br/>
+Because electrostatic repulsion is absent in triton, its ground-state nuclear energy is lower (more tightly bound per nucleon against Coulomb repulsion) compared to the \(\text{He}^3\) nucleus. For a single bound neutron in triton to convert directly into a proton to form an isolated \(\text{He}^3\) nucleus without the complete beta-decay energy balance, extra energy would have to be supplied from an external source.</p>
+<p><strong>Step 4: Final Conclusion</strong><br/>
+The transformation does not happen spontaneously because the energy of a Triton nucleus is less than that of a \(\text{He}^3\) nucleus.</p>
+<hr/>
+<p><strong>चरण 1: नाभिकीय स्थायित्व का संकल्पनात्मक सिद्धांत</strong><br/>
+कोई आबंधित नाभिक स्वतः किसी अन्य नाभिकीय अवस्था में रेडियोएक्टिव क्षय द्वारा तभी रूपांतरित हो सकता है जब यह प्रक्रिया ऊर्जा की दृष्टि से स्वतःप्रवर्तित हो, अर्थात् जनक निकाय की कुल विराम द्रव्यमान-ऊर्जा परिणामी संतति निकाय और उत्सर्जित कणों की कुल विराम द्रव्यमान-ऊर्जा से अधिक होनी चाहिए।</p>
+<p><strong>चरण 2: नाभिकीय अवस्थाओं की तुलना</strong><br/>
+एक ट्राइटन नाभिक (\(^3_1\text{H}\)) में 1 प्रोटॉन और 2 न्यूट्रॉन होते हैं। हीलियम-3 नाभिक (\(^3_2\text{He}\)) में 2 प्रोटॉन और 1 न्यूट्रॉन होते हैं। हीलियम-3 नाभिक के भीतर, दो प्रोटॉनों की उपस्थिति उनके बीच स्थिर-वैद्युत कूलॉम प्रतिकर्षण उत्पन्न करती है। इसके विपरीत, ट्राइटन नाभिक में केवल एक प्रोटॉन होता है, अतः वहाँ शून्य प्रोटॉन-प्रोटॉन स्थिर-वैद्युत प्रतिकर्षण होता है और न्यूक्लिऑनों के बीच सभी अन्योन्यक्रियाएँ आकर्षक प्रबल नाभिकीय बल होती हैं।</p>
+<p><strong>चरण 3: ऊर्जा का विचार</strong><br/>
+ट्राइटन में स्थिर-वैद्युत प्रतिकर्षण अनुपस्थित होने के कारण, इसकी मूल-अवस्था नाभिकीय ऊर्जा \(\text{He}^3\) नाभिक की तुलना में कम होती है। ट्राइटन में एक आबंधित न्यूट्रॉन को सीधे प्रोटॉन में परिवर्तित होकर विलगित \(\text{He}^3\) नाभिक बनाने के लिए बाहरी स्रोत से अतिरिक्त ऊर्जा की आवश्यकता होगी।</p>
+<p><strong>चरण 4: अंतिम निष्कर्ष</strong><br/>
+यह रूपांतरण स्वतः नहीं होता है क्योंकि ट्राइटन की ऊर्जा \(\text{He}^3\) नाभिक की ऊर्जा से कम होती है।</p>]]></text></generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="100" format="html"><text><![CDATA[<p>Triton energy is less than that of a \(\text{He}^3\) nucleus.</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>the electron created in the beta decay process cannot remain in the nucleus.</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>both the neutrons in triton have to decay simultaneously resulting in a nucleus with 3 protons, which is not a \(\text{He}^3\) nucleus.</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>because free neutrons decay due to external perturbations which is absent in a triton nucleus.</p>]]></text></answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:hi</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>section:mcq_i</text></tag>
+    <tag><text>class:class_12</text></tag>
+    <tag><text>topic:nuclear_binding_energy</text></tag>
+    <tag><text>chapter:nuclei</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:medium</text></tag>
+    <tag><text>blooms:understand</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:text</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+<question type="multichoice">
+  <name><text>NEET_UG_PHYSICS_MCQI_NUCLEI_MCQ_Q06 - Excess neutrons in heavy stable nuclei</text></name>
+  <questiontext format="html"><text><![CDATA[<p>Heavy stable nuclei have more neutrons than protons. This is because of the fact that</p>
+<hr/>
+<p>भारी स्थायी नाभिकों में प्रोटॉनों की तुलना में अधिक न्यूट्रॉन होते हैं। इसका कारण यह तथ्य है कि</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Nature of Nuclear and Electrostatic Forces</strong><br/>
+Inside an atomic nucleus, two competing fundamental forces act among the nucleons:
+1. The strong nuclear force: This is an attractive force acting equally between all nucleon pairs (proton-proton, neutron-neutron, and proton-neutron). It is extremely short-range, saturating rapidly such that each nucleon interacts only with its immediate nearest neighbors.
+2. The electrostatic Coulomb force: This is a repulsive force acting exclusively between pairs of positively charged protons. Unlike the nuclear force, the Coulomb force is long-range and does not saturate, meaning every proton in the nucleus repels every other proton.</p>
+<p><strong>Step 2: Effect of Increasing Mass Number</strong><br/>
+As nuclei become larger and heavier, the atomic number \(Z\) increases. The total disruptive electrostatic repulsive energy grows quadratically roughly as \(Z(Z-1) \sim Z^2\). If the number of protons and neutrons remained equal (\(N = Z\)), the cumulative electrostatic repulsion would overwhelm the attractive short-range nuclear forces, rendering the nucleus unstable.</p>
+<p><strong>Step 3: Role of Additional Neutrons</strong><br/>
+Neutrons carry no electric charge. Therefore, adding extra neutrons increases the attractive strong nuclear binding force without introducing any additional electrostatic repulsion. This surplus of neutrons provides the necessary binding glue to offset the repulsive Coulomb forces among protons and maintain nuclear stability.</p>
+<p><strong>Step 4: Final Conclusion</strong><br/>
+Heavy stable nuclei require more neutrons than protons because the electrostatic force between protons is repulsive.</p>
+<hr/>
+<p><strong>चरण 1: नाभिकीय और स्थिर-वैद्युत बलों की प्रकृति</strong><br/>
+एक परमाणु नाभिक के भीतर, न्यूक्लिऑनों के बीच दो परस्पर विरोधी मूल बल कार्य करते हैं:
+1. प्रबल नाभिकीय बल: यह सभी न्यूक्लिऑन युग्मों (प्रोटॉन-प्रोटॉन, न्यूट्रॉन-न्यूट्रॉन, और प्रोटॉन-न्यूट्रॉन) के बीच समान रूप से कार्य करने वाला आकर्षक बल है। यह अत्यंत लघु-परासी होता है और शीघ्र संतृप्त हो जाता है, जिससे प्रत्येक न्यूक्लिऑन केवल अपने निकटतम पड़ोसियों के साथ अन्योन्यक्रिया करता है।
+2. स्थिर-वैद्युत कूलॉम बल: यह धनावेशित प्रोटॉनों के युग्मों के बीच कार्य करने वाला प्रतिकर्षी बल है। नाभिकीय बल के विपरीत, कूलॉम बल दीर्घ-परासी होता है और संतृप्त नहीं होता है, जिसका अर्थ है कि नाभिक में प्रत्येक प्रोटॉन अन्य प्रत्येक प्रोटॉन को प्रतिकर्षित करता है।</p>
+<p><strong>चरण 2: द्रव्यमान संख्या बढ़ने का प्रभाव</strong><br/>
+जैसे-जैसे नाभिक बड़े और भारी होते जाते हैं, परमाणु क्रमांक \(Z\) बढ़ता है। कुल विघटनकारी स्थिर-वैद्युत प्रतिकर्षी ऊर्जा द्विघात रूप से लगभग \(Z(Z-1) \sim Z^2\) के अनुसार बढ़ती है। यदि प्रोटॉनों और न्यूट्रॉनों की संख्या समान बनी रहे (\(N = Z\)), तो संचयी स्थिर-वैद्युत प्रतिकर्षण आकर्षक लघु-परासी नाभिकीय बलों पर हावी हो जाएगा, जिससे नाभिक अस्थिर हो जाएगा।</p>
+<p><strong>चरण 3: अतिरिक्त न्यूट्रॉनों की भूमिका</strong><br/>
+न्यूट्रॉनों पर कोई विद्युत आवेश नहीं होता है। इसलिए, अतिरिक्त न्यूट्रॉन जोड़ने से बिना कोई अतिरिक्त स्थिर-वैद्युत प्रतिकर्षण जोड़े आकर्षक प्रबल नाभिकीय बंधन बल में वृद्धि होती है। न्यूट्रॉनों की यह अधिकता प्रोटॉनों के बीच प्रतिकर्षी कूलॉम बलों को संतुलित करने और नाभिकीय स्थायित्व बनाए रखने के लिए आवश्यक बंधन प्रदान करती है।</p>
+<p><strong>चरण 4: अंतिम निष्कर्ष</strong><br/>
+भारी स्थायी नाभिकों में प्रोटॉनों की तुलना में अधिक न्यूट्रॉनों की आवश्यकता इसलिए होती है क्योंकि प्रोटॉनों के बीच स्थिर-वैद्युत बल प्रतिकर्षी होता है।</p>]]></text></generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="0" format="html"><text><![CDATA[<p>neutrons are heavier than protons.</p>]]></text></answer>
+  <answer fraction="100" format="html"><text><![CDATA[<p>electrostatic force between protons are repulsive.</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>neutrons decay into protons through beta decay.</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>nuclear forces between neutrons are weaker than that between protons.</p>]]></text></answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:hi</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>section:mcq_i</text></tag>
+    <tag><text>class:class_12</text></tag>
+    <tag><text>topic:nuclear_force</text></tag>
+    <tag><text>chapter:nuclei</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:easy</text></tag>
+    <tag><text>blooms:understand</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:text</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+<question type="multichoice">
+  <name><text>NEET_UG_PHYSICS_MCQI_NUCLEI_MCQ_Q07 - Ineffectiveness of heavy nuclei as reactor moderators</text></name>
+  <questiontext format="html"><text><![CDATA[<p>In a nuclear reactor, moderators slow down the neutrons which come out in a fission process. The moderator used have light nuclei. Heavy nuclei will not serve the purpose because</p>
+<hr/>
+<p>एक नाभिकीय रिएक्टर में, विमन्दक विखंडन प्रक्रिया में निकलने वाले न्यूट्रॉनों को धीमा करते हैं। प्रयुक्त विमन्दक में हल्के नाभिक होते हैं। भारी नाभिक इस उद्देश्य की पूर्ति नहीं करेंगे क्योंकि</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Mechanism of Neutron Moderation</strong><br/>
+Fast neutrons released during nuclear fission have kinetic energies of around \(2\text{ MeV}\) and must be slowed down to thermal energies (around \(0.025\text{ eV}\)) through a succession of elastic collisions with the nuclei of the moderator medium.</p>
+<p><strong>Step 2: Physics of Elastic Collisions</strong><br/>
+Consider a head-on elastic collision of a neutron of mass \(m\) and initial kinetic energy \(K_i\) with a stationary target nucleus of mass \(M\). From the conservation laws of linear momentum and kinetic energy, the fraction of kinetic energy transferred to the target nucleus is given by:<br/>
+\[\frac{\Delta K}{K_i} = \frac{4 m M}{(m + M)^2}\]</p>
+<p><strong>Step 3: Comparison Between Light and Heavy Targets</strong><br/>
+- When the target nucleus is light such that its mass is comparable to the neutron mass (\(M \approx m\), e.g., hydrogen in water or deuterium in heavy water), the energy transfer fraction \(\frac{4mM}{(m+M)^2} \approx 1\). In this case, nearly all of the neutron's kinetic energy can be transferred in just a few collisions.<br/>
+- When the target nucleus is very heavy (\(M \gg m\)), the fractional energy loss approximates to:<br/>
+\[\frac{\Delta K}{K_i} \approx \frac{4m}{M} \ll 1\]<br/>
+In this scenario, the neutron simply rebounds from the massive nucleus with almost unchanged speed, transferring virtually no kinetic energy to the target.</p>
+<p><strong>Step 4: Final Conclusion</strong><br/>
+Heavy nuclei will not serve the purpose because elastic collision of neutrons with heavy nuclei will not slow them down.</p>
+<hr/>
+<p><strong>चरण 1: न्यूट्रॉन विमन्दन की क्रियाविधि</strong><br/>
+नाभिकीय विखंडन के दौरान उत्सर्जित तीव्रगामी न्यूट्रॉनों की गतिज ऊर्जा लगभग \(2\text{ MeV}\) होती है और इन्हें विमन्दक माध्यम के नाभिकों के साथ प्रत्यास्थ संघट्टों की एक श्रृंखला के माध्यम से तापीय ऊर्जा (लगभग \(0.025\text{ eV}\)) तक धीमा किया जाना आवश्यक होता है।</p>
+<p><strong>चरण 2: प्रत्यास्थ संघट्ट की भौतिकी</strong><br/>
+द्रव्यमान \(m\) और प्रारंभिक गतिज ऊर्जा \(K_i\) वाले न्यूट्रॉन के स्थिर लक्ष्य नाभिक (द्रव्यमान \(M\)) के साथ सम्मुख प्रत्यास्थ संघट्ट पर विचार कीजिए। रैखिक संवेग और गतिज ऊर्जा संरक्षण के नियमों से, लक्ष्य नाभिक को स्थानांतरित गतिज ऊर्जा का प्रभाज निम्न सूत्र द्वारा दिया जाता है:<br/>
+\[\frac{\Delta K}{K_i} = \frac{4 m M}{(m + M)^2}\]</p>
+<p><strong>चरण 3: हल्के और भारी लक्ष्यों की तुलना</strong><br/>
+- जब लक्ष्य नाभिक हल्का होता है जिससे उसका द्रव्यमान न्यूट्रॉन के द्रव्यमान के तुलनीय होता है (\(M \approx m\), जैसे जल में हाइड्रोजन या भारी जल में ड्यूटेरियम), तो ऊर्जा स्थानांतरण प्रभाज \(\frac{4mM}{(m+M)^2} \approx 1\) होता है। इस स्थिति में, केवल कुछ संघट्टों में ही न्यूट्रॉन की लगभग पूरी गतिज ऊर्जा स्थानांतरित हो जाती है।<br/>
+- जब लक्ष्य नाभिक बहुत भारी होता है (\(M \gg m\)), तो भिन्नात्मक ऊर्जा हानि लगभग निम्न हो जाती है:<br/>
+\[\frac{\Delta K}{K_i} \approx \frac{4m}{M} \ll 1\]<br/>
+इस स्थिति में, न्यूट्रॉन भारी नाभिक से लगभग अपरिवर्तित चाल से टकराकर वापस लौट जाता है और लक्ष्य को लगभग कोई गतिज ऊर्जा स्थानांतरित नहीं करता है।</p>
+<p><strong>चरण 4: अंतिम निष्कर्ष</strong><br/>
+भारी नाभिक इस उद्देश्य की पूर्ति नहीं करेंगे क्योंकि भारी नाभिकों के साथ न्यूट्रॉनों का प्रत्यास्थ संघट्ट उन्हें धीमा नहीं करेगा।</p>]]></text></generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="0" format="html"><text><![CDATA[<p>they will break up.</p>]]></text></answer>
+  <answer fraction="100" format="html"><text><![CDATA[<p>elastic collision of neutrons with heavy nuclei will not slow them down.</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>the net weight of the reactor would be unbearably high.</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>substances with heavy nuclei do not occur in liquid or gaseous state at room temperature.</p>]]></text></answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:hi</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>section:mcq_i</text></tag>
+    <tag><text>class:class_12</text></tag>
+    <tag><text>topic:nuclear_fission</text></tag>
+    <tag><text>chapter:nuclei</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:easy</text></tag>
+    <tag><text>blooms:understand</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:text</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+<question type="multichoice">
+  <name><text>NEET_UG_PHYSICS_MCQII_NUCLEI_MCQ_Q08 - Reasons fusion is impossible at ordinary temperatures</text></name>
+  <questiontext format="html"><text><![CDATA[<p>Fusion processes, like combining two deuterons to form a He nucleus are impossible at ordinary temperatures and pressure. The reasons for this can be traced to the fact:</p>
+<hr/>
+<p>संलयन प्रक्रियाएँ, जैसे दो ड्यूट्रॉनों के संयोजन से एक He नाभिक का निर्माण, सामान्य ताप और दाब पर असंभव हैं। इसके कारणों को इस तथ्य से समझा जा सकता है कि:</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle of Nuclear Fusion</strong><br/>
+Nuclear fusion requires two atomic nuclei to come sufficiently close together so that the attractive strong nuclear force can overcome all repulsive forces and bind them into a single, heavier nucleus.</p>
+<p><strong>Step 2: Positive Charge and Coulomb Barrier</strong><br/>
+Every atomic nucleus carries positive electric charge due to the protons it contains. As two deuterons approach each other, they experience a mutual electrostatic Coulomb repulsion that increases inversely with separation distance (\(F_e \propto 1/r^2\)). This creates a formidable electrostatic potential energy barrier between them.</p>
+<p><strong>Step 3: Range of Strong Nuclear Forces</strong><br/>
+The strong nuclear force responsible for fusion is effective only over extremely short subatomic distances, typically on the order of a few femtometers (\(\sim 10^{-15}\text{ m}\) to \(10^{-14}\text{ m}\)). For the attractive nuclear force to take over, the deuterons must have sufficient kinetic energy to overcome the Coulomb repulsive barrier and penetrate to within this short range.</p>
+<p><strong>Step 4: Conditions at Ordinary Temperature and Pressure</strong><br/>
+At ordinary ambient room temperatures, the average thermal kinetic energy of particles (\(k_B T \sim 0.025\text{ eV}\)) is several orders of magnitude smaller than the height of the Coulomb barrier (\(\sim 0.1\text{ MeV}\) to \(1\text{ MeV}\)). Therefore, classical barrier penetration cannot occur at ordinary temperatures.</p>
+<p><strong>Step 5: Final Conclusion</strong><br/>
+The impossibility of fusion at ordinary temperatures and pressure arises because nuclear forces have short range and nuclei are positively charged.</p>
+<hr/>
+<p><strong>चरण 1: नाभिकीय संलयन का संकल्पनात्मक सिद्धांत</strong><br/>
+नाभिकीय संलयन के लिए आवश्यक है कि दो परमाणु नाभिक एक-दूसरे के पर्याप्त निकट आएं ताकि आकर्षक प्रबल नाभिकीय बल सभी प्रतिकर्षी बलों पर हावी हो सके और उन्हें एक भारी नाभिक में आबंधित कर सके।</p>
+<p><strong>चरण 2: धनावेश और कूलॉम रोधिका</strong><br/>
+प्रत्येक परमाणु नाभिक में उपस्थित प्रोटॉनों के कारण धनात्मक विद्युत आवेश होता है। जैसे ही दो ड्यूट्रॉन एक-दूसरे के समीप आते हैं, वे एक परस्पर स्थिर-वैद्युत कूलॉम प्रतिकर्षण का अनुभव करते हैं जो दूरी घटने पर बढ़ता है (\(F_e \propto 1/r^2\))। यह उनके बीच एक प्रबल स्थिर-वैद्युत स्थितिज ऊर्जा रोधिका उत्पन्न करता है।</p>
+<p><strong>चरण 3: प्रबल नाभिकीय बलों का परास</strong><br/>
+संलयन के लिए उत्तरदायी प्रबल नाभिकीय बल केवल अत्यंत लघु उप-परमाण्वीय दूरियों पर ही प्रभावी होता है, जो सामान्यतः कुछ फेम्टोमीटर (\(\sim 10^{-15}\text{ m}\) से \(10^{-14}\text{ m}\)) के क्रम का होता है। आकर्षक नाभिकीय बल के प्रभावी होने के लिए, ड्यूट्रॉनों के पास कूलॉम प्रतिकर्षी रोधिका को पार करने और इस लघु परास के भीतर पहुँचने के लिए पर्याप्त गतिज ऊर्जा होनी चाहिए।</p>
+<p><strong>चरण 4: सामान्य ताप और दाब पर स्थितियाँ</strong><br/>
+सामान्य कमरे के ताप पर, कणों की औसत तापीय गतिज ऊर्जा (\(k_B T \sim 0.025\text{ eV}\)) कूलॉम रोधिका की ऊँचाई (\(\sim 0.1\text{ MeV}\) से \(1\text{ MeV}\)) की तुलना में परिमाण के कई क्रम कम होती है। इसलिए, सामान्य तापमान पर रोधिका को पार करना संभव नहीं होता है।</p>
+<p><strong>चरण 5: अंतिम निष्कर्ष</strong><br/>
+सामान्य ताप और दाब पर संलयन की असंभवता का कारण यह है कि नाभिकीय बल लघु-परासी होते हैं तथा नाभिक धनावेशित होते हैं।</p>]]></text></generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>false</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="50" format="html"><text><![CDATA[<p>nuclear forces have short range.</p>]]></text></answer>
+  <answer fraction="50" format="html"><text><![CDATA[<p>nuclei are positively charged.</p>]]></text></answer>
+  <answer fraction="-50" format="html"><text><![CDATA[<p>the original nuclei must be completely ionized before fusion can take place.</p>]]></text></answer>
+  <answer fraction="-50" format="html"><text><![CDATA[<p>the original nuclei must first break up before combining with each other.</p>]]></text></answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:hi</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>section:mcq_ii</text></tag>
+    <tag><text>class:class_12</text></tag>
+    <tag><text>topic:nuclear_fusion</text></tag>
+    <tag><text>chapter:nuclei</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:medium</text></tag>
+    <tag><text>blooms:understand</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:text</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+<question type="multichoice">
+  <name><text>NEET_UG_PHYSICS_MCQII_NUCLEI_MCQ_Q09 - Simultaneous equal decay rates of two radioactive nuclides</text></name>
+  <questiontext format="html"><text><![CDATA[<p>Samples of two radioactive nuclides A and B are taken. \(\lambda_{\mathrm{A}}\) and \(\lambda_{\mathrm{B}}\) are the disintegration constants of A and B respectively. In which of the following cases, the two samples can simultaneously have the same decay rate at any time?</p>
+<hr/>
+<p>दो रेडियोएक्टिव नाभिकों A और B के नमूने लिए जाते हैं। \(\lambda_{\mathrm{A}}\) और \(\lambda_{\mathrm{B}}\) क्रमशः A और B के विघटन नियतांक हैं। निम्नलिखित में से किस स्थिति में, दोनों नमूनों की किसी भी समय एक साथ समान क्षय दर हो सकती है?</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Governing Formula for Decay Rate</strong><br/>
+The activity (decay rate) \(R(t)\) of a radioactive nuclide as a function of time \(t\) follows the exponential decay law:<br/>
+\[R(t) = R_0 e^{-\lambda t}\]<br/>
+where \(R_0\) is the initial decay rate at \(t = 0\) and \(\lambda\) is the disintegration constant.</p>
+<p><strong>Step 2: Condition for Simultaneous Equal Decay Rates</strong><br/>
+For samples A and B to exhibit identical decay rates at some time instant \(t > 0\):<br/>
+\[R_{\text{A}}(t) = R_{\text{B}}(t) \implies R_{0\text{A}} e^{-\lambda_{\text{A}} t} = R_{0\text{B}} e^{-\lambda_{\text{B}} t}\]<br/>
+Rearranging this relationship gives:<br/>
+\[\frac{R_{0\text{A}}}{R_{0\text{B}}} = e^{(\lambda_{\text{A}} - \lambda_{\text{B}}) t}\]</p>
+<p><strong>Step 3: Evaluation of Ratios</strong><br/>
+- Case where \(R_{0\text{A}} = 2 R_{0\text{B}}\): Here \(\frac{R_{0\text{A}}}{R_{0\text{B}}} = 2 > 1\). Because \(t > 0\), the exponential \(e^{(\lambda_{\text{A}} - \lambda_{\text{B}}) t} > 1\) requires \(\lambda_{\text{A}} - \lambda_{\text{B}} > 0\), which means \(\lambda_{\text{A}} > \lambda_{\text{B}}\). The faster initial decayer must have a higher decay constant so its rate can fall rapidly and intersect the rate curve of B at a finite positive time \(t = \frac{\ln 2}{\lambda_{\text{A}} - \lambda_{\text{B}}}\).<br/>
+- Case where \(R_{\text{B}} = R_{\text{A}}\) at \(t = 2\text{ h}\) and \(\lambda_{\text{B}} < \lambda_{\text{A}}\): This explicitly states that the decay rates are equal at \(t = 2\text{ h}\), which directly satisfies the condition of having the same decay rate at that time.</p>
+<p><strong>Step 4: Final Conclusion</strong><br/>
+The two samples can have the same decay rate when the initial rate of decay of A is twice the initial rate of decay of B with \(\lambda_{\text{A}} > \lambda_{\text{B}}\), and when the rate of decay of B equals the rate of decay of A at \(t = 2\text{ h}\) with \(\lambda_{\text{B}} < \lambda_{\text{A}}\).</p>
+<hr/>
+<p><strong>चरण 1: क्षय दर का शासी सूत्र</strong><br/>
+समय \(t\) के फलन के रूप में किसी रेडियोएक्टिव नाभिक की सक्रियता (क्षय दर) \(R(t)\) चरघातांकी क्षय नियम का पालन करती है:<br/>
+\[R(t) = R_0 e^{-\lambda t}\]<br/>
+जहाँ \(R_0\), \(t = 0\) पर प्रारंभिक क्षय दर है तथा \(\lambda\) विघटन नियतांक है।</p>
+<p><strong>चरण 2: एक साथ समान क्षय दर के लिए प्रतिबंध</strong><br/>
+किसी समय \(t > 0\) पर नमूनों A और B की क्षय दर समान होने के लिए:<br/>
+\[R_{\text{A}}(t) = R_{\text{B}}(t) \implies R_{0\text{A}} e^{-\lambda_{\text{A}} t} = R_{0\text{B}} e^{-\lambda_{\text{B}} t}\]<br/>
+इस संबंध को पुनर्व्यवस्थित करने पर:<br/>
+\[\frac{R_{0\text{A}}}{R_{0\text{B}}} = e^{(\lambda_{\text{A}} - \lambda_{\text{B}}) t}\]</p>
+<p><strong>चरण 3: अनुपातों का मूल्यांकन</strong><br/>
+- स्थिति जहाँ \(R_{0\text{A}} = 2 R_{0\text{B}}\): यहाँ \(\frac{R_{0\text{A}}}{R_{0\text{B}}} = 2 > 1\) है। चूँकि \(t > 0\) है, चरघातांक \(e^{(\lambda_{\text{A}} - \lambda_{\text{B}}) t} > 1\) होने के लिए \(\lambda_{\text{A}} - \lambda_{\text{B}} > 0\) होना आवश्यक है, जिसका अर्थ \(\lambda_{\text{A}} > \lambda_{\text{B}}\) है। प्रारंभिक रूप से तीव्र क्षय होने वाले नमूने का क्षय नियतांक अधिक होना चाहिए ताकि इसकी दर तेजी से गिरकर एक परिमित धनात्मक समय \(t = \frac{\ln 2}{\lambda_{\text{A}} - \lambda_{\text{B}}}\) पर B के वक्र को प्रतिच्छेद कर सके।<br/>
+- स्थिति जहाँ \(t = 2\text{ h}\) पर B की क्षय दर A की क्षय दर के समान है तथा \(\lambda_{\text{B}} < \lambda_{\text{A}}\) है: यह स्पष्ट रूप से दर्शाता है कि \(t = 2\text{ h}\) पर दोनों की क्षय दरें समान हैं, जो उस समय एक साथ समान क्षय दर होने की शर्त को सीधे संतुष्ट करती है।</p>
+<p><strong>चरण 4: अंतिम निष्कर्ष</strong><br/>
+दोनों नमूनों की क्षय दर उस स्थिति में समान हो सकती है जब A की प्रारंभिक क्षय दर B की प्रारंभिक क्षय दर से दोगुनी हो तथा \(\lambda_{\text{A}} > \lambda_{\text{B}}\) हो, और जब \(t = 2\text{ h}\) पर B की क्षय दर A की क्षय दर के बराबर हो तथा \(\lambda_{\text{B}} < \lambda_{\text{A}}\) हो।</p>]]></text></generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>false</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="-50" format="html"><text><![CDATA[<p>Initial rate of decay of A is twice the initial rate of decay of B and \(\lambda_{\mathrm{A}} = \lambda_{\mathrm{B}}\)</p>]]></text></answer>
+  <answer fraction="50" format="html"><text><![CDATA[<p>Initial rate of decay of A is twice the initial rate of decay of B and \(\lambda_{\mathrm{A}} > \lambda_{\mathrm{B}}\)</p>]]></text></answer>
+  <answer fraction="-50" format="html"><text><![CDATA[<p>Initial rate of decay of B is twice the initial rate of decay of A and \(\lambda_{\mathrm{A}} > \lambda_{\mathrm{B}}\)</p>]]></text></answer>
+  <answer fraction="50" format="html"><text><![CDATA[<p>Initial rate of decay of B is same as the rate of decay of A at \( t = 2\mathrm{h} \) and \( \lambda_{\mathrm{B}} < \lambda_{\mathrm{A}} \).</p>]]></text></answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:hi</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>section:mcq_ii</text></tag>
+    <tag><text>class:class_12</text></tag>
+    <tag><text>topic:radioactivity</text></tag>
+    <tag><text>chapter:nuclei</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:medium</text></tag>
+    <tag><text>blooms:apply</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:equation</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+<question type="multichoice">
+  <name><text>NEET_UG_PHYSICS_MCQII_NUCLEI_MCQ_Q10 - Comparison of decay rates and constants from graph</text></name>
+  <questiontext format="html"><text><![CDATA[<p>The variation of decay rate of two radioactive samples A and B with time is shown in the figure.</p>
+<p><img src="@@PLUGINFILE@@/img-0.jpeg" alt="Fig. 13.1" /></p>
+<p>Which of the following statements are true?</p>
+<hr/>
+<p>दो रेडियोएक्टिव नमूनों A और B की क्षय दर का समय के साथ परिवर्तन चित्र में दिखाया गया है।</p>
+<p><img src="@@PLUGINFILE@@/img-0.jpeg" alt="Fig. 13.1" /></p>
+<p>निम्नलिखित में से कौन-से कथन सही हैं?</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Interpretation of Decay Rate Plot</strong><br/>
+The given graph shows the decay rate \(\frac{dN}{dt}\) (activity \(R\)) plotted against time \(t\) for two radioactive samples A and B. Both curves decline exponentially over time according to \(R(t) = R_0 e^{-\lambda t}\).</p>
+<p><strong>Step 2: Analysis of Initial Activity and Decay Constant</strong><br/>
+At \(t = 0\), the vertical intercept of curve A is visibly higher than that of curve B, indicating that the initial activity of sample A exceeds that of sample B (\(R_{0\text{A}} > R_{0\text{B}}\)). Furthermore, the negative slope of curve A at \(t = 0\) is significantly steeper than that of curve B. Since \(-\frac{dR}{dt} = \lambda R\), the initial slope magnitude is \(\lambda R_0\). Because curve A drops rapidly and crosses beneath curve B, the disintegration constant of A is greater than that of B (\(\lambda_{\text{A}} > \lambda_{\text{B}}\)).</p>
+<p><strong>Step 3: Analysis of the Intersection Point</strong><br/>
+Curves A and B intersect at a single instant of time \(t^*\). At this intersection point, the instantaneous decay rates of both samples are exactly equal (\(R_{\text{A}}(t^*) = R_{\text{B}}(t^*)\)). Thus, even though sample B has a smaller decay constant, its decay rate becomes equal to that of sample A at this later instant.</p>
+<p><strong>Step 4: Decay Rates Beyond the Intersection Point</strong><br/>
+For all times \(t > t^*\), curve B lies above curve A, meaning \(R_{\text{B}}(t) > R_{\text{A}}(t)\). Therefore, sample A does not always decay faster than sample B; after the crossing point, sample B decays faster.</p>
+<p><strong>Step 5: Final Conclusion</strong><br/>
+The decay constant of A is greater than that of B, but A does not always decay faster than B; additionally, the decay constant of B is smaller than that of A, but its decay rate becomes equal to that of A at a later instant.</p>
+<hr/>
+<p><strong>चरण 1: आरेख की व्याख्या</strong><br/>
+दिया गया आरेख दो रेडियोएक्टिव नमूनों A और B के लिए समय \(t\) के साथ क्षय दर \(\frac{dN}{dt}\) (सक्रियता \(R\)) के परिवर्तन को प्रदर्शित करता है। दोनों वक्र \(R(t) = R_0 e^{-\lambda t}\) के अनुसार समय के साथ चरघातांकी रूप से घटते हैं।</p>
+<p><strong>चरण 2: प्रारंभिक सक्रियता और क्षय नियतांक का विश्लेषण</strong><br/>
+\(t = 0\) पर, वक्र A का ऊर्ध्वाधर अंतःखंड वक्र B से स्पष्ट रूप से उच्च है, जो यह दर्शाता है कि नमूना A की प्रारंभिक सक्रियता नमूना B की तुलना में अधिक है (\(R_{0\text{A}} > R_{0\text{B}}\))। इसके अतिरिक्त, \(t = 0\) पर वक्र A का ऋणात्मक ढाल वक्र B की तुलना में काफी अधिक तीव्र है। चूँकि \(-\frac{dR}{dt} = \lambda R\) होता है, प्रारंभिक ढाल का परिमाण \(\lambda R_0\) होता है। चूँकि वक्र A तेजी से नीचे गिरता है और वक्र B के नीचे चला जाता है, इसलिए A का विघटन नियतांक B से अधिक है (\(\lambda_{\text{A}} > \lambda_{\text{B}}\))।</p>
+<p><strong>चरण 3: प्रतिच्छेद बिंदु का विश्लेषण</strong><br/>
+वक्र A और B समय के एक विशिष्ट क्षण \(t^*\) पर एक-दूसरे को प्रतिच्छेद करते हैं। इस प्रतिच्छेद बिंदु पर, दोनों नमूनों की तात्कालिक क्षय दरें ठीक बराबर होती हैं (\(R_{\text{A}}(t^*) = R_{\text{B}}(t^*)\))। इस प्रकार, यद्यपि नमूना B का क्षय नियतांक छोटा है, फिर भी इसकी क्षय दर बाद के क्षण में A की क्षय दर के बराबर हो जाती है।</p>
+<p><strong>चरण 4: प्रतिच्छेद बिंदु के बाद क्षय दरें</strong><br/>
+\(t > t^*\) के सभी समयों के लिए, वक्र B वक्र A के ऊपर स्थित रहता है, जिसका अर्थ \(R_{\text{B}}(t) > R_{\text{A}}(t)\) है। अतः, नमूना A सदैव नमूना B की तुलना में तेजी से क्षयित नहीं होता है; प्रतिच्छेद बिंदु के बाद नमूना B अधिक तेजी से क्षयित होता है।</p>
+<p><strong>चरण 5: अंतिम निष्कर्ष</strong><br/>
+A का क्षय नियतांक B के क्षय नियतांक से बड़ा है परंतु A सदैव B से तेजी से क्षयित नहीं होता है; साथ ही B का क्षय नियतांक A के क्षय नियतांक से छोटा है परंतु फिर भी इसकी क्षय दर बाद के एक क्षण पर A की क्षय दर के बराबर हो जाती है।</p>]]></text></generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>false</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="-50" format="html"><text><![CDATA[<p>Decay constant of A is greater than that of B, hence A always decays faster than B.</p>]]></text></answer>
+  <answer fraction="-50" format="html"><text><![CDATA[<p>Decay constant of B is greater than that of A but its decay rate is always smaller than that of A.</p>]]></text></answer>
+  <answer fraction="50" format="html"><text><![CDATA[<p>Decay constant of A is greater than that of B but it does not always decay faster than B.</p>]]></text></answer>
+  <answer fraction="50" format="html"><text><![CDATA[<p>Decay constant of B is smaller than that of A but still its decay rate becomes equal to that of A at a later instant.</p>]]></text></answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:hi</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>section:mcq_ii</text></tag>
+    <tag><text>class:class_12</text></tag>
+    <tag><text>topic:radioactivity</text></tag>
+    <tag><text>chapter:nuclei</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:medium</text></tag>
+    <tag><text>blooms:analyze</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:graph</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+</quiz>

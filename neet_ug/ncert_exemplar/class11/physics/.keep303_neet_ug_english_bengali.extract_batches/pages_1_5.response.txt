@@ -1,0 +1,447 @@
+<question type="multichoice">
+  <name><text>NEET_UG_PHYSICS_MCQ_Q01 - Vanishing average velocity for chosen time interval</text></name>
+  <questiontext format="html">
+    <text><![CDATA[
+<p>Among the four graphs, there is only one graph for which average velocity over the time interval \( (0, T) \) can vanish for a suitably chosen \( T \). Which one is it?</p>
+<hr/>
+<p>প্রদত্ত চারটি লেখচিত্রের মধ্যে কেবল একটি লেখচিত্রের ক্ষেত্রে উপযুক্তভাবে নির্বাচিত সময় ব্যবধান \( (0, T) \)-এ গড় বেগ শূন্য হতে পারে। সেটি কোনটি?</p>
+]]></text>
+  </questiontext>
+  <generalfeedback format="html">
+    <text><![CDATA[
+<p><strong>Step 1: Given Data and Conditions</strong><br/>We are given four position-time graphs, \( x(t) \) versus \( t \), for motion starting at \( t = 0 \). We need to identify the graph for which the average velocity over a finite interval \( (0, T) \) can be zero for a suitable choice of \( T > 0 \).</p>
+<p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>Let \( x(t) \) denote the position of the particle at time \( t \). Time \( t \geq 0 \) is plotted on the horizontal axis and position \( x \) on the vertical axis.</p>
+<p><strong>Step 3: Relevant Formulae and Principles</strong><br/>Average velocity \( \bar{v} \) over the interval \( (0, T) \) is defined as the net displacement divided by the elapsed time:
+\[ \bar{v} = \frac{x(T) - x(0)}{T} \]
+For the average velocity to vanish, the net displacement must be zero:
+\[ \bar{v} = 0 \implies x(T) - x(0) = 0 \implies x(T) = x(0) \]
+Geometrically, this requires that a horizontal line drawn from the initial coordinate \( (0, x(0)) \) parallel to the time axis intersects the position-time curve at some later time \( t = T > 0 \).</p>
+<p><strong>Step 4: Step-by-Step Working and Evaluation</strong><br/>Examining the geometric behaviour of the graphs:
+<br/>1. In a graph where the position starts negative, increases to positive values, and levels off without returning to its negative starting level, \( x(T) \neq x(0) \) for all \( T > 0 \).
+<br/>2. In a graph where the position starts at a positive value \( x(0) > 0 \), reaches a peak, and then decreases continuously below its starting position, a horizontal line drawn at \( x = x(0) \) crosses the curve at a later point \( t = T \). At that instant, \( x(T) = x(0) \), which makes the displacement zero and therefore the average velocity vanishes over \( (0, T) \).
+<br/>3. In a graph where the position decreases strictly and monotonically with time, \( x(t) < x(0) \) for all \( t > 0 \), so \( x(T) \) can never equal \( x(0) \).
+<br/>4. In a graph where the position increases strictly and monotonically from zero, \( x(t) > x(0) \) for all \( t > 0 \), so \( x(T) \) can never equal \( x(0) \).</p>
+<p><strong>Step 5: Check and Final Answer</strong><br/>Only the curve that rises to a local maximum and subsequently falls back across its initial position level satisfies \( x(T) = x(0) \) for a finite \( T > 0 \).
+<br/>Final Answer: The position-time graph that starts at a positive value, reaches a peak, and then decreases below its initial level.</p>
+<hr/>
+<p><strong>ধাপ ১: প্রদত্ত তথ্য ও শর্তাবলী</strong><br/>\( t = 0 \) থেকে শুরু হওয়া গতির জন্য চারটি অবস্থান-সময় লেখচিত্র, \( x(t) \) বনাম \( t \), দেওয়া রয়েছে। আমাদের এমন একটি লেখচিত্র চিহ্নিত করতে হবে যার ক্ষেত্রে উপযুক্ত একটি সময় ব্যবধান \( (0, T) \)-এ গড় বেগ শূন্য হতে পারে, যেখানে \( T > 0 \)।</p>
+<p><strong>ধাপ ২: অনুমান ও চিহ্নরীতি</strong><br/>ধরি, \( t \) সময়ে কণার অবস্থান \( x(t) \)। অনুভূমিক অক্ষে সময় \( t \geq 0 \) এবং উল্লম্ব অক্ষে অবস্থান \( x \) নির্দেশিত।</p>
+<p><strong>ধাপ ৩: প্রাসঙ্গিক সূত্র ও নীতি</strong><br/>\( (0, T) \) সময় ব্যবধানে গড় বেগ \( \bar{v} \) হলো মোট সরণ ও অতিক্রান্ত সময়ের অনুপাত:
+\[ \bar{v} = \frac{x(T) - x(0)}{T} \]
+গড় বেগ শূন্য হওয়ার জন্য কণার মোট সরণ শূন্য হতে হবে:
+\[ \bar{v} = 0 \implies x(T) - x(0) = 0 \implies x(T) = x(0) \]
+জ্যামিতিক দৃষ্টিকোণ থেকে এর অর্থ হলো প্রারম্ভিক স্থানাঙ্ক \( (0, x(0)) \) থেকে সময় অক্ষের সমান্তরাল একটি অনুভূমিক রেখা টানলে তা অবশ্যই পরবর্তী কোনো সময় \( t = T > 0 \)-তে লেখচিত্রটিকে পুনরায় ছেদ করবে।</p>
+<p><strong>ধাপ ৪: ধাপে ধাপে গণনা ও বিশ্লেষণ</strong><br/>লেখচিত্রগুলির বৈশিষ্ট্য বিশ্লেষণ:
+<br/>১. যে লেখচিত্রে অবস্থান ঋণাত্মক মান থেকে শুরু হয়ে ধনাত্মক মানে পৌঁছায় কিন্তু আর কখনোই তার প্রারম্ভিক ঋণাত্মক মানে ফিরে আসে না, সেখানে সমস্ত \( T > 0 \)-এর জন্য \( x(T) \neq x(0) \)।
+<br/>২. যে লেখচিত্রে অবস্থান একটি ধনাত্মক প্রারম্ভিক মান \( x(0) > 0 \) থেকে শুরু করে বৃদ্ধি পেয়ে শীর্ষবিন্দুতে পৌঁছায় এবং তারপর ক্রমাগত হ্রাস পেয়ে প্রারম্ভিক অবস্থানের নিচে নেমে যায়, সেখানে \( x = x(0) \) অনুভূমিক রেখাটি পরবর্তী একটি বিন্দু \( t = T \)-তে লেখচিত্রকে ছেদ করে। সেই বিন্দুতে \( x(T) = x(0) \) হওয়ায় মোট সরণ শূন্য হয় এবং ফলে \( (0, T) \) ব্যবধানে গড় বেগ শূন্য হয়।
+<br/>৩. যে লেখচিত্রে অবস্থান সময়ের সাথে সাথে কেবল একঘেয়েভাবে হ্রাস পায়, সেখানে সমস্ত \( t > 0 \)-এর জন্য \( x(t) < x(0) \), ফলে \( x(T) \) কখনোই \( x(0) \)-এর সমান হতে পারে না।
+<br/>৪. যে লেখচিত্রে অবস্থান শূন্য থেকে শুরু হয়ে কেবল একঘেয়েভাবে বৃদ্ধি পায়, সেখানে সমস্ত \( t > 0 \)-এর জন্য \( x(t) > x(0) \), ফলে \( x(T) \) কখনোই \( x(0) \)-এর সমান হতে পারে না।</p>
+<p><strong>ধাপ ৫: যাচাই ও চূড়ান্ত উত্তর</strong><br/>কেবল সেই অবস্থান-সময় লেখচিত্রটি, যা প্রথমে শীর্ষমানে পৌঁছানোর পর পুনরায় তার প্রারম্ভিক অবস্থানের মানকে অতিক্রম করে নিচের দিকে নেমে আসে, উপযুক্তভাবে নির্বাচিত \( T > 0 \)-এর জন্য \( x(T) = x(0) \) শর্তটি পূরণ করে।
+<br/>চূড়ান্ত উত্তর: যে অবস্থান-সময় লেখচিত্রটি ধনাত্মক মান থেকে শুরু হয়ে শীর্ষে পৌঁছে আবার প্রারম্ভিক অবস্থানের নিচে নেমে আসে।</p>
+]]></text>
+  </generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p><img src="@@PLUGINFILE@@/img-0.jpeg" alt="Position-time graph starting below axis and rising into positive values" /></p>]]></text>
+  </answer>
+  <answer fraction="100" format="html">
+    <text><![CDATA[<p><img src="@@PLUGINFILE@@/img-1.jpeg" alt="Position-time graph starting above axis, rising to a maximum, and falling" /></p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p><img src="@@PLUGINFILE@@/img-2.jpeg" alt="Position-time graph decreasing monotonically" /></p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p><img src="@@PLUGINFILE@@/img-3.jpeg" alt="Position-time graph increasing monotonically from origin" /></p>]]></text>
+  </answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:bn</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>class:class_11</text></tag>
+    <tag><text>chapter:motion_in_a_straight_line</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:medium</text></tag>
+    <tag><text>blooms:understand</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:graph</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+
+<question type="multichoice">
+  <name><text>NEET_UG_PHYSICS_MCQ_Q02 - Position velocity and acceleration of descending lift</text></name>
+  <questiontext format="html">
+    <text><![CDATA[
+<p>A lift is coming from 8th floor and is just about to reach 4th floor. Taking ground floor as origin and positive direction upwards for all quantities, which one of the following is correct?</p>
+<hr/>
+<p>একটি লিফট অষ্টম তল থেকে নিচে নামছে এবং চতুর্থ তলে পৌঁছানোর মুখে রয়েছে। ভূমিতলকে মূলবিন্দু এবং সমস্ত রাশির জন্য ওপরের দিককে ধনাত্মক দিক বিবেচনা করলে, নিচের কোনটি সঠিক?</p>
+]]></text>
+  </questiontext>
+  <generalfeedback format="html">
+    <text><![CDATA[
+<p><strong>Step 1: Given Data and Conditions</strong><br/>- Origin: Ground floor (\( x = 0 \)).<br/>- Positive direction: Vertically upward for all quantities.<br/>- Motion: The lift descends from the 8th floor toward the 4th floor and slows down as it approaches the 4th floor.</p>
+<p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>- Upward direction is positive; downward direction is negative.<br/>- Any point above the ground floor has positive position coordinate (\( x > 0 \)).<br/>- Downward motion implies negative velocity (\( v < 0 \)).<br/>- Deceleration (retardation) means acceleration opposes the velocity vector (\( a \cdot v < 0 \)).</p>
+<p><strong>Step 3: Relevant Formulae and Principles</strong><br/>- Position \( x \) indicates location relative to origin.<br/>- Velocity \( v = \frac{dx}{dt} \) gives instantaneous rate of change of position.<br/>- Acceleration \( a = \frac{dv}{dt} \). When an object slows down while moving in a given direction, its acceleration must act in the opposite direction.</p>
+<p><strong>Step 4: Step-by-Step Working</strong><br/>1. <em>Position \( x \):</em> The lift is near the 4th floor, which lies above the ground floor origin. Thus, \( x > 0 \).<br/>2. <em>Velocity \( v \):</em> The lift is traveling downward from the 8th floor to the 4th floor. Since downward is the negative direction, \( v < 0 \).<br/>3. <em>Acceleration \( a \):</em> The lift is decelerating to stop at the 4th floor. Because the velocity is downward (negative), the acceleration vector must point upward to reduce the speed. Upward is the positive direction, so \( a > 0 \).</p>
+<p><strong>Step 5: Check and Final Answer</strong><br/>The deduced signs are \( x > 0 \), \( v < 0 \), and \( a > 0 \).<br/>Final Answer: \( x > 0, v < 0, a > 0 \)</p>
+<hr/>
+<p><strong>ধাপ ১: প্রদত্ত তথ্য ও শর্তাবলী</strong><br/>- মূলবিন্দু: ভূমিতল (\( x = 0 \))।<br/>- ধনাত্মক দিক: সমস্ত রাশির ক্ষেত্রে উল্লম্বভাবে ওপরের দিক ধনাত্মক।<br/>- গতি: লিফটটি অষ্টম তল থেকে চতুর্থ তলের দিকে নিচে নামছে এবং চতুর্থ তলে থামার জন্য তার গতি মন্থর হচ্ছে।</p>
+<p><strong>ধাপ ২: অনুমান ও চিহ্নরীতি</strong><br/>- ওপরের দিক ধনাত্মক এবং নিচের দিক ঋণাত্মক।<br/>- ভূমিতলের ওপরের যেকোনো অবস্থানের জন্য স্থানাঙ্ক ধনাত্মক (\( x > 0 \))।<br/>- নিচের দিকে গতির জন্য বেগ ঋণাত্মক (\( v < 0 \))।<br/>- গতি মন্থর হওয়া বা মন্দনের ক্ষেত্রে ত্বরণ ও বেগ বিপরীতমুখী হয় (\( a \cdot v < 0 \))।</p>
+<p><strong>ধাপ ৩: প্রাসঙ্গিক সূত্র ও নীতি</strong><br/>- অবস্থান \( x \) মূলবিন্দুর সাপেক্ষে স্থানাঙ্ক প্রকাশ করে।<br/>- বেগ \( v = \frac{dx}{dt} \) অবস্থানের পরিবর্তনের হার নির্দেশ করে।<br/>- ত্বরণ \( a = \frac{dv}{dt} \)। কোনো বস্তু গতিশীল অবস্থায় মন্থর হলে ত্বরণ অবশ্যই গতির বিপরীত দিকে ক্রিয়া করে।</p>
+<p><strong>ধাপ ৪: ধাপে ধাপে বিশ্লেষণ</strong><br/>১. <em>অবস্থান \( x \):</em> চতুর্থ তলটি ভূমিতল (মূলবিন্দু)-এর ওপরে অবস্থিত। সুতরাং, অবস্থান স্থানাঙ্ক ধনাত্মক: \( x > 0 \)।<br/>২. <em>বেগ \( v \):</em> লিফটটি অষ্টম তল থেকে নিচের দিকে নামছে। যেহেতু নিচের দিক ঋণাত্মক, তাই লিফটের বেগ ঋণাত্মক: \( v < 0 \)।<br/>৩. <em>ত্বরণ \( a \):</em> চতুর্থ তলে পৌঁছানোর মুখে লিফটটি থেমে যাওয়ার জন্য মন্দীভূত হচ্ছে। নিচের দিকে চলমান বস্তুর দ্রুতি কমাতে ত্বরণকে অবশ্যই ওপরের দিকে প্রযুক্ত হতে হবে। ওপরের দিক ধনাত্মক হওয়ায় ত্বরণ ধনাত্মক হবে: \( a > 0 \)।</p>
+<p><strong>ধাপ ৫: যাচাই ও চূড়ান্ত উত্তর</strong><br/>চিহ্নগুলি একত্রিত করলে পাওয়া যায় \( x > 0 \), \( v < 0 \), এবং \( a > 0 \)।<br/>চূড়ান্ত উত্তর: \( x > 0, v < 0, a > 0 \)</p>
+]]></text>
+  </generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\( x < 0, v < 0, a > 0 \)</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\( x > 0, v < 0, a < 0 \)</p>]]></text>
+  </answer>
+  <answer fraction="100" format="html">
+    <text><![CDATA[<p>\( x > 0, v < 0, a > 0 \)</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\( x > 0, v > 0, a < 0 \)</p>]]></text>
+  </answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:bn</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>class:class_11</text></tag>
+    <tag><text>chapter:motion_in_a_straight_line</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:medium</text></tag>
+    <tag><text>blooms:apply</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:text</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+
+<question type="multichoice">
+  <name><text>NEET_UG_PHYSICS_MCQ_Q03 - Range of displacement in one dimensional motion</text></name>
+  <questiontext format="html">
+    <text><![CDATA[
+<p>In one dimensional motion, instantaneous speed \( v \) satisfies \( 0 \leq v < v_0 \). Which of the following statements is correct?</p>
+<hr/>
+<p>একমাত্রিক গতিতে তাৎক্ষণিক দ্রুতি \( v \), \( 0 \leq v < v_0 \) শর্তটি পূরণ করে। নিচের কোন বিবৃতিটি সঠিক?</p>
+]]></text>
+  </questiontext>
+  <generalfeedback format="html">
+    <text><![CDATA[
+<p><strong>Step 1: Given Data and Conditions</strong><br/>- Motion is strictly one-dimensional.<br/>- Instantaneous speed \( v \) is bounded by \( 0 \leq v < v_0 \), where \( v_0 > 0 \).<br/>- Time interval of motion is \( T > 0 \).</p>
+<p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>Let the motion be along the \( x \)-axis with the initial position chosen as \( x(0) = 0 \). The instantaneous velocity \( v_x(t) \) can take positive or negative values depending on whether motion is in the positive or negative direction.</p>
+<p><strong>Step 3: Relevant Formulae and Principles</strong><br/>- Speed is the magnitude of velocity: \( v(t) = |v_x(t)| \).<br/>- The condition \( 0 \leq |v_x(t)| < v_0 \) implies:
+\[ -v_0 < v_x(t) < v_0 \quad \text{for all } t \in [0, T] \]<br/>- Displacement \( x \) in time \( T \) is the integral of velocity over the interval:
+\[ x = \int_0^T v_x(t) \, dt \]</p>
+<p><strong>Step 4: Step-by-Step Working</strong><br/>Applying the integral inequality theorem over the interval \( [0, T] \):
+\[ \int_0^T (-v_0) \, dt < \int_0^T v_x(t) \, dt < \int_0^T v_0 \, dt \]
+Evaluating the bounds:
+\[ -v_0 T < x < v_0 T \]
+Thus, the displacement must strictly lie within the open interval \( (-v_0 T, v_0 T) \).</p>
+<p><strong>Step 5: Check and Final Answer</strong><br/>Displacement can be negative if motion is in the negative direction, so non-negative displacement is not guaranteed. Acceleration can take negative values, and turning points can exist whenever velocity passes through zero. Thus, the correct and universally valid statement is the displacement boundary.<br/>Final Answer: The displacement \( x \) in time \( T \) satisfies \( -v_0 T < x < v_0 T \).</p>
+<hr/>
+<p><strong>ধাপ ১: প্রদত্ত তথ্য ও শর্তাবলী</strong><br/>- কণাটির গতি একটি সরলরেখা বরাবর একমাত্রিক।<br/>- তাৎক্ষণিক দ্রুতি \( v \), \( 0 \leq v < v_0 \) শর্ত মেনে চলে, যেখানে \( v_0 > 0 \)।<br/>- অতিক্রান্ত সময়কাল হলো \( T > 0 \)।</p>
+<p><strong>ধাপ ২: অনুমান ও চিহ্নরীতি</strong><br/>ধরি, গতিটি \( x \)-অক্ষ বরাবর হচ্ছে এবং প্রারম্ভিক অবস্থান \( x(0) = 0 \)। তাৎক্ষণিক বেগ \( v_x(t) \) গতির অভিমুখ অনুসারে ধনাত্মক বা ঋণাত্মক হতে পারে।</p>
+<p><strong>ধাপ ৩: প্রাসঙ্গিক সূত্র ও নীতি</strong><br/>- দ্রুতি হলো বেগের পরম মান: \( v(t) = |v_x(t)| \)।<br/>- \( 0 \leq |v_x(t)| < v_0 \) অসমতা নির্দেশ করে যে:
+\[ -v_0 < v_x(t) < v_0 \quad (\text{সমস্ত } t \in [0, T]\text{-এর জন্য}) \]<br/>- \( T \) সময়ে মোট সরণ \( x \) হলো বেগের সমাকলন:
+\[ x = \int_0^T v_x(t) \, dt \]</p>
+<p><strong>ধাপ ৪: ধাপে ধাপে গণনা</strong><br/>\( [0, T] \) ব্যবধানে সমাকলনের অসমতা নীতি প্রয়োগ করে:
+\[ \int_0^T (-v_0) \, dt < \int_0^T v_x(t) \, dt < \int_0^T v_0 \, dt \]
+নির্দিষ্ট সমাকলনের মান গণনা করে:
+\[ -v_0 T < x < v_0 T \]
+অতএব, কণার সরণ \( x \) সর্বদা \( -v_0 T \) থেকে \( v_0 T \)-এর মধ্যবর্তী হবে।</p>
+<p><strong>ধাপ ৫: যাচাই ও চূড়ান্ত উত্তর</strong><br/>কণা ঋণাত্মক দিকে গতিশীল হলে সরণ ঋণাত্মক হতে পারে, ত্বরণ ঋণাত্মক হতে পারে এবং বেগ শূন্য হওয়ার মাধ্যমে দিক পরিবর্তন বা turning point থাকতে পারে। ফলে কেবল সরণের এই নির্দিষ্ট ব্যবধানটিই নিশ্চিতভাবে সত্য।<br/>চূড়ান্ত উত্তর: \( T \) সময়ে সরণ \( x \), \( -v_0 T < x < v_0 T \) শর্ত পূরণ করে।</p>
+]]></text>
+  </generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>The displacement in time \( T \) must always take non-negative values.</p>]]></text>
+  </answer>
+  <answer fraction="100" format="html">
+    <text><![CDATA[<p>The displacement \( x \) in time \( T \) satisfies \( -v_0 T < x < v_0 T \).</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>The acceleration is always a non-negative number.</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>The motion has no turning points.</p>]]></text>
+  </answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:bn</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>class:class_11</text></tag>
+    <tag><text>chapter:motion_in_a_straight_line</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:medium</text></tag>
+    <tag><text>blooms:understand</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:text</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+
+<question type="multichoice">
+  <name><text>NEET_UG_PHYSICS_MCQ_Q04 - Average speed for two equal distance halves</text></name>
+  <questiontext format="html">
+    <text><![CDATA[
+<p>A vehicle travels half the distance \( L \) with speed \( V_1 \) and the other half with speed \( V_2 \), then its average speed is</p>
+<hr/>
+<p>একটি যান মোট দূরত্ব \( L \)-এর অর্ধেক দূরত্ব \( V_1 \) দ্রুতিতে এবং বাকি অর্ধেক দূরত্ব \( V_2 \) দ্রুতিতে অতিক্রম করে, তাহলে যানটির গড় দ্রুতি হলো</p>
+]]></text>
+  </questiontext>
+  <generalfeedback format="html">
+    <text><![CDATA[
+<p><strong>Step 1: Given Data and Conditions</strong><br/>- Total path distance = \( L \).<br/>- First half distance = \( \frac{L}{2} \) traveled at constant speed \( V_1 \).<br/>- Second half distance = \( \frac{L}{2} \) traveled at constant speed \( V_2 \).</p>
+<p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>Speed is a scalar quantity, with \( V_1 > 0 \) and \( V_2 > 0 \). All distance segments are traversed along the forward direction.</p>
+<p><strong>Step 3: Relevant Formulae and Principles</strong><br/>- Time \( t \) taken to travel a distance \( d \) at speed \( v \) is \( t = \frac{d}{v} \).<br/>- Average speed \( v_{\text{avg}} \) is defined as the total distance covered divided by the total time taken:
+\[ v_{\text{avg}} = \frac{d_{\text{total}}}{t_{\text{total}}} = \frac{L}{t_1 + t_2} \]</p>
+<p><strong>Step 4: Step-by-Step Working</strong><br/>1. Time taken for the first half of the journey:
+\[ t_1 = \frac{L/2}{V_1} = \frac{L}{2V_1} \]
+2. Time taken for the second half of the journey:
+\[ t_2 = \frac{L/2}{V_2} = \frac{L}{2V_2} \]
+3. Total time taken:
+\[ t_{\text{total}} = t_1 + t_2 = \frac{L}{2V_1} + \frac{L}{2V_2} = \frac{L}{2} \left( \frac{1}{V_1} + \frac{1}{V_2} \right) = \frac{L(V_1 + V_2)}{2V_1V_2} \]
+4. Average speed:
+\[ v_{\text{avg}} = \frac{L}{t_{\text{total}}} = \frac{L}{\frac{L(V_1 + V_2)}{2V_1V_2}} = \frac{2V_1V_2}{V_1 + V_2} \]</p>
+<p><strong>Step 5: Check and Final Answer</strong><br/>The average speed is the harmonic mean of \( V_1 \) and \( V_2 \). When \( V_1 = V_2 = V \), this formula reduces to \( V \), confirming mathematical and physical consistency.<br/>Final Answer: \( \frac{2V_1V_2}{V_1 + V_2} \)</p>
+<hr/>
+<p><strong>ধাপ ১: প্রদত্ত তথ্য ও শর্তাবলী</strong><br/>- মোট অতিক্রান্ত দূরত্ব = \( L \)।<br/>- দূরত্বের প্রথমার্ধ = \( \frac{L}{2} \), যা \( V_1 \) সমদ্রুতিতে অতিক্রান্ত হয়।<br/>- দূরত্বের দ্বিতীয়ার্ধ = \( \frac{L}{2} \), যা \( V_2 \) সমদ্রুতিতে অতিক্রান্ত হয়।</p>
+<p><strong>ধাপ ২: অনুমান ও চিহ্নরীতি</strong><br/>দ্রুতি একটি স্কেলার রাশি এবং সর্বদা ধনাত্মক: \( V_1 > 0 \), \( V_2 > 0 \)।</p>
+<p><strong>ধাপ ৩: প্রাসঙ্গিক সূত্র ও নীতি</strong><br/>- \( v \) দ্রুতিতে \( d \) দূরত্ব অতিক্রমে প্রয়োজনীয় সময় \( t = \frac{d}{v} \)।<br/>- গড় দ্রুতি \( v_{\text{avg}} \) হলো মোট দূরত্বের সাথে মোট সময়ের অনুপাত:
+\[ v_{\text{avg}} = \frac{\text{মোট দূরত্ব}}{\text{মোট সময়}} = \frac{L}{t_1 + t_2} \]</p>
+<p><strong>ধাপ ৪: ধাপে ধাপে গণনা</strong><br/>১. দূরত্বের প্রথম অর্ধেক অতিক্রম করতে প্রয়োজনীয় সময়:
+\[ t_1 = \frac{L/2}{V_1} = \frac{L}{2V_1} \]
+২. দূরত্বের দ্বিতীয় অর্ধেক অতিক্রম করতে প্রয়োজনীয় সময়:
+\[ t_2 = \frac{L/2}{V_2} = \frac{L}{2V_2} \]
+৩. যাত্রার মোট সময়:
+\[ t_{\text{total}} = t_1 + t_2 = \frac{L}{2V_1} + \frac{L}{2V_2} = \frac{L}{2} \left( \frac{1}{V_1} + \frac{1}{V_2} \right) = \frac{L(V_1 + V_2)}{2V_1V_2} \]
+৪. গড় দ্রুতি নির্ণয়:
+\[ v_{\text{avg}} = \frac{L}{t_{\text{total}}} = \frac{L}{\frac{L(V_1 + V_2)}{2V_1V_2}} = \frac{2V_1V_2}{V_1 + V_2} \]</p>
+<p><strong>ধাপ ৫: যাচাই ও চূড়ান্ত উত্তর</strong><br/>প্রাপ্ত গড় দ্রুতি হলো \( V_1 \) এবং \( V_2 \)-এর বিপরীত গড় (harmonic mean)। যদি \( V_1 = V_2 = V \) হয়, তবে গড় দ্রুতি \( V \) হয়, যা শারীরিকভাবে নির্ভুল।<br/>চূড়ান্ত উত্তর: \( \frac{2V_1V_2}{V_1 + V_2} \)</p>
+]]></text>
+  </generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\( \frac{V_1 + V_2}{2} \)</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\( \frac{2V_1 + V_2}{V_1 + V_2} \)</p>]]></text>
+  </answer>
+  <answer fraction="100" format="html">
+    <text><![CDATA[<p>\( \frac{2V_1V_2}{V_1 + V_2} \)</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\( \frac{L(V_1 + V_2)}{V_1V_2} \)</p>]]></text>
+  </answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:bn</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>class:class_11</text></tag>
+    <tag><text>chapter:motion_in_a_straight_line</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:easy</text></tag>
+    <tag><text>blooms:apply</text></tag>
+    <tag><text>calculation:moderate</text></tag>
+    <tag><text>media:equation</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+
+<question type="multichoice">
+  <name><text>NEET_UG_PHYSICS_MCQ_Q05 - Distance covered by particle in given time</text></name>
+  <questiontext format="html">
+    <text><![CDATA[
+<p>The displacement of a particle is given by \( x = (t - 2)^2 \) where \( x \) is in metres and \( t \) in seconds. The distance covered by the particle in first 4 seconds is</p>
+<hr/>
+<p>একটি কণার সরণ \( x = (t - 2)^2 \) সমীকরণ দ্বারা প্রদত্ত, যেখানে \( x \) মিটারে এবং \( t \) সেকেন্ডে প্রকাশিত। প্রথম 4 সেকেন্ডে কণাটি দ্বারা অতিক্রান্ত দূরত্ব হলো</p>
+]]></text>
+  </questiontext>
+  <generalfeedback format="html">
+    <text><![CDATA[
+<p><strong>Step 1: Given Data and Conditions</strong><br/>- Position of the particle: \( x(t) = (t - 2)^2 \) (in metres).<br/>- Time interval: from \( t = 0 \) to \( t = 4\text{ s} \).</p>
+<p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>Distance is the total length of the actual path traversed and can never decrease. If the particle stops and reverses its direction of motion during the interval, the distance must be evaluated segment-by-segment between turning points.</p>
+<p><strong>Step 3: Relevant Formulae and Principles</strong><br/>- Instantaneous velocity is the time derivative of position:
+\[ v(t) = \frac{dx}{dt} \]
+- A turning point occurs where instantaneous velocity is zero: \( v(t) = 0 \).<br/>- Total distance \( s \) over an interval containing a turning point \( t_{\text{turn}} \) is:
+\[ s = |x(t_{\text{turn}}) - x(0)| + |x(t_{\text{final}}) - x(t_{\text{turn}})| \]</p>
+<p><strong>Step 4: Step-by-Step Working</strong><br/>1. Differentiate position with respect to time to obtain velocity:
+\[ v(t) = \frac{d}{dt}(t - 2)^2 = 2(t - 2)\text{ m/s} \]
+2. Find the turning point:
+\[ v(t) = 0 \implies 2(t - 2) = 0 \implies t = 2\text{ s} \]
+The turning point \( t = 2\text{ s} \) lies within the interval \( [0, 4\text{ s}] \).<br/>
+3. Evaluate position coordinates at key instants:
+- At \( t = 0\text{ s} \): \( x(0) = (0 - 2)^2 = 4\text{ m} \)
+- At \( t = 2\text{ s} \): \( x(2) = (2 - 2)^2 = 0\text{ m} \)
+- At \( t = 4\text{ s} \): \( x(4) = (4 - 2)^2 = 4\text{ m} \)
+4. Calculate distance covered in each segment:
+- First segment (\( t = 0 \) to \( t = 2\text{ s} \)):
+\[ s_1 = |x(2) - x(0)| = |0 - 4| = 4\text{ m} \]
+- Second segment (\( t = 2\text{ s} \) to \( t = 4\text{ s} \)):
+\[ s_2 = |x(4) - x(2)| = |4 - 0| = 4\text{ m} \]
+5. Compute total distance:
+\[ s = s_1 + s_2 = 4\text{ m} + 4\text{ m} = 8\text{ m} \]</p>
+<p><strong>Step 5: Check and Final Answer</strong><br/>The net displacement over the 4 seconds is \( x(4) - x(0) = 4 - 4 = 0\text{ m} \), while the total distance traversed is \( 8\text{ m} \). Because distance is always greater than or equal to the magnitude of displacement, the result is consistent.<br/>Final Answer: 8 m</p>
+<hr/>
+<p><strong>ধাপ ১: প্রদত্ত তথ্য ও শর্তাবলী</strong><br/>- কণার অবস্থানের সমীকরণ: \( x(t) = (t - 2)^2 \) (মিটারে)।<br/>- সময় ব্যবধান: \( t = 0 \) থেকে \( t = 4\text{ s} \) পর্যন্ত।</p>
+<p><strong>ধাপ ২: অনুমান ও চিহ্নরীতি</strong><br/>দূরত্ব হলো কণাটি দ্বারা অতিক্রান্ত পথের মোট দৈর্ঘ্য এবং এটি সর্বদা অ-ঋণাত্মক। সময় ব্যবধানের মধ্যে কণাটি থেমে তার গতির অভিমুখ উল্টে দিলে, প্রতিটি অংশের সরণের পরম মান যোগ করে মোট দূরত্ব নির্ণয় করতে হয়।</p>
+<p><strong>ধাপ ৩: প্রাসঙ্গিক সূত্র ও নীতি</strong><br/>- তাৎক্ষণিক বেগ হলো অবস্থানের অবকলন:
+\[ v(t) = \frac{dx}{dt} \]
+- গতির অভিমুখ পরিবর্তনের বিন্দু (turning point) পাওয়া যায় যেখানে বেগ শূন্য হয়: \( v(t) = 0 \)।<br/>- গতি পরিবর্তনের সময় \( t_{\text{turn}} \) হলে মোট অতিক্রান্ত দূরত্ব \( s \):
+\[ s = |x(t_{\text{turn}}) - x(0)| + |x(t_{\text{final}}) - x(t_{\text{turn}})| \]</p>
+<p><strong>ধাপ ৪: ধাপে ধাপে গণনা</strong><br/>১. বেগ নির্ণয়ের জন্য অবস্থানের অবকলন করে পাই:
+\[ v(t) = \frac{d}{dt}(t - 2)^2 = 2(t - 2)\text{ m/s} \]
+২. দিক পরিবর্তনের সময় নির্ণয়:
+\[ v(t) = 0 \implies 2(t - 2) = 0 \implies t = 2\text{ s} \]
+যেহেতু \( t = 2\text{ s} \) সময়টি \( [0, 4\text{ s}] \) ব্যবধানের অভ্যন্তরে অবস্থিত, তাই কণাটি \( t = 2\text{ s} \)-এ দিক পরিবর্তন করে।<br/>
+৩. নির্দিষ্ট সময়গুলিতে কণার অবস্থান নির্ণয়:
+- \( t = 0\text{ s} \)-এ: \( x(0) = (0 - 2)^2 = 4\text{ m} \)
+- \( t = 2\text{ s} \)-এ: \( x(2) = (2 - 2)^2 = 0\text{ m} \)
+- \( t = 4\text{ s} \)-এ: \( x(4) = (4 - 2)^2 = 4\text{ m} \)
+৪. প্রতিটি অংশে অতিক্রান্ত দূরত্বের মান:
+- প্রথম অংশ (\( t = 0 \) থেকে \( t = 2\text{ s} \)):
+\[ s_1 = |x(2) - x(0)| = |0 - 4| = 4\text{ m} \]
+- দ্বিতীয় অংশ (\( t = 2\text{ s} \) থেকে \( t = 4\text{ s} \)):
+\[ s_2 = |x(4) - x(2)| = |4 - 0| = 4\text{ m} \]
+৫. মোট অতিক্রান্ত দূরত্ব:
+\[ s = s_1 + s_2 = 4\text{ m} + 4\text{ m} = 8\text{ m} \]</p>
+<p><strong>ধাপ ৫: যাচাই ও চূড়ান্ত উত্তর</strong><br/>প্রথম 4 সেকেন্ডে কণার মোট সরণ \( x(4) - x(0) = 4 - 4 = 0\text{ m} \), কিন্তু অতিক্রান্ত মোট দূরত্ব \( 8\text{ m} \)। মোট দূরত্ব সর্বদা সরণের মানের চেয়ে বেশি বা সমান হয়, যা এখানে সঠিকভাবে রক্ষিত হয়েছে।<br/>চূড়ান্ত উত্তর: 8 m</p>
+]]></text>
+  </generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>4 m</p>]]></text>
+  </answer>
+  <answer fraction="100" format="html">
+    <text><![CDATA[<p>8 m</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>12 m</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>16 m</p>]]></text>
+  </answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:bn</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>class:class_11</text></tag>
+    <tag><text>chapter:motion_in_a_straight_line</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:medium</text></tag>
+    <tag><text>blooms:apply</text></tag>
+    <tag><text>calculation:moderate</text></tag>
+    <tag><text>media:text</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+
+<question type="multichoice">
+  <name><text>NEET_UG_PHYSICS_MCQ_Q06 - Time taken to walk on moving escalator</text></name>
+  <questiontext format="html">
+    <text><![CDATA[
+<p>At a metro station, a girl walks up a stationary escalator in time \( t_1 \). If she remains stationary on the escalator, then the escalator takes her up in time \( t_2 \). The time taken by her to walk up on the moving escalator will be</p>
+<hr/>
+<p>একটি মেট্রো স্টেশনে, একটি মেয়ে একটি স্থির এসকেলেটর বেয়ে হেঁটে \( t_1 \) সময়ে ওপরে ওঠে। সে যদি এসকেলেটরের ওপর স্থির দাঁড়িয়ে থাকে, তবে চলন্ত এসকেলেটরটি তাকে \( t_2 \) সময়ে ওপরে নিয়ে যায়। চলন্ত এসকেলেটরের ওপর দিয়ে হেঁটে ওপরে উঠতে তার কত সময় লাগবে?</p>
+]]></text>
+  </questiontext>
+  <generalfeedback format="html">
+    <text><![CDATA[
+<p><strong>Step 1: Given Data and Conditions</strong><br/>- Length of the escalator = \( L \).<br/>- Time taken by the girl to walk up the stationary escalator = \( t_1 \).<br/>- Time taken by the moving escalator to transport the stationary girl = \( t_2 \).</p>
+<p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>Motion takes place in a straight line along the upward incline of the escalator. Upward direction is chosen as positive. Velocities add algebraically.</p>
+<p><strong>Step 3: Relevant Formulae and Principles</strong><br/>- Walking speed of the girl relative to the escalator:
+\[ v_g = \frac{L}{t_1} \]
+- Speed of the escalator relative to the ground:
+\[ v_e = \frac{L}{t_2} \]
+- When the girl walks up on the moving escalator, her speed relative to the ground is the sum of both speeds:
+\[ v_{\text{net}} = v_g + v_e \]
+- The time \( t \) required to ascend the distance \( L \) is \( t = \frac{L}{v_{\text{net}}} \).</p>
+<p><strong>Step 4: Step-by-Step Working</strong><br/>1. Substitute the speeds into the expression for net speed:
+\[ v_{\text{net}} = \frac{L}{t_1} + \frac{L}{t_2} = L \left( \frac{1}{t_1} + \frac{1}{t_2} \right) = L \left( \frac{t_1 + t_2}{t_1 t_2} \right) \]
+2. Calculate the required time:
+\[ t = \frac{L}{v_{\text{net}}} = \frac{L}{L \left( \frac{t_1 + t_2}{t_1 t_2} \right)} = \frac{t_1 t_2}{t_1 + t_2} = \frac{t_1 t_2}{t_2 + t_1} \]</p>
+<p><strong>Step 5: Check and Final Answer</strong><br/>Because both velocities act in the same direction, the net speed is greater than either individual speed, ensuring \( t < t_1 \) and \( t < t_2 \). The expression \( \frac{t_1 t_2}{t_2 + t_1} \) satisfies this physical requirement.<br/>Final Answer: \( \frac{t_1 t_2}{t_2 + t_1} \)</p>
+<hr/>
+<p><strong>ধাপ ১: প্রদত্ত তথ্য ও শর্তাবলী</strong><br/>- এসকেলেটরের মোট দৈর্ঘ্য = \( L \)।<br/>- স্থির এসকেলেটরে মেয়েটির হেঁটে ওপরে ওঠার সময় = \( t_1 \)।<br/>- স্থির থাকা অবস্থায় মেয়েটিকে চলন্ত এসকেলেটরের ওপরে নিয়ে যেতে সময় = \( t_2 \)।</p>
+<p><strong>ধাপ ২: অনুমান ও চিহ্নরীতি</strong><br/>সমস্ত গতি এসকেলেটরের ঢাল বরাবর ওপরের দিকে একমাত্রিক সরলরেখায় ঘটে। ওপরের দিককে ধনাত্মক বিবেচনা করা হলো। বেগগুলি সরাসরি বীজগাণিতিকভাবে যোগ হবে।</p>
+<p><strong>ধাপ ৩: প্রাসঙ্গিক সূত্র ও নীতি</strong><br/>- এসকেলেটরের সাপেক্ষে মেয়েটির দ্রুতি:
+\[ v_g = \frac{L}{t_1} \]
+- ভূমির সাপেক্ষে এসকেলেটরের দ্রুতি:
+\[ v_e = \frac{L}{t_2} \]
+- চলন্ত এসকেলেটরে মেয়েটির হেঁটে ওঠার ক্ষেত্রে ভূমির সাপেক্ষে কার্যকর মোট দ্রুতি:
+\[ v_{\text{net}} = v_g + v_e \]
+- মোট \( L \) দূরত্ব অতিক্রম করতে সময় \( t = \frac{L}{v_{\text{net}}} \)।</p>
+<p><strong>ধাপ ৪: ধাপে ধাপে গণনা</strong><br/>১. মোট দ্রুতির রাশিমালীয় মান বসিয়ে:
+\[ v_{\text{net}} = \frac{L}{t_1} + \frac{L}{t_2} = L \left( \frac{1}{t_1} + \frac{1}{t_2} \right) = L \left( \frac{t_1 + t_2}{t_1 t_2} \right) \]
+২. প্রয়োজনীয় সময় গণনা:
+\[ t = \frac{L}{v_{\text{net}}} = \frac{L}{L \left( \frac{t_1 + t_2}{t_1 t_2} \right)} = \frac{t_1 t_2}{t_1 + t_2} = \frac{t_1 t_2}{t_2 + t_1} \]</p>
+<p><strong>ধাপ ৫: যাচাই ও চূড়ান্ত উত্তর</strong><br/>যেহেতু উভয় বেগ একই অভিমুখে ক্রিয়াশীল, তাই লব্ধি দ্রুতি বৃদ্ধি পায় এবং ফলস্বরূপ অতিক্রান্ত সময় \( t \), \( t_1 \) ও \( t_2 \) উভয়ের চেয়ে কম হয়। \( \frac{t_1 t_2}{t_2 + t_1} \) রাশিমালাটি এই শর্ত সম্পূর্ণরূপে পূরণ করে।<br/>চূড়ান্ত উত্তর: \( \frac{t_1 t_2}{t_2 + t_1} \)</p>
+]]></text>
+  </generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\( (t_1 + t_2)/2 \)</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\( t_1 t_2 / (t_2 - t_1) \)</p>]]></text>
+  </answer>
+  <answer fraction="100" format="html">
+    <text><![CDATA[<p>\( t_1 t_2 / (t_2 + t_1) \)</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\( t_1 - t_2 \)</p>]]></text>
+  </answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:bn</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>class:class_11</text></tag>
+    <tag><text>chapter:motion_in_a_straight_line</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:medium</text></tag>
+    <tag><text>blooms:apply</text></tag>
+    <tag><text>calculation:moderate</text></tag>
+    <tag><text>media:text</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>

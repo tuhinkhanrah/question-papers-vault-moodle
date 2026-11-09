@@ -1,0 +1,457 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+<question type="multichoice">
+  <name><text>NEET_UG_PHYSICS_MCQ1_ELECTROMAGNETICINDUCTION_MCQ_Q6_01 - Magnetic flux through square in given field</text></name>
+  <questiontext format="html">
+    <text><![CDATA[<p>A square of side \(L\) meters lies in the \(x\text{-}y\) plane in a region, where the magnetic field is given by \(\mathbf{B} = B_0(2\hat{\mathbf{i}} + 3\hat{\mathbf{j}} + 4\hat{\mathbf{k}})\text{ T}\), where \(B_0\) is constant. The magnitude of flux passing through the square is</p>]]></text>
+  </questiontext>
+  <generalfeedback format="html">
+    <text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>- Side length of the square: \(L\text{ m}\)<br/>- Orientation: The square lies in the \(x\text{-}y\) plane.<br/>- Magnetic field: \(\mathbf{B} = B_0(2\hat{\mathbf{i}} + 3\hat{\mathbf{j}} + 4\hat{\mathbf{k}})\text{ T}\), where \(B_0\) is a constant.</p><p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>The area vector \(\mathbf{A}\) of any surface lying in the \(x\text{-}y\) plane is perpendicular to the plane and directed along the normal axis (\(\pm\hat{\mathbf{k}}\)). For finding the magnitude of the flux, we compute \(|\Phi| = |\mathbf{B} \cdot \mathbf{A}|\).</p><p><strong>Step 3: Relevant Formulae and Principles</strong><br/>- Surface area of the square: \(A = L^2\)<br/>- Area vector: \(\mathbf{A} = L^2\hat{\mathbf{k}}\)<br/>- Magnetic flux: \(\Phi = \mathbf{B} \cdot \mathbf{A}\)</p><p><strong>Step 4: Step-by-Step Working</strong><br/>Taking the scalar product of the magnetic field and the area vector:
+\[
+\Phi = B_0(2\hat{\mathbf{i}} + 3\hat{\mathbf{j}} + 4\hat{\mathbf{k}}) \cdot (L^2\hat{\mathbf{k}})
+\]
+Since \(\hat{\mathbf{i}} \cdot \hat{\mathbf{k}} = 0\), \(\hat{\mathbf{j}} \cdot \hat{\mathbf{k}} = 0\), and \(\hat{\mathbf{k}} \cdot \hat{\mathbf{k}} = 1\):
+\[
+\Phi = 4 B_0 L^2\text{ Wb}
+\]
+The magnitude of the magnetic flux is therefore:
+\[
+|\Phi| = 4 B_0 L^2\text{ Wb}
+\]</p><p><strong>Step 5: Check and Final Answer</strong><br/>Only the component of the magnetic field normal to the loop (\(B_z = 4B_0\)) passes through the surface, giving a total flux of \(4 B_0 L^2\text{ Wb}\).<br/>Final Answer: The magnitude of flux passing through the square is \(4 B_0 L^2\text{ Wb}\).</p>]]></text>
+  </generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(2 B_0 L^2\text{ Wb}\)</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(3 B_0 L^2\text{ Wb}\)</p>]]></text>
+  </answer>
+  <answer fraction="100" format="html">
+    <text><![CDATA[<p>\(4 B_0 L^2\text{ Wb}\)</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(\sqrt{29} B_0 L^2\text{ Wb}\)</p>]]></text>
+  </answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>class:class_12</text></tag>
+    <tag><text>chapter:electromagnetic_induction</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:easy</text></tag>
+    <tag><text>blooms:apply</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:text</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+<question type="multichoice">
+  <name><text>NEET_UG_PHYSICS_MCQ1_ELECTROMAGNETICINDUCTION_MCQ_Q6_02 - Flux passing through six cornered loop</text></name>
+  <questiontext format="html">
+    <text><![CDATA[<p>A loop, made of straight edges has six corners at \(A(0,0,0)\), \(B(L,0,0)\), \(C(L,L,0)\), \(D(0,L,0)\), \(E(0,L,L)\) and \(F(0,0,L)\). A magnetic field \(\mathbf{B} = B_0(\hat{\mathbf{i}} + \hat{\mathbf{k}})\text{ T}\) is present in the region. The flux passing through the loop \(ABCDEFA\) (in that order) is</p>]]></text>
+  </questiontext>
+  <generalfeedback format="html">
+    <text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>- Six vertices of the loop: \(A(0,0,0)\), \(B(L,0,0)\), \(C(L,L,0)\), \(D(0,L,0)\), \(E(0,L,L)\), and \(F(0,0,L)\)<br/>- Loop traversal sequence: \(A \to B \to C \to D \to E \to F \to A\)<br/>- Magnetic field: \(\mathbf{B} = B_0(\hat{\mathbf{i}} + \hat{\mathbf{k}})\text{ T}\)</p><p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>The closed non-planar loop \(ABCDEFA\) can be broken into two planar loops by adding and subtracting an imaginary line segment joining points \(A\) and \(D\):<br/>1. Loop \(ABCDA\) lying in the \(x\text{-}y\) plane (\(z = 0\)).<br/>2. Loop \(ADEFA\) lying in the \(y\text{-}z\) plane (\(x = 0\)).<br/>Applying the right-hand rule for the given order of traversal:<br/>- Traversal \(A(0,0,0) \to B(L,0,0) \to C(L,L,0) \to D(0,L,0) \to A(0,0,0)\) is counterclockwise when viewed from \(+z\), yielding area vector \(\mathbf{A}_1 = L^2\hat{\mathbf{k}}\).<br/>- Traversal \(A(0,0,0) \to D(0,L,0) \to E(0,L,L) \to F(0,0,L) \to A(0,0,0)\) in the \(y\text{-}z\) plane yields area vector directed along \(+x\), giving \(\mathbf{A}_2 = L^2\hat{\mathbf{i}}\).</p><p><strong>Step 3: Relevant Formulae and Principles</strong><br/>- Total vector area of the loop:
+\[
+\mathbf{A} = \mathbf{A}_1 + \mathbf{A}_2 = L^2\hat{\mathbf{i}} + L^2\hat{\mathbf{k}}
+\]
+- Magnetic flux through the loop:
+\[
+\Phi = \mathbf{B} \cdot \mathbf{A}
+\]</p><p><strong>Step 4: Step-by-Step Working</strong><br/>Substitute the vector expressions for \(\mathbf{B}\) and \(\mathbf{A}\):
+\[
+\Phi = \left[ B_0(\hat{\mathbf{i}} + \hat{\mathbf{k}}) \right] \cdot \left[ L^2(\hat{\mathbf{i}} + \hat{\mathbf{k}}) \right]
+\]
+Evaluating the scalar product:
+\[
+\Phi = B_0 L^2 (\hat{\mathbf{i}} \cdot \hat{\mathbf{i}} + \hat{\mathbf{k}} \cdot \hat{\mathbf{k}}) = B_0 L^2 (1 + 1) = 2 B_0 L^2\text{ Wb}
+\]</p><p><strong>Step 5: Check and Final Answer</strong><br/>The \(x\text{-}y\) face intercepts flux from \(B_z\) giving \(B_0 L^2\text{ Wb}\), and the \(y\text{-}z\) face intercepts flux from \(B_x\) giving \(B_0 L^2\text{ Wb}\). The total flux is \(2 B_0 L^2\text{ Wb}\).<br/>Final Answer: The flux passing through the loop is \(2 B_0 L^2\text{ Wb}\).</p>]]></text>
+  </generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(B_0 L^2\text{ Wb}\)</p>]]></text>
+  </answer>
+  <answer fraction="100" format="html">
+    <text><![CDATA[<p>\(2 B_0 L^2\text{ Wb}\)</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(\sqrt{2} B_0 L^2\text{ Wb}\)</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(4 B_0 L^2\text{ Wb}\)</p>]]></text>
+  </answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>class:class_12</text></tag>
+    <tag><text>chapter:electromagnetic_induction</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:medium</text></tag>
+    <tag><text>blooms:apply</text></tag>
+    <tag><text>calculation:moderate</text></tag>
+    <tag><text>media:text</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+<question type="multichoice">
+  <name><text>NEET_UG_PHYSICS_MCQ1_ELECTROMAGNETICINDUCTION_MCQ_Q6_03 - Rotating cylindrical magnet and induced current</text></name>
+  <questiontext format="html">
+    <text><![CDATA[<p>A cylindrical bar magnet is rotated about its axis (as shown in the figure). A wire is connected from the axis and is made to touch the cylindrical surface through a contact. Then</p><p><img src="@@PLUGINFILE@@/img-0.jpeg" alt="Fig. 6.1" /></p>]]></text>
+  </questiontext>
+  <generalfeedback format="html">
+    <text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>According to Faraday's law of electromagnetic induction, an electromotive force (emf) is induced in a closed circuit only when the magnetic flux linked with that circuit changes with time:
+\[
+\varepsilon = -\frac{\mathrm{d}\Phi}{\mathrm{d}t}
+\]</p><p><strong>Step 2: Evaluation</strong><br/>The bar magnet is cylindrical and possesses complete axial symmetry about its longitudinal axis of rotation. The distribution of magnetic field lines produced by this magnet is symmetric with respect to the rotation axis.</p><p><strong>Step 3: Application</strong><br/>As the magnet rotates about its axis of symmetry, the magnetic field at every fixed point in space remains strictly invariant in time. Consequently, the magnetic flux threading the closed circuit formed by the axis contact, external wire, ammeter, and sliding surface contact does not change with time (\(\frac{\mathrm{d}\Phi}{\mathrm{d}t} = 0\)). Furthermore, no relative cutting of field lines occurs around the closed conducting path to generate any motional emf.</p><p><strong>Step 4: Final Conclusion</strong><br/>Since the net electromotive force around the circuit is zero, no current flows through the ammeter.<br/>Final Answer: no current flows through the ammeter A.</p>]]></text>
+  </generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>a direct current flows in the ammeter A.</p>]]></text>
+  </answer>
+  <answer fraction="100" format="html">
+    <text><![CDATA[<p>no current flows through the ammeter A.</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>an alternating sinusoidal current flows through the ammeter A with a time period \(T = 2\pi /\omega\)</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>a time varying non-sinosoidal current flows through the ammeter A.</p>]]></text>
+  </answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>class:class_12</text></tag>
+    <tag><text>chapter:electromagnetic_induction</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:medium</text></tag>
+    <tag><text>blooms:understand</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:diagram</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+<question type="multichoice">
+  <name><text>NEET_UG_PHYSICS_MCQ1_ELECTROMAGNETICINDUCTION_MCQ_Q6_04 - Current direction in approaching conducting coil</text></name>
+  <questiontext format="html">
+    <text><![CDATA[<p>There are two coils A and B as shown in the figure. A current starts flowing in B as shown, when A is moved towards B and stops when A stops moving. The current in A is counterclockwise. B is kept stationary when A moves. We can infer that</p><p><img src="@@PLUGINFILE@@/img-1.jpeg" alt="Fig. 6.2" /></p>]]></text>
+  </questiontext>
+  <generalfeedback format="html">
+    <text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>According to Faraday's and Lenz's laws of electromagnetic induction, a current is induced in a stationary closed loop if and only if the magnetic flux linking it changes with time.</p><p><strong>Step 2: Evaluation</strong><br/>- Current flows in coil B while coil A is moving, but ceases the moment coil A stops moving. If the current in coil A were varying with time on its own, it would continue to induce a current in coil B even when coil A remained stationary. Because no current exists in coil B when coil A is stationary, the current in coil A cannot be time-varying; it must be constant.<br/>- If coil A carried no current, moving it would create no magnetic field and consequently no flux change in coil B. Thus, coil A carries a non-zero current.</p><p><strong>Step 3: Application</strong><br/>The problem explicitly states that the current in coil A flows in the counterclockwise direction. Since this current must be steady to ensure induction occurs exclusively during relative motion, the current in coil A is constant and oriented counterclockwise.</p><p><strong>Step 4: Final Conclusion</strong><br/>Coil A carries a constant current flowing in the counterclockwise direction.<br/>Final Answer: there is a constant current in the counterclockwise direction in A.</p>]]></text>
+  </generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>there is a constant current in the clockwise direction in A.</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>there is a varying current in A.</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>there is no current in A.</p>]]></text>
+  </answer>
+  <answer fraction="100" format="html">
+    <text><![CDATA[<p>there is a constant current in the counterclockwise direction in A.</p>]]></text>
+  </answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>class:class_12</text></tag>
+    <tag><text>chapter:electromagnetic_induction</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:medium</text></tag>
+    <tag><text>blooms:understand</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:diagram</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+<question type="multichoice">
+  <name><text>NEET_UG_PHYSICS_MCQ1_ELECTROMAGNETICINDUCTION_MCQ_Q6_05 - Rotating coil and induced current direction</text></name>
+  <questiontext format="html">
+    <text><![CDATA[<p>Same as problem 4 except the coil A is made to rotate about a vertical axis (as shown in the figure). No current flows in B if A is at rest. The current in coil A, when the current in B (at \(t = 0\)) is counterclockwise and the coil A is as shown at this instant, \(t = 0\), is</p><p><img src="@@PLUGINFILE@@/img-2.jpeg" alt="Fig. 6.3" /></p>]]></text>
+  </questiontext>
+  <generalfeedback format="html">
+    <text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>- When a coil carrying a constant current rotates, the magnetic flux linked with a neighboring coplanar coil changes with time, inducing an electromotive force and current according to Faraday's law.<br/>- By Lenz's law, the induced current produces a magnetic field that opposes the change in magnetic flux through the loop.</p><p><strong>Step 2: Evaluation</strong><br/>- Since no current flows in coil B when coil A is stationary, the current in coil A does not vary intrinsically with time; it is a steady (constant) current.<br/>- At \(t = 0\), coil A is coplanar with coil B. As coil A begins to rotate about its vertical diameter, the magnetic flux linking coil B decreases from its maximum coplanar value towards zero.<br/>- To oppose this decrease in flux, the induced current in coil B must reinforce the existing magnetic field passing through it.</p><p><strong>Step 3: Application</strong><br/>- The induced current in coil B at \(t = 0\) is counterclockwise, which produces a magnetic field pointing out of the plane of the page.<br/>- Because the induced field must reinforce the decreasing field produced by coil A, the original field from coil A threading coil B must also point out of the page.<br/>- Two coplanar coils side by side have opposite field orientations inside and outside their loops. A clockwise current in coil A produces a magnetic field pointing into the page inside coil A, and curving back out of the page in the surrounding region where coil B is located.<br/>- Therefore, the steady current in coil A must be clockwise.</p><p><strong>Step 4: Final Conclusion</strong><br/>The current in coil A is a constant current in the clockwise direction.<br/>Final Answer: constant current clockwise.</p>]]></text>
+  </generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="100" format="html">
+    <text><![CDATA[<p>constant current clockwise.</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>varying current clockwise.</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>varying current counterclockwise.</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>constant current counterclockwise.</p>]]></text>
+  </answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>class:class_12</text></tag>
+    <tag><text>chapter:electromagnetic_induction</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:hard</text></tag>
+    <tag><text>blooms:analyze</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:diagram</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+<question type="multichoice">
+  <name><text>NEET_UG_PHYSICS_MCQ1_ELECTROMAGNETICINDUCTION_MCQ_Q6_06 - Self inductance variation with solenoid geometry</text></name>
+  <questiontext format="html">
+    <text><![CDATA[<p>The self inductance \(L\) of a solenoid of length \(l\) and area of cross-section \(A\), with a fixed number of turns \(N\) increases as</p>]]></text>
+  </questiontext>
+  <generalfeedback format="html">
+    <text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>- Length of solenoid: \(l\)<br/>- Cross-sectional area: \(A\)<br/>- Total number of turns: \(N\) (constant)</p><p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>The solenoid is long compared to its radius with uniform turn spacing, and the core material has a constant relative permeability.</p><p><strong>Step 3: Relevant Formulae and Principles</strong><br/>The self-inductance \(L\) of an air-core solenoid is given by:
+\[
+L = \frac{\mu_0 N^2 A}{l}
+\]</p><p><strong>Step 4: Step-by-Step Working</strong><br/>With the total number of turns \(N\) and permeability \(\mu_0\) held constant, the proportionality relation is:
+\[
+L \propto \frac{A}{l}
+\]
+Hence, \(L\) is directly proportional to the cross-sectional area \(A\) and inversely proportional to the length \(l\).<br/>To increase the self-inductance \(L\), the area \(A\) must increase and the length \(l\) must decrease.</p><p><strong>Step 5: Check and Final Answer</strong><br/>Decreasing the length for a fixed total number of turns increases the turns per unit length (\(n = N/l\)), which concentrates the magnetic field, while a larger area allows greater flux linkage per turn. Thus, \(L\) increases when \(l\) decreases and \(A\) increases.<br/>Final Answer: \(l\) decreases and \(A\) increases.</p>]]></text>
+  </generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(l\) and \(A\) increase.</p>]]></text>
+  </answer>
+  <answer fraction="100" format="html">
+    <text><![CDATA[<p>\(l\) decreases and \(A\) increases.</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(l\) increases and \(A\) decreases.</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>both \(l\) and \(A\) decrease.</p>]]></text>
+  </answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>class:class_12</text></tag>
+    <tag><text>chapter:electromagnetic_induction</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:easy</text></tag>
+    <tag><text>blooms:understand</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:text</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+<question type="multichoice">
+  <name><text>NEET_UG_PHYSICS_MCQII_ELECTROMAGNETICINDUCTION_MCQ_Q6_07 - Heating causes in metal conducting plate</text></name>
+  <questiontext format="html">
+    <text><![CDATA[<p>A metal plate is getting heated. It can be because</p>]]></text>
+  </questiontext>
+  <generalfeedback format="html">
+    <text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>- A metallic conductor dissipates electrical energy into heat when an electric current flows through its finite resistance due to Joule heating, described by \(P = I^2 R\).<br/>- When a bulk metal is exposed to a changing magnetic field, induced electric fields generate circulating currents within the material, known as eddy currents, which also dissipate heat through Joule heating.</p><p><strong>Step 2: Evaluation</strong><br/>- Passing a direct current through the plate creates steady charge flow against internal electrical resistance, generating heat by the Joule effect.<br/>- Placing the plate in a time-varying magnetic field causes a changing magnetic flux through interior closed loops of the plate (\(\frac{\partial \mathbf{B}}{\partial t} \neq 0\)), inducing circulating eddy currents that heat the metal.<br/>- Placing a stationary plate in a purely space-varying magnetic field that does not vary with time does not produce any change in magnetic flux over time (\(\frac{\partial \mathbf{B}}{\partial t} = 0\) and \(\mathbf{v} = 0\)). Without flux variation or relative motion, no induced currents arise and no heating occurs.<br/>- Passing an electric current (whether direct or alternating) generates Joule heating because the power dissipated depends on the square of current (\(I^2 R\) or \(I_{\mathrm{rms}}^2 R\)), both of which are positive.</p><p><strong>Step 3: Final Conclusion</strong><br/>Heating can be caused by a direct current passing through the plate, by placing the plate in a time-varying magnetic field (inducing eddy currents), or by passing a current (either direct or alternating) through the plate.<br/>Final Answer: It can be because a direct current is passing through the plate, it is placed in a time varying magnetic field, or a current (either direct or alternating) is passing through the plate.</p>]]></text>
+  </generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>false</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="33.33333" format="html">
+    <text><![CDATA[<p>a direct current is passing through the plate.</p>]]></text>
+  </answer>
+  <answer fraction="33.33333" format="html">
+    <text><![CDATA[<p>it is placed in a time varying magnetic field.</p>]]></text>
+  </answer>
+  <answer fraction="-50" format="html">
+    <text><![CDATA[<p>it is placed in a space varying magnetic field, but does not vary with time.</p>]]></text>
+  </answer>
+  <answer fraction="33.33333" format="html">
+    <text><![CDATA[<p>a current (either direct or alternating) is passing through the plate.</p>]]></text>
+  </answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>class:class_12</text></tag>
+    <tag><text>chapter:electromagnetic_induction</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:easy</text></tag>
+    <tag><text>blooms:understand</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:text</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+<question type="multichoice">
+  <name><text>NEET_UG_PHYSICS_MCQII_ELECTROMAGNETICINDUCTION_MCQ_Q6_08 - Causes of electromotive force in coil</text></name>
+  <questiontext format="html">
+    <text><![CDATA[<p>An e.m.f is produced in a coil, which is not connected to an external voltage source. This can be due to</p>]]></text>
+  </questiontext>
+  <generalfeedback format="html">
+    <text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>By Faraday's law of electromagnetic induction, an electromotive force is induced in any closed conducting path when the magnetic flux linked with that path changes with time:
+\[
+\varepsilon = -\frac{\mathrm{d}\Phi}{\mathrm{d}t}
+\]
+The total magnetic flux is given by \(\Phi = \int \mathbf{B} \cdot \mathrm{d}\mathbf{A}\). A time variation in flux can occur due to a time-varying magnetic field, motional cutting of flux lines, or a combination of both.</p><p><strong>Step 2: Evaluation</strong><br/>- When the coil is in a time-varying magnetic field, the field strength changes with time (\(\frac{\partial \mathbf{B}}{\partial t} \neq 0\)), causing \(\frac{\mathrm{d}\Phi}{\mathrm{d}t} \neq 0\), which generates an induced emf.<br/>- When the coil moves in a time-varying magnetic field, both time-dependent field variations and motional contributions change the flux linkage, inducing an emf.<br/>- When the coil moves in a constant magnetic field, a motional emf \(\varepsilon = \oint (\mathbf{v} \times \mathbf{B}) \cdot \mathrm{d}\mathbf{l}\) can be developed (such as when moving into or out of a field region, moving through a non-uniform field, or rotating).<br/>- If the coil is stationary in an external spatially varying magnetic field that does not vary with time (\(\mathbf{v} = 0\) and \(\frac{\partial \mathbf{B}}{\partial t} = 0\)), the flux threading the coil is constant in time (\(\frac{\mathrm{d}\Phi}{\mathrm{d}t} = 0\)), so no emf is induced.</p><p><strong>Step 3: Final Conclusion</strong><br/>An induced electromotive force can be produced when the coil is in a time-varying magnetic field, moving in a time-varying magnetic field, or moving in a constant magnetic field.<br/>Final Answer: This can be due to the coil being in a time varying magnetic field, the coil moving in a time varying magnetic field, or the coil moving in a constant magnetic field.</p>]]></text>
+  </generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>false</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="33.33333" format="html">
+    <text><![CDATA[<p>the coil being in a time varying magnetic field.</p>]]></text>
+  </answer>
+  <answer fraction="33.33333" format="html">
+    <text><![CDATA[<p>the coil moving in a time varying magnetic field.</p>]]></text>
+  </answer>
+  <answer fraction="33.33333" format="html">
+    <text><![CDATA[<p>the coil moving in a constant magnetic field.</p>]]></text>
+  </answer>
+  <answer fraction="-50" format="html">
+    <text><![CDATA[<p>the coil is stationary in external spatially varying magnetic field, which does not change with time.</p>]]></text>
+  </answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>class:class_12</text></tag>
+    <tag><text>chapter:electromagnetic_induction</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:medium</text></tag>
+    <tag><text>blooms:understand</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:text</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+<question type="multichoice">
+  <name><text>NEET_UG_PHYSICS_MCQII_ELECTROMAGNETICINDUCTION_MCQ_Q6_09 - Factors affecting mutual inductance between coils</text></name>
+  <questiontext format="html">
+    <text><![CDATA[<p>The mutual inductance \(M_{12}\) of coil 1 with respect to coil 2</p>]]></text>
+  </questiontext>
+  <generalfeedback format="html">
+    <text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>- Mutual inductance \(M_{12}\) characterizes the magnetic flux linkage in coil 1 produced per unit current in coil 2: \(\Phi_{12} = M_{12} I_2\).<br/>- The value of mutual inductance is determined entirely by the geometry of the two coils (number of turns, areas, shapes), their relative distance and spatial orientation, and the magnetic permeability of the intervening medium.<br/>- According to the reciprocity theorem of electromagnetism:
+\[
+M_{12} = M_{21}
+\]</p><p><strong>Step 2: Evaluation</strong><br/>- Bringing the coils closer together increases the proportion of magnetic flux lines from one coil that pass through the other, thereby increasing the magnetic coupling and the mutual inductance \(M_{12}\).<br/>- Mutual inductance represents the geometric constant of proportionality between flux and current; it is independent of the current flowing through either coil.<br/>- Rotating one coil alters their relative angular orientation. Depending on the direction of rotation, the mutual flux linkage may decrease (for example, rotating towards an orthogonal orientation decreases mutual inductance to zero). It does not universally increase upon rotation.<br/>- By the reciprocity theorem, \(M_{12}\) is strictly equal to \(M_{21}\).</p><p><strong>Step 3: Final Conclusion</strong><br/>The mutual inductance increases when the coils are brought nearer, and \(M_{12}\) is identical to \(M_{21}\).<br/>Final Answer: increases when they are brought nearer, and is the same as \(M_{21}\) of coil 2 with respect to coil 1.</p>]]></text>
+  </generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>false</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="50" format="html">
+    <text><![CDATA[<p>increases when they are brought nearer.</p>]]></text>
+  </answer>
+  <answer fraction="-50" format="html">
+    <text><![CDATA[<p>depends on the current passing through the coils.</p>]]></text>
+  </answer>
+  <answer fraction="-50" format="html">
+    <text><![CDATA[<p>increases when one of them is rotated about an axis.</p>]]></text>
+  </answer>
+  <answer fraction="50" format="html">
+    <text><![CDATA[<p>is the same as \(M_{21}\) of coil 2 with respect to coil 1.</p>]]></text>
+  </answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>class:class_12</text></tag>
+    <tag><text>chapter:electromagnetic_induction</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:medium</text></tag>
+    <tag><text>blooms:understand</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:text</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+<question type="multichoice">
+  <name><text>NEET_UG_PHYSICS_MCQII_ELECTROMAGNETICINDUCTION_MCQ_Q6_10 - Zero electromotive force in expanding coil</text></name>
+  <questiontext format="html">
+    <text><![CDATA[<p>A circular coil expands radially in a region of magnetic field and no electromotive force is produced in the coil. This can be because</p>]]></text>
+  </questiontext>
+  <generalfeedback format="html">
+    <text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>According to Faraday's law of electromagnetic induction, the induced electromotive force in a coil is the negative rate of change of magnetic flux linked with it:
+\[
+\varepsilon = -\frac{\mathrm{d}\Phi}{\mathrm{d}t}
+\]
+The magnetic flux through a planar circular coil of area \(A\) is:
+\[
+\Phi = \int \mathbf{B} \cdot \mathrm{d}\mathbf{A} = B_{\perp} A
+\]
+where \(B_{\perp}\) is the component of the magnetic field perpendicular to the plane of the coil.</p><p><strong>Step 2: Evaluation</strong><br/>- If the magnetic field is directed along the plane of the circular coil, the normal component of the field is zero (\(B_{\perp} = 0\)). As a result, the magnetic flux through the loop is zero at all times (\(\Phi = 0\)), regardless of radial expansion or temporal changes in the in-plane field. Since \(\Phi\) remains zero, \(\frac{\mathrm{d}\Phi}{\mathrm{d}t} = 0\) and no emf is produced.<br/>- If there is a perpendicular component \(B_{\perp}\), the flux is \(\Phi(t) = B_{\perp}(t) A(t)\). For zero induced emf, \(\Phi(t)\) must remain constant:
+\[
+\frac{\mathrm{d}\Phi}{\mathrm{d}t} = B_{\perp}\frac{\mathrm{d}A}{\mathrm{d}t} + A\frac{\mathrm{d}B_{\perp}}{\mathrm{d}t} = 0 \implies \frac{\mathrm{d}B_{\perp}}{\mathrm{d}t} = -\frac{B_{\perp}}{A}\frac{\mathrm{d}A}{\mathrm{d}t}
+\]
+Since the coil expands radially (\(\frac{\mathrm{d}A}{\mathrm{d}t} > 0\)), if the perpendicular component of the field decreases at a rate that compensates for the area increase, the net flux remains constant and no emf is generated.<br/>- If the magnetic field is constant and perpendicular to the coil, the flux \(\Phi = B A(t)\) increases steadily as the coil expands, necessarily inducing a non-zero emf.</p><p><strong>Step 3: Final Conclusion</strong><br/>No electromotive force is produced if the magnetic field lies in the plane of the coil (which may or may not vary), or if the perpendicular component of the magnetic field decreases at an appropriate rate to keep the total flux constant.<br/>Final Answer: the magnetic field is in the same plane as the circular coil and it may or may not vary, or the magnetic field has a perpendicular (to the plane of the coil) component whose magnitude is decreasing suitably.</p>]]></text>
+  </generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>false</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="-50" format="html">
+    <text><![CDATA[<p>the magnetic field is constant.</p>]]></text>
+  </answer>
+  <answer fraction="50" format="html">
+    <text><![CDATA[<p>the magnetic field is in the same plane as the circular coil and it may or may not vary.</p>]]></text>
+  </answer>
+  <answer fraction="50" format="html">
+    <text><![CDATA[<p>the magnetic field has a perpendicular (to the plane of the coil) component whose magnitude is decreasing suitably.</p>]]></text>
+  </answer>
+  <answer fraction="-50" format="html">
+    <text><![CDATA[<p>there is a constant magnetic field in the perpendicular (to the plane of the coil) direction.</p>]]></text>
+  </answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>class:class_12</text></tag>
+    <tag><text>chapter:electromagnetic_induction</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:hard</text></tag>
+    <tag><text>blooms:analyze</text></tag>
+    <tag><text>calculation:moderate</text></tag>
+    <tag><text>media:text</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+</quiz>

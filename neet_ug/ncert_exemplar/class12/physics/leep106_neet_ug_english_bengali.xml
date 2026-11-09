@@ -1,0 +1,509 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+<question type="multichoice">
+  <name><text>NEET_UG_PHYSICS_ELECTROMAGNETIC_INDUCTION_MCQ_Q01 - Magnitude of magnetic flux through square loop</text></name>
+  <questiontext format="html">
+    <text><![CDATA[<p>A square of side \(L\) meters lies in the \(x\)-\(y\) plane in a region, where the magnetic field is given by \(\mathbf{B} = B_0(2\hat{\mathbf{i}} + 3\hat{\mathbf{j}} + 4\hat{\mathbf{k}})\text{ T}\), where \(B_0\) is constant. The magnitude of flux passing through the square is</p><hr/><p>\(L\) মিটার বাহুবিশিষ্ট একটি বর্গাকার তল \(x\)-\(y\) সমতলে এমন একটি অঞ্চলে অবস্থিত, যেখানে চৌম্বক ক্ষেত্র \(\mathbf{B} = B_0(2\hat{\mathbf{i}} + 3\hat{\mathbf{j}} + 4\hat{\mathbf{k}})\text{ T}\), যেখানে \(B_0\) একটি ধ্রুবক। বর্গাকার তলের মধ্য দিয়ে অতিক্রান্ত চৌম্বক ফ্লাক্সের মান হলো</p>]]></text>
+  </questiontext>
+  <generalfeedback format="html">
+    <text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>
+Side length of the square: \(L\text{ m}\)<br/>
+Plane containing the square: \(x\)-\(y\) plane<br/>
+Magnetic field vector: \(\mathbf{B} = B_0(2\hat{\mathbf{i}} + 3\hat{\mathbf{j}} + 4\hat{\mathbf{k}})\text{ T}\), where \(B_0\) is a constant.</p>
+<p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>
+A planar surface lying in the \(x\)-\(y\) plane has its normal perpendicular to the plane, pointing along the \(z\)-axis (unit normal vector \(\hat{\mathbf{n}} = \pm\hat{\mathbf{k}}\)). The area vector is therefore perpendicular to the surface.</p>
+<p><strong>Step 3: Relevant Formulae and Principles</strong><br/>
+The magnetic flux \(\Phi\) linked with a planar surface of area vector \(\mathbf{A}\) in a uniform magnetic field \(\mathbf{B}\) is given by the scalar dot product:<br/>
+\[\Phi = \mathbf{B} \cdot \mathbf{A}\]</p>
+<p><strong>Step 4: Step-by-Step Working</strong><br/>
+The area of the square of side \(L\) is \(A = L^2\).<br/>
+Since the square lies in the \(x\)-\(y\) plane, its area vector can be written as:<br/>
+\[\mathbf{A} = L^2\hat{\mathbf{k}}\]<br/>
+Taking the dot product of \(\mathbf{B}\) and \(\mathbf{A}\):<br/>
+\[\Phi = B_0(2\hat{\mathbf{i}} + 3\hat{\mathbf{j}} + 4\hat{\mathbf{k}}) \cdot (L^2\hat{\mathbf{k}})\]<br/>
+Evaluating the scalar product using orthonormal basis properties (\(\hat{\mathbf{i}} \cdot \hat{\mathbf{k}} = 0\), \(\hat{\mathbf{j}} \cdot \hat{\mathbf{k}} = 0\), and \(\hat{\mathbf{k}} \cdot \hat{\mathbf{k}} = 1\)):<br/>
+\[\Phi = B_0(0 + 0 + 4L^2) = 4B_0L^2\text{ Wb}\]<br/>
+The magnitude of the magnetic flux is thus \(4B_0L^2\text{ Wb}\).</p>
+<p><strong>Step 5: Check and Final Answer</strong><br/>
+Checking dimensions: magnetic flux has units of \(\text{T}\cdot\text{m}^2 = \text{Wb}\), which is consistent. Only the component of the magnetic field perpendicular to the surface contributes to the flux through the square, which is the \(z\)-component \(4B_0\). Multiplying by the area \(L^2\) yields \(4B_0L^2\text{ Wb}\).<br/>
+Final Answer: \(4B_0L^2\text{ Wb}\)</p>
+<hr/>
+<p><strong>ধাপ ১: প্রদত্ত উপাত্ত এবং শর্তাবলী</strong><br/>
+বর্গাকার তলের বাহুর দৈর্ঘ্য: \(L\text{ m}\)<br/>
+বর্গাকার তলটি অবস্থিত: \(x\)-\(y\) সমতলে<br/>
+চৌম্বক ক্ষেত্র ভেক্টর: \(\mathbf{B} = B_0(2\hat{\mathbf{i}} + 3\hat{\mathbf{j}} + 4\hat{\mathbf{k}})\text{ T}\), যেখানে \(B_0\) একটি ধ্রুবক।</p>
+<p><strong>ধাপ ২: অনুমান এবং চিহ্নরীতি</strong><br/>
+\(x\)-\(y\) সমতলে অবস্থিত যেকোনো সমতলীয় ক্ষেত্রের লম্ব একক ভেক্টর \(z\)-অক্ষ বরাবর থাকে (\(\hat{\mathbf{n}} = \pm\hat{\mathbf{k}}\))। সুতরাং ক্ষেত্রফল ভেক্টরটি তলের উপর লম্ব অভিমুখী।</p>
+<p><strong>ধাপ ৩: প্রাসঙ্গিক সূত্রাবলী এবং নীতি</strong><br/>
+একটি সুষম চৌম্বক ক্ষেত্র \(\mathbf{B}\)-এ অবস্থিত ক্ষেত্রফল ভেক্টর \(\mathbf{A}\)-এর মধ্য দিয়ে অতিক্রান্ত চৌম্বক ফ্লাক্স \(\Phi\) হলো ক্ষেত্র ও ক্ষেত্রফল ভেক্টরের স্কেলার ডট গুণফল:<br/>
+\[\Phi = \mathbf{B} \cdot \mathbf{A}\]</p>
+<p><strong>ধাপ ৪: ধাপে ধাপে সমাধান</strong><br/>
+\(L\) বাহুবিশিষ্ট বর্গাকার তলের ক্ষেত্রফল \(A = L^2\)।<br/>
+যেহেতু বর্গাকার তলটি \(x\)-\(y\) সমতলে অবস্থিত, তাই এর ক্ষেত্রফল ভেক্টরকে লেখা যায়:<br/>
+\[\mathbf{A} = L^2\hat{\mathbf{k}}\]<br/>
+\(\mathbf{B}\) ও \(\mathbf{A}\)-এর ডট গুণফল নির্ণয় করে পাই:<br/>
+\[\Phi = B_0(2\hat{\mathbf{i}} + 3\hat{\mathbf{j}} + 4\hat{\mathbf{k}}) \cdot (L^2\hat{\mathbf{k}})\]<br/>
+অর্থোনরমাল একক ভেক্টরের বৈশিষ্ট্য (\(\hat{\mathbf{i}} \cdot \hat{\mathbf{k}} = 0\), \(\hat{\mathbf{j}} \cdot \hat{\mathbf{k}} = 0\), এবং \(\hat{\mathbf{k}} \cdot \hat{\mathbf{k}} = 1\)) ব্যবহার করে:<br/>
+\[\Phi = B_0(0 + 0 + 4L^2) = 4B_0L^2\text{ Wb}\]<br/>
+সুতরাং চৌম্বক ফ্লাক্সের মান হলো \(4B_0L^2\text{ Wb}\)।</p>
+<p><strong>ধাপ ৫: যাচাই এবং চূড়ান্ত উত্তর</strong><br/>
+মাত্রাগত যাচাই: চৌম্বক ফ্লাক্সের একক \(\text{T}\cdot\text{m}^2 = \text{Wb}\), যা সঠিক। তলের সাথে লম্বভাবে থাকা চৌম্বক ক্ষেত্রের উপাংশটিই (অর্থাৎ \(z\)-উপাংশ \(4B_0\)) কেবল ফ্লাক্সে অবদান রাখে। একে ক্ষেত্রফল \(L^2\) দিয়ে গুণ করলে পাওয়া যায় \(4B_0L^2\text{ Wb}\)।<br/>
+চূড়ান্ত উত্তর: \(4B_0L^2\text{ Wb}\)</p>]]></text>
+  </generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="0" format="html"><text><![CDATA[<p>\(2 B_0 L^2\text{ Wb}\)</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>\(3 B_0 L^2\text{ Wb}\)</p>]]></text></answer>
+  <answer fraction="100" format="html"><text><![CDATA[<p>\(4 B_0 L^2\text{ Wb}\)</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>\(\sqrt{29} B_0 L^2\text{ Wb}\)</p>]]></text></answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:bn</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>class:class_12</text></tag>
+    <tag><text>chapter:electromagnetic_induction</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:easy</text></tag>
+    <tag><text>blooms:apply</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:text</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+<question type="multichoice">
+  <name><text>NEET_UG_PHYSICS_ELECTROMAGNETIC_INDUCTION_MCQ_Q02 - Flux passing through six cornered straight loop</text></name>
+  <questiontext format="html">
+    <text><![CDATA[<p>A loop, made of straight edges has six corners at \(A(0,0,0)\), \(B(L,0,0)\), \(C(L,L,0)\), \(D(0,L,0)\), \(E(0,L,L)\) and \(F(0,0,L)\). A magnetic field \(\mathbf{B} = B_0(\hat{\mathbf{i}} + \hat{\mathbf{k}})\text{ T}\) is present in the region. The flux passing through the loop \(ABCDEFA\) (in that order) is</p><hr/><p>সোজা ধার দ্বারা গঠিত একটি লুপের ছয়টি শীর্ষবিন্দু হলো \(A(0,0,0)\), \(B(L,0,0)\), \(C(L,L,0)\), \(D(0,L,0)\), \(E(0,L,L)\) এবং \(F(0,0,L)\)। অঞ্চলটিতে \(\mathbf{B} = B_0(\hat{\mathbf{i}} + \hat{\mathbf{k}})\text{ T}\) চৌম্বক ক্ষেত্র উপস্থিত রয়েছে। \(ABCDEFA\) (এই ক্রমে) লুপটির মধ্য দিয়ে অতিক্রান্ত চৌম্বক ফ্লাক্স হলো</p>]]></text>
+  </questiontext>
+  <generalfeedback format="html">
+    <text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>
+Vertices of the non-planar closed loop in cyclic order:<br/>
+\(A(0,0,0) \to B(L,0,0) \to C(L,L,0) \to D(0,L,0) \to E(0,L,L) \to F(0,0,L) \to A(0,0,0)\)<br/>
+Magnetic field in the region: \(\mathbf{B} = B_0(\hat{\mathbf{i}} + \hat{\mathbf{k}})\text{ T}\), where \(B_0\) is constant.</p>
+<p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>
+The closed non-planar loop can be decomposed into two planar square loops sharing the common edge \(DA\):<br/>
+Loop 1 in the \(x\)-\(y\) plane: \(A(0,0,0) \to B(L,0,0) \to C(L,L,0) \to D(0,L,0) \to A(0,0,0)\)<br/>
+Loop 2 in the \(y\)-\(z\) plane: \(D(0,L,0) \to E(0,L,L) \to F(0,0,L) \to A(0,0,0) \to D(0,L,0)\)<br/>
+Traversing the shared edge in opposite directions (\(D \to A\) in Loop 1 and \(A \to D\) in Loop 2) causes the interior segment to cancel, yielding exactly the outer loop \(ABCDEFA\).<br/>
+The right-hand thumb rule determines the direction of the area vector for each planar surface.</p>
+<p><strong>Step 3: Relevant Formulae and Principles</strong><br/>
+The total vector area of a piecewise planar closed loop is the sum of the vector areas of its constituent planar surfaces:<br/>
+\[\mathbf{A}_{\text{total}} = \mathbf{A}_1 + \mathbf{A}_2\]<br/>
+The magnetic flux through the loop is given by:<br/>
+\[\Phi = \mathbf{B} \cdot \mathbf{A}_{\text{total}}\]</p>
+<p><strong>Step 4: Step-by-Step Working</strong><br/>
+For the loop \(ABCDA\) in the \(x\)-\(y\) plane:<br/>
+Vector along \(AB\) is \(L\hat{\mathbf{i}}\) and vector along \(BC\) is \(L\hat{\mathbf{j}}\).<br/>
+The area vector is:<br/>
+\[\mathbf{A}_1 = (L\hat{\mathbf{i}}) \times (L\hat{\mathbf{j}}) = L^2\hat{\mathbf{k}}\]<br/>
+For the loop \(DEFAD\) in the \(y\)-\(z\) plane:<br/>
+Vector along \(DE\) is \(L\hat{\mathbf{k}}\) and vector along \(EF\) is \(-L\hat{\mathbf{j}}\).<br/>
+The area vector is:<br/>
+\[\mathbf{A}_2 = (L\hat{\mathbf{k}}) \times (-L\hat{\mathbf{j}}) = L^2\hat{\mathbf{i}}\]<br/>
+Combining the two planar area vectors gives the total area vector of the loop \(ABCDEFA\):<br/>
+\[\mathbf{A}_{\text{total}} = L^2\hat{\mathbf{i}} + L^2\hat{\mathbf{k}} = L^2(\hat{\mathbf{i}} + \hat{\mathbf{k}})\]<br/>
+Now, compute the scalar product with \(\mathbf{B} = B_0(\hat{\mathbf{i}} + \hat{\mathbf{k}})\):<br/>
+\[\Phi = \mathbf{B} \cdot \mathbf{A}_{\text{total}} = B_0(\hat{\mathbf{i}} + \hat{\mathbf{k}}) \cdot L^2(\hat{\mathbf{i}} + \hat{\mathbf{k}}) = B_0L^2(1 \cdot 1 + 0 \cdot 0 + 1 \cdot 1) = 2B_0L^2\text{ Wb}\]</p>
+<p><strong>Step 5: Check and Final Answer</strong><br/>
+The \(x\)-\(y\) planar part intercepts the \(z\)-component of \(\mathbf{B}\), contributing \(B_0L^2\). The \(y\)-\(z\) planar part intercepts the \(x\)-component of \(\mathbf{B}\), contributing another \(B_0L^2\). The sum is \(2B_0L^2\text{ Wb}\).<br/>
+Final Answer: \(2B_0L^2\text{ Wb}\)</p>
+<hr/>
+<p><strong>ধাপ ১: প্রদত্ত উপাত্ত এবং শর্তাবলী</strong><br/>
+অসমতলীয় বদ্ধ লুপটির শীর্ষবিন্দুগুলির চক্রক্রমিক স্থানাঙ্ক:<br/>
+\(A(0,0,0) \to B(L,0,0) \to C(L,L,0) \to D(0,L,0) \to E(0,L,L) \to F(0,0,L) \to A(0,0,0)\)<br/>
+অঞ্চলের চৌম্বক ক্ষেত্র: \(\mathbf{B} = B_0(\hat{\mathbf{i}} + \hat{\mathbf{k}})\text{ T}\), যেখানে \(B_0\) একটি ধ্রুবক।</p>
+<p><strong>ধাপ ২: অনুমান এবং চিহ্নরীতি</strong><br/>
+বদ্ধ অসমতলীয় লুপটিকে \(DA\) সাধারণ বাহুবিশিষ্ট দুটি সমতলীয় বর্গাকার লুপে বিভক্ত করা যায়:<br/>
+\(x\)-\(y\) সমতলে লুপ ১: \(A(0,0,0) \to B(L,0,0) \to C(L,L,0) \to D(0,L,0) \to A(0,0,0)\)<br/>
+\(y\)-\(z\) সমতলে লুপ ২: \(D(0,L,0) \to E(0,L,L) \to F(0,0,L) \to A(0,0,0) \to D(0,L,0)\)<br/>
+সাধারণ বাহুটি বিপরীত অভিমুখে অতিক্রান্ত হওয়ায় (\(D \to A\) এবং \(A \to D\)) অভ্যন্তরীণ অংশটি পরস্পরকে প্রশমিত করে এবং প্রকৃত লুপ \(ABCDEFA\) পাওয়া যায়। ডানহাতের বুড়ো আঙুলের নিয়ম অনুযায়ী ক্ষেত্রফল ভেক্টরের অভিমুখ নির্ধারিত হয়।</p>
+<p><strong>ধাপ ৩: প্রাসঙ্গিক সূত্রাবলী এবং নীতি</strong><br/>
+কোনো খণ্ডশ সমতলীয় লুপের মোট ক্ষেত্রফল ভেক্টর হলো তার উপাদান সমতলীয় তলগুলির ক্ষেত্রফল ভেক্টরের ভেক্টর যোগফল:<br/>
+\[\mathbf{A}_{\text{total}} = \mathbf{A}_1 + \mathbf{A}_2\]<br/>
+লুপটির মধ্য দিয়ে অতিক্রান্ত মোট চৌম্বক ফ্লাক্স হলো:<br/>
+\[\Phi = \mathbf{B} \cdot \mathbf{A}_{\text{total}}\]</p>
+<p><strong>ধাপ ৪: ধাপে ধাপে সমাধান</strong><br/>
+\(x\)-\(y\) সমতলে অবস্থিত \(ABCDA\) লুপের ক্ষেত্রে:<br/>
+\(AB\) বরাবর ভেক্টর \(L\hat{\mathbf{i}}\) এবং \(BC\) বরাবর ভেক্টর \(L\hat{\mathbf{j}}\)।<br/>
+ক্ষেত্রফল ভেক্টর হলো:<br/>
+\[\mathbf{A}_1 = (L\hat{\mathbf{i}}) \times (L\hat{\mathbf{j}}) = L^2\hat{\mathbf{k}}\]<br/>
+\(y\)-\(z\) সমতলে অবস্থিত \(DEFAD\) লুপের ক্ষেত্রে:<br/>
+\(DE\) বরাবর ভেক্টর \(L\hat{\mathbf{k}}\) এবং \(EF\) বরাবর ভেক্টর \(-L\hat{\mathbf{j}}\)।<br/>
+ক্ষেত্রফল ভেক্টর হলো:<br/>
+\[\mathbf{A}_2 = (L\hat{\mathbf{k}}) \times (-L\hat{\mathbf{j}}) = L^2\hat{\mathbf{i}}\]<br/>
+উভয় ক্ষেত্রফল ভেক্টরের সমন্বয়ে \(ABCDEFA\) লুপের মোট ক্ষেত্রফল ভেক্টর পাওয়া যায়:<br/>
+\[\mathbf{A}_{\text{total}} = L^2\hat{\mathbf{i}} + L^2\hat{\mathbf{k}} = L^2(\hat{\mathbf{i}} + \hat{\mathbf{k}})\]<br/>
+চৌম্বক ক্ষেত্র \(\mathbf{B} = B_0(\hat{\mathbf{i}} + \hat{\mathbf{k}})\)-এর সাথে স্কেলার গুণফল নির্ণয় করে পাই:<br/>
+\[\Phi = \mathbf{B} \cdot \mathbf{A}_{\text{total}} = B_0(\hat{\mathbf{i}} + \hat{\mathbf{k}}) \cdot L^2(\hat{\mathbf{i}} + \hat{\mathbf{k}}) = B_0L^2(1 + 1) = 2B_0L^2\text{ Wb}\]</p>
+<p><strong>ধাপ ৫: যাচাই এবং চূড়ান্ত উত্তর</strong><br/>
+\(x\)-\(y\) সমতলীয় অংশটি \(\mathbf{B}\)-এর \(z\)-উপাংশকে গ্রহণ করে, ফলে ফ্লাক্স \(B_0L^2\)। \(y\)-\(z\) সমতলীয় অংশটি \(\mathbf{B}\)-এর \(x\)-উপাংশকে গ্রহণ করে, ফলে ফ্লাক্স আরও \(B_0L^2\)। মোট ফ্লাক্স হলো \(2B_0L^2\text{ Wb}\)।<br/>
+চূড়ান্ত উত্তর: \(2B_0L^2\text{ Wb}\)</p>]]></text>
+  </generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="0" format="html"><text><![CDATA[<p>\(B_0 L^2\text{ Wb}\)</p>]]></text></answer>
+  <answer fraction="100" format="html"><text><![CDATA[<p>\(2 B_0 L^2\text{ Wb}\)</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>\(\sqrt{2} B_0 L^2\text{ Wb}\)</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>\(4 B_0 L^2\text{ Wb}\)</p>]]></text></answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:bn</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>class:class_12</text></tag>
+    <tag><text>chapter:electromagnetic_induction</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:medium</text></tag>
+    <tag><text>blooms:apply</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:text</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+<question type="multichoice">
+  <name><text>NEET_UG_PHYSICS_ELECTROMAGNETIC_INDUCTION_MCQ_Q03 - Current in circuit with rotating bar magnet</text></name>
+  <questiontext format="html">
+    <text><![CDATA[<p>A cylindrical bar magnet is rotated about its axis (Fig 6.1). A wire is connected from the axis and is made to touch the cylindrical surface through a contact. Then</p><p><img src="@@PLUGINFILE@@/img-0.jpeg" alt="Fig. 6.1: A cylindrical bar magnet rotating about its central axis with a wire circuit connecting the axis to the cylindrical surface through an ammeter." /></p><hr/><p>একটি চোঙাকৃতি দণ্ডচুম্বককে তার নিজের অক্ষের সাপেক্ষে ঘোরানো হচ্ছে (চিত্র 6.1)। অক্ষ থেকে একটি তার যুক্ত করে একটি সংযোগের মাধ্যমে চোঙাকার পৃষ্ঠকে স্পর্শ করানো হয়েছে। এক্ষেত্রে</p>]]></text>
+  
+      <file name="img-0.jpeg" encoding="base64">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</file>
+    </questiontext>
+  <generalfeedback format="html">
+    <text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>
+A cylindrical bar magnet rotates about its longitudinal magnetic axis with angular velocity \(\omega\).<br/>
+A conducting circuit with an ammeter is formed between the rotation axis and the curved cylindrical surface via a sliding contact.<br/>
+The circuit loop containing the ammeter and external wires remains stationary in the laboratory frame.</p>
+<p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>
+The cylindrical magnet possesses rotational symmetry about its longitudinal axis.<br/>
+The external circuit enclosing the ammeter does not change its shape, size, or physical position in space over time.</p>
+<p><strong>Step 3: Relevant Formulae and Principles</strong><br/>
+According to Faraday's law of electromagnetic induction, an electromotive force (emf) is induced in a closed loop only when there is a time rate of change of magnetic flux linked with that loop:<br/>
+\[\varepsilon = -\frac{d\Phi}{dt}\]<br/>
+By Ohm's law, the current flowing through the loop of resistance \(R\) is:<br/>
+\[I = \frac{\varepsilon}{R}\]</p>
+<p><strong>Step 4: Step-by-Step Working</strong><br/>
+Because of the complete cylindrical symmetry of the bar magnet about its axis of rotation, the distribution of magnetic field lines in the surrounding space is entirely invariant under rotation.<br/>
+Rotating the magnet about its own symmetry axis produces no temporal variation in the magnetic field at any point in space: \(\frac{\partial \mathbf{B}}{\partial t} = 0\).<br/>
+The loop consisting of the stationary wires, ammeter, and contact is fixed in the laboratory frame. Therefore, the total magnetic flux \(\Phi = \int \mathbf{B} \cdot d\mathbf{A}\) threading through the stationary circuit loop remains completely constant in time:<br/>
+\[\frac{d\Phi}{dt} = 0\]<br/>
+Consequently, the induced electromotive force in the loop is zero:<br/>
+\[\varepsilon = 0\]<br/>
+Since the induced emf is zero, the current through the circuit and ammeter is zero.</p>
+<p><strong>Step 5: Check and Final Answer</strong><br/>
+In the absence of a time-varying magnetic flux through the stationary closed loop, electromagnetic induction cannot generate an electric current. Thus, no current flows through the ammeter.<br/>
+Final Answer: no current flows through the ammeter A.</p>
+<hr/>
+<p><strong>ধাপ ১: প্রদত্ত উপাত্ত এবং শর্তাবলী</strong><br/>
+একটি চোঙাকৃতি দণ্ডচুম্বক তার নিজস্ব অনুদৈর্ঘ্য অক্ষের সাপেক্ষে \(\omega\) কৌণিক বেগে ঘুরছে।<br/>
+অ্যামিটারযুক্ত একটি পরিবাহী বর্তনী ঘূর্ণন অক্ষ এবং চোঙাকার পৃষ্ঠের মধ্যে একটি স্পর্শকের মাধ্যমে সংযুক্ত।<br/>
+অ্যামিটার এবং বহিঃস্থ তার দ্বারা গঠিত বর্তনীটি পরীক্ষাগার কাঠামোতে স্থির রয়েছে।</p>
+<p><strong>ধাপ ২: অনুমান এবং চিহ্নরীতি</strong><br/>
+ঘূর্ণন অক্ষের সাপেক্ষে চোঙাকার চুম্বকটির সম্পূর্ণ ঘূর্ণন প্রতিসাম্য (axial symmetry) রয়েছে।<br/>
+অ্যামিটারযুক্ত বহিঃস্থ বদ্ধ বর্তনীটির আকার, ক্ষেত্রফল বা অবস্থানের সময়ে কোনো পরিবর্তন ঘটে না।</p>
+<p><strong>ধাপ ৩: প্রাসঙ্গিক সূত্রাবলী এবং নীতি</strong><br/>
+ফ্যারাডের তড়িৎচৌম্বকীয় আবেশের সূত্রানুযায়ী, কোনো বদ্ধ কুন্ডলীতে আবিষ্ট তড়িৎচালক বল (emf) কেবল তখনই সৃষ্টি হয় যখন কুন্ডলী সংশ্লিষ্ট চৌম্বক ফ্লাক্সের সময়ের সাপেক্ষে পরিবর্তন ঘটে:<br/>
+\[\varepsilon = -\frac{d\Phi}{dt}\]<br/>
+ওহমের সূত্রানুযায়ী, \(R\) রোধের বর্তনীতে তড়িৎপ্রবাহ হলো:<br/>
+\[I = \frac{\varepsilon}{R}\]</p>
+<p><strong>ধাপ ৪: ধাপে ধাপে সমাধান</strong><br/>
+ঘূর্ণন অক্ষের সাপেক্ষে চুম্বকটির নিখুঁত চোঙাকার প্রতিসাম্যের কারণে, চুম্বকটিকে তার অক্ষের সাপেক্ষে ঘোরালেও পারিপার্শ্বিক স্থানে চৌম্বক ক্ষেত্ররেখার বিন্যাসের কোনো পরিবর্তন হয় না।<br/>
+স্থানের যেকোনো বিন্দুতে চৌম্বক ক্ষেত্র সময়ের সাপেক্ষে অপরিবর্তিত থাকে: \(\frac{\partial \mathbf{B}}{\partial t} = 0\)।<br/>
+স্থির তার, অ্যামিটার এবং স্পর্শক সমন্বয়ে গঠিত বদ্ধ বর্তনীটি স্থির থাকায় এর মধ্য দিয়ে অতিক্রান্ত মোট চৌম্বক ফ্লাক্স \(\Phi = \int \mathbf{B} \cdot d\mathbf{A}\) সর্বদা ধ্রুব থাকে:<br/>
+\[\frac{d\Phi}{dt} = 0\]<br/>
+ফলস্বরূপ, বর্তনীটিতে আবিষ্ট তড়িৎচালক বল শূন্য হয়:<br/>
+\[\varepsilon = 0\]<br/>
+আবিষ্ট তড়িৎচালক বল শূন্য হওয়ায় অ্যামিটারের মধ্য দিয়ে কোনো তড়িৎপ্রবাহ প্রবাহিত হয় না।</p>
+<p><strong>ধাপ ৫: যাচাই এবং চূড়ান্ত উত্তর</strong><br/>
+স্থির বদ্ধ বর্তনীটিতে কোনো পরিবর্তনশীল চৌম্বক ফ্লাক্স না থাকায় তড়িৎচৌম্বক আবেশ ঘটে না। অতএব অ্যামিটারের মধ্য দিয়ে কোনো তড়িৎ প্রবাহিত হয় না।<br/>
+চূড়ান্ত উত্তর: no current flows through the ammeter A.</p>]]></text>
+  </generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="0" format="html"><text><![CDATA[<p>a direct current flows in the ammeter A.</p>]]></text></answer>
+  <answer fraction="100" format="html"><text><![CDATA[<p>no current flows through the ammeter A.</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>an alternating sinusoidal current flows through the ammeter A with a time period \(T = \frac{2\pi}{\omega}\)</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>a time varying non-sinusoidal current flows through the ammeter A.</p>]]></text></answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:bn</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>class:class_12</text></tag>
+    <tag><text>chapter:electromagnetic_induction</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:medium</text></tag>
+    <tag><text>blooms:understand</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:diagram</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+<question type="multichoice">
+  <name><text>NEET_UG_PHYSICS_ELECTROMAGNETIC_INDUCTION_MCQ_Q04 - Current in moving coil inducing stationary coil</text></name>
+  <questiontext format="html">
+    <text><![CDATA[<p>There are two coils \(A\) and \(B\) as shown in Fig 6.2. A current starts flowing in \(B\) as shown, when \(A\) is moved towards \(B\) and stops when \(A\) stops moving. The current in \(A\) is counterclockwise. \(B\) is kept stationary when \(A\) moves. We can infer that</p><p><img src="@@PLUGINFILE@@/img-1.jpeg" alt="Fig. 6.2: Two circular coils A and B, where coil A is moving with velocity v towards stationary coil B, inducing a current in coil B." /></p><hr/><p>চিত্র 6.2-এ প্রদর্শিত অনুযায়ী দুটি কুণ্ডলী \(A\) এবং \(B\) রয়েছে। \(A\)-কে \(B\)-এর দিকে নিয়ে যাওয়ার সময় \(B\)-তে প্রদর্শিত অভিমুখে একটি তড়িৎপ্রবাহ শুরু হয় এবং \(A\)-এর গতি থেমে গেলে প্রবাহও বন্ধ হয়ে যায়। \(A\)-তে তড়িৎপ্রবাহ হলো ঘড়ির কাঁটার বিপরীতমুখী (counterclockwise)। \(A\) যখন গতিশীল থাকে তখন \(B\)-কে স্থির রাখা হয়। এ থেকে আমরা সিদ্ধান্ত নিতে পারি যে</p>]]></text>
+  
+      <file name="img-1.jpeg" encoding="base64">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</file>
+    </questiontext>
+  <generalfeedback format="html">
+    <text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>
+Two coaxial circular coils are designated as \(A\) and \(B\).<br/>
+Coil \(B\) is kept stationary.<br/>
+When coil \(A\) moves towards coil \(B\), a current is observed in \(B\).<br/>
+When coil \(A\) stops moving, the current in \(B\) completely stops.<br/>
+The current in coil \(A\) is in the counterclockwise direction.</p>
+<p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>
+The interaction between the two coils is governed by Faraday's law of electromagnetic induction and mutual inductance.</p>
+<p><strong>Step 3: Relevant Formulae and Principles</strong><br/>
+The total magnetic flux linked with coil \(B\) due to a current \(I_A\) in coil \(A\) is given by:<br/>
+\[\Phi_B = M I_A\]<br/>
+where \(M\) is the mutual inductance between coil \(A\) and coil \(B\).<br/>
+The induced electromotive force in coil \(B\) is:<br/>
+\[\varepsilon_B = -\frac{d\Phi_B}{dt} = -\frac{d(M I_A)}{dt} = -M \frac{dI_A}{dt} - I_A \frac{dM}{dt}\]</p>
+<p><strong>Step 4: Step-by-Step Working</strong><br/>
+When coil \(A\) is stationary (\(\frac{dM}{dt} = 0\)), the induced emf in \(B\) becomes:<br/>
+\[\varepsilon_B = -M \frac{dI_A}{dt}\]<br/>
+The problem states that no current flows in \(B\) whenever \(A\) is at rest, meaning \(\varepsilon_B = 0\) when \(A\) is stationary. Therefore:<br/>
+\[-M \frac{dI_A}{dt} = 0 \implies \frac{dI_A}{dt} = 0\]<br/>
+This indicates that the current \(I_A\) does not vary with time; it must be a constant current.<br/>
+If \(I_A\) were time-varying, an induced current would continue to flow in \(B\) even when \(A\) stops moving, which directly contradicts the given observation.<br/>
+Since the current in \(A\) is given as counterclockwise and must be non-varying, it is a constant current in the counterclockwise direction.</p>
+<p><strong>Step 5: Check and Final Answer</strong><br/>
+Motion of coil \(A\) carrying a steady current produces a change in mutual inductance (\(\frac{dM}{dt} \neq 0\)), inducing an emf in \(B\). As soon as relative motion ceases, \(\frac{dM}{dt} = 0\), causing the induced current in \(B\) to vanish immediately. This fully confirms a constant current in the counterclockwise direction in coil \(A\).<br/>
+Final Answer: there is a constant current in the counterclockwise direction in A.</p>
+<hr/>
+<p><strong>ধাপ ১: প্রদত্ত উপাত্ত এবং শর্তাবলী</strong><br/>
+\(A\) এবং \(B\) নামে দুটি সমাক্ষীয় বৃত্তাকার কুণ্ডলী রয়েছে।<br/>
+কুণ্ডলী \(B\) স্থির রয়েছে।<br/>
+যখন কুণ্ডলী \(A\)-কে \(B\)-এর দিকে নিয়ে যাওয়া হয়, তখন \(B\)-তে তড়িৎপ্রবাহ দেখা যায়।<br/>
+যখন কুণ্ডলী \(A\)-এর গতি থেমে যায়, তখন \(B\)-তে প্রবাহ বন্ধ হয়ে যায়।<br/>
+কুণ্ডলী \(A\)-তে প্রবাহের অভিমুখ ঘড়ির কাঁটার বিপরীতমুখী (counterclockwise)।</p>
+<p><strong>ধাপ ২: অনুমান এবং চিহ্নরীতি</strong><br/>
+কুণ্ডলী দুটির মধ্যকার মিথস্ক্রিয়া ফ্যারাডের তড়িৎচৌম্বক আবেশের নীতি এবং পারস্পরিক আবেশের দ্বারা নিয়ন্ত্রিত হয়।</p>
+<p><strong>ধাপ ৩: প্রাসঙ্গিক সূত্রাবলী এবং নীতি</strong><br/>
+কুণ্ডলী \(A\)-এর \(I_A\) প্রবাহের কারণে কুণ্ডলী \(B\)-তে সংশ্লিষ্ট চৌম্বক ফ্লাক্স হলো:<br/>
+\[\Phi_B = M I_A\]<br/>
+যেখানে \(M\) হলো কুণ্ডলীদ্বয়ের পারস্পরিক আবেশাঙ্ক।<br/>
+কুণ্ডলী \(B\)-তে আবিষ্ট তড়িৎচালক বল হলো:<br/>
+\[\varepsilon_B = -\frac{d\Phi_B}{dt} = -M \frac{dI_A}{dt} - I_A \frac{dM}{dt}\]</p>
+<p><strong>ধাপ ৪: ধাপে ধাপে সমাধান</strong><br/>
+কুণ্ডলী \(A\) স্থির থাকলে (\(\frac{dM}{dt} = 0\)), কুণ্ডলী \(B\)-তে আবিষ্ট তড়িৎচালক বল হয়:<br/>
+\[\varepsilon_B = -M \frac{dI_A}{dt}\]<br/>
+শর্তানুসারে, \(A\) স্থির থাকলে \(B\)-তে কোনো প্রবাহ থাকে না, অর্থাৎ \(\varepsilon_B = 0\)। সুতরাং:<br/>
+\[-M \frac{dI_A}{dt} = 0 \implies \frac{dI_A}{dt} = 0\]<br/>
+এটি প্রমাণ করে যে \(I_A\) সময়ের সাথে পরিবর্তনশীল নয়, অর্থাৎ এটি একটি ধ্রুব প্রবাহ।<br/>
+যদি \(I_A\) পরিবর্তনশীল হতো, তবে \(A\) থেমে যাওয়ার পরেও \(B\)-তে প্রবাহ বজায় থাকত, যা প্রদত্ত শর্তের বিরোধী।<br/>
+যেহেতু \(A\)-তে প্রবাহ ঘড়ির কাঁটার বিপরীতমুখী এবং স্থির মানের, তাই কুণ্ডলী \(A\)-তে ঘড়ির কাঁটার বিপরীতমুখী একটি ধ্রুব প্রবাহ বিদ্যমান।</p>
+<p><strong>ধাপ ৫: যাচাই এবং চূড়ান্ত উত্তর</strong><br/>
+স্থির প্রবাহবাহী কুণ্ডলী \(A\)-এর গতির ফলে পারস্পরিক দূরত্বের পরিবর্তনে ফ্লাক্স পরিবর্তিত হয়, ফলে \(B\)-তে প্রবাহ সৃষ্টি হয়। গতি থেমে গেলে ফ্লাক্সের পরিবর্তন বন্ধ হয় এবং প্রবাহ তাৎক্ষণিক শূন্য হয়। এটি নির্দেশ করে যে \(A\)-তে ঘড়ির কাঁটার বিপরীতমুখী ধ্রুব তড়িৎপ্রবাহ রয়েছে।<br/>
+চূড়ান্ত উত্তর: there is a constant current in the counterclockwise direction in A.</p>]]></text>
+  </generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="0" format="html"><text><![CDATA[<p>there is a constant current in the clockwise direction in A.</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>there is a varying current in A.</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>there is no current in A.</p>]]></text></answer>
+  <answer fraction="100" format="html"><text><![CDATA[<p>there is a constant current in the counterclockwise direction in A.</p>]]></text></answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:bn</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>class:class_12</text></tag>
+    <tag><text>chapter:electromagnetic_induction</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:medium</text></tag>
+    <tag><text>blooms:analyze</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:diagram</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+<question type="multichoice">
+  <name><text>NEET_UG_PHYSICS_ELECTROMAGNETIC_INDUCTION_MCQ_Q05 - Current in rotating coil inducing stationary coil</text></name>
+  <questiontext format="html">
+    <text><![CDATA[<p>Same as problem 4 except the coil \(A\) is made to rotate about a vertical axis (Fig 6.3). No current flows in \(B\) if \(A\) is at rest. The current in coil \(A\), when the current in \(B\) (at \(t = 0\)) is counterclockwise and the coil \(A\) is as shown at this instant, \(t = 0\), is</p><p><img src="@@PLUGINFILE@@/img-2.jpeg" alt="Fig. 6.3: Coil A rotating about a vertical diameter with angular velocity omega beside a stationary coil B showing induced counterclockwise current." /></p><hr/><p>প্রশ্ন 4-এর অনুরূপ ব্যবস্থা, কেবল কুণ্ডলী \(A\)-কে একটি উল্লম্ব অক্ষের সাপেক্ষে ঘোরানো হচ্ছে (চিত্র 6.3)। \(A\) স্থির থাকলে \(B\)-তে কোনো তড়িৎপ্রবাহ হয় না। যখন \(t = 0\) সময়ে \(B\)-তে আবিষ্ট প্রবাহ ঘড়ির কাঁটার বিপরীতমুখী (counterclockwise) এবং এই মুহূর্তে (\(t = 0\)) কুণ্ডলী \(A\) চিত্রে প্রদর্শিত অবস্থানে থাকে, তখন কুণ্ডলী \(A\)-তে তড়িৎপ্রবাহ হবে</p>]]></text>
+  
+      <file name="img-2.jpeg" encoding="base64">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</file>
+    </questiontext>
+  <generalfeedback format="html">
+    <text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>
+Coil \(A\) is rotated with angular velocity \(\omega\) about a vertical axis lying in its own plane.<br/>
+Coil \(B\) is kept stationary in the same plane to the right of \(A\).<br/>
+No current flows in \(B\) when \(A\) is at rest.<br/>
+At time \(t = 0\), coil \(A\) is coplanar with coil \(B\), and the induced current in coil \(B\) is counterclockwise.</p>
+<p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>
+View the coils from the front (facing the page). A counterclockwise current produces a magnetic dipole moment directed outwards from the page (towards the viewer).<br/>
+A clockwise current produces a magnetic dipole moment directed into the page.</p>
+<p><strong>Step 3: Relevant Formulae and Principles</strong><br/>
+1. Faraday's Law: \(\varepsilon_B = -\frac{d\Phi_B}{dt}\).<br/>
+2. Lenz's Law: The direction of the induced current in \(B\) opposes the change in magnetic flux that produces it.<br/>
+3. Since no current is induced in \(B\) when \(A\) is stationary, the current in \(A\) must be constant (\(\frac{dI_A}{dt} = 0\)).</p>
+<p><strong>Step 4: Step-by-Step Working</strong><br/>
+First, since \(\varepsilon_B = 0\) when \(A\) is at rest, the current in coil \(A\) is constant (not time-varying).<br/>
+Next, consider the rotation of coil \(A\):<br/>
+At \(t = 0\), coil \(A\) is coplanar with coil \(B\), where the magnetic flux linkage with \(B\) is at its maximum.<br/>
+As coil \(A\) begins to rotate away from the coplanar configuration, the magnetic flux passing through coil \(B\) due to coil \(A\) starts to decrease.<br/>
+By Lenz's law, the induced current in coil \(B\) must oppose this decrease in magnetic flux by generating an induced magnetic field in the same direction as the original magnetic field produced by coil \(A\) at the location of \(B\).<br/>
+The induced current in \(B\) is counterclockwise, which produces a magnetic field pointing out of the page.<br/>
+Therefore, to support the decreasing flux, the magnetic field produced by coil \(A\) at the location of coil \(B\) must also point out of the page.<br/>
+For a circular coil \(A\) to produce a magnetic field directed out of the page in the exterior region to its right (where coil \(B\) is located), the magnetic field inside coil \(A\) must be directed into the page.<br/>
+By the right-hand rule, a current producing an inward magnetic field inside the loop flows in the clockwise direction.<br/>
+Consequently, the current in coil \(A\) must be a constant current flowing in the clockwise direction.</p>
+<p><strong>Step 5: Check and Final Answer</strong><br/>
+A constant clockwise current in \(A\) creates inward flux within its perimeter and outward returning flux through adjacent exterior regions such as coil \(B\). Rotation reduces this outward flux; Lenz's law reacts by inducing a counterclockwise current in \(B\) to restore outward flux. This matches all given conditions.<br/>
+Final Answer: constant current clockwise.</p>
+<hr/>
+<p><strong>ধাপ ১: প্রদত্ত উপাত্ত এবং শর্তাবলী</strong><br/>
+কুণ্ডলী \(A\)-কে তার নিজস্ব তলে অবস্থিত একটি উল্লম্ব অক্ষের সাপেক্ষে \(\omega\) কৌণিক বেগে ঘোরানো হচ্ছে।<br/>
+কুণ্ডলী \(B\) একই সমতলে \(A\)-এর ডানপাশে স্থির অবস্থায় রয়েছে।<br/>
+\(A\) স্থির থাকলে \(B\)-তে কোনো তড়িৎপ্রবাহ হয় না।<br/>
+\(t = 0\) সময়ে কুণ্ডলী \(A\) কুণ্ডলী \(B\)-এর সাথে এক-সমতলীয় এবং \(B\)-তে আবিষ্ট প্রবাহ ঘড়ির কাঁটার বিপরীতমুখী।</p>
+<p><strong>ধাপ ২: অনুমান এবং চিহ্নরীতি</strong><br/>
+সম্মুখভাগ থেকে পর্যবেক্ষণের ক্ষেত্রে, ঘড়ির কাঁটার বিপরীতমুখী প্রবাহ তল থেকে বহির্মুখী (দর্শকের দিকে) চৌম্বক ক্ষেত্র উৎপন্ন করে এবং ঘড়ির কাঁটার অনুকূল প্রবাহ অন্তর্মুখী চৌম্বক ক্ষেত্র তৈরি করে।</p>
+<p><strong>ধাপ ৩: প্রাসঙ্গিক সূত্রাবলী এবং নীতি</strong><br/>
+১. ফ্যারাডের সূত্র: \(\varepsilon_B = -\frac{d\Phi_B}{dt}\)।<br/>
+২. লেঞ্জের সূত্র: আবিষ্ট প্রবাহের অভিমুখ সর্বদা ফ্লাক্সের পরিবর্তনের কারণকে বাধা দেয়।<br/>
+৩. \(A\) স্থির থাকলে \(B\)-তে প্রবাহ না থাকায় \(A\)-এর প্রবাহ ধ্রুব (\(\frac{dI_A}{dt} = 0\)) হতে হবে।</p>
+<p><strong>ধাপ ৪: ধাপে ধাপে সমাধান</strong><br/>
+প্রথমত, \(A\) স্থির থাকলে \(\varepsilon_B = 0\) হওয়ায় কুণ্ডলী \(A\)-এর তড়িৎপ্রবাহ একটি ধ্রুব প্রবাহ (পরিবর্তনশীল নয়)।<br/>
+দ্বিতীয়ত, কুণ্ডলী \(A\)-এর ঘূর্ণন বিবেচনা করা যাক:<br/>
+\(t = 0\) সময়ে কুণ্ডলী দুটি এক-সমতলীয় থাকায় \(B\)-এর মধ্য দিয়ে ফ্লাক্সের সংযোগ সর্বোচ্চ থাকে।<br/>
+ঘূর্ণন শুরু হওয়ামাত্র এক-সমতলীয় অবস্থা থেকে বিচ্যুতি ঘটে, ফলে কুণ্ডলী \(A\)-এর কারণে \(B\)-তে ফ্লাক্সের মান হ্রাস পায়।<br/>
+লেঞ্জের সূত্রানুযায়ী, \(B\)-তে আবিষ্ট তড়িৎপ্রবাহ এই ফ্লাক্সের হ্রাসকে বাধা দেবে। ফলে আবিষ্ট চৌম্বক ক্ষেত্রের অভিমুখ হবে \(A\)-এর দ্বারা উৎপন্ন মূল চৌম্বক ক্ষেত্রের অভিমুখে।<br/>
+\(B\)-তে আবিষ্ট প্রবাহ ঘড়ির কাঁটার বিপরীতমুখী হওয়ায় এর চৌম্বক ক্ষেত্র তল থেকে বাইরের দিকে (বহির্মুখী)।<br/>
+সুতরাং কুণ্ডলী \(A\)-এর দ্বারা \(B\)-এর অবস্থানে উৎপন্ন মূল চৌম্বক ক্ষেত্রটিকেও অবশ্যই তল থেকে বাইরের দিকে হতে হবে।<br/>
+বৃত্তাকার কুণ্ডলী \(A\)-এর ডানদিকের বহিঃস্থ অঞ্চলে বহির্মুখী চৌম্বক ক্ষেত্র তৈরি হতে হলে কুণ্ডলী \(A\)-এর অভ্যন্তরে চৌম্বক ক্ষেত্রটি অবশ্যই তলের ভেতরের দিকে (অন্তর্মুখী) হতে হবে।<br/>
+ডানহাতের নিয়ম অনুযায়ী, অভ্যন্তরে অন্তর্মুখী চৌম্বক ক্ষেত্র সৃষ্টির জন্য কুণ্ডলী \(A\)-তে প্রবাহকে অবশ্যই ঘড়ির কাঁটার অনুকূলে (clockwise) হতে হবে।<br/>
+অতএব, কুণ্ডলী \(A\)-তে প্রবাহটি হলো ঘড়ির কাঁটার অনুকূলে একটি ধ্রুব প্রবাহ।</p>
+<p><strong>ধাপ ৫: যাচাই এবং চূড়ান্ত উত্তর</strong><br/>
+কুণ্ডলী \(A\)-তে ঘড়ির কাঁটার অনুকূল স্থির প্রবাহের ফলে বহিঃস্থ অঞ্চল \(B\)-তে বহির্মুখী ফ্লাক্স লিঙ্কড থাকে। ঘূর্ণনের কারণে এই ফ্লাক্স হ্রাস পায় এবং লেঞ্জের নিয়মানুসারে তা পূরণের জন্য \(B\)-তে ঘড়ির কাঁটার বিপরীতমুখী প্রবাহ আবিষ্ট হয়।<br/>
+চূড়ান্ত উত্তর: constant current clockwise.</p>]]></text>
+  </generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="100" format="html"><text><![CDATA[<p>constant current clockwise.</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>varying current clockwise.</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>varying current counterclockwise.</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>constant current counterclockwise.</p>]]></text></answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:bn</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>class:class_12</text></tag>
+    <tag><text>chapter:electromagnetic_induction</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:medium</text></tag>
+    <tag><text>blooms:analyze</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:diagram</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+<question type="multichoice">
+  <name><text>NEET_UG_PHYSICS_ELECTROMAGNETIC_INDUCTION_MCQ_Q06 - Variation of self inductance of a solenoid</text></name>
+  <questiontext format="html">
+    <text><![CDATA[<p>The self inductance \(L\) of a solenoid of length \(l\) and area of cross-section \(A\), with a fixed number of turns \(N\) increases as</p><hr/><p>\(N\) সংখ্যক নির্দিষ্ট পাকসংখ্যা বিশিষ্ট, \(l\) দৈর্ঘ্য এবং \(A\) প্রস্থচ্ছেদের ক্ষেত্রফলযুক্ত একটি সলিনয়েডের স্বাবেশাঙ্ক \(L\) বৃদ্ধি পায় যখন</p>]]></text>
+  </questiontext>
+  <generalfeedback format="html">
+    <text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>
+Total number of turns of the solenoid: \(N\) (constant)<br/>
+Length of the solenoid: \(l\)<br/>
+Area of cross-section of the solenoid: \(A\)<br/>
+Self-inductance of the solenoid: \(L\)</p>
+<p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>
+The solenoid is considered long and ideal, such that the magnetic field inside is uniform and fringing effects at the ends are negligible.<br/>
+The core material is air or non-magnetic medium with constant permeability \(\mu_0\).</p>
+<p><strong>Step 3: Relevant Formulae and Principles</strong><br/>
+The magnetic field inside an ideal solenoid carrying a current \(I\) is:<br/>
+\[B = \mu_0 n I = \mu_0 \left(\frac{N}{l}\right) I\]<br/>
+where \(n = \frac{N}{l}\) is the number of turns per unit length.<br/>
+The total magnetic flux linked with the solenoid is:<br/>
+\[\Phi = N (B A) = N \left[\mu_0 \left(\frac{N}{l}\right) I\right] A = \frac{\mu_0 N^2 A}{l} I\]<br/>
+From the definition of self-inductance \(\Phi = L I\), the self-inductance is:<br/>
+\[L = \frac{\mu_0 N^2 A}{l}\]</p>
+<p><strong>Step 4: Step-by-Step Working</strong><br/>
+Since the medium permeability \(\mu_0\) and the total number of turns \(N\) are fixed constants, the proportionality of \(L\) is given by:<br/>
+\[L \propto \frac{A}{l}\]<br/>
+From this relationship:<br/>
+- Self-inductance \(L\) is directly proportional to the cross-sectional area \(A\) (\(L \propto A\)). Thus, increasing \(A\) increases \(L\).<br/>
+- Self-inductance \(L\) is inversely proportional to the length \(l\) (\(L \propto \frac{1}{l}\)). Thus, decreasing \(l\) increases \(L\).<br/>
+Therefore, the self-inductance \(L\) increases when \(l\) decreases and \(A\) increases.</p>
+<p><strong>Step 5: Check and Final Answer</strong><br/>
+Decreasing \(l\) with a fixed \(N\) packs more turns per unit length (\(n\) increases), strengthening the internal magnetic field per unit current. Increasing \(A\) enlarges the flux captured per turn. Both effects constructively increase the total self-inductance. Hence, \(L\) increases when \(l\) decreases and \(A\) increases.<br/>
+Final Answer: \(l\) decreases and \(A\) increases.</p>
+<hr/>
+<p><strong>ধাপ ১: প্রদত্ত উপাত্ত এবং শর্তাবলী</strong><br/>
+সলিনয়েডের মোট পাকসংখ্যা: \(N\) (ধ্রুবক)<br/>
+সলিনয়েডের দৈর্ঘ্য: \(l\)<br/>
+সলিনয়েডের প্রস্থচ্ছেদের ক্ষেত্রফল: \(A\)<br/>
+সলিনয়েডের স্বাবেশাঙ্ক: \(L\)</p>
+<p><strong>ধাপ ২: অনুমান এবং চিহ্নরীতি</strong><br/>
+সলিনয়েডটিকে দীর্ঘ এবং আদর্শ ধরা হয়েছে, যার অভ্যন্তরীণ চৌম্বক ক্ষেত্র সুষম এবং প্রান্তীয় প্রভাব নগণ্য।<br/>
+সলিনয়েডের মজ্জা বায়ু বা ধ্রুবক প্রবেশ্যতা \(\mu_0\) বিশিষ্ট কোনো অ-চৌম্বকীয় মাধ্যম।</p>
+<p><strong>ধাপ ৩: প্রাসঙ্গিক সূত্রাবলী এবং নীতি</strong><br/>
+\(I\) তড়িৎপ্রবাহবাহী একটি আদর্শ সলিনয়েডের অভ্যন্তরে চৌম্বক ক্ষেত্র হলো:<br/>
+\[B = \mu_0 n I = \mu_0 \left(\frac{N}{l}\right) I\]<br/>
+যেখানে \(n = \frac{N}{l}\) হলো প্রতি একক দৈর্ঘ্যে পাকসংখ্যা।<br/>
+সলিনয়েড সংশ্লিষ্ট মোট চৌম্বক ফ্লাক্স হলো:<br/>
+\[\Phi = N (B A) = N \left[\mu_0 \left(\frac{N}{l}\right) I\right] A = \frac{\mu_0 N^2 A}{l} I\]<br/>
+স্বাবেশাঙ্কের সংজ্ঞা \(\Phi = L I\) থেকে পাই:<br/>
+\[L = \frac{\mu_0 N^2 A}{l}\]</p>
+<p><strong>ধাপ ৪: ধাপে ধাপে সমাধান</strong><br/>
+যেহেতু মাধ্যমের প্রবেশ্যতা \(\mu_0\) এবং মোট পাকসংখ্যা \(N\) নির্দিষ্ট ও ধ্রুবক, তাই \(L\)-এর সমানুপাতিক সম্পর্ক হলো:<br/>
+\[L \propto \frac{A}{l}\]<br/>
+এই গাণিতিক সম্পর্ক থেকে স্পষ্ট যে:<br/>
+- স্বাবেশাঙ্ক \(L\) প্রস্থচ্ছেদের ক্ষেত্রফল \(A\)-এর সাথে সমানুপাতিক (\(L \propto A\))। সুতরাং \(A\) বৃদ্ধি পেলে \(L\) বৃদ্ধি পায়।<br/>
+- স্বাবেশাঙ্ক \(L\) সলিনয়েডের দৈর্ঘ্য \(l\)-এর সাথে ব্যস্তানুপাতিক (\(L \propto \frac{1}{l}\))। সুতরাং \(l\) হ্রাস পেলে \(L\) বৃদ্ধি পায়।<br/>
+অতএব, \(l\) হ্রাস পেলে এবং \(A\) বৃদ্ধি পেলে সলিনয়েডের স্বাবেশাঙ্ক \(L\) বৃদ্ধি পায়।</p>
+<p><strong>ধাপ ৫: যাচাই এবং চূড়ান্ত উত্তর</strong><br/>
+নির্দিষ্ট \(N\)-এর জন্য \(l\) হ্রাস পেলে একক দৈর্ঘ্যে পাকসংখ্যা বৃদ্ধি পেয়ে অভ্যন্তরীণ চৌম্বক ক্ষেত্র প্রবল হয় এবং \(A\) বাড়লে প্রতি পাকে ফ্লাক্স বাড়ে। উভয় পরিবর্তনই স্বাবেশাঙ্ককে বৃদ্ধি করে।<br/>
+চূড়ান্ত উত্তর: \(l\) decreases and \(A\) increases.</p>]]></text>
+  </generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="0" format="html"><text><![CDATA[<p>\(l\) and \(A\) increase.</p>]]></text></answer>
+  <answer fraction="100" format="html"><text><![CDATA[<p>\(l\) decreases and \(A\) increases.</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>\(l\) increases and \(A\) decreases.</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>both \(l\) and \(A\) decrease.</p>]]></text></answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:bn</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>class:class_12</text></tag>
+    <tag><text>chapter:electromagnetic_induction</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:easy</text></tag>
+    <tag><text>blooms:understand</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:text</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+</quiz>

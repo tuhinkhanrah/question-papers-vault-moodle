@@ -1,0 +1,178 @@
+<question type="multichoice">
+  <name><text>NEET_UG_PHYSICS_OSCILLATIONS_MCQ_Q14_15 - True properties of simple harmonic oscillator</text></name>
+  <questiontext format="html">
+    <text><![CDATA[<p>Which of the following statements is/are true for a simple harmonic oscillator?</p>]]></text>
+  </questiontext>
+  <generalfeedback format="html">
+    <text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br />Simple harmonic motion is defined by a linear restoring force law and harmonic time dependence of displacement, velocity, and acceleration.</p>
+<p><strong>Step 2: Evaluation of Force Characteristics</strong><br />The restoring force governing a simple harmonic oscillator is given by Hooke's law: \[F = -kx\] where \(k\) is the force constant and \(x\) is the displacement from the mean position. The negative sign signifies that the force is directed opposite to the displacement vector. Thus, the statement that the force acting is directly proportional to displacement from the mean position and opposite to it is true.</p>
+<p><strong>Step 3: Evaluation of Periodicity and Kinematics</strong><br />The displacement of a simple harmonic oscillator is given by \(x(t) = A \sin(\omega t + \phi)\), which repeats identically after every time period \(T = \frac{2\pi}{\omega}\). Hence, the motion is periodic.<br />The acceleration of the oscillator is \[a(t) = -\omega^2 x(t) = -\omega^2 A \sin(\omega t + \phi)\] Because acceleration depends continuously on displacement \(x\), it changes from zero at the equilibrium position to a maximum value at the extreme points, meaning the acceleration is not constant.<br />The velocity of the oscillator is given by \[v(t) = \frac{dx}{dt} = \omega A \cos(\omega t + \phi)\] This velocity function is harmonic and repeats identically with time period \(T = \frac{2\pi}{\omega}\), making the velocity periodic.</p>
+<p><strong>Step 4: Check and Final Conclusion</strong><br />The true statements are that the force acting is directly proportional to displacement from the mean position and opposite to it, the motion is periodic, and the velocity is periodic.</p>]]></text>
+  </generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>false</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="33.33333" format="html">
+    <text><![CDATA[<p>Force acting is directly proportional to displacement from the mean position and opposite to it.</p>]]></text>
+  </answer>
+  <answer fraction="33.33333" format="html">
+    <text><![CDATA[<p>Motion is periodic.</p>]]></text>
+  </answer>
+  <answer fraction="-50" format="html">
+    <text><![CDATA[<p>Acceleration of the oscillator is constant.</p>]]></text>
+  </answer>
+  <answer fraction="33.33333" format="html">
+    <text><![CDATA[<p>The velocity is periodic.</p>]]></text>
+  </answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>class:class_11</text></tag>
+    <tag><text>chapter:oscillations</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:easy</text></tag>
+    <tag><text>blooms:remember</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:text</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+
+<question type="multichoice">
+  <name><text>NEET_UG_PHYSICS_OSCILLATIONS_MCQ_Q14_16 - Physical quantities from displacement time graph</text></name>
+  <questiontext format="html">
+    <text><![CDATA[<p>The displacement time graph of a particle executing S.H.M. is shown in Fig. 14.5. Which of the following statement is/are true?</p>
+<p><img src="@@PLUGINFILE@@/img-4.jpeg" alt="Fig. 14.5" /></p>]]></text>
+  </questiontext>
+  <generalfeedback format="html">
+    <text><![CDATA[<p><strong>Step 1: Given Data and Curve Analysis</strong><br />The graph represents simple harmonic motion with displacement starting at positive maximum at \(t = 0\):<br />\[x(t) = A \cos(\omega t) = A \cos\left(\frac{2\pi t}{T}\right)\]<br />Velocity is given by \(v(t) = -\omega A \sin\left(\frac{2\pi t}{T}\right)\).<br />Acceleration is given by \(a(t) = -\omega^2 x(t) = -\omega^2 A \cos\left(\frac{2\pi t}{T}\right)\).<br />Restoring force is \(F(t) = -k x(t) = -m\omega^2 x(t)\).</p>
+<p><strong>Step 2: Evaluation at Specific Time Instants</strong><br />At \(t = \frac{T}{4}\):<br />\[x = A \cos\left(\frac{\pi}{2}\right) = 0\]<br />The particle is passing through the mean position, where the magnitude of velocity is maximum: \(|v| = \omega A = v_{\max}\). Hence, the velocity is maximum at \(t = \frac{T}{4}\).<br />At \(t = \frac{T}{2} = \frac{2T}{4}\):<br />\[x = A \cos(\pi) = -A\]<br />The particle is at the negative extreme position. Its velocity is zero, so kinetic energy is zero (\(\text{K.E.} = 0\)), while potential energy is maximum (\(\text{P.E.} = \frac{1}{2}kA^2\)). Thus, potential energy is not equal to kinetic energy at \(t = \frac{T}{2}\).<br />At \(t = \frac{3T}{4}\):<br />\[x = A \cos\left(\frac{3\pi}{2}\right) = 0\]<br />The displacement is zero, so the restoring force \(F = -kx = 0\). Hence, the force is zero at \(t = \frac{3T}{4}\).<br />At \(t = \frac{4T}{4} = T\):<br />\[x = A \cos(2\pi) = A\]<br />The particle is at the positive extreme position, where displacement has maximum magnitude, so the magnitude of acceleration \(|a| = \omega^2 A\) is maximum. Hence, the acceleration is maximum at \(t = \frac{4T}{4}\).</p>
+<p><strong>Step 3: Check and Final Conclusion</strong><br />The true statements are that the force is zero at \(t = \frac{3T}{4}\), the acceleration is maximum at \(t = \frac{4T}{4}\), and the velocity is maximum at \(t = \frac{T}{4}\).</p>]]></text>
+  </generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>false</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="33.33333" format="html">
+    <text><![CDATA[<p>The force is zero at \( t = \frac{3T}{4} \).</p>]]></text>
+  </answer>
+  <answer fraction="33.33333" format="html">
+    <text><![CDATA[<p>The acceleration is maximum at \( t = \frac{4T}{4} \).</p>]]></text>
+  </answer>
+  <answer fraction="33.33333" format="html">
+    <text><![CDATA[<p>The velocity is maximum at \( t = \frac{T}{4} \).</p>]]></text>
+  </answer>
+  <answer fraction="-50" format="html">
+    <text><![CDATA[<p>The P.E. is equal to K.E. of oscillation at \( t = \frac{T}{2} \).</p>]]></text>
+  </answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>class:class_11</text></tag>
+    <tag><text>chapter:oscillations</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:medium</text></tag>
+    <tag><text>blooms:analyze</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:graph</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+
+<question type="multichoice">
+  <name><text>NEET_UG_PHYSICS_OSCILLATIONS_MCQ_Q14_17 - Energy and velocity relationships in simple harmonic motion</text></name>
+  <questiontext format="html">
+    <text><![CDATA[<p>A body is performing S.H.M. Then its</p>]]></text>
+  </questiontext>
+  <generalfeedback format="html">
+    <text><![CDATA[<p><strong>Step 1: Formulae and Energy Relations</strong><br />Let the displacement be \(x(t) = A \sin(\omega t)\), with velocity \(v(t) = v_{\max} \cos(\omega t)\), where \(v_{\max} = \omega A\).<br />The total mechanical energy at any instant is \[E = \frac{1}{2} m \omega^2 A^2\] The kinetic energy is \[K(t) = \frac{1}{2} m v(t)^2 = \frac{1}{2} m v_{\max}^2 \cos^2(\omega t)\] The maximum kinetic energy occurs when \(\cos^2(\omega t) = 1\): \[K_{\max} = \frac{1}{2} m v_{\max}^2 = \frac{1}{2} m \omega^2 A^2\]</p>
+<p><strong>Step 2: Evaluation of Energy Quantities</strong><br />Total energy is constant throughout the motion, so its time average over a cycle is \[\langle E \rangle = E = K_{\max}\] Therefore, the average total energy per cycle is equal to the maximum kinetic energy.<br />The average kinetic energy over a cycle is \[\langle K \rangle = \frac{1}{2} m v_{\max}^2 \langle \cos^2(\omega t) \rangle = \frac{1}{2} m v_{\max}^2 \left(\frac{1}{2}\right) = \frac{1}{2} K_{\max}\] Therefore, the average kinetic energy per cycle is equal to half of the maximum kinetic energy.</p>
+<p><strong>Step 3: Evaluation of Velocity Averages</strong><br />The mean velocity over a complete cycle is the integral over one period: \[\langle v \rangle = \frac{1}{T} \int_0^T v_{\max} \cos(\omega t)\, dt = 0\] Because the particle travels equally in forward and reverse directions over a cycle, the mean velocity is zero, not \(\frac{2}{\pi} v_{\max}\).<br />The root mean square velocity is \[v_{\text{rms}} = \sqrt{\langle v^2 \rangle} = \sqrt{v_{\max}^2 \langle \cos^2(\omega t) \rangle} = \sqrt{\frac{v_{\max}^2}{2}} = \frac{1}{\sqrt{2}} v_{\max}\] Therefore, the root mean square velocity is \(\frac{1}{\sqrt{2}}\) times the maximum velocity.</p>
+<p><strong>Step 4: Check and Final Conclusion</strong><br />The true statements are that the average total energy per cycle is equal to maximum kinetic energy, the average kinetic energy per cycle is equal to half of maximum kinetic energy, and the root mean square velocity is \(\frac{1}{\sqrt{2}}\) times maximum velocity.</p>]]></text>
+  </generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>false</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="33.33333" format="html">
+    <text><![CDATA[<p>average total energy per cycle is equal to its maximum kinetic energy.</p>]]></text>
+  </answer>
+  <answer fraction="33.33333" format="html">
+    <text><![CDATA[<p>average kinetic energy per cycle is equal to half of its maximum kinetic energy.</p>]]></text>
+  </answer>
+  <answer fraction="-50" format="html">
+    <text><![CDATA[<p>mean velocity over a complete cycle is equal to \(\frac{2}{\pi}\) times of its maximum velocity.</p>]]></text>
+  </answer>
+  <answer fraction="33.33333" format="html">
+    <text><![CDATA[<p>root mean square velocity is \(\frac{1}{\sqrt{2}}\) times of its maximum velocity.</p>]]></text>
+  </answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>class:class_11</text></tag>
+    <tag><text>chapter:oscillations</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:medium</text></tag>
+    <tag><text>blooms:understand</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:text</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+
+<question type="multichoice">
+  <name><text>NEET_UG_PHYSICS_OSCILLATIONS_MCQ_Q14_18 - Sign of velocity acceleration and restoring force</text></name>
+  <questiontext format="html">
+    <text><![CDATA[<p>A particle is in linear simple harmonic motion between two points A and B, 10 cm apart (Fig. 14.6). Take the direction from A to B as the +ve direction and choose the correct statements.</p>
+<p><img src="@@PLUGINFILE@@/img-5.jpeg" alt="Fig. 14.6" /></p>
+<p>\[\mathrm{AO} = \mathrm{OB} = 5\mathrm{cm}\]</p>
+<p>\[\mathrm{BC} = 8\mathrm{cm}\]</p>]]></text>
+  </questiontext>
+  <generalfeedback format="html">
+    <text><![CDATA[<p><strong>Step 1: Given Data and Sign Convention</strong><br />Points along the line from right to left are arranged as A, C, O, B.<br />Total path length between extremes: \(\mathrm{AB} = 10\text{ cm}\).<br />Midpoint O is the equilibrium position: \(\mathrm{AO} = \mathrm{OB} = 5\text{ cm}\).<br />Point C lies between O and A: since \(\mathrm{BC} = 8\text{ cm}\) and \(\mathrm{BO} = 5\text{ cm}\), \(\mathrm{OC} = 3\text{ cm}\) (towards A), and \(\mathrm{AC} = 2\text{ cm}\).<br />Convention: The direction from A to B is defined as the positive (+ve) direction. Therefore, the opposite direction from B to A is negative (-ve).</p>
+<p><strong>Step 2: Physics Principles for Direction of Quantities</strong><br />Velocity is positive if the particle travels from A towards B, and negative if it travels from B towards A.<br />Restoring force in simple harmonic motion always acts toward the equilibrium position O: \[F = -kx\] Acceleration has the same direction and sign as the net restoring force: \[a = \frac{F}{m}\]</p>
+<p><strong>Step 3: Analysis of the Scenarios</strong><br />Particle is \(3\text{ cm}\) away from A going towards B:<br />Since the particle is between A and O (at \(2\text{ cm}\) from O on the A side) moving towards B, its velocity is directed toward B, which is positive.<br />Because the particle is on the A side of the mean position O, the restoring force towards O is directed toward B (positive direction). Consequently, the restoring force and acceleration are both positive.<br />Thus, the signs of velocity, acceleration, and force are all positive.<br />Particle at C going towards O:<br />Point C is on the A side of O. Moving from C toward O means traveling toward B, which is the positive direction. Therefore, the velocity of the particle is positive, not negative.<br />Particle is \(4\text{ cm}\) away from B going towards A:<br />The particle is between B and O (at \(1\text{ cm}\) from O on the B side) moving toward A. Moving toward A is in the negative direction, so velocity is negative.<br />Because the particle is on the B side of O, the restoring force towards O is directed toward A, which is the negative direction. Hence, force and acceleration are both negative.<br />Thus, the signs of velocity, acceleration, and force are all negative.<br />Particle at point B:<br />Point B is the negative extreme position. The restoring force is directed towards the equilibrium position O (from B towards A), which is the negative direction. Hence, the acceleration and force on the particle are negative.</p>
+<p><strong>Step 4: Check and Final Conclusion</strong><br />The correct statements are that the sign of velocity, acceleration, and force when the particle is \(3\text{ cm}\) away from A going towards B are positive; the sign of velocity, acceleration, and force when it is \(4\text{ cm}\) away from B going towards A are negative; and the sign of acceleration and force at point B is negative.</p>]]></text>
+  </generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>false</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="33.33333" format="html">
+    <text><![CDATA[<p>The sign of velocity, acceleration and force on the particle when it is \(3\mathrm{cm}\) away from A going towards B are positive.</p>]]></text>
+  </answer>
+  <answer fraction="-50" format="html">
+    <text><![CDATA[<p>The sign of velocity of the particle at C going towards O is negative.</p>]]></text>
+  </answer>
+  <answer fraction="33.33333" format="html">
+    <text><![CDATA[<p>The sign of velocity, acceleration and force on the particle when it is \(4\mathrm{cm}\) away from B going towards A are negative.</p>]]></text>
+  </answer>
+  <answer fraction="33.33333" format="html">
+    <text><![CDATA[<p>The sign of acceleration and force on the particle when it is at point B is negative.</p>]]></text>
+  </answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>class:class_11</text></tag>
+    <tag><text>chapter:oscillations</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:hard</text></tag>
+    <tag><text>blooms:analyze</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:diagram</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>

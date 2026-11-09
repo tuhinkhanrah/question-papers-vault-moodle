@@ -1,0 +1,59 @@
+{
+  "schema_version": 1,
+  "status": "completed",
+  "operation": "full",
+  "source_pdf": "leep101.pdf",
+  "source_sha256": "561a56b8c0d354f2e3c7161b86939bdb832d9179935d35e68e8b2c493d9cd074",
+  "configuration": {
+    "communicator": "AgentSessionBackend",
+    "model_name": "gemini-3.8-flash",
+    "agent_name": "antigravity-preview-09-2026",
+    "agent_type": "antigravity",
+    "bucket_name": null,
+    "ocr_model": "mistral-ocr-latest",
+    "languages": [
+      "english",
+      "hindi"
+    ],
+    "standards": "neet_ug",
+    "tags": "",
+    "page_range": null,
+    "no_instruction_page": false,
+    "instruction_page": 1,
+    "output_format": "xml",
+    "pdf_engine": "html",
+    "batch_size": 5,
+    "verify_online": false,
+    "rules_sha256": "ac4d9c809f092109c95bbaf4968d9f72c09090e161bc6d8a0dfa5ed3679d233b"
+  },
+  "output_file": "leep101_neet_ug_english_hindi.xml",
+  "batch_ids": [
+    "pages_1_5",
+    "pages_6_9"
+  ],
+  "batches": [
+    {
+      "id": "pages_1_5",
+      "status": "completed",
+      "page_start": 1,
+      "page_end": 5,
+      "response_file": "pages_1_5.response.txt",
+      "questions_file": "pages_1_5.xml",
+      "question_count": 7,
+      "error": null,
+      "attempt_count": 1
+    },
+    {
+      "id": "pages_6_9",
+      "status": "completed",
+      "page_start": 6,
+      "page_end": 9,
+      "response_file": "pages_6_9.response.txt",
+      "questions_file": "pages_6_9.xml",
+      "question_count": 0,
+      "error": null,
+      "attempt_count": 1
+    }
+  ],
+  "final_sha256": "ff30b72869f00c2bd6a6ff754da8d9a2ed99da7d4952411e12f1edadf5c24ee9"
+}

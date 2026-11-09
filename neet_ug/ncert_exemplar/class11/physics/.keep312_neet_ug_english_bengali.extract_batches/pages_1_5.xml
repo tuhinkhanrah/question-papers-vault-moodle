@@ -1,0 +1,598 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+<question type="multichoice">
+  <name><text>NEET_UG_PHYSICS_THERMODYNAMICS_MCQ_Q12_1 - Identification of adiabatic process in gas expansion</text></name>
+  <questiontext format="html">
+    <text><![CDATA[
+<p>An ideal gas undergoes four different processes from the same initial state (Fig. 12.1). Four processes are adiabatic, isothermal, isobaric and isochoric. Out of 1, 2, 3 and 4 which one is adiabatic.</p>
+<p><img src="@@PLUGINFILE@@/img-0.jpeg" alt="Figure 12.1" /></p>
+<hr/>
+<p>একটি আদর্শ গ্যাস একই প্রাথমিক অবস্থা থেকে চারটি ভিন্ন প্রক্রিয়ার মধ্য দিয়ে যায় (চিত্র 12.1)। চারটি প্রক্রিয়া হলো রুদ্ধতাপীয় (adiabatic), সমোষ্ণ (isothermal), সমচাপ (isobaric) এবং সমআয়তন (isochoric)। 1, 2, 3 এবং 4-এর মধ্যে কোনটি রুদ্ধতাপীয় প্রক্রিয়া?</p>
+    ]]></text>
+  </questiontext>
+  <generalfeedback format="html">
+    <text><![CDATA[
+<p><strong>Step 1: Given Data and Conditions</strong><br/>
+An ideal gas undergoes four distinct thermodynamic processes starting from the identical initial state \((P_i, V_i)\), labeled 1, 2, 3, and 4 on the \(P - V\) diagram. The processes correspond to isobaric, isothermal, adiabatic, and isochoric expansions/decompressions.</p>
+<p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>
+The working substance is an ideal gas. For gas expansion, volume increases (\(\mathrm{d}V > 0\)). The slope of a process curve on a \(P - V\) diagram is represented by \(\frac{\mathrm{d}P}{\mathrm{d}V}\).</p>
+<p><strong>Step 3: Relevant Formulae and Principles</strong><br/>
+1. Isobaric process: Pressure is constant (\(P = \text{constant}\)), so the slope is:
+\[\left(\frac{\mathrm{d}P}{\mathrm{d}V}\right)_{\text{isobaric}} = 0\]
+2. Isochoric process: Volume is constant (\(V = \text{constant}\)), so the slope is:
+\[\left(\frac{\mathrm{d}P}{\mathrm{d}V}\right)_{\text{isochoric}} \to -\infty\]
+3. Isothermal process: Temperature is constant (\(PV = \text{constant}\)), and differentiating gives:
+\[P\,\mathrm{d}V + V\,\mathrm{d}P = 0 \implies \left(\frac{\mathrm{d}P}{\mathrm{d}V}\right)_{\text{isothermal}} = -\frac{P}{V}\]
+4. Reversible adiabatic process: Follows \(PV^\gamma = \text{constant}\), where \(\gamma = \frac{C_p}{C_v} > 1\). Differentiating gives:
+\[V^\gamma\,\mathrm{d}P + \gamma P V^{\gamma - 1}\,\mathrm{d}V = 0 \implies \left(\frac{\mathrm{d}P}{\mathrm{d}V}\right)_{\text{adiabatic}} = -\gamma \frac{P}{V} = \gamma \left(\frac{\mathrm{d}P}{\mathrm{d}V}\right)_{\text{isothermal}}\]</p>
+<p><strong>Step 4: Step-by-Step Working</strong><br/>
+- Curve 4 is a horizontal line with zero slope, which identifies it as the isobaric process.<br/>
+- Curve 1 is a vertical line with infinite slope, which identifies it as the isochoric process.<br/>
+- Curves 2 and 3 both exhibit negative slopes where pressure decreases as volume increases. Because \(\gamma > 1\), the magnitude of the slope of an adiabatic expansion curve is strictly greater than that of an isothermal curve by a factor of \(\gamma\):
+\[\left|\left(\frac{\mathrm{d}P}{\mathrm{d}V}\right)_{\text{adiabatic}}\right| > \left|\left(\frac{\mathrm{d}P}{\mathrm{d}V}\right)_{\text{isothermal}}\right|\]
+- Hence, the adiabatic curve is steeper and drops more rapidly than the isothermal curve starting from the same point.<br/>
+- Between curves 2 and 3, curve 2 has a steeper slope than curve 3. Consequently, curve 3 represents the isothermal process, and curve 2 represents the adiabatic process.</p>
+<p><strong>Step 5: Check and Final Answer</strong><br/>
+In an adiabatic expansion, the system performs work at the expense of its internal energy without receiving heat from the surroundings, resulting in a temperature drop and therefore a steeper pressure decrease than in an isothermal expansion. Thus, curve 2 correctly represents the adiabatic process.<br/>
+Final Answer: 2</p>
+<hr/>
+<p><strong>ধাপ ১: প্রদত্ত উপাত্ত এবং শর্তাবলী</strong><br/>
+একটি আদর্শ গ্যাস একই প্রাথমিক অবস্থা \((P_i, V_i)\) থেকে চারটি পৃথক তাপগতীয় প্রক্রিয়ার মধ্য দিয়ে যায়, যা \(P - V\) লেখচিত্রে 1, 2, 3 এবং 4 দ্বারা চিহ্নিত। প্রক্রিয়াগুলি হলো সমচাপ, সমোষ্ণ, রুদ্ধতাপীয় এবং সমআয়তন প্রসারণ।</p>
+<p><strong>ধাপ ২: অনুমান এবং চিহ্ন নীতি</strong><br/>
+কার্যকরী পদার্থটি একটি আদর্শ গ্যাস। গ্যাসের প্রসারণে আয়তন বৃদ্ধি পায় (\(\mathrm{d}V > 0\))। \(P - V\) লেখচিত্রে কোনো প্রক্রিয়ার নতি বা ঢাল \(\frac{\mathrm{d}P}{\mathrm{d}V}\) দ্বারা নির্ধারিত হয়।</p>
+<p><strong>ধাপ ৩: প্রাসঙ্গিক সূত্র ও নীতি</strong><br/>
+১. সমচাপ প্রক্রিয়ায়: চাপ ধ্রুবক থাকে (\(P = \text{constant}\)), ফলে নতি:
+\[\left(\frac{\mathrm{d}P}{\mathrm{d}V}\right)_{\text{isobaric}} = 0\]
+২. সমআয়তন প্রক্রিয়ায়: আয়তন ধ্রুবক থাকে (\(V = \text{constant}\)), ফলে নতি:
+\[\left(\frac{\mathrm{d}P}{\mathrm{d}V}\right)_{\text{isochoric}} \to -\infty\]
+৩. সমোষ্ণ প্রক্রিয়ায়: তাপমাত্রা ধ্রুবক থাকে (\(PV = \text{constant}\)), ফলে নতি:
+\[\left(\frac{\mathrm{d}P}{\mathrm{d}V}\right)_{\text{isothermal}} = -\frac{P}{V}\]
+৪. পরাবর্ত রুদ্ধতাপীয় প্রক্রিয়ায়: \(PV^\gamma = \text{constant}\), যেখানে \(\gamma = \frac{C_p}{C_v} > 1\), ফলে নতি:
+\[\left(\frac{\mathrm{d}P}{\mathrm{d}V}\right)_{\text{adiabatic}} = -\gamma \frac{P}{V} = \gamma \left(\frac{\mathrm{d}P}{\mathrm{d}V}\right)_{\text{isothermal}}\]</p>
+<p><strong>ধাপ ৪: ধাপে ধাপে সমাধান</strong><br/>
+- বক্ররেখা 4 হলো শূন্য নতিবিশিষ্ট অনুভূমিক রেখা, যা সমচাপ প্রক্রিয়াকে নির্দেশ করে।<br/>
+- বক্ররেখা 1 হলো অসীম নতিবিশিষ্ট উলম্ব রেখা, যা সমআয়তন প্রক্রিয়াকে নির্দেশ করে।<br/>
+- বক্ররেখা 2 এবং 3 উভয়েরই ঋণাত্মক নতি রয়েছে যেখানে আয়তন বৃদ্ধির সাথে চাপ হ্রাস পায়। যেহেতু \(\gamma > 1\), তাই রুদ্ধতাপীয় প্রসারণ বক্ররেখার নতির মান সমোষ্ণ বক্ররেখার নতির মানের তুলনায় \(\gamma\) গুণ বেশি খাড়া হয়:
+\[\left|\left(\frac{\mathrm{d}P}{\mathrm{d}V}\right)_{\text{adiabatic}}\right| > \left|\left(\frac{\mathrm{d}P}{\mathrm{d}V}\right)_{\text{isothermal}}\right|\]
+- সুতরাং একই প্রাথমিক অবস্থা থেকে রুদ্ধতাপীয় বক্ররেখা সমোষ্ণ বক্ররেখার তুলনায় অধিক খাড়াভাবে নিচে নেমে আসে।<br/>
+- বক্ররেখা 2 এবং 3-এর মধ্যে, বক্ররেখা 2-এর নতি বক্ররেখা 3-এর তুলনায় বেশি খাড়া। অতএব, বক্ররেখা 3 হলো সমোষ্ণ প্রক্রিয়া এবং বক্ররেখা 2 হলো রুদ্ধতাপীয় প্রক্রিয়া।</p>
+<p><strong>ধাপ ৫: যাচাই এবং চূড়ান্ত উত্তর</strong><br/>
+রুদ্ধতাপীয় প্রসারণে গ্যাস পরিবেশ থেকে তাপ গ্রহণ না করে নিজস্ব অভ্যন্তরীণ শক্তির বিনিময়ে কাজ সম্পন্ন করে, যার ফলে তাপমাত্রা হ্রাস পায় এবং সমোষ্ণ প্রক্রিয়ার চেয়ে দ্রুত চাপ হ্রাস পায়। অতএব, বক্ররেখা 2 রুদ্ধতাপীয় প্রক্রিয়াকে নির্দেশ করে।<br/>
+চূড়ান্ত উত্তর: 2</p>
+    ]]></text>
+  </generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>4</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>3</p>]]></text>
+  </answer>
+  <answer fraction="100" format="html">
+    <text><![CDATA[<p>2</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>1</p>]]></text>
+  </answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:bn</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>class:class_11</text></tag>
+    <tag><text>topic:thermodynamics</text></tag>
+    <tag><text>chapter:thermodynamics</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:easy</text></tag>
+    <tag><text>blooms:understand</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:graph</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+<question type="multichoice">
+  <name><text>NEET_UG_PHYSICS_THERMODYNAMICS_MCQ_Q12_2 - Amount of sweat evaporated during jogging exercise</text></name>
+  <questiontext format="html">
+    <text><![CDATA[
+<p>If an average person jogs, he produces \(14.5 \times 10^{3}\text{ cal/min}\). This is removed by the evaporation of sweat. The amount of sweat evaporated per minute (assuming 1 kg requires \(580 \times 10^{3}\text{ cal}\) for evaporation) is</p>
+<hr/>
+<p>একজন সাধারণ ব্যক্তি জগিং করার সময় প্রতি মিনিটে \(14.5 \times 10^{3}\text{ cal/min}\) তাপ উৎপন্ন করে। ঘামের বাষ্পীভবনের মাধ্যমে এই তাপ নির্গত হয়। প্রতি মিনিটে বাষ্পীভূত ঘামের পরিমাণ (ধরে নেওয়া হয়েছে 1 kg ঘামের বাষ্পীভবনের জন্য \(580 \times 10^{3}\text{ cal}\) তাপের প্রয়োজন) হলো</p>
+    ]]></text>
+  </questiontext>
+  <generalfeedback format="html">
+    <text><![CDATA[
+<p><strong>Step 1: Given Data and Conditions</strong><br/>
+- Heat produced during jogging per minute: \(Q = 145 \times 10^{3}\text{ cal/min}\) (expressed in context as \(14.5 \times 10^{4}\text{ cal/min}\)).<br/>
+- Latent heat of vaporization of sweat: \(L = 580 \times 10^{3}\text{ cal/kg}\).<br/>
+- Time interval: \(t = 1\text{ min}\).</p>
+<p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>
+All excess heat generated per minute during jogging is entirely removed through the latent heat required for sweat evaporation, maintaining thermal balance without other heat transfer mechanisms.</p>
+<p><strong>Step 3: Relevant Formulae and Principles</strong><br/>
+The heat \(Q\) absorbed by a mass \(m\) during vaporization is given by:
+\[Q = m L \implies m = \frac{Q}{L}\]</p>
+<p><strong>Step 4: Step-by-Step Working</strong><br/>
+Substitute the values into the formula:
+\[m = \frac{145 \times 10^{3}\text{ cal}}{580 \times 10^{3}\text{ cal/kg}} = \frac{145}{580}\text{ kg}\]
+Simplifying the numerical fraction:
+\[\frac{145}{580} = \frac{1}{4} = 0.25\text{ kg}\]
+Therefore, the mass of sweat evaporated per minute is \(0.25\text{ kg}\).</p>
+<p><strong>Step 5: Check and Final Answer</strong><br/>
+Dimensional analysis confirms that dividing calories by calories per kilogram yields kilograms. The resulting value of \(0.25\text{ kg}\) corresponds to a realistic physiological cooling rate.<br/>
+Final Answer: \(0.25\mathrm{kg}\)</p>
+<hr/>
+<p><strong>ধাপ ১: প্রদত্ত উপাত্ত এবং শর্তাবলী</strong><br/>
+- জগিং করার সময় প্রতি মিনিটে উৎপন্ন তাপ: \(Q = 145 \times 10^{3}\text{ cal/min}\) (বা \(14.5 \times 10^{4}\text{ cal/min}\))।<br/>
+- ঘামের বাষ্পীভবনের লীনতাপ: \(L = 580 \times 10^{3}\text{ cal/kg}\)।<br/>
+- সময় ব্যবধান: \(t = 1\text{ min}\)।</p>
+<p><strong>ধাপ ২: অনুমান এবং চিহ্ন নীতি</strong><br/>
+জগিং করার সময় উৎপন্ন সম্পূর্ণ তাপ ঘামের বাষ্পীভবনের মাধ্যমে অপসারিত হয় এবং দেহের তাপমাত্রা স্থির থাকে।</p>
+<p><strong>ধাপ ৩: প্রাসঙ্গিক সূত্র ও নীতি</strong><br/>
+\(m\) ভরের তরলের বাষ্পীভবনের জন্য প্রয়োজনীয় তাপের সূত্র:
+\[Q = m L \implies m = \frac{Q}{L}\]</p>
+<p><strong>ধাপ ৪: ধাপে ধাপে সমাধান</strong><br/>
+মানগুলি সূত্রে বসিয়ে পাই:
+\[m = \frac{145 \times 10^{3}\text{ cal}}{580 \times 10^{3}\text{ cal/kg}} = \frac{145}{580}\text{ kg}\]
+ভগ্নাংশটি সরলীকরণ করে পাই:
+\[\frac{145}{580} = \frac{1}{4} = 0.25\text{ kg}\]
+সুতরাং, প্রতি মিনিটে বাষ্পীভূত ঘামের পরিমাণ হলো \(0.25\text{ kg}\)।</p>
+<p><strong>ধাপ ৫: যাচাই এবং চূড়ান্ত উত্তর</strong><br/>
+এককের বিশ্লেষণ নিশ্চিত করে যে ফলাফলটি কিলোগ্রামে (\(\text{kg}\)) সঠিক। প্রতি মিনিটে বাষ্পীভূত ঘামের পরিমাণ হলো \(0.25\text{ kg}\)।<br/>
+চূড়ান্ত উত্তর: \(0.25\mathrm{kg}\)</p>
+    ]]></text>
+  </generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="100" format="html">
+    <text><![CDATA[<p>\(0.25\mathrm{kg}\)</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(2.25\mathrm{kg}\)</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(0.05\mathrm{kg}\)</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(0.20\mathrm{kg}\)</p>]]></text>
+  </answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:bn</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>class:class_11</text></tag>
+    <tag><text>topic:thermodynamics</text></tag>
+    <tag><text>chapter:thermodynamics</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:easy</text></tag>
+    <tag><text>blooms:apply</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:text</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+<question type="multichoice">
+  <name><text>NEET_UG_PHYSICS_THERMODYNAMICS_MCQ_Q12_3 - Temperature pressure diagram for isothermal ideal gas</text></name>
+  <questiontext format="html">
+    <text><![CDATA[
+<p>Consider \(P - V\) diagram for an ideal gas shown in Fig. 12.2.</p>
+<p><img src="@@PLUGINFILE@@/img-1.jpeg" alt="Figure 12.2" /></p>
+<p>Out of the following diagrams (Fig. 12.3), which represents the \(T - P\) diagram?</p>
+<p><img src="@@PLUGINFILE@@/img-2.jpeg" alt="Diagram (i)" /></p>
+<p><img src="@@PLUGINFILE@@/img-3.jpeg" alt="Diagram (ii)" /></p>
+<p><img src="@@PLUGINFILE@@/img-4.jpeg" alt="Diagram (iii)" /></p>
+<p><img src="@@PLUGINFILE@@/img-5.jpeg" alt="Diagram (iv)" /></p>
+<hr/>
+<p>চিত্র 12.2-এ প্রদর্শিত একটি আদর্শ গ্যাসের \(P - V\) লেখচিত্রটি বিবেচনা করো।</p>
+<p>নিম্নলিখিত চিত্রগুলির (চিত্র 12.3) মধ্যে কোনটি \(T - P\) লেখচিত্রটিকে সঠিকভাবে উপস্থাপন করে?</p>
+    ]]></text>
+  </questiontext>
+  <generalfeedback format="html">
+    <text><![CDATA[
+<p><strong>Step 1: Given Data and Conditions</strong><br/>
+The given \(P - V\) diagram depicts an expansion process from state 1 to state 2 governed by the relation:
+\[P = \frac{\text{Constant}}{V}\]
+At state 1, the gas has higher pressure \(P_1\) and smaller volume \(V_1\).<br/>
+At state 2, the gas has lower pressure \(P_2\) and larger volume \(V_2\) (\(P_1 > P_2\) and \(V_2 > V_1\)).</p>
+<p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>
+The working substance is an ideal gas satisfying \(PV = nRT\). In the given \(T - P\) coordinate system, temperature \(T\) is plotted along the vertical axis and pressure \(P\) is plotted along the horizontal axis.</p>
+<p><strong>Step 3: Relevant Formulae and Principles</strong><br/>
+1. From the relation \(P = \frac{\text{Constant}}{V}\), we obtain:
+\[PV = \text{constant}\]
+2. According to the ideal gas equation of state:
+\[PV = nRT \implies nRT = \text{constant}\]
+Since the amount of gas \(n\) is constant, the temperature \(T\) must be constant throughout the process (isothermal process).<br/>
+3. On a graph of \(T\) versus \(P\), a constant temperature corresponds to a horizontal line parallel to the pressure axis (\(P\)-axis).<br/>
+4. During the expansion from state 1 to state 2, the pressure decreases from \(P_1\) to \(P_2\).</p>
+<p><strong>Step 4: Step-by-Step Working</strong><br/>
+- Since the temperature remains constant, the locus of states must be a horizontal line at a fixed value of \(T\).<br/>
+- State 1 is characterized by a higher pressure \(P_1\), so state 1 is positioned farther to the right on the horizontal \(P\)-axis.<br/>
+- State 2 is characterized by a lower pressure \(P_2\), so state 2 is positioned farther to the left on the horizontal \(P\)-axis.<br/>
+- Therefore, the process line must be horizontal, starting from state 1 on the right and terminating at state 2 on the left.<br/>
+- Evaluating the given diagrams:
+  - Diagram (i) shows a straight line with a positive slope passing through the origin (\(T \propto P\), representing an isochoric process).
+  - Diagram (ii) shows a vertical line representing a constant pressure process (isobaric process).
+  - Diagram (iii) shows a horizontal line at constant temperature with state 1 at a higher pressure and state 2 at a lower pressure.
+  - Diagram (iv) shows a horizontal line where state 1 is incorrectly placed at lower pressure and state 2 at higher pressure.<br/>
+- Thus, diagram (iii) correctly depicts the \(T - P\) diagram.</p>
+<p><strong>Step 5: Check and Final Answer</strong><br/>
+Because Boyle's law is obeyed (\(PV = \text{constant}\)), temperature is strictly constant and pressure diminishes as the gas expands, which is precisely represented by diagram (iii).<br/>
+Final Answer: (iii)</p>
+<hr/>
+<p><strong>ধাপ ১: প্রদত্ত উপাত্ত এবং শর্তাবলী</strong><br/>
+প্রদত্ত \(P - V\) লেখচিত্রে 1 অবস্থা থেকে 2 অবস্থায় প্রসারণ প্রক্রিয়াটি \(P = \frac{\text{Constant}}{V}\) সমীকরণ দ্বারা নির্দেশিত।<br/>
+1 অবস্থায় গ্যাসের চাপ বেশি (\(P_1\)) এবং আয়তন কম (\(V_1\))।<br/>
+2 অবস্থায় গ্যাসের চাপ কম (\(P_2\)) এবং আয়তন বেশি (\(V_2\))।</p>
+<p><strong>ধাপ ২: অনুমান এবং চিহ্ন নীতি</strong><br/>
+গ্যাসটি একটি আদর্শ গ্যাস এবং \(PV = nRT\) সূত্র মেনে চলে। \(T - P\) লেখচিত্রে উলম্ব অক্ষে তাপমাত্রা \(T\) এবং অনুভূমিক অক্ষে চাপ \(P\) নির্দেশ করা হয়েছে।</p>
+<p><strong>ধাপ ৩: প্রাসঙ্গিক সূত্র ও নীতি</strong><br/>
+১. প্রদত্ত সমীকরণ থেকে পাই:
+\[PV = \text{constant}\]
+২. আদর্শ গ্যাস সমীকরণ অনুসারে:
+\[PV = nRT \implies T = \text{constant}\]
+সুতরাং, প্রক্রিয়াটি একটি সমোষ্ণ (isothermal) প্রক্রিয়া।<br/>
+৩. \(T - P\) লেখচিত্রে \(T\) ধ্রুবক হওয়ায় লেখটি চাপ অক্ষের সমান্তরাল একটি অনুভূমিক সরলরেখা হবে।<br/>
+৪. 1 থেকে 2 অবস্থায় প্রসারণের সময় চাপ হ্রাস পায় (\(P_1 > P_2\))।</p>
+<p><strong>ধাপ ৪: ধাপে ধাপে সমাধান</strong><br/>
+- তাপমাত্রা স্থির থাকায় লেখচিত্রটি অবশ্যই অনুভূমিক হবে।<br/>
+- যেহেতু 1 অবস্থায় চাপ বেশি, তাই 1 বিন্দুটি চাপ অক্ষের ডানদিকে (উচ্চ চাপ) অবস্থিত হবে।<br/>
+- 2 অবস্থায় চাপ কম হওয়ায়, 2 বিন্দুটি চাপ অক্ষের বামদিকে (নিম্ন চাপ) অবস্থিত হবে।<br/>
+- সুতরাং প্রক্রিয়াটি ডানদিক থেকে বামদিকে (1 থেকে 2) অগ্রসর হওয়া একটি অনুভূমিক রেখা।<br/>
+- প্রদত্ত চিত্রগুলি বিশ্লেষণ করলে দেখা যায়:
+  - চিত্র (i) সমআয়তন প্রক্রিয়া নির্দেশ করে (\(T \propto P\))।
+  - চিত্র (ii) সমচাপ প্রক্রিয়া নির্দেশ করে।
+  - চিত্র (iii) স্থির তাপমাত্রায় উচ্চ চাপ (1) থেকে নিম্ন চাপে (2) রূপান্তর নির্দেশ করে।
+  - চিত্র (iv)-এ নিম্ন চাপ থেকে উচ্চ চাপে রূপান্তর ভুলভাবে নির্দেশিত।<br/>
+- অতএব, চিত্র (iii) সঠিকভাবে \(T - P\) লেখচিত্রটিকে উপস্থাপন করে।</p>
+<p><strong>ধাপ ৫: যাচাই এবং চূড়ান্ত উত্তর</strong><br/>
+বয়েলের সূত্র (\(PV = \text{constant}\)) অনুযায়ী তাপমাত্রা ধ্রুবক থাকে এবং প্রসারণে চাপ হ্রাস পায়, যা চিত্র (iii)-এ নিখুঁতভাবে প্রদর্শিত।<br/>
+চূড়ান্ত উত্তর: (iii)</p>
+    ]]></text>
+  </generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>(iv)</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>(ii)</p>]]></text>
+  </answer>
+  <answer fraction="100" format="html">
+    <text><![CDATA[<p>(iii)</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>(i)</p>]]></text>
+  </answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:bn</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>class:class_11</text></tag>
+    <tag><text>topic:thermodynamics</text></tag>
+    <tag><text>chapter:thermodynamics</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:medium</text></tag>
+    <tag><text>blooms:analyze</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:graph</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+<question type="multichoice">
+  <name><text>NEET_UG_PHYSICS_THERMODYNAMICS_MCQ_Q12_4 - Work done by ideal gas in cycle</text></name>
+  <questiontext format="html">
+    <text><![CDATA[
+<p>An ideal gas undergoes cyclic process ABCDA as shown in given \(P - V\) diagram (Fig. 12.4).</p>
+<p><img src="@@PLUGINFILE@@/img-6.jpeg" alt="Figure 12.4" /></p>
+<p>The amount of work done by the gas is</p>
+<hr/>
+<p>চিত্র 12.4-এ প্রদর্শিত \(P - V\) লেখচিত্র অনুযায়ী একটি আদর্শ গ্যাস একটি চক্রীয় প্রক্রিয়া ABCDA সম্পন্ন করে।</p>
+<p>গ্যাসটি দ্বারা কৃতকার্যের পরিমাণ হলো</p>
+    ]]></text>
+  </questiontext>
+  <generalfeedback format="html">
+    <text><![CDATA[
+<p><strong>Step 1: Given Data and Conditions</strong><br/>
+The cyclic process ABCDA is plotted on a \(P - V\) diagram with coordinates:
+- State A: \((V_0, P_0)\)
+- State B: \((3V_0, P_0)\)
+- State C: \((3V_0, 2P_0)\)
+- State D: \((V_0, 2P_0)\)
+The paths are:
+- Path AB: Isobaric expansion from \(V_0\) to \(3V_0\) at constant pressure \(P_0\).
+- Path BC: Isochoric heating from \(P_0\) to \(2P_0\) at constant volume \(3V_0\).
+- Path CD: Isobaric compression from \(3V_0\) to \(V_0\) at constant pressure \(2P_0\).
+- Path DA: Isochoric cooling from \(2P_0\) to \(P_0\) at constant volume \(V_0\).</p>
+<p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>
+Work done by the gas during an expansion (\(\Delta V > 0\)) is positive, and work done on the gas during a compression (\(\Delta V < 0\)) is negative. For a cyclic process, the net work done is the algebraic sum of work done in all four individual paths, which equals the signed area enclosed by the cycle.</p>
+<p><strong>Step 3: Relevant Formulae and Principles</strong><br/>
+Work done along any thermodynamic path is given by:
+\[W = \int P\,\mathrm{d}V\]
+- For an isobaric path (\(P = \text{constant}\)): \(W = P \Delta V = P (V_f - V_i)\)
+- For an isochoric path (\(V = \text{constant}\)): \(W = 0\)</p>
+<p><strong>Step 4: Step-by-Step Working</strong><br/>
+Calculate work done along each path:
+1. Path AB:
+\[W_{\text{AB}} = P_0 (3V_0 - V_0) = P_0 (2V_0) = +2P_0 V_0\]
+2. Path BC:
+\[W_{\text{BC}} = 0\quad (\text{since }\Delta V = 0)\]
+3. Path CD:
+\[W_{\text{CD}} = 2P_0 (V_0 - 3V_0) = 2P_0 (-2V_0) = -4P_0 V_0\]
+4. Path DA:
+\[W_{\text{DA}} = 0\quad (\text{since }\Delta V = 0)\]
+Total net work done by the gas during the complete cycle:
+\[W_{\text{net}} = W_{\text{AB}} + W_{\text{BC}} + W_{\text{CD}} + W_{\text{DA}}\]
+\[W_{\text{net}} = 2P_0 V_0 + 0 - 4P_0 V_0 + 0 = -2P_0 V_0\]</p>
+<p><strong>Step 5: Check and Final Answer</strong><br/>
+The enclosed area of the rectangle is \((2P_0 - P_0)(3V_0 - V_0) = P_0 \times 2V_0 = 2P_0 V_0\). Because the compression takes place at a higher pressure (\(2P_0\)) than the expansion (\(P_0\)), the compression work dominates, making the net work done negative, which is \(-2P_0 V_0\).<br/>
+Final Answer: \(-2P_{0}V_{0}\)</p>
+<hr/>
+<p><strong>ধাপ ১: প্রদত্ত উপাত্ত এবং শর্তাবলী</strong><br/>
+\(P - V\) লেখচিত্রে ABCDA চক্রীয় প্রক্রিয়াটির শীর্ষবিন্দুগুলির স্থানাঙ্ক:
+- A বিন্দু: \((V_0, P_0)\)
+- B বিন্দু: \((3V_0, P_0)\)
+- C বিন্দু: \((3V_0, 2P_0)\)
+- D বিন্দু: \((V_0, 2P_0)\)
+প্রক্রিয়াগুলি হলো:
+- AB অংশ: \(P_0\) স্থির চাপে \(V_0\) থেকে \(3V_0\) আয়তনে সমচাপ প্রসারণ।
+- BC অংশ: \(3V_0\) স্থির আয়তনে \(P_0\) থেকে \(2P_0\) চাপে সমআয়তন পরিবর্তন।
+- CD অংশ: \(2P_0\) স্থির চাপে \(3V_0\) থেকে \(V_0\) আয়তনে সমচাপ সংকোচন।
+- DA অংশ: \(V_0\) স্থির আয়তনে \(2P_0\) থেকে \(P_0\) চাপে সমআয়তন পরিবর্তন।</p>
+<p><strong>ধাপ ২: অনুমান এবং চিহ্ন নীতি</strong><br/>
+গ্যাসের প্রসারণে কৃতকার্য ধনাত্মক এবং সংকোচনে কৃতকার্য ঋণাত্মক। একটি চক্রীয় প্রক্রিয়ায় মোট কৃতকার্য হলো প্রতিটি অংশে সম্পন্ন কার্যের বীজগাণিতিক যোগফল।</p>
+<p><strong>ধাপ ৩: প্রাসঙ্গিক সূত্র ও নীতি</strong><br/>
+যেকোনো তাপগতীয় প্রক্রিয়ায় কৃতকার্য:
+\[W = \int P\,\mathrm{d}V\]
+- সমচাপ প্রক্রিয়ায়: \(W = P \Delta V = P(V_f - V_i)\)
+- সমআয়তন প্রক্রিয়ায়: \(W = 0\)</p>
+<p><strong>ধাপ ৪: ধাপে ধাপে সমাধান</strong><br/>
+প্রতিটি অংশের কার্য গণনা করা হলো:
+১. AB অংশে:
+\[W_{\text{AB}} = P_0 (3V_0 - V_0) = +2P_0 V_0\]
+২. BC অংশে:
+\[W_{\text{BC}} = 0\]
+৩. CD অংশে:
+\[W_{\text{CD}} = 2P_0 (V_0 - 3V_0) = 2P_0 (-2V_0) = -4P_0 V_0\]
+৪. DA অংশে:
+\[W_{\text{DA}} = 0\]
+সম্পূর্ণ চক্রে গ্যাস দ্বারা মোট কৃতকার্য:
+\[W_{\text{net}} = W_{\text{AB}} + W_{\text{BC}} + W_{\text{CD}} + W_{\text{DA}}\]
+\[W_{\text{net}} = 2P_0 V_0 + 0 - 4P_0 V_0 + 0 = -2P_0 V_0\]</p>
+<p><strong>ধাপ ৫: যাচাই এবং চূড়ান্ত উত্তর</strong><br/>
+চক্র দ্বারা আবদ্ধ আয়তক্ষেত্রের ক্ষেত্রফল হলো \(P_0 \times 2V_0 = 2P_0 V_0\)। যেহেতু সংকোচনটি তুলনামূলকভাবে উচ্চ চাপে (\(2P_0\)) সংঘটিত হয়, তাই মোট কৃতকার্য ঋণাত্মক হয়, যার মান \(-2P_0 V_0\)।<br/>
+চূড়ান্ত উত্তর: \(-2P_{0}V_{0}\)</p>
+    ]]></text>
+  </generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(6P_{0}V_{0}\)</p>]]></text>
+  </answer>
+  <answer fraction="100" format="html">
+    <text><![CDATA[<p>\(-2P_{0}V_{0}\)</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(+2P_{0}V_{0}\)</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(+4P_{0}V_{0}\)</p>]]></text>
+  </answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:bn</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>class:class_11</text></tag>
+    <tag><text>topic:thermodynamics</text></tag>
+    <tag><text>chapter:thermodynamics</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:easy</text></tag>
+    <tag><text>blooms:apply</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:graph</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+<question type="multichoice">
+  <name><text>NEET_UG_PHYSICS_THERMODYNAMICS_MCQ_Q12_5 - Ratio of final pressures in two containers</text></name>
+  <questiontext format="html">
+    <text><![CDATA[
+<p>Consider two containers A and B containing identical gases at the same pressure, volume and temperature. The gas in container A is compressed to half of its original volume isothermally while the gas in container B is compressed to half of its original value adiabatically. The ratio of final pressure of gas in B to that of gas in A is</p>
+<hr/>
+<p>একই চাপ, আয়তন এবং তাপমাত্রায় দুটি পাত্র A এবং B-তে সমরূপ গ্যাস রয়েছে। A পাত্রের গ্যাসটিকে সমোষ্ণ প্রক্রিয়ায় তার প্রাথমিক আয়তনের অর্ধেক পরিমাণে সংকুচিত করা হলো, যেখানে B পাত্রের গ্যাসটিকে রুদ্ধতাপীয় প্রক্রিয়ায় তার প্রাথমিক আয়তনের অর্ধেক পরিমাণে সংকুচিত করা হলো। B পাত্রের গ্যাসের চূড়ান্ত চাপের সাথে A পাত্রের গ্যাসের চূড়ান্ত চাপের অনুপাত হলো</p>
+    ]]></text>
+  </questiontext>
+  <generalfeedback format="html">
+    <text><![CDATA[
+<p><strong>Step 1: Given Data and Conditions</strong><br/>
+- Identical ideal gases in containers A and B with identical initial states: pressure \(P_i\), volume \(V_i\), and temperature \(T_i\).<br/>
+- Final volume of both gases: \(V_f = \frac{V_i}{2}\).<br/>
+- Gas in container A undergoes isothermal compression.<br/>
+- Gas in container B undergoes adiabatic compression.<br/>
+- Ratio of specific heats for the gas is \(\gamma\).</p>
+<p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>
+Both gases behave ideally. The processes are quasi-static and reversible. Heat exchange occurs only where specified (none in the adiabatic container).</p>
+<p><strong>Step 3: Relevant Formulae and Principles</strong><br/>
+1. For an isothermal process (constant temperature):
+\[P V = \text{constant} \implies P_{A,f} V_{A,f} = P_i V_i\]
+2. For a reversible adiabatic process:
+\[P V^\gamma = \text{constant} \implies P_{B,f} V_{B,f}^\gamma = P_i V_i^\gamma\]</p>
+<p><strong>Step 4: Step-by-Step Working</strong><br/>
+- For container A (isothermal compression to \(V_f = \frac{V_i}{2}\)):
+\[P_{A,f} \left(\frac{V_i}{2}\right) = P_i V_i \implies P_{A,f} = 2 P_i\]
+- For container B (adiabatic compression to \(V_f = \frac{V_i}{2}\)):
+\[P_{B,f} \left(\frac{V_i}{2}\right)^\gamma = P_i V_i^\gamma \implies P_{B,f} = P_i \left(\frac{V_i}{V_i/2}\right)^\gamma = P_i \cdot 2^\gamma\]
+- Ratio of final pressure in container B to final pressure in container A:
+\[\frac{P_{B,f}}{P_{A,f}} = \frac{P_i \cdot 2^\gamma}{2 P_i} = \frac{2^\gamma}{2^1} = 2^{\gamma - 1}\]</p>
+<p><strong>Step 5: Check and Final Answer</strong><br/>
+Because \(\gamma > 1\), the exponent \(\gamma - 1 > 0\), which means \(2^{\gamma - 1} > 1\). This confirms that adiabatic compression produces a higher final pressure than isothermal compression due to the work done raising the gas temperature. The ratio is \(2^{\gamma - 1}\).<br/>
+Final Answer: \(2^{\gamma - 1}\)</p>
+<hr/>
+<p><strong>ধাপ ১: প্রদত্ত উপাত্ত এবং শর্তাবলী</strong><br/>
+- A এবং B দুটি পাত্রে একই প্রাথমিক অবস্থায় (চাপ \(P_i\), আয়তন \(V_i\), তাপমাত্রা \(T_i\)) সমরূপ আদর্শ গ্যাস রয়েছে।<br/>
+- উভয় পাত্রে চূড়ান্ত আয়তন: \(V_f = \frac{V_i}{2}\)।<br/>
+- A পাত্রে গ্যাসটির সমোষ্ণ সংকোচন ঘটে।<br/>
+- B পাত্রে গ্যাসটির রুদ্ধতাপীয় সংকোচন ঘটে।<br/>
+- গ্যাসের আপেক্ষিক তাপের অনুপাত হলো \(\gamma\)।</p>
+<p><strong>ধাপ ২: অনুমান এবং চিহ্ন নীতি</strong><br/>
+উভয় গ্যাসই আদর্শ আচরণ করে এবং প্রক্রিয়াগুলি পরাবর্ত।</p>
+<p><strong>ধাপ ৩: প্রাসঙ্গিক সূত্র ও নীতি</strong><br/>
+১. সমোষ্ণ প্রক্রিয়ায়:
+\[P V = \text{constant} \implies P_{A,f} V_{A,f} = P_i V_i\]
+২. রুদ্ধতাপীয় প্রক্রিয়ায়:
+\[P V^\gamma = \text{constant} \implies P_{B,f} V_{B,f}^\gamma = P_i V_i^\gamma\]</p>
+<p><strong>ধাপ ৪: ধাপে ধাপে সমাধান</strong><br/>
+- A পাত্রের ক্ষেত্রে (সমোষ্ণ সংকোচন):
+\[P_{A,f} \left(\frac{V_i}{2}\right) = P_i V_i \implies P_{A,f} = 2 P_i\]
+- B পাত্রের ক্ষেত্রে (রুদ্ধতাপীয় সংকোচন):
+\[P_{B,f} \left(\frac{V_i}{2}\right)^\gamma = P_i V_i^\gamma \implies P_{B,f} = P_i \cdot 2^\gamma\]
+- B পাত্রের চূড়ান্ত চাপের সাথে A পাত্রের চূড়ান্ত চাপের অনুপাত:
+\[\frac{P_{B,f}}{P_{A,f}} = \frac{P_i \cdot 2^\gamma}{2 P_i} = 2^{\gamma - 1}\]</p>
+<p><strong>ধাপ ৫: যাচাই এবং চূড়ান্ত উত্তর</strong><br/>
+যেহেতু \(\gamma > 1\), তাই \(2^{\gamma - 1} > 1\), যা নির্দেশ করে যে রুদ্ধতাপীয় সংকোচনে তাপমাত্রা বৃদ্ধির কারণে চাপ সমোষ্ণ প্রক্রিয়ার চেয়ে বেশি বৃদ্ধি পায়। প্রাপ্ত অনুপাতটি হলো \(2^{\gamma - 1}\)।<br/>
+চূড়ান্ত উত্তর: \(2^{\gamma - 1}\)</p>
+    ]]></text>
+  </generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="100" format="html">
+    <text><![CDATA[<p>\(2^{\gamma -1}\)</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(\left(\frac{1}{2}\right)^{\gamma -1}\)</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(\left(\frac{1}{1 - \gamma}\right)^2\)</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(\left(\frac{1}{\gamma - 1}\right)^2\)</p>]]></text>
+  </answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:bn</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>class:class_11</text></tag>
+    <tag><text>topic:thermodynamics</text></tag>
+    <tag><text>chapter:thermodynamics</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:easy</text></tag>
+    <tag><text>blooms:apply</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:text</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+<question type="multichoice">
+  <name><text>NEET_UG_PHYSICS_THERMODYNAMICS_MCQ_Q12_6 - Equilibrium temperature of three copper blocks in contact</text></name>
+  <questiontext format="html">
+    <text><![CDATA[
+<p>Three copper blocks of masses \(M_{1}, M_{2}\) and \(M_{3}\text{ kg}\) respectively are brought into thermal contact till they reach equilibrium. Before contact, they were at \(T_{1}, T_{2}, T_{3}\) (\(T_{1} > T_{2} > T_{3}\)). Assuming there is no heat loss to the surroundings, the equilibrium temperature \(T\) is (\(s\) is specific heat of copper)</p>
+<hr/>
+<p>যথাক্রমে \(M_{1}, M_{2}\) এবং \(M_{3}\text{ kg}\) ভরের তিনটি তামার ব্লককে তাপীয় সংস্পর্শে আনা হলো যতক্ষণ না তারা সাম্যাবস্থায় পৌঁছায়। সংস্পর্শের পূর্বে তাদের তাপমাত্রা ছিল যথাক্রমে \(T_{1}, T_{2}, T_{3}\) (\(T_{1} > T_{2} > T_{3}\))। পরিবেশে কোনো তাপ ক্ষয় না হলে সাম্যাবস্থার তাপমাত্রা \(T\) হবে (\(s\) হলো তামার আপেক্ষিক তাপ)</p>
+    ]]></text>
+  </questiontext>
+  <generalfeedback format="html">
+    <text><![CDATA[
+<p><strong>Step 1: Given Data and Conditions</strong><br/>
+- Masses of the three copper blocks: \(M_1\), \(M_2\), and \(M_3\).<br/>
+- Initial temperatures: \(T_1\), \(T_2\), and \(T_3\) with \(T_1 > T_2 > T_3\).<br/>
+- Specific heat of copper: \(s\) (identical for all three blocks).<br/>
+- Condition: Thermal isolation from the surroundings (no heat loss).</p>
+<p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>
+The blocks form an isolated system. The specific heat capacity \(s\) remains constant across the entire operating temperature range. The final common temperature at thermal equilibrium is \(T\).</p>
+<p><strong>Step 3: Relevant Formulae and Principles</strong><br/>
+By the principle of conservation of energy (principle of calorimetry):
+\[\sum Q = 0 \implies \sum_{i=1}^{3} M_i s (T - T_i) = 0\]</p>
+<p><strong>Step 4: Step-by-Step Working</strong><br/>
+Write out the sum of thermal energy exchanges:
+\[M_1 s (T - T_1) + M_2 s (T - T_2) + M_3 s (T - T_3) = 0\]
+Divide the entire equation by the non-zero specific heat \(s\):
+\[M_1 (T - T_1) + M_2 (T - T_2) + M_3 (T - T_3) = 0\]
+Expand and group terms containing \(T\):
+\[(M_1 + M_2 + M_3) T - (M_1 T_1 + M_2 T_2 + M_3 T_3) = 0\]
+Solving for the equilibrium temperature \(T\):
+\[T = \frac{M_1 T_1 + M_2 T_2 + M_3 T_3}{M_1 + M_2 + M_3}\]</p>
+<p><strong>Step 5: Check and Final Answer</strong><br/>
+The equilibrium temperature is the mass-weighted average of the initial temperatures, independent of the material's specific heat \(s\) since all three blocks are made of the same substance. The expression has units of temperature.<br/>
+Final Answer: \(T = \frac{M_1T_1 + M_2T_2 + M_3T_3}{M_1 + M_2 + M_3}\)</p>
+<hr/>
+<p><strong>ধাপ ১: প্রদত্ত উপাত্ত এবং শর্তাবলী</strong><br/>
+- তিনটি তামার ব্লকের ভর: \(M_1\), \(M_2\) এবং \(M_3\)।<br/>
+- প্রাথমিক তাপমাত্রা: \(T_1\), \(T_2\) এবং \(T_3\) (যেখানে \(T_1 > T_2 > T_3\))।<br/>
+- তামার আপেক্ষিক তাপ: \(s\) (তিনটি ব্লকের জন্যই অভিন্ন)।<br/>
+- শর্ত: পরিবেশে কোনো তাপ ক্ষয় হয় না (বিচ্ছিন্ন সংস্থা)।</p>
+<p><strong>ধাপ ২: অনুমান এবং চিহ্ন নীতি</strong><br/>
+ব্লক তিনটি একটি তাপীয়ভাবে বিচ্ছিন্ন ব্যবস্থা গঠন করে। আপেক্ষিক তাপ \(s\) তাপমাত্রার পরিবর্তনে স্থির থাকে। সাম্যাবস্থায় সাধারণ তাপমাত্রা হলো \(T\)।</p>
+<p><strong>ধাপ ৩: প্রাসঙ্গিক সূত্র ও নীতি</strong><br/>
+ক্যালোরিমিতির মূলনীতি এবং শক্তির সংরক্ষণশীলতা অনুসারে:
+\[\sum Q = 0 \implies \sum_{i=1}^{3} M_i s (T - T_i) = 0\]</p>
+<p><strong>ধাপ ৪: ধাপে ধাপে সমাধান</strong><br/>
+তাপ বিনিময়ের সমীকরণটি লিখলে পাওয়া যায়:
+\[M_1 s (T - T_1) + M_2 s (T - T_2) + M_3 s (T - T_3) = 0\]
+উভয় পক্ষকে অশূন্য আপেক্ষিক তাপ \(s\) দিয়ে ভাগ করে পাই:
+\[M_1 (T - T_1) + M_2 (T - T_2) + M_3 (T - T_3) = 0\]
+পদগুলিকে পুনর্বিন্যাস করে \(T\)-এর মান সমাধান করি:
+\[(M_1 + M_2 + M_3) T = M_1 T_1 + M_2 T_2 + M_3 T_3\]
+\[T = \frac{M_1 T_1 + M_2 T_2 + M_3 T_3}{M_1 + M_2 + M_3}\]</p>
+<p><strong>ধাপ ৫: যাচাই এবং চূড়ান্ত উত্তর</strong><br/>
+যেহেতু তিনটি ব্লকই একই উপাদানের (তামা) তৈরি, তাই আপেক্ষিক তাপ সমীকরণ থেকে প্রশমিত হয় এবং সাম্যাবস্থার তাপমাত্রা ভরের ভারযুক্ত গড় মানের সমান হয়।<br/>
+চূড়ান্ত উত্তর: \(T = \frac{M_1T_1 + M_2T_2 + M_3T_3}{M_1 + M_2 + M_3}\)</p>
+    ]]></text>
+  </generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(T = \frac{T_1 + T_2 + T_3}{3}\)</p>]]></text>
+  </answer>
+  <answer fraction="100" format="html">
+    <text><![CDATA[<p>\(T = \frac{M_1T_1 + M_2T_2 + M_3T_3}{M_1 + M_2 + M_3}\)</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(T = \frac{M_1T_1 + M_2T_2 + M_3T_3}{3(M_1 + M_2 + M_3)}\)</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(T = \frac{M_1T_1s + M_2T_2s + M_3T_3s}{M_1 + M_2 + M_3}\)</p>]]></text>
+  </answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:bn</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>class:class_11</text></tag>
+    <tag><text>topic:thermodynamics</text></tag>
+    <tag><text>chapter:thermodynamics</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:easy</text></tag>
+    <tag><text>blooms:understand</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:text</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+</quiz>

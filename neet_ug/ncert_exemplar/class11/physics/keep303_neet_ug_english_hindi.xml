@@ -1,0 +1,483 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+<question type="multichoice">
+  <name>
+    <text>NEET_UG_PHYSICS_2025_MOTION_IN_A_STRAIGHT_LINE_MCQ_Q01 - Vanishing average velocity over time interval</text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>Among the four graphs, there is only one graph for which average velocity over the time interval \( (0, T) \) can vanish for a suitably chosen \( T \). Which one is it?</p><hr/><p>चारों आलेखों में से केवल एक आलेख ऐसा है जिसके लिए उपयुक्त रूप से चुने गए समयांतराल \( (0, T) \) में औसत वेग शून्य हो सकता है। वह कौन-सा आलेख है?</p>]]></text>
+  </questiontext>
+  <generalfeedback format="html">
+    <text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>We are given four position-time graphs for one-dimensional motion. We need to identify which graph allows the average velocity over the time interval \( (0, T) \) to vanish for a suitably chosen time \( T > 0 \).</p><p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>The motion takes place along a straight line. Position is denoted by \( x(t) \) and time by \( t \). The initial position at \( t = 0 \) is \( x(0) \).</p><p><strong>Step 3: Relevant Formulae and Principles</strong><br/>The average velocity over a time interval \( [0, T] \) is given by:
+\[
+v_{\text{avg}} = \frac{x(T) - x(0)}{T}
+\]
+For the average velocity to vanish:
+\[
+v_{\text{avg}} = 0 \iff x(T) - x(0) = 0 \iff x(T) = x(0)
+\]
+Geometrically, this requires that a horizontal line drawn at the initial position level \( x = x(0) \) intersects the position-time curve at a subsequent time \( t = T > 0 \).</p><p><strong>Step 4: Step-by-Step Working</strong><br/>Analyzing the behavior of the given position-time curves:
+- For a curve where position starts at a positive value, increases to a local peak, and then decreases continuously below the starting position value, the position function is continuous. By the Intermediate Value Theorem, there must exist an instant \( T > 0 \) where the position equals the starting position, \( x(T) = x(0) \).
+- For strictly monotonic curves (either strictly increasing or strictly decreasing), the position never repeats any previously attained value; therefore, \( x(T) \neq x(0) \) for all \( T > 0 \), and the displacement cannot vanish.
+- For a curve that starts negative, crosses the time axis into positive territory, and remains positive without returning to the initial negative position, displacement also cannot vanish.</p><p><strong>Step 5: Check and Final Answer</strong><br/>Only the graph that starts at a positive value, reaches a peak, and then decreases below its initial level satisfies \( x(T) = x(0) \) for a suitably chosen \( T > 0 \), making the average velocity zero.</p><hr/><p><strong>Step 1: दिए गए आँकड़े और स्थितियाँ</strong><br/>एकविमीय गति के लिए चार स्थिति-समय आलेख दिए गए हैं। हमें यह पहचानना है कि किस आलेख के लिए उपयुक्त रूप से चुने गए समय \( T > 0 \) पर समयांतराल \( (0, T) \) में औसत वेग शून्य हो सकता है।</p><p><strong>Step 2: मान्यताएँ और चिह्न परिपाटी</strong><br/>गति एक सरल रेखा के अनुदिश है। स्थिति को \( x(t) \) तथा समय को \( t \) द्वारा दर्शाया गया है। \( t = 0 \) पर प्रारंभिक स्थिति \( x(0) \) है।</p><p><strong>Step 3: प्रासंगिक सूत्र और सिद्धांत</strong><br/>समयांतराल \( [0, T] \) में औसत वेग निम्न सूत्र द्वारा दिया जाता है:
+\[
+v_{\text{avg}} = \frac{x(T) - x(0)}{T}
+\]
+औसत वेग के शून्य होने के लिए:
+\[
+v_{\text{avg}} = 0 \iff x(T) - x(0) = 0 \iff x(T) = x(0)
+\]
+ज्यामितीय रूप से, इसके लिए आवश्यक है कि प्रारंभिक स्थिति स्तर \( x = x(0) \) पर खींची गई क्षैतिज रेखा बाद के समय \( t = T > 0 \) पर स्थिति-समय वक्र को प्रतिच्छेद करे।</p><p><strong>Step 4: चरणबद्ध गणना और व्याख्या</strong><br/>दिए गए स्थिति-समय वक्रों के व्यवहार का विश्लेषण करने पर:
+- जिस वक्र में स्थिति एक धनात्मक मान से प्रारंभ होती है, एक शीर्ष तक बढ़ती है, और फिर प्रारंभिक मान से नीचे लगातार घटती है, उसमें फलन सतत होता है। मध्यवर्ती मान प्रमेय के अनुसार, एक ऐसा समय \( T > 0 \) अवश्य अस्तित्व में होगा जहाँ स्थिति ठीक अपने प्रारंभिक मान पर लौटती है, अर्थात् \( x(T) = x(0) \)।
+- एकदिष्ट रूप से बढ़ने वाले या घटने वाले वक्रों के लिए, स्थिति किसी भी \( T > 0 \) पर अपने प्रारंभिक मान पर कभी नहीं लौटती; अतः विस्थापन कभी शून्य नहीं हो सकता।
+- जो वक्र ऋणात्मक मान से प्रारंभ होकर, धनात्मक क्षेत्र में जाता है और प्रारंभिक ऋणात्मक मान पर लौटे बिना वहीं रहता है, उसमें भी विस्थापन शून्य नहीं हो सकता।</p><p><strong>Step 5: जाँच और अंतिम उत्तर</strong><br/>केवल वही आलेख जिसमें स्थिति धनात्मक मान से शुरू होकर, शीर्ष पर पहुँचती है और फिर प्रारंभिक मान से नीचे गिरती है, उपयुक्त चुने गए \( T > 0 \) पर \( x(T) = x(0) \) की शर्त को पूरा करता है, जिससे औसत वेग शून्य हो जाता है।</p>]]></text>
+  </generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p><img src="@@PLUGINFILE@@/img-0.jpeg" alt="Position-time graph starting negative and leveling off in positive region" /></p>]]></text>
+  
+      <file name="img-0.jpeg" encoding="base64">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</file>
+    </answer>
+  <answer fraction="100" format="html">
+    <text><![CDATA[<p><img src="@@PLUGINFILE@@/img-1.jpeg" alt="Position-time graph starting positive, peaking, and decreasing below initial position" /></p>]]></text>
+  
+      <file name="img-1.jpeg" encoding="base64">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</file>
+    </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p><img src="@@PLUGINFILE@@/img-2.jpeg" alt="Monotonically decreasing position-time graph" /></p>]]></text>
+  
+      <file name="img-2.jpeg" encoding="base64">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</file>
+    </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p><img src="@@PLUGINFILE@@/img-3.jpeg" alt="Monotonically increasing position-time graph" /></p>]]></text>
+  
+      <file name="img-3.jpeg" encoding="base64">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</file>
+    </answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>year:2025</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:hi</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>class:11</text></tag>
+    <tag><text>chapter:motion_in_a_straight_line</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:medium</text></tag>
+    <tag><text>blooms:understand</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:graph</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+<question type="multichoice">
+  <name>
+    <text>NEET_UG_PHYSICS_2025_MOTION_IN_A_STRAIGHT_LINE_MCQ_Q02 - Position velocity and acceleration of descending lift</text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>A lift is coming from 8th floor and is just about to reach 4th floor. Taking ground floor as origin and positive direction upwards for all quantities, which one of the following is correct?</p><hr/><p>एक लिफ्ट 8वीं मंजिल से नीचे आ रही है और 4थी मंजिल पर पहुँचने ही वाली है। भूतल को मूल बिंदु तथा सभी राशियों के लिए ऊर्ध्वाधर ऊपर की दिशा को धनात्मक मानते हुए, निम्नलिखित में से कौन-सा सही है?</p>]]></text>
+  </questiontext>
+  <generalfeedback format="html">
+    <text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>- Origin: Ground floor (\( x = 0 \)).<br/>- Positive direction: Vertically upwards.<br/>- Motion: The lift is descending from the 8th floor toward the 4th floor and is slowing down to stop at the 4th floor.</p><p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>- Upwards is positive (\(+x\)), so downwards is negative (\(-x\)).<br/>- Positions above the ground floor have positive coordinate values.</p><p><strong>Step 3: Relevant Formulae and Principles</strong><br/>- Position \( x \) indicates the location relative to the origin.<br/>- Velocity \( v = \frac{dx}{dt} \) takes the sign of the direction of motion.<br/>- Acceleration \( a = \frac{dv}{dt} \) describes the rate of change of velocity. For a retarding body, acceleration is oriented opposite to the velocity vector.</p><p><strong>Step 4: Step-by-Step Working</strong><br/>1. Position: Both the 8th and 4th floors lie above the ground floor, so throughout the motion:
+\[
+x > 0
+\]
+2. Velocity: The lift is traveling downward (opposite to the chosen positive direction):
+\[
+v < 0
+\]
+3. Acceleration: The lift is decelerating as it prepares to stop at the 4th floor. Since velocity is downward, the acceleration must be directed upward to decrease the speed:
+\[
+a > 0
+\]</p><p><strong>Step 5: Check and Final Answer</strong><br/>Combining the signs gives \( x > 0 \), \( v < 0 \), and \( a > 0 \).</p><hr/><p><strong>Step 1: दिए गए आँकड़े और स्थितियाँ</strong><br/>- मूल बिंदु: भूतल (\( x = 0 \))।<br/>- धनात्मक दिशा: ऊर्ध्वाधर ऊपर की ओर।<br/>- गति: लिफ्ट 8वीं मंजिल से 4थी मंजिल की ओर नीचे आ रही है तथा रुकने के लिए मंदित हो रही है।</p><p><strong>Step 2: मान्यताएँ और चिह्न परिपाटी</strong><br/>- ऊपर की दिशा धनात्मक (\(+x\)) है, अतः नीचे की दिशा ऋणात्मक (\(-x\)) होगी।<br/>- भूतल से ऊपर की स्थितियाँ धनात्मक निर्देशांक रखती हैं।</p><p><strong>Step 3: प्रासंगिक सूत्र और सिद्धांत</strong><br/>- स्थिति \( x \) मूल बिंदु के सापेक्ष स्थान दर्शाती है।<br/>- वेग \( v = \frac{dx}{dt} \) की दिशा गति की दिशा के समान होती है।<br/>- त्वरण \( a = \frac{dv}{dt} \) वेग परिवर्तन की दर को व्यक्त करता है। मंदित गति में त्वरण की दिशा वेग के विपरीत होती है।</p><p><strong>Step 4: चरणबद्ध गणना और व्याख्या</strong><br/>1. स्थिति: 8वीं और 4थी दोनों मंजिलें भूतल से ऊपर स्थित हैं, अतः इस गति के दौरान:
+\[
+x > 0
+\]
+2. वेग: लिफ्ट नीचे की ओर जा रही है (चुनी गई धनात्मक दिशा के विपरीत):
+\[
+v < 0
+\]
+3. त्वरण: लिफ्ट 4थी मंजिल पर रुकने के लिए धीमी हो रही है। नीचे की ओर वेग होने के कारण, चाल को घटाने के लिए त्वरण ऊपर की ओर (धनात्मक दिशा में) होना चाहिए:
+\[
+a > 0
+\]</p><p><strong>Step 5: जाँच और अंतिम उत्तर</strong><br/>चिह्नों को संयोजित करने पर सही संबंध \( x > 0 \), \( v < 0 \), तथा \( a > 0 \) प्राप्त होता है।</p>]]></text>
+  </generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\( x < 0, \; v < 0, \; a > 0 \)</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\( x > 0, \; v < 0, \; a < 0 \)</p>]]></text>
+  </answer>
+  <answer fraction="100" format="html">
+    <text><![CDATA[<p>\( x > 0, \; v < 0, \; a > 0 \)</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\( x > 0, \; v > 0, \; a < 0 \)</p>]]></text>
+  </answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>year:2025</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:hi</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>class:11</text></tag>
+    <tag><text>chapter:motion_in_a_straight_line</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:easy</text></tag>
+    <tag><text>blooms:understand</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:text</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+<question type="multichoice">
+  <name>
+    <text>NEET_UG_PHYSICS_2025_MOTION_IN_A_STRAIGHT_LINE_MCQ_Q03 - Range of displacement with bounded speed</text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>In one dimensional motion, instantaneous speed \( v \) satisfies \( 0 \leq v < v_0 \).</p><hr/><p>एकविमीय गति में, तात्कालिक चाल \( v \) संबंध \( 0 \leq v < v_0 \) को संतुष्ट करती है।</p>]]></text>
+  </questiontext>
+  <generalfeedback format="html">
+    <text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>- Motion is one-dimensional.<br/>- Instantaneous speed satisfies: \( 0 \leq v(t) < v_0 \), where \( v_0 > 0 \).<br/>- Time duration considered is \( T \).</p><p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>Let \( v_x(t) \) denote the 1D velocity along the axis of motion. Speed is the absolute magnitude of velocity:
+\[
+v(t) = |v_x(t)|
+\]</p><p><strong>Step 3: Relevant Formulae and Principles</strong><br/>Displacement \( x \) during the time interval \( [0, T] \) is given by:
+\[
+x = \int_0^T v_x(t) \, dt
+\]
+Because \( |v_x(t)| < v_0 \), the velocity at every instant satisfies:
+\[
+-v_0 < v_x(t) < v_0
+\]</p><p><strong>Step 4: Step-by-Step Working</strong><br/>Integrating this continuous inequality over the interval \( [0, T] \):
+\[
+\int_0^T (-v_0) \, dt < \int_0^T v_x(t) \, dt < \int_0^T v_0 \, dt
+\]
+Since \( v_0 \) is constant:
+\[
+-v_0 T < x < v_0 T
+\]
+Evaluating the other physical possibilities:
+- Displacement can be negative if the object moves along the negative direction, so displacement need not be non-negative.
+- The acceleration can be positive, negative, or zero.
+- The particle can reverse direction whenever \( v_x(t) \) changes sign, so turning points may exist.</p><p><strong>Step 5: Check and Final Answer</strong><br/>The displacement \( x \) in time \( T \) strictly satisfies the double inequality \( -v_0 T < x < v_0 T \).</p><hr/><p><strong>Step 1: दिए गए आँकड़े और स्थितियाँ</strong><br/>- गति एकविमीय है।<br/>- तात्कालिक चाल संतुष्ट करती है: \( 0 \leq v(t) < v_0 \), जहाँ \( v_0 > 0 \) है।<br/>- विचाराधीन समय अंतराल \( T \) है।</p><p><strong>Step 2: मान्यताएँ और चिह्न परिपाटी</strong><br/>माना गति के अक्ष के अनुदिश तात्कालिक वेग \( v_x(t) \) है। चाल, वेग का परिमाण होती है:
+\[
+v(t) = |v_x(t)|
+\]</p><p><strong>Step 3: प्रासंगिक सूत्र और सिद्धांत</strong><br/>समय अंतराल \( [0, T] \) में विस्थापन \( x \) निम्न समाकलन द्वारा दिया जाता है:
+\[
+x = \int_0^T v_x(t) \, dt
+\]
+चूँकि \( |v_x(t)| < v_0 \) है, अतः प्रत्येक क्षण पर वेग संतुष्ट करता है:
+\[
+-v_0 < v_x(t) < v_0
+\]</p><p><strong>Step 4: चरणबद्ध गणना और व्याख्या</strong><br/>अंतराल \( [0, T] \) पर इस असमिका का समाकलन करने पर:
+\[
+\int_0^T (-v_0) \, dt < \int_0^T v_x(t) \, dt < \int_0^T v_0 \, dt
+\]
+चूँकि \( v_0 \) नियत है:
+\[
+-v_0 T < x < v_0 T
+\]
+अन्य विकल्पों का परीक्षण:
+- यदि कण ऋणात्मक दिशा में गति करता है तो विस्थापन ऋणात्मक हो सकता है।
+- त्वरण धनात्मक, ऋणात्मक अथवा शून्य कुछ भी हो सकता है।
+- वेग के चिह्न बदलने पर मोड़ बिंदु संभव हैं।</p><p><strong>Step 5: जाँच और अंतिम उत्तर</strong><br/>समय \( T \) में विस्थापन \( x \) अनिवार्य रूप से संबंध \( -v_0 T < x < v_0 T \) को संतुष्ट करता है।</p>]]></text>
+  </generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>The displacement in time \( T \) must always take non-negative values.</p>]]></text>
+  </answer>
+  <answer fraction="100" format="html">
+    <text><![CDATA[<p>The displacement \( x \) in time \( T \) satisfies \( -v_0 T < x < v_0 T \).</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>The acceleration is always a non-negative number.</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>The motion has no turning points.</p>]]></text>
+  </answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>year:2025</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:hi</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>class:11</text></tag>
+    <tag><text>chapter:motion_in_a_straight_line</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:medium</text></tag>
+    <tag><text>blooms:understand</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:text</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+<question type="multichoice">
+  <name>
+    <text>NEET_UG_PHYSICS_2025_MOTION_IN_A_STRAIGHT_LINE_MCQ_Q04 - Average speed for equal distance segments</text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>A vehicle travels half the distance \( L \) with speed \( V_1 \) and the other half with speed \( V_2 \), then its average speed is</p><hr/><p>एक वाहन दूरी \( L \) का आधा भाग चाल \( V_1 \) से और दूसरा आधा भाग चाल \( V_2 \) से तय करता है, तो इसकी औसत चाल है</p>]]></text>
+  </questiontext>
+  <generalfeedback format="html">
+    <text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>- First segment: distance \( d_1 = \frac{L}{2} \) at constant speed \( V_1 \).<br/>- Second segment: distance \( d_2 = \frac{L}{2} \) at constant speed \( V_2 \).<br/>- Total distance is \( L \).</p><p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>The vehicle moves along a straight path without reversing direction. Speeds \( V_1 \) and \( V_2 \) are positive scalars.</p><p><strong>Step 3: Relevant Formulae and Principles</strong><br/>Average speed is defined as total distance divided by total time:
+\[
+v_{\text{avg}} = \frac{d_{\text{total}}}{t_{\text{total}}}
+\]
+where time taken for each section is \( t = \frac{\text{distance}}{\text{speed}} \).</p><p><strong>Step 4: Step-by-Step Working</strong><br/>1. Time taken for the first half:
+\[
+t_1 = \frac{L/2}{V_1} = \frac{L}{2 V_1}
+\]
+2. Time taken for the second half:
+\[
+t_2 = \frac{L/2}{V_2} = \frac{L}{2 V_2}
+\]
+3. Total time taken:
+\[
+t_{\text{total}} = t_1 + t_2 = \frac{L}{2} \left( \frac{1}{V_1} + \frac{1}{V_2} \right) = \frac{L}{2} \left( \frac{V_1 + V_2}{V_1 V_2} \right)
+\]
+4. Average speed:
+\[
+v_{\text{avg}} = \frac{L}{t_{\text{total}}} = \frac{L}{\frac{L}{2} \left( \frac{V_1 + V_2}{V_1 V_2} \right)} = \frac{2 V_1 V_2}{V_1 + V_2}
+\]</p><p><strong>Step 5: Check and Final Answer</strong><br/>Dimensionally, \( [v_{\text{avg}}] = \text{L T}^{-1} \). When \( V_1 = V_2 = V \), \( v_{\text{avg}} = \frac{2 V^2}{2 V} = V \), confirming the harmonic mean relation \( \frac{2 V_1 V_2}{V_1 + V_2} \).</p><hr/><p><strong>Step 1: दिए गए आँकड़े और स्थितियाँ</strong><br/>- पहला खंड: दूरी \( d_1 = \frac{L}{2} \), चाल \( V_1 \)।<br/>- दूसरा खंड: दूरी \( d_2 = \frac{L}{2} \), चाल \( V_2 \)।<br/>- कुल दूरी \( L \) है।</p><p><strong>Step 2: मान्यताएँ और चिह्न परिपाटी</strong><br/>वाहन बिना दिशा बदले एक सीधी रेखा पर गतिमान है। चालें \( V_1 \) और \( V_2 \) धनात्मक अदिश राशियाँ हैं।</p><p><strong>Step 3: प्रासंगिक सूत्र और सिद्धांत</strong><br/>औसत चाल कुल तय की गई दूरी तथा कुल लगे समय का अनुपात होती है:
+\[
+v_{\text{avg}} = \frac{d_{\text{total}}}{t_{\text{total}}}
+\]
+जहाँ प्रत्येक खंड के लिए समय \( t = \frac{\text{दूरी}}{\text{चाल}} \) होता है।</p><p><strong>Step 4: चरणबद्ध गणना और व्याख्या</strong><br/>1. पहले आधे भाग में लगा समय:
+\[
+t_1 = \frac{L/2}{V_1} = \frac{L}{2 V_1}
+\]
+2. दूसरे आधे भाग में लगा समय:
+\[
+t_2 = \frac{L/2}{V_2} = \frac{L}{2 V_2}
+\]
+3. कुल लगा समय:
+\[
+t_{\text{total}} = t_1 + t_2 = \frac{L}{2} \left( \frac{1}{V_1} + \frac{1}{V_2} \right) = \frac{L}{2} \left( \frac{V_1 + V_2}{V_1 V_2} \right)
+\]
+4. औसत चाल:
+\[
+v_{\text{avg}} = \frac{L}{t_{\text{total}}} = \frac{L}{\frac{L}{2} \left( \frac{V_1 + V_2}{V_1 V_2} \right)} = \frac{2 V_1 V_2}{V_1 + V_2}
+\]</p><p><strong>Step 5: जाँच और अंतिम उत्तर</strong><br/>विमीय रूप से \( [v_{\text{avg}}] = \text{L T}^{-1} \) है। यदि \( V_1 = V_2 = V \) हो, तो \( v_{\text{avg}} = V \) प्राप्त होता है। अतः सही औसत चाल \( \frac{2 V_1 V_2}{V_1 + V_2} \) है।</p>]]></text>
+  </generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\( \frac{V_1 + V_2}{2} \)</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\( \frac{2V_1 + V_2}{V_1 + V_2} \)</p>]]></text>
+  </answer>
+  <answer fraction="100" format="html">
+    <text><![CDATA[<p>\( \frac{2V_1V_2}{V_1 + V_2} \)</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\( \frac{L(V_1 + V_2)}{V_1V_2} \)</p>]]></text>
+  </answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>year:2025</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:hi</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>class:11</text></tag>
+    <tag><text>chapter:motion_in_a_straight_line</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:easy</text></tag>
+    <tag><text>blooms:apply</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:equation</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+<question type="multichoice">
+  <name>
+    <text>NEET_UG_PHYSICS_2025_MOTION_IN_A_STRAIGHT_LINE_MCQ_Q05 - Total distance covered by quadratic displacement</text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>The displacement of a particle is given by \( x = (t - 2)^2 \) where \( x \) is in metres and \( t \) in seconds. The distance covered by the particle in first 4 seconds is</p><hr/><p>किसी कण का विस्थापन \( x = (t - 2)^2 \) द्वारा दिया गया है, जहाँ \( x \) मीटर में तथा \( t \) सेकंड में है। प्रथम 4 सेकंड में कण द्वारा तय की गई दूरी है</p>]]></text>
+  </questiontext>
+  <generalfeedback format="html">
+    <text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>- Position equation: \( x(t) = (t - 2)^2 \text{ m} \).<br/>- Time interval: from \( t = 0\text{ s} \) to \( t = 4\text{ s} \).</p><p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>The motion occurs along a straight line. Distance is the total cumulative scalar length of path traveled, taking into account any turning point where the particle reverses its direction.</p><p><strong>Step 3: Relevant Formulae and Principles</strong><br/>Instantaneous velocity is the derivative of position with respect to time:
+\[
+v(t) = \frac{dx}{dt} = 2(t - 2) \text{ m/s}
+\]
+A turning point occurs where \( v(t) = 0 \). The total distance is the sum of the magnitudes of displacement between consecutive turning points and the endpoints:
+\[
+s_{\text{total}} = \sum |x(t_{k+1}) - x(t_k)|
+\]</p><p><strong>Step 4: Step-by-Step Working</strong><br/>1. Find the turning point:
+\[
+v(t) = 2(t - 2) = 0 \implies t = 2\text{ s}
+\]
+Since \( t = 2\text{ s} \) lies within the interval \( [0, 4\text{ s}] \), the particle reverses its direction at \( t = 2\text{ s} \).<br/>
+2. Calculate position at crucial instants:
+- At \( t = 0\text{ s} \): \( x(0) = (0 - 2)^2 = 4\text{ m} \)
+- At \( t = 2\text{ s} \): \( x(2) = (2 - 2)^2 = 0\text{ m} \)
+- At \( t = 4\text{ s} \): \( x(4) = (4 - 2)^2 = 4\text{ m} \)<br/>
+3. Distance traversed in each segment:
+- From \( t = 0 \) to \( t = 2\text{ s} \):
+\[
+s_1 = |x(2) - x(0)| = |0 - 4| = 4\text{ m}
+\]
+- From \( t = 2\text{ s} \) to \( t = 4\text{ s} \):
+\[
+s_2 = |x(4) - x(2)| = |4 - 0| = 4\text{ m}
+\]
+4. Total distance covered:
+\[
+s_{\text{total}} = s_1 + s_2 = 4\text{ m} + 4\text{ m} = 8\text{ m}
+\]</p><p><strong>Step 5: Check and Final Answer</strong><br/>While the net displacement over 4 seconds is \( x(4) - x(0) = 0\text{ m} \), the total distance covered along the path is \( 8\text{ m} \).</p><hr/><p><strong>Step 1: दिए गए आँकड़े और स्थितियाँ</strong><br/>- स्थिति समीकरण: \( x(t) = (t - 2)^2 \text{ m} \)।<br/>- समयांतराल: \( t = 0\text{ s} \) से \( t = 4\text{ s} \) तक।</p><p><strong>Step 2: मान्यताएँ और चिह्न परिपाटी</strong><br/>गति एक सरल रेखा के अनुदिश है। दूरी पथ की कुल वास्तविक लंबाई होती है, जिसमें किसी मोड़ बिंदु पर दिशा परिवर्तन का ध्यान रखना आवश्यक है।</p><p><strong>Step 3: प्रासंगिक सूत्र और सिद्धांत</strong><br/>तात्कालिक वेग, स्थिति का समय के सापेक्ष अवकलज होता है:
+\[
+v(t) = \frac{dx}{dt} = 2(t - 2) \text{ m/s}
+\]
+मोड़ बिंदु पर \( v(t) = 0 \) होता है। कुल दूरी मोड़ बिंदुओं के बीच विस्थापनों के परिमाणों का योग होती है:
+\[
+s_{\text{total}} = \sum |x(t_{k+1}) - x(t_k)|
+\]</p><p><strong>Step 4: चरणबद्ध गणना और व्याख्या</strong><br/>1. मोड़ बिंदु ज्ञात करना:
+\[
+v(t) = 2(t - 2) = 0 \implies t = 2\text{ s}
+\]
+चूँकि \( t = 2\text{ s} \) अंतराल \( [0, 4\text{ s}] \) के भीतर आता है, अतः कण \( t = 2\text{ s} \) पर अपनी गति की दिशा बदलता है।<br/>
+2. विभिन्न समयों पर स्थिति के मान:
+- \( t = 0\text{ s} \) पर: \( x(0) = (0 - 2)^2 = 4\text{ m} \)
+- \( t = 2\text{ s} \) पर: \( x(2) = (2 - 2)^2 = 0\text{ m} \)
+- \( t = 4\text{ s} \) पर: \( x(4) = (4 - 2)^2 = 4\text{ m} \)<br/>
+3. प्रत्येक भाग में तय दूरी:
+- \( t = 0 \) से \( t = 2\text{ s} \) तक:
+\[
+s_1 = |x(2) - x(0)| = |0 - 4| = 4\text{ m}
+\]
+- \( t = 2\text{ s} \) से \( t = 4\text{ s} \) तक:
+\[
+s_2 = |x(4) - x(2)| = |4 - 0| = 4\text{ m}
+\]
+4. तय की गई कुल दूरी:
+\[
+s_{\text{total}} = s_1 + s_2 = 4\text{ m} + 4\text{ m} = 8\text{ m}
+\]</p><p><strong>Step 5: जाँच और अंतिम उत्तर</strong><br/>यद्यपि कुल विस्थापन शून्य है, परंतु कण द्वारा तय की गई कुल दूरी \( 8\text{ m} \) है।</p>]]></text>
+  </generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>4 m</p>]]></text>
+  </answer>
+  <answer fraction="100" format="html">
+    <text><![CDATA[<p>8 m</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>12 m</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>16 m</p>]]></text>
+  </answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>year:2025</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:hi</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>class:11</text></tag>
+    <tag><text>chapter:motion_in_a_straight_line</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:medium</text></tag>
+    <tag><text>blooms:apply</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:equation</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+<question type="multichoice">
+  <name>
+    <text>NEET_UG_PHYSICS_2025_MOTION_IN_A_STRAIGHT_LINE_MCQ_Q06 - Time taken walking on moving escalator</text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>At a metro station, a girl walks up a stationary escalator in time \( t_1 \). If she remains stationary on the escalator, then the escalator takes her up in time \( t_2 \). The time taken by her to walk up on the moving escalator will be</p><hr/><p>एक मेट्रो स्टेशन पर, एक लड़की एक स्थिर एस्केलेटर पर समय \( t_1 \) में चलकर ऊपर चढ़ती है। यदि वह एस्केलेटर पर स्थिर खड़ी रहती है, तो एस्केलेटर उसे समय \( t_2 \) में ऊपर ले जाता है। गतिमान एस्केलेटर पर चलकर ऊपर जाने में उसके द्वारा लिया गया समय होगा</p>]]></text>
+  </questiontext>
+  <generalfeedback format="html">
+    <text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>- Time taken by the girl walking up the stationary escalator: \( t_1 \).<br/>- Time taken by the moving escalator when the girl is stationary: \( t_2 \).<br/>- We need to determine the time \( t \) required when she walks up the moving escalator.</p><p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>Let \( L \) be the length of the escalator. Both the walking motion and the motion of the escalator occur upward along the same line.</p><p><strong>Step 3: Relevant Formulae and Principles</strong><br/>- Walking speed of the girl: \( v_g = \frac{L}{t_1} \)<br/>- Speed of the escalator: \( v_e = \frac{L}{t_2} \)<br/>- Effective speed relative to the ground when walking on the moving escalator in the same direction:
+\[
+v = v_g + v_e
+\]
+- Time taken to ascend length \( L \):
+\[
+t = \frac{L}{v}
+\]</p><p><strong>Step 4: Step-by-Step Working</strong><br/>1. Substitute the individual speeds into the combined speed expression:
+\[
+v = \frac{L}{t_1} + \frac{L}{t_2} = L \left( \frac{1}{t_1} + \frac{1}{t_2} \right) = L \left( \frac{t_1 + t_2}{t_1 t_2} \right)
+\]
+2. Compute the total time \( t \):
+\[
+t = \frac{L}{v} = \frac{L}{L \left( \frac{t_1 + t_2}{t_1 t_2} \right)} = \frac{t_1 t_2}{t_1 + t_2}
+\]</p><p><strong>Step 5: Check and Final Answer</strong><br/>Since \( t = \frac{t_1 t_2}{t_1 + t_2} < \min(t_1, t_2) \), the combined motion requires less time than either process individually, which is physically consistent. The time taken is \( \frac{t_1 t_2}{t_1 + t_2} \).</p><hr/><p><strong>Step 1: दिए गए आँकड़े और स्थितियाँ</strong><br/>- स्थिर एस्केलेटर पर लड़की द्वारा चलकर ऊपर जाने में लगा समय: \( t_1 \)।<br/>- गतिमान एस्केलेटर पर लड़की के स्थिर रहने पर ऊपर जाने में लगा समय: \( t_2 \)।<br/>- गतिमान एस्केलेटर पर चलकर ऊपर जाने में लगा समय \( t \) ज्ञात करना है।</p><p><strong>Step 2: मान्यताएँ और चिह्न परिपाटी</strong><br/>माना एस्केलेटर की लंबाई \( L \) है। लड़की के चलने की गति तथा एस्केलेटर की गति दोनों एक ही दिशा में (ऊपर की ओर) हैं।</p><p><strong>Step 3: प्रासंगिक सूत्र और सिद्धांत</strong><br/>- लड़की की चाल: \( v_g = \frac{L}{t_1} \)<br/>- एस्केलेटर की चाल: \( v_e = \frac{L}{t_2} \)<br/>- गतिमान एस्केलेटर पर उसी दिशा में चलने पर परिणामी चाल:
+\[
+v = v_g + v_e
+\]
+- दूरी \( L \) तय करने में लगा समय:
+\[
+t = \frac{L}{v}
+\]</p><p><strong>Step 4: चरणबद्ध गणना और व्याख्या</strong><br/>1. परिणामी चाल के व्यंजक में मान रखने पर:
+\[
+v = \frac{L}{t_1} + \frac{L}{t_2} = L \left( \frac{1}{t_1} + \frac{1}{t_2} \right) = L \left( \frac{t_1 + t_2}{t_1 t_2} \right)
+\]
+2. कुल समय \( t \) की गणना:
+\[
+t = \frac{L}{v} = \frac{L}{L \left( \frac{t_1 + t_2}{t_1 t_2} \right)} = \frac{t_1 t_2}{t_1 + t_2}
+\]</p><p><strong>Step 5: जाँच और अंतिम उत्तर</strong><br/>चूँकि \( t = \frac{t_1 t_2}{t_1 + t_2} < \min(t_1, t_2) \) है, अतः लगा समय दोनों व्यक्तिगत समयों से कम है, जो भौतिक रूप से पूर्णतः संगत है। आवश्यक समय \( \frac{t_1 t_2}{t_1 + t_2} \) है।</p>]]></text>
+  </generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\( \frac{t_1 + t_2}{2} \)</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\( \frac{t_1 t_2}{t_2 - t_1} \)</p>]]></text>
+  </answer>
+  <answer fraction="100" format="html">
+    <text><![CDATA[<p>\( \frac{t_1 t_2}{t_1 + t_2} \)</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\( t_1 - t_2 \)</p>]]></text>
+  </answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>year:2025</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:hi</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>class:11</text></tag>
+    <tag><text>chapter:motion_in_a_straight_line</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:easy</text></tag>
+    <tag><text>blooms:apply</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:equation</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+</quiz>

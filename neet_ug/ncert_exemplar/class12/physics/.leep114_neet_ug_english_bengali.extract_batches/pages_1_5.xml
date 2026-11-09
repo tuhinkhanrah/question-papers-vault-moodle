@@ -1,0 +1,700 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+<question type="multichoice">
+  <name><text>NEET_UG_PHYSICS_SEMICONDUCTOR_ELECTRONICS_MCQ_Q14_01 - Temperature dependence of semiconductor conductivity</text></name>
+  <questiontext format="html">
+    <text><![CDATA[
+<p>The conductivity of a semiconductor increases with increase in temperature because</p>
+<hr/>
+<p>একটি অর্ধপরিবাহীর উষ্ণতা বৃদ্ধির সাথে সাথে পরিবাহিতা বৃদ্ধি পায়, কারণ</p>
+    ]]></text>
+  </questiontext>
+  <generalfeedback format="html">
+    <text><![CDATA[
+<p><strong>Step 1: Relevant Formulae and Principles</strong><br/>
+The electrical conductivity \(\sigma\) of a semiconductor is given by the relation:
+\[\sigma = e (n_e \mu_e + n_h \mu_h)\]
+where \(e\) is the elementary charge, \(n_e\) and \(n_h\) are the number densities of conduction electrons and holes, and \(\mu_e\) and \(\mu_h\) are their respective mobilities. The carrier mobility depends directly on the relaxation time \(\tau\) according to:
+\[\mu = \frac{e\tau}{m^*}\]
+where \(m^*\) is the effective mass of the charge carrier.</p>
+
+<p><strong>Step 2: Step-by-Step Working and Evaluation</strong><br/>
+When the temperature of an intrinsic or extrinsic semiconductor increases:
+1. Additional covalent bonds break due to thermal agitation, generating electron-hole pairs. The number density of charge carriers \(n\) increases exponentially with temperature according to:
+\[n \propto T^{3/2} \exp\left(-\frac{E_g}{2k_B T}\right)\]
+where \(E_g\) is the forbidden band gap and \(k_B\) is the Boltzmann constant.
+2. Lattice vibrations (phonon scattering) increase, which causes more frequent collisions of charge carriers with the lattice, thereby decreasing the relaxation time \(\tau\).
+3. However, the exponential increase in the carrier concentration \(n\) overwhelmingly dominates over the modest decrease in the relaxation time \(\tau\). As a result, the product \(n\tau\) and hence the overall conductivity \(\sigma\) increases significantly with rising temperature.</p>
+
+<p><strong>Step 3: Check and Final Answer</strong><br/>
+Therefore, the conductivity increases because the number density of current carriers increases, the relaxation time decreases, but the effect of the decrease in relaxation time is much less than the increase in number density.</p>
+<hr/>
+<p><strong>ধাপ ১: প্রাসঙ্গিক সূত্রাবলী ও তত্ত্ব</strong><br/>
+অর্ধপরিবাহীর তড়িৎ পরিবাহিতা \(\sigma\) নিম্নের সমীকরণ দ্বারা প্রকাশিত হয়:
+\[\sigma = e (n_e \mu_e + n_h \mu_h)\]
+এখানে \(e\) হলো মৌলিক আধান, \(n_e\) ও \(n_h\) হলো যথাক্রমে পরিবাহী ইলেকট্রন ও হোলের সংখ্যা ঘনত্ব, এবং \(\mu_e\) ও \(\mu_h\) হলো তাদের সচলতা (mobility)। আধান বাহকের সচলতা শিথিলকরণ সময় (relaxation time) \(\tau\)-এর সাথে সরাসরি সম্পর্কিত:
+\[\mu = \frac{e\tau}{m^*}\]
+যেখানে \(m^*\) হলো আধান বাহকের কার্যকর ভর।</p>
+
+<p><strong>ধাপ ২: পর্যায়ক্রমিক বিশ্লেষণ ও মূল্যায়ন</strong><br/>
+অর্ধপরিবাহীর উষ্ণতা বৃদ্ধি পেলে:
+১. তাপীয় উত্তেজনার ফলে অতিরিক্ত সমযোজী বন্ধন ভেঙে ইলেকট্রন-হোল জোড় উৎপন্ন হয়। ফলে আধান বাহকের সংখ্যা ঘনত্ব \(n\) সূচকীয় হারে (exponentially) বৃদ্ধি পায়:
+\[n \propto T^{3/2} \exp\left(-\frac{E_g}{2k_B T}\right)\]
+যেখানে \(E_g\) হলো শক্তি ব্যবধান এবং \(k_B\) হলো বোল্টজম্যান ধ্রুবক।
+২. ল্যাটিস কম্পন বৃদ্ধি পাওয়ার ফলে আধান বাহকের সংঘর্ষের হার বাড়ে, যার দরুন শিথিলকরণ সময় \(\tau\) কিছুটা হ্রাস পায়।
+৩. তবে শিথিলকরণ সময় হ্রাসের তুলনায় আধান বাহকের সংখ্যা ঘনত্বের সূচকীয় বৃদ্ধি বহুগুণ বেশি প্রভাবশালী হয়। ফলে মোট পরিবাহিতা \(\sigma\) উল্লেখযোগ্যভাবে বৃদ্ধি পায়।</p>
+
+<p><strong>ধাপ ৩: যাচাই ও চূড়ান্ত উত্তর</strong><br/>
+অতএব, পরিবাহিতা বৃদ্ধি পায় কারণ আধান বাহকের সংখ্যা ঘনত্ব বৃদ্ধি পায়, শিথিলকরণ সময় হ্রাস পায়, কিন্তু শিথিলকরণ সময় হ্রাসের প্রভাব সংখ্যা ঘনত্ব বৃদ্ধির প্রভাবের চেয়ে অনেক কম হয়।</p>
+    ]]></text>
+  </generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>number density of free current carriers increases.</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>relaxation time increases.</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>both number density of carriers and relaxation time increase.</p>]]></text>
+  </answer>
+  <answer fraction="100" format="html">
+    <text><![CDATA[<p>number density of current carriers increases, relaxation time decreases but effect of decrease in relaxation time is much less than increase in number density.</p>]]></text>
+  </answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:bn</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>class:class_12</text></tag>
+    <tag><text>topic:semiconductors</text></tag>
+    <tag><text>chapter:semiconductor_electronics</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:easy</text></tag>
+    <tag><text>blooms:understand</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:text</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+<question type="multichoice">
+  <name><text>NEET_UG_PHYSICS_SEMICONDUCTOR_ELECTRONICS_MCQ_Q14_02 - Potential barrier variation with junction bias</text></name>
+  <questiontext format="html">
+    <text><![CDATA[
+<p>In Fig. 14.1, \(V_0\) is the potential barrier across a p-n junction, when no battery is connected across the junction</p>
+<p><img src="@@PLUGINFILE@@/img-0.jpeg" alt="Fig. 14.1" /></p>
+<hr/>
+<p>চিত্র 14.1-এ, যখন সংযোগে কোনো ব্যাটারি যুক্ত থাকে না, তখন একটি p-n সংযোগের বিভব প্রাচীর হলো \(V_0\)।</p>
+    ]]></text>
+  </questiontext>
+  <generalfeedback format="html">
+    <text><![CDATA[
+<p><strong>Step 1: Given Data and Conditions</strong><br/>
+In the diagram, the vertical axis denotes the height of the junction potential barrier. Curve 2 shows the equilibrium built-in barrier potential \(V_0\) in the absence of any external bias voltage. Curves 1 and 3 represent the modified potential barriers when external biases are applied.</p>
+
+<p><strong>Step 2: Assumptions and Physical Principles</strong><br/>
+Under unbiased equilibrium, diffusion of majority carriers across the junction creates a depletion layer of immobile ionized donor and acceptor atoms, establishing a built-in potential barrier of height \(V_0\).
+- When a forward bias \(V_F\) is applied, the external electric field opposes the built-in electric field, narrowing the depletion layer and reducing the effective barrier height to \(V_0 - V_F\).
+- When a reverse bias \(V_R\) is applied, the external electric field is in the same direction as the built-in field, widening the depletion region and raising the effective barrier height to \(V_0 + V_R\).</p>
+
+<p><strong>Step 3: Step-by-Step Working and Evaluation</strong><br/>
+- Comparing the barrier heights: Curve 3 has a lower barrier height than curve 2, which satisfies \(V_{\text{barrier}} < V_0\). This lowering of the potential barrier occurs only in forward bias.
+- Curve 1 has a greater barrier height than curve 2, which satisfies \(V_{\text{barrier}} > V_0\). This elevation of the potential barrier occurs only in reverse bias.</p>
+
+<p><strong>Step 4: Check and Final Answer</strong><br/>
+Thus, curve 3 corresponds to the forward bias of the junction, and curve 1 corresponds to the reverse bias of the junction.</p>
+<hr/>
+<p><strong>ধাপ ১: প্রদত্ত উপাত্ত ও শর্তাবলী</strong><br/>
+চিত্রে উলম্ব অক্ষটি সংযোগের বিভব প্রাচীরের উচ্চতা নির্দেশ করে। রেখাচিত্র 2 কোনো বাহ্যিক সংযোগহীন সাম্যাবস্থায় অন্তর্নির্মিত বিভব প্রাচীর \(V_0\) নির্দেশ করে। রেখাচিত্র 1 এবং 3 বাহ্যিক বায়াস প্রয়োগের ফলে পরিবর্তিত বিভব প্রাচীর নির্দেশ করে।</p>
+
+<p><strong>ধাপ ২: ধারণাগত ও ভৌত নীতি</strong><br/>
+বাহ্যিক বায়াসহীন সাম্যাবস্থায়, নিঃশেষিত অঞ্চলে থাকা স্থির আয়নগুলির কারণে বিভব প্রাচীর \(V_0\) সৃষ্টি হয়।
+- সম্মুখ বায়াস (\(V_F\)) প্রয়োগ করলে বাহ্যিক তড়িৎক্ষেত্র অন্তর্নির্মিত তড়িৎক্ষেত্রের বিপরীতমুখী হয়, ফলে নিঃশেষিত অঞ্চলের বেধ কমে এবং কার্যকর বিভব প্রাচীরের উচ্চতা হ্রাস পেয়ে \(V_0 - V_F\) হয়।
+- বিপরীত বায়াস (\(V_R\)) প্রয়োগ করলে বাহ্যিক তড়িৎক্ষেত্র অন্তর্নির্মিত ক্ষেত্রের একই দিকে কাজ করে, ফলে নিঃশেষিত অঞ্চল প্রশস্ত হয় এবং বিভব প্রাচীরের উচ্চতা বৃদ্ধি পেয়ে \(V_0 + V_R\) হয়।</p>
+
+<p><strong>ধাপ ৩: পর্যায়ক্রমিক বিশ্লেষণ ও মূল্যায়ন</strong><br/>
+- রেখাচিত্র 3-এর উচ্চতা সাম্যাবস্থার রেখাচিত্র 2-এর চেয়ে কম (\(V < V_0\)), যা নির্দেশ করে যে এটি সম্মুখ বায়াসের অনুরূপ।
+- রেখাচিত্র 1-এর উচ্চতা সাম্যাবস্থার রেখাচিত্র 2-এর চেয়ে বেশি (\(V > V_0\)), যা নির্দেশ করে যে এটি বিপরীত বায়াসের অনুরূপ।</p>
+
+<p><strong>ধাপ ৪: যাচাই ও চূড়ান্ত উত্তর</strong><br/>
+সুতরাং, 3 সম্মুখ বায়াস নির্দেশ করে এবং 1 বিপরীত বায়াস নির্দেশ করে।</p>
+    ]]></text>
+  </generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>1 and 3 both correspond to forward bias of junction</p>]]></text>
+  </answer>
+  <answer fraction="100" format="html">
+    <text><![CDATA[<p>3 corresponds to forward bias of junction and 1 corresponds to reverse bias of junction</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>1 corresponds to forward bias and 3 corresponds to reverse bias of junction.</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>3 and 1 both correspond to reverse bias of junction.</p>]]></text>
+  </answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:bn</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>class:class_12</text></tag>
+    <tag><text>topic:semiconductors</text></tag>
+    <tag><text>chapter:semiconductor_electronics</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:easy</text></tag>
+    <tag><text>blooms:understand</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:graph</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+<question type="multichoice">
+  <name><text>NEET_UG_PHYSICS_SEMICONDUCTOR_ELECTRONICS_MCQ_Q14_03 - Current conduction in dual ideal diode network</text></name>
+  <questiontext format="html">
+    <text><![CDATA[
+<p>In Fig. 14.2, assuming the diodes to be ideal,</p>
+<p><img src="@@PLUGINFILE@@/img-1.jpeg" alt="Fig. 14.2" /></p>
+<hr/>
+<p>চিত্র 14.2-এ, ডায়োডগুলিকে আদর্শ ধরে নিলে,</p>
+    ]]></text>
+  </questiontext>
+  <generalfeedback format="html">
+    <text><![CDATA[
+<p><strong>Step 1: Given Data and Circuit Description</strong><br/>
+In the circuit:
+- Terminal A is connected to a fixed potential of \(-10\text{ V}\).
+- Terminal B is connected to ground, so its potential is \(V_B = 0\text{ V}\).
+- Diode \(\mathrm{D}_1\) has its p-side connected towards diode \(\mathrm{D}_2\) and its n-side connected towards resistor \(R\) and terminal A.
+- Diode \(\mathrm{D}_2\) has its p-side connected to ground (terminal B) and its n-side connected towards diode \(\mathrm{D}_1\).</p>
+
+<p><strong>Step 2: Bias Determination of Each Diode</strong><br/>
+1. For diode \(\mathrm{D}_2\): Its anode (p-side) is at ground potential (\(0\text{ V}\)), while the circuit branch connects towards the negative potential of \(-10\text{ V}\). Since the anode is at a higher potential than the cathode, diode \(\mathrm{D}_2\) is forward biased.
+2. For diode \(\mathrm{D}_1\): Its cathode (n-side) is towards \(-10\text{ V}\), but current attempting to flow from B to A requires moving from the cathode of \(\mathrm{D}_1\) towards terminal A; however, conventional current from B cannot pass through \(\mathrm{D}_1\) because \(\mathrm{D}_1\) is oriented to block current in that direction (its cathode is connected towards resistor \(R\)).
+3. Since \(\mathrm{D}_1\) is reverse biased, it acts as an open circuit (infinite resistance). With an open circuit present in the single series path between A and B, no current can circulate between the terminals.</p>
+
+<p><strong>Step 3: Check and Final Answer</strong><br/>
+Therefore, \(\mathrm{D}_2\) is forward biased and \(\mathrm{D}_1\) is reverse biased, and hence no current flows from B to A and vice versa.</p>
+<hr/>
+<p><strong>ধাপ ১: প্রদত্ত উপাত্ত ও বর্তনীর বিন্যাস</strong><br/>
+বর্তনীটিতে:
+- প্রান্ত A এর বিভব \(-10\text{ V}\)।
+- প্রান্ত B ভূ-সংযুক্ত (grounded), অর্থাৎ এর বিভব \(V_B = 0\text{ V}\)।
+- ফলে প্রান্ত B-এর বিভব প্রান্ত A-এর বিভবের চেয়ে বেশি ধনাত্মক (\(0\text{ V} > -10\text{ V}\))।</p>
+
+<p><strong>ধাপ ২: ডায়োডগুলির বায়াস নির্ণয়</strong><br/>
+১. ডায়োড \(\mathrm{D}_2\)-এর p-প্রান্তটি ভূ-সংযুক্ত (\(0\text{ V}\)) এবং n-প্রান্তটি ঋণাত্মক উৎসের দিকে রয়েছে। যেহেতু p-প্রান্ত উচ্চতর বিভবে রয়েছে, তাই \(\mathrm{D}_2\) সম্মুখ বায়াসযুক্ত (forward biased)।
+২. ডায়োড \(\mathrm{D}_1\)-এর অভিমুখ এমন যে এটি B থেকে A অভিমুখে তড়িৎ প্রবাহ রোধ করে, অর্থাৎ \(\mathrm{D}_1\) বিপরীত বায়াসযুক্ত (reverse biased)।
+৩. শ্রেণী সমবায়ে সংযুক্ত এই শাখায় একটি ডায়োড বিপরীত বায়াসে থাকায় এটি একটি খোলা বর্তনী (open circuit) হিসেবে কাজ করে। ফলে A থেকে B বা B থেকে A কোনো অভিমুখেই কোনো তড়িৎ প্রবাহিত হতে পারে না।</p>
+
+<p><strong>ধাপ ৩: যাচাই ও চূড়ান্ত উত্তর</strong><br/>
+অতএব, \(\mathrm{D}_2\) সম্মুখ বায়াসযুক্ত এবং \(\mathrm{D}_1\) বিপরীত বায়াসযুক্ত এবং তাই B থেকে A বা A থেকে B কোনো তড়িৎ প্রবাহিত হবে না।</p>
+    ]]></text>
+  </generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(\mathrm{D}_1\) is forward biased and \(\mathrm{D}_2\) is reverse biased and hence current flows from A to B</p>]]></text>
+  </answer>
+  <answer fraction="100" format="html">
+    <text><![CDATA[<p>\(\mathrm{D}_2\) is forward biased and \(\mathrm{D}_1\) is reverse biased and hence no current flows from B to A and vice versa.</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(\mathrm{D}_1\) and \(\mathrm{D}_2\) are both forward biased and hence current flows from A to B.</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(\mathrm{D}_1\) and \(\mathrm{D}_2\) are both reverse biased and hence no current flows from A to B and vice versa.</p>]]></text>
+  </answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:bn</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>class:class_12</text></tag>
+    <tag><text>topic:semiconductors</text></tag>
+    <tag><text>chapter:semiconductor_electronics</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:medium</text></tag>
+    <tag><text>blooms:analyze</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:circuit</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+<question type="multichoice">
+  <name><text>NEET_UG_PHYSICS_SEMICONDUCTOR_ELECTRONICS_MCQ_Q14_04 - Peak voltage across capacitor in diode rectifier</text></name>
+  <questiontext format="html">
+    <text><![CDATA[
+<p>A \(220\text{ V}\) A.C. supply is connected between points A and B (Fig. 14.3). What will be the potential difference \(V\) across the capacitor?</p>
+<p><img src="@@PLUGINFILE@@/img-2.jpeg" alt="Fig. 14.3" /></p>
+<hr/>
+<p>A এবং B বিন্দুর মধ্যে একটি \(220\text{ V}\) পরিবর্তী প্রবাহ (A.C.) সরবরাহ যুক্ত করা হয়েছে (চিত্র 14.3)। ধারকের দুই প্রান্তের বিভব পার্থক্য \(V\) কত হবে?</p>
+    ]]></text>
+  </questiontext>
+  <generalfeedback format="html">
+    <text><![CDATA[
+<p><strong>Step 1: Given Data and Conditions</strong><br/>
+- Root-mean-square value of input AC supply: \(V_{\text{rms}} = 220\text{ V}\)
+- Circuit components: An ideal p-n junction diode in series with a capacitor \(C\).</p>
+
+<p><strong>Step 2: Principles of Rectification and Capacitor Charging</strong><br/>
+1. The peak voltage \(V_m\) of an AC source is related to the root-mean-square voltage by:
+\[V_m = \sqrt{2} V_{\text{rms}}\]
+2. During the positive half-cycle when terminal A is positive with respect to terminal B, the diode is forward biased and conducts with zero resistance (ideal diode).
+3. The capacitor charges up to the maximum potential of the input cycle, which is \(V_m\).
+4. During the negative half-cycle, terminal A becomes negative relative to B, making the diode reverse biased (open circuit). Since there is no discharge resistor across the capacitor, the stored charge cannot escape, and the capacitor retains the peak voltage \(V_m\).</p>
+
+<p><strong>Step 3: Step-by-Step Working</strong><br/>
+Substitute the given rms voltage:
+\[V = V_m = \sqrt{2} \times 220\text{ V} = 220\sqrt{2}\text{ V}\]
+
+<p><strong>Step 4: Check and Final Answer</strong><br/>
+The potential difference across the capacitor remains steadily at \(220\sqrt{2}\text{ V}\).</p>
+<hr/>
+<p><strong>ধাপ ১: প্রদত্ত উপাত্ত ও শর্তাবলী</strong><br/>
+- পরিবর্তী প্রবাহের কার্যকর মান (rms মান): \(V_{\text{rms}} = 220\text{ V}\)
+- বর্তনীতে একটি আদর্শ p-n সংযোগ ডায়োড একটি ধারক \(C\)-এর সাথে যুক্ত রয়েছে।</p>
+
+<p><strong>ধাপ ২: একমুখীকরণ ও ধারক আহিতকরণের নীতি</strong><br/>
+১. AC উৎসের শীর্ষমান \(V_m\) এবং কার্যকর মান \(V_{\text{rms}}\)-এর সম্পর্ক হলো:
+\[V_m = \sqrt{2} V_{\text{rms}}\]
+২. যখন A প্রান্ত ধনাত্মক অর্ধ-চক্রে থাকে, ডায়োডটি সম্মুখ বায়াসে থাকে এবং শূন্য রোধের মধ্য দিয়ে ধারকটিকে শীর্ষমান \(V_m\) পর্যন্ত আহিত করে।
+৩. ঋণাত্মক অর্ধ-চক্রে ডায়োডটি বিপরীত বায়াসে চলে যায় এবং খোলা বর্তনীর মতো আচরণ করে। ধারকের সাথে সমান্তরালে কোনো ক্ষরণ রোধক না থাকায় ধারকের আধান ক্ষরিত হতে পারে না। ফলে ধারকের প্রান্তীয় বিভব শীর্ষমানে স্থির থাকে।</p>
+
+<p><strong>ধাপ ৩: পর্যায়ক্রমিক সমাধান</strong><br/>
+মান বসিয়ে পাই:
+\[V = V_m = 220\sqrt{2}\text{ V}\]
+
+<p><strong>ধাপ ৪: যাচাই ও চূড়ান্ত উত্তর</strong><br/>
+অতএব, ধারকের দুই প্রান্তের বিভব পার্থক্য হবে \(220\sqrt{2}\text{ V}\)।</p>
+    ]]></text>
+  </generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(220\text{ V}\)</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(110\text{ V}\)</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(0\text{ V}\)</p>]]></text>
+  </answer>
+  <answer fraction="100" format="html">
+    <text><![CDATA[<p>\(220\sqrt{2}\text{ V}\)</p>]]></text>
+  </answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:bn</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>class:class_12</text></tag>
+    <tag><text>topic:semiconductors</text></tag>
+    <tag><text>chapter:semiconductor_electronics</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:medium</text></tag>
+    <tag><text>blooms:apply</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:circuit</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+<question type="multichoice">
+  <name><text>NEET_UG_PHYSICS_SEMICONDUCTOR_ELECTRONICS_MCQ_Q14_05 - Definition of hole vacancy in covalent bond</text></name>
+  <questiontext format="html">
+    <text><![CDATA[
+<p>Hole is</p>
+<hr/>
+<p>হোল হলো</p>
+    ]]></text>
+  </questiontext>
+  <generalfeedback format="html">
+    <text><![CDATA[
+<p><strong>Step 1: Conceptual Principle</strong><br/>
+In semiconductor crystal lattices (such as Silicon or Germanium), atoms achieve stable outer octets by sharing valence electrons to form covalent bonds.</p>
+
+<p><strong>Step 2: Generation of a Hole</strong><br/>
+When thermal energy excites a valence electron sufficiently to break away from its covalent bond, it becomes a free conduction electron. The empty position or missing electron left behind in the broken covalent bond creates a localized deficiency of negative charge. This vacant state behaves as an entity having an effective positive charge of \(+e\) and is defined as a hole.</p>
+
+<p><strong>Step 3: Comparison and Distinction</strong><br/>
+A hole is not an antiparticle of an electron (the antiparticle of an electron is a positron). It is neither a physically new particle nor merely the absence of free electrons; rather, it is a vacancy within a covalent bond in the valence band.</p>
+
+<p><strong>Step 4: Final Conclusion</strong><br/>
+Hence, a hole is fundamentally a vacancy created when an electron leaves a covalent bond.</p>
+<hr/>
+<p><strong>ধাপ ১: ধারণাগত নীতি</strong><br/>
+সিলিকন বা জার্মেনিয়ামের মতো অর্ধপরিবাহী কেলাসে পরমাণুগুলি তাদের যোজ্যতা ইলেকট্রন শেয়ার করে সমযোজী বন্ধন গঠন করে।</p>
+
+<p><strong>ধাপ ২: হোল সৃষ্টির প্রক্রিয়া</strong><br/>
+তাপীয় উত্তেজনার ফলে যখন কোনো যোজ্যতা ইলেকট্রন সমযোজী বন্ধন ছিন্ন করে পরিবাহী ইলেকট্রনে পরিণত হয়, তখন বন্ধনে ইলেকট্রনটির ফেলে যাওয়া স্থানে একটি শূন্যতার সৃষ্টি হয়। এই ইলেকট্রনহীন শূন্যস্থানটি কার্যকরভাবে একটি ধনাত্মক আধানযুক্ত কণার মতো আচরণ করে, যাকে হোল বলা হয়।</p>
+
+<p><strong>ধাপ ৩: তুলনা ও বিশ্লেষণ</strong><br/>
+হোল ইলেকট্রনের প্রতিকণা (অ্যান্টিপার্টিকেল) নয় (ইলেকট্রনের প্রতিকণা হলো পজিট্রন)। এটি কোনো কৃত্রিম কণা নয়, বরং সমযোজী বন্ধনের মধ্যে ইলেকট্রনের একটি শূন্যস্থান।</p>
+
+<p><strong>ধাপ ৪: চূড়ান্ত উত্তর</strong><br/>
+অতএব, হোল হলো সমযোজী বন্ধন থেকে একটি ইলেকট্রন নির্গত হলে সৃষ্ট শূন্যস্থান।</p>
+    ]]></text>
+  </generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>an anti-particle of electron.</p>]]></text>
+  </answer>
+  <answer fraction="100" format="html">
+    <text><![CDATA[<p>a vacancy created when an electron leaves a covalent bond.</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>absence of free electrons.</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>an artificially created particle.</p>]]></text>
+  </answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:bn</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>class:class_12</text></tag>
+    <tag><text>topic:semiconductors</text></tag>
+    <tag><text>chapter:semiconductor_electronics</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:easy</text></tag>
+    <tag><text>blooms:remember</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:text</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+<question type="multichoice">
+  <name><text>NEET_UG_PHYSICS_SEMICONDUCTOR_ELECTRONICS_MCQ_Q14_06 - Rectified output waveform of parallel diode circuit</text></name>
+  <questiontext format="html">
+    <text><![CDATA[
+<p>The output of the given circuit in Fig. 14.4</p>
+<p><img src="@@PLUGINFILE@@/img-3.jpeg" alt="Fig. 14.4" /></p>
+<hr/>
+<p>চিত্র 14.4-এ প্রদত্ত বর্তনীর নির্গম (output)</p>
+    ]]></text>
+  </questiontext>
+  <generalfeedback format="html">
+    <text><![CDATA[
+<p><strong>Step 1: Circuit Configuration</strong><br/>
+The circuit consists of an AC voltage source \(v(t) = v_m \sin\omega t\) connected in series with a resistor. An ideal diode is connected in parallel with the output terminals, with its anode oriented towards the upper line and its cathode towards the lower return line.</p>
+
+<p><strong>Step 2: Circuit Operation During Alternating Half-Cycles</strong><br/>
+1. Positive half-cycle of input voltage (\(v(t) > 0\)):
+- The upper rail is at a positive potential relative to the lower rail.
+- The diode is forward biased. Being an ideal diode, it has zero forward resistance and behaves as a short circuit.
+- The entire input voltage drops across the series resistor, and the output voltage across the diode is zero: \(V_{\text{out}} = 0\).
+2. Negative half-cycle of input voltage (\(v(t) < 0\)):
+- The upper rail is at a negative potential relative to the lower rail.
+- The diode is reverse biased and acts as an open circuit (infinite resistance).
+- No current flows through the series resistor, so there is zero voltage drop across it.
+- Consequently, the full negative input waveform appears across the output terminals: \(V_{\text{out}} = v_m \sin\omega t < 0\).</p>
+
+<p><strong>Step 3: Check and Final Answer</strong><br/>
+The output waveform contains only the negative half-cycles of the alternating input, which behaves like a half-wave rectifier with negative cycles in the output.</p>
+<hr/>
+<p><strong>ধাপ ১: বর্তনীর গঠন</strong><br/>
+বর্তনীটিতে একটি পরিবর্তী ভোল্টেজ উৎস \(v(t) = v_m \sin\omega t\) একটি রোধের সাথে শ্রেণীতে যুক্ত এবং নির্গম প্রান্তদ্বয়ে সমান্তরালে একটি আদর্শ ডায়োড যুক্ত রয়েছে যার অ্যানোড ওপরের তারে এবং ক্যাথোড নিচের তারে যুক্ত।</p>
+
+<p><strong>ধাপ ২: অর্ধ-চক্রভিত্তিক কার্যপ্রণালী</strong><br/>
+১. ধনাত্মক অর্ধ-চক্রে (\(v(t) > 0\)):
+- ওপরের প্রান্ত ধনাত্মক বিভবে থাকে, ফলে ডায়োডটি সম্মুখ বায়াসপ্রাপ্ত হয়।
+- একটি আদর্শ ডায়োড সম্মুখ বায়াসে শর্ট-সার্কিটের মতো আচরণ করে (শূন্য রোধ)।
+- ফলে সম্পূর্ণ ভোল্টেজ শ্রেণী রোধকে পতিত হয় এবং নির্গম ভোল্টেজ শূন্য হয়: \(V_{\text{out}} = 0\)।
+২. ঋণাত্মক অর্ধ-চক্রে (\(v(t) < 0\)):
+- ওপরের প্রান্ত ঋণাত্মক বিভবে থাকে, ফলে ডায়োডটি বিপরীত বায়াসপ্রাপ্ত হয়।
+- বিপরীত বায়াসে আদর্শ ডায়োড উন্মুক্ত বর্তনীর (open circuit) মতো আচরণ করে, ফলে বর্তনীতে কোনো তড়িৎ প্রবাহিত হয় না এবং রোধের দুই প্রান্তে কোনো ভোল্টেজ পতন ঘটে না।
+- অতএব সম্পূর্ণ ঋণাত্মক অর্ধ-চক্রটি নির্গম প্রান্তদ্বয়ে পাওয়া যায়।</p>
+
+<p><strong>ধাপ ৩: যাচাই ও চূড়ান্ত উত্তর</strong><br/>
+সুতরাং, বর্তনীটি এমন একটি অর্ধ-তরঙ্গ একমুখীকারী হিসেবে কাজ করে যার নির্গমে কেবল ঋণাত্মক অর্ধ-চক্রগুলি উপস্থিত থাকে।</p>
+    ]]></text>
+  </generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>would be zero at all times.</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>would be like a half wave rectifier with positive cycles in output.</p>]]></text>
+  </answer>
+  <answer fraction="100" format="html">
+    <text><![CDATA[<p>would be like a half wave rectifier with negative cycles in output.</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>would be like that of a full wave rectifier.</p>]]></text>
+  </answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:bn</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>class:class_12</text></tag>
+    <tag><text>topic:semiconductors</text></tag>
+    <tag><text>chapter:semiconductor_electronics</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:medium</text></tag>
+    <tag><text>blooms:analyze</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:circuit</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+<question type="multichoice">
+  <name><text>NEET_UG_PHYSICS_SEMICONDUCTOR_ELECTRONICS_MCQ_Q14_07 - Potential difference across forward biased diode branch</text></name>
+  <questiontext format="html">
+    <text><![CDATA[
+<p>In the circuit shown in Fig. 14.5, if the diode forward voltage drop is \(0.3\text{ V}\), the voltage difference between A and B is</p>
+<p><img src="@@PLUGINFILE@@/img-4.jpeg" alt="Fig. 14.5" /></p>
+<hr/>
+<p>চিত্র 14.5-এ প্রদর্শিত বর্তনীতে, যদি ডায়োডের সম্মুখ ভোল্টেজ পতন \(0.3\text{ V}\) হয়, তবে A এবং B এর মধ্যে বিভব পার্থক্য হবে</p>
+    ]]></text>
+  </questiontext>
+  <generalfeedback format="html">
+    <text><![CDATA[
+<p><strong>Step 1: Given Data and Conditions</strong><br/>
+- Current entering terminal A: \(I = 0.2\text{ mA} = 0.2 \times 10^{-3}\text{ A}\)
+- First series resistor: \(R_1 = 5\text{ k}\Omega = 5000\,\Omega\)
+- Diode forward voltage drop: \(V_D = 0.3\text{ V}\)
+- Second series resistor: \(R_2 = 5\text{ k}\Omega = 5000\,\Omega\)
+- An open capacitor branch is present between the two resistors.</p>
+
+<p><strong>Step 2: Circuit Principles</strong><br/>
+In direct current (DC) steady-state conditions, a capacitor acts as an open circuit (infinite impedance). Therefore, no current can flow into the capacitor branch, and the entire current \(I = 0.2\text{ mA}\) flows through \(R_1\), passes through the forward-biased diode, and continues through \(R_2\) to terminal B.</p>
+
+<p><strong>Step 3: Step-by-Step Working</strong><br/>
+Applying Kirchhoff's voltage rule along the path from A to B:
+\[V_A - I R_1 - V_D - I R_2 = V_B\]
+Rearranging to find the potential difference \(V_{AB} = V_A - V_B\):
+\[V_{AB} = I R_1 + V_D + I R_2\]
+Substitute the numerical values:
+\[I R_1 = (0.2 \times 10^{-3}\text{ A}) \times 5000\,\Omega = 1.0\text{ V}\]
+\[V_D = 0.3\text{ V}\]
+\[I R_2 = (0.2 \times 10^{-3}\text{ A}) \times 5000\,\Omega = 1.0\text{ V}\]
+Summing the individual drops:
+\[V_{AB} = 1.0\text{ V} + 0.3\text{ V} + 1.0\text{ V} = 2.3\text{ V}\]
+
+<p><strong>Step 4: Check and Final Answer</strong><br/>
+The potential difference between terminals A and B is \(2.3\text{ V}\).</p>
+<hr/>
+<p><strong>ধাপ ১: প্রদত্ত উপাত্ত ও শর্তাবলী</strong><br/>
+- A প্রান্তে প্রবেশকারী প্রবাহ: \(I = 0.2\text{ mA} = 0.2 \times 10^{-3}\text{ A}\)
+- প্রথম রোধক: \(R_1 = 5\text{ k}\Omega = 5000\,\Omega\)
+- ডায়োডের সম্মুখ ভোল্টেজ পতন: \(V_D = 0.3\text{ V}\)
+- দ্বিতীয় রোধক: \(R_2 = 5\text{ k}\Omega = 5000\,\Omega\)</p>
+
+<p><strong>ধাপ ২: বর্তনীর নীতি</strong><br/>
+স্থির সমপ্রবাহ (DC) অবস্থায় ধারক উন্মুক্ত বর্তনীর মতো আচরণ করে, তাই ধারক শাখায় কোনো প্রবাহ যায় না। সম্পূর্ণ \(0.2\text{ mA}\) প্রবাহ \(R_1\), ডায়োড এবং \(R_2\)-এর মধ্য দিয়ে B প্রান্তে যায়।</p>
+
+<p><strong>ধাপ ৩: পর্যায়ক্রমিক সমাধান</strong><br/>
+A থেকে B অভিমুখে কার্শফের ভোল্টেজ সূত্র প্রয়োগ করে পাই:
+\[V_{AB} = I R_1 + V_D + I R_2\]
+মান বসিয়ে পাই:
+\[I R_1 = 0.2 \times 10^{-3} \times 5000 = 1.0\text{ V}\]
+\[V_D = 0.3\text{ V}\]
+\[I R_2 = 0.2 \times 10^{-3} \times 5000 = 1.0\text{ V}\]
+মোট বিভব পার্থক্য:
+\[V_{AB} = 1.0\text{ V} + 0.3\text{ V} + 1.0\text{ V} = 2.3\text{ V}\]
+
+<p><strong>ধাপ ৪: যাচাই ও চূড়ান্ত উত্তর</strong><br/>
+অতএব, A এবং B-এর মধ্যে বিভব পার্থক্য হলো \(2.3\text{ V}\)।</p>
+    ]]></text>
+  </generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(1.3\text{ V}\)</p>]]></text>
+  </answer>
+  <answer fraction="100" format="html">
+    <text><![CDATA[<p>\(2.3\text{ V}\)</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(0\text{ V}\)</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(0.5\text{ V}\)</p>]]></text>
+  </answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:bn</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>class:class_12</text></tag>
+    <tag><text>topic:semiconductors</text></tag>
+    <tag><text>chapter:semiconductor_electronics</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:easy</text></tag>
+    <tag><text>blooms:apply</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:circuit</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+<question type="multichoice">
+  <name><text>NEET_UG_PHYSICS_SEMICONDUCTOR_ELECTRONICS_MCQ_Q14_08 - Truth table evaluation of logic gate combination</text></name>
+  <questiontext format="html">
+    <text><![CDATA[
+<p>Truth table for the given circuit (Fig. 14.6) is</p>
+<p><img src="@@PLUGINFILE@@/img-5.jpeg" alt="Fig. 14.6" /></p>
+<hr/>
+<p>প্রদত্ত বর্তনীর (চিত্র 14.6) জন্য সত্যক সারণীটি হলো</p>
+    ]]></text>
+  </questiontext>
+  <generalfeedback format="html">
+    <text><![CDATA[
+<p><strong>Step 1: Circuit Analysis and Gate Boolean Expressions</strong><br/>
+The inputs to the logic circuit are \(A\) and \(B\).
+1. Upper AND gate has inputs \(A\) and \(B\). Its output is:
+\[C = A \cdot B\]
+2. Input \(A\) passes through an inverter (NOT gate) to give \(\bar{A}\). The lower AND gate receives inputs \(\bar{A}\) and \(B\). Its output is:
+\[D = \bar{A} \cdot B\]
+3. The outputs \(C\) and \(D\) are fed into the final OR gate to produce the overall output \(E\):
+\[E = C + D = (A \cdot B) + (\bar{A} \cdot B) = (A + \bar{A}) \cdot B = 1 \cdot B = B\]</p>
+
+<p><strong>Step 2: Step-by-Step Truth Table Evaluation</strong><br/>
+Evaluating each input combination \((A, B)\):
+- Case 1: When \(A = 0, B = 0\):
+  \[C = 0 \cdot 0 = 0,\quad D = 1 \cdot 0 = 0 \implies E = 0 + 0 = 0\]
+- Case 2: When \(A = 0, B = 1\):
+  \[C = 0 \cdot 1 = 0,\quad D = 1 \cdot 1 = 1 \implies E = 0 + 1 = 1\]
+- Case 3: When \(A = 1, B = 0\):
+  \[C = 1 \cdot 0 = 0,\quad D = 0 \cdot 0 = 0 \implies E = 0 + 0 = 0\]
+- Case 4: When \(A = 1, B = 1\):
+  \[C = 1 \cdot 1 = 1,\quad D = 0 \cdot 1 = 0 \implies E = 1 + 0 = 1\]</p>
+
+<p><strong>Step 3: Check and Final Answer</strong><br/>
+The resulting truth table yields output values of \(E\) corresponding to the rows \((0, 0) \to 0\), \((0, 1) \to 1\), \((1, 0) \to 0\), and \((1, 1) \to 1\), which precisely reproduces the values of input \(B\).</p>
+<hr/>
+<p><strong>ধাপ ১: বর্তনীর বুলিয়ান সমীকরণ নির্ণয়</strong><br/>
+বর্তনীটিতে দুটি মূল ইনপুট \(A\) এবং \(B\) রয়েছে:
+১. ওপরের AND গেটের ইনপুট \(A\) এবং \(B\), ফলে এর আউটপুট:
+\[C = A \cdot B\]
+২. ইনপুট \(A\) একটি NOT গেটের মধ্য দিয়ে গিয়ে \(\bar{A}\) উৎপন্ন করে। নিচের AND গেটের ইনপুট \(\bar{A}\) এবং \(B\), ফলে এর আউটপুট:
+\[D = \bar{A} \cdot B\]
+৩. পরিশেষে \(C\) ও \(D\) একটি OR গেটে যুক্ত হওয়ায় সামগ্রিক আউটপুট \(E\):
+\[E = C + D = (A \cdot B) + (\bar{A} \cdot B) = (A + \bar{A}) B = B\]</p>
+
+<p><strong>ধাপ ২: প্রতিটি ইনপুটের জন্য মান নির্ণয়</strong><br/>
+- যখন \(A = 0, B = 0\): \(C = 0, D = 0 \implies E = 0\)
+- যখন \(A = 0, B = 1\): \(C = 0, D = 1 \implies E = 1\)
+- যখন \(A = 1, B = 0\): \(C = 0, D = 0 \implies E = 0\)
+- যখন \(A = 1, B = 1\): \(C = 1, D = 0 \implies E = 1\)</p>
+
+<p><strong>ধাপ ৩: যাচাই ও চূড়ান্ত উত্তর</strong><br/>
+অতএব, সত্যক সারণীর আউটপুট \(E\)-এর মানগুলি যথাক্রমে \(0, 1, 0, 1\) হবে, যা ইনপুট \(B\)-এর সাথে পুরোপুরি মিলে যায়।</p>
+    ]]></text>
+  </generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="0" format="html">
+    <text><![CDATA[
+<table border="1" cellpadding="4" style="border-collapse: collapse; text-align: center;">
+  <thead>
+    <tr><th>A</th><th>B</th><th>E</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>0</td><td>0</td><td>1</td></tr>
+    <tr><td>0</td><td>1</td><td>0</td></tr>
+    <tr><td>1</td><td>0</td><td>1</td></tr>
+    <tr><td>1</td><td>1</td><td>0</td></tr>
+  </tbody>
+</table>
+    ]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[
+<table border="1" cellpadding="4" style="border-collapse: collapse; text-align: center;">
+  <thead>
+    <tr><th>A</th><th>B</th><th>E</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>0</td><td>0</td><td>1</td></tr>
+    <tr><td>0</td><td>1</td><td>0</td></tr>
+    <tr><td>1</td><td>0</td><td>0</td></tr>
+    <tr><td>1</td><td>1</td><td>1</td></tr>
+  </tbody>
+</table>
+    ]]></text>
+  </answer>
+  <answer fraction="100" format="html">
+    <text><![CDATA[
+<table border="1" cellpadding="4" style="border-collapse: collapse; text-align: center;">
+  <thead>
+    <tr><th>A</th><th>B</th><th>E</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>0</td><td>0</td><td>0</td></tr>
+    <tr><td>0</td><td>1</td><td>1</td></tr>
+    <tr><td>1</td><td>0</td><td>0</td></tr>
+    <tr><td>1</td><td>1</td><td>1</td></tr>
+  </tbody>
+</table>
+    ]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[
+<table border="1" cellpadding="4" style="border-collapse: collapse; text-align: center;">
+  <thead>
+    <tr><th>A</th><th>B</th><th>E</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>0</td><td>0</td><td>0</td></tr>
+    <tr><td>0</td><td>1</td><td>1</td></tr>
+    <tr><td>1</td><td>0</td><td>1</td></tr>
+    <tr><td>1</td><td>1</td><td>0</td></tr>
+  </tbody>
+</table>
+    ]]></text>
+  </answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:bn</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>class:class_12</text></tag>
+    <tag><text>topic:semiconductors</text></tag>
+    <tag><text>chapter:semiconductor_electronics</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:easy</text></tag>
+    <tag><text>blooms:apply</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:circuit</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+</quiz>

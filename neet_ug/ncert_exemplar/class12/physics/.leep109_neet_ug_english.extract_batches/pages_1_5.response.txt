@@ -1,0 +1,655 @@
+<question type="multichoice">
+  <name><text>NEET_UG_PHYSICS_RAYOPTICSANDOPTICALINSTRUMENTS_MCQ_Q01 - Angle of incidence on a prism face with normal emergence</text></name>
+  <questiontext format="html">
+    <text><![CDATA[<p>A ray of light incident at an angle \(\theta\) on a refracting face of a prism emerges from the other face normally. If the angle of the prism is \(5^\circ\) and the prism is made of a material of refractive index \(1.5\), the angle of incidence is</p>]]></text>
+  </questiontext>
+  <generalfeedback format="html">
+    <text><![CDATA[<p><strong>Given Data and Conditions:</strong><br/>Angle of the prism: \(A = 5^\circ\)<br/>Refractive index of the prism material: \(\mu = 1.5\)<br/>The ray emerges from the second refracting face normally, which means the angle of emergence is zero and the internal angle of refraction at that second surface is \(r_2 = 0^\circ\).<br/>The angle of incidence at the first refracting face is \(i = \theta\).</p><p><strong>Assumptions and Sign Conventions:</strong><br/>The prism is in air with refractive index \(\mu_{\text{air}} = 1.0\).<br/>Standard relation connecting the angle of prism and the internal refraction angles holds: \(r_1 + r_2 = A\).<br/>Because the prism angle is small (\(5^\circ\)), the angles of incidence and refraction are small, allowing the small-angle approximation \(\sin x \approx x\) (in radians) or Snell's law in degree form \(\theta \approx \mu r_1\).</p><p><strong>Relevant Formulae and Principles:</strong><br/>Internal refracting angle relation: \[r_1 + r_2 = A\]<br/>Snell's law at the first refracting interface: \[\sin i = \mu \sin r_1\]<br/>For small angles: \[i \approx \mu r_1\]</p><p><strong>Step-by-Step Working:</strong><br/>From normal emergence at the second surface, substitute \(r_2 = 0^\circ\) into the prism relation:<br/>\[r_1 + 0^\circ = 5^\circ \implies r_1 = 5^\circ\]<br/>Applying Snell's law at the first face:<br/>\[\sin \theta = \mu \sin r_1 = 1.5 \sin 5^\circ\]<br/>Using the small-angle approximation:<br/>\[\theta \approx 1.5 \times 5^\circ = 7.5^\circ\]</p><p><strong>Check and Final Answer:</strong><br/>Refraction from air into an optically denser medium bends the ray toward the normal, giving \(\theta > r_1\) (\(7.5^\circ > 5^\circ\)), which satisfies physical consistency.<br/>The angle of incidence is \(7.5^\circ\).</p>]]></text>
+  </generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="100" format="html">
+    <text><![CDATA[<p>\(7.5^\circ\)</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(5^\circ\)</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(15^\circ\)</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(2.5^\circ\)</p>]]></text>
+  </answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>class:class_12</text></tag>
+    <tag><text>chapter:ray_optics_and_optical_instruments</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:easy</text></tag>
+    <tag><text>blooms:apply</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:text</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+
+<question type="multichoice">
+  <name><text>NEET_UG_PHYSICS_RAYOPTICSANDOPTICALINSTRUMENTS_MCQ_Q02 - First colour to emerge from a glass slab under white light</text></name>
+  <questiontext format="html">
+    <text><![CDATA[<p>A short pulse of white light is incident from air to a glass slab at normal incidence. After travelling through the slab, the first colour to emerge is</p>]]></text>
+  </questiontext>
+  <generalfeedback format="html">
+    <text><![CDATA[<p><strong>Conceptual Principle:</strong><br/>The speed of propagation \(v\) of an electromagnetic wave in a material medium depends inversely on the refractive index of the medium, \(v = \frac{c}{\mu}\), where \(c\) is the speed of light in vacuum.<br/>By Cauchy's dispersion formula, the refractive index of glass decreases with increasing wavelength: \(\mu(\lambda) = A + \frac{B}{\lambda^2}\).</p><p><strong>Evaluation:</strong><br/>In the visible spectrum, red light possesses the longest wavelength (approximately \(700\text{ nm}\)), while violet light has the shortest wavelength (approximately \(400\text{ nm}\)).<br/>Consequently, the refractive index of glass is lowest for red light and highest for violet light:<br/>\[\mu_{\text{red}} < \mu_{\text{yellow}} < \mu_{\text{green}} < \mu_{\text{blue}} < \mu_{\text{violet}}\]</p><p><strong>Application:</strong><br/>Because propagation velocity is inversely proportional to refractive index, the velocities inside the glass slab satisfy:<br/>\[v_{\text{red}} > v_{\text{yellow}} > v_{\text{green}} > v_{\text{blue}} > v_{\text{violet}}\]<br/>The time taken to traverse a slab of thickness \(d\) is \(t = \frac{d}{v}\). The colour possessing the highest speed takes the minimum time to travel across the slab.</p><p><strong>Final Conclusion:</strong><br/>Red light propagates fastest through the glass slab and reaches the opposite surface in the shortest transit time.<br/>Therefore, the first colour to emerge is red.</p>]]></text>
+  </generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>blue</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>green</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>violet</p>]]></text>
+  </answer>
+  <answer fraction="100" format="html">
+    <text><![CDATA[<p>red</p>]]></text>
+  </answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>class:class_12</text></tag>
+    <tag><text>chapter:ray_optics_and_optical_instruments</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:easy</text></tag>
+    <tag><text>blooms:understand</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:text</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+
+<question type="multichoice">
+  <name><text>NEET_UG_PHYSICS_RAYOPTICSANDOPTICALINSTRUMENTS_MCQ_Q03 - Motion of image formed by convergent lens as object approaches focus</text></name>
+  <questiontext format="html">
+    <text><![CDATA[<p>An object approaches a convergent lens from the left of the lens with a uniform speed \(5\text{ m/s}\) and stops at the focus. The image</p>]]></text>
+  </questiontext>
+  <generalfeedback format="html">
+    <text><![CDATA[<p><strong>Given Data and Conditions:</strong><br/>Converging (convex) lens with a positive focal length \(f > 0\).<br/>Object approaches from the left at constant speed: \(v_{\text{object}} = \left|\frac{du}{dt}\right| = 5\text{ m/s} = \text{constant}\).<br/>The object travels from a distant position towards the first focal point \(u = -f\).</p><p><strong>Assumptions and Sign Conventions:</strong><br/>Cartesian sign convention: light travels left to right.<br/>The object coordinate \(u\) is negative, with \(u = -x\) where \(x > f\), and \(x\) decreases uniformly with time.<br/>The real image coordinate \(v\) is positive, formed to the right of the lens.</p><p><strong>Relevant Formulae and Principles:</strong><br/>Thin lens formula: \[\frac{1}{v} - \frac{1}{u} = \frac{1}{f} \implies v = \frac{uf}{u+f}\]<br/>Differentiating with respect to time gives the longitudinal speed of the image:<br/>\[-\frac{1}{v^2}\frac{dv}{dt} + \frac{1}{u^2}\frac{du}{dt} = 0 \implies \frac{dv}{dt} = \frac{v^2}{u^2}\frac{du}{dt}\]<br/>Image acceleration is obtained by taking the second derivative with respect to time: \(a = \frac{d^2v}{dt^2}\).</p><p><strong>Step-by-Step Working:</strong><br/>Express the image distance in terms of the object position magnitude \(x\), where \(u = -x\):<br/>\[v = \frac{xf}{x - f}\]<br/>As the object approaches the focal point (\(x \to f\)), the denominator \(x - f\) approaches zero, which makes \(v \to +\infty\). Hence, the image moves away from the lens towards infinity.<br/>The velocity of the image is:<br/>\[v_{\text{image}} = \left(\frac{v}{u}\right)^2 v_{\text{object}} = \left(\frac{f}{x-f}\right)^2 v_{\text{object}}\]<br/>Differentiating the image velocity with respect to time \(t\) (noting \(\frac{dx}{dt} = -v_{\text{object}}\)):<br/>\[a_{\text{image}} = \frac{d}{dt}\left[ \frac{f^2}{(x-f)^2} v_{\text{object}} \\right] = \frac{2f^2}{(x-f)^3} v_{\text{object}}^2\]<br/>The acceleration varies inversely with \((x-f)^3\), continuously increasing as the object gets closer to the focus. Because the rate of change of image velocity depends non-linearly on position and time, the acceleration is strictly non-uniform.</p><p><strong>Check and Final Answer:</strong><br/>The image recedes toward infinity with an increasing, non-constant acceleration.<br/>The image moves away from the lens with a non-uniform acceleration.</p>]]></text>
+  </generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>moves away from the lens with an uniform speed \(5\text{ m/s}\).</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>moves away from the lens with an uniform acceleration.</p>]]></text>
+  </answer>
+  <answer fraction="100" format="html">
+    <text><![CDATA[<p>moves away from the lens with a non-uniform acceleration.</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>moves towards the lens with a non-uniform acceleration.</p>]]></text>
+  </answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>class:class_12</text></tag>
+    <tag><text>chapter:ray_optics_and_optical_instruments</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:medium</text></tag>
+    <tag><text>blooms:analyze</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:text</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+
+<question type="multichoice">
+  <name><text>NEET_UG_PHYSICS_RAYOPTICSANDOPTICALINSTRUMENTS_MCQ_Q04 - Observation of primary and secondary rainbows from an aeroplane</text></name>
+  <questiontext format="html">
+    <text><![CDATA[<p>A passenger in an aeroplane shall</p>]]></text>
+  </questiontext>
+  <generalfeedback format="html">
+    <text><![CDATA[<p><strong>Conceptual Principle:</strong><br/>A rainbow is produced by dispersion, refraction, and internal reflection of sunlight within spherical raindrops.<br/>The rays leaving raindrops towards an observer form circular cones with the apex at the observer's eye, centered along the axis joining the sun and the observer (anti-solar axis).<br/>The characteristic half-angles are approximately \(42^\circ\) for the primary rainbow and \(50^\circ\) for the secondary rainbow.</p><p><strong>Evaluation:</strong><br/>For an observer on the ground, the surface of the Earth cuts off the lower portion of the viewing cone, so only the upper arc of the circle is visible above the horizon.<br/>In an aeroplane flying at high altitude, water droplets and sunlight exist both above and below the line of sight, and the ground does not block the lower portion of the viewing cone.</p><p><strong>Application:</strong><br/>Without the horizon blocking the lower half of the viewing cone, the complete cone of rays reaches the observer's eye from all directions around the anti-solar point.<br/>Both the primary and secondary rainbows are formed symmetrically around the same anti-solar axis, displaying their full circular geometries.</p><p><strong>Final Conclusion:</strong><br/>The passenger has an unobstructed view of the entire geometry of both rainbows.<br/>Therefore, the passenger may see a primary and a secondary rainbow as concentric circles.</p>]]></text>
+  </generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>never see a rainbow.</p>]]></text>
+  </answer>
+  <answer fraction="100" format="html">
+    <text><![CDATA[<p>may see a primary and a secondary rainbow as concentric circles.</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>may see a primary and a secondary rainbow as concentric arcs.</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>shall never see a secondary rainbow.</p>]]></text>
+  </answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>class:class_12</text></tag>
+    <tag><text>chapter:ray_optics_and_optical_instruments</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:easy</text></tag>
+    <tag><text>blooms:understand</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:text</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+
+<question type="multichoice">
+  <name><text>NEET_UG_PHYSICS_RAYOPTICSANDOPTICALINSTRUMENTS_MCQ_Q05 - Total internal reflection comparison across visible colours</text></name>
+  <questiontext format="html">
+    <text><![CDATA[<p>You are given four sources of light each one providing a light of a single colour – red, blue, green and yellow. Suppose the angle of refraction for a beam of yellow light corresponding to a particular angle of incidence at the interface of two media is \(90^\circ\). Which of the following statements is correct if the source of yellow light is replaced with that of other lights without changing the angle of incidence?</p>]]></text>
+  </questiontext>
+  <generalfeedback format="html">
+    <text><![CDATA[<p><strong>Given Data and Conditions:</strong><br/>Four monochromatic light sources: red, yellow, green, and blue.<br/>For yellow light, an incident beam at an angle \(i\) produces an angle of refraction of \(r = 90^\circ\).<br/>This establishes that the angle of incidence equals the critical angle for yellow light: \(i = C_{\text{yellow}}\), with light travelling from a denser medium into a rarer medium.</p><p><strong>Assumptions and Sign Conventions:</strong><br/>Medium 1 has refractive index \(\mu\), medium 2 is rarer (taken as air, \(\mu_2 = 1\)).<br/>Critical angle relation: \(\sin C = \frac{1}{\mu}\).<br/>Total internal reflection occurs if the angle of incidence exceeds the critical angle: \(i > C\).</p><p><strong>Relevant Formulae and Principles:</strong><br/>According to Cauchy's dispersion relation, refractive index varies inversely with wavelength:<br/>\[\lambda_{\text{red}} > \lambda_{\text{yellow}} > \lambda_{\text{green}} > \lambda_{\text{blue}}\]<br/>\[\mu_{\text{red}} < \mu_{\text{yellow}} < \mu_{\text{green}} < \mu_{\text{blue}}\]<br/>Since \(\sin C = \frac{1}{\mu}\), a higher refractive index corresponds to a smaller critical angle:<br/>\[C_{\text{blue}} < C_{\text{green}} < C_{\text{yellow}} < C_{\text{red}}\]</p><p><strong>Step-by-Step Working:</strong><br/>The angle of incidence is fixed at \(i = C_{\text{yellow}}\).<br/>For red light, \(C_{\text{red}} > C_{\text{yellow}} = i\). Because \(i < C_{\text{red}}\), red light does not undergo total internal reflection; it refracts into the second medium bending away from the normal (since \(\mu_1 > \mu_2\)).<br/>For green light, \(C_{\text{green}} < C_{\text{yellow}} = i\), meaning \(i > C_{\text{green}}\), so green light undergoes total internal reflection.<br/>For blue light, \(C_{\text{blue}} < C_{\text{yellow}} = i\), meaning \(i > C_{\text{blue}}\), so blue light also undergoes total internal reflection.</p><p><strong>Check and Final Answer:</strong><br/>Evaluating the behavior of the given colours, the beam of blue light satisfies \(i > C_{\text{blue}}\) and undergoes total internal reflection.<br/>The beam of blue light would undergo total internal reflection.</p>]]></text>
+  </generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>The beam of red light would undergo total internal reflection.</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>The beam of red light would bend towards normal while it gets refracted through the second medium.</p>]]></text>
+  </answer>
+  <answer fraction="100" format="html">
+    <text><![CDATA[<p>The beam of blue light would undergo total internal reflection.</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>The beam of green light would bend away from the normal as it gets refracted through the second medium.</p>]]></text>
+  </answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>class:class_12</text></tag>
+    <tag><text>chapter:ray_optics_and_optical_instruments</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:medium</text></tag>
+    <tag><text>blooms:apply</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:text</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+
+<question type="multichoice">
+  <name><text>NEET_UG_PHYSICS_RAYOPTICSANDOPTICALINSTRUMENTS_MCQ_Q06 - Nature of a plano-convex lens independent of object position side</text></name>
+  <questiontext format="html">
+    <text><![CDATA[<p>The radius of curvature of the curved surface of a plano-convex lens is \(20\text{ cm}\). If the refractive index of the material of the lens be \(1.5\), it will</p>]]></text>
+  </questiontext>
+  <generalfeedback format="html">
+    <text><![CDATA[<p><strong>Given Data and Conditions:</strong><br/>Plano-convex lens with one spherical surface and one flat surface.<br/>Radius of curvature of the curved surface: \(R = 20\text{ cm}\).<br/>Radius of curvature of the plane surface: \(\infty\).<br/>Refractive index of the lens material: \(\mu = 1.5\).</p><p><strong>Assumptions and Sign Conventions:</strong><br/>Standard Cartesian sign convention for the Lens Maker's formula.<br/>The lens is surrounded by air (refractive index \(= 1.0\)).</p><p><strong>Relevant Formulae and Principles:</strong><br/>Lens Maker's formula: \[\frac{1}{f} = (\mu - 1)\left(\frac{1}{R_1} - \frac{1}{R_2}\right)\]<br/>A lens functions as a convex (converging) lens if its focal length \(f\) is positive.</p><p><strong>Step-by-Step Working:</strong><br/>Case 1: Light is incident first on the curved surface.<br/>Here, \(R_1 = +20\text{ cm}\) and \(R_2 = \infty\):<br/>\[\frac{1}{f} = (1.5 - 1)\left(\frac{1}{20} - \frac{1}{\infty}\right) = 0.5 \times \frac{1}{20} = +\frac{1}{40}\text{ cm}^{-1} \implies f = +40\text{ cm}\]<br/>Case 2: Light is incident first on the plane surface.<br/>Here, \(R_1 = \infty\) and \(R_2 = -20\text{ cm}\):<br/>\[\frac{1}{f} = (1.5 - 1)\left(\frac{1}{\infty} - \left(-\frac{1}{20}\right)\right) = 0.5 \times \frac{1}{20} = +\frac{1}{40}\text{ cm}^{-1} \implies f = +40\text{ cm}\]<br/>In both orientations, the focal length is identical and strictly positive (\(+40\text{ cm}\)).</p><p><strong>Check and Final Answer:</strong><br/>Because the focal length remains positive in both configurations, parallel light rays always converge, so the lens behaves as a converging (convex) lens irrespective of which side the object is placed.<br/>The lens will act as a convex lens irrespective of the side on which the object lies.</p>]]></text>
+  </generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>act as a convex lens only for the objects that lie on its curved side.</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>act as a concave lens for the objects that lie on its curved side.</p>]]></text>
+  </answer>
+  <answer fraction="100" format="html">
+    <text><![CDATA[<p>act as a convex lens irrespective of the side on which the object lies.</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>act as a concave lens irrespective of side on which the object lies.</p>]]></text>
+  </answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>class:class_12</text></tag>
+    <tag><text>chapter:ray_optics_and_optical_instruments</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:easy</text></tag>
+    <tag><text>blooms:understand</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:text</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+
+<question type="multichoice">
+  <name><text>NEET_UG_PHYSICS_RAYOPTICSANDOPTICALINSTRUMENTS_MCQ_Q07 - Similarity of radiowave reflection by ionosphere to optical phenomena</text></name>
+  <questiontext format="html">
+    <text><![CDATA[<p>The phenomena involved in the reflection of radiowaves by ionosphere is similar to</p>]]></text>
+  </questiontext>
+  <generalfeedback format="html">
+    <text><![CDATA[<p><strong>Conceptual Principle:</strong><br/>The ionosphere contains free electron and ion densities that increase with height up to certain layers.<br/>The effective refractive index of an ionized medium for a radio wave of frequency \(\nu\) is given by \(\mu = \sqrt{1 - \frac{N e^2}{4\pi^2 \varepsilon_0 m \nu^2}}\), where \(N\) is the electron number density.<br/>As altitude increases, \(N\) increases, so the refractive index \(\mu\) continuously decreases with height.</p><p><strong>Evaluation:</strong><br/>As an upward-travelling radio wave enters layers of higher electron density, it moves into progressively rarer optical media (lower \(\mu\)).<br/>The wave continuously refracts away from the vertical normal until the angle of incidence exceeds the critical angle, causing total internal reflection back towards Earth's surface.</p><p><strong>Application:</strong><br/>During a mirage in hot desert conditions, the air layer adjacent to the hot ground is hotter and less dense, possessing a lower refractive index than the cooler air above.<br/>Light rays coming from sky or tall objects pass through layers of continuously decreasing refractive index, bending continuously away from the normal until total internal reflection occurs, curving the rays upward to the observer's eye.</p><p><strong>Final Conclusion:</strong><br/>Both ionospheric reflection and a mirage arise from continuous refraction through a gradient of decreasing refractive index culminating in total internal reflection.<br/>The phenomenon is similar to total internal reflection of light in air during a mirage.</p>]]></text>
+  </generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>reflection of light by a plane mirror.</p>]]></text>
+  </answer>
+  <answer fraction="100" format="html">
+    <text><![CDATA[<p>total internal reflection of light in air during a mirage.</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>dispersion of light by water molecules during the formation of a rainbow.</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>scattering of light by the particles of air.</p>]]></text>
+  </answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>class:class_12</text></tag>
+    <tag><text>chapter:ray_optics_and_optical_instruments</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:easy</text></tag>
+    <tag><text>blooms:understand</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:text</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+
+<question type="multichoice">
+  <name><text>NEET_UG_PHYSICS_RAYOPTICSANDOPTICALINSTRUMENTS_MCQ_Q08 - Direction of reflected ray from concave mirror passing through center of curvature</text></name>
+  <questiontext format="html">
+    <text><![CDATA[<p>The direction of ray of light incident on a concave mirror is shown by PQ while directions in which the ray would travel after reflection is shown by four rays marked 1, 2, 3 and 4 (Fig 9.1). Which of the four rays correctly shows the direction of reflected ray?</p><p><img src="@@PLUGINFILE@@/img-0.jpeg" alt="Fig 9.1: Incident ray PQ on concave mirror and candidate reflected rays" /></p>]]></text>
+  </questiontext>
+  <generalfeedback format="html">
+    <text><![CDATA[<p><strong>Given Data and Conditions:</strong><br/>Concave spherical mirror with principal axis, pole \(P\), focus \(F\), and center of curvature \(C\).<br/>Incident ray \(PQ\) passes through the center of curvature \(C\) and strikes the mirror surface at point \(Q\).<br/>Four candidate reflected rays are indicated by labels 1, 2, 3, and 4.</p><p><strong>Assumptions and Sign Conventions:</strong><br/>Laws of reflection for spherical surfaces: the angle of reflection equals the angle of incidence (\(i = r\)).<br/>The normal to a spherical mirror at any point of incidence is the radial line connecting that point to the center of curvature \(C\).</p><p><strong>Relevant Formulae and Principles:</strong><br/>Since the line segment \(CQ\) is a radius of the sphere, it is perpendicular to the tangent plane at \(Q\).<br/>An incident ray travelling along the normal strikes the reflecting surface at an angle of incidence \(i = 0^\circ\).<br/>By the law of reflection: \[r = i = 0^\circ\]A ray striking normally must retrace its path back along the same line.</p><p><strong>Step-by-Step Working:</strong><br/>The incident ray \(PQ\) passes directly through the center of curvature \(C\).<br/>Therefore, it strikes the mirror surface at \(Q\) along the normal line.<br/>With \(i = 0^\circ\), the reflected ray must retrace its path in the opposite direction along the exact same line through \(C\).<br/>Inspecting the candidate rays in the diagram, ray 2 lies along the line of incidence \(QC\) travelling in the reverse direction.</p><p><strong>Check and Final Answer:</strong><br/>A light ray passing through the center of curvature of a concave mirror reflects back along its original path. This matches ray 2.<br/>The correct direction is given by ray 2.</p>]]></text>
+  </generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>1</p>]]></text>
+  </answer>
+  <answer fraction="100" format="html">
+    <text><![CDATA[<p>2</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>3</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>4</p>]]></text>
+  </answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>class:class_12</text></tag>
+    <tag><text>chapter:ray_optics_and_optical_instruments</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:easy</text></tag>
+    <tag><text>blooms:remember</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:diagram</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+
+<question type="multichoice">
+  <name><text>NEET_UG_PHYSICS_RAYOPTICSANDOPTICALINSTRUMENTS_MCQ_Q09 - Path of ray traversing turpentine layer floating over water</text></name>
+  <questiontext format="html">
+    <text><![CDATA[<p>The optical density of turpentine is higher than that of water while its mass density is lower. Fig 9.2. shows a layer of turpentine floating over water in a container. For which one of the four rays incident on turpentine in Fig 9.2, the path shown is correct?</p><p><img src="@@PLUGINFILE@@/img-1.jpeg" alt="Fig 9.2: Refraction of light through turpentine floating on water" /></p>]]></text>
+  </questiontext>
+  <generalfeedback format="html">
+    <text><![CDATA[<p><strong>Given Data and Conditions:</strong><br/>Turpentine layer floating on water in air.<br/>Optical density comparison: Turpentine has a higher optical density (higher refractive index) than water: \(\mu_{\text{turpentine}} > \mu_{\text{water}}\).<br/>Air has the lowest refractive index: \(\mu_{\text{air}} = 1.0 < \mu_{\text{water}} < \mu_{\text{turpentine}}\).<br/>Four candidate ray paths (1, 2, 3, and 4) are depicted passing from air into turpentine and then into water.</p><p><strong>Assumptions and Sign Conventions:</strong><br/>Refraction across flat horizontal interfaces follows Snell's law: \(\mu_1 \sin \theta_1 = \mu_2 \sin \theta_2\).<br/>A ray entering an optically denser medium from a rarer medium bends towards the normal (\(\theta_2 < \theta_1\)).<br/>A ray entering an optically rarer medium from a denser medium bends away from the normal (\(\theta_2 > \theta_1\)).</p><p><strong>Relevant Formulae and Principles:</strong><br/>Air to turpentine interface: \(\mu_{\text{air}} < \mu_{\text{turpentine}}\implies\) ray must bend towards the normal.<br/>Turpentine to water interface: \(\mu_{\text{turpentine}} > \mu_{\text{water}}\implies\) ray must bend away from the normal.</p><p><strong>Step-by-Step Working:</strong><br/>At the first boundary (air to turpentine), light enters an optically denser medium, so the refracted ray bends towards the normal.<br/>At the second boundary (turpentine to water), light enters an optically rarer medium, so the refracted ray bends away from the normal.<br/>Examining the four numbered paths:<br/>- Ray 1 bends away from the normal in turpentine, violating the first boundary condition.<br/>- Ray 2 bends towards the normal in turpentine, and bends away from the normal in water, correctly satisfying both boundary conditions.<br/>- Ray 3 travels straight without any deviation, which is physically impossible for oblique incidence.<br/>- Ray 4 bends towards the normal at both boundaries, which would require water to be optically denser than turpentine.</p><p><strong>Check and Final Answer:</strong><br/>The physical path must bend towards the normal in turpentine and away from the normal in water, which corresponds to ray 2.<br/>The correct path is shown by ray 2.</p>]]></text>
+  </generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>1</p>]]></text>
+  </answer>
+  <answer fraction="100" format="html">
+    <text><![CDATA[<p>2</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>3</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>4</p>]]></text>
+  </answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>class:class_12</text></tag>
+    <tag><text>chapter:ray_optics_and_optical_instruments</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:easy</text></tag>
+    <tag><text>blooms:understand</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:diagram</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+
+<question type="multichoice">
+  <name><text>NEET_UG_PHYSICS_RAYOPTICSANDOPTICALINSTRUMENTS_MCQ_Q10 - Apparent speed of approaching car in convex side mirror</text></name>
+  <questiontext format="html">
+    <text><![CDATA[<p>A car is moving with at a constant speed of \(60\text{ km h}^{-1}\) on a straight road. Looking at the rear view mirror, the driver finds that the car following him is at a distance of \(100\text{ m}\) and is approaching with a speed of \(5\text{ km h}^{-1}\). In order to keep track of the car in the rear, the driver begins to glance alternatively at the rear and side mirror of his car after every \(2\text{ s}\) till the other car overtakes. If the two cars were maintaining their speeds, which of the following statement (s) is/are correct?</p>]]></text>
+  </questiontext>
+  <generalfeedback format="html">
+    <text><![CDATA[<p><strong>Given Data and Conditions:</strong><br/>Speed of the leading car: \(60\text{ km h}^{-1}\).<br/>Relative approach speed of the following car: \(v_{\text{rel}} = \left|\frac{du}{dt}\right| = 5\text{ km h}^{-1} = \text{constant}\).<br/>Side and rear-view mirrors of motor vehicles are convex mirrors with small focal length \(f\).</p><p><strong>Assumptions and Sign Conventions:</strong><br/>Convex mirror has a positive focal length \(f > 0\).<br/>Object distance \(u\) is negative (\(u = -x\), where \(x\) is the positive separation distance), and \(x\) decreases uniformly over time.<br/>Image distance \(v\) is positive (virtual erect image formed behind the mirror).</p><p><strong>Relevant Formulae and Principles:</strong><br/>Mirror equation: \[\frac{1}{v} + \frac{1}{u} = \frac{1}{f} \implies v = \frac{uf}{u-f} = \frac{xf}{x+f}\]<br/>Differentiating image position with respect to time gives the apparent image speed:<br/>\[v_{\text{image}} = \left|\frac{dv}{dt}\right| = \frac{v^2}{u^2}\left|\frac{du}{dt}\right| = \left(\frac{f}{x+f}\right)^2 v_{\text{rel}}\]</p><p><strong>Step-by-Step Working:</strong><br/>The relative approach speed \(v_{\text{rel}}\) and the mirror focal length \(f\) are constants.<br/>As the rear car approaches, the distance \(x\) between the cars decreases continuously.<br/>In the expression for image speed, as \(x\) decreases, the denominator \(x+f\) decreases, which makes the factor \(\frac{f}{x+f}\) increase.<br/>Therefore, the apparent speed of the image \(v_{\text{image}} = \left(\frac{f}{x+f}\right)^2 v_{\text{rel}}\) increases continuously as \(x\) becomes smaller.<br/>To the driver looking in the convex side mirror, the car in the rear appears to approach faster and faster as the distance decreases.</p><p><strong>Check and Final Answer:</strong><br/>Because the magnification of a convex mirror increases as the object draws closer to the pole, the apparent speed of the image increases as separation decreases.<br/>In the side mirror, the speed of the approaching car would appear to increase as the distance between the cars decreases.</p>]]></text>
+  </generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>The speed of the car in the rear is \(65\text{ km h}^{-1}\).</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>In the side mirror the car in the rear would appear to approach with a speed of \(5\text{ km h}^{-1}\) to the driver of the leading car.</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>In the rear view mirror the speed of the approaching car would appear to decrease as the distance between the cars decreases.</p>]]></text>
+  </answer>
+  <answer fraction="100" format="html">
+    <text><![CDATA[<p>In the side mirror, the speed of the approaching car would appear to increase as the distance between the cars decreases.</p>]]></text>
+  </answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>class:class_12</text></tag>
+    <tag><text>chapter:ray_optics_and_optical_instruments</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:medium</text></tag>
+    <tag><text>blooms:analyze</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:text</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+
+<question type="multichoice">
+  <name><text>NEET_UG_PHYSICS_RAYOPTICSANDOPTICALINSTRUMENTS_MCQ_Q11 - Refraction path in metamaterial with negative refractive index</text></name>
+  <questiontext format="html">
+    <text><![CDATA[<p>There are certain material developed in laboratories which have a negative refractive index (Fig. 9.3). A ray incident from air (medium 1) into such a medium (medium 2) shall follow a path given by</p>]]></text>
+  </questiontext>
+  <generalfeedback format="html">
+    <text><![CDATA[<p><strong>Given Data and Conditions:</strong><br/>Medium 1 is air with positive refractive index \(n_1 = +1\).<br/>Medium 2 is a metamaterial with negative refractive index \(n_2 < 0\).<br/>Light ray is obliquely incident from medium 1 onto the planar interface of medium 2.</p><p><strong>Assumptions and Sign Conventions:</strong><br/>Snell's law applies across the boundary: \[n_1 \sin \theta_1 = n_2 \sin \theta_2\]<br/>The angles \(\theta_1\) and \(\theta_2\) are measured relative to the surface normal, with opposite angular directions having opposite signs.</p><p><strong>Relevant Formulae and Principles:</strong><br/>Snell's law rewritten for the refracted angle: \[\sin \theta_2 = \frac{n_1}{n_2}\sin \theta_1\]<br/>Because \(n_1 > 0\) and \(n_2 < 0\), the ratio \(\frac{n_1}{n_2}\) is negative.<br/>Therefore, \(\sin \theta_2\) must have the opposite sign of \(\sin \theta_1\).</p><p><strong>Step-by-Step Working:</strong><br/>In conventional positive-index refraction, the incident ray and the refracted ray lie on opposite sides of the interface normal.<br/>When the refractive index of the second medium is negative, the sign of the angle of refraction reverses relative to the normal.<br/>Consequently, the refracted ray bends across the normal such that both the incident ray and the refracted ray lie on the same side of the normal line inside their respective media.<br/>The ray diagram demonstrating this refraction to the same side of the normal corresponds to the first schematic.</p><p><strong>Check and Final Answer:</strong><br/>Negative index materials exhibit negative refraction, bending the transmitted ray to the same side of the normal as the incident ray.<br/>The ray follows the path showing refraction on the same side of the normal line.</p>]]></text>
+  </generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="100" format="html">
+    <text><![CDATA[<p><img src="@@PLUGINFILE@@/img-2.jpeg" alt="Fig 9.3 (a): Ray refracted on the same side of the normal" /></p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p><img src="@@PLUGINFILE@@/img-3.jpeg" alt="Fig 9.3 (b): Ray refracted on opposite side of normal" /></p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p><img src="@@PLUGINFILE@@/img-4.jpeg" alt="Fig 9.3 (c): Ray reflected backwards in medium 1" /></p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p><img src="@@PLUGINFILE@@/img-5.jpeg" alt="Fig 9.3 (d): Ray refracted along the normal" /></p>]]></text>
+  </answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>class:class_12</text></tag>
+    <tag><text>chapter:ray_optics_and_optical_instruments</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:medium</text></tag>
+    <tag><text>blooms:understand</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:diagram</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+
+<question type="multichoice">
+  <name><text>NEET_UG_PHYSICS_RAYOPTICSANDOPTICALINSTRUMENTS_MCQ_Q12 - Reasons for distortion of extended object immersed in water trough</text></name>
+  <questiontext format="html">
+    <text><![CDATA[<p>Consider an extended object immersed in water contained in a plane trough. When seen from close to the edge of the trough the object looks distorted because</p>]]></text>
+  </questiontext>
+  <generalfeedback format="html">
+    <text><![CDATA[<p><strong>Conceptual Principle:</strong><br/>When light rays from submerged points travel through water towards an eye placed near the edge of a plane trough, they refract at the water-air interface governed by Snell's law.<br/>Because rays from different parts of an extended object strike the water-air surface at varying angles of incidence, the apparent depth is not uniform across the object.</p><p><strong>Evaluation:</strong><br/>1. For points near the viewing edge, rays emerge into air at large angles of incidence. Apparent depth for oblique rays is given by \(h' = h \frac{\cos^2 r}{\cos^2 i} \frac{1}{\mu}\) (or depends heavily on the angle of incidence), causing points viewed at larger angles to appear closer to the surface compared to points viewed nearly normally.<br/>2. Because of refraction away from the normal, the angular spread of the diverging cone of rays entering the eye is modified such that the angle subtended by the image at the eye is smaller than the actual visual angle subtended if the object were in air.<br/>3. Rays originating from points sufficiently far away from the edge strike the water surface at angles greater than the critical angle for the water-air interface (\(C \approx 48.6^\circ\)) and undergo total internal reflection, preventing those rays from reaching the observer's eye.<br/>4. A trough with planar parallel glass walls has no curved surfaces, so the water volume does not act as a magnifying curved lens.</p><p><strong>Application:</strong><br/>Non-uniform variation in apparent depth across the body, reduction in subtended angle at the observer's eye, and omission of rays due to total internal reflection together produce visual distortion of the submerged object.</p><p><strong>Final Conclusion:</strong><br/>The distortion is caused by the non-uniform apparent depth, the smaller angle subtended at the eye, and total internal reflection for points far from the edge.</p>]]></text>
+  </generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>false</single>
+  <shuffleanswers>false</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="33.33333" format="html">
+    <text><![CDATA[<p>the apparent depth of the points close to the edge are nearer the surface of the water compared to the points away from the edge.</p>]]></text>
+  </answer>
+  <answer fraction="33.33333" format="html">
+    <text><![CDATA[<p>the angle subtended by the image of the object at the eye is smaller than the actual angle subtended by the object in air.</p>]]></text>
+  </answer>
+  <answer fraction="33.33333" format="html">
+    <text><![CDATA[<p>some of the points of the object far away from the edge may not be visible because of total internal reflection.</p>]]></text>
+  </answer>
+  <answer fraction="-50" format="html">
+    <text><![CDATA[<p>water in a trough acts as a lens and magnifies the object.</p>]]></text>
+  </answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>class:class_12</text></tag>
+    <tag><text>chapter:ray_optics_and_optical_instruments</text></tag>
+    <tag><text>typology:multi-response</text></tag>
+    <tag><text>difficulty:hard</text></tag>
+    <tag><text>blooms:analyze</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:text</text></tag>
+    <tag><text>multiconcept:true</text></tag>
+  </tags>
+</question>
+
+<question type="multichoice">
+  <name><text>NEET_UG_PHYSICS_RAYOPTICSANDOPTICALINSTRUMENTS_MCQ_Q13 - Visibility of pin on rectangular glass block through adjacent face</text></name>
+  <questiontext format="html">
+    <text><![CDATA[<p>A rectangular block of glass ABCD has a refractive index 1.6. A pin is placed midway on the face AB (Fig. 9.4). When observed from the face AD, the pin shall</p><p><img src="@@PLUGINFILE@@/img-6.jpeg" alt="Fig 9.4: Rectangular glass block ABCD with pin midway on face AB" /></p>]]></text>
+  </questiontext>
+  <generalfeedback format="html">
+    <text><![CDATA[<p><strong>Given Data and Conditions:</strong><br/>Rectangular glass block \(ABCD\) with mutually perpendicular adjacent faces: \(AB \perp AD\).<br/>Refractive index of the glass block: \(\mu = 1.6\).<br/>A pin is positioned at the midpoint of face \(AB\), and the observation is attempted from the adjacent face \(AD\).</p><p><strong>Assumptions and Sign Conventions:</strong><br/>Light rays from the pin on face \(AB\) enter the glass block across face \(AB\) and travel toward face \(AD\).<br/>The normal to face \(AB\) is perpendicular to \(AB\) and therefore parallel to face \(AD\).<br/>The normal to face \(AD\) is perpendicular to \(AD\) and therefore parallel to face \(AB\).</p><p><strong>Relevant Formulae and Principles:</strong><br/>Critical angle for glass with \(\mu = 1.6\): \[\sin C = \frac{1}{\mu} = \frac{1}{1.6} = 0.625 \implies C = \arcsin(0.625) \approx 38.7^\circ\]<br/>Snell's law at entrance face \(AB\): \[\sin i = \mu \sin r\]Because the maximum possible angle of incidence in air is \(i < 90^\circ\), the angle of refraction \(r\) inside the glass at face \(AB\) satisfies: \[r < C = 38.7^\circ\]The geometry of perpendicular faces requires the angle of incidence \(\theta\) on face \(AD\) to satisfy: \[\theta = 90^\circ - r\]</p><p><strong>Step-by-Step Working:</strong><br/>Since \(r < C\), the angle of incidence on face \(AD\) is:<br/>\[\theta = 90^\circ - r > 90^\circ - C\]<br/>Substitute \(C \approx 38.7^\circ\):<br/>\[\theta > 90^\circ - 38.7^\circ = 51.3^\circ\]<br/>Comparing this incident angle \(\theta\) to the critical angle \(C\):<br/>\[\theta > 51.3^\circ > 38.7^\circ = C\]<br/>Because the angle of incidence on face \(AD\) strictly exceeds the critical angle for all rays entering through face \(AB\), every ray undergoes total internal reflection at face \(AD\).<br/>No light rays can emerge through face \(AD\) into the air.</p><p><strong>Check and Final Answer:</strong><br/>Due to total internal reflection occurring across the entire face \(AD\), no refracted rays emerge into the observer's eye.<br/>The pin cannot be seen at all.</p>]]></text>
+  </generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>appear to be near A.</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>appear to be near D.</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>appear to be at the centre of AD.</p>]]></text>
+  </answer>
+  <answer fraction="100" format="html">
+    <text><![CDATA[<p>not be seen at all.</p>]]></text>
+  </answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>class:class_12</text></tag>
+    <tag><text>chapter:ray_optics_and_optical_instruments</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:medium</text></tag>
+    <tag><text>blooms:analyze</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:diagram</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+
+<question type="multichoice">
+  <name><text>NEET_UG_PHYSICS_RAYOPTICSANDOPTICALINSTRUMENTS_MCQ_Q14 - Causes of Alexander's dark band between primary and secondary rainbows</text></name>
+  <questiontext format="html">
+    <text><![CDATA[<p>Between the primary and secondary rainbows, there is a dark band known as Alexandar's dark band. This is because</p>]]></text>
+  </questiontext>
+  <generalfeedback format="html">
+    <text><![CDATA[<p><strong>Conceptual Principle:</strong><br/>Alexander's dark band is the region of the sky located between the bright primary rainbow and the fainter secondary rainbow.<br/>The primary rainbow forms at viewing angles around \(41^\circ\) to \(42^\circ\) relative to the incoming sunlight direction, while the secondary rainbow forms at viewing angles around \(51^\circ\) to \(54^\circ\).</p><p><strong>Evaluation:</strong><br/>1. Primary rainbow rays undergo one internal reflection and exit raindrops at angles up to \(42^\circ\), sending light into the region below \(42^\circ\).<br/>2. Secondary rainbow rays undergo two internal reflections and exit raindrops at angles above \(50^\circ\), sending light into the region above \(50^\circ\).<br/>3. The angular gap between approximately \(42^\circ\) and \(50^\circ\) corresponds to directions where rays scattered by raindrops undergo destructive interference, resulting in a pronounced dark band rather than complete light absorption.<br/>4. The angular spread made at the observer's eye by the scattered rays with respect to incident sunlight for this intervening region lies between approximately \(42^\circ\) and \(50^\circ\).</p><p><strong>Application:</strong><br/>Because light waves emerging into this angular interval interfere destructively and the angular sector subtended at the eye lies between \(42^\circ\) and \(50^\circ\), the region appears dark compared to the adjacent illuminated zones.</p><p><strong>Final Conclusion:</strong><br/>Alexander's dark band is characterized by destructive interference of light scattered into this region and by an angular subtension between approximately \(42^\circ\) and \(50^\circ\) at the observer's eye.</p>]]></text>
+  </generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>false</single>
+  <shuffleanswers>false</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="50" format="html">
+    <text><![CDATA[<p>light scattered into this region interfere destructively.</p>]]></text>
+  </answer>
+  <answer fraction="-50" format="html">
+    <text><![CDATA[<p>there is no light scattered into this region.</p>]]></text>
+  </answer>
+  <answer fraction="-50" format="html">
+    <text><![CDATA[<p>light is absorbed in this region.</p>]]></text>
+  </answer>
+  <answer fraction="50" format="html">
+    <text><![CDATA[<p>angle made at the eye by the scattered rays with respect to the incident light of the sun lies between approximately \(42^{\circ}\) and \(50^{\circ}\).</p>]]></text>
+  </answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>class:class_12</text></tag>
+    <tag><text>chapter:ray_optics_and_optical_instruments</text></tag>
+    <tag><text>typology:multi-response</text></tag>
+    <tag><text>difficulty:medium</text></tag>
+    <tag><text>blooms:understand</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:text</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+
+<question type="multichoice">
+  <name><text>NEET_UG_PHYSICS_RAYOPTICSANDOPTICALINSTRUMENTS_MCQ_Q15 - Optical outcomes when using a simple magnifying glass</text></name>
+  <questiontext format="html">
+    <text><![CDATA[<p>A magnifying glass is used, as the object to be viewed can be brought closer to the eye than the normal near point. This results in</p>]]></text>
+  </questiontext>
+  <generalfeedback format="html">
+    <text><![CDATA[<p><strong>Conceptual Principle:</strong><br/>A magnifying glass consists of a converging (convex) lens of short focal length \(f\).<br/>The unaided human eye cannot focus sharply on an object placed closer than the near point (\(D \approx 25\text{ cm}\)), where the visual angle subtended is \(\theta_0 \approx \frac{h}{D}\).<br/>When the object is placed inside the focal length of the convex lens (\(u < f\)), the lens produces a virtual, erect, and magnified image.</p><p><strong>Evaluation:</strong><br/>1. By placing the object closer to the eye than \(D\) within the focal length, the visual angle subtended by the image at the eye becomes \(\theta \approx \frac{h}{u} > \frac{h}{D}\). This larger subtended angle allows fine details of the object to be resolved clearly.<br/>2. Because the object lies within the focal point of the convergent lens, the resulting image is virtual, erect, and enlarged.<br/>3. Looking through a lens of limited aperture restricts rather than increases the total field of view.<br/>4. When the image is formed at the near point, the angular magnification is finite and given by \(m = 1 + \frac{D}{f}\), not infinite.</p><p><strong>Application:</strong><br/>The optical function of bringing the object closer than the near point using the lens is to increase the angle subtended at the eye and produce a virtual erect image.</p><p><strong>Final Conclusion:</strong><br/>The primary results of using a magnifying glass are that a larger angle is subtended by the object at the eye for viewing in greater detail, and a virtual erect image is formed.</p>]]></text>
+  </generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>false</single>
+  <shuffleanswers>false</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="50" format="html">
+    <text><![CDATA[<p>a larger angle to be subtended by the object at the eye and hence viewed in greater detail.</p>]]></text>
+  </answer>
+  <answer fraction="50" format="html">
+    <text><![CDATA[<p>the formation of a virtual erect image.</p>]]></text>
+  </answer>
+  <answer fraction="-50" format="html">
+    <text><![CDATA[<p>increase in the field of view.</p>]]></text>
+  </answer>
+  <answer fraction="-50" format="html">
+    <text><![CDATA[<p>infinite magnification at the near point.</p>]]></text>
+  </answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>class:class_12</text></tag>
+    <tag><text>chapter:ray_optics_and_optical_instruments</text></tag>
+    <tag><text>typology:multi-response</text></tag>
+    <tag><text>difficulty:medium</text></tag>
+    <tag><text>blooms:understand</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:text</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+
+<question type="multichoice">
+  <name><text>NEET_UG_PHYSICS_RAYOPTICSANDOPTICALINSTRUMENTS_MCQ_Q16 - Properties and parameters of an astronomical refracting telescope</text></name>
+  <questiontext format="html">
+    <text><![CDATA[<p>An astronomical refractive telescope has an objective of focal length \(20\text{ m}\) and an eyepiece of focal length \(2\text{ cm}\).</p>]]></text>
+  </questiontext>
+  <generalfeedback format="html">
+    <text><![CDATA[<p><strong>Given Data and Conditions:</strong><br/>Astronomical refractive telescope in normal adjustment.<br/>Focal length of objective: \(f_o = 20\text{ m}\).<br/>Focal length of eyepiece: \(f_e = 2\text{ cm} = 0.02\text{ m}\).</p><p><strong>Assumptions and Sign Conventions:</strong><br/>The telescope is adjusted for normal observation with parallel rays emerging from the eyepiece (final image at infinity).<br/>Standard formulae for an astronomical telescope in normal adjustment apply.</p><p><strong>Relevant Formulae and Principles:</strong><br/>Length of the telescope tube in normal adjustment: \[L = f_o + f_e\]<br/>Magnifying power in normal adjustment: \[m = \frac{f_o}{f_e}\]<br/>An astronomical telescope consisting of two convex lenses produces an inverted final image.<br/>Chromatic aberration is caused by dispersion of light across different wavelengths in glass lenses and depends on lens material, not aperture size.</p><p><strong>Step-by-Step Working:</strong><br/>1. Tube length: \[L = f_o + f_e = 20\text{ m} + 0.02\text{ m} = 20.02\text{ m}\]<br/>2. Magnification: \[m = \frac{f_o}{f_e} = \frac{20\text{ m}}{0.02\text{ m}} = 1000\]<br/>3. Image orientation: The real intermediate image produced by the objective is inverted, and the eyepiece acts as a simple magnifier maintaining that inversion, so the final image is inverted.<br/>4. Effect of larger aperture: Increasing the objective aperture gathers more light, thereby increasing the brightness and resolving power of the telescope. However, it does not reduce chromatic aberration; in fact, thicker margins in larger single lenses tend to exacerbate chromatic dispersion.</p><p><strong>Check and Final Answer:</strong><br/>The statements affirming a tube length of \(20.02\text{ m}\), a magnification of \(1000\), and an inverted final image are physically correct.<br/>The length of the tube is \(20.02\text{ m}\), the magnification is \(1000\), and the image formed is inverted.</p>]]></text>
+  </generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>false</single>
+  <shuffleanswers>false</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="33.33333" format="html">
+    <text><![CDATA[<p>The length of the telescope tube is \(20.02\mathrm{m}\).</p>]]></text>
+  </answer>
+  <answer fraction="33.33333" format="html">
+    <text><![CDATA[<p>The magnification is 1000.</p>]]></text>
+  </answer>
+  <answer fraction="33.33333" format="html">
+    <text><![CDATA[<p>The image formed is inverted.</p>]]></text>
+  </answer>
+  <answer fraction="-50" format="html">
+    <text><![CDATA[<p>An objective of a larger aperture will increase the brightness and reduce chromatic aberration of the image.</p>]]></text>
+  </answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>class:class_12</text></tag>
+    <tag><text>chapter:ray_optics_and_optical_instruments</text></tag>
+    <tag><text>typology:multi-response</text></tag>
+    <tag><text>difficulty:medium</text></tag>
+    <tag><text>blooms:analyze</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:text</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>

@@ -1,0 +1,209 @@
+<question type="multichoice">
+  <name><text>NEET_UG_PHYSICS_WAVE_OPTICS_MCQ_Q10_1 - Light beam incident at Brewster angle on slab</text></name>
+  <questiontext format="html">
+    <text><![CDATA[<p>Consider a light beam incident from air to a glass slab at Brewster's angle as shown in the figure.</p><p><img src="@@PLUGINFILE@@/img-0.jpeg" alt="Fig. 10.1" /></p><p>A polaroid is placed in the path of the emergent ray at point P and rotated about an axis passing through the centre and perpendicular to the plane of the polaroid.</p><hr/><p>চিত্রে প্রদর্শিত অনুযায়ী বায়ু থেকে একটি কাচের স্ল্যাবের উপর ব্রুস্টারের কোণে একটি আলোক রশ্মি আপতিত হয়।</p><p>নির্গত রশ্মির গতিপথে P বিন্দুতে একটি পোলারয়েড স্থাপন করা হয় এবং পোলারয়েডের তলের সাথে লম্বভাবে এর কেন্দ্রের মধ্য দিয়ে যাওয়া একটি অক্ষের সাপেক্ষে সেটিকে ঘোরানো হয়।</p>]]></text>
+  </questiontext>
+  <generalfeedback format="html">
+    <text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>An unpolarised light beam is incident from air onto a parallel-faced glass slab at Brewster's angle \(i_B\). The beam is refracted at the first surface, travels through the slab, and emerges parallel to the incident direction at point P into the air. A polaroid is placed in the path of this emergent ray at P and rotated through a complete turn (\(360^\circ\)) about an axis along the ray.</p><p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>The glass slab has parallel faces. The incident unpolarised light consists of equal intensity mutually incoherent vibrations parallel (\(I_\parallel\)) and perpendicular (\(I_\perp\)) to the plane of incidence. The polaroid is an ideal linear polariser obeying Malus's law.</p><p><strong>Step 3: Relevant Formulae and Principles</strong><br/>1. Brewster's Law: When unpolarised light is incident at Brewster's angle \(i_B\), the reflected beam is completely plane polarised with its electric vector perpendicular to the plane of incidence.<br/>2. Partial Polarisation of Refracted Light: Because only a fraction of the perpendicular component is reflected while the parallel component is completely transmitted, the refracted (and emergent) ray retains both components, with \(I_\parallel > I_\perp > 0\). Thus, the emergent ray is partially polarised.<br/>3. Malus's Law: The transmitted intensity through a polaroid whose transmission axis makes an angle \(\theta\) with the parallel component is given by \(I(\theta) = I_\parallel \cos^2\theta + I_\perp \sin^2\theta\).</p><p><strong>Step 4: Step-by-Step Working</strong><br/>Differentiating the intensity expression with respect to \(\theta\):<br/>\[\frac{dI}{d\theta} = -2I_\parallel\cos\theta\sin\theta + 2I_\perp\sin\theta\cos\theta = -(I_\parallel - I_\perp)\sin(2\theta)\]<br/>Setting \(\frac{dI}{d\theta} = 0\) yields \(\sin(2\theta) = 0\), which gives \(2\theta = 0, \pi, 2\pi, 3\pi\), or \(\theta = 0, \frac{\pi}{2}, \pi, \frac{3\pi}{2}\) in one full rotation of \(360^\circ\).<br/>- Maximum intensity occurs when \(\theta = 0\) and \(\theta = \pi\), where \(I_{\max} = I_\parallel\).<br/>- Minimum intensity occurs when \(\theta = \frac{\pi}{2}\) and \(\theta = \frac{3\pi}{2}\), where \(I_{\min} = I_\perp\).<br/>Because \(I_\perp > 0\), the minimum intensity never drops to zero.</p><p><strong>Step 5: Check and Final Answer</strong><br/>Total extinction (complete darkness) requires fully polarised light, which is only present in the reflected beam, not the emergent beam. For partially polarised light, rotating the polaroid causes the intensity to pass through a non-zero minimum exactly twice in one full rotation.<br/>Final Answer: The intensity of light as seen through the Polaroid shall go through a minimum but not zero for two orientations of the polaroid.</p><hr/><p><strong>ধাপ ১: প্রদত্ত তথ্য ও শর্তাবলী</strong><br/>বায়ু থেকে সমান্তরাল পৃষ্ঠবিশিষ্ট একটি কাচের স্ল্যাবের উপর ব্রুস্টারের কোণে \(i_B\) একটি অসমাবর্তিত (unpolarised) আলোক রশ্মি আপতিত হয়। রশ্মিটি প্রথম তলে প্রতিসৃত হয়ে স্ল্যাবের মধ্য দিয়ে যায় এবং P বিন্দুতে আপতিত রশ্মির সমান্তরালে বায়ুতে নির্গত হয়। নির্গত রশ্মির গতিপথে P বিন্দুতে একটি পোলারয়েড রাখা হয় এবং রশ্মির অক্ষ বরাবর এটিকে একটি পূর্ণ ঘূর্ণনে (\(360^\circ\)) ঘোরানো হয়।</p><p><strong>ধাপ ২: অনুমান ও চিহ্ন প্রথা</strong><br/>কাচের স্ল্যাবের তল দুটি সমান্তরাল। আপতিত আলোতে আপতন তলের সমান্তরাল (\(I_\parallel\)) এবং লম্ব (\(I_\perp\)) অভিমুখে সমান তীব্রতার দুটি মিউচুয়ালি ইনকোহেরেন্ট উপাংশ রয়েছে। পোলারয়েডটি মেলাসের সূত্র মেনে চলে।</p><p><strong>ধাপ ৩: প্রাসঙ্গিক সূত্রাবলী ও মূলনীতি</strong><br/>১. ব্রুস্টারের সূত্র: ব্রুস্টারের কোণে আপতনের ক্ষেত্রে প্রতিফলিত রশ্মি সম্পূর্ণভাবে সমতল সমাবর্তিত হয়, যার তড়িৎ ক্ষেত্র ভেক্টর আপতন তলের সাথে লম্ব থাকে।<br/>২. প্রতিসৃত আলোর আংশিক সমাবর্তন: লম্ব উপাংশের কিছু অংশ প্রতিফলিত হলেও সমান্তরাল উপাংশটি সম্পূর্ণভাবে প্রতিসৃত হয়। ফলে নির্গত রশ্মিতে উভয় উপাংশই উপস্থিত থাকে এবং \(I_\parallel > I_\perp > 0\) হয়। অর্থাৎ নির্গত রশ্মিটি আংশিক সমাবর্তিত।<br/>৩. মেলাসের সূত্র: পোলারয়েডের অক্ষ সমান্তরাল উপাংশের সাথে \(\theta\) কোণ তৈরি করলে নির্গত তীব্রতা হয় \(I(\theta) = I_\parallel \cos^2\theta + I_\perp \sin^2\theta\)।</p><p><strong>ধাপ ৪: ধাপে ধাপে সমাধান</strong><br/>কোণ \(\theta\)-এর সাপেক্ষে তীব্রতার অবকলন করে পাই:<br/>\[\frac{dI}{d\theta} = -2I_\parallel\cos\theta\sin\theta + 2I_\perp\sin\theta\cos\theta = -(I_\parallel - I_\perp)\sin(2\theta)\]<br/>চরম মানের জন্য \(\frac{dI}{d\theta} = 0\) বসালে \(\sin(2\theta) = 0\) পাওয়া যায়, যা থেকে \(2\theta = 0, \pi, 2\pi, 3\pi\) বা একটি পূর্ণ ঘূর্ণনে \(\theta = 0, \frac{\pi}{2}, \pi, \frac{3\pi}{2}\) পাওয়া যায়।<br/>- \(\theta = 0\) এবং \(\theta = \pi\) অবস্থানে তীব্রতা সর্বোচ্চ হয়, যার মান \(I_{\max} = I_\parallel\)।<br/>- \(\theta = \frac{\pi}{2}\) এবং \(\theta = \frac{3\pi}{2}\) অবস্থানে তীব্রতা সর্বনিম্ন হয়, যার মান \(I_{\min} = I_\perp\)।<br/>যেহেতু \(I_\perp > 0\), তাই এই সর্বনিম্ন তীব্রতা কখনোই শূন্য হয় না।</p><p><strong>ধাপ ৫: যাচাই ও চূড়ান্ত উত্তর</strong><br/>সম্পূর্ণ অন্ধকার হওয়ার জন্য আলোকে সম্পূর্ণরূপে সমাবর্তিত হতে হয়, যা কেবল প্রতিফলিত রশ্মির ক্ষেত্রে ঘটে, নির্গত রশ্মির ক্ষেত্রে নয়। আংশিক সমাবর্তিত আলোর ক্ষেত্রে একটি পূর্ণ ঘূর্ণনে তীব্রতা দুইবার একটি অশূন্য সর্বনিম্ন মানের মধ্য দিয়ে যায়।<br/>চূড়ান্ত উত্তর: পোলারয়েডের দুটি নির্দিষ্ট অবস্থানে আলোর তীব্রতা সর্বনিম্ন হবে কিন্তু শূন্য হবে না।</p>]]></text>
+  </generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>For a particular orientation there shall be darkness as observed through the polaroid.</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>The intensity of light as seen through the polaroid shall be independent of the rotation.</p>]]></text>
+  </answer>
+  <answer fraction="100" format="html">
+    <text><![CDATA[<p>The intensity of light as seen through the Polaroid shall go through a minimum but not zero for two orientations of the polaroid.</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>The intensity of light as seen through the polaroid shall go through a minimum for four orientations of the polaroid.</p>]]></text>
+  </answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:bn</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>class:class_12</text></tag>
+    <tag><text>chapter:wave_optics</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:medium</text></tag>
+    <tag><text>blooms:apply</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:diagram</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+
+<question type="multichoice">
+  <name><text>NEET_UG_PHYSICS_WAVE_OPTICS_MCQ_Q10_2 - Sunlight incident on a single narrow slit</text></name>
+  <questiontext format="html">
+    <text><![CDATA[<p>Consider sunlight incident on a slit of width \(10^4\text{ \AA}\). The image seen through the slit shall</p><hr/><p>\(10^4\text{ \AA}\) প্রস্থের একটি রেখাছিদ্রের উপর সূর্যালোক আপতিত হলে, রেখাছিদ্রটির মধ্য দিয়ে দৃষ্ট প্রতিবিম্বটি কেমন হবে?</p>]]></text>
+  </questiontext>
+  <generalfeedback format="html">
+    <text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>Slit width, \(a = 10^4\text{ \AA} = 10^4 \times 10^{-10}\text{ m} = 10^{-6}\text{ m} = 1\,\mu\text{m}\).<br/>The incident radiation is sunlight, which encompasses the entire visible spectrum with wavelengths ranging from \(\lambda \approx 4000\text{ \AA}\) to \(8000\text{ \AA}\).</p><p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>Light propagation from the slit to the observer or screen is governed by Fraunhofer diffraction through a single slit.</p><p><strong>Step 3: Relevant Formulae and Principles</strong><br/>In single-slit diffraction:<br/>1. At the central position (\(\theta = 0\)), the path difference between wavelets from symmetrically placed portions of the slit is zero for all wavelengths. Consequently, all constituent spectral colours of sunlight interfere constructively at the centre.<br/>2. The condition for the first diffraction minimum is \(a \sin\theta = \lambda\), giving an angular half-width \(\theta \approx \frac{\lambda}{a}\).<br/>3. When the slit width \(a = 10^4\text{ \AA}\) is comparable to the wavelength of visible light (\(\lambda \sim 4000\text{ \AA}\) to \(8000\text{ \AA}\)), diffraction effects occur, producing a central maximum where all wavelengths superpose constructively to form a white band at the center.</p><p><strong>Step 4: Step-by-Step Working</strong><br/>Comparing the slit width to the wavelength range of visible light:<br/>\[\frac{\lambda}{a} = \frac{4000\text{ \AA}\text{ to }8000\text{ \AA}}{10000\text{ \AA}} = 0.4\text{ to }0.8\]<br/>Since the slit width is narrow and of the order of the optical wavelength, diffraction takes place. Because all wavelengths arrive in phase at the central axis, they recombine to form a bright, sharp central slit that is white in colour.</p><p><strong>Step 5: Check and Final Answer</strong><br/>At the center of the pattern, constructive interference occurs simultaneously for all visible wavelengths without any phase difference, resulting in white light.<br/>Final Answer: Be a fine sharp slit white in colour at the center.</p><hr/><p><strong>ধাপ ১: প্রদত্ত তথ্য ও শর্তাবলী</strong><br/>রেখাছিদ্রের প্রস্থ, \(a = 10^4\text{ \AA} = 10^{-6}\text{ m} = 1\,\mu\text{m}\)।<br/>আপতিত আলো হলো সূর্যালোক, যার দৃশ্যমান অঞ্চলের তরঙ্গদৈর্ঘ্যের বিস্তার \(\lambda \approx 4000\text{ \AA}\) থেকে \(8000\text{ \AA}\)।</p><p><strong>ধাপ ২: অনুমান ও চিহ্ন প্রথা</strong><br/>রেখাছিদ্রের মধ্য দিয়ে আলোর বিস্তার ফ্রনহফার অপবর্তন (Fraunhofer diffraction) নীতি অনুযায়ী বিশ্লেষণ করা হয়।</p><p><strong>ধাপ ৩: প্রাসঙ্গিক সূত্রাবলী ও মূলনীতি</strong><br/>একক রেখাছিদ্রের অপবর্তনে:<br/>১. কেন্দ্রীয় অবস্থানে (\(\theta = 0\)), রেখাছিদ্রের বিভিন্ন বিন্দু থেকে নির্গত তরঙ্গসমূহের মধ্যে পথ পার্থক্য সমস্ত তরঙ্গদৈর্ঘ্যের জন্য শূন্য হয়। ফলে সূর্যালোকের সমস্ত বর্ণ কেন্দ্রে গঠনমূলক ব্যতিচার সৃষ্টি করে।<br/>২. প্রথম অপবর্তন অবমের শর্ত হলো \(a \sin\theta = \lambda\)।<br/>৩. রেখাছিদ্রের প্রস্থ \(a = 10^4\text{ \AA}\) দৃশ্যমান আলোর তরঙ্গদৈর্ঘ্যের সাথে তুলনীয় হওয়ায় কেন্দ্রে সুস্পষ্ট অপবর্তন মুখ্য চরম সৃষ্টি হয়, যেখানে সব বর্ণ মিলে সাদা দেখায়।</p><p><strong>ধাপ ৪: ধাপে ধাপে সমাধান</strong><br/>রেখাছিদ্রের প্রস্থের সাথে দৃশ্যমান তরঙ্গদৈর্ঘ্যের তুলনা করে পাই:<br/>\[\frac{\lambda}{a} = \frac{4000\text{ \AA}\text{ থেকে }8000\text{ \AA}}{10000\text{ \AA}} = 0.4\text{ থেকে }0.8\]<br/>যেহেতু রেখাছিদ্রের প্রস্থ অপবর্তনের জন্য উপযুক্ত এবং কেন্দ্রে সমস্ত বর্ণের আলোকতরঙ্গ একই দশায় মিলিত হয়, তাই কেন্দ্রে একটি সূক্ষ্ম, উজ্জ্বল ও সাদা রঙের রেখাছিদ্রের প্রতিবিম্ব দেখা যায়।</p><p><strong>ধাপ ৫: যাচাই ও চূড়ান্ত উত্তর</strong><br/>প্যাটার্নের ঠিক কেন্দ্রে কোনো পথ পার্থক্য না থাকার কারণে সমস্ত দৃশ্যমান বর্ণ একত্রিত হয়ে সাদা আলোর অনুভূতি তৈরি করে।<br/>চূড়ান্ত উত্তর: কেন্দ্রে সাদা রঙের একটি সূক্ষ্ম ও সুস্পষ্ট রেখাছিদ্রের প্রতিবিম্ব গঠিত হবে।</p>]]></text>
+  </generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="100" format="html">
+    <text><![CDATA[<p>be a fine sharp slit white in colour at the center.</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>a bright slit white at the center diffusing to zero intensities at the edges.</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>a bright slit white at the center diffusing to regions of different colours.</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>only be a diffused slit white in colour.</p>]]></text>
+  </answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:bn</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>class:class_12</text></tag>
+    <tag><text>chapter:wave_optics</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:medium</text></tag>
+    <tag><text>blooms:understand</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:text</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+
+<question type="multichoice">
+  <name><text>NEET_UG_PHYSICS_WAVE_OPTICS_MCQ_Q10_3 - Phase difference between top and bottom reflected rays</text></name>
+  <questiontext format="html">
+    <text><![CDATA[<p>Consider a ray of light incident from air onto a slab of glass (refractive index \(n\)) of width \(d\), at an angle \(\theta\). The phase difference between the ray reflected by the top surface of the glass and the bottom surface is</p><hr/><p>বায়ু থেকে \(d\) বেদ এবং \(n\) প্রতিসরাঙ্কের একটি কাচের স্ল্যাবের উপর \(\theta\) কোণে একটি আলোক রশ্মি আপতিত হয়। কাচের উপরিপৃষ্ঠ থেকে প্রতিফলিত রশ্মি এবং নিম্নপৃষ্ঠ থেকে প্রতিফলিত রশ্মির মধ্যে দশা পার্থক্য কত?</p>]]></text>
+  </questiontext>
+  <generalfeedback format="html">
+    <text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>Refractive index of the slab = \(n\).<br/>Thickness (width) of the slab = \(d\).<br/>Angle of incidence from air = \(\theta\).<br/>Wavelength of light in air = \(\lambda\).</p><p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>The slab has parallel top and bottom faces. Light is incident at the top surface from a rarer medium (air) to a denser medium (glass). Reflection at the bottom surface occurs from within the glass at the glass-air boundary.</p><p><strong>Step 3: Relevant Formulae and Principles</strong><br/>1. Snell's Law: \(\sin\theta = n \sin r\), which implies \(\cos r = \sqrt{1 - \sin^2 r} = \sqrt{1 - \frac{\sin^2\theta}{n^2}}\).<br/>2. Geometric path inside the slab: The ray travels along a path of length \(\frac{d}{\cos r}\) to the bottom face and back, leading to an optical path difference between the two reflected rays given by \(\Delta x = 2 n d \cos r\).<br/>3. Phase difference due to optical path difference: \(\Delta\phi_{\text{path}} = \frac{2\pi}{\lambda} \Delta x = \frac{4\pi d}{\lambda}\left(1 - \frac{1}{n^2}\sin^2\theta\right)^{1/2}\).<br/>4. Stokes' Phase Shift on Reflection: Reflection at the top surface occurs at the boundary of a rarer medium to a denser medium (air to glass), which introduces an abrupt phase shift of \(\pi\) radians. Reflection at the bottom surface occurs at a denser-to-rarer medium boundary (glass to air), which introduces zero additional phase shift.</p><p><strong>Step 4: Step-by-Step Working</strong><br/>The total phase difference \(\Delta\phi\) between the two reflected rays is the sum of the phase difference arising from the optical path difference and the phase jump due to reflection at the rarer-denser interface:<br/>\[\Delta\phi = \Delta\phi_{\text{path}} + \pi\]<br/>Substituting the optical path phase difference:<br/>\[\Delta\phi = \frac{4\pi d}{\lambda}\left(1 - \frac{1}{n^2}\sin^2\theta\right)^{1/2} + \pi\]</p><p><strong>Step 5: Check and Final Answer</strong><br/>The presence of the \(+\pi\) term accounts for the half-wave phase change upon reflection at the interface with the optically denser medium. The term inside the square root represents \(\cos r\) in terms of the incident angle \(\theta\) and refractive index \(n\).<br/>Final Answer: \(\frac{4\pi d}{\lambda}\left(1 - \frac{1}{n^2}\sin^2\theta\right)^{1/2} + \pi\)</p><hr/><p><strong>ধাপ ১: প্রদত্ত তথ্য ও শর্তাবলী</strong><br/>কাচের স্ল্যাবের প্রতিসরাঙ্ক = \(n\)।<br/>স্ল্যাবের বেধ = \(d\)।<br/>বায়ু মাধ্যম থেকে আপতন কোণ = \(\theta\)।<br/>বায়ুতে আলোর তরঙ্গদৈর্ঘ্য = \(\lambda\)।</p><p><strong>ধাপ ২: অনুমান ও চিহ্ন প্রথা</strong><br/>স্ল্যাবের উপরিপৃষ্ঠ ও নিম্নপৃষ্ঠ পরস্পর সমান্তরাল। উপরিপৃষ্ঠে লঘু মাধ্যম (বায়ু) থেকে ঘন মাধ্যমে (কাচ) আলো প্রবেশ করে। নিম্নপৃষ্ঠে ঘন মাধ্যম থেকে লঘু মাধ্যমের বিভেদতলে প্রতিফলন ঘটে।</p><p><strong>ধাপ ৩: প্রাসঙ্গিক সূত্রাবলী ও মূলনীতি</strong><br/>১. স্নেলের সূত্র: \(\sin\theta = n \sin r\), যেখান থেকে পাওয়া যায় \(\cos r = \sqrt{1 - \sin^2 r} = \sqrt{1 - \frac{\sin^2\theta}{n^2}}\)।<br/>২. স্ল্যাবের অভ্যন্তরে আলোকীয় পথ পার্থক্য: দুটি প্রতিফলিত রশ্মির মধ্যে কার্যকর পথ পার্থক্য \(\Delta x = 2 n d \cos r\)।<br/>৩. পথ পার্থক্যের কারণে দশা পার্থক্য: \(\Delta\phi_{\text{path}} = \frac{2\pi}{\lambda}\Delta x = \frac{4\pi d}{\lambda}\left(1 - \frac{1}{n^2}\sin^2\theta\right)^{1/2}\)।<br/>৪. প্রতিফলনে স্টোকসের দশা পরিবর্তন: লঘু থেকে ঘন মাধ্যমের বিভেদতলে প্রতিফলনের সময় অতিরিক্ত \(\pi\) রেডিয়ান দশা পরিবর্তন ঘটে, কিন্তু ঘন থেকে লঘু মাধ্যমের ক্ষেত্রে কোনো অতিরিক্ত দশা পরিবর্তন হয় না।</p><p><strong>ধাপ ৪: ধাপে ধাপে সমাধান</strong><br/>উপরি ও নিম্নপৃষ্ঠ থেকে প্রতিফলিত দুটি রশ্মির মধ্যকার মোট দশা পার্থক্য হলো পথ পার্থক্যের দশা ও প্রতিফলনের কারণে দশার সমষ্টি:<br/>\[\Delta\phi = \Delta\phi_{\text{path}} + \pi\]<br/>মান বসিয়ে পাই:<br/>\[\Delta\phi = \frac{4\pi d}{\lambda}\left(1 - \frac{1}{n^2}\sin^2\theta\right)^{1/2} + \pi\]</p><p><strong>ধাপ ৫: যাচাই ও চূড়ান্ত উত্তর</strong><br/>লঘু থেকে ঘন মাধ্যমের বিভেদতলে প্রতিফলনের দরুন উৎপন্ন \(\pi\) দশার পরিবর্তনটি \(+\pi\) হিসেবে যুক্ত হয়েছে এবং বর্গমূলের ভেতরের রাশিটি প্রতিসরণ কোণ \(r\)-এর কোসাইনকে নির্দেশ করে।<br/>চূড়ান্ত উত্তর: \(\frac{4\pi d}{\lambda}\left(1 - \frac{1}{n^2}\sin^2\theta\right)^{1/2} + \pi\)</p>]]></text>
+  </generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="100" format="html">
+    <text><![CDATA[<p>\(\frac{4\pi d}{\lambda}\left(1 - \frac{1}{n^2}\sin^2\theta\right)^{1/2} + \pi\)</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(\frac{4\pi d}{\lambda}\left(1 - \frac{1}{n^2}\sin^2\theta\right)^{1/2}\)</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(\frac{4\pi d}{\lambda}\left(1 - \frac{1}{n^2}\sin^2\theta\right)^{1/2} + \frac{\pi}{2}\)</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(\frac{4\pi d}{\lambda}\left(1 - \frac{1}{n^2}\sin^2\theta\right)^{1/2} + 2\pi\)</p>]]></text>
+  </answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:bn</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>class:class_12</text></tag>
+    <tag><text>chapter:wave_optics</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:hard</text></tag>
+    <tag><text>blooms:analyze</text></tag>
+    <tag><text>calculation:moderate</text></tag>
+    <tag><text>media:equation</text></tag>
+    <tag><text>multiconcept:true</text></tag>
+  </tags>
+</question>
+
+<question type="multichoice">
+  <name><text>NEET_UG_PHYSICS_WAVE_OPTICS_MCQ_Q10_4 - Young double slit experiment with color filters</text></name>
+  <questiontext format="html">
+    <text><![CDATA[<p>In a Young's double slit experiment, the source is white light. One of the holes is covered by a red filter and another by a blue filter. In this case</p><hr/><p>একটি ইয়ং-এর দ্বি-রেখাছিদ্র পরীক্ষায় আলোক উৎসটি হলো সাদা আলো। রেখাছিদ্র দুটির একটিকে লাল ফিল্টার এবং অপরটিকে নীল ফিল্টার দিয়ে ঢেকে দেওয়া হলো। এই ক্ষেত্রে কী ঘটবে?</p>]]></text>
+  </questiontext>
+  <generalfeedback format="html">
+    <text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>In Young's double slit experiment, the primary light source emits white light. One slit is covered with a red filter transmitting only red light of frequency \(\nu_R\), while the second slit is covered with a blue filter transmitting only blue light of frequency \(\nu_B\).</p><p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>The filters are monochromatic or narrow-band filters. Standard wave superposition model applies.</p><p><strong>Step 3: Relevant Formulae and Principles</strong><br/>1. Condition for Sustained Interference: For two waves to produce a sustained, observable interference pattern on a screen, the two light sources must be coherent. Coherence requires a constant phase difference over time, which fundamentally requires both waves to have the exact same frequency (\(\nu_1 = \nu_2\)).<br/>2. Intensity Superposition: The instantaneous resultant intensity is \(I(t) = I_1 + I_2 + 2\sqrt{I_1 I_2}\cos[(\omega_1 - \omega_2)t + \Delta\phi]\).<br/>3. Time Averaging: The observed intensity is the time average over the detector's response time \(\tau\). When \(\omega_1 \neq \omega_2\), the cross-term oscillates with difference frequency \(\Delta\omega = |\omega_1 - \omega_2| \sim 10^{14}\text{ rad/s}\). Since any detector's response time is far longer than \(\frac{1}{\Delta\omega}\), the time average of the cosine term is identically zero: \(\langle \cos[(\omega_1 - \omega_2)t + \Delta\phi] \rangle = 0\).</p><p><strong>Step 4: Step-by-Step Working</strong><br/>Because red light and blue light have completely different wavelengths and frequencies (\(\lambda_R \approx 650\text{ nm}\), \(\lambda_B \approx 450\text{ nm}\), hence \(\nu_R \neq \nu_B\)), the waves emerging from the two slits cannot maintain a constant phase relationship.<br/>The interference term vanishes upon time averaging, giving a uniform resultant intensity on the screen:<br/>\[\langle I \rangle = I_R + I_B\]<br/>No spatial variation or intensity modulation occurs across the screen.</p><p><strong>Step 5: Check and Final Answer</strong><br/>Without coherence between the two slits, no constructive or destructive interference can be sustained. As a result, no interference fringes are formed.<br/>Final Answer: There shall be no interference fringes.</p><hr/><p><strong>ধাপ ১: প্রদত্ত তথ্য ও শর্তাবলী</strong><br/>ইয়ং-এর দ্বি-রেখাছিদ্র পরীক্ষায় সাদা আলোর উৎস ব্যবহার করা হয়েছে। একটি রেখাছিদ্রকে লাল ফিল্টার দিয়ে ঢাকা হয়েছে যা \(\nu_R\) কম্পাঙ্কের লাল আলো নির্গত করে, এবং অপর রেখাছিদ্রটিকে নীল ফিল্টার দিয়ে ঢাকা হয়েছে যা \(\nu_B\) কম্পাঙ্কের নীল আলো নির্গত করে।</p><p><strong>ধাপ ২: অনুমান ও চিহ্ন প্রথা</strong><br/>ফিল্টার দুটি যথাক্রমে লাল ও নীল আলোর তরঙ্গ সঞ্চালিত করে। আলোক তরঙ্গের উপরিপাতন নীতি প্রযোজ্য।</p><p><strong>ধাপ ৩: প্রাসঙ্গিক সূত্রাবলী ও মূলনীতি</strong><br/>১. স্থায়ী ব্যতিচারের শর্ত: পর্দায় স্থায়ী এবং দৃশ্যমান ব্যতিচার ঝালর সৃষ্টির জন্য দুটি উৎসকে অবশ্যই সুসঙ্গত হতে হয়। সুসঙ্গত হওয়ার মূল শর্ত হলো উৎস দুটির কম্পাঙ্ক বা তরঙ্গদৈর্ঘ্য সমান হতে হবে এবং তাদের মধ্যে সময়ের ব্যবধানে দশা পার্থক্য ধ্রুবক থাকতে হবে।<br/>২. উপরিপাতিত তীব্রতা: দুটি তরঙ্গের উপরিপাতনে তাৎক্ষণিক তীব্রতার সমীকরণ \(I(t) = I_1 + I_2 + 2\sqrt{I_1 I_2}\cos[(\omega_1 - \omega_2)t + \Delta\phi]\)।<br/>৩. সময়ের গড়: কম্পাঙ্ক ভিন্ন হলে ব্যতিচার পদটির কোসাইন অংশটি অতি দ্রুত পরিবর্তিত হয় এবং সময়ের সাপেক্ষে এর গড় মান শূন্য হয়ে যায়।</p><p><strong>ধাপ ৪: ধাপে ধাপে সমাধান</strong><br/>যেহেতু লাল এবং নীল আলোর তরঙ্গদৈর্ঘ্য ও কম্পাঙ্ক সম্পূর্ণ ভিন্ন (\(\nu_R \neq \nu_B\)), তাই দুটি রেখাছিদ্র থেকে নির্গত তরঙ্গের মধ্যে কোনো নির্দিষ্ট দশা সম্পর্ক থাকে না।<br/>সময়ের গড় নিলে ব্যতিচার পদটি বিলুপ্ত হয়:<br/>\[\langle I \rangle = I_R + I_B\]<br/>ফলে পর্দায় তীব্রতার কোনো পর্যায়ক্রমিক হ্রাস-বৃদ্ধি দেখা যায় না।</p><p><strong>ধাপ ৫: যাচাই ও চূড়ান্ত উত্তর</strong><br/>উৎস দুটির মধ্যে সুসংগততার অভাবে কোনো গঠনমূলক বা ধ্বংসাত্মক ব্যতিচার তৈরি হতে পারে না, ফলে পর্দায় কোনো ব্যতিচার ঝালর গঠিত হয় না।<br/>চূড়ান্ত উত্তর: কোনো ব্যতিচার ঝালর সৃষ্টি হবে না।</p>]]></text>
+  </generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>there shall be alternate interference patterns of red and blue.</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>there shall be an interference pattern for red distinct from that for blue.</p>]]></text>
+  </answer>
+  <answer fraction="100" format="html">
+    <text><![CDATA[<p>there shall be no interference fringes.</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>there shall be an interference pattern for red mixing with one for blue.</p>]]></text>
+  </answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:bn</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>class:class_12</text></tag>
+    <tag><text>chapter:wave_optics</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:easy</text></tag>
+    <tag><text>blooms:understand</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:text</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+
+<question type="multichoice">
+  <name><text>NEET_UG_PHYSICS_WAVE_OPTICS_MCQ_Q10_5 - Two slit arrangement with second screen behind minimum</text></name>
+  <questiontext format="html">
+    <text><![CDATA[<p>Figure shows a standard two slit arrangement with slits \(S_1, S_2\). \(P_1, P_2\) are the two minima points on either side of P.</p><p><img src="@@PLUGINFILE@@/img-1.jpeg" alt="Fig. 10.2" /></p><p>At \(P_2\) on the screen, there is a hole and behind \(P_2\) is a second 2-slit arrangement with slits \(S_3, S_4\) and a second screen behind them.</p><hr/><p>চিত্রে \(S_1, S_2\) রেখাছিদ্র বিশিষ্ট একটি সাধারণ দ্বি-রেখাছিদ্র ব্যবস্থা প্রদর্শিত হয়েছে। \(P\)-এর উভয় পাশে \(P_1, P_2\) হলো দুটি অবম বিন্দু।</p><p>পর্দার \(P_2\) বিন্দুতে একটি ছিদ্র রয়েছে এবং \(P_2\)-এর পেছনে \(S_3, S_4\) রেখাছিদ্র বিশিষ্ট দ্বিতীয় একটি দ্বি-রেখাছিদ্র ব্যবস্থা ও তার পেছনে একটি দ্বিতীয় পর্দা রয়েছে।</p>]]></text>
+  </questiontext>
+  <generalfeedback format="html">
+    <text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>A standard double-slit setup consists of primary slits \(S_1\) and \(S_2\) producing an interference pattern on the first screen. Points \(P_1\) and \(P_2\) are first-order minima situated symmetrically on either side of the central maximum at P. A small hole is made at the minimum position \(P_2\). A second double-slit apparatus with slits \(S_3\) and \(S_4\) is placed behind \(P_2\), followed by a second screen.</p><p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>Huygens' principle applies to wave propagation through apertures. The hole at \(P_2\) has dimensions allowing diffraction wavelets to spread over both slits \(S_3\) and \(S_4\).</p><p><strong>Step 3: Relevant Formulae and Principles</strong><br/>1. Nature of an Interference Minimum: At a destructive interference minimum \(P_2\), the net resultant amplitude is zero because waves from \(S_1\) and \(S_2\) arrive with equal amplitudes and a phase difference of \(\pi\). However, light waves are physically present at \(P_2\); destructive interference does not destroy the wavefields, but rather redistributes energy.<br/>2. Huygens' Principle: Any aperture or point exposed to wave disturbance acts as a source of secondary wavelets.<br/>3. Single Secondary Source Coherence: Light passing through the small hole at \(P_2\) emerges as a single coherent wavefront that spreads out and illuminates both slits \(S_3\) and \(S_4\).<br/>4. Two-Slit Interference: When two slits are illuminated by wavelets originating from the same single secondary source (\(P_2\)), they maintain a constant phase difference and act as mutually coherent sources, producing a standard two-slit interference pattern on the second screen.</p><p><strong>Step 4: Step-by-Step Working</strong><br/>Light waves from \(S_1\) and \(S_2\) reach the aperture at \(P_2\). The aperture at \(P_2\) samples the field and acts as a localized source emitting secondary spherical waves towards slits \(S_3\) and \(S_4\).<br/>Because both \(S_3\) and \(S_4\) receive light exclusively from this single localized aperture at \(P_2\), the waves entering \(S_3\) and \(S_4\) are coherent.<br/>The superposition of light from the coherent slits \(S_3\) and \(S_4\) on the second screen therefore forms a regular double-slit interference pattern of alternating bright and dark fringes.</p><p><strong>Step 5: Check and Final Answer</strong><br/>Although \(P_2\) is a point of minimum intensity, light passing through the aperture acts as a new source of secondary wavelets that illuminates both \(S_3\) and \(S_4\) coherently, establishing a standard fringe pattern on the second screen.<br/>Final Answer: There would be a regular two slit pattern on the second screen.</p><hr/><p><strong>ধাপ ১: প্রদত্ত তথ্য ও শর্তাবলী</strong><br/>একটি দ্বি-রেখাছিদ্র ব্যবস্থায় \(S_1\) এবং \(S_2\) প্রথম পর্দায় ব্যতিচার প্যাটার্ন তৈরি করে। কেন্দ্রীয় চরম বিন্দু P-এর উভয় পাশে \(P_1\) এবং \(P_2\) হলো প্রথম ক্রমের অবম বিন্দু। \(P_2\) অবম বিন্দুতে পর্দায় একটি ক্ষুদ্র ছিদ্র তৈরি করা হয়েছে। \(P_2\)-এর পেছনে \(S_3\) এবং \(S_4\) রেখাছিদ্র বিশিষ্ট দ্বিতীয় একটি দ্বি-রেখাছিদ্র ব্যবস্থা এবং তার পেছনে দ্বিতীয় একটি পর্দা স্থাপন করা হয়েছে।</p><p><strong>ধাপ ২: অনুমান ও চিহ্ন প্রথা</strong><br/>হাইজেন্সের নীতি অনুযায়ী ছিদ্রের মধ্য দিয়ে গৌণ তরঙ্গের বিস্তার ঘটে। \(P_2\)-এর ছিদ্রটি এমন আকারের যা থেকে তরঙ্গ উভয় রেখাছিদ্র \(S_3\) এবং \(S_4\)-এ পৌঁছায়।</p><p><strong>ধাপ ৩: প্রাসঙ্গিক সূত্রাবলী ও মূলনীতি</strong><br/>১. ব্যতিচার অবমের প্রকৃতি: ধ্বংসাত্মক ব্যতিচারের কারণে অবম বিন্দু \(P_2\)-তে লব্ধি বিস্তার শূন্য হয় কারণ \(S_1\) ও \(S_2\) থেকে আসা তরঙ্গ দুটি বিপরীত দশায় (\(\pi\) দশা পার্থক্য) মিলিত হয়। কিন্তু আলো বা আলোকীয় শক্তির ক্ষেত্র সেখানে ভৌতভাবে উপস্থিত থাকে।<br/>২. হাইজেন্সের নীতি: তরঙ্গমুখের যে কোনো বিন্দু বা উন্মুক্ত ছিদ্র গৌণ গোলকীয় তরঙ্গের উৎস হিসেবে কাজ করে।<br/>৩. একক গৌণ উৎসের সুসংগততা: \(P_2\) ছিদ্রটি একটি একক বিন্দু উৎসের ন্যায় আচরণ করে যা থেকে নির্গত তরঙ্গমুখ \(S_3\) এবং \(S_4\) রেখাছিদ্র দুটিকে আলোকিত করে।<br/>৪. দ্বি-রেখাছিদ্র ব্যতিচার: যেহেতু \(S_3\) ও \(S_4\) একই উৎস (\(P_2\)) থেকে আলো গ্রহণ করে, তাই তারা পরস্পরের সাথে সুসঙ্গত থাকে এবং দ্বিতীয় পর্দায় স্বাভাবিক দ্বি-রেখাছিদ্র ব্যতিচার তৈরি করে।</p><p><strong>ধাপ ৪: ধাপে ধাপে সমাধান</strong><br/>\(P_2\) বিন্দুতে অবস্থিত ছিদ্রটি হাইজেন্সের গৌণ তরঙ্গের উৎস হিসেবে কাজ করে গোলকীয় তরঙ্গ নির্গত করে।<br/>এই গৌণ তরঙ্গ \(S_3\) এবং \(S_4\) উভয় রেখাছিদ্রে পৌঁছায়। যেহেতু উভয় রেখাছিদ্র একটিমাত্র উৎস থেকে আলো পায়, তাই তাদের মধ্যে দশা সম্পর্ক সর্বদা ধ্রুবক থাকে (তারা সুসঙ্গত)।<br/>ফলস্বরূপ, দ্বিতীয় পর্দায় আলো ও অন্ধকারের স্বাভাবিক পর্যায়ক্রমিক দুই-রেখাছিদ্র ব্যতিচার ঝালর সৃষ্টি হয়।</p><p><strong>ধাপ ৫: যাচাই ও চূড়ান্ত উত্তর</strong><br/>\(P_2\) একটি অবম বিন্দু হওয়া সত্ত্বেও, ছিদ্রের মধ্য দিয়ে নির্গত আলো একটি নতুন সুসঙ্গত উৎস সৃষ্টি করে যা \(S_3\) ও \(S_4\)-এর মাধ্যমে দ্বিতীয় পর্দায় নিয়মিত ব্যতিচার গঠন করে।<br/>চূড়ান্ত উত্তর: দ্বিতীয় পর্দায় একটি স্বাভাবিক বা নিয়মিত দ্বি-রেখাছিদ্র প্যাটার্ন সৃষ্টি হবে।</p>]]></text>
+  </generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>There would be no interference pattern on the second screen but it would be lighted.</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>The second screen would be totally dark.</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>There would be a single bright point on the second screen.</p>]]></text>
+  </answer>
+  <answer fraction="100" format="html">
+    <text><![CDATA[<p>There would be a regular two slit pattern on the second screen.</p>]]></text>
+  </answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:bn</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>class:class_12</text></tag>
+    <tag><text>chapter:wave_optics</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:medium</text></tag>
+    <tag><text>blooms:analyze</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:diagram</text></tag>
+    <tag><text>multiconcept:true</text></tag>
+  </tags>
+</question>

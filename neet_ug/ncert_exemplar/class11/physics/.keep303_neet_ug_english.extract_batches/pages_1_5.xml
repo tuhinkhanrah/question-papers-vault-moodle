@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+<question type="multichoice">
+  <name>
+    <text>NEET_UG_PHYSICS_MCQ_Q01 - Average velocity vanishing for chosen time interval</text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>Among the four graphs, there is only one graph for which average velocity over the time interval \( (0, T) \) can vanish for a suitably chosen \( T \). Which one is it?</p>]]></text>
+  </questiontext>
+  <generalfeedback format="html">
+    <text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>Four position-time (\(x\)-\(t\)) graphs describe one-dimensional motion beginning at \(t = 0\). The objective is to identify the graph for which the average velocity over the time interval \((0, T)\) vanishes for some suitably chosen \(T > 0\).</p><p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>Motion takes place along a straight line with coordinate position \(x\) as a function of time \(t \ge 0\). The average velocity over an interval \((0, T)\) is defined as the net displacement divided by the elapsed time duration.</p><p><strong>Step 3: Relevant Formulae and Principles</strong><br/>Average velocity \(\bar{v}\) over the interval from \(t = 0\) to \(t = T\) is given by:\[ \bar{v} = \frac{x(T) - x(0)}{T} \]For \(\bar{v} = 0\), the numerator must vanish:\[ x(T) - x(0) = 0 \implies x(T) = x(0) \]Geometrically, this condition requires that a horizontal line drawn from the initial position \(x(0)\) at \(t = 0\) intersects the position-time curve again at a later time \(t = T > 0\).</p><p><strong>Step 4: Step-by-Step Working</strong><br/>Analyzing each curve conceptually:<ul><li>In the curve that begins at a negative position, rises monotonically to a peak, and levels off in the positive region, the position never returns to the negative initial value. Hence, \(x(T) \neq x(0)\) for all \(T > 0\).</li><li>In the curve that starts at an initial positive position, rises to a maximum, and subsequently falls below that starting position, a horizontal line drawn through \(x(0)\) crosses the curve again at a later time \(T > 0\). At this intersection, \(x(T) = x(0)\), producing zero net displacement and zero average velocity.</li><li>In the curve that continuously decreases from a positive value toward the time axis, the function is strictly monotonic, so the position never repeats any past value.</li><li>In the curve that starts from the origin and continuously increases, the function is strictly increasing, so the position never returns to the origin.</li></ul></p><p><strong>Step 5: Check and Final Answer</strong><br/>Only the curve that rises from an initial positive value to a maximum and subsequently descends back to cross that same initial value permits \(x(T) = x(0)\) for a finite time \(T > 0\), ensuring the average velocity vanishes.<br/>The correct graph is the one where the position starts at a positive value, peaks, and then decreases back to its initial level.</p>]]></text>
+  </generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p><img src="@@PLUGINFILE@@/img-0.jpeg" alt="Graph showing position rising from negative to positive" /></p>]]></text>
+  </answer>
+  <answer fraction="100" format="html">
+    <text><![CDATA[<p><img src="@@PLUGINFILE@@/img-1.jpeg" alt="Graph showing position starting positive, peaking, and falling back" /></p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p><img src="@@PLUGINFILE@@/img-2.jpeg" alt="Graph showing position monotonically decreasing" /></p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p><img src="@@PLUGINFILE@@/img-3.jpeg" alt="Graph showing position monotonically increasing from origin" /></p>]]></text>
+  </answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>class:class_11</text></tag>
+    <tag><text>chapter:motion_in_a_straight_line</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:medium</text></tag>
+    <tag><text>blooms:understand</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:graph</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+<question type="multichoice">
+  <name>
+    <text>NEET_UG_PHYSICS_MCQ_Q02 - Lift descending towards fourth floor deceleration signs</text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>A lift is coming from 8th floor and is just about to reach 4th floor. Taking ground floor as origin and positive direction upwards for all quantities, which one of the following is correct?</p>]]></text>
+  </questiontext>
+  <generalfeedback format="html">
+    <text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>A lift descends from the 8th floor toward the 4th floor and is just about to reach the 4th floor to come to rest. The ground floor serves as the origin, and the upward direction is defined as positive for all kinematic quantities.</p><p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>- Upward direction is positive (\(+\)).<br/>- Downward direction is negative (\(-\)).<br/>- Downward displacement and downward velocity are negative.<br/>- Upward acceleration is positive.</p><p><strong>Step 3: Relevant Formulae and Principles</strong><br/>- Velocity \(v\) indicates the direction of motion: downward motion corresponds to \(v < 0\).<br/>- Considering the downward displacement from the initial 8th-floor position as the lift travels toward the 4th floor, the displacement vector points downward, giving \(x < 0\).<br/>- Deceleration (retardation) occurs when acceleration opposes the velocity: for \(v < 0\), slowing down requires \(a > 0\).</p><p><strong>Step 4: Step-by-Step Working</strong><br/>- As the lift moves downward from the 8th floor toward the 4th floor, its displacement measured along the direction of motion is downward, so \(x < 0\).<br/>- Because the lift is traveling downward, its velocity is negative: \(v < 0\).<br/>- As the lift approaches the 4th floor, it retards to come to a stop. For a downward-moving object with negative velocity, deceleration requires an upward force and upward acceleration, meaning \(a > 0\).</p><p><strong>Step 5: Check and Final Answer</strong><br/>Combining these directions gives \(x < 0\), \(v < 0\), and \(a > 0\).<br/>The correct condition is \(x < 0\), \(v < 0\), \(a > 0\).</p>]]></text>
+  </generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="100" format="html">
+    <text><![CDATA[<p>\(x < 0\), \(v < 0\), \(a > 0\)</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(x > 0\), \(v < 0\), \(a < 0\)</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(x > 0\), \(v < 0\), \(a > 0\)</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(x > 0\), \(v > 0\), \(a < 0\)</p>]]></text>
+  </answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>class:class_11</text></tag>
+    <tag><text>chapter:motion_in_a_straight_line</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:medium</text></tag>
+    <tag><text>blooms:understand</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:text</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+<question type="multichoice">
+  <name>
+    <text>NEET_UG_PHYSICS_MCQ_Q03 - Instantaneous speed and displacement bounds in motion</text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>In one dimensional motion, instantaneous speed \(v\) satisfies \(0 \le v < v_0\).</p>]]></text>
+  </questiontext>
+  <generalfeedback format="html">
+    <text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>A particle executes one-dimensional motion. Its instantaneous speed satisfies the strict bound \(0 \le v < v_0\), where \(v_0 > 0\) is a constant maximum threshold speed.</p><p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>Motion occurs along a straight line coordinate axis \(x\). The instantaneous velocity \(v_x(t)\) can be positive or negative, with its magnitude bounded by \(|v_x(t)| < v_0\).</p><p><strong>Step 3: Relevant Formulae and Principles</strong><br/>The net displacement \(x\) over time duration \(T\) is given by the definite integral of velocity:\[ x = \int_0^T v_x(t)\, dt \]Since \(-v_0 < v_x(t) < v_0\) holds for all \(t \in [0, T]\), the integral satisfies:\[ \int_0^T (-v_0)\, dt < \int_0^T v_x(t)\, dt < \int_0^T v_0\, dt \implies -v_0 T < x < v_0 T \]</p><p><strong>Step 4: Step-by-Step Working</strong><br/>- Maximum possible displacement in the positive direction occurs if the particle travels continuously in that direction, which is strictly less than \(v_0 T\).<br/>- Maximum possible displacement in the negative direction occurs if the particle travels continuously in the opposite direction, which is strictly greater than \(-v_0 T\).<br/>- Therefore, displacement \(x\) must strictly satisfy \(-v_0 T < x < v_0 T\).<br/>- The displacement can be negative if motion is toward the negative axis, so it need not always take non-negative values.<br/>- Acceleration is the time rate of change of velocity, which can be positive, negative, or zero.<br/>- The velocity can change sign from positive to negative or vice versa, meaning turning points can certainly occur.</p><p><strong>Step 5: Check and Final Answer</strong><br/>The strict magnitude bound on speed inherently limits the displacement to lie between \(-v_0 T\) and \(v_0 T\).<br/>The displacement \(x\) in time \(T\) satisfies \(-v_0 T < x < v_0 T\).</p>]]></text>
+  </generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>The displacement in time \(T\) must always take non-negative values.</p>]]></text>
+  </answer>
+  <answer fraction="100" format="html">
+    <text><![CDATA[<p>The displacement \(x\) in time \(T\) satisfies \(-v_0 T < x < v_0 T\).</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>The acceleration is always a non-negative number.</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>The motion has no turning points.</p>]]></text>
+  </answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>class:class_11</text></tag>
+    <tag><text>chapter:motion_in_a_straight_line</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:easy</text></tag>
+    <tag><text>blooms:understand</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:text</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+<question type="multichoice">
+  <name>
+    <text>NEET_UG_PHYSICS_MCQ_Q04 - Average speed for vehicle traveling two half distances</text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>A vehicle travels half the distance \(L\) with speed \(V_1\) and the other half with speed \(V_2\), then its average speed is</p>]]></text>
+  </questiontext>
+  <generalfeedback format="html">
+    <text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>A vehicle covers a total distance \(L\). The first half distance \(d_1 = \frac{L}{2}\) is covered at speed \(V_1\), and the second half distance \(d_2 = \frac{L}{2}\) is covered at speed \(V_2\).</p><p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>The speeds \(V_1\) and \(V_2\) are constant scalar speeds over their respective distance intervals.</p><p><strong>Step 3: Relevant Formulae and Principles</strong><br/>Average speed is defined as total distance divided by total time:\[ v_{\text{avg}} = \frac{d_{\text{total}}}{t_{\text{total}}} = \frac{L}{t_1 + t_2} \]where \(t_1 = \frac{d_1}{V_1}\) and \(t_2 = \frac{d_2}{V_2}\).</p><p><strong>Step 4: Step-by-Step Working</strong><br/>- Time taken for the first half:\[ t_1 = \frac{L/2}{V_1} = \frac{L}{2V_1} \]- Time taken for the second half:\[ t_2 = \frac{L/2}{V_2} = \frac{L}{2V_2} \]- Total time taken:\[ t_{\text{total}} = t_1 + t_2 = \frac{L}{2V_1} + \frac{L}{2V_2} = \frac{L}{2}\left(\frac{V_1 + V_2}{V_1 V_2}\right) \]- Average speed:\[ v_{\text{avg}} = \frac{L}{t_{\text{total}}} = \frac{L}{\frac{L(V_1 + V_2)}{2V_1 V_2}} = \frac{2V_1 V_2}{V_1 + V_2} \]</p><p><strong>Step 5: Check and Final Answer</strong><br/>When \(V_1 = V_2 = V\), \(v_{\text{avg}} = \frac{2V^2}{2V} = V\), which confirms physical consistency. The result corresponds to the harmonic mean of the two speeds.<br/>The correct average speed is \(\frac{2V_1 V_2}{V_1 + V_2}\).</p>]]></text>
+  </generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(\frac{V_1 + V_2}{2}\)</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(\frac{2V_1 + V_2}{V_1 + V_2}\)</p>]]></text>
+  </answer>
+  <answer fraction="100" format="html">
+    <text><![CDATA[<p>\(\frac{2V_1 V_2}{V_1 + V_2}\)</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(\frac{L(V_1 + V_2)}{V_1 V_2}\)</p>]]></text>
+  </answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>class:class_11</text></tag>
+    <tag><text>chapter:motion_in_a_straight_line</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:easy</text></tag>
+    <tag><text>blooms:apply</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:text</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+<question type="multichoice">
+  <name>
+    <text>NEET_UG_PHYSICS_MCQ_Q05 - Distance covered by particle in first four seconds</text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>The displacement of a particle is given by \(x = (t - 2)^2\) where \(x\) is in metres and \(t\) in seconds. The distance covered by the particle in first 4 seconds is</p>]]></text>
+  </questiontext>
+  <generalfeedback format="html">
+    <text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>The position function is \(x(t) = (t - 2)^2\), with position \(x\) in metres and time \(t\) in seconds. The interval of interest is from \(t = 0\text{ s}\) to \(t = 4\text{ s}\).</p><p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>Motion takes place in one dimension along the \(x\)-axis. Distance is the total path length traversed, which accumulates regardless of the direction of motion, while displacement is the net difference between final and initial positions.</p><p><strong>Step 3: Relevant Formulae and Principles</strong><br/>- Instantaneous velocity:\[ v(t) = \frac{dx}{dt} \]- A turning point occurs where \(v(t) = 0\).<br/>- Total distance is calculated by summing the absolute path lengths traveled across each monotonic segment between turning points.</p><p><strong>Step 4: Step-by-Step Working</strong><br/>- Differentiating position with respect to time:\[ v(t) = \frac{d}{dt}\left[(t - 2)^2\right] = 2(t - 2)\text{ m/s} \]- Setting velocity to zero to identify turning points:\[ 2(t - 2) = 0 \implies t = 2\text{ s} \]Since \(t = 2\text{ s}\) lies within \([0, 4\text{ s}]\), the particle changes its direction of motion at \(t = 2\text{ s}\).<br/>- Finding positions at boundaries and the turning point:<ul><li>At \(t = 0\text{ s}\): \(x(0) = (0 - 2)^2 = 4\text{ m}\)</li><li>At \(t = 2\text{ s}\): \(x(2) = (2 - 2)^2 = 0\text{ m}\)</li><li>At \(t = 4\text{ s}\): \(x(4) = (4 - 2)^2 = 4\text{ m}\)</li></ul>- Distance traveled during \(t = 0\text{ s}\) to \(t = 2\text{ s}\):\[ s_1 = |x(2) - x(0)| = |0 - 4| = 4\text{ m} \]- Distance traveled during \(t = 2\text{ s}\) to \(t = 4\text{ s}\):\[ s_2 = |x(4) - x(2)| = |4 - 0| = 4\text{ m} \]- Total distance covered in the first 4 seconds:\[ s = s_1 + s_2 = 4\text{ m} + 4\text{ m} = 8\text{ m} \]</p><p><strong>Step 5: Check and Final Answer</strong><br/>The net displacement over 4 seconds is \(x(4) - x(0) = 4 - 4 = 0\text{ m}\), but accounting for the reversal of direction at \(t = 2\text{ s}\) yields a total path length of \(8\text{ m}\).<br/>The distance covered by the particle in the first 4 seconds is \(8\text{ m}\).</p>]]></text>
+  </generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(4\text{ m}\)</p>]]></text>
+  </answer>
+  <answer fraction="100" format="html">
+    <text><![CDATA[<p>\(8\text{ m}\)</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(12\text{ m}\)</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(16\text{ m}\)</p>]]></text>
+  </answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>class:class_11</text></tag>
+    <tag><text>chapter:motion_in_a_straight_line</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:medium</text></tag>
+    <tag><text>blooms:apply</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:text</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+<question type="multichoice">
+  <name>
+    <text>NEET_UG_PHYSICS_MCQ_Q06 - Time taken to walk up a moving escalator</text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>At a metro station, a girl walks up a stationary escalator in time \(t_1\). If she remains stationary on the escalator, then the escalator takes her up in time \(t_2\). The time taken by her to walk up on the moving escalator will be</p>]]></text>
+  </questiontext>
+  <generalfeedback format="html">
+    <text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>Let the distance along the escalator be \(L\).<br/>- Time taken by the girl walking up the stationary escalator: \(t_1\)<br/>- Time taken by the escalator moving with the stationary girl: \(t_2\)<br/>We need to determine the time \(t\) taken by the girl when she walks up the moving escalator.</p><p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>Motion is along the straight path of the escalator in the upward direction. Both speeds are constant and reinforce each other.</p><p><strong>Step 3: Relevant Formulae and Principles</strong><br/>- Speed of the girl relative to the escalator:\[ v_{\text{girl}} = \frac{L}{t_1} \]- Speed of the escalator relative to the ground:\[ v_{\text{esc}} = \frac{L}{t_2} \]- When she walks up the moving escalator, the resultant speed relative to the ground is:\[ v = v_{\text{girl}} + v_{\text{esc}} \]- Time taken to travel distance \(L\) at speed \(v\) is:\[ t = \frac{L}{v} \]</p><p><strong>Step 4: Step-by-Step Working</strong><br/>- Adding the two speeds:\[ v = \frac{L}{t_1} + \frac{L}{t_2} = L\left(\frac{1}{t_1} + \frac{1}{t_2}\right) = L\left(\frac{t_1 + t_2}{t_1 t_2}\right) \]- Calculating the time taken:\[ t = \frac{L}{v} = \frac{L}{L\left(\frac{t_1 + t_2}{t_1 t_2}\right)} = \frac{t_1 t_2}{t_1 + t_2} \]</p><p><strong>Step 5: Check and Final Answer</strong><br/>Checking dimensional consistency gives units of time, and the resulting time is strictly less than either \(t_1\) or \(t_2\), which is physically required since both motions assist each other.<br/>The time taken by her to walk up on the moving escalator is \(\frac{t_1 t_2}{t_2 + t_1}\).</p>]]></text>
+  </generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(\frac{t_1 + t_2}{2}\)</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(\frac{t_1 t_2}{t_2 - t_1}\)</p>]]></text>
+  </answer>
+  <answer fraction="100" format="html">
+    <text><![CDATA[<p>\(\frac{t_1 t_2}{t_2 + t_1}\)</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\(t_1 - t_2\)</p>]]></text>
+  </answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>class:class_11</text></tag>
+    <tag><text>chapter:motion_in_a_straight_line</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:easy</text></tag>
+    <tag><text>blooms:apply</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:text</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+</quiz>

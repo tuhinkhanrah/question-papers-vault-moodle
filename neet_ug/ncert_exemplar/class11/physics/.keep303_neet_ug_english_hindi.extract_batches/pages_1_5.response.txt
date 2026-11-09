@@ -1,0 +1,472 @@
+<question type="multichoice">
+  <name>
+    <text>NEET_UG_PHYSICS_2025_MOTION_IN_A_STRAIGHT_LINE_MCQ_Q01 - Vanishing average velocity over time interval</text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>Among the four graphs, there is only one graph for which average velocity over the time interval \( (0, T) \) can vanish for a suitably chosen \( T \). Which one is it?</p><hr/><p>चारों आलेखों में से केवल एक आलेख ऐसा है जिसके लिए उपयुक्त रूप से चुने गए समयांतराल \( (0, T) \) में औसत वेग शून्य हो सकता है। वह कौन-सा आलेख है?</p>]]></text>
+  </questiontext>
+  <generalfeedback format="html">
+    <text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>We are given four position-time graphs for one-dimensional motion. We need to identify which graph allows the average velocity over the time interval \( (0, T) \) to vanish for a suitably chosen time \( T > 0 \).</p><p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>The motion takes place along a straight line. Position is denoted by \( x(t) \) and time by \( t \). The initial position at \( t = 0 \) is \( x(0) \).</p><p><strong>Step 3: Relevant Formulae and Principles</strong><br/>The average velocity over a time interval \( [0, T] \) is given by:
+\[
+v_{\text{avg}} = \frac{x(T) - x(0)}{T}
+\]
+For the average velocity to vanish:
+\[
+v_{\text{avg}} = 0 \iff x(T) - x(0) = 0 \iff x(T) = x(0)
+\]
+Geometrically, this requires that a horizontal line drawn at the initial position level \( x = x(0) \) intersects the position-time curve at a subsequent time \( t = T > 0 \).</p><p><strong>Step 4: Step-by-Step Working</strong><br/>Analyzing the behavior of the given position-time curves:
+- For a curve where position starts at a positive value, increases to a local peak, and then decreases continuously below the starting position value, the position function is continuous. By the Intermediate Value Theorem, there must exist an instant \( T > 0 \) where the position equals the starting position, \( x(T) = x(0) \).
+- For strictly monotonic curves (either strictly increasing or strictly decreasing), the position never repeats any previously attained value; therefore, \( x(T) \neq x(0) \) for all \( T > 0 \), and the displacement cannot vanish.
+- For a curve that starts negative, crosses the time axis into positive territory, and remains positive without returning to the initial negative position, displacement also cannot vanish.</p><p><strong>Step 5: Check and Final Answer</strong><br/>Only the graph that starts at a positive value, reaches a peak, and then decreases below its initial level satisfies \( x(T) = x(0) \) for a suitably chosen \( T > 0 \), making the average velocity zero.</p><hr/><p><strong>Step 1: दिए गए आँकड़े और स्थितियाँ</strong><br/>एकविमीय गति के लिए चार स्थिति-समय आलेख दिए गए हैं। हमें यह पहचानना है कि किस आलेख के लिए उपयुक्त रूप से चुने गए समय \( T > 0 \) पर समयांतराल \( (0, T) \) में औसत वेग शून्य हो सकता है।</p><p><strong>Step 2: मान्यताएँ और चिह्न परिपाटी</strong><br/>गति एक सरल रेखा के अनुदिश है। स्थिति को \( x(t) \) तथा समय को \( t \) द्वारा दर्शाया गया है। \( t = 0 \) पर प्रारंभिक स्थिति \( x(0) \) है।</p><p><strong>Step 3: प्रासंगिक सूत्र और सिद्धांत</strong><br/>समयांतराल \( [0, T] \) में औसत वेग निम्न सूत्र द्वारा दिया जाता है:
+\[
+v_{\text{avg}} = \frac{x(T) - x(0)}{T}
+\]
+औसत वेग के शून्य होने के लिए:
+\[
+v_{\text{avg}} = 0 \iff x(T) - x(0) = 0 \iff x(T) = x(0)
+\]
+ज्यामितीय रूप से, इसके लिए आवश्यक है कि प्रारंभिक स्थिति स्तर \( x = x(0) \) पर खींची गई क्षैतिज रेखा बाद के समय \( t = T > 0 \) पर स्थिति-समय वक्र को प्रतिच्छेद करे।</p><p><strong>Step 4: चरणबद्ध गणना और व्याख्या</strong><br/>दिए गए स्थिति-समय वक्रों के व्यवहार का विश्लेषण करने पर:
+- जिस वक्र में स्थिति एक धनात्मक मान से प्रारंभ होती है, एक शीर्ष तक बढ़ती है, और फिर प्रारंभिक मान से नीचे लगातार घटती है, उसमें फलन सतत होता है। मध्यवर्ती मान प्रमेय के अनुसार, एक ऐसा समय \( T > 0 \) अवश्य अस्तित्व में होगा जहाँ स्थिति ठीक अपने प्रारंभिक मान पर लौटती है, अर्थात् \( x(T) = x(0) \)।
+- एकदिष्ट रूप से बढ़ने वाले या घटने वाले वक्रों के लिए, स्थिति किसी भी \( T > 0 \) पर अपने प्रारंभिक मान पर कभी नहीं लौटती; अतः विस्थापन कभी शून्य नहीं हो सकता।
+- जो वक्र ऋणात्मक मान से प्रारंभ होकर, धनात्मक क्षेत्र में जाता है और प्रारंभिक ऋणात्मक मान पर लौटे बिना वहीं रहता है, उसमें भी विस्थापन शून्य नहीं हो सकता।</p><p><strong>Step 5: जाँच और अंतिम उत्तर</strong><br/>केवल वही आलेख जिसमें स्थिति धनात्मक मान से शुरू होकर, शीर्ष पर पहुँचती है और फिर प्रारंभिक मान से नीचे गिरती है, उपयुक्त चुने गए \( T > 0 \) पर \( x(T) = x(0) \) की शर्त को पूरा करता है, जिससे औसत वेग शून्य हो जाता है।</p>]]></text>
+  </generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p><img src="@@PLUGINFILE@@/img-0.jpeg" alt="Position-time graph starting negative and leveling off in positive region" /></p>]]></text>
+  </answer>
+  <answer fraction="100" format="html">
+    <text><![CDATA[<p><img src="@@PLUGINFILE@@/img-1.jpeg" alt="Position-time graph starting positive, peaking, and decreasing below initial position" /></p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p><img src="@@PLUGINFILE@@/img-2.jpeg" alt="Monotonically decreasing position-time graph" /></p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p><img src="@@PLUGINFILE@@/img-3.jpeg" alt="Monotonically increasing position-time graph" /></p>]]></text>
+  </answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>year:2025</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:hi</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>class:11</text></tag>
+    <tag><text>chapter:motion_in_a_straight_line</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:medium</text></tag>
+    <tag><text>blooms:understand</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:graph</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+<question type="multichoice">
+  <name>
+    <text>NEET_UG_PHYSICS_2025_MOTION_IN_A_STRAIGHT_LINE_MCQ_Q02 - Position velocity and acceleration of descending lift</text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>A lift is coming from 8th floor and is just about to reach 4th floor. Taking ground floor as origin and positive direction upwards for all quantities, which one of the following is correct?</p><hr/><p>एक लिफ्ट 8वीं मंजिल से नीचे आ रही है और 4थी मंजिल पर पहुँचने ही वाली है। भूतल को मूल बिंदु तथा सभी राशियों के लिए ऊर्ध्वाधर ऊपर की दिशा को धनात्मक मानते हुए, निम्नलिखित में से कौन-सा सही है?</p>]]></text>
+  </questiontext>
+  <generalfeedback format="html">
+    <text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>- Origin: Ground floor (\( x = 0 \)).<br/>- Positive direction: Vertically upwards.<br/>- Motion: The lift is descending from the 8th floor toward the 4th floor and is slowing down to stop at the 4th floor.</p><p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>- Upwards is positive (\(+x\)), so downwards is negative (\(-x\)).<br/>- Positions above the ground floor have positive coordinate values.</p><p><strong>Step 3: Relevant Formulae and Principles</strong><br/>- Position \( x \) indicates the location relative to the origin.<br/>- Velocity \( v = \frac{dx}{dt} \) takes the sign of the direction of motion.<br/>- Acceleration \( a = \frac{dv}{dt} \) describes the rate of change of velocity. For a retarding body, acceleration is oriented opposite to the velocity vector.</p><p><strong>Step 4: Step-by-Step Working</strong><br/>1. Position: Both the 8th and 4th floors lie above the ground floor, so throughout the motion:
+\[
+x > 0
+\]
+2. Velocity: The lift is traveling downward (opposite to the chosen positive direction):
+\[
+v < 0
+\]
+3. Acceleration: The lift is decelerating as it prepares to stop at the 4th floor. Since velocity is downward, the acceleration must be directed upward to decrease the speed:
+\[
+a > 0
+\]</p><p><strong>Step 5: Check and Final Answer</strong><br/>Combining the signs gives \( x > 0 \), \( v < 0 \), and \( a > 0 \).</p><hr/><p><strong>Step 1: दिए गए आँकड़े और स्थितियाँ</strong><br/>- मूल बिंदु: भूतल (\( x = 0 \))।<br/>- धनात्मक दिशा: ऊर्ध्वाधर ऊपर की ओर।<br/>- गति: लिफ्ट 8वीं मंजिल से 4थी मंजिल की ओर नीचे आ रही है तथा रुकने के लिए मंदित हो रही है।</p><p><strong>Step 2: मान्यताएँ और चिह्न परिपाटी</strong><br/>- ऊपर की दिशा धनात्मक (\(+x\)) है, अतः नीचे की दिशा ऋणात्मक (\(-x\)) होगी।<br/>- भूतल से ऊपर की स्थितियाँ धनात्मक निर्देशांक रखती हैं।</p><p><strong>Step 3: प्रासंगिक सूत्र और सिद्धांत</strong><br/>- स्थिति \( x \) मूल बिंदु के सापेक्ष स्थान दर्शाती है।<br/>- वेग \( v = \frac{dx}{dt} \) की दिशा गति की दिशा के समान होती है।<br/>- त्वरण \( a = \frac{dv}{dt} \) वेग परिवर्तन की दर को व्यक्त करता है। मंदित गति में त्वरण की दिशा वेग के विपरीत होती है।</p><p><strong>Step 4: चरणबद्ध गणना और व्याख्या</strong><br/>1. स्थिति: 8वीं और 4थी दोनों मंजिलें भूतल से ऊपर स्थित हैं, अतः इस गति के दौरान:
+\[
+x > 0
+\]
+2. वेग: लिफ्ट नीचे की ओर जा रही है (चुनी गई धनात्मक दिशा के विपरीत):
+\[
+v < 0
+\]
+3. त्वरण: लिफ्ट 4थी मंजिल पर रुकने के लिए धीमी हो रही है। नीचे की ओर वेग होने के कारण, चाल को घटाने के लिए त्वरण ऊपर की ओर (धनात्मक दिशा में) होना चाहिए:
+\[
+a > 0
+\]</p><p><strong>Step 5: जाँच और अंतिम उत्तर</strong><br/>चिह्नों को संयोजित करने पर सही संबंध \( x > 0 \), \( v < 0 \), तथा \( a > 0 \) प्राप्त होता है।</p>]]></text>
+  </generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\( x < 0, \; v < 0, \; a > 0 \)</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\( x > 0, \; v < 0, \; a < 0 \)</p>]]></text>
+  </answer>
+  <answer fraction="100" format="html">
+    <text><![CDATA[<p>\( x > 0, \; v < 0, \; a > 0 \)</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\( x > 0, \; v > 0, \; a < 0 \)</p>]]></text>
+  </answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>year:2025</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:hi</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>class:11</text></tag>
+    <tag><text>chapter:motion_in_a_straight_line</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:easy</text></tag>
+    <tag><text>blooms:understand</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:text</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+<question type="multichoice">
+  <name>
+    <text>NEET_UG_PHYSICS_2025_MOTION_IN_A_STRAIGHT_LINE_MCQ_Q03 - Range of displacement with bounded speed</text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>In one dimensional motion, instantaneous speed \( v \) satisfies \( 0 \leq v < v_0 \).</p><hr/><p>एकविमीय गति में, तात्कालिक चाल \( v \) संबंध \( 0 \leq v < v_0 \) को संतुष्ट करती है।</p>]]></text>
+  </questiontext>
+  <generalfeedback format="html">
+    <text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>- Motion is one-dimensional.<br/>- Instantaneous speed satisfies: \( 0 \leq v(t) < v_0 \), where \( v_0 > 0 \).<br/>- Time duration considered is \( T \).</p><p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>Let \( v_x(t) \) denote the 1D velocity along the axis of motion. Speed is the absolute magnitude of velocity:
+\[
+v(t) = |v_x(t)|
+\]</p><p><strong>Step 3: Relevant Formulae and Principles</strong><br/>Displacement \( x \) during the time interval \( [0, T] \) is given by:
+\[
+x = \int_0^T v_x(t) \, dt
+\]
+Because \( |v_x(t)| < v_0 \), the velocity at every instant satisfies:
+\[
+-v_0 < v_x(t) < v_0
+\]</p><p><strong>Step 4: Step-by-Step Working</strong><br/>Integrating this continuous inequality over the interval \( [0, T] \):
+\[
+\int_0^T (-v_0) \, dt < \int_0^T v_x(t) \, dt < \int_0^T v_0 \, dt
+\]
+Since \( v_0 \) is constant:
+\[
+-v_0 T < x < v_0 T
+\]
+Evaluating the other physical possibilities:
+- Displacement can be negative if the object moves along the negative direction, so displacement need not be non-negative.
+- The acceleration can be positive, negative, or zero.
+- The particle can reverse direction whenever \( v_x(t) \) changes sign, so turning points may exist.</p><p><strong>Step 5: Check and Final Answer</strong><br/>The displacement \( x \) in time \( T \) strictly satisfies the double inequality \( -v_0 T < x < v_0 T \).</p><hr/><p><strong>Step 1: दिए गए आँकड़े और स्थितियाँ</strong><br/>- गति एकविमीय है।<br/>- तात्कालिक चाल संतुष्ट करती है: \( 0 \leq v(t) < v_0 \), जहाँ \( v_0 > 0 \) है।<br/>- विचाराधीन समय अंतराल \( T \) है।</p><p><strong>Step 2: मान्यताएँ और चिह्न परिपाटी</strong><br/>माना गति के अक्ष के अनुदिश तात्कालिक वेग \( v_x(t) \) है। चाल, वेग का परिमाण होती है:
+\[
+v(t) = |v_x(t)|
+\]</p><p><strong>Step 3: प्रासंगिक सूत्र और सिद्धांत</strong><br/>समय अंतराल \( [0, T] \) में विस्थापन \( x \) निम्न समाकलन द्वारा दिया जाता है:
+\[
+x = \int_0^T v_x(t) \, dt
+\]
+चूँकि \( |v_x(t)| < v_0 \) है, अतः प्रत्येक क्षण पर वेग संतुष्ट करता है:
+\[
+-v_0 < v_x(t) < v_0
+\]</p><p><strong>Step 4: चरणबद्ध गणना और व्याख्या</strong><br/>अंतराल \( [0, T] \) पर इस असमिका का समाकलन करने पर:
+\[
+\int_0^T (-v_0) \, dt < \int_0^T v_x(t) \, dt < \int_0^T v_0 \, dt
+\]
+चूँकि \( v_0 \) नियत है:
+\[
+-v_0 T < x < v_0 T
+\]
+अन्य विकल्पों का परीक्षण:
+- यदि कण ऋणात्मक दिशा में गति करता है तो विस्थापन ऋणात्मक हो सकता है।
+- त्वरण धनात्मक, ऋणात्मक अथवा शून्य कुछ भी हो सकता है।
+- वेग के चिह्न बदलने पर मोड़ बिंदु संभव हैं।</p><p><strong>Step 5: जाँच और अंतिम उत्तर</strong><br/>समय \( T \) में विस्थापन \( x \) अनिवार्य रूप से संबंध \( -v_0 T < x < v_0 T \) को संतुष्ट करता है।</p>]]></text>
+  </generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>The displacement in time \( T \) must always take non-negative values.</p>]]></text>
+  </answer>
+  <answer fraction="100" format="html">
+    <text><![CDATA[<p>The displacement \( x \) in time \( T \) satisfies \( -v_0 T < x < v_0 T \).</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>The acceleration is always a non-negative number.</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>The motion has no turning points.</p>]]></text>
+  </answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>year:2025</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:hi</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>class:11</text></tag>
+    <tag><text>chapter:motion_in_a_straight_line</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:medium</text></tag>
+    <tag><text>blooms:understand</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:text</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+<question type="multichoice">
+  <name>
+    <text>NEET_UG_PHYSICS_2025_MOTION_IN_A_STRAIGHT_LINE_MCQ_Q04 - Average speed for equal distance segments</text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>A vehicle travels half the distance \( L \) with speed \( V_1 \) and the other half with speed \( V_2 \), then its average speed is</p><hr/><p>एक वाहन दूरी \( L \) का आधा भाग चाल \( V_1 \) से और दूसरा आधा भाग चाल \( V_2 \) से तय करता है, तो इसकी औसत चाल है</p>]]></text>
+  </questiontext>
+  <generalfeedback format="html">
+    <text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>- First segment: distance \( d_1 = \frac{L}{2} \) at constant speed \( V_1 \).<br/>- Second segment: distance \( d_2 = \frac{L}{2} \) at constant speed \( V_2 \).<br/>- Total distance is \( L \).</p><p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>The vehicle moves along a straight path without reversing direction. Speeds \( V_1 \) and \( V_2 \) are positive scalars.</p><p><strong>Step 3: Relevant Formulae and Principles</strong><br/>Average speed is defined as total distance divided by total time:
+\[
+v_{\text{avg}} = \frac{d_{\text{total}}}{t_{\text{total}}}
+\]
+where time taken for each section is \( t = \frac{\text{distance}}{\text{speed}} \).</p><p><strong>Step 4: Step-by-Step Working</strong><br/>1. Time taken for the first half:
+\[
+t_1 = \frac{L/2}{V_1} = \frac{L}{2 V_1}
+\]
+2. Time taken for the second half:
+\[
+t_2 = \frac{L/2}{V_2} = \frac{L}{2 V_2}
+\]
+3. Total time taken:
+\[
+t_{\text{total}} = t_1 + t_2 = \frac{L}{2} \left( \frac{1}{V_1} + \frac{1}{V_2} \right) = \frac{L}{2} \left( \frac{V_1 + V_2}{V_1 V_2} \right)
+\]
+4. Average speed:
+\[
+v_{\text{avg}} = \frac{L}{t_{\text{total}}} = \frac{L}{\frac{L}{2} \left( \frac{V_1 + V_2}{V_1 V_2} \right)} = \frac{2 V_1 V_2}{V_1 + V_2}
+\]</p><p><strong>Step 5: Check and Final Answer</strong><br/>Dimensionally, \( [v_{\text{avg}}] = \text{L T}^{-1} \). When \( V_1 = V_2 = V \), \( v_{\text{avg}} = \frac{2 V^2}{2 V} = V \), confirming the harmonic mean relation \( \frac{2 V_1 V_2}{V_1 + V_2} \).</p><hr/><p><strong>Step 1: दिए गए आँकड़े और स्थितियाँ</strong><br/>- पहला खंड: दूरी \( d_1 = \frac{L}{2} \), चाल \( V_1 \)।<br/>- दूसरा खंड: दूरी \( d_2 = \frac{L}{2} \), चाल \( V_2 \)।<br/>- कुल दूरी \( L \) है।</p><p><strong>Step 2: मान्यताएँ और चिह्न परिपाटी</strong><br/>वाहन बिना दिशा बदले एक सीधी रेखा पर गतिमान है। चालें \( V_1 \) और \( V_2 \) धनात्मक अदिश राशियाँ हैं।</p><p><strong>Step 3: प्रासंगिक सूत्र और सिद्धांत</strong><br/>औसत चाल कुल तय की गई दूरी तथा कुल लगे समय का अनुपात होती है:
+\[
+v_{\text{avg}} = \frac{d_{\text{total}}}{t_{\text{total}}}
+\]
+जहाँ प्रत्येक खंड के लिए समय \( t = \frac{\text{दूरी}}{\text{चाल}} \) होता है।</p><p><strong>Step 4: चरणबद्ध गणना और व्याख्या</strong><br/>1. पहले आधे भाग में लगा समय:
+\[
+t_1 = \frac{L/2}{V_1} = \frac{L}{2 V_1}
+\]
+2. दूसरे आधे भाग में लगा समय:
+\[
+t_2 = \frac{L/2}{V_2} = \frac{L}{2 V_2}
+\]
+3. कुल लगा समय:
+\[
+t_{\text{total}} = t_1 + t_2 = \frac{L}{2} \left( \frac{1}{V_1} + \frac{1}{V_2} \right) = \frac{L}{2} \left( \frac{V_1 + V_2}{V_1 V_2} \right)
+\]
+4. औसत चाल:
+\[
+v_{\text{avg}} = \frac{L}{t_{\text{total}}} = \frac{L}{\frac{L}{2} \left( \frac{V_1 + V_2}{V_1 V_2} \right)} = \frac{2 V_1 V_2}{V_1 + V_2}
+\]</p><p><strong>Step 5: जाँच और अंतिम उत्तर</strong><br/>विमीय रूप से \( [v_{\text{avg}}] = \text{L T}^{-1} \) है। यदि \( V_1 = V_2 = V \) हो, तो \( v_{\text{avg}} = V \) प्राप्त होता है। अतः सही औसत चाल \( \frac{2 V_1 V_2}{V_1 + V_2} \) है।</p>]]></text>
+  </generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\( \frac{V_1 + V_2}{2} \)</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\( \frac{2V_1 + V_2}{V_1 + V_2} \)</p>]]></text>
+  </answer>
+  <answer fraction="100" format="html">
+    <text><![CDATA[<p>\( \frac{2V_1V_2}{V_1 + V_2} \)</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\( \frac{L(V_1 + V_2)}{V_1V_2} \)</p>]]></text>
+  </answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>year:2025</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:hi</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>class:11</text></tag>
+    <tag><text>chapter:motion_in_a_straight_line</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:easy</text></tag>
+    <tag><text>blooms:apply</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:equation</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+<question type="multichoice">
+  <name>
+    <text>NEET_UG_PHYSICS_2025_MOTION_IN_A_STRAIGHT_LINE_MCQ_Q05 - Total distance covered by quadratic displacement</text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>The displacement of a particle is given by \( x = (t - 2)^2 \) where \( x \) is in metres and \( t \) in seconds. The distance covered by the particle in first 4 seconds is</p><hr/><p>किसी कण का विस्थापन \( x = (t - 2)^2 \) द्वारा दिया गया है, जहाँ \( x \) मीटर में तथा \( t \) सेकंड में है। प्रथम 4 सेकंड में कण द्वारा तय की गई दूरी है</p>]]></text>
+  </questiontext>
+  <generalfeedback format="html">
+    <text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>- Position equation: \( x(t) = (t - 2)^2 \text{ m} \).<br/>- Time interval: from \( t = 0\text{ s} \) to \( t = 4\text{ s} \).</p><p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>The motion occurs along a straight line. Distance is the total cumulative scalar length of path traveled, taking into account any turning point where the particle reverses its direction.</p><p><strong>Step 3: Relevant Formulae and Principles</strong><br/>Instantaneous velocity is the derivative of position with respect to time:
+\[
+v(t) = \frac{dx}{dt} = 2(t - 2) \text{ m/s}
+\]
+A turning point occurs where \( v(t) = 0 \). The total distance is the sum of the magnitudes of displacement between consecutive turning points and the endpoints:
+\[
+s_{\text{total}} = \sum |x(t_{k+1}) - x(t_k)|
+\]</p><p><strong>Step 4: Step-by-Step Working</strong><br/>1. Find the turning point:
+\[
+v(t) = 2(t - 2) = 0 \implies t = 2\text{ s}
+\]
+Since \( t = 2\text{ s} \) lies within the interval \( [0, 4\text{ s}] \), the particle reverses its direction at \( t = 2\text{ s} \).<br/>
+2. Calculate position at crucial instants:
+- At \( t = 0\text{ s} \): \( x(0) = (0 - 2)^2 = 4\text{ m} \)
+- At \( t = 2\text{ s} \): \( x(2) = (2 - 2)^2 = 0\text{ m} \)
+- At \( t = 4\text{ s} \): \( x(4) = (4 - 2)^2 = 4\text{ m} \)<br/>
+3. Distance traversed in each segment:
+- From \( t = 0 \) to \( t = 2\text{ s} \):
+\[
+s_1 = |x(2) - x(0)| = |0 - 4| = 4\text{ m}
+\]
+- From \( t = 2\text{ s} \) to \( t = 4\text{ s} \):
+\[
+s_2 = |x(4) - x(2)| = |4 - 0| = 4\text{ m}
+\]
+4. Total distance covered:
+\[
+s_{\text{total}} = s_1 + s_2 = 4\text{ m} + 4\text{ m} = 8\text{ m}
+\]</p><p><strong>Step 5: Check and Final Answer</strong><br/>While the net displacement over 4 seconds is \( x(4) - x(0) = 0\text{ m} \), the total distance covered along the path is \( 8\text{ m} \).</p><hr/><p><strong>Step 1: दिए गए आँकड़े और स्थितियाँ</strong><br/>- स्थिति समीकरण: \( x(t) = (t - 2)^2 \text{ m} \)।<br/>- समयांतराल: \( t = 0\text{ s} \) से \( t = 4\text{ s} \) तक।</p><p><strong>Step 2: मान्यताएँ और चिह्न परिपाटी</strong><br/>गति एक सरल रेखा के अनुदिश है। दूरी पथ की कुल वास्तविक लंबाई होती है, जिसमें किसी मोड़ बिंदु पर दिशा परिवर्तन का ध्यान रखना आवश्यक है।</p><p><strong>Step 3: प्रासंगिक सूत्र और सिद्धांत</strong><br/>तात्कालिक वेग, स्थिति का समय के सापेक्ष अवकलज होता है:
+\[
+v(t) = \frac{dx}{dt} = 2(t - 2) \text{ m/s}
+\]
+मोड़ बिंदु पर \( v(t) = 0 \) होता है। कुल दूरी मोड़ बिंदुओं के बीच विस्थापनों के परिमाणों का योग होती है:
+\[
+s_{\text{total}} = \sum |x(t_{k+1}) - x(t_k)|
+\]</p><p><strong>Step 4: चरणबद्ध गणना और व्याख्या</strong><br/>1. मोड़ बिंदु ज्ञात करना:
+\[
+v(t) = 2(t - 2) = 0 \implies t = 2\text{ s}
+\]
+चूँकि \( t = 2\text{ s} \) अंतराल \( [0, 4\text{ s}] \) के भीतर आता है, अतः कण \( t = 2\text{ s} \) पर अपनी गति की दिशा बदलता है।<br/>
+2. विभिन्न समयों पर स्थिति के मान:
+- \( t = 0\text{ s} \) पर: \( x(0) = (0 - 2)^2 = 4\text{ m} \)
+- \( t = 2\text{ s} \) पर: \( x(2) = (2 - 2)^2 = 0\text{ m} \)
+- \( t = 4\text{ s} \) पर: \( x(4) = (4 - 2)^2 = 4\text{ m} \)<br/>
+3. प्रत्येक भाग में तय दूरी:
+- \( t = 0 \) से \( t = 2\text{ s} \) तक:
+\[
+s_1 = |x(2) - x(0)| = |0 - 4| = 4\text{ m}
+\]
+- \( t = 2\text{ s} \) से \( t = 4\text{ s} \) तक:
+\[
+s_2 = |x(4) - x(2)| = |4 - 0| = 4\text{ m}
+\]
+4. तय की गई कुल दूरी:
+\[
+s_{\text{total}} = s_1 + s_2 = 4\text{ m} + 4\text{ m} = 8\text{ m}
+\]</p><p><strong>Step 5: जाँच और अंतिम उत्तर</strong><br/>यद्यपि कुल विस्थापन शून्य है, परंतु कण द्वारा तय की गई कुल दूरी \( 8\text{ m} \) है।</p>]]></text>
+  </generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>4 m</p>]]></text>
+  </answer>
+  <answer fraction="100" format="html">
+    <text><![CDATA[<p>8 m</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>12 m</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>16 m</p>]]></text>
+  </answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>year:2025</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:hi</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>class:11</text></tag>
+    <tag><text>chapter:motion_in_a_straight_line</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:medium</text></tag>
+    <tag><text>blooms:apply</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:equation</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+<question type="multichoice">
+  <name>
+    <text>NEET_UG_PHYSICS_2025_MOTION_IN_A_STRAIGHT_LINE_MCQ_Q06 - Time taken walking on moving escalator</text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>At a metro station, a girl walks up a stationary escalator in time \( t_1 \). If she remains stationary on the escalator, then the escalator takes her up in time \( t_2 \). The time taken by her to walk up on the moving escalator will be</p><hr/><p>एक मेट्रो स्टेशन पर, एक लड़की एक स्थिर एस्केलेटर पर समय \( t_1 \) में चलकर ऊपर चढ़ती है। यदि वह एस्केलेटर पर स्थिर खड़ी रहती है, तो एस्केलेटर उसे समय \( t_2 \) में ऊपर ले जाता है। गतिमान एस्केलेटर पर चलकर ऊपर जाने में उसके द्वारा लिया गया समय होगा</p>]]></text>
+  </questiontext>
+  <generalfeedback format="html">
+    <text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>- Time taken by the girl walking up the stationary escalator: \( t_1 \).<br/>- Time taken by the moving escalator when the girl is stationary: \( t_2 \).<br/>- We need to determine the time \( t \) required when she walks up the moving escalator.</p><p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>Let \( L \) be the length of the escalator. Both the walking motion and the motion of the escalator occur upward along the same line.</p><p><strong>Step 3: Relevant Formulae and Principles</strong><br/>- Walking speed of the girl: \( v_g = \frac{L}{t_1} \)<br/>- Speed of the escalator: \( v_e = \frac{L}{t_2} \)<br/>- Effective speed relative to the ground when walking on the moving escalator in the same direction:
+\[
+v = v_g + v_e
+\]
+- Time taken to ascend length \( L \):
+\[
+t = \frac{L}{v}
+\]</p><p><strong>Step 4: Step-by-Step Working</strong><br/>1. Substitute the individual speeds into the combined speed expression:
+\[
+v = \frac{L}{t_1} + \frac{L}{t_2} = L \left( \frac{1}{t_1} + \frac{1}{t_2} \right) = L \left( \frac{t_1 + t_2}{t_1 t_2} \right)
+\]
+2. Compute the total time \( t \):
+\[
+t = \frac{L}{v} = \frac{L}{L \left( \frac{t_1 + t_2}{t_1 t_2} \right)} = \frac{t_1 t_2}{t_1 + t_2}
+\]</p><p><strong>Step 5: Check and Final Answer</strong><br/>Since \( t = \frac{t_1 t_2}{t_1 + t_2} < \min(t_1, t_2) \), the combined motion requires less time than either process individually, which is physically consistent. The time taken is \( \frac{t_1 t_2}{t_1 + t_2} \).</p><hr/><p><strong>Step 1: दिए गए आँकड़े और स्थितियाँ</strong><br/>- स्थिर एस्केलेटर पर लड़की द्वारा चलकर ऊपर जाने में लगा समय: \( t_1 \)।<br/>- गतिमान एस्केलेटर पर लड़की के स्थिर रहने पर ऊपर जाने में लगा समय: \( t_2 \)।<br/>- गतिमान एस्केलेटर पर चलकर ऊपर जाने में लगा समय \( t \) ज्ञात करना है।</p><p><strong>Step 2: मान्यताएँ और चिह्न परिपाटी</strong><br/>माना एस्केलेटर की लंबाई \( L \) है। लड़की के चलने की गति तथा एस्केलेटर की गति दोनों एक ही दिशा में (ऊपर की ओर) हैं।</p><p><strong>Step 3: प्रासंगिक सूत्र और सिद्धांत</strong><br/>- लड़की की चाल: \( v_g = \frac{L}{t_1} \)<br/>- एस्केलेटर की चाल: \( v_e = \frac{L}{t_2} \)<br/>- गतिमान एस्केलेटर पर उसी दिशा में चलने पर परिणामी चाल:
+\[
+v = v_g + v_e
+\]
+- दूरी \( L \) तय करने में लगा समय:
+\[
+t = \frac{L}{v}
+\]</p><p><strong>Step 4: चरणबद्ध गणना और व्याख्या</strong><br/>1. परिणामी चाल के व्यंजक में मान रखने पर:
+\[
+v = \frac{L}{t_1} + \frac{L}{t_2} = L \left( \frac{1}{t_1} + \frac{1}{t_2} \right) = L \left( \frac{t_1 + t_2}{t_1 t_2} \right)
+\]
+2. कुल समय \( t \) की गणना:
+\[
+t = \frac{L}{v} = \frac{L}{L \left( \frac{t_1 + t_2}{t_1 t_2} \right)} = \frac{t_1 t_2}{t_1 + t_2}
+\]</p><p><strong>Step 5: जाँच और अंतिम उत्तर</strong><br/>चूँकि \( t = \frac{t_1 t_2}{t_1 + t_2} < \min(t_1, t_2) \) है, अतः लगा समय दोनों व्यक्तिगत समयों से कम है, जो भौतिक रूप से पूर्णतः संगत है। आवश्यक समय \( \frac{t_1 t_2}{t_1 + t_2} \) है।</p>]]></text>
+  </generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\( \frac{t_1 + t_2}{2} \)</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\( \frac{t_1 t_2}{t_2 - t_1} \)</p>]]></text>
+  </answer>
+  <answer fraction="100" format="html">
+    <text><![CDATA[<p>\( \frac{t_1 t_2}{t_1 + t_2} \)</p>]]></text>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<p>\( t_1 - t_2 \)</p>]]></text>
+  </answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>year:2025</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:hi</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>class:11</text></tag>
+    <tag><text>chapter:motion_in_a_straight_line</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:easy</text></tag>
+    <tag><text>blooms:apply</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:equation</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>

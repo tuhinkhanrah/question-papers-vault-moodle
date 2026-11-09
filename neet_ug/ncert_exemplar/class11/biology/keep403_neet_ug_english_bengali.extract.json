@@ -1,0 +1,48 @@
+{
+  "schema_version": 1,
+  "status": "completed",
+  "operation": "full",
+  "source_pdf": "keep403.pdf",
+  "source_sha256": "7b06eef4546a1eb8469645c1f790d9ba1f39825ffd5900d4d184303e2f897445",
+  "configuration": {
+    "communicator": "AgentSessionBackend",
+    "model_name": "gemini-3.8-flash",
+    "agent_name": "antigravity-preview-09-2026",
+    "agent_type": "antigravity",
+    "bucket_name": null,
+    "ocr_model": "mistral-ocr-latest",
+    "page_check_model_name": "gemini-3.6-flash",
+    "languages": [
+      "english",
+      "bengali"
+    ],
+    "standards": "neet_ug",
+    "tags": "",
+    "page_range": null,
+    "no_instruction_page": false,
+    "instruction_page": 1,
+    "output_format": "xml",
+    "pdf_engine": "html",
+    "batch_size": 5,
+    "verify_online": false,
+    "rules_sha256": "ac4d9c809f092109c95bbaf4968d9f72c09090e161bc6d8a0dfa5ed3679d233b"
+  },
+  "output_file": "keep403_neet_ug_english_bengali.xml",
+  "batch_ids": [
+    "pages_1_4"
+  ],
+  "batches": [
+    {
+      "id": "pages_1_4",
+      "status": "completed",
+      "page_start": 1,
+      "page_end": 4,
+      "response_file": "pages_1_4.response.txt",
+      "questions_file": "pages_1_4.xml",
+      "question_count": 10,
+      "error": null,
+      "attempt_count": 1
+    }
+  ],
+  "final_sha256": "4322458eff63ab5c96e11cd9e6ed0ff7be41f514b1a45b8a47d7cf5122b8f28b"
+}
