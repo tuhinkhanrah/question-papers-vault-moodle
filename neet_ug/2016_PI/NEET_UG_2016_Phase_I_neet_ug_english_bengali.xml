@@ -1419,6 +1419,534 @@
 </question>
 
 <question type="multichoice">
+    <name>
+      <text>NEET_UG_PHYSICS_2016_MCQ_Q18 - Moment of inertia of remaining disc with circular hole</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>From a disc of radius \(\text{R}\) and mass \(\text{M}\), a circular hole of diameter \(\text{R}\), whose rim passes through the centre is cut. What is the moment of inertia of the remaining part of the disc about a perpendicular axis, passing through the centre?</p>
+<hr/>
+<p>\(\text{R}\) ব্যাসার্ধ ও \(\text{M}\) ভরের একটি চাকতি থেকে \(\text{R}\) ব্যাসের একটি বৃত্তাকার অংশ কেটে নেওয়া হলো। কাটা অংশের পরিধি চাকতির কেন্দ্র দিয়ে যায়। চাকতির কেন্দ্র দিয়ে অতিক্রান্ত এবং তার তলের লম্ব অক্ষের সাপেক্ষে অবশিষ্ট অংশের জড়তার ভ্রামক কত?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>Complete disc mass = \(\text{M}\), radius = \(\text{R}\).<br/>Hole diameter = \(\text{R}\), so hole radius \(r = \frac{\text{R}}{2}\).<br/>The rim of the hole passes through the center of the main disc, so the center of the removed disc is at distance \(d = \frac{\text{R}}{2}\) from the center of the main disc.</p><p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>Uniform mass density \(\sigma = \frac{\text{M}}{\pi \text{R}^2}\).</p><p><strong>Step 3: Relevant Formulae and Principles</strong><br/>Mass of removed portion: \[m = \sigma \times \pi \left(\frac{\text{R}}{2}\right)^2 = \frac{\text{M}}{\pi \text{R}^2} \times \frac{\pi \text{R}^2}{4} = \frac{\text{M}}{4}\] Moment of inertia of original disc about central axis: \[I_0 = \frac{1}{2} \text{M} \text{R}^2\] Parallel axis theorem for removed portion: \[I_{\text{removed}} = I_{\text{cm}} + m d^2 = \frac{1}{2} m r^2 + m d^2\] Moment of inertia of remaining part: \[I_{\text{rem}} = I_0 - I_{\text{removed}}\]</p><p><strong>Step 4: Step-by-Step Working</strong><br/>Calculate \(I_{\text{removed}}\): \[I_{\text{removed}} = \frac{1}{2} \left(\frac{\text{M}}{4}\right) \left(\frac{\text{R}}{2}\right)^2 + \left(\frac{\text{M}}{4}\right) \left(\frac{\text{R}}{2}\right)^2\] \[I_{\text{removed}} = \frac{\text{M}\text{R}^2}{32} + \frac{\text{M}\text{R}^2}{16} = \frac{3\text{M}\text{R}^2}{32}\] Calculate remaining moment of inertia: \[I_{\text{rem}} = \frac{1}{2}\text{M}\text{R}^2 - \frac{3\text{M}\text{R}^2}{32} = \left(\frac{16}{32} - \frac{3}{32}\right)\text{M}\text{R}^2 = \frac{13\text{M}\text{R}^2}{32}\]</p><p><strong>Step 5: Check and Final Answer</strong><br/>The moment of inertia of the remaining part about the central axis is \(\frac{13\text{M}\text{R}^2}{32}\).</p>
+<hr/>
+<p><strong>ধাপ ১: প্রদত্ত তথ্য ও শর্ত</strong><br/>সম্পূর্ণ চাকতির ভর \(\text{M}\), ব্যাসার্ধ \(\text{R}\)।<br/>ছিদ্রের ব্যাস \(\text{R}\), তাই তার ব্যাসার্ধ \(r = \frac{\text{R}}{2}\)।<br/>ছিদ্রের পরিধি মূল চাকতির কেন্দ্র দিয়ে যায়। তাই অপসারিত বৃত্তাকার অংশের কেন্দ্র মূল চাকতির কেন্দ্র থেকে \(d = \frac{\text{R}}{2}\) দূরে।</p>
+<p><strong>ধাপ ২: অনুমান</strong><br/>চাকতিটির পৃষ্ঠীয় ভরঘনত্ব সর্বত্র সমান: \(\sigma = \frac{\text{M}}{\pi \text{R}^2}\)।</p>
+<p><strong>ধাপ ৩: প্রাসঙ্গিক সূত্র</strong><br/>অপসারিত অংশের ভর:
+\[m = \sigma \pi \left(\frac{\text{R}}{2}\right)^2 = \frac{\text{M}}{4}\]
+মূল চাকতির কেন্দ্রীয় অক্ষের সাপেক্ষে জড়তার ভ্রামক \(I_0 = \frac{1}{2}\text{M}\text{R}^2\)। সমান্তরাল অক্ষের উপপাদ্য অনুযায়ী অপসারিত অংশের জন্য
+\[I_{\text{removed}} = I_{\text{cm}} + m d^2 = \frac{1}{2}m r^2 + m d^2\]
+অবশিষ্ট অংশের জড়তার ভ্রামক \(I_{\text{rem}} = I_0 - I_{\text{removed}}\)।</p>
+<p><strong>ধাপ ৪: গণনা</strong><br/>
+\[I_{\text{removed}} = \frac{1}{2}\left(\frac{\text{M}}{4}\right)\left(\frac{\text{R}}{2}\right)^2 + \left(\frac{\text{M}}{4}\right)\left(\frac{\text{R}}{2}\right)^2 = \frac{3\text{M}\text{R}^2}{32}\]
+অতএব,
+\[I_{\text{rem}} = \frac{1}{2}\text{M}\text{R}^2 - \frac{3\text{M}\text{R}^2}{32} = \frac{13\text{M}\text{R}^2}{32}\]</p>
+<p><strong>চূড়ান্ত উত্তর:</strong> নির্দিষ্ট অক্ষের সাপেক্ষে অবশিষ্ট অংশের জড়তার ভ্রামক \(\frac{13\text{M}\text{R}^2}{32}\)।</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>4.0000000</defaultgrade>
+    <penalty>0.2500000</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>\(\frac{13\text{MR}^2}{32}\)</p>]]></text>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>\(\frac{11\text{MR}^2}{32}\)</p>]]></text>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>\(\frac{9\text{MR}^2}{32}\)</p>]]></text>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>\(\frac{15\text{MR}^2}{32}\)</p>]]></text>
+    </answer>
+    <tags>
+      <tag><text>standard:neet_ug</text></tag>
+      <tag><text>year:2016</text></tag>
+      <tag><text>lang:en</text></tag>
+      <tag><text>lang:bn</text></tag>
+      <tag><text>subject:physics</text></tag>
+      <tag><text>typology:mcq</text></tag>
+      <tag><text>difficulty:medium</text></tag>
+      <tag><text>blooms:apply</text></tag>
+      <tag><text>calculation:moderate</text></tag>
+      <tag><text>media:text</text></tag>
+      <tag><text>multiconcept:false</text></tag>
+    </tags>
+  </question>
+<question type="multichoice">
+    <name>
+      <text>NEET_UG_PHYSICS_2016_MCQ_Q19 - Angle of first secondary maximum in single slit diffraction</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>In a diffraction pattern due to a single slit of width \(a\), the first minimum is observed at an angle \(30^{\circ}\) when light of wavelength \(5000\,\text{\AA}\) is incident on the slit. The first secondary maximum is observed at an angle of</p>
+<hr/>
+<p>\(a\) প্রস্থের একটি একক চিরে \(5000\,\text{\AA}\) তরঙ্গদৈর্ঘ্যের আলো আপতিত হলে অপবর্তন চিত্রে প্রথম ন্যূনতম \(30^{\circ}\) কোণে দেখা যায়। প্রথম গৌণ সর্বাধিক কত কোণে দেখা যাবে?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>First minimum angle \(\theta_1 = 30^{\circ}\).<br/>Wavelength \(\lambda = 5000\,\text{\AA}\).</p><p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>Fraunhofer single slit diffraction condition.</p><p><strong>Step 3: Relevant Formulae and Principles</strong><br/>Condition for first minimum: \[a \sin \theta_1 = 1 \cdot \lambda\] Condition for first secondary maximum: \[a \sin \theta_2 = \frac{3\lambda}{2}\]</p><p><strong>Step 4: Step-by-Step Working</strong><br/>From first minimum condition: \[a \sin 30^{\circ} = \lambda \implies a \left(\frac{1}{2}\right) = \lambda \implies a = 2\lambda\] Substitute \(a = 2\lambda\) into the secondary maximum equation: \[(2\lambda) \sin \theta_2 = \frac{3\lambda}{2}\] \[\sin \theta_2 = \frac{3}{4}\] \[\theta_2 = \sin^{-1}\left(\frac{3}{4}\right)\]</p><p><strong>Step 5: Check and Final Answer</strong><br/>The angle at which the first secondary maximum is observed is \(\sin^{-1}\left(\frac{3}{4}\right)\).</p>
+<hr/>
+<p><strong>ধাপ ১: প্রদত্ত তথ্য</strong><br/>প্রথম ন্যূনতমের কোণ \(\theta_1 = 30^{\circ}\); তরঙ্গদৈর্ঘ্য \(\lambda = 5000\,\text{\AA}\)। ফ্রাউনহোফার একক চির অপবর্তন ধরা হয়েছে।</p>
+<p><strong>ধাপ ২: সূত্র ও গণনা</strong><br/>প্রথম ন্যূনতমের জন্য
+\[a\sin\theta_1 = \lambda\]
+অতএব \(a\sin30^{\circ} = \lambda\), অর্থাৎ \(a = 2\lambda\)। প্রথম গৌণ সর্বাধিকের প্রচলিত আনুমানিক শর্ত:
+\[a\sin\theta_2 \approx \frac{3\lambda}{2}\]
+সুতরাং
+\[2\lambda\sin\theta_2 \approx \frac{3\lambda}{2}, \qquad \sin\theta_2 \approx \frac{3}{4}\]</p>
+<p><strong>চূড়ান্ত উত্তর:</strong> প্রথম গৌণ সর্বাধিকের কোণ আনুমানিক \(\sin^{-1}\left(\frac{3}{4}\right)\)।</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>4.0000000</defaultgrade>
+    <penalty>0.2500000</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>\(\sin^{-1}\left(\frac{2}{3}\right)\)</p>]]></text>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>\(\sin^{-1}\left(\frac{1}{2}\right)\)</p>]]></text>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>\(\sin^{-1}\left(\frac{3}{4}\right)\)</p>]]></text>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>\(\sin^{-1}\left(\frac{1}{4}\right)\)</p>]]></text>
+    </answer>
+    <tags>
+      <tag><text>standard:neet_ug</text></tag>
+      <tag><text>year:2016</text></tag>
+      <tag><text>lang:en</text></tag>
+      <tag><text>lang:bn</text></tag>
+      <tag><text>subject:physics</text></tag>
+      <tag><text>typology:mcq</text></tag>
+      <tag><text>difficulty:medium</text></tag>
+      <tag><text>blooms:apply</text></tag>
+      <tag><text>calculation:moderate</text></tag>
+      <tag><text>media:text</text></tag>
+      <tag><text>multiconcept:false</text></tag>
+    </tags>
+  </question>
+<question type="multichoice">
+    <name>
+      <text>NEET_UG_PHYSICS_2016_MCQ_Q20 - Net magnetic force on a square loop near long straight wire</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>A square loop ABCD carrying a current \(i\), is placed near and coplanar with a long straight conductor XY carrying a current \(\text{I}\), the net force on the loop will be</p><p><img src="@@PLUGINFILE@@/img-2.jpeg" alt="Square loop near current carrying straight conductor" /></p>
+<hr/>
+<p>\(i\) তড়িৎপ্রবাহ বহনকারী ABCD বর্গাকার লুপটিকে \(\text{I}\) তড়িৎপ্রবাহ বহনকারী একটি দীর্ঘ সরল পরিবাহী XY-এর কাছে একই সমতলে রাখা হয়েছে। লুপটির উপর লব্ধি বল কত হবে?</p>]]></text>
+      <file name="img-2.jpeg" encoding="base64">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</file>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>Current in straight wire = \(\text{I}\).<br/>Current in square loop = \(i\) (clockwise).<br/>Side length of square loop = \(\text{L}\).<br/>Distance of parallel side \(\text{AB}\) from straight wire = \(\frac{\text{L}}{2}\).<br/>Distance of parallel side \(\text{CD}\) from straight wire = \(\frac{\text{L}}{2} + \text{L} = \frac{3\text{L}}{2}\).</p><p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>Current in side \(\text{AB}\) is parallel to current \(\text{I}\) (attractive force toward wire). Current in side \(\text{CD}\) is anti-parallel to current \(\text{I}\) (repulsive force away from wire). Forces on top and bottom sides are equal and opposite, cancelling each other.</p><p><strong>Step 3: Relevant Formulae and Principles</strong><br/>Magnetic force per unit length between two parallel currents: \[F = \frac{\mu_0 \text{I} i \text{L}}{2\pi r}\]</p><p><strong>Step 4: Step-by-Step Working</strong><br/>Attractive force on side \(\text{AB}\): \[F_{\text{AB}} = \frac{\mu_0 \text{I} i \text{L}}{2\pi (\text{L}/2)} = \frac{\mu_0 \text{I} i}{\pi}\] Repulsive force on side \(\text{CD}\): \[F_{\text{CD}} = \frac{\mu_0 \text{I} i \text{L}}{2\pi (3\text{L}/2)} = \frac{\mu_0 \text{I} i}{3\pi}\] Net magnetic force on loop: \[F_{\text{net}} = F_{\text{AB}} - F_{\text{CD}} = \frac{\mu_0 \text{I} i}{\pi} - \frac{\mu_0 \text{I} i}{3\pi} = \frac{2\mu_0 \text{I} i}{3\pi}\]</p><p><strong>Step 5: Check and Final Answer</strong><br/>The net force on the loop is \(\frac{2\mu_0\text{I}i}{3\pi}\) directed towards the straight conductor.</p>
+<hr/>
+<p><strong>ধাপ ১: প্রদত্ত তথ্য</strong><br/>সরল তারে প্রবাহ \(\text{I}\), লুপে প্রবাহ \(i\) (ঘড়ির কাঁটার দিকে) এবং লুপের বাহুর দৈর্ঘ্য \(\text{L}\)। তার থেকে সমান্তরাল বাহু \(\text{AB}\)-এর দূরত্ব \(\frac{\text{L}}{2}\), আর \(\text{CD}\)-এর দূরত্ব \(\frac{3\text{L}}{2}\)।</p>
+<p><strong>ধাপ ২: বলের দিক ও সূত্র</strong><br/>\(\text{AB}\)-এর প্রবাহ তারের প্রবাহের সমমুখী, তাই এই বাহু তারের দিকে আকৃষ্ট হয়। \(\text{CD}\)-এর প্রবাহ বিপরীতমুখী, তাই এই বাহু তার থেকে দূরে বিকর্ষিত হয়। ওপরের ও নিচের বাহুর বল পরস্পর সমান ও বিপরীত হওয়ায় কাটাকাটি করে। সমান্তরাল প্রবাহের জন্য
+\[F = \frac{\mu_0 \text{I} i \text{L}}{2\pi r}\]</p>
+<p><strong>ধাপ ৩: গণনা</strong><br/>
+\[F_{\text{AB}} = \frac{\mu_0 \text{I} i \text{L}}{2\pi(\text{L}/2)} = \frac{\mu_0 \text{I} i}{\pi}\]
+\[F_{\text{CD}} = \frac{\mu_0 \text{I} i \text{L}}{2\pi(3\text{L}/2)} = \frac{\mu_0 \text{I} i}{3\pi}\]
+তাই \[F_{\text{net}} = F_{\text{AB}} - F_{\text{CD}} = \frac{2\mu_0 \text{I} i}{3\pi}\]</p>
+<p><strong>চূড়ান্ত উত্তর:</strong> লব্ধি বল \(\frac{2\mu_0\text{I}i}{3\pi}\), সরল তারের দিকে।</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>4.0000000</defaultgrade>
+    <penalty>0.2500000</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>\(\frac{\mu_0\text{I}i}{2\pi}\)</p>]]></text>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>\(\frac{2\mu_0\text{I}i\text{L}}{3\pi}\)</p>]]></text>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>\(\frac{\mu_0\text{I}i\text{L}}{2\pi}\)</p>]]></text>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>\(\frac{2\mu_0\text{I}i}{3\pi}\)</p>]]></text>
+    </answer>
+    <tags>
+      <tag><text>standard:neet_ug</text></tag>
+      <tag><text>year:2016</text></tag>
+      <tag><text>lang:en</text></tag>
+      <tag><text>lang:bn</text></tag>
+      <tag><text>subject:physics</text></tag>
+      <tag><text>typology:mcq</text></tag>
+      <tag><text>difficulty:medium</text></tag>
+      <tag><text>blooms:apply</text></tag>
+      <tag><text>calculation:moderate</text></tag>
+      <tag><text>media:diagram</text></tag>
+      <tag><text>multiconcept:false</text></tag>
+    </tags>
+  </question>
+<question type="multichoice">
+    <name>
+      <text>NEET_UG_PHYSICS_2016_MCQ_Q21 - Relative spectral energy using Wien displacement law</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>A black body is at a temperature of \(5760\,\text{K}\). The energy of radiation emitted by the body at wavelength \(250\,\text{nm}\) is \(\text{U}_{1}\), at wavelength \(500\,\text{nm}\) is \(\text{U}_{2}\) and that at \(1000\,\text{nm}\) is \(\text{U}_{3}\). Wien's constant, \(b = 2.88\times 10^{6}\,\text{nm\,K}\). Which of the following is correct?</p>
+<hr/>
+<p>একটি কৃষ্ণবস্তুর তাপমাত্রা \(5760\,\text{K}\)। বস্তুটি থেকে \(250\,\text{nm}\), \(500\,\text{nm}\) ও \(1000\,\text{nm}\) তরঙ্গদৈর্ঘ্যে নির্গত বিকিরণের শক্তি যথাক্রমে \(\text{U}_{1}\), \(\text{U}_{2}\) ও \(\text{U}_{3}\)। ভিনের ধ্রুবক \(b = 2.88\times 10^{6}\,\text{nm\,K}\)। নিচের কোনটি সঠিক?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>Temperature \(T = 5760\,\text{K}\).<br/>Wien's constant \(b = 2.88 \times 10^6\,\text{nm\,K}\).<br/>\(\text{U}_1\), \(\text{U}_2\), and \(\text{U}_3\) correspond to energies at \(\lambda_1 = 250\,\text{nm}\), \(\lambda_2 = 500\,\text{nm}\), and \(\lambda_3 = 1000\,\text{nm}\).</p><p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>Energy emitted per unit wavelength interval follows Planck's blackbody radiation spectrum curve.</p><p><strong>Step 3: Relevant Formulae and Principles</strong><br/>Wien's displacement law for peak emission wavelength: \[\lambda_m T = b \implies \lambda_m = \frac{b}{T}\]</p><p><strong>Step 4: Step-by-Step Working</strong><br/>Calculate \(\lambda_m\): \[\lambda_m = \frac{2.88 \times 10^6\,\text{nm\,K}}{5760\,\text{K}} = 500\,\text{nm}\] Thus, the peak spectral energy density occurs exactly at \(\lambda_2 = 500\,\text{nm}\), making \(\text{U}_2\) the maximum energy density among all wavelengths. Since \(\text{U}_2\) is at the peak, \(\text{U}_2 > \text{U}_1\) and \(\text{U}_2 > \text{U}_3\).</p><p><strong>Step 5: Check and Final Answer</strong><br/>Comparing the spectral energies, \(\text{U}_2 > \text{U}_1\) is correct.</p>
+<hr/>
+<p><strong>ধাপ ১: প্রদত্ত তথ্য</strong><br/>তাপমাত্রা \(T = 5760\,\text{K}\) এবং ভিনের ধ্রুবক \(b = 2.88 \times 10^6\,\text{nm\,K}\)। \(\text{U}_1\), \(\text{U}_2\), \(\text{U}_3\) যথাক্রমে \(250\), \(500\), \(1000\,\text{nm}\) তরঙ্গদৈর্ঘ্যের শক্তির সঙ্গে সম্পর্কিত। একক তরঙ্গদৈর্ঘ্য ব্যবধানে নির্গত শক্তি প্ল্যাঙ্কের কৃষ্ণবস্তু বিকিরণ বণ্টন মেনে চলে।</p>
+<p><strong>ধাপ ২: সূত্র ও গণনা</strong><br/>ভিনের সরণ সূত্র অনুযায়ী সর্বাধিক বিকিরণের তরঙ্গদৈর্ঘ্য
+\[\lambda_m T = b, \qquad \lambda_m = \frac{b}{T} = \frac{2.88 \times 10^6}{5760}\,\text{nm} = 500\,\text{nm}\]
+অতএব \(\text{U}_2\) সর্বাধিক; তাই \(\text{U}_2 > \text{U}_1\) এবং \(\text{U}_2 > \text{U}_3\)।</p>
+<p><strong>চূড়ান্ত উত্তর:</strong> প্রদত্ত বিকল্পগুলির মধ্যে \(\text{U}_2 > \text{U}_1\) সঠিক।</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>4.0000000</defaultgrade>
+    <penalty>0.2500000</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>\(\text{U}_3 = 0\)</p>]]></text>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>\(\text{U}_1 > \text{U}_2\)</p>]]></text>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>\(\text{U}_2 > \text{U}_1\)</p>]]></text>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>\(\text{U}_1 = 0\)</p>]]></text>
+    </answer>
+    <tags>
+      <tag><text>standard:neet_ug</text></tag>
+      <tag><text>year:2016</text></tag>
+      <tag><text>lang:en</text></tag>
+      <tag><text>lang:bn</text></tag>
+      <tag><text>subject:physics</text></tag>
+      <tag><text>typology:mcq</text></tag>
+      <tag><text>difficulty:easy</text></tag>
+      <tag><text>blooms:apply</text></tag>
+      <tag><text>calculation:light</text></tag>
+      <tag><text>media:equation</text></tag>
+      <tag><text>multiconcept:false</text></tag>
+    </tags>
+  </question>
+<question type="multichoice">
+    <name>
+      <text>NEET_UG_PHYSICS_2016_MCQ_Q22 - Next resonating length for closed air column</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>An air column, closed at one end and open at the other, resonates with a tuning fork when the smallest length of the column is \(50~\text{cm}\). The next larger length of the column resonating with the same tuning fork is</p>
+<hr/>
+<p>এক প্রান্ত বন্ধ ও অপর প্রান্ত খোলা একটি বায়ুস্তম্ভের ক্ষুদ্রতম দৈর্ঘ্য \(50~\text{cm}\) হলে সেটি একটি সুরশলাকার সঙ্গে অনুরণিত হয়। একই সুরশলাকার সঙ্গে অনুরণনের জন্য বায়ুস্তম্ভের পরবর্তী বৃহত্তর দৈর্ঘ্য কত?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>Smallest fundamental resonance length \(L_1 = 50\,\text{cm}\).</p><p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>Air column closed at one end and open at the other. End correction is neglected unless specified.</p><p><strong>Step 3: Relevant Formulae and Principles</strong><br/>For an air column closed at one end, resonance lengths occur at odd quarter-wavelength multiples: \[L_1 = \frac{\lambda}{4}, \quad L_2 = \frac{3\lambda}{4}, \quad L_3 = \frac{5\lambda}{4}, \dots\] Thus, the relation between successive resonating lengths is: \[L_2 = 3 L_1\]</p><p><strong>Step 4: Step-by-Step Working</strong><br/>Substitute \(L_1 = 50\,\text{cm}\): \[L_2 = 3 \times 50\,\text{cm} = 150\,\text{cm}\]</p><p><strong>Step 5: Check and Final Answer</strong><br/>The next larger length of the column resonating with the same tuning fork is \(150\,\text{cm}\).</p>
+<hr/>
+<p><strong>ধাপ ১: প্রদত্ত তথ্য ও অনুমান</strong><br/>প্রথম অনুরণন দৈর্ঘ্য \(L_1 = 50\,\text{cm}\)। বায়ুস্তম্ভের এক প্রান্ত বন্ধ এবং প্রান্ত সংশোধন উপেক্ষা করা হয়েছে।</p>
+<p><strong>ধাপ ২: সূত্র ও গণনা</strong><br/>এক প্রান্ত বন্ধ বায়ুস্তম্ভের অনুরণন দৈর্ঘ্যগুলি তরঙ্গদৈর্ঘ্যের বিজোড় গুণিতক-চতুর্থাংশ:
+\[L_1 = \frac{\lambda}{4}, \qquad L_2 = \frac{3\lambda}{4}, \qquad L_3 = \frac{5\lambda}{4}, \ldots\]
+তাই পরবর্তী দৈর্ঘ্য
+\[L_2 = 3L_1 = 3 \times 50\,\text{cm} = 150\,\text{cm}\]</p>
+<p><strong>চূড়ান্ত উত্তর:</strong> \(150\,\text{cm}\)।</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>4.0000000</defaultgrade>
+    <penalty>0.2500000</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>\(100\,\text{cm}\)</p>]]></text>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>\(150\,\text{cm}\)</p>]]></text>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>\(200\,\text{cm}\)</p>]]></text>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>\(66.7\,\text{cm}\)</p>]]></text>
+    </answer>
+    <tags>
+      <tag><text>standard:neet_ug</text></tag>
+      <tag><text>year:2016</text></tag>
+      <tag><text>lang:en</text></tag>
+      <tag><text>lang:bn</text></tag>
+      <tag><text>subject:physics</text></tag>
+      <tag><text>typology:mcq</text></tag>
+      <tag><text>difficulty:easy</text></tag>
+      <tag><text>blooms:apply</text></tag>
+      <tag><text>calculation:light</text></tag>
+      <tag><text>media:text</text></tag>
+      <tag><text>multiconcept:false</text></tag>
+    </tags>
+  </question>
+<question type="multichoice">
+    <name>
+      <text>NEET_UG_PHYSICS_2016_MCQ_Q23 - RMS velocity of gas molecules under temperature change</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>The molecules of a given mass of a gas have r.m.s velocity of \(200\,\text{ms}^{-1}\) at \(27^{\circ}\text{C}\) and \(1.0\times 10^{5}\,\text{Nm}^{-2}\) pressure. When the temperature and pressure of the gas are respectively, \(127^{\circ}\text{C}\) and \(0.05\times 10^{5}\,\text{Nm}^{-2}\), the rms velocity of its molecules in \(\text{ms}^{-1}\) is</p>
+<hr/>
+<p>একটি নির্দিষ্ট ভরের গ্যাসের অণুগুলির মূল গড় বর্গ বেগ \(27^{\circ}\text{C}\) তাপমাত্রা ও \(1.0\times 10^{5}\,\text{Nm}^{-2}\) চাপে \(200\,\text{ms}^{-1}\)। গ্যাসের তাপমাত্রা ও চাপ যথাক্রমে \(127^{\circ}\text{C}\) ও \(0.05\times 10^{5}\,\text{Nm}^{-2}\) হলে অণুগুলির মূল গড় বর্গ বেগ \(\text{ms}^{-1}\) এককে কত হবে?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>Initial RMS velocity \(v_1 = 200\,\text{m s}^{-1}\) at \(T_1 = 27^{\circ}\text{C} = 300\,\text{K}\).<br/>Final temperature \(T_2 = 127^{\circ}\text{C} = 400\,\text{K}\).</p><p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>Ideal gas behavior. Absolute temperatures are converted to Kelvin.</p><p><strong>Step 3: Relevant Formulae and Principles</strong><br/>RMS velocity formula: \[v_{\text{rms}} = \sqrt{\frac{3 R T}{M}}\] \(v_{\text{rms}}\) depends only on absolute temperature \(T\) and molar mass \(M\), independent of pressure.</p><p><strong>Step 4: Step-by-Step Working</strong><br/>Form ratio of RMS speeds: \[\frac{v_2}{v_1} = \sqrt{\frac{T_2}{T_1}} = \sqrt{\frac{400}{300}} = \sqrt{\frac{4}{3}} = \frac{2}{\sqrt{3}}\] Calculate \(v_2\): \[v_2 = v_1 \times \frac{2}{\sqrt{3}} = 200 \times \frac{2}{\sqrt{3}} = \frac{400}{\sqrt{3}}\,\text{m s}^{-1}\]</p><p><strong>Step 5: Check and Final Answer</strong><br/>The new RMS velocity of the gas molecules is \(\frac{400}{\sqrt{3}}\,\text{ms}^{-1}\).</p>
+<hr/>
+<p><strong>ধাপ ১: প্রদত্ত তথ্য</strong><br/>প্রাথমিক মূল গড় বর্গ বেগ \(v_1 = 200\,\text{m s}^{-1}\), তাপমাত্রা \(T_1 = 27^{\circ}\text{C} = 300\,\text{K}\)। চূড়ান্ত তাপমাত্রা \(T_2 = 127^{\circ}\text{C} = 400\,\text{K}\)। গ্যাসটিকে আদর্শ গ্যাস ধরা হয়েছে।</p>
+<p><strong>ধাপ ২: সূত্র ও গণনা</strong><br/>
+\[v_{\text{rms}} = \sqrt{\frac{3RT}{M}}\]
+একই গ্যাসের জন্য মূল গড় বর্গ বেগ কেবল পরম তাপমাত্রার উপর নির্ভর করে, চাপের উপর নয়। সুতরাং
+\[\frac{v_2}{v_1} = \sqrt{\frac{T_2}{T_1}} = \sqrt{\frac{400}{300}} = \frac{2}{\sqrt{3}}\]
+\[v_2 = 200 \times \frac{2}{\sqrt{3}} = \frac{400}{\sqrt{3}}\,\text{m s}^{-1}\]</p>
+<p><strong>চূড়ান্ত উত্তর:</strong> \(\frac{400}{\sqrt{3}}\,\text{m s}^{-1}\)।</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>4.0000000</defaultgrade>
+    <penalty>0.2500000</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>\(\frac{400}{\sqrt{3}}\)</p>]]></text>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>\(\frac{100\sqrt{2}}{3}\)</p>]]></text>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>\(\frac{100}{3}\)</p>]]></text>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>\(100\sqrt{2}\)</p>]]></text>
+    </answer>
+    <tags>
+      <tag><text>standard:neet_ug</text></tag>
+      <tag><text>year:2016</text></tag>
+      <tag><text>lang:en</text></tag>
+      <tag><text>lang:bn</text></tag>
+      <tag><text>subject:physics</text></tag>
+      <tag><text>typology:mcq</text></tag>
+      <tag><text>difficulty:easy</text></tag>
+      <tag><text>blooms:apply</text></tag>
+      <tag><text>calculation:light</text></tag>
+      <tag><text>media:equation</text></tag>
+      <tag><text>multiconcept:false</text></tag>
+    </tags>
+  </question>
+<question type="multichoice">
+    <name>
+      <text>NEET_UG_PHYSICS_2016_MCQ_Q24 - Current through ideal junction diode</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Consider the junction diode as ideal. The value of current flowing through AB is</p><p><img src="@@PLUGINFILE@@/img-3.jpeg" alt="Ideal junction diode in series with resistor" /></p>
+<hr/>
+<p>সংযোগ ডায়োডটিকে আদর্শ ধরে AB-এর মধ্য দিয়ে প্রবাহিত তড়িৎপ্রবাহের মান নির্ণয় করুন।</p>]]></text>
+      <file name="img-3.jpeg" encoding="base64">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</file>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>Potential at terminal A: \(V_{\text{A}} = +4\,\text{V}\).<br/>Potential at terminal B: \(V_{\text{B}} = -6\,\text{V}\).<br/>Resistance \(R = 1\,\text{k}\Omega = 10^3\,\Omega\).</p><p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>The p-side of the ideal diode is connected to terminal A and the n-side is connected through the resistor to terminal B.</p><p><strong>Step 3: Relevant Formulae and Principles</strong><br/>Since \(V_{\text{p}} = +4\,\text{V} > V_{\text{n}} = -6\,\text{V}\), the diode is forward biased. An ideal forward-biased diode acts as a short circuit with zero resistance. Ohm's Law: \[I = \frac{V_{\text{A}} - V_{\text{B}}}{R}\]</p><p><strong>Step 4: Step-by-Step Working</strong><br/>Calculate potential difference across the resistor: \[\Delta V = 4 - (-6) = 10\,\text{V}\] Calculate current: \[I = \frac{10}{10^3} = 10^{-2}\,\text{A}\]</p><p><strong>Step 5: Check and Final Answer</strong><br/>The current flowing through AB is \(10^{-2}\,\text{A}\).</p>
+<hr/>
+<p><strong>ধাপ ১: প্রদত্ত তথ্য ও অনুমান</strong><br/>A প্রান্তের বিভব \(V_{\text{A}} = +4\,\text{V}\), B প্রান্তের বিভব \(V_{\text{B}} = -6\,\text{V}\), এবং রোধ \(R = 1\,\text{k}\Omega = 10^3\,\Omega\)। আদর্শ ডায়োডের p-প্রান্ত A-এর সঙ্গে এবং n-প্রান্ত রোধের মাধ্যমে B-এর সঙ্গে যুক্ত।</p>
+<p><strong>ধাপ ২: নীতি</strong><br/>\(V_{\text{p}} > V_{\text{n}}\) হওয়ায় ডায়োডটি সম্মুখবর্তী বায়াসে রয়েছে। আদর্শ সম্মুখবর্তী বায়াসযুক্ত ডায়োডের রোধ ও বিভবপতন শূন্য। ওহমের সূত্র অনুযায়ী
+\[I = \frac{V_{\text{A}} - V_{\text{B}}}{R}\]</p>
+<p><strong>ধাপ ৩: গণনা</strong><br/>রোধের দুই প্রান্তের বিভব পার্থক্য
+\[\Delta V = 4 - (-6) = 10\,\text{V}\]
+তাই \[I = \frac{10}{10^3} = 10^{-2}\,\text{A}\]</p>
+<p><strong>চূড়ান্ত উত্তর:</strong> AB-এর মধ্য দিয়ে \(10^{-2}\,\text{A}\) প্রবাহ যায়।</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>4.0000000</defaultgrade>
+    <penalty>0.2500000</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>\(10^{-2}\,\text{A}\)</p>]]></text>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>\(10^{-1}\,\text{A}\)</p>]]></text>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>\(10^{-3}\,\text{A}\)</p>]]></text>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>\(0\,\text{A}\)</p>]]></text>
+    </answer>
+    <tags>
+      <tag><text>standard:neet_ug</text></tag>
+      <tag><text>year:2016</text></tag>
+      <tag><text>lang:en</text></tag>
+      <tag><text>lang:bn</text></tag>
+      <tag><text>subject:physics</text></tag>
+      <tag><text>typology:mcq</text></tag>
+      <tag><text>difficulty:easy</text></tag>
+      <tag><text>blooms:apply</text></tag>
+      <tag><text>calculation:light</text></tag>
+      <tag><text>media:circuit</text></tag>
+      <tag><text>multiconcept:false</text></tag>
+    </tags>
+  </question>
+<question type="multichoice">
+    <name>
+      <text>NEET_UG_PHYSICS_2016_MCQ_Q25 - Angle between two vectors when magnitude of sum equals difference</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>If the magnitude of sum of two vectors is equal to the magnitude of difference of the two vectors, the angle between these vectors is</p>
+<hr/>
+<p>দুটি ভেক্টরের যোগফলের মান যদি তাদের বিয়োগফলের মানের সমান হয়, তবে ভেক্টর দুটির মধ্যবর্তী কোণ কত?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>Equal magnitudes condition: \(|\mathbf{A} + \mathbf{B}| = |\mathbf{A} - \mathbf{B}|\).</p><p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>Let \(\theta\) be the angle between vectors \(\mathbf{A}\) and \(\mathbf{B}\).</p><p><strong>Step 3: Relevant Formulae and Principles</strong><br/>Magnitudes of vector addition and subtraction: \[|\mathbf{A} + \mathbf{B}| = \sqrt{A^2 + B^2 + 2 A B \cos\theta}\] \[|\mathbf{A} - \mathbf{B}| = \sqrt{A^2 + B^2 - 2 A B \cos\theta}\]</p><p><strong>Step 4: Step-by-Step Working</strong><br/>Square both sides of the condition: \[A^2 + B^2 + 2 A B \cos\theta = A^2 + B^2 - 2 A B \cos\theta\] Simplify: \[4 A B \cos\theta = 0\] Assuming non-zero vectors \(A \neq 0, B \neq 0\): \[\cos\theta = 0 \implies \theta = 90^{\circ}\]</p><p><strong>Step 5: Check and Final Answer</strong><br/>The angle between the two vectors is \(90^{\circ}\).</p>
+<hr/>
+<p><strong>ধাপ ১: প্রদত্ত শর্ত</strong><br/>\(|\mathbf{A} + \mathbf{B}| = |\mathbf{A} - \mathbf{B}|\)। ভেক্টর দুটির মধ্যবর্তী কোণ \(\theta\) ধরি।</p>
+<p><strong>ধাপ ২: সূত্র ও গণনা</strong><br/>
+\[|\mathbf{A} + \mathbf{B}| = \sqrt{A^2 + B^2 + 2AB\cos\theta}\]
+\[|\mathbf{A} - \mathbf{B}| = \sqrt{A^2 + B^2 - 2AB\cos\theta}\]
+প্রদত্ত সমতার উভয় পক্ষের বর্গ করে পাই
+\[A^2 + B^2 + 2AB\cos\theta = A^2 + B^2 - 2AB\cos\theta\]
+অর্থাৎ \(4AB\cos\theta = 0\)। উভয় ভেক্টর অশূন্য হলে \(\cos\theta = 0\), ফলে \(\theta = 90^{\circ}\)।</p>
+<p><strong>চূড়ান্ত উত্তর:</strong> ভেক্টর দুটির মধ্যবর্তী কোণ \(90^{\circ}\)।</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>4.0000000</defaultgrade>
+    <penalty>0.2500000</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>\(90^{\circ}\)</p>]]></text>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>\(45^{\circ}\)</p>]]></text>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>\(180^{\circ}\)</p>]]></text>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>\(0^{\circ}\)</p>]]></text>
+    </answer>
+    <tags>
+      <tag><text>standard:neet_ug</text></tag>
+      <tag><text>year:2016</text></tag>
+      <tag><text>lang:en</text></tag>
+      <tag><text>lang:bn</text></tag>
+      <tag><text>subject:physics</text></tag>
+      <tag><text>typology:mcq</text></tag>
+      <tag><text>difficulty:easy</text></tag>
+      <tag><text>blooms:apply</text></tag>
+      <tag><text>calculation:light</text></tag>
+      <tag><text>media:equation</text></tag>
+      <tag><text>multiconcept:false</text></tag>
+    </tags>
+  </question>
+<question type="multichoice">
+    <name>
+      <text>NEET_UG_PHYSICS_2016_MCQ_Q26 - Separation between lenses of astronomical telescope for finite object distance</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>A astronomical telescope has objective and eyepiece of focal lengths \(40\,\text{cm}\) and \(4\,\text{cm}\) respectively. To view an object \(200\,\text{cm}\) away from the objective, the lenses must be separated by a distance</p>
+<hr/>
+<p>একটি জ্যোতির্বৈজ্ঞানিক দূরবীক্ষণের অভিলক্ষ্য ও নেত্রলেন্সের ফোকাস দূরত্ব যথাক্রমে \(40\,\text{cm}\) ও \(4\,\text{cm}\)। অভিলক্ষ্য থেকে \(200\,\text{cm}\) দূরের একটি বস্তুকে দেখতে লেন্স দুটির মধ্যবর্তী দূরত্ব কত রাখতে হবে?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>Focal length of objective lens \(f_o = +40\,\text{cm}\).<br/>Focal length of eyepiece lens \(f_e = +4\,\text{cm}\).<br/>Object distance from objective \(u_o = -200\,\text{cm}\).</p><p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>Standard Cartesian sign convention for thin lenses. Final image viewed at infinity (normal adjustment) so intermediate image forms at the focal plane of the eyepiece.</p><p><strong>Step 3: Relevant Formulae and Principles</strong><br/>Lens formula for objective: \[\frac{1}{v_o} - \frac{1}{u_o} = \frac{1}{f_o}\] Total separation between lenses: \[L = v_o + f_e\]</p><p><strong>Step 4: Step-by-Step Working</strong><br/>Calculate image distance \(v_o\) for objective: \[\frac{1}{v_o} - \frac{1}{-200} = \frac{1}{40}\] \[\frac{1}{v_o} = \frac{1}{40} - \frac{1}{200} = \frac{5 - 1}{200} = \frac{4}{200} = \frac{1}{50}\] \[v_o = +50\,\text{cm}\] Compute lens separation \(L\): \[L = v_o + f_e = 50 + 4 = 54.0\,\text{cm}\]</p><p><strong>Step 5: Check and Final Answer</strong><br/>The required separation between the lenses is \(54.0\,\text{cm}\).</p>
+<hr/>
+<p><strong>ধাপ ১: প্রদত্ত তথ্য ও অনুমান</strong><br/>অভিলক্ষ্যের ফোকাস দূরত্ব \(f_o = +40\,\text{cm}\), নেত্রলেন্সের ফোকাস দূরত্ব \(f_e = +4\,\text{cm}\), এবং অভিলক্ষ্যের সাপেক্ষে বস্তুর দূরত্ব \(u_o = -200\,\text{cm}\)। পাতলা লেন্সের কার্তেসীয় চিহ্নরীতি ব্যবহার করা হয়েছে। স্বাভাবিক সমন্বয়ে চূড়ান্ত প্রতিবিম্ব অসীমে গঠিত হয়, অর্থাৎ মধ্যবর্তী প্রতিবিম্ব নেত্রলেন্সের ফোকাস তলে থাকে।</p>
+<p><strong>ধাপ ২: সূত্র ও গণনা</strong><br/>অভিলক্ষ্যের লেন্স সূত্র
+\[\frac{1}{v_o} - \frac{1}{u_o} = \frac{1}{f_o}\]
+তাই
+\[\frac{1}{v_o} - \frac{1}{-200} = \frac{1}{40}, \qquad \frac{1}{v_o} = \frac{1}{40} - \frac{1}{200} = \frac{1}{50}\]
+অতএব \(v_o = +50\,\text{cm}\)। লেন্স দুটির দূরত্ব
+\[L = v_o + f_e = 50 + 4 = 54.0\,\text{cm}\]</p>
+<p><strong>চূড়ান্ত উত্তর:</strong> লেন্স দুটির দূরত্ব \(54.0\,\text{cm}\)।</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>4.0000000</defaultgrade>
+    <penalty>0.2500000</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>\(46.0\,\text{cm}\)</p>]]></text>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>\(50.0\,\text{cm}\)</p>]]></text>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>\(54.0\,\text{cm}\)</p>]]></text>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>\(37.3\,\text{cm}\)</p>]]></text>
+    </answer>
+    <tags>
+      <tag><text>standard:neet_ug</text></tag>
+      <tag><text>year:2016</text></tag>
+      <tag><text>lang:en</text></tag>
+      <tag><text>lang:bn</text></tag>
+      <tag><text>subject:physics</text></tag>
+      <tag><text>typology:mcq</text></tag>
+      <tag><text>difficulty:medium</text></tag>
+      <tag><text>blooms:apply</text></tag>
+      <tag><text>calculation:moderate</text></tag>
+      <tag><text>media:text</text></tag>
+      <tag><text>multiconcept:false</text></tag>
+    </tags>
+  </question>
+<question type="multichoice">
+    <name>
+      <text>NEET_UG_PHYSICS_2016_MCQ_Q27 - Voltage gain and power gain of transistor amplifier</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>A \(n-p-n\) transistor is connected in common emitter configuration in a given amplifier. A load resistance of \(800\,\Omega\) is connected in the collector circuit and the voltage drop across it is \(0.8\,\text{V}\). If the current amplification factor is 0.96 and the input resistance of the circuit is \(192\,\Omega\), the voltage gain and the power gain of the amplifier will respectively be</p>
+<hr/>
+<p>একটি বিবর্ধকে একটি \(n-p-n\) ট্রানজিস্টর সাধারণ নিঃসারক বিন্যাসে যুক্ত আছে। সংগ্রাহক বর্তনীতে \(800\,\Omega\) লোড রোধ যুক্ত এবং তার দুই প্রান্তে বিভবপতন \(0.8\,\text{V}\)। তড়িৎপ্রবাহ বিবর্ধন গুণাঙ্ক 0.96 এবং বর্তনীর নিবেশ রোধ \(192\,\Omega\) হলে বিবর্ধকটির বিভব বিবর্ধন ও ক্ষমতা বিবর্ধন যথাক্রমে কত?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>Load resistance \(R_{\text{L}} = 800\,\Omega\).<br/>Input resistance \(R_{\text{in}} = 192\,\Omega\).<br/>Current amplification factor \(\beta = 0.96\).</p><p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>Common emitter amplifier equations apply.</p><p><strong>Step 3: Relevant Formulae and Principles</strong><br/>Voltage gain: \[A_v = \beta \times \frac{R_{\text{L}}}{R_{\text{in}}}\] Power gain: \[A_p = A_v \times \beta\]</p><p><strong>Step 4: Step-by-Step Working</strong><br/>Calculate voltage gain \(A_v\): \[A_v = 0.96 \times \frac{800}{192} = 0.96 \times \frac{25}{6} = 0.16 \times 25 = 4\] Calculate power gain \(A_p\): \[A_p = A_v \times \beta = 4 \times 0.96 = 3.84\]</p><p><strong>Step 5: Check and Final Answer</strong><br/>The voltage gain and power gain are \(4\) and \(3.84\) respectively.</p>
+<hr/>
+<p><strong>ধাপ ১: প্রদত্ত তথ্য</strong><br/>লোড রোধ \(R_{\text{L}} = 800\,\Omega\), নিবেশ রোধ \(R_{\text{in}} = 192\,\Omega\), এবং তড়িৎপ্রবাহ বিবর্ধন গুণাঙ্ক \(\beta = 0.96\)।</p>
+<p><strong>ধাপ ২: সূত্র</strong><br/>সাধারণ নিঃসারক বিবর্ধকের জন্য বিভব বিবর্ধন ও ক্ষমতা বিবর্ধন যথাক্রমে
+\[A_v = \beta \frac{R_{\text{L}}}{R_{\text{in}}}, \qquad A_p = A_v\beta\]</p>
+<p><strong>ধাপ ৩: গণনা</strong><br/>
+\[A_v = 0.96 \times \frac{800}{192} = 4\]
+\[A_p = 4 \times 0.96 = 3.84\]</p>
+<p><strong>চূড়ান্ত উত্তর:</strong> বিভব বিবর্ধন \(4\) এবং ক্ষমতা বিবর্ধন \(3.84\)।</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>4.0000000</defaultgrade>
+    <penalty>0.2500000</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>3.69, 3.84</p>]]></text>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>4, 4</p>]]></text>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>4, 3.69</p>]]></text>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>4, 3.84</p>]]></text>
+    </answer>
+    <tags>
+      <tag><text>standard:neet_ug</text></tag>
+      <tag><text>year:2016</text></tag>
+      <tag><text>lang:en</text></tag>
+      <tag><text>lang:bn</text></tag>
+      <tag><text>subject:physics</text></tag>
+      <tag><text>typology:mcq</text></tag>
+      <tag><text>difficulty:medium</text></tag>
+      <tag><text>blooms:apply</text></tag>
+      <tag><text>calculation:moderate</text></tag>
+      <tag><text>media:equation</text></tag>
+      <tag><text>multiconcept:false</text></tag>
+    </tags>
+  </question>
+<question type="multichoice">
   <name>
     <text>NEET_UG_PHYSICS_2016_MCQ_Q28 - Work required in adiabatic vs isothermal compression</text>
   </name>
