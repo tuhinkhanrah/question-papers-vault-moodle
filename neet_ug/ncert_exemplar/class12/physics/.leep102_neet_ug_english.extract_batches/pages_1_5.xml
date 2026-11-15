@@ -1,103 +1,56 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <quiz>
 <question type="multichoice">
-  <name>
-    <text>NEET_UG_PHYSICS_ELECTROSTATIC_POTENTIAL_AND_CAPACITANCE_MCQ_Q2_1 - Charge on capacitor plates in DC circuit</text>
-  </name>
-  <questiontext format="html">
-    <text><![CDATA[<p>A capacitor of \(4\text{ }\mu\text{F}\) is connected as shown in the circuit (Fig. 2.1). The internal resistance of the battery is \(0.5\text{ }\Omega\). The amount of charge on the capacitor plates will be</p><p><img src="@@PLUGINFILE@@/img-0.jpeg" alt="Circuit diagram showing capacitor, resistors, and battery" /></p>]]></text>
-  </questiontext>
-  <generalfeedback format="html">
-    <text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>Capacitance of the capacitor: \(C = 4\text{ }\mu\text{F} = 4 \times 10^{-6}\text{ F}\).<br/>Resistance in series with the capacitor in the upper branch: \(R_1 = 10\text{ }\Omega\).<br/>Electromotive force of the battery: \(E = 2.5\text{ V}\).<br/>Internal resistance of the battery: \(r = 0.5\text{ }\Omega\).<br/>Resistance in the lower parallel branch: \(R_2 = 2\text{ }\Omega\).</p><p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>The circuit has reached steady-state direct-current (DC) conditions. In steady state, a fully charged capacitor behaves as an open circuit, allowing no direct current to flow through its branch.</p><p><strong>Step 3: Relevant Formulae and Principles</strong><br/>The current supplied by the source through the complete conducting loop is:
-\[I = \frac{E}{R_{\text{ext}} + r}\]
-The terminal potential difference across the battery terminals is:
-\[V = E - I r = I R_{\text{ext}}\]
-The charge stored on the plates of a capacitor is:
-\[Q = C V_C\]</p><p><strong>Step 4: Step-by-Step Working</strong><br/>Because no current flows through the upper branch containing the capacitor (\(I_{\text{upper}} = 0\)), the only loop carrying current is the battery loop closed through the lower resistor \(R_2 = 2\text{ }\Omega\).<br/>The steady current in this loop is:
-\[I = \frac{2.5\text{ V}}{2\text{ }\Omega + 0.5\text{ }\Omega} = \frac{2.5}{2.5} = 1.0\text{ A}\]
-The terminal voltage across the parallel combination is:
-\[V = I R_2 = (1.0\text{ A})(2\text{ }\Omega) = 2.0\text{ V}\]
-Since no current flows through the \(10\text{ }\Omega\) resistor in the upper branch, the potential drop across it is zero:
-\[V_{10\,\Omega} = (0\text{ A})(10\text{ }\Omega) = 0\text{ V}\]
-Consequently, the full terminal potential difference appears across the capacitor:
-\[V_C = 2.0\text{ V}\]
-The charge on the capacitor plates is:
-\[Q = C V_C = (4\text{ }\mu\text{F})(2.0\text{ V}) = 8\text{ }\mu\text{C}\]
-</p><p><strong>Step 5: Check and Final Answer</strong><br/>The terminal potential difference is less than the battery EMF due to the internal resistance drop, and multiplying capacitance by voltage gives \(8\text{ }\mu\text{C}\).<br/>Final Answer: \(8\text{ }\mu\text{C}\)</p>]]></text>
-  </generalfeedback>
+  <name><text>NCERTEXEMPLAR_PHYSICS_MCQI_Q2_1 - Charge on capacitor in steady state circuit</text></name>
+  <questiontext format="html"><text><![CDATA[<p>A capacitor of \(4\ \mu\mathrm{F}\) is connected as shown in the circuit (Fig. 2.1). The internal resistance of the battery is \(0.5\ \Omega\). The amount of charge on the capacitor plates will be</p><p><img src="@@PLUGINFILE@@/img-0.jpeg" alt="Circuit with 4 microfarad capacitor, 10 ohm resistor, 2.5 V battery, and 2 ohm resistor in parallel" /></p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>Capacitance of the capacitor, \(C = 4\ \mu\mathrm{F}\).<br/>Emf of the battery, \(E = 2.5\ \mathrm{V}\).<br/>Internal resistance of the battery, \(r = 0.5\ \Omega\).<br/>Resistance in series with the capacitor in the top branch, \(R_{1} = 10\ \Omega\).<br/>External resistance in the bottom parallel branch, \(R_{2} = 2\ \Omega\).</p><p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>The circuit is assumed to be in DC steady state, meaning the capacitor is fully charged and acts as an open circuit, so zero current flows through the capacitor branch.</p><p><strong>Step 3: Relevant Formulae and Principles</strong><br/>1. Steady-state current in a closed loop with internal resistance: \(I = \frac{E}{R_{2} + r}\).<br/>2. Terminal potential difference across the battery and parallel branch: \(V = I R_{2}\).<br/>3. Charge stored on a capacitor: \(Q = C V\).</p><p><strong>Step 4: Step-by-Step Working</strong><br/>Since no current flows through the \(10\ \Omega\) resistor in steady state, the current \(I\) flows only through the loop containing the \(2.5\ \mathrm{V}\) battery and the \(2\ \Omega\) resistor:<br/>\[I = \frac{2.5\ \mathrm{V}}{2\ \Omega + 0.5\ \Omega} = \frac{2.5}{2.5} = 1\ \mathrm{A}\]<br/>The potential difference across the \(2\ \Omega\) resistor (and hence across the parallel capacitor branch) is:<br/>\[V = I R_{2} = 1\ \mathrm{A} \times 2\ \Omega = 2\ \mathrm{V}\]<br/>Because there is no current through the \(10\ \Omega\) resistor, there is no potential drop across it, so the entire \(2\ \mathrm{V}\) appears across the \(4\ \mu\mathrm{F}\) capacitor.<br/>The charge on the capacitor plates is:<br/>\[Q = C V = 4\ \mu\mathrm{F} \times 2\ \mathrm{V} = 8\ \mu\mathrm{C}\]</p><p><strong>Step 5: Check and Final Answer</strong><br/>The terminal voltage \(2\ \mathrm{V}\) is less than the emf \(2.5\ \mathrm{V}\), which is physically consistent with a potential drop \(I r = 0.5\ \mathrm{V}\) across the internal resistance. The units \(\mu\mathrm{F} \cdot \mathrm{V} = \mu\mathrm{C}\) are consistent.<br/>Final Answer: \(8\ \mu\mathrm{C}\).</p>]]></text></generalfeedback>
   <defaultgrade>4.0000000</defaultgrade>
   <penalty>0.2500000</penalty>
   <hidden>0</hidden>
   <single>true</single>
   <shuffleanswers>true</shuffleanswers>
   <answernumbering>abc</answernumbering>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>\(0\)</p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>\(4\text{ }\mu\text{C}\)</p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>\(16\text{ }\mu\text{C}\)</p>]]></text>
-  </answer>
-  <answer fraction="100" format="html">
-    <text><![CDATA[<p>\(8\text{ }\mu\text{C}\)</p>]]></text>
-  </answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>\(0\)</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>\(4\ \mu\mathrm{C}\)</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>\(16\ \mu\mathrm{C}\)</p>]]></text></answer>
+  <answer fraction="100" format="html"><text><![CDATA[<p>\(8\ \mu\mathrm{C}\)</p>]]></text></answer>
   <tags>
     <tag><text>standard:neet_ug</text></tag>
     <tag><text>lang:en</text></tag>
     <tag><text>subject:physics</text></tag>
+    <tag><text>section:mcq_i</text></tag>
     <tag><text>class:12</text></tag>
     <tag><text>chapter:electrostatic_potential_and_capacitance</text></tag>
-    <tag><text>typology:mcq</text></tag>
+    <tag><text>typology:single_choice</text></tag>
     <tag><text>difficulty:medium</text></tag>
     <tag><text>blooms:apply</text></tag>
-    <tag><text>calculation:moderate</text></tag>
+    <tag><text>calculation:light</text></tag>
     <tag><text>media:circuit</text></tag>
     <tag><text>multiconcept:true</text></tag>
   </tags>
 </question>
 <question type="multichoice">
-  <name>
-    <text>NEET_UG_PHYSICS_ELECTROSTATIC_POTENTIAL_AND_CAPACITANCE_MCQ_Q2_2 - Potential energy of charge in electric field</text>
-  </name>
-  <questiontext format="html">
-    <text><![CDATA[<p>A positively charged particle is released from rest in an uniform electric field. The electric potential energy of the charge</p>]]></text>
-  </questiontext>
-  <generalfeedback format="html">
-    <text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>A charged particle with charge \(q\) in an external electric field \(\mathbf{E}\) experiences an electrostatic force given by:
-\[\mathbf{F} = q\mathbf{E}\]
-For a positive charge (\(q > 0\)), the electrostatic force is directed parallel to the electric field vector.</p><p><strong>Step 2: Particle Motion</strong><br/>When the particle is released from rest, the net electric force accelerates it in the direction of \(\mathbf{E}\). Therefore, the positive charge moves along the electric field.</p><p><strong>Step 3: Electric Potential and Potential Energy Variation</strong><br/>The electric potential \(V\) decreases in the direction of the electric field lines, as described by the differential relation:
-\[dV = -\mathbf{E} \cdot d\mathbf{r}\]
-Because the charge moves in the direction of \(\mathbf{E}\), the displacement satisfies \(d\mathbf{r} \parallel \mathbf{E}\), meaning \(dV < 0\). The change in electric potential energy is:
-\[\Delta U = q \Delta V\]
-Since \(q > 0\) and \(\Delta V < 0\), the product \(\Delta U\) is negative. The electric field does positive work on the charge, converting electrostatic potential energy into kinetic energy.</p><p><strong>Step 4: Final Conclusion</strong><br/>The electric potential energy of the charge decreases because the charge moves along the direction of the electric field.<br/>Final Answer: decreases because the charge moves along the electric field.</p>]]></text>
-  </generalfeedback>
+  <name><text>NCERTEXEMPLAR_PHYSICS_MCQI_Q2_2 - Electric potential energy of released positive charge</text></name>
+  <questiontext format="html"><text><![CDATA[<p>A positively charged particle is released from rest in a uniform electric field. The electric potential energy of the charge</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>A charge \(q\) placed in an electric field \(\mathbf{E}\) experiences an electrostatic force \(\mathbf{F} = q\mathbf{E}\). Also, the electric field always points in the direction of decreasing electrostatic potential.</p><p><strong>Step 2: Evaluation</strong><br/>For a positively charged particle (\(q &gt; 0\)), the force \(\mathbf{F} = q\mathbf{E}\) acts in the same direction as the electric field \(\mathbf{E}\). Since the particle is released from rest, it accelerates and moves along the direction of the electric field.</p><p><strong>Step 3: Application</strong><br/>As the positive charge moves along the electric field, the electric field does positive work on the charge, converting electric potential energy into kinetic energy. Equivalently, since the potential \(V\) decreases along the electric field and \(U = qV\) with \(q &gt; 0\), the electric potential energy \(U\) decreases.</p><p><strong>Step 4: Final Conclusion</strong><br/>The electric potential energy of the charge decreases because the charge moves along the electric field.</p>]]></text></generalfeedback>
   <defaultgrade>4.0000000</defaultgrade>
   <penalty>0.2500000</penalty>
   <hidden>0</hidden>
   <single>true</single>
   <shuffleanswers>true</shuffleanswers>
   <answernumbering>abc</answernumbering>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>remains a constant because the electric field is uniform.</p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>increases because the charge moves along the electric field.</p>]]></text>
-  </answer>
-  <answer fraction="100" format="html">
-    <text><![CDATA[<p>decreases because the charge moves along the electric field.</p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>decreases because the charge moves opposite to the electric field.</p>]]></text>
-  </answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>remains a constant because the electric field is uniform.</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>increases because the charge moves along the electric field.</p>]]></text></answer>
+  <answer fraction="100" format="html"><text><![CDATA[<p>decreases because the charge moves along the electric field.</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>decreases because the charge moves opposite to the electric field.</p>]]></text></answer>
   <tags>
     <tag><text>standard:neet_ug</text></tag>
     <tag><text>lang:en</text></tag>
     <tag><text>subject:physics</text></tag>
+    <tag><text>section:mcq_i</text></tag>
     <tag><text>class:12</text></tag>
     <tag><text>chapter:electrostatic_potential_and_capacitance</text></tag>
-    <tag><text>typology:mcq</text></tag>
+    <tag><text>typology:single_choice</text></tag>
     <tag><text>difficulty:easy</text></tag>
     <tag><text>blooms:understand</text></tag>
     <tag><text>calculation:light</text></tag>
@@ -106,96 +59,56 @@ Since \(q > 0\) and \(\Delta V < 0\), the product \(\Delta U\) is negative. The 
   </tags>
 </question>
 <question type="multichoice">
-  <name>
-    <text>NEET_UG_PHYSICS_ELECTROSTATIC_POTENTIAL_AND_CAPACITANCE_MCQ_Q2_3 - Work done between two equipotential surfaces</text>
-  </name>
-  <questiontext format="html">
-    <text><![CDATA[<p>Figure 2.2 shows some equipotential lines distributed in space. A charged object is moved from point A to point B.</p><p><img src="@@PLUGINFILE@@/img-1.jpeg" alt="Equipotential lines in space for three cases" /></p>]]></text>
-  </questiontext>
-  <generalfeedback format="html">
-    <text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>The diagram presents three different distributions of equipotential lines.<br/>In each configuration:
-Initial point A lies on the equipotential line where \(V_A = 20\text{ V}\).<br/>
-Final point B lies on the equipotential line where \(V_B = 40\text{ V}\).<br/>
-A charged object of charge \(q\) is moved from point A to point B.</p><p><strong>Step 2: Governing Physical Principle</strong><br/>The electrostatic field is conservative. The work done \(W\) by an external force to move a charge \(q\) quasi-statically between two points in an electrostatic field depends solely on the potential difference between the end points and is entirely independent of the path taken:
-\[W = q(V_B - V_A)\]</p><p><strong>Step 3: Step-by-Step Evaluation</strong><br/>In the first arrangement:
-\[\Delta V = 40\text{ V} - 20\text{ V} = 20\text{ V} \implies W_1 = 20q\]
-In the second arrangement:
-\[\Delta V = 40\text{ V} - 20\text{ V} = 20\text{ V} \implies W_2 = 20q\]
-In the third arrangement:
-\[\Delta V = 40\text{ V} - 20\text{ V} = 20\text{ V} \implies W_3 = 20q\]
-Because the potential difference \(\Delta V = V_B - V_A\) is identical (\(20\text{ V}\)) in all three cases, the work done on the charged object is the same in all three figures.</p><p><strong>Step 4: Check and Final Answer</strong><br/>Although the spacing of the equipotential lines differs across the figures—indicating different local electric field intensities—the net work depends only on the endpoints of the displacement on the equipotential surfaces.<br/>Final Answer: The work done is the same in Fig. (i), Fig. (ii) and Fig. (iii).</p>]]></text>
-  </generalfeedback>
-  <defaultgrade>4.0000000</defaultgrade>
-  <penalty>0.2500000</penalty>
-  <hidden>0</hidden>
-  <single>true</single>
-  <shuffleanswers>true</shuffleanswers>
-  <answernumbering>abc</answernumbering>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>The work done in Fig. (i) is the greatest.</p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>The work done in Fig. (ii) is least.</p>]]></text>
-  </answer>
-  <answer fraction="100" format="html">
-    <text><![CDATA[<p>The work done is the same in Fig. (i), Fig. (ii) and Fig. (iii).</p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>The work done in Fig. (iii) is greater than Fig. (ii) but equal to that in Fig. (i).</p>]]></text>
-  </answer>
-  <tags>
-    <tag><text>standard:neet_ug</text></tag>
-    <tag><text>lang:en</text></tag>
-    <tag><text>subject:physics</text></tag>
-    <tag><text>class:12</text></tag>
-    <tag><text>chapter:electrostatic_potential_and_capacitance</text></tag>
-    <tag><text>typology:mcq</text></tag>
-    <tag><text>difficulty:easy</text></tag>
-    <tag><text>blooms:understand</text></tag>
-    <tag><text>calculation:light</text></tag>
-    <tag><text>media:diagram</text></tag>
-    <tag><text>multiconcept:false</text></tag>
-  </tags>
-</question>
-<question type="multichoice">
-  <name>
-    <text>NEET_UG_PHYSICS_ELECTROSTATIC_POTENTIAL_AND_CAPACITANCE_MCQ_Q2_4 - Potential and field inside conducting sphere</text>
-  </name>
-  <questiontext format="html">
-    <text><![CDATA[<p>The electrostatic potential on the surface of a charged conducting sphere is \(100\text{ V}\). Two statements are made in this regard:</p><p>\(S_{1}\) : At any point inside the sphere, electric intensity is zero.<br />\(S_{2}\) : At any point inside the sphere, the electrostatic potential is \(100\text{ V}\).</p><p>Which of the following is a correct statement?</p>]]></text>
-  </questiontext>
-  <generalfeedback format="html">
-    <text><![CDATA[<p><strong>Step 1: Electrostatic Properties of a Conductor</strong><br/>In electrostatic equilibrium, all excess electric charge resides entirely on the outer surface of a conductor. By Gauss's Law, the electric flux through any closed Gaussian surface located entirely inside the conductor is zero because no net charge is enclosed. Thus, the electric field intensity \(\mathbf{E}\) is zero everywhere inside the conducting sphere. Hence, statement \(S_1\) is true.</p><p><strong>Step 2: Relation Between Electric Field and Electrostatic Potential</strong><br/>The electric field intensity is related to the spatial rate of change of electric potential through the gradient relation:
-\[\mathbf{E} = -\nabla V \quad \text{or} \quad E = -\frac{dV}{dr}\]
-Since the electric field is identically zero inside the sphere (\(E = 0\)):
-\[\frac{dV}{dr} = 0 \implies V = \text{constant}\]
-This implies that the electrostatic potential does not vary with position anywhere throughout the interior volume of the sphere and must equal the value on the boundary surface, which is \(100\text{ V}\). Hence, statement \(S_2\) is also true.</p><p><strong>Step 3: Causal Connection and Conclusion</strong><br/>The condition that the electric field intensity inside the sphere is zero directly leads to \(\frac{dV}{dr} = 0\), which ensures that the potential remains constant at \(100\text{ V}\). Therefore, statement \(S_1\) is the cause of statement \(S_2\).<br/>Final Answer: \(S_{1}\) is true, \(S_{2}\) is also true and \(S_{1}\) is the cause of \(S_{2}\).</p>]]></text>
-  </generalfeedback>
+  <name><text>NCERTEXEMPLAR_PHYSICS_MCQI_Q2_3 - Work done moving charge between equipotential lines</text></name>
+  <questiontext format="html"><text><![CDATA[<p>Figure 2.2 shows some equipotential lines distributed in space. A charged object is moved from point A to point B.</p><p><img src="@@PLUGINFILE@@/img-1.jpeg" alt="Three diagrams showing equipotential lines from 10V to 50V with points A at 20V and B at 40V" /></p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>Three different spatial distributions of equipotential lines are shown, with potentials marked at \(10\ \mathrm{V}\), \(20\ \mathrm{V}\), \(30\ \mathrm{V}\), \(40\ \mathrm{V}\), and \(50\ \mathrm{V}\). In every distribution, point A lies on the \(20\ \mathrm{V}\) equipotential line and point B lies on the \(40\ \mathrm{V}\) equipotential line.</p><p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>Let \(q\) be the charge of the object moved from point A to point B. The electrostatic field is conservative.</p><p><strong>Step 3: Relevant Formulae and Principles</strong><br/>The work done in moving a charge \(q\) from potential \(V_{A}\) to potential \(V_{B}\) in an electrostatic field is:<br/>\[W_{AB} = q (V_{B} - V_{A})\]<br/>Because the electrostatic force is conservative, the work done depends only on the initial and final potentials and is independent of the path or the spacing of intermediate equipotential lines.</p><p><strong>Step 4: Step-by-Step Working</strong><br/>For all three equipotential distributions:<br/>\[V_{A} = 20\ \mathrm{V}, \quad V_{B} = 40\ \mathrm{V}\]<br/>Therefore, the potential difference is:<br/>\[\Delta V = V_{B} - V_{A} = 40\ \mathrm{V} - 20\ \mathrm{V} = 20\ \mathrm{V}\]<br/>Hence, the work done in each case is \(W_{AB} = 20q\).</p><p><strong>Step 5: Check and Final Answer</strong><br/>Since both the charge \(q\) and the potential difference \(\Delta V = 20\ \mathrm{V}\) are identical in all three cases, the work done is identical in all three distributions.<br/>Final Answer: The work done is the same in all three cases.</p>]]></text></generalfeedback>
   <defaultgrade>4.0000000</defaultgrade>
   <penalty>0.2500000</penalty>
   <hidden>0</hidden>
   <single>true</single>
   <shuffleanswers>false</shuffleanswers>
   <answernumbering>abc</answernumbering>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>\(S_{1}\) is true but \(S_{2}\) is false.</p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>Both \(S_{1}\) &amp; \(S_{2}\) are false.</p>]]></text>
-  </answer>
-  <answer fraction="100" format="html">
-    <text><![CDATA[<p>\(S_{1}\) is true, \(S_{2}\) is also true and \(S_{1}\) is the cause of \(S_{2}\).</p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>\(S_{1}\) is true, \(S_{2}\) is also true but the statements are independent.</p>]]></text>
-  </answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>The work done in Fig. (i) is the greatest.</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>The work done in Fig. (ii) is least.</p>]]></text></answer>
+  <answer fraction="100" format="html"><text><![CDATA[<p>The work done is the same in Fig. (i), Fig. (ii) and Fig. (iii).</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>The work done in Fig. (iii) is greater than Fig. (ii) but equal to that in Fig. (i).</p>]]></text></answer>
   <tags>
     <tag><text>standard:neet_ug</text></tag>
     <tag><text>lang:en</text></tag>
     <tag><text>subject:physics</text></tag>
+    <tag><text>section:mcq_i</text></tag>
     <tag><text>class:12</text></tag>
     <tag><text>chapter:electrostatic_potential_and_capacitance</text></tag>
-    <tag><text>typology:mcq</text></tag>
+    <tag><text>typology:single_choice</text></tag>
+    <tag><text>difficulty:easy</text></tag>
+    <tag><text>blooms:understand</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:diagram</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+<question type="multichoice">
+  <name><text>NCERTEXEMPLAR_PHYSICS_MCQI_Q2_4 - Electric field and potential inside conducting sphere</text></name>
+  <questiontext format="html"><text><![CDATA[<p>The electrostatic potential on the surface of a charged conducting sphere is \(100\ \mathrm{V}\). Two statements are made in this regard:</p><p>\(S_{1}\): At any point inside the sphere, electric intensity is zero.</p><p>\(S_{2}\): At any point inside the sphere, the electrostatic potential is \(100\ \mathrm{V}\).</p><p>Which of the following is a correct statement?</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>In electrostatic equilibrium, the electric field inside the volume of a conductor is zero everywhere. Furthermore, electric field is related to electrostatic potential by \(E = -\frac{dV}{dr}\).</p><p><strong>Step 2: Evaluation</strong><br/>Since the electric intensity inside the charged conducting sphere is zero everywhere (\(E = 0\)), the first statement \(S_{1}\) is true. Because \(E = -\frac{dV}{dr} = 0\), the electrostatic potential \(V\) must remain constant throughout the interior of the sphere.</p><p><strong>Step 3: Application</strong><br/>Since the potential is continuous across the surface of the sphere and equals \(100\ \mathrm{V}\) on the surface, the constant potential at every point inside the sphere is also \(100\ \mathrm{V}\). Therefore, the second statement \(S_{2}\) is also true, and it is a direct consequence of the electric intensity being zero inside the sphere.</p><p><strong>Step 4: Final Conclusion</strong><br/>\(S_{1}\) is true, \(S_{2}\) is also true, and \(S_{1}\) is the cause of \(S_{2}\).</p>]]></text></generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="0" format="html"><text><![CDATA[<p>\(S_{1}\) is true but \(S_{2}\) is false.</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>Both \(S_{1}\) &amp; \(S_{2}\) are false.</p>]]></text></answer>
+  <answer fraction="100" format="html"><text><![CDATA[<p>\(S_{1}\) is true, \(S_{2}\) is also true and \(S_{1}\) is the cause of \(S_{2}\).</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>\(S_{1}\) is true, \(S_{2}\) is also true but the statements are independent.</p>]]></text></answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>section:mcq_i</text></tag>
+    <tag><text>class:12</text></tag>
+    <tag><text>chapter:electrostatic_potential_and_capacitance</text></tag>
+    <tag><text>typology:single_choice</text></tag>
     <tag><text>difficulty:easy</text></tag>
     <tag><text>blooms:understand</text></tag>
     <tag><text>calculation:light</text></tag>
@@ -204,106 +117,264 @@ This implies that the electrostatic potential does not vary with position anywhe
   </tags>
 </question>
 <question type="multichoice">
-  <name>
-    <text>NEET_UG_PHYSICS_ELECTROSTATIC_POTENTIAL_AND_CAPACITANCE_MCQ_Q2_5 - Shape of equipotentials far from charges</text>
-  </name>
-  <questiontext format="html">
-    <text><![CDATA[<p>Equipotentials at a great distance from a collection of charges whose total sum is not zero are approximately</p>]]></text>
-  </questiontext>
-  <generalfeedback format="html">
-    <text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>Consider a localized assembly of electric charges distributed over a finite region of space having characteristic size \(d\). Let the net total charge of the collection be non-zero:
-\[Q_{\text{net}} = \sum q_i \neq 0\]</p><p><strong>Step 2: Large Distance Approximation</strong><br/>At an observation distance \(r\) that is much larger than the spatial dimensions of the charge distribution (\(r \gg d\)), the finite geometric separation between individual charges becomes negligible. In the multipole expansion of electrostatic potential, the monopole term dominates:
-\[V(r) \approx \frac{1}{4\pi\varepsilon_0}\frac{Q_{\text{net}}}{r}\]
-The dipole and higher multipole moments decay as \(1/r^2\), \(1/r^3\), and higher powers of \(1/r\), becoming negligible in comparison to the monopole term at great distances.</p><p><strong>Step 3: Geometry of the Equipotential Surfaces</strong><br/>An equipotential surface is the locus of all points in space having a constant value of electrostatic potential:
-\[V(r) = \text{constant} \implies r = \text{constant}\]
-In three-dimensional space, the set of points situated at a fixed radial distance \(r\) from a central point forms a sphere. Consequently, the equipotentials far from any localized system of charges with non-zero net charge are concentric spherical surfaces.</p><p><strong>Step 4: Final Conclusion</strong><br/>At great distances, the equipotential surfaces are approximately spheres.<br/>Final Answer: spheres.</p>]]></text>
-  </generalfeedback>
+  <name><text>NCERTEXEMPLAR_PHYSICS_MCQI_Q2_5 - Equipotentials far from non-zero net charge</text></name>
+  <questiontext format="html"><text><![CDATA[<p>Equipotentials at a great distance from a collection of charges whose total sum is not zero are approximately</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>At distances \(r\) much larger than the spatial extent of a localized charge distribution, the monopole term dominates the multipole expansion of the electrostatic potential if the net charge \(Q = \sum q_{i} \neq 0\).</p><p><strong>Step 2: Evaluation</strong><br/>Viewed from a great distance, the entire collection of charges acts approximately as a single point charge \(Q\) located at the origin. The potential at distance \(r\) is given by \(V(r) \approx \frac{1}{4\pi\varepsilon_{0}}\frac{Q}{r}\).</p><p><strong>Step 3: Application</strong><br/>An equipotential surface satisfies \(V = \text{constant}\), which corresponds to \(r = \text{constant}\). The locus of points at a constant distance \(r\) from a point is a sphere.</p><p><strong>Step 4: Final Conclusion</strong><br/>Equipotentials at a great distance from a collection of charges with non-zero total charge are approximately spheres.</p>]]></text></generalfeedback>
   <defaultgrade>4.0000000</defaultgrade>
   <penalty>0.2500000</penalty>
   <hidden>0</hidden>
   <single>true</single>
   <shuffleanswers>true</shuffleanswers>
   <answernumbering>abc</answernumbering>
-  <answer fraction="100" format="html">
-    <text><![CDATA[<p>spheres.</p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>planes.</p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>paraboloids</p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>ellipsoids.</p>]]></text>
-  </answer>
+  <answer fraction="100" format="html"><text><![CDATA[<p>spheres.</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>planes.</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>paraboloids</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>ellipsoids.</p>]]></text></answer>
   <tags>
     <tag><text>standard:neet_ug</text></tag>
     <tag><text>lang:en</text></tag>
     <tag><text>subject:physics</text></tag>
+    <tag><text>section:mcq_i</text></tag>
     <tag><text>class:12</text></tag>
     <tag><text>chapter:electrostatic_potential_and_capacitance</text></tag>
-    <tag><text>typology:mcq</text></tag>
+    <tag><text>typology:single_choice</text></tag>
     <tag><text>difficulty:easy</text></tag>
-    <tag><text>blooms:remember</text></tag>
+    <tag><text>blooms:understand</text></tag>
     <tag><text>calculation:light</text></tag>
     <tag><text>media:text</text></tag>
     <tag><text>multiconcept:false</text></tag>
   </tags>
 </question>
 <question type="multichoice">
-  <name>
-    <text>NEET_UG_PHYSICS_ELECTROSTATIC_POTENTIAL_AND_CAPACITANCE_MCQ_Q2_6 - Effective dielectric constant of series blocks</text>
-  </name>
-  <questiontext format="html">
-    <text><![CDATA[<p>A parallel plate capacitor is made of two dielectric blocks in series. One of the blocks has thickness \(d_{1}\) and dielectric constant \(k_{1}\) and the other has thickness \(d_{2}\) and dielectric constant \(k_{2}\) as shown in Fig. 2.3. This arrangement can be thought as a dielectric slab of thickness \(d (= d_{1} + d_{2})\) and effective dielectric constant \(k\). The \(k\) is</p><p><img src="@@PLUGINFILE@@/img-2.jpeg" alt="Two dielectric slabs in series inside a parallel plate capacitor" /></p>]]></text>
-  </questiontext>
-  <generalfeedback format="html">
-    <text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>First dielectric block: thickness \(d_1\), dielectric constant \(k_1\).<br/>Second dielectric block: thickness \(d_2\), dielectric constant \(k_2\).<br/>Total plate separation: \(d = d_1 + d_2\).<br/>Plate area of the capacitor: \(A\).<br/>Equivalent dielectric constant: \(k\).</p><p><strong>Step 2: Assumptions and Model</strong><br/>The boundary separating the two slabs is parallel to the conducting plates. This composite system can be treated as two separate capacitors connected in series, each having plate area \(A\).</p><p><strong>Step 3: Relevant Formulae and Principles</strong><br/>The capacitance of a parallel plate capacitor with dielectric constant \(k_i\) and thickness \(d_i\) is:
-\[C_i = \frac{k_i \varepsilon_0 A}{d_i}\]
-For two capacitors connected in series, the equivalent capacitance \(C_{\text{eff}}\) satisfies:
-\[\frac{1}{C_{\text{eff}}} = \frac{1}{C_1} + \frac{1}{C_2}\]
-The equivalent capacitor with effective dielectric constant \(k\) and total thickness \(d = d_1 + d_2\) is:
-\[C_{\text{eff}} = \frac{k \varepsilon_0 A}{d_1 + d_2}\]</p><p><strong>Step 4: Step-by-Step Working</strong><br/>Substituting the expressions for \(C_1\) and \(C_2\):
-\[\frac{1}{C_{\text{eff}}} = \frac{d_1}{k_1 \varepsilon_0 A} + \frac{d_2}{k_2 \varepsilon_0 A} = \frac{1}{\varepsilon_0 A} \left(\frac{d_1}{k_1} + \frac{d_2}{k_2}\right) = \frac{1}{\varepsilon_0 A} \left(\frac{k_2 d_1 + k_1 d_2}{k_1 k_2}\right)\]
-Inverting this expression gives:
-\[C_{\text{eff}} = \frac{\varepsilon_0 A k_1 k_2}{k_1 d_2 + k_2 d_1}\]
-Equating this to the expression in terms of the effective dielectric constant \(k\):
-\[\frac{k \varepsilon_0 A}{d_1 + d_2} = \frac{\varepsilon_0 A k_1 k_2}{k_1 d_2 + k_2 d_1}\]
-Cancelling \(\varepsilon_0 A\) from both sides:
-\[\frac{k}{d_1 + d_2} = \frac{k_1 k_2}{k_1 d_2 + k_2 d_1}\]
-Solving for \(k\):
-\[k = \frac{k_1 k_2 (d_1 + d_2)}{k_1 d_1 + k_2 d_2}\]</p><p><strong>Step 5: Check and Final Answer</strong><br/>If the two thicknesses are equal (\(d_1 = d_2\)), the formula simplifies to the harmonic mean \(k = \frac{2 k_1 k_2}{k_1 + k_2}\), which matches standard physical expectations for equal-thickness slabs in series.<br/>Final Answer: \(\frac{k_1 k_2 (d_1 + d_2)}{k_1 d_1 + k_2 d_2}\)</p>]]></text>
-  </generalfeedback>
+  <name><text>NCERTEXEMPLAR_PHYSICS_MCQI_Q2_6 - Effective dielectric constant of series dielectric blocks</text></name>
+  <questiontext format="html"><text><![CDATA[<p><img src="@@PLUGINFILE@@/img-2.jpeg" alt="Parallel plate capacitor with two dielectric blocks of thickness d1 and d2 and dielectric constants k1 and k2 in series" /></p><p>A parallel plate capacitor is made of two dielectric blocks in series. One of the blocks has thickness \(d_{1}\) and dielectric constant \(k_{1}\) and the other has thickness \(d_{2}\) and dielectric constant \(k_{2}\) as shown in Fig. 2.3. This arrangement can be thought as a dielectric slab of thickness \(d (= d_{1} + d_{2})\) and effective dielectric constant \(k\). The \(k\) is</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>A parallel plate capacitor of plate area \(A\) is filled with two dielectric slabs in series: the first has thickness \(d_{1}\) and dielectric constant \(k_{1}\), and the second has thickness \(d_{2}\) and dielectric constant \(k_{2}\). The total plate separation is \(d = d_{1} + d_{2}\).</p><p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>Fringing effects at the edges are neglected, so the electric field is uniform within each dielectric slab and perpendicular to the plates.</p><p><strong>Step 3: Relevant Formulae and Principles</strong><br/>1. Capacitance of a parallel plate capacitor filled with a dielectric of constant \(k\), area \(A\), and thickness \(d\): \(C = \frac{k \varepsilon_{0} A}{d}\).<br/>2. Equivalent capacitance of two capacitors \(C_{1}\) and \(C_{2}\) in series: \(\frac{1}{C_{\text{eq}}} = \frac{1}{C_{1}} + \frac{1}{C_{2}}\).</p><p><strong>Step 4: Step-by-Step Working</strong><br/>The individual capacitances of the two dielectric blocks are:<br/>\[C_{1} = \frac{k_{1} \varepsilon_{0} A}{d_{1}}, \quad C_{2} = \frac{k_{2} \varepsilon_{0} A}{d_{2}}\]<br/>Since they are in series, the equivalent capacitance \(C_{\text{eq}} = \frac{k \varepsilon_{0} A}{d_{1} + d_{2}}\) satisfies:<br/>\[\frac{d_{1} + d_{2}}{k \varepsilon_{0} A} = \frac{d_{1}}{k_{1} \varepsilon_{0} A} + \frac{d_{2}}{k_{2} \varepsilon_{0} A}\]<br/>Cancelling \(\frac{1}{\varepsilon_{0} A}\) from both sides:<br/>\[\frac{d_{1} + d_{2}}{k} = \frac{d_{1}}{k_{1}} + \frac{d_{2}}{k_{2}} = \frac{k_{2} d_{1} + k_{1} d_{2}}{k_{1} k_{2}}\]<br/>Solving for \(k\) gives:<br/>\[k = \frac{k_{1} k_{2} (d_{1} + d_{2})}{k_{1} d_{2} + k_{2} d_{1}}\]</p><p><strong>Step 5: Check and Final Answer</strong><br/>The expression is dimensionless, and for equal thicknesses \(d_{1} = d_{2}\) it reduces to the harmonic mean \(\frac{2 k_{1} k_{2}}{k_{1} + k_{2}}\). (Note: In the printed source text, the denominator is written with swapped subscripts as \(k_{1} d_{1} + k_{2} d_{2}\); the matching series-combination form is \(\frac{k_{1} k_{2} (d_{1} + d_{2})}{(k_{1} d_{1} + k_{2} d_{2})}\).)<br/>Final Answer: \(\frac{k_{1} k_{2} (d_{1} + d_{2})}{(k_{1} d_{1} + k_{2} d_{2})}\).</p>]]></text></generalfeedback>
   <defaultgrade>4.0000000</defaultgrade>
   <penalty>0.2500000</penalty>
   <hidden>0</hidden>
   <single>true</single>
   <shuffleanswers>true</shuffleanswers>
   <answernumbering>abc</answernumbering>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>\(\frac{k_1 d_1 + k_2 d_2}{d_1 + d_2}\)</p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>\(\frac{k_1 d_1 + k_2 d_2}{k_1 + k_2}\)</p>]]></text>
-  </answer>
-  <answer fraction="100" format="html">
-    <text><![CDATA[<p>\(\frac{k_1 k_2 (d_1 + d_2)}{k_1 d_1 + k_2 d_2}\)</p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>\(\frac{2 k_1 k_2}{k_1 + k_2}\)</p>]]></text>
-  </answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>\(\frac{k_{1}d_{1} + k_{2}d_{2}}{d_{1} + d_{2}}\)</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>\(\frac{k_{1}d_{1} + k_{2}d_{2}}{k_{1} + k_{2}}\)</p>]]></text></answer>
+  <answer fraction="100" format="html"><text><![CDATA[<p>\(\frac{k_{1}k_{2}(d_{1} + d_{2})}{(k_{1}d_{1} + k_{2}d_{2})}\)</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>\(\frac{2k_{1}k_{2}}{k_{1} + k_{2}}\)</p>]]></text></answer>
   <tags>
     <tag><text>standard:neet_ug</text></tag>
     <tag><text>lang:en</text></tag>
     <tag><text>subject:physics</text></tag>
+    <tag><text>section:mcq_i</text></tag>
     <tag><text>class:12</text></tag>
     <tag><text>chapter:electrostatic_potential_and_capacitance</text></tag>
-    <tag><text>typology:mcq</text></tag>
+    <tag><text>typology:single_choice</text></tag>
     <tag><text>difficulty:medium</text></tag>
     <tag><text>blooms:apply</text></tag>
     <tag><text>calculation:moderate</text></tag>
     <tag><text>media:diagram</text></tag>
     <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+<question type="multichoice">
+  <name><text>NCERTEXEMPLAR_PHYSICS_MCQII_Q2_7 - Equipotential surfaces for uniform field along z</text></name>
+  <questiontext format="html"><text><![CDATA[<p>Consider a uniform electric field in the \(\hat{\mathbf{z}}\) direction. The potential is a constant</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>The electrostatic potential \(V\) and electric field \(\mathbf{E}\) are related by \(dV = -\mathbf{E} \cdot d\mathbf{r}\).</p><p><strong>Step 2: Evaluation</strong><br/>For a uniform electric field \(\mathbf{E} = E_{0}\hat{\mathbf{z}}\), we have:<br/>\[dV = -(E_{0}\hat{\mathbf{z}}) \cdot (dx\,\hat{\mathbf{x}} + dy\,\hat{\mathbf{y}} + dz\,\hat{\mathbf{z}}) = -E_{0}\,dz\]<br/>Integrating gives \(V(x, y, z) = -E_{0} z + C\), where \(C\) is a constant.</p><p><strong>Step 3: Application</strong><br/>Since \(V\) depends only on \(z\) and is independent of \(x\) and \(y\), the potential is constant for any \(x\) for a given \(z\), for any \(y\) for a given \(z\), and throughout the entire \(x\text{-}y\) plane for a given \(z\). It is not constant in all space because \(V\) varies linearly with \(z\).</p><p><strong>Step 4: Final Conclusion</strong><br/>The potential is a constant for any \(x\) for a given \(z\), for any \(y\) for a given \(z\), and on the \(x\text{-}y\) plane for a given \(z\).</p>]]></text></generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>false</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="-50" format="html"><text><![CDATA[<p>in all space.</p>]]></text></answer>
+  <answer fraction="33.33333" format="html"><text><![CDATA[<p>for any \(x\) for a given \(z\).</p>]]></text></answer>
+  <answer fraction="33.33333" format="html"><text><![CDATA[<p>for any \(y\) for a given \(z\).</p>]]></text></answer>
+  <answer fraction="33.33333" format="html"><text><![CDATA[<p>on the \(x - y\) plane for a given \(z\).</p>]]></text></answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>section:mcq_ii</text></tag>
+    <tag><text>class:12</text></tag>
+    <tag><text>chapter:electrostatic_potential_and_capacitance</text></tag>
+    <tag><text>typology:multiple_response</text></tag>
+    <tag><text>difficulty:easy</text></tag>
+    <tag><text>blooms:understand</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:text</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+<question type="multichoice">
+  <name><text>NCERTEXEMPLAR_PHYSICS_MCQII_Q2_8 - Properties of equipotential surfaces and field strength</text></name>
+  <questiontext format="html"><text><![CDATA[<p>Equipotential surfaces</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>The magnitude of the electric field is related to the spacing between equipotential surfaces by \(E = -\frac{dV}{dr}\). For a fixed potential difference \(\Delta V\) between successive surfaces, the perpendicular spacing \(\Delta r\) is inversely proportional to the electric field strength: \(\Delta r \propto \frac{1}{E}\).</p><p><strong>Step 2: Evaluation</strong><br/>Because \(\Delta r \propto \frac{1}{E}\), equipotential surfaces are closer together in regions of strong electric fields than in regions of weak electric fields. They are equally spaced only when the electric field is uniform, not always.</p><p><strong>Step 3: Application</strong><br/>On a charged conductor, the surface charge density \(\sigma\) is largest at sharp edges (small radius of curvature), and the electric field just outside the conductor is \(E = \frac{\sigma}{\varepsilon_{0}}\). Therefore, \(E\) is large near sharp edges and near regions of large charge densities, making the equipotential surfaces more crowded in these regions.</p><p><strong>Step 4: Final Conclusion</strong><br/>Equipotential surfaces are closer in regions of large electric fields compared to regions of lower electric fields, more crowded near sharp edges of a conductor, and more crowded near regions of large charge densities.</p>]]></text></generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>false</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="33.33333" format="html"><text><![CDATA[<p>are closer in regions of large electric fields compared to regions of lower electric fields.</p>]]></text></answer>
+  <answer fraction="33.33333" format="html"><text><![CDATA[<p>will be more crowded near sharp edges of a conductor.</p>]]></text></answer>
+  <answer fraction="33.33333" format="html"><text><![CDATA[<p>will be more crowded near regions of large charge densities.</p>]]></text></answer>
+  <answer fraction="-50" format="html"><text><![CDATA[<p>will always be equally spaced.</p>]]></text></answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>section:mcq_ii</text></tag>
+    <tag><text>class:12</text></tag>
+    <tag><text>chapter:electrostatic_potential_and_capacitance</text></tag>
+    <tag><text>typology:multiple_response</text></tag>
+    <tag><text>difficulty:easy</text></tag>
+    <tag><text>blooms:understand</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:text</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+<question type="multichoice">
+  <name><text>NCERTEXEMPLAR_PHYSICS_MCQII_Q2_9 - Work done moving charge along an equipotential</text></name>
+  <questiontext format="html"><text><![CDATA[<p>The work done to move a charge along an equipotential from A to B</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>The work done in moving a unit positive charge from point A to point B in an electrostatic field is defined by the line integral \(W_{AB} = -\int_{A}^{B} \mathbf{E} \cdot d\mathbf{l} = V_{B} - V_{A}\) (and for any charge \(q\), \(W_{AB} = q(V_{B} - V_{A})\)).</p><p><strong>Step 2: Evaluation</strong><br/>Along an equipotential surface, the electric potential is constant everywhere, so \(V_{A} = V_{B}\) and \(V_{B} - V_{A} = 0\). Equivalently, the electric field \(\mathbf{E}\) is always perpendicular to the equipotential surface, so \(\mathbf{E} \cdot d\mathbf{l} = 0\) at every point along the path.</p><p><strong>Step 3: Application</strong><br/>Thus, the work done must be defined as \(-\int_{A}^{B} \mathbf{E} \cdot d\mathbf{l}\) (per unit charge) and evaluates to zero along an equipotential surface.</p><p><strong>Step 4: Final Conclusion</strong><br/>The work done to move a charge along an equipotential from A to B must be defined as \(-\int_{A}^{B} \mathbf{E} \cdot d\mathbf{l}\) and is zero.</p>]]></text></generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>false</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="-50" format="html"><text><![CDATA[<p>cannot be defined as \(-\int_{A}^{B} \mathbf{E} \cdot d\mathbf{l}\)</p>]]></text></answer>
+  <answer fraction="50" format="html"><text><![CDATA[<p>must be defined as \(-\int_{A}^{B} \mathbf{E} \cdot d\mathbf{l}\)</p>]]></text></answer>
+  <answer fraction="50" format="html"><text><![CDATA[<p>is zero.</p>]]></text></answer>
+  <answer fraction="-50" format="html"><text><![CDATA[<p>can have a non-zero value.</p>]]></text></answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>section:mcq_ii</text></tag>
+    <tag><text>class:12</text></tag>
+    <tag><text>chapter:electrostatic_potential_and_capacitance</text></tag>
+    <tag><text>typology:multiple_response</text></tag>
+    <tag><text>difficulty:medium</text></tag>
+    <tag><text>blooms:understand</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:text</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+<question type="multichoice">
+  <name><text>NCERTEXEMPLAR_PHYSICS_MCQII_Q2_10 - Electric field and charge in constant potential region</text></name>
+  <questiontext format="html"><text><![CDATA[<p>In a region of constant potential</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>The electric field is the negative gradient of the electrostatic potential: \(\mathbf{E} = -\nabla V\). According to Gauss's law, the net electric flux through any closed surface equals \(\frac{q_{\text{in}}}{\varepsilon_{0}}\).</p><p><strong>Step 2: Evaluation</strong><br/>If the potential \(V\) is constant throughout a region, all spatial derivatives of \(V\) vanish, so the electric field \(\mathbf{E} = 0\) everywhere in that region.</p><p><strong>Step 3: Application</strong><br/>Because \(\mathbf{E} = 0\) everywhere inside the region, the electric flux through any closed Gaussian surface drawn within the region is zero. By Gauss's law, this implies there can be no net charge inside the region. Furthermore, if the region is enclosed by a conductor (electrostatic shielding), placing a charge outside induces surface charges that keep the interior field zero, so the electric field inside does not necessarily change.</p><p><strong>Step 4: Final Conclusion</strong><br/>In a region of constant potential, the electric field is zero and there can be no charge inside the region.</p>]]></text></generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>false</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="-50" format="html"><text><![CDATA[<p>the electric field is uniform</p>]]></text></answer>
+  <answer fraction="50" format="html"><text><![CDATA[<p>the electric field is zero</p>]]></text></answer>
+  <answer fraction="50" format="html"><text><![CDATA[<p>there can be no charge inside the region.</p>]]></text></answer>
+  <answer fraction="-50" format="html"><text><![CDATA[<p>the electric field shall necessarily change if a charge is placed outside the region.</p>]]></text></answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>section:mcq_ii</text></tag>
+    <tag><text>class:12</text></tag>
+    <tag><text>chapter:electrostatic_potential_and_capacitance</text></tag>
+    <tag><text>typology:multiple_response</text></tag>
+    <tag><text>difficulty:medium</text></tag>
+    <tag><text>blooms:analyze</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:text</text></tag>
+    <tag><text>multiconcept:true</text></tag>
+  </tags>
+</question>
+<question type="multichoice">
+  <name><text>NCERTEXEMPLAR_PHYSICS_MCQII_Q2_11 - Charge redistribution between two capacitors in circuit</text></name>
+  <questiontext format="html"><text><![CDATA[<p>In the circuit shown in Fig. 2.4, initially key \(K_{1}\) is closed and key \(K_{2}\) is open. Then \(K_{1}\) is opened and \(K_{2}\) is closed (order is important). [Take \(Q_{1}'\) and \(Q_{2}'\) as charges on \(C_{1}\) and \(C_{2}\) and \(V_{1}\) and \(V_{2}\) as voltage respectively.]</p><p><img src="@@PLUGINFILE@@/img-3.jpeg" alt="Circuit with battery E, key K1, capacitor C1, key K2, and capacitor C2" /></p><p>Then</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>Capacitors \(C_{1}\) and \(C_{2}\) are connected in a circuit with a battery of emf \(E\) and keys \(K_{1}\) and \(K_{2}\). Initially \(K_{1}\) is closed and \(K_{2}\) is open. Later \(K_{1}\) is opened and \(K_{2}\) is closed. After redistribution, the charges on \(C_{1}\) and \(C_{2}\) are \(Q_{1}'\) and \(Q_{2}'\) and their voltages are \(V_{1}\) and \(V_{2}\).</p><p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>Both capacitors are initially uncharged, and the battery and connecting wires have negligible resistance.</p><p><strong>Step 3: Relevant Formulae and Principles</strong><br/>1. Charge on a capacitor: \(Q = C V\).<br/>2. Conservation of electric charge on an isolated system of plates.<br/>3. Parallel capacitors in electrostatic equilibrium have equal potential differences.</p><p><strong>Step 4: Step-by-Step Working</strong><br/>When \(K_{1}\) is closed and \(K_{2}\) is open, capacitor \(C_{1}\) is charged to the battery emf \(E\), acquiring an initial charge:<br/>\[Q = C_{1} E\]<br/>When \(K_{1}\) is opened, the battery is disconnected, and when \(K_{2}\) is closed, \(C_{1}\) and \(C_{2}\) are connected in parallel. Charge redistributes until both capacitors reach a common potential difference:<br/>\[V_{1} = V_{2}\]<br/>By conservation of charge on the isolated plates:<br/>\[Q_{1}' + Q_{2}' = Q\]<br/>Substituting \(Q_{1}' = C_{1} V_{1}\), \(Q_{2}' = C_{2} V_{2}\), and \(Q = C_{1} E\) gives:<br/>\[C_{1} V_{1} + C_{2} V_{2} = C_{1} E\]<br/>Note that \(Q_{1}' = Q_{2}'\) holds only in the special case \(C_{1} = C_{2}\), not in general.</p><p><strong>Step 5: Check and Final Answer</strong><br/>The equations \(V_{1} = V_{2}\), \(Q_{1}' + Q_{2}' = Q\), and \(C_{1} V_{1} + C_{2} V_{2} = C_{1} E\) all follow directly from parallel connection and charge conservation.<br/>Final Answer: Charge on \(C_{1}\) gets redistributed such that \(V_{1} = V_{2}\), \(C_{1}V_{1} + C_{2}V_{2} = C_{1}E\), and \(Q_{1}' + Q_{2}' = Q\).</p>]]></text></generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>false</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="33.33333" format="html"><text><![CDATA[<p>charge on \(C_{1}\) gets redistributed such that \(V_{1} = V_{2}\)</p>]]></text></answer>
+  <answer fraction="-50" format="html"><text><![CDATA[<p>charge on \(C_{1}\) gets redistributed such that \(Q_{1}' = Q_{2}'\)</p>]]></text></answer>
+  <answer fraction="33.33333" format="html"><text><![CDATA[<p>charge on \(C_{1}\) gets redistributed such that \(C_{1}V_{1} + C_{2}V_{2} = C_{1}E\)</p>]]></text></answer>
+  <answer fraction="33.33333" format="html"><text><![CDATA[<p>charge on \(C_{1}\) gets redistributed such that \(Q_{1}' + Q_{2}' = Q\)</p>]]></text></answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>section:mcq_ii</text></tag>
+    <tag><text>class:12</text></tag>
+    <tag><text>chapter:electrostatic_potential_and_capacitance</text></tag>
+    <tag><text>typology:multiple_response</text></tag>
+    <tag><text>difficulty:medium</text></tag>
+    <tag><text>blooms:apply</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:circuit</text></tag>
+    <tag><text>multiconcept:true</text></tag>
+  </tags>
+</question>
+<question type="multichoice">
+  <name><text>NCERTEXEMPLAR_PHYSICS_MCQII_Q2_12 - Charge distribution on conductor at non-zero potential</text></name>
+  <questiontext format="html"><text><![CDATA[<p>If a conductor has a potential \(V \neq 0\) and there are no charges anywhere else outside, then</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>In electrostatic equilibrium, the electric field inside the conducting material (the body of the conductor) is zero. By Gauss's law, the net charge enclosed within any region where \(\mathbf{E} = 0\) is zero.</p><p><strong>Step 2: Evaluation</strong><br/>Since the conductor has a non-zero potential \(V \neq 0\) (with reference potential zero at infinity) and there are no charges anywhere outside, the conductor itself must possess charges—either on its outer surface or inside a cavity within itself.</p><p><strong>Step 3: Application</strong><br/>Because \(\mathbf{E} = 0\) throughout the solid conducting material, there cannot be any net charge in the body of the conductor. Any excess charge on an isolated conductor resides on its surface (or on the inner surface if a charge is placed inside a cavity).</p><p><strong>Step 4: Final Conclusion</strong><br/>There must be charges on the surface or inside itself, and there cannot be any charge in the body of the conductor.</p>]]></text></generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>false</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="50" format="html"><text><![CDATA[<p>there must be charges on the surface or inside itself.</p>]]></text></answer>
+  <answer fraction="50" format="html"><text><![CDATA[<p>there cannot be any charge in the body of the conductor.</p>]]></text></answer>
+  <answer fraction="-50" format="html"><text><![CDATA[<p>there must be charges only on the surface.</p>]]></text></answer>
+  <answer fraction="-50" format="html"><text><![CDATA[<p>there must be charges inside the surface.</p>]]></text></answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>section:mcq_ii</text></tag>
+    <tag><text>class:12</text></tag>
+    <tag><text>chapter:electrostatic_potential_and_capacitance</text></tag>
+    <tag><text>typology:multiple_response</text></tag>
+    <tag><text>difficulty:medium</text></tag>
+    <tag><text>blooms:analyze</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:text</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+<question type="multichoice">
+  <name><text>NCERTEXEMPLAR_PHYSICS_MCQII_Q2_13 - Parallel plate capacitor with key closed or open</text></name>
+  <questiontext format="html"><text><![CDATA[<p>A parallel plate capacitor is connected to a battery as shown in Fig. 2.5. Consider two situations:</p><p><img src="@@PLUGINFILE@@/img-4.jpeg" alt="Parallel plate capacitor C connected to battery E through key K" /></p><p>A: Key K is kept closed and plates of capacitors are moved apart using insulating handle.</p><p>B: Key K is opened and plates of capacitors are moved apart using insulating handle.</p><p>Choose the correct option(s).</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>A parallel plate capacitor of capacitance \(C\) is connected to a battery of emf \(E\) via a key \(K\). In situation A, key \(K\) remains closed while the plate separation \(d\) is increased. In situation B, key \(K\) is opened before the plate separation \(d\) is increased.</p><p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>An insulating handle is used so no charge leaks through the handle. Edge effects are neglected.</p><p><strong>Step 3: Relevant Formulae and Principles</strong><br/>1. Capacitance of a parallel plate capacitor: \(C = \frac{\varepsilon_{0} A}{d}\).<br/>2. Charge-voltage relation: \(Q = C V\).</p><p><strong>Step 4: Step-by-Step Working</strong><br/>When the plates are moved apart, \(d\) increases, so the capacitance \(C = \frac{\varepsilon_{0} A}{d}\) decreases in both situations.<br/>In situation A (key \(K\) closed), the capacitor stays connected to the battery, so the potential difference \(V = E\) remains constant. Since \(Q = C V\) and \(C\) decreases, the charge \(Q\) changes (decreases).<br/>In situation B (key \(K\) opened), the capacitor is isolated from the battery, so the charge \(Q\) on the plates remains constant. Since \(V = \frac{Q}{C}\) and \(C\) decreases, the potential difference \(V\) changes (increases).</p><p><strong>Step 5: Check and Final Answer</strong><br/>Both conclusions follow directly from \(Q = C V\) under constant-\(V\) (battery connected) and constant-\(Q\) (battery disconnected) constraints.<br/>Final Answer: In A: \(V\) remains same and hence \(Q\) changes; in B: \(Q\) remains same and hence \(V\) changes.</p>]]></text></generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>false</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="-50" format="html"><text><![CDATA[<p>In A: \(Q\) remains same but \(C\) changes.</p>]]></text></answer>
+  <answer fraction="-50" format="html"><text><![CDATA[<p>In B: \(V\) remains same but \(C\) changes.</p>]]></text></answer>
+  <answer fraction="50" format="html"><text><![CDATA[<p>In A: \(V\) remains same and hence \(Q\) changes.</p>]]></text></answer>
+  <answer fraction="50" format="html"><text><![CDATA[<p>In B: \(Q\) remains same and hence \(V\) changes.</p>]]></text></answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>section:mcq_ii</text></tag>
+    <tag><text>class:12</text></tag>
+    <tag><text>chapter:electrostatic_potential_and_capacitance</text></tag>
+    <tag><text>typology:multiple_response</text></tag>
+    <tag><text>difficulty:medium</text></tag>
+    <tag><text>blooms:apply</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:circuit</text></tag>
+    <tag><text>multiconcept:true</text></tag>
   </tags>
 </question>
 </quiz>

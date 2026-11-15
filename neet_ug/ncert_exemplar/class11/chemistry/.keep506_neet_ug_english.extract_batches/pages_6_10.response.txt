@@ -1,137 +1,245 @@
-<question type="multichoice">
-  <name><text>NEET_UG_CHEMISTRY_THERMODYNAMICS_MCQ_Q55 - Exothermic nature of combustion standard enthalpy elements</text></name>
-  <questiontext format="html">
-    <text><![CDATA[
-      <p><strong>Assertion (A):</strong> Combustion of all organic compounds is an exothermic reaction.</p>
-      <p><strong>Reason (R):</strong> The enthalpies of all elements in their standard state are zero.</p>
-    ]]></text>
-  </questiontext>
-  <generalfeedback format="html">
-    <text><![CDATA[<p><strong>Conceptual Principle</strong><br/>Combustion is the rapid oxidation of a substance accompanied by the evolution of heat and light. In the combustion of organic compounds, carbon-carbon and carbon-hydrogen bonds react with oxygen to form carbon dioxide and water. Because the bonds formed in the products are thermodynamically stronger and more stable than the bonds broken in the reactants, energy is released into the surroundings, making combustion universally exothermic (\(\Delta_c H < 0\)). Thus, the assertion is correct.</p>
-<p><strong>Evaluation of Reason</strong><br/>By thermodynamic convention, the standard enthalpy of formation of an element in its most stable reference state of aggregation at \(298\text{ K}\) and \(1\text{ bar}\) is defined as zero. Thus, the reason is also a correct statement.</p>
-<p><strong>Evaluation of Explanation</strong><br/>The convention assigning zero enthalpy to pure elements in their standard states serves as a reference datum for enthalpy tables; it does not provide the physical explanation for why organic combustion releases energy. Combustion is exothermic because the product molecules have greater thermodynamic stability than the reactant molecules.</p>
-<p><strong>Final Conclusion</strong><br/>Both statements are correct, but the reason is not the correct explanation of the assertion.</p>]]></text>
-  </generalfeedback>
+<question type="matching">
+  <name><text>NEET_UG_CHEMISTRY_THERMODYNAMICS_MATCHING_Q51 - Fundamental thermodynamic terms and definitions</text></name>
+  <questiontext format="html"><text><![CDATA[<p>Match the following:</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>Thermodynamic processes, systems, functions, and properties are defined by their specific constraints and state/path dependence.</p><p><strong>Step 2: Evaluation</strong><br/>- An adiabatic process involves no transfer of heat between system and surroundings.<br/>- An isolated system has no exchange of energy and matter with the surroundings.<br/>- An isothermal change takes place at constant temperature.<br/>- Heat is a path function, whereas internal energy and entropy are state functions (and extensive properties).<br/>- From the first law of thermodynamics (\(\Delta U = q + w\)), at constant volume (\(w = 0\)) we get \(\Delta U = q\), and at constant pressure we get \(\Delta H = q\).<br/>- The first law of thermodynamics is the law of conservation of energy.<br/>- A reversible process is an infinitely slow process which proceeds through a series of equilibrium states.<br/>- Free expansion occurs against zero external pressure (\(p_{\mathrm{ext}} = 0\)).<br/>- Pressure and specific heat are intensive properties (independent of system size), whereas internal energy and entropy are extensive properties (dependent on system size).</p><p><strong>Step 3: Final Conclusion</strong><br/>Each thermodynamic term matches uniquely to its defining physical condition or classification as listed above.</p>]]></text></generalfeedback>
   <defaultgrade>4.0000000</defaultgrade>
   <penalty>0.2500000</penalty>
   <hidden>0</hidden>
-  <single>true</single>
-  <shuffleanswers>false</shuffleanswers>
-  <answernumbering>iii</answernumbering>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>Both (A) and (R) are correct and (R) is the correct explanation of (A).</p>]]></text>
-  </answer>
-  <answer fraction="100" format="html">
-    <text><![CDATA[<p>Both (A) and (R) are correct but (R) is NOT the correct explanation of (A).</p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>(A) is correct but (R) is incorrect.</p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>(A) is incorrect but (R) is correct.</p>]]></text>
-  </answer>
+  <shuffleanswers>true</shuffleanswers>
+  <subquestion format="html">
+    <text><![CDATA[<p>Adiabatic process</p>]]></text>
+    <answer><text>No transfer of heat</text></answer>
+  </subquestion>
+  <subquestion format="html">
+    <text><![CDATA[<p>Isolated system</p>]]></text>
+    <answer><text>No exchange of energy and matter</text></answer>
+  </subquestion>
+  <subquestion format="html">
+    <text><![CDATA[<p>Isothermal change</p>]]></text>
+    <answer><text>Constant temperature</text></answer>
+  </subquestion>
+  <subquestion format="html">
+    <text><![CDATA[<p>Path function</p>]]></text>
+    <answer><text>Heat</text></answer>
+  </subquestion>
+  <subquestion format="html">
+    <text><![CDATA[<p>State function</p>]]></text>
+    <answer><text>Internal energy, Entropy</text></answer>
+  </subquestion>
+  <subquestion format="html">
+    <text><![CDATA[<p>\(\Delta U = q\)</p>]]></text>
+    <answer><text>At constant volume</text></answer>
+  </subquestion>
+  <subquestion format="html">
+    <text><![CDATA[<p>Law of conservation of energy</p>]]></text>
+    <answer><text>First law of thermodynamics</text></answer>
+  </subquestion>
+  <subquestion format="html">
+    <text><![CDATA[<p>Reversible process</p>]]></text>
+    <answer><text>Infinitely slow process which proceeds through a series of equilibrium states.</text></answer>
+  </subquestion>
+  <subquestion format="html">
+    <text><![CDATA[<p>Free expansion</p>]]></text>
+    <answer><text>p_ext = 0</text></answer>
+  </subquestion>
+  <subquestion format="html">
+    <text><![CDATA[<p>\(\Delta H = q\)</p>]]></text>
+    <answer><text>At constant pressure</text></answer>
+  </subquestion>
+  <subquestion format="html">
+    <text><![CDATA[<p>Intensive property</p>]]></text>
+    <answer><text>Pressure, Specific heat</text></answer>
+  </subquestion>
+  <subquestion format="html">
+    <text><![CDATA[<p>Extensive property</p>]]></text>
+    <answer><text>Internal energy, Entropy</text></answer>
+  </subquestion>
   <tags>
     <tag><text>standard:neet_ug</text></tag>
     <tag><text>lang:en</text></tag>
     <tag><text>subject:chemistry</text></tag>
-    <tag><text>class:class_11</text></tag>
     <tag><text>chapter:thermodynamics</text></tag>
-    <tag><text>typology:assertion-reason</text></tag>
+    <tag><text>typology:matching</text></tag>
+    <tag><text>difficulty:medium</text></tag>
+    <tag><text>blooms:understand</text></tag>
+    <tag><text>media:text</text></tag>
+    <tag><text>multiconcept:true</text></tag>
+  </tags>
+</question>
+<question type="matching">
+  <name><text>NEET_UG_CHEMISTRY_THERMODYNAMICS_MATCHING_Q52 - Entropy changes for physical and chemical processes</text></name>
+  <questiontext format="html"><text><![CDATA[<p>Match the following processes with entropy change:</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>Entropy change (\(\Delta S\)) reflects the change in molecular disorder, and spontaneity at all temperatures is governed by \(\Delta G = \Delta H - T\Delta S\).</p><p><strong>Step 2: Evaluation</strong><br/>- When a liquid vapourises, molecules transition from a condensed liquid phase to a highly disordered gaseous phase, so \(\Delta S\) is positive.<br/>- For a reaction with \(\Delta H &gt; 0\) to be non-spontaneous at all temperatures (\(\Delta G &gt; 0\) for all \(T &gt; 0\)), the \(-T\Delta S\) term must not become negative, so \(\Delta S\) must be negative.<br/>- For a reversible process (such as reversible expansion of an ideal gas considering the total system plus surroundings), the net entropy change is zero (\(\Delta S = 0\)).</p><p><strong>Step 3: Final Conclusion</strong><br/>Vapourisation of a liquid corresponds to positive \(\Delta S\); a reaction non-spontaneous at all temperatures with \(\Delta H &gt; 0\) corresponds to negative \(\Delta S\); reversible expansion of an ideal gas corresponds to \(\Delta S = 0\).</p>]]></text></generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <shuffleanswers>true</shuffleanswers>
+  <subquestion format="html">
+    <text><![CDATA[<p>A liquid vapourises</p>]]></text>
+    <answer><text>ΔS = positive</text></answer>
+  </subquestion>
+  <subquestion format="html">
+    <text><![CDATA[<p>Reaction is non-spontaneous at all temperatures and \(\Delta H\) is positive</p>]]></text>
+    <answer><text>ΔS = negative</text></answer>
+  </subquestion>
+  <subquestion format="html">
+    <text><![CDATA[<p>Reversible expansion of an ideal gas</p>]]></text>
+    <answer><text>ΔS = 0</text></answer>
+  </subquestion>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>subject:chemistry</text></tag>
+    <tag><text>chapter:thermodynamics</text></tag>
+    <tag><text>typology:matching</text></tag>
     <tag><text>difficulty:medium</text></tag>
     <tag><text>blooms:analyze</text></tag>
-    <tag><text>calculation:light</text></tag>
     <tag><text>media:text</text></tag>
     <tag><text>multiconcept:false</text></tag>
   </tags>
 </question>
-<question type="multichoice">
-  <name><text>NEET_UG_CHEMISTRY_THERMODYNAMICS_MCQ_Q56 - Irreversibility of spontaneous processes and enthalpy contribution</text></name>
-  <questiontext format="html">
-    <text><![CDATA[
-      <p><strong>Assertion (A):</strong> Spontaneous process is an irreversible process and may be reversed by some external agency.</p>
-      <p><strong>Reason (R):</strong> Decrease in enthalpy is a contributory factor for spontaneity.</p>
-    ]]></text>
-  </questiontext>
-  <generalfeedback format="html">
-    <text><![CDATA[<p><strong>Conceptual Principle</strong><br/>All natural spontaneous processes proceed in a specific direction toward thermodynamic equilibrium and are intrinsically irreversible. They cannot reverse themselves spontaneously; however, an external agency can restore the system to its initial state by expending work, which inevitably leaves a net change in the surroundings. Thus, the assertion is correct.</p>
-<p><strong>Evaluation of Reason</strong><br/>Systems naturally tend to seek lower potential energy states. Most spontaneous chemical processes are accompanied by a release of heat (exothermic reactions, \(\Delta H < 0\)). While a decrease in enthalpy favors spontaneity, it is not the sole determining criterion, as entropy increase (\(\Delta S > 0\)) also contributes to overall spontaneity (\(\Delta G = \Delta H - T\Delta S < 0\)). Hence, decrease in enthalpy is indeed a contributory factor for spontaneity, making the reason a correct statement.</p>
-<p><strong>Evaluation of Explanation</strong><br/>The role of enthalpy as a contributing driving force does not explain the unidirectional, irreversible nature of spontaneous macroscopic phenomena. The irreversibility of spontaneous processes arises from the second law of thermodynamics (net increase in entropy of the universe).</p>
-<p><strong>Final Conclusion</strong><br/>Both statements are correct, but the reason is not the correct explanation of the assertion.</p>]]></text>
-  </generalfeedback>
+<question type="matching">
+  <name><text>NEET_UG_CHEMISTRY_THERMODYNAMICS_MATCHING_Q53 - Gibbs energy sign combinations and spontaneity</text></name>
+  <questiontext format="html"><text><![CDATA[<p>Match the following parameters (\(\Delta_r H^\ominus\), \(\Delta_r S^\ominus\), \(\Delta_r G^\ominus\)) with description for spontaneity:</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>Spontaneity at constant temperature and pressure is determined by \(\Delta_r G^\ominus = \Delta_r H^\ominus - T\Delta_r S^\ominus\).</p><p><strong>Step 2: Evaluation</strong><br/>- When \(\Delta_r H^\ominus = +\) and \(\Delta_r S^\ominus = -\), both \(\Delta_r H^\ominus\) and \(-T\Delta_r S^\ominus\) are positive, so \(\Delta_r G^\ominus\) is always positive and the reaction is non-spontaneous at all temperatures.<br/>- When \(\Delta_r H^\ominus = -\) and \(\Delta_r S^\ominus = -\), the term \(-T\Delta_r S^\ominus\) is positive and dominates at high \(T\), making \(\Delta_r G^\ominus\) positive at high \(T\); thus the reaction is non-spontaneous at high temperature.<br/>- When \(\Delta_r H^\ominus = -\) and \(\Delta_r S^\ominus = +\), both \(\Delta_r H^\ominus\) and \(-T\Delta_r S^\ominus\) are negative, so \(\Delta_r G^\ominus\) is always negative and the reaction is spontaneous at all temperatures.</p><p><strong>Step 3: Final Conclusion</strong><br/>Each set of thermodynamic sign parameters maps directly to its corresponding temperature-dependent spontaneity condition.</p>]]></text></generalfeedback>
   <defaultgrade>4.0000000</defaultgrade>
   <penalty>0.2500000</penalty>
   <hidden>0</hidden>
-  <single>true</single>
-  <shuffleanswers>false</shuffleanswers>
-  <answernumbering>iii</answernumbering>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>Both (A) and (R) are correct and (R) is the correct explanation of (A).</p>]]></text>
-  </answer>
-  <answer fraction="100" format="html">
-    <text><![CDATA[<p>Both (A) and (R) are correct but (R) is NOT the correct explanation of (A).</p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>(A) is correct but (R) is incorrect.</p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>(A) is incorrect but (R) is correct.</p>]]></text>
-  </answer>
+  <shuffleanswers>true</shuffleanswers>
+  <subquestion format="html">
+    <text><![CDATA[<p>\(\Delta_r H^\ominus = +\), \(\Delta_r S^\ominus = -\), \(\Delta_r G^\ominus = +\)</p>]]></text>
+    <answer><text>Non-spontaneous at all temperatures</text></answer>
+  </subquestion>
+  <subquestion format="html">
+    <text><![CDATA[<p>\(\Delta_r H^\ominus = -\), \(\Delta_r S^\ominus = -\), \(\Delta_r G^\ominus = +\) at high \(T\)</p>]]></text>
+    <answer><text>Non-spontaneous at high temperature.</text></answer>
+  </subquestion>
+  <subquestion format="html">
+    <text><![CDATA[<p>\(\Delta_r H^\ominus = -\), \(\Delta_r S^\ominus = +\), \(\Delta_r G^\ominus = -\)</p>]]></text>
+    <answer><text>Spontaneous at all temperatures</text></answer>
+  </subquestion>
   <tags>
     <tag><text>standard:neet_ug</text></tag>
     <tag><text>lang:en</text></tag>
     <tag><text>subject:chemistry</text></tag>
-    <tag><text>class:class_11</text></tag>
     <tag><text>chapter:thermodynamics</text></tag>
-    <tag><text>typology:assertion-reason</text></tag>
+    <tag><text>typology:matching</text></tag>
     <tag><text>difficulty:medium</text></tag>
     <tag><text>blooms:analyze</text></tag>
-    <tag><text>calculation:light</text></tag>
-    <tag><text>media:text</text></tag>
+    <tag><text>media:equation</text></tag>
     <tag><text>multiconcept:false</text></tag>
   </tags>
 </question>
-<question type="multichoice">
-  <name><text>NEET_UG_CHEMISTRY_THERMODYNAMICS_MCQ_Q57 - Entropy decrease during crystallization and molecular order</text></name>
-  <questiontext format="html">
-    <text><![CDATA[
-      <p><strong>Assertion (A):</strong> A liquid crystallises into a solid and is accompanied by decrease in entropy.</p>
-      <p><strong>Reason (R):</strong> In crystals, molecules organise in an ordered manner.</p>
-    ]]></text>
-  </questiontext>
-  <generalfeedback format="html">
-    <text><![CDATA[<p><strong>Conceptual Principle</strong><br/>Entropy is a thermodynamic measure of the disorder, randomness, or positional freedom of constituent particles in a system.</p>
-<p><strong>Evaluation of Assertion</strong><br/>In the liquid state, particles have greater translational and rotational mobility and are arranged randomly. When a liquid freezes or crystallises into a solid, the particles become confined to definite equilibrium lattice positions, drastically reducing their positional randomness. Hence, crystallization is accompanied by a decrease in entropy of the substance (\(\Delta S < 0\)). Thus, the assertion is correct.</p>
-<p><strong>Evaluation of Reason and Explanation</strong><br/>A crystalline solid is characterized by a highly ordered, regular, and repeating three-dimensional geometric arrangement of its constituent molecules, atoms, or ions. Because entropy directly quantifies molecular disorder, this transition into a highly ordered lattice is the exact physical reason why the entropy of the substance decreases upon crystallization.</p>
-<p><strong>Final Conclusion</strong><br/>Both statements are correct, and the reason is the correct explanation of the assertion.</p>]]></text>
-  </generalfeedback>
+<question type="matching">
+  <name><text>NEET_UG_CHEMISTRY_THERMODYNAMICS_MATCHING_Q54 - Entropy, equilibrium constant, and adiabatic internal energy</text></name>
+  <questiontext format="html"><text><![CDATA[<p>Match the following:</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>Phase transitions, equilibrium constants, molecular order, and adiabatic expansions follow standard thermodynamic definitions.</p><p><strong>Step 2: Evaluation</strong><br/>- Entropy of vapourisation at the normal boiling point \(T_b\) is given by \(\Delta_{\text{vap}}S = \frac{\Delta H_{\mathrm{vap}}}{T_{\mathrm{b}}}\).<br/>- The equilibrium constant \(K = e^{-\Delta_r G^\ominus / RT}\) for any spontaneous process is always positive (\(K &gt; 0\)).<br/>- A crystalline solid state has a highly ordered lattice and therefore the lowest entropy.<br/>- In an adiabatic expansion of an ideal gas (\(q = 0, w &lt; 0\)), \(\Delta U = w &lt; 0\), so internal energy decreases.</p><p><strong>Step 3: Final Conclusion</strong><br/>The four quantities match respectively to \(\frac{\Delta H_{\mathrm{vap}}}{T_{\mathrm{b}}}\), is always positive, lowest entropy, and decreases.</p>]]></text></generalfeedback>
   <defaultgrade>4.0000000</defaultgrade>
   <penalty>0.2500000</penalty>
   <hidden>0</hidden>
-  <single>true</single>
-  <shuffleanswers>false</shuffleanswers>
-  <answernumbering>iii</answernumbering>
-  <answer fraction="100" format="html">
-    <text><![CDATA[<p>Both (A) and (R) are correct and (R) is the correct explanation of (A).</p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>Both (A) and (R) are correct but (R) is NOT the correct explanation of (A).</p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>(A) is correct but (R) is incorrect.</p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>(A) is incorrect but (R) is correct.</p>]]></text>
-  </answer>
+  <shuffleanswers>true</shuffleanswers>
+  <subquestion format="html">
+    <text><![CDATA[<p>Entropy of vapourisation</p>]]></text>
+    <answer><text>ΔH_vap / T_b</text></answer>
+  </subquestion>
+  <subquestion format="html">
+    <text><![CDATA[<p>\(K\) for spontaneous process</p>]]></text>
+    <answer><text>is always positive</text></answer>
+  </subquestion>
+  <subquestion format="html">
+    <text><![CDATA[<p>Crystalline solid state</p>]]></text>
+    <answer><text>lowest entropy</text></answer>
+  </subquestion>
+  <subquestion format="html">
+    <text><![CDATA[<p>\(\Delta U\) in adiabatic expansion of ideal gas</p>]]></text>
+    <answer><text>decreases</text></answer>
+  </subquestion>
   <tags>
     <tag><text>standard:neet_ug</text></tag>
     <tag><text>lang:en</text></tag>
     <tag><text>subject:chemistry</text></tag>
-    <tag><text>class:class_11</text></tag>
     <tag><text>chapter:thermodynamics</text></tag>
-    <tag><text>typology:assertion-reason</text></tag>
+    <tag><text>typology:matching</text></tag>
+    <tag><text>difficulty:medium</text></tag>
+    <tag><text>blooms:understand</text></tag>
+    <tag><text>media:text</text></tag>
+    <tag><text>multiconcept:true</text></tag>
+  </tags>
+</question>
+<question type="multichoice">
+  <name><text>NEET_UG_CHEMISTRY_THERMODYNAMICS_AR_Q55 - Exothermicity of organic combustion and standard element enthalpies</text></name>
+  <questiontext format="html"><text><![CDATA[<p>In the following question a statement of Assertion (A) followed by a statement of Reason (R) is given. Choose the correct option out of the choices given below.</p><p><strong>Assertion (A):</strong> Combustion of all organic compounds is an exothermic reaction.</p><p><strong>Reason (R):</strong> The enthalpies of all elements in their standard state are zero.</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>Combustion of organic compounds releases heat (\(\Delta_c H &lt; 0\)), and by thermodynamic convention, the standard enthalpies of formation of elements in their reference states are assigned a value of zero.</p><p><strong>Step 2: Evaluation</strong><br/>- Assertion (A) is true: complete combustion of organic compounds is invariably exothermic because strong \(\mathrm{C=O}\) and \(\mathrm{O-H}\) bonds are formed in \(\mathrm{CO_2}\) and \(\mathrm{H_2O}\).<br/>- Reason (R) is true: by convention, the standard enthalpies of elements in their standard states are taken as zero.<br/>- However, Reason (R) does not explain why organic combustion is exothermic (which is due to bond energies of products versus reactants).</p><p><strong>Step 3: Final Conclusion</strong><br/>Both A and R are true, but R is not the correct explanation of A.</p>]]></text></generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>iii</answernumbering>
+  <answer fraction="0" format="html"><text><![CDATA[<p>Both A and R are true and R is the correct explanation of A.</p>]]></text></answer>
+  <answer fraction="100" format="html"><text><![CDATA[<p>Both A and R are true but R is not the correct explanation of A.</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>A is true but R is false.</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>A is false but R is true.</p>]]></text></answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>subject:chemistry</text></tag>
+    <tag><text>chapter:thermodynamics</text></tag>
+    <tag><text>typology:assertion_reason</text></tag>
+    <tag><text>difficulty:medium</text></tag>
+    <tag><text>blooms:analyze</text></tag>
+    <tag><text>media:text</text></tag>
+    <tag><text>multiconcept:true</text></tag>
+  </tags>
+</question>
+<question type="multichoice">
+  <name><text>NEET_UG_CHEMISTRY_THERMODYNAMICS_AR_Q56 - Irreversibility of spontaneous processes and enthalpy factor</text></name>
+  <questiontext format="html"><text><![CDATA[<p>In the following question a statement of Assertion (A) followed by a statement of Reason (R) is given. Choose the correct option out of the choices given below.</p><p><strong>Assertion (A):</strong> Spontaneous process is an irreversible process and may be reversed by some external agency.</p><p><strong>Reason (R):</strong> Decrease in enthalpy is a contributory factor for spontaneity.</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>Spontaneous processes occur naturally in one direction (irreversibly) and are driven by a decrease in enthalpy and/or an increase in entropy.</p><p><strong>Step 2: Evaluation</strong><br/>- Assertion (A) is true: all natural spontaneous processes are thermodynamically irreversible and can only be reversed by applying external work or an external agency.<br/>- Reason (R) is true: a decrease in enthalpy (\(\Delta H &lt; 0\)) makes \(\Delta G = \Delta H - T\Delta S\) more negative and thus contributes to spontaneity.<br/>- However, Reason (R) does not explain why a spontaneous process is irreversible or why it requires an external agency to be reversed.</p><p><strong>Step 3: Final Conclusion</strong><br/>Both A and R are true, but R is not the correct explanation of A.</p>]]></text></generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>iii</answernumbering>
+  <answer fraction="0" format="html"><text><![CDATA[<p>Both A and R are true and R is the correct explanation of A.</p>]]></text></answer>
+  <answer fraction="100" format="html"><text><![CDATA[<p>Both A and R are true but R is not the correct explanation of A.</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>A is true but R is false.</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>A is false but R is true.</p>]]></text></answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>subject:chemistry</text></tag>
+    <tag><text>chapter:thermodynamics</text></tag>
+    <tag><text>typology:assertion_reason</text></tag>
+    <tag><text>difficulty:medium</text></tag>
+    <tag><text>blooms:analyze</text></tag>
+    <tag><text>media:text</text></tag>
+    <tag><text>multiconcept:true</text></tag>
+  </tags>
+</question>
+<question type="multichoice">
+  <name><text>NEET_UG_CHEMISTRY_THERMODYNAMICS_AR_Q57 - Entropy decrease during crystallisation of a liquid</text></name>
+  <questiontext format="html"><text><![CDATA[<p>In the following question a statement of Assertion (A) followed by a statement of Reason (R) is given. Choose the correct option out of the choices given below.</p><p><strong>Assertion (A):</strong> A liquid crystallises into a solid and is accompanied by decrease in entropy.</p><p><strong>Reason (R):</strong> In crystals, molecules organise in an ordered manner.</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>Entropy is a measure of randomness or disorder in a system; greater molecular order corresponds to lower entropy.</p><p><strong>Step 2: Evaluation</strong><br/>- Assertion (A) is true: when a liquid crystallises into a solid, the entropy of the system decreases.<br/>- Reason (R) is true: in a crystalline solid, molecules are arranged in a regular, ordered lattice.<br/>- Because molecules transition from a relatively disordered liquid state to an ordered crystalline arrangement, the randomness decreases, which directly explains the decrease in entropy.</p><p><strong>Step 3: Final Conclusion</strong><br/>Both A and R are true, and R is the correct explanation of A.</p>]]></text></generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>iii</answernumbering>
+  <answer fraction="100" format="html"><text><![CDATA[<p>Both A and R are true and R is the correct explanation of A.</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>Both A and R are true but R is not the correct explanation of A.</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>A is true but R is false.</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>A is false but R is true.</p>]]></text></answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>subject:chemistry</text></tag>
+    <tag><text>chapter:thermodynamics</text></tag>
+    <tag><text>typology:assertion_reason</text></tag>
     <tag><text>difficulty:easy</text></tag>
     <tag><text>blooms:understand</text></tag>
-    <tag><text>calculation:light</text></tag>
     <tag><text>media:text</text></tag>
     <tag><text>multiconcept:false</text></tag>
   </tags>

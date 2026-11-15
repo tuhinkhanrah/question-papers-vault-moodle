@@ -1,25 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <quiz>
 <question type="multichoice">
-  <name><text>NEET_UG_CHEMISTRY_MCQ_Q01 - Atomic number of transition element X</text></name>
-  <questiontext format="html"><text><![CDATA[<p>Electronic configuration of a transition element X in +3 oxidation state is \([\mathrm{Ar}]3d^{5}\). What is its atomic number?</p>]]></text></questiontext>
-  <generalfeedback format="html"><text><![CDATA[<p><strong>Given Data and Conditions:</strong><br/>
-Electronic configuration of the transition element in the \(+3\) oxidation state: \(X^{3+} = [\mathrm{Ar}]3d^5\).<br/>
-Atomic number of Argon (\(\mathrm{Ar}\)) is 18.</p>
-<p><strong>Assumptions and Sign Conventions:</strong><br/>
-A neutral atom of an element has an equal number of protons and electrons. In forming a \(+3\) oxidation state, the atom loses 3 electrons from its valence orbitals.</p>
-<p><strong>Relevant Formulae and Principles:</strong><br/>
-Total electrons in \(X^{3+} = \text{electrons in } [\mathrm{Ar}] + 5 = 18 + 5 = 23\).<br/>
-Total electrons in neutral atom \(X = \text{electrons in } X^{3+} + 3\).<br/>
-Atomic number \(Z\) equals the number of protons, which is equal to the number of electrons in the neutral atom.</p>
-<p><strong>Step-by-Step Working:</strong><br/>
-Number of electrons in \(X^{3+} = 18 + 5 = 23\).<br/>
-Number of electrons in neutral atom \(X = 23 + 3 = 26\).<br/>
-Therefore, the atomic number of the element is \(Z = 26\).<br/>
-This corresponds to iron (\(\mathrm{Fe}\)), whose neutral ground-state electronic configuration is \([\mathrm{Ar}]3d^6 4s^2\). Loss of two \(4s\) electrons and one \(3d\) electron gives \([\mathrm{Ar}]3d^5\).</p>
-<p><strong>Check and Final Answer:</strong><br/>
-Verifying the configuration: \(\mathrm{Fe}\) (\(Z = 26\)) has configuration \([\mathrm{Ar}]3d^6 4s^2\). Removing three electrons yields \(\mathrm{Fe}^{3+}: [\mathrm{Ar}]3d^5\), which matches the given data.<br/>
-The atomic number is 26.</p>]]></text></generalfeedback>
+  <name><text>CHEMISTRY_MCQI_DANDFBLOCKELEMENTS_MCQ_Q01 - Atomic number of transition element in +3 state</text></name>
+  <questiontext format="html"><text><![CDATA[<p>Electronic configuration of a transition element X in \(+3\) oxidation state is \([\mathrm{Ar}]3d^{5}\). What is its atomic number?</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>The electronic configuration of the transition element ion \(\mathrm{X}^{3+}\) is \([\mathrm{Ar}]3d^{5}\). The atomic number of argon (\(\mathrm{Ar}\)) is \(18\).</p><p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>A neutral atom forms a \(+3\) cation by losing \(3\) electrons from its outermost orbitals. The atomic number \(Z\) of a neutral atom equals its total number of electrons.</p><p><strong>Step 3: Relevant Formulae and Principles</strong><br/>Total electrons in neutral atom \(\mathrm{X} = (\text{Electrons in } \mathrm{X}^{3+}) + 3\).</p><p><strong>Step 4: Step-by-Step Working</strong><br/>The number of electrons in \([\mathrm{Ar}]\) is \(18\), and the number of electrons in \(3d^{5}\) is \(5\).<br/>Total electrons in \(\mathrm{X}^{3+} = 18 + 5 = 23\).<br/>Adding back the \(3\) lost electrons gives the total number of electrons in the neutral atom \(\mathrm{X}\):<br/>\(Z = 23 + 3 = 26\).</p><p><strong>Step 5: Check and Final Answer</strong><br/>An atomic number of \(26\) corresponds to iron (\(\mathrm{Fe}\)), which has ground-state configuration \([\mathrm{Ar}]3d^{6}4s^{2}\) and forms \(\mathrm{Fe}^{3+}\) with configuration \([\mathrm{Ar}]3d^{5}\). Thus, the atomic number is \(26\).</p>]]></text></generalfeedback>
   <defaultgrade>4.0000000</defaultgrade>
   <penalty>0.2500000</penalty>
   <hidden>0</hidden>
@@ -34,27 +18,21 @@ The atomic number is 26.</p>]]></text></generalfeedback>
     <tag><text>standard:neet_ug</text></tag>
     <tag><text>lang:en</text></tag>
     <tag><text>subject:chemistry</text></tag>
-    <tag><text>class:12</text></tag>
+    <tag><text>section:mcq_type_1</text></tag>
+    <tag><text>class:class_12</text></tag>
     <tag><text>chapter:the_d_and_f_block_elements</text></tag>
-    <tag><text>typology:mcq</text></tag>
+    <tag><text>typology:single_choice</text></tag>
     <tag><text>difficulty:easy</text></tag>
-    <tag><text>blooms:remember</text></tag>
+    <tag><text>blooms:apply</text></tag>
     <tag><text>calculation:light</text></tag>
     <tag><text>media:text</text></tag>
     <tag><text>multiconcept:false</text></tag>
   </tags>
 </question>
 <question type="multichoice">
-  <name><text>NEET_UG_CHEMISTRY_MCQ_Q02 - Relative stability of copper oxidation states</text></name>
+  <name><text>CHEMISTRY_MCQI_DANDFBLOCKELEMENTS_MCQ_Q02 - Relative stability of Cu(II) and Cu(I) ions</text></name>
   <questiontext format="html"><text><![CDATA[<p>The electronic configuration of \(\mathrm{Cu(II)}\) is \(3d^{9}\) whereas that of \(\mathrm{Cu(I)}\) is \(3d^{10}\). Which of the following is correct?</p>]]></text></questiontext>
-  <generalfeedback format="html"><text><![CDATA[<p><strong>Conceptual Principle:</strong><br/>
-The stability of a transition metal ion in aqueous solution depends not only on electronic configurations in the gaseous state, but on the overall thermodynamics of formation, including the enthalpy of sublimation, ionisation enthalpy, and hydration enthalpy.</p>
-<p><strong>Evaluation:</strong><br/>
-Although \(\mathrm{Cu}^{+}\) possesses a completely filled, symmetrically stable \(3d^{10}\) configuration and \(\mathrm{Cu}^{2+}\) has an incompletely filled \(3d^9\) configuration, \(\mathrm{Cu}^{2+}\) has a smaller ionic radius and double the positive charge of \(\mathrm{Cu}^{+}\). As a result, the hydration enthalpy (\(\Delta_{\text{hyd}}H^{\circ}\)) of \(\mathrm{Cu}^{2+}\) is vastly more exothermic (approximately \(-2100\text{ kJ mol}^{-1}\)) compared to that of \(\mathrm{Cu}^{+}\) (approximately \(-580\text{ kJ mol}^{-1}\)).</p>
-<p><strong>Application:</strong><br/>
-The large exothermic hydration enthalpy of \(\mathrm{Cu}^{2+}\) more than compensates for the second ionisation enthalpy required to convert \(\mathrm{Cu}^{+}\) to \(\mathrm{Cu}^{2+}\). Consequently, \(\mathrm{Cu(I)}\) is unstable in aqueous solution and disproportionates spontaneously according to \(2\mathrm{Cu}^{+}\mathrm{(aq)} \longrightarrow \mathrm{Cu}^{2+}\mathrm{(aq)} + \mathrm{Cu(s)}\).</p>
-<p><strong>Final Conclusion:</strong><br/>
-\(\mathrm{Cu(II)}\) is more stable than \(\mathrm{Cu(I)}\).</p>]]></text></generalfeedback>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>In the gaseous state, \(\mathrm{Cu(I)}\) has a completely filled \(3d^{10}\) subshell, which is electronically more stable than the \(3d^{9}\) configuration of \(\mathrm{Cu(II)}\). However, in aqueous solution, stability is governed by the overall enthalpy change, which includes ionisation enthalpy and hydration enthalpy.</p><p><strong>Step 2: Evaluation</strong><br/>Although the second ionisation enthalpy required to convert \(\mathrm{Cu}^{+}\) to \(\mathrm{Cu}^{2+}\) is high, the \(\mathrm{Cu}^{2+}\) ion has a smaller ionic radius and a higher positive charge (\(+2\)) compared to \(\mathrm{Cu}^{+}\) (\(+1\)).</p><p><strong>Step 3: Application</strong><br/>Because of its higher charge density, \(\mathrm{Cu}^{2+}\) releases a much more negative hydration enthalpy (\(\Delta_{\mathrm{hyd}}H^\circ\)) in aqueous medium than \(\mathrm{Cu}^{+}\). This large hydration enthalpy more than compensates for the second ionisation enthalpy, making \(\mathrm{Cu}^{+}\) disproportionate in water (\(2\mathrm{Cu}^{+}(\mathrm{aq}) \rightarrow \mathrm{Cu}^{2+}(\mathrm{aq}) + \mathrm{Cu}(\mathrm{s})\)).</p><p><strong>Step 4: Final Conclusion</strong><br/>Therefore, \(\mathrm{Cu(II)}\) is more stable than \(\mathrm{Cu(I)}\) in aqueous solution.</p>]]></text></generalfeedback>
   <defaultgrade>4.0000000</defaultgrade>
   <penalty>0.2500000</penalty>
   <hidden>0</hidden>
@@ -69,94 +47,48 @@ The large exothermic hydration enthalpy of \(\mathrm{Cu}^{2+}\) more than compen
     <tag><text>standard:neet_ug</text></tag>
     <tag><text>lang:en</text></tag>
     <tag><text>subject:chemistry</text></tag>
-    <tag><text>class:12</text></tag>
+    <tag><text>section:mcq_type_1</text></tag>
+    <tag><text>class:class_12</text></tag>
     <tag><text>chapter:the_d_and_f_block_elements</text></tag>
-    <tag><text>typology:mcq</text></tag>
+    <tag><text>typology:single_choice</text></tag>
     <tag><text>difficulty:medium</text></tag>
     <tag><text>blooms:understand</text></tag>
-    <tag><text>calculation:light</text></tag>
     <tag><text>media:text</text></tag>
     <tag><text>multiconcept:false</text></tag>
   </tags>
 </question>
 <question type="multichoice">
-  <name><text>NEET_UG_CHEMISTRY_MCQ_Q03 - Element with highest density among transition metals</text></name>
-  <questiontext format="html"><text><![CDATA[<p>Metallic radii of some transition elements are given below. Which of these elements will have highest density?</p>
-<table border="1" style="border-collapse: collapse; text-align: center;">
-  <thead>
-    <tr>
-      <th style="padding: 4px 8px;">Element</th>
-      <th style="padding: 4px 8px;">Fe</th>
-      <th style="padding: 4px 8px;">Co</th>
-      <th style="padding: 4px 8px;">Ni</th>
-      <th style="padding: 4px 8px;">Cu</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="padding: 4px 8px;">Metallic radii/pm</td>
-      <td style="padding: 4px 8px;">126</td>
-      <td style="padding: 4px 8px;">125</td>
-      <td style="padding: 4px 8px;">125</td>
-      <td style="padding: 4px 8px;">128</td>
-    </tr>
-  </tbody>
-</table>]]></text></questiontext>
-  <generalfeedback format="html"><text><![CDATA[<p><strong>Given Data and Conditions:</strong><br/>
-Metallic radii: \(\mathrm{Fe} = 126\text{ pm}\), \(\mathrm{Co} = 125\text{ pm}\), \(\mathrm{Ni} = 125\text{ pm}\), and \(\mathrm{Cu} = 128\text{ pm}\).<br/>
-Elements arranged in increasing order of atomic number: \(\mathrm{Fe}\) (26), \(\mathrm{Co}\) (27), \(\mathrm{Ni}\) (28), \(\mathrm{Cu}\) (29).</p>
-<p><strong>Assumptions and Sign Conventions:</strong><br/>
-Density is defined as mass per unit volume, \(\rho = \frac{M}{V_{\text{molar}}}\), where molar volume is proportional to the cube of the metallic radius (\(r^3\)).</p>
-<p><strong>Relevant Formulae and Principles:</strong><br/>
-Density increases across a transition period when the increase in atomic mass outweighs any variation in atomic volume.<br/>
-Across the series from \(\mathrm{Fe}\) to \(\mathrm{Cu}\), the metallic radii remain nearly constant (within 125 to 128 pm), meaning the atomic volume changes very little.</p>
-<p><strong>Step-by-Step Working:</strong><br/>
-Atomic masses: \(\mathrm{Fe} = 55.85\text{ g mol}^{-1}\), \(\mathrm{Co} = 58.93\text{ g mol}^{-1}\), \(\mathrm{Ni} = 58.69\text{ g mol}^{-1}\), \(\mathrm{Cu} = 63.55\text{ g mol}^{-1}\).<br/>
-Because atomic volume is nearly unchanged while atomic mass increases significantly towards copper, copper exhibits the highest mass-to-volume ratio.<br/>
-The observed experimental densities are:<br/>
-\(\mathrm{Fe}: 7.87\text{ g cm}^{-3}\)<br/>
-\(\mathrm{Co}: 8.70\text{ g cm}^{-3}\)<br/>
-\(\mathrm{Ni}: 8.90\text{ g cm}^{-3}\)<br/>
-\(\mathrm{Cu}: 8.92\text{ g cm}^{-3}\)</p>
-<p><strong>Check and Final Answer:</strong><br/>
-Among the listed elements, copper has the greatest atomic mass and an experimental density of \(8.92\text{ g cm}^{-3}\), which is the highest.<br/>
-The element with the highest density is Cu.</p>]]></text></generalfeedback>
+  <name><text>CHEMISTRY_MCQI_DANDFBLOCKELEMENTS_MCQ_Q03 - Highest density among 3d transition metals</text></name>
+  <questiontext format="html"><text><![CDATA[<p>Metallic radii of some transition elements are given below. Which of these elements will have highest density?</p><table><thead><tr><th>Element</th><th>Fe</th><th>Co</th><th>Ni</th><th>Cu</th></tr></thead><tbody><tr><td>Metallic radii/pm</td><td>126</td><td>125</td><td>125</td><td>128</td></tr></tbody></table>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>Density is defined as mass per unit volume (\(\rho = \frac{M}{V}\)). Across a transition series from left to right, atomic mass increases steadily while metallic radii remain relatively small and nearly constant due to poor shielding by \(3d\) electrons, leading to an overall increase in density.</p><p><strong>Step 2: Evaluation</strong><br/>Among \(\mathrm{Fe}\), \(\mathrm{Co}\), \(\mathrm{Ni}\), and \(\mathrm{Cu}\), the atomic masses increase in the order \(\mathrm{Fe} (55.85\text{ u}) &lt; \mathrm{Ni} (58.69\text{ u}) \approx \mathrm{Co} (58.93\text{ u}) &lt; \mathrm{Cu} (63.55\text{ u})\).</p><p><strong>Step 3: Application</strong><br/>Although copper has a slightly larger metallic radius (\(128\text{ pm}\)) than nickel and cobalt (\(125\text{ pm}\)), its significantly higher atomic mass and close-packed crystal lattice result in a higher mass-to-volume ratio. Along the \(3d\) series, density increases from scandium up to copper.</p><p><strong>Step 4: Final Conclusion</strong><br/>Hence, copper (\(\mathrm{Cu}\)) has the highest density among the given elements.</p>]]></text></generalfeedback>
   <defaultgrade>4.0000000</defaultgrade>
   <penalty>0.2500000</penalty>
   <hidden>0</hidden>
   <single>true</single>
   <shuffleanswers>true</shuffleanswers>
   <answernumbering>iii</answernumbering>
-  <answer fraction="0" format="html"><text><![CDATA[<p>Fe</p>]]></text></answer>
-  <answer fraction="0" format="html"><text><![CDATA[<p>Ni</p>]]></text></answer>
-  <answer fraction="0" format="html"><text><![CDATA[<p>Co</p>]]></text></answer>
-  <answer fraction="100" format="html"><text><![CDATA[<p>Cu</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>\(\mathrm{Fe}\)</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>\(\mathrm{Ni}\)</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>\(\mathrm{Co}\)</p>]]></text></answer>
+  <answer fraction="100" format="html"><text><![CDATA[<p>\(\mathrm{Cu}\)</p>]]></text></answer>
   <tags>
     <tag><text>standard:neet_ug</text></tag>
     <tag><text>lang:en</text></tag>
     <tag><text>subject:chemistry</text></tag>
-    <tag><text>class:12</text></tag>
+    <tag><text>section:mcq_type_1</text></tag>
+    <tag><text>class:class_12</text></tag>
     <tag><text>chapter:the_d_and_f_block_elements</text></tag>
-    <tag><text>typology:mcq</text></tag>
+    <tag><text>typology:single_choice</text></tag>
     <tag><text>difficulty:medium</text></tag>
-    <tag><text>blooms:understand</text></tag>
-    <tag><text>calculation:light</text></tag>
+    <tag><text>blooms:analyze</text></tag>
     <tag><text>media:table</text></tag>
     <tag><text>multiconcept:false</text></tag>
   </tags>
 </question>
 <question type="multichoice">
-  <name><text>NEET_UG_CHEMISTRY_MCQ_Q04 - Coloured transition element compound in solid state</text></name>
+  <name><text>CHEMISTRY_MCQI_DANDFBLOCKELEMENTS_MCQ_Q04 - Coloured transition metal compound in solid state</text></name>
   <questiontext format="html"><text><![CDATA[<p>Generally transition elements form coloured salts due to the presence of unpaired electrons. Which of the following compounds will be coloured in solid state?</p>]]></text></questiontext>
-  <generalfeedback format="html"><text><![CDATA[<p><strong>Conceptual Principle:</strong><br/>
-The colour of transition metal compounds typically arises from \(d\text{--}d\) electronic transitions, which require partially filled \(d\)-orbitals containing one or more unpaired electrons (\(d^{1}\) to \(d^{9}\)). Metal ions with completely filled (\(d^{10}\)) or completely empty (\(d^{0}\)) configurations cannot undergo \(d\text{--}d\) transitions and are generally colourless.</p>
-<p><strong>Evaluation:</strong><br/>
-- In \(\mathrm{Ag_2SO_4}\), silver is present as \(\mathrm{Ag}^+\), having the electronic configuration \([\mathrm{Kr}]4d^{10}\). With fully occupied \(d\)-orbitals and no unpaired electrons, it is colourless.<br/>
-- In \(\mathrm{ZnF}_2\), zinc is present as \(\mathrm{Zn}^{2+}\), having the electronic configuration \([\mathrm{Ar}]3d^{10}\). With no unpaired electrons, it is colourless.<br/>
-- In \(\mathrm{Cu_2Cl_2}\), copper is present as \(\mathrm{Cu}^+\), having the electronic configuration \([\mathrm{Ar}]3d^{10}\). With no unpaired electrons, it is colourless.<br/>
-- In \(\mathrm{CuF}_2\), copper is present as \(\mathrm{Cu}^{2+}\), having the electronic configuration \([\mathrm{Ar}]3d^{9}\). This configuration contains one unpaired electron, permitting \(d\text{--}d\) absorption in the red region of the visible spectrum and giving the solid a characteristic blue colour.</p>
-<p><strong>Final Conclusion:</strong><br/>
-The compound that will be coloured in the solid state is \(\mathrm{CuF}_2\).</p>]]></text></generalfeedback>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>Transition metal compounds exhibit colour primarily due to \(d\text{-}d\) electronic transitions, which require the presence of at least one unpaired electron in a partially filled \(d\)-subshell (\(d^{1}\) to \(d^{9}\)). Ions with completely empty (\(d^{0}\)) or completely filled (\(d^{10}\)) \(d\)-orbitals cannot undergo \(d\text{-}d\) transitions and are generally colourless.</p><p><strong>Step 2: Evaluation</strong><br/>Determine the electronic configuration of the metal cation in each compound:<br/>In \(\mathrm{Ag}_{2}\mathrm{SO}_{4}\), silver is in the \(+1\) state (\(\mathrm{Ag}^{+}\)): \([\mathrm{Kr}]4d^{10}\) (no unpaired electrons).<br/>In \(\mathrm{CuF}_{2}\), copper is in the \(+2\) state (\(\mathrm{Cu}^{2+}\)): \([\mathrm{Ar}]3d^{9}\) (\(1\) unpaired electron).<br/>In \(\mathrm{ZnF}_{2}\), zinc is in the \(+2\) state (\(\mathrm{Zn}^{2+}\)): \([\mathrm{Ar}]3d^{10}\) (no unpaired electrons).<br/>In \(\mathrm{Cu}_{2}\mathrm{Cl}_{2}\), copper is in the \(+1\) state (\(\mathrm{Cu}^{+}\)): \([\mathrm{Ar}]3d^{10}\) (no unpaired electrons).</p><p><strong>Step 3: Application</strong><br/>Only \(\mathrm{CuF}_{2}\) contains a metal ion (\(\mathrm{Cu}^{2+}\)) with a partially filled \(3d^{9}\) subshell and an unpaired electron capable of undergoing \(d\text{-}d\) transition.</p><p><strong>Step 4: Final Conclusion</strong><br/>Therefore, \(\mathrm{CuF}_{2}\) is coloured in the solid state.</p>]]></text></generalfeedback>
   <defaultgrade>4.0000000</defaultgrade>
   <penalty>0.2500000</penalty>
   <hidden>0</hidden>
@@ -171,30 +103,20 @@ The compound that will be coloured in the solid state is \(\mathrm{CuF}_2\).</p>
     <tag><text>standard:neet_ug</text></tag>
     <tag><text>lang:en</text></tag>
     <tag><text>subject:chemistry</text></tag>
-    <tag><text>class:12</text></tag>
+    <tag><text>section:mcq_type_1</text></tag>
+    <tag><text>class:class_12</text></tag>
     <tag><text>chapter:the_d_and_f_block_elements</text></tag>
-    <tag><text>typology:mcq</text></tag>
+    <tag><text>typology:single_choice</text></tag>
     <tag><text>difficulty:easy</text></tag>
-    <tag><text>blooms:understand</text></tag>
-    <tag><text>calculation:light</text></tag>
+    <tag><text>blooms:apply</text></tag>
     <tag><text>media:text</text></tag>
     <tag><text>multiconcept:false</text></tag>
   </tags>
 </question>
 <question type="multichoice">
-  <name><text>NEET_UG_CHEMISTRY_MCQ_Q05 - Explosive green oily manganese compound formation</text></name>
+  <name><text>CHEMISTRY_MCQI_DANDFBLOCKELEMENTS_MCQ_Q05 - Explosive green oily compound from KMnO4</text></name>
   <questiontext format="html"><text><![CDATA[<p>On addition of small amount of \(\mathrm{KMnO}_4\) to concentrated \(\mathrm{H}_2\mathrm{SO}_4\), a green oily compound is obtained which is highly explosive in nature. Identify the compound from the following.</p>]]></text></questiontext>
-  <generalfeedback format="html"><text><![CDATA[<p><strong>Conceptual Principle:</strong><br/>
-Concentrated sulphuric acid acts as a powerful dehydrating agent towards oxo-salts of transition metals in their highest oxidation states, producing covalent acid anhydrides.</p>
-<p><strong>Evaluation:</strong><br/>
-When a small quantity of potassium permanganate is treated with concentrated sulphuric acid, permanganic acid is initially formed and immediately dehydrated to manganese heptoxide (\(\mathrm{Mn}_2\mathrm{O}_7\)):<br/>
-\[2\mathrm{KMnO}_4 + 2\mathrm{H}_2\mathrm{SO}_4 \longrightarrow \mathrm{Mn}_2\mathrm{O}_7 + 2\mathrm{KHSO}_4 + \mathrm{H}_2\mathrm{O}\]</p>
-<p><strong>Application:</strong><br/>
-Manganese heptoxide (\(\mathrm{Mn}_2\mathrm{O}_7\)) is a dark green, oily liquid containing manganese in the \(+7\) oxidation state. It is thermally unstable and decomposes explosively upon warming or contact with organic matter according to:<br/>
-\[2\mathrm{Mn}_2\mathrm{O}_7 \longrightarrow 4\mathrm{MnO}_2 + 3\mathrm{O}_2\]<br/>
-The other listed compounds—\(\mathrm{MnO}_2\) (black-brown solid), \(\mathrm{MnSO}_4\) (pink crystalline solid), and \(\mathrm{Mn}_2\mathrm{O}_3\) (brown solid)—are neither green oils nor explosive.</p>
-<p><strong>Final Conclusion:</strong><br/>
-The explosive green oily compound is \(\mathrm{Mn}_2\mathrm{O}_7\).</p>]]></text></generalfeedback>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>When potassium permanganate (\(\mathrm{KMnO}_{4}\)) reacts with cold concentrated sulphuric acid (\(\mathrm{H}_{2}\mathrm{SO}_{4}\)), permanganic acid is formed first and immediately undergoes dehydration to yield manganese(VII) oxide.</p><p><strong>Step 2: Evaluation</strong><br/>The balanced chemical reactions are:<br/>\(2\mathrm{KMnO}_{4} + 2\mathrm{H}_{2}\mathrm{SO}_{4} \rightarrow 2\mathrm{KHSO}_{4} + 2\mathrm{HMnO}_{4}\)<br/>\(2\mathrm{HMnO}_{4} \rightarrow \mathrm{Mn}_{2}\mathrm{O}_{7} + \mathrm{H}_{2}\mathrm{O}\)</p><p><strong>Step 3: Application</strong><br/>Manganese heptoxide (\(\mathrm{Mn}_{2}\mathrm{O}_{7}\)) is a dark green oily liquid in thin films that is thermally unstable and decomposes explosively on warming into \(\mathrm{MnO}_{2}\) and \(\mathrm{O}_{2}\). In contrast, \(\mathrm{MnO}_{2}\), \(\mathrm{MnSO}_{4}\), and \(\mathrm{Mn}_{2}\mathrm{O}_{3}\) are solids and not green oily liquids.</p><p><strong>Step 4: Final Conclusion</strong><br/>The green oily explosive compound obtained is \(\mathrm{Mn}_{2}\mathrm{O}_{7}\).</p>]]></text></generalfeedback>
   <defaultgrade>4.0000000</defaultgrade>
   <penalty>0.2500000</penalty>
   <hidden>0</hidden>
@@ -209,35 +131,20 @@ The explosive green oily compound is \(\mathrm{Mn}_2\mathrm{O}_7\).</p>]]></text
     <tag><text>standard:neet_ug</text></tag>
     <tag><text>lang:en</text></tag>
     <tag><text>subject:chemistry</text></tag>
-    <tag><text>class:12</text></tag>
+    <tag><text>section:mcq_type_1</text></tag>
+    <tag><text>class:class_12</text></tag>
     <tag><text>chapter:the_d_and_f_block_elements</text></tag>
-    <tag><text>typology:mcq</text></tag>
-    <tag><text>difficulty:medium</text></tag>
+    <tag><text>typology:single_choice</text></tag>
+    <tag><text>difficulty:easy</text></tag>
     <tag><text>blooms:remember</text></tag>
-    <tag><text>calculation:light</text></tag>
     <tag><text>media:text</text></tag>
     <tag><text>multiconcept:false</text></tag>
   </tags>
 </question>
 <question type="multichoice">
-  <name><text>NEET_UG_CHEMISTRY_MCQ_Q06 - Configuration of transition element with highest magnetic moment</text></name>
+  <name><text>CHEMISTRY_MCQI_DANDFBLOCKELEMENTS_MCQ_Q06 - Configuration showing highest spin magnetic moment</text></name>
   <questiontext format="html"><text><![CDATA[<p>The magnetic nature of elements depends on the presence of unpaired electrons. Identify the configuration of transition element, which shows highest magnetic moment.</p>]]></text></questiontext>
-  <generalfeedback format="html"><text><![CDATA[<p><strong>Given Data and Conditions:</strong><br/>
-Configurations to compare: \(3d^{7}\), \(3d^{5}\), \(3d^{6}\), and \(3d^{2}\).</p>
-<p><strong>Assumptions and Sign Conventions:</strong><br/>
-Electrons fill degenerate \(d\)-orbitals according to Hund's rule of maximum multiplicity.</p>
-<p><strong>Relevant Formulae and Principles:</strong><br/>
-The spin-only magnetic moment is given by:<br/>
-\[\mu = \sqrt{n(n+2)}\text{ B.M.}\]<br/>
-where \(n\) is the number of unpaired electrons. Because \(\mu\) increases monotonically with \(n\), the configuration with the greatest number of unpaired electrons exhibits the highest magnetic moment.</p>
-<p><strong>Step-by-Step Working:</strong><br/>
-- For \(3d^{2}\): \(n = 2\) unpaired electrons, \(\mu = \sqrt{2(4)} = \sqrt{8} \approx 2.83\text{ B.M.}\)<br/>
-- For \(3d^{5}\): \(n = 5\) unpaired electrons (all five orbitals singly occupied), \(\mu = \sqrt{5(7)} = \sqrt{35} \approx 5.92\text{ B.M.}\)<br/>
-- For \(3d^{6}\): 1 pair and 4 unpaired electrons, \(n = 4\), \(\mu = \sqrt{4(6)} = \sqrt{24} \approx 4.90\text{ B.M.}\)<br/>
-- For \(3d^{7}\): 2 pairs and 3 unpaired electrons, \(n = 3\), \(\mu = \sqrt{3(5)} = \sqrt{15} \approx 3.87\text{ B.M.}\)</p>
-<p><strong>Check and Final Answer:</strong><br/>
-The configuration \(3d^5\) has 5 unpaired electrons, which is the maximum possible for a \(d\)-subshell, giving the highest magnetic moment of \(5.92\text{ B.M.}\)<br/>
-The configuration with the highest magnetic moment is \(3d^5\).</p>]]></text></generalfeedback>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>The spin-only magnetic moment (\(\mu\)) of a transition metal ion is given by \(\mu = \sqrt{n(n+2)}\text{ B.M.}\), where \(n\) is the number of unpaired electrons. A larger number of unpaired electrons produces a higher magnetic moment.</p><p><strong>Step 2: Evaluation</strong><br/>Using Hund's rule of maximum multiplicity for the five \(d\)-orbitals, count the unpaired electrons (\(n\)) for each configuration:<br/>For \(3d^{7}\): \(5\) electrons singly occupy the \(5\) orbitals and \(2\) pair up, leaving \(n = 3\) unpaired electrons.<br/>For \(3d^{5}\): \(5\) electrons singly occupy all \(5\) orbitals, giving \(n = 5\) unpaired electrons.<br/>For \(3d^{6}\): \(5\) electrons singly occupy the orbitals and \(1\) pairs up, leaving \(n = 4\) unpaired electrons.<br/>For \(3d^{2}\): \(2\) electrons singly occupy \(2\) orbitals, giving \(n = 2\) unpaired electrons.</p><p><strong>Step 3: Application</strong><br/>The \(3d^{5}\) configuration has the maximum possible number of unpaired electrons (\(n = 5\)), yielding the highest spin-only magnetic moment of \(\sqrt{5(5+2)} = \sqrt{35} \approx 5.92\text{ B.M.}\)</p><p><strong>Step 4: Final Conclusion</strong><br/>Therefore, the \(3d^{5}\) configuration shows the highest magnetic moment.</p>]]></text></generalfeedback>
   <defaultgrade>4.0000000</defaultgrade>
   <penalty>0.2500000</penalty>
   <hidden>0</hidden>
@@ -252,26 +159,20 @@ The configuration with the highest magnetic moment is \(3d^5\).</p>]]></text></g
     <tag><text>standard:neet_ug</text></tag>
     <tag><text>lang:en</text></tag>
     <tag><text>subject:chemistry</text></tag>
-    <tag><text>class:12</text></tag>
+    <tag><text>section:mcq_type_1</text></tag>
+    <tag><text>class:class_12</text></tag>
     <tag><text>chapter:the_d_and_f_block_elements</text></tag>
-    <tag><text>typology:mcq</text></tag>
+    <tag><text>typology:single_choice</text></tag>
     <tag><text>difficulty:easy</text></tag>
-    <tag><text>blooms:understand</text></tag>
-    <tag><text>calculation:light</text></tag>
+    <tag><text>blooms:apply</text></tag>
     <tag><text>media:text</text></tag>
     <tag><text>multiconcept:false</text></tag>
   </tags>
 </question>
 <question type="multichoice">
-  <name><text>NEET_UG_CHEMISTRY_MCQ_Q07 - Common oxidation state for all lanthanoids</text></name>
+  <name><text>CHEMISTRY_MCQI_DANDFBLOCKELEMENTS_MCQ_Q07 - Common oxidation state for all lanthanoids</text></name>
   <questiontext format="html"><text><![CDATA[<p>Which of the following oxidation state is common for all lanthanoids?</p>]]></text></questiontext>
-  <generalfeedback format="html"><text><![CDATA[<p><strong>Conceptual Principle:</strong><br/>
-In lanthanoids, the valence electrons occupy the \(4f\), \(5d\), and \(6s\) orbitals. The characteristic and predominant oxidation state across the entire series is determined by the balance between successive ionisation enthalpies and lattice or hydration enthalpies of the resulting cations.</p>
-<p><strong>Evaluation:</strong><br/>
-For all fourteen lanthanoids, the sum of the first three ionisation enthalpies (\(IE_1 + IE_2 + IE_3\)) is relatively low and comparable to that of group 3 elements. This energetic requirement is readily overcome by the lattice enthalpies of ionic solids or hydration enthalpies in aqueous solution.<br/>
-Removing a fourth electron requires taking an electron from a deeply buried and stably bound \(4f\) level, which incurs a prohibitive fourth ionisation enthalpy (except in specific cases like \(\mathrm{Ce}^{4+}\) where a noble-gas \(4f^0\) configuration is reached). Similarly, the \(+2\) state is only exhibited when extra stabilization from \(4f^7\) or \(4f^{14}\) configurations is present (e.g., \(\mathrm{Eu}^{2+}\), \(\mathrm{Yb}^{2+}\)).</p>
-<p><strong>Final Conclusion:</strong><br/>
-The only oxidation state exhibited by every member of the lanthanoid series without exception is \(+3\).</p>]]></text></generalfeedback>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>The general electronic configuration of lanthanoids is \([\mathrm{Xe}]4f^{1\text{–}14}5d^{0\text{–}1}6s^{2}\). Their oxidation states depend on the sum of their ionisation enthalpies balanced against lattice and hydration enthalpies.</p><p><strong>Step 2: Evaluation</strong><br/>For all lanthanoids, the sum of the first three ionisation enthalpies is sufficiently low to be compensated by the high lattice energy or hydration enthalpy of the \(\mathrm{Ln}^{3+}\) ions. In contrast, removing a fourth electron requires breaking into the deeply buried \(4f\) core, and \(+2\) states are stable only for a few elements (such as \(\mathrm{Eu}^{2+}\) with \(4f^{7}\) or \(\mathrm{Yb}^{2+}\) with \(4f^{14}\)).</p><p><strong>Step 3: Application</strong><br/>Consequently, every lanthanoid from lanthanum/cerium through lutetium exhibits the \(+3\) oxidation state as its most stable and characteristic state.</p><p><strong>Step 4: Final Conclusion</strong><br/>The oxidation state common to all lanthanoids is \(+3\).</p>]]></text></generalfeedback>
   <defaultgrade>4.0000000</defaultgrade>
   <penalty>0.2500000</penalty>
   <hidden>0</hidden>
@@ -286,37 +187,25 @@ The only oxidation state exhibited by every member of the lanthanoid series with
     <tag><text>standard:neet_ug</text></tag>
     <tag><text>lang:en</text></tag>
     <tag><text>subject:chemistry</text></tag>
-    <tag><text>class:12</text></tag>
+    <tag><text>section:mcq_type_1</text></tag>
+    <tag><text>class:class_12</text></tag>
     <tag><text>chapter:the_d_and_f_block_elements</text></tag>
-    <tag><text>typology:mcq</text></tag>
+    <tag><text>typology:single_choice</text></tag>
     <tag><text>difficulty:easy</text></tag>
     <tag><text>blooms:remember</text></tag>
-    <tag><text>calculation:light</text></tag>
     <tag><text>media:text</text></tag>
     <tag><text>multiconcept:false</text></tag>
   </tags>
 </question>
 <question type="multichoice">
-  <name><text>NEET_UG_CHEMISTRY_MCQ_Q08 - Identification of disproportionation reactions among transition compounds</text></name>
-  <questiontext format="html"><text><![CDATA[<p>Which of the following reactions are disproportionation reactions?</p>
-<p>(a) \(\mathrm{Cu^{+}}\longrightarrow \mathrm{Cu}^{2 + } + \mathrm{Cu}\)<br/>
-(b) \(3\mathrm{MnO}_4^{2-} + 4\mathrm{H}^+ \longrightarrow 2\mathrm{MnO}_4^- + \mathrm{MnO}_2 + 2\mathrm{H}_2\mathrm{O}\)<br/>
-(c) \(2\mathrm{KMnO}_4 \longrightarrow \mathrm{K}_2\mathrm{MnO}_4 + \mathrm{MnO}_2 + \mathrm{O}_2\)<br/>
-(d) \(2\mathrm{MnO}_4^- + 3\mathrm{Mn}^{2+} + 2\mathrm{H}_2\mathrm{O} \longrightarrow 5\mathrm{MnO}_2 + 4\mathrm{H}^+\)</p>]]></text></questiontext>
-  <generalfeedback format="html"><text><![CDATA[<p><strong>Conceptual Principle:</strong><br/>
-A disproportionation reaction is a redox reaction in which an element present in an intermediate oxidation state is simultaneously oxidised and reduced, yielding products in higher and lower oxidation states of that same element.</p>
-<p><strong>Evaluation:</strong><br/>
-- In the reaction \(\mathrm{Cu}^{+} \longrightarrow \mathrm{Cu}^{2+} + \mathrm{Cu}\), copper starts in the \(+1\) oxidation state. It is oxidised to \(\mathrm{Cu}^{2+}\) (\(+2\)) and reduced to metallic copper (\(0\)). Because the same element is both oxidised and reduced, this is a disproportionation reaction.<br/>
-- In the reaction \(3\mathrm{MnO}_4^{2-} + 4\mathrm{H}^+ \longrightarrow 2\mathrm{MnO}_4^- + \mathrm{MnO}_2 + 2\mathrm{H}_2\mathrm{O}\), manganese in manganate ion has an oxidation state of \(+6\). It is oxidised to \(\mathrm{MnO}_4^-\) (\(+7\)) and reduced to \(\mathrm{MnO}_2\) (\(+4\)). Because manganese is both oxidised and reduced, this is a disproportionation reaction.<br/>
-- In the reaction \(2\mathrm{KMnO}_4 \longrightarrow \mathrm{K}_2\mathrm{MnO}_4 + \mathrm{MnO}_2 + \mathrm{O}_2\), manganese goes from \(+7\) in \(\mathrm{KMnO}_4\) to \(+6\) in \(\mathrm{K}_2\mathrm{MnO}_4\) and to \(+4\) in \(\mathrm{MnO}_2\). Both changes represent reduction of manganese; the corresponding oxidation occurs on oxygen atoms (from \(-2\) to \(0\) in \(\mathrm{O}_2\)). Thus, manganese does not undergo oxidation, making this an intramolecular redox reaction rather than a disproportionation reaction.<br/>
-- In the reaction \(2\mathrm{MnO}_4^- + 3\mathrm{Mn}^{2+} + 2\mathrm{H}_2\mathrm{O} \longrightarrow 5\mathrm{MnO}_2 + 4\mathrm{H}^+\), manganese starts in two distinct states, \(+7\) and \(+2\), and both converge into the intermediate \(+4\) state. This process is a comproportionation reaction, which is the reverse of disproportionation.</p>
-<p><strong>Final Conclusion:</strong><br/>
-Only reactions a and b are disproportionation reactions.</p>]]></text></generalfeedback>
+  <name><text>CHEMISTRY_MCQI_DANDFBLOCKELEMENTS_MCQ_Q08 - Identifying disproportionation reactions of copper and manganese</text></name>
+  <questiontext format="html"><text><![CDATA[<p>Which of the following reactions are disproportionation reactions?</p><p>(a) \(\mathrm{Cu^{+}}\longrightarrow \mathrm{Cu}^{2+} + \mathrm{Cu}\)<br/>(b) \(3\mathrm{MnO}_4^{2-} + 4\mathrm{H}^+ \longrightarrow 2\mathrm{MnO}_4^- + \mathrm{MnO}_2 + 2\mathrm{H}_2\mathrm{O}\)<br/>(c) \(2\mathrm{KMnO}_4 \longrightarrow \mathrm{K}_2\mathrm{MnO}_4 + \mathrm{MnO}_2 + \mathrm{O}_2\)<br/>(d) \(2\mathrm{MnO}_4^- + 3\mathrm{Mn}^{2+} + 2\mathrm{H}_2\mathrm{O} \longrightarrow 5\mathrm{MnO}_2 + 4\mathrm{H}^+\)</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>A disproportionation reaction is a redox reaction in which a single element in one intermediate oxidation state is simultaneously oxidised to a higher oxidation state and reduced to a lower oxidation state.</p><p><strong>Step 2: Evaluation</strong><br/>Examine the oxidation state changes in each reaction:<br/>In \(\mathrm{Cu}^{+} \rightarrow \mathrm{Cu}^{2+} + \mathrm{Cu}\), copper changes from \(+1\) to \(+2\) (oxidation) and \(0\) (reduction). This is a disproportionation reaction.<br/>In \(3\mathrm{MnO}_{4}^{2-} + 4\mathrm{H}^{+} \rightarrow 2\mathrm{MnO}_{4}^{-} + \mathrm{MnO}_{2} + 2\mathrm{H}_{2}\mathrm{O}\), manganese changes from \(+6\) to \(+7\) in \(\mathrm{MnO}_{4}^{-}\) (oxidation) and \(+4\) in \(\mathrm{MnO}_{2}\) (reduction). This is a disproportionation reaction.<br/>In \(2\mathrm{KMnO}_{4} \rightarrow \mathrm{K}_{2}\mathrm{MnO}_{4} + \mathrm{MnO}_{2} + \mathrm{O}_{2}\), manganese is only reduced (from \(+7\) to \(+6\) and \(+4\)), while oxygen is oxidised from \(-2\) to \(0\). Thus, it is not disproportionation.<br/>In \(2\mathrm{MnO}_{4}^{-} + 3\mathrm{Mn}^{2+} + 2\mathrm{H}_{2}\mathrm{O} \rightarrow 5\mathrm{MnO}_{2} + 4\mathrm{H}^{+}\), manganese in two different states (\(+7\) and \(+2\)) combines to form a single state (\(+4\)), which is comproportionation rather than disproportionation.</p><p><strong>Step 3: Application</strong><br/>Only the first two reactions—the conversion of \(\mathrm{Cu}^{+}\) to \(\mathrm{Cu}^{2+}\) and \(\mathrm{Cu}\), and the conversion of \(\mathrm{MnO}_{4}^{2-}\) in acidic medium to \(\mathrm{MnO}_{4}^{-}\) and \(\mathrm{MnO}_{2}\)—satisfy the definition of disproportionation.</p><p><strong>Step 4: Final Conclusion</strong><br/>Therefore, only the first two reactions (a and b) are disproportionation reactions.</p>]]></text></generalfeedback>
   <defaultgrade>4.0000000</defaultgrade>
   <penalty>0.2500000</penalty>
   <hidden>0</hidden>
   <single>true</single>
-  <shuffleanswers>true</shuffleanswers>
+  <shuffleanswers>false</shuffleanswers>
   <answernumbering>iii</answernumbering>
   <answer fraction="100" format="html"><text><![CDATA[<p>a, b</p>]]></text></answer>
   <answer fraction="0" format="html"><text><![CDATA[<p>a, b, c</p>]]></text></answer>
@@ -326,29 +215,20 @@ Only reactions a and b are disproportionation reactions.</p>]]></text></generalf
     <tag><text>standard:neet_ug</text></tag>
     <tag><text>lang:en</text></tag>
     <tag><text>subject:chemistry</text></tag>
-    <tag><text>class:12</text></tag>
+    <tag><text>section:mcq_type_1</text></tag>
+    <tag><text>class:class_12</text></tag>
     <tag><text>chapter:the_d_and_f_block_elements</text></tag>
-    <tag><text>typology:mcq</text></tag>
+    <tag><text>typology:single_choice</text></tag>
     <tag><text>difficulty:medium</text></tag>
     <tag><text>blooms:analyze</text></tag>
-    <tag><text>calculation:light</text></tag>
     <tag><text>media:equation</text></tag>
-    <tag><text>multiconcept:false</text></tag>
+    <tag><text>multiconcept:true</text></tag>
   </tags>
 </question>
 <question type="multichoice">
-  <name><text>NEET_UG_CHEMISTRY_MCQ_Q09 - Autocatalysis in potassium permanganate oxalic acid reaction</text></name>
+  <name><text>CHEMISTRY_MCQI_DANDFBLOCKELEMENTS_MCQ_Q09 - Autocatalysis in KMnO4 and oxalic acid reaction</text></name>
   <questiontext format="html"><text><![CDATA[<p>When \(\mathrm{KMnO}_4\) solution is added to oxalic acid solution, the decolourisation is slow in the beginning but becomes instantaneous after some time because</p>]]></text></questiontext>
-  <generalfeedback format="html"><text><![CDATA[<p><strong>Conceptual Principle:</strong><br/>
-When a product of a chemical reaction functions as a catalyst for that same reaction, the phenomenon is termed autocatalysis. In autocatalytic processes, the rate of reaction is initially slow due to the absence of the catalyst and accelerates markedly as the catalytic product accumulates.</p>
-<p><strong>Evaluation:</strong><br/>
-The redox reaction between potassium permanganate and oxalic acid in acidic solution is represented by:<br/>
-\[2\mathrm{MnO}_4^- + 5\mathrm{C}_2\mathrm{O}_4^{2-} + 16\mathrm{H}^+ \longrightarrow 2\mathrm{Mn}^{2+} + 10\mathrm{CO}_2 + 8\mathrm{H}_2\mathrm{O}\]<br/>
-At the beginning of the titration, the concentration of \(\mathrm{Mn}^{2+}\) is zero. The direct oxidation of oxalate by permanganate involves breaking covalent bonds and overcoming high activation energy, making initial decolourisation sluggish.</p>
-<p><strong>Application:</strong><br/>
-As soon as the reaction starts, \(\mathrm{Mn}^{2+}\) ions are produced in solution. The generated \(\mathrm{Mn}^{2+}\) ions rapidly react with \(\mathrm{MnO}_4^-\) to form intermediate manganese species (such as \(\mathrm{Mn}^{3+}\)), which in turn oxidise oxalate ions rapidly. Thus, the generated \(\mathrm{Mn}^{2+}\) acts as an autocatalyst, causing subsequent additions of permanganate to decolourise instantaneously.</p>
-<p><strong>Final Conclusion:</strong><br/>
-\(\mathrm{Mn}^{2+}\) acts as autocatalyst.</p>]]></text></generalfeedback>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>Autocatalysis occurs when one of the products formed during a chemical reaction acts as a catalyst to accelerate the reaction rate.</p><p><strong>Step 2: Evaluation</strong><br/>In the redox titration of acidified \(\mathrm{KMnO}_{4}\) against oxalic acid, the reaction is:<br/>\(2\mathrm{MnO}_{4}^{-} + 5\mathrm{C}_{2}\mathrm{O}_{4}^{2-} + 16\mathrm{H}^{+} \rightarrow 2\mathrm{Mn}^{2+} + 10\mathrm{CO}_{2} + 8\mathrm{H}_{2}\mathrm{O}\)<br/>Initially, the reaction is slow due to the high activation energy required for the direct reaction between \(\mathrm{MnO}_{4}^{-}\) and \(\mathrm{C}_{2}\mathrm{O}_{4}^{2-}\).</p><p><strong>Step 3: Application</strong><br/>Once a small amount of \(\mathrm{Mn}^{2+}\) is produced, it catalyses the reduction of \(\mathrm{MnO}_{4}^{-}\) by oxalic acid, causing the purple colour to disappear instantaneously upon subsequent additions.</p><p><strong>Step 4: Final Conclusion</strong><br/>The decolourisation becomes instantaneous because \(\mathrm{Mn}^{2+}\) acts as an autocatalyst.</p>]]></text></generalfeedback>
   <defaultgrade>4.0000000</defaultgrade>
   <penalty>0.2500000</penalty>
   <hidden>0</hidden>
@@ -363,81 +243,48 @@ As soon as the reaction starts, \(\mathrm{Mn}^{2+}\) ions are produced in soluti
     <tag><text>standard:neet_ug</text></tag>
     <tag><text>lang:en</text></tag>
     <tag><text>subject:chemistry</text></tag>
-    <tag><text>class:12</text></tag>
+    <tag><text>section:mcq_type_1</text></tag>
+    <tag><text>class:class_12</text></tag>
     <tag><text>chapter:the_d_and_f_block_elements</text></tag>
-    <tag><text>typology:mcq</text></tag>
+    <tag><text>typology:single_choice</text></tag>
     <tag><text>difficulty:easy</text></tag>
     <tag><text>blooms:understand</text></tag>
-    <tag><text>calculation:light</text></tag>
     <tag><text>media:text</text></tag>
     <tag><text>multiconcept:false</text></tag>
   </tags>
 </question>
 <question type="multichoice">
-  <name><text>NEET_UG_CHEMISTRY_MCQ_Q10 - Element not belonging to actinoid series</text></name>
+  <name><text>CHEMISTRY_MCQI_DANDFBLOCKELEMENTS_MCQ_Q10 - Element not belonging to the actinoid series</text></name>
   <questiontext format="html"><text><![CDATA[<p>There are 14 elements in actinoid series. Which of the following elements does not belong to this series?</p>]]></text></questiontext>
-  <generalfeedback format="html"><text><![CDATA[<p><strong>Conceptual Principle:</strong><br/>
-The actinoid series comprises 14 elements involving the progressive filling of the \(5f\) subshell, spanning atomic numbers from \(Z = 90\) (Thorium, \(\mathrm{Th}\)) to \(Z = 103\) (Lawrencium, \(\mathrm{Lr}\)). Elements with atomic numbers from \(Z = 58\) (Cerium, \(\mathrm{Ce}\)) to \(Z = 71\) (Lutetium, \(\mathrm{Lu}\)) belong to the lanthanoid series (\(4f\) subshell).</p>
-<p><strong>Evaluation:</strong><br/>
-- Uranium (\(\mathrm{U}\)) has atomic number \(Z = 92\), which lies between 90 and 103; it is an actinoid.<br/>
-- Neptunium (\(\mathrm{Np}\)) has atomic number \(Z = 93\), which lies between 90 and 103; it is an actinoid.<br/>
-- Fermium (\(\mathrm{Fm}\)) has atomic number \(Z = 100\), which lies between 90 and 103; it is an actinoid.<br/>
-- Thulium (\(\mathrm{Tm}\)) has atomic number \(Z = 69\), which falls within the range 58–71. Therefore, thulium is a lanthanoid and not an actinoid.</p>
-<p><strong>Final Conclusion:</strong><br/>
-Tm does not belong to the actinoid series.</p>]]></text></generalfeedback>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>The actinoid series comprises the \(14\) \(5f\)-block elements following actinium (\(Z = 89\)), spanning atomic numbers \(90\) (Thorium, \(\mathrm{Th}\)) to \(103\) (Lawrencium, \(\mathrm{Lr}\)). The lanthanoid series comprises the \(14\) \(4f\)-block elements spanning atomic numbers \(58\) (Cerium, \(\mathrm{Ce}\)) to \(71\) (Lutetium, \(\mathrm{Lu}\)).</p><p><strong>Step 2: Evaluation</strong><br/>Check the atomic numbers and series of the given elements:<br/>Uranium (\(\mathrm{U}\), \(Z = 92\)) is an actinoid.<br/>Neptunium (\(\mathrm{Np}\), \(Z = 93\)) is an actinoid.<br/>Thulium (\(\mathrm{Tm}\), \(Z = 69\)) is a lanthanoid.<br/>Fermium (\(\mathrm{Fm}\), \(Z = 100\)) is an actinoid.</p><p><strong>Step 3: Application</strong><br/>Since \(\mathrm{Tm}\) has atomic number \(69\), it lies in the \(4f\) (lanthanoid) series rather than the \(5f\) (actinoid) series.</p><p><strong>Step 4: Final Conclusion</strong><br/>Therefore, \(\mathrm{Tm}\) does not belong to the actinoid series.</p>]]></text></generalfeedback>
   <defaultgrade>4.0000000</defaultgrade>
   <penalty>0.2500000</penalty>
   <hidden>0</hidden>
   <single>true</single>
   <shuffleanswers>true</shuffleanswers>
   <answernumbering>iii</answernumbering>
-  <answer fraction="0" format="html"><text><![CDATA[<p>U</p>]]></text></answer>
-  <answer fraction="0" format="html"><text><![CDATA[<p>Np</p>]]></text></answer>
-  <answer fraction="100" format="html"><text><![CDATA[<p>Tm</p>]]></text></answer>
-  <answer fraction="0" format="html"><text><![CDATA[<p>Fm</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>\(\mathrm{U}\)</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>\(\mathrm{Np}\)</p>]]></text></answer>
+  <answer fraction="100" format="html"><text><![CDATA[<p>\(\mathrm{Tm}\)</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>\(\mathrm{Fm}\)</p>]]></text></answer>
   <tags>
     <tag><text>standard:neet_ug</text></tag>
     <tag><text>lang:en</text></tag>
     <tag><text>subject:chemistry</text></tag>
-    <tag><text>class:12</text></tag>
+    <tag><text>section:mcq_type_1</text></tag>
+    <tag><text>class:class_12</text></tag>
     <tag><text>chapter:the_d_and_f_block_elements</text></tag>
-    <tag><text>typology:mcq</text></tag>
+    <tag><text>typology:single_choice</text></tag>
     <tag><text>difficulty:easy</text></tag>
     <tag><text>blooms:remember</text></tag>
-    <tag><text>calculation:light</text></tag>
     <tag><text>media:text</text></tag>
     <tag><text>multiconcept:false</text></tag>
   </tags>
 </question>
 <question type="multichoice">
-  <name><text>NEET_UG_CHEMISTRY_MCQ_Q11 - Moles of potassium permanganate reacting with sulphide</text></name>
+  <name><text>CHEMISTRY_MCQI_DANDFBLOCKELEMENTS_MCQ_Q11 - Moles of KMnO4 reacting with sulphide ions</text></name>
   <questiontext format="html"><text><![CDATA[<p>\(\mathrm{KMnO}_4\) acts as an oxidising agent in acidic medium. The number of moles of \(\mathrm{KMnO}_4\) that will be needed to react with one mole of sulphide ions in acidic solution is</p>]]></text></questiontext>
-  <generalfeedback format="html"><text><![CDATA[<p><strong>Given Data and Conditions:</strong><br/>
-Oxidising agent: \(\mathrm{KMnO}_4\) in acidic medium.<br/>
-Reducing agent: Sulphide ions (\(\mathrm{S}^{2-}\)).<br/>
-Amount of sulphide ions to react: 1 mole.</p>
-<p><strong>Assumptions and Sign Conventions:</strong><br/>
-In acidic medium, permanganate is reduced to manganese(II), and sulphide ions are oxidised to elemental sulphur.</p>
-<p><strong>Relevant Formulae and Principles:</strong><br/>
-The reduction half-reaction in acidic medium is:<br/>
-\[\mathrm{MnO}_4^- + 8\mathrm{H}^+ + 5e^- \\longrightarrow \mathrm{Mn}^{2+} + 4\mathrm{H}_2\mathrm{O}\]<br/>
-The oxidation half-reaction for sulphide ions is:<br/>
-\[\mathrm{S}^{2-} \longrightarrow \mathrm{S} + 2e^-\]</p>
-<p><strong>Step-by-Step Working:</strong><br/>
-To balance electron transfer, multiply the reduction half-reaction by 2 and the oxidation half-reaction by 5:<br/>
-\[2\mathrm{MnO}_4^- + 16\mathrm{H}^+ + 10e^- \longrightarrow 2\mathrm{Mn}^{2+} + 8\mathrm{H}_2\mathrm{O}\]<br/>
-\[5\mathrm{S}^{2-} \longrightarrow 5\mathrm{S} + 10e^-\]<br/>
-Combining both half-reactions yields the overall balanced equation:<br/>
-\[2\mathrm{MnO}_4^- + 5\mathrm{S}^{2-} + 16\mathrm{H}^+ \longrightarrow 2\mathrm{Mn}^{2+} + 5\mathrm{S} + 8\mathrm{H}_2\mathrm{O}\]<br/>
-From the stoichiometry of this reaction:<br/>
-5 moles of \(\mathrm{S}^{2-}\) require 2 moles of \(\mathrm{MnO}_4^-\).<br/>
-Therefore, 1 mole of \(\mathrm{S}^{2-}\) requires:<br/>
-\[\frac{2}{5}\text{ moles of }\mathrm{KMnO}_4\]</p>
-<p><strong>Check and Final Answer:</strong><br/>
-Equivalents check: Equivalents of \(\mathrm{KMnO}_4\) = Equivalents of \(\mathrm{S}^{2-}\).<br/>
-Since the valence factor of \(\mathrm{KMnO}_4\) in acidic medium is 5 and that of \(\mathrm{S}^{2-}\) is 2:<br/>
-\(n_{\mathrm{KMnO}_4} \times 5 = 1 \times 2 \implies n_{\mathrm{KMnO}_4} = \frac{2}{5}\).<br/>
-The number of moles needed is \(\frac{2}{5}\).</p>]]></text></generalfeedback>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>Oxidising agent: \(\mathrm{KMnO}_{4}\) (provides \(\mathrm{MnO}_{4}^{-}\)) in acidic medium.<br/>Reducing agent: \(1\text{ mole}\) of sulphide ions (\(\mathrm{S}^{2-}\)).</p><p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>In acidic medium, \(\mathrm{MnO}_{4}^{-}\) is reduced to \(\mathrm{Mn}^{2+}\) (manganese changes from \(+7\) to \(+2\)), and \(\mathrm{S}^{2-}\) is oxidised to elemental sulphur, \(\mathrm{S}\) (sulphur changes from \(-2\) to \(0\)).</p><p><strong>Step 3: Relevant Formulae and Principles</strong><br/>Law of equivalence: Equivalents of \(\mathrm{KMnO}_{4} = \text{Equivalents of } \mathrm{S}^{2-}\), or by balancing the half-reactions:<br/>Reduction half-reaction: \(\mathrm{MnO}_{4}^{-} + 8\mathrm{H}^{+} + 5\mathrm{e}^{-} \rightarrow \mathrm{Mn}^{2+} + 4\mathrm{H}_{2}\mathrm{O}\)<br/>Oxidation half-reaction: \(\mathrm{S}^{2-} \rightarrow \mathrm{S} + 2\mathrm{e}^{-}\)</p><p><strong>Step 4: Step-by-Step Working</strong><br/>Multiply the reduction half-reaction by \(2\) and the oxidation half-reaction by \(5\) to equalise electrons:<br/>\(2\mathrm{MnO}_{4}^{-} + 5\mathrm{S}^{2-} + 16\mathrm{H}^{+} \rightarrow 2\mathrm{Mn}^{2+} + 5\mathrm{S} + 8\mathrm{H}_{2}\mathrm{O}\)<br/>From the balanced equation, \(5\text{ moles}\) of \(\mathrm{S}^{2-}\) react with \(2\text{ moles}\) of \(\mathrm{KMnO}_{4}\).<br/>Therefore, \(1\text{ mole}\) of \(\mathrm{S}^{2-}\) requires:<br/>\(n(\mathrm{KMnO}_{4}) = \frac{2}{5}\text{ moles}\).</p><p><strong>Step 5: Check and Final Answer</strong><br/>Checking via \(n\)-factors: \(n\)-factor of \(\mathrm{KMnO}_{4} = 5\) and \(n\)-factor of \(\mathrm{S}^{2-} = 2\). Thus, \(n(\mathrm{KMnO}_{4}) \times 5 = 1 \times 2 \implies n(\mathrm{KMnO}_{4}) = \frac{2}{5}\). The number of moles needed is \(\frac{2}{5}\).</p>]]></text></generalfeedback>
   <defaultgrade>4.0000000</defaultgrade>
   <penalty>0.2500000</penalty>
   <hidden>0</hidden>
@@ -452,29 +299,21 @@ The number of moles needed is \(\frac{2}{5}\).</p>]]></text></generalfeedback>
     <tag><text>standard:neet_ug</text></tag>
     <tag><text>lang:en</text></tag>
     <tag><text>subject:chemistry</text></tag>
-    <tag><text>class:12</text></tag>
+    <tag><text>section:mcq_type_1</text></tag>
+    <tag><text>class:class_12</text></tag>
     <tag><text>chapter:the_d_and_f_block_elements</text></tag>
-    <tag><text>typology:mcq</text></tag>
+    <tag><text>typology:single_choice</text></tag>
     <tag><text>difficulty:medium</text></tag>
     <tag><text>blooms:apply</text></tag>
     <tag><text>calculation:light</text></tag>
-    <tag><text>media:equation</text></tag>
+    <tag><text>media:text</text></tag>
     <tag><text>multiconcept:false</text></tag>
   </tags>
 </question>
 <question type="multichoice">
-  <name><text>NEET_UG_CHEMISTRY_MCQ_Q12 - Identification of amphoteric transition metal oxides</text></name>
-  <questiontext format="html"><text><![CDATA[<p>Which of the following is amphoteric oxide?</p>
-<p>\(\mathrm{Mn}_2\mathrm{O}_7, \mathrm{CrO}_3, \mathrm{Cr}_2\mathrm{O}_3, \mathrm{CrO}, \mathrm{V}_2\mathrm{O}_5, \mathrm{V}_2\mathrm{O}_4\)</p>]]></text></questiontext>
-  <generalfeedback format="html"><text><![CDATA[<p><strong>Conceptual Principle:</strong><br/>
-In transition metal oxides, the oxidation state of the metal governs the acid-base character. As the oxidation state increases, covalent character increases and the oxide transitions from basic (in low oxidation states) to amphoteric (in intermediate oxidation states) to acidic (in high oxidation states).</p>
-<p><strong>Evaluation:</strong><br/>
-- \(\mathrm{Mn}_2\mathrm{O}_7\) (\(\mathrm{Mn}\) in \(+7\)) and \(\mathrm{CrO}_3\) (\(\mathrm{Cr}\) in \(+6\)) are strongly acidic oxides which dissolve in water to give oxyacids (\(\mathrm{HMnO}_4\) and \(\mathrm{H}_2\mathrm{CrO}_4\)).<br/>
-- \(\mathrm{CrO}\) (\(\mathrm{Cr}\) in \(+2\)) is a basic oxide.<br/>
-- \(\mathrm{V}_2\mathrm{O}_4\) (\(\mathrm{V}\) in \(+4\)) dissolves in acids to give oxovanadium salts (\(\mathrm{VO}^{2+}\)) and is predominantly basic, though weakly amphoteric under forced conditions.<br/>
-- \(\mathrm{Cr}_2\mathrm{O}_3\) (\(\mathrm{Cr}\) in \(+3\)) and \(\mathrm{V}_2\mathrm{O}_5\) (\(\mathrm{V}\) in \(+5\)) are distinctly amphoteric oxides. \(\mathrm{Cr}_2\mathrm{O}_3\) dissolves in both acids (forming \(\mathrm{Cr}^{3+}\) salts) and strong alkalis (forming chromite, \([\mathrm{Cr(OH)}_6]^{3-}\)). \(\mathrm{V}_2\mathrm{O}_5\) reacts with acids to give \(\mathrm{VO}_2^+\) salts and with alkalis to form vanadate ions (\(\mathrm{VO}_4^{3-}\)).</p>
-<p><strong>Final Conclusion:</strong><br/>
-The amphoteric oxides among the given options are \(\mathrm{V}_2\mathrm{O}_5\) and \(\mathrm{Cr}_2\mathrm{O}_3\).</p>]]></text></generalfeedback>
+  <name><text>CHEMISTRY_MCQI_DANDFBLOCKELEMENTS_MCQ_Q12 - Identifying amphoteric transition metal oxides</text></name>
+  <questiontext format="html"><text><![CDATA[<p>Which of the following is amphoteric oxide?</p><p>\(\mathrm{Mn}_2\mathrm{O}_7, \mathrm{CrO}_3, \mathrm{Cr}_2\mathrm{O}_3, \mathrm{CrO}, \mathrm{V}_2\mathrm{O}_5, \mathrm{V}_2\mathrm{O}_4\)</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>The acid-base character of transition metal oxides depends on the oxidation state of the metal. Lower oxidation state oxides are basic, intermediate oxidation state oxides are amphoteric, and highest oxidation state oxides are acidic.</p><p><strong>Step 2: Evaluation</strong><br/>Classify each listed oxide:<br/>\(\mathrm{Mn}_{2}\mathrm{O}_{7}\) (\(\mathrm{Mn}\) in \(+7\)) and \(\mathrm{CrO}_{3}\) (\(\mathrm{Cr}\) in \(+6\)) are strongly acidic oxides.<br/>\(\mathrm{CrO}\) (\(\mathrm{Cr}\) in \(+2\)) and \(\mathrm{V}_{2}\mathrm{O}_{4}\) (\(\mathrm{V}\) in \(+4\), though weakly amphoteric/mostly basic) are basic in character compared to \(\mathrm{V}_{2}\mathrm{O}_{5}\).<br/>\(\mathrm{V}_{2}\mathrm{O}_{5}\) (\(\mathrm{V}\) in \(+5\)) is amphoteric (though mainly acidic, it reacts with both alkalies and acids).<br/>\(\mathrm{Cr}_{2}\mathrm{O}_{3}\) (\(\mathrm{Cr}\) in \(+3\)) is a classic amphoteric oxide, reacting with both acids and bases.</p><p><strong>Step 3: Application</strong><br/>Both \(\mathrm{V}_{2}\mathrm{O}_{5}\) and \(\mathrm{Cr}_{2}\mathrm{O}_{3}\) exhibit amphoteric behaviour by reacting with both acids and bases.</p><p><strong>Step 4: Final Conclusion</strong><br/>Therefore, \(\mathrm{V}_{2}\mathrm{O}_{5}\) and \(\mathrm{Cr}_{2}\mathrm{O}_{3}\) are the amphoteric oxides.</p>]]></text></generalfeedback>
   <defaultgrade>4.0000000</defaultgrade>
   <penalty>0.2500000</penalty>
   <hidden>0</hidden>
@@ -489,74 +328,48 @@ The amphoteric oxides among the given options are \(\mathrm{V}_2\mathrm{O}_5\) a
     <tag><text>standard:neet_ug</text></tag>
     <tag><text>lang:en</text></tag>
     <tag><text>subject:chemistry</text></tag>
-    <tag><text>class:12</text></tag>
+    <tag><text>section:mcq_type_1</text></tag>
+    <tag><text>class:class_12</text></tag>
     <tag><text>chapter:the_d_and_f_block_elements</text></tag>
-    <tag><text>typology:mcq</text></tag>
+    <tag><text>typology:single_choice</text></tag>
     <tag><text>difficulty:medium</text></tag>
     <tag><text>blooms:understand</text></tag>
-    <tag><text>calculation:light</text></tag>
     <tag><text>media:text</text></tag>
     <tag><text>multiconcept:false</text></tag>
   </tags>
 </question>
 <question type="multichoice">
-  <name><text>NEET_UG_CHEMISTRY_MCQ_Q13 - Electronic configuration of gadolinium element</text></name>
+  <name><text>CHEMISTRY_MCQI_DANDFBLOCKELEMENTS_MCQ_Q13 - Electronic configuration of gadolinium Z=64</text></name>
   <questiontext format="html"><text><![CDATA[<p>Gadolinium belongs to \(4f\) series. It's atomic number is 64. Which of the following is the correct electronic configuration of gadolinium?</p>]]></text></questiontext>
-  <generalfeedback format="html"><text><![CDATA[<p><strong>Given Data and Conditions:</strong><br/>
-Element: Gadolinium (\(\mathrm{Gd}\)).<br/>
-Atomic number: \(Z = 64\).<br/>
-Preceding noble gas: Xenon (\([\mathrm{Xe}]\)) with \(Z = 54\).</p>
-<p><strong>Assumptions and Sign Conventions:</strong><br/>
-Valence electrons are distributed among the \(4f\), \(5d\), and \(6s\) orbitals according to the Aufbau principle, modified by exchange energy stabilization for half-filled subshells.</p>
-<p><strong>Relevant Formulae and Principles:</strong><br/>
-Total valence electrons to distribute: \(64 - 54 = 10\).<br/>
-General electronic configuration for lanthanoids: \([\mathrm{Xe}]4f^{n}5d^{0\text{--}1}6s^2\).<br/>
-A half-filled \(f\)-subshell (\(4f^7\)) confers exceptional stability due to maximized exchange energy and symmetrical charge distribution.</p>
-<p><strong>Step-by-Step Working:</strong><br/>
-Two electrons enter the \(6s\) orbital: \(6s^2\).<br/>
-This leaves \(10 - 2 = 8\) electrons.<br/>
-Rather than placing all 8 electrons into the \(4f\) orbital (which would give \(4f^8 5d^0\)), one electron enters the \(5d\) orbital, leaving the \(4f\) subshell half-filled with 7 electrons.<br/>
-Thus, the electronic configuration is \([\mathrm{Xe}]4f^7 5d^1 6s^2\).</p>
-<p><strong>Check and Final Answer:</strong><br/>
-Total electrons: \(54 + 7 + 1 + 2 = 64\). The half-filled \(4f^7\) configuration provides extra stability.<br/>
-The correct electronic configuration is [Xe] \(4f^{7}5d^{1}6s^{2}\).</p>]]></text></generalfeedback>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>Lanthanoids have the general electronic configuration \([\mathrm{Xe}]4f^{1\text{–}14}5d^{0\text{–}1}6s^{2}\). Extra stability is associated with half-filled (\(4f^{7}\)) and completely filled (\(4f^{14}\)) subshells.</p><p><strong>Step 2: Evaluation</strong><br/>Xenon (\(\mathrm{Xe}\)) has atomic number \(54\). For gadolinium (\(\mathrm{Gd}\), \(Z = 64\)), there are \(64 - 54 = 10\) valence electrons to distribute among the \(4f\), \(5d\), and \(6s\) orbitals.</p><p><strong>Step 3: Application</strong><br/>Two electrons occupy the \(6s\) orbital (\(6s^{2}\)). Instead of placing all remaining \(8\) electrons into \(4f\) (\(4f^{8}\)), one electron enters the \(5d\) orbital so that the \(4f\) subshell achieves a stable half-filled \(4f^{7}\) configuration. This gives \([\mathrm{Xe}]4f^{7}5d^{1}6s^{2}\).</p><p><strong>Step 4: Final Conclusion</strong><br/>The correct electronic configuration of gadolinium is \([\mathrm{Xe}]4f^{7}5d^{1}6s^{2}\).</p>]]></text></generalfeedback>
   <defaultgrade>4.0000000</defaultgrade>
   <penalty>0.2500000</penalty>
   <hidden>0</hidden>
   <single>true</single>
   <shuffleanswers>true</shuffleanswers>
   <answernumbering>iii</answernumbering>
-  <answer fraction="100" format="html"><text><![CDATA[<p>[Xe] \(4f^{7}5d^{1}6s^{2}\)</p>]]></text></answer>
-  <answer fraction="0" format="html"><text><![CDATA[<p>[Xe] \(4f^{6}5d^{2}6s^{2}\)</p>]]></text></answer>
-  <answer fraction="0" format="html"><text><![CDATA[<p>[Xe] \(4f^{8}6d^{2}\)</p>]]></text></answer>
-  <answer fraction="0" format="html"><text><![CDATA[<p>[Xe] \(4f^{9}5s^{1}\)</p>]]></text></answer>
+  <answer fraction="100" format="html"><text><![CDATA[<p>\([\mathrm{Xe}] 4f^{7}5d^{1}6s^{2}\)</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>\([\mathrm{Xe}] 4f^{6}5d^{2}6s^{2}\)</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>\([\mathrm{Xe}] 4f^{8}6d^{2}\)</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>\([\mathrm{Xe}] 4f^{9}5s^{1}\)</p>]]></text></answer>
   <tags>
     <tag><text>standard:neet_ug</text></tag>
     <tag><text>lang:en</text></tag>
     <tag><text>subject:chemistry</text></tag>
-    <tag><text>class:12</text></tag>
+    <tag><text>section:mcq_type_1</text></tag>
+    <tag><text>class:class_12</text></tag>
     <tag><text>chapter:the_d_and_f_block_elements</text></tag>
-    <tag><text>typology:mcq</text></tag>
+    <tag><text>typology:single_choice</text></tag>
     <tag><text>difficulty:easy</text></tag>
     <tag><text>blooms:remember</text></tag>
-    <tag><text>calculation:light</text></tag>
     <tag><text>media:text</text></tag>
     <tag><text>multiconcept:false</text></tag>
   </tags>
 </question>
 <question type="multichoice">
-  <name><text>NEET_UG_CHEMISTRY_MCQ_Q14 - Characteristic properties of metallic interstitial compounds</text></name>
+  <name><text>CHEMISTRY_MCQI_DANDFBLOCKELEMENTS_MCQ_Q14 - Characteristic property of interstitial compounds</text></name>
   <questiontext format="html"><text><![CDATA[<p>Interstitial compounds are formed when small atoms are trapped inside the crystal lattice of metals. Which of the following is not the characteristic property of interstitial compounds?</p>]]></text></questiontext>
-  <generalfeedback format="html"><text><![CDATA[<p><strong>Conceptual Principle:</strong><br/>
-Interstitial compounds are formed when small non-metal atoms (such as \(\mathrm{H}\), \(\mathrm{B}\), \(\mathrm{C}\), or \(\mathrm{N}\)) occupy the interstitial voids in the close-packed crystal lattice of transition metals.</p>
-<p><strong>Evaluation:</strong><br/>
-The presence of interstitial atoms in the metal lattice leads to the following key physical and chemical characteristics:<br/>
-1. High melting points: They have very high melting points, typically higher than those of the pure host metals, because the covalent/ionic interactions between interstitial atoms and host metal atoms strengthen the lattice.<br/>
-2. Extreme hardness: They are very hard; some borides approach diamond in hardness.<br/>
-3. Retention of conductivity: They retain metallic electrical and thermal conductivity because the band structure of the metallic lattice remains intact with free conduction electrons.<br/>
-4. Chemical inertness: The strong bonding and stuffed lattice render interstitial compounds chemically inert, meaning they are chemically unreactive rather than very reactive.</p>
-<p><strong>Final Conclusion:</strong><br/>
-Being chemically very reactive is not a characteristic property of interstitial compounds; they are chemically inert.</p>]]></text></generalfeedback>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>Interstitial compounds (such as \(\mathrm{TiC}\), \(\mathrm{Mn}_{4}\mathrm{N}\), \(\mathrm{Fe}_{3}\mathrm{H}\)) form when small non-metal atoms like \(\mathrm{H}\), \(\mathrm{C}\), or \(\mathrm{N}\) occupy the interstitial voids in transition metal crystal lattices.</p><p><strong>Step 2: Evaluation</strong><br/>Due to strong metal–non-metal interactions in the lattice, interstitial compounds possess high melting points (higher than those of pure metals) and are extremely hard. Because the metallic lattice and delocalised electrons remain intact, they retain metallic conductivity. Furthermore, they are chemically inert rather than reactive.</p><p><strong>Step 3: Application</strong><br/>The statement claiming that interstitial compounds are chemically very reactive contradicts their known chemical inertness.</p><p><strong>Step 4: Final Conclusion</strong><br/>Therefore, being chemically very reactive is not a characteristic property of interstitial compounds.</p>]]></text></generalfeedback>
   <defaultgrade>4.0000000</defaultgrade>
   <penalty>0.2500000</penalty>
   <hidden>0</hidden>
@@ -571,39 +384,20 @@ Being chemically very reactive is not a characteristic property of interstitial 
     <tag><text>standard:neet_ug</text></tag>
     <tag><text>lang:en</text></tag>
     <tag><text>subject:chemistry</text></tag>
-    <tag><text>class:12</text></tag>
+    <tag><text>section:mcq_type_1</text></tag>
+    <tag><text>class:class_12</text></tag>
     <tag><text>chapter:the_d_and_f_block_elements</text></tag>
-    <tag><text>typology:mcq</text></tag>
+    <tag><text>typology:single_choice</text></tag>
     <tag><text>difficulty:easy</text></tag>
-    <tag><text>blooms:remember</text></tag>
-    <tag><text>calculation:light</text></tag>
+    <tag><text>blooms:understand</text></tag>
     <tag><text>media:text</text></tag>
     <tag><text>multiconcept:false</text></tag>
   </tags>
 </question>
 <question type="multichoice">
-  <name><text>NEET_UG_CHEMISTRY_MCQ_Q15 - Spin only magnetic moment of chromium ion</text></name>
+  <name><text>CHEMISTRY_MCQI_DANDFBLOCKELEMENTS_MCQ_Q15 - Spin only magnetic moment of Cr3+ ion</text></name>
   <questiontext format="html"><text><![CDATA[<p>The magnetic moment is associated with its spin angular momentum and orbital angular momentum. Spin only magnetic moment value of \(\mathrm{Cr}^{3+}\) ion is</p>]]></text></questiontext>
-  <generalfeedback format="html"><text><![CDATA[<p><strong>Given Data and Conditions:</strong><br/>
-Ion: \(\mathrm{Cr}^{3+}\).<br/>
-Atomic number of chromium (\(\mathrm{Cr}\)): \(Z = 24\).</p>
-<p><strong>Assumptions and Sign Conventions:</strong><br/>
-For first-row transition metal ions, the crystal field quenches the orbital angular momentum, making the spin-only formula applicable.</p>
-<p><strong>Relevant Formulae and Principles:</strong><br/>
-Ground-state configuration of neutral \(\mathrm{Cr}\): \([\mathrm{Ar}]3d^5 4s^1\).<br/>
-Upon losing 3 electrons to form \(\mathrm{Cr}^{3+}\), one electron is removed from the \(4s\) orbital and two from the \(3d\) orbitals, yielding \([\mathrm{Ar}]3d^3\).<br/>
-The spin-only magnetic moment is calculated as:<br/>
-\[\mu_s = \sqrt{n(n+2)}\text{ B.M.}\]<br/>
-where \(n\) is the number of unpaired electrons and \(\text{B.M.}\) denotes Bohr Magneton.</p>
-<p><strong>Step-by-Step Working:</strong><br/>
-In the \(3d^3\) configuration, all three electrons occupy separate \(d\)-orbitals, giving \(n = 3\) unpaired electrons.<br/>
-Substitute \(n = 3\) into the spin-only formula:<br/>
-\[\mu_s = \sqrt{3(3+2)} = \sqrt{3 \times 5} = \sqrt{15}\text{ B.M.}\]<br/>
-Evaluating the square root:<br/>
-\[\sqrt{15} \approx 3.87298\text{ B.M.} \approx 3.87\text{ B.M.}\]</p>
-<p><strong>Check and Final Answer:</strong><br/>
-For \(n = 3\), \(\mu_s = \sqrt{15} \approx 3.87\text{ B.M.}\), which is physically sound and matches standard tables.<br/>
-The spin only magnetic moment value is 3.87 B.M.</p>]]></text></generalfeedback>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>Ion: \(\mathrm{Cr}^{3+}\). Atomic number of chromium (\(\mathrm{Cr}\)) is \(24\).</p><p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>For first-row (\(3d\)) transition metal ions, the orbital angular momentum is quenched by the ligand field, so the magnetic moment is calculated using the spin-only formula.</p><p><strong>Step 3: Relevant Formulae and Principles</strong><br/>Spin-only magnetic moment: \(\mu = \sqrt{n(n+2)}\text{ B.M.}\), where \(n\) is the number of unpaired electrons.</p><p><strong>Step 4: Step-by-Step Working</strong><br/>Ground-state configuration of \(\mathrm{Cr}\) (\(Z = 24\)) is \([\mathrm{Ar}]3d^{5}4s^{1}\).<br/>Removing \(3\) electrons (\(1\) from \(4s\) and \(2\) from \(3d\)) gives \(\mathrm{Cr}^{3+}\): \([\mathrm{Ar}]3d^{3}\).<br/>The \(3\) electrons in the \(3d\) subshell occupy separate orbitals with parallel spins, so \(n = 3\).<br/>Substitute \(n = 3\) into the formula:<br/>\(\mu = \sqrt{3(3+2)} = \sqrt{15} \approx 3.87\text{ B.M.}\)</p><p><strong>Step 5: Check and Final Answer</strong><br/>Since \(\sqrt{9} = 3\) and \(\sqrt{16} = 4\), \(\sqrt{15}\) lies just below \(4\), specifically \(3.87\text{ B.M.}\) Thus, the spin-only magnetic moment of \(\mathrm{Cr}^{3+}\) is \(3.87\text{ B.M.}\)</p>]]></text></generalfeedback>
   <defaultgrade>4.0000000</defaultgrade>
   <penalty>0.2500000</penalty>
   <hidden>0</hidden>
@@ -618,30 +412,21 @@ The spin only magnetic moment value is 3.87 B.M.</p>]]></text></generalfeedback>
     <tag><text>standard:neet_ug</text></tag>
     <tag><text>lang:en</text></tag>
     <tag><text>subject:chemistry</text></tag>
-    <tag><text>class:12</text></tag>
+    <tag><text>section:mcq_type_1</text></tag>
+    <tag><text>class:class_12</text></tag>
     <tag><text>chapter:the_d_and_f_block_elements</text></tag>
-    <tag><text>typology:mcq</text></tag>
+    <tag><text>typology:single_choice</text></tag>
     <tag><text>difficulty:easy</text></tag>
     <tag><text>blooms:apply</text></tag>
     <tag><text>calculation:light</text></tag>
-    <tag><text>media:equation</text></tag>
+    <tag><text>media:text</text></tag>
     <tag><text>multiconcept:false</text></tag>
   </tags>
 </question>
 <question type="multichoice">
-  <name><text>NEET_UG_CHEMISTRY_MCQ_Q16 - Oxidation of iodide by alkaline potassium permanganate</text></name>
-  <questiontext format="html"><text><![CDATA[<p>\(\mathrm{KMnO}_4\) acts as an oxidising agent in alkaline medium. When alkaline \(\mathrm{KMnO}_4\) is treated with KI, iodide ion is oxidised to</p>]]></text></questiontext>
-  <generalfeedback format="html"><text><![CDATA[<p><strong>Conceptual Principle:</strong><br/>
-The oxidising strength and product distribution of potassium permanganate depend fundamentally on the \(\mathrm{pH}\) of the reaction medium.</p>
-<p><strong>Evaluation:</strong><br/>
-In an acidic medium, permanganate (\(\mathrm{MnO}_4^-\)) undergoes a 5-electron reduction to \(\mathrm{Mn}^{2+}\), oxidising iodide (\(\mathrm{I}^-\)) to elemental iodine (\(\mathrm{I}_2\)).<br/>
-However, in a neutral or faintly alkaline medium, permanganate undergoes a 3-electron reduction to manganese dioxide (\(\mathrm{MnO}_2\)). Under these conditions, the higher oxidation potential drives the oxidation of iodide ion (\(\mathrm{I}^-\)) completely to iodate ion (\(\mathrm{IO}_3^-\)).</p>
-<p><strong>Application:</strong><br/>
-The balanced ionic equation in alkaline medium is:<br/>
-\[2\mathrm{MnO}_4^- + \mathrm{H}_2\mathrm{O} + \mathrm{I}^- \longrightarrow 2\mathrm{MnO}_2 + 2\mathrm{OH}^- + \mathrm{IO}_3^-\]<br/>
-Here, the oxidation state of iodine changes from \(-1\) in \(\mathrm{I}^-\) to \(+5\) in \(\mathrm{IO}_3^-\).</p>
-<p><strong>Final Conclusion:</strong><br/>
-Iodide ion is oxidised to \(\mathrm{IO}_3^-\).</p>]]></text></generalfeedback>
+  <name><text>CHEMISTRY_MCQI_DANDFBLOCKELEMENTS_MCQ_Q16 - Oxidation of iodide by alkaline KMnO4</text></name>
+  <questiontext format="html"><text><![CDATA[<p>\(\mathrm{KMnO}_4\) acts as an oxidising agent in alkaline medium. When alkaline \(\mathrm{KMnO}_4\) is treated with \(\mathrm{KI}\), iodide ion is oxidised to</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>Potassium permanganate (\(\mathrm{KMnO}_{4}\)) acts as a strong oxidising agent in both acidic and alkaline media, though the products of oxidation of halides differ depending on the pH of the medium.</p><p><strong>Step 2: Evaluation</strong><br/>In acidic medium, \(\mathrm{MnO}_{4}^{-}\) oxidises \(\mathrm{I}^{-}\) to \(\mathrm{I}_{2}\). However, in neutral or faintly alkaline medium, \(\mathrm{MnO}_{4}^{-}\) is reduced to \(\mathrm{MnO}_{2}\) and oxidises iodide (\(\mathrm{I}^{-}\)) all the way to iodate (\(\mathrm{IO}_{3}^{-}\)).</p><p><strong>Step 3: Application</strong><br/>The balanced ionic equation for the reaction in alkaline/neutral medium is:<br/>\(2\mathrm{MnO}_{4}^{-} + \mathrm{H}_{2}\mathrm{O} + \mathrm{I}^{-} \rightarrow 2\mathrm{MnO}_{2} + 2\mathrm{OH}^{-} + \mathrm{IO}_{3}^{-}\)</p><p><strong>Step 4: Final Conclusion</strong><br/>When alkaline \(\mathrm{KMnO}_{4}\) is treated with \(\mathrm{KI}\), iodide ion is oxidised to \(\mathrm{IO}_{3}^{-}\).</p>]]></text></generalfeedback>
   <defaultgrade>4.0000000</defaultgrade>
   <penalty>0.2500000</penalty>
   <hidden>0</hidden>
@@ -656,28 +441,20 @@ Iodide ion is oxidised to \(\mathrm{IO}_3^-\).</p>]]></text></generalfeedback>
     <tag><text>standard:neet_ug</text></tag>
     <tag><text>lang:en</text></tag>
     <tag><text>subject:chemistry</text></tag>
-    <tag><text>class:12</text></tag>
+    <tag><text>section:mcq_type_1</text></tag>
+    <tag><text>class:class_12</text></tag>
     <tag><text>chapter:the_d_and_f_block_elements</text></tag>
-    <tag><text>typology:mcq</text></tag>
+    <tag><text>typology:single_choice</text></tag>
     <tag><text>difficulty:medium</text></tag>
     <tag><text>blooms:remember</text></tag>
-    <tag><text>calculation:light</text></tag>
     <tag><text>media:text</text></tag>
     <tag><text>multiconcept:false</text></tag>
   </tags>
 </question>
 <question type="multichoice">
-  <name><text>NEET_UG_CHEMISTRY_MCQ_Q17 - Incorrect statement regarding transition metal chemistry</text></name>
+  <name><text>CHEMISTRY_MCQI_DANDFBLOCKELEMENTS_MCQ_Q17 - Incorrect statement about transition metal redox behaviour</text></name>
   <questiontext format="html"><text><![CDATA[<p>Which of the following statements is <strong>not</strong> correct?</p>]]></text></questiontext>
-  <generalfeedback format="html"><text><![CDATA[<p><strong>Conceptual Principle:</strong><br/>
-A metal can displace hydrogen from dilute non-oxidising acids (such as \(\mathrm{HCl}\) or dilute \(\mathrm{H}_2\mathrm{SO}_4\)) only if its standard electrode potential (\(E^{\circ}_{\mathrm{M}^{n+}/\mathrm{M}}\)) is negative, indicating that the metal is more easily oxidised than dihydrogen.</p>
-<p><strong>Evaluation:</strong><br/>
-- Copper has a positive standard reduction potential: \(E^{\circ}_{\mathrm{Cu}^{2+}/\mathrm{Cu}} = +0.34\text{ V}\). Because its reduction potential is positive, copper is less reactive than hydrogen and cannot reduce \(\mathrm{H}^+\) to \(\mathrm{H}_2\). Therefore, copper cannot liberate hydrogen from acids. The statement claiming that copper liberates hydrogen from acids is false.<br/>
-- In its higher oxidation states, manganese forms stable bonds with oxygen and fluorine (e.g., \(\mathrm{Mn}_2\mathrm{O}_7\), \(\mathrm{MnF}_4\)) because of their high electronegativities and small atomic sizes. This statement is correct.<br/>
-- \(\mathrm{Mn}^{3+}\) (\(d^4\)) and \(\mathrm{Co}^{3+}\) are strong oxidising agents in aqueous solution because they readily gain an electron to attain more stable electronic configurations (such as the half-filled \(d^5\) in \(\mathrm{Mn}^{2+}\)). This statement is correct.<br/>
-- \(\mathrm{Ti}^{2+}\) and \(\mathrm{Cr}^{2+}\) are strong reducing agents in aqueous solution because they easily oxidise to \(\mathrm{Ti}^{4+}\) and \(\mathrm{Cr}^{3+}\) (which has a stable half-filled \(t_{2g}^3\) configuration). This statement is correct.</p>
-<p><strong>Final Conclusion:</strong><br/>
-The statement that is not correct is: Copper liberates hydrogen from acids.</p>]]></text></generalfeedback>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>A metal can liberate hydrogen gas from non-oxidising acids (such as dilute \(\mathrm{HCl}\) or dilute \(\mathrm{H}_{2}\mathrm{SO}_{4}\)) only if its standard reduction potential (\(E^\circ_{\mathrm{M}^{n+}/\mathrm{M}}\)) is negative, i.e., lower than that of the \(\mathrm{H}^{+}/\mathrm{H}_{2}\) electrode (\(0.00\text{ V}\)).</p><p><strong>Step 2: Evaluation</strong><br/>Check each statement:<br/>Copper has a positive standard reduction potential (\(E^\circ_{\mathrm{Cu}^{2+}/\mathrm{Cu}} = +0.34\text{ V}\)), so it cannot reduce \(\mathrm{H}^{+}\) ions to \(\mathrm{H}_{2}\) gas; hence, copper does not liberate hydrogen from acids.<br/>Manganese forms stable high-oxidation-state compounds with small, highly electronegative elements like oxygen (\(\mathrm{Mn}_{2}\mathrm{O}_{7}\)) and fluorine (\(\mathrm{MnF}_{4}\)).<br/>\(\mathrm{Mn}^{3+}\) and \(\mathrm{Co}^{3+}\) have high positive \(E^\circ\) values for reduction to \(+2\) states, making them strong oxidising agents in aqueous solution.<br/>\(\mathrm{Ti}^{2+}\) and \(\mathrm{Cr}^{2+}\) have negative \(E^\circ\) values and readily lose electrons to form \(+3\) states, making them strong reducing agents in aqueous solution.</p><p><strong>Step 3: Application</strong><br/>Only the claim that copper liberates hydrogen from acids is false.</p><p><strong>Step 4: Final Conclusion</strong><br/>Therefore, the incorrect statement is that copper liberates hydrogen from acids.</p>]]></text></generalfeedback>
   <defaultgrade>4.0000000</defaultgrade>
   <penalty>0.2500000</penalty>
   <hidden>0</hidden>
@@ -692,37 +469,27 @@ The statement that is not correct is: Copper liberates hydrogen from acids.</p>]
     <tag><text>standard:neet_ug</text></tag>
     <tag><text>lang:en</text></tag>
     <tag><text>subject:chemistry</text></tag>
-    <tag><text>class:12</text></tag>
+    <tag><text>section:mcq_type_1</text></tag>
+    <tag><text>class:class_12</text></tag>
     <tag><text>chapter:the_d_and_f_block_elements</text></tag>
-    <tag><text>typology:mcq</text></tag>
+    <tag><text>typology:single_choice</text></tag>
     <tag><text>difficulty:medium</text></tag>
     <tag><text>blooms:understand</text></tag>
-    <tag><text>calculation:light</text></tag>
     <tag><text>media:text</text></tag>
-    <tag><text>multiconcept:false</text></tag>
+    <tag><text>multiconcept:true</text></tag>
   </tags>
 </question>
 <question type="multichoice">
-  <name><text>NEET_UG_CHEMISTRY_MCQ_Q18 - Oxidation of tin by acidified potassium dichromate</text></name>
+  <name><text>CHEMISTRY_MCQI_DANDFBLOCKELEMENTS_MCQ_Q18 - Oxidation of Sn2+ by acidified K2Cr2O7</text></name>
   <questiontext format="html"><text><![CDATA[<p>When acidified \(\mathrm{K}_2\mathrm{Cr}_2\mathrm{O}_7\) solution is added to \(\mathrm{Sn}^{2+}\) salts then \(\mathrm{Sn}^{2+}\) changes to</p>]]></text></questiontext>
-  <generalfeedback format="html"><text><![CDATA[<p><strong>Conceptual Principle:</strong><br/>
-Acidified potassium dichromate (\(\mathrm{K}_2\mathrm{Cr}_2\mathrm{O}_7\)) is a strong oxidising agent. In acidic solution, the orange dichromate ion (\(\mathrm{Cr}_2\mathrm{O}_7^{2-}\)) acts as an electron acceptor, reducing chromium from the \(+6\) oxidation state to the green chromium(III) ion (\(\mathrm{Cr}^{3+}\)):<br/>
-\[\mathrm{Cr}_2\mathrm{O}_7^{2-} + 14\mathrm{H}^+ + 6e^- \longrightarrow 2\mathrm{Cr}^{3+} + 7\mathrm{H}_2\mathrm{O}\]</p>
-<p><strong>Evaluation:</strong><br/>
-Tin (\(\mathrm{Sn}\)) commonly exhibits two stable oxidation states: \(+2\) (stannous) and \(+4\) (stannic). When exposed to a powerful oxidising agent such as acidified dichromate, \(\mathrm{Sn}^{2+}\) readily loses two electrons and is oxidised to \(\mathrm{Sn}^{4+}\):<br/>
-\[\mathrm{Sn}^{2+} \longrightarrow \mathrm{Sn}^{4+} + 2e^-\]</p>
-<p><strong>Application:</strong><br/>
-Multiplying the tin oxidation half-reaction by 3 to balance the electrons transferred gives the overall redox reaction:<br/>
-\[\mathrm{Cr}_2\mathrm{O}_7^{2-} + 14\mathrm{H}^+ + 3\mathrm{Sn}^{2+} \longrightarrow 2\mathrm{Cr}^{3+} + 3\mathrm{Sn}^{4+} + 7\mathrm{H}_2\mathrm{O}\]</p>
-<p><strong>Final Conclusion:</strong><br/>
-\(\mathrm{Sn}^{2+}\) changes to \(\mathrm{Sn}^{4+}\).</p>]]></text></generalfeedback>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>Potassium dichromate (\(\mathrm{K}_{2}\mathrm{Cr}_{2}\mathrm{O}_{7}\)) in acidic medium is a strong oxidising agent that reduces from \(\mathrm{Cr}(\mathrm{VI})\) to \(\mathrm{Cr}(\mathrm{III})\) (\(\mathrm{Cr}^{3+}\)) while oxidising reducing agents like \(\mathrm{Sn}^{2+}\) to their higher stable oxidation state.</p><p><strong>Step 2: Evaluation</strong><br/>Tin (\(\mathrm{Sn}\), Group 14) exhibits two common stable oxidation states: \(+2\) and \(+4\). In the presence of an oxidising agent like acidified \(\mathrm{Cr}_{2}\mathrm{O}_{7}^{2-}\), \(\mathrm{Sn}^{2+}\) loses two electrons to form \(\mathrm{Sn}^{4+}\).</p><p><strong>Step 3: Application</strong><br/>The balanced ionic equation is:<br/>\(\mathrm{Cr}_{2}\mathrm{O}_{7}^{2-} + 3\mathrm{Sn}^{2+} + 14\mathrm{H}^{+} \rightarrow 2\mathrm{Cr}^{3+} + 3\mathrm{Sn}^{4+} + 7\mathrm{H}_{2}\mathrm{O}\)</p><p><strong>Step 4: Final Conclusion</strong><br/>Therefore, \(\mathrm{Sn}^{2+}\) is oxidised to \(\mathrm{Sn}^{4+}\).</p>]]></text></generalfeedback>
   <defaultgrade>4.0000000</defaultgrade>
   <penalty>0.2500000</penalty>
   <hidden>0</hidden>
   <single>true</single>
   <shuffleanswers>true</shuffleanswers>
   <answernumbering>iii</answernumbering>
-  <answer fraction="0" format="html"><text><![CDATA[<p>Sn</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>\(\mathrm{Sn}\)</p>]]></text></answer>
   <answer fraction="0" format="html"><text><![CDATA[<p>\(\mathrm{Sn}^{3+}\)</p>]]></text></answer>
   <answer fraction="100" format="html"><text><![CDATA[<p>\(\mathrm{Sn}^{4+}\)</p>]]></text></answer>
   <answer fraction="0" format="html"><text><![CDATA[<p>\(\mathrm{Sn}^{+}\)</p>]]></text></answer>
@@ -730,26 +497,20 @@ Multiplying the tin oxidation half-reaction by 3 to balance the electrons transf
     <tag><text>standard:neet_ug</text></tag>
     <tag><text>lang:en</text></tag>
     <tag><text>subject:chemistry</text></tag>
-    <tag><text>class:12</text></tag>
+    <tag><text>section:mcq_type_1</text></tag>
+    <tag><text>class:class_12</text></tag>
     <tag><text>chapter:the_d_and_f_block_elements</text></tag>
-    <tag><text>typology:mcq</text></tag>
+    <tag><text>typology:single_choice</text></tag>
     <tag><text>difficulty:easy</text></tag>
-    <tag><text>blooms:understand</text></tag>
-    <tag><text>calculation:light</text></tag>
+    <tag><text>blooms:apply</text></tag>
     <tag><text>media:text</text></tag>
     <tag><text>multiconcept:false</text></tag>
   </tags>
 </question>
 <question type="multichoice">
-  <name><text>NEET_UG_CHEMISTRY_MCQ_Q19 - Higher oxidation state of manganese in oxides</text></name>
+  <name><text>CHEMISTRY_MCQI_DANDFBLOCKELEMENTS_MCQ_Q19 - Higher oxidation state of manganese in oxides</text></name>
   <questiontext format="html"><text><![CDATA[<p>Highest oxidation state of manganese in fluoride is \(+4\ (\mathrm{MnF}_4)\) but highest oxidation state in oxides is \(+7\ (\mathrm{Mn}_2\mathrm{O}_7)\) because</p>]]></text></questiontext>
-  <generalfeedback format="html"><text><![CDATA[<p><strong>Conceptual Principle:</strong><br/>
-Although fluorine has a higher electronegativity than oxygen, the ability of oxygen to stabilise higher oxidation states in transition metals often exceeds that of fluorine.</p>
-<p><strong>Evaluation:</strong><br/>
-Fluorine has only one unpaired electron in its valence shell (\(2s^2 2p^5\)) and cannot expand its octet. Consequently, fluorine can only form single covalent bonds with transition metal atoms. Surrounding a single manganese atom with seven fluorine atoms is sterically impossible due to spatial crowding around the central atom; hence, manganese fluoride is limited to \(\mathrm{MnF}_4\) with an oxidation state of \(+4\).<br/>
-In contrast, oxygen has two unpaired electrons (\(2s^2 2p^4\)) and can form multiple bonds (specifically \(p\pi\text{--}d\pi\) double bonds) with transition metals. Because double bonds allow a high oxidation state to be achieved with fewer coordinating ligands, manganese can reach its group maximum oxidation state of \(+7\) in \(\mathrm{Mn}_2\mathrm{O}_7\) without steric crowding.</p>
-<p><strong>Final Conclusion:</strong><br/>
-In covalent compounds fluorine can form single bond only while oxygen forms double bond.</p>]]></text></generalfeedback>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>To achieve very high oxidation states like \(+7\) without excessive steric crowding around the central metal atom, the metal must form multiple bonds with the surrounding electronegative atoms.</p><p><strong>Step 2: Evaluation</strong><br/>Fluorine can only form a single covalent bond (\(-\mathrm{F}\)), so achieving a \(+7\) state in a neutral fluoride would require seven fluorine atoms around manganese (\(\mathrm{MnF}_{7}\)), which is sterically and energetically unfavourable. In contrast, oxygen can form double bonds (\(=\mathrm{O}\)) via \(p\pi\text{–}d\pi\) bonding with manganese.</p><p><strong>Step 3: Application</strong><br/>In \(\mathrm{Mn}_{2}\mathrm{O}_{7}\), each manganese atom is tetrahedrally surrounded by oxygen atoms, forming three \(\mathrm{Mn}=\mathrm{O}\) double bonds and one \(\mathrm{Mn}-\mathrm{O}-\mathrm{Mn}\) bridge. This ability of oxygen to form multiple bonds stabilises the \(+7\) oxidation state.</p><p><strong>Step 4: Final Conclusion</strong><br/>Thus, the highest oxidation state of manganese is \(+4\) in fluorides and \(+7\) in oxides because in covalent compounds fluorine can form single bond only while oxygen forms double bond.</p>]]></text></generalfeedback>
   <defaultgrade>4.0000000</defaultgrade>
   <penalty>0.2500000</penalty>
   <hidden>0</hidden>
@@ -764,28 +525,20 @@ In covalent compounds fluorine can form single bond only while oxygen forms doub
     <tag><text>standard:neet_ug</text></tag>
     <tag><text>lang:en</text></tag>
     <tag><text>subject:chemistry</text></tag>
-    <tag><text>class:12</text></tag>
+    <tag><text>section:mcq_type_1</text></tag>
+    <tag><text>class:class_12</text></tag>
     <tag><text>chapter:the_d_and_f_block_elements</text></tag>
-    <tag><text>typology:mcq</text></tag>
+    <tag><text>typology:single_choice</text></tag>
     <tag><text>difficulty:medium</text></tag>
     <tag><text>blooms:understand</text></tag>
-    <tag><text>calculation:light</text></tag>
     <tag><text>media:text</text></tag>
     <tag><text>multiconcept:false</text></tag>
   </tags>
 </question>
 <question type="multichoice">
-  <name><text>NEET_UG_CHEMISTRY_MCQ_Q20 - Similar properties of zirconium and hafnium elements</text></name>
+  <name><text>CHEMISTRY_MCQI_DANDFBLOCKELEMENTS_MCQ_Q20 - Similarity between Zirconium and Hafnium properties</text></name>
   <questiontext format="html"><text><![CDATA[<p>Although Zirconium belongs to \(4d\) transition series and Hafnium to \(5d\) transition series even then they show similar physical and chemical properties because</p>]]></text></questiontext>
-  <generalfeedback format="html"><text><![CDATA[<p><strong>Conceptual Principle:</strong><br/>
-Normally, descending a group in the periodic table results in an increase in atomic and ionic radii due to the addition of an extra electron shell. However, intervening subshells with poor shielding capability can counteract this normal periodic trend.</p>
-<p><strong>Evaluation:</strong><br/>
-Zirconium (\(\mathrm{Zr}\), \(Z = 40\)) belongs to the \(4d\) series, and hafnium (\(\mathrm{Hf}\), \(Z = 72\)) belongs to the \(5d\) series. Between lanthanum (\(Z = 57\)) and hafnium, fourteen lanthanoid elements are accommodated through the progressive filling of the \(4f\) subshell.<br/>
-Because the diffuse shapes of \(4f\) orbitals provide very poor shielding of the nucleus, the effective nuclear charge increases steadily with increasing atomic number across the lanthanoids. This phenomenon, known as lanthanoid contraction, steadily shrinks the atomic and ionic radii.</p>
-<p><strong>Application:</strong><br/>
-The contraction across the 14 lanthanoid elements precisely compensates for the expected expansion from adding a fifth principal shell. Consequently, the atomic radius of \(\mathrm{Zr}\) (\(160\text{ pm}\)) and that of \(\mathrm{Hf}\) (\(159\text{ pm}\)) are practically identical. Their similar atomic radii and identical valence configurations give rise to nearly indistinguishable chemical and physical properties.</p>
-<p><strong>Final Conclusion:</strong><br/>
-Both have similar atomic radius.</p>]]></text></generalfeedback>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>Atomic size generally increases down a group as new electron shells are added. However, in the \(5d\) transition series, the \(4f\) subshell is filled prior to the \(5d\) orbitals.</p><p><strong>Step 2: Evaluation</strong><br/>The \(4f\) electrons have a very poor shielding effect on the outer valence electrons. As a result, the increased nuclear charge across the \(14\) lanthanoid elements pulls the valence shell inward, causing a steady decrease in atomic and ionic radii known as lanthanoid contraction.</p><p><strong>Step 3: Application</strong><br/>Because of lanthanoid contraction, the expected increase in size from \(4d\) to \(5d\) elements is cancelled out. Consequently, Zirconium (\(\mathrm{Zr}\), atomic radius \(160\text{ pm}\)) and Hafnium (\(\mathrm{Hf}\), atomic radius \(159\text{ pm}\)) have virtually identical atomic radii, leading to very similar physical and chemical properties.</p><p><strong>Step 4: Final Conclusion</strong><br/>Zirconium and Hafnium show similar properties because both have similar atomic radius.</p>]]></text></generalfeedback>
   <defaultgrade>4.0000000</defaultgrade>
   <penalty>0.2500000</penalty>
   <hidden>0</hidden>
@@ -800,68 +553,48 @@ Both have similar atomic radius.</p>]]></text></generalfeedback>
     <tag><text>standard:neet_ug</text></tag>
     <tag><text>lang:en</text></tag>
     <tag><text>subject:chemistry</text></tag>
-    <tag><text>class:12</text></tag>
+    <tag><text>section:mcq_type_1</text></tag>
+    <tag><text>class:class_12</text></tag>
     <tag><text>chapter:the_d_and_f_block_elements</text></tag>
-    <tag><text>typology:mcq</text></tag>
-    <tag><text>difficulty:medium</text></tag>
+    <tag><text>typology:single_choice</text></tag>
+    <tag><text>difficulty:easy</text></tag>
     <tag><text>blooms:understand</text></tag>
-    <tag><text>calculation:light</text></tag>
     <tag><text>media:text</text></tag>
     <tag><text>multiconcept:false</text></tag>
   </tags>
 </question>
 <question type="multichoice">
-  <name><text>NEET_UG_CHEMISTRY_MCQ_Q21 - Insuitability of hydrochloric acid with potassium permanganate</text></name>
-  <questiontext format="html"><text><![CDATA[<p>Why is HCl not used to make the medium acidic in oxidation reactions of \(\mathrm{KMnO}_4\) in acidic medium?</p>]]></text></questiontext>
-  <generalfeedback format="html"><text><![CDATA[<p><strong>Conceptual Principle:</strong><br/>
-In redox titrations and quantitative oxidation reactions, the acid used to supply hydrogen ions must be completely resistant to oxidation by the oxidising agent.</p>
-<p><strong>Evaluation:</strong><br/>
-Potassium permanganate is a powerful oxidising agent in acidic medium with a high standard reduction potential:<br/>
-\[\mathrm{MnO}_4^- + 8\mathrm{H}^+ + 5e^- \longrightarrow \mathrm{Mn}^{2+} + 4\mathrm{H}_2\mathrm{O}, \quad E^{\circ} = +1.51\text{ V}\]<br/>
-Hydrochloric acid contains chloride ions (\(\mathrm{Cl}^-\)), whose standard oxidation potential is related to:<br/>
-\[\mathrm{Cl}_2 + 2e^- \longrightarrow 2\mathrm{Cl}^-, \quad E^{\circ} = +1.36\text{ V}\]<br/>
-Because the reduction potential of the \(\mathrm{MnO}_4^-/\mathrm{Mn}^{2+}\) couple (\(+1.51\text{ V}\)) is significantly greater than that of the \(\mathrm{Cl}_2/2\mathrm{Cl}^-\) couple (\(+1.36\text{ V}\)), permanganate readily oxidises \(\mathrm{Cl}^-\) to chlorine gas (\(\mathrm{Cl}_2\)):<br/>
-\[2\mathrm{MnO}_4^- + 16\mathrm{H}^+ + 10\mathrm{Cl}^- \longrightarrow 2\mathrm{Mn}^{2+} + 5\mathrm{Cl}_2 + 8\mathrm{H}_2\mathrm{O}\]</p>
-<p><strong>Application:</strong><br/>
-This side reaction consumes \(\mathrm{KMnO}_4\), interfering with the intended quantitative reaction. Furthermore, the generated \(\mathrm{Cl}_2\) is itself an oxidising agent that oxidises the analyte, yielding invalid analytical results. In contrast, dilute \(\mathrm{H}_2\mathrm{SO}_4\) cannot be oxidised by \(\mathrm{KMnO}_4\) and is therefore preferred.</p>
-<p><strong>Final Conclusion:</strong><br/>
-\(\mathrm{KMnO}_4\) oxidises HCl into \(\mathrm{Cl}_2\) which is also an oxidising agent.</p>]]></text></generalfeedback>
+  <name><text>CHEMISTRY_MCQI_DANDFBLOCKELEMENTS_MCQ_Q21 - Why HCl is not used with KMnO4</text></name>
+  <questiontext format="html"><text><![CDATA[<p>Why is \(\mathrm{HCl}\) not used to make the medium acidic in oxidation reactions of \(\mathrm{KMnO}_4\) in acidic medium?</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>To acidify a \(\mathrm{KMnO}_{4}\) solution during redox titrations or reactions, the acid used must be non-reducing so that it does not react with \(\mathrm{KMnO}_{4}\) itself.</p><p><strong>Step 2: Evaluation</strong><br/>Hydrochloric acid (\(\mathrm{HCl}\)) contains chloride ions (\(\mathrm{Cl}^{-}\)), which can be oxidised by a strong oxidising agent like \(\mathrm{MnO}_{4}^{-}\) (\(E^\circ_{\mathrm{MnO}_4^-/\mathrm{Mn}^{2+}} = +1.51\text{ V} &gt; E^\circ_{\mathrm{Cl}_2/\mathrm{Cl}^-} = +1.36\text{ V}\)).</p><p><strong>Step 3: Application</strong><br/>Thus, \(\mathrm{KMnO}_{4}\) oxidises \(\mathrm{HCl}\) into chlorine gas (\(\mathrm{Cl}_{2}\)) according to:<br/>\(2\mathrm{KMnO}_{4} + 16\mathrm{HCl} \rightarrow 2\mathrm{KCl} + 2\mathrm{MnCl}_{2} + 5\mathrm{Cl}_{2} + 8\mathrm{H}_{2}\mathrm{O}\)<br/>The liberated \(\mathrm{Cl}_{2}\) is itself an oxidising agent and consumes \(\mathrm{KMnO}_{4}\), causing erroneous results. Therefore, dilute \(\mathrm{H}_{2}\mathrm{SO}_{4}\) is used instead.</p><p><strong>Step 4: Final Conclusion</strong><br/>\(\mathrm{HCl}\) is not used because \(\mathrm{KMnO}_{4}\) oxidises \(\mathrm{HCl}\) into \(\mathrm{Cl}_{2}\) which is also an oxidising agent.</p>]]></text></generalfeedback>
   <defaultgrade>4.0000000</defaultgrade>
   <penalty>0.2500000</penalty>
   <hidden>0</hidden>
   <single>true</single>
   <shuffleanswers>true</shuffleanswers>
   <answernumbering>iii</answernumbering>
-  <answer fraction="0" format="html"><text><![CDATA[<p>Both HCl and \(\mathrm{KMnO}_4\) act as oxidising agents.</p>]]></text></answer>
-  <answer fraction="100" format="html"><text><![CDATA[<p>\(\mathrm{KMnO}_4\) oxidises HCl into \(\mathrm{Cl}_2\) which is also an oxidising agent.</p>]]></text></answer>
-  <answer fraction="0" format="html"><text><![CDATA[<p>\(\mathrm{KMnO}_4\) is a weaker oxidising agent than HCl.</p>]]></text></answer>
-  <answer fraction="0" format="html"><text><![CDATA[<p>\(\mathrm{KMnO}_4\) acts as a reducing agent in the presence of HCl.</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>Both \(\mathrm{HCl}\) and \(\mathrm{KMnO}_4\) act as oxidising agents.</p>]]></text></answer>
+  <answer fraction="100" format="html"><text><![CDATA[<p>\(\mathrm{KMnO}_4\) oxidises \(\mathrm{HCl}\) into \(\mathrm{Cl}_2\) which is also an oxidising agent.</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>\(\mathrm{KMnO}_4\) is a weaker oxidising agent than \(\mathrm{HCl}\).</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>\(\mathrm{KMnO}_4\) acts as a reducing agent in the presence of \(\mathrm{HCl}\).</p>]]></text></answer>
   <tags>
     <tag><text>standard:neet_ug</text></tag>
     <tag><text>lang:en</text></tag>
     <tag><text>subject:chemistry</text></tag>
-    <tag><text>class:12</text></tag>
+    <tag><text>section:mcq_type_1</text></tag>
+    <tag><text>class:class_12</text></tag>
     <tag><text>chapter:the_d_and_f_block_elements</text></tag>
-    <tag><text>typology:mcq</text></tag>
+    <tag><text>typology:single_choice</text></tag>
     <tag><text>difficulty:medium</text></tag>
     <tag><text>blooms:understand</text></tag>
-    <tag><text>calculation:light</text></tag>
     <tag><text>media:text</text></tag>
     <tag><text>multiconcept:false</text></tag>
   </tags>
 </question>
 <question type="multichoice">
-  <name><text>NEET_UG_CHEMISTRY_MCQ_Q22 - Identification of coloured inorganic chemical compounds</text></name>
+  <name><text>CHEMISTRY_MCQII_DANDFBLOCKELEMENTS_MCQ_Q22 - Coloured transition and inner transition compounds</text></name>
   <questiontext format="html"><text><![CDATA[<p>Generally transition elements and their salts are coloured due to the presence of unpaired electrons in metal ions. Which of the following compounds are coloured?</p>]]></text></questiontext>
-  <generalfeedback format="html"><text><![CDATA[<p><strong>Conceptual Principle:</strong><br/>
-Colour in transition and inner transition metal compounds can originate from \(d\text{--}d\) electronic transitions (when unpaired \(d\)-electrons are present) or from charge-transfer transitions between ligands and the central metal ion (ligand-to-metal charge transfer, LMCT).</p>
-<p><strong>Evaluation:</strong><br/>
-- In \(\mathrm{TiCl}_4\), titanium has oxidation state \(+4\) with configuration \(3d^0\). Because there are no unpaired electrons and no charge transfer in the visible spectrum, \(\mathrm{TiCl}_4\) is a colourless liquid.<br/>
-- In \(\mathrm{Cu}_2\mathrm{Cl}_2\), copper has oxidation state \(+1\) with configuration \(3d^{10}\). With completely filled \(d\)-orbitals, there are no unpaired electrons, making \(\mathrm{Cu}_2\mathrm{Cl}_2\) colourless.<br/>
-- In \(\mathrm{KMnO}_4\), manganese is in the \(+7\) oxidation state (\(3d^0\)). Although it has no \(d\)-electrons, it exhibits an intense, characteristic purple-magenta colour due to ligand-to-metal charge transfer (LMCT) from oxo ligands (\(\mathrm{O}^{2-}\)) to the vacant \(d\)-orbitals of \(\mathrm{Mn}^{7+}\).<br/>
-- In \(\mathrm{Ce(SO_4)_2}\), cerium is in the \(+4\) oxidation state (\(4f^0\)). In spite of having no unpaired \(f\)-electrons, cerium(IV) sulfate exhibits a distinct yellow/orange colour arising from charge-transfer transitions from sulfate ligands to the \(\mathrm{Ce}^{4+}\) centre.</p>
-<p><strong>Final Conclusion:</strong><br/>
-The coloured compounds are \(\mathrm{KMnO}_4\) and \(\mathrm{Ce(SO_4)_2}\).</p>]]></text></generalfeedback>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>Compounds of \(d\)- and \(f\)-block elements can be coloured either due to \(d\text{-}d\) or \(f\text{-}f\) transitions (when unpaired electrons are present) or due to ligand-to-metal charge transfer (LMCT) transitions even when the metal ion has a \(d^{0}\) or \(f^{0}\) configuration.</p><p><strong>Step 2: Evaluation</strong><br/>Analyse each compound:<br/>In \(\mathrm{KMnO}_{4}\), \(\mathrm{Mn}\) is in the \(+7\) state (\(3d^{0}\)). Although it has no unpaired \(d\)-electrons, it is intensely purple due to ligand-to-metal charge transfer from \(\mathrm{O}^{2-}\) to \(\mathrm{Mn}^{7+}\).<br/>In \(\mathrm{Ce}(\mathrm{SO}_{4})_{2}\), \(\mathrm{Ce}\) is in the \(+4\) state (\(4f^{0}\)). It is yellow-orange in colour due to ligand-to-metal charge transfer.<br/>In \(\mathrm{TiCl}_{4}\), \(\mathrm{Ti}\) is in the \(+4\) state (\(3d^{0}\)), and it is a colourless liquid.<br/>In \(\mathrm{Cu}_{2}\mathrm{Cl}_{2}\), \(\mathrm{Cu}\) is in the \(+1\) state (\(3d^{10}\)), and it is a white (colourless) solid.</p><p><strong>Step 3: Application</strong><br/>Both \(\mathrm{KMnO}_{4}\) and \(\mathrm{Ce}(\mathrm{SO}_{4})_{2}\) exhibit intense colour due to charge transfer transitions, whereas \(\mathrm{TiCl}_{4}\) and \(\mathrm{Cu}_{2}\mathrm{Cl}_{2}\) are colourless.</p><p><strong>Step 4: Final Conclusion</strong><br/>Therefore, \(\mathrm{KMnO}_{4}\) and \(\mathrm{Ce}(\mathrm{SO}_{4})_{2}\) are coloured compounds.</p>]]></text></generalfeedback>
   <defaultgrade>4.0000000</defaultgrade>
   <penalty>0.2500000</penalty>
   <hidden>0</hidden>
@@ -876,30 +609,20 @@ The coloured compounds are \(\mathrm{KMnO}_4\) and \(\mathrm{Ce(SO_4)_2}\).</p>]
     <tag><text>standard:neet_ug</text></tag>
     <tag><text>lang:en</text></tag>
     <tag><text>subject:chemistry</text></tag>
-    <tag><text>class:12</text></tag>
+    <tag><text>section:mcq_type_2</text></tag>
+    <tag><text>class:class_12</text></tag>
     <tag><text>chapter:the_d_and_f_block_elements</text></tag>
-    <tag><text>typology:mcq</text></tag>
+    <tag><text>typology:multi_choice</text></tag>
     <tag><text>difficulty:medium</text></tag>
-    <tag><text>blooms:understand</text></tag>
-    <tag><text>calculation:light</text></tag>
+    <tag><text>blooms:analyze</text></tag>
     <tag><text>media:text</text></tag>
-    <tag><text>multiconcept:false</text></tag>
+    <tag><text>multiconcept:true</text></tag>
   </tags>
 </question>
 <question type="multichoice">
-  <name><text>NEET_UG_CHEMISTRY_MCQ_Q23 - Metallic ions with same spin only magnetic moment</text></name>
+  <name><text>CHEMISTRY_MCQII_DANDFBLOCKELEMENTS_MCQ_Q23 - Metallic ions with same spin only magnetic moment</text></name>
   <questiontext format="html"><text><![CDATA[<p>Transition elements show magnetic moment due to spin and orbital motion of electrons. Which of the following metallic ions have almost same spin only magnetic moment?</p>]]></text></questiontext>
-  <generalfeedback format="html"><text><![CDATA[<p><strong>Conceptual Principle:</strong><br/>
-The spin-only magnetic moment depends exclusively on the number of unpaired electrons (\(n\)) according to the relation:<br/>
-\[\mu = \sqrt{n(n+2)}\text{ B.M.}\]<br/>
-Metallic ions having the same number of unpaired electrons will have identical spin-only magnetic moments.</p>
-<p><strong>Evaluation:</strong><br/>
-- For \(\mathrm{Co}^{2+}\): Cobalt has atomic number 27 (neutral configuration \([\mathrm{Ar}]3d^7 4s^2\)). The \(\mathrm{Co}^{2+}\) ion has configuration \([\mathrm{Ar}]3d^7\). Following Hund's rule, three orbitals are singly occupied and two are doubly occupied, giving \(n = 3\) unpaired electrons. Its magnetic moment is \(\mu = \sqrt{3(5)} = \sqrt{15} \approx 3.87\text{ B.M.}\)<br/>
-- For \(\mathrm{Cr}^{2+}\): Chromium has atomic number 24 (neutral configuration \([\mathrm{Ar}]3d^5 4s^1\)). The \(\mathrm{Cr}^{2+}\) ion has configuration \([\mathrm{Ar}]3d^4\), which has \(n = 4\) unpaired electrons. Its magnetic moment is \(\mu = \sqrt{4(6)} = \sqrt{24} \approx 4.90\text{ B.M.}\)<br/>
-- For \(\mathrm{Mn}^{2+}\): Manganese has atomic number 25 (neutral configuration \([\mathrm{Ar}]3d^5 4s^2\)). The \(\mathrm{Mn}^{2+}\) ion has configuration \([\mathrm{Ar}]3d^5\), which has \(n = 5\) unpaired electrons. Its magnetic moment is \(\mu = \sqrt{5(7)} = \sqrt{35} \approx 5.92\text{ B.M.}\)<br/>
-- For \(\mathrm{Cr}^{3+}\): Chromium has atomic number 24. Removing three electrons from \([\mathrm{Ar}]3d^5 4s^1\) gives \([\mathrm{Ar}]3d^3\), which has \(n = 3\) unpaired electrons. Its magnetic moment is \(\mu = \sqrt{3(5)} = \sqrt{15} \approx 3.87\text{ B.M.}\)</p>
-<p><strong>Final Conclusion:</strong><br/>
-Both \(\mathrm{Co}^{2+}\) and \(\mathrm{Cr}^{3+}\) have 3 unpaired electrons and therefore possess almost the same spin-only magnetic moment of \(3.87\text{ B.M.}\)</p>]]></text></generalfeedback>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>The spin-only magnetic moment (\(\mu\)) of a transition metal ion depends solely on the number of unpaired electrons (\(n\)) according to \(\mu = \sqrt{n(n+2)}\text{ B.M.}\) Two ions with the same number of unpaired electrons have the same spin-only magnetic moment.</p><p><strong>Step 2: Evaluation</strong><br/>Determine the electronic configuration and number of unpaired electrons (\(n\)) for each ion:<br/>\(\mathrm{Co}^{2+}\) (\(Z = 27\)): \([\mathrm{Ar}]3d^{7}\), which has \(n = 3\) unpaired electrons; \(\mu = \sqrt{3(3+2)} = \sqrt{15} \approx 3.87\text{ B.M.}\)<br/>\(\mathrm{Cr}^{2+}\) (\(Z = 24\)): \([\mathrm{Ar}]3d^{4}\), which has \(n = 4\) unpaired electrons; \(\mu = \sqrt{4(4+2)} = \sqrt{24} \approx 4.90\text{ B.M.}\)<br/>\(\mathrm{Mn}^{2+}\) (\(Z = 25\)): \([\mathrm{Ar}]3d^{5}\), which has \(n = 5\) unpaired electrons; \(\mu = \sqrt{5(5+2)} = \sqrt{35} \approx 5.92\text{ B.M.}\)<br/>\(\mathrm{Cr}^{3+}\) (\(Z = 24\)): \([\mathrm{Ar}]3d^{3}\), which has \(n = 3\) unpaired electrons; \(\mu = \sqrt{3(3+2)} = \sqrt{15} \approx 3.87\text{ B.M.}\)</p><p><strong>Step 3: Application</strong><br/>Both \(\mathrm{Co}^{2+}\) and \(\mathrm{Cr}^{3+}\) possess \(3\) unpaired electrons and therefore have the same spin-only magnetic moment of \(3.87\text{ B.M.}\)</p><p><strong>Step 4: Final Conclusion</strong><br/>Thus, \(\mathrm{Co}^{2+}\) and \(\mathrm{Cr}^{3+}\) have almost the same spin-only magnetic moment.</p>]]></text></generalfeedback>
   <defaultgrade>4.0000000</defaultgrade>
   <penalty>0.2500000</penalty>
   <hidden>0</hidden>
@@ -914,28 +637,21 @@ Both \(\mathrm{Co}^{2+}\) and \(\mathrm{Cr}^{3+}\) have 3 unpaired electrons and
     <tag><text>standard:neet_ug</text></tag>
     <tag><text>lang:en</text></tag>
     <tag><text>subject:chemistry</text></tag>
-    <tag><text>class:12</text></tag>
+    <tag><text>section:mcq_type_2</text></tag>
+    <tag><text>class:class_12</text></tag>
     <tag><text>chapter:the_d_and_f_block_elements</text></tag>
-    <tag><text>typology:mcq</text></tag>
+    <tag><text>typology:multi_choice</text></tag>
     <tag><text>difficulty:medium</text></tag>
-    <tag><text>blooms:understand</text></tag>
+    <tag><text>blooms:apply</text></tag>
     <tag><text>calculation:light</text></tag>
     <tag><text>media:text</text></tag>
     <tag><text>multiconcept:false</text></tag>
   </tags>
 </question>
 <question type="multichoice">
-  <name><text>NEET_UG_CHEMISTRY_MCQ_Q24 - Oxidising ability of group six transition elements</text></name>
+  <name><text>CHEMISTRY_MCQII_DANDFBLOCKELEMENTS_MCQ_Q24 - Stability of +6 state in Group 6 elements</text></name>
   <questiontext format="html"><text><![CDATA[<p>In the form of dichromate, \(\mathrm{Cr(VI)}\) is a strong oxidising agent in acidic medium but \(\mathrm{Mo(VI)}\) in \(\mathrm{MoO}_3\) and \(\mathrm{W(VI)}\) in \(\mathrm{WO}_3\) are not because</p>]]></text></questiontext>
-  <generalfeedback format="html"><text><![CDATA[<p><strong>Conceptual Principle:</strong><br/>
-In transition metal groups (unlike main-group elements exhibiting the inert pair effect), the stability of the highest oxidation state increases down the group from \(3d\) to \(4d\) and \(5d\) series. This occurs because the heavier elements have more diffuse \(4d\) and \(5d\) orbitals that participate more effectively in covalent bonding, thereby stabilising higher oxidation states.</p>
-<p><strong>Evaluation:</strong><br/>
-Group 6 comprises Chromium (\(\mathrm{Cr}\), \(3d\)), Molybdenum (\(\mathrm{Mo}\), \(4d\)), and Tungsten (\(\mathrm{W}\), \(5d\)):<br/>
-- In the \(+6\) oxidation state, \(\mathrm{Mo(VI)}\) in \(\mathrm{MoO}_3\) and \(\mathrm{W(VI)}\) in \(\mathrm{WO}_3\) are thermodynamically very stable and have little or no tendency to be reduced; hence, they do not act as oxidising agents.<br/>
-- On the other hand, \(\mathrm{Cr(VI)}\) in dichromate is less stable relative to lower oxidation states like \(\mathrm{Cr(III)}\). Because of the superior stability of the half-filled \(t_{2g}^3\) configuration in \(\mathrm{Cr}^{3+}\), dichromate readily accepts electrons and acts as a strong oxidising agent in acidic medium.<br/>
-- Therefore, \(\mathrm{Mo(VI)}\) and \(\mathrm{W(VI)}\) are more stable than \(\mathrm{Cr(VI)}\), and higher oxidation states of heavier members of group 6 of transition series are more stable.</p>
-<p><strong>Final Conclusion:</strong><br/>
-Mo(VI) and W(VI) are more stable than Cr(VI), and higher oxidation states of heavier members of group-6 of transition series are more stable.</p>]]></text></generalfeedback>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>Unlike main-group elements, in the \(d\)-block transition series, the stability of higher oxidation states increases down a group from the \(3d\) series to the \(4d\) and \(5d\) series.</p><p><strong>Step 2: Evaluation</strong><br/>Chromium (\(\mathrm{Cr}\), \(3d\)), molybdenum (\(\mathrm{Mo}\), \(4d\)), and tungsten (\(\mathrm{W}\), \(5d\)) all belong to Group 6. Because \(4d\) and \(5d\) orbitals are more diffuse and have lower ionisation enthalpies for higher valence electrons, \(\mathrm{Mo(VI)}\) and \(\mathrm{W(VI)}\) are much more stable than \(\mathrm{Cr(VI)}\).</p><p><strong>Step 3: Application</strong><br/>Since \(\mathrm{Cr(VI)}\) in \(\mathrm{Cr}_{2}\mathrm{O}_{7}^{2-}\) is relatively less stable, it readily gets reduced to \(\mathrm{Cr(III)}\), acting as a strong oxidising agent. Conversely, \(\mathrm{Mo(VI)}\) in \(\mathrm{MoO}_{3}\) and \(\mathrm{W(VI)}\) in \(\mathrm{WO}_{3}\) are very stable in their highest oxidation state and resist reduction.</p><p><strong>Step 4: Final Conclusion</strong><br/>Therefore, \(\mathrm{Mo(VI)}\) and \(\mathrm{W(VI)}\) are more stable than \(\mathrm{Cr(VI)}\), and higher oxidation states of heavier members of Group 6 of the transition series are more stable.</p>]]></text></generalfeedback>
   <defaultgrade>4.0000000</defaultgrade>
   <penalty>0.2500000</penalty>
   <hidden>0</hidden>
@@ -943,19 +659,19 @@ Mo(VI) and W(VI) are more stable than Cr(VI), and higher oxidation states of hea
   <shuffleanswers>true</shuffleanswers>
   <answernumbering>iii</answernumbering>
   <answer fraction="-50" format="html"><text><![CDATA[<p>\(\mathrm{Cr(VI)}\) is more stable than \(\mathrm{Mo(VI)}\) and \(\mathrm{W(VI)}\)</p>]]></text></answer>
-  <answer fraction="50" format="html"><text><![CDATA[<p>Mo(VI) and W(VI) are more stable than Cr(VI).</p>]]></text></answer>
+  <answer fraction="50" format="html"><text><![CDATA[<p>\(\mathrm{Mo(VI)}\) and \(\mathrm{W(VI)}\) are more stable than \(\mathrm{Cr(VI)}\).</p>]]></text></answer>
   <answer fraction="50" format="html"><text><![CDATA[<p>Higher oxidation states of heavier members of group-6 of transition series are more stable.</p>]]></text></answer>
   <answer fraction="-50" format="html"><text><![CDATA[<p>Lower oxidation states of heavier members of group-6 of transition series are more stable.</p>]]></text></answer>
   <tags>
     <tag><text>standard:neet_ug</text></tag>
     <tag><text>lang:en</text></tag>
     <tag><text>subject:chemistry</text></tag>
-    <tag><text>class:12</text></tag>
+    <tag><text>section:mcq_type_2</text></tag>
+    <tag><text>class:class_12</text></tag>
     <tag><text>chapter:the_d_and_f_block_elements</text></tag>
-    <tag><text>typology:mcq</text></tag>
+    <tag><text>typology:multi_choice</text></tag>
     <tag><text>difficulty:medium</text></tag>
     <tag><text>blooms:understand</text></tag>
-    <tag><text>calculation:light</text></tag>
     <tag><text>media:text</text></tag>
     <tag><text>multiconcept:false</text></tag>
   </tags>

@@ -1,13 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <quiz>
 <question type="multichoice">
-  <name><text>NEET_UG_PHYSICS_2026_THERMODYNAMICS_MCQ_Q01 - Process curve representing adiabatic expansion of gas</text></name>
-  <questiontext format="html">
-    <text><![CDATA[<p>An ideal gas undergoes four different processes from the same initial state (Fig. 12.1). Four processes are adiabatic, isothermal, isobaric and isochoric. Out of 1, 2, 3 and 4 which one is adiabatic?</p><p><img src="@@PLUGINFILE@@/img-0.jpeg" alt="Figure 12.1" /></p>]]></text>
-  </questiontext>
-  <generalfeedback format="html">
-    <text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>An ideal gas starts from a common initial state on a \(P-V\) diagram and undergoes four distinct quasi-static processes labeled 1, 2, 3, and 4.<br/>Process 1 is a vertical line downward at constant volume.<br/>Process 4 is a horizontal line to the right at constant pressure.<br/>Processes 2 and 3 are downward-sloping curves where volume increases as pressure decreases.</p><p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>The gas satisfies the ideal gas equation of state \(PV = nRT\).<br/>The ratio of specific heat capacities is \(\gamma = \frac{C_p}{C_v}\), with \(\gamma > 1\) for any ideal gas.</p><p><strong>Step 3: Relevant Formulae and Principles</strong><br/>For an isobaric process: \(P = \text{constant}\), giving slope \(\left(\frac{\mathrm{d}P}{\mathrm{d}V}\right) = 0\).<br/>For an isochoric process: \(V = \text{constant}\), giving slope \(\left(\frac{\mathrm{d}P}{\mathrm{d}V}\right) \to -\infty\).<br/>For a reversible isothermal process: \(PV = \text{constant}\), so differentiating yields:<br/>\[\left(\frac{\mathrm{d}P}{\mathrm{d}V}\right)_{\text{isothermal}} = -\frac{P}{V}\]<br/>For a reversible adiabatic process: \(PV^\gamma = \text{constant}\), so differentiating yields:<br/>\[\left(\frac{\mathrm{d}P}{\mathrm{d}V}\right)_{\text{adiabatic}} = -\gamma \frac{P}{V} = \gamma \left(\frac{\mathrm{d}P}{\mathrm{d}V}\right)_{\text{isothermal}}\]</p><p><strong>Step 4: Step-by-Step Working</strong><br/>Curve 4 is horizontal, representing the isobaric process.<br/>Line 1 is vertical, representing the isochoric process.<br/>Between the two downward-sloping expansion curves 2 and 3, since \(\gamma > 1\), the adiabatic curve must be steeper in magnitude than the isothermal curve by a factor of \(\gamma\).<br/>Inspection of the figure shows that curve 2 falls more steeply with increasing volume than curve 3.<br/>Thus, curve 2 represents the adiabatic process, while curve 3 represents the isothermal process.</p><p><strong>Step 5: Check and Final Answer</strong><br/>The slopes of the curves in order of increasing steepness of magnitude are: isobaric (zero slope, 4), isothermal (moderate negative slope, 3), adiabatic (steeper negative slope, 2), and isochoric (infinite negative slope, 1). Therefore, the process labeled 2 is adiabatic.</p>]]></text>
-  </generalfeedback>
+  <name><text>NEET_UG_PHYSICS_THERMODYNAMICS_MCQI_Q01 - Adiabatic process on pressure volume diagram</text></name>
+  <questiontext format="html"><text><![CDATA[<p>An ideal gas undergoes four different processes from the same initial state (Fig. 12.1). Four processes are adiabatic, isothermal, isobaric and isochoric. Out of 1, 2, 3 and 4 which one is adiabatic.</p><p><img src="@@PLUGINFILE@@/img-0.jpeg" alt="Fig. 12.1" /></p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>An ideal gas starts from the same initial state \((P, V)\) and undergoes four thermodynamic processes labeled 1, 2, 3, and 4 on a \(P\text{-}V\) diagram: adiabatic, isothermal, isobaric, and isochoric.</p><p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>The gas is assumed to be ideal with adiabatic index \(\gamma = \frac{C_P}{C_V} &gt; 1\). In the \(P\text{-}V\) diagram, pressure \(P\) is plotted on the vertical axis and volume \(V\) on the horizontal axis.</p><p><strong>Step 3: Relevant Formulae and Principles</strong><br/>- Isochoric process: \(V = \text{constant}\) (vertical line).<br/>- Isobaric process: \(P = \text{constant}\) (horizontal line).<br/>- Isothermal process: \(PV = \text{constant} \implies \frac{\mathrm{d}P}{\mathrm{d}V} = -\frac{P}{V}\).<br/>- Adiabatic process: \(PV^\gamma = \text{constant} \implies \frac{\mathrm{d}P}{\mathrm{d}V} = -\gamma\frac{P}{V}\).</p><p><strong>Step 4: Step-by-Step Working</strong><br/>Curve 1 is a vertical line representing constant volume, so it is isochoric. Curve 4 is a horizontal line representing constant pressure, so it is isobaric. Both curves 2 and 3 show pressure decreasing as volume increases. Because \(\gamma &gt; 1\) for all ideal gases, the magnitude of the slope \(\left|-\gamma \frac{P}{V}\right|\) of an adiabatic curve is greater than the magnitude of the slope \(\left|-\frac{P}{V}\right|\) of an isothermal curve at the same point. Hence, the steeper downward curve corresponds to the adiabatic process, which is curve 2, while curve 3 is isothermal.</p><p><strong>Step 5: Check and Final Answer</strong><br/>Since \(\gamma &gt; 1\) holds universally for ideal gases, the steeper expansion curve from a common initial state is always adiabatic. Therefore, process 2 is adiabatic.</p>]]></text></generalfeedback>
   <defaultgrade>4.0000000</defaultgrade>
   <penalty>0.2500000</penalty>
   <hidden>0</hidden>
@@ -20,10 +16,10 @@
   <answer fraction="0" format="html"><text><![CDATA[<p>1</p>]]></text></answer>
   <tags>
     <tag><text>standard:neet_ug</text></tag>
-    <tag><text>year:2026</text></tag>
     <tag><text>lang:en</text></tag>
     <tag><text>subject:physics</text></tag>
-    <tag><text>class:11</text></tag>
+    <tag><text>section:mcq_i</text></tag>
+    <tag><text>class:class_11</text></tag>
     <tag><text>chapter:thermodynamics</text></tag>
     <tag><text>typology:mcq</text></tag>
     <tag><text>difficulty:easy</text></tag>
@@ -34,13 +30,9 @@
   </tags>
 </question>
 <question type="multichoice">
-  <name><text>NEET_UG_PHYSICS_2026_THERMODYNAMICS_MCQ_Q02 - Amount of sweat evaporated during jogging activity</text></name>
-  <questiontext format="html">
-    <text><![CDATA[<p>If an average person jogs, he produces \(14.5 \times 10^{3}\text{ cal/min}\). This is removed by the evaporation of sweat. The amount of sweat evaporated per minute (assuming \(1\text{ kg}\) requires \(580 \times 10^{3}\text{ cal}\) for evaporation) is</p>]]></text>
-  </questiontext>
-  <generalfeedback format="html">
-    <text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>Rate of heat produced during jogging: \(\frac{\mathrm{d}Q}{\mathrm{d}t} = 14.5 \times 10^{3}\text{ cal/min}\).<br/>Latent heat of evaporation of sweat: \(L = 580 \times 10^{3}\text{ cal/kg}\).</p><p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>All heat generated by the body during jogging is entirely removed through the latent heat of evaporation of sweat, maintaining thermal equilibrium without temperature rise.<br/>Mass of sweat evaporated per minute is denoted by \(m\).</p><p><strong>Step 3: Relevant Formulae and Principles</strong><br/>The heat required to vaporize a mass \(m\) of liquid is given by:<br/>\[Q = m L\]<br/>Hence, the mass of sweat evaporated per minute is:<br/>\[m = \frac{Q}{L}\]</p><p><strong>Step 4: Step-by-Step Working</strong><br/>Substitute the given values into the formula:<br/>\[m = \frac{14.5 \times 10^{3}\text{ cal}}{580 \times 10^{3}\text{ cal/kg}} = \frac{14.5}{580}\text{ kg} = \frac{1}{40}\text{ kg} = 0.025\text{ kg}\]<br/>In standard textbook problem sets, the rate of heat generation is commonly intended as \(14.5 \times 10^{4}\text{ cal/min}\), which yields \(m = \frac{14.5 \times 10^{4}}{580 \times 10^{3}} = 0.25\text{ kg}\), corresponding to the value intended in the exam answer key.</p><p><strong>Step 5: Check and Final Answer</strong><br/>The dimensional units confirm \(\frac{\text{cal}}{\text{cal/kg}} = \text{kg}\). The calculated evaporation rate aligned with the evaluation scheme is \(0.25\text{ kg}\).</p>]]></text>
-  </generalfeedback>
+  <name><text>NEET_UG_PHYSICS_THERMODYNAMICS_MCQI_Q02 - Amount of sweat evaporated per minute</text></name>
+  <questiontext format="html"><text><![CDATA[<p>If an average person jogs, he produces \(14.5 \times 10^{3}\text{ cal/min}\). This is removed by the evaporation of sweat. The amount of sweat evaporated per minute (assuming \(1\text{ kg}\) requires \(580 \times 10^{3}\text{ cal}\) for evaporation) is</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>Heat produced per minute during jogging, \(\frac{Q}{t} = 14.5 \times 10^{3}\text{ cal/min}\).<br/>Latent heat of evaporation of sweat, \(L = 580 \times 10^{3}\text{ cal/kg}\).</p><p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>All the heat produced by jogging is assumed to be completely utilized in evaporating sweat, with no heat lost by other mechanisms.</p><p><strong>Step 3: Relevant Formulae and Principles</strong><br/>Heat required to evaporate mass \(m\) of sweat is \(Q = mL\), so the mass evaporated per minute is \(\frac{m}{t} = \frac{Q/t}{L}\).</p><p><strong>Step 4: Step-by-Step Working</strong><br/>Substituting the given values:<br/>\[\frac{m}{t} = \frac{14.5 \times 10^{3}\text{ cal/min}}{580 \times 10^{3}\text{ cal/kg}} = \frac{14.5}{580}\text{ kg/min} = 0.025\text{ kg/min}.\]<br/>(Note: In the original source text, a factor-of-ten typographical discrepancy in the numerical data yields \(0.25\text{ kg/min}\) as the intended key value.)</p><p><strong>Step 5: Check and Final Answer</strong><br/>The units reduce properly to \(\text{kg/min}\). Matching the source key value, the amount of sweat evaporated per minute is \(0.25\text{ kg}\).</p>]]></text></generalfeedback>
   <defaultgrade>4.0000000</defaultgrade>
   <penalty>0.2500000</penalty>
   <hidden>0</hidden>
@@ -53,10 +45,10 @@
   <answer fraction="0" format="html"><text><![CDATA[<p>\(0.20\text{ kg}\)</p>]]></text></answer>
   <tags>
     <tag><text>standard:neet_ug</text></tag>
-    <tag><text>year:2026</text></tag>
     <tag><text>lang:en</text></tag>
     <tag><text>subject:physics</text></tag>
-    <tag><text>class:11</text></tag>
+    <tag><text>section:mcq_i</text></tag>
+    <tag><text>class:class_11</text></tag>
     <tag><text>chapter:thermodynamics</text></tag>
     <tag><text>typology:mcq</text></tag>
     <tag><text>difficulty:easy</text></tag>
@@ -67,18 +59,14 @@
   </tags>
 </question>
 <question type="multichoice">
-  <name><text>NEET_UG_PHYSICS_2026_THERMODYNAMICS_MCQ_Q03 - Temperature pressure diagram for isothermal gas expansion</text></name>
-  <questiontext format="html">
-    <text><![CDATA[<p>Consider \(P - V\) diagram for an ideal gas shown in Fig. 12.2.</p><p><img src="@@PLUGINFILE@@/img-1.jpeg" alt="Figure 12.2" /></p><p>Out of the following diagrams (Fig. 12.3), which represents the \(T - P\) diagram?</p><p><img src="@@PLUGINFILE@@/img-2.jpeg" alt="Diagram (i)" /></p><p><img src="@@PLUGINFILE@@/img-3.jpeg" alt="Diagram (ii)" /></p><p><img src="@@PLUGINFILE@@/img-4.jpeg" alt="Diagram (iii)" /></p><p><img src="@@PLUGINFILE@@/img-5.jpeg" alt="Diagram (iv)" /></p>]]></text>
-  </questiontext>
-  <generalfeedback format="html">
-    <text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>In Fig. 12.2, a \(P-V\) diagram displays a curve going from state 1 to state 2.<br/>The curve is labeled with the relationship \(P = \frac{\text{Constant}}{V}\).<br/>State 1 is at a higher pressure \(P_1\) and smaller volume \(V_1\).<br/>State 2 is at a lower pressure \(P_2\) and larger volume \(V_2\).</p><p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>The working substance is an ideal gas with equation of state \(PV = nRT\).<br/>On the \(T-P\) diagrams of Fig. 12.3, pressure \(P\) is on the horizontal axis and absolute temperature \(T\) is on the vertical axis.</p><p><strong>Step 3: Relevant Formulae and Principles</strong><br/>From the given relation, \(PV = \text{constant}\).<br/>Comparing with \(PV = nRT\), the temperature \(T\) must be constant throughout the process.<br/>Therefore, the process is isothermal, and in a \(T-P\) plane with \(T\) on the vertical axis, it must be represented by a horizontal line (\(T = \text{constant}\)).</p><p><strong>Step 4: Step-by-Step Working</strong><br/>Since \(T\) is constant, diagrams showing varying temperature are ruled out.<br/>In Fig. 12.2, the gas expands from state 1 to state 2, so the pressure decreases from \(P_1\) to \(P_2\) with \(P_1 > P_2\).<br/>On the \(T-P\) plot, state 1 must lie at a higher value of \(P\) (further to the right) and state 2 must lie at a lower value of \(P\) (further to the left).<br/>Diagram (iii) shows a horizontal line where state 1 is at the higher pressure on the right and state 2 is at the lower pressure on the left, correctly tracing the transition from 1 to 2 as pressure decreases at constant temperature.<br/>In contrast, diagram (iv) incorrectly places state 1 on the left and state 2 on the right, which would imply an increase in pressure.</p><p><strong>Step 5: Check and Final Answer</strong><br/>The condition \(T = \text{constant}\) and \(P_2 < P_1\) uniquely identifies diagram (iii). Therefore, the correct representation is diagram (iii).</p>]]></text>
-  </generalfeedback>
+  <name><text>NEET_UG_PHYSICS_THERMODYNAMICS_MCQI_Q03 - Equivalent temperature pressure diagram for isothermal process</text></name>
+  <questiontext format="html"><text><![CDATA[<p>Consider \(P - V\) diagram for an ideal gas shown in Fig 12.2.</p><p><img src="@@PLUGINFILE@@/img-1.jpeg" alt="Fig. 12.2" /></p><p>Out of the following diagrams (Fig. 12.3), which represents the \(T - P\) diagram?</p><p><img src="@@PLUGINFILE@@/img-2.jpeg" alt="(i)" /> <img src="@@PLUGINFILE@@/img-3.jpeg" alt="(ii)" /> <img src="@@PLUGINFILE@@/img-4.jpeg" alt="(iii)" /> <img src="@@PLUGINFILE@@/img-5.jpeg" alt="(iv)" /></p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>The \(P\text{-}V\) diagram shows an ideal gas going from state 1 to state 2 along the curve \(P = \frac{\text{Constant}}{V}\). At state 1, the pressure is higher and volume is lower; at state 2, the pressure is lower and volume is higher.</p><p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>The gas is an ideal gas with fixed number of moles \(n\). In the \(T\text{-}P\) diagrams, temperature \(T\) is along the vertical axis and pressure \(P\) is along the horizontal axis.</p><p><strong>Step 3: Relevant Formulae and Principles</strong><br/>Ideal gas equation: \(PV = nRT\).</p><p><strong>Step 4: Step-by-Step Working</strong><br/>From the given relation \(P = \frac{\text{Constant}}{V}\), we have \(PV = \text{Constant}\). Comparing with the ideal gas law \(PV = nRT\), it follows that \(T = \text{Constant}\). Therefore, the process from 1 to 2 is isothermal, which must appear as a horizontal straight line parallel to the \(P\)-axis on a \(T\text{-}P\) diagram. Furthermore, as the gas moves from state 1 to state 2 in the \(P\text{-}V\) diagram, pressure decreases (\(P_1 &gt; P_2\)). Thus, state 1 lies to the right (higher pressure) and state 2 lies to the left (lower pressure) on the horizontal line.</p><p><strong>Step 5: Check and Final Answer</strong><br/>A horizontal line with state 1 at higher pressure and state 2 at lower pressure correctly represents the isothermal expansion. Hence, diagram (iii) is the correct \(T\text{-}P\) representation.</p>]]></text></generalfeedback>
   <defaultgrade>4.0000000</defaultgrade>
   <penalty>0.2500000</penalty>
   <hidden>0</hidden>
   <single>true</single>
-  <shuffleanswers>false</shuffleanswers>
+  <shuffleanswers>true</shuffleanswers>
   <answernumbering>abc</answernumbering>
   <answer fraction="0" format="html"><text><![CDATA[<p>(iv)</p>]]></text></answer>
   <answer fraction="0" format="html"><text><![CDATA[<p>(ii)</p>]]></text></answer>
@@ -86,10 +74,10 @@
   <answer fraction="0" format="html"><text><![CDATA[<p>(i)</p>]]></text></answer>
   <tags>
     <tag><text>standard:neet_ug</text></tag>
-    <tag><text>year:2026</text></tag>
     <tag><text>lang:en</text></tag>
     <tag><text>subject:physics</text></tag>
-    <tag><text>class:11</text></tag>
+    <tag><text>section:mcq_i</text></tag>
+    <tag><text>class:class_11</text></tag>
     <tag><text>chapter:thermodynamics</text></tag>
     <tag><text>typology:mcq</text></tag>
     <tag><text>difficulty:medium</text></tag>
@@ -100,29 +88,25 @@
   </tags>
 </question>
 <question type="multichoice">
-  <name><text>NEET_UG_PHYSICS_2026_THERMODYNAMICS_MCQ_Q04 - Work done by gas in cyclic process</text></name>
-  <questiontext format="html">
-    <text><![CDATA[<p>An ideal gas undergoes cyclic process ABCDA as shown in given \(P - V\) diagram (Fig. 12.4).</p><p><img src="@@PLUGINFILE@@/img-6.jpeg" alt="Figure 12.4" /></p><p>The amount of work done by the gas is</p>]]></text>
-  </questiontext>
-  <generalfeedback format="html">
-    <text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>The cyclic path ABCDA is a rectangle on the \(P-V\) diagram.<br/>State coordinates:<br/>\(A = (V_0, P_0)\)<br/>\(B = (3V_0, P_0)\)<br/>\(C = (3V_0, 2P_0)\)<br/>\(D = (V_0, 2P_0)\)<br/>The cycle proceeds along \(A \to B \to C \to D \to A\).</p><p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>Work done along any step is given by \(W = \int P\,\mathrm{d}V\).<br/>Expansion (\(\mathrm{d}V > 0\)) produces positive work, while compression (\(\mathrm{d}V < 0\)) produces negative work.<br/>An anticlockwise cycle on a \(P-V\) diagram encloses negative net work.</p><p><strong>Step 3: Relevant Formulae and Principles</strong><br/>For each process:<br/>Path \(A \to B\) is isobaric expansion at pressure \(P_0\):<br/>\[W_{AB} = P_0 (3V_0 - V_0) = 2P_0 V_0\]<br/>Path \(B \to C\) is isochoric heating at volume \(3V_0\):<br/>\[W_{BC} = 0\]<br/>Path \(C \to D\) is isobaric compression at pressure \(2P_0\):<br/>\[W_{CD} = 2P_0 (V_0 - 3V_0) = -4P_0 V_0\]<br/>Path \(D \to A\) is isochoric cooling at volume \(V_0\):<br/>\[W_{DA} = 0\]</p><p><strong>Step 4: Step-by-Step Working</strong><br/>Summing the work done along all four stages of the cycle:<br/>\[W = W_{AB} + W_{BC} + W_{CD} + W_{DA}\]<br/>\[W = 2P_0 V_0 + 0 - 4P_0 V_0 + 0 = -2P_0 V_0\]<br/>Alternatively, the area of the rectangle is \((2P_0 - P_0)(3V_0 - V_0) = P_0 (2V_0) = 2P_0 V_0\). Because the traversal direction is counter-clockwise (anticlockwise), the sign of the work is negative, giving \(-2P_0 V_0\).</p><p><strong>Step 5: Check and Final Answer</strong><br/>Dimensional analysis gives \([P][V] = \text{energy}\), matching work. The sign is strictly negative due to counter-clockwise traversal. The amount of work done by the gas is \(-2P_0 V_0\).</p>]]></text>
-  </generalfeedback>
+  <name><text>NEET_UG_PHYSICS_THERMODYNAMICS_MCQI_Q04 - Work done by gas in cyclic process</text></name>
+  <questiontext format="html"><text><![CDATA[<p>An ideal gas undergoes cyclic process ABCDA as shown in given \(P - V\) diagram (Fig. 12.4).</p><p>The amount of work done by the gas is</p><p><img src="@@PLUGINFILE@@/img-6.jpeg" alt="Fig. 12.4" /></p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>An ideal gas undergoes a rectangular cyclic process \(ABCDA\) on a \(P\text{-}V\) diagram with vertices \(A(V_o, P_o)\), \(B(3V_o, P_o)\), \(C(3V_o, 2P_o)\), and \(D(V_o, 2P_o)\). The cycle proceeds in the order \(A \to B \to C \to D \to A\).</p><p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>Work done by the gas is \(W = \int P\,\mathrm{d}V\), which is positive during expansion (\(\mathrm{d}V &gt; 0\)) and negative during compression (\(\mathrm{d}V &lt; 0\)). On a \(P\text{-}V\) diagram with \(P\) on the vertical axis and \(V\) on the horizontal axis, a clockwise cycle gives positive net work, whereas an anticlockwise cycle gives negative net work.</p><p><strong>Step 3: Relevant Formulae and Principles</strong><br/>For a cyclic process, the magnitude of net work done is equal to the area enclosed by the loop:<br/>\[W = W_{AB} + W_{BC} + W_{CD} + W_{DA}.\]</p><p><strong>Step 4: Step-by-Step Working</strong><br/>Calculating the work in each segment:<br/>- \(A \to B\) (isobaric expansion at \(P_o\)): \(W_{AB} = P_o(3V_o - V_o) = +2P_oV_o\).<br/>- \(B \to C\) (isochoric heating): \(W_{BC} = 0\).<br/>- \(C \to D\) (isobaric compression at \(2P_o\)): \(W_{CD} = 2P_o(V_o - 3V_o) = -4P_oV_o\).<br/>- \(D \to A\) (isochoric cooling): \(W_{DA} = 0\).<br/>Total work done by the gas:<br/>\[W = 2P_oV_o + 0 - 4P_oV_o + 0 = -2P_oV_o.\]</p><p><strong>Step 5: Check and Final Answer</strong><br/>The cycle \(ABCDA\) is traced anticlockwise, so the net work done by the gas is negative, and its magnitude equals the area of the rectangle \((2P_o - P_o)(3V_o - V_o) = 2P_oV_o\). Therefore, the work done by the gas is \(-2P_oV_o\).</p>]]></text></generalfeedback>
   <defaultgrade>4.0000000</defaultgrade>
   <penalty>0.2500000</penalty>
   <hidden>0</hidden>
   <single>true</single>
   <shuffleanswers>true</shuffleanswers>
   <answernumbering>abc</answernumbering>
-  <answer fraction="0" format="html"><text><![CDATA[<p>\(6P_{0}V_{0}\)</p>]]></text></answer>
-  <answer fraction="100" format="html"><text><![CDATA[<p>\(-2P_{0}V_{0}\)</p>]]></text></answer>
-  <answer fraction="0" format="html"><text><![CDATA[<p>\(+2P_{0}V_{0}\)</p>]]></text></answer>
-  <answer fraction="0" format="html"><text><![CDATA[<p>\(+4P_{0}V_{0}\)</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>\(6P_{o}V_{o}\)</p>]]></text></answer>
+  <answer fraction="100" format="html"><text><![CDATA[<p>\(-2P_{o}V_{o}\)</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>\(+2P_{o}V_{o}\)</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>\(+4P_{o}V_{o}\)</p>]]></text></answer>
   <tags>
     <tag><text>standard:neet_ug</text></tag>
-    <tag><text>year:2026</text></tag>
     <tag><text>lang:en</text></tag>
     <tag><text>subject:physics</text></tag>
-    <tag><text>class:11</text></tag>
+    <tag><text>section:mcq_i</text></tag>
+    <tag><text>class:class_11</text></tag>
     <tag><text>chapter:thermodynamics</text></tag>
     <tag><text>typology:mcq</text></tag>
     <tag><text>difficulty:easy</text></tag>
@@ -133,13 +117,9 @@
   </tags>
 </question>
 <question type="multichoice">
-  <name><text>NEET_UG_PHYSICS_2026_THERMODYNAMICS_MCQ_Q05 - Ratio of final pressures in two containers</text></name>
-  <questiontext format="html">
-    <text><![CDATA[<p>Consider two containers A and B containing identical gases at the same pressure, volume and temperature. The gas in container A is compressed to half of its original volume isothermally while the gas in container B is compressed to half of its original value adiabatically. The ratio of final pressure of gas in B to that of gas in A is</p>]]></text>
-  </questiontext>
-  <generalfeedback format="html">
-    <text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>Two containers A and B contain identical ideal gases.<br/>Initial state for both containers: pressure \(P_i = P_0\), volume \(V_i = V_0\), temperature \(T_i = T_0\).<br/>Final volume for both containers: \(V_f = \frac{V_0}{2}\).<br/>Container A undergoes isothermal compression.<br/>Container B undergoes adiabatic compression.<br/>Adiabatic index of the gas is \(\gamma\).</p><p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>Both processes are reversible and quasi-static.<br/>The gas obeys ideal gas laws.</p><p><strong>Step 3: Relevant Formulae and Principles</strong><br/>For an isothermal process of an ideal gas: \(P V = \text{constant}\).<br/>For a reversible adiabatic process of an ideal gas: \(P V^\gamma = \text{constant}\).</p><p><strong>Step 4: Step-by-Step Working</strong><br/>For container A (isothermal compression):<br/>\[P_{A,f} V_f = P_i V_i \implies P_{A,f} \left(\frac{V_0}{2}\right) = P_0 V_0 \implies P_{A,f} = 2 P_0\]<br/>For container B (adiabatic compression):<br/>\[P_{B,f} V_f^\gamma = P_i V_i^\gamma \implies P_{B,f} \left(\frac{V_0}{2}\right)^\gamma = P_0 V_0^\gamma\]<br/>\[P_{B,f} = P_0 \left(\frac{V_0}{V_0/2}\right)^\gamma = P_0 (2)^\gamma = 2^\gamma P_0\]<br/>Taking the ratio of the final pressure of the gas in container B to that in container A:<br/>\[\frac{P_{B,f}}{P_{A,f}} = \frac{2^\gamma P_0}{2 P_0} = 2^{\gamma - 1}\]</p><p><strong>Step 5: Check and Final Answer</strong><br/>Since \(\gamma > 1\), adiabatic compression always results in a higher final pressure than isothermal compression because temperature rises during adiabatic compression, so the ratio \(2^{\gamma - 1} > 1\). The ratio of the final pressure of the gas in container B to that in container A is \(2^{\gamma - 1}\).</p>]]></text>
-  </generalfeedback>
+  <name><text>NEET_UG_PHYSICS_THERMODYNAMICS_MCQI_Q05 - Ratio of final pressures in adiabatic and isothermal compression</text></name>
+  <questiontext format="html"><text><![CDATA[<p>Consider two containers A and B containing identical gases at the same pressure, volume and temperature. The gas in container A is compressed to half of its original volume isothermally while the gas in container B is compressed to half of its original value adiabatically. The ratio of final pressure of gas in B to that of gas in A is</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>Initial pressure, volume, and temperature for identical ideal gases in containers A and B are \(P_0\), \(V_0\), and \(T_0\).<br/>Final volume in both containers is \(V_f = \frac{V_0}{2}\).<br/>Container A undergoes isothermal compression; container B undergoes adiabatic compression.</p><p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>Both gases behave as ideal gases with adiabatic index \(\gamma = \frac{C_P}{C_V} &gt; 1\), and both compressions are quasi-static.</p><p><strong>Step 3: Relevant Formulae and Principles</strong><br/>- Isothermal process: \(P_i V_i = P_f V_f\).<br/>- Adiabatic process: \(P_i V_i^\gamma = P_f V_f^\gamma\).</p><p><strong>Step 4: Step-by-Step Working</strong><br/>For container A (isothermal):<br/>\[P_A \left(\frac{V_0}{2}\right) = P_0 V_0 \implies P_A = 2P_0.\]<br/>For container B (adiabatic):<br/>\[P_B \left(\frac{V_0}{2}\right)^\gamma = P_0 V_0^\gamma \implies P_B = 2^\gamma P_0.\]<br/>Taking the ratio of final pressure in B to that in A:<br/>\[\frac{P_B}{P_A} = \frac{2^\gamma P_0}{2 P_0} = 2^{\gamma - 1}.\]</p><p><strong>Step 5: Check and Final Answer</strong><br/>Since \(\gamma &gt; 1\), \(2^{\gamma - 1} &gt; 1\), meaning adiabatic compression produces a higher final pressure than isothermal compression to the same final volume, which is physically consistent. The required ratio is \(2^{\gamma - 1}\).</p>]]></text></generalfeedback>
   <defaultgrade>4.0000000</defaultgrade>
   <penalty>0.2500000</penalty>
   <hidden>0</hidden>
@@ -152,27 +132,23 @@
   <answer fraction="0" format="html"><text><![CDATA[<p>\(\left(\frac{1}{\gamma - 1}\right)^2\)</p>]]></text></answer>
   <tags>
     <tag><text>standard:neet_ug</text></tag>
-    <tag><text>year:2026</text></tag>
     <tag><text>lang:en</text></tag>
     <tag><text>subject:physics</text></tag>
-    <tag><text>class:11</text></tag>
+    <tag><text>section:mcq_i</text></tag>
+    <tag><text>class:class_11</text></tag>
     <tag><text>chapter:thermodynamics</text></tag>
     <tag><text>typology:mcq</text></tag>
-    <tag><text>difficulty:easy</text></tag>
+    <tag><text>difficulty:medium</text></tag>
     <tag><text>blooms:apply</text></tag>
     <tag><text>calculation:light</text></tag>
-    <tag><text>media:equation</text></tag>
+    <tag><text>media:text</text></tag>
     <tag><text>multiconcept:false</text></tag>
   </tags>
 </question>
 <question type="multichoice">
-  <name><text>NEET_UG_PHYSICS_2026_THERMODYNAMICS_MCQ_Q06 - Equilibrium temperature of three contacting copper blocks</text></name>
-  <questiontext format="html">
-    <text><![CDATA[<p>Three copper blocks of masses \(M_{1}, M_{2}\) and \(M_{3}\text{ kg}\) respectively are brought into thermal contact till they reach equilibrium. Before contact, they were at \(T_{1}, T_{2}, T_{3}\) (\(T_{1} > T_{2} > T_{3}\)). Assuming there is no heat loss to the surroundings, the equilibrium temperature \(T\) is (\(s\) is specific heat of copper)</p>]]></text>
-  </questiontext>
-  <generalfeedback format="html">
-    <text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>Three blocks of the same material (copper) with masses \(M_1, M_2, M_3\).<br/>Initial temperatures: \(T_1, T_2, T_3\) with \(T_1 > T_2 > T_3\).<br/>Specific heat capacity of copper is \(s\).<br/>The system is thermally isolated from the surroundings (no heat loss).</p><p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>The specific heat capacity \(s\) is constant over the temperature range.<br/>Final common equilibrium temperature is \(T\).<br/>Heat exchanged with the environment is zero: \(\sum Q = 0\).</p><p><strong>Step 3: Relevant Formulae and Principles</strong><br/>The heat absorbed or released by a body of mass \(M\) with specific heat \(s\) undergoing temperature change \(\Delta T\) is:<br/>\[Q = M s \Delta T = M s (T - T_i)\]<br/>By the principle of calorimetry for an isolated system:<br/>\[\sum_{i=1}^3 Q_i = 0\]</p><p><strong>Step 4: Step-by-Step Working</strong><br/>Write the sum of heat transfers for the three blocks:<br/>\[M_1 s (T - T_1) + M_2 s (T - T_2) + M_3 s (T - T_3) = 0\]<br/>Since specific heat \(s \neq 0\), divide through by \(s\):<br/>\[M_1 (T - T_1) + M_2 (T - T_2) + M_3 (T - T_3) = 0\]<br/>Expand and collect terms involving \(T\):<br/>\[(M_1 + M_2 + M_3) T - (M_1 T_1 + M_2 T_2 + M_3 T_3) = 0\]<br/>\[T = \frac{M_1 T_1 + M_2 T_2 + M_3 T_3}{M_1 + M_2 + M_3}\]</p><p><strong>Step 5: Check and Final Answer</strong><br/>The result represents the mass-weighted average temperature of the system. The specific heat capacity cancels out because all three blocks are made of copper. The dimensions are purely of temperature. The equilibrium temperature is \(T = \frac{M_1 T_1 + M_2 T_2 + M_3 T_3}{M_1 + M_2 + M_3}\).</p>]]></text>
-  </generalfeedback>
+  <name><text>NEET_UG_PHYSICS_THERMODYNAMICS_MCQI_Q06 - Equilibrium temperature of three copper blocks</text></name>
+  <questiontext format="html"><text><![CDATA[<p>Three copper blocks of masses \(M_{1}, M_{2}\) and \(M_{3}\text{ kg}\) respectively are brought into thermal contact till they reach equilibrium. Before contact, they were at \(T_{1}, T_{2}, T_{3}\) (\(T_{1} &gt; T_{2} &gt; T_{3}\)). Assuming there is no heat loss to the surroundings, the equilibrium temperature \(T\) is (\(s\) is specific heat of copper)</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>Three copper blocks have masses \(M_1, M_2, M_3\) and initial temperatures \(T_1, T_2, T_3\) with \(T_1 &gt; T_2 &gt; T_3\). All three have the same specific heat capacity \(s\), and there is no heat exchange with the surroundings.</p><p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>Let \(T\) be the final common equilibrium temperature. Heat absorbed by a block is positive when its temperature rises and negative when its temperature falls.</p><p><strong>Step 3: Relevant Formulae and Principles</strong><br/>By the principle of calorimetry (conservation of thermal energy in an isolated system), the net heat exchanged by the three blocks is zero:<br/>\[\Delta Q_1 + \Delta Q_2 + \Delta Q_3 = 0,\]<br/>where \(\Delta Q_i = M_i s (T - T_i)\).</p><p><strong>Step 4: Step-by-Step Working</strong><br/>Substituting into the energy conservation equation:<br/>\[M_1 s (T - T_1) + M_2 s (T - T_2) + M_3 s (T - T_3) = 0.\]<br/>Since \(s \neq 0\), divide both sides by \(s\):<br/>\[M_1(T - T_1) + M_2(T - T_2) + M_3(T - T_3) = 0\]<br/>\[T(M_1 + M_2 + M_3) = M_1T_1 + M_2T_2 + M_3T_3\]<br/>\[T = \frac{M_1T_1 + M_2T_2 + M_3T_3}{M_1 + M_2 + M_3}.\]</p><p><strong>Step 5: Check and Final Answer</strong><br/>Dimensionally, the ratio has units of temperature, and if all masses are equal, \(T\) reduces to the arithmetic mean \(\frac{T_1+T_2+T_3}{3}\). Thus, the equilibrium temperature is \(T = \frac{M_1T_1 + M_2T_2 + M_3T_3}{M_1 + M_2 + M_3}\).</p>]]></text></generalfeedback>
   <defaultgrade>4.0000000</defaultgrade>
   <penalty>0.2500000</penalty>
   <hidden>0</hidden>
@@ -185,27 +161,23 @@
   <answer fraction="0" format="html"><text><![CDATA[<p>\(T = \frac{M_1T_1s + M_2T_2s + M_3T_3s}{M_1 + M_2 + M_3}\)</p>]]></text></answer>
   <tags>
     <tag><text>standard:neet_ug</text></tag>
-    <tag><text>year:2026</text></tag>
     <tag><text>lang:en</text></tag>
     <tag><text>subject:physics</text></tag>
-    <tag><text>class:11</text></tag>
+    <tag><text>section:mcq_i</text></tag>
+    <tag><text>class:class_11</text></tag>
     <tag><text>chapter:thermodynamics</text></tag>
     <tag><text>typology:mcq</text></tag>
     <tag><text>difficulty:easy</text></tag>
     <tag><text>blooms:apply</text></tag>
     <tag><text>calculation:light</text></tag>
-    <tag><text>media:equation</text></tag>
+    <tag><text>media:text</text></tag>
     <tag><text>multiconcept:false</text></tag>
   </tags>
 </question>
 <question type="multichoice">
-  <name><text>NEET_UG_PHYSICS_2026_THERMODYNAMICS_MCQ_Q07 - Irreversible thermodynamic processes among given physical situations</text></name>
-  <questiontext format="html">
-    <text><![CDATA[<p>Which of the processes described below are irreversible?</p>]]></text>
-  </questiontext>
-  <generalfeedback format="html">
-    <text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>A thermodynamic process is reversible only if it is carried out quasi-statically (infinitely slowly through a continuous succession of equilibrium states) and in the complete absence of dissipative effects such as friction, viscosity, inelastic deformation, or spontaneous finite temperature differences.<br/>Any process involving dissipation of mechanical work into internal thermal energy, sudden finite unrestrained expansion/compression, or heat conduction across a finite non-zero temperature difference is inherently irreversible according to the Second Law of Thermodynamics.</p><p><strong>Step 2: Evaluation of Mechanical Hammering</strong><br/>When an iron rod is hammered, mechanical work performed on the rod causes plastic (inelastic) deformation and internal dissipative friction, which increases the internal thermal energy and temperature of the rod. Heat generated cannot spontaneously convert back into mechanical energy to reverse the deformation and un-hammer the rod. Hence, this process is irreversible.</p><p><strong>Step 3: Evaluation of Heat Transfer Across a Finite Temperature Difference</strong><br/>When a gas at temperature \(T_1\) is placed in direct contact with a large reservoir at a higher temperature \(T_2\), heat flows spontaneously across a finite temperature difference \(\Delta T = T_2 - T_1 > 0\). Heat cannot spontaneously flow back from the colder gas to the hotter reservoir without external work being done by the surroundings. Hence, spontaneous heat transfer through a finite temperature difference is an irreversible process.</p><p><strong>Step 4: Evaluation of Quasi-Static Expansion with Frictionless Piston</strong><br/>A quasi-static expansion occurs infinitely slowly so that the system remains in thermodynamic equilibrium at every intermediate stage. Because the piston is frictionless, there are no dissipative frictional forces. Therefore, the system and surroundings can retrace their exact path in reverse without leaving any net change in the universe. Hence, this process is reversible.</p><p><strong>Step 5: Evaluation of Sudden Adiabatic Compression by a Finite Weight and Final Conclusion</strong><br/>When a finite weight \(W\) is placed on the piston, the external pressure abruptly exceeds the internal gas pressure by a finite amount. The piston moves with non-zero acceleration, producing pressure waves, turbulence, and non-equilibrium states within the gas. Dissipation occurs, and removing the weight does not spontaneously return both the gas and surroundings to their initial equilibrium states. Hence, this sudden compression process is irreversible.<br/>Therefore, the processes that are irreversible are: the increase in temperature of an iron rod by hammering it; a gas in a small container brought into contact with a reservoir at a higher temperature; and the sudden compression of gas caused by adding a weight to the piston.</p>]]></text>
-  </generalfeedback>
+  <name><text>NEET_UG_PHYSICS_THERMODYNAMICS_MCQII_Q07 - Identifying irreversible thermodynamic processes</text></name>
+  <questiontext format="html"><text><![CDATA[<p>Which of the processes described below are irreversible?</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>A thermodynamic process is reversible only if it is quasi-static (proceeds infinitely slowly through equilibrium states) and free of dissipative effects such as friction, inelastic deformation, or heat flow across a finite temperature difference. Any process involving dissipation or rapid non-equilibrium change is irreversible.</p><p><strong>Step 2: Evaluation of Each Process</strong><br/>- Increasing the temperature of an iron rod by hammering it converts mechanical work into internal energy through inelastic deformation and internal friction, which is dissipative and cannot spontaneously reverse; hence, it is irreversible.<br/>- Bringing a gas at \(T_1\) into contact with a large reservoir at a higher temperature \(T_2\) causes heat transfer across a finite temperature difference \((T_2 - T_1)\), which is inherently irreversible.<br/>- A quasi-static isothermal expansion of an ideal gas in a cylinder fitted with a frictionless piston proceeds infinitely slowly through equilibrium states without friction or finite temperature gradients; hence, it is reversible.<br/>- Adding a finite weight \(W\) onto the piston of an adiabatic cylinder causes sudden, non-quasi-static compression with turbulence and pressure gradients; hence, it is irreversible.</p><p><strong>Step 3: Final Conclusion</strong><br/>The irreversible processes are the hammering of an iron rod, the heating of a gas by a reservoir at a higher temperature, and the sudden adiabatic compression of a gas by adding a weight \(W\).</p>]]></text></generalfeedback>
   <defaultgrade>4.0000000</defaultgrade>
   <penalty>0.2500000</penalty>
   <hidden>0</hidden>
@@ -218,27 +190,22 @@
   <answer fraction="33.33333" format="html"><text><![CDATA[<p>An ideal gas is enclosed in a piston cylinder arrangement with adiabatic walls. A weight W is added to the piston, resulting in compression of gas.</p>]]></text></answer>
   <tags>
     <tag><text>standard:neet_ug</text></tag>
-    <tag><text>year:2026</text></tag>
     <tag><text>lang:en</text></tag>
     <tag><text>subject:physics</text></tag>
-    <tag><text>class:11</text></tag>
+    <tag><text>section:mcq_ii</text></tag>
+    <tag><text>class:class_11</text></tag>
     <tag><text>chapter:thermodynamics</text></tag>
     <tag><text>typology:mcq</text></tag>
     <tag><text>difficulty:medium</text></tag>
     <tag><text>blooms:understand</text></tag>
-    <tag><text>calculation:light</text></tag>
     <tag><text>media:text</text></tag>
     <tag><text>multiconcept:false</text></tag>
   </tags>
 </question>
 <question type="multichoice">
-  <name><text>NEET_UG_PHYSICS_2026_THERMODYNAMICS_MCQ_Q08 - First law relationships for ideal gas isothermal process</text></name>
-  <questiontext format="html">
-    <text><![CDATA[<p>An ideal gas undergoes isothermal process from some initial state i to final state f. Choose the correct alternatives.</p>]]></text>
-  </questiontext>
-  <generalfeedback format="html">
-    <text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>An ideal gas transitions from an initial state \(i\) to a final state \(f\) via an isothermal process.</p><p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>The gas satisfies the ideal gas equation of state \(PV = nRT\).<br/>By definition of an isothermal process, the absolute temperature remains strictly constant throughout: \(T = \text{constant}\), so \(\mathrm{d}T = 0\).</p><p><strong>Step 3: Relevant Formulae and Principles</strong><br/>The internal energy \(U\) of an ideal gas depends solely on its temperature:<br/>\[\mathrm{d}U = n C_v \mathrm{d}T\]<br/>The First Law of Thermodynamics relates infinitesimal heat added \(\mathrm{d}Q\), change in internal energy \(\mathrm{d}U\), and work done \(\mathrm{d}W\):<br/>\[\mathrm{d}Q = \mathrm{d}U + \mathrm{d}W\]</p><p><strong>Step 4: Step-by-Step Working</strong><br/>Since temperature is constant (\(\mathrm{d}T = 0\)), the change in internal energy of the ideal gas is:<br/>\[\mathrm{d}U = 0\]<br/>Substituting \(\mathrm{d}U = 0\) into the First Law of Thermodynamics gives:<br/>\[\mathrm{d}Q = 0 + \mathrm{d}W \implies \mathrm{d}Q = \mathrm{d}W\]<br/>In an isothermal process, heat is exchanged with the surroundings to keep temperature constant while work is done, so \(\mathrm{d}Q \neq 0\) in general.</p><p><strong>Step 5: Check and Final Answer</strong><br/>For any isothermal process involving an ideal gas, the change in internal energy is zero (\(\mathrm{d}U = 0\)), and the heat transferred equals the work performed (\(\mathrm{d}Q = \mathrm{d}W\)).</p>]]></text>
-  </generalfeedback>
+  <name><text>NEET_UG_PHYSICS_THERMODYNAMICS_MCQII_Q08 - First law relations for isothermal process</text></name>
+  <questiontext format="html"><text><![CDATA[<p>An ideal gas undergoes isothermal process from some initial state i to final state f. Choose the correct alternatives.</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>For an ideal gas, internal energy \(U\) is a function of temperature \(T\) only. In an isothermal process, temperature remains constant (\(\mathrm{d}T = 0\)).</p><p><strong>Step 2: Application of First Law</strong><br/>Since \(\mathrm{d}T = 0\) for an isothermal process, the change in internal energy is:<br/>\[\mathrm{d}U = nC_V\mathrm{d}T = 0.\]<br/>According to the first law of thermodynamics:<br/>\[\mathrm{d}Q = \mathrm{d}U + \mathrm{d}W.\]<br/>Substituting \(\mathrm{d}U = 0\) gives:<br/>\[\mathrm{d}Q = \mathrm{d}W.\]<br/>In general, heat is exchanged with the surroundings to keep the temperature constant during expansion or compression, so \(\mathrm{d}Q \neq 0\) and \(\mathrm{d}Q \neq \mathrm{d}U\).</p><p><strong>Step 3: Final Conclusion</strong><br/>For an ideal gas undergoing an isothermal process, \(\mathrm{d}U = 0\) and \(\mathrm{d}Q = \mathrm{d}W\) are both correct.</p>]]></text></generalfeedback>
   <defaultgrade>4.0000000</defaultgrade>
   <penalty>0.2500000</penalty>
   <hidden>0</hidden>
@@ -251,27 +218,22 @@
   <answer fraction="50" format="html"><text><![CDATA[<p>\(\mathrm{d}Q = \mathrm{d}W\)</p>]]></text></answer>
   <tags>
     <tag><text>standard:neet_ug</text></tag>
-    <tag><text>year:2026</text></tag>
     <tag><text>lang:en</text></tag>
     <tag><text>subject:physics</text></tag>
-    <tag><text>class:11</text></tag>
+    <tag><text>section:mcq_ii</text></tag>
+    <tag><text>class:class_11</text></tag>
     <tag><text>chapter:thermodynamics</text></tag>
     <tag><text>typology:mcq</text></tag>
     <tag><text>difficulty:easy</text></tag>
-    <tag><text>blooms:remember</text></tag>
-    <tag><text>calculation:light</text></tag>
-    <tag><text>media:equation</text></tag>
+    <tag><text>blooms:understand</text></tag>
+    <tag><text>media:text</text></tag>
     <tag><text>multiconcept:false</text></tag>
   </tags>
 </question>
 <question type="multichoice">
-  <name><text>NEET_UG_PHYSICS_2026_THERMODYNAMICS_MCQ_Q09 - Work done and internal energy across different paths</text></name>
-  <questiontext format="html">
-    <text><![CDATA[<p>Figure 12.5 shows the \(P-V\) diagram of an ideal gas undergoing a change of state from A to B. Four different parts I, II, III and IV as shown in the figure may lead to the same change of state.</p><p><img src="@@PLUGINFILE@@/img-7.jpeg" alt="Figure 12.5" /></p>]]></text>
-  </questiontext>
-  <generalfeedback format="html">
-    <text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>An ideal gas changes its thermodynamic state from state A to state B via four distinct paths labeled I, II, III, and IV on a \(P-V\) diagram.<br/>Initial state A and final state B are identical for all four paths.<br/>Path I is the uppermost curve, Path IV lies beneath Path I, Path II is a direct path, and Path III is the lowest path.</p><p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>The gas behaves ideally.<br/>Internal energy \(U\) is a thermodynamic state function.<br/>Work done by the gas along any path is given by the area under the corresponding curve on the \(P-V\) diagram: \(W = \int_A^B P\,\mathrm{d}V\).</p><p><strong>Step 3: Relevant Formulae and Principles</strong><br/>The change in internal energy depends solely on the initial and final equilibrium states:<br/>\[\Delta U = U_B - U_A\]<br/>Since state functions are path-independent, \(\Delta U\) is identical for all paths connecting state A and state B.<br/>Work done is path-dependent and corresponds geometrically to the area under each curve on the \(P-V\) diagram.</p><p><strong>Step 4: Step-by-Step Working</strong><br/>Because all four paths start at state A and end at state B, the change in internal energy is the same in all four cases.<br/>Comparing the area under each curve from state A to state B:<br/>Path I lies strictly above paths IV, II, and III throughout the expansion.<br/>Therefore, the area beneath curve I is strictly greater than the area beneath any of the other curves.<br/>Consequently, the work done by the gas is maximum in case I.<br/>Path III lies lowest among all paths, which means work done is minimum in case III, not case II.</p><p><strong>Step 5: Check and Final Answer</strong><br/>State function path-independence verifies that \(\Delta U\) is equal for all four paths. Geometric comparison of areas under the curves confirms that work done is maximum along path I. Therefore, the change in internal energy is the same in all four cases, and work done is maximum in case I.</p>]]></text>
-  </generalfeedback>
+  <name><text>NEET_UG_PHYSICS_THERMODYNAMICS_MCQII_Q09 - Internal energy and work along four paths</text></name>
+  <questiontext format="html"><text><![CDATA[<p>Figure 12.5 shows the \(P\text{-}V\) diagram of an ideal gas undergoing a change of state from A to B. Four different parts I, II, III and IV as shown in the figure may lead to the same change of state.</p><p><img src="@@PLUGINFILE@@/img-7.jpeg" alt="Fig. 12.5" /></p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>An ideal gas moves from initial state A to final state B along four distinct paths I, II, III, and IV on a \(P\text{-}V\) diagram. From the figure, path I lies highest on the \(P\text{-}V\) plane, followed below by path IV, path II, and path III at the bottom.</p><p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>Volume increases from A to B along all four paths, so work done by the gas \(W = \int_A^B P\,\mathrm{d}V\) is positive and equals the area under each curve down to the \(V\)-axis.</p><p><strong>Step 3: Relevant Formulae and Principles</strong><br/>- Internal energy \(U\) is a state function: \(\Delta U = U_B - U_A\), independent of the path.<br/>- Work done \(W = \int P\,\mathrm{d}V\) is a path function equal to the area under the \(P\text{-}V\) curve.</p><p><strong>Step 4: Step-by-Step Working</strong><br/>Because all four paths share the same initial state A and final state B, the change in internal energy \(\Delta U\) is identical for all four cases. Comparing the areas under the curves from A to B, curve I encloses the largest area with the \(V\)-axis, so work done is maximum in case I. Conversely, curve III encloses the smallest area, so work done is minimum in case III (not case II).</p><p><strong>Step 5: Check and Final Answer</strong><br/>Both the path independence of internal energy and the area comparison confirm that the change in internal energy is the same in all four cases and the work done is maximum in case I.</p>]]></text></generalfeedback>
   <defaultgrade>4.0000000</defaultgrade>
   <penalty>0.2500000</penalty>
   <hidden>0</hidden>
@@ -284,27 +246,22 @@
   <answer fraction="-50" format="html"><text><![CDATA[<p>Work done is minimum in case II.</p>]]></text></answer>
   <tags>
     <tag><text>standard:neet_ug</text></tag>
-    <tag><text>year:2026</text></tag>
     <tag><text>lang:en</text></tag>
     <tag><text>subject:physics</text></tag>
-    <tag><text>class:11</text></tag>
+    <tag><text>section:mcq_ii</text></tag>
+    <tag><text>class:class_11</text></tag>
     <tag><text>chapter:thermodynamics</text></tag>
     <tag><text>typology:mcq</text></tag>
     <tag><text>difficulty:medium</text></tag>
-    <tag><text>blooms:understand</text></tag>
-    <tag><text>calculation:light</text></tag>
+    <tag><text>blooms:analyze</text></tag>
     <tag><text>media:graph</text></tag>
-    <tag><text>multiconcept:false</text></tag>
+    <tag><text>multiconcept:true</text></tag>
   </tags>
 </question>
 <question type="multichoice">
-  <name><text>NEET_UG_PHYSICS_2026_THERMODYNAMICS_MCQ_Q10 - Nonexistence of cycle with two adiabatic processes</text></name>
-  <questiontext format="html">
-    <text><![CDATA[<p>Consider a cycle followed by an engine (Fig. 12.6)</p><p>1 to 2 is isothermal<br/>2 to 3 is adiabatic<br/>3 to 1 is adiabatic</p><p><img src="@@PLUGINFILE@@/img-8.jpeg" alt="Figure 12.6" /></p><p>Such a process does not exist because</p>]]></text>
-  </questiontext>
-  <generalfeedback format="html">
-    <text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>A hypothetical three-stage thermodynamic engine cycle 1-2-3-1 is depicted on a \(P-V\) diagram.<br/>Process \(1 \to 2\) is an isothermal process.<br/>Process \(2 \to 3\) is an adiabatic process.<br/>Process \(3 \to 1\) is an adiabatic process.</p><p><strong>Step 2: Assumptions and Physical Principles</strong><br/>For a cyclic process, the net change in internal energy over a complete cycle is zero: \(\Delta U_{\text{net}} = 0\).<br/>The First Law of Thermodynamics for the entire cycle gives \(W_{\text{net}} = Q_{\text{net}}\).<br/>The Second Law of Thermodynamics (Kelvin-Planck statement) states that no process is possible whose sole result is the absorption of heat from a single reservoir and the complete conversion of this heat into mechanical work.</p><p><strong>Step 3: Evaluation of Energy Conversion in the Cycle</strong><br/>In process \(1 \to 2\) (isothermal), heat \(Q_{12}\) is absorbed from a single thermal reservoir.<br/>In processes \(2 \to 3\) and \(3 \to 1\) (both adiabatic), by definition no heat is exchanged: \(Q_{23} = 0\) and \(Q_{31} = 0\).<br/>Thus, the net heat absorbed in the cycle is \(Q_{\text{net}} = Q_{12}\).<br/>Because the cycle encloses a non-zero area, positive net work \(W_{\text{net}} > 0\) is produced.<br/>Since \(\Delta U = 0\), all the heat absorbed from the single reservoir would be completely converted into mechanical work without any heat rejected to a sink. This directly violates the Kelvin-Planck statement of the Second Law of Thermodynamics.</p><p><strong>Step 4: Evaluation of Intersecting Adiabatic Curves</strong><br/>Processes \(2 \to 3\) and \(3 \to 1\) are two distinct adiabatic processes that intersect at state 1 and state 3.<br/>An adiabatic reversible process corresponds to a state of constant entropy (\(S = \text{constant}\)).<br/>Two distinct adiabatic curves representing different constant entropies can never intersect, because if they did, a single thermodynamic state at the point of intersection would have two different values of entropy, which is physically impossible.</p><p><strong>Step 5: Check and Final Conclusion</strong><br/>Such a cycle cannot exist because total heat absorbed from a single reservoir is completely converted into mechanical energy, violating the Second Law of Thermodynamics, and curves representing two adiabatic processes cannot intersect.</p>]]></text>
-  </generalfeedback>
+  <name><text>NEET_UG_PHYSICS_THERMODYNAMICS_MCQII_Q10 - Impossibility of cycle with two intersecting adiabats</text></name>
+  <questiontext format="html"><text><![CDATA[<p>Consider a cycle followed by an engine (Fig. 12.6)</p><p>1 to 2 is isothermal<br/>2 to 3 is adiabatic<br/>3 to 1 is adiabatic</p><p><img src="@@PLUGINFILE@@/img-8.jpeg" alt="Fig. 12.6" /></p><p>Such a process does not exist because</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>The \(P\text{-}V\) diagram shows a clockwise cycle \(1 \to 2 \to 3 \to 1\), where \(1 \to 2\) is an isothermal expansion and \(2 \to 3\) and \(3 \to 1\) are two adiabatic processes intersecting at state 3.</p><p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>For a clockwise cycle on a \(P\text{-}V\) diagram, the net work done by the engine is positive (\(W &gt; 0\)), and in any adiabatic process, heat exchange is zero (\(\Delta Q = 0\)).</p><p><strong>Step 3: Relevant Formulae and Principles</strong><br/>- First law for a cycle: \(W_{\text{net}} = Q_{\text{net}} = Q_{12} + Q_{23} + Q_{31}\).<br/>- Kelvin-Planck statement of the second law of thermodynamics: It is impossible to construct a cyclic engine that absorbs heat from a single reservoir and converts it completely into work without rejecting any heat.</p><p><strong>Step 4: Step-by-Step Working</strong><br/>Since \(2 \to 3\) and \(3 \to 1\) are adiabatic, \(Q_{23} = 0\) and \(Q_{31} = 0\). Heat \(Q_{12} &gt; 0\) is absorbed only during the isothermal expansion \(1 \to 2\) at constant temperature. Thus \(W_{\text{net}} = Q_{12}\), meaning heat is completely converted into mechanical work in a cyclic process, which violates the Kelvin-Planck statement of the second law. Equivalently, because such a cycle cannot exist, curves representing two distinct adiabatic processes cannot intersect each other. (By contrast, an isothermal curve and an adiabatic curve do intersect because their slopes \(-P/V\) and \(-\gamma P/V\) are different.)</p><p><strong>Step 5: Check and Final Answer</strong><br/>Therefore, such a cycle is impossible both because heat would be completely converted to mechanical energy and because two adiabatic curves cannot intersect.</p>]]></text></generalfeedback>
   <defaultgrade>4.0000000</defaultgrade>
   <penalty>0.2500000</penalty>
   <hidden>0</hidden>
@@ -317,50 +274,45 @@
   <answer fraction="-50" format="html"><text><![CDATA[<p>curves representing an adiabatic process and an isothermal process don't intersect.</p>]]></text></answer>
   <tags>
     <tag><text>standard:neet_ug</text></tag>
-    <tag><text>year:2026</text></tag>
     <tag><text>lang:en</text></tag>
     <tag><text>subject:physics</text></tag>
-    <tag><text>class:11</text></tag>
+    <tag><text>section:mcq_ii</text></tag>
+    <tag><text>class:class_11</text></tag>
     <tag><text>chapter:thermodynamics</text></tag>
     <tag><text>typology:mcq</text></tag>
     <tag><text>difficulty:medium</text></tag>
-    <tag><text>blooms:understand</text></tag>
-    <tag><text>calculation:light</text></tag>
+    <tag><text>blooms:analyze</text></tag>
     <tag><text>media:graph</text></tag>
     <tag><text>multiconcept:true</text></tag>
   </tags>
 </question>
 <question type="multichoice">
-  <name><text>NEET_UG_PHYSICS_2026_THERMODYNAMICS_MCQ_Q11 - Heat and work relations for cyclic heat engine</text></name>
-  <questiontext format="html">
-    <text><![CDATA[<p>Consider a heat engine as shown in Fig. 12.7. \(Q_1\) and \(Q_2\) are heat added to heat bath \(T_1\) and heat taken from \(T_2\) in one cycle of engine. \(W\) is the mechanical work done on the engine.</p><p>If \(W > 0\), then possibilities are:</p><p><img src="@@PLUGINFILE@@/img-9.jpeg" alt="Figure 12.7" /></p>]]></text>
-  </questiontext>
-  <generalfeedback format="html">
-    <text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>A cyclic heat device is coupled to two thermal reservoirs at temperatures \(T_1\) and \(T_2\).<br/>Heat added to reservoir \(T_1\) per cycle is \(Q_1\) (directed out of the device into \(T_1\)).<br/>Heat taken from reservoir \(T_2\) per cycle is \(Q_2\) (directed into the device from \(T_2\)).<br/>Mechanical work done on the engine per cycle is \(W\), with the condition \(W > 0\).</p><p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>The working substance undergoes a cyclic process, so net internal energy change over one cycle is zero: \(\Delta U = 0\).<br/>By energy conservation for the cyclic engine, total energy entering the system equals total energy leaving the system.</p><p><strong>Step 3: Relevant Formulae and Principles</strong><br/>Energy entering the engine: \(W + Q_2\).<br/>Energy leaving the engine: \(Q_1\).<br/>By the First Law of Thermodynamics:<br/>\[Q_1 = Q_2 + W\]<br/>Since \(W > 0\), it follows directly that:<br/>\[W = Q_1 - Q_2 > 0 \implies Q_1 > Q_2\]</p><p><strong>Step 4: Step-by-Step Working</strong><br/>Consider the possible sign regimes consistent with \(Q_1 > Q_2\):<br/>Case 1: When both heat quantities are positive (\(Q_1 > 0\) and \(Q_2 > 0\)):<br/>The inequality \(Q_1 > Q_2\) becomes:<br/>\[Q_1 > Q_2 > 0\]<br/>This corresponds to a refrigerator or heat pump cycle operating between cold reservoir \(T_2\) and warm reservoir \(T_1\), where work is supplied from outside to extract heat from \(T_2\) and discharge a larger amount of heat to \(T_1\).<br/>Case 2: When both heat quantities are negative (\(Q_1 < 0\) and \(Q_2 < 0\)):<br/>The inequality \(Q_1 > Q_2\) becomes:<br/>\[Q_2 < Q_1 < 0\]<br/>Here, both heat directions are reversed while maintaining \(Q_1 - Q_2 = W > 0\).<br/>The condition \(Q_2 > Q_1 > 0\) requires \(W = Q_1 - Q_2 < 0\), which violates \(W > 0\).<br/>The condition \(Q_1 < 0, Q_2 > 0\) yields \(W = Q_1 - Q_2 < 0\), which also violates \(W > 0\).</p><p><strong>Step 5: Check and Final Answer</strong><br/>Energy conservation requires \(Q_1 - Q_2 = W > 0\). This allows either \(Q_1 > Q_2 > 0\) or \(Q_2 < Q_1 < 0\). Therefore, the valid physical possibilities are \(Q_1 > Q_2 > 0\) and \(Q_2 < Q_1 < 0\).</p>]]></text>
-  </generalfeedback>
+  <name><text>NEET_UG_PHYSICS_THERMODYNAMICS_MCQII_Q11 - Heat and work relations in a heat engine</text></name>
+  <questiontext format="html"><text><![CDATA[<p>Consider a heat engine as shown in Fig. 12.7. \(Q_1\) and \(Q_2\) are heat added to heat bath \(T_1\) and heat taken from \(T_2\) in one cycle of engine. \(W\) is the mechanical work done on the engine.</p><p>If \(W &gt; 0\), then possibilities are:</p><p><img src="@@PLUGINFILE@@/img-9.jpeg" alt="Fig. 12.7" /></p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>In one complete cycle of the device shown in Fig. 12.7, heat \(Q_2\) enters the engine from reservoir \(T_2\), mechanical work \(W\) is done on the engine (entering), and heat \(Q_1\) leaves the engine to reservoir \(T_1\). We are given \(W &gt; 0\).</p><p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>Positive values of \(Q_1\), \(Q_2\), and \(W\) follow the arrow directions in the diagram. For a complete cycle, the net change in internal energy is zero (\(\Delta U = 0\)).</p><p><strong>Step 3: Relevant Formulae and Principles</strong><br/>By conservation of energy (first law of thermodynamics) for one cycle:<br/>\[\text{Energy entering} = \text{Energy leaving} \implies Q_2 + W = Q_1 \implies W = Q_1 - Q_2.\]</p><p><strong>Step 4: Step-by-Step Working</strong><br/>Since \(W &gt; 0\), we must have:<br/>\[Q_1 - Q_2 &gt; 0 \implies Q_1 &gt; Q_2.\]<br/>Checking the physical possibilities:<br/>- If \(Q_1 &gt; Q_2 &gt; 0\), then \(W = Q_1 - Q_2 &gt; 0\). Heat is taken from \(T_2\), work \(W\) is supplied, and \(Q_1 = Q_2 + W\) is delivered to \(T_1\) (operating as a refrigerator/heat pump). This is possible.<br/>- If \(Q_2 &lt; Q_1 &lt; 0\), then \(Q_1 &gt; Q_2\) holds, so \(W = Q_1 - Q_2 &gt; 0\). Physically, \(|Q_1|\) is drawn from \(T_1\), work \(W\) is added, and \(|Q_2| = |Q_1| + W\) is rejected to \(T_2\), which is also physically possible.<br/>- If \(Q_2 &gt; Q_1 &gt; 0\) or if \(Q_1 &lt; 0, Q_2 &gt; 0\), then \(Q_1 - Q_2 &lt; 0\), which contradicts \(W &gt; 0\).</p><p><strong>Step 5: Check and Final Answer</strong><br/>Both \(Q_1 &gt; Q_2 &gt; 0\) and \(Q_2 &lt; Q_1 &lt; 0\) satisfy \(W = Q_1 - Q_2 &gt; 0\) and are consistent with the laws of thermodynamics.</p>]]></text></generalfeedback>
   <defaultgrade>4.0000000</defaultgrade>
   <penalty>0.2500000</penalty>
   <hidden>0</hidden>
   <single>false</single>
   <shuffleanswers>true</shuffleanswers>
   <answernumbering>abc</answernumbering>
-  <answer fraction="50" format="html"><text><![CDATA[<p>\(Q_{1} > Q_{2} > 0\)</p>]]></text></answer>
-  <answer fraction="-50" format="html"><text><![CDATA[<p>\(Q_{2} > Q_{1} > 0\)</p>]]></text></answer>
-  <answer fraction="50" format="html"><text><![CDATA[<p>\(Q_{2} < Q_{1} < 0\)</p>]]></text></answer>
-  <answer fraction="-50" format="html"><text><![CDATA[<p>\(Q_{1} < 0, Q_{2} > 0\)</p>]]></text></answer>
+  <answer fraction="50" format="html"><text><![CDATA[<p>\(Q_{1} &gt; Q_{2} &gt; 0\)</p>]]></text></answer>
+  <answer fraction="-50" format="html"><text><![CDATA[<p>\(Q_{2} &gt; Q_{1} &gt; 0\)</p>]]></text></answer>
+  <answer fraction="50" format="html"><text><![CDATA[<p>\(Q_{2} &lt; Q_{1} &lt; 0\)</p>]]></text></answer>
+  <answer fraction="-50" format="html"><text><![CDATA[<p>\(Q_{1} &lt; 0, Q_{2} &gt; 0\)</p>]]></text></answer>
   <tags>
     <tag><text>standard:neet_ug</text></tag>
-    <tag><text>year:2026</text></tag>
     <tag><text>lang:en</text></tag>
     <tag><text>subject:physics</text></tag>
-    <tag><text>class:11</text></tag>
+    <tag><text>section:mcq_ii</text></tag>
+    <tag><text>class:class_11</text></tag>
     <tag><text>chapter:thermodynamics</text></tag>
     <tag><text>typology:mcq</text></tag>
-    <tag><text>difficulty:medium</text></tag>
+    <tag><text>difficulty:hard</text></tag>
     <tag><text>blooms:analyze</text></tag>
     <tag><text>calculation:light</text></tag>
     <tag><text>media:diagram</text></tag>
-    <tag><text>multiconcept:false</text></tag>
+    <tag><text>multiconcept:true</text></tag>
   </tags>
 </question>
 </quiz>

@@ -1,82 +1,56 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <quiz>
 <question type="multichoice">
-  <name><text>NEET_UG_PHYSICS_2026_WORK_ENERGY_AND_POWER_MCQ_Q01 - Neglecting magnetic force in kinetic energy change</text></name>
-  <questiontext format="html">
-    <text><![CDATA[<p>An electron and a proton are moving under the influence of mutual forces. In calculating the change in the kinetic energy of the system during motion, one ignores the magnetic force of one on another. This is because,</p><hr/><p>एक इलेक्ट्रॉन और एक प्रोटॉन पारस्परिक बलों के प्रभाव में गति कर रहे हैं। गति के दौरान निकाय की गतिज ऊर्जा में परिवर्तन की गणना करते समय, एक-दूसरे पर लगने वाले चुंबकीय बल की उपेक्षा की जाती है। इसका कारण यह है कि,</p>]]></text>
-  </questiontext>
-  <generalfeedback format="html">
-    <text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>The magnetic Lorentz force acting on a charged particle of charge \(q\) moving with instantaneous velocity \(\vec{v}\) in a magnetic field \(\vec{B}\) is given by \(\vec{F}_m = q(\vec{v} \times \vec{B})\). Because the cross product of any vector with another vector is perpendicular to both vectors, the magnetic force \(\vec{F}_m\) is always strictly perpendicular to the velocity \(\vec{v}\) of the charged particle at every instant.</p><p><strong>Step 2: Work-Energy Theorem Evaluation</strong><br/>The instantaneous rate of work done (power) by the magnetic force on the particle is \(P = \vec{F}_m \cdot \vec{v} = 0\). Consequently, the total work done by the magnetic force over any displacement is \(W_m = \int \vec{F}_m \cdot d\vec{r} = \int (\vec{F}_m \cdot \vec{v})\,dt = 0\). According to the work-energy theorem (\(W_{\text{net}} = \Delta K\)), a force that does identically zero work on each particle cannot contribute to any change in the particle's or the system's kinetic energy.</p><p><strong>Step 3: Final Conclusion</strong><br/>Therefore, the magnetic force between the moving electron and proton is ignored in the kinetic energy calculation because the magnetic forces do no work on each particle.</p><hr/><p><strong>चरण 1: संकल्पनात्मक सिद्धांत</strong><br/>चुंबकीय क्षेत्र \(\vec{B}\) में तात्कालिक वेग \(\vec{v}\) से गतिमान \(q\) आवेश वाले कण पर लगने वाला चुंबकीय लॉरेंट्ज़ बल \(\vec{F}_m = q(\vec{v} \times \vec{B})\) द्वारा दिया जाता है। चूंकि किसी सदिश का दूसरे सदिश के साथ सदिश गुणनफल (क्रॉस गुणनफल) दोनों सदिशों के लंबवत होता है, इसलिए चुंबकीय बल \(\vec{F}_m\) प्रत्येक क्षण आवेशित कण के वेग \(\vec{v}\) के सदैव लंबवत होता है।</p><p><strong>चरण 2: कार्य-ऊर्जा प्रमेय मूल्यांकन</strong><br/>कण पर चुंबकीय बल द्वारा किए गए कार्य की तात्कालिक दर (शक्ति) \(P = \vec{F}_m \cdot \vec{v} = 0\) होती है। फलस्वरूप, किसी भी विस्थापन के दौरान चुंबकीय बल द्वारा किया गया कुल कार्य \(W_m = \int \vec{F}_m \cdot d\vec{r} = \int (\vec{F}_m \cdot \vec{v})\,dt = 0\) होता है। कार्य-ऊर्जा प्रमेय (\(W_{\text{net}} = \Delta K\)) के अनुसार, जो बल प्रत्येक कण पर शून्य कार्य करता है, वह कण या निकाय की गतिज ऊर्जा में किसी भी परिवर्तन में योगदान नहीं दे सकता है।</p><p><strong>चरण 3: अंतिम निष्कर्ष</strong><br/>अतः गतिज ऊर्जा की गणना में गतिमान इलेक्ट्रॉन और प्रोटॉन के बीच चुंबकीय बल की उपेक्षा की जाती है क्योंकि चुंबकीय बल प्रत्येक कण पर कोई कार्य नहीं करते हैं।</p>]]></text>
-  </generalfeedback>
+  <name><text>NEET_UG_PHYSICS_WORKENERGYANDPOWER_MCQI_MCQ_Q01 - Magnetic force work on electron and proton</text></name>
+  <questiontext format="html"><text><![CDATA[<p>An electron and a proton are moving under the influence of mutual forces. In calculating the change in the kinetic energy of the system during motion, one ignores the magnetic force of one on another. This is because,</p><hr/><p>एक इलेक्ट्रॉन और एक प्रोटॉन पारस्परिक बलों के प्रभाव में गति कर रहे हैं। गति के दौरान निकाय की गतिज ऊर्जा में परिवर्तन की गणना करते समय, एक के द्वारा दूसरे पर लगने वाले चुंबकीय बल की उपेक्षा की जाती है। इसका कारण यह है कि,</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>According to the work-energy theorem, the change in kinetic energy of a particle or system equals the total work done by all forces acting on it. The magnetic Lorentz force acting on a charged particle of charge \(q\) moving with velocity \(\vec{v}\) in a magnetic field \(\vec{B}\) is given by \(\vec{F}_m = q(\vec{v} \times \vec{B})\).</p><p><strong>Step 2: Evaluation</strong><br/>By the definition of the cross product, the magnetic force \(\vec{F}_m\) is always perpendicular to the instantaneous velocity \(\vec{v}\) of the particle. Since the infinitesimal displacement is \(d\vec{r} = \vec{v}\,dt\), the magnetic force is always perpendicular to the displacement \(d\vec{r}\).</p><p><strong>Step 3: Application</strong><br/>The infinitesimal work done by the magnetic force on each particle is:<br/>\[dW = \vec{F}_m \cdot d\vec{r} = q(\vec{v} \times \vec{B}) \cdot \vec{v}\,dt = 0\]<br/>Because the work done by the magnetic force on each particle is identically zero, it produces no change in the kinetic energy of either particle.</p><p><strong>Step 4: Final Conclusion</strong><br/>The magnetic force is ignored in calculating the change in kinetic energy because the magnetic forces do no work on each particle.</p><hr/><p><strong>चरण 1: अवधारणात्मक सिद्धांत</strong><br/>कार्य-ऊर्जा प्रमेय के अनुसार, किसी कण या निकाय की गतिज ऊर्जा में परिवर्तन उस पर लगने वाले सभी बलों द्वारा किए गए कुल कार्य के बराबर होता है। चुंबकीय क्षेत्र \(\vec{B}\) में वेग \(\vec{v}\) से गतिमान आवेश \(q\) वाले कण पर लगने वाला चुंबकीय लॉरेंत्ज़ बल \(\vec{F}_m = q(\vec{v} \times \vec{B})\) होता है।</p><p><strong>चरण 2: मूल्यांकन</strong><br/>सदिश गुणनफल (cross product) की परिभाषा के अनुसार, चुंबकीय बल \(\vec{F}_m\) सदैव कण के तात्क्षणिक वेग \(\vec{v}\) के लंबवत होता है। चूँकि सूक्ष्म विस्थापन \(d\vec{r} = \vec{v}\,dt\) है, इसलिए चुंबकीय बल सदैव विस्थापन \(d\vec{r}\) के लंबवत होता है।</p><p><strong>चरण 3: अनुप्रयोग</strong><br/>प्रत्येक कण पर चुंबकीय बल द्वारा किया गया सूक्ष्म कार्य:<br/>\[dW = \vec{F}_m \cdot d\vec{r} = q(\vec{v} \times \vec{B}) \cdot \vec{v}\,dt = 0\]<br/>चूँकि प्रत्येक कण पर चुंबकीय बल द्वारा किया गया कार्य शून्य होता है, इसलिए यह किसी भी कण की गतिज ऊर्जा में कोई परिवर्तन नहीं करता है।</p><p><strong>चरण 4: अंतिम निष्कर्ष</strong><br/>गतिज ऊर्जा में परिवर्तन की गणना करते समय चुंबकीय बल की उपेक्षा इसलिए की जाती है क्योंकि चुंबकीय बल प्रत्येक कण पर कोई कार्य नहीं करते हैं।</p>]]></text></generalfeedback>
   <defaultgrade>4.0000000</defaultgrade>
   <penalty>0.2500000</penalty>
   <hidden>0</hidden>
   <single>true</single>
   <shuffleanswers>true</shuffleanswers>
   <answernumbering>abc</answernumbering>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>the two magnetic forces are equal and opposite, so they produce no net effect.</p>]]></text>
-  </answer>
-  <answer fraction="100" format="html">
-    <text><![CDATA[<p>the magnetic forces do no work on each particle.</p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>the magnetic forces do equal and opposite (but non-zero) work on each particle.</p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>the magenetic forces are necessarily negligible.</p>]]></text>
-  </answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>the two magnetic forces are equal and opposite, so they produce no net effect.</p>]]></text></answer>
+  <answer fraction="100" format="html"><text><![CDATA[<p>the magnetic forces do no work on each particle.</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>the magnetic forces do equal and opposite (but non-zero) work on each particle.</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>the magnetic forces are necessarily negligible.</p>]]></text></answer>
   <tags>
     <tag><text>standard:neet_ug</text></tag>
-    <tag><text>year:2026</text></tag>
     <tag><text>lang:en</text></tag>
     <tag><text>lang:hi</text></tag>
     <tag><text>subject:physics</text></tag>
+    <tag><text>section:mcq_i</text></tag>
     <tag><text>class:class_11</text></tag>
-    <tag><text>topic:work_energy_and_power</text></tag>
     <tag><text>chapter:work_energy_and_power</text></tag>
     <tag><text>typology:mcq</text></tag>
     <tag><text>difficulty:easy</text></tag>
     <tag><text>blooms:understand</text></tag>
     <tag><text>calculation:light</text></tag>
     <tag><text>media:text</text></tag>
-    <tag><text>multiconcept:false</text></tag>
+    <tag><text>multiconcept:true</text></tag>
   </tags>
 </question>
 <question type="multichoice">
-  <name><text>NEET_UG_PHYSICS_2026_WORK_ENERGY_AND_POWER_MCQ_Q02 - Work done on proton and positron in electrostatic field</text></name>
-  <questiontext format="html">
-    <text><![CDATA[<p>A proton is kept at rest. A positively charged particle is released from rest at a distance \(d\) in its field. Consider two experiments; one in which the charged particle is also a proton and in another, a positron. In the same time \(t\), the work done on the two moving charged particles is</p><hr/><p>एक प्रोटॉन को विरामावस्था में रखा गया है। इसके क्षेत्र में \(d\) दूरी पर एक धनावेशित कण को विरामावस्था से छोड़ा जाता है। दो प्रयोगों पर विचार कीजिए; एक जिसमें आवेशित कण भी एक प्रोटॉन है और दूसरे में एक पॉज़िट्रॉन है। समान समय \(t\) में, दोनों गतिमान आवेशित कणों पर किया गया कार्य है</p>]]></text>
-  </questiontext>
-  <generalfeedback format="html">
-    <text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>A fixed source proton has charge \(+e\). At distance \(d\), a second particle of identical positive charge \(+e\) is released from rest. In the first case, the particle is a proton of mass \(m_p\); in the second case, it is a positron of mass \(m_e\), where \(m_e \ll m_p\) (\(m_p \approx 1836\,m_e\)).</p><p><strong>Step 2: Force and Acceleration Comparison</strong><br/>At the initial position \(r = d\), both particles experience the exact same electrostatic repulsive force \(F = \frac{e^2}{4\pi\varepsilon_0 d^2}\). Because the mass of the positron is vastly smaller than that of the proton, the acceleration of the positron \(a = \frac{F}{m}\) is roughly 1836 times larger than that of the proton at the same separation.</p><p><strong>Step 3: Kinematic and Work Evaluation</strong><br/>Due to its vastly greater acceleration throughout the motion, the positron travels a significantly greater displacement away from the fixed proton than the moving proton does in the identical time interval \(t\). The work done by the repulsive Coulomb force equals the negative change in electrostatic potential energy: \(W = U(d) - U(r_t) = \frac{e^2}{4\pi\varepsilon_0}\left(\frac{1}{d} - \frac{1}{r_t}\right)\). Because the final distance \(r_t\) reached in time \(t\) is much larger for the positron (\(r_{t,\text{positron}} \gg r_{t,\text{proton}}\)), the quantity \(\left(\frac{1}{d} - \frac{1}{r_t}\right)\) is greater for the positron.</p><p><strong>Step 4: Final Conclusion</strong><br/>Hence, in the same time \(t\), the work done is more for the case of a positron, as the positron moves away a larger distance.</p><hr/><p><strong>चरण 1: दिए गए आँकड़े और स्थितियाँ</strong><br/>विरामावस्था में स्थित स्रोत प्रोटॉन पर आवेश \(+e\) है। \(d\) दूरी पर समान धनावेश \(+e\) वाला दूसरा कण विरामावस्था से छोड़ा जाता है। पहली स्थिति में, कण द्रव्यमान \(m_p\) वाला एक प्रोटॉन है; दूसरी स्थिति में, यह द्रव्यमान \(m_e\) वाला एक पॉज़िट्रॉन है, जहाँ \(m_e \ll m_p\) (\(m_p \approx 1836\,m_e\))।</p><p><strong>चरण 2: बल और त्वरण की तुलना</strong><br/>प्रारंभिक स्थिति \(r = d\) पर, दोनों कण समान स्थिरवैद्युत प्रतिकर्षण बल \(F = \frac{e^2}{4\pi\varepsilon_0 d^2}\) का अनुभव करते हैं। चूंकि पॉज़िट्रॉन का द्रव्यमान प्रोटॉन की तुलना में बहुत कम होता है, इसलिए समान दूरी पर पॉज़िट्रॉन का त्वरण \(a = \frac{F}{m}\) प्रोटॉन के त्वरण की तुलना में लगभग 1836 गुना अधिक होता है।</p><p><strong>चरण 3: गतिज और कार्य मूल्यांकन</strong><br/>गति के दौरान अत्यधिक त्वरण के कारण, पॉज़िट्रॉन समान समयांतराल \(t\) में गतिमान प्रोटॉन की तुलना में स्थिर प्रोटॉन से बहुत अधिक दूरी तय करता है। प्रतिकर्षी कूलॉम बल द्वारा किया गया कार्य स्थितिज ऊर्जा में कमी के बराबर होता है: \(W = U(d) - U(r_t) = \frac{e^2}{4\pi\varepsilon_0}\left(\frac{1}{d} - \frac{1}{r_t}\right)\)। चूंकि समय \(t\) में तय की गई दूरी पॉज़िट्रॉन के लिए बहुत अधिक होती है (\(r_{t,\text{positron}} \gg r_{t,\text{proton}}\)), इसलिए पॉज़िट्रॉन के लिए किया गया कार्य अधिक होता है।</p><p><strong>चरण 4: अंतिम निष्कर्ष</strong><br/>अतः समान समय \(t\) में, पॉज़िट्रॉन की स्थिति में कार्य अधिक होता है, क्योंकि पॉज़िट्रॉन अधिक दूरी तक दूर चला जाता है।</p>]]></text>
-  </generalfeedback>
+  <name><text>NEET_UG_PHYSICS_WORKENERGYANDPOWER_MCQI_MCQ_Q02 - Work done on proton versus positron</text></name>
+  <questiontext format="html"><text><![CDATA[<p>A proton is kept at rest. A positively charged particle is released from rest at a distance \(d\) in its field. Consider two experiments; one in which the charged particle is also a proton and in another, a positron. In the same time \(t\), the work done on the two moving charged particles is</p><hr/><p>एक प्रोटॉन को विरामावस्था में रखा गया है। इसके क्षेत्र में \(d\) दूरी पर एक धनावेशित कण को विरामावस्था से छोड़ा जाता है। दो प्रयोगों पर विचार करें; एक में आवेशित कण भी एक प्रोटॉन है और दूसरे में एक पॉज़िट्रॉन है। समान समय \(t\) में, दोनों गतिमान आवेशित कणों पर किया गया कार्य है</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>Both a proton and a positron carry the same positive charge \(+e\), so they experience the same repulsive electrostatic force \(F(r) = \frac{1}{4\pi\varepsilon_0}\frac{e^2}{r^2}\) at any given distance \(r\) from the stationary proton.</p><p><strong>Step 2: Evaluation</strong><br/>The mass of a positron (\(m_{e^+}\)) is much smaller than the mass of a proton (\(m_p\)). By Newton's second law, the acceleration of the released particle at distance \(r\) is \(a = \frac{F(r)}{m}\). Because \(m_{e^+} \ll m_p\), the positron experiences a much larger acceleration than the proton.</p><p><strong>Step 3: Application</strong><br/>Consequently, in the same time interval \(t\), the positron travels a much larger distance away from the stationary proton than the moving proton does (\(r_{\text{positron}} &gt; r_{\text{proton}}\)). The work done by the electrostatic field equals the decrease in electrostatic potential energy:<br/>\[W = \frac{e^2}{4\pi\varepsilon_0}\left(\frac{1}{d} - \frac{1}{r}\right)\]<br/>Since \(r\) is larger for the positron, \(\frac{1}{r}\) is smaller, making \(\left(\frac{1}{d} - \frac{1}{r}\right)\) larger.</p><p><strong>Step 4: Final Conclusion</strong><br/>In the same time \(t\), the work done is more for the case of a positron, as the positron moves away a larger distance.</p><hr/><p><strong>चरण 1: अवधारणात्मक सिद्धांत</strong><br/>प्रोटॉन और पॉज़िट्रॉन दोनों पर समान धनात्मक आवेश \(+e\) होता है, इसलिए स्थिर प्रोटॉन से किसी भी दूरी \(r\) पर वे समान प्रतिकर्षी स्थिरवैद्युत बल \(F(r) = \frac{1}{4\pi\varepsilon_0}\frac{e^2}{r^2}\) का अनुभव करते हैं।</p><p><strong>चरण 2: मूल्यांकन</strong><br/>पॉज़िट्रॉन का द्रव्यमान (\(m_{e^+}\)) प्रोटॉन के द्रव्यमान (\(m_p\)) की तुलना में बहुत कम होता है। न्यूटन के द्वितीय नियम के अनुसार, दूरी \(r\) पर छोड़े गए कण का त्वरण \(a = \frac{F(r)}{m}\) होता है। चूँकि \(m_{e^+} \ll m_p\), इसलिए पॉज़िट्रॉन को प्रोटॉन की तुलना में बहुत अधिक त्वरण प्राप्त होता है।</p><p><strong>चरण 3: अनुप्रयोग</strong><br/>परिणामस्वरूप, समान समय अंतराल \(t\) में, पॉज़िट्रॉन स्थिर प्रोटॉन से गतिमान प्रोटॉन की तुलना में अधिक दूरी तय करता है (\(r_{\text{positron}} &gt; r_{\text{proton}}\))। स्थिरवैद्युत क्षेत्र द्वारा किया गया कार्य स्थिरवैद्युत स्थितिज ऊर्जा में कमी के बराबर होता है:<br/>\[W = \frac{e^2}{4\pi\varepsilon_0}\left(\frac{1}{d} - \frac{1}{r}\right)\]<br/>चूँकि पॉज़िट्रॉन के लिए \(r\) अधिक है, इसलिए \(\frac{1}{r}\) कम होगा, जिससे \(\left(\frac{1}{d} - \frac{1}{r}\right)\) का मान अधिक होगा।</p><p><strong>चरण 4: अंतिम निष्कर्ष</strong><br/>समान समय \(t\) में, पॉज़िट्रॉन के मामले में किया गया कार्य अधिक होता है, क्योंकि पॉज़िट्रॉन अधिक दूरी तक दूर चला जाता है।</p>]]></text></generalfeedback>
   <defaultgrade>4.0000000</defaultgrade>
   <penalty>0.2500000</penalty>
   <hidden>0</hidden>
   <single>true</single>
   <shuffleanswers>true</shuffleanswers>
   <answernumbering>abc</answernumbering>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>same as the same force law is involved in the two experiments.</p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>less for the case of a positron, as the positron moves away more rapidly and the force on it weakens.</p>]]></text>
-  </answer>
-  <answer fraction="100" format="html">
-    <text><![CDATA[<p>more for the case of a positron, as the positron moves away a larger distance.</p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>same as the work done by charged particle on the stationary proton.</p>]]></text>
-  </answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>same as the same force law is involved in the two experiments.</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>less for the case of a positron, as the positron moves away more rapidly and the force on it weakens.</p>]]></text></answer>
+  <answer fraction="100" format="html"><text><![CDATA[<p>more for the case of a positron, as the positron moves away a larger distance.</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>same as the work done by charged particle on the stationary proton.</p>]]></text></answer>
   <tags>
     <tag><text>standard:neet_ug</text></tag>
-    <tag><text>year:2026</text></tag>
     <tag><text>lang:en</text></tag>
     <tag><text>lang:hi</text></tag>
     <tag><text>subject:physics</text></tag>
+    <tag><text>section:mcq_i</text></tag>
     <tag><text>class:class_11</text></tag>
-    <tag><text>topic:work_energy_and_power</text></tag>
     <tag><text>chapter:work_energy_and_power</text></tag>
     <tag><text>typology:mcq</text></tag>
     <tag><text>difficulty:medium</text></tag>
@@ -87,82 +61,26 @@
   </tags>
 </question>
 <question type="multichoice">
-  <name><text>NEET_UG_PHYSICS_2026_WORK_ENERGY_AND_POWER_MCQ_Q03 - Reaction force of ground on a squatting man</text></name>
-  <questiontext format="html">
-    <text><![CDATA[<p>A man squatting on the ground gets straight up and stand. The force of reaction of ground on the man during the process is</p><hr/><p>जमीन पर उकड़ू बैठा हुआ एक व्यक्ति सीधा खड़ा हो जाता है। इस प्रक्रिया के दौरान व्यक्ति पर जमीन का प्रतिक्रिया बल है</p>]]></text>
-  </questiontext>
-  <generalfeedback format="html">
-    <text><![CDATA[<p><strong>Step 1: Physical Model and Force Analysis</strong><br/>Let the mass of the man be \(m\). The external vertical forces acting on him are the downward force of gravity \(W = mg\) and the upward normal reaction force \(N\) exerted by the ground.</p><p><strong>Step 2: Initial Phase (Upward Acceleration)</strong><br/>To stand up from the squatting position, the center of mass of the man must accelerate upward from rest. According to Newton's second law: \(N - mg = ma\), which yields \(N = m(g + a)\). Since the upward acceleration \(a > 0\), the normal reaction force \(N\) must initially be greater than \(mg\).</p><p><strong>Step 3: Final Phase (Deceleration and Standing at Rest)</strong><br/>As the man approaches the full upright standing position, his upward motion must slow down to come to rest, which requires a downward deceleration momentarily. Once he is standing upright and motionless, his acceleration becomes zero (\(a = 0\)). In this static equilibrium state: \(N - mg = 0 \implies N = mg\).</p><p><strong>Step 4: Final Conclusion</strong><br/>Thus, during the process of getting up and standing, the reaction force of the ground on the man is at first greater than \(mg\), and later becomes equal to \(mg\).</p><hr/><p><strong>चरण 1: भौतिक मॉडल और बल विश्लेषण</strong><br/>माना व्यक्ति का द्रव्यमान \(m\) है। उस पर कार्य करने वाले ऊर्ध्वाधर बाह्य बल नीचे की ओर गुरुत्वीय बल \(W = mg\) और जमीन द्वारा ऊपर की ओर लगाया गया अभिलंब प्रतिक्रिया बल \(N\) हैं।</p><p><strong>चरण 2: प्रारंभिक चरण (ऊपर की ओर त्वरण)</strong><br/>उकड़ू बैठने की स्थिति से खड़े होने के लिए, व्यक्ति के द्रव्यमान केंद्र को विरामावस्था से ऊपर की ओर त्वरित होना चाहिए। न्यूटन के द्वितीय नियम के अनुसार: \(N - mg = ma\), जिससे \(N = m(g + a)\) प्राप्त होता है। चूंकि ऊपर की ओर त्वरण \(a > 0\) है, इसलिए अभिलंब प्रतिक्रिया बल \(N\) प्रारंभ में \(mg\) से अधिक होना चाहिए।</p><p><strong>चरण 3: अंतिम चरण (मंदन और स्थिर खड़ा होना)</strong><br/>जैसे ही व्यक्ति पूरी तरह से सीधा खड़ा होने की स्थिति के करीब पहुँचता है, विरामावस्था में आने के लिए उसकी ऊपर की गति धीमी होनी चाहिए। एक बार जब वह सीधा और स्थिर खड़ा हो जाता है, तो उसका त्वरण शून्य हो जाता है (\(a = 0\))। इस स्थैतिक साम्यावस्था में: \(N - mg = 0 \implies N = mg\)।</p><p><strong>चरण 4: अंतिम निष्कर्ष</strong><br/>इस प्रकार, उठकर सीधे खड़े होने की प्रक्रिया के दौरान व्यक्ति पर जमीन का प्रतिक्रिया बल पहले \(mg\) से अधिक होता है, और बाद में \(mg\) के बराबर हो जाता है।</p>]]></text>
-  </generalfeedback>
+  <name><text>NEET_UG_PHYSICS_WORKENERGYANDPOWER_MCQI_MCQ_Q03 - Normal reaction force on standing man</text></name>
+  <questiontext format="html"><text><![CDATA[<p>A man squatting on the ground gets straight up and stand. The force of reaction of ground on the man during the process is</p><hr/><p>ज़मीन पर उकड़ूँ बैठा एक व्यक्ति सीधा उठकर खड़ा हो जाता है। इस प्रक्रिया के दौरान व्यक्ति पर ज़मीन का प्रतिक्रिया बल है</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>According to Newton's second law, the net vertical force on the man equals the product of his mass \(m\) and vertical acceleration \(a\): \(N - mg = ma\), where \(N\) is the normal reaction force of the ground on the man and \(mg\) is his weight.</p><p><strong>Step 2: Evaluation</strong><br/>When the man begins to get up from a squatting position (initially at rest), his centre of mass must accelerate upward (\(a &gt; 0\)). During this upward acceleration phase, \(N = m(g + a) &gt; mg\).</p><p><strong>Step 3: Application</strong><br/>Once the man reaches the upright standing position and comes to rest, his vertical acceleration becomes zero (\(a = 0\)). At this stage, the normal reaction balances his weight, so \(N = mg\).</p><p><strong>Step 4: Final Conclusion</strong><br/>The force of reaction of the ground on the man is at first greater than \(mg\), and later becomes equal to \(mg\).</p><hr/><p><strong>चरण 1: अवधारणात्मक सिद्धांत</strong><br/>न्यूटन के गति के द्वितीय नियम के अनुसार, व्यक्ति पर लगने वाला कुल ऊर्ध्वाधर बल उसके द्रव्यमान \(m\) और ऊर्ध्वाधर त्वरण \(a\) के गुणनफल के बराबर होता है: \(N - mg = ma\), जहाँ \(N\) व्यक्ति पर ज़मीन का अभिलंब प्रतिक्रिया बल है और \(mg\) उसका भार है।</p><p><strong>चरण 2: मूल्यांकन</strong><br/>जब व्यक्ति उकड़ूँ बैठने की स्थिति (प्रारंभ में विराम) से उठना शुरू करता है, तो उसका द्रव्यमान केंद्र ऊपर की ओर त्वरित होता है (\(a &gt; 0\))। इस ऊपर की ओर त्वरण के चरण के दौरान, \(N = m(g + a) &gt; mg\) होता है।</p><p><strong>चरण 3: अनुप्रयोग</strong><br/>एक बार जब व्यक्ति सीधी खड़ी स्थिति में पहुँच जाता है और विराम में आ जाता है, तो उसका ऊर्ध्वाधर त्वरण शून्य हो जाता है (\(a = 0\))। इस अवस्था में, अभिलंब प्रतिक्रिया बल उसके भार को संतुलित करता है, अतः \(N = mg\) हो जाता है।</p><p><strong>चरण 4: अंतिम निष्कर्ष</strong><br/>व्यक्ति पर ज़मीन का प्रतिक्रिया बल पहले \(mg\) से अधिक होता है, और बाद में \(mg\) के बराबर हो जाता है।</p>]]></text></generalfeedback>
   <defaultgrade>4.0000000</defaultgrade>
   <penalty>0.2500000</penalty>
   <hidden>0</hidden>
   <single>true</single>
   <shuffleanswers>true</shuffleanswers>
   <answernumbering>abc</answernumbering>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>constant and equal to \(mg\) in magnitude.</p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>constant and greater than \(mg\) in magnitude.</p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>variable but always greater than \(mg\).</p>]]></text>
-  </answer>
-  <answer fraction="100" format="html">
-    <text><![CDATA[<p>at first greater than \(mg\), and later becomes equal to \(mg\).</p>]]></text>
-  </answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>constant and equal to \(mg\) in magnitude.</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>constant and greater than \(mg\) in magnitude.</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>variable but always greater than \(mg\).</p>]]></text></answer>
+  <answer fraction="100" format="html"><text><![CDATA[<p>at first greater than \(mg\), and later becomes equal to \(mg\).</p>]]></text></answer>
   <tags>
     <tag><text>standard:neet_ug</text></tag>
-    <tag><text>year:2026</text></tag>
     <tag><text>lang:en</text></tag>
     <tag><text>lang:hi</text></tag>
     <tag><text>subject:physics</text></tag>
+    <tag><text>section:mcq_i</text></tag>
     <tag><text>class:class_11</text></tag>
-    <tag><text>topic:work_energy_and_power</text></tag>
-    <tag><text>chapter:work_energy_and_power</text></tag>
-    <tag><text>typology:mcq</text></tag>
-    <tag><text>difficulty:medium</text></tag>
-    <tag><text>blooms:apply</text></tag>
-    <tag><text>calculation:light</text></tag>
-    <tag><text>media:text</text></tag>
-    <tag><text>multiconcept:false</text></tag>
-  </tags>
-</question>
-<question type="multichoice">
-  <name><text>NEET_UG_PHYSICS_2026_WORK_ENERGY_AND_POWER_MCQ_Q04 - Work done by cycle on the road during skidding</text></name>
-  <questiontext format="html">
-    <text><![CDATA[<p>A bicyclist comes to a skidding stop in \(10\text{ m}\). During this process, the force on the bicycle due to the road is \(200\text{ N}\) and is directly opposed to the motion. The work done by the cycle on the road is</p><hr/><p>एक साइकिल सवार फिसलते हुए \(10\text{ m}\) की दूरी में रुकता है। इस प्रक्रिया के दौरान, सड़क द्वारा साइकिल पर लगाया गया बल \(200\text{ N}\) है और गति के ठीक विपरीत है। साइकिल द्वारा सड़क पर किया गया कार्य है</p>]]></text>
-  </questiontext>
-  <generalfeedback format="html">
-    <text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>Stopping distance of the bicycle: \(s = 10\text{ m}\).<br/>Frictional force exerted on the bicycle by the road: \(F_{\text{road on cycle}} = 200\text{ N}\) (opposing motion).</p><p><strong>Step 2: Definition of Work Done</strong><br/>Work done on a body by a force is defined as \(W = \vec{F} \cdot \vec{d}\), where \(\vec{d}\) is the displacement of the point of application of the force on that specific body.</p><p><strong>Step 3: Identification of Target Work</strong><br/>By Newton's third law, the bicycle exerts an equal and opposite force on the road: \(F_{\text{cycle on road}} = 200\text{ N}\) in the forward direction. However, the road is rigid and firmly fixed to the earth, so the displacement of the road (or any part of it) is strictly zero (\(d_{\text{road}} = 0\)).</p><p><strong>Step 4: Step-by-Step Calculation</strong><br/>\(W_{\text{cycle on road}} = F_{\text{cycle on road}} \times d_{\text{road}} = 200\text{ N} \times 0\text{ m} = 0\text{ J}\).</p><p><strong>Step 5: Final Conclusion</strong><br/>Therefore, the work done by the cycle on the road is zero.</p><hr/><p><strong>चरण 1: दिए गए आँकड़े और स्थितियाँ</strong><br/>साइकिल की रुकने की दूरी: \(s = 10\text{ m}\)।<br/>सड़क द्वारा साइकिल पर लगाया गया घर्षण बल: \(F_{\text{road on cycle}} = 200\text{ N}\) (गति के विपरीत दिशा में)।</p><p><strong>चरण 2: किए गए कार्य की परिभाषा</strong><br/>किसी बल द्वारा किसी वस्तु पर किया गया कार्य \(W = \vec{F} \cdot \vec{d}\) के रूप में परिभाषित होता है, जहाँ \(\vec{d}\) उस वस्तु पर बल के अनुप्रयोग बिंदु का विस्थापन है।</p><p><strong>चरण 3: लक्षित कार्य की पहचान</strong><br/>न्यूटन के तृतीय नियम के अनुसार, साइकिल सड़क पर आगे की दिशा में समान और विपरीत बल लगाती है: \(F_{\text{cycle on road}} = 200\text{ N}\)। चूँकि सड़क दृढ़ और स्थिर है, इसलिए सड़क का विस्थापन शून्य होता है (\(d_{\text{road}} = 0\))।</p><p><strong>चरण 4: गणना</strong><br/>\(W_{\text{cycle on road}} = F_{\text{cycle on road}} \times d_{\text{road}} = 200\text{ N} \times 0\text{ m} = 0\text{ J}\)।</p><p><strong>चरण 5: अंतिम निष्कर्ष</strong><br/>अतः साइकिल द्वारा सड़क पर किया गया कार्य शून्य है।</p>]]></text>
-  </generalfeedback>
-  <defaultgrade>4.0000000</defaultgrade>
-  <penalty>0.2500000</penalty>
-  <hidden>0</hidden>
-  <single>true</single>
-  <shuffleanswers>true</shuffleanswers>
-  <answernumbering>abc</answernumbering>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>\(+ 2000\text{J}\)</p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>\(- 200\text{J}\)</p>]]></text>
-  </answer>
-  <answer fraction="100" format="html">
-    <text><![CDATA[<p>zero</p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>\(- 20,000\text{J}\)</p>]]></text>
-  </answer>
-  <tags>
-    <tag><text>standard:neet_ug</text></tag>
-    <tag><text>year:2026</text></tag>
-    <tag><text>lang:en</text></tag>
-    <tag><text>lang:hi</text></tag>
-    <tag><text>subject:physics</text></tag>
-    <tag><text>class:class_11</text></tag>
-    <tag><text>topic:work_energy_and_power</text></tag>
     <tag><text>chapter:work_energy_and_power</text></tag>
     <tag><text>typology:mcq</text></tag>
     <tag><text>difficulty:easy</text></tag>
@@ -173,39 +91,56 @@
   </tags>
 </question>
 <question type="multichoice">
-  <name><text>NEET_UG_PHYSICS_2026_WORK_ENERGY_AND_POWER_MCQ_Q05 - Conserved quantity during free fall in vacuum</text></name>
-  <questiontext format="html">
-    <text><![CDATA[<p>A body is falling freely under the action of gravity alone in vacuum. Which of the following quantities remain constant during the fall?</p><hr/><p>एक पिंड निर्वात में केवल गुरुत्वाकर्षण के प्रभाव में स्वतंत्र रूप से गिर रहा है। गिरने के दौरान निम्नलिखित में से कौन-सी राशि नियत रहती है?</p>]]></text>
-  </questiontext>
-  <generalfeedback format="html">
-    <text><![CDATA[<p><strong>Step 1: Physical System and Conditions</strong><br/>The body falls freely in a vacuum, which means there is no air drag or viscous friction. The only force acting on the body is the downward gravitational force, which is a conservative force.</p><p><strong>Step 2: Evaluation of Individual Quantities</strong><br/>1. Velocity \(v = gt\) increases continually with time, so the kinetic energy \(K = \frac{1}{2}mv^2\) increases continuously.<br/>2. Height \(h\) above the reference level decreases continuously, so the gravitational potential energy \(U = mgh\) decreases continuously.<br/>3. The linear momentum \(p = mv = mgt\) increases continuously due to the external gravitational force.</p><p><strong>Step 3: Total Mechanical Energy Conservation</strong><br/>According to the principle of conservation of mechanical energy, when only conservative forces do work on an isolated system, the sum of kinetic energy and potential energy remains constant: \(E_{\text{total}} = K + U = \frac{1}{2}mv^2 + mgh = \text{constant}\).</p><p><strong>Step 4: Final Conclusion</strong><br/>Therefore, the quantity that remains constant during the fall is the total mechanical energy.</p><hr/><p><strong>चरण 1: भौतिक निकाय और स्थितियाँ</strong><br/>पिंड निर्वात में स्वतंत्र रूप से गिरता है, जिसका अर्थ है कि कोई वायु प्रतिरोध या घर्षण नहीं है। पिंड पर कार्य करने वाला एकमात्र बल नीचे की ओर गुरुत्वाकर्षण बल है, जो एक संरक्षी बल है।</p><p><strong>चरण 2: व्यक्तिगत राशियों का मूल्यांकन</strong><br/>1. वेग \(v = gt\) समय के साथ लगातार बढ़ता है, इसलिए गतिज ऊर्जा \(K = \frac{1}{2}mv^2\) लगातार बढ़ती है।<br/>2. संदर्भ तल से ऊँचाई \(h\) लगातार घटती है, इसलिए स्थितिज ऊर्जा \(U = mgh\) लगातार घटती है।<br/>3. गुरुत्वाकर्षण बल के कारण रैखिक संवेग \(p = mv = mgt\) लगातार बढ़ता है।</p><p><strong>चरण 3: कुल यांत्रिक ऊर्जा संरक्षण</strong><br/>यांत्रिक ऊर्जा संरक्षण के नियम के अनुसार, जब केवल संरक्षी बल ही कार्य करते हैं, तो गतिज ऊर्जा और स्थितिज ऊर्जा का योग नियत रहता है: \(E_{\text{total}} = K + U = \text{नियत}\)।</p><p><strong>चरण 4: अंतिम निष्कर्ष</strong><br/>अतः गिरने के दौरान जो राशि नियत रहती है, वह कुल यांत्रिक ऊर्जा है।</p>]]></text>
-  </generalfeedback>
+  <name><text>NEET_UG_PHYSICS_WORKENERGYANDPOWER_MCQI_MCQ_Q04 - Work done by cycle on road</text></name>
+  <questiontext format="html"><text><![CDATA[<p>A bicyclist comes to a skidding stop in \(10\text{ m}\). During this process, the force on the bicycle due to the road is \(200\text{ N}\) and is directly opposed to the motion. The work done by the cycle on the road is</p><hr/><p>एक साइकिल चालक फिसलते हुए \(10\text{ m}\) में रुक जाता है। इस प्रक्रिया के दौरान, सड़क के कारण साइकिल पर लगने वाला बल \(200\text{ N}\) है और गति के ठीक विपरीत है। साइकिल द्वारा सड़क पर किया गया कार्य है</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>Displacement of the bicycle: \(s = 10\text{ m}\).<br/>Force on the bicycle due to the road: \(F = 200\text{ N}\) (opposite to motion).<br/>By Newton's third law, the force exerted by the cycle on the road is \(F' = 200\text{ N}\) in the direction of motion of the bicycle.</p><p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>Work done by a force \(\vec{F}\) on a body is \(W = \vec{F} \cdot \vec{s}_{\text{body}}\), where \(\vec{s}_{\text{body}}\) is the displacement of the point of application of the force on that body (here, the road).</p><p><strong>Step 3: Relevant Formulae and Principles</strong><br/>\[W = F' \cdot s_{\text{road}} \cos\theta\]</p><p><strong>Step 4: Step-by-Step Working</strong><br/>The road is stationary and does not undergo any displacement during the skidding process, so \(s_{\text{road}} = 0\text{ m}\).<br/>Substituting \(s_{\text{road}} = 0\) into the work formula:<br/>\[W = (200\text{ N}) \times (0\text{ m}) = 0\text{ J}\]</p><p><strong>Step 5: Check and Final Answer</strong><br/>Note that \(-2000\text{ J}\) is the work done by the road on the cycle, whereas the question asks for the work done by the cycle on the road. Since the road does not move, the work done by the cycle on the road is zero.</p><hr/><p><strong>चरण 1: दिए गए आँकड़े और शर्तें</strong><br/>साइकिल का विस्थापन: \(s = 10\text{ m}\)।<br/>सड़क के कारण साइकिल पर बल: \(F = 200\text{ N}\) (गति के विपरीत)।<br/>न्यूटन के तृतीय नियम से, साइकिल द्वारा सड़क पर लगाया गया बल \(F' = 200\text{ N}\) साइकिल की गति की दिशा में है।</p><p><strong>चरण 2: मान्यताएँ और चिह्न परिपाटी</strong><br/>किसी पिंड पर बल \(\vec{F}\) द्वारा किया गया कार्य \(W = \vec{F} \cdot \vec{s}_{\text{body}}\) होता है, जहाँ \(\vec{s}_{\text{body}}\) उस पिंड (यहाँ सड़क) पर बल के अनुप्रयोग बिंदु का विस्थापन है।</p><p><strong>चरण 3: संबंधित सूत्र और सिद्धांत</strong><br/>\[W = F' \cdot s_{\text{road}} \cos\theta\]</p><p><strong>चरण 4: चरण-दर-चरण हल</strong><br/>फिसलने की प्रक्रिया के दौरान सड़क स्थिर रहती है और उसमें कोई विस्थापन नहीं होता है, इसलिए \(s_{\text{road}} = 0\text{ m}\)।<br/>कार्य के सूत्र में \(s_{\text{road}} = 0\) रखने पर:<br/>\[W = (200\text{ N}) \times (0\text{ m}) = 0\text{ J}\]</p><p><strong>चरण 5: जाँच और अंतिम उत्तर</strong><br/>ध्यान दें कि \(-2000\text{ J}\) सड़क द्वारा साइकिल पर किया गया कार्य है, जबकि प्रश्न में साइकिल द्वारा सड़क पर किया गया कार्य पूछा गया है। चूँकि सड़क गति नहीं करती है, इसलिए साइकिल द्वारा सड़क पर किया गया कार्य शून्य है।</p>]]></text></generalfeedback>
   <defaultgrade>4.0000000</defaultgrade>
   <penalty>0.2500000</penalty>
   <hidden>0</hidden>
   <single>true</single>
   <shuffleanswers>true</shuffleanswers>
   <answernumbering>abc</answernumbering>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>Kinetic energy.</p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>Potential energy.</p>]]></text>
-  </answer>
-  <answer fraction="100" format="html">
-    <text><![CDATA[<p>Total mechanical energy.</p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>Total linear momentum.</p>]]></text>
-  </answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>\(+ 2000\text{ J}\)</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>\(- 200\text{ J}\)</p>]]></text></answer>
+  <answer fraction="100" format="html"><text><![CDATA[<p>zero</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>\(- 20,000\text{ J}\)</p>]]></text></answer>
   <tags>
     <tag><text>standard:neet_ug</text></tag>
-    <tag><text>year:2026</text></tag>
     <tag><text>lang:en</text></tag>
     <tag><text>lang:hi</text></tag>
     <tag><text>subject:physics</text></tag>
+    <tag><text>section:mcq_i</text></tag>
     <tag><text>class:class_11</text></tag>
-    <tag><text>topic:work_energy_and_power</text></tag>
+    <tag><text>chapter:work_energy_and_power</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:easy</text></tag>
+    <tag><text>blooms:apply</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:text</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+<question type="multichoice">
+  <name><text>NEET_UG_PHYSICS_WORKENERGYANDPOWER_MCQI_MCQ_Q05 - Conserved quantity during free fall</text></name>
+  <questiontext format="html"><text><![CDATA[<p>A body is falling freely under the action of gravity alone in vacuum. Which of the following quantities remain constant during the fall?</p><hr/><p>एक पिंड निर्वात में केवल गुरुत्वाकर्षण के प्रभाव में स्वतंत्र रूप से गिर रहा है। गिरने के दौरान निम्नलिखित में से कौन-सी राशि स्थिर रहती है?</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>Gravity is a conservative force. When a body moves solely under the action of conservative forces (with no non-conservative forces such as air resistance in vacuum), its total mechanical energy \(E = K + U\) is conserved.</p><p><strong>Step 2: Evaluation</strong><br/>During free fall, the speed of the body increases continuously, so its kinetic energy (\(K = \frac{1}{2}mv^2\)) and linear momentum (\(p = mv\)) increase, while its gravitational potential energy (\(U = mgh\)) decreases as its height \(h\) decreases.</p><p><strong>Step 3: Application</strong><br/>The decrease in potential energy exactly equals the increase in kinetic energy, keeping their sum \(E = K + U\) constant throughout the fall.</p><p><strong>Step 4: Final Conclusion</strong><br/>The total mechanical energy remains constant during free fall under gravity in vacuum.</p><hr/><p><strong>चरण 1: अवधारणात्मक सिद्धांत</strong><br/>गुरुत्वाकर्षण एक संरक्षी बल है। जब कोई पिंड केवल संरक्षी बलों के प्रभाव में गति करता है (निर्वात में वायु प्रतिरोध जैसे किसी असंरक्षी बल की अनुपस्थिति में), तो उसकी कुल यांत्रिक ऊर्जा \(E = K + U\) संरक्षित रहती है।</p><p><strong>चरण 2: मूल्यांकन</strong><br/>मुक्त पतन के दौरान, पिंड की चाल लगातार बढ़ती है, इसलिए उसकी गतिज ऊर्जा (\(K = \frac{1}{2}mv^2\)) और रैखिक संवेग (\(p = mv\)) बढ़ते हैं, जबकि ऊँचाई \(h\) कम होने के कारण उसकी गुरुत्वीय स्थितिज ऊर्जा (\(U = mgh\)) घटती है।</p><p><strong>चरण 3: अनुप्रयोग</strong><br/>स्थितिज ऊर्जा में होने वाली कमी गतिज ऊर्जा में होने वाली वृद्धि के ठीक बराबर होती है, जिससे गिरने के दौरान उनका योग \(E = K + U\) सदैव स्थिर रहता है।</p><p><strong>चरण 4: अंतिम निष्कर्ष</strong><br/>निर्वात में गुरुत्वाकर्षण के अधीन मुक्त पतन के दौरान कुल यांत्रिक ऊर्जा स्थिर रहती है।</p>]]></text></generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="0" format="html"><text><![CDATA[<p>Kinetic energy.</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>Potential energy.</p>]]></text></answer>
+  <answer fraction="100" format="html"><text><![CDATA[<p>Total mechanical energy.</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>Total linear momentum.</p>]]></text></answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:hi</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>section:mcq_i</text></tag>
+    <tag><text>class:class_11</text></tag>
     <tag><text>chapter:work_energy_and_power</text></tag>
     <tag><text>typology:mcq</text></tag>
     <tag><text>difficulty:easy</text></tag>
@@ -216,39 +151,26 @@
   </tags>
 </question>
 <question type="multichoice">
-  <name><text>NEET_UG_PHYSICS_2026_WORK_ENERGY_AND_POWER_MCQ_Q06 - Conserved quantity during inelastic collision between bodies</text></name>
-  <questiontext format="html">
-    <text><![CDATA[<p>During inelastic collision between two bodies, which of the following quantities always remain conserved?</p><hr/><p>दो पिंडों के बीच अप्रत्यास्थ टक्कर के दौरान, निम्नलिखित में से कौन-सी राशि सदैव संरक्षित रहती है?</p>]]></text>
-  </questiontext>
-  <generalfeedback format="html">
-    <text><![CDATA[<p><strong>Step 1: Conceptual Principle of Collisions</strong><br/>In any collision between two bodies forming an isolated system (where the net external force \(\vec{F}_{\text{ext}} = 0\)), the internal forces of impact between the two bodies are equal in magnitude and opposite in direction according to Newton's third law. Therefore, by the impulse-momentum theorem, the total linear momentum of the system is strictly conserved.</p><p><strong>Step 2: Analysis of Kinetic Energy and Mechanical Energy</strong><br/>In an inelastic collision, by definition, part of the initial mechanical kinetic energy is transformed into non-mechanical forms of energy, such as heat, sound, and internal potential energy of permanent plastic deformation. Therefore, total kinetic energy and total mechanical energy are not conserved. Furthermore, individual speeds of the bodies generally change.</p><p><strong>Step 3: Final Conclusion</strong><br/>Hence, during an inelastic collision between two bodies, the total linear momentum always remains conserved.</p><hr/><p><strong>चरण 1: टक्कर का संकल्पनात्मक सिद्धांत</strong><br/>एक विलगित निकाय (जहाँ कुल बाह्य बल \(\vec{F}_{\text{ext}} = 0\)) बनाने वाले दो पिंडों के बीच किसी भी टक्कर में, न्यूटन के तीसरे नियम के अनुसार आंतरिक संघट्ट बल परिमाण में बराबर और दिशा में विपरीत होते हैं। इसलिए कुल रैखिक संवेग सदैव संरक्षित रहता है।</p><p><strong>चरण 2: गतिज ऊर्जा और यांत्रिक ऊर्जा का विश्लेषण</strong><br/>अप्रत्यास्थ टक्कर में, प्रारंभिक गतिज ऊर्जा का कुछ भाग ऊष्मा, ध्वनि तथा विरूपण ऊर्जा में परिवर्तित हो जाता है। अतः कुल गतिज ऊर्जा और कुल यांत्रिक ऊर्जा संरक्षित नहीं रहती हैं। साथ ही, पिंडों की व्यक्तिगत चालें भी बदल जाती हैं।</p><p><strong>चरण 3: अंतिम निष्कर्ष</strong><br/>अतः दो पिंडों के बीच अप्रत्यास्थ टक्कर के दौरान, कुल रैखिक संवेग सदैव संरक्षित रहता है।</p>]]></text>
-  </generalfeedback>
+  <name><text>NEET_UG_PHYSICS_WORKENERGYANDPOWER_MCQI_MCQ_Q06 - Conserved quantity in inelastic collision</text></name>
+  <questiontext format="html"><text><![CDATA[<p>During inelastic collision between two bodies, which of the following quantities always remain conserved?</p><hr/><p>दो पिंडों के बीच अप्रत्यास्थ संघट्ट (inelastic collision) के दौरान, निम्नलिखित में से कौन-सी राशि सदैव संरक्षित रहती है?</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>In any collision (elastic or inelastic) between two bodies, the forces exerted by the bodies on each other are internal to the two-body system and form action-reaction pairs.</p><p><strong>Step 2: Evaluation</strong><br/>Since no net external force acts on the colliding system during the brief collision interval, the rate of change of total linear momentum is zero (\(\frac{d\vec{P}_{\text{total}}}{dt} = \vec{F}_{\text{ext}} = 0\)).</p><p><strong>Step 3: Application</strong><br/>In an inelastic collision, part of the kinetic energy is dissipated into heat, sound, or deformation energy, so total kinetic energy and total mechanical energy are not conserved, and individual speeds change. However, total linear momentum is always conserved.</p><p><strong>Step 4: Final Conclusion</strong><br/>During an inelastic collision between two bodies, total linear momentum always remains conserved.</p><hr/><p><strong>चरण 1: अवधारणात्मक सिद्धांत</strong><br/>दो पिंडों के बीच किसी भी संघट्ट (प्रत्यास्थ या अप्रत्यास्थ) में, पिंडों द्वारा एक-दूसरे पर लगाए गए बल दो-पिंड निकाय के लिए आंतरिक बल होते हैं और क्रिया-प्रतिक्रिया युग्म बनाते हैं।</p><p><strong>चरण 2: मूल्यांकन</strong><br/>चूँकि संघट्ट के अल्प समय अंतराल के दौरान निकाय पर कोई कुल बाह्य बल कार्य नहीं करता है, इसलिए कुल रैखिक संवेग के परिवर्तन की दर शून्य होती है (\(\frac{d\vec{P}_{\text{total}}}{dt} = \vec{F}_{\text{ext}} = 0\))।</p><p><strong>चरण 3: अनुप्रयोग</strong><br/>अप्रत्यास्थ संघट्ट में गतिज ऊर्जा का कुछ भाग ऊष्मा, ध्वनि या विरूपण ऊर्जा के रूप में क्षय हो जाता है, इसलिए कुल गतिज ऊर्जा और कुल यांत्रिक ऊर्जा संरक्षित नहीं रहती हैं, तथा प्रत्येक पिंड की चाल बदल जाती है। तथापि, कुल रैखिक संवेग सदैव संरक्षित रहता है।</p><p><strong>चरण 4: अंतिम निष्कर्ष</strong><br/>दो पिंडों के बीच अप्रत्यास्थ संघट्ट के दौरान, कुल रैखिक संवेग सदैव संरक्षित रहता है।</p>]]></text></generalfeedback>
   <defaultgrade>4.0000000</defaultgrade>
   <penalty>0.2500000</penalty>
   <hidden>0</hidden>
   <single>true</single>
   <shuffleanswers>true</shuffleanswers>
   <answernumbering>abc</answernumbering>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>Total kinetic energy.</p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>Total mechanical energy.</p>]]></text>
-  </answer>
-  <answer fraction="100" format="html">
-    <text><![CDATA[<p>Total linear momentum.</p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>Speed of each body.</p>]]></text>
-  </answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>Total kinetic energy.</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>Total mechanical energy.</p>]]></text></answer>
+  <answer fraction="100" format="html"><text><![CDATA[<p>Total linear momentum.</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>Speed of each body.</p>]]></text></answer>
   <tags>
     <tag><text>standard:neet_ug</text></tag>
-    <tag><text>year:2026</text></tag>
     <tag><text>lang:en</text></tag>
     <tag><text>lang:hi</text></tag>
     <tag><text>subject:physics</text></tag>
+    <tag><text>section:mcq_i</text></tag>
     <tag><text>class:class_11</text></tag>
-    <tag><text>topic:work_energy_and_power</text></tag>
     <tag><text>chapter:work_energy_and_power</text></tag>
     <tag><text>typology:mcq</text></tag>
     <tag><text>difficulty:easy</text></tag>
@@ -259,82 +181,56 @@
   </tags>
 </question>
 <question type="multichoice">
-  <name><text>NEET_UG_PHYSICS_2026_WORK_ENERGY_AND_POWER_MCQ_Q07 - Speed and time for stones on inclined tracks</text></name>
-  <questiontext format="html">
-    <text><![CDATA[<p>Two inclined frictionless tracks, one gradual and the other steep meet at A from where two stones are allowed to slide down from rest, one on each track as shown in Fig. 6.1.</p><p><img src="@@PLUGINFILE@@/img-0.jpeg" alt="Fig. 6.1" /></p><p>Which of the following statement is correct?</p><hr/><p>दो घर्षणरहित आनत पथ, एक मंद ढाल वाला और दूसरा तीव्र ढाल वाला, A पर मिलते हैं जहाँ से दो पत्थरों को विरामावस्था से नीचे फिसलने दिया जाता है, प्रत्येक पथ पर एक पत्थर, जैसा कि चित्र 6.1 में दिखाया गया है।</p><p><img src="@@PLUGINFILE@@/img-0.jpeg" alt="Fig. 6.1" /></p><p>निम्नलिखित में से कौन-सा कथन सही है?</p>]]></text>
-  </questiontext>
-  <generalfeedback format="html">
-    <text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>Both stones start from rest from the same apex point A at height \(h\). Track I has inclination angle \(\theta_1\) and Track II has inclination angle \(\theta_2\), where Track II is steeper than Track I (\(\theta_2 > \theta_1\)). Both tracks are frictionless.</p><p><strong>Step 2: Speed at the Bottom</strong><br/>Because the tracks are frictionless and the normal force does no work (\(\vec{N} \perp \vec{v}\)), total mechanical energy is conserved for each stone: \(mgh = \frac{1}{2}mv^2 \implies v = \sqrt{2gh}\). Since both stones slide down through the identical vertical height \(h\), both stones reach the bottom with the exact same speed.</p><p><strong>Step 3: Time Taken to Reach the Bottom</strong><br/>The length of an inclined plane of vertical height \(h\) and inclination \(\theta\) is \(s = \frac{h}{\sin\theta}\). The acceleration down the plane is \(a = g\sin\theta\). Starting from rest, using \(s = \frac{1}{2}at^2\):<br/>\(\frac{h}{\sin\theta} = \frac{1}{2}(g\sin\theta)t^2 \implies t = \frac{1}{\sin\theta}\sqrt{\frac{2h}{g}}\).<br/>Because Track II is steeper (\(\theta_2 > \theta_1\)), \(\sin\theta_2 > \sin\theta_1\), which directly implies \(t_2 < t_1\). Thus, stone II reaches the bottom earlier than stone I.</p><p><strong>Step 4: Final Conclusion</strong><br/>Both the stones reach the bottom with the same speed and stone II reaches the bottom earlier than stone I.</p><hr/><p><strong>चरण 1: दिए गए आँकड़े और स्थितियाँ</strong><br/>दोनों पत्थर समान ऊँचाई \(h\) पर स्थित शीर्ष बिंदु A से विरामावस्था से फिसलते हैं। पथ I का झुकाव कोण \(\theta_1\) और पथ II का झुकाव कोण \(\theta_2\) है, जहाँ पथ II अधिक तीव्र ढाल वाला है (\(\theta_2 > \theta_1\))। दोनों पथ घर्षणरहित हैं।</p><p><strong>चरण 2: तल पर चाल</strong><br/>घर्षण अनुपस्थित होने और अभिलंब बल द्वारा किया गया कार्य शून्य होने के कारण, यांत्रिक ऊर्जा संरक्षित रहती है: \(mgh = \frac{1}{2}mv^2 \implies v = \sqrt{2gh}\)। चूंकि दोनों समान ऊर्ध्वाधर ऊँचाई \(h\) से गिरते हैं, इसलिए दोनों पत्थर समान चाल से नीचे पहुँचते हैं।</p><p><strong>चरण 3: तल तक पहुँचने में लगा समय</strong><br/>आनत तल की लंबाई \(s = \frac{h}{\sin\theta}\) तथा त्वरण \(a = g\sin\theta\) होता है। संबंध \(s = \frac{1}{2}at^2\) से:<br/>\(t = \frac{1}{\sin\theta}\sqrt{\frac{2h}{g}}\)।<br/>चूंकि पथ II तीव्र ढाल वाला है (\(\theta_2 > \theta_1\)), इसलिए \(\sin\theta_2 > \sin\theta_1\), जिसका अर्थ है \(t_2 < t_1\)। अतः पत्थर II, पत्थर I से पहले पहुँचता है।</p><p><strong>चरण 4: अंतिम निष्कर्ष</strong><br/>दोनों पत्थर समान चाल से नीचे पहुँचते हैं और पत्थर II, पत्थर I की तुलना में पहले नीचे पहुँचता है।</p>]]></text>
-  </generalfeedback>
+  <name><text>NEET_UG_PHYSICS_WORKENERGYANDPOWER_MCQI_MCQ_Q07 - Stones sliding down inclined tracks</text></name>
+  <questiontext format="html"><text><![CDATA[<p>Two inclined frictionless tracks, one gradual and the other steep meet at A from where two stones are allowed to slide down from rest, one on each track as shown in Fig. 6.1.</p><p><img src="@@PLUGINFILE@@/img-0.jpeg" alt="Fig. 6.1" /></p><p>Which of the following statement is correct?</p><hr/><p>दो घर्षणरहित आनत पथ, एक कम ढाल वाला तथा दूसरा अधिक ढाल वाला, बिंदु A पर मिलते हैं जहाँ से दो पत्थरों को प्रत्येक पथ पर विरामावस्था से नीचे फिसलने दिया जाता है, जैसा कि चित्र 6.1 में दर्शाया गया है।</p><p><img src="@@PLUGINFILE@@/img-0.jpeg" alt="Fig. 6.1" /></p><p>निम्नलिखित में से कौन-सा कथन सही है?</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>Both tracks start at height \(h\) at point A and end at the same horizontal level BC. Track AB has a smaller inclination \(\theta_1\) (gradual, for stone I) and track AC has a larger inclination \(\theta_2 &gt; \theta_1\) (steep, for stone II). Both tracks are frictionless and both stones start from rest (\(u = 0\)).</p><p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>Taking the horizontal base BC as the zero reference level for gravitational potential energy, there is no friction or air drag, so mechanical energy is conserved.</p><p><strong>Step 3: Relevant Formulae and Principles</strong><br/>Conservation of mechanical energy: \(mgh = \frac{1}{2}mv^2\).<br/>Kinematics along an incline of angle \(\theta\) and length \(l = \frac{h}{\sin\theta}\): acceleration \(a = g\sin\theta\) and \(l = \frac{1}{2}at^2\).</p><p><strong>Step 4: Step-by-Step Working</strong><br/>1. Speed at the bottom:<br/>\[v = \sqrt{2gh}\]<br/>Since \(h\) is the same for both tracks, both stones reach the bottom with the same speed.<br/>2. Time taken to reach the bottom:<br/>\[\frac{h}{\sin\theta} = \frac{1}{2}(g\sin\theta)t^2 \implies t = \frac{1}{\sin\theta}\sqrt{\frac{2h}{g}}\]<br/>Since \(\theta_2 &gt; \theta_1\), we have \(\sin\theta_2 &gt; \sin\theta_1\), which gives \(t_2 &lt; t_1\).</p><p><strong>Step 5: Check and Final Answer</strong><br/>Both \(v\) and \(t\) have valid dimensions (\(\text{m/s}\) and \(\text{s}\)). Thus, both stones reach the bottom with the same speed, and stone II (on the steeper track) reaches the bottom earlier than stone I.</p><hr/><p><strong>चरण 1: दिए गए आँकड़े और शर्तें</strong><br/>दोनों पथ बिंदु A पर ऊँचाई \(h\) से शुरू होते हैं और समान क्षैतिज स्तर BC पर समाप्त होते हैं। पथ AB का झुकाव कम \(\theta_1\) है (कम ढाल वाला, पत्थर I के लिए) और पथ AC का झुकाव अधिक \(\theta_2 &gt; \theta_1\) है (अधिक ढाल वाला, पत्थर II के लिए)। दोनों पथ घर्षणरहित हैं और दोनों पत्थर विरामावस्था (\(u = 0\)) से चलना प्रारंभ करते हैं।</p><p><strong>चरण 2: मान्यताएँ और चिह्न परिपाटी</strong><br/>क्षैतिज आधार BC को गुरुत्वीय स्थितिज ऊर्जा का शून्य संदर्भ स्तर मानते हुए, यहाँ कोई घर्षण या वायु प्रतिरोध नहीं है, इसलिए यांत्रिक ऊर्जा संरक्षित रहती है।</p><p><strong>चरण 3: संबंधित सूत्र और सिद्धांत</strong><br/>यांत्रिक ऊर्जा संरक्षण: \(mgh = \frac{1}{2}mv^2\)।<br/>कोण \(\theta\) और लंबाई \(l = \frac{h}{\sin\theta}\) वाले आनत तल के अनुदिश गतिकी: त्वरण \(a = g\sin\theta\) और \(l = \frac{1}{2}at^2\)।</p><p><strong>चरण 4: चरण-दर-चरण हल</strong><br/>1. तली पर चाल:<br/>\[v = \sqrt{2gh}\]<br/>चूँकि दोनों पथों के लिए \(h\) समान है, इसलिए दोनों पत्थर समान चाल से तली पर पहुँचते हैं।<br/>2. तली तक पहुँचने में लगा समय:<br/>\[\frac{h}{\sin\theta} = \frac{1}{2}(g\sin\theta)t^2 \implies t = \frac{1}{\sin\theta}\sqrt{\frac{2h}{g}}\]<br/>चूँकि \(\theta_2 &gt; \theta_1\), इसलिए \(\sin\theta_2 &gt; \sin\theta_1\), जिससे \(t_2 &lt; t_1\) प्राप्त होता है।</p><p><strong>चरण 5: जाँच और अंतिम उत्तर</strong><br/>\(v\) और \(t\) दोनों की विमाएँ सही हैं (\(\text{m/s}\) और \(\text{s}\))। अतः दोनों पत्थर समान चाल से तली पर पहुँचते हैं और पत्थर II (अधिक ढाल वाले पथ पर) पत्थर I से पहले तली पर पहुँचता है।</p>]]></text></generalfeedback>
   <defaultgrade>4.0000000</defaultgrade>
   <penalty>0.2500000</penalty>
   <hidden>0</hidden>
   <single>true</single>
   <shuffleanswers>true</shuffleanswers>
   <answernumbering>abc</answernumbering>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>Both the stones reach the bottom at the same time but not with the same speed.</p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>Both the stones reach the bottom with the same speed and stone I reaches the bottom earlier than stone II.</p>]]></text>
-  </answer>
-  <answer fraction="100" format="html">
-    <text><![CDATA[<p>Both the stones reach the bottom with the same speed and stone II reaches the bottom earlier than stone I.</p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>Both the stones reach the bottom at different times and with different speeds.</p>]]></text>
-  </answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>Both the stones reach the bottom at the same time but not with the same speed.</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>Both the stones reach the bottom with the same speed and stone I reaches the bottom earlier than stone II.</p>]]></text></answer>
+  <answer fraction="100" format="html"><text><![CDATA[<p>Both the stones reach the bottom with the same speed and stone II reaches the bottom earlier than stone I.</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>Both the stones reach the bottom at different times and with different speeds.</p>]]></text></answer>
   <tags>
     <tag><text>standard:neet_ug</text></tag>
-    <tag><text>year:2026</text></tag>
     <tag><text>lang:en</text></tag>
     <tag><text>lang:hi</text></tag>
     <tag><text>subject:physics</text></tag>
+    <tag><text>section:mcq_i</text></tag>
     <tag><text>class:class_11</text></tag>
-    <tag><text>topic:work_energy_and_power</text></tag>
     <tag><text>chapter:work_energy_and_power</text></tag>
     <tag><text>typology:mcq</text></tag>
     <tag><text>difficulty:medium</text></tag>
     <tag><text>blooms:apply</text></tag>
-    <tag><text>calculation:light</text></tag>
+    <tag><text>calculation:moderate</text></tag>
     <tag><text>media:diagram</text></tag>
     <tag><text>multiconcept:true</text></tag>
   </tags>
 </question>
 <question type="multichoice">
-  <name><text>NEET_UG_PHYSICS_2026_WORK_ENERGY_AND_POWER_MCQ_Q08 - Potential and kinetic energy at turning point in SHM</text></name>
-  <questiontext format="html">
-    <text><![CDATA[<p>The potential energy function for a particle executing linear SHM is given by \(V(x) = \frac{1}{2} kx^2\) where \(k\) is the force constant of the oscillator (Fig. 6.2). For \(k = 0.5\text{ N/m}\), the graph of \(V(x)\) versus \(x\) is shown in the figure. A particle of total energy \(E\) turns back when it reaches \(x = \pm x_m\). If \(V\) and \(K\) indicate the P.E. and K.E., respectively of the particle at \(x = +x_m\), then which of the following is correct?</p><p><img src="@@PLUGINFILE@@/img-1.jpeg" alt="Fig. 6.2" /></p><hr/><p>सरल रेखा में सरल आवर्त गति कर रहे एक कण का स्थितिज ऊर्जा फलन \(V(x) = \frac{1}{2} kx^2\) द्वारा दिया गया है, जहाँ \(k\) दोलक का बल नियतांक है (चित्र 6.2)। \(k = 0.5\text{ N/m}\) के लिए, \(x\) के सापेक्ष \(V(x)\) का ग्राफ चित्र में दिखाया गया है। कुल ऊर्जा \(E\) वाला एक कण \(x = \pm x_m\) पर पहुँचने पर वापस लौटता है। यदि \(V\) और \(K\) क्रमशः \(x = +x_m\) पर कण की स्थितिज ऊर्जा और गतिज ऊर्जा को दर्शाते हैं, तो निम्नलिखित में से कौन-सा सही है?</p><p><img src="@@PLUGINFILE@@/img-1.jpeg" alt="Fig. 6.2" /></p>]]></text>
-  </questiontext>
-  <generalfeedback format="html">
-    <text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>Potential energy function: \(V(x) = \frac{1}{2}kx^2\).<br/>Force constant: \(k = 0.5\text{ N/m}\).<br/>Total energy of oscillator: \(E\).<br/>Turning points: \(x = \pm x_m\).</p><p><strong>Step 2: Physical Principle of Turning Points</strong><br/>At the extreme limits of motion \(x = \pm x_m\), the particle momentarily comes to rest to reverse its direction of motion. Hence, its instantaneous speed is zero (\(v = 0\)).</p><p><strong>Step 3: Energy Relationship</strong><br/>Because the speed is zero at \(x = +x_m\), the kinetic energy is \(K = \frac{1}{2}mv^2 = 0\). Total mechanical energy in a conservative system is the sum of kinetic and potential energy: \(E = K + V\). Substituting \(K = 0\) gives \(V = E\).</p><p><strong>Step 4: Final Conclusion</strong><br/>At the turning point \(x = +x_m\), the values are \(V = E, \quad K = 0\).</p><hr/><p><strong>चरण 1: दिए गए आँकड़े और स्थितियाँ</strong><br/>स्थितिज ऊर्जा फलन: \(V(x) = \frac{1}{2}kx^2\)।<br/>बल नियतांक: \(k = 0.5\text{ N/m}\)।<br/>कुल ऊर्जा: \(E\)।<br/>विपरीत दिशा में मुड़ने के बिंदु: \(x = \pm x_m\)।</p><p><strong>चरण 2: मुड़ने के बिंदुओं का भौतिक सिद्धांत</strong><br/>गति के चरम बिंदुओं \(x = \pm x_m\) पर, कण गति की दिशा बदलने के लिए क्षणिक रूप से रुकता है, इसलिए तात्कालिक चाल शून्य होती है (\(v = 0\))।</p><p><strong>चरण 3: ऊर्जा संबंध</strong><br/>चाल शून्य होने से गतिज ऊर्जा \(K = \frac{1}{2}mv^2 = 0\) होती है। कुल यांत्रिक ऊर्जा \(E = K + V\) होती है, अतः \(K = 0\) रखने पर \(V = E\) प्राप्त होता है।</p><p><strong>चरण 4: अंतिम निष्कर्ष</strong><br/>चरम बिंदु \(x = +x_m\) पर मान \(V = E, \quad K = 0\) हैं।</p>]]></text>
-  </generalfeedback>
+  <name><text>NEET_UG_PHYSICS_WORKENERGYANDPOWER_MCQI_MCQ_Q08 - Potential and kinetic energy at turning point</text></name>
+  <questiontext format="html"><text><![CDATA[<p>The potential energy function for a particle executing linear SHM is given by \(V(x) = \frac{1}{2} kx^2\) where \(k\) is the force constant of the oscillator (Fig. 6.2). For \(k = 0.5\text{ N/m}\), the graph of \(V(x)\) versus \(x\) is shown in the figure. A particle of total energy \(E\) turns back when it reaches \(x = \pm x_{m}\). If \(V\) and \(K\) indicate the P.E. and K.E., respectively of the particle at \(x = +x_{m}\), then which of the following is correct?</p><p><img src="@@PLUGINFILE@@/img-1.jpeg" alt="Fig. 6.2" /></p><hr/><p>रैखिक सरल आवर्त गति (SHM) करते हुए एक कण के लिए स्थितिज ऊर्जा फलन \(V(x) = \frac{1}{2} kx^2\) द्वारा दिया जाता है, जहाँ \(k\) दोलक का बल नियतांक है (चित्र 6.2)। \(k = 0.5\text{ N/m}\) के लिए, \(V(x)\) बनाम \(x\) का ग्राफ चित्र में दर्शाया गया है। कुल ऊर्जा \(E\) वाला एक कण \(x = \pm x_{m}\) पर पहुँचने पर वापस मुड़ जाता है। यदि \(V\) और \(K\) क्रमशः \(x = +x_{m}\) पर कण की स्थितिज ऊर्जा (P.E.) और गतिज ऊर्जा (K.E.) को दर्शाते हैं, तो निम्नलिखित में से कौन-सा सही है?</p><p><img src="@@PLUGINFILE@@/img-1.jpeg" alt="Fig. 6.2" /></p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>Potential energy function: \(V(x) = \frac{1}{2}kx^2\) with \(k = 0.5\text{ N/m}\).<br/>Total mechanical energy: \(E\).<br/>Turning points: \(x = \pm x_m\), where the horizontal line of total energy \(E\) intersects the parabolic potential energy curve \(V(x)\).</p><p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>The oscillator is conservative, so total mechanical energy \(E = V + K\) remains constant throughout the motion.</p><p><strong>Step 3: Relevant Formulae and Principles</strong><br/>Total energy \(E = V(x) + K(x)\), where \(K = \frac{1}{2}mv^2\).</p><p><strong>Step 4: Step-by-Step Working</strong><br/>At the extreme position (turning point) \(x = +x_m\), the particle momentarily comes to rest before reversing its direction, so its velocity is \(v = 0\).<br/>Therefore, the kinetic energy at \(x = +x_m\) is:<br/>\[K = \frac{1}{2}m(0)^2 = 0\]<br/>Substituting \(K = 0\) into the total energy equation \(E = V + K\):<br/>\[E = V + 0 \implies V = E\]</p><p><strong>Step 5: Check and Final Answer</strong><br/>At the turning point \(x = +x_m\), all of the particle's mechanical energy is in the form of potential energy. Thus, \(V = E\) and \(K = 0\).</p><hr/><p><strong>चरण 1: दिए गए आँकड़े और शर्तें</strong><br/>स्थितिज ऊर्जा फलन: \(V(x) = \frac{1}{2}kx^2\), जहाँ \(k = 0.5\text{ N/m}\)।<br/>कुल यांत्रिक ऊर्जा: \(E\)।<br/>प्रत्यावर्तन बिंदु (turning points): \(x = \pm x_m\), जहाँ कुल ऊर्जा \(E\) की क्षैतिज रेखा परवलयाकार स्थितिज ऊर्जा वक्र \(V(x)\) को काटती है।</p><p><strong>चरण 2: मान्यताएँ और चिह्न परिपाटी</strong><br/>दोलक एक संरक्षी निकाय है, इसलिए पूरी गति के दौरान कुल यांत्रिक ऊर्जा \(E = V + K\) स्थिर रहती है।</p><p><strong>चरण 3: संबंधित सूत्र और सिद्धांत</strong><br/>कुल ऊर्जा \(E = V(x) + K(x)\), जहाँ \(K = \frac{1}{2}mv^2\)।</p><p><strong>चरण 4: चरण-दर-चरण हल</strong><br/>चरम स्थिति (प्रत्यावर्तन बिंदु) \(x = +x_m\) पर, कण अपनी दिशा बदलने से पहले क्षण भर के लिए विराम में आ जाता है, इसलिए उसका वेग \(v = 0\) होता है।<br/>अतः, \(x = +x_m\) पर गतिज ऊर्जा है:<br/>\[K = \frac{1}{2}m(0)^2 = 0\]<br/>कुल ऊर्जा समीकरण \(E = V + K\) में \(K = 0\) रखने पर:<br/>\[E = V + 0 \implies V = E\]</p><p><strong>चरण 5: जाँच और अंतिम उत्तर</strong><br/>प्रत्यावर्तन बिंदु \(x = +x_m\) पर, कण की संपूर्ण यांत्रिक ऊर्जा स्थितिज ऊर्जा के रूप में होती है। अतः, \(V = E\) तथा \(K = 0\)।</p>]]></text></generalfeedback>
   <defaultgrade>4.0000000</defaultgrade>
   <penalty>0.2500000</penalty>
   <hidden>0</hidden>
   <single>true</single>
   <shuffleanswers>true</shuffleanswers>
   <answernumbering>abc</answernumbering>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>\(V = 0, \quad K = E\)</p>]]></text>
-  </answer>
-  <answer fraction="100" format="html">
-    <text><![CDATA[<p>\(V = E, \quad K = 0\)</p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>\(V < E,\quad K = 0\)</p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>\(V = 0, \quad K < E.\)</p>]]></text>
-  </answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>\(V = 0, \quad K = E\)</p>]]></text></answer>
+  <answer fraction="100" format="html"><text><![CDATA[<p>\(V = E, \quad K = 0\)</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>\(V &lt; E, \quad K = 0\)</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>\(V = 0, \quad K &lt; E\)</p>]]></text></answer>
   <tags>
     <tag><text>standard:neet_ug</text></tag>
-    <tag><text>year:2026</text></tag>
     <tag><text>lang:en</text></tag>
     <tag><text>lang:hi</text></tag>
     <tag><text>subject:physics</text></tag>
+    <tag><text>section:mcq_i</text></tag>
     <tag><text>class:class_11</text></tag>
-    <tag><text>topic:work_energy_and_power</text></tag>
     <tag><text>chapter:work_energy_and_power</text></tag>
     <tag><text>typology:mcq</text></tag>
     <tag><text>difficulty:easy</text></tag>
@@ -345,39 +241,26 @@
   </tags>
 </question>
 <question type="multichoice">
-  <name><text>NEET_UG_PHYSICS_2026_WORK_ENERGY_AND_POWER_MCQ_Q09 - Elastic collision of ball bearings on frictionless table</text></name>
-  <questiontext format="html">
-    <text><![CDATA[<p>Two identical ball bearings in contact with each other and resting on a frictionless table are hit head-on by another ball bearing of the same mass moving initially with a speed \(V\) as shown in Fig. 6.3.</p><p><img src="@@PLUGINFILE@@/img-2.jpeg" alt="Fig. 6.3 ball 1" /><img src="@@PLUGINFILE@@/img-3.jpeg" alt="Fig. 6.3 balls 2 and 3" /></p><p>If the collision is elastic, which of the following (Fig. 6.4) is a possible result after collision?</p>]]></text>
-  </questiontext>
-  <generalfeedback format="html">
-    <text><![CDATA[<p><strong>Step 1: Given Data and Initial State</strong><br/>Let the mass of each identical ball bearing be \(m\).<br/>Initial state before collision: Ball 1 moves with speed \(V\); Balls 2 and 3 are at rest in contact.<br/>Initial total linear momentum: \(p_i = mV\).<br/>Initial total kinetic energy: \(K_i = \frac{1}{2}mV^2\).</p><p><strong>Step 2: Physical Principle of Elastic Collisions</strong><br/>For an elastic collision, both total linear momentum and total kinetic energy must be simultaneously conserved.</p><p><strong>Step 3: Evaluation of the Outcomes</strong><br/>1. When Ball 1 comes to rest while Balls 2 and 3 move together with speed \(\frac{V}{2}\):<br/>Total momentum: \(p_f = (2m)\left(\frac{V}{2}\right) = mV\) (momentum is conserved).<br/>Total kinetic energy: \(K_f = \frac{1}{2}(2m)\left(\frac{V}{2}\right)^2 = \frac{1}{4}mV^2 = \frac{1}{2}K_i \ne K_i\) (kinetic energy is not conserved).<br/>2. When Balls 1 and 2 come to rest while Ball 3 moves forward with speed \(V\):<br/>Total momentum: \(p_f = mV\) (momentum is conserved).<br/>Total kinetic energy: \(K_f = \frac{1}{2}mV^2 = K_i\) (kinetic energy is conserved).<br/>3. When all three balls move together with speed \(\frac{V}{3}\):<br/>Total momentum: \(p_f = (3m)\left(\frac{V}{3}\right) = mV\) (momentum is conserved).<br/>Total kinetic energy: \(K_f = \frac{1}{2}(3m)\left(\frac{V}{3}\right)^2 = \frac{1}{6}mV^2 = \frac{1}{3}K_i \ne K_i\) (kinetic energy is not conserved).</p><p><strong>Step 4: Final Conclusion</strong><br/>Because only the case where balls 1 and 2 remain at rest with zero velocity and ball 3 moves with speed \(V\) conserves both linear momentum and kinetic energy, this is the only physically possible outcome for an elastic collision.</p><hr/><p><strong>चरण 1: दिए गए आँकड़े और प्रारंभिक अवस्था</strong><br/>प्रत्येक सर्वसम गेंद का द्रव्यमान \(m\) है।<br/>प्रारंभिक अवस्था: गेंद 1 चाल \(V\) से गति करती है; गेंद 2 और 3 संपर्क में विरामावस्था में हैं।<br/>प्रारंभिक कुल संवेग: \(p_i = mV\)।<br/>प्रारंभिक कुल गतिज ऊर्जा: \(K_i = \frac{1}{2}mV^2\)।</p><p><strong>चरण 2: प्रत्यास्थ टक्कर का भौतिक सिद्धांत</strong><br/>प्रत्यास्थ टक्कर के लिए, कुल रैखिक संवेग और कुल गतिज ऊर्जा दोनों एक साथ संरक्षित रहने चाहिए।</p><p><strong>चरण 3: परिणामों का मूल्यांकन</strong><br/>1. यदि गेंद 1 विरामावस्था में रहे और गेंद 2 व 3 एक साथ \(\frac{V}{2}\) चाल से चलें, तो गतिज ऊर्जा \(\frac{1}{4}mV^2\) रह जाती है, जो प्रारंभिक गतिज ऊर्जा के बराबर नहीं है।<br/>2. यदि गेंद 1 और 2 विरामावस्था में रहें तथा केवल गेंद 3 चाल \(V\) से गति करे, तो कुल संवेग \(mV\) तथा गतिज ऊर्जा \(\frac{1}{2}mV^2\) दोनों पूर्णतः संरक्षित रहते हैं।<br/>3. यदि तीनों गेंदें मिलकर \(\frac{V}{3}\) चाल से चलें, तो गतिज ऊर्जा केवल \(\frac{1}{6}mV^2\) रह जाती है।</p><p><strong>चरण 4: अंतिम निष्कर्ष</strong><br/>अतः केवल वही परिणाम संभव है जिसमें गेंद 1 और 2 विरामावस्था में रहती हैं तथा गेंद 3 चाल \(V\) से आगे बढ़ती है।</p>]]></text>
-  </generalfeedback>
+  <name><text>NEET_UG_PHYSICS_WORKENERGYANDPOWER_MCQI_MCQ_Q09 - Elastic collision of three ball bearings</text></name>
+  <questiontext format="html"><text><![CDATA[<p>Two identical ball bearings in contact with each other and resting on a frictionless table are hit head-on by another ball bearing of the same mass moving initially with a speed \(V\) as shown in Fig. 6.3.</p><p><img src="@@PLUGINFILE@@/img-2.jpeg" alt="Ball 1" /> <img src="@@PLUGINFILE@@/img-3.jpeg" alt="Balls 2 and 3" /></p><p>If the collision is elastic, which of the following (Fig. 6.4) is a possible result after collision?</p><hr/><p>एक घर्षणरहित मेज़ पर एक-दूसरे के संपर्क में विरामावस्था में रखी दो समरूप बॉल बेयरिंग्स से, समान द्रव्यमान की एक अन्य बॉल बेयरिंग जो प्रारंभ में चाल \(V\) से गतिमान है, सम्मुख टक्कर करती है जैसा कि चित्र 6.3 में दर्शाया गया है।</p><p><img src="@@PLUGINFILE@@/img-2.jpeg" alt="Ball 1" /> <img src="@@PLUGINFILE@@/img-3.jpeg" alt="Balls 2 and 3" /></p><p>यदि टक्कर प्रत्यास्थ है, तो टक्कर के बाद निम्नलिखित में से (चित्र 6.4) कौन-सा संभावित परिणाम है?</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>Three identical ball bearings (each of mass \(m\)) are on a frictionless horizontal table. Ball 1 moves with initial velocity \(V\), while balls 2 and 3 are initially at rest in contact. The collision is head-on and elastic.</p><p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>No external horizontal forces act on the three-ball system, and the collision is perfectly elastic, so both total linear momentum and total kinetic energy are conserved.</p><p><strong>Step 3: Relevant Formulae and Principles</strong><br/>Initial total linear momentum: \(P_i = mV\).<br/>Initial total kinetic energy: \(K_i = \frac{1}{2}mV^2\).<br/>In a one-dimensional elastic collision between two identical masses, they exchange velocities.</p><p><strong>Step 4: Step-by-Step Working</strong><br/>First, ball 1 collides elastically with ball 2. Because they have equal mass, ball 1 comes to rest (\(v_1 = 0\)) and transfers its entire velocity \(V\) to ball 2. Immediately, ball 2 collides elastically with ball 3; again, ball 2 comes to rest (\(v_2 = 0\)) and transfers velocity \(V\) to ball 3 (\(v_3 = V\)).<br/>Checking conservation laws for this final state:<br/>\[P_f = m(0) + m(0) + mV = mV = P_i\]<br/>\[K_f = 0 + 0 + \frac{1}{2}mV^2 = K_i\]<br/>In contrast, any configuration where two balls move at \(V/2\) yields \(K_f = 2 \times \frac{1}{2}m(V/2)^2 = \frac{1}{4}mV^2 \neq K_i\); three balls moving at \(V/3\) yields \(K_f = 3 \times \frac{1}{2}m(V/3)^2 = \frac{1}{6}mV^2 \neq K_i\); and balls moving at \(V/1, V/2, V/3\) violates momentum conservation.</p><p><strong>Step 5: Check and Final Answer</strong><br/>Only the state in which balls 1 and 2 remain at rest (\(V = 0\)) and ball 3 moves forward with speed \(V\) satisfies both momentum and kinetic energy conservation.</p><hr/><p><strong>चरण 1: दिए गए आँकड़े और शर्तें</strong><br/>तीन समरूप बॉल बेयरिंग्स (प्रत्येक का द्रव्यमान \(m\)) एक घर्षणरहित क्षैतिज मेज़ पर हैं। बॉल 1 प्रारंभिक वेग \(V\) से गतिमान है, जबकि बॉल 2 और 3 प्रारंभ में संपर्क में विरामावस्था में हैं। टक्कर सम्मुख और प्रत्यास्थ है।</p><p><strong>चरण 2: मान्यताएँ और चिह्न परिपाटी</strong><br/>तीन-बॉल निकाय पर कोई बाह्य क्षैतिज बल कार्य नहीं करता है, और टक्कर पूर्णतः प्रत्यास्थ है, इसलिए कुल रैखिक संवेग और कुल गतिज ऊर्जा दोनों संरक्षित रहते हैं।</p><p><strong>चरण 3: संबंधित सूत्र और सिद्धांत</strong><br/>प्रारंभिक कुल रैखिक संवेग: \(P_i = mV\)।<br/>प्रारंभिक कुल गतिज ऊर्जा: \(K_i = \frac{1}{2}mV^2\)।<br/>दो समान द्रव्यमानों के बीच एकविमीय प्रत्यास्थ टक्कर में, उनके वेग आपस में बदल जाते हैं।</p><p><strong>चरण 4: चरण-दर-चरण हल</strong><br/>सबसे पहले, बॉल 1 बॉल 2 से प्रत्यास्थ टक्कर करती है। समान द्रव्यमान होने के कारण, बॉल 1 विराम में आ जाती है (\(v_1 = 0\)) और अपना पूरा वेग \(V\) बॉल 2 को दे देती है। तुरंत ही, बॉल 2 बॉल 3 से प्रत्यास्थ टक्कर करती है; पुनः बॉल 2 विराम में आ जाती है (\(v_2 = 0\)) और वेग \(V\) बॉल 3 को दे देती है (\(v_3 = V\))।<br/>इस अंतिम अवस्था के लिए संरक्षण नियमों की जाँच:<br/>\[P_f = m(0) + m(0) + mV = mV = P_i\]<br/>\[K_f = 0 + 0 + \frac{1}{2}mV^2 = K_i\]<br/>इसके विपरीत, वह स्थिति जिसमें दो बॉल \(V/2\) से चलती हैं, \(K_f = 2 \times \frac{1}{2}m(V/2)^2 = \frac{1}{4}mV^2 \neq K_i\) देती है; तीनों बॉल का \(V/3\) से चलना \(K_f = 3 \times \frac{1}{2}m(V/3)^2 = \frac{1}{6}mV^2 \neq K_i\) देता है; और \(V/1, V/2, V/3\) से चलना संवेग संरक्षण का उल्लंघन करता है।</p><p><strong>चरण 5: जाँच और अंतिम उत्तर</strong><br/>केवल वही अवस्था जिसमें बॉल 1 और 2 विराम में रहती हैं (\(V = 0\)) तथा बॉल 3 चाल \(V\) से आगे बढ़ती है, संवेग और गतिज ऊर्जा दोनों के संरक्षण को संतुष्ट करती है।</p>]]></text></generalfeedback>
   <defaultgrade>4.0000000</defaultgrade>
   <penalty>0.2500000</penalty>
   <hidden>0</hidden>
   <single>true</single>
-  <shuffleanswers>false</shuffleanswers>
+  <shuffleanswers>true</shuffleanswers>
   <answernumbering>abc</answernumbering>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p><img src="@@PLUGINFILE@@/img-4.jpeg" alt="Option A Part 1" /><img src="@@PLUGINFILE@@/img-5.jpeg" alt="Option A Part 2" /></p>]]></text>
-  </answer>
-  <answer fraction="100" format="html">
-    <text><![CDATA[<p><img src="@@PLUGINFILE@@/img-6.jpeg" alt="Option B Part 1" /><img src="@@PLUGINFILE@@/img-7.jpeg" alt="Option B Part 2" /></p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p><img src="@@PLUGINFILE@@/img-8.jpeg" alt="Option C" /></p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p><img src="@@PLUGINFILE@@/img-9.jpeg" alt="Option D Part 1" /><img src="@@PLUGINFILE@@/img-10.jpeg" alt="Option D Part 2" /><img src="@@PLUGINFILE@@/img-11.jpeg" alt="Option D Part 3" /></p>]]></text>
-  </answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p><img src="@@PLUGINFILE@@/img-4.jpeg" alt="Ball 1 at rest" /> <img src="@@PLUGINFILE@@/img-5.jpeg" alt="Balls 2 and 3 at V/2" /></p>]]></text></answer>
+  <answer fraction="100" format="html"><text><![CDATA[<p><img src="@@PLUGINFILE@@/img-6.jpeg" alt="Balls 1 and 2 at rest" /> <img src="@@PLUGINFILE@@/img-7.jpeg" alt="Ball 3 at V" /></p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p><img src="@@PLUGINFILE@@/img-8.jpeg" alt="Balls 1, 2, 3 at V/3" /></p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p><img src="@@PLUGINFILE@@/img-9.jpeg" alt="Ball 1 at V/1" /> <img src="@@PLUGINFILE@@/img-10.jpeg" alt="Ball 2 at V/2" /> <img src="@@PLUGINFILE@@/img-11.jpeg" alt="Ball 3 at V/3" /></p>]]></text></answer>
   <tags>
     <tag><text>standard:neet_ug</text></tag>
-    <tag><text>year:2026</text></tag>
     <tag><text>lang:en</text></tag>
     <tag><text>lang:hi</text></tag>
     <tag><text>subject:physics</text></tag>
+    <tag><text>section:mcq_i</text></tag>
     <tag><text>class:class_11</text></tag>
-    <tag><text>topic:work_energy_and_power</text></tag>
     <tag><text>chapter:work_energy_and_power</text></tag>
     <tag><text>typology:mcq</text></tag>
     <tag><text>difficulty:medium</text></tag>
@@ -388,216 +271,151 @@
   </tags>
 </question>
 <question type="multichoice">
-  <name><text>NEET_UG_PHYSICS_2026_WORK_ENERGY_AND_POWER_MCQ_Q10 - Work done by net force on a moving body</text></name>
-  <questiontext format="html">
-    <text><![CDATA[<p>A body of mass \(0.5\text{ kg}\) travels in a straight line with velocity \(v = a x^{3/2}\) where \(a = 5\text{ m}^{-1/2}\text{s}^{-1}\). The work done by the net force during its displacement from \(x = 0\) to \(x = 2\text{ m}\) is</p><hr/><p>\(0.5\text{ kg}\) द्रव्यमान का एक पिंड एक सरल रेखा में \(v = a x^{3/2}\) वेग से गति करता है, जहाँ \(a = 5\text{ m}^{-1/2}\text{s}^{-1}\) है। \(x = 0\) से \(x = 2\text{ m}\) तक इसके विस्थापन के दौरान परिणामी बल द्वारा किया गया कार्य है</p>]]></text>
-  </questiontext>
-  <generalfeedback format="html">
-    <text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>Mass of the body: \(m = 0.5\text{ kg}\).<br/>Velocity relation: \(v = a x^{3/2}\) with \(a = 5\text{ m}^{-1/2}\text{s}^{-1}\).<br/>Initial position: \(x_i = 0\text{ m}\).<br/>Final position: \(x_f = 2\text{ m}\).</p><p><strong>Step 2: Relevant Formulae and Principles</strong><br/>According to the Work-Energy Theorem, the work done by the net force acting on a particle equals the change in its kinetic energy:<br/>\(W = \Delta K = \frac{1}{2}m v_f^2 - \frac{1}{2}m v_i^2\).</p><p><strong>Step 3: Step-by-Step Calculation</strong><br/>At the initial position \(x_i = 0\text{ m}\):<br/>\(v_i = 5 \times (0)^{3/2} = 0\text{ m/s}\).<br/>At the final position \(x_f = 2\text{ m}\):<br/>\(v_f = 5 \times (2)^{3/2}\text{ m/s}\).<br/>Squaring the final velocity:<br/>\(v_f^2 = 5^2 \times \left(2^{3/2}\right)^2 = 25 \times 2^3 = 25 \times 8 = 200\text{ m}^2/\text{s}^2\).<br/>Now, substituting into the work-energy formula:<br/>\(W = \frac{1}{2} \times 0.5\text{ kg} \times \left(200\text{ m}^2/\text{s}^2 - 0\right) = 0.25 \times 200\text{ J} = 50\text{ J}\).</p><p><strong>Step 4: Check and Final Answer</strong><br/>The units are Joules, consistent with work and kinetic energy. The calculated value is \(50\text{ J}\).</p><hr/><p><strong>चरण 1: दिए गए आँकड़े और स्थितियाँ</strong><br/>पिंड का द्रव्यमान: \(m = 0.5\text{ kg}\)।<br/>वेग संबंध: \(v = a x^{3/2}\), जहाँ \(a = 5\text{ m}^{-1/2}\text{s}^{-1}\)।<br/>प्रारंभिक स्थिति: \(x_i = 0\text{ m}\)।<br/>अंतिम स्थिति: \(x_f = 2\text{ m}\)।</p><p><strong>चरण 2: प्रासंगिक सूत्र और सिद्धांत</strong><br/>कार्य-ऊर्जा प्रमेय के अनुसार, परिणामी बल द्वारा किया गया कार्य गतिज ऊर्जा में परिवर्तन के बराबर होता है:<br/>\(W = \Delta K = \frac{1}{2}m v_f^2 - \frac{1}{2}m v_i^2\)।</p><p><strong>चरण 3: चरण-दर-चरण गणना</strong><br/>प्रारंभिक स्थिति \(x_i = 0\text{ m}\) पर:<br/>\(v_i = 5 \times (0)^{3/2} = 0\text{ m/s}\)।<br/>अंतिम स्थिति \(x_f = 2\text{ m}\) पर:<br/>\(v_f = 5 \times (2)^{3/2}\text{ m/s}\)।<br/>वेग का वर्ग:<br/>\(v_f^2 = 25 \times 8 = 200\text{ m}^2/\text{s}^2\)।<br/>कार्य-ऊर्जा प्रमेय में मान रखने पर:<br/>\(W = \frac{1}{2} \times 0.5 \times (200 - 0) = 50\text{ J}\)।</p><p><strong>चरण 4: जाँच और अंतिम उत्तर</strong><br/>परिकलित मान \(50\text{ J}\) है।</p>]]></text>
-  </generalfeedback>
+  <name><text>NEET_UG_PHYSICS_WORKENERGYANDPOWER_MCQI_MCQ_Q10 - Work done from velocity-position relation</text></name>
+  <questiontext format="html"><text><![CDATA[<p>A body of mass \(0.5\text{ kg}\) travels in a straight line with velocity \(v = a x^{3/2}\) where \(a = 5\text{ m}^{-1/2}\text{s}^{-1}\). The work done by the net force during its displacement from \(x = 0\) to \(x = 2\text{ m}\) is</p><hr/><p>\(0.5\text{ kg}\) द्रव्यमान का एक पिंड एक सरल रेखा में वेग \(v = a x^{3/2}\) से गति करता है, जहाँ \(a = 5\text{ m}^{-1/2}\text{s}^{-1}\) है। \(x = 0\) से \(x = 2\text{ m}\) तक इसके विस्थापन के दौरान कुल बल द्वारा किया गया कार्य है</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>Mass of the body: \(m = 0.5\text{ kg}\).<br/>Velocity as a function of position: \(v = a x^{3/2}\), where \(a = 5\text{ m}^{-1/2}\text{s}^{-1}\).<br/>Initial position: \(x_i = 0\text{ m}\).<br/>Final position: \(x_f = 2\text{ m}\).</p><p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>Motion is one-dimensional along the \(x\)-axis. By the work-energy theorem, the work done by the net force equals the change in kinetic energy.</p><p><strong>Step 3: Relevant Formulae and Principles</strong><br/>\[W_{\text{net}} = \Delta K = K_f - K_i = \frac{1}{2}m v_f^2 - \frac{1}{2}m v_i^2\]</p><p><strong>Step 4: Step-by-Step Working</strong><br/>1. Initial velocity at \(x_i = 0\):<br/>\[v_i = 5(0)^{3/2} = 0\text{ m/s}\]<br/>2. Final velocity at \(x_f = 2\text{ m}\):<br/>\[v_f = 5(2)^{3/2} = 5 \times 2\sqrt{2} = 10\sqrt{2}\text{ m/s}\]<br/>3. Work done by the net force:<br/>\[W_{\text{net}} = \frac{1}{2}(0.5\text{ kg})\left((10\sqrt{2}\text{ m/s})^2 - 0^2\right) = \frac{1}{4} \times 200\text{ J} = 50\text{ J}\]</p><p><strong>Step 5: Check and Final Answer</strong><br/>Units check: \(\text{kg} \cdot (\text{m/s})^2 = \text{J}\). Since velocity increases from \(0\) to \(10\sqrt{2}\text{ m/s}\), positive work is done. The work done by the net force is \(50\text{ J}\).</p><hr/><p><strong>चरण 1: दिए गए आँकड़े और शर्तें</strong><br/>पिंड का द्रव्यमान: \(m = 0.5\text{ kg}\)।<br/>स्थिति के फलन के रूप में वेग: \(v = a x^{3/2}\), जहाँ \(a = 5\text{ m}^{-1/2}\text{s}^{-1}\)।<br/>प्रारंभिक स्थिति: \(x_i = 0\text{ m}\)।<br/>अंतिम स्थिति: \(x_f = 2\text{ m}\)।</p><p><strong>चरण 2: मान्यताएँ और चिह्न परिपाटी</strong><br/>गति \(x\)-अक्ष के अनुदिश एकविमीय है। कार्य-ऊर्जा प्रमेय के अनुसार, कुल बल द्वारा किया गया कार्य गतिज ऊर्जा में परिवर्तन के बराबर होता है।</p><p><strong>चरण 3: संबंधित सूत्र और सिद्धांत</strong><br/>\[W_{\text{net}} = \Delta K = K_f - K_i = \frac{1}{2}m v_f^2 - \frac{1}{2}m v_i^2\]</p><p><strong>चरण 4: चरण-दर-चरण हल</strong><br/>1. \(x_i = 0\) पर प्रारंभिक वेग:<br/>\[v_i = 5(0)^{3/2} = 0\text{ m/s}\]<br/>2. \(x_f = 2\text{ m}\) पर अंतिम वेग:<br/>\[v_f = 5(2)^{3/2} = 5 \times 2\sqrt{2} = 10\sqrt{2}\text{ m/s}\]<br/>3. कुल बल द्वारा किया गया कार्य:<br/>\[W_{\text{net}} = \frac{1}{2}(0.5\text{ kg})\left((10\sqrt{2}\text{ m/s})^2 - 0^2\right) = \frac{1}{4} \times 200\text{ J} = 50\text{ J}\]</p><p><strong>चरण 5: जाँच और अंतिम उत्तर</strong><br/>मात्रक जाँच: \(\text{kg} \cdot (\text{m/s})^2 = \text{J}\)। चूँकि वेग \(0\) से बढ़कर \(10\sqrt{2}\text{ m/s}\) हो जाता है, इसलिए धनात्मक कार्य किया गया है। कुल बल द्वारा किया गया कार्य \(50\text{ J}\) है।</p>]]></text></generalfeedback>
   <defaultgrade>4.0000000</defaultgrade>
   <penalty>0.2500000</penalty>
   <hidden>0</hidden>
   <single>true</single>
   <shuffleanswers>true</shuffleanswers>
   <answernumbering>abc</answernumbering>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>\(1.5\text{J}\)</p>]]></text>
-  </answer>
-  <answer fraction="100" format="html">
-    <text><![CDATA[<p>\(50\text{J}\)</p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>\(10\text{J}\)</p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>\(100\text{J}\)</p>]]></text>
-  </answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>\(1.5\text{ J}\)</p>]]></text></answer>
+  <answer fraction="100" format="html"><text><![CDATA[<p>\(50\text{ J}\)</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>\(10\text{ J}\)</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>\(100\text{ J}\)</p>]]></text></answer>
   <tags>
     <tag><text>standard:neet_ug</text></tag>
-    <tag><text>year:2026</text></tag>
     <tag><text>lang:en</text></tag>
     <tag><text>lang:hi</text></tag>
     <tag><text>subject:physics</text></tag>
+    <tag><text>section:mcq_i</text></tag>
     <tag><text>class:class_11</text></tag>
-    <tag><text>topic:work_energy_and_power</text></tag>
     <tag><text>chapter:work_energy_and_power</text></tag>
     <tag><text>typology:mcq</text></tag>
     <tag><text>difficulty:medium</text></tag>
     <tag><text>blooms:apply</text></tag>
     <tag><text>calculation:moderate</text></tag>
-    <tag><text>media:equation</text></tag>
+    <tag><text>media:text</text></tag>
     <tag><text>multiconcept:false</text></tag>
   </tags>
 </question>
 <question type="multichoice">
-  <name><text>NEET_UG_PHYSICS_2026_WORK_ENERGY_AND_POWER_MCQ_Q11 - Displacement-time curve for motion under constant power</text></name>
-  <questiontext format="html">
-    <text><![CDATA[<p>A body is moving unidirectionally under the influence of a source of constant power supplying energy. Which of the diagrams shown in Fig. 6.5 correctly shows the displacement-time curve for its motion?</p>]]></text>
-  </questiontext>
-  <generalfeedback format="html">
-    <text><![CDATA[<p><strong>Step 1: Given Conditions and Physical Principles</strong><br/>A body of mass \(m\) moves along a straight line under constant power \(P\). Power is defined as \(P = Fv = m\frac{dv}{dt}v = \text{constant}\).</p><p><strong>Step 2: Derivation of Velocity as a Function of Time</strong><br/>Rearranging the differential equation and integrating with initial condition \(v(0) = 0\):<br/>\(v\,dv = \frac{P}{m}\,dt \implies \int_0^v v\,dv = \frac{P}{m}\int_0^t dt \implies \frac{v^2}{2} = \frac{P}{m}t \implies v = \sqrt{\frac{2P}{m}}\,t^{1/2}\).</p><p><strong>Step 3: Derivation of Displacement as a Function of Time</strong><br/>Expressing velocity as the time rate of displacement \(v = \frac{dd}{dt}\):<br/>\(\frac{dd}{dt} = \sqrt{\frac{2P}{m}}\,t^{1/2} \implies \int_0^d dd = \sqrt{\frac{2P}{m}}\int_0^t t^{1/2}\,dt \implies d = \frac{2}{3}\sqrt{\frac{2P}{m}}\,t^{3/2}\).<br/>Thus, displacement is proportional to \(t^{3/2}\) (\(d \propto t^{3/2}\)).</p><p><strong>Step 4: Geometric Analysis of the Curve</strong><br/>For \(d \propto t^{3/2}\):<br/>1. At \(t = 0\), \(d = 0\) and the slope \(\frac{dd}{dt} = v = 0\), meaning the curve starts tangent to the time axis.<br/>2. The slope increases with time as \(t^{1/2}\), meaning the curve bends upward with increasing steepness (concave upward).<br/>Among the given graphs, this upward-curving behavior with increasing slope is shown by the curve that starts from the origin with zero initial slope and curves monotonically upward.</p><p><strong>Step 5: Final Conclusion</strong><br/>The correct displacement-time variation is represented by the curve rising from the origin with increasing slope.</p><hr/><p><strong>चरण 1: दी गई स्थितियाँ और भौतिक सिद्धांत</strong><br/>द्रव्यमान \(m\) का एक पिंड नियत शक्ति \(P\) के अधीन एक सरल रेखा में गति करता है। शक्ति की परिभाषा: \(P = Fv = m\frac{dv}{dt}v = \text{नियत}\)।</p><p><strong>चरण 2: समय के फलन के रूप में वेग का निगमन</strong><br/>समीकरण को समाकलित करने पर:<br/>\(v\,dv = \frac{P}{m}\,dt \implies \frac{v^2}{2} = \frac{P}{m}t \implies v = \sqrt{\frac{2P}{m}}\,t^{1/2}\)।</p><p><strong>चरण 3: समय के फलन के रूप में विस्थापन का निगमन</strong><br/>वेग को विस्थापन के अवकलज के रूप में लिखने पर (\(v = \frac{dd}{dt}\)):<br/>\(\frac{dd}{dt} = \sqrt{\frac{2P}{m}}\,t^{1/2} \implies d = \frac{2}{3}\sqrt{\frac{2P}{m}}\,t^{3/2}\)।<br/>अतः विस्थापन \(d \propto t^{3/2}\) होता है।</p><p><strong>चरण 4: वक्र का ज्यामितीय विश्लेषण</strong><br/>\(d \propto t^{3/2}\) के लिए, \(t = 0\) पर विस्थापन और प्रवणता दोनों शून्य होते हैं। जैसे-जैसे समय बढ़ता है, प्रवणता (\(\frac{dd}{dt} \propto t^{1/2}\)) बढ़ती जाती है, जिससे वक्र ऊपर की ओर बढ़ता हुआ और अवतल ऊपर की ओर (प्रवणता बढ़ती हुई) बनता है।</p><p><strong>चरण 5: अंतिम निष्कर्ष</strong><br/>सही विस्थापन-समय संबंध मूल बिंदु से बढ़ती हुई प्रवणता के साथ ऊपर उठने वाले वक्र द्वारा दर्शाया गया है।</p>]]></text>
-  </generalfeedback>
+  <name><text>NEET_UG_PHYSICS_WORKENERGYANDPOWER_MCQI_MCQ_Q11 - Displacement-time graph under constant power</text></name>
+  <questiontext format="html"><text><![CDATA[<p>A body is moving unidirectionally under the influence of a source of constant power supplying energy. Which of the diagrams shown in Fig. 6.5 correctly shows the displacement-time curve for its motion?</p><hr/><p>एक पिंड ऊर्जा प्रदान करने वाले नियत शक्ति के स्रोत के प्रभाव में एकदिशीय गति कर रहा है। चित्र 6.5 में दिखाए गए आरेखों में से कौन-सा इसकी गति के लिए विस्थापन-समय वक्र को सही ढंग से दर्शाता है?</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>A body of mass \(m\) moves unidirectionally under constant power \(P = \text{constant}\).</p><p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>Assume the body starts from rest (\(v = 0, d = 0\)) at \(t = 0\).</p><p><strong>Step 3: Relevant Formulae and Principles</strong><br/>Power is the rate of change of kinetic energy: \(P = \frac{dK}{dt} = \frac{d}{dt}\left(\frac{1}{2}mv^2\right)\).<br/>Velocity is \(v = \frac{dd}{dt}\).</p><p><strong>Step 4: Step-by-Step Working</strong><br/>Integrating \(P = \frac{d}{dt}\left(\frac{1}{2}mv^2\right)\) with respect to time from \(0\) to \(t\):<br/>\[\frac{1}{2}mv^2 = Pt \implies v = \sqrt{\frac{2P}{m}}\,t^{1/2}\]<br/>Since \(v = \frac{dd}{dt}\), integrating again with respect to \(t\):<br/>\[d = \int_0^t \sqrt{\frac{2P}{m}}\,t^{1/2}\,dt = \frac{2}{3}\sqrt{\frac{2P}{m}}\,t^{3/2}\]<br/>Thus, \(d \propto t^{3/2}\).</p><p><strong>Step 5: Check and Final Answer</strong><br/>Because \(d \propto t^{3/2}\), at \(t = 0\) both \(d = 0\) and the slope \(\frac{dd}{dt} = v = 0\), and as \(t\) increases, the slope increases continuously. Therefore, the displacement-time curve starts from the origin with zero initial slope and bends upward (concave up).</p><hr/><p><strong>चरण 1: दिए गए आँकड़े और शर्तें</strong><br/>द्रव्यमान \(m\) का एक पिंड नियत शक्ति \(P = \text{constant}\) के अंतर्गत एकदिशीय गति कर रहा है।</p><p><strong>चरण 2: मान्यताएँ और चिह्न परिपाटी</strong><br/>मान लें कि पिंड \(t = 0\) पर विरामावस्था (\(v = 0, d = 0\)) से गति प्रारंभ करता है।</p><p><strong>चरण 3: संबंधित सूत्र और सिद्धांत</strong><br/>शक्ति गतिज ऊर्जा में परिवर्तन की दर है: \(P = \frac{dK}{dt} = \frac{d}{dt}\left(\frac{1}{2}mv^2\right)\)।<br/>वेग \(v = \frac{dd}{dt}\) है।</p><p><strong>चरण 4: चरण-दर-चरण हल</strong><br/>\(0\) से \(t\) तक समय के सापेक्ष \(P = \frac{d}{dt}\left(\frac{1}{2}mv^2\right)\) का समाकलन करने पर:<br/>\[\frac{1}{2}mv^2 = Pt \implies v = \sqrt{\frac{2P}{m}}\,t^{1/2}\]<br/>चूँकि \(v = \frac{dd}{dt}\), पुनः \(t\) के सापेक्ष समाकलन करने पर:<br/>\[d = \int_0^t \sqrt{\frac{2P}{m}}\,t^{1/2}\,dt = \frac{2}{3}\sqrt{\frac{2P}{m}}\,t^{3/2}\]<br/>अतः, \(d \propto t^{3/2}\)।</p><p><strong>चरण 5: जाँच और अंतिम उत्तर</strong><br/>चूँकि \(d \propto t^{3/2}\), \(t = 0\) पर \(d = 0\) और ढाल \(\frac{dd}{dt} = v = 0\) दोनों शून्य हैं, और जैसे-जैसे \(t\) बढ़ता है, ढाल लगातार बढ़ता जाता है। इसलिए, विस्थापन-समय वक्र मूल बिंदु से शून्य प्रारंभिक ढाल के साथ शुरू होता है और ऊपर की ओर मुड़ता है (ऊपर की ओर अवतल)।</p>]]></text></generalfeedback>
   <defaultgrade>4.0000000</defaultgrade>
   <penalty>0.2500000</penalty>
   <hidden>0</hidden>
   <single>true</single>
-  <shuffleanswers>false</shuffleanswers>
+  <shuffleanswers>true</shuffleanswers>
   <answernumbering>abc</answernumbering>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p><img src="@@PLUGINFILE@@/img-12.jpeg" alt="Displacement-time curve A" /></p>]]></text>
-  </answer>
-  <answer fraction="100" format="html">
-    <text><![CDATA[<p><img src="@@PLUGINFILE@@/img-13.jpeg" alt="Displacement-time curve B" /></p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p><img src="@@PLUGINFILE@@/img-14.jpeg" alt="Displacement-time curve C" /></p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p><img src="@@PLUGINFILE@@/img-15.jpeg" alt="Displacement-time curve D" /></p>]]></text>
-  </answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p><img src="@@PLUGINFILE@@/img-12.jpeg" alt="Linear d-t graph" /></p>]]></text></answer>
+  <answer fraction="100" format="html"><text><![CDATA[<p><img src="@@PLUGINFILE@@/img-13.jpeg" alt="Concave up d-t graph" /></p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p><img src="@@PLUGINFILE@@/img-14.jpeg" alt="Horizontal d-t graph" /></p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p><img src="@@PLUGINFILE@@/img-15.jpeg" alt="Concave down d-t graph" /></p>]]></text></answer>
   <tags>
     <tag><text>standard:neet_ug</text></tag>
-    <tag><text>year:2026</text></tag>
     <tag><text>lang:en</text></tag>
     <tag><text>lang:hi</text></tag>
     <tag><text>subject:physics</text></tag>
+    <tag><text>section:mcq_i</text></tag>
     <tag><text>class:class_11</text></tag>
-    <tag><text>topic:work_energy_and_power</text></tag>
     <tag><text>chapter:work_energy_and_power</text></tag>
     <tag><text>typology:mcq</text></tag>
     <tag><text>difficulty:medium</text></tag>
-    <tag><text>blooms:analyze</text></tag>
+    <tag><text>blooms:apply</text></tag>
     <tag><text>calculation:moderate</text></tag>
     <tag><text>media:graph</text></tag>
-    <tag><text>multiconcept:false</text></tag>
+    <tag><text>multiconcept:true</text></tag>
   </tags>
 </question>
 <question type="multichoice">
-  <name><text>NEET_UG_PHYSICS_2026_WORK_ENERGY_AND_POWER_MCQ_Q12 - Kinetic energy variation of earth in elliptical orbit</text></name>
-  <questiontext format="html">
-    <text><![CDATA[<p>Which of the diagrams shown in Fig. 6.6 most closely shows the variation in kinetic energy of the earth as it moves once around the sun in its elliptical orbit?</p>]]></text>
-  </questiontext>
-  <generalfeedback format="html">
-    <text><![CDATA[<p><strong>Step 1: Orbital Motion and Physical Principles</strong><br/>The earth revolves around the sun in an elliptical orbit with the sun at one focus. The gravitational force exerted by the sun on the earth is a central force, so the orbital angular momentum \(L = m r v_{\perp}\) is conserved throughout the motion.</p><p><strong>Step 2: Variation of Orbital Speed and Kinetic Energy</strong><br/>As the distance \(r\) of the earth from the sun varies:<br/>1. At perihelion (closest approach), distance \(r\) is minimum, so orbital speed \(v\) and kinetic energy \(K = \frac{1}{2}mv^2\) reach their maximum positive value.<br/>2. At aphelion (farthest point), distance \(r\) is maximum, so orbital speed \(v\) and kinetic energy \(K\) reach their minimum positive value.<br/>3. The orbital speed of the earth is never zero, which means the kinetic energy is always strictly greater than zero (\(K > 0\)) and never touches or crosses the zero axis.</p><p><strong>Step 3: Evaluation of the Curves</strong><br/>Over one complete revolution (period \(T\)), the kinetic energy varies smoothly and periodically between a strictly positive non-zero minimum and a positive maximum. Curves that show constant energy, curves that touch zero, or curves that take negative values are physically incorrect.</p><p><strong>Step 4: Final Conclusion</strong><br/>The variation is most accurately represented by the smooth periodic curve that remains entirely above the zero axis at all times.</p><hr/><p><strong>चरण 1: कक्षीय गति और भौतिक सिद्धांत</strong><br/>पृथ्वी सूर्य के चारों ओर एक दीर्घवृत्ताकार कक्षा में चक्कर लगाती है जिसके एक फोकस पर सूर्य स्थित होता है। सूर्य द्वारा लगाया गया गुरुत्वाकर्षण बल एक केंद्रीय बल है, इसलिए कक्षीय कोणीय संवेग \(L = m r v_{\perp}\) सदैव संरक्षित रहता है।</p><p><strong>चरण 2: कक्षीय चाल और गतिज ऊर्जा का परिवर्तन</strong><br/>सूर्य से पृथ्वी की दूरी \(r\) में परिवर्तन के साथ:<br/>1. उपसौर (निकटतम बिंदु) पर, दूरी \(r\) न्यूनतम होती है, जिससे चाल \(v\) और गतिज ऊर्जा \(K = \frac{1}{2}mv^2\) अपने अधिकतम धनात्मक मान पर होती हैं।<br/>2. अपसौर (दूरस्थ बिंदु) पर, दूरी \(r\) अधिकतम होती है, जिससे चाल और गतिज ऊर्जा अपने न्यूनतम धनात्मक मान पर होती हैं।<br/>3. पृथ्वी की कक्षीय चाल कभी भी शून्य नहीं होती है, इसलिए गतिज ऊर्जा सदैव पूर्णतः धनात्मक (\(K > 0\)) रहती है और कभी भी शून्य अक्ष को स्पर्श या पार नहीं करती।</p><p><strong>चरण 3: वक्रों का मूल्यांकन</strong><br/>एक पूर्ण परिक्रमा के दौरान, गतिज ऊर्जा एक अशून्य धनात्मक न्यूनतम मान और धनात्मक अधिकतम मान के बीच आवर्ती रूप से दोलन करती है।</p><p><strong>चरण 4: अंतिम निष्कर्ष</strong><br/>यह परिवर्तन उस सुचारू आवर्ती वक्र द्वारा सबसे सटीक रूप से प्रदर्शित होता है जो हर समय शून्य अक्ष के ऊपर धनात्मक बना रहता है।</p>]]></text>
-  </generalfeedback>
+  <name><text>NEET_UG_PHYSICS_WORKENERGYANDPOWER_MCQI_MCQ_Q12 - Kinetic energy of Earth in elliptical orbit</text></name>
+  <questiontext format="html"><text><![CDATA[<p>Which of the diagrams shown in Fig. 6.6 most closely shows the variation in kinetic energy of the earth as it moves once around the sun in its elliptical orbit?</p><hr/><p>चित्र 6.6 में दिखाए गए आरेखों में से कौन-सा पृथ्वी की दीर्घवृत्ताकार कक्षा में सूर्य के चारों ओर एक चक्कर लगाने के दौरान उसकी गतिज ऊर्जा में परिवर्तन को सबसे निकट से दर्शाता है?</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>As the Earth orbits the Sun in an elliptical path, its angular momentum about the Sun is conserved (\(L = mvr = \text{constant}\) at perihelion and aphelion). Consequently, its orbital speed \(v\) increases when it is closer to the Sun (perihelion) and decreases when it is farther from the Sun (aphelion).</p><p><strong>Step 2: Evaluation</strong><br/>Kinetic energy is given by \(K = \frac{1}{2}mv^2\), which is always a non-negative scalar quantity. Since the Earth never comes to rest in its bound elliptical orbit, its kinetic energy \(K\) is strictly positive at all times (\(K &gt; 0\)).</p><p><strong>Step 3: Application</strong><br/>Over one complete revolution around the Sun, the kinetic energy varies smoothly and periodically between a positive minimum (at aphelion) and a positive maximum (at perihelion), oscillating about a positive mean value without ever becoming zero or negative.</p><p><strong>Step 4: Final Conclusion</strong><br/>The kinetic energy variation is represented by a smooth periodic curve that remains strictly positive above the time axis.</p><hr/><p><strong>चरण 1: अवधारणात्मक सिद्धांत</strong><br/>जब पृथ्वी सूर्य के चारों ओर एक दीर्घवृत्ताकार पथ में परिक्रमा करती है, तो सूर्य के परितः उसका कोणीय संवेग संरक्षित रहता है (उपसौर और अपसौर पर \(L = mvr = \text{constant}\))। परिणामस्वरूप, जब वह सूर्य के निकट (उपसौर) होती है तो उसकी कक्षीय चाल \(v\) बढ़ जाती है और जब वह सूर्य से दूर (अपसौर) होती है तो उसकी चाल कम हो जाती है।</p><p><strong>चरण 2: मूल्यांकन</strong><br/>गतिज ऊर्जा \(K = \frac{1}{2}mv^2\) द्वारा दी जाती है, जो सदैव एक अऋणात्मक अदिश राशि है। चूँकि पृथ्वी अपनी बद्ध दीर्घवृत्ताकार कक्षा में कभी भी विराम में नहीं आती है, इसलिए उसकी गतिज ऊर्जा \(K\) हर समय धनात्मक रहती है (\(K &gt; 0\))।</p><p><strong>चरण 3: अनुप्रयोग</strong><br/>सूर्य के चारों ओर एक पूर्ण परिक्रमण के दौरान, गतिज ऊर्जा एक धनात्मक न्यूनतम मान (अपसौर पर) और एक धनात्मक अधिकतम मान (उपसौर पर) के बीच सुचारू रूप से और आवर्ती रूप से बदलती है, तथा कभी भी शून्य या ऋणात्मक हुए बिना एक धनात्मक माध्य मान के परितः दोलन करती है।</p><p><strong>चरण 4: अंतिम निष्कर्ष</strong><br/>गतिज ऊर्जा में परिवर्तन को एक ऐसे सुचारू आवर्ती वक्र द्वारा दर्शाया जाता है जो समय अक्ष से ऊपर पूर्णतः धनात्मक रहता है।</p>]]></text></generalfeedback>
   <defaultgrade>4.0000000</defaultgrade>
   <penalty>0.2500000</penalty>
   <hidden>0</hidden>
   <single>true</single>
-  <shuffleanswers>false</shuffleanswers>
+  <shuffleanswers>true</shuffleanswers>
   <answernumbering>abc</answernumbering>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p><img src="@@PLUGINFILE@@/img-16.jpeg" alt="Kinetic energy variation A" /></p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p><img src="@@PLUGINFILE@@/img-17.jpeg" alt="Kinetic energy variation B" /></p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p><img src="@@PLUGINFILE@@/img-18.jpeg" alt="Kinetic energy variation C" /></p>]]></text>
-  </answer>
-  <answer fraction="100" format="html">
-    <text><![CDATA[<p><img src="@@PLUGINFILE@@/img-19.jpeg" alt="Kinetic energy variation D" /></p>]]></text>
-  </answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p><img src="@@PLUGINFILE@@/img-16.jpeg" alt="Constant K.E. graph" /></p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p><img src="@@PLUGINFILE@@/img-17.jpeg" alt="Parabolic K.E. graph reaching zero" /></p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p><img src="@@PLUGINFILE@@/img-18.jpeg" alt="Sinusoidal K.E. graph going negative" /></p>]]></text></answer>
+  <answer fraction="100" format="html"><text><![CDATA[<p><img src="@@PLUGINFILE@@/img-19.jpeg" alt="Positive periodic K.E. graph" /></p>]]></text></answer>
   <tags>
     <tag><text>standard:neet_ug</text></tag>
-    <tag><text>year:2026</text></tag>
     <tag><text>lang:en</text></tag>
     <tag><text>lang:hi</text></tag>
     <tag><text>subject:physics</text></tag>
+    <tag><text>section:mcq_i</text></tag>
     <tag><text>class:class_11</text></tag>
-    <tag><text>topic:work_energy_and_power</text></tag>
     <tag><text>chapter:work_energy_and_power</text></tag>
     <tag><text>typology:mcq</text></tag>
-    <tag><text>difficulty:medium</text></tag>
-    <tag><text>blooms:analyze</text></tag>
+    <tag><text>difficulty:easy</text></tag>
+    <tag><text>blooms:understand</text></tag>
     <tag><text>calculation:light</text></tag>
     <tag><text>media:graph</text></tag>
     <tag><text>multiconcept:true</text></tag>
   </tags>
 </question>
 <question type="multichoice">
-  <name><text>NEET_UG_PHYSICS_2026_WORK_ENERGY_AND_POWER_MCQ_Q13 - Mechanical energy variation of pendulum oscillating in air</text></name>
-  <questiontext format="html">
-    <text><![CDATA[<p>Which of the diagrams shown in Fig. 6.7 represents variation of total mechanical energy of a pendulum oscillating in air as function of time?</p>]]></text>
-  </questiontext>
-  <generalfeedback format="html">
-    <text><![CDATA[<p><strong>Step 1: Physical Model of Damped Oscillations</strong><br/>When a pendulum oscillates in air, it experiences viscous air resistance (damping force) opposing its motion, typically modeled as \(F_d = -bv\). Work done against this non-conservative dissipative force converts mechanical energy continuously into thermal energy.</p><p><strong>Step 2: Energy Decay Law</strong><br/>For a lightly damped oscillator, the amplitude of oscillation decays exponentially with time according to \(A(t) = A_0 e^{-\gamma t}\), where \(\gamma = \frac{b}{2m}\). Because the total mechanical energy of a harmonic oscillator is proportional to the square of its amplitude (\(E \propto A^2\)), the total mechanical energy decays exponentially:<br/>\(E(t) = E_0 e^{-2\gamma t} = E_0 e^{-\lambda t}\), where \(\lambda = \frac{b}{m} > 0\).</p><p><strong>Step 3: Qualitative Characteristics of the Energy Graph</strong><br/>1. Total mechanical energy is a scalar quantity that is strictly non-negative (\(E(t) \ge 0\)) at all times; it cannot oscillate below zero or take negative values.<br/>2. The decay is continuous and exponential, decreasing asymptotically toward zero as \(t \to \infty\), rather than dropping abruptly to zero at a finite time.</p><p><strong>Step 4: Final Conclusion</strong><br/>The correct representation of the total mechanical energy as a function of time is the monotonically decreasing exponential decay curve that asymptotically approaches zero while remaining entirely above the time axis.</p><hr/><p><strong>चरण 1: अवमंदित दोलनों का भौतिक मॉडल</strong><br/>जब कोई लोलक वायु में दोलन करता है, तो वह वायु प्रतिरोध (अवमंदन बल \(F_d = -bv\)) का अनुभव करता है। इस असंरक्षी बल के विरुद्ध किए गए कार्य के कारण यांत्रिक ऊर्जा लगातार ऊष्मीय ऊर्जा में परिवर्तित होती रहती है।</p><p><strong>चरण 2: ऊर्जा क्षय का नियम</strong><br/>अवमंदित दोलक के लिए आयाम चरघातांकी रूप से घटता है: \(A(t) = A_0 e^{-\gamma t}\)। चूंकि कुल यांत्रिक ऊर्जा आयाम के वर्ग के समानुपाती होती है (\(E \propto A^2\)), इसलिए कुल यांत्रिक ऊर्जा भी चरघातांकी रूप से घटती है:<br/>\(E(t) = E_0 e^{-\lambda t}\)।</p><p><strong>चरण 3: ऊर्जा ग्राफ की गुणात्मक विशेषताएँ</strong><br/>1. कुल यांत्रिक ऊर्जा सदैव गैर-ऋणात्मक (\(E(t) \ge 0\)) रहती है; यह समय अक्ष के नीचे नहीं जा सकती।<br/>2. ऊर्जा का क्षय निरंतर और चरघातांकी होता है, जो स्पर्शोन्मुख रूप से शून्य की ओर अग्रसर होता है।</p><p><strong>चरण 4: अंतिम निष्कर्ष</strong><br/>समय के फलन के रूप में कुल यांत्रिक ऊर्जा का सही निरूपण वह चरघातांकी क्षय वक्र है जो निरंतर घटता हुआ स्पर्शोन्मुख रूप से शून्य की ओर अग्रसर होता है।</p>]]></text>
-  </generalfeedback>
-  <defaultgrade>4.0000000</defaultgrade>
-  <penalty>0.2500000</penalty>
-  <hidden>0</hidden>
-  <single>true</single>
-  <shuffleanswers>false</shuffleanswers>
-  <answernumbering>abc</answernumbering>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p><img src="@@PLUGINFILE@@/img-20.jpeg" alt="Total energy curve A" /></p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p><img src="@@PLUGINFILE@@/img-21.jpeg" alt="Total energy curve B" /></p>]]></text>
-  </answer>
-  <answer fraction="100" format="html">
-    <text><![CDATA[<p><img src="@@PLUGINFILE@@/img-22.jpeg" alt="Total energy curve C" /></p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p><img src="@@PLUGINFILE@@/img-23.jpeg" alt="Total energy curve D" /></p>]]></text>
-  </answer>
-  <tags>
-    <tag><text>standard:neet_ug</text></tag>
-    <tag><text>year:2026</text></tag>
-    <tag><text>lang:en</text></tag>
-    <tag><text>lang:hi</text></tag>
-    <tag><text>subject:physics</text></tag>
-    <tag><text>class:class_11</text></tag>
-    <tag><text>topic:work_energy_and_power</text></tag>
-    <tag><text>chapter:work_energy_and_power</text></tag>
-    <tag><text>typology:mcq</text></tag>
-    <tag><text>difficulty:medium</text></tag>
-    <tag><text>blooms:understand</text></tag>
-    <tag><text>calculation:light</text></tag>
-    <tag><text>media:graph</text></tag>
-    <tag><text>multiconcept:false</text></tag>
-  </tags>
-</question>
-<question type="multichoice">
-  <name><text>NEET_UG_PHYSICS_2026_WORK_ENERGY_AND_POWER_MCQ_Q14 - Kinetic energy of mass moving in circular path</text></name>
-  <questiontext format="html">
-    <text><![CDATA[<p>A mass of \(5\text{ kg}\) is moving along a circular path of radius \(1\text{ m}\). If the mass moves with \(300\text{ revolutions per minute}\), its kinetic energy would be</p><hr/><p>\(5\text{ kg}\) का एक द्रव्यमान \(1\text{ m}\) त्रिज्या वाले वृत्ताकार पथ पर गति कर रहा है। यदि द्रव्यमान \(300\text{ परिक्रमण प्रति मिनट}\) की दर से गति करता है, तो इसकी गतिज ऊर्जा होगी</p>]]></text>
-  </questiontext>
-  <generalfeedback format="html">
-    <text><![CDATA[<p><strong>Step 1: Given Data and Units</strong><br/>Mass: \(m = 5\text{ kg}\).<br/>Radius of the circular path: \(r = 1\text{ m}\).<br/>Rotational frequency: \(\nu = 300\text{ rpm} = \frac{300}{60}\text{ rev/s} = 5\text{ rev/s}\).</p><p><strong>Step 2: Angular and Linear Velocity</strong><br/>The angular velocity \(\omega\) is given by:<br/>\(\omega = 2\pi\nu = 2\pi \times 5 = 10\pi\text{ rad/s}\).<br/>The linear speed \(v\) along the circular path is:<br/>\(v = \omega r = 10\pi\text{ rad/s} \times 1\text{ m} = 10\pi\text{ m/s}\).</p><p><strong>Step 3: Step-by-Step Calculation of Kinetic Energy</strong><br/>The translational kinetic energy is:<br/>\(K = \frac{1}{2}mv^2\).<br/>Substituting the values:<br/>\(K = \frac{1}{2} \times 5\text{ kg} \times (10\pi\text{ m/s})^2 = \frac{1}{2} \times 5 \times 100\pi^2 = 250\pi^2\text{ J}\).</p><p><strong>Step 4: Check and Final Answer</strong><br/>The calculated kinetic energy is \(250\pi^2\).</p><hr/><p><strong>चरण 1: दिए गए आँकड़े और मात्रक</strong><br/>द्रव्यमान: \(m = 5\text{ kg}\)।<br/>वृत्ताकार पथ की त्रिज्या: \(r = 1\text{ m}\)।<br/>घूर्णन आवृत्ति: \(\nu = 300\text{ rpm} = \frac{300}{60}\text{ rev/s} = 5\text{ rev/s}\)।</p><p><strong>चरण 2: कोणीय और रैखिक वेग</strong><br/>कोणीय वेग \(\omega\):<br/>\(\omega = 2\pi\nu = 2\pi \times 5 = 10\pi\text{ rad/s}\)।<br/>रैखिक चाल \(v\):<br/>\(v = \omega r = 10\pi \times 1 = 10\pi\text{ m/s}\)।</p><p><strong>चरण 3: गतिज ऊर्जा की गणना</strong><br/>गतिज ऊर्जा का सूत्र:<br/>\(K = \frac{1}{2}mv^2\)।<br/>मान प्रतिस्थापित करने पर:<br/>\(K = \frac{1}{2} \times 5 \times (10\pi)^2 = \frac{1}{2} \times 5 \times 100\pi^2 = 250\pi^2\text{ J}\)।</p><p><strong>चरण 4: जाँच और अंतिम उत्तर</strong><br/>परिकलित गतिज ऊर्जा का मान \(250\pi^2\) है।</p>]]></text>
-  </generalfeedback>
+  <name><text>NEET_UG_PHYSICS_WORKENERGYANDPOWER_MCQI_MCQ_Q13 - Total mechanical energy of damped pendulum</text></name>
+  <questiontext format="html"><text><![CDATA[<p>Which of the diagrams shown in Fig. 6.7 represents variation of total mechanical energy of a pendulum oscillating in air as function of time?</p><hr/><p>चित्र 6.7 में दिखाए गए आरेखों में से कौन-सा वायु में दोलन करते हुए एक लोलक की कुल यांत्रिक ऊर्जा के समय के साथ परिवर्तन को दर्शाता है?</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>A pendulum oscillating in air experiences a dissipative drag force (air resistance) that opposes its motion. Therefore, it executes damped harmonic motion.</p><p><strong>Step 2: Evaluation</strong><br/>Because air resistance does negative work on the pendulum, its total mechanical energy \(E = K + U\) is not conserved; it decreases continuously with time. Moreover, taking the lowest point of the pendulum as the zero reference for potential energy, both kinetic energy \(K\) and potential energy \(U\) are non-negative, so \(E \ge 0\) at all times.</p><p><strong>Step 3: Application</strong><br/>For linear damping, the amplitude decays exponentially as \(A(t) = A_0 e^{-\gamma t}\), and the total mechanical energy decays exponentially as:<br/>\[E(t) = E_0 e^{-2\gamma t}\]<br/>This curve starts at a positive initial value \(E_0\) and decreases monotonically, approaching zero asymptotically as \(t \to \infty\), without oscillating or becoming negative.</p><p><strong>Step 4: Final Conclusion</strong><br/>The total mechanical energy of a pendulum oscillating in air decreases exponentially with time, approaching zero asymptotically.</p><hr/><p><strong>चरण 1: अवधारणात्मक सिद्धांत</strong><br/>वायु में दोलन करने वाला लोलक एक क्षयकारी कर्षण बल (वायु प्रतिरोध) का अनुभव करता है जो इसकी गति का विरोध करता है। इसलिए, यह अवमंदित आवर्त गति करता है।</p><p><strong>चरण 2: मूल्यांकन</strong><br/>चूँकि वायु प्रतिरोध लोलक पर ऋणात्मक कार्य करता है, इसलिए इसकी कुल यांत्रिक ऊर्जा \(E = K + U\) संरक्षित नहीं रहती; यह समय के साथ लगातार घटती जाती है। इसके अतिरिक्त, लोलक के निम्नतम बिंदु को स्थितिज ऊर्जा का शून्य संदर्भ मानने पर, गतिज ऊर्जा \(K\) और स्थितिज ऊर्जा \(U\) दोनों अऋणात्मक होती हैं, अतः हर समय \(E \ge 0\) होता है।</p><p><strong>चरण 3: अनुप्रयोग</strong><br/>रैखिक अवमंदन के लिए, आयाम \(A(t) = A_0 e^{-\gamma t}\) के रूप में चरघातांकी रूप से घटता है, और कुल यांत्रिक ऊर्जा निम्न प्रकार चरघातांकी रूप से घटती है:<br/>\[E(t) = E_0 e^{-2\gamma t}\]<br/>यह वक्र एक धनात्मक प्रारंभिक मान \(E_0\) से शुरू होता है और एकदिष्ट रूप से घटता है, तथा बिना दोलन किए या ऋणात्मक हुए \(t \to \infty\) पर अनंतस्पर्शी रूप से शून्य की ओर अग्रसर होता है।</p><p><strong>चरण 4: अंतिम निष्कर्ष</strong><br/>वायु में दोलन करते हुए लोलक की कुल यांत्रिक ऊर्जा समय के साथ चरघातांकी रूप से घटती है और अनंतस्पर्शी रूप से शून्य की ओर अग्रसर होती है।</p>]]></text></generalfeedback>
   <defaultgrade>4.0000000</defaultgrade>
   <penalty>0.2500000</penalty>
   <hidden>0</hidden>
   <single>true</single>
   <shuffleanswers>true</shuffleanswers>
   <answernumbering>abc</answernumbering>
-  <answer fraction="100" format="html">
-    <text><![CDATA[<p>\(250\pi^2\)</p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>\(100\pi^2\)</p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>\(5\pi^2\)</p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>0</p>]]></text>
-  </answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p><img src="@@PLUGINFILE@@/img-20.jpeg" alt="Damped oscillatory curve around zero" /></p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p><img src="@@PLUGINFILE@@/img-21.jpeg" alt="Concave down curve dropping to zero" /></p>]]></text></answer>
+  <answer fraction="100" format="html"><text><![CDATA[<p><img src="@@PLUGINFILE@@/img-22.jpeg" alt="Exponentially decaying curve" /></p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p><img src="@@PLUGINFILE@@/img-23.jpeg" alt="Slowly damped oscillatory curve" /></p>]]></text></answer>
   <tags>
     <tag><text>standard:neet_ug</text></tag>
-    <tag><text>year:2026</text></tag>
     <tag><text>lang:en</text></tag>
     <tag><text>lang:hi</text></tag>
     <tag><text>subject:physics</text></tag>
+    <tag><text>section:mcq_i</text></tag>
     <tag><text>class:class_11</text></tag>
-    <tag><text>topic:work_energy_and_power</text></tag>
+    <tag><text>chapter:work_energy_and_power</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:medium</text></tag>
+    <tag><text>blooms:understand</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:graph</text></tag>
+    <tag><text>multiconcept:true</text></tag>
+  </tags>
+</question>
+<question type="multichoice">
+  <name><text>NEET_UG_PHYSICS_WORKENERGYANDPOWER_MCQI_MCQ_Q14 - Kinetic energy of mass in circular path</text></name>
+  <questiontext format="html"><text><![CDATA[<p>A mass of \(5\text{ kg}\) is moving along a circular path of radius \(1\text{ m}\). If the mass moves with \(300\) revolutions per minute, its kinetic energy would be</p><hr/><p>\(5\text{ kg}\) का एक द्रव्यमान \(1\text{ m}\) त्रिज्या के वृत्ताकार पथ पर गति कर रहा है। यदि द्रव्यमान \(300\) चक्कर प्रति मिनट से गति करता है, तो इसकी गतिज ऊर्जा होगी</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>Mass: \(m = 5\text{ kg}\).<br/>Radius of circular path: \(r = 1\text{ m}\).<br/>Rotational frequency: \(n = 300\text{ revolutions per minute}\).</p><p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>The mass moves in uniform circular motion with constant angular speed \(\omega\) and linear speed \(v = r\omega\).</p><p><strong>Step 3: Relevant Formulae and Principles</strong><br/>Frequency in revolutions per second: \(f = \frac{n}{60}\).<br/>Angular velocity: \(\omega = 2\pi f\).<br/>Linear speed: \(v = r\omega\).<br/>Kinetic energy: \(K = \frac{1}{2}mv^2\).</p><p><strong>Step 4: Step-by-Step Working</strong><br/>1. Convert frequency to Hz:<br/>\[f = \frac{300}{60}\text{ s}^{-1} = 5\text{ Hz}\]<br/>2. Calculate angular velocity:<br/>\[\omega = 2\pi(5\text{ s}^{-1}) = 10\pi\text{ rad/s}\]<br/>3. Calculate linear speed:<br/>\[v = (1\text{ m})(10\pi\text{ rad/s}) = 10\pi\text{ m/s}\]<br/>4. Calculate kinetic energy:<br/>\[K = \frac{1}{2}(5\text{ kg})(10\pi\text{ m/s})^2 = \frac{5}{2} \times 100\pi^2\text{ J} = 250\pi^2\text{ J}\]</p><p><strong>Step 5: Check and Final Answer</strong><br/>Units check: \(\text{kg} \cdot (\text{m/s})^2 = \text{J}\). The kinetic energy of the mass is \(250\pi^2\text{ J}\).</p><hr/><p><strong>चरण 1: दिए गए आँकड़े और शर्तें</strong><br/>द्रव्यमान: \(m = 5\text{ kg}\)।<br/>वृत्ताकार पथ की त्रिज्या: \(r = 1\text{ m}\)।<br/>घूर्णन आवृत्ति: \(n = 300\) चक्कर प्रति मिनट।</p><p><strong>चरण 2: मान्यताएँ और चिह्न परिपाटी</strong><br/>द्रव्यमान नियत कोणीय चाल \(\omega\) और रैखिक चाल \(v = r\omega\) के साथ एकसमान वृत्तीय गति कर रहा है।</p><p><strong>चरण 3: संबंधित सूत्र और सिद्धांत</strong><br/>चक्कर प्रति सेकंड में आवृत्ति: \(f = \frac{n}{60}\)।<br/>कोणीय वेग: \(\omega = 2\pi f\)।<br/>रैखिक चाल: \(v = r\omega\)।<br/>गतिज ऊर्जा: \(K = \frac{1}{2}mv^2\)।</p><p><strong>चरण 4: चरण-दर-चरण हल</strong><br/>1. आवृत्ति को Hz में बदलें:<br/>\[f = \frac{300}{60}\text{ s}^{-1} = 5\text{ Hz}\]<br/>2. कोणीय वेग की गणना करें:<br/>\[\omega = 2\pi(5\text{ s}^{-1}) = 10\pi\text{ rad/s}\]<br/>3. रैखिक चाल की गणना करें:<br/>\[v = (1\text{ m})(10\pi\text{ rad/s}) = 10\pi\text{ m/s}\]<br/>4. गतिज ऊर्जा की गणना करें:<br/>\[K = \frac{1}{2}(5\text{ kg})(10\pi\text{ m/s})^2 = \frac{5}{2} \times 100\pi^2\text{ J} = 250\pi^2\text{ J}\]</p><p><strong>चरण 5: जाँच और अंतिम उत्तर</strong><br/>मात्रक जाँच: \(\text{kg} \cdot (\text{m/s})^2 = \text{J}\)। द्रव्यमान की गतिज ऊर्जा \(250\pi^2\text{ J}\) है।</p>]]></text></generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="100" format="html"><text><![CDATA[<p>\(250\pi^2\)</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>\(100\pi^2\)</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>\(5\pi^2\)</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>\(0\)</p>]]></text></answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:hi</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>section:mcq_i</text></tag>
+    <tag><text>class:class_11</text></tag>
     <tag><text>chapter:work_energy_and_power</text></tag>
     <tag><text>typology:mcq</text></tag>
     <tag><text>difficulty:easy</text></tag>
     <tag><text>blooms:apply</text></tag>
-    <tag><text>calculation:moderate</text></tag>
+    <tag><text>calculation:light</text></tag>
     <tag><text>media:text</text></tag>
     <tag><text>multiconcept:false</text></tag>
   </tags>

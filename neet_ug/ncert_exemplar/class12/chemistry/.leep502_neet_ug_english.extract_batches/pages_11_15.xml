@@ -1,139 +1,123 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <quiz>
 <question type="multichoice">
-    <name><text>NEET_UG_CHEMISTRY_ASSERTION_REASON_Q51 - Temperature dependence of solution molarity and volume</text></name>
-    <questiontext format="html"><text><![CDATA[<p><strong>Assertion:</strong> Molarity of a solution in liquid state changes with temperature.</p>
-<p><strong>Reason:</strong> The volume of a solution changes with change in temperature.</p>]]></text></questiontext>
-    <generalfeedback format="html"><text><![CDATA[<p><strong>Conceptual Principle</strong><br/>Molarity \(M\) is defined as the number of moles of solute dissolved per litre of solution: \[M = \frac{n}{V}\] where \(n\) is the amount of solute in moles and \(V\) is the volume of the solution in litres.</p>
-<p><strong>Evaluation of the Assertion</strong><br/>Liquids expand upon heating and contract upon cooling. When the temperature of a solution changes, its total volume changes accordingly. Because the quantity of solute remains constant while the volume changes, the molarity changes inversely with temperature. Hence, the assertion is a correct statement.</p>
-<p><strong>Evaluation of the Reason and Relationship</strong><br/>The volume of a liquid solution varies with temperature as a consequence of thermal expansion and contraction. Because volume appears in the denominator of the molarity formula, this temperature-induced volume variation directly accounts for the variation in molarity. Therefore, the reason is a correct statement and serves as the correct explanation for the assertion.</p>
-<p><strong>Final Answer</strong><br/>Assertion and reason both are correct statements and reason is correct explanation for assertion.</p>]]></text></generalfeedback>
-    <defaultgrade>4.0000000</defaultgrade>
-    <penalty>0.2500000</penalty>
-    <hidden>0</hidden>
-    <single>true</single>
-    <shuffleanswers>false</shuffleanswers>
-    <answernumbering>iii</answernumbering>
-    <answer fraction="100" format="html"><text><![CDATA[<p>Assertion and reason both are correct statements and reason is correct explanation for assertion.</p>]]></text></answer>
-    <answer fraction="0" format="html"><text><![CDATA[<p>Assertion and reason both are correct statements but reason is not correct explanation for assertion.</p>]]></text></answer>
-    <answer fraction="0" format="html"><text><![CDATA[<p>Assertion is correct statement but reason is wrong statement.</p>]]></text></answer>
-    <answer fraction="0" format="html"><text><![CDATA[<p>Assertion and reason both are incorrect statements.</p>]]></text></answer>
-    <answer fraction="0" format="html"><text><![CDATA[<p>Assertion is wrong statement but reason is correct statement.</p>]]></text></answer>
-    <tags>
-      <tag><text>standard:neet_ug</text></tag>
-      <tag><text>lang:en</text></tag>
-      <tag><text>subject:chemistry</text></tag>
-      <tag><text>class:class_12</text></tag>
-      <tag><text>chapter:solutions</text></tag>
-      <tag><text>typology:assertion-reason</text></tag>
-      <tag><text>category:conceptual</text></tag>
-      <tag><text>difficulty:easy</text></tag>
-      <tag><text>blooms:understand</text></tag>
-      <tag><text>calculation:light</text></tag>
-      <tag><text>media:text</text></tag>
-      <tag><text>multiconcept:false</text></tag>
-    </tags>
-  </question>
+  <name><text>CHEMISTRY_SOLUTIONS_AR_Q51 - Temperature dependence of molarity and solution volume</text></name>
+  <questiontext format="html"><text><![CDATA[<p>In the following question a statement of assertion followed by a statement of reason is given. Choose the correct answer out of the given choices.</p><p><strong>Assertion :</strong> Molarity of a solution in liquid state changes with temperature.</p><p><strong>Reason :</strong> The volume of a solution changes with change in temperature.</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>Molarity (\(M\)) of a solution is defined as the number of moles of solute dissolved per litre of solution:<br/>\[M = \frac{\text{Moles of solute}}{\text{Volume of solution in litres}}\]</p><p><strong>Step 2: Evaluation</strong><br/>The number of moles of solute is independent of temperature. However, the volume of a liquid solution changes with a change in temperature due to thermal expansion or contraction.</p><p><strong>Step 3: Application</strong><br/>Because molarity is inversely proportional to the volume of the solution, any temperature-induced change in volume causes a corresponding change in molarity.</p><p><strong>Step 4: Final Conclusion</strong><br/>Both the assertion and the reason are correct statements, and the reason is the correct explanation for the assertion.</p>]]></text></generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>false</shuffleanswers>
+  <answernumbering>iii</answernumbering>
+  <answer fraction="100" format="html"><text><![CDATA[<p>Assertion and reason both are correct statements and reason is correct explanation for assertion.</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>Assertion and reason both are correct statements but reason is not correct explanation for assertion.</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>Assertion is correct statement but reason is wrong statement.</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>Assertion and reason both are incorrect statements.</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>Assertion is wrong statement but reason is correct statement.</p>]]></text></answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>subject:chemistry</text></tag>
+    <tag><text>section:assertion_reason</text></tag>
+    <tag><text>class:class_12</text></tag>
+    <tag><text>chapter:solutions</text></tag>
+    <tag><text>typology:assertion_reason</text></tag>
+    <tag><text>difficulty:easy</text></tag>
+    <tag><text>blooms:understand</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:text</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
 <question type="multichoice">
-    <name><text>NEET_UG_CHEMISTRY_ASSERTION_REASON_Q52 - Effect of methyl alcohol addition on boiling point of water</text></name>
-    <questiontext format="html"><text><![CDATA[<p><strong>Assertion:</strong> When methyl alcohol is added to water, boiling point of water increases.</p>
-<p><strong>Reason:</strong> When a volatile solute is added to a volatile solvent elevation in boiling point is observed.</p>]]></text></questiontext>
-    <generalfeedback format="html"><text><![CDATA[<p><strong>Conceptual Principle</strong><br/>Boiling point is the temperature at which the total vapour pressure of a liquid equals the external atmospheric pressure. Elevation in boiling point is a colligative property that occurs specifically when a non-volatile solute is dissolved in a volatile solvent, which reduces the escaping tendency of solvent molecules and lowers the vapour pressure.</p>
-<p><strong>Evaluation of the Assertion</strong><br/>Methyl alcohol (boiling point \(64.7\ ^\circ\mathrm{C}\)) is more volatile than water (boiling point \(100\ ^\circ\mathrm{C}\)) and exerts a higher vapour pressure at a given temperature. When methyl alcohol is added to water, the total vapour pressure of the resulting mixture increases. Because the vapour pressure is raised, the solution reaches atmospheric pressure at a lower temperature than pure water, decreasing the boiling point. Therefore, the assertion is an incorrect statement.</p>
-<p><strong>Evaluation of the Reason</strong><br/>Elevation in boiling point requires the addition of a non-volatile solute so that the vapour pressure of the solvent is lowered. Adding a volatile solute increases the total vapour pressure according to Raoult's law, meaning no colligative elevation in boiling point takes place. Therefore, the reason is also an incorrect statement.</p>
-<p><strong>Final Answer</strong><br/>Assertion and reason both are incorrect statements.</p>]]></text></generalfeedback>
-    <defaultgrade>4.0000000</defaultgrade>
-    <penalty>0.2500000</penalty>
-    <hidden>0</hidden>
-    <single>true</single>
-    <shuffleanswers>false</shuffleanswers>
-    <answernumbering>iii</answernumbering>
-    <answer fraction="0" format="html"><text><![CDATA[<p>Assertion and reason both are correct statements and reason is correct explanation for assertion.</p>]]></text></answer>
-    <answer fraction="0" format="html"><text><![CDATA[<p>Assertion and reason both are correct statements but reason is not correct explanation for assertion.</p>]]></text></answer>
-    <answer fraction="0" format="html"><text><![CDATA[<p>Assertion is correct statement but reason is wrong statement.</p>]]></text></answer>
-    <answer fraction="100" format="html"><text><![CDATA[<p>Assertion and reason both are incorrect statements.</p>]]></text></answer>
-    <answer fraction="0" format="html"><text><![CDATA[<p>Assertion is wrong statement but reason is correct statement.</p>]]></text></answer>
-    <tags>
-      <tag><text>standard:neet_ug</text></tag>
-      <tag><text>lang:en</text></tag>
-      <tag><text>subject:chemistry</text></tag>
-      <tag><text>class:class_12</text></tag>
-      <tag><text>chapter:solutions</text></tag>
-      <tag><text>typology:assertion-reason</text></tag>
-      <tag><text>category:conceptual</text></tag>
-      <tag><text>difficulty:medium</text></tag>
-      <tag><text>blooms:understand</text></tag>
-      <tag><text>calculation:light</text></tag>
-      <tag><text>media:text</text></tag>
-      <tag><text>multiconcept:false</text></tag>
-    </tags>
-  </question>
+  <name><text>CHEMISTRY_SOLUTIONS_AR_Q52 - Effect of volatile solute on boiling point of water</text></name>
+  <questiontext format="html"><text><![CDATA[<p>In the following question a statement of assertion followed by a statement of reason is given. Choose the correct answer out of the given choices.</p><p><strong>Assertion :</strong> When methyl alcohol is added to water, boiling point of water increases.</p><p><strong>Reason :</strong> When a volatile solute is added to a volatile solvent elevation in boiling point is observed.</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>The boiling point of a liquid is the temperature at which its vapour pressure equals the external atmospheric pressure. Elevation in boiling point is a colligative property observed when a non-volatile solute is dissolved in a volatile solvent.</p><p><strong>Step 2: Evaluation</strong><br/>Methyl alcohol (methanol) is a volatile liquid with a higher vapour pressure (and lower boiling point) than water. When methyl alcohol is added to water, the total vapour pressure of the solution increases, causing the solution to boil at a lower temperature than pure water. Thus, the assertion is incorrect.</p><p><strong>Step 3: Application</strong><br/>Furthermore, elevation in boiling point is observed when a non-volatile solute is added to a volatile solvent, not when a volatile solute is added to a volatile solvent. Thus, the reason is also incorrect.</p><p><strong>Step 4: Final Conclusion</strong><br/>Both the assertion and the reason are incorrect statements.</p>]]></text></generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>false</shuffleanswers>
+  <answernumbering>iii</answernumbering>
+  <answer fraction="0" format="html"><text><![CDATA[<p>Assertion and reason both are correct statements and reason is correct explanation for assertion.</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>Assertion and reason both are correct statements but reason is not correct explanation for assertion.</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>Assertion is correct statement but reason is wrong statement.</p>]]></text></answer>
+  <answer fraction="100" format="html"><text><![CDATA[<p>Assertion and reason both are incorrect statements.</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>Assertion is wrong statement but reason is correct statement.</p>]]></text></answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>subject:chemistry</text></tag>
+    <tag><text>section:assertion_reason</text></tag>
+    <tag><text>class:class_12</text></tag>
+    <tag><text>chapter:solutions</text></tag>
+    <tag><text>typology:assertion_reason</text></tag>
+    <tag><text>difficulty:medium</text></tag>
+    <tag><text>blooms:understand</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:text</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
 <question type="multichoice">
-    <name><text>NEET_UG_CHEMISTRY_ASSERTION_REASON_Q53 - Depression in freezing point upon sodium chloride addition</text></name>
-    <questiontext format="html"><text><![CDATA[<p><strong>Assertion:</strong> When NaCl is added to water a depression in freezing point is observed.</p>
-<p><strong>Reason:</strong> The lowering of vapour pressure of a solution causes depression in the freezing point.</p>]]></text></questiontext>
-    <generalfeedback format="html"><text><![CDATA[<p><strong>Conceptual Principle</strong><br/>The freezing point of a solvent is the temperature at which the vapour pressure of the liquid solvent equals the vapour pressure of the corresponding solid solvent. Dissolving a non-volatile solute in a volatile solvent lowers the vapour pressure of the liquid phase at every temperature.</p>
-<p><strong>Evaluation of the Assertion</strong><br/>Sodium chloride (\(\mathrm{NaCl}\)) is a non-volatile electrolyte that dissociates into sodium and chloride ions in aqueous solution. The presence of these solute particles reduces the chemical potential and vapour pressure of liquid water. As a result, equilibrium between ice and liquid solution is reached at a temperature below \(0\ ^\circ\mathrm{C}\), producing a depression in freezing point. Hence, the assertion is a correct statement.</p>
-<p><strong>Evaluation of the Reason and Relationship</strong><br/>Because the solution possesses a lower vapour pressure than pure liquid water across all temperatures, the vapour pressure curve of the liquid solution intersects the sublimation pressure curve of ice at a lower temperature. This fundamental lowering of vapour pressure directly governs and explains why the freezing point is depressed. Therefore, the reason is a correct statement and correctly explains the assertion.</p>
-<p><strong>Final Answer</strong><br/>Assertion and reason both are correct statements and reason is correct explanation for assertion.</p>]]></text></generalfeedback>
-    <defaultgrade>4.0000000</defaultgrade>
-    <penalty>0.2500000</penalty>
-    <hidden>0</hidden>
-    <single>true</single>
-    <shuffleanswers>false</shuffleanswers>
-    <answernumbering>iii</answernumbering>
-    <answer fraction="100" format="html"><text><![CDATA[<p>Assertion and reason both are correct statements and reason is correct explanation for assertion.</p>]]></text></answer>
-    <answer fraction="0" format="html"><text><![CDATA[<p>Assertion and reason both are correct statements but reason is not correct explanation for assertion.</p>]]></text></answer>
-    <answer fraction="0" format="html"><text><![CDATA[<p>Assertion is correct statement but reason is wrong statement.</p>]]></text></answer>
-    <answer fraction="0" format="html"><text><![CDATA[<p>Assertion and reason both are incorrect statements.</p>]]></text></answer>
-    <answer fraction="0" format="html"><text><![CDATA[<p>Assertion is wrong statement but reason is correct statement.</p>]]></text></answer>
-    <tags>
-      <tag><text>standard:neet_ug</text></tag>
-      <tag><text>lang:en</text></tag>
-      <tag><text>subject:chemistry</text></tag>
-      <tag><text>class:class_12</text></tag>
-      <tag><text>chapter:solutions</text></tag>
-      <tag><text>typology:assertion-reason</text></tag>
-      <tag><text>category:conceptual</text></tag>
-      <tag><text>difficulty:medium</text></tag>
-      <tag><text>blooms:understand</text></tag>
-      <tag><text>calculation:light</text></tag>
-      <tag><text>media:text</text></tag>
-      <tag><text>multiconcept:false</text></tag>
-    </tags>
-  </question>
+  <name><text>CHEMISTRY_SOLUTIONS_AR_Q53 - Depression in freezing point upon adding NaCl to water</text></name>
+  <questiontext format="html"><text><![CDATA[<p>In the following question a statement of assertion followed by a statement of reason is given. Choose the correct answer out of the given choices.</p><p><strong>Assertion :</strong> When NaCl is added to water a depression in freezing point is observed.</p><p><strong>Reason :</strong> The lowering of vapour pressure of a solution causes depression in the freezing point.</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>At the freezing point of a substance, its solid phase and liquid phase are in dynamic equilibrium and therefore have the same vapour pressure.</p><p><strong>Step 2: Evaluation</strong><br/>When a non-volatile solute such as \(\mathrm{NaCl}\) is added to water, the vapour pressure of the resulting aqueous solution becomes lower than that of pure liquid water at any given temperature.</p><p><strong>Step 3: Application</strong><br/>Because the vapour pressure of the solution is lowered, it becomes equal to the vapour pressure of solid ice at a temperature lower than the normal freezing point of pure water. Consequently, a depression in freezing point is observed.</p><p><strong>Step 4: Final Conclusion</strong><br/>Both the assertion and the reason are correct statements, and the reason is the correct explanation for the assertion.</p>]]></text></generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>false</shuffleanswers>
+  <answernumbering>iii</answernumbering>
+  <answer fraction="100" format="html"><text><![CDATA[<p>Assertion and reason both are correct statements and reason is correct explanation for assertion.</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>Assertion and reason both are correct statements but reason is not correct explanation for assertion.</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>Assertion is correct statement but reason is wrong statement.</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>Assertion and reason both are incorrect statements.</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>Assertion is wrong statement but reason is correct statement.</p>]]></text></answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>subject:chemistry</text></tag>
+    <tag><text>section:assertion_reason</text></tag>
+    <tag><text>class:class_12</text></tag>
+    <tag><text>chapter:solutions</text></tag>
+    <tag><text>typology:assertion_reason</text></tag>
+    <tag><text>difficulty:easy</text></tag>
+    <tag><text>blooms:understand</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:text</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
 <question type="multichoice">
-    <name><text>NEET_UG_CHEMISTRY_ASSERTION_REASON_Q54 - Direction of solvent movement during osmosis</text></name>
-    <questiontext format="html"><text><![CDATA[<p><strong>Assertion:</strong> When a solution is separated from the pure solvent by a semi-permeable membrane, the solvent molecules pass through it from pure solvent side to the solution side.</p>
-<p><strong>Reason:</strong> Diffusion of solvent occurs from a region of high concentration solution to a region of low concentration solution.</p>]]></text></questiontext>
-    <generalfeedback format="html"><text><![CDATA[<p><strong>Conceptual Principle</strong><br/>Osmosis is the spontaneous net movement of solvent molecules through a semi-permeable membrane from a region of higher chemical potential of solvent (lower solute concentration or pure solvent) to a region of lower chemical potential of solvent (higher solute concentration). Diffusion in general represents the spontaneous movement of chemical species down their concentration or chemical potential gradient.</p>
-<p><strong>Evaluation of the Assertion</strong><br/>When pure solvent is separated from a solution by a semi-permeable membrane that is permeable only to solvent molecules, solvent molecules naturally flow from the pure solvent side into the solution side to equalize chemical potentials. Hence, the assertion is a correct statement.</p>
-<p><strong>Evaluation of the Reason and Relationship</strong><br/>Solvent molecules diffuse spontaneously from a region of higher solvent concentration to a region of lower solvent concentration. While this describes the general direction of solvent transport, osmosis specifically depends on the barrier action of a semi-permeable membrane that prevents solute migration while allowing solvent flow. In standard chemical nomenclature and according to the reference key, the general diffusion statement is treated as a valid description of solvent migration, but it does not fully explain the selective semi-permeable membrane mechanism defined in the assertion. Therefore, both the assertion and reason are correct statements, but the reason is not the correct explanation for the assertion.</p>
-<p><strong>Final Answer</strong><br/>Assertion and reason both are correct statements but reason is not correct explanation for assertion.</p>]]></text></generalfeedback>
-    <defaultgrade>4.0000000</defaultgrade>
-    <penalty>0.2500000</penalty>
-    <hidden>0</hidden>
-    <single>true</single>
-    <shuffleanswers>false</shuffleanswers>
-    <answernumbering>iii</answernumbering>
-    <answer fraction="0" format="html"><text><![CDATA[<p>Assertion and reason both are correct statements and reason is correct explanation for assertion.</p>]]></text></answer>
-    <answer fraction="100" format="html"><text><![CDATA[<p>Assertion and reason both are correct statements but reason is not correct explanation for assertion.</p>]]></text></answer>
-    <answer fraction="0" format="html"><text><![CDATA[<p>Assertion is correct statement but reason is wrong statement.</p>]]></text></answer>
-    <answer fraction="0" format="html"><text><![CDATA[<p>Assertion and reason both are incorrect statements.</p>]]></text></answer>
-    <answer fraction="0" format="html"><text><![CDATA[<p>Assertion is wrong statement but reason is correct statement.</p>]]></text></answer>
-    <tags>
-      <tag><text>standard:neet_ug</text></tag>
-      <tag><text>lang:en</text></tag>
-      <tag><text>subject:chemistry</text></tag>
-      <tag><text>class:class_12</text></tag>
-      <tag><text>chapter:solutions</text></tag>
-      <tag><text>typology:assertion-reason</text></tag>
-      <tag><text>category:conceptual</text></tag>
-      <tag><text>difficulty:hard</text></tag>
-      <tag><text>blooms:analyze</text></tag>
-      <tag><text>calculation:light</text></tag>
-      <tag><text>media:text</text></tag>
-      <tag><text>multiconcept:true</text></tag>
-    </tags>
-  </question>
+  <name><text>CHEMISTRY_SOLUTIONS_AR_Q54 - Osmosis across a semi-permeable membrane</text></name>
+  <questiontext format="html"><text><![CDATA[<p>In the following question a statement of assertion followed by a statement of reason is given. Choose the correct answer out of the given choices.</p><p><strong>Assertion :</strong> When a solution is separated from the pure solvent by a semi-permeable membrane, the solvent molecules pass through it from pure solvent side to the solution side.</p><p><strong>Reason :</strong> Diffusion of solvent occurs from a region of high concentration solution to a region of low concentration solution.</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>Osmosis is the spontaneous net flow of solvent molecules through a semi-permeable membrane from pure solvent (or a dilute solution) into a more concentrated solution.</p><p><strong>Step 2: Evaluation</strong><br/>When a solution is separated from pure solvent by a semi-permeable membrane, solvent molecules pass through the membrane from the pure solvent side to the solution side because the chemical potential (or vapour pressure) of the pure solvent is higher than that of the solvent in the solution.</p><p><strong>Step 3: Application</strong><br/>While the reason refers to diffusion of solvent occurring from a region of higher concentration to a region of lower concentration, it does not correctly explain the osmotic flow described in the assertion (where solvent moves from pure solvent, which has higher solvent concentration, to the solution, which has higher solute concentration).</p><p><strong>Step 4: Final Conclusion</strong><br/>Both the assertion and the reason are treated as correct statements, but the reason is not the correct explanation for the assertion.</p>]]></text></generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>false</shuffleanswers>
+  <answernumbering>iii</answernumbering>
+  <answer fraction="0" format="html"><text><![CDATA[<p>Assertion and reason both are correct statements and reason is correct explanation for assertion.</p>]]></text></answer>
+  <answer fraction="100" format="html"><text><![CDATA[<p>Assertion and reason both are correct statements but reason is not correct explanation for assertion.</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>Assertion is correct statement but reason is wrong statement.</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>Assertion and reason both are incorrect statements.</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>Assertion is wrong statement but reason is correct statement.</p>]]></text></answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>subject:chemistry</text></tag>
+    <tag><text>section:assertion_reason</text></tag>
+    <tag><text>class:class_12</text></tag>
+    <tag><text>chapter:solutions</text></tag>
+    <tag><text>typology:assertion_reason</text></tag>
+    <tag><text>difficulty:medium</text></tag>
+    <tag><text>blooms:understand</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:text</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
 </quiz>

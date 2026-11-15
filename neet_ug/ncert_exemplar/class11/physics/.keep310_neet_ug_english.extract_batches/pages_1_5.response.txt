@@ -1,34 +1,23 @@
 <question type="multichoice">
-  <name><text>NEET_UG_PHYSICS_MECHANICALPROPERTIESOFFLUIDS_MCQ_Q01 - Velocity of a pebble falling in viscous oil</text></name>
-  <questiontext format="html">
-    <text><![CDATA[<p>A tall cylinder is filled with viscous oil. A round pebble is dropped from the top with zero initial velocity. From the plot shown in Fig. 10.1, indicate the one that represents the velocity (\(v\)) of the pebble as a function of time (\(t\)).</p>]]></text>
-  </questiontext>
-  <generalfeedback format="html">
-    <text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>A round pebble is dropped from rest into a tall cylinder filled with viscous oil. The initial velocity of the pebble at time \(t = 0\) is \(v = 0\).</p><p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>The downward vertical direction is taken as positive. The pebble is modeled as a small sphere of radius \(r\) and density \(\rho_s\) descending through an oil medium of density \(\rho_l\) and dynamic viscosity \(\eta\).</p><p><strong>Step 3: Relevant Formulae and Principles</strong><br/>The net downward force acting on the pebble is given by Newton's second law:<br/>\[m \frac{dv}{dt} = mg - F_B - F_v\]<br/>where \(mg\) is the downward gravitational force, \(F_B = \left(\frac{m}{\rho_s}\right)\rho_l g\) is the constant upward buoyant force, and \(F_v = 6 \pi \eta r v\) is the upward viscous drag force governed by Stokes' law.<br/>Terminal velocity \(v_t\) is reached when the net force becomes zero:<br/>\[v_t = \frac{mg - F_B}{6 \pi \eta r} = \frac{2 r^2 (\rho_s - \rho_l) g}{9 \eta}\]</p><p><strong>Step 4: Step-by-Step Working</strong><br/>At the release instant \(t = 0\), the velocity is zero (\(v = 0\)), which means the viscous drag is initially zero and the downward acceleration is maximum:<br/>\[a_0 = g\left(1 - \frac{\rho_l}{\rho_s}\right)\]<br/>As the pebble speeds up, the upward viscous drag force increases directly with velocity, thereby causing the net downward force and acceleration to decrease continuously over time:<br/>\[\frac{dv}{dt} = a_0 \left(1 - \frac{v}{v_t}\right)\]<br/>Integrating this differential equation with the initial condition \(v(0) = 0\) yields:<br/>\[v(t) = v_t \left(1 - e^{-t/\tau}\right)\]<br/>where \(\tau\) is the characteristic relaxation time.<br/>Graphically, this velocity-time function starts from the origin with an initial positive slope, curves downward due to diminishing acceleration, and asymptotically approaches a constant horizontal value representing the terminal velocity.</p><p><strong>Step 5: Check and Final Answer</strong><br/>The correct representation is the curve that begins at the origin with a positive slope and levels off horizontally to a steady terminal velocity.</p>]]></text>
-  </generalfeedback>
+  <name><text>NCERT_EXEMPLAR_PHYSICS_MCQI_MECHANICALPROPERTIESOFFLUIDS_MCQ_Q10_1 - Velocity versus time graph of falling pebble</text></name>
+  <questiontext format="html"><text><![CDATA[<p>A tall cylinder is filled with viscous oil. A round pebble is dropped from the top with zero initial velocity. From the plot shown in Fig. 10.1, indicate the one that represents the velocity (\(v\)) of the pebble as a function of time (\(t\)).</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>A round pebble is dropped from rest (\(v = 0\) at \(t = 0\)) into a tall cylinder filled with viscous oil.</p><p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>Take the downward direction as positive. The pebble is treated as a sphere of radius \(r\) and mass \(m\) moving through a homogeneous viscous fluid of viscosity \(\eta\), experiencing gravity, buoyancy, and viscous drag.</p><p><strong>Step 3: Relevant Formulae and Principles</strong><br/>According to Newton's second law and Stokes' law, the net downward force is:<br/>\[m \frac{dv}{dt} = mg_{\text{eff}} - 6\pi\eta r v\]<br/>where \(g_{\text{eff}} = g\left(1 - \frac{\rho_{\text{oil}}}{\rho_{\text{pebble}}}\right)\) accounts for gravity and buoyancy.</p><p><strong>Step 4: Step-by-Step Working</strong><br/>At \(t = 0\), \(v = 0\), so the viscous drag is zero and the initial acceleration \(\frac{dv}{dt} = g_{\text{eff}}\) is maximum. As the pebble speeds up, the upward viscous drag \(6\pi\eta r v\) increases, which continuously reduces the net downward force and hence the acceleration (the slope of the \(v\text{–}t\) curve decreases with time). Integrating the equation of motion gives:<br/>\[v(t) = v_T \left(1 - e^{-t/\tau}\right)\]<br/>where \(v_T = \frac{mg_{\text{eff}}}{6\pi\eta r}\) is the terminal velocity and \(\tau = \frac{m}{6\pi\eta r}\). Thus, the curve starts from the origin, is concave downwards, and approaches a constant horizontal asymptote \(v = v_T\) smoothly.</p><p><strong>Step 5: Check and Final Answer</strong><br/>At \(t = 0\), \(v = 0\); as \(t \to \infty\), \(v \to v_T\) (constant). The velocity-time plot that starts from the origin with a positive slope, curves concave downwards, and smoothly levels off to a constant terminal velocity represents the correct motion.</p>]]></text></generalfeedback>
   <defaultgrade>4.0000000</defaultgrade>
   <penalty>0.2500000</penalty>
   <hidden>0</hidden>
   <single>true</single>
   <shuffleanswers>true</shuffleanswers>
   <answernumbering>abc</answernumbering>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p><img src="@@PLUGINFILE@@/img-0.jpeg" alt="(a)" /></p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p><img src="@@PLUGINFILE@@/img-1.jpeg" alt="(b)" /></p>]]></text>
-  </answer>
-  <answer fraction="100" format="html">
-    <text><![CDATA[<p><img src="@@PLUGINFILE@@/img-2.jpeg" alt="(c)" /></p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p><img src="@@PLUGINFILE@@/img-3.jpeg" alt="(d)" /></p>]]></text>
-  </answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p><img src="@@PLUGINFILE@@/img-0.jpeg" alt="Velocity-time graph showing a straight line with positive slope starting from the origin" /></p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p><img src="@@PLUGINFILE@@/img-1.jpeg" alt="Velocity-time graph showing zero velocity initially followed by a straight line with positive slope" /></p>]]></text></answer>
+  <answer fraction="100" format="html"><text><![CDATA[<p><img src="@@PLUGINFILE@@/img-2.jpeg" alt="Velocity-time graph starting from the origin, curving concave downwards, and approaching a constant horizontal value" /></p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p><img src="@@PLUGINFILE@@/img-3.jpeg" alt="Velocity-time graph rising linearly from the origin to a sharp corner and then becoming horizontal" /></p>]]></text></answer>
   <tags>
     <tag><text>standard:neet_ug</text></tag>
     <tag><text>lang:en</text></tag>
     <tag><text>subject:physics</text></tag>
-    <tag><text>class:11</text></tag>
+    <tag><text>section:mcq_i</text></tag>
+    <tag><text>class:class_11</text></tag>
     <tag><text>chapter:mechanical_properties_of_fluids</text></tag>
     <tag><text>typology:mcq</text></tag>
     <tag><text>difficulty:medium</text></tag>
@@ -37,76 +26,56 @@
     <tag><text>multiconcept:false</text></tag>
   </tags>
 </question>
+
 <question type="multichoice">
-  <name><text>NEET_UG_PHYSICS_MECHANICALPROPERTIESOFFLUIDS_MCQ_Q02 - Identification of non streamline fluid flow diagram</text></name>
-  <questiontext format="html">
-    <text><![CDATA[<p>Which of the following diagrams (Fig. 10.2) does not represent a streamline flow?</p><p><img src="@@PLUGINFILE@@/img-4.jpeg" alt="Fig. 10.2" /></p>]]></text>
-  </questiontext>
-  <generalfeedback format="html">
-    <text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>In streamline (steady) flow, every fluid particle passing through a given spatial point follows precisely the same path with the exact same velocity as the particles preceding it. The tangent drawn to a streamline at any location gives the unique direction of the fluid velocity vector at that point.</p><p><strong>Step 2: Evaluation of Streamline Properties</strong><br/>A fundamental property of streamline flow is that two streamlines can never intersect or cross one another. If two streamlines were to cross, a fluid particle reaching the intersection point would simultaneously have two different directions of motion, which is physically impossible in steady flow.</p><p><strong>Step 3: Application to the Diagrams</strong><br/>The first three flow patterns show smooth, continuous, non-intersecting lines representing laminar, steady streamline flow. In contrast, the fourth diagram depicts streamlines crossing and cutting through one another, which signifies turbulent or non-streamline flow.</p><p><strong>Step 4: Final Conclusion</strong><br/>The diagram exhibiting intersecting streamlines does not represent streamline flow.</p>]]></text>
-  </generalfeedback>
-  <defaultgrade>4.0000000</defaultgrade>
-  <penalty>0.2500000</penalty>
-  <hidden>0</hidden>
-  <single>true</single>
-  <shuffleanswers>false</shuffleanswers>
-  <answernumbering>abc</answernumbering>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>(a)</p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>(b)</p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>(c)</p>]]></text>
-  </answer>
-  <answer fraction="100" format="html">
-    <text><![CDATA[<p>(d)</p>]]></text>
-  </answer>
-  <tags>
-    <tag><text>standard:neet_ug</text></tag>
-    <tag><text>lang:en</text></tag>
-    <tag><text>subject:physics</text></tag>
-    <tag><text>class:11</text></tag>
-    <tag><text>chapter:mechanical_properties_of_fluids</text></tag>
-    <tag><text>typology:mcq</text></tag>
-    <tag><text>difficulty:easy</text></tag>
-    <tag><text>blooms:remember</text></tag>
-    <tag><text>media:diagram</text></tag>
-    <tag><text>multiconcept:false</text></tag>
-  </tags>
-</question>
-<question type="multichoice">
-  <name><text>NEET_UG_PHYSICS_MECHANICALPROPERTIESOFFLUIDS_MCQ_Q03 - Constancy of fluid particle velocity along streamline</text></name>
-  <questiontext format="html">
-    <text><![CDATA[<p>Along a streamline</p>]]></text>
-  </questiontext>
-  <generalfeedback format="html">
-    <text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>Streamline flow is defined as the flow of a fluid in which the velocity of each passing fluid particle at any given point in space remains constant over time. Although a single particle can accelerate or decelerate as it moves along a path of varying cross-section, every successive particle that reaches that specific point possesses the identical velocity.</p><p><strong>Step 2: Evaluation of Flow Characteristics</strong><br/>As an individual fluid particle travels along a streamline, its velocity vector may change in both magnitude and direction due to pressure gradients or narrowing boundaries. Thus, the velocity or speed of a given particle along its journey is generally not constant. Furthermore, particles located at different positions along the streamline at a single instant do not necessarily share the same velocity.</p><p><strong>Step 3: Final Conclusion</strong><br/>Along a streamline, the velocity of all fluid particles crossing a given position is constant.</p>]]></text>
-  </generalfeedback>
+  <name><text>NCERT_EXEMPLAR_PHYSICS_MCQI_MECHANICALPROPERTIESOFFLUIDS_MCQ_Q10_2 - Diagram not representing streamline flow</text></name>
+  <questiontext format="html"><text><![CDATA[<p>Which of the following diagrams (Fig. 10.2) does not represent a streamline flow?</p><p><img src="@@PLUGINFILE@@/img-4.jpeg" alt="Four diagrams of fluid flow lines arranged from left to right" /></p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>A streamline is a curve whose tangent at any point gives the direction of the fluid velocity at that point in steady flow.</p><p><strong>Step 2: Evaluation</strong><br/>In steady (streamline) flow, the velocity at any fixed point in space has a unique magnitude and direction. If two streamlines were to intersect, a fluid particle reaching the point of intersection would have two different velocity directions simultaneously, which is physically impossible in streamline flow.</p><p><strong>Step 3: Application</strong><br/>Inspecting the four flow patterns from left to right, the first three patterns consist of non-intersecting smooth curves (parallel upward-sloping curves, slightly diverging upward lines, and parallel downward-sloping curves). The fourth pattern on the far right shows streamlines crossing each other.</p><p><strong>Step 4: Final Conclusion</strong><br/>Therefore, the fourth diagram from the left (showing intersecting streamlines) does not represent a streamline flow.</p>]]></text></generalfeedback>
   <defaultgrade>4.0000000</defaultgrade>
   <penalty>0.2500000</penalty>
   <hidden>0</hidden>
   <single>true</single>
   <shuffleanswers>true</shuffleanswers>
   <answernumbering>abc</answernumbering>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>the velocity of a fluid particle remains constant.</p>]]></text>
-  </answer>
-  <answer fraction="100" format="html">
-    <text><![CDATA[<p>the velocity of all fluid particles crossing a given position is constant.</p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>the velocity of all fluid particles at a given instant is constant.</p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>the speed of a fluid particle remains constant.</p>]]></text>
-  </answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>First diagram from the left (parallel curves pointing upward to the right)</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>Second diagram from the left (diverging lines pointing upward)</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>Third diagram from the left (parallel curves pointing downward)</p>]]></text></answer>
+  <answer fraction="100" format="html"><text><![CDATA[<p>Fourth diagram from the left (intersecting lines)</p>]]></text></answer>
   <tags>
     <tag><text>standard:neet_ug</text></tag>
     <tag><text>lang:en</text></tag>
     <tag><text>subject:physics</text></tag>
-    <tag><text>class:11</text></tag>
+    <tag><text>section:mcq_i</text></tag>
+    <tag><text>class:class_11</text></tag>
+    <tag><text>chapter:mechanical_properties_of_fluids</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:easy</text></tag>
+    <tag><text>blooms:understand</text></tag>
+    <tag><text>media:diagram</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+
+<question type="multichoice">
+  <name><text>NCERT_EXEMPLAR_PHYSICS_MCQI_MECHANICALPROPERTIESOFFLUIDS_MCQ_Q10_3 - Property of fluid velocity along a streamline</text></name>
+  <questiontext format="html"><text><![CDATA[<p>Along a streamline</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>Streamline (or steady) flow is defined as flow in which the velocity of the fluid at every fixed point in space remains constant with time.</p><p><strong>Step 2: Evaluation</strong><br/>As a single fluid particle travels along a streamline, its speed and direction can change from one position to another (for example, when a pipe narrows, the fluid speeds up). Similarly, different particles at different positions at the same instant need not have the same velocity.</p><p><strong>Step 3: Application</strong><br/>However, every fluid particle that passes through a given fixed position along the streamline has the exact same velocity (both in magnitude and direction) at that position.</p><p><strong>Step 4: Final Conclusion</strong><br/>Thus, along a streamline, the velocity of all fluid particles crossing a given position is constant.</p>]]></text></generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="0" format="html"><text><![CDATA[<p>the velocity of a fluid particle remains constant.</p>]]></text></answer>
+  <answer fraction="100" format="html"><text><![CDATA[<p>the velocity of all fluid particles crossing a given position is constant.</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>the velocity of all fluid particles at a given instant is constant.</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>the speed of a fluid particle remains constant.</p>]]></text></answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>section:mcq_i</text></tag>
+    <tag><text>class:class_11</text></tag>
     <tag><text>chapter:mechanical_properties_of_fluids</text></tag>
     <tag><text>typology:mcq</text></tag>
     <tag><text>difficulty:easy</text></tag>
@@ -115,37 +84,27 @@
     <tag><text>multiconcept:false</text></tag>
   </tags>
 </question>
+
 <question type="multichoice">
-  <name><text>NEET_UG_PHYSICS_MECHANICALPROPERTIESOFFLUIDS_MCQ_Q04 - Ratio of flow velocities in pipe sections</text></name>
-  <questiontext format="html">
-    <text><![CDATA[<p>An ideal fluid flows through a pipe of circular cross-section made of two sections with diameters \(2.5\text{ cm}\) and \(3.75\text{ cm}\). The ratio of the velocities in the two pipes is</p>]]></text>
-  </questiontext>
-  <generalfeedback format="html">
-    <text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>Diameter of the first section: \(d_1 = 2.5\text{ cm}\).<br/>Diameter of the second section: \(d_2 = 3.75\text{ cm}\).<br/>The fluid is ideal (incompressible, non-viscous) and undergoes steady streamline flow.</p><p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>The cross-sections are circular, with area \(A = \frac{\pi d^2}{4}\). The velocity profile is taken to be uniform across each cross-sectional plane.</p><p><strong>Step 3: Relevant Formulae and Principles</strong><br/>By the equation of continuity for an incompressible fluid:<br/>\[A_1 v_1 = A_2 v_2\]<br/>Rearranging for the ratio of velocities:<br/>\[\frac{v_1}{v_2} = \frac{A_2}{A_1} = \frac{\frac{\pi}{4} d_2^2}{\frac{\pi}{4} d_1^2} = \left(\frac{d_2}{d_1}\right)^2\]</p><p><strong>Step 4: Step-by-Step Working</strong><br/>Substitute the given diameter values into the equation:<br/>\[\frac{v_1}{v_2} = \left(\frac{3.75}{2.5}\right)^2 = \left(\frac{375}{250}\right)^2 = \left(\frac{3}{2}\right)^2 = \frac{9}{4}\]</p><p><strong>Step 5: Check and Final Answer</strong><br/>The narrower section must have a higher velocity to conserve volume flow rate. Since \(d_1 < d_2\), \(v_1 > v_2\), which is consistent with \(\frac{v_1}{v_2} = \frac{9}{4}\). Thus, the ratio of the velocities in the two pipes is \(9:4\).</p>]]></text>
-  </generalfeedback>
+  <name><text>NCERT_EXEMPLAR_PHYSICS_MCQI_MECHANICALPROPERTIESOFFLUIDS_MCQ_Q10_4 - Ratio of velocities in pipes of different diameters</text></name>
+  <questiontext format="html"><text><![CDATA[<p>An ideal fluid flows through a pipe of circular cross-section made of two sections with diameters \(2.5\text{ cm}\) and \(3.75\text{ cm}\). The ratio of the velocities in the two pipes is</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>Diameter of the first circular section, \(d_1 = 2.5\text{ cm}\).<br/>Diameter of the second circular section, \(d_2 = 3.75\text{ cm}\).<br/>The fluid is ideal (incompressible and non-viscous) and flows steadily.</p><p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>Let \(v_1\) and \(v_2\) be the flow speeds in the sections of diameters \(d_1\) and \(d_2\), respectively, and \(A_1, A_2\) be their cross-sectional areas.</p><p><strong>Step 3: Relevant Formulae and Principles</strong><br/>By the equation of continuity for steady flow of an incompressible fluid:<br/>\[A_1 v_1 = A_2 v_2\]<br/>Since the cross-section is circular, \(A = \frac{\pi d^2}{4}\).</p><p><strong>Step 4: Step-by-Step Working</strong><br/>Rearranging the continuity equation:<br/>\[\frac{v_1}{v_2} = \frac{A_2}{A_1} = \frac{\frac{\pi d_2^2}{4}}{\frac{\pi d_1^2}{4}} = \left(\frac{d_2}{d_1}\right)^2\]<br/>Substituting \(d_1 = 2.5\text{ cm}\) and \(d_2 = 3.75\text{ cm}\):<br/>\[\frac{v_1}{v_2} = \left(\frac{3.75\text{ cm}}{2.5\text{ cm}}\right)^2 = \left(\frac{3}{2}\right)^2 = \frac{9}{4}\]</p><p><strong>Step 5: Check and Final Answer</strong><br/>The narrower pipe (\(2.5\text{ cm}\)) must have the higher speed, consistent with \(v_1 &gt; v_2\). The ratio of the velocities is \(9:4\).</p>]]></text></generalfeedback>
   <defaultgrade>4.0000000</defaultgrade>
   <penalty>0.2500000</penalty>
   <hidden>0</hidden>
   <single>true</single>
   <shuffleanswers>true</shuffleanswers>
   <answernumbering>abc</answernumbering>
-  <answer fraction="100" format="html">
-    <text><![CDATA[<p>\(9:4\)</p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>\(3:2\)</p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>\(\sqrt{3}:\sqrt{2}\)</p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>\(\sqrt{2}:\sqrt{3}\)</p>]]></text>
-  </answer>
+  <answer fraction="100" format="html"><text><![CDATA[<p>\(9:4\)</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>\(3:2\)</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>\(\sqrt{3} : \sqrt{2}\)</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>\(\sqrt{2} : \sqrt{3}\)</p>]]></text></answer>
   <tags>
     <tag><text>standard:neet_ug</text></tag>
     <tag><text>lang:en</text></tag>
     <tag><text>subject:physics</text></tag>
-    <tag><text>class:11</text></tag>
+    <tag><text>section:mcq_i</text></tag>
+    <tag><text>class:class_11</text></tag>
     <tag><text>chapter:mechanical_properties_of_fluids</text></tag>
     <tag><text>typology:mcq</text></tag>
     <tag><text>difficulty:easy</text></tag>
@@ -155,37 +114,27 @@
     <tag><text>multiconcept:false</text></tag>
   </tags>
 </question>
+
 <question type="multichoice">
-  <name><text>NEET_UG_PHYSICS_MECHANICALPROPERTIESOFFLUIDS_MCQ_Q05 - Liquid exhibiting convex meniscus in glass capillary</text></name>
-  <questiontext format="html">
-    <text><![CDATA[<p>The angle of contact at the interface of water-glass is \(0^{\circ}\). Ethylalcohol-glass is \(0^{\circ}\). Mercury-glass is \(140^{\circ}\) and Methyliodide-glass is \(30^{\circ}\). A glass capillary is put in a trough containing one of these four liquids. It is observed that the meniscus is convex. The liquid in the trough is</p>]]></text>
-  </questiontext>
-  <generalfeedback format="html">
-    <text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>The curvature of a liquid meniscus inside a capillary tube depends on the angle of contact \(\theta\) between the liquid and the solid surface:<br/>- When the angle of contact is acute (\(\theta < 90^{\circ}\)), adhesive forces between the liquid and the capillary wall are stronger than cohesive forces within the liquid, resulting in a concave meniscus.<br/>- When the angle of contact is obtuse (\(\theta > 90^{\circ}\)), cohesive forces dominate over adhesive forces, causing the liquid to depress and form a convex meniscus.</p><p><strong>Step 2: Evaluation of the Given Data</strong><br/>- Water-glass: \(\theta = 0^{\circ}\) (acute, concave meniscus).<br/>- Ethyl alcohol-glass: \(\theta = 0^{\circ}\) (acute, concave meniscus).<br/>- Methyl iodide-glass: \(\theta = 30^{\circ}\) (acute, concave meniscus).<br/>- Mercury-glass: \(\theta = 140^{\circ}\) (obtuse, convex meniscus).</p><p><strong>Step 3: Final Conclusion</strong><br/>Because only an obtuse angle of contact produces a convex meniscus, the liquid present in the trough is mercury.</p>]]></text>
-  </generalfeedback>
+  <name><text>NCERT_EXEMPLAR_PHYSICS_MCQI_MECHANICALPROPERTIESOFFLUIDS_MCQ_Q10_5 - Liquid forming convex meniscus in glass capillary</text></name>
+  <questiontext format="html"><text><![CDATA[<p>The angle of contact at the interface of water-glass is \(0^\circ\). Ethylalcohol-glass is \(0^\circ\). Mercury-glass is \(140^\circ\) and Methyliodide-glass is \(30^\circ\). A glass capillary is put in a trough containing one of these four liquids. It is observed that the meniscus is convex. The liquid in the trough is</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>The shape of a liquid meniscus in a narrow glass capillary depends on the angle of contact \(\theta\) between the liquid and glass. When \(\theta &lt; 90^\circ\) (acute), adhesive forces dominate over cohesive forces, the liquid wets the glass, and the meniscus is concave. When \(\theta &gt; 90^\circ\) (obtuse), cohesive forces dominate over adhesive forces, the liquid does not wet the glass, and the meniscus is convex.</p><p><strong>Step 2: Evaluation</strong><br/>Checking the given angles of contact with glass: water has \(0^\circ\), ethyl alcohol has \(0^\circ\), methyl iodide has \(30^\circ\) (all acute, \(\theta &lt; 90^\circ\)), whereas mercury has \(140^\circ\) (obtuse, \(\theta &gt; 90^\circ\)).</p><p><strong>Step 3: Final Conclusion</strong><br/>Since the meniscus is observed to be convex, the angle of contact must be obtuse. Therefore, the liquid in the trough is mercury.</p>]]></text></generalfeedback>
   <defaultgrade>4.0000000</defaultgrade>
   <penalty>0.2500000</penalty>
   <hidden>0</hidden>
   <single>true</single>
   <shuffleanswers>true</shuffleanswers>
   <answernumbering>abc</answernumbering>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>water</p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>ethylalcohol</p>]]></text>
-  </answer>
-  <answer fraction="100" format="html">
-    <text><![CDATA[<p>mercury</p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>methyliodide</p>]]></text>
-  </answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>water</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>ethylalcohol</p>]]></text></answer>
+  <answer fraction="100" format="html"><text><![CDATA[<p>mercury</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>methyliodide</p>]]></text></answer>
   <tags>
     <tag><text>standard:neet_ug</text></tag>
     <tag><text>lang:en</text></tag>
     <tag><text>subject:physics</text></tag>
-    <tag><text>class:11</text></tag>
+    <tag><text>section:mcq_i</text></tag>
+    <tag><text>class:class_11</text></tag>
     <tag><text>chapter:mechanical_properties_of_fluids</text></tag>
     <tag><text>typology:mcq</text></tag>
     <tag><text>difficulty:easy</text></tag>
@@ -194,37 +143,56 @@
     <tag><text>multiconcept:false</text></tag>
   </tags>
 </question>
+
 <question type="multichoice">
-  <name><text>NEET_UG_PHYSICS_MECHANICALPROPERTIESOFFLUIDS_MCQ_Q06 - Net force and potential energy of surface molecule</text></name>
-  <questiontext format="html">
-    <text><![CDATA[<p>For a surface molecule</p>]]></text>
-  </questiontext>
-  <generalfeedback format="html">
-    <text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>A molecule located in the interior of a liquid is completely surrounded by other liquid molecules, so it experiences cohesive attractive forces uniformly in all directions, yielding a net force of zero. In contrast, a molecule in the surface film has liquid molecules beneath and adjacent to it, but virtually no liquid molecules above it.</p><p><strong>Step 2: Evaluation of Net Force</strong><br/>The attractive cohesive forces acting parallel to the surface cancel by symmetry, whereas the unbalanced cohesive attraction from molecules beneath creates a net downward force directed perpendicularly toward the interior of the liquid.</p><p><strong>Step 3: Evaluation of Potential Energy</strong><br/>To bring a molecule from the interior bulk of the liquid to the surface layer, positive work must be done against the inward cohesive force. This work increases the intermolecular potential energy of the molecule. Hence, the potential energy of a surface molecule is greater than that of an interior molecule.</p><p><strong>Step 4: Final Conclusion</strong><br/>A surface molecule experiences a net downward force and possesses a potential energy that is greater than that of a molecule inside the liquid.</p>]]></text>
-  </generalfeedback>
+  <name><text>NCERT_EXEMPLAR_PHYSICS_MCQII_MECHANICALPROPERTIESOFFLUIDS_MCQ_Q10_6 - Force and potential energy of surface molecule</text></name>
+  <questiontext format="html"><text><![CDATA[<p>For a surface molecule</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>Molecules inside the bulk of a liquid are surrounded symmetrically on all sides by neighbouring liquid molecules, so the resultant cohesive force on an interior molecule is zero. In contrast, a molecule at the free surface has liquid molecules only below it (within its sphere of molecular attraction) and very few vapour molecules above it.</p><p><strong>Step 2: Evaluation of Force</strong><br/>Because of this asymmetric molecular attraction, a surface molecule experiences a net inward (downward) cohesive force perpendicular to the liquid surface.</p><p><strong>Step 3: Evaluation of Potential Energy</strong><br/>To bring a molecule from the interior of the liquid to the surface, work must be done against this net downward force. This work is stored as extra potential energy in the surface molecule, making its potential energy greater than that of a molecule inside the bulk.</p><p><strong>Step 4: Final Conclusion</strong><br/>Therefore, for a surface molecule, there is a net downward force and its potential energy is more than that of a molecule inside.</p>]]></text></generalfeedback>
   <defaultgrade>4.0000000</defaultgrade>
   <penalty>0.2500000</penalty>
   <hidden>0</hidden>
   <single>false</single>
   <shuffleanswers>true</shuffleanswers>
   <answernumbering>abc</answernumbering>
-  <answer fraction="-50" format="html">
-    <text><![CDATA[<p>the net force on it is zero.</p>]]></text>
-  </answer>
-  <answer fraction="50" format="html">
-    <text><![CDATA[<p>there is a net downward force.</p>]]></text>
-  </answer>
-  <answer fraction="-50" format="html">
-    <text><![CDATA[<p>the potential energy is less than that of a molecule inside.</p>]]></text>
-  </answer>
-  <answer fraction="50" format="html">
-    <text><![CDATA[<p>the potential energy is more than that of a molecule inside.</p>]]></text>
-  </answer>
+  <answer fraction="-50" format="html"><text><![CDATA[<p>the net force on it is zero.</p>]]></text></answer>
+  <answer fraction="50" format="html"><text><![CDATA[<p>there is a net downward force.</p>]]></text></answer>
+  <answer fraction="-50" format="html"><text><![CDATA[<p>the potential energy is less than that of a molecule inside.</p>]]></text></answer>
+  <answer fraction="50" format="html"><text><![CDATA[<p>the potential energy is more than that of a molecule inside.</p>]]></text></answer>
   <tags>
     <tag><text>standard:neet_ug</text></tag>
     <tag><text>lang:en</text></tag>
     <tag><text>subject:physics</text></tag>
-    <tag><text>class:11</text></tag>
+    <tag><text>section:mcq_ii</text></tag>
+    <tag><text>class:class_11</text></tag>
+    <tag><text>chapter:mechanical_properties_of_fluids</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:easy</text></tag>
+    <tag><text>blooms:understand</text></tag>
+    <tag><text>media:text</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+
+<question type="multichoice">
+  <name><text>NCERT_EXEMPLAR_PHYSICS_MCQII_MECHANICALPROPERTIESOFFLUIDS_MCQ_Q10_7 - Reason why pressure is a scalar quantity</text></name>
+  <questiontext format="html"><text><![CDATA[<p>Pressure is a scalar quantity because</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>Pressure at a point in a fluid is defined as the magnitude of the normal component of force acting per unit area:<br/>\[P = \lim_{\Delta A \to 0} \frac{\Delta F_{\perp}}{\Delta A}\]</p><p><strong>Step 2: Evaluation</strong><br/>Although force is a vector and an area element can be represented as a vector, pressure is not defined as a ratio of two vectors. Instead, only the scalar magnitude of the component of force normal to the surface (\(\Delta F_{\perp}\)) is divided by the scalar area \(\Delta A\). Consequently, pressure has no directional property and acts equally in all directions at a point in a static fluid.</p><p><strong>Step 3: Final Conclusion</strong><br/>Thus, pressure is a scalar quantity because it is the ratio of the magnitude of the force (specifically, the component of the force normal to the area) to the area.</p>]]></text></generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>false</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="-50" format="html"><text><![CDATA[<p>it is the ratio of force to area and both force and area are vectors.</p>]]></text></answer>
+  <answer fraction="50" format="html"><text><![CDATA[<p>it is the ratio of the magnitude of the force to area.</p>]]></text></answer>
+  <answer fraction="50" format="html"><text><![CDATA[<p>it is the ratio of the component of the force normal to the area.</p>]]></text></answer>
+  <answer fraction="-50" format="html"><text><![CDATA[<p>it does not depend on the size of the area chosen.</p>]]></text></answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>section:mcq_ii</text></tag>
+    <tag><text>class:class_11</text></tag>
     <tag><text>chapter:mechanical_properties_of_fluids</text></tag>
     <tag><text>typology:mcq</text></tag>
     <tag><text>difficulty:medium</text></tag>
@@ -233,154 +201,85 @@
     <tag><text>multiconcept:false</text></tag>
   </tags>
 </question>
+
 <question type="multichoice">
-  <name><text>NEET_UG_PHYSICS_MECHANICALPROPERTIESOFFLUIDS_MCQ_Q07 - Scalar nature of fluid pressure from normal force</text></name>
-  <questiontext format="html">
-    <text><![CDATA[<p>Pressure is a scalar quantity because</p>]]></text>
-  </questiontext>
-  <generalfeedback format="html">
-    <text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>Pressure in a fluid is defined as the magnitude of the force acting perpendicular (normal) to an area divided by the magnitude of that area:<br/>\[P = \frac{F_{\perp}}{A}\]</p><p><strong>Step 2: Evaluation of Directionality</strong><br/>Although force is a vector quantity, only its component normal to the surface is considered in defining pressure. At any point within a static fluid, pressure transmits equally in all directions, so it has no unique spatial direction of its own. It is completely specified by its magnitude.</p><p><strong>Step 3: Final Conclusion</strong><br/>Pressure is a scalar quantity because it is defined as the ratio of the component of the force normal to the area.</p>]]></text>
-  </generalfeedback>
-  <defaultgrade>4.0000000</defaultgrade>
-  <penalty>0.2500000</penalty>
-  <hidden>0</hidden>
-  <single>true</single>
-  <shuffleanswers>true</shuffleanswers>
-  <answernumbering>abc</answernumbering>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>it is the ratio of force to area and both force and area are vectors.</p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>it is the ratio of the magnitude of the force to area.</p>]]></text>
-  </answer>
-  <answer fraction="100" format="html">
-    <text><![CDATA[<p>it is the ratio of the component of the force normal to the area.</p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>it does not depend on the size of the area chosen.</p>]]></text>
-  </answer>
-  <tags>
-    <tag><text>standard:neet_ug</text></tag>
-    <tag><text>lang:en</text></tag>
-    <tag><text>subject:physics</text></tag>
-    <tag><text>class:11</text></tag>
-    <tag><text>chapter:mechanical_properties_of_fluids</text></tag>
-    <tag><text>typology:mcq</text></tag>
-    <tag><text>difficulty:easy</text></tag>
-    <tag><text>blooms:remember</text></tag>
-    <tag><text>media:text</text></tag>
-    <tag><text>multiconcept:false</text></tag>
-  </tags>
-</question>
-<question type="multichoice">
-  <name><text>NEET_UG_PHYSICS_MECHANICALPROPERTIESOFFLUIDS_MCQ_Q08 - Floating block and coin falling into water</text></name>
-  <questiontext format="html">
-    <text><![CDATA[<p>A wooden block with a coin placed on its top, floats in water as shown in Fig. 10.3.</p><p><img src="@@PLUGINFILE@@/img-5.jpeg" alt="Fig. 10.3" /></p><p>The distance \(l\) and \(h\) are shown in the figure. After some time the coin falls into the water. Then</p>]]></text>
-  </questiontext>
-  <generalfeedback format="html">
-    <text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>A wooden block carrying a coin on top floats in a container of water. The depth of the wooden block submerged in water is \(l\), and the total liquid height is \(h\). The coin subsequently falls off the block and settles in the water.</p><p><strong>Step 2: Assumptions and Physical Principles</strong><br/>The density of the coin is greater than that of water (\(\rho_{\text{coin}} > \rho_w\)), so the coin sinks once in the water alone. By Archimedes' principle, a floating body displaces a mass of water equal to its own total mass, whereas a submerged body displaces a volume of water equal to its own volume.</p><p><strong>Step 3: Step-by-Step Working</strong><br/>1. Submerged depth of the block (\(l\)):<br/>Initially, the block supports its own mass plus the mass of the coin, so the buoyant force balances \((M_{\text{wood}} + m_{\text{coin}})g\). When the coin falls into the water, the block supports only its own mass \(M_{\text{wood}}\). The buoyant force required by the block decreases, so the block rises and its submerged depth \(l\) decreases.<br/>2. Total water height in the vessel (\(h\)):<br/>Initially, the coin is part of the floating system, so it displaces a volume of water corresponding to its weight:<br/>\[V_{\text{initial}} = \frac{m_{\text{coin}}}{\rho_w}\]<br/>Once the coin falls into the water, it sinks to the bottom and displaces only its own physical volume:<br/>\[V_{\text{final}} = \frac{m_{\text{coin}}}{\rho_{\text{coin}}}\]<br/>Since \(\rho_{\text{coin}} > \rho_w\), it follows that \(V_{\text{final}} < V_{\text{initial}}\). The net volume of displaced water in the vessel decreases, causing the total water level \(h\) to decrease.</p><p><strong>Step 4: Check and Final Answer</strong><br/>Both the submerged depth \(l\) of the wooden block decreases and the overall water height \(h\) decreases.</p>]]></text>
-  </generalfeedback>
+  <name><text>NCERT_EXEMPLAR_PHYSICS_MCQII_MECHANICALPROPERTIESOFFLUIDS_MCQ_Q10_8 - Floating wooden block when coin falls into water</text></name>
+  <questiontext format="html"><text><![CDATA[<p>A wooden block with a coin placed on its top, floats in water as shown in Fig.10.3.</p><p><img src="@@PLUGINFILE@@/img-5.jpeg" alt="Wooden block with a coin on top floating in water showing submerged depth l and water level height h" /></p><p>The distance \(l\) and \(h\) are shown in the figure. After some time the coin falls into the water. Then</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>A wooden block of cross-sectional area \(A_{\text{block}}\) and mass \(M\) floats in water with a coin of mass \(m\) and density \(\rho_c &gt; \rho_w\) on top. The submerged depth of the block is \(l\) and the water level in the container is \(h\).</p><p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>The coin is denser than water (\(\rho_c &gt; \rho_w\)), so it sinks to the bottom when it falls into the water. The container has a uniform cross-section.</p><p><strong>Step 3: Relevant Formulae and Principles</strong><br/>By Archimedes' principle, a floating body displaces a weight of water equal to its own weight, whereas a submerged body displaces a volume of water equal to its own volume.</p><p><strong>Step 4: Step-by-Step Working</strong><br/>Initially, the total volume of water displaced by the block-coin system is:<br/>\[V_1 = \frac{M + m}{\rho_w} = A_{\text{block}} \, l_1\]<br/>After the coin falls into the water and sinks, the block alone floats, displacing:<br/>\[V_{\text{block}} = \frac{M}{\rho_w} = A_{\text{block}} \, l_2\]<br/>Since \(M &lt; M + m\), we have \(l_2 &lt; l_1\), so \(l\) decreases.<br/>The sunken coin displaces only its own volume \(V_{\text{coin}} = \frac{m}{\rho_c}\). Thus, the total displaced volume of water is:<br/>\[V_2 = \frac{M}{\rho_w} + \frac{m}{\rho_c}\]<br/>Comparing \(V_2\) with \(V_1\): since \(\rho_c &gt; \rho_w\), \(\frac{m}{\rho_c} &lt; \frac{m}{\rho_w}\), so \(V_2 &lt; V_1\). Because the total displaced volume of water decreases, the water level \(h\) in the container also decreases.</p><p><strong>Step 5: Check and Final Answer</strong><br/>Both the submerged depth \(l\) of the wooden block and the water level \(h\) decrease.</p>]]></text></generalfeedback>
   <defaultgrade>4.0000000</defaultgrade>
   <penalty>0.2500000</penalty>
   <hidden>0</hidden>
   <single>false</single>
-  <shuffleanswers>false</shuffleanswers>
+  <shuffleanswers>true</shuffleanswers>
   <answernumbering>abc</answernumbering>
-  <answer fraction="50" format="html">
-    <text><![CDATA[<p>\(l\) decreases.</p>]]></text>
-  </answer>
-  <answer fraction="50" format="html">
-    <text><![CDATA[<p>\(h\) decreases.</p>]]></text>
-  </answer>
-  <answer fraction="-50" format="html">
-    <text><![CDATA[<p>\(l\) increases.</p>]]></text>
-  </answer>
-  <answer fraction="-50" format="html">
-    <text><![CDATA[<p>\(h\) increase.</p>]]></text>
-  </answer>
+  <answer fraction="50" format="html"><text><![CDATA[<p>\(l\) decreases.</p>]]></text></answer>
+  <answer fraction="50" format="html"><text><![CDATA[<p>\(h\) decreases.</p>]]></text></answer>
+  <answer fraction="-50" format="html"><text><![CDATA[<p>\(l\) increases.</p>]]></text></answer>
+  <answer fraction="-50" format="html"><text><![CDATA[<p>\(h\) increases.</p>]]></text></answer>
   <tags>
     <tag><text>standard:neet_ug</text></tag>
     <tag><text>lang:en</text></tag>
     <tag><text>subject:physics</text></tag>
-    <tag><text>class:11</text></tag>
+    <tag><text>section:mcq_ii</text></tag>
+    <tag><text>class:class_11</text></tag>
     <tag><text>chapter:mechanical_properties_of_fluids</text></tag>
     <tag><text>typology:mcq</text></tag>
     <tag><text>difficulty:medium</text></tag>
-    <tag><text>blooms:apply</text></tag>
+    <tag><text>blooms:analyze</text></tag>
     <tag><text>media:diagram</text></tag>
-    <tag><text>multiconcept:false</text></tag>
+    <tag><text>multiconcept:true</text></tag>
   </tags>
 </question>
+
 <question type="multichoice">
-  <name><text>NEET_UG_PHYSICS_MECHANICALPROPERTIESOFFLUIDS_MCQ_Q09 - Effect of temperature on viscosity of fluids</text></name>
-  <questiontext format="html">
-    <text><![CDATA[<p>With increase in temperature, the viscosity of</p>]]></text>
-  </questiontext>
-  <generalfeedback format="html">
-    <text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>Viscosity represents internal fluid friction between moving layers, but the microscopic mechanism governing this friction differs between gases and liquids.</p><p><strong>Step 2: Evaluation for Gases</strong><br/>In gases, viscosity arises from the transport of momentum between adjacent layers due to random molecular diffusion across the velocity gradient. As temperature increases, the mean thermal velocity of gas molecules increases (\(v_{\text{rms}} \propto \sqrt{T}\)), which enhances the rate of momentum exchange via more frequent collisions. Thus, the viscosity of gases increases with temperature.</p><p><strong>Step 3: Evaluation for Liquids</strong><br/>In liquids, molecules are closely packed, and viscous resistance is predominantly governed by cohesive intermolecular forces. When temperature rises, the thermal kinetic energy of the molecules increases, weakening intermolecular bonds and enabling molecules to slide past one another more freely. Thus, the viscosity of liquids decreases with temperature.</p><p><strong>Step 4: Final Conclusion</strong><br/>With an increase in temperature, the viscosity of gases increases and the viscosity of liquids decreases.</p>]]></text>
-  </generalfeedback>
+  <name><text>NCERT_EXEMPLAR_PHYSICS_MCQII_MECHANICALPROPERTIESOFFLUIDS_MCQ_Q10_9 - Effect of temperature on viscosity of liquids and gases</text></name>
+  <questiontext format="html"><text><![CDATA[<p>With increase in temperature, the viscosity of</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>Viscosity arises from two different microscopic mechanisms in liquids and gases: intermolecular cohesive forces in liquids, and molecular momentum transfer between layers in gases.</p><p><strong>Step 2: Evaluation for Liquids</strong><br/>In liquids, molecules are closely packed and viscosity is dominated by cohesive forces between adjacent layers. When temperature increases, the kinetic energy of the molecules increases and they overcome these cohesive forces more easily, causing the viscosity of liquids to decrease.</p><p><strong>Step 3: Evaluation for Gases</strong><br/>In gases, molecules are far apart and cohesive forces are negligible; viscosity is due to the diffusion and collision of molecules carrying momentum across adjacent layers. When temperature increases, the random thermal speed of gas molecules increases (\(\eta \propto \sqrt{T}\)), increasing the rate of momentum transfer and hence increasing the viscosity of gases.</p><p><strong>Step 4: Final Conclusion</strong><br/>Therefore, with an increase in temperature, the viscosity of gases increases and the viscosity of liquids decreases.</p>]]></text></generalfeedback>
   <defaultgrade>4.0000000</defaultgrade>
   <penalty>0.2500000</penalty>
   <hidden>0</hidden>
   <single>false</single>
   <shuffleanswers>true</shuffleanswers>
   <answernumbering>abc</answernumbering>
-  <answer fraction="-50" format="html">
-    <text><![CDATA[<p>gases decreases.</p>]]></text>
-  </answer>
-  <answer fraction="-50" format="html">
-    <text><![CDATA[<p>liquids increases.</p>]]></text>
-  </answer>
-  <answer fraction="50" format="html">
-    <text><![CDATA[<p>gases increases.</p>]]></text>
-  </answer>
-  <answer fraction="50" format="html">
-    <text><![CDATA[<p>liquids decreases.</p>]]></text>
-  </answer>
+  <answer fraction="-50" format="html"><text><![CDATA[<p>gases decreases.</p>]]></text></answer>
+  <answer fraction="-50" format="html"><text><![CDATA[<p>liquids increases.</p>]]></text></answer>
+  <answer fraction="50" format="html"><text><![CDATA[<p>gases increases.</p>]]></text></answer>
+  <answer fraction="50" format="html"><text><![CDATA[<p>liquids decreases.</p>]]></text></answer>
   <tags>
     <tag><text>standard:neet_ug</text></tag>
     <tag><text>lang:en</text></tag>
     <tag><text>subject:physics</text></tag>
-    <tag><text>class:11</text></tag>
+    <tag><text>section:mcq_ii</text></tag>
+    <tag><text>class:class_11</text></tag>
     <tag><text>chapter:mechanical_properties_of_fluids</text></tag>
     <tag><text>typology:mcq</text></tag>
     <tag><text>difficulty:easy</text></tag>
-    <tag><text>blooms:remember</text></tag>
+    <tag><text>blooms:understand</text></tag>
     <tag><text>media:text</text></tag>
     <tag><text>multiconcept:false</text></tag>
   </tags>
 </question>
+
 <question type="multichoice">
-  <name><text>NEET_UG_PHYSICS_MECHANICALPROPERTIESOFFLUIDS_MCQ_Q10 - Conditions favoring streamline flow in liquids</text></name>
-  <questiontext format="html">
-    <text><![CDATA[<p>Streamline flow is more likely for liquids with</p>]]></text>
-  </questiontext>
-  <generalfeedback format="html">
-    <text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>The regime of fluid motion (streamline versus turbulent) is determined by the dimensionless Reynolds number \(R_e\):<br/>\[R_e = \frac{\rho v D}{\eta}\]<br/>where \(\rho\) is the fluid density, \(v\) is the flow speed, \(D\) is the characteristic diameter of the channel, and \(\eta\) is the dynamic viscosity of the liquid.</p><p><strong>Step 2: Evaluation of Parameters</strong><br/>Streamline flow occurs when the Reynolds number is below a critical threshold (\(R_e < 1000\) to \(2000\)). To achieve a lower Reynolds number and favor streamline flow, the density \(\rho\) in the numerator should be small (low density) and the dynamic viscosity \(\eta\) in the denominator should be large (high viscosity).</p><p><strong>Step 3: Final Conclusion</strong><br/>Streamline flow is more likely for liquids with high viscosity and low density.</p>]]></text>
-  </generalfeedback>
+  <name><text>NCERT_EXEMPLAR_PHYSICS_MCQII_MECHANICALPROPERTIESOFFLUIDS_MCQ_Q10_10 - Conditions favouring streamline flow of liquids</text></name>
+  <questiontext format="html"><text><![CDATA[<p>Streamline flow is more likely for liquids with</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>Whether fluid flow is streamline (laminar) or turbulent is determined by the dimensionless Reynolds number:<br/>\[R_e = \frac{\rho v d}{\eta}\]<br/>where \(\rho\) is the fluid density, \(v\) is the flow speed, \(d\) is the characteristic dimension (such as pipe diameter), and \(\eta\) is the coefficient of viscosity.</p><p><strong>Step 2: Evaluation</strong><br/>Streamline flow occurs when the Reynolds number is small (typically \(R_e &lt; 1000\)). From the formula, \(R_e\) is directly proportional to the density \(\rho\) and inversely proportional to the viscosity \(\eta\).</p><p><strong>Step 3: Final Conclusion</strong><br/>Hence, a smaller Reynolds number—and therefore streamline flow—is more likely for liquids with low density and high viscosity.</p>]]></text></generalfeedback>
   <defaultgrade>4.0000000</defaultgrade>
   <penalty>0.2500000</penalty>
   <hidden>0</hidden>
   <single>false</single>
   <shuffleanswers>true</shuffleanswers>
   <answernumbering>abc</answernumbering>
-  <answer fraction="-50" format="html">
-    <text><![CDATA[<p>high density.</p>]]></text>
-  </answer>
-  <answer fraction="50" format="html">
-    <text><![CDATA[<p>high viscosity.</p>]]></text>
-  </answer>
-  <answer fraction="50" format="html">
-    <text><![CDATA[<p>low density.</p>]]></text>
-  </answer>
-  <answer fraction="-50" format="html">
-    <text><![CDATA[<p>low viscosity.</p>]]></text>
-  </answer>
+  <answer fraction="-50" format="html"><text><![CDATA[<p>high density.</p>]]></text></answer>
+  <answer fraction="50" format="html"><text><![CDATA[<p>high viscosity.</p>]]></text></answer>
+  <answer fraction="50" format="html"><text><![CDATA[<p>low density.</p>]]></text></answer>
+  <answer fraction="-50" format="html"><text><![CDATA[<p>low viscosity.</p>]]></text></answer>
   <tags>
     <tag><text>standard:neet_ug</text></tag>
     <tag><text>lang:en</text></tag>
     <tag><text>subject:physics</text></tag>
-    <tag><text>class:11</text></tag>
+    <tag><text>section:mcq_ii</text></tag>
+    <tag><text>class:class_11</text></tag>
     <tag><text>chapter:mechanical_properties_of_fluids</text></tag>
     <tag><text>typology:mcq</text></tag>
     <tag><text>difficulty:easy</text></tag>

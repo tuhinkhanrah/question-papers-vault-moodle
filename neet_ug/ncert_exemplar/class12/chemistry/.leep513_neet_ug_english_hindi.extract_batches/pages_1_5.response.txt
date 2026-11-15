@@ -1,1049 +1,689 @@
 <question type="multichoice">
-  <name>
-    <text>NEET_UG_CHEMISTRY_AMINES_MCQ_Q01 - Identification of tertiary amine structure</text>
-  </name>
-  <questiontext format="html">
-    <text><![CDATA[<p>Which of the following is a \(3^{\circ}\) amine?</p><hr/><p>निम्नलिखित में से कौन-सा एक \(3^{\circ}\) ऐमीन है?</p>]]></text>
-  </questiontext>
-  <generalfeedback format="html">
-    <text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>Amines are classified as primary (\(1^{\circ}\)), secondary (\(2^{\circ}\)), or tertiary (\(3^{\circ}\)) based on the number of carbon atoms (alkyl or aryl groups) directly attached to the nitrogen atom. In a tertiary (\(3^{\circ}\)) amine, the nitrogen atom is bonded to three carbon groups and carries no attached hydrogens.</p><p><strong>Step 2: Evaluation of the Given Compounds</strong><br/>Analyzing each given compound:<br/>- 1-methylcyclohexylamine: The amino group (\(-\mathrm{NH}_2\)) is attached to a single ring carbon atom. Since the nitrogen atom is bonded to only one carbon atom, it is a primary (\(1^{\circ}\)) amine.<br/>- Triethylamine: The chemical formula is \((\mathrm{C}_2\mathrm{H}_5)_3\mathrm{N}\). The nitrogen atom is bonded to three separate ethyl groups, making it a tertiary (\(3^{\circ}\)) amine.<br/>- tert-butylamine: The formula is \((\mathrm{CH}_3)_3\mathrm{C}-\mathrm{NH}_2\). Although the carbon atom attached to nitrogen is tertiary, the nitrogen atom itself is attached to only one carbon atom, which classifies it as a primary (\(1^{\circ}\)) amine.<br/>- N-methylaniline: The formula is \(\mathrm{C}_6\mathrm{H}_5\mathrm{NHCH}_3\). The nitrogen atom is bonded to two carbon groups (one phenyl and one methyl group), making it a secondary (\(2^{\circ}\)) amine.</p><p><strong>Step 3: Final Conclusion</strong><br/>Triethylamine has three carbon atoms directly bonded to the nitrogen atom, confirming it as a tertiary (\(3^{\circ}\)) amine.</p><hr/><p><strong>चरण 1: संकल्पनात्मक सिद्धांत</strong><br/>ऐमीनों को नाइट्रोजन परमाणु से सीधे जुड़े कार्बन परमाणुओं (ऐल्किल या ऐरिल समूहों) की संख्या के अनुसार प्राथमिक (\(1^{\circ}\)), द्वितीयक (\(2^{\circ}\)) अथवा तृतीयक (\(3^{\circ}\)) ऐमीन में वर्गीकृत किया जाता है। एक तृतीयक (\(3^{\circ}\)) ऐमीन में, नाइट्रोजन परमाणु तीन कार्बन समूहों से जुड़ा होता है और उस पर कोई हाइड्रोजन परमाणु नहीं होता है।</p><p><strong>चरण 2: दिए गए यौगिकों का मूल्यांकन</strong><br/>दिए गए प्रत्येक यौगिक का विश्लेषण करने पर:<br/>- 1-मेथिलसाइक्लोहेक्सिलऐमीन: ऐमीनो समूह (\(-\mathrm{NH}_2\)) वलय के केवल एक कार्बन परमाणु से जुड़ा है। अतः यह एक प्राथमिक (\(1^{\circ}\)) ऐमीन है।<br/>- ट्राइएथिलऐमीन: इसका सूत्र \((\mathrm{C}_2\mathrm{H}_5)_3\mathrm{N}\) है। नाइट्रोजन परमाणु तीन अलग-अलग एथिल समूहों से बंधित है, जिससे यह एक तृतीयक (\(3^{\circ}\)) ऐमीन बनता है।<br/>- तृतीयक-ब्यूटिलऐमीन: इसका सूत्र \((\mathrm{CH}_3)_3\mathrm{C}-\mathrm{NH}_2\) है। यद्यपि नाइट्रोजन से जुड़ा कार्बन तृतीयक है, परंतु नाइट्रोजन परमाणु स्वयं केवल एक कार्बन परमाणु से जुड़ा है, अतः यह एक प्राथमिक (\(1^{\circ}\)) ऐमीन है।<br/>- N-मेथिलऐनिलीन: इसका सूत्र \(\mathrm{C}_6\mathrm{H}_5\mathrm{NHCH}_3\) है। नाइट्रोजन परमाणु दो कार्बन समूहों (एक फेनिल और एक मेथिल) से बंधित है, अतः यह एक द्वितीयक (\(2^{\circ}\)) ऐमीन है।</p><p><strong>चरण 3: अंतिम निष्कर्ष</strong><br/>ट्राइएथिलऐमीन में नाइट्रोजन परमाणु सीधे तीन कार्बन परमाणुओं से जुड़ा होता है, अतः यह एक \(3^{\circ}\) ऐमीन है।</p>]]></text>
-  </generalfeedback>
+  <name><text>NEETUG_CHEMISTRY_MCQI_AMINES_MCQ_Q01 - Identifying a tertiary amine among given compounds</text></name>
+  <questiontext format="html"><text><![CDATA[<p>Which of the following is a \(3^{\circ}\) amine?</p><hr/><p>निम्नलिखित में से कौन-सा \(3^{\circ}\) ऐमीन है?</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>Amines are classified as primary (\(1^{\circ}\)), secondary (\(2^{\circ}\)), or tertiary (\(3^{\circ}\)) based on the number of alkyl or aryl groups directly attached to the nitrogen atom. A tertiary (\(3^{\circ}\)) amine has three carbon groups bonded to the nitrogen atom and no hydrogen atoms attached to nitrogen (general formula \(\mathrm{R_3N}\)).</p><p><strong>Step 2: Evaluation of Each Compound</strong><br/>1-methylcyclohexylamine has an \(-\mathrm{NH_2}\) group attached to one carbon atom, so it is a \(1^{\circ}\) amine. tert-Butylamine, \((\mathrm{CH_3})_3\mathrm{CNH_2}\), also has an \(-\mathrm{NH_2}\) group attached to a single tertiary carbon atom, making it a \(1^{\circ}\) amine. N-methylaniline, \(\mathrm{C_6H_5NHCH_3}\), has two carbon groups (one phenyl and one methyl) attached to nitrogen, so it is a \(2^{\circ}\) amine. Triethylamine, \((\mathrm{C_2H_5})_3\mathrm{N}\), has three ethyl groups directly attached to the nitrogen atom.</p><p><strong>Step 3: Final Conclusion</strong><br/>Therefore, triethylamine is a \(3^{\circ}\) amine.</p><hr/><p><strong>चरण 1: अवधारणात्मक सिद्धांत</strong><br/>ऐमीनों को नाइट्रोजन परमाणु से सीधे जुड़े ऐल्किल या ऐरिल समूहों की संख्या के आधार पर प्राथमिक (\(1^{\circ}\)), द्वितीयक (\(2^{\circ}\)) या तृतीयक (\(3^{\circ}\)) के रूप में वर्गीकृत किया जाता है। एक तृतीयक (\(3^{\circ}\)) ऐमीन में नाइट्रोजन परमाणु से तीन कार्बन समूह जुड़े होते हैं और नाइट्रोजन से कोई हाइड्रोजन परमाणु जुड़ा नहीं होता (सामान्य सूत्र \(\mathrm{R_3N}\))।</p><p><strong>चरण 2: प्रत्येक यौगिक का मूल्यांकन</strong><br/>1-मेथिलसाइक्लोहेक्सिलऐमीन में एक कार्बन परमाणु से \(-\mathrm{NH_2}\) समूह जुड़ा होता है, इसलिए यह एक \(1^{\circ}\) ऐमीन है। tert-ब्यूटिलऐमीन, \((\mathrm{CH_3})_3\mathrm{CNH_2}\), में भी एक तृतीयक कार्बन परमाणु से \(-\mathrm{NH_2}\) समूह जुड़ा होता है, जिससे यह \(1^{\circ}\) ऐमीन बनता है। N-मेथिलऐनिलीन, \(\mathrm{C_6H_5NHCH_3}\), में नाइट्रोजन से दो कार्बन समूह (एक फेनिल और एक मेथिल) जुड़े होते हैं, इसलिए यह \(2^{\circ}\) ऐमीन है। ट्राईएथिलऐमीन, \((\mathrm{C_2H_5})_3\mathrm{N}\), में नाइट्रोजन परमाणु से सीधे तीन एथिल समूह जुड़े होते हैं।</p><p><strong>चरण 3: अंतिम निष्कर्ष</strong><br/>अतः, ट्राईएथिलऐमीन एक \(3^{\circ}\) ऐमीन है।</p>]]></text></generalfeedback>
   <defaultgrade>4.0000000</defaultgrade>
   <penalty>0.2500000</penalty>
   <hidden>0</hidden>
   <single>true</single>
   <shuffleanswers>true</shuffleanswers>
   <answernumbering>iii</answernumbering>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>1-methylcyclohexylamine</p>]]></text>
-  </answer>
-  <answer fraction="100" format="html">
-    <text><![CDATA[<p>Triethylamine</p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>tert-butylamine</p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>N-methylaniline</p>]]></text>
-  </answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>1-methylcyclohexylamine</p>]]></text></answer>
+  <answer fraction="100" format="html"><text><![CDATA[<p>Triethylamine</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>tert-butylamine</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>N-methylaniline</p>]]></text></answer>
   <tags>
     <tag><text>standard:neet_ug</text></tag>
     <tag><text>lang:en</text></tag>
     <tag><text>lang:hi</text></tag>
     <tag><text>subject:chemistry</text></tag>
-    <tag><text>class:class_12</text></tag>
+    <tag><text>section:mcq_i</text></tag>
+    <tag><text>class:12</text></tag>
     <tag><text>chapter:amines</text></tag>
     <tag><text>typology:mcq</text></tag>
     <tag><text>difficulty:easy</text></tag>
-    <tag><text>blooms:remember</text></tag>
-    <tag><text>calculation:light</text></tag>
+    <tag><text>blooms:understand</text></tag>
     <tag><text>media:text</text></tag>
     <tag><text>multiconcept:false</text></tag>
   </tags>
 </question>
 
 <question type="multichoice">
-  <name>
-    <text>NEET_UG_CHEMISTRY_AMINES_MCQ_Q02 - IUPAC name of unsaturated secondary amine</text>
-  </name>
-  <questiontext format="html">
-    <text><![CDATA[<p>The correct IUPAC name for \(\mathrm{CH}_2 = \mathrm{CHCH}_2\mathrm{NHCH}_3\) is</p><hr/><p>\(\mathrm{CH}_2 = \mathrm{CHCH}_2\mathrm{NHCH}_3\) का सही IUPAC नाम है:</p>]]></text>
-  </questiontext>
-  <generalfeedback format="html">
-    <text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>According to IUPAC nomenclature rules for secondary amines, the longest continuous carbon chain attached to the nitrogen atom containing the principal functional group or multiple bond is chosen as the parent chain. The other alkyl group attached to nitrogen is designated as an 'N-alkyl' substituent.</p><p><strong>Step 2: Identification of Parent Chain and Numbering</strong><br/>The compound has two alkyl groups attached to nitrogen:<br/>- A methyl group (\(-\mathrm{CH}_3\)) containing 1 carbon.<br/>- A three-carbon chain containing a double bond: \(\overset{3}{\mathrm{C}}\mathrm{H}_2 = \overset{2}{\mathrm{C}}\mathrm{H}-\overset{1}{\mathrm{C}}\mathrm{H}_2-\).<br/>The longer three-carbon chain is selected as the parent chain. Numbering starts from the carbon bearing the amine function (C1) to give the amine suffix the lowest locant. Thus, C1 is attached to \(-\mathrm{NH}-\), and the double bond begins at C2, giving the parent name 'prop-2-en-1-amine'.</p><p><strong>Step 3: Substituent and Complete IUPAC Name</strong><br/>The methyl group attached to nitrogen is designated as an 'N-methyl' prefix. Combining the substituent and the parent name gives N-methylprop-2-en-1-amine.</p><hr/><p><strong>चरण 1: संकल्पनात्मक सिद्धांत</strong><br/>द्वितीयक ऐमीनों के IUPAC नामकरण नियमों के अनुसार, नाइट्रोजन परमाणु से जुड़ी सबसे लंबी सतत कार्बन श्रृंखला, जिसमें मुख्य क्रियात्मक समूह अथवा बहु-आबंध उपस्थित हो, को मुख्य (जनक) श्रृंखला चुना जाता है। नाइट्रोजन से जुड़े अन्य ऐल्किल समूह को 'N-ऐल्किल' प्रतिस्थापी के रूप में नामित किया जाता है।</p><p><strong>चरण 2: जनक श्रृंखला की पहचान एवं क्रमांकन</strong><br/>नाइट्रोजन से दो समूह जुड़े हैं:<br/>- 1 कार्बन वाला मेथिल समूह (\(-\mathrm{CH}_3\))।<br/>- द्वि-आबंध युक्त तीन कार्बन वाली श्रृंखला: \(\overset{3}{\mathrm{C}}\mathrm{H}_2 = \overset{2}{\mathrm{C}}\mathrm{H}-\overset{1}{\mathrm{C}}\mathrm{H}_2-\)।<br/>अतः 3 कार्बन वाली श्रृंखला जनक श्रृंखला होगी। ऐमीन क्रियात्मक समूह वाले कार्बन को न्यूनतम अंक देने के लिए क्रमांकन उस कार्बन (C1) से प्रारंभ किया जाता है जिससे नाइट्रोजन जुड़ी है। इस प्रकार C2 पर द्वि-आबंध आता है, जिससे जनक नाम 'प्रोप-2-ईन-1-ऐमीन' बनता है।</p><p><strong>चरण 3: प्रतिस्थापी और पूर्ण IUPAC नाम</strong><br/>नाइट्रोजन पर उपस्थित मेथिल समूह को 'N-मेथिल' लिखा जाता है। इस प्रकार यौगिक का सही IUPAC नाम N-मेथिलप्रोप-2-ईन-1-ऐमीन है।</p>]]></text>
-  </generalfeedback>
+  <name><text>NEETUG_CHEMISTRY_MCQI_AMINES_MCQ_Q02 - IUPAC nomenclature of unsaturated secondary amine</text></name>
+  <questiontext format="html"><text><![CDATA[<p>The correct IUPAC name for \(\mathrm{CH_2 = CHCH_2NHCH_3}\) is</p><hr/><p>\(\mathrm{CH_2 = CHCH_2NHCH_3}\) का सही IUPAC नाम है</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>According to IUPAC nomenclature rules for secondary amines, the longest carbon chain containing the principal functional group (and any multiple bond) is chosen as the parent alkene/alkane chain, and the smaller alkyl group attached to the nitrogen atom is named as an N-substituted prefix.</p><p><strong>Step 2: Numbering and Naming</strong><br/>In \(\mathrm{CH_2=CHCH_2NHCH_3}\), the longer carbon chain has 3 carbon atoms with a double bond and an amine group. Numbering starts from the carbon attached to the \(-\mathrm{NHCH_3}\) group so that the principal functional group (amine) gets the lowest possible locant: \(\overset{3}{\mathrm{C}}\mathrm{H_2}=\overset{2}{\mathrm{C}}\mathrm{H}-\overset{1}{\mathrm{C}}\mathrm{H_2}-\mathrm{NHCH_3}\). Thus, the parent chain is prop-2-en-1-amine, and the methyl substituent on nitrogen is indicated as N-methyl.</p><p><strong>Step 3: Final Conclusion</strong><br/>Combining the prefix and parent name gives N-methylprop-2-en-1-amine.</p><hr/><p><strong>चरण 1: अवधारणात्मक सिद्धांत</strong><br/>द्वितीयक ऐमीनों के IUPAC नामकरण नियमों के अनुसार, मुख्य क्रियात्मक समूह (और किसी बहु-आबंध) युक्त सबसे लंबी कार्बन शृंखला को जनक ऐल्कीन/ऐल्केन शृंखला के रूप में चुना जाता है, तथा नाइट्रोजन परमाणु से जुड़े छोटे ऐल्किल समूह को N-प्रतिस्थापित पूर्वलग्न के रूप में नामित किया जाता है।</p><p><strong>चरण 2: अंकन और नामकरण</strong><br/>\(\mathrm{CH_2=CHCH_2NHCH_3}\) में, लंबी कार्बन शृंखला में 3 कार्बन परमाणु हैं जिनमें एक द्वि-आबंध और एक ऐमीन समूह है। अंकन उस कार्बन से प्रारंभ होता है जो \(-\mathrm{NHCH_3}\) समूह से जुड़ा है ताकि मुख्य क्रियात्मक समूह (ऐमीन) को न्यूनतम संभव स्थानक (locant) मिले: \(\overset{3}{\mathrm{C}}\mathrm{H_2}=\overset{2}{\mathrm{C}}\mathrm{H}-\overset{1}{\mathrm{C}}\mathrm{H_2}-\mathrm{NHCH_3}\)। इस प्रकार, जनक शृंखला prop-2-en-1-amine है, और नाइट्रोजन पर स्थित मेथिल प्रतिस्थापी को N-methyl के रूप में दर्शाया जाता है।</p><p><strong>चरण 3: अंतिम निष्कर्ष</strong><br/>पूर्वलग्न और जनक नाम को मिलाने पर सही IUPAC नाम N-methylprop-2-en-1-amine प्राप्त होता है।</p>]]></text></generalfeedback>
   <defaultgrade>4.0000000</defaultgrade>
   <penalty>0.2500000</penalty>
   <hidden>0</hidden>
   <single>true</single>
   <shuffleanswers>true</shuffleanswers>
   <answernumbering>iii</answernumbering>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>Allylmethylamine</p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>2-amino-4-pentene</p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>4-aminopent-1-ene</p>]]></text>
-  </answer>
-  <answer fraction="100" format="html">
-    <text><![CDATA[<p>N-methylprop-2-en-1-amine</p>]]></text>
-  </answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>Allylmethylamine</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>2-amino-4-pentene</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>4-aminopent-1-ene</p>]]></text></answer>
+  <answer fraction="100" format="html"><text><![CDATA[<p>N-methylprop-2-en-1-amine</p>]]></text></answer>
   <tags>
     <tag><text>standard:neet_ug</text></tag>
     <tag><text>lang:en</text></tag>
     <tag><text>lang:hi</text></tag>
     <tag><text>subject:chemistry</text></tag>
-    <tag><text>class:class_12</text></tag>
-    <tag><text>chapter:amines</text></tag>
-    <tag><text>typology:mcq</text></tag>
-    <tag><text>difficulty:medium</text></tag>
-    <tag><text>blooms:understand</text></tag>
-    <tag><text>calculation:light</text></tag>
-    <tag><text>media:text</text></tag>
-    <tag><text>multiconcept:false</text></tag>
-  </tags>
-</question>
-
-<question type="multichoice">
-  <name>
-    <text>NEET_UG_CHEMISTRY_AMINES_MCQ_Q03 - Strongest base in aqueous medium comparison</text>
-  </name>
-  <questiontext format="html">
-    <text><![CDATA[<p>Amongst the following, the strongest base in aqueous medium is</p><hr/><p>निम्नलिखित में से जलीय माध्यम में प्रबलतम क्षारक है:</p>]]></text>
-  </questiontext>
-  <generalfeedback format="html">
-    <text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>The basic strength of amines in aqueous solution is determined by an interplay of three factors: the inductive effect (\(+I\)), hydration energy (solvation effect of the conjugate cation), and steric hindrance of alkyl groups.</p><p><strong>Step 2: Comparison of Methyl-Substituted Amines and Derivatives</strong><br/>For methyl-substituted aliphatic amines in aqueous medium, the overall basic strength follows the order: \((\mathrm{CH}_3)_2\mathrm{NH} > \mathrm{CH}_3\mathrm{NH}_2 > (\mathrm{CH}_3)_3\mathrm{N} > \mathrm{NH}_3\).<br/>- In \((\mathrm{CH}_3)_2\mathrm{NH}\) (dimethylamine), two methyl groups exert an electron-releasing \(+I\) effect while steric hindrance remains low and the conjugate cation \((\mathrm{CH}_3)_2\mathrm{NH}_2^+\) is stabilized by strong hydrogen bonding with water molecules.<br/>- In \(\mathrm{CH}_3\mathrm{NH}_2\) (methylamine), only one methyl group provides \(+I\) stabilization.<br/>- In \(\mathrm{NCCH}_2\mathrm{NH}_2\), the strongly electron-withdrawing cyano group (\(-I\) effect) drastically reduces electron density on nitrogen, making it a very weak base.<br/>- In \(\mathrm{C}_6\mathrm{H}_5\mathrm{NHCH}_3\), the nitrogen lone pair is delocalized into the aromatic benzene ring via resonance, resulting in substantially weaker basicity than aliphatic amines.</p><p><strong>Step 3: Final Conclusion</strong><br/>Dimethylamine, \((\mathrm{CH}_3)_2\mathrm{NH}\), represents the strongest base in aqueous medium among the given compounds.</p><hr/><p><strong>चरण 1: संकल्पनात्मक सिद्धांत</strong><br/>जलीय विलयन में ऐमीनों की क्षारीय सामर्थ्य तीन कारकों के संयुक्त प्रभाव द्वारा निर्धारित होती है: प्रेरणिक प्रभाव (\(+I\)), जलयोजन ऊर्जा (संयुग्मी धनायन का विलायकन), तथा ऐल्किल समूहों का त्रिविम विबाध।</p><p><strong>चरण 2: मेथिल-प्रतिस्थापित ऐमीनों और व्युत्पन्नों की तुलना</strong><br/>जलीय माध्यम में मेथिल-प्रतिस्थापित ऐलिफ़ैटिक ऐमीनों के लिए क्षारीयता का क्रम होता है: \((\mathrm{CH}_3)_2\mathrm{NH} > \mathrm{CH}_3\mathrm{NH}_2 > (\mathrm{CH}_3)_3\mathrm{N} > \mathrm{NH}_3\)।<br/>- \((\mathrm{CH}_3)_2\mathrm{NH}\) (डाइमेथिलऐमीन) में दो मेथिल समूह \(+I\) प्रभाव डालते हैं, त्रिविम बाधा न्यूनतम रहती है और इसका संयुग्मी धनायन \((\mathrm{CH}_3)_2\mathrm{NH}_2^+\) जल के साथ हाइड्रोजन आबंधन द्वारा अत्यधिक स्थिर होता है।<br/>- \(\mathrm{CH}_3\mathrm{NH}_2\) में केवल एक मेथिल समूह का \(+I\) प्रभाव मिलता है।<br/>- \(\mathrm{NCCH}_2\mathrm{NH}_2\) में सायनो समूह का प्रबल इलेक्ट्रॉन-आकर्षी (\(-I\)) प्रभाव नाइट्रोजन पर इलेक्ट्रॉन घनत्व बहुत घटा देता है, जिससे यह दुर्बल क्षारक बन जाता है।<br/>- \(\mathrm{C}_6\mathrm{H}_5\mathrm{NHCH}_3\) में नाइट्रोजन का एकाकी युग्म अनुनाद के कारण बेन्जीन वलय में विस्थानीकृत हो जाता है, जिससे इसकी क्षारीयता ऐलिफ़ैटिक ऐमीन से काफी कम होती है।</p><p><strong>चरण 3: अंतिम निष्कर्ष</strong><br/>अतः जलीय माध्यम में \((\mathrm{CH}_3)_2\mathrm{NH}\) सबसे प्रबल क्षारक है।</p>]]></text>
-  </generalfeedback>
-  <defaultgrade>4.0000000</defaultgrade>
-  <penalty>0.2500000</penalty>
-  <hidden>0</hidden>
-  <single>true</single>
-  <shuffleanswers>true</shuffleanswers>
-  <answernumbering>iii</answernumbering>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>\(\mathrm{CH}_3\mathrm{NH}_2\)</p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>\(\mathrm{NCCH}_2\mathrm{NH}_2\)</p>]]></text>
-  </answer>
-  <answer fraction="100" format="html">
-    <text><![CDATA[<p>\((\mathrm{CH}_3)_2\mathrm{NH}\)</p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>\(\mathrm{C_6H_5NHCH_3}\)</p>]]></text>
-  </answer>
-  <tags>
-    <tag><text>standard:neet_ug</text></tag>
-    <tag><text>lang:en</text></tag>
-    <tag><text>lang:hi</text></tag>
-    <tag><text>subject:chemistry</text></tag>
-    <tag><text>class:class_12</text></tag>
-    <tag><text>chapter:amines</text></tag>
-    <tag><text>typology:mcq</text></tag>
-    <tag><text>difficulty:medium</text></tag>
-    <tag><text>blooms:understand</text></tag>
-    <tag><text>calculation:light</text></tag>
-    <tag><text>media:equation</text></tag>
-    <tag><text>multiconcept:false</text></tag>
-  </tags>
-</question>
-
-<question type="multichoice">
-  <name>
-    <text>NEET_UG_CHEMISTRY_AMINES_MCQ_Q04 - Weakest Bronsted base among aliphatic and aromatic</text>
-  </name>
-  <questiontext format="html">
-    <text><![CDATA[<p>Which of the following is the weakest Brönsted base?</p><hr/><p>निम्नलिखित में से कौन-सा दुर्बलतम ब्रॉन्स्टेड क्षारक है?</p>]]></text>
-  </questiontext>
-  <generalfeedback format="html">
-    <text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>A Brönsted base is defined as a proton (\(\mathrm{H}^+\)) acceptor. Its strength depends on the availability of the lone pair of electrons on the nitrogen atom to bind a proton. When the lone pair participates in resonance delocalization into an adjacent aromatic ring, its availability decreases dramatically, markedly reducing basic strength.</p><p><strong>Step 2: Analysis of the Given Bases</strong><br/>Examining the four structures:<br/>- Aniline (\(\mathrm{C}_6\mathrm{H}_5\mathrm{NH}_2\)): The lone pair of electrons on the nitrogen atom is conjugated with the aromatic \(\pi\)-system of the benzene ring and delocalized across the ortho and para positions through resonance. As a result, the electron density on nitrogen is significantly depleted, making aniline a very weak base with \(\mathrm{p}K_b \approx 9.38\).<br/>- Piperidine: A saturated six-membered secondary aliphatic cyclic amine where the lone pair resides in an \(\mathrm{sp}^3\) orbital without resonance delocalization, making it a very strong base with \(\mathrm{p}K_b \approx 2.88\).<br/>- Cyclohexylamine: A primary aliphatic alicyclic amine with an \(\mathrm{sp}^3\)-hybridized amino group and no resonance delocalization (\(\mathrm{p}K_b \approx 3.34\)).<br/>- Methylamine (\(\mathrm{CH}_3\mathrm{NH}_2\)): An aliphatic primary amine with an electron-donating methyl group, giving strong basicity (\(\mathrm{p}K_b \approx 3.36\)).</p><p><strong>Step 3: Final Conclusion</strong><br/>Due to extensive resonance delocalization of the nitrogen lone pair into the benzene ring, aniline is the weakest Brönsted base among the given compounds.</p><hr/><p><strong>चरण 1: संकल्पनात्मक सिद्धांत</strong><br/>ब्रॉन्स्टेड क्षारक वह स्पीशीज होती है जो प्रोटॉन (\(\mathrm{H}^+\)) ग्रहण करती है। इसकी सामर्थ्य नाइट्रोजन परमाणु पर उपस्थित एकाकी इलेक्ट्रॉन युग्म की प्रोटॉन ग्रहण करने की उपलब्धता पर निर्भर करती है। जब एकाकी युग्म अनुनाद द्वारा ऐरोमैटिक वलय में विस्थानीकृत हो जाता है, तो इसकी उपलब्धता अत्यधिक घट जाती है, जिससे क्षारीयता बहुत कम हो जाती है।</p><p><strong>चरण 2: दिए गए क्षारकों का विश्लेषण</strong><br/>चारों संरचनाओं का विश्लेषण करने पर:<br/>- ऐनिलीन (\(\mathrm{C}_6\mathrm{H}_5\mathrm{NH}_2\)): नाइट्रोजन पर उपस्थित एकाकी इलेक्ट्रॉन युग्म बेन्जीन वलय के \(\pi\)-तंत्र के साथ अनुनाद द्वारा विस्थानीकृत रहता है। इस कारण नाइट्रोजन पर इलेक्ट्रॉन घनत्व कम हो जाता है और यह अत्यधिक दुर्बल क्षारक बन जाता है (\(\mathrm{p}K_b \approx 9.38\))।<br/>- पिपरिडीन: यह एक संतृप्त छह-सदस्यीय द्वितीयक ऐलिफ़ैटिक चक्रीय ऐमीन है, जिसमें एकाकी युग्म बिना किसी अनुनाद के \(\mathrm{sp}^3\) कक्षक में रहता है, अतः यह अत्यधिक प्रबल क्षारक है (\(\mathrm{p}K_b \approx 2.88\))।<br/>- साइक्लोहेक्सिलऐमीन: यह एक प्राथमिक ऐलिफ़ैटिक चक्रीय ऐमीन है जिसमें कोई अनुनाद नहीं होता (\(\mathrm{p}K_b \approx 3.34\))।<br/>- मेथिलऐमीन (\(\mathrm{CH}_3\mathrm{NH}_2\)): मेथिल समूह के \(+I\) प्रभाव के कारण यह एक प्रबल क्षारक है (\(\mathrm{p}K_b \approx 3.36\))।</p><p><strong>चरण 3: अंतिम निष्कर्ष</strong><br/>बेन्जीन वलय के साथ अनुनाद के कारण ऐनिलीन का एकाकी इलेक्ट्रॉन युग्म सबसे कम उपलब्ध होता है, अतः ऐनिलीन दुर्बलतम ब्रॉन्स्टेड क्षारक है।</p>]]></text>
-  </generalfeedback>
-  <defaultgrade>4.0000000</defaultgrade>
-  <penalty>0.2500000</penalty>
-  <hidden>0</hidden>
-  <single>true</single>
-  <shuffleanswers>true</shuffleanswers>
-  <answernumbering>iii</answernumbering>
-  <answer fraction="100" format="html">
-    <text><![CDATA[<p><img src="@@PLUGINFILE@@/img-0.jpeg" alt="Aniline" /></p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p><img src="@@PLUGINFILE@@/img-1.jpeg" alt="Piperidine" /></p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p><img src="@@PLUGINFILE@@/img-2.jpeg" alt="Cyclohexylamine" /></p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>\(\mathrm{CH}_3\mathrm{NH}_2\)</p>]]></text>
-  </answer>
-  <tags>
-    <tag><text>standard:neet_ug</text></tag>
-    <tag><text>lang:en</text></tag>
-    <tag><text>lang:hi</text></tag>
-    <tag><text>subject:chemistry</text></tag>
-    <tag><text>class:class_12</text></tag>
-    <tag><text>chapter:amines</text></tag>
-    <tag><text>typology:mcq</text></tag>
-    <tag><text>difficulty:medium</text></tag>
-    <tag><text>blooms:understand</text></tag>
-    <tag><text>calculation:light</text></tag>
-    <tag><text>media:diagram</text></tag>
-    <tag><text>multiconcept:false</text></tag>
-  </tags>
-</question>
-
-<question type="multichoice">
-  <name>
-    <text>NEET_UG_CHEMISTRY_AMINES_MCQ_Q05 - Alkylation of benzylamine via SN1 mechanism pathway</text>
-  </name>
-  <questiontext format="html">
-    <text><![CDATA[<p>Benzylamine may be alkylated as shown in the following equation:
-\[\mathrm{C}_6\mathrm{H}_5\mathrm{CH}_2\mathrm{NH}_2 + \mathrm{R}-\mathrm{X} \longrightarrow \mathrm{C}_6\mathrm{H}_5\mathrm{CH}_2\mathrm{NHR}\]
-Which of the following alkyl halides is best suited for this reaction through \(\mathrm{S}_{\mathrm{N}}1\) mechanism?</p><hr/><p>बेन्जिलऐमीन का ऐल्किलीकरण निम्नलिखित समीकरण के अनुसार किया जा सकता है:
-\[\mathrm{C}_6\mathrm{H}_5\mathrm{CH}_2\mathrm{NH}_2 + \mathrm{R}-\mathrm{X} \longrightarrow \mathrm{C}_6\mathrm{H}_5\mathrm{CH}_2\mathrm{NHR}\]
-निम्नलिखित में से कौन-सा ऐल्किल हैलाइड \(\mathrm{S}_{\mathrm{N}}1\) क्रियाविधि द्वारा इस अभिक्रिया के लिए सर्वाधिक उपयुक्त है?</p>]]></text>
-  </questiontext>
-  <generalfeedback format="html">
-    <text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>In a unimolecular nucleophilic substitution (\(\mathrm{S}_{\mathrm{N}}1\)) mechanism, the rate-determining step is the heterolytic cleavage of the carbon-halogen bond to generate a carbocation intermediate. Therefore, the reactivity of alkyl halides under \(\mathrm{S}_{\mathrm{N}}1\) conditions depends directly on the thermodynamic stability of the resulting carbocation.</p><p><strong>Step 2: Evaluation of the Halides</strong><br/>Evaluating each given halide:<br/>- \(\mathrm{CH}_3\mathrm{Br}\) and \(\mathrm{C}_2\mathrm{H}_5\mathrm{Br}\): Ionization would yield methyl (\(\mathrm{CH}_3^+\)) and ethyl (\(\mathrm{CH}_3\mathrm{CH}_2^+\)) carbocations, which are primary and energetically unstable. They react almost exclusively via an \(\mathrm{S}_{\mathrm{N}}2\) mechanism.<br/>- \(\mathrm{C}_6\mathrm{H}_5\mathrm{Br}\) (bromobenzene): The bromine atom is attached to an \(\mathrm{sp}^2\)-hybridized carbon with partial double bond character due to resonance with the benzene ring. Phenyl cations do not form readily, so bromobenzene is inert to nucleophilic substitution under normal conditions.<br/>- \(\mathrm{C}_6\mathrm{H}_5\mathrm{CH}_2\mathrm{Br}\) (benzyl bromide): Ionization produces the benzyl carbocation (\(\mathrm{C}_6\mathrm{H}_5\mathrm{CH}_2^+\)), which is stabilized by resonance across the benzene ring through delocalization of positive charge over ortho and para positions.</p><p><strong>Step 3: Final Conclusion</strong><br/>Because benzyl bromide forms a highly resonance-stabilized carbocation intermediate, it is best suited to react through the \(\mathrm{S}_{\mathrm{N}}1\) mechanism.</p><hr/><p><strong>चरण 1: संकल्पनात्मक सिद्धांत</strong><br/>एकाणुक नाभिकरागी प्रतिस्थापन (\(\mathrm{S}_{\mathrm{N}}1\)) क्रियाविधि में, दर-निर्धारक पद कार्बन-हैलोजेन आबंध का विदलन होकर कार्बधनायन मध्यवर्ती का बनना होता है। अतः \(\mathrm{S}_{\mathrm{N}}1\) क्रियाविधि में ऐल्किल हैलाइडों की अभिक्रियाशीलता सीधे तौर पर बनने वाले कार्बधनायन के स्थायित्व पर निर्भर करती है।</p><p><strong>चरण 2: दिए गए हैलाइडों का मूल्यांकन</strong><br/>दिए गए प्रत्येक हैलाइड का परीक्षण करने पर:<br/>- \(\mathrm{CH}_3\mathrm{Br}\) एवं \(\mathrm{C}_2\mathrm{H}_5\mathrm{Br}\): इनके आयनन से मेथिल एवं प्राथमिक एथिल कार्बधनायन बनते हैं, जो अत्यधिक अस्थायी होते हैं और मुख्य रूप से \(\mathrm{S}_{\mathrm{N}}2\) क्रियाविधि दर्शाते हैं।<br/>- \(\mathrm{C}_6\mathrm{H}_5\mathrm{Br}\) (ब्रोमोबेन्जीन): इसमें अनुनाद के कारण \(\mathrm{C}-\mathrm{Br}\) आबंध में आंशिक द्वि-आबंध लक्षण आ जाता है तथा फेनिल धनायन अस्थायी होता है, जिससे यह सामान्य परिस्थितियों में नाभिकरागी प्रतिस्थापन नहीं देता।<br/>- \(\mathrm{C}_6\mathrm{H}_5\mathrm{CH}_2\mathrm{Br}\) (बेन्जिल ब्रोमाइड): इसके आयनन से बेन्जिल कार्बधनायन (\(\mathrm{C}_6\mathrm{H}_5\mathrm{CH}_2^+\)) प्राप्त होता है, जो बेन्जीन वलय के साथ अनुनाद द्वारा अत्यधिक स्थिर होता है।</p><p><strong>चरण 3: अंतिम निष्कर्ष</strong><br/>बेन्जिल ब्रोमाइड अनुनाद-स्थायी बेन्जिल कार्बधनायन बनाता है, इसलिए यह \(\mathrm{S}_{\mathrm{N}}1\) क्रियाविधि द्वारा अभिक्रिया के लिए सर्वाधिक उपयुक्त है।</p>]]></text>
-  </generalfeedback>
-  <defaultgrade>4.0000000</defaultgrade>
-  <penalty>0.2500000</penalty>
-  <hidden>0</hidden>
-  <single>true</single>
-  <shuffleanswers>true</shuffleanswers>
-  <answernumbering>iii</answernumbering>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>\(\mathrm{CH}_3\mathrm{Br}\)</p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>\(\mathrm{C_6H_5Br}\)</p>]]></text>
-  </answer>
-  <answer fraction="100" format="html">
-    <text><![CDATA[<p>\(\mathrm{C_6H_5CH_2Br}\)</p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>\(\mathrm{C}_2\mathrm{H}_5\mathrm{Br}\)</p>]]></text>
-  </answer>
-  <tags>
-    <tag><text>standard:neet_ug</text></tag>
-    <tag><text>lang:en</text></tag>
-    <tag><text>lang:hi</text></tag>
-    <tag><text>subject:chemistry</text></tag>
-    <tag><text>class:class_12</text></tag>
-    <tag><text>chapter:amines</text></tag>
-    <tag><text>typology:mcq</text></tag>
-    <tag><text>difficulty:medium</text></tag>
-    <tag><text>blooms:apply</text></tag>
-    <tag><text>calculation:light</text></tag>
-    <tag><text>media:equation</text></tag>
-    <tag><text>multiconcept:false</text></tag>
-  </tags>
-</question>
-
-<question type="multichoice">
-  <name>
-    <text>NEET_UG_CHEMISTRY_AMINES_MCQ_Q06 - Reagent unsuitable for aryl nitro reduction to amine</text>
-  </name>
-  <questiontext format="html">
-    <text><![CDATA[<p>Which of the following reagents would <strong>not</strong> be a good choice for reducing an aryl nitro compound to an amine?</p><hr/><p>निम्नलिखित में से कौन-सा अभिकर्मक किसी ऐरिल नाइट्रो यौगिक को ऐमीन में अपचयित करने के लिए एक अच्छा विकल्प <strong>नहीं</strong> होगा?</p>]]></text>
-  </questiontext>
-  <generalfeedback format="html">
-    <text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>The reduction of aromatic nitro compounds (\(\mathrm{ArNO}_2\)) to primary aromatic amines (\(\mathrm{ArNH}_2\)) can be carried out using catalytic hydrogenation or active metal-acid reduction. However, strong complex metal hydrides react differently with aromatic nitro groups due to bimolecular coupling pathways.</p><p><strong>Step 2: Evaluation of Reagents</strong><br/>Analyzing the behavior of each reagent with aryl nitro compounds:<br/>- \(\mathrm{H}_2\) (excess)/Pt: Catalytic hydrogenation smoothly reduces aryl nitro groups to primary arylamines (\(\mathrm{ArNH}_2\)).<br/>- Fe and HCl: Highly efficient and industrially preferred for reducing \(\mathrm{ArNO}_2\) to \(\mathrm{ArNH}_2\), requiring only a catalytic amount of hydrochloric acid because \(\mathrm{FeCl}_2\) hydrolyzes to regenerate acid.<br/>- Sn and HCl: A standard laboratory reducing agent that cleanly yields primary aromatic amines from nitro compounds.<br/>- \(\mathrm{LiAlH}_4\) in ether: Lithium aluminium hydride reduces aromatic nitro compounds to azobenzene (\(\mathrm{C}_6\mathrm{H}_5-\mathrm{N}=\mathrm{N}-\mathrm{C}_6\mathrm{H}_5\)) through reductive dimerization, rather than giving the desired primary amine.</p><p><strong>Step 3: Final Conclusion</strong><br/>Because reduction with lithium aluminium hydride in ether produces azobenzene instead of an amine, \(\mathrm{LiAlH}_4\) in ether is not a good choice.</p><hr/><p><strong>चरण 1: संकल्पनात्मक सिद्धांत</strong><br/>ऐरोमैटिक नाइट्रो यौगिकों (\(\mathrm{ArNO}_2\)) का प्राथमिक ऐरोमैटिक ऐमीन (\(\mathrm{ArNH}_2\)) में अपचयन उत्प्रेरकीय हाइड्रोजनीकरण या सक्रिय धातु-अम्ल युग्म द्वारा किया जाता है। परंतु कुछ प्रबल धात्विक हाइड्राइड नाइट्रोऐरीनों के साथ द्वितयीकरण द्वारा भिन्न उत्पाद बनाते हैं।</p><p><strong>चरण 2: अभिकर्मकों का मूल्यांकन</strong><br/>विभिन्न अभिकर्मकों के व्यवहार का विश्लेषण:<br/>- \(\mathrm{H}_2\) (आधिक्य)/Pt: उत्प्रेरकीय हाइड्रोजनीकरण नाइट्रो समूह को सीधे प्राथमिक ऐमीन में अपचयित करता है।<br/>- Fe एवं HCl: यह औद्योगिक रूप से प्राथमिक ऐमीन बनाने की सर्वोत्तम विधि है, क्योंकि इसमें बना \(\mathrm{FeCl}_2\) जल-अपघटित होकर पुनः अम्ल देता है।<br/>- Sn एवं HCl: यह प्रयोगशाला में नाइट्रो यौगिकों को प्राथमिक ऐरोमैटिक ऐमीनों में अपचयित करने का मानक अभिकर्मक है।<br/>- \(\mathrm{LiAlH}_4\) (ईथर में): लीथियम ऐलुमिनियम हाइड्राइड ऐरोमैटिक नाइट्रो यौगिकों को प्राथमिक ऐमीन में अपचयित करने के स्थान पर ऐज़ोबेन्जीन (\(\mathrm{C}_6\mathrm{H}_5-\mathrm{N}=\mathrm{N}-\mathrm{C}_6\mathrm{H}_5\)) बनाता है।</p><p><strong>चरण 3: अंतिम निष्कर्ष</strong><br/>ईथर में \(\mathrm{LiAlH}_4\) द्वारा अपचयन कराने पर प्राथमिक ऐमीन के स्थान पर ऐज़ोबेन्जीन प्राप्त होता है, अतः यह अभिकर्मक एक उपयुक्त विकल्प नहीं है।</p>]]></text>
-  </generalfeedback>
-  <defaultgrade>4.0000000</defaultgrade>
-  <penalty>0.2500000</penalty>
-  <hidden>0</hidden>
-  <single>true</single>
-  <shuffleanswers>true</shuffleanswers>
-  <answernumbering>iii</answernumbering>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>\(\mathrm{H}_{2}\) (excess)/Pt</p>]]></text>
-  </answer>
-  <answer fraction="100" format="html">
-    <text><![CDATA[<p>\(\mathrm{LiAlH_4}\) in ether</p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>Fe and HCl</p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>Sn and HCl</p>]]></text>
-  </answer>
-  <tags>
-    <tag><text>standard:neet_ug</text></tag>
-    <tag><text>lang:en</text></tag>
-    <tag><text>lang:hi</text></tag>
-    <tag><text>subject:chemistry</text></tag>
-    <tag><text>class:class_12</text></tag>
-    <tag><text>chapter:amines</text></tag>
-    <tag><text>typology:mcq</text></tag>
-    <tag><text>difficulty:medium</text></tag>
-    <tag><text>blooms:remember</text></tag>
-    <tag><text>calculation:light</text></tag>
-    <tag><text>media:text</text></tag>
-    <tag><text>multiconcept:false</text></tag>
-  </tags>
-</question>
-
-<question type="multichoice">
-  <name>
-    <text>NEET_UG_CHEMISTRY_AMINES_MCQ_Q07 - Reagent for primary amine with chain extension</text>
-  </name>
-  <questiontext format="html">
-    <text><![CDATA[<p>In order to prepare a \(1^{\circ}\) amine from an alkyl halide with simultaneous addition of one \(\mathrm{CH}_2\) group in the carbon chain, the reagent used as source of nitrogen is</p><hr/><p>किसी ऐल्किल हैलाइड से कार्बन श्रृंखला में एक साथ एक \(\mathrm{CH}_2\) समूह जोड़ते हुए \(1^{\circ}\) ऐमीन प्राप्त करने के लिए, नाइट्रोजन के स्रोत के रूप में प्रयुक्त अभिकर्मक है:</p>]]></text>
-  </questiontext>
-  <generalfeedback format="html">
-    <text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>To synthesize a primary amine containing one additional carbon atom relative to the starting alkyl halide (\(\mathrm{R}-\mathrm{X} \rightarrow \mathrm{R}-\mathrm{CH}_2\mathrm{NH}_2\)), the reaction must introduce both a carbon atom and a nitrogen atom simultaneously via nucleophilic substitution, followed by reduction.</p><p><strong>Step 2: Evaluation of Potential Nitrogen Sources</strong><br/>Evaluating the reagents:<br/>- Sodium amide (\(\mathrm{NaNH}_2\)), sodium azide (\(\mathrm{NaN}_3\)), and potassium phthalimide introduce nitrogen without adding any extra carbon atom to the alkyl chain, yielding amines with the same number of carbons (\(\mathrm{R}-\mathrm{NH}_2\)).<br/>- Potassium cyanide (\(\mathrm{KCN}\)) reacts with alkyl halides via nucleophilic substitution to form alkyl nitriles: \(\mathrm{R}-\mathrm{X} + \mathrm{KCN} \longrightarrow \mathrm{R}-\mathrm{CN} + \mathrm{KX}\). The cyano group introduces one extra carbon atom into the parent chain. Subsequent catalytic reduction or hydride reduction of the nitrile yields a primary amine: \(\mathrm{R}-\mathrm{CN} \xrightarrow{\mathrm{H}_2/\mathrm{Ni}} \mathrm{R}-\mathrm{CH}_2\mathrm{NH}_2\).</p><p><strong>Step 3: Final Conclusion</strong><br/>Potassium cyanide (KCN) provides the necessary carbon and nitrogen atoms to elongate the carbon chain by a \(\mathrm{CH}_2\) unit upon formation of the primary amine.</p><hr/><p><strong>चरण 1: संकल्पनात्मक सिद्धांत</strong><br/>प्रारंभिक ऐल्किल हैलाइड की तुलना में एक अतिरिक्त कार्बन परमाणु युक्त प्राथमिक ऐमीन (\(\mathrm{R}-\mathrm{X} \rightarrow \mathrm{R}-\mathrm{CH}_2\mathrm{NH}_2\)) के संश्लेषण हेतु, नाभिकरागी प्रतिस्थापन द्वारा एक कार्बन और नाइट्रोजन युक्त समूह को जोड़कर उसका अपचयन करना आवश्यक होता है।</p><p><strong>चरण 2: संभावित नाइट्रोजन स्रोतों का मूल्यांकन</strong><br/>अभिकर्मकों की तुलना करने पर:<br/>- सोडियम एमाइड (\(\mathrm{NaNH}_2\)), सोडियम ऐज़ाइड (\(\mathrm{NaN}_3\)), तथा पोटैशियम थैलिमाइड ऐल्किल श्रृंखला में कोई अतिरिक्त कार्बन जोड़े बिना नाइट्रोजन प्रदान करते हैं, जिससे समान कार्बन संख्या वाली ऐमीन (\(\mathrm{R}-\mathrm{NH}_2\)) प्राप्त होती है।<br/>- पोटैशियम सायनाइड (\(\mathrm{KCN}\)) ऐल्किल हैलाइड के साथ नाभिकरागी प्रतिस्थापन अभिक्रिया करके ऐल्किल नाइट्राइल बनाता है: \(\mathrm{R}-\mathrm{X} + \mathrm{KCN} \longrightarrow \mathrm{R}-\mathrm{CN} + \mathrm{KX}\)। यह सायनो समूह श्रृंखला में एक अतिरिक्त कार्बन जोड़ता है। इस नाइट्राइल के अपचयन से एक अधिक कार्बन वाली प्राथमिक ऐमीन प्राप्त होती है: \(\mathrm{R}-\mathrm{CN} \xrightarrow{\mathrm{H}_2/\mathrm{Ni}} \mathrm{R}-\mathrm{CH}_2\mathrm{NH}_2\)।</p><p><strong>चरण 3: अंतिम निष्कर्ष</strong><br/>श्रृंखला में एक \(\mathrm{CH}_2\) समूह की वृद्धि के साथ प्राथमिक ऐमीन बनाने के लिए नाइट्रोजन स्रोत के रूप में पोटैशियम सायनाइड (KCN) प्रयुक्त होता है।</p>]]></text>
-  </generalfeedback>
-  <defaultgrade>4.0000000</defaultgrade>
-  <penalty>0.2500000</penalty>
-  <hidden>0</hidden>
-  <single>true</single>
-  <shuffleanswers>true</shuffleanswers>
-  <answernumbering>iii</answernumbering>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>Sodium amide, \(\mathrm{NaNH}_2\)</p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>Sodium azide, \(\mathrm{NaN}_3\)</p>]]></text>
-  </answer>
-  <answer fraction="100" format="html">
-    <text><![CDATA[<p>Potassium cyanide, KCN</p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>Potassium phthalimide, \(\mathrm{C_6H_4(CO)_2N^-K^+}\)</p>]]></text>
-  </answer>
-  <tags>
-    <tag><text>standard:neet_ug</text></tag>
-    <tag><text>lang:en</text></tag>
-    <tag><text>lang:hi</text></tag>
-    <tag><text>subject:chemistry</text></tag>
-    <tag><text>class:class_12</text></tag>
-    <tag><text>chapter:amines</text></tag>
-    <tag><text>typology:mcq</text></tag>
-    <tag><text>difficulty:medium</text></tag>
-    <tag><text>blooms:understand</text></tag>
-    <tag><text>calculation:light</text></tag>
-    <tag><text>media:text</text></tag>
-    <tag><text>multiconcept:false</text></tag>
-  </tags>
-</question>
-
-<question type="multichoice">
-  <name>
-    <text>NEET_UG_CHEMISTRY_AMINES_MCQ_Q08 - Nitrogen source in Gabriel phthalimide synthesis reaction</text>
-  </name>
-  <questiontext format="html">
-    <text><![CDATA[<p>The source of nitrogen in Gabriel synthesis of amines is</p><hr/><p>ऐमीनों के गैब्रिएल संश्लेषण में नाइट्रोजन का स्रोत है:</p>]]></text>
-  </questiontext>
-  <generalfeedback format="html">
-    <text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>Gabriel phthalimide synthesis is a selective method used specifically for the preparation of pure aliphatic primary amines free from secondary or tertiary amine contaminants.</p><p><strong>Step 2: Sequence of Reagents in Gabriel Synthesis</strong><br/>In the first step of this synthesis, phthalimide is treated with ethanolic potassium hydroxide to produce potassium phthalimide (\(\mathrm{C}_6\mathrm{H}_4(\mathrm{CO})_2\mathrm{N}^-\mathrm{K}^+\)). The phthalimide anion then acts as a nucleophile, reacting with an alkyl halide via an \(\mathrm{S}_{\mathrm{N}}2\) mechanism to form N-alkylphthalimide. Subsequent alkaline hydrolysis or treatment with hydrazine cleaves the N-alkyl derivative to release pure primary aliphatic amine and phthalic acid or phthalhydrazide.</p><p><strong>Step 3: Final Conclusion</strong><br/>The chemical entity supplying the nitrogen atom in this transformation is potassium phthalimide, \(\mathrm{C}_6\mathrm{H}_4(\mathrm{CO})_2\mathrm{N}^-\mathrm{K}^+\).</p><hr/><p><strong>चरण 1: संकल्पनात्मक सिद्धांत</strong><br/>गैब्रिएल थैलिमाइड संश्लेषण शुद्ध प्राथमिक ऐलिफ़ैटिक ऐमीनों के विरचन की एक विशिष्ट विधि है, जिसमें द्वितीयक अथवा तृतीयक ऐमीनों का संदूषण नहीं होता।</p><p><strong>चरण 2: गैब्रिएल संश्लेषण में अभिकर्मकों का क्रम</strong><br/>इस विधि के प्रथम पद में, थैलिमाइड को एथेनॉलिक पोटैशियम हाइड्रॉक्साइड से अभिकृत कराकर पोटैशियम थैलिमाइड (\(\mathrm{C}_6\mathrm{H}_4(\mathrm{CO})_2\mathrm{N}^-\\mathrm{K}^+\)) बनाया जाता है। यह थैलिमाइड ऋणायन नाभिकरागी के रूप में ऐल्किल हैलाइड के साथ \(\mathrm{S}_{\mathrm{N}}2\) प्रतिस्थापन करके N-ऐल्किलथैलिमाइड बनाता है। इसके क्षारीय जल-अपघटन अथवा हाइड्राज़ीन के साथ उपचार से शुद्ध प्राथमिक ऐमीन प्राप्त होती है।</p><p><strong>चरण 3: अंतिम निष्कर्ष</strong><br/>अतः गैब्रिएल संश्लेषण में नाइट्रोजन का मुख्य स्रोत पोटैशियम थैलिमाइड, \(\mathrm{C}_6\mathrm{H}_4(\mathrm{CO})_2\mathrm{N}^-\mathrm{K}^+\), होता है।</p>]]></text>
-  </generalfeedback>
-  <defaultgrade>4.0000000</defaultgrade>
-  <penalty>0.2500000</penalty>
-  <hidden>0</hidden>
-  <single>true</single>
-  <shuffleanswers>true</shuffleanswers>
-  <answernumbering>iii</answernumbering>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>Sodium azide, \(\mathrm{NaN}_3\)</p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>Sodium nitrite, \(\mathrm{NaNO}_2\)</p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>Potassium cyanide, KCN</p>]]></text>
-  </answer>
-  <answer fraction="100" format="html">
-    <text><![CDATA[<p>Potassium phthalimide, \(\mathrm{C_6H_4(CO)_2N^-K^+}\)</p>]]></text>
-  </answer>
-  <tags>
-    <tag><text>standard:neet_ug</text></tag>
-    <tag><text>lang:en</text></tag>
-    <tag><text>lang:hi</text></tag>
-    <tag><text>subject:chemistry</text></tag>
-    <tag><text>class:class_12</text></tag>
+    <tag><text>section:mcq_i</text></tag>
+    <tag><text>class:12</text></tag>
     <tag><text>chapter:amines</text></tag>
     <tag><text>typology:mcq</text></tag>
     <tag><text>difficulty:easy</text></tag>
-    <tag><text>blooms:remember</text></tag>
-    <tag><text>calculation:light</text></tag>
+    <tag><text>blooms:apply</text></tag>
     <tag><text>media:text</text></tag>
     <tag><text>multiconcept:false</text></tag>
   </tags>
 </question>
 
 <question type="multichoice">
-  <name>
-    <text>NEET_UG_CHEMISTRY_AMINES_MCQ_Q09 - Appropriate reactants for secondary amine preparation method</text>
-  </name>
-  <questiontext format="html">
-    <text><![CDATA[<p>Amongst the given set of reactants, the most appropriate for preparing \(2^{\circ}\) amine is</p><hr/><p>दिए गए अभिकारकों के समुच्चयों में से \(2^{\circ}\) ऐमीन बनाने के लिए सर्वाधिक उपयुक्त समुच्चय है:</p>]]></text>
-  </questiontext>
-  <generalfeedback format="html">
-    <text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>A secondary amine possesses two carbon groups attached to the nitrogen atom (\(\mathrm{R}-\mathrm{NH}-\mathrm{R'}\)). The chosen synthetic pathway should produce the secondary amine selectively without substantial contamination from competing primary/tertiary amines or alkene elimination side-products.</p><p><strong>Step 2: Evaluation of the Reaction Pathways</strong><br/>Analyzing each proposed route:<br/>- \(2^{\circ}\mathrm{R}-\mathrm{Br} + \mathrm{NH}_3\): Direct ammonolysis of secondary alkyl halides suffers from extensive E2 alkene elimination and further over-alkylation to yield a complex mixture.<br/>- \(2^{\circ}\mathrm{R}-\mathrm{Br} + \mathrm{NaCN}\) followed by \(\mathrm{H}_2/\mathrm{Pt}\): Nucleophilic displacement yields a nitrile, which on catalytic reduction produces a primary amine (\(\mathrm{R}-\mathrm{CH}_2\mathrm{NH}_2\)), not a secondary amine.<br/>- \(1^{\circ}\mathrm{R}-\mathrm{NH}_2 + \mathrm{RCHO}\) followed by \(\mathrm{H}_2/\mathrm{Pt}\): Condensation of a primary amine with an aldehyde selectively forms an imine (Schiff base, \(\mathrm{R}-\mathrm{N}=\mathrm{CH}-\mathrm{R'}\)), which is subsequently reduced by \(\mathrm{H}_2/\mathrm{Pt}\) to afford a clean secondary amine (\(\mathrm{R}-\mathrm{NH}-\mathrm{CH}_2\mathrm{R'}\)) via reductive amination.<br/>- \(1^{\circ}\mathrm{R}-\mathrm{Br} (2\,\mathrm{mol}) +\) potassium phthalimide: Gabriel synthesis produces only primary amines because potassium phthalimide contains only one replaceable acidic hydrogen atom on nitrogen and cannot be dialkylated.</p><p><strong>Step 3: Final Conclusion</strong><br/>Reductive amination of an aldehyde with a primary amine (\(1^{\circ}\mathrm{R}-\mathrm{NH}_2 + \mathrm{RCHO}\) followed by \(\mathrm{H}_2/\mathrm{Pt}\)) provides the most selective and appropriate route to prepare secondary amines.</p><hr/><p><strong>चरण 1: संकल्पनात्मक सिद्धांत</strong><br/>द्वितीयक ऐमीन में नाइट्रोजन परमाणु से दो कार्बन समूह जुड़े होते हैं (\(\mathrm{R}-\mathrm{NH}-\mathrm{R'}\))। एक उत्तम संश्लेषणात्मक विधि को बिना किसी विलोपन अथवा बहु-ऐल्किलीकरण के चयनात्मक रूप से द्वितीयक ऐमीन देना चाहिए।</p><p><strong>चरण 2: प्रस्तावित अभिक्रिया मार्गों का मूल्यांकन</strong><br/>प्रत्येक मार्ग का परीक्षण करने पर:<br/>- \(2^{\circ}\mathrm{R}-\mathrm{Br} + \mathrm{NH}_3\): द्वितीयक ऐल्किल हैलाइड के अमोनीअपघटन में E2 विलोपन द्वारा ऐल्कीन बनने की प्रबल संभावना रहती है तथा ऐमीनों का जटिल मिश्रण प्राप्त होता है।<br/>- \(2^{\circ}\mathrm{R}-\mathrm{Br} + \mathrm{NaCN}\) के पश्चात \(\mathrm{H}_2/\mathrm{Pt}\): यह नाइट्राइल बनाकर उसके अपचयन से प्राथमिक ऐमीन (\(\mathrm{R}-\mathrm{CH}_2\mathrm{NH}_2\)) देता है, द्वितीयक नहीं।<br/>- \(1^{\circ}\mathrm{R}-\mathrm{NH}_2 + \mathrm{RCHO}\) के पश्चात \(\mathrm{H}_2/\mathrm{Pt}\): प्राथमिक ऐमीन ऐल्डिहाइड के साथ संघनित होकर इमीन (शिफ क्षारक, \(\mathrm{R}-\mathrm{N}=\mathrm{CH}-\mathrm{R'}\)) बनाता है, जिसका \(\mathrm{H}_2/\mathrm{Pt}\) द्वारा अपचयन कराने पर शुद्ध द्वितीयक ऐमीन (\(\mathrm{R}-\mathrm{NH}-\mathrm{CH}_2\mathrm{R'}\)) प्राप्त होता है।<br/>- \(1^{\circ}\mathrm{R}-\mathrm{Br} (2\,\mathrm{mol}) +\) पोटैशियम थैलिमाइड: थैलिमाइड केवल मोनो-ऐल्किलीकृत होकर केवल प्राथमिक ऐमीन ही बना सकता है।</p><p><strong>चरण 3: अंतिम निष्कर्ष</strong><br/>प्राथमिक ऐमीन और ऐल्डिहाइड की संघनन अभिक्रिया के पश्चात \(\mathrm{H}_2/\mathrm{Pt}\) द्वारा अपचयन (अपचायक ऐमीनीकरण) द्वितीयक ऐमीन बनाने की सर्वाधिक उपयुक्त विधि है।</p>]]></text>
-  </generalfeedback>
+  <name><text>NEETUG_CHEMISTRY_MCQI_AMINES_MCQ_Q03 - Strongest base among given amines in aqueous medium</text></name>
+  <questiontext format="html"><text><![CDATA[<p>Amongst the following, the strongest base in aqueous medium is</p><hr/><p>निम्नलिखित में से जलीय माध्यम में प्रबलतम क्षारक है</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>The basic strength of amines in aqueous medium depends on a combination of the inductive (\(+I\)) effect of alkyl groups, solvation (hydration) of the resulting conjugate acid by hydrogen bonding with water, and steric hindrance.</p><p><strong>Step 2: Evaluation of Each Amine</strong><br/>For methyl-substituted aliphatic amines in aqueous solution, the basicity order is \(2^{\circ} > 1^{\circ} > 3^{\circ} > \mathrm{NH_3}\). Thus, dimethylamine, \((\mathrm{CH_3})_2\mathrm{NH}\), is a stronger base than methylamine, \(\mathrm{CH_3NH_2}\), because two methyl groups exert a greater \(+I\) effect and its conjugate acid still has two \(\mathrm{N-H}\) bonds for effective hydration. In \(\mathrm{NCCH_2NH_2}\), the strongly electron-withdrawing \(-\mathrm{CN}\) group (\(-I\) effect) decreases electron density on nitrogen, making it a much weaker base. In \(\mathrm{C_6H_5NHCH_3}\), the lone pair of nitrogen is delocalized into the benzene ring by resonance, which greatly reduces its basicity.</p><p><strong>Step 3: Final Conclusion</strong><br/>Therefore, \((\mathrm{CH_3})_2\mathrm{NH}\) is the strongest base in aqueous medium among the given compounds.</p><hr/><p><strong>चरण 1: अवधारणात्मक सिद्धांत</strong><br/>जलीय माध्यम में ऐमीनों की क्षारकीय प्रबलता ऐल्किल समूहों के प्रेरणिक (\(+I\)) प्रभाव, जल के साथ हाइड्रोजन आबंधन द्वारा बने संयुग्मी अम्ल के विलायकन (जलयोजन), और त्रिविम बाधा के संयोजन पर निर्भर करती है।</p><p><strong>चरण 2: प्रत्येक ऐमीन का मूल्यांकन</strong><br/>जलीय विलयन में मेथिल-प्रतिस्थापित ऐलिफैटिक ऐमीनों के लिए क्षारकता का क्रम \(2^{\circ} > 1^{\circ} > 3^{\circ} > \mathrm{NH_3}\) होता है। अतः, डाइमेथिलऐमीन, \((\mathrm{CH_3})_2\mathrm{NH}\), मेथिलऐमीन (\(\mathrm{CH_3NH_2}\)) से प्रबल क्षारक है क्योंकि दो मेथिल समूह अधिक \(+I\) प्रभाव डालते हैं और इसके संयुग्मी अम्ल में प्रभावी जलयोजन के लिए दो \(\mathrm{N-H}\) आबंध उपस्थित होते हैं। \(\mathrm{NCCH_2NH_2}\) में प्रबल इलेक्ट्रॉन-अपकर्षी \(-\mathrm{CN}\) समूह (\(-I\) प्रभाव) नाइट्रोजन पर इलेक्ट्रॉन घनत्व को कम कर देता है, जिससे यह बहुत दुर्बल क्षारक बन जाता है। \(\mathrm{C_6H_5NHCH_3}\) में नाइट्रोजन का एकाकी इलेक्ट्रॉन युगल अनुनाद द्वारा बेंजीन वलय में विस्थानीकृत हो जाता है, जिससे इसकी क्षारकता काफी कम हो जाती है।</p><p><strong>चरण 3: अंतिम निष्कर्ष</strong><br/>अतः, दिए गए यौगिकों में से \((\mathrm{CH_3})_2\mathrm{NH}\) जलीय माध्यम में प्रबलतम क्षारक है।</p>]]></text></generalfeedback>
   <defaultgrade>4.0000000</defaultgrade>
   <penalty>0.2500000</penalty>
   <hidden>0</hidden>
   <single>true</single>
   <shuffleanswers>true</shuffleanswers>
   <answernumbering>iii</answernumbering>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>\(2^{\circ}\mathrm{R} - \mathrm{Br} + \mathrm{NH}_{3}\)</p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>\(2^{\circ}\mathrm{R} - \mathrm{Br} + \mathrm{NaCN}\) followed by \(\mathrm{H}_2 / \mathrm{Pt}\)</p>]]></text>
-  </answer>
-  <answer fraction="100" format="html">
-    <text><![CDATA[<p>\(1^{\circ}\mathrm{R}-\mathrm{NH}_{2}+\mathrm{RCHO}\) followed by \(\mathrm{H}_{2} / \mathrm{Pt}\)</p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>\(1^{\circ}\mathrm{R}-\mathrm{Br}(2\mathrm{mol})+\) potassium phthalimide followed by \(\mathrm{H}_{3}\mathrm{O}^{+}/\) heat</p>]]></text>
-  </answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>\(\mathrm{CH_3NH_2}\)</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>\(\mathrm{NCCH_2NH_2}\)</p>]]></text></answer>
+  <answer fraction="100" format="html"><text><![CDATA[<p>\((\mathrm{CH_3})_2\mathrm{NH}\)</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>\(\mathrm{C_6H_5NHCH_3}\)</p>]]></text></answer>
   <tags>
     <tag><text>standard:neet_ug</text></tag>
     <tag><text>lang:en</text></tag>
     <tag><text>lang:hi</text></tag>
     <tag><text>subject:chemistry</text></tag>
-    <tag><text>class:class_12</text></tag>
+    <tag><text>section:mcq_i</text></tag>
+    <tag><text>class:12</text></tag>
     <tag><text>chapter:amines</text></tag>
     <tag><text>typology:mcq</text></tag>
-    <tag><text>difficulty:hard</text></tag>
-    <tag><text>blooms:apply</text></tag>
-    <tag><text>calculation:light</text></tag>
+    <tag><text>difficulty:medium</text></tag>
+    <tag><text>blooms:analyze</text></tag>
     <tag><text>media:text</text></tag>
     <tag><text>multiconcept:true</text></tag>
   </tags>
 </question>
 
 <question type="multichoice">
-  <name>
-    <text>NEET_UG_CHEMISTRY_AMINES_MCQ_Q10 - Reduction of amide to amine retaining carbons</text>
-  </name>
-  <questiontext format="html">
-    <text><![CDATA[<p>The best reagent for converting 2-phenylpropanamide into 2-phenylpropanamine is</p><hr/><p>2-फेनिलप्रोपेनेमाइड को 2-फेनिलप्रोपेनेमीन में परिवर्तित करने के लिए सर्वोत्तम अभिकर्मक है:</p>]]></text>
-  </questiontext>
-  <generalfeedback format="html">
-    <text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>The chemical transformation involves converting an amide group into an amine group while retaining the identical number of carbon atoms:
-\[\mathrm{C}_6\mathrm{H}_5\mathrm{CH}(\mathrm{CH}_3)\mathrm{CONH}_2 \longrightarrow \mathrm{C}_6\mathrm{H}_5\mathrm{CH}(\mathrm{CH}_3)\mathrm{CH}_2\mathrm{NH}_2\]
-Both the reactant and the product contain nine carbon atoms total (three in the aliphatic side chain).</p><p><strong>Step 2: Selection of Reagent</strong><br/>Evaluating the reagents:<br/>- Bromine in aqueous sodium hydroxide (\(\mathrm{Br}_2/\mathrm{NaOH}\)) promotes the Hoffmann bromamide degradation, which expels the carbonyl group as carbonate and produces 1-phenylethanamine (a degraded product with one fewer carbon atom).<br/>- Excess \(\mathrm{H}_2\) or iodine with red phosphorus do not selectively reduce amides under mild conditions.<br/>- Lithium aluminium hydride (\(\mathrm{LiAlH}_4\)) in dry ether followed by water is a potent and selective hydride donor that cleanly reduces the amide carbonyl group (\(-\mathrm{CONH}_2\)) to a methylene amine (\(-\mathrm{CH}_2\mathrm{NH}_2\)) without altering the carbon chain length.</p><p><strong>Step 3: Final Conclusion</strong><br/>Lithium aluminium hydride (\(\mathrm{LiAlH}_4\)) in ether provides the required reduction without loss of carbon atoms.</p><hr/><p><strong>चरण 1: संकल्पनात्मक सिद्धांत</strong><br/>इस रूपांतरण में एमाइड समूह को समान कार्बन संख्या बनाए रखते हुए ऐमीन समूह में परिवर्तित करना शामिल है:
-\[\mathrm{C}_6\mathrm{H}_5\mathrm{CH}(\mathrm{CH}_3)\mathrm{CONH}_2 \longrightarrow \mathrm{C}_6\mathrm{H}_5\mathrm{CH}(\mathrm{CH}_3)\mathrm{CH}_2\mathrm{NH}_2\]
-क्रियाधार एवं उत्पाद दोनों में नौ कार्बन परमाणु उपस्थित हैं।</p><p><strong>चरण 2: अभिकर्मकों का मूल्यांकन</strong><br/>अभिकर्मकों की तुलना करने पर:<br/>- जलीय \(\mathrm{NaOH}\) में \(\mathrm{Br}_2\) हॉफमान ब्रोमेमाइड निम्नीकरण अभिक्रिया करता है, जिससे एक कम कार्बन वाली 1-फेनिलएथेनेमीन प्राप्त होती है।<br/>- आधिक्य \(\mathrm{H}_2\) या लाल फास्फोरस के साथ आयोडीन एमाइडों का ऐसा चयनात्मक अपचयन नहीं करते हैं।<br/>- ईथर में लीथियम ऐलुमिनियम हाइड्राइड (\(\mathrm{LiAlH}_4\)) एमाइड के कार्बोनिल समूह (\(-\mathrm{CONH}_2\)) को सीधे मेथिलीन ऐमीन समूह (\(-\mathrm{CH}_2\mathrm{NH}_2\)) में अपचयित कर देता है, जिससे कार्बन श्रृंखला की लंबाई अपरिवर्तित रहती है।</p><p><strong>चरण 3: अंतिम निष्कर्ष</strong><br/>कार्बन परमाणुओं की संख्या बदले बिना 2-फेनिलप्रोपेनेमाइड को 2-फेनिलप्रोपेनेमीन में बदलने के लिए ईथर में \(\mathrm{LiAlH}_4\) सर्वोत्तम अभिकर्मक है।</p>]]></text>
-  </generalfeedback>
+  <name><text>NEETUG_CHEMISTRY_MCQI_AMINES_MCQ_Q04 - Weakest Bronsted base among aromatic and aliphatic amines</text></name>
+  <questiontext format="html"><text><![CDATA[<p>Which of the following is the weakest Brönsted base?</p><hr/><p>निम्नलिखित में से कौन-सा दुर्बलतम ब्रॉन्स्टेड क्षारक है?</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>A Brönsted base is a proton (\(\mathrm{H^+}\)) acceptor. The basicity of an amine depends on the availability of the lone pair of electrons on the nitrogen atom for donation to a proton.</p><p><strong>Step 2: Evaluation of Each Structure</strong><br/>Piperidine (a cyclic secondary aliphatic amine), cyclohexylamine (a primary alicyclic amine), and methylamine (\(\mathrm{CH_3NH_2}\)) are all aliphatic amines in which the lone pair of electrons on the nitrogen atom is localized on nitrogen and is readily available for protonation. In contrast, aniline (\(\mathrm{C_6H_5NH_2}\)) is an aromatic amine where the nitrogen lone pair participates in resonance with the benzene ring, delocalizing the electron density over the ortho and para positions and making the lone pair much less available to accept a proton.</p><p><strong>Step 3: Final Conclusion</strong><br/>Therefore, aniline is the weakest Brönsted base among the given compounds.</p><hr/><p><strong>चरण 1: अवधारणात्मक सिद्धांत</strong><br/>ब्रॉन्स्टेड क्षारक एक प्रोटॉन (\(\mathrm{H^+}\)) ग्राही होता है। किसी ऐमीन की क्षारकता नाइट्रोजन परमाणु पर उपस्थित एकाकी इलेक्ट्रॉन युगल की प्रोटॉन को दान करने की उपलब्धता पर निर्भर करती है।</p><p><strong>चरण 2: प्रत्येक संरचना का मूल्यांकन</strong><br/>पिपेरिडीन (एक चक्रीय द्वितीयक ऐलिफैटिक ऐमीन), साइक्लोहेक्सिलऐमीन (एक प्राथमिक ऐलिचक्रीय ऐमीन), और मेथिलऐमीन (\(\mathrm{CH_3NH_2}\)) सभी ऐलिफैटिक ऐमीन हैं जिनमें नाइट्रोजन परमाणु का एकाकी इलेक्ट्रॉन युगल नाइट्रोजन पर स्थानीयकृत रहता है और प्रोटॉनन के लिए आसानी से उपलब्ध होता है। इसके विपरीत, ऐनिलीन (\(\mathrm{C_6H_5NH_2}\)) एक ऐरोमैटिक ऐमीन है जहाँ नाइट्रोजन का एकाकी इलेक्ट्रॉन युगल बेंजीन वलय के साथ अनुनाद में भाग लेता है, जिससे इलेक्ट्रॉन घनत्व ऑर्थो और पैरा स्थितियों पर विस्थानीकृत हो जाता है और प्रोटॉन ग्रहण करने के लिए इसकी उपलब्धता बहुत कम हो जाती है।</p><p><strong>चरण 3: अंतिम निष्कर्ष</strong><br/>अतः, दिए गए यौगिकों में से ऐनिलीन दुर्बलतम ब्रॉन्स्टेड क्षारक है।</p>]]></text></generalfeedback>
   <defaultgrade>4.0000000</defaultgrade>
   <penalty>0.2500000</penalty>
   <hidden>0</hidden>
   <single>true</single>
   <shuffleanswers>true</shuffleanswers>
   <answernumbering>iii</answernumbering>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>excess \(\mathrm{H}_{2}\)</p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>\(\mathrm{Br}_2\) in aqueous NaOH</p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>iodine in the presence of red phosphorus</p>]]></text>
-  </answer>
-  <answer fraction="100" format="html">
-    <text><![CDATA[<p>\(\mathrm{LiAlH_4}\) in ether</p>]]></text>
-  </answer>
+  <answer fraction="100" format="html"><text><![CDATA[<p><img src="@@PLUGINFILE@@/img-0.jpeg" alt="Aniline" /></p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p><img src="@@PLUGINFILE@@/img-1.jpeg" alt="Piperidine" /></p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p><img src="@@PLUGINFILE@@/img-2.jpeg" alt="Cyclohexylamine" /></p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>\(\mathrm{CH_3NH_2}\)</p>]]></text></answer>
   <tags>
     <tag><text>standard:neet_ug</text></tag>
     <tag><text>lang:en</text></tag>
     <tag><text>lang:hi</text></tag>
     <tag><text>subject:chemistry</text></tag>
-    <tag><text>class:class_12</text></tag>
+    <tag><text>section:mcq_i</text></tag>
+    <tag><text>class:12</text></tag>
+    <tag><text>chapter:amines</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:easy</text></tag>
+    <tag><text>blooms:understand</text></tag>
+    <tag><text>media:diagram</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+
+<question type="multichoice">
+  <name><text>NEETUG_CHEMISTRY_MCQI_AMINES_MCQ_Q05 - Best alkyl halide for SN1 alkylation of benzylamine</text></name>
+  <questiontext format="html"><text><![CDATA[<p>Benzylamine may be alkylated as shown in the following equation :</p><p>\[\mathrm{C_6H_5CH_2NH_2 + R - X \longrightarrow C_6H_5CH_2NHR}\]</p><p>Which of the following alkylhalides is best suited for this reaction through \(\mathrm{S_N1}\) mechanism?</p><hr/><p>बेन्जिलऐमीन का ऐल्किलन निम्नलिखित समीकरण के अनुसार किया जा सकता है:</p><p>\[\mathrm{C_6H_5CH_2NH_2 + R - X \longrightarrow C_6H_5CH_2NHR}\]</p><p>निम्नलिखित में से कौन-सा ऐल्किल हैलाइड \(\mathrm{S_N1}\) क्रियाविधि द्वारा इस अभिक्रिया के लिए सर्वाधिक उपयुक्त है?</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>The \(\mathrm{S_N1}\) (unimolecular nucleophilic substitution) mechanism proceeds via the formation of a carbocation intermediate in the rate-determining step. Therefore, the rate of an \(\mathrm{S_N1}\) reaction depends directly on the stability of the carbocation formed upon departure of the leaving group.</p><p><strong>Step 2: Evaluation of Each Alkyl Halide</strong><br/>\(\mathrm{CH_3Br}\) and \(\mathrm{C_2H_5Br}\) would form unstable methyl (\(\mathrm{CH_3^+}\)) and primary ethyl (\(\mathrm{C_2H_5^+}\)) carbocations, respectively, so they react by \(\mathrm{S_N2}\) rather than \(\mathrm{S_N1}\). \(\mathrm{C_6H_5Br}\) is an aryl halide where the \(\mathrm{C-Br}\) bond has partial double-bond character due to resonance and the phenyl cation is extremely unstable, so it does not undergo nucleophilic substitution under normal conditions. Benzyl bromide (\(\mathrm{C_6H_5CH_2Br}\)) forms the benzyl carbocation (\(\mathrm{C_6H_5CH_2^+}\)), which is strongly stabilized by resonance with the benzene ring.</p><p><strong>Step 3: Final Conclusion</strong><br/>Hence, \(\mathrm{C_6H_5CH_2Br}\) is best suited for this alkylation via the \(\mathrm{S_N1}\) mechanism.</p><hr/><p><strong>चरण 1: अवधारणात्मक सिद्धांत</strong><br/>\(\mathrm{S_N1}\) (एकाण्विक नाभिकरागी प्रतिस्थापन) क्रियाविधि वेग-निर्धारक पद में कार्बधनायन मध्यवर्ती के निर्माण के माध्यम से होती है। अतः, \(\mathrm{S_N1}\) अभिक्रिया की दर अवशिष्ट समूह के निकलने पर बनने वाले कार्बधनायन के स्थायित्व पर सीधे निर्भर करती है।</p><p><strong>चरण 2: प्रत्येक ऐल्किल हैलाइड का मूल्यांकन</strong><br/>\(\mathrm{CH_3Br}\) और \(\mathrm{C_2H_5Br}\) क्रमशः अस्थायी मेथिल (\(\mathrm{CH_3^+}\)) और प्राथमिक एथिल (\(\mathrm{C_2H_5^+}\)) कार्बधनायन बनाते हैं, इसलिए वे \(\mathrm{S_N1}\) के बजाय \(\mathrm{S_N2}\) क्रियाविधि द्वारा अभिक्रिया करते हैं। \(\mathrm{C_6H_5Br}\) एक ऐरिल हैलाइड है जिसमें अनुनाद के कारण \(\mathrm{C-Br}\) आबंध में आंशिक द्वि-आबंध गुण होता है और फेनिल धनायन अत्यंत अस्थायी होता है, अतः यह सामान्य परिस्थितियों में नाभिकरागी प्रतिस्थापन नहीं दर्शाता। बेन्जिल ब्रोमाइड (\(\mathrm{C_6H_5CH_2Br}\)) बेन्जिल कार्बधनायन (\(\mathrm{C_6H_5CH_2^+}\)) बनाता है, जो बेंजीन वलय के साथ अनुनाद द्वारा अत्यधिक स्थायीकृत होता है।</p><p><strong>चरण 3: अंतिम निष्कर्ष</strong><br/>अतः, \(\mathrm{S_N1}\) क्रियाविधि द्वारा इस ऐल्किलन के लिए \(\mathrm{C_6H_5CH_2Br}\) सर्वाधिक उपयुक्त है।</p>]]></text></generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>iii</answernumbering>
+  <answer fraction="0" format="html"><text><![CDATA[<p>\(\mathrm{CH_3Br}\)</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>\(\mathrm{C_6H_5Br}\)</p>]]></text></answer>
+  <answer fraction="100" format="html"><text><![CDATA[<p>\(\mathrm{C_6H_5CH_2Br}\)</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>\(\mathrm{C_2H_5Br}\)</p>]]></text></answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:hi</text></tag>
+    <tag><text>subject:chemistry</text></tag>
+    <tag><text>section:mcq_i</text></tag>
+    <tag><text>class:12</text></tag>
     <tag><text>chapter:amines</text></tag>
     <tag><text>typology:mcq</text></tag>
     <tag><text>difficulty:medium</text></tag>
     <tag><text>blooms:apply</text></tag>
-    <tag><text>calculation:light</text></tag>
+    <tag><text>media:equation</text></tag>
+    <tag><text>multiconcept:true</text></tag>
+  </tags>
+</question>
+
+<question type="multichoice">
+  <name><text>NEETUG_CHEMISTRY_MCQI_AMINES_MCQ_Q06 - Reagent unsuitable for reducing aryl nitro compound to amine</text></name>
+  <questiontext format="html"><text><![CDATA[<p>Which of the following reagents would <strong>not</strong> be a good choice for reducing an aryl nitro compound to an amine?</p><hr/><p>ऐरिल नाइट्रो यौगिक को ऐमीन में अपचयित करने के लिए निम्नलिखित में से कौन-सा अभिकर्मक उपयुक्त विकल्प <strong>नहीं</strong> होगा?</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>Aromatic nitro compounds (\(\mathrm{ArNO_2}\)) are cleanly reduced to aromatic primary amines (\(\mathrm{ArNH_2}\)) using catalytic hydrogenation (\(\mathrm{H_2/Pt}\), \(\mathrm{Pd}\), or \(\mathrm{Ni}\)) or active metals in acidic medium (\(\mathrm{Fe/HCl}\) or \(\mathrm{Sn/HCl}\)).</p><p><strong>Step 2: Evaluation of Reagents</strong><br/>Using \(\mathrm{H_2}\) (excess)/Pt, \(\mathrm{Fe}\) and \(\mathrm{HCl}\), or \(\mathrm{Sn}\) and \(\mathrm{HCl}\) converts \(\mathrm{ArNO_2}\) smoothly into \(\mathrm{ArNH_2}\). However, \(\mathrm{LiAlH_4}\) in ether reduces aromatic nitro compounds to azo compounds (\(\mathrm{Ar-N=N-Ar}\)) instead of primary amines (unlike aliphatic nitro compounds, which \(\mathrm{LiAlH_4}\) reduces to primary amines).</p><p><strong>Step 3: Final Conclusion</strong><br/>Therefore, \(\mathrm{LiAlH_4}\) in ether is not a good choice for reducing an aryl nitro compound to an amine.</p><hr/><p><strong>चरण 1: अवधारणात्मक सिद्धांत</strong><br/>ऐरोमैटिक नाइट्रो यौगिकों (\(\mathrm{ArNO_2}\)) को उत्प्रेरकीय हाइड्रोजनीकरण (\(\mathrm{H_2/Pt}\), \(\mathrm{Pd}\), या \(\mathrm{Ni}\)) अथवा अम्लीय माध्यम में सक्रिय धातुओं (\(\mathrm{Fe/HCl}\) या \(\mathrm{Sn/HCl}\)) का उपयोग करके स्वच्छतापूर्वक ऐरोमैटिक प्राथमिक ऐमीनों (\(\mathrm{ArNH_2}\)) में अपचयित किया जाता है।</p><p><strong>चरण 2: अभिकर्मकों का मूल्यांकन</strong><br/>\(\mathrm{H_2}\) (आधिक्य)/Pt, \(\mathrm{Fe}\) और \(\mathrm{HCl}\), या \(\mathrm{Sn}\) और \(\mathrm{HCl}\) का उपयोग करने पर \(\mathrm{ArNO_2}\) सुगमता से \(\mathrm{ArNH_2}\) में परिवर्तित हो जाता है। तथापि, ईथर में \(\mathrm{LiAlH_4}\) ऐरोमैटिक नाइट्रो यौगिकों को प्राथमिक ऐमीनों के बजाय ऐज़ो यौगिकों (\(\mathrm{Ar-N=N-Ar}\)) में अपचयित करता है (जबकि ऐलिफैटिक नाइट्रो यौगिकों को \(\mathrm{LiAlH_4}\) प्राथमिक ऐमीनों में अपचयित करता है)।</p><p><strong>चरण 3: अंतिम निष्कर्ष</strong><br/>अतः, ईथर में \(\mathrm{LiAlH_4}\) ऐरिल नाइट्रो यौगिक को ऐमीन में अपचयित करने के लिए एक अच्छा विकल्प नहीं है।</p>]]></text></generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>iii</answernumbering>
+  <answer fraction="0" format="html"><text><![CDATA[<p>\(\mathrm{H_2}\) (excess)/Pt</p>]]></text></answer>
+  <answer fraction="100" format="html"><text><![CDATA[<p>\(\mathrm{LiAlH_4}\) in ether</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>Fe and HCl</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>Sn and HCl</p>]]></text></answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:hi</text></tag>
+    <tag><text>subject:chemistry</text></tag>
+    <tag><text>section:mcq_i</text></tag>
+    <tag><text>class:12</text></tag>
+    <tag><text>chapter:amines</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:medium</text></tag>
+    <tag><text>blooms:remember</text></tag>
     <tag><text>media:text</text></tag>
     <tag><text>multiconcept:false</text></tag>
   </tags>
 </question>
 
 <question type="multichoice">
-  <name>
-    <text>NEET_UG_CHEMISTRY_AMINES_MCQ_Q11 - Hoffmann bromamide degradation of phenyl substituted amide</text>
-  </name>
-  <questiontext format="html">
-    <text><![CDATA[<p>The best reagent for converting, 2-phenylpropanamide into 1-phenylethanamine is</p><hr/><p>2-फेनिलप्रोपेनेमाइड को 1-फेनिलएथेनेमीन में परिवर्तित करने के लिए सर्वोत्तम अभिकर्मक है:</p>]]></text>
-  </questiontext>
-  <generalfeedback format="html">
-    <text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>The chemical equation for the conversion is:
-\[\mathrm{C}_6\mathrm{H}_5\mathrm{CH}(\mathrm{CH}_3)\mathrm{CONH}_2 \longrightarrow \mathrm{C}_6\mathrm{H}_5\mathrm{CH}(\mathrm{CH}_3)\mathrm{NH}_2\]
-The reactant has 3 aliphatic carbons and the product has 2 aliphatic carbons, indicating degradation with the loss of the carbonyl carbon atom.</p><p><strong>Step 2: Evaluation of Reagents</strong><br/>Evaluating the options:<br/>- \(\mathrm{LiAlH}_4/\mathrm{ether}\) reduces the amide without carbon loss, producing 2-phenylpropanamine.<br/>- \(\mathrm{NaBH}_4/\mathrm{methanol}\) does not reduce amides.<br/>- \(\mathrm{NaOH}/\mathrm{Br}_2\) is the reagent mixture for the Hoffmann bromamide degradation reaction. It converts primary amides into primary amines containing one carbon atom less than the starting amide via an isocyanate intermediate and subsequent decarboxylation.</p><p><strong>Step 3: Final Conclusion</strong><br/>The degradation of 2-phenylpropanamide to 1-phenylethanamine is achieved using sodium hydroxide and bromine (\(\mathrm{NaOH}/\mathrm{Br}_2\)).</p><hr/><p><strong>चरण 1: संकल्पनात्मक सिद्धांत</strong><br/>इस रूपांतरण का रासायनिक समीकरण निम्नलिखित है:
-\[\mathrm{C}_6\mathrm{H}_5\mathrm{CH}(\mathrm{CH}_3)\mathrm{CONH}_2 \longrightarrow \mathrm{C}_6\mathrm{H}_5\mathrm{CH}(\mathrm{CH}_3)\mathrm{NH}_2\]
-क्रियाधार में 3 ऐलिफ़ैटिक कार्बन हैं जबकि उत्पाद में 2 ऐलिफ़ैटिक कार्बन हैं, जो कार्बोनिल कार्बन के निष्कासन (निम्नीकरण) को दर्शाता है।</p><p><strong>चरण 2: अभिकर्मकों का मूल्यांकन</strong><br/>विकल्पों का परीक्षण करने पर:<br/>- ईथर में \(\mathrm{LiAlH}_4\) बिना कार्बन हानि के अपचयन कर 2-फेनिलप्रोपेनेमीन देता है।<br/>- मेथनॉल में \(\mathrm{NaBH}_4\) एमाइडों को अपचयित नहीं कर पाता।<br/>- \(\mathrm{NaOH}/\mathrm{Br}_2\) हॉफमान ब्रोमेमाइड निम्नीकरण अभिक्रिया का अभिकर्मक है। यह प्राथमिक एमाइड को एक कम कार्बन वाली प्राथमिक ऐमीन में रूपांतरित करता है।</p><p><strong>चरण 3: अंतिम निष्कर्ष</strong><br/>2-फेनिलप्रोपेनेमाइड को 1-फेनिलएथेनेमीन में बदलने के लिए \(\mathrm{NaOH}/\mathrm{Br}_2\) सर्वोत्तम अभिकर्मक है।</p>]]></text>
-  </generalfeedback>
+  <name><text>NEETUG_CHEMISTRY_MCQI_AMINES_MCQ_Q07 - Reagent for preparing primary amine with carbon chain extension</text></name>
+  <questiontext format="html"><text><![CDATA[<p>In order to prepare a \(1^{\circ}\) amine from an alkyl halide with simultaneous addition of one \(\mathrm{CH_2}\) group in the carbon chain, the reagent used as source of nitrogen is</p><hr/><p>कार्बन शृंखला में एक \(\mathrm{CH_2}\) समूह के साथ-साथ योग द्वारा ऐल्किल हैलाइड से \(1^{\circ}\) ऐमीन बनाने के लिए नाइट्रोजन स्रोत के रूप में प्रयुक्त अभिकर्मक है</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>To prepare a primary amine containing one more carbon atom (one extra \(\mathrm{CH_2}\) group) than the starting alkyl halide (\(\mathrm{R-X}\)), a carbon-nitrogen nucleophile must be introduced so that the carbon chain ascends by one carbon atom.</p><p><strong>Step 2: Reaction Analysis</strong><br/>When an alkyl halide (\(\mathrm{R-X}\)) reacts with potassium cyanide (\(\mathrm{KCN}\)), it undergoes nucleophilic substitution to form an alkyl nitrile (\(\mathrm{R-C\equiv N}\)). Subsequent reduction of the nitrile with \(\mathrm{LiAlH_4}\) or \(\mathrm{H_2/Ni}\) (or \(\mathrm{Na(Hg)/C_2H_5OH}\)) yields a primary amine \(\mathrm{R-CH_2NH_2}\), which has one additional \(\mathrm{CH_2}\) group compared to \(\mathrm{R-X}\). In contrast, \(\mathrm{NaNH_2}\), \(\mathrm{NaN_3}\), and potassium phthalimide introduce nitrogen without adding a carbon atom to the chain.</p><p><strong>Step 3: Final Conclusion</strong><br/>Therefore, potassium cyanide (\(\mathrm{KCN}\)) is the reagent used as the source of nitrogen.</p><hr/><p><strong>चरण 1: अवधारणात्मक सिद्धांत</strong><br/>प्रारंभिक ऐल्किल हैलाइड (\(\mathrm{R-X}\)) की तुलना में एक अधिक कार्बन परमाणु (एक अतिरिक्त \(\mathrm{CH_2}\) समूह) युक्त प्राथमिक ऐमीन बनाने के लिए, एक कार्बन-नाइट्रोजन नाभिकरागी प्रविष्ट कराया जाना चाहिए जिससे कार्बन शृंखला एक कार्बन परमाणु से बढ़ जाए।</p><p><strong>चरण 2: अभिक्रिया विश्लेषण</strong><br/>जब कोई ऐल्किल हैलाइड (\(\mathrm{R-X}\)) पोटैशियम सायनाइड (\(\mathrm{KCN}\)) के साथ अभिक्रिया करता है, तो यह नाभिकरागी प्रतिस्थापन द्वारा ऐल्किल नाइट्राइल (\(\mathrm{R-C\equiv N}\)) बनाता है। नाइट्राइल का \(\mathrm{LiAlH_4}\) या \(\mathrm{H_2/Ni}\) (अथवा \(\mathrm{Na(Hg)/C_2H_5OH}\)) के साथ अपचयन करने पर प्राथमिक ऐमीन \(\mathrm{R-CH_2NH_2}\) प्राप्त होता है, जिसमें \(\mathrm{R-X}\) की तुलना में एक अतिरिक्त \(\mathrm{CH_2}\) समूह होता है। इसके विपरीत, \(\mathrm{NaNH_2}\), \(\mathrm{NaN_3}\), और पोटैशियम थैलिमाइड शृंखला में कोई कार्बन परमाणु जोड़े बिना ही नाइट्रोजन प्रविष्ट कराते हैं।</p><p><strong>चरण 3: अंतिम निष्कर्ष</strong><br/>अतः, नाइट्रोजन स्रोत के रूप में प्रयुक्त अभिकर्मक पोटैशियम सायनाइड (\(\mathrm{KCN}\)) है।</p>]]></text></generalfeedback>
   <defaultgrade>4.0000000</defaultgrade>
   <penalty>0.2500000</penalty>
   <hidden>0</hidden>
   <single>true</single>
   <shuffleanswers>true</shuffleanswers>
   <answernumbering>iii</answernumbering>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>excess \(\mathrm{H}_{2} / \mathrm{Pt}\)</p>]]></text>
-  </answer>
-  <answer fraction="100" format="html">
-    <text><![CDATA[<p>\(\mathrm{NaOH} / \mathrm{Br}_2\)</p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>\(\mathrm{NaBH}_4/\) methanol</p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>\(\mathrm{LiAlH_4 / ether}\)</p>]]></text>
-  </answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>Sodium amide, \(\mathrm{NaNH_2}\)</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>Sodium azide, \(\mathrm{NaN_3}\)</p>]]></text></answer>
+  <answer fraction="100" format="html"><text><![CDATA[<p>Potassium cyanide, KCN</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>Potassium phthalimide, \(\mathrm{C_6H_4(CO)_2N^-K^+}\)</p>]]></text></answer>
   <tags>
     <tag><text>standard:neet_ug</text></tag>
     <tag><text>lang:en</text></tag>
     <tag><text>lang:hi</text></tag>
     <tag><text>subject:chemistry</text></tag>
-    <tag><text>class:class_12</text></tag>
+    <tag><text>section:mcq_i</text></tag>
+    <tag><text>class:12</text></tag>
     <tag><text>chapter:amines</text></tag>
     <tag><text>typology:mcq</text></tag>
-    <tag><text>difficulty:medium</text></tag>
+    <tag><text>difficulty:easy</text></tag>
     <tag><text>blooms:apply</text></tag>
-    <tag><text>calculation:light</text></tag>
     <tag><text>media:text</text></tag>
     <tag><text>multiconcept:false</text></tag>
   </tags>
 </question>
 
 <question type="multichoice">
-  <name>
-    <text>NEET_UG_CHEMISTRY_AMINES_MCQ_Q12 - Functional group showing Hoffmann bromamide degradation reaction</text>
-  </name>
-  <questiontext format="html">
-    <text><![CDATA[<p>Hoffmann Bromamide Degradation reaction is shown by</p><hr/><p>हॉफमान ब्रोमेमाइड निम्नीकरण अभिक्रिया किसके द्वारा दर्शायी जाती है?</p>]]></text>
-  </questiontext>
-  <generalfeedback format="html">
-    <text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>The Hoffmann bromamide degradation reaction is a signature reaction shown exclusively by primary amides (containing the \(-\mathrm{CONH}_2\) group). Treatment of a primary amide with bromine in an aqueous or ethanolic solution of sodium hydroxide yields a primary amine having one carbon less than the parent amide.</p><p><strong>Step 2: Evaluation of Functional Groups</strong><br/>Examining the given functional representations:<br/>- \(\mathrm{ArNH}_2\) is an aromatic primary amine; it lacks a carbonyl group and cannot undergo bromamide rearrangement.<br/>- \(\mathrm{ArCONH}_2\) is a primary aromatic amide, possessing the intact carboxamide functional group required for Hoffmann degradation.<br/>- \(\mathrm{ArNO}_2\) is an aromatic nitro compound, which does not undergo this reaction.<br/>- \(\mathrm{ArCH}_2\mathrm{NH}_2\) is a primary arylaliphatic amine, not an amide.</p><p><strong>Step 3: Final Conclusion</strong><br/>Primary carboxamides, symbolized by \(\mathrm{ArCONH}_2\), undergo the Hoffmann bromamide degradation reaction.</p><hr/><p><strong>चरण 1: संकल्पनात्मक सिद्धांत</strong><br/>हॉफमान ब्रोमेमाइड निम्नीकरण अभिक्रिया केवल प्राथमिक एमाइडों (जिनमें \(-\mathrm{CONH}_2\) समूह उपस्थित होता है) द्वारा दर्शायी जाती है। प्राथमिक एमाइड को सोडियम हाइड्रॉक्साइड के जलीय या ऐल्कोहॉली विलयन में ब्रोमीन के साथ अभिकृत करने पर एक कार्बन कम वाली प्राथमिक ऐमीन प्राप्त होती है।</p><p><strong>चरण 2: क्रियात्मक समूहों का मूल्यांकन</strong><br/>दिए गए समूहों का परीक्षण करने पर:<br/>- \(\mathrm{ArNH}_2\) एक ऐरोमैटिक प्राथमिक ऐमीन है, जिसमें कार्बोनिल समूह नहीं होता।<br/>- \(\mathrm{ArCONH}_2\) एक प्राथमिक ऐरोमैटिक एमाइड है, जिसमें ब्रोमेमाइड निम्नीकरण के लिए आवश्यक प्राथमिक एमाइड समूह उपस्थित है।<br/>- \(\mathrm{ArNO}_2\) एक नाइट्रो यौगिक है जो यह अभिक्रिया नहीं देता।<br/>- \(\mathrm{ArCH}_2\mathrm{NH}_2\) एक प्राथमिक ऐमीन है, एमाइड नहीं।</p><p><strong>चरण 3: अंतिम निष्कर्ष</strong><br/>हॉफमान ब्रोमेमाइड निम्नीकरण अभिक्रिया प्राथमिक ऐरोमैटिक एमाइड, \(\mathrm{ArCONH}_2\), द्वारा दर्शायी जाती है।</p>]]></text>
-  </generalfeedback>
+  <name><text>NEETUG_CHEMISTRY_MCQI_AMINES_MCQ_Q08 - Source of nitrogen in Gabriel phthalimide synthesis</text></name>
+  <questiontext format="html"><text><![CDATA[<p>The source of nitrogen in Gabriel synthesis of amines is</p><hr/><p>ऐमीनों के गैब्रिएल संश्लेषण में नाइट्रोजन का स्रोत है</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>Gabriel phthalimide synthesis is a standard method for preparing pure aliphatic primary (\(1^{\circ}\)) amines from alkyl halides.</p><p><strong>Step 2: Reaction Mechanism</strong><br/>In this synthesis, phthalimide is treated with ethanolic potassium hydroxide (\(\mathrm{KOH}\)) to form potassium phthalimide, \(\mathrm{C_6H_4(CO)_2N^-K^+}\). The phthalimide anion acts as a nucleophile and reacts with an alkyl halide (\(\mathrm{R-X}\)) to give N-alkylphthalimide. Subsequent alkaline hydrolysis yields the primary amine (\(\mathrm{R-NH_2}\)), where the nitrogen atom originates from potassium phthalimide.</p><p><strong>Step 3: Final Conclusion</strong><br/>Therefore, the source of nitrogen in Gabriel synthesis of amines is potassium phthalimide, \(\mathrm{C_6H_4(CO)_2N^-K^+}\).</p><hr/><p><strong>चरण 1: अवधारणात्मक सिद्धांत</strong><br/>गैब्रिएल थैलिमाइड संश्लेषण ऐल्किल हैलाइडों से शुद्ध ऐलिफैटिक प्राथमिक (\(1^{\circ}\)) ऐमीन बनाने की एक मानक विधि है।</p><p><strong>चरण 2: अभिक्रिया क्रियाविधि</strong><br/>इस संश्लेषण में, थैलिमाइड को एथेनॉलिक पोटैशियम हाइड्रॉक्साइड (\(\mathrm{KOH}\)) के साथ अभिकृत करके पोटैशियम थैलिमाइड, \(\mathrm{C_6H_4(CO)_2N^-K^+}\), बनाया जाता है। थैलिमाइड ऋणायन नाभिकरागी के रूप में कार्य करता है और ऐल्किल हैलाइड (\(\mathrm{R-X}\)) के साथ अभिक्रिया करके N-ऐल्किलथैलिमाइड देता है। इसके पश्चात क्षारीय जल-अपघटन से प्राथमिक ऐमीन (\(\mathrm{R-NH_2}\)) प्राप्त होता है, जिसमें नाइट्रोजन परमाणु पोटैशियम थैलिमाइड से आता है।</p><p><strong>चरण 3: अंतिम निष्कर्ष</strong><br/>अतः, ऐमीनों के गैब्रिएल संश्लेषण में नाइट्रोजन का स्रोत पोटैशियम थैलिमाइड, \(\mathrm{C_6H_4(CO)_2N^-K^+}\) है।</p>]]></text></generalfeedback>
   <defaultgrade>4.0000000</defaultgrade>
   <penalty>0.2500000</penalty>
   <hidden>0</hidden>
   <single>true</single>
   <shuffleanswers>true</shuffleanswers>
   <answernumbering>iii</answernumbering>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>\(\mathrm{ArNH}_2\)</p>]]></text>
-  </answer>
-  <answer fraction="100" format="html">
-    <text><![CDATA[<p>\(\mathrm{ArCONH}_2\)</p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>\(\mathrm{ArNO}_2\)</p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>\(\mathrm{ArCH}_2\mathrm{NH}_2\)</p>]]></text>
-  </answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>Sodium azide, \(\mathrm{NaN_3}\)</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>Sodium nitrite, \(\mathrm{NaNO_2}\)</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>Potassium cyanide, KCN</p>]]></text></answer>
+  <answer fraction="100" format="html"><text><![CDATA[<p>Potassium phthalimide, \(\mathrm{C_6H_4(CO)_2N^-K^+}\)</p>]]></text></answer>
   <tags>
     <tag><text>standard:neet_ug</text></tag>
     <tag><text>lang:en</text></tag>
     <tag><text>lang:hi</text></tag>
     <tag><text>subject:chemistry</text></tag>
-    <tag><text>class:class_12</text></tag>
+    <tag><text>section:mcq_i</text></tag>
+    <tag><text>class:12</text></tag>
     <tag><text>chapter:amines</text></tag>
     <tag><text>typology:mcq</text></tag>
     <tag><text>difficulty:easy</text></tag>
     <tag><text>blooms:remember</text></tag>
-    <tag><text>calculation:light</text></tag>
-    <tag><text>media:equation</text></tag>
+    <tag><text>media:text</text></tag>
     <tag><text>multiconcept:false</text></tag>
   </tags>
 </question>
 
 <question type="multichoice">
-  <name>
-    <text>NEET_UG_CHEMISTRY_AMINES_MCQ_Q13 - Correct increasing order of substituted aniline basicity</text>
-  </name>
-  <questiontext format="html">
-    <text><![CDATA[<p>The correct increasing order of basic strength for the following compounds is<br/><p><img src="@@PLUGINFILE@@/img-3.jpeg" alt="Compound I" /><br/>(I)</p><p><img src="@@PLUGINFILE@@/img-4.jpeg" alt="Compound II" /><br/>(II)</p><p><img src="@@PLUGINFILE@@/img-5.jpeg" alt="Compound III" /><br/>(III)</p></p><hr/><p>निम्नलिखित यौगिकों के लिए क्षारीय सामर्थ्य का सही बढ़ता हुआ क्रम है:<br/><p><img src="@@PLUGINFILE@@/img-3.jpeg" alt="यौगिक I" /><br/>(I)</p><p><img src="@@PLUGINFILE@@/img-4.jpeg" alt="यौगिक II" /><br/>(II)</p><p><img src="@@PLUGINFILE@@/img-5.jpeg" alt="यौगिक III" /><br/>(III)</p></p>]]></text>
-  </questiontext>
-  <generalfeedback format="html">
-    <text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>The basic strength of aromatic amines depends directly on the electron density available on the nitrogen atom to donate toward a proton. Electron-withdrawing substituents (via inductive \(-I\) and resonance \(-R\) effects) pull electron density away from the nitrogen atom and destabilize the protonated anilinium ion, lowering basicity. Electron-donating substituents (via \(+I\) and hyperconjugation) push electron density onto the nitrogen atom and stabilize the conjugate cation, enhancing basicity.</p><p><strong>Step 2: Comparison of the Three Substituted Anilines</strong><br/>Analyzing the three given structures:<br/>- 4-nitroaniline (structure II) bears a para-nitro group (\(-\mathrm{NO}_2\)). The powerful \(-R\) and \(-I\) effects heavily delocalize the nitrogen lone pair onto the oxygens of the nitro group, making it the weakest base among the three.<br/>- Aniline (structure I) carries no substituents on the benzene ring, representing an unsubstituted baseline basicity.<br/>- 4-methylaniline / p-toluidine (structure III) carries a para-methyl group (\(-\mathrm{CH}_3\)). The electron-releasing \(+I\) and hyperconjugative effects increase the electron density on nitrogen, making it more basic than unsubstituted aniline.</p><p><strong>Step 3: Final Conclusion</strong><br/>Arranging the compounds in increasing order of basic strength gives 4-nitroaniline < aniline < 4-methylaniline, corresponding to \(\mathrm{II} < \mathrm{I} < \mathrm{III}\).</p><hr/><p><strong>चरण 1: संकल्पनात्मक सिद्धांत</strong><br/>ऐरोमैटिक ऐमीनों की क्षारीय सामर्थ्य नाइट्रोजन परमाणु पर प्रोटॉन ग्रहण करने हेतु उपलब्ध इलेक्ट्रॉन घनत्व पर निर्भर करती है। इलेक्ट्रॉन-आकर्षी समूह (\(-I\) और \(-R\) प्रभाव द्वारा) नाइट्रोजन पर इलेक्ट्रॉन घनत्व को कम कर देते हैं जिससे क्षारीयता घट जाती है। इसके विपरीत, इलेक्ट्रॉन-दाता समूह (\(+I\) और अतिसंयुग्मन द्वारा) नाइट्रोजन पर इलेक्ट्रॉन घनत्व बढ़ाते हैं जिससे क्षारीयता बढ़ जाती है।</p><p><strong>चरण 2: तीनों प्रतिस्थापित ऐनिलीनों की तुलना</strong><br/>दी गई तीनों संरचनाओं का विश्लेषण:<br/>- 4-नाइट्रोऐनिलीन (संरचना II) में पैरा-स्थिति पर नाइट्रो समूह (\(-\mathrm{NO}_2\)) उपस्थित है। इसके प्रबल \(-R\) और \(-I\) प्रभावों के कारण नाइट्रोजन का एकाकी युग्म अत्यधिक विस्थानीकृत हो जाता है, जिससे यह तीनों में दुर्बलतम क्षारक है।<br/>- ऐनिलीन (संरचना I) में कोई प्रतिस्थापी नहीं है, अतः इसकी क्षारीयता मध्यवर्ती होती है।<br/>- 4-मेथिलऐनिलीन / p-टॉल्यूडाइन (संरचना III) में पैरा-मेथिल समूह (\(-\mathrm{CH}_3\)) उपस्थित है। मेथिल समूह के \(+I\) और अतिसंयुग्मन प्रभावों के कारण नाइट्रोजन पर इलेक्ट्रॉन घनत्व बढ़ता है, जिससे यह ऐनिलीन से अधिक क्षारीय होता है।</p><p><strong>चरण 3: अंतिम निष्कर्ष</strong><br/>क्षारीय सामर्थ्य का सही बढ़ता हुआ क्रम 4-नाइट्रोऐनिलीन < ऐनिलीन < 4-मेथिलऐनिलीन है, जो कि \(\mathrm{II} < \mathrm{I} < \mathrm{III}\) के अनुरूप है।</p>]]></text>
-  </generalfeedback>
+  <name><text>NEETUG_CHEMISTRY_MCQI_AMINES_MCQ_Q09 - Most appropriate reactants for preparing secondary amine</text></name>
+  <questiontext format="html"><text><![CDATA[<p>Amongst the given set of reactants, the most appropriate for preparing \(2^{\circ}\) amine is</p><hr/><p>दिए गए अभिकारकों के समुच्चय में से \(2^{\circ}\) ऐमीन बनाने के लिए सर्वाधिक उपयुक्त है</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>A clean synthesis of a secondary (\(2^{\circ}\)) amine avoids over-alkylation (which gives mixtures of \(1^{\circ}\), \(2^{\circ}\), \(3^{\circ}\) amines, and quaternary ammonium salts) and elimination side reactions.</p><p><strong>Step 2: Evaluation of Each Reactant Set</strong><br/>Reacting \(2^{\circ}\mathrm{R-Br} + \mathrm{NH_3}\) leads to elimination (alkene formation) and a mixture of amines. Reacting \(2^{\circ}\mathrm{R-Br} + \mathrm{NaCN}\) followed by \(\mathrm{H_2/Pt}\) gives a \(1^{\circ}\) amine (\(\mathrm{R-CH_2NH_2}\)), not a \(2^{\circ}\) amine. Reacting \(1^{\circ}\mathrm{R-Br}\) (2 mol) with potassium phthalimide followed by \(\mathrm{H_3O^+}\)/heat produces only a \(1^{\circ}\) amine because phthalimide nitrogen has only one replaceable site. In contrast, reacting a \(1^{\circ}\) amine (\(\mathrm{R-NH_2}\)) with an aldehyde (\(\mathrm{RCHO}\)) forms an imine (Schiff base, \(\mathrm{R-N=CHR}\)), which upon catalytic hydrogenation with \(\mathrm{H_2/Pt}\) cleanly yields a \(2^{\circ}\) amine (\(\mathrm{R-NH-CH_2R}\)).</p><p><strong>Step 3: Final Conclusion</strong><br/>Therefore, \(1^{\circ}\mathrm{R-NH_2} + \mathrm{RCHO}\) followed by \(\mathrm{H_2/Pt}\) is the most appropriate set of reactants for preparing a \(2^{\circ}\) amine.</p><hr/><p><strong>चरण 1: अवधारणात्मक सिद्धांत</strong><br/>द्वितीयक (\(2^{\circ}\)) ऐमीन का स्वच्छ संश्लेषण अति-ऐल्किलन (जिससे \(1^{\circ}\), \(2^{\circ}\), \(3^{\circ}\) ऐमीनों और चतुष्क अमोनियम लवणों का मिश्रण बनता है) तथा विलोपन सह-अभिक्रियाओं से बचाता है।</p><p><strong>चरण 2: प्रत्येक अभिकारक समुच्चय का मूल्यांकन</strong><br/>\(2^{\circ}\mathrm{R-Br} + \mathrm{NH_3}\) की अभिक्रिया से विलोपन (ऐल्कीन निर्माण) और ऐमीनों का मिश्रण प्राप्त होता है। \(2^{\circ}\mathrm{R-Br} + \mathrm{NaCN}\) और उसके बाद \(\mathrm{H_2/Pt}\) से अभिक्रिया कराने पर \(1^{\circ}\) ऐमीन (\(\mathrm{R-CH_2NH_2}\)) बनता है, न कि \(2^{\circ}\) ऐमीन। \(1^{\circ}\mathrm{R-Br}\) (2 mol) को पोटैशियम थैलिमाइड के साथ अभिकृत कर \(\mathrm{H_3O^+}\)/ऊष्मा देने पर केवल \(1^{\circ}\) ऐमीन प्राप्त होता है क्योंकि थैलिमाइड नाइट्रोजन पर केवल एक प्रतिस्थापन योग्य स्थान होता है। इसके विपरीत, \(1^{\circ}\) ऐमीन (\(\mathrm{R-NH_2}\)) की ऐल्डिहाइड (\(\mathrm{RCHO}\)) के साथ अभिक्रिया से इमीन (शिफ क्षारक, \(\mathrm{R-N=CHR}\)) बनता है, जो \(\mathrm{H_2/Pt}\) के साथ उत्प्रेरकीय हाइड्रोजनीकरण पर स्वच्छता से \(2^{\circ}\) ऐमीन (\(\mathrm{R-NH-CH_2R}\)) देता है।</p><p><strong>चरण 3: अंतिम निष्कर्ष</strong><br/>अतः, \(2^{\circ}\) ऐमीन बनाने के लिए \(1^{\circ}\mathrm{R-NH_2} + \mathrm{RCHO}\) तथा उसके पश्चात \(\mathrm{H_2/Pt}\) सर्वाधिक उपयुक्त अभिकारक समुच्चय है।</p>]]></text></generalfeedback>
   <defaultgrade>4.0000000</defaultgrade>
   <penalty>0.2500000</penalty>
   <hidden>0</hidden>
   <single>true</single>
   <shuffleanswers>true</shuffleanswers>
   <answernumbering>iii</answernumbering>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>\(\mathrm{II} < \mathrm{III} < \mathrm{I}\)</p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>\(\mathrm{III} < \mathrm{I} < \mathrm{II}\)</p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>\(\mathrm{III} < \mathrm{II} < \mathrm{I}\)</p>]]></text>
-  </answer>
-  <answer fraction="100" format="html">
-    <text><![CDATA[<p>\(\mathrm{II} < \mathrm{I} < \mathrm{III}\)</p>]]></text>
-  </answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>\(2^{\circ}\mathrm{R - Br} + \mathrm{NH_3}\)</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>\(2^{\circ}\mathrm{R - Br} + \mathrm{NaCN}\) followed by \(\mathrm{H_2 / Pt}\)</p>]]></text></answer>
+  <answer fraction="100" format="html"><text><![CDATA[<p>\(1^{\circ}\mathrm{R-NH_2} + \mathrm{RCHO}\) followed by \(\mathrm{H_2 / Pt}\)</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>\(1^{\circ}\mathrm{R-Br}(2\mathrm{mol}) +\) potassium phthalimide followed by \(\mathrm{H_3O^+}/\) heat</p>]]></text></answer>
   <tags>
     <tag><text>standard:neet_ug</text></tag>
     <tag><text>lang:en</text></tag>
     <tag><text>lang:hi</text></tag>
     <tag><text>subject:chemistry</text></tag>
-    <tag><text>class:class_12</text></tag>
+    <tag><text>section:mcq_i</text></tag>
+    <tag><text>class:12</text></tag>
+    <tag><text>chapter:amines</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:medium</text></tag>
+    <tag><text>blooms:apply</text></tag>
+    <tag><text>media:text</text></tag>
+    <tag><text>multiconcept:true</text></tag>
+  </tags>
+</question>
+
+<question type="multichoice">
+  <name><text>NEETUG_CHEMISTRY_MCQI_AMINES_MCQ_Q10 - Best reagent for converting 2-phenylpropanamide into 2-phenylpropanamine</text></name>
+  <questiontext format="html"><text><![CDATA[<p>The best reagent for converting 2-phenylpropanamide into 2-phenylpropanamine is</p><hr/><p>2-फेनिलप्रोपेनेमाइड को 2-फेनिलप्रोपेनेमीन में परिवर्तित करने के लिए सर्वोत्तम अभिकर्मक है</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>Converting an amide (\(\mathrm{RCONH_2}\)) into an amine with the same number of carbon atoms (\(\mathrm{RCH_2NH_2}\)) requires reduction of the carbonyl group (\(-\mathrm{C=O}\)) to a methylene group (\(-\mathrm{CH_2}-\)).</p><p><strong>Step 2: Reaction Analysis</strong><br/>2-Phenylpropanamide has the structure \(\mathrm{C_6H_5CH(CH_3)CONH_2}\) (3 carbons in the main chain) and 2-phenylpropanamine has the structure \(\mathrm{C_6H_5CH(CH_3)CH_2NH_2}\) (also 3 carbons in the main chain). Lithium aluminium hydride (\(\mathrm{LiAlH_4}\)) in ether is a strong reducing agent that efficiently reduces amides to the corresponding amines without changing the carbon chain length. \(\mathrm{Br_2}\) in aqueous \(\mathrm{NaOH}\) would instead perform a Hoffmann bromamide degradation to give 1-phenylethanamine (one carbon less).</p><p><strong>Step 3: Final Conclusion</strong><br/>Therefore, \(\mathrm{LiAlH_4}\) in ether is the best reagent for this conversion.</p><hr/><p><strong>चरण 1: अवधारणात्मक सिद्धांत</strong><br/>किसी ऐमाइड (\(\mathrm{RCONH_2}\)) को समान कार्बन परमाणु संख्या वाले ऐमीन (\(\mathrm{RCH_2NH_2}\)) में परिवर्तित करने के लिए कार्बोनिल समूह (\(-\mathrm{C=O}\)) का मेथिलीन समूह (\(-\mathrm{CH_2}-\)) में अपचयन आवश्यक होता है।</p><p><strong>चरण 2: अभिक्रिया विश्लेषण</strong><br/>2-फेनिलप्रोपेनेमाइड की संरचना \(\mathrm{C_6H_5CH(CH_3)CONH_2}\) (मुख्य शृंखला में 3 कार्बन) है और 2-फेनिलप्रोपेनेमीन की संरचना \(\mathrm{C_6H_5CH(CH_3)CH_2NH_2}\) (मुख्य शृंखला में 3 कार्बन) है। ईथर में लिथियम ऐलुमिनियम हाइड्राइड (\(\mathrm{LiAlH_4}\)) एक प्रबल अपचायक है जो कार्बन शृंखला की लंबाई बदले बिना ऐमाइडों को संगत ऐमीनों में कुशलतापूर्वक अपचयित कर देता है। जलीय \(\mathrm{NaOH}\) में \(\mathrm{Br_2}\) इसके स्थान पर हॉफमान ब्रोमैमाइड निम्नीकरण करके 1-फेनिलएथेनेमीन (एक कार्बन कम) बनाएगा।</p><p><strong>चरण 3: अंतिम निष्कर्ष</strong><br/>अतः, इस रूपांतरण के लिए ईथर में \(\mathrm{LiAlH_4}\) सर्वोत्तम अभिकर्मक है।</p>]]></text></generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>iii</answernumbering>
+  <answer fraction="0" format="html"><text><![CDATA[<p>excess \(\mathrm{H_2}\)</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>\(\mathrm{Br_2}\) in aqueous NaOH</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>iodine in the presence of red phosphorus</p>]]></text></answer>
+  <answer fraction="100" format="html"><text><![CDATA[<p>\(\mathrm{LiAlH_4}\) in ether</p>]]></text></answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:hi</text></tag>
+    <tag><text>subject:chemistry</text></tag>
+    <tag><text>section:mcq_i</text></tag>
+    <tag><text>class:12</text></tag>
+    <tag><text>chapter:amines</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:easy</text></tag>
+    <tag><text>blooms:apply</text></tag>
+    <tag><text>media:text</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+
+<question type="multichoice">
+  <name><text>NEETUG_CHEMISTRY_MCQI_AMINES_MCQ_Q11 - Best reagent for converting 2-phenylpropanamide into 1-phenylethanamine</text></name>
+  <questiontext format="html"><text><![CDATA[<p>The best reagent for converting, 2-phenylpropanamide into 1-phenylethanamine is</p><hr/><p>2-फेनिलप्रोपेनेमाइड को 1-फेनिलएथेनेमीन में परिवर्तित करने के लिए सर्वोत्तम अभिकर्मक है</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>Converting a primary amide (\(\mathrm{RCONH_2}\)) into a primary amine (\(\mathrm{RNH_2}\)) containing one carbon atom less than the parent amide is achieved by the Hoffmann bromamide degradation reaction.</p><p><strong>Step 2: Reaction Analysis</strong><br/>2-Phenylpropanamide, \(\mathrm{C_6H_5CH(CH_3)CONH_2}\), has three carbons in the aliphatic chain, whereas 1-phenylethanamine, \(\mathrm{C_6H_5CH(CH_3)NH_2}\), has two carbons in the aliphatic chain (the carbonyl carbon is lost as carbonate). Treating the amide with bromine (\(\mathrm{Br_2}\)) in aqueous or ethanolic sodium hydroxide (\(\mathrm{NaOH}\)) brings about this degradation smoothly.</p><p><strong>Step 3: Final Conclusion</strong><br/>Therefore, \(\mathrm{NaOH/Br_2}\) is the best reagent for converting 2-phenylpropanamide into 1-phenylethanamine.</p><hr/><p><strong>चरण 1: अवधारणात्मक सिद्धांत</strong><br/>किसी प्राथमिक ऐमाइड (\(\mathrm{RCONH_2}\)) को जनक ऐमाइड की तुलना में एक कम कार्बन परमाणु वाले प्राथमिक ऐमीन (\(\mathrm{RNH_2}\)) में परिवर्तित करना हॉफमान ब्रोमैमाइड निम्नीकरण अभिक्रिया द्वारा प्राप्त किया जाता है।</p><p><strong>चरण 2: अभिक्रिया विश्लेषण</strong><br/>2-फेनिलप्रोपेनेमाइड, \(\mathrm{C_6H_5CH(CH_3)CONH_2}\), की ऐलिफैटिक शृंखला में तीन कार्बन होते हैं, जबकि 1-फेनिलएथेनेमीन, \(\mathrm{C_6H_5CH(CH_3)NH_2}\), की ऐलिफैटिक शृंखला में दो कार्बन होते हैं (कार्बोनिल कार्बन कार्बोनेट के रूप में निकल जाता है)। जलीय या एथेनॉलिक सोडियम हाइड्रॉक्साइड (\(\mathrm{NaOH}\)) में ब्रोमीन (\(\mathrm{Br_2}\)) के साथ ऐमाइड को अभिकृत करने पर यह निम्नीकरण सुगमता से संपन्न होता है।</p><p><strong>चरण 3: अंतिम निष्कर्ष</strong><br/>अतः, 2-फेनिलप्रोपेनेमाइड को 1-फेनिलएथेनेमीन में परिवर्तित करने के लिए \(\mathrm{NaOH/Br_2}\) सर्वोत्तम अभिकर्मक है।</p>]]></text></generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>iii</answernumbering>
+  <answer fraction="0" format="html"><text><![CDATA[<p>excess \(\mathrm{H_2 / Pt}\)</p>]]></text></answer>
+  <answer fraction="100" format="html"><text><![CDATA[<p>\(\mathrm{NaOH / Br_2}\)</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>\(\mathrm{NaBH_4}/\) methanol</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>\(\mathrm{LiAlH_4 / ether}\)</p>]]></text></answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:hi</text></tag>
+    <tag><text>subject:chemistry</text></tag>
+    <tag><text>section:mcq_i</text></tag>
+    <tag><text>class:12</text></tag>
+    <tag><text>chapter:amines</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:easy</text></tag>
+    <tag><text>blooms:apply</text></tag>
+    <tag><text>media:text</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+
+<question type="multichoice">
+  <name><text>NEETUG_CHEMISTRY_MCQI_AMINES_MCQ_Q12 - Substrate undergoing Hoffmann bromamide degradation reaction</text></name>
+  <questiontext format="html"><text><![CDATA[<p>Hoffmann Bromamide Degradation reaction is shown by</p><hr/><p>हॉफमान ब्रोमैमाइड निम्नीकरण अभिक्रिया निम्नलिखित में से किसके द्वारा दर्शायी जाती है?</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>The Hoffmann bromamide degradation reaction is a characteristic reaction of primary amides (\(\mathrm{RCONH_2}\) or \(\mathrm{ArCONH_2}\)) with bromine in the presence of aqueous or ethanolic alkali (\(\mathrm{NaOH}\) or \(\mathrm{KOH}\)) to yield a primary amine with one carbon atom fewer.</p><p><strong>Step 2: Reaction Equation</strong><br/>\(\mathrm{ArCONH_2 + Br_2 + 4NaOH \longrightarrow ArNH_2 + Na_2CO_3 + 2NaBr + 2H_2O}\). Amines (\(\mathrm{ArNH_2}\), \(\mathrm{ArCH_2NH_2}\)) and nitro compounds (\(\mathrm{ArNO_2}\)) do not undergo this reaction.</p><p><strong>Step 3: Final Conclusion</strong><br/>Therefore, Hoffmann bromamide degradation reaction is shown by \(\mathrm{ArCONH_2}\).</p><hr/><p><strong>चरण 1: अवधारणात्मक सिद्धांत</strong><br/>हॉफमान ब्रोमैमाइड निम्नीकरण अभिक्रिया प्राथमिक ऐमाइडों (\(\mathrm{RCONH_2}\) या \(\mathrm{ArCONH_2}\)) की जलीय या एथेनॉलिक क्षार (\(\mathrm{NaOH}\) या \(\mathrm{KOH}\)) की उपस्थिति में ब्रोमीन के साथ होने वाली एक अभिलक्षणिक अभिक्रिया है, जिससे एक कम कार्बन परमाणु वाला प्राथमिक ऐमीन प्राप्त होता है।</p><p><strong>चरण 2: अभिक्रिया समीकरण</strong><br/>\(\mathrm{ArCONH_2 + Br_2 + 4NaOH \longrightarrow ArNH_2 + Na_2CO_3 + 2NaBr + 2H_2O}\)। ऐमीन (\(\mathrm{ArNH_2}\), \(\mathrm{ArCH_2NH_2}\)) और नाइट्रो यौगिक (\(\mathrm{ArNO_2}\)) यह अभिक्रिया नहीं दर्शाते।</p><p><strong>चरण 3: अंतिम निष्कर्ष</strong><br/>अतः, हॉफमान ब्रोमैमाइड निम्नीकरण अभिक्रिया \(\mathrm{ArCONH_2}\) द्वारा दर्शायी जाती है।</p>]]></text></generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>iii</answernumbering>
+  <answer fraction="0" format="html"><text><![CDATA[<p>\(\mathrm{ArNH_2}\)</p>]]></text></answer>
+  <answer fraction="100" format="html"><text><![CDATA[<p>\(\mathrm{ArCONH_2}\)</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>\(\mathrm{ArNO_2}\)</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>\(\mathrm{ArCH_2NH_2}\)</p>]]></text></answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:hi</text></tag>
+    <tag><text>subject:chemistry</text></tag>
+    <tag><text>section:mcq_i</text></tag>
+    <tag><text>class:12</text></tag>
+    <tag><text>chapter:amines</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:easy</text></tag>
+    <tag><text>blooms:remember</text></tag>
+    <tag><text>media:text</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+
+<question type="multichoice">
+  <name><text>NEETUG_CHEMISTRY_MCQI_AMINES_MCQ_Q13 - Increasing order of basic strength of substituted anilines</text></name>
+  <questiontext format="html"><text><![CDATA[<p>The correct increasing order of basic strength for the following compounds is</p><p><img src="@@PLUGINFILE@@/img-3.jpeg" alt="Aniline (I)" /><br/>(I)</p><p><img src="@@PLUGINFILE@@/img-4.jpeg" alt="p-Nitroaniline (II)" /><br/>(II)</p><p><img src="@@PLUGINFILE@@/img-5.jpeg" alt="p-Toluidine (III)" /><br/>(III)</p><hr/><p>निम्नलिखित यौगिकों के लिए क्षारकीय प्रबलता का सही बढ़ता क्रम है</p><p><img src="@@PLUGINFILE@@/img-3.jpeg" alt="ऐनिलीन (I)" /><br/>(I)</p><p><img src="@@PLUGINFILE@@/img-4.jpeg" alt="p-नाइट्रोऐनिलीन (II)" /><br/>(II)</p><p><img src="@@PLUGINFILE@@/img-5.jpeg" alt="p-टॉलूडीन (III)" /><br/>(III)</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>In substituted anilines, electron-donating groups (such as \(-\mathrm{CH_3}\)) increase the electron density on the nitrogen atom and stabilize the anilinium ion, thereby increasing basic strength. Conversely, electron-withdrawing groups (such as \(-\mathrm{NO_2}\)) decrease the electron density on nitrogen and destabilize the conjugate acid, thereby decreasing basic strength.</p><p><strong>Step 2: Evaluation of Each Compound</strong><br/>\(p\)-Nitroaniline (compound \(\mathrm{II}\)) has a strongly electron-withdrawing \(-\mathrm{NO_2}\) group at the para position (\(-R\) and \(-I\) effects), which strongly withdraws electron density from the \(-\mathrm{NH_2}\) group and makes it the weakest base. Aniline (compound \(\mathrm{I}\)) has no substituent on the benzene ring and serves as the reference. \(p\)-Toluidine (compound \(\mathrm{III}\)) has an electron-donating \(-\mathrm{CH_3}\) group at the para position (\(+I\) and hyperconjugation effects), which increases the availability of the nitrogen lone pair and makes it the strongest base among the three.</p><p><strong>Step 3: Final Conclusion</strong><br/>Thus, the correct increasing order of basic strength is \(\mathrm{II < I < III}\).</p><hr/><p><strong>चरण 1: अवधारणात्मक सिद्धांत</strong><br/>प्रतिस्थापित ऐनिलीनों में, इलेक्ट्रॉन-दाता समूह (जैसे \(-\mathrm{CH_3}\)) नाइट्रोजन परमाणु पर इलेक्ट्रॉन घनत्व बढ़ाते हैं और ऐनिलीनियम आयन को स्थायी करते हैं, जिससे क्षारकीय प्रबलता बढ़ती है। इसके विपरीत, इलेक्ट्रॉन-अपकर्षी समूह (जैसे \(-\mathrm{NO_2}\)) नाइट्रोजन पर इलेक्ट्रॉन घनत्व कम करते हैं और संयुग्मी अम्ल को अस्थायी करते हैं, जिससे क्षारकीय प्रबलता घटती है।</p><p><strong>चरण 2: प्रत्येक यौगिक का मूल्यांकन</strong><br/>\(p\)-नाइट्रोऐनिलीन (यौगिक \(\mathrm{II}\)) में पैरा स्थिति पर प्रबल इलेक्ट्रॉन-अपकर्षी \(-\mathrm{NO_2}\) समूह (\(-R\) और \(-I\) प्रभाव) होता है, जो \(-\mathrm{NH_2}\) समूह से इलेक्ट्रॉन घनत्व को प्रबलता से खींचता है और इसे दुर्बलतम क्षारक बनाता है। ऐनिलीन (यौगिक \(\mathrm{I}\)) में बेंजीन वलय पर कोई प्रतिस्थापी नहीं होता और यह संदर्भ के रूप में कार्य करता है। \(p\)-टॉलूडीन (यौगिक \(\mathrm{III}\)) में पैरा स्थिति पर इलेक्ट्रॉन-दाता \(-\mathrm{CH_3}\) समूह (\(+I\) और अतिसंयुग्मन प्रभाव) होता है, जो नाइट्रोजन के एकाकी इलेक्ट्रॉन युगल की उपलब्धता को बढ़ाता है और इसे तीनों में प्रबलतम क्षारक बनाता है।</p><p><strong>चरण 3: अंतिम निष्कर्ष</strong><br/>इस प्रकार, क्षारकीय प्रबलता का सही बढ़ता क्रम \(\mathrm{II < I < III}\) है।</p>]]></text></generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>iii</answernumbering>
+  <answer fraction="0" format="html"><text><![CDATA[<p>\(\mathrm{II < III < I}\)</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>\(\mathrm{III < I < II}\)</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>\(\mathrm{III < II < I}\)</p>]]></text></answer>
+  <answer fraction="100" format="html"><text><![CDATA[<p>\(\mathrm{II < I < III}\)</p>]]></text></answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:hi</text></tag>
+    <tag><text>subject:chemistry</text></tag>
+    <tag><text>section:mcq_i</text></tag>
+    <tag><text>class:12</text></tag>
     <tag><text>chapter:amines</text></tag>
     <tag><text>typology:mcq</text></tag>
     <tag><text>difficulty:medium</text></tag>
     <tag><text>blooms:analyze</text></tag>
-    <tag><text>calculation:light</text></tag>
     <tag><text>media:diagram</text></tag>
-    <tag><text>multiconcept:false</text></tag>
+    <tag><text>multiconcept:true</text></tag>
   </tags>
 </question>
 
 <question type="multichoice">
-  <name>
-    <text>NEET_UG_CHEMISTRY_AMINES_MCQ_Q14 - Reaction of aliphatic primary amine with nitrous acid</text>
-  </name>
-  <questiontext format="html">
-    <text><![CDATA[<p>Methylamine reacts with \(\mathrm{HNO}_2\) to form</p><hr/><p>मेथिलऐमीन \(\mathrm{HNO}_2\) के साथ अभिक्रिया करके बनाता है:</p>]]></text>
-  </questiontext>
-  <generalfeedback format="html">
-    <text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>Primary aliphatic amines react with cold nitrous acid (\(\mathrm{HNO}_2\), prepared from \(\mathrm{NaNO}_2 + \mathrm{HCl}\)) to form aliphatic diazonium salts. Because alkyl groups cannot stabilize a diazonium ion via resonance, aliphatic diazonium salts are extremely unstable and decompose immediately, liberating nitrogen gas and generating a carbocation.</p><p><strong>Step 2: Reaction Pathway for Methylamine</strong><br/>For methylamine (\(\mathrm{CH}_3\mathrm{NH}_2\)), reaction with nitrous acid yields the highly unstable methanediazonium intermediate:
-\[\mathrm{CH}_3\mathrm{NH}_2 + \mathrm{HNO}_2 \longrightarrow [\mathrm{CH}_3\mathrm{N}_2^+] + \mathrm{OH}^- + \mathrm{H}_2\mathrm{O}\]
-Loss of nitrogen gas affords the methyl carbocation (\(\mathrm{CH}_3^+\)), which rapidly reacts with the solvent water to yield methanol:
-\[\mathrm{CH}_3^+ + \mathrm{H}_2\mathrm{O} \longrightarrow \mathrm{CH}_3\mathrm{OH} + \mathrm{H}^+\]</p><p><strong>Step 3: Final Conclusion</strong><br/>The characteristic organic alcohol obtained from the reaction of methylamine with nitrous acid is methanol (\(\mathrm{CH}_3\mathrm{OH}\)).</p><hr/><p><strong>चरण 1: संकल्पनात्मक सिद्धांत</strong><br/>प्राथमिक ऐलिफ़ैटिक ऐमीन शीतल नाइट्रस अम्ल (\(\mathrm{HNO}_2\)) के साथ अभिक्रिया करके ऐलिफ़ैटिक डाइऐज़ोनियम लवण बनाते हैं। अनुनाद स्थायित्व के अभाव में ये ऐलिफ़ैटिक डाइऐज़ोनियम लवण अत्यंत अस्थायी होते हैं और तुरंत नाइट्रोजन गैस मुक्त कर कार्बधनायन मध्यवर्ती में अपघटित हो जाते हैं।</p><p><strong>चरण 2: मेथिलऐमीन का अभिक्रिया मार्ग</strong><br/>मेथिलऐमीन (\(\mathrm{CH}_3\mathrm{NH}_2\)) नाइट्रस अम्ल से क्रिया कर अस्थायी मेथेनडाइऐज़ोनियम आयन बनाता है:
-\[\mathrm{CH}_3\mathrm{NH}_2 + \mathrm{HNO}_2 \longrightarrow [\mathrm{CH}_3\mathrm{N}_2^+] + \mathrm{OH}^- + \mathrm{H}_2\mathrm{O}\]
-यह तीव्रता से \(\mathrm{N}_2\) गैस त्यागकर मेथिल कार्बधनायन (\(\mathrm{CH}_3^+\)) देता है, जो जल के अणु के साथ क्रिया करके मेथेनॉल बनाता है:
-\[\mathrm{CH}_3^+ + \mathrm{H}_2\mathrm{O} \longrightarrow \mathrm{CH}_3\mathrm{OH} + \mathrm{H}^+\]</p><p><strong>चरण 3: अंतिम निष्कर्ष</strong><br/>मेथिलऐमीन की नाइट्रस अम्ल के साथ अभिक्रिया से प्राप्त मुख्य कार्बनिक उत्पाद मेथेनॉल (\(\mathrm{CH}_3\mathrm{OH}\)) है।</p>]]></text>
-  </generalfeedback>
+  <name><text>NEETUG_CHEMISTRY_MCQI_AMINES_MCQ_Q14 - Product of reaction of methylamine with nitrous acid</text></name>
+  <questiontext format="html"><text><![CDATA[<p>Methylamine reacts with \(\mathrm{HNO_2}\) to form</p><hr/><p>मेथिलऐमीन \(\mathrm{HNO_2}\) से अभिक्रिया करके क्या बनाता है?</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>Primary aliphatic amines react with nitrous acid (\(\mathrm{HNO_2}\), generated in situ from \(\mathrm{NaNO_2}\) and \(\mathrm{HCl}\)) to form unstable aliphatic diazonium salts, which immediately decompose in water to liberate nitrogen gas and yield alcohols.</p><p><strong>Step 2: Reaction Equation</strong><br/>\(\mathrm{CH_3NH_2 + HNO_2 \xrightarrow{NaNO_2 + HCl} [CH_3N_2^+Cl^-] \xrightarrow{H_2O} CH_3OH + N_2\uparrow + HCl}\). Note that methylamine is a well-known exception in forming a small amount of dimethyl ether or methyl nitrite as minor side products under specific conditions, while methanol (\(\mathrm{CH_3OH}\)) is the primary alcohol product expected at the NCERT Class 12 level.</p><p><strong>Step 3: Final Conclusion</strong><br/>Therefore, methylamine reacts with \(\mathrm{HNO_2}\) to form \(\mathrm{CH_3OH}\).</p><hr/><p><strong>चरण 1: अवधारणात्मक सिद्धांत</strong><br/>प्राथमिक ऐलिफैटिक ऐमीन नाइट्रस अम्ल (\(\mathrm{HNO_2}\), जिसे \(\mathrm{NaNO_2}\) और \(\mathrm{HCl}\) से अभिक्रिया स्थल पर ही बनाया जाता है) के साथ अभिक्रिया करके अस्थायी ऐलिफैटिक डाइऐज़ोनियम लवण बनाते हैं, जो जल में तुरंत अपघटित होकर नाइट्रोजन गैस मुक्त करते हैं और ऐल्कोहॉल देते हैं।</p><p><strong>चरण 2: अभिक्रिया समीकरण</strong><br/>\(\mathrm{CH_3NH_2 + HNO_2 \xrightarrow{NaNO_2 + HCl} [CH_3N_2^+Cl^-] \xrightarrow{H_2O} CH_3OH + N_2\uparrow + HCl}\)। अतः, NCERT कक्षा 12 स्तर पर मुख्य उत्पाद मेथेनॉल (\(\mathrm{CH_3OH}\)) होता है।</p><p><strong>चरण 3: अंतिम निष्कर्ष</strong><br/>अतः, मेथिलऐमीन \(\mathrm{HNO_2}\) से अभिक्रिया करके \(\mathrm{CH_3OH}\) बनाता है।</p>]]></text></generalfeedback>
   <defaultgrade>4.0000000</defaultgrade>
   <penalty>0.2500000</penalty>
   <hidden>0</hidden>
   <single>true</single>
   <shuffleanswers>true</shuffleanswers>
   <answernumbering>iii</answernumbering>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>\(\mathrm{CH}_3 - \mathrm{O} - \mathrm{N} = \mathrm{O}\)</p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>\(\mathrm{CH}_3 - \mathrm{O} - \mathrm{CH}_3\)</p>]]></text>
-  </answer>
-  <answer fraction="100" format="html">
-    <text><![CDATA[<p>\(\mathrm{CH}_3\mathrm{OH}\)</p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>\(\mathrm{CH}_3\mathrm{CHO}\)</p>]]></text>
-  </answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>\(\mathrm{CH_3 - O - N = O}\)</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>\(\mathrm{CH_3 - O - CH_3}\)</p>]]></text></answer>
+  <answer fraction="100" format="html"><text><![CDATA[<p>\(\mathrm{CH_3OH}\)</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>\(\mathrm{CH_3CHO}\)</p>]]></text></answer>
   <tags>
     <tag><text>standard:neet_ug</text></tag>
     <tag><text>lang:en</text></tag>
     <tag><text>lang:hi</text></tag>
     <tag><text>subject:chemistry</text></tag>
-    <tag><text>class:class_12</text></tag>
-    <tag><text>chapter:amines</text></tag>
-    <tag><text>typology:mcq</text></tag>
-    <tag><text>difficulty:medium</text></tag>
-    <tag><text>blooms:remember</text></tag>
-    <tag><text>calculation:light</text></tag>
-    <tag><text>media:equation</text></tag>
-    <tag><text>multiconcept:false</text></tag>
-  </tags>
-</question>
-
-<question type="multichoice">
-  <name>
-    <text>NEET_UG_CHEMISTRY_AMINES_MCQ_Q15 - Gas evolved from methylamine reaction with nitrous acid</text>
-  </name>
-  <questiontext format="html">
-    <text><![CDATA[<p>The gas evolved when methylamine reacts with nitrous acid is</p><hr/><p>जब मेथिलऐमीन नाइट्रस अम्ल के साथ अभिक्रिया करता है तो कौन-सी गैस निकलती है?</p>]]></text>
-  </questiontext>
-  <generalfeedback format="html">
-    <text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>The diazotization reaction of primary aliphatic amines with nitrous acid (\(\mathrm{HNO}_2\)) generates aliphatic diazonium ions of the general form \(\mathrm{R}-\mathrm{N}_2^+\). Because the \(\mathrm{C}-\mathrm{N}\) bond in alkyldiazonium ions is extremely weak and the formation of molecular nitrogen provides a very large thermodynamic driving force, these salts break down spontaneously.</p><p><strong>Step 2: Identification of the Gas Evolved</strong><br/>The stoichiometric decomposition proceeds as follows:
-\[\mathrm{CH}_3\mathrm{NH}_2 + \mathrm{HNO}_2 \longrightarrow \mathrm{CH}_3\mathrm{OH} + \mathrm{N}_2\uparrow + \mathrm{H}_2\mathrm{O}\]
-Molecular nitrogen gas (\(\mathrm{N}_2\)) is evolved quantitatively and with brisk effervescence.</p><p><strong>Step 3: Final Conclusion</strong><br/>The gaseous byproduct released during the reaction is nitrogen gas (\(\mathrm{N}_2\)).</p><hr/><p><strong>चरण 1: संकल्पनात्मक सिद्धांत</strong><br/>प्राथमिक ऐलिफ़ैटिक ऐमीनों की नाइट्रस अम्ल (\(\mathrm{HNO}_2\)) के साथ डाइऐज़ोटीकरण अभिक्रिया से ऐलिफ़ैटिक डाइऐज़ोनियम आयन (\(\mathrm{R}-\mathrm{N}_2^+\)) बनते हैं। \(\mathrm{C}-\mathrm{N}\) आबंध की दुर्बलता तथा आण्विक नाइट्रोजन के निर्माण के उच्च ऊष्मागतिकीय स्थायित्व के कारण ये आयन स्वतः विच्छेदित हो जाते हैं।</p><p><strong>चरण 2: उत्सर्जित गैस की पहचान</strong><br/>यह अभिक्रिया निम्नलिखित प्रकार संपन्न होती है:
-\[\mathrm{CH}_3\mathrm{NH}_2 + \mathrm{HNO}_2 \longrightarrow \mathrm{CH}_3\mathrm{OH} + \mathrm{N}_2\uparrow + \mathrm{H}_2\mathrm{O}\]
-इसमें तीव्र बुदबुदाहट के साथ नाइट्रोजन गैस (\(\mathrm{N}_2\)) मात्रात्मक रूप से निकलती है।</p><p><strong>चरण 3: अंतिम निष्कर्ष</strong><br/>मेथिलऐमीन की नाइट्रस अम्ल के साथ अभिक्रिया में उत्सर्जित होने वाली गैस नाइट्रोजन (\(\mathrm{N}_2\)) है।</p>]]></text>
-  </generalfeedback>
-  <defaultgrade>4.0000000</defaultgrade>
-  <penalty>0.2500000</penalty>
-  <hidden>0</hidden>
-  <single>true</single>
-  <shuffleanswers>true</shuffleanswers>
-  <answernumbering>iii</answernumbering>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>\(\mathrm{NH}_3\)</p>]]></text>
-  </answer>
-  <answer fraction="100" format="html">
-    <text><![CDATA[<p>\(\mathrm{N}_2\)</p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>\(\mathrm{H}_{2}\)</p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>\(\mathrm{C}_2\mathrm{H}_6\)</p>]]></text>
-  </answer>
-  <tags>
-    <tag><text>standard:neet_ug</text></tag>
-    <tag><text>lang:en</text></tag>
-    <tag><text>lang:hi</text></tag>
-    <tag><text>subject:chemistry</text></tag>
-    <tag><text>class:class_12</text></tag>
+    <tag><text>section:mcq_i</text></tag>
+    <tag><text>class:12</text></tag>
     <tag><text>chapter:amines</text></tag>
     <tag><text>typology:mcq</text></tag>
     <tag><text>difficulty:easy</text></tag>
     <tag><text>blooms:remember</text></tag>
-    <tag><text>calculation:light</text></tag>
-    <tag><text>media:equation</text></tag>
-    <tag><text>multiconcept:false</text></tag>
-  </tags>
-</question>
-
-<question type="multichoice">
-  <name>
-    <text>NEET_UG_CHEMISTRY_AMINES_MCQ_Q16 - Active electrophile initiating electrophilic nitration of benzene</text>
-  </name>
-  <questiontext format="html">
-    <text><![CDATA[<p>In the nitration of benzene using a mixture of conc. \(\mathrm{H}_2\mathrm{SO}_4\) and conc. \(\mathrm{HNO}_3\), the species which initiates the reaction is</p><hr/><p>सान्द्र \(\mathrm{H}_2\mathrm{SO}_4\) और सान्द्र \(\mathrm{HNO}_3\) के मिश्रण का उपयोग करके बेन्जीन के नाइट्रीकरण में, अभिक्रिया प्रारंभ करने वाली स्पीशीज है:</p>]]></text>
-  </questiontext>
-  <generalfeedback format="html">
-    <text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>Nitration of an aromatic ring is an electrophilic aromatic substitution reaction. It requires the generation of a powerful electrophile capable of breaking into the stable aromatic \(\pi\)-sextet of benzene.</p><p><strong>Step 2: Formation of the Active Electrophile</strong><br/>In the nitrating mixture of concentrated sulfuric acid and concentrated nitric acid, \(\mathrm{H}_2\mathrm{SO}_4\) acts as a strong Brönsted acid and protonates \(\mathrm{HNO}_3\), which acts as a base:
-\[\mathrm{HNO}_3 + 2\,\mathrm{H}_2\mathrm{SO}_4 \rightleftharpoons \mathrm{NO}_2^+ + \mathrm{H}_3\mathrm{O}^+ + 2\,\mathrm{HSO}_4^-\]
-The species generated is the linear nitronium ion, \(\mathrm{NO}_2^+\). The positive charge on nitrogen makes \(\mathrm{NO}_2^+\) a potent electrophile that attacks the benzene ring to initiate the reaction.</p><p><strong>Step 3: Final Conclusion</strong><br/>The electrophilic species initiating the nitration of benzene is the nitronium ion, \(\mathrm{NO}_2^+\).</p><hr/><p><strong>चरण 1: संकल्पनात्मक सिद्धांत</strong><br/>ऐरोमैटिक वलय का नाइट्रीकरण एक इलेक्ट्रॉनरागी ऐरोमैटिक प्रतिस्थापन अभिक्रिया है। इसके लिए एक प्रबल इलेक्ट्रॉनरागी का बनना आवश्यक होता है जो बेन्जीन के स्थायी ऐरोमैटिक \(\pi\)-इलेक्ट्रॉन अभ्र पर आक्रमण कर सके।</p><p><strong>चरण 2: सक्रिय इलेक्ट्रॉनरागी का निर्माण</strong><br/>सान्द्र सल्फ्यूरिक अम्ल तथा सान्द्र नाइट्रिक अम्ल के नाइट्रीकारी मिश्रण में, \(\mathrm{H}_2\mathrm{SO}_4\) प्रबल अम्ल की भांति कार्य करते हुए \(\mathrm{HNO}_3\) को प्रोटॉनीकृत करता है (जहाँ \(\mathrm{HNO}_3\) क्षारक का कार्य करता है):
-\[\mathrm{HNO}_3 + 2\,\mathrm{H}_2\mathrm{SO}_4 \rightleftharpoons \mathrm{NO}_2^+ + \mathrm{H}_3\mathrm{O}^+ + 2\,\mathrm{HSO}_4^-\]
-इस अभिक्रिया में नाइट्रोनियम आयन (\(\mathrm{NO}_2^+\)) बनता है। यह नाइट्रोनियम आयन एक शक्तिशाली इलेक्ट्रॉनरागी है जो बेन्जीन वलय पर आक्रमण करके अभिक्रिया प्रारंभ करता है।</p><p><strong>चरण 3: अंतिम निष्कर्ष</strong><br/>बेन्जीन के नाइट्रीकरण को प्रारंभ करने वाली इलेक्ट्रॉनरागी स्पीशीज नाइट्रोनियम आयन (\(\mathrm{NO}_2^+\)) है।</p>]]></text>
-  </generalfeedback>
-  <defaultgrade>4.0000000</defaultgrade>
-  <penalty>0.2500000</penalty>
-  <hidden>0</hidden>
-  <single>true</single>
-  <shuffleanswers>true</shuffleanswers>
-  <answernumbering>iii</answernumbering>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>\(\mathrm{NO}_2\)</p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>\(\mathrm{NO}^{+}\)</p>]]></text>
-  </answer>
-  <answer fraction="100" format="html">
-    <text><![CDATA[<p>\(\mathrm{NO}_2^+\)</p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>\(\mathrm{NO}_2^-\)</p>]]></text>
-  </answer>
-  <tags>
-    <tag><text>standard:neet_ug</text></tag>
-    <tag><text>lang:en</text></tag>
-    <tag><text>lang:hi</text></tag>
-    <tag><text>subject:chemistry</text></tag>
-    <tag><text>class:class_12</text></tag>
-    <tag><text>chapter:amines</text></tag>
-    <tag><text>typology:mcq</text></tag>
-    <tag><text>difficulty:easy</text></tag>
-    <tag><text>blooms:remember</text></tag>
-    <tag><text>calculation:light</text></tag>
-    <tag><text>media:equation</text></tag>
-    <tag><text>multiconcept:false</text></tag>
-  </tags>
-</question>
-
-<question type="multichoice">
-  <name>
-    <text>NEET_UG_CHEMISTRY_AMINES_MCQ_Q17 - Reduction of aromatic nitro compounds using metal acid</text>
-  </name>
-  <questiontext format="html">
-    <text><![CDATA[<p>Reduction of aromatic nitro compounds using Fe and HCl gives</p><hr/><p>Fe और HCl का उपयोग करके ऐरोमैटिक नाइट्रो यौगिकों के अपचयन से प्राप्त होता है:</p>]]></text>
-  </questiontext>
-  <generalfeedback format="html">
-    <text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>The reduction of aromatic nitro compounds (\(\mathrm{ArNO}_2\)) using an active transition metal in the presence of an aqueous mineral acid reduces the nitrogen atom from an oxidation state of \(+3\) down to \(-3\).</p><p><strong>Step 2: Chemical Reaction and Products</strong><br/>When an aryl nitro compound is treated with iron scrap and hydrochloric acid, nascent hydrogen is generated, converting the nitro group directly into an amino group:
-\[\mathrm{ArNO}_2 + 6\,[\mathrm{H}] \xrightarrow{\mathrm{Fe}/\mathrm{HCl}} \mathrm{ArNH}_2 + 2\,\mathrm{H}_2\mathrm{O}\]
-This provides an aromatic primary amine (such as aniline from nitrobenzene). The method is widely used because the \(\mathrm{FeCl}_2\) formed is easily hydrolyzed by water to release \(\mathrm{HCl}\), meaning only a small catalytic amount of hydrochloric acid is required to initiate and sustain the reduction.</p><p><strong>Step 3: Final Conclusion</strong><br/>The reduction of aromatic nitro compounds with iron and hydrochloric acid yields an aromatic primary amine.</p><hr/><p><strong>चरण 1: संकल्पनात्मक सिद्धांत</strong><br/>जलीय खनिज अम्ल की उपस्थिति में सक्रिय संक्रमण धातु द्वारा ऐरोमैटिक नाइट्रो यौगिकों (\(\mathrm{ArNO}_2\)) के अपचयन से नाइट्रो समूह सीधे ऐमीनो समूह में परिवर्तित हो जाता है।</p><p><strong>चरण 2: रासायनिक अभिक्रिया एवं उत्पाद</strong><br/>जब किसी ऐरिल नाइट्रो यौगिक को लोहे की छीलन (iron scrap) और हाइड्रोक्लोरिक अम्ल के साथ अभिकृत किया जाता है, तो नवजात हाइड्रोजन उत्पन्न होकर नाइट्रो समूह को प्राथमिक ऐरोमैटिक ऐमीन में अपचयित कर देती है:
-\[\mathrm{ArNO}_2 + 6\,[\mathrm{H}] \xrightarrow{\mathrm{Fe}/\mathrm{HCl}} \mathrm{ArNH}_2 + 2\,\mathrm{H}_2\mathrm{O}\]
-इस अभिक्रिया में बना \(\mathrm{FeCl}_2\) जल द्वारा अपघटित होकर पुनः \(\mathrm{HCl}\) मुक्त करता है, अतः केवल अल्प मात्रा में \(\mathrm{HCl}\) की आवश्यकता होती है।</p><p><strong>चरण 3: अंतिम निष्कर्ष</strong><br/>Fe और HCl के उपयोग द्वारा ऐरोमैटिक नाइट्रो यौगिकों का अपचयन कराने पर ऐरोमैटिक प्राथमिक ऐमीन प्राप्त होती है।</p>]]></text>
-  </generalfeedback>
-  <defaultgrade>4.0000000</defaultgrade>
-  <penalty>0.2500000</penalty>
-  <hidden>0</hidden>
-  <single>true</single>
-  <shuffleanswers>true</shuffleanswers>
-  <answernumbering>iii</answernumbering>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>aromatic oxime</p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>aromatic hydrocarbon</p>]]></text>
-  </answer>
-  <answer fraction="100" format="html">
-    <text><![CDATA[<p>aromatic primary amine</p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>aromatic amide</p>]]></text>
-  </answer>
-  <tags>
-    <tag><text>standard:neet_ug</text></tag>
-    <tag><text>lang:en</text></tag>
-    <tag><text>lang:hi</text></tag>
-    <tag><text>subject:chemistry</text></tag>
-    <tag><text>class:class_12</text></tag>
-    <tag><text>chapter:amines</text></tag>
-    <tag><text>typology:mcq</text></tag>
-    <tag><text>difficulty:easy</text></tag>
-    <tag><text>blooms:remember</text></tag>
-    <tag><text>calculation:light</text></tag>
     <tag><text>media:text</text></tag>
     <tag><text>multiconcept:false</text></tag>
   </tags>
 </question>
 
 <question type="multichoice">
-  <name>
-    <text>NEET_UG_CHEMISTRY_AMINES_MCQ_Q18 - Most reactive amine towards dilute hydrochloric acid</text>
-  </name>
-  <questiontext format="html">
-    <text><![CDATA[<p>The most reactive amine towards dilute hydrochloric acid is</p><hr/><p>तनु हाइड्रोक्लोरिक अम्ल के प्रति सर्वाधिक अभिक्रियाशील ऐमीन है:</p>]]></text>
-  </questiontext>
-  <generalfeedback format="html">
-    <text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>Reaction of an amine with dilute hydrochloric acid is an acid-base neutralization reaction in which the amine acts as a proton acceptor (Brönsted-Lowry base):
-\[\mathrm{R}_3\mathrm{N} + \mathrm{HCl} \\longrightarrow \mathrm{R}_3\mathrm{NH}^+\mathrm{Cl}^-\]
-The rate and extent of this proton transfer reaction in aqueous medium depend directly on the basic strength of the amine in water.</p><p><strong>Step 2: Comparison of Basicity in Aqueous Medium</strong><br/>In aqueous medium, the basic strength of amines is governed by inductive effect (\(+I\)), solvation of the conjugate cation, and steric hindrance:<br/>- Aniline (aromatic amine) has its nitrogen lone pair delocalized into the benzene ring via resonance, making it an extremely weak base compared to aliphatic amines.<br/>- For methyl-substituted aliphatic amines in water, basicity follows the order: \((\mathrm{CH}_3)_2\mathrm{NH} > \mathrm{CH}_3\mathrm{NH}_2 > (\mathrm{CH}_3)_3\mathrm{N}\).<br/>- In dimethylamine, \((\mathrm{CH}_3)_2\mathrm{NH}\), two electron-donating methyl groups provide strong \(+I\) stabilization, steric hindrance is minimal, and the conjugate ammonium ion \((\mathrm{CH}_3)_2\mathrm{NH}_2^+\) is heavily stabilized by hydration (hydrogen bonding with two hydrogens).</p><p><strong>Step 3: Final Conclusion</strong><br/>Because dimethylamine, \((\mathrm{CH}_3)_2\mathrm{NH}\), is the strongest base in aqueous solution among the given amines, it reacts most vigorously and readily with dilute hydrochloric acid.</p><hr/><p><strong>चरण 1: संकल्पनात्मक सिद्धांत</strong><br/>तनु हाइड्रोक्लोरिक अम्ल के साथ ऐमीन की अभिक्रिया एक अम्ल-क्षारक उदासीनीकरण अभिक्रिया है, जिसमें ऐमीन प्रोटॉन ग्रहण कर अमोनियम लवण बनाती है:
-\[\mathrm{R}_3\mathrm{N} + \mathrm{HCl} \longrightarrow \mathrm{R}_3\mathrm{NH}^+\mathrm{Cl}^-\]
-जलीय माध्यम में तनु अम्ल के प्रति ऐमीन की अभिक्रियाशीलता सीधे तौर पर उसकी क्षारीय सामर्थ्य पर निर्भर करती है।</p><p><strong>चरण 2: जलीय माध्यम में क्षारीयता की तुलना</strong><br/>जलीय माध्यम में ऐमीनों की क्षारीयता प्रेरणिक प्रभाव (\(+I\)), संयुग्मी धनायन के विलायकन (जलयोजन), तथा त्रिविम बाधा पर निर्भर करती है:<br/>- ऐनिलीन में एकाकी इलेक्ट्रॉन युग्म वलय में विस्थानीकृत होने के कारण यह अत्यंत दुर्बल क्षारक है।<br/>- मेथिल-प्रतिस्थापित ऐलिफ़ैटिक ऐमीनों के लिए जलीय विलयन में क्षारीयता का क्रम होता है: \((\mathrm{CH}_3)_2\mathrm{NH} > \mathrm{CH}_3\mathrm{NH}_2 > (\mathrm{CH}_3)_3\mathrm{N}\)।<br/>- डाइमेथिलऐमीन, \((\mathrm{CH}_3)_2\mathrm{NH}\), में दो मेथिल समूहों का \(+I\) प्रभाव और धनायन का उत्तम जलयोजन मिलकर इसे सर्वाधिक प्रबल क्षारक बनाते हैं।</p><p><strong>चरण 3: अंतिम निष्कर्ष</strong><br/>डाइमेथिलऐमीन, \((\mathrm{CH}_3)_2\mathrm{NH}\), जलीय विलयन में सबसे प्रबल क्षारक होने के कारण तनु हाइड्रोक्लोरिक अम्ल के प्रति सर्वाधिक अभिक्रियाशील है।</p>]]></text>
-  </generalfeedback>
+  <name><text>NEETUG_CHEMISTRY_MCQI_AMINES_MCQ_Q15 - Gas evolved when methylamine reacts with nitrous acid</text></name>
+  <questiontext format="html"><text><![CDATA[<p>The gas evolved when methylamine reacts with nitrous acid is</p><hr/><p>जब मेथिलऐमीन नाइट्रस अम्ल से अभिक्रिया करता है, तो निकलने वाली गैस है</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>Primary aliphatic amines react with nitrous acid (\(\mathrm{HNO_2}\)) to form an unstable aliphatic diazonium salt intermediate that decomposes rapidly with the evolution of nitrogen gas (\(\mathrm{N_2}\)).</p><p><strong>Step 2: Reaction Equation</strong><br/>\(\mathrm{CH_3NH_2 + HNO_2 \longrightarrow [CH_3N_2^+Cl^-] \xrightarrow{H_2O} CH_3OH + N_2\uparrow + HCl}\). The quantitative evolution of \(\mathrm{N_2}\) gas is characteristic of primary aliphatic amines.</p><p><strong>Step 3: Final Conclusion</strong><br/>Therefore, the gas evolved is \(\mathrm{N_2}\).</p><hr/><p><strong>चरण 1: अवधारणात्मक सिद्धांत</strong><br/>प्राथमिक ऐलिफैटिक ऐमीन नाइट्रस अम्ल (\(\mathrm{HNO_2}\)) के साथ अभिक्रिया करके एक अस्थायी ऐलिफैटिक डाइऐज़ोनियम लवण मध्यवर्ती बनाते हैं जो नाइट्रोजन गैस (\(\mathrm{N_2}\)) के उत्सर्जन के साथ तेजी से अपघटित हो जाता है।</p><p><strong>चरण 2: अभिक्रिया समीकरण</strong><br/>\(\mathrm{CH_3NH_2 + HNO_2 \longrightarrow [CH_3N_2^+Cl^-] \xrightarrow{H_2O} CH_3OH + N_2\uparrow + HCl}\)। \(\mathrm{N_2}\) गैस का मात्रात्मक उत्सर्जन प्राथमिक ऐलिफैटिक ऐमीनों का अभिलक्षणिक गुण है।</p><p><strong>चरण 3: अंतिम निष्कर्ष</strong><br/>अतः, निकलने वाली गैस \(\mathrm{N_2}\) है।</p>]]></text></generalfeedback>
   <defaultgrade>4.0000000</defaultgrade>
   <penalty>0.2500000</penalty>
   <hidden>0</hidden>
   <single>true</single>
   <shuffleanswers>true</shuffleanswers>
   <answernumbering>iii</answernumbering>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>\(\mathrm{CH}_3 - \mathrm{NH}_2\)</p>]]></text>
-  </answer>
-  <answer fraction="100" format="html">
-    <text><![CDATA[<p>\(\begin{array}{c}\mathrm{H}_{3}\mathrm{C} \\ \mathrm{H}_{3}\mathrm{C} \end{array} \mathrm{NH}\)</p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>\(\begin{array}{c}\mathrm{H}_{3}\mathrm{C} \\ \mathrm{H}_{3}\mathrm{C} \end{array} \mathrm{N}-\mathrm{CH}_{3}\)</p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p><img src="@@PLUGINFILE@@/img-6.jpeg" alt="Aniline" /></p>]]></text>
-  </answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>\(\mathrm{NH_3}\)</p>]]></text></answer>
+  <answer fraction="100" format="html"><text><![CDATA[<p>\(\mathrm{N_2}\)</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>\(\mathrm{H_2}\)</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>\(\mathrm{C_2H_6}\)</p>]]></text></answer>
   <tags>
     <tag><text>standard:neet_ug</text></tag>
     <tag><text>lang:en</text></tag>
     <tag><text>lang:hi</text></tag>
     <tag><text>subject:chemistry</text></tag>
-    <tag><text>class:class_12</text></tag>
+    <tag><text>section:mcq_i</text></tag>
+    <tag><text>class:12</text></tag>
+    <tag><text>chapter:amines</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:easy</text></tag>
+    <tag><text>blooms:remember</text></tag>
+    <tag><text>media:text</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+
+<question type="multichoice">
+  <name><text>NEETUG_CHEMISTRY_MCQI_AMINES_MCQ_Q16 - Electrophile initiating nitration of benzene</text></name>
+  <questiontext format="html"><text><![CDATA[<p>In the nitration of benzene using a mixture of conc. \(\mathrm{H_2SO_4}\) and conc. \(\mathrm{HNO_3}\), the species which initiates the reaction is</p><hr/><p>सांद्र \(\mathrm{H_2SO_4}\) और सांद्र \(\mathrm{HNO_3}\) के मिश्रण का उपयोग करके बेंजीन के नाइट्रीकरण में, अभिक्रिया को प्रारंभ करने वाली स्पीशीज़ है</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>Nitration of benzene is an electrophilic aromatic substitution reaction. In the nitrating mixture, concentrated sulfuric acid acts as an acid and protonates nitric acid, which acts as a base, generating the active electrophile.</p><p><strong>Step 2: Generation of the Electrophile</strong><br/>\(\mathrm{HNO_3 + 2H_2SO_4 \rightleftharpoons NO_2^+ + H_3O^+ + 2HSO_4^-}\). The nitronium ion (\(\mathrm{NO_2^+}\)) is the electrophile that attacks the \(\pi\)-electron cloud of the benzene ring to initiate the nitration reaction.</p><p><strong>Step 3: Final Conclusion</strong><br/>Therefore, the species which initiates the reaction is \(\mathrm{NO_2^+}\).</p><hr/><p><strong>चरण 1: अवधारणात्मक सिद्धांत</strong><br/>बेंजीन का नाइट्रीकरण एक इलेक्ट्रॉनरागी ऐरोमैटिक प्रतिस्थापन अभिक्रिया है। नाइट्रीकरण मिश्रण में, सांद्र सल्फ्यूरिक अम्ल एक अम्ल के रूप में कार्य करता है और नाइट्रिक अम्ल (जो क्षारक के रूप में कार्य करता है) को प्रोटॉनित करके सक्रिय इलेक्ट्रॉनरागी उत्पन्न करता है।</p><p><strong>चरण 2: इलेक्ट्रॉनरागी का निर्माण</strong><br/>\(\mathrm{HNO_3 + 2H_2SO_4 \rightleftharpoons NO_2^+ + H_3O^+ + 2HSO_4^-}\)। नाइट्रोनियम आयन (\(\mathrm{NO_2^+}\)) वह इलेक्ट्रॉनरागी है जो नाइट्रीकरण अभिक्रिया को प्रारंभ करने के लिए बेंजीन वलय के \(\pi\)-इलेक्ट्रॉन अभ्र पर आक्रमण करता है।</p><p><strong>चरण 3: अंतिम निष्कर्ष</strong><br/>अतः, अभिक्रिया को प्रारंभ करने वाली स्पीशीज़ \(\mathrm{NO_2^+}\) है।</p>]]></text></generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>iii</answernumbering>
+  <answer fraction="0" format="html"><text><![CDATA[<p>\(\mathrm{NO_2}\)</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>\(\mathrm{NO^+}\)</p>]]></text></answer>
+  <answer fraction="100" format="html"><text><![CDATA[<p>\(\mathrm{NO_2^+}\)</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>\(\mathrm{NO_2^-}\)</p>]]></text></answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:hi</text></tag>
+    <tag><text>subject:chemistry</text></tag>
+    <tag><text>section:mcq_i</text></tag>
+    <tag><text>class:12</text></tag>
+    <tag><text>chapter:amines</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:easy</text></tag>
+    <tag><text>blooms:remember</text></tag>
+    <tag><text>media:text</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+
+<question type="multichoice">
+  <name><text>NEETUG_CHEMISTRY_MCQI_AMINES_MCQ_Q17 - Reduction of aromatic nitro compounds using Fe and HCl</text></name>
+  <questiontext format="html"><text><![CDATA[<p>Reduction of aromatic nitro compounds using Fe and HCl gives</p><hr/><p>Fe और HCl का उपयोग करके ऐरोमैटिक नाइट्रो यौगिकों का अपचयन करने पर प्राप्त होता है</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>Nitro compounds are reduced to primary amines by passing hydrogen gas in the presence of finely divided nickel, palladium, or platinum, and also by reduction with metals such as iron (\(\mathrm{Fe}\)) or tin (\(\mathrm{Sn}\)) in acidic medium (\(\mathrm{HCl}\)).</p><p><strong>Step 2: Reaction Analysis</strong><br/>\(\mathrm{ArNO_2 + 6[H] \xrightarrow{Fe/HCl} ArNH_2 + 2H_2O}\). Reduction with iron scrap and hydrochloric acid is preferred commercially because \(\mathrm{FeCl_2}\) formed gets hydrolysed to release hydrochloric acid during the reaction, so only a small amount of \(\mathrm{HCl}\) is required to initiate the reaction. The product is an aromatic primary amine.</p><p><strong>Step 3: Final Conclusion</strong><br/>Therefore, reduction of aromatic nitro compounds using \(\mathrm{Fe}\) and \(\mathrm{HCl}\) gives an aromatic primary amine.</p><hr/><p><strong>चरण 1: अवधारणात्मक सिद्धांत</strong><br/>नाइट्रो यौगिकों को सूक्ष्म विभाजित निकेल, पैलेडियम या प्लैटिनम की उपस्थिति में हाइड्रोजन गैस प्रवाहित करके तथा अम्लीय माध्यम (\(\mathrm{HCl}\)) में आयरन (\(\mathrm{Fe}\)) या टिन (\(\mathrm{Sn}\)) जैसी धातुओं द्वारा अपचयित करके प्राथमिक ऐमीनों में परिवर्तित किया जाता है।</p><p><strong>चरण 2: अभिक्रिया विश्लेषण</strong><br/>\(\mathrm{ArNO_2 + 6[H] \xrightarrow{Fe/HCl} ArNH_2 + 2H_2O}\)। लोहे की छीलन और हाइड्रोक्लोरिक अम्ल के साथ अपचयन को व्यावसायिक रूप से प्राथमिकता दी जाती है क्योंकि अभिक्रिया के दौरान बना \(\mathrm{FeCl_2}\) जल-अपघटित होकर हाइड्रोक्लोरिक अम्ल मुक्त करता है, जिससे अभिक्रिया प्रारंभ करने के लिए केवल थोड़ी मात्रा में \(\mathrm{HCl}\) की आवश्यकता होती है। उत्पाद एक ऐरोमैटिक प्राथमिक ऐमीन होता है।</p><p><strong>चरण 3: अंतिम निष्कर्ष</strong><br/>अतः, \(\mathrm{Fe}\) और \(\mathrm{HCl}\) का उपयोग करके ऐरोमैटिक नाइट्रो यौगिकों का अपचयन करने पर ऐरोमैटिक प्राथमिक ऐमीन प्राप्त होता है।</p>]]></text></generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>iii</answernumbering>
+  <answer fraction="0" format="html"><text><![CDATA[<p>aromatic oxime</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>aromatic hydrocarbon</p>]]></text></answer>
+  <answer fraction="100" format="html"><text><![CDATA[<p>aromatic primary amine</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>aromatic amide</p>]]></text></answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:hi</text></tag>
+    <tag><text>subject:chemistry</text></tag>
+    <tag><text>section:mcq_i</text></tag>
+    <tag><text>class:12</text></tag>
+    <tag><text>chapter:amines</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:easy</text></tag>
+    <tag><text>blooms:remember</text></tag>
+    <tag><text>media:text</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+
+<question type="multichoice">
+  <name><text>NEETUG_CHEMISTRY_MCQI_AMINES_MCQ_Q18 - Most reactive amine towards dilute hydrochloric acid</text></name>
+  <questiontext format="html"><text><![CDATA[<p>The most reactive amine towards dilute hydrochloric acid is</p><hr/><p>तनु हाइड्रोक्लोरिक अम्ल के प्रति सर्वाधिक अभिक्रियाशील ऐमीन है</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>The reactivity of an amine towards dilute hydrochloric acid (\(\mathrm{HCl}\), an aqueous acid) is governed by its basicity in aqueous solution. A stronger base in aqueous medium reacts more readily with dilute \(\mathrm{HCl}\) to form the corresponding ammonium salt.</p><p><strong>Step 2: Comparison of Basicity in Aqueous Medium</strong><br/>For methylamines in aqueous solution, the order of basic strength is \((\mathrm{CH_3})_2\mathrm{NH} > \mathrm{CH_3NH_2} > (\mathrm{CH_3})_3\mathrm{N} > \mathrm{C_6H_5NH_2}\), due to the combined effects of the \(+I\) inductive effect, solvation of the conjugate acid, and steric hindrance. Aniline (\(\mathrm{C_6H_5NH_2}\)) is the weakest base because of resonance delocalization of the nitrogen lone pair into the benzene ring. Dimethylamine, \((\mathrm{CH_3})_2\mathrm{NH}\), has the lowest \(\mathrm{p}K_b\) value (\(3.27\)) among these, making it the strongest base in aqueous medium.</p><p><strong>Step 3: Final Conclusion</strong><br/>Therefore, \((\mathrm{CH_3})_2\mathrm{NH}\) is the most reactive amine towards dilute hydrochloric acid.</p><hr/><p><strong>चरण 1: अवधारणात्मक सिद्धांत</strong><br/>तनु हाइड्रोक्लोरिक अम्ल (\(\mathrm{HCl}\), एक जलीय अम्ल) के प्रति किसी ऐमीन की अभिक्रियाशीलता जलीय विलयन में उसकी क्षारकता द्वारा निर्धारित होती है। जलीय माध्यम में प्रबलतर क्षारक तनु \(\mathrm{HCl}\) के साथ अधिक शीघ्रता से अभिक्रिया करके संगत अमोनियम लवण बनाता है।</p><p><strong>चरण 2: जलीय माध्यम में क्षारकता की तुलना</strong><br/>जलीय विलयन में मेथिलऐमीनों की क्षारकीय प्रबलता का क्रम \((\mathrm{CH_3})_2\mathrm{NH} > \mathrm{CH_3NH_2} > (\mathrm{CH_3})_3\mathrm{N} > \mathrm{C_6H_5NH_2}\) होता है, जो \(+I\) प्रेरणिक प्रभाव, संयुग्मी अम्ल के विलायकन और त्रिविम बाधा के संयुक्त प्रभावों के कारण होता है। ऐनिलीन (\(\mathrm{C_6H_5NH_2}\)) बेंजीन वलय में नाइट्रोजन के एकाकी इलेक्ट्रॉन युगल के अनुनाद विस्थानीकरण के कारण दुर्बलतम क्षारक है। डाइमेथिलऐमीन, \((\mathrm{CH_3})_2\mathrm{NH}\), का \(\mathrm{p}K_b\) मान (\(3.27\)) इनमें सबसे कम है, जिससे यह जलीय माध्यम में प्रबलतम क्षारक बनता है।</p><p><strong>चरण 3: अंतिम निष्कर्ष</strong><br/>अतः, तनु हाइड्रोक्लोरिक अम्ल के प्रति सर्वाधिक अभिक्रियाशील ऐमीन \((\mathrm{CH_3})_2\mathrm{NH}\) है।</p>]]></text></generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>iii</answernumbering>
+  <answer fraction="0" format="html"><text><![CDATA[<p>\(\mathrm{CH_3 - NH_2}\)</p>]]></text></answer>
+  <answer fraction="100" format="html"><text><![CDATA[<p>\((\mathrm{H_3C})_2\mathrm{NH}\)</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>\((\mathrm{H_3C})_2\mathrm{N - CH_3}\)</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p><img src="@@PLUGINFILE@@/img-6.jpeg" alt="Aniline" /></p>]]></text></answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:hi</text></tag>
+    <tag><text>subject:chemistry</text></tag>
+    <tag><text>section:mcq_i</text></tag>
+    <tag><text>class:12</text></tag>
     <tag><text>chapter:amines</text></tag>
     <tag><text>typology:mcq</text></tag>
     <tag><text>difficulty:medium</text></tag>
     <tag><text>blooms:apply</text></tag>
-    <tag><text>calculation:light</text></tag>
     <tag><text>media:diagram</text></tag>
-    <tag><text>multiconcept:false</text></tag>
+    <tag><text>multiconcept:true</text></tag>
   </tags>
 </question>
 
 <question type="multichoice">
-  <name>
-    <text>NEET_UG_CHEMISTRY_AMINES_MCQ_Q19 - Reaction of acid anhydrides with primary amines</text>
-  </name>
-  <questiontext format="html">
-    <text><![CDATA[<p>Acid anhydrides on reaction with primary amines give</p><hr/><p>ऐसिड ऐनहाइड्राइड प्राथमिक ऐमीनों के साथ अभिक्रिया पर देते हैं:</p>]]></text>
-  </questiontext>
-  <generalfeedback format="html">
-    <text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>The reaction between an acid derivative and an amine is a nucleophilic acyl substitution (acylation). The primary amine uses its unshared lone pair of electrons on nitrogen to attack the electrophilic carbonyl carbon of the acid anhydride.</p><p><strong>Step 2: Reaction Pathway and Products</strong><br/>The general reaction of an acid anhydride with a primary amine proceeds as follows:
-\[(\mathrm{RCO})_2\mathrm{O} + \mathrm{R'NH}_2 \longrightarrow \mathrm{RCONHR'} + \mathrm{RCOOH}\]
-The tetrahedral addition intermediate collapses with the displacement of a carboxylate leaving group, yielding an N-substituted amide along with a carboxylic acid byproduct.</p><p><strong>Step 3: Final Conclusion</strong><br/>The nitrogen-containing organic compound produced from the acylation of primary amines by acid anhydrides is an amide.</p><hr/><p><strong>चरण 1: संकल्पनात्मक सिद्धांत</strong><br/>ऐसिड व्युत्पन्नों एवं ऐमीनों के मध्य होने वाली अभिक्रिया एक नाभिकरागी ऐसिल प्रतिस्थापन (ऐसिलीकरण) अभिक्रिया है। प्राथमिक ऐमीन का नाइट्रोजन परमाणु अपने एकाकी इलेक्ट्रॉन युग्म द्वारा ऐनहाइड्राइड के कार्बोनिल कार्बन पर नाभिकरागी आक्रमण करता है।</p><p><strong>चरण 2: अभिक्रिया मार्ग एवं उत्पाद</strong><br/>ऐसिड ऐनहाइड्राइड की प्राथमिक ऐमीन के साथ सामान्य अभिक्रिया निम्नलिखित है:
-\[(\mathrm{RCO})_2\mathrm{O} + \mathrm{R'NH}_2 \longrightarrow \mathrm{RCONHR'} + \mathrm{RCOOH}\]
-इसमें चतुष्फलकीय मध्यवर्ती से कार्बोक्सिलेट समूह निष्कासित होकर N-प्रतिस्थापित एमाइड तथा कार्बोक्सिलिक अम्ल बनाता है।</p><p><strong>चरण 3: अंतिम निष्कर्ष</strong><br/>प्राथमिक ऐमीनों की ऐसिड ऐनहाइड्राइड के साथ अभिक्रिया का मुख्य कार्बनिक उत्पाद एमाइड (amide) है।</p>]]></text>
-  </generalfeedback>
+  <name><text>NEETUG_CHEMISTRY_MCQI_AMINES_MCQ_Q19 - Product of reaction of acid anhydrides with primary amines</text></name>
+  <questiontext format="html"><text><![CDATA[<p>Acid anhydrides on reaction with primary amines give</p><hr/><p>अम्ल ऐनहाइड्राइड प्राथमिक ऐमीनों के साथ अभिक्रिया करने पर देते हैं</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>Primary amines (\(\mathrm{R-NH_2}\)) possess replaceable hydrogen atoms on the nitrogen atom and act as nucleophiles. They undergo nucleophilic acyl substitution (acylation) when treated with acid anhydrides.</p><p><strong>Step 2: Reaction Equation</strong><br/>\(\mathrm{R-NH_2 + (R'CO)_2O \longrightarrow R-NH-COR' + R'COOH}\). In this reaction, an acyl group replaces one hydrogen atom of the \(-\mathrm{NH_2}\) group to form an N-substituted amide along with a carboxylic acid.</p><p><strong>Step 3: Final Conclusion</strong><br/>Therefore, acid anhydrides on reaction with primary amines give an amide.</p><hr/><p><strong>चरण 1: अवधारणात्मक सिद्धांत</strong><br/>प्राथमिक ऐमीनों (\(\mathrm{R-NH_2}\)) के नाइट्रोजन परमाणु पर प्रतिस्थापन योग्य हाइड्रोजन परमाणु होते हैं और वे नाभिकरागी के रूप में कार्य करते हैं। अम्ल ऐनहाइड्राइडों के साथ अभिकृत करने पर वे नाभिकरागी ऐसिल प्रतिस्थापन (ऐसिलन) दर्शाते हैं।</p><p><strong>चरण 2: अभिक्रिया समीकरण</strong><br/>\(\mathrm{R-NH_2 + (R'CO)_2O \longrightarrow R-NH-COR' + R'COOH}\)। इस अभिक्रिया में, एक ऐसिल समूह \(-\mathrm{NH_2}\) समूह के एक हाइड्रोजन परमाणु को प्रतिस्थापित करके कार्बोक्सिलिक अम्ल के साथ एक N-प्रतिस्थापित ऐमाइड बनाता है।</p><p><strong>चरण 3: अंतिम निष्कर्ष</strong><br/>अतः, अम्ल ऐनहाइड्राइड प्राथमिक ऐमीनों के साथ अभिक्रिया करने पर ऐमाइड देते हैं।</p>]]></text></generalfeedback>
   <defaultgrade>4.0000000</defaultgrade>
   <penalty>0.2500000</penalty>
   <hidden>0</hidden>
   <single>true</single>
   <shuffleanswers>true</shuffleanswers>
   <answernumbering>iii</answernumbering>
-  <answer fraction="100" format="html">
-    <text><![CDATA[<p>amide</p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>imide</p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>secondary amine</p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>imine</p>]]></text>
-  </answer>
+  <answer fraction="100" format="html"><text><![CDATA[<p>amide</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>imide</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>secondary amine</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>imine</p>]]></text></answer>
   <tags>
     <tag><text>standard:neet_ug</text></tag>
     <tag><text>lang:en</text></tag>
     <tag><text>lang:hi</text></tag>
     <tag><text>subject:chemistry</text></tag>
-    <tag><text>class:class_12</text></tag>
+    <tag><text>section:mcq_i</text></tag>
+    <tag><text>class:12</text></tag>
     <tag><text>chapter:amines</text></tag>
     <tag><text>typology:mcq</text></tag>
     <tag><text>difficulty:easy</text></tag>
     <tag><text>blooms:remember</text></tag>
-    <tag><text>calculation:light</text></tag>
     <tag><text>media:text</text></tag>
     <tag><text>multiconcept:false</text></tag>
   </tags>
 </question>
 
 <question type="multichoice">
-  <name>
-    <text>NEET_UG_CHEMISTRY_AMINES_MCQ_Q20 - Reaction of arenediazonium chloride with copper and acid</text>
-  </name>
-  <questiontext format="html">
-    <text><![CDATA[<p>The reaction \(\mathrm{Ar}\mathrm{N}_{2}^{+}\mathrm{Cl}^{-}\xrightarrow{\mathrm{Cu}/\mathrm{HCl}} \mathrm{ArCl} + \mathrm{N}_{2} + \mathrm{CuCl}\) is named as</p><hr/><p>अभिक्रिया \(\mathrm{Ar}\mathrm{N}_{2}^{+}\mathrm{Cl}^{-}\xrightarrow{\mathrm{Cu}/\mathrm{HCl}} \mathrm{ArCl} + \mathrm{N}_{2} + \mathrm{CuCl}\) को किस नाम से जाना जाता है?</p>]]></text>
-  </questiontext>
-  <generalfeedback format="html">
-    <text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>Aromatic diazonium salts undergo displacement of the diazonium group (\(-\mathrm{N}_2^+\)) by chlorine or bromine using either cuprous halides or elemental copper powder in the presence of the corresponding hydrogen halide.</p><p><strong>Step 2: Distinction Between Named Reactions</strong><br/>Analyzing the relevant named reactions:<br/>- When cuprous chloride or cuprous bromide (\(\mathrm{Cu}_2\mathrm{Cl}_2/\mathrm{HCl}\) or \(\mathrm{Cu}_2\mathrm{Br}_2/\mathrm{HBr}\)) is used, the conversion is called the Sandmeyer reaction.<br/>- When finely divided copper powder in the presence of hydrochloric acid or hydrobromic acid (\(\mathrm{Cu}/\mathrm{HCl}\) or \(\mathrm{Cu}/\mathrm{HBr}\)) is used, the reaction is called the Gatterman reaction.<br/>- Carbylamine reaction is the test for primary amines using chloroform and alcoholic KOH.<br/>- Claisen condensation involves esters possessing \(\alpha\)-hydrogens.</p><p><strong>Step 3: Final Conclusion</strong><br/>Because the given reaction uses copper powder (\(\mathrm{Cu}\)) with \(\mathrm{HCl}\), it is named the Gatterman reaction.</p><hr/><p><strong>चरण 1: संकल्पनात्मक सिद्धांत</strong><br/>ऐरोमैटिक डाइऐज़ोनियम लवणों में डाइऐज़ोनियम समूह (\(-\mathrm{N}_2^+\)) को संगत हाइड्रोजन हैलाइड की उपस्थिति में क्यूप्रस हैलाइड अथवा धात्विक कॉपर चूर्ण द्वारा क्लोरीन या ब्रोमीन से प्रतिस्थापित किया जा सकता है।</p><p><strong>चरण 2: नाम अभिक्रियाओं में अंतर</strong><br/>संबंधित नाम अभिक्रियाओं का विश्लेषण:<br/>- जब क्यूप्रस क्लोराइड अथवा क्यूप्रस ब्रोमाइड (\(\mathrm{Cu}_2\mathrm{Cl}_2/\mathrm{HCl}\) या \(\mathrm{Cu}_2\mathrm{Br}_2/\mathrm{HBr}\)) का उपयोग किया जाता है, तो इसे सैंडमायर अभिक्रिया कहते हैं।<br/>- जब हाइड्रोक्लोरिक या हाइड्रोब्रोमिक अम्ल की उपस्थिति में सूक्ष्म विभाजित कॉपर चूर्ण (\(\mathrm{Cu}/\mathrm{HCl}\) या \(\mathrm{Cu}/\mathrm{HBr}\)) का उपयोग किया जाता है, तो इस अभिक्रिया को गाटरमान अभिक्रिया कहते हैं।<br/>- कार्बिलऐमीन अभिक्रिया प्राथमिक ऐमीनों का परीक्षण है।<br/>- क्लेज़न संघनन एस्टरों की अभिक्रिया है।</p><p><strong>चरण 3: अंतिम निष्कर्ष</strong><br/>दी गई रासायनिक अभिक्रिया में कॉपर चूर्ण (\(\mathrm{Cu}\)) और \(\mathrm{HCl}\) प्रयुक्त हुआ है, अतः इसका नाम गाटरमान अभिक्रिया है।</p>]]></text>
-  </generalfeedback>
+  <name><text>NEETUG_CHEMISTRY_MCQI_AMINES_MCQ_Q20 - Identifying Gatterman reaction from diazonium salt equation</text></name>
+  <questiontext format="html"><text><![CDATA[<p>The reaction \(\mathrm{Ar^+N_2Cl^- \xrightarrow{Cu/HCl} ArCl + N_2 + CuCl}\) is named as</p><hr/><p>अभिक्रिया \(\mathrm{Ar^+N_2Cl^- \xrightarrow{Cu/HCl} ArCl + N_2 + CuCl}\) का नाम है</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>Arenediazonium salts can be converted into aryl halides using copper(I) salts (Sandmeyer reaction) or copper powder in the presence of the corresponding halogen acid (Gatterman reaction).</p><p><strong>Step 2: Distinction Between Sandmeyer and Gatterman Reactions</strong><br/>In the Sandmeyer reaction, the diazonium salt is treated with \(\mathrm{Cu_2Cl_2/HCl}\) (cuprous chloride in \(\mathrm{HCl}\)). In the Gatterman reaction, copper powder in the presence of \(\mathrm{HCl}\) (\(\mathrm{Cu/HCl}\)) is used to replace the diazonium group by \(-\mathrm{Cl}\), yielding \(\mathrm{ArCl}\), \(\mathrm{N_2}\), and \(\mathrm{CuCl}\).</p><p><strong>Step 3: Final Conclusion</strong><br/>Therefore, the given reaction is named as the Gatterman reaction.</p><hr/><p><strong>चरण 1: अवधारणात्मक सिद्धांत</strong><br/>ऐरीनडाइऐज़ोनियम लवणों को कॉपर(I) लवणों (सैंडमायर अभिक्रिया) या संगत हैलोजन अम्ल की उपस्थिति में कॉपर चूर्ण (गैटरमैन अभिक्रिया) का उपयोग करके ऐरिल हैलाइडों में परिवर्तित किया जा सकता है।</p><p><strong>चरण 2: सैंडमायर और गैटरमैन अभिक्रियाओं में अंतर</strong><br/>सैंडमायर अभिक्रिया में, डाइऐज़ोनियम लवण को \(\mathrm{Cu_2Cl_2/HCl}\) (\(\mathrm{HCl}\) में क्यूप्रस क्लोराइड) के साथ अभिकृत किया जाता है। गैटरमैन अभिक्रिया में, डाइऐज़ोनियम समूह को \(-\mathrm{Cl}\) द्वारा प्रतिस्थापित करने के लिए \(\mathrm{HCl}\) की उपस्थिति में कॉपर चूर्ण (\(\mathrm{Cu/HCl}\)) का उपयोग किया जाता है, जिससे \(\mathrm{ArCl}\), \(\mathrm{N_2}\), और \(\mathrm{CuCl}\) प्राप्त होता है।</p><p><strong>चरण 3: अंतिम निष्कर्ष</strong><br/>अतः, दी गई अभिक्रिया का नाम गैटरमैन अभिक्रिया है।</p>]]></text></generalfeedback>
   <defaultgrade>4.0000000</defaultgrade>
   <penalty>0.2500000</penalty>
   <hidden>0</hidden>
   <single>true</single>
   <shuffleanswers>true</shuffleanswers>
   <answernumbering>iii</answernumbering>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>Sandmeyer reaction</p>]]></text>
-  </answer>
-  <answer fraction="100" format="html">
-    <text><![CDATA[<p>Gatterman reaction</p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>Claisen reaction</p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>Carbylamine reaction</p>]]></text>
-  </answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>Sandmeyer reaction</p>]]></text></answer>
+  <answer fraction="100" format="html"><text><![CDATA[<p>Gatterman reaction</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>Claisen reaction</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>Carbylamine reaction</p>]]></text></answer>
   <tags>
     <tag><text>standard:neet_ug</text></tag>
     <tag><text>lang:en</text></tag>
     <tag><text>lang:hi</text></tag>
     <tag><text>subject:chemistry</text></tag>
-    <tag><text>class:class_12</text></tag>
+    <tag><text>section:mcq_i</text></tag>
+    <tag><text>class:12</text></tag>
     <tag><text>chapter:amines</text></tag>
     <tag><text>typology:mcq</text></tag>
     <tag><text>difficulty:easy</text></tag>
     <tag><text>blooms:remember</text></tag>
-    <tag><text>calculation:light</text></tag>
     <tag><text>media:equation</text></tag>
     <tag><text>multiconcept:false</text></tag>
   </tags>
 </question>
 
 <question type="multichoice">
-  <name>
-    <text>NEET_UG_CHEMISTRY_AMINES_MCQ_Q21 - Preparation of primary amines from alkyl halides</text>
-  </name>
-  <questiontext format="html">
-    <text><![CDATA[<p>Best method for preparing primary amines from alkyl halides without changing the number of carbon atoms in the chain is</p><hr/><p>ऐल्किल हैलाइडों से श्रृंखला में कार्बन परमाणुओं की संख्या में परिवर्तन किए बिना प्राथमिक ऐमीन बनाने की सर्वोत्तम विधि है:</p>]]></text>
-  </questiontext>
-  <generalfeedback format="html">
-    <text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>The synthesis requires converting an alkyl halide (\(\mathrm{R}-\mathrm{X}\)) into a primary amine (\(\mathrm{R}-\mathrm{NH}_2\)) while preserving the carbon chain length (same number of carbon atoms) and avoiding mixture formation from polyalkylation.</p><p><strong>Step 2: Evaluation of the Methods</strong><br/>Analyzing each given method:<br/>- Hoffmann bromamide reaction: Converts primary carboxamides into primary amines with loss of one carbon atom (degradation). It does not start with alkyl halides.<br/>- Reaction with \(\mathrm{NH}_3\) (ammonolysis): Alkyl halides react with ammonia to give a mixture of primary, secondary, and tertiary amines alongside quaternary ammonium salts, making it inefficient for isolating pure primary amines.<br/>- Sandmeyer reaction: Prepares aryl halides from diazonium salts, not aliphatic primary amines.<br/>- Gabriel phthalimide synthesis: Potassium phthalimide reacts with an alkyl halide via \(\mathrm{S}_{\mathrm{N}}2\) displacement to give N-alkylphthalimide, which on cleavage cleanly yields pure aliphatic primary amine having the exact same carbon skeleton as the alkyl halide.</p><p><strong>Step 3: Final Conclusion</strong><br/>Gabriel phthalimide synthesis is the premier and cleanest method for preparing primary amines from alkyl halides without modifying the carbon chain length.</p><hr/><p><strong>चरण 1: संकल्पनात्मक सिद्धांत</strong><br/>इस विधि में ऐल्किल हैलाइड (\(\mathrm{R}-\mathrm{X}\)) को बिना कार्बन संख्या बदले तथा बिना किसी बहु-ऐल्किलीकरण के शुद्ध प्राथमिक ऐमीन (\(\mathrm{R}-\mathrm{NH}_2\)) में परिवर्तित करना आवश्यक है।</p><p><strong>चरण 2: दी गई विधियों का मूल्यांकन</strong><br/>विभिन्न विधियों का विश्लेषण:<br/>- हॉफमान ब्रोमेमाइड अभिक्रिया: यह एमाइडों से प्रारंभ होती है तथा इसमें एक कार्बन की कमी हो जाती है।<br/>- \(\mathrm{NH}_3\) के साथ अभिक्रिया (अमोनीअपघटन): इसमें प्राथमिक, द्वितीयक, तृतीयक ऐमीन तथा चतुष्क अमोनियम लवणों का मिश्रण बनता है।<br/>- सैंडमायर अभिक्रिया: यह डाइऐज़ोनियम लवणों से ऐरिल हैलाइड बनाने की विधि है।<br/>- गैब्रिएल थैलिमाइड संश्लेषण: इसमें पोटैशियम थैलिमाइड ऐल्किल हैलाइड के साथ क्रिया करके N-ऐल्किलथैलिमाइड बनाता है, जिसके जल-अपघटन से समान कार्बन संख्या वाली विशुद्ध प्राथमिक ऐमीन प्राप्त होती है।</p><p><strong>चरण 3: अंतिम निष्कर्ष</strong><br/>कार्बन श्रृंखला की लंबाई बदले बिना ऐल्किल हैलाइड से प्राथमिक ऐमीन बनाने की सर्वोत्तम विधि गैब्रिएल थैलिमाइड संश्लेषण है।</p>]]></text>
-  </generalfeedback>
+  <name><text>NEETUG_CHEMISTRY_MCQI_AMINES_MCQ_Q21 - Best method for preparing primary amines without changing carbon count</text></name>
+  <questiontext format="html"><text><![CDATA[<p>Best method for preparing primary amines from alkyl halides without changing the number of carbon atoms in the chain is</p><hr/><p>शृंखला में कार्बन परमाणुओं की संख्या में परिवर्तन किए बिना ऐल्किल हैलाइडों से प्राथमिक ऐमीन बनाने की सर्वोत्तम विधि है</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>Direct reaction of an alkyl halide with ammonia (ammonolysis) gives a mixture of \(1^{\circ}\), \(2^{\circ}\), and \(3^{\circ}\) amines along with quaternary ammonium salts, making separation difficult. Therefore, a selective synthesis that yields only a \(1^{\circ}\) amine without altering the carbon chain of the alkyl halide is preferred.</p><p><strong>Step 2: Evaluation of Methods</strong><br/>Gabriel phthalimide synthesis converts a primary alkyl halide (\(\mathrm{R-X}\)) into a pure primary amine (\(\mathrm{R-NH_2}\)) with the exact same number of carbon atoms, without forming secondary or tertiary amine side products. Hoffmann bromamide reaction starts from an amide (not an alkyl halide) and reduces the carbon chain by one carbon. Sandmeyer reaction converts diazonium salts to aryl halides.</p><p><strong>Step 3: Final Conclusion</strong><br/>Therefore, Gabriel phthalimide synthesis is the best method for preparing primary amines from alkyl halides without changing the number of carbon atoms in the chain.</p><hr/><p><strong>चरण 1: अवधारणात्मक सिद्धांत</strong><br/>अमोनिया के साथ ऐल्किल हैलाइड की सीधी अभिक्रिया (अमोनीअपघटन) से \(1^{\circ}\), \(2^{\circ}\), और \(3^{\circ}\) ऐमीनों तथा चतुष्क अमोनियम लवणों का मिश्रण प्राप्त होता है, जिससे पृथक्करण कठिन हो जाता है। अतः, एक ऐसे चयनात्मक संश्लेषण को प्राथमिकता दी जाती है जो ऐल्किल हैलाइड की कार्बन शृंखला को बदले बिना केवल \(1^{\circ}\) ऐमीन दे।</p><p><strong>चरण 2: विधियों का मूल्यांकन</strong><br/>गैब्रिएल थैलिमाइड संश्लेषण द्वितीयक या तृतीयक ऐमीन सह-उत्पाद बनाए बिना प्राथमिक ऐल्किल हैलाइड (\(\mathrm{R-X}\)) को समान कार्बन परमाणु संख्या वाले शुद्ध प्राथमिक ऐमीन (\(\mathrm{R-NH_2}\)) में परिवर्तित करता है। हॉफमान ब्रोमैमाइड अभिक्रिया ऐमाइड (न कि ऐल्किल हैलाइड) से प्रारंभ होती है और कार्बन शृंखला को एक कार्बन कम कर देती है। सैंडमायर अभिक्रिया डाइऐज़ोनियम लवणों को ऐरिल हैलाइडों में परिवर्तित करती है।</p><p><strong>चरण 3: अंतिम निष्कर्ष</strong><br/>अतः, शृंखला में कार्बन परमाणुओं की संख्या में परिवर्तन किए बिना ऐल्किल हैलाइडों से प्राथमिक ऐमीन बनाने की सर्वोत्तम विधि गैब्रिएल थैलिमाइड संश्लेषण है।</p>]]></text></generalfeedback>
   <defaultgrade>4.0000000</defaultgrade>
   <penalty>0.2500000</penalty>
   <hidden>0</hidden>
   <single>true</single>
   <shuffleanswers>true</shuffleanswers>
   <answernumbering>iii</answernumbering>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>Hoffmann Bromamide reaction</p>]]></text>
-  </answer>
-  <answer fraction="100" format="html">
-    <text><![CDATA[<p>Gabriel phthalimide synthesis</p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>Sandmeyer reaction</p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>Reaction with \(\mathrm{NH}_3\)</p>]]></text>
-  </answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>Hoffmann Bromamide reaction</p>]]></text></answer>
+  <answer fraction="100" format="html"><text><![CDATA[<p>Gabriel phthalimide synthesis</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>Sandmeyer reaction</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>Reaction with \(\mathrm{NH_3}\)</p>]]></text></answer>
   <tags>
     <tag><text>standard:neet_ug</text></tag>
     <tag><text>lang:en</text></tag>
     <tag><text>lang:hi</text></tag>
     <tag><text>subject:chemistry</text></tag>
-    <tag><text>class:class_12</text></tag>
+    <tag><text>section:mcq_i</text></tag>
+    <tag><text>class:12</text></tag>
     <tag><text>chapter:amines</text></tag>
     <tag><text>typology:mcq</text></tag>
-    <tag><text>difficulty:medium</text></tag>
-    <tag><text>blooms:remember</text></tag>
-    <tag><text>calculation:light</text></tag>
-    <tag><text>media:text</text></tag>
-    <tag><text>multiconcept:false</text></tag>
-  </tags>
-</question>
-
-<question type="multichoice">
-  <name>
-    <text>NEET_UG_CHEMISTRY_AMINES_MCQ_Q22 - Deactivated aromatic compound unreactive in diazonium coupling</text>
-  </name>
-  <questiontext format="html">
-    <text><![CDATA[<p>Which of the following compound will not undergo azo coupling reaction with benzene diazonium chloride.</p><hr/><p>निम्नलिखित में से कौन-सा यौगिक बेन्जीन डाइऐज़ोनियम क्लोराइड के साथ ऐज़ो युग्मन अभिक्रिया नहीं दर्शाएगा?</p>]]></text>
-  </questiontext>
-  <generalfeedback format="html">
-    <text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>Azo coupling is an electrophilic aromatic substitution reaction where the benzenediazonium ion (\(\mathrm{C}_6\mathrm{H}_5\mathrm{N}_2^+\)) acts as the electrophile. Because the positive charge is delocalized over the two nitrogen atoms and the aromatic ring, the diazonium cation is a very weak electrophile. Consequently, it can only attack highly electron-rich, activated aromatic substrates.</p><p><strong>Step 2: Analysis of the Given Compounds</strong><br/>Examining the electronic characteristics of each aromatic substrate:<br/>- Aniline: Possesses a strong electron-donating \(-\mathrm{NH}_2\) group that strongly activates the ring, reacting readily with diazonium salts in mildly acidic/neutral medium to form yellow p-aminoazobenzene.<br/>- Phenol: Possesses an activating \(-\mathrm{OH}\) group that couples rapidly in mildly alkaline medium to yield orange p-hydroxyazobenzene.<br/>- Anisole: Contains an electron-donating methoxy group (\(-\mathrm{OCH}_3\)) which moderately activates the ring and can undergo coupling under appropriate conditions.<br/>- Nitrobenzene: Possesses a strongly electron-withdrawing nitro group (\(-\mathrm{NO}_2\)) via both \(-I\) and \(-R\) effects, which drastically depletes electron density from the benzene ring and deactivates it completely toward weak electrophiles like diazonium ions.</p><p><strong>Step 3: Final Conclusion</strong><br/>Because the nitro group strongly deactivates the aromatic ring, nitrobenzene will not undergo an azo coupling reaction with benzenediazonium chloride.</p><hr/><p><strong>चरण 1: संकल्पनात्मक सिद्धांत</strong><br/>ऐज़ो युग्मन एक इलेक्ट्रॉनरागी ऐरोमैटिक प्रतिस्थापन अभिक्रिया है जिसमें बेन्जीन डाइऐज़ोनियम धनायन (\(\mathrm{C}_6\mathrm{H}_5\mathrm{N}_2^+\)) इलेक्ट्रॉनरागी के रूप में कार्य करता है। दोनों नाइट्रोजन परमाणुओं तथा वलय पर धनावेश के विस्थानीकरण के कारण यह एक अत्यंत दुर्बल इलेक्ट्रॉनरागी होता है। अतः यह केवल अत्यधिक सक्रिय एवं इलेक्ट्रॉन-धनी ऐरोमैटिक वलयों पर ही आक्रमण कर सकता है।</p><p><strong>चरण 2: दिए गए यौगिकों का विश्लेषण</strong><br/>यौगिकों के इलेक्ट्रॉनिक प्रभाव का परीक्षण:<br/>- ऐनिलीन: \(-\mathrm{NH}_2\) समूह के प्रबल इलेक्ट्रॉन-दाता प्रभाव के कारण वलय अत्यधिक सक्रिय होती है और सुगमता से युग्मन दर्शाती है।<br/>- फीनॉल: \(-\mathrm{OH}\) समूह की उपस्थिति में मंद क्षारीय माध्यम में तीव्रता से युग्मन होकर रंजक बनाता है।<br/>- ऐनिसोल: \(-\mathrm{OCH}_3\) समूह वलय को सक्रिय करता है और युग्मन अभिक्रिया दे सकता है।<br/>- नाइट्रोबेन्जीन: इसमें उपस्थित नाइट्रो समूह (\(-\mathrm{NO}_2\)) अपने प्रबल \(-I\) तथा \(-R\) प्रभावों द्वारा वलय से इलेक्ट्रॉन घनत्व को अत्यधिक घटा देता है, जिससे वलय दुर्बल इलेक्ट्रॉनरागियों के प्रति पूर्णतः निष्क्रिय हो जाती है।</p><p><strong>चरण 3: अंतिम निष्कर्ष</strong><br/>नाइट्रो समूह के प्रबल विसक्रियकारी प्रभाव के कारण नाइट्रोबेन्जीन डाइऐज़ोनियम क्लोराइड के साथ ऐज़ो युग्मन अभिक्रिया नहीं दर्शाता है।</p>]]></text>
-  </generalfeedback>
-  <defaultgrade>4.0000000</defaultgrade>
-  <penalty>0.2500000</penalty>
-  <hidden>0</hidden>
-  <single>true</single>
-  <shuffleanswers>true</shuffleanswers>
-  <answernumbering>iii</answernumbering>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>Aniline</p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>Phenol</p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>Anisole</p>]]></text>
-  </answer>
-  <answer fraction="100" format="html">
-    <text><![CDATA[<p>Nitrobenzene</p>]]></text>
-  </answer>
-  <tags>
-    <tag><text>standard:neet_ug</text></tag>
-    <tag><text>lang:en</text></tag>
-    <tag><text>lang:hi</text></tag>
-    <tag><text>subject:chemistry</text></tag>
-    <tag><text>class:class_12</text></tag>
-    <tag><text>chapter:amines</text></tag>
-    <tag><text>typology:mcq</text></tag>
-    <tag><text>difficulty:medium</text></tag>
+    <tag><text>difficulty:easy</text></tag>
     <tag><text>blooms:understand</text></tag>
-    <tag><text>calculation:light</text></tag>
     <tag><text>media:text</text></tag>
     <tag><text>multiconcept:false</text></tag>
   </tags>
 </question>
 
 <question type="multichoice">
-  <name>
-    <text>NEET_UG_CHEMISTRY_AMINES_MCQ_Q23 - Weakest Bronsted base among cyclic hydroxy and amino</text>
-  </name>
-  <questiontext format="html">
-    <text><![CDATA[<p>Which of the following compounds is the weakest Brönsted base?<br/><p><img src="@@PLUGINFILE@@/img-7.jpeg" alt="Given structures (i) Aniline, (ii) Cyclohexylamine, (iii) Phenol, (iv) Cyclohexanol" /></p></p><hr/><p>निम्नलिखित यौगिकों में से कौन-सा दुर्बलतम ब्रॉन्स्टेड क्षारक है?<br/><p><img src="@@PLUGINFILE@@/img-7.jpeg" alt="दी गई संरचनाएं (i) ऐनिलीन, (ii) साइक्लोहेक्सिलऐमीन, (iii) फीनॉल, (iv) साइक्लोहेक्सैनॉल" /></p></p>]]></text>
-  </questiontext>
-  <generalfeedback format="html">
-    <text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>A Brönsted base acts as a proton acceptor. Its basicity is governed by the availability of the lone pair of electrons on the heteroatom (nitrogen or oxygen) and the relative electronegativity of that atom. Nitrogen is less electronegative than oxygen, so amines are inherently much stronger bases than neutral oxygen-containing compounds like alcohols and phenols.</p><p><strong>Step 2: Comparison of Nitrogen and Oxygen Centers</strong><br/>Evaluating the four compounds shown in the image:<br/>- Cyclohexylamine (structure ii) and aniline (structure i) have nitrogen as their basic center. Cyclohexylamine is a strong aliphatic base (\(\mathrm{p}K_b \approx 3.3\)), and aniline, though weakened by resonance, remains a significantly stronger proton acceptor than alcohols or phenols (\(\mathrm{p}K_b \approx 9.4\)).<br/>- Cyclohexanol (structure iv) and phenol (structure iii) have oxygen as their basic center, making them intrinsically very weak bases.<br/>- Between cyclohexanol and phenol: in cyclohexanol, the oxygen lone pairs are localized in \(\mathrm{sp}^3\) orbitals. In phenol, the oxygen lone pairs are delocalized into the aromatic ring via resonance, dramatically lowering their availability for protonation. Furthermore, phenol is acidic (\(\mathrm{p}K_a \approx 10\)), and protonating phenol produces an exceptionally unstable oxonium ion that disrupts resonance stabilization.</p><p><strong>Step 3: Final Conclusion</strong><br/>Phenol (structure iii) has the least tendency to accept a proton, establishing it as the weakest Brönsted base among the four compounds.</p><hr/><p><strong>चरण 1: संकल्पनात्मक सिद्धांत</strong><br/>ब्रॉन्स्टेड क्षारक वह स्पीशीज होती है जो प्रोटॉन ग्रहण करती है। इसकी सामर्थ्य विषम परमाणु (नाइट्रोजन अथवा ऑक्सीजन) पर एकाकी इलेक्ट्रॉन युग्म की उपलब्धता तथा उस परमाणु की विद्युतऋणात्मकता पर निर्भर करती है। नाइट्रोजन की विद्युतऋणात्मकता ऑक्सीजन से कम होने के कारण ऐमीन सामान्यतः ऐल्कोहॉलों एवं फीनॉलों की तुलना में कहीं अधिक प्रबल क्षारक होते हैं।</p><p><strong>चरण 2: नाइट्रोजन एवं ऑक्सीजन केंद्रों की तुलना</strong><br/>चित्र में दर्शाई गई चारों संरचनाओं का मूल्यांकन:<br/>- साइक्लोहेक्सिलऐमीन (संरचना ii) एवं ऐनिलीन (संरचना i) में क्षारक केंद्र नाइट्रोजन है। साइक्लोहेक्सिलऐमीन प्रबल ऐलिफ़ैटिक क्षारक है (\(\mathrm{p}K_b \approx 3.3\)) तथा ऐनिलीन में अनुनाद होने के बावजूद यह ऐल्कोहॉलों की तुलना में अधिक क्षारीय है (\(\mathrm{p}K_b \approx 9.4\))।<br/>- साइक्लोहेक्सैनॉल (संरचना iv) एवं फीनॉल (संरचना iii) में क्षारक केंद्र ऑक्सीजन है, जो अधिक विद्युतऋणी होने के कारण अत्यंत दुर्बल क्षारक होते हैं।<br/>- साइक्लोहेक्सैनॉल और फीनॉल में तुलना करने पर: साइक्लोहेक्सैनॉल में ऑक्सीजन के एकाकी युग्म स्थानिक होते हैं। फीनॉल में ऑक्सीजन का एकाकी युग्म बेन्जीन वलय के साथ अनुनाद में विस्थानीकृत रहता है, जिससे यह प्रोटॉन ग्रहण करने हेतु अत्यंत कम उपलब्ध होता है। इसके अतिरिक्त, फीनॉल अम्लीय प्रकृति (\(\mathrm{p}K_a \approx 10\)) रखता है, अतः प्रोटॉन ग्रहण करने की इसकी प्रवृत्ति न्यूनतम होती है।</p><p><strong>चरण 3: अंतिम निष्कर्ष</strong><br/>प्रोटॉन ग्रहण करने की न्यूनतम प्रवृत्ति के कारण फीनॉल (संरचना iii) दुर्बलतम ब्रॉन्स्टेड क्षारक है।</p>]]></text>
-  </generalfeedback>
+  <name><text>NEETUG_CHEMISTRY_MCQI_AMINES_MCQ_Q22 - Compound not undergoing azo coupling with benzene diazonium chloride</text></name>
+  <questiontext format="html"><text><![CDATA[<p>Which of the following compound will not undergo azo coupling reaction with benzene diazonium chloride.</p><hr/><p>निम्नलिखित में से कौन-सा यौगिक बेन्जीन डाइऐज़ोनियम क्लोराइड के साथ ऐज़ो युग्मन अभिक्रिया नहीं करेगा?</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>The azo coupling reaction between benzene diazonium chloride (\(\mathrm{C_6H_5N_2^+Cl^-}\)) and an aromatic compound is an electrophilic aromatic substitution reaction in which the diazonium cation (\(\mathrm{C_6H_5N_2^+}\)) acts as a weak electrophile. Because \(\mathrm{C_6H_5N_2^+}\) is a weak electrophile, it only reacts with aromatic rings that are strongly activated by electron-donating groups.</p><p><strong>Step 2: Evaluation of Each Compound</strong><br/>Aniline (\(-\mathrm{NH_2}\)), phenol (\(-\mathrm{OH}\)), and anisole (\(-\mathrm{OCH_3}\)) all contain strong electron-donating (\(+R\)) groups that activate the benzene ring towards electrophilic attack, so they undergo azo coupling. In contrast, nitrobenzene contains a strongly electron-withdrawing (\(-R, -I\)) nitro (\(-\mathrm{NO_2}\)) group, which deactivates the benzene ring and prevents reaction with the weak diazonium electrophile.</p><p><strong>Step 3: Final Conclusion</strong><br/>Therefore, nitrobenzene will not undergo azo coupling reaction with benzene diazonium chloride.</p><hr/><p><strong>चरण 1: अवधारणात्मक सिद्धांत</strong><br/>बेन्जीन डाइऐज़ोनियम क्लोराइड (\(\mathrm{C_6H_5N_2^+Cl^-}\)) और किसी ऐरोमैटिक यौगिक के बीच होने वाली ऐज़ो युग्मन अभिक्रिया एक इलेक्ट्रॉनरागी ऐरोमैटिक प्रतिस्थापन अभिक्रिया है जिसमें डाइऐज़ोनियम धनायन (\(\mathrm{C_6H_5N_2^+}\)) एक दुर्बल इलेक्ट्रॉनरागी के रूप में कार्य करता है। चूँकि \(\mathrm{C_6H_5N_2^+}\) एक दुर्बल इलेक्ट्रॉनरागी है, इसलिए यह केवल उन्हीं ऐरोमैटिक वलयों से अभिक्रिया करता है जो इलेक्ट्रॉन-दाता समूहों द्वारा प्रबलता से सक्रियित होते हैं।</p><p><strong>चरण 2: प्रत्येक यौगिक का मूल्यांकन</strong><br/>ऐनिलीन (\(-\mathrm{NH_2}\)), फीनॉल (\(-\mathrm{OH}\)), और ऐनिसोल (\(-\mathrm{OCH_3}\)) सभी में प्रबल इलेक्ट्रॉन-दाता (\(+R\)) समूह होते हैं जो इलेक्ट्रॉनरागी आक्रमण के प्रति बेंजीन वलय को सक्रियित करते हैं, अतः वे ऐज़ो युग्मन दर्शाते हैं। इसके विपरीत, नाइट्रोबेंजीन में एक प्रबल इलेक्ट्रॉन-अपकर्षी (\(-R, -I\)) नाइट्रो (\(-\mathrm{NO_2}\)) समूह होता है, जो बेंजीन वलय को निष्क्रियित कर देता है और दुर्बल डाइऐज़ोनियम इलेक्ट्रॉनरागी के साथ अभिक्रिया को रोकता है।</p><p><strong>चरण 3: अंतिम निष्कर्ष</strong><br/>अतः, नाइट्रोबेंजीन बेन्जीन डाइऐज़ोनियम क्लोराइड के साथ ऐज़ो युग्मन अभिक्रिया नहीं करेगा।</p>]]></text></generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>iii</answernumbering>
+  <answer fraction="0" format="html"><text><![CDATA[<p>Aniline</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>Phenol</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>Anisole</p>]]></text></answer>
+  <answer fraction="100" format="html"><text><![CDATA[<p>Nitrobenzene</p>]]></text></answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:hi</text></tag>
+    <tag><text>subject:chemistry</text></tag>
+    <tag><text>section:mcq_i</text></tag>
+    <tag><text>class:12</text></tag>
+    <tag><text>chapter:amines</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:medium</text></tag>
+    <tag><text>blooms:apply</text></tag>
+    <tag><text>media:text</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+
+<question type="multichoice">
+  <name><text>NEETUG_CHEMISTRY_MCQI_AMINES_MCQ_Q23 - Weakest Bronsted base among amines, phenol, and cyclohexanol</text></name>
+  <questiontext format="html"><text><![CDATA[<p>Which of the following compounds is the weakest Brönsted base?</p><p><img src="@@PLUGINFILE@@/img-7.jpeg" alt="Structures of (i) Aniline, (ii) Cyclohexylamine, (iii) Phenol, and (iv) Cyclohexanol" /></p><hr/><p>निम्नलिखित में से कौन-सा यौगिक दुर्बलतम ब्रॉन्स्टेड क्षारक है?</p><p><img src="@@PLUGINFILE@@/img-7.jpeg" alt="(i) ऐनिलीन, (ii) साइक्लोहेक्सिलऐमीन, (iii) फीनॉल, और (iv) साइक्लोहेक्सेनॉल की संरचनाएँ" /></p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>A Brönsted base is a proton (\(\mathrm{H^+}\)) acceptor. Its strength increases with the availability of a lone pair of electrons on the heteroatom (\(\mathrm{N}\) or \(\mathrm{O}\)) for protonation.</p><p><strong>Step 2: Comparison of Heteroatoms and Resonance</strong><br/>First, nitrogen is less electronegative than oxygen, so amines (aniline and cyclohexylamine) hold their lone pairs less tightly and are stronger Brönsted bases than alcohols or phenols (cyclohexanol and phenol). Second, comparing cyclohexanol and phenol: in cyclohexanol, the lone pairs on oxygen are localized on the oxygen atom, whereas in phenol, the lone pair on oxygen is delocalized into the benzene ring through resonance. This delocalization makes phenol's lone pair much less available to accept a proton (indeed, phenol is weakly acidic rather than basic).</p><p><strong>Step 3: Final Conclusion</strong><br/>Therefore, phenol is the weakest Brönsted base among the given compounds.</p><hr/><p><strong>चरण 1: अवधारणात्मक सिद्धांत</strong><br/>ब्रॉन्स्टेड क्षारक एक प्रोटॉन (\(\mathrm{H^+}\)) ग्राही होता है। प्रोटॉनन के लिए विषम परमाणु (\(\mathrm{N}\) या \(\mathrm{O}\)) पर एकाकी इलेक्ट्रॉन युगल की उपलब्धता बढ़ने पर इसकी प्रबलता बढ़ती है।</p><p><strong>चरण 2: विषम परमाणुओं और अनुनाद की तुलना</strong><br/>प्रथम, नाइट्रोजन की विद्युतऋणात्मकता ऑक्सीजन से कम होती है, इसलिए ऐमीन (ऐनिलीन और साइक्लोहेक्सिलऐमीन) अपने एकाकी इलेक्ट्रॉन युगल को कम दृढ़ता से बांधते हैं और ऐल्कोहॉल या फीनॉल (साइक्लोहेक्सेनॉल और फीनॉल) की तुलना में प्रबलतर ब्रॉन्स्टेड क्षारक होते हैं। द्वितीय, साइक्लोहेक्सेनॉल और फीनॉल की तुलना करने पर: साइक्लोहेक्सेनॉल में ऑक्सीजन के एकाकी इलेक्ट्रॉन युगल ऑक्सीजन परमाणु पर स्थानीयकृत रहते हैं, जबकि फीनॉल में ऑक्सीजन का एकाकी इलेक्ट्रॉन युगल अनुनाद द्वारा बेंजीन वलय में विस्थानीकृत हो जाता है। यह विस्थानीकरण फीनॉल के एकाकी युगल को प्रोटॉन ग्रहण करने के लिए बहुत कम उपलब्ध बनाता है (वास्तव में, फीनॉल क्षारकीय होने के बजाय दुर्बल अम्लीय होता है)।</p><p><strong>चरण 3: अंतिम निष्कर्ष</strong><br/>अतः, दिए गए यौगिकों में से फीनॉल दुर्बलतम ब्रॉन्स्टेड क्षारक है।</p>]]></text></generalfeedback>
   <defaultgrade>4.0000000</defaultgrade>
   <penalty>0.2500000</penalty>
   <hidden>0</hidden>
   <single>true</single>
   <shuffleanswers>false</shuffleanswers>
-  <answernumbering>none</answernumbering>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>(i)</p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>(ii)</p>]]></text>
-  </answer>
-  <answer fraction="100" format="html">
-    <text><![CDATA[<p>(iii)</p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>(iv)</p>]]></text>
-  </answer>
+  <answernumbering>iii</answernumbering>
+  <answer fraction="0" format="html"><text><![CDATA[<p>Aniline</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>Cyclohexylamine</p>]]></text></answer>
+  <answer fraction="100" format="html"><text><![CDATA[<p>Phenol</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>Cyclohexanol</p>]]></text></answer>
   <tags>
     <tag><text>standard:neet_ug</text></tag>
     <tag><text>lang:en</text></tag>
     <tag><text>lang:hi</text></tag>
     <tag><text>subject:chemistry</text></tag>
-    <tag><text>class:class_12</text></tag>
+    <tag><text>section:mcq_i</text></tag>
+    <tag><text>class:12</text></tag>
     <tag><text>chapter:amines</text></tag>
     <tag><text>typology:mcq</text></tag>
     <tag><text>difficulty:medium</text></tag>
     <tag><text>blooms:analyze</text></tag>
-    <tag><text>calculation:light</text></tag>
     <tag><text>media:diagram</text></tag>
-    <tag><text>multiconcept:false</text></tag>
+    <tag><text>multiconcept:true</text></tag>
   </tags>
 </question>

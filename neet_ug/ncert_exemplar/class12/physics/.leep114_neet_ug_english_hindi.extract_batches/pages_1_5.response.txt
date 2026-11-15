@@ -1,41 +1,27 @@
 <question type="multichoice">
-  <name>
-    <text>NEET_UG_PHYSICS_SEMICONDUCTOR_ELECTRONICS_MCQ_Q01 - Electrical conductivity of semiconductor with temperature</text>
-  </name>
-  <questiontext format="html">
-    <text><![CDATA[<p>The conductivity of a semiconductor increases with increase in temperature because</p><hr/><p>किसी अर्धचालक की विद्युत चालकता तापमान में वृद्धि के साथ बढ़ती है क्योंकि</p>]]></text>
-  </questiontext>
-  <generalfeedback format="html">
-    <text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>The electrical conductivity \(\sigma\) of a semiconductor is given by the relation:\[\sigma = e(n_e \mu_e + n_h \mu_h) = e^2 \left(\frac{n_e \tau_e}{m_e} + \frac{n_h \tau_h}{m_h}\right)\]where \(n_e\) and \(n_h\) are the number densities of electrons and holes, \(\tau_e\) and \(\tau_h\) are their respective relaxation times, and \(e\) is the elementary charge.</p><p><strong>Step 2: Temperature Dependence of Charge Carrier Density</strong><br/>In semiconductors, the energy band gap between the valence band and the conduction band is relatively small. As temperature increases, thermal energy ruptures covalent bonds, causing an exponential increase in the number density of intrinsic charge carriers:\[n_i \propto T^{3/2} \exp\left(-\frac{E_g}{2 k_B T}\right)\]</p><p><strong>Step 3: Temperature Dependence of Relaxation Time</strong><br/>With rising temperature, the amplitude of thermal vibrations of lattice ions increases, which increases scattering events and causes the relaxation time \(\tau\) to decrease slightly.</p><p><strong>Step 4: Comparison and Net Effect</strong><br/>The exponential increase in the number density of current carriers is far more pronounced than the moderate decrease in relaxation time. Consequently, the product \(n \tau\) increases significantly, leading to an overall increase in electrical conductivity.</p><p><strong>Step 5: Final Conclusion</strong><br/>The conductivity of a semiconductor increases with temperature because the number density of current carriers increases, relaxation time decreases, but the effect of the decrease in relaxation time is much less than the increase in number density.</p><hr/><p><strong>चरण 1: संकल्पनात्मक सिद्धांत</strong><br/>किसी अर्धचालक की विद्युत चालकता \(\sigma\) निम्न संबंध द्वारा दी जाती है:\[\sigma = e(n_e \mu_e + n_h \mu_h) = e^2 \left(\frac{n_e \tau_e}{m_e} + \frac{n_h \tau_h}{m_h}\right)\]जहाँ \(n_e\) और \(n_h\) क्रमशः इलेक्ट्रॉनों और होलों का संख्या घनत्व हैं, \(\tau_e\) और \(\tau_h\) उनके विश्रांति काल हैं, तथा \(e\) मूल आवेश है।</p><p><strong>चरण 2: आवेश वाहक घनत्व की तापमान पर निर्भरता</strong><br/>अर्धचालकों में संयोजकता बैंड और चालन बैंड के बीच ऊर्जा अंतराल अपेक्षाकृत कम होता है। तापमान में वृद्धि होने पर ऊष्मीय ऊर्जा के कारण सहसंयोजक बंध टूटते हैं, जिससे मुक्त आवेश वाहकों के संख्या घनत्व में चरघातांकी वृद्धि होती है:\[n_i \propto T^{3/2} \exp\left(-\frac{E_g}{2 k_B T}\right)\]</p><p><strong>चरण 3: विश्रांति काल की तापमान पर निर्भरता</strong><br/>तापमान बढ़ने पर जालक आयनों के ऊष्मीय कंपनों का आयाम बढ़ता है, जिससे संघट्टों की दर बढ़ जाती है और विश्रांति काल \(\tau\) घट जाता है।</p><p><strong>चरण 4: तुलना और कुल प्रभाव</strong><br/>विद्युत धारा वाहकों के संख्या घनत्व में होने वाली चरघातांकी वृद्धि विश्रांति काल में होने वाली कमी की तुलना में अत्यधिक प्रभावी होती है। परिणामस्वरूप, गुणनफल \(n \tau\) में प्रभावी वृद्धि होती है, जिससे समग्र विद्युत चालकता बढ़ जाती है।</p><p><strong>चरण 5: अंतिम निष्कर्ष</strong><br/>अर्धचालक की चालकता तापमान बढ़ने पर इसलिए बढ़ती है क्योंकि धारा वाहकों का संख्या घनत्व बढ़ता है, विश्रांति काल घटता है, किंतु विश्रांति काल के घटने का प्रभाव संख्या घनत्व के बढ़ने के प्रभाव की तुलना में बहुत कम होता है।</p>]]></text>
-  </generalfeedback>
+  <name><text>NCERTEXEMPLAR_PHYSICS_MCQI_SEMICONDUCTORELECTRONICS_MCQ_Q14_1 - Conductivity of semiconductor with temperature</text></name>
+  <questiontext format="html"><text><![CDATA[<p>14.1 The conductivity of a semiconductor increases with increase in temperature because</p><hr/><p>14.1 ताप में वृद्धि के साथ अर्धचालक की चालकता बढ़ती है क्योंकि</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>The electrical conductivity \(\sigma\) of a semiconductor is given by \(\sigma = n e \mu\), where \(n\) is the number density of charge carriers, \(e\) is the elementary charge, and \(\mu = \frac{e\tau}{m^*}\) is the mobility (with \(\tau\) being the relaxation time and \(m^*\) the effective mass).</p><p><strong>Step 2: Evaluation of Temperature Effects</strong><br/>As temperature increases, more covalent bonds break, causing the number density \(n\) of free current carriers (electrons and holes) to increase exponentially. Simultaneously, increased thermal agitation leads to more frequent lattice collisions, which decreases the relaxation time \(\tau\).</p><p><strong>Step 3: Application and Conclusion</strong><br/>Because the exponential increase in the number density of current carriers far outweighs the relatively small decrease in relaxation time, the net conductivity \(\sigma\) increases with temperature. Thus, the number density of current carriers increases, relaxation time decreases, but the effect of decrease in relaxation time is much less than the increase in number density.</p><hr/><p><strong>चरण 1: अवधारणात्मक सिद्धांत</strong><br/>किसी अर्धचालक की विद्युत चालकता \(\sigma = n e \mu\) द्वारा दी जाती है, जहाँ \(n\) आवेश वाहकों का संख्या घनत्व है, \(e\) मूल आवेश है, और \(\mu = \frac{e\tau}{m^*}\) गतिशीलता है (जहाँ \(\tau\) विश्रांति काल और \(m^*\) प्रभावी द्रव्यमान है)।</p><p><strong>चरण 2: ताप प्रभावों का मूल्यांकन</strong><br/>जैसे-जैसे ताप बढ़ता है, अधिक सहसंयोजक बंध टूटते हैं, जिससे मुक्त धारा वाहकों (इलेक्ट्रॉनों और होलों) का संख्या घनत्व \(n\) चरघातांकी रूप से बढ़ता है। साथ ही, बढ़े हुए ऊष्मीय प्रक्षोभ के कारण जालक संघट्ट अधिक बार होते हैं, जिससे विश्रांति काल \(\tau\) कम हो जाता है।</p><p><strong>चरण 3: अनुप्रयोग और निष्कर्ष</strong><br/>चूँकि धारा वाहकों के संख्या घनत्व में चरघातांकी वृद्धि विश्रांति काल में अपेक्षाकृत छोटी कमी की तुलना में बहुत अधिक होती है, इसलिए कुल चालकता \(\sigma\) ताप के साथ बढ़ती है। अतः धारा वाहकों का संख्या घनत्व बढ़ता है, विश्रांति काल घटता है, परंतु विश्रांति काल में कमी का प्रभाव संख्या घनत्व में वृद्धि की तुलना में बहुत कम होता है।</p>]]></text></generalfeedback>
   <defaultgrade>4.0000000</defaultgrade>
   <penalty>0.2500000</penalty>
   <hidden>0</hidden>
   <single>true</single>
   <shuffleanswers>true</shuffleanswers>
   <answernumbering>abc</answernumbering>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>number density of free current carriers increases.</p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>relaxation time increases.</p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>both number density of carriers and relaxation time increase.</p>]]></text>
-  </answer>
-  <answer fraction="100" format="html">
-    <text><![CDATA[<p>number density of current carriers increases, relaxation time decreases but effect of decrease in relaxation time is much less than increase in number density.</p>]]></text>
-  </answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>number density of free current carriers increases.</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>relaxation time increases.</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>both number density of carriers and relaxation time increase.</p>]]></text></answer>
+  <answer fraction="100" format="html"><text><![CDATA[<p>number density of current carriers increases, relaxation time decreases but effect of decrease in relaxation time is much less than increase in number density.</p>]]></text></answer>
   <tags>
     <tag><text>standard:neet_ug</text></tag>
     <tag><text>lang:en</text></tag>
     <tag><text>lang:hi</text></tag>
     <tag><text>subject:physics</text></tag>
+    <tag><text>section:mcq_i</text></tag>
     <tag><text>class:class_12</text></tag>
-    <tag><text>topic:semiconductor_electronics</text></tag>
-    <tag><text>chapter:semiconductor_electronics_materials_devices_and_simple_circuits</text></tag>
+    <tag><text>chapter:semiconductor_electronics</text></tag>
     <tag><text>typology:mcq</text></tag>
-    <tag><text>difficulty:medium</text></tag>
+    <tag><text>difficulty:easy</text></tag>
     <tag><text>blooms:understand</text></tag>
     <tag><text>calculation:light</text></tag>
     <tag><text>media:text</text></tag>
@@ -43,85 +29,57 @@
   </tags>
 </question>
 <question type="multichoice">
-  <name>
-    <text>NEET_UG_PHYSICS_SEMICONDUCTOR_ELECTRONICS_MCQ_Q02 - Potential barrier across pn junction under bias</text>
-  </name>
-  <questiontext format="html">
-    <text><![CDATA[<p>In Fig. 14.1, \(V_o\) is the potential barrier across a p-n junction, when no battery is connected across the junction.</p><p><img src="@@PLUGINFILE@@/img-0.jpeg" alt="Fig. 14.1" /></p><hr/><p>चित्र 14.1 में, \(V_o\) एक p-n संधि के आर-पार विभव प्राचीर है, जब संधि के सिरों पर कोई बैटरी नहीं जोड़ी गई है।</p>]]></text>
-  </questiontext>
-  <generalfeedback format="html">
-    <text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>The diagram illustrates three potential profile curves across a p-n junction: curve 2 represents the unbiased equilibrium state with barrier height \(V_o\), curve 1 represents an elevated barrier, and curve 3 represents a reduced barrier.</p><p><strong>Step 2: Physics of Biasing</strong><br/>In an unbiased p-n junction, an internal electric field is established across the depletion region directed from the n-side to the p-side, producing an equilibrium built-in barrier potential \(V_o\).</p><p><strong>Step 3: Effect of Forward Bias</strong><br/>When a p-n junction is forward biased, the applied external voltage opposes the built-in barrier potential. This narrows the depletion width and lowers the barrier height to \((V_o - V)\). Thus, the lowest barrier profile, labeled 3, corresponds to forward bias.</p><p><strong>Step 4: Effect of Reverse Bias</strong><br/>When the junction is reverse biased, the applied external voltage acts in the same direction as the built-in potential. This widens the depletion layer and increases the effective barrier height to \((V_o + V)\). Thus, the highest barrier profile, labeled 1, corresponds to reverse bias.</p><p><strong>Step 5: Final Conclusion</strong><br/>Curve 3 corresponds to the forward bias of the junction and curve 1 corresponds to the reverse bias of the junction.</p><hr/><p><strong>चरण 1: दिए गए आँकड़े और स्थितियाँ</strong><br/>आरेख में p-n संधि पर तीन विभव प्रोफाइल वक्र दर्शाए गए हैं: वक्र 2 बिना किसी बाह्य अभिनति की साम्यावस्था को दर्शाता है जिसकी प्राचीर ऊँचाई \(V_o\) है, वक्र 1 बढ़ी हुई विभव प्राचीर को दर्शाता है, तथा वक्र 3 घटी हुई विभव प्राचीर को दर्शाता है।</p><p><strong>चरण 2: अभिनति का भौतिक सिद्धांत</strong><br/>अग्र-अभिनति रहित p-n संधि में ह्रासी क्षेत्र के आर-पार n-क्षेत्र से p-क्षेत्र की ओर एक आंतरिक विद्युत क्षेत्र स्थापित होता है, जिससे साम्यावस्था विभव प्राचीर \(V_o\) उत्पन्न होती है।</p><p><strong>चरण 3: अग्र अभिनति का प्रभाव</strong><br/>जब संधि को अग्र अभिनत किया जाता है, तो बाह्य आरोपित विभव आंतरिक प्राचीर विभव का विरोध करता है। इससे ह्रासी परत की चौड़ाई घटती है और प्रभावी प्राचीर ऊँचाई घटकर \((V_o - V)\) हो जाती है। अतः सबसे निचला वक्र 3 अग्र अभिनति को प्रदर्शित करता है।</p><p><strong>चरण 4: पश्च अभिनति का प्रभाव</strong><br/>जब संधि को पश्च अभिनत किया जाता है, तो बाह्य विभव आंतरिक प्राचीर विभव की ही दिशा में कार्य करता है। इससे ह्रासी परत चौड़ी हो जाती है और प्रभावी प्राचीर ऊँचाई बढ़कर \((V_o + V)\) हो जाती है। अतः सबसे ऊँचा वक्र 1 पश्च अभिनति को प्रदर्शित करता है।</p><p><strong>चरण 5: अंतिम निष्कर्ष</strong><br/>वक्र 3 संधि की अग्र अभिनति से संबंधित है तथा वक्र 1 संधि की पश्च अभिनति से संबंधित है।</p>]]></text>
-  </generalfeedback>
+  <name><text>NCERTEXEMPLAR_PHYSICS_MCQI_SEMICONDUCTORELECTRONICS_MCQ_Q14_2 - Potential barrier across p-n junction</text></name>
+  <questiontext format="html"><text><![CDATA[<p>14.2 In Fig. 14.1, \(V_o\) is the potential barrier across a p-n junction, when no battery is connected across the junction</p><p><img src="@@PLUGINFILE@@/img-0.jpeg" alt="Potential barrier curves 1, 2, 3 across a p-n junction" /></p><hr/><p>14.2 चित्र 14.1 में, जब p-n संधि के सिरों पर कोई बैटरी नहीं जुड़ी है, तब संधि के आर-पार विभव प्राचीर \(V_o\) है</p><p><img src="@@PLUGINFILE@@/img-0.jpeg" alt="Potential barrier curves 1, 2, 3 across a p-n junction" /></p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>At equilibrium (no external battery connected), a p-n junction has a built-in potential barrier \(V_o\), represented by curve 2.</p><p><strong>Step 2: Evaluation of Biasing Effects</strong><br/>When the p-n junction is forward biased, the applied external voltage opposes the built-in potential barrier, thereby reducing the effective barrier height below \(V_o\). Conversely, when the junction is reverse biased, the applied voltage aids the built-in potential barrier, increasing the effective barrier height above \(V_o\).</p><p><strong>Step 3: Application and Conclusion</strong><br/>In the given figure, curve 3 has a barrier height smaller than \(V_o\), so 3 corresponds to forward bias of the junction. Curve 1 has a barrier height greater than \(V_o\), so 1 corresponds to reverse bias of the junction.</p><hr/><p><strong>चरण 1: अवधारणात्मक सिद्धांत</strong><br/>साम्यावस्था में (जब कोई बाह्य बैटरी जुड़ी न हो), एक p-n संधि में अंतर्निहित विभव प्राचीर \(V_o\) होता है, जिसे वक्र 2 द्वारा दर्शाया गया है।</p><p><strong>चरण 2: बायसन प्रभावों का मूल्यांकन</strong><br/>जब p-n संधि अग्र अभिनत (forward biased) होती है, तो आरोपित बाह्य वोल्टता अंतर्निहित विभव प्राचीर का विरोध करती है, जिससे प्रभावी प्राचीर ऊँचाई \(V_o\) से कम हो जाती है। इसके विपरीत, जब संधि पश्च अभिनत (reverse biased) होती है, तो आरोपित वोल्टता अंतर्निहित विभव प्राचीर की सहायता करती है, जिससे प्रभावी प्राचीर ऊँचाई \(V_o\) से अधिक हो जाती है।</p><p><strong>चरण 3: अनुप्रयोग और निष्कर्ष</strong><br/>दिए गए चित्र में, वक्र 3 की प्राचीर ऊँचाई \(V_o\) से कम है, अतः 3 संधि के अग्र अभिनति के संगत है। वक्र 1 की प्राचीर ऊँचाई \(V_o\) से अधिक है, अतः 1 संधि के पश्च अभिनति के संगत है।</p>]]></text></generalfeedback>
   <defaultgrade>4.0000000</defaultgrade>
   <penalty>0.2500000</penalty>
   <hidden>0</hidden>
   <single>true</single>
   <shuffleanswers>true</shuffleanswers>
   <answernumbering>abc</answernumbering>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>1 and 3 both correspond to forward bias of junction</p>]]></text>
-  </answer>
-  <answer fraction="100" format="html">
-    <text><![CDATA[<p>3 corresponds to forward bias of junction and 1 corresponds to reverse bias of junction</p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>1 corresponds to forward bias and 3 corresponds to reverse bias of junction.</p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>3 and 1 both correspond to reverse bias of junction.</p>]]></text>
-  </answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>1 and 3 both correspond to forward bias of junction</p>]]></text></answer>
+  <answer fraction="100" format="html"><text><![CDATA[<p>3 corresponds to forward bias of junction and 1 corresponds to reverse bias of junction</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>1 corresponds to forward bias and 3 corresponds to reverse bias of junction.</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>3 and 1 both correspond to reverse bias of junction.</p>]]></text></answer>
   <tags>
     <tag><text>standard:neet_ug</text></tag>
     <tag><text>lang:en</text></tag>
     <tag><text>lang:hi</text></tag>
     <tag><text>subject:physics</text></tag>
+    <tag><text>section:mcq_i</text></tag>
     <tag><text>class:class_12</text></tag>
-    <tag><text>topic:semiconductor_electronics</text></tag>
-    <tag><text>chapter:semiconductor_electronics_materials_devices_and_simple_circuits</text></tag>
+    <tag><text>chapter:semiconductor_electronics</text></tag>
     <tag><text>typology:mcq</text></tag>
-    <tag><text>difficulty:medium</text></tag>
+    <tag><text>difficulty:easy</text></tag>
     <tag><text>blooms:understand</text></tag>
     <tag><text>calculation:light</text></tag>
-    <tag><text>media:graph</text></tag>
+    <tag><text>media:diagram</text></tag>
     <tag><text>multiconcept:false</text></tag>
   </tags>
 </question>
 <question type="multichoice">
-  <name>
-    <text>NEET_UG_PHYSICS_SEMICONDUCTOR_ELECTRONICS_MCQ_Q03 - Biasing and current in two ideal diodes circuit</text>
-  </name>
-  <questiontext format="html">
-    <text><![CDATA[<p>In Fig. 14.2, assuming the diodes to be ideal,</p><p><img src="@@PLUGINFILE@@/img-1.jpeg" alt="Fig. 14.2" /></p><hr/><p>चित्र 14.2 में, डायोडों को आदर्श मानते हुए,</p>]]></text>
-  </questiontext>
-  <generalfeedback format="html">
-    <text><![CDATA[<p><strong>Step 1: Given Data and Circuit Connections</strong><br/>Terminal A is connected to a potential \(V_A = -10\text{ V}\). Terminal B is grounded, so \(V_B = 0\text{ V}\). Diode \(\mathrm{D}_1\) has its anode towards terminal A and cathode towards the common junction. Diode \(\mathrm{D}_2\) has its anode at terminal B and cathode connected to the common junction.</p><p><strong>Step 2: Analysis of Diode \(\mathrm{D}_2\)</strong><br/>Terminal B is at \(0\text{ V}\). The anode of \(\mathrm{D}_2\) is connected to \(0\text{ V}\). Since terminal A is at \(-10\text{ V}\), the intermediate node potential tends to be negative relative to terminal B. Because the anode of \(\mathrm{D}_2\) is at a higher potential than its cathode, diode \(\mathrm{D}_2\) is forward biased.</p><p><strong>Step 3: Analysis of Diode \(\mathrm{D}_1\)</strong><br/>The anode of diode \(\mathrm{D}_1\) is connected to terminal A at \(-10\text{ V}\). The cathode of \(\mathrm{D}_1\) connects to the junction, which is maintained near \(0\text{ V}\) via the conducting diode \(\mathrm{D}_2\). Since the anode potential (\(-10\text{ V}\)) is less than the cathode potential (\(0\text{ V}\)), diode \(\mathrm{D}_1\) is reverse biased.</p><p><strong>Step 4: Circuit Conduction State</strong><br/>An ideal diode in reverse bias behaves as an open circuit with infinite resistance. Because \(\mathrm{D}_1\) is in series with the path to terminal A and is reverse biased, it completely blocks current flow in the loop. Thus, no current can flow from B to A or from A to B.</p><p><strong>Step 5: Final Conclusion</strong><br/>\(\mathrm{D}_2\) is forward biased and \(\mathrm{D}_1\) is reverse biased, and hence no current flows from B to A and vice versa.</p><hr/><p><strong>चरण 1: दिए गए परिपथीय मान एवं संयोजन</strong><br/>टर्मिनल A का विभव \(V_A = -10\text{ V}\) है। टर्मिनल B भूसंपर्कित है, अतः \(V_B = 0\text{ V}\) है। डायोड \(\mathrm{D}_1\) का एनोड A की ओर तथा कैथोड संधि बिंदु की ओर है। डायोड \(\mathrm{D}_2\) का एनोड टर्मिनल B पर तथा कैथोड संधि बिंदु से जुड़ा है।</p><p><strong>चरण 2: डायोड \(\mathrm{D}_2\) का विश्लेषण</strong><br/>टर्मिनल B का विभव \(0\text{ V}\) है। \(\mathrm{D}_2\) का एनोड \(0\text{ V}\) पर है। चूँकि टर्मिनल A ऋणात्मक (\(-10\text{ V}\)) है, उभयनिष्ठ संधि का विभव ऋणात्मक होने की प्रवृत्ति रखता है। एनोड का विभव कैथोड से अधिक होने के कारण डायोड \(\mathrm{D}_2\) अग्र अभिनत है।</p><p><strong>चरण 3: डायोड \(\mathrm{D}_1\) का विश्लेषण</strong><br/>डायोड \(\mathrm{D}_1\) का एनोड \(-10\text{ V}\) से जुड़ा है, जबकि इसका कैथोड चालन कर रहे डायोड \(\mathrm{D}_2\) के माध्यम से लगभग \(0\text{ V}\) पर है। एनोड का विभव कैथोड की तुलना में निम्नतर होने के कारण डायोड \(\mathrm{D}_1\) पश्च अभिनत है।</p><p><strong>चरण 4: परिपथ में धारा प्रवाह</strong><br/>पश्च अभिनत आदर्श डायोड खुले परिपथ (अनंत प्रतिरोध) की भाँति कार्य करता है। \(\mathrm{D}_1\) के पश्च अभिनत होने के कारण परिपथ खुला रहता है और धारा का कोई प्रवाह नहीं होता।</p><p><strong>चरण 5: अंतिम निष्कर्ष</strong><br/>\(\mathrm{D}_2\) अग्र अभिनत है और \(\mathrm{D}_1\) पश्च अभिनत है, अतः न तो B से A की ओर और न ही A से B की ओर कोई धारा प्रवाहित होती है।</p>]]></text>
-  </generalfeedback>
+  <name><text>NCERTEXEMPLAR_PHYSICS_MCQI_SEMICONDUCTORELECTRONICS_MCQ_Q14_3 - Ideal diodes biasing and current</text></name>
+  <questiontext format="html"><text><![CDATA[<p>14.3 In Fig. 14.2, assuming the diodes to be ideal,</p><p><img src="@@PLUGINFILE@@/img-1.jpeg" alt="Circuit with resistor R and two diodes D1 and D2 between A (-10 V) and B (ground)" /></p><hr/><p>14.3 चित्र 14.2 में, डायोडों को आदर्श मानते हुए,</p><p><img src="@@PLUGINFILE@@/img-1.jpeg" alt="Circuit with resistor R and two diodes D1 and D2 between A (-10 V) and B (ground)" /></p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>Point A is maintained at a potential \(V_A = -10\text{ V}\), and point B is grounded at \(V_B = 0\text{ V}\). Two ideal diodes \(\mathrm{D}_1\) and \(\mathrm{D}_2\) are connected in series with a resistor \(R\) between A and B such that their cathodes (n-sides) face each other.</p><p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>An ideal diode conducts with zero resistance when forward biased (p-side at higher potential than n-side) and acts as an open circuit when reverse biased (p-side at lower potential than n-side).</p><p><strong>Step 3: Relevant Formulae and Principles</strong><br/>Conventional current tends to flow from higher potential (B at \(0\text{ V}\)) to lower potential (A at \(-10\text{ V}\)).</p><p><strong>Step 4: Step-by-Step Working</strong><br/>For diode \(\mathrm{D}_2\), its p-side is connected to B (\(0\text{ V}\)) and its n-side faces the junction between the two diodes. Since \(V_B = 0\text{ V} &gt; V_A = -10\text{ V}\), \(\mathrm{D}_2\) is forward biased. For diode \(\mathrm{D}_1\), its p-side is connected toward A (\(-10\text{ V}\)) and its n-side is toward B (\(0\text{ V}\)). Thus, the p-side of \(\mathrm{D}_1\) is at a lower potential than its n-side, making \(\mathrm{D}_1\) reverse biased. Because \(\mathrm{D}_1\) is reverse biased in the series path, it blocks any current flow.</p><p><strong>Step 5: Check and Final Answer</strong><br/>Therefore, \(\mathrm{D}_2\) is forward biased and \(\mathrm{D}_1\) is reverse biased, and hence no current flows from B to A and vice versa.</p><hr/><p><strong>चरण 1: दिए गए आँकड़े और शर्तें</strong><br/>बिंदु A का विभव \(V_A = -10\text{ V}\) है और बिंदु B भू-संपर्कित है, अतः \(V_B = 0\text{ V}\) है। दो आदर्श डायोड \(\mathrm{D}_1\) और \(\mathrm{D}_2\) एक प्रतिरोध \(R\) के साथ A और B के बीच श्रेणीक्रम में इस प्रकार जुड़े हैं कि उनके कैथोड (n-सिरे) एक-दूसरे के आमने-सामने हैं।</p><p><strong>चरण 2: मान्यताएँ और चिह्न परिपाटी</strong><br/>एक आदर्श डायोड अग्र अभिनत (p-सिरा n-सिरे से उच्च विभव पर) होने पर शून्य प्रतिरोध के साथ चालन करता है और पश्च अभिनत (p-सिरा n-सिरे से निम्न विभव पर) होने पर खुले परिपथ की भाँति व्यवहार करता है।</p><p><strong>चरण 3: संबंधित सूत्र और सिद्धांत</strong><br/>पारंपरिक धारा उच्च विभव (B, \(0\text{ V}\)) से निम्न विभव (A, \(-10\text{ V}\)) की ओर प्रवाहित होने की प्रवृत्ति रखती है।</p><p><strong>चरण 4: चरण-दर-चरण हल</strong><br/>डायोड \(\mathrm{D}_2\) का p-सिरा B (\(0\text{ V}\)) से जुड़ा है और n-सिरा दोनों डायोडों के मध्य संधि की ओर है। चूँकि \(V_B = 0\text{ V} &gt; V_A = -10\text{ V}\), इसलिए \(\mathrm{D}_2\) अग्र अभिनत है। डायोड \(\mathrm{D}_1\) का p-सिरा A (\(-10\text{ V}\)) की ओर और n-सिरा B (\(0\text{ V}\)) की ओर है। इस प्रकार \(\mathrm{D}_1\) का p-सिरा उसके n-सिरे से निम्न विभव पर है, जिससे \(\mathrm{D}_1\) पश्च अभिनत है। श्रेणी पथ में \(\mathrm{D}_1\) के पश्च अभिनत होने के कारण यह किसी भी धारा प्रवाह को अवरुद्ध कर देता है।</p><p><strong>चरण 5: जाँच और अंतिम उत्तर</strong><br/>अतः \(\mathrm{D}_2\) अग्र अभिनत है और \(\mathrm{D}_1\) पश्च अभिनत है, इसलिए B से A की ओर तथा विपरीत दिशा में कोई धारा प्रवाहित नहीं होती है।</p>]]></text></generalfeedback>
   <defaultgrade>4.0000000</defaultgrade>
   <penalty>0.2500000</penalty>
   <hidden>0</hidden>
   <single>true</single>
   <shuffleanswers>true</shuffleanswers>
   <answernumbering>abc</answernumbering>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>\( \mathrm{D}_1 \) is forward biased and \( \mathrm{D}_2 \) is reverse biased and hence current flows from A to B</p>]]></text>
-  </answer>
-  <answer fraction="100" format="html">
-    <text><![CDATA[<p>\( \mathrm{D}_2 \) is forward biased and \( \mathrm{D}_1 \) is reverse biased and hence no current flows from B to A and vice versa.</p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>\(D_{1}\) and \(D_{2}\) are both forward biased and hence current flows from A to B.</p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>\(D_{1}\) and \(D_{2}\) are both reverse biased and hence no current flows from A to B and vice versa.</p>]]></text>
-  </answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>\(\mathrm{D}_1\) is forward biased and \(\mathrm{D}_2\) is reverse biased and hence current flows from A to B</p>]]></text></answer>
+  <answer fraction="100" format="html"><text><![CDATA[<p>\(\mathrm{D}_2\) is forward biased and \(\mathrm{D}_1\) is reverse biased and hence no current flows from B to A and vice versa.</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>\(\mathrm{D}_1\) and \(\mathrm{D}_2\) are both forward biased and hence current flows from A to B.</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>\(\mathrm{D}_1\) and \(\mathrm{D}_2\) are both reverse biased and hence no current flows from A to B and vice versa.</p>]]></text></answer>
   <tags>
     <tag><text>standard:neet_ug</text></tag>
     <tag><text>lang:en</text></tag>
     <tag><text>lang:hi</text></tag>
     <tag><text>subject:physics</text></tag>
+    <tag><text>section:mcq_i</text></tag>
     <tag><text>class:class_12</text></tag>
-    <tag><text>topic:semiconductor_electronics</text></tag>
-    <tag><text>chapter:semiconductor_electronics_materials_devices_and_simple_circuits</text></tag>
+    <tag><text>chapter:semiconductor_electronics</text></tag>
     <tag><text>typology:mcq</text></tag>
     <tag><text>difficulty:medium</text></tag>
     <tag><text>blooms:apply</text></tag>
@@ -131,41 +89,27 @@
   </tags>
 </question>
 <question type="multichoice">
-  <name>
-    <text>NEET_UG_PHYSICS_SEMICONDUCTOR_ELECTRONICS_MCQ_Q04 - Potential difference across capacitor in diode circuit</text>
-  </name>
-  <questiontext format="html">
-    <text><![CDATA[<p>A 220 V A.C. supply is connected between points A and B (Fig. 14.3). What will be the potential difference \(V\) across the capacitor?</p><p><img src="@@PLUGINFILE@@/img-2.jpeg" alt="Fig. 14.3" /></p><hr/><p>बिंदुओं A और B के बीच एक 220 V A.C. आपूर्ति जोड़ी गई है (चित्र 14.3)। संधारित्र के आर-पार विभवांतर \(V\) क्या होगा?</p>]]></text>
-  </questiontext>
-  <generalfeedback format="html">
-    <text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>The AC supply voltage is \(V_{\text{rms}} = 220\text{ V}\). The circuit contains an ideal diode and a capacitor \(C\) connected across terminals A and B.</p><p><strong>Step 2: Peak Voltage of AC Supply</strong><br/>The relationship between the peak voltage \(V_0\) and the root-mean-square voltage \(V_{\text{rms}}\) of a sinusoidal AC source is:\[V_0 = \sqrt{2} V_{\text{rms}} = 220\sqrt{2}\text{ V}\]</p><p><strong>Step 3: Charging of the Capacitor</strong><br/>During the positive half cycle of the AC source, terminal A becomes positive with respect to terminal B. The diode becomes forward biased, offering zero resistance, and allows current to charge the capacitor until the potential difference across it equals the maximum input voltage, \(V_0 = 220\sqrt{2}\text{ V}\).</p><p><strong>Step 4: Discharge Behavior</strong><br/>When the AC supply voltage drops below \(V_0\) during the remainder of the cycle, terminal A is at a lower potential than the positive plate of the capacitor. The diode becomes reverse biased and blocks current. Because there is no resistive path to discharge the stored charge, the capacitor maintains this peak potential difference.</p><p><strong>Step 5: Final Conclusion</strong><br/>The steady-state potential difference \(V\) across the capacitor is \(220\sqrt{2}\text{ V}\).</p><hr/><p><strong>चरण 1: दिए गए मान एवं स्थितियाँ</strong><br/>प्रत्यावर्ती वोल्टता आपूर्ति का वर्ग-माध्य-मूल मान \(V_{\text{rms}} = 220\text{ V}\) है। परिपथ में एक आदर्श डायोड तथा संधारित्र \(C\) श्रेणीक्रम में जुड़े हैं।</p><p><strong>चरण 2: AC स्रोत की शिखर वोल्टता</strong><br/>ज्यावक्रीय प्रत्यावर्ती वोल्टता के शिखर मान \(V_0\) तथा rms मान \(V_{\text{rms}}\) में संबंध निम्न है:\[V_0 = \sqrt{2} V_{\text{rms}} = 220\sqrt{2}\text{ V}\]</p><p><strong>चरण 3: संधारित्र का आवेशन</strong><br/>प्रत्यावर्ती चक्र के धनात्मक अर्ध-चक्र में सिरा A सिरे B के सापेक्ष धनात्मक होता है। आदर्श डायोड अग्र अभिनत होकर शून्य प्रतिरोध प्रस्तुत करता है और संधारित्र को शिखर मान \(V_0 = 220\sqrt{2}\text{ V}\) तक आवेशित कर देता है।</p><p><strong>चरण 4: विसर्जन की स्थिति</strong><br/>जब स्रोत की वोल्टता शिखर मान से कम होती है, तो डायोड पश्च अभिनत हो जाता है। परिपथ में संधारित्र के विसर्जन के लिए कोई समांतर प्रतिरोधक न होने के कारण संधारित्र पर शिखर वोल्टता बनी रहती है।</p><p><strong>चरण 5: अंतिम निष्कर्ष</strong><br/>संधारित्र के सिरों पर विभवांतर \(V\) का मान \(220\sqrt{2}\text{ V}\) होगा।</p>]]></text>
-  </generalfeedback>
+  <name><text>NCERTEXEMPLAR_PHYSICS_MCQI_SEMICONDUCTORELECTRONICS_MCQ_Q14_4 - Potential difference across capacitor</text></name>
+  <questiontext format="html"><text><![CDATA[<p>14.4 A 220 V A.C. supply is connected between points A and B (Fig. 14.3). What will be the potential difference \(V\) across the capacitor?</p><p><img src="@@PLUGINFILE@@/img-2.jpeg" alt="Half-wave rectifier circuit with a diode and capacitor C connected to 220 V AC supply" /></p><hr/><p>14.4 बिंदुओं A और B के बीच 220 V A.C. आपूर्ति जुड़ी हुई है (चित्र 14.3)। संधारित्र के सिरों पर विभवांतर \(V\) कितना होगा?</p><p><img src="@@PLUGINFILE@@/img-2.jpeg" alt="Half-wave rectifier circuit with a diode and capacitor C connected to 220 V AC supply" /></p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>An A.C. supply with an RMS voltage \(V_{\text{rms}} = 220\text{ V}\) is connected across terminals A and B of a circuit containing an ideal diode in series with a capacitor \(C\) across an open output.</p><p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>The diode is ideal (zero forward resistance, infinite reverse resistance), and there is no load resistor across the capacitor to discharge it.</p><p><strong>Step 3: Relevant Formulae and Principles</strong><br/>The peak voltage \(V_0\) of a sinusoidal A.C. supply is related to its RMS voltage \(V_{\text{rms}}\) by \(V_0 = V_{\text{rms}}\sqrt{2}\).</p><p><strong>Step 4: Step-by-Step Working</strong><br/>During the positive half-cycle of the input A.C. voltage, the diode is forward biased and conducts, charging the capacitor up to the peak value of the input voltage: \[V_0 = 220\sqrt{2}\text{ V}\]During the negative half-cycle, the diode becomes reverse biased and blocks reverse current. Since there is no discharge path, the capacitor retains its peak charge.</p><p><strong>Step 5: Check and Final Answer</strong><br/>The steady-state potential difference across the capacitor is \(220\sqrt{2}\text{ V}\).</p><hr/><p><strong>चरण 1: दिए गए आँकड़े और शर्तें</strong><br/>वर्ग माध्य मूल वोल्टता \(V_{\text{rms}} = 220\text{ V}\) वाली एक A.C. आपूर्ति को एक परिपथ के टर्मिनलों A और B के बीच जोड़ा गया है, जिसमें खुले निर्गम के सिरों पर एक संधारित्र \(C\) के साथ श्रेणीक्रम में एक आदर्श डायोड लगा है।</p><p><strong>चरण 2: मान्यताएँ और चिह्न परिपाटी</strong><br/>डायोड आदर्श है (शून्य अग्र प्रतिरोध, अनंत पश्च प्रतिरोध), और संधारित्र को निरावेशन (discharge) करने के लिए उसके सिरों पर कोई लोड प्रतिरोध नहीं है।</p><p><strong>चरण 3: संबंधित सूत्र और सिद्धांत</strong><br/>ज्यावक्रीय A.C. आपूर्ति का शिखर वोल्टता \(V_0\) इसकी RMS वोल्टता \(V_{\text{rms}}\) से \(V_0 = V_{\text{rms}}\sqrt{2}\) द्वारा संबंधित होता है।</p><p><strong>चरण 4: चरण-दर-चरण हल</strong><br/>निवेशी A.C. वोल्टता के धनात्मक अर्ध-चक्र के दौरान, डायोड अग्र अभिनत होता है और चालन करता है, जिससे संधारित्र निवेशी वोल्टता के शिखर मान तक आवेशित हो जाता है: \[V_0 = 220\sqrt{2}\text{ V}\]ऋणात्मक अर्ध-चक्र के दौरान, डायोड पश्च अभिनत हो जाता है और विपरीत धारा को रोक देता है। निरावेशन का कोई पथ न होने के कारण, संधारित्र अपना शिखर आवेश बनाए रखता है।</p><p><strong>चरण 5: जाँच और अंतिम उत्तर</strong><br/>संधारित्र के सिरों पर स्थायी अवस्था विभवांतर \(220\sqrt{2}\text{ V}\) है।</p>]]></text></generalfeedback>
   <defaultgrade>4.0000000</defaultgrade>
   <penalty>0.2500000</penalty>
   <hidden>0</hidden>
   <single>true</single>
   <shuffleanswers>true</shuffleanswers>
   <answernumbering>abc</answernumbering>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>\(220\mathrm{V}\)</p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>\(110\mathrm{V}\)</p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>0V.</p>]]></text>
-  </answer>
-  <answer fraction="100" format="html">
-    <text><![CDATA[<p>\(220\sqrt{2}\mathrm{V}\)</p>]]></text>
-  </answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>\(220\text{ V}\)</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>\(110\text{ V}\)</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>\(0\text{ V}\)</p>]]></text></answer>
+  <answer fraction="100" format="html"><text><![CDATA[<p>\(220\sqrt{2}\text{ V}\)</p>]]></text></answer>
   <tags>
     <tag><text>standard:neet_ug</text></tag>
     <tag><text>lang:en</text></tag>
     <tag><text>lang:hi</text></tag>
     <tag><text>subject:physics</text></tag>
+    <tag><text>section:mcq_i</text></tag>
     <tag><text>class:class_12</text></tag>
-    <tag><text>topic:semiconductor_electronics</text></tag>
-    <tag><text>chapter:semiconductor_electronics_materials_devices_and_simple_circuits</text></tag>
+    <tag><text>chapter:semiconductor_electronics</text></tag>
     <tag><text>typology:mcq</text></tag>
     <tag><text>difficulty:medium</text></tag>
     <tag><text>blooms:apply</text></tag>
@@ -175,41 +119,27 @@
   </tags>
 </question>
 <question type="multichoice">
-  <name>
-    <text>NEET_UG_PHYSICS_SEMICONDUCTOR_ELECTRONICS_MCQ_Q05 - Nature and definition of hole in semiconductor</text>
-  </name>
-  <questiontext format="html">
-    <text><![CDATA[<p>Hole is</p><hr/><p>होल (विवर) है</p>]]></text>
-  </questiontext>
-  <generalfeedback format="html">
-    <text><![CDATA[<p><strong>Step 1: Conceptual Principle of Semiconductor Bonds</strong><br/>In an intrinsic or extrinsic semiconductor crystal such as silicon or germanium, neighboring atoms are held together by shared valence electron pairs forming covalent bonds.</p><p><strong>Step 2: Generation of a Hole</strong><br/>Due to thermal excitation or optical absorption, a bonded valence electron can gain enough energy to break free and transition to the conduction band. The departure of this electron creates an unoccupied vacant state or vacancy in the covalent bond within the valence band.</p><p><strong>Step 3: Nature and Behavior of a Hole</strong><br/>An electron from an adjacent covalent bond can fill this empty state, shifting the vacancy to the neighboring site. This apparent movement of the vacancy behaves mathematically and physically as a mobile positive charge \(+e\), termed a hole.</p><p><strong>Step 4: Distinctions from Other Concepts</strong><br/>A hole is not the physical antiparticle of an electron (which is a positron), nor is it simply the absence of conduction electrons or an artificial synthetic particle; it is specifically an unoccupied state in a covalent bond.</p><p><strong>Step 5: Final Conclusion</strong><br/>A hole is a vacancy created when an electron leaves a covalent bond.</p><hr/><p><strong>चरण 1: अर्धचालक बंधों का संकल्पनात्मक सिद्धांत</strong><br/>सिलिकॉन या जर्मेनियम जैसे अर्धचालक क्रिस्टल में निकटवर्ती परमाणु सहसंयोजक बंधों द्वारा आपस में जुड़े होते हैं, जिनमें संयोजकता इलेक्ट्रॉन साझा होते हैं।</p><p><strong>चरण 2: होल की उत्पत्ति</strong><br/>ऊष्मीय ऊर्जा प्राप्त करके जब कोई संयोजी इलेक्ट्रॉन सहसंयोजक बंध तोड़कर चालन बैंड में जाता है, तो उस बंध में इलेक्ट्रॉन का एक रिक्त स्थान छूट जाता है।</p><p><strong>चरण 3: होल की प्रकृति</strong><br/>पास के सहसंयोजक बंध का इलेक्ट्रॉन इस रिक्त स्थान को भर सकता है, जिससे रिक्तता नए स्थान पर स्थानांतरित हो जाती है। यह रिक्ति एक गतिशील धनात्मक आवेश \(+e\) की भाँति व्यवहार करती है, जिसे होल या विवर कहते हैं।</p><p><strong>चरण 4: अन्य अवधारणाओं से अंतर</strong><br/>होल इलेक्ट्रॉन का प्रतिकण (पॉज़िट्रॉन) नहीं है, न ही यह कोई कृत्रिम कण है; यह विशुद्ध रूप से सहसंयोजक बंध में एक रिक्त स्थान है।</p><p><strong>चरण 5: अंतिम निष्कर्ष</strong><br/>होल सहसंयोजक बंध से किसी इलेक्ट्रॉन के निकल जाने पर उत्पन्न रिक्त स्थान है।</p>]]></text>
-  </generalfeedback>
+  <name><text>NCERTEXEMPLAR_PHYSICS_MCQI_SEMICONDUCTORELECTRONICS_MCQ_Q14_5 - Definition of a hole in semiconductor</text></name>
+  <questiontext format="html"><text><![CDATA[<p>14.5 Hole is</p><hr/><p>14.5 होल (कोटर) है</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>In a covalent semiconductor crystal such as silicon or germanium, each atom shares four valence electrons with neighboring atoms to form covalent bonds.</p><p><strong>Step 2: Evaluation and Application</strong><br/>When an electron gains sufficient thermal energy and breaks away from a covalent bond to become a free electron, it leaves behind an empty electron state (a vacancy) in that covalent bond. This vacancy behaves like a positive charge carrier with an effective charge of \(+e\).</p><p><strong>Step 3: Final Conclusion</strong><br/>Therefore, a hole is a vacancy created when an electron leaves a covalent bond.</p><hr/><p><strong>चरण 1: अवधारणात्मक सिद्धांत</strong><br/>सिलिकॉन या जर्मेनियम जैसे सहसंयोजक अर्धचालक क्रिस्टल में, प्रत्येक परमाणु सहसंयोजक बंध बनाने के लिए अपने पड़ोसी परमाणुओं के साथ चार संयोजी इलेक्ट्रॉनों की साझेदारी करता है।</p><p><strong>चरण 2: मूल्यांकन और अनुप्रयोग</strong><br/>जब कोई इलेक्ट्रॉन पर्याप्त ऊष्मीय ऊर्जा प्राप्त करके सहसंयोजक बंध से मुक्त हो जाता है, तो वह उस सहसंयोजक बंध में एक रिक्त इलेक्ट्रॉन अवस्था (एक रिक्ति) छोड़ जाता है। यह रिक्ति \(+e\) प्रभावी आवेश वाले धनात्मक आवेश वाहक की भाँति व्यवहार करती है।</p><p><strong>चरण 3: अंतिम निष्कर्ष</strong><br/>अतः, होल वह रिक्ति है जो तब बनती है जब कोई इलेक्ट्रॉन सहसंयोजक बंध छोड़ देता है।</p>]]></text></generalfeedback>
   <defaultgrade>4.0000000</defaultgrade>
   <penalty>0.2500000</penalty>
   <hidden>0</hidden>
   <single>true</single>
   <shuffleanswers>true</shuffleanswers>
   <answernumbering>abc</answernumbering>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>an anti-particle of electron.</p>]]></text>
-  </answer>
-  <answer fraction="100" format="html">
-    <text><![CDATA[<p>a vacancy created when an electron leaves a covalent bond.</p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>absence of free electrons.</p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>an artificially created particle.</p>]]></text>
-  </answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>an anti-particle of electron.</p>]]></text></answer>
+  <answer fraction="100" format="html"><text><![CDATA[<p>a vacancy created when an electron leaves a covalent bond.</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>absence of free electrons.</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>an artificially created particle.</p>]]></text></answer>
   <tags>
     <tag><text>standard:neet_ug</text></tag>
     <tag><text>lang:en</text></tag>
     <tag><text>lang:hi</text></tag>
     <tag><text>subject:physics</text></tag>
+    <tag><text>section:mcq_i</text></tag>
     <tag><text>class:class_12</text></tag>
-    <tag><text>topic:semiconductor_electronics</text></tag>
-    <tag><text>chapter:semiconductor_electronics_materials_devices_and_simple_circuits</text></tag>
+    <tag><text>chapter:semiconductor_electronics</text></tag>
     <tag><text>typology:mcq</text></tag>
     <tag><text>difficulty:easy</text></tag>
     <tag><text>blooms:remember</text></tag>
@@ -219,43 +149,59 @@
   </tags>
 </question>
 <question type="multichoice">
-  <name>
-    <text>NEET_UG_PHYSICS_SEMICONDUCTOR_ELECTRONICS_MCQ_Q06 - Output waveform of diode with alternating voltage</text>
-  </name>
-  <questiontext format="html">
-    <text><![CDATA[<p>The output of the given circuit in Fig. 14.4.</p><p><img src="@@PLUGINFILE@@/img-3.jpeg" alt="Fig. 14.4" /></p><hr/><p>चित्र 14.4 में दिए गए परिपथ का निर्गत होगा</p>]]></text>
-  </questiontext>
-  <generalfeedback format="html">
-    <text><![CDATA[<p><strong>Step 1: Circuit Configuration</strong><br/>The circuit consists of an AC source \(v(t) = v_m \sin \omega t\) connected in series with a resistor, and a shunt diode placed across the parallel output terminals with its anode at the top line and cathode at the bottom line.</p><p><strong>Step 2: Behavior during Positive Half Cycle</strong><br/>During the positive half cycle of the AC input, the upper terminal has a positive potential relative to the lower terminal. The diode is forward biased. Assuming an ideal diode, it acts as a short circuit with zero forward voltage drop. Therefore, the output voltage across the diode is clamped to zero:\[v_{\text{out}} = 0\]</p><p><strong>Step 3: Behavior during Negative Half Cycle</strong><br/>During the negative half cycle, the upper terminal has a negative potential relative to the lower terminal. The diode is reverse biased and acts as an open circuit. No current flows through the series resistor, so there is no voltage drop across the resistor. Consequently, the output voltage across the terminals follows the input negative sinusoidal wave:\[v_{\text{out}} = v_m \sin \omega t \quad (\text{where } \sin \omega t < 0)\]</p><p><strong>Step 4: Synthesis of the Waveform</strong><br/>The output is zero during every positive half cycle and transmits the full wave during every negative half cycle. This configuration functions as a clipper or half-wave rectifier passing only negative cycles.</p><p><strong>Step 5: Final Conclusion</strong><br/>The output of the circuit would be like a half wave rectifier with negative cycles in output.</p><hr/><p><strong>चरण 1: परिपथीय संरचना</strong><br/>परिपथ में प्रत्यावर्ती वोल्टता स्रोत \(v(t) = v_m \sin \omega t\), एक श्रेणी प्रतिरोधक तथा निर्गत सिरों के समांतर क्रम में एक डायोड जुड़ा है जिसका एनोड ऊपर तथा कैथोड नीचे है।</p><p><strong>चरण 2: धनात्मक अर्ध-चक्र में व्यवहार</strong><br/>इनपुट के धनात्मक अर्ध-चक्र के दौरान ऊपरी सिरा निचले सिरे के सापेक्ष धनात्मक होता है। डायोड अग्र अभिनत हो जाता है। आदर्श डायोड के लिए यह लघुपथित परिपथ (शून्य विभव पात) की भाँति कार्य करता है, अतः निर्गत वोल्टता शून्य होती है:\[v_{\text{out}} = 0\]</p><p><strong>चरण 3: ऋणात्मक अर्ध-चक्र में व्यवहार</strong><br/>ऋणात्मक अर्ध-चक्र के दौरान ऊपरी सिरा ऋणात्मक होता है, जिससे डायोड पश्च अभिनत होकर खुले परिपथ की भाँति व्यवहार करता है। श्रेणी प्रतिरोधक से कोई धारा प्रवाहित नहीं होती, अतः पूरा ऋणात्मक चक्र निर्गत पर प्राप्त होता है।</p><p><strong>चरण 4: निर्गत तरंगरूप का निष्कर्ष</strong><br/>निर्गत केवल ऋणात्मक अर्ध-चक्रों के दौरान ही प्राप्त होता है और धनात्मक अर्ध-चक्रों के दौरान शून्य रहता है।</p><p><strong>चरण 5: अंतिम निष्कर्ष</strong><br/>दिए गए परिपथ का निर्गत एक अर्ध तरंग दिष्टकारी की तरह होगा जिसमें निर्गत में ऋणात्मक चक्र प्राप्त होते हैं।</p>]]></text>
-  </generalfeedback>
+  <name><text>NCERTEXEMPLAR_PHYSICS_MCQI_SEMICONDUCTORELECTRONICS_MCQ_Q14_6 - Output of diode clipper circuit</text></name>
+  <questiontext format="html"><text><![CDATA[<p>14.6 The output of the given circuit in Fig. 14.4.</p><p><img src="@@PLUGINFILE@@/img-3.jpeg" alt="AC source vm sin omega t in series with resistor and parallel diode across output" /></p><hr/><p>14.6 चित्र 14.4 में दिए गए परिपथ का निर्गम है।</p><p><img src="@@PLUGINFILE@@/img-3.jpeg" alt="AC source vm sin omega t in series with resistor and parallel diode across output" /></p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>An A.C. voltage source \(v_m \sin \omega t\) is connected in series with a resistor, and an ideal diode is connected in parallel across the output terminals with its anode at the upper terminal and cathode at the lower terminal.</p><p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>The diode is assumed ideal (zero forward voltage drop when conducting, infinite resistance when reverse biased). The output voltage is measured across the diode.</p><p><strong>Step 3: Relevant Formulae and Principles</strong><br/>A forward-biased ideal diode acts as a short circuit (\(V_{\text{out}} = 0\)), whereas a reverse-biased diode acts as an open circuit (\(V_{\text{out}} = V_{\text{in}}\) when no output load current flows).</p><p><strong>Step 4: Step-by-Step Working</strong><br/>During the positive half-cycle of \(v_m \sin \omega t\), the upper terminal of the source is positive, so the anode of the diode is at a higher potential than its cathode. Thus, the diode is forward biased and shorts the output, making the output voltage zero. During the negative half-cycle, the upper terminal is negative, making the diode reverse biased (open circuit). Hence, the entire negative half-cycle appears across the output terminals.</p><p><strong>Step 5: Check and Final Answer</strong><br/>The output would be like a half-wave rectifier with negative cycles in output.</p><hr/><p><strong>चरण 1: दिए गए आँकड़े और शर्तें</strong><br/>एक A.C. वोल्टता स्रोत \(v_m \sin \omega t\) एक प्रतिरोध के साथ श्रेणीक्रम में जुड़ा है, और एक आदर्श डायोड निर्गम टर्मिनलों के समानांतर इस प्रकार जुड़ा है कि इसका एनोड ऊपरी टर्मिनल पर और कैथोड निचले टर्मिनल पर है।</p><p><strong>चरण 2: मान्यताएँ और चिह्न परिपाटी</strong><br/>डायोड को आदर्श माना गया है (चालन के समय शून्य अग्र वोल्टता पात, पश्च अभिनति में अनंत प्रतिरोध)। निर्गम वोल्टता डायोड के सिरों पर मापी जाती है।</p><p><strong>चरण 3: संबंधित सूत्र और सिद्धांत</strong><br/>अग्र अभिनत आदर्श डायोड लघुपथ (short circuit, \(V_{\text{out}} = 0\)) की भाँति कार्य करता है, जबकि पश्च अभिनत डायोड खुले परिपथ (\(V_{\text{out}} = V_{\text{in}}\)) की भाँति कार्य करता है।</p><p><strong>चरण 4: चरण-दर-चरण हल</strong><br/>\(v_m \sin \omega t\) के धनात्मक अर्ध-चक्र के दौरान, स्रोत का ऊपरी टर्मिनल धनात्मक होता है, इसलिए डायोड का एनोड इसके कैथोड से उच्च विभव पर होता है। अतः डायोड अग्र अभिनत होता है और निर्गम को लघुपथित कर देता है, जिससे निर्गम वोल्टता शून्य हो जाती है। ऋणात्मक अर्ध-चक्र के दौरान, ऊपरी टर्मिनल ऋणात्मक होता है, जिससे डायोड पश्च अभिनत (खुला परिपथ) हो जाता है। अतः संपूर्ण ऋणात्मक अर्ध-चक्र निर्गम टर्मिनलों पर प्राप्त होता है।</p><p><strong>चरण 5: जाँच और अंतिम उत्तर</strong><br/>परिपथ का निर्गम ऋणात्मक चक्रों वाले अर्ध-तरंग दिष्टकारी के समान होगा।</p>]]></text></generalfeedback>
   <defaultgrade>4.0000000</defaultgrade>
   <penalty>0.2500000</penalty>
   <hidden>0</hidden>
   <single>true</single>
   <shuffleanswers>true</shuffleanswers>
   <answernumbering>abc</answernumbering>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>would be zero at all times.</p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>would be like a half wave rectifier with positive cycles in output.</p>]]></text>
-  </answer>
-  <answer fraction="100" format="html">
-    <text><![CDATA[<p>would be like a half wave rectifier with negative cycles in output.</p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>would be like that of a full wave rectifier.</p>]]></text>
-  </answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>would be zero at all times.</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>would be like a half wave rectifier with positive cycles in output.</p>]]></text></answer>
+  <answer fraction="100" format="html"><text><![CDATA[<p>would be like a half wave rectifier with negative cycles in output.</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>would be like that of a full wave rectifier.</p>]]></text></answer>
   <tags>
     <tag><text>standard:neet_ug</text></tag>
     <tag><text>lang:en</text></tag>
     <tag><text>lang:hi</text></tag>
     <tag><text>subject:physics</text></tag>
+    <tag><text>section:mcq_i</text></tag>
     <tag><text>class:class_12</text></tag>
-    <tag><text>topic:semiconductor_electronics</text></tag>
-    <tag><text>chapter:semiconductor_electronics_materials_devices_and_simple_circuits</text></tag>
+    <tag><text>chapter:semiconductor_electronics</text></tag>
     <tag><text>typology:mcq</text></tag>
     <tag><text>difficulty:medium</text></tag>
+    <tag><text>blooms:analyze</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:circuit</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+<question type="multichoice">
+  <name><text>NCERTEXEMPLAR_PHYSICS_MCQI_SEMICONDUCTORELECTRONICS_MCQ_Q14_7 - Voltage difference across diode resistor circuit</text></name>
+  <questiontext format="html"><text><![CDATA[<p>14.7 In the circuit shown in Fig. 14.5, if the diode forward voltage drop is \(0.3\text{ V}\), the voltage difference between A and B is</p><p><img src="@@PLUGINFILE@@/img-4.jpeg" alt="Series circuit from A to B with 5 kOhm resistor, forward-biased diode, and 5 kOhm resistor carrying 0.2 mA" /></p><hr/><p>14.7 चित्र 14.5 में दिखाए गए परिपथ में, यदि डायोड की अग्र वोल्टता पात \(0.3\text{ V}\) है, तो A और B के बीच विभवांतर है</p><p><img src="@@PLUGINFILE@@/img-4.jpeg" alt="Series circuit from A to B with 5 kOhm resistor, forward-biased diode, and 5 kOhm resistor carrying 0.2 mA" /></p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>Current flowing from A to B, \(I = 0.2\text{ mA} = 0.2 \times 10^{-3}\text{ A}\).<br/>Two resistors in series, each of resistance \(R_1 = R_2 = 5\text{ k}\Omega = 5 \times 10^3\ \Omega\).<br/>Forward voltage drop across the diode, \(V_D = 0.3\text{ V}\).</p><p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>The side branch containing the capacitor carries no steady-state direct current, so the same current \(I\) flows through both resistors and the diode from A to B.</p><p><strong>Step 3: Relevant Formulae and Principles</strong><br/>By Kirchhoff's voltage law along the path from A to B: \[V_A - V_B = I R_1 + V_D + I R_2\]</p><p><strong>Step 4: Step-by-Step Working</strong><br/>Substitute the given values: \[V_A - V_B = (0.2 \times 10^{-3}\text{ A})(5 \times 10^3\ \Omega) + 0.3\text{ V} + (0.2 \times 10^{-3}\text{ A})(5 \times 10^3\ \Omega)\]\[V_A - V_B = 1.0\text{ V} + 0.3\text{ V} + 1.0\text{ V} = 2.3\text{ V}\]</p><p><strong>Step 5: Check and Final Answer</strong><br/>The voltage difference has units of volts and is positive since current flows from A to B. The voltage difference between A and B is \(2.3\text{ V}\).</p><hr/><p><strong>चरण 1: दिए गए आँकड़े और शर्तें</strong><br/>A से B की ओर प्रवाहित धारा, \(I = 0.2\text{ mA} = 0.2 \times 10^{-3}\text{ A}\)।<br/>श्रेणीक्रम में दो प्रतिरोध, प्रत्येक का प्रतिरोध \(R_1 = R_2 = 5\text{ k}\Omega = 5 \times 10^3\ \Omega\)।<br/>डायोड के सिरों पर अग्र वोल्टता पात, \(V_D = 0.3\text{ V}\)।</p><p><strong>चरण 2: मान्यताएँ और चिह्न परिपाटी</strong><br/>संधारित्र वाली पार्श्व शाखा में कोई स्थायी दिष्ट धारा प्रवाहित नहीं होती है, अतः दोनों प्रतिरोधों और डायोड से समान धारा \(I\) प्रवाहित होती है।</p><p><strong>चरण 3: संबंधित सूत्र और सिद्धांत</strong><br/>A से B तक किरचॉफ के वोल्टता नियम द्वारा: \[V_A - V_B = I R_1 + V_D + I R_2\]</p><p><strong>चरण 4: चरण-दर-चरण हल</strong><br/>दिए गए मान रखने पर: \[V_A - V_B = (0.2 \times 10^{-3}\text{ A})(5 \times 10^3\ \Omega) + 0.3\text{ V} + (0.2 \times 10^{-3}\text{ A})(5 \times 10^3\ \Omega)\]\[V_A - V_B = 1.0\text{ V} + 0.3\text{ V} + 1.0\text{ V} = 2.3\text{ V}\]</p><p><strong>चरण 5: जाँच और अंतिम उत्तर</strong><br/>विभवांतर का मात्रक वोल्ट है और यह धनात्मक है क्योंकि धारा A से B की ओर प्रवाहित होती है। अतः A और B के बीच विभवांतर \(2.3\text{ V}\) है।</p>]]></text></generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="0" format="html"><text><![CDATA[<p>\(1.3\text{ V}\)</p>]]></text></answer>
+  <answer fraction="100" format="html"><text><![CDATA[<p>\(2.3\text{ V}\)</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>\(0\)</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>\(0.5\text{ V}\)</p>]]></text></answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:hi</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>section:mcq_i</text></tag>
+    <tag><text>class:class_12</text></tag>
+    <tag><text>chapter:semiconductor_electronics</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:easy</text></tag>
     <tag><text>blooms:apply</text></tag>
     <tag><text>calculation:light</text></tag>
     <tag><text>media:circuit</text></tag>
@@ -263,90 +209,272 @@
   </tags>
 </question>
 <question type="multichoice">
-  <name>
-    <text>NEET_UG_PHYSICS_SEMICONDUCTOR_ELECTRONICS_MCQ_Q07 - Voltage difference between terminals with diode drop</text>
-  </name>
-  <questiontext format="html">
-    <text><![CDATA[<p>In the circuit shown in Fig. 14.5, if the diode forward voltage drop is \(0.3\mathrm{V}\), the voltage difference between A and B is</p><p><img src="@@PLUGINFILE@@/img-4.jpeg" alt="Fig. 14.5" /></p><hr/><p>चित्र 14.5 में दर्शाए गए परिपथ में, यदि डायोड का अग्र वोल्टता पात \(0.3\mathrm{V}\) है, तो A और B के बीच विभवांतर है</p>]]></text>
-  </questiontext>
-  <generalfeedback format="html">
-    <text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>Current entering terminal A: \(I = 0.2\text{ mA} = 0.2 \times 10^{-3}\text{ A}\).<br/>Resistance of upper resistor: \(R_1 = 5\text{ k}\Omega = 5 \times 10^3\,\Omega\).<br/>Diode forward voltage drop: \(V_D = 0.3\text{ V}\).<br/>Resistance of lower resistor: \(R_2 = 5\text{ k}\Omega = 5 \times 10^3\,\Omega\).<br/>The open capacitor branch draws zero DC current in steady state, so the entire current \(I\) flows through the vertical branch from terminal A to terminal B.</p><p><strong>Step 2: Sign Conventions and Kirchhoff's Law</strong><br/>Moving along the path of current from A to B, the electric potential drops across each resistive element and across the forward-biased diode:\[V_A - V_B = V_{R1} + V_D + V_{R2}\]</p><p><strong>Step 3: Step-by-Step Calculation</strong><br/>Voltage drop across the upper resistor:\[V_{R1} = I \times R_1 = (0.2 \times 10^{-3}\text{ A}) \times (5000\,\Omega) = 1.0\text{ V}\]Voltage drop across the forward-biased diode:\[V_D = 0.3\text{ V}\]Voltage drop across the lower resistor:\[V_{R2} = I \times R_2 = (0.2 \times 10^{-3}\text{ A}) \times (5000\,\Omega) = 1.0\text{ V}\]</p><p><strong>Step 4: Summing the Voltage Drops</strong><br/>Total voltage difference between terminals A and B:\[V_A - V_B = 1.0\text{ V} + 0.3\text{ V} + 1.0\text{ V} = 2.3\text{ V}\]</p><p><strong>Step 5: Final Conclusion</strong><br/>The voltage difference between A and B is \(2.3\text{ V}\).</p><hr/><p><strong>चरण 1: दिए गए मान एवं स्थितियाँ</strong><br/>टर्मिनल A से प्रवेश करने वाली धारा: \(I = 0.2\text{ mA} = 0.2 \times 10^{-3}\text{ A}\)।<br/>ऊपरी प्रतिरोध: \(R_1 = 5\text{ k}\Omega = 5000\,\Omega\)।<br/>डायोड का अग्र वोल्टता पात: \(V_D = 0.3\text{ V}\)।<br/>निचला प्रतिरोध: \(R_2 = 5\text{ k}\Omega = 5000\,\Omega\)।<br/>संधारित्र वाली शाखा खुली होने के कारण संपूर्ण धारा \(I\) सीधे A से B की ओर प्रवाहित होती है।</p><p><strong>चरण 2: किरचॉफ का नियम</strong><br/>A से B की ओर धारा की दिशा में चलने पर कुल विभवांतर:\[V_A - V_B = V_{R1} + V_D + V_{R2}\]</p><p><strong>चरण 3: चरणबद्ध गणना</strong><br/>प्रथम प्रतिरोधक पर विभव पात:\[V_{R1} = I R_1 = (0.2 \times 10^{-3}) \times 5000 = 1.0\text{ V}\]डायोड पर विभव पात:\[V_D = 0.3\text{ V}\]द्वितीय प्रतिरोधक पर विभव पात:\[V_{R2} = I R_2 = (0.2 \times 10^{-3}) \times 5000 = 1.0\text{ V}\]</p><p><strong>चरण 4: कुल विभवांतर</strong><br/>\[V_A - V_B = 1.0\text{ V} + 0.3\text{ V} + 1.0\text{ V} = 2.3\text{ V}\]</p><p><strong>चरण 5: अंतिम निष्कर्ष</strong><br/>A और B के बीच विभवांतर का मान \(2.3\text{ V}\) है।</p>]]></text>
-  </generalfeedback>
+  <name><text>NCERTEXEMPLAR_PHYSICS_MCQI_SEMICONDUCTORELECTRONICS_MCQ_Q14_8 - Truth table for logic gate circuit</text></name>
+  <questiontext format="html"><text><![CDATA[<p>14.8 Truth table for the given circuit (Fig. 14.6) is</p><p><img src="@@PLUGINFILE@@/img-5.jpeg" alt="Logic gate circuit with inputs A, B, intermediate nodes C, D, and output E" /></p><hr/><p>14.8 दिए गए परिपथ (चित्र 14.6) के लिए सत्यता सारणी है</p><p><img src="@@PLUGINFILE@@/img-5.jpeg" alt="Logic gate circuit with inputs A, B, intermediate nodes C, D, and output E" /></p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>The logic circuit has two inputs \(A\) and \(B\). Input \(A\) is fed directly to the upper AND gate and through a NOT gate to the lower AND gate. Input \(B\) is fed to both AND gates. The outputs \(C\) and \(D\) of the two AND gates are combined by the output gate (representing an OR operation in the standard circuit) to give \(E\).</p><p><strong>Step 2: Relevant Formulae and Principles</strong><br/>For an AND gate, output is \(X \cdot Y\). For a NOT gate, output is \(\overline{X}\). For an OR gate, output is \(X + Y\). Also, \(A + \overline{A} = 1\).</p><p><strong>Step 3: Step-by-Step Working</strong><br/>The output of the upper gate is: \[C = A \cdot B\]The output of the lower gate is: \[D = \overline{A} \cdot B\]Combining \(C\) and \(D\) with the OR operation gives: \[E = C + D = (A \cdot B) + (\overline{A} \cdot B) = (A + \overline{A}) \cdot B = 1 \cdot B = B\]Evaluating for all input combinations \((A, B)\):<br/>- For \((0, 0)\): \(E = 0\)<br/>- For \((0, 1)\): \(E = 1\)<br/>- For \((1, 0)\): \(E = 0\)<br/>- For \((1, 1)\): \(E = 1\)</p><p><strong>Step 4: Check and Final Answer</strong><br/>Thus, the output \(E\) matches input \(B\) for all combinations: \(E = 0, 1, 0, 1\) corresponding to \((A, B) = (0,0), (0,1), (1,0), (1,1)\).</p><hr/><p><strong>चरण 1: दिए गए आँकड़े और शर्तें</strong><br/>तार्किक परिपथ में दो निवेशी \(A\) और \(B\) हैं। निवेशी \(A\) को सीधे ऊपरी AND गेट में तथा एक NOT गेट से होकर निचले AND गेट में दिया गया है। निवेशी \(B\) को दोनों AND गेटों में दिया गया है। दोनों AND गेटों के निर्गम \(C\) और \(D\) निर्गम गेट (मानक परिपथ में OR संक्रिया) द्वारा संयोजित होकर \(E\) देते हैं।</p><p><strong>चरण 2: संबंधित सूत्र और सिद्धांत</strong><br/>AND गेट के लिए निर्गम \(X \cdot Y\), NOT गेट के लिए \(\overline{X}\), तथा OR गेट के लिए \(X + Y\) होता है। साथ ही, \(A + \overline{A} = 1\)।</p><p><strong>चरण 3: चरण-दर-चरण हल</strong><br/>ऊपरी गेट का निर्गम: \[C = A \cdot B\]निचले गेट का निर्गम: \[D = \overline{A} \cdot B\]\(C\) और \(D\) को OR संक्रिया से संयोजित करने पर: \[E = C + D = (A \cdot B) + (\overline{A} \cdot B) = (A + \overline{A}) \cdot B = 1 \cdot B = B\]सभी निवेशी संयोजनों \((A, B)\) के लिए मान:<br/>- \((0, 0)\) के लिए: \(E = 0\)<br/>- \((0, 1)\) के लिए: \(E = 1\)<br/>- \((1, 0)\) के लिए: \(E = 0\)<br/>- \((1, 1)\) के लिए: \(E = 1\)</p><p><strong>चरण 4: जाँच और अंतिम उत्तर</strong><br/>अतः सभी संयोजनों \((A, B) = (0,0), (0,1), (1,0), (1,1)\) के लिए निर्गम \(E\) निवेशी \(B\) के बराबर अर्थात \(0, 1, 0, 1\) प्राप्त होता है।</p>]]></text></generalfeedback>
   <defaultgrade>4.0000000</defaultgrade>
   <penalty>0.2500000</penalty>
   <hidden>0</hidden>
   <single>true</single>
   <shuffleanswers>true</shuffleanswers>
   <answernumbering>abc</answernumbering>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>\(1.3\mathrm{V}\)</p>]]></text>
-  </answer>
-  <answer fraction="100" format="html">
-    <text><![CDATA[<p>\(2.3\mathrm{V}\)</p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>0</p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>\(0.5\mathrm{V}\)</p>]]></text>
-  </answer>
+  <answer fraction="0" format="html"><text><![CDATA[<table><thead><tr><th>A</th><th>B</th><th>E</th></tr></thead><tbody><tr><td>0</td><td>0</td><td>1</td></tr><tr><td>0</td><td>1</td><td>0</td></tr><tr><td>1</td><td>0</td><td>1</td></tr><tr><td>1</td><td>1</td><td>0</td></tr></tbody></table>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<table><thead><tr><th>A</th><th>B</th><th>E</th></tr></thead><tbody><tr><td>0</td><td>0</td><td>1</td></tr><tr><td>0</td><td>1</td><td>0</td></tr><tr><td>1</td><td>0</td><td>0</td></tr><tr><td>1</td><td>1</td><td>1</td></tr></tbody></table>]]></text></answer>
+  <answer fraction="100" format="html"><text><![CDATA[<table><thead><tr><th>A</th><th>B</th><th>E</th></tr></thead><tbody><tr><td>0</td><td>0</td><td>0</td></tr><tr><td>0</td><td>1</td><td>1</td></tr><tr><td>1</td><td>0</td><td>0</td></tr><tr><td>1</td><td>1</td><td>1</td></tr></tbody></table>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<table><thead><tr><th>A</th><th>B</th><th>E</th></tr></thead><tbody><tr><td>0</td><td>0</td><td>0</td></tr><tr><td>0</td><td>1</td><td>1</td></tr><tr><td>1</td><td>0</td><td>1</td></tr><tr><td>1</td><td>1</td><td>0</td></tr></tbody></table>]]></text></answer>
   <tags>
     <tag><text>standard:neet_ug</text></tag>
     <tag><text>lang:en</text></tag>
     <tag><text>lang:hi</text></tag>
     <tag><text>subject:physics</text></tag>
+    <tag><text>section:mcq_i</text></tag>
     <tag><text>class:class_12</text></tag>
-    <tag><text>topic:semiconductor_electronics</text></tag>
-    <tag><text>chapter:semiconductor_electronics_materials_devices_and_simple_circuits</text></tag>
+    <tag><text>chapter:semiconductor_electronics</text></tag>
     <tag><text>typology:mcq</text></tag>
     <tag><text>difficulty:medium</text></tag>
-    <tag><text>blooms:apply</text></tag>
-    <tag><text>calculation:moderate</text></tag>
+    <tag><text>blooms:analyze</text></tag>
+    <tag><text>calculation:light</text></tag>
     <tag><text>media:circuit</text></tag>
     <tag><text>multiconcept:false</text></tag>
   </tags>
 </question>
 <question type="multichoice">
-  <name>
-    <text>NEET_UG_PHYSICS_SEMICONDUCTOR_ELECTRONICS_MCQ_Q08 - Truth table of given combination of logic gates</text>
-  </name>
-  <questiontext format="html">
-    <text><![CDATA[<p>Truth table for the given circuit (Fig. 14.6) is</p><p><img src="@@PLUGINFILE@@/img-5.jpeg" alt="Fig. 14.6" /></p><hr/><p>दिए गए परिपथ (चित्र 14.6) के लिए सत्यता सारणी है</p>]]></text>
-  </questiontext>
-  <generalfeedback format="html">
-    <text><![CDATA[<p><strong>Step 1: Circuit Layout and Gate Identification</strong><br/>The digital logic circuit consists of two inputs A and B:<br/>- An upper two-input AND gate receiving inputs A and B directly, yielding output \(C = A \cdot B\).<br/>- An inverter (NOT gate) operating on input A to produce \(\bar{A}\).<br/>- A lower two-input AND gate receiving \(\bar{A}\) and B, yielding output \(D = \bar{A} \cdot B\).<br/>- A final two-input OR gate receiving outputs C and D to produce the circuit output E.</p><p><strong>Step 2: Boolean Algebra Simplification</strong><br/>The Boolean expression for the final output E is:\[E = C + D = (A \cdot B) + (\bar{A} \cdot B)\]Factoring out B using the distributive law:\[E = (A + \bar{A}) \cdot B\]Since \((A + \bar{A}) = 1\) by the complement law of Boolean algebra:\[E = 1 \cdot B = B\]Thus, the output E is identically equal to input B, regardless of input A.</p><p><strong>Step 3: Evaluation for All Input Pairs</strong><br/>- For \(A = 0, B = 0\): \(C = 0 \cdot 0 = 0\), \(D = 1 \cdot 0 = 0\), giving \(E = 0 + 0 = 0\).<br/>- For \(A = 0, B = 1\): \(C = 0 \cdot 1 = 0\), \(D = 1 \cdot 1 = 1\), giving \(E = 0 + 1 = 1\).<br/>- For \(A = 1, B = 0\): \(C = 1 \cdot 0 = 0\), \(D = 0 \cdot 0 = 0\), giving \(E = 0 + 0 = 0\).<br/>- For \(A = 1, B = 1\): \(C = 1 \cdot 1 = 1\), \(D = 0 \cdot 1 = 0\), giving \(E = 1 + 0 = 1\).</p><p><strong>Step 4: Final Conclusion</strong><br/>The output values of E corresponding to input pairs (A=0, B=0), (A=0, B=1), (A=1, B=0), and (A=1, B=1) are 0, 1, 0, and 1 respectively.</p><hr/><p><strong>चरण 1: परिपथ विन्यास एवं गेटों की पहचान</strong><br/>तर्क परिपथ में दो निवेश A और B हैं:<br/>- ऊपरी AND गेट के निवेश A और B हैं, जिसका निर्गत \(C = A \cdot B\) है।<br/>- निवेश A पर एक NOT गेट लगा है जो \(\bar{A}\) देता है।<br/>- निचले AND गेट के निवेश \(\bar{A}\) और B हैं, जिसका निर्गत \(D = \bar{A} \cdot B\) है।<br/>- अंतिम OR गेट के निवेश C और D हैं, जिससे अंतिम निर्गत E प्राप्त होता है।</p><p><strong>चरण 2: बूलियन बीजगणित द्वारा सरलीकरण</strong><br/>निर्गत E का बूलियन व्यंजक निम्न है:\[E = C + D = (A \cdot B) + (\bar{A} \cdot B)\]उभयनिष्ठ पद B बाहर लेने पर:\[E = (A + \bar{A}) \cdot B\]चूँकि \((A + \bar{A}) = 1\) होता है:\[E = 1 \cdot B = B\]अतः निर्गत E सदैव निवेश B के बराबर होता है।</p><p><strong>चरण 3: सभी निवेश युग्मों का मूल्यांकन</strong><br/>- \(A = 0, B = 0\) के लिए: \(C = 0, D = 0 \implies E = 0\)<br/>- \(A = 0, B = 1\) के लिए: \(C = 0, D = 1 \implies E = 1\)<br/>- \(A = 1, B = 0\) के लिए: \(C = 0, D = 0 \implies E = 0\)<br/>- \(A = 1, B = 1\) के लिए: \(C = 1, D = 0 \implies E = 1\)</p><p><strong>चरण 4: अंतिम निष्कर्ष</strong><br/>सत्यता सारणी में E के संगत मान (0, 0), (0, 1), (1, 0) तथा (1, 1) के लिए क्रमशः 0, 1, 0 तथा 1 हैं।</p>]]></text>
-  </generalfeedback>
+  <name><text>NCERTEXEMPLAR_PHYSICS_MCQII_SEMICONDUCTORELECTRONICS_MCQ_Q14_9 - Motion of carriers in electric field</text></name>
+  <questiontext format="html"><text><![CDATA[<p>14.9 When an electric field is applied across a semiconductor</p><hr/><p>14.9 जब किसी अर्धचालक के सिरों पर विद्युत क्षेत्र आरोपित किया जाता है, तब</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>In a semiconductor, conduction takes place via electrons in the conduction band and holes in the valence band. The electrostatic potential energy of a charge \(q\) in an electric field decreases along the direction of the field for positive charges and increases along the direction of the field for negative charges (or equivalently, carriers accelerate toward lower potential energy).</p><p><strong>Step 2: Evaluation and Application</strong><br/>When an electric field is applied, electrons (negative charge) in the conduction band experience a force opposite to the electric field. As they gain energy from the field, they move from a lower energy level to a higher energy level in the conduction band. Holes (effective positive charge) in the valence band move in the direction of the electric field, moving from a higher energy level to a lower energy level (on the electron energy diagram, upward for electrons is higher energy, whereas holes tend to float to the top of the valence band, i.e., lower hole energy).</p><p><strong>Step 3: Final Conclusion</strong><br/>Therefore, electrons move from lower energy level to higher energy level in the conduction band, and holes in the valence band move from higher energy level to lower energy level.</p><hr/><p><strong>चरण 1: अवधारणात्मक सिद्धांत</strong><br/>किसी अर्धचालक में चालन बैंड में इलेक्ट्रॉनों तथा संयोजकता बैंड में होलों द्वारा चालन होता है।</p><p><strong>चरण 2: मूल्यांकन और अनुप्रयोग</strong><br/>जब विद्युत क्षेत्र आरोपित किया जाता है, तो चालन बैंड में उपस्थित इलेक्ट्रॉन (ऋणात्मक आवेश) विद्युत क्षेत्र के विपरीत दिशा में बल का अनुभव करते हैं। क्षेत्र से ऊर्जा प्राप्त करने पर वे चालन बैंड में निम्न ऊर्जा स्तर से उच्च ऊर्जा स्तर की ओर गति करते हैं। संयोजकता बैंड में उपस्थित होल (प्रभावी धनात्मक आवेश) विद्युत क्षेत्र की दिशा में गति करते हुए उच्च ऊर्जा स्तर से निम्न ऊर्जा स्तर की ओर जाते हैं।</p><p><strong>चरण 3: अंतिम निष्कर्ष</strong><br/>अतः चालन बैंड में इलेक्ट्रॉन निम्न ऊर्जा स्तर से उच्च ऊर्जा स्तर की ओर गति करते हैं, तथा संयोजकता बैंड में होल उच्च ऊर्जा स्तर से निम्न ऊर्जा स्तर की ओर गति करते हैं।</p>]]></text></generalfeedback>
   <defaultgrade>4.0000000</defaultgrade>
   <penalty>0.2500000</penalty>
   <hidden>0</hidden>
-  <single>true</single>
-  <shuffleanswers>false</shuffleanswers>
+  <single>false</single>
+  <shuffleanswers>true</shuffleanswers>
   <answernumbering>abc</answernumbering>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<table border="1" style="border-collapse:collapse; text-align:center;"><tr><th style="padding:4px 10px;">A</th><th style="padding:4px 10px;">B</th><th style="padding:4px 10px;">E</th></tr><tr><td>0</td><td>0</td><td>1</td></tr><tr><td>0</td><td>1</td><td>0</td></tr><tr><td>1</td><td>0</td><td>1</td></tr><tr><td>1</td><td>1</td><td>0</td></tr></table>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<table border="1" style="border-collapse:collapse; text-align:center;"><tr><th style="padding:4px 10px;">A</th><th style="padding:4px 10px;">B</th><th style="padding:4px 10px;">E</th></tr><tr><td>0</td><td>0</td><td>1</td></tr><tr><td>0</td><td>1</td><td>0</td></tr><tr><td>1</td><td>0</td><td>0</td></tr><tr><td>1</td><td>1</td><td>1</td></tr></table>]]></text>
-  </answer>
-  <answer fraction="100" format="html">
-    <text><![CDATA[<table border="1" style="border-collapse:collapse; text-align:center;"><tr><th style="padding:4px 10px;">A</th><th style="padding:4px 10px;">B</th><th style="padding:4px 10px;">E</th></tr><tr><td>0</td><td>0</td><td>0</td></tr><tr><td>0</td><td>1</td><td>1</td></tr><tr><td>1</td><td>0</td><td>0</td></tr><tr><td>1</td><td>1</td><td>1</td></tr></table>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<table border="1" style="border-collapse:collapse; text-align:center;"><tr><th style="padding:4px 10px;">A</th><th style="padding:4px 10px;">B</th><th style="padding:4px 10px;">E</th></tr><tr><td>0</td><td>0</td><td>0</td></tr><tr><td>0</td><td>1</td><td>1</td></tr><tr><td>1</td><td>0</td><td>1</td></tr><tr><td>1</td><td>1</td><td>0</td></tr></table>]]></text>
-  </answer>
+  <answer fraction="50" format="html"><text><![CDATA[<p>electrons move from lower energy level to higher energy level in the conduction band.</p>]]></text></answer>
+  <answer fraction="-50" format="html"><text><![CDATA[<p>electrons move from higher energy level to lower energy level in the conduction band.</p>]]></text></answer>
+  <answer fraction="50" format="html"><text><![CDATA[<p>holes in the valence band move from higher energy level to lower energy level.</p>]]></text></answer>
+  <answer fraction="-50" format="html"><text><![CDATA[<p>holes in the valence band move from lower energy level to higher energy level.</p>]]></text></answer>
   <tags>
     <tag><text>standard:neet_ug</text></tag>
     <tag><text>lang:en</text></tag>
     <tag><text>lang:hi</text></tag>
     <tag><text>subject:physics</text></tag>
+    <tag><text>section:mcq_ii</text></tag>
     <tag><text>class:class_12</text></tag>
-    <tag><text>topic:semiconductor_electronics</text></tag>
-    <tag><text>chapter:semiconductor_electronics_materials_devices_and_simple_circuits</text></tag>
+    <tag><text>chapter:semiconductor_electronics</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:medium</text></tag>
+    <tag><text>blooms:understand</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:text</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+<question type="multichoice">
+  <name><text>NCERTEXEMPLAR_PHYSICS_MCQII_SEMICONDUCTORELECTRONICS_MCQ_Q14_10 - Carrier movement in active npn transistor</text></name>
+  <questiontext format="html"><text><![CDATA[<p>14.10 Consider an npn transistor with its base-emitter junction forward biased and collector base junction reverse biased. Which of the following statements are true?</p><hr/><p>14.10 एक npn ट्रांजिस्टर पर विचार कीजिए जिसकी आधार-उत्सर्जक संधि अग्र अभिनत तथा संग्राहक-आधार संधि पश्च अभिनत है। निम्नलिखित में से कौन-से कथन सत्य हैं?</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>In an npn transistor operating in the active region, the base-emitter junction is forward biased and the collector-base junction is reverse biased.</p><p><strong>Step 2: Evaluation and Application</strong><br/>Due to the forward bias of the base-emitter junction, majority electrons from the heavily doped n-type emitter are injected into the thin, lightly doped p-type base (electrons move from emitter to base). Because the base is very thin and lightly doped, only a small fraction (about 5%) of these electrons recombine with holes in the base, while the vast majority (about 95%) diffuse across the base and are swept into the collector by the reverse-biased collector-base junction (electrons crossover from emitter to collector).</p><p><strong>Step 3: Final Conclusion</strong><br/>Therefore, both statements that electrons crossover from emitter to collector and electrons move from emitter to base are true.</p><hr/><p><strong>चरण 1: अवधारणात्मक सिद्धांत</strong><br/>सक्रिय क्षेत्र में कार्यरत एक npn ट्रांजिस्टर में, आधार-उत्सर्जक संधि अग्र अभिनत तथा संग्राहक-आधार संधि पश्च अभिनत होती है।</p><p><strong>चरण 2: मूल्यांकन और अनुप्रयोग</strong><br/>आधार-उत्सर्जक संधि के अग्र अभिनत होने के कारण, भारी अपमिश्रित n-प्रकार के उत्सर्जक से बहुसंख्यक इलेक्ट्रॉन पतले तथा हल्के अपमिश्रित p-प्रकार के आधार में अंतःक्षेपित होते हैं (इलेक्ट्रॉन उत्सर्जक से आधार में जाते हैं)। चूँकि आधार बहुत पतला और हल्का अपमिश्रित होता है, इसलिए इन इलेक्ट्रॉनों का केवल एक छोटा अंश (लगभग 5%) ही आधार में होलों से पुनर्संयोजित होता है, जबकि अधिकांश इलेक्ट्रॉन (लगभग 95%) आधार को पार करके पश्च अभिनत संग्राहक-आधार संधि द्वारा संग्राहक में खींच लिए जाते हैं (इलेक्ट्रॉन उत्सर्जक से संग्राहक में पार जाते हैं)।</p><p><strong>चरण 3: अंतिम निष्कर्ष</strong><br/>अतः ये दोनों कथन सत्य हैं कि इलेक्ट्रॉन उत्सर्जक से संग्राहक में पार जाते हैं तथा इलेक्ट्रॉन उत्सर्जक से आधार में गति करते हैं।</p>]]></text></generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>false</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="50" format="html"><text><![CDATA[<p>Electrons crossover from emitter to collector.</p>]]></text></answer>
+  <answer fraction="-50" format="html"><text><![CDATA[<p>Holes move from base to collector.</p>]]></text></answer>
+  <answer fraction="50" format="html"><text><![CDATA[<p>Electrons move from emitter to base.</p>]]></text></answer>
+  <answer fraction="-50" format="html"><text><![CDATA[<p>Electrons from emitter move out of base without going to the collector.</p>]]></text></answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:hi</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>section:mcq_ii</text></tag>
+    <tag><text>class:class_12</text></tag>
+    <tag><text>chapter:semiconductor_electronics</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:easy</text></tag>
+    <tag><text>blooms:understand</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:text</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+<question type="multichoice">
+  <name><text>NCERTEXEMPLAR_PHYSICS_MCQII_SEMICONDUCTORELECTRONICS_MCQ_Q14_11 - Transfer characteristics of CE transistor</text></name>
+  <questiontext format="html"><text><![CDATA[<p>14.11 Figure 14.7 shows the transfer characteristics of a base biased CE transistor. Which of the following statements are true?</p><p><img src="@@PLUGINFILE@@/img-6.jpeg" alt="Transfer characteristics curve of Vo vs Vi showing cut-off below 0.6 V, active region between 0.6 V and 2 V, and saturation above 2 V" /></p><hr/><p>14.11 चित्र 14.7 एक आधार अभिनत CE ट्रांजिस्टर के अंतरण अभिलक्षण दर्शाता है। निम्नलिखित में से कौन-से कथन सत्य हैं?</p><p><img src="@@PLUGINFILE@@/img-6.jpeg" alt="Transfer characteristics curve of Vo vs Vi showing cut-off below 0.6 V, active region between 0.6 V and 2 V, and saturation above 2 V" /></p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>The transfer characteristic graph plots output voltage \(V_o\) versus input voltage \(V_i\) for a base-biased CE transistor, showing three distinct regions: \(V_i &lt; 0.6\text{ V}\) (cut-off), \(0.6\text{ V} &lt; V_i &lt; 2\text{ V}\) (active), and \(V_i &gt; 2\text{ V}\) (saturation).</p><p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>In the cut-off state, the collector current is zero and the transistor acts as an open (turned-off) switch. In the active region, \(V_o\) varies nearly linearly with \(V_i\), allowing linear amplification. In the saturation region, \(V_o\) drops close to zero and the transistor acts as a closed (turned-on) switch.</p><p><strong>Step 3: Step-by-Step Working</strong><br/>- At \(V_i = 0.4\text{ V}\) and \(V_i = 0.5\text{ V}\) (both below \(0.6\text{ V}\)), the transistor is in the cut-off state, not the active state, so it can be used as a switch turned off.<br/>- At \(V_i = 1\text{ V}\) (between \(0.6\text{ V}\) and \(2\text{ V}\)), the transistor lies in the active region and can be used as an amplifier.<br/>- At \(V_i = 2.5\text{ V}\) (above \(2\text{ V}\)), the transistor is in the saturation region and can be used as a switch turned on.</p><p><strong>Step 4: Check and Final Answer</strong><br/>Therefore, the statements that at \(V_i = 1\text{ V}\) it can be used as an amplifier, at \(V_i = 0.5\text{ V}\) it can be used as a switch turned off, and at \(V_i = 2.5\text{ V}\) it can be used as a switch turned on are true.</p><hr/><p><strong>चरण 1: दिए गए आँकड़े और शर्तें</strong><br/>अंतरण अभिलक्षण ग्राफ एक आधार-अभिनत CE ट्रांजिस्टर के लिए निर्गम वोल्टता \(V_o\) बनाम निवेशी वोल्टता \(V_i\) को दर्शाता है, जिसमें तीन स्पष्ट क्षेत्र हैं: \(V_i &lt; 0.6\text{ V}\) (अंतक क्षेत्र), \(0.6\text{ V} &lt; V_i &lt; 2\text{ V}\) (सक्रिय क्षेत्र), तथा \(V_i &gt; 2\text{ V}\) (संतृप्ति क्षेत्र)।</p><p><strong>चरण 2: मान्यताएँ और चिह्न परिपाटी</strong><br/>अंतक अवस्था में संग्राहक धारा शून्य होती है और ट्रांजिस्टर बंद (off) स्विच की भाँति कार्य करता है। सक्रिय क्षेत्र में \(V_o\), \(V_i\) के साथ लगभग रैखिक रूप से बदलता है, जिससे प्रवर्धन संभव होता है। संतृप्ति क्षेत्र में \(V_o\) लगभग शून्य हो जाता है और ट्रांजिस्टर चालू (on) स्विच की भाँति कार्य करता है।</p><p><strong>चरण 3: चरण-दर-चरण हल</strong><br/>- \(V_i = 0.4\text{ V}\) और \(V_i = 0.5\text{ V}\) (दोनों \(0.6\text{ V}\) से कम) पर ट्रांजिस्टर अंतक अवस्था में होता है, सक्रिय अवस्था में नहीं, अतः इसे बंद स्विच के रूप में उपयोग किया जा सकता है।<br/>- \(V_i = 1\text{ V}\) (\(0.6\text{ V}\) और \(2\text{ V}\) के बीच) पर ट्रांजिस्टर सक्रिय क्षेत्र में होता है और इसे प्रवर्धक के रूप में उपयोग किया जा सकता है।<br/>- \(V_i = 2.5\text{ V}\) (\(2\text{ V}\) से अधिक) पर ट्रांजिस्टर संतृप्ति क्षेत्र में होता है और इसे चालू स्विच के रूप में उपयोग किया जा सकता है।</p><p><strong>चरण 4: जाँच और अंतिम उत्तर</strong><br/>अतः ये कथन सत्य हैं कि \(V_i = 1\text{ V}\) पर इसे प्रवर्धक के रूप में, \(V_i = 0.5\text{ V}\) पर बंद स्विच के रूप में, तथा \(V_i = 2.5\text{ V}\) पर चालू स्विच के रूप में उपयोग किया जा सकता है।</p>]]></text></generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>false</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="-50" format="html"><text><![CDATA[<p>At \(V_i = 0.4\text{ V}\), transistor is in active state.</p>]]></text></answer>
+  <answer fraction="33.33333" format="html"><text><![CDATA[<p>At \(V_i = 1\text{ V}\), it can be used as an amplifier.</p>]]></text></answer>
+  <answer fraction="33.33333" format="html"><text><![CDATA[<p>At \(V_i = 0.5\text{ V}\), it can be used as a switch turned off.</p>]]></text></answer>
+  <answer fraction="33.33333" format="html"><text><![CDATA[<p>At \(V_i = 2.5\text{ V}\), it can be used as a switch turned on.</p>]]></text></answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:hi</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>section:mcq_ii</text></tag>
+    <tag><text>class:class_12</text></tag>
+    <tag><text>chapter:semiconductor_electronics</text></tag>
     <tag><text>typology:mcq</text></tag>
     <tag><text>difficulty:medium</text></tag>
     <tag><text>blooms:analyze</text></tag>
-    <tag><text>calculation:moderate</text></tag>
-    <tag><text>media:circuit</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:graph</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+<question type="multichoice">
+  <name><text>NCERTEXEMPLAR_PHYSICS_MCQII_SEMICONDUCTORELECTRONICS_MCQ_Q14_12 - Emitter and base currents in transistor</text></name>
+  <questiontext format="html"><text><![CDATA[<p>14.12 In a npn transistor circuit, the collector current is \(10\text{ mA}\). If 95 per cent of the electrons emitted reach the collector, which of the following statements are true?</p><hr/><p>14.12 एक npn ट्रांजिस्टर परिपथ में, संग्राहक धारा \(10\text{ mA}\) है। यदि उत्सर्जित इलेक्ट्रॉनों का 95 प्रतिशत संग्राहक तक पहुँचता है, तो निम्नलिखित में से कौन-से कथन सत्य हैं?</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>Collector current, \(I_C = 10\text{ mA}\).<br/>Fraction of emitted electrons reaching the collector, \(\alpha = 95\% = 0.95\).</p><p><strong>Step 2: Relevant Formulae and Principles</strong><br/>The collector current is \(I_C = 0.95 I_E\), and the transistor current relation is \(I_E = I_B + I_C\).</p><p><strong>Step 3: Step-by-Step Working</strong><br/>Calculate the emitter current \(I_E\): \[I_E = \frac{I_C}{0.95} = \frac{10\text{ mA}}{0.95} \approx 10.53\text{ mA}\]Calculate the base current \(I_B\): \[I_B = I_E - I_C = 10.53\text{ mA} - 10\text{ mA} = 0.53\text{ mA}\]</p><p><strong>Step 4: Check and Final Answer</strong><br/>Both \(I_E\) and \(I_B\) are positive and sum to \(10.53\text{ mA}\). Hence, the emitter current is \(10.53\text{ mA}\) and the base current is \(0.53\text{ mA}\).</p><hr/><p><strong>चरण 1: दिए गए आँकड़े और शर्तें</strong><br/>संग्राहक धारा, \(I_C = 10\text{ mA}\)।<br/>संग्राहक तक पहुँचने वाले उत्सर्जित इलेक्ट्रॉनों का अंश, \(\alpha = 95\% = 0.95\)।</p><p><strong>चरण 2: संबंधित सूत्र और सिद्धांत</strong><br/>संग्राहक धारा \(I_C = 0.95 I_E\) होती है, तथा ट्रांजिस्टर धारा संबंध \(I_E = I_B + I_C\) है।</p><p><strong>चरण 3: चरण-दर-चरण हल</strong><br/>उत्सर्जक धारा \(I_E\) की गणना: \[I_E = \frac{I_C}{0.95} = \frac{10\text{ mA}}{0.95} \approx 10.53\text{ mA}\]आधार धारा \(I_B\) की गणना: \[I_B = I_E - I_C = 10.53\text{ mA} - 10\text{ mA} = 0.53\text{ mA}\]</p><p><strong>चरण 4: जाँच और अंतिम उत्तर</strong><br/>\(I_E\) और \(I_B\) दोनों धनात्मक हैं और इनका योग \(10.53\text{ mA}\) है। अतः उत्सर्जक धारा \(10.53\text{ mA}\) तथा आधार धारा \(0.53\text{ mA}\) होगी।</p>]]></text></generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>false</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="-50" format="html"><text><![CDATA[<p>The emitter current will be \(8\text{ mA}\).</p>]]></text></answer>
+  <answer fraction="50" format="html"><text><![CDATA[<p>The emitter current will be \(10.53\text{ mA}\).</p>]]></text></answer>
+  <answer fraction="50" format="html"><text><![CDATA[<p>The base current will be \(0.53\text{ mA}\).</p>]]></text></answer>
+  <answer fraction="-50" format="html"><text><![CDATA[<p>The base current will be \(2\text{ mA}\).</p>]]></text></answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:hi</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>section:mcq_ii</text></tag>
+    <tag><text>class:class_12</text></tag>
+    <tag><text>chapter:semiconductor_electronics</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:easy</text></tag>
+    <tag><text>blooms:apply</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:text</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+<question type="multichoice">
+  <name><text>NCERTEXEMPLAR_PHYSICS_MCQII_SEMICONDUCTORELECTRONICS_MCQ_Q14_13 - Properties of diode depletion region</text></name>
+  <questiontext format="html"><text><![CDATA[<p>14.13 In the depletion region of a diode</p><hr/><p>14.13 किसी डायोड के अवक्षय क्षेत्र (depletion region) में</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>When a p-n junction is formed, electrons from the n-region diffuse into the p-region and holes from the p-region diffuse into the n-region, recombining near the junction.</p><p><strong>Step 2: Evaluation and Application</strong><br/>Due to the recombination of holes and electrons near the junction, the depletion region is swept clean of mobile charge carriers (free electrons and holes), leaving behind only immobile charged donor and acceptor ions. The overall neutrality of the junction is maintained by equal magnitudes of positive and negative immobile ion charges on the two sides, not by equal numbers of mobile holes and electrons.</p><p><strong>Step 3: Final Conclusion</strong><br/>Therefore, in the depletion region of a diode, there are no mobile charges, recombination of holes and electrons has taken place, and immobile charged ions exist.</p><hr/><p><strong>चरण 1: अवधारणात्मक सिद्धांत</strong><br/>जब कोई p-n संधि बनती है, तो n-क्षेत्र से इलेक्ट्रॉन p-क्षेत्र में और p-क्षेत्र से होल n-क्षेत्र में विसरित होकर संधि के निकट पुनर्संयोजित हो जाते हैं।</p><p><strong>चरण 2: मूल्यांकन और अनुप्रयोग</strong><br/>संधि के निकट होलों और इलेक्ट्रॉनों के पुनर्संयोजन के कारण, अवक्षय क्षेत्र गतिशील आवेश वाहकों (मुक्त इलेक्ट्रॉनों और होलों) से रहित हो जाता है, तथा वहाँ केवल अचल आवेशित दाता और ग्राही आयन शेष रहते हैं। संधि की समग्र उदासीनता गतिशील होलों और इलेक्ट्रॉनों की समान संख्या से नहीं, बल्कि दोनों ओर समान परिमाण के धनात्मक और ऋणात्मक अचल आयनों से बनी रहती है।</p><p><strong>चरण 3: अंतिम निष्कर्ष</strong><br/>अतः डायोड के अवक्षय क्षेत्र में कोई गतिशील आवेश नहीं होते हैं, होलों और इलेक्ट्रॉनों का पुनर्संयोजन हो चुका होता है, तथा अचल आवेशित आयन उपस्थित रहते हैं।</p>]]></text></generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>false</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="33.33333" format="html"><text><![CDATA[<p>there are no mobile charges</p>]]></text></answer>
+  <answer fraction="-50" format="html"><text><![CDATA[<p>equal number of holes and electrons exist, making the region neutral.</p>]]></text></answer>
+  <answer fraction="33.33333" format="html"><text><![CDATA[<p>recombination of holes and electrons has taken place.</p>]]></text></answer>
+  <answer fraction="33.33333" format="html"><text><![CDATA[<p>immobile charged ions exist.</p>]]></text></answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:hi</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>section:mcq_ii</text></tag>
+    <tag><text>class:class_12</text></tag>
+    <tag><text>chapter:semiconductor_electronics</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:easy</text></tag>
+    <tag><text>blooms:understand</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:text</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+<question type="multichoice">
+  <name><text>NCERTEXEMPLAR_PHYSICS_MCQII_SEMICONDUCTORELECTRONICS_MCQ_Q14_14 - Regulation action of Zener diode</text></name>
+  <questiontext format="html"><text><![CDATA[<p>14.14 What happens during regulation action of a Zener diode?</p><hr/><p>14.14 ज़ेनर डायोड की वोल्टता नियमन क्रिया के दौरान क्या होता है?</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>In a Zener voltage regulator, a Zener diode is connected in reverse bias in parallel with the load resistor, and a series resistor \(R_s\) is connected between the unregulated input voltage \(V_{\text{in}}\) and the Zener-load combination.</p><p><strong>Step 2: Evaluation and Application</strong><br/>During regulation, the voltage across the Zener diode remains nearly constant at the Zener breakdown voltage \(V_Z\). When the input voltage \(V_{\text{in}}\) fluctuates, the voltage drop across \(R_s\) (which is \(V_{\text{in}} - V_Z\)) changes, so the current through the series resistance \(R_s\) changes. Since the load voltage \(V_Z\) is constant, the load current remains fixed, meaning the excess or deficit current flows through the Zener diode; thus, the current \(I_Z\) through the Zener diode changes while \(V_Z\) remains fixed. Consequently, the effective static resistance offered by the Zener diode (\(R_Z = V_Z / I_Z\)) also changes.</p><p><strong>Step 3: Final Conclusion</strong><br/>Therefore, during regulation action, the current through the series resistance \(R_s\) changes, and the resistance offered by the Zener changes.</p><hr/><p><strong>चरण 1: अवधारणात्मक सिद्धांत</strong><br/>ज़ेनर वोल्टता नियामक में, एक ज़ेनर डायोड को लोड प्रतिरोध के समानांतर पश्च अभिनति में जोड़ा जाता है, तथा अनियमित निवेशी वोल्टता \(V_{\text{in}}\) और ज़ेनर-लोड संयोजन के बीच एक श्रेणी प्रतिरोध \(R_s\) जोड़ा जाता है।</p><p><strong>चरण 2: मूल्यांकन और अनुप्रयोग</strong><br/>नियमन के दौरान, ज़ेनर डायोड के सिरों पर वोल्टता लगभग नियत (ज़ेनर भंजन वोल्टता \(V_Z\)) रहती है। जब निवेशी वोल्टता \(V_{\text{in}}\) में परिवर्तन होता है, तो \(R_s\) के सिरों पर विभव पात (\(V_{\text{in}} - V_Z\)) बदलता है, जिससे श्रेणी प्रतिरोध \(R_s\) से प्रवाहित धारा बदल जाती है। चूँकि लोड वोल्टता \(V_Z\) नियत है, लोड धारा भी नियत रहती है और धारा में परिवर्तन ज़ेनर डायोड से होकर जाता है; अतः ज़ेनर डायोड से प्रवाहित धारा \(I_Z\) बदलती है जबकि \(V_Z\) नियत रहता है। परिणामस्वरूप, ज़ेनर द्वारा प्रस्तुत प्रभावी प्रतिरोध (\(R_Z = V_Z / I_Z\)) भी बदलता है।</p><p><strong>चरण 3: अंतिम निष्कर्ष</strong><br/>अतः नियमन क्रिया के दौरान, श्रेणी प्रतिरोध \(R_s\) से प्रवाहित धारा बदलती है और ज़ेनर द्वारा प्रस्तुत प्रतिरोध बदलता है।</p>]]></text></generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>false</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="-50" format="html"><text><![CDATA[<p>The current in and voltage across the Zenor remains fixed.</p>]]></text></answer>
+  <answer fraction="50" format="html"><text><![CDATA[<p>The current through the series Resistance (\(R_s\)) changes.</p>]]></text></answer>
+  <answer fraction="-50" format="html"><text><![CDATA[<p>The Zener resistance is constant.</p>]]></text></answer>
+  <answer fraction="50" format="html"><text><![CDATA[<p>The resistance offered by the Zener changes.</p>]]></text></answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:hi</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>section:mcq_ii</text></tag>
+    <tag><text>class:class_12</text></tag>
+    <tag><text>chapter:semiconductor_electronics</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:medium</text></tag>
+    <tag><text>blooms:understand</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:text</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+<question type="multichoice">
+  <name><text>NCERTEXEMPLAR_PHYSICS_MCQII_SEMICONDUCTORELECTRONICS_MCQ_Q14_15 - Reducing ripples in capacitor filter rectifier</text></name>
+  <questiontext format="html"><text><![CDATA[<p>14.15 To reduce the ripples in a rectifier circuit with capacitor filter</p><hr/><p>14.15 संधारित्र फिल्टर वाले दिष्टकारी परिपथ में ऊर्मिका (ripples) कम करने के लिए</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>In a rectifier circuit with a capacitor filter, the capacitor charges during the conduction period and discharges slowly through the load resistor \(R_L\) during the non-conduction period, with time constant \(\tau = C R_L\).</p><p><strong>Step 2: Relevant Formulae and Principles</strong><br/>The ripple factor \(r\) for a rectifier with a capacitor filter is inversely proportional to the product of input frequency \(f\), capacitance \(C\), and load resistance \(R_L\): \[r \propto \frac{1}{f C R_L}\]</p><p><strong>Step 3: Application and Final Conclusion</strong><br/>To reduce the ripples (decrease \(r\)), the time constant \(C R_L\) must be large compared to the time period \(T = 1/f\) of the input A.C. signal. Therefore, \(R_L\) should be increased, the input frequency should be increased, and capacitors with high capacitance should be used.</p><hr/><p><strong>चरण 1: अवधारणात्मक सिद्धांत</strong><br/>संधारित्र फिल्टर वाले दिष्टकारी परिपथ में, संधारित्र चालन अवधि के दौरान आवेशित होता है और अचालन अवधि के दौरान लोड प्रतिरोध \(R_L\) से होकर समय नियतांक \(\tau = C R_L\) के साथ धीरे-धीरे निरावेशन करता है।</p><p><strong>चरण 2: संबंधित सूत्र और सिद्धांत</strong><br/>संधारित्र फिल्टर वाले दिष्टकारी के लिए ऊर्मिका गुणांक \(r\), निवेशी आवृत्ति \(f\), धारिता \(C\) तथा लोड प्रतिरोध \(R_L\) के गुणनफल के व्युत्क्रमानुपाती होता है: \[r \propto \frac{1}{f C R_L}\]</p><p><strong>चरण 3: अनुप्रयोग और अंतिम निष्कर्ष</strong><br/>ऊर्मिका को कम करने (\(r\) घटाने) के लिए, समय नियतांक \(C R_L\) निवेशी A.C. सिग्नल के आवर्तकाल \(T = 1/f\) की तुलना में बहुत बड़ा होना चाहिए। अतः \(R_L\) बढ़ाया जाना चाहिए, निवेशी आवृत्ति बढ़ाई जानी चाहिए, तथा उच्च धारिता वाले संधारित्र का उपयोग किया जाना चाहिए।</p>]]></text></generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>false</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="33.33333" format="html"><text><![CDATA[<p>\(R_L\) should be increased.</p>]]></text></answer>
+  <answer fraction="-50" format="html"><text><![CDATA[<p>input frequency should be decreased.</p>]]></text></answer>
+  <answer fraction="33.33333" format="html"><text><![CDATA[<p>input frequency should be increased.</p>]]></text></answer>
+  <answer fraction="33.33333" format="html"><text><![CDATA[<p>capacitors with high capacitance should be used.</p>]]></text></answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:hi</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>section:mcq_ii</text></tag>
+    <tag><text>class:class_12</text></tag>
+    <tag><text>chapter:semiconductor_electronics</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:medium</text></tag>
+    <tag><text>blooms:apply</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:text</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+<question type="multichoice">
+  <name><text>NCERTEXEMPLAR_PHYSICS_MCQII_SEMICONDUCTORELECTRONICS_MCQ_Q14_16 - Reverse bias breakdown mechanisms</text></name>
+  <questiontext format="html"><text><![CDATA[<p>14.16 The breakdown in a reverse biased p-n junction diode is more likely to occur due to</p><hr/><p>14.16 पश्च अभिनत p-n संधि डायोड में भंजन (breakdown) होने की अधिक संभावना किसके कारण होती है?</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>Reverse breakdown in a p-n junction diode occurs via two primary mechanisms: Avalanche breakdown and Zener breakdown, depending on the doping concentration.</p><p><strong>Step 2: Evaluation and Application</strong><br/>1. When the doping concentration is small (lightly doped), the depletion region is wide. Minority charge carriers accelerated across this wide depletion region acquire a large velocity and collide with crystal atoms, knocking out valence electrons (impact ionization) and causing avalanche breakdown.<br/>2. When the doping concentration is large (heavily doped), the depletion region is very narrow, producing an extremely strong electric field across it even at low reverse voltages. This strong electric field directly pulls electrons out of covalent bonds, causing Zener breakdown.</p><p><strong>Step 3: Final Conclusion</strong><br/>Therefore, reverse breakdown is more likely to occur due to large velocity of the minority charge carriers if the doping concentration is small, or strong electric field in the depletion region if the doping concentration is large.</p><hr/><p><strong>चरण 1: अवधारणात्मक सिद्धांत</strong><br/>पश्च अभिनत p-n संधि डायोड में भंजन अपमिश्रण सांद्रता के आधार पर मुख्यतः दो क्रियाविधियों द्वारा होता है: ऐवलांश भंजन (Avalanche breakdown) और ज़ेनर भंजन (Zener breakdown)।</p><p><strong>चरण 2: मूल्यांकन और अनुप्रयोग</strong><br/>1. जब अपमिश्रण सांद्रता कम होती है (हल्का अपमिश्रण), तो अवक्षय क्षेत्र चौड़ा होता है। इस चौड़े अवक्षय क्षेत्र में त्वरित होने वाले अल्पसंख्यक आवेश वाहक उच्च वेग प्राप्त कर लेते हैं और क्रिस्टल परमाणुओं से टकराकर संयोजी इलेक्ट्रॉनों को मुक्त करते हैं, जिससे ऐवलांश भंजन होता है।<br/>2. जब अपमिश्रण सांद्रता अधिक होती है (भारी अपमिश्रण), तो अवक्षय क्षेत्र अत्यंत संकीर्ण होता है, जिससे कम पश्च वोल्टता पर भी अवक्षय क्षेत्र में अत्यंत प्रबल विद्युत क्षेत्र उत्पन्न हो जाता है। यह प्रबल विद्युत क्षेत्र सहसंयोजक बंधों से सीधे इलेक्ट्रॉनों को बाहर खींच लेता है, जिससे ज़ेनर भंजन होता है।</p><p><strong>चरण 3: अंतिम निष्कर्ष</strong><br/>अतः पश्च भंजन होने की अधिक संभावना तब होती है जब अपमिश्रण सांद्रता कम होने पर अल्पसंख्यक आवेश वाहकों का वेग अधिक हो, या अपमिश्रण सांद्रता अधिक होने पर अवक्षय क्षेत्र में प्रबल विद्युत क्षेत्र हो।</p>]]></text></generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>false</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="50" format="html"><text><![CDATA[<p>large velocity of the minority charge carriers if the doping concentration is small.</p>]]></text></answer>
+  <answer fraction="-50" format="html"><text><![CDATA[<p>large velocity of the minority charge carriers if the doping concentration is large.</p>]]></text></answer>
+  <answer fraction="-50" format="html"><text><![CDATA[<p>strong electric field in a depletion region if the doping concentration is small.</p>]]></text></answer>
+  <answer fraction="50" format="html"><text><![CDATA[<p>strong electric field in the depletion region if the doping concentration is large.</p>]]></text></answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:hi</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>section:mcq_ii</text></tag>
+    <tag><text>class:class_12</text></tag>
+    <tag><text>chapter:semiconductor_electronics</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:medium</text></tag>
+    <tag><text>blooms:understand</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:text</text></tag>
     <tag><text>multiconcept:false</text></tag>
   </tags>
 </question>

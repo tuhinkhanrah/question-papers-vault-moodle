@@ -1,68 +1,113 @@
 <question type="multichoice">
-  <name><text>NEET_UG_PHYSICS_OSCILLATIONS_MCQ_Q14_15 - Characteristics of simple harmonic oscillator</text></name>
-  <questiontext format="html">
-    <text><![CDATA[<p>Which of the following statements is/are true for a simple harmonic oscillator?</p>
-<hr/>
-<p>একটি সরল দোলকের ক্ষেত্রে নিচের কোন বিবৃতিটি/বিবৃতিগুলি সত্য?</p>]]></text>
-  </questiontext>
-  <generalfeedback format="html">
-    <text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>
-A simple harmonic oscillator is governed by Hooke's restoring force law:
-\[F = -k x,\]
-where \(k\) is the force constant and \(x\) is the displacement from the equilibrium (mean) position.</p>
-
-<p><strong>Step 2: Evaluation of Force Characteristic</strong><br/>
-By definition of simple harmonic motion, the restoring force is directly proportional to displacement \(x\) and acts in the opposite direction toward the mean position (\(F \propto -x\)). Thus, the statement that the force acting is directly proportional to displacement from the mean position and opposite to it is true.</p>
-
-<p><strong>Step 3: Evaluation of Periodicity and Acceleration</strong><br/>
-- The motion repeats itself identically after every fixed interval of time \(T = \frac{2\pi}{\omega}\), so the motion is periodic. This statement is true.<br/>
-- The acceleration of the oscillator is given by \(a = -\omega^2 x\). Since displacement \(x\) continuously varies between \(-A\) and \(+A\), the acceleration varies continuously with position and is not constant. Thus, the statement that acceleration is constant is false.<br/>
-- The velocity of the oscillator as a function of time is \(v(t) = -A\omega \sin(\omega t + \phi)\), which is a sinusoidal harmonic function that repeats after every time period \(T\). Thus, the velocity is periodic. This statement is true.</p>
-
-<p><strong>Step 4: Final Conclusion</strong><br/>
-The true characteristics of a simple harmonic oscillator are that the force acting is directly proportional to displacement from the mean position and opposite to it, the motion is periodic, and the velocity is periodic.<br/>
-Final Conceptual Answer: Force acting is directly proportional to displacement from the mean position and opposite to it, Motion is periodic, and The velocity is periodic.</p>
-<hr/>
-<p><strong>ধাপ ১: ধারণাগত নীতি</strong><br/>
-একটি সরল দোলক হুকের প্রত্যাবর্তক বলের নিয়ম মেনে চলে:
-\[F = -k x\]
-যেখানে \(k\) হলো বল ধ্রুবক এবং \(x\) হলো সাম্যাবস্থান থেকে সরণ।</p>
-
-<p><strong>ধাপ ২: বলের প্রকৃতি বিশ্লেষণ</strong><br/>
-সরল দোলগতির সংজ্ঞা অনুযায়ী প্রত্যাবর্তক বল সর্বদা সাম্যাবস্থান থেকে সরণের সমানুপাতিক এবং সরণের বিপরীতমুখী। সুতরাং, ক্রিয়াশীল বলটি সাম্যাবস্থান থেকে সরণের সমানুপাতিক ও বিপরীতমুখী—এই উক্তিটি সত্য।</p>
-
-<p><strong>ধাপ ৩: পর্যায়বৃত্ততা এবং ত্বরণ বিশ্লেষণ</strong><br/>
-- গতিটি নির্দিষ্ট সময় \(T = \frac{2\pi}{\omega}\) পর পর পুনরাবৃত্ত হয়, ফলে গতিটি পর্যায়বৃত্ত। এই উক্তিটি সত্য।<br/>
-- দোলকের ত্বরণ \(a = -\omega^2 x\)। যেহেতু সরণ \(x\) সময়ের সাথে অনবরত পরিবর্তিত হয়, তাই ত্বরণও সর্বদা পরিবর্তিত হয় এবং ধ্রুবক থাকে না। সুতরাং, ত্বরণ ধ্রুবক—এই উক্তিটি মিথ্যা।<br/>
-- বেগ \(v(t) = -A\omega \sin(\omega t + \phi)\) একটি সাইন অপেক্ষক যা প্রতি \(T\) পর্যায়কালে পুনরাবৃত্ত হয়, অর্থাৎ বেগ পর্যায়বৃত্ত। এই উক্তিটি সত্য।</p>
-
-<p><strong>ধাপ ৪: চূড়ান্ত সিদ্ধান্ত</strong><br/>
-সত্য বিবৃতিগুলি হলো: ক্রিয়াশীল বলটি সাম্যাবস্থান থেকে সরণের সমানুপাতিক ও বিপরীতমুখী, গতিটি পর্যায়বৃত্ত, এবং বেগ পর্যায়বৃত্ত।<br/>
-চূড়ান্ত ধারণাগত উত্তর: Force acting is directly proportional to displacement from the mean position and opposite to it, Motion is periodic, এবং The velocity is periodic।</p>]]></text>
-  </generalfeedback>
+  <name><text>NEET_UG_PHYSICS_OSCILLATIONS_MCQI_Q14_01 - Motion represented by cosine displacement equation</text></name>
+  <questiontext format="html"><text><![CDATA[<p>14.1 The displacement of a particle is represented by the equation</p><p>\[y = 3 \cos \left( \frac{\pi}{4} - 2\omega t \right).\]</p><p>The motion of the particle is</p><hr/><p>14.1 একটি কণার সরণ নিচের সমীকরণ দ্বারা প্রকাশিত হয়:</p><p>\[y = 3 \cos \left( \frac{\pi}{4} - 2\omega t \right).\]</p><p>কণাটির গতি হলো</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>The displacement of the particle as a function of time \(t\) is \(y = 3 \cos\left(\frac{\pi}{4} - 2\omega t\right)\), where \(\omega\) is a positive constant.</p><p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>The standard form of simple harmonic motion (S.H.M.) along the \(y\)-axis is \(y = A\cos(\omega' t + \phi)\), where \(A\) is the amplitude, \(\omega'\) is the angular frequency, and \(\phi\) is the initial phase.</p><p><strong>Step 3: Relevant Formulae and Principles</strong><br/>Using the even-function identity \(\cos(-\theta) = \cos(\theta)\), the displacement can be rewritten with a positive coefficient of \(t\). The time period of S.H.M. is \(T = \frac{2\pi}{\omega'}\).</p><p><strong>Step 4: Step-by-Step Working</strong><br/>Rewriting the given equation:<br/>\(y = 3 \cos\left(-\left(2\omega t - \frac{\pi}{4}\right)\right) = 3 \cos\left(2\omega t - \frac{\pi}{4}\right)\).<br/>Comparing with \(y = A\cos(\omega' t + \phi)\), we obtain \(A = 3\), \(\omega' = 2\omega\), and \(\phi = -\frac{\pi}{4}\).<br/>Since the equation is a single sinusoidal function of time with constant amplitude and constant angular frequency, the motion is simple harmonic.<br/>Its time period is \(T = \frac{2\pi}{\omega'} = \frac{2\pi}{2\omega} = \frac{\pi}{\omega}\).</p><p><strong>Step 5: Check and Final Answer</strong><br/>The dimension of \(\frac{\pi}{\omega}\) is time, and doubling the angular frequency halves the time period. Therefore, the motion is simple harmonic with period \(\frac{\pi}{\omega}\).</p><hr/><p><strong>ধাপ ১: প্রদত্ত তথ্য ও শর্তাবলি</strong><br/>সময়ের \(t\) অপেক্ষক হিসেবে কণাটির সরণ হলো \(y = 3 \cos\left(\frac{\pi}{4} - 2\omega t\right)\), যেখানে \(\omega\) একটি ধনাত্মক ধ্রুবক।</p><p><strong>ধাপ ২: অনুমান ও চিহ্ন প্রথা</strong><br/>\(y\)-অক্ষ বরাবর সরল দোলগতির (S.H.M.) আদর্শ রূপ হলো \(y = A\cos(\omega' t + \phi)\), যেখানে \(A\) হলো বিস্তার, \(\omega'\) হলো কৌণিক কম্পাঙ্ক এবং \(\phi\) হলো আদি দশা।</p><p><strong>ধাপ ৩: প্রাসঙ্গিক সূত্র ও নীতি</strong><br/>জোড়-অপেক্ষকের অভেদ \(\cos(-\theta) = \cos(\theta)\) ব্যবহার করে \(t\)-এর ধনাত্মক সহগসহ সরণটিকে পুনরায় লেখা যায়। S.H.M.-এর পর্যায়কাল হলো \(T = \frac{2\pi}{\omega'}\)।</p><p><strong>ধাপ ৪: ধাপে ধাপে গণনা</strong><br/>প্রদত্ত সমীকরণটিকে পুনরায় লিখে পাই:<br/>\(y = 3 \cos\left(-\left(2\omega t - \frac{\pi}{4}\right)\right) = 3 \cos\left(2\omega t - \frac{\pi}{4}\right)\)<br/>এটিকে \(y = A\cos(\omega' t + \phi)\)-এর সাথে তুলনা করে পাই \(A = 3\), \(\omega' = 2\omega\) এবং \(\phi = -\frac{\pi}{4}\)।<br/>যেহেতু সমীকরণটি ধ্রুব বিস্তার ও ধ্রুব কৌণিক কম্পাঙ্কবিশিষ্ট সময়ের একটি একক সাইনুসয়ডাল অপেক্ষক, তাই গতিটি সরল দোলগতি।<br/>এর পর্যায়কাল \(T = \frac{2\pi}{\omega'} = \frac{2\pi}{2\omega} = \frac{\pi}{\omega}\)।</p><p><strong>ধাপ ৫: যাচাই ও চূড়ান্ত উত্তর</strong><br/>\(\frac{\pi}{\omega}\)-এর মাত্রা হলো সময় এবং কৌণিক কম্পাঙ্ক দ্বিগুণ হলে পর্যায়কাল অর্ধেক হয়। সুতরাং, কণাটির গতি হলো \(\frac{\pi}{\omega}\) পর্যায়কালবিশিষ্ট সরল দোলগতি।</p>]]></text></generalfeedback>
   <defaultgrade>4.0000000</defaultgrade>
   <penalty>0.2500000</penalty>
   <hidden>0</hidden>
-  <single>false</single>
+  <single>true</single>
   <shuffleanswers>true</shuffleanswers>
   <answernumbering>abc</answernumbering>
-  <answer fraction="33.33333" format="html">
-    <text><![CDATA[<p>Force acting is directly proportional to displacement from the mean position and opposite to it.</p>]]></text>
-  </answer>
-  <answer fraction="33.33333" format="html">
-    <text><![CDATA[<p>Motion is periodic.</p>]]></text>
-  </answer>
-  <answer fraction="-50" format="html">
-    <text><![CDATA[<p>Acceleration of the oscillator is constant.</p>]]></text>
-  </answer>
-  <answer fraction="33.33333" format="html">
-    <text><![CDATA[<p>The velocity is periodic.</p>]]></text>
-  </answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>simple harmonic with period \(2\pi/\omega\)</p>]]></text></answer>
+  <answer fraction="100" format="html"><text><![CDATA[<p>simple harmonic with period \(\pi/\omega\)</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>periodic but not simple harmonic.</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>non-periodic.</p>]]></text></answer>
   <tags>
     <tag><text>standard:neet_ug</text></tag>
     <tag><text>lang:en</text></tag>
     <tag><text>lang:bn</text></tag>
     <tag><text>subject:physics</text></tag>
+    <tag><text>section:mcq_i</text></tag>
+    <tag><text>class:class_11</text></tag>
+    <tag><text>chapter:oscillations</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:easy</text></tag>
+    <tag><text>blooms:apply</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:equation</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+<question type="multichoice">
+  <name><text>NEET_UG_PHYSICS_OSCILLATIONS_MCQI_Q14_02 - Motion represented by sine cubed equation</text></name>
+  <questiontext format="html"><text><![CDATA[<p>14.2 The displacement of a particle is represented by the equation \(y = \sin^3 \omega t\). The motion is</p><hr/><p>14.2 একটি কণার সরণ \(y = \sin^3 \omega t\) সমীকরণ দ্বারা প্রকাশিত হয়। গতিটি হলো</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>The displacement of the particle is given by \(y = \sin^3 \omega t\).</p><p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>A motion is simple harmonic if its acceleration is directly proportional to the displacement and directed opposite to it, i.e., \(\frac{d^2 y}{dt^2} = -\Omega^2 y\) for some constant \(\Omega\). A motion is periodic if \(y(t + T) = y(t)\) for a fixed positive period \(T\).</p><p><strong>Step 3: Relevant Formulae and Principles</strong><br/>Trigonometric identity: \(\sin 3\theta = 3\sin\theta - 4\sin^3\theta\), which rearranges to \(\sin^3\theta = \frac{3}{4}\sin\theta - \frac{1}{4}\sin 3\theta\).</p><p><strong>Step 4: Step-by-Step Working</strong><br/>Using the identity with \(\theta = \omega t\):<br/>\(y = \frac{3}{4}\sin\omega t - \frac{1}{4}\sin 3\omega t\).<br/>This is a superposition of two simple harmonic motions of angular frequencies \(\omega\) and \(3\omega\), whose individual periods are \(T_1 = \frac{2\pi}{\omega}\) and \(T_2 = \frac{2\pi}{3\omega}\).<br/>At \(t + \frac{2\pi}{\omega}\), both \(\sin(\omega t + 2\pi) = \sin\omega t\) and \(\sin(3\omega t + 6\pi) = \sin 3\omega t\), so \(y\left(t + \frac{2\pi}{\omega}\right) = y(t)\). Thus the motion is periodic with period \(\frac{2\pi}{\omega}\).<br/>Differentiating twice with respect to \(t\):<br/>\(\frac{d^2y}{dt^2} = -\frac{3}{4}\omega^2 \sin\omega t + \frac{9}{4}\omega^2 \sin 3\omega t\).<br/>Since \(\frac{d^2y}{dt^2}\) is not proportional to \(-y\), the motion is not simple harmonic.</p><p><strong>Step 5: Check and Final Answer</strong><br/>The function repeats every \(\frac{2\pi}{\omega}\) but contains two distinct harmonic frequencies (\(\omega\) and \(3\omega\)). Therefore, the motion is periodic but not simple harmonic.</p><hr/><p><strong>ধাপ ১: প্রদত্ত তথ্য ও শর্তাবলি</strong><br/>কণাটির সরণ \(y = \sin^3 \omega t\) সমীকরণ দ্বারা প্রদত্ত।</p><p><strong>ধাপ ২: অনুমান ও চিহ্ন প্রথা</strong><br/>কোনো গতি সরল দোলগতি হবে যদি তার ত্বরণ সরণের সমানুপাতিক ও বিপরীতমুখী হয়, অর্থাৎ কোনো ধ্রুবক \(\Omega\)-এর জন্য \(\frac{d^2 y}{dt^2} = -\Omega^2 y\) হয়। কোনো গতি পর্যাবৃত্ত হবে যদি একটি নির্দিষ্ট ধনাত্মক পর্যায়কাল \(T\)-এর জন্য \(y(t + T) = y(t)\) হয়।</p><p><strong>ধাপ ৩: প্রাসঙ্গিক সূত্র ও নীতি</strong><br/>ত্রিকোণমিতিক অভেদ: \(\sin 3\theta = 3\sin\theta - 4\sin^3\theta\), যা থেকে পাওয়া যায় \(\sin^3\theta = \frac{3}{4}\sin\theta - \frac{1}{4}\sin 3\theta\)।</p><p><strong>ধাপ ৪: ধাপে ধাপে গণনা</strong><br/>\(\theta = \omega t\) বসিয়ে পাই:<br/>\(y = \frac{3}{4}\sin\omega t - \frac{1}{4}\sin 3\omega t\)।<br/>এটি \(\omega\) এবং \(3\omega\) কৌণিক কম্পাঙ্কের দুটি সরল দোলগতির উপরিপাত, যাদের পৃথক পর্যায়কাল যথাক্রমে \(T_1 = \frac{2\pi}{\omega}\) এবং \(T_2 = \frac{2\pi}{3\omega}\)।<br/>\(t + \frac{2\pi}{\omega}\) সময়ে \(\sin(\omega t + 2\pi) = \sin\omega t\) এবং \(\sin(3\omega t + 6\pi) = \sin 3\omega t\) হয়, ফলে \(y\left(t + \frac{2\pi}{\omega}\right) = y(t)\)। সুতরাং গতিটি \(\frac{2\pi}{\omega}\) পর্যায়কালবিশিষ্ট পর্যাবৃত্ত গতি।<br/>\(t\)-এর সাপেক্ষে পরপর দুবার অবকলন করে পাই:<br/>\(\frac{d^2y}{dt^2} = -\frac{3}{4}\omega^2 \sin\omega t + \frac{9}{4}\omega^2 \sin 3\omega t\)।<br/>যেহেতু \(\frac{d^2y}{dt^2}\) রাশিটি \(-y\)-এর সমানুপাতিক নয়, তাই গতিটি সরল দোলগতি নয়।</p><p><strong>ধাপ ৫: যাচাই ও চূড়ান্ত উত্তর</strong><br/>অপেক্ষকটি প্রতি \(\frac{2\pi}{\omega}\) সময় অন্তর পুনরাবৃত্ত হয় কিন্তু এতে দুটি ভিন্ন কম্পাঙ্ক (\(\omega\) ও \(3\omega\)) উপস্থিত রয়েছে। অতএব, গতিটি পর্যাবৃত্ত কিন্তু সরল দোলগতি নয়।</p>]]></text></generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="0" format="html"><text><![CDATA[<p>non-periodic.</p>]]></text></answer>
+  <answer fraction="100" format="html"><text><![CDATA[<p>periodic but not simple harmonic.</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>simple harmonic with period \(2\pi /\omega\)</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>simple harmonic with period \(\pi /\omega\)</p>]]></text></answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:bn</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>section:mcq_i</text></tag>
+    <tag><text>class:class_11</text></tag>
+    <tag><text>chapter:oscillations</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:medium</text></tag>
+    <tag><text>blooms:analyze</text></tag>
+    <tag><text>calculation:moderate</text></tag>
+    <tag><text>media:equation</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+<question type="multichoice">
+  <name><text>NEET_UG_PHYSICS_OSCILLATIONS_MCQI_Q14_03 - Acceleration displacement relation for SHM</text></name>
+  <questiontext format="html"><text><![CDATA[<p>14.3 The relation between acceleration and displacement of four particles are given below. Which one of the particles is executing simple harmonic motion?</p><hr/><p>14.3 নিচে চারটি কণার ত্বরণ ও সরণের মধ্যে সম্পর্ক দেওয়া হলো। এদের মধ্যে কোন কণাটি সরল দোলগতি সম্পন্ন করছে?</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>Four acceleration-displacement relations are given: \(a_x = +2x\), \(a_x = +2x^2\), \(a_x = -2x^2\), and \(a_x = -2x\).</p><p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>Displacement \(x\) is measured from the equilibrium (mean) position, and \(a_x\) is the acceleration along the \(x\)-axis.</p><p><strong>Step 3: Relevant Formulae and Principles</strong><br/>The defining differential condition for simple harmonic motion (S.H.M.) is \(a_x = -\omega^2 x\), where \(\omega^2\) is a positive constant. That is, acceleration must be directly proportional to the first power of displacement and opposite in sign (restoring in nature).</p><p><strong>Step 4: Step-by-Step Working</strong><br/>1. \(a_x = +2x\): Acceleration is in the same direction as displacement, pushing the particle away from equilibrium (unstable), not restoring.<br/>2. \(a_x = +2x^2\): Non-linear in \(x\) and always positive, not restoring.<br/>3. \(a_x = -2x^2\): Non-linear in \(x\) and always negative even for \(x &lt; 0\), not restoring.<br/>4. \(a_x = -2x\): Linear in \(x\) with a negative proportionality constant (\(\omega^2 = 2 &gt; 0\)), satisfying \(a_x = -\omega^2 x\).</p><p><strong>Step 5: Check and Final Answer</strong><br/>Only \(a_x = -2x\) satisfies the restoring linear condition for S.H.M. Therefore, the particle with \(a_x = -2x\) is executing simple harmonic motion.</p><hr/><p><strong>ধাপ ১: প্রদত্ত তথ্য ও শর্তাবলি</strong><br/>ত্বরণ ও সরণের চারটি সম্পর্ক দেওয়া হয়েছে: \(a_x = +2x\), \(a_x = +2x^2\), \(a_x = -2x^2\) এবং \(a_x = -2x\)।</p><p><strong>ধাপ ২: অনুমান ও চিহ্ন প্রথা</strong><br/>সরণ \(x\) সাম্যাবস্থা (মধ্য অবস্থান) থেকে পরিমাপ করা হয় এবং \(a_x\) হলো \(x\)-অক্ষ বরাবর ত্বরণ।</p><p><strong>ধাপ ৩: প্রাসঙ্গিক সূত্র ও নীতি</strong><br/>সরল দোলগতির (S.H.M.) সংজ্ঞা অনুযায়ী শর্ত হলো \(a_x = -\omega^2 x\), যেখানে \(\omega^2\) একটি ধনাত্মক ধ্রুবক। অর্থাৎ, ত্বরণ সরণের প্রথম ঘাতের সমানুপাতিক এবং বিপরীতমুখী (প্রত্যাবৃত্তিক) হতে হবে।</p><p><strong>ধাপ ৪: ধাপে ধাপে গণনা</strong><br/>১. \(a_x = +2x\): ত্বরণ সরণের দিকেই ক্রিয়া করে, যা কণাটিকে সাম্যাবস্থা থেকে দূরে ঠেলে দেয়; এটি প্রত্যাবৃত্তিক নয়।<br/>২. \(a_x = +2x^2\): এটি \(x\)-এর সাপেক্ষে অরৈখিক এবং সর্বদা ধনাত্মক, তাই প্রত্যাবৃত্তিক নয়।<br/>৩. \(a_x = -2x^2\): এটি \(x\)-এর সাপেক্ষে অরৈখিক এবং \(x &lt; 0\) হলেও ঋণাত্মক থাকে, তাই প্রত্যাবৃত্তিক নয়।<br/>৪. \(a_x = -2x\): এটি \(x\)-এর সাপেক্ষে রৈখিক এবং ঋণাত্মক সমানুপাতিক ধ্রুবকবিশিষ্ট (\(\omega^2 = 2 &gt; 0\)), যা \(a_x = -\omega^2 x\) শর্তটি পূরণ করে।</p><p><strong>ধাপ ৫: যাচাই ও চূড়ান্ত উত্তর</strong><br/>কেবলমাত্র \(a_x = -2x\) সরল দোলগতির রৈখিক প্রত্যাবৃত্তিক শর্তটি মেনে চলে। সুতরাং, \(a_x = -2x\) সম্পর্কযুক্ত কণাটি সরল দোলগতি সম্পন্ন করছে।</p>]]></text></generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="0" format="html"><text><![CDATA[<p>\(a_x = +2x\)</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>\(a_x = +2x^2\)</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>\(a_x = -2x^2\)</p>]]></text></answer>
+  <answer fraction="100" format="html"><text><![CDATA[<p>\(a_x = -2x\)</p>]]></text></answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:bn</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>section:mcq_i</text></tag>
+    <tag><text>class:class_11</text></tag>
+    <tag><text>chapter:oscillations</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:easy</text></tag>
+    <tag><text>blooms:understand</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:equation</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+<question type="multichoice">
+  <name><text>NEET_UG_PHYSICS_OSCILLATIONS_MCQI_Q14_04 - Oscillating liquid column in a U-tube</text></name>
+  <questiontext format="html"><text><![CDATA[<p>14.4 Motion of an oscillating liquid column in a U-tube is</p><hr/><p>14.4 একটি U-নলে দোলায়মান তরল স্তম্ভের গতি হলো</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>Consider an incompressible liquid of density \(\rho\) and total column length \(L\) inside a uniform U-tube of cross-sectional area \(A\).</p><p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>Viscous effects are neglected. Let the liquid level in one arm be displaced upward by \(y\) from equilibrium, so the level in the other arm drops by \(y\).</p><p><strong>Step 3: Relevant Formulae and Principles</strong><br/>The difference in liquid levels between the two arms is \(2y\). The restoring weight of this excess column is \(F = -(\text{mass}) \times g = -(2Ay\rho)g\). By Newton's second law, \(F = M a\), where total mass \(M = AL\rho\).</p><p><strong>Step 4: Step-by-Step Working</strong><br/>Acceleration of the liquid column:<br/>\(a = \frac{F}{M} = \frac{-2Ay\rho g}{AL\rho} = -\left(\frac{2g}{L}\right) y\).<br/>Comparing with \(a = -\omega^2 y\), the motion is simple harmonic with \(\omega = \sqrt{\frac{2g}{L}}\).<br/>The time period is \(T = \frac{2\pi}{\omega} = 2\pi \sqrt{\frac{L}{2g}}\).</p><p><strong>Step 5: Check and Final Answer</strong><br/>Notice that the density \(\rho\) cancels out completely in the expression for acceleration and time period. Therefore, the motion is simple harmonic and its time period is independent of the density of the liquid.</p><hr/><p><strong>ধাপ ১: প্রদত্ত তথ্য ও শর্তাবলি</strong><br/>ধরা যাক, \(A\) প্রস্থচ্ছেদের ক্ষেত্রফলবিশিষ্ট একটি সুষম U-নলের মধ্যে \(\rho\) ঘনত্বের এবং \(L\) মোট দৈর্ঘ্যের একটি অসংকোচনীয় তরল রয়েছে।</p><p><strong>ধাপ ২: অনুমান ও চিহ্ন প্রথা</strong><br/>সান্দ্রতা জনিত বাধা উপেক্ষা করা হলো। ধরি, সাম্যাবস্থা থেকে একটি বাহুতে তরলের তল \(y\) পরিমাণ উপরে উঠেছে, ফলে অপর বাহুতে তরলের তল \(y\) পরিমাণ নিচে নেমে গেছে।</p><p><strong>ধাপ ৩: প্রাসঙ্গিক সূত্র ও নীতি</strong><br/>দুই বাহুর তরল তলের উচ্চতার পার্থক্য \(2y\)। এই অতিরিক্ত স্তম্ভের ওজনই প্রত্যাবৃত্তিক বল জোগায়: \(F = -(\text{ভর}) \times g = -(2Ay\rho)g\)। নিউটনের দ্বিতীয় সূত্র অনুযায়ী \(F = M a\), যেখানে মোট ভর \(M = AL\rho\)।</p><p><strong>ধাপ ৪: ধাপে ধাপে গণনা</strong><br/>তরল স্তম্ভের ত্বরণ:<br/>\(a = \frac{F}{M} = \frac{-2Ay\rho g}{AL\rho} = -\left(\frac{2g}{L}\right) y\)।<br/>এটিকে \(a = -\omega^2 y\)-এর সাথে তুলনা করলে দেখা যায় গতিটি সরল দোলগতি, যার কৌণিক কম্পাঙ্ক \(\omega = \sqrt{\frac{2g}{L}}\)।<br/>পর্যায়কাল \(T = \frac{2\pi}{\omega} = 2\pi \sqrt{\frac{L}{2g}}\)।</p><p><strong>ধাপ ৫: যাচাই ও চূড়ান্ত উত্তর</strong><br/>লক্ষ করা যায় যে ত্বরণ এবং পর্যায়কালের রাশিমালায় ঘনত্ব \(\rho\) সম্পূর্ণভাবে বাদ পড়ে যায়। অতএব, গতিটি সরল দোলগতি এবং এর পর্যায়কাল তরলের ঘনত্বের ওপর নির্ভরশীল নয়।</p>]]></text></generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="0" format="html"><text><![CDATA[<p>periodic but not simple harmonic.</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>non-periodic.</p>]]></text></answer>
+  <answer fraction="100" format="html"><text><![CDATA[<p>simple harmonic and time period is independent of the density of the liquid.</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>simple harmonic and time-period is directly proportional to the density of the liquid.</p>]]></text></answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:bn</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>section:mcq_i</text></tag>
     <tag><text>class:class_11</text></tag>
     <tag><text>chapter:oscillations</text></tag>
     <tag><text>typology:mcq</text></tag>
@@ -73,95 +118,299 @@ Final Conceptual Answer: Force acting is directly proportional to displacement f
     <tag><text>multiconcept:false</text></tag>
   </tags>
 </question>
-
 <question type="multichoice">
-  <name><text>NEET_UG_PHYSICS_OSCILLATIONS_MCQ_Q14_16 - Dynamic quantities from displacement time graph</text></name>
-  <questiontext format="html">
-    <text><![CDATA[<p>The displacement time graph of a particle executing S.H.M. is shown in Fig. 14.5. Which of the following statement is/are true?
-<p><img src="@@PLUGINFILE@@/img-4.jpeg" alt="Fig. 14.5" /></p></p>
-<hr/>
-<p>সরল দোলগতিসম্পন্ন একটি কণার সরণ-সময় লেখচিত্র চিত্র 14.5-এ দেখানো হয়েছে। নিচের কোন বিবৃতিটি/বিবৃতিগুলি সত্য?
-</p>]]></text>
-  </questiontext>
-  <generalfeedback format="html">
-    <text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>
-The graph depicts displacement \(x(t)\) against time \(t\) for a particle in S.H.M. with initial displacement \(x(0) = A\).<br/>
-Thus, the equation of displacement is:
-\[x(t) = A \cos \omega t = A \cos \left( \frac{2\pi t}{T} \right).\]</p>
-
-<p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>
-Velocity is \(v(t) = \frac{dx}{dt} = -A\omega \sin \omega t\).<br/>
-Acceleration is \(a(t) = \frac{dv}{dt} = -\omega^2 x(t) = -A\omega^2 \cos \omega t\).<br/>
-Restoring force is \(F(t) = ma(t) = -kA \cos \omega t\).<br/>
-Kinetic energy is \(K = \frac{1}{2}mv^2\) and potential energy is \(U = \frac{1}{2}kx^2\).</p>
-
-<p><strong>Step 3: Relevant Formulae and Principles</strong><br/>
-At the mean position (\(x = 0\)), force and acceleration are zero, while velocity and kinetic energy are maximum.<br/>
-At the extreme positions (\(x = \pm A\)), force, acceleration, and potential energy are maximum, while velocity and kinetic energy are zero.</p>
-
-<p><strong>Step 4: Step-by-Step Working</strong><br/>
-Evaluating each condition:
-1. At \(t = \frac{3T}{4}\): \(x = A \cos\left(\frac{2\pi}{T} \cdot \frac{3T}{4}\right) = A \cos\left(\frac{3\pi}{2}\right) = 0\). Since the particle is at the mean position, the restoring force is \(F = -kx = 0\). This statement is true.<br/>
-2. At \(t = \frac{4T}{4} = T\): \(x = A \cos(2\pi) = A\). The particle is at the extreme position, so acceleration magnitude is \(|a| = \omega^2 A\), which is the maximum acceleration. This statement is true.<br/>
-3. At \(t = \frac{T}{4}\): \(x = A \cos\left(\frac{\pi}{2}\right) = 0\). The particle is passing through the mean position, where the velocity magnitude is \(|v| = A\omega = v_{\max}\), which is maximum. This statement is true.<br/>
-4. At \(t = \frac{T}{2} = \frac{2T}{4}\): \(x = A \cos(\pi) = -A\). The particle is at the negative extreme position where \(U = \frac{1}{2}kA^2\) (maximum) and \(K = 0\). Because \(U \neq K\), the statement that P.E. is equal to K.E. is false.</p>
-
-<p><strong>Step 5: Check and Final Answer</strong><br/>
-The true statements are that the force is zero at \(t = \frac{3T}{4}\), the acceleration is maximum at \(t = \frac{4T}{4}\), and the velocity is maximum at \(t = \frac{T}{4}\).<br/>
-Final Conceptual Answer: The force is zero at \(t = \frac{3T}{4}\), The acceleration is maximum at \(t = \frac{4T}{4}\), and The velocity is maximum at \(t = \frac{T}{4}\).</p>
-<hr/>
-<p><strong>ধাপ ১: প্রদত্ত তথ্য এবং শর্তাবলী</strong><br/>
-সরণ-সময় লেখচিত্র অনুসারে \(t = 0\)-তে \(x = A\)।<br/>
-সুতরাং সরণের সমীকরণ:
-\[x(t) = A \cos \omega t = A \cos \left( \frac{2\pi t}{T} \right)\]</p>
-
-<p><strong>ধাপ ২: স্বীকার্য এবং চিহ্নরীতি</strong><br/>
-বেগ: \(v(t) = -A\omega \sin \omega t\)।<br/>
-ত্বরণ: \(a(t) = -A\omega^2 \cos \omega t\)।<br/>
-বল: \(F(t) = -kA \cos \omega t\)।<br/>
-গতিশক্তি: \(K = \frac{1}{2}mv^2\) এবং স্থিতিশক্তি: \(U = \frac{1}{2}kx^2\)।</p>
-
-<p><strong>ধাপ ৩: প্রাসঙ্গিক সূত্র এবং নীতি</strong><br/>
-সাম্যাবস্থানে (\(x = 0\)) বল ও ত্বরণ শূন্য হয় এবং বেগ সর্বোচ্চ হয়।<br/>
-প্রান্তিক অবস্থানে (\(x = \pm A\)) ত্বরণ ও বল সর্বোচ্চ হয় এবং বেগ শূন্য হয়।</p>
-
-<p><strong>ধাপ ৪: ধাপে ধাপে গণনা</strong><br/>
-শর্তগুলির মূল্যায়ন:
-১. \(t = \frac{3T}{4}\)-তে: \(x = A \cos\left(\frac{3\pi}{2}\right) = 0\)। সাম্যাবস্থানে থাকায় বল \(F = 0\)। বিবৃতিটি সত্য।<br/>
-২. \(t = \frac{4T}{4} = T\)-তে: \(x = A \cos(2\pi) = A\)। কণাটি ধনাত্মক প্রান্তে থাকায় ত্বরণ সর্বোচ্চ (\(|a| = \omega^2 A\))। বিবৃতিটি সত্য।<br/>
-৩. \(t = \frac{T}{4}\)-তে: \(x = A \cos\left(\frac{\pi}{2}\right) = 0\)। সাম্যাবস্থান অতিক্রম করায় বেগের মান সর্বোচ্চ (\(|v| = A\omega\))। বিবৃতিটি সত্য।<br/>
-৪. \(t = \frac{T}{2}\)-তে: \(x = -A\)। কণাটি চরম অবস্থানে থাকায় স্থিতিশক্তি সর্বাধিক (\(U = \frac{1}{2}kA^2\)) এবং গতিশক্তি শূন্য (\(K = 0\))। ফলে \(U \neq K\), অর্থাৎ বিবৃতিটি মিথ্যা।</p>
-
-<p><strong>ধাপ ৫: যাচাই এবং চূড়ান্ত উত্তর</strong><br/>
-সত্য বিবৃতিগুলি হলো: \(t = \frac{3T}{4}\)-তে বল শূন্য, \(t = \frac{4T}{4}\)-তে ত্বরণ সর্বোচ্চ, এবং \(t = \frac{T}{4}\)-তে বেগ সর্বোচ্চ।<br/>
-চূড়ান্ত ধারণাগত উত্তর: The force is zero at \(t = \frac{3T}{4}\), The acceleration is maximum at \(t = \frac{4T}{4}\), এবং The velocity is maximum at \(t = \frac{T}{4}\)।</p>]]></text>
-  </generalfeedback>
+  <name><text>NEET_UG_PHYSICS_OSCILLATIONS_MCQI_Q14_05 - Trajectory of two perpendicular SHMs</text></name>
+  <questiontext format="html"><text><![CDATA[<p>14.5 A particle is acted simultaneously by mutually perpendicular simple harmonic motions \(x = a \cos \omega t\) and \(y = a \sin \omega t\). The trajectory of motion of the particle will be</p><hr/><p>14.5 একটি কণার ওপর যুগপৎ দুটি পরস্পর লম্ব সরল দোলগতি \(x = a \cos \omega t\) এবং \(y = a \sin \omega t\) ক্রিয়াশীল। কণাটির গতিপথ হবে</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>The particle's coordinates are \(x = a \cos \omega t\) and \(y = a \sin \omega t\) along two mutually perpendicular axes, with equal amplitudes \(a\) and equal angular frequencies \(\omega\).</p><p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>The \(x\) and \(y\) axes are orthogonal Cartesian axes in the plane of motion.</p><p><strong>Step 3: Relevant Formulae and Principles</strong><br/>To find the trajectory (path equation), eliminate the time parameter \(t\) using the trigonometric identity \(\cos^2 \omega t + \sin^2 \omega t = 1\).</p><p><strong>Step 4: Step-by-Step Working</strong><br/>Squaring both equations and adding:<br/>\(x^2 + y^2 = (a\cos\omega t)^2 + (a\sin\omega t)^2 = a^2(\cos^2\omega t + \sin^2\omega t) = a^2\).<br/>The equation \(x^2 + y^2 = a^2\) represents a circle of radius \(a\) centered at the origin.</p><p><strong>Step 5: Check and Final Answer</strong><br/>The distance from the origin \(\sqrt{x^2 + y^2} = a\) remains constant at all times \(t\). Therefore, the trajectory of the particle is a circle.</p><hr/><p><strong>ধাপ ১: প্রদত্ত তথ্য ও শর্তাবলি</strong><br/>দুটি পরস্পর লম্ব অক্ষ বরাবর কণাটির স্থানাঙ্ক হলো \(x = a \cos \omega t\) এবং \(y = a \sin \omega t\), যেখানে উভয়ের বিস্তার \(a\) এবং কৌণিক কম্পাঙ্ক \(\omega\) সমান।</p><p><strong>ধাপ ২: অনুমান ও চিহ্ন প্রথা</strong><br/>গতির তলে \(x\) এবং \(y\) হলো পরস্পর লম্ব কার্তেসীয় অক্ষ।</p><p><strong>ধাপ ৩: প্রাসঙ্গিক সূত্র ও নীতি</strong><br/>গতিপথের সমীকরণ নির্ণয় করতে ত্রিকোণমিতিক অভেদ \(\cos^2 \omega t + \sin^2 \omega t = 1\) ব্যবহার করে সময় \(t\)-কে অপনয়ন করতে হবে।</p><p><strong>ধাপ ৪: ধাপে ধাপে গণনা</strong><br/>উভয় সমীকরণকে বর্গ করে যোগ করে পাই:<br/>\(x^2 + y^2 = (a\cos\omega t)^2 + (a\sin\omega t)^2 = a^2(\cos^2\omega t + \sin^2\omega t) = a^2\)।<br/>\(x^2 + y^2 = a^2\) সমীকরণটি মূলবিন্দুকে কেন্দ্র করে \(a\) ব্যাসার্ধের একটি বৃত্তকে নির্দেশ করে।</p><p><strong>ধাপ ৫: যাচাই ও চূড়ান্ত উত্তর</strong><br/>সকল সময় \(t\)-তে মূলবিন্দু থেকে দূরত্ব \(\sqrt{x^2 + y^2} = a\) ধ্রুবক থাকে। অতএব, কণাটির গতিপথ হবে একটি বৃত্ত।</p>]]></text></generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="0" format="html"><text><![CDATA[<p>an ellipse.</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>a parabola.</p>]]></text></answer>
+  <answer fraction="100" format="html"><text><![CDATA[<p>a circle.</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>a straight line.</p>]]></text></answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:bn</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>section:mcq_i</text></tag>
+    <tag><text>class:class_11</text></tag>
+    <tag><text>chapter:oscillations</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:easy</text></tag>
+    <tag><text>blooms:apply</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:equation</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+<question type="multichoice">
+  <name><text>NEET_UG_PHYSICS_OSCILLATIONS_MCQI_Q14_06 - Amplitude of superposed sine and cosine SHM</text></name>
+  <questiontext format="html"><text><![CDATA[<p>14.6 The displacement of a particle varies with time according to the relation</p><p>\[y = a \sin \omega t + b \cos \omega t.\]</p><hr/><p>14.6 একটি কণার সরণ সময়ের সাথে নিচের সম্পর্ক অনুযায়ী পরিবর্তিত হয়:</p><p>\[y = a \sin \omega t + b \cos \omega t.\]</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>The displacement of the particle is \(y = a \sin \omega t + b \cos \omega t\), where \(a\), \(b\), and \(\omega\) are constants.</p><p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>Define \(R &gt; 0\) and angle \(\phi\) such that \(a = R\cos\phi\) and \(b = R\sin\phi\).</p><p><strong>Step 3: Relevant Formulae and Principles</strong><br/>Using the compound angle identity \(\sin(A + B) = \sin A \cos B + \cos A \sin B\), the sum of a sine and a cosine of the same angular frequency \(\omega\) can be combined into a single sinusoidal function.</p><p><strong>Step 4: Step-by-Step Working</strong><br/>Squaring and adding \(a = R\cos\phi\) and \(b = R\sin\phi\):<br/>\(R^2(\cos^2\phi + \sin^2\phi) = a^2 + b^2 \implies R = \sqrt{a^2 + b^2}\).<br/>Substituting \(a\) and \(b\) into the displacement equation:<br/>\(y = R\cos\phi \sin\omega t + R\sin\phi \cos\omega t = R\sin(\omega t + \phi) = \sqrt{a^2 + b^2}\sin(\omega t + \phi)\).<br/>This is the standard equation of S.H.M. with amplitude \(\sqrt{a^2 + b^2}\) and angular frequency \(\omega\).</p><p><strong>Step 5: Check and Final Answer</strong><br/>If \(b = 0\), the amplitude reduces to \(|a|\); if \(a = 0\), it reduces to \(|b|\). Thus, the motion is S.H.M. with amplitude \(\sqrt{a^2 + b^2}\).</p><hr/><p><strong>ধাপ ১: প্রদত্ত তথ্য ও শর্তাবলি</strong><br/>কণাটির সরণ হলো \(y = a \sin \omega t + b \cos \omega t\), যেখানে \(a\), \(b\) এবং \(\omega\) ধ্রুবক।</p><p><strong>ধাপ ২: অনুমান ও চিহ্ন প্রথা</strong><br/>ধরি \(R &gt; 0\) এবং একটি কোণ \(\phi\) এমনভাবে নেওয়া হলো যাতে \(a = R\cos\phi\) ও \(b = R\sin\phi\) হয়।</p><p><strong>ধাপ ৩: প্রাসঙ্গিক সূত্র ও নীতি</strong><br/>যৌগিক কোণের অভেদ \(\sin(A + B) = \sin A \cos B + \cos A \sin B\) ব্যবহার করে একই কৌণিক কম্পাঙ্ক \(\omega\)-এর সাইন ও কোসাইন পদের যোগফলকে একটি একক সাইনুসয়ডাল অপেক্ষকে প্রকাশ করা যায়।</p><p><strong>ধাপ ৪: ধাপে ধাপে গণনা</strong><br/>\(a = R\cos\phi\) এবং \(b = R\sin\phi\)-কে বর্গ করে যোগ করে পাই:<br/>\(R^2(\cos^2\phi + \sin^2\phi) = a^2 + b^2 \implies R = \sqrt{a^2 + b^2}\)।<br/>সরনের সমীকরণে \(a\) এবং \(b\)-এর মান বসিয়ে পাই:<br/>\(y = R\cos\phi \sin\omega t + R\sin\phi \cos\omega t = R\sin(\omega t + \phi) = \sqrt{a^2 + b^2}\sin(\omega t + \phi)\)।<br/>এটি \(\sqrt{a^2 + b^2}\) বিস্তার এবং \(\omega\) কৌণিক কম্পাঙ্কবিশিষ্ট S.H.M.-এর আদর্শ সমীকরণ।</p><p><strong>ধাপ ৫: যাচাই ও চূড়ান্ত উত্তর</strong><br/>\(b = 0\) হলে বিস্তার \(|a|\) হয় এবং \(a = 0\) হলে বিস্তার \(|b|\) হয়। সুতরাং, গতিটি \(\sqrt{a^2 + b^2}\) বিস্তারবিশিষ্ট S.H.M.।</p>]]></text></generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="0" format="html"><text><![CDATA[<p>The motion is oscillatory but not S.H.M.</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>The motion is S.H.M. with amplitude \(a + b\).</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>The motion is S.H.M. with amplitude \(a^2 + b^2\).</p>]]></text></answer>
+  <answer fraction="100" format="html"><text><![CDATA[<p>The motion is S.H.M. with amplitude \(\sqrt{a^2 + b^2}\).</p>]]></text></answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:bn</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>section:mcq_i</text></tag>
+    <tag><text>class:class_11</text></tag>
+    <tag><text>chapter:oscillations</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:easy</text></tag>
+    <tag><text>blooms:apply</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:equation</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+<question type="multichoice">
+  <name><text>NEET_UG_PHYSICS_OSCILLATIONS_MCQI_Q14_07 - Resonance in coupled pendulums on elastic support</text></name>
+  <questiontext format="html"><text><![CDATA[<p>14.7 Four pendulums A, B, C and D are suspended from the same elastic support as shown in Fig. 14.1. A and C are of the same length, while B is smaller than A and D is larger than A. If A is given a transverse displacement,</p><p><img src="@@PLUGINFILE@@/img-0.jpeg" alt="Fig. 14.1" /></p><hr/><p>14.7 চিত্র 14.1-এ প্রদর্শিত একই স্থিতিস্থাপক অবলম্বন থেকে A, B, C এবং D চারটি দোলক ঝোলানো আছে। A এবং C-এর দৈর্ঘ্য সমান, অন্যদিকে B-এর দৈর্ঘ্য A-এর চেয়ে ছোট এবং D-এর দৈর্ঘ্য A-এর চেয়ে বড়। যদি A-কে একটি অনুপ্রস্থ সরণ দেওয়া হয়, তবে</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>The natural frequency of a simple pendulum of length \(L\) is given by \(f = \frac{1}{2\pi}\sqrt{\frac{g}{L}}\), which depends only on its length \(L\) and acceleration due to gravity \(g\).</p><p><strong>Step 2: Evaluation</strong><br/>When pendulum A is given a transverse displacement and released, it oscillates with its natural frequency \(f_A\) and transfers periodic driving impulses to the other pendulums through the shared elastic support, setting them into forced oscillations.</p><p><strong>Step 3: Application</strong><br/>Pendulum C has the same length as A (\(L_C = L_A\)), so its natural frequency \(f_C\) equals the driving frequency \(f_A\). Pendulums B and D have different lengths, so their natural frequencies differ from \(f_A\). Because \(f_C = f_A\), resonance occurs in pendulum C, resulting in maximum energy transfer and maximum oscillation amplitude.</p><p><strong>Step 4: Final Conclusion</strong><br/>Pendulum C will vibrate with maximum amplitude due to resonance.</p><hr/><p><strong>ধাপ ১: ধারণাগত নীতি</strong><br/>\(L\) দৈর্ঘ্যের একটি সরল দোলকের স্বাভাবিক কম্পাঙ্ক হলো \(f = \frac{1}{2\pi}\sqrt{\frac{g}{L}}\), যা কেবল দোলকের দৈর্ঘ্য \(L\) এবং অভিকর্ষজ ত্বরণ \(g\)-এর ওপর নির্ভর করে।</p><p><strong>ধাপ ২: মূল্যায়ন</strong><br/>দোলক A-কে অনুপ্রস্থ সরণ দিয়ে ছেড়ে দিলে এটি তার স্বাভাবিক কম্পাঙ্ক \(f_A\)-তে দুলতে থাকে এবং সাধারণ স্থিতিস্থাপক অবলম্বনের মাধ্যমে অন্য দোলকগুলোতে পর্যায়বৃত্ত চালক বল প্রেরণ করে, যার ফলে সেগুলোতে পরবশ কম্পনের সৃষ্টি হয়।</p><p><strong>ধাপ ৩: প্রয়োগ</strong><br/>দোলক C-এর দৈর্ঘ্য A-এর সমান (\(L_C = L_A\)), তাই এর স্বাভাবিক কম্পাঙ্ক \(f_C\) চালক কম্পাঙ্ক \(f_A\)-এর সমান। B এবং D দোলকের দৈর্ঘ্য ভিন্ন হওয়ায় তাদের স্বাভাবিক কম্পাঙ্ক \(f_A\) থেকে আলাদা। যেহেতু \(f_C = f_A\), তাই C দোলকে অনুনাদ ঘটে, যার ফলে সর্বাধিক শক্তি সঞ্চালন হয় এবং দোলন বিস্তার সর্বাধিক হয়।</p><p><strong>ধাপ ৪: চূড়ান্ত সিদ্ধান্ত</strong><br/>অনুনাদের কারণে C দোলকটি সর্বাধিক বিস্তারে কম্পিত হবে।</p>]]></text></generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="0" format="html"><text><![CDATA[<p>D will vibrate with maximum amplitude.</p>]]></text></answer>
+  <answer fraction="100" format="html"><text><![CDATA[<p>C will vibrate with maximum amplitude.</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>B will vibrate with maximum amplitude.</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>All the four will oscillate with equal amplitude.</p>]]></text></answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:bn</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>section:mcq_i</text></tag>
+    <tag><text>class:class_11</text></tag>
+    <tag><text>chapter:oscillations</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:easy</text></tag>
+    <tag><text>blooms:understand</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:diagram</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+<question type="multichoice">
+  <name><text>NEET_UG_PHYSICS_OSCILLATIONS_MCQI_Q14_08 - Projection of uniform circular motion on x-axis</text></name>
+  <questiontext format="html"><text><![CDATA[<p>14.8 Figure 14.2 shows the circular motion of a particle. The radius of the circle, the period, sense of revolution and the initial position are indicated on the figure. The simple harmonic motion of the \(x\)-projection of the radius vector of the rotating particle P is</p><p><img src="@@PLUGINFILE@@/img-1.jpeg" alt="Fig. 14.2" /></p><hr/><p>14.8 চিত্র 14.2-এ একটি কণার বৃত্তীয় গতি দেখানো হয়েছে। চিত্রে বৃত্তের ব্যাসার্ধ, পর্যায়কাল, আবর্তনের দিক এবং প্রারম্ভিক অবস্থান নির্দেশ করা হয়েছে। আবর্তনশীল কণা P-এর ব্যাসার্ধ ভেক্টরের \(x\)-অভিক্ষেপের সরল দোলগতিটি হলো</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>From the circular motion diagram: radius of the circle \(R = B\), time period \(T = 30\text{ s}\), initial position of P at \(t = 0\) is on the positive \(y\)-axis, and the sense of revolution (shown by the arrow) is clockwise.</p><p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>Angles are measured counterclockwise from the positive \(x\)-axis. Thus, at \(t = 0\), the angular position is \(\theta_0 = \frac{\pi}{2}\). Since the rotation is clockwise, the angle decreases with time.</p><p><strong>Step 3: Relevant Formulae and Principles</strong><br/>Angular speed \(\omega = \frac{2\pi}{T}\). At time \(t\), the angular position is \(\theta(t) = \theta_0 - \omega t\), and the \(x\)-projection of the radius vector is \(x(t) = R\cos\theta(t)\).</p><p><strong>Step 4: Step-by-Step Working</strong><br/>\(\omega = \frac{2\pi}{30}\text{ rad/s}\).<br/>At time \(t\), \(\theta(t) = \frac{\pi}{2} - \frac{2\pi t}{30}\).<br/>Therefore, the \(x\)-projection is:<br/>\(x(t) = B\cos\left(\frac{\pi}{2} - \frac{2\pi t}{30}\right) = B\sin\left(\frac{2\pi t}{30}\right)\).</p><p><strong>Step 5: Check and Final Answer</strong><br/>At \(t = 0\), \(x(0) = 0\). At \(t = \frac{T}{4} = 7.5\text{ s}\), clockwise rotation moves P to the positive \(x\)-axis, giving \(x = B\sin\left(\frac{\pi}{2}\right) = +B\), which matches the diagram. Thus, \(x(t) = B\sin\left(\frac{2\pi t}{30}\right)\).</p><hr/><p><strong>ধাপ ১: প্রদত্ত তথ্য ও শর্তাবলি</strong><br/>বৃত্তীয় গতির চিত্র থেকে পাই: বৃত্তের ব্যাসার্ধ \(R = B\), পর্যায়কাল \(T = 30\text{ s}\), \(t = 0\) সময়ে P-এর প্রারম্ভিক অবস্থান ধনাত্মক \(y\)-অক্ষের ওপর এবং আবর্তনের দিক (তীর চিহ্ন দ্বারা নির্দেশিত) ঘড়ির কাঁটার দিকে।</p><p><strong>ধাপ ২: অনুমান ও চিহ্ন প্রথা</strong><br/>ধনাত্মক \(x\)-অক্ষ থেকে ঘড়ির কাঁটার বিপরীত দিকে কোণ পরিমাপ করা হয়। সুতরাং \(t = 0\) সময়ে কৌণিক অবস্থান \(\theta_0 = \frac{\pi}{2}\)। যেহেতু ঘূর্ণন ঘড়ির কাঁটার দিকে, তাই সময়ের সাথে কোণ হ্রাস পায়।</p><p><strong>ধাপ ৩: প্রাসঙ্গিক সূত্র ও নীতি</strong><br/>কৌণিক বেগ \(\omega = \frac{2\pi}{T}\)। \(t\) সময়ে কৌণিক অবস্থান \(\theta(t) = \theta_0 - \omega t\) এবং ব্যাসার্ধ ভেক্টরের \(x\)-অভিক্ষেপ হলো \(x(t) = R\cos\theta(t)\)।</p><p><strong>ধাপ ৪: ধাপে ধাপে গণনা</strong><br/>\(\omega = \frac{2\pi}{30}\text{ rad/s}\)।<br/>\(t\) সময়ে, \(\theta(t) = \frac{\pi}{2} - \frac{2\pi t}{30}\)।<br/>অতএব, \(x\)-অভিক্ষেপ হলো:<br/>\(x(t) = B\cos\left(\frac{\pi}{2} - \frac{2\pi t}{30}\right) = B\sin\left(\frac{2\pi t}{30}\right)\)।</p><p><strong>ধাপ ৫: যাচাই ও চূড়ান্ত উত্তর</strong><br/>\(t = 0\) সময়ে \(x(0) = 0\)। \(t = \frac{T}{4} = 7.5\text{ s}\) সময়ে ঘড়ির কাঁটার দিকে ঘুরে P ধনাত্মক \(x\)-অক্ষে পৌঁছায়, যার ফলে \(x = B\sin\left(\frac{\pi}{2}\right) = +B\) হয়, যা চিত্রের সাথে মিলে যায়। সুতরাং, \(x(t) = B\sin\left(\frac{2\pi t}{30}\right)\)।</p>]]></text></generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="100" format="html"><text><![CDATA[<p>\(x(t) = B\sin\left(\frac{2\pi t}{30}\right)\).</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>\(x(t) = B\cos\left(\frac{\pi t}{15}\right)\).</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>\(x(t) = B\sin\left(\frac{\pi t}{15} + \frac{\pi}{2}\right)\).</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>\(x(t) = B\cos\left(\frac{\pi t}{15} + \frac{\pi}{2}\right)\).</p>]]></text></answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:bn</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>section:mcq_i</text></tag>
+    <tag><text>class:class_11</text></tag>
+    <tag><text>chapter:oscillations</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:medium</text></tag>
+    <tag><text>blooms:apply</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:diagram</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+<question type="multichoice">
+  <name><text>NEET_UG_PHYSICS_OSCILLATIONS_MCQI_Q14_09 - Motion with cosine of squared time argument</text></name>
+  <questiontext format="html"><text><![CDATA[<p>14.9 The equation of motion of a particle is \(x = a \cos (\alpha t)^2\). The motion is</p><hr/><p>14.9 একটি কণার গতির সমীকরণ \(x = a \cos (\alpha t)^2\)। গতিটি হলো</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>The position of the particle is given by \(x = a \cos(\alpha t)^2 = a \cos(\alpha^2 t^2)\), where \(a\) and \(\alpha\) are constants.</p><p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>A motion is oscillatory if the particle moves back and forth repeatedly between two extreme positions about a mean position. A motion is periodic if there exists a fixed constant \(T &gt; 0\) such that \(x(t + T) = x(t)\) for all \(t\).</p><p><strong>Step 3: Relevant Formulae and Principles</strong><br/>For \(\cos(\alpha^2 t^2)\), the range is \([-a, +a]\), and the argument \(\theta(t) = \alpha^2 t^2\) increases monotonically with \(t\) for \(t &gt; 0\).</p><p><strong>Step 4: Step-by-Step Working</strong><br/>As \(t\) increases, \(\cos(\alpha^2 t^2)\) repeatedly attains \(+1\) and \(-1\), so \(x\) moves back and forth between \(-a\) and \(+a\) about \(x = 0\). Hence, the motion is oscillatory.<br/>Testing for periodicity: if \(x(t + T) = x(t)\) for all \(t\), then \(\alpha^2(t + T)^2 - \alpha^2 t^2 = 2\pi n\) for some integer \(n\), which requires \(\alpha^2(2tT + T^2) = 2\pi n\). Since the left-hand side depends on \(t\), no fixed constant \(T &gt; 0\) can satisfy this for all \(t\). (Equivalently, the time interval between successive maxima shrinks as \(t\) increases.) Hence, the motion is not periodic.</p><p><strong>Step 5: Check and Final Answer</strong><br/>The particle oscillates between \(-a\) and \(+a\), but without a constant time period. Therefore, the motion is oscillatory but not periodic.</p><hr/><p><strong>ধাপ ১: প্রদত্ত তথ্য ও শর্তাবলি</strong><br/>কণাটির অবস্থান \(x = a \cos(\alpha t)^2 = a \cos(\alpha^2 t^2)\) সমীকরণ দ্বারা প্রদত্ত, যেখানে \(a\) এবং \(\alpha\) ধ্রুবক।</p><p><strong>ধাপ ২: অনুমান ও চিহ্ন প্রথা</strong><br/>কোনো কণা একটি মধ্য অবস্থানকে কেন্দ্র করে দুটি চরম অবস্থানের মধ্যে বারবার এদিক-ওদিক যাতায়াত করলে গতিটিকে দোলনগতি বলে। কোনো গতি পর্যাবৃত্ত হবে যদি একটি নির্দিষ্ট ধ্রুবক \(T &gt; 0\) থাকে যাতে সকল \(t\)-এর জন্য \(x(t + T) = x(t)\) হয়।</p><p><strong>ধাপ ৩: প্রাসঙ্গিক সূত্র ও নীতি</strong><br/>\(\cos(\alpha^2 t^2)\)-এর পাল্লা হলো \([-a, +a]\) এবং \(t &gt; 0\)-এর জন্য \(\theta(t) = \alpha^2 t^2\) মানটি \(t\)-এর সাথে একটানা বৃদ্ধি পায়।</p><p><strong>ধাপ ৪: ধাপে ধাপে গণনা</strong><br/>\(t\) বৃদ্ধির সাথে সাথে \(\cos(\alpha^2 t^2)\) বারবার \(+1\) এবং \(-1\) মান গ্রহণ করে, ফলে \(x\) মূলবিন্দু \(x = 0\)-এর উভয় দিকে \(-a\) ও \(+a\)-এর মধ্যে যাতায়াত করে। তাই গতিটি দোলনগতি।<br/>পর্যাবৃত্ততা যাচাই: সকল \(t\)-এর জন্য \(x(t + T) = x(t)\) হতে হলে কোনো পূর্ণসংখ্যা \(n\)-এর জন্য \(\alpha^2(t + T)^2 - \alpha^2 t^2 = 2\pi n\) অর্থাৎ \(\alpha^2(2tT + T^2) = 2\pi n\) হতে হবে। যেহেতু বামপক্ষ \(t\)-এর ওপর নির্ভরশীল, তাই কোনো নির্দিষ্ট ধ্রুবক \(T &gt; 0\) সকল \(t\)-এর জন্য এই সমীকরণ সিদ্ধ করতে পারে না (অর্থাৎ পরপর দুটি চরম অবস্থানের মধ্যবর্তী সময় ব্যবধান \(t\) বাড়ার সাথে সাথে কমতে থাকে)। সুতরাং গতিটি পর্যাবৃত্ত নয়।</p><p><strong>ধাপ ৫: যাচাই ও চূড়ান্ত উত্তর</strong><br/>কণাটি \(-a\) ও \(+a\)-এর মধ্যে দুলতে থাকে, কিন্তু কোনো নির্দিষ্ট পর্যায়কাল থাকে না। অতএব, গতিটি দোলনগতি কিন্তু পর্যাবৃত্ত নয়।</p>]]></text></generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="0" format="html"><text><![CDATA[<p>periodic but not oscillatory.</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>periodic and oscillatory.</p>]]></text></answer>
+  <answer fraction="100" format="html"><text><![CDATA[<p>oscillatory but not periodic.</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>neither periodic nor oscillatory.</p>]]></text></answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:bn</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>section:mcq_i</text></tag>
+    <tag><text>class:class_11</text></tag>
+    <tag><text>chapter:oscillations</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:medium</text></tag>
+    <tag><text>blooms:analyze</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:equation</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+<question type="multichoice">
+  <name><text>NEET_UG_PHYSICS_OSCILLATIONS_MCQI_Q14_10 - Time period from maximum speed and acceleration</text></name>
+  <questiontext format="html"><text><![CDATA[<p>14.10 A particle executing S.H.M. has a maximum speed of \(30\text{ cm/s}\) and a maximum acceleration of \(60\text{ cm/s}^2\). The period of oscillation is</p><hr/><p>14.10 সরল দোলগতি সম্পন্ন একটি কণার সর্বোচ্চ দ্রুতি \(30\text{ cm/s}\) এবং সর্বোচ্চ ত্বরণ \(60\text{ cm/s}^2\)। দোলনের পর্যায়কাল হলো</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>Maximum speed \(v_{\max} = 30\text{ cm/s}\) and maximum acceleration \(a_{\max} = 60\text{ cm/s}^2\).</p><p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>Let \(A\) be the amplitude and \(\omega\) be the angular frequency of the S.H.M.</p><p><strong>Step 3: Relevant Formulae and Principles</strong><br/>In S.H.M., \(v_{\max} = A\omega\), \(a_{\max} = A\omega^2\), and the time period is \(T = \frac{2\pi}{\omega}\).</p><p><strong>Step 4: Step-by-Step Working</strong><br/>Dividing \(a_{\max}\) by \(v_{\max}\):<br/>\(\omega = \frac{a_{\max}}{v_{\max}} = \frac{60\text{ cm/s}^2}{30\text{ cm/s}} = 2\text{ rad/s}\).<br/>Now, calculating the time period:<br/>\(T = \frac{2\pi}{\omega} = \frac{2\pi}{2} = \pi\text{ s}\).</p><p><strong>Step 5: Check and Final Answer</strong><br/>Checking amplitude: \(A = \frac{v_{\max}}{\omega} = \frac{30}{2} = 15\text{ cm}\), which gives \(a_{\max} = 15 \times 2^2 = 60\text{ cm/s}^2\). Thus, the period of oscillation is \(\pi\text{ s}\).</p><hr/><p><strong>ধাপ ১: প্রদত্ত তথ্য ও শর্তাবলি</strong><br/>সর্বোচ্চ দ্রুতি \(v_{\max} = 30\text{ cm/s}\) এবং সর্বোচ্চ ত্বরণ \(a_{\max} = 60\text{ cm/s}^2\)।</p><p><strong>ধাপ ২: অনুমান ও চিহ্ন প্রথা</strong><br/>ধরি, সরল দোলগতির বিস্তার \(A\) এবং কৌণিক কম্পাঙ্ক \(\omega\)।</p><p><strong>ধাপ ৩: প্রাসঙ্গিক সূত্র ও নীতি</strong><br/>S.H.M.-এ \(v_{\max} = A\omega\), \(a_{\max} = A\omega^2\) এবং পর্যায়কাল \(T = \frac{2\pi}{\omega}\)।</p><p><strong>ধাপ ৪: ধাপে ধাপে গণনা</strong><br/>\(a_{\max}\)-কে \(v_{\max}\) দ্বারা ভাগ করে পাই:<br/>\(\omega = \frac{a_{\max}}{v_{\max}} = \frac{60\text{ cm/s}^2}{30\text{ cm/s}} = 2\text{ rad/s}\)।<br/>এখন পর্যায়কাল নির্ণয় করে পাই:<br/>\(T = \frac{2\pi}{\omega} = \frac{2\pi}{2} = \pi\text{ s}\)।</p><p><strong>ধাপ ৫: যাচাই ও চূড়ান্ত উত্তর</strong><br/>বিস্তার যাচাই: \(A = \frac{v_{\max}}{\omega} = \frac{30}{2} = 15\text{ cm}\), যা থেকে \(a_{\max} = 15 \times 2^2 = 60\text{ cm/s}^2\) পাওয়া যায়। সুতরাং, দোলনের পর্যায়কাল হলো \(\pi\text{ s}\)।</p>]]></text></generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="100" format="html"><text><![CDATA[<p>\(\pi\text{ s}\)</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>\(\frac{\pi}{2}\text{ s}\)</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>\(2\pi\text{ s}\)</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>\(\frac{\pi}{t}\text{ s}\)</p>]]></text></answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:bn</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>section:mcq_i</text></tag>
+    <tag><text>class:class_11</text></tag>
+    <tag><text>chapter:oscillations</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:easy</text></tag>
+    <tag><text>blooms:apply</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:text</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+<question type="multichoice">
+  <name><text>NEET_UG_PHYSICS_OSCILLATIONS_MCQI_Q14_11 - Oscillation frequency of mass between two springs</text></name>
+  <questiontext format="html"><text><![CDATA[<p>14.11 When a mass \(m\) is connected individually to two springs \(S_1\) and \(S_2\), the oscillation frequencies are \(\nu_1\) and \(\nu_2\). If the same mass is attached to the two springs as shown in Fig. 14.3, the oscillation frequency would be</p><p><img src="@@PLUGINFILE@@/img-2.jpeg" alt="Fig. 14.3" /></p><hr/><p>14.11 যখন একটি ভর \(m\)-কে পৃথকভাবে দুটি স্প্রিং \(S_1\) এবং \(S_2\)-এর সাথে যুক্ত করা হয়, তখন দোলনের কম্পাঙ্ক হয় যথাক্রমে \(\nu_1\) এবং \(\nu_2\)। যদি চিত্র 14.3 অনুযায়ী একই ভরকে স্প্রিং দুটির সাথে যুক্ত করা হয়, তবে দোলনের কম্পাঙ্ক হবে</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>Mass \(m\) attached individually to spring \(S_1\) (spring constant \(k_1\)) oscillates with frequency \(\nu_1\), and attached individually to spring \(S_2\) (spring constant \(k_2\)) oscillates with frequency \(\nu_2\). In the combined arrangement, \(m\) is placed between two fixed walls and connected to \(S_1\) on one side and \(S_2\) on the other.</p><p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>The surface is frictionless and both springs are massless. A small displacement \(x\) of the mass to the right stretches \(S_1\) by \(x\) and compresses \(S_2\) by \(x\).</p><p><strong>Step 3: Relevant Formulae and Principles</strong><br/>For a single spring-mass system, \(\nu = \frac{1}{2\pi}\sqrt{\frac{k}{m}}\). For the parallel-acting restoring forces from both springs, \(F = -k_1 x - k_2 x = -(k_1 + k_2)x\), so the effective spring constant is \(k_{\text{eff}} = k_1 + k_2\).</p><p><strong>Step 4: Step-by-Step Working</strong><br/>From individual oscillations:<br/>\(\nu_1 = \frac{1}{2\pi}\sqrt{\frac{k_1}{m}} \implies \frac{k_1}{m} = 4\pi^2 \nu_1^2\).<br/>\(\nu_2 = \frac{1}{2\pi}\sqrt{\frac{k_2}{m}} \implies \frac{k_2}{m} = 4\pi^2 \nu_2^2\).<br/>For the combined system:<br/>\(\nu = \frac{1}{2\pi}\sqrt{\frac{k_{\text{eff}}}{m}} = \frac{1}{2\pi}\sqrt{\frac{k_1 + k_2}{m}} = \frac{1}{2\pi}\sqrt{4\pi^2(\nu_1^2 + \nu_2^2)} = \sqrt{\nu_1^2 + \nu_2^2}\).</p><p><strong>Step 5: Check and Final Answer</strong><br/>The result has dimensions of frequency and is greater than both \(\nu_1\) and \(\nu_2\), as expected for a stiffer effective spring. Thus, the oscillation frequency is \(\sqrt{\nu_1^2 + \nu_2^2}\).</p><hr/><p><strong>ধাপ ১: প্রদত্ত তথ্য ও শর্তাবলি</strong><br/>\(m\) ভরকে পৃথকভাবে \(S_1\) স্প্রিং-এর (স্প্রিং ধ্রুবক \(k_1\)) সাথে যুক্ত করলে কম্পাঙ্ক হয় \(\nu_1\) এবং \(S_2\) স্প্রিং-এর (স্প্রিং ধ্রুবক \(k_2\)) সাথে যুক্ত করলে কম্পাঙ্ক হয় \(\nu_2\)। যুক্ত ব্যবস্থায় \(m\) ভরটি দুটি স্থির দেয়ালের মাঝে একপাশে \(S_1\) এবং অপর পাশে \(S_2\)-এর সাথে যুক্ত আছে।</p><p><strong>ধাপ ২: অনুমান ও চিহ্ন প্রথা</strong><br/>তলটি ঘর্ষণহীন এবং স্প্রিং দুটি ভরহীন। ভরটির ডানদিকে সামান্য \(x\) সরণ ঘটলে \(S_1\) স্প্রিং \(x\) পরিমাণ প্রসারিত হয় এবং \(S_2\) স্প্রিং \(x\) পরিমাণ সংকুচিত হয়।</p><p><strong>ধাপ ৩: প্রাসঙ্গিক সূত্র ও নীতি</strong><br/>একটি একক স্প্রিং-ভর ব্যবস্থার জন্য \(\nu = \frac{1}{2\pi}\sqrt{\frac{k}{m}}\)। উভয় স্প্রিং থেকে আগত সমান্তরাল প্রত্যাবৃত্তিক বলের জন্য \(F = -k_1 x - k_2 x = -(k_1 + k_2)x\), অর্থাৎ তুল্য স্প্রিং ধ্রুবক \(k_{\text{eff}} = k_1 + k_2\)।</p><p><strong>ধাপ ৪: ধাপে ধাপে গণনা</strong><br/>পৃথক দোলন থেকে পাই:<br/>\(\nu_1 = \frac{1}{2\pi}\sqrt{\frac{k_1}{m}} \implies \frac{k_1}{m} = 4\pi^2 \nu_1^2\)<br/>\(\nu_2 = \frac{1}{2\pi}\sqrt{\frac{k_2}{m}} \implies \frac{k_2}{m} = 4\pi^2 \nu_2^2\)<br/>যুক্ত ব্যবস্থার জন্য:<br/>\(\nu = \frac{1}{2\pi}\sqrt{\frac{k_{\text{eff}}}{m}} = \frac{1}{2\pi}\sqrt{\frac{k_1 + k_2}{m}} = \frac{1}{2\pi}\sqrt{4\pi^2(\nu_1^2 + \nu_2^2)} = \sqrt{\nu_1^2 + \nu_2^2}\)।</p><p><strong>ধাপ ৫: যাচাই ও চূড়ান্ত উত্তর</strong><br/>ফলাফলটির মাত্রা কম্পাঙ্কের মাত্রার সমান এবং এটি \(\nu_1\) ও \(\nu_2\) উভয়ের চেয়ে বড়, যা অধিকতর দৃঢ় তুল্য স্প্রিং-এর ক্ষেত্রে প্রত্যাশিত। সুতরাং, দোলনের কম্পাঙ্ক হবে \(\sqrt{\nu_1^2 + \nu_2^2}\)।</p>]]></text></generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="0" format="html"><text><![CDATA[<p>\(\nu_1 + \nu_2\).</p>]]></text></answer>
+  <answer fraction="100" format="html"><text><![CDATA[<p>\(\sqrt{\nu_1^2 + \nu_2^2}\).</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>\(\left(\frac{1}{\nu_1} + \frac{1}{\nu_2}\right)^{-1}\).</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>\(\sqrt{\nu_1^2 - \nu_2^2}\).</p>]]></text></answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:bn</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>section:mcq_i</text></tag>
+    <tag><text>class:class_11</text></tag>
+    <tag><text>chapter:oscillations</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:medium</text></tag>
+    <tag><text>blooms:apply</text></tag>
+    <tag><text>calculation:moderate</text></tag>
+    <tag><text>media:diagram</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+<question type="multichoice">
+  <name><text>NEET_UG_PHYSICS_OSCILLATIONS_MCQII_Q14_12 - Nature of rotation of earth about axis</text></name>
+  <questiontext format="html"><text><![CDATA[<p>14.12 The rotation of earth about its axis is</p><hr/><p>14.12 নিজ অক্ষের চারিদিকে পৃথিবীর আবর্তন হলো</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>A motion is periodic if it repeats itself identically after a fixed interval of time. A motion is simple harmonic if it is a to-and-fro oscillatory motion about a mean position under a restoring force proportional to displacement.</p><p><strong>Step 2: Evaluation</strong><br/>The Earth completes one full rotation about its axis in a fixed period of approximately 24 hours (one sidereal day). Since the motion repeats identically at regular intervals, it is periodic motion.</p><p><strong>Step 3: Application</strong><br/>However, rotational motion in one continuous direction about an axis is not oscillatory (to-and-fro) motion about an equilibrium position, so it cannot be simple harmonic motion.</p><p><strong>Step 4: Final Conclusion</strong><br/>The rotation of the Earth about its axis is a periodic motion, and specifically it is periodic but not simple harmonic motion.</p><hr/><p><strong>ধাপ ১: ধারণাগত নীতি</strong><br/>কোনো গতি নির্দিষ্ট সময় ব্যবধান পরপর একইভাবে পুনরাবৃত্ত হলে তাকে পর্যাবৃত্ত গতি বলে। কোনো গতি সরল দোলগতি হবে যদি তা একটি মধ্য অবস্থানকে কেন্দ্র করে সরণের সমানুপাতিক প্রত্যাবৃত্তিক বলের অধীনে এদিক-ওদিক দোলনগতি হয়।</p><p><strong>ধাপ ২: মূল্যায়ন</strong><br/>পৃথিবী নিজ অক্ষের চারিদিকে প্রায় ২৪ ঘণ্টার (এক নাক্ষত্র দিন) একটি নির্দিষ্ট পর্যায়কালে একবার পূর্ণ আবর্তন সম্পন্ন করে। যেহেতু গতিটি নিয়মিত সময় অন্তর একইভাবে পুনরাবৃত্ত হয়, তাই এটি একটি পর্যাবৃত্ত গতি।</p><p><strong>ধাপ ৩: প্রয়োগ</strong><br/>তবে অক্ষের চারিদিকে একই দিকে অবিরাম ঘূর্ণন কোনো সাম্যাবস্থাকে কেন্দ্র করে এদিক-ওদিক দোলনগতি নয়, তাই এটি সরল দোলগতি হতে পারে না।</p><p><strong>ধাপ ৪: চূড়ান্ত সিদ্ধান্ত</strong><br/>নিজ অক্ষের চারিদিকে পৃথিবীর আবর্তন একটি পর্যাবৃত্ত গতি এবং এটি পর্যাবৃত্ত কিন্তু সরল দোলগতি নয়।</p>]]></text></generalfeedback>
   <defaultgrade>4.0000000</defaultgrade>
   <penalty>0.2500000</penalty>
   <hidden>0</hidden>
   <single>false</single>
   <shuffleanswers>true</shuffleanswers>
   <answernumbering>abc</answernumbering>
-  <answer fraction="33.33333" format="html">
-    <text><![CDATA[<p>The force is zero at \( t = \frac{3T}{4} \).</p>]]></text>
-  </answer>
-  <answer fraction="33.33333" format="html">
-    <text><![CDATA[<p>The acceleration is maximum at \( t = \frac{4T}{4} \).</p>]]></text>
-  </answer>
-  <answer fraction="33.33333" format="html">
-    <text><![CDATA[<p>The velocity is maximum at \( t = \frac{T}{4} \).</p>]]></text>
-  </answer>
-  <answer fraction="-50" format="html">
-    <text><![CDATA[<p>The P.E. is equal to K.E. of oscillation at \( t = \frac{T}{2} \).</p>]]></text>
-  </answer>
+  <answer fraction="50" format="html"><text><![CDATA[<p>periodic motion.</p>]]></text></answer>
+  <answer fraction="-50" format="html"><text><![CDATA[<p>simple harmonic motion.</p>]]></text></answer>
+  <answer fraction="50" format="html"><text><![CDATA[<p>periodic but not simple harmonic motion.</p>]]></text></answer>
+  <answer fraction="-50" format="html"><text><![CDATA[<p>non-periodic motion.</p>]]></text></answer>
   <tags>
     <tag><text>standard:neet_ug</text></tag>
     <tag><text>lang:en</text></tag>
     <tag><text>lang:bn</text></tag>
     <tag><text>subject:physics</text></tag>
+    <tag><text>section:mcq_ii</text></tag>
     <tag><text>class:class_11</text></tag>
     <tag><text>chapter:oscillations</text></tag>
-    <tag><text>typology:mcq</text></tag>
+    <tag><text>typology:multi_correct_mcq</text></tag>
+    <tag><text>difficulty:easy</text></tag>
+    <tag><text>blooms:understand</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:text</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+<question type="multichoice">
+  <name><text>NEET_UG_PHYSICS_OSCILLATIONS_MCQII_Q14_13 - Motion of ball bearing inside smooth curved bowl</text></name>
+  <questiontext format="html"><text><![CDATA[<p>14.13 Motion of a ball bearing inside a smooth curved bowl, when released from a point slightly above the lower point is</p><hr/><p>14.13 একটি মসৃণ বক্র বাটির সর্বনিম্ন বিন্দু থেকে সামান্য ওপরে কোনো বিন্দু থেকে একটি বল বেয়ারিংকে ছেড়ে দিলে তার গতি হবে</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>Near the lowest point of a smooth curved bowl of radius of curvature \(R\), the tangential restoring force on a ball bearing of mass \(m\) at small angular displacement \(\theta\) is \(F_t = -mg\sin\theta\).</p><p><strong>Step 2: Evaluation</strong><br/>For small displacements (\(\theta \ll 1\)), \(\sin\theta \approx \theta = \frac{s}{R}\), where \(s\) is the arc displacement from the lowest point. Thus, the tangential acceleration is \(a_t = -\frac{g}{R}s\).</p><p><strong>Step 3: Application</strong><br/>Because \(a_t = -\omega^2 s\) with \(\omega = \sqrt{\frac{g}{R}}\), the motion is simple harmonic motion (S.H.M.). Furthermore, every simple harmonic motion repeats after a fixed time period \(T = 2\pi\sqrt{\frac{R}{g}}\), so it is also a periodic motion.</p><p><strong>Step 4: Final Conclusion</strong><br/>The motion of the ball bearing is both simple harmonic motion and periodic motion.</p><hr/><p><strong>ধাপ ১: ধারণাগত নীতি</strong><br/>\(R\) বক্রতা ব্যাসার্ধের একটি মসৃণ বক্র বাটির সর্বনিম্ন বিন্দুর কাছে সামান্য কৌণিক সরণ \(\theta\)-এ \(m\) ভরের একটি বল বেয়ারিংয়ের ওপর ক্রিয়াশীল স্পর্শকীয় প্রত্যাবৃত্তিক বল হলো \(F_t = -mg\sin\theta\)।</p><p><strong>ধাপ ২: মূল্যায়ন</strong><br/>ক্ষুদ্র সরণের জন্য (\(\theta \ll 1\)), \(\sin\theta \approx \theta = \frac{s}{R}\), যেখানে \(s\) হলো সর্বনিম্ন বিন্দু থেকে বৃত্তচাপ বরাবর সরণ। সুতরাং, স্পর্শকীয় ত্বরণ \(a_t = -\frac{g}{R}s\)।</p><p><strong>ধাপ ৩: প্রয়োগ</strong><br/>যেহেতু \(a_t = -\omega^2 s\) যেখানে \(\omega = \sqrt{\frac{g}{R}}\), তাই গতিটি সরল দোলগতি (S.H.M.)। তদুপরি, প্রতিটি সরল দোলগতি একটি নির্দিষ্ট পর্যায়কাল \(T = 2\pi\sqrt{\frac{R}{g}}\) পরপর পুনরাবৃত্ত হয়, তাই এটি একটি পর্যাবৃত্ত গতিও বটে।</p><p><strong>ধাপ ৪: চূড়ান্ত সিদ্ধান্ত</strong><br/>বল বেয়ারিংটির গতি একইসাথে সরল দোলগতি এবং পর্যাবৃত্ত গতি।</p>]]></text></generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>false</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="50" format="html"><text><![CDATA[<p>simple harmonic motion.</p>]]></text></answer>
+  <answer fraction="-50" format="html"><text><![CDATA[<p>non-periodic motion.</p>]]></text></answer>
+  <answer fraction="50" format="html"><text><![CDATA[<p>periodic motion.</p>]]></text></answer>
+  <answer fraction="-50" format="html"><text><![CDATA[<p>periodic but not S.H.M.</p>]]></text></answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:bn</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>section:mcq_ii</text></tag>
+    <tag><text>class:class_11</text></tag>
+    <tag><text>chapter:oscillations</text></tag>
+    <tag><text>typology:multi_correct_mcq</text></tag>
+    <tag><text>difficulty:easy</text></tag>
+    <tag><text>blooms:understand</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:text</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+<question type="multichoice">
+  <name><text>NEET_UG_PHYSICS_OSCILLATIONS_MCQII_Q14_14 - Same phase instants on SHM displacement-time graph</text></name>
+  <questiontext format="html"><text><![CDATA[<p>14.14 Displacement vs. time curve for a particle executing S.H.M. is shown in Fig. 14.4. Choose the correct statements.</p><p><img src="@@PLUGINFILE@@/img-3.jpeg" alt="Fig. 14.4" /></p><hr/><p>14.14 চিত্র 14.4-এ সরল দোলগতি সম্পন্ন একটি কণার সরণ বনাম সময় লেখচিত্র দেখানো হয়েছে। সঠিক বিবৃতিগুলি নির্বাচন করো।</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>From the displacement-time graph, the particle starts at positive extreme (\(+A\)) at \(t = 0\text{ s}\), crosses zero at \(t = 1\text{ s}\), reaches negative extreme (\(-A\)) at \(t = 2\text{ s}\), crosses zero at \(t = 3\text{ s}\), and returns to positive extreme (\(+A\)) at \(t = 4\text{ s}\).</p><p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>Two instants correspond to the same phase (modulo \(2\pi\)) if the particle has both the same displacement and the same direction of velocity, which occurs when the time difference \(\Delta t\) is an integer multiple of the time period \(T\).</p><p><strong>Step 3: Relevant Formulae and Principles</strong><br/>Time period \(T = 4\text{ s}\). Phase difference \(\Delta\phi = \frac{2\pi}{T}\Delta t\).</p><p><strong>Step 4: Step-by-Step Working</strong><br/>- Comparing \(t = 0\text{ s}\) and \(t = 2\text{ s}\): \(\Delta t = 2\text{ s} = \frac{T}{2}\), so \(\Delta\phi = \pi\) (opposite phases).<br/>- Comparing \(t = 2\text{ s}\) and \(t = 6\text{ s}\): \(\Delta t = 4\text{ s} = T\), so \(\Delta\phi = 2\pi\) (both at \(-A\), same phase).<br/>- Comparing \(t = 1\text{ s}\) and \(t = 7\text{ s}\): \(\Delta t = 6\text{ s} = \frac{3T}{2}\), so \(\Delta\phi = 3\pi\) (at \(t = 1\text{ s}\) velocity is negative; at \(t = 7\text{ s}\) velocity is positive; opposite phases).<br/>- Comparing \(t = 1\text{ s}\) and \(t = 5\text{ s}\): \(\Delta t = 4\text{ s} = T\), so \(\Delta\phi = 2\pi\) (at both instants displacement is zero and velocity is negative; same phase).</p><p><strong>Step 5: Check and Final Answer</strong><br/>The phase of the oscillator is the same at \(t = 2\text{ s}\) and \(t = 6\text{ s}\), and also at \(t = 1\text{ s}\) and \(t = 5\text{ s}\).</p><hr/><p><strong>ধাপ ১: প্রদত্ত তথ্য ও শর্তাবলি</strong><br/>সরণ-সময় লেখচিত্র থেকে দেখা যায়, কণাটি \(t = 0\text{ s}\) সময়ে ধনাত্মক চরম অবস্থান (\(+A\)) থেকে শুরু করে, \(t = 1\text{ s}\) সময়ে শূন্য অতিক্রম করে, \(t = 2\text{ s}\) সময়ে ঋণাত্মক চরম অবস্থানে (\(-A\)) পৌঁছায়, \(t = 3\text{ s}\) সময়ে শূন্য অতিক্রম করে এবং \(t = 4\text{ s}\) সময়ে পুনরায় ধনাত্মক চরম অবস্থানে (\(+A\)) ফিরে আসে।</p><p><strong>ধাপ ২: অনুমান ও চিহ্ন প্রথা</strong><br/>দুটি মুহূর্তে কণাটির দশা একই হবে (\(2\pi\)-এর গুণিতক বাদে) যদি কণাটির সরণ এবং বেগের দিক উভয়ই সমান হয়, যা ঘটে যখন সময়ের পার্থক্য \(\Delta t\) পর্যায়কাল \(T\)-এর পূর্ণসংখ্যার গুণিতক হয়।</p><p><strong>ধাপ ৩: প্রাসঙ্গিক সূত্র ও নীতি</strong><br/>পর্যায়কাল \(T = 4\text{ s}\)। দশা পার্থক্য \(\Delta\phi = \frac{2\pi}{T}\Delta t\)।</p><p><strong>ধাপ ৪: ধাপে ধাপে গণনা</strong><br/>- \(t = 0\text{ s}\) এবং \(t = 2\text{ s}\)-এর তুলনা: \(\Delta t = 2\text{ s} = \frac{T}{2}\), অর্থাৎ \(\Delta\phi = \pi\) (বিপরীত দশা)।<br/>- \(t = 2\text{ s}\) এবং \(t = 6\text{ s}\)-এর তুলনা: \(\Delta t = 4\text{ s} = T\), অর্থাৎ \(\Delta\phi = 2\pi\) (উভয় ক্ষেত্রেই অবস্থান \(-A\), একই দশা)।<br/>- \(t = 1\text{ s}\) এবং \(t = 7\text{ s}\)-এর তুলনা: \(\Delta t = 6\text{ s} = \frac{3T}{2}\), অর্থাৎ \(\Delta\phi = 3\pi\) (\(t = 1\text{ s}\)-এ বেগ ঋণাত্মক; \(t = 7\text{ s}\)-এ বেগ ধনাত্মক; বিপরীত দশা)।<br/>- \(t = 1\text{ s}\) এবং \(t = 5\text{ s}\)-এর তুলনা: \(\Delta t = 4\text{ s} = T\), অর্থাৎ \(\Delta\phi = 2\pi\) (উভয় মুহূর্তে সরণ শূন্য এবং বেগ ঋণাত্মক; একই দশা)।</p><p><strong>ধাপ ৫: যাচাই ও চূড়ান্ত উত্তর</strong><br/>দোলকটির দশা \(t = 2\text{ s}\) ও \(t = 6\text{ s}\) সময়ে একই এবং \(t = 1\text{ s}\) ও \(t = 5\text{ s}\) সময়েও একই।</p>]]></text></generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>false</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="-50" format="html"><text><![CDATA[<p>Phase of the oscillator is same at \(t = 0\text{ s}\) and \(t = 2\text{ s}\).</p>]]></text></answer>
+  <answer fraction="50" format="html"><text><![CDATA[<p>Phase of the oscillator is same at \(t = 2\text{ s}\) and \(t = 6\text{ s}\).</p>]]></text></answer>
+  <answer fraction="-50" format="html"><text><![CDATA[<p>Phase of the oscillator is same at \(t = 1\text{ s}\) and \(t = 7\text{ s}\).</p>]]></text></answer>
+  <answer fraction="50" format="html"><text><![CDATA[<p>Phase of the oscillator is same at \(t = 1\text{ s}\) and \(t = 5\text{ s}\).</p>]]></text></answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:bn</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>section:mcq_ii</text></tag>
+    <tag><text>class:class_11</text></tag>
+    <tag><text>chapter:oscillations</text></tag>
+    <tag><text>typology:multi_correct_mcq</text></tag>
     <tag><text>difficulty:medium</text></tag>
     <tag><text>blooms:analyze</text></tag>
     <tag><text>calculation:light</text></tag>
@@ -169,220 +418,120 @@ Final Conceptual Answer: The force is zero at \(t = \frac{3T}{4}\), The accelera
     <tag><text>multiconcept:false</text></tag>
   </tags>
 </question>
-
 <question type="multichoice">
-  <name><text>NEET_UG_PHYSICS_OSCILLATIONS_MCQ_Q14_17 - Energy and velocity relationships in simple harmonic motion</text></name>
-  <questiontext format="html">
-    <text><![CDATA[<p>A body is performing S.H.M. Then its</p>
-<hr/>
-<p>একটি বস্তু সরল দোলগতি সম্পাদন করছে। তাহলে এর</p>]]></text>
-  </questiontext>
-  <generalfeedback format="html">
-    <text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>
-A body of mass \(m\) performs simple harmonic motion with amplitude \(A\) and angular frequency \(\omega\).</p>
-
-<p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>
-Velocity as a function of time is \(v(t) = v_{\max} \cos(\omega t + \phi)\), where maximum velocity is \(v_{\max} = A\omega\).<br/>
-Kinetic energy is \(K(t) = \frac{1}{2} m v^2 = \frac{1}{2} m v_{\max}^2 \cos^2(\omega t + \phi)\), where \(K_{\max} = \frac{1}{2} m v_{\max}^2\).</p>
-
-<p><strong>Step 3: Relevant Formulae and Principles</strong><br/>
-1. Total mechanical energy \(E = K + U = \frac{1}{2} m \omega^2 A^2 = K_{\max}\) is constant at all times.<br/>
-2. The average of \(\cos^2\theta\) over a complete cycle is \(\frac{1}{2}\).<br/>
-3. The root mean square velocity is \(v_{\text{rms}} = \sqrt{\langle v^2 \rangle}\).<br/>
-4. The mean (average) velocity over a complete cycle is \(\langle v \rangle = \frac{\text{net displacement}}{\text{time period}}\).</p>
-
-<p><strong>Step 4: Step-by-Step Working</strong><br/>
-Evaluating each energy and velocity relationship:
-1. Total energy is constant throughout the cycle: \(E = \frac{1}{2}m\omega^2 A^2 = K_{\max}\). Hence, the average total energy per cycle is equal to its maximum kinetic energy. This statement is true.<br/>
-2. The average kinetic energy per cycle is:
-\[\langle K \rangle = \frac{1}{2} m v_{\max}^2 \langle \cos^2(\omega t + \phi) \rangle = \frac{1}{2} K_{\max} \left(\frac{1}{2}\right) = \frac{1}{2} K_{\max}.\]
-Hence, the average kinetic energy per cycle is equal to half of its maximum kinetic energy. This statement is true.<br/>
-3. Over one complete period \(T\), the body returns to its starting point, so net displacement is zero:
-\[\langle v \rangle = \frac{x(T) - x(0)}{T} = 0.\]
-Therefore, mean velocity over a complete cycle is zero, not \(\frac{2}{\pi} v_{\max}\). This statement is false.<br/>
-4. The root mean square velocity is:
-\[v_{\text{rms}} = \sqrt{\langle v^2 \rangle} = \sqrt{v_{\max}^2 \langle \cos^2(\omega t + \phi) \rangle} = \sqrt{\frac{v_{\max}^2}{2}} = \frac{v_{\max}}{\sqrt{2}}.\]
-Hence, the root mean square velocity is \(\frac{1}{\sqrt{2}}\) times of its maximum velocity. This statement is true.</p>
-
-<p><strong>Step 5: Check and Final Answer</strong><br/>
-The valid relationships are: average total energy per cycle is equal to its maximum kinetic energy, average kinetic energy per cycle is equal to half of its maximum kinetic energy, and root mean square velocity is \(\frac{1}{\sqrt{2}}\) times of its maximum velocity.<br/>
-Final Conceptual Answer: average total energy per cycle is equal to its maximum kinetic energy, average kinetic energy per cycle is equal to half of its maximum kinetic energy, and root mean square velocity is \(\frac{1}{\sqrt{2}}\) times of its maximum velocity.</p>
-<hr/>
-<p><strong>ধাপ ১: প্রদত্ত তথ্য এবং শর্তাবলী</strong><br/>
-\(m\) ভরের একটি বস্তু \(A\) বিস্তার এবং \(\omega\) কৌণিক কম্পাঙ্কসহ সরল দোলগতি সম্পাদন করছে।</p>
-
-<p><strong>ধাপ ২: স্বীকার্য এবং চিহ্নরীতি</strong><br/>
-সময়ের সাপেক্ষে বেগ: \(v(t) = v_{\max} \cos(\omega t + \phi)\), যেখানে সর্বোচ্চ বেগ \(v_{\max} = A\omega\)।<br/>
-গতিশক্তি: \(K(t) = \frac{1}{2} m v_{\max}^2 \cos^2(\omega t + \phi)\), যেখানে সর্বোচ্চ গতিশক্তি \(K_{\max} = \frac{1}{2} m v_{\max}^2\)।</p>
-
-<p><strong>ধাপ ৩: প্রাসঙ্গিক সূত্র এবং নীতি</strong><br/>
-১. মোট শক্তি \(E = K + U = \frac{1}{2}m\omega^2 A^2 = K_{\max}\) সর্বদা ধ্রুবক থাকে।<br/>
-২. পূর্ণ চক্রে \(\cos^2\theta\)-এর গড় মান \(\frac{1}{2}\)।<br/>
-৩. গড় বর্গবেগের বর্গমূল: \(v_{\text{rms}} = \sqrt{\langle v^2 \rangle}\)।<br/>
-৪. পূর্ণ চক্রে গড় বেগ: \(\langle v \rangle = \frac{\text{মোট সরণ}}{\text{পর্যায়কাল}}\)।</p>
-
-<p><strong>ধাপ ৪: ধাপে ধাপে গণনা</strong><br/>
-উক্তিগুলির সত্যতা যাচাই:
-১. মোট শক্তি সর্বদা সংরক্ষিত ও ধ্রুবক থাকে: \(E = K_{\max}\)। অতএব পূর্ণ চক্রে গড় মোট শক্তি সর্বোচ্চ গতিশক্তির সমান। বিবৃতিটি সত্য।<br/>
-২. পূর্ণ চক্রে গড় গতিশক্তি:
-\[\langle K \rangle = K_{\max} \langle \cos^2(\omega t + \phi) \rangle = \frac{1}{2} K_{\max}\]
-অতএব পূর্ণ চক্রে গড় গতিশক্তি সর্বোচ্চ গতিশক্তির অর্ধেক। বিবৃতিটি সত্য।<br/>
-৩. একটি পূর্ণ চক্রে বস্তুটির নিট সরণ শূন্য হয়, তাই পূর্ণ চক্রে গড় বেগ \(\langle v \rangle = 0\), \(\frac{2}{\pi} v_{\max}\) নয়। বিবৃতিটি মিথ্যা।<br/>
-৪. আর.এম.এস (rms) বেগ:
-\[v_{\text{rms}} = \sqrt{\frac{v_{\max}^2}{2}} = \frac{v_{\max}}{\sqrt{2}}\]
-অতএব কার্যকর বেগ সর্বোচ্চ বেগের \(\frac{1}{\sqrt{2}}\) গুণ। বিবৃতিটি সত্য।</p>
-
-<p><strong>ধাপ ৫: যাচাই এবং চূড়ান্ত উত্তর</strong><br/>
-সত্য বিবৃতিগুলি হলো: প্রতি চক্রে গড় মোট শক্তি সর্বোচ্চ গতিশক্তির সমান, প্রতি চক্রে গড় গতিশক্তি সর্বোচ্চ গতিশক্তির অর্ধেক, এবং আর.এম.এস বেগ সর্বোচ্চ বেগের \(\frac{1}{\sqrt{2}}\) গুণ।<br/>
-চূড়ান্ত ধারণাগত উত্তর: average total energy per cycle is equal to its maximum kinetic energy, average kinetic energy per cycle is equal to half of its maximum kinetic energy, এবং root mean square velocity is \(\frac{1}{\sqrt{2}}\) times of its maximum velocity।</p>]]></text>
-  </generalfeedback>
+  <name><text>NEET_UG_PHYSICS_OSCILLATIONS_MCQII_Q14_15 - Fundamental properties of simple harmonic oscillator</text></name>
+  <questiontext format="html"><text><![CDATA[<p>14.15 Which of the following statements is/are true for a simple harmonic oscillator?</p><hr/><p>14.15 একটি সরল দোলকের জন্য নিচের কোন বিবৃতিটি/বিবৃতিগুলি সত্য?</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>For a simple harmonic oscillator of mass \(m\) and angular frequency \(\omega\), the displacement is \(x(t) = A\sin(\omega t + \phi)\), velocity is \(v(t) = A\omega\cos(\omega t + \phi)\), acceleration is \(a(t) = -\omega^2 x(t)\), and restoring force is \(F(t) = -m\omega^2 x(t) = -kx(t)\).</p><p><strong>Step 2: Evaluation</strong><br/>1. Restoring force: \(F = -kx\), so the force acting is directly proportional to the displacement from the mean position and opposite to it.<br/>2. Periodicity of motion: Since \(x(t + T) = x(t)\) with \(T = \frac{2\pi}{\omega}\), the motion is periodic.<br/>3. Acceleration: \(a = -\omega^2 x\) varies continuously with position \(x\) (zero at the mean position and maximum in magnitude at the extremes), so acceleration is not constant.<br/>4. Velocity: \(v(t) = A\omega\cos(\omega t + \phi)\) repeats every \(T = \frac{2\pi}{\omega}\), so the velocity is periodic.</p><p><strong>Step 3: Final Conclusion</strong><br/>The true statements are that the force is directly proportional and opposite to displacement, the motion is periodic, and the velocity is periodic.</p><hr/><p><strong>ধাপ ১: ধারণাগত নীতি</strong><br/>\(m\) ভর ও \(\omega\) কৌণিক কম্পাঙ্কের একটি সরল দোলকের ক্ষেত্রে সরণ \(x(t) = A\sin(\omega t + \phi)\), বেগ \(v(t) = A\omega\cos(\omega t + \phi)\), ত্বরণ \(a(t) = -\omega^2 x(t)\) এবং প্রত্যাবৃত্তিক বল \(F(t) = -m\omega^2 x(t) = -kx(t)\)।</p><p><strong>ধাপ ২: মূল্যায়ন</strong><br/>১. প্রত্যাবৃত্তিক বল: \(F = -kx\), অর্থাৎ প্রযুক্ত বল সাম্যাবস্থা থেকে সরণের সমানুপাতিক এবং বিপরীতমুখী।<br/>২. গতির পর্যাবৃত্ততা: যেহেতু \(T = \frac{2\pi}{\omega}\) পর্যায়কালের জন্য \(x(t + T) = x(t)\), তাই গতিটি পর্যাবৃত্ত।<br/>৩. ত্বরণ: \(a = -\omega^2 x\) অবস্থান \(x\)-এর সাথে ক্রমাগত পরিবর্তিত হয় (সাম্যাবস্থায় শূন্য এবং চরম অবস্থানে সর্বোচ্চ মানবিশিষ্ট), তাই ত্বরণ ধ্রুবক নয়।<br/>৪. বেগ: \(v(t) = A\omega\cos(\omega t + \phi)\) প্রতি \(T = \frac{2\pi}{\omega}\) সময় অন্তর পুনরাবৃত্ত হয়, তাই বেগও পর্যাবৃত্ত।</p><p><strong>ধাপ ৩: চূড়ান্ত সিদ্ধান্ত</strong><br/>সত্য বিবৃতিগুলি হলো: বল সরণের সমানুপাতিক ও বিপরীতমুখী, গতিটি পর্যাবৃত্ত এবং বেগ পর্যাবৃত্ত।</p>]]></text></generalfeedback>
   <defaultgrade>4.0000000</defaultgrade>
   <penalty>0.2500000</penalty>
   <hidden>0</hidden>
   <single>false</single>
   <shuffleanswers>true</shuffleanswers>
   <answernumbering>abc</answernumbering>
-  <answer fraction="33.33333" format="html">
-    <text><![CDATA[<p>average total energy per cycle is equal to its maximum kinetic energy.</p>]]></text>
-  </answer>
-  <answer fraction="33.33333" format="html">
-    <text><![CDATA[<p>average kinetic energy per cycle is equal to half of its maximum kinetic energy.</p>]]></text>
-  </answer>
-  <answer fraction="-50" format="html">
-    <text><![CDATA[<p>mean velocity over a complete cycle is equal to \(\frac{2}{\pi}\) times of its maximum velocity.</p>]]></text>
-  </answer>
-  <answer fraction="33.33333" format="html">
-    <text><![CDATA[<p>root mean square velocity is \(\frac{1}{\sqrt{2}}\) times of its maximum velocity.</p>]]></text>
-  </answer>
+  <answer fraction="33.33333" format="html"><text><![CDATA[<p>Force acting is directly proportional to displacement from the mean position and opposite to it.</p>]]></text></answer>
+  <answer fraction="33.33333" format="html"><text><![CDATA[<p>Motion is periodic.</p>]]></text></answer>
+  <answer fraction="-100" format="html"><text><![CDATA[<p>Acceleration of the oscillator is constant.</p>]]></text></answer>
+  <answer fraction="33.33333" format="html"><text><![CDATA[<p>The velocity is periodic.</p>]]></text></answer>
   <tags>
     <tag><text>standard:neet_ug</text></tag>
     <tag><text>lang:en</text></tag>
     <tag><text>lang:bn</text></tag>
     <tag><text>subject:physics</text></tag>
+    <tag><text>section:mcq_ii</text></tag>
     <tag><text>class:class_11</text></tag>
     <tag><text>chapter:oscillations</text></tag>
-    <tag><text>typology:mcq</text></tag>
-    <tag><text>difficulty:medium</text></tag>
+    <tag><text>typology:multi_correct_mcq</text></tag>
+    <tag><text>difficulty:easy</text></tag>
     <tag><text>blooms:understand</text></tag>
     <tag><text>calculation:light</text></tag>
-    <tag><text>media:equation</text></tag>
+    <tag><text>media:text</text></tag>
     <tag><text>multiconcept:false</text></tag>
   </tags>
 </question>
-
 <question type="multichoice">
-  <name><text>NEET_UG_PHYSICS_OSCILLATIONS_MCQ_Q14_18 - Direction of kinematic and dynamic vectors in linear SHM</text></name>
-  <questiontext format="html">
-    <text><![CDATA[<p>A particle is in linear simple harmonic motion between two points A and B, 10 cm apart (Fig. 14.6). Take the direction from A to B as the +ve direction and choose the correct statements.
-<p><img src="@@PLUGINFILE@@/img-5.jpeg" alt="Fig. 14.6" /></p>
-\[\mathrm{AO} = \mathrm{OB} = 5~\mathrm{cm}\]
-\[\mathrm{BC} = 8~\mathrm{cm}\]</p>
-<hr/>
-<p>একটি কণা পরস্পর থেকে 10 cm দূরত্বে অবস্থিত দুটি বিন্দু A এবং B-এর মধ্যে রৈখিক সরল দোলগতিতে রয়েছে (চিত্র 14.6)। A থেকে B-এর অভিমুখকে ধনাত্মক দিক ধরে সঠিক বিবৃতিগুলি নির্বাচন করো।
-
-\[\mathrm{AO} = \mathrm{OB} = 5~\mathrm{cm}\]
-\[\mathrm{BC} = 8~\mathrm{cm}\]</p>]]></text>
-  </questiontext>
-  <generalfeedback format="html">
-    <text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>
-Total length of path between extremes A and B: \(AB = 10~\mathrm{cm}\).<br/>
-Mean position is at O, where \(AO = OB = 5~\mathrm{cm}\).<br/>
-Direction from A to B is defined as the positive (+ve) direction.<br/>
-Coordinates along the axis with origin at O:
-- Position of B (positive extreme): \(x_B = +5~\mathrm{cm}\).
-- Position of A (negative extreme): \(x_A = -5~\mathrm{cm}\).
-- Since \(BC = 8~\mathrm{cm}\) measured from B toward A, position of C is:
-\[x_C = x_B - 8 = +5 - 8 = -3~\mathrm{cm}.\]</p>
-
-<p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>
-- Any vector directed from A toward B (left to right) has a positive sign.<br/>
-- Any vector directed from B toward A (right to left) has a negative sign.<br/>
-- Acceleration and restoring force are directed toward the mean position O: \(a = -\omega^2 x\) and \(F = -kx\).</p>
-
-<p><strong>Step 3: Relevant Formulae and Principles</strong><br/>
-1. Velocity is positive when the particle moves from left to right (towards B) and negative when moving from right to left (towards A).<br/>
-2. When displacement \(x < 0\) (to the left of O), acceleration and restoring force point toward the right (positive direction).<br/>
-3. When displacement \(x > 0\) (to the right of O), acceleration and restoring force point toward the left (negative direction).</p>
-
-<p><strong>Step 4: Step-by-Step Working</strong><br/>
-Evaluating each statement:
-1. Particle is \(3~\mathrm{cm}\) away from A going towards B:
-Its position is \(x = -5 + 3 = -2~\mathrm{cm}\) (left of O). Moving towards B means motion is in the positive direction, so velocity is positive (\(v > 0\)). Since \(x < 0\), acceleration and force are directed toward O (rightward, positive direction): \(a = -\omega^2(-2) > 0\) and \(F > 0\). Therefore, velocity, acceleration, and force are all positive. This statement is true.<br/>
-2. Velocity of the particle at C going towards O:
-Point C is at \(x = -3~\mathrm{cm}\). Going toward O means the particle is moving from \(-3~\mathrm{cm}\) toward \(0\) (rightward, from A toward B), which is the positive direction. Hence, velocity is positive, not negative. This statement is false.<br/>
-3. Particle is \(4~\mathrm{cm}\) away from B going towards A:
-Its position is \(x = +5 - 4 = +1~\mathrm{cm}\) (right of O). Moving towards A means motion is in the negative direction, so velocity is negative (\(v < 0\)). Since \(x > 0\), acceleration and force are directed toward O (leftward, negative direction): \(a = -\omega^2(+1) < 0\) and \(F < 0\). Therefore, velocity, acceleration, and force are all negative. This statement is true.<br/>
-4. Particle is at point B:
-At B, displacement is \(x = +5~\mathrm{cm}\). The restoring force and acceleration are directed toward the mean position O (leftward, negative direction). Therefore, both acceleration and force are negative. This statement is true.</p>
-
-<p><strong>Step 5: Check and Final Answer</strong><br/>
-The correct statements are:
-- The sign of velocity, acceleration and force on the particle when it is \(3~\mathrm{cm}\) away from A going towards B are positive.
-- The sign of velocity, acceleration and force on the particle when it is \(4~\mathrm{cm}\) away from B going towards A are negative.
-- The sign of acceleration and force on the particle when it is at point B is negative.<br/>
-Final Conceptual Answer: The sign of velocity, acceleration and force on the particle when it is \(3~\mathrm{cm}\) away from A going towards B are positive, The sign of velocity, acceleration and force on the particle when it is \(4~\mathrm{cm}\) away from B going towards A are negative, and The sign of acceleration and force on the particle when it is at point B is negative.</p>
-<hr/>
-<p><strong>ধাপ ১: প্রদত্ত তথ্য এবং শর্তাবলী</strong><br/>
-প্রান্তিক বিন্দু A ও B-এর মোট দূরত্ব \(AB = 10~\mathrm{cm}\)।<br/>
-সাম্যাবস্থান O-তে, যেখানে \(AO = OB = 5~\mathrm{cm}\)।<br/>
-A থেকে B-এর দিককে ধনাত্মক (+ve) ধরা হয়েছে।<br/>
-O-কে মূলবিন্দু ধরে বিভিন্ন বিন্দুর স্থানাঙ্ক:
-- B বিন্দুর স্থানাঙ্ক: \(x_B = +5~\mathrm{cm}\)।
-- A বিন্দুর স্থানাঙ্ক: \(x_A = -5~\mathrm{cm}\)।
-- \(BC = 8~\mathrm{cm}\) হওয়ায় C বিন্দুর স্থানাঙ্ক: \(x_C = +5 - 8 = -3~\mathrm{cm}\)।</p>
-
-<p><strong>ধাপ ২: স্বীকার্য এবং চিহ্নরীতি</strong><br/>
-- A থেকে B-এর দিকে (বাম থেকে ডানে) যেকোনো ভেক্টরের চিহ্ন ধনাত্মক।<br/>
-- B থেকে A-এর দিকে (ডান থেকে বামে) যেকোনো ভেক্টরের চিহ্ন ঋণাত্মক।<br/>
-- ত্বরণ ও প্রত্যয়ক বল সর্বদা সাম্যাবস্থান O-এর দিকে ক্রিয়া করে: \(a = -\omega^2 x\) এবং \(F = -kx\)।</p>
-
-<p><strong>ধাপ ৩: প্রাসঙ্গিক সূত্র এবং নীতি</strong><br/>
-১. কণা বাম থেকে ডানে (B-এর দিকে) গতিশীল হলে বেগ ধনাত্মক, এবং ডান থেকে বামে গতিশীল হলে বেগ ঋণাত্মক।<br/>
-২. \(x < 0\) হলে (O-এর বামে) বল ও ত্বরণ ডানমুখী (ধনাত্মক)।<br/>
-৩. \(x > 0\) হলে (O-এর ডানে) বল ও ত্বরণ বামমুখী (ঋণাত্মক)।</p>
-
-<p><strong>ধাপ ৪: ধাপে ধাপে গণনা</strong><br/>
-বিবৃতিগুলির মূল্যায়ন:
-১. কণাটি A থেকে \(3~\mathrm{cm}\) দূরে B-এর দিকে গতিশীল:
-অবস্থান \(x = -5 + 3 = -2~\mathrm{cm}\)। B-এর দিকে যাওয়ায় বেগ ধনাত্মক (\(v > 0\))। \(x < 0\) হওয়ায় O-এর দিকে ক্রিয়াশীল ত্বরণ ও বল ধনাত্মক (\(a > 0, F > 0\))। অতএব বেগ, ত্বরণ ও বল তিনটিই ধনাত্মক। বিবৃতিটি সত্য।<br/>
-২. C বিন্দুতে কণাটি O-এর দিকে গতিশীল:
-C বিন্দুর স্থানাঙ্ক \(x = -3~\mathrm{cm}\)। O-এর দিকে যাওয়া মানে ডানদিকে (A থেকে B-এর দিকে) যাওয়া, অর্থাৎ বেগ ধনাত্মক হবে, ঋণাত্মক নয়। সুতরাং বিবৃতিটি মিথ্যা।<br/>
-৩. কণাটি B থেকে \(4~\mathrm{cm}\) দূরে A-এর দিকে গতিশীল:
-অবস্থান \(x = +5 - 4 = +1~\mathrm{cm}\)। A-এর দিকে যাওয়ায় বেগ ঋণাত্মক (\(v < 0\))। \(x > 0\) হওয়ায় O-এর দিকে ক্রিয়াশীল ত্বরণ ও বল বামমুখী অর্থাৎ ঋণাত্মক (\(a < 0, F < 0\))। অতএব বেগ, ত্বরণ ও বল তিনটিই ঋণাত্মক। বিবৃতিটি সত্য।<br/>
-৪. কণাটি B বিন্দুতে অবস্থানকালে:
-B বিন্দুতে সরণ \(x = +5~\mathrm{cm}\)। সাম্যাবস্থান O-এর দিকে ক্রিয়াশীল হওয়ায় ত্বরণ ও বল উভয়ই ঋণাত্মক। বিবৃতিটি সত্য।</p>
-
-<p><strong>ধাপ ৫: যাচাই এবং চূড়ান্ত উত্তর</strong><br/>
-সত্য বিবৃতিগুলি হলো: কণাটি A থেকে \(3~\mathrm{cm}\) দূরে B-এর দিকে যাওয়ার সময় বেগ, ত্বরণ ও বল ধনাত্মক; B থেকে \(4~\mathrm{cm}\) দূরে A-এর দিকে যাওয়ার সময় বেগ, ত্বরণ ও বল ঋণাত্মক; এবং B বিন্দুতে থাকা অবস্থায় ত্বরণ ও বল ঋণাত্মক।<br/>
-চূড়ান্ত ধারণাগত উত্তর: The sign of velocity, acceleration and force on the particle when it is \(3~\mathrm{cm}\) away from A going towards B are positive, The sign of velocity, acceleration and force on the particle when it is \(4~\mathrm{cm}\) away from B going towards A are negative, এবং The sign of acceleration and force on the particle when it is at point B is negative।</p>]]></text>
-  </generalfeedback>
+  <name><text>NEET_UG_PHYSICS_OSCILLATIONS_MCQII_Q14_16 - Force, acceleration, velocity and energy from SHM graph</text></name>
+  <questiontext format="html"><text><![CDATA[<p>14.16 The displacement time graph of a particle executing S.H.M. is shown in Fig. 14.5. Which of the following statement is/are true?</p><p><img src="@@PLUGINFILE@@/img-4.jpeg" alt="Fig. 14.5" /></p><hr/><p>14.16 চিত্র 14.5-এ সরল দোলগতি সম্পন্ন একটি কণার সরণ-সময় লেখচিত্র দেখানো হয়েছে। নিচের কোন বিবৃতিটি/বিবৃতিগুলি সত্য?</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>From the displacement-time graph of S.H.M.: at \(t = 0\), \(x = +A\); at \(t = \frac{T}{4}\), \(x = 0\); at \(t = \frac{2T}{4} = \frac{T}{2}\), \(x = -A\); at \(t = \frac{3T}{4}\), \(x = 0\); and at \(t = T = \frac{4T}{4}\), \(x = +A\).</p><p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>\(x = 0\) is the mean position and \(x = \pm A\) are the extreme positions.</p><p><strong>Step 3: Relevant Formulae and Principles</strong><br/>Force \(F = -kx\); acceleration \(a = -\omega^2 x\); speed \(|v| = \omega\sqrt{A^2 - x^2}\); potential energy \(\text{P.E.} = \frac{1}{2}kx^2\); kinetic energy \(\text{K.E.} = \frac{1}{2}k(A^2 - x^2)\).</p><p><strong>Step 4: Step-by-Step Working</strong><br/>- At \(t = \frac{3T}{4}\): \(x = 0\), so force \(F = -k(0) = 0\). This statement is true.<br/>- At \(t = \frac{4T}{4} = T\): \(x = +A\) (extreme position), so the magnitude of acceleration \(|a| = \omega^2 A\) is maximum. This statement is true.<br/>- At \(t = \frac{T}{4}\): \(x = 0\) (mean position), so the speed \(|v| = \omega A\) is maximum. This statement is true.<br/>- At \(t = \frac{T}{2}\): \(x = -A\) (extreme position), so \(\text{P.E.} = \frac{1}{2}kA^2\) (maximum) while \(\text{K.E.} = 0\); hence P.E. is not equal to K.E. This statement is false.</p><p><strong>Step 5: Check and Final Answer</strong><br/>Therefore, the force is zero at \(t = \frac{3T}{4}\), acceleration is maximum at \(t = \frac{4T}{4}\), and velocity is maximum at \(t = \frac{T}{4}\).</p><hr/><p><strong>ধাপ ১: প্রদত্ত তথ্য ও শর্তাবলি</strong><br/>S.H.M.-এর সরণ-সময় লেখচিত্র থেকে পাই: \(t = 0\) সময়ে \(x = +A\); \(t = \frac{T}{4}\) সময়ে \(x = 0\); \(t = \frac{2T}{4} = \frac{T}{2}\) সময়ে \(x = -A\); \(t = \frac{3T}{4}\) সময়ে \(x = 0\); এবং \(t = T = \frac{4T}{4}\) সময়ে \(x = +A\)।</p><p><strong>ধাপ ২: অনুমান ও চিহ্ন প্রথা</strong><br/>\(x = 0\) হলো সাম্যাবস্থা এবং \(x = \pm A\) হলো চরম অবস্থান।</p><p><strong>ধাপ ৩: প্রাসঙ্গিক সূত্র ও নীতি</strong><br/>বল \(F = -kx\); ত্বরণ \(a = -\omega^2 x\); দ্রুতি \(|v| = \omega\sqrt{A^2 - x^2}\); স্থিতিশক্তি \(\text{P.E.} = \frac{1}{2}kx^2\); গতিশক্তি \(\text{K.E.} = \frac{1}{2}k(A^2 - x^2)\)।</p><p><strong>ধাপ ৪: ধাপে ধাপে গণনা</strong><br/>- \(t = \frac{3T}{4}\) সময়ে: \(x = 0\), তাই বল \(F = -k(0) = 0\)। এই বিবৃতিটি সত্য।<br/>- \(t = \frac{4T}{4} = T\) সময়ে: \(x = +A\) (চরম অবস্থান), তাই ত্বরণের মান \(|a| = \omega^2 A\) সর্বোচ্চ। এই বিবৃতিটি সত্য।<br/>- \(t = \frac{T}{4}\) সময়ে: \(x = 0\) (সাম্যাবস্থা), তাই বেগের মান \(|v| = \omega A\) সর্বোচ্চ। এই বিবৃতিটি সত্য।<br/>- \(t = \frac{T}{2}\) সময়ে: \(x = -A\) (চরম অবস্থান), তাই \(\text{P.E.} = \frac{1}{2}kA^2\) (সর্বোচ্চ) এবং \(\text{K.E.} = 0\); ফলে P.E. ও K.E. সমান নয়। এই বিবৃতিটি মিথ্যা।</p><p><strong>ধাপ ৫: যাচাই ও চূড়ান্ত উত্তর</strong><br/>অতএব, \(t = \frac{3T}{4}\) সময়ে বল শূন্য, \(t = \frac{4T}{4}\) সময়ে ত্বরণ সর্বোচ্চ এবং \(t = \frac{T}{4}\) সময়ে বেগ সর্বোচ্চ।</p>]]></text></generalfeedback>
   <defaultgrade>4.0000000</defaultgrade>
   <penalty>0.2500000</penalty>
   <hidden>0</hidden>
   <single>false</single>
   <shuffleanswers>true</shuffleanswers>
   <answernumbering>abc</answernumbering>
-  <answer fraction="33.33333" format="html">
-    <text><![CDATA[<p>The sign of velocity, acceleration and force on the particle when it is \(3\mathrm{cm}\) away from A going towards B are positive.</p>]]></text>
-  </answer>
-  <answer fraction="-50" format="html">
-    <text><![CDATA[<p>The sign of velocity of the particle at C going towards O is negative.</p>]]></text>
-  </answer>
-  <answer fraction="33.33333" format="html">
-    <text><![CDATA[<p>The sign of velocity, acceleration and force on the particle when it is \(4\mathrm{cm}\) away from B going towards A are negative.</p>]]></text>
-  </answer>
-  <answer fraction="33.33333" format="html">
-    <text><![CDATA[<p>The sign of acceleration and force on the particle when it is at point B is negative.</p>]]></text>
-  </answer>
+  <answer fraction="33.33333" format="html"><text><![CDATA[<p>The force is zero at \(t = \frac{3T}{4}\).</p>]]></text></answer>
+  <answer fraction="33.33333" format="html"><text><![CDATA[<p>The acceleration is maximum at \(t = \frac{4T}{4}\).</p>]]></text></answer>
+  <answer fraction="33.33333" format="html"><text><![CDATA[<p>The velocity is maximum at \(t = \frac{T}{4}\).</p>]]></text></answer>
+  <answer fraction="-100" format="html"><text><![CDATA[<p>The P.E. is equal to K.E. of oscillation at \(t = \frac{T}{2}\).</p>]]></text></answer>
   <tags>
     <tag><text>standard:neet_ug</text></tag>
     <tag><text>lang:en</text></tag>
     <tag><text>lang:bn</text></tag>
     <tag><text>subject:physics</text></tag>
+    <tag><text>section:mcq_ii</text></tag>
     <tag><text>class:class_11</text></tag>
     <tag><text>chapter:oscillations</text></tag>
-    <tag><text>typology:mcq</text></tag>
-    <tag><text>difficulty:hard</text></tag>
+    <tag><text>typology:multi_correct_mcq</text></tag>
+    <tag><text>difficulty:medium</text></tag>
+    <tag><text>blooms:analyze</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:graph</text></tag>
+    <tag><text>multiconcept:true</text></tag>
+  </tags>
+</question>
+<question type="multichoice">
+  <name><text>NEET_UG_PHYSICS_OSCILLATIONS_MCQII_Q14_17 - Average energies and rms velocity in SHM</text></name>
+  <questiontext format="html"><text><![CDATA[<p>14.17 A body is performing S.H.M. Then its</p><hr/><p>14.17 একটি বস্তু সরল দোলগতি সম্পন্ন করছে। তবে এর</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>A body of mass \(m\) performs S.H.M. with amplitude \(A\), angular frequency \(\omega\), and time period \(T = \frac{2\pi}{\omega}\).</p><p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>Let displacement be \(x(t) = A\sin(\omega t)\) and velocity be \(v(t) = v_{\max}\cos(\omega t)\), where \(v_{\max} = A\omega\).</p><p><strong>Step 3: Relevant Formulae and Principles</strong><br/>Maximum kinetic energy \(K_{\max} = \frac{1}{2}mv_{\max}^2\). Over one complete cycle, the average of \(\cos^2(\omega t)\) is \(\langle \cos^2(\omega t) \rangle = \frac{1}{2}\), and \(\langle \cos(\omega t) \rangle = 0\).</p><p><strong>Step 4: Step-by-Step Working</strong><br/>1. Total mechanical energy \(E = \frac{1}{2}m\omega^2 A^2 = \frac{1}{2}mv_{\max}^2 = K_{\max}\) is constant at all instants, so its average over a cycle equals \(K_{\max}\).<br/>2. Average kinetic energy per cycle: \(\langle K \rangle = \left\langle \frac{1}{2}mv_{\max}^2\cos^2(\omega t) \right\rangle = K_{\max}\langle \cos^2(\omega t) \rangle = \frac{1}{2}K_{\max}\).<br/>3. Mean velocity over a complete cycle: since net displacement over one full cycle is zero, \(\langle v \rangle = \frac{0}{T} = 0\) (whereas \(\frac{2}{\pi}v_{\max}\) is the mean speed, not mean velocity).<br/>4. Root mean square (rms) velocity: \(v_{\text{rms}} = \sqrt{\langle v^2 \rangle} = \sqrt{v_{\max}^2 \langle \cos^2(\omega t) \rangle} = \sqrt{\frac{v_{\max}^2}{2}} = \frac{v_{\max}}{\sqrt{2}}\).</p><p><strong>Step 5: Check and Final Answer</strong><br/>The correct statements are that the average total energy per cycle equals maximum kinetic energy, the average kinetic energy per cycle equals half the maximum kinetic energy, and the root mean square velocity is \(\frac{1}{\sqrt{2}}\) times the maximum velocity.</p><hr/><p><strong>ধাপ ১: প্রদত্ত তথ্য ও শর্তাবলি</strong><br/>\(m\) ভরের একটি বস্তু \(A\) বিস্তার, \(\omega\) কৌণিক কম্পাঙ্ক এবং \(T = \frac{2\pi}{\omega}\) পর্যায়কাল নিয়ে S.H.M. সম্পন্ন করছে।</p><p><strong>ধাপ ২: অনুমান ও চিহ্ন প্রথা</strong><br/>ধরি, সরণ \(x(t) = A\sin(\omega t)\) এবং বেগ \(v(t) = v_{\max}\cos(\omega t)\), যেখানে \(v_{\max} = A\omega\)।</p><p><strong>ধাপ ৩: প্রাসঙ্গিক সূত্র ও নীতি</strong><br/>সর্বোচ্চ গতিশক্তি \(K_{\max} = \frac{1}{2}mv_{\max}^2\)। একটি পূর্ণ চক্রে \(\cos^2(\omega t)\)-এর গড় মান \(\langle \cos^2(\omega t) \rangle = \frac{1}{2}\) এবং \(\langle \cos(\omega t) \rangle = 0\)।</p><p><strong>ধাপ ৪: ধাপে ধাপে গণনা</strong><br/>১. মোট যান্ত্রিক শক্তি \(E = \frac{1}{2}m\omega^2 A^2 = \frac{1}{2}mv_{\max}^2 = K_{\max}\) সর্বদা ধ্রুবক থাকে, তাই প্রতি চক্রে গড় মোট শক্তি \(K_{\max}\)-এর সমান।<br/>২. প্রতি চক্রে গড় গতিশক্তি: \(\langle K \rangle = \left\langle \frac{1}{2}mv_{\max}^2\cos^2(\omega t) \right\rangle = K_{\max}\langle \cos^2(\omega t) \rangle = \frac{1}{2}K_{\max}\)।<br/>৩. একটি পূর্ণ চক্রে গড় বেগ: যেহেতু এক পূর্ণ চক্রে মোট সরণ শূন্য, তাই গড় বেগ \(\langle v \rangle = \frac{0}{T} = 0\) (যেখানে \(\frac{2}{\pi}v_{\max}\) হলো গড় দ্রুতি, গড় বেগ নয়)।<br/>৪. মূল গড় বর্গবেগ (rms velocity): \(v_{\text{rms}} = \sqrt{\langle v^2 \rangle} = \sqrt{v_{\max}^2 \langle \cos^2(\omega t) \rangle} = \sqrt{\frac{v_{\max}^2}{2}} = \frac{v_{\max}}{\sqrt{2}}\)।</p><p><strong>ধাপ ৫: যাচাই ও চূড়ান্ত উত্তর</strong><br/>সঠিক বিবৃতিগুলি হলো: প্রতি চক্রে গড় মোট শক্তি সর্বোচ্চ গতিশক্তির সমান, প্রতি চক্রে গড় গতিশক্তি সর্বোচ্চ গতিশক্তির অর্ধেক এবং মূল গড় বর্গবেগ সর্বোচ্চ বেগের \(\frac{1}{\sqrt{2}}\) গুণ।</p>]]></text></generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>false</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="33.33333" format="html"><text><![CDATA[<p>average total energy per cycle is equal to its maximum kinetic energy.</p>]]></text></answer>
+  <answer fraction="33.33333" format="html"><text><![CDATA[<p>average kinetic energy per cycle is equal to half of its maximum kinetic energy.</p>]]></text></answer>
+  <answer fraction="-100" format="html"><text><![CDATA[<p>mean velocity over a complete cycle is equal to \(\frac{2}{\pi}\) times of its maximum velocity.</p>]]></text></answer>
+  <answer fraction="33.33333" format="html"><text><![CDATA[<p>root mean square velocity is \(\frac{1}{\sqrt{2}}\) times of its maximum velocity.</p>]]></text></answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:bn</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>section:mcq_ii</text></tag>
+    <tag><text>class:class_11</text></tag>
+    <tag><text>chapter:oscillations</text></tag>
+    <tag><text>typology:multi_correct_mcq</text></tag>
+    <tag><text>difficulty:medium</text></tag>
+    <tag><text>blooms:apply</text></tag>
+    <tag><text>calculation:moderate</text></tag>
+    <tag><text>media:text</text></tag>
+    <tag><text>multiconcept:true</text></tag>
+  </tags>
+</question>
+<question type="multichoice">
+  <name><text>NEET_UG_PHYSICS_OSCILLATIONS_MCQII_Q14_18 - Signs of velocity acceleration and force in linear SHM</text></name>
+  <questiontext format="html"><text><![CDATA[<p>14.18 A particle is in linear simple harmonic motion between two points A and B, \(10\text{ cm}\) apart (Fig. 14.6). Take the direction from A to B as the +ve direction and choose the correct statements.</p><p>\[\text{AO} = \text{OB} = 5\text{ cm}\]</p><p>\[\text{BC} = 8\text{ cm}\]</p><p><img src="@@PLUGINFILE@@/img-5.jpeg" alt="Fig. 14.6" /></p><hr/><p>14.18 একটি কণা \(10\text{ cm}\) ব্যবধানে অবস্থিত A এবং B দুটি বিন্দুর মধ্যে রৈখিক সরল দোলগতিতে রয়েছে (চিত্র 14.6)। A থেকে B-এর দিককে ধনাত্মক (+ve) দিক হিসেবে ধরে সঠিক বিবৃতিগুলি নির্বাচন করো।</p><p>\[\text{AO} = \text{OB} = 5\text{ cm}\]</p><p>\[\text{BC} = 8\text{ cm}\]</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>Linear S.H.M. occurs between A and B with \(\text{AB} = 10\text{ cm}\), mean position O at the midpoint (\(\text{AO} = \text{OB} = 5\text{ cm}\)), and point C between O and A with \(\text{BC} = 8\text{ cm}\).</p><p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>The direction from A to B is taken as positive (\(+\)). With origin at the mean position O: \(x_{\text{O}} = 0\), \(x_{\text{B}} = +5\text{ cm}\), \(x_{\text{A}} = -5\text{ cm}\), and since \(\text{OC} = \text{BC} - \text{BO} = 8 - 5 = 3\text{ cm}\) towards A, \(x_{\text{C}} = -3\text{ cm}\).</p><p><strong>Step 3: Relevant Formulae and Principles</strong><br/>In S.H.M., restoring force \(F = -kx\) and acceleration \(a = -\omega^2 x\) always point towards the mean position O (opposite in sign to \(x\)). Velocity \(v\) is positive when moving from A towards B, and negative when moving from B towards A.</p><p><strong>Step 4: Step-by-Step Working</strong><br/>1. At \(3\text{ cm}\) away from A going towards B: \(x = -5 + 3 = -2\text{ cm} &lt; 0\). Since it moves towards B, \(v &gt; 0\) (+ve). Since \(x &lt; 0\), \(F = -kx &gt; 0\) (+ve) and \(a = -\omega^2 x &gt; 0\) (+ve). All three are positive.<br/>2. At C going towards O: moving from C towards O is in the direction from A towards B, so velocity \(v &gt; 0\) (+ve), not negative.<br/>3. At \(4\text{ cm}\) away from B going towards A: \(x = +5 - 4 = +1\text{ cm} &gt; 0\). Since it moves towards A, \(v &lt; 0\) (-ve). Since \(x &gt; 0\), \(F = -kx &lt; 0\) (-ve) and \(a = -\omega^2 x &lt; 0\) (-ve). All three are negative.<br/>4. At point B: \(x = +5\text{ cm} &gt; 0\), so \(F = -kx &lt; 0\) (-ve) and \(a = -\omega^2 x &lt; 0\) (-ve). Both acceleration and force are negative.</p><p><strong>Step 5: Check and Final Answer</strong><br/>The correct statements are: velocity, acceleration, and force are positive when \(3\text{ cm}\) from A going towards B; velocity, acceleration, and force are negative when \(4\text{ cm}\) from B going towards A; and acceleration and force are negative at point B.</p><hr/><p><strong>ধাপ ১: প্রদত্ত তথ্য ও শর্তাবলি</strong><br/>রৈখিক S.H.M. ঘটছে A ও B বিন্দুর মধ্যে, যেখানে \(\text{AB} = 10\text{ cm}\), মধ্যবিন্দু O হলো সাম্যাবস্থা (\(\text{AO} = \text{OB} = 5\text{ cm}\)) এবং O ও A-এর মাঝে C বিন্দুটি অবস্থিত যাতে \(\text{BC} = 8\text{ cm}\)।</p><p><strong>ধাপ ২: অনুমান ও চিহ্ন প্রথা</strong><br/>A থেকে B-এর দিককে ধনাত্মক (\(+\)) ধরা হয়েছে। সাম্যাবস্থা O-কে মূলবিন্দু ধরলে: \(x_{\text{O}} = 0\), \(x_{\text{B}} = +5\text{ cm}\), \(x_{\text{A}} = -5\text{ cm}\) এবং যেহেতু A-এর দিকে \(\text{OC} = \text{BC} - \text{BO} = 8 - 5 = 3\text{ cm}\), তাই \(x_{\text{C}} = -3\text{ cm}\)।</p><p><strong>ধাপ ৩: প্রাসঙ্গিক সূত্র ও নীতি</strong><br/>S.H.M.-এ প্রত্যাবৃত্তিক বল \(F = -kx\) এবং ত্বরণ \(a = -\omega^2 x\) সর্বদা সাম্যাবস্থা O-এর দিকে ক্রিয়া করে (অর্থাৎ \(x\)-এর বিপরীত চিহ্নযুক্ত)। A থেকে B-এর দিকে গেলে বেগ \(v\) ধনাত্মক এবং B থেকে A-এর দিকে গেলে বেগ \(v\) ঋণাত্মক হয়।</p><p><strong>ধাপ ৪: ধাপে ধাপে গণনা</strong><br/>১. A থেকে \(3\text{ cm}\) দূরে B-এর দিকে যাওয়ার সময়: \(x = -5 + 3 = -2\text{ cm} &lt; 0\)। যেহেতু গতি B-এর দিকে, তাই \(v &gt; 0\) (ধনাত্মক)। যেহেতু \(x &lt; 0\), তাই \(F = -kx &gt; 0\) (ধনাত্মক) এবং \(a = -\omega^2 x &gt; 0\) (ধনাত্মক)। তিনটিই ধনাত্মক।<br/>২. C বিন্দুতে O-এর দিকে যাওয়ার সময়: C থেকে O-এর দিকে গতি মানে A থেকে B-এর দিকে গতি, তাই বেগ \(v &gt; 0\) (ধনাত্মক), ঋণাত্মক নয়।<br/>৩. B থেকে \(4\text{ cm}\) দূরে A-এর দিকে যাওয়ার সময়: \(x = +5 - 4 = +1\text{ cm} &gt; 0\)। যেহেতু গতি A-এর দিকে, তাই \(v &lt; 0\) (ঋণাত্মক)। যেহেতু \(x &gt; 0\), তাই \(F = -kx &lt; 0\) (ঋণাত্মক) এবং \(a = -\omega^2 x &lt; 0\) (ঋণাত্মক)। তিনটিই ঋণাত্মক।<br/>৪. B বিন্দুতে: \(x = +5\text{ cm} &gt; 0\), তাই \(F = -kx &lt; 0\) (ঋণাত্মক) এবং \(a = -\omega^2 x &lt; 0\) (ঋণাত্মক)। ত্বরণ ও বল উভয়ই ঋণাত্মক।</p><p><strong>ধাপ ৫: যাচাই ও চূড়ান্ত উত্তর</strong><br/>সঠিক বিবৃতিগুলি হলো: A থেকে \(3\text{ cm}\) দূরে B-এর দিকে যাওয়ার সময় বেগ, ত্বরণ ও বল ধনাত্মক; B থেকে \(4\text{ cm}\) দূরে A-এর দিকে যাওয়ার সময় বেগ, ত্বরণ ও বল ঋণাত্মক; এবং B বিন্দুতে ত্বরণ ও বল ঋণাত্মক।</p>]]></text></generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>false</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="33.33333" format="html"><text><![CDATA[<p>The sign of velocity, acceleration and force on the particle when it is \(3\text{ cm}\) away from A going towards B are positive.</p>]]></text></answer>
+  <answer fraction="-100" format="html"><text><![CDATA[<p>The sign of velocity of the particle at C going towards O is negative.</p>]]></text></answer>
+  <answer fraction="33.33333" format="html"><text><![CDATA[<p>The sign of velocity, acceleration and force on the particle when it is \(4\text{ cm}\) away from B going towards A are negative.</p>]]></text></answer>
+  <answer fraction="33.33333" format="html"><text><![CDATA[<p>The sign of acceleration and force on the particle when it is at point B is negative.</p>]]></text></answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:bn</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>section:mcq_ii</text></tag>
+    <tag><text>class:class_11</text></tag>
+    <tag><text>chapter:oscillations</text></tag>
+    <tag><text>typology:multi_correct_mcq</text></tag>
+    <tag><text>difficulty:medium</text></tag>
     <tag><text>blooms:analyze</text></tag>
     <tag><text>calculation:light</text></tag>
     <tag><text>media:diagram</text></tag>

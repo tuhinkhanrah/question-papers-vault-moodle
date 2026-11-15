@@ -1,46 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <quiz>
 <question type="multichoice">
-  <name><text>NEET_UG_PHYSICS_MCQ1_ELECTROMAGNETICINDUCTION_MCQ_Q6_01 - Magnetic flux through square in given field</text></name>
-  <questiontext format="html">
-    <text><![CDATA[<p>A square of side \(L\) meters lies in the \(x\text{-}y\) plane in a region, where the magnetic field is given by \(\mathbf{B} = B_0(2\hat{\mathbf{i}} + 3\hat{\mathbf{j}} + 4\hat{\mathbf{k}})\text{ T}\), where \(B_0\) is constant. The magnitude of flux passing through the square is</p>]]></text>
-  </questiontext>
-  <generalfeedback format="html">
-    <text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>- Side length of the square: \(L\text{ m}\)<br/>- Orientation: The square lies in the \(x\text{-}y\) plane.<br/>- Magnetic field: \(\mathbf{B} = B_0(2\hat{\mathbf{i}} + 3\hat{\mathbf{j}} + 4\hat{\mathbf{k}})\text{ T}\), where \(B_0\) is a constant.</p><p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>The area vector \(\mathbf{A}\) of any surface lying in the \(x\text{-}y\) plane is perpendicular to the plane and directed along the normal axis (\(\pm\hat{\mathbf{k}}\)). For finding the magnitude of the flux, we compute \(|\Phi| = |\mathbf{B} \cdot \mathbf{A}|\).</p><p><strong>Step 3: Relevant Formulae and Principles</strong><br/>- Surface area of the square: \(A = L^2\)<br/>- Area vector: \(\mathbf{A} = L^2\hat{\mathbf{k}}\)<br/>- Magnetic flux: \(\Phi = \mathbf{B} \cdot \mathbf{A}\)</p><p><strong>Step 4: Step-by-Step Working</strong><br/>Taking the scalar product of the magnetic field and the area vector:
-\[
-\Phi = B_0(2\hat{\mathbf{i}} + 3\hat{\mathbf{j}} + 4\hat{\mathbf{k}}) \cdot (L^2\hat{\mathbf{k}})
-\]
-Since \(\hat{\mathbf{i}} \cdot \hat{\mathbf{k}} = 0\), \(\hat{\mathbf{j}} \cdot \hat{\mathbf{k}} = 0\), and \(\hat{\mathbf{k}} \cdot \hat{\mathbf{k}} = 1\):
-\[
-\Phi = 4 B_0 L^2\text{ Wb}
-\]
-The magnitude of the magnetic flux is therefore:
-\[
-|\Phi| = 4 B_0 L^2\text{ Wb}
-\]</p><p><strong>Step 5: Check and Final Answer</strong><br/>Only the component of the magnetic field normal to the loop (\(B_z = 4B_0\)) passes through the surface, giving a total flux of \(4 B_0 L^2\text{ Wb}\).<br/>Final Answer: The magnitude of flux passing through the square is \(4 B_0 L^2\text{ Wb}\).</p>]]></text>
-  </generalfeedback>
+  <name><text>NEET_UG_PHYSICS_MCQ1_ELECTROMAGNETICINDUCTION_MCQ_Q61 - Magnetic flux through a square in xy plane</text></name>
+  <questiontext format="html"><text><![CDATA[<p>6.1 A square of side \(L\) meters lies in the \(x\)-\(y\) plane in a region, where the magnetic field is given by \(\mathbf{B} = B_0(2\hat{\mathbf{i}} + 3\hat{\mathbf{j}} + 4\hat{\mathbf{k}})\,\text{T}\), where \(B_0\) is constant. The magnitude of flux passing through the square is</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>Side length of the square \(= L\text{ m}\).<br/>The square lies in the \(x\)-\(y\) plane.<br/>The magnetic field is \(\mathbf{B} = B_0(2\hat{\mathbf{i}} + 3\hat{\mathbf{j}} + 4\hat{\mathbf{k}})\,\text{T}\), where \(B_0\) is a constant.</p><p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>Since the square lies in the \(x\)-\(y\) plane, its area vector \(\mathbf{A}\) is perpendicular to the \(x\)-\(y\) plane, i.e., along the \(z\)-axis (\(\hat{\mathbf{k}}\)). Because only the magnitude of the magnetic flux is required, we take \(\mathbf{A} = L^2\hat{\mathbf{k}}\text{ m}^2\).</p><p><strong>Step 3: Relevant Formulae and Principles</strong><br/>The magnetic flux \(\Phi\) passing through a flat surface of area vector \(\mathbf{A}\) in a uniform magnetic field \(\mathbf{B}\) is given by:<br/>\[\Phi = \mathbf{B} \cdot \mathbf{A}\]</p><p><strong>Step 4: Step-by-Step Working</strong><br/>Substitute \(\mathbf{B}\) and \(\mathbf{A}\) into the flux formula:<br/>\[|\Phi| = \left| B_0(2\hat{\mathbf{i}} + 3\hat{\mathbf{j}} + 4\hat{\mathbf{k}}) \cdot (L^2\hat{\mathbf{k}}) \right|\]<br/>Using \(\hat{\mathbf{i}} \cdot \hat{\mathbf{k}} = 0\), \(\hat{\mathbf{j}} \cdot \hat{\mathbf{k}} = 0\), and \(\hat{\mathbf{k}} \cdot \hat{\mathbf{k}} = 1\):<br/>\[|\Phi| = |B_0 L^2 (0 + 0 + 4)| = 4 B_0 L^2\text{ Wb}\]</p><p><strong>Step 5: Check and Final Answer</strong><br/>The unit of \(\mathbf{B} \cdot \mathbf{A}\) is \(\text{T}\cdot\text{m}^2 = \text{Wb}\), which matches the SI unit of magnetic flux. Only the \(z\)-component of the magnetic field contributes to the flux through a surface in the \(x\)-\(y\) plane. Thus, the magnitude of flux passing through the square is \(4 B_0 L^2\text{ Wb}\).</p>]]></text></generalfeedback>
   <defaultgrade>4.0000000</defaultgrade>
   <penalty>0.2500000</penalty>
   <hidden>0</hidden>
   <single>true</single>
   <shuffleanswers>true</shuffleanswers>
   <answernumbering>abc</answernumbering>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>\(2 B_0 L^2\text{ Wb}\)</p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>\(3 B_0 L^2\text{ Wb}\)</p>]]></text>
-  </answer>
-  <answer fraction="100" format="html">
-    <text><![CDATA[<p>\(4 B_0 L^2\text{ Wb}\)</p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>\(\sqrt{29} B_0 L^2\text{ Wb}\)</p>]]></text>
-  </answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>\(2 B_0 L^2\text{ Wb.}\)</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>\(3 B_0 L^2\text{ Wb.}\)</p>]]></text></answer>
+  <answer fraction="100" format="html"><text><![CDATA[<p>\(4 B_0 L^2\text{ Wb.}\)</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>\(\sqrt{29} B_0 L^2\text{ Wb.}\)</p>]]></text></answer>
   <tags>
     <tag><text>standard:neet_ug</text></tag>
     <tag><text>lang:en</text></tag>
     <tag><text>subject:physics</text></tag>
+    <tag><text>section:mcq_1</text></tag>
     <tag><text>class:class_12</text></tag>
     <tag><text>chapter:electromagnetic_induction</text></tag>
     <tag><text>typology:mcq</text></tag>
@@ -52,49 +30,24 @@ The magnitude of the magnetic flux is therefore:
   </tags>
 </question>
 <question type="multichoice">
-  <name><text>NEET_UG_PHYSICS_MCQ1_ELECTROMAGNETICINDUCTION_MCQ_Q6_02 - Flux passing through six cornered loop</text></name>
-  <questiontext format="html">
-    <text><![CDATA[<p>A loop, made of straight edges has six corners at \(A(0,0,0)\), \(B(L,0,0)\), \(C(L,L,0)\), \(D(0,L,0)\), \(E(0,L,L)\) and \(F(0,0,L)\). A magnetic field \(\mathbf{B} = B_0(\hat{\mathbf{i}} + \hat{\mathbf{k}})\text{ T}\) is present in the region. The flux passing through the loop \(ABCDEFA\) (in that order) is</p>]]></text>
-  </questiontext>
-  <generalfeedback format="html">
-    <text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>- Six vertices of the loop: \(A(0,0,0)\), \(B(L,0,0)\), \(C(L,L,0)\), \(D(0,L,0)\), \(E(0,L,L)\), and \(F(0,0,L)\)<br/>- Loop traversal sequence: \(A \to B \to C \to D \to E \to F \to A\)<br/>- Magnetic field: \(\mathbf{B} = B_0(\hat{\mathbf{i}} + \hat{\mathbf{k}})\text{ T}\)</p><p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>The closed non-planar loop \(ABCDEFA\) can be broken into two planar loops by adding and subtracting an imaginary line segment joining points \(A\) and \(D\):<br/>1. Loop \(ABCDA\) lying in the \(x\text{-}y\) plane (\(z = 0\)).<br/>2. Loop \(ADEFA\) lying in the \(y\text{-}z\) plane (\(x = 0\)).<br/>Applying the right-hand rule for the given order of traversal:<br/>- Traversal \(A(0,0,0) \to B(L,0,0) \to C(L,L,0) \to D(0,L,0) \to A(0,0,0)\) is counterclockwise when viewed from \(+z\), yielding area vector \(\mathbf{A}_1 = L^2\hat{\mathbf{k}}\).<br/>- Traversal \(A(0,0,0) \to D(0,L,0) \to E(0,L,L) \to F(0,0,L) \to A(0,0,0)\) in the \(y\text{-}z\) plane yields area vector directed along \(+x\), giving \(\mathbf{A}_2 = L^2\hat{\mathbf{i}}\).</p><p><strong>Step 3: Relevant Formulae and Principles</strong><br/>- Total vector area of the loop:
-\[
-\mathbf{A} = \mathbf{A}_1 + \mathbf{A}_2 = L^2\hat{\mathbf{i}} + L^2\hat{\mathbf{k}}
-\]
-- Magnetic flux through the loop:
-\[
-\Phi = \mathbf{B} \cdot \mathbf{A}
-\]</p><p><strong>Step 4: Step-by-Step Working</strong><br/>Substitute the vector expressions for \(\mathbf{B}\) and \(\mathbf{A}\):
-\[
-\Phi = \left[ B_0(\hat{\mathbf{i}} + \hat{\mathbf{k}}) \right] \cdot \left[ L^2(\hat{\mathbf{i}} + \hat{\mathbf{k}}) \right]
-\]
-Evaluating the scalar product:
-\[
-\Phi = B_0 L^2 (\hat{\mathbf{i}} \cdot \hat{\mathbf{i}} + \hat{\mathbf{k}} \cdot \hat{\mathbf{k}}) = B_0 L^2 (1 + 1) = 2 B_0 L^2\text{ Wb}
-\]</p><p><strong>Step 5: Check and Final Answer</strong><br/>The \(x\text{-}y\) face intercepts flux from \(B_z\) giving \(B_0 L^2\text{ Wb}\), and the \(y\text{-}z\) face intercepts flux from \(B_x\) giving \(B_0 L^2\text{ Wb}\). The total flux is \(2 B_0 L^2\text{ Wb}\).<br/>Final Answer: The flux passing through the loop is \(2 B_0 L^2\text{ Wb}\).</p>]]></text>
-  </generalfeedback>
+  <name><text>NEET_UG_PHYSICS_MCQ1_ELECTROMAGNETICINDUCTION_MCQ_Q62 - Magnetic flux through a nonplanar six-corner loop</text></name>
+  <questiontext format="html"><text><![CDATA[<p>6.2 A loop, made of straight edges has six corners at \(A(0,0,0)\), \(B(L,0,0)\), \(C(L,L,0)\), \(D(0,L,0)\), \(E(0,L,L)\) and \(F(0,0,L)\). A magnetic field \(\mathbf{B} = B_0(\hat{\mathbf{i}} + \hat{\mathbf{k}})\,\text{T}\) is present in the region. The flux passing through the loop \(ABCDEFA\) (in that order) is</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>Vertices of the loop \(ABCDEFA\) in order: \(A(0,0,0)\), \(B(L,0,0)\), \(C(L,L,0)\), \(D(0,L,0)\), \(E(0,L,L)\), \(F(0,0,L)\).<br/>Magnetic field: \(\mathbf{B} = B_0(\hat{\mathbf{i}} + \hat{\mathbf{k}})\,\text{T}\).</p><p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>The non-planar loop \(ABCDEFA\) can be decomposed into two planar square loops sharing the common edge \(AD\) traversed in opposite directions: loop \(ABCDA\) in the \(x\)-\(y\) plane (\(z = 0\)) and loop \(ADEFA\) in the \(y\)-\(z\) plane (\(x = 0\)). By the right-hand rule for the given traversal order, the outward normal directions determine the area vectors \(\mathbf{A}_1\) and \(\mathbf{A}_2\).</p><p><strong>Step 3: Relevant Formulae and Principles</strong><br/>For a closed loop composed of planar segments, the total area vector is the vector sum of the area vectors of the individual planar loops:<br/>\[\mathbf{A} = \mathbf{A}_1 + \mathbf{A}_2\]<br/>The magnetic flux through the loop is:<br/>\[\Phi = \mathbf{B} \cdot \mathbf{A}\]</p><p><strong>Step 4: Step-by-Step Working</strong><br/>For loop \(ABCDA\) in the \(x\)-\(y\) plane, \(\overrightarrow{AB} = L\hat{\mathbf{i}}\) and \(\overrightarrow{BC} = L\hat{\mathbf{j}}\). Using the right-hand rule:<br/>\[\mathbf{A}_1 = \overrightarrow{AB} \times \overrightarrow{BC} = (L\hat{\mathbf{i}}) \times (L\hat{\mathbf{j}}) = L^2\hat{\mathbf{k}}\]<br/>For loop \(ADEFA\) in the \(y\)-\(z\) plane, \(\overrightarrow{DE} = L\hat{\mathbf{k}}\) and \(\overrightarrow{EF} = -L\hat{\mathbf{j}}\). Using the right-hand rule:<br/>\[\mathbf{A}_2 = \overrightarrow{DE} \times \overrightarrow{EF} = (L\hat{\mathbf{k}}) \times (-L\hat{\mathbf{j}}) = L^2\hat{\mathbf{i}}\]<br/>The total area vector of the loop \(ABCDEFA\) is:<br/>\[\mathbf{A} = \mathbf{A}_1 + \mathbf{A}_2 = L^2\hat{\mathbf{i}} + L^2\hat{\mathbf{k}}\]<br/>Now calculate the magnetic flux:<br/>\[\Phi = \mathbf{B} \cdot \mathbf{A} = B_0(\hat{\mathbf{i}} + \hat{\mathbf{k}}) \cdot (L^2\hat{\mathbf{i}} + L^2\hat{\mathbf{k}}) = B_0 L^2 (1 + 1) = 2 B_0 L^2\text{ Wb}\]</p><p><strong>Step 5: Check and Final Answer</strong><br/>Both components of \(\mathbf{B}\) align positively with the respective planar area vectors, giving a positive sum with units \(\text{T}\cdot\text{m}^2 = \text{Wb}\). Thus, the flux passing through the loop \(ABCDEFA\) is \(2 B_0 L^2\text{ Wb}\).</p>]]></text></generalfeedback>
   <defaultgrade>4.0000000</defaultgrade>
   <penalty>0.2500000</penalty>
   <hidden>0</hidden>
   <single>true</single>
   <shuffleanswers>true</shuffleanswers>
   <answernumbering>abc</answernumbering>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>\(B_0 L^2\text{ Wb}\)</p>]]></text>
-  </answer>
-  <answer fraction="100" format="html">
-    <text><![CDATA[<p>\(2 B_0 L^2\text{ Wb}\)</p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>\(\sqrt{2} B_0 L^2\text{ Wb}\)</p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>\(4 B_0 L^2\text{ Wb}\)</p>]]></text>
-  </answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>\(B_0 L^2\text{ Wb.}\)</p>]]></text></answer>
+  <answer fraction="100" format="html"><text><![CDATA[<p>\(2 B_0 L^2\text{ Wb.}\)</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>\(\sqrt{2} B_0 L^2\text{ Wb.}\)</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>\(4 B_0 L^2\text{ Wb.}\)</p>]]></text></answer>
   <tags>
     <tag><text>standard:neet_ug</text></tag>
     <tag><text>lang:en</text></tag>
     <tag><text>subject:physics</text></tag>
+    <tag><text>section:mcq_1</text></tag>
     <tag><text>class:class_12</text></tag>
     <tag><text>chapter:electromagnetic_induction</text></tag>
     <tag><text>typology:mcq</text></tag>
@@ -106,40 +59,26 @@ Evaluating the scalar product:
   </tags>
 </question>
 <question type="multichoice">
-  <name><text>NEET_UG_PHYSICS_MCQ1_ELECTROMAGNETICINDUCTION_MCQ_Q6_03 - Rotating cylindrical magnet and induced current</text></name>
-  <questiontext format="html">
-    <text><![CDATA[<p>A cylindrical bar magnet is rotated about its axis (as shown in the figure). A wire is connected from the axis and is made to touch the cylindrical surface through a contact. Then</p><p><img src="@@PLUGINFILE@@/img-0.jpeg" alt="Fig. 6.1" /></p>]]></text>
-  
+  <name><text>NEET_UG_PHYSICS_MCQ1_ELECTROMAGNETICINDUCTION_MCQ_Q63 - Rotating cylindrical bar magnet about symmetry axis</text></name>
+  <questiontext format="html"><text><![CDATA[<p>6.3 A cylindrical bar magnet is rotated about its axis (Fig 6.1). A wire is connected from the axis and is made to touch the cylindrical surface through a contact. Then</p><p><img src="@@PLUGINFILE@@/img-0.jpeg" alt="Fig. 6.1" /></p>]]></text>
       <file name="img-0.jpeg" encoding="base64">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</file>
     </questiontext>
-  <generalfeedback format="html">
-    <text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>According to Faraday's law of electromagnetic induction, an electromotive force (emf) is induced in a closed circuit only when the magnetic flux linked with that circuit changes with time:
-\[
-\varepsilon = -\frac{\mathrm{d}\Phi}{\mathrm{d}t}
-\]</p><p><strong>Step 2: Evaluation</strong><br/>The bar magnet is cylindrical and possesses complete axial symmetry about its longitudinal axis of rotation. The distribution of magnetic field lines produced by this magnet is symmetric with respect to the rotation axis.</p><p><strong>Step 3: Application</strong><br/>As the magnet rotates about its axis of symmetry, the magnetic field at every fixed point in space remains strictly invariant in time. Consequently, the magnetic flux threading the closed circuit formed by the axis contact, external wire, ammeter, and sliding surface contact does not change with time (\(\frac{\mathrm{d}\Phi}{\mathrm{d}t} = 0\)). Furthermore, no relative cutting of field lines occurs around the closed conducting path to generate any motional emf.</p><p><strong>Step 4: Final Conclusion</strong><br/>Since the net electromotive force around the circuit is zero, no current flows through the ammeter.<br/>Final Answer: no current flows through the ammeter A.</p>]]></text>
-  </generalfeedback>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>A cylindrical bar magnet rotates about its own longitudinal symmetry axis with angular speed \(\omega\). An external wire connects the axis of the magnet through an ammeter \(A\) to a sliding contact on the cylindrical surface.</p><p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>The cylindrical bar magnet is assumed to have an axially symmetric magnetic field distribution about its axis of rotation, and the external circuit remains stationary.</p><p><strong>Step 3: Relevant Formulae and Principles</strong><br/>According to Faraday's law of electromagnetic induction, the induced electromotive force \(\varepsilon\) in a closed circuit is equal to the negative rate of change of magnetic flux \(\Phi\) linked with the circuit:<br/>\[\varepsilon = -\frac{d\Phi}{dt}\]<br/>By Ohm's law, the induced current is \(I = \frac{\varepsilon}{R}\).</p><p><strong>Step 4: Step-by-Step Working</strong><br/>Because the cylindrical bar magnet is symmetric about its axis of rotation, rotating it about this axis leaves the magnetic field at every point in space unchanged with time. Consequently, the magnetic flux \(\Phi\) linked with the closed circuit remains constant:<br/>\[\frac{d\Phi}{dt} = 0 \implies \varepsilon = 0\]<br/>Therefore, the current through the ammeter is:<br/>\[I = \frac{0}{R} = 0\]</p><p><strong>Step 5: Check and Final Answer</strong><br/>Since there is no change in magnetic flux linked with the circuit, no e.m.f. is induced. Thus, no current flows through the ammeter \(A\).</p>]]></text></generalfeedback>
   <defaultgrade>4.0000000</defaultgrade>
   <penalty>0.2500000</penalty>
   <hidden>0</hidden>
   <single>true</single>
   <shuffleanswers>true</shuffleanswers>
   <answernumbering>abc</answernumbering>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>a direct current flows in the ammeter A.</p>]]></text>
-  </answer>
-  <answer fraction="100" format="html">
-    <text><![CDATA[<p>no current flows through the ammeter A.</p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>an alternating sinusoidal current flows through the ammeter A with a time period \(T = 2\pi /\omega\)</p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>a time varying non-sinosoidal current flows through the ammeter A.</p>]]></text>
-  </answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>a direct current flows in the ammeter A.</p>]]></text></answer>
+  <answer fraction="100" format="html"><text><![CDATA[<p>no current flows through the ammeter A.</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>an alternating sinusoidal current flows through the ammeter A with a time period \(T = 2\pi /\omega\)</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>a time varying non-sinosoidal current flows through the ammeter A.</p>]]></text></answer>
   <tags>
     <tag><text>standard:neet_ug</text></tag>
     <tag><text>lang:en</text></tag>
     <tag><text>subject:physics</text></tag>
+    <tag><text>section:mcq_1</text></tag>
     <tag><text>class:class_12</text></tag>
     <tag><text>chapter:electromagnetic_induction</text></tag>
     <tag><text>typology:mcq</text></tag>
@@ -151,79 +90,57 @@ Evaluating the scalar product:
   </tags>
 </question>
 <question type="multichoice">
-  <name><text>NEET_UG_PHYSICS_MCQ1_ELECTROMAGNETICINDUCTION_MCQ_Q6_04 - Current direction in approaching conducting coil</text></name>
-  <questiontext format="html">
-    <text><![CDATA[<p>There are two coils A and B as shown in the figure. A current starts flowing in B as shown, when A is moved towards B and stops when A stops moving. The current in A is counterclockwise. B is kept stationary when A moves. We can infer that</p><p><img src="@@PLUGINFILE@@/img-1.jpeg" alt="Fig. 6.2" /></p>]]></text>
-  
+  <name><text>NEET_UG_PHYSICS_MCQ1_ELECTROMAGNETICINDUCTION_MCQ_Q64 - Induced current in stationary coil B due to moving coil A</text></name>
+  <questiontext format="html"><text><![CDATA[<p>6.4 There are two coils A and B as shown in Fig 6.2. A current starts flowing in B as shown, when A is moved towards B and stops when A stops moving. The current in A is counterclockwise. B is kept stationary when A moves. We can infer that</p><p><img src="@@PLUGINFILE@@/img-1.jpeg" alt="Fig. 6.2" /></p>]]></text>
       <file name="img-1.jpeg" encoding="base64">/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAIBAQEBAQIBAQECAgICAgQDAgICAgUEBAMEBgUGBgYFBgYGBwkIBgcJBwYGCAsICQoKCgoKBggLDAsKDAkKCgr/2wBDAQICAgICAgUDAwUKBwYHCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgr/wAARCABLAJwDASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD9/KKKKAA57V80/wDBRb/goBZfsJ+G/DHim3+GVx4qS68RWC+LnsrjH/CMeHZbqO3utbnUAn7PC0kasRwN2SQASPorUXvlniFu3loWUNLlSOTyCCRjjoQSeehr4q8e/sDfFv8Aap+O3xn8U/tfeB/CuoeF/EPw9TwZ8K7bw140vvtaaNNAx1a1v5fsiLA89yIJElQSsu0gD5ckA+0tB1XTtctk1bSLgT2tzbxzW9xFKHimjcFkdSOuVKt9GWr9fPX/AAS/+Gn7VXwS/Y28IfBX9sy/8I3/AI98J2I0q61PwXqdxc2d7p8BMdjLmeGJllECxxOCDkxb8/PtH0LkE4B6daACiiigAooooAKKKKACiikznIBGR+lAGP47uvEFp4bvJfCcdjJqv2SU6bFqDukTShCQGZAWUcdRzXwB8Fv+CxHxH+If7Mfwp/at+JXgLwTb6X8UtW0qz0/wV4J8cXF14mtJb3UktEuPsksaLNBET5kyLkiMMcYBr788bN4kn8M6hbeELCxudYaylXTUvpisAmZGCeaygsiE8EqrHGeDX5g/Db/gk9+3rY/8E6Phf+wpr3w2+EXhbxD4O1XS5j8YfDPja9uNU0VbTVEu2urSJ9OQmdoFeNQZCoZxkEZNAH6pWLRxr9kjZnMY+diuBnJz7fh2BFWKzPD0RtLcae9xcTG1xCJLpAJXwo3SMQcPuPOQByTxWnQAUUUUAISpBXdjA556V4b+2p+3x+zx/wAE/wD4aWPjv9ozxvMtzqd9Hp3h7wv4dsmvda8Q30rbYbWxs0y88jnjsoPVhWj+3D+2F4A/YT/Zk8R/tI/E2Ce7ttCtgunaNaOou9Zv5WENpYQKeGllmkjQdhkk8A14d/wTo/YE8a2/iOf/AIKEft9x2/iH9onxvaF3bez2ngDSpMtBoelBifs4jRv3syYeSSWQEsBkgHLWupf8Fyf22bI6xHc+CP2RfB+ozRJpunX+mr4q8aGL7xlaUutjatIuP3Twu0RypLkZrU1T/gjB4h8dO178Tf8Agq5+1Trd65i+0PbeOdPsFSSP5kKJaWMaoA3ODnPRsgkV9xW1oltGy5yztudgNuT+FPSEqrI0pKlvlA42j0GKAPhzUv8Agnt/wUZ+Ch02+/Za/wCCu3jbXJLMnHhz48+HtP1uyusdN82n29rdEdeBJ9c4xVHwF/wVp+Kn7OfxA0b9n3/grf8AASx+FWu67eDTPC/xg8OXr3vgPxXc4Pyi6P7zSJ2YEC2ud54J8wAivvMjOQQMYrmfi78Hfhr8d/htrPwg+LngrTfEPhrxFYtZazo2q2qywXNuw5Qqe46g9QcEYIFAG5Bqa3HlvAVlSU/K0fIAKllYkHAXAxkZBJGMVbGSMkY9q/Or9kHX/iL/AMEwP2sNI/4JifGTVtW1z4TeODeXn7MPjXW72WaXS/J/ez+E72V8+a8KfvLR3JzFHj+EBfuL4i/tCfBL4NXmnaf8Yfi74Z8LS6y7x6LH4h163tJL949vmpEsjAyMm9Mhc/fHrQB2dFcr8Pvjf8H/AIsT6jb/AAx+Kfh3xG+k3Kwakmg6xDeNaSN0SURM3lsfRscc108c8cmArjPPy59Dg/keKAH0UUUAV7y9ltclLOSULGzkRrkkAdB6sTgAfjXw98Tf+Cpfxi+OXxX1T9mj/glL8ELD4s+JtBuXs/HHxQ1i8e08EeDboNtMMs6kSaneoChaxgdSA2fN4YLS/wCCgnxc+Mf7aH7T9h/wSJ/ZL+Ilx4bjl0OPxF+0V8QdJ3m48OeGJWCRaTayrgR6hqKsQvO+OAtKAQMj66/Z4/Zv+DP7Lfwj0P4H/AT4e6f4Y8K+H7JLfTNHsbcAJtH+skc5aSViSzSMSzMSSSTmgD5Nk/4JM/tO/tIaSNR/b6/4Ke/FDXbye6e4fwt8KZ4/CuhWRJGxYfs8YvXCgf8ALWdupyDgGrF5/wAG/P7Ey2MDaL8VfjvpOrQx4GvWXx11xrl5gOJiJrh4t4OGA2beOQRX3Fa2yWkC28byMq5wZZWduueWYkmpCAeCKAPga7/Yt/4Ki/sVaXb337Dn7ekvxU0jTrcrD8Lv2jLSK5a6QPvaG31iySCaKRl3BZLgSqp254zn1D9jL/gp/wCEf2kPiFdfs2/Gv4Sa58G/jnpFqZdb+E/jYqJrmJOJL/Srtf3eqWG4MFnjVSdhyqjBP1PLGssZifOGGDivnr9vz/gnv4E/bc+HFgtnrkng/wCJXg64OpfC/wCKOjW6LqXhnU0U7GRgMyWsh+We1b93MhwRkKwAPoNbqJz8kgI3FCR2YZyP0qSvlr/gmP8Att+Nv2qfh94k+Gfx88NWOh/G34Q+IT4X+L+g6dv+zfb1XdDqVsGUMLS9iUzwlgMDcpztyfqUcd6APgf9oeLSf20v+C1Pw2/ZZ8Q2cGo+Cv2ffBcnxS8RWk9sJEl8SXEgsdJt5A38McE014u0EeZEmSMYP3ugCj5RjJzXwb+wjaxXv/Bbv9vPWL+RJdRsLP4X2dnvbmK0bw9PKVU9leYsxHqor7zGcc0AFFFFABRRRQB8mf8ABYv9m+8/aD/YI8Z3vgGyKeOvh1E3j34eaj5SNLba9pIN7DGjMfkM3ltbschSkzKSAc18q/8ABTLwb4L/AOCxH/BLr4bftA/BDxN4GufjV4bj0fxv4D0fVdcsLeZNRRY/t2kkTzxoEkkWQMJGVC0EXXaDX6paxpGla1pNzoesW0c1jeWslvdW0g+SWN1IZT7Fcj8TX5Ef8ELP+COv/BMb9qT/AIJX/Cj46/Gz9kjw/wCKPEmt2+sNe69qV7eia88vXNRhRnCTqufLjjHAA4oA7P8AZg+L3wg/4IkfsXeHPip8aPh/pfiDxJ8RfFdz4i/aS8SfDXVNPuX8Nanqdw0677SK4eWe1tjMbQC2EmPs5cA7uf0T/Zx/aS+B/wC1f8LdO+NP7PPxT0vxh4Y1a2jlstX0m4V0OVBKug+eCUZw8MoWSNsqyqeK+BP22P8Ag3S/ZR8e6NoPw9/Yn+AngX4W3Gt3zx+MfiJ9lv7zUtJsEUMqaepvFSK4lYsgmdZFQZ+XJzX13/wT4/4Jwfsu/wDBNP4MQfBb9l7wreWOnP8Av9T1DVr17i+1S6YLvuLhyQhkIVRhERVCgAAACgD3yqXiTXtO8LeHb/xPq9ysNpp1lLdXUz9EjjQuzH2ABNXa8U/4KQXGtWf7AnxkuvDwkN+nw11j7IYc7vM+ySYxjnrQB8+f8EKPhjrPij9lHW/26PHsBi8aftK+OLv4hapN5pLW9lNKy6baBh/BBaYQL0IZhxuJr7tAO0Bjkjqa+fP+CUsGj2P/AATW+A9noGz7Anwn0KO1EQ+UAWSZxjtxX0JQAUUUUAFIwyCAce9LRQB8G/HDSrb9lL/guJ8Kf2itJtI7fQP2ifBOo/Dfxf5blBLr2nxnUtMu5weHb7PbTWiMMnEgABHI+8Is+UpZSCQMgnOPzr8aP+Djv/gof/wjn7RfwO/Zl/Zy+H174y8bfC74m6P4/wDFcejS7pLWOKOU2+jgqGK3l7CZCiAFyg4Uhsj9Tf2WP2sfg7+11+z74W/aO+FPiOKXQ/FemLd2qTTKJbdwxSW3kAPyyRSrJE6no0ZFAHyk0+n/ALLH/BwLLqOst9j0D9p34LRW1vf3CbUu/E2gzKsNpu6FzpzzuB1O04BwcffAYKoLN1/vV81f8FOP2NfGH7Xf7OpX4Ka0uifFzwF4gtvGPwj8RzS+Ullr1oMxRSMOtvPHvtZQcgpOxIOKT/gnX+3n4Z/bo+BsviLWNP8A+Ea+I/g+b+yvi18Or9z9t8LaymVmgeM4ZopGRnglA2PGcKSUYAA+l6Kr6Wk0Vikc9w0rDJDum07ScgevAIGTycc81YoAKKKzr3UHs8rPMhO3cWMhTbCMb3bOAuOcE0AeKf8ABTP9pOP9kT9gj4qfHOG+aPU9L8I3lv4Zi8ss9zrN0httNt4wvJL3k1ug4PDUv/BLj9m6T9kX/gnn8If2eLyw+y3vh7wVa/2ralceTfTg3N0n4TzSj8K+X08Wn/gr9+3dpmneDZpdV/ZZ/Z68SPqWqa5C8rWfxD8bwMwgtbYLxdafprYlLpvjedI8blw1foxbHMCHzvMyPv4xn8BQA4oC4cnoKWiigArN8WeGNN8aeE9S8H65F5lpquny2d2nrHIhRv0Y1pUUAfDv/BBv4jasn7EI/ZO8bXFtF41/Z38SX/w68UWpYiSOOwnZLKdo852z22x0YcEDjNfcQAAwP1Nfnv8AtveF/iB/wTa/bEuP+CsXwb8H6jrfwz8V6PZ6J+074R0K086azgt2xa+L44lObiWzjzDOArFbdnkICq7r9r/C74v/AA3+M3gLTfiN8H/Gtjr+ga7psd3oWt6PcpPbX0Mg3CWIg4JGclTyMjIoA7Gio7cOIgsrlnXhmOOSB1wOmeuPepKACikYgKSWx714b+3h+3P8Iv2AfgpL8V/ibe3OpardyjTvBXgvS/3mqeLNZl4g0+xgXLzSu7KOAVRTk4AoA+Xvj38Pfhx8Xv8Agtv8GPgd8LvBOgwT+B7G8+M3xn1Sx0yNLjVLuKzfQtCF3Igy91H9qaSMSfN5SOVGK+6Phh8DPhB8GvCo8F/C74Y6FoGlm9uLxtP0rT44oftE8rSzS7QMbnkdnY9yxNfOH/BLH9jv4s/BDw94w/ac/atWC7+Ofxt1qLX/AIkSW8qvFoSJGY9O0G3ZWKvb2Fs5iBBIZmJBYYNfXSMHUMM/iMGgBslvDK8ckiBmictGT/CSCP5Ej8a+R/23P+Cbtt8W/ilp37Y/7Kvxoufg78fPD9iLa38d6bpv2my8RWO7P9mazY8JqFs2AA2RLCdrgttC19d1lXV1Ol7EwYZ/tIQ5Kg4QxkkD057jmgD4js/+CuvxQ/ZIP/CEf8FWv2OvFvw9ns38tvir8PNJuvE/gvUj5aN5kc1pE19bs7F/3Ulr8m3Bfpn0HwZ/wXA/4JOeNdIfX9I/b1+HsMQj3ta6teyadcx+zQ3SRyg+xQH2r6qWNTG8vIY7hwxHQn0/nXmviT9kz9lTxf44Or+LP2Yvh3ql5NbtPNe6j4IsJ5nk3gbjI8JYnBPegD508X/8HBf/AATPtS+i/B34keJPi54hLeXaeF/hV4E1PV7i7mzhY45vIS1BJxgyTIvBJPFcH40+Dn/BS7/gq5ZXGmftI2Gq/s0/Aa6lC6h8NtA1SC58ceL7UP8AcvbxGEOlW7jG6ON5HK5Vsda+/vBvw5+H3w6046P8PfA2kaBaFgzWuiabFaRkjoSsSqDWo9tbgMghXbK37xSvDcdxQBzPwf8Agj8KfgJ8OtE+Evwe8B6b4c8N+HLYW+haLpVsIoLGPBG1APXcxYkkszEkkmuroooAKKKKACiiigCC+0611C0axuYwYZFKyRFQVdSCCrAjBHPQ8HvkcV8Fa9/wTa/aR/YX+IWp/Fn/AIJJ/FDQdG8L6zqpvPEn7OnxEup18LzyyEGe60i7hDzaJcSDcDGkcsbsw/1aqor78rO1m7ntLe+mt2CtDaCSNtoOGO8E/oPyoA+ItO/4LmfDP4J/ZPCH/BQT9kv4xfAjXBYrLcyal4Iudf0YgZUtb3ujLdGRN6soLxxscAlVBq/d/wDBxj/wR7txEYf2q7+4eX/V2tt8LvE8kznHACLppJOcDBx1z2r7S01FubSJ5MgvBHI3lkpl2ySTtx1NVrXS9Lt7tbu20u2imku5EeaK3VHK7X43AZ7CgD4iuP8Agqj+0/8AtXy/8Ir/AME3v+CenjXWra5ZkT4n/G2xfwv4WjULkShW3306g4O0W4Y4xwG3Dqv2TP8AglrdfDz44/8ADav7bHx1uvjb8cjG6ad4p1TTUtNF8JW7n5rLRtPEjrZ/L8jXBLSSDJ+TcVr691EtbGCSF2Be4SNssT8pPPXp9etN1+Z7HQr66tdqPHbO6nYD8wUnODwfxoAsWlhaWMKW9pCI0jjCIingKOgqaiigD//Z</file>
     </questiontext>
-  <generalfeedback format="html">
-    <text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>According to Faraday's and Lenz's laws of electromagnetic induction, a current is induced in a stationary closed loop if and only if the magnetic flux linking it changes with time.</p><p><strong>Step 2: Evaluation</strong><br/>- Current flows in coil B while coil A is moving, but ceases the moment coil A stops moving. If the current in coil A were varying with time on its own, it would continue to induce a current in coil B even when coil A remained stationary. Because no current exists in coil B when coil A is stationary, the current in coil A cannot be time-varying; it must be constant.<br/>- If coil A carried no current, moving it would create no magnetic field and consequently no flux change in coil B. Thus, coil A carries a non-zero current.</p><p><strong>Step 3: Application</strong><br/>The problem explicitly states that the current in coil A flows in the counterclockwise direction. Since this current must be steady to ensure induction occurs exclusively during relative motion, the current in coil A is constant and oriented counterclockwise.</p><p><strong>Step 4: Final Conclusion</strong><br/>Coil A carries a constant current flowing in the counterclockwise direction.<br/>Final Answer: there is a constant current in the counterclockwise direction in A.</p>]]></text>
-  </generalfeedback>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>Two coplanar circular coils \(A\) and \(B\) are placed side by side. Coil \(B\) is stationary, and coil \(A\) moves towards \(B\) with velocity \(\mathbf{v}\). Current flows in \(B\) in the counterclockwise direction while \(A\) moves, and stops when \(A\) stops moving.</p><p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>Let the plane of the coils be the \(x\)-\(y\) plane, with the \(+z\) axis pointing out of the page. By the right-hand rule, a counterclockwise current produces a magnetic field pointing out of the page inside the coil and into the page outside the coil.</p><p><strong>Step 3: Relevant Formulae and Principles</strong><br/>Faraday's law and Lenz's law state that an induced current flows in a coil only when the magnetic flux through it changes, and the direction of the induced current opposes the change in magnetic flux:<br/>\[\varepsilon = -\frac{d\Phi}{dt}\]</p><p><strong>Step 4: Step-by-Step Working</strong><br/>1. Since the current in \(B\) stops as soon as \(A\) stops moving, the magnetic flux through \(B\) does not change when \(A\) is stationary. This implies that the current in coil \(A\) must be constant (not time-varying).<br/>2. In coil \(B\), the induced current is counterclockwise, which produces a magnetic field pointing out of the page inside \(B\). By Lenz's law, as \(A\) moves towards \(B\), the magnetic flux through \(B\) due to \(A\) is increasing, so the induced field in \(B\) must oppose the field from \(A\) at the location of \(B\). Therefore, the magnetic field at \(B\) due to \(A\) must be pointing into the page.<br/>3. For a circular coil \(A\), the magnetic field outside the loop (at \(B\)) points into the page when the magnetic field inside \(A\) points out of the page. By the right-hand rule, an outward magnetic field inside \(A\) corresponds to a counterclockwise current in \(A\).</p><p><strong>Step 5: Check and Final Answer</strong><br/>A constant current in \(A\) explains why induction ceases when motion stops, and a counterclockwise direction in \(A\) produces an inward external field at \(B\) whose increase is opposed by a counterclockwise induced current in \(B\). Hence, there is a constant current in the counterclockwise direction in \(A\).</p>]]></text></generalfeedback>
   <defaultgrade>4.0000000</defaultgrade>
   <penalty>0.2500000</penalty>
   <hidden>0</hidden>
   <single>true</single>
   <shuffleanswers>true</shuffleanswers>
   <answernumbering>abc</answernumbering>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>there is a constant current in the clockwise direction in A.</p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>there is a varying current in A.</p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>there is no current in A.</p>]]></text>
-  </answer>
-  <answer fraction="100" format="html">
-    <text><![CDATA[<p>there is a constant current in the counterclockwise direction in A.</p>]]></text>
-  </answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>there is a constant current in the clockwise direction in A.</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>there is a varying current in A.</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>there is no current in A.</p>]]></text></answer>
+  <answer fraction="100" format="html"><text><![CDATA[<p>there is a constant current in the counterclockwise direction in A.</p>]]></text></answer>
   <tags>
     <tag><text>standard:neet_ug</text></tag>
     <tag><text>lang:en</text></tag>
     <tag><text>subject:physics</text></tag>
+    <tag><text>section:mcq_1</text></tag>
     <tag><text>class:class_12</text></tag>
     <tag><text>chapter:electromagnetic_induction</text></tag>
     <tag><text>typology:mcq</text></tag>
     <tag><text>difficulty:medium</text></tag>
-    <tag><text>blooms:understand</text></tag>
+    <tag><text>blooms:analyze</text></tag>
     <tag><text>calculation:light</text></tag>
     <tag><text>media:diagram</text></tag>
     <tag><text>multiconcept:false</text></tag>
   </tags>
 </question>
 <question type="multichoice">
-  <name><text>NEET_UG_PHYSICS_MCQ1_ELECTROMAGNETICINDUCTION_MCQ_Q6_05 - Rotating coil and induced current direction</text></name>
-  <questiontext format="html">
-    <text><![CDATA[<p>Same as problem 4 except the coil A is made to rotate about a vertical axis (as shown in the figure). No current flows in B if A is at rest. The current in coil A, when the current in B (at \(t = 0\)) is counterclockwise and the coil A is as shown at this instant, \(t = 0\), is</p><p><img src="@@PLUGINFILE@@/img-2.jpeg" alt="Fig. 6.3" /></p>]]></text>
-  
+  <name><text>NEET_UG_PHYSICS_MCQ1_ELECTROMAGNETICINDUCTION_MCQ_Q65 - Induced current in stationary coil B due to rotating coil A</text></name>
+  <questiontext format="html"><text><![CDATA[<p>6.5 Same as problem 4 except the coil A is made to rotate about a vertical axis (Fig 6.3). No current flows in B if A is at rest. The current in coil A, when the current in B (at \(t = 0\)) is counterclockwise and the coil A is as shown at this instant, \(t = 0\), is</p><p><img src="@@PLUGINFILE@@/img-2.jpeg" alt="Fig. 6.3" /></p>]]></text>
       <file name="img-2.jpeg" encoding="base64">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</file>
     </questiontext>
-  <generalfeedback format="html">
-    <text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>- When a coil carrying a constant current rotates, the magnetic flux linked with a neighboring coplanar coil changes with time, inducing an electromotive force and current according to Faraday's law.<br/>- By Lenz's law, the induced current produces a magnetic field that opposes the change in magnetic flux through the loop.</p><p><strong>Step 2: Evaluation</strong><br/>- Since no current flows in coil B when coil A is stationary, the current in coil A does not vary intrinsically with time; it is a steady (constant) current.<br/>- At \(t = 0\), coil A is coplanar with coil B. As coil A begins to rotate about its vertical diameter, the magnetic flux linking coil B decreases from its maximum coplanar value towards zero.<br/>- To oppose this decrease in flux, the induced current in coil B must reinforce the existing magnetic field passing through it.</p><p><strong>Step 3: Application</strong><br/>- The induced current in coil B at \(t = 0\) is counterclockwise, which produces a magnetic field pointing out of the plane of the page.<br/>- Because the induced field must reinforce the decreasing field produced by coil A, the original field from coil A threading coil B must also point out of the page.<br/>- Two coplanar coils side by side have opposite field orientations inside and outside their loops. A clockwise current in coil A produces a magnetic field pointing into the page inside coil A, and curving back out of the page in the surrounding region where coil B is located.<br/>- Therefore, the steady current in coil A must be clockwise.</p><p><strong>Step 4: Final Conclusion</strong><br/>The current in coil A is a constant current in the clockwise direction.<br/>Final Answer: constant current clockwise.</p>]]></text>
-  </generalfeedback>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>Coils \(A\) and \(B\) are initially coplanar at \(t = 0\). Coil \(B\) is stationary, and coil \(A\) rotates about a vertical axis in its plane with angular velocity \(\omega\). No current flows in \(B\) when \(A\) is at rest. At \(t = 0\), the induced current in \(B\) is counterclockwise.</p><p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>Take the direction out of the page as positive (\(+z\)). A counterclockwise current produces an outward magnetic field inside the coil and an inward field outside the coil in the same plane; a clockwise current produces an inward field inside the coil and an outward field outside the coil in the same plane.</p><p><strong>Step 3: Relevant Formulae and Principles</strong><br/>By Faraday's law and Lenz's law, the induced current in \(B\) opposes the change in magnetic flux through \(B\). When \(A\) rotates by an angle \(\theta = \omega t\) from the coplanar position, the magnetic flux through \(B\) due to \(A\) is proportional to \(\cos(\omega t)\), so its magnitude decreases as \(A\) rotates away from \(t = 0\).</p><p><strong>Step 4: Step-by-Step Working</strong><br/>1. Since no current is induced in \(B\) when \(A\) is at rest, the current in \(A\) must be constant (steady).<br/>2. At \(t = 0\), \(A\) begins to rotate away from the coplanar position, so the magnetic flux through \(B\) due to \(A\) decreases in magnitude.<br/>3. The induced current in \(B\) at \(t = 0\) is counterclockwise, which produces an outward magnetic field inside \(B\). By Lenz's law, \(B\) generates this outward field to oppose a decrease in outward magnetic flux through \(B\).<br/>4. Therefore, the magnetic field at \(B\) produced by coil \(A\) at \(t = 0\) must be pointing out of the page. For the field outside coil \(A\) (at \(B\)) to point out of the page, the field inside coil \(A\) must point into the page, which corresponds to a clockwise current in \(A\).</p><p><strong>Step 5: Check and Final Answer</strong><br/>A steady clockwise current in \(A\) creates an outward flux at \(B\) that decreases upon rotation, inducing a counterclockwise current in \(B\) to oppose the decrease. Hence, there is a constant current clockwise in coil \(A\).</p>]]></text></generalfeedback>
   <defaultgrade>4.0000000</defaultgrade>
   <penalty>0.2500000</penalty>
   <hidden>0</hidden>
   <single>true</single>
   <shuffleanswers>true</shuffleanswers>
   <answernumbering>abc</answernumbering>
-  <answer fraction="100" format="html">
-    <text><![CDATA[<p>constant current clockwise.</p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>varying current clockwise.</p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>varying current counterclockwise.</p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>constant current counterclockwise.</p>]]></text>
-  </answer>
+  <answer fraction="100" format="html"><text><![CDATA[<p>constant current clockwise.</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>varying current clockwise.</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>varying current counterclockwise.</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>constant current counterclockwise.</p>]]></text></answer>
   <tags>
     <tag><text>standard:neet_ug</text></tag>
     <tag><text>lang:en</text></tag>
     <tag><text>subject:physics</text></tag>
+    <tag><text>section:mcq_1</text></tag>
     <tag><text>class:class_12</text></tag>
     <tag><text>chapter:electromagnetic_induction</text></tag>
     <tag><text>typology:mcq</text></tag>
@@ -235,42 +152,24 @@ Evaluating the scalar product:
   </tags>
 </question>
 <question type="multichoice">
-  <name><text>NEET_UG_PHYSICS_MCQ1_ELECTROMAGNETICINDUCTION_MCQ_Q6_06 - Self inductance variation with solenoid geometry</text></name>
-  <questiontext format="html">
-    <text><![CDATA[<p>The self inductance \(L\) of a solenoid of length \(l\) and area of cross-section \(A\), with a fixed number of turns \(N\) increases as</p>]]></text>
-  </questiontext>
-  <generalfeedback format="html">
-    <text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>- Length of solenoid: \(l\)<br/>- Cross-sectional area: \(A\)<br/>- Total number of turns: \(N\) (constant)</p><p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>The solenoid is long compared to its radius with uniform turn spacing, and the core material has a constant relative permeability.</p><p><strong>Step 3: Relevant Formulae and Principles</strong><br/>The self-inductance \(L\) of an air-core solenoid is given by:
-\[
-L = \frac{\mu_0 N^2 A}{l}
-\]</p><p><strong>Step 4: Step-by-Step Working</strong><br/>With the total number of turns \(N\) and permeability \(\mu_0\) held constant, the proportionality relation is:
-\[
-L \propto \frac{A}{l}
-\]
-Hence, \(L\) is directly proportional to the cross-sectional area \(A\) and inversely proportional to the length \(l\).<br/>To increase the self-inductance \(L\), the area \(A\) must increase and the length \(l\) must decrease.</p><p><strong>Step 5: Check and Final Answer</strong><br/>Decreasing the length for a fixed total number of turns increases the turns per unit length (\(n = N/l\)), which concentrates the magnetic field, while a larger area allows greater flux linkage per turn. Thus, \(L\) increases when \(l\) decreases and \(A\) increases.<br/>Final Answer: \(l\) decreases and \(A\) increases.</p>]]></text>
-  </generalfeedback>
+  <name><text>NEET_UG_PHYSICS_MCQ1_ELECTROMAGNETICINDUCTION_MCQ_Q66 - Dependence of solenoid self inductance on length and area</text></name>
+  <questiontext format="html"><text><![CDATA[<p>6.6 The self inductance \(L\) of a solenoid of length \(l\) and area of cross-section \(A\), with a fixed number of turns \(N\) increases as</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>A solenoid has length \(l\), cross-sectional area \(A\), and a fixed total number of turns \(N\).</p><p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>The solenoid is treated as a long air-core solenoid (or with a core of constant permeability \(\mu\)) so that edge effects are neglected.</p><p><strong>Step 3: Relevant Formulae and Principles</strong><br/>The self-inductance \(L\) of a solenoid is given by:<br/>\[L = \frac{\mu_0 N^2 A}{l}\]</p><p><strong>Step 4: Step-by-Step Working</strong><br/>Since \(\mu_0\) and \(N\) are fixed constants, \(L\) is directly proportional to the cross-sectional area \(A\) and inversely proportional to the length \(l\):<br/>\[L \propto \frac{A}{l}\]<br/>Therefore, \(L\) increases when \(l\) decreases and \(A\) increases.</p><p><strong>Step 5: Check and Final Answer</strong><br/>Decreasing \(l\) increases the turn density \(n = N/l\), and increasing \(A\) increases the magnetic flux linkage per unit current. Thus, \(L\) increases as \(l\) decreases and \(A\) increases.</p>]]></text></generalfeedback>
   <defaultgrade>4.0000000</defaultgrade>
   <penalty>0.2500000</penalty>
   <hidden>0</hidden>
   <single>true</single>
   <shuffleanswers>true</shuffleanswers>
   <answernumbering>abc</answernumbering>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>\(l\) and \(A\) increase.</p>]]></text>
-  </answer>
-  <answer fraction="100" format="html">
-    <text><![CDATA[<p>\(l\) decreases and \(A\) increases.</p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>\(l\) increases and \(A\) decreases.</p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>both \(l\) and \(A\) decrease.</p>]]></text>
-  </answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>\(l\) and \(A\) increase.</p>]]></text></answer>
+  <answer fraction="100" format="html"><text><![CDATA[<p>\(l\) decreases and \(A\) increases.</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>\(l\) increases and \(A\) decreases.</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>both \(l\) and \(A\) decrease.</p>]]></text></answer>
   <tags>
     <tag><text>standard:neet_ug</text></tag>
     <tag><text>lang:en</text></tag>
     <tag><text>subject:physics</text></tag>
+    <tag><text>section:mcq_1</text></tag>
     <tag><text>class:class_12</text></tag>
     <tag><text>chapter:electromagnetic_induction</text></tag>
     <tag><text>typology:mcq</text></tag>
@@ -282,35 +181,24 @@ Hence, \(L\) is directly proportional to the cross-sectional area \(A\) and inve
   </tags>
 </question>
 <question type="multichoice">
-  <name><text>NEET_UG_PHYSICS_MCQII_ELECTROMAGNETICINDUCTION_MCQ_Q6_07 - Heating causes in metal conducting plate</text></name>
-  <questiontext format="html">
-    <text><![CDATA[<p>A metal plate is getting heated. It can be because</p>]]></text>
-  </questiontext>
-  <generalfeedback format="html">
-    <text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>- A metallic conductor dissipates electrical energy into heat when an electric current flows through its finite resistance due to Joule heating, described by \(P = I^2 R\).<br/>- When a bulk metal is exposed to a changing magnetic field, induced electric fields generate circulating currents within the material, known as eddy currents, which also dissipate heat through Joule heating.</p><p><strong>Step 2: Evaluation</strong><br/>- Passing a direct current through the plate creates steady charge flow against internal electrical resistance, generating heat by the Joule effect.<br/>- Placing the plate in a time-varying magnetic field causes a changing magnetic flux through interior closed loops of the plate (\(\frac{\partial \mathbf{B}}{\partial t} \neq 0\)), inducing circulating eddy currents that heat the metal.<br/>- Placing a stationary plate in a purely space-varying magnetic field that does not vary with time does not produce any change in magnetic flux over time (\(\frac{\partial \mathbf{B}}{\partial t} = 0\) and \(\mathbf{v} = 0\)). Without flux variation or relative motion, no induced currents arise and no heating occurs.<br/>- Passing an electric current (whether direct or alternating) generates Joule heating because the power dissipated depends on the square of current (\(I^2 R\) or \(I_{\mathrm{rms}}^2 R\)), both of which are positive.</p><p><strong>Step 3: Final Conclusion</strong><br/>Heating can be caused by a direct current passing through the plate, by placing the plate in a time-varying magnetic field (inducing eddy currents), or by passing a current (either direct or alternating) through the plate.<br/>Final Answer: It can be because a direct current is passing through the plate, it is placed in a time varying magnetic field, or a current (either direct or alternating) is passing through the plate.</p>]]></text>
-  </generalfeedback>
+  <name><text>NEET_UG_PHYSICS_MCQII_ELECTROMAGNETICINDUCTION_MCQ_Q67 - Causes of heating in a metal plate</text></name>
+  <questiontext format="html"><text><![CDATA[<p>6.7 A metal plate is getting heated. It can be because</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>A metal plate heats up when electrical energy is dissipated as thermal energy through Joule heating (\(P = I^2 R\)), either due to an externally driven electric current (direct or alternating) or due to induced eddy currents produced by a changing magnetic flux.</p><p><strong>Step 2: Evaluation of Each Condition</strong><br/>1. <em>Direct current passing through the plate:</em> A steady direct current flowing through a conductor of non-zero resistance dissipates heat at the rate \(I^2 R\), so the plate gets heated.<br/>2. <em>Plate placed in a time-varying magnetic field:</em> A time-varying magnetic field changes the magnetic flux through the plate, inducing circulating eddy currents inside the metal plate, which cause Joule heating.<br/>3. <em>Plate placed in a space-varying, time-independent magnetic field:</em> If the plate is stationary in a magnetic field that varies only in space and not in time, the magnetic flux through any loop in the plate remains constant (\(\frac{d\Phi}{dt} = 0\)). Hence, no eddy currents are induced and no heating occurs.<br/>4. <em>Either direct or alternating current passing through the plate:</em> Both direct current and alternating current dissipate electrical energy as heat (\(I_{\text{rms}}^2 R\)) when passing through a resistive metal plate.</p><p><strong>Step 3: Final Conclusion</strong><br/>The metal plate can get heated when a direct current passes through it, when it is placed in a time-varying magnetic field, or when a current (either direct or alternating) passes through it.</p>]]></text></generalfeedback>
   <defaultgrade>4.0000000</defaultgrade>
   <penalty>0.2500000</penalty>
   <hidden>0</hidden>
   <single>false</single>
   <shuffleanswers>true</shuffleanswers>
   <answernumbering>abc</answernumbering>
-  <answer fraction="33.33333" format="html">
-    <text><![CDATA[<p>a direct current is passing through the plate.</p>]]></text>
-  </answer>
-  <answer fraction="33.33333" format="html">
-    <text><![CDATA[<p>it is placed in a time varying magnetic field.</p>]]></text>
-  </answer>
-  <answer fraction="-50" format="html">
-    <text><![CDATA[<p>it is placed in a space varying magnetic field, but does not vary with time.</p>]]></text>
-  </answer>
-  <answer fraction="33.33333" format="html">
-    <text><![CDATA[<p>a current (either direct or alternating) is passing through the plate.</p>]]></text>
-  </answer>
+  <answer fraction="33.33333" format="html"><text><![CDATA[<p>a direct current is passing through the plate.</p>]]></text></answer>
+  <answer fraction="33.33333" format="html"><text><![CDATA[<p>it is placed in a time varying magnetic field.</p>]]></text></answer>
+  <answer fraction="-50" format="html"><text><![CDATA[<p>it is placed in a space varying magnetic field, but does not vary with time.</p>]]></text></answer>
+  <answer fraction="33.33333" format="html"><text><![CDATA[<p>a current (either direct or alternating) is passing through the plate.</p>]]></text></answer>
   <tags>
     <tag><text>standard:neet_ug</text></tag>
     <tag><text>lang:en</text></tag>
     <tag><text>subject:physics</text></tag>
+    <tag><text>section:mcq_ii</text></tag>
     <tag><text>class:class_12</text></tag>
     <tag><text>chapter:electromagnetic_induction</text></tag>
     <tag><text>typology:mcq</text></tag>
@@ -318,43 +206,28 @@ Hence, \(L\) is directly proportional to the cross-sectional area \(A\) and inve
     <tag><text>blooms:understand</text></tag>
     <tag><text>calculation:light</text></tag>
     <tag><text>media:text</text></tag>
-    <tag><text>multiconcept:false</text></tag>
+    <tag><text>multiconcept:true</text></tag>
   </tags>
 </question>
 <question type="multichoice">
-  <name><text>NEET_UG_PHYSICS_MCQII_ELECTROMAGNETICINDUCTION_MCQ_Q6_08 - Causes of electromotive force in coil</text></name>
-  <questiontext format="html">
-    <text><![CDATA[<p>An e.m.f is produced in a coil, which is not connected to an external voltage source. This can be due to</p>]]></text>
-  </questiontext>
-  <generalfeedback format="html">
-    <text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>By Faraday's law of electromagnetic induction, an electromotive force is induced in any closed conducting path when the magnetic flux linked with that path changes with time:
-\[
-\varepsilon = -\frac{\mathrm{d}\Phi}{\mathrm{d}t}
-\]
-The total magnetic flux is given by \(\Phi = \int \mathbf{B} \cdot \mathrm{d}\mathbf{A}\). A time variation in flux can occur due to a time-varying magnetic field, motional cutting of flux lines, or a combination of both.</p><p><strong>Step 2: Evaluation</strong><br/>- When the coil is in a time-varying magnetic field, the field strength changes with time (\(\frac{\partial \mathbf{B}}{\partial t} \neq 0\)), causing \(\frac{\mathrm{d}\Phi}{\mathrm{d}t} \neq 0\), which generates an induced emf.<br/>- When the coil moves in a time-varying magnetic field, both time-dependent field variations and motional contributions change the flux linkage, inducing an emf.<br/>- When the coil moves in a constant magnetic field, a motional emf \(\varepsilon = \oint (\mathbf{v} \times \mathbf{B}) \cdot \mathrm{d}\mathbf{l}\) can be developed (such as when moving into or out of a field region, moving through a non-uniform field, or rotating).<br/>- If the coil is stationary in an external spatially varying magnetic field that does not vary with time (\(\mathbf{v} = 0\) and \(\frac{\partial \mathbf{B}}{\partial t} = 0\)), the flux threading the coil is constant in time (\(\frac{\mathrm{d}\Phi}{\mathrm{d}t} = 0\)), so no emf is induced.</p><p><strong>Step 3: Final Conclusion</strong><br/>An induced electromotive force can be produced when the coil is in a time-varying magnetic field, moving in a time-varying magnetic field, or moving in a constant magnetic field.<br/>Final Answer: This can be due to the coil being in a time varying magnetic field, the coil moving in a time varying magnetic field, or the coil moving in a constant magnetic field.</p>]]></text>
-  </generalfeedback>
+  <name><text>NEET_UG_PHYSICS_MCQII_ELECTROMAGNETICINDUCTION_MCQ_Q68 - Conditions for induced emf in an isolated coil</text></name>
+  <questiontext format="html"><text><![CDATA[<p>6.8 An e.m.f is produced in a coil, which is not connected to an external voltage source. This can be due to</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>According to Faraday's law of electromagnetic induction, an e.m.f. \(\varepsilon = -\frac{d\Phi}{dt}\) is induced in a coil whenever the magnetic flux \(\Phi = \int \mathbf{B} \cdot d\mathbf{A}\) linked with the coil changes with time.</p><p><strong>Step 2: Evaluation of Each Condition</strong><br/>1. <em>Coil in a time-varying magnetic field:</em> As \(\mathbf{B}\) changes with time, the flux \(\Phi\) through the coil changes, inducing an e.m.f.<br/>2. <em>Coil moving in a time-varying magnetic field:</em> Both the motion of the coil and the time variation of \(\mathbf{B}\) can change the magnetic flux \(\Phi\) through the coil, inducing an e.m.f.<br/>3. <em>Coil moving in a constant magnetic field:</em> If the coil rotates in a uniform constant magnetic field (changing the orientation \(\theta\) between \(\mathbf{B}\) and \(\mathbf{A}\)) or translates into/out of a constant magnetic field region, the flux \(\Phi\) changes and an e.m.f. is induced.<br/>4. <em>Coil stationary in a spatially varying, time-independent magnetic field:</em> If both the coil and the magnetic field at every point are stationary in time, the flux \(\Phi\) through the coil remains constant (\(\frac{d\Phi}{dt} = 0\)), so no e.m.f. is induced.</p><p><strong>Step 3: Final Conclusion</strong><br/>An e.m.f. can be produced in the coil when it is in a time-varying magnetic field, moving in a time-varying magnetic field, or moving in a constant magnetic field.</p>]]></text></generalfeedback>
   <defaultgrade>4.0000000</defaultgrade>
   <penalty>0.2500000</penalty>
   <hidden>0</hidden>
   <single>false</single>
   <shuffleanswers>true</shuffleanswers>
   <answernumbering>abc</answernumbering>
-  <answer fraction="33.33333" format="html">
-    <text><![CDATA[<p>the coil being in a time varying magnetic field.</p>]]></text>
-  </answer>
-  <answer fraction="33.33333" format="html">
-    <text><![CDATA[<p>the coil moving in a time varying magnetic field.</p>]]></text>
-  </answer>
-  <answer fraction="33.33333" format="html">
-    <text><![CDATA[<p>the coil moving in a constant magnetic field.</p>]]></text>
-  </answer>
-  <answer fraction="-50" format="html">
-    <text><![CDATA[<p>the coil is stationary in external spatially varying magnetic field, which does not change with time.</p>]]></text>
-  </answer>
+  <answer fraction="33.33333" format="html"><text><![CDATA[<p>the coil being in a time varying magnetic field.</p>]]></text></answer>
+  <answer fraction="33.33333" format="html"><text><![CDATA[<p>the coil moving in a time varying magnetic field.</p>]]></text></answer>
+  <answer fraction="33.33333" format="html"><text><![CDATA[<p>the coil moving in a constant magnetic field.</p>]]></text></answer>
+  <answer fraction="-50" format="html"><text><![CDATA[<p>the coil is stationary in external spatially varying magnetic field, which does not change with time.</p>]]></text></answer>
   <tags>
     <tag><text>standard:neet_ug</text></tag>
     <tag><text>lang:en</text></tag>
     <tag><text>subject:physics</text></tag>
+    <tag><text>section:mcq_ii</text></tag>
     <tag><text>class:class_12</text></tag>
     <tag><text>chapter:electromagnetic_induction</text></tag>
     <tag><text>typology:mcq</text></tag>
@@ -366,38 +239,24 @@ The total magnetic flux is given by \(\Phi = \int \mathbf{B} \cdot \mathrm{d}\ma
   </tags>
 </question>
 <question type="multichoice">
-  <name><text>NEET_UG_PHYSICS_MCQII_ELECTROMAGNETICINDUCTION_MCQ_Q6_09 - Factors affecting mutual inductance between coils</text></name>
-  <questiontext format="html">
-    <text><![CDATA[<p>The mutual inductance \(M_{12}\) of coil 1 with respect to coil 2</p>]]></text>
-  </questiontext>
-  <generalfeedback format="html">
-    <text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>- Mutual inductance \(M_{12}\) characterizes the magnetic flux linkage in coil 1 produced per unit current in coil 2: \(\Phi_{12} = M_{12} I_2\).<br/>- The value of mutual inductance is determined entirely by the geometry of the two coils (number of turns, areas, shapes), their relative distance and spatial orientation, and the magnetic permeability of the intervening medium.<br/>- According to the reciprocity theorem of electromagnetism:
-\[
-M_{12} = M_{21}
-\]</p><p><strong>Step 2: Evaluation</strong><br/>- Bringing the coils closer together increases the proportion of magnetic flux lines from one coil that pass through the other, thereby increasing the magnetic coupling and the mutual inductance \(M_{12}\).<br/>- Mutual inductance represents the geometric constant of proportionality between flux and current; it is independent of the current flowing through either coil.<br/>- Rotating one coil alters their relative angular orientation. Depending on the direction of rotation, the mutual flux linkage may decrease (for example, rotating towards an orthogonal orientation decreases mutual inductance to zero). It does not universally increase upon rotation.<br/>- By the reciprocity theorem, \(M_{12}\) is strictly equal to \(M_{21}\).</p><p><strong>Step 3: Final Conclusion</strong><br/>The mutual inductance increases when the coils are brought nearer, and \(M_{12}\) is identical to \(M_{21}\).<br/>Final Answer: increases when they are brought nearer, and is the same as \(M_{21}\) of coil 2 with respect to coil 1.</p>]]></text>
-  </generalfeedback>
+  <name><text>NEET_UG_PHYSICS_MCQII_ELECTROMAGNETICINDUCTION_MCQ_Q69 - Properties of mutual inductance between two coils</text></name>
+  <questiontext format="html"><text><![CDATA[<p>6.9 The mutual inductance \(M_{12}\) of coil 1 with respect to coil 2</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>Mutual inductance \(M_{12}\) between two coils is a purely geometric and medium-dependent quantity (determined by the number of turns, cross-sectional areas, separation, relative orientation, and magnetic permeability of the medium). By the reciprocity theorem, \(M_{12} = M_{21}\).</p><p><strong>Step 2: Evaluation of Each Statement</strong><br/>1. <em>Increases when they are brought nearer:</em> Bringing the coils closer increases the magnetic flux linkage between them per unit current, so \(M_{12}\) increases.<br/>2. <em>Depends on the current passing through the coils:</em> Since \(\Phi_{12} = M_{12} I_2\), the mutual inductance \(M_{12}\) is independent of the current in the coils (for a linear medium).<br/>3. <em>Increases when one of them is rotated about an axis:</em> Rotating one coil changes the relative angle between their axes; depending on the initial orientation, \(M_{12}\) may decrease (for instance, from coaxial to perpendicular, where \(M_{12} = 0\)) or remain unchanged, so it does not necessarily increase.<br/>4. <em>Is the same as \(M_{21}\) of coil 2 with respect to coil 1:</em> By the reciprocity theorem of mutual inductance, \(M_{12} = M_{21}\) always holds.</p><p><strong>Step 3: Final Conclusion</strong><br/>The mutual inductance \(M_{12}\) increases when the two coils are brought nearer and is equal to \(M_{21}\) of coil 2 with respect to coil 1.</p>]]></text></generalfeedback>
   <defaultgrade>4.0000000</defaultgrade>
   <penalty>0.2500000</penalty>
   <hidden>0</hidden>
   <single>false</single>
   <shuffleanswers>true</shuffleanswers>
   <answernumbering>abc</answernumbering>
-  <answer fraction="50" format="html">
-    <text><![CDATA[<p>increases when they are brought nearer.</p>]]></text>
-  </answer>
-  <answer fraction="-50" format="html">
-    <text><![CDATA[<p>depends on the current passing through the coils.</p>]]></text>
-  </answer>
-  <answer fraction="-50" format="html">
-    <text><![CDATA[<p>increases when one of them is rotated about an axis.</p>]]></text>
-  </answer>
-  <answer fraction="50" format="html">
-    <text><![CDATA[<p>is the same as \(M_{21}\) of coil 2 with respect to coil 1.</p>]]></text>
-  </answer>
+  <answer fraction="50" format="html"><text><![CDATA[<p>increases when they are brought nearer.</p>]]></text></answer>
+  <answer fraction="-50" format="html"><text><![CDATA[<p>depends on the current passing through the coils.</p>]]></text></answer>
+  <answer fraction="-50" format="html"><text><![CDATA[<p>increases when one of them is rotated about an axis.</p>]]></text></answer>
+  <answer fraction="50" format="html"><text><![CDATA[<p>is the same as \(M_{21}\) of coil 2 with respect to coil 1.</p>]]></text></answer>
   <tags>
     <tag><text>standard:neet_ug</text></tag>
     <tag><text>lang:en</text></tag>
     <tag><text>subject:physics</text></tag>
+    <tag><text>section:mcq_ii</text></tag>
     <tag><text>class:class_12</text></tag>
     <tag><text>chapter:electromagnetic_induction</text></tag>
     <tag><text>typology:mcq</text></tag>
@@ -409,53 +268,30 @@ M_{12} = M_{21}
   </tags>
 </question>
 <question type="multichoice">
-  <name><text>NEET_UG_PHYSICS_MCQII_ELECTROMAGNETICINDUCTION_MCQ_Q6_10 - Zero electromotive force in expanding coil</text></name>
-  <questiontext format="html">
-    <text><![CDATA[<p>A circular coil expands radially in a region of magnetic field and no electromotive force is produced in the coil. This can be because</p>]]></text>
-  </questiontext>
-  <generalfeedback format="html">
-    <text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>According to Faraday's law of electromagnetic induction, the induced electromotive force in a coil is the negative rate of change of magnetic flux linked with it:
-\[
-\varepsilon = -\frac{\mathrm{d}\Phi}{\mathrm{d}t}
-\]
-The magnetic flux through a planar circular coil of area \(A\) is:
-\[
-\Phi = \int \mathbf{B} \cdot \mathrm{d}\mathbf{A} = B_{\perp} A
-\]
-where \(B_{\perp}\) is the component of the magnetic field perpendicular to the plane of the coil.</p><p><strong>Step 2: Evaluation</strong><br/>- If the magnetic field is directed along the plane of the circular coil, the normal component of the field is zero (\(B_{\perp} = 0\)). As a result, the magnetic flux through the loop is zero at all times (\(\Phi = 0\)), regardless of radial expansion or temporal changes in the in-plane field. Since \(\Phi\) remains zero, \(\frac{\mathrm{d}\Phi}{\mathrm{d}t} = 0\) and no emf is produced.<br/>- If there is a perpendicular component \(B_{\perp}\), the flux is \(\Phi(t) = B_{\perp}(t) A(t)\). For zero induced emf, \(\Phi(t)\) must remain constant:
-\[
-\frac{\mathrm{d}\Phi}{\mathrm{d}t} = B_{\perp}\frac{\mathrm{d}A}{\mathrm{d}t} + A\frac{\mathrm{d}B_{\perp}}{\mathrm{d}t} = 0 \implies \frac{\mathrm{d}B_{\perp}}{\mathrm{d}t} = -\frac{B_{\perp}}{A}\frac{\mathrm{d}A}{\mathrm{d}t}
-\]
-Since the coil expands radially (\(\frac{\mathrm{d}A}{\mathrm{d}t} > 0\)), if the perpendicular component of the field decreases at a rate that compensates for the area increase, the net flux remains constant and no emf is generated.<br/>- If the magnetic field is constant and perpendicular to the coil, the flux \(\Phi = B A(t)\) increases steadily as the coil expands, necessarily inducing a non-zero emf.</p><p><strong>Step 3: Final Conclusion</strong><br/>No electromotive force is produced if the magnetic field lies in the plane of the coil (which may or may not vary), or if the perpendicular component of the magnetic field decreases at an appropriate rate to keep the total flux constant.<br/>Final Answer: the magnetic field is in the same plane as the circular coil and it may or may not vary, or the magnetic field has a perpendicular (to the plane of the coil) component whose magnitude is decreasing suitably.</p>]]></text>
-  </generalfeedback>
+  <name><text>NEET_UG_PHYSICS_MCQII_ELECTROMAGNETICINDUCTION_MCQ_Q610 - Expanding circular coil with zero induced emf</text></name>
+  <questiontext format="html"><text><![CDATA[<p>6.10 A circular coil expands radially in a region of magnetic field and no electromotive force is produced in the coil. This can be because</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>As the circular coil expands radially, its area \(A\) increases with time (\(\frac{dA}{dt} &gt; 0\)). The magnetic flux through the coil is \(\Phi = B_\perp A\), where \(B_\perp\) is the component of the magnetic field perpendicular to the plane of the coil. For no e.m.f. to be induced, the rate of change of flux must be zero:<br/>\[\varepsilon = -\frac{d\Phi}{dt} = -\left(B_\perp \frac{dA}{dt} + A \frac{dB_\perp}{dt}\right) = 0\]</p><p><strong>Step 2: Evaluation of Each Condition</strong><br/>1. <em>Magnetic field is constant:</em> If a constant magnetic field has a non-zero perpendicular component \(B_\perp\), then \(\frac{d\Phi}{dt} = B_\perp \frac{dA}{dt} \neq 0\), which induces an e.m.f.<br/>2. <em>Magnetic field is in the same plane as the circular coil and may or may not vary:</em> Here \(B_\perp = 0\) at all times, so \(\Phi = 0\) always and \(\frac{d\Phi}{dt} = 0\) regardless of whether the field varies.<br/>3. <em>Magnetic field has a perpendicular component whose magnitude is decreasing suitably:</em> If \(B_\perp\) decreases such that \(B_\perp A = \text{constant}\) (i.e., \(B_\perp \frac{dA}{dt} + A \frac{dB_\perp}{dt} = 0\)), the net flux remains constant and no e.m.f. is induced.<br/>4. <em>Constant magnetic field in the perpendicular direction:</em> Here \(B_\perp = \text{constant} \neq 0\), so \(\Phi = B_\perp A\) increases as \(A\) increases, inducing a non-zero e.m.f.</p><p><strong>Step 3: Final Conclusion</strong><br/>No e.m.f. is produced in the expanding circular coil either when the magnetic field lies in the same plane as the coil (whether varying or not) or when the perpendicular component of the magnetic field decreases suitably so as to keep the magnetic flux constant.</p>]]></text></generalfeedback>
   <defaultgrade>4.0000000</defaultgrade>
   <penalty>0.2500000</penalty>
   <hidden>0</hidden>
   <single>false</single>
   <shuffleanswers>true</shuffleanswers>
   <answernumbering>abc</answernumbering>
-  <answer fraction="-50" format="html">
-    <text><![CDATA[<p>the magnetic field is constant.</p>]]></text>
-  </answer>
-  <answer fraction="50" format="html">
-    <text><![CDATA[<p>the magnetic field is in the same plane as the circular coil and it may or may not vary.</p>]]></text>
-  </answer>
-  <answer fraction="50" format="html">
-    <text><![CDATA[<p>the magnetic field has a perpendicular (to the plane of the coil) component whose magnitude is decreasing suitably.</p>]]></text>
-  </answer>
-  <answer fraction="-50" format="html">
-    <text><![CDATA[<p>there is a constant magnetic field in the perpendicular (to the plane of the coil) direction.</p>]]></text>
-  </answer>
+  <answer fraction="-50" format="html"><text><![CDATA[<p>the magnetic field is constant.</p>]]></text></answer>
+  <answer fraction="50" format="html"><text><![CDATA[<p>the magnetic field is in the same plane as the circular coil and it may or may not vary.</p>]]></text></answer>
+  <answer fraction="50" format="html"><text><![CDATA[<p>the magnetic field has a perpendicular (to the plane of the coil) component whose magnitude is decreasing suitably.</p>]]></text></answer>
+  <answer fraction="-50" format="html"><text><![CDATA[<p>there is a constant magnetic field in the perpendicular (to the plane of the coil) direction.</p>]]></text></answer>
   <tags>
     <tag><text>standard:neet_ug</text></tag>
     <tag><text>lang:en</text></tag>
     <tag><text>subject:physics</text></tag>
+    <tag><text>section:mcq_ii</text></tag>
     <tag><text>class:class_12</text></tag>
     <tag><text>chapter:electromagnetic_induction</text></tag>
     <tag><text>typology:mcq</text></tag>
-    <tag><text>difficulty:hard</text></tag>
+    <tag><text>difficulty:medium</text></tag>
     <tag><text>blooms:analyze</text></tag>
-    <tag><text>calculation:moderate</text></tag>
+    <tag><text>calculation:light</text></tag>
     <tag><text>media:text</text></tag>
     <tag><text>multiconcept:false</text></tag>
   </tags>

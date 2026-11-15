@@ -1,36 +1,151 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <quiz>
 <question type="multichoice">
-  <name><text>NEET_UG_PHYSICS_GRAVITATION_MCQ_Q8_1 - Acceleration due to gravity inside non uniform sphere</text></name>
-  <questiontext format="html">
-    <text><![CDATA[<p>The earth is an approximate sphere. If the interior contained matter which is not of the same density everywhere, then on the surface of the earth, the acceleration due to gravity</p>]]></text>
-  </questiontext>
-  <generalfeedback format="html">
-    <text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>The acceleration due to gravity at any location on or outside a mass distribution is determined by the gravitational field vector \(\mathbf{g} = -\nabla V\), where \(V\) is the gravitational potential resulting from the integrated contributions of all mass elements comprising the body.</p><p><strong>Step 2: Direction and Magnitude Variations</strong><br/>When the interior of a spherical body possesses non-uniform density, spherical symmetry is broken. As a result, the gravitational field vector is generally not directed towards the geometric centre, and its magnitude varies across different locations on the surface.</p><p><strong>Step 3: Impossibility of Zero Acceleration on the Surface</strong><br/>Consider a tangent plane to the surface of the sphere at any chosen surface point. Because the sphere is a convex geometry, all mass elements of the Earth lie strictly on one side of this tangent plane (within the interior half-space). Every volume element of mass exerts an attractive gravitational pull with a positive component directed along the inward normal to the surface. Integrating these inward normal components over the entire volume yields a non-zero, strictly positive inward acceleration. Consequently, the net gravitational field cannot vanish anywhere on the surface.</p><p><strong>Step 4: Final Conclusion</strong><br/>On the surface of the Earth, the acceleration due to gravity cannot be zero at any point.</p>]]></text>
-  </generalfeedback>
+  <name><text>NCERTEXEMPLAR_PHYSICS_MCQI_GRAVITATION_MCQ_Q01 - Acceleration due to gravity on non-uniform earth</text></name>
+  <questiontext format="html"><text><![CDATA[<p>8.1 The earth is an approximate sphere. If the interior contained matter which is not of the same density everywhere, then on the surface of the earth, the acceleration due to gravity</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>By Newton's law of universal gravitation, every mass element inside the earth attracts a test mass on the surface toward itself. The net gravitational field \(\mathbf{g}\) at any point on the surface is the vector sum of the contributions from all mass elements in the earth's interior.</p>
+<p><strong>Step 2: Evaluation</strong><br/>If the density inside the earth is not uniform everywhere (for example, asymmetric mass distribution), the magnitude of \(\mathbf{g}\) will vary from place to place and its direction need not point strictly toward the geometric centre of the sphere. However, at any point on the outer surface of the earth, all the matter of the earth lies on one side of the tangent plane passing through that point. Consequently, every mass element produces a gravitational force component along the inward normal to the surface.</p>
+<p><strong>Step 3: Final Conclusion</strong><br/>Because all inward normal components add up constructively and are strictly positive, the net acceleration due to gravity on the surface of the earth cannot be zero at any point.</p>]]></text></generalfeedback>
   <defaultgrade>4.0000000</defaultgrade>
   <penalty>0.2500000</penalty>
   <hidden>0</hidden>
   <single>true</single>
   <shuffleanswers>true</shuffleanswers>
   <answernumbering>abc</answernumbering>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>will be directed towards the centre but not the same everywhere.</p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>will have the same value everywhere but not directed towards the centre.</p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>will be same everywhere in magnitude directed towards the centre.</p>]]></text>
-  </answer>
-  <answer fraction="100" format="html">
-    <text><![CDATA[<p>cannot be zero at any point.</p>]]></text>
-  </answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>will be directed towards the centre but not the same everywhere.</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>will have the same value everywhere but not directed towards the centre.</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>will be same everywhere in magnitude directed towards the centre.</p>]]></text></answer>
+  <answer fraction="100" format="html"><text><![CDATA[<p>cannot be zero at any point.</p>]]></text></answer>
   <tags>
     <tag><text>standard:neet_ug</text></tag>
     <tag><text>lang:en</text></tag>
     <tag><text>subject:physics</text></tag>
-    <tag><text>class:11</text></tag>
+    <tag><text>section:mcq_i</text></tag>
+    <tag><text>class:class_11</text></tag>
+    <tag><text>chapter:gravitation</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:medium</text></tag>
+    <tag><text>blooms:analyze</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:text</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+<question type="multichoice">
+  <name><text>NCERTEXEMPLAR_PHYSICS_MCQI_GRAVITATION_MCQ_Q02 - Apparent motion of Mercury observed from Earth</text></name>
+  <questiontext format="html"><text><![CDATA[<p>8.2 As observed from earth, the sun appears to move in an approximate circular orbit. For the motion of another planet like mercury as observed from earth, this would</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>According to Newton's law of gravitation, the gravitational force between two bodies is proportional to the product of their masses and inversely proportional to the square of the distance between them. In the solar system, the sun's mass is overwhelmingly larger than that of any planet.</p>
+<p><strong>Step 2: Evaluation</strong><br/>Because the sun is much more massive than the earth, the dominant gravitational force acting on Mercury is due to the sun, not the earth. Therefore, Mercury revolves around the sun rather than around the earth. As observed from the earth—which is itself revolving around the sun—the relative motion of Mercury appears complex (including apparent retrograde loops) rather than an approximate circular orbit around the earth.</p>
+<p><strong>Step 3: Final Conclusion</strong><br/>The statement is not true for Mercury as observed from earth because the major gravitational force on Mercury is due to the sun.</p>]]></text></generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="0" format="html"><text><![CDATA[<p>be similarly true.</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>not be true because the force between earth and mercury is not inverse square law.</p>]]></text></answer>
+  <answer fraction="100" format="html"><text><![CDATA[<p>not be true because the major gravitational force on mercury is due to sun.</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>not be true because mercury is influenced by forces other than gravitational forces.</p>]]></text></answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>section:mcq_i</text></tag>
+    <tag><text>class:class_11</text></tag>
+    <tag><text>chapter:gravitation</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:easy</text></tag>
+    <tag><text>blooms:understand</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:text</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+<question type="multichoice">
+  <name><text>NCERTEXEMPLAR_PHYSICS_MCQI_GRAVITATION_MCQ_Q03 - Net gravitational torque on uniform spherical earth</text></name>
+  <questiontext format="html"><text><![CDATA[<p>8.3 Different points in earth are at slightly different distances from the sun and hence experience different forces due to gravitation. For a rigid body, we know that if various forces act at various points in it, the resultant motion is as if a net force acts on the c.m. (centre of mass) causing translation and a net torque at the c.m. causing rotation around an axis through the c.m. For the earth-sun system (approximating the earth as a uniform density sphere)</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>For a spherically symmetric body of uniform density, the gravitational interaction with an external point mass (or spherically symmetric sun) is equivalent to having the entire mass of the sphere concentrated at its centre of mass. The torque \(\boldsymbol{\tau}\) about the centre of mass is given by \(\boldsymbol{\tau} = \mathbf{r} \times \mathbf{F}\), where \(\mathbf{r}\) is the position vector of the point of application of the effective force relative to the centre of mass.</p>
+<p><strong>Step 2: Evaluation</strong><br/>Because the earth is approximated as a uniform density sphere, the resultant gravitational force exerted by the sun passes directly through the centre of mass of the earth. Thus, the position vector \(\mathbf{r}\) from the centre of mass to the line of action of the resultant force is zero (or the angle between \(\mathbf{r}\) and \(\mathbf{F}\) is zero for all symmetric pairs of mass elements).</p>
+<p><strong>Step 3: Final Conclusion</strong><br/>Therefore, the net gravitational torque acting on the earth about its centre of mass due to the sun is zero.</p>]]></text></generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="100" format="html"><text><![CDATA[<p>the torque is zero.</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>the torque causes the earth to spin.</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>the rigid body result is not applicable since the earth is not even approximately a rigid body.</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>the torque causes the earth to move around the sun.</p>]]></text></answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>section:mcq_i</text></tag>
+    <tag><text>class:class_11</text></tag>
+    <tag><text>chapter:gravitation</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:medium</text></tag>
+    <tag><text>blooms:understand</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:text</text></tag>
+    <tag><text>multiconcept:true</text></tag>
+  </tags>
+</question>
+<question type="multichoice">
+  <name><text>NCERTEXEMPLAR_PHYSICS_MCQI_GRAVITATION_MCQ_Q04 - Finite life and decay of orbiting satellites</text></name>
+  <questiontext format="html"><text><![CDATA[<p>8.4 Satellites orbiting the earth have finite life and sometimes debris of satellites fall to the earth. This is because,</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>A satellite in a low-earth orbit moves through the tenuous upper layers of the earth's atmosphere. The total mechanical energy of a satellite of mass \(m\) in a circular orbit of radius \(r\) around the earth of mass \(M\) is \(E = -\frac{GMm}{2r}\).</p>
+<p><strong>Step 2: Evaluation</strong><br/>As the satellite moves through the upper atmosphere, it experiences viscous drag (atmospheric friction). This dissipative force does negative work on the satellite, continuously reducing its total mechanical energy \(E\) (making it more negative). Consequently, the orbital radius \(r\)—and hence the height of the satellite above the earth—gradually decreases until the satellite spirals inward and falls toward the earth.</p>
+<p><strong>Step 3: Final Conclusion</strong><br/>Satellites have a finite lifetime and eventually fall to the earth because of viscous forces causing the speed and height of the satellite to gradually decrease.</p>]]></text></generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="0" format="html"><text><![CDATA[<p>the solar cells and batteries in satellites run out.</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>the laws of gravitation predict a trajectory spiralling inwards.</p>]]></text></answer>
+  <answer fraction="100" format="html"><text><![CDATA[<p>of viscous forces causing the speed of satellite and hence height to gradually decrease.</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>of collisions with other satellites.</p>]]></text></answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>section:mcq_i</text></tag>
+    <tag><text>class:class_11</text></tag>
+    <tag><text>chapter:gravitation</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:easy</text></tag>
+    <tag><text>blooms:understand</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:text</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+<question type="multichoice">
+  <name><text>NCERTEXEMPLAR_PHYSICS_MCQI_GRAVITATION_MCQ_Q05 - Orbit of the moon observed from sun</text></name>
+  <questiontext format="html"><text><![CDATA[<p>8.5 Both earth and moon are subject to the gravitational force of the sun. As observed from the sun, the orbit of the moon</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>According to Kepler's first law, a body moves in a strictly elliptical orbit around a fixed centre only when the net force acting on it is a central force directed toward that fixed centre and varying inversely as the square of the distance.</p>
+<p><strong>Step 2: Evaluation</strong><br/>The moon is subject to two major gravitational forces: one toward the sun and another toward the earth. Since the moon is not generally on the line joining the sun and the earth, the resultant gravitational force on the moon does not always point toward the sun. Hence, the total gravitational force on the moon as observed from the sun is not central.</p>
+<p><strong>Step 3: Final Conclusion</strong><br/>Because the total gravitational force acting on the moon is not central with respect to the sun, the orbit of the moon as observed from the sun will not be strictly elliptical.</p>]]></text></generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="0" format="html"><text><![CDATA[<p>will be elliptical.</p>]]></text></answer>
+  <answer fraction="100" format="html"><text><![CDATA[<p>will not be strictly elliptical because the total gravitational force on it is not central.</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>is not elliptical but will necessarily be a closed curve.</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>deviates considerably from being elliptical due to influence of planets other than earth.</p>]]></text></answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>section:mcq_i</text></tag>
+    <tag><text>class:class_11</text></tag>
     <tag><text>chapter:gravitation</text></tag>
     <tag><text>typology:mcq</text></tag>
     <tag><text>difficulty:medium</text></tag>
@@ -41,76 +156,27 @@
   </tags>
 </question>
 <question type="multichoice">
-  <name><text>NEET_UG_PHYSICS_GRAVITATION_MCQ_Q8_2 - Motion of Mercury as observed from Earth</text></name>
-  <questiontext format="html">
-    <text><![CDATA[<p>As observed from earth, the sun appears to move in an approximate circular orbit. For the motion of another planet like mercury as observed from earth, this would</p>]]></text>
-  </questiontext>
-  <generalfeedback format="html">
-    <text><![CDATA[<p><strong>Step 1: Dominant Gravitational Force in the Solar System</strong><br/>The Sun contains more than 99.8% of the total mass of the solar system. Hence, the primary gravitational force dictating the motion of any planet, including Mercury and Earth, is the central gravitational attraction exerted by the Sun.</p><p><strong>Step 2: Apparent Motion of the Sun from Earth</strong><br/>Because Earth moves around the Sun in a nearly circular heliocentric orbit, the Sun appears to describe an approximately circular trajectory across the sky when viewed from the frame of reference of the Earth.</p><p><strong>Step 3: Apparent Motion of Mercury from Earth</strong><br/>Mercury also revolves directly around the Sun in an inner heliocentric orbit under the Sun's dominant gravitational pull, rather than orbiting the Earth. Because Earth and Mercury revolve around the Sun with different orbital radii and different angular velocities, the relative position vector of Mercury with respect to Earth does not trace a simple circular orbit. Instead, it exhibits complex apparent looping and retrograde motions. This difference arises because the primary gravitational force governing Mercury's orbital acceleration is due to the Sun.</p><p><strong>Step 4: Final Conclusion</strong><br/>The apparent motion would not be circular because the major gravitational force on Mercury is due to the Sun.</p>]]></text>
-  </generalfeedback>
+  <name><text>NCERTEXEMPLAR_PHYSICS_MCQI_GRAVITATION_MCQ_Q06 - Motion of asteroids around the sun</text></name>
+  <questiontext format="html"><text><![CDATA[<p>8.6 In our solar system, the inter-planetary region has chunks of matter (much smaller in size compared to planets) called asteroids. They</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>Under Newton's law of gravitation, the acceleration of any body orbiting the sun is \(\mathbf{a} = -\frac{GM_{\text{s}}}{r^2}\hat{\mathbf{r}}\), which is independent of the mass of the orbiting body. Kepler's laws apply to any object moving under an inverse-square central gravitational force.</p>
+<p><strong>Step 2: Evaluation</strong><br/>Even though asteroids have much smaller masses than planets, they experience the same inverse-square central gravitational force from the sun. Their orbital motion is governed by the same equations of motion as planets.</p>
+<p><strong>Step 3: Final Conclusion</strong><br/>Asteroids will move in orbits around the sun just like planets and will obey Kepler's laws.</p>]]></text></generalfeedback>
   <defaultgrade>4.0000000</defaultgrade>
   <penalty>0.2500000</penalty>
   <hidden>0</hidden>
   <single>true</single>
   <shuffleanswers>true</shuffleanswers>
   <answernumbering>abc</answernumbering>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>be similarly true.</p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>not be true because the force between earth and mercury is not inverse square law.</p>]]></text>
-  </answer>
-  <answer fraction="100" format="html">
-    <text><![CDATA[<p>not be true because the major gravitational force on mercury is due to sun.</p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>not be true because mercury is influenced by forces other than gravitational forces.</p>]]></text>
-  </answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>will not move around the sun since they have very small masses compared to sun.</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>will move in an irregular way because of their small masses and will drift away into outer space.</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>will move around the sun in closed orbits but not obey Kepler's laws.</p>]]></text></answer>
+  <answer fraction="100" format="html"><text><![CDATA[<p>will move in orbits like planets and obey Kepler's laws.</p>]]></text></answer>
   <tags>
     <tag><text>standard:neet_ug</text></tag>
     <tag><text>lang:en</text></tag>
     <tag><text>subject:physics</text></tag>
-    <tag><text>class:11</text></tag>
-    <tag><text>chapter:gravitation</text></tag>
-    <tag><text>typology:mcq</text></tag>
-    <tag><text>difficulty:medium</text></tag>
-    <tag><text>blooms:understand</text></tag>
-    <tag><text>calculation:light</text></tag>
-    <tag><text>media:text</text></tag>
-    <tag><text>multiconcept:false</text></tag>
-  </tags>
-</question>
-<question type="multichoice">
-  <name><text>NEET_UG_PHYSICS_GRAVITATION_MCQ_Q8_3 - Net gravitational torque on Earth due to Sun</text></name>
-  <questiontext format="html">
-    <text><![CDATA[<p>Different points in earth are at slightly different distances from the sun and hence experience different forces due to gravitation. For a rigid body, we know that if various forces act at various points in it, the resultant motion is as if a net force acts on the c.m. (centre of mass) causing translation and a net torque at the c.m. causing rotation around an axis through the c.m. For the earth-sun system (approximating the earth as a uniform density sphere)</p>]]></text>
-  </questiontext>
-  <generalfeedback format="html">
-    <text><![CDATA[<p><strong>Step 1: Spherical Symmetry and Center of Mass</strong><br/>By Newton's shell theorem, a spherically symmetric mass distribution attracts and is attracted by external masses as if its entire mass were concentrated at its geometric centre. For a sphere of uniform density, the geometric centre coincides identically with the centre of mass.</p><p><strong>Step 2: Line of Action of Resultant Force</strong><br/>Each infinitesimal mass element of the uniform Earth experiences a gravitational pull directed towards the Sun. Integrating these forces across the spherically symmetric body yields a resultant force whose line of action passes directly through the centre of mass of the Earth.</p><p><strong>Step 3: Calculation of Torque</strong><br/>The net torque about the centre of mass is given by \(\boldsymbol{\tau} = \mathbf{r} \times \mathbf{F}\), where \(\mathbf{r}\) is the position vector from the centre of mass to the point of application of the resultant force. Because the resultant gravitational force passes through the centre of mass, the moment arm is zero (\(\mathbf{r} = \mathbf{0}\)). Therefore, the net gravitational torque acting about the centre of mass is zero.</p><p><strong>Step 4: Final Conclusion</strong><br/>For the Earth-Sun system, treating the Earth as a sphere of uniform density, the net torque is zero.</p>]]></text>
-  </generalfeedback>
-  <defaultgrade>4.0000000</defaultgrade>
-  <penalty>0.2500000</penalty>
-  <hidden>0</hidden>
-  <single>true</single>
-  <shuffleanswers>true</shuffleanswers>
-  <answernumbering>abc</answernumbering>
-  <answer fraction="100" format="html">
-    <text><![CDATA[<p>the torque is zero.</p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>the torque causes the earth to spin.</p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>the rigid body result is not applicable since the earth is not even approximately a rigid body.</p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>the torque causes the earth to move around the sun.</p>]]></text>
-  </answer>
-  <tags>
-    <tag><text>standard:neet_ug</text></tag>
-    <tag><text>lang:en</text></tag>
-    <tag><text>subject:physics</text></tag>
-    <tag><text>class:11</text></tag>
+    <tag><text>section:mcq_i</text></tag>
+    <tag><text>class:class_11</text></tag>
     <tag><text>chapter:gravitation</text></tag>
     <tag><text>typology:mcq</text></tag>
     <tag><text>difficulty:easy</text></tag>
@@ -121,36 +187,27 @@
   </tags>
 </question>
 <question type="multichoice">
-  <name><text>NEET_UG_PHYSICS_GRAVITATION_MCQ_Q8_4 - Orbital decay and falling of satellite debris</text></name>
-  <questiontext format="html">
-    <text><![CDATA[<p>Satellites orbiting the earth have finite life and sometimes debris of satellites fall to the earth. This is because,</p>]]></text>
-  </questiontext>
-  <generalfeedback format="html">
-    <text><![CDATA[<p><strong>Step 1: Tenuous Atmosphere at Orbital Altitudes</strong><br/>Earth satellites orbit within the upper reaches of the atmosphere (thermosphere and exosphere). Although the air density is extremely low, it is not zero, and the high speed of the satellite produces a non-negligible atmospheric viscous drag force opposing its motion.</p><p><strong>Step 2: Dissipation of Total Mechanical Energy</strong><br/>The total mechanical energy of a satellite of mass \(m\) in a circular orbit of radius \(r\) is negative: \(E = -\frac{G M m}{2r}\). As the satellite does work against the opposing viscous force, its total mechanical energy decreases (becomes more negative). Consequently, the orbital radius \(r\) must decrease, pulling the satellite into lower orbital altitudes.</p><p><strong>Step 3: Atmospheric Re-entry</strong><br/>As the altitude decreases, the atmospheric density increases exponentially, causing the viscous drag to increase rapidly. This produces a progressive inward spiral, culminating in atmospheric re-entry where surviving debris falls to Earth.</p><p><strong>Step 4: Final Conclusion</strong><br/>The finite life of satellites and the fall of debris are caused by viscous forces that continuously dissipate energy, resulting in a gradual decrease in orbital height.</p>]]></text>
-  </generalfeedback>
+  <name><text>NCERTEXEMPLAR_PHYSICS_MCQI_GRAVITATION_MCQ_Q07 - Properties of inertial and gravitational mass</text></name>
+  <questiontext format="html"><text><![CDATA[<p>8.7 Choose the wrong option.</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>Inertial mass \(m_i\) measures a body's resistance to acceleration under an external force (\(F = m_i a\)), while gravitational mass \(m_g\) determines the gravitational force experienced by the body in a gravitational field (\(F_g = m_g g\)).</p>
+<p><strong>Step 2: Evaluation</strong><br/>Experimental observations (such as the Eötvös experiment) confirm that gravitational mass and inertial mass are equal for all bodies, which is why the acceleration due to gravity \(g = \frac{m_g}{m_i} \frac{GM}{R^2}\) is the same for all objects on earth. Both inertial mass and gravitational mass are intrinsic properties of a particle and do not depend on the presence of neighbouring heavy objects.</p>
+<p><strong>Step 3: Final Conclusion</strong><br/>The statement that the gravitational mass of a particle like a proton can depend on the presence of neighbouring heavy objects while the inertial mass cannot is false, making it the wrong option.</p>]]></text></generalfeedback>
   <defaultgrade>4.0000000</defaultgrade>
   <penalty>0.2500000</penalty>
   <hidden>0</hidden>
   <single>true</single>
   <shuffleanswers>true</shuffleanswers>
   <answernumbering>abc</answernumbering>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>the solar cells and batteries in satellites run out.</p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>the laws of gravitation predict a trajectory spiralling inwards.</p>]]></text>
-  </answer>
-  <answer fraction="100" format="html">
-    <text><![CDATA[<p>of viscous forces causing the speed of satellite and hence height to gradually decrease.</p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>of collisions with other satellites.</p>]]></text>
-  </answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>Inertial mass is a measure of difficulty of accelerating a body by an external force whereas the gravitational mass is relevant in determining the gravitational force on it by an external mass.</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>That the gravitational mass and inertial mass are equal is an experimental result.</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>That the acceleration due to gravity on earth is the same for all bodies is due to the equality of gravitational mass and inertial mass.</p>]]></text></answer>
+  <answer fraction="100" format="html"><text><![CDATA[<p>Gravitational mass of a particle like proton can depend on the presence of neighbouring heavy objects but the inertial mass cannot.</p>]]></text></answer>
   <tags>
     <tag><text>standard:neet_ug</text></tag>
     <tag><text>lang:en</text></tag>
     <tag><text>subject:physics</text></tag>
-    <tag><text>class:11</text></tag>
+    <tag><text>section:mcq_i</text></tag>
+    <tag><text>class:class_11</text></tag>
     <tag><text>chapter:gravitation</text></tag>
     <tag><text>typology:mcq</text></tag>
     <tag><text>difficulty:easy</text></tag>
@@ -161,156 +218,29 @@
   </tags>
 </question>
 <question type="multichoice">
-  <name><text>NEET_UG_PHYSICS_GRAVITATION_MCQ_Q8_5 - Nature of Moon orbit observed from Sun</text></name>
-  <questiontext format="html">
-    <text><![CDATA[<p>Both earth and moon are subject to the gravitational force of the sun. As observed from the sun, the orbit of the moon</p>]]></text>
-  </questiontext>
-  <generalfeedback format="html">
-    <text><![CDATA[<p><strong>Step 1: Criterion for an Elliptical Orbit</strong><br/>According to Kepler's first law and Newtonian mechanics, an orbiting body traces a strictly elliptical path only when it is acted upon by an inverse-square central force that is continuously directed towards a single fixed focal point.</p><p><strong>Step 2: Gravitational Forces Acting on the Moon</strong><br/>The Moon experiences simultaneous gravitational attractions from both the Sun and the Earth. The total force vector acting on the Moon is:\[\mathbf{F}_{\text{net}} = \mathbf{F}_{\text{Sun}} + \mathbf{F}_{\text{Earth}}\]</p><p><strong>Step 3: Non-Central Nature of the Net Force</strong><br/>The vector \(\mathbf{F}_{\text{Sun}}\) is directed towards the Sun, whereas \(\mathbf{F}_{\text{Earth}}\) is directed towards the Earth. Because the Earth revolves around the Sun and does not coincide with it, the resultant force \(\mathbf{F}_{\text{net}}\) does not point directly towards the Sun at all times. Hence, the net gravitational force on the Moon is not a purely central force with respect to the Sun.</p><p><strong>Step 4: Final Conclusion</strong><br/>The orbit of the Moon as observed from the Sun will not be strictly elliptical because the total gravitational force acting on it is not central.</p>]]></text>
-  </generalfeedback>
+  <name><text>NCERTEXEMPLAR_PHYSICS_MCQI_GRAVITATION_MCQ_Q08 - Motion of particle between two unequal masses</text></name>
+  <questiontext format="html"><text><![CDATA[<p>8.8 Particles of masses \(2M\), \(m\) and \(M\) are respectively at points \(A\), \(B\) and \(C\) with \(AB = \frac{1}{2}(BC)\). \(m\) is much-much smaller than \(M\) and at time \(t = 0\), they are all at rest (Fig. 8.1).</p><p>At subsequent times before any collision takes place:</p><p><img src="@@PLUGINFILE@@/img-0.jpeg" alt="Three particles of masses 2M, m, and M at points A, B, and C along a straight line" /></p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>Three particles of masses \(m_A = 2M\), \(m_B = m\), and \(m_C = M\) are collinear at points \(A\), \(B\), and \(C\), with \(B\) lying between \(A\) and \(C\). The distances satisfy \(AB = \frac{1}{2}(BC)\). Also, \(m \ll M\), and all particles are initially at rest at \(t = 0\).</p>
+<p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>Let \(AB = x\), so \(BC = 2x\). Take the direction from \(B\) toward \(A\) (toward \(2M\)) as positive along the line \(AC\). Since \(m \ll M\), the motion of the heavy masses \(2M\) and \(M\) toward each other is initially negligible compared to the acceleration of \(m\), or we compare the gravitational forces acting directly on \(m\).</p>
+<p><strong>Step 3: Relevant Formulae and Principles</strong><br/>By Newton's law of universal gravitation, the magnitude of the gravitational force between two masses \(m_1\) and \(m_2\) separated by distance \(r\) is:<br/>\[F = \frac{Gm_1 m_2}{r^2}\]</p>
+<p><strong>Step 4: Step-by-Step Working</strong><br/>The gravitational force on mass \(m\) at \(B\) due to mass \(2M\) at \(A\) is directed toward \(A\) and has magnitude:<br/>\[F_{BA} = \frac{G(2M)m}{x^2} = \frac{2GMm}{x^2}\]<br/>The gravitational force on mass \(m\) at \(B\) due to mass \(M\) at \(C\) is directed toward \(C\) and has magnitude:<br/>\[F_{BC} = \frac{GMm}{(2x)^2} = \frac{GMm}{4x^2}\]<br/>Comparing the two magnitudes:<br/>\[F_{BA} - F_{BC} = \frac{2GMm}{x^2} - \frac{GMm}{4x^2} = \frac{7GMm}{4x^2} > 0\]<br/>Since \(F_{BA} > F_{BC}\), the net force on \(m\) is directed toward \(2M\).</p>
+<p><strong>Step 5: Check and Final Answer</strong><br/>Because \(m\) starts from rest and experiences a net force toward \(2M\), and as it moves closer to \(2M\) the force \(F_{BA}\) increases while \(F_{BC}\) decreases, \(m\) will continue to move towards \(2M\).</p>]]></text></generalfeedback>
   <defaultgrade>4.0000000</defaultgrade>
   <penalty>0.2500000</penalty>
   <hidden>0</hidden>
   <single>true</single>
   <shuffleanswers>true</shuffleanswers>
   <answernumbering>abc</answernumbering>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>will be elliptical.</p>]]></text>
-  </answer>
-  <answer fraction="100" format="html">
-    <text><![CDATA[<p>will not be strictly elliptical because the total gravitational force on it is not central.</p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>is not elliptical but will necessarily be a closed curve.</p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>deviates considerably from being elliptical due to influence of planets other than earth.</p>]]></text>
-  </answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>\(m\) will remain at rest.</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>\(m\) will move towards \(M\).</p>]]></text></answer>
+  <answer fraction="100" format="html"><text><![CDATA[<p>\(m\) will move towards \(2M\).</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>\(m\) will have oscillatory motion.</p>]]></text></answer>
   <tags>
     <tag><text>standard:neet_ug</text></tag>
     <tag><text>lang:en</text></tag>
     <tag><text>subject:physics</text></tag>
-    <tag><text>class:11</text></tag>
-    <tag><text>chapter:gravitation</text></tag>
-    <tag><text>typology:mcq</text></tag>
-    <tag><text>difficulty:medium</text></tag>
-    <tag><text>blooms:understand</text></tag>
-    <tag><text>calculation:light</text></tag>
-    <tag><text>media:text</text></tag>
-    <tag><text>multiconcept:false</text></tag>
-  </tags>
-</question>
-<question type="multichoice">
-  <name><text>NEET_UG_PHYSICS_GRAVITATION_MCQ_Q8_6 - Orbital motion and Kepler laws for asteroids</text></name>
-  <questiontext format="html">
-    <text><![CDATA[<p>In our solar system, the inter-planetary region has chunks of matter (much smaller in size compared to planets) called asteroids. They</p>]]></text>
-  </questiontext>
-  <generalfeedback format="html">
-    <text><![CDATA[<p><strong>Step 1: Independence of Gravitational Acceleration from Body Mass</strong><br/>By Newton's universal law of gravitation, the force on a body of mass \(m\) located at distance \(r\) from the Sun of mass \(M_{\text{sun}}\) is \(F = \frac{G M_{\text{sun}} m}{r^2}\). The acceleration experienced by the body is \(a = \frac{F}{m} = \frac{G M_{\text{sun}}}{r^2}\), which is completely independent of the mass of the body.</p><p><strong>Step 2: Universal Applicability of Kepler's Laws</strong><br/>Because the orbital trajectory under a central inverse-square gravitational force depends exclusively on position and velocity—not on the mass of the orbiting body—any celestial object whose motion is dominated by the Sun's gravity follows an elliptical orbit governed by Kepler's laws.</p><p><strong>Step 3: Motion of Asteroids</strong><br/>Asteroids revolve around the Sun primarily in the asteroid belt between Mars and Jupiter. Even though their masses are small compared to planets, they experience the central gravitational field of the Sun and therefore describe closed elliptical orbits conforming to Kepler's three laws.</p><p><strong>Step 4: Final Conclusion</strong><br/>Asteroids move in orbits like planets and obey Kepler's laws.</p>]]></text>
-  </generalfeedback>
-  <defaultgrade>4.0000000</defaultgrade>
-  <penalty>0.2500000</penalty>
-  <hidden>0</hidden>
-  <single>true</single>
-  <shuffleanswers>true</shuffleanswers>
-  <answernumbering>abc</answernumbering>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>will not move around the sun since they have very small masses compared to sun.</p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>will move in an irregular way because of their small masses and will drift away into outer space.</p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>will move around the sun in closed orbits but not obey Kepler's laws.</p>]]></text>
-  </answer>
-  <answer fraction="100" format="html">
-    <text><![CDATA[<p>will move in orbits like planets and obey Kepler's laws.</p>]]></text>
-  </answer>
-  <tags>
-    <tag><text>standard:neet_ug</text></tag>
-    <tag><text>lang:en</text></tag>
-    <tag><text>subject:physics</text></tag>
-    <tag><text>class:11</text></tag>
-    <tag><text>chapter:gravitation</text></tag>
-    <tag><text>typology:mcq</text></tag>
-    <tag><text>difficulty:easy</text></tag>
-    <tag><text>blooms:remember</text></tag>
-    <tag><text>calculation:light</text></tag>
-    <tag><text>media:text</text></tag>
-    <tag><text>multiconcept:false</text></tag>
-  </tags>
-</question>
-<question type="multichoice">
-  <name><text>NEET_UG_PHYSICS_GRAVITATION_MCQ_Q8_7 - Equivalence of inertial and gravitational mass</text></name>
-  <questiontext format="html">
-    <text><![CDATA[<p>Choose the wrong option.</p>]]></text>
-  </questiontext>
-  <generalfeedback format="html">
-    <text><![CDATA[<p><strong>Step 1: Definition of Inertial and Gravitational Mass</strong><br/>Inertial mass is a measure of the resistance of an object to acceleration under the influence of an applied external force (\(F = m_i a\)). Gravitational mass determines the magnitude of the gravitational attraction between the object and another mass (\(F = \frac{G M m_g}{r^2}\)).</p><p><strong>Step 2: Experimental Equivalence</strong><br/>The equality of gravitational mass and inertial mass (\(m_i = m_g\)) is a well-established experimental fact verified to high precision by experiments such as those performed by Eötvös. Because \(m_i = m_g\), the acceleration due to gravity \(a = \left(\frac{m_g}{m_i}\right)\frac{G M}{R^2} = \frac{G M}{R^2}\) is identical for all objects at a given location on Earth.</p><p><strong>Step 3: Independence from External Surroundings</strong><br/>Gravitational mass is an intrinsic property of a particle and does not depend on the presence of neighbouring masses, medium properties, or surroundings, exactly like inertial mass. Therefore, claiming that the gravitational mass of a particle depends on the presence of neighbouring heavy objects is incorrect.</p><p><strong>Step 4: Final Conclusion</strong><br/>The statement asserting that the gravitational mass of a particle like a proton can depend on the presence of neighbouring heavy objects while the inertial mass cannot is false, making it the required incorrect statement.</p>]]></text>
-  </generalfeedback>
-  <defaultgrade>4.0000000</defaultgrade>
-  <penalty>0.2500000</penalty>
-  <hidden>0</hidden>
-  <single>true</single>
-  <shuffleanswers>true</shuffleanswers>
-  <answernumbering>abc</answernumbering>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>Inertial mass is a measure of difficulty of accelerating a body by an external force whereas the gravitational mass is relevant in determining the gravitational force on it by an external mass.</p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>That the gravitational mass and inertial mass are equal is an experimental result.</p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>That the acceleration due to gravity on earth is the same for all bodies is due to the equality of gravitational mass and inertial mass.</p>]]></text>
-  </answer>
-  <answer fraction="100" format="html">
-    <text><![CDATA[<p>Gravitational mass of a particle like proton can depend on the presence of neighbouring heavy objects but the inertial mass cannot.</p>]]></text>
-  </answer>
-  <tags>
-    <tag><text>standard:neet_ug</text></tag>
-    <tag><text>lang:en</text></tag>
-    <tag><text>subject:physics</text></tag>
-    <tag><text>class:11</text></tag>
-    <tag><text>chapter:gravitation</text></tag>
-    <tag><text>typology:mcq</text></tag>
-    <tag><text>difficulty:easy</text></tag>
-    <tag><text>blooms:remember</text></tag>
-    <tag><text>calculation:light</text></tag>
-    <tag><text>media:text</text></tag>
-    <tag><text>multiconcept:false</text></tag>
-  </tags>
-</question>
-<question type="multichoice">
-  <name><text>NEET_UG_PHYSICS_GRAVITATION_MCQ_Q8_8 - Motion of small mass between two unequal masses</text></name>
-  <questiontext format="html">
-    <text><![CDATA[<p>Particles of masses \(2M\), \(m\) and \(M\) are respectively at points \(A\), \(B\) and \(C\) with \(AB = \frac{1}{2} (BC)\). \(m\) is much-much smaller than \(M\) and at time \(t = 0\), they are all at rest (Fig. 8.1).</p><p><img src="@@PLUGINFILE@@/img-0.jpeg" alt="Fig. 8.1" /></p><p>At subsequent times before any collision takes place:</p>]]></text>
-  </questiontext>
-  <generalfeedback format="html">
-    <text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>Particles are arranged along a straight line at points \(A\), \(B\), and \(C\) with masses \(m_A = 2M\), \(m_B = m\), and \(m_C = M\).<br/>The distance relation is \(AB = \frac{1}{2}(BC)\). Let \(AB = r\); then \(BC = 2r\).<br/>All particles are initially at rest at \(t = 0\), with \(m \ll M\).</p><p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>Let the straight line define the x-axis, with point \(A\) situated to the left of \(B\) and point \(C\) to the right of \(B\). Attractive forces towards the left (towards \(A\)) are considered in the direction of mass \(2M\), while forces towards the right are towards mass \(M\).</p><p><strong>Step 3: Relevant Formulae and Principles</strong><br/>Newton's universal law of gravitation states that the attractive force between two point masses \(m_1\) and \(m_2\) separated by distance \(d\) is:\[F = \frac{G m_1 m_2}{d^2}\]</p><p><strong>Step 4: Step-by-Step Working</strong><br/>The gravitational force exerted on \(m\) by mass \(2M\) at \(A\) is directed to the left (towards \(A\)):\[F_A = \frac{G(2M)m}{(AB)^2} = \frac{2GMm}{r^2}\]The gravitational force exerted on \(m\) by mass \(M\) at \(C\) is directed to the right (towards \(C\)):\[F_C = \frac{G M m}{(BC)^2} = \frac{GMm}{(2r)^2} = \frac{GMm}{4r^2}\]Comparing the magnitudes:\[F_A = \frac{8}{4}\frac{GMm}{r^2}, \quad F_C = \frac{1}{4}\frac{GMm}{r^2}\]The net gravitational force acting on mass \(m\) is directed towards \(A\):\[F_{\text{net}} = F_A - F_C = \frac{7}{4}\frac{GMm}{r^2} > 0 \quad (\text{towards } 2M)\]Because the net force acts towards mass \(2M\), the particle of mass \(m\) accelerates and moves towards \(2M\).</p><p><strong>Step 5: Check and Final Answer</strong><br/>As \(m\) moves towards \(A\), distance \(r\) decreases, causing the attraction towards \(2M\) to grow even stronger than that towards \(M\). Thus, \(m\) will move towards \(2M\).</p>]]></text>
-  </generalfeedback>
-  <defaultgrade>4.0000000</defaultgrade>
-  <penalty>0.2500000</penalty>
-  <hidden>0</hidden>
-  <single>true</single>
-  <shuffleanswers>true</shuffleanswers>
-  <answernumbering>abc</answernumbering>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>\(m\) will remain at rest.</p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>\(m\) will move towards \(M\).</p>]]></text>
-  </answer>
-  <answer fraction="100" format="html">
-    <text><![CDATA[<p>\(m\) will move towards \(2M\).</p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>\(m\) will have oscillatory motion.</p>]]></text>
-  </answer>
-  <tags>
-    <tag><text>standard:neet_ug</text></tag>
-    <tag><text>lang:en</text></tag>
-    <tag><text>subject:physics</text></tag>
-    <tag><text>class:11</text></tag>
+    <tag><text>section:mcq_i</text></tag>
+    <tag><text>class:class_11</text></tag>
     <tag><text>chapter:gravitation</text></tag>
     <tag><text>typology:mcq</text></tag>
     <tag><text>difficulty:easy</text></tag>
@@ -321,36 +251,27 @@
   </tags>
 </question>
 <question type="multichoice">
-  <name><text>NEET_UG_PHYSICS_GRAVITATION_MCQ_Q8_9 - Variation of acceleration due to gravity</text></name>
-  <questiontext format="html">
-    <text><![CDATA[<p>Which of the following options are correct?</p>]]></text>
-  </questiontext>
-  <generalfeedback format="html">
-    <text><![CDATA[<p><strong>Step 1: Variation with Altitude</strong><br/>At height \(h\) above the surface of the Earth, the acceleration due to gravity is given by \(g(h) = \frac{GM}{(R+h)^2}\). Because the denominator increases with height, the acceleration due to gravity decreases with increasing altitude.</p><p><strong>Step 2: Variation with Depth</strong><br/>Inside a uniform solid spherical Earth of radius \(R\) and mass \(M\), the acceleration due to gravity at depth \(d\) from the surface is \(g(d) = g\left(1 - \frac{d}{R}\right)\). As depth \(d\) increases, the term \(\left(1 - \frac{d}{R}\right)\) decreases, reaching zero at the centre. Therefore, acceleration due to gravity decreases, rather than increases, with depth.</p><p><strong>Step 3: Variation with Latitude</strong><br/>Due to the Earth's rotation with angular speed \(\omega\), the apparent acceleration due to gravity at latitude \(\lambda\) is given by \(g_\lambda = g - \omega^2 R \cos^2\lambda\). As latitude increases from the equator (\(\lambda = 0^\circ\)) towards the poles (\(\lambda = 90^\circ\)), \(\cos\lambda\) decreases towards zero, causing the centrifugal deduction to diminish. Consequently, the acceleration due to gravity increases with increasing latitude.</p><p><strong>Step 4: Dependence on Earth's Mass</strong><br/>The value of surface gravity is \(g = \frac{GM}{R^2}\), which is directly proportional to the mass of the Earth \(M\). Hence, it is not independent of the mass of the Earth.</p><p><strong>Step 5: Final Conclusion</strong><br/>The correct statements are that acceleration due to gravity decreases with increasing altitude and that acceleration due to gravity increases with increasing latitude.</p>]]></text>
-  </generalfeedback>
+  <name><text>NCERTEXEMPLAR_PHYSICS_MCQII_GRAVITATION_MCQ_Q09 - Variation of acceleration due to gravity</text></name>
+  <questiontext format="html"><text><![CDATA[<p>8.9 Which of the following options are correct?</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>The acceleration due to gravity on the surface of a uniform spherical earth of mass \(M\) and radius \(R\) is \(g = \frac{GM}{R^2}\). Its value varies with altitude \(h\), depth \(d\), and latitude \(\lambda\).</p>
+<p><strong>Step 2: Evaluation</strong><br/>1. With increasing altitude \(h\), the acceleration due to gravity is \(g_h = \frac{GM}{(R+h)^2} = \frac{g}{(1+h/R)^2}\), which clearly decreases as \(h\) increases.<br/>2. With increasing depth \(d\) inside a uniform-density earth, \(g_d = g\left(1 - \frac{d}{R}\right)\), which decreases (not increases) as \(d\) increases.<br/>3. Due to the rotation of the earth with angular speed \(\omega\), the effective acceleration due to gravity at latitude \(\lambda\) is \(g_\lambda = g - \omega^2 R \cos^2\lambda\). As latitude \(\lambda\) increases from \(0^\circ\) (equator) to \(90^\circ\) (poles), \(\cos\lambda\) decreases from \(1\) to \(0\), so \(g_\lambda\) increases.<br/>4. Since \(g = \frac{GM}{R^2}\), \(g\) is directly proportional to the mass \(M\) of the earth and is not independent of it.</p>
+<p><strong>Step 3: Final Conclusion</strong><br/>Therefore, acceleration due to gravity decreases with increasing altitude and increases with increasing latitude.</p>]]></text></generalfeedback>
   <defaultgrade>4.0000000</defaultgrade>
   <penalty>0.2500000</penalty>
   <hidden>0</hidden>
   <single>false</single>
   <shuffleanswers>true</shuffleanswers>
   <answernumbering>abc</answernumbering>
-  <answer fraction="50" format="html">
-    <text><![CDATA[<p>Acceleration due to gravity decreases with increasing altitude.</p>]]></text>
-  </answer>
-  <answer fraction="-50" format="html">
-    <text><![CDATA[<p>Acceleration due to gravity increases with increasing depth (assume the earth to be a sphere of uniform density).</p>]]></text>
-  </answer>
-  <answer fraction="50" format="html">
-    <text><![CDATA[<p>Acceleration due to gravity increases with increasing latitude.</p>]]></text>
-  </answer>
-  <answer fraction="-50" format="html">
-    <text><![CDATA[<p>Acceleration due to gravity is independent of the mass of the earth.</p>]]></text>
-  </answer>
+  <answer fraction="50" format="html"><text><![CDATA[<p>Acceleration due to gravity decreases with increasing altitude.</p>]]></text></answer>
+  <answer fraction="-50" format="html"><text><![CDATA[<p>Acceleration due to gravity increases with increasing depth (assume the earth to be a sphere of uniform density).</p>]]></text></answer>
+  <answer fraction="50" format="html"><text><![CDATA[<p>Acceleration due to gravity increases with increasing latitude.</p>]]></text></answer>
+  <answer fraction="-50" format="html"><text><![CDATA[<p>Acceleration due to gravity is independent of the mass of the earth.</p>]]></text></answer>
   <tags>
     <tag><text>standard:neet_ug</text></tag>
     <tag><text>lang:en</text></tag>
     <tag><text>subject:physics</text></tag>
-    <tag><text>class:11</text></tag>
+    <tag><text>section:mcq_ii</text></tag>
+    <tag><text>class:class_11</text></tag>
     <tag><text>chapter:gravitation</text></tag>
     <tag><text>typology:mcq</text></tag>
     <tag><text>difficulty:easy</text></tag>
@@ -361,76 +282,93 @@
   </tags>
 </question>
 <question type="multichoice">
-  <name><text>NEET_UG_PHYSICS_GRAVITATION_MCQ_Q8_10 - Consequences of hypothetical inverse cube gravitation law</text></name>
-  <questiontext format="html">
-    <text><![CDATA[<p>If the law of gravitation, instead of being inverse-square law, becomes an inverse-cube law-</p>]]></text>
-  </questiontext>
-  <generalfeedback format="html">
-    <text><![CDATA[<p><strong>Step 1: Orbital Geometry and Bertrand's Theorem</strong><br/>According to Bertrand's theorem, stable closed bound orbits with non-precessing ellipses exist exclusively for central potentials proportional to \(r^2\) (Hooke's law) and \(r^{-1}\) (inverse-square force law). Under an inverse-cube law \(F \propto r^{-3}\), closed elliptical orbits are impossible.</p><p><strong>Step 2: Instability of Circular Orbits</strong><br/>For an attractive force \(F(r) = \frac{C}{r^3}\), the effective potential for radial motion with angular momentum \(L\) is:\[V_{\text{eff}}(r) = -\frac{C}{2r^2} + \frac{L^2}{2m r^2} = \frac{L^2 - mC}{2m r^2}\]Because both the centrifugal barrier and the attractive potential scale identically as \(r^{-2}\), the effective potential lacks a local minimum. Consequently, circular orbits are strictly unstable, meaning any infinitesimal radial perturbation causes the body either to spiral inward to the origin or escape to infinity.</p><p><strong>Step 3: Trajectory of a Stone Near Earth's Surface</strong><br/>For a small-scale projectile thrown near the Earth's surface, the vertical displacement \(h\) is negligible compared to the radius of the Earth (\(h \ll R\)). Over this localized region, the gravitational field is essentially constant and uniform in direction, resulting in an acceleration that is approximately constant. Therefore, the trajectory of a stone remains approximately parabolic.</p><p><strong>Step 4: Gravitational Force Inside a Uniform Shell</strong><br/>Newton's shell theorem yielding zero field inside a uniform spherical shell is a mathematical consequence of the inverse-square law (Gauss's law in three dimensions). For an inverse-cube force, the gravitational forces from opposing surface elements do not cancel, so the gravitational force inside a uniform spherical shell is non-zero.</p><p><strong>Step 5: Final Conclusion</strong><br/>Under an inverse-cube law, planets will not have elliptic orbits, circular orbits are not possible, and projectile motion of a stone thrown near the Earth's surface will be approximately parabolic.</p>]]></text>
-  </generalfeedback>
+  <name><text>NCERTEXEMPLAR_PHYSICS_MCQII_GRAVITATION_MCQ_Q10 - Consequences of an inverse-cube gravitational law</text></name>
+  <questiontext format="html"><text><![CDATA[<p>8.10 If the law of gravitation, instead of being inverse-square law, becomes an inverse-cube law-</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>Suppose the gravitational force between two masses \(M\) and \(m\) separated by distance \(r\) follows an inverse-cube law instead of an inverse-square law, i.e., \(F = \frac{GMm}{r^3}\) (with \(G\) having suitably modified dimensions).</p>
+<p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>We consider a planet of mass \(m\) orbiting a sun of mass \(M\) (\(M \gg m\)), a stone thrown near the surface of the earth (radius \(R\), height \(h \ll R\)), and a point mass inside a uniform spherical shell.</p>
+<p><strong>Step 3: Relevant Formulae and Principles</strong><br/>For a circular orbit of radius \(r\), the centripetal force is provided by the gravitational force: \(\frac{mv^2}{r} = F(r)\). Closed elliptical orbits for general bound initial conditions require an inverse-square central force (or Hooke's law force). Near the earth's surface, \(r = R + h \approx R\), so \(g'\) is nearly constant.</p>
+<p><strong>Step 4: Step-by-Step Working</strong><br/>1. Since the force is \(F \propto \frac{1}{r^3}\) rather than \(\frac{1}{r^2}\), bound non-circular orbits are spirals (Cotes' spirals) and planets will not have elliptic orbits.<br/>2. For a circular orbit, \(\frac{GMm}{r^3} = \frac{mv^2}{r} \implies v = \frac{\sqrt{GM}}{r}\). Thus, a circular orbit is still mathematically possible at this speed.<br/>3. Near the surface of the earth, \(g' = \frac{GM_E}{(R+h)^3} \approx \frac{GM_E}{R^3}\) is approximately constant for \(h \ll R\). Under a nearly constant downward acceleration, the trajectory of a stone thrown by hand is approximately parabolic.<br/>4. Newton's shell theorem (zero force inside a uniform spherical shell) holds strictly only for an inverse-square force law; for an inverse-cube law, the gravitational force inside a spherical shell of uniform density is generally non-zero.</p>
+<p><strong>Step 5: Check and Final Answer</strong><br/>Hence, under an inverse-cube law of gravitation, planets will not have elliptic orbits, and the projectile motion of a stone thrown by hand on the surface of the earth will be approximately parabolic.</p>]]></text></generalfeedback>
   <defaultgrade>4.0000000</defaultgrade>
   <penalty>0.2500000</penalty>
   <hidden>0</hidden>
   <single>false</single>
   <shuffleanswers>true</shuffleanswers>
   <answernumbering>abc</answernumbering>
-  <answer fraction="33.33333" format="html">
-    <text><![CDATA[<p>planets will not have elliptic orbits.</p>]]></text>
-  </answer>
-  <answer fraction="33.33333" format="html">
-    <text><![CDATA[<p>circular orbits of planets is not possible.</p>]]></text>
-  </answer>
-  <answer fraction="33.33333" format="html">
-    <text><![CDATA[<p>projectile motion of a stone thrown by hand on the surface of the earth will be approximately parabolic.</p>]]></text>
-  </answer>
-  <answer fraction="-50" format="html">
-    <text><![CDATA[<p>there will be no gravitational force inside a spherical shell of uniform density.</p>]]></text>
-  </answer>
+  <answer fraction="50" format="html"><text><![CDATA[<p>planets will not have elliptic orbits.</p>]]></text></answer>
+  <answer fraction="-50" format="html"><text><![CDATA[<p>circular orbits of planets is not possible.</p>]]></text></answer>
+  <answer fraction="50" format="html"><text><![CDATA[<p>projectile motion of a stone thrown by hand on the surface of the earth will be approximately parabolic.</p>]]></text></answer>
+  <answer fraction="-50" format="html"><text><![CDATA[<p>there will be no gravitational force inside a spherical shell of uniform density.</p>]]></text></answer>
   <tags>
     <tag><text>standard:neet_ug</text></tag>
     <tag><text>lang:en</text></tag>
     <tag><text>subject:physics</text></tag>
-    <tag><text>class:11</text></tag>
+    <tag><text>section:mcq_ii</text></tag>
+    <tag><text>class:class_11</text></tag>
     <tag><text>chapter:gravitation</text></tag>
     <tag><text>typology:mcq</text></tag>
     <tag><text>difficulty:hard</text></tag>
     <tag><text>blooms:analyze</text></tag>
-    <tag><text>calculation:light</text></tag>
+    <tag><text>calculation:moderate</text></tag>
     <tag><text>media:text</text></tag>
     <tag><text>multiconcept:true</text></tag>
   </tags>
 </question>
 <question type="multichoice">
-  <name><text>NEET_UG_PHYSICS_GRAVITATION_MCQ_Q8_11 - Effects of ten times smaller Sun mass and larger G</text></name>
-  <questiontext format="html">
-    <text><![CDATA[<p>If the mass of sun were ten times smaller and gravitational constant \(G\) were ten times larger in magnitudes-</p>]]></text>
-  </questiontext>
-  <generalfeedback format="html">
-    <text><![CDATA[<p><strong>Step 1: Surface Gravity on Earth</strong><br/>Acceleration due to gravity on the surface of the Earth is \(g = \frac{G M_E}{R_E^2}\). If the gravitational constant \(G\) becomes ten times larger while the mass and radius of the Earth remain unchanged, the surface gravity becomes \(g' = 10 g\). Thus, the acceleration due to gravity on Earth increases tenfold.</p><p><strong>Step 2: Effect on Walking</strong><br/>The weight of an individual of mass \(m\) is \(W = mg\). Under a tenfold increase in \(g\), the downward force exerted by the body increases tenfold, requiring significantly greater muscular effort to lift the limbs and support body weight, making walking on the ground far more difficult.</p><p><strong>Step 3: Effect on Raindrops</strong><br/>The terminal velocity of a spherical raindrop falling through air is given by Stokes' law balance: \(v_t = \frac{2 r^2 (\rho - \sigma) g}{9 \eta}\), where \(\rho\) is the density of water, \(\sigma\) is the density of air, \(\eta\) is air viscosity, and \(r\) is droplet radius. Because terminal velocity is directly proportional to \(g\), raindrops will fall significantly faster.</p><p><strong>Step 4: Effect on Airplane Travel</strong><br/>To maintain steady level flight, the aerodynamic lift \(L = \frac{1}{2} C_L \rho_{\text{air}} v^2 A\) must balance the airplane's weight \(W = mg\). With a tenfold increase in weight, the required lift increases tenfold, demanding an increase in flight speed by a factor of \(\sqrt{10} \approx 3.16\). Consequently, airplanes will have to travel much faster.</p><p><strong>Step 5: Final Conclusion</strong><br/>With a tenfold increase in \(G\), walking on the ground would become more difficult, raindrops will fall much faster, and airplanes will have to travel much faster.</p>]]></text>
-  </generalfeedback>
+  <name><text>NCERTEXEMPLAR_PHYSICS_MCQII_GRAVITATION_MCQ_Q11 - Effects of changing G and sun's mass</text></name>
+  <questiontext format="html"><text><![CDATA[<p>8.11 If the mass of sun were ten times smaller and gravitational constant \(G\) were ten times larger in magnitudes-</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>The new mass of the sun is \(M_s' = \frac{M_s}{10}\) and the new universal gravitational constant is \(G' = 10G\). The mass of the earth \(M_E\) and its radius \(R_E\) remain unchanged.</p>
+<p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>We evaluate the effects on the acceleration due to gravity \(g'\) at the earth's surface, the weight of objects, the terminal velocity of raindrops, and the lift required for airplanes.</p>
+<p><strong>Step 3: Relevant Formulae and Principles</strong><br/>Acceleration due to gravity on earth: \(g = \frac{GM_E}{R_E^2}\).<br/>Terminal velocity of a spherical raindrop of radius \(r\) and density \(\rho\) in air of viscosity \(\eta\): \(v_T = \frac{2r^2(\rho - \sigma)g}{9\eta} \propto g\).</p>
+<p><strong>Step 4: Step-by-Step Working</strong><br/>The new acceleration due to gravity on the earth's surface becomes:<br/>\[g' = \frac{G' M_E}{R_E^2} = \frac{10G M_E}{R_E^2} = 10g\]<br/>1. Since \(g' = 10g\), the acceleration due to gravity on earth changes by a factor of \(10\).<br/>2. A person's weight becomes \(W' = mg' = 10mg\), making walking on the ground much more difficult.<br/>3. Since terminal velocity \(v_T \propto g'\), raindrops will fall ten times faster (much faster).<br/>4. To generate enough aerodynamic lift to balance the tenfold increase in weight \(mg'\), airplanes will have to travel much faster.</p>
+<p><strong>Step 5: Check and Final Answer</strong><br/>Thus, walking on ground would become more difficult, raindrops will fall much faster, and airplanes will have to travel much faster.</p>]]></text></generalfeedback>
   <defaultgrade>4.0000000</defaultgrade>
   <penalty>0.2500000</penalty>
   <hidden>0</hidden>
   <single>false</single>
   <shuffleanswers>true</shuffleanswers>
   <answernumbering>abc</answernumbering>
-  <answer fraction="33.33333" format="html">
-    <text><![CDATA[<p>walking on ground would become more difficult.</p>]]></text>
-  </answer>
-  <answer fraction="-50" format="html">
-    <text><![CDATA[<p>the acceleration due to gravity on earth will not change.</p>]]></text>
-  </answer>
-  <answer fraction="33.33333" format="html">
-    <text><![CDATA[<p>raindrops will fall much faster.</p>]]></text>
-  </answer>
-  <answer fraction="33.33333" format="html">
-    <text><![CDATA[<p>airplanes will have to travel much faster.</p>]]></text>
-  </answer>
+  <answer fraction="33.33333" format="html"><text><![CDATA[<p>walking on ground would become more difficult.</p>]]></text></answer>
+  <answer fraction="-50" format="html"><text><![CDATA[<p>the acceleration due to gravity on earth will not change.</p>]]></text></answer>
+  <answer fraction="33.33333" format="html"><text><![CDATA[<p>raindrops will fall much faster.</p>]]></text></answer>
+  <answer fraction="33.33333" format="html"><text><![CDATA[<p>airplanes will have to travel much faster.</p>]]></text></answer>
   <tags>
     <tag><text>standard:neet_ug</text></tag>
     <tag><text>lang:en</text></tag>
     <tag><text>subject:physics</text></tag>
-    <tag><text>class:11</text></tag>
+    <tag><text>section:mcq_ii</text></tag>
+    <tag><text>class:class_11</text></tag>
+    <tag><text>chapter:gravitation</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:medium</text></tag>
+    <tag><text>blooms:apply</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:text</text></tag>
+    <tag><text>multiconcept:true</text></tag>
+  </tags>
+</question>
+<question type="multichoice">
+  <name><text>NCERTEXEMPLAR_PHYSICS_MCQII_GRAVITATION_MCQ_Q12 - Kepler's laws with opposite charges on sun and planets</text></name>
+  <questiontext format="html"><text><![CDATA[<p>8.12 If the sun and the planets carried huge amounts of opposite charges,</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>Kepler's three laws of planetary motion are a direct consequence of the gravitational force being an attractive, central force that obeys the inverse-square law (\(F \propto \frac{1}{r^2}\)).</p>
+<p><strong>Step 2: Evaluation</strong><br/>If the sun and the planets carried huge amounts of opposite charges, an attractive electrostatic force \(F_e = \frac{1}{4\pi\varepsilon_0}\frac{|q_1 q_2|}{r^2}\) would act along the line joining their centres in addition to the attractive gravitational force \(F_g = \frac{GMm}{r^2}\). Both forces are radial (central) and follow the inverse-square law. Their sum \(F_{\text{net}} = F_g + F_e\) is also a central, attractive, inverse-square force. Therefore, the orbit remains an ellipse with the sun at one focus (first law), areal velocity remains constant (second law), and \(T^2 \propto a^3\) remains valid for a given planet (third law).</p>
+<p><strong>Step 3: Final Conclusion</strong><br/>Consequently, all three of Kepler's laws would still be valid, the second law will not change, and the first law will still be valid.</p>]]></text></generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>false</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="33.33333" format="html"><text><![CDATA[<p>all three of Kepler's laws would still be valid.</p>]]></text></answer>
+  <answer fraction="-50" format="html"><text><![CDATA[<p>only the third law will be valid.</p>]]></text></answer>
+  <answer fraction="33.33333" format="html"><text><![CDATA[<p>the second law will not change.</p>]]></text></answer>
+  <answer fraction="33.33333" format="html"><text><![CDATA[<p>the first law will still be valid.</p>]]></text></answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>section:mcq_ii</text></tag>
+    <tag><text>class:class_11</text></tag>
     <tag><text>chapter:gravitation</text></tag>
     <tag><text>typology:mcq</text></tag>
     <tag><text>difficulty:medium</text></tag>
@@ -441,76 +379,27 @@
   </tags>
 </question>
 <question type="multichoice">
-  <name><text>NEET_UG_PHYSICS_GRAVITATION_MCQ_Q8_12 - Planetary motion under opposite electrostatic charges</text></name>
-  <questiontext format="html">
-    <text><![CDATA[<p>If the sun and the planets carried huge amounts of opposite charges,</p>]]></text>
-  </questiontext>
-  <generalfeedback format="html">
-    <text><![CDATA[<p><strong>Step 1: Superposition of Forces</strong><br/>The gravitational force between the Sun of mass \(M\) and a planet of mass \(m\) separated by distance \(r\) is \(F_g = \frac{GMm}{r^2}\). If the Sun carries positive charge \(+Q\) and the planet carries negative charge \(-q\), Coulomb's electrostatic force is attractive and also obeys the inverse-square law: \(F_e = \frac{kQq}{r^2}\).</p><p><strong>Step 2: Central Inverse-Square Nature of Resultant Force</strong><br/>The total attractive force is:\[F_{\text{net}} = F_g + F_e = \frac{GMm + kQq}{r^2} = \frac{C}{r^2}\]where \(C = GMm + kQq\) is a constant for the given planet-Sun pair. Since this net force remains an attractive central force proportional to \(r^{-2}\), the governing equation of motion is identical in form to standard Newtonian gravitation.</p><p><strong>Step 3: Verification of Kepler's Laws</strong><br/>1. Kepler's first law holds because any attractive inverse-square central force produces bound orbits that are ellipses with the Sun at one focus.<br/>2. Kepler's second law holds because the force is strictly central, producing zero torque about the Sun, which ensures the conservation of angular momentum and a constant areal velocity.<br/>3. Kepler's third law also remains valid in mathematical form, with \(T^2 \propto a^3\) for each planet under an inverse-square force law.</p><p><strong>Step 4: Final Conclusion</strong><br/>All three of Kepler's laws would still be valid, which directly encompasses the statements that the first law remains valid and the second law does not change.</p>]]></text>
-  </generalfeedback>
+  <name><text>NCERTEXEMPLAR_PHYSICS_MCQII_GRAVITATION_MCQ_Q13 - Effect of decreasing gravitational constant over billions of years</text></name>
+  <questiontext format="html"><text><![CDATA[<p>8.13 There have been suggestions that the value of the gravitational constant \(G\) becomes smaller when considered over very large time period (in billions of years) in the future. If that happens, for our earth,</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>For the earth orbiting the sun, the gravitational attraction \(F = \frac{GM_s M_E}{r^2}\) provides the necessary centripetal force. Angular momentum \(L = M_E v r\) is conserved because the force remains central.</p>
+<p><strong>Step 2: Evaluation</strong><br/>If \(G\) gradually decreases over billions of years, the inward gravitational pull weakens. With angular momentum \(L\) conserved, the orbital radius \(r\) slowly increases over time (\(r \propto \frac{1}{G}\) for adiabatic variation). Because the radius continuously increases, the earth's path is an outward spiral rather than a strictly closed orbit. As the distance from the sun increases, the earth receives less solar radiation and becomes colder, not hotter. After a sufficiently long time as \(G\) becomes vanishingly small, the earth will no longer remain bound and will leave the solar system.</p>
+<p><strong>Step 3: Final Conclusion</strong><br/>Therefore, we will be going around but not strictly in closed orbits, and after a sufficiently long time we will leave the solar system.</p>]]></text></generalfeedback>
   <defaultgrade>4.0000000</defaultgrade>
   <penalty>0.2500000</penalty>
   <hidden>0</hidden>
   <single>false</single>
   <shuffleanswers>true</shuffleanswers>
   <answernumbering>abc</answernumbering>
-  <answer fraction="33.33333" format="html">
-    <text><![CDATA[<p>all three of Kepler's laws would still be valid.</p>]]></text>
-  </answer>
-  <answer fraction="-50" format="html">
-    <text><![CDATA[<p>only the third law will be valid.</p>]]></text>
-  </answer>
-  <answer fraction="33.33333" format="html">
-    <text><![CDATA[<p>the second law will not change.</p>]]></text>
-  </answer>
-  <answer fraction="33.33333" format="html">
-    <text><![CDATA[<p>the first law will still be valid.</p>]]></text>
-  </answer>
+  <answer fraction="-50" format="html"><text><![CDATA[<p>nothing will change.</p>]]></text></answer>
+  <answer fraction="-50" format="html"><text><![CDATA[<p>we will become hotter after billions of years.</p>]]></text></answer>
+  <answer fraction="50" format="html"><text><![CDATA[<p>we will be going around but not strictly in closed orbits.</p>]]></text></answer>
+  <answer fraction="50" format="html"><text><![CDATA[<p>after sufficiently long time we will leave the solar system.</p>]]></text></answer>
   <tags>
     <tag><text>standard:neet_ug</text></tag>
     <tag><text>lang:en</text></tag>
     <tag><text>subject:physics</text></tag>
-    <tag><text>class:11</text></tag>
-    <tag><text>chapter:gravitation</text></tag>
-    <tag><text>typology:mcq</text></tag>
-    <tag><text>difficulty:medium</text></tag>
-    <tag><text>blooms:understand</text></tag>
-    <tag><text>calculation:light</text></tag>
-    <tag><text>media:text</text></tag>
-    <tag><text>multiconcept:true</text></tag>
-  </tags>
-</question>
-<question type="multichoice">
-  <name><text>NEET_UG_PHYSICS_GRAVITATION_MCQ_Q8_13 - Long term planetary effects of decreasing gravitational constant</text></name>
-  <questiontext format="html">
-    <text><![CDATA[<p>There have been suggestions that the value of the gravitational constant \(G\) becomes smaller when considered over very large time period (in billions of years) in the future. If that happens, for our earth,</p>]]></text>
-  </questiontext>
-  <generalfeedback format="html">
-    <text><![CDATA[<p><strong>Step 1: Orbital Energy and Equilibrium</strong><br/>For an orbiting body of mass \(m\) around the Sun of mass \(M\) at orbital radius \(r\), the balance between gravitational attraction and centripetal requirement is \(\frac{G M m}{r^2} = \frac{m v^2}{r}\), with total mechanical energy \(E = -\frac{G M m}{2r}\).</p><p><strong>Step 2: Effect of Gradually Diminishing Gravitational Strength</strong><br/>If \(G\) slowly decreases over billions of years, the gravitational attractive force binding the Earth to the Sun continuously weakens. Consequently, the orbital radius must steadily expand. Because the radius increases monotonically with time, the trajectory is an outward spiral rather than a closed, repeating ellipse.</p><p><strong>Step 3: Eventual Escape from the Solar System</strong><br/>As the orbital radius expands, the Earth receives less solar irradiance, meaning the planet would become colder rather than hotter. Over a sufficiently long timeframe, as \(G\) continues to diminish, the binding energy tends to zero, allowing the Earth to unbind from the Sun's gravitational field and leave the solar system.</p><p><strong>Step 4: Final Conclusion</strong><br/>If the gravitational constant decreases over very large periods, the Earth will go around the Sun in non-closed orbits and will eventually leave the solar system after a sufficiently long time.</p>]]></text>
-  </generalfeedback>
-  <defaultgrade>4.0000000</defaultgrade>
-  <penalty>0.2500000</penalty>
-  <hidden>0</hidden>
-  <single>false</single>
-  <shuffleanswers>true</shuffleanswers>
-  <answernumbering>abc</answernumbering>
-  <answer fraction="-50" format="html">
-    <text><![CDATA[<p>nothing will change.</p>]]></text>
-  </answer>
-  <answer fraction="-50" format="html">
-    <text><![CDATA[<p>we will become hotter after billions of years.</p>]]></text>
-  </answer>
-  <answer fraction="50" format="html">
-    <text><![CDATA[<p>we will be going around but not strictly in closed orbits.</p>]]></text>
-  </answer>
-  <answer fraction="50" format="html">
-    <text><![CDATA[<p>after sufficiently long time we will leave the solar system.</p>]]></text>
-  </answer>
-  <tags>
-    <tag><text>standard:neet_ug</text></tag>
-    <tag><text>lang:en</text></tag>
-    <tag><text>subject:physics</text></tag>
-    <tag><text>class:11</text></tag>
+    <tag><text>section:mcq_ii</text></tag>
+    <tag><text>class:class_11</text></tag>
     <tag><text>chapter:gravitation</text></tag>
     <tag><text>typology:mcq</text></tag>
     <tag><text>difficulty:medium</text></tag>
@@ -521,76 +410,60 @@
   </tags>
 </question>
 <question type="multichoice">
-  <name><text>NEET_UG_PHYSICS_GRAVITATION_MCQ_Q8_14 - Consequences of modified non linear mass gravitation law</text></name>
-  <questiontext format="html">
-    <text><![CDATA[<p>Supposing Newton's law of gravitation for gravitation forces \(\mathbf{F}_1\) and \(\mathbf{F}_2\) between two masses \(m_1\) and \(m_2\) at positions \(\mathbf{r}_1\) and \(\mathbf{r}_2\) read</p>\[\mathbf{F}_1 = -\mathbf{F}_2 = -\frac{\mathbf{r}_{12}}{r_{12}^3} G M_0^2 \left( \frac{m_1 m_2}{M_0^2} \right)^n\]<p>where \(M_0\) is a constant of dimension of mass, \(\mathbf{r}_{12} = \mathbf{r}_1 - \mathbf{r}_2\) and \(n\) is a number. In such a case,</p>]]></text>
-  </questiontext>
-  <generalfeedback format="html">
-    <text><![CDATA[<p><strong>Step 1: Acceleration due to Gravity</strong><br/>Let \(m_1 = M_E\) be the mass of the Earth and \(m_2 = m\) be the mass of an object near the surface. The magnitude of the gravitational force on the object is:\[F \propto (M_E m)^n \propto m^n\]The acceleration of the object is \(a = \frac{F}{m} \propto m^{n-1}\). For \(n \neq 1\), this acceleration depends on the mass \(m\) of the object, so acceleration due to gravity on Earth is different for different objects.</p><p><strong>Step 2: Validity of Kepler's Laws</strong><br/>The force remains directed along \(\mathbf{r}_{12}\) and varies inversely with the square of the separation (\(r_{12}^{-2}\)). Because it is a central force, angular momentum is conserved and areal velocity remains constant, so Kepler's second law remains valid. An inverse-square central force also yields elliptical orbits, so Kepler's first law remains valid. However, Kepler's third law (\(T^2 \propto a^3\)) depends crucially on the linear dependence of force on mass (\(n = 1\)); when acceleration depends on planetary mass, the orbital period depends on the planet's mass, invalidating Kepler's third law.</p><p><strong>Step 3: Buoyancy Phenomenon for Negative Exponent</strong><br/>The buoyant force acting on a submerged body is determined by the pressure gradient in the surrounding liquid: \(\frac{dP}{dz} = \rho_{\text{fluid}} g_{\text{fluid}}\). When \(n < 0\), the gravitational force per unit mass scales inversely with mass/density, reversing the typical buoyancy relationship. Consequently, a body lighter (less dense) than water experiences an downward net force and sinks.</p><p><strong>Step 4: Final Conclusion</strong><br/>The acceleration due to gravity on Earth will be different for different objects, only Kepler's third law will become invalid, and for negative values of \(n\), an object lighter than water will sink in water.</p>]]></text>
-  </generalfeedback>
+  <name><text>NCERTEXEMPLAR_PHYSICS_MCQII_GRAVITATION_MCQ_Q14 - Modified gravitational force law with power n</text></name>
+  <questiontext format="html"><text><![CDATA[<p>8.14 Supposing Newton's law of gravitation for gravitation forces \(\mathbf{F}_1\) and \(\mathbf{F}_2\) between two masses \(m_1\) and \(m_2\) at positions \(\mathbf{r}_1\) and \(\mathbf{r}_2\) read</p><p>\(\mathbf{F}_1 = -\mathbf{F}_2 = -\frac{\mathbf{r}_{12}}{r_{12}^3} G M_0^2 \left( \frac{m_1 m_2}{M_0^2} \right)^n\) where \(M_0\) is a constant of dimension of mass, \(\mathbf{r}_{12} = \mathbf{r}_1 - \mathbf{r}_2\) and \(n\) is a number. In such a case,</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>The modified gravitational force between two masses \(m_1\) and \(m_2\) is:<br/>\[\mathbf{F}_1 = -\mathbf{F}_2 = -\frac{\mathbf{r}_{12}}{r_{12}^3} G M_0^2 \left(\frac{m_1 m_2}{M_0^2}\right)^n\]<br/>where \(\mathbf{r}_{12} = \mathbf{r}_1 - \mathbf{r}_2\), \(M_0\) is a constant with dimensions of mass, and \(n\) is a real number.</p>
+<p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>For an object of mass \(m\) near the surface of the earth (mass \(M_E\), radius \(R_E\)), the acceleration due to gravity is \(g = \frac{|\mathbf{F}|}{m}\). For a planet of mass \(m\) orbiting the sun of mass \(M_s\), the orbit is governed by the central force \(\mathbf{F}\).</p>
+<p><strong>Step 3: Relevant Formulae and Principles</strong><br/>1. Acceleration due to gravity: \(g = \frac{F}{m}\).<br/>2. Kepler's laws: First and second laws require a central inverse-square force; the third law requires \(\frac{T^2}{a^3}\) to be the same constant for all planets.<br/>3. Archimedes' principle: An object floats or sinks depending on whether its weight \(W = mg\) is less than or greater than the weight of the displaced water \(W_w = m_w g_w\).</p>
+<p><strong>Step 4: Step-by-Step Working</strong><br/>1. For an object of mass \(m\) on the earth's surface:<br/>\[g(m) = \frac{1}{m} \frac{G M_0^2}{R_E^2} \left(\frac{M_E m}{M_0^2}\right)^n = \frac{G M_0^{2-2n} M_E^n}{R_E^2} m^{n-1}\]<br/>Unless \(n = 1\), \(g\) depends on \(m\), so the acceleration due to gravity on earth will be different for different objects.<br/>2. Since the force is still central and inversely proportional to \(r_{12}^2\), Kepler's first law (elliptical orbits) and second law (conservation of angular momentum / equal areas in equal times) remain valid. However, the orbital period satisfies \(T^2 = \frac{4\pi^2 r^3}{g_{\text{sun}}(m) r^2} \propto m^{1-n} r^3\), so the ratio \(\frac{T^2}{r^3}\) depends on the planet's mass \(m\). Thus, only Kepler's third law becomes invalid as a universal relation across different planets.<br/>3. Consider an object lighter than water of the same volume, so \(m_o < m_w\). Its weight is \(W_o = m_o g(m_o) \propto m_o^n\), while the buoyant force (weight of displaced water) is \(W_w = m_w g(m_w) \propto m_w^n\). If \(n < 0\), then \(m_o < m_w \implies m_o^n > m_w^n\), so \(W_o > W_w\). Hence, the object lighter than water will sink in water.</p>
+<p><strong>Step 5: Check and Final Answer</strong><br/>Therefore, the acceleration due to gravity on earth will be different for different objects, only the third law of Kepler will become invalid, and for \(n\) negative, an object lighter than water will sink in water.</p>]]></text></generalfeedback>
   <defaultgrade>4.0000000</defaultgrade>
   <penalty>0.2500000</penalty>
   <hidden>0</hidden>
   <single>false</single>
   <shuffleanswers>true</shuffleanswers>
   <answernumbering>abc</answernumbering>
-  <answer fraction="33.33333" format="html">
-    <text><![CDATA[<p>the acceleration due to gravity on earth will be different for different objects.</p>]]></text>
-  </answer>
-  <answer fraction="-50" format="html">
-    <text><![CDATA[<p>none of the three laws of Kepler will be valid.</p>]]></text>
-  </answer>
-  <answer fraction="33.33333" format="html">
-    <text><![CDATA[<p>only the third law will become invalid.</p>]]></text>
-  </answer>
-  <answer fraction="33.33333" format="html">
-    <text><![CDATA[<p>for \(n\) negative, an object lighter than water will sink in water.</p>]]></text>
-  </answer>
+  <answer fraction="33.33333" format="html"><text><![CDATA[<p>the acceleration due to gravity on earth will be different for different objects.</p>]]></text></answer>
+  <answer fraction="-50" format="html"><text><![CDATA[<p>none of the three laws of Kepler will be valid.</p>]]></text></answer>
+  <answer fraction="33.33333" format="html"><text><![CDATA[<p>only the third law will become invalid.</p>]]></text></answer>
+  <answer fraction="33.33333" format="html"><text><![CDATA[<p>for \(n\) negative, an object lighter than water will sink in water.</p>]]></text></answer>
   <tags>
     <tag><text>standard:neet_ug</text></tag>
     <tag><text>lang:en</text></tag>
     <tag><text>subject:physics</text></tag>
-    <tag><text>class:11</text></tag>
+    <tag><text>section:mcq_ii</text></tag>
+    <tag><text>class:class_11</text></tag>
     <tag><text>chapter:gravitation</text></tag>
     <tag><text>typology:mcq</text></tag>
     <tag><text>difficulty:hard</text></tag>
     <tag><text>blooms:analyze</text></tag>
-    <tag><text>calculation:light</text></tag>
+    <tag><text>calculation:moderate</text></tag>
     <tag><text>media:equation</text></tag>
     <tag><text>multiconcept:true</text></tag>
   </tags>
 </question>
 <question type="multichoice">
-  <name><text>NEET_UG_PHYSICS_GRAVITATION_MCQ_Q8_15 - Direction of motion of polar and geostationary satellites</text></name>
-  <questiontext format="html">
-    <text><![CDATA[<p>Which of the following are true?</p>]]></text>
-  </questiontext>
-  <generalfeedback format="html">
-    <text><![CDATA[<p><strong>Step 1: Dynamics of Geostationary Satellites</strong><br/>A geostationary satellite remains stationary relative to a point on the Earth's surface. Because the Earth rotates on its polar axis from west to east, the satellite's orbital plane must lie in the equatorial plane, and it must revolve in the same sense as the Earth's rotation—that is, from west to east—with an orbital period of 24 hours.</p><p><strong>Step 2: Dynamics of Polar Satellites</strong><br/>A polar satellite travels in an orbit with an inclination of nearly \(90^\circ\) relative to the equatorial plane, passing over the North and South geographic poles. Its orbital trajectory therefore proceeds in a north-south direction, allowing it to scan successive strips of the Earth's surface as the planet rotates from west to east beneath it.</p><p><strong>Step 3: Final Conclusion</strong><br/>A polar satellite revolves around the Earth's poles in a north-south direction, and a geostationary satellite orbits around the Earth in a west-east direction.</p>]]></text>
-  </generalfeedback>
+  <name><text>NCERTEXEMPLAR_PHYSICS_MCQII_GRAVITATION_MCQ_Q15 - Orbital directions of polar and geostationary satellites</text></name>
+  <questiontext format="html"><text><![CDATA[<p>8.15 Which of the following are true?</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>Polar satellites and geostationary satellites have distinct orbital planes and directions of revolution around the earth.</p>
+<p><strong>Step 2: Evaluation</strong><br/>1. A polar satellite orbits in a plane passing over the earth's north and south poles, moving in the north-south direction.<br/>2. A geostationary satellite orbits in the equatorial plane with the same angular velocity and sense of rotation as the earth about its axis. Since the earth rotates from west to east, a geostationary satellite also revolves around the earth in the west-east direction.</p>
+<p><strong>Step 3: Final Conclusion</strong><br/>Thus, a polar satellite goes around the earth's pole in the north-south direction, and a geostationary satellite goes around the earth in the west-east direction.</p>]]></text></generalfeedback>
   <defaultgrade>4.0000000</defaultgrade>
   <penalty>0.2500000</penalty>
   <hidden>0</hidden>
   <single>false</single>
   <shuffleanswers>true</shuffleanswers>
   <answernumbering>abc</answernumbering>
-  <answer fraction="50" format="html">
-    <text><![CDATA[<p>A polar satellite goes around the earth's pole in north-south direction.</p>]]></text>
-  </answer>
-  <answer fraction="-50" format="html">
-    <text><![CDATA[<p>A geostationary satellite goes around the earth in east-west direction.</p>]]></text>
-  </answer>
-  <answer fraction="50" format="html">
-    <text><![CDATA[<p>A geostationary satellite goes around the earth in west-east direction.</p>]]></text>
-  </answer>
-  <answer fraction="-50" format="html">
-    <text><![CDATA[<p>A polar satellite goes around the earth in east-west direction.</p>]]></text>
-  </answer>
+  <answer fraction="50" format="html"><text><![CDATA[<p>A polar satellite goes around the earth's pole in north-south direction.</p>]]></text></answer>
+  <answer fraction="-50" format="html"><text><![CDATA[<p>A geostationary satellite goes around the earth in east-west direction.</p>]]></text></answer>
+  <answer fraction="50" format="html"><text><![CDATA[<p>A geostationary satellite goes around the earth in west-east direction.</p>]]></text></answer>
+  <answer fraction="-50" format="html"><text><![CDATA[<p>A polar satellite goes around the earth in east-west direction.</p>]]></text></answer>
   <tags>
     <tag><text>standard:neet_ug</text></tag>
     <tag><text>lang:en</text></tag>
     <tag><text>subject:physics</text></tag>
-    <tag><text>class:11</text></tag>
+    <tag><text>section:mcq_ii</text></tag>
+    <tag><text>class:class_11</text></tag>
     <tag><text>chapter:gravitation</text></tag>
     <tag><text>typology:mcq</text></tag>
     <tag><text>difficulty:easy</text></tag>
@@ -601,42 +474,31 @@
   </tags>
 </question>
 <question type="multichoice">
-  <name><text>NEET_UG_PHYSICS_GRAVITATION_MCQ_Q8_16 - Proximity of centre of mass and centre of gravity</text></name>
-  <questiontext format="html">
-    <text><![CDATA[<p>The centre of mass of an extended body on the surface of the earth and its centre of gravity</p>]]></text>
-  </questiontext>
-  <generalfeedback format="html">
-    <text><![CDATA[<p><strong>Step 1: Definitions</strong><br/>The centre of mass is the point determined purely by the spatial distribution of mass: \(\mathbf{R}_{\text{cm}} = \frac{1}{M}\int \mathbf{r}\,dm\). The centre of gravity is the point about which the net torque caused by gravitational forces is zero: \(\mathbf{R}_{\text{cg}} = \frac{\int \mathbf{r} g(\mathbf{r})\,dm}{\int g(\mathbf{r})\,dm}\).</p><p><strong>Step 2: Condition for Coincidence</strong><br/>If the gravitational field \(\mathbf{g}\) is completely uniform in magnitude and direction across the entire volume of the body, \(g\) cancels out from the numerator and denominator, causing the centre of mass and the centre of gravity to coincide at the identical physical point.</p><p><strong>Step 3: Evaluation for Real Objects on Earth's Surface</strong><br/>For everyday macroscopic objects of sizes less than 100 metres, the fractional variation in the Earth's gravitational field across the body is \(\frac{\Delta g}{g} \sim \frac{100\text{ m}}{6.4 \times 10^6\text{ m}} \approx 1.5 \times 10^{-5}\), which is negligible. Therefore, the centre of mass and the centre of gravity lie exceedingly close to each other for objects of sizes less than 100 m. Only for extremely large bodies (such as mountains or oceans) does the non-uniformity of the field produce an appreciable separation.</p><p><strong>Step 4: Final Conclusion</strong><br/>The centre of mass and centre of gravity are close to each other for objects of sizes less than 100 m.</p>]]></text>
-  </generalfeedback>
+  <name><text>NCERTEXEMPLAR_PHYSICS_MCQII_GRAVITATION_MCQ_Q16 - Centre of mass and centre of gravity</text></name>
+  <questiontext format="html"><text><![CDATA[<p>8.16 The centre of mass of an extended body on the surface of the earth and its centre of gravity</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>The centre of mass (COM) of a body depends only on its mass distribution (\(\mathbf{r}_{\text{cm}} = \frac{\int \mathbf{r}\,dm}{\int dm}\)) and is independent of the external gravitational field. The centre of gravity (COG) is the point where the resultant gravitational force acts (producing zero net gravitational torque), given by \(\mathbf{r}_{\text{cg}} = \frac{\int \mathbf{r}\,g(\mathbf{r})\,dm}{\int g(\mathbf{r})\,dm}\).</p>
+<p><strong>Step 2: Evaluation</strong><br/>1. In a uniform gravitational field (\(g = \text{constant}\)), the COG coincides with the COM. However, the earth's gravitational field varies with height and direction for very large bodies (such as mountains), so the COM and COG are not always at the same point for any size, even for large spherical bodies (where the lower half experiences slightly stronger gravity than the upper half).<br/>2. For symmetric bodies in a uniform field or bodies like a horizontal uniform ring, they can coincide, so it is false to say they can never be at the same point.<br/>3. For objects of sizes less than \(100\text{ m}\) (much smaller than the earth's radius \(R_E \approx 6.4 \times 10^6\text{ m}\)), the variation of \(g\) across the object is negligible, so the COM and COG are very close to each other.<br/>4. If the object is taken deep inside the earth, its COG may shift due to the changing gravitational field, but its COM remains unchanged because mass distribution is an intrinsic property.</p>
+<p><strong>Step 3: Final Conclusion</strong><br/>Therefore, the centre of mass and the centre of gravity are close to each other for objects of sizes less than \(100\text{ m}\).</p>]]></text></generalfeedback>
   <defaultgrade>4.0000000</defaultgrade>
   <penalty>0.2500000</penalty>
   <hidden>0</hidden>
-  <single>true</single>
+  <single>false</single>
   <shuffleanswers>true</shuffleanswers>
   <answernumbering>abc</answernumbering>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>are always at the same point for any size of the body.</p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>are always at the same point only for spherical bodies.</p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>can never be at the same point.</p>]]></text>
-  </answer>
-  <answer fraction="100" format="html">
-    <text><![CDATA[<p>is close to each other for objects, say of sizes less than 100 m.</p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>both can change if the object is taken deep inside the earth.</p>]]></text>
-  </answer>
+  <answer fraction="-50" format="html"><text><![CDATA[<p>are always at the same point for any size of the body.</p>]]></text></answer>
+  <answer fraction="-50" format="html"><text><![CDATA[<p>are always at the same point only for spherical bodies.</p>]]></text></answer>
+  <answer fraction="-50" format="html"><text><![CDATA[<p>can never be at the same point.</p>]]></text></answer>
+  <answer fraction="100" format="html"><text><![CDATA[<p>is close to each other for objects, say of sizes less than 100 m.</p>]]></text></answer>
+  <answer fraction="-50" format="html"><text><![CDATA[<p>both can change if the object is taken deep inside the earth.</p>]]></text></answer>
   <tags>
     <tag><text>standard:neet_ug</text></tag>
     <tag><text>lang:en</text></tag>
     <tag><text>subject:physics</text></tag>
-    <tag><text>class:11</text></tag>
+    <tag><text>section:mcq_ii</text></tag>
+    <tag><text>class:class_11</text></tag>
     <tag><text>chapter:gravitation</text></tag>
     <tag><text>typology:mcq</text></tag>
-    <tag><text>difficulty:easy</text></tag>
+    <tag><text>difficulty:medium</text></tag>
     <tag><text>blooms:understand</text></tag>
     <tag><text>calculation:light</text></tag>
     <tag><text>media:text</text></tag>

@@ -1,23 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <quiz>
 <question type="multichoice">
-  <name><text>NEET_UG_PHYSICS_MOTION_IN_A_PLANE_MCQ_Q4_1 - Angle between two orthogonal unit component vectors</text></name>
-  <questiontext format="html">
-    <text><![CDATA[<p>The angle between \(\mathbf{A} = \hat{\mathbf{i}} + \hat{\mathbf{j}}\) and \(\mathbf{B} = \hat{\mathbf{i}} - \hat{\mathbf{j}}\) is</p><hr/><p>\(\mathbf{A} = \hat{\mathbf{i}} + \hat{\mathbf{j}}\) এবং \(\mathbf{B} = \hat{\mathbf{i}} - \hat{\mathbf{j}}\)-এর মধ্যবর্তী কোণ হলো</p>]]></text>
-  </questiontext>
-  <generalfeedback format="html">
-    <text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>Two vectors are given as \(\mathbf{A} = \hat{\mathbf{i}} + \hat{\mathbf{j}}\) and \(\mathbf{B} = \hat{\mathbf{i}} - \hat{\mathbf{j}}\).</p>
-<p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>The unit vectors \(\hat{\mathbf{i}}\) and \(\hat{\mathbf{j}}\) are mutually orthogonal Cartesian unit vectors along the positive x-axis and positive y-axis, respectively, where \(\hat{\mathbf{i}}\cdot\hat{\mathbf{i}} = 1\), \(\hat{\mathbf{j}}\cdot\hat{\mathbf{j}} = 1\), and \(\hat{\mathbf{i}}\cdot\hat{\mathbf{j}} = 0\).</p>
-<p><strong>Step 3: Relevant Formulae and Principles</strong><br/>The scalar product of two vectors is given by \(\mathbf{A} \cdot \mathbf{B} = |\mathbf{A}| |\mathbf{B}| \cos\theta\), where \(\theta\) is the angle between them.</p>
-<p><strong>Step 4: Step-by-Step Working</strong><br/>Compute the dot product:<br/>\[\mathbf{A} \cdot \mathbf{B} = (1)(1) + (1)(-1) = 1 - 1 = 0\]<br/>The magnitudes of the vectors are:<br/>\[|\mathbf{A}| = \sqrt{1^2 + 1^2} = \sqrt{2}\]<br/>\[|\mathbf{B}| = \sqrt{1^2 + (-1)^2} = \sqrt{2}\]<br/>Substitute into the expression for \(\cos\theta\):<br/>\[\cos\theta = \frac{\mathbf{A} \cdot \mathbf{B}}{|\mathbf{A}| |\mathbf{B}|} = \frac{0}{\sqrt{2}\times\sqrt{2}} = 0\]<br/>Therefore, \(\theta = 90^\circ\).</p>
-<p><strong>Step 5: Check and Final Answer</strong><br/>Because the scalar product of two non-zero vectors vanishes, the vectors are perpendicular to each other. The angle between the two vectors is \(90^\circ\).</p>
+  <name><text>NEETUG_PHYSICS_MCQI_MOTIONINAPLANE_MCQ_Q01 - Angle between two given vectors</text></name>
+  <questiontext format="html"><text><![CDATA[<p>The angle between \(\mathbf{A} = \hat{\mathbf{i}} + \hat{\mathbf{j}}\) and \(\mathbf{B} = \hat{\mathbf{i}} - \hat{\mathbf{j}}\) is</p><hr/><p>\(\mathbf{A} = \hat{\mathbf{i}} + \hat{\mathbf{j}}\) এবং \(\mathbf{B} = \hat{\mathbf{i}} - \hat{\mathbf{j}}\) ভেক্টর দুটির মধ্যবর্তী কোণ হলো</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>The two vectors are given as \(\mathbf{A} = \hat{\mathbf{i}} + \hat{\mathbf{j}}\) and \(\mathbf{B} = \hat{\mathbf{i}} - \hat{\mathbf{j}}\).</p>
+<p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>The unit vectors \(\hat{\mathbf{i}}\) and \(\hat{\mathbf{j}}\) are mutually perpendicular unit vectors along the positive \(X\)-axis and \(Y\)-axis, respectively, so \(\hat{\mathbf{i}} \cdot \hat{\mathbf{i}} = \hat{\mathbf{j}} \cdot \hat{\mathbf{j}} = 1\) and \(\hat{\mathbf{i}} \cdot \hat{\mathbf{j}} = 0\).</p>
+<p><strong>Step 3: Relevant Formulae and Principles</strong><br/>The dot product of two vectors \(\mathbf{A}\) and \(\mathbf{B}\) is given by \(\mathbf{A} \cdot \mathbf{B} = |\mathbf{A}||\mathbf{B}|\cos\theta\), where \(\theta\) is the angle between them.</p>
+<p><strong>Step 4: Step-by-Step Working</strong><br/>Calculate the dot product \(\mathbf{A} \cdot \mathbf{B}\):<br/>\(\mathbf{A} \cdot \mathbf{B} = (\hat{\mathbf{i}} + \hat{\mathbf{j}}) \cdot (\hat{\mathbf{i}} - \hat{\mathbf{j}}) = (1)(1) + (1)(-1) = 1 - 1 = 0\).<br/>Calculate the magnitudes:<br/>\(|\mathbf{A}| = \sqrt{1^2 + 1^2} = \sqrt{2}\) and \(|\mathbf{B}| = \sqrt{1^2 + (-1)^2} = \sqrt{2}\).<br/>Substitute into the dot product formula:<br/>\(\cos\theta = \frac{\mathbf{A} \cdot \mathbf{B}}{|\mathbf{A}||\mathbf{B}|} = \frac{0}{\sqrt{2} \times \sqrt{2}} = 0 \implies \theta = 90^\circ\).</p>
+<p><strong>Step 5: Check and Final Answer</strong><br/>Since both vectors have non-zero magnitudes and their scalar product is zero, they are orthogonal. Therefore, the angle between \(\mathbf{A}\) and \(\mathbf{B}\) is \(90^\circ\).</p>
 <hr/>
-<p><strong>ধাপ ১: প্রদত্ত তথ্য ও শর্তাবলি</strong><br/>প্রদত্ত ভেক্টর দুটি হলো \(\mathbf{A} = \hat{\mathbf{i}} + \hat{\mathbf{j}}\) এবং \(\mathbf{B} = \hat{\mathbf{i}} - \hat{\mathbf{j}}\)।</p>
-<p><strong>ধাপ ২: অনুমান ও চিহ্ন সংক্রান্ত নিয়ম</strong><br/>একক ভেক্টর \(\hat{\mathbf{i}}\) এবং \(\hat{\mathbf{j}}\) হলো যথাক্রমে ধনাত্মক x-অক্ষ ও ধনাত্মক y-অক্ষ বরাবর পরস্পর লম্ব কার্তেসীয় একক ভেক্টর, যেখানে \(\hat{\mathbf{i}}\cdot\hat{\mathbf{i}} = 1\), \(\hat{\mathbf{j}}\cdot\hat{\mathbf{j}} = 1\), এবং \(\hat{\mathbf{i}}\cdot\hat{\mathbf{j}} = 0\)।</p>
-<p><strong>ধাপ ৩: প্রাসঙ্গিক সূত্র ও নীতি</strong><br/>দুটি ভেক্টরের স্কেলার গুণনের সূত্র হলো \(\mathbf{A} \cdot \mathbf{B} = |\mathbf{A}| |\mathbf{B}| \cos\theta\), যেখানে \(\theta\) হলো তাদের মধ্যবর্তী কোণ।</p>
-<p><strong>ধাপ ৪: ধাপে ধাপে সমাধান</strong><br/>ডট গুণন গণনা করা যাক:<br/>\[\mathbf{A} \cdot \mathbf{B} = (1)(1) + (1)(-1) = 1 - 1 = 0\]<br/>ভেক্টর দুটির মান হলো:<br/>\[|\mathbf{A}| = \sqrt{1^2 + 1^2} = \sqrt{2}\]<br/>\[|\mathbf{B}| = \sqrt{1^2 + (-1)^2} = \sqrt{2}\]<br/>\(\cos\theta\)-এর সূত্রে মান বসিয়ে পাই:<br/>\[\cos\theta = \frac{\mathbf{A} \cdot \mathbf{B}}{|\mathbf{A}| |\mathbf{B}|} = \frac{0}{\sqrt{2}\times\sqrt{2}} = 0\]<br/>সুতরাং, \(\theta = 90^\circ\)।</p>
-<p><strong>ধাপ ৫: যাচাই ও চূড়ান্ত উত্তর</strong><br/>যেহেতু দুটি অশূন্য ভেক্টরের স্কেলার গুণফল শূন্য হয়, তাই ভেক্টর দুটি পরস্পরের ওপর লম্ব। ভেক্টর দুটির মধ্যবর্তী কোণ হলো \(90^\circ\)।</p>]]></text>
-  </generalfeedback>
+<p><strong>ধাপ ১: প্রদত্ত তথ্য ও শর্তাবলি</strong><br/>দুটি ভেক্টর হলো \(\mathbf{A} = \hat{\mathbf{i}} + \hat{\mathbf{j}}\) এবং \(\mathbf{B} = \hat{\mathbf{i}} - \hat{\mathbf{j}}\)।</p>
+<p><strong>ধাপ ২: অনুমান ও চিহ্ন প্রথা</strong><br/>\(\hat{\mathbf{i}}\) এবং \(\hat{\mathbf{j}}\) যথাক্রমে ধনাত্মক \(X\)-অক্ষ এবং \(Y\)-অক্ষ বরাবর পরস্পর লম্ব একক ভেক্টর, তাই \(\hat{\mathbf{i}} \cdot \hat{\mathbf{i}} = \hat{\mathbf{j}} \cdot \hat{\mathbf{j}} = 1\) এবং \(\hat{\mathbf{i}} \cdot \hat{\mathbf{j}} = 0\)।</p>
+<p><strong>ধাপ ৩: প্রাসঙ্গিক সূত্র ও নীতি</strong><br/>\(\mathbf{A}\) এবং \(\mathbf{B}\) ভেক্টর দুটির ডট গুণফল হলো \(\mathbf{A} \cdot \mathbf{B} = |\mathbf{A}||\mathbf{B}|\cos\theta\), যেখানে \(\theta\) হলো তাদের মধ্যবর্তী কোণ।</p>
+<p><strong>ধাপ ৪: ধাপে ধাপে সমাধান</strong><br/>ডট গুণফল \(\mathbf{A} \cdot \mathbf{B}\) নির্ণয় করি:<br/>\(\mathbf{A} \cdot \mathbf{B} = (\hat{\mathbf{i}} + \hat{\mathbf{j}}) \cdot (\hat{\mathbf{i}} - \hat{\mathbf{j}}) = (1)(1) + (1)(-1) = 1 - 1 = 0\)।<br/>ভেক্টর দুটির মান নির্ণয় করি:<br/>\(|\mathbf{A}| = \sqrt{1^2 + 1^2} = \sqrt{2}\) এবং \(|\mathbf{B}| = \sqrt{1^2 + (-1)^2} = \sqrt{2}\)।<br/>সূত্রে মান বসিয়ে পাই:<br/>\(\cos\theta = \frac{\mathbf{A} \cdot \mathbf{B}}{|\mathbf{A}||\mathbf{B}|} = \frac{0}{\sqrt{2} \times \sqrt{2}} = 0 \implies \theta = 90^\circ\)।</p>
+<p><strong>ধাপ ৫: যাচাই এবং চূড়ান্ত উত্তর</strong><br/>যেহেতু দুটি ভেক্টরেরই মান অশূন্য এবং তাদের স্কেলার গুণফল শূন্য, তাই তারা পরস্পর লম্ব। সুতরাং, \(\mathbf{A}\) এবং \(\mathbf{B}\)-এর মধ্যবর্তী কোণ হলো \(90^\circ\)।</p>]]></text></generalfeedback>
   <defaultgrade>4.0000000</defaultgrade>
   <penalty>0.2500000</penalty>
   <hidden>0</hidden>
@@ -33,33 +29,28 @@
     <tag><text>lang:en</text></tag>
     <tag><text>lang:bn</text></tag>
     <tag><text>subject:physics</text></tag>
-    <tag><text>class:class_11</text></tag>
+    <tag><text>section:mcq_i</text></tag>
+    <tag><text>class:11</text></tag>
     <tag><text>topic:vectors</text></tag>
     <tag><text>chapter:motion_in_a_plane</text></tag>
     <tag><text>typology:mcq</text></tag>
     <tag><text>difficulty:easy</text></tag>
     <tag><text>blooms:apply</text></tag>
     <tag><text>calculation:light</text></tag>
-    <tag><text>media:text</text></tag>
+    <tag><text>media:equation</text></tag>
     <tag><text>multiconcept:false</text></tag>
   </tags>
 </question>
 <question type="multichoice">
-  <name><text>NEET_UG_PHYSICS_MOTION_IN_A_PLANE_MCQ_Q4_2 - Invariance of scalar quantities under axis rotation</text></name>
-  <questiontext format="html">
-    <text><![CDATA[<p>Which one of the following statements is true?</p><hr/><p>নীচের কোন বিবৃতিটি সত্য?</p>]]></text>
-  </questiontext>
-  <generalfeedback format="html">
-    <text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>A scalar quantity is completely specified by its magnitude along with an appropriate unit. Because scalars do not possess directional properties, their values are invariant under any transformation of the coordinate axes, including rotations and translations.</p>
-<p><strong>Step 2: Evaluation of Scalar Properties</strong><br/>First, many scalar quantities are not conserved during physical processes; for example, kinetic energy is not conserved during inelastic collisions. Second, scalar quantities can take negative values; for example, temperature in Celsius, electric charge, work, and potential energy can all be negative. Third, scalar quantities such as temperature, density, and gravitational potential routinely vary from one point to another in space (scalar fields).</p>
-<p><strong>Step 3: Application to Coordinate Transformations</strong><br/>When coordinate axes are rotated or reoriented in space, vector components change according to transformation laws, but scalar quantities remain entirely unchanged because their physical definition is independent of the coordinate system orientation.</p>
-<p><strong>Step 4: Final Conclusion</strong><br/>A scalar quantity has the same value for observers with different orientations of the axes.</p>
+  <name><text>NEETUG_PHYSICS_MCQI_MOTIONINAPLANE_MCQ_Q02 - True statement about a scalar quantity</text></name>
+  <questiontext format="html"><text><![CDATA[<p>Which one of the following statements is true?</p><hr/><p>নিচের কোন বিবৃতিটি সত্য?</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>A scalar quantity is a physical quantity that is completely specified by its magnitude (and unit) alone, without any associated direction, and remains invariant under rotation of the coordinate axes.</p>
+<p><strong>Step 2: Evaluation</strong><br/>1. A scalar need not be conserved in a process (for example, kinetic energy is not conserved in an inelastic collision).<br/>2. A scalar can take negative values (for example, temperature in Celsius, electric charge, or gravitational potential energy).<br/>3. A scalar can vary from one point to another in space (for example, temperature or gravitational potential in a room or field).<br/>4. Because a scalar has no directional dependence, its value does not change when the coordinate axes are rotated to different orientations.</p>
+<p><strong>Step 3: Final Conclusion</strong><br/>Therefore, a scalar quantity has the same value for observers with different orientations of the axes.</p>
 <hr/>
-<p><strong>ধাপ ১: ধারণাগত নীতি</strong><br/>একটি স্কেলার রাশিকে উপযুক্ত এককসহ কেবল তার মান দ্বারা সম্পূর্ণভাবে প্রকাশ করা যায়। স্কেলার রাশির কোনো অভিমুখ থাকে না বলে স্থানাঙ্ক অক্ষের ঘূর্ণন বা স্থানান্তরসহ যেকোনো রূপান্তরের ক্ষেত্রে এর মান অপরিবর্তিত থাকে।</p>
-<p><strong>ধাপ ২: স্কেলার বৈশিষ্ট্যের মূল্যায়ন</strong><br/>প্রথমত, কোনো প্রক্রিয়ায় বহু স্কেলার রাশি সংরক্ষিত থাকে না; যেমন অপ্রত্যস্থ সংঘর্ষে গতিশক্তি সংরক্ষিত থাকে না। দ্বিতীয়ত, স্কেলার রাশি ঋণাত্মক মান গ্রহণ করতে পারে; যেমন সেলসিয়াস স্কেলে তাপমাত্রা, তড়িৎ আধান, কৃতকার্য এবং স্থিতিশক্তি ঋণাত্মক হতে পারে। তৃতীয়ত, তাপমাত্রা, ঘনত্ব বা মহাকর্ষীয় বিভবের মতো স্কেলার রাশিগুলি স্থানে এক বিন্দু থেকে অন্য বিন্দুতে পরিবর্তিত হতে পারে (স্কেলার ক্ষেত্র)।</p>
-<p><strong>ধাপ ৩: স্থানাঙ্ক রূপান্তরের প্রয়োগ</strong><br/>স্থানে স্থানাঙ্ক অক্ষসমূহ আবর্তিত বা স্থানান্তরিত হলে ভেক্টরের উপাংশগুলি পরিবর্তিত হয়, কিন্তু স্কেলার রাশির মান সম্পূর্ণ অপরিবর্তিত থাকে কারণ এর ভৌত সংজ্ঞা স্থানাঙ্ক ব্যবস্থার অভিমুখের ওপর নির্ভর করে না।</p>
-<p><strong>ধাপ ৪: চূড়ান্ত সিদ্ধান্ত</strong><br/>ভিন্ন ভিন্ন অক্ষের অভিমুখবিশিষ্ট পর্যবেক্ষকদের জন্য একটি স্কেলার রাশির মান একই থাকে।</p>]]></text>
-  </generalfeedback>
+<p><strong>ধাপ ১: ধারণাগত নীতি</strong><br/>স্কেলার রাশি হলো এমন একটি ভৌত রাশি যা শুধুমাত্র মান (এবং একক) দ্বারা সম্পূর্ণভাবে প্রকাশিত হয়, এর কোনো দিক নেই এবং স্থানাঙ্ক অক্ষের ঘূর্ণনের ফলে এর মানের কোনো পরিবর্তন হয় না।</p>
+<p><strong>ধাপ ২: মূল্যায়ন</strong><br/>১. কোনো প্রক্রিয়ায় স্কেলার রাশি সংরক্ষিত নাও থাকতে পারে (যেমন, অস্থিতিস্থাপক সংঘর্ষে গতিশক্তি সংরক্ষিত থাকে না)।<br/>২. স্কেলার রাশির মান ঋণাত্মক হতে পারে (যেমন, সেলসিয়াস স্কেলে তাপমাত্রা, তড়িৎ আধান বা মহাকর্ষীয় স্থিতিশক্তি)।<br/>৩. স্থানে স্থানে স্কেলার রাশির মান পরিবর্তিত হতে পারে (যেমন, ঘরের বিভিন্ন বিন্দুতে তাপমাত্রা বা মহাকর্ষীয় বিভব)।<br/>৪. যেহেতু স্কেলার রাশির কোনো দিক-নির্ভরতা নেই, তাই স্থানাঙ্ক অক্ষের অভিমুখ পরিবর্তন করলেও এর মান অপরিবর্তিত থাকে।</p>
+<p><strong>ধাপ ৩: চূড়ান্ত সিদ্ধান্ত</strong><br/>সুতরাং, অক্ষের বিভিন্ন অভিমুখের পর্যবেক্ষকদের জন্য একটি স্কেলার রাশির মান একই থাকে।</p>]]></text></generalfeedback>
   <defaultgrade>4.0000000</defaultgrade>
   <penalty>0.2500000</penalty>
   <hidden>0</hidden>
@@ -75,7 +66,8 @@
     <tag><text>lang:en</text></tag>
     <tag><text>lang:bn</text></tag>
     <tag><text>subject:physics</text></tag>
-    <tag><text>class:class_11</text></tag>
+    <tag><text>section:mcq_i</text></tag>
+    <tag><text>class:11</text></tag>
     <tag><text>topic:scalars_and_vectors</text></tag>
     <tag><text>chapter:motion_in_a_plane</text></tag>
     <tag><text>typology:mcq</text></tag>
@@ -87,23 +79,19 @@
   </tags>
 </question>
 <question type="multichoice">
-  <name><text>NEET_UG_PHYSICS_MOTION_IN_A_PLANE_MCQ_Q4_3 - Signs of components of two given vectors</text></name>
-  <questiontext format="html">
-    <text><![CDATA[<p>Figure shows the orientation of two vectors \(\mathbf{u}\) and \(\mathbf{v}\) in the \(XY\) plane.</p><p><img src="@@PLUGINFILE@@/img-0.jpeg" alt="Fig. 4.1" /></p><p>If \(\mathbf{u} = a\hat{\mathbf{i}} + b\hat{\mathbf{j}}\) and \(\mathbf{v} = p\hat{\mathbf{i}} + q\hat{\mathbf{j}}\), which of the following is correct?</p><hr/><p>চিত্রটিতে \(XY\) সমতলে দুটি ভেক্টর \(\mathbf{u}\) এবং \(\mathbf{v}\)-এর অভিমুখ দেখানো হয়েছে।</p><p><img src="@@PLUGINFILE@@/img-0.jpeg" alt="Fig. 4.1" /></p><p>যদি \(\mathbf{u} = a\hat{\mathbf{i}} + b\hat{\mathbf{j}}\) এবং \(\mathbf{v} = p\hat{\mathbf{i}} + q\hat{\mathbf{j}}\) হয়, তবে নীচের কোনটি সঠিক?</p>]]></text>
-  </questiontext>
-  <generalfeedback format="html">
-    <text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>Vector \(\mathbf{u} = a\hat{\mathbf{i}} + b\hat{\mathbf{j}}\) has its tail at the origin and points into the first quadrant. Vector \(\mathbf{v} = p\hat{\mathbf{i}} + q\hat{\mathbf{j}}\) starts at the head of \(\mathbf{u}\) and points downwards and to the right.</p>
-<p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>The Cartesian coordinate system defines rightward along the x-axis as positive (\(\hat{\mathbf{i}} > 0\)), leftward as negative, upward along the y-axis as positive (\(\hat{\mathbf{j}} > 0\)), and downward as negative.</p>
-<p><strong>Step 3: Relevant Formulae and Principles</strong><br/>For any vector \(\mathbf{r} = x\hat{\mathbf{i}} + y\hat{\mathbf{j}}\), the sign of the horizontal component \(x\) is determined by whether the vector progresses in the positive or negative x-direction. The sign of the vertical component \(y\) is determined by whether it progresses in the positive or negative y-direction.</p>
-<p><strong>Step 4: Step-by-Step Working</strong><br/>For vector \(\mathbf{u}\):<br/>- The vector extends from the origin toward the positive x-direction, so \(a > 0\) (positive).<br/>- The vector also extends upward toward the positive y-direction, so \(b > 0\) (positive).<br/>For vector \(\mathbf{v}\):<br/>- Moving from the tail to the head of \(\mathbf{v}\), the displacement is toward the right (positive x-direction), so \(p > 0\) (positive).<br/>- Moving from the tail to the head of \(\mathbf{v}\), the displacement is directed downward (negative y-direction), so \(q < 0\) (negative).</p>
-<p><strong>Step 5: Check and Final Answer</strong><br/>Combining all components, \(a\), \(p\) and \(b\) are positive while \(q\) is negative.</p>
+  <name><text>NEETUG_PHYSICS_MCQI_MOTIONINAPLANE_MCQ_Q03 - Signs of components of two vectors in XY plane</text></name>
+  <questiontext format="html"><text><![CDATA[<p>Figure 4.1 shows the orientation of two vectors \(\mathbf{u}\) and \(\mathbf{v}\) in the \(XY\) plane.</p><p><img src="@@PLUGINFILE@@/img-0.jpeg" alt="Figure 4.1" /></p><p>If \(\mathbf{u} = a\hat{\mathbf{i}} + b\hat{\mathbf{j}}\) and \(\mathbf{v} = p\hat{\mathbf{i}} + q\hat{\mathbf{j}}\), which of the following is correct?</p><hr/><p>চিত্র ৪.১-এ \(XY\) সমতলে \(\mathbf{u}\) এবং \(\mathbf{v}\) দুটি ভেক্টরের অভিমুখ দেখানো হয়েছে।</p><p><img src="@@PLUGINFILE@@/img-0.jpeg" alt="Figure 4.1" /></p><p>যদি \(\mathbf{u} = a\hat{\mathbf{i}} + b\hat{\mathbf{j}}\) এবং \(\mathbf{v} = p\hat{\mathbf{i}} + q\hat{\mathbf{j}}\) হয়, তবে নিচের কোনটি সঠিক?</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>Two vectors in the \(XY\) plane are given by \(\mathbf{u} = a\hat{\mathbf{i}} + b\hat{\mathbf{j}}\) and \(\mathbf{v} = p\hat{\mathbf{i}} + q\hat{\mathbf{j}}\). In the diagram, vector \(\mathbf{u}\) starts at the origin \(O\) and points into the first quadrant (to the right and upwards). Vector \(\mathbf{v}\) starts at the head of \(\mathbf{u}\) and points downwards and slightly to the right.</p>
+<p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>Moving along the \(+X\) direction corresponds to a positive \(\hat{\mathbf{i}}\) component, while moving along the \(-X\) direction corresponds to a negative \(\hat{\mathbf{i}}\) component. Similarly, moving along \(+Y\) gives a positive \(\hat{\mathbf{j}}\) component, and moving along \(-Y\) gives a negative \(\hat{\mathbf{j}}\) component.</p>
+<p><strong>Step 3: Relevant Formulae and Principles</strong><br/>For any vector \(\mathbf{w} = w_x\hat{\mathbf{i}} + w_y\hat{\mathbf{j}}\), the sign of \(w_x\) depends on the horizontal displacement from tail to head, and the sign of \(w_y\) depends on the vertical displacement from tail to head.</p>
+<p><strong>Step 4: Step-by-Step Working</strong><br/>For vector \(\mathbf{u}\): from its tail at \(O\) to its head, the horizontal displacement is to the right (\(+X\)) and the vertical displacement is upwards (\(+Y\)). Thus, \(a &gt; 0\) and \(b &gt; 0\).<br/>For vector \(\mathbf{v}\): from its tail to its head, the horizontal displacement is to the right (\(+X\)) and the vertical displacement is downwards (\(-Y\)). Thus, \(p &gt; 0\) and \(q &lt; 0\).</p>
+<p><strong>Step 5: Check and Final Answer</strong><br/>Combining these results, \(a\), \(b\), and \(p\) are positive while \(q\) is negative.</p>
 <hr/>
-<p><strong>ধাপ ১: প্রদত্ত তথ্য ও শর্তাবলি</strong><br/>ভেক্টর \(\mathbf{u} = a\hat{\mathbf{i}} + b\hat{\mathbf{j}}\)-এর আদিবিন্দু মূলবিন্দুতে এবং এটি প্রথম পাদে নির্দেশিত। ভেক্টর \(\mathbf{v} = p\hat{\mathbf{i}} + q\hat{\mathbf{j}}\) ভেক্টর \(\mathbf{u}\)-এর শীর্ষবিন্দু থেকে শুরু হয়ে নিচের দিকে এবং ডানদিকে নির্দেশিত।</p>
-<p><strong>ধাপ ২: অনুমান ও চিহ্ন সংক্রান্ত নিয়ম</strong><br/>কার্তেসীয় স্থানাঙ্ক ব্যবস্থায় x-অক্ষ বরাবর ডানদিককে ধনাত্মক (\(\hat{\mathbf{i}} > 0\)), বামদিককে ঋণাত্মক, y-অক্ষ বরাবর ওপরের দিককে ধনাত্মক (\(\hat{\mathbf{j}} > 0\)) এবং নিচের দিককে ঋণাত্মক ধরা হয়।</p>
-<p><strong>ধাপ ৩: প্রাসঙ্গিক সূত্র ও নীতি</strong><br/>যেকোনো ভেক্টর \(\mathbf{r} = x\hat{\mathbf{i}} + y\hat{\mathbf{j}}\)-এর ক্ষেত্রে, অনুভূমিক উপাংশ \(x\)-এর চিহ্ন ভেক্টরটি ধনাত্মক নাকি ঋণাত্মক x-অভিমুখে অগ্রসর হচ্ছে তা দ্বারা নির্ধারিত হয়। উল্লম্ব উপাংশ \(y\)-এর চিহ্ন ভেক্টরটি ধনাত্মক নাকি ঋণাত্মক y-অভিমুখে অগ্রসর হচ্ছে তা দ্বারা নির্ধারিত হয়।</p>
-<p><strong>ধাপ ৪: ধাপে ধাপে সমাধান</strong><br/>ভেক্টর \(\mathbf{u}\)-এর জন্য:<br/>- ভেক্টরটি মূলবিন্দু থেকে ধনাত্মক x-অভিমুখে বিস্তৃত, তাই \(a > 0\) (ধনাত্মক)।<br/>- ভেক্টরটি ওপরের দিকে ধনাত্মক y-অভিমুখে বিস্তৃত, তাই \(b > 0\) (ধনাত্মক)।<br/>ভেক্টর \(\mathbf{v}\)-এর জন্য:<br/>- আদিবিন্দু থেকে শীর্ষবিন্দুর দিকে গেলে সরণ ডানদিকে (ধনাত্মক x-অভিমুখে) ঘটে, তাই \(p > 0\) (ধনাত্মক)।<br/>- আদিবিন্দু থেকে শীর্ষবিন্দুর দিকে গেলে সরণ নিচের দিকে (ঋণাত্মক y-অভিমুখে) ঘটে, তাই \(q < 0\) (ঋণাত্মক)।</p>
-<p><strong>ধাপ ৫: যাচাই ও চূড়ান্ত উত্তর</strong><br/>সব উপাংশ একত্রে বিবেচনা করলে দেখা যায়, \(a\), \(p\) এবং \(b\) ধনাত্মক কিন্তু \(q\) ঋণাত্মক।</p>]]></text>
-  </generalfeedback>
+<p><strong>ধাপ ১: প্রদত্ত তথ্য ও শর্তাবলি</strong><br/>\(XY\) সমতলে দুটি ভেক্টর হলো \(\mathbf{u} = a\hat{\mathbf{i}} + b\hat{\mathbf{j}}\) এবং \(\mathbf{v} = p\hat{\mathbf{i}} + q\hat{\mathbf{j}}\)। চিত্রে, \(\mathbf{u}\) ভেক্টরটি মূলবিন্দু \(O\) থেকে শুরু হয়ে প্রথম পাদে (ডানদিকে ও উপরে) নির্দেশিত। \(\mathbf{v}\) ভেক্টরটি \(\mathbf{u}\)-এর শীর্ষবিন্দু থেকে শুরু হয়ে নিচের দিকে এবং সামান্য ডানদিকে নির্দেশিত।</p>
+<p><strong>ধাপ ২: অনুমান ও চিহ্ন প্রথা</strong><br/>\(+X\) দিকে সরণ ধনাত্মক \(\hat{\mathbf{i}}\) উপাংশ এবং \(-X\) দিকে সরণ ঋণাত্মক \(\hat{\mathbf{i}}\) উপাংশ নির্দেশ করে। একইভাবে, \(+Y\) দিকে সরণ ধনাত্মক \(\hat{\mathbf{j}}\) উপাংশ এবং \(-Y\) দিকে সরণ ঋণাত্মক \(\hat{\mathbf{j}}\) উপাংশ নির্দেশ করে।</p>
+<p><strong>ধাপ ৩: প্রাসঙ্গিক সূত্র ও নীতি</strong><br/>যেকোনো ভেক্টর \(\mathbf{w} = w_x\hat{\mathbf{i}} + w_y\hat{\mathbf{j}}\)-এর জন্য, \(w_x\)-এর চিহ্ন পাদবিন্দু থেকে শীর্ষবিন্দু পর্যন্ত অনুভূমিক সরণের ওপর এবং \(w_y\)-এর চিহ্ন উল্লম্ব সরণের ওপর নির্ভর করে।</p>
+<p><strong>ধাপ ৪: ধাপে ধাপে সমাধান</strong><br/>\(\mathbf{u}\) ভেক্টরের ক্ষেত্রে: \(O\) থেকে শীর্ষবিন্দু পর্যন্ত অনুভূমিক সরণ ডানদিকে (\(+X\)) এবং উল্লম্ব সরণ উপরের দিকে (\(+Y\))। সুতরাং, \(a &gt; 0\) এবং \(b &gt; 0\)।<br/>\(\mathbf{v}\) ভেক্টরের ক্ষেত্রে: পাদবিন্দু থেকে শীর্ষবিন্দু পর্যন্ত অনুভূমিক সরণ ডানদিকে (\(+X\)) এবং উল্লম্ব সরণ নিচের দিকে (\(-Y\))। সুতরাং, \(p &gt; 0\) এবং \(q &lt; 0\)।</p>
+<p><strong>ধাপ ৫: যাচাই এবং চূড়ান্ত উত্তর</strong><br/>অতএব, \(a\), \(p\) এবং \(b\) ধনাত্মক এবং \(q\) ঋণাত্মক।</p>]]></text></generalfeedback>
   <defaultgrade>4.0000000</defaultgrade>
   <penalty>0.2500000</penalty>
   <hidden>0</hidden>
@@ -111,43 +99,36 @@
   <shuffleanswers>true</shuffleanswers>
   <answernumbering>abc</answernumbering>
   <answer fraction="0" format="html"><text><![CDATA[<p>\(a\) and \(p\) are positive while \(b\) and \(q\) are negative.</p>]]></text></answer>
-  <answer fraction="100" format="html"><text><![CDATA[<p>\(a\), \(p\) and \(b\) are positive while \(q\) is negative.</p>]]></text></answer>
-  <answer fraction="0" format="html"><text><![CDATA[<p>\(a\), \(q\) and \(b\) are positive while \(p\) is negative.</p>]]></text></answer>
-  <answer fraction="0" format="html"><text><![CDATA[<p>\(a\), \(b\), \(p\) and \(q\) are all positive.</p>]]></text></answer>
+  <answer fraction="100" format="html"><text><![CDATA[<p>\(a, p\) and \(b\) are positive while \(q\) is negative.</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>\(a, q\) and \(b\) are positive while \(p\) is negative.</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>\(a, b, p\) and \(q\) are all positive.</p>]]></text></answer>
   <tags>
     <tag><text>standard:neet_ug</text></tag>
     <tag><text>lang:en</text></tag>
     <tag><text>lang:bn</text></tag>
     <tag><text>subject:physics</text></tag>
-    <tag><text>class:class_11</text></tag>
+    <tag><text>section:mcq_i</text></tag>
+    <tag><text>class:11</text></tag>
     <tag><text>topic:vectors</text></tag>
     <tag><text>chapter:motion_in_a_plane</text></tag>
     <tag><text>typology:mcq</text></tag>
     <tag><text>difficulty:easy</text></tag>
-    <tag><text>blooms:apply</text></tag>
+    <tag><text>blooms:analyze</text></tag>
     <tag><text>calculation:light</text></tag>
     <tag><text>media:diagram</text></tag>
     <tag><text>multiconcept:false</text></tag>
   </tags>
 </question>
 <question type="multichoice">
-  <name><text>NEET_UG_PHYSICS_MOTION_IN_A_PLANE_MCQ_Q4_4 - Maximum component of vector along coordinate axis</text></name>
-  <questiontext format="html">
-    <text><![CDATA[<p>The component of a vector \(\mathbf{r}\) along X-axis will have maximum value if</p><hr/><p>X-অক্ষ বরাবর একটি ভেক্টর \(\mathbf{r}\)-এর উপাংশের মান সর্বোচ্চ হবে যদি</p>]]></text>
-  </questiontext>
-  <generalfeedback format="html">
-    <text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>A vector \(\mathbf{r}\) of magnitude \(r = |\mathbf{r}|\) lies in the xy-plane and makes an angle \(\theta\) with the positive X-axis.</p>
-<p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>The angle \(\theta\) is measured counterclockwise from the positive X-axis toward the vector \(\mathbf{r}\).</p>
-<p><strong>Step 3: Relevant Formulae and Principles</strong><br/>The rectangular component of vector \(\mathbf{r}\) along the X-axis is given by \(r_x = r \cos\theta\). Since \(r\) is a fixed positive magnitude, \(r_x\) is maximized when \(\cos\theta\) attains its maximum possible value.</p>
-<p><strong>Step 4: Step-by-Step Working</strong><br/>The maximum value of the cosine function is \(\cos\theta = 1\), which occurs at \(\theta = 0^\circ\). When \(\theta = 0^\circ\), the vector \(\mathbf{r}\) points directly along the positive X-axis, giving \(r_x = r(1) = r\). At any other orientation, such as \(\theta = 45^\circ\) (\(r_x = r/\sqrt{2}\)) or \(\theta = 90^\circ\) (\(r_x = 0\)) or \(\theta = 270^\circ\) (\(r_x = 0\)), the component is strictly less than \(r\).</p>
-<p><strong>Step 5: Check and Final Answer</strong><br/>The component along the X-axis is maximized when the entire vector lies along the positive X-axis.</p>
+  <name><text>NEETUG_PHYSICS_MCQI_MOTIONINAPLANE_MCQ_Q04 - Maximum component of a vector along X-axis</text></name>
+  <questiontext format="html"><text><![CDATA[<p>The component of a vector \(\mathbf{r}\) along X-axis will have maximum value if</p><hr/><p>X-অক্ষ বরাবর একটি ভেক্টর \(\mathbf{r}\)-এর উপাংশের মান সর্বাধিক হবে যদি</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>The component of a vector \(\mathbf{r}\) of magnitude \(r\) along the positive X-axis is given by \(r_x = r \cos\theta\), where \(\theta\) is the angle made by \(\mathbf{r}\) with the positive X-axis.</p>
+<p><strong>Step 2: Evaluation</strong><br/>Since the maximum value of \(\cos\theta\) is \(+1\), which occurs at \(\theta = 0^\circ\), the component \(r_x\) reaches its maximum value \(+r\) when \(\mathbf{r}\) points along the positive X-axis. Along the positive or negative Y-axis (\(\theta = 90^\circ\) or \(270^\circ\)), \(r_x = 0\). At \(\theta = 45^\circ\), \(r_x = \frac{r}{\sqrt{2}} &lt; r\).</p>
+<p><strong>Step 3: Final Conclusion</strong><br/>Therefore, the component of \(\mathbf{r}\) along the X-axis is maximum when \(\mathbf{r}\) is along the positive X-axis.</p>
 <hr/>
-<p><strong>ধাপ ১: প্রদত্ত তথ্য ও শর্তাবলি</strong><br/>\(r = |\mathbf{r}|\) মানের একটি ভেক্টর \(\mathbf{r}\) xy-সমতলে অবস্থিত এবং ধনাত্মক X-অক্ষের সাথে \(\theta\) কোণ তৈরি করে।</p>
-<p><strong>ধাপ ২: অনুমান ও চিহ্ন সংক্রান্ত নিয়ম</strong><br/>কোণ \(\theta\) ধনাত্মক X-অক্ষ থেকে ভেক্টর \(\mathbf{r}\)-এর দিকে ঘড়ির কাঁটার বিপরীত দিকে পরিমাপ করা হয়।</p>
-<p><strong>ধাপ ৩: প্রাসঙ্গিক সূত্র ও নীতি</strong><br/>X-অক্ষ বরাবর ভেক্টর \(\mathbf{r}\)-এর সমকোণী উপাংশ হলো \(r_x = r \cos\theta\)। যেহেতু \(r\) একটি নির্দিষ্ট ধনাত্মক মান, তাই \(\cos\theta\)-এর মান সর্বোচ্চ হলে \(r_x\)-এর মানও সর্বোচ্চ হবে।</p>
-<p><strong>ধাপ ৪: ধাপে ধাপে সমাধান</strong><br/>কোসাইন অপেক্ষকের সর্বোচ্চ মান হলো \(\cos\theta = 1\), যা \(\theta = 0^\circ\) কোণে ঘটে। যখন \(\theta = 0^\circ\), তখন ভেক্টর \(\mathbf{r}\) সরাসরি ধনাত্মক X-অক্ষ বরাবর নির্দেশিত থাকে, ফলে \(r_x = r(1) = r\) হয়। অন্য যেকোনো অভিমুখের ক্ষেত্রে, যেমন \(\theta = 45^\circ\) (\(r_x = r/\sqrt{2}\)) বা \(\theta = 90^\circ\) (\(r_x = 0\)) বা \(\theta = 270^\circ\) (\(r_x = 0\)), উপাংশটি \(r\)-এর চেয়ে কম হয়।</p>
-<p><strong>ধাপ ৫: যাচাই ও চূড়ান্ত উত্তর</strong><br/>X-অক্ষ বরাবর উপাংশের মান তখন সর্বোচ্চ হয় যখন সমগ্র ভেক্টরটি ধনাত্মক X-অক্ষ বরাবর থাকে।</p>]]></text>
-  </generalfeedback>
+<p><strong>ধাপ ১: ধারণাগত নীতি</strong><br/>\(r\) মানের একটি ভেক্টর \(\mathbf{r}\)-এর ধনাত্মক X-অক্ষ বরাবর উপাংশ হলো \(r_x = r \cos\theta\), যেখানে \(\theta\) হলো \(\mathbf{r}\) ভেক্টরটি ধনাত্মক X-অক্ষের সাথে যে কোণ উৎপন্ন করে।</p>
+<p><strong>ধাপ ২: মূল্যায়ন</strong><br/>যেহেতু \(\cos\theta\)-এর সর্বাধিক মান \(+1\) এবং তা \(\theta = 0^\circ\) কোণে পাওয়া যায়, তাই \(\mathbf{r}\) যখন ধনাত্মক X-অক্ষ বরাবর থাকে তখন \(r_x\)-এর মান সর্বাধিক (\(+r\)) হয়। ধনাত্মক বা ঋণাত্মক Y-অক্ষ বরাবর (\(\theta = 90^\circ\) বা \(270^\circ\)) \(r_x = 0\) হয় এবং \(\theta = 45^\circ\) কোণে \(r_x = \frac{r}{\sqrt{2}} &lt; r\) হয়।</p>
+<p><strong>ধাপ ৩: চূড়ান্ত সিদ্ধান্ত</strong><br/>সুতরাং, \(\mathbf{r}\) ধনাত্মক X-অক্ষ বরাবর থাকলে X-অক্ষ বরাবর এর উপাংশের মান সর্বাধিক হবে।</p>]]></text></generalfeedback>
   <defaultgrade>4.0000000</defaultgrade>
   <penalty>0.2500000</penalty>
   <hidden>0</hidden>
@@ -156,14 +137,15 @@
   <answernumbering>abc</answernumbering>
   <answer fraction="0" format="html"><text><![CDATA[<p>\(\mathbf{r}\) is along positive Y-axis</p>]]></text></answer>
   <answer fraction="100" format="html"><text><![CDATA[<p>\(\mathbf{r}\) is along positive X-axis</p>]]></text></answer>
-  <answer fraction="0" format="html"><text><![CDATA[<p>\(\mathbf{r}\) makes an angle of \(45^\circ\) with the X-axis</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>\(\mathbf{r}\) makes an angle of \(45^{\circ}\) with the X-axis</p>]]></text></answer>
   <answer fraction="0" format="html"><text><![CDATA[<p>\(\mathbf{r}\) is along negative Y-axis</p>]]></text></answer>
   <tags>
     <tag><text>standard:neet_ug</text></tag>
     <tag><text>lang:en</text></tag>
     <tag><text>lang:bn</text></tag>
     <tag><text>subject:physics</text></tag>
-    <tag><text>class:class_11</text></tag>
+    <tag><text>section:mcq_i</text></tag>
+    <tag><text>class:11</text></tag>
     <tag><text>topic:vectors</text></tag>
     <tag><text>chapter:motion_in_a_plane</text></tag>
     <tag><text>typology:mcq</text></tag>
@@ -175,23 +157,19 @@
   </tags>
 </question>
 <question type="multichoice">
-  <name><text>NEET_UG_PHYSICS_MOTION_IN_A_PLANE_MCQ_Q4_5 - Horizontal range of projectile at different angles</text></name>
-  <questiontext format="html">
-    <text><![CDATA[<p>The horizontal range of a projectile fired at an angle of \(15^\circ\) is \(50\text{ m}\). If it is fired with the same speed at an angle of \(45^\circ\), its range will be</p><hr/><p>\(15^\circ\) কোণে প্রক্ষিপ্ত একটি প্রাসের অনুভূমিক সীমা \(50\text{ m}\)। একই দ্রুতিতে \(45^\circ\) কোণে প্রক্ষিপ্ত করা হলে, এর সীমা হবে</p>]]></text>
-  </questiontext>
-  <generalfeedback format="html">
-    <text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>Initial angle of projection \(\theta_1 = 15^\circ\).<br/>Corresponding horizontal range \(R_1 = 50\text{ m}\).<br/>Second angle of projection \(\theta_2 = 45^\circ\).<br/>Projection speed \(u\) is identical in both cases.</p>
-<p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>The motion takes place in a uniform gravitational field with downward acceleration \(g\). Air resistance is neglected.</p>
-<p><strong>Step 3: Relevant Formulae and Principles</strong><br/>The horizontal range of a projectile is given by:<br/>\[R = \frac{u^2 \sin(2\theta)}{g}\]</p>
-<p><strong>Step 4: Step-by-Step Working</strong><br/>For \(\theta_1 = 15^\circ\):<br/>\[R_1 = \frac{u^2 \sin(2 \times 15^\circ)}{g} = \frac{u^2 \sin 30^\circ}{g} = \frac{u^2}{2g}\]<br/>Given \(R_1 = 50\text{ m}\):<br/>\[\frac{u^2}{2g} = 50\text{ m} \implies \frac{u^2}{g} = 100\text{ m}\]<br/>For \(\theta_2 = 45^\circ\):<br/>\[R_2 = \frac{u^2 \sin(2 \times 45^\circ)}{g} = \frac{u^2 \sin 90^\circ}{g} = \frac{u^2}{g}\]<br/>Substitute the value of \(\frac{u^2}{g}\):<br/>\[R_2 = 100\text{ m}\]</p>
-<p><strong>Step 5: Check and Final Answer</strong><br/>The maximum range for a given launch speed occurs at \(\theta = 45^\circ\), where \(\sin(2\theta) = 1\), which is exactly double the range obtained at \(\theta = 15^\circ\) where \(\sin(2\theta) = 0.5\). Therefore, the range is \(100\text{ m}\).</p>
+  <name><text>NEETUG_PHYSICS_MCQI_MOTIONINAPLANE_MCQ_Q05 - Horizontal range of projectile at 45 degrees</text></name>
+  <questiontext format="html"><text><![CDATA[<p>The horizontal range of a projectile fired at an angle of \(15^{\circ}\) is \(50\text{ m}\). If it is fired with the same speed at an angle of \(45^{\circ}\), its range will be</p><hr/><p>\(15^{\circ}\) কোণে নিক্ষিপ্ত একটি প্রাসের অনুভূমিক পাল্লা \(50\text{ m}\)। যদি একই বেগে এটিকে \(45^{\circ}\) কোণে নিক্ষেপ করা হয়, তবে এর পাল্লা হবে</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>Initial projection angle \(\theta_1 = 15^\circ\), horizontal range \(R_1 = 50\text{ m}\).<br/>Second projection angle \(\theta_2 = 45^\circ\), with the same projection speed \(u\).</p>
+<p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>Air resistance is neglected and acceleration due to gravity \(g\) is constant over the trajectory, with launch and landing at the same horizontal level.</p>
+<p><strong>Step 3: Relevant Formulae and Principles</strong><br/>The horizontal range of a projectile launched with speed \(u\) at an angle \(\theta\) to the horizontal is \(R = \frac{u^2 \sin 2\theta}{g}\).</p>
+<p><strong>Step 4: Step-by-Step Working</strong><br/>For \(\theta_1 = 15^\circ\):<br/>\(R_1 = \frac{u^2 \sin(2 \times 15^\circ)}{g} = \frac{u^2 \sin 30^\circ}{g} = \frac{u^2}{2g} = 50\text{ m}\).<br/>This gives \(\frac{u^2}{g} = 100\text{ m}\).<br/>For \(\theta_2 = 45^\circ\):<br/>\(R_2 = \frac{u^2 \sin(2 \times 45^\circ)}{g} = \frac{u^2 \sin 90^\circ}{g} = \frac{u^2}{g} = 100\text{ m}\).</p>
+<p><strong>Step 5: Check and Final Answer</strong><br/>The range at \(45^\circ\) is twice the range at \(15^\circ\), and the unit is metres (\(\text{m}\)). Thus, the range is \(100\text{ m}\).</p>
 <hr/>
-<p><strong>ধাপ ১: প্রদত্ত তথ্য ও শর্তাবলি</strong><br/>প্রথম প্রক্ষেপণ কোণ \(\theta_1 = 15^\circ\)।<br/>অনুরূপ অনুভূমিক সীমা \(R_1 = 50\text{ m}\)।<br/>দ্বিতীয় প্রক্ষেপণ কোণ \(\theta_2 = 45^\circ\)।<br/>উভয় ক্ষেত্রে প্রক্ষেপণ দ্রুতি \(u\) একই থাকে।</p>
-<p><strong>ধাপ ২: অনুমান ও চিহ্ন সংক্রান্ত নিয়ম</strong><br/>গতিটি একটি সুষম অভিকর্ষীয় ক্ষেত্রে নিচের দিকে ক্রিয়াশীল ত্বরণ \(g\)-এর অধীনে ঘটে। বায়ুর বাধা অগ্রাহ্য করা হয়েছে।</p>
-<p><strong>ধাপ ৩: প্রাসঙ্গিক সূত্র ও নীতি</strong><br/>প্রাসের অনুভূমিক সীমার সূত্র হলো:<br/>\[R = \frac{u^2 \sin(2\theta)}{g}\]</p>
-<p><strong>ধাপ ৪: ধাপে ধাপে সমাধান</strong><br/>\(\theta_1 = 15^\circ\)-এর জন্য:<br/>\[R_1 = \frac{u^2 \sin(2 \times 15^\circ)}{g} = \frac{u^2 \sin 30^\circ}{g} = \frac{u^2}{2g}\]<br/>যেহেতু \(R_1 = 50\text{ m}\):<br/>\[\frac{u^2}{2g} = 50\text{ m} \implies \frac{u^2}{g} = 100\text{ m}\]<br/>\(\theta_2 = 45^\circ\)-এর জন্য:<br/>\[R_2 = \frac{u^2 \sin(2 \times 45^\circ)}{g} = \frac{u^2 \sin 90^\circ}{g} = \frac{u^2}{g}\]<br/>\(\frac{u^2}{g}\)-এর মান বসিয়ে পাই:<br/>\[R_2 = 100\text{ m}\]</p>
-<p><strong>ধাপ ৫: যাচাই ও চূড়ান্ত উত্তর</strong><br/>নির্দিষ্ট প্রক্ষেপণ দ্রুতির জন্য সর্বোচ্চ সীমা \(\theta = 45^\circ\)-এ অর্জিত হয়, যেখানে \(\sin(2\theta) = 1\), যা \(\theta = 15^\circ\)-এর সীমার (\(\sin(2\theta) = 0.5\)) ঠিক দ্বিগুণ। অতএব, সীমা হবে \(100\text{ m}\)।</p>]]></text>
-  </generalfeedback>
+<p><strong>ধাপ ১: প্রদত্ত তথ্য ও শর্তাবলি</strong><br/>প্রথম নিক্ষেপণ কোণ \(\theta_1 = 15^\circ\), অনুভূমিক পাল্লা \(R_1 = 50\text{ m}\)।<br/>দ্বিতীয় নিক্ষেপণ কোণ \(\theta_2 = 45^\circ\), এবং নিক্ষেপণ বেগ \(u\) একই রয়েছে।</p>
+<p><strong>ধাপ ২: অনুমান ও চিহ্ন প্রথা</strong><br/>বায়ুর বাধা নগণ্য এবং অভিকর্ষজ ত্বরণ \(g\) ধ্রুবক ধরা হয়েছে, এবং নিক্ষেপণ ও পতন একই অনুভূমিক তলে ঘটে।</p>
+<p><strong>ধাপ ৩: প্রাসঙ্গিক সূত্র ও নীতি</strong><br/>অনুভূমিকের সাথে \(\theta\) কোণে \(u\) বেগে নিক্ষিপ্ত প্রাসের অনুভূমিক পাল্লা হলো \(R = \frac{u^2 \sin 2\theta}{g}\)।</p>
+<p><strong>ধাপ ৪: ধাপে ধাপে সমাধান</strong><br/>\(\theta_1 = 15^\circ\)-এর জন্য:<br/>\(R_1 = \frac{u^2 \sin(2 \times 15^\circ)}{g} = \frac{u^2 \sin 30^\circ}{g} = \frac{u^2}{2g} = 50\text{ m}\)।<br/>এখান থেকে পাই, \(\frac{u^2}{g} = 100\text{ m}\)।<br/>\(\theta_2 = 45^\circ\)-এর জন্য:<br/>\(R_2 = \frac{u^2 \sin(2 \times 45^\circ)}{g} = \frac{u^2 \sin 90^\circ}{g} = \frac{u^2}{g} = 100\text{ m}\)।</p>
+<p><strong>ধাপ ৫: যাচাই এবং চূড়ান্ত উত্তর</strong><br/>\(45^\circ\) কোণে পাল্লা \(15^\circ\) কোণের পাল্লার দ্বিগুণ এবং একক হলো মিটার (\(\text{m}\))। সুতরাং, পাল্লা হবে \(100\text{ m}\)।</p>]]></text></generalfeedback>
   <defaultgrade>4.0000000</defaultgrade>
   <penalty>0.2500000</penalty>
   <hidden>0</hidden>
@@ -207,7 +185,8 @@
     <tag><text>lang:en</text></tag>
     <tag><text>lang:bn</text></tag>
     <tag><text>subject:physics</text></tag>
-    <tag><text>class:class_11</text></tag>
+    <tag><text>section:mcq_i</text></tag>
+    <tag><text>class:11</text></tag>
     <tag><text>topic:projectile_motion</text></tag>
     <tag><text>chapter:motion_in_a_plane</text></tag>
     <tag><text>typology:mcq</text></tag>
@@ -219,19 +198,15 @@
   </tags>
 </question>
 <question type="multichoice">
-  <name><text>NEET_UG_PHYSICS_MOTION_IN_A_PLANE_MCQ_Q4_6 - Identification of vector quantities among given physical</text></name>
-  <questiontext format="html">
-    <text><![CDATA[<p>Consider the quantities, pressure, power, energy, impulse, gravitational potential, electrical charge, temperature, area. Out of these, the only vector quantities are</p><hr/><p>চাপ, ক্ষমতা, শক্তি, ঘাত (impulse), মহাকর্ষীয় বিভব, তড়িৎ আধান, তাপমাত্রা, ক্ষেত্রফল—এই রাশিগুলি বিবেচনা করো। এগুলির মধ্যে কেবলমাত্র ভেক্টর রাশিগুলি হলো</p>]]></text>
-  </questiontext>
-  <generalfeedback format="html">
-    <text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>A scalar quantity has only magnitude and is completely specified by a numerical value with appropriate units. A vector quantity possesses both magnitude and direction, and obeys the laws of vector addition.</p>
-<p><strong>Step 2: Evaluation of Each Stated Quantity</strong><br/>- Pressure: Defined as normal force per unit area. At any point in a fluid, pressure acts uniformly in all directions; it is isotropic and is a scalar quantity.<br/>- Power: Rate of doing work (\(P = dW/dt\)), where work is a scalar product (\(dW = \mathbf{F}\cdot d\mathbf{r}\)); thus power is a scalar quantity.<br/>- Energy: Capacity to do work, having only magnitude; it is a scalar quantity.<br/>- Impulse: Product of average force and the time duration (\(\mathbf{J} = \int \mathbf{F} \, dt = \Delta\mathbf{p}\)). Since force and linear momentum change have definite directions, impulse is a vector quantity.<br/>- Gravitational potential: Work done per unit mass in bringing a test mass from infinity to a point; it is a scalar quantity.<br/>- Electrical charge: Intrinsic property of matter obeying algebraic addition; it is a scalar quantity.<br/>- Temperature: Measure of average kinetic energy of constituent particles; it has no directional aspect and is a scalar quantity.<br/>- Area: In planar and vector mechanics, an area element is associated with a definite normal direction perpendicular to the surface (\(d\mathbf{A} = \hat{\mathbf{n}} \, dA\)); hence area is treated as a vector quantity.</p>
-<p><strong>Step 3: Final Conclusion</strong><br/>Out of all the listed physical quantities, the only vector quantities are impulse and area.</p>
+  <name><text>NEETUG_PHYSICS_MCQI_MOTIONINAPLANE_MCQ_Q06 - Identifying vector quantities among given physical quantities</text></name>
+  <questiontext format="html"><text><![CDATA[<p>Consider the quantities, pressure, power, energy, impulse, gravitational potential, electrical charge, temperature, area. Out of these, the only vector quantities are</p><hr/><p>চাপ, ক্ষমতা, শক্তি, ঘাত, মহাকর্ষীয় বিভব, তড়িৎ আধান, তাপমাত্রা, ক্ষেত্রফল — এই রাশিগুলি বিবেচনা করো। এদের মধ্যে একমাত্র ভেক্টর রাশিগুলি হলো</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>A vector quantity possesses both magnitude and a specific direction and obeys the laws of vector addition, whereas a scalar quantity is specified by magnitude alone.</p>
+<p><strong>Step 2: Evaluation</strong><br/>- Pressure, power, energy, gravitational potential, electrical charge, and temperature are all scalar quantities.<br/>- Impulse (\(\mathbf{J} = \mathbf{F}\Delta t = \Delta\mathbf{p}\)) has both magnitude and direction (the direction of change in momentum), so it is a vector.<br/>- Area is treated as a vector quantity (\(\mathbf{A} = A\hat{\mathbf{n}}\)), directed perpendicular (normal) to the surface.</p>
+<p><strong>Step 3: Final Conclusion</strong><br/>Out of the given quantities, only impulse and area are vector quantities.</p>
 <hr/>
-<p><strong>ধাপ ১: ধারণাগত নীতি</strong><br/>একটি স্কেলার রাশির কেবল মান থাকে এবং উপযুক্ত এককসহ সংখ্যাসূচক মান দ্বারা এটি সম্পূর্ণভাবে নির্ধারিত হয়। একটি ভেক্টর রাশির মান ও অভিমুখ উভয়ই থাকে এবং এটি ভেক্টর যোগের নিয়ম মেনে চলে।</p>
-<p><strong>ধাপ ২: প্রতিটি প্রদত্ত রাশির মূল্যায়ন</strong><br/>- চাপ: প্রতি একক ক্ষেত্রফলে লম্ব বল হিসেবে সংজ্ঞায়িত। তরলের কোনো বিন্দুতে চাপ সব দিকে সমানভাবে কাজ করে; এটি দিকনিরপেক্ষ এবং একটি স্কেলার রাশি।<br/>- ক্ষমতা: কার্য করার হার (\(P = dW/dt\)), যেখানে কার্য হলো দুটি ভেক্টরের স্কেলার গুণফল (\(dW = \mathbf{F}\cdot d\mathbf{r}\)); সুতরাং ক্ষমতা একটি স্কেলার রাশি।<br/>- শক্তি: কার্য করার সামর্থ্য, যার কেবল মান আছে; এটি একটি স্কেলার রাশি।<br/>- ঘাত (impulse): গড় বল ও সময়কালের গুণফল (\(\mathbf{J} = \int \mathbf{F} \, dt = \Delta\mathbf{p}\))। বল ও রৈখিক ভরবেগের পরিবর্তন উভয়েরই নির্দিষ্ট অভিমুখ থাকায় ঘাত একটি ভেক্টর রাশি।<br/>- মহাকর্ষীয় বিভব: অসীম দূরত্ব থেকে একটি একক ভরকে কোনো বিন্দুতে আনতে কৃতকার্য; এটি একটি স্কেলার রাশি।<br/>- তড়িৎ আধান: পদার্থের একটি অন্তর্নিহিত বৈশিষ্ট্য যা বীজগাণিতিক নিয়মে যুক্ত হয়; এটি একটি স্কেলার রাশি।<br/>- তাপমাত্রা: পদার্থের কণাগুলির গড় গতিশক্তির পরিমাপ; এর কোনো অভিমুখ নেই এবং এটি একটি স্কেলার রাশি।<br/>- ক্ষেত্রফল: সমতল ও ভেক্টর গতিবিদ্যায় ক্ষেত্রফল উপাদানকে তলের ওপর লম্ব একটি নির্দিষ্ট অভিমুখ দ্বারা নির্দেশ করা হয় (\(d\mathbf{A} = \hat{\mathbf{n}} \, dA\)); তাই ক্ষেত্রফলকে ভেক্টর রাশি হিসেবে বিবেচনা করা হয়।</p>
-<p><strong>ধাপ ৩: চূড়ান্ত সিদ্ধান্ত</strong><br/>তালিকাভুক্ত সমস্ত ভৌত রাশির মধ্যে কেবলমাত্র ঘাত (impulse) এবং ক্ষেত্রফল হলো ভেক্টর রাশি।</p>]]></text>
-  </generalfeedback>
+<p><strong>ধাপ ১: ধারণাগত নীতি</strong><br/>ভেক্টর রাশির মান ও নির্দিষ্ট দিক উভয়ই থাকে এবং এটি ভেক্টর যোগের সূত্র মেনে চলে, অন্যদিকে স্কেলার রাশি শুধুমাত্র মান দ্বারা প্রকাশিত হয়।</p>
+<p><strong>ধাপ ২: মূল্যায়ন</strong><br/>- চাপ, ক্ষমতা, শক্তি, মহাকর্ষীয় বিভব, তড়িৎ আধান এবং তাপমাত্রা সবই স্কেলার রাশি।<br/>- ঘাত (\(\mathbf{J} = \mathbf{F}\Delta t = \Delta\mathbf{p}\))-এর মান এবং দিক (ভরবেগের পরিবর্তনের দিক) উভয়ই আছে, তাই এটি একটি ভেক্টর রাশি।<br/>- ক্ষেত্রফলকে ভেক্টর রাশি (\(\mathbf{A} = A\hat{\mathbf{n}}\)) হিসেবে গণ্য করা হয়, যার দিক তলের সাথে অভিলম্ব বরাবর হয়।</p>
+<p><strong>ধাপ ৩: চূড়ান্ত সিদ্ধান্ত</strong><br/>প্রদত্ত রাশিগুলির মধ্যে শুধুমাত্র ঘাত এবং ক্ষেত্রফল হলো ভেক্টর রাশি।</p>]]></text></generalfeedback>
   <defaultgrade>4.0000000</defaultgrade>
   <penalty>0.2500000</penalty>
   <hidden>0</hidden>
@@ -247,7 +222,8 @@
     <tag><text>lang:en</text></tag>
     <tag><text>lang:bn</text></tag>
     <tag><text>subject:physics</text></tag>
-    <tag><text>class:class_11</text></tag>
+    <tag><text>section:mcq_i</text></tag>
+    <tag><text>class:11</text></tag>
     <tag><text>topic:scalars_and_vectors</text></tag>
     <tag><text>chapter:motion_in_a_plane</text></tag>
     <tag><text>typology:mcq</text></tag>
@@ -259,19 +235,15 @@
   </tags>
 </question>
 <question type="multichoice">
-  <name><text>NEET_UG_PHYSICS_MOTION_IN_A_PLANE_MCQ_Q4_7 - Distance traversed in motion with constant speed</text></name>
-  <questiontext format="html">
-    <text><![CDATA[<p>In a two dimensional motion, instantaneous speed \(v_0\) is a positive constant. Then which of the following are necessarily true?</p><hr/><p>একটি দ্বিমাত্রিক গতিতে, তাৎক্ষণিক দ্রুতি \(v_0\) একটি ধনাত্মক ধ্রুবক। তাহলে নীচের কোনটি অবশ্যই সত্য?</p>]]></text>
-  </questiontext>
-  <generalfeedback format="html">
-    <text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>Instantaneous speed \(v\) is defined as the scalar rate of change of distance along the path traversed: \(v = \frac{ds}{dt}\), where \(s\) represents path length (distance travelled).</p>
-<p><strong>Step 2: Evaluation of Kinematic Quantities</strong><br/>- Distance traversed: If instantaneous speed is constant with value \(v_0\), the total distance covered in any time interval \(\Delta t = t_2 - t_1\) is given by \(\Delta s = \int_{t_1}^{t_2} v_0 \, dt = v_0 \Delta t\). Thus, equal path lengths are traversed in equal time intervals.<br/>- Displacement and velocity: A particle moving with constant speed can alter its direction of travel (for instance, travelling along a closed circular or looped trajectory). If a particle returns to its starting point, the displacement is zero, and therefore the average velocity can be zero over that time interval.<br/>- Acceleration: Even when speed is constant, any change in the direction of velocity gives rise to centripetal acceleration. Hence, acceleration does not necessarily vanish.</p>
-<p><strong>Step 3: Final Conclusion</strong><br/>Because speed is constant, equal path lengths are traversed in equal time intervals.</p>
+  <name><text>NEETUG_PHYSICS_MCQI_MOTIONINAPLANE_MCQ_Q07 - Two-dimensional motion with constant positive speed</text></name>
+  <questiontext format="html"><text><![CDATA[<p>In a two dimensional motion, instantaneous speed \(v_0\) is a positive constant. Then which of the following are necessarily true?</p><hr/><p>একটি দ্বিমাত্রিক গতিতে, তাৎক্ষণিক দ্রুতি \(v_0\) একটি ধনাত্মক ধ্রুবক। তাহলে নিচের কোনটি আবশ্যিকভাবে সত্য?</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>Instantaneous speed is the rate of change of path length (distance) with respect to time: \(v_0 = \frac{ds}{dt}\). In two-dimensional motion, the direction of velocity can change even when speed \(v_0\) is constant.</p>
+<p><strong>Step 2: Evaluation</strong><br/>- For uniform circular motion at constant speed \(v_0\), the particle returns to its starting point after one full revolution, making displacement and average velocity zero; thus, average velocity need not be non-zero at all times.<br/>- Over half a revolution in uniform circular motion, the velocity reverses direction, so \(\Delta \mathbf{v} = 2v_0 \neq 0\), meaning average acceleration does not always vanish.<br/>- Because the direction of velocity can change, displacement vectors in equal time intervals need not be equal.<br/>- Since \(v_0 = \frac{ds}{dt}\) is constant, the path length traversed in any time interval \(\Delta t\) is \(\Delta s = v_0 \Delta t\), which depends only on \(\Delta t\).</p>
+<p><strong>Step 3: Final Conclusion</strong><br/>Therefore, equal path lengths are necessarily traversed in equal intervals of time.</p>
 <hr/>
-<p><strong>ধাপ ১: ধারণাগত নীতি</strong><br/>তাৎক্ষণিক দ্রুতি \(v\) হলো অতিক্রান্ত পথ বরাবর দূরত্বের পরিবর্তনের স্কেলার হার: \(v = \frac{ds}{dt}\), যেখানে \(s\) অতিক্রান্ত পথের দৈর্ঘ্য (দূরত্ব) নির্দেশ করে।</p>
-<p><strong>ধাপ ২: গতিবিদ্যা সংক্রান্ত রাশিগুলির মূল্যায়ন</strong><br/>- অতিক্রান্ত দূরত্ব: যদি তাৎক্ষণিক দ্রুতির মান \(v_0\) ধ্রুবক থাকে, তবে যেকোনো সময় ব্যবধান \(\Delta t = t_2 - t_1\)-এ অতিক্রান্ত মোট দূরত্ব হবে \(\Delta s = \int_{t_1}^{t_2} v_0 \, dt = v_0 \Delta t\)। সুতরাং, সমান সময়ের ব্যবধানে সর্বদা সমান পথদৈর্ঘ্য অতিক্রান্ত হয়।<br/>- সরণ ও বেগ: ধ্রুবক দ্রুতিতে গতিশীল কোনো কণা তার গতির অভিমুখ পরিবর্তন করতে পারে (যেমন একটি বদ্ধ বৃত্তাকার পথে গতিশীল কণা)। কণাটি যদি তার প্রাথমিক অবস্থানে ফিরে আসে, তবে সরণ শূন্য হয় এবং ফলস্বরূপ ওই সময় ব্যবধানে গড় বেগও শূন্য হতে পারে।<br/>- ত্বরণ: দ্রুতি ধ্রুবক থাকলেও বেগের অভিমুখ পরিবর্তনের কারণে কেন্দ্রাভিমুখী ত্বরণের সৃষ্টি হয়। তাই ত্বরণ যে সর্বদা শূন্য হবে তা নয়।</p>
-<p><strong>ধাপ ৩: চূড়ান্ত সিদ্ধান্ত</strong><br/>যেহেতু দ্রুতি ধ্রুবক, তাই সমান সময়ের ব্যবধানে সর্বদা সমান পথদৈর্ঘ্য অতিক্রান্ত হয়।</p>]]></text>
-  </generalfeedback>
+<p><strong>ধাপ ১: ধারণাগত নীতি</strong><br/>তাৎক্ষণিক দ্রুতি হলো সময়ের সাপেক্ষে অতিক্রান্ত পথের দৈর্ঘ্যের (দূরত্বের) পরিবর্তনের হার: \(v_0 = \frac{ds}{dt}\)। দ্বিমাত্রিক গতিতে দ্রুতি \(v_0\) ধ্রুবক থাকলেও বেগের দিক পরিবর্তিত হতে পারে।</p>
+<p><strong>ধাপ ২: মূল্যায়ন</strong><br/>- \(v_0\) ধ্রুব দ্রুতিতে সুষম বৃত্তীয় গতিতে, একটি পূর্ণ আবর্তনের পর কণাটি প্রারম্ভিক বিন্দুতে ফিরে আসে, ফলে সরণ ও গড় বেগ শূন্য হয়; তাই গড় বেগ সর্বদা অশূন্য হবে এমন নয়।<br/>- সুষম বৃত্তীয় গতিতে অর্ধ-আবর্তনে বেগের দিক বিপরীত হয়, ফলে \(\Delta \mathbf{v} = 2v_0 \neq 0\), অর্থাৎ গড় ত্বরণ সর্বদা শূন্য হয় না।<br/>- যেহেতু বেগের দিক পরিবর্তিত হতে পারে, তাই সমান সময়ের ব্যবধানে সরণ ভেক্টরগুলি সমান নাও হতে পারে।<br/>- যেহেতু \(v_0 = \frac{ds}{dt}\) ধ্রুবক, তাই যেকোনো সময় ব্যবধান \(\Delta t\)-তে অতিক্রান্ত পথের দৈর্ঘ্য \(\Delta s = v_0 \Delta t\), যা শুধুমাত্র \(\Delta t\)-এর ওপর নির্ভর করে।</p>
+<p><strong>ধাপ ৩: চূড়ান্ত সিদ্ধান্ত</strong><br/>সুতরাং, সমান সময়ের ব্যবধানে আবশ্যিকভাবে সমান পথ-দৈর্ঘ্য অতিক্রান্ত হয়।</p>]]></text></generalfeedback>
   <defaultgrade>4.0000000</defaultgrade>
   <penalty>0.2500000</penalty>
   <hidden>0</hidden>
@@ -287,8 +259,9 @@
     <tag><text>lang:en</text></tag>
     <tag><text>lang:bn</text></tag>
     <tag><text>subject:physics</text></tag>
-    <tag><text>class:class_11</text></tag>
-    <tag><text>topic:kinematics_in_a_plane</text></tag>
+    <tag><text>section:mcq_i</text></tag>
+    <tag><text>class:11</text></tag>
+    <tag><text>topic:kinematics_in_2d</text></tag>
     <tag><text>chapter:motion_in_a_plane</text></tag>
     <tag><text>typology:mcq</text></tag>
     <tag><text>difficulty:medium</text></tag>
@@ -299,21 +272,15 @@
   </tags>
 </question>
 <question type="multichoice">
-  <name><text>NEET_UG_PHYSICS_MOTION_IN_A_PLANE_MCQ_Q4_8 - Acceleration direction for motion in a plane</text></name>
-  <questiontext format="html">
-    <text><![CDATA[<p>In a two dimensional motion, instantaneous speed \(v_0\) is a positive constant. Then which of the following are necessarily true?</p><hr/><p>একটি দ্বিমাত্রিক গতিতে, তাৎক্ষণিক দ্রুতি \(v_0\) একটি ধনাত্মক ধ্রুবক। তাহলে নীচের কোনটি অবশ্যই সত্য?</p>]]></text>
-  </questiontext>
-  <generalfeedback format="html">
-    <text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>In two-dimensional motion, the velocity vector of a particle at any instant lies completely within the plane of motion, and its acceleration vector is defined as \(\mathbf{a} = \frac{d\mathbf{v}}{dt}\).</p>
-<p><strong>Step 2: Analysis of Acceleration Components</strong><br/>The acceleration vector can be decomposed into a tangential component \(a_t = \frac{dv}{dt}\) along the velocity and a normal (centripetal) component \(a_n = \frac{v^2}{\rho}\) directed toward the center of curvature, where \(\rho\) is the radius of curvature.<br/>Since the instantaneous speed \(v = v_0\) is constant, the tangential acceleration vanishes (\(a_t = 0\)). The entire acceleration is therefore the normal acceleration: \(\mathbf{a} = a_n \hat{\mathbf{n}}\). Both the tangent vector and the normal vector to any trajectory confined to a plane lie strictly within that plane.</p>
-<p><strong>Step 3: Evaluation of Other Possibilities</strong><br/>The motion is not necessarily uniform circular motion because the radius of curvature \(\rho\) can vary arbitrarily along a curved plane path. Furthermore, the acceleration need not be bounded if the curvature becomes infinitely sharp, nor must it be zero since any curved path has non-zero centripetal acceleration.</p>
-<p><strong>Step 4: Final Conclusion</strong><br/>Because the trajectory is confined to the plane, any change in the velocity vector occurs solely within that plane. Thus, the acceleration of the particle is necessarily in the plane of motion.</p>
+  <name><text>NEETUG_PHYSICS_MCQI_MOTIONINAPLANE_MCQ_Q08 - Acceleration in two-dimensional motion with constant speed</text></name>
+  <questiontext format="html"><text><![CDATA[<p>In a two dimensional motion, instantaneous speed \(v_0\) is a positive constant. Then which of the following are necessarily true?</p><hr/><p>একটি দ্বিমাত্রিক গতিতে, তাৎক্ষণিক দ্রুতি \(v_0\) একটি ধনাত্মক ধ্রুবক। তাহলে নিচের কোনটি আবশ্যিকভাবে সত্য?</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>In two-dimensional motion, the position vector \(\mathbf{r}(t)\) is confined to a single fixed plane. Consequently, the velocity vector \(\mathbf{v} = \frac{d\mathbf{r}}{dt}\) and the acceleration vector \(\mathbf{a} = \frac{d\mathbf{v}}{dt}\) must also lie in that same plane.</p>
+<p><strong>Step 2: Evaluation</strong><br/>- The acceleration need not be zero, because the direction of velocity can change along a curved path.<br/>- The acceleration need not be bounded unless the curvature of the path is bounded.<br/>- The particle need not undergo uniform circular motion; it can move along any arbitrary curved path in the plane at constant speed \(v_0\).<br/>- Since the entire motion takes place in one plane, the change in velocity \(\Delta\mathbf{v}\) lies in that plane, so the acceleration \(\mathbf{a}\) necessarily lies in the plane of motion.</p>
+<p><strong>Step 3: Final Conclusion</strong><br/>Therefore, the acceleration of the particle is necessarily in the plane of motion.</p>
 <hr/>
-<p><strong>ধাপ ১: ধারণাগত নীতি</strong><br/>দ্বিমাত্রিক গতিতে যেকোনো মুহূর্তে কণার বেগ ভেক্টরটি সম্পূর্ণভাবে গতির সমতলে অবস্থান করে এবং এর ত্বরণ ভেক্টরটি \(\mathbf{a} = \frac{d\mathbf{v}}{dt}\) দ্বারা সংজ্ঞায়িত হয়।</p>
-<p><strong>ধাপ ২: ত্বরণের উপাংশগুলির বিশ্লেষণ</strong><br/>ত্বরণ ভেক্টরকে বেগের অভিমুখে স্পর্শকীয় উপাংশ \(a_t = \frac{dv}{dt}\) এবং বক্রতা কেন্দ্রের দিকে নির্দেশিত অভিলম্ব (কেন্দ্রাভিমুখী) উপাংশ \(a_n = \frac{v^2}{\rho}\)-তে বিভাজিত করা যায়, যেখানে \(\rho\) হলো বক্রতা ব্যাসার্ধ।<br/>যেহেতু তাৎক্ষণিক দ্রুতি \(v = v_0\) ধ্রুবক, তাই স্পর্শকীয় ত্বরণ শূন্য হয় (\(a_t = 0\))। ফলস্বরূপ, সমগ্র ত্বরণটিই হলো অভিলম্ব ত্বরণ: \(\mathbf{a} = a_n \hat{\mathbf{n}}\)। সমতলে সীমাবদ্ধ যেকোনো গতিপথের জন্য স্পর্শক ও অভিলম্ব উভয় ভেক্টরই নিশ্চিতভাবে ওই সমতলেই অবস্থান করে।</p>
-<p><strong>ধাপ ৩: অন্যান্য সম্ভাবনার মূল্যায়ন</strong><br/>গতিটি যে সুষম বৃত্তীয় গতি হবে তা আবশ্যক নয়, কারণ সমতলের বক্রপথে বক্রতা ব্যাসার্ধ \(\rho\) পরিবর্তিত হতে পারে। অতিরিক্তভাবে, বক্রতা অত্যন্ত তীক্ষ্ণ হলে ত্বরণ সীমাবদ্ধ নাও হতে পারে, আবার বক্রপথের কারণে ত্বরণ শূন্য হওয়াও আবশ্যক নয়।</p>
-<p><strong>ধাপ ৪: চূড়ান্ত সিদ্ধান্ত</strong><br/>যেহেতু গতিপথটি একটি নির্দিষ্ট সমতলে সীমাবদ্ধ, তাই বেগ ভেক্টরের পরিবর্তন কেবল সেই সমতলের মধ্যেই ঘটে। অতএব, কণাটির ত্বরণ অবশ্যই গতির সমতলে অবস্থান করে।</p>]]></text>
-  </generalfeedback>
+<p><strong>ধাপ ১: ধারণাগত নীতি</strong><br/>দ্বিমাত্রিক গতিতে, অবস্থান ভেক্টর \(\mathbf{r}(t)\) একটি নির্দিষ্ট সমতলে সীমাবদ্ধ থাকে। ফলস্বরূপ, বেগ ভেক্টর \(\mathbf{v} = \frac{d\mathbf{r}}{dt}\) এবং ত্বরণ ভেক্টর \(\mathbf{a} = \frac{d\mathbf{v}}{dt}\)-ও আবশ্যিকভাবে সেই একই সমতলে অবস্থান করে।</p>
+<p><strong>ধাপ ২: মূল্যায়ন</strong><br/>- বক্রপথে বেগের দিক পরিবর্তিত হতে পারে বলে ত্বরণ শূন্য নাও হতে পারে।<br/>- পথের বক্রতা সীমাবদ্ধ না হলে ত্বরণ সীমাবদ্ধ নাও হতে পারে।<br/>- কণাটিকে যে সুষম বৃত্তীয় গতিতেই থাকতে হবে এমন নয়; এটি \(v_0\) ধ্রুব দ্রুতিতে সমতলের যেকোনো বক্রপথে চলতে পারে।<br/>- যেহেতু সমগ্র গতিটি একটি সমতলে ঘটে, তাই বেগের পরিবর্তন \(\Delta\mathbf{v}\) সেই সমতলেই থাকে, ফলে ত্বরণ \(\mathbf{a}\) আবশ্যিকভাবে গতির সমতলেই অবস্থান করে।</p>
+<p><strong>ধাপ ৩: চূড়ান্ত সিদ্ধান্ত</strong><br/>সুতরাং, কণাটির ত্বরণ আবশ্যিকভাবে গতির সমতলেই থাকে।</p>]]></text></generalfeedback>
   <defaultgrade>4.0000000</defaultgrade>
   <penalty>0.2500000</penalty>
   <hidden>0</hidden>
@@ -329,8 +296,9 @@
     <tag><text>lang:en</text></tag>
     <tag><text>lang:bn</text></tag>
     <tag><text>subject:physics</text></tag>
-    <tag><text>class:class_11</text></tag>
-    <tag><text>topic:kinematics_in_a_plane</text></tag>
+    <tag><text>section:mcq_i</text></tag>
+    <tag><text>class:11</text></tag>
+    <tag><text>topic:kinematics_in_2d</text></tag>
     <tag><text>chapter:motion_in_a_plane</text></tag>
     <tag><text>typology:mcq</text></tag>
     <tag><text>difficulty:medium</text></tag>
@@ -341,23 +309,19 @@
   </tags>
 </question>
 <question type="multichoice">
-  <name><text>NEET_UG_PHYSICS_MOTION_IN_A_PLANE_MCQ_Q4_9 - Triple product relations for three coplanar vectors</text></name>
-  <questiontext format="html">
-    <text><![CDATA[<p>Three vectors \(\mathbf{A}\), \(\mathbf{B}\) and \(\mathbf{C}\) add up to zero. Find which is false.</p><hr/><p>তিনটি ভেক্টর \(\mathbf{A}\), \(\mathbf{B}\) এবং \(\mathbf{C}\)-এর যোগফল শূন্য। কোনটি মিথ্যা তা নির্ণয় করো।</p>]]></text>
-  </questiontext>
-  <generalfeedback format="html">
-    <text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>Three vectors satisfy the vector addition condition \(\mathbf{A} + \mathbf{B} + \mathbf{C} = \mathbf{0}\).</p>
-<p><strong>Step 2: Coplanarity Analysis</strong><br/>Because three non-zero vectors sum to the null vector, they form the sides of a closed triangle. Consequently, \(\mathbf{A}\), \(\mathbf{B}\), and \(\mathbf{C}\) are strictly coplanar (they lie in the same geometric plane).</p>
-<p><strong>Step 3: Relevant Formulae and Principles</strong><br/>The cross product \(\mathbf{A} \times \mathbf{B}\) produces a vector perpendicular to the plane containing \(\mathbf{A}\) and \(\mathbf{B}\).<br/>The scalar triple product \((\mathbf{A} \times \mathbf{B}) \cdot \mathbf{C}\) represents the volume of the parallelepiped formed by the three vectors. For any three coplanar vectors, this volume is always identically zero: \((\mathbf{A} \times \mathbf{B}) \cdot \mathbf{C} = 0\).</p>
-<p><strong>Step 4: Step-by-Step Working</strong><br/>Since \(\mathbf{C}\) lies in the same plane as \(\mathbf{A}\) and \(\mathbf{B}\), and \(\mathbf{A} \times \mathbf{B}\) is perpendicular to that plane, the dot product of \(\mathbf{A} \times \mathbf{B}\) with \(\mathbf{C}\) is identically zero under all circumstances, irrespective of whether \(\mathbf{B}\) and \(\mathbf{C}\) are parallel or not. Therefore, asserting that \((\mathbf{A} \times \mathbf{B}) \cdot \mathbf{C}\) is not zero unless \(\mathbf{B}\) and \(\mathbf{C}\) are parallel is false, because it is always zero.</p>
-<p><strong>Step 5: Check and Final Answer</strong><br/>The false assertion is that \((\mathbf{A}\times \mathbf{B})\cdot\mathbf{C}\) is not zero unless \(\mathbf{B},\mathbf{C}\) are parallel.</p>
+  <name><text>NEETUG_PHYSICS_MCQI_MOTIONINAPLANE_MCQ_Q09 - False relation for three vectors summing to zero</text></name>
+  <questiontext format="html"><text><![CDATA[<p>Three vectors \(\mathbf{A}, \mathbf{B}\) and \(\mathbf{C}\) add up to zero. Find which is false.</p><hr/><p>তিনটি ভেক্টর \(\mathbf{A}, \mathbf{B}\) এবং \(\mathbf{C}\)-এর যোগফল শূন্য। নিচের কোনটি মিথ্যা তা খুঁজে বের করো।</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>Three vectors satisfy \(\mathbf{A} + \mathbf{B} + \mathbf{C} = \mathbf{0}\).</p>
+<p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>Since the three vectors sum to zero, they form a closed triangle (or are collinear) and therefore are always coplanar.</p>
+<p><strong>Step 3: Relevant Formulae and Principles</strong><br/>From \(\mathbf{A} + \mathbf{B} + \mathbf{C} = \mathbf{0}\), we have \(\mathbf{A} = -(\mathbf{B} + \mathbf{C})\). Using properties of cross and dot products: \(\mathbf{B} \times \mathbf{B} = \mathbf{0}\) and \((\mathbf{B} \times \mathbf{C}) \cdot \mathbf{C} = 0\).</p>
+<p><strong>Step 4: Step-by-Step Working</strong><br/>Evaluate \(\mathbf{A} \times \mathbf{B}\):<br/>\(\mathbf{A} \times \mathbf{B} = -(\mathbf{B} + \mathbf{C}) \times \mathbf{B} = -(\mathbf{B} \times \mathbf{B} + \mathbf{C} \times \mathbf{B}) = \mathbf{B} \times \mathbf{C}\).<br/>Now take the dot product with \(\mathbf{C}\):<br/>\((\mathbf{A} \times \mathbf{B}) \cdot \mathbf{C} = (\mathbf{B} \times \mathbf{C}) \cdot \mathbf{C}\).<br/>Since \(\mathbf{B} \times \mathbf{C}\) is always perpendicular to \(\mathbf{C}\), their dot product \((\mathbf{B} \times \mathbf{C}) \cdot \mathbf{C} = 0\) identically, regardless of whether \(\mathbf{B}\) and \(\mathbf{C}\) are parallel or not.<br/>Therefore, claiming that \((\mathbf{A} \times \mathbf{B}) \cdot \mathbf{C}\) is not zero unless \(\mathbf{B}, \mathbf{C}\) are parallel is false.</p>
+<p><strong>Step 5: Check and Final Answer</strong><br/>By contrast, \((\mathbf{A} \times \mathbf{B}) \times \mathbf{C} = (\mathbf{B} \times \mathbf{C}) \times \mathbf{C}\) vanishes only when \(\mathbf{B} \times \mathbf{C} = \mathbf{0}\) (i.e., \(\mathbf{B}, \mathbf{C}\) are parallel) and lies in the plane of \(\mathbf{A}, \mathbf{B}, \mathbf{C}\). Thus, the false statement is that \((\mathbf{A} \times \mathbf{B}) \cdot \mathbf{C}\) is not zero unless \(\mathbf{B}, \mathbf{C}\) are parallel.</p>
 <hr/>
-<p><strong>ধাপ ১: প্রদত্ত তথ্য ও শর্তাবলি</strong><br/>তিনটি ভেক্টর ভেক্টর যোগের শর্ত মেনে চলে: \(\mathbf{A} + \mathbf{B} + \mathbf{C} = \mathbf{0}\)।</p>
-<p><strong>ধাপ ২: সমতলীয়তার বিশ্লেষণ</strong><br/>যেহেতু তিনটি অশূন্য ভেক্টরের লব্ধি শূন্য, তাই তারা একটি বদ্ধ ত্রিভুজের বাহু গঠন করে। ফলস্বরূপ, \(\mathbf{A}\), \(\mathbf{B}\) এবং \(\mathbf{C}\) নিশ্চিতভাবে সমতলীয় (একই সমতলে অবস্থিত)।</p>
-<p><strong>ধাপ ৩: প্রাসঙ্গিক সূত্র ও নীতি</strong><br/>\(\mathbf{A} \times \mathbf{B}\) ক্রস গুণনটি \(\mathbf{A}\) এবং \(\mathbf{B}\) যে সমতলে অবস্থিত তার সাথে লম্ব একটি ভেক্টর উৎপন্ন করে।<br/>স্কেলার ট্রিপল গুণফল \((\mathbf{A} \times \mathbf{B}) \cdot \mathbf{C}\) তিনটি ভেক্টর দ্বারা গঠিত সমান্তরাল ষটফলকের আয়তন নির্দেশ করে। যেকোনো তিনটি সমতলীয় ভেক্টরের ক্ষেত্রে এই আয়তন সর্বদা শূন্য হয়: \((\mathbf{A} \times \mathbf{B}) \cdot \mathbf{C} = 0\)।</p>
-<p><strong>ধাপ ৪: ধাপে ধাপে সমাধান</strong><br/>যেহেতু \(\mathbf{C}\) ভেক্টরটি \(\mathbf{A}\) ও \(\mathbf{B}\)-এর একই সমতলে অবস্থিত এবং \(\mathbf{A} \times \mathbf{B}\) ভেক্টরটি ওই সমতলের ওপর লম্ব, তাই \(\mathbf{B}\) ও \(\mathbf{C}\) সমান্তরাল হোক বা না হোক, \((\mathbf{A} \times \mathbf{B}) \cdot \mathbf{C}\) সর্বদা শূন্য হয়। সুতরাং, \((\mathbf{A} \times \mathbf{B}) \cdot \mathbf{C}\) অশূন্য হবে যদি না \(\mathbf{B}\) ও \(\mathbf{C}\) সমান্তরাল হয়—এই দাবিটি সম্পূর্ণ মিথ্যা, কারণ এটি সর্বদাই শূন্য।</p>
-<p><strong>ধাপ ৫: যাচাই ও চূড়ান্ত উত্তর</strong><br/>মিথ্যা বিবৃতিটি হলো: \((\mathbf{A}\times \mathbf{B})\cdot\mathbf{C}\) is not zero unless \(\mathbf{B},\mathbf{C}\) are parallel।</p>]]></text>
-  </generalfeedback>
+<p><strong>ধাপ ১: প্রদত্ত তথ্য ও শর্তাবলি</strong><br/>তিনটি ভেক্টরের ক্ষেত্রে \(\mathbf{A} + \mathbf{B} + \mathbf{C} = \mathbf{0}\)।</p>
+<p><strong>ধাপ ২: অনুমান ও চিহ্ন প্রথা</strong><br/>যেহেতু ভেক্টর তিনটির যোগফল শূন্য, তাই তারা একটি বদ্ধ ত্রিভুজ গঠন করে (অথবা সমরেখ) এবং সর্বদা একই সমতলে অবস্থান করে।</p>
+<p><strong>ধাপ ৩: প্রাসঙ্গিক সূত্র ও নীতি</strong><br/>\(\mathbf{A} + \mathbf{B} + \mathbf{C} = \mathbf{0}\) থেকে পাই \(\mathbf{A} = -(\mathbf{B} + \mathbf{C})\)। ক্রস এবং ডট গুণফলের ধর্ম অনুযায়ী: \(\mathbf{B} \times \mathbf{B} = \mathbf{0}\) এবং \((\mathbf{B} \times \mathbf{C}) \cdot \mathbf{C} = 0\)।</p>
+<p><strong>ধাপ ৪: ধাপে ধাপে সমাধান</strong><br/>\(\mathbf{A} \times \mathbf{B}\) নির্ণয় করি:<br/>\(\mathbf{A} \times \mathbf{B} = -(\mathbf{B} + \mathbf{C}) \times \mathbf{B} = -(\mathbf{B} \times \mathbf{B} + \mathbf{C} \times \mathbf{B}) = \mathbf{B} \times \mathbf{C}\)।<br/>এখন \(\mathbf{C}\)-এর সাথে ডট গুণফল নিই:<br/>\((\mathbf{A} \times \mathbf{B}) \cdot \mathbf{C} = (\mathbf{B} \times \mathbf{C}) \cdot \mathbf{C}\)।<br/>যেহেতু \(\mathbf{B} \times \mathbf{C}\) সর্বদা \(\mathbf{C}\)-এর ওপর লম্ব, তাই \(\mathbf{B}\) এবং \(\mathbf{C}\) সমান্তরাল হোক বা না হোক, \((\mathbf{B} \times \mathbf{C}) \cdot \mathbf{C} = 0\) সর্বদা শূন্য হবে।<br/>সুতরাং, \(\mathbf{B}, \mathbf{C}\) সমান্তরাল না হলে \((\mathbf{A} \times \mathbf{B}) \cdot \mathbf{C}\) শূন্য নয়—এই বিবৃতিটি মিথ্যা।</p>
+<p><strong>ধাপ ৫: যাচাই এবং চূড়ান্ত উত্তর</strong><br/>অতএব, \((\mathbf{A} \times \mathbf{B}) \cdot \mathbf{C}\) শূন্য নয় যদি না \(\mathbf{B}, \mathbf{C}\) সমান্তরাল হয়—এই বিবৃতিটি মিথ্যা।</p>]]></text></generalfeedback>
   <defaultgrade>4.0000000</defaultgrade>
   <penalty>0.2500000</penalty>
   <hidden>0</hidden>
@@ -367,41 +331,38 @@
   <answer fraction="0" format="html"><text><![CDATA[<p>\((\mathbf{A}\times \mathbf{B})\times \mathbf{C}\) is not zero unless \(\mathbf{B},\mathbf{C}\) are parallel</p>]]></text></answer>
   <answer fraction="100" format="html"><text><![CDATA[<p>\((\mathbf{A}\times \mathbf{B})\cdot\mathbf{C}\) is not zero unless \(\mathbf{B},\mathbf{C}\) are parallel</p>]]></text></answer>
   <answer fraction="0" format="html"><text><![CDATA[<p>If \(\mathbf{A},\mathbf{B},\mathbf{C}\) define a plane, \((\mathbf{A}\times \mathbf{B})\times \mathbf{C}\) is in that plane</p>]]></text></answer>
-  <answer fraction="0" format="html"><text><![CDATA[<p>\((\mathbf{A}\times \mathbf{B})\cdot\mathbf{C} = |\mathbf{A}||\mathbf{B}||\mathbf{C}|\rightarrow C^2 = A^2 + B^2\)</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>\((\mathbf{A}\times \mathbf{B})\cdot\mathbf{C} = |\mathbf{A}||\mathbf{B}||\mathbf{C}| \rightarrow C^2 = A^2 + B^2\)</p>]]></text></answer>
   <tags>
     <tag><text>standard:neet_ug</text></tag>
     <tag><text>lang:en</text></tag>
     <tag><text>lang:bn</text></tag>
     <tag><text>subject:physics</text></tag>
-    <tag><text>class:class_11</text></tag>
-    <tag><text>topic:vector_products</text></tag>
+    <tag><text>section:mcq_i</text></tag>
+    <tag><text>class:11</text></tag>
+    <tag><text>topic:vectors</text></tag>
     <tag><text>chapter:motion_in_a_plane</text></tag>
     <tag><text>typology:mcq</text></tag>
-    <tag><text>difficulty:medium</text></tag>
+    <tag><text>difficulty:hard</text></tag>
     <tag><text>blooms:analyze</text></tag>
-    <tag><text>calculation:light</text></tag>
+    <tag><text>calculation:moderate</text></tag>
     <tag><text>media:equation</text></tag>
-    <tag><text>multiconcept:false</text></tag>
+    <tag><text>multiconcept:true</text></tag>
   </tags>
 </question>
 <question type="multichoice">
-  <name><text>NEET_UG_PHYSICS_MOTION_IN_A_PLANE_MCQ_Q4_10 - Condition on dot product of two vectors</text></name>
-  <questiontext format="html">
-    <text><![CDATA[<p>It is found that \(|\mathbf{A}+\mathbf{B}|=|\mathbf{A}|\). This necessarily implies,</p><hr/><p>দেখা গেল যে \(|\mathbf{A}+\mathbf{B}|=|\mathbf{A}|\)। এটি আবশ্যিকভাবে নির্দেশ করে যে,</p>]]></text>
-  </questiontext>
-  <generalfeedback format="html">
-    <text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>The resultant of two vectors \(\mathbf{A}\) and \(\mathbf{B}\) has magnitude equal to the magnitude of \(\mathbf{A}\): \(|\mathbf{A} + \mathbf{B}| = |\mathbf{A}|\).</p>
-<p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>The vector magnitudes \(|\mathbf{A}| = A\) and \(|\mathbf{B}| = B\) are non-negative real numbers.</p>
-<p><strong>Step 3: Relevant Formulae and Principles</strong><br/>The square of the magnitude of the sum of two vectors is expressed via the scalar product:<br/>\[|\mathbf{A} + \mathbf{B}|^2 = (\mathbf{A} + \mathbf{B}) \cdot (\mathbf{A} + \mathbf{B}) = |\mathbf{A}|^2 + |\mathbf{B}|^2 + 2(\mathbf{A} \cdot \mathbf{B})\]</p>
-<p><strong>Step 4: Step-by-Step Working</strong><br/>Equating \(|\mathbf{A} + \mathbf{B}|^2\) to \(|\mathbf{A}|^2\):<br/>\[|\mathbf{A}|^2 + |\mathbf{B}|^2 + 2(\mathbf{A} \cdot \mathbf{B}) = |\mathbf{A}|^2\]<br/>Subtracting \(|\mathbf{A}|^2\) from both sides gives:<br/>\[|\mathbf{B}|^2 + 2(\mathbf{A} \cdot \mathbf{B}) = 0 \implies 2(\mathbf{A} \cdot \mathbf{B}) = -|\mathbf{B}|^2\]<br/>Since the square of a real magnitude is always non-negative (\(|\mathbf{B}|^2 \ge 0\)), it follows that:<br/>\[2(\mathbf{A} \cdot \mathbf{B}) \le 0 \implies \mathbf{A} \cdot \mathbf{B} \le 0\]</p>
-<p><strong>Step 5: Check and Final Answer</strong><br/>The condition does not strictly require \(\mathbf{B} = \mathbf{0}\) or perpendicularity or antiparallelism exclusively, but it universally mandates that the scalar product is non-positive: \(\mathbf{A} \cdot \mathbf{B} \le 0\).</p>
+  <name><text>NEETUG_PHYSICS_MCQI_MOTIONINAPLANE_MCQ_Q10 - Condition implied by magnitude of sum equaling magnitude of one vector</text></name>
+  <questiontext format="html"><text><![CDATA[<p>It is found that \(|\mathbf{A}+\mathbf{B}|=|\mathbf{A}|\). This necessarily implies,</p><hr/><p>দেখা গেল যে \(|\mathbf{A}+\mathbf{B}|=|\mathbf{A}|\)। এটি আবশ্যিকভাবে নির্দেশ করে যে,</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>Two vectors \(\mathbf{A}\) and \(\mathbf{B}\) satisfy the magnitude relation \(|\mathbf{A}+\mathbf{B}|=|\mathbf{A}|\).</p>
+<p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>Let \(|\mathbf{A}| = A \ge 0\) and \(|\mathbf{B}| = B \ge 0\).</p>
+<p><strong>Step 3: Relevant Formulae and Principles</strong><br/>The squared magnitude of the sum of two vectors is given by \(|\mathbf{A} + \mathbf{B}|^2 = |\mathbf{A}|^2 + |\mathbf{B}|^2 + 2\mathbf{A} \cdot \mathbf{B}\).</p>
+<p><strong>Step 4: Step-by-Step Working</strong><br/>Squaring both sides of \(|\mathbf{A}+\mathbf{B}|=|\mathbf{A}|\):<br/>\(|\mathbf{A} + \mathbf{B}|^2 = |\mathbf{A}|^2\)<br/>\(A^2 + B^2 + 2\mathbf{A} \cdot \mathbf{B} = A^2\)<br/>\(B^2 + 2\mathbf{A} \cdot \mathbf{B} = 0\)<br/>\(\mathbf{A} \cdot \mathbf{B} = -\frac{B^2}{2}\).<br/>Since \(B^2 \ge 0\), we have \(-\frac{B^2}{2} \le 0\), so \(\mathbf{A} \cdot \mathbf{B} \le 0\).</p>
+<p><strong>Step 5: Check and Final Answer</strong><br/>Note that \(\mathbf{B} = \mathbf{0}\) is only one special case (when \(\mathbf{A} \cdot \mathbf{B} = 0\)), and \(\mathbf{A}, \mathbf{B}\) need not be antiparallel or perpendicular in general. Thus, the relation necessarily implies \(\mathbf{A} \cdot \mathbf{B} \le 0\).</p>
 <hr/>
-<p><strong>ধাপ ১: প্রদত্ত তথ্য ও শর্তাবলি</strong><br/>দুটি ভেক্টর \(\mathbf{A}\) এবং \(\mathbf{B}\)-এর লব্ধির মান ভেক্টর \(\mathbf{A}\)-এর মানের সমান: \(|\mathbf{A} + \mathbf{B}| = |\mathbf{A}|\)।</p>
-<p><strong>ধাপ ২: অনুমান ও চিহ্ন সংক্রান্ত নিয়ম</strong><br/>ভেক্টরের মান \(|\mathbf{A}| = A\) এবং \(|\mathbf{B}| = B\) হলো অঋণাত্মক বাস্তব সংখ্যা।</p>
-<p><strong>ধাপ ৩: প্রাসঙ্গিক সূত্র ও নীতি</strong><br/>দুটি ভেক্টরের যোগফলের মানের বর্গ স্কেলার গুণনের মাধ্যমে প্রকাশ করা যায়:<br/>\[|\mathbf{A} + \mathbf{B}|^2 = (\mathbf{A} + \mathbf{B}) \cdot (\mathbf{A} + \mathbf{B}) = |\mathbf{A}|^2 + |\mathbf{B}|^2 + 2(\mathbf{A} \cdot \mathbf{B})\]</p>
-<p><strong>ধাপ ৪: ধাপে ধাপে সমাধান</strong><br/>\(|\mathbf{A} + \mathbf{B}|^2\)-এর মান \(|\mathbf{A}|^2\)-এর সমান করে পাই:<br/>\[|\mathbf{A}|^2 + |\mathbf{B}|^2 + 2(\mathbf{A} \cdot \mathbf{B}) = |\mathbf{A}|^2\]<br/>উভয় পাশ থেকে \(|\mathbf{A}|^2\) বিয়োগ করে পাই:<br/>\[|\mathbf{B}|^2 + 2(\mathbf{A} \cdot \mathbf{B}) = 0 \implies 2(\mathbf{A} \cdot \mathbf{B}) = -|\mathbf{B}|^2\]<br/>যেহেতু যেকোনো বাস্তব মানের বর্গ সর্বদাই অঋণাত্মক (\(|\mathbf{B}|^2 \ge 0\)), তাই:<br/>\[2(\mathbf{A} \cdot \mathbf{B}) \le 0 \implies \mathbf{A} \cdot \mathbf{B} \le 0\]</p>
-<p><strong>ধাপ ৫: যাচাই ও চূড়ান্ত উত্তর</strong><br/>এই শর্তটি আবশ্যিকভাবে কেবলমাত্র \(\mathbf{B} = \mathbf{0}\) বা পরস্পর লম্ব বা বিপরীতমুখী হওয়া দাবি করে না, তবে সর্বজনীনভাবে নির্দেশ করে যে স্কেলার গুণফল সর্বদা অঋণাত্মক নয়, অর্থাৎ \(\mathbf{A} \cdot \mathbf{B} \le 0\)।</p>]]></text>
-  </generalfeedback>
+<p><strong>ধাপ ১: প্রদত্ত তথ্য ও শর্তাবলি</strong><br/>\(\mathbf{A}\) এবং \(\mathbf{B}\) দুটি ভেক্টর \(|\mathbf{A}+\mathbf{B}|=|\mathbf{A}|\) সম্পর্কটি মেনে চলে।</p>
+<p><strong>ধাপ ২: অনুমান ও চিহ্ন প্রথা</strong><br/>ধরি \(|\mathbf{A}| = A \ge 0\) এবং \(|\mathbf{B}| = B \ge 0\)।</p>
+<p><strong>ধাপ ৩: প্রাসঙ্গিক সূত্র ও নীতি</strong><br/>দুটি ভেক্টরের যোগফলের মানের বর্গ হলো \(|\mathbf{A} + \mathbf{B}|^2 = |\mathbf{A}|^2 + |\mathbf{B}|^2 + 2\mathbf{A} \cdot \mathbf{B}\)।</p>
+<p><strong>ধাপ ৪: ধাপে ধাপে সমাধান</strong><br/>\(|\mathbf{A}+\mathbf{B}|=|\mathbf{A}|\)-এর উভয় পক্ষকে বর্গ করে পাই:<br/>\(|\mathbf{A} + \mathbf{B}|^2 = |\mathbf{A}|^2\)<br/>\(A^2 + B^2 + 2\mathbf{A} \cdot \mathbf{B} = A^2\)<br/>\(B^2 + 2\mathbf{A} \cdot \mathbf{B} = 0\)<br/>\(\mathbf{A} \cdot \mathbf{B} = -\frac{B^2}{2}\)।<br/>যেহেতু \(B^2 \ge 0\), তাই \(-\frac{B^2}{2} \le 0\), অর্থাৎ \(\mathbf{A} \cdot \mathbf{B} \le 0\)।</p>
+<p><strong>ধাপ ৫: যাচাই এবং চূড়ান্ত উত্তর</strong><br/>\(\mathbf{B} = \mathbf{0}\) শুধুমাত্র একটি বিশেষ ক্ষেত্র, এবং সাধারণভাবে \(\mathbf{A}, \mathbf{B}\) বিপরীত-সমান্তরাল বা লম্ব হতেই হবে এমন নয়। সুতরাং, এটি আবশ্যিকভাবে \(\mathbf{A} \cdot \mathbf{B} \le 0\) নির্দেশ করে।</p>]]></text></generalfeedback>
   <defaultgrade>4.0000000</defaultgrade>
   <penalty>0.2500000</penalty>
   <hidden>0</hidden>
@@ -417,7 +378,8 @@
     <tag><text>lang:en</text></tag>
     <tag><text>lang:bn</text></tag>
     <tag><text>subject:physics</text></tag>
-    <tag><text>class:class_11</text></tag>
+    <tag><text>section:mcq_i</text></tag>
+    <tag><text>class:11</text></tag>
     <tag><text>topic:vectors</text></tag>
     <tag><text>chapter:motion_in_a_plane</text></tag>
     <tag><text>typology:mcq</text></tag>
@@ -429,84 +391,78 @@
   </tags>
 </question>
 <question type="multichoice">
-  <name><text>NEET_UG_PHYSICS_MOTION_IN_A_PLANE_MCQ_Q4_11 - Comparison of projectile parameters for different heights</text></name>
-  <questiontext format="html">
-    <text><![CDATA[<p>Two particles are projected in air with speed \(v_0\) at angles \(\theta_1\) and \(\theta_2\) (both acute) to the horizontal, respectively. If the height reached by the first particle is greater than that of the second, then tick the right choices:</p><hr/><p>দুটি কণাকে অনুভূমিকের সাথে যথাক্রমে \(\theta_1\) এবং \(\theta_2\) কোণে (উভয়েই সূক্ষ্মকোণ) \(v_0\) দ্রুতিতে বায়ুতে প্রক্ষিপ্ত করা হলো। যদি প্রথম কণাটির দ্বারা অর্জিত উচ্চতা দ্বিতীয়টির চেয়ে বেশি হয়, তবে সঠিক বিকল্পগুলি চিহ্নিত করো:</p>]]></text>
-  </questiontext>
-  <generalfeedback format="html">
-    <text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>Two particles are projected with identical speed \(v_0\) at acute angles \(\theta_1\) and \(\theta_2\) to the horizontal, satisfying \(0^\circ < \theta_1, \theta_2 < 90^\circ\). The maximum height reached by the first particle is greater than that of the second: \(H_1 > H_2\).</p>
-<p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>Uniform gravitational acceleration \(g\) acts vertically downwards. Air resistance is ignored.</p>
-<p><strong>Step 3: Relevant Formulae and Principles</strong><br/>The maximum height is \(H = \frac{v_0^2 \sin^2\theta}{2g}\).<br/>The time of flight is \(T = \frac{2v_0 \sin\theta}{g}\).<br/>The horizontal range is \(R = \frac{v_0^2 \sin(2\theta)}{g}\).<br/>The total mechanical energy is \(E = \frac{1}{2}m v_0^2\).</p>
-<p><strong>Step 4: Step-by-Step Working</strong><br/>- Maximum Height and Launch Angle: Given \(H_1 > H_2\), substituting the height formula yields:<br/>\[\frac{v_0^2 \sin^2\theta_1}{2g} > \frac{v_0^2 \sin^2\theta_2}{2g} \implies \sin\theta_1 > \sin\theta_2\]<br/>Since both angles are acute (\(0^\circ < \theta < 90^\circ\)), the sine function is strictly monotonically increasing. Hence, \(\theta_1 > \theta_2\).<br/>- Time of Flight: Since \(\sin\theta_1 > \sin\theta_2\), it immediately follows that:<br/>\[T_1 = \frac{2v_0 \sin\theta_1}{g} > T_2 = \frac{2v_0 \sin\theta_2}{g} \implies T_1 > T_2\]<br/>- Horizontal Range: Range depends on \(\sin(2\theta)\). Because \(\theta_1 > \theta_2\), \(2\theta_1\) could be greater than \(90^\circ\) while \(2\theta_2 \le 90^\circ\); for instance, if \(\theta_1 = 60^\circ\) and \(\theta_2 = 45^\circ\), \(H_1 > H_2\) holds, but \(R_1 = \frac{v_0^2 \sin 120^\circ}{g} = \frac{\sqrt{3}v_0^2}{2g}\) is smaller than \(R_2 = \frac{v_0^2 \sin 90^\circ}{g} = \frac{v_0^2}{g}\). Hence, \(R_1 > R_2\) is not necessarily true.<br/>- Total Energy: The total mechanical energy depends directly on the particle masses, which are not given as equal. Even if masses were equal, both particles are launched with the same speed \(v_0\) from the same ground reference level, making their initial mechanical energies identical, not \(U_1 > U_2\).</p>
-<p><strong>Step 5: Check and Final Answer</strong><br/>The verified statements are that the angle of projection satisfies \(\theta_1 > \theta_2\) and the time of flight satisfies \(T_1 > T_2\).</p>
+  <name><text>NEETUG_PHYSICS_MCQII_MOTIONINAPLANE_MCQ_Q11 - Comparing two projectiles reaching different maximum heights</text></name>
+  <questiontext format="html"><text><![CDATA[<p>Two particles are projected in air with speed \(v_0\) at angles \(\theta_1\) and \(\theta_2\) (both acute) to the horizontal, respectively. If the height reached by the first particle is greater than that of the second, then tick the right choices</p><hr/><p>দুটি কণাকে অনুভূমিকের সাথে যথাক্রমে \(\theta_1\) এবং \(\theta_2\) (উভয়ই সূক্ষ্মকোণ) কোণে \(v_0\) বেগে বাতাসে নিক্ষেপ করা হলো। যদি প্রথম কণাটি দ্বারা অর্জিত উচ্চতা দ্বিতীয়টির চেয়ে বেশি হয়, তবে সঠিক বিকল্পগুলি নির্বাচন করো</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>Both particles are projected with the same speed \(v_0\) at acute angles \(\theta_1\) and \(\theta_2\) (\(0^\circ &lt; \theta_1, \theta_2 &lt; 90^\circ\)). The maximum height of the first particle \(H_1\) is greater than that of the second particle \(H_2\), i.e., \(H_1 &gt; H_2\).</p>
+<p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>Air resistance is neglected and acceleration due to gravity \(g\) is constant.</p>
+<p><strong>Step 3: Relevant Formulae and Principles</strong><br/>Maximum height: \(H = \frac{v_0^2 \sin^2\theta}{2g}\).<br/>Time of flight: \(T = \frac{2v_0 \sin\theta}{g}\).<br/>Horizontal range: \(R = \frac{v_0^2 \sin 2\theta}{g}\).</p>
+<p><strong>Step 4: Step-by-Step Working</strong><br/>Since \(H_1 &gt; H_2\):<br/>\(\frac{v_0^2 \sin^2\theta_1}{2g} &gt; \frac{v_0^2 \sin^2\theta_2}{2g} \implies \sin^2\theta_1 &gt; \sin^2\theta_2\).<br/>Since \(\theta_1\) and \(\theta_2\) are acute angles, \(\sin\theta &gt; 0\) and \(\sin\theta\) is strictly increasing on \((0^\circ, 90^\circ)\), so:<br/>\(\sin\theta_1 &gt; \sin\theta_2 \implies \theta_1 &gt; \theta_2\).<br/>For the time of flight:<br/>\(T_1 = \frac{2v_0 \sin\theta_1}{g} &gt; \frac{2v_0 \sin\theta_2}{g} = T_2 \implies T_1 &gt; T_2\).<br/>For the horizontal range, \(\sin 2\theta\) increases for \(\theta &lt; 45^\circ\) and decreases for \(\theta &gt; 45^\circ\), so \(R_1 &gt; R_2\) is not necessarily true. Also, the masses are not specified, so total energy \(U_1 &gt; U_2\) cannot be concluded.</p>
+<p><strong>Step 5: Check and Final Answer</strong><br/>Therefore, both \(\theta_1 &gt; \theta_2\) and \(T_1 &gt; T_2\) are correct.</p>
 <hr/>
-<p><strong>ধাপ ১: প্রদত্ত তথ্য ও শর্তাবলি</strong><br/>দুটি কণাকে একই দ্রুতি \(v_0\)-তে অনুভূমিকের সাথে সূক্ষ্মকোণে যথাক্রমে \(\theta_1\) এবং \(\theta_2\) কোণে প্রক্ষিপ্ত করা হয়েছে (\(0^\circ < \theta_1, \theta_2 < 90^\circ\))। প্রথম কণার সর্বোচ্চ উচ্চতা দ্বিতীয়টির চেয়ে বেশি: \(H_1 > H_2\)।</p>
-<p><strong>ধাপ ২: অনুমান ও চিহ্ন সংক্রান্ত নিয়ম</strong><br/>উল্লম্বভাবে নিচের দিকে ক্রিয়াশীল সুষম অভিকর্ষীয় ত্বরণ \(g\)। বায়ুর বাধা অগ্রাহ্য করা হয়েছে।</p>
-<p><strong>ধাপ ৩: প্রাসঙ্গিক সূত্র ও নীতি</strong><br/>সর্বোচ্চ উচ্চতা হলো \(H = \frac{v_0^2 \sin^2\theta}{2g}\)।<br/>উড্ডয়নকাল হলো \(T = \frac{2v_0 \sin\theta}{g}\)।<br/>অনুভূমিক সীমা হলো \(R = \frac{v_0^2 \sin(2\theta)}{g}\)।<br/>মোট যান্ত্রিক শক্তি হলো \(E = \frac{1}{2}m v_0^2\)।</p>
-<p><strong>ধাপ ৪: ধাপে ধাপে সমাধান</strong><br/>- সর্বোচ্চ উচ্চতা ও প্রক্ষেপণ কোণ: যেহেতু \(H_1 > H_2\), উচ্চতার সূত্র প্রয়োগ করে পাই:<br/>\[\frac{v_0^2 \sin^2\theta_1}{2g} > \frac{v_0^2 \sin^2\theta_2}{2g} \implies \sin\theta_1 > \sin\theta_2\]<br/>উভয় কোণ সূক্ষ্মকোণ হওয়ায় সাইন অপেক্ষক ক্রমবর্ধমান, ফলে \(\theta_1 > \theta_2\)।<br/>- উড্ডয়নকাল: যেহেতু \(\sin\theta_1 > \sin\theta_2\), তাই:<br/>\[T_1 = \frac{2v_0 \sin\theta_1}{g} > T_2 = \frac{2v_0 \sin\theta_2}{g} \implies T_1 > T_2\]<br/>- অনুভূমিক সীমা: সীমা \(\sin(2\theta)\)-এর ওপর নির্ভর করে। \(\theta_1 > \theta_2\) হলেও \(R_1 > R_2\) হওয়া আবশ্যক নয় (যেমন \(\theta_1 = 60^\circ\) ও \(\theta_2 = 45^\circ\)-এর ক্ষেত্রে \(H_1 > H_2\) হলেও \(R_1 < R_2\) হয়)।<br/>- মোট শক্তি: মোট শক্তি কণার ভরের ওপর নির্ভর করে, যা সমান বলা নেই; এমনকি ভর সমান হলেও একই দ্রুতিতে প্রক্ষিপ্ত হওয়ায় মোট শক্তি সমান হবে, বৃহত্তর নয়।</p>
-<p><strong>ধাপ ৫: যাচাই ও চূড়ান্ত উত্তর</strong><br/>যাচাইকৃত সত্য সিদ্ধান্তগুলি হলো: প্রক্ষেপণ কোণ \(\theta_1 > \theta_2\) এবং উড্ডয়নকাল \(T_1 > T_2\)।</p>]]></text>
-  </generalfeedback>
+<p><strong>ধাপ ১: প্রদত্ত তথ্য ও শর্তাবলি</strong><br/>উভয় কণাকেই অনুভূমিকের সাথে \(\theta_1\) এবং \(\theta_2\) সূক্ষ্মকোণে (\(0^\circ &lt; \theta_1, \theta_2 &lt; 90^\circ\)) একই \(v_0\) বেগে নিক্ষেপ করা হয়েছে। প্রথম কণার সর্বাধিক উচ্চতা \(H_1\) দ্বিতীয় কণার সর্বাধিক উচ্চতা \(H_2\)-এর চেয়ে বেশি, অর্থাৎ \(H_1 &gt; H_2\)।</p>
+<p><strong>ধাপ ২: অনুমান ও চিহ্ন প্রথা</strong><br/>বায়ুর বাধা নগণ্য এবং অভিকর্ষজ ত্বরণ \(g\) ধ্রুবক।</p>
+<p><strong>ধাপ ৩: প্রাসঙ্গিক সূত্র ও নীতি</strong><br/>সর্বাধিক উচ্চতা: \(H = \frac{v_0^2 \sin^2\theta}{2g}\)।<br/>উড্ডয়ন কাল: \(T = \frac{2v_0 \sin\theta}{g}\)।<br/>অনুভূমিক পাল্লা: \(R = \frac{v_0^2 \sin 2\theta}{g}\)।</p>
+<p><strong>ধাপ ৪: ধাপে ধাপে সমাধান</strong><br/>যেহেতু \(H_1 &gt; H_2\):<br/>\(\frac{v_0^2 \sin^2\theta_1}{2g} &gt; \frac{v_0^2 \sin^2\theta_2}{2g} \implies \sin^2\theta_1 &gt; \sin^2\theta_2\)।<br/>যেহেতু \(\theta_1\) ও \(\theta_2\) সূক্ষ্মকোণ, তাই \(\sin\theta &gt; 0\) এবং \((0^\circ, 90^\circ)\) ব্যবধানে \(\sin\theta\) ক্রমবর্ধমান, সুতরাং:<br/>\(\sin\theta_1 &gt; \sin\theta_2 \implies \theta_1 &gt; \theta_2\)।<br/>উড্ডয়ন কালের জন্য:<br/>\(T_1 = \frac{2v_0 \sin\theta_1}{g} &gt; \frac{2v_0 \sin\theta_2}{g} = T_2 \implies T_1 &gt; T_2\)।<br/>অনুভূমিক পাল্লার ক্ষেত্রে, \(\theta &lt; 45^\circ\)-এর জন্য \(\sin 2\theta\) বাড়ে এবং \(\theta &gt; 45^\circ\)-এর জন্য কমে, তাই \(R_1 &gt; R_2\) আবশ্যিকভাবে সত্য নয়। এছাড়া ভর দেওয়া নেই, তাই মোট শক্তি \(U_1 &gt; U_2\) বলা যায় না।</p>
+<p><strong>ধাপ ৫: যাচাই এবং চূড়ান্ত উত্তর</strong><br/>অতএব, \(\theta_1 &gt; \theta_2\) এবং \(T_1 &gt; T_2\) উভয়ই সঠিক।</p>]]></text></generalfeedback>
   <defaultgrade>4.0000000</defaultgrade>
   <penalty>0.2500000</penalty>
   <hidden>0</hidden>
   <single>false</single>
   <shuffleanswers>true</shuffleanswers>
   <answernumbering>abc</answernumbering>
-  <answer fraction="50" format="html"><text><![CDATA[<p>angle of projection: \(\theta_1 > \theta_2\)</p>]]></text></answer>
-  <answer fraction="50" format="html"><text><![CDATA[<p>time of flight: \(T_1 > T_2\)</p>]]></text></answer>
-  <answer fraction="-50" format="html"><text><![CDATA[<p>horizontal range: \(R_1 > R_2\)</p>]]></text></answer>
-  <answer fraction="-50" format="html"><text><![CDATA[<p>total energy: \(U_1 > U_2\)</p>]]></text></answer>
+  <answer fraction="50" format="html"><text><![CDATA[<p>angle of projection: \(\theta_1 &gt; \theta_2\)</p>]]></text></answer>
+  <answer fraction="50" format="html"><text><![CDATA[<p>time of flight: \(T_1 &gt; T_2\)</p>]]></text></answer>
+  <answer fraction="-50" format="html"><text><![CDATA[<p>horizontal range: \(R_1 &gt; R_2\)</p>]]></text></answer>
+  <answer fraction="-50" format="html"><text><![CDATA[<p>total energy: \(U_1 &gt; U_2\)</p>]]></text></answer>
   <tags>
     <tag><text>standard:neet_ug</text></tag>
     <tag><text>lang:en</text></tag>
     <tag><text>lang:bn</text></tag>
     <tag><text>subject:physics</text></tag>
-    <tag><text>class:class_11</text></tag>
+    <tag><text>section:mcq_ii</text></tag>
+    <tag><text>class:11</text></tag>
     <tag><text>topic:projectile_motion</text></tag>
     <tag><text>chapter:motion_in_a_plane</text></tag>
     <tag><text>typology:mcq</text></tag>
     <tag><text>difficulty:medium</text></tag>
     <tag><text>blooms:analyze</text></tag>
     <tag><text>calculation:light</text></tag>
-    <tag><text>media:equation</text></tag>
+    <tag><text>media:text</text></tag>
     <tag><text>multiconcept:true</text></tag>
   </tags>
 </question>
 <question type="multichoice">
-  <name><text>NEET_UG_PHYSICS_MOTION_IN_A_PLANE_MCQ_Q4_12 - Energy conservation of particle on parabolic track</text></name>
-  <questiontext format="html">
-    <text><![CDATA[<p>A particle slides down a frictionless parabolic (\(y = x^2\)) track (\(\text{A}-\text{B}-\text{C}\)) starting from rest at point \(\text{A}\) (Fig. 4.2). Point \(\text{B}\) is at the vertex of the parabola and point \(\text{C}\) is at a height less than that of point \(\text{A}\). After \(\text{C}\), the particle moves freely in air as a projectile. If the particle reaches highest point at \(\text{P}\), then:</p><p><img src="@@PLUGINFILE@@/img-1.jpeg" alt="Fig. 4.2" /></p><hr/><p>একটি কণা \(\text{A}\) বিন্দু থেকে স্থির অবস্থা থেকে একটি ঘর্ষণহীন পরাবৃত্তাকার (\(y = x^2\)) ট্র্যাকের (\(\text{A}-\text{B}-\text{C}\)) ওপর পিছলে নিচের দিকে নামে (চিত্র 4.2)। \(\text{B}\) বিন্দুটি পরাবৃত্তের শীর্ষবিন্দু এবং \(\text{C}\) বিন্দুটি \(\text{A}\) বিন্দুর চেয়ে কম উচ্চতায় অবস্থিত। \(\text{C}\) বিন্দুর পর কণাটি প্রাসের মতো বায়ুতে অবাধে গতিশীল হয়। কণাটি যদি সর্বোচ্চ বিন্দু \(\text{P}\)-তে পৌঁছায়, তবে:</p><p><img src="@@PLUGINFILE@@/img-1.jpeg" alt="Fig. 4.2" /></p>]]></text>
-  </questiontext>
-  <generalfeedback format="html">
-    <text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>A particle of mass \(m\) is released from rest at point \(\text{A}\) on a frictionless track shaped as a parabola \(y = x^2\). Point \(\text{B}\) is at the vertex (\(x = 0, y = 0\)). Point \(\text{C}\) is at height \(y_C < y_A\). Beyond point \(\text{C}\), the particle leaves the track tangentially with speed \(v_0\) and travels as a projectile under gravity to reach its peak at \(\text{P}\).</p>
-<p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>The track is perfectly frictionless and air resistance is negligible. The gravitational potential energy is taken as zero at the vertex \(\text{B}\) (\(y = 0\)).</p>
-<p><strong>Step 3: Relevant Formulae and Principles</strong><br/>In the absence of non-conservative forces, the total mechanical energy \(E = \text{KE} + \text{PE}\) is strictly conserved at all points of the trajectory:<br/>\[E_A = E_B = E_C = E_P\]</p>
-<p><strong>Step 4: Step-by-Step Working</strong><br/>- Total Energy: Since only conservative gravitational forces perform work, mechanical energy is conserved everywhere; therefore, total energy at \(\text{P}\) equals total energy at \(\text{A}\).<br/>- Kinetic Energy and Peak Height: At point \(\text{A}\), the particle starts from rest, so \(E_A = m g y_A\). When the particle launches into projectile motion at \(\text{C}\), its velocity is tangent to the curve, having both horizontal (\(v_{0x}\)) and vertical (\(v_{0y}\)) components. Throughout the projectile motion, the horizontal component of velocity remains constant and non-zero: \(v_{Px} = v_{0x} > 0\). At the highest point \(\text{P}\), the vertical velocity is zero, but the kinetic energy is non-zero: \(\text{KE}_P = \frac{1}{2}m v_{0x}^2 > 0\). Consequently, \(m g y_P + \frac{1}{2}m v_{0x}^2 = m g y_A \implies y_P < y_A\). Thus, the height at \(\text{P}\) is strictly less than the height at \(\text{A}\).<br/>- Comparison with Point B: At \(\text{B}\), \(y = 0\), so all mechanical energy is kinetic: \(\text{KE}_B = E_A\). Since \(\text{KE}_P = E_A - m g y_P < E_A\), the kinetic energy at \(\text{P}\) is strictly less than that at \(\text{B}\).</p>
-<p><strong>Step 5: Check and Final Answer</strong><br/>By the law of conservation of energy, the total energy at \(\text{P}\) is equal to the total energy at \(\text{A}\).</p>
+  <name><text>NEETUG_PHYSICS_MCQII_MOTIONINAPLANE_MCQ_Q12 - Particle sliding down frictionless parabolic track and projectile motion</text></name>
+  <questiontext format="html"><text><![CDATA[<p>A particle slides down a frictionless parabolic (\(y = x^2\)) track (A - B - C) starting from rest at point A (Fig. 4.2). Point B is at the vertex of parabola and point C is at a height less than that of point A. After C, the particle moves freely in air as a projectile. If the particle reaches highest point at P, then</p><p><img src="@@PLUGINFILE@@/img-1.jpeg" alt="Figure 4.2" /></p><hr/><p>একটি কণা ঘর্ষণহীন অধিবৃত্তাকার (\(y = x^2\)) পথে (A - B - C) A বিন্দুতে স্থির অবস্থা থেকে পিছলে নামতে শুরু করে (চিত্র ৪.২)। B বিন্দুটি অধিবৃত্তের শীর্ষবিন্দুতে অবস্থিত এবং C বিন্দুটির উচ্চতা A বিন্দুর উচ্চতার চেয়ে কম। C-এর পর, কণাটি বাতাসে প্রাস হিসেবে মুক্তভাবে চলে। যদি কণাটি P বিন্দুতে সর্বাধিক উচ্চতায় পৌঁছায়, তবে</p><p><img src="@@PLUGINFILE@@/img-1.jpeg" alt="Figure 4.2" /></p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>A particle starts from rest at point A on a frictionless parabolic track \(y = x^2\), passes through the vertex B (\(y = 0\)) to point C (\(y_C &lt; y_A\)), and then moves freely as a projectile reaching its highest point at P.</p>
+<p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>The track is frictionless, air resistance is negligible, and gravitational potential energy is measured relative to the vertex B (\(y = 0\)).</p>
+<p><strong>Step 3: Relevant Formulae and Principles</strong><br/>By conservation of mechanical energy, since only the conservative gravitational force does work (the normal force on the track is always perpendicular to displacement and does zero work), total mechanical energy \(E = K + U = \text{constant}\).</p>
+<p><strong>Step 4: Step-by-Step Working</strong><br/>- At A: \(v_A = 0\), so total energy \(E_A = mgh_A\).<br/>- Throughout the motion along A-B-C and the subsequent projectile path to P, no non-conservative forces act, so total energy is conserved: \(E_P = E_A\).<br/>- At P (the highest point of projectile motion), the vertical component of velocity is zero, but the horizontal component \(v_x = v_0\cos\theta \neq 0\), so kinetic energy at P is \(K_P = \frac{1}{2}mv_x^2 &gt; 0\).<br/>- Since \(E_P = K_P + mgh_P = mgh_A\), we have \(h_P &lt; h_A\).<br/>- Also, at B (\(y = 0\)), \(K_B = mgh_A\), whereas at P, \(K_P = mgh_A - mgh_P &lt; K_B\).<br/>- The time of travel from A to B is not equal to the time of travel from B to P because the paths and heights are not symmetric.</p>
+<p><strong>Step 5: Check and Final Answer</strong><br/>Therefore, the only correct statement is that the total energy at P equals the total energy at A.</p>
 <hr/>
-<p><strong>ধাপ ১: প্রদত্ত তথ্য ও শর্তাবলি</strong><br/>\(m\) ভরের একটি কণা \(y = x^2\) সমীকরণবিশিষ্ট ঘর্ষণহীন পরাবৃত্তাকার ট্র্যাকের \(\text{A}\) বিন্দু থেকে স্থির অবস্থা থেকে যাত্রা শুরু করে। \(\text{B}\) বিন্দুটি শীর্ষবিন্দুতে অবস্থিত (\(x = 0, y = 0\))। \(\text{C}\) বিন্দুটি \(y_C < y_A\) উচ্চতায় অবস্থিত। \(\text{C}\) বিন্দুর পর কণাটি স্পর্শক বরাবর \(v_0\) দ্রুতি নিয়ে মুক্ত প্রাসের মতো গতিশীল হয়ে \(\text{P}\) বিন্দুতে সর্বোচ্চ উচ্চতায় পৌঁছায়।</p>
-<p><strong>ধাপ ২: অনুমান ও চিহ্ন সংক্রান্ত নিয়ম</strong><br/>ট্র্যাকটি সম্পূর্ণ ঘর্ষণহীন এবং বায়ুর বাধা অগ্রাহ্য। শীর্ষবিন্দু \(\text{B}\)-তে অভিকর্ষীয় স্থিতিশক্তি শূন্য ধরা হয়েছে (\(y = 0\))।</p>
-<p><strong>ধাপ ৩: প্রাসঙ্গিক সূত্র ও নীতি</strong><br/>অসংরক্ষণশীল বলের অনুপস্থিতিতে মোট যান্ত্রিক শক্তি \(E = \text{KE} + \text{PE}\) গতিপথের প্রতিটি বিন্দুতে সংরক্ষিত থাকে:<br/>\[E_A = E_B = E_C = E_P\]</p>
-<p><strong>ধাপ ৪: ধাপে ধাপে সমাধান</strong><br/>- মোট শক্তি: যেহেতু কেবলমাত্র সংরক্ষণশীল অভিকর্ষ বল কার্য করে, তাই যান্ত্রিক শক্তি সর্বত্র সংরক্ষিত থাকে; সুতরাং \(\text{P}\) বিন্দুতে মোট শক্তি \(\text{A}\) বিন্দুতে মোট শক্তির সমান।<br/>- গতিশক্তি ও সর্বোচ্চ উচ্চতা: \(\text{A}\) বিন্দুতে কণাটি স্থির থাকায় \(E_A = m g y_A\)। \(\text{C}\) বিন্দুতে প্রাসের মতো গতি শুরু করার সময় বেগের স্পর্শকীয় অনুভূমিক উপাংশ (\(v_{0x}\)) এবং উল্লম্ব উপাংশ (\(v_{0y}\)) উভয়ই থাকে। অনুভূমিক বেগ সর্বদা ধ্রুবক ও অশূন্য থাকে: \(v_{Px} = v_{0x} > 0\)। সর্বোচ্চ বিন্দু \(\text{P}\)-তে উল্লম্ব বেগ শূন্য হলেও গতিশক্তি অশূন্য থাকে: \(\text{KE}_P = \frac{1}{2}m v_{0x}^2 > 0\)। ফলে \(m g y_P + \frac{1}{2}m v_{0x}^2 = m g y_A \implies y_P < y_A\)। অর্থাৎ \(\text{P}\) বিন্দুর উচ্চতা \(\text{A}\) বিন্দুর উচ্চতার চেয়ে কম হয়।<br/>- B বিন্দুর সাথে তুলনা: \(\text{B}\) বিন্দুতে \(y = 0\) হওয়ায় সমস্ত শক্তিই গতিশক্তি: \(\text{KE}_B = E_A\)। যেহেতু \(\text{KE}_P < E_A\), তাই \(\text{P}\) বিন্দুর গতিশক্তি \(\text{B}\) বিন্দুর চেয়ে কম।</p>
-<p><strong>ধাপ ৫: যাচাই ও চূড়ান্ত উত্তর</strong><br/>শক্তির সংরক্ষণশীলতা নীতি অনুযায়ী, \(\text{P}\) বিন্দুতে মোট শক্তি \(\text{A}\) বিন্দুতে মোট শক্তির সমান।</p>]]></text>
-  </generalfeedback>
+<p><strong>ধাপ ১: প্রদত্ত তথ্য ও শর্তাবলি</strong><br/>একটি কণা ঘর্ষণহীন অধিবৃত্তাকার পথ \(y = x^2\)-এর A বিন্দু থেকে স্থির অবস্থায় যাত্রা শুরু করে শীর্ষবিন্দু B (\(y = 0\)) হয়ে C বিন্দুতে (\(y_C &lt; y_A\)) পৌঁছায় এবং তারপর প্রাস হিসেবে মুক্তভাবে চলে সর্বাধিক উচ্চতা P-তে পৌঁছায়।</p>
+<p><strong>ধাপ ২: অনুমান ও চিহ্ন প্রথা</strong><br/>পথটি ঘর্ষণহীন, বায়ুর বাধা নগণ্য এবং মহাকর্ষীয় স্থিতিশক্তি শীর্ষবিন্দু B (\(y = 0\))-এর সাপেক্ষে পরিমাপ করা হয়েছে।</p>
+<p><strong>ধাপ ৩: প্রাসঙ্গিক সূত্র ও নীতি</strong><br/>যান্ত্রিক শক্তির সংরক্ষণ নীতি অনুযায়ী, যেহেতু শুধুমাত্র সংরক্ষী মহাকর্ষ বল কার্য করে (পথের অভিলম্ব প্রতিক্রিয়া সর্বদা সরণের সাথে লম্ব হওয়ায় কোনো কার্য করে না), তাই মোট যান্ত্রিক শক্তি \(E = K + U = \text{ধ্রুবক}\)।</p>
+<p><strong>ধাপ ৪: ধাপে ধাপে সমাধান</strong><br/>- A বিন্দুতে: \(v_A = 0\), তাই মোট শক্তি \(E_A = mgh_A\)।<br/>- A-B-C পথ এবং পরবর্তী প্রাস গতিতে P পর্যন্ত কোনো অসংরক্ষী বল ক্রিয়া করে না, তাই মোট শক্তি সংরক্ষিত থাকে: \(E_P = E_A\)।<br/>- P বিন্দুতে (প্রাসের সর্বোচ্চ বিন্দু) বেগের উল্লম্ব উপাংশ শূন্য, কিন্তু অনুভূমিক উপাংশ \(v_x = v_0\cos\theta \neq 0\), তাই P-তে গতিশক্তি \(K_P = \frac{1}{2}mv_x^2 &gt; 0\)।<br/>- যেহেতু \(E_P = K_P + mgh_P = mgh_A\), তাই \(h_P &lt; h_A\)।<br/>- আবার B বিন্দুতে (\(y = 0\)), \(K_B = mgh_A\), কিন্তু P-তে \(K_P = mgh_A - mgh_P &lt; K_B\)।<br/>- পথ এবং উচ্চতা প্রতিসম না হওয়ায় A থেকে B যাওয়ার সময় B থেকে P যাওয়ার সময়ের সমান নয়।</p>
+<p><strong>ধাপ ৫: যাচাই এবং চূড়ান্ত উত্তর</strong><br/>সুতরাং, একমাত্র সঠিক বিবৃতি হলো P বিন্দুতে মোট শক্তি A বিন্দুতে মোট শক্তির সমান।</p>]]></text></generalfeedback>
   <defaultgrade>4.0000000</defaultgrade>
   <penalty>0.2500000</penalty>
   <hidden>0</hidden>
-  <single>true</single>
+  <single>false</single>
   <shuffleanswers>true</shuffleanswers>
   <answernumbering>abc</answernumbering>
-  <answer fraction="0" format="html"><text><![CDATA[<p>KE at \(\text{P} = \text{KE}\) at \(\text{B}\)</p>]]></text></answer>
-  <answer fraction="0" format="html"><text><![CDATA[<p>height at \(\text{P} =\) height at \(\text{A}\)</p>]]></text></answer>
-  <answer fraction="100" format="html"><text><![CDATA[<p>total energy at \(\text{P} =\) total energy at \(\text{A}\)</p>]]></text></answer>
-  <answer fraction="0" format="html"><text><![CDATA[<p>time of travel from \(\text{A}\) to \(\text{B} =\) time of travel from \(\text{B}\) to \(\text{P}\).</p>]]></text></answer>
+  <answer fraction="-33.33333" format="html"><text><![CDATA[<p>KE at \(\mathrm{P} = \mathrm{KE}\) at B</p>]]></text></answer>
+  <answer fraction="-33.33333" format="html"><text><![CDATA[<p>height at \(\mathrm{P} =\) height at A</p>]]></text></answer>
+  <answer fraction="100" format="html"><text><![CDATA[<p>total energy at \(\mathrm{P} =\) total energy at A</p>]]></text></answer>
+  <answer fraction="-33.33333" format="html"><text><![CDATA[<p>time of travel from A to B = time of travel from B to P.</p>]]></text></answer>
   <tags>
     <tag><text>standard:neet_ug</text></tag>
     <tag><text>lang:en</text></tag>
     <tag><text>lang:bn</text></tag>
     <tag><text>subject:physics</text></tag>
-    <tag><text>class:class_11</text></tag>
-    <tag><text>topic:work_energy_and_power</text></tag>
+    <tag><text>section:mcq_ii</text></tag>
+    <tag><text>class:11</text></tag>
+    <tag><text>topic:projectile_motion</text></tag>
     <tag><text>chapter:motion_in_a_plane</text></tag>
     <tag><text>typology:mcq</text></tag>
     <tag><text>difficulty:medium</text></tag>
@@ -517,21 +473,15 @@
   </tags>
 </question>
 <question type="multichoice">
-  <name><text>NEET_UG_PHYSICS_MOTION_IN_A_PLANE_MCQ_Q4_13 - Incorrect kinematic relations for general particle motion</text></name>
-  <questiontext format="html">
-    <text><![CDATA[<p>Following are four different relations about displacement, velocity and acceleration for the motion of a particle in general. Choose the incorrect one(s):</p><hr/><p>সাধারণ ক্ষেত্রে একটি কণার গতির জন্য সরণ, বেগ এবং ত্বরণ সম্পর্কিত চারটি ভিন্ন সম্পর্ক নীচে দেওয়া হলো। ভুল সম্পর্কটি/সম্পর্কগুলি নির্বাচন করো:</p>]]></text>
-  </questiontext>
-  <generalfeedback format="html">
-    <text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>Kinematic definitions of average velocity and average acceleration are universally valid for arbitrary, non-uniform motion in any number of dimensions, whereas relations that assume constant acceleration cannot be generalized to arbitrary motion.</p>
-<p><strong>Step 2: Evaluation of Average Rate Definitions</strong><br/>- The relation \(\mathbf{v}_{av} = \frac{\mathbf{r}(t_2) - \mathbf{r}(t_1)}{t_2 - t_1}\) is the fundamental definition of average velocity over a time interval, and is always correct in general.<br/>- The relation \(\mathbf{a}_{av} = \frac{\mathbf{v}(t_2) - \mathbf{v}(t_1)}{t_2 - t_1}\) is the fundamental definition of average acceleration over a time interval, and is always correct in general.</p>
-<p><strong>Step 3: Evaluation of Special-Case and Dimensionally Inconsistent Relations</strong><br/>- The arithmetic mean relation \(\mathbf{v}_{av} = \frac{1}{2}\left[\mathbf{v}(t_1) + \mathbf{v}(t_2)\right]\) is only valid when the acceleration is strictly constant; for general non-uniformly accelerated motion, the average velocity is not the arithmetic mean of the initial and final instantaneous velocities. Hence, this relation is incorrect for general motion.<br/>- The expression \(\mathbf{r} = \frac{1}{2}(\mathbf{v}(t_2) - \mathbf{v}(t_1))(t_2 - t_1)\) equating a position vector to half the change in velocity multiplied by time interval is fundamentally invalid for general particle motion.</p>
-<p><strong>Step 4: Final Conclusion</strong><br/>The incorrect relations among the given options are \(\mathbf{v}_{av} = \frac{1}{2}\left[\mathbf{v}(t_1) + \mathbf{v}(t_2)\right]\) and \(\mathbf{r} = \frac{1}{2}(\mathbf{v}(t_2) - \mathbf{v}(t_1))(t_2 - t_1)\).</p>
+  <name><text>NEETUG_PHYSICS_MCQII_MOTIONINAPLANE_MCQ_Q13 - Incorrect relations for general motion of a particle</text></name>
+  <questiontext format="html"><text><![CDATA[<p>Following are four different relations about displacement, velocity and acceleration for the motion of a particle in general. Choose the incorrect one (s) :</p><hr/><p>সাধারণভাবে একটি কণার গতির ক্ষেত্রে সরণ, বেগ এবং ত্বরণ সম্পর্কিত চারটি ভিন্ন সম্পর্ক নিচে দেওয়া হলো। ভুল সম্পর্কটি(গুলি) নির্বাচন করো:</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>In general motion (where acceleration need not be constant), average velocity over the time interval \([t_1, t_2]\) is defined as \(\mathbf{v}_{av} = \frac{\mathbf{r}(t_2) - \mathbf{r}(t_1)}{t_2 - t_1}\), and average acceleration is defined as \(\mathbf{a}_{av} = \frac{\mathbf{v}(t_2) - \mathbf{v}(t_1)}{t_2 - t_1}\).</p>
+<p><strong>Step 2: Evaluation</strong><br/>- The relation \(\mathbf{v}_{av} = \frac{1}{2}[\mathbf{v}(t_1) + \mathbf{v}(t_2)]\) holds only when acceleration is uniform (constant), not for motion in general. Hence, it is incorrect.<br/>- The relation \(\mathbf{v}_{av} = \frac{\mathbf{r}(t_2) - \mathbf{r}(t_1)}{t_2 - t_1}\) is the exact definition of average velocity and is always valid.<br/>- The relation \(\mathbf{r} = \frac{1}{2}(\mathbf{v}(t_2) - \mathbf{v}(t_1))(t_2 - t_1)\) is incorrect even for uniform acceleration (where displacement involves the sum of velocities, not their difference). Hence, it is incorrect.<br/>- The relation \(\mathbf{a}_{av} = \frac{\mathbf{v}(t_2) - \mathbf{v}(t_1)}{t_2 - t_1}\) is the exact definition of average acceleration and is always valid.</p>
+<p><strong>Step 3: Final Conclusion</strong><br/>Therefore, the incorrect relations are \(\mathbf{v}_{av} = \frac{1}{2}[\mathbf{v}(t_1) + \mathbf{v}(t_2)]\) and \(\mathbf{r} = \frac{1}{2}(\mathbf{v}(t_2) - \mathbf{v}(t_1))(t_2 - t_1)\).</p>
 <hr/>
-<p><strong>ধাপ ১: ধারণাগত নীতি</strong><br/>গড় বেগ এবং গড় ত্বরণের গতিবিদ্যা সংক্রান্ত মৌলিক সংজ্ঞাগুলি যেকোনো মাত্রায় যেকোনো অসম গতির ক্ষেত্রে সর্বজনীনভাবে প্রযোজ্য, কিন্তু ধ্রুবক ত্বরণ ধরে নেওয়া বিশেষ সম্পর্কগুলি সাধারণ গতির ক্ষেত্রে প্রযোজ্য হয় না।</p>
-<p><strong>ধাপ ২: গড় হারের সংজ্ঞাগুলির মূল্যায়ন</strong><br/>- \(\mathbf{v}_{av} = \frac{\mathbf{r}(t_2) - \mathbf{r}(t_1)}{t_2 - t_1}\) সম্পর্কটি যেকোনো সময় ব্যবধানে গড় বেগের মৌলিক সংজ্ঞা এবং এটি সাধারণ ক্ষেত্রে সর্বদা সঠিক।<br/>- \(\mathbf{a}_{av} = \frac{\mathbf{v}(t_2) - \mathbf{v}(t_1)}{t_2 - t_1}\) সম্পর্কটি যেকোনো সময় ব্যবধানে গড় ত্বরণের মৌলিক সংজ্ঞা এবং এটি সাধারণ ক্ষেত্রে সর্বদা সঠিক।</p>
-<p><strong>ধাপ ৩: বিশেষ ক্ষেত্র ও অবৈধ সম্পর্কের মূল্যায়ন</strong><br/>- \(\mathbf{v}_{av} = \frac{1}{2}\left[\mathbf{v}(t_1) + \mathbf{v}(t_2)\right]\) সম্পর্কটি কেবলমাত্র তখনই প্রযোজ্য যখন ত্বরণ ধ্রুবক থাকে; সাধারণ অসম ত্বরণের গতির ক্ষেত্রে গড় বেগ প্রাথমিক ও চূড়ান্ত তাৎক্ষণিক বেগের সমান্তরীয় গড় নয়। সুতরাং সাধারণ গতির ক্ষেত্রে এই সম্পর্কটি ভুল।<br/>- \(\mathbf{r} = \frac{1}{2}(\mathbf{v}(t_2) - \mathbf{v}(t_1))(t_2 - t_1)\) সম্পর্কটি সাধারণ কণার গতির ক্ষেত্রে একটি ভুল সমীকরণ।</p>
-<p><strong>ধাপ ৪: চূড়ান্ত সিদ্ধান্ত</strong><br/>প্রদত্ত সম্পর্কগুলির মধ্যে ভুল সম্পর্কগুলি হলো \(\mathbf{v}_{av} = \frac{1}{2}\left[\mathbf{v}(t_1) + \mathbf{v}(t_2)\right]\) এবং \(\mathbf{r} = \frac{1}{2}(\mathbf{v}(t_2) - \mathbf{v}(t_1))(t_2 - t_1)\)।</p>]]></text>
-  </generalfeedback>
+<p><strong>ধাপ ১: ধারণাগত নীতি</strong><br/>সাধারণ গতিতে (যেখানে ত্বরণ ধ্রুবক নাও হতে পারে), \([t_1, t_2]\) সময় ব্যবধানে গড় বেগের সংজ্ঞা হলো \(\mathbf{v}_{av} = \frac{\mathbf{r}(t_2) - \mathbf{r}(t_1)}{t_2 - t_1}\) এবং গড় ত্বরণের সংজ্ঞা হলো \(\mathbf{a}_{av} = \frac{\mathbf{v}(t_2) - \mathbf{v}(t_1)}{t_2 - t_1}\)।</p>
+<p><strong>ধাপ ২: মূল্যায়ন</strong><br/>- \(\mathbf{v}_{av} = \frac{1}{2}[\mathbf{v}(t_1) + \mathbf{v}(t_2)]\) সম্পর্কটি শুধুমাত্র সুষম (ধ্রুব) ত্বরণের ক্ষেত্রে প্রযোজ্য, সাধারণ গতির ক্ষেত্রে নয়। তাই এটি ভুল।<br/>- \(\mathbf{v}_{av} = \frac{\mathbf{r}(t_2) - \mathbf{r}(t_1)}{t_2 - t_1}\) হলো গড় বেগের সঠিক সংজ্ঞা এবং এটি সর্বদা সত্য।<br/>- \(\mathbf{r} = \frac{1}{2}(\mathbf{v}(t_2) - \mathbf{v}(t_1))(t_2 - t_1)\) সম্পর্কটি এমনকি সুষম ত্বরণের ক্ষেত্রেও ভুল (যেখানে সরণে বেগের যোগফল থাকে, বিয়োগফল নয়)। তাই এটি ভুল।<br/>- \(\mathbf{a}_{av} = \frac{\mathbf{v}(t_2) - \mathbf{v}(t_1)}{t_2 - t_1}\) হলো গড় ত্বরণের সঠিক সংজ্ঞা এবং এটি সর্বদা সত্য।</p>
+<p><strong>ধাপ ৩: চূড়ান্ত সিদ্ধান্ত</strong><br/>সুতরাং, \(\mathbf{v}_{av} = \frac{1}{2}[\mathbf{v}(t_1) + \mathbf{v}(t_2)]\) এবং \(\mathbf{r} = \frac{1}{2}(\mathbf{v}(t_2) - \mathbf{v}(t_1))(t_2 - t_1)\) সম্পর্ক দুটি ভুল।</p>]]></text></generalfeedback>
   <defaultgrade>4.0000000</defaultgrade>
   <penalty>0.2500000</penalty>
   <hidden>0</hidden>
@@ -547,33 +497,28 @@
     <tag><text>lang:en</text></tag>
     <tag><text>lang:bn</text></tag>
     <tag><text>subject:physics</text></tag>
-    <tag><text>class:class_11</text></tag>
-    <tag><text>topic:kinematics_in_a_plane</text></tag>
+    <tag><text>section:mcq_ii</text></tag>
+    <tag><text>class:11</text></tag>
+    <tag><text>topic:kinematics_in_2d</text></tag>
     <tag><text>chapter:motion_in_a_plane</text></tag>
     <tag><text>typology:mcq</text></tag>
     <tag><text>difficulty:medium</text></tag>
-    <tag><text>blooms:analyze</text></tag>
+    <tag><text>blooms:understand</text></tag>
     <tag><text>calculation:light</text></tag>
     <tag><text>media:equation</text></tag>
     <tag><text>multiconcept:false</text></tag>
   </tags>
 </question>
 <question type="multichoice">
-  <name><text>NEET_UG_PHYSICS_MOTION_IN_A_PLANE_MCQ_Q4_14 - Characteristics of uniform circular motion of particle</text></name>
-  <questiontext format="html">
-    <text><![CDATA[<p>For a particle performing uniform circular motion, choose the correct statement(s) from the following:</p><hr/><p>একটি কণার সুষম বৃত্তীয় গতির ক্ষেত্রে নীচের বিবৃতিগুলির মধ্যে সঠিক বিবৃতিটি/বিবৃতিগুলি নির্বাচন করো:</p>]]></text>
-  </questiontext>
-  <generalfeedback format="html">
-    <text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>Uniform circular motion is defined as the motion of a particle along a circular path of fixed radius \(r\) at constant speed \(v\).</p>
-<p><strong>Step 2: Analysis of Velocity and Acceleration</strong><br/>- Speed and Velocity: By definition of uniform circular motion, the magnitude of velocity (speed) remains constant. However, the velocity vector is directed tangentially to the circle at every point, making it perpendicular to the position (radius) vector at all times (\(\mathbf{v} \perp \mathbf{r}\)).<br/>- Acceleration: Since the direction of velocity changes continuously, there is a centripetal acceleration of constant magnitude \(a = \frac{v^2}{r}\) directed radially inward toward the center. As the particle travels along the circumference, the radially inward direction rotates continuously, meaning the direction of acceleration keeps changing at every instant.</p>
-<p><strong>Step 3: Analysis of Angular Momentum</strong><br/>The angular momentum of the particle about the center of the circle is given by \(\mathbf{L} = \mathbf{r} \times \mathbf{p} = m(\mathbf{r} \times \mathbf{v})\). Since \(\mathbf{r}\) and \(\mathbf{v}\) are mutually perpendicular and lie in the orbital plane, the magnitude \(L = mvr\) is constant, and its direction is perpendicular to the orbital plane along the fixed axis of rotation. Thus, both the magnitude and the direction of angular momentum remain constant, making the assertion that its direction keeps changing incorrect.</p>
-<p><strong>Step 4: Final Conclusion</strong><br/>The correct statements are: magnitude of particle velocity (speed) remains constant; particle velocity remains directed perpendicular to radius vector; and direction of acceleration keeps changing as particle moves.</p>
+  <name><text>NEETUG_PHYSICS_MCQII_MOTIONINAPLANE_MCQ_Q14 - Correct statements for uniform circular motion</text></name>
+  <questiontext format="html"><text><![CDATA[<p>For a particle performing uniform circular motion, choose the correct statement(s) from the following:</p><hr/><p>সুষম বৃত্তীয় গতিতে চলমান একটি কণার জন্য নিচের সঠিক বিবৃতিটি(গুলি) নির্বাচন করো:</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>In uniform circular motion, a particle moves in a circle of constant radius \(r\) with constant speed \(v\). Its velocity \(\mathbf{v}\) is always tangent to the circle, and its centripetal acceleration \(\mathbf{a}_c\) of magnitude \(\frac{v^2}{r}\) is always directed radially inward toward the centre.</p>
+<p><strong>Step 2: Evaluation</strong><br/>- Magnitude of velocity (speed) remains constant by definition of uniform circular motion.<br/>- Since velocity is along the tangent to the circle and the radius vector is along the radius from the centre, the particle velocity remains perpendicular to the radius vector.<br/>- The centripetal acceleration always points toward the centre of the circle, so as the particle moves around the circle, the direction of acceleration keeps changing continuously.<br/>- Angular momentum \(\mathbf{L} = \mathbf{r} \times m\mathbf{v}\) has constant magnitude \(mrv\) and constant direction (perpendicular to the plane of the circle), so its direction does not change.</p>
+<p><strong>Step 3: Final Conclusion</strong><br/>Therefore, the correct statements are that the magnitude of velocity (speed) remains constant, the particle velocity remains perpendicular to the radius vector, and the direction of acceleration keeps changing as the particle moves.</p>
 <hr/>
-<p><strong>ধাপ ১: ধারণাগত নীতি</strong><br/>সুষম বৃত্তীয় গতি হলো ধ্রুবক ব্যাসার্ধ \(r\)-এর বৃত্তাকার পথ বরাবর ধ্রুবক দ্রুতি \(v\) নিয়ে কোনো কণার গতি।</p>
-<p><strong>ধাপ ২: বেগ ও ত্বরণের বিশ্লেষণ</strong><br/>- দ্রুতি ও বেগ: সুষম বৃত্তীয় গতির সংজ্ঞানুযায়ী বেগের মান (দ্রুতি) ধ্রুবক থাকে। প্রতিটি বিন্দুতে বেগ ভেক্টরটি বৃত্তের স্পর্শক বরাবর ক্রিয়াশীল থাকায় এটি সর্বদা ব্যাসার্ধ ভেক্টরের ওপর লম্ব হয় (\(\mathbf{v} \perp \mathbf{r}\))।<br/>- ত্বরণ: যেহেতু বেগের অভিমুখ ক্রমাগত পরিবর্তিত হয়, তাই কেন্দ্রের দিকে নির্দেশিত একটি ধ্রুবক মানের কেন্দ্রাভিমুখী ত্বরণ \(a = \frac{v^2}{r}\) উপস্থিত থাকে। কণাটি বৃত্ত বরাবর গতিশীল থাকায় এই কেন্দ্রাভিমুখী দিকটিও ক্রমাগত ঘোরে, ফলে প্রতি মুহূর্তে ত্বরণের অভিমুখ পরিবর্তিত হয়।</p>
-<p><strong>ধাপ ৩: কৌণিক ভরবেগের বিশ্লেষণ</strong><br/>বৃত্তের কেন্দ্রের সাপেক্ষে কণার কৌণিক ভরবেগ হলো \(\mathbf{L} = \mathbf{r} \times \mathbf{p} = m(\mathbf{r} \times \mathbf{v})\)। যেহেতু \(\mathbf{r}\) এবং \(\mathbf{v}\) পরস্পর লম্ব এবং গতির সমতলে অবস্থিত, তাই কৌণিক ভরবেগের মান \(L = mvr\) ধ্রুবক এবং এর দিক গতির সমতলের ওপর লম্বভাবে নির্দিষ্ট ঘূর্ণন অক্ষ বরাবর স্থির থাকে। সুতরাং কৌণিক ভরবেগের মান ও দিক উভয়ই ধ্রুবক থাকে, তাই এর দিক পরিবর্তিত হওয়ার বিবৃতিটি ভুল।</p>
-<p><strong>ধাপ ৪: চূড়ান্ত সিদ্ধান্ত</strong><br/>সঠিক বিবৃতিগুলি হলো: কণার বেগের মান (দ্রুতি) ধ্রুবক থাকে; কণার বেগ সর্বদা ব্যাসার্ধ ভেক্টরের ওপর লম্বভাবে নির্দেশিত থাকে; এবং কণাটির গতির সাথে সাথে ত্বরণের অভিমুখ ক্রমাগত পরিবর্তিত হয়।</p>]]></text>
-  </generalfeedback>
+<p><strong>ধাপ ১: ধারণাগত নীতি</strong><br/>সুষম বৃত্তীয় গতিতে একটি কণা ধ্রুব ব্যাসার্ধ \(r\)-এর বৃত্তাকার পথে ধ্রুব দ্রুতি \(v\)-তে চলে। এর বেগ \(\mathbf{v}\) সর্বদা বৃত্তের স্পর্শক বরাবর থাকে এবং \(\frac{v^2}{r}\) মানের অভিকেন্দ্র ত্বরণ \(\mathbf{a}_c\) সর্বদা ব্যাসার্ধ বরাবর কেন্দ্রের দিকে নির্দেশিত হয়।</p>
+<p><strong>ধাপ ২: মূল্যায়ন</strong><br/>- সুষম বৃত্তীয় গতির সংজ্ঞানুযায়ী বেগের মান (দ্রুতি) ধ্রুবক থাকে।<br/>- যেহেতু বেগ বৃত্তের স্পর্শক বরাবর এবং অবস্থান ভেক্টর ব্যাসার্ধ বরাবর থাকে, তাই কণার বেগ সর্বদা ব্যাসার্ধ ভেক্টরের সাথে লম্ব থাকে।<br/>- অভিকেন্দ্র ত্বরণ সর্বদা বৃত্তের কেন্দ্রের দিকে ক্রিয়া করে, তাই কণাটি চলার সাথে সাথে ত্বরণের দিক ক্রমাগত পরিবর্তিত হতে থাকে।<br/>- কৌণিক ভরবেগ \(\mathbf{L} = \mathbf{r} \times m\mathbf{v}\)-এর মান \(mrv\) এবং দিক (বৃত্তের তলের সাথে লম্ব) উভয়ই ধ্রুবক থাকে, তাই এর দিক পরিবর্তিত হয় না।</p>
+<p><strong>ধাপ ৩: চূড়ান্ত সিদ্ধান্ত</strong><br/>সুতরাং, বেগের মান (দ্রুতি) ধ্রুবক থাকে, কণার বেগ ব্যাসার্ধ ভেক্টরের সাথে লম্ব থাকে এবং কণা চলার সাথে সাথে ত্বরণের দিক পরিবর্তিত হতে থাকে—এই বিবৃতিগুলি সঠিক।</p>]]></text></generalfeedback>
   <defaultgrade>4.0000000</defaultgrade>
   <penalty>0.2500000</penalty>
   <hidden>0</hidden>
@@ -583,14 +528,15 @@
   <answer fraction="33.33333" format="html"><text><![CDATA[<p>Magnitude of particle velocity (speed) remains constant.</p>]]></text></answer>
   <answer fraction="33.33333" format="html"><text><![CDATA[<p>Particle velocity remains directed perpendicular to radius vector.</p>]]></text></answer>
   <answer fraction="33.33333" format="html"><text><![CDATA[<p>Direction of acceleration keeps changing as particle moves.</p>]]></text></answer>
-  <answer fraction="-50" format="html"><text><![CDATA[<p>Angular momentum is constant in magnitude but direction keeps changing.</p>]]></text></answer>
+  <answer fraction="-100" format="html"><text><![CDATA[<p>Angular momentum is constant in magnitude but direction keeps changing.</p>]]></text></answer>
   <tags>
     <tag><text>standard:neet_ug</text></tag>
     <tag><text>lang:en</text></tag>
     <tag><text>lang:bn</text></tag>
     <tag><text>subject:physics</text></tag>
-    <tag><text>class:class_11</text></tag>
-    <tag><text>topic:circular_motion</text></tag>
+    <tag><text>section:mcq_ii</text></tag>
+    <tag><text>class:11</text></tag>
+    <tag><text>topic:uniform_circular_motion</text></tag>
     <tag><text>chapter:motion_in_a_plane</text></tag>
     <tag><text>typology:mcq</text></tag>
     <tag><text>difficulty:medium</text></tag>
@@ -601,23 +547,19 @@
   </tags>
 </question>
 <question type="multichoice">
-  <name><text>NEET_UG_PHYSICS_MOTION_IN_A_PLANE_MCQ_Q4_15 - Condition for vector addition and subtraction equality</text></name>
-  <questiontext format="html">
-    <text><![CDATA[<p>For two vectors \(\mathbf{A}\) and \(\mathbf{B}\), \(|\mathbf{A} + \mathbf{B}| = |\mathbf{A} - \mathbf{B}|\) is always true when</p><hr/><p>দুটি ভেক্টর \(\mathbf{A}\) এবং \(\mathbf{B}\)-এর ক্ষেত্রে, \(|\mathbf{A} + \mathbf{B}| = |\mathbf{A} - \mathbf{B}|\) সর্বদা সত্য হবে যখন</p>]]></text>
-  </questiontext>
-  <generalfeedback format="html">
-    <text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>The condition states that the magnitude of the sum of two vectors equals the magnitude of their difference: \(|\mathbf{A} + \mathbf{B}| = |\mathbf{A} - \mathbf{B}|\).</p>
-<p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>The vectors \(\mathbf{A}\) and \(\mathbf{B}\) are arbitrary vectors in three-dimensional Euclidean space.</p>
-<p><strong>Step 3: Relevant Formulae and Principles</strong><br/>Squaring both sides of the vector equation:<br/>\[|\mathbf{A} + \mathbf{B}|^2 = |\mathbf{A}|^2 + |\mathbf{B}|^2 + 2(\mathbf{A} \cdot \mathbf{B})\]<br/>\[|\mathbf{A} - \mathbf{B}|^2 = |\mathbf{A}|^2 + |\mathbf{B}|^2 - 2(\mathbf{A} \cdot \mathbf{B})\]</p>
-<p><strong>Step 4: Step-by-Step Working</strong><br/>Equating both expressions:<br/>\[|\mathbf{A}|^2 + |\mathbf{B}|^2 + 2(\mathbf{A} \cdot \mathbf{B}) = |\mathbf{A}|^2 + |\mathbf{B}|^2 - 2(\mathbf{A} \cdot \mathbf{B})\]<br/>Subtracting \(|\mathbf{A}|^2 + |\mathbf{B}|^2\) from both sides:<br/>\[4(\mathbf{A} \cdot \mathbf{B}) = 0 \implies \mathbf{A} \cdot \mathbf{B} = 0\]<br/>The dot product \(\mathbf{A} \cdot \mathbf{B} = |\mathbf{A}| |\mathbf{B}| \cos\theta = 0\) is satisfied in two distinct situations:<br/>1. When both vectors have non-zero magnitude and \(\cos\theta = 0\), which means \(\theta = 90^\circ\), implying \(\mathbf{A} \perp \mathbf{B}\).<br/>2. When either \(|\mathbf{A}| = 0\) or \(|\mathbf{B}| = 0\) (or both), regardless of angle.</p>
-<p><strong>Step 5: Check and Final Answer</strong><br/>Therefore, the equality holds whenever \(\mathbf{A} \perp \mathbf{B}\) or when either \(|\mathbf{A}|\) or \(|\mathbf{B}|\) is zero.</p>
+  <name><text>NEETUG_PHYSICS_MCQII_MOTIONINAPLANE_MCQ_Q15 - Condition for magnitude of vector sum equaling magnitude of difference</text></name>
+  <questiontext format="html"><text><![CDATA[<p>For two vectors \(\mathbf{A}\) and \(\mathbf{B}\), \(|\mathbf{A} + \mathbf{B}| = |\mathbf{A} - \mathbf{B}|\) is always true when</p><hr/><p>দুটি ভেক্টর \(\mathbf{A}\) এবং \(\mathbf{B}\)-এর জন্য \(|\mathbf{A} + \mathbf{B}| = |\mathbf{A} - \mathbf{B}|\) সম্পর্কটি সর্বদা সত্য হবে যখন</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>Two vectors \(\mathbf{A}\) and \(\mathbf{B}\) satisfy \(|\mathbf{A} + \mathbf{B}| = |\mathbf{A} - \mathbf{B}|\).</p>
+<p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>Let \(\theta\) be the angle between \(\mathbf{A}\) and \(\mathbf{B}\) when both are non-zero.</p>
+<p><strong>Step 3: Relevant Formulae and Principles</strong><br/>\(|\mathbf{A} \pm \mathbf{B}|^2 = |\mathbf{A}|^2 + |\mathbf{B}|^2 \pm 2\mathbf{A} \cdot \mathbf{B} = |\mathbf{A}|^2 + |\mathbf{B}|^2 \pm 2|\mathbf{A}||\mathbf{B}|\cos\theta\).</p>
+<p><strong>Step 4: Step-by-Step Working</strong><br/>Squaring both sides of \(|\mathbf{A} + \mathbf{B}| = |\mathbf{A} - \mathbf{B}|\):<br/>\(|\mathbf{A}|^2 + |\mathbf{B}|^2 + 2\mathbf{A} \cdot \mathbf{B} = |\mathbf{A}|^2 + |\mathbf{B}|^2 - 2\mathbf{A} \cdot \mathbf{B}\)<br/>\(4\mathbf{A} \cdot \mathbf{B} = 0 \implies \mathbf{A} \cdot \mathbf{B} = 0\)<br/>\(|\mathbf{A}||\mathbf{B}|\cos\theta = 0\).<br/>This equation is satisfied whenever:<br/>1. \(\cos\theta = 0\), i.e., \(\theta = 90^\circ\) (\(\mathbf{A} \perp \mathbf{B}\)), OR<br/>2. \(|\mathbf{A}| = 0\) or \(|\mathbf{B}| = 0\) (either vector is a zero vector).<br/>Having \(|\mathbf{A}| = |\mathbf{B}| \neq 0\) alone is not sufficient, and if they are parallel or antiparallel with equal non-zero magnitudes, \(|\mathbf{A} + \mathbf{B}| \neq |\mathbf{A} - \mathbf{B}|\).</p>
+<p><strong>Step 5: Check and Final Answer</strong><br/>Therefore, \(|\mathbf{A} + \mathbf{B}| = |\mathbf{A} - \mathbf{B}|\) is always true when \(\mathbf{A} \perp \mathbf{B}\) or when either \(|\mathbf{A}|\) or \(|\mathbf{B}|\) is zero.</p>
 <hr/>
-<p><strong>ধাপ ১: প্রদত্ত তথ্য ও শর্তাবলি</strong><br/>শর্তটিতে বলা হয়েছে যে দুটি ভেক্টরের যোগফলের মান তাদের বিয়োগফলের মানের সমান: \(|\mathbf{A} + \mathbf{B}| = |\mathbf{A} - \mathbf{B}|\)।</p>
-<p><strong>ধাপ ২: অনুমান ও চিহ্ন সংক্রান্ত নিয়ম</strong><br/>ভেক্টর \(\mathbf{A}\) এবং \(\mathbf{B}\) হলো ত্রিমাত্রিক ইউক্লিডীয় স্থানের যেকোনো দুটি ভেক্টর।</p>
-<p><strong>ধাপ ৩: প্রাসঙ্গিক সূত্র ও নীতি</strong><br/>উভয় পক্ষের বর্গ করে পাই:<br/>\[|\mathbf{A} + \mathbf{B}|^2 = |\mathbf{A}|^2 + |\mathbf{B}|^2 + 2(\mathbf{A} \cdot \mathbf{B})\]<br/>\[|\mathbf{A} - \mathbf{B}|^2 = |\mathbf{A}|^2 + |\mathbf{B}|^2 - 2(\mathbf{A} \cdot \mathbf{B})\]</p>
-<p><strong>ধাপ ৪: ধাপে ধাপে সমাধান</strong><br/>উভয় সমীকরণ সমান করে পাই:<br/>\[|\mathbf{A}|^2 + |\mathbf{B}|^2 + 2(\mathbf{A} \cdot \mathbf{B}) = |\mathbf{A}|^2 + |\mathbf{B}|^2 - 2(\mathbf{A} \cdot \mathbf{B})\]<br/>উভয় পাশ থেকে \(|\mathbf{A}|^2 + |\mathbf{B}|^2\) বিয়োগ করে পাই:<br/>\[4(\mathbf{A} \cdot \mathbf{B}) = 0 \implies \mathbf{A} \cdot \mathbf{B} = 0\]<br/>ডট গুণন \(\mathbf{A} \cdot \mathbf{B} = |\mathbf{A}| |\mathbf{B}| \cos\theta = 0\) দুটি পৃথক ক্ষেত্রে সত্য হয়:<br/>১. যখন উভয় ভেক্টর অশূন্য এবং \(\cos\theta = 0\), যার অর্থ \(\theta = 90^\circ\), অর্থাৎ \(\mathbf{A} \perp \mathbf{B}\)।<br/>২. যখন \(|\mathbf{A}| = 0\) অথবা \(|\mathbf{B}| = 0\) (বা উভয়ই শূন্য)।</p>
-<p><strong>ধাপ ৫: যাচাই ও চূড়ান্ত উত্তর</strong><br/>অতএব, সমতাটি সর্বদা সত্য হয় যখন \(\mathbf{A} \perp \mathbf{B}\) অথবা যখন \(|\mathbf{A}|\) বা \(|\mathbf{B}|\)-এর যেকোনো একটি শূন্য হয়।</p>]]></text>
-  </generalfeedback>
+<p><strong>ধাপ ১: প্রদত্ত তথ্য ও শর্তাবলি</strong><br/>দুটি ভেক্টর \(\mathbf{A}\) এবং \(\mathbf{B}\)-এর ক্ষেত্রে \(|\mathbf{A} + \mathbf{B}| = |\mathbf{A} - \mathbf{B}|\)।</p>
+<p><strong>ধাপ ২: অনুমান ও চিহ্ন প্রথা</strong><br/>যখন উভয় ভেক্টর অশূন্য, তখন ধরি \(\mathbf{A}\) এবং \(\mathbf{B}\)-এর মধ্যবর্তী কোণ \(\theta\)।</p>
+<p><strong>ধাপ ৩: প্রাসঙ্গিক সূত্র ও নীতি</strong><br/>\(|\mathbf{A} \pm \mathbf{B}|^2 = |\mathbf{A}|^2 + |\mathbf{B}|^2 \pm 2\mathbf{A} \cdot \mathbf{B} = |\mathbf{A}|^2 + |\mathbf{B}|^2 \pm 2|\mathbf{A}||\mathbf{B}|\cos\theta\)।</p>
+<p><strong>ধাপ ৪: ধাপে ধাপে সমাধান</strong><br/>\(|\mathbf{A} + \mathbf{B}| = |\mathbf{A} - \mathbf{B}|\)-এর উভয় পক্ষকে বর্গ করে পাই:<br/>\(|\mathbf{A}|^2 + |\mathbf{B}|^2 + 2\mathbf{A} \cdot \mathbf{B} = |\mathbf{A}|^2 + |\mathbf{B}|^2 - 2\mathbf{A} \cdot \mathbf{B}\)<br/>\(4\mathbf{A} \cdot \mathbf{B} = 0 \implies \mathbf{A} \cdot \mathbf{B} = 0\)<br/>\(|\mathbf{A}||\mathbf{B}|\cos\theta = 0\)।<br/>এই সমীকরণটি সত্য হবে যখন:<br/>১. \(\cos\theta = 0\), অর্থাৎ \(\theta = 90^\circ\) (\(\mathbf{A} \perp \mathbf{B}\)), অথবা<br/>২. \(|\mathbf{A}| = 0\) অথবা \(|\mathbf{B}| = 0\)।<br/>শুধুমাত্র \(|\mathbf{A}| = |\mathbf{B}| \neq 0\) হলে এটি সত্য হয় না, এবং সমান ও অশূন্য মানের ভেক্টর দুটি সমান্তরাল বা বিপরীত-সমান্তরাল হলে \(|\mathbf{A} + \mathbf{B}| \neq |\mathbf{A} - \mathbf{B}|\) হয়।</p>
+<p><strong>ধাপ ৫: যাচাই এবং চূড়ান্ত উত্তর</strong><br/>সুতরাং, \(\mathbf{A} \perp \mathbf{B}\) হলে অথবা \(|\mathbf{A}|\) বা \(|\mathbf{B}|\) শূন্য হলে \(|\mathbf{A} + \mathbf{B}| = |\mathbf{A} - \mathbf{B}|\) সম্পর্কটি সর্বদা সত্য।</p>]]></text></generalfeedback>
   <defaultgrade>4.0000000</defaultgrade>
   <penalty>0.2500000</penalty>
   <hidden>0</hidden>
@@ -633,12 +575,13 @@
     <tag><text>lang:en</text></tag>
     <tag><text>lang:bn</text></tag>
     <tag><text>subject:physics</text></tag>
-    <tag><text>class:class_11</text></tag>
+    <tag><text>section:mcq_ii</text></tag>
+    <tag><text>class:11</text></tag>
     <tag><text>topic:vectors</text></tag>
     <tag><text>chapter:motion_in_a_plane</text></tag>
     <tag><text>typology:mcq</text></tag>
-    <tag><text>difficulty:easy</text></tag>
-    <tag><text>blooms:understand</text></tag>
+    <tag><text>difficulty:medium</text></tag>
+    <tag><text>blooms:apply</text></tag>
     <tag><text>calculation:light</text></tag>
     <tag><text>media:equation</text></tag>
     <tag><text>multiconcept:false</text></tag>

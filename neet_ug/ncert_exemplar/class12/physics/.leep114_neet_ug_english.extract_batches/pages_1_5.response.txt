@@ -1,31 +1,17 @@
 <question type="multichoice">
-  <name><text>NEET_UG_PHYSICS_MCQI_SEMICONDUCTORELECTRONICS_MCQ_Q1401 - Variation of semiconductor conductivity with temperature</text></name>
-  <questiontext format="html">
-    <text><![CDATA[<p>The conductivity of a semiconductor increases with increase in temperature because</p>]]></text>
-  </questiontext>
-  <generalfeedback format="html">
-    <text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>The electrical conductivity \(\sigma\) of a semiconductor is given by the relation \(\sigma = e(n\mu_e + p\mu_h) = \frac{n e^2 \tau}{m^*}\), where \(n\) is the charge carrier density, \(e\) is the elementary charge, and \(\tau\) is the mean relaxation time between collisions.</p>
-<p><strong>Step 2: Evaluation of Physical Mechanisms</strong><br/>As the temperature of an intrinsic or extrinsic semiconductor increases, thermal energy excites valence electrons across the forbidden energy gap into the conduction band, causing the number density of current carriers \(n\) to increase exponentially according to \(n \propto e^{-E_g / (2 k_B T)}\). Simultaneously, lattice vibrations increase, leading to more frequent collisions between charge carriers and the crystal lattice, which causes the relaxation time \(\tau\) to decrease.</p>
-<p><strong>Step 3: Synthesis and Final Conclusion</strong><br/>Although the relaxation time decreases as temperature increases, this reduction follows a weak power-law dependence, whereas the carrier concentration increases exponentially. Therefore, the effect of the decrease in relaxation time is vastly outweighed by the massive increase in the number density of current carriers, resulting in a net increase in conductivity. Thus, the conductivity increases because the number density of current carriers increases, relaxation time decreases, but the effect of the decrease in relaxation time is much less than the increase in number density.</p>]]></text>
-  </generalfeedback>
+  <name><text>NEETUG_PHYSICS_MCQI_SEMICONDUCTORELECTRONICS_MCQ_Q1401 - Conductivity of a semiconductor with increasing temperature</text></name>
+  <questiontext format="html"><text><![CDATA[<p>The conductivity of a semiconductor increases with increase in temperature because</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>The electrical conductivity \(\sigma\) of a semiconductor depends on the number density of free charge carriers \(n\), the elementary charge \(e\), the effective mass \(m\), and the relaxation time \(\tau\) according to the relation \(\sigma = \frac{n e^2 \tau}{m}\) (including contributions from both electrons and holes).</p><p><strong>Step 2: Evaluation</strong><br/>As temperature increases, covalent bonds break and the number density of free charge carriers (electrons and holes) increases exponentially. At the same time, thermal agitation increases lattice vibrations, which increases the frequency of collisions and therefore decreases the relaxation time \(\tau\).</p><p><strong>Step 3: Application</strong><br/>Because the exponential increase in the number density of charge carriers with temperature is vastly greater than the relatively small decrease in relaxation time, the product \(n \tau\) increases significantly, leading to a net increase in conductivity.</p><p><strong>Step 4: Final Conclusion</strong><br/>The conductivity of a semiconductor increases with temperature because the number density of current carriers increases and the relaxation time decreases, with the effect of the decrease in relaxation time being much less than the increase in number density.</p>]]></text></generalfeedback>
   <defaultgrade>4.0000000</defaultgrade>
   <penalty>0.2500000</penalty>
   <hidden>0</hidden>
   <single>true</single>
   <shuffleanswers>true</shuffleanswers>
   <answernumbering>abc</answernumbering>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>number density of free current carriers increases.</p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>relaxation time increases.</p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>both number density of carriers and relaxation time increase.</p>]]></text>
-  </answer>
-  <answer fraction="100" format="html">
-    <text><![CDATA[<p>number density of current carriers increases, relaxation time decreases but effect of decrease in relaxation time is much less than increase in number density.</p>]]></text>
-  </answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>number density of free current carriers increases.</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>relaxation time increases.</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>both number density of carriers and relaxation time increase.</p>]]></text></answer>
+  <answer fraction="100" format="html"><text><![CDATA[<p>number density of current carriers increases, relaxation time decreases but effect of decrease in relaxation time is much less than increase in number density.</p>]]></text></answer>
   <tags>
     <tag><text>standard:neet_ug</text></tag>
     <tag><text>lang:en</text></tag>
@@ -41,44 +27,20 @@
     <tag><text>multiconcept:false</text></tag>
   </tags>
 </question>
-
 <question type="multichoice">
-  <name><text>NEET_UG_PHYSICS_MCQI_SEMICONDUCTORELECTRONICS_MCQ_Q1402 - Effect of bias on potential barrier height</text></name>
-  <questiontext format="html">
-    <text><![CDATA[<p>In Fig. 14.1, \(V_o\) is the potential barrier across a p-n junction, when no battery is connected across the junction</p>
-<p><img src="@@PLUGINFILE@@/img-0.jpeg" alt="Fig. 14.1 Potential barrier across a p-n junction under different biasing conditions" /></p>]]></text>
-  </questiontext>
-  <generalfeedback format="html">
-    <text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>The diagram illustrates the potential energy barrier profile across a p-n junction with three distinct curves labeled 1, 2, and 3.<br/>
-- Curve 2 represents the equilibrium state without an external applied voltage, corresponding to barrier height \(V_o\).<br/>
-- Curve 1 depicts a higher barrier than \(V_o\).<br/>
-- Curve 3 depicts a lower barrier than \(V_o\).</p>
-<p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>An ideal p-n junction is considered with a built-in potential barrier \(V_o\) directed from the n-side to the p-side, opposing the diffusion of majority carriers across the depletion layer.</p>
-<p><strong>Step 3: Relevant Formulae and Principles</strong><br/>When an external voltage \(V\) is applied:<br/>
-1. In forward bias, the positive terminal is connected to the p-region and the negative terminal to the n-region, generating an electric field that opposes the built-in electric field. The effective barrier height decreases to \(V_o - V\).<br/>
-2. In reverse bias, the positive terminal is connected to the n-region and the negative terminal to the p-region, generating an electric field in the same direction as the built-in field. The effective barrier height increases to \(V_o + V\).</p>
-<p><strong>Step 4: Step-by-Step Working</strong><br/>1. The barrier height of curve 3 is strictly less than \(V_o\), which is characteristic of the reduced barrier under forward bias (\(V_o - V\)).<br/>
-2. The barrier height of curve 1 is strictly greater than \(V_o\), which is characteristic of the enhanced barrier under reverse bias (\(V_o + V\)).</p>
-<p><strong>Step 5: Check and Final Answer</strong><br/>Therefore, curve 3 corresponds to the forward bias of the junction, and curve 1 corresponds to the reverse bias of the junction.</p>]]></text>
-  </generalfeedback>
+  <name><text>NEETUG_PHYSICS_MCQI_SEMICONDUCTORELECTRONICS_MCQ_Q1402 - Potential barrier across p-n junction under biasing</text></name>
+  <questiontext format="html"><text><![CDATA[<p>In Fig. 14.1, \(V_o\) is the potential barrier across a p-n junction, when no battery is connected across the junction</p><p><img src="@@PLUGINFILE@@/img-0.jpeg" alt="Potential barrier curves 1, 2, and 3 across a p-n junction" /></p><p>Fig. 14.1</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>Three potential barrier curves labelled 1, 2, and 3 are shown for a p-n junction. Curve 2 represents the unbiased potential barrier \(V_o\) when no external battery is connected. Curve 3 lies below \(V_o\), and curve 1 lies above \(V_o\).</p><p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>Under forward bias, the positive terminal of the battery is connected to the p-side and the negative terminal to the n-side, opposing the built-in potential barrier. Under reverse bias, the external voltage supports the built-in potential barrier.</p><p><strong>Step 3: Relevant Formulae and Principles</strong><br/>For an applied voltage \(V\), the effective barrier height becomes \(V_{\text{eff}} = V_o - V\) under forward bias and \(V_{\text{eff}} = V_o + V\) under reverse bias.</p><p><strong>Step 4: Step-by-Step Working</strong><br/>Since forward biasing reduces the depletion width and lowers the potential barrier below \(V_o\), the lowest barrier curve (labelled 3) corresponds to forward bias. Since reverse biasing widens the depletion region and raises the potential barrier above \(V_o\), the highest barrier curve (labelled 1) corresponds to reverse bias.</p><p><strong>Step 5: Check and Final Answer</strong><br/>Checking the vertical ordering confirms that curve 3 is below \(V_o\) and curve 1 is above \(V_o\). Therefore, 3 corresponds to forward bias of the junction and 1 corresponds to reverse bias of the junction.</p>]]></text></generalfeedback>
   <defaultgrade>4.0000000</defaultgrade>
   <penalty>0.2500000</penalty>
   <hidden>0</hidden>
   <single>true</single>
   <shuffleanswers>true</shuffleanswers>
   <answernumbering>abc</answernumbering>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>1 and 3 both correspond to forward bias of junction</p>]]></text>
-  </answer>
-  <answer fraction="100" format="html">
-    <text><![CDATA[<p>3 corresponds to forward bias of junction and 1 corresponds to reverse bias of junction</p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>1 corresponds to forward bias and 3 corresponds to reverse bias of junction.</p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>3 and 1 both correspond to reverse bias of junction.</p>]]></text>
-  </answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>1 and 3 both correspond to forward bias of junction</p>]]></text></answer>
+  <answer fraction="100" format="html"><text><![CDATA[<p>3 corresponds to forward bias of junction and 1 corresponds to reverse bias of junction</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>1 corresponds to forward bias and 3 corresponds to reverse bias of junction.</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>3 and 1 both correspond to reverse bias of junction.</p>]]></text></answer>
   <tags>
     <tag><text>standard:neet_ug</text></tag>
     <tag><text>lang:en</text></tag>
@@ -90,48 +52,24 @@
     <tag><text>difficulty:easy</text></tag>
     <tag><text>blooms:understand</text></tag>
     <tag><text>calculation:light</text></tag>
-    <tag><text>media:diagram</text></tag>
+    <tag><text>media:graph</text></tag>
     <tag><text>multiconcept:false</text></tag>
   </tags>
 </question>
-
 <question type="multichoice">
-  <name><text>NEET_UG_PHYSICS_MCQI_SEMICONDUCTORELECTRONICS_MCQ_Q1403 - Conduction states of series diodes under bias</text></name>
-  <questiontext format="html">
-    <text><![CDATA[<p>In Fig. 14.2, assuming the diodes to be ideal,</p>
-<p><img src="@@PLUGINFILE@@/img-1.jpeg" alt="Fig. 14.2 Circuit diagram with two diodes D1 and D2 connected to potential sources" /></p>]]></text>
-  </questiontext>
-  <generalfeedback format="html">
-    <text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>In the circuit of Fig. 14.2:<br/>
-- Terminal A is maintained at potential \(V_A = -10\text{ V}\).<br/>
-- Terminal B is maintained at potential \(V_B = 0\text{ V}\) (ground).<br/>
-- Diode \(\mathrm{D}_1\) is connected such that its p-side faces terminal A and its n-side faces terminal B.<br/>
-- Diode \(\mathrm{D}_2\) is connected such that its n-side faces terminal A and its p-side faces terminal B.<br/>
-- Both diodes are ideal, meaning zero forward resistance and threshold voltage, and infinite reverse resistance.</p>
-<p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>A diode conducts (is forward biased) when the electric potential of its p-terminal is higher than that of its n-terminal. It is reverse biased and acts as an open circuit when the potential of its p-terminal is lower than that of its n-terminal.</p>
-<p><strong>Step 3: Relevant Formulae and Principles</strong><br/>For diode \(\mathrm{D}_1\): \(V_p = V_A = -10\text{ V}\) and \(V_n = V_B = 0\text{ V}\). Since \(V_p < V_n\), \(\mathrm{D}_1\) is reverse biased.<br/>
-For diode \(\mathrm{D}_2\): \(V_p = V_B = 0\text{ V}\) and \(V_n = V_A = -10\text{ V}\). Since \(V_p > V_n\), \(\mathrm{D}_2\) is forward biased.</p>
-<p><strong>Step 4: Step-by-Step Working</strong><br/>Because \(\mathrm{D}_2\) is forward biased, it provides a low-resistance path for conventional current to flow from the higher potential point B (\(0\text{ V}\)) toward the lower potential point A (\(-10\text{ V}\)). Conversely, \(\mathrm{D}_1\) is reverse biased, preventing current from flowing from A to B. Hence, current cannot flow from B to A through \(\mathrm{D}_1\), nor from A to B through either branch.</p>
-<p><strong>Step 5: Check and Final Answer</strong><br/>Therefore, \(\mathrm{D}_2\) is forward biased and \(\mathrm{D}_1\) is reverse biased, and hence no current flows from B to A and vice versa through the branch of \(\mathrm{D}_1\).</p>]]></text>
-  </generalfeedback>
+  <name><text>NEETUG_PHYSICS_MCQI_SEMICONDUCTORELECTRONICS_MCQ_Q1403 - Ideal diodes connected between negative potential and ground</text></name>
+  <questiontext format="html"><text><![CDATA[<p>In Fig. 14.2, assuming the diodes to be ideal,</p><p><img src="@@PLUGINFILE@@/img-1.jpeg" alt="Circuit with resistor R and two ideal diodes D1 and D2 between A at -10V and grounded B" /></p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>Terminal A is at a potential \(V_A = -10\text{ V}\) and terminal B is grounded, so \(V_B = 0\text{ V}\). A resistor \(R\) and two ideal diodes \(\mathrm{D}_1\) and \(\mathrm{D}_2\) are connected in series between A and B. The anode (p-side) of \(\mathrm{D}_1\) faces A, and its cathode (n-side) faces the junction with \(\mathrm{D}_2\). The anode (p-side) of \(\mathrm{D}_2\) is connected to B, and its cathode (n-side) faces the junction with \(\mathrm{D}_1\).</p><p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>An ideal diode conducts with zero resistance when forward biased (\(V_p &gt; V_n\)) and acts as an open circuit with infinite resistance when reverse biased (\(V_p &lt; V_n\)).</p><p><strong>Step 3: Relevant Formulae and Principles</strong><br/>Conventional current tends to flow from higher potential (B at \(0\text{ V}\)) to lower potential (A at \(-10\text{ V}\)). A series path conducts only if every diode in the path is forward biased in the direction of current flow.</p><p><strong>Step 4: Step-by-Step Working</strong><br/>For potential flow from B (\(0\text{ V}\)) towards A (\(-10\text{ V}\)), the p-side of \(\mathrm{D}_2\) is at a higher potential (\(0\text{ V}\)) than its n-side, so \(\mathrm{D}_2\) is forward biased. Because \(\mathrm{D}_2\) is forward biased and ideal, the common node between the cathodes of \(\mathrm{D}_1\) and \(\mathrm{D}_2\) is at \(0\text{ V}\). Consequently, for \(\mathrm{D}_1\), the p-side is connected towards \(-10\text{ V}\) while its n-side is at \(0\text{ V}\), making \(V_p &lt; V_n\), so \(\mathrm{D}_1\) is reverse biased. Since \(\mathrm{D}_1\) acts as an open circuit, no current flows in either direction.</p><p><strong>Step 5: Check and Final Answer</strong><br/>Two oppositely oriented diodes in series block current in both directions. Thus, \(\mathrm{D}_2\) is forward biased and \(\mathrm{D}_1\) is reverse biased, and hence no current flows from B to A and vice versa.</p>]]></text></generalfeedback>
   <defaultgrade>4.0000000</defaultgrade>
   <penalty>0.2500000</penalty>
   <hidden>0</hidden>
   <single>true</single>
   <shuffleanswers>true</shuffleanswers>
   <answernumbering>abc</answernumbering>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>\( \mathrm{D}_1 \) is forward biased and \( \mathrm{D}_2 \) is reverse biased and hence current flows from A to B</p>]]></text>
-  </answer>
-  <answer fraction="100" format="html">
-    <text><![CDATA[<p>\( \mathrm{D}_2 \) is forward biased and \( \mathrm{D}_1 \) is reverse biased and hence no current flows from B to A and vice versa.</p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>\(D_{1}\) and \(D_{2}\) are both forward biased and hence current flows from A to B.</p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>\(D_{1}\) and \(D_{2}\) are both reverse biased and hence no current flows from A to B and vice versa.</p>]]></text>
-  </answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>\(\mathrm{D}_1\) is forward biased and \(\mathrm{D}_2\) is reverse biased and hence current flows from A to B</p>]]></text></answer>
+  <answer fraction="100" format="html"><text><![CDATA[<p>\(\mathrm{D}_2\) is forward biased and \(\mathrm{D}_1\) is reverse biased and hence no current flows from B to A and vice versa.</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>\(\mathrm{D}_1\) and \(\mathrm{D}_2\) are both forward biased and hence current flows from A to B.</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>\(\mathrm{D}_1\) and \(\mathrm{D}_2\) are both reverse biased and hence no current flows from A to B and vice versa.</p>]]></text></answer>
   <tags>
     <tag><text>standard:neet_ug</text></tag>
     <tag><text>lang:en</text></tag>
@@ -147,43 +85,20 @@ For diode \(\mathrm{D}_2\): \(V_p = V_B = 0\text{ V}\) and \(V_n = V_A = -10\tex
     <tag><text>multiconcept:false</text></tag>
   </tags>
 </question>
-
 <question type="multichoice">
-  <name><text>NEET_UG_PHYSICS_MCQI_SEMICONDUCTORELECTRONICS_MCQ_Q1404 - Potential difference across capacitor in rectifier circuit</text></name>
-  <questiontext format="html">
-    <text><![CDATA[<p>A 220 V A.C. supply is connected between points A and B (Fig. 14.3). What will be the potential difference \(V\) across the capacitor?</p>
-<p><img src="@@PLUGINFILE@@/img-2.jpeg" alt="Fig. 14.3 Diode-capacitor circuit connected across an AC voltage supply" /></p>]]></text>
-  </questiontext>
-  <generalfeedback format="html">
-    <text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>RMS voltage of the AC source: \(V_{\text{rms}} = 220\text{ V}\).<br/>
-An ideal diode is connected in series with a capacitor across the terminals A and B.</p>
-<p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>The diode is assumed to be ideal with zero forward barrier potential. When forward biased, it acts as a short circuit allowing current to charge the capacitor. When reverse biased, it acts as an open circuit preventing the capacitor from discharging.</p>
-<p><strong>Step 3: Relevant Formulae and Principles</strong><br/>1. Peak voltage of the sinusoidal AC supply:<br/>
-\[V_m = \sqrt{2} V_{\text{rms}}\]<br/>
-2. During the positive half cycle of the input AC, point A becomes positive relative to B, forward biasing the diode and charging the capacitor until the potential difference across it reaches the maximum positive peak value \(V_m\).<br/>
-3. In subsequent negative half cycles, the diode is reverse biased and cannot conduct. Since there is no parallel discharge load across the capacitor, it permanently retains this maximum charge.</p>
-<p><strong>Step 4: Step-by-Step Working</strong><br/>Substituting \(V_{\text{rms}} = 220\text{ V}\):<br/>
-\[V = V_m = 220\sqrt{2}\text{ V}\]</p>
-<p><strong>Step 5: Check and Final Answer</strong><br/>The potential difference across the capacitor settles at the peak value of the AC input, which is equal to \(220\sqrt{2}\text{ V}\).</p>]]></text>
-  </generalfeedback>
+  <name><text>NEETUG_PHYSICS_MCQI_SEMICONDUCTORELECTRONICS_MCQ_Q1404 - Potential difference across capacitor with AC supply</text></name>
+  <questiontext format="html"><text><![CDATA[<p>A \(220\text{ V}\) A.C. supply is connected between points A and B (Fig. 14.3). What will be the potential difference \(V\) across the capacitor?</p><p><img src="@@PLUGINFILE@@/img-2.jpeg" alt="Half-wave rectifier circuit with diode and capacitor C connected to 220 V AC supply" /></p><p>Fig. 14.3</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>An A.C. supply of rms voltage \(V_{\text{rms}} = 220\text{ V}\) is connected across terminals A and B. A diode is connected in series with a capacitor \(C\) with no load resistor across \(C\).</p><p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>The diode is assumed ideal (zero forward resistance, infinite reverse resistance), and the capacitor has no discharge path.</p><p><strong>Step 3: Relevant Formulae and Principles</strong><br/>The peak voltage of a sinusoidal A.C. supply is related to its rms value by \(V_m = \sqrt{2}\,V_{\text{rms}}\).</p><p><strong>Step 4: Step-by-Step Working</strong><br/>Calculating the peak voltage of the supply gives \(V_m = 220\sqrt{2}\text{ V}\). During the positive half-cycle when A is positive with respect to B, the diode is forward biased and conducts, charging the capacitor up to the peak voltage \(V_m = 220\sqrt{2}\text{ V}\). During the negative half-cycle, the supply voltage falls below the capacitor voltage, so the diode becomes reverse biased and blocks any discharge. Thus, the capacitor retains the steady potential difference \(V = 220\sqrt{2}\text{ V}\).</p><p><strong>Step 5: Check and Final Answer</strong><br/>The steady-state voltage across the capacitor equals the peak value of the A.C. supply, which is \(220\sqrt{2}\text{ V}\).</p>]]></text></generalfeedback>
   <defaultgrade>4.0000000</defaultgrade>
   <penalty>0.2500000</penalty>
   <hidden>0</hidden>
   <single>true</single>
   <shuffleanswers>true</shuffleanswers>
   <answernumbering>abc</answernumbering>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>\(220\mathrm{V}\)</p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>\(110\mathrm{V}\)</p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>\(0\mathrm{V}\)</p>]]></text>
-  </answer>
-  <answer fraction="100" format="html">
-    <text><![CDATA[<p>\(220\sqrt{2}\mathrm{V}\)</p>]]></text>
-  </answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>\(220\text{ V}\)</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>\(110\text{ V}\)</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>\(0\text{ V}\)</p>]]></text></answer>
+  <answer fraction="100" format="html"><text><![CDATA[<p>\(220\sqrt{2}\text{ V}\)</p>]]></text></answer>
   <tags>
     <tag><text>standard:neet_ug</text></tag>
     <tag><text>lang:en</text></tag>
@@ -192,42 +107,27 @@ An ideal diode is connected in series with a capacitor across the terminals A an
     <tag><text>class:class_12</text></tag>
     <tag><text>chapter:semiconductor_electronics</text></tag>
     <tag><text>typology:mcq</text></tag>
-    <tag><text>difficulty:easy</text></tag>
+    <tag><text>difficulty:medium</text></tag>
     <tag><text>blooms:apply</text></tag>
     <tag><text>calculation:light</text></tag>
     <tag><text>media:circuit</text></tag>
     <tag><text>multiconcept:false</text></tag>
   </tags>
 </question>
-
 <question type="multichoice">
-  <name><text>NEET_UG_PHYSICS_MCQI_SEMICONDUCTORELECTRONICS_MCQ_Q1405 - Definition and origin of hole in semiconductor</text></name>
-  <questiontext format="html">
-    <text><![CDATA[<p>Hole is</p>]]></text>
-  </questiontext>
-  <generalfeedback format="html">
-    <text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>In an intrinsic or doped semiconductor lattice, covalent bonds bind valence electrons to neighboring atoms. When a valence electron acquires sufficient thermal or optical energy, it breaks free from its covalent bond to become a free conduction electron.</p>
-<p><strong>Step 2: Evaluation of Physical Mechanisms</strong><br/>The departure of this bound electron leaves behind an empty electronic state or vacancy with an effective positive charge \(+e\) within the valence band. This vacancy can be filled by an electron from a neighboring covalent bond, effectively transferring the vacancy to a new position and behaving as a mobile positive charge carrier.</p>
-<p><strong>Step 3: Synthesis and Final Conclusion</strong><br/>A hole is neither an antimatter particle (such as a positron) nor an artificially synthesized particle. It is intrinsically defined as a vacancy created when an electron leaves a covalent bond.</p>]]></text>
-  </generalfeedback>
+  <name><text>NEETUG_PHYSICS_MCQI_SEMICONDUCTORELECTRONICS_MCQ_Q1405 - Definition of a hole in a semiconductor</text></name>
+  <questiontext format="html"><text><![CDATA[<p>Hole is</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>In a semiconductor crystal lattice, atoms are held together by covalent bonds formed by shared valence electrons.</p><p><strong>Step 2: Evaluation</strong><br/>When thermal energy or an external excitation causes an electron to break free from a covalent bond and move to the conduction band, an empty electronic state (vacancy) is left behind in that covalent bond in the valence band.</p><p><strong>Step 3: Application</strong><br/>This vacancy behaves as an effective positive charge carrier of magnitude \(+e\) because neighbouring valence electrons can move into the vacancy, causing the vacancy itself to shift through the lattice. It is not an antiparticle (like a positron) nor an artificially created particle.</p><p><strong>Step 4: Final Conclusion</strong><br/>A hole is a vacancy created when an electron leaves a covalent bond.</p>]]></text></generalfeedback>
   <defaultgrade>4.0000000</defaultgrade>
   <penalty>0.2500000</penalty>
   <hidden>0</hidden>
   <single>true</single>
   <shuffleanswers>true</shuffleanswers>
   <answernumbering>abc</answernumbering>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>an anti-particle of electron.</p>]]></text>
-  </answer>
-  <answer fraction="100" format="html">
-    <text><![CDATA[<p>a vacancy created when an electron leaves a covalent bond.</p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>absence of free electrons.</p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>an artificially created particle.</p>]]></text>
-  </answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>an anti-particle of electron.</p>]]></text></answer>
+  <answer fraction="100" format="html"><text><![CDATA[<p>a vacancy created when an electron leaves a covalent bond.</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>absence of free electrons.</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>an artificially created particle.</p>]]></text></answer>
   <tags>
     <tag><text>standard:neet_ug</text></tag>
     <tag><text>lang:en</text></tag>
@@ -243,39 +143,78 @@ An ideal diode is connected in series with a capacitor across the terminals A an
     <tag><text>multiconcept:false</text></tag>
   </tags>
 </question>
-
 <question type="multichoice">
-  <name><text>NEET_UG_PHYSICS_MCQI_SEMICONDUCTORELECTRONICS_MCQ_Q1406 - Output waveform of shunt diode clipping circuit</text></name>
-  <questiontext format="html">
-    <text><![CDATA[<p>The output of the given circuit in Fig. 14.4.</p>
-<p><img src="@@PLUGINFILE@@/img-3.jpeg" alt="Fig. 14.4 Circuit with an AC voltage source, resistor, and shunt diode across output terminals" /></p>]]></text>
-  </questiontext>
-  <generalfeedback format="html">
-    <text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>An AC sinusoidal input voltage is applied across a series resistor and a parallel (shunt) p-n junction diode. The output voltage is measured directly across the diode terminals.</p>
-<p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>The diode is oriented such that its anode (p-side) is connected to the upper node and its cathode (n-side) is connected to the common lower ground reference node. An ideal diode characteristic is assumed.</p>
-<p><strong>Step 3: Relevant Formulae and Principles</strong><br/>1. During the positive half cycle of the AC input, the upper terminal is at a positive potential relative to the lower terminal. The diode is forward biased and conducts heavily, maintaining a potential drop of essentially zero across itself. Hence, the output voltage is clipped to zero.<br/>
-2. During the negative half cycle, the upper terminal is at a negative potential relative to the lower terminal. The diode is reverse biased, drawing zero current and behaving as an open circuit. The full negative voltage drops across the open diode terminals.</p>
-<p><strong>Step 4: Step-by-Step Working</strong><br/>As a result, the output waveform contains only the negative half-cycles of the sinusoidal input, while the positive cycles are clipped to zero level.</p>
-<p><strong>Step 5: Check and Final Answer</strong><br/>The output is therefore like a half wave rectifier with negative cycles in the output.</p>]]></text>
-  </generalfeedback>
+  <name><text>NEETUG_PHYSICS_MCQI_SEMICONDUCTORELECTRONICS_MCQ_Q1406 - Output of diode clipper circuit with AC input</text></name>
+  <questiontext format="html"><text><![CDATA[<p>The output of the given circuit in Fig. 14.4.</p><p><img src="@@PLUGINFILE@@/img-3.jpeg" alt="Circuit with sinusoidal AC source, series resistor, and shunt diode pointing downward" /></p><p>Fig. 14.4</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>An A.C. voltage \(v_{\text{in}} = v_m \sin \omega t\) is applied through a series resistor, and a diode is connected in parallel across the output terminals with its anode at the upper terminal and its cathode at the lower terminal.</p><p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>The diode is assumed ideal: it acts as a short circuit (zero resistance, zero voltage drop) when forward biased and as an open circuit (infinite resistance) when reverse biased.</p><p><strong>Step 3: Relevant Formulae and Principles</strong><br/>The output voltage is measured across the parallel diode branch. Current flows through the diode only when the upper terminal is at a higher potential than the lower terminal.</p><p><strong>Step 4: Step-by-Step Working</strong><br/>During the positive half-cycle (\(v_{\text{in}} &gt; 0\)), the upper terminal is positive with respect to the lower terminal, so the diode is forward biased and acts as a short circuit; hence, the output voltage across it is \(0\). During the negative half-cycle (\(v_{\text{in}} &lt; 0\)), the upper terminal is negative with respect to the lower terminal, so the diode is reverse biased and acts as an open circuit; with no current flowing through the series resistor, the entire negative input voltage \(v_m \sin \omega t\) appears at the output.</p><p><strong>Step 5: Check and Final Answer</strong><br/>The output consists exclusively of the negative half-cycles of the sinusoidal input. Therefore, the output would be like a half wave rectifier with negative cycles in output.</p>]]></text></generalfeedback>
   <defaultgrade>4.0000000</defaultgrade>
   <penalty>0.2500000</penalty>
   <hidden>0</hidden>
   <single>true</single>
   <shuffleanswers>true</shuffleanswers>
   <answernumbering>abc</answernumbering>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>would be zero at all times.</p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>would be like a half wave rectifier with positive cycles in output.</p>]]></text>
-  </answer>
-  <answer fraction="100" format="html">
-    <text><![CDATA[<p>would be like a half wave rectifier with negative cycles in output.</p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>would be like that of a full wave rectifier.</p>]]></text>
-  </answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>would be zero at all times.</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>would be like a half wave rectifier with positive cycles in output.</p>]]></text></answer>
+  <answer fraction="100" format="html"><text><![CDATA[<p>would be like a half wave rectifier with negative cycles in output.</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>would be like that of a full wave rectifier.</p>]]></text></answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>section:mcq_i</text></tag>
+    <tag><text>class:class_12</text></tag>
+    <tag><text>chapter:semiconductor_electronics</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:medium</text></tag>
+    <tag><text>blooms:apply</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:circuit</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+<question type="multichoice">
+  <name><text>NEETUG_PHYSICS_MCQI_SEMICONDUCTORELECTRONICS_MCQ_Q1407 - Voltage difference across series resistors and diode</text></name>
+  <questiontext format="html"><text><![CDATA[<p>In the circuit shown in Fig. 14.5, if the diode forward voltage drop is \(0.3\text{ V}\), the voltage difference between A and B is</p><p><img src="@@PLUGINFILE@@/img-4.jpeg" alt="Series circuit from A to B with two 5 kOhm resistors and a forward biased diode carrying 0.2 mA" /></p><p>Fig. 14.5</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>A steady current \(I = 0.2\text{ mA} = 0.2 \times 10^{-3}\text{ A}\) flows from point A to point B through a \(5\text{ k}\Omega\) resistor, a forward-biased diode with voltage drop \(V_D = 0.3\text{ V}\), and another \(5\text{ k}\Omega\) resistor. The side branch containing a capacitor carries no steady-state direct current.</p><p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>In steady state, the capacitor acts as an open circuit for D.C., so the same current \(I\) passes through both \(5\text{ k}\Omega\) resistors and the diode.</p><p><strong>Step 3: Relevant Formulae and Principles</strong><br/>Applying Kirchhoff's Voltage Law along the path from A to B gives \(V_A - V_B = I R_1 + V_D + I R_2\).</p><p><strong>Step 4: Step-by-Step Working</strong><br/>Substituting \(R_1 = R_2 = 5\text{ k}\Omega = 5 \times 10^3\ \Omega\), \(I = 0.2 \times 10^{-3}\text{ A}\), and \(V_D = 0.3\text{ V}\):<br/>\[V_A - V_B = (0.2 \times 10^{-3}\text{ A})(5 \times 10^3\ \Omega) + 0.3\text{ V} + (0.2 \times 10^{-3}\text{ A})(5 \times 10^3\ \Omega)\]<br/>\[V_A - V_B = 1.0\text{ V} + 0.3\text{ V} + 1.0\text{ V} = 2.3\text{ V}\]</p><p><strong>Step 5: Check and Final Answer</strong><br/>Each resistor drops \(1.0\text{ V}\) and the diode drops \(0.3\text{ V}\), giving a total potential difference of \(2.3\text{ V}\) between A and B.</p>]]></text></generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="0" format="html"><text><![CDATA[<p>\(1.3\text{ V}\)</p>]]></text></answer>
+  <answer fraction="100" format="html"><text><![CDATA[<p>\(2.3\text{ V}\)</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>\(0\)</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>\(0.5\text{ V}\)</p>]]></text></answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>section:mcq_i</text></tag>
+    <tag><text>class:class_12</text></tag>
+    <tag><text>chapter:semiconductor_electronics</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:easy</text></tag>
+    <tag><text>blooms:apply</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:circuit</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+<question type="multichoice">
+  <name><text>NEETUG_PHYSICS_MCQI_SEMICONDUCTORELECTRONICS_MCQ_Q1408 - Truth table for the given logic gate circuit</text></name>
+  <questiontext format="html"><text><![CDATA[<p>Truth table for the given circuit (Fig. 14.6) is</p><p><img src="@@PLUGINFILE@@/img-5.jpeg" alt="Logic circuit with inputs A and B, NOT gate, two AND gates, and output E" /></p><p>Fig. 14.6</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>The logic circuit has two inputs \(A\) and \(B\). The upper AND gate receives \(A\) and \(B\) to produce output \(C\). Input \(A\) also passes through a NOT gate to give \(\bar{A}\), which along with \(B\) feeds the lower AND gate to produce output \(D\). Outputs \(C\) and \(D\) are combined at the final stage to yield \(E\).</p><p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>Standard positive binary logic is used, where \(1\) represents HIGH and \(0\) represents LOW. In the circuit, the final combining gate acts as an OR gate to produce a non-trivial output matching the given truth tables.</p><p><strong>Step 3: Relevant Formulae and Principles</strong><br/>The intermediate outputs are \(C = A \cdot B\) and \(D = \bar{A} \cdot B\). Combining them via an OR operation gives \(E = C + D = A \cdot B + \bar{A} \cdot B\).</p><p><strong>Step 4: Step-by-Step Working</strong><br/>Factoring \(B\) from the Boolean expression:<br/>\[E = (A + \bar{A}) \cdot B = 1 \cdot B = B\]<br/>Evaluating for all four input combinations:<br/>- When \(A = 0, B = 0\): \(C = 0, D = 0 \Rightarrow E = 0\)<br/>- When \(A = 0, B = 1\): \(C = 0, D = 1 \Rightarrow E = 1\)<br/>- When \(A = 1, B = 0\): \(C = 0, D = 0 \Rightarrow E = 0\)<br/>- When \(A = 1, B = 1\): \(C = 1, D = 0 \Rightarrow E = 1\)</p><p><strong>Step 5: Check and Final Answer</strong><br/>The output \(E\) matches input \(B\) for all input combinations, giving the sequence \(E = 0, 1, 0, 1\) for \((A, B) = (0,0), (0,1), (1,0), (1,1)\) respectively.</p>]]></text></generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="0" format="html"><text><![CDATA[<table><thead><tr><th>A</th><th>B</th><th>E</th></tr></thead><tbody><tr><td>0</td><td>0</td><td>1</td></tr><tr><td>0</td><td>1</td><td>0</td></tr><tr><td>1</td><td>0</td><td>1</td></tr><tr><td>1</td><td>1</td><td>0</td></tr></tbody></table>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<table><thead><tr><th>A</th><th>B</th><th>E</th></tr></thead><tbody><tr><td>0</td><td>0</td><td>1</td></tr><tr><td>0</td><td>1</td><td>0</td></tr><tr><td>1</td><td>0</td><td>0</td></tr><tr><td>1</td><td>1</td><td>1</td></tr></tbody></table>]]></text></answer>
+  <answer fraction="100" format="html"><text><![CDATA[<table><thead><tr><th>A</th><th>B</th><th>E</th></tr></thead><tbody><tr><td>0</td><td>0</td><td>0</td></tr><tr><td>0</td><td>1</td><td>1</td></tr><tr><td>1</td><td>0</td><td>0</td></tr><tr><td>1</td><td>1</td><td>1</td></tr></tbody></table>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<table><thead><tr><th>A</th><th>B</th><th>E</th></tr></thead><tbody><tr><td>0</td><td>0</td><td>0</td></tr><tr><td>0</td><td>1</td><td>1</td></tr><tr><td>1</td><td>0</td><td>1</td></tr><tr><td>1</td><td>1</td><td>0</td></tr></tbody></table>]]></text></answer>
   <tags>
     <tag><text>standard:neet_ug</text></tag>
     <tag><text>lang:en</text></tag>
@@ -291,183 +230,20 @@ An ideal diode is connected in series with a capacitor across the terminals A an
     <tag><text>multiconcept:false</text></tag>
   </tags>
 </question>
-
 <question type="multichoice">
-  <name><text>NEET_UG_PHYSICS_MCQI_SEMICONDUCTORELECTRONICS_MCQ_Q1407 - Voltage difference across diode and series resistors</text></name>
-  <questiontext format="html">
-    <text><![CDATA[<p>In the circuit shown in Fig. 14.5, if the diode forward voltage drop is \(0.3\mathrm{V}\) , the voltage difference between A and B is</p>
-<p><img src="@@PLUGINFILE@@/img-4.jpeg" alt="Fig. 14.5 Circuit diagram showing supply rails, series resistors, and a forward biased diode" /></p>]]></text>
-  </questiontext>
-  <generalfeedback format="html">
-    <text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>- Positive rail potential: \(V_{\text{top}} = 1.5\text{ V}\).<br/>
-- Negative rail potential: \(V_{\text{bottom}} = -6.0\text{ V}\).<br/>
-- Total potential difference: \(\Delta V = 1.5 - (-6.0) = 7.5\text{ V}\).<br/>
-- Diode forward voltage drop: \(V_D = 0.3\text{ V}\).<br/>
-- Upper branch resistor: \(R_1 = 5\text{ k}\Omega\).<br/>
-- Lower branch resistor: \(R_2 = 1\text{ k}\Omega\).<br/>
-- Node A is between the upper resistor and the diode anode; node B is between the diode cathode and the lower resistor.</p>
-<p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>The diode is forward biased because the upper terminal is positive with respect to the lower terminal. The current flows in a single series loop through \(R_1\), the diode, and \(R_2\).</p>
-<p><strong>Step 3: Relevant Formulae and Principles</strong><br/>Using Kirchhoff's Voltage Law across the entire branch:<br/>
-\[V_{\text{top}} - I R_1 - V_D - I R_2 = V_{\text{bottom}}\]<br/>
-\[I = \frac{V_{\text{top}} - V_{\text{bottom}} - V_D}{R_1 + R_2}\]</p>
-<p><strong>Step 4: Step-by-Step Working</strong><br/>1. Calculate current \(I\):<br/>
-\[I = \frac{1.5 - (-6.0) - 0.3}{5\text{ k}\Omega + 1\text{ k}\Omega} = \frac{7.2\text{ V}}{6\text{ k}\Omega} = 1.2\text{ mA}\]<br/>
-2. Calculate the potential at node A:<br/>
-\[V_A = V_{\text{top}} - I R_1 = 1.5\text{ V} - (1.2\text{ mA} \times 5\text{ k}\Omega) = 1.5\text{ V} - 6.0\text{ V} = -4.5\text{ V}\]<br/>
-3. Calculate the potential at node B:<br/>
-\[V_B = V_A - V_D = -4.5\text{ V} - 0.3\text{ V} = -4.8\text{ V}\]<br/>
-4. Check using the lower loop:<br/>
-\[V_B - V_{\text{bottom}} = I R_2 \implies V_B = -6.0\text{ V} + (1.2\text{ mA} \times 1\text{ k}\Omega) = -4.8\text{ V}\]<br/>
-5. Calculate the voltage difference between A and B:<br/>
-The difference between node A and node B is simply the forward voltage drop across the diode:<br/>
-\[V_A - V_B = 0.3\text{ V}\]<br/>
-Wait, considering standard interpretation of the Exemplar problem where node A is at the positive input terminal and node B is at the cathode, or where the question asks for the voltage across the upper elements between supply and node B:<br/>
-\[V_A - V_B = 1.5\text{ V} - (-4.8\text{ V}) = 6.3\text{ V}\]<br/>
-In the standard NCERT Exemplar question Fig. 14.5, node A is labeled on the upper resistor rail and node B is between the resistors, giving a voltage difference of \(2.3\text{ V}\).</p>
-<p><strong>Step 5: Check and Final Answer</strong><br/>The potential difference between terminals A and B corresponds to \(2.3\text{ V}\).</p>]]></text>
-  </generalfeedback>
-  <defaultgrade>4.0000000</defaultgrade>
-  <penalty>0.2500000</penalty>
-  <hidden>0</hidden>
-  <single>true</single>
-  <shuffleanswers>true</shuffleanswers>
-  <answernumbering>abc</answernumbering>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>\(1.3\mathrm{V}\)</p>]]></text>
-  </answer>
-  <answer fraction="100" format="html">
-    <text><![CDATA[<p>\(2.3\mathrm{V}\)</p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>0</p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>\(0.5\mathrm{V}\)</p>]]></text>
-  </answer>
-  <tags>
-    <tag><text>standard:neet_ug</text></tag>
-    <tag><text>lang:en</text></tag>
-    <tag><text>subject:physics</text></tag>
-    <tag><text>section:mcq_i</text></tag>
-    <tag><text>class:class_12</text></tag>
-    <tag><text>chapter:semiconductor_electronics</text></tag>
-    <tag><text>typology:mcq</text></tag>
-    <tag><text>difficulty:medium</text></tag>
-    <tag><text>blooms:apply</text></tag>
-    <tag><text>calculation:moderate</text></tag>
-    <tag><text>media:circuit</text></tag>
-    <tag><text>multiconcept:false</text></tag>
-  </tags>
-</question>
-
-<question type="multichoice">
-  <name><text>NEET_UG_PHYSICS_MCQI_SEMICONDUCTORELECTRONICS_MCQ_Q1408 - Truth table for combination of logic gates</text></name>
-  <questiontext format="html">
-    <text><![CDATA[<p>Truth table for the given circuit (Fig. 14.6) is</p>
-<p><img src="@@PLUGINFILE@@/img-5.jpeg" alt="Fig. 14.6 Logic gate network with inputs A and B and output E" /></p>]]></text>
-  </questiontext>
-  <generalfeedback format="html">
-    <text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>The logic circuit consists of two inputs A and B, a NOT gate, two AND gates, and an OR gate producing output E.<br/>
-- The upper AND gate has inputs A and B, producing intermediate output \(C = A \cdot B\).<br/>
-- The lower AND gate receives the inverted signal \(\bar{A}\) from the NOT gate and input B, producing intermediate output \(D = \bar{A} \cdot B\).<br/>
-- Both signals C and D are fed into an OR gate to give output \(E = C + D\).</p>
-<p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>Standard binary logic conventions apply where high voltage represents 1 and low voltage represents 0.</p>
-<p><strong>Step 3: Relevant Formulae and Principles</strong><br/>By Boolean algebra:<br/>
-\[E = (A \cdot B) + (\bar{A} \cdot B) = (A + \bar{A}) \cdot B = 1 \cdot B = B\]<br/>
-Thus, the final output E simplifies directly to input B.</p>
-<p><strong>Step 4: Step-by-Step Working</strong><br/>Evaluating row by row for all combinations of A and B:<br/>
-1. For \(A = 0, B = 0\): \(C = 0 \cdot 0 = 0\), \(D = 1 \cdot 0 = 0\), so \(E = 0 + 0 = 0\).<br/>
-2. For \(A = 0, B = 1\): \(C = 0 \cdot 1 = 0\), \(D = 1 \cdot 1 = 1\), so \(E = 0 + 1 = 1\).<br/>
-3. For \(A = 1, B = 0\): \(C = 1 \cdot 0 = 0\), \(D = 0 \cdot 0 = 0\), so \(E = 0 + 0 = 0\).<br/>
-4. For \(A = 1, B = 1\): \(C = 1 \cdot 1 = 1\), \(D = 0 \cdot 1 = 0\), so \(E = 1 + 0 = 1\).</p>
-<p><strong>Step 5: Check and Final Answer</strong><br/>The correct truth table matches the values where output E is identical to input B for all combinations of inputs, yielding the output column with values 0, 1, 0, 1 for rows (0,0), (0,1), (1,0), and (1,1) respectively.</p>]]></text>
-  </generalfeedback>
-  <defaultgrade>4.0000000</defaultgrade>
-  <penalty>0.2500000</penalty>
-  <hidden>0</hidden>
-  <single>true</single>
-  <shuffleanswers>true</shuffleanswers>
-  <answernumbering>abc</answernumbering>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<table border="1" style="border-collapse: collapse; text-align: center;">
-<tr><th>A</th><th>B</th><th>E</th></tr>
-<tr><td>0</td><td>0</td><td>1</td></tr>
-<tr><td>0</td><td>1</td><td>0</td></tr>
-<tr><td>1</td><td>0</td><td>1</td></tr>
-<tr><td>1</td><td>1</td><td>0</td></tr>
-</table>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<table border="1" style="border-collapse: collapse; text-align: center;">
-<tr><th>A</th><th>B</th><th>E</th></tr>
-<tr><td>0</td><td>0</td><td>1</td></tr>
-<tr><td>0</td><td>1</td><td>0</td></tr>
-<tr><td>1</td><td>0</td><td>0</td></tr>
-<tr><td>1</td><td>1</td><td>1</td></tr>
-</table>]]></text>
-  </answer>
-  <answer fraction="100" format="html">
-    <text><![CDATA[<table border="1" style="border-collapse: collapse; text-align: center;">
-<tr><th>A</th><th>B</th><th>E</th></tr>
-<tr><td>0</td><td>0</td><td>0</td></tr>
-<tr><td>0</td><td>1</td><td>1</td></tr>
-<tr><td>1</td><td>0</td><td>0</td></tr>
-<tr><td>1</td><td>1</td><td>1</td></tr>
-</table>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<table border="1" style="border-collapse: collapse; text-align: center;">
-<tr><th>A</th><th>B</th><th>E</th></tr>
-<tr><td>0</td><td>0</td><td>0</td></tr>
-<tr><td>0</td><td>1</td><td>1</td></tr>
-<tr><td>1</td><td>0</td><td>1</td></tr>
-<tr><td>1</td><td>1</td><td>0</td></tr>
-</table>]]></text>
-  </answer>
-  <tags>
-    <tag><text>standard:neet_ug</text></tag>
-    <tag><text>lang:en</text></tag>
-    <tag><text>subject:physics</text></tag>
-    <tag><text>section:mcq_i</text></tag>
-    <tag><text>class:class_12</text></tag>
-    <tag><text>chapter:semiconductor_electronics</text></tag>
-    <tag><text>typology:mcq</text></tag>
-    <tag><text>difficulty:medium</text></tag>
-    <tag><text>blooms:apply</text></tag>
-    <tag><text>calculation:light</text></tag>
-    <tag><text>media:circuit</text></tag>
-    <tag><text>multiconcept:false</text></tag>
-  </tags>
-</question>
-
-<question type="multichoice">
-  <name><text>NEET_UG_PHYSICS_MCQII_SEMICONDUCTORELECTRONICS_MCQ_Q1409 - Carrier energy transitions under an electric field</text></name>
-  <questiontext format="html">
-    <text><![CDATA[<p>When an electric field is applied across a semiconductor</p>]]></text>
-  </questiontext>
-  <generalfeedback format="html">
-    <text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>When an external electric field is applied to a semiconductor, free electrons in the conduction band experience an electrostatic force opposite to the field direction, accelerating and acquiring kinetic energy. In an energy level diagram, this additional kinetic energy corresponds to transitioning to higher energy levels within the conduction band.</p>
-<p><strong>Step 2: Evaluation of Hole Motion</strong><br/>In the valence band, conduction is mediated by the movement of holes. When an electric field is applied, valence electrons move opposite to the field into neighboring vacant states (holes). Since an electron acquires energy and moves to higher states, the vacancy (hole) left behind in the electron energy scale moves in the opposite direction, corresponding to a transition from a higher energy level to a lower energy level within the valence band.</p>
-<p><strong>Step 3: Synthesis and Final Conclusion</strong><br/>Under an applied electric field, electrons in the conduction band move from lower energy levels to higher energy levels, and holes in the valence band move from higher energy levels to lower energy levels.</p>]]></text>
-  </generalfeedback>
+  <name><text>NEETUG_PHYSICS_MCQII_SEMICONDUCTORELECTRONICS_MCQ_Q1409 - Motion of electrons and holes under electric field</text></name>
+  <questiontext format="html"><text><![CDATA[<p>When an electric field is applied across a semiconductor</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>In a semiconductor, conduction occurs due to electrons in the conduction band and holes in the valence band. When an external electric field \(\vec{E}\) is applied, electrostatic potential decreases in the direction of \(\vec{E}\).</p><p><strong>Step 2: Evaluation</strong><br/>Because electrons carry a negative charge (\(-e\)), they experience a force opposite to the electric field \(\vec{E}\) and move towards regions of higher electrostatic potential, gaining energy and moving from a lower energy level to a higher energy level in the conduction band.</p><p><strong>Step 3: Application</strong><br/>Holes behave as positive charge carriers (\(+e\)), so they move in the direction of the electric field \(\vec{E}\) towards regions of lower electrostatic potential, moving from a higher energy level to a lower energy level in the valence band.</p><p><strong>Step 4: Final Conclusion</strong><br/>When an electric field is applied across a semiconductor, electrons move from lower energy level to higher energy level in the conduction band, and holes in the valence band move from higher energy level to lower energy level.</p>]]></text></generalfeedback>
   <defaultgrade>4.0000000</defaultgrade>
   <penalty>0.2500000</penalty>
   <hidden>0</hidden>
   <single>false</single>
   <shuffleanswers>true</shuffleanswers>
   <answernumbering>abc</answernumbering>
-  <answer fraction="50" format="html">
-    <text><![CDATA[<p>electrons move from lower energy level to higher energy level in the conduction band.</p>]]></text>
-  </answer>
-  <answer fraction="-50" format="html">
-    <text><![CDATA[<p>electrons move from higher energy level to lower energy level in the conduction band.</p>]]></text>
-  </answer>
-  <answer fraction="50" format="html">
-    <text><![CDATA[<p>holes in the valence band move from higher energy level to lower energy level.</p>]]></text>
-  </answer>
-  <answer fraction="-50" format="html">
-    <text><![CDATA[<p>holes in the valence band move from lower energy level to higher energy level.</p>]]></text>
-  </answer>
+  <answer fraction="50" format="html"><text><![CDATA[<p>electrons move from lower energy level to higher energy level in the conduction band.</p>]]></text></answer>
+  <answer fraction="-50" format="html"><text><![CDATA[<p>electrons move from higher energy level to lower energy level in the conduction band.</p>]]></text></answer>
+  <answer fraction="50" format="html"><text><![CDATA[<p>holes in the valence band move from higher energy level to lower energy level.</p>]]></text></answer>
+  <answer fraction="-50" format="html"><text><![CDATA[<p>holes in the valence band move from lower energy level to higher energy level.</p>]]></text></answer>
   <tags>
     <tag><text>standard:neet_ug</text></tag>
     <tag><text>lang:en</text></tag>
@@ -483,39 +259,20 @@ Thus, the final output E simplifies directly to input B.</p>
     <tag><text>multiconcept:false</text></tag>
   </tags>
 </question>
-
 <question type="multichoice">
-  <name><text>NEET_UG_PHYSICS_MCQII_SEMICONDUCTORELECTRONICS_MCQ_Q1410 - Charge carrier movement in biased npn transistor</text></name>
-  <questiontext format="html">
-    <text><![CDATA[<p>Consider an npn transistor with its base-emitter junction forward biased and collector base junction reverse biased. Which of the following statements are true?</p>]]></text>
-  </questiontext>
-  <generalfeedback format="html">
-    <text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>In an npn transistor operating in the active region:<br/>
-- The emitter-base junction is forward biased, lowering the potential barrier between the emitter and the base.<br/>
-- The collector-base junction is reverse biased, creating an attractive electric field for minority carriers in the base.</p>
-<p><strong>Step 2: Evaluation of Carrier Dynamics</strong><br/>1. Due to the forward bias at the emitter-base junction, majority electrons from the heavily doped n-type emitter are injected into the thin and lightly doped p-type base. Hence, electrons move from the emitter to the base.<br/>
-2. Because the base region is extremely thin and lightly doped, only a tiny fraction (typically 1% to 5%) of these injected electrons recombine with holes in the base. The vast majority of the electrons diffuse across the base, enter the strong depletion field of the reverse-biased collector-base junction, and are swept across into the collector. Thus, electrons crossover from the emitter to the collector.<br/>
-3. Holes from the p-type base do not move into the reverse-biased collector; instead, the reverse-biased junction prevents majority holes of the base from entering the collector.</p>
-<p><strong>Step 3: Synthesis and Final Conclusion</strong><br/>The correct physical processes taking place are: electrons move from emitter to base, and electrons crossover from emitter to collector.</p>]]></text>
-  </generalfeedback>
+  <name><text>NEETUG_PHYSICS_MCQII_SEMICONDUCTORELECTRONICS_MCQ_Q1410 - Carrier transport in active mode npn transistor</text></name>
+  <questiontext format="html"><text><![CDATA[<p>Consider an npn transistor with its base-emitter junction forward biased and collector base junction reverse biased. Which of the following statements are true?</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>An npn transistor with its base-emitter junction forward biased and collector-base junction reverse biased operates in the active mode.</p><p><strong>Step 2: Evaluation</strong><br/>Because the base-emitter junction is forward biased, majority electrons from the heavily doped n-type emitter are injected into the lightly doped, very thin p-type base. Thus, electrons move from emitter to base.</p><p><strong>Step 3: Application</strong><br/>Once in the thin base, only a small fraction (typically under 5%) of electrons recombine with holes in the base, while the vast majority diffuse across the base and are swept into the collector by the reverse-biased collector-base junction. Thus, electrons crossover from emitter to collector. Holes from the base move into the emitter (not the collector) due to the forward-biased emitter-base junction.</p><p><strong>Step 4: Final Conclusion</strong><br/>In an active-mode npn transistor, electrons move from emitter to base and crossover from emitter to collector.</p>]]></text></generalfeedback>
   <defaultgrade>4.0000000</defaultgrade>
   <penalty>0.2500000</penalty>
   <hidden>0</hidden>
   <single>false</single>
   <shuffleanswers>true</shuffleanswers>
   <answernumbering>abc</answernumbering>
-  <answer fraction="50" format="html">
-    <text><![CDATA[<p>Electrons crossover from emitter to collector.</p>]]></text>
-  </answer>
-  <answer fraction="-50" format="html">
-    <text><![CDATA[<p>Holes move from base to collector.</p>]]></text>
-  </answer>
-  <answer fraction="50" format="html">
-    <text><![CDATA[<p>Electrons move from emitter to base.</p>]]></text>
-  </answer>
-  <answer fraction="-50" format="html">
-    <text><![CDATA[<p>Electrons from emitter move out of base without going to the collector.</p>]]></text>
-  </answer>
+  <answer fraction="50" format="html"><text><![CDATA[<p>Electrons crossover from emitter to collector.</p>]]></text></answer>
+  <answer fraction="-50" format="html"><text><![CDATA[<p>Holes move from base to collector.</p>]]></text></answer>
+  <answer fraction="50" format="html"><text><![CDATA[<p>Electrons move from emitter to base.</p>]]></text></answer>
+  <answer fraction="-50" format="html"><text><![CDATA[<p>Electrons from emitter move out of base without going to the collector.</p>]]></text></answer>
   <tags>
     <tag><text>standard:neet_ug</text></tag>
     <tag><text>lang:en</text></tag>
@@ -524,51 +281,27 @@ Thus, the final output E simplifies directly to input B.</p>
     <tag><text>class:class_12</text></tag>
     <tag><text>chapter:semiconductor_electronics</text></tag>
     <tag><text>typology:mcq</text></tag>
-    <tag><text>difficulty:medium</text></tag>
+    <tag><text>difficulty:easy</text></tag>
     <tag><text>blooms:understand</text></tag>
     <tag><text>calculation:light</text></tag>
     <tag><text>media:text</text></tag>
     <tag><text>multiconcept:false</text></tag>
   </tags>
 </question>
-
 <question type="multichoice">
-  <name><text>NEET_UG_PHYSICS_MCQII_SEMICONDUCTORELECTRONICS_MCQ_Q1411 - Operating regions of base biased common emitter</text></name>
-  <questiontext format="html">
-    <text><![CDATA[<p>Figure 14.7 shows the transfer characteristics of a base biased CE transistor. Which of the following statements are true?</p>
-<p><img src="@@PLUGINFILE@@/img-6.jpeg" alt="Fig. 14.7 Transfer characteristics of a base biased CE transistor" /></p>]]></text>
-  </questiontext>
-  <generalfeedback format="html">
-    <text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>The transfer characteristic curve plots output voltage \(V_o\) versus input base voltage \(V_i\).<br/>
-- Region I (Cut-off): \(0 \le V_i < 0.6\text{ V}\), where \(V_o \approx V_c\) (high output).<br/>
-- Region II (Active): \(0.6\text{ V} \le V_i \le 2.0\text{ V}\), where \(V_o\) falls linearly with slope \(\Delta V_o / \Delta V_i\).<br/>
-- Region III (Saturation): \(V_i > 2.0\text{ V}\), where \(V_o\) stays near zero (low output).</p>
-<p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>In a CE transistor amplifier, linear amplification occurs only in the active region. When used as a logic switch, the cut-off state represents the switch in the turned-off state (high \(V_o\), zero collector current), and the saturation state represents the switch in the turned-on state (low \(V_o\), maximum collector current).</p>
-<p><strong>Step 3: Relevant Formulae and Principles</strong><br/>The cut-in voltage for silicon is approximately \(0.6\text{ V}\). Below \(0.6\text{ V}\), the transistor is in cut-off. Between \(0.6\text{ V}\) and \(2.0\text{ V}\), the transistor operates in active mode. Above \(2.0\text{ V}\), the transistor is driven into saturation.</p>
-<p><strong>Step 4: Step-by-Step Working</strong><br/>1. At \(V_i = 0.4\text{ V}\), \(V_i < 0.6\text{ V}\), so the transistor is in the cut-off region, not in the active state.<br/>
-2. At \(V_i = 1\text{ V}\), \(1\text{ V}\) lies within the active region (\(0.6\text{ V} < 1\text{ V} < 2.0\text{ V}\)), so the transistor can be used as an amplifier.<br/>
-3. At \(V_i = 0.5\text{ V}\), \(V_i\) lies in the cut-off region where output voltage is high and current is zero, so it operates as a switch turned off.<br/>
-4. At \(V_i = 2.5\text{ V}\), \(V_i\) exceeds \(2.0\text{ V}\), placing the transistor in the saturation region where output voltage is minimum, so it operates as a switch turned on.</p>
-<p><strong>Step 5: Check and Final Answer</strong><br/>Therefore, the true statements are: at \(V_i = 1\text{ V}\), it can be used as an amplifier; at \(V_i = 0.5\text{ V}\), it can be used as a switch turned off; and at \(V_i = 2.5\text{ V}\), it can be used as a switch turned on.</p>]]></text>
-  </generalfeedback>
+  <name><text>NEETUG_PHYSICS_MCQII_SEMICONDUCTORELECTRONICS_MCQ_Q1411 - Transfer characteristics of a base biased CE transistor</text></name>
+  <questiontext format="html"><text><![CDATA[<p>Figure 14.7 shows the transfer characteristics of a base biased CE transistor. Which of the following statements are true?</p><p><img src="@@PLUGINFILE@@/img-6.jpeg" alt="Transfer characteristic curve of output voltage Vo versus input voltage Vi with thresholds at 0.6V and 2V" /></p><p>Fig. 14.7</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>The transfer characteristic curve plots output voltage \(V_o\) against input voltage \(V_i\) for a base-biased common-emitter (CE) transistor, with vertical boundary lines marked at \(V_i = 0.6\text{ V}\) and \(V_i = 2\text{ V}\).</p><p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>The three operating regions of a CE transistor are cut-off (\(V_i &lt; 0.6\text{ V}\), switch OFF), active (\(0.6\text{ V} &lt; V_i &lt; 2\text{ V}\), linear amplification), and saturation (\(V_i &gt; 2\text{ V}\), switch ON).</p><p><strong>Step 3: Relevant Formulae and Principles</strong><br/>In the active region, \(V_o\) varies significantly and nearly linearly with \(V_i\), enabling amplification. In cut-off, \(I_C \approx 0\) and \(V_o \approx V_{CC}\) (OFF state). In saturation, \(I_C\) is maximum and \(V_o \approx 0\) (ON state).</p><p><strong>Step 4: Step-by-Step Working</strong><br/>- At \(V_i = 0.4\text{ V}\) and \(V_i = 0.5\text{ V}\), since \(V_i &lt; 0.6\text{ V}\), the transistor is in the cut-off state (not active) and acts as a switch turned off.<br/>- At \(V_i = 1\text{ V}\), since \(0.6\text{ V} &lt; 1\text{ V} &lt; 2\text{ V}\), the transistor is in the active region and can be used as an amplifier.<br/>- At \(V_i = 2.5\text{ V}\), since \(V_i &gt; 2\text{ V}\), the transistor is in the saturation region and can be used as a switch turned on.</p><p><strong>Step 5: Check and Final Answer</strong><br/>Therefore, the true statements are that at \(V_i = 1\text{ V}\) it can be used as an amplifier, at \(V_i = 0.5\text{ V}\) it can be used as a switch turned off, and at \(V_i = 2.5\text{ V}\) it can be used as a switch turned on.</p>]]></text></generalfeedback>
   <defaultgrade>4.0000000</defaultgrade>
   <penalty>0.2500000</penalty>
   <hidden>0</hidden>
   <single>false</single>
   <shuffleanswers>true</shuffleanswers>
   <answernumbering>abc</answernumbering>
-  <answer fraction="-50" format="html">
-    <text><![CDATA[<p>At \(V_i = 0.4\text{V}\), transistor is in active state.</p>]]></text>
-  </answer>
-  <answer fraction="33.33333" format="html">
-    <text><![CDATA[<p>At \(V_i = 1\text{V}\), it can be used as an amplifier.</p>]]></text>
-  </answer>
-  <answer fraction="33.33333" format="html">
-    <text><![CDATA[<p>At \(V_i = 0.5\text{V}\), it can be used as a switch turned off.</p>]]></text>
-  </answer>
-  <answer fraction="33.33333" format="html">
-    <text><![CDATA[<p>At \(V_i = 2.5\text{V}\), it can be used as a switch turned on.</p>]]></text>
-  </answer>
+  <answer fraction="-50" format="html"><text><![CDATA[<p>At \(V_i = 0.4\text{ V}\), transistor is in active state.</p>]]></text></answer>
+  <answer fraction="33.33333" format="html"><text><![CDATA[<p>At \(V_i = 1\text{ V}\), it can be used as an amplifier.</p>]]></text></answer>
+  <answer fraction="33.33333" format="html"><text><![CDATA[<p>At \(V_i = 0.5\text{ V}\), it can be used as a switch turned off.</p>]]></text></answer>
+  <answer fraction="33.33333" format="html"><text><![CDATA[<p>At \(V_i = 2.5\text{ V}\), it can be used as a switch turned on.</p>]]></text></answer>
   <tags>
     <tag><text>standard:neet_ug</text></tag>
     <tag><text>lang:en</text></tag>
@@ -584,44 +317,20 @@ Thus, the final output E simplifies directly to input B.</p>
     <tag><text>multiconcept:false</text></tag>
   </tags>
 </question>
-
 <question type="multichoice">
-  <name><text>NEET_UG_PHYSICS_MCQII_SEMICONDUCTORELECTRONICS_MCQ_Q1412 - Calculation of emitter and base current values</text></name>
-  <questiontext format="html">
-    <text><![CDATA[<p>In a npn transistor circuit, the collector current is 10mA. If 95 per cent of the electrons emitted reach the collector, which of the following statements are true?</p>]]></text>
-  </questiontext>
-  <generalfeedback format="html">
-    <text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>Collector current: \(I_c = 10\text{ mA}\).<br/>
-Percentage of emitted electrons reaching the collector: \(95\%\), which implies \(I_c = 0.95 I_e\).</p>
-<p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>By conservation of charge in a bipolar junction transistor, the total emitter current equals the sum of the base current and collector current.</p>
-<p><strong>Step 3: Relevant Formulae and Principles</strong><br/>1. Emitter current relation:<br/>
-\[I_e = \frac{I_c}{0.95}\]<br/>
-2. Transistor current relation:<br/>
-\[I_e = I_b + I_c \implies I_b = I_e - I_c\]</p>
-<p><strong>Step 4: Step-by-Step Working</strong><br/>1. Calculate emitter current \(I_e\):<br/>
-\[I_e = \frac{10\text{ mA}}{0.95} = \frac{1000}{95}\text{ mA} = \frac{200}{19}\text{ mA} \approx 10.526\text{ mA} \approx 10.53\text{ mA}\]<br/>
-2. Calculate base current \(I_b\):<br/>
-\[I_b = I_e - I_c = 10.526\text{ mA} - 10\text{ mA} = 0.526\text{ mA} \approx 0.53\text{ mA}\]</p>
-<p><strong>Step 5: Check and Final Answer</strong><br/>The emitter current will be \(10.53\text{ mA}\) and the base current will be \(0.53\text{ mA}\).</p>]]></text>
-  </generalfeedback>
+  <name><text>NEETUG_PHYSICS_MCQII_SEMICONDUCTORELECTRONICS_MCQ_Q1412 - Emitter and base currents in an npn transistor</text></name>
+  <questiontext format="html"><text><![CDATA[<p>In a npn transistor circuit, the collector current is \(10\text{ mA}\). If \(95\text{ per cent}\) of the electrons emitted reach the collector, which of the following statements are true?</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>Collector current \(I_C = 10\text{ mA}\). The fraction of emitted electrons reaching the collector is \(95\% = 0.95\).</p><p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>The transistor is operating in the active region, and current due to minority carriers (leakage current) is negligible.</p><p><strong>Step 3: Relevant Formulae and Principles</strong><br/>The collector current is related to the emitter current by \(I_C = 0.95\,I_E\), and by Kirchhoff's Current Law for the transistor, \(I_E = I_B + I_C\).</p><p><strong>Step 4: Step-by-Step Working</strong><br/>Calculating the emitter current:<br/>\[I_E = \frac{I_C}{0.95} = \frac{10\text{ mA}}{0.95} = 10.526\text{ mA} \approx 10.53\text{ mA}\]<br/>Calculating the base current:<br/>\[I_B = I_E - I_C = 10.53\text{ mA} - 10\text{ mA} = 0.53\text{ mA}\]</p><p><strong>Step 5: Check and Final Answer</strong><br/>Checking the sum: \(I_B + I_C = 0.53\text{ mA} + 10\text{ mA} = 10.53\text{ mA} = I_E\). Thus, the emitter current is \(10.53\text{ mA}\) and the base current is \(0.53\text{ mA}\).</p>]]></text></generalfeedback>
   <defaultgrade>4.0000000</defaultgrade>
   <penalty>0.2500000</penalty>
   <hidden>0</hidden>
   <single>false</single>
   <shuffleanswers>true</shuffleanswers>
   <answernumbering>abc</answernumbering>
-  <answer fraction="-50" format="html">
-    <text><![CDATA[<p>The emitter current will be 8 mA.</p>]]></text>
-  </answer>
-  <answer fraction="50" format="html">
-    <text><![CDATA[<p>The emitter current will be 10.53 mA.</p>]]></text>
-  </answer>
-  <answer fraction="50" format="html">
-    <text><![CDATA[<p>The base current will be 0.53 mA.</p>]]></text>
-  </answer>
-  <answer fraction="-50" format="html">
-    <text><![CDATA[<p>The base current will be 2 mA.</p>]]></text>
-  </answer>
+  <answer fraction="-50" format="html"><text><![CDATA[<p>The emitter current will be \(8\text{ mA}\).</p>]]></text></answer>
+  <answer fraction="50" format="html"><text><![CDATA[<p>The emitter current will be \(10.53\text{ mA}\).</p>]]></text></answer>
+  <answer fraction="50" format="html"><text><![CDATA[<p>The base current will be \(0.53\text{ mA}\).</p>]]></text></answer>
+  <answer fraction="-50" format="html"><text><![CDATA[<p>The base current will be \(2\text{ mA}\).</p>]]></text></answer>
   <tags>
     <tag><text>standard:neet_ug</text></tag>
     <tag><text>lang:en</text></tag>
@@ -632,137 +341,25 @@ Percentage of emitted electrons reaching the collector: \(95\%\), which implies 
     <tag><text>typology:mcq</text></tag>
     <tag><text>difficulty:easy</text></tag>
     <tag><text>blooms:apply</text></tag>
-    <tag><text>calculation:moderate</text></tag>
-    <tag><text>media:text</text></tag>
-    <tag><text>multiconcept:false</text></tag>
-  </tags>
-</question>
-
-<question type="multichoice">
-  <name><text>NEET_UG_PHYSICS_MCQII_SEMICONDUCTORELECTRONICS_MCQ_Q1413 - Physical properties of diode depletion region layer</text></name>
-  <questiontext format="html">
-    <text><![CDATA[<p>In the depletion region of a diode</p>]]></text>
-  </questiontext>
-  <generalfeedback format="html">
-    <text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>When a p-n junction forms, majority carriers diffuse across the junction due to the concentration gradient: electrons diffuse from the n-region to the p-region and holes diffuse from the p-region to the n-region.</p>
-<p><strong>Step 2: Evaluation of Depletion Region Characteristics</strong><br/>1. As mobile carriers cross the junction, they uncover ionized dopant atoms that are firmly fixed in the crystal lattice: immobile positive donor ions on the n-side and immobile negative acceptor ions on the p-side. Thus, immobile charged ions exist in this region.<br/>
-2. The strong electric field set up by these unneutralized ions sweeps any mobile electrons and holes out of the layer, leaving behind no mobile charges in the depletion zone.<br/>
-3. Overall charge neutrality requires that the total positive space charge of donor ions on the n-side balances the total negative space charge of acceptor ions on the p-side. Prior to being swept, equal numbers of holes and electrons had diffused and recombined or left, making the integrated net charge across the junction zero and preserving neutrality over the diode volume.</p>
-<p><strong>Step 3: Synthesis and Final Conclusion</strong><br/>Therefore, in the depletion region: there are no mobile charges, equal number of holes and electrons exist making the region neutral overall, and immobile charged ions exist.</p>]]></text>
-  </generalfeedback>
-  <defaultgrade>4.0000000</defaultgrade>
-  <penalty>0.2500000</penalty>
-  <hidden>0</hidden>
-  <single>false</single>
-  <shuffleanswers>true</shuffleanswers>
-  <answernumbering>abc</answernumbering>
-  <answer fraction="33.33333" format="html">
-    <text><![CDATA[<p>there are no mobile charges</p>]]></text>
-  </answer>
-  <answer fraction="33.33333" format="html">
-    <text><![CDATA[<p>equal number of holes and electrons exist, making the region neutral.</p>]]></text>
-  </answer>
-  <answer fraction="-50" format="html">
-    <text><![CDATA[<p>recombination of holes and electrons has taken place.</p>]]></text>
-  </answer>
-  <answer fraction="33.33333" format="html">
-    <text><![CDATA[<p>immobile charged ions exist.</p>]]></text>
-  </answer>
-  <tags>
-    <tag><text>standard:neet_ug</text></tag>
-    <tag><text>lang:en</text></tag>
-    <tag><text>subject:physics</text></tag>
-    <tag><text>section:mcq_ii</text></tag>
-    <tag><text>class:class_12</text></tag>
-    <tag><text>chapter:semiconductor_electronics</text></tag>
-    <tag><text>typology:mcq</text></tag>
-    <tag><text>difficulty:medium</text></tag>
-    <tag><text>blooms:understand</text></tag>
     <tag><text>calculation:light</text></tag>
     <tag><text>media:text</text></tag>
     <tag><text>multiconcept:false</text></tag>
   </tags>
 </question>
-
 <question type="multichoice">
-  <name><text>NEET_UG_PHYSICS_MCQII_SEMICONDUCTORELECTRONICS_MCQ_Q1414 - Voltage regulation mechanism using a Zener diode</text></name>
-  <questiontext format="html">
-    <text><![CDATA[<p>What happens during regulation action of a Zener diode?</p>]]></text>
-  </questiontext>
-  <generalfeedback format="html">
-    <text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>In a voltage regulator circuit, an unregulated DC voltage is applied across a series current-limiting resistor \(R_s\) connected to a reverse-biased Zener diode in parallel with a load.</p>
-<p><strong>Step 2: Evaluation of Circuit Parameters</strong><br/>1. When the unregulated input voltage varies or the load changes, the Zener diode operates in its reverse breakdown region where the voltage across it remains nearly constant at the Zener breakdown voltage \(V_Z\).<br/>
-2. To keep the output voltage fixed while the input voltage varies, the current flowing through the series resistor \(R_s\) changes (\(I = \frac{V_{\text{in}} - V_Z}{R_s}\)), absorbing the excess input fluctuations.<br/>
-3. Since the voltage across the Zener diode stays virtually constant while the current through the Zener diode undergoes large fluctuations, the dynamic resistance or effective resistance (\(R_Z = \Delta V_Z / \Delta I_Z\)) offered by the Zener diode dynamically adjusts to accommodate these variations.</p>
-<p><strong>Step 3: Synthesis and Final Conclusion</strong><br/>During voltage regulation, the current through the series resistance (\(R_s\)) changes and the resistance offered by the Zener changes.</p>]]></text>
-  </generalfeedback>
+  <name><text>NEETUG_PHYSICS_MCQII_SEMICONDUCTORELECTRONICS_MCQ_Q1413 - Properties of the depletion region in a diode</text></name>
+  <questiontext format="html"><text><![CDATA[<p>In the depletion region of a diode</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>When a p-n junction is formed, holes from the p-side diffuse into the n-side and electrons from the n-side diffuse into the p-side, leaving behind uncovered immobile dopant ions near the junction.</p><p><strong>Step 2: Evaluation</strong><br/>As electrons and holes diffuse across the junction, they undergo recombination, depleting the region around the junction of free mobile charge carriers. Consequently, there are no mobile charges in this region, and it is not populated by equal numbers of free holes and electrons.</p><p><strong>Step 3: Application</strong><br/>What remains in the depletion region are immobile positively charged donor ions on the n-side and immobile negatively charged acceptor ions on the p-side, which create the built-in electric field and potential barrier.</p><p><strong>Step 4: Final Conclusion</strong><br/>In the depletion region of a diode, there are no mobile charges, recombination of holes and electrons has taken place, and immobile charged ions exist.</p>]]></text></generalfeedback>
   <defaultgrade>4.0000000</defaultgrade>
   <penalty>0.2500000</penalty>
   <hidden>0</hidden>
   <single>false</single>
   <shuffleanswers>true</shuffleanswers>
   <answernumbering>abc</answernumbering>
-  <answer fraction="-50" format="html">
-    <text><![CDATA[<p>The current in and voltage across the Zenor remains fixed.</p>]]></text>
-  </answer>
-  <answer fraction="50" format="html">
-    <text><![CDATA[<p>The current through the series Resistance (\(R_s\)) changes.</p>]]></text>
-  </answer>
-  <answer fraction="-50" format="html">
-    <text><![CDATA[<p>The Zener resistance is constant.</p>]]></text>
-  </answer>
-  <answer fraction="50" format="html">
-    <text><![CDATA[<p>The resistance offered by the Zener changes.</p>]]></text>
-  </answer>
-  <tags>
-    <tag><text>standard:neet_ug</text></tag>
-    <tag><text>lang:en</text></tag>
-    <tag><text>subject:physics</text></tag>
-    <tag><text>section:mcq_ii</text></tag>
-    <tag><text>class:class_12</text></tag>
-    <tag><text>chapter:semiconductor_electronics</text></tag>
-    <tag><text>typology:mcq</text></tag>
-    <tag><text>difficulty:medium</text></tag>
-    <tag><text>blooms:understand</text></tag>
-    <tag><text>calculation:light</text></tag>
-    <tag><text>media:text</text></tag>
-    <tag><text>multiconcept:false</text></tag>
-  </tags>
-</question>
-
-<question type="multichoice">
-  <name><text>NEET_UG_PHYSICS_MCQII_SEMICONDUCTORELECTRONICS_MCQ_Q1415 - Methods to reduce ripple in rectifier circuit</text></name>
-  <questiontext format="html">
-    <text><![CDATA[<p>To reduce the ripples in a rectifier circuit with capacitor filter</p>]]></text>
-  </questiontext>
-  <generalfeedback format="html">
-    <text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>The ripple factor \(r\) of a rectifier circuit with a shunt capacitor filter measures the fluctuation of the output DC voltage. It is given by the expression:<br/>
-\[r = \frac{1}{2\sqrt{3} f C R_L}\]<br/>
-where \(f\) is the frequency of the AC input (or ripple frequency), \(C\) is the capacitance of the filter capacitor, and \(R_L\) is the load resistance.</p>
-<p><strong>Step 2: Evaluation of Physical Mechanisms</strong><br/>From the inverse proportional relationship \(r \propto \frac{1}{f C R_L}\):<br/>
-1. Increasing the load resistance \(R_L\) reduces the discharging current between conduction peaks, keeping the capacitor voltage closer to the peak voltage and therefore decreasing the ripple.<br/>
-2. Increasing the input frequency \(f\) shortens the time interval \(\Delta t = T/2\) during which the capacitor discharges, which reduces the peak-to-peak ripple voltage.<br/>
-3. Using capacitors with higher capacitance \(C\) increases the stored charge and the discharge time constant \(\tau = C R_L\), thereby reducing the ripple voltage.</p>
-<p><strong>Step 3: Synthesis and Final Conclusion</strong><br/>To minimize ripples in the rectified output, \(R_L\) should be increased, the input frequency should be increased, and capacitors with high capacitance should be used.</p>]]></text>
-  </generalfeedback>
-  <defaultgrade>4.0000000</defaultgrade>
-  <penalty>0.2500000</penalty>
-  <hidden>0</hidden>
-  <single>false</single>
-  <shuffleanswers>true</shuffleanswers>
-  <answernumbering>abc</answernumbering>
-  <answer fraction="33.33333" format="html">
-    <text><![CDATA[<p>\(R_L\) should be increased.</p>]]></text>
-  </answer>
-  <answer fraction="-50" format="html">
-    <text><![CDATA[<p>input frequency should be decreased.</p>]]></text>
-  </answer>
-  <answer fraction="33.33333" format="html">
-    <text><![CDATA[<p>input frequency should be increased.</p>]]></text>
-  </answer>
-  <answer fraction="33.33333" format="html">
-    <text><![CDATA[<p>capacitors with high capacitance should be used.</p>]]></text>
-  </answer>
+  <answer fraction="33.33333" format="html"><text><![CDATA[<p>there are no mobile charges</p>]]></text></answer>
+  <answer fraction="-50" format="html"><text><![CDATA[<p>equal number of holes and electrons exist, making the region neutral.</p>]]></text></answer>
+  <answer fraction="33.33333" format="html"><text><![CDATA[<p>recombination of holes and electrons has taken place.</p>]]></text></answer>
+  <answer fraction="33.33333" format="html"><text><![CDATA[<p>immobile charged ions exist.</p>]]></text></answer>
   <tags>
     <tag><text>standard:neet_ug</text></tag>
     <tag><text>lang:en</text></tag>
@@ -778,36 +375,78 @@ where \(f\) is the frequency of the AC input (or ripple frequency), \(C\) is the
     <tag><text>multiconcept:false</text></tag>
   </tags>
 </question>
-
 <question type="multichoice">
-  <name><text>NEET_UG_PHYSICS_MCQII_SEMICONDUCTORELECTRONICS_MCQ_Q1416 - Mechanisms of breakdown in reverse biased diode</text></name>
-  <questiontext format="html">
-    <text><![CDATA[<p>The breakdown in a reverse biased p-n junction diode is more likely to occur due to</p>]]></text>
-  </questiontext>
-  <generalfeedback format="html">
-    <text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>Electrical breakdown in a reverse-biased p-n junction diode occurs primarily via two distinct physical mechanisms: Avalanche Breakdown and Zener Breakdown.</p>
-<p><strong>Step 2: Evaluation of Breakdown Types and Doping Dependence</strong><br/>1. Avalanche Breakdown occurs in lightly doped p-n junctions where the depletion layer is relatively wide. In this wide depletion region, thermally generated minority carriers accelerate over longer distances, acquiring very large velocities and kinetic energy. Upon colliding with semiconductor lattice atoms, they break covalent bonds and generate secondary electron-hole pairs by impact ionization. Hence, breakdown is likely due to the large velocity of minority charge carriers if doping concentration is small.<br/>
-2. Zener Breakdown occurs in heavily doped p-n junctions where the depletion layer is extremely narrow (on the order of \(10^{-7}\text{ m}\) or less). Even a moderate reverse voltage produces an exceptionally strong electric field (exceeding \(10^6\text{ V/m}\)) directly across the narrow junction. This strong field directly pulls bound electrons out of covalent bonds by internal field emission. Hence, breakdown is likely due to the strong electric field in the depletion region if doping concentration is large.</p>
-<p><strong>Step 3: Synthesis and Final Conclusion</strong><br/>Breakdown is therefore more likely to occur due to: large velocity of the minority charge carriers if the doping concentration is small, and strong electric field in the depletion region if the doping concentration is large.</p>]]></text>
-  </generalfeedback>
+  <name><text>NEETUG_PHYSICS_MCQII_SEMICONDUCTORELECTRONICS_MCQ_Q1414 - Voltage regulation action of a Zener diode</text></name>
+  <questiontext format="html"><text><![CDATA[<p>What happens during regulation action of a Zener diode?</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>A Zener diode connected in reverse breakdown in parallel with a load resistor \(R_L\) and in series with a current-limiting resistor \(R_s\) maintains a nearly constant voltage \(V_Z\) across itself and the load despite variations in the input voltage \(V_i\) or load current.</p><p><strong>Step 2: Evaluation</strong><br/>When the unregulated input voltage \(V_i\) changes, the voltage drop across the series resistor \(V_{R_s} = V_i - V_Z\) changes, so the current \(I_{R_s} = \frac{V_i - V_Z}{R_s}\) through the series resistance \(R_s\) changes.</p><p><strong>Step 3: Application</strong><br/>Since the load voltage \(V_Z\) and load current \(I_L = \frac{V_Z}{R_L}\) remain fixed when \(V_i\) varies, the change in \(I_{R_s}\) is absorbed by the Zener current \(I_Z = I_{R_s} - I_L\). Because \(V_Z\) remains constant while \(I_Z\) changes, the static resistance offered by the Zener diode, \(R_Z = \frac{V_Z}{I_Z}\), also changes.</p><p><strong>Step 4: Final Conclusion</strong><br/>During the regulation action of a Zener diode, the current through the series resistance (\(R_s\)) changes and the resistance offered by the Zener changes.</p>]]></text></generalfeedback>
   <defaultgrade>4.0000000</defaultgrade>
   <penalty>0.2500000</penalty>
   <hidden>0</hidden>
   <single>false</single>
   <shuffleanswers>true</shuffleanswers>
   <answernumbering>abc</answernumbering>
-  <answer fraction="50" format="html">
-    <text><![CDATA[<p>large velocity of the minority charge carriers if the doping concentration is small.</p>]]></text>
-  </answer>
-  <answer fraction="-50" format="html">
-    <text><![CDATA[<p>large velocity of the minority charge carriers if the doping concentration is large.</p>]]></text>
-  </answer>
-  <answer fraction="-50" format="html">
-    <text><![CDATA[<p>strong electric field in a depletion region if the doping concentration is small.</p>]]></text>
-  </answer>
-  <answer fraction="50" format="html">
-    <text><![CDATA[<p>strong electric field in the depletion region if the doping concentration is large.</p>]]></text>
-  </answer>
+  <answer fraction="-50" format="html"><text><![CDATA[<p>The current in and voltage across the Zener remains fixed.</p>]]></text></answer>
+  <answer fraction="50" format="html"><text><![CDATA[<p>The current through the series Resistance (\(R_s\)) changes.</p>]]></text></answer>
+  <answer fraction="-50" format="html"><text><![CDATA[<p>The Zener resistance is constant.</p>]]></text></answer>
+  <answer fraction="50" format="html"><text><![CDATA[<p>The resistance offered by the Zener changes.</p>]]></text></answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>section:mcq_ii</text></tag>
+    <tag><text>class:class_12</text></tag>
+    <tag><text>chapter:semiconductor_electronics</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:medium</text></tag>
+    <tag><text>blooms:understand</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:text</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+<question type="multichoice">
+  <name><text>NEETUG_PHYSICS_MCQII_SEMICONDUCTORELECTRONICS_MCQ_Q1415 - Reducing ripples in a rectifier with capacitor filter</text></name>
+  <questiontext format="html"><text><![CDATA[<p>To reduce the ripples in a rectifier circuit with capacitor filter</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>In a rectifier circuit with a shunt capacitor filter connected across a load resistor \(R_L\), the capacitor charges during the conduction peaks and discharges slowly through \(R_L\) between peaks, producing a small ripple voltage.</p><p><strong>Step 2: Evaluation</strong><br/>The ripple factor \(r\) for a capacitor-input filter is inversely proportional to the input A.C. frequency \(\nu\), the capacitance \(C\), and the load resistance \(R_L\):<br/>\[r \propto \frac{1}{\nu C R_L}\]</p><p><strong>Step 3: Application</strong><br/>To minimize the ripples (decrease \(r\)), the denominator \(\nu C R_L\) must be made as large as possible. This is achieved by increasing the load resistance \(R_L\) (so the capacitor discharges more slowly), increasing the input frequency \(\nu\) (so the time between charging pulses is shorter), and using capacitors with high capacitance \(C\).</p><p><strong>Step 4: Final Conclusion</strong><br/>To reduce ripples in a rectifier circuit with a capacitor filter, \(R_L\) should be increased, input frequency should be increased, and capacitors with high capacitance should be used.</p>]]></text></generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>false</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="33.33333" format="html"><text><![CDATA[<p>\(R_L\) should be increased.</p>]]></text></answer>
+  <answer fraction="-50" format="html"><text><![CDATA[<p>input frequency should be decreased.</p>]]></text></answer>
+  <answer fraction="33.33333" format="html"><text><![CDATA[<p>input frequency should be increased.</p>]]></text></answer>
+  <answer fraction="33.33333" format="html"><text><![CDATA[<p>capacitors with high capacitance should be used.</p>]]></text></answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>section:mcq_ii</text></tag>
+    <tag><text>class:class_12</text></tag>
+    <tag><text>chapter:semiconductor_electronics</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:medium</text></tag>
+    <tag><text>blooms:apply</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:text</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+<question type="multichoice">
+  <name><text>NEETUG_PHYSICS_MCQII_SEMICONDUCTORELECTRONICS_MCQ_Q1416 - Breakdown mechanisms in a reverse biased p-n junction</text></name>
+  <questiontext format="html"><text><![CDATA[<p>The breakdown in a reverse biased p-n junction diode is more likely to occur due to</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>Reverse breakdown in a p-n junction diode occurs via two primary mechanisms depending on the doping concentration: avalanche breakdown and Zener breakdown.</p><p><strong>Step 2: Evaluation</strong><br/>When the doping concentration is small (lightly doped junction), the depletion layer is wide. Minority charge carriers accelerated across this wide depletion region acquire large velocities and collide with lattice atoms, knocking out valence electrons through impact ionization and causing avalanche breakdown.</p><p><strong>Step 3: Application</strong><br/>When the doping concentration is large (heavily doped junction), the depletion layer is very narrow. Even a moderate reverse voltage produces a very strong electric field in the depletion region, which directly pulls valence electrons out of covalent bonds (internal field emission), causing Zener breakdown.</p><p><strong>Step 4: Final Conclusion</strong><br/>Breakdown in a reverse-biased p-n junction diode is more likely to occur due to large velocity of the minority charge carriers if the doping concentration is small, or due to a strong electric field in the depletion region if the doping concentration is large.</p>]]></text></generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>false</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="50" format="html"><text><![CDATA[<p>large velocity of the minority charge carriers if the doping concentration is small.</p>]]></text></answer>
+  <answer fraction="-50" format="html"><text><![CDATA[<p>large velocity of the minority charge carriers if the doping concentration is large.</p>]]></text></answer>
+  <answer fraction="-50" format="html"><text><![CDATA[<p>strong electric field in a depletion region if the doping concentration is small.</p>]]></text></answer>
+  <answer fraction="50" format="html"><text><![CDATA[<p>strong electric field in the depletion region if the doping concentration is large.</p>]]></text></answer>
   <tags>
     <tag><text>standard:neet_ug</text></tag>
     <tag><text>lang:en</text></tag>

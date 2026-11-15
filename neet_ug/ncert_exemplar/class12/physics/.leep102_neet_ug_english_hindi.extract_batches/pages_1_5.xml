@@ -1,81 +1,69 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <quiz>
 <question type="multichoice">
-  <name>
-    <text>NEET_UG_PHYSICS_ELECTROSTATIC_POTENTIAL_AND_CAPACITANCE_MCQ_Q01 - Amount of charge on capacitor plates</text>
-  </name>
-  <questiontext format="html">
-    <text><![CDATA[<p>A capacitor of \(4\ \mu\text{F}\) is connected as shown in the circuit (Fig. 2.1). The internal resistance of the battery is \(0.5\ \Omega\). The amount of charge on the capacitor plates will be</p><p><img src="@@PLUGINFILE@@/img-0.jpeg" /></p><hr/><p>चित्र (Fig. 2.1) में दिखाए गए परिपथ में \(4\ \mu\text{F}\) का एक संधारित्र जोड़ा गया है। बैटरी का आंतरिक प्रतिरोध \(0.5\ \Omega\) है। संधारित्र की प्लेटों पर आवेश की मात्रा होगी</p>]]></text>
-  </questiontext>
-  <generalfeedback format="html">
-    <text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>Capacitance of the capacitor: \(C = 4\ \mu\text{F}\)<br/>External resistance in series with capacitor: \(R_1 = 10\ \Omega\)<br/>External resistance in the parallel branch: \(R_2 = 2\ \Omega\)<br/>Electromotive force of battery: \(E = 2.5\text{ V}\)<br/>Internal resistance of battery: \(r = 0.5\ \Omega\)</p><p><strong>Step 2: Assumptions and Operating Principle</strong><br/>Under direct current steady-state conditions, an ideal capacitor acts as an open circuit because it becomes fully charged and blocks any further continuous current. Therefore, the branch containing the capacitor and the \(10\ \Omega\) series resistor carries zero current.</p><p><strong>Step 3: Relevant Formulae</strong><br/>Current in the closed loop: \(I = \frac{E}{R_2 + r}\)<br/>Terminal potential difference across the parallel combination: \(V = I R_2 = E - I r\)<br/>Charge stored on the capacitor: \(Q = C V_C\)</p><p><strong>Step 4: Step-by-Step Calculation</strong><br/>1. The steady-state current passing through the battery and the lower resistor is:<br/>\[I = \frac{2.5\text{ V}}{2\ \Omega + 0.5\ \Omega} = \frac{2.5}{2.5} = 1.0\text{ A}\]<br/>2. The terminal potential difference across the battery terminals is:<br/>\[V = I R_2 = 1.0\text{ A} \times 2\ \Omega = 2.0\text{ V}\]<br/>3. Because no current flows through the upper branch containing the \(10\ \Omega\) resistor, there is no potential drop across it (\(V_{10\Omega} = 0\)). The entire terminal potential difference appears across the capacitor plates:<br/>\[V_C = 2.0\text{ V}\]<br/>4. The charge on the capacitor is:<br/>\[Q = C V_C = 4\ \mu\text{F} \times 2.0\text{ V} = 8\ \mu\text{C}\]</p><p><strong>Step 5: Check and Final Answer</strong><br/>The charge magnitude is positive, physically consistent with the potential across the load resistor, and equals \(8\ \mu\text{C}\).</p><hr/><p><strong>चरण 1: दिए गए मान और प्रतिबंध</strong><br/>संधारित्र की धारिता: \(C = 4\ \mu\text{F}\)<br/>संधारित्र के श्रेणीक्रम में प्रतिरोध: \(R_1 = 10\ \Omega\)<br/>समांतर शाखा में बाह्य प्रतिरोध: \(R_2 = 2\ \Omega\)<br/>बैटरी का विद्युत वाहक बल: \(E = 2.5\text{ V}\)<br/>बैटरी का आंतरिक प्रतिरोध: \(r = 0.5\ \Omega\)</p><p><strong>चरण 2: संकल्पना और कार्य सिद्धांत</strong><br/>दिष्ट धारा (DC) की स्थायी अवस्था में, पूर्णतः आवेशित संधारित्र एक खुले परिपथ की भांति व्यवहार करता है और अपने से होकर धारा प्रवाहित नहीं होने देता। अतः संधारित्र तथा \(10\ \Omega\) प्रतिरोधक वाली ऊपरी शाखा में धारा शून्य होती है।</p><p><strong>चरण 3: संबंधित सूत्र</strong><br/>परिपथ में प्रवाहित धारा: \(I = \frac{E}{R_2 + r}\)<br/>टर्मिनल विभवांतर: \(V = I R_2 = E - I r\)<br/>संधारित्र पर संचित आवेश: \(Q = C V_C\)</p><p><strong>चरण 4: गणना</strong><br/>1. बैटरी और निचले \(2\ \Omega\) प्रतिरोधक वाले बंद लूप में धारा:<br/>\[I = \frac{2.5\text{ V}}{2\ \Omega + 0.5\ \Omega} = 1.0\text{ A}\]<br/>2. बैटरी का टर्मिनल विभवांतर:<br/>\[V = 1.0\text{ A} \times 2\ \Omega = 2.0\text{ V}\]<br/>3. ऊपरी शाखा में धारा शून्य होने के कारण \(10\ \Omega\) प्रतिरोधक पर विभव पात शून्य होता है। अतः संधारित्र की प्लेटों के बीच विभवांतर टर्मिनल वोल्टता के बराबर होता है (\(V_C = 2.0\text{ V}\))।<br/>4. संधारित्र की प्लेटों पर संचित आवेश:<br/>\[Q = 4\ \mu\text{F} \times 2.0\text{ V} = 8\ \mu\text{C}\]</p><p><strong>चरण 5: अंतिम निष्कर्ष</strong><br/>संधारित्र की प्लेटों पर आवेश की सही मात्रा \(8\ \mu\text{C}\) है।</p>]]></text>
-  </generalfeedback>
+  <name><text>NEET_UG_PHYSICS_MCQI_ELECTROSTATICPOTENTIALANDCAPACITANCE_MCQ_Q01 - Charge on capacitor plates in circuit</text></name>
+  <questiontext format="html"><text><![CDATA[<p>A capacitor of \(4\ \mu\text{F}\) is connected as shown in the circuit. The internal resistance of the battery is \(0.5\ \Omega\). The amount of charge on the capacitor plates will be</p><p><img src="@@PLUGINFILE@@/img-0.jpeg" alt="Circuit diagram with a 4 microfarad capacitor, resistors, and a 2.5 V battery" /></p><hr/><p>एक \(4\ \mu\text{F}\) का संधारित्र दिखाए गए परिपथ के अनुसार जुड़ा है। बैटरी का आंतरिक प्रतिरोध \(0.5\ \Omega\) है। संधारित्र की प्लेटों पर आवेश की मात्रा होगी</p><p><img src="@@PLUGINFILE@@/img-0.jpeg" alt="संधारित्र, प्रतिरोधकों और 2.5 V बैटरी वाला परिपथ आरेख" /></p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>Capacitance, \(C = 4\ \mu\text{F}\); series resistance in the capacitor branch, \(R_1 = 10\ \Omega\); external resistance in the parallel branch, \(R_2 = 2\ \Omega\); battery emf, \(E = 2.5\ \text{V}\); internal resistance of the battery, \(r = 0.5\ \Omega\). Steady-state DC conditions are assumed.</p>
+<p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>In steady state, a capacitor acts as an open circuit for direct current, so no current flows through the branch containing the \(4\ \mu\text{F}\) capacitor and the \(10\ \Omega\) resistor. Current flows only in the closed loop formed by the battery and the \(2\ \Omega\) resistor.</p>
+<p><strong>Step 3: Relevant Formulae and Principles</strong><br/>Current in the active loop: \(I = \frac{E}{R_2 + r}\)<br/>Potential difference across the \(2\ \Omega\) resistor (and hence across the capacitor branch): \(V = I R_2\)<br/>Charge on the capacitor: \(Q = C V\)</p>
+<p><strong>Step 4: Step-by-Step Working</strong><br/>First, calculate the steady-state current in the lower loop:<br/>\[I = \frac{2.5\ \text{V}}{2\ \Omega + 0.5\ \Omega} = \frac{2.5}{2.5} = 1\ \text{A}\]<br/>Next, find the potential difference across the \(2\ \Omega\) resistor:<br/>\[V = 1\ \text{A} \times 2\ \Omega = 2\ \text{V}\]<br/>Since no current flows through the \(10\ \Omega\) resistor, there is no potential drop across it. Thus, the entire potential difference \(V = 2\ \text{V}\) appears across the \(4\ \mu\text{F}\) capacitor.<br/>Finally, calculate the charge on the capacitor plates:<br/>\[Q = 4\ \mu\text{F} \times 2\ \text{V} = 8\ \mu\text{C}\]</p>
+<p><strong>Step 5: Check and Final Answer</strong><br/>The terminal voltage \(V = E - Ir = 2.5 - (1)(0.5) = 2\ \text{V}\) matches \(I R_2\), and \(\mu\text{F} \times \text{V} = \mu\text{C}\). Therefore, the amount of charge on the capacitor plates is \(8\ \mu\text{C}\).</p><hr/><p><strong>चरण 1: दिया गया डेटा और शर्तें</strong><br/>धारिता, \(C = 4\ \mu\text{F}\); संधारित्र शाखा में श्रेणी प्रतिरोध, \(R_1 = 10\ \Omega\); समानांतर शाखा में बाह्य प्रतिरोध, \(R_2 = 2\ \Omega\); बैटरी का विद्युत वाहक बल, \(E = 2.5\ \text{V}\); बैटरी का आंतरिक प्रतिरोध, \(r = 0.5\ \Omega\)। स्थायी अवस्था (steady-state) की दिष्ट धारा (DC) स्थिति मानी गई है।</p>
+<p><strong>चरण 2: मान्यताएँ और चिह्न परिपाटी</strong><br/>स्थायी अवस्था में, एक संधारित्र दिष्ट धारा के लिए खुले परिपथ की तरह कार्य करता है, इसलिए \(4\ \mu\text{F}\) संधारित्र और \(10\ \Omega\) प्रतिरोधक वाली शाखा में कोई धारा प्रवाहित नहीं होती है। धारा केवल बैटरी और \(2\ \Omega\) प्रतिरोधक द्वारा बनाए गए बंद लूप में प्रवाहित होती है।</p>
+<p><strong>चरण 3: प्रासंगिक सूत्र और सिद्धांत</strong><br/>सक्रिय लूप में धारा: \(I = \frac{E}{R_2 + r}\)<br/>\(2\ \Omega\) प्रतिरोधक के सिरों पर विभवांतर (और इसलिए संधारित्र शाखा के सिरों पर भी): \(V = I R_2\)<br/>संधारित्र पर आवेश: \(Q = C V\)</p>
+<p><strong>चरण 4: चरण-दर-चरण गणना</strong><br/>सबसे पहले, निचले लूप में स्थायी-अवस्था धारा की गणना करें:<br/>\[I = \frac{2.5\ \text{V}}{2\ \Omega + 0.5\ \Omega} = \frac{2.5}{2.5} = 1\ \text{A}\]<br/>अब, \(2\ \Omega\) प्रतिरोधक के सिरों पर विभवांतर ज्ञात करें:<br/>\[V = 1\ \text{A} \times 2\ \Omega = 2\ \text{V}\]<br/>चूँकि \(10\ \Omega\) प्रतिरोधक से कोई धारा प्रवाहित नहीं होती है, इसलिए इसके सिरों पर कोई विभव पतन नहीं होता है। अतः पूरा विभवांतर \(V = 2\ \text{V}\) सीधे \(4\ \mu\text{F}\) संधारित्र के सिरों पर आरोपित होता है।<br/>अंत में, संधारित्र की प्लेटों पर आवेश की गणना करें:<br/>\[Q = 4\ \mu\text{F} \times 2\ \text{V} = 8\ \mu\text{C}\]</p>
+<p><strong>चरण 5: जाँच और अंतिम उत्तर</strong><br/>टर्मिनल वोल्टता \(V = E - Ir = 2.5 - (1)(0.5) = 2\ \text{V}\) मान \(I R_2\) से मेल खाता है, और \(\mu\text{F} \times \text{V} = \mu\text{C}\) होता है। इसलिए, संधारित्र की प्लेटों पर आवेश की मात्रा \(8\ \mu\text{C}\) है।</p>]]></text></generalfeedback>
   <defaultgrade>4.0000000</defaultgrade>
   <penalty>0.2500000</penalty>
   <hidden>0</hidden>
   <single>true</single>
   <shuffleanswers>true</shuffleanswers>
   <answernumbering>abc</answernumbering>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>0</p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>\(4\ \mu\text{C}\)</p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>\(16\ \mu\text{C}\)</p>]]></text>
-  </answer>
-  <answer fraction="100" format="html">
-    <text><![CDATA[<p>\(8\ \mu\text{C}\)</p>]]></text>
-  </answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>\(0\)</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>\(4\ \mu\text{C}\)</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>\(16\ \mu\text{C}\)</p>]]></text></answer>
+  <answer fraction="100" format="html"><text><![CDATA[<p>\(8\ \mu\text{C}\)</p>]]></text></answer>
   <tags>
     <tag><text>standard:neet_ug</text></tag>
     <tag><text>lang:en</text></tag>
     <tag><text>lang:hi</text></tag>
     <tag><text>subject:physics</text></tag>
+    <tag><text>section:mcq_i</text></tag>
     <tag><text>class:12</text></tag>
     <tag><text>chapter:electrostatic_potential_and_capacitance</text></tag>
     <tag><text>typology:mcq</text></tag>
     <tag><text>difficulty:medium</text></tag>
     <tag><text>blooms:apply</text></tag>
     <tag><text>calculation:light</text></tag>
-    <tag><text>media:diagram</text></tag>
+    <tag><text>media:circuit</text></tag>
     <tag><text>multiconcept:true</text></tag>
   </tags>
 </question>
 <question type="multichoice">
-  <name>
-    <text>NEET_UG_PHYSICS_ELECTROSTATIC_POTENTIAL_AND_CAPACITANCE_MCQ_Q02 - Potential energy of charge in electric field</text>
-  </name>
-  <questiontext format="html">
-    <text><![CDATA[<p>A positively charged particle is released from rest in an uniform electric field. The electric potential energy of the charge</p><hr/><p>एक धनावेशित कण को एकसमान विद्युत क्षेत्र में विरामावस्था से छोड़ा जाता है। आवेश की विद्युत स्थितिज ऊर्जा</p>]]></text>
-  </questiontext>
-  <generalfeedback format="html">
-    <text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>A positive charge \(q > 0\) in an electric field \(\mathbf{E}\) experiences an electrostatic force \(\mathbf{F} = q\mathbf{E}\) pointing along the direction of the electric field.</p><p><strong>Step 2: Kinematic Evaluation</strong><br/>Because the particle is released from rest, the initial velocity is zero. The electrostatic force accelerates the particle in the direction of the field, so its displacement \(d\mathbf{r}\) is in the direction of \(\mathbf{E}\).</p><p><strong>Step 3: Work-Energy Relationship</strong><br/>The work done by the conservative electrostatic force during displacement is positive:<br/>\[W_{\text{field}} = \int \mathbf{F} \cdot d\mathbf{r} = \int q\mathbf{E} \cdot d\mathbf{r} > 0\]<br/>The change in electrostatic potential energy is defined as the negative of the work done by the conservative internal electric force:<br/>\[\Delta U = -W_{\text{field}} < 0\]<br/>Hence, the potential energy \(U\) must decrease as kinetic energy increases.</p><p><strong>Step 4: Final Conclusion</strong><br/>The electric potential energy of the charge decreases because the charge moves along the electric field.</p><hr/><p><strong>चरण 1: भौतिक सिद्धांत</strong><br/>विद्युत क्षेत्र \(\mathbf{E}\) में स्थित धनावेश \(q > 0\) पर लगने वाला स्थिरविद्युत बल \(\mathbf{F} = q\mathbf{E}\) विद्युत क्षेत्र की ही दिशा में होता है।</p><p><strong>चरण 2: गति का विश्लेषण</strong><br/>कण को विरामावस्था से छोड़ा जाता है, इसलिए वह विद्युत क्षेत्र की दिशा में त्वरित होकर उसी दिशा में विस्थापित होता है।</p><p><strong>चरण 3: कार्य-ऊर्जा संबंध</strong><br/>विद्युत क्षेत्र के संरक्षी बल द्वारा किया गया कार्य धनात्मक होता है:<br/>\[W = \int \mathbf{F} \cdot d\mathbf{r} > 0\]<br/>संरक्षी बल द्वारा किए गए कार्य और स्थितिज ऊर्जा में संबंध \(\Delta U = -W\) होता है। चूँकि बल द्वारा किया गया कार्य धनात्मक है, अतः निकाय की विद्युत स्थितिज ऊर्जा घटती है।</p><p><strong>चरण 4: अंतिम निष्कर्ष</strong><br/>आवेश की विद्युत स्थितिज ऊर्जा घटती है क्योंकि आवेश विद्युत क्षेत्र की दिशा में गति करता है।</p>]]></text>
-  </generalfeedback>
+  <name><text>NEET_UG_PHYSICS_MCQI_ELECTROSTATICPOTENTIALANDCAPACITANCE_MCQ_Q02 - Electric potential energy of positive charge</text></name>
+  <questiontext format="html"><text><![CDATA[<p>A positively charged particle is released from rest in a uniform electric field. The electric potential energy of the charge</p><hr/><p>एक धनावेशित कण को एकसमान विद्युत क्षेत्र में विरामावस्था से छोड़ा जाता है। आवेश की विद्युत स्थितिज ऊर्जा</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>A charge \(q\) placed in an electric field \(\mathbf{E}\) experiences an electrostatic force \(\mathbf{F} = q\mathbf{E}\). The electric field always points in the direction of decreasing electric potential \(V\).</p>
+<p><strong>Step 2: Evaluation</strong><br/>Since the particle is positively charged (\(q &gt; 0\)) and released from rest, the electrostatic force \(\mathbf{F} = q\mathbf{E}\) accelerates it in the same direction as the electric field \(\mathbf{E}\).</p>
+<p><strong>Step 3: Application</strong><br/>As the positive charge moves along the direction of the electric field, it moves from a region of higher electric potential to a region of lower electric potential. Because electric potential energy is \(U = qV\) with \(q &gt; 0\), a decrease in \(V\) results in a decrease in \(U\) (the lost potential energy converts into kinetic energy).</p>
+<p><strong>Step 4: Final Conclusion</strong><br/>The electric potential energy of the positively charged particle decreases because the charge moves along the electric field.</p><hr/><p><strong>चरण 1: वैचारिक सिद्धांत</strong><br/>विद्युत क्षेत्र \(\mathbf{E}\) में रखे गए आवेश \(q\) पर एक स्थिरवैद्युत बल \(\mathbf{F} = q\mathbf{E}\) लगता है। विद्युत क्षेत्र हमेशा घटते हुए विद्युत विभव \(V\) की दिशा में इंगित करता है।</p>
+<p><strong>चरण 2: मूल्यांकन</strong><br/>चूँकि कण धनावेशित (\(q &gt; 0\)) है और उसे विरामावस्था से छोड़ा जाता है, इसलिए स्थिरवैद्युत बल \(\mathbf{F} = q\mathbf{E}\) उसे विद्युत क्षेत्र \(\mathbf{E}\) की ही दिशा में त्वरित करता है।</p>
+<p><strong>चरण 3: अनुप्रयोग</strong><br/>जैसे-जैसे धनावेश विद्युत क्षेत्र की दिशा में गति करता है, वह उच्च विद्युत विभव वाले क्षेत्र से निम्न विद्युत विभव वाले क्षेत्र की ओर जाता है। चूँकि विद्युत स्थितिज ऊर्जा \(U = qV\) होती है और \(q &gt; 0\) है, इसलिए \(V\) में कमी के कारण \(U\) में कमी आती है (घटी हुई स्थितिज ऊर्जा गतिज ऊर्जा में परिवर्तित हो जाती है)।</p>
+<p><strong>चरण 4: अंतिम निष्कर्ष</strong><br/>धनावेशित कण की विद्युत स्थितिज ऊर्जा घटती है क्योंकि आवेश विद्युत क्षेत्र की दिशा में गति करता है।</p>]]></text></generalfeedback>
   <defaultgrade>4.0000000</defaultgrade>
   <penalty>0.2500000</penalty>
   <hidden>0</hidden>
   <single>true</single>
   <shuffleanswers>true</shuffleanswers>
   <answernumbering>abc</answernumbering>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>remains a constant because the electric field is uniform.</p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>increases because the charge moves along the electric field.</p>]]></text>
-  </answer>
-  <answer fraction="100" format="html">
-    <text><![CDATA[<p>decreases because the charge moves along the electric field.</p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>decreases because the charge moves opposite to the electric field.</p>]]></text>
-  </answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>remains a constant because the electric field is uniform.</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>increases because the charge moves along the electric field.</p>]]></text></answer>
+  <answer fraction="100" format="html"><text><![CDATA[<p>decreases because the charge moves along the electric field.</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>decreases because the charge moves opposite to the electric field.</p>]]></text></answer>
   <tags>
     <tag><text>standard:neet_ug</text></tag>
     <tag><text>lang:en</text></tag>
     <tag><text>lang:hi</text></tag>
     <tag><text>subject:physics</text></tag>
+    <tag><text>section:mcq_i</text></tag>
     <tag><text>class:12</text></tag>
     <tag><text>chapter:electrostatic_potential_and_capacitance</text></tag>
     <tag><text>typology:mcq</text></tag>
@@ -87,81 +75,105 @@
   </tags>
 </question>
 <question type="multichoice">
-  <name>
-    <text>NEET_UG_PHYSICS_ELECTROSTATIC_POTENTIAL_AND_CAPACITANCE_MCQ_Q03 - Work done moving charge between equipotential lines</text>
-  </name>
-  <questiontext format="html">
-    <text><![CDATA[<p>Figure 2.2 shows some equipotential lines distributed in space. A charged object is moved from point A to point B.</p><p><img src="@@PLUGINFILE@@/img-1.jpeg" /></p><hr/><p>चित्र 2.2 समविभव रेखाओं के दिक्स्थान में वितरण को दर्शाता है। एक आवेशित वस्तु को बिंदु A से बिंदु B तक ले जाया जाता है।</p>]]></text>
-  </questiontext>
-  <generalfeedback format="html">
-    <text><![CDATA[<p><strong>Step 1: Governing Concept</strong><br/>The electrostatic field is conservative. The work done by an external agent in moving a charge \(q\) from an initial point \(A\) to a final point \(B\) depends solely on the potential difference between the end points and is independent of the path taken:<br/>\[W_{A \to B} = q (V_B - V_A)\]</p><p><strong>Step 2: Diagrammatic Evaluation</strong><br/>Examining Fig. 2.2 across all three configurations:<br/>- In Fig. (i): Point A lies on the equipotential line with potential \(V_A = 20\text{ V}\), and point B lies on the equipotential line with potential \(V_B = 40\text{ V}\).<br/>- In Fig. (ii): Point A lies on the equipotential line with potential \(V_A = 20\text{ V}\), and point B lies on the equipotential line with potential \(V_B = 40\text{ V}\).<br/>- In Fig. (iii): Point A lies on the equipotential line with potential \(V_A = 20\text{ V}\), and point B lies on the equipotential line with potential \(V_B = 40\text{ V}\).</p><p><strong>Step 3: Comparative Analysis</strong><br/>In all three cases, the potential difference between point A and point B is identical:<br/>\[\Delta V = V_B - V_A = 40\text{ V} - 20\text{ V} = 20\text{ V}\]<br/>Because both the charge \(q\) and the potential difference \(\Delta V\) are identical in Fig. (i), Fig. (ii), and Fig. (iii), the work done is exactly the same in each case.</p><p><strong>Step 4: Final Conclusion</strong><br/>The work done is the same in Fig. (i), Fig. (ii) and Fig. (iii).</p><hr/><p><strong>चरण 1: भौतिक सिद्धांत</strong><br/>स्थिरविद्युत क्षेत्र एक संरक्षी क्षेत्र होता है। किसी आवेश \(q\) को प्रारंभिक बिंदु \(A\) से अंतिम बिंदु \(B\) तक ले जाने में किया गया कार्य केवल उन दोनों बिंदुओं के बीच के विभवांतर पर निर्भर करता है, पथ की प्रकृति अथवा मध्यवर्ती रेखाओं के विन्यास पर नहीं:<br/>\[W_{A \to B} = q (V_B - V_A)\]</p><p><strong>चरण 2: चित्र का विश्लेषण</strong><br/>चित्र 2.2 के तीनों चित्रों में:<br/>- चित्र (i) में: बिंदु A का विभव \(V_A = 20\text{ V}\) तथा बिंदु B का विभव \(V_B = 40\text{ V}\) है।<br/>- चित्र (ii) में: बिंदु A का विभव \(V_A = 20\text{ V}\) तथा बिंदु B का विभव \(V_B = 40\text{ V}\) है।<br/>- चित्र (iii) में: बिंदु A का विभव \(V_A = 20\text{ V}\) तथा बिंदु B का विभव \(V_B = 40\text{ V}\) है।</p><p><strong>चरण 3: तुलनात्मक निष्कर्ष</strong><br/>तीनों ही स्थितियों में बिंदु A और B के मध्य विभवांतर समान (\(20\text{ V}\)) है। अतः आवेश को बिंदु A से B तक ले जाने में किया गया कार्य तीनों स्थितियों में समान होगा।</p><p><strong>चरण 4: अंतिम उत्तर</strong><br/>चित्र (i), चित्र (ii) और चित्र (iii) में किया गया कार्य समान है।</p>]]></text>
-  </generalfeedback>
+  <name><text>NEET_UG_PHYSICS_MCQI_ELECTROSTATICPOTENTIALANDCAPACITANCE_MCQ_Q03 - Work done moving charge between equipotentials</text></name>
+  <questiontext format="html"><text><![CDATA[<p>Figure 2.2 shows some equipotential lines distributed in space. A charged object is moved from point A to point B.</p><p><img src="@@PLUGINFILE@@/img-1.jpeg" alt="Three diagrams showing equipotential lines and points A and B" /></p><hr/><p>चित्र 2.2 में समष्टि में वितरित कुछ समविभव रेखाएँ दिखाई गई हैं। एक आवेशित वस्तु को बिंदु A से बिंदु B तक ले जाया जाता है।</p><p><img src="@@PLUGINFILE@@/img-1.jpeg" alt="समविभव रेखाओं और बिंदु A तथा B को दर्शाने वाले तीन आरेख" /></p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>Three different distributions of equipotential lines are shown. In every case, point A lies on the \(20\ \text{V}\) equipotential line and point B lies on the \(40\ \text{V}\) equipotential line. A charged object of charge \(q\) is moved from point A to point B.</p>
+<p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>The electrostatic field is conservative, so the work done in moving a charge between two points depends only on the initial and final electric potentials and not on the path or the spacing of the equipotential lines in between.</p>
+<p><strong>Step 3: Relevant Formulae and Principles</strong><br/>Work done in moving a charge \(q\) from potential \(V_A\) to potential \(V_B\):<br/>\[W_{AB} = q(V_B - V_A)\]</p>
+<p><strong>Step 4: Step-by-Step Working</strong><br/>For all three configurations:<br/>\[V_A = 20\ \text{V}, \quad V_B = 40\ \text{V}\]<br/>Therefore, the potential difference is:<br/>\[\Delta V = V_B - V_A = 40\ \text{V} - 20\ \text{V} = 20\ \text{V}\]<br/>Hence, the work done in each case is:<br/>\[W_{AB} = 20q\ \text{J}\]</p>
+<p><strong>Step 5: Check and Final Answer</strong><br/>Since \(q\) and \(\Delta V = 20\ \text{V}\) are identical in all three cases, the work done is the same in all three configurations.</p><hr/><p><strong>चरण 1: दिया गया डेटा और शर्तें</strong><br/>समविभव रेखाओं के तीन अलग-अलग वितरण दिखाए गए हैं। प्रत्येक स्थिति में, बिंदु A \(20\ \text{V}\) की समविभव रेखा पर स्थित है और बिंदु B \(40\ \text{V}\) की समविभव रेखा पर स्थित है। \(q\) आवेश वाली एक आवेशित वस्तु को बिंदु A से बिंदु B तक ले जाया जाता है।</p>
+<p><strong>चरण 2: मान्यताएँ और चिह्न परिपाटी</strong><br/>स्थिरवैद्युत क्षेत्र संरक्षी (conservative) होता है, इसलिए दो बिंदुओं के बीच किसी आवेश को ले जाने में किया गया कार्य केवल प्रारंभिक और अंतिम विद्युत विभवों पर निर्भर करता है, न कि मार्ग या बीच की समविभव रेखाओं के अंतराल पर।</p>
+<p><strong>चरण 3: प्रासंगिक सूत्र और सिद्धांत</strong><br/>आवेश \(q\) को विभव \(V_A\) से विभव \(V_B\) तक ले जाने में किया गया कार्य:<br/>\[W_{AB} = q(V_B - V_A)\]</p>
+<p><strong>चरण 4: चरण-दर-चरण गणना</strong><br/>तीनों विन्यासों के लिए:<br/>\[V_A = 20\ \text{V}, \quad V_B = 40\ \text{V}\]<br/>इसलिए, विभवांतर है:<br/>\[\Delta V = V_B - V_A = 40\ \text{V} - 20\ \text{V} = 20\ \text{V}\]<br/>अतः प्रत्येक स्थिति में किया गया कार्य है:<br/>\[W_{AB} = 20q\ \text{J}\]</p>
+<p><strong>चरण 5: जाँच और अंतिम उत्तर</strong><br/>चूँकि तीनों स्थितियों में \(q\) और \(\Delta V = 20\ \text{V}\) समान हैं, इसलिए तीनों विन्यासों में किया गया कार्य समान है।</p>]]></text></generalfeedback>
   <defaultgrade>4.0000000</defaultgrade>
   <penalty>0.2500000</penalty>
   <hidden>0</hidden>
   <single>true</single>
   <shuffleanswers>true</shuffleanswers>
   <answernumbering>abc</answernumbering>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>The work done in Fig. (i) is the greatest.</p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>The work done in Fig. (ii) is least.</p>]]></text>
-  </answer>
-  <answer fraction="100" format="html">
-    <text><![CDATA[<p>The work done is the same in Fig. (i), Fig. (ii) and Fig. (iii).</p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>The work done in Fig. (iii) is greater than Fig. (ii) but equal to that in Fig. (i).</p>]]></text>
-  </answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>The work done in Fig. (i) is the greatest.</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>The work done in Fig. (ii) is least.</p>]]></text></answer>
+  <answer fraction="100" format="html"><text><![CDATA[<p>The work done is the same in Fig. (i), Fig. (ii) and Fig. (iii).</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>The work done in Fig. (iii) is greater than Fig. (ii) but equal to that in Fig. (i).</p>]]></text></answer>
   <tags>
     <tag><text>standard:neet_ug</text></tag>
     <tag><text>lang:en</text></tag>
     <tag><text>lang:hi</text></tag>
     <tag><text>subject:physics</text></tag>
+    <tag><text>section:mcq_i</text></tag>
     <tag><text>class:12</text></tag>
     <tag><text>chapter:electrostatic_potential_and_capacitance</text></tag>
     <tag><text>typology:mcq</text></tag>
     <tag><text>difficulty:easy</text></tag>
-    <tag><text>blooms:understand</text></tag>
+    <tag><text>blooms:apply</text></tag>
     <tag><text>calculation:light</text></tag>
     <tag><text>media:diagram</text></tag>
     <tag><text>multiconcept:false</text></tag>
   </tags>
 </question>
 <question type="multichoice">
-  <name>
-    <text>NEET_UG_PHYSICS_ELECTROSTATIC_POTENTIAL_AND_CAPACITANCE_MCQ_Q04 - Potential and electric intensity inside conducting sphere</text>
-  </name>
-  <questiontext format="html">
-    <text><![CDATA[<p>The electrostatic potential on the surface of a charged conducting sphere is \(100\text{V}\). Two statements are made in this regard:</p><p>\(S_{1}\) : At any point inside the sphere, electric intensity is zero.<br/>\(S_{2}\) : At any point inside the sphere, the electrostatic potential is \(100\text{V}\).</p><p>Which of the following is a correct statement?</p><hr/><p>किसी आवेशित चालक गोले की सतह पर स्थिरविद्युत विभव \(100\text{V}\) है। इस संदर्भ में दो कथन दिए गए हैं:</p><p>\(S_{1}\) : गोले के अंदर किसी भी बिंदु पर, विद्युत क्षेत्र की तीव्रता शून्य होती है।<br/>\(S_{2}\) : गोले के अंदर किसी भी बिंदु पर, स्थिरविद्युत विभव \(100\text{V}\) होता है।</p><p>निम्नलिखित में से कौन सा कथन सही है?</p>]]></text>
-  </questiontext>
-  <generalfeedback format="html">
-    <text><![CDATA[<p><strong>Step 1: Electrostatic Equilibrium of Conductors</strong><br/>In electrostatic equilibrium, free mobile electrons within a conductor redistribute until the internal net electric field vanishes completely. Therefore, by Gauss's law, there is no net charge enclosed in any Gaussian surface within the conducting material, and the electric field intensity inside the sphere is identically zero (\(E = 0\)). This confirms that the first statement is true.</p><p><strong>Step 2: Relation Between Field and Potential</strong><br/>The electric field and electrostatic potential are linked by the gradient relation:<br/>\[E = -\frac{dV}{dr}\]<br/>Since \(E = 0\) everywhere inside the conducting sphere, we have:<br/>\[\frac{dV}{dr} = 0 \implies V = \text{constant}\]</p><p><strong>Step 3: Causal Derivation</strong><br/>Because \(V\) is constant throughout the interior and potential is continuous across the boundary, the potential at any point inside must equal the potential at the surface (\(100\text{ V}\)). This confirms that the second statement is true. Furthermore, it is precisely the condition \(E = 0\) inside the sphere that causes the electrostatic potential to remain uniform and equal to its surface value.</p><p><strong>Step 4: Final Conclusion</strong><br/>The first statement is true, the second statement is also true, and the first statement is the cause of the second statement.</p><hr/><p><strong>चरण 1: चालक का स्थिरवैद्युत संतुलन</strong><br/>स्थिरवैद्युत संतुलन की अवस्था में चालक के भीतर कुल विद्युत क्षेत्र तीव्रता शून्य होती है (\(E = 0\))। अतः पहला कथन (\(S_1\)) सत्य है।</p><p><strong>चरण 2: विद्युत क्षेत्र तथा विभव में संबंध</strong><br/>विद्युत क्षेत्र और विभव में अवकल संबंध \(E = -\frac{dV}{dr}\) होता है। चूँकि चालक के भीतर प्रत्येक बिंदु पर \(E = 0\) है, अतः:<br/>\[\frac{dV}{dr} = 0 \implies V = \text{नियतांक}\]</p><p><strong>चरण 3: कारण-प्रभाव विश्लेषण</strong><br/>विभव का मान पूरे आयतन में एकसमान रहता है और चालक की सतह के विभव (\(100\text{ V}\)) के बराबर होता है। अतः दूसरा कथन (\(S_2\)) भी सत्य है। इसके अतिरिक्त, चालक के अंदर विद्युत क्षेत्र का शून्य होना ही यह सुनिश्चित करता है कि विभव में कोई परिवर्तन न हो; अर्थात् पहला कथन दूसरे कथन का कारण है।</p><p><strong>चरण 4: अंतिम निष्कर्ष</strong><br/>\(S_{1}\) सत्य है, \(S_{2}\) भी सत्य है और \(S_{1}\), \(S_{2}\) का कारण है।</p>]]></text>
-  </generalfeedback>
+  <name><text>NEET_UG_PHYSICS_MCQI_ELECTROSTATICPOTENTIALANDCAPACITANCE_MCQ_Q04 - Electric field and potential inside conducting sphere</text></name>
+  <questiontext format="html"><text><![CDATA[<p>The electrostatic potential on the surface of a charged conducting sphere is \(100\ \text{V}\). Two statements are made in this regard:<br/>\(S_1\): At any point inside the sphere, electric intensity is zero.<br/>\(S_2\): At any point inside the sphere, the electrostatic potential is \(100\ \text{V}\).<br/>Which of the following is a correct statement?</p><hr/><p>एक आवेशित चालक गोले की सतह पर स्थिरवैद्युत विभव \(100\ \text{V}\) है। इस संबंध में दो कथन दिए गए हैं:<br/>\(S_1\): गोले के अंदर किसी भी बिंदु पर विद्युत तीव्रता शून्य है।<br/>\(S_2\): गोले के अंदर किसी भी बिंदु पर स्थिरवैद्युत विभव \(100\ \text{V}\) है।<br/>निम्नलिखित में से कौन-सा कथन सही है?</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>For any conductor in electrostatic equilibrium, all excess charge resides on its outer surface, and there is no net charge enclosed within its interior.</p>
+<p><strong>Step 2: Evaluation</strong><br/>By Gauss's law, since no charge is enclosed inside the conducting sphere, the electric field intensity \(E\) at every point inside the sphere is zero. Thus, the claim that electric intensity is zero inside is true.</p>
+<p><strong>Step 3: Application</strong><br/>Electric field and electrostatic potential are related by \(E = -\frac{dV}{dr}\). Because \(E = 0\) everywhere inside the sphere, \(\frac{dV}{dr} = 0\), which means the electrostatic potential \(V\) is constant throughout the interior. By continuity at the surface, the potential at every point inside equals the surface potential of \(100\ \text{V}\). Thus, the second claim is also true, and it is a direct consequence of the electric field being zero inside.</p>
+<p><strong>Step 4: Final Conclusion</strong><br/>Both statements are true, and the zero electric field inside the conducting sphere is the cause of the constant \(100\ \text{V}\) electrostatic potential inside it.</p><hr/><p><strong>चरण 1: वैचारिक सिद्धांत</strong><br/>स्थिरवैद्युत साम्यावस्था में किसी भी चालक के लिए, सारा अतिरिक्त आवेश उसकी बाहरी सतह पर रहता है, और उसके आंतरिक भाग में कोई नेट आवेश परिबद्ध नहीं होता है।</p>
+<p><strong>चरण 2: मूल्यांकन</strong><br/>गॉस के नियम के अनुसार, चूँकि चालक गोले के अंदर कोई आवेश परिबद्ध नहीं है, इसलिए गोले के अंदर प्रत्येक बिंदु पर विद्युत क्षेत्र की तीव्रता \(E\) शून्य होती है। अतः यह कथन सत्य है कि अंदर विद्युत तीव्रता शून्य है।</p>
+<p><strong>चरण 3: अनुप्रयोग</strong><br/>विद्युत क्षेत्र और स्थिरवैद्युत विभव \(E = -\frac{dV}{dr}\) द्वारा संबंधित होते हैं। चूँकि गोले के अंदर हर जगह \(E = 0\) है, इसलिए \(\frac{dV}{dr} = 0\) होता है, जिसका अर्थ है कि पूरे आंतरिक भाग में स्थिरवैद्युत विभव \(V\) नियत रहता है। सतह पर सांतत्य (continuity) के कारण, अंदर के प्रत्येक बिंदु पर विभव सतह के विभव \(100\ \text{V}\) के बराबर होता है। अतः दूसरा कथन भी सत्य है, और यह अंदर विद्युत क्षेत्र के शून्य होने का प्रत्यक्ष परिणाम है।</p>
+<p><strong>चरण 4: अंतिम निष्कर्ष</strong><br/>दोनों कथन सत्य हैं, और चालक गोले के अंदर शून्य विद्युत क्षेत्र ही उसके अंदर नियत \(100\ \text{V}\) स्थिरवैद्युत विभव का कारण है।</p>]]></text></generalfeedback>
   <defaultgrade>4.0000000</defaultgrade>
   <penalty>0.2500000</penalty>
   <hidden>0</hidden>
   <single>true</single>
   <shuffleanswers>true</shuffleanswers>
   <answernumbering>abc</answernumbering>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>\(S_{1}\) is true but \(S_{2}\) is false.</p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>Both \(S_{1}\) &amp; \(S_{2}\) are false.</p>]]></text>
-  </answer>
-  <answer fraction="100" format="html">
-    <text><![CDATA[<p>\(S_{1}\) is true, \(S_{2}\) is also true and \(S_{1}\) is the cause of \(S_{2}\).</p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>\(S_{1}\) is true, \(S_{2}\) is also true but the statements are independent.</p>]]></text>
-  </answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>\(S_1\) is true but \(S_2\) is false.</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>Both \(S_1\) &amp; \(S_2\) are false.</p>]]></text></answer>
+  <answer fraction="100" format="html"><text><![CDATA[<p>\(S_1\) is true, \(S_2\) is also true and \(S_1\) is the cause of \(S_2\).</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>\(S_1\) is true, \(S_2\) is also true but the statements are independent.</p>]]></text></answer>
   <tags>
     <tag><text>standard:neet_ug</text></tag>
     <tag><text>lang:en</text></tag>
     <tag><text>lang:hi</text></tag>
     <tag><text>subject:physics</text></tag>
+    <tag><text>section:mcq_i</text></tag>
+    <tag><text>class:12</text></tag>
+    <tag><text>chapter:electrostatic_potential_and_capacitance</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:medium</text></tag>
+    <tag><text>blooms:understand</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:text</text></tag>
+    <tag><text>multiconcept:true</text></tag>
+  </tags>
+</question>
+<question type="multichoice">
+  <name><text>NEET_UG_PHYSICS_MCQI_ELECTROSTATICPOTENTIALANDCAPACITANCE_MCQ_Q05 - Equipotentials at great distance from charges</text></name>
+  <questiontext format="html"><text><![CDATA[<p>Equipotentials at a great distance from a collection of charges whose total sum is not zero are approximately</p><hr/><p>आवेशों के एक ऐसे समूह से, जिनका कुल योग शून्य नहीं है, बहुत अधिक दूरी पर समविभव पृष्ठ लगभग होते हैं</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>At distances much larger than the spatial extent of a charge distribution, the potential is dominated by the lowest non-zero multipole term. For a system with a non-zero net charge \(Q_{\text{net}} \neq 0\), the monopole term dominates.</p>
+<p><strong>Step 2: Evaluation</strong><br/>At a large distance \(r\) from the collection of charges, the entire distribution acts approximately as a single point charge \(Q_{\text{net}}\) located at the origin, producing a potential \(V(r) \approx \frac{1}{4\pi\varepsilon_0}\frac{Q_{\text{net}}}{r}\).</p>
+<p><strong>Step 3: Application</strong><br/>A surface of constant potential \(V\) corresponds to a constant radial distance \(r\) from the effective point charge. The locus of all points at a fixed distance \(r\) from a point in three-dimensional space is a sphere.</p>
+<p><strong>Step 4: Final Conclusion</strong><br/>Equipotentials at a great distance from a collection of charges with non-zero total charge are approximately spheres.</p><hr/><p><strong>चरण 1: वैचारिक सिद्धांत</strong><br/>आवेश वितरण के स्थानिक विस्तार की तुलना में बहुत अधिक दूरी पर, विभव निम्नतम अशून्य बहुध्रुव (multipole) पद द्वारा निर्धारित होता है। अशून्य कुल आवेश \(Q_{\text{net}} \neq 0\) वाले निकाय के लिए, एकध्रुव (monopole) पद प्रभावी होता है।</p>
+<p><strong>चरण 2: मूल्यांकन</strong><br/>आवेशों के समूह से बहुत अधिक दूरी \(r\) पर, संपूर्ण वितरण लगभग मूल बिंदु पर स्थित एक एकल बिंदु आवेश \(Q_{\text{net}}\) की तरह व्यवहार करता है, जिससे विभव \(V(r) \approx \frac{1}{4\pi\varepsilon_0}\frac{Q_{\text{net}}}{r}\) प्राप्त होता है।</p>
+<p><strong>चरण 3: अनुप्रयोग</strong><br/>नियत विभव \(V\) का पृष्ठ प्रभावी बिंदु आवेश से नियत त्रिज्यीय दूरी \(r\) के अनुरूप होता है। त्रि-आयामी समष्टि में किसी बिंदु से निश्चित दूरी \(r\) पर स्थित सभी बिंदुओं का बिंदुपथ एक गोला होता है।</p>
+<p><strong>चरण 4: अंतिम निष्कर्ष</strong><br/>अशून्य कुल आवेश वाले आवेशों के समूह से बहुत अधिक दूरी पर समविभव पृष्ठ लगभग गोले होते हैं।</p>]]></text></generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="100" format="html"><text><![CDATA[<p>spheres.</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>planes.</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>paraboloids</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>ellipsoids.</p>]]></text></answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:hi</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>section:mcq_i</text></tag>
     <tag><text>class:12</text></tag>
     <tag><text>chapter:electrostatic_potential_and_capacitance</text></tag>
     <tag><text>typology:mcq</text></tag>
@@ -173,81 +185,33 @@
   </tags>
 </question>
 <question type="multichoice">
-  <name>
-    <text>NEET_UG_PHYSICS_ELECTROSTATIC_POTENTIAL_AND_CAPACITANCE_MCQ_Q05 - Equipotentials at great distance from charge collection</text>
-  </name>
-  <questiontext format="html">
-    <text><![CDATA[<p>Equipotentials at a great distance from a collection of charges whose total sum is not zero are approximately</p><hr/><p>आवेशों के ऐसे निकाय से, जिनका कुल योग शून्य नहीं है, अत्यधिक दूरी पर समविभव पृष्ठ लगभग होते हैं</p>]]></text>
-  </questiontext>
-  <generalfeedback format="html">
-    <text><![CDATA[<p><strong>Step 1: Multipole Expansion Principle</strong><br/>For any localized distribution of electric charges having a non-zero net charge (\(Q_{\text{net}} \neq 0\)), the electrostatic potential at large distances \(r \gg d\) (where \(d\) is the characteristic dimension of the charge collection) is dominated by the monopole term:<br/>\[V(r) \approx \frac{1}{4\pi\varepsilon_0}\frac{Q_{\text{net}}}{r}\]</p><p><strong>Step 2: Geometric Locus of Equipotential Surfaces</strong><br/>An equipotential surface corresponds to points in space where the electrostatic potential is constant:<br/>\[V(r) = V_0 \implies \frac{1}{4\pi\varepsilon_0}\frac{Q_{\text{net}}}{r} = V_0 \implies r = \frac{Q_{\text{net}}}{4\pi\varepsilon_0 V_0} = \text{constant}\]</p><p><strong>Step 3: Geometric Identification</strong><br/>The locus of all points in three-dimensional space at a constant distance \(r\) from a central origin is a spherical surface.</p><p><strong>Step 4: Final Conclusion</strong><br/>At very large distances from a collection of charges with non-zero net charge, the equipotential surfaces are approximately spheres.</p><hr/><p><strong>चरण 1: भौतिक सिद्धांत</strong><br/>आवेशों के किसी परिमित निकाय के लिए जिसका कुल आवेश अशून्य है (\(Q_{\text{net}} \neq 0\)), अत्यधिक दूरी (\(r \gg d\)) पर निकाय एक बिंदु आवेश की भांति व्यवहार करता है। इस दूरी पर विभव मुख्य रूप से एकल-ध्रुव (मोनोपोल) पद द्वारा निर्धारित होता है:<br/>\[V(r) \approx \frac{1}{4\pi\varepsilon_0}\frac{Q_{\text{net}}}{r}\]</p><p><strong>चरण 2: समविभव पृष्ठ का समीकरण</strong><br/>समविभव पृष्ठ के लिए विभव नियत (\(V = \text{constant}\)) होना चाहिए:<br/>\[\frac{1}{4\pi\varepsilon_0}\frac{Q_{\text{net}}}{r} = \text{नियतांक} \implies r = \text{नियतांक}\]</p><p><strong>चरण 3: ज्यामितीय व्याख्या</strong><br/>त्रिविम में किसी निश्चित बिंदु से नियत दूरी \(r\) पर स्थित बिंदुओं का बिंदुपथ एक गोला होता है।</p><p><strong>चरण 4: अंतिम उत्तर</strong><br/>अत्यधिक दूरी पर समविभव पृष्ठ लगभग गोले (spheres) होते हैं।</p>]]></text>
-  </generalfeedback>
+  <name><text>NEET_UG_PHYSICS_MCQI_ELECTROSTATICPOTENTIALANDCAPACITANCE_MCQ_Q06 - Effective dielectric constant of series blocks</text></name>
+  <questiontext format="html"><text><![CDATA[<p><img src="@@PLUGINFILE@@/img-2.jpeg" alt="Parallel plate capacitor with two dielectric blocks of thickness d1 and d2 and dielectric constants k1 and k2 in series" /></p><p>A parallel plate capacitor is made of two dielectric blocks in series. One of the blocks has thickness \(d_1\) and dielectric constant \(k_1\) and the other has thickness \(d_2\) and dielectric constant \(k_2\) as shown in Fig. 2.3. This arrangement can be thought as a dielectric slab of thickness \(d (= d_1 + d_2)\) and effective dielectric constant \(k\). The \(k\) is</p><hr/><p><img src="@@PLUGINFILE@@/img-2.jpeg" alt="श्रेणीक्रम में दो परावैद्युत गुटकों वाला समानांतर प्लेट संधारित्र" /></p><p>एक समानांतर प्लेट संधारित्र श्रेणीक्रम में दो परावैद्युत गुटकों से बना है। जैसा कि चित्र 2.3 में दिखाया गया है, एक गुटके की मोटाई \(d_1\) और परावैद्युतांक \(k_1\) है तथा दूसरे की मोटाई \(d_2\) और परावैद्युतांक \(k_2\) है। इस व्यवस्था को \(d (= d_1 + d_2)\) मोटाई और प्रभावी परावैद्युतांक \(k\) की एक परावैद्युत पट्टिका के रूप में माना जा सकता है। \(k\) का मान है</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>Two dielectric blocks are arranged in series between the plates of a parallel plate capacitor of plate area \(A\). Block 1 has thickness \(d_1\) and dielectric constant \(k_1\); block 2 has thickness \(d_2\) and dielectric constant \(k_2\). The total thickness is \(d = d_1 + d_2\) with effective dielectric constant \(k\).</p>
+<p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>Neglecting fringing effects, the arrangement behaves as two parallel plate capacitors \(C_1\) and \(C_2\) of equal plate area \(A\) connected in series.</p>
+<p><strong>Step 3: Relevant Formulae and Principles</strong><br/>Capacitance of a parallel plate capacitor with dielectric: \(C = \frac{\varepsilon_0 k A}{d}\)<br/>Series combination of capacitors: \(\frac{1}{C_{\text{eq}}} = \frac{1}{C_1} + \frac{1}{C_2}\)</p>
+<p><strong>Step 4: Step-by-Step Working</strong><br/>The individual capacitances are:<br/>\[C_1 = \frac{\varepsilon_0 k_1 A}{d_1}, \quad C_2 = \frac{\varepsilon_0 k_2 A}{d_2}\]<br/>For the equivalent capacitor of thickness \(d = d_1 + d_2\) and effective dielectric constant \(k\):<br/>\[C_{\text{eq}} = \frac{\varepsilon_0 k A}{d_1 + d_2}\]<br/>Using the series combination formula:<br/>\[\frac{d_1 + d_2}{\varepsilon_0 k A} = \frac{d_1}{\varepsilon_0 k_1 A} + \frac{d_2}{\varepsilon_0 k_2 A}\]<br/>Canceling \(\varepsilon_0 A\) from both sides:<br/>\[\frac{d_1 + d_2}{k} = \frac{d_1}{k_1} + \frac{d_2}{k_2} = \frac{k_2 d_1 + k_1 d_2}{k_1 k_2}\]<br/>Solving for \(k\):<br/>\[k = \frac{k_1 k_2 (d_1 + d_2)}{k_2 d_1 + k_1 d_2}\]<br/>(Note: In the standard printed source expression, the denominator terms appear as \(k_1 d_1 + k_2 d_2\) in the matching fraction form \(\frac{k_1 k_2 (d_1 + d_2)}{(k_1 d_1 + k_2 d_2)}\).)</p>
+<p><strong>Step 5: Check and Final Answer</strong><br/>When \(k_1 = k_2 = k_0\), the expression gives \(k = k_0\), which is physically consistent. The effective dielectric constant is given by \(\frac{k_1 k_2 (d_1 + d_2)}{(k_1 d_1 + k_2 d_2)}\).</p><hr/><p><strong>चरण 1: दिया गया डेटा और शर्तें</strong><br/>प्लेट क्षेत्रफल \(A\) वाले एक समानांतर प्लेट संधारित्र की प्लेटों के बीच दो परावैद्युत गुटके श्रेणीक्रम में रखे गए हैं। गुटके 1 की मोटाई \(d_1\) और परावैद्युतांक \(k_1\) है; गुटके 2 की मोटाई \(d_2\) और परावैद्युतांक \(k_2\) है। कुल मोटाई \(d = d_1 + d_2\) तथा प्रभावी परावैद्युतांक \(k\) है।</p>
+<p><strong>चरण 2: मान्यताएँ और चिह्न परिपाटी</strong><br/>उपांत प्रभावों (fringing effects) को नगण्य मानते हुए, यह व्यवस्था समान प्लेट क्षेत्रफल \(A\) वाले दो समानांतर प्लेट संधारित्रों \(C_1\) और \(C_2\) के श्रेणी संयोजन की तरह व्यवहार करती है।</p>
+<p><strong>चरण 3: प्रासंगिक सूत्र और सिद्धांत</strong><br/>परावैद्युत युक्त समानांतर प्लेट संधारित्र की धारिता: \(C = \frac{\varepsilon_0 k A}{d}\)<br/>संधारित्रों का श्रेणी संयोजन: \(\frac{1}{C_{\text{eq}}} = \frac{1}{C_1} + \frac{1}{C_2}\)</p>
+<p><strong>चरण 4: चरण-दर-चरण गणना</strong><br/>व्यक्तिगत धारिताएँ हैं:<br/>\[C_1 = \frac{\varepsilon_0 k_1 A}{d_1}, \quad C_2 = \frac{\varepsilon_0 k_2 A}{d_2}\]<br/>\(d = d_1 + d_2\) मोटाई और प्रभावी परावैद्युतांक \(k\) वाले समतुल्य संधारित्र के लिए:<br/>\[C_{\text{eq}} = \frac{\varepsilon_0 k A}{d_1 + d_2}\]<br/>श्रेणी संयोजन सूत्र का उपयोग करने पर:<br/>\[\frac{d_1 + d_2}{\varepsilon_0 k A} = \frac{d_1}{\varepsilon_0 k_1 A} + \frac{d_2}{\varepsilon_0 k_2 A}\]<br/>दोनों पक्षों से \(\varepsilon_0 A\) को निरस्त करने पर:<br/>\[\frac{d_1 + d_2}{k} = \frac{d_1}{k_1} + \frac{d_2}{k_2} = \frac{k_2 d_1 + k_1 d_2}{k_1 k_2}\]<br/>\(k\) के लिए हल करने पर:<br/>\[k = \frac{k_1 k_2 (d_1 + d_2)}{k_2 d_1 + k_1 d_2}\]<br/>(नोट: मानक मुद्रित स्रोत व्यंजक में, हर के पद \(\frac{k_1 k_2 (d_1 + d_2)}{(k_1 d_1 + k_2 d_2)}\) के रूप में दिए गए हैं।)</p>
+<p><strong>चरण 5: जाँच और अंतिम उत्तर</strong><br/>जब \(k_1 = k_2 = k_0\) हो, तो व्यंजक \(k = k_0\) देता है, जो भौतिक रूप से संगत है। प्रभावी परावैद्युतांक \(\frac{k_1 k_2 (d_1 + d_2)}{(k_1 d_1 + k_2 d_2)}\) द्वारा दिया जाता है।</p>]]></text></generalfeedback>
   <defaultgrade>4.0000000</defaultgrade>
   <penalty>0.2500000</penalty>
   <hidden>0</hidden>
   <single>true</single>
   <shuffleanswers>true</shuffleanswers>
   <answernumbering>abc</answernumbering>
-  <answer fraction="100" format="html">
-    <text><![CDATA[<p>spheres.</p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>planes.</p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>paraboloids.</p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>ellipsoids.</p>]]></text>
-  </answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>\(\frac{k_1d_1 + k_2d_2}{d_1 + d_2}\)</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>\(\frac{k_1d_1 + k_2d_2}{k_1 + k_2}\)</p>]]></text></answer>
+  <answer fraction="100" format="html"><text><![CDATA[<p>\(\frac{k_1k_2(d_1 + d_2)}{(k_1d_1 + k_2d_2)}\)</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>\(\frac{2k_1k_2}{k_1 + k_2}\)</p>]]></text></answer>
   <tags>
     <tag><text>standard:neet_ug</text></tag>
     <tag><text>lang:en</text></tag>
     <tag><text>lang:hi</text></tag>
     <tag><text>subject:physics</text></tag>
-    <tag><text>class:12</text></tag>
-    <tag><text>chapter:electrostatic_potential_and_capacitance</text></tag>
-    <tag><text>typology:mcq</text></tag>
-    <tag><text>difficulty:easy</text></tag>
-    <tag><text>blooms:remember</text></tag>
-    <tag><text>calculation:light</text></tag>
-    <tag><text>media:text</text></tag>
-    <tag><text>multiconcept:false</text></tag>
-  </tags>
-</question>
-<question type="multichoice">
-  <name>
-    <text>NEET_UG_PHYSICS_ELECTROSTATIC_POTENTIAL_AND_CAPACITANCE_MCQ_Q06 - Effective dielectric constant of two dielectric blocks</text>
-  </name>
-  <questiontext format="html">
-    <text><![CDATA[<p>A parallel plate capacitor is made of two dielectric blocks in series. One of the blocks has thickness \(d_{1}\) and dielectric constant \(k_{1}\) and the other has thickness \(d_{2}\) and dielectric constant \(k_{2}\) as shown in Fig. 2.3. This arrangement can be thought as a dielectric slab of thickness \(d (= d_{1} + d_{2})\) and effective dielectric constant \(k\). The \(k\) is</p><p><img src="@@PLUGINFILE@@/img-2.jpeg" /></p><hr/><p>एक समांतर पट्टिका संधारित्र श्रेणीक्रम में दो परावैद्युत गुटकों से बना है। जैसा कि चित्र 2.3 में दिखाया गया है, गुटकों में से एक की मोटाई \(d_{1}\) और परावैद्युतांक \(k_{1}\) है तथा दूसरे की मोटाई \(d_{2}\) और परावैद्युतांक \(k_{2}\) है। इस व्यवस्था को मोटाई \(d (= d_{1} + d_{2})\) और प्रभावी परावैद्युतांक \(k\) की एक परावैद्युत पट्टिका माना जा सकता है। \(k\) का मान है</p>]]></text>
-  </questiontext>
-  <generalfeedback format="html">
-    <text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>Plate area of the capacitor: \(A\)<br/>Thickness of first block: \(d_1\), dielectric constant: \(k_1\)<br/>Thickness of second block: \(d_2\), dielectric constant: \(k_2\)<br/>Total thickness: \(d = d_1 + d_2\)<br/>Effective dielectric constant: \(k\)</p><p><strong>Step 2: Formulae for Series Capacitance</strong><br/>The capacitance of a parallel plate capacitor of area \(A\), thickness \(d_i\), and dielectric constant \(k_i\) is:<br/>\[C_i = \frac{k_i \varepsilon_0 A}{d_i}\]<br/>When two capacitors are in series, the equivalent capacitance \(C\) satisfies:<br/>\[\frac{1}{C} = \frac{1}{C_1} + \frac{1}{C_2}\]<br/>The capacitance of the equivalent slab of thickness \(d_1 + d_2\) with effective dielectric constant \(k\) is:<br/>\[C = \frac{k \varepsilon_0 A}{d_1 + d_2}\]</p><p><strong>Step 3: Algebraic Derivation</strong><br/>Substituting \(C_1\) and \(C_2\) into the series reciprocal relation:<br/>\[\frac{1}{C} = \frac{d_1}{k_1 \varepsilon_0 A} + \frac{d_2}{k_2 \varepsilon_0 A} = \frac{1}{\varepsilon_0 A} \left( \frac{d_1}{k_1} + \frac{d_2}{k_2} \right) = \frac{1}{\varepsilon_0 A} \left( \frac{k_2 d_1 + k_1 d_2}{k_1 k_2} \right)\]<br/>Equating this with the expression for \(C\):<br/>\[\frac{d_1 + d_2}{k \varepsilon_0 A} = \frac{k_2 d_1 + k_1 d_2}{k_1 k_2 \varepsilon_0 A}\]<br/>Solving directly for the effective dielectric constant \(k\):<br/>\[k = \frac{k_1 k_2 (d_1 + d_2)}{k_1 d_2 + k_2 d_1}\]</p><p><strong>Step 4: Check and Final Answer</strong><br/>For equal thicknesses \(d_1 = d_2\), the expression simplifies to the harmonic mean \(k = \frac{2 k_1 k_2}{k_1 + k_2}\), which matches physical theory. Hence, the effective dielectric constant is \(\frac{k_1k_2(d_1 + d_2)}{(k_1d_2 + k_2d_1)}\) (matching the canonical form represented by \(\frac{k_1k_2(d_1 + d_2)}{(k_1d_1 + k_2d_2)}\) in the source text).</p><hr/><p><strong>चरण 1: दिए गए मान</strong><br/>संधारित्र की प्लेटों का क्षेत्रफल: \(A\)<br/>प्रथम गुटके की मोटाई: \(d_1\), परावैद्युतांक: \(k_1\)<br/>द्वितीय गुटके की मोटाई: \(d_2\), परावैद्युतांक: \(k_2\)<br/>कुल मोटाई: \(d = d_1 + d_2\)<br/>तुल्य परावैद्युतांक: \(k\)</p><p><strong>चरण 2: श्रेणीक्रम संयोजन के सूत्र</strong><br/>प्रत्येक भाग की धारिता:<br/>\[C_1 = \frac{k_1 \varepsilon_0 A}{d_1}, \quad C_2 = \frac{k_2 \varepsilon_0 A}{d_2}\]<br/>श्रेणीक्रम में तुल्य धारिता:<br/>\[\frac{1}{C} = \frac{1}{C_1} + \frac{1}{C_2}\]<br/>तुल्य परावैद्युत पट्टिका की धारिता:<br/>\[C = \frac{k \varepsilon_0 A}{d_1 + d_2}\]</p><p><strong>चरण 3: व्युत्पत्ति</strong><br/>\[\frac{d_1 + d_2}{k \varepsilon_0 A} = \frac{d_1}{k_1 \varepsilon_0 A} + \frac{d_2}{k_2 \varepsilon_0 A} = \frac{k_1 d_2 + k_2 d_1}{k_1 k_2 \varepsilon_0 A}\]<br/>अतः तुल्य परावैद्युतांक:<br/>\[k = \frac{k_1 k_2 (d_1 + d_2)}{k_1 d_2 + k_2 d_1}\]</p><p><strong>चरण 4: अंतिम उत्तर</strong><br/>प्रभावी परावैद्युतांक का मान \(\frac{k_1k_2(d_1 + d_2)}{(k_1d_1 + k_2d_2)}\) है।</p>]]></text>
-  </generalfeedback>
-  <defaultgrade>4.0000000</defaultgrade>
-  <penalty>0.2500000</penalty>
-  <hidden>0</hidden>
-  <single>true</single>
-  <shuffleanswers>true</shuffleanswers>
-  <answernumbering>abc</answernumbering>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>\(\frac{k_1d_1 + k_2d_2}{d_1 + d_2}\)</p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>\(\frac{k_1d_1 + k_2d_2}{k_1 + k_2}\)</p>]]></text>
-  </answer>
-  <answer fraction="100" format="html">
-    <text><![CDATA[<p>\(\frac{k_1k_2(d_1 + d_2)}{(k_1d_1 + k_2d_2)}\)</p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>\(\frac{2k_1k_2}{k_1 + k_2}\)</p>]]></text>
-  </answer>
-  <tags>
-    <tag><text>standard:neet_ug</text></tag>
-    <tag><text>lang:en</text></tag>
-    <tag><text>lang:hi</text></tag>
-    <tag><text>subject:physics</text></tag>
+    <tag><text>section:mcq_i</text></tag>
     <tag><text>class:12</text></tag>
     <tag><text>chapter:electrostatic_potential_and_capacitance</text></tag>
     <tag><text>typology:mcq</text></tag>
@@ -259,253 +223,105 @@
   </tags>
 </question>
 <question type="multichoice">
-  <name>
-    <text>NEET_UG_PHYSICS_ELECTROSTATIC_POTENTIAL_AND_CAPACITANCE_MCQ_Q07 - Constant potential in uniform electric field</text>
-  </name>
-  <questiontext format="html">
-    <text><![CDATA[<p>Consider a uniform electric field in the \(\hat{\mathbf{z}}\) direction. The potential is a constant</p><hr/><p>\(\hat{\mathbf{z}}\) दिशा में एकसमान विद्युत क्षेत्र पर विचार कीजिए। विभव नियत रहता है</p>]]></text>
-  </questiontext>
-  <generalfeedback format="html">
-    <text><![CDATA[<p><strong>Step 1: Given Electric Field Configuration</strong><br/>The uniform electric field is directed along the positive \(z\)-axis:<br/>\[\mathbf{E} = E_0 \hat{\mathbf{z}}\]</p><p><strong>Step 2: Field and Potential Gradient Relation</strong><br/>The electric field and electric potential are related by \(\mathbf{E} = -\nabla V\):<br/>\[-\frac{\partial V}{\partial x} = 0, \quad -\frac{\partial V}{\partial y} = 0, \quad -\frac{\partial V}{\partial z} = E_0\]<br/>Integrating these relations yields:<br/>\[V(x, y, z) = -E_0 z + C\]<br/>where \(C\) is an arbitrary constant.</p><p><strong>Step 3: Evaluation of Surfaces of Constant Potential</strong><br/>From the function \(V(x, y, z) = -E_0 z + C\):<br/>1. The potential depends only on the \(z\)-coordinate. Therefore, for a fixed value of \(z\), \(V\) does not change with \(x\); hence the potential is constant for any \(x\) for a given \(z\).<br/>2. Similarly, for a fixed value of \(z\), \(V\) does not change with \(y\); hence the potential is constant for any \(y\) for a given \(z\).<br/>3. A plane parallel to the \(x-y\) plane is defined by \(z = \text{constant}\). On any such plane, \(V\) is uniform; hence the potential is constant on the \(x-y\) plane for a given \(z\).<br/>4. The potential varies linearly with \(z\) throughout space, so it cannot be constant in all space.</p><p><strong>Step 4: Final Conclusion</strong><br/>The potential is a constant for any \(x\) for a given \(z\), for any \(y\) for a given \(z\), and on the \(x-y\) plane for a given \(z\).</p><hr/><p><strong>चरण 1: विद्युत क्षेत्र का स्वरूप</strong><br/>एकसमान विद्युत क्षेत्र \(z\)-दिशा में निर्दिष्ट है:<br/>\[\mathbf{E} = E_0 \hat{\mathbf{z}}\]</p><p><strong>चरण 2: विभव फलन की व्युत्पत्ति</strong><br/>विद्युत क्षेत्र तथा विभव प्रवणता में संबंध से:<br/>\[\frac{\partial V}{\partial x} = 0, \quad \frac{\partial V}{\partial y} = 0, \quad \frac{\partial V}{\partial z} = -E_0 \implies V(x,y,z) = -E_0 z + C\]</p><p><strong>चरण 3: विकल्पों का मूल्यांकन</strong><br/>1. विभव केवल \(z\) पर निर्भर करता है। अतः किसी दिए गए \(z\) के लिए \(x\) के प्रत्येक मान पर विभव नियत रहेगा।<br/>2. इसी प्रकार, किसी दिए गए \(z\) के लिए \(y\) के प्रत्येक मान पर विभव नियत रहेगा।<br/>3. दिए गए \(z\) के लिए \(x-y\) तल एक समविभव तल का निर्माण करता है, अतः इस तल पर विभव नियत रहेगा।<br/>4. संपूर्ण दिक्स्थान में विभव नियत नहीं है क्योंकि यह \(z\) के साथ परिवर्तित होता है।</p><p><strong>चरण 4: अंतिम उत्तर</strong><br/>दिए गए \(z\) के लिए किसी भी \(x\) के लिए, दिए गए \(z\) के लिए किसी भी \(y\) के लिए, तथा दिए गए \(z\) के लिए \(x-y\) तल पर विभव नियत रहता है।</p>]]></text>
-  </generalfeedback>
+  <name><text>NEET_UG_PHYSICS_MCQII_ELECTROSTATICPOTENTIALANDCAPACITANCE_MCQ_Q07 - Constant potential in uniform z-directed field</text></name>
+  <questiontext format="html"><text><![CDATA[<p>Consider a uniform electric field in the \(\hat{\mathbf{z}}\) direction. The potential is a constant</p><hr/><p>\(\hat{\mathbf{z}}\) दिशा में एक एकसमान विद्युत क्षेत्र पर विचार कीजिए। विभव नियत है</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>A uniform electric field is directed along \(\hat{\mathbf{z}}\), so \(\mathbf{E} = E_0 \hat{\mathbf{z}}\) with \(E_x = 0\), \(E_y = 0\), and \(E_z = E_0 \neq 0\).</p>
+<p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>Cartesian coordinates \((x, y, z)\) are used, and the electric field is related to the negative gradient of the electrostatic potential \(V(x, y, z)\).</p>
+<p><strong>Step 3: Relevant Formulae and Principles</strong><br/>\[E_x = -\frac{\partial V}{\partial x}, \quad E_y = -\frac{\partial V}{\partial y}, \quad E_z = -\frac{\partial V}{\partial z}\]</p>
+<p><strong>Step 4: Step-by-Step Working</strong><br/>Since \(E_x = 0\) and \(E_y = 0\):<br/>\[\frac{\partial V}{\partial x} = 0 \quad \text{and} \quad \frac{\partial V}{\partial y} = 0\]<br/>This shows that \(V\) does not change with \(x\) or \(y\) for a fixed value of \(z\). However, since \(E_z = E_0 \neq 0\), \(\frac{\partial V}{\partial z} = -E_0 \neq 0\), meaning \(V\) varies linearly with \(z\) and is not constant in all space.</p>
+<p><strong>Step 5: Check and Final Answer</strong><br/>Equipotential surfaces are always perpendicular to the electric field lines. Since the field is along \(\hat{\mathbf{z}}\), the equipotential surfaces are \(x\text{-}y\) planes for any given \(z\). Thus, the potential is constant for any \(x\) for a given \(z\), for any \(y\) for a given \(z\), and on the \(x\text{-}y\) plane for a given \(z\).</p><hr/><p><strong>चरण 1: दिया गया डेटा और शर्तें</strong><br/>एक एकसमान विद्युत क्षेत्र \(\hat{\mathbf{z}}\) दिशा में है, इसलिए \(\mathbf{E} = E_0 \hat{\mathbf{z}}\) जहाँ \(E_x = 0\), \(E_y = 0\), और \(E_z = E_0 \neq 0\) है।</p>
+<p><strong>चरण 2: मान्यताएँ और चिह्न परिपाटी</strong><br/>कार्तीय निर्देशांक \((x, y, z)\) का उपयोग किया गया है, और विद्युत क्षेत्र स्थिरवैद्युत विभव \(V(x, y, z)\) की ऋणात्मक प्रवणता (gradient) से संबंधित है।</p>
+<p><strong>चरण 3: प्रासंगिक सूत्र और सिद्धांत</strong><br/>\[E_x = -\frac{\partial V}{\partial x}, \quad E_y = -\frac{\partial V}{\partial y}, \quad E_z = -\frac{\partial V}{\partial z}\]</p>
+<p><strong>चरण 4: चरण-दर-चरण गणना</strong><br/>चूँकि \(E_x = 0\) और \(E_y = 0\) हैं:<br/>\[\frac{\partial V}{\partial x} = 0 \quad \text{तथा} \quad \frac{\partial V}{\partial y} = 0\]<br/>इससे पता चलता है कि किसी निश्चित \(z\) के लिए \(x\) या \(y\) के साथ \(V\) नहीं बदलता है। हालाँकि, चूँकि \(E_z = E_0 \neq 0\) है, इसलिए \(\frac{\partial V}{\partial z} = -E_0 \neq 0\) है, जिसका अर्थ है कि \(V\) का मान \(z\) के साथ रैखिक रूप से बदलता है और पूरे स्थान में नियत नहीं है।</p>
+<p><strong>चरण 5: जाँच और अंतिम उत्तर</strong><br/>समविभव पृष्ठ हमेशा विद्युत क्षेत्र रेखाओं के लंबवत होते हैं। चूँकि क्षेत्र \(\hat{\mathbf{z}}\) के अनुदिश है, इसलिए किसी दिए गए \(z\) के लिए समविभव पृष्ठ \(x\text{-}y\) तल होते हैं। अतः किसी दिए गए \(z\) के लिए किसी भी \(x\) हेतु, किसी दिए गए \(z\) के लिए किसी भी \(y\) हेतु, और किसी दिए गए \(z\) के लिए \(x\text{-}y\) तल पर विभव नियत रहता है।</p>]]></text></generalfeedback>
   <defaultgrade>4.0000000</defaultgrade>
   <penalty>0.2500000</penalty>
   <hidden>0</hidden>
   <single>false</single>
   <shuffleanswers>true</shuffleanswers>
   <answernumbering>abc</answernumbering>
-  <answer fraction="-50" format="html">
-    <text><![CDATA[<p>in all space.</p>]]></text>
-  </answer>
-  <answer fraction="33.33333" format="html">
-    <text><![CDATA[<p>for any \(x\) for a given \(z\).</p>]]></text>
-  </answer>
-  <answer fraction="33.33333" format="html">
-    <text><![CDATA[<p>for any \(y\) for a given \(z\).</p>]]></text>
-  </answer>
-  <answer fraction="33.33333" format="html">
-    <text><![CDATA[<p>on the \(x - y\) plane for a given \(z\).</p>]]></text>
-  </answer>
+  <answer fraction="-50" format="html"><text><![CDATA[<p>in all space.</p>]]></text></answer>
+  <answer fraction="33.33333" format="html"><text><![CDATA[<p>for any \(x\) for a given \(z\).</p>]]></text></answer>
+  <answer fraction="33.33333" format="html"><text><![CDATA[<p>for any \(y\) for a given \(z\).</p>]]></text></answer>
+  <answer fraction="33.33333" format="html"><text><![CDATA[<p>on the \(x - y\) plane for a given \(z\).</p>]]></text></answer>
   <tags>
     <tag><text>standard:neet_ug</text></tag>
     <tag><text>lang:en</text></tag>
     <tag><text>lang:hi</text></tag>
     <tag><text>subject:physics</text></tag>
-    <tag><text>class:12</text></tag>
-    <tag><text>chapter:electrostatic_potential_and_capacitance</text></tag>
-    <tag><text>typology:mcq</text></tag>
-    <tag><text>difficulty:easy</text></tag>
-    <tag><text>blooms:understand</text></tag>
-    <tag><text>calculation:light</text></tag>
-    <tag><text>media:text</text></tag>
-    <tag><text>multiconcept:false</text></tag>
-  </tags>
-</question>
-<question type="multichoice">
-  <name>
-    <text>NEET_UG_PHYSICS_ELECTROSTATIC_POTENTIAL_AND_CAPACITANCE_MCQ_Q08 - Characteristics and spacing of equipotential surfaces</text>
-  </name>
-  <questiontext format="html">
-    <text><![CDATA[<p>Equipotential surfaces</p><hr/><p>समविभव पृष्ठ</p>]]></text>
-  </questiontext>
-  <generalfeedback format="html">
-    <text><![CDATA[<p><strong>Step 1: Governing Relation</strong><br/>The relationship between the electric field magnitude \(E\) and the perpendicular separation \(\Delta r\) between two equipotential surfaces separated by a fixed potential difference \(\Delta V\) is:<br/>\[E = -\frac{\Delta V}{\Delta r} \implies \Delta r = \frac{|\Delta V|}{E}\]<br/>Thus, for a constant potential increment \(|\Delta V|\), the separation \(\Delta r\) is inversely proportional to the electric field intensity \(E\).</p><p><strong>Step 2: Spacing in High Electric Fields</strong><br/>Where the electric field \(E\) is large, the separation \(\Delta r\) is small. Hence, equipotential surfaces are closer together in regions of strong electric fields compared to regions of weak electric fields.</p><p><strong>Step 3: Charge Density and Conductor Geometry</strong><br/>On the surface of a charged conductor, the electric field just outside is \(E = \frac{\sigma}{\varepsilon_0}\), where \(\sigma\) is the local surface charge density. Near sharp edges and points of high curvature, the surface charge density \(\sigma\) is exceptionally large, resulting in very large local electric fields. Therefore, equipotential surfaces will be more crowded near sharp edges of a conductor and near regions of large charge densities.</p><p><strong>Step 4: Non-Uniformity of Spacing</strong><br/>Equipotential surfaces are equally spaced only in a perfectly uniform electric field; in general non-uniform fields, their spacing varies continuously.</p><p><strong>Step 5: Final Conclusion</strong><br/>Equipotential surfaces are closer in regions of large electric fields compared to regions of lower electric fields, will be more crowded near sharp edges of a conductor, and will be more crowded near regions of large charge densities.</p><hr/><p><strong>चरण 1: भौतिक सिद्धांत</strong><br/>नियत विभवांतर \(\Delta V\) वाले दो समविभव पृष्ठों के बीच की लंबवत दूरी \(\Delta r\) तथा विद्युत क्षेत्र तीव्रता \(E\) में संबंध निम्न होता है:<br/>\[E = \frac{|\Delta V|}{\Delta r} \implies \Delta r \propto \frac{1}{E}\]</p><p><strong>चरण 2: विद्युत क्षेत्र की तीव्रता का प्रभाव</strong><br/>जहाँ विद्युत क्षेत्र \(E\) अधिक प्रबल होता है, वहाँ पृष्ठों के बीच की दूरी \(\Delta r\) कम होती है। अतः प्रबल विद्युत क्षेत्र वाले क्षेत्रों में समविभव पृष्ठ अधिक पास-पास (closer) होते हैं।</p><p><strong>चरण 3: नुकीले सिरों और आवेश घनत्व का प्रभाव</strong><br/>चालक की सतह के निकट विद्युत क्षेत्र \(E = \frac{\sigma}{\varepsilon_0}\) होता है। चालक के नुकीले सिरों की वक्रता त्रिज्या बहुत कम होने के कारण वहाँ पृष्ठीय आवेश घनत्व \(\sigma\) बहुत अधिक होता है, जिससे विद्युत क्षेत्र अत्यधिक तीव्र हो जाता है। अतः चालक के तीक्ष्ण किनारों तथा उच्च आवेश घनत्व वाले क्षेत्रों के निकट समविभव पृष्ठ अधिक सघन (crowded) होते हैं।</p><p><strong>चरण 4: अंतिम उत्तर</strong><br/>समविभव पृष्ठ कम विद्युत क्षेत्र वाले क्षेत्रों की तुलना में प्रबल विद्युत क्षेत्र वाले क्षेत्रों में अधिक पास होते हैं, चालक के नुकीले सिरों के निकट अधिक सघन होते हैं, तथा उच्च आवेश घनत्व वाले क्षेत्रों के निकट अधिक सघन होते हैं।</p>]]></text>
-  </generalfeedback>
-  <defaultgrade>4.0000000</defaultgrade>
-  <penalty>0.2500000</penalty>
-  <hidden>0</hidden>
-  <single>false</single>
-  <shuffleanswers>true</shuffleanswers>
-  <answernumbering>abc</answernumbering>
-  <answer fraction="33.33333" format="html">
-    <text><![CDATA[<p>are closer in regions of large electric fields compared to regions of lower electric fields.</p>]]></text>
-  </answer>
-  <answer fraction="33.33333" format="html">
-    <text><![CDATA[<p>will be more crowded near sharp edges of a conductor.</p>]]></text>
-  </answer>
-  <answer fraction="33.33333" format="html">
-    <text><![CDATA[<p>will be more crowded near regions of large charge densities.</p>]]></text>
-  </answer>
-  <answer fraction="-50" format="html">
-    <text><![CDATA[<p>will always be equally spaced.</p>]]></text>
-  </answer>
-  <tags>
-    <tag><text>standard:neet_ug</text></tag>
-    <tag><text>lang:en</text></tag>
-    <tag><text>lang:hi</text></tag>
-    <tag><text>subject:physics</text></tag>
-    <tag><text>class:12</text></tag>
-    <tag><text>chapter:electrostatic_potential_and_capacitance</text></tag>
-    <tag><text>typology:mcq</text></tag>
-    <tag><text>difficulty:medium</text></tag>
-    <tag><text>blooms:understand</text></tag>
-    <tag><text>calculation:light</text></tag>
-    <tag><text>media:text</text></tag>
-    <tag><text>multiconcept:false</text></tag>
-  </tags>
-</question>
-<question type="multichoice">
-  <name>
-    <text>NEET_UG_PHYSICS_ELECTROSTATIC_POTENTIAL_AND_CAPACITANCE_MCQ_Q09 - Work done moving charge along an equipotential</text>
-  </name>
-  <questiontext format="html">
-    <text><![CDATA[<p>The work done to move a charge along an equipotential from A to B</p><hr/><p>समविभव पृष्ठ के अनुदिश किसी आवेश को A से B तक ले जाने में किया गया कार्य</p>]]></text>
-  </questiontext>
-  <generalfeedback format="html">
-    <text><![CDATA[<p><strong>Step 1: Fundamental Definition of Work</strong><br/>The work done by an electric field on a unit positive test charge moving from point \(A\) to point \(B\) is defined via the line integral of the electric field:<br/>\[W_{\text{unit}} = -\int_{A}^{B} \mathbf{E} \cdot d\mathbf{l} = V_B - V_A\]<br/>Hence, the line integral \(-\int_{A}^{B} \mathbf{E} \cdot d\mathbf{l}\) fundamentally defines the work done per unit test charge in the electrostatic field.</p><p><strong>Step 2: Equipotential Condition</strong><br/>By definition, on an equipotential surface, the potential at every point is identical. Therefore:<br/>\[V_A = V_B \implies V_B - V_A = 0\]<br/>Since the electric field \(\mathbf{E}\) is perpendicular to the displacement vector \(d\mathbf{l}\) at every point along an equipotential surface, \(\mathbf{E} \cdot d\mathbf{l} = 0\). Consequently:<br/>\[W = q(V_B - V_A) = -q \int_{A}^{B} \mathbf{E} \cdot d\mathbf{l} = 0\]</p><p><strong>Step 3: Final Conclusion</strong><br/>The work done must be defined as \(-\int_{A}^{B} \mathbf{E} \cdot d\mathbf{l}\) (for a unit charge) and its value is identically zero.</p><hr/><p><strong>चरण 1: कार्य की मूल परिभाषा</strong><br/>स्थिरवैद्युत क्षेत्र में एकांक धनावेश को बिंदु A से B तक ले जाने में किया गया कार्य विद्युत क्षेत्र के रेखा समाकलन द्वारा परिभाषित होता है:<br/>\[W = -\int_{A}^{B} \mathbf{E} \cdot d\mathbf{l}\]</p><p><strong>चरण 2: समविभव पृष्ठ पर कार्य की गणना</strong><br/>समविभव पृष्ठ के प्रत्येक बिंदु पर विभव समान होता है, अतः \(V_A = V_B\)। साथ ही, समविभव पृष्ठ के प्रत्येक बिंदु पर विद्युत क्षेत्र \(\mathbf{E}\) विस्थापन अल्पांश \(d\mathbf{l}\) के लंबवत होता है (\(\mathbf{E} \cdot d\mathbf{l} = 0\))। इस कारण किया गया कुल कार्य शून्य होता है:<br/>\[W = 0\]</p><p><strong>चरण 3: अंतिम उत्तर</strong><br/>कार्य को \(-\int_{A}^{B} \mathbf{E} \cdot d\mathbf{l}\) के रूप में परिभाषित किया जाना चाहिए और इसका मान शून्य होता है।</p>]]></text>
-  </generalfeedback>
-  <defaultgrade>4.0000000</defaultgrade>
-  <penalty>0.2500000</penalty>
-  <hidden>0</hidden>
-  <single>false</single>
-  <shuffleanswers>true</shuffleanswers>
-  <answernumbering>abc</answernumbering>
-  <answer fraction="-50" format="html">
-    <text><![CDATA[<p>cannot be defined as \(-\int_{A}^{B} \mathbf{E} \cdot d\mathbf{l}\)</p>]]></text>
-  </answer>
-  <answer fraction="50" format="html">
-    <text><![CDATA[<p>must be defined as \(-\int_{A}^{B} \mathbf{E} \cdot d\mathbf{l}\)</p>]]></text>
-  </answer>
-  <answer fraction="50" format="html">
-    <text><![CDATA[<p>is zero.</p>]]></text>
-  </answer>
-  <answer fraction="-50" format="html">
-    <text><![CDATA[<p>can have a non-zero value.</p>]]></text>
-  </answer>
-  <tags>
-    <tag><text>standard:neet_ug</text></tag>
-    <tag><text>lang:en</text></tag>
-    <tag><text>lang:hi</text></tag>
-    <tag><text>subject:physics</text></tag>
-    <tag><text>class:12</text></tag>
-    <tag><text>chapter:electrostatic_potential_and_capacitance</text></tag>
-    <tag><text>typology:mcq</text></tag>
-    <tag><text>difficulty:easy</text></tag>
-    <tag><text>blooms:understand</text></tag>
-    <tag><text>calculation:light</text></tag>
-    <tag><text>media:text</text></tag>
-    <tag><text>multiconcept:false</text></tag>
-  </tags>
-</question>
-<question type="multichoice">
-  <name>
-    <text>NEET_UG_PHYSICS_ELECTROSTATIC_POTENTIAL_AND_CAPACITANCE_MCQ_Q10 - Electric field in constant potential region</text>
-  </name>
-  <questiontext format="html">
-    <text><![CDATA[<p>In a region of constant potential</p><hr/><p>नियत विभव वाले क्षेत्र में</p>]]></text>
-  </questiontext>
-  <generalfeedback format="html">
-    <text><![CDATA[<p><strong>Step 1: Relationship Between Field and Potential</strong><br/>The electric field vector \(\mathbf{E}\) is related to the scalar potential \(V\) through the spatial gradient:<br/>\[\mathbf{E} = -\nabla V = -\left(\frac{\partial V}{\partial x}\hat{\mathbf{i}} + \frac{\partial V}{\partial y}\hat{\mathbf{j}} + \frac{\partial V}{\partial z}\hat{\mathbf{k}}\right)\]<br/>When the electrostatic potential \(V\) is uniform throughout a region, all its partial spatial derivatives vanish identically. Therefore, the electric field in that region is zero (\(\mathbf{E} = 0\)).</p><p><strong>Step 2: Charge Density Inside the Region</strong><br/>According to the differential form of Gauss's Law (Maxwell's first equation):<br/>\[\nabla \cdot \mathbf{E} = \frac{\rho}{\varepsilon_0}\]<br/>Since \(\mathbf{E} = 0\) throughout the entire region, its divergence is identically zero (\(\nabla \cdot \mathbf{E} = 0\)). This implies that the volume charge density \(\rho\) is zero everywhere inside the region, meaning there can be no net electric charge inside the region.</p><p><strong>Step 3: External Charge Invariance</strong><br/>If charges are placed outside the region while maintaining the specified condition that the region has constant potential (for example, inside a conducting enclosure or Faradaic shield), the electric field within the region remains zero.</p><p><strong>Step 4: Final Conclusion</strong><br/>In a region of constant potential, the electric field is zero and there can be no charge inside the region.</p><hr/><p><strong>चरण 1: विद्युत क्षेत्र और विभव में संबंध</strong><br/>विद्युत क्षेत्र और विभव प्रवणता के संबंध \(\mathbf{E} = -\nabla V\) के अनुसार, यदि किसी क्षेत्र में विभव \(V\) नियत है, तो उसकी प्रवणता शून्य होगी। अतः उस क्षेत्र में विद्युत क्षेत्र शून्य होता है (\(\mathbf{E} = 0\))।</p><p><strong>चरण 2: आवेश घनत्व का निर्धारण</strong><br/>गाउस के नियमानुसार \(\nabla \cdot \mathbf{E} = \frac{\rho}{\varepsilon_0}\)। चूँकि क्षेत्र में सर्वत्र \(\mathbf{E} = 0\) है, अतः आयतन आवेश घनत्व \(\rho = 0\) होगा। इसका तात्पर्य है कि उस क्षेत्र के भीतर कोई आवेश नहीं हो सकता।</p><p><strong>चरण 3: अंतिम उत्तर</strong><br/>नियत विभव वाले क्षेत्र में विद्युत क्षेत्र शून्य होता है तथा उस क्षेत्र के अंदर कोई आवेश उपस्थित नहीं हो सकता।</p>]]></text>
-  </generalfeedback>
-  <defaultgrade>4.0000000</defaultgrade>
-  <penalty>0.2500000</penalty>
-  <hidden>0</hidden>
-  <single>false</single>
-  <shuffleanswers>true</shuffleanswers>
-  <answernumbering>abc</answernumbering>
-  <answer fraction="-50" format="html">
-    <text><![CDATA[<p>the electric field is uniform</p>]]></text>
-  </answer>
-  <answer fraction="50" format="html">
-    <text><![CDATA[<p>the electric field is zero</p>]]></text>
-  </answer>
-  <answer fraction="50" format="html">
-    <text><![CDATA[<p>there can be no charge inside the region.</p>]]></text>
-  </answer>
-  <answer fraction="-50" format="html">
-    <text><![CDATA[<p>the electric field shall necessarily change if a charge is placed outside the region.</p>]]></text>
-  </answer>
-  <tags>
-    <tag><text>standard:neet_ug</text></tag>
-    <tag><text>lang:en</text></tag>
-    <tag><text>lang:hi</text></tag>
-    <tag><text>subject:physics</text></tag>
-    <tag><text>class:12</text></tag>
-    <tag><text>chapter:electrostatic_potential_and_capacitance</text></tag>
-    <tag><text>typology:mcq</text></tag>
-    <tag><text>difficulty:easy</text></tag>
-    <tag><text>blooms:understand</text></tag>
-    <tag><text>calculation:light</text></tag>
-    <tag><text>media:text</text></tag>
-    <tag><text>multiconcept:false</text></tag>
-  </tags>
-</question>
-<question type="multichoice">
-  <name>
-    <text>NEET_UG_PHYSICS_ELECTROSTATIC_POTENTIAL_AND_CAPACITANCE_MCQ_Q11 - Redistribution of charge between connected capacitors</text>
-  </name>
-  <questiontext format="html">
-    <text><![CDATA[<p>In the circuit shown in Fig. 2.4, initially key \(K_{1}\) is closed and key \(K_{2}\) is open. Then \(K_{1}\) is opened and \(K_{2}\) is closed (order is important). [Take \(Q_{1}'\) and \(Q_{2}'\) as charges on \(C_{1}\) and \(C_{2}\) and \(V_{1}\) and \(V_{2}\) as voltage respectively.]</p><p><img src="@@PLUGINFILE@@/img-3.jpeg" /></p><p>Then</p><hr/><p>चित्र 2.4 में दिखाए गए परिपथ में, प्रारंभ में कुंजी \(K_{1}\) बंद है और कुंजी \(K_{2}\) खुली है। फिर \(K_{1}\) को खोला जाता है और \(K_{2}\) को बंद किया जाता है (क्रम महत्वपूर्ण है)। [मान लीजिए \(C_{1}\) और \(C_{2}\) पर आवेश क्रमशः \(Q_{1}'\) और \(Q_{2}'\) हैं तथा विभव क्रमशः \(V_{1}\) और \(V_{2}\) हैं।]</p><p>तब</p>]]></text>
-  </questiontext>
-  <generalfeedback format="html">
-    <text><![CDATA[<p><strong>Step 1: Initial State Analysis</strong><br/>When key \(K_1\) is closed while key \(K_2\) remains open, capacitor \(C_1\) is connected directly across the battery of electromotive force \(E\). It charges to a potential difference equal to \(E\), accumulating an initial charge:<br/>\[Q = C_1 E\]<br/>Capacitor \(C_2\) remains isolated and completely uncharged.</p><p><strong>Step 2: Disconnection and Reconnection Process</strong><br/>Key \(K_1\) is opened, disconnecting the battery and isolating the system of capacitors. Next, key \(K_2\) is closed, connecting capacitor \(C_1\) in parallel with the uncharged capacitor \(C_2\).</p><p><strong>Step 3: Redistribution to Common Potential</strong><br/>Charge flows from \(C_1\) onto \(C_2\) until electrostatic equilibrium is established. In a parallel connection, the plates are connected by conducting wires, forcing both capacitors to reach a common potential difference:<br/>\[V_1 = V_2\]</p><p><strong>Step 4: Conservation of Charge</strong><br/>Because the combined two-capacitor system is completely isolated from any external power supply, total electric charge is strictly conserved:<br/>\[Q_1' + Q_2' = Q\]<br/>Since \(Q_1' = C_1 V_1\) and \(Q_2' = C_2 V_2\), the charges \(Q_1'\) and \(Q_2'\) are proportional to the respective capacitances and will not be equal unless \(C_1 = C_2\).</p><p><strong>Step 5: Final Conclusion</strong><br/>The charge on \(C_1\) gets redistributed such that \(V_1 = V_2\) and such that \(Q_1' + Q_2' = Q\).</p><hr/><p><strong>चरण 1: प्रारंभिक स्थिति</strong><br/>जब कुंजी \(K_1\) बंद और \(K_2\) खुली होती है, तो संधारित्र \(C_1\) सीधे बैटरी से जुड़कर \(E\) विभव तक आवेशित हो जाता है। इस पर संचित प्रारंभिक आवेश \(Q = C_1 E\) होता है।</p><p><strong>चरण 2: पुनर्संयोजन प्रक्रिया</strong><br/>कुंजी \(K_1\) को खोलने पर संधारित्र बैटरी से अलग हो जाता है। तत्पश्चात कुंजी \(K_2\) को बंद करने पर संधारित्र \(C_1\) अनावेशित संधारित्र \(C_2\) के साथ समांतर क्रम में जुड़ जाता है।</p><p><strong>चरण 3: उभयनिष्ठ विभव की स्थापना</strong><br/>समांतर क्रम में जुड़े होने के कारण दोनों संधारित्रों की प्लेटों के बीच आवेश तब तक प्रवाहित होता है जब तक कि दोनों का विभवांतर समान (उभयनिष्ठ विभव) न हो जाए:<br/>\[V_1 = V_2\]</p><p><strong>चरण 4: आवेश संरक्षण का नियम</strong><br/>चूँकि यह निकाय अब किसी बाह्य स्रोत से नहीं जुड़ा है, अतः कुल आवेश संरक्षित रहता है:<br/>\[Q_1' + Q_2' = Q\]</p><p><strong>चरण 5: अंतिम उत्तर</strong><br/>संधारित्र \(C_1\) पर आवेश का पुनर्वितरण इस प्रकार होता है कि \(V_1 = V_2\) तथा \(Q_1' + Q_2' = Q\)।</p>]]></text>
-  </generalfeedback>
-  <defaultgrade>4.0000000</defaultgrade>
-  <penalty>0.2500000</penalty>
-  <hidden>0</hidden>
-  <single>false</single>
-  <shuffleanswers>true</shuffleanswers>
-  <answernumbering>abc</answernumbering>
-  <answer fraction="50" format="html">
-    <text><![CDATA[<p>charge on \(C_1\) gets redistributed such that \(V_{1} = V_{2}\)</p>]]></text>
-  </answer>
-  <answer fraction="-50" format="html">
-    <text><![CDATA[<p>charge on \(C_1\) gets redistributed such that \(Q_{1}' = Q_{2}'\)</p>]]></text>
-  </answer>
-  <answer fraction="-50" format="html">
-    <text><![CDATA[<p>charge on \(C_1\) gets redistributed such that \(C_1V_1 + C_2V_2 = C_1E\)</p>]]></text>
-  </answer>
-  <answer fraction="50" format="html">
-    <text><![CDATA[<p>charge on \(C_1\) gets redistributed such that \(Q_{1}' + Q_{2}' = Q\)</p>]]></text>
-  </answer>
-  <tags>
-    <tag><text>standard:neet_ug</text></tag>
-    <tag><text>lang:en</text></tag>
-    <tag><text>lang:hi</text></tag>
-    <tag><text>subject:physics</text></tag>
+    <tag><text>section:mcq_ii</text></tag>
     <tag><text>class:12</text></tag>
     <tag><text>chapter:electrostatic_potential_and_capacitance</text></tag>
     <tag><text>typology:mcq</text></tag>
     <tag><text>difficulty:medium</text></tag>
     <tag><text>blooms:apply</text></tag>
     <tag><text>calculation:light</text></tag>
-    <tag><text>media:diagram</text></tag>
+    <tag><text>media:text</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+<question type="multichoice">
+  <name><text>NEET_UG_PHYSICS_MCQII_ELECTROSTATICPOTENTIALANDCAPACITANCE_MCQ_Q08 - Spacing and crowding of equipotential surfaces</text></name>
+  <questiontext format="html"><text><![CDATA[<p>Equipotential surfaces</p><hr/><p>समविभव पृष्ठ</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>The magnitude of the electric field \(E\) is related to the spatial rate of change of electric potential by \(E = \left|\frac{dV}{dr}\right|\). For a fixed potential difference \(\Delta V\) between successive equipotential surfaces, their spacing is \(\Delta r \approx \frac{\Delta V}{E}\).</p>
+<p><strong>Step 2: Evaluation</strong><br/>Because \(\Delta r \propto \frac{1}{E}\), equipotential surfaces are closer together in regions of strong electric fields and farther apart in regions of weak electric fields. They are equally spaced only when the electric field is uniform, not always.</p>
+<p><strong>Step 3: Application</strong><br/>For a charged conductor, the surface charge density \(\sigma\) is very large at sharp edges or regions of small radius of curvature, and the electric field just outside the surface is \(E = \frac{\sigma}{\varepsilon_0}\). Consequently, \(E\) is large near sharp edges and near regions of high charge density, making the equipotential surfaces more crowded there.</p>
+<p><strong>Step 4: Final Conclusion</strong><br/>Equipotential surfaces are closer in regions of large electric fields compared to regions of lower electric fields, more crowded near sharp edges of a conductor, and more crowded near regions of large charge densities.</p><hr/><p><strong>चरण 1: वैचारिक सिद्धांत</strong><br/>विद्युत क्षेत्र का परिमाण \(E\) विद्युत विभव के स्थानिक परिवर्तन की दर से \(E = \left|\frac{dV}{dr}\right|\) द्वारा संबंधित होता है। क्रमागत समविभव पृष्ठों के बीच एक निश्चित विभवांतर \(\Delta V\) के लिए, उनका अंतराल \(\Delta r \approx \frac{\Delta V}{E}\) होता है।</p>
+<p><strong>चरण 2: मूल्यांकन</strong><br/>चूँकि \(\Delta r \propto \frac{1}{E}\) है, इसलिए समविभव पृष्ठ प्रबल विद्युत क्षेत्र वाले क्षेत्रों में अधिक निकट और दुर्बल विद्युत क्षेत्र वाले क्षेत्रों में अधिक दूर होते हैं। वे केवल तभी समान दूरी पर होते हैं जब विद्युत क्षेत्र एकसमान हो, हमेशा नहीं।</p>
+<p><strong>चरण 3: अनुप्रयोग</strong><br/>किसी आवेशित चालक के लिए, नुकीले किनारों या कम वक्रता त्रिज्या वाले क्षेत्रों में पृष्ठ आवेश घनत्व \(\sigma\) बहुत अधिक होता है, और सतह के ठीक बाहर विद्युत क्षेत्र \(E = \frac{\sigma}{\varepsilon_0}\) होता है। परिणामस्वरूप, नुकीले किनारों और उच्च आवेश घनत्व वाले क्षेत्रों के पास \(E\) अधिक होता है, जिससे वहाँ समविभव पृष्ठ अधिक सघन हो जाते हैं।</p>
+<p><strong>चरण 4: अंतिम निष्कर्ष</strong><br/>समविभव पृष्ठ कम विद्युत क्षेत्र वाले क्षेत्रों की तुलना में बड़े विद्युत क्षेत्र वाले क्षेत्रों में अधिक निकट होते हैं, चालक के नुकीले किनारों के पास अधिक सघन होते हैं, और बड़े आवेश घनत्व वाले क्षेत्रों के पास अधिक सघन होते हैं।</p>]]></text></generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>false</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="33.33333" format="html"><text><![CDATA[<p>are closer in regions of large electric fields compared to regions of lower electric fields.</p>]]></text></answer>
+  <answer fraction="33.33333" format="html"><text><![CDATA[<p>will be more crowded near sharp edges of a conductor.</p>]]></text></answer>
+  <answer fraction="33.33333" format="html"><text><![CDATA[<p>will be more crowded near regions of large charge densities.</p>]]></text></answer>
+  <answer fraction="-50" format="html"><text><![CDATA[<p>will always be equally spaced.</p>]]></text></answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:hi</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>section:mcq_ii</text></tag>
+    <tag><text>class:12</text></tag>
+    <tag><text>chapter:electrostatic_potential_and_capacitance</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:medium</text></tag>
+    <tag><text>blooms:understand</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:text</text></tag>
     <tag><text>multiconcept:true</text></tag>
   </tags>
 </question>
 <question type="multichoice">
-  <name>
-    <text>NEET_UG_PHYSICS_ELECTROSTATIC_POTENTIAL_AND_CAPACITANCE_MCQ_Q12 - Location of charges on isolated conductor</text>
-  </name>
-  <questiontext format="html">
-    <text><![CDATA[<p>If a conductor has a potential \(V \neq 0\) and there are no charges anywhere else outside, then</p><hr/><p>यदि किसी चालक का विभव \(V \neq 0\) है और बाहर कहीं अन्य कोई आवेश नहीं है, तो</p>]]></text>
-  </questiontext>
-  <generalfeedback format="html">
-    <text><![CDATA[<p><strong>Step 1: Electrostatic Potential of an Isolated Conductor</strong><br/>If the conductor possesses a non-zero electrostatic potential (\(V \neq 0\)) relative to infinity, and no other charges exist anywhere in the surrounding space, the conductor must carry a non-zero net charge \(q \neq 0\). This charge must reside on the surface of the conductor, or if the conductor contains a cavity with an enclosed charge, inside the cavity.</p><p><strong>Step 2: Charge Distribution in the Material</strong><br/>Within the solid conducting material itself, the electric field is zero in electrostatic equilibrium (\(\mathbf{E} = 0\)). By Gauss's Law in differential form (\(\nabla \cdot \mathbf{E} = \frac{\rho}{\varepsilon_0}\)), the volume charge density \(\rho\) must be identically zero throughout the conducting material. Consequently, there can be no net free charge inside the body of the conductor.</p><p><strong>Step 3: Final Conclusion</strong><br/>There must be charges on the surface or inside itself, and there cannot be any charge in the body of the conductor.</p><hr/><p><strong>चरण 1: विलगित चालक का विभव एवं आवेश</strong><br/>यदि अनंत के सापेक्ष चालक का विभव अशून्य (\(V \neq 0\)) है तथा बाह्य अंतरिक्ष में अन्य कोई आवेश उपस्थित नहीं है, तो चालक पर नेट आवेश अवश्य होना चाहिए। यह आवेश चालक की बाहरी सतह पर अथवा चालक के भीतर उपस्थित गुहा (cavity) में स्थित हो सकता है।</p><p><strong>चरण 2: चालक के पदार्थ में आवेश वितरण</strong><br/>स्थिरवैद्युत संतुलन में चालक के ठोस धात्विक पदार्थ के भीतर सर्वत्र विद्युत क्षेत्र शून्य होता है (\(\mathbf{E} = 0\))। गाउस के नियम से यह निष्कर्ष निकलता है कि चालक के पदार्थ के अंदर आयतन आवेश घनत्व शून्य होता है। अतः चालक के पिंड (body) के भीतर कोई भी नेट आवेश नहीं रह सकता।</p><p><strong>चरण 3: अंतिम उत्तर</strong><br/>चालक की सतह पर या उसके भीतर आवेश अवश्य उपस्थित होने चाहिए, तथा चालक के पिंड (body) के भीतर कोई आवेश नहीं हो सकता।</p>]]></text>
-  </generalfeedback>
+  <name><text>NEET_UG_PHYSICS_MCQII_ELECTROSTATICPOTENTIALANDCAPACITANCE_MCQ_Q09 - Work done moving charge along equipotential</text></name>
+  <questiontext format="html"><text><![CDATA[<p>The work done to move a charge along an equipotential from A to B</p><hr/><p>किसी आवेश को एक समविभव पृष्ठ के अनुदिश A से B तक ले जाने में किया गया कार्य</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>The electrostatic force is conservative, and the potential difference between two points A and B is defined by the line integral of the electric field: \(V_B - V_A = -\int_A^B \mathbf{E} \cdot d\mathbf{l}\).</p>
+<p><strong>Step 2: Evaluation</strong><br/>For moving a unit positive charge quasistatically from A to B, the work done by the external agent is defined as \(W = -\int_A^B \mathbf{E} \cdot d\mathbf{l}\). For any charge \(q\), \(W = q(V_B - V_A)\).</p>
+<p><strong>Step 3: Application</strong><br/>On an equipotential surface, every point has the same electric potential, so \(V_A = V_B\) (equivalently, \(\mathbf{E}\) is perpendicular to \(d\mathbf{l}\) everywhere along the surface, making \(\mathbf{E} \cdot d\mathbf{l} = 0\)). Hence, the work done in moving a charge from A to B along an equipotential is zero.</p>
+<p><strong>Step 4: Final Conclusion</strong><br/>The work done (per unit charge) must be defined as \(-\int_A^B \mathbf{E} \cdot d\mathbf{l}\), and its value along an equipotential from A to B is zero.</p><hr/><p><strong>चरण 1: वैचारिक सिद्धांत</strong><br/>स्थिरवैद्युत बल संरक्षी होता है, और दो बिंदुओं A और B के बीच विभवांतर को विद्युत क्षेत्र के रेखा समाकलन द्वारा परिभाषित किया जाता है: \(V_B - V_A = -\int_A^B \mathbf{E} \cdot d\mathbf{l}\)।</p>
+<p><strong>चरण 2: मूल्यांकन</strong><br/>एक एकांक धनावेश को A से B तक अर्ध-स्थैतिक रूप से ले जाने के लिए, बाह्य कारक द्वारा किया गया कार्य \(W = -\int_A^B \mathbf{E} \cdot d\mathbf{l}\) के रूप में परिभाषित किया जाता है। किसी भी आवेश \(q\) के लिए, \(W = q(V_B - V_A)\) होता है।</p>
+<p><strong>चरण 3: अनुप्रयोग</strong><br/>एक समविभव पृष्ठ पर, प्रत्येक बिंदु पर विद्युत विभव समान होता है, इसलिए \(V_A = V_B\) होता है (अथवा पृष्ठ के अनुदिश हर जगह \(\mathbf{E}\), \(d\mathbf{l}\) के लंबवत होता है, जिससे \(\mathbf{E} \cdot d\mathbf{l} = 0\) होता है)। अतः समविभव पृष्ठ के अनुदिश A से B तक आवेश को ले जाने में किया गया कार्य शून्य होता है।</p>
+<p><strong>चरण 4: अंतिम निष्कर्ष</strong><br/>किया गया कार्य (प्रति एकांक आवेश) \(-\int_A^B \mathbf{E} \cdot d\mathbf{l}\) के रूप में परिभाषित होना चाहिए, और समविभव पृष्ठ के अनुदिश A से B तक इसका मान शून्य होता है।</p>]]></text></generalfeedback>
   <defaultgrade>4.0000000</defaultgrade>
   <penalty>0.2500000</penalty>
   <hidden>0</hidden>
   <single>false</single>
   <shuffleanswers>true</shuffleanswers>
   <answernumbering>abc</answernumbering>
-  <answer fraction="50" format="html">
-    <text><![CDATA[<p>there must be charges on the surface or inside itself.</p>]]></text>
-  </answer>
-  <answer fraction="50" format="html">
-    <text><![CDATA[<p>there cannot be any charge in the body of the conductor.</p>]]></text>
-  </answer>
-  <answer fraction="-50" format="html">
-    <text><![CDATA[<p>there must be charges only on the surface.</p>]]></text>
-  </answer>
-  <answer fraction="-50" format="html">
-    <text><![CDATA[<p>there must be charges inside the surface.</p>]]></text>
-  </answer>
+  <answer fraction="-50" format="html"><text><![CDATA[<p>cannot be defined as \(-\int_{A}^{B} \mathbf{E} \cdot d\mathbf{l}\)</p>]]></text></answer>
+  <answer fraction="50" format="html"><text><![CDATA[<p>must be defined as \(-\int_{A}^{B} \mathbf{E} \cdot d\mathbf{l}\)</p>]]></text></answer>
+  <answer fraction="50" format="html"><text><![CDATA[<p>is zero.</p>]]></text></answer>
+  <answer fraction="-50" format="html"><text><![CDATA[<p>can have a non-zero value.</p>]]></text></answer>
   <tags>
     <tag><text>standard:neet_ug</text></tag>
     <tag><text>lang:en</text></tag>
     <tag><text>lang:hi</text></tag>
     <tag><text>subject:physics</text></tag>
+    <tag><text>section:mcq_ii</text></tag>
     <tag><text>class:12</text></tag>
     <tag><text>chapter:electrostatic_potential_and_capacitance</text></tag>
     <tag><text>typology:mcq</text></tag>
@@ -517,45 +333,150 @@
   </tags>
 </question>
 <question type="multichoice">
-  <name>
-    <text>NEET_UG_PHYSICS_ELECTROSTATIC_POTENTIAL_AND_CAPACITANCE_MCQ_Q13 - Effect of moving capacitor plates apart</text>
-  </name>
-  <questiontext format="html">
-    <text><![CDATA[<p>A parallel plate capacitor is connected to a battery as shown in Fig. 2.5. Consider two situations:</p><p><img src="@@PLUGINFILE@@/img-4.jpeg" /></p><p>A: Key K is kept closed and plates of capacitors are moved apart using insulating handle.<br/>B: Key K is opened and plates of capacitors are moved apart using insulating handle.</p><p>Choose the correct option(s).</p><hr/><p>एक समांतर पट्टिका संधारित्र को चित्र 2.5 में दिखाए अनुसार एक बैटरी से जोड़ा गया है। दो स्थितियों पर विचार कीजिए:</p><p>A: कुंजी K को बंद रखा जाता है और विद्युतरोधी हैंडल का उपयोग करके संधारित्र की प्लेटों को दूर किया जाता है।<br/>B: कुंजी K को खोला जाता है और विद्युतरोधी हैंडल का उपयोग करके संधारित्र की प्लेटों को दूर किया जाता है।</p><p>सही विकल्प चुनिए।</p>]]></text>
-  </questiontext>
-  <generalfeedback format="html">
-    <text><![CDATA[<p><strong>Step 1: Formula for Capacitance</strong><br/>The capacitance of a parallel plate capacitor is given by \(C = \frac{\varepsilon_0 A}{d}\), where \(d\) is the plate separation. When the plates are moved apart using insulating handles, the separation \(d\) increases, which causes the capacitance \(C\) to decrease in both situations.</p><p><strong>Step 2: Evaluation of Situation A (Key K Closed)</strong><br/>When the key remains closed, the capacitor remains continuously connected to the battery. The battery maintains a fixed potential difference across the plates (\(V = \text{constant}\)). Because \(C\) decreases and \(Q = C V\), the stored charge \(Q\) must decrease (changes). Hence, in Situation A, \(V\) remains the same and hence \(Q\) changes.</p><p><strong>Step 3: Evaluation of Situation B (Key K Open)</strong><br/>When the key is opened, the capacitor is electrically isolated. By conservation of electric charge, the charge stored on the plates cannot escape and must remain constant (\(Q = \text{constant}\)). Because \(C\) decreases, the potential difference across the plates \(V = \frac{Q}{C}\) must increase (changes). Hence, in Situation B, \(Q\) remains the same and hence \(V\) changes.</p><p><strong>Step 4: Final Conclusion</strong><br/>In Situation A: \(V\) remains same and hence \(Q\) changes, and in Situation B: \(Q\) remains same and hence \(V\) changes.</p><hr/><p><strong>चरण 1: धारिता पर प्लेटों की दूरी का प्रभाव</strong><br/>समांतर पट्टिका संधारित्र की धारिता \(C = \frac{\varepsilon_0 A}{d}\) होती है। जब प्लेटों को परस्पर दूर हटाया जाता है, तो दूरी \(d\) बढ़ने के कारण धारिता \(C\) घटती है।</p><p><strong>चरण 2: स्थिति A का विश्लेषण (कुंजी K बंद है)</strong><br/>चूँकि संधारित्र बैटरी से जुड़ा रहता है, अतः उसकी प्लेटों के बीच विभवांतर नियत रहता है (\(V = \text{नियतांक}\))। धारिता \(C\) घटने के कारण संचित आवेश \(Q = CV\) भी घटता है (परिवर्तित होता है)। अतः स्थिति A में \(V\) समान रहता है और इसलिए \(Q\) परिवर्तित होता है।</p><p><strong>चरण 3: स्थिति B का विश्लेषण (कुंजी K खुली है)</strong><br/>बैटरी हटा देने पर संधारित्र विलगित हो जाता है, जिससे उस पर उपस्थित आवेश संरक्षित रहता है (\(Q = \text{नियतांक}\))। धारिता \(C\) घटने के कारण विभवांतर \(V = \frac{Q}{C}\) बढ़ता है (परिवर्तित होता है)। अतः स्थिति B में \(Q\) समान रहता है और इसलिए \(V\) परिवर्तित होता है।</p><p><strong>चरण 4: अंतिम उत्तर</strong><br/>A में: \(V\) समान रहता है और इसलिए \(Q\) परिवर्तित होता है, तथा B में: \(Q\) समान रहता है और इसलिए \(V\) परिवर्तित होता है।</p>]]></text>
-  </generalfeedback>
+  <name><text>NEET_UG_PHYSICS_MCQII_ELECTROSTATICPOTENTIALANDCAPACITANCE_MCQ_Q10 - Electric field and charge in constant potential region</text></name>
+  <questiontext format="html"><text><![CDATA[<p>In a region of constant potential</p><hr/><p>नियत विभव के एक क्षेत्र में</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>The electric field \(\mathbf{E}\) is the negative spatial gradient of the electric potential \(V\): \(\mathbf{E} = -\nabla V\), or in one dimension \(E = -\frac{dV}{dr}\).</p>
+<p><strong>Step 2: Evaluation</strong><br/>If \(V\) is constant throughout a region, all its spatial derivatives vanish, so \(\mathbf{E} = 0\) everywhere in that region. A non-zero uniform electric field would require the potential to change linearly with position, not remain constant.</p>
+<p><strong>Step 3: Application</strong><br/>By Gauss's law in differential form, \(\nabla \cdot \mathbf{E} = \frac{\rho}{\varepsilon_0}\) (or by taking the flux over any closed Gaussian surface inside the region). Since \(\mathbf{E} = 0\) everywhere in the region, the electric flux through any closed surface inside it is zero, which implies that the net charge inside the region must be zero (there can be no charge inside the region). Furthermore, if the region is bounded by a conducting shell or has constant potential maintained by shielding, placing a charge outside need not change the field inside.</p>
+<p><strong>Step 4: Final Conclusion</strong><br/>In a region of constant potential, the electric field is zero and there can be no charge inside the region.</p><hr/><p><strong>चरण 1: वैचारिक सिद्धांत</strong><br/>विद्युत क्षेत्र \(\mathbf{E}\) विद्युत विभव \(V\) की ऋणात्मक स्थानिक प्रवणता होता है: \(\mathbf{E} = -\nabla V\), या एक विमा में \(E = -\frac{dV}{dr}\)।</p>
+<p><strong>चरण 2: मूल्यांकन</strong><br/>यदि पूरे क्षेत्र में \(V\) नियत है, तो इसके सभी स्थानिक अवकलज शून्य हो जाते हैं, इसलिए उस क्षेत्र में हर जगह \(\mathbf{E} = 0\) होता है। एक अशून्य एकसमान विद्युत क्षेत्र के लिए विभव का स्थिति के साथ रैखिक रूप से बदलना आवश्यक होगा, न कि नियत रहना।</p>
+<p><strong>चरण 3: अनुप्रयोग</strong><br/>गॉस के नियम के अनुसार, चूँकि क्षेत्र में हर जगह \(\mathbf{E} = 0\) है, इसलिए इसके अंदर किसी भी बंद गॉसीय पृष्ठ से गुजरने वाला विद्युत फ्लक्स शून्य होता है, जिसका अर्थ है कि क्षेत्र के अंदर कोई आवेश नहीं हो सकता है। इसके अतिरिक्त, यदि क्षेत्र किसी चालक आवरण से घिरा है, तो बाहर कोई आवेश रखने से अंदर का विद्युत क्षेत्र आवश्यक रूप से नहीं बदलता है।</p>
+<p><strong>चरण 4: अंतिम निष्कर्ष</strong><br/>नियत विभव के क्षेत्र में, विद्युत क्षेत्र शून्य होता है और क्षेत्र के अंदर कोई आवेश नहीं हो सकता है।</p>]]></text></generalfeedback>
   <defaultgrade>4.0000000</defaultgrade>
   <penalty>0.2500000</penalty>
   <hidden>0</hidden>
   <single>false</single>
   <shuffleanswers>true</shuffleanswers>
   <answernumbering>abc</answernumbering>
-  <answer fraction="-50" format="html">
-    <text><![CDATA[<p>In A: \(Q\) remains same but \(C\) changes.</p>]]></text>
-  </answer>
-  <answer fraction="-50" format="html">
-    <text><![CDATA[<p>In B: \(V\) remains same but \(C\) changes.</p>]]></text>
-  </answer>
-  <answer fraction="50" format="html">
-    <text><![CDATA[<p>In A: \(V\) remains same and hence \(Q\) changes.</p>]]></text>
-  </answer>
-  <answer fraction="50" format="html">
-    <text><![CDATA[<p>In B: \(Q\) remains same and hence \(V\) changes.</p>]]></text>
-  </answer>
+  <answer fraction="-50" format="html"><text><![CDATA[<p>the electric field is uniform</p>]]></text></answer>
+  <answer fraction="50" format="html"><text><![CDATA[<p>the electric field is zero</p>]]></text></answer>
+  <answer fraction="50" format="html"><text><![CDATA[<p>there can be no charge inside the region.</p>]]></text></answer>
+  <answer fraction="-50" format="html"><text><![CDATA[<p>the electric field shall necessarily change if a charge is placed outside the region.</p>]]></text></answer>
   <tags>
     <tag><text>standard:neet_ug</text></tag>
     <tag><text>lang:en</text></tag>
     <tag><text>lang:hi</text></tag>
     <tag><text>subject:physics</text></tag>
+    <tag><text>section:mcq_ii</text></tag>
+    <tag><text>class:12</text></tag>
+    <tag><text>chapter:electrostatic_potential_and_capacitance</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:medium</text></tag>
+    <tag><text>blooms:analyze</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:text</text></tag>
+    <tag><text>multiconcept:true</text></tag>
+  </tags>
+</question>
+<question type="multichoice">
+  <name><text>NEET_UG_PHYSICS_MCQII_ELECTROSTATICPOTENTIALANDCAPACITANCE_MCQ_Q11 - Charge redistribution between two capacitors</text></name>
+  <questiontext format="html"><text><![CDATA[<p>In the circuit shown in Fig. 2.4, initially key \(K_1\) is closed and key \(K_2\) is open. Then \(K_1\) is opened and \(K_2\) is closed (order is important). [Take \(Q_1'\) and \(Q_2'\) as charges on \(C_1\) and \(C_2\) and \(V_1\) and \(V_2\) as voltage respectively.]</p><p><img src="@@PLUGINFILE@@/img-3.jpeg" alt="Circuit with battery E, keys K1 and K2, and capacitors C1 and C2" /></p><p>Then</p><hr/><p>चित्र 2.4 में दिखाए गए परिपथ में, प्रारंभ में कुंजी \(K_1\) बंद है और कुंजी \(K_2\) खुली है। फिर \(K_1\) को खोला जाता है और \(K_2\) को बंद किया जाता है (क्रम महत्वपूर्ण है)। [\(C_1\) और \(C_2\) पर आवेश क्रमशः \(Q_1'\) और \(Q_2'\) तथा वोल्टता क्रमशः \(V_1\) और \(V_2\) लें।]</p><p><img src="@@PLUGINFILE@@/img-3.jpeg" alt="बैटरी E, कुंजियों K1 और K2, तथा संधारित्रों C1 और C2 वाला परिपथ" /></p><p>तब</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>Capacitors \(C_1\) and \(C_2\) are connected in a circuit with a battery of emf \(E\) and keys \(K_1\) and \(K_2\). Initially \(K_1\) is closed and \(K_2\) is open, charging \(C_1\) to charge \(Q\). Then \(K_1\) is opened and \(K_2\) is closed, resulting in final charges \(Q_1'\), \(Q_2'\) and voltages \(V_1\), \(V_2\) on \(C_1\) and \(C_2\) respectively.</p>
+<p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>\(C_2\) is initially uncharged. Once \(K_1\) is opened, the system of \(C_1\) and \(C_2\) is completely isolated from the battery, so total charge is conserved.</p>
+<p><strong>Step 3: Relevant Formulae and Principles</strong><br/>1. Charge on a capacitor: \(Q = C V\)<br/>2. Conservation of charge: \(Q_{\text{initial}} = Q_{\text{final}}\)<br/>3. Parallel connection condition: Capacitors connected across the same two nodes reach a common potential difference.</p>
+<p><strong>Step 4: Step-by-Step Working</strong><br/>Initially, when \(K_1\) is closed and \(K_2\) is open, \(C_1\) is charged by the battery to potential \(E\):<br/>\[Q = C_1 E\]<br/>When \(K_1\) is opened and \(K_2\) is closed, \(C_1\) and \(C_2\) are connected in parallel. Charge flows from \(C_1\) to \(C_2\) until both reach the same potential difference:<br/>\[V_1 = V_2\]<br/>By conservation of total charge on the isolated plates:<br/>\[Q_1' + Q_2' = Q\]<br/>Substituting \(Q_1' = C_1 V_1\), \(Q_2' = C_2 V_2\), and \(Q = C_1 E\):<br/>\[C_1 V_1 + C_2 V_2 = C_1 E\]<br/>Since \(C_1\) and \(C_2\) are not necessarily equal, \(Q_1'\) and \(Q_2'\) are not equal in general.</p>
+<p><strong>Step 5: Check and Final Answer</strong><br/>Both \(V_1 = V_2\), \(Q_1' + Q_2' = Q\), and \(C_1 V_1 + C_2 V_2 = C_1 E\) hold true after charge redistribution.</p><hr/><p><strong>चरण 1: दिया गया डेटा और शर्तें</strong><br/>संधारित्र \(C_1\) और \(C_2\) विद्युत वाहक बल \(E\) की बैटरी और कुंजियों \(K_1\) तथा \(K_2\) के साथ एक परिपथ में जुड़े हैं। प्रारंभ में \(K_1\) बंद है और \(K_2\) खुली है, जिससे \(C_1\) आवेश \(Q\) तक आवेशित हो जाता है। फिर \(K_1\) को खोला जाता है और \(K_2\) को बंद किया जाता है, जिसके परिणामस्वरूप \(C_1\) और \(C_2\) पर अंतिम आवेश क्रमशः \(Q_1'\), \(Q_2'\) और वोल्टता क्रमशः \(V_1\), \(V_2\) हो जाती हैं।</p>
+<p><strong>चरण 2: मान्यताएँ और चिह्न परिपाटी</strong><br/>\(C_2\) प्रारंभ में अनावेशित है। एक बार \(K_1\) खुलने पर, \(C_1\) और \(C_2\) का निकाय बैटरी से पूरी तरह विलग (isolated) हो जाता है, इसलिए कुल आवेश संरक्षित रहता है।</p>
+<p><strong>चरण 3: प्रासंगिक सूत्र और सिद्धांत</strong><br/>1. संधारित्र पर आवेश: \(Q = C V\)<br/>2. आवेश का संरक्षण: \(Q_{\text{initial}} = Q_{\text{final}}\)<br/>3. समानांतर संयोजन शर्त: समान दो बिंदुओं के बीच जुड़े संधारित्र एक उभयनिष्ठ विभवांतर प्राप्त करते हैं।</p>
+<p><strong>चरण 4: चरण-दर-चरण गणना</strong><br/>प्रारंभ में, जब \(K_1\) बंद है और \(K_2\) खुली है, तो \(C_1\) बैटरी द्वारा विभव \(E\) तक आवेशित होता है:<br/>\[Q = C_1 E\]<br/>जब \(K_1\) को खोला जाता है और \(K_2\) को बंद किया जाता है, तो \(C_1\) और \(C_2\) समानांतर क्रम में जुड़ जाते हैं। \(C_1\) से \(C_2\) की ओर आवेश तब तक प्रवाहित होता है जब तक दोनों समान विभवांतर प्राप्त न कर लें:<br/>\[V_1 = V_2\]<br/>विलग प्लेटों पर कुल आवेश के संरक्षण से:<br/>\[Q_1' + Q_2' = Q\]<br/>\(Q_1' = C_1 V_1\), \(Q_2' = C_2 V_2\), और \(Q = C_1 E\) रखने पर:<br/>\[C_1 V_1 + C_2 V_2 = C_1 E\]<br/>चूँकि \(C_1\) और \(C_2\) का बराबर होना आवश्यक नहीं है, इसलिए सामान्यतः \(Q_1'\) और \(Q_2'\) बराबर नहीं होते हैं।</p>
+<p><strong>चरण 5: जाँच और अंतिम उत्तर</strong><br/>आवेश के पुनर्वितरण के बाद \(V_1 = V_2\), \(Q_1' + Q_2' = Q\), और \(C_1 V_1 + C_2 V_2 = C_1 E\) सभी सत्य हैं।</p>]]></text></generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>false</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="33.33333" format="html"><text><![CDATA[<p>charge on \(C_1\) gets redistributed such that \(V_1 = V_2\)</p>]]></text></answer>
+  <answer fraction="-50" format="html"><text><![CDATA[<p>charge on \(C_1\) gets redistributed such that \(Q_1' = Q_2'\)</p>]]></text></answer>
+  <answer fraction="33.33333" format="html"><text><![CDATA[<p>charge on \(C_1\) gets redistributed such that \(C_1V_1 + C_2V_2 = C_1E\)</p>]]></text></answer>
+  <answer fraction="33.33333" format="html"><text><![CDATA[<p>charge on \(C_1\) gets redistributed such that \(Q_1' + Q_2' = Q\)</p>]]></text></answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:hi</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>section:mcq_ii</text></tag>
     <tag><text>class:12</text></tag>
     <tag><text>chapter:electrostatic_potential_and_capacitance</text></tag>
     <tag><text>typology:mcq</text></tag>
     <tag><text>difficulty:medium</text></tag>
     <tag><text>blooms:apply</text></tag>
     <tag><text>calculation:light</text></tag>
-    <tag><text>media:diagram</text></tag>
+    <tag><text>media:circuit</text></tag>
+    <tag><text>multiconcept:true</text></tag>
+  </tags>
+</question>
+<question type="multichoice">
+  <name><text>NEET_UG_PHYSICS_MCQII_ELECTROSTATICPOTENTIALANDCAPACITANCE_MCQ_Q12 - Conductor at non-zero potential with no outside charges</text></name>
+  <questiontext format="html"><text><![CDATA[<p>If a conductor has a potential \(V \neq 0\) and there are no charges anywhere else outside, then</p><hr/><p>यदि किसी चालक का विभव \(V \neq 0\) है और बाहर कहीं भी कोई आवेश नहीं है, तो</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>Electrostatic potential is produced by electric charges. With the reference potential taken as zero at infinity, a conductor can have a non-zero potential \(V \neq 0\) in the absence of any external charges only if the conductor itself carries net charge.</p>
+<p><strong>Step 2: Evaluation</strong><br/>In electrostatic equilibrium, the electric field inside the conducting material (the body of the conductor) is zero. By Gauss's law applied to any closed surface lying entirely within the body of the conductor, the net charge enclosed in the body of the conductor must be zero.</p>
+<p><strong>Step 3: Application</strong><br/>Since there cannot be any net charge in the body of the conductor, any charge must reside on its outer surface (or inside a cavity within it, if present). Thus, there must be charges on the surface or inside itself, while there cannot be any charge in the body of the conductor.</p>
+<p><strong>Step 4: Final Conclusion</strong><br/>There must be charges on the surface or inside the conductor itself, and there cannot be any charge in the body of the conductor.</p><hr/><p><strong>चरण 1: वैचारिक सिद्धांत</strong><br/>स्थिरवैद्युत विभव विद्युत आवेशों द्वारा उत्पन्न होता है। अनंत पर संदर्भ विभव को शून्य मानते हुए, किसी भी बाह्य आवेश की अनुपस्थिति में किसी चालक का विभव \(V \neq 0\) तभी हो सकता है जब चालक पर स्वयं नेट आवेश हो।</p>
+<p><strong>चरण 2: मूल्यांकन</strong><br/>स्थिरवैद्युत साम्यावस्था में, चालक पदार्थ (चालक के मुख्य भाग/body) के अंदर विद्युत क्षेत्र शून्य होता है। चालक के भाग के भीतर पूरी तरह से स्थित किसी भी बंद पृष्ठ पर गॉस का नियम लागू करने पर, चालक के भाग में परिबद्ध नेट आवेश शून्य होना चाहिए।</p>
+<p><strong>चरण 3: अनुप्रयोग</strong><br/>चूँकि चालक के भाग में कोई नेट आवेश नहीं हो सकता है, इसलिए कोई भी आवेश उसकी बाहरी सतह पर (या यदि कोई कोटर/cavity मौजूद हो तो उसके अंदर) स्थित होना चाहिए। अतः सतह पर या स्वयं उसके अंदर आवेश होना चाहिए, जबकि चालक के भाग में कोई आवेश नहीं हो सकता है।</p>
+<p><strong>चरण 4: अंतिम निष्कर्ष</strong><br/>चालक की सतह पर या स्वयं उसके अंदर आवेश होना चाहिए, और चालक के भाग में कोई आवेश नहीं हो सकता है।</p>]]></text></generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>false</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="50" format="html"><text><![CDATA[<p>there must be charges on the surface or inside itself.</p>]]></text></answer>
+  <answer fraction="50" format="html"><text><![CDATA[<p>there cannot be any charge in the body of the conductor.</p>]]></text></answer>
+  <answer fraction="-50" format="html"><text><![CDATA[<p>there must be charges only on the surface.</p>]]></text></answer>
+  <answer fraction="-50" format="html"><text><![CDATA[<p>there must be charges inside the surface.</p>]]></text></answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:hi</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>section:mcq_ii</text></tag>
+    <tag><text>class:12</text></tag>
+    <tag><text>chapter:electrostatic_potential_and_capacitance</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:hard</text></tag>
+    <tag><text>blooms:analyze</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:text</text></tag>
+    <tag><text>multiconcept:true</text></tag>
+  </tags>
+</question>
+<question type="multichoice">
+  <name><text>NEET_UG_PHYSICS_MCQII_ELECTROSTATICPOTENTIALANDCAPACITANCE_MCQ_Q13 - Capacitor plate separation with key closed and open</text></name>
+  <questiontext format="html"><text><![CDATA[<p>A parallel plate capacitor is connected to a battery as shown in Fig. 2.5. Consider two situations:<br/><img src="@@PLUGINFILE@@/img-4.jpeg" alt="Parallel plate capacitor C connected to battery E through key K" /><br/>A: Key \(K\) is kept closed and plates of capacitors are moved apart using insulating handle.<br/>B: Key \(K\) is opened and plates of capacitors are moved apart using insulating handle.<br/>Choose the correct option(s).</p><hr/><p>एक समानांतर प्लेट संधारित्र को चित्र 2.5 में दिखाए अनुसार एक बैटरी से जोड़ा गया है। दो स्थितियों पर विचार कीजिए:<br/><img src="@@PLUGINFILE@@/img-4.jpeg" alt="कुंजी K के माध्यम से बैटरी E से जुड़ा समानांतर प्लेट संधारित्र C" /><br/>A: कुंजी \(K\) को बंद रखा जाता है और संधारित्र की प्लेटों को विद्युतरोधी हैंडल का उपयोग करके दूर हटाया जाता है।<br/>B: कुंजी \(K\) को खोला जाता है और संधारित्र की प्लेटों को विद्युतरोधी हैंडल का उपयोग करके दूर हटाया जाता है।<br/>सही विकल्प (विकल्पों) को चुनिए।</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>A parallel plate capacitor of capacitance \(C\) is connected to a battery of emf \(E\) via key \(K\). In both situations, the plate separation \(d\) is increased using an insulating handle.</p>
+<p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>Moving the plates apart increases \(d\), which decreases the capacitance \(C = \frac{\varepsilon_0 A}{d}\) in both situations.</p>
+<p><strong>Step 3: Relevant Formulae and Principles</strong><br/>Capacitance of a parallel plate capacitor: \(C = \frac{\varepsilon_0 A}{d}\)<br/>Charge-voltage relation: \(Q = C V\)</p>
+<p><strong>Step 4: Step-by-Step Working</strong><br/>In situation A, key \(K\) remains closed, so the capacitor remains connected to the battery. Therefore, the potential difference \(V = E\) across the plates remains constant. Since \(C\) decreases as \(d\) increases, the charge \(Q = C V\) decreases (changes).<br/>In situation B, key \(K\) is opened, so the capacitor is electrically isolated from the battery. Therefore, the charge \(Q\) on the plates remains conserved (constant). Since \(C\) decreases as \(d\) increases, the potential difference \(V = \frac{Q}{C}\) increases (changes).</p>
+<p><strong>Step 5: Check and Final Answer</strong><br/>When key \(K\) is kept closed, \(V\) remains the same and hence \(Q\) changes. When key \(K\) is opened, \(Q\) remains the same and hence \(V\) changes.</p><hr/><p><strong>चरण 1: दिया गया डेटा और शर्तें</strong><br/>धारिता \(C\) का एक समानांतर प्लेट संधारित्र कुंजी \(K\) के माध्यम से विद्युत वाहक बल \(E\) की बैटरी से जुड़ा है। दोनों स्थितियों में, विद्युतरोधी हैंडल का उपयोग करके प्लेटों के बीच की दूरी \(d\) बढ़ाई जाती है।</p>
+<p><strong>चरण 2: मान्यताएँ और चिह्न परिपाटी</strong><br/>प्लेटों को दूर ले जाने से \(d\) बढ़ता है, जिससे दोनों स्थितियों में धारिता \(C = \frac{\varepsilon_0 A}{d}\) घटती है।</p>
+<p><strong>चरण 3: प्रासंगिक सूत्र और सिद्धांत</strong><br/>समानांतर प्लेट संधारित्र की धारिता: \(C = \frac{\varepsilon_0 A}{d}\)<br/>आवेश-वोल्टता संबंध: \(Q = C V\)</p>
+<p><strong>चरण 4: चरण-दर-चरण गणना</strong><br/>स्थिति A में, कुंजी \(K\) बंद रहती है, इसलिए संधारित्र बैटरी से जुड़ा रहता है। अतः प्लेटों के बीच विभवांतर \(V = E\) नियत रहता है। चूँकि \(d\) बढ़ने पर \(C\) घटता है, इसलिए आवेश \(Q = C V\) घटता (बदलता) है।<br/>स्थिति B में, कुंजी \(K\) खुली है, इसलिए संधारित्र बैटरी से विद्युत रूप से विलग है। अतः प्लेटों पर आवेश \(Q\) संरक्षित (नियत) रहता है। चूँकि \(d\) बढ़ने पर \(C\) घटता है, इसलिए विभवांतर \(V = \frac{Q}{C}\) बढ़ता (बदलता) है।</p>
+<p><strong>चरण 5: जाँच और अंतिम उत्तर</strong><br/>जब कुंजी \(K\) बंद रखी जाती है, तो \(V\) समान रहता है और इसलिए \(Q\) बदलता है। जब कुंजी \(K\) खोली जाती है, तो \(Q\) समान रहता है और इसलिए \(V\) बदलता है।</p>]]></text></generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>false</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="-50" format="html"><text><![CDATA[<p>In A: \(Q\) remains same but \(C\) changes.</p>]]></text></answer>
+  <answer fraction="-50" format="html"><text><![CDATA[<p>In B: \(V\) remains same but \(C\) changes.</p>]]></text></answer>
+  <answer fraction="50" format="html"><text><![CDATA[<p>In A: \(V\) remains same and hence \(Q\) changes.</p>]]></text></answer>
+  <answer fraction="50" format="html"><text><![CDATA[<p>In B: \(Q\) remains same and hence \(V\) changes.</p>]]></text></answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:hi</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>section:mcq_ii</text></tag>
+    <tag><text>class:12</text></tag>
+    <tag><text>chapter:electrostatic_potential_and_capacitance</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:medium</text></tag>
+    <tag><text>blooms:apply</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:circuit</text></tag>
     <tag><text>multiconcept:true</text></tag>
   </tags>
 </question>

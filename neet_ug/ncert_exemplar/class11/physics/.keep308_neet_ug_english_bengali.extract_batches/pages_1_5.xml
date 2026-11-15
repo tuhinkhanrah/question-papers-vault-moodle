@@ -1,440 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <quiz>
 <question type="multichoice">
-  <name><text>NEET_UG_PHYSICS_GRAVITATION_MCQ_Q01 - Non uniform density sphere gravitational acceleration</text></name>
-  <questiontext format="html">
-    <text><![CDATA[<p>The earth is an approximate sphere. If the interior contained matter which is not of the same density everywhere, then on the surface of the earth, the acceleration due to gravity</p>
-<hr/>
-<p>পৃথিবী একটি প্রায় গোলকাকার বস্তু। যদি এর অভ্যন্তরের পদার্থের ঘনত্ব সর্বত্র সমান না হয়, তবে পৃথিবীর পৃষ্ঠে অভিকর্ষজ ত্বরণ</p>]]></text>
-  </questiontext>
-  <generalfeedback format="html">
-    <text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>
-The acceleration due to gravity \(\mathbf{g}\) at any location on or outside an extended body is determined by the vector sum of the gravitational forces exerted by all mass elements comprising the body:
-\[\mathbf{g} = -G \int \frac{\rho(\mathbf{r}')(\mathbf{r} - \mathbf{r}')}{|\mathbf{r} - \mathbf{r}'|^3} \, d^3r'\]
-For a perfectly spherically symmetric mass distribution where density depends only on radial distance \(\rho(r)\), Newton's shell theorem establishes that the field at any surface point is directed radially toward the geometric centre and has an identical magnitude everywhere.</p>
-<p><strong>Step 2: Effect of Non-Uniform Density</strong><br/>
-When the interior matter is not distributed with spherical symmetry, the density varies arbitrarily with position. Consequently, the integral of gravitational contributions produces a resultant field whose magnitude varies across different points on the surface, and its direction generally deviates from pointing toward the geometric centre.</p>
-<p><strong>Step 3: Possibility of Zero Gravitational Acceleration</strong><br/>
-The total mass of the Earth is non-zero and positive throughout its volume. For any point located on the outer boundary surface, all mass elements lie strictly on one side of a tangent plane passing through that surface point (or within a localized finite volume). Because gravitational attraction is purely attractive, the individual vector components along the inward direction cannot cancel each other out to zero. Hence, the net gravitational acceleration cannot vanish at any point on the surface.</p>
-<p><strong>Conclusion:</strong><br/>
-On the surface of an earth with non-uniform interior density, the acceleration due to gravity cannot be zero at any point.</p>
-<hr/>
-<p><strong>ধাপ ১: তাত্ত্বিক নীতি</strong><br/>
-একটি বিস্তৃত বস্তুর পৃষ্ঠে বা বাইরে কোনো অবস্থানে অভিকর্ষজ ত্বরণ \(\mathbf{g}\) বস্তুর প্রতিটি ভর উপাদান দ্বারা প্রযুক্ত মহাকর্ষীয় বলের ভেক্টর সমষ্টির মাধ্যমে নির্ধারিত হয়:
-\[\mathbf{g} = -G \int \frac{\rho(\mathbf{r}')(\mathbf{r} - \mathbf{r}')}{|\mathbf{r} - \mathbf{r}'|^3} \, d^3r'\]
-যদি ভর বণ্টন সম্পূর্ণ গোলকীয় প্রতিসম হয় এবং ঘনত্ব কেবল ব্যাসার্ধের ওপর নির্ভরশীল হয়, তবে নিউটনের গোলকীয় খোলক উপপাদ্য অনুযায়ী পৃষ্ঠের প্রতিটি বিন্দুতে মহাকর্ষীয় ত্বরণ কেন্দ্রের দিকে নির্দেশিত হয় এবং এর মান সর্বত্র সমান থাকে।</p>
-<p><strong>ধাপ ২: অসম ঘনত্বের প্রভাব</strong><br/>
-অভ্যন্তরীণ পদার্থ যদি সুষমভাবে বিন্যস্ত না থাকে, তবে বিভিন্ন স্থানে ঘনত্বের তারতম্য ঘটে। ফলে বিভিন্ন ভর উপাদানের মহাকর্ষীয় বলের লব্ধির মান পৃষ্ঠের বিভিন্ন বিন্দুতে পরিবর্তিত হয় এবং এর দিক জ্যামিতিক কেন্দ্রের দিকে নাও থাকতে পারে।</p>
-<p><strong>ধাপ ৩: অভিকর্ষজ ত্বরণ শূন্য হওয়ার সম্ভাবনা</strong><br/>
-পৃথিবীর মোট ভর ধনাত্মক এবং একটি সসীম সীমানায় আবদ্ধ। পৃষ্ঠের যেকোনো বিন্দুর সাপেক্ষে সমস্ত ভর উপাদান ভেতরের দিকে অবস্থিত হওয়ায় আকর্ষণী বলগুলির লব্ধি ভেক্টর কখনো সামগ্রিকভাবে বাতিল হয়ে শূন্য হতে পারে না। অতএব, পৃষ্ঠের কোনো বিন্দুতেই অভিকর্ষজ ত্বরণ শূন্য হওয়া সম্ভব নয়।</p>
-<p><strong>উপসংহার:</strong><br/>
-অসম ঘনত্বের উপাদানবিশিষ্ট পৃথিবীর পৃষ্ঠের কোনো বিন্দুতেই অভিকর্ষজ ত্বরণ শূন্য হতে পারে না।</p>]]></text>
-  </generalfeedback>
+  <name><text>PHYSICS_MCQI_GRAVITATION_MCQ_Q01 - Acceleration due to gravity on non-uniform earth</text></name>
+  <questiontext format="html"><text><![CDATA[<p>8.1 The earth is an approximate sphere. If the interior contained matter which is not of the same density everywhere, then on the surface of the earth, the acceleration due to gravity</p><hr/><p>৮.১ পৃথিবী একটি প্রায় গোলক। যদি এর অভ্যন্তরে সর্বত্র সমান ঘনত্বের পদার্থ না থাকে, তবে পৃথিবীর পৃষ্ঠে অভিকর্ষজ ত্বরণ</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>The acceleration due to gravity \(\mathbf{g}\) at any point on the surface of a planet is the vector sum of the gravitational fields produced by all infinitesimal mass elements \(dm\) inside the planet: \(\mathbf{g} = -\int \frac{G\,dm}{r^2}\hat{r}\).</p><p><strong>Step 2: Evaluation of Direction and Magnitude</strong><br/>If the density inside the earth is non-uniform, the mass distribution is not spherically symmetric. Consequently, the magnitude of \(g\) will vary from point to point on the surface, and the net gravitational field vector need not point directly toward the geometric centre of the sphere.</p><p><strong>Step 3: Non-Zero Property</strong><br/>At any point on the outer surface of a sphere containing positive mass, all mass elements lie on one side of the tangent plane at that point. Therefore, every mass element produces a gravitational force component directed inward into the sphere along the inward normal. Since these inward components all have the same sign and cannot cancel out, the resultant acceleration due to gravity cannot be zero at any point on the surface.</p><p><strong>Step 4: Final Conclusion</strong><br/>On the surface of a non-uniform spherical earth, the acceleration due to gravity cannot be zero at any point.</p><hr/><p><strong>ধাপ ১: ধারণাগত নীতি</strong><br/>একটি গ্রহের পৃষ্ঠের যেকোনো বিন্দুতে অভিকর্ষজ ত্বরণ \(\mathbf{g}\) হলো গ্রহের অভ্যন্তরের সমস্ত ক্ষুদ্র ভর উপাদান \(dm\) দ্বারা সৃষ্ট মহাকর্ষীয় ক্ষেত্রগুলির ভেক্টর সমষ্টি: \(\mathbf{g} = -\int \frac{G\,dm}{r^2}\hat{r}\)।</p><p><strong>ধাপ ২: দিক ও মানের মূল্যায়ন</strong><br/>পৃথিবীর অভ্যন্তরে ঘনত্ব অসম হলে ভর বণ্টন গোলকীয় প্রতিসম হয় না। এর ফলে পৃষ্ঠের বিভিন্ন বিন্দুতে \(g\)-এর মান ভিন্ন হয় এবং লব্ধি মহাকর্ষীয় ক্ষেত্রটি সর্বদা গোলকের জ্যামিতিক কেন্দ্রের দিকে নাও থাকতে পারে।</p><p><strong>ধাপ ৩: অশূন্য ধর্ম</strong><br/>ধনাত্মক ভরযুক্ত একটি গোলকের বহিঃপৃষ্ঠের যেকোনো বিন্দুতে, সমস্ত ভর উপাদান সেই বিন্দুর স্পর্শক তলের একই পাশে অবস্থিত। ফলে প্রতিটি ভর উপাদান অন্তর্মুখী অভিলম্ব বরাবর ভেতরের দিকে মহাকর্ষীয় বলের একটি উপাংশ তৈরি করে। যেহেতু এই অন্তর্মুখী উপাংশগুলি একই দিকমুখী এবং পরস্পরকে নাকচ করতে পারে না, তাই পৃষ্ঠের কোনো বিন্দুতেই লব্ধি অভিকর্ষজ ত্বরণ শূন্য হতে পারে না।</p><p><strong>ধাপ ৪: চূড়ান্ত সিদ্ধান্ত</strong><br/>অসম ঘনত্বের গোলকাকার পৃথিবীর পৃষ্ঠে অভিকর্ষজ ত্বরণ কোনো বিন্দুতেই শূন্য হতে পারে না।</p>]]></text></generalfeedback>
   <defaultgrade>4.0000000</defaultgrade>
   <penalty>0.2500000</penalty>
   <hidden>0</hidden>
   <single>true</single>
   <shuffleanswers>true</shuffleanswers>
   <answernumbering>abc</answernumbering>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>will be directed towards the centre but not the same everywhere.</p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>will have the same value everywhere but not directed towards the centre.</p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>will be same everywhere in magnitude directed towards the centre.</p>]]></text>
-  </answer>
-  <answer fraction="100" format="html">
-    <text><![CDATA[<p>cannot be zero at any point.</p>]]></text>
-  </answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>will be directed towards the centre but not the same everywhere.</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>will have the same value everywhere but not directed towards the centre.</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>will be same everywhere in magnitude directed towards the centre.</p>]]></text></answer>
+  <answer fraction="100" format="html"><text><![CDATA[<p>cannot be zero at any point.</p>]]></text></answer>
   <tags>
     <tag><text>standard:neet_ug</text></tag>
     <tag><text>lang:en</text></tag>
     <tag><text>lang:bn</text></tag>
     <tag><text>subject:physics</text></tag>
-    <tag><text>class:class_11</text></tag>
-    <tag><text>chapter:gravitation</text></tag>
-    <tag><text>typology:mcq</text></tag>
-    <tag><text>difficulty:medium</text></tag>
-    <tag><text>blooms:understand</text></tag>
-    <tag><text>calculation:light</text></tag>
-    <tag><text>media:text</text></tag>
-    <tag><text>multiconcept:false</text></tag>
-  </tags>
-</question>
-<question type="multichoice">
-  <name><text>NEET_UG_PHYSICS_GRAVITATION_MCQ_Q02 - Apparent motion of mercury observed from earth</text></name>
-  <questiontext format="html">
-    <text><![CDATA[<p>As observed from earth, the sun appears to move in an approximate circular orbit. For the motion of another planet like mercury as observed from earth, this would</p>
-<hr/>
-<p>পৃথিবী থেকে পর্যবেক্ষণ করলে দেখা যায় যে সূর্য একটি প্রায় বৃত্তাকার কক্ষপথে পরিক্রমণ করছে। পৃথিবী থেকে পর্যবেক্ষণ করলে বুধের (মার্কারি) মতো অন্য কোনো গ্রহের গতির ক্ষেত্রে এটি</p>]]></text>
-  </questiontext>
-  <generalfeedback format="html">
-    <text><![CDATA[<p><strong>Step 1: Frame of Reference Analysis</strong><br/>
-In the heliocentric model, Earth orbits the Sun in a nearly circular path. In the Earth-bound reference frame, the relative position vector of the Sun is simply the negative of the Earth's heliocentric position vector. Consequently, the Sun appears to execute a nearly circular orbit around the Earth because the Earth-Sun gravitational interaction dominates Earth's orbital motion.</p>
-<p><strong>Step 2: Gravitational Forces Acting on Mercury</strong><br/>
-Mercury also revolves around the Sun in an independent orbit. Because the mass of the Sun (\(M_{\text{sun}} \approx 2 \times 10^{30} \text{ kg}\)) is roughly \(3.3 \times 10^5\) times greater than the mass of the Earth, the gravitational force exerted on Mercury by the Sun is overwhelmingly larger than the gravitational attraction between Earth and Mercury:
-\[F_{\text{Sun-Mercury}} \gg F_{\text{Earth-Mercury}}\]
-Thus, Mercury's trajectory is fundamentally determined by the central pull of the Sun rather than by the Earth.</p>
-<p><strong>Step 3: Relative Motion Evaluation</strong><br/>
-As viewed from Earth, the observed path of Mercury is the relative trajectory between two separate orbital motions about the Sun. This relative motion produces apparent retrograde loops and non-circular loops rather than a simple circular trajectory.</p>
-<p><strong>Conclusion:</strong><br/>
-The observed motion is not circular because the major gravitational force on Mercury is due to the Sun.</p>
-<hr/>
-<p><strong>ধাপ ১: নির্দেশতন্ত্রের সাপেক্ষে বিশ্লেষণ</strong><br/>
-সূর্যকেন্দ্রিক মডেলে পৃথিবী সূর্যের চারদিকে প্রায় বৃত্তাকার কক্ষপথে আবর্তন করে। পৃথিবী-ভিত্তিক নির্দেশতন্ত্র থেকে সূর্যের আপেক্ষিক অবস্থান ভেক্টর পৃথিবীর সূর্যের সাপেক্ষে অবস্থানের বিপরীত হয়। ফলে পৃথিবী থেকে সূর্যকে প্রায় বৃত্তাকার পথে আবর্তন করতে দেখা যায়, কারণ পৃথিবীর কক্ষীয় গতি মূলত সূর্যের মহাকর্ষীয় বল দ্বারা নিয়ন্ত্রিত হয়।</p>
-<p><strong>ধাপ ২: বুধের ওপর ক্রিয়াশীল মহাকর্ষীয় বল</strong><br/>
-বুধ গ্রহও নিজস্ব কক্ষপথে সূর্যের চারদিকে ঘোরে। সূর্যের ভর পৃথিবীর ভরের তুলনায় কয়েক লক্ষ গুণ বেশি হওয়ায় বুধের ওপর সূর্যের মহাকর্ষীয় আকর্ষণ বল পৃথিবী ও বুধের মধ্যকার আকর্ষণ বলের তুলনায় অত্যন্ত প্রবল:
-\[F_{\text{Sun-Mercury}} \gg F_{\text{Earth-Mercury}}\]
-সুতরাং, বুধের গতি পৃথিবী দ্বারা নয়, প্রধানত সূর্যের মহাকর্ষীয় বল দ্বারাই নির্ধারিত হয়।</p>
-<p><strong>ধাপ ৩: আপেক্ষিক গতির ফলাফল</strong><br/>
-পৃথিবী থেকে বুধের গতি পর্যবেক্ষণ করলে তা সূর্যের চারদিকে দুটি পৃথক কক্ষীয় গতির আপেক্ষিক ফল হিসেবে ধরা পড়ে, যা আপাত বক্রাকার ও জটিল পশ্চাৎমুখী (retrograde) গতি সৃষ্টি করে, কিন্তু সরল বৃত্তাকার গতি নয়।</p>
-<p><strong>উপসংহার:</strong><br/>
-বুধের ক্ষেত্রে এই পর্যবেক্ষণ সত্য হবে না, কারণ বুধের ওপর প্রধান মহাকর্ষীয় বল সূর্যের দ্বারাই প্রযুক্ত হয়।</p>]]></text>
-  </generalfeedback>
-  <defaultgrade>4.0000000</defaultgrade>
-  <penalty>0.2500000</penalty>
-  <hidden>0</hidden>
-  <single>true</single>
-  <shuffleanswers>true</shuffleanswers>
-  <answernumbering>abc</answernumbering>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>be similarly true.</p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>not be true because the force between earth and mercury is not inverse square law.</p>]]></text>
-  </answer>
-  <answer fraction="100" format="html">
-    <text><![CDATA[<p>not be true because the major gravitational force on mercury is due to sun.</p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>not be true because mercury is influenced by forces other than gravitational forces.</p>]]></text>
-  </answer>
-  <tags>
-    <tag><text>standard:neet_ug</text></tag>
-    <tag><text>lang:en</text></tag>
-    <tag><text>lang:bn</text></tag>
-    <tag><text>subject:physics</text></tag>
-    <tag><text>class:class_11</text></tag>
-    <tag><text>chapter:gravitation</text></tag>
-    <tag><text>typology:mcq</text></tag>
-    <tag><text>difficulty:easy</text></tag>
-    <tag><text>blooms:understand</text></tag>
-    <tag><text>calculation:light</text></tag>
-    <tag><text>media:text</text></tag>
-    <tag><text>multiconcept:false</text></tag>
-  </tags>
-</question>
-<question type="multichoice">
-  <name><text>NEET_UG_PHYSICS_GRAVITATION_MCQ_Q03 - Net gravitational torque on uniform earth sphere</text></name>
-  <questiontext format="html">
-    <text><![CDATA[<p>Different points in earth are at slightly different distances from the sun and hence experience different forces due to gravitation. For a rigid body, we know that if various forces act at various points in it, the resultant motion is as if a net force acts on the c.m. (centre of mass) causing translation and a net torque at the c.m. causing rotation around an axis through the c.m. For the earth-sun system (approximating the earth as a uniform density sphere)</p>
-<hr/>
-<p>পৃথিবীর বিভিন্ন বিন্দু সূর্য থেকে সামান্য ভিন্ন দূরত্বে অবস্থিত হওয়ায় বিভিন্ন মহাকর্ষীয় বল অনুভব করে। একটি দৃঢ় বস্তুর ক্ষেত্রে বিভিন্ন বিন্দুতে বিভিন্ন বল ক্রিয়া করলে লব্ধি গতি এমন হয় যেন একটি নিট বল ভরকেন্দ্রে ক্রিয়া করে রৈখিক গতি সৃষ্টি করে এবং ভরকেন্দ্রের সাপেক্ষে একটি নিট টর্ক সৃষ্টি হয়ে ভরকেন্দ্রগামী অক্ষের চারদিকে ঘূর্ণন ঘটায়। পৃথিবী-সূর্য ব্যবস্থার জন্য (পৃথিবীকে সুষম ঘনত্বের গোলক বিবেচনা করে)</p>]]></text>
-  </questiontext>
-  <generalfeedback format="html">
-    <text><![CDATA[<p><strong>Step 1: Gravitational Force between Spherically Symmetric Bodies</strong><br/>
-According to Newton's law of universal gravitation and Gauss's law for gravity, a spherically symmetric body of uniform density attracts and is attracted by external masses as if its entire mass is concentrated at its geometric centre of mass.</p>
-<p><strong>Step 2: Line of Action of Resultant Force</strong><br/>
-Because the mass distribution of the Earth is assumed to be spherically symmetric, the resultant gravitational force \(\mathbf{F}\) exerted by the Sun passes precisely through the centre of mass of the Earth. The gravitational interaction is a central force acting along the line joining the centres of mass of the two bodies.</p>
-<p><strong>Step 3: Calculation of Torque about the Centre of Mass</strong><br/>
-The net torque \(\boldsymbol{\tau}\) about the centre of mass is defined as:
-\[\boldsymbol{\tau} = \mathbf{r}_{\text{cm}} \times \mathbf{F}\]
-Since the point of application of the resultant force is the centre of mass itself, the position vector from the centre of mass is \(\mathbf{r}_{\text{cm}} = \mathbf{0}\). Alternatively, the force vector is parallel to the radius vector, giving \(\sin(0^\circ) = 0\). Thus:
-\[\boldsymbol{\tau} = \mathbf{0}\]
-Therefore, the net gravitational torque about the centre of mass is zero.</p>
-<p><strong>Conclusion:</strong><br/>
-For the earth-sun system under this approximation, the torque is zero.</p>
-<hr/>
-<p><strong>ধাপ ১: গোলকীয় প্রতিসম বস্তুর মহাকর্ষীয় বল</strong><br/>
-নিউটনের মহাকর্ষ সূত্র ও শেল উপপাদ্য অনুযায়ী, একটি সুষম ঘনত্বের গোলকাকার বস্তুর ওপর বহিস্থ কোনো ভর দ্বারা প্রযুক্ত মহাকর্ষীয় বল এমনভাবে ক্রিয়া করে যেন গোলকটির সমগ্র ভর তার জ্যামিতিক ভরকেন্দ্রে কেন্দ্রীভূত রয়েছে।</p>
-<p><strong>ধাপ ২: লব্ধি বলের ক্রিয়াশীল রেখা</strong><br/>
-যেহেতু পৃথিবীকে একটি সুষম ঘনত্বের গোলক হিসেবে ধরা হয়েছে, তাই সূর্যের দ্বারা প্রযুক্ত লব্ধি মহাকর্ষীয় বলের ক্রিয়াশীল রেখা সরাসরি পৃথিবীর ভরকেন্দ্রের মধ্য দিয়ে অতিক্রম করে। এটি একটি কেন্দ্রানুগ বল যা উভয় বস্তুর ভরকেন্দ্র সংযোগকারী রেখা বরাবর কাজ করে।</p>
-<p><strong>ধাপ ৩: ভরকেন্দ্রের সাপেক্ষে টর্কের মান নির্ণয়</strong><br/>
-ভরকেন্দ্রের সাপেক্ষে নিট টর্ক \(\boldsymbol{\tau}\) এর সংজ্ঞা অনুযায়ী:
-\[\boldsymbol{\tau} = \mathbf{r}_{\text{cm}} \times \mathbf{F}\]
-লব্ধি বলের ক্রিয়াবিন্দু ভরকেন্দ্রেই অবস্থিত হওয়ায় অবস্থান ভেক্টর \(\mathbf{r}_{\text{cm}} = \mathbf{0}\)। ফলে:
-\[\boldsymbol{\tau} = \mathbf{0}\]
-অর্থাৎ ভরকেন্দ্রের সাপেক্ষে মোট টর্কের মান শূন্য।</p>
-<p><strong>উপসংহার:</strong><br/>
-এই অনুমানের অধীনে পৃথিবী-সূর্য ব্যবস্থার জন্য টর্ক শূন্য হয়।</p>]]></text>
-  </generalfeedback>
-  <defaultgrade>4.0000000</defaultgrade>
-  <penalty>0.2500000</penalty>
-  <hidden>0</hidden>
-  <single>true</single>
-  <shuffleanswers>true</shuffleanswers>
-  <answernumbering>abc</answernumbering>
-  <answer fraction="100" format="html">
-    <text><![CDATA[<p>the torque is zero.</p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>the torque causes the earth to spin.</p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>the rigid body result is not applicable since the earth is not even approximately a rigid body.</p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>the torque causes the earth to move around the sun.</p>]]></text>
-  </answer>
-  <tags>
-    <tag><text>standard:neet_ug</text></tag>
-    <tag><text>lang:en</text></tag>
-    <tag><text>lang:bn</text></tag>
-    <tag><text>subject:physics</text></tag>
-    <tag><text>class:class_11</text></tag>
-    <tag><text>chapter:gravitation</text></tag>
-    <tag><text>typology:mcq</text></tag>
-    <tag><text>difficulty:easy</text></tag>
-    <tag><text>blooms:understand</text></tag>
-    <tag><text>calculation:light</text></tag>
-    <tag><text>media:text</text></tag>
-    <tag><text>multiconcept:false</text></tag>
-  </tags>
-</question>
-<question type="multichoice">
-  <name><text>NEET_UG_PHYSICS_GRAVITATION_MCQ_Q04 - Orbital decay of satellites due to atmospheric viscous drag</text></name>
-  <questiontext format="html">
-    <text><![CDATA[<p>Satellites orbiting the earth have finite life and sometimes debris of satellites fall to the earth. This is because,</p>
-<hr/>
-<p>পৃথিবীর চারদিকে ঘূর্ণায়মান কৃত্রিম উপগ্রহের নির্দিষ্ট আয়ুষ্কাল থাকে এবং কখনো কখনো এদের ধ্বংসাবশেষ পৃথিবীতে খসে পড়ে। এর কারণ হলো,</p>]]></text>
-  </questiontext>
-  <generalfeedback format="html">
-    <text><![CDATA[<p><strong>Step 1: Atmospheric Presence at Orbital Altitudes</strong><br/>
-Although low Earth orbit (typically a few hundred kilometres above the surface) is often regarded as a vacuum, a thin upper atmosphere is still present.</p>
-<p><strong>Step 2: Viscous Force and Energy Dissipation</strong><br/>
-As the satellite travels through this tenuous atmosphere at high orbital velocity, it experiences continuous frictional resistance (viscous drag forces). This viscous drag does negative work on the satellite, continually dissipating its mechanical energy \(E = -\frac{GMm}{2r}\) into thermal energy.</p>
-<p><strong>Step 3: Orbital Decay Mechanism</strong><br/>
-As total mechanical energy decreases (becomes more negative), the orbital radius \(r\) gradually contracts. While orbital speed \(v = \sqrt{GM/r}\) momentarily increases at lower altitudes, the satellite enters progressively denser atmospheric layers where drag intensifies exponentially, causing the satellite to spiral inward and burn up or crash as debris onto the surface.</p>
-<p><strong>Conclusion:</strong><br/>
-The finite lifetime is due to viscous forces causing the speed of satellite and hence height to gradually decrease.</p>
-<hr/>
-<p><strong>ধাপ ১: কক্ষীয় উচ্চতায় বায়ুমণ্ডলের উপস্থিতি</strong><br/>
-যদিও নিম্ন পার্থিব কক্ষপথকে প্রায় শূন্যস্থান মনে করা হয়, তথাপি ভূপৃষ্ঠ থেকে কয়েকশত কিলোমিটার উচ্চতায়ও অতি হালকা বা ক্ষয়িষ্ণু বায়ুমণ্ডলের স্তর বিদ্যমান থাকে।</p>
-<p><strong>ধাপ ২: সান্দ্র বল ও শক্তির অপচয়</strong><br/>
-উপগ্রহ যখন উচ্চ কক্ষীয় গতিবেগে এই স্তরের মধ্য দিয়ে চলে, তখন তা ক্রমাগত বায়ুমণ্ডলীয় সান্দ্র ঘর্ষণ বলের সম্মুখীন হয়। এই ঘর্ষণ বল উপগ্রহের মোট যান্ত্রিক শক্তি \(E = -\frac{GMm}{2r}\) হ্রাস করে তা তাপে রূপান্তরিত করে।</p>
-<p><strong>ধাপ ৩: কক্ষপথের পতনের প্রক্রিয়া</strong><br/>
-যান্ত্রিক শক্তি হ্রাসের ফলে উপগ্রহটির কক্ষপথের উচ্চতা ধীরে ধীরে হ্রাস পেতে থাকে। উপগ্রহটি যত নিচের ঘন বায়ুমণ্ডলে প্রবেশ করে, সান্দ্র বাধা বল তত দ্রুত বৃদ্ধি পায়, যার ফলে উপগ্রহটি শেষ পর্যন্ত পৃথিবীতে সর্পিল গতিতে আছড়ে পড়ে বা ধ্বংসাবশেষে পরিণত হয়।</p>
-<p><strong>উপসংহার:</strong><br/>
-এর কারণ হলো সান্দ্র বলের ক্রিয়ায় উপগ্রহের গতি এবং উচ্চতা ক্রমশ হ্রাস পায়।</p>]]></text>
-  </generalfeedback>
-  <defaultgrade>4.0000000</defaultgrade>
-  <penalty>0.2500000</penalty>
-  <hidden>0</hidden>
-  <single>true</single>
-  <shuffleanswers>true</shuffleanswers>
-  <answernumbering>abc</answernumbering>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>the solar cells and batteries in satellites run out.</p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>the laws of gravitation predict a trajectory spiralling inwards.</p>]]></text>
-  </answer>
-  <answer fraction="100" format="html">
-    <text><![CDATA[<p>of viscous forces causing the speed of satellite and hence height to gradually decrease.</p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>of collisions with other satellites.</p>]]></text>
-  </answer>
-  <tags>
-    <tag><text>standard:neet_ug</text></tag>
-    <tag><text>lang:en</text></tag>
-    <tag><text>lang:bn</text></tag>
-    <tag><text>subject:physics</text></tag>
-    <tag><text>class:class_11</text></tag>
-    <tag><text>chapter:gravitation</text></tag>
-    <tag><text>typology:mcq</text></tag>
-    <tag><text>difficulty:easy</text></tag>
-    <tag><text>blooms:remember</text></tag>
-    <tag><text>calculation:light</text></tag>
-    <tag><text>media:text</text></tag>
-    <tag><text>multiconcept:false</text></tag>
-  </tags>
-</question>
-<question type="multichoice">
-  <name><text>NEET_UG_PHYSICS_GRAVITATION_MCQ_Q05 - Trajectory of moon observed from the sun</text></name>
-  <questiontext format="html">
-    <text><![CDATA[<p>Both earth and moon are subject to the gravitational force of the sun. As observed from the sun, the orbit of the moon</p>
-<hr/>
-<p>পৃথিবী এবং চাঁদ উভয়ই সূর্যের মহাকর্ষীয় বল দ্বারা প্রভাবিত। সূর্য থেকে পর্যবেক্ষণ করলে চাঁদের কক্ষপথ</p>]]></text>
-  </questiontext>
-  <generalfeedback format="html">
-    <text><![CDATA[<p><strong>Step 1: Conditions for Keplerian Elliptical Orbits</strong><br/>
-An exact Keplerian elliptical orbit around a central body requires that the orbiting particle experiences solely an inverse-square central force originating from that central body.</p>
-<p><strong>Step 2: Analysis of Forces on the Moon</strong><br/>
-In the heliocentric frame of reference (as viewed from the Sun), the Moon experiences two significant gravitational forces:
-1. The primary gravitational pull of the Sun, \(\mathbf{F}_{\text{Sun}}\), directed toward the centre of the Sun.
-2. The gravitational pull of the Earth, \(\mathbf{F}_{\text{Earth}}\), directed toward the centre of the Earth.</p>
-<p><strong>Step 3: Total Force Direction</strong><br/>
-The total gravitational force acting on the Moon is:
-\[\mathbf{F}_{\text{net}} = \mathbf{F}_{\text{Sun}} + \mathbf{F}_{\text{Earth}}\]
-Because the Earth is continuously revolving around the Sun, the vector \(\mathbf{F}_{\text{Earth}}\) continuously changes its direction relative to the line connecting the Sun and the Moon. Therefore, the net resultant force \(\mathbf{F}_{\text{net}}\) does not point directly toward the centre of the Sun; that is, the net force is non-central.</p>
-<p><strong>Conclusion:</strong><br/>
-The orbit of the Moon as observed from the Sun will not be strictly elliptical because the total gravitational force on it is not central.</p>
-<hr/>
-<p><strong>ধাপ ১: কেপলারীয় উপবৃত্তাকার কক্ষপথের শর্ত</strong><br/>
-একটি কেন্দ্রীয় বস্তুর চারদিকে কোনো কণার গতি নিখুঁত উপবৃত্তাকার হওয়ার জন্য আবশ্যকীয় শর্ত হলো কণাটির ওপর প্রযুক্ত লব্ধি বল কেবল সেই কেন্দ্রীয় বস্তু অভিমুখী একটি কেন্দ্রানুগ বিপরীত-বর্গীয় বল হতে হবে।</p>
-<p><strong>ধাপ ২: চাঁদের ওপর ক্রিয়াশীল বলের বিশ্লেষণ</strong><br/>
-সূর্য থেকে পর্যবেক্ষণ করলে চাঁদের ওপর দুটি প্রধান মহাকর্ষীয় বল কার্যকর থাকে:
-১. সূর্যের মহাকর্ষীয় বল \(\mathbf{F}_{\text{Sun}}\), যা সূর্যের কেন্দ্রাভিমুখী।
-২. পৃথিবীর মহাকর্ষীয় বল \(\mathbf{F}_{\text{Earth}}\), যা পৃথিবীর কেন্দ্রাভিমুখী।</p>
-<p><strong>ধাপ ৩: লব্ধি বলের দিক</strong><br/>
-চাঁদের ওপর প্রযুক্ত মোট লব্ধি বল:
-\[\mathbf{F}_{\text{net}} = \mathbf{F}_{\text{Sun}} + \mathbf{F}_{\text{Earth}}\]
-যেহেতু পৃথিবী সূর্যের চারদিকে ক্রমাগত ঘুরছে, তাই পৃথিবীর মহাকর্ষীয় বলের অভিমুখ সূর্য-চাঁদ সংযোগকারী রেখা বরাবর থাকে না। ফলে চাঁদের ওপর কার্যকর মোট বলটি সূর্যের কেন্দ্রাভিমুখী (central) বল নয়।</p>
-<p><strong>উপসংহার:</strong><br/>
-সূর্য থেকে পর্যবেক্ষণ করলে চাঁদের কক্ষপথ নিখুঁত উপবৃত্তাকার হবে না কারণ এর ওপর কার্যকর মোট মহাকর্ষীয় বল কেন্দ্রানুগ নয়।</p>]]></text>
-  </generalfeedback>
-  <defaultgrade>4.0000000</defaultgrade>
-  <penalty>0.2500000</penalty>
-  <hidden>0</hidden>
-  <single>true</single>
-  <shuffleanswers>true</shuffleanswers>
-  <answernumbering>abc</answernumbering>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>will be elliptical.</p>]]></text>
-  </answer>
-  <answer fraction="100" format="html">
-    <text><![CDATA[<p>will not be strictly elliptical because the total gravitational force on it is not central.</p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>is not elliptical but will necessarily be a closed curve.</p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>deviates considerably from being elliptical due to influence of planets other than earth.</p>]]></text>
-  </answer>
-  <tags>
-    <tag><text>standard:neet_ug</text></tag>
-    <tag><text>lang:en</text></tag>
-    <tag><text>lang:bn</text></tag>
-    <tag><text>subject:physics</text></tag>
-    <tag><text>class:class_11</text></tag>
-    <tag><text>chapter:gravitation</text></tag>
-    <tag><text>typology:mcq</text></tag>
-    <tag><text>difficulty:medium</text></tag>
-    <tag><text>blooms:understand</text></tag>
-    <tag><text>calculation:light</text></tag>
-    <tag><text>media:text</text></tag>
-    <tag><text>multiconcept:false</text></tag>
-  </tags>
-</question>
-<question type="multichoice">
-  <name><text>NEET_UG_PHYSICS_GRAVITATION_MCQ_Q06 - Motion of asteroids under solar gravitation</text></name>
-  <questiontext format="html">
-    <text><![CDATA[<p>In our solar system, the inter-planetary region has chunks of matter (much smaller in size compared to planets) called asteroids. They</p>
-<hr/>
-<p>আমাদের সৌরজগতে আন্তঃগ্রহ অঞ্চলে গ্রহাণু (অ্যাস্টেরয়েড) নামক পদার্থের টুকরো (গ্রহের তুলনায় আকারে অনেক ছোট) রয়েছে। এরা</p>]]></text>
-  </questiontext>
-  <generalfeedback format="html">
-    <text><![CDATA[<p><strong>Step 1: Governing Gravitational Force</strong><br/>
-Asteroids are celestial bodies located in the interplanetary space (predominantly in the asteroid belt between Mars and Jupiter). Like planets, their motion is overwhelmingly dominated by the central gravitational attraction of the Sun:
-\[F = \frac{G M_{\text{Sun}} m}{r^2}\]
-where \(m\) is the mass of the asteroid and \(r\) is its distance from the Sun.</p>
-<p><strong>Step 2: Independence of Gravitational Acceleration from Body Mass</strong><br/>
-The acceleration experienced by any body in the Sun's gravitational field is:
-\[a = \frac{F}{m} = \frac{G M_{\text{Sun}}}{r^2}\]
-This acceleration depends solely on the Sun's mass and the radial separation, being entirely independent of the asteroid's mass \(m\).</p>
-<p><strong>Step 3: Application of Kepler's Laws</strong><br/>
-Because the governing force is an inverse-square central force, all bodies orbiting the Sun—regardless of how small their masses are compared to planets—follow closed elliptical orbits with the Sun at one focus, sweep out equal areas in equal intervals of time, and satisfy the harmonic relation \(T^2 \propto a^3\).</p>
-<p><strong>Conclusion:</strong><br/>
-Asteroids will move in orbits like planets and obey Kepler's laws.</p>
-<hr/>
-<p><strong>ধাপ ১: কার্যকর মহাকর্ষীয় বল</strong><br/>
-গ্রহাণুপুঞ্জ হলো আন্তঃগ্রহ অঞ্চলের মহাজাগতিক বস্তু (প্রধানত মঙ্গল ও বৃহস্পতির মধ্যবর্তী অঞ্চলে অবস্থিত)। অন্যান্য গ্রহের মতো এদের গতিও সূর্যের কেন্দ্রানুগ মহাকর্ষীয় আকর্ষণ দ্বারা নিয়ন্ত্রিত হয়:
-\[F = \frac{G M_{\text{Sun}} m}{r^2}\]
-যেখানে \(m\) হলো গ্রহাণুর ভর এবং \(r\) হলো সূর্য থেকে এর দূরত্ব।</p>
-<p><strong>ধাপ ২: মহাকর্ষীয় ত্বরণের ভরের ওপর নিরপেক্ষতা</strong><br/>
-সূর্যের মহাকর্ষীয় ক্ষেত্রে যেকোনো বস্তুর ত্বরণ:
-\[a = \frac{F}{m} = \frac{G M_{\text{Sun}}}{r^2}\]
-এই ত্বরণ কেবল সূর্যের ভর ও দূরত্বের ওপর নির্ভর করে এবং গ্রহাণুর নিজস্ব ভরের ওপর একেবারেই নির্ভর করে না।</p>
-<p><strong>ধাপ ৩: কেপলারের সূত্রের প্রয়োগ</strong><br/>
-যেহেতু কার্যকর বলটি একটি কেন্দ্রীয় বিপরীত-বর্গীয় বল, তাই সূর্যের চারদিকে আবর্তনশীল প্রতিটি বস্তু—তার ভর গ্রহের তুলনায় যত কমই হোক না কেন—উপবৃত্তাকার কক্ষপথে চলে এবং কেপলারের তিনটি গতিসূত্র যথাযথভাবে মেনে চলে।</p>
-<p><strong>উপসংহার:</strong><br/>
-গ্রহাণুগুলি গ্রহের মতো নির্দিষ্ট কক্ষপথে আবর্তন করে এবং কেপলারের সূত্র মেনে চলে।</p>]]></text>
-  </generalfeedback>
-  <defaultgrade>4.0000000</defaultgrade>
-  <penalty>0.2500000</penalty>
-  <hidden>0</hidden>
-  <single>true</single>
-  <shuffleanswers>true</shuffleanswers>
-  <answernumbering>abc</answernumbering>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>will not move around the sun since they have very small masses compared to sun.</p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>will move in an irregular way because of their small masses and will drift away into outer space.</p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>will move around the sun in closed orbits but not obey Kepler's laws.</p>]]></text>
-  </answer>
-  <answer fraction="100" format="html">
-    <text><![CDATA[<p>will move in orbits like planets and obey Kepler's laws.</p>]]></text>
-  </answer>
-  <tags>
-    <tag><text>standard:neet_ug</text></tag>
-    <tag><text>lang:en</text></tag>
-    <tag><text>lang:bn</text></tag>
-    <tag><text>subject:physics</text></tag>
-    <tag><text>class:class_11</text></tag>
-    <tag><text>chapter:gravitation</text></tag>
-    <tag><text>typology:mcq</text></tag>
-    <tag><text>difficulty:easy</text></tag>
-    <tag><text>blooms:remember</text></tag>
-    <tag><text>calculation:light</text></tag>
-    <tag><text>media:text</text></tag>
-    <tag><text>multiconcept:false</text></tag>
-  </tags>
-</question>
-<question type="multichoice">
-  <name><text>NEET_UG_PHYSICS_GRAVITATION_MCQ_Q07 - Equivalence of inertial and gravitational mass</text></name>
-  <questiontext format="html">
-    <text><![CDATA[<p>Choose the wrong option.</p>
-<hr/>
-<p>ভুল বিকল্পটি নির্বাচন করুন।</p>]]></text>
-  </questiontext>
-  <generalfeedback format="html">
-    <text><![CDATA[<p><strong>Step 1: Definitions of Inertial and Gravitational Mass</strong><br/>
-Inertial mass \(m_i\) measures the resistance of a body to acceleration when acted upon by an external non-gravitational force, defined through Newton's second law: \(F = m_i a\). Gravitational mass \(m_g\) measures the strength of the gravitational force experienced by or exerted on the body in a gravitational field: \(F_g = m_g g\).</p>
-<p><strong>Step 2: Experimental Equivalence and Consequences</strong><br/>
-The exact equality \(m_i = m_g\) is an established experimental fact verified by Eötvös-type experiments with extraordinary precision. A direct consequence of \(m_i = m_g\) is that the acceleration under gravity, \(a = (m_g / m_i) g = g\), is identical for all bodies at a given location regardless of their composition or mass.</p>
-<p><strong>Step 3: Evaluation of Mass Invariance</strong><br/>
-Both inertial mass and gravitational mass of fundamental particles (such as protons) are intrinsic properties. Neither the inertial mass nor the gravitational mass is influenced by or dependent on the presence of neighbouring heavy matter. Therefore, stating that gravitational mass can depend on neighbouring heavy objects while inertial mass cannot is false.</p>
-<p><strong>Conclusion:</strong><br/>
-The incorrect statement is that gravitational mass of a particle like proton can depend on the presence of neighbouring heavy objects but the inertial mass cannot.</p>
-<hr/>
-<p><strong>ধাপ ১: জাড্য ভর ও মহাকর্ষীয় ভরের সংজ্ঞা</strong><br/>
-জাড্য ভর \(m_i\) হলো কোনো বস্তুর ওপর প্রযুক্ত বাহ্যিক বলের কারণে সৃষ্ট ত্বরণকে বাধা দেওয়ার পরিমাপ, যা নিউটনের দ্বিতীয় গতিসূত্র \(F = m_i a\) দ্বারা সংজ্ঞায়িত। মহাকর্ষীয় ভর \(m_g\) হলো মহাকর্ষীয় ক্ষেত্রে বস্তুটি দ্বারা অনুভূত বা প্রযুক্ত মহাকর্ষীয় বলের তীব্রতার পরিমাপ: \(F_g = m_g g\)।</p>
-<p><strong>ধাপ ২: পরীক্ষামূলক সমতা এবং এর তাৎপর্য</strong><br/>
-\(m_i = m_g\) হলো একটি পরীক্ষালব্ধ সত্য, যা অত্যন্ত সূক্ষ্ম পরীক্ষার মাধ্যমে প্রমাণিত। এই সমতার ফলেই যেকোনো নির্দিষ্ট স্থানে সকল বস্তুর জন্য অভিকর্ষজ ত্বরণ সমান হয়: \(a = (m_g / m_i) g = g\)।</p>
-<p><strong>ধাপ ৩: ভরের স্বকীয়তা বিশ্লেষণ</strong><br/>
-প্রোটনের মতো মৌলিক কণার ক্ষেত্রে জাড্য ভর এবং মহাকর্ষীয় ভর উভয়ই তাদের অন্তর্নিহিত মৌলিক ধর্ম। এদের কোনোটিই নিকটবর্তী কোনো ভারী বস্তুর উপস্থিতির ওপর নির্ভর করে পরিবর্তিত হয় না। অতএব, মহাকর্ষীয় ভর পার্শ্ববর্তী বস্তুর উপস্থিতির ওপর নির্ভর করে কিন্তু জাড্য ভর করে না—এই বক্তব্যটি ত্রুটিপূর্ণ।</p>
-<p><strong>উপসংহার:</strong><br/>
-ভুল বিবৃতিটি হলো: প্রোটনের মতো কণার মহাকর্ষীয় ভর নিকটবর্তী ভারী বস্তুর উপস্থিতির ওপর নির্ভর করতে পারে কিন্তু জাড্য ভর পারে না।</p>]]></text>
-  </generalfeedback>
-  <defaultgrade>4.0000000</defaultgrade>
-  <penalty>0.2500000</penalty>
-  <hidden>0</hidden>
-  <single>true</single>
-  <shuffleanswers>true</shuffleanswers>
-  <answernumbering>abc</answernumbering>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>Inertial mass is a measure of difficulty of accelerating a body by an external force whereas the gravitational mass is relevant in determining the gravitational force on it by an external mass.</p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>That the gravitational mass and inertial mass are equal is an experimental result.</p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>That the acceleration due to gravity on earth is the same for all bodies is due to the equality of gravitational mass and inertial mass.</p>]]></text>
-  </answer>
-  <answer fraction="100" format="html">
-    <text><![CDATA[<p>Gravitational mass of a particle like proton can depend on the presence of neighbouring heavy objects but the inertial mass cannot.</p>]]></text>
-  </answer>
-  <tags>
-    <tag><text>standard:neet_ug</text></tag>
-    <tag><text>lang:en</text></tag>
-    <tag><text>lang:bn</text></tag>
-    <tag><text>subject:physics</text></tag>
+    <tag><text>section:mcq_i</text></tag>
     <tag><text>class:class_11</text></tag>
     <tag><text>chapter:gravitation</text></tag>
     <tag><text>typology:mcq</text></tag>
@@ -446,85 +31,205 @@ The incorrect statement is that gravitational mass of a particle like proton can
   </tags>
 </question>
 <question type="multichoice">
-  <name><text>NEET_UG_PHYSICS_GRAVITATION_MCQ_Q08 - Three collinear masses gravitational attraction</text></name>
-  <questiontext format="html">
-    <text><![CDATA[<p>Particles of masses \(2M\), \(m\) and \(M\) are respectively at points \(A\), \(B\) and \(C\) with \(AB = \frac{1}{2}(BC)\). \(m\) is much-much smaller than \(M\) and at time \(t = 0\), they are all at rest (Fig. 8.1).</p>
-<p>At subsequent times before any collision takes place:</p>
-<p><img src="@@PLUGINFILE@@/img-0.jpeg" alt="Fig. 8.1" /></p>
-<hr/>
-<p>\(2M\), \(m\) এবং \(M\) ভরের কণাগুলি যথাক্রমে \(A\), \(B\) এবং \(C\) বিন্দুতে এমনভাবে অবস্থিত যাতে \(AB = \frac{1}{2}(BC)\)। \(m\) এর মান \(M\) এর তুলনায় অত্যন্ত ক্ষুদ্র এবং \(t = 0\) সময়ে তারা সকলেই স্থির অবস্থায় রয়েছে (চিত্র ৮.১)।</p>
-<p>পরবর্তী সময়ে কোনো সংঘর্ষ ঘটার পূর্বে:</p>]]></text>
-  </questiontext>
-  <generalfeedback format="html">
-    <text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>
-Mass at \(A\): \(m_A = 2M\)<br/>
-Mass at \(B\): \(m_B = m\)<br/>
-Mass at \(C\): \(m_C = M\)<br/>
-Distance relation: \(AB = \frac{1}{2} BC\). Let \(AB = d\), then \(BC = 2d\).<br/>
-All masses are initially at rest at \(t = 0\).</p>
-<p><strong>Step 2: Gravitational Forces Acting on Particle \(m\)</strong><br/>
-The mass \(2M\) at \(A\) exerts an attractive force \(F_{BA}\) on \(m\) directed toward \(A\) (leftward):
-\[F_{BA} = \frac{G(2M)m}{(AB)^2} = \frac{2GMm}{d^2}\]
-The mass \(M\) at \(C\) exerts an attractive force \(F_{BC}\) on \(m\) directed toward \(C\) (rightward):
-\[F_{BC} = \frac{G M m}{(BC)^2} = \frac{GMm}{(2d)^2} = \frac{GMm}{4d^2}\]
-Since \(m \ll M\), the displacement of the heavier masses \(2M\) and \(M\) over short initial times is negligible compared to that of \(m\).</p>
-<p><strong>Step 3: Comparison of Force Magnitudes</strong><br/>
-Comparing the two forces:
-\[\frac{F_{BA}}{F_{BC}} = \frac{\frac{2GMm}{d^2}}{\frac{GMm}{4d^2}} = 2 \times 4 = 8\]
-Thus, \(F_{BA} = 8 F_{BC}\), meaning the force pulling \(m\) toward \(A\) is eight times stronger than the force pulling it toward \(C\).</p>
-<p><strong>Step 4: Net Acceleration and Motion</strong><br/>
-The resultant force on \(m\) is directed towards \(A\) (towards the mass \(2M\)):
-\[F_{\text{net}} = F_{BA} - F_{BC} = \frac{7GMm}{4d^2} > 0 \quad (\text{toward } 2M)\]
-As \(m\) moves towards \(2M\), the separation \(AB\) decreases further, causing \(F_{BA}\) to increase while \(F_{BC}\) decreases, continuing its motion towards \(2M\).</p>
-<p><strong>Conclusion:</strong><br/>
-The particle \(m\) will move towards \(2M\).</p>
-<hr/>
-<p><strong>ধাপ ১: প্রদত্ত উপাত্ত ও শর্তাবলী</strong><br/>
-\(A\) বিন্দুতে ভর: \(m_A = 2M\)<br/>
-\(B\) বিন্দুতে ভর: \(m_B = m\)<br/>
-\(C\) বিন্দুতে ভর: \(m_C = M\)<br/>
-দূরত্বের সম্পর্ক: \(AB = \frac{1}{2} BC\)। ধরি \(AB = d\), সুতরাং \(BC = 2d\)।<br/>
-\(t = 0\) সময়ে কণাগুলি স্থির অবস্থায় রয়েছে।</p>
-<p><strong>ধাপ ২: \(m\) কণার ওপর প্রযুক্ত মহাকর্ষীয় বল</strong><br/>
-\(A\) বিন্দুস্থিত \(2M\) ভর দ্বারা \(m\) এর ওপর প্রযুক্ত আকর্ষণ বল \(F_{BA}\) (বামদিকে, \(A\) এর অভিমুখে):
-\[F_{BA} = \frac{G(2M)m}{(AB)^2} = \frac{2GMm}{d^2}\]
-\(C\) বিন্দুস্থিত \(M\) ভর দ্বারা \(m\) এর ওপর প্রযুক্ত আকর্ষণ বল \(F_{BC}\) (ডানদিকে, \(C\) এর অভিমুখে):
-\[F_{BC} = \frac{G M m}{(BC)^2} = \frac{GMm}{(2d)^2} = \frac{GMm}{4d^2}\]
-যেহেতু \(m \ll M\), তাই প্রাথমিক সময়ে ভারী বস্তুগুলির সরণ নগণ্য থাকে।</p>
-<p><strong>ধাপ ৩: বলের মানের তুলনা</strong><br/>
-উভয় বলের অনুপাত:
-\[\frac{F_{BA}}{F_{BC}} = \frac{\frac{2GMm}{d^2}}{\frac{GMm}{4d^2}} = 8\]
-অর্থাৎ \(F_{BA} = 8 F_{BC}\)। সুতরাং \(A\) অভিমুখে আকর্ষণ বল \(C\) অভিমুখী আকর্ষণ বলের তুলনায় আট গুণ শক্তিশালী।</p>
-<p><strong>ধাপ ৪: লব্ধি বল ও গতি</strong><br/>
-\(m\) কণার ওপর লব্ধি বল \(2M\) এর দিকে কাজ করে:
-\[F_{\text{net}} = F_{BA} - F_{BC} = \frac{7GMm}{4d^2} \quad (2M\text{ অভিমুখে})\]
-ফলে কণাটি \(2M\) ভরের দিকে ত্বরান্বিত হবে।</p>
-<p><strong>উপসংহার:</strong><br/>
-\(m\) ভরটি \(2M\) ভরের দিকে অগ্রসর হবে।</p>]]></text>
-  </generalfeedback>
+  <name><text>PHYSICS_MCQI_GRAVITATION_MCQ_Q02 - Apparent motion of Mercury observed from earth</text></name>
+  <questiontext format="html"><text><![CDATA[<p>8.2 As observed from earth, the sun appears to move in an approximate circular orbit. For the motion of another planet like mercury as observed from earth, this would</p><hr/><p>৮.২ পৃথিবী থেকে পর্যবেক্ষণ করলে সূর্যকে প্রায় বৃত্তাকার কক্ষপথে ঘুরতে দেখা যায়। পৃথিবী থেকে পর্যবেক্ষিত বুধের মতো অন্য কোনো গ্রহের গতির ক্ষেত্রে এটি</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>In the solar system, the sun is vastly more massive than any planet, so the dominant gravitational force governing the motion of both earth and mercury is the gravitational attraction of the sun. Both planets revolve around the sun in nearly circular (elliptical) orbits.</p><p><strong>Step 2: Evaluation of Relative Motion</strong><br/>As observed from earth, the sun appears to move in an approximate circular orbit because the earth revolves around the sun. However, mercury also revolves around the sun under the sun's major gravitational pull, with a different orbital radius and angular speed. The position vector of mercury relative to earth is \(\mathbf{r}_{ME} = \mathbf{r}_{MS} - \mathbf{r}_{ES}\), which is the difference of two circular motions with different periods.</p><p><strong>Step 3: Final Conclusion</strong><br/>Because the major gravitational force on mercury is due to the sun (not due to the earth), mercury's motion as observed from earth will not appear as a simple circular orbit.</p><hr/><p><strong>ধাপ ১: ধারণাগত নীতি</strong><br/>সৌরজগতে সূর্য যেকোনো গ্রহের তুলনায় অনেক বেশি ভরসম্পন্ন, তাই পৃথিবী ও বুধ উভয়ের গতি নিয়ন্ত্রণকারী প্রধান মহাকর্ষীয় বল হলো সূর্যের মহাকর্ষীয় আকর্ষণ। উভয় গ্রহই সূর্যের চারপাশে প্রায় বৃত্তাকার (উপবৃত্তাকার) কক্ষপথে আবর্তন করে।</p><p><strong>ধাপ ২: আপেক্ষিক গতির মূল্যায়ন</strong><br/>পৃথিবী সূর্যের চারপাশে ঘোরে বলে পৃথিবী থেকে সূর্যকে প্রায় বৃত্তাকার পথে ঘুরতে দেখা যায়। কিন্তু বুধও সূর্যের প্রধান মহাকর্ষীয় আকর্ষণে ভিন্ন কক্ষীয় ব্যাসার্ধ ও কৌণিক বেগে সূর্যের চারপাশে ঘোরে। পৃথিবীর সাপেক্ষে বুধের অবস্থান ভেক্টর \(\mathbf{r}_{ME} = \mathbf{r}_{MS} - \mathbf{r}_{ES}\), যা ভিন্ন পর্যায়কালের দুটি বৃত্তাকার গতির পার্থক্য।</p><p><strong>ধাপ ৩: চূড়ান্ত সিদ্ধান্ত</strong><br/>যেহেতু বুধের ওপর প্রধান মহাকর্ষীয় বল সূর্যের কারণে (পৃথিবীর কারণে নয়), তাই পৃথিবী থেকে পর্যবেক্ষিত বুধের গতি সরল বৃত্তাকার কক্ষপথের মতো হবে না।</p>]]></text></generalfeedback>
   <defaultgrade>4.0000000</defaultgrade>
   <penalty>0.2500000</penalty>
   <hidden>0</hidden>
   <single>true</single>
   <shuffleanswers>true</shuffleanswers>
   <answernumbering>abc</answernumbering>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>\(m\) will remain at rest.</p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>\(m\) will move towards \(M\).</p>]]></text>
-  </answer>
-  <answer fraction="100" format="html">
-    <text><![CDATA[<p>\(m\) will move towards \(2M\).</p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>\(m\) will have oscillatory motion.</p>]]></text>
-  </answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>be similarly true.</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>not be true because the force between earth and mercury is not inverse square law.</p>]]></text></answer>
+  <answer fraction="100" format="html"><text><![CDATA[<p>not be true because the major gravitational force on mercury is due to sun.</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>not be true because mercury is influenced by forces other than gravitational forces.</p>]]></text></answer>
   <tags>
     <tag><text>standard:neet_ug</text></tag>
     <tag><text>lang:en</text></tag>
     <tag><text>lang:bn</text></tag>
     <tag><text>subject:physics</text></tag>
+    <tag><text>section:mcq_i</text></tag>
+    <tag><text>class:class_11</text></tag>
+    <tag><text>chapter:gravitation</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:easy</text></tag>
+    <tag><text>blooms:understand</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:text</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+<question type="multichoice">
+  <name><text>PHYSICS_MCQI_GRAVITATION_MCQ_Q03 - Torque on earth due to sun gravitation</text></name>
+  <questiontext format="html"><text><![CDATA[<p>8.3 Different points in earth are at slightly different distances from the sun and hence experience different forces due to gravitation. For a rigid body, we know that if various forces act at various points in it, the resultant motion is as if a net force acts on the c.m. (centre of mass) causing translation and a net torque at the c.m. causing rotation around an axis through the c.m. For the earth-sun system (approximating the earth as a uniform density sphere)</p><hr/><p>৮.৩ পৃথিবীর বিভিন্ন বিন্দু সূর্য থেকে সামান্য ভিন্ন দূরত্বে অবস্থিত হওয়ায় ভিন্ন ভিন্ন মহাকর্ষীয় বল অনুভব করে। কোনো দৃঢ় বস্তুর বিভিন্ন বিন্দুতে বিভিন্ন বল ক্রিয়া করলে, লব্ধি গতি এমন হয় যেন একটি নিট বল ভরকেন্দ্রে (c.m.) ক্রিয়া করে চলন গতি সৃষ্টি করে এবং ভরকেন্দ্রে একটি নিট টর্ক ভরকেন্দ্রগামী অক্ষের সাপেক্ষে ঘূর্ণন গতি সৃষ্টি করে। পৃথিবী-সূর্য ব্যবস্থার জন্য (পৃথিবীকে সুষম ঘনত্বের গোলক ধরে নিয়ে)</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>By Newton's shell theorem, the gravitational interaction between a uniform-density sphere (the earth) and an external point mass or sphere (the sun) is equivalent to the interaction between two point masses located at their respective centres of mass.</p><p><strong>Step 2: Evaluation of Torque</strong><br/>Since the resultant gravitational force exerted by the sun on the uniform spherical earth acts along the line joining the centres of mass of the sun and the earth, its line of action passes directly through the centre of mass of the earth. The perpendicular distance (moment arm) from the earth's centre of mass to the line of action of the net force is zero, so \(\tau = r_{\perp} F = 0\).</p><p><strong>Step 3: Final Conclusion</strong><br/>For the earth-sun system with the earth approximated as a uniform density sphere, the net torque about the earth's centre of mass is zero.</p><hr/><p><strong>ধাপ ১: ধারণাগত নীতি</strong><br/>নিউটনের শেল উপপাদ্য অনুযায়ী, একটি সুষম ঘনত্বের গোলক (পৃথিবী) এবং একটি বহিঃস্থ বিন্দু ভর বা গোলকের (সূর্য) মধ্যে মহাকর্ষীয় ক্রিয়া তাদের নিজ নিজ ভরকেন্দ্রে অবস্থিত দুটি বিন্দু ভরের মধ্যকার ক্রিয়ার সমতুল্য।</p><p><strong>ধাপ ২: টর্কের মূল্যায়ন</strong><br/>সুষম গোলকাকার পৃথিবীর ওপর সূর্যের দ্বারা প্রযুক্ত লব্ধি মহাকর্ষীয় বল সূর্য ও পৃথিবীর ভরকেন্দ্র সংযোগকারী সরলরেখা বরাবর ক্রিয়া করে, অর্থাৎ বলের ক্রিয়া-রেখা সরাসরি পৃথিবীর ভরকেন্দ্রের মধ্য দিয়ে যায়। পৃথিবীর ভরকেন্দ্র থেকে এই নিট বলের ক্রিয়া-রেখার লম্ব দূরত্ব শূন্য হওয়ায়, \(\tau = r_{\perp} F = 0\) হয়।</p><p><strong>ধাপ ৩: চূড়ান্ত সিদ্ধান্ত</strong><br/>পৃথিবীকে সুষম ঘনত্বের গোলক ধরে নিলে, পৃথিবী-সূর্য ব্যবস্থায় পৃথিবীর ভরকেন্দ্রের সাপেক্ষে নিট টর্ক শূন্য হয়।</p>]]></text></generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="100" format="html"><text><![CDATA[<p>the torque is zero.</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>the torque causes the earth to spin.</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>the rigid body result is not applicable since the earth is not even approximately a rigid body.</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>the torque causes the earth to move around the sun.</p>]]></text></answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:bn</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>section:mcq_i</text></tag>
+    <tag><text>class:class_11</text></tag>
+    <tag><text>chapter:gravitation</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:medium</text></tag>
+    <tag><text>blooms:understand</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:text</text></tag>
+    <tag><text>multiconcept:true</text></tag>
+  </tags>
+</question>
+<question type="multichoice">
+  <name><text>PHYSICS_MCQI_GRAVITATION_MCQ_Q04 - Finite life of satellites orbiting earth</text></name>
+  <questiontext format="html"><text><![CDATA[<p>8.4 Satellites orbiting the earth have finite life and sometimes debris of satellites fall to the earth. This is because,</p><hr/><p>৮.৪ পৃথিবীকে প্রদক্ষিণকারী কৃত্রিম উপগ্রহগুলির আয়ু সীমিত হয় এবং কখনো কখনো উপগ্রহের ধ্বংসাবশেষ পৃথিবীতে আছড়ে পড়ে। এর কারণ হলো,</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>Total mechanical energy of a satellite of mass \(m\) in a circular orbit of radius \(r\) around the earth (mass \(M\)) is given by \(E = -\frac{GMm}{2r}\).</p><p><strong>Step 2: Effect of Viscous Drag</strong><br/>As a satellite orbits in the upper atmosphere, it experiences small viscous drag (air resistance). This dissipative force does negative work on the satellite, causing its total mechanical energy \(E\) to gradually decrease (become more negative). Since \(E = -\frac{GMm}{2r}\), a decrease in \(E\) implies a decrease in the orbital radius \(r\) and hence its height above the earth, causing it to spiral inward and eventually fall to the earth.</p><p><strong>Step 3: Final Conclusion</strong><br/>Satellites have a finite life and fall to the earth because viscous forces cause the energy and orbital height of the satellite to gradually decrease.</p><hr/><p><strong>ধাপ ১: ধারণাগত নীতি</strong><br/>পৃথিবীর (ভর \(M\)) চারপাশে \(r\) ব্যাসার্ধের বৃত্তাকার কক্ষপথে ঘূর্ণায়মান \(m\) ভরের একটি উপগ্রহের মোট যান্ত্রিক শক্তি হলো \(E = -\frac{GMm}{2r}\)।</p><p><strong>ধাপ ২: সান্দ্র বলের প্রভাব</strong><br/>উপগ্রহটি বায়ুমণ্ডলের উপরের স্তরে প্রদক্ষিণ করার সময় সামান্য সান্দ্র বল (বায়ুর বাধা) অনুভব করে। এই অপচয়ী বল উপগ্রহের ওপর ঋণাত্মক কার্য করে, যার ফলে এর মোট যান্ত্রিক শক্তি \(E\) ধীরে ধীরে হ্রাস পায় (আরও ঋণাত্মক হয়)। যেহেতু \(E = -\frac{GMm}{2r}\), তাই \(E\) কমলে কক্ষীয় ব্যাসার্ধ \(r\) এবং ভূপৃষ্ঠ থেকে উচ্চতা ধীরে ধীরে কমে যায়, ফলে উপগ্রহটি সর্পিল পথে নিচের দিকে নেমে পৃথিবীতে পতিত হয়।</p><p><strong>ধাপ ৩: চূড়ান্ত সিদ্ধান্ত</strong><br/>সান্দ্র বলের কারণে উপগ্রহের বেগ ও শক্তি প্রভাবিত হয়ে এর উচ্চতা ক্রমশ হ্রাস পায় বলেই উপগ্রহগুলির আয়ু সীমিত হয় এবং সেগুলি পৃথিবীতে পড়ে যায়।</p>]]></text></generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="0" format="html"><text><![CDATA[<p>the solar cells and batteries in satellites run out.</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>the laws of gravitation predict a trajectory spiralling inwards.</p>]]></text></answer>
+  <answer fraction="100" format="html"><text><![CDATA[<p>of viscous forces causing the speed of satellite and hence height to gradually decrease.</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>of collisions with other satellites.</p>]]></text></answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:bn</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>section:mcq_i</text></tag>
+    <tag><text>class:class_11</text></tag>
+    <tag><text>chapter:gravitation</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:easy</text></tag>
+    <tag><text>blooms:understand</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:text</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+<question type="multichoice">
+  <name><text>PHYSICS_MCQI_GRAVITATION_MCQ_Q05 - Orbit of moon as observed from sun</text></name>
+  <questiontext format="html"><text><![CDATA[<p>8.5 Both earth and moon are subject to the gravitational force of the sun. As observed from the sun, the orbit of the moon</p><hr/><p>৮.৫ পৃথিবী ও চাঁদ উভয়েই সূর্যের মহাকর্ষীয় বলের অধীন। সূর্য থেকে পর্যবেক্ষণ করলে, চাঁদের কক্ষপথ</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>According to Kepler's first law, a body moves in a strictly elliptical orbit around a centre of force only when the net force acting on it is a central inverse-square force directed toward that fixed centre.</p><p><strong>Step 2: Evaluation of Forces on the Moon</strong><br/>As observed from the sun, the moon is simultaneously acted upon by the gravitational attraction of the sun and the gravitational attraction of the earth. Since the earth revolves around the sun and the moon revolves around the earth, the moon does not always lie on the line joining the sun and the earth. Hence, the net gravitational force on the moon is not directed solely toward the sun—it is not a central force with respect to the sun.</p><p><strong>Step 3: Final Conclusion</strong><br/>As observed from the sun, the orbit of the moon will not be strictly elliptical because the total gravitational force acting on it is not central.</p><hr/><p><strong>ধাপ ১: ধারণাগত নীতি</strong><br/>কেপলারের প্রথম সূত্র অনুযায়ী, কোনো বস্তু কেবল তখনই একটি বলকেন্দ্রের চারপাশে সম্পূর্ণ উপবৃত্তাকার কক্ষপথে ঘোরে যখন তার ওপর ক্রিয়াশীল লব্ধি বলটি ওই স্থির কেন্দ্রের দিকে অভিমুখী একটি কেন্দ্রীয় ব্যস্তানুপাতিক বর্গ সূত্রানুসারী বল হয়।</p><p><strong>ধাপ ২: চাঁদের ওপর ক্রিয়াশীল বলের মূল্যায়ন</strong><br/>সূর্য থেকে পর্যবেক্ষণ করলে দেখা যায়, চাঁদের ওপর সূর্যের মহাকর্ষীয় আকর্ষণ এবং পৃথিবীর মহাকর্ষীয় আকর্ষণ—উভয়ই যুগপৎভাবে ক্রিয়া করে। যেহেতু পৃথিবী সূর্যের চারপাশে এবং চাঁদ পৃথিবীর চারপাশে ঘোরে, তাই চাঁদ সর্বদা সূর্য ও পৃথিবীর সংযোগকারী সরলরেখায় অবস্থান করে না। ফলে চাঁদের ওপর ক্রিয়াশীল মোট মহাকর্ষীয় বল কেবল সূর্যের দিকে অভিমুখী নয়; অর্থাৎ সূর্যের সাপেক্ষে এটি কেন্দ্রীয় বল নয়।</p><p><strong>ধাপ ৩: চূড়ান্ত সিদ্ধান্ত</strong><br/>সূর্য থেকে পর্যবেক্ষণ করলে চাঁদের কক্ষপথ সম্পূর্ণ উপবৃত্তাকার হবে না, কারণ এর ওপর ক্রিয়াশীল মোট মহাকর্ষীয় বল কেন্দ্রীয় নয়।</p>]]></text></generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="0" format="html"><text><![CDATA[<p>will be elliptical.</p>]]></text></answer>
+  <answer fraction="100" format="html"><text><![CDATA[<p>will not be strictly elliptical because the total gravitational force on it is not central.</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>is not elliptical but will necessarily be a closed curve.</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>deviates considerably from being elliptical due to influence of planets other than earth.</p>]]></text></answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:bn</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>section:mcq_i</text></tag>
+    <tag><text>class:class_11</text></tag>
+    <tag><text>chapter:gravitation</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:medium</text></tag>
+    <tag><text>blooms:understand</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:text</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+<question type="multichoice">
+  <name><text>PHYSICS_MCQI_GRAVITATION_MCQ_Q06 - Motion of asteroids around the sun</text></name>
+  <questiontext format="html"><text><![CDATA[<p>8.6 In our solar system, the inter-planetary region has chunks of matter (much smaller in size compared to planets) called asteroids. They</p><hr/><p>৮.৬ আমাদের সৌরজগতের আন্তঃগ্রহীয় অঞ্চলে গ্রহাণু (asteroids) নামক পদার্থের খণ্ড (গ্রহের তুলনায় আকারে অনেক ছোট) রয়েছে। এগুলি</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>Kepler's laws of planetary motion apply to any bound body moving under the central inverse-square gravitational attraction of the sun, regardless of the body's mass (as long as its mass is much smaller than the sun's mass).</p><p><strong>Step 2: Evaluation</strong><br/>Asteroids are acted upon by the central gravitational force of the sun, just like planets. Because the acceleration of an orbiting body due to the sun's gravity (\(a = \frac{GM_{\text{sun}}}{r^2}\)) is independent of the body's own mass, asteroids follow closed elliptical orbits and obey all three of Kepler's laws.</p><p><strong>Step 3: Final Conclusion</strong><br/>Asteroids move in orbits around the sun like planets and obey Kepler's laws.</p><hr/><p><strong>ধাপ ১: ধারণাগত নীতি</strong><br/>কেপলারের গ্রহীয় গতির সূত্রাবলি সূর্যের কেন্দ্রীয় ব্যস্তানুপাতিক বর্গ মহাকর্ষীয় আকর্ষণের অধীনে আবর্তনশীল যেকোনো আবদ্ধ বস্তুর ক্ষেত্রেই প্রযোজ্য, তা বস্তুটির ভর যাই হোক না কেন (যতক্ষণ এর ভর সূর্যের ভরের তুলনায় নগণ্য)।</p><p><strong>ধাপ ২: মূল্যায়ন</strong><br/>গ্রহগুলির মতোই গ্রহাণুগুলির ওপরও সূর্যের কেন্দ্রীয় মহাকর্ষীয় বল ক্রিয়া করে। যেহেতু সূর্যের মহাকর্ষের কারণে কোনো প্রদক্ষিণরত বস্তুর ত্বরণ (\(a = \frac{GM_{\text{sun}}}{r^2}\)) বস্তুটির নিজস্ব ভরের ওপর নির্ভর করে না, তাই গ্রহাণুগুলিও আবদ্ধ উপবৃত্তাকার কক্ষপথে ঘোরে এবং কেপলারের তিনটি সূত্রই মেনে চলে।</p><p><strong>ধাপ ৩: চূড়ান্ত সিদ্ধান্ত</strong><br/>গ্রহাণুগুলি গ্রহের মতোই কক্ষপথে আবর্তন করে এবং কেপলারের সূত্রাবলি মেনে চলে।</p>]]></text></generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="0" format="html"><text><![CDATA[<p>will not move around the sun since they have very small masses compared to sun.</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>will move in an irregular way because of their small masses and will drift away into outer space.</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>will move around the sun in closed orbits but not obey Kepler's laws.</p>]]></text></answer>
+  <answer fraction="100" format="html"><text><![CDATA[<p>will move in orbits like planets and obey Kepler's laws.</p>]]></text></answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:bn</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>section:mcq_i</text></tag>
+    <tag><text>class:class_11</text></tag>
+    <tag><text>chapter:gravitation</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:easy</text></tag>
+    <tag><text>blooms:understand</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:text</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+<question type="multichoice">
+  <name><text>PHYSICS_MCQI_GRAVITATION_MCQ_Q07 - Equivalence of gravitational and inertial mass</text></name>
+  <questiontext format="html"><text><![CDATA[<p>8.7 Choose the wrong option.</p><hr/><p>৮.৭ ভুল বিকল্পটি বেছে নাও।</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>Inertial mass \(m_i\) measures the resistance of a body to acceleration by an external force (\(F = m_i a\)), while gravitational mass \(m_g\) determines the gravitational force experienced by the body in a gravitational field (\(F_g = m_g g\)).</p><p><strong>Step 2: Evaluation of Statements</strong><br/>Experiments (such as those by Galileo, Newton, and Eötvös) establish that gravitational mass and inertial mass are equal (\(m_g = m_i\)), which explains why all bodies fall with the same acceleration due to gravity on earth (\(a = \frac{m_g}{m_i}g = g\)). Both inertial mass and gravitational mass are intrinsic properties of a particle like a proton and do not depend on the presence of neighbouring heavy objects.</p><p><strong>Step 3: Final Conclusion</strong><br/>The statement claiming that the gravitational mass of a particle like a proton can depend on the presence of neighbouring heavy objects while the inertial mass cannot is wrong.</p><hr/><p><strong>ধাপ ১: ধারণাগত নীতি</strong><br/>জড়ীয় ভর \(m_i\) কোনো বাহ্যিক বলের দ্বারা বস্তুর ত্বরণের বিরুদ্ধে বাধাকে পরিমাপ করে (\(F = m_i a\)), অন্যদিকে মহাকর্ষীয় ভর \(m_g\) মহাকর্ষীয় ক্ষেত্রে বস্তুটির ওপর প্রযুক্ত মহাকর্ষীয় বল নির্ধারণ করে (\(F_g = m_g g\))।</p><p><strong>ধাপ ২: বিবৃতিগুলির মূল্যায়ন</strong><br/>পরীক্ষামূলকভাবে প্রমাণিত যে মহাকর্ষীয় ভর এবং জড়ীয় ভর পরস্পর সমান (\(m_g = m_i\)), যার ফলে পৃথিবীতে সমস্ত বস্তুর অভিকর্ষজ ত্বরণ একই হয় (\(a = \frac{m_g}{m_i}g = g\))। জড়ীয় ভর ও মহাকর্ষীয় ভর উভয়ই প্রোটনের মতো কণার নিজস্ব ধর্ম এবং এগুলি নিকটবর্তী ভারী বস্তুর উপস্থিতির ওপর নির্ভর করে না।</p><p><strong>ধাপ ৩: চূড়ান্ত সিদ্ধান্ত</strong><br/>প্রোটনের মতো কোনো কণার মহাকর্ষীয় ভর নিকটবর্তী ভারী বস্তুর উপস্থিতির ওপর নির্ভর করতে পারে কিন্তু জড়ীয় ভর পারে না—এই বক্তব্যটি ভুল।</p>]]></text></generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="0" format="html"><text><![CDATA[<p>Inertial mass is a measure of difficulty of accelerating a body by an external force whereas the gravitational mass is relevant in determining the gravitational force on it by an external mass.</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>That the gravitational mass and inertial mass are equal is an experimental result.</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>That the acceleration due to gravity on earth is the same for all bodies is due to the equality of gravitational mass and inertial mass.</p>]]></text></answer>
+  <answer fraction="100" format="html"><text><![CDATA[<p>Gravitational mass of a particle like proton can depend on the presence of neighbouring heavy objects but the inertial mass cannot.</p>]]></text></answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:bn</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>section:mcq_i</text></tag>
+    <tag><text>class:class_11</text></tag>
+    <tag><text>chapter:gravitation</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:easy</text></tag>
+    <tag><text>blooms:understand</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:text</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+<question type="multichoice">
+  <name><text>PHYSICS_MCQI_GRAVITATION_MCQ_Q08 - Motion of particle between two masses</text></name>
+  <questiontext format="html"><text><![CDATA[<p>8.8 Particles of masses \(2M\), \(m\) and \(M\) are respectively at points \(A\), \(B\) and \(C\) with \(AB = \frac{1}{2}(BC)\). \(m\) is much-much smaller than \(M\) and at time \(t = 0\), they are all at rest (Fig. 8.1).</p><p>At subsequent times before any collision takes place:</p><p><img src="@@PLUGINFILE@@/img-0.jpeg" alt="Particles of masses 2M, m and M at points A, B and C along a line" /></p><hr/><p>৮.৮ \(2M\), \(m\) এবং \(M\) ভরের কণাগুলি যথাক্রমে \(A\), \(B\) এবং \(C\) বিন্দুতে অবস্থিত, যেখানে \(AB = \frac{1}{2}(BC)\) । \(m\)-এর মান \(M\)-এর তুলনায় অতি ক্ষুদ্র এবং \(t = 0\) সময়ে এরা সকলে স্থির অবস্থায় আছে (চিত্র ৮.১)।</p><p>যেকোনো সংঘর্ষ ঘটার পূর্বে পরবর্তী সময়ে:</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>Mass at \(A\) is \(2M\), mass at \(B\) is \(m\) (\(m \ll M\)), and mass at \(C\) is \(M\). The points \(A\), \(B\), and \(C\) are collinear with \(B\) between \(A\) and \(C\), and \(AB = \frac{1}{2}(BC)\). All particles are initially at rest at \(t = 0\).</p><p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>Let the distance \(AB = r\), so \(BC = 2r\). Take the direction from \(B\) toward \(A\) (toward mass \(2M\)) as positive along the line \(AC\).</p><p><strong>Step 3: Relevant Formulae and Principles</strong><br/>Newton's law of universal gravitation gives the magnitude of gravitational force between two point masses \(m_1\) and \(m_2\) separated by distance \(d\) as \(F = \frac{G m_1 m_2}{d^2}\).</p><p><strong>Step 4: Step-by-Step Working</strong><br/>The gravitational force on mass \(m\) at \(B\) due to mass \(2M\) at \(A\) is:<br/>\[F_{BA} = \frac{G(2M)m}{r^2} = \frac{2GMm}{r^2} \quad (\text{towards } A,\text{ i.e., towards } 2M)\]<br/>The gravitational force on mass \(m\) at \(B\) due to mass \(M\) at \(C\) is:<br/>\[F_{BC} = \frac{GMm}{(2r)^2} = \frac{GMm}{4r^2} \quad (\text{towards } C,\text{ i.e., towards } M)\]<br/>Comparing the two forces, \(F_{BA} = 8 F_{BC}\), so \(F_{BA} &gt; F_{BC}\). The net force on \(m\) is:<br/>\[F_{\text{net}} = F_{BA} - F_{BC} = \frac{2GMm}{r^2} - \frac{GMm}{4r^2} = \frac{7GMm}{4r^2} \quad (\text{towards } 2M)\]</p><p><strong>Step 5: Check and Final Answer</strong><br/>Since \(m \ll M\), the heavy masses \(2M\) and \(M\) remain nearly stationary initially while \(m\) experiences a net gravitational pull toward \(2M\). As \(m\) moves closer to \(2M\), \(F_{BA}\) increases further and \(F_{BC}\) decreases, so \(m\) continues to move toward \(2M\). Thus, \(m\) will move towards \(2M\).</p><hr/><p><strong>ধাপ ১: প্রদত্ত তথ্য ও শর্তাবলি</strong><br/>\(A\) বিন্দুতে ভর \(2M\), \(B\) বিন্দুতে ভর \(m\) (\(m \ll M\)) এবং \(C\) বিন্দুতে ভর \(M\) অবস্থিত। \(A\), \(B\) এবং \(C\) বিন্দু তিনটি সমরেখ, যেখানে \(B\) বিন্দু \(A\) ও \(C\)-এর মাঝে অবস্থিত এবং \(AB = \frac{1}{2}(BC)\) । \(t = 0\) সময়ে সমস্ত কণা স্থির অবস্থায় আছে।</p><p><strong>ধাপ ২: অনুমান ও চিহ্ন প্রথা</strong><br/>ধরি \(AB = r\), তাহলে \(BC = 2r\) হবে। \(AC\) সরলরেখা বরাবর \(B\) থেকে \(A\)-এর দিককে (\(2M\) ভরের দিকে) ধনাত্মক ধরা হলো।</p><p><strong>ধাপ ৩: প্রাসঙ্গিক সূত্র ও নীতি</strong><br/>নিউটনের মহাকর্ষ সূত্র অনুযায়ী, \(d\) দূরত্বে অবস্থিত দুটি বিন্দু ভর \(m_1\) ও \(m_2\)-এর মধ্যে মহাকর্ষীয় বলের মান \(F = \frac{G m_1 m_2}{d^2}\) ।</p><p><strong>ধাপ ৪: ধাপে ধাপে গণনা</strong><br/>\(A\) বিন্দুতে অবস্থিত \(2M\) ভরের জন্য \(B\) বিন্দুর \(m\) ভরের ওপর মহাকর্ষীয় বল:<br/>\[F_{BA} = \frac{G(2M)m}{r^2} = \frac{2GMm}{r^2} \quad (A\text{-এর দিকে, অর্থাৎ } 2M\text{-এর দিকে})\]<br/>\(C\) বিন্দুতে অবস্থিত \(M\) ভরের জন্য \(B\) বিন্দুর \(m\) ভরের ওপর মহাকর্ষীয় বল:<br/>\[F_{BC} = \frac{GMm}{(2r)^2} = \frac{GMm}{4r^2} \quad (C\text{-এর দিকে, অর্থাৎ } M\text{-এর দিকে})\]<br/>বল দুটির তুলনা করে পাই, \(F_{BA} = 8 F_{BC}\), অর্থাৎ \(F_{BA} &gt; F_{BC}\) । সুতরাং \(m\)-এর ওপর নিট বল:<br/>\[F_{\text{net}} = F_{BA} - F_{BC} = \frac{2GMm}{r^2} - \frac{GMm}{4r^2} = \frac{7GMm}{4r^2} \quad (2M\text{-এর দিকে})\]</p><p><strong>ধাপ ৫: যাচাই ও চূড়ান্ত উত্তর</strong><br/>যেহেতু \(m \ll M\), তাই শুরুতে ভারী ভর \(2M\) এবং \(M\) প্রায় স্থির থাকে এবং \(m\) কণাটি \(2M\)-এর দিকে নিট মহাকর্ষীয় আকর্ষণ অনুভব করে। \(m\) যতই \(2M\)-এর দিকে এগোয়, \(F_{BA}\) আরও বাড়তে থাকে এবং \(F_{BC}\) কমতে থাকে, ফলে এটি \(2M\)-এর দিকেই গতিশীল থাকে। অতএব, \(m\) কণাটি \(2M\)-এর দিকে যাবে।</p>]]></text></generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="0" format="html"><text><![CDATA[<p>\(m\) will remain at rest.</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>\(m\) will move towards \(M\).</p>]]></text></answer>
+  <answer fraction="100" format="html"><text><![CDATA[<p>\(m\) will move towards \(2M\).</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>\(m\) will have oscillatory motion.</p>]]></text></answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:bn</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>section:mcq_i</text></tag>
     <tag><text>class:class_11</text></tag>
     <tag><text>chapter:gravitation</text></tag>
     <tag><text>typology:mcq</text></tag>
@@ -536,74 +241,59 @@ The particle \(m\) will move towards \(2M\).</p>
   </tags>
 </question>
 <question type="multichoice">
-  <name><text>NEET_UG_PHYSICS_GRAVITATION_MCQ_Q09 - Variations of acceleration due to gravity</text></name>
-  <questiontext format="html">
-    <text><![CDATA[<p>Which of the following options are correct?</p>
-<hr/>
-<p>নিচের কোন বিকল্পগুলি সঠিক?</p>]]></text>
-  </questiontext>
-  <generalfeedback format="html">
-    <text><![CDATA[<p><strong>Step 1: Variation with Altitude</strong><br/>
-At a height \(h\) above the Earth's surface, the acceleration due to gravity is:
-\[g_h = \frac{GM}{(R+h)^2} = g \left(1 + \frac{h}{R}\right)^{-2} \approx g \left(1 - \frac{2h}{R}\right) \quad (\text{for } h \ll R)\]
-As height \(h\) increases, \(R+h\) increases, and therefore \(g_h\) strictly decreases. Hence, acceleration due to gravity decreases with increasing altitude is a correct statement.</p>
-<p><strong>Step 2: Variation with Depth</strong><br/>
-At a depth \(d\) below the surface of a uniform sphere of radius \(R\), only the inner sphere of radius \((R-d)\) contributes to the gravitational attraction. The acceleration due to gravity is:
-\[g_d = g \left(1 - \frac{d}{R}\right)\]
-As depth \(d\) increases, \(g_d\) decreases linearly, reaching zero at the Earth's centre. Thus, acceleration due to gravity decreases (not increases) with increasing depth, making that statement incorrect.</p>
-<p><strong>Step 3: Variation with Latitude</strong><br/>
-Due to the Earth's daily rotation with angular velocity \(\omega\), the effective acceleration due to gravity at latitude \(\lambda\) is:
-\[g_\lambda = g - \omega^2 R \cos^2\lambda\]
-At the equator (\(\lambda = 0^\circ\)), \(\cos\lambda = 1\), giving the minimum value \(g - \omega^2 R\). At the poles (\(\lambda = 90^\circ\)), \(\cos\lambda = 0\), giving the maximum value \(g\). As latitude \(\lambda\) increases from the equator toward the poles, \(\cos\lambda\) decreases, so \(g_\lambda\) increases. Hence, acceleration due to gravity increases with increasing latitude is a correct statement.</p>
-<p><strong>Step 4: Dependence on Earth's Mass</strong><br/>
-On the surface of the Earth, the acceleration due to gravity is \(g = \frac{GM}{R^2}\), which is directly proportional to the mass \(M\) of the Earth. Therefore, stating that it is independent of the mass of the Earth is incorrect.</p>
-<p><strong>Conclusion:</strong><br/>
-The correct statements are that acceleration due to gravity decreases with increasing altitude, and that acceleration due to gravity increases with increasing latitude.</p>
-<hr/>
-<p><strong>ধাপ ১: উচ্চতার সাথে পরিবর্তন</strong><br/>
-ভূপৃষ্ঠ থেকে \(h\) উচ্চতায় অভিকর্ষজ ত্বরণ:
-\[g_h = \frac{GM}{(R+h)^2}\]
-উচ্চতা \(h\) বৃদ্ধির সাথে সাথে দূরত্ব বৃদ্ধি পায়, ফলে \(g_h\) এর মান হ্রাস পায়। অতএব, উচ্চতা বৃদ্ধির সাথে অভিকর্ষজ ত্বরণ হ্রাস পায়—এই বক্তব্যটি সঠিক।</p>
-<p><strong>ধাপ ২: গভীরতার সাথে পরিবর্তন</strong><br/>
-সুষম ঘনত্বের গোলকের ক্ষেত্রে ভূ-অভ্যন্তরে \(d\) গভীরতায় অভিকর্ষজ ত্বরণ:
-\[g_d = g \left(1 - \frac{d}{R}\right)\]
-গভীরতা \(d\) বাড়ার সাথে সাথে \(g_d\) হ্রাস পায় এবং কেন্দ্রে এর মান শূন্য হয়। সুতরাং গভীরতার সাথে এটি বৃদ্ধি পায় না, বরং হ্রাস পায়।</p>
-<p><strong>ধাপ ৩: অক্ষাংশের সাথে পরিবর্তন</strong><br/>
-পৃথিবীর ঘূর্ণনের কারণে \(\lambda\) অক্ষাংশে কার্যকর অভিকর্ষজ ত্বরণ:
-\[g_\lambda = g - \omega^2 R \cos^2\lambda\]
-বিষুবরেখা থেকে (\(\lambda = 0^\circ\)) মেরুর দিকে (\(\lambda = 90^\circ\)) যাওয়ার সময় \(\cos\lambda\) হ্রাস পায়, যার ফলে \(g_\lambda\) এর মান বৃদ্ধি পায়। অতএব, অক্ষাংশ বৃদ্ধির সাথে অভিকর্ষজ ত্বরণ বৃদ্ধি পায়—এই বক্তব্যটি সঠিক।</p>
-<p><strong>ধাপ ৪: পৃথিবীর ভরের ওপর নির্ভরতা</strong><br/>
-ভূপৃষ্ঠে \(g = \frac{GM}{R^2}\), যা স্পষ্টতই পৃথিবীর ভর \(M\) এর সমানুপাতিক। সুতরাং এটি ভরের ওপর নির্ভর করে না—এই দাবি ভুল।</p>
-<p><strong>উপসংহার:</strong><br/>
-সঠিক বক্তব্য দুটি হলো: উচ্চতা বৃদ্ধির সাথে সাথে অভিকর্ষজ ত্বরণ হ্রাস পায় এবং অক্ষাংশ বৃদ্ধির সাথে সাথে অভিকর্ষজ ত্বরণ বৃদ্ধি পায়।</p>]]></text>
-  </generalfeedback>
+  <name><text>PHYSICS_MCQII_GRAVITATION_MCQ_Q09 - Variation of acceleration due to gravity</text></name>
+  <questiontext format="html"><text><![CDATA[<p>8.9 Which of the following options are correct?</p><hr/><p>৮.৯ নিচের কোন বিকল্পগুলি সঠিক?</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>On the surface of a uniform spherical earth of mass \(M\) and radius \(R\), the acceleration due to gravity is \(g = \frac{GM}{R^2}\).</p><p><strong>Step 2: Variation with Altitude and Depth</strong><br/>At an altitude \(h\) above the surface, \(g(h) = \frac{GM}{(R+h)^2} = \frac{g}{(1 + h/R)^2}\), which decreases as \(h\) increases. At a depth \(d\) below the surface of a uniform earth, \(g(d) = g\left(1 - \frac{d}{R}\right)\), which also decreases as \(d\) increases.</p><p><strong>Step 3: Variation with Latitude and Mass of Earth</strong><br/>Due to the earth's rotation with angular velocity \(\omega\), the effective acceleration due to gravity at latitude \(\lambda\) is \(g_\lambda = g - \omega^2 R \cos^2\lambda\). As latitude \(\lambda\) increases from \(0^\circ\) at the equator to \(90^\circ\) at the poles, \(\cos\lambda\) decreases from \(1\) to \(0\), so \(g_\lambda\) increases. Furthermore, \(g = \frac{GM}{R^2}\) directly depends on the mass \(M\) of the earth.</p><p><strong>Step 4: Final Conclusion</strong><br/>Acceleration due to gravity decreases with increasing altitude and increases with increasing latitude.</p><hr/><p><strong>ধাপ ১: ধারণাগত নীতি</strong><br/>\(M\) ভর এবং \(R\) ব্যাসার্ধের একটি সুষম গোলকাকার পৃথিবীর পৃষ্ঠে অভিকর্ষজ ত্বরণ হলো \(g = \frac{GM}{R^2}\) ।</p><p><strong>ধাপ ২: উচ্চতা ও গভীরতার সাথে পরিবর্তন</strong><br/>ভূপৃষ্ঠ থেকে \(h\) উচ্চতায় \(g(h) = \frac{GM}{(R+h)^2} = \frac{g}{(1 + h/R)^2}\), যা \(h\) বাড়ার সাথে সাথে হ্রাস পায়। সুষম পৃথিবীর পৃষ্ঠ থেকে \(d\) গভীরতায় \(g(d) = g\left(1 - \frac{d}{R}\right)\), যা \(d\) বাড়ার সাথে সাথেও হ্রাস পায়।</p><p><strong>ধাপ ৩: অক্ষাংশ ও পৃথিবীর ভরের সাথে সম্পর্ক</strong><br/>\(\omega\) কৌণিক বেগে পৃথিবীর আবর্তনের কারণে \(\lambda\) অক্ষাংশে কার্যকর অভিকর্ষজ ত্বরণ \(g_\lambda = g - \omega^2 R \cos^2\lambda\) । নিরক্ষরেখায় \(\lambda = 0^\circ\) থেকে মেরুতে \(\lambda = 90^\circ\) পর্যন্ত অক্ষাংশ বাড়লে \(\cos\lambda\)-এর মান \(1\) থেকে কমে \(0\) হয়, ফলে \(g_\lambda\) বৃদ্ধি পায়। এছাড়াও, \(g = \frac{GM}{R^2}\) সরাসরি পৃথিবীর ভর \(M\)-এর ওপর নির্ভরশীল।</p><p><strong>ধাপ ৪: চূড়ান্ত সিদ্ধান্ত</strong><br/>অভিকর্ষজ ত্বরণ উচ্চতা বৃদ্ধির সাথে হ্রাস পায় এবং অক্ষাংশ বৃদ্ধির সাথে বৃদ্ধি পায়।</p>]]></text></generalfeedback>
   <defaultgrade>4.0000000</defaultgrade>
   <penalty>0.2500000</penalty>
   <hidden>0</hidden>
   <single>false</single>
   <shuffleanswers>true</shuffleanswers>
   <answernumbering>abc</answernumbering>
-  <answer fraction="50" format="html">
-    <text><![CDATA[<p>Acceleration due to gravity decreases with increasing altitude.</p>]]></text>
-  </answer>
-  <answer fraction="-50" format="html">
-    <text><![CDATA[<p>Acceleration due to gravity increases with increasing depth (assume the earth to be a sphere of uniform density).</p>]]></text>
-  </answer>
-  <answer fraction="50" format="html">
-    <text><![CDATA[<p>Acceleration due to gravity increases with increasing latitude.</p>]]></text>
-  </answer>
-  <answer fraction="-50" format="html">
-    <text><![CDATA[<p>Acceleration due to gravity is independent of the mass of the earth.</p>]]></text>
-  </answer>
+  <answer fraction="50" format="html"><text><![CDATA[<p>Acceleration due to gravity decreases with increasing altitude.</p>]]></text></answer>
+  <answer fraction="-50" format="html"><text><![CDATA[<p>Acceleration due to gravity increases with increasing depth (assume the earth to be a sphere of uniform density).</p>]]></text></answer>
+  <answer fraction="50" format="html"><text><![CDATA[<p>Acceleration due to gravity increases with increasing latitude.</p>]]></text></answer>
+  <answer fraction="-50" format="html"><text><![CDATA[<p>Acceleration due to gravity is independent of the mass of the earth.</p>]]></text></answer>
   <tags>
     <tag><text>standard:neet_ug</text></tag>
     <tag><text>lang:en</text></tag>
     <tag><text>lang:bn</text></tag>
     <tag><text>subject:physics</text></tag>
+    <tag><text>section:mcq_ii</text></tag>
     <tag><text>class:class_11</text></tag>
     <tag><text>chapter:gravitation</text></tag>
     <tag><text>typology:mcq</text></tag>
-    <tag><text>difficulty:medium</text></tag>
+    <tag><text>difficulty:easy</text></tag>
+    <tag><text>blooms:understand</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:text</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+<question type="multichoice">
+  <name><text>PHYSICS_MCQII_GRAVITATION_MCQ_Q10 - Consequences of inverse-cube law of gravitation</text></name>
+  <questiontext format="html"><text><![CDATA[<p>8.10 If the law of gravitation, instead of being inverse-square law, becomes an inverse-cube law-</p><hr/><p>৮.১০ যদি মহাকর্ষ সূত্র ব্যস্তানুপাতিক বর্গ সূত্রের পরিবর্তে ব্যস্তানুপাতিক ঘন সূত্রে পরিণত হয়-</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>Under a central force \(F(r) = \frac{k}{r^3}\) (where \(k\) is a constant), closed non-circular orbits like ellipses do not exist (by Bertrand's theorem, only \(1/r^2\) and \(r\) force laws yield closed elliptical orbits).</p><p><strong>Step 2: Circular Orbits and Projectile Motion</strong><br/>For a circular orbit of radius \(r\), equating the centripetal force to the gravitational force gives \(\frac{mv^2}{r} = \frac{k}{r^3}\), which yields a valid orbital speed \(v = \frac{\sqrt{k/m}}{r}\); thus circular orbits are still mathematically possible. For a stone thrown by hand near the earth's surface, the change in distance from the earth's centre is negligible compared to the earth's radius \(R\) (\(h \ll R\)), so the acceleration due to gravity remains essentially constant in magnitude and direction, making the projectile trajectory approximately parabolic. Inside a uniform spherical shell, the gravitational force is zero only for an inverse-square (\(1/r^2\)) force law; for an inverse-cube law, the forces from opposite parts of the shell do not cancel, so there is a non-zero gravitational force inside.</p><p><strong>Step 3: Final Conclusion</strong><br/>If gravitation followed an inverse-cube law, planets would not have elliptic orbits, and the projectile motion of a stone near the earth's surface would still be approximately parabolic.</p><hr/><p><strong>ধাপ ১: ধারণাগত নীতি</strong><br/>\(F(r) = \frac{k}{r^3}\) কেন্দ্রীয় বলের অধীনে (যেখানে \(k\) একটি ধ্রুবক), উপবৃত্তের মতো বদ্ধ অবৃত্তাকার কক্ষপথ সম্ভব নয় (বার্ট্রান্ডের উপপাদ্য অনুযায়ী কেবল \(1/r^2\) এবং \(r\) বলের ক্ষেত্রেই বদ্ধ উপবৃত্তাকার কক্ষপথ পাওয়া যায়)।</p><p><strong>ধাপ ২: বৃত্তাকার কক্ষপথ ও প্রাসের গতি</strong><br/>\(r\) ব্যাসার্ধের বৃত্তাকার কক্ষপথের জন্য অভিকেন্দ্র বল ও মহাকর্ষ বল সমান করলে \(\frac{mv^2}{r} = \frac{k}{r^3}\) হয়, যা থেকে \(v = \frac{\sqrt{k/m}}{r}\) বেগ পাওয়া যায়; সুতরাং বৃত্তাকার কক্ষপথ সম্ভব। ভূপৃষ্ঠের কাছে হাত দিয়ে ছোড়া পাথরের ক্ষেত্রে পৃথিবীর কেন্দ্র থেকে দূরত্বের পরিবর্তন পৃথিবীর ব্যাসার্ধ \(R\)-এর তুলনায় নগণ্য (\(h \ll R\)), তাই অভিকর্ষজ ত্বরণের মান ও দিক প্রায় ধ্রুবক থাকে এবং প্রাসের গতিপথ প্রায় অধিবৃত্তাকার (parabolic) হয়। সুষম গোলীয় খোলকের ভেতরে মহাকর্ষ বল কেবল ব্যস্তানুপাতিক বর্গ সূত্রের (\(1/r^2\)) ক্ষেত্রেই শূন্য হয়; ব্যস্তানুপাতিক ঘন সূত্রের ক্ষেত্রে খোলকের ভেতরে বল শূন্য হয় না।</p><p><strong>ধাপ ৩: চূড়ান্ত সিদ্ধান্ত</strong><br/>মহাকর্ষ সূত্র ব্যস্তানুপাতিক ঘন সূত্র হলে গ্রহগুলির উপবৃত্তাকার কক্ষপথ থাকবে না এবং ভূপৃষ্ঠে হাত দিয়ে ছোড়া পাথরের প্রাস গতি প্রায় অধিবৃত্তাকার থাকবে।</p>]]></text></generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>false</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="50" format="html"><text><![CDATA[<p>planets will not have elliptic orbits.</p>]]></text></answer>
+  <answer fraction="-50" format="html"><text><![CDATA[<p>circular orbits of planets is not possible.</p>]]></text></answer>
+  <answer fraction="50" format="html"><text><![CDATA[<p>projectile motion of a stone thrown by hand on the surface of the earth will be approximately parabolic.</p>]]></text></answer>
+  <answer fraction="-50" format="html"><text><![CDATA[<p>there will be no gravitational force inside a spherical shell of uniform density.</p>]]></text></answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:bn</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>section:mcq_ii</text></tag>
+    <tag><text>class:class_11</text></tag>
+    <tag><text>chapter:gravitation</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:hard</text></tag>
     <tag><text>blooms:analyze</text></tag>
     <tag><text>calculation:light</text></tag>
     <tag><text>media:text</text></tag>
@@ -611,210 +301,55 @@ The correct statements are that acceleration due to gravity decreases with incre
   </tags>
 </question>
 <question type="multichoice">
-  <name><text>NEET_UG_PHYSICS_GRAVITATION_MCQ_Q10 - Inverse cube law of gravitation implications</text></name>
-  <questiontext format="html">
-    <text><![CDATA[<p>If the law of gravitation, instead of being inverse-square law, becomes an inverse-cube law-</p>
-<hr/>
-<p>মহাকর্ষ সূত্রটি বিপরীত-বর্গীয় সূত্র হওয়ার পরিবর্তে যদি বিপরীত-ঘন সূত্র হয়-</p>]]></text>
-  </questiontext>
-  <generalfeedback format="html">
-    <text><![CDATA[<p><strong>Step 1: Planetary Orbits under Inverse-Cube Law</strong><br/>
-Bertrand's theorem states that the only central force laws that produce stable, closed bound orbits for arbitrary initial conditions are the inverse-square law (\(F \propto r^{-2}\)) and Hooke's law (\(F \propto r\)). For an inverse-cube central force \(F = \frac{C}{r^3}\), bound trajectories form spiralling orbits and do not form closed Keplerian ellipses. Hence, planets will not have elliptic orbits is a correct deduction.</p>
-<p><strong>Step 2: Possibility of Circular Orbits</strong><br/>
-For a circular orbit of radius \(r\) with orbital speed \(v\), the centripetal force requirement is:
-\[\frac{m v^2}{r} = \frac{C}{r^3} \implies v = \frac{\sqrt{C/m}}{r}\]
-A circular orbit is mathematically permissible at any radius with orbital speed \(v \propto 1/r\). Therefore, asserting that circular orbits of planets are not possible is incorrect.</p>
-<p><strong>Step 3: Projectile Motion near the Surface</strong><br/>
-For a stone thrown by hand, the vertical elevation \(h\) is negligible compared to the radius of the Earth (\(h \ll R\)). Across this small region, the gravitational field strength:
-\[g' = \frac{G M}{R^3}\]
-is approximately constant in both magnitude and direction (downward). Under a constant gravitational acceleration and negligible horizontal forces, projectile motion remains approximately parabolic. Hence, projectile motion of a stone thrown by hand will be approximately parabolic is a correct statement.</p>
-<p><strong>Step 4: Gravitational Force inside a Spherical Shell</strong><br/>
-Zero gravitational field inside a uniform spherical shell is a unique consequence of the inverse-square law, where the surface area element (\(dA \propto r^2\)) exactly cancels the distance attenuation (\(1/r^2\)). Under an inverse-cube law, this exact cancellation fails, so a non-zero net gravitational force exists inside a spherical shell. Therefore, the statement claiming no force inside the shell is incorrect.</p>
-<p><strong>Conclusion:</strong><br/>
-The correct statements are that planets will not have elliptic orbits, and projectile motion of a stone thrown by hand on the surface of the earth will be approximately parabolic.</p>
-<hr/>
-<p><strong>ধাপ ১: বিপরীত-ঘন সূত্রে গ্রহের কক্ষপথ</strong><br/>
-বারট্রান্ডের উপপাদ্য (Bertrand's theorem) অনুসারে কেবলমাত্র বিপরীত-বর্গীয় বল (\(F \propto r^{-2}\)) এবং হুকের বল (\(F \propto r\)) সকল ক্ষেত্রে বদ্ধ ও স্থিতিশীল কক্ষপথ সৃষ্টি করতে পারে। বিপরীত-ঘন বলের (\(F \propto r^{-3}\)) ক্ষেত্রে বদ্ধ উপবৃত্তাকার কক্ষপথ গঠিত হতে পারে না; কক্ষপথগুলি সর্পিল হয়। অতএব, গ্রহগুলির কক্ষপথ উপবৃত্তাকার হবে না—এই বক্তব্যটি সঠিক।</p>
-<p><strong>ধাপ ২: বৃত্তাকার কক্ষপথের সম্ভাব্যতা</strong><br/>
-\(r\) ব্যাসার্ধের বৃত্তাকার কক্ষপথে আবর্তনের জন্য অভিকেন্দ্রী বলের সমীকরণ:
-\[\frac{m v^2}{r} = \frac{C}{r^3} \implies v = \frac{1}{r}\sqrt{\frac{C}{m}}\]
-অর্থাৎ নির্দিষ্ট দ্রুতি \(v \propto 1/r\) নিয়ে বৃত্তাকার গতি সম্ভব। সুতরাং বৃত্তাকার কক্ষপথ সম্ভব নয়—এই দাবিটি ভুল।</p>
-<p><strong>ধাপ ৩: ভূপৃষ্ঠের কাছাকাছি প্রক্ষেপ্য গতি</strong><br/>
-হাত দিয়ে নিক্ষিপ্ত কোনো পাথরের ক্ষেত্রে এর উচ্চতা পৃথিবীর ব্যাসার্ধের তুলনায় অত্যন্ত নগণ্য (\(h \ll R\))। এই ক্ষুদ্র দূরত্বে কার্যকর অভিকর্ষজ ত্বরণ \(g' = \frac{GM}{R^3}\) প্রায় ধ্রুবক থাকে। ধ্রুবক ত্বরণের অধীনে প্রক্ষেপ্যের গতিপথ সর্বদা প্যারাবোলিক (অধিবৃত্তাকার) হয়। ফলে পাথরটির প্রক্ষেপ্য গতি প্রায় অধিবৃত্তাকার হবে—এই বক্তব্যটি সঠিক।</p>
-<p><strong>ধাপ ৪: গোলকীয় খোলকের অভ্যন্তরে মহাকর্ষীয় বল</strong><br/>
-সুষম খোলকের অভ্যন্তরে মহাকর্ষ বল শূন্য হওয়া বিপরীত-বর্গীয় সূত্রের অনন্য বৈশিষ্ট্য, যেখানে ক্ষেত্রফল (\(r^2\)) এবং দূরত্বের বিপরীত বর্গের প্রভাব পরস্পরকে প্রশমিত করে। ঘন সূত্রের ক্ষেত্রে এই প্রশমন ঘটে না, ফলে অভ্যন্তরে অশূন্য বল উপস্থিত থাকবে।</p>
-<p><strong>উপসংহার:</strong><br/>
-সঠিক বক্তব্য দুটি হলো: গ্রহগুলির উপবৃত্তাকার কক্ষপথ থাকবে না এবং ভূপৃষ্ঠে হাত দিয়ে নিক্ষিপ্ত পাথরের গতি প্রায় অধিবৃত্তাকার হবে।</p>]]></text>
-  </generalfeedback>
+  <name><text>PHYSICS_MCQII_GRAVITATION_MCQ_Q11 - Effect of changing G and mass of sun</text></name>
+  <questiontext format="html"><text><![CDATA[<p>8.11 If the mass of sun were ten times smaller and gravitational constant \(G\) were ten times larger in magnitudes-</p><hr/><p>৮.১১ যদি সূর্যের ভর দশ গুণ কম হতো এবং মহাকর্ষীয় ধ্রুবক \(G\)-এর মান দশ গুণ বেশি হতো-</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>New mass of the sun \(M_s' = \frac{M_s}{10}\), new gravitational constant \(G' = 10G\). The mass of the earth \(M_e\) and radius \(R_e\) remain unchanged.</p><p><strong>Step 2: Relevant Formulae and Principles</strong><br/>Acceleration due to gravity on earth's surface: \(g = \frac{G M_e}{R_e^2}\).<br/>Weight of a person of mass \(m\): \(W = mg\).<br/>Terminal velocity of a falling raindrop: \(v_T \propto g\).<br/>Lift force required by an airplane in level flight equals its weight: \(L = mg \propto v^2\).</p><p><strong>Step 3: Step-by-Step Working</strong><br/>With \(G' = 10G\), the new acceleration due to gravity on earth becomes:<br/>\[g' = \frac{G' M_e}{R_e^2} = \frac{10 G M_e}{R_e^2} = 10g\]<br/>1. Since \(g' = 10g\), the weight of a person increases tenfold, making walking on the ground much more difficult.<br/>2. Acceleration due to gravity on earth changes (increases by a factor of 10).<br/>3. Since terminal velocity \(v_T \propto g\), raindrops will fall much faster.<br/>4. To balance the tenfold larger weight \(mg'\) with aerodynamic lift (\(L \propto v^2\)), airplanes will have to travel much faster.</p><p><strong>Step 4: Final Conclusion</strong><br/>Walking on the ground would become more difficult, raindrops would fall much faster, and airplanes would have to travel much faster.</p><hr/><p><strong>ধাপ ১: প্রদত্ত তথ্য ও শর্তাবলি</strong><br/>সূর্যের নতুন ভর \(M_s' = \frac{M_s}{10}\), নতুন মহাকর্ষীয় ধ্রুবক \(G' = 10G\) । পৃথিবীর ভর \(M_e\) এবং ব্যাসার্ধ \(R_e\) অপরিবর্তিত আছে।</p><p><strong>ধাপ ২: প্রাসঙ্গিক সূত্র ও নীতি</strong><br/>ভূপৃষ্ঠে অভিকর্ষজ ত্বরণ: \(g = \frac{G M_e}{R_e^2}\) ।<br/>\(m\) ভরের ব্যক্তির ওজন: \(W = mg\) ।<br/>পতনশীল বৃষ্টির ফোঁটার প্রান্তীয় বেগ: \(v_T \propto g\) ।<br/>অনুভূমিক উড্ডয়নে বিমানের প্রয়োজনীয় ঊর্ধ্বঘাত বল তার ওজনের সমান: \(L = mg \propto v^2\) ।</p><p><strong>ধাপ ৩: ধাপে ধাপে গণনা</strong><br/>\(G' = 10G\) হলে পৃথিবীতে নতুন অভিকর্ষজ ত্বরণ হবে:<br/>\[g' = \frac{G' M_e}{R_e^2} = \frac{10 G M_e}{R_e^2} = 10g\]<br/>১. যেহেতু \(g' = 10g\), তাই মানুষের ওজন দশ গুণ বেড়ে যাবে, যার ফলে মাটিতে হাঁটা অনেক বেশি কঠিন হয়ে পড়বে।<br/>২. পৃথিবীতে অভিকর্ষজ ত্বরণ পরিবর্তিত হয় (১০ গুণ বৃদ্ধি পায়)।<br/>৩. যেহেতু প্রান্তীয় বেগ \(v_T \propto g\), তাই বৃষ্টির ফোঁটা অনেক দ্রুত নিচে পড়বে।<br/>৪. দশ গুণ বেশি ওজন \(mg'\)-এর ভারসাম্য বজায় রাখতে প্রয়োজনীয় বায়ুগতিয় ঊর্ধ্বঘাত (\(L \propto v^2\)) উৎপন্ন করার জন্য বিমানগুলিকে অনেক বেশি বেগে উড়তে হবে।</p><p><strong>ধাপ ৪: চূড়ান্ত সিদ্ধান্ত</strong><br/>মাটিতে হাঁটা আরও কঠিন হয়ে পড়বে, বৃষ্টির ফোঁটা অনেক দ্রুত পড়বে এবং বিমানগুলিকে অনেক বেশি বেগে চলতে হবে।</p>]]></text></generalfeedback>
   <defaultgrade>4.0000000</defaultgrade>
   <penalty>0.2500000</penalty>
   <hidden>0</hidden>
   <single>false</single>
   <shuffleanswers>true</shuffleanswers>
   <answernumbering>abc</answernumbering>
-  <answer fraction="50" format="html">
-    <text><![CDATA[<p>planets will not have elliptic orbits.</p>]]></text>
-  </answer>
-  <answer fraction="-50" format="html">
-    <text><![CDATA[<p>circular orbits of planets is not possible.</p>]]></text>
-  </answer>
-  <answer fraction="50" format="html">
-    <text><![CDATA[<p>projectile motion of a stone thrown by hand on the surface of the earth will be approximately parabolic.</p>]]></text>
-  </answer>
-  <answer fraction="-50" format="html">
-    <text><![CDATA[<p>there will be no gravitational force inside a spherical shell of uniform density.</p>]]></text>
-  </answer>
+  <answer fraction="33.33333" format="html"><text><![CDATA[<p>walking on ground would become more difficult.</p>]]></text></answer>
+  <answer fraction="-100" format="html"><text><![CDATA[<p>the acceleration due to gravity on earth will not change.</p>]]></text></answer>
+  <answer fraction="33.33333" format="html"><text><![CDATA[<p>raindrops will fall much faster.</p>]]></text></answer>
+  <answer fraction="33.33333" format="html"><text><![CDATA[<p>airplanes will have to travel much faster.</p>]]></text></answer>
   <tags>
     <tag><text>standard:neet_ug</text></tag>
     <tag><text>lang:en</text></tag>
     <tag><text>lang:bn</text></tag>
     <tag><text>subject:physics</text></tag>
-    <tag><text>class:class_11</text></tag>
-    <tag><text>chapter:gravitation</text></tag>
-    <tag><text>typology:mcq</text></tag>
-    <tag><text>difficulty:hard</text></tag>
-    <tag><text>blooms:analyze</text></tag>
-    <tag><text>calculation:moderate</text></tag>
-    <tag><text>media:text</text></tag>
-    <tag><text>multiconcept:true</text></tag>
-  </tags>
-</question>
-<question type="multichoice">
-  <name><text>NEET_UG_PHYSICS_GRAVITATION_MCQ_Q11 - Effect of increased gravitational constant G</text></name>
-  <questiontext format="html">
-    <text><![CDATA[<p>If the mass of sun were ten times smaller and gravitational constant \(G\) were ten times larger in magnitudes-</p>
-<hr/>
-<p>যদি সূর্যের ভর দশ গুণ কম হতো এবং মহাকর্ষীয় ধ্রুবক \(G\) এর মান দশ গুণ বেশি হতো-</p>]]></text>
-  </questiontext>
-  <generalfeedback format="html">
-    <text><![CDATA[<p><strong>Step 1: Acceleration due to Gravity on Earth</strong><br/>
-The acceleration due to gravity on Earth is given by \(g = \frac{G M_E}{R_E^2}\). If the gravitational constant becomes \(G' = 10G\), the new acceleration due to gravity on Earth is:
-\[g' = \frac{(10G) M_E}{R_E^2} = 10g\]
-Because \(g\) increases tenfold, the statement that the acceleration due to gravity on Earth will not change is incorrect.</p>
-<p><strong>Step 2: Walking on Ground</strong><br/>
-The weight of a person of mass \(m\) is \(W' = m g' = 10 mg\). Because every person experiences ten times their normal weight, muscles must exert ten times greater upward normal forces to support posture and locomotion, making walking on the ground vastly more difficult.</p>
-<p><strong>Step 3: Falling Speed of Raindrops</strong><br/>
-A falling raindrop reaches terminal velocity \(v_t\) when upward viscous drag balances downward weight:
-\[6\pi \eta r v_t = \frac{4}{3}\pi r^3 (\rho - \sigma) g' \implies v_t \propto g'\]
-Since \(g'\) is ten times larger, the terminal velocity increases tenfold (\(v_t' = 10 v_t\)). Consequently, raindrops will fall much faster.</p>
-<p><strong>Step 4: Airspeed Required for Airplanes</strong><br/>
-For an airplane of mass \(M_{\text{plane}}\) in level horizontal flight, aerodynamic lift must support the weight:
-\[L = \frac{1}{2} C_L \rho v^2 A = M_{\text{plane}} g' = 10 M_{\text{plane}} g\]
-To sustain level flight, the required flight speed becomes:
-\[v' = \sqrt{10} \, v \approx 3.16 \, v\]
-Hence, airplanes must fly considerably faster to maintain sufficient aerodynamic lift.</p>
-<p><strong>Conclusion:</strong><br/>
-Walking on ground would become more difficult, raindrops will fall much faster, and airplanes will have to travel much faster.</p>
-<hr/>
-<p><strong>ধাপ ১: পৃথিবীতে অভিকর্ষজ ত্বরণ নির্ণয়</strong><br/>
-ভূপৃষ্ঠে অভিকর্ষজ ত্বরণের মান \(g = \frac{G M_E}{R_E^2}\)। মহাকর্ষীয় ধ্রুবক \(G' = 10G\) হলে নতুন অভিকর্ষজ ত্বরণ হবে:
-\[g' = 10g\]
-সুতরাং অভিকর্ষজ ত্বরণের মান অপরিবর্তিত থাকবে—এই বক্তব্যটি ভুল।</p>
-<p><strong>ধাপ ২: মাটিতে হাঁটাচলার ওপর প্রভাব</strong><br/>
-যেকোনো ব্যক্তির নতুন ওজন হবে \(W' = mg' = 10mg\)। শরীরের ওজন দশ গুণ বৃদ্ধি পাওয়ায় দেহের ভারসাম্য বজায় রাখা ও হাঁটাচলা করা অত্যন্ত কঠিন হয়ে পড়বে।</p>
-<p><strong>ধাপ ৩: বৃষ্টির ফোঁটার প্রান্তিক বেগ</strong><br/>
-সান্দ্রতার কারণে বৃষ্টির ফোঁটার প্রান্তিক বেগ \(v_t\) অভিকর্ষজ ত্বরণের সমানুপাতিক (\(v_t \propto g'\))। যেহেতু অভিকর্ষজ ত্বরণ দশ গুণ বৃদ্ধি পায়, তাই বৃষ্টির ফোঁটার পতন বেগ দশ গুণ বেড়ে যাবে অর্থাৎ বৃষ্টির ফোঁটা অনেক দ্রুত পড়বে।</p>
-<p><strong>ধাপ ৪: বিমানের উড্ডয়ন বেগ</strong><br/>
-একটি বিমানের অনুভূমিক উড্ডয়নের জন্য প্রয়োজনীয় উত্তোলক বল ওজনের সমান হতে হয়:
-\[\frac{1}{2} C_L \rho v^2 A = mg' \implies v \propto \sqrt{g'}\]
-ওজন দশ গুণ বৃদ্ধি পেলে বিমানকে ভাসিয়ে রাখতে বায়ুগতিবিদ্যায় প্রয়োজনীয় বেগ \(v' = \sqrt{10} v \approx 3.16 v\) হবে। অর্থাৎ বিমানকে অনেক দ্রুত গতিতে চলতে হবে।</p>
-<p><strong>উপসংহার:</strong><br/>
-মাটিতে হাঁটা আরও কঠিন হবে, বৃষ্টির ফোঁটা অনেক দ্রুত পড়বে এবং বিমানগুলিকে অনেক দ্রুত গতিতে চলাচল করতে হবে।</p>]]></text>
-  </generalfeedback>
-  <defaultgrade>4.0000000</defaultgrade>
-  <penalty>0.2500000</penalty>
-  <hidden>0</hidden>
-  <single>false</single>
-  <shuffleanswers>true</shuffleanswers>
-  <answernumbering>abc</answernumbering>
-  <answer fraction="33.33333" format="html">
-    <text><![CDATA[<p>walking on ground would become more difficult.</p>]]></text>
-  </answer>
-  <answer fraction="-50" format="html">
-    <text><![CDATA[<p>the acceleration due to gravity on earth will not change.</p>]]></text>
-  </answer>
-  <answer fraction="33.33333" format="html">
-    <text><![CDATA[<p>raindrops will fall much faster.</p>]]></text>
-  </answer>
-  <answer fraction="33.33333" format="html">
-    <text><![CDATA[<p>airplanes will have to travel much faster.</p>]]></text>
-  </answer>
-  <tags>
-    <tag><text>standard:neet_ug</text></tag>
-    <tag><text>lang:en</text></tag>
-    <tag><text>lang:bn</text></tag>
-    <tag><text>subject:physics</text></tag>
+    <tag><text>section:mcq_ii</text></tag>
     <tag><text>class:class_11</text></tag>
     <tag><text>chapter:gravitation</text></tag>
     <tag><text>typology:mcq</text></tag>
     <tag><text>difficulty:medium</text></tag>
     <tag><text>blooms:apply</text></tag>
-    <tag><text>calculation:moderate</text></tag>
+    <tag><text>calculation:light</text></tag>
     <tag><text>media:text</text></tag>
     <tag><text>multiconcept:true</text></tag>
   </tags>
 </question>
 <question type="multichoice">
-  <name><text>NEET_UG_PHYSICS_GRAVITATION_MCQ_Q12 - Planetary motion with opposite electrostatic charges</text></name>
-  <questiontext format="html">
-    <text><![CDATA[<p>If the sun and the planets carried huge amounts of opposite charges,</p>
-<hr/>
-<p>সূর্য এবং গ্রহগুলি যদি বিপুল পরিমাণের বিপরীত তড়িৎ আধানযুক্ত হতো-</p>]]></text>
-  </questiontext>
-  <generalfeedback format="html">
-    <text><![CDATA[<p><strong>Step 1: Total Force on a Planet</strong><br/>
-If the Sun carries positive charge \(+Q\) and a planet of mass \(m\) carries negative charge \(-q\), the net attractive force acting on the planet is the superposition of Newton's gravitational force and Coulomb's electrostatic force:
-\[F_{\text{net}} = F_g + F_e = \frac{G M m}{r^2} + \frac{1}{4\pi\varepsilon_0} \frac{Qq}{r^2} = \frac{k'}{r^2}\]
-where \(k' = GMm + \frac{Qq}{4\pi\varepsilon_0}\) is an effective constant.</p>
-<p><strong>Step 2: Nature of the Net Force</strong><br/>
-Both gravitational and electrostatic forces are directed along the radius vector connecting the centers of the two bodies. Thus, the total force is strictly a central force obeying the inverse-square law (\(F \propto r^{-2}\)).</p>
-<p><strong>Step 3: Verification of Kepler's Laws</strong><br/>
-1. Since the force is central, the torque about the Sun is zero (\(\boldsymbol{\tau} = \mathbf{r} \times \mathbf{F} = \mathbf{0}\)). Therefore, orbital angular momentum is conserved, and the areal velocity is constant:
-\[\frac{dA}{dt} = \frac{L}{2m} = \text{constant}\]
-Hence, Kepler's second law remains completely unchanged.<br/>
-2. Any attractive inverse-square central force yields bound orbits that are conic sections, specifically ellipses with the force centre at one focus. Hence, Kepler's first law remains valid.<br/>
-3. For an inverse-square force of effective strength \(k'\), the orbital period satisfies:
-\[T^2 = \frac{4\pi^2 m}{k'} a^3 \propto a^3\]
-Thus, Kepler's third law also remains valid.</p>
-<p><strong>Conclusion:</strong><br/>
-All three of Kepler's laws would still be valid, the second law will not change, and the first law will still be valid.</p>
-<hr/>
-<p><strong>ধাপ ১: গ্রহের ওপর ক্রিয়াশীল মোট বল</strong><br/>
-সূর্য ও গ্রহ যদি বিপরীত আধানে আহিত হয়, তবে গ্রহের ওপর মহাকর্ষ বলের পাশাপাশি কুলম্বের স্থিরতড়িৎ আকর্ষণ বল কার্যকর হবে:
-\[F_{\text{net}} = F_g + F_e = \frac{G M m}{r^2} + \frac{1}{4\pi\varepsilon_0} \frac{Qq}{r^2} = \frac{k'}{r^2}\]
-যেখানে \(k'\) একটি ধ্রুবক।</p>
-<p><strong>ধাপ ২: লব্ধি বলের প্রকৃতি</strong><br/>
-উভয় বলই দুটি বস্তুর কেন্দ্র সংযোগকারী রেখা বরাবর ক্রিয়াশীল কেন্দ্রানুগ বল এবং উভয়েই দূরত্বের বিপরীত-বর্গীয় সূত্র মেনে চলে।</p>
-<p><strong>ধাপ ৩: কেপলারের সূত্রসমূহের বৈধতা যাচাই</strong><br/>
-১. বলটি কেন্দ্রানুগ হওয়ায় সূর্যের সাপেক্ষে কোনো টর্ক থাকে না (\(\boldsymbol{\tau} = \mathbf{0}\)), ফলে কৌণিক ভরবেগ সংরক্ষিত থাকে এবং ক্ষেত্রীয় বেগ ধ্রুবক হয় (\(\frac{dA}{dt} = \text{ধ্রুবক}\))। অর্থাৎ কেপলারের দ্বিতীয় সূত্র অপরিবর্তিত থাকে।<br/>
-২. যেকোনো বিপরীত-বর্গীয় আকর্ষণী বলের অধীনে আবদ্ধ কক্ষপথ সর্বদা উপবৃত্তাকার হয়। অতএব কেপলারের প্রথম সূত্রটি বৈধ থাকে।<br/>
-৩. আবর্তনকালের বর্গ উপ-মুখ্য অক্ষের ঘনফলের সমানুপাতিক থাকে (\(T^2 \propto a^3\)), অর্থাৎ তৃতীয় সূত্রটিও বৈধ থাকে।</p>
-<p><strong>উপসংহার:</strong><br/>
-কেপলারের তিনটি সূত্রই বৈধ থাকবে, দ্বিতীয় সূত্রটি অপরিবর্তিত থাকবে এবং প্রথম সূত্রটিও বৈধ থাকবে।</p>]]></text>
-  </generalfeedback>
+  <name><text>PHYSICS_MCQII_GRAVITATION_MCQ_Q12 - Kepler laws with opposite charges on sun and planets</text></name>
+  <questiontext format="html"><text><![CDATA[<p>8.12 If the sun and the planets carried huge amounts of opposite charges,</p><hr/><p>৮.১২ যদি সূর্য এবং গ্রহগুলির ওপর বিপুল পরিমাণ বিপরীত আধান থাকত,</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>If the sun and planets carry huge amounts of opposite electric charges, an attractive electrostatic force acts between the sun and each planet in addition to the attractive gravitational force.</p><p><strong>Step 2: Nature of the Resultant Force</strong><br/>Both the gravitational force \(F_g = \frac{GMm}{r^2}\) and the electrostatic force \(F_e = \frac{1}{4\pi\varepsilon_0}\frac{|q_1 q_2|}{r^2}\) are attractive, central (directed along the line joining the sun and the planet), and obey the inverse-square law (\(\propto \frac{1}{r^2}\)). Therefore, the net force \(F_{\text{net}} = F_g + F_e\) is also a central, attractive, inverse-square force.</p><p><strong>Step 3: Validity of Kepler's Laws</strong><br/>Since all three of Kepler's laws are direct consequences of an attractive central inverse-square force, all three laws—the first law (elliptical orbits), the second law (conservation of angular momentum / equal areas in equal times), and the third law (\(T^2 \propto a^3\))—would still remain valid (with the proportionality constant in the third law modified by the electrostatic term if the charge-to-mass ratio varies, though for a given planet-sun pair or uniform charge-to-mass ratio all three laws hold).</p><p><strong>Step 4: Final Conclusion</strong><br/>All three of Kepler's laws would still be valid, including the first law and the second law.</p><hr/><p><strong>ধাপ ১: ধারণাগত নীতি</strong><br/>যদি সূর্য ও গ্রহগুলিতে বিপুল পরিমাণ বিপরীত তড়িৎ আধান থাকত, তবে আকর্ষণধর্মী মহাকর্ষীয় বলের পাশাপাশি সূর্য ও প্রতিটি গ্রহের মধ্যে একটি আকর্ষণধর্মী স্থিরতড়িৎ বলও ক্রিয়া করত।</p><p><strong>ধাপ ২: লব্ধি বলের প্রকৃতি</strong><br/>মহাকর্ষীয় বল \(F_g = \frac{GMm}{r^2}\) এবং স্থিরতড়িৎ বল \(F_e = \frac{1}{4\pi\varepsilon_0}\frac{|q_1 q_2|}{r^2}\) উভয়ই আকর্ষণধর্মী, কেন্দ্রীয় (সূর্য ও গ্রহের সংযোগকারী সরলরেখা বরাবর ক্রিয়াশীল) এবং ব্যস্তানুপাতিক বর্গ সূত্র (\(\propto \frac{1}{r^2}\)) মেনে চলে। সুতরাং লব্ধি বল \(F_{\text{net}} = F_g + F_e\) -ও একটি কেন্দ্রীয়, আকর্ষণধর্মী ও ব্যস্তানুপাতিক বর্গ সূত্রানুসারী বল।</p><p><strong>ধাপ ৩: কেপলারের সূত্রাবলির বৈধতা</strong><br/>যেহেতু কেপলারের তিনটি সূত্রই আকর্ষণধর্মী কেন্দ্রীয় ব্যস্তানুপাতিক বর্গ বলের প্রত্যক্ষ ফলাফল, তাই প্রথম সূত্র (উপবৃত্তাকার কক্ষপথ), দ্বিতীয় সূত্র (কৌণিক ভরবেগের সংরক্ষণ / সমান সময়ে সমান ক্ষেত্রফল অতিক্রম) এবং তৃতীয় সূত্র সহ তিনটি সূত্রই বৈধ থাকবে।</p><p><strong>ধাপ ৪: চূড়ান্ত সিদ্ধান্ত</strong><br/>কেপলারের তিনটি সূত্রই তখনো বৈধ থাকবে, অর্থাৎ প্রথম ও দ্বিতীয় সূত্র অপরিবর্তিতভাবে প্রযোজ্য হবে।</p>]]></text></generalfeedback>
   <defaultgrade>4.0000000</defaultgrade>
   <penalty>0.2500000</penalty>
   <hidden>0</hidden>
   <single>false</single>
   <shuffleanswers>true</shuffleanswers>
   <answernumbering>abc</answernumbering>
-  <answer fraction="33.33333" format="html">
-    <text><![CDATA[<p>all three of Kepler's laws would still be valid.</p>]]></text>
-  </answer>
-  <answer fraction="-50" format="html">
-    <text><![CDATA[<p>only the third law will be valid.</p>]]></text>
-  </answer>
-  <answer fraction="33.33333" format="html">
-    <text><![CDATA[<p>the second law will not change.</p>]]></text>
-  </answer>
-  <answer fraction="33.33333" format="html">
-    <text><![CDATA[<p>the first law will still be valid.</p>]]></text>
-  </answer>
+  <answer fraction="33.33333" format="html"><text><![CDATA[<p>all three of Kepler's laws would still be valid.</p>]]></text></answer>
+  <answer fraction="-100" format="html"><text><![CDATA[<p>only the third law will be valid.</p>]]></text></answer>
+  <answer fraction="33.33333" format="html"><text><![CDATA[<p>the second law will not change.</p>]]></text></answer>
+  <answer fraction="33.33333" format="html"><text><![CDATA[<p>the first law will still be valid.</p>]]></text></answer>
   <tags>
     <tag><text>standard:neet_ug</text></tag>
     <tag><text>lang:en</text></tag>
     <tag><text>lang:bn</text></tag>
     <tag><text>subject:physics</text></tag>
+    <tag><text>section:mcq_ii</text></tag>
     <tag><text>class:class_11</text></tag>
     <tag><text>chapter:gravitation</text></tag>
     <tag><text>typology:mcq</text></tag>
@@ -826,133 +361,55 @@ All three of Kepler's laws would still be valid, the second law will not change,
   </tags>
 </question>
 <question type="multichoice">
-  <name><text>NEET_UG_PHYSICS_GRAVITATION_MCQ_Q13 - Secular decrease of gravitational constant G</text></name>
-  <questiontext format="html">
-    <text><![CDATA[<p>There have been suggestions that the value of the gravitational constant \(G\) becomes smaller when considered over very large time period (in billions of years) in the future. If that happens, for our earth,</p>
-<hr/>
-<p>এমন মতবাদ রয়েছে যে সুদূর ভবিষ্যতে অতি দীর্ঘ সময়কাল ধরে (কয়েক শত কোটি বছর ধরে) মহাকর্ষীয় ধ্রুবক \(G\) এর মান ক্রমশ হ্রাস পেতে পারে। যদি এমনটি ঘটে, তবে আমাদের পৃথিবীর ক্ষেত্রে,</p>]]></text>
-  </questiontext>
-  <generalfeedback format="html">
-    <text><![CDATA[<p><strong>Step 1: Orbital Mechanics Relation</strong><br/>
-For Earth revolving around the Sun in a nearly circular orbit of radius \(r\) with velocity \(v\), the gravitational attraction provides the required centripetal force:
-\[\frac{M_E v^2}{r} = \frac{G M_S M_E}{r^2} \implies v^2 r = G M_S\]
-From conservation of angular momentum \(L = M_E v r = \text{constant}\), we substitute \(v = \frac{L}{M_E r}\):
-\[\left(\frac{L}{M_E r}\right)^2 r = G M_S \implies r = \frac{L^2}{G M_S M_E^2} \propto \frac{1}{G}\]
-As \(G\) decreases with time, the orbital radius \(r\) must increase continuously.</p>
-<p><strong>Step 2: Nature of the Trajectory</strong><br/>
-Because \(G\) is continuously decreasing, the orbital radius expands over each revolution. The path never closes onto itself; rather, it traces an outward-spiralling trajectory. Therefore, the Earth will be going around the Sun, but not strictly in closed orbits.</p>
-<p><strong>Step 3: Long-Term Solar System Evolution</strong><br/>
-The total mechanical binding energy of the orbit is:
-\[E = -\frac{G M_S M_E}{2r}\]
-As \(G\) diminishes and \(r\) expands toward infinity over immense timescales, the binding energy approaches zero. Eventually, the Earth will escape the Sun's gravitational grip and leave the solar system.</p>
-<p><strong>Conclusion:</strong><br/>
-We will be going around but not strictly in closed orbits, and after sufficiently long time we will leave the solar system.</p>
-<hr/>
-<p><strong>ধাপ ১: কক্ষীয় বলবিদ্যার সম্পর্ক</strong><br/>
-সূর্যের চারদিকে \(r\) ব্যাসার্ধের কক্ষপথে পৃথিবীর আবর্তনের ক্ষেত্রে অভিকেন্দ্রী বলের সমীকরণ:
-\[\frac{M_E v^2}{r} = \frac{G M_S M_E}{r^2}\]
-কৌণিক ভরবেগ \(L = M_E v r\) ধ্রুবক থাকায়:
-\[r = \frac{L^2}{G M_S M_E^2} \propto \frac{1}{G}\]
-সময়ের সাথে সাথে \(G\) এর মান হ্রাস পেলে কক্ষপথের ব্যাসার্ধ \(r\) ক্রমাগত বৃদ্ধি পায়।</p>
-<p><strong>ধাপ ২: কক্ষীয় গতিপথের প্রকৃতি</strong><br/>
-\(G\) ক্রমাগত হ্রাস পাওয়ার কারণে কক্ষপথের প্রতিটি চক্রে ব্যাসার্ধ একটু একটু করে প্রসারিত হয়। ফলে গতিপথটি একটি নিখুঁত বদ্ধ উপবৃত্ত না হয়ে ক্রমাগত বাইরের দিকে সর্পিল আকার ধারণ করে। সুতরাং পৃথিবী সূর্যের চারদিকে আবর্তন করবে কিন্তু কঠোরভাবে বদ্ধ কক্ষপথে নয়।</p>
-<p><strong>ধাপ ৩: সুদূর ভবিষ্যৎ পরিণতি</strong><br/>
-কক্ষীয় মোট বন্ধন শক্তি \(E = -\frac{GM_S M_E}{2r}\)। দীর্ঘ সময় পর \(G \to 0\) এবং \(r \to \infty\) হওয়ায় বন্ধন শক্তি শূন্যের দিকে ধাবিত হবে এবং একসময় পৃথিবী সৌরজগৎ ত্যাগ করে মহাশূন্যে হারিয়ে যাবে।</p>
-<p><strong>উপসংহার:</strong><br/>
-আমরা আবর্তন করতে থাকব কিন্তু তা পুরোপুরি বদ্ধ কক্ষপথে হবে না, এবং যথেষ্ট দীর্ঘ সময় পর আমরা সৌরজগৎ ত্যাগ করব।</p>]]></text>
-  </generalfeedback>
+  <name><text>PHYSICS_MCQII_GRAVITATION_MCQ_Q13 - Effect of decreasing gravitational constant G</text></name>
+  <questiontext format="html"><text><![CDATA[<p>8.13 There have been suggestions that the value of the gravitational constant \(G\) becomes smaller when considered over very large time period (in billions of years) in the future. If that happens, for our earth,</p><hr/><p>৮.১৩ এমন কিছু প্রস্তাব রয়েছে যে ভবিষ্যতে অতি দীর্ঘ সময়কালে (বিলিয়ন বছর ধরে) মহাকর্ষীয় ধ্রুবক \(G\)-এর মান কমে যেতে পারে। যদি তা ঘটে, তবে আমাদের পৃথিবীর ক্ষেত্রে,</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>The gravitational force keeping the earth in orbit around the sun is \(F = \frac{GM_s M_e}{r^2}\). For a circular orbit of radius \(r\), angular momentum \(L = M_e v r = M_e \sqrt{G M_s r}\) is conserved because the gravitational force is central.</p><p><strong>Step 2: Effect of Decreasing \(G\)</strong><br/>Since \(L = M_e \sqrt{G M_s r}\) remains constant, if \(G\) gradually decreases over time, the orbital radius \(r\) must gradually increase (\(r \propto \frac{1}{G}\)). Because the radius continuously increases, the earth will spiral outward slowly rather than moving in strictly closed orbits. As the earth moves farther from the sun, it will become cooler, not hotter. Eventually, after a sufficiently long time as \(G\) becomes very small, the earth will escape the solar system.</p><p><strong>Step 3: Final Conclusion</strong><br/>If \(G\) becomes smaller over billions of years, the earth will go around the sun in non-closed (expanding) orbits and after a sufficiently long time will leave the solar system.</p><hr/><p><strong>ধাপ ১: ধারণাগত নীতি</strong><br/>সূর্যের চারপাশে পৃথিবীকে কক্ষপথে আবদ্ধ রাখা মহাকর্ষীয় বল হলো \(F = \frac{GM_s M_e}{r^2}\) । \(r\) ব্যাসার্ধের কক্ষপথের জন্য কৌণিক ভরবেগ \(L = M_e v r = M_e \sqrt{G M_s r}\) সংরক্ষিত থাকে, কারণ মহাকর্ষীয় বল একটি কেন্দ্রীয় বল।</p><p><strong>ধাপ ২: \(G\) হ্রাস পাওয়ার প্রভাব</strong><br/>যেহেতু \(L = M_e \sqrt{G M_s r}\) ধ্রুবক থাকে, তাই সময়ের সাথে সাথে \(G\) ধীরে ধীরে কমতে থাকলে কক্ষীয় ব্যাসার্ধ \(r\) ধীরে ধীরে বাড়তে থাকবে (\(r \propto \frac{1}{G}\))। ব্যাসার্ধ ক্রমাগত বৃদ্ধি পাওয়ার ফলে পৃথিবী সম্পূর্ণ বদ্ধ কক্ষপথে না ঘুরে ধীরে ধীরে বাইরের দিকে সরে যাবে। সূর্য থেকে দূরে সরে যাওয়ার কারণে পৃথিবী উত্তপ্ত না হয়ে বরং শীতলতর হবে। অবশেষে, যথেষ্ট দীর্ঘ সময় পর \(G\) অতি ক্ষুদ্র হয়ে গেলে পৃথিবী সৌরজগৎ ছেড়ে বেরিয়ে যাবে।</p><p><strong>ধাপ ৩: চূড়ান্ত সিদ্ধান্ত</strong><br/>বিলিয়ন বছর ধরে \(G\)-এর মান কমতে থাকলে পৃথিবী সম্পূর্ণ বদ্ধ কক্ষপথে ঘুরবে না এবং যথেষ্ট দীর্ঘ সময় পর সৌরজগৎ ত্যাগ করবে।</p>]]></text></generalfeedback>
   <defaultgrade>4.0000000</defaultgrade>
   <penalty>0.2500000</penalty>
   <hidden>0</hidden>
   <single>false</single>
   <shuffleanswers>true</shuffleanswers>
   <answernumbering>abc</answernumbering>
-  <answer fraction="-50" format="html">
-    <text><![CDATA[<p>nothing will change.</p>]]></text>
-  </answer>
-  <answer fraction="-50" format="html">
-    <text><![CDATA[<p>we will become hotter after billions of years.</p>]]></text>
-  </answer>
-  <answer fraction="50" format="html">
-    <text><![CDATA[<p>we will be going around but not strictly in closed orbits.</p>]]></text>
-  </answer>
-  <answer fraction="50" format="html">
-    <text><![CDATA[<p>after sufficiently long time we will leave the solar system.</p>]]></text>
-  </answer>
+  <answer fraction="-50" format="html"><text><![CDATA[<p>nothing will change.</p>]]></text></answer>
+  <answer fraction="-50" format="html"><text><![CDATA[<p>we will become hotter after billions of years.</p>]]></text></answer>
+  <answer fraction="50" format="html"><text><![CDATA[<p>we will be going around but not strictly in closed orbits.</p>]]></text></answer>
+  <answer fraction="50" format="html"><text><![CDATA[<p>after sufficiently long time we will leave the solar system.</p>]]></text></answer>
   <tags>
     <tag><text>standard:neet_ug</text></tag>
     <tag><text>lang:en</text></tag>
     <tag><text>lang:bn</text></tag>
     <tag><text>subject:physics</text></tag>
+    <tag><text>section:mcq_ii</text></tag>
     <tag><text>class:class_11</text></tag>
     <tag><text>chapter:gravitation</text></tag>
     <tag><text>typology:mcq</text></tag>
-    <tag><text>difficulty:hard</text></tag>
+    <tag><text>difficulty:medium</text></tag>
     <tag><text>blooms:analyze</text></tag>
-    <tag><text>calculation:moderate</text></tag>
+    <tag><text>calculation:light</text></tag>
     <tag><text>media:text</text></tag>
     <tag><text>multiconcept:true</text></tag>
   </tags>
 </question>
 <question type="multichoice">
-  <name><text>NEET_UG_PHYSICS_GRAVITATION_MCQ_Q14 - Generalized power law gravitation modification</text></name>
-  <questiontext format="html">
-    <text><![CDATA[<p>Supposing Newton's law of gravitation for gravitation forces \(\mathbf{F}_1\) and \(\mathbf{F}_2\) between two masses \(m_1\) and \(m_2\) at positions \(\mathbf{r}_1\) and \(\mathbf{r}_2\) read</p>
-<p>\[\mathbf{F}_1 = -\mathbf{F}_2 = -\frac{\mathbf{r}_{12}}{r_{12}^3} G M_0^2 \left( \frac{m_1 m_2}{M_0^2} \right)^n\]</p>
-<p>where \(M_0\) is a constant of dimension of mass, \(\mathbf{r}_{12} = \mathbf{r}_1 - \mathbf{r}_2\) and \(n\) is a number. In such a case,</p>
-<hr/>
-<p>ধরা যাক, \(\mathbf{r}_1\) ও \(\mathbf{r}_2\) অবস্থানে থাকা দুটি ভর \(m_1\) ও \(m_2\) এর মধ্যে মহাকর্ষীয় বল \(\mathbf{F}_1\) ও \(\mathbf{F}_2\) এর জন্য নিউটনের মহাকর্ষ সূত্রটি নিম্নরূপে লেখা হলো:</p>
-<p>\[\mathbf{F}_1 = -\mathbf{F}_2 = -\frac{\mathbf{r}_{12}}{r_{12}^3} G M_0^2 \left( \frac{m_1 m_2}{M_0^2} \right)^n\]</p>
-<p>যেখানে \(M_0\) হলো ভরের মাত্রাবিশিষ্ট একটি ধ্রুবক, \(\mathbf{r}_{12} = \mathbf{r}_1 - \mathbf{r}_2\) এবং \(n\) একটি সংখ্যা। এমন ক্ষেত্রে,</p>]]></text>
-  </questiontext>
-  <generalfeedback format="html">
-    <text><![CDATA[<p><strong>Step 1: Gravitational Acceleration of a Body</strong><br/>
-The acceleration \(g\) of an object of mass \(m_1\) on the surface of the Earth (mass \(M_E\), radius \(R\)) is given by:
-\[g = \frac{|\mathbf{F}_1|}{m_1} = \frac{G M_0^2}{R^2} \frac{(m_1 M_E)^n}{M_0^{2n} m_1} = \frac{G M_0^{2-2n} M_E^n}{R^2} m_1^{n-1}\]
-Unless \(n = 1\), the acceleration \(g\) explicitly depends on the mass \(m_1\) of the falling object. Thus, the acceleration due to gravity on Earth will be different for different objects.</p>
-<p><strong>Step 2: Validity of Kepler's Laws</strong><br/>
-The force vector is proportional to \(-\frac{\mathbf{r}_{12}}{r_{12}^3}\), which is an inverse-square central force. Since the force is central, angular momentum is conserved, and Kepler's second law (law of areas) remains valid. Since the force is inverse-square, bound orbits are ellipses, so Kepler's first law remains valid. However, the orbital period equation for a planet of mass \(m\) around the Sun of mass \(M_S\) becomes:
-\[\frac{m v^2}{r} = \frac{G M_0^2}{r^2} \left(\frac{m M_S}{M_0^2}\right)^n \implies T^2 = \frac{4\pi^2 r^3 M_0^{2n-2}}{G M_S^n} m^{1-n}\]
-Here, \(T^2 / a^3\) is not a constant independent of the planet's mass \(m\) (unless \(n = 1\)). Therefore, only the third law becomes invalid.</p>
-<p><strong>Step 3: Flotation for Negative \(n\)</strong><br/>
-When \(n\) is negative (let \(n = -p\), with \(p > 0\)), the gravitational force on mass \(m_1\) becomes proportional to \(m_1^{-p}\). As a result, smaller masses experience larger gravitational forces per unit volume than larger masses. Consequently, an object lighter than water will experience a downward gravitational attraction per unit volume greater than that on water, causing it to sink rather than float.</p>
-<p><strong>Conclusion:</strong><br/>
-The acceleration due to gravity on earth will be different for different objects, only the third law will become invalid, and for \(n\) negative, an object lighter than water will sink in water.</p>
-<hr/>
-<p><strong>ধাপ ১: বস্তুর অভিকর্ষজ ত্বরণ নির্ণয়</strong><br/>
-\(m_1\) ভরের বস্তুর ওপর পৃথিবীর (ভর \(M_E\)) পৃষ্ঠে অভিকর্ষজ ত্বরণ:
-\[g = \frac{|\mathbf{F}_1|}{m_1} \propto m_1^{n-1}\]
-যদি \(n \neq 1\) হয়, তবে ত্বরণ বস্তুর নিজস্ব ভর \(m_1\) এর ওপর নির্ভর করে। অতএব, পৃথিবীর পৃষ্ঠে বিভিন্ন বস্তুর জন্য অভিকর্ষজ ত্বরণ বিভিন্ন হবে।</p>
-<p><strong>ধাপ ২: কেপলারের সূত্রাবলীর বিশ্লেষণ</strong><br/>
-বলটি দূরত্বের বর্গের ব্যস্তানুপাতিক এবং ব্যাসার্ধ বরাবর ক্রিয়াশীল একটি কেন্দ্রানুগ বল। কেন্দ্রানুগ বল হওয়ার কারণে কৌণিক ভরবেগ সংরক্ষিত থাকে, ফলে দ্বিতীয় সূত্র কার্যকর থাকে। বিপরীত-বর্গীয় বলের কারণে কক্ষপথ উপবৃত্তাকার হয়, ফলে প্রথম সূত্রটিও কার্যকর থাকে। কিন্তু আবর্তনকাল \(T^2\) গ্রহের ভরের ওপর নির্ভরশীল হয়ে পড়ে (\(T^2 \propto m^{1-n}\)), যার ফলে সর্বজনীন তৃতীয় সূত্রটি অকার্যকর হয়ে যায়। সুতরাং কেবলমাত্র তৃতীয় সূত্রটি অকার্যকর হবে।</p>
-<p><strong>ধাপ ৩: ঋণাত্মক \(n\) এর ক্ষেত্রে প্লবতা</strong><br/>
-\(n\) ঋণাত্মক হলে বল ভরের ব্যস্তানুপাতিক হয় (\(F \propto m^n\))। অর্থাৎ কম ভরের বস্তুর ওপর একক আয়তনে মহাকর্ষীয় বল বেশি হবে। ফলে পানির চেয়ে হালকা বস্তু পানির তুলনায় বেশি নিম্নমুখী বল অনুভব করবে এবং পানিতে ডুবে যাবে।</p>
-<p><strong>উপসংহার:</strong><br/>
-পৃথিবীতে বিভিন্ন বস্তুর জন্য অভিকর্ষজ ত্বরণ পৃথক হবে, কেবলমাত্র তৃতীয় সূত্রটি অকার্যকর হবে এবং \(n\) ঋণাত্মক হলে পানির চেয়ে হালকা বস্তু পানিতে ডুবে যাবে।</p>]]></text>
-  </generalfeedback>
+  <name><text>PHYSICS_MCQII_GRAVITATION_MCQ_Q14 - Modified Newton law of gravitation with exponent n</text></name>
+  <questiontext format="html"><text><![CDATA[<p>8.14 Supposing Newton's law of gravitation for gravitation forces \(\mathbf{F}_1\) and \(\mathbf{F}_2\) between two masses \(m_1\) and \(m_2\) at positions \(\mathbf{r}_1\) and \(\mathbf{r}_2\) read</p><p>\(\mathbf{F}_1 = -\mathbf{F}_2 = -\frac{\mathbf{r}_{12}}{r_{12}^3} G M_0^2 \left( \frac{m_1 m_2}{M_0^2} \right)^n\) where \(M_0\) is a constant of dimension of mass, \(\mathbf{r}_{12} = \mathbf{r}_1 - \mathbf{r}_2\) and \(n\) is a number. In such a case,</p><hr/><p>৮.১৪ মনে করো \(\mathbf{r}_1\) ও \(\mathbf{r}_2\) অবস্থানে থাকা দুটি ভর \(m_1\) ও \(m_2\)-এর মধ্যে মহাকর্ষীয় বল \(\mathbf{F}_1\) ও \(\mathbf{F}_2\)-এর জন্য নিউটনের মহাকর্ষ সূত্রটি হলো:</p><p>\(\mathbf{F}_1 = -\mathbf{F}_2 = -\frac{\mathbf{r}_{12}}{r_{12}^3} G M_0^2 \left( \frac{m_1 m_2}{M_0^2} \right)^n\), যেখানে \(M_0\) ভরের মাত্রাবিশিষ্ট একটি ধ্রুবক, \(\mathbf{r}_{12} = \mathbf{r}_1 - \mathbf{r}_2\) এবং \(n\) একটি সংখ্যা। এরূপ ক্ষেত্রে,</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Given Data and Formula</strong><br/>The gravitational force between masses \(m_1\) and \(m_2\) is:<br/>\[F = \frac{G M_0^2}{r_{12}^2} \left( \frac{m_1 m_2}{M_0^2} \right)^n\]</p><p><strong>Step 2: Acceleration Due to Gravity on Earth</strong><br/>For an object of mass \(m\) on the surface of the earth (mass \(M_e\), radius \(R\)), the acceleration due to gravity is:<br/>\[g = \frac{F}{m} = \frac{G M_0^2}{R^2 m} \left( \frac{M_e m}{M_0^2} \right)^n = \frac{G M_0^{2(1-n)} M_e^n}{R^2} m^{n-1}\]<br/>For \(n \neq 1\), \(g\) depends on the mass \(m\) of the object, so the acceleration due to gravity on earth will be different for different objects.</p><p><strong>Step 3: Validity of Kepler's Laws</strong><br/>Because the force is still central (directed along \(\mathbf{r}_{12}\)) and obeys the inverse-square dependence on distance (\(\propto \frac{1}{r_{12}^2}\)), Kepler's first law (elliptical orbits) and second law (conservation of angular momentum) remain valid. However, since \(G_{\text{eff}}\) depends on the planet's mass \(m^{n-1}\), the ratio \(\frac{T^2}{a^3}\) is not the same constant for all planets; thus only Kepler's third law becomes invalid.</p><p><strong>Step 4: Floating or Sinking for Negative \(n\)</strong><br/>Consider an object of volume \(V\) and mass \(m_{\text{obj}}\) that is lighter than water (so \(m_{\text{obj}} &lt; m_{\text{water}}\) for the same volume \(V\)). The weight of the object is \(W_{\text{obj}} = m_{\text{obj}} g(m_{\text{obj}}) \propto m_{\text{obj}}^n\), while the buoyant force is the weight of displaced water, \(B = m_{\text{water}} g(m_{\text{water}}) \propto m_{\text{water}}^n\). If \(n &lt; 0\), then \(m_{\text{obj}} &lt; m_{\text{water}}\) implies \(m_{\text{obj}}^n &gt; m_{\text{water}}^n\), so \(W_{\text{obj}} &gt; B\). Therefore, an object lighter than water will sink in water.</p><p><strong>Step 5: Final Conclusion</strong><br/>Acceleration due to gravity on earth will be different for different objects, only Kepler's third law will become invalid, and for negative \(n\), an object lighter than water will sink in water.</p><hr/><p><strong>ধাপ ১: প্রদত্ত তথ্য ও সূত্র</strong><br/>\(m_1\) এবং \(m_2\) ভরের মধ্যকার মহাকর্ষীয় বল হলো:<br/>\[F = \frac{G M_0^2}{r_{12}^2} \left( \frac{m_1 m_2}{M_0^2} \right)^n\]</p><p><strong>ধাপ ২: পৃথিবীতে অভিকর্ষজ ত্বরণ</strong><br/>পৃথিবীর পৃষ্ঠে (পৃথিবীর ভর \(M_e\), ব্যাসার্ধ \(R\)) অবস্থিত \(m\) ভরের বস্তুর জন্য অভিকর্ষজ ত্বরণ হলো:<br/>\[g = \frac{F}{m} = \frac{G M_0^2}{R^2 m} \left( \frac{M_e m}{M_0^2} \right)^n = \frac{G M_0^{2(1-n)} M_e^n}{R^2} m^{n-1}\]<br/>\(n \neq 1\)-এর জন্য \(g\) বস্তুর ভর \(m\)-এর ওপর নির্ভর করে, তাই পৃথিবীতে বিভিন্ন বস্তুর জন্য অভিকর্ষজ ত্বরণ ভিন্ন হবে।</p><p><strong>ধাপ ৩: কেপলারের সূত্রাবলির বৈধতা</strong><br/>যেহেতু বলটি এখনো কেন্দ্রীয় (\(\mathbf{r}_{12}\) বরাবর) এবং দূরত্বের ব্যস্তানুপাতিক বর্গ সূত্র (\(\propto \frac{1}{r_{12}^2}\)) মেনে চলে, তাই কেপলারের প্রথম সূত্র (উপবৃত্তাকার কক্ষপথ) ও দ্বিতীয় সূত্র (কৌণিক ভরবেগের সংরক্ষণ) বৈধ থাকে। কিন্তু বলটি গ্রহের ভরের ওপর নির্ভরশীল হওয়ায় সকল গ্রহের জন্য \(\frac{T^2}{a^3}\) অনুপাতটি ধ্রুবক থাকে না; ফলে কেবল কেপলারের তৃতীয় সূত্রটিই অকার্যকর হয়ে পড়ে।</p><p><strong>ধাপ ৪: ঋণাত্মক \(n\)-এর জন্য ভাসা বা ডোবা</strong><br/>\(V\) আয়তন ও \(m_{\text{obj}}\) ভরের একটি বস্তু বিবেচনা করা যাক যা জলের চেয়ে হালকা (অর্থাৎ সমান আয়তন \(V\)-এর জন্য \(m_{\text{obj}} &lt; m_{\text{water}}\))। বস্তুটির ওজন \(W_{\text{obj}} = m_{\text{obj}} g(m_{\text{obj}}) \propto m_{\text{obj}}^n\), এবং প্লবতা বল হলো অপসারিত জলের ওজন, \(B = m_{\text{water}} g(m_{\text{water}}) \propto m_{\text{water}}^n\) । যদি \(n &lt; 0\) হয়, তবে \(m_{\text{obj}} &lt; m_{\text{water}}\) থেকে পাওয়া যায় \(m_{\text{obj}}^n &gt; m_{\text{water}}^n\), অর্থাৎ \(W_{\text{obj}} &gt; B\) । তাই জলের চেয়ে হালকা বস্তুও জলে ডুবে যাবে।</p><p><strong>ধাপ ৫: চূড়ান্ত সিদ্ধান্ত</strong><br/>পৃথিবীতে বিভিন্ন বস্তুর জন্য অভিকর্ষজ ত্বরণ ভিন্ন হবে, কেবল কেপলারের তৃতীয় সূত্র অকার্যকর হবে এবং \(n\) ঋণাত্মক হলে জলের চেয়ে হালকা বস্তু জলে ডুবে যাবে।</p>]]></text></generalfeedback>
   <defaultgrade>4.0000000</defaultgrade>
   <penalty>0.2500000</penalty>
   <hidden>0</hidden>
   <single>false</single>
   <shuffleanswers>true</shuffleanswers>
   <answernumbering>abc</answernumbering>
-  <answer fraction="33.33333" format="html">
-    <text><![CDATA[<p>the acceleration due to gravity on earth will be different for different objects.</p>]]></text>
-  </answer>
-  <answer fraction="-50" format="html">
-    <text><![CDATA[<p>none of the three laws of Kepler will be valid.</p>]]></text>
-  </answer>
-  <answer fraction="33.33333" format="html">
-    <text><![CDATA[<p>only the third law will become invalid.</p>]]></text>
-  </answer>
-  <answer fraction="33.33333" format="html">
-    <text><![CDATA[<p>for \(n\) negative, an object lighter than water will sink in water.</p>]]></text>
-  </answer>
+  <answer fraction="33.33333" format="html"><text><![CDATA[<p>the acceleration due to gravity on earth will be different for different objects.</p>]]></text></answer>
+  <answer fraction="-100" format="html"><text><![CDATA[<p>none of the three laws of Kepler will be valid.</p>]]></text></answer>
+  <answer fraction="33.33333" format="html"><text><![CDATA[<p>only the third law will become invalid.</p>]]></text></answer>
+  <answer fraction="33.33333" format="html"><text><![CDATA[<p>for \(n\) negative, an object lighter than water will sink in water.</p>]]></text></answer>
   <tags>
     <tag><text>standard:neet_ug</text></tag>
     <tag><text>lang:en</text></tag>
     <tag><text>lang:bn</text></tag>
     <tag><text>subject:physics</text></tag>
+    <tag><text>section:mcq_ii</text></tag>
     <tag><text>class:class_11</text></tag>
     <tag><text>chapter:gravitation</text></tag>
     <tag><text>typology:mcq</text></tag>
@@ -964,50 +421,25 @@ The acceleration due to gravity on earth will be different for different objects
   </tags>
 </question>
 <question type="multichoice">
-  <name><text>NEET_UG_PHYSICS_GRAVITATION_MCQ_Q15 - Direction of motion of polar and geostationary satellites</text></name>
-  <questiontext format="html">
-    <text><![CDATA[<p>Which of the following are true?</p>
-<hr/>
-<p>নিচের কোনটি/কোনগুলি সত্য?</p>]]></text>
-  </questiontext>
-  <generalfeedback format="html">
-    <text><![CDATA[<p><strong>Step 1: Polar Satellites Characteristics</strong><br/>
-A polar satellite orbits the Earth in a plane that passes closely over both the north and south geographical poles (an orbital inclination of approximately \(90^\circ\)). Its orbital motion carries it in a north-to-south (or south-to-north) direction across the poles, while the Earth rotates underneath from west to east.</p>
-<p><strong>Step 2: Geostationary Satellites Characteristics</strong><br/>
-A geostationary satellite orbits in the equatorial plane with an orbital period of exactly 24 hours, matching the rotational period of the Earth. To appear stationary at a fixed longitude relative to an observer on the rotating Earth, the satellite must revolve in the same direction as Earth's axial rotation, which is from west to east.</p>
-<p><strong>Conclusion:</strong><br/>
-The true statements are that a polar satellite goes around the earth's pole in north-south direction, and a geostationary satellite goes around the earth in west-east direction.</p>
-<hr/>
-<p><strong>ধাপ ১: পোলার উপগ্রহের বৈশিষ্ট্য</strong><br/>
-পোলার উপগ্রহগুলি প্রায় \(90^\circ\) নতিবিশিষ্ট কক্ষীয় তলে পৃথিবীর উত্তর ও দক্ষিণ মেরুর ওপর দিয়ে প্রদক্ষিণ করে। পৃথিবী যখন নিজের অক্ষের চারদিকে পশ্চিম থেকে পূর্বে আবর্তন করে, তখন এই উপগ্রহগুলি উত্তর থেকে দক্ষিণ (বা দক্ষিণ থেকে উত্তর) অভিমুখে গতিশীল থাকে।</p>
-<p><strong>ধাপ ২: ভূ-স্থির উপগ্রহের বৈশিষ্ট্য</strong><br/>
-একটি ভূ-স্থির (জিওস্টেশনারি) উপগ্রহ বিষুবীয় তলে ২৪ ঘণ্টার আবর্তনকাল নিয়ে পৃথিবীকে প্রদক্ষিণ করে। পৃথিবীর ঘূর্ণনশীল কোনো দর্শকের সাপেক্ষে আকাশে নির্দিষ্ট বিন্দুতে স্থির থাকতে হলে এটিকে পৃথিবীর আহ্নিক গতির অভিমুখে অর্থাৎ পশ্চিম থেকে পূর্ব দিকে পরিক্রমণ করতে হয়।</p>
-<p><strong>উপসংহার:</strong><br/>
-সত্য বিবৃতিগুলি হলো: একটি পোলার উপগ্রহ পৃথিবীর মেরুর চারদিকে উত্তর-দক্ষিণ অভিমুখে ঘোরে এবং একটি ভূ-স্থির উপগ্রহ পৃথিবীর চারদিকে পশ্চিম-পূর্ব অভিমুখে ঘোরে।</p>]]></text>
-  </generalfeedback>
+  <name><text>PHYSICS_MCQII_GRAVITATION_MCQ_Q15 - Orbits of polar and geostationary satellites</text></name>
+  <questiontext format="html"><text><![CDATA[<p>8.15 Which of the following are true?</p><hr/><p>৮.১৫ নিচের কোনগুলি সত্য?</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>A polar satellite orbits in a plane passing over the north and south poles of the earth, so its motion is in the north-south direction. A geostationary satellite remains fixed over a point on the earth's equator, which requires it to orbit in the equatorial plane with the same angular velocity and direction as the earth's rotation.</p><p><strong>Step 2: Evaluation</strong><br/>Since the earth rotates around its axis from west to east, a geostationary satellite must also revolve around the earth in the west-east direction.</p><p><strong>Step 3: Final Conclusion</strong><br/>A polar satellite goes around the earth's pole in the north-south direction, and a geostationary satellite goes around the earth in the west-east direction.</p><hr/><p><strong>ধাপ ১: ধারণাগত নীতি</strong><br/>একটি মেরু উপগ্রহ (polar satellite) পৃথিবীর উত্তর ও দক্ষিণ মেরুর ওপর দিয়ে যাওয়া তলে প্রদক্ষিণ করে, তাই এর গতি উত্তর-দক্ষিণ অভিমুখী হয়। একটি ভূস্থির উপগ্রহ (geostationary satellite) পৃথিবীর নিরক্ষরেখার কোনো একটি বিন্দুর ওপর স্থির থাকে, যার জন্য এটিকে নিরক্ষীয় তলে পৃথিবীর আবর্তনের সমান কৌণিক বেগে ও একই দিকে ঘুরতে হয়।</p><p><strong>ধাপ ২: মূল্যায়ন</strong><br/>যেহেতু পৃথিবী নিজের অক্ষের চারপাশে পশ্চিম থেকে পূর্ব দিকে ঘোরে, তাই একটি ভূস্থির উপগ্রহকেও পশ্চিম-পূর্ব অভিমুখে পৃথিবীর চারপাশে আবর্তন করতে হয়।</p><p><strong>ধাপ ৩: চূড়ান্ত সিদ্ধান্ত</strong><br/>একটি মেরু উপগ্রহ উত্তর-দক্ষিণ দিকে পৃথিবীর মেরু অঞ্চল প্রদক্ষিণ করে এবং একটি ভূস্থির উপগ্রহ পশ্চিম-পূর্ব দিকে পৃথিবীকে প্রদক্ষিণ করে।</p>]]></text></generalfeedback>
   <defaultgrade>4.0000000</defaultgrade>
   <penalty>0.2500000</penalty>
   <hidden>0</hidden>
   <single>false</single>
   <shuffleanswers>true</shuffleanswers>
   <answernumbering>abc</answernumbering>
-  <answer fraction="50" format="html">
-    <text><![CDATA[<p>A polar satellite goes around the earth's pole in north-south direction.</p>]]></text>
-  </answer>
-  <answer fraction="-50" format="html">
-    <text><![CDATA[<p>A geostationary satellite goes around the earth in east-west direction.</p>]]></text>
-  </answer>
-  <answer fraction="50" format="html">
-    <text><![CDATA[<p>A geostationary satellite goes around the earth in west-east direction.</p>]]></text>
-  </answer>
-  <answer fraction="-50" format="html">
-    <text><![CDATA[<p>A polar satellite goes around the earth in east-west direction.</p>]]></text>
-  </answer>
+  <answer fraction="50" format="html"><text><![CDATA[<p>A polar satellite goes around the earth's pole in north-south direction.</p>]]></text></answer>
+  <answer fraction="-50" format="html"><text><![CDATA[<p>A geostationary satellite goes around the earth in east-west direction.</p>]]></text></answer>
+  <answer fraction="50" format="html"><text><![CDATA[<p>A geostationary satellite goes around the earth in west-east direction.</p>]]></text></answer>
+  <answer fraction="-50" format="html"><text><![CDATA[<p>A polar satellite goes around the earth in east-west direction.</p>]]></text></answer>
   <tags>
     <tag><text>standard:neet_ug</text></tag>
     <tag><text>lang:en</text></tag>
     <tag><text>lang:bn</text></tag>
     <tag><text>subject:physics</text></tag>
+    <tag><text>section:mcq_ii</text></tag>
     <tag><text>class:class_11</text></tag>
     <tag><text>chapter:gravitation</text></tag>
     <tag><text>typology:mcq</text></tag>
@@ -1019,64 +451,26 @@ The true statements are that a polar satellite goes around the earth's pole in n
   </tags>
 </question>
 <question type="multichoice">
-  <name><text>NEET_UG_PHYSICS_GRAVITATION_MCQ_Q16 - Centre of mass versus centre of gravity</text></name>
-  <questiontext format="html">
-    <text><![CDATA[<p>The centre of mass of an extended body on the surface of the earth and its centre of gravity</p>
-<hr/>
-<p>ভূপৃষ্ঠে অবস্থিত একটি বিস্তৃত বস্তুর ভরকেন্দ্র এবং এর অভিকর্ষ কেন্দ্র</p>]]></text>
-  </questiontext>
-  <generalfeedback format="html">
-    <text><![CDATA[<p><strong>Step 1: Definitions of Centre of Mass and Centre of Gravity</strong><br/>
-The centre of mass (COM) of a body is the geometric point where the entire mass of the body can be considered to be concentrated for translational mechanics. Its location depends exclusively on the spatial mass distribution of the body. The centre of gravity (COG) is the point through which the resultant gravitational force (weight) acts, and about which the net gravitational torque is zero:
-\[\mathbf{R}_{\text{cog}} = \frac{\sum m_i g_i \mathbf{r}_i}{\sum m_i g_i}\]</p>
-<p><strong>Step 2: Condition for Coincidence</strong><br/>
-When the gravitational field \(\mathbf{g}\) is uniform across the entire body, \(g_i = g = \text{constant}\), which factors out:
-\[\mathbf{R}_{\text{cog}} = \frac{g \sum m_i \mathbf{r}_i}{g \sum m_i} = \frac{\sum m_i \mathbf{r}_i}{\sum m_i} = \mathbf{R}_{\text{com}}\]
-Under a perfectly uniform gravitational field, the centre of gravity coincides exactly with the centre of mass.</p>
-<p><strong>Step 3: Variation on Earth's Surface for Objects below 100 m</strong><br/>
-On the surface of the Earth, the variation of the gravitational field strength with height \(h\) is \(\frac{\Delta g}{g} \approx \frac{2h}{R_E}\). For objects of dimensions less than \(100\text{ m}\), with \(R_E \approx 6.4 \times 10^6\text{ m}\):
-\[\frac{\Delta g}{g} \approx \frac{2 \times 100}{6.4 \times 10^6} \approx 3.1 \times 10^{-5}\]
-This fractional variation across the body is extremely small (less than \(0.003\%\)). Thus, the gravitational field is practically uniform, causing the centre of mass and centre of gravity to lie exceptionally close to each other.</p>
-<p><strong>Conclusion:</strong><br/>
-The centre of mass and centre of gravity are close to each other for objects of sizes less than 100 m.</p>
-<hr/>
-<p><strong>ধাপ ১: ভরকেন্দ্র ও অভিকর্ষ কেন্দ্রের সংজ্ঞা</strong><br/>
-কোনো বস্তুর ভরকেন্দ্র (COM) হলো এমন একটি বিন্দু যেখানে বস্তুর সমগ্র ভর কেন্দ্রীভূত রয়েছে বলে ধরা যায়; এটি কেবল বস্তুর ভরের বিন্যাসের ওপর নির্ভর করে। অন্যদিকে অভিকর্ষ কেন্দ্র (COG) হলো সেই বিন্দু যার মধ্য দিয়ে বস্তুর মোট ওজন ক্রিয়া করে এবং যার সাপেক্ষে অভিকর্ষ বলের মোট টর্ক শূন্য হয়:
-\[\mathbf{R}_{\text{cog}} = \frac{\sum m_i g_i \mathbf{r}_i}{\sum m_i g_i}\]</p>
-<p><strong>ধাপ ২: অবস্থানের সমাপতনের শর্ত</strong><br/>
-যদি বস্তুর সম্পূর্ণ বিস্তার জুড়ে অভিকর্ষজ ক্ষেত্র \(\mathbf{g}\) এর মান সুষম বা ধ্রুবক থাকে, তবে অভিকর্ষ কেন্দ্র ও ভরকেন্দ্র সম্পূর্ণ একই বিন্দুতে অবস্থান করে:
-\[\mathbf{R}_{\text{cog}} = \mathbf{R}_{\text{com}}\]</p>
-<p><strong>ধাপ ৩: ১০০ মিটারের কম আকারের বস্তুর ক্ষেত্রে বিশ্লেষণ</strong><br/>
-ভূপৃষ্ঠে উচ্চতার সাথে অভিকর্ষজ ত্বরণের ভগ্নাংশিক পরিবর্তন \(\frac{\Delta g}{g} \approx \frac{2h}{R_E}\)। ১০০ মিটারের কম আকারের বস্তুর ক্ষেত্রে এই পরিবর্তনের মাত্রা প্রায় \(3 \times 10^{-5}\), যা অত্যন্ত নগণ্য। ফলে ক্ষেত্রটি প্রায় সমসত্ত্ব থাকে এবং ভরকেন্দ্র ও অভিকর্ষ কেন্দ্র পরস্পরের অত্যন্ত কাছাকাছি অবস্থান করে।</p>
-<p><strong>উপসংহার:</strong><br/>
-১০০ মিটারের কম আকারের বস্তুর ক্ষেত্রে ভরকেন্দ্র ও অভিকর্ষ কেন্দ্র পরস্পরের খুব কাছাকাছি থাকে।</p>]]></text>
-  </generalfeedback>
+  <name><text>PHYSICS_MCQII_GRAVITATION_MCQ_Q16 - Centre of mass and centre of gravity of extended body</text></name>
+  <questiontext format="html"><text><![CDATA[<p>8.16 The centre of mass of an extended body on the surface of the earth and its centre of gravity</p><hr/><p>৮.১৬ ভূপৃষ্ঠে অবস্থিত একটি বিস্তৃত বস্তুর ভরকেন্দ্র এবং এর ভারকেন্দ্র</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>The centre of mass (CM) of a body depends only on its mass distribution and geometry, whereas the centre of gravity (CG) is the point where the total gravitational torque on the body vanishes. When the gravitational field \(\mathbf{g}\) is uniform across the entire body, the CM and CG coincide.</p><p><strong>Step 2: Evaluation of Size and Depth Effects</strong><br/>On the surface of the earth, the radius of the earth is \(R \approx 6.4 \times 10^6\text{ m}\). For objects of sizes less than \(100\text{ m}\), the variation in \(g\) over the extent of the body is negligible, so the CM and CG are very close to each other. For very large extended bodies (like mountains), \(g\) varies with height, so the CM and CG do not coincide. Also, taking an object deep inside the earth changes the gravitational field \(g\), which can shift the CG, but the CM remains fixed relative to the body.</p><p><strong>Step 3: Final Conclusion</strong><br/>The centre of mass and centre of gravity of an extended body on the surface of the earth are close to each other for objects of sizes less than \(100\text{ m}\).</p><hr/><p><strong>ধাপ ১: ধারণাগত নীতি</strong><br/>কোনো বস্তুর ভরকেন্দ্র (CM) কেবল তার ভর বণ্টন ও জ্যামিতিক গঠনের ওপর নির্ভর করে, অন্যদিকে ভারকেন্দ্র (CG) হলো সেই বিন্দু যেখানে বস্তুটির ওপর ক্রিয়াশীল মোট মহাকর্ষীয় টর্ক শূন্য হয়। বস্তুর সর্বত্র মহাকর্ষীয় ক্ষেত্র \(\mathbf{g}\) সুষম হলে ভরকেন্দ্র ও ভারকেন্দ্র একই বিন্দুতে অবস্থান করে।</p><p><strong>ধাপ ২: আকার ও গভীরতার প্রভাবের মূল্যায়ন</strong><br/>ভূপৃষ্ঠে পৃথিবীর ব্যাসার্ধ \(R \approx 6.4 \times 10^6\text{ m}\) । \(100\text{ m}\)-এর কম আকারের বস্তুর ক্ষেত্রে বস্তুটির ব্যাপ্তি জুড়ে \(g\)-এর পরিবর্তন নগণ্য হয়, তাই এর ভরকেন্দ্র ও ভারকেন্দ্র পরস্পরের খুব কাছাকাছি থাকে। পর্বতের মতো অতি বৃহৎ বিস্তৃত বস্তুর ক্ষেত্রে উচ্চতার সাথে \(g\) পরিবর্তিত হওয়ায় ভরকেন্দ্র ও ভারকেন্দ্র এক হয় না। আবার বস্তুকে পৃথিবীর গভীরে নিয়ে গেলে \(g\)-এর মান পরিবর্তিত হওয়ায় ভারকেন্দ্রের অবস্থান পরিবর্তিত হতে পারে, কিন্তু বস্তুটির সাপেক্ষে ভরকেন্দ্র অপরিবর্তিত থাকে।</p><p><strong>ধাপ ৩: চূড়ান্ত সিদ্ধান্ত</strong><br/>ভূপৃষ্ঠে \(100\text{ m}\)-এর কম আকারের বস্তুগুলির জন্য ভরকেন্দ্র এবং ভারকেন্দ্র পরস্পরের খুব কাছাকাছি অবস্থিত হয়।</p>]]></text></generalfeedback>
   <defaultgrade>4.0000000</defaultgrade>
   <penalty>0.2500000</penalty>
   <hidden>0</hidden>
   <single>true</single>
   <shuffleanswers>true</shuffleanswers>
   <answernumbering>abc</answernumbering>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>are always at the same point for any size of the body.</p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>are always at the same point only for spherical bodies.</p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>can never be at the same point.</p>]]></text>
-  </answer>
-  <answer fraction="100" format="html">
-    <text><![CDATA[<p>is close to each other for objects, say of sizes less than 100 m.</p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>both can change if the object is taken deep inside the earth.</p>]]></text>
-  </answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>are always at the same point for any size of the body.</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>are always at the same point only for spherical bodies.</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>can never be at the same point.</p>]]></text></answer>
+  <answer fraction="100" format="html"><text><![CDATA[<p>is close to each other for objects, say of sizes less than \(100\text{ m}\).</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>both can change if the object is taken deep inside the earth.</p>]]></text></answer>
   <tags>
     <tag><text>standard:neet_ug</text></tag>
     <tag><text>lang:en</text></tag>
     <tag><text>lang:bn</text></tag>
     <tag><text>subject:physics</text></tag>
+    <tag><text>section:mcq_ii</text></tag>
     <tag><text>class:class_11</text></tag>
     <tag><text>chapter:gravitation</text></tag>
     <tag><text>typology:mcq</text></tag>

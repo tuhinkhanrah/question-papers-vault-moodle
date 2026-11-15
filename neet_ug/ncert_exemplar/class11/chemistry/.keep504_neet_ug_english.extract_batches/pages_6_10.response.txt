@@ -1,7 +1,11 @@
 <question type="multichoice">
-  <name><text>NEET_UG_CHEMISTRY_MCQ_Q28 - Diamagnetic species containing no unpaired electrons</text></name>
-  <questiontext format="html"><text><![CDATA[<p>Dimagnetic species are those which contain no unpaired electrons. Which among the following are dimagnetic?</p>]]></text></questiontext>
-  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>According to Molecular Orbital Theory, a chemical species is diamagnetic if all of its electrons are paired (zero unpaired electrons) and paramagnetic if one or more unpaired electrons are present in its molecular orbitals.</p><p><strong>Step 2: Electronic Configuration of Fourteen-Electron and Eighteen-Electron Species</strong><br/>For the neutral dinitrogen molecule (\(\mathrm{N}_2\)), the total number of electrons is \(7 + 7 = 14\). Its ground-state molecular orbital configuration is:<br/>\[\sigma 1s^2 \, \sigma^* 1s^2 \, \sigma 2s^2 \, \sigma^* 2s^2 \, (\pi 2p_x^2 = \pi 2p_y^2) \, \sigma 2p_z^2\]<br/>Every occupied molecular orbital contains paired electrons, resulting in zero unpaired electrons; hence, dinitrogen is diamagnetic.<br/>For the peroxide anion (\(\mathrm{O}_2^{2-}\)), the total number of electrons is \(8 + 8 + 2 = 18\). Its ground-state molecular orbital configuration is:<br/>\[\sigma 1s^2 \, \sigma^* 1s^2 \, \sigma 2s^2 \, \sigma^* 2s^2 \, \sigma 2p_z^2 \, (\pi 2p_x^2 = \pi 2p_y^2) \, (\pi^* 2p_x^2 = \pi^* 2p_y^2)\]<br/>All 18 electrons are fully paired across the orbitals, with zero unpaired electrons; therefore, the peroxide ion is diamagnetic.</p><p><strong>Step 3: Electronic Configuration of Sixteen-Electron Species</strong><br/>For \(\mathrm{N}_2^{2-}\) and \(\mathrm{O}_2\), each possesses 16 total electrons. The configuration for 16 electrons fills the degenerate antibonding orbitals with two unpaired electrons:<br/>\[(\pi^* 2p_x^1 = \pi^* 2p_y^1)\]<br/>Because both \(\mathrm{N}_2^{2-}\) and \(\mathrm{O}_2\) contain two unpaired electrons, they are paramagnetic.</p><p><strong>Step 4: Final Conclusion</strong><br/>The diamagnetic species among the given chemical species are \(\mathrm{N}_2\) and \(\mathrm{O}_2^{2-}\).</p>]]></text></generalfeedback>
+  <name><text>NCERTEXEMPLAR_CHEMISTRY_UNIT4_MCQII_Q28 - Diamagnetic species among N2 N22- O2 O22-</text></name>
+  <questiontext format="html"><text><![CDATA[<p>28. Diamagnetic species are those which contain no unpaired electrons. Which among the following are diamagnetic?</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[
+    <p><strong>Step 1: Conceptual Principle</strong><br/>According to Molecular Orbital Theory, a species is diamagnetic when all electrons in its molecular orbitals are paired (zero unpaired electrons).</p>
+    <p><strong>Step 2: Evaluation of Each Species</strong><br/>\(\mathrm{N}_2\) has 14 electrons: \(\sigma 1s^2 \sigma^* 1s^2 \sigma 2s^2 \sigma^* 2s^2 (\pi 2p_x^2 = \pi 2p_y^2) \sigma 2p_z^2\). All electrons are paired, so \(\mathrm{N}_2\) is diamagnetic.<br/>\(\mathrm{N}_2^{2-}\) has 16 electrons, with the last two electrons occupying the degenerate \(\pi^* 2p_x\) and \(\pi^* 2p_y\) orbitals singly (by Hund's rule), giving 2 unpaired electrons (paramagnetic).<br/>\(\mathrm{O}_2\) has 16 electrons, also with 2 unpaired electrons in \(\pi^* 2p_x^1\) and \(\pi^* 2p_y^1\) (paramagnetic).<br/>\(\mathrm{O}_2^{2-}\) has 18 electrons: \(\sigma 1s^2 \sigma^* 1s^2 \sigma 2s^2 \sigma^* 2s^2 \sigma 2p_z^2 (\pi 2p_x^2 = \pi 2p_y^2) (\pi^* 2p_x^2 = \pi^* 2p_y^2)\). All electrons are paired, so \(\mathrm{O}_2^{2-}\) is diamagnetic.</p>
+    <p><strong>Step 3: Final Conclusion</strong><br/>The diamagnetic species are \(\mathrm{N}_2\) and \(\mathrm{O}_2^{2-}\).</p>
+  ]]></text></generalfeedback>
   <defaultgrade>4.0000000</defaultgrade>
   <penalty>0.2500000</penalty>
   <hidden>0</hidden>
@@ -16,11 +20,12 @@
     <tag><text>standard:neet_ug</text></tag>
     <tag><text>lang:en</text></tag>
     <tag><text>subject:chemistry</text></tag>
+    <tag><text>section:mcq_type_2</text></tag>
     <tag><text>class:11</text></tag>
     <tag><text>chapter:chemical_bonding_and_molecular_structure</text></tag>
-    <tag><text>typology:mcq</text></tag>
+    <tag><text>typology:multi_correct_mcq</text></tag>
     <tag><text>difficulty:medium</text></tag>
-    <tag><text>blooms:understand</text></tag>
+    <tag><text>blooms:apply</text></tag>
     <tag><text>calculation:light</text></tag>
     <tag><text>media:text</text></tag>
     <tag><text>multiconcept:false</text></tag>
@@ -28,9 +33,15 @@
 </question>
 
 <question type="multichoice">
-  <name><text>NEET_UG_CHEMISTRY_MCQ_Q29 - Chemical species possessing identical bond order</text></name>
-  <questiontext format="html"><text><![CDATA[<p>Species having same bond order are :</p>]]></text></questiontext>
-  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Relevant Formula and Principle</strong><br/>The bond order of a diatomic molecule or ion is calculated from the number of bonding electrons (\(N_b\)) and antibonding electrons (\(N_a\)) using the relationship:<br/>\[\text{Bond Order} = \frac{N_b - N_a}{2}\]</p><p><strong>Step 2: Step-by-Step Calculation of Bond Orders</strong><br/>For \(\mathrm{N}_2\) with 14 electrons: \(N_b = 10\) and \(N_a = 4\).<br/>\[\text{Bond Order} = \frac{10 - 4}{2} = 3\]<br/>For \(\mathrm{N}_2^-\) with 15 electrons: an additional electron enters the antibonding \(\pi^* 2p\) orbital, giving \(N_b = 10\) and \(N_a = 5\).<br/>\[\text{Bond Order} = \frac{10 - 5}{2} = 2.5\]<br/>For \(\mathrm{F}_2^+\) with 17 electrons: \(N_b = 10\) and \(N_a = 7\).<br/>\[\text{Bond Order} = \frac{10 - 7}{2} = 1.5\]<br/>For \(\mathrm{O}_2^-\) with 17 electrons: it is isoelectronic with \(\mathrm{F}_2^+\), having \(N_b = 10\) and \(N_a = 7\).<br/>\[\text{Bond Order} = \frac{10 - 7}{2} = 1.5\]</p><p><strong>Step 3: Final Conclusion</strong><br/>Both \(\mathrm{F}_2^+\) and \(\mathrm{O}_2^-\) have 17 electrons and share the identical bond order of 1.5.</p>]]></text></generalfeedback>
+  <name><text>NCERTEXEMPLAR_CHEMISTRY_UNIT4_MCQII_Q29 - Species having same bond order</text></name>
+  <questiontext format="html"><text><![CDATA[<p>29. Species having same bond order are :</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[
+    <p><strong>Step 1: Given Data and Conditions</strong><br/>The four diatomic species are \(\mathrm{N}_2\) (14 electrons), \(\mathrm{N}_2^-\) (15 electrons), \(\mathrm{F}_2^+\) (17 electrons), and \(\mathrm{O}_2^-\) (17 electrons).</p>
+    <p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>Isoelectronic diatomic species have identical molecular orbital configurations and therefore identical bond orders.</p>
+    <p><strong>Step 3: Relevant Formulae and Principles</strong><br/>\[\text{Bond Order} = \frac{1}{2}(N_b - N_a)\]</p>
+    <p><strong>Step 4: Step-by-Step Working</strong><br/>For \(\mathrm{N}_2\) (14 electrons): \(N_b = 10, N_a = 4 \implies \text{Bond Order} = \frac{10 - 4}{2} = 3.0\).<br/>For \(\mathrm{N}_2^-\) (15 electrons): \(N_b = 10, N_a = 5 \implies \text{Bond Order} = \frac{10 - 5}{2} = 2.5\).<br/>For \(\mathrm{F}_2^+\) (17 electrons): \(N_b = 10, N_a = 7 \implies \text{Bond Order} = \frac{10 - 7}{2} = 1.5\).<br/>For \(\mathrm{O}_2^-\) (17 electrons): \(N_b = 10, N_a = 7 \implies \text{Bond Order} = \frac{10 - 7}{2} = 1.5\).</p>
+    <p><strong>Step 5: Check and Final Answer</strong><br/>Both \(\mathrm{F}_2^+\) and \(\mathrm{O}_2^-\) have 17 electrons and a bond order of \(1.5\).</p>
+  ]]></text></generalfeedback>
   <defaultgrade>4.0000000</defaultgrade>
   <penalty>0.2500000</penalty>
   <hidden>0</hidden>
@@ -45,9 +56,10 @@
     <tag><text>standard:neet_ug</text></tag>
     <tag><text>lang:en</text></tag>
     <tag><text>subject:chemistry</text></tag>
+    <tag><text>section:mcq_type_2</text></tag>
     <tag><text>class:11</text></tag>
     <tag><text>chapter:chemical_bonding_and_molecular_structure</text></tag>
-    <tag><text>typology:mcq</text></tag>
+    <tag><text>typology:multi_correct_mcq</text></tag>
     <tag><text>difficulty:medium</text></tag>
     <tag><text>blooms:apply</text></tag>
     <tag><text>calculation:light</text></tag>
@@ -57,9 +69,13 @@
 </question>
 
 <question type="multichoice">
-  <name><text>NEET_UG_CHEMISTRY_MCQ_Q30 - Identification of incorrect chemical bonding statements</text></name>
-  <questiontext format="html"><text><![CDATA[<p>Which of the following statements are <strong>not</strong> correct?</p>]]></text></questiontext>
-  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Evaluation of Electrical Conductivity in Ionic Solids</strong><br/>In crystalline solid sodium chloride, the sodium and chloride ions are held tightly in fixed lattice positions by strong electrostatic forces and are not free to migrate under an applied electric field. Therefore, solid sodium chloride acts as an electrical insulator. It conducts electricity only when molten or dissolved in water, where ions become mobile. Thus, stating that sodium chloride is a good conductor in the solid state is scientifically incorrect.</p><p><strong>Step 2: Evaluation of Atomic Arrangement in Resonance Structures</strong><br/>Canonical (resonance) structures represent different distributions of electron pairs (bonding pairs and lone pairs) within the same molecular framework. By definition, the relative positions of the atomic nuclei must remain strictly unchanged across all canonical contributors. Thus, stating that there is a difference in the arrangement of atoms in canonical structures is incorrect.</p><p><strong>Step 3: Evaluation of Hybrid Orbitals and Molecular Geometry</strong><br/>Hybrid orbitals are concentrated in specific directional lobes that allow greater and more effective orbital overlap along the internuclear axis compared to unhybridized pure atomic orbitals, thereby creating stronger covalent bonds. This principle is valid.<br/>In xenon tetrafluoride (\(\mathrm{XeF}_4\)), the central xenon atom has 8 valence electrons, forming 4 bond pairs and holding 2 lone pairs (steric number 6). VSEPR theory predicts an octahedral electron-pair geometry with the two lone pairs occupying mutually opposite (axial) positions to minimize repulsion, yielding a square planar molecular shape. This model is valid.</p><p><strong>Step 4: Final Conclusion</strong><br/>The incorrect descriptions are that sodium chloride conducts electricity in the solid state and that canonical structures differ in the arrangement of atoms.</p>]]></text></generalfeedback>
+  <name><text>NCERTEXEMPLAR_CHEMISTRY_UNIT4_MCQII_Q30 - Incorrect statements about bonding and structure</text></name>
+  <questiontext format="html"><text><![CDATA[<p>30. Which of the following statements are <strong>not</strong> correct?</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[
+    <p><strong>Step 1: Conceptual Principle</strong><br/>Electrical conductivity in ionic solids requires mobile ions; resonance canonical structures differ only in electron distribution; hybrid orbitals have greater directional character; and VSEPR theory predicts shapes from bond pairs and lone pairs.</p>
+    <p><strong>Step 2: Evaluation of Each Statement</strong><br/>Solid \(\mathrm{NaCl}\) is a poor conductor of electricity because its \(\mathrm{Na}^+\) and \(\mathrm{Cl}^-\) ions are held rigidly in the crystal lattice and are not free to move (it conducts only in the molten or aqueous state). Hence, calling solid \(\mathrm{NaCl}\) a good conductor is incorrect.<br/>In resonance, canonical structures have the exact same arrangement of atoms (nuclei) and differ only in the arrangement of electrons. Hence, claiming a difference in the arrangement of atoms is incorrect.<br/>Hybrid orbitals overlap more effectively due to directional concentration of electron density, forming stronger bonds than pure atomic orbitals (correct).<br/>VSEPR theory predicts that \(\mathrm{XeF}_4\) has 4 bond pairs and 2 lone pairs on xenon, resulting in a square planar geometry (correct).</p>
+    <p><strong>Step 3: Final Conclusion</strong><br/>The incorrect statements are that \(\mathrm{NaCl}\) is a good conductor of electricity in the solid state and that canonical structures differ in the arrangement of atoms.</p>
+  ]]></text></generalfeedback>
   <defaultgrade>4.0000000</defaultgrade>
   <penalty>0.2500000</penalty>
   <hidden>0</hidden>
@@ -74,37 +90,58 @@
     <tag><text>standard:neet_ug</text></tag>
     <tag><text>lang:en</text></tag>
     <tag><text>subject:chemistry</text></tag>
+    <tag><text>section:mcq_type_2</text></tag>
     <tag><text>class:11</text></tag>
     <tag><text>chapter:chemical_bonding_and_molecular_structure</text></tag>
-    <tag><text>typology:mcq</text></tag>
+    <tag><text>typology:multi_correct_mcq</text></tag>
     <tag><text>difficulty:medium</text></tag>
     <tag><text>blooms:analyze</text></tag>
     <tag><text>calculation:light</text></tag>
     <tag><text>media:text</text></tag>
-    <tag><text>multiconcept:false</text></tag>
+    <tag><text>multiconcept:true</text></tag>
   </tags>
 </question>
 
 <question type="matching">
-  <name><text>NEET_UG_CHEMISTRY_MATCHING_Q52 - Species matching with type of hybrid orbitals</text></name>
-  <questiontext format="html"><text><![CDATA[<p>Match the species in Column I with the type of hybrid orbitals in Column II.</p>]]></text></questiontext>
-  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>The hybridization of a central atom is determined by its steric number, which equals the sum of the number of \(\sigma\) bonds and lone pairs on the central atom.</p><p><strong>Step 2: Analysis of Sulfur Tetrafluoride</strong><br/>In \(\mathrm{SF}_4\), sulfur has 6 valence electrons. It forms 4 single bonds with fluorine atoms and retains 1 lone pair. The steric number is \(4 + 1 = 5\), corresponding to \(sp^3d\) hybridization (see-saw geometry).</p><p><strong>Step 3: Analysis of Iodine Pentafluoride</strong><br/>In \(\mathrm{IF}_5\), iodine has 7 valence electrons. It forms 5 single bonds with fluorine atoms and retains 1 lone pair. The steric number is \(5 + 1 = 6\), corresponding to \(sp^3d^2\) hybridization (square pyramidal geometry).</p><p><strong>Step 4: Analysis of Nitronium Ion</strong><br/>In \(\mathrm{NO}_2^+\), nitrogen has \(5 - 1 = 4\) valence electrons. It forms two double bonds (two \(\sigma\) bonds and two \(\pi\) bonds) with two oxygen atoms and possesses 0 lone pairs. The steric number is 2, corresponding to \(sp\) hybridization (linear geometry).</p><p><strong>Step 5: Analysis of Ammonium Ion</strong><br/>In \(\mathrm{NH}_4^+\), nitrogen has \(5 - 1 = 4\) valence electrons. It forms 4 single \(\sigma\) bonds with four hydrogen atoms and possesses 0 lone pairs. The steric number is 4, corresponding to \(sp^3\) hybridization (tetrahedral geometry).</p><p><strong>Step 6: Final Conclusion</strong><br/>The resulting matches are: \(\mathrm{SF}_4\) with \(sp^3d\), \(\mathrm{IF}_5\) with \(sp^3d^2\), \(\mathrm{NO}_2^+\) with \(sp\), and \(\mathrm{NH}_4^+\) with \(sp^3\).</p>]]></text></generalfeedback>
+  <name><text>NCERTEXEMPLAR_CHEMISTRY_UNIT4_MATCHING_Q52 - Match species with type of hybrid orbitals</text></name>
+  <questiontext format="html"><text><![CDATA[<p>52. Match the species in Column I with the type of hybrid orbitals in Column II.</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[
+    <p><strong>Step 1: Conceptual Principle</strong><br/>The hybridisation of the central atom is determined by its steric number \(H = \frac{1}{2}(V + M - C + A)\), which equals the sum of \(\sigma\)-bond pairs and lone pairs.</p>
+    <p><strong>Step 2: Evaluation of Each Species</strong><br/>For \(\mathrm{SF}_4\): \(H = \frac{1}{2}(6 + 4) = 5 \implies sp^3d\) hybridisation (4 bond pairs, 1 lone pair).<br/>For \(\mathrm{IF}_5\): \(H = \frac{1}{2}(7 + 5) = 6 \implies sp^3d^2\) hybridisation (5 bond pairs, 1 lone pair, outer \(d\)-orbital).<br/>For \(\mathrm{NO}_2^+\): \(H = \frac{1}{2}(5 + 0 - 1) = 2 \implies sp\) hybridisation (2 \(\sigma\)-bond pairs, 0 lone pairs).<br/>For \(\mathrm{NH}_4^+\): \(H = \frac{1}{2}(5 + 4 - 1) = 4 \implies sp^3\) hybridisation (4 bond pairs, 0 lone pairs).</p>
+    <p><strong>Step 3: Final Conclusion</strong><br/>Thus, \(\mathrm{SF}_4\) matches \(sp^3d\), \(\mathrm{IF}_5\) matches \(sp^3d^2\), \(\mathrm{NO}_2^+\) matches \(sp\), and \(\mathrm{NH}_4^+\) matches \(sp^3\).</p>
+  ]]></text></generalfeedback>
   <defaultgrade>4.0000000</defaultgrade>
   <penalty>0.2500000</penalty>
   <hidden>0</hidden>
   <shuffleanswers>true</shuffleanswers>
-  <subquestion format="html"><text><![CDATA[<p>\(\mathrm{SF}_4\)</p>]]></text><answer><text>\(sp^3d\)</text></answer></subquestion>
-  <subquestion format="html"><text><![CDATA[<p>\(\mathrm{IF}_5\)</p>]]></text><answer><text>\(sp^3d^2\)</text></answer></subquestion>
-  <subquestion format="html"><text><![CDATA[<p>\(\mathrm{NO}_2^+\)</p>]]></text><answer><text>\(sp\)</text></answer></subquestion>
-  <subquestion format="html"><text><![CDATA[<p>\(\mathrm{NH}_4^+\)</p>]]></text><answer><text>\(sp^3\)</text></answer></subquestion>
-  <subquestion format="html"><text></text><answer><text>\(d^2sp^3\)</text></answer></subquestion>
+  <subquestion format="html">
+    <text><![CDATA[<p>\(\mathrm{SF}_4\)</p>]]></text>
+    <answer><text>\(sp^3d\)</text></answer>
+  </subquestion>
+  <subquestion format="html">
+    <text><![CDATA[<p>\(\mathrm{IF}_5\)</p>]]></text>
+    <answer><text>\(sp^3d^2\)</text></answer>
+  </subquestion>
+  <subquestion format="html">
+    <text><![CDATA[<p>\(\mathrm{NO}_2^+\)</p>]]></text>
+    <answer><text>\(sp\)</text></answer>
+  </subquestion>
+  <subquestion format="html">
+    <text><![CDATA[<p>\(\mathrm{NH}_4^+\)</p>]]></text>
+    <answer><text>\(sp^3\)</text></answer>
+  </subquestion>
+  <subquestion format="html">
+    <text></text>
+    <answer><text>\(d^2sp^3\)</text></answer>
+  </subquestion>
   <tags>
     <tag><text>standard:neet_ug</text></tag>
     <tag><text>lang:en</text></tag>
     <tag><text>subject:chemistry</text></tag>
+    <tag><text>section:matching</text></tag>
     <tag><text>class:11</text></tag>
     <tag><text>chapter:chemical_bonding_and_molecular_structure</text></tag>
-    <tag><text>typology:matching-native</text></tag>
+    <tag><text>typology:matching</text></tag>
     <tag><text>difficulty:medium</text></tag>
     <tag><text>blooms:apply</text></tag>
     <tag><text>calculation:light</text></tag>
@@ -114,52 +151,45 @@
 </question>
 
 <question type="matching">
-  <name><text>NEET_UG_CHEMISTRY_MATCHING_Q53 - Species matching with geometry and molecular shape</text></name>
-  <questiontext format="html"><text><![CDATA[<p>Match the species in Column I with the geometry/shape in Column II.</p>]]></text></questiontext>
-  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>Molecular geometry is determined by the total number of bonding pairs and lone pairs surrounding the central atom according to Valence Shell Electron Pair Repulsion theory.</p><p><strong>Step 2: Analysis of Hydronium Ion</strong><br/>In \(\mathrm{H}_3\mathrm{O}^+\), oxygen has 6 valence electrons minus 1 for the positive charge, leaving 5 electrons. It forms 3 single bonds with hydrogen atoms and possesses 1 lone pair. With steric number 4 (3 bond pairs and 1 lone pair), its shape is trigonal pyramidal.</p><p><strong>Step 3: Analysis of Ethyne</strong><br/>In ethyne (\(\mathrm{HC} \equiv \mathrm{CH}\)), each carbon atom forms one single \(\sigma\) bond with hydrogen and one \(\sigma\) bond with the adjacent carbon (along with two \(\pi\) bonds). The steric number around each carbon atom is 2 with zero lone pairs, giving \(sp\) hybridization and a linear geometry.</p><p><strong>Step 4: Analysis of Chlorite Ion</strong><br/>In \(\mathrm{ClO}_2^-\), chlorine has 7 valence electrons plus 1 from the negative charge, giving 8 electrons. It forms 2 bonds with oxygen atoms and holds 2 lone pairs. With steric number 4 (2 bond pairs and 2 lone pairs), the resulting molecular geometry is angular (bent).</p><p><strong>Step 5: Analysis of Ammonium Ion</strong><br/>In \(\mathrm{NH}_4^+\), the central nitrogen atom has 4 bonding pairs and 0 lone pairs. With steric number 4, the electron-pair geometry and the molecular geometry are both regular tetrahedral.</p><p><strong>Step 6: Final Conclusion</strong><br/>The correct matches are: \(\mathrm{H}_3\mathrm{O}^+\) matches Pyramidal, \(\mathrm{HC} \equiv \mathrm{CH}\) matches Linear, \(\mathrm{ClO}_2^-\) matches Angular, and \(\mathrm{NH}_4^+\) matches Tetrahedral.</p>]]></text></generalfeedback>
+  <name><text>NCERTEXEMPLAR_CHEMISTRY_UNIT4_MATCHING_Q53 - Match species with geometry or shape</text></name>
+  <questiontext format="html"><text><![CDATA[<p>53. Match the species in Column I with the geometry/shape in Column II.</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[
+    <p><strong>Step 1: Conceptual Principle</strong><br/>Molecular geometry (shape) is determined by the spatial arrangement of bonded atoms around the central atom, accounting for lone-pair repulsions via VSEPR theory.</p>
+    <p><strong>Step 2: Evaluation of Each Species</strong><br/>\(\mathrm{H}_3\mathrm{O}^+\) has 3 bond pairs and 1 lone pair on oxygen (\(sp^3\) hybridisation), giving a pyramidal shape.<br/>\(\mathrm{HC \equiv CH}\) (ethyne) has \(sp\) hybridised carbon atoms with 2 \(\sigma\)-bond pairs and 0 lone pairs, giving a linear shape.<br/>\(\mathrm{ClO}_2^-\) has 2 \(\sigma\)-bond pairs and 2 lone pairs on chlorine (\(sp^3\) hybridisation), giving an angular (bent) shape.<br/>\(\mathrm{NH}_4^+\) has 4 bond pairs and 0 lone pairs on nitrogen (\(sp^3\) hybridisation), giving a tetrahedral shape.</p>
+    <p><strong>Step 3: Final Conclusion</strong><br/>Therefore, \(\mathrm{H}_3\mathrm{O}^+\) is pyramidal, \(\mathrm{HC \equiv CH}\) is linear, \(\mathrm{ClO}_2^-\) is angular, and \(\mathrm{NH}_4^+\) is tetrahedral.</p>
+  ]]></text></generalfeedback>
   <defaultgrade>4.0000000</defaultgrade>
   <penalty>0.2500000</penalty>
   <hidden>0</hidden>
   <shuffleanswers>true</shuffleanswers>
-  <subquestion format="html"><text><![CDATA[<p>\(\mathrm{H}_3\mathrm{O}^+\)</p>]]></text><answer><text>Pyramidal</text></answer></subquestion>
-  <subquestion format="html"><text><![CDATA[<p>\(\mathrm{HC} \equiv \mathrm{CH}\)</p>]]></text><answer><text>Linear</text></answer></subquestion>
-  <subquestion format="html"><text><![CDATA[<p>\(\mathrm{ClO}_2^-\)</p>]]></text><answer><text>Angular</text></answer></subquestion>
-  <subquestion format="html"><text><![CDATA[<p>\(\mathrm{NH}_4^+\)</p>]]></text><answer><text>Tetrahedral</text></answer></subquestion>
-  <subquestion format="html"><text></text><answer><text>Trigonal bipyramidal</text></answer></subquestion>
+  <subquestion format="html">
+    <text><![CDATA[<p>\(\mathrm{H}_3\mathrm{O}^+\)</p>]]></text>
+    <answer><text>Pyramidal</text></answer>
+  </subquestion>
+  <subquestion format="html">
+    <text><![CDATA[<p>\(\mathrm{HC \equiv CH}\)</p>]]></text>
+    <answer><text>Linear</text></answer>
+  </subquestion>
+  <subquestion format="html">
+    <text><![CDATA[<p>\(\mathrm{ClO}_2^-\)</p>]]></text>
+    <answer><text>Angular</text></answer>
+  </subquestion>
+  <subquestion format="html">
+    <text><![CDATA[<p>\(\mathrm{NH}_4^+\)</p>]]></text>
+    <answer><text>Tetrahedral</text></answer>
+  </subquestion>
+  <subquestion format="html">
+    <text></text>
+    <answer><text>Trigonal bipyramidal</text></answer>
+  </subquestion>
   <tags>
     <tag><text>standard:neet_ug</text></tag>
     <tag><text>lang:en</text></tag>
     <tag><text>subject:chemistry</text></tag>
+    <tag><text>section:matching</text></tag>
     <tag><text>class:11</text></tag>
     <tag><text>chapter:chemical_bonding_and_molecular_structure</text></tag>
-    <tag><text>typology:matching-native</text></tag>
-    <tag><text>difficulty:medium</text></tag>
-    <tag><text>blooms:understand</text></tag>
-    <tag><text>calculation:light</text></tag>
-    <tag><text>media:text</text></tag>
-    <tag><text>multiconcept:false</text></tag>
-  </tags>
-</question>
-
-<question type="matching">
-  <name><text>NEET_UG_CHEMISTRY_MATCHING_Q54 - Diatomic species matching with molecular bond orders</text></name>
-  <questiontext format="html"><text><![CDATA[<p>Match the species in Column I with the bond order in Column II.</p>]]></text></questiontext>
-  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Relevant Principle and Formula</strong><br/>Bond order is calculated using Molecular Orbital Theory as:<br/>\[\text{Bond Order} = \frac{N_b - N_a}{2}\]</p><p><strong>Step 2: Step-by-Step Evaluation of Each Species</strong><br/>For nitric oxide (\(\mathrm{NO}\)), the total number of electrons is \(7 + 8 = 15\). The number of bonding electrons is 10 and antibonding electrons is 5:<br/>\[\text{Bond Order} = \frac{10 - 5}{2} = 2.5\]<br/>For carbon monoxide (\(\mathrm{CO}\)), the total number of electrons is \(6 + 8 = 14\). The number of bonding electrons is 10 and antibonding electrons is 4:<br/>\[\text{Bond Order} = \frac{10 - 4}{2} = 3.0\]<br/>For superoxide ion (\(\mathrm{O}_2^-\)), the total number of electrons is \(8 + 8 + 1 = 17\). The number of bonding electrons is 10 and antibonding electrons is 7:<br/>\[\text{Bond Order} = \frac{10 - 7}{2} = 1.5\]<br/>For dioxygen (\(\mathrm{O}_2\)), the total number of electrons is \(8 + 8 = 16\). The number of bonding electrons is 10 and antibonding electrons is 6:<br/>\[\text{Bond Order} = \frac{10 - 6}{2} = 2.0\]</p><p><strong>Step 3: Final Conclusion</strong><br/>The correct matches are: \(\mathrm{NO}\) corresponds to 2.5, \(\mathrm{CO}\) corresponds to 3.0, \(\mathrm{O}_2^-\) corresponds to 1.5, and \(\mathrm{O}_2\) corresponds to 2.0.</p>]]></text></generalfeedback>
-  <defaultgrade>4.0000000</defaultgrade>
-  <penalty>0.2500000</penalty>
-  <hidden>0</hidden>
-  <shuffleanswers>true</shuffleanswers>
-  <subquestion format="html"><text><![CDATA[<p>\(\mathrm{NO}\)</p>]]></text><answer><text>2.5</text></answer></subquestion>
-  <subquestion format="html"><text><![CDATA[<p>\(\mathrm{CO}\)</p>]]></text><answer><text>3.0</text></answer></subquestion>
-  <subquestion format="html"><text><![CDATA[<p>\(\mathrm{O}_2^-\)</p>]]></text><answer><text>1.5</text></answer></subquestion>
-  <subquestion format="html"><text><![CDATA[<p>\(\mathrm{O}_2\)</p>]]></text><answer><text>2.0</text></answer></subquestion>
-  <tags>
-    <tag><text>standard:neet_ug</text></tag>
-    <tag><text>lang:en</text></tag>
-    <tag><text>subject:chemistry</text></tag>
-    <tag><text>class:11</text></tag>
-    <tag><text>chapter:chemical_bonding_and_molecular_structure</text></tag>
-    <tag><text>typology:matching-native</text></tag>
+    <tag><text>typology:matching</text></tag>
     <tag><text>difficulty:medium</text></tag>
     <tag><text>blooms:apply</text></tag>
     <tag><text>calculation:light</text></tag>
@@ -169,27 +199,45 @@
 </question>
 
 <question type="matching">
-  <name><text>NEET_UG_CHEMISTRY_MATCHING_Q55 - Chemical bonding phenomena matching with representative substances</text></name>
-  <questiontext format="html"><text><![CDATA[<p>Match the items given in Column I with examples given in Column II.</p>]]></text></questiontext>
-  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>Different chemical substances display distinct types of bonding interactions and structural organizations: hydrogen bonding requires hydrogen bound to a highly electronegative atom; resonance involves delocalized \(\pi\) systems; ionic solids consist of electrostatic lattices of cations and anions; and covalent network solids comprise atoms joined continuously by covalent bonds.</p><p><strong>Step 2: Analysis of Each Item</strong><br/>Hydrogen fluoride (\(\mathrm{HF}\)) features strong intermolecular hydrogen bonding because hydrogen is covalently bonded to fluorine, the most electronegative element.<br/>Ozone (\(\mathrm{O}_3\)) cannot be adequately described by a single classical Lewis formula and exists as a resonance hybrid of two equivalent canonical structures with intermediate bond lengths.<br/>Lithium fluoride (\(\mathrm{LiF}\)) is composed of \(\mathrm{Li}^+\) and \(\mathrm{F}^-\) ions arranged in a regular three-dimensional ionic crystal lattice.<br/>Elemental carbon (\(\mathrm{C}\)), in forms such as diamond and graphite, consists of extended networks of covalently bonded carbon atoms, making it a classic covalent network solid.</p><p><strong>Step 3: Final Conclusion</strong><br/>The correct matches are: Hydrogen bond matches \(\mathrm{HF}\), Resonance matches \(\mathrm{O}_3\), Ionic solid matches \(\mathrm{LiF}\), and Covalent solid matches \(\mathrm{C}\).</p>]]></text></generalfeedback>
+  <name><text>NCERTEXEMPLAR_CHEMISTRY_UNIT4_MATCHING_Q54 - Match species with bond order</text></name>
+  <questiontext format="html"><text><![CDATA[<p>54. Match the species in Column I with the bond order in Column II.</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[
+    <p><strong>Step 1: Given Data and Conditions</strong><br/>The four diatomic species are \(\mathrm{NO}\) (15 electrons), \(\mathrm{CO}\) (14 electrons), \(\mathrm{O}_2^-\) (17 electrons), and \(\mathrm{O}_2\) (16 electrons).</p>
+    <p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>Bond order is calculated from the molecular orbital electron configuration using \(\text{Bond Order} = \frac{1}{2}(N_b - N_a)\).</p>
+    <p><strong>Step 3: Relevant Formulae and Principles</strong><br/>\(\text{Bond Order} = \frac{1}{2}(N_b - N_a)\).</p>
+    <p><strong>Step 4: Step-by-Step Working</strong><br/>For \(\mathrm{NO}\) (15 electrons): \(N_b = 10, N_a = 5 \implies \text{Bond Order} = \frac{10 - 5}{2} = 2.5\).<br/>For \(\mathrm{CO}\) (14 electrons): \(N_b = 10, N_a = 4 \implies \text{Bond Order} = \frac{10 - 4}{2} = 3.0\).<br/>For \(\mathrm{O}_2^-\) (17 electrons): \(N_b = 10, N_a = 7 \implies \text{Bond Order} = \frac{10 - 7}{2} = 1.5\).<br/>For \(\mathrm{O}_2\) (16 electrons): \(N_b = 10, N_a = 6 \implies \text{Bond Order} = \frac{10 - 6}{2} = 2.0\).</p>
+    <p><strong>Step 5: Check and Final Answer</strong><br/>The bond orders are \(\mathrm{NO} \to 2.5\), \(\mathrm{CO} \to 3.0\), \(\mathrm{O}_2^- \to 1.5\), and \(\mathrm{O}_2 \to 2.0\).</p>
+  ]]></text></generalfeedback>
   <defaultgrade>4.0000000</defaultgrade>
   <penalty>0.2500000</penalty>
   <hidden>0</hidden>
   <shuffleanswers>true</shuffleanswers>
-  <subquestion format="html"><text><![CDATA[<p>Hydrogen bond</p>]]></text><answer><text>\(\mathrm{HF}\)</text></answer></subquestion>
-  <subquestion format="html"><text><![CDATA[<p>Resonance</p>]]></text><answer><text>\(\mathrm{O}_3\)</text></answer></subquestion>
-  <subquestion format="html"><text><![CDATA[<p>Ionic solid</p>]]></text><answer><text>\(\mathrm{LiF}\)</text></answer></subquestion>
-  <subquestion format="html"><text><![CDATA[<p>Covalent solid</p>]]></text><answer><text>\(\mathrm{C}\)</text></answer></subquestion>
-  <subquestion format="html"><text></text><answer><text>\(\mathrm{H}_2\)</text></answer></subquestion>
+  <subquestion format="html">
+    <text><![CDATA[<p>\(\mathrm{NO}\)</p>]]></text>
+    <answer><text>2.5</text></answer>
+  </subquestion>
+  <subquestion format="html">
+    <text><![CDATA[<p>\(\mathrm{CO}\)</p>]]></text>
+    <answer><text>3.0</text></answer>
+  </subquestion>
+  <subquestion format="html">
+    <text><![CDATA[<p>\(\mathrm{O}_2^-\)</p>]]></text>
+    <answer><text>1.5</text></answer>
+  </subquestion>
+  <subquestion format="html">
+    <text><![CDATA[<p>\(\mathrm{O}_2\)</p>]]></text>
+    <answer><text>2.0</text></answer>
+  </subquestion>
   <tags>
     <tag><text>standard:neet_ug</text></tag>
     <tag><text>lang:en</text></tag>
     <tag><text>subject:chemistry</text></tag>
+    <tag><text>section:matching</text></tag>
     <tag><text>class:11</text></tag>
     <tag><text>chapter:chemical_bonding_and_molecular_structure</text></tag>
-    <tag><text>typology:matching-native</text></tag>
+    <tag><text>typology:matching</text></tag>
     <tag><text>difficulty:easy</text></tag>
-    <tag><text>blooms:remember</text></tag>
+    <tag><text>blooms:apply</text></tag>
     <tag><text>calculation:light</text></tag>
     <tag><text>media:text</text></tag>
     <tag><text>multiconcept:false</text></tag>
@@ -197,23 +245,85 @@
 </question>
 
 <question type="matching">
-  <name><text>NEET_UG_CHEMISTRY_MATCHING_Q56 - Molecular shapes matching with central atom hybridization</text></name>
-  <questiontext format="html"><text><![CDATA[<p>Match the shape of molecules in Column I with the type of hybridisation in Column II.</p>]]></text></questiontext>
-  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>Hybridization of atomic orbitals dictates the directional geometry of hybrid orbital sets according to hybrid orbital theory.</p><p><strong>Step 2: Correspondence of Hybrid Orbitals to Geometry</strong><br/>Mixing one \(s\) and three \(p\) atomic orbitals produces four equivalent \(sp^3\) hybrid orbitals directed toward the four corners of a regular tetrahedron with bond angles of \(109.5^\circ\).<br/>Mixing one \(s\) and two \(p\) atomic orbitals produces three equivalent \(sp^2\) hybrid orbitals lying in a plane directed toward the corners of an equilateral triangle with bond angles of \(120^\circ\) (trigonal planar).<br/>Mixing one \(s\) and one \(p\) atomic orbital produces two equivalent \(sp\) hybrid orbitals oriented in opposite directions along a straight line with a bond angle of \(180^\circ\) (linear).</p><p><strong>Step 3: Final Conclusion</strong><br/>Tetrahedral matches \(sp^3\), Trigonal matches \(sp^2\), and Linear matches \(sp\).</p>]]></text></generalfeedback>
+  <name><text>NCERTEXEMPLAR_CHEMISTRY_UNIT4_MATCHING_Q55 - Match bonding or solid types with examples</text></name>
+  <questiontext format="html"><text><![CDATA[<p>55. Match the items given in Column I with examples given in Column II.</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[
+    <p><strong>Step 1: Conceptual Principle</strong><br/>Different chemical substances exhibit characteristic bonding or crystal lattice types based on their constituent atoms and electronegativities.</p>
+    <p><strong>Step 2: Evaluation of Each Item</strong><br/>Hydrogen bond: \(\mathrm{HF}\) forms strong intermolecular hydrogen bonds due to the high electronegativity of fluorine.<br/>Resonance: Ozone (\(\mathrm{O}_3\)) is a classic resonance hybrid of two equivalent canonical structures.<br/>Ionic solid: \(\mathrm{LiF}\) consists of \(\mathrm{Li}^+\) and \(\mathrm{F}^-\) ions held together by electrostatic attraction in an ionic crystal lattice.<br/>Covalent solid: Carbon (\(\mathrm{C}\), as diamond or graphite) forms an extended three-dimensional or layered covalent network solid.</p>
+    <p><strong>Step 3: Final Conclusion</strong><br/>The correct matches are Hydrogen bond \(\to \mathrm{HF}\), Resonance \(\to \mathrm{O}_3\), Ionic solid \(\to \mathrm{LiF}\), and Covalent solid \(\to \mathrm{C}\).</p>
+  ]]></text></generalfeedback>
   <defaultgrade>4.0000000</defaultgrade>
   <penalty>0.2500000</penalty>
   <hidden>0</hidden>
   <shuffleanswers>true</shuffleanswers>
-  <subquestion format="html"><text><![CDATA[<p>Tetrahedral</p>]]></text><answer><text>\(sp^3\)</text></answer></subquestion>
-  <subquestion format="html"><text><![CDATA[<p>Trigonal</p>]]></text><answer><text>\(sp^2\)</text></answer></subquestion>
-  <subquestion format="html"><text><![CDATA[<p>Linear</p>]]></text><answer><text>\(sp\)</text></answer></subquestion>
+  <subquestion format="html">
+    <text><![CDATA[<p>Hydrogen bond</p>]]></text>
+    <answer><text>HF</text></answer>
+  </subquestion>
+  <subquestion format="html">
+    <text><![CDATA[<p>Resonance</p>]]></text>
+    <answer><text>O₃</text></answer>
+  </subquestion>
+  <subquestion format="html">
+    <text><![CDATA[<p>Ionic solid</p>]]></text>
+    <answer><text>LiF</text></answer>
+  </subquestion>
+  <subquestion format="html">
+    <text><![CDATA[<p>Covalent solid</p>]]></text>
+    <answer><text>C</text></answer>
+  </subquestion>
+  <subquestion format="html">
+    <text></text>
+    <answer><text>H₂</text></answer>
+  </subquestion>
   <tags>
     <tag><text>standard:neet_ug</text></tag>
     <tag><text>lang:en</text></tag>
     <tag><text>subject:chemistry</text></tag>
+    <tag><text>section:matching</text></tag>
     <tag><text>class:11</text></tag>
     <tag><text>chapter:chemical_bonding_and_molecular_structure</text></tag>
-    <tag><text>typology:matching-native</text></tag>
+    <tag><text>typology:matching</text></tag>
+    <tag><text>difficulty:easy</text></tag>
+    <tag><text>blooms:understand</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:text</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+
+<question type="matching">
+  <name><text>NCERTEXEMPLAR_CHEMISTRY_UNIT4_MATCHING_Q56 - Match shape of molecules with hybridisation</text></name>
+  <questiontext format="html"><text><![CDATA[<p>56. Match the shape of molecules in Column I with the type of hybridisation in Column II.</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[
+    <p><strong>Step 1: Conceptual Principle</strong><br/>When there are no lone pairs on the central atom, the molecular shape directly corresponds to the spatial orientation of its hybrid orbitals.</p>
+    <p><strong>Step 2: Evaluation of Each Shape</strong><br/>A tetrahedral shape (bond angle \(109.5^\circ\)) arises from four \(sp^3\) hybrid orbitals.<br/>A trigonal planar shape (bond angle \(120^\circ\)) arises from three \(sp^2\) hybrid orbitals.<br/>A linear shape (bond angle \(180^\circ\)) arises from two \(sp\) hybrid orbitals.</p>
+    <p><strong>Step 3: Final Conclusion</strong><br/>Thus, Tetrahedral matches \(sp^3\), Trigonal matches \(sp^2\), and Linear matches \(sp\).</p>
+  ]]></text></generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <shuffleanswers>true</shuffleanswers>
+  <subquestion format="html">
+    <text><![CDATA[<p>Tetrahedral</p>]]></text>
+    <answer><text>\(sp^3\)</text></answer>
+  </subquestion>
+  <subquestion format="html">
+    <text><![CDATA[<p>Trigonal</p>]]></text>
+    <answer><text>\(sp^2\)</text></answer>
+  </subquestion>
+  <subquestion format="html">
+    <text><![CDATA[<p>Linear</p>]]></text>
+    <answer><text>\(sp\)</text></answer>
+  </subquestion>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>subject:chemistry</text></tag>
+    <tag><text>section:matching</text></tag>
+    <tag><text>class:11</text></tag>
+    <tag><text>chapter:chemical_bonding_and_molecular_structure</text></tag>
+    <tag><text>typology:matching</text></tag>
     <tag><text>difficulty:easy</text></tag>
     <tag><text>blooms:remember</text></tag>
     <tag><text>calculation:light</text></tag>
@@ -223,27 +333,32 @@
 </question>
 
 <question type="multichoice">
-  <name><text>NEET_UG_CHEMISTRY_MCQ_Q57 - Stability and octet attainment of sodium chloride</text></name>
-  <questiontext format="html"><text><![CDATA[<p><strong>Assertion (A):</strong> Sodium chloride formed by the action of chlorine gas on sodium metal is a stable compound.</p><p><strong>Reason (R):</strong> This is because sodium and chloride ions acquire octet in sodium chloride formation.</p>]]></text></questiontext>
-  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Evaluation of the Assertion</strong><br/>Sodium metal reacts vigorously with chlorine gas according to the equation \(2\mathrm{Na}(s) + \mathrm{Cl}_2(g) \rightarrow 2\mathrm{NaCl}(s)\). The resulting sodium chloride is an extraordinarily stable ionic crystalline solid with a very high lattice enthalpy (\(-788\text{ kJ mol}^{-1}\)) and high melting point. Thus, the assertion is scientifically true.</p><p><strong>Step 2: Evaluation of the Reason</strong><br/>During the formation of sodium chloride, each sodium atom (\(1s^2 2s^2 2p^6 3s^1\)) loses its single valence electron to form a sodium cation (\(\mathrm{Na}^+\)), attaining the stable noble gas octet configuration of neon (\(1s^2 2s^2 2p^6\)). Concurrently, each chlorine atom (\(1s^2 2s^2 2p^6 3s^2 3p^5\)) accepts one electron to form a chloride anion (\(\mathrm{Cl}^-\)), attaining the stable noble gas octet configuration of argon (\(1s^2 2s^2 2p^6 3s^2 3p^6\)). Acquisition of these stable closed-shell octet configurations drives the formation and high thermodynamic stability of the compound. Thus, the reason is scientifically true.</p><p><strong>Step 3: Relationship Between Assertion and Reason</strong><br/>Because the acquisition of stable closed-shell octets by both ions provides the energetic driving force and stability for sodium chloride, the reason is the correct explanation of the assertion.</p><p><strong>Step 4: Final Conclusion</strong><br/>Both the assertion and the reason are correct, and the reason is the correct explanation of the assertion.</p>]]></text></generalfeedback>
+  <name><text>NCERTEXEMPLAR_CHEMISTRY_UNIT4_AR_Q57 - Stability of sodium chloride and octet acquisition</text></name>
+  <questiontext format="html"><text><![CDATA[<p>57. <strong>Assertion (A)</strong> : Sodium chloride formed by the action of chlorine gas on sodium metal is a stable compound.</p><p><strong>Reason (R)</strong> : This is because sodium and chloride ions acquire octet in sodium chloride formation.</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[
+    <p><strong>Step 1: Conceptual Principle</strong><br/>During ionic bond formation, metal atoms lose valence electrons and non-metal atoms gain electrons so that both ions achieve stable noble-gas (octet) electronic configurations, followed by strong electrostatic attraction in the crystal lattice.</p>
+    <p><strong>Step 2: Evaluation of Assertion and Reason</strong><br/>Sodium (\([\mathrm{Ne}]3s^1\)) loses one electron to form \(\mathrm{Na}^+\) (\([\mathrm{Ne}]\)), and chlorine (\([\mathrm{Ne}]3s^2 3p^5\)) gains one electron to form \(\mathrm{Cl}^-\) (\([\mathrm{Ar}]\)). Both ions acquire stable octets, and the resulting electrostatic attraction makes sodium chloride a very stable ionic compound. Thus, both the assertion and the reason are true, and the reason correctly explains the assertion.</p>
+    <p><strong>Step 3: Final Conclusion</strong><br/>Both A and R are correct, and R is the correct explanation of A.</p>
+  ]]></text></generalfeedback>
   <defaultgrade>4.0000000</defaultgrade>
   <penalty>0.2500000</penalty>
   <hidden>0</hidden>
   <single>true</single>
-  <shuffleanswers>false</shuffleanswers>
+  <shuffleanswers>true</shuffleanswers>
   <answernumbering>iii</answernumbering>
-  <answer fraction="100" format="html"><text><![CDATA[<p>Both (A) and (R) are correct and (R) is the correct explanation of (A).</p>]]></text></answer>
-  <answer fraction="0" format="html"><text><![CDATA[<p>Both (A) and (R) are correct but (R) is NOT the correct explanation of (A).</p>]]></text></answer>
-  <answer fraction="0" format="html"><text><![CDATA[<p>(A) is true but (R) is false.</p>]]></text></answer>
-  <answer fraction="0" format="html"><text><![CDATA[<p>Both (A) and (R) are false.</p>]]></text></answer>
+  <answer fraction="100" format="html"><text><![CDATA[<p>A and R both are correct, and R is the correct explanation of A.</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>A and R both are correct, but R is not the correct explanation of A.</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>A is true but R is false.</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>A and R both are false.</p>]]></text></answer>
   <tags>
     <tag><text>standard:neet_ug</text></tag>
     <tag><text>lang:en</text></tag>
     <tag><text>subject:chemistry</text></tag>
+    <tag><text>section:assertion_reason</text></tag>
     <tag><text>class:11</text></tag>
     <tag><text>chapter:chemical_bonding_and_molecular_structure</text></tag>
-    <tag><text>typology:assertion-reason</text></tag>
-    <tag><text>difficulty:medium</text></tag>
+    <tag><text>typology:assertion_reason</text></tag>
+    <tag><text>difficulty:easy</text></tag>
     <tag><text>blooms:understand</text></tag>
     <tag><text>calculation:light</text></tag>
     <tag><text>media:text</text></tag>
@@ -252,27 +367,32 @@
 </question>
 
 <question type="multichoice">
-  <name><text>NEET_UG_CHEMISTRY_MCQ_Q58 - Bond angle comparison between ammonia and water</text></name>
-  <questiontext format="html"><text><![CDATA[<p><strong>Assertion (A):</strong> Though the central atom of both \(\mathrm{NH}_3\) and \(\mathrm{H}_2\mathrm{O}\) molecules are \(sp^3\) hybridised, yet \(\mathrm{H}-\mathrm{N}-\mathrm{H}\) bond angle is greater than that of \(\mathrm{H}-\mathrm{O}-\mathrm{H}\).</p><p><strong>Reason (R):</strong> This is because nitrogen atom has one lone pair and oxygen atom has two lone pairs.</p>]]></text></questiontext>
-  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Evaluation of the Assertion</strong><br/>In both ammonia (\(\mathrm{NH}_3\)) and water (\(\mathrm{H}_2\mathrm{O}\)), the central atom is surrounded by 4 electron pairs and has an \(sp^3\) hybridization state with a basic tetrahedral electron-pair arrangement. In ammonia, the \(\mathrm{H}-\mathrm{N}-\mathrm{H}\) bond angle is \(107^\circ\), whereas in water, the \(\mathrm{H}-\mathrm{O}-\mathrm{H}\) bond angle is \(104.5^\circ\). Therefore, the bond angle in ammonia is indeed greater than that in water, confirming that the assertion is true.</p><p><strong>Step 2: Evaluation of the Reason</strong><br/>The central nitrogen atom in ammonia has 3 bonding pairs and 1 lone pair, whereas the central oxygen atom in water has 2 bonding pairs and 2 lone pairs. According to VSEPR theory, the repulsive interactions between electron pairs follow the order: lone pair–lone pair (\(lp-lp\)) > lone pair–bond pair (\(lp-bp\)) > bond pair–bond pair (\(bp-bp\)). In water, the presence of two lone pairs exerts stronger repulsion on the bonding pairs than the single lone pair in ammonia, compressing the bond angle to a greater degree (from \(109.5^\circ\) down to \(104.5^\circ\) in water versus \(107^\circ\) in ammonia). Thus, the reason is scientifically true.</p><p><strong>Step 3: Relationship Between Assertion and Reason</strong><br/>The greater reduction of bond angle in water compared to ammonia is directly caused by the greater number of lone pairs on the oxygen atom compared to the nitrogen atom; hence, the reason is the correct explanation of the assertion.</p><p><strong>Step 4: Final Conclusion</strong><br/>Both the assertion and the reason are correct, and the reason is the correct explanation of the assertion.</p>]]></text></generalfeedback>
+  <name><text>NCERTEXEMPLAR_CHEMISTRY_UNIT4_AR_Q58 - Bond angle comparison between NH3 and H2O</text></name>
+  <questiontext format="html"><text><![CDATA[<p>58. <strong>Assertion (A)</strong> : Though the central atom of both \(\mathrm{NH}_3\) and \(\mathrm{H}_2\mathrm{O}\) molecules are \(sp^3\) hybridised, yet \(\mathrm{H–N–H}\) bond angle is greater than that of \(\mathrm{H–O–H}\).</p><p><strong>Reason (R)</strong> : This is because nitrogen atom has one lone pair and oxygen atom has two lone pairs.</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[
+    <p><strong>Step 1: Conceptual Principle</strong><br/>According to VSEPR theory, the magnitude of electron-pair repulsion follows the order: lone pair–lone pair (\(\mathrm{lp–lp}\)) &gt; lone pair–bond pair (\(\mathrm{lp–bp}\)) &gt; bond pair–bond pair (\(\mathrm{bp–bp}\)).</p>
+    <p><strong>Step 2: Evaluation of Assertion and Reason</strong><br/>Both \(\mathrm{NH}_3\) and \(\mathrm{H}_2\mathrm{O}\) have \(sp^3\) hybridised central atoms. However, nitrogen in \(\mathrm{NH}_3\) has 3 bond pairs and 1 lone pair, whereas oxygen in \(\mathrm{H}_2\mathrm{O}\) has 2 bond pairs and 2 lone pairs. The stronger \(\mathrm{lp–lp}\) and \(\mathrm{lp–bp}\) repulsions caused by two lone pairs in \(\mathrm{H}_2\mathrm{O}\) compress the \(\mathrm{H–O–H}\) bond angle to \(104.5^\circ\), compared to \(107^\circ\) for \(\mathrm{H–N–H}\) in \(\mathrm{NH}_3\).</p>
+    <p><strong>Step 3: Final Conclusion</strong><br/>Both A and R are correct, and R is the correct explanation of A.</p>
+  ]]></text></generalfeedback>
   <defaultgrade>4.0000000</defaultgrade>
   <penalty>0.2500000</penalty>
   <hidden>0</hidden>
   <single>true</single>
-  <shuffleanswers>false</shuffleanswers>
+  <shuffleanswers>true</shuffleanswers>
   <answernumbering>iii</answernumbering>
-  <answer fraction="100" format="html"><text><![CDATA[<p>Both (A) and (R) are correct and (R) is the correct explanation of (A).</p>]]></text></answer>
-  <answer fraction="0" format="html"><text><![CDATA[<p>Both (A) and (R) are correct but (R) is NOT the correct explanation of (A).</p>]]></text></answer>
-  <answer fraction="0" format="html"><text><![CDATA[<p>(A) is true but (R) is false.</p>]]></text></answer>
-  <answer fraction="0" format="html"><text><![CDATA[<p>Both (A) and (R) are false.</p>]]></text></answer>
+  <answer fraction="100" format="html"><text><![CDATA[<p>A and R both are correct, and R is the correct explanation of A.</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>A and R both are correct, but R is not the correct explanation of A.</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>A is true but R is false.</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>A and R both are false.</p>]]></text></answer>
   <tags>
     <tag><text>standard:neet_ug</text></tag>
     <tag><text>lang:en</text></tag>
     <tag><text>subject:chemistry</text></tag>
+    <tag><text>section:assertion_reason</text></tag>
     <tag><text>class:11</text></tag>
     <tag><text>chapter:chemical_bonding_and_molecular_structure</text></tag>
-    <tag><text>typology:assertion-reason</text></tag>
-    <tag><text>difficulty:medium</text></tag>
+    <tag><text>typology:assertion_reason</text></tag>
+    <tag><text>difficulty:easy</text></tag>
     <tag><text>blooms:understand</text></tag>
     <tag><text>calculation:light</text></tag>
     <tag><text>media:text</text></tag>
@@ -281,26 +401,31 @@
 </question>
 
 <question type="multichoice">
-  <name><text>NEET_UG_CHEMISTRY_MCQ_Q59 - Enthalpy of successive oxygen hydrogen bond dissociations</text></name>
-  <questiontext format="html"><text><![CDATA[<p><strong>Assertion (A):</strong> Among the two \(\mathrm{O}-\mathrm{H}\) bonds in \(\mathrm{H}_2\mathrm{O}\) molecule, the energy required to break the first \(\mathrm{O}-\mathrm{H}\) bond and the other \(\mathrm{O}-\mathrm{H}\) bond is the same.</p><p><strong>Reason (R):</strong> This is because the electronic environment around oxygen is the same even after breakage of one \(\mathrm{O}-\mathrm{H}\) bond.</p>]]></text></questiontext>
-  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Evaluation of Successive Bond Dissociation Enthalpies</strong><br/>In a polyatomic molecule such as water (\(\mathrm{H}_2\mathrm{O}\)), the two \(\mathrm{O}-\mathrm{H}\) bonds are broken in stepwise dissociation processes:<br/>\[\mathrm{H}_2\mathrm{O}(g) \rightarrow \mathrm{OH}(g) + \mathrm{H}(g) \quad (\Delta_a H_1^\circ = 502\text{ kJ mol}^{-1})\]<br/>\[\mathrm{OH}(g) \rightarrow \mathrm{O}(g) + \mathrm{H}(g) \quad (\Delta_a H_2^\circ = 427\text{ kJ mol}^{-1})\]<br/>The bond dissociation enthalpy required to break the second \(\mathrm{O}-\mathrm{H}\) bond (\(427\text{ kJ mol}^{-1}\)) is distinctly different from that required to break the first (\(502\text{ kJ mol}^{-1}\)). Therefore, the assertion is scientifically false.</p><p><strong>Step 2: Evaluation of the Electronic Environment Around Oxygen</strong><br/>Once the first hydrogen atom departs, the neutral hydroxyl radical (\(\mathrm{OH}\)) remains. The electron distribution, effective nuclear charge, and electrostatic interactions around the central oxygen atom in the \(\mathrm{OH}\) radical are substantially altered compared to intact \(\mathrm{H}_2\mathrm{O}\). Therefore, the electronic environment around oxygen changes significantly after the cleavage of the first bond, rendering the reason scientifically false.</p><p><strong>Step 3: Final Conclusion</strong><br/>Both the assertion and the reason are false.</p>]]></text></generalfeedback>
+  <name><text>NCERTEXEMPLAR_CHEMISTRY_UNIT4_AR_Q59 - Bond dissociation enthalpies of O-H bonds in H2O</text></name>
+  <questiontext format="html"><text><![CDATA[<p>59. <strong>Assertion (A)</strong>: Among the two \(\mathrm{O–H}\) bonds in \(\mathrm{H}_2\mathrm{O}\) molecule, the energy required to break the first \(\mathrm{O–H}\) bond and the other \(\mathrm{O–H}\) bond is the same.</p><p><strong>Reason (R)</strong> : This is because the electronic environment around oxygen is the same even after breakage of one \(\mathrm{O–H}\) bond.</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[
+    <p><strong>Step 1: Conceptual Principle</strong><br/>In a polyatomic molecule, successive bond dissociation enthalpies for identical bonds are not equal because the electronic environment around the central atom changes after the first bond is cleaved.</p>
+    <p><strong>Step 2: Evaluation of Assertion and Reason</strong><br/>Breaking the first \(\mathrm{O–H}\) bond in \(\mathrm{H}_2\mathrm{O}\) produces \(\mathrm{H}^\bullet\) and an \(\mathrm{OH}^\bullet\) radical (\(\Delta H_1^\circ = 502\text{ kJ mol}^{-1}\)). The electronic environment around oxygen in the \(\mathrm{OH}^\bullet\) radical differs from that in the intact \(\mathrm{H}_2\mathrm{O}\) molecule, so breaking the second \(\mathrm{O–H}\) bond requires a different amount of energy (\(\Delta H_2^\circ = 427\text{ kJ mol}^{-1}\)). Therefore, both the assertion and the reason are false.</p>
+    <p><strong>Step 3: Final Conclusion</strong><br/>Both A and R are false.</p>
+  ]]></text></generalfeedback>
   <defaultgrade>4.0000000</defaultgrade>
   <penalty>0.2500000</penalty>
   <hidden>0</hidden>
   <single>true</single>
-  <shuffleanswers>false</shuffleanswers>
+  <shuffleanswers>true</shuffleanswers>
   <answernumbering>iii</answernumbering>
-  <answer fraction="0" format="html"><text><![CDATA[<p>Both (A) and (R) are correct and (R) is the correct explanation of (A).</p>]]></text></answer>
-  <answer fraction="0" format="html"><text><![CDATA[<p>Both (A) and (R) are correct but (R) is NOT the correct explanation of (A).</p>]]></text></answer>
-  <answer fraction="0" format="html"><text><![CDATA[<p>(A) is true but (R) is false.</p>]]></text></answer>
-  <answer fraction="100" format="html"><text><![CDATA[<p>Both (A) and (R) are false.</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>A and R both are correct, and R is correct explanation of A.</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>A and R both are correct, but R is not the correct explanation of A.</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>A is true but R is false.</p>]]></text></answer>
+  <answer fraction="100" format="html"><text><![CDATA[<p>A and R both are false.</p>]]></text></answer>
   <tags>
     <tag><text>standard:neet_ug</text></tag>
     <tag><text>lang:en</text></tag>
     <tag><text>subject:chemistry</text></tag>
+    <tag><text>section:assertion_reason</text></tag>
     <tag><text>class:11</text></tag>
     <tag><text>chapter:chemical_bonding_and_molecular_structure</text></tag>
-    <tag><text>typology:assertion-reason</text></tag>
+    <tag><text>typology:assertion_reason</text></tag>
     <tag><text>difficulty:medium</text></tag>
     <tag><text>blooms:analyze</text></tag>
     <tag><text>calculation:light</text></tag>

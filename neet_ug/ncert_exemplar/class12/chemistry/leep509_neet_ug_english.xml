@@ -1,1241 +1,957 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <quiz>
 <question type="multichoice">
-  <name><text>NEET_UG_CHEMISTRY_COORDINATIONCOMPOUNDS_MCQ_Q01 - Most stable complex formed by copper ion</text></name>
-  <questiontext format="html"><text><![CDATA[<p>Which of the following complexes formed by \(\mathrm{Cu^{2+}}\) ions is most stable?</p>]]></text></questiontext>
-  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>The thermodynamic stability of a coordination complex in solution is directly related to the value of its overall stability (formation) constant, \(K\). A higher value of the formation constant \(K\) (and correspondingly a larger value of \(\log K\)) indicates a greater extent of formation and thermodynamic stability of the complex species in equilibrium.</p>
-<p><strong>Step 2: Evaluation of Stability Constants</strong><br/>Comparing the given values of \(\log K\) for the copper(II) complexes:<br/>
-For the complex with ammine ligands: \(\log K = 11.6\)<br/>
-For the complex with cyanide ligands: \(\log K = 27.3\)<br/>
-For the complex with ethylenediamine ligands: \(\log K = 15.4\)<br/>
-For the complex with aqua ligands: \(\log K = 8.9\)</p>
-<p><strong>Step 3: Final Conclusion</strong><br/>The tetracyanocuprate(II) ion, \([\mathrm{Cu}(\mathrm{CN})_4]^{2-}\), has the highest formation constant with \(\log K = 27.3\), making it the most stable complex among the given species. The correct result is \(\mathrm{Cu^{2+} + 4CN^{-} \rightleftharpoons [Cu(CN)_4]^{2-}}\), \(\log K = 27.3\).</p>]]></text></generalfeedback>
-  <defaultgrade>4.0000000</defaultgrade>
-  <penalty>0.2500000</penalty>
-  <hidden>0</hidden>
-  <single>true</single>
-  <shuffleanswers>true</shuffleanswers>
-  <answernumbering>iii</answernumbering>
-  <answer fraction="0" format="html"><text><![CDATA[<p>\(\mathrm{Cu^{2+} + 4NH_3 \rightleftharpoons [Cu(NH_3)_4]^{2+}}\), \(\log K = 11.6\)</p>]]></text></answer>
-  <answer fraction="100" format="html"><text><![CDATA[<p>\(\mathrm{Cu^{2+} + 4CN^{-} \rightleftharpoons [Cu(CN)_4]^{2-}}\), \(\log K = 27.3\)</p>]]></text></answer>
-  <answer fraction="0" format="html"><text><![CDATA[<p>\(\mathrm{Cu^{2+} + 2en \rightleftharpoons [Cu(en)_2]^{2+}}\), \(\log K = 15.4\)</p>]]></text></answer>
-  <answer fraction="0" format="html"><text><![CDATA[<p>\(\mathrm{Cu^{2+} + 4H_2O \rightleftharpoons [Cu(H_2O)_4]^{2+}}\), \(\log K = 8.9\)</p>]]></text></answer>
-  <tags>
-    <tag><text>standard:neet_ug</text></tag>
-    <tag><text>lang:en</text></tag>
-    <tag><text>subject:chemistry</text></tag>
-    <tag><text>class:class_12</text></tag>
-    <tag><text>chapter:coordination_compounds</text></tag>
-    <tag><text>typology:mcq</text></tag>
-    <tag><text>difficulty:easy</text></tag>
-    <tag><text>blooms:understand</text></tag>
-    <tag><text>calculation:light</text></tag>
-    <tag><text>media:text</text></tag>
-    <tag><text>multiconcept:false</text></tag>
-  </tags>
-</question>
+    <name><text>NEET_UG_CHEMISTRY_COORDINATIONCOMPOUNDS_MCQ_Q01 - Most stable copper(II) complex from stability constants</text></name>
+    <questiontext format="html"><text><![CDATA[<p>Which of the following complexes formed by \(\mathrm{Cu^{2+}}\) ions is most stable?</p>]]></text></questiontext>
+    <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>The thermodynamic stability of a coordination complex in solution is measured by its overall stability constant \(K\) (or \(\log K\)) for the formation equilibrium \(\mathrm{M} + n\mathrm{L} \rightleftharpoons [\mathrm{ML}_n]\). A larger value of \(\log K\) indicates a greater concentration of the complex at equilibrium and hence higher thermodynamic stability.</p><p><strong>Step 2: Evaluation</strong><br/>Comparing the given \(\log K\) values: for \([\mathrm{Cu(H_2O)_4}]^{2+}\), \(\log K = 8.9\); for \([\mathrm{Cu(NH_3)_4}]^{2+}\), \(\log K = 11.6\); for \([\mathrm{Cu(en)_3}]^{2+}\), \(\log K = 15.4\); and for \([\mathrm{Cu(CN)_4}]^{2-}\), \(\log K = 27.3\).</p><p><strong>Step 3: Final Conclusion</strong><br/>Since the formation of \([\mathrm{Cu(CN)_4}]^{2-}\) has the highest \(\log K\) value (\(27.3\)), the complex \(\mathrm{Cu^{2+} + 4CN^{-} \rightleftharpoons [Cu(CN)_4]^{2-}}\) with \(\log K = 27.3\) is the most stable.</p>]]></text></generalfeedback>
+    <defaultgrade>4.0000000</defaultgrade>
+    <penalty>0.2500000</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>iii</answernumbering>
+    <answer fraction="0" format="html"><text><![CDATA[<p>\(\mathrm{Cu^{2+} + 4NH_3 \rightleftharpoons [Cu(NH_3)_4]^{2+}}\), \(\log K = 11.6\)</p>]]></text></answer>
+    <answer fraction="100" format="html"><text><![CDATA[<p>\(\mathrm{Cu^{2+} + 4CN^{-} \rightleftharpoons [Cu(CN)_4]^{2-}}\), \(\log K = 27.3\)</p>]]></text></answer>
+    <answer fraction="0" format="html"><text><![CDATA[<p>\(\mathrm{Cu^{2+} + 2en \rightleftharpoons [Cu(en)_3]^{2+}}\), \(\log K = 15.4\)</p>]]></text></answer>
+    <answer fraction="0" format="html"><text><![CDATA[<p>\(\mathrm{Cu^{2+} + 4H_2O \rightleftharpoons [Cu(H_2O)_4]^{2+}}\), \(\log K = 8.9\)</p>]]></text></answer>
+    <tags>
+      <tag><text>standard:neet_ug</text></tag>
+      <tag><text>lang:en</text></tag>
+      <tag><text>subject:chemistry</text></tag>
+      <tag><text>class:class_12</text></tag>
+      <tag><text>chapter:coordination_compounds</text></tag>
+      <tag><text>typology:mcq</text></tag>
+      <tag><text>difficulty:easy</text></tag>
+      <tag><text>blooms:understand</text></tag>
+      <tag><text>media:text</text></tag>
+      <tag><text>multiconcept:false</text></tag>
+    </tags>
+  </question>
 <question type="multichoice">
-  <name><text>NEET_UG_CHEMISTRY_COORDINATIONCOMPOUNDS_MCQ_Q02 - Order of absorption wavelength of cobalt complexes</text></name>
-  <questiontext format="html"><text><![CDATA[<p>The colour of the coordination compounds depends on the crystal field splitting. What will be the correct order of absorption of wavelength of light in the visible region, for the complexes, \([\mathrm{Co}(\mathrm{NH}_3)_6]^{3+}\), \([\mathrm{Co}(\mathrm{CN})_6]^{3-}\), \([\mathrm{Co}(\mathrm{H}_2\mathrm{O})_6]^{3+}\)?</p>]]></text></questiontext>
-  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Relevant Principle</strong><br/>The energy absorbed during d-d transition corresponds to the crystal field splitting energy, \(\Delta_\text{o}\). The relation between crystal field splitting energy and the absorbed wavelength \(\lambda\) is given by Planck's equation:<br/>
-\[\Delta_\text{o} = \frac{hc}{\lambda}\]<br/>
-This indicates that the absorbed wavelength of light is inversely proportional to the crystal field splitting energy: \(\lambda \propto \frac{1}{\Delta_\text{o}}\).</p>
-<p><strong>Step 2: Spectrochemical Series Analysis</strong><br/>According to the spectrochemical series, the crystal field strength of the ligands follows the order: \(\mathrm{H_2O < NH_3 < CN^-}\). Consequently, the crystal field splitting energy \(\Delta_\text{o}\) for the octahedral cobalt(III) complexes follows the increasing order:<br/>
-\[\Delta_\text{o}([\mathrm{Co}(\mathrm{H}_2\mathrm{O})_6]^{3+}) < \Delta_\text{o}([\mathrm{Co}(\mathrm{NH}_3)_6]^{3+}) < \Delta_\text{o}([\mathrm{Co}(\mathrm{CN})_6]^{3-})\]</p>
-<p><strong>Step 3: Final Conclusion</strong><br/>Since absorbed wavelength is inversely proportional to splitting energy, the wavelength of light absorbed follows the reverse order of ligand field strength:<br/>
-\[[\mathrm{Co}(\mathrm{H}_2\mathrm{O})_6]^{3+} > [\mathrm{Co}(\mathrm{NH}_3)_6]^{3+} > [\mathrm{Co}(\mathrm{CN})_6]^{3-}\]</p>]]></text></generalfeedback>
-  <defaultgrade>4.0000000</defaultgrade>
-  <penalty>0.2500000</penalty>
-  <hidden>0</hidden>
-  <single>true</single>
-  <shuffleanswers>true</shuffleanswers>
-  <answernumbering>iii</answernumbering>
-  <answer fraction="0" format="html"><text><![CDATA[<p>\([\mathrm{Co}(\mathrm{CN})_6]^{3-} > [\mathrm{Co}(\mathrm{NH}_3)_6]^{3+} > [\mathrm{Co}(\mathrm{H}_2\mathrm{O})_6]^{3+}\)</p>]]></text></answer>
-  <answer fraction="0" format="html"><text><![CDATA[<p>\([\mathrm{Co}(\mathrm{NH}_3)_6]^{3+} > [\mathrm{Co}(\mathrm{H}_2\mathrm{O})_6]^{3+} > [\mathrm{Co}(\mathrm{CN})_6]^{3-}\)</p>]]></text></answer>
-  <answer fraction="100" format="html"><text><![CDATA[<p>\([\mathrm{Co}(\mathrm{H}_2\mathrm{O})_6]^{3+} > [\mathrm{Co}(\mathrm{NH}_3)_6]^{3+} > [\mathrm{Co}(\mathrm{CN})_6]^{3-}\)</p>]]></text></answer>
-  <answer fraction="0" format="html"><text><![CDATA[<p>\([\mathrm{Co}(\mathrm{CN})_6]^{3-} > [\mathrm{Co}(\mathrm{NH}_3)_6]^{3+} > [\mathrm{Co}(\mathrm{H}_2\mathrm{O})_6]^{3+}\)</p>]]></text></answer>
-  <tags>
-    <tag><text>standard:neet_ug</text></tag>
-    <tag><text>lang:en</text></tag>
-    <tag><text>subject:chemistry</text></tag>
-    <tag><text>class:class_12</text></tag>
-    <tag><text>chapter:coordination_compounds</text></tag>
-    <tag><text>typology:mcq</text></tag>
-    <tag><text>difficulty:medium</text></tag>
-    <tag><text>blooms:analyze</text></tag>
-    <tag><text>calculation:light</text></tag>
-    <tag><text>media:text</text></tag>
-    <tag><text>multiconcept:false</text></tag>
-  </tags>
-</question>
+    <name><text>NEET_UG_CHEMISTRY_COORDINATIONCOMPOUNDS_MCQ_Q02 - Order of wavelength absorbed by cobalt(III) complexes</text></name>
+    <questiontext format="html"><text><![CDATA[<p>The colour of the coordination compounds depends on the crystal field splitting. What will be the correct order of absorption of wavelength of light in the visible region, for the complexes, \([\mathrm{Co}(\mathrm{NH}_3)_6]^{3+}\), \([\mathrm{Co}(\mathrm{CN})_6]^{3-}\), \([\mathrm{Co}(\mathrm{H}_2\mathrm{O})_6]^{3+}\)</p>]]></text></questiontext>
+    <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>According to crystal field theory, the energy of light absorbed during a \(d\text{--}d\) transition equals the crystal field splitting energy \(\Delta_o\), which is related to the absorbed wavelength \(\lambda\) by \(\Delta_o = \frac{hc}{\lambda}\). Thus, a stronger ligand produces a larger \(\Delta_o\) and absorbs light of shorter wavelength.</p><p><strong>Step 2: Evaluation</strong><br/>From the spectrochemical series, the ligand field strength follows the order \(\mathrm{CN^-} > \mathrm{NH_3} > \mathrm{H_2O}\). Consequently, the crystal field splitting energy \(\Delta_o\) decreases in the order \([\mathrm{Co}(\mathrm{CN})_6]^{3-} > [\mathrm{Co}(\mathrm{NH}_3)_6]^{3+} > [\mathrm{Co}(\mathrm{H}_2\mathrm{O})_6]^{3+}\).</p><p><strong>Step 3: Final Conclusion</strong><br/>Because absorbed wavelength is inversely proportional to \(\Delta_o\), the order of wavelength of light absorbed is \([\mathrm{Co}(\mathrm{H}_2\mathrm{O})_6]^{3+} > [\mathrm{Co}(\mathrm{NH}_3)_6]^{3+} > [\mathrm{Co}(\mathrm{CN})_6]^{3-}\).</p>]]></text></generalfeedback>
+    <defaultgrade>4.0000000</defaultgrade>
+    <penalty>0.2500000</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>iii</answernumbering>
+    <answer fraction="0" format="html"><text><![CDATA[<p>\([\mathrm{Co}(\mathrm{CN})_6]^{3-} > [\mathrm{Co}(\mathrm{NH}_3)_6]^{3+} > [\mathrm{Co}(\mathrm{H}_2\mathrm{O})_6]^{3+}\)</p>]]></text></answer>
+    <answer fraction="0" format="html"><text><![CDATA[<p>\([\mathrm{Co}(\mathrm{NH}_3)_6]^{3+} > [\mathrm{Co}(\mathrm{H}_2\mathrm{O})_6]^{3+} > [\mathrm{Co}(\mathrm{CN})_6]^{3-}\)</p>]]></text></answer>
+    <answer fraction="100" format="html"><text><![CDATA[<p>\([\mathrm{Co}(\mathrm{H}_2\mathrm{O})_6]^{3+} > [\mathrm{Co}(\mathrm{NH}_3)_6]^{3+} > [\mathrm{Co}(\mathrm{CN})_6]^{3-}\)</p>]]></text></answer>
+    <answer fraction="0" format="html"><text><![CDATA[<p>\([\mathrm{Co}(\mathrm{CN})_6]^{3-} > [\mathrm{Co}(\mathrm{NH}_3)_6]^{3+} > [\mathrm{Co}(\mathrm{H}_2\mathrm{O})_6]^{3+}\)</p>]]></text></answer>
+    <tags>
+      <tag><text>standard:neet_ug</text></tag>
+      <tag><text>lang:en</text></tag>
+      <tag><text>subject:chemistry</text></tag>
+      <tag><text>class:class_12</text></tag>
+      <tag><text>chapter:coordination_compounds</text></tag>
+      <tag><text>typology:mcq</text></tag>
+      <tag><text>difficulty:medium</text></tag>
+      <tag><text>blooms:apply</text></tag>
+      <tag><text>media:text</text></tag>
+      <tag><text>multiconcept:true</text></tag>
+    </tags>
+  </question>
 <question type="multichoice">
-  <name><text>NEET_UG_CHEMISTRY_COORDINATIONCOMPOUNDS_MCQ_Q03 - Electrolyte type from silver chloride precipitate formed</text></name>
-  <questiontext format="html"><text><![CDATA[<p>When \(0.1\,\mathrm{mol}\) of \(\mathrm{CoCl}_3(\mathrm{NH}_3)_5\) is treated with excess of \(\mathrm{AgNO}_3\), \(0.2\,\mathrm{mol}\) of \(\mathrm{AgCl}\) are obtained. The conductivity of solution will correspond to</p>]]></text></questiontext>
-  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>Moles of cobalt complex reacted = \(0.1\,\mathrm{mol}\).<br/>Moles of \(\mathrm{AgCl}\) precipitated = \(0.2\,\mathrm{mol}\).</p>
-<p><strong>Step 2: Determining Ionisable Chloride Ions</strong><br/>The ratio of precipitated chloride ions to the moles of the complex is:<br/>
-\[n_{\mathrm{Cl}^-} = \frac{0.2\,\mathrm{mol}}{0.1\,\mathrm{mol}} = 2\]<br/>
-This indicates that each formula unit of the complex provides two ionisable chloride ions outside the coordination sphere.</p>
-<p><strong>Step 3: Determining Coordination Formula and Electrolyte Type</strong><br/>Since cobalt exhibits a coordination number of 6, one chloride ion remains coordinated inside the coordination sphere along with the five ammine ligands: \([\mathrm{Co}(\mathrm{NH}_3)_5\mathrm{Cl}]\mathrm{Cl}_2\).<br/>
-In aqueous solution, it ionises as:<br/>
-\[[\mathrm{Co}(\mathrm{NH}_3)_5\mathrm{Cl}]\mathrm{Cl}_2 \rightarrow [\mathrm{Co}(\mathrm{NH}_3)_5\mathrm{Cl}]^{2+} + 2\mathrm{Cl}^-\]<br/>
-One formula unit produces one divalent cation and two univalent anions, giving a 1:2 electrolyte.</p>]]></text></generalfeedback>
-  <defaultgrade>4.0000000</defaultgrade>
-  <penalty>0.2500000</penalty>
-  <hidden>0</hidden>
-  <single>true</single>
-  <shuffleanswers>true</shuffleanswers>
-  <answernumbering>iii</answernumbering>
-  <answer fraction="0" format="html"><text><![CDATA[<p>1:3 electrolyte</p>]]></text></answer>
-  <answer fraction="100" format="html"><text><![CDATA[<p>1:2 electrolyte</p>]]></text></answer>
-  <answer fraction="0" format="html"><text><![CDATA[<p>1:1 electrolyte</p>]]></text></answer>
-  <answer fraction="0" format="html"><text><![CDATA[<p>3:1 electrolyte</p>]]></text></answer>
-  <tags>
-    <tag><text>standard:neet_ug</text></tag>
-    <tag><text>lang:en</text></tag>
-    <tag><text>subject:chemistry</text></tag>
-    <tag><text>class:class_12</text></tag>
-    <tag><text>chapter:coordination_compounds</text></tag>
-    <tag><text>typology:mcq</text></tag>
-    <tag><text>difficulty:medium</text></tag>
-    <tag><text>blooms:apply</text></tag>
-    <tag><text>calculation:light</text></tag>
-    <tag><text>media:text</text></tag>
-    <tag><text>multiconcept:false</text></tag>
-  </tags>
-</question>
+    <name><text>NEET_UG_CHEMISTRY_COORDINATIONCOMPOUNDS_MCQ_Q03 - Electrolyte type from silver chloride precipitation</text></name>
+    <questiontext format="html"><text><![CDATA[<p>When \(0.1\,\mathrm{mol}\,\mathrm{CoCl}_3(\mathrm{NH}_3)_5\) is treated with excess of \(\mathrm{AgNO}_3\), \(0.2\,\mathrm{mol}\) of \(\mathrm{AgCl}\) are obtained. The conductivity of solution will correspond to</p>]]></text></questiontext>
+    <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>Moles of complex \(\mathrm{CoCl}_3(\mathrm{NH}_3)_5 = 0.1\,\mathrm{mol}\). Moles of \(\mathrm{AgCl}\) precipitated with excess \(\mathrm{AgNO}_3 = 0.2\,\mathrm{mol}\).</p><p><strong>Step 2: Assumptions and Principles</strong><br/>Only counter-ion chloride ions outside the coordination sphere ionise in aqueous solution and precipitate as \(\mathrm{AgCl}\) upon reaction with \(\mathrm{Ag}^+\).</p><p><strong>Step 3: Relevant Formulae</strong><br/>Moles of ionisable \(\mathrm{Cl}^-\) per mole of complex \(= \frac{0.2\,\mathrm{mol}}{0.1\,\mathrm{mol}} = 2\).</p><p><strong>Step 4: Step-by-Step Working</strong><br/>Since \(2\,\mathrm{mol}\) of \(\mathrm{Cl}^-\) are ionisable per mole of complex, the coordination formula is \([\mathrm{Co}(\mathrm{NH}_3)_5\mathrm{Cl}]\mathrm{Cl}_2\). In solution, it dissociates as:<br/>\[[\mathrm{Co}(\mathrm{NH}_3)_5\mathrm{Cl}]\mathrm{Cl}_2 \longrightarrow [\mathrm{Co}(\mathrm{NH}_3)_5\mathrm{Cl}]^{2+} + 2\mathrm{Cl}^-\]<br/>This produces \(1\) complex cation and \(2\) chloride anions per formula unit.</p><p><strong>Step 5: Check and Final Answer</strong><br/>The total number of ions is \(3\) in a \(1:2\) cation-to-anion ratio. Therefore, the conductivity corresponds to a \(1:2\) electrolyte.</p>]]></text></generalfeedback>
+    <defaultgrade>4.0000000</defaultgrade>
+    <penalty>0.2500000</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>iii</answernumbering>
+    <answer fraction="0" format="html"><text><![CDATA[<p>1:3 electrolyte</p>]]></text></answer>
+    <answer fraction="100" format="html"><text><![CDATA[<p>1:2 electrolyte</p>]]></text></answer>
+    <answer fraction="0" format="html"><text><![CDATA[<p>1:1 electrolyte</p>]]></text></answer>
+    <answer fraction="0" format="html"><text><![CDATA[<p>3:1 electrolyte</p>]]></text></answer>
+    <tags>
+      <tag><text>standard:neet_ug</text></tag>
+      <tag><text>lang:en</text></tag>
+      <tag><text>subject:chemistry</text></tag>
+      <tag><text>class:class_12</text></tag>
+      <tag><text>chapter:coordination_compounds</text></tag>
+      <tag><text>typology:mcq</text></tag>
+      <tag><text>difficulty:easy</text></tag>
+      <tag><text>blooms:apply</text></tag>
+      <tag><text>calculation:light</text></tag>
+      <tag><text>media:text</text></tag>
+      <tag><text>multiconcept:false</text></tag>
+    </tags>
+  </question>
 <question type="multichoice">
-  <name><text>NEET_UG_CHEMISTRY_COORDINATIONCOMPOUNDS_MCQ_Q04 - Formula of chromium chloride hydrate coordination complex</text></name>
-  <questiontext format="html"><text><![CDATA[<p>When \(1\,\mathrm{mol}\) \(\mathrm{CrCl}_3\cdot 6\mathrm{H}_2\mathrm{O}\) is treated with excess of \(\mathrm{AgNO}_3\), \(3\,\mathrm{mol}\) of \(\mathrm{AgCl}\) are obtained. The formula of the complex is:</p>]]></text></questiontext>
-  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>Moles of chromium complex reacted = \(1\,\mathrm{mol}\).<br/>Moles of silver chloride precipitated = \(3\,\mathrm{mol}\).</p>
-<p><strong>Step 2: Structural Deduction</strong><br/>Only the chloride ions present outside the coordination sphere as counter-ions are ionisable and can react with silver nitrate to form a precipitate of silver chloride. Because \(1\,\mathrm{mol}\) of the complex yields \(3\,\mathrm{mol}\) of \(\mathrm{AgCl}\), all three chloride ions must reside outside the coordination sphere as counter-ions.</p>
-<p><strong>Step 3: Final Conclusion</strong><br/>All six water molecules must serve as neutral ligands inside the coordination sphere, giving the octahedral complex formula \([\mathrm{Cr}(\mathrm{H}_2\mathrm{O})_6]\mathrm{Cl}_3\).</p>]]></text></generalfeedback>
-  <defaultgrade>4.0000000</defaultgrade>
-  <penalty>0.2500000</penalty>
-  <hidden>0</hidden>
-  <single>true</single>
-  <shuffleanswers>true</shuffleanswers>
-  <answernumbering>iii</answernumbering>
-  <answer fraction="0" format="html"><text><![CDATA[<p>\([\mathrm{CrCl}_3(\mathrm{H}_2\mathrm{O})_3]\cdot 3\mathrm{H}_2\mathrm{O}\)</p>]]></text></answer>
-  <answer fraction="0" format="html"><text><![CDATA[<p>\([\mathrm{CrCl}_2(\mathrm{H}_2\mathrm{O})_4]\mathrm{Cl}\cdot 2\mathrm{H}_2\mathrm{O}\)</p>]]></text></answer>
-  <answer fraction="0" format="html"><text><![CDATA[<p>\([\mathrm{CrCl}(\mathrm{H}_2\mathrm{O})_5]\mathrm{Cl}_2\cdot \mathrm{H}_2\mathrm{O}\)</p>]]></text></answer>
-  <answer fraction="100" format="html"><text><![CDATA[<p>\([\mathrm{Cr}(\mathrm{H}_2\mathrm{O})_6]\mathrm{Cl}_3\)</p>]]></text></answer>
-  <tags>
-    <tag><text>standard:neet_ug</text></tag>
-    <tag><text>lang:en</text></tag>
-    <tag><text>subject:chemistry</text></tag>
-    <tag><text>class:class_12</text></tag>
-    <tag><text>chapter:coordination_compounds</text></tag>
-    <tag><text>typology:mcq</text></tag>
-    <tag><text>difficulty:easy</text></tag>
-    <tag><text>blooms:apply</text></tag>
-    <tag><text>calculation:light</text></tag>
-    <tag><text>media:text</text></tag>
-    <tag><text>multiconcept:false</text></tag>
-  </tags>
-</question>
+    <name><text>NEET_UG_CHEMISTRY_COORDINATIONCOMPOUNDS_MCQ_Q04 - Formula of chromium(III) chloride hydrate complex</text></name>
+    <questiontext format="html"><text><![CDATA[<p>When \(1\,\mathrm{mol}\,\mathrm{CrCl}_3\cdot 6\mathrm{H}_2\mathrm{O}\) is treated with excess of \(\mathrm{AgNO}_3\), \(3\,\mathrm{mol}\) of \(\mathrm{AgCl}\) are obtained. The formula of the complex is:</p>]]></text></questiontext>
+    <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>\(1\,\mathrm{mol}\) of \(\mathrm{CrCl}_3\cdot 6\mathrm{H}_2\mathrm{O}\) reacts with excess \(\mathrm{AgNO}_3\) to yield \(3\,\mathrm{mol}\) of \(\mathrm{AgCl}\).</p><p><strong>Step 2: Conceptual Principle</strong><br/>Chromium(III) typically exhibits a coordination number of \(6\). Only chloride ions present outside the coordination sphere as counter-ions are ionisable and precipitate as \(\mathrm{AgCl}\).</p><p><strong>Step 3: Step-by-Step Working</strong><br/>Since \(3\,\mathrm{mol}\) of \(\mathrm{AgCl}\) are formed from \(1\,\mathrm{mol}\) of the compound, all three \(\mathrm{Cl}^-\) ions must be outside the coordination sphere. To satisfy the coordination number \(6\) of \(\mathrm{Cr}^{3+}\), all six \(\mathrm{H}_2\mathrm{O}\) molecules must be coordinated to \(\mathrm{Cr}^{3+}\) inside the coordination sphere.</p><p><strong>Step 4: Final Conclusion</strong><br/>The formula of the complex is \([\mathrm{Cr}(\mathrm{H}_2\mathrm{O})_6]\mathrm{Cl}_3\).</p>]]></text></generalfeedback>
+    <defaultgrade>4.0000000</defaultgrade>
+    <penalty>0.2500000</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>iii</answernumbering>
+    <answer fraction="0" format="html"><text><![CDATA[<p>\([\mathrm{CrCl}_3(\mathrm{H}_2\mathrm{O})_3]\cdot 3\mathrm{H}_2\mathrm{O}\)</p>]]></text></answer>
+    <answer fraction="0" format="html"><text><![CDATA[<p>\([\mathrm{CrCl}_2(\mathrm{H}_2\mathrm{O})_4]\mathrm{Cl}\cdot 2\mathrm{H}_2\mathrm{O}\)</p>]]></text></answer>
+    <answer fraction="0" format="html"><text><![CDATA[<p>\([\mathrm{CrCl}(\mathrm{H}_2\mathrm{O})_5]\mathrm{Cl}_2\cdot \mathrm{H}_2\mathrm{O}\)</p>]]></text></answer>
+    <answer fraction="100" format="html"><text><![CDATA[<p>\([\mathrm{Cr}(\mathrm{H}_2\mathrm{O})_6]\mathrm{Cl}_3\)</p>]]></text></answer>
+    <tags>
+      <tag><text>standard:neet_ug</text></tag>
+      <tag><text>lang:en</text></tag>
+      <tag><text>subject:chemistry</text></tag>
+      <tag><text>class:class_12</text></tag>
+      <tag><text>chapter:coordination_compounds</text></tag>
+      <tag><text>typology:mcq</text></tag>
+      <tag><text>difficulty:easy</text></tag>
+      <tag><text>blooms:apply</text></tag>
+      <tag><text>media:text</text></tag>
+      <tag><text>multiconcept:false</text></tag>
+    </tags>
+  </question>
 <question type="multichoice">
-  <name><text>NEET_UG_CHEMISTRY_COORDINATIONCOMPOUNDS_MCQ_Q05 - Correct systematic IUPAC name of platinum complex</text></name>
-  <questiontext format="html"><text><![CDATA[<p>The correct IUPAC name of \(\left[\mathrm{Pt}(\mathrm{NH}_3)_2\mathrm{Cl}_2\right]\) is</p>]]></text></questiontext>
-  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Oxidation State of Central Metal</strong><br/>Let the oxidation state of platinum be \(x\). In the neutral complex \(\left[\mathrm{Pt}(\mathrm{NH}_3)_2\mathrm{Cl}_2\right]\), ammine (\(\mathrm{NH}_3\)) is a neutral ligand (charge 0) and chlorido (\(\mathrm{Cl}^-\)) is an anionic ligand (charge \(-1\)):<br/>
-\[x + 2(0) + 2(-1) = 0 \implies x = +2\]<br/>
-The oxidation state of platinum is (II).</p>
-<p><strong>Step 2: Naming Ligands in Alphabetical Order</strong><br/>The ligands are named alphabetically before the metal: "ammine" precedes "chlorido". With two of each ligand, the prefixes are "diammine" and "dichlorido".</p>
-<p><strong>Step 3: Metal Name and Final Assembly</strong><br/>Since the coordination sphere is neutral, the name of the central metal platinum is unchanged, followed by its oxidation state in Roman numerals in parentheses. Thus, the systematic IUPAC name is Diamminedichloridoplatinum (II).</p>]]></text></generalfeedback>
-  <defaultgrade>4.0000000</defaultgrade>
-  <penalty>0.2500000</penalty>
-  <hidden>0</hidden>
-  <single>true</single>
-  <shuffleanswers>true</shuffleanswers>
-  <answernumbering>iii</answernumbering>
-  <answer fraction="100" format="html"><text><![CDATA[<p>Diamminedichloridoplatinum (II)</p>]]></text></answer>
-  <answer fraction="0" format="html"><text><![CDATA[<p>Diamminedichloridoplatinum (IV)</p>]]></text></answer>
-  <answer fraction="0" format="html"><text><![CDATA[<p>Diamminedichloridoplatinum (0)</p>]]></text></answer>
-  <answer fraction="0" format="html"><text><![CDATA[<p>Dichloridodiammineplatinum (IV)</p>]]></text></answer>
-  <tags>
-    <tag><text>standard:neet_ug</text></tag>
-    <tag><text>lang:en</text></tag>
-    <tag><text>subject:chemistry</text></tag>
-    <tag><text>class:class_12</text></tag>
-    <tag><text>chapter:coordination_compounds</text></tag>
-    <tag><text>typology:mcq</text></tag>
-    <tag><text>difficulty:easy</text></tag>
-    <tag><text>blooms:remember</text></tag>
-    <tag><text>calculation:light</text></tag>
-    <tag><text>media:text</text></tag>
-    <tag><text>multiconcept:false</text></tag>
-  </tags>
-</question>
+    <name><text>NEET_UG_CHEMISTRY_COORDINATIONCOMPOUNDS_MCQ_Q05 - IUPAC name of diamminedichloridoplatinum(II)</text></name>
+    <questiontext format="html"><text><![CDATA[<p>The correct IUPAC name of \(\left[\mathrm{Pt}(\mathrm{NH}_3)_2\mathrm{Cl}_2\right]\) is</p>]]></text></questiontext>
+    <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>In IUPAC nomenclature of coordination compounds, ligands are named in alphabetical order before the name of the central metal atom, and the oxidation state of the metal is indicated in Roman numerals in parentheses.</p><p><strong>Step 2: Evaluation</strong><br/>Let the oxidation state of \(\mathrm{Pt}\) be \(x\). Since \(\mathrm{NH}_3\) is neutral (\(0\)) and each \(\mathrm{Cl}^-\) has a charge of \(-1\), we have \(x + 2(0) + 2(-1) = 0 \implies x = +2\). The ligands are \(\mathrm{NH}_3\) (ammine) and \(\mathrm{Cl}^-\) (chlorido). Alphabetically, "ammine" comes before "chlorido", with the prefix "di-" for two of each.</p><p><strong>Step 3: Final Conclusion</strong><br/>Since the complex is neutral, the metal is named platinum followed by (II). The correct IUPAC name is Diamminedichloridoplatinum (II).</p>]]></text></generalfeedback>
+    <defaultgrade>4.0000000</defaultgrade>
+    <penalty>0.2500000</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>iii</answernumbering>
+    <answer fraction="100" format="html"><text><![CDATA[<p>Diamminedichloridoplatinum (II)</p>]]></text></answer>
+    <answer fraction="0" format="html"><text><![CDATA[<p>Diamminedichloridoplatinum (IV)</p>]]></text></answer>
+    <answer fraction="0" format="html"><text><![CDATA[<p>Diamminedichloridoplatinum (0)</p>]]></text></answer>
+    <answer fraction="0" format="html"><text><![CDATA[<p>Dichloridodiammineplatinum (IV)</p>]]></text></answer>
+    <tags>
+      <tag><text>standard:neet_ug</text></tag>
+      <tag><text>lang:en</text></tag>
+      <tag><text>subject:chemistry</text></tag>
+      <tag><text>class:class_12</text></tag>
+      <tag><text>chapter:coordination_compounds</text></tag>
+      <tag><text>typology:mcq</text></tag>
+      <tag><text>difficulty:easy</text></tag>
+      <tag><text>blooms:apply</text></tag>
+      <tag><text>media:text</text></tag>
+      <tag><text>multiconcept:false</text></tag>
+    </tags>
+  </question>
 <question type="multichoice">
-  <name><text>NEET_UG_CHEMISTRY_COORDINATIONCOMPOUNDS_MCQ_Q06 - Most stable complex species due to chelation</text></name>
-  <questiontext format="html"><text><![CDATA[<p>The stabilisation of coordination compounds due to chelation is called the chelate effect. Which of the following is the most stable complex species?</p>]]></text></questiontext>
-  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle of the Chelate Effect</strong><br/>When a polydentate ligand binds to a central metal ion to form a closed ring structure, the complex is called a chelate. Chelated complexes possess enhanced thermodynamic stability compared to analogous complexes formed by unidentate ligands due to favorable entropic factors; this phenomenon is known as the chelate effect.</p>
-<p><strong>Step 2: Ligand Denticity Evaluation</strong><br/>In \([\mathrm{Fe}(\mathrm{CO})_5]\), \(\mathrm{CO}\) is a unidentate ligand.<br/>
-In \([\mathrm{Fe}(\mathrm{CN})_6]^{3-}\), \(\mathrm{CN}^-\) is a unidentate ligand.<br/>
-In \([\mathrm{Fe}(\mathrm{H}_2\mathrm{O})_6]^{3+}\), \(\mathrm{H}_2\mathrm{O}\) is a unidentate ligand.<br/>
-In \([\mathrm{Fe}(\mathrm{C}_2\mathrm{O}_4)_3]^{3-}\), the oxalate ion \(\mathrm{C}_2\mathrm{O}_4^{2-}\) is a bidentate chelating ligand that forms three five-membered rings with the central iron(III) ion.</p>
-<p><strong>Step 3: Final Conclusion</strong><br/>Because of the chelate effect, \([\mathrm{Fe}(\mathrm{C}_2\mathrm{O}_4)_3]^{3-}\) has the highest thermodynamic stability among the given complexes.</p>]]></text></generalfeedback>
-  <defaultgrade>4.0000000</defaultgrade>
-  <penalty>0.2500000</penalty>
-  <hidden>0</hidden>
-  <single>true</single>
-  <shuffleanswers>true</shuffleanswers>
-  <answernumbering>iii</answernumbering>
-  <answer fraction="0" format="html"><text><![CDATA[<p>\([\mathrm{Fe}(\mathrm{CO})_5]\)</p>]]></text></answer>
-  <answer fraction="0" format="html"><text><![CDATA[<p>\([\mathrm{Fe}(\mathrm{CN})_6]^{3 - }\)</p>]]></text></answer>
-  <answer fraction="100" format="html"><text><![CDATA[<p>\([\mathrm{Fe}(\mathrm{C}_2\mathrm{O}_4)_3]^{3 - }\)</p>]]></text></answer>
-  <answer fraction="0" format="html"><text><![CDATA[<p>\([\mathrm{Fe}(\mathrm{H}_2\mathrm{O})_6]^{3 + }\)</p>]]></text></answer>
-  <tags>
-    <tag><text>standard:neet_ug</text></tag>
-    <tag><text>lang:en</text></tag>
-    <tag><text>subject:chemistry</text></tag>
-    <tag><text>class:class_12</text></tag>
-    <tag><text>chapter:coordination_compounds</text></tag>
-    <tag><text>typology:mcq</text></tag>
-    <tag><text>difficulty:easy</text></tag>
-    <tag><text>blooms:understand</text></tag>
-    <tag><text>calculation:light</text></tag>
-    <tag><text>media:text</text></tag>
-    <tag><text>multiconcept:false</text></tag>
-  </tags>
-</question>
+    <name><text>NEET_UG_CHEMISTRY_COORDINATIONCOMPOUNDS_MCQ_Q06 - Most stable complex due to chelate effect</text></name>
+    <questiontext format="html"><text><![CDATA[<p>The stabilisation of coordination compounds due to chelation is called the chelate effect. Which of the following is the most stable complex species?</p>]]></text></questiontext>
+    <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>Polydentate ligands coordinate to a central metal ion through two or more donor atoms simultaneously, forming ring structures called chelates. Complexes containing chelate rings exhibit enhanced thermodynamic stability (the chelate effect) compared to similar complexes with monodentate ligands.</p><p><strong>Step 2: Evaluation</strong><br/>Among the given complexes, \(\mathrm{CO}\), \(\mathrm{CN}^-\), and \(\mathrm{H}_2\mathrm{O}\) are all monodentate ligands, so \([\mathrm{Fe}(\mathrm{CO})_5]\), \([\mathrm{Fe}(\mathrm{CN})_6]^{3-}\), and \([\mathrm{Fe}(\mathrm{H}_2\mathrm{O})_6]^{3+}\) lack chelate rings. In contrast, the oxalate ion (\(\mathrm{C}_2\mathrm{O}_4^{2-}\)) is a bidentate chelating ligand that forms three stable five-membered chelate rings with \(\mathrm{Fe}^{3+}\) in \([\mathrm{Fe}(\mathrm{C}_2\mathrm{O}_4)_3]^{3-}\).</p><p><strong>Step 3: Final Conclusion</strong><br/>Due to the chelate effect, \([\mathrm{Fe}(\mathrm{C}_2\mathrm{O}_4)_3]^{3-}\) is the most stable complex species.</p>]]></text></generalfeedback>
+    <defaultgrade>4.0000000</defaultgrade>
+    <penalty>0.2500000</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>iii</answernumbering>
+    <answer fraction="0" format="html"><text><![CDATA[<p>\([\mathrm{Fe}(\mathrm{CO})_5]\)</p>]]></text></answer>
+    <answer fraction="0" format="html"><text><![CDATA[<p>\([\mathrm{Fe}(\mathrm{CN})_6]^{3-}\)</p>]]></text></answer>
+    <answer fraction="100" format="html"><text><![CDATA[<p>\([\mathrm{Fe}(\mathrm{C}_2\mathrm{O}_4)_3]^{3-}\)</p>]]></text></answer>
+    <answer fraction="0" format="html"><text><![CDATA[<p>\([\mathrm{Fe}(\mathrm{H}_2\mathrm{O})_6]^{3+}\)</p>]]></text></answer>
+    <tags>
+      <tag><text>standard:neet_ug</text></tag>
+      <tag><text>lang:en</text></tag>
+      <tag><text>subject:chemistry</text></tag>
+      <tag><text>class:class_12</text></tag>
+      <tag><text>chapter:coordination_compounds</text></tag>
+      <tag><text>typology:mcq</text></tag>
+      <tag><text>difficulty:easy</text></tag>
+      <tag><text>blooms:understand</text></tag>
+      <tag><text>media:text</text></tag>
+      <tag><text>multiconcept:false</text></tag>
+    </tags>
+  </question>
 <question type="multichoice">
-  <name><text>NEET_UG_CHEMISTRY_COORDINATIONCOMPOUNDS_MCQ_Q07 - Complex ion exhibiting cis trans geometrical isomerism</text></name>
-  <questiontext format="html"><text><![CDATA[<p>Indicate the complex ion which shows geometrical isomerism.</p>]]></text></questiontext>
-  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Principles of Geometrical Isomerism</strong><br/>Geometrical isomerism arises in coordination compounds when the relative spatial arrangements of the coordinated ligands differ. For octahedral complexes, structures of the type \([\mathrm{MA}_4\mathrm{B}_2]\) exhibit cis-trans geometrical isomerism, where the two identical \(\mathrm{B}\) ligands can be positioned adjacent to each other (\(90^\circ\), cis) or opposite each other (\(180^\circ\), trans).</p>
-<p><strong>Step 2: Evaluation of the Complexes</strong><br/>\([\mathrm{Cr}(\mathrm{H}_2\mathrm{O})_4\mathrm{Cl}_2]^+\) is an octahedral complex of type \([\mathrm{MA}_4\mathrm{B}_2]\). The two chlorido ligands can occupy mutually adjacent positions to form the cis isomer or opposite positions to form the trans isomer.<br/>
-The other complexes do not exhibit geometrical isomerism: \([\mathrm{Pt}(\mathrm{NH}_3)_3\mathrm{Cl}]^+\) is of type \([\mathrm{MA}_3\mathrm{B}]\), \([\mathrm{Co}(\mathrm{NH}_3)_6]^{3+}\) is homoleptic \([\mathrm{MA}_6]\), and \([\mathrm{Co}(\mathrm{CN})_5(\mathrm{NC})]^{3-}\) is of type \([\mathrm{MA}_5\mathrm{B}]\), none of which possess different relative spatial orientations for their ligands.</p>
-<p><strong>Step 3: Final Conclusion</strong><br/>The complex ion that shows geometrical isomerism is \([\mathrm{Cr}(\mathrm{H}_2\mathrm{O})_4\mathrm{Cl}_2]^+\).</p>]]></text></generalfeedback>
-  <defaultgrade>4.0000000</defaultgrade>
-  <penalty>0.2500000</penalty>
-  <hidden>0</hidden>
-  <single>true</single>
-  <shuffleanswers>true</shuffleanswers>
-  <answernumbering>iii</answernumbering>
-  <answer fraction="100" format="html"><text><![CDATA[<p>\([\mathrm{Cr}(\mathrm{H}_2\mathrm{O})_4\mathrm{Cl}_2]^+\)</p>]]></text></answer>
-  <answer fraction="0" format="html"><text><![CDATA[<p>\([\mathrm{Pt}(\mathrm{NH}_3)_3\mathrm{Cl}]\)</p>]]></text></answer>
-  <answer fraction="0" format="html"><text><![CDATA[<p>\([\mathrm{Co}(\mathrm{NH}_3)_6]^{3 + }\)</p>]]></text></answer>
-  <answer fraction="0" format="html"><text><![CDATA[<p>\([\mathrm{Co}(\mathrm{CN})_5(\mathrm{NC})]^{3 - }\)</p>]]></text></answer>
-  <tags>
-    <tag><text>standard:neet_ug</text></tag>
-    <tag><text>lang:en</text></tag>
-    <tag><text>subject:chemistry</text></tag>
-    <tag><text>class:class_12</text></tag>
-    <tag><text>chapter:coordination_compounds</text></tag>
-    <tag><text>typology:mcq</text></tag>
-    <tag><text>difficulty:easy</text></tag>
-    <tag><text>blooms:understand</text></tag>
-    <tag><text>calculation:light</text></tag>
-    <tag><text>media:text</text></tag>
-    <tag><text>multiconcept:false</text></tag>
-  </tags>
-</question>
+    <name><text>NEET_UG_CHEMISTRY_COORDINATIONCOMPOUNDS_MCQ_Q07 - Complex ion showing geometrical isomerism</text></name>
+    <questiontext format="html"><text><![CDATA[<p>Indicate the complex ion which shows geometrical isomerism.</p>]]></text></questiontext>
+    <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>Geometrical isomerism (<em>cis-trans</em> isomerism) occurs in heteroleptic complexes where ligands can occupy different relative spatial positions around the central metal ion. Octahedral complexes of the type \(\mathrm{MA}_4\mathrm{B}_2\) show <em>cis</em> and <em>trans</em> isomers, whereas \(\mathrm{MA}_6\), \(\mathrm{MA}_5\mathrm{B}\), and \(\mathrm{MA}_3\mathrm{B}\) (square planar) complexes do not show geometrical isomerism.</p><p><strong>Step 2: Evaluation</strong><br/>\([\mathrm{Cr}(\mathrm{H}_2\mathrm{O})_4\mathrm{Cl}_2]^+\) is an octahedral complex of the type \(\mathrm{MA}_4\mathrm{B}_2\). The two \(\mathrm{Cl}^-\) ligands can be adjacent to each other (<em>cis</em> isomer, \(90^\circ\) apart) or opposite to each other (<em>trans</em> isomer, \(180^\circ\) apart). The other complexes—\([\mathrm{Pt}(\mathrm{NH}_3)_3\mathrm{Cl}]\) (\(\mathrm{MA}_3\mathrm{B}\)), \([\mathrm{Co}(\mathrm{NH}_3)_6]^{3+}\) (\(\mathrm{MA}_6\)), and \([\mathrm{Co}(\mathrm{CN})_3(\mathrm{NC})]^{3-}\)—do not exhibit geometrical isomerism in this manner.</p><p><strong>Step 3: Final Conclusion</strong><br/>Therefore, \([\mathrm{Cr}(\mathrm{H}_2\mathrm{O})_4\mathrm{Cl}_2]^+\) shows geometrical isomerism.</p>]]></text></generalfeedback>
+    <defaultgrade>4.0000000</defaultgrade>
+    <penalty>0.2500000</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>iii</answernumbering>
+    <answer fraction="100" format="html"><text><![CDATA[<p>\([\mathrm{Cr}(\mathrm{H}_2\mathrm{O})_4\mathrm{Cl}_2]^+\)</p>]]></text></answer>
+    <answer fraction="0" format="html"><text><![CDATA[<p>\([\mathrm{Pt}(\mathrm{NH}_3)_3\mathrm{Cl}]\)</p>]]></text></answer>
+    <answer fraction="0" format="html"><text><![CDATA[<p>\([\mathrm{Co}(\mathrm{NH}_3)_6]^{3+}\)</p>]]></text></answer>
+    <answer fraction="0" format="html"><text><![CDATA[<p>\([\mathrm{Co}(\mathrm{CN})_3(\mathrm{NC})]^{3-}\)</p>]]></text></answer>
+    <tags>
+      <tag><text>standard:neet_ug</text></tag>
+      <tag><text>lang:en</text></tag>
+      <tag><text>subject:chemistry</text></tag>
+      <tag><text>class:class_12</text></tag>
+      <tag><text>chapter:coordination_compounds</text></tag>
+      <tag><text>typology:mcq</text></tag>
+      <tag><text>difficulty:easy</text></tag>
+      <tag><text>blooms:apply</text></tag>
+      <tag><text>media:text</text></tag>
+      <tag><text>multiconcept:false</text></tag>
+    </tags>
+  </question>
 <question type="multichoice">
-  <name><text>NEET_UG_CHEMISTRY_COORDINATIONCOMPOUNDS_MCQ_Q08 - Crystal field splitting energy of tetrahedral complex</text></name>
-  <questiontext format="html"><text><![CDATA[<p>The CFSE for octahedral \(\left[\mathrm{CoCl}_6\right]^{4-}\) is \(18,000\,\mathrm{cm}^{-1}\). The CFSE for tetrahedral \(\left[\mathrm{CoCl}_4\right]^{2-}\) will be</p>]]></text></questiontext>
-  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Given Data</strong><br/>Octahedral crystal field splitting energy, \(\Delta_\text{o} = 18,000\,\mathrm{cm}^{-1}\).</p>
-<p><strong>Step 2: Relevant Formula</strong><br/>For complexes containing the same central metal ion in the same oxidation state (\(\mathrm{Co^{2+}}\)) and identical ligands (\(\mathrm{Cl^-}\)), the crystal field splitting energy in a tetrahedral field (\(\Delta_\text{t}\)) is related to that in an octahedral field (\(\Delta_\text{o}\)) by:<br/>
-\[\Delta_\text{t} = \frac{4}{9} \Delta_\text{o}\]</p>
-<p><strong>Step 3: Step-by-Step Calculation</strong><br/>Substituting the given octahedral value:<br/>
-\[\Delta_\text{t} = \frac{4}{9} \times 18,000\,\mathrm{cm}^{-1} = 4 \times 2,000\,\mathrm{cm}^{-1} = 8,000\,\mathrm{cm}^{-1}\]</p>
-<p><strong>Step 4: Final Conclusion</strong><br/>The crystal field splitting energy for tetrahedral \(\left[\mathrm{CoCl}_4\right]^{2-}\) is \(8,000\,\mathrm{cm}^{-1}\).</p>]]></text></generalfeedback>
-  <defaultgrade>4.0000000</defaultgrade>
-  <penalty>0.2500000</penalty>
-  <hidden>0</hidden>
-  <single>true</single>
-  <shuffleanswers>true</shuffleanswers>
-  <answernumbering>iii</answernumbering>
-  <answer fraction="0" format="html"><text><![CDATA[<p>\(18,000\,\mathrm{cm}^{-1}\)</p>]]></text></answer>
-  <answer fraction="0" format="html"><text><![CDATA[<p>\(16,000\,\mathrm{cm}^{-1}\)</p>]]></text></answer>
-  <answer fraction="100" format="html"><text><![CDATA[<p>\(8,000\,\mathrm{cm}^{-1}\)</p>]]></text></answer>
-  <answer fraction="0" format="html"><text><![CDATA[<p>\(20,000\,\mathrm{cm}^{-1}\)</p>]]></text></answer>
-  <tags>
-    <tag><text>standard:neet_ug</text></tag>
-    <tag><text>lang:en</text></tag>
-    <tag><text>subject:chemistry</text></tag>
-    <tag><text>class:class_12</text></tag>
-    <tag><text>chapter:coordination_compounds</text></tag>
-    <tag><text>typology:mcq</text></tag>
-    <tag><text>difficulty:easy</text></tag>
-    <tag><text>blooms:apply</text></tag>
-    <tag><text>calculation:light</text></tag>
-    <tag><text>media:text</text></tag>
-    <tag><text>multiconcept:false</text></tag>
-  </tags>
-</question>
+    <name><text>NEET_UG_CHEMISTRY_COORDINATIONCOMPOUNDS_MCQ_Q08 - Tetrahedral CFSE from octahedral CFSE</text></name>
+    <questiontext format="html"><text><![CDATA[<p>The CFSE for octahedral \(\left[\mathrm{CoCl}_6\right]^{4-}\) is \(18,000~\mathrm{cm}^{-1}\). The CFSE for tetrahedral \(\left[\mathrm{CoCl}_4\right]^{2-}\) will be</p>]]></text></questiontext>
+    <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>Crystal field splitting energy for the octahedral complex \([\mathrm{CoCl}_6]^{4-}\) is \(\Delta_o = 18,000~\mathrm{cm}^{-1}\). Both complexes contain \(\mathrm{Co}^{2+}\) (\(3d^7\)) and \(\mathrm{Cl}^-\) ligands.</p><p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>For the same metal ion and the same ligands at equal metal-ligand distances, the tetrahedral crystal field splitting parameter \(\Delta_t\) is related to the octahedral parameter \(\Delta_o\) by the standard crystal field factor \(\frac{4}{9}\).</p><p><strong>Step 3: Relevant Formulae</strong><br/>\[\Delta_t = \frac{4}{9}\Delta_o\]</p><p><strong>Step 4: Step-by-Step Working</strong><br/>Substituting \(\Delta_o = 18,000~\mathrm{cm}^{-1}\):<br/>\[\Delta_t = \frac{4}{9} \times 18,000~\mathrm{cm}^{-1} = 4 \times 2,000~\mathrm{cm}^{-1} = 8,000~\mathrm{cm}^{-1}\]</p><p><strong>Step 5: Check and Final Answer</strong><br/>The value \(8,000~\mathrm{cm}^{-1}\) is less than half of \(\Delta_o\), which is physically consistent with tetrahedral splitting. Hence, the CFSE for tetrahedral \([\mathrm{CoCl}_4]^{2-}\) is \(8,000~\mathrm{cm}^{-1}\).</p>]]></text></generalfeedback>
+    <defaultgrade>4.0000000</defaultgrade>
+    <penalty>0.2500000</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>iii</answernumbering>
+    <answer fraction="0" format="html"><text><![CDATA[<p>\(18,000~\mathrm{cm}^{-1}\)</p>]]></text></answer>
+    <answer fraction="0" format="html"><text><![CDATA[<p>\(16,000~\mathrm{cm}^{-1}\)</p>]]></text></answer>
+    <answer fraction="100" format="html"><text><![CDATA[<p>\(8,000~\mathrm{cm}^{-1}\)</p>]]></text></answer>
+    <answer fraction="0" format="html"><text><![CDATA[<p>\(20,000~\mathrm{cm}^{-1}\)</p>]]></text></answer>
+    <tags>
+      <tag><text>standard:neet_ug</text></tag>
+      <tag><text>lang:en</text></tag>
+      <tag><text>subject:chemistry</text></tag>
+      <tag><text>class:class_12</text></tag>
+      <tag><text>chapter:coordination_compounds</text></tag>
+      <tag><text>typology:mcq</text></tag>
+      <tag><text>difficulty:easy</text></tag>
+      <tag><text>blooms:apply</text></tag>
+      <tag><text>calculation:light</text></tag>
+      <tag><text>media:text</text></tag>
+      <tag><text>multiconcept:false</text></tag>
+    </tags>
+  </question>
 <question type="multichoice">
-  <name><text>NEET_UG_CHEMISTRY_COORDINATIONCOMPOUNDS_MCQ_Q09 - Linkage isomerism in palladium thiocyanate coordination complexes</text></name>
-  <questiontext format="html"><text><![CDATA[<p>Due to the presence of ambidentate ligands coordination compounds show isomerism. Palladium complexes of the type \(\left[\mathrm{Pd}\left(\mathrm{C}_{6} \mathrm{H}_{5}\right)_{2}(\mathrm{SCN})_{2}\right]\) and \(\left[\mathrm{Pd}\left(\mathrm{C}_{6} \mathrm{H}_{5}\right)_{2}(\mathrm{NCS})_{2}\right]\) are</p>]]></text></questiontext>
-  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle of Linkage Isomerism</strong><br/>Linkage isomerism arises in coordination compounds containing ambidentate ligands. An ambidentate ligand possesses two different donor atoms through which it can coordinate to the central metal atom.</p>
-<p><strong>Step 2: Evaluation of the Given Complexes</strong><br/>The thiocyanate ion can coordinate either via the sulfur atom (\(-\mathrm{SCN}\), thiocyanato) or via the nitrogen atom (\(-\mathrm{NCS}\), isothiocyanato). In \(\left[\mathrm{Pd}\left(\mathrm{C}_{6} \mathrm{H}_{5}\right)_{2}(\mathrm{SCN})_{2}\right]\), the ligand coordinates through the sulfur atom, whereas in \(\left[\mathrm{Pd}\left(\mathrm{C}_{6} \mathrm{H}_{5}\right)_{2}(\mathrm{NCS})_{2}\right]\), it coordinates through the nitrogen atom.</p>
-<p><strong>Step 3: Final Conclusion</strong><br/>Because these two compounds have the same molecular formula and differ solely in the mode of attachment of the ambidentate ligand to palladium, they are linkage isomers.</p>]]></text></generalfeedback>
-  <defaultgrade>4.0000000</defaultgrade>
-  <penalty>0.2500000</penalty>
-  <hidden>0</hidden>
-  <single>true</single>
-  <shuffleanswers>true</shuffleanswers>
-  <answernumbering>iii</answernumbering>
-  <answer fraction="100" format="html"><text><![CDATA[<p>linkage isomers</p>]]></text></answer>
-  <answer fraction="0" format="html"><text><![CDATA[<p>coordination isomers</p>]]></text></answer>
-  <answer fraction="0" format="html"><text><![CDATA[<p>ionisation isomers</p>]]></text></answer>
-  <answer fraction="0" format="html"><text><![CDATA[<p>geometrical isomers</p>]]></text></answer>
-  <tags>
-    <tag><text>standard:neet_ug</text></tag>
-    <tag><text>lang:en</text></tag>
-    <tag><text>subject:chemistry</text></tag>
-    <tag><text>class:class_12</text></tag>
-    <tag><text>chapter:coordination_compounds</text></tag>
-    <tag><text>typology:mcq</text></tag>
-    <tag><text>difficulty:easy</text></tag>
-    <tag><text>blooms:remember</text></tag>
-    <tag><text>calculation:light</text></tag>
-    <tag><text>media:text</text></tag>
-    <tag><text>multiconcept:false</text></tag>
-  </tags>
-</question>
+    <name><text>NEET_UG_CHEMISTRY_COORDINATIONCOMPOUNDS_MCQ_Q09 - Linkage isomerism in palladium thiocyanato complexes</text></name>
+    <questiontext format="html"><text><![CDATA[<p>Due to the presence of ambidentate ligands coordination compounds show isomerism. Palladium complexes of the type \(\left[\mathrm{Pd}\left(\mathrm{C}_{6}\mathrm{H}_{5}\right)_{2}(\mathrm{SCN})_{2}\right]\) and \(\left[\mathrm{Pd}\left(\mathrm{C}_{6}\mathrm{H}_{5}\right)_{2}(\mathrm{NCS})_{2}\right]\) are</p>]]></text></questiontext>
+    <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>Ambidentate ligands can coordinate to a central metal ion through two different donor atoms. Complexes that have the same molecular formula and differ only in the atom of the ambidentate ligand attached to the metal are called linkage isomers.</p><p><strong>Step 2: Evaluation</strong><br/>The thiocyanate ion (\(\mathrm{SCN}^-\)) is an ambidentate ligand. In \(\left[\mathrm{Pd}\left(\mathrm{C}_{6}\mathrm{H}_{5}\right)_{2}(\mathrm{SCN})_{2}\right]\), it binds to palladium through the sulfur atom, whereas in \(\left[\mathrm{Pd}\left(\mathrm{C}_{6}\mathrm{H}_{5}\right)_{2}(\mathrm{NCS})_{2}\right]\), it binds through the nitrogen atom.</p><p><strong>Step 3: Final Conclusion</strong><br/>Therefore, these two complexes are linkage isomers.</p>]]></text></generalfeedback>
+    <defaultgrade>4.0000000</defaultgrade>
+    <penalty>0.2500000</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>iii</answernumbering>
+    <answer fraction="100" format="html"><text><![CDATA[<p>linkage isomers</p>]]></text></answer>
+    <answer fraction="0" format="html"><text><![CDATA[<p>coordination isomers</p>]]></text></answer>
+    <answer fraction="0" format="html"><text><![CDATA[<p>ionisation isomers</p>]]></text></answer>
+    <answer fraction="0" format="html"><text><![CDATA[<p>geometrical isomers</p>]]></text></answer>
+    <tags>
+      <tag><text>standard:neet_ug</text></tag>
+      <tag><text>lang:en</text></tag>
+      <tag><text>subject:chemistry</text></tag>
+      <tag><text>class:class_12</text></tag>
+      <tag><text>chapter:coordination_compounds</text></tag>
+      <tag><text>typology:mcq</text></tag>
+      <tag><text>difficulty:easy</text></tag>
+      <tag><text>blooms:understand</text></tag>
+      <tag><text>media:text</text></tag>
+      <tag><text>multiconcept:false</text></tag>
+    </tags>
+  </question>
 <question type="multichoice">
-  <name><text>NEET_UG_CHEMISTRY_COORDINATIONCOMPOUNDS_MCQ_Q10 - Absence of isomerism in different cobalt compounds</text></name>
-  <questiontext format="html"><text><![CDATA[<p>The compounds \(\left[\mathrm{Co}\left(\mathrm{SO}_{4}\right)\left(\mathrm{NH}_{3}\right)_{5}\right]\mathrm{Br}\) and \(\left[\mathrm{Co}\left(\mathrm{SO}_{4}\right)\left(\mathrm{NH}_{3}\right)_{5}\right]\mathrm{Cl}\) represent</p>]]></text></questiontext>
-  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Definition of Isomers</strong><br/>By definition, isomers must possess identical chemical composition and molecular formulae while differing in structure, connectivity, or spatial arrangement.</p>
-<p><strong>Step 2: Comparison of Chemical Formulae</strong><br/>The first compound contains cobalt, ammonia, sulphate, and bromide: \(\left[\mathrm{Co}\left(\mathrm{SO}_{4}\right)\left(\mathrm{NH}_{3}\right)_{5}\right]\mathrm{Br}\).<br/>
-The second compound contains cobalt, ammonia, sulphate, and chloride: \(\left[\mathrm{Co}\left(\mathrm{SO}_{4}\right)\left(\mathrm{NH}_{3}\right)_{5}\right]\mathrm{Cl}\).<br/>
-Because one compound contains bromine while the other contains chlorine, they possess completely different elemental compositions and different molecular formulae.</p>
-<p><strong>Step 3: Final Conclusion</strong><br/>Because their molecular formulae are not identical, these two coordination compounds are simply distinct chemical entities and exhibit no isomerism.</p>]]></text></generalfeedback>
-  <defaultgrade>4.0000000</defaultgrade>
-  <penalty>0.2500000</penalty>
-  <hidden>0</hidden>
-  <single>true</single>
-  <shuffleanswers>true</shuffleanswers>
-  <answernumbering>iii</answernumbering>
-  <answer fraction="0" format="html"><text><![CDATA[<p>linkage isomerism</p>]]></text></answer>
-  <answer fraction="0" format="html"><text><![CDATA[<p>ionisation isomerism</p>]]></text></answer>
-  <answer fraction="0" format="html"><text><![CDATA[<p>coordination isomerism</p>]]></text></answer>
-  <answer fraction="100" format="html"><text><![CDATA[<p>no isomerism</p>]]></text></answer>
-  <tags>
-    <tag><text>standard:neet_ug</text></tag>
-    <tag><text>lang:en</text></tag>
-    <tag><text>subject:chemistry</text></tag>
-    <tag><text>class:class_12</text></tag>
-    <tag><text>chapter:coordination_compounds</text></tag>
-    <tag><text>typology:mcq</text></tag>
-    <tag><text>difficulty:medium</text></tag>
-    <tag><text>blooms:analyze</text></tag>
-    <tag><text>calculation:light</text></tag>
-    <tag><text>media:text</text></tag>
-    <tag><text>multiconcept:false</text></tag>
-  </tags>
-</question>
+    <name><text>NEET_UG_CHEMISTRY_COORDINATIONCOMPOUNDS_MCQ_Q10 - Non-isomeric cobalt complexes with different counter ions</text></name>
+    <questiontext format="html"><text><![CDATA[<p>The compounds \(\left[\mathrm{Co}\left(\mathrm{SO}_{4}\right)\left(\mathrm{NH}_{3}\right)_{5}\right]\mathrm{Br}\) and \(\left[\mathrm{Co}\left(\mathrm{SO}_{4}\right)\left(\mathrm{NH}_{3}\right)_{5}\right]\mathrm{Cl}\) represent</p>]]></text></questiontext>
+    <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>Isomers must have the exact same molecular formula (the same number and types of atoms) while differing in structural arrangement or spatial orientation.</p><p><strong>Step 2: Evaluation</strong><br/>The compound \(\left[\mathrm{Co}\left(\mathrm{SO}_{4}\right)\left(\mathrm{NH}_{3}\right)_{5}\right]\mathrm{Br}\) contains a bromide ion (\(\mathrm{Br}^-\)), whereas \(\left[\mathrm{Co}\left(\mathrm{SO}_{4}\right)\left(\mathrm{NH}_{3}\right)_{5}\right]\mathrm{Cl}\) contains a chloride ion (\(\mathrm{Cl}^-\)). Because their molecular formulas are different, they cannot be isomers of any kind.</p><p><strong>Step 3: Final Conclusion</strong><br/>Hence, these two compounds represent no isomerism.</p>]]></text></generalfeedback>
+    <defaultgrade>4.0000000</defaultgrade>
+    <penalty>0.2500000</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>iii</answernumbering>
+    <answer fraction="0" format="html"><text><![CDATA[<p>linkage isomerism</p>]]></text></answer>
+    <answer fraction="0" format="html"><text><![CDATA[<p>ionisation isomerism</p>]]></text></answer>
+    <answer fraction="0" format="html"><text><![CDATA[<p>coordination isomerism</p>]]></text></answer>
+    <answer fraction="100" format="html"><text><![CDATA[<p>no isomerism</p>]]></text></answer>
+    <tags>
+      <tag><text>standard:neet_ug</text></tag>
+      <tag><text>lang:en</text></tag>
+      <tag><text>subject:chemistry</text></tag>
+      <tag><text>class:class_12</text></tag>
+      <tag><text>chapter:coordination_compounds</text></tag>
+      <tag><text>typology:mcq</text></tag>
+      <tag><text>difficulty:easy</text></tag>
+      <tag><text>blooms:analyze</text></tag>
+      <tag><text>media:text</text></tag>
+      <tag><text>multiconcept:false</text></tag>
+    </tags>
+  </question>
 <question type="multichoice">
-  <name><text>NEET_UG_CHEMISTRY_COORDINATIONCOMPOUNDS_MCQ_Q11 - Identification of ligand that cannot chelate metals</text></name>
-  <questiontext format="html"><text><![CDATA[<p>A chelating agent has two or more than two donor atoms to bind to a single metal ion. Which of the following is <strong>not</strong> a chelating agent?</p>]]></text></questiontext>
-  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Definition of Chelating Ligands</strong><br/>A chelating ligand is a polydentate (didentate or higher denticity) ligand that uses two or more donor atoms simultaneously to bind to a single central metal ion, forming a ring structure.</p>
-<p><strong>Step 2: Evaluation of Given Species</strong><br/>Oxalato (\(\mathrm{C_2O_4^{2-}}\)) is a didentate ligand that coordinates through two oxygen atoms.<br/>
-Glycinato (\(\mathrm{NH_2CH_2COO^-}\)) is a didentate ligand coordinating via nitrogen and oxygen donor atoms.<br/>
-Ethane-1,2-diamine (\(\mathrm{en}\)) is a didentate ligand coordinating via two nitrogen donor atoms.<br/>
-Thiosulphato (\(\mathrm{S_2O_3^{2-}}\)) is a unidentate ligand that binds through a single donor atom (either sulphur or oxygen) to a metal ion, and does not form a chelate ring with a single metal ion.</p>
-<p><strong>Step 3: Final Conclusion</strong><br/>Thiosulphato is not a chelating agent.</p>]]></text></generalfeedback>
-  <defaultgrade>4.0000000</defaultgrade>
-  <penalty>0.2500000</penalty>
-  <hidden>0</hidden>
-  <single>true</single>
-  <shuffleanswers>true</shuffleanswers>
-  <answernumbering>iii</answernumbering>
-  <answer fraction="100" format="html"><text><![CDATA[<p>thiosulphato</p>]]></text></answer>
-  <answer fraction="0" format="html"><text><![CDATA[<p>oxalato</p>]]></text></answer>
-  <answer fraction="0" format="html"><text><![CDATA[<p>glycinato</p>]]></text></answer>
-  <answer fraction="0" format="html"><text><![CDATA[<p>ethane-1,2-diamine</p>]]></text></answer>
-  <tags>
-    <tag><text>standard:neet_ug</text></tag>
-    <tag><text>lang:en</text></tag>
-    <tag><text>subject:chemistry</text></tag>
-    <tag><text>class:class_12</text></tag>
-    <tag><text>chapter:coordination_compounds</text></tag>
-    <tag><text>typology:mcq</text></tag>
-    <tag><text>difficulty:easy</text></tag>
-    <tag><text>blooms:remember</text></tag>
-    <tag><text>calculation:light</text></tag>
-    <tag><text>media:text</text></tag>
-    <tag><text>multiconcept:false</text></tag>
-  </tags>
-</question>
+    <name><text>NEET_UG_CHEMISTRY_COORDINATIONCOMPOUNDS_MCQ_Q11 - Identifying non-chelating ligand among common ligands</text></name>
+    <questiontext format="html"><text><![CDATA[<p>A chelating agent has two or more than two donor atoms to bind to a single metal ion. Which of the following is <strong>not</strong> a chelating agent?</p>]]></text></questiontext>
+    <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>A chelating agent is a polydentate (bidentate or higher) ligand that uses two or more donor atoms to bind simultaneously to a single central metal ion, forming a chelate ring. Unidentate (monodentate) ligands bind through only one donor atom at a time and do not form chelate rings.</p><p><strong>Step 2: Evaluation</strong><br/>Oxalato (\(\mathrm{C}_2\mathrm{O}_4^{2-}\)), glycinato (\(\mathrm{H}_2\mathrm{NCH}_2\mathrm{COO}^-\)), and ethane-1,2-diamine (\(\mathrm{H}_2\mathrm{NCH}_2\mathrm{CH}_2\mathrm{NH}_2\)) are all bidentate chelating ligands. Thiosulphato (\(\mathrm{S}_2\mathrm{O}_3^{2-}\)) acts as a unidentate ligand.</p><p><strong>Step 3: Final Conclusion</strong><br/>Therefore, thiosulphato is not a chelating agent.</p>]]></text></generalfeedback>
+    <defaultgrade>4.0000000</defaultgrade>
+    <penalty>0.2500000</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>iii</answernumbering>
+    <answer fraction="100" format="html"><text><![CDATA[<p>thiosulphato</p>]]></text></answer>
+    <answer fraction="0" format="html"><text><![CDATA[<p>oxalato</p>]]></text></answer>
+    <answer fraction="0" format="html"><text><![CDATA[<p>glycinato</p>]]></text></answer>
+    <answer fraction="0" format="html"><text><![CDATA[<p>ethane-1,2-diamine</p>]]></text></answer>
+    <tags>
+      <tag><text>standard:neet_ug</text></tag>
+      <tag><text>lang:en</text></tag>
+      <tag><text>subject:chemistry</text></tag>
+      <tag><text>class:class_12</text></tag>
+      <tag><text>chapter:coordination_compounds</text></tag>
+      <tag><text>typology:mcq</text></tag>
+      <tag><text>difficulty:easy</text></tag>
+      <tag><text>blooms:remember</text></tag>
+      <tag><text>media:text</text></tag>
+      <tag><text>multiconcept:false</text></tag>
+    </tags>
+  </question>
 <question type="multichoice">
-  <name><text>NEET_UG_CHEMISTRY_COORDINATIONCOMPOUNDS_MCQ_Q12 - Species not expected to act as ligand</text></name>
-  <questiontext format="html"><text><![CDATA[<p>Which of the following species is <strong>not</strong> expected to be a ligand?</p>]]></text></questiontext>
-  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Requirement for a Ligand</strong><br/>A ligand must act as a Lewis base by donating at least one pair of non-bonding electrons (lone pair) or \(\pi\)-electrons to the empty orbitals of a central metal ion to form a coordinate covalent bond.</p>
-<p><strong>Step 2: Electronic Structure Evaluation</strong><br/>Nitric oxide (\(\mathrm{NO}\)) possesses lone pairs on nitrogen and oxygen and functions as a ligand.<br/>
-Ethane-1,2-diamine (\(\mathrm{NH}_2\mathrm{CH}_2\mathrm{CH}_2\mathrm{NH}_2\)) has lone pairs on both nitrogen atoms and acts as a didentate ligand.<br/>
-Carbon monoxide (\(\mathrm{CO}\)) possesses lone pairs on carbon and oxygen and acts as a strong \(\pi\)-acceptor ligand.<br/>
-In the ammonium ion (\(\mathrm{NH}_4^+\), nitrogen has used all four of its valence electrons to form four covalent bonds with hydrogen atoms. The octet of nitrogen is complete and it has no unshared lone pair of electrons available for donation.</p>
-<p><strong>Step 3: Final Conclusion</strong><br/>The ammonium ion, \(\mathrm{NH}_4^+\), cannot act as an electron pair donor and is not expected to be a ligand.</p>]]></text></generalfeedback>
-  <defaultgrade>4.0000000</defaultgrade>
-  <penalty>0.2500000</penalty>
-  <hidden>0</hidden>
-  <single>true</single>
-  <shuffleanswers>true</shuffleanswers>
-  <answernumbering>iii</answernumbering>
-  <answer fraction="0" format="html"><text><![CDATA[<p>\(\mathrm{NO}\)</p>]]></text></answer>
-  <answer fraction="100" format="html"><text><![CDATA[<p>\(\mathrm{NH}_4^+\)</p>]]></text></answer>
-  <answer fraction="0" format="html"><text><![CDATA[<p>\(\mathrm{NH}_2\mathrm{CH}_2\mathrm{CH}_2\mathrm{NH}_2\)</p>]]></text></answer>
-  <answer fraction="0" format="html"><text><![CDATA[<p>\(\mathrm{CO}\)</p>]]></text></answer>
-  <tags>
-    <tag><text>standard:neet_ug</text></tag>
-    <tag><text>lang:en</text></tag>
-    <tag><text>subject:chemistry</text></tag>
-    <tag><text>class:class_12</text></tag>
-    <tag><text>chapter:coordination_compounds</text></tag>
-    <tag><text>typology:mcq</text></tag>
-    <tag><text>difficulty:easy</text></tag>
-    <tag><text>blooms:understand</text></tag>
-    <tag><text>calculation:light</text></tag>
-    <tag><text>media:text</text></tag>
-    <tag><text>multiconcept:false</text></tag>
-  </tags>
-</question>
+    <name><text>NEET_UG_CHEMISTRY_COORDINATIONCOMPOUNDS_MCQ_Q12 - Species not expected to act as a ligand</text></name>
+    <questiontext format="html"><text><![CDATA[<p>Which of the following species is <strong>not</strong> expected to be a ligand?</p>]]></text></questiontext>
+    <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>A ligand acts as a Lewis base by donating at least one lone pair of electrons to a central metal atom or ion to form a coordinate covalent bond.</p><p><strong>Step 2: Evaluation</strong><br/>\(\mathrm{NO}\), \(\mathrm{NH}_2\mathrm{CH}_2\mathrm{CH}_2\mathrm{NH}_2\), and \(\mathrm{CO}\) all possess lone pairs of electrons on their donor atoms (\(\mathrm{N}\) or \(\mathrm{C}\)) and readily act as ligands. In \(\mathrm{NH}_4^+\), the nitrogen atom has already donated its lone pair to form a coordinate bond with \(\mathrm{H}^+\), leaving no lone pair available for coordination.</p><p><strong>Step 3: Final Conclusion</strong><br/>Hence, \(\mathrm{NH}_4^+\) is not expected to be a ligand.</p>]]></text></generalfeedback>
+    <defaultgrade>4.0000000</defaultgrade>
+    <penalty>0.2500000</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>iii</answernumbering>
+    <answer fraction="0" format="html"><text><![CDATA[<p>\(\mathrm{NO}\)</p>]]></text></answer>
+    <answer fraction="100" format="html"><text><![CDATA[<p>\(\mathrm{NH}_4^+\)</p>]]></text></answer>
+    <answer fraction="0" format="html"><text><![CDATA[<p>\(\mathrm{NH}_2\mathrm{CH}_2\mathrm{CH}_2\mathrm{NH}_2\)</p>]]></text></answer>
+    <answer fraction="0" format="html"><text><![CDATA[<p>\(\mathrm{CO}\)</p>]]></text></answer>
+    <tags>
+      <tag><text>standard:neet_ug</text></tag>
+      <tag><text>lang:en</text></tag>
+      <tag><text>subject:chemistry</text></tag>
+      <tag><text>class:class_12</text></tag>
+      <tag><text>chapter:coordination_compounds</text></tag>
+      <tag><text>typology:mcq</text></tag>
+      <tag><text>difficulty:easy</text></tag>
+      <tag><text>blooms:understand</text></tag>
+      <tag><text>media:text</text></tag>
+      <tag><text>multiconcept:false</text></tag>
+    </tags>
+  </question>
 <question type="multichoice">
-  <name><text>NEET_UG_CHEMISTRY_COORDINATIONCOMPOUNDS_MCQ_Q13 - Solvate isomerism between hydrated chromium chloride complexes</text></name>
-  <questiontext format="html"><text><![CDATA[<p>What kind of isomerism exists between \([\mathrm{Cr}(\mathrm{H}_2\mathrm{O})_6]\mathrm{Cl}_3\) (violet) and \([\mathrm{Cr}(\mathrm{H}_2\mathrm{O})_5\mathrm{Cl}]\mathrm{Cl}_2\cdot \mathrm{H}_2\mathrm{O}\) (greyish-green)?</p>]]></text></questiontext>
-  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle of Solvate Isomerism</strong><br/>Solvate isomerism (known specifically as hydrate isomerism when water is the solvent) occurs when coordination compounds differ in whether solvent molecules are directly bound as ligands to the central metal atom inside the coordination sphere or present as free solvent molecules held in the crystal lattice outside the coordination sphere.</p>
-<p><strong>Step 2: Comparison of the Given Complexes</strong><br/>In \([\mathrm{Cr}(\mathrm{H}_2\mathrm{O})_6]\mathrm{Cl}_3\), all six water molecules are directly coordinated to the chromium ion as ligands inside the coordination sphere.<br/>
-In \([\mathrm{Cr}(\mathrm{H}_2\mathrm{O})_5\mathrm{Cl}]\mathrm{Cl}_2\cdot \mathrm{H}_2\mathrm{O}\), five water molecules and one chloride ion are coordinated inside the coordination sphere, while one water molecule is present as water of crystallization outside the coordination sphere.</p>
-<p><strong>Step 3: Final Conclusion</strong><br/>Because the two compounds differ in the distribution of water molecules inside and outside the coordination sphere, they are solvate isomers.</p>]]></text></generalfeedback>
-  <defaultgrade>4.0000000</defaultgrade>
-  <penalty>0.2500000</penalty>
-  <hidden>0</hidden>
-  <single>true</single>
-  <shuffleanswers>true</shuffleanswers>
-  <answernumbering>iii</answernumbering>
-  <answer fraction="0" format="html"><text><![CDATA[<p>linkage isomerism</p>]]></text></answer>
-  <answer fraction="100" format="html"><text><![CDATA[<p>solvate isomerism</p>]]></text></answer>
-  <answer fraction="0" format="html"><text><![CDATA[<p>ionisation isomerism</p>]]></text></answer>
-  <answer fraction="0" format="html"><text><![CDATA[<p>coordination isomerism</p>]]></text></answer>
-  <tags>
-    <tag><text>standard:neet_ug</text></tag>
-    <tag><text>lang:en</text></tag>
-    <tag><text>subject:chemistry</text></tag>
-    <tag><text>class:class_12</text></tag>
-    <tag><text>chapter:coordination_compounds</text></tag>
-    <tag><text>typology:mcq</text></tag>
-    <tag><text>difficulty:easy</text></tag>
-    <tag><text>blooms:remember</text></tag>
-    <tag><text>calculation:light</text></tag>
-    <tag><text>media:text</text></tag>
-    <tag><text>multiconcept:false</text></tag>
-  </tags>
-</question>
+    <name><text>NEET_UG_CHEMISTRY_COORDINATIONCOMPOUNDS_MCQ_Q13 - Solvate isomerism between chromium(III) aqua complexes</text></name>
+    <questiontext format="html"><text><![CDATA[<p>What kind of isomerism exists between \([\mathrm{Cr}(\mathrm{H}_2\mathrm{O})_6]\mathrm{Cl}_3\) (violet) and \([\mathrm{Cr}(\mathrm{H}_2\mathrm{O})_5\mathrm{Cl}]\mathrm{Cl}_2\cdot \mathrm{H}_2\mathrm{O}\) (greyish-green)?</p>]]></text></questiontext>
+    <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>Solvate isomerism (also known as hydrate isomerism when water is the solvent) occurs when coordination compounds with the same overall composition differ in whether solvent molecules are directly bonded to the metal ion as ligands or merely present as free solvent molecules in the crystal lattice.</p><p><strong>Step 2: Evaluation</strong><br/>In \([\mathrm{Cr}(\mathrm{H}_2\mathrm{O})_6]\mathrm{Cl}_3\), all six water molecules are coordinated to \(\mathrm{Cr}^{3+}\). In \([\mathrm{Cr}(\mathrm{H}_2\mathrm{O})_5\mathrm{Cl}]\mathrm{Cl}_2\cdot \mathrm{H}_2\mathrm{O}\), five water molecules are coordinated to \(\mathrm{Cr}^{3+}\) and one is present as water of crystallisation outside the coordination sphere.</p><p><strong>Step 3: Final Conclusion</strong><br/>Thus, the isomerism between these two complexes is solvate isomerism.</p>]]></text></generalfeedback>
+    <defaultgrade>4.0000000</defaultgrade>
+    <penalty>0.2500000</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>iii</answernumbering>
+    <answer fraction="0" format="html"><text><![CDATA[<p>linkage isomerism</p>]]></text></answer>
+    <answer fraction="100" format="html"><text><![CDATA[<p>solvate isomerism</p>]]></text></answer>
+    <answer fraction="0" format="html"><text><![CDATA[<p>ionisation isomerism</p>]]></text></answer>
+    <answer fraction="0" format="html"><text><![CDATA[<p>coordination isomerism</p>]]></text></answer>
+    <tags>
+      <tag><text>standard:neet_ug</text></tag>
+      <tag><text>lang:en</text></tag>
+      <tag><text>subject:chemistry</text></tag>
+      <tag><text>class:class_12</text></tag>
+      <tag><text>chapter:coordination_compounds</text></tag>
+      <tag><text>typology:mcq</text></tag>
+      <tag><text>difficulty:easy</text></tag>
+      <tag><text>blooms:understand</text></tag>
+      <tag><text>media:text</text></tag>
+      <tag><text>multiconcept:false</text></tag>
+    </tags>
+  </question>
 <question type="multichoice">
-  <name><text>NEET_UG_CHEMISTRY_COORDINATIONCOMPOUNDS_MCQ_Q14 - IUPAC nomenclature of neutral platinum coordination compound</text></name>
-  <questiontext format="html"><text><![CDATA[<p>IUPAC name of \([\mathrm{Pt}(\mathrm{NH}_3)_2\mathrm{Cl}(\mathrm{NO}_2)]\) is :</p>]]></text></questiontext>
-  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Determining the Oxidation State of the Metal</strong><br/>In \([\mathrm{Pt}(\mathrm{NH}_3)_2\mathrm{Cl}(\mathrm{NO}_2)]\), let the oxidation state of platinum be \(x\). The charges of the ligands are: \(\mathrm{NH}_3 = 0\), \(\mathrm{Cl}^- = -1\), and \(\mathrm{NO}_2^- = -1\). For the neutral complex:<br/>
-\[x + 2(0) + (-1) + (-1) = 0 \implies x = +2\]<br/>
-The oxidation state of platinum is (II).</p>
-<p><strong>Step 2: Naming and Alphabetical Order of Ligands</strong><br/>The coordinated ligands are:<br/>
-Two ammine ligands: "diammine"<br/>
-One chlorido ligand: "chlorido"<br/>
-One nitrito ligand coordinated through nitrogen: "nitrito-N"<br/>
-Arranging these ligands in alphabetical order yields: "diamminechloridonitrito-N".</p>
-<p><strong>Step 3: Central Metal Name and Final Assembly</strong><br/>Because the complex is neutral (not anionic), the metal is named as "platinum", followed by its oxidation state in parentheses: (II).<br/>
-Thus, the correct systematic IUPAC name is Diamminechloridonitrito-N-platinum (II).</p>]]></text></generalfeedback>
-  <defaultgrade>4.0000000</defaultgrade>
-  <penalty>0.2500000</penalty>
-  <hidden>0</hidden>
-  <single>true</single>
-  <shuffleanswers>true</shuffleanswers>
-  <answernumbering>iii</answernumbering>
-  <answer fraction="0" format="html"><text><![CDATA[<p>Platinum diaminechloronitrite</p>]]></text></answer>
-  <answer fraction="0" format="html"><text><![CDATA[<p>Chloronitrito-N-ammineplatinum (II)</p>]]></text></answer>
-  <answer fraction="100" format="html"><text><![CDATA[<p>Diamminechloridonitrito-N-platinum (II)</p>]]></text></answer>
-  <answer fraction="0" format="html"><text><![CDATA[<p>Diamminechloronitrito-N-platinate (II)</p>]]></text></answer>
-  <tags>
-    <tag><text>standard:neet_ug</text></tag>
-    <tag><text>lang:en</text></tag>
-    <tag><text>subject:chemistry</text></tag>
-    <tag><text>class:class_12</text></tag>
-    <tag><text>chapter:coordination_compounds</text></tag>
-    <tag><text>typology:mcq</text></tag>
-    <tag><text>difficulty:easy</text></tag>
-    <tag><text>blooms:remember</text></tag>
-    <tag><text>calculation:light</text></tag>
-    <tag><text>media:text</text></tag>
-    <tag><text>multiconcept:false</text></tag>
-  </tags>
-</question>
+    <name><text>NEET_UG_CHEMISTRY_COORDINATIONCOMPOUNDS_MCQ_Q14 - IUPAC name of diamminechloridonitrito-N-platinum(II)</text></name>
+    <questiontext format="html"><text><![CDATA[<p>IUPAC name of \([\mathrm{Pt}(\mathrm{NH}_3)_2\mathrm{Cl}(\mathrm{NO}_2)]\) is :</p>]]></text></questiontext>
+    <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>In IUPAC nomenclature of coordination compounds, ligands are listed in alphabetical order (ignoring multiplicative prefixes like "di-"), anionic ligands end in "-o", ambidentate ligands specify the donor atom (such as nitrito-N for \(\mathrm{NO}_2^-\) bound through nitrogen), and neutral complexes use the standard metal name followed by its oxidation state in Roman numerals.</p><p><strong>Step 2: Evaluation</strong><br/>Let the oxidation state of \(\mathrm{Pt}\) be \(x\). Since \(\mathrm{NH}_3\) is neutral (\(0\)), \(\mathrm{Cl}^-\) is \(-1\), and \(\mathrm{NO}_2^-\) is \(-1\), we get \(x + 2(0) - 1 - 1 = 0 \implies x = +2\). Alphabetically, the ligands are "ammine" (two, so "diammine"), "chlorido", and "nitrito-N".</p><p><strong>Step 3: Final Conclusion</strong><br/>The correct IUPAC name is Diamminechloridonitrito-N-platinum (II).</p>]]></text></generalfeedback>
+    <defaultgrade>4.0000000</defaultgrade>
+    <penalty>0.2500000</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>iii</answernumbering>
+    <answer fraction="0" format="html"><text><![CDATA[<p>Platinum diaminechloronitrite</p>]]></text></answer>
+    <answer fraction="0" format="html"><text><![CDATA[<p>Chloronitrito-N-ammineplatinum (II)</p>]]></text></answer>
+    <answer fraction="100" format="html"><text><![CDATA[<p>Diamminechloridonitrito-N-platinum (II)</p>]]></text></answer>
+    <answer fraction="0" format="html"><text><![CDATA[<p>Diamminechloronitrito-N-platinate (II)</p>]]></text></answer>
+    <tags>
+      <tag><text>standard:neet_ug</text></tag>
+      <tag><text>lang:en</text></tag>
+      <tag><text>subject:chemistry</text></tag>
+      <tag><text>class:class_12</text></tag>
+      <tag><text>chapter:coordination_compounds</text></tag>
+      <tag><text>typology:mcq</text></tag>
+      <tag><text>difficulty:medium</text></tag>
+      <tag><text>blooms:apply</text></tag>
+      <tag><text>media:text</text></tag>
+      <tag><text>multiconcept:false</text></tag>
+    </tags>
+  </question>
 <question type="multichoice">
-  <name><text>NEET_UG_CHEMISTRY_COORDINATIONCOMPOUNDS_MCQ_Q15 - Diamagnetic inner orbital octahedral coordination complex ions</text></name>
-  <questiontext format="html"><text><![CDATA[<p>Atomic number of Mn, Fe and Co are 25, 26 and 27 respectively. Which of the following inner orbital octahedral complex ions are diamagnetic?</p>]]></text></questiontext>
-  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principles</strong><br/>An inner orbital octahedral complex utilizes inner \((n-1)d\) orbitals for hybridization, adopting \(d^2sp^3\) hybridization. A species is diamagnetic if all its electrons are paired (zero unpaired electrons).</p>
-<p><strong>Step 2: Electronic Configuration and Magnetic Evaluation</strong><br/>
-In \([\mathrm{Co}(\mathrm{NH}_3)_6]^{3+}\), cobalt has an oxidation state of \(+3\) (\(3d^6\)). Ammine acts as a strong field ligand in cobalt(III) complexes, causing all six \(3d\) electrons to pair up in the lower \(t_{2\mathrm{g}}\) orbitals (\(t_{2\mathrm{g}}^6 e_\mathrm{g}^0\)). With zero unpaired electrons, it is diamagnetic and undergoes inner orbital \(d^2sp^3\) hybridization.<br/>
-In \([\mathrm{Mn}(\mathrm{CN})_6]^{3-}\), manganese is in the \(+3\) oxidation state (\(3d^4\)). Cyanide is a strong field ligand, giving the low-spin configuration \(t_{2\mathrm{g}}^4 e_\mathrm{g}^0\). It retains two unpaired electrons, making it paramagnetic.<br/>
-In \([\mathrm{Fe}(\mathrm{CN})_6]^{4-}\), iron is in the \(+2\) oxidation state (\(3d^6\)). Cyanide is a strong field ligand, forcing complete pairing of electrons to give \(t_{2\mathrm{g}}^6 e_\mathrm{g}^0\). With zero unpaired electrons, it is diamagnetic and undergoes inner orbital \(d^2sp^3\) hybridization.<br/>
-In \([\mathrm{Fe}(\mathrm{CN})_6]^{3-}\), iron is in the \(+3\) oxidation state (\(3d^5\)). Cyanide causes pairing to yield \(t_{2\mathrm{g}}^5 e_\mathrm{g}^0\), leaving one unpaired electron, so it is paramagnetic.</p>
-<p><strong>Step 3: Final Conclusion</strong><br/>The diamagnetic inner orbital octahedral complexes are \([\mathrm{Co}(\mathrm{NH}_3)_6]^{3+}\) and \([\mathrm{Fe}(\mathrm{CN})_6]^{4-}\).</p>]]></text></generalfeedback>
-  <defaultgrade>4.0000000</defaultgrade>
-  <penalty>0.2500000</penalty>
-  <hidden>0</hidden>
-  <single>false</single>
-  <shuffleanswers>true</shuffleanswers>
-  <answernumbering>iii</answernumbering>
-  <answer fraction="50" format="html"><text><![CDATA[<p>\([\mathrm{Co}(\mathrm{NH}_3)_6]^{3+}\)</p>]]></text></answer>
-  <answer fraction="-50" format="html"><text><![CDATA[<p>\([\mathrm{Mn}(\mathrm{CN})_6]^{3-}\)</p>]]></text></answer>
-  <answer fraction="50" format="html"><text><![CDATA[<p>\([\mathrm{Fe}(\mathrm{CN})_6]^{4-}\)</p>]]></text></answer>
-  <answer fraction="-50" format="html"><text><![CDATA[<p>\([\mathrm{Fe}(\mathrm{CN})_6]^{3-}\)</p>]]></text></answer>
-  <tags>
-    <tag><text>standard:neet_ug</text></tag>
-    <tag><text>lang:en</text></tag>
-    <tag><text>subject:chemistry</text></tag>
-    <tag><text>class:class_12</text></tag>
-    <tag><text>chapter:coordination_compounds</text></tag>
-    <tag><text>typology:mcq</text></tag>
-    <tag><text>difficulty:medium</text></tag>
-    <tag><text>blooms:analyze</text></tag>
-    <tag><text>calculation:light</text></tag>
-    <tag><text>media:text</text></tag>
-    <tag><text>multiconcept:false</text></tag>
-  </tags>
-</question>
+    <name><text>NEET_UG_CHEMISTRY_COORDINATIONCOMPOUNDS_MCQ_Q15 - Diamagnetic inner orbital octahedral complex ions</text></name>
+    <questiontext format="html"><text><![CDATA[<p>Atomic number of Mn, Fe and Co are 25, 26 and 27 respectively. Which of the following inner orbital octahedral complex ions are diamagnetic?</p>]]></text></questiontext>
+    <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>An inner orbital octahedral complex uses \((n-1)d^2nsnp^3\) (\(d^2sp^3\)) hybridisation. A complex is diamagnetic when all electrons in its \(d\)-orbitals are paired (zero unpaired electrons).</p><p><strong>Step 2: Evaluation</strong><br/>1. In \([\mathrm{Co}(\mathrm{NH}_3)_6]^{3+}\), \(\mathrm{Co}^{3+}\) has \(3d^6\) configuration. \(\mathrm{NH}_3\) acts as a strong field ligand, pairing all six electrons into \(t_{2g}^6 e_g^0\), leaving \(0\) unpaired electrons (diamagnetic, \(d^2sp^3\)).<br/>2. In \([\mathrm{Mn}(\mathrm{CN})_6]^{3-}\), \(\mathrm{Mn}^{3+}\) has \(3d^4\) configuration. With strong field \(\mathrm{CN}^-\), the configuration is \(t_{2g}^4 e_g^0\), leaving \(2\) unpaired electrons (paramagnetic).<br/>3. In \([\mathrm{Fe}(\mathrm{CN})_6]^{4-}\), \(\mathrm{Fe}^{2+}\) has \(3d^6\) configuration. With strong field \(\mathrm{CN}^-\), all six electrons pair into \(t_{2g}^6 e_g^0\), leaving \(0\) unpaired electrons (diamagnetic, \(d^2sp^3\)).<br/>4. In \([\mathrm{Fe}(\mathrm{CN})_6]^{3-}\), \(\mathrm{Fe}^{3+}\) has \(3d^5\) configuration. With strong field \(\mathrm{CN}^-\), the configuration is \(t_{2g}^5 e_g^0\), leaving \(1\) unpaired electron (paramagnetic).</p><p><strong>Step 3: Final Conclusion</strong><br/>The inner orbital octahedral complex ions that are diamagnetic are \([\mathrm{Co}(\mathrm{NH}_3)_6]^{3+}\) and \([\mathrm{Fe}(\mathrm{CN})_6]^{4-}\).</p>]]></text></generalfeedback>
+    <defaultgrade>4.0000000</defaultgrade>
+    <penalty>0.2500000</penalty>
+    <hidden>0</hidden>
+    <single>false</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>iii</answernumbering>
+    <answer fraction="50" format="html"><text><![CDATA[<p>\([\mathrm{Co}(\mathrm{NH}_3)_6]^{3+}\)</p>]]></text></answer>
+    <answer fraction="-50" format="html"><text><![CDATA[<p>\([\mathrm{Mn}(\mathrm{CN})_6]^{3-}\)</p>]]></text></answer>
+    <answer fraction="50" format="html"><text><![CDATA[<p>\([\mathrm{Fe}(\mathrm{CN})_6]^{4-}\)</p>]]></text></answer>
+    <answer fraction="-50" format="html"><text><![CDATA[<p>\([\mathrm{Fe}(\mathrm{CN})_6]^{3-}\)</p>]]></text></answer>
+    <tags>
+      <tag><text>standard:neet_ug</text></tag>
+      <tag><text>lang:en</text></tag>
+      <tag><text>subject:chemistry</text></tag>
+      <tag><text>class:class_12</text></tag>
+      <tag><text>chapter:coordination_compounds</text></tag>
+      <tag><text>typology:mcq</text></tag>
+      <tag><text>difficulty:medium</text></tag>
+      <tag><text>blooms:analyze</text></tag>
+      <tag><text>media:text</text></tag>
+      <tag><text>multiconcept:true</text></tag>
+    </tags>
+  </question>
 <question type="multichoice">
-  <name><text>NEET_UG_CHEMISTRY_COORDINATIONCOMPOUNDS_MCQ_Q16 - Outer orbital octahedral complexes with equal unpaired electrons</text></name>
-  <questiontext format="html"><text><![CDATA[<p>Atomic number of Mn, Fe, Co and Ni are 25, 26, 27 and 28 respectively. Which of the following outer orbital octahedral complexes have same number of unpaired electrons?</p>]]></text></questiontext>
-  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Outer Orbital Complexes and Unpaired Electrons</strong><br/>Outer orbital octahedral complexes utilize outer \(4d\) orbitals for bonding, exhibiting \(sp^3d^2\) hybridization with weak-field ligands (high-spin complexes).</p>
-<p><strong>Step 2: Evaluation of Each Complex</strong><br/>
-In \([\mathrm{MnCl}_6]^{3-}\), manganese is in the \(+3\) oxidation state (\(3d^4\)). Chloride is a weak field ligand, so no electron pairing occurs: configuration is \(t_{2\mathrm{g}}^3 e_\mathrm{g}^1\), having 4 unpaired electrons.<br/>
-In \([\mathrm{FeF}_6]^{3-}\), iron is in the \(+3\) oxidation state (\(3d^5\)). Fluoride is a weak field ligand: configuration is \(t_{2\mathrm{g}}^3 e_\mathrm{g}^2\), having 5 unpaired electrons.<br/>
-In \([\mathrm{CoF}_6]^{3-}\), cobalt is in the \(+3\) oxidation state (\(3d^6\)). Fluoride is a weak field ligand: configuration is \(t_{2\mathrm{g}}^4 e_\mathrm{g}^2\), having 4 unpaired electrons.<br/>
-In \([\mathrm{Ni}(\mathrm{NH}_3)_6]^{2+}\), nickel is in the \(+2\) oxidation state (\(3d^8\)): configuration is \(t_{2\mathrm{g}}^6 e_\mathrm{g}^2\), having 2 unpaired electrons.</p>
-<p><strong>Step 3: Final Conclusion</strong><br/>Both \([\mathrm{MnCl}_6]^{3-}\) and \([\mathrm{CoF}_6]^{3-}\) have 4 unpaired electrons each. The complexes with the same number of unpaired electrons are \([\mathrm{MnCl}_6]^{3-}\) and \([\mathrm{CoF}_6]^{3-}\).</p>]]></text></generalfeedback>
-  <defaultgrade>4.0000000</defaultgrade>
-  <penalty>0.2500000</penalty>
-  <hidden>0</hidden>
-  <single>false</single>
-  <shuffleanswers>true</shuffleanswers>
-  <answernumbering>iii</answernumbering>
-  <answer fraction="50" format="html"><text><![CDATA[<p>\([\mathrm{MnCl}_6]^{3-}\)</p>]]></text></answer>
-  <answer fraction="-50" format="html"><text><![CDATA[<p>\([\mathrm{FeF}_6]^{3-}\)</p>]]></text></answer>
-  <answer fraction="50" format="html"><text><![CDATA[<p>\([\mathrm{CoF}_6]^{3-}\)</p>]]></text></answer>
-  <answer fraction="-50" format="html"><text><![CDATA[<p>\([\mathrm{Ni}(\mathrm{NH}_3)_6]^{2+}\)</p>]]></text></answer>
-  <tags>
-    <tag><text>standard:neet_ug</text></tag>
-    <tag><text>lang:en</text></tag>
-    <tag><text>subject:chemistry</text></tag>
-    <tag><text>class:class_12</text></tag>
-    <tag><text>chapter:coordination_compounds</text></tag>
-    <tag><text>typology:mcq</text></tag>
-    <tag><text>difficulty:medium</text></tag>
-    <tag><text>blooms:analyze</text></tag>
-    <tag><text>calculation:light</text></tag>
-    <tag><text>media:text</text></tag>
-    <tag><text>multiconcept:false</text></tag>
-  </tags>
-</question>
+    <name><text>NEET_UG_CHEMISTRY_COORDINATIONCOMPOUNDS_MCQ_Q16 - Outer orbital octahedral complexes with equal unpaired electrons</text></name>
+    <questiontext format="html"><text><![CDATA[<p>Atomic number of Mn, Fe, Co and Ni are 25, 26 27 and 28 respectively. Which of the following outer orbital octahedral complexes have same number of unpaired electrons?</p>]]></text></questiontext>
+    <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>Outer orbital octahedral complexes (\(sp^3d^2\) hybridisation) are formed with weak field ligands (or when inner \(d\)-orbitals are unavailable), resulting in high-spin configurations where electrons occupy \(t_{2g}\) and \(e_g\) orbitals singly before pairing.</p><p><strong>Step 2: Evaluation</strong><br/>1. In \([\mathrm{MnCl}_6]^{3-}\), \(\mathrm{Mn}^{3+}\) (\(3d^4\)) with weak field \(\mathrm{Cl}^-\) has configuration \(t_{2g}^3 e_g^1\), giving \(4\) unpaired electrons.<br/>2. In \([\mathrm{FeF}_6]^{3-}\), \(\mathrm{Fe}^{3+}\) (\(3d^5\)) with weak field \(\mathrm{F}^-\) has configuration \(t_{2g}^3 e_g^2\), giving \(5\) unpaired electrons.<br/>3. In \([\mathrm{CoF}_6]^{3-}\), \(\mathrm{Co}^{3+}\) (\(3d^6\)) with weak field \(\mathrm{F}^-\) has configuration \(t_{2g}^4 e_g^2\), giving \(4\) unpaired electrons.<br/>4. In \([\mathrm{Ni}(\mathrm{NH}_3)_6]^{2+}\), \(\mathrm{Ni}^{2+}\) (\(3d^8\)) has configuration \(t_{2g}^6 e_g^2\), giving \(2\) unpaired electrons.</p><p><strong>Step 3: Final Conclusion</strong><br/>Both \([\mathrm{MnCl}_6]^{3-}\) and \([\mathrm{CoF}_6]^{3-}\) have the same number of unpaired electrons (\(4\)).</p>]]></text></generalfeedback>
+    <defaultgrade>4.0000000</defaultgrade>
+    <penalty>0.2500000</penalty>
+    <hidden>0</hidden>
+    <single>false</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>iii</answernumbering>
+    <answer fraction="50" format="html"><text><![CDATA[<p>\([\mathrm{MnCl}_6]^{3-}\)</p>]]></text></answer>
+    <answer fraction="-50" format="html"><text><![CDATA[<p>\([\mathrm{FeF}_6]^{3-}\)</p>]]></text></answer>
+    <answer fraction="50" format="html"><text><![CDATA[<p>\([\mathrm{CoF}_6]^{3-}\)</p>]]></text></answer>
+    <answer fraction="-50" format="html"><text><![CDATA[<p>\([\mathrm{Ni}(\mathrm{NH}_3)_6]^{2+}\)</p>]]></text></answer>
+    <tags>
+      <tag><text>standard:neet_ug</text></tag>
+      <tag><text>lang:en</text></tag>
+      <tag><text>subject:chemistry</text></tag>
+      <tag><text>class:class_12</text></tag>
+      <tag><text>chapter:coordination_compounds</text></tag>
+      <tag><text>typology:mcq</text></tag>
+      <tag><text>difficulty:medium</text></tag>
+      <tag><text>blooms:analyze</text></tag>
+      <tag><text>media:text</text></tag>
+      <tag><text>multiconcept:true</text></tag>
+    </tags>
+  </question>
 <question type="multichoice">
-  <name><text>NEET_UG_CHEMISTRY_COORDINATIONCOMPOUNDS_MCQ_Q17 - Hybridisation and magnetic property of ferricyanide ion</text></name>
-  <questiontext format="html"><text><![CDATA[<p>Which of the following options are correct for \(\left[\mathrm{Fe}(\mathrm{CN})_{6}\right]^{3-}\) complex?</p>]]></text></questiontext>
-  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Oxidation State and Electronic Configuration</strong><br/>In \(\left[\mathrm{Fe}(\mathrm{CN})_{6}\right]^{3-}\), let the oxidation state of iron be \(x\):<br/>
-\[x + 6(-1) = -3 \implies x = +3\]<br/>
-Iron(III) has atomic number 26 and ground-state valence configuration \(3d^5\).</p>
-<p><strong>Step 2: Valence Bond and Crystal Field Analysis</strong><br/>Cyanide (\(\mathrm{CN}^-\)) is a strong field ligand. It causes pairing of electrons in the \(3d\) subshell, resulting in a low-spin configuration of \(t_{2\mathrm{g}}^5 e_\mathrm{g}^0\). This leaves one unpaired electron in the \(3d\) orbitals, which renders the complex paramagnetic.</p>
-<p><strong>Step 3: Determination of Hybridisation</strong><br/>Pairing of electrons leaves two inner \(3d\) orbitals vacant. These two \(3d\), one \(4s\), and three \(4p\) orbitals hybridise to form six equivalent \(d^2sp^3\) hybridised orbitals that accept electron pairs from the six cyanide ligands.</p>
-<p><strong>Step 4: Final Conclusion</strong><br/>The complex exhibits \(d^2sp^3\) hybridisation and is paramagnetic.</p>]]></text></generalfeedback>
-  <defaultgrade>4.0000000</defaultgrade>
-  <penalty>0.2500000</penalty>
-  <hidden>0</hidden>
-  <single>false</single>
-  <shuffleanswers>true</shuffleanswers>
-  <answernumbering>iii</answernumbering>
-  <answer fraction="50" format="html"><text><![CDATA[<p>\(d^{2}sp^{3}\) hybridisation</p>]]></text></answer>
-  <answer fraction="-50" format="html"><text><![CDATA[<p>\(sp^3 d^2\) hybridisation</p>]]></text></answer>
-  <answer fraction="50" format="html"><text><![CDATA[<p>paramagnetic</p>]]></text></answer>
-  <answer fraction="-50" format="html"><text><![CDATA[<p>diamagnetic</p>]]></text></answer>
-  <tags>
-    <tag><text>standard:neet_ug</text></tag>
-    <tag><text>lang:en</text></tag>
-    <tag><text>subject:chemistry</text></tag>
-    <tag><text>class:class_12</text></tag>
-    <tag><text>chapter:coordination_compounds</text></tag>
-    <tag><text>typology:mcq</text></tag>
-    <tag><text>difficulty:medium</text></tag>
-    <tag><text>blooms:analyze</text></tag>
-    <tag><text>calculation:light</text></tag>
-    <tag><text>media:text</text></tag>
-    <tag><text>multiconcept:false</text></tag>
-  </tags>
-</question>
+    <name><text>NEET_UG_CHEMISTRY_COORDINATIONCOMPOUNDS_MCQ_Q17 - Hybridisation and magnetic behaviour of hexacyanoferrate(III)</text></name>
+    <questiontext format="html"><text><![CDATA[<p>Which of the following options are correct for \(\left[\mathrm{Fe}(\mathrm{CN})_{6}\right]^{3-}\) complex?</p>]]></text></questiontext>
+    <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>In an octahedral complex, strong field ligands cause electron pairing in the \((n-1)d\) orbitals, leading to \(d^2sp^3\) (inner orbital) hybridisation. Magnetic behaviour depends on the presence of unpaired electrons.</p><p><strong>Step 2: Evaluation</strong><br/>In \([\mathrm{Fe}(\mathrm{CN})_6]^{3-}\), iron is in the \(+3\) oxidation state (\(\mathrm{Fe}^{3+}\), \(3d^5\)). Because \(\mathrm{CN}^-\) is a strong field ligand, the five \(3d\) electrons pair up as much as possible, leaving two empty \(3d\) orbitals available for \(d^2sp^3\) hybridisation. The \(t_{2g}^5 e_g^0\) configuration still contains one unpaired electron.</p><p><strong>Step 3: Final Conclusion</strong><br/>Therefore, \([\mathrm{Fe}(\mathrm{CN})_6]^{3-}\) exhibits \(d^2sp^3\) hybridisation and is paramagnetic.</p>]]></text></generalfeedback>
+    <defaultgrade>4.0000000</defaultgrade>
+    <penalty>0.2500000</penalty>
+    <hidden>0</hidden>
+    <single>false</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>iii</answernumbering>
+    <answer fraction="50" format="html"><text><![CDATA[<p>\(d^2sp^3\) hybridisation</p>]]></text></answer>
+    <answer fraction="-50" format="html"><text><![CDATA[<p>\(sp^3 d^2\) hybridisation</p>]]></text></answer>
+    <answer fraction="50" format="html"><text><![CDATA[<p>paramagnetic</p>]]></text></answer>
+    <answer fraction="-50" format="html"><text><![CDATA[<p>diamagnetic</p>]]></text></answer>
+    <tags>
+      <tag><text>standard:neet_ug</text></tag>
+      <tag><text>lang:en</text></tag>
+      <tag><text>subject:chemistry</text></tag>
+      <tag><text>class:class_12</text></tag>
+      <tag><text>chapter:coordination_compounds</text></tag>
+      <tag><text>typology:mcq</text></tag>
+      <tag><text>difficulty:easy</text></tag>
+      <tag><text>blooms:apply</text></tag>
+      <tag><text>media:text</text></tag>
+      <tag><text>multiconcept:true</text></tag>
+    </tags>
+  </question>
 <question type="multichoice">
-  <name><text>NEET_UG_CHEMISTRY_COORDINATIONCOMPOUNDS_MCQ_Q18 - Color change of cobalt chloride with hydrochloric acid</text></name>
-  <questiontext format="html"><text><![CDATA[<p>An aqueous pink solution of cobalt(II) chloride changes to deep blue on addition of excess of \(\mathrm{HCl}\). This is because</p>]]></text></questiontext>
-  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Chemical Transformation</strong><br/>In aqueous solution, cobalt(II) chloride exists as the pink-coloured octahedral complex ion \(\left[\mathrm{Co}\left(\mathrm{H}_{2} \mathrm{O}\right)_{6}\right]^{2+}\). Upon the addition of excess concentrated hydrochloric acid, the high concentration of chloride ions shifts the coordination equilibrium to form the deep blue tetrahedral complex ion \(\left[\mathrm{CoCl}_{4}\right]^{2-}\):<br/>
-\[\left[\mathrm{Co}\left(\mathrm{H}_{2}\mathrm{O}\right)_{6}\right]^{2+} + 4\mathrm{Cl}^- \rightleftharpoons \left[\mathrm{CoCl}_{4}\right]^{2-} + 6\mathrm{H}_{2}\mathrm{O}\]</p>
-<p><strong>Step 2: Crystal Field Splitting in Tetrahedral Field</strong><br/>Tetrahedral complexes experience lower electrostatic ligand field repulsion than octahedral complexes because there are only four ligands and they do not point directly toward the metal d-orbitals. The crystal field splitting in a tetrahedral field is related to that in an octahedral field by \(\Delta_\text{t} = \frac{4}{9} \Delta_\text{o}\), which means tetrahedral complexes have smaller crystal field splitting than octahedral complexes.</p>
-<p><strong>Step 3: Final Conclusion</strong><br/>The transformation of \(\left[\mathrm{Co}\left(\mathrm{H}_{2} \mathrm{O}\right)_{6}\right]^{2+}\) into \(\left[\mathrm{CoCl}_{4}\right]^{2-}\) and the fact that tetrahedral complexes have smaller crystal field splitting than octahedral complexes explain the observed color change.</p>]]></text></generalfeedback>
-  <defaultgrade>4.0000000</defaultgrade>
-  <penalty>0.2500000</penalty>
-  <hidden>0</hidden>
-  <single>false</single>
-  <shuffleanswers>true</shuffleanswers>
-  <answernumbering>iii</answernumbering>
-  <answer fraction="-50" format="html"><text><![CDATA[<p>\(\left[\mathrm{Co}\left(\mathrm{H}_{2} \mathrm{O}\right)_{6}\right]^{2+}\) is transformed into \(\left[\mathrm{CoCl}_{6}\right]^{4-}\)</p>]]></text></answer>
-  <answer fraction="50" format="html"><text><![CDATA[<p>\(\left[\mathrm{Co}\left(\mathrm{H}_{2} \mathrm{O}\right)_{6}\right]^{2+}\) is transformed into \(\left[\mathrm{CoCl}_{4}\right]^{2-}\)</p>]]></text></answer>
-  <answer fraction="50" format="html"><text><![CDATA[<p>tetrahedral complexes have smaller crystal field splitting than octahedral complexes.</p>]]></text></answer>
-  <answer fraction="-50" format="html"><text><![CDATA[<p>tetrahedral complexes have larger crystal field splitting than octahedral complex.</p>]]></text></answer>
-  <tags>
-    <tag><text>standard:neet_ug</text></tag>
-    <tag><text>lang:en</text></tag>
-    <tag><text>subject:chemistry</text></tag>
-    <tag><text>class:class_12</text></tag>
-    <tag><text>chapter:coordination_compounds</text></tag>
-    <tag><text>typology:mcq</text></tag>
-    <tag><text>difficulty:medium</text></tag>
-    <tag><text>blooms:understand</text></tag>
-    <tag><text>calculation:light</text></tag>
-    <tag><text>media:text</text></tag>
-    <tag><text>multiconcept:false</text></tag>
-  </tags>
-</question>
+    <name><text>NEET_UG_CHEMISTRY_COORDINATIONCOMPOUNDS_MCQ_Q18 - Colour change of aqueous cobalt(II) chloride with HCl</text></name>
+    <questiontext format="html"><text><![CDATA[<p>An aqueous pink solution of cobalt(II) chloride changes to deep blue on addition of excess of HCl. This is because</p>]]></text></questiontext>
+    <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>In aqueous solution, \(\mathrm{CoCl}_2\) exists as the pink octahedral hexaaquacobalt(II) ion, \([\mathrm{Co}(\mathrm{H}_2\mathrm{O})_6]^{2+}\). Addition of excess \(\mathrm{Cl}^-\) (from \(\mathrm{HCl}\)) shifts the equilibrium to form the deep blue tetrahedral tetrachloridocobaltate(II) ion, \([\mathrm{CoCl}_4]^{2-}\).</p><p><strong>Step 2: Evaluation</strong><br/>For the tetrahedral geometry, the crystal field splitting energy \(\Delta_t\) is smaller than the octahedral splitting energy \(\Delta_o\) (\(\Delta_t \approx \frac{4}{9}\Delta_o\)). Consequently, \([\mathrm{CoCl}_4]^{2-}\) absorbs lower-energy (longer-wavelength, red/orange) light compared to \([\mathrm{Co}(\mathrm{H}_2\mathrm{O})_6]^{2+}\), appearing deep blue.</p><p><strong>Step 3: Final Conclusion</strong><br/>Thus, the colour change occurs because \([\mathrm{Co}(\mathrm{H}_2\mathrm{O})_6]^{2+}\) is transformed into \([\mathrm{CoCl}_4]^{2-}\), and tetrahedral complexes have smaller crystal field splitting than octahedral complexes.</p>]]></text></generalfeedback>
+    <defaultgrade>4.0000000</defaultgrade>
+    <penalty>0.2500000</penalty>
+    <hidden>0</hidden>
+    <single>false</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>iii</answernumbering>
+    <answer fraction="-50" format="html"><text><![CDATA[<p>\(\left[\mathrm{Co}\left(\mathrm{H}_{2}\mathrm{O}\right)_{6}\right]^{2+}\) is transformed into \(\left[\mathrm{CoCl}_{6}\right]^{4-}\)</p>]]></text></answer>
+    <answer fraction="50" format="html"><text><![CDATA[<p>\(\left[\mathrm{Co}\left(\mathrm{H}_{2}\mathrm{O}\right)_{6}\right]^{2+}\) is transformed into \(\left[\mathrm{CoCl}_{4}\right]^{2-}\)</p>]]></text></answer>
+    <answer fraction="50" format="html"><text><![CDATA[<p>tetrahedral complexes have smaller crystal field splitting than octahedral complexes.</p>]]></text></answer>
+    <answer fraction="-50" format="html"><text><![CDATA[<p>tetrahedral complexes have larger crystal field splitting than octahedral complex.</p>]]></text></answer>
+    <tags>
+      <tag><text>standard:neet_ug</text></tag>
+      <tag><text>lang:en</text></tag>
+      <tag><text>subject:chemistry</text></tag>
+      <tag><text>class:class_12</text></tag>
+      <tag><text>chapter:coordination_compounds</text></tag>
+      <tag><text>typology:mcq</text></tag>
+      <tag><text>difficulty:medium</text></tag>
+      <tag><text>blooms:understand</text></tag>
+      <tag><text>media:text</text></tag>
+      <tag><text>multiconcept:true</text></tag>
+    </tags>
+  </question>
 <question type="multichoice">
-  <name><text>NEET_UG_CHEMISTRY_COORDINATIONCOMPOUNDS_MCQ_Q19 - Identification of homoleptic metal coordination complex species</text></name>
-  <questiontext format="html"><text><![CDATA[<p>Which of the following complexes are homoleptic?</p>]]></text></questiontext>
-  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Definition of Homoleptic Complexes</strong><br/>Complexes in which the central metal ion is coordinated to only one kind of donor group (ligand) are defined as homoleptic complexes. In contrast, complexes bound to more than one kind of ligand are heteroleptic.</p>
-<p><strong>Step 2: Evaluation of Each Complex</strong><br/>In \(\left[\mathrm{Co}\left(\mathrm{NH}_{3}\right)_{6}\right]^{3+}\), only ammine (\(\mathrm{NH}_3\)) ligands are coordinated to cobalt, so it is homoleptic.<br/>
-In \(\left[\mathrm{Co}\left(\mathrm{NH}_{3}\right)_{4} \mathrm{Cl}_{2}\right]^{+}\), both ammine and chlorido ligands are coordinated to cobalt, so it is heteroleptic.<br/>
-In \(\left[\mathrm{Ni}(\mathrm{CN})_{4}\right]^{2-}\), only cyanide (\(\mathrm{CN}^-\)) ligands are coordinated to nickel, so it is homoleptic.<br/>
-In \(\left[\mathrm{Ni}\left(\mathrm{NH}_{3}\right)_{4} \mathrm{Cl}_{2}\right]\), both ammine and chlorido ligands are present, so it is heteroleptic.</p>
-<p><strong>Step 3: Final Conclusion</strong><br/>The homoleptic complexes are \(\left[\mathrm{Co}\left(\mathrm{NH}_{3}\right)_{6}\right]^{3+}\) and \(\left[\mathrm{Ni}(\mathrm{CN})_{4}\right]^{2-}\).</p>]]></text></generalfeedback>
-  <defaultgrade>4.0000000</defaultgrade>
-  <penalty>0.2500000</penalty>
-  <hidden>0</hidden>
-  <single>false</single>
-  <shuffleanswers>true</shuffleanswers>
-  <answernumbering>iii</answernumbering>
-  <answer fraction="50" format="html"><text><![CDATA[<p>\(\left[\mathrm{Co}\left(\mathrm{NH}_{3}\right)_{6}\right]^{3+}\)</p>]]></text></answer>
-  <answer fraction="-50" format="html"><text><![CDATA[<p>\(\left[\mathrm{Co}\left(\mathrm{NH}_{3}\right)_{4} \mathrm{Cl}_{2}\right]^{+}\)</p>]]></text></answer>
-  <answer fraction="50" format="html"><text><![CDATA[<p>\(\left[\mathrm{Ni}(\mathrm{CN})_{4}\right]^{2-}\)</p>]]></text></answer>
-  <answer fraction="-50" format="html"><text><![CDATA[<p>\(\left[\mathrm{Ni}\left(\mathrm{NH}_{3}\right)_{4} \mathrm{Cl}_{2}\right]\)</p>]]></text></answer>
-  <tags>
-    <tag><text>standard:neet_ug</text></tag>
-    <tag><text>lang:en</text></tag>
-    <tag><text>subject:chemistry</text></tag>
-    <tag><text>class:class_12</text></tag>
-    <tag><text>chapter:coordination_compounds</text></tag>
-    <tag><text>typology:mcq</text></tag>
-    <tag><text>difficulty:easy</text></tag>
-    <tag><text>blooms:remember</text></tag>
-    <tag><text>calculation:light</text></tag>
-    <tag><text>media:text</text></tag>
-    <tag><text>multiconcept:false</text></tag>
-  </tags>
-</question>
+    <name><text>NEET_UG_CHEMISTRY_COORDINATIONCOMPOUNDS_MCQ_Q19 - Identifying homoleptic coordination complexes</text></name>
+    <questiontext format="html"><text><![CDATA[<p>Which of the following complexes are homoleptic?</p>]]></text></questiontext>
+    <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>Homoleptic complexes are coordination compounds in which the central metal atom or ion is bound to only one kind of donor group (ligand).</p><p><strong>Step 2: Evaluation</strong><br/>In \(\left[\mathrm{Co}\left(\mathrm{NH}_{3}\right)_{6}\right]^{3+}\), all six ligands are \(\mathrm{NH}_3\). In \(\left[\mathrm{Ni}(\mathrm{CN})_{4}\right]^{2-}\), all four ligands are \(\mathrm{CN}^-\). Conversely, \(\left[\mathrm{Co}\left(\mathrm{NH}_{3}\right)_{4}\mathrm{Cl}_{2}\right]^{+}\) and \(\left[\mathrm{Ni}\left(\mathrm{NH}_{3}\right)_{4}\mathrm{Cl}_{2}\right]\) contain two different types of ligands (\(\mathrm{NH}_3\) and \(\mathrm{Cl}^-\)), making them heteroleptic.</p><p><strong>Step 3: Final Conclusion</strong><br/>The homoleptic complexes are \(\left[\mathrm{Co}\left(\mathrm{NH}_{3}\right)_{6}\right]^{3+}\) and \(\left[\mathrm{Ni}(\mathrm{CN})_{4}\right]^{2-}\).</p>]]></text></generalfeedback>
+    <defaultgrade>4.0000000</defaultgrade>
+    <penalty>0.2500000</penalty>
+    <hidden>0</hidden>
+    <single>false</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>iii</answernumbering>
+    <answer fraction="50" format="html"><text><![CDATA[<p>\(\left[\mathrm{Co}\left(\mathrm{NH}_{3}\right)_{6}\right]^{3+}\)</p>]]></text></answer>
+    <answer fraction="-50" format="html"><text><![CDATA[<p>\(\left[\mathrm{Co}\left(\mathrm{NH}_{3}\right)_{4}\mathrm{Cl}_{2}\right]^{+}\)</p>]]></text></answer>
+    <answer fraction="50" format="html"><text><![CDATA[<p>\(\left[\mathrm{Ni}(\mathrm{CN})_{4}\right]^{2-}\)</p>]]></text></answer>
+    <answer fraction="-50" format="html"><text><![CDATA[<p>\(\left[\mathrm{Ni}\left(\mathrm{NH}_{3}\right)_{4}\mathrm{Cl}_{2}\right]\)</p>]]></text></answer>
+    <tags>
+      <tag><text>standard:neet_ug</text></tag>
+      <tag><text>lang:en</text></tag>
+      <tag><text>subject:chemistry</text></tag>
+      <tag><text>class:class_12</text></tag>
+      <tag><text>chapter:coordination_compounds</text></tag>
+      <tag><text>typology:mcq</text></tag>
+      <tag><text>difficulty:easy</text></tag>
+      <tag><text>blooms:understand</text></tag>
+      <tag><text>media:text</text></tag>
+      <tag><text>multiconcept:false</text></tag>
+    </tags>
+  </question>
 <question type="multichoice">
-  <name><text>NEET_UG_CHEMISTRY_COORDINATIONCOMPOUNDS_MCQ_Q20 - Identification of heteroleptic transition metal coordination complexes</text></name>
-  <questiontext format="html"><text><![CDATA[<p>Which of the following complexes are heteroleptic?</p>]]></text></questiontext>
-  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Definition of Heteroleptic Complexes</strong><br/>Complexes in which a metal ion is bound to more than one kind of donor group or ligand are called heteroleptic complexes.</p>
-<p><strong>Step 2: Analysis of the Coordination Spheres</strong><br/>In \(\left[\mathrm{Cr}\left(\mathrm{NH}_{3}\right)_{6}\right]^{3+}\), only \(\mathrm{NH}_3\) ligands are present; it is homoleptic.<br/>
-In \(\left[\mathrm{Fe}\left(\mathrm{NH}_{3}\right)_{4} \mathrm{Cl}_{2}\right]^{+}\), both \(\mathrm{NH}_3\) and \(\mathrm{Cl}^-\) ligands are present; it is heteroleptic.<br/>
-In \(\left[\mathrm{Mn}(\mathrm{CN})_{6}\right]^{4-}\), only \(\mathrm{CN}^-\) ligands are present; it is homoleptic.<br/>
-In \(\left[\mathrm{Co}\left(\mathrm{NH}_{3}\right)_{4} \mathrm{Cl}_{2}\right]\), both \(\mathrm{NH}_3\) and \(\mathrm{Cl}^-\) ligands are present; it is heteroleptic.</p>
-<p><strong>Step 3: Final Conclusion</strong><br/>The heteroleptic complexes are \(\left[\mathrm{Fe}\left(\mathrm{NH}_{3}\right)_{4} \mathrm{Cl}_{2}\right]^{+}\) and \(\left[\mathrm{Co}\left(\mathrm{NH}_{3}\right)_{4} \mathrm{Cl}_{2}\right]\).</p>]]></text></generalfeedback>
-  <defaultgrade>4.0000000</defaultgrade>
-  <penalty>0.2500000</penalty>
-  <hidden>0</hidden>
-  <single>false</single>
-  <shuffleanswers>true</shuffleanswers>
-  <answernumbering>iii</answernumbering>
-  <answer fraction="-50" format="html"><text><![CDATA[<p>\(\left[\mathrm{Cr}\left(\mathrm{NH}_{3}\right)_{6}\right]^{3+}\)</p>]]></text></answer>
-  <answer fraction="50" format="html"><text><![CDATA[<p>\(\left[\mathrm{Fe}\left(\mathrm{NH}_{3}\right)_{4} \mathrm{Cl}_{2}\right]^{+}\)</p>]]></text></answer>
-  <answer fraction="-50" format="html"><text><![CDATA[<p>\(\left[\mathrm{Mn}(\mathrm{CN})_{6}\right]^{4-}\)</p>]]></text></answer>
-  <answer fraction="50" format="html"><text><![CDATA[<p>\(\left[\mathrm{Co}\left(\mathrm{NH}_{3}\right)_{4} \mathrm{Cl}_{2}\right]\)</p>]]></text></answer>
-  <tags>
-    <tag><text>standard:neet_ug</text></tag>
-    <tag><text>lang:en</text></tag>
-    <tag><text>subject:chemistry</text></tag>
-    <tag><text>class:class_12</text></tag>
-    <tag><text>chapter:coordination_compounds</text></tag>
-    <tag><text>typology:mcq</text></tag>
-    <tag><text>difficulty:easy</text></tag>
-    <tag><text>blooms:remember</text></tag>
-    <tag><text>calculation:light</text></tag>
-    <tag><text>media:text</text></tag>
-    <tag><text>multiconcept:false</text></tag>
-  </tags>
-</question>
+    <name><text>NEET_UG_CHEMISTRY_COORDINATIONCOMPOUNDS_MCQ_Q20 - Identifying heteroleptic coordination complexes</text></name>
+    <questiontext format="html"><text><![CDATA[<p>Which of the following complexes are heteroleptic?</p>]]></text></questiontext>
+    <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>Heteroleptic complexes are coordination compounds in which the central metal atom or ion is bound to more than one kind of donor group (ligand).</p><p><strong>Step 2: Evaluation</strong><br/>\(\left[\mathrm{Cr}\left(\mathrm{NH}_{3}\right)_{6}\right]^{3+}\) and \(\left[\mathrm{Mn}(\mathrm{CN})_{6}\right]^{4-}\) each contain only one type of ligand and are homoleptic. On the other hand, \(\left[\mathrm{Fe}\left(\mathrm{NH}_{3}\right)_{4}\mathrm{Cl}_{2}\right]^{+}\) and \(\left[\mathrm{Co}\left(\mathrm{NH}_{3}\right)_{4}\mathrm{Cl}_{2}\right]\) each contain two different ligands (\(\mathrm{NH}_3\) and \(\mathrm{Cl}^-\)).</p><p><strong>Step 3: Final Conclusion</strong><br/>The heteroleptic complexes are \(\left[\mathrm{Fe}\left(\mathrm{NH}_{3}\right)_{4}\mathrm{Cl}_{2}\right]^{+}\) and \(\left[\mathrm{Co}\left(\mathrm{NH}_{3}\right)_{4}\mathrm{Cl}_{2}\right]\).</p>]]></text></generalfeedback>
+    <defaultgrade>4.0000000</defaultgrade>
+    <penalty>0.2500000</penalty>
+    <hidden>0</hidden>
+    <single>false</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>iii</answernumbering>
+    <answer fraction="-50" format="html"><text><![CDATA[<p>\(\left[\mathrm{Cr}\left(\mathrm{NH}_{3}\right)_{6}\right]^{3+}\)</p>]]></text></answer>
+    <answer fraction="50" format="html"><text><![CDATA[<p>\(\left[\mathrm{Fe}\left(\mathrm{NH}_{3}\right)_{4}\mathrm{Cl}_{2}\right]^{+}\)</p>]]></text></answer>
+    <answer fraction="-50" format="html"><text><![CDATA[<p>\(\left[\mathrm{Mn}(\mathrm{CN})_{6}\right]^{4-}\)</p>]]></text></answer>
+    <answer fraction="50" format="html"><text><![CDATA[<p>\(\left[\mathrm{Co}\left(\mathrm{NH}_{3}\right)_{4}\mathrm{Cl}_{2}\right]\)</p>]]></text></answer>
+    <tags>
+      <tag><text>standard:neet_ug</text></tag>
+      <tag><text>lang:en</text></tag>
+      <tag><text>subject:chemistry</text></tag>
+      <tag><text>class:class_12</text></tag>
+      <tag><text>chapter:coordination_compounds</text></tag>
+      <tag><text>typology:mcq</text></tag>
+      <tag><text>difficulty:easy</text></tag>
+      <tag><text>blooms:understand</text></tag>
+      <tag><text>media:text</text></tag>
+      <tag><text>multiconcept:false</text></tag>
+    </tags>
+  </question>
 <question type="multichoice">
-  <name><text>NEET_UG_CHEMISTRY_COORDINATIONCOMPOUNDS_MCQ_Q21 - Identification of optically active coordination complex ions</text></name>
-  <questiontext format="html"><text><![CDATA[<p>Identify the optically active compounds from the following :</p>]]></text></questiontext>
-  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Criterion for Optical Activity</strong><br/>A coordination complex is optically active if it is chiral, which requires that its structure lacks an improper axis of rotation (specifically, it must have no plane of symmetry and no centre of inversion), making its mirror image non-superimposable on the original structure.</p>
-<p><strong>Step 2: Structural Symmetry Evaluation</strong><br/>
-\(\left[\mathrm{Co}(\mathrm{en})_{3}\right]^{3+}\) is an octahedral complex of type \([\mathrm{M}(\mathrm{AA})_3]\) possessing \(D_3\) point group symmetry. It lacks any plane or centre of symmetry, exists as non-superimposable dextro- and laevo-enantiomers, and is optically active.<br/>
-\(\text{trans-}\left[\mathrm{Co}(\mathrm{en})_{2}\mathrm{Cl}_{2}\right]^{+}\) contains a centre of inversion and planes of symmetry. It is superimposable on its mirror image and therefore optically inactive.<br/>
-\(\text{cis-}\left[\mathrm{Co}(\mathrm{en})_{2}\mathrm{Cl}_{2}\right]^{+}\) possesses \(C_2\) symmetry but lacks a plane of symmetry and a centre of inversion. Its mirror images are non-superimposable, so it is chiral and optically active.<br/>
-\(\left[\mathrm{Cr}\left(\mathrm{NH}_{3}\right)_{5} \mathrm{Cl}\right]^{2+}\) is of type \([\mathrm{MA}_5\mathrm{B}]\), possessing multiple planes of symmetry, and is optically inactive.</p>
-<p><strong>Step 3: Final Conclusion</strong><br/>The optically active species are \(\left[\mathrm{Co}(\mathrm{en})_{3}\right]^{3+}\) and \(\text{cis-}\left[\mathrm{Co}(\mathrm{en})_{2}\mathrm{Cl}_{2}\right]^{+}\).</p>]]></text></generalfeedback>
-  <defaultgrade>4.0000000</defaultgrade>
-  <penalty>0.2500000</penalty>
-  <hidden>0</hidden>
-  <single>false</single>
-  <shuffleanswers>true</shuffleanswers>
-  <answernumbering>iii</answernumbering>
-  <answer fraction="50" format="html"><text><![CDATA[<p>\(\left[\mathrm{Co}(\mathrm{en})_{3}\right]^{3+}\)</p>]]></text></answer>
-  <answer fraction="-50" format="html"><text><![CDATA[<p>\(\text{trans-}\left[\mathrm{Co}(\mathrm{en})_{2}\mathrm{Cl}_{2}\right]^{+}\)</p>]]></text></answer>
-  <answer fraction="50" format="html"><text><![CDATA[<p>\(\text{cis-}\left[\mathrm{Co}(\mathrm{en})_{2}\mathrm{Cl}_{2}\right]^{+}\)</p>]]></text></answer>
-  <answer fraction="-50" format="html"><text><![CDATA[<p>\(\left[\mathrm{Cr}\left(\mathrm{NH}_{3}\right)_{5} \mathrm{Cl}\right]\)</p>]]></text></answer>
-  <tags>
-    <tag><text>standard:neet_ug</text></tag>
-    <tag><text>lang:en</text></tag>
-    <tag><text>subject:chemistry</text></tag>
-    <tag><text>class:class_12</text></tag>
-    <tag><text>chapter:coordination_compounds</text></tag>
-    <tag><text>typology:mcq</text></tag>
-    <tag><text>difficulty:medium</text></tag>
-    <tag><text>blooms:understand</text></tag>
-    <tag><text>calculation:light</text></tag>
-    <tag><text>media:text</text></tag>
-    <tag><text>multiconcept:false</text></tag>
-  </tags>
-</question>
+    <name><text>NEET_UG_CHEMISTRY_COORDINATIONCOMPOUNDS_MCQ_Q21 - Identifying optically active coordination compounds</text></name>
+    <questiontext format="html"><text><![CDATA[<p>Identify the optically active compounds from the following :</p>]]></text></questiontext>
+    <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>A coordination compound is optically active if its mirror image is non-superimposable (chiral), which occurs when the molecule lacks a plane of symmetry and a centre of symmetry.</p><p><strong>Step 2: Evaluation</strong><br/>1. \(\left[\mathrm{Co}(\mathrm{en})_{3}\right]^{3+}\) is a tris(bidentate) octahedral complex with no plane or centre of symmetry, so it exists as non-superimposable \(d\) and \(l\) enantiomers (optically active).<br/>2. <em>trans</em>-\(\left[\mathrm{Co}(\mathrm{en})_{2}\mathrm{Cl}_{2}\right]^{+}\) possesses planes of symmetry and a centre of symmetry, making it optically inactive.<br/>3. <em>cis</em>-\(\left[\mathrm{Co}(\mathrm{en})_{2}\mathrm{Cl}_{2}\right]^{+}\) lacks a plane or centre of symmetry, so it is chiral and optically active.<br/>4. \(\left[\mathrm{Cr}\left(\mathrm{NH}_{3}\right)_{5}\mathrm{Cl}\right]\) has multiple planes of symmetry, making it optically inactive.</p><p><strong>Step 3: Final Conclusion</strong><br/>The optically active compounds are \(\left[\mathrm{Co}(\mathrm{en})_{3}\right]^{3+}\) and <em>cis</em>-\(\left[\mathrm{Co}(\mathrm{en})_{2}\mathrm{Cl}_{2}\right]^{+}\).</p>]]></text></generalfeedback>
+    <defaultgrade>4.0000000</defaultgrade>
+    <penalty>0.2500000</penalty>
+    <hidden>0</hidden>
+    <single>false</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>iii</answernumbering>
+    <answer fraction="50" format="html"><text><![CDATA[<p>\(\left[\mathrm{Co}(\mathrm{en})_{3}\right]^{3+}\)</p>]]></text></answer>
+    <answer fraction="-50" format="html"><text><![CDATA[<p>trans-\(\left[\mathrm{Co}(\mathrm{en})_{2}\mathrm{Cl}_{2}\right]^{+}\)</p>]]></text></answer>
+    <answer fraction="50" format="html"><text><![CDATA[<p>cis-\(\left[\mathrm{Co}(\mathrm{en})_{2}\mathrm{Cl}_{2}\right]^{+}\)</p>]]></text></answer>
+    <answer fraction="-50" format="html"><text><![CDATA[<p>\(\left[\mathrm{Cr}\left(\mathrm{NH}_{3}\right)_{5}\mathrm{Cl}\right]\)</p>]]></text></answer>
+    <tags>
+      <tag><text>standard:neet_ug</text></tag>
+      <tag><text>lang:en</text></tag>
+      <tag><text>subject:chemistry</text></tag>
+      <tag><text>class:class_12</text></tag>
+      <tag><text>chapter:coordination_compounds</text></tag>
+      <tag><text>typology:mcq</text></tag>
+      <tag><text>difficulty:medium</text></tag>
+      <tag><text>blooms:analyze</text></tag>
+      <tag><text>media:text</text></tag>
+      <tag><text>multiconcept:false</text></tag>
+    </tags>
+  </question>
 <question type="multichoice">
-  <name><text>NEET_UG_CHEMISTRY_COORDINATIONCOMPOUNDS_MCQ_Q22 - Ligand characteristics of ethane one two diamine</text></name>
-  <questiontext format="html"><text><![CDATA[<p>Identify the correct statements for the behaviour of ethane-1, 2-diamine as a ligand.</p>]]></text></questiontext>
-  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Chemical Structure of the Ligand</strong><br/>Ethane-1,2-diamine has the formula \(\mathrm{H_2N-CH_2-CH_2-NH_2}\). It carries no electrical charge, so it is a neutral molecule.</p>
-<p><strong>Step 2: Denticity and Chelation Evaluation</strong><br/>The molecule possesses two amino groups, each containing a nitrogen atom with a lone pair of electrons capable of coordinating to a central metal ion. Because it binds via two donor atoms simultaneously, it is a didentate (bidentate) ligand.<br/>
-When both nitrogen donor atoms bind to the same central metal ion, they form a stable five-membered chelate ring. Therefore, it is a chelating ligand and is not a unidentate ligand.</p>
-<p><strong>Step 3: Final Conclusion</strong><br/>Ethane-1,2-diamine is a neutral ligand, a didentate ligand, and a chelating ligand.</p>]]></text></generalfeedback>
-  <defaultgrade>4.0000000</defaultgrade>
-  <penalty>0.2500000</penalty>
-  <hidden>0</hidden>
-  <single>false</single>
-  <shuffleanswers>true</shuffleanswers>
-  <answernumbering>iii</answernumbering>
-  <answer fraction="33.33333" format="html"><text><![CDATA[<p>It is a neutral ligand.</p>]]></text></answer>
-  <answer fraction="33.33333" format="html"><text><![CDATA[<p>It is a didentate ligand.</p>]]></text></answer>
-  <answer fraction="33.33333" format="html"><text><![CDATA[<p>It is a chelating ligand.</p>]]></text></answer>
-  <answer fraction="-50" format="html"><text><![CDATA[<p>It is a unidentate ligand.</p>]]></text></answer>
-  <tags>
-    <tag><text>standard:neet_ug</text></tag>
-    <tag><text>lang:en</text></tag>
-    <tag><text>subject:chemistry</text></tag>
-    <tag><text>class:class_12</text></tag>
-    <tag><text>chapter:coordination_compounds</text></tag>
-    <tag><text>typology:mcq</text></tag>
-    <tag><text>difficulty:easy</text></tag>
-    <tag><text>blooms:remember</text></tag>
-    <tag><text>calculation:light</text></tag>
-    <tag><text>media:text</text></tag>
-    <tag><text>multiconcept:false</text></tag>
-  </tags>
-</question>
+    <name><text>NEET_UG_CHEMISTRY_COORDINATIONCOMPOUNDS_MCQ_Q22 - Behaviour of ethane-1,2-diamine as a ligand</text></name>
+    <questiontext format="html"><text><![CDATA[<p>Identify the correct statements for the behaviour of ethane-1, 2-diamine as a ligand.</p>]]></text></questiontext>
+    <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>Ethane-1,2-diamine (\(\mathrm{H}_2\mathrm{N}\text{--}\mathrm{CH}_2\text{--}\mathrm{CH}_2\text{--}\mathrm{NH}_2\), abbreviated as \(\mathrm{en}\)) is an organic molecule containing two amine (\(-\mathrm{NH}_2\)) groups, each with a lone pair of electrons on the nitrogen atom.</p><p><strong>Step 2: Evaluation</strong><br/>Because it carries no net electrical charge, it is a neutral ligand. Because it coordinates to a central metal ion simultaneously through both nitrogen donor atoms, it is a didentate (bidentate) ligand rather than a unidentate ligand. By binding through two donor atoms to the same metal ion, it forms a five-membered ring, making it a chelating ligand.</p><p><strong>Step 3: Final Conclusion</strong><br/>The correct statements are that it is a neutral ligand, it is a didentate ligand, and it is a chelating ligand.</p>]]></text></generalfeedback>
+    <defaultgrade>4.0000000</defaultgrade>
+    <penalty>0.2500000</penalty>
+    <hidden>0</hidden>
+    <single>false</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>iii</answernumbering>
+    <answer fraction="33.33333" format="html"><text><![CDATA[<p>It is a neutral ligand.</p>]]></text></answer>
+    <answer fraction="33.33333" format="html"><text><![CDATA[<p>It is a didentate ligand.</p>]]></text></answer>
+    <answer fraction="33.33333" format="html"><text><![CDATA[<p>It is a chelating ligand.</p>]]></text></answer>
+    <answer fraction="-100" format="html"><text><![CDATA[<p>It is a unidentate ligand.</p>]]></text></answer>
+    <tags>
+      <tag><text>standard:neet_ug</text></tag>
+      <tag><text>lang:en</text></tag>
+      <tag><text>subject:chemistry</text></tag>
+      <tag><text>class:class_12</text></tag>
+      <tag><text>chapter:coordination_compounds</text></tag>
+      <tag><text>typology:mcq</text></tag>
+      <tag><text>difficulty:easy</text></tag>
+      <tag><text>blooms:understand</text></tag>
+      <tag><text>media:text</text></tag>
+      <tag><text>multiconcept:false</text></tag>
+    </tags>
+  </question>
 <question type="multichoice">
-  <name><text>NEET_UG_CHEMISTRY_COORDINATIONCOMPOUNDS_MCQ_Q23 - Complexes showing linkage isomerism with ambidentate ligands</text></name>
-  <questiontext format="html"><text><![CDATA[<p>Which of the following complexes show linkage isomerism?</p>]]></text></questiontext>
-  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Criterion for Linkage Isomerism</strong><br/>Linkage isomerism occurs only when an ambidentate ligand is coordinated to the central metal ion. An ambidentate ligand has two or more different donor atoms capable of forming a coordinate bond to a metal center.</p>
-<p><strong>Step 2: Analysis of Ligands in the Complexes</strong><br/>In \(\left[\mathrm{Co}(\mathrm{NH}_3)_5\left(\mathrm{NO}_2\right)\right]^{2+}\), the nitrite ion (\(\mathrm{NO}_2^-\)) is an ambidentate ligand that can coordinate through nitrogen (\(-\mathrm{NO}_2\), nitro) or through oxygen (\(-\mathrm{ONO}\), nitrito-O). Therefore, it exhibits linkage isomerism.<br/>
-In \(\left[\mathrm{Co}\left(\mathrm{H}_{2} \mathrm{O}\right)_{5} \mathrm{CO}\right]^{3+}\), water and carbon monoxide are not ambidentate ligands.<br/>
-In \(\left[\mathrm{Cr}(\mathrm{NH}_3)_5\mathrm{SCN}\right]^{2+}\), the thiocyanate ion (\(\mathrm{SCN}^-\)) is an ambidentate ligand that can coordinate through sulphur (\(-\mathrm{SCN}\), thiocyanato) or through nitrogen (\(-\mathrm{NCS}\), isothiocyanato). Therefore, it exhibits linkage isomerism.<br/>
-In \(\left[\mathrm{Fe}(\mathrm{en})_{2}\mathrm{Cl}_{2}\right]^{+}\), neither ethane-1,2-diamine nor chloride is an ambidentate ligand.</p>
-<p><strong>Step 3: Final Conclusion</strong><br/>The complexes showing linkage isomerism are \(\left[\mathrm{Co}(\mathrm{NH}_3)_5\left(\mathrm{NO}_2\right)\right]^{2+}\) and \(\left[\mathrm{Cr}(\mathrm{NH}_3)_5\mathrm{SCN}\right]^{2+}\).</p>]]></text></generalfeedback>
-  <defaultgrade>4.0000000</defaultgrade>
-  <penalty>0.2500000</penalty>
-  <hidden>0</hidden>
-  <single>false</single>
-  <shuffleanswers>true</shuffleanswers>
-  <answernumbering>iii</answernumbering>
-  <answer fraction="50" format="html"><text><![CDATA[<p>\(\left[\mathrm{Co}(\mathrm{NH}_3)_5\left(\mathrm{NO}_2\right)\right]^{2+}\)</p>]]></text></answer>
-  <answer fraction="-50" format="html"><text><![CDATA[<p>\(\left[\mathrm{Co}\left(\mathrm{H}_{2} \mathrm{O}\right)_{5} \mathrm{CO}\right]^{3+}\)</p>]]></text></answer>
-  <answer fraction="50" format="html"><text><![CDATA[<p>\(\left[\mathrm{Cr}(\mathrm{NH}_3)_5\mathrm{SCN}\right]^{2 + }\)</p>]]></text></answer>
-  <answer fraction="-50" format="html"><text><![CDATA[<p>\(\left[\mathrm{Fe}(\mathrm{en})_{2}\mathrm{Cl}_{2}\right]^{+}\)</p>]]></text></answer>
-  <tags>
-    <tag><text>standard:neet_ug</text></tag>
-    <tag><text>lang:en</text></tag>
-    <tag><text>subject:chemistry</text></tag>
-    <tag><text>class:class_12</text></tag>
-    <tag><text>chapter:coordination_compounds</text></tag>
-    <tag><text>typology:mcq</text></tag>
-    <tag><text>difficulty:easy</text></tag>
-    <tag><text>blooms:remember</text></tag>
-    <tag><text>calculation:light</text></tag>
-    <tag><text>media:text</text></tag>
-    <tag><text>multiconcept:false</text></tag>
-  </tags>
-</question>
+    <name><text>NEET_UG_CHEMISTRY_COORDINATIONCOMPOUNDS_MCQ_Q23 - Complexes exhibiting linkage isomerism via ambidentate ligands</text></name>
+    <questiontext format="html"><text><![CDATA[<p>Which of the following complexes show linkage isomerism?</p>]]></text></questiontext>
+    <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>Linkage isomerism occurs in coordination compounds containing ambidentate ligands—ligands capable of coordinating to the central metal atom through either of two different donor atoms.</p><p><strong>Step 2: Evaluation</strong><br/>In \(\left[\mathrm{Co}(\mathrm{NH}_3)_5(\mathrm{NO}_2)\right]^{2+}\), the nitrite ion (\(\mathrm{NO}_2^-\)) is an ambidentate ligand that can bind via nitrogen (\(-\mathrm{NO}_2\)) or oxygen (\(-\mathrm{ONO}\)). In \(\left[\mathrm{Cr}(\mathrm{NH}_3)_5\mathrm{SCN}\right]^{2+}\), the thiocyanate ion (\(\mathrm{SCN}^-\)) is an ambidentate ligand that can bind via sulfur (\(-\mathrm{SCN}\)) or nitrogen (\(-\mathrm{NCS}\)). In contrast, \(\mathrm{H}_2\mathrm{O}\), \(\mathrm{CO}\), \(\mathrm{en}\), and \(\mathrm{Cl}^-\) in the remaining complexes do not act as ambidentate ligands here.</p><p><strong>Step 3: Final Conclusion</strong><br/>The complexes that show linkage isomerism are \(\left[\mathrm{Co}(\mathrm{NH}_3)_5(\mathrm{NO}_2)\right]^{2+}\) and \(\left[\mathrm{Cr}(\mathrm{NH}_3)_5\mathrm{SCN}\right]^{2+}\).</p>]]></text></generalfeedback>
+    <defaultgrade>4.0000000</defaultgrade>
+    <penalty>0.2500000</penalty>
+    <hidden>0</hidden>
+    <single>false</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>iii</answernumbering>
+    <answer fraction="50" format="html"><text><![CDATA[<p>\(\left[\mathrm{Co}(\mathrm{NH}_3)_5(\mathrm{NO}_2)\right]^{2+}\)</p>]]></text></answer>
+    <answer fraction="-50" format="html"><text><![CDATA[<p>\(\left[\mathrm{Co}\left(\mathrm{H}_2\mathrm{O}\right)_5\mathrm{CO}\right]^{3+}\)</p>]]></text></answer>
+    <answer fraction="50" format="html"><text><![CDATA[<p>\(\left[\mathrm{Cr}(\mathrm{NH}_3)_5\mathrm{SCN}\right]^{2+}\)</p>]]></text></answer>
+    <answer fraction="-50" format="html"><text><![CDATA[<p>\(\left[\mathrm{Fe}(\mathrm{en})_2\mathrm{Cl}_2\right]^{+}\)</p>]]></text></answer>
+    <tags>
+      <tag><text>standard:neet_ug</text></tag>
+      <tag><text>lang:en</text></tag>
+      <tag><text>subject:chemistry</text></tag>
+      <tag><text>class:class_12</text></tag>
+      <tag><text>chapter:coordination_compounds</text></tag>
+      <tag><text>typology:mcq</text></tag>
+      <tag><text>difficulty:easy</text></tag>
+      <tag><text>blooms:apply</text></tag>
+      <tag><text>media:text</text></tag>
+      <tag><text>multiconcept:false</text></tag>
+    </tags>
+  </question>
 <question type="multichoice">
-  <name><text>NEET_UG_CHEMISTRY_COORDINATIONCOMPOUNDS_MCQ_Q36 - Matching complex ions with their characteristic colours</text></name>
-  <questiontext format="html"><text><![CDATA[<p>Match the complex ions given in Column I with the colours given in Column II and assign the correct code :</p>
-<table border="1" cellpadding="5" cellspacing="0">
-<thead>
-<tr>
-<th>Column I (Complex ion)</th>
-<th>Column II (Colour)</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>A. \([\mathrm{Co}(\mathrm{NH}_3)_6]^{3+}\)</td>
-<td>1. Violet</td>
-</tr>
-<tr>
-<td>B. \([\mathrm{Ti}(\mathrm{H}_2\mathrm{O})_6]^{3+}\)</td>
-<td>2. Green</td>
-</tr>
-<tr>
-<td>C. \([\mathrm{Ni}(\mathrm{H}_2\mathrm{O})_6]^{2+}\)</td>
-<td>3. Pale blue</td>
-</tr>
-<tr>
-<td>D. \([\mathrm{Ni}(\mathrm{H}_2\mathrm{O})_4(\mathrm{en})]^{2+}(\mathrm{aq})\)</td>
-<td>4. Yellowish orange</td>
-</tr>
-<tr>
-<td></td>
-<td>5. Blue</td>
-</tr>
-</tbody>
+    <name><text>NEET_UG_CHEMISTRY_COORDINATIONCOMPOUNDS_MCQ_Q36 - Matching complex ions with their colours</text></name>
+    <questiontext format="html"><text><![CDATA[<p>Match the complex ions given in Column I with the colours given in Column II and assign the correct code :</p>
+<table>
+  <thead>
+    <tr><th>Column I (Complex ion)</th><th>Column II (Colour)</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>A. \([\mathrm{Co}(\mathrm{NH}_{3})_{6}]^{3+}\)</td><td>1. Violet</td></tr>
+    <tr><td>B. \([\mathrm{Ti}(\mathrm{H}_{2}\mathrm{O})_{6}]^{3+}\)</td><td>2. Green</td></tr>
+    <tr><td>C. \([\mathrm{Ni}(\mathrm{H}_{2}\mathrm{O})_{6}]^{2+}\)</td><td>3. Pale blue</td></tr>
+    <tr><td>D. \([\mathrm{Ni}(\mathrm{H}_{2}\mathrm{O})_{4}(\mathrm{en})]^{2+}\,(aq)\)</td><td>4. Yellowish orange</td></tr>
+    <tr><td></td><td>5. Blue</td></tr>
+  </tbody>
 </table>]]></text></questiontext>
-  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Origin of Colour in Coordination Complexes</strong><br/>The colour of transition metal coordination complexes arises from d-d transitions. When white light falls on a complex, it absorbs light of a specific wavelength corresponding to the crystal field splitting energy \(\Delta\), and the transmitted light appears as the complementary colour.</p>
-<p><strong>Step 2: Matching Each Complex with Its Observed Colour</strong><br/>
-\([\mathrm{Co}(\mathrm{NH}_3)_6]^{3+}\) absorbs light in the blue region and appears yellowish orange (matching item 4).<br/>
-\([\mathrm{Ti}(\mathrm{H}_2\mathrm{O})_6]^{3+}\) absorbs light in the yellow-green region and appears violet (matching item 1).<br/>
-\([\mathrm{Ni}(\mathrm{H}_2\mathrm{O})_6]^{2+}\) absorbs red light and transmits green light, appearing green (matching item 2).<br/>
-\([\mathrm{Ni}(\mathrm{H}_2\mathrm{O})_4(\mathrm{en})]^{2+}(\mathrm{aq})\) has a stronger ligand field than the hexaaqua complex, absorbing light of higher energy and appearing pale blue (matching item 3).</p>
-<p><strong>Step 3: Final Matching Code</strong><br/>The correct matching is A (4), B (1), C (2), D (3). Note that in certain printed errata of textbook answer keys, B is paired with 3 and D with 1; however, chemically, the hexaaquatitanium(III) ion is violet (item 1) and \([\mathrm{Ni}(\mathrm{H}_2\mathrm{O})_4(\mathrm{en})]^{2+}\) is pale blue (item 3).</p>]]></text></generalfeedback>
-  <defaultgrade>4.0000000</defaultgrade>
-  <penalty>0.2500000</penalty>
-  <hidden>0</hidden>
-  <single>true</single>
-  <shuffleanswers>true</shuffleanswers>
-  <answernumbering>iii</answernumbering>
-  <answer fraction="0" format="html"><text><![CDATA[<p>A (1) B (2) C (4) D (5)</p>]]></text></answer>
-  <answer fraction="0" format="html"><text><![CDATA[<p>A (4) B (3) C (2) D (1)</p>]]></text></answer>
-  <answer fraction="0" format="html"><text><![CDATA[<p>A (3) B (2) C (4) D (1)</p>]]></text></answer>
-  <answer fraction="100" format="html"><text><![CDATA[<p>A (4) B (1) C (2) D (3)</p>]]></text></answer>
-  <tags>
-    <tag><text>standard:neet_ug</text></tag>
-    <tag><text>lang:en</text></tag>
-    <tag><text>subject:chemistry</text></tag>
-    <tag><text>class:class_12</text></tag>
-    <tag><text>chapter:coordination_compounds</text></tag>
-    <tag><text>typology:matching-mcq</text></tag>
-    <tag><text>difficulty:medium</text></tag>
-    <tag><text>blooms:remember</text></tag>
-    <tag><text>calculation:light</text></tag>
-    <tag><text>media:table</text></tag>
-    <tag><text>multiconcept:false</text></tag>
-  </tags>
-</question>
+    <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>The colour of a coordination complex depends on the wavelength of visible light absorbed for \(d\text{--}d\) transitions, which is governed by the crystal field splitting energy \(\Delta_o\). As ligand field strength increases, \(\Delta_o\) increases and the absorbed light shifts to shorter wavelengths, changing the complementary observed colour.</p><p><strong>Step 2: Evaluation</strong><br/>- \([\mathrm{Co}(\mathrm{NH}_{3})_{6}]^{3+}\) absorbs blue light and appears yellowish orange, so A matches 4.<br/>- \([\mathrm{Ti}(\mathrm{H}_{2}\mathrm{O})_{6}]^{3+}\) absorbs blue-green light and appears violet, so B matches 1.<br/>- \([\mathrm{Ni}(\mathrm{H}_{2}\mathrm{O})_{6}]^{2+}\) appears green, so C matches 2.<br/>- Replacing two \(\mathrm{H}_2\mathrm{O}\) ligands with stronger \(\mathrm{en}\) in \([\mathrm{Ni}(\mathrm{H}_{2}\mathrm{O})_{4}(\mathrm{en})]^{2+}\,(aq)\) shifts the colour to pale blue, so D matches 3.</p><p><strong>Step 3: Final Conclusion</strong><br/>The correct matching is A (4), B (1), C (2), D (3).</p>]]></text></generalfeedback>
+    <defaultgrade>4.0000000</defaultgrade>
+    <penalty>0.2500000</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>iii</answernumbering>
+    <answer fraction="0" format="html"><text><![CDATA[<p>A (1), B (2), C (4), D (5)</p>]]></text></answer>
+    <answer fraction="0" format="html"><text><![CDATA[<p>A (4), B (3), C (2), D (1)</p>]]></text></answer>
+    <answer fraction="0" format="html"><text><![CDATA[<p>A (3), B (2), C (4), D (1)</p>]]></text></answer>
+    <answer fraction="100" format="html"><text><![CDATA[<p>A (4), B (1), C (2), D (3)</p>]]></text></answer>
+    <tags>
+      <tag><text>standard:neet_ug</text></tag>
+      <tag><text>lang:en</text></tag>
+      <tag><text>subject:chemistry</text></tag>
+      <tag><text>class:class_12</text></tag>
+      <tag><text>chapter:coordination_compounds</text></tag>
+      <tag><text>typology:mcq</text></tag>
+      <tag><text>difficulty:medium</text></tag>
+      <tag><text>blooms:remember</text></tag>
+      <tag><text>media:text</text></tag>
+      <tag><text>multiconcept:false</text></tag>
+    </tags>
+  </question>
 <question type="multichoice">
-  <name><text>NEET_UG_CHEMISTRY_COORDINATIONCOMPOUNDS_MCQ_Q37 - Matching coordination compounds with central metal atoms</text></name>
-  <questiontext format="html"><text><![CDATA[<p>Match the coordination compounds given in Column I with the central metal atoms given in Column II and assign the correct code :</p>
-<table border="1" cellpadding="5" cellspacing="0">
-<thead>
-<tr>
-<th>Column I (Coordination Compound)</th>
-<th>Column II (Central metal atom)</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>A. Chlorophyll</td>
-<td>1. rhodium</td>
-</tr>
-<tr>
-<td>B. Blood pigment</td>
-<td>2. cobalt</td>
-</tr>
-<tr>
-<td>C. Wilkinson catalyst</td>
-<td>3. calcium</td>
-</tr>
-<tr>
-<td>D. Vitamin \(\mathrm{B_{12}}\)</td>
-<td>4. iron</td>
-</tr>
-<tr>
-<td></td>
-<td>5. magnesium</td>
-</tr>
-</tbody>
+    <name><text>NEET_UG_CHEMISTRY_COORDINATIONCOMPOUNDS_MCQ_Q37 - Matching coordination compounds with central metal atoms</text></name>
+    <questiontext format="html"><text><![CDATA[<p>Match the coordination compounds given in Column I with the central metal atoms given in Column II and assign the correct code :</p>
+<table>
+  <thead>
+    <tr><th>Column I (Coordination Compound)</th><th>Column II (Central metal atom)</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>A. Chlorophyll</td><td>1. rhodium</td></tr>
+    <tr><td>B. Blood pigment</td><td>2. cobalt</td></tr>
+    <tr><td>C. Wilkinson catalyst</td><td>3. calcium</td></tr>
+    <tr><td>D. Vitamin \(\mathrm{B}_{12}\)</td><td>4. iron</td></tr>
+    <tr><td></td><td>5. magnesium</td></tr>
+  </tbody>
 </table>]]></text></questiontext>
-  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Biological and Catalytic Importance of Coordination Compounds</strong><br/>Many biologically vital macromolecules and industrial catalysts are coordination complexes containing specific transition or alkaline earth metal centers.</p>
-<p><strong>Step 2: Identification of Central Metal Atoms</strong><br/>
-Chlorophyll is the photosynthetic green pigment in plants and is a coordination compound of magnesium (matching item 5).<br/>
-The red blood pigment haemoglobin is a coordination compound of iron(II) (matching item 4).<br/>
-Wilkinson catalyst, \([(\mathrm{PPh}_3)_3\mathrm{RhCl}]\), used for homogeneous hydrogenation of alkenes, is a coordination complex of rhodium (matching item 1).<br/>
-Vitamin \(\mathrm{B_{12}}\) (cyanocobalamin), essential for preventing pernicious anaemia, is a coordination compound of cobalt (matching item 2).</p>
-<p><strong>Step 3: Final Conclusion</strong><br/>The correct matching is A (5), B (4), C (1), D (2).</p>]]></text></generalfeedback>
-  <defaultgrade>4.0000000</defaultgrade>
-  <penalty>0.2500000</penalty>
-  <hidden>0</hidden>
-  <single>true</single>
-  <shuffleanswers>true</shuffleanswers>
-  <answernumbering>iii</answernumbering>
-  <answer fraction="100" format="html"><text><![CDATA[<p>A (5) B (4) C (1) D (2)</p>]]></text></answer>
-  <answer fraction="0" format="html"><text><![CDATA[<p>A (3) B (4) C (5) D (1)</p>]]></text></answer>
-  <answer fraction="0" format="html"><text><![CDATA[<p>A (4) B (3) C (2) D (1)</p>]]></text></answer>
-  <answer fraction="0" format="html"><text><![CDATA[<p>A (3) B (4) C (1) D (2)</p>]]></text></answer>
-  <tags>
-    <tag><text>standard:neet_ug</text></tag>
-    <tag><text>lang:en</text></tag>
-    <tag><text>subject:chemistry</text></tag>
-    <tag><text>class:class_12</text></tag>
-    <tag><text>chapter:coordination_compounds</text></tag>
-    <tag><text>typology:matching-mcq</text></tag>
-    <tag><text>difficulty:easy</text></tag>
-    <tag><text>blooms:remember</text></tag>
-    <tag><text>calculation:light</text></tag>
-    <tag><text>media:table</text></tag>
-    <tag><text>multiconcept:false</text></tag>
-  </tags>
-</question>
+    <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>Many biologically important molecules and industrial catalysts are coordination compounds containing specific transition or alkaline earth metal ions at their centres.</p><p><strong>Step 2: Evaluation</strong><br/>- Chlorophyll, the green pigment in plants, is a coordination compound of magnesium (\(\mathrm{Mg}^{2+}\)), so A matches 5.<br/>- Haemoglobin (blood pigment) contains iron (\(\mathrm{Fe}^{2+}\)) in a porphyrin ring, so B matches 4.<br/>- Wilkinson catalyst, \([(\mathrm{Ph}_3\mathrm{P})_3\mathrm{RhCl}]\), is a rhodium complex used for hydrogenation of alkenes, so C matches 1.<br/>- Vitamin \(\mathrm{B}_{12}\) (cyanocobalamin) is a coordination compound of cobalt, so D matches 2.</p><p><strong>Step 3: Final Conclusion</strong><br/>The correct matching is A (5), B (4), C (1), D (2).</p>]]></text></generalfeedback>
+    <defaultgrade>4.0000000</defaultgrade>
+    <penalty>0.2500000</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>iii</answernumbering>
+    <answer fraction="100" format="html"><text><![CDATA[<p>A (5), B (4), C (1), D (2)</p>]]></text></answer>
+    <answer fraction="0" format="html"><text><![CDATA[<p>A (3), B (4), C (5), D (1)</p>]]></text></answer>
+    <answer fraction="0" format="html"><text><![CDATA[<p>A (4), B (3), C (2), D (1)</p>]]></text></answer>
+    <answer fraction="0" format="html"><text><![CDATA[<p>A (3), B (4), C (1), D (2)</p>]]></text></answer>
+    <tags>
+      <tag><text>standard:neet_ug</text></tag>
+      <tag><text>lang:en</text></tag>
+      <tag><text>subject:chemistry</text></tag>
+      <tag><text>class:class_12</text></tag>
+      <tag><text>chapter:coordination_compounds</text></tag>
+      <tag><text>typology:mcq</text></tag>
+      <tag><text>difficulty:easy</text></tag>
+      <tag><text>blooms:remember</text></tag>
+      <tag><text>media:text</text></tag>
+      <tag><text>multiconcept:false</text></tag>
+    </tags>
+  </question>
 <question type="multichoice">
-  <name><text>NEET_UG_CHEMISTRY_COORDINATIONCOMPOUNDS_MCQ_Q38 - Matching complex ions with hybridisation and unpaired electrons</text></name>
-  <questiontext format="html"><text><![CDATA[<p>Match the complex ions given in Column I with the hybridisation and number of unpaired electrons given in Column II and assign the correct code :</p>
-<table border="1" cellpadding="5" cellspacing="0">
-<thead>
-<tr>
-<th>Column I (Complex ion)</th>
-<th>Column II (Hybridisation, number of unpaired electrons)</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>A. \([\mathrm{Cr}(\mathrm{H}_2\mathrm{O})_6]^{3+}\)</td>
-<td>1. \(dsp^2\), 1</td>
-</tr>
-<tr>
-<td>B. \([\mathrm{Co}(\mathrm{CN})_4]^{2-}\)</td>
-<td>2. \(sp^3d^2\), 5</td>
-</tr>
-<tr>
-<td>C. \([\mathrm{Ni}(\mathrm{NH}_3)_6]^{2+}\)</td>
-<td>3. \(d^2sp^3\), 3</td>
-</tr>
-<tr>
-<td>D. \([\mathrm{MnF}_6]^{4-}\)</td>
-<td>4. \(sp^3\), 4</td>
-</tr>
-<tr>
-<td></td>
-<td>5. \(sp^3d^2\), 2</td>
-</tr>
-</tbody>
+    <name><text>NEET_UG_CHEMISTRY_COORDINATIONCOMPOUNDS_MCQ_Q38 - Matching complex ions with hybridisation and unpaired electrons</text></name>
+    <questiontext format="html"><text><![CDATA[<p>Match the complex ions given in Column I with the hybridisation and number of unpaired electrons given in Column II and assign the correct code :</p>
+<table>
+  <thead>
+    <tr><th>Column I (Complex ion)</th><th>Column II (Hybridisation, number of unpaired electrons)</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>A. \([\mathrm{Cr}(\mathrm{H}_{2}\mathrm{O})_{6}]^{3+}\)</td><td>1. \(dsp^2\), 1</td></tr>
+    <tr><td>B. \([\mathrm{Co}(\mathrm{CN})_{4}]^{2-}\)</td><td>2. \(sp^3d^2\), 5</td></tr>
+    <tr><td>C. \([\mathrm{Ni}(\mathrm{NH}_{3})_{6}]^{2+}\)</td><td>3. \(d^2sp^3\), 3</td></tr>
+    <tr><td>D. \([\mathrm{MnF}_{6}]^{4-}\)</td><td>4. \(sp^3\), 4</td></tr>
+    <tr><td></td><td>5. \(sp^3d^2\), 2</td></tr>
+  </tbody>
 </table>]]></text></questiontext>
-  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Electronic Configuration and Hybridisation Principles</strong><br/>Hybridisation and magnetic properties depend on the metal's d-electron count and whether the ligand provides a strong or weak field.</p>
-<p><strong>Step 2: Step-by-Step Analysis of Each Complex</strong><br/>
-In \([\mathrm{Cr}(\mathrm{H}_2\mathrm{O})_6]^{3+}\), chromium is in the \(+3\) oxidation state (\(3d^3\)). The three electrons occupy the \(t_{2\mathrm{g}}\) orbitals singly, leaving two inner \(3d\) orbitals empty for \(d^2sp^3\) hybridisation. It has 3 unpaired electrons (matching item 3).<br/>
-In \([\mathrm{Co}(\mathrm{CN})_4]^{2-}\), cobalt is in the \(+2\) oxidation state (\(3d^7\)). Cyanide is a strong field ligand, causing pairing and promoting one electron, enabling square planar \(dsp^2\) hybridisation with 1 unpaired electron (matching item 1).<br/>
-In \([\mathrm{Ni}(\mathrm{NH}_3)_6]^{2+}\), nickel is in the \(+2\) oxidation state (\(3d^8\)). It forms an outer orbital octahedral complex with \(sp^3d^2\) hybridisation and has 2 unpaired electrons (matching item 5).<br/>
-In \([\mathrm{MnF}_6]^{4-}\), manganese is in the \(+2\) oxidation state (\(3d^5\)). Fluoride is a weak field ligand, so no electron pairing occurs. It adopts \(sp^3d^2\) hybridisation and has 5 unpaired electrons (matching item 2).</p>
-<p><strong>Step 3: Final Conclusion</strong><br/>The correct matching is A (3), B (1), C (5), D (2).</p>]]></text></generalfeedback>
-  <defaultgrade>4.0000000</defaultgrade>
-  <penalty>0.2500000</penalty>
-  <hidden>0</hidden>
-  <single>true</single>
-  <shuffleanswers>true</shuffleanswers>
-  <answernumbering>iii</answernumbering>
-  <answer fraction="100" format="html"><text><![CDATA[<p>A (3) B (1) C (5) D (2)</p>]]></text></answer>
-  <answer fraction="0" format="html"><text><![CDATA[<p>A (4) B (3) C (2) D (1)</p>]]></text></answer>
-  <answer fraction="0" format="html"><text><![CDATA[<p>A (3) B (2) C (4) D (1)</p>]]></text></answer>
-  <answer fraction="0" format="html"><text><![CDATA[<p>A (4) B (1) C (2) D (3)</p>]]></text></answer>
-  <tags>
-    <tag><text>standard:neet_ug</text></tag>
-    <tag><text>lang:en</text></tag>
-    <tag><text>subject:chemistry</text></tag>
-    <tag><text>class:class_12</text></tag>
-    <tag><text>chapter:coordination_compounds</text></tag>
-    <tag><text>typology:matching-mcq</text></tag>
-    <tag><text>difficulty:medium</text></tag>
-    <tag><text>blooms:analyze</text></tag>
-    <tag><text>calculation:light</text></tag>
-    <tag><text>media:table</text></tag>
-    <tag><text>multiconcept:false</text></tag>
-  </tags>
-</question>
+    <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>According to valence bond theory, the hybridisation and number of unpaired electrons in a complex ion depend on the coordination number, the \(d\)-electron count of the metal ion, and whether the ligands are strong field or weak field.</p><p><strong>Step 2: Evaluation</strong><br/>- In \([\mathrm{Cr}(\mathrm{H}_{2}\mathrm{O})_{6}]^{3+}\), \(\mathrm{Cr}^{3+}\) is \(3d^3\). Two \(3d\) orbitals are vacant regardless of ligand strength, giving \(d^2sp^3\) hybridisation and \(3\) unpaired electrons (A matches 3).<br/>- In \([\mathrm{Co}(\mathrm{CN})_{4}]^{2-}\), \(\mathrm{Co}^{2+}\) is \(3d^7\). With strong field \(\mathrm{CN}^-\), it adopts square planar \(dsp^2\) hybridisation with \(1\) unpaired electron (B matches 1).<br/>- In \([\mathrm{Ni}(\mathrm{NH}_{3})_{6}]^{2+}\), \(\mathrm{Ni}^{2+}\) is \(3d^8\). With coordination number \(6\), it uses outer \(4d\) orbitals for \(sp^3d^2\) hybridisation and has \(2\) unpaired electrons (C matches 5).<br/>- In \([\mathrm{MnF}_{6}]^{4-}\), \(\mathrm{Mn}^{2+}\) is \(3d^5\). With weak field \(\mathrm{F}^-\), there is no pairing, giving \(sp^3d^2\) hybridisation and \(5\) unpaired electrons (D matches 2).</p><p><strong>Step 3: Final Conclusion</strong><br/>The correct matching is A (3), B (1), C (5), D (2).</p>]]></text></generalfeedback>
+    <defaultgrade>4.0000000</defaultgrade>
+    <penalty>0.2500000</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>iii</answernumbering>
+    <answer fraction="100" format="html"><text><![CDATA[<p>A (3), B (1), C (5), D (2)</p>]]></text></answer>
+    <answer fraction="0" format="html"><text><![CDATA[<p>A (4), B (3), C (2), D (1)</p>]]></text></answer>
+    <answer fraction="0" format="html"><text><![CDATA[<p>A (3), B (2), C (4), D (1)</p>]]></text></answer>
+    <answer fraction="0" format="html"><text><![CDATA[<p>A (4), B (1), C (2), D (3)</p>]]></text></answer>
+    <tags>
+      <tag><text>standard:neet_ug</text></tag>
+      <tag><text>lang:en</text></tag>
+      <tag><text>subject:chemistry</text></tag>
+      <tag><text>class:class_12</text></tag>
+      <tag><text>chapter:coordination_compounds</text></tag>
+      <tag><text>typology:mcq</text></tag>
+      <tag><text>difficulty:medium</text></tag>
+      <tag><text>blooms:apply</text></tag>
+      <tag><text>media:text</text></tag>
+      <tag><text>multiconcept:true</text></tag>
+    </tags>
+  </question>
 <question type="multichoice">
-  <name><text>NEET_UG_CHEMISTRY_COORDINATIONCOMPOUNDS_MCQ_Q39 - Matching complex species with possible isomerism types</text></name>
-  <questiontext format="html"><text><![CDATA[<p>Match the complex species given in Column I with the possible isomerism given in Column II and assign the correct code :</p>
-<table border="1" cellpadding="5" cellspacing="0">
-<thead>
-<tr>
-<th>Column I (Complex species)</th>
-<th>Column II (Isomerism)</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>A. \(\left[\mathrm{Co}\left(\mathrm{NH}_{3}\right)_{4} \mathrm{Cl}_{2}\right]^{+}\)</td>
-<td>1. optical</td>
-</tr>
-<tr>
-<td>B. \(\text{cis-}\left[\mathrm{Co}(\mathrm{en})_{2} \mathrm{Cl}_{2}\right]^{+}\)</td>
-<td>2. ionisation</td>
-</tr>
-<tr>
-<td>C. \(\left[\mathrm{Co}\left(\mathrm{NH}_{3}\right)_{5}\left(\mathrm{NO}_{2}\right)\right] \mathrm{Cl}_{2}\)</td>
-<td>3. coordination</td>
-</tr>
-<tr>
-<td>D. \(\left[\mathrm{Co}\left(\mathrm{NH}_{3}\right)_{6}\right]\left[\mathrm{Cr}(\mathrm{CN})_{6}\right]\)</td>
-<td>4. geometrical</td>
-</tr>
-<tr>
-<td></td>
-<td>5. linkage</td>
-</tr>
-</tbody>
+    <name><text>NEET_UG_CHEMISTRY_COORDINATIONCOMPOUNDS_MCQ_Q39 - Matching complex species with possible isomerism</text></name>
+    <questiontext format="html"><text><![CDATA[<p>Match the complex species given in Column I with the possible isomerism given in Column II and assign the correct code :</p>
+<table>
+  <thead>
+    <tr><th>Column I (Complex species)</th><th>Column II (Isomerism)</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>A. \(\left[\mathrm{Co}\left(\mathrm{NH}_{3}\right)_{4} \mathrm{Cl}_{2}\right]^{+}\)</td><td>1. optical</td></tr>
+    <tr><td>B. cis-\(\left[\mathrm{Co}(\mathrm{en})_{2} \mathrm{Cl}_{2}\right]^{+}\)</td><td>2. ionisation</td></tr>
+    <tr><td>C. \(\left[\mathrm{Co}\left(\mathrm{NH}_{3}\right)_{5}\left(\mathrm{NO}_{2}\right)\right] \mathrm{Cl}_{2}\)</td><td>3. coordination</td></tr>
+    <tr><td>D. \(\left[\mathrm{Co}\left(\mathrm{NH}_{3}\right)_{6}\right]\left[\mathrm{Cr}(\mathrm{CN})_{6}\right]\)</td><td>4. geometrical</td></tr>
+    <tr><td></td><td>5. linkage</td></tr>
+  </tbody>
 </table>]]></text></questiontext>
-  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Principles of Isomerism in Coordination Chemistry</strong><br/>Different complex species display characteristic types of structural or stereoisomerism depending on their coordination sphere, counter-ions, and symmetry.</p>
-<p><strong>Step 2: Matching Each Complex with Its Possible Isomerism</strong><br/>
-\(\left[\mathrm{Co}\left(\mathrm{NH}_{3}\right)_{4} \mathrm{Cl}_{2}\right]^{+}\) is an octahedral complex of type \([\mathrm{MA}_4\mathrm{B}_2]\), which exhibits cis-trans geometrical isomerism (matching item 4).<br/>
-\(\text{cis-}\left[\mathrm{Co}(\mathrm{en})_{2} \mathrm{Cl}_{2}\right]^{+}\) is a chiral complex that lacks a plane of symmetry and exhibits optical isomerism (matching item 1).<br/>
-\(\left[\mathrm{Co}\left(\mathrm{NH}_{3}\right)_{5}\left(\mathrm{NO}_{2}\right)\right] \mathrm{Cl}_{2}\) can exchange the inner-sphere nitro ligand with an outer-sphere chloride ion to yield \(\left[\mathrm{Co}\left(\mathrm{NH}_{3}\right)_{5}\mathrm{Cl}\right]\mathrm{Cl}(\mathrm{NO}_2)\), showing ionisation isomerism (matching item 2). It also contains the ambidentate ligand \(\mathrm{NO}_2^-\) for linkage isomerism (item 5).<br/>
-\(\left[\mathrm{Co}\left(\mathrm{NH}_{3}\right)_{6}\right]\left[\mathrm{Cr}(\mathrm{CN})_{6}\right]\) consists of cationic and anionic complex entities and shows coordination isomerism through ligand exchange (matching item 3).</p>
-<p><strong>Step 3: Final Conclusion</strong><br/>Assigning ionisation isomerism to C to match the standard official answer key code gives A (4), B (1), C (2), D (3).</p>]]></text></generalfeedback>
-  <defaultgrade>4.0000000</defaultgrade>
-  <penalty>0.2500000</penalty>
-  <hidden>0</hidden>
-  <single>true</single>
-  <shuffleanswers>true</shuffleanswers>
-  <answernumbering>iii</answernumbering>
-  <answer fraction="0" format="html"><text><![CDATA[<p>A (1) B (2) C (4) D (5)</p>]]></text></answer>
-  <answer fraction="0" format="html"><text><![CDATA[<p>A (4) B (3) C (2) D (1)</p>]]></text></answer>
-  <answer fraction="0" format="html"><text><![CDATA[<p>A (4) B (1) C (5) D (3)</p>]]></text></answer>
-  <answer fraction="100" format="html"><text><![CDATA[<p>A (4) B (1) C (2) D (3)</p>]]></text></answer>
-  <tags>
-    <tag><text>standard:neet_ug</text></tag>
-    <tag><text>lang:en</text></tag>
-    <tag><text>subject:chemistry</text></tag>
-    <tag><text>class:class_12</text></tag>
-    <tag><text>chapter:coordination_compounds</text></tag>
-    <tag><text>typology:matching-mcq</text></tag>
-    <tag><text>difficulty:medium</text></tag>
-    <tag><text>blooms:analyze</text></tag>
-    <tag><text>calculation:light</text></tag>
-    <tag><text>media:table</text></tag>
-    <tag><text>multiconcept:false</text></tag>
-  </tags>
-</question>
+    <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>Coordination compounds exhibit structural isomerism (ionisation, coordination, linkage) and stereoisomerism (geometrical, optical) depending on their ligand types, counter-ions, and symmetry.</p><p><strong>Step 2: Evaluation</strong><br/>- \(\left[\mathrm{Co}\left(\mathrm{NH}_{3}\right)_{4}\mathrm{Cl}_{2}\right]^{+}\) is of the \(\mathrm{MA}_4\mathrm{B}_2\) type and shows <em>cis-trans</em> geometrical isomerism (A matches 4).<br/>- <em>cis</em>-\(\left[\mathrm{Co}(\mathrm{en})_{2}\mathrm{Cl}_{2}\right]^{+}\) lacks a plane or centre of symmetry and is chiral, showing optical isomerism (B matches 1).<br/>- \(\left[\mathrm{Co}\left(\mathrm{NH}_{3}\right)_{5}\left(\mathrm{NO}_{2}\right)\right]\mathrm{Cl}_{2}\) can exchange the coordinated \(\mathrm{NO}_2^-\) ion with a counter-ion \(\mathrm{Cl}^-\) to form \(\left[\mathrm{Co}\left(\mathrm{NH}_{3}\right)_{5}\mathrm{Cl}\right]\mathrm{Cl}(\mathrm{NO}_{2})\), showing ionisation isomerism (C matches 2).<br/>- \(\left[\mathrm{Co}\left(\mathrm{NH}_{3}\right)_{6}\right]\left[\mathrm{Cr}(\mathrm{CN})_{6}\right]\) consists of both a complex cation and a complex anion that can interchange ligands to give \(\left[\mathrm{Cr}\left(\mathrm{NH}_{3}\right)_{6}\right]\left[\mathrm{Co}(\mathrm{CN})_{6}\right]\), showing coordination isomerism (D matches 3).</p><p><strong>Step 3: Final Conclusion</strong><br/>The correct matching is A (4), B (1), C (2), D (3).</p>]]></text></generalfeedback>
+    <defaultgrade>4.0000000</defaultgrade>
+    <penalty>0.2500000</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>iii</answernumbering>
+    <answer fraction="0" format="html"><text><![CDATA[<p>A (1), B (2), C (4), D (5)</p>]]></text></answer>
+    <answer fraction="0" format="html"><text><![CDATA[<p>A (4), B (3), C (2), D (1)</p>]]></text></answer>
+    <answer fraction="0" format="html"><text><![CDATA[<p>A (4), B (1), C (5), D (3)</p>]]></text></answer>
+    <answer fraction="100" format="html"><text><![CDATA[<p>A (4), B (1), C (2), D (3)</p>]]></text></answer>
+    <tags>
+      <tag><text>standard:neet_ug</text></tag>
+      <tag><text>lang:en</text></tag>
+      <tag><text>subject:chemistry</text></tag>
+      <tag><text>class:class_12</text></tag>
+      <tag><text>chapter:coordination_compounds</text></tag>
+      <tag><text>typology:mcq</text></tag>
+      <tag><text>difficulty:medium</text></tag>
+      <tag><text>blooms:apply</text></tag>
+      <tag><text>media:text</text></tag>
+      <tag><text>multiconcept:false</text></tag>
+    </tags>
+  </question>
 <question type="multichoice">
-  <name><text>NEET_UG_CHEMISTRY_COORDINATIONCOMPOUNDS_MCQ_Q40 - Matching compounds with oxidation state of cobalt</text></name>
-  <questiontext format="html"><text><![CDATA[<p>Match the compounds given in Column I with the oxidation state of cobalt present in it (given in Column II) and assign the correct code :</p>
-<table border="1" cellpadding="5" cellspacing="0">
-<thead>
-<tr>
-<th>Column I (Compound)</th>
-<th>Column II (Oxidation state of Co)</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>A. \(\left[\mathrm{Co}(\mathrm{NCS})(\mathrm{NH}_3)_5\right]\mathrm{SO}_3\)</td>
-<td>1. +4</td>
-</tr>
-<tr>
-<td>B. \(\left[\mathrm{Co}\left(\mathrm{NH}_{3}\right)_{4} \mathrm{Cl}_{2}\right] \mathrm{SO}_{4}\)</td>
-<td>2. 0</td>
-</tr>
-<tr>
-<td>C. \(\mathrm{Na}_4[\mathrm{Co}(\mathrm{S}_2\mathrm{O}_3)_3]\)</td>
-<td>3. +1</td>
-</tr>
-<tr>
-<td>D. \(\left[\mathrm{Co}_{2}(\mathrm{CO})_{8}\right]\)</td>
-<td>4. +2</td>
-</tr>
-<tr>
-<td></td>
-<td>5. +3</td>
-</tr>
-</tbody>
+    <name><text>NEET_UG_CHEMISTRY_COORDINATIONCOMPOUNDS_MCQ_Q40 - Matching cobalt compounds with oxidation state of cobalt</text></name>
+    <questiontext format="html"><text><![CDATA[<p>Match the compounds given in Column I with the oxidation state of cobalt present in it (given in Column II) and assign the correct code.</p>
+<table>
+  <thead>
+    <tr><th>Column I (Compound)</th><th>Column II (Oxidation state of Co)</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>A. \([\mathrm{Co}(\mathrm{NCS})(\mathrm{NH}_3)_5]^{2+}\)</td><td>1. +4</td></tr>
+    <tr><td>B. \(\left[\mathrm{Co}\left(\mathrm{NH}_{3}\right)_{4} \mathrm{Cl}_{2}\right] \mathrm{SO}_{4}\)</td><td>2. 0</td></tr>
+    <tr><td>C. \(\mathrm{Na}_4[\mathrm{Co}(\mathrm{S}_2\mathrm{O}_3)_3]\)</td><td>3. +1</td></tr>
+    <tr><td>D. \(\left[\mathrm{Co}_{2}(\mathrm{CO})_{8}\right]\)</td><td>4. +2</td></tr>
+    <tr><td></td><td>5. +3</td></tr>
+  </tbody>
 </table>]]></text></questiontext>
-  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Algebraic Determination of Oxidation State</strong><br/>The oxidation state of the central metal is found by setting the sum of the oxidation numbers of all atoms and ligands equal to the net charge of the compound (zero for neutral salts).</p>
-<p><strong>Step 2: Step-by-Step Calculation for Each Compound</strong><br/>
-For \(\left[\mathrm{Co}(\mathrm{NCS})(\mathrm{NH}_3)_5\right]\mathrm{SO}_3\): let the oxidation state of cobalt be \(x\). The charges are \(\mathrm{NCS}^- = -1\), \(\mathrm{NH}_3 = 0\), and \(\mathrm{SO}_3^{2-} = -2\):<br/>
-\[x + (-1) + 5(0) + (-2) = 0 \implies x = +3\quad (\text{matching item } 5)\]<br/>
-For \(\left[\mathrm{Co}\left(\mathrm{NH}_{3}\right)_{4} \mathrm{Cl}_{2}\right] \mathrm{SO}_{4}\): with \(\mathrm{NH}_3 = 0\), \(\mathrm{Cl}^- = -1\), and \(\mathrm{SO}_4^{2-} = -2\):<br/>
-\[x + 4(0) + 2(-1) + (-2) = 0 \implies x = +4\quad (\text{matching item } 1)\]<br/>
-For \(\mathrm{Na}_4[\mathrm{Co}(\mathrm{S}_2\mathrm{O}_3)_3]\): with \(\mathrm{Na}^+ = +1\) and thiosulphate \(\mathrm{S}_2\mathrm{O}_3^{2-} = -2\):<br/>
-\[4(+1) + x + 3(-2) = 0 \implies 4 + x - 6 = 0 \implies x = +2\quad (\text{matching item } 4)\]<br/>
-For \(\left[\mathrm{Co}_{2}(\mathrm{CO})_{8}\right]\): carbonyl (\(\mathrm{CO}\)) is a neutral ligand (charge 0):<br/>
-\[2x + 8(0) = 0 \implies x = 0\quad (\text{matching item } 2)\]</p>
-<p><strong>Step 3: Final Conclusion</strong><br/>The correct matching is A (5), B (1), C (4), D (2).</p>]]></text></generalfeedback>
-  <defaultgrade>4.0000000</defaultgrade>
-  <penalty>0.2500000</penalty>
-  <hidden>0</hidden>
-  <single>true</single>
-  <shuffleanswers>true</shuffleanswers>
-  <answernumbering>iii</answernumbering>
-  <answer fraction="0" format="html"><text><![CDATA[<p>A (1) B (2) C (4) D (5)</p>]]></text></answer>
-  <answer fraction="0" format="html"><text><![CDATA[<p>A (4) B (3) C (2) D (1)</p>]]></text></answer>
-  <answer fraction="100" format="html"><text><![CDATA[<p>A (5) B (1) C (4) D (2)</p>]]></text></answer>
-  <answer fraction="0" format="html"><text><![CDATA[<p>A (4) B (1) C (2) D (3)</p>]]></text></answer>
-  <tags>
-    <tag><text>standard:neet_ug</text></tag>
-    <tag><text>lang:en</text></tag>
-    <tag><text>subject:chemistry</text></tag>
-    <tag><text>class:class_12</text></tag>
-    <tag><text>chapter:coordination_compounds</text></tag>
-    <tag><text>typology:matching-mcq</text></tag>
-    <tag><text>difficulty:medium</text></tag>
-    <tag><text>blooms:apply</text></tag>
-    <tag><text>calculation:light</text></tag>
-    <tag><text>media:table</text></tag>
-    <tag><text>multiconcept:false</text></tag>
-  </tags>
-</question>
+    <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>The oxidation state of the central metal atom is found by setting the sum of its oxidation state and the charges of all ligands equal to the overall charge of the coordination entity.</p><p><strong>Step 2: Evaluation</strong><br/>- For \([\mathrm{Co}(\mathrm{NCS})(\mathrm{NH}_3)_5]^{2+}\): \(x + (-1) + 5(0) = +2 \implies x = +3\) (A matches 5).<br/>- For \(\left[\mathrm{Co}\left(\mathrm{NH}_{3}\right)_{4} \mathrm{Cl}_{2}\right] \mathrm{SO}_{4}\): \(x + 4(0) + 2(-1) + (-2) = 0 \implies x = +4\) (B matches 1).<br/>- For \(\mathrm{Na}_4[\mathrm{Co}(\mathrm{S}_2\mathrm{O}_3)_3]\): \(4(+1) + x + 3(-2) = 0 \implies x = +2\) (C matches 4).<br/>- For \(\left[\mathrm{Co}_{2}(\mathrm{CO})_{8}\right]\): since \(\mathrm{CO}\) is a neutral ligand and the complex is neutral, \(2x + 8(0) = 0 \implies x = 0\) (D matches 2).</p><p><strong>Step 3: Final Conclusion</strong><br/>The correct matching is A (5), B (1), C (4), D (2).</p>]]></text></generalfeedback>
+    <defaultgrade>4.0000000</defaultgrade>
+    <penalty>0.2500000</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>iii</answernumbering>
+    <answer fraction="0" format="html"><text><![CDATA[<p>A (1), B (2), C (4), D (5)</p>]]></text></answer>
+    <answer fraction="0" format="html"><text><![CDATA[<p>A (4), B (3), C (2), D (1)</p>]]></text></answer>
+    <answer fraction="100" format="html"><text><![CDATA[<p>A (5), B (1), C (4), D (2)</p>]]></text></answer>
+    <answer fraction="0" format="html"><text><![CDATA[<p>A (4), B (1), C (2), D (3)</p>]]></text></answer>
+    <tags>
+      <tag><text>standard:neet_ug</text></tag>
+      <tag><text>lang:en</text></tag>
+      <tag><text>subject:chemistry</text></tag>
+      <tag><text>class:class_12</text></tag>
+      <tag><text>chapter:coordination_compounds</text></tag>
+      <tag><text>typology:mcq</text></tag>
+      <tag><text>difficulty:medium</text></tag>
+      <tag><text>blooms:apply</text></tag>
+      <tag><text>calculation:light</text></tag>
+      <tag><text>media:text</text></tag>
+      <tag><text>multiconcept:false</text></tag>
+    </tags>
+  </question>
 <question type="multichoice">
-  <name><text>NEET_UG_CHEMISTRY_COORDINATIONCOMPOUNDS_MCQ_Q41 - Removal of toxic metal ions by chelating ligands</text></name>
-  <questiontext format="html"><text><![CDATA[<p><strong>Assertion (A):</strong> Toxic metal ions are removed by the chelating ligands.</p>
-<p><strong>Reason (R):</strong> Chelate complexes tend to be more stable.</p>]]></text></questiontext>
-  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Evaluation of Assertion</strong><br/>In chelation therapy, polydentate chelating agents such as \(\mathrm{EDTA}^{4-}\) or D-penicillamine are administered to treat heavy metal poisoning (such as lead or mercury toxicity). These ligands bind to toxic metal ions to form stable, soluble ring complexes that can be safely excreted from the body. Thus, the assertion is correct.</p>
-<p><strong>Step 2: Evaluation of Reason</strong><br/>Chelate complexes possess enhanced thermodynamic stability compared to analogous complexes of unidentate ligands due to a favorable increase in entropy upon ligand substitution (the chelate effect). Thus, the reason is correct.</p>
-<p><strong>Step 3: Evaluation of Explanation</strong><br/>The higher thermodynamic stability of metal chelates ensures that the chelating agent binds the toxic metal ions firmly, preventing them from interacting with physiological enzymes or tissues, and facilitating excretion. Therefore, the reason is the correct explanation of the assertion.</p>
-<p><strong>Step 4: Final Conclusion</strong><br/>Both the assertion and reason are correct and the reason is the correct explanation of the assertion.</p>]]></text></generalfeedback>
-  <defaultgrade>4.0000000</defaultgrade>
-  <penalty>0.2500000</penalty>
-  <hidden>0</hidden>
-  <single>true</single>
-  <shuffleanswers>false</shuffleanswers>
-  <answernumbering>iii</answernumbering>
-  <answer fraction="100" format="html"><text><![CDATA[<p>Both (A) and (R) are correct and (R) is the correct explanation of (A).</p>]]></text></answer>
-  <answer fraction="0" format="html"><text><![CDATA[<p>Both (A) and (R) are correct but (R) is NOT the correct explanation of (A).</p>]]></text></answer>
-  <answer fraction="0" format="html"><text><![CDATA[<p>(A) is correct but (R) is incorrect.</p>]]></text></answer>
-  <answer fraction="0" format="html"><text><![CDATA[<p>(A) is incorrect but (R) is correct.</p>]]></text></answer>
-  <tags>
-    <tag><text>standard:neet_ug</text></tag>
-    <tag><text>lang:en</text></tag>
-    <tag><text>subject:chemistry</text></tag>
-    <tag><text>class:class_12</text></tag>
-    <tag><text>chapter:coordination_compounds</text></tag>
-    <tag><text>typology:assertion-reason</text></tag>
-    <tag><text>difficulty:easy</text></tag>
-    <tag><text>blooms:understand</text></tag>
-    <tag><text>calculation:light</text></tag>
-    <tag><text>media:text</text></tag>
-    <tag><text>multiconcept:false</text></tag>
-  </tags>
-</question>
+    <name><text>NEET_UG_CHEMISTRY_COORDINATIONCOMPOUNDS_MCQ_Q41 - Assertion-Reason on removal of toxic metal ions by chelating ligands</text></name>
+    <questiontext format="html"><text><![CDATA[<p><strong>Assertion</strong> : Toxic metal ions are removed by the chelating ligands.<br/><strong>Reason</strong> : Chelate complexes tend to be more stable.</p>]]></text></questiontext>
+    <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Evaluate the Assertion</strong><br/>Chelating ligands such as EDTA are widely used in chelation therapy to bind and remove toxic heavy metal ions (e.g., lead, mercury) from biological systems. Thus, the assertion is true.</p><p><strong>Step 2: Evaluate the Reason</strong><br/>Due to the chelate effect (favourable entropy change upon displacing multiple monodentate ligands), chelate complexes are thermodynamically much more stable than analogous complexes with monodentate ligands. Thus, the reason is true.</p><p><strong>Step 3: Check Explanation and Final Conclusion</strong><br/>Because chelate complexes are exceptionally stable, chelating ligands effectively sequester toxic metal ions and prevent them from interacting with biomolecules, enabling their safe excretion. Therefore, both assertion and reason are true, and the reason is the correct explanation of the assertion.</p>]]></text></generalfeedback>
+    <defaultgrade>4.0000000</defaultgrade>
+    <penalty>0.2500000</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>iii</answernumbering>
+    <answer fraction="100" format="html"><text><![CDATA[<p>Assertion and reason both are true, reason is correct explanation of assertion.</p>]]></text></answer>
+    <answer fraction="0" format="html"><text><![CDATA[<p>Assertion and reason both are true but reason is not the correct explanation of assertion.</p>]]></text></answer>
+    <answer fraction="0" format="html"><text><![CDATA[<p>Assertion is true, reason is false.</p>]]></text></answer>
+    <answer fraction="0" format="html"><text><![CDATA[<p>Assertion is false, reason is true.</p>]]></text></answer>
+    <tags>
+      <tag><text>standard:neet_ug</text></tag>
+      <tag><text>lang:en</text></tag>
+      <tag><text>subject:chemistry</text></tag>
+      <tag><text>class:class_12</text></tag>
+      <tag><text>chapter:coordination_compounds</text></tag>
+      <tag><text>typology:mcq</text></tag>
+      <tag><text>difficulty:easy</text></tag>
+      <tag><text>blooms:understand</text></tag>
+      <tag><text>media:text</text></tag>
+      <tag><text>multiconcept:false</text></tag>
+    </tags>
+  </question>
 <question type="multichoice">
-  <name><text>NEET_UG_CHEMISTRY_COORDINATIONCOMPOUNDS_MCQ_Q42 - Reducing nature of hexaaqua chromium and iron complexes</text></name>
-  <questiontext format="html"><text><![CDATA[<p><strong>Assertion (A):</strong> \([\mathrm{Cr}(\mathrm{H}_2\mathrm{O})_6]\mathrm{Cl}_2\) and \([\mathrm{Fe}(\mathrm{H}_2\mathrm{O})_6]\mathrm{Cl}_2\) are reducing in nature.</p>
-<p><strong>Reason (R):</strong> Unpaired electrons are present in their \(d\)-orbitals.</p>]]></text></questiontext>
-  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Evaluation of Assertion</strong><br/>In both complexes, the metal ions are in the \(+2\) oxidation state: \(\mathrm{Cr^{2+}}\) has a \(d^4\) configuration and \(\mathrm{Fe^{2+}}\) has a \(d^6\) configuration. \(\mathrm{Cr^{2+}}\) readily loses an electron to form \(\mathrm{Cr^{3+}}\) with a highly stable half-filled \(t_{2\mathrm{g}}^3\) subshell. Similarly, \(\mathrm{Fe^{2+}}\) is easily oxidised to \(\mathrm{Fe^{3+}}\) with a stable half-filled \(d^5\) configuration. Because both species undergo oxidation readily, they function as reducing agents. Thus, the assertion is correct.</p>
-<p><strong>Step 2: Evaluation of Reason</strong><br/>Both complexes contain weak field aqua ligands: \(\mathrm{Cr^{2+}}\) has configuration \(t_{2\mathrm{g}}^3 e_\mathrm{g}^1\) (4 unpaired electrons) and \(\mathrm{Fe^{2+}}\) has configuration \(t_{2\mathrm{g}}^4 e_\mathrm{g}^2\) (4 unpaired electrons). Thus, unpaired electrons are present in their d-orbitals, making the reason a factually correct statement.</p>
-<p><strong>Step 3: Evaluation of Explanation</strong><br/>The reducing character is governed by the relative thermodynamic stability of the oxidised states (\(\mathrm{Cr^{3+}}\) with half-filled \(t_{2\mathrm{g}}^3\) and \(\mathrm{Fe^{3+}}\) with half-filled \(d^5\)) compared to the \(+2\) states, rather than merely having unpaired electrons. Many paramagnetic complexes containing unpaired electrons are oxidising agents. Hence, the reason is not the correct explanation of the assertion.</p>
-<p><strong>Step 4: Final Conclusion</strong><br/>Both the assertion and reason are correct but the reason is not the correct explanation of the assertion.</p>]]></text></generalfeedback>
-  <defaultgrade>4.0000000</defaultgrade>
-  <penalty>0.2500000</penalty>
-  <hidden>0</hidden>
-  <single>true</single>
-  <shuffleanswers>false</shuffleanswers>
-  <answernumbering>iii</answernumbering>
-  <answer fraction="0" format="html"><text><![CDATA[<p>Both (A) and (R) are correct and (R) is the correct explanation of (A).</p>]]></text></answer>
-  <answer fraction="100" format="html"><text><![CDATA[<p>Both (A) and (R) are correct but (R) is NOT the correct explanation of (A).</p>]]></text></answer>
-  <answer fraction="0" format="html"><text><![CDATA[<p>(A) is correct but (R) is incorrect.</p>]]></text></answer>
-  <answer fraction="0" format="html"><text><![CDATA[<p>(A) is incorrect but (R) is correct.</p>]]></text></answer>
-  <tags>
-    <tag><text>standard:neet_ug</text></tag>
-    <tag><text>lang:en</text></tag>
-    <tag><text>subject:chemistry</text></tag>
-    <tag><text>class:class_12</text></tag>
-    <tag><text>chapter:coordination_compounds</text></tag>
-    <tag><text>typology:assertion-reason</text></tag>
-    <tag><text>difficulty:medium</text></tag>
-    <tag><text>blooms:analyze</text></tag>
-    <tag><text>calculation:light</text></tag>
-    <tag><text>media:text</text></tag>
-    <tag><text>multiconcept:false</text></tag>
-  </tags>
-</question>
+    <name><text>NEET_UG_CHEMISTRY_COORDINATIONCOMPOUNDS_MCQ_Q42 - Assertion-Reason on reducing nature of Cr(II) and Fe(II) aqua complexes</text></name>
+    <questiontext format="html"><text><![CDATA[<p><strong>Assertion</strong> : \([\mathrm{Cr}(\mathrm{H}_2\mathrm{O})_6]\mathrm{Cl}_2\) and \([\mathrm{Fe}(\mathrm{H}_2\mathrm{O})_6]\mathrm{Cl}_2\) are reducing in nature.<br/><strong>Reason</strong> : Unpaired electrons are present in their \(d\)-orbitals.</p>]]></text></questiontext>
+    <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Evaluate the Assertion</strong><br/>In \([\mathrm{Cr}(\mathrm{H}_2\mathrm{O})_6]\mathrm{Cl}_2\) and \([\mathrm{Fe}(\mathrm{H}_2\mathrm{O})_6]\mathrm{Cl}_2\), the metal ions are \(\mathrm{Cr}^{2+}\) (\(3d^4\)) and \(\mathrm{Fe}^{2+}\) (\(3d^6\)), both of which readily oxidise to their more stable \(+3\) oxidation states (\(\mathrm{Cr}^{3+}\) with a half-filled \(t_{2g}^3\) level and \(\mathrm{Fe}^{3+}\) with a half-filled \(3d^5\) shell). Hence, both complexes are reducing in nature, so the assertion is true.</p><p><strong>Step 2: Evaluate the Reason</strong><br/>Both \(\mathrm{Cr}^{2+}\) and \(\mathrm{Fe}^{2+}\) in these high-spin aqua complexes contain \(4\) unpaired electrons in their \(d\)-orbitals, so the reason is also true.</p><p><strong>Step 3: Check Explanation and Final Conclusion</strong><br/>However, the mere presence of unpaired \(d\)-electrons does not cause reducing behaviour; rather, it is the thermodynamic stability of the \(+3\) state relative to the \(+2\) state (reflected in their standard electrode potentials) that makes them reducing agents. Therefore, both assertion and reason are true, but the reason is not the correct explanation of the assertion.</p>]]></text></generalfeedback>
+    <defaultgrade>4.0000000</defaultgrade>
+    <penalty>0.2500000</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>iii</answernumbering>
+    <answer fraction="0" format="html"><text><![CDATA[<p>Assertion and reason both are true, reason is correct explanation of assertion.</p>]]></text></answer>
+    <answer fraction="100" format="html"><text><![CDATA[<p>Assertion and reason both are true but reason is not the correct explanation of assertion.</p>]]></text></answer>
+    <answer fraction="0" format="html"><text><![CDATA[<p>Assertion is true, reason is false.</p>]]></text></answer>
+    <answer fraction="0" format="html"><text><![CDATA[<p>Assertion is false, reason is true.</p>]]></text></answer>
+    <tags>
+      <tag><text>standard:neet_ug</text></tag>
+      <tag><text>lang:en</text></tag>
+      <tag><text>subject:chemistry</text></tag>
+      <tag><text>class:class_12</text></tag>
+      <tag><text>chapter:coordination_compounds</text></tag>
+      <tag><text>typology:mcq</text></tag>
+      <tag><text>difficulty:medium</text></tag>
+      <tag><text>blooms:analyze</text></tag>
+      <tag><text>media:text</text></tag>
+      <tag><text>multiconcept:true</text></tag>
+    </tags>
+  </question>
 <question type="multichoice">
-  <name><text>NEET_UG_CHEMISTRY_COORDINATIONCOMPOUNDS_MCQ_Q43 - Origin of linkage isomerism with ambidentate ligands</text></name>
-  <questiontext format="html"><text><![CDATA[<p><strong>Assertion (A):</strong> Linkage isomerism arises in coordination compounds containing ambidentate ligand.</p>
-<p><strong>Reason (R):</strong> Ambidentate ligand has two different donor atoms.</p>]]></text></questiontext>
-  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Evaluation of Assertion</strong><br/>Linkage isomerism is a form of structural isomerism that occurs specifically when a coordination compound contains one or more ambidentate ligands. The assertion is correct.</p>
-<p><strong>Step 2: Evaluation of Reason</strong><br/>An ambidentate ligand is defined as a unidentate ligand that possesses two different donor atoms, either of which can donate an electron pair to form a coordinate bond with a central metal atom (for example, \(\mathrm{NO}_2^-\) coordinating through \(\mathrm{N}\) or \(\mathrm{O}\), and \(\mathrm{SCN}^-\) coordinating through \(\mathrm{S}\) or \(\mathrm{N}\)). The reason is correct.</p>
-<p><strong>Step 3: Evaluation of Explanation</strong><br/>Because the ambidentate ligand has two distinct donor atoms, it can attach to the central metal ion in two different orientations, leading directly to the phenomenon of linkage isomerism. Therefore, the reason provides the direct scientific explanation for the assertion.</p>
-<p><strong>Step 4: Final Conclusion</strong><br/>Both the assertion and reason are correct and the reason is the correct explanation of the assertion.</p>]]></text></generalfeedback>
-  <defaultgrade>4.0000000</defaultgrade>
-  <penalty>0.2500000</penalty>
-  <hidden>0</hidden>
-  <single>true</single>
-  <shuffleanswers>false</shuffleanswers>
-  <answernumbering>iii</answernumbering>
-  <answer fraction="100" format="html"><text><![CDATA[<p>Both (A) and (R) are correct and (R) is the correct explanation of (A).</p>]]></text></answer>
-  <answer fraction="0" format="html"><text><![CDATA[<p>Both (A) and (R) are correct but (R) is NOT the correct explanation of (A).</p>]]></text></answer>
-  <answer fraction="0" format="html"><text><![CDATA[<p>(A) is correct but (R) is incorrect.</p>]]></text></answer>
-  <answer fraction="0" format="html"><text><![CDATA[<p>(A) is incorrect but (R) is correct.</p>]]></text></answer>
-  <tags>
-    <tag><text>standard:neet_ug</text></tag>
-    <tag><text>lang:en</text></tag>
-    <tag><text>subject:chemistry</text></tag>
-    <tag><text>class:class_12</text></tag>
-    <tag><text>chapter:coordination_compounds</text></tag>
-    <tag><text>typology:assertion-reason</text></tag>
-    <tag><text>difficulty:easy</text></tag>
-    <tag><text>blooms:remember</text></tag>
-    <tag><text>calculation:light</text></tag>
-    <tag><text>media:text</text></tag>
-    <tag><text>multiconcept:false</text></tag>
-  </tags>
-</question>
+    <name><text>NEET_UG_CHEMISTRY_COORDINATIONCOMPOUNDS_MCQ_Q43 - Assertion-Reason on linkage isomerism and ambidentate ligands</text></name>
+    <questiontext format="html"><text><![CDATA[<p><strong>Assertion</strong> : Linkage isomerism arises in coordination compounds containing ambidentate ligand.<br/><strong>Reason</strong> : Ambidentate ligand has two different donor atoms.</p>]]></text></questiontext>
+    <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Evaluate the Assertion</strong><br/>Linkage isomerism is observed in coordination compounds that contain ambidentate ligands such as \(\mathrm{NO}_2^-\) or \(\mathrm{SCN}^-\). Thus, the assertion is true.</p><p><strong>Step 2: Evaluate the Reason</strong><br/>An ambidentate ligand is a unidentate ligand that possesses two different donor atoms (for example, \(\mathrm{N}\) and \(\mathrm{O}\) in \(\mathrm{NO}_2^-\), or \(\mathrm{S}\) and \(\mathrm{N}\) in \(\mathrm{SCN}^-\)) and can coordinate through either atom. Thus, the reason is true.</p><p><strong>Step 3: Check Explanation and Final Conclusion</strong><br/>Because an ambidentate ligand has two different donor atoms, it can attach to the central metal ion in two distinct ways, directly giving rise to linkage isomers. Therefore, both assertion and reason are true, and the reason is the correct explanation of the assertion.</p>]]></text></generalfeedback>
+    <defaultgrade>4.0000000</defaultgrade>
+    <penalty>0.2500000</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>iii</answernumbering>
+    <answer fraction="100" format="html"><text><![CDATA[<p>Assertion and reason both are true, reason is correct explanation of assertion.</p>]]></text></answer>
+    <answer fraction="0" format="html"><text><![CDATA[<p>Assertion and reason both are true but reason is not the correct explanation of assertion.</p>]]></text></answer>
+    <answer fraction="0" format="html"><text><![CDATA[<p>Assertion is true, reason is false.</p>]]></text></answer>
+    <answer fraction="0" format="html"><text><![CDATA[<p>Assertion is false, reason is true.</p>]]></text></answer>
+    <tags>
+      <tag><text>standard:neet_ug</text></tag>
+      <tag><text>lang:en</text></tag>
+      <tag><text>subject:chemistry</text></tag>
+      <tag><text>class:class_12</text></tag>
+      <tag><text>chapter:coordination_compounds</text></tag>
+      <tag><text>typology:mcq</text></tag>
+      <tag><text>difficulty:easy</text></tag>
+      <tag><text>blooms:understand</text></tag>
+      <tag><text>media:text</text></tag>
+      <tag><text>multiconcept:false</text></tag>
+    </tags>
+  </question>
 <question type="multichoice">
-  <name><text>NEET_UG_CHEMISTRY_COORDINATIONCOMPOUNDS_MCQ_Q44 - Geometrical isomerism in octahedral coordination complexes</text></name>
-  <questiontext format="html"><text><![CDATA[<p><strong>Assertion (A):</strong> Complexes of \(\mathrm{MX}_6\) and \(\mathrm{MX}_5\mathrm{L}\) type (X and L are unidentate) do not show geometrical isomerism.</p>
-<p><strong>Reason (R):</strong> Geometrical isomerism is not shown by complexes of coordination number 6.</p>]]></text></questiontext>
-  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Evaluation of Assertion</strong><br/>In an octahedral complex of type \(\mathrm{MX}_6\), all six positions are equivalent, so only one spatial arrangement is possible. In a complex of type \(\mathrm{MX}_5\mathrm{L}\), the single unique ligand \(\mathrm{L}\) has all five remaining positions cis (four) and trans (one) symmetrically related regardless of which vertex it occupies. Hence, no distinct cis/trans isomers exist for \(\mathrm{MX}_6\) and \(\mathrm{MX}_5\mathrm{L}\), and the assertion is correct.</p>
-<p><strong>Step 2: Evaluation of Reason</strong><br/>Octahedral complexes of coordination number 6 frequently show geometrical isomerism; for example, complexes of type \(\mathrm{MA}_4\mathrm{B}_2\) exhibit cis-trans isomerism and complexes of type \(\mathrm{MA}_3\mathrm{B}_3\) exhibit facial-meridional (fac-mer) isomerism. Therefore, the statement that geometrical isomerism is not shown by complexes of coordination number 6 is completely incorrect.</p>
-<p><strong>Step 3: Final Conclusion</strong><br/>The assertion is correct but the reason is incorrect.</p>]]></text></generalfeedback>
-  <defaultgrade>4.0000000</defaultgrade>
-  <penalty>0.2500000</penalty>
-  <hidden>0</hidden>
-  <single>true</single>
-  <shuffleanswers>false</shuffleanswers>
-  <answernumbering>iii</answernumbering>
-  <answer fraction="0" format="html"><text><![CDATA[<p>Both (A) and (R) are correct and (R) is the correct explanation of (A).</p>]]></text></answer>
-  <answer fraction="0" format="html"><text><![CDATA[<p>Both (A) and (R) are correct but (R) is NOT the correct explanation of (A).</p>]]></text></answer>
-  <answer fraction="100" format="html"><text><![CDATA[<p>(A) is correct but (R) is incorrect.</p>]]></text></answer>
-  <answer fraction="0" format="html"><text><![CDATA[<p>(A) is incorrect but (R) is correct.</p>]]></text></answer>
-  <tags>
-    <tag><text>standard:neet_ug</text></tag>
-    <tag><text>lang:en</text></tag>
-    <tag><text>subject:chemistry</text></tag>
-    <tag><text>class:class_12</text></tag>
-    <tag><text>chapter:coordination_compounds</text></tag>
-    <tag><text>typology:assertion-reason</text></tag>
-    <tag><text>difficulty:easy</text></tag>
-    <tag><text>blooms:understand</text></tag>
-    <tag><text>calculation:light</text></tag>
-    <tag><text>media:text</text></tag>
-    <tag><text>multiconcept:false</text></tag>
-  </tags>
-</question>
+    <name><text>NEET_UG_CHEMISTRY_COORDINATIONCOMPOUNDS_MCQ_Q44 - Assertion-Reason on geometrical isomerism in octahedral complexes</text></name>
+    <questiontext format="html"><text><![CDATA[<p><strong>Assertion</strong> : Complexes of \(\mathrm{MX}_6\) and \(\mathrm{MX}_5\mathrm{L}\) type (X and L are unidentate) do not show geometrical isomerism.<br/><strong>Reason</strong> : Geometrical isomerism is not shown by complexes of coordination number 6.</p>]]></text></questiontext>
+    <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Evaluate the Assertion</strong><br/>In an octahedral complex of type \(\mathrm{MX}_6\), all six coordination positions are identical. In \(\mathrm{MX}_5\mathrm{L}\), placing the single ligand \(\mathrm{L}\) at any of the six positions yields the exact same spatial arrangement. Therefore, neither \(\mathrm{MX}_6\) nor \(\mathrm{MX}_5\mathrm{L}\) shows geometrical isomerism, and the assertion is true.</p><p><strong>Step 2: Evaluate the Reason</strong><br/>Complexes with coordination number \(6\) (octahedral) of types such as \(\mathrm{MA}_4\mathrm{B}_2\) (e.g., \([\mathrm{Co}(\mathrm{NH}_3)_4\mathrm{Cl}_2]^+\)) and \(\mathrm{MA}_3\mathrm{B}_3\) clearly exhibit geometrical isomerism (<em>cis/trans</em> and <em>fac/mer</em>). Thus, the reason is false.</p><p><strong>Step 3: Final Conclusion</strong><br/>Hence, the assertion is true and the reason is false.</p>]]></text></generalfeedback>
+    <defaultgrade>4.0000000</defaultgrade>
+    <penalty>0.2500000</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>iii</answernumbering>
+    <answer fraction="0" format="html"><text><![CDATA[<p>Assertion and reason both are true, reason is correct explanation of assertion.</p>]]></text></answer>
+    <answer fraction="0" format="html"><text><![CDATA[<p>Assertion and reason both are true but reason is not the correct explanation of assertion.</p>]]></text></answer>
+    <answer fraction="100" format="html"><text><![CDATA[<p>Assertion is true, reason is false.</p>]]></text></answer>
+    <answer fraction="0" format="html"><text><![CDATA[<p>Assertion is false, reason is true.</p>]]></text></answer>
+    <tags>
+      <tag><text>standard:neet_ug</text></tag>
+      <tag><text>lang:en</text></tag>
+      <tag><text>subject:chemistry</text></tag>
+      <tag><text>class:class_12</text></tag>
+      <tag><text>chapter:coordination_compounds</text></tag>
+      <tag><text>typology:mcq</text></tag>
+      <tag><text>difficulty:medium</text></tag>
+      <tag><text>blooms:analyze</text></tag>
+      <tag><text>media:text</text></tag>
+      <tag><text>multiconcept:false</text></tag>
+    </tags>
+  </question>
 <question type="multichoice">
-  <name><text>NEET_UG_CHEMISTRY_COORDINATIONCOMPOUNDS_MCQ_Q45 - Unpaired electrons and hybridisation of ferricyanide ion</text></name>
-  <questiontext format="html"><text><![CDATA[<p><strong>Assertion (A):</strong> \([\mathrm{Fe}(\mathrm{CN})_6]^{3-}\) ion shows magnetic moment corresponding to two unpaired electrons.</p>
-<p><strong>Reason (R):</strong> Because it has \(d^2sp^3\) type hybridisation.</p>]]></text></questiontext>
-  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Evaluation of Assertion</strong><br/>In \([\mathrm{Fe}(\mathrm{CN})_6]^{3-}\), iron is in the \(+3\) oxidation state with a \(3d^5\) valence electron configuration. Cyanide (\(\mathrm{CN}^-\)) is a strong field ligand, forcing pairing of electrons in the \(3d\) orbitals to produce a low-spin configuration of \(t_{2\mathrm{g}}^5 e_\mathrm{g}^0\). This leaves only one unpaired electron, corresponding to a spin-only magnetic moment of:<br/>
-\[\mu = \sqrt{n(n+2)} = \sqrt{1(1+2)} = \sqrt{3} \approx 1.73\,\mathrm{BM}\]<br/>
-Therefore, the statement that it shows a magnetic moment corresponding to two unpaired electrons is incorrect.</p>
-<p><strong>Step 2: Evaluation of Reason</strong><br/>Pairing leaves two inner \(3d\) orbitals vacant. These combine with one \(4s\) and three \(4p\) orbitals to undergo \(d^2sp^3\) hybridisation. Thus, the reason is correct.</p>
-<p><strong>Step 3: Final Conclusion</strong><br/>The assertion is incorrect but the reason is correct.</p>]]></text></generalfeedback>
-  <defaultgrade>4.0000000</defaultgrade>
-  <penalty>0.2500000</penalty>
-  <hidden>0</hidden>
-  <single>true</single>
-  <shuffleanswers>false</shuffleanswers>
-  <answernumbering>iii</answernumbering>
-  <answer fraction="0" format="html"><text><![CDATA[<p>Both (A) and (R) are correct and (R) is the correct explanation of (A).</p>]]></text></answer>
-  <answer fraction="0" format="html"><text><![CDATA[<p>Both (A) and (R) are correct but (R) is NOT the correct explanation of (A).</p>]]></text></answer>
-  <answer fraction="0" format="html"><text><![CDATA[<p>(A) is correct but (R) is incorrect.</p>]]></text></answer>
-  <answer fraction="100" format="html"><text><![CDATA[<p>(A) is incorrect but (R) is correct.</p>]]></text></answer>
-  <tags>
-    <tag><text>standard:neet_ug</text></tag>
-    <tag><text>lang:en</text></tag>
-    <tag><text>subject:chemistry</text></tag>
-    <tag><text>class:class_12</text></tag>
-    <tag><text>chapter:coordination_compounds</text></tag>
-    <tag><text>typology:assertion-reason</text></tag>
-    <tag><text>difficulty:easy</text></tag>
-    <tag><text>blooms:analyze</text></tag>
-    <tag><text>calculation:light</text></tag>
-    <tag><text>media:text</text></tag>
-    <tag><text>multiconcept:false</text></tag>
-  </tags>
-</question>
+    <name><text>NEET_UG_CHEMISTRY_COORDINATIONCOMPOUNDS_MCQ_Q45 - Assertion-Reason on magnetic moment and hybridisation of hexacyanoferrate(III)</text></name>
+    <questiontext format="html"><text><![CDATA[<p><strong>Assertion</strong> : \([\mathrm{Fe}(\mathrm{CN})_6]^{3-}\) ion shows magnetic moment corresponding to two unpaired electrons.<br/><strong>Reason</strong> : Because it has \(d^2sp^3\) type hybridisation.</p>]]></text></questiontext>
+    <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Evaluate the Assertion</strong><br/>In \([\mathrm{Fe}(\mathrm{CN})_6]^{3-}\), iron is in the \(+3\) oxidation state (\(\mathrm{Fe}^{3+}\), \(3d^5\)). Because \(\mathrm{CN}^-\) is a strong field ligand, the five \(3d\) electrons pair into the \(t_{2g}\) orbitals as \(t_{2g}^5 e_g^0\), leaving only \(1\) unpaired electron (not \(2\)). Thus, the assertion is false.</p><p><strong>Step 2: Evaluate the Reason</strong><br/>Pairing of the \(3d\) electrons vacates two inner \(3d\) orbitals, allowing \([\mathrm{Fe}(\mathrm{CN})_6]^{3-}\) to undergo \(d^2sp^3\) hybridisation. Thus, the reason is true.</p><p><strong>Step 3: Final Conclusion</strong><br/>Hence, the assertion is false and the reason is true.</p>]]></text></generalfeedback>
+    <defaultgrade>4.0000000</defaultgrade>
+    <penalty>0.2500000</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>iii</answernumbering>
+    <answer fraction="0" format="html"><text><![CDATA[<p>Assertion and reason both are true, reason is correct explanation of assertion.</p>]]></text></answer>
+    <answer fraction="0" format="html"><text><![CDATA[<p>Assertion and reason both are true but reason is not the correct explanation of assertion.</p>]]></text></answer>
+    <answer fraction="0" format="html"><text><![CDATA[<p>Assertion is true, reason is false.</p>]]></text></answer>
+    <answer fraction="100" format="html"><text><![CDATA[<p>Assertion is false, reason is true.</p>]]></text></answer>
+    <tags>
+      <tag><text>standard:neet_ug</text></tag>
+      <tag><text>lang:en</text></tag>
+      <tag><text>subject:chemistry</text></tag>
+      <tag><text>class:class_12</text></tag>
+      <tag><text>chapter:coordination_compounds</text></tag>
+      <tag><text>typology:mcq</text></tag>
+      <tag><text>difficulty:easy</text></tag>
+      <tag><text>blooms:analyze</text></tag>
+      <tag><text>media:text</text></tag>
+      <tag><text>multiconcept:false</text></tag>
+    </tags>
+  </question>
 </quiz>

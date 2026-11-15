@@ -1,151 +1,344 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <quiz>
-<question type="multichoice">
-  <name><text>NEET_UG_CHEMISTRY_CHEMICAL_KINETICS_MCQ_Q53 - Match kinetic graphs with reaction order</text></name>
-  <questiontext format="html">
-    <text><![CDATA[<p>Match the graph given in Column I with the order of reaction given in Column II. More than one item in Column I may link to the same item of Column II.</p>
-<table border="1" cellpadding="6" style="border-collapse: collapse; text-align: center; width: 100%;">
-  <thead>
-    <tr>
-      <th style="width: 50%;"><strong>Column I</strong></th>
-      <th style="width: 50%;"><strong>Column II</strong></th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>(i)<br/><img src="@@PLUGINFILE@@/img-22.jpeg" alt="Rate versus concentration straight line from origin" /></td>
-      <td>(a) 1st order</td>
-    </tr>
-    <tr>
-      <td>(ii)<br/><img src="@@PLUGINFILE@@/img-23.jpeg" alt="Rate versus concentration horizontal straight line" /></td>
-      <td>(b) Zero order</td>
-    </tr>
-    <tr>
-      <td>(iii)<br/><img src="@@PLUGINFILE@@/img-24.jpeg" alt="Concentration versus time downward straight line" /></td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>(iv)<br/><img src="@@PLUGINFILE@@/img-25.jpeg" alt="Log of concentration versus time downward straight line" /></td>
-      <td></td>
-    </tr>
-  </tbody>
-</table><hr/><p>স্তম্ভ I-এ প্রদত্ত লেখচিত্রের সাথে স্তম্ভ II-তে প্রদত্ত বিক্রিয়ার ক্রমের মিল স্থাপন করুন। স্তম্ভ I-এর একাধিক বিষয় স্তম্ভ II-এর একই বিষয়ের সাথে যুক্ত হতে পারে।</p>
-<table border="1" cellpadding="6" style="border-collapse: collapse; text-align: center; width: 100%;">
-  <thead>
-    <tr>
-      <th style="width: 50%;"><strong>স্তম্ভ I</strong></th>
-      <th style="width: 50%;"><strong>স্তম্ভ II</strong></th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>(i)<br/><img src="@@PLUGINFILE@@/img-22.jpeg" alt="Rate versus concentration straight line from origin" /></td>
-      <td>(a) প্রথম ক্রম (1st order)</td>
-    </tr>
-    <tr>
-      <td>(ii)<br/><img src="@@PLUGINFILE@@/img-23.jpeg" alt="Rate versus concentration horizontal straight line" /></td>
-      <td>(b) শূন্য ক্রম (Zero order)</td>
-    </tr>
-    <tr>
-      <td>(iii)<br/><img src="@@PLUGINFILE@@/img-24.jpeg" alt="Concentration versus time downward straight line" /></td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>(iv)<br/><img src="@@PLUGINFILE@@/img-25.jpeg" alt="Log of concentration versus time downward straight line" /></td>
-      <td></td>
-    </tr>
-  </tbody>
-</table>]]></text>
-  </questiontext>
-  <generalfeedback format="html">
-    <text><![CDATA[<p><strong>Step 1: Given Data and Conditions:</strong><br/>Column I displays four kinetic graphs relating reaction rate, reactant concentration, and time. Column II provides the corresponding reaction orders: first order and zero order.</p>
-<p><strong>Step 2: Assumptions and Sign Conventions:</strong><br/>Let the reaction be \(\mathrm{R} \longrightarrow \mathrm{P}\), where \([\mathrm{R}]\) is the reactant concentration at time \(t\) and \([\mathrm{R}]_0\) is the initial concentration.</p>
-<p><strong>Step 3: Relevant Formulae and Principles:</strong><br/>1. For a zero-order reaction:
-\[
-\text{Rate} = k [\mathrm{R}]^0 = k = \text{constant}
-\]
-\[
-[\mathrm{R}] = [\mathrm{R}]_0 - kt
-\]
-2. For a first-order reaction:
-\[
-\text{Rate} = k [\mathrm{R}]^1
-\]
-\[
-\ln [\mathrm{R}] = \ln [\mathrm{R}]_0 - kt \implies \log [\mathrm{R}] = \log [\mathrm{R}]_0 - \frac{k}{2.303} t
-\]</p>
-<p><strong>Step 4: Step-by-Step Working:</strong><br/>Evaluating each graph in Column I:<br/>
-- The graph showing Rate directly proportional to Concentration (\(y = mx\)) is a straight line passing through the origin. Since \(\text{Rate} = k [\mathrm{R}]\), this describes a first-order reaction. Thus, the first graph links to 1st order.<br/>
-- The graph showing Rate independent of Concentration is a horizontal straight line parallel to the concentration axis. Since \(\text{Rate} = k\), this represents a zero-order reaction. Thus, the second graph links to Zero order.<br/>
-- The graph showing Concentration decaying linearly with Time (\([\mathrm{R}] = -kt + [\mathrm{R}]_0\)) has a constant negative slope \(-k\). This integrated rate law belongs to a zero-order reaction. Thus, the third graph links to Zero order.<br/>
-- The graph showing \(\log(\text{Concentration})\) decreasing linearly with Time (\(\log [\mathrm{R}] = -\frac{k}{2.303}t + \log [\mathrm{R}]_0\)) has a constant negative slope \(-\frac{k}{2.303}\). This integrated rate equation belongs to a first-order reaction. Thus, the fourth graph links to 1st order.<br/>
-Hence, the correct set of associations is: (i) &rarr; (a), (ii) &rarr; (b), (iii) &rarr; (b), (iv) &rarr; (a).</p>
-<p><strong>Step 5: Check and Final Answer:</strong><br/>Verifying the matches:<br/>
-First graph: Rate \(\propto [\mathrm{R}]\) &rarr; 1st order<br/>
-Second graph: Rate \(= k\) &rarr; Zero order<br/>
-Third graph: \([\mathrm{R}] = [\mathrm{R}]_0 - kt\) &rarr; Zero order<br/>
-Fourth graph: \(\log [\mathrm{R}] = \log [\mathrm{R}]_0 - \frac{kt}{2.303}\) &rarr; 1st order<br/>
-Final Answer: (i) &rarr; (a), (ii) &rarr; (b), (iii) &rarr; (b), (iv) &rarr; (a).</p>
-<hr/>
-<p><strong>ধাপ ১: প্রদত্ত তথ্য ও শর্তাবলী:</strong><br/>স্তম্ভ I-এ বিক্রিয়া হার, বিক্রিয়কের ঘনমাত্রা এবং সময় সম্পর্কিত চারটি গতীয় লেখচিত্র দেওয়া হয়েছে। স্তম্ভ II-তে সংশ্লিষ্ট বিক্রিয়ার ক্রমসমূহ (প্রথম ক্রম এবং শূন্য ক্রম) উল্লেখ করা হয়েছে।</p>
-<p><strong>ধাপ ২: অনুমিতি ও চিহ্ন রীতি:</strong><br/>ধরি সাধারণ বিক্রিয়াটি হলো \(\mathrm{R} \longrightarrow \mathrm{P}\), যেখানে \(t\) সময়ে বিক্রিয়কের ঘনমাত্রা \([\mathrm{R}]\) এবং প্রাথমিক ঘনমাত্রা \([\mathrm{R}]_0\)।</p>
-<p><strong>ধাপ ৩: প্রাসঙ্গিক সূত্রাবলী ও নীতি:</strong><br/>১. শূন্য ক্রম বিক্রিয়ার ক্ষেত্রে:
-\[
-\text{Rate} = k [\mathrm{R}]^0 = k = \text{ধ্রুবক}
-\]
-\[
-[\mathrm{R}] = [\mathrm{R}]_0 - kt
-\]
-২. প্রথম ক্রম বিক্রিয়ার ক্ষেত্রে:
-\[
-\text{Rate} = k [\mathrm{R}]^1
-\]
-\[
-\ln [\mathrm{R}] = \ln [\mathrm{R}]_0 - kt \implies \log [\mathrm{R}] = \log [\mathrm{R}]_0 - \frac{k}{2.303} t
-\]</p>
-<p><strong>ধাপ ৪: ধাপে ধাপে সমাধান:</strong><br/>স্তম্ভ I-এর প্রতিটি লেখচিত্র বিশ্লেষণ করে:<br/>
-- যে লেখচিত্রে ঘনমাত্রার সাথে বিক্রিয়া হার সরলরৈখিকভাবে পরিবর্তিত হয় (\(y = mx\)), তা মূলবিন্দুগামী একটি সরলরেখা। যেহেতু \(\text{Rate} = k [\mathrm{R}]\), এটি প্রথম ক্রমের বিক্রিয়া নির্দেশ করে। ফলে প্রথম লেখচিত্রটি 1st order-এর সাথে যুক্ত হয়।<br/>
-- যে লেখচিত্রে ঘনমাত্রার পরিবর্তনের সাথে বিক্রিয়া হার স্থির থাকে, তা ঘনমাত্রা অক্ষের সমান্তরাল একটি অনুভূমিক সরলরেখা। যেহেতু \(\text{Rate} = k\), এটি শূন্য ক্রমের বিক্রিয়া নির্দেশ করে। ফলে দ্বিতীয় লেখচিত্রটি Zero order-এর সাথে যুক্ত হয়।<br/>
-- যে লেখচিত্রে সময়ের সাথে ঘনমাত্রা সরলরৈখিকভাবে হ্রাস পায় (\([\mathrm{R}] = -kt + [\mathrm{R}]_0\)), তার নতি ঋণাত্মক (\(-k\))। এই সমাকলিত সমীকরণটি শূন্য ক্রমের বিক্রিয়ার। ফলে তৃতীয় লেখচিত্রটি Zero order-এর সাথে যুক্ত হয়।<br/>
-- যে লেখচিত্রে সময়ের সাথে \(\log(\text{Concentration})\) সরলরৈখিকভাবে হ্রাস পায় (\(\log [\mathrm{R}] = -\frac{k}{2.303}t + \log [\mathrm{R}]_0\)), তার নতি ঋণাত্মক (\(-\frac{k}{2.303}\))। এই সমাকলিত সমীকরণটি প্রথম ক্রমের বিক্রিয়ার। ফলে চতুর্থ লেখচিত্রটি 1st order-এর সাথে যুক্ত হয়।<br/>
-সুতরাং সঠিক মেলবন্ধন হলো: (i) &rarr; (a), (ii) &rarr; (b), (iii) &rarr; (b), (iv) &rarr; (a)।</p>
-<p><strong>ধাপ ৫: যাচাই ও চূড়ান্ত উত্তর:</strong><br/>মিলসমূহের সঠিকতা যাচাই:<br/>
-প্রথম লেখচিত্র: বিক্রিয়া হার \(\propto [\mathrm{R}]\) &rarr; প্রথম ক্রম<br/>
-দ্বিতীয় লেখচিত্র: বিক্রিয়া হার \(= k\) &rarr; শূন্য ক্রম<br/>
-তৃতীয় লেখচিত্র: \([\mathrm{R}] = [\mathrm{R}]_0 - kt\) &rarr; শূন্য ক্রম<br/>
-চতুর্থ লেখচিত্র: \(\log [\mathrm{R}] = \log [\mathrm{R}]_0 - \frac{kt}{2.303}\) &rarr; প্রথম ক্রম<br/>
-চূড়ান্ত উত্তর: (i) &rarr; (a), (ii) &rarr; (b), (iii) &rarr; (b), (iv) &rarr; (a)।</p>]]></text>
-  </generalfeedback>
+<question type="matching">
+  <name><text>NEET_UG_CHEMISTRY_CHEMICALKINETICS_MATCHING_Q53 - Matching reaction order with concentration and rate graphs</text></name>
+  <questiontext format="html"><text><![CDATA[<p>Match the graph given in Column I with the order of reaction given in Column II. More than one item in Column I may link to the same item of Column II.</p><hr/><p>স্তম্ভ I-এ প্রদত্ত লেখচিত্রগুলোর সাথে স্তম্ভ II-এ প্রদত্ত বিক্রিয়ার ক্রম মেলাও। স্তম্ভ I-এর একাধিক উপাদান স্তম্ভ II-এর একই উপাদানের সাথে যুক্ত হতে পারে।</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Relevant Formulae and Principles</strong><br/>1. For a zero-order reaction: \(\text{Rate} = k\) (independent of concentration) and \([R] = [R]_0 - kt\) (linear decrease of concentration with time).<br/>2. For a first-order reaction: \(\text{Rate} = k[R]\) (rate is directly proportional to concentration) and \(\log [R] = \log [R]_0 - \frac{kt}{2.303}\) (linear decrease of \(\log(\text{Conc.})\) with time).</p>
+<p><strong>Step 2: Step-by-Step Matching</strong><br/>1. A straight line through the origin for Rate versus Concentration shows \(\text{Rate} \propto \text{Concentration}\), which corresponds to a 1st order reaction.<br/>2. A horizontal line for Rate versus Concentration shows that the rate is independent of concentration, which corresponds to a Zero order reaction.<br/>3. A straight line with a negative slope for Concentration versus time follows \([R] = [R]_0 - kt\), which corresponds to a Zero order reaction.<br/>4. A straight line with a negative slope for \(\log(\text{Conc.})\) versus time follows \(\log [R] = \log [R]_0 - \frac{kt}{2.303}\), which corresponds to a 1st order reaction.</p>
+<p><strong>Step 3: Final Conclusion</strong><br/>The Rate vs Concentration linear plot through the origin and the \(\log(\text{Conc.})\) vs time linear plot match 1st order; the constant Rate vs Concentration plot and the Concentration vs time linear plot match Zero order.</p><hr/><p><strong>ধাপ ১: প্রাসঙ্গিক সূত্র ও নীতি</strong><br/>১. শূন্য ক্রম বিক্রিয়ার ক্ষেত্রে: \(\text{Rate} = k\) (ঘনমাত্রার ওপর নির্ভরশীল নয়) এবং \([R] = [R]_0 - kt\) (সময়ের সাথে ঘনমাত্রার রৈখিক হ্রাস)।<br/>২. প্রথম ক্রম বিক্রিয়ার ক্ষেত্রে: \(\text{Rate} = k[R]\) (হার সরাসরি ঘনমাত্রার সমানুপাতিক) এবং \(\log [R] = \log [R]_0 - \frac{kt}{2.303}\) (সময়ের সাথে \(\log(\text{Conc.})\)-এর রৈখিক হ্রাস)।</p>
+<p><strong>ধাপ ২: ধাপে ধাপে মিলকরণ</strong><br/>১. ঘনমাত্রার বিপরীতে হারের মূলবিন্দুগামী সরলরেখা নির্দেশ করে \(\text{Rate} \propto \text{Concentration}\), যা প্রথম ক্রম বিক্রিয়ার সাথে মেলে।<br/>২. ঘনমাত্রার বিপরীতে হারের অনুভূমিক সরলরেখা নির্দেশ করে যে হার ঘনমাত্রার ওপর নির্ভরশীল নয়, যা শূন্য ক্রম বিক্রিয়ার সাথে মেলে।<br/>৩. সময়ের বিপরীতে ঘনমাত্রার ঋণাত্মক ঢালবিশিষ্ট সরলরেখা \([R] = [R]_0 - kt\) সমীকরণ মেনে চলে, যা শূন্য ক্রম বিক্রিয়ার সাথে মেলে।<br/>৪. সময়ের বিপরীতে \(\log(\text{Conc.})\)-এর ঋণাত্মক ঢালবিশিষ্ট সরলরেখা \(\log [R] = \log [R]_0 - \frac{kt}{2.303}\) সমীকরণ মেনে চলে, যা প্রথম ক্রম বিক্রিয়ার সাথে মেলে।</p>
+<p><strong>ধাপ ৩: চূড়ান্ত সিদ্ধান্ত</strong><br/>ঘনমাত্রার বিপরীতে হারের মূলবিন্দুগামী সরলরেখা এবং সময়ের বিপরীতে \(\log(\text{Conc.})\)-এর সরলরেখা প্রথম ক্রমের সাথে মেলে; ঘনমাত্রার বিপরীতে ধ্রুব হারের লেখচিত্র এবং সময়ের বিপরীতে ঘনমাত্রার সরলরেখা শূন্য ক্রমের সাথে মেলে।</p>]]></text></generalfeedback>
   <defaultgrade>4.0000000</defaultgrade>
   <penalty>0.2500000</penalty>
   <hidden>0</hidden>
-  <single>true</single>
   <shuffleanswers>true</shuffleanswers>
-  <answernumbering>abc</answernumbering>
-  <answer fraction="100" format="html">
-    <text><![CDATA[<p>(i) &rarr; (a), (ii) &rarr; (b), (iii) &rarr; (b), (iv) &rarr; (a)</p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>(i) &rarr; (b), (ii) &rarr; (a), (iii) &rarr; (a), (iv) &rarr; (b)</p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>(i) &rarr; (a), (ii) &rarr; (a), (iii) &rarr; (b), (iv) &rarr; (b)</p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>(i) &rarr; (b), (ii) &rarr; (b), (iii) &rarr; (a), (iv) &rarr; (a)</p>]]></text>
-  </answer>
+  <subquestion format="html">
+    <text><![CDATA[<p><img src="@@PLUGINFILE@@/img-22.jpeg" alt="Rate vs Concentration straight line through origin" /></p>]]></text>
+    <answer><text>1st order</text></answer>
+  </subquestion>
+  <subquestion format="html">
+    <text><![CDATA[<p><img src="@@PLUGINFILE@@/img-23.jpeg" alt="Rate vs Concentration horizontal line" /></p>]]></text>
+    <answer><text>Zero order</text></answer>
+  </subquestion>
+  <subquestion format="html">
+    <text><![CDATA[<p><img src="@@PLUGINFILE@@/img-24.jpeg" alt="Concentration vs time straight line with negative slope" /></p>]]></text>
+    <answer><text>Zero order</text></answer>
+  </subquestion>
+  <subquestion format="html">
+    <text><![CDATA[<p><img src="@@PLUGINFILE@@/img-25.jpeg" alt="log(Conc.) vs time straight line with negative slope" /></p>]]></text>
+    <answer><text>1st order</text></answer>
+  </subquestion>
   <tags>
     <tag><text>standard:neet_ug</text></tag>
     <tag><text>lang:en</text></tag>
     <tag><text>lang:bn</text></tag>
     <tag><text>subject:chemistry</text></tag>
+    <tag><text>section:matching</text></tag>
     <tag><text>class:class_12</text></tag>
     <tag><text>chapter:chemical_kinetics</text></tag>
-    <tag><text>typology:matching-mcq</text></tag>
+    <tag><text>typology:matching</text></tag>
     <tag><text>difficulty:medium</text></tag>
     <tag><text>blooms:analyze</text></tag>
-    <tag><text>calculation:light</text></tag>
     <tag><text>media:graph</text></tag>
+    <tag><text>multiconcept:true</text></tag>
+  </tags>
+</question>
+<question type="matching">
+  <name><text>NEET_UG_CHEMISTRY_CHEMICALKINETICS_MATCHING_Q54 - Matching chemical kinetics concepts and properties</text></name>
+  <questiontext format="html"><text><![CDATA[<p>Match the statements given in Column I and Column II.</p><hr/><p>স্তম্ভ I এবং স্তম্ভ II-এ প্রদত্ত বক্তব্যগুলো মেলাও।</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principles</strong><br/>1. A catalyst alters the rate of reaction by lowering the activation energy via an alternate pathway.<br/>2. Molecularity is the number of reacting species in an elementary step, so it cannot be a fraction or zero.<br/>3. For a first-order reaction, half-life \(t_{1/2} = \frac{0.693}{k}\) is independent of initial concentration, so the second half-life is the same as the first.<br/>4. In the Arrhenius equation \(k = A e^{-E_a/RT}\), the Boltzmann factor \(e^{-E_a/RT}\) refers to the fraction of molecules with energy equal to or greater than activation energy.<br/>5. Energetically favourable reactions are sometimes slow because proper orientation of colliding molecules is not always there.<br/>6. Area under the Maxwell-Boltzmann curve is constant because the total probability of finding molecules across all energies is one.</p>
+<p><strong>Step 2: Final Conclusion</strong><br/>Each statement in Column I corresponds uniquely to its physical explanation or property in Column II.</p><hr/><p><strong>ধাপ ১: মৌলিক নীতি</strong><br/>১. অনুঘটক বিকল্প পথের মাধ্যমে সক্রিয়ণ শক্তি কমিয়ে বিক্রিয়ার হার পরিবর্তন করে।<br/>২. আণবিকতা হলো একটি মৌলিক ধাপে অংশগ্রহণকারী বিক্রিয়ক কণার সংখ্যা, তাই এটি ভগ্নাংশ বা শূন্য হতে পারে না।<br/>৩. প্রথম ক্রম বিক্রিয়ার ক্ষেত্রে অর্ধায়ু \(t_{1/2} = \frac{0.693}{k}\) প্রাথমিক ঘনমাত্রার ওপর নির্ভরশীল নয়, তাই দ্বিতীয় অর্ধায়ু প্রথম অর্ধায়ুর সমান।<br/>৪. আরহেনিয়াস সমীকরণ \(k = A e^{-E_a/RT}\)-এ \(e^{-E_a/RT}\) রাশিটি সক্রিয়ণ শক্তির সমান বা তার চেয়ে বেশি শক্তিসম্পন্ন অণুর ভগ্নাংশ নির্দেশ করে।<br/>৫. তাপগতীয়ভাবে অনুকূল বিক্রিয়াগুলো কখনো কখনো ধীর হয় কারণ সংঘর্ষের সময় অণুগুলোর সঠিক অভিমুখ সর্বদা থাকে না।<br/>৬. ম্যাক্সওয়েল-বোলৎজম্যান বক্ররেখার নিচের ক্ষেত্রফল ধ্রুবক কারণ মোট সম্ভাবনা একের সমান।</p>
+<p><strong>ধাপ ২: চূড়ান্ত সিদ্ধান্ত</strong><br/>স্তম্ভ I-এর প্রতিটি বক্তব্য স্তম্ভ II-এর সংশ্লিষ্ট ভৌত ব্যাখ্যা বা ধর্মের সাথে সুনির্দিষ্টভাবে মেলে।</p>]]></text></generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <shuffleanswers>true</shuffleanswers>
+  <subquestion format="html">
+    <text><![CDATA[<p>Catalyst alters the rate of reaction</p>]]></text>
+    <answer><text>by lowering the activation energy</text></answer>
+  </subquestion>
+  <subquestion format="html">
+    <text><![CDATA[<p>Molecularity</p>]]></text>
+    <answer><text>cannot be fraction or zero</text></answer>
+  </subquestion>
+  <subquestion format="html">
+    <text><![CDATA[<p>Second half life of first order reaction</p>]]></text>
+    <answer><text>is same as the first</text></answer>
+  </subquestion>
+  <subquestion format="html">
+    <text><![CDATA[<p>\(e^{-E_{a} / RT}\)</p>]]></text>
+    <answer><text>refers to the fraction of molecules with energy equal to or greater than activation energy</text></answer>
+  </subquestion>
+  <subquestion format="html">
+    <text><![CDATA[<p>Energetically favourable reactions are sometimes slow</p>]]></text>
+    <answer><text>proper orientation is not there always</text></answer>
+  </subquestion>
+  <subquestion format="html">
+    <text><![CDATA[<p>Area under the Maxwell Boltzman curve is constant</p>]]></text>
+    <answer><text>total probability is one</text></answer>
+  </subquestion>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:bn</text></tag>
+    <tag><text>subject:chemistry</text></tag>
+    <tag><text>section:matching</text></tag>
+    <tag><text>class:class_12</text></tag>
+    <tag><text>chapter:chemical_kinetics</text></tag>
+    <tag><text>typology:matching</text></tag>
+    <tag><text>difficulty:medium</text></tag>
+    <tag><text>blooms:understand</text></tag>
+    <tag><text>media:text</text></tag>
+    <tag><text>multiconcept:true</text></tag>
+  </tags>
+</question>
+<question type="matching">
+  <name><text>NEET_UG_CHEMISTRY_CHEMICALKINETICS_MATCHING_Q55 - Matching diamond conversion, instantaneous rate, and average rate</text></name>
+  <questiontext format="html"><text><![CDATA[<p>Match the items of Column I and Column II.</p><hr/><p>স্তম্ভ I এবং স্তম্ভ II-এর উপাদানগুলো মেলাও।</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principles</strong><br/>1. Conversion of diamond to graphite is thermodynamically feasible (\(\Delta G &lt; 0\)), but its activation energy is extremely high, so ordinarily the rate of conversion is imperceptible.<br/>2. Instantaneous rate is the rate of reaction at a specific instant, measured over a vanishingly short interval of time (\(\Delta t \to 0\)).<br/>3. Average rate is the change in concentration over a measurable, long duration of time (\(\Delta t\)).</p>
+<p><strong>Step 2: Final Conclusion</strong><br/>Diamond corresponds to ordinarily rate of conversion is imperceptible; Instantaneous rate corresponds to short interval of time; Average rate corresponds to long duration of time.</p><hr/><p><strong>ধাপ ১: মৌলিক নীতি</strong><br/>১. হীরক থেকে গ্রাফাইটে রূপান্তর তাপগতীয়ভাবে সম্ভবপর (\(\Delta G &lt; 0\)), কিন্তু এর সক্রিয়ণ শক্তি অত্যধিক বেশি হওয়ায় সাধারণত রূপান্তরের হার অদৃশ্য বা অনুভবযোগ্য নয়।<br/>২. তাৎক্ষণিক হার হলো একটি নির্দিষ্ট মুহূর্তে বিক্রিয়ার হার, যা অত্যন্ত ক্ষুদ্র সময়ের ব্যবধানে (\(\Delta t \to 0\)) পরিমাপ করা হয়।<br/>৩. গড় হার হলো একটি দীর্ঘ সময়ের ব্যবধানে (\(\Delta t\)) ঘনমাত্রার পরিবর্তনের হার।</p>
+<p><strong>ধাপ ২: চূড়ান্ত সিদ্ধান্ত</strong><br/>হীরক সাধারণত রূপান্তরের হার অনুভবযোগ্য নয়-এর সাথে মেলে; তাৎক্ষণিক হার ক্ষুদ্র সময়ের ব্যবধানের সাথে মেলে; এবং গড় হার দীর্ঘ সময়ের ব্যবধানের সাথে মেলে।</p>]]></text></generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <shuffleanswers>true</shuffleanswers>
+  <subquestion format="html">
+    <text><![CDATA[<p>Diamond</p>]]></text>
+    <answer><text>ordinarily rate of conversion is imperceptible</text></answer>
+  </subquestion>
+  <subquestion format="html">
+    <text><![CDATA[<p>Instantaneous rate</p>]]></text>
+    <answer><text>short interval of time</text></answer>
+  </subquestion>
+  <subquestion format="html">
+    <text><![CDATA[<p>Average rate</p>]]></text>
+    <answer><text>long duration of time</text></answer>
+  </subquestion>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:bn</text></tag>
+    <tag><text>subject:chemistry</text></tag>
+    <tag><text>section:matching</text></tag>
+    <tag><text>class:class_12</text></tag>
+    <tag><text>chapter:chemical_kinetics</text></tag>
+    <tag><text>typology:matching</text></tag>
+    <tag><text>difficulty:easy</text></tag>
+    <tag><text>blooms:understand</text></tag>
+    <tag><text>media:text</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+<question type="matching">
+  <name><text>NEET_UG_CHEMISTRY_CHEMICALKINETICS_MATCHING_Q56 - Matching rate law, zero order rate, and complex reaction order</text></name>
+  <questiontext format="html"><text><![CDATA[<p>Match the items of Column I and Column II.</p><hr/><p>স্তম্ভ I এবং স্তম্ভ II-এর উপাদানগুলো মেলাও।</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principles</strong><br/>1. The mathematical expression relating the rate of a reaction to the molar concentrations of reactants is called the rate law.<br/>2. For a zero-order reaction, \(\text{Rate} = k[R]^0 = k\), so the rate of reaction is equal to the rate constant.<br/>3. Since \(\text{Rate} = k\) for a zero-order reaction, the units of the rate constant (\(\text{mol L}^{-1}\text{s}^{-1}\)) are the same as that of the rate of a reaction.<br/>4. A complex reaction proceeds in multiple steps, and the overall order of a complex reaction is determined by the order of the slowest (rate-determining) step.</p>
+<p><strong>Step 2: Final Conclusion</strong><br/>Mathematical expression for rate of reaction matches rate law; Rate of reaction for zero order reaction is equal to rate constant; Units of rate constant for zero order reaction is same as that of rate of a reaction; Order of a complex reaction is determined by order of slowest step.</p><hr/><p><strong>ধাপ ১: মৌলিক নীতি</strong><br/>১. বিক্রিয়কের মোলার ঘনমাত্রার সাথে বিক্রিয়ার হারের সম্পর্ক প্রকাশকারী গাণিতিক রাশিমালাকে হার সমীকরণ বা রেট ল (rate law) বলে।<br/>২. শূন্য ক্রম বিক্রিয়ার ক্ষেত্রে \(\text{Rate} = k[R]^0 = k\), তাই বিক্রিয়ার হার হার ধ্রুবকের সমান হয়।<br/>৩. যেহেতু শূন্য ক্রম বিক্রিয়ার ক্ষেত্রে \(\text{Rate} = k\), তাই শূন্য ক্রম বিক্রিয়ার হার ধ্রুবকের একক (\(\text{mol L}^{-1}\text{s}^{-1}\)) বিক্রিয়ার হারের এককের সমান।<br/>৪. একটি জটিল বিক্রিয়া একাধিক ধাপে ঘটে এবং জটিল বিক্রিয়ার সামগ্রিক ক্রম ধীরতম (হার-নির্ধারক) ধাপের ক্রম দ্বারা নির্ধারিত হয়।</p>
+<p><strong>ধাপ ২: চূড়ান্ত সিদ্ধান্ত</strong><br/>বিক্রিয়ার হারের গাণিতিক প্রকাশ হার সমীকরণের সাথে, শূন্য ক্রম বিক্রিয়ার হার হার ধ্রুবকের সাথে, শূন্য ক্রম বিক্রিয়ার হার ধ্রুবকের একক বিক্রিয়ার হারের সাথে এবং জটিল বিক্রিয়ার ক্রম ধীরতম ধাপের ক্রমের সাথে মেলে।</p>]]></text></generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <shuffleanswers>true</shuffleanswers>
+  <subquestion format="html">
+    <text><![CDATA[<p>Mathematical expression for rate of reaction</p>]]></text>
+    <answer><text>rate law</text></answer>
+  </subquestion>
+  <subquestion format="html">
+    <text><![CDATA[<p>Rate of reaction for zero order reaction is equal to</p>]]></text>
+    <answer><text>rate constant</text></answer>
+  </subquestion>
+  <subquestion format="html">
+    <text><![CDATA[<p>Units of rate constant for zero order reaction is same as that of</p>]]></text>
+    <answer><text>rate of a reaction</text></answer>
+  </subquestion>
+  <subquestion format="html">
+    <text><![CDATA[<p>Order of a complex reaction is determined by</p>]]></text>
+    <answer><text>order of slowest step</text></answer>
+  </subquestion>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:bn</text></tag>
+    <tag><text>subject:chemistry</text></tag>
+    <tag><text>section:matching</text></tag>
+    <tag><text>class:class_12</text></tag>
+    <tag><text>chapter:chemical_kinetics</text></tag>
+    <tag><text>typology:matching</text></tag>
+    <tag><text>difficulty:easy</text></tag>
+    <tag><text>blooms:understand</text></tag>
+    <tag><text>media:text</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+<question type="multichoice">
+  <name><text>NEET_UG_CHEMISTRY_CHEMICALKINETICS_AR_Q57 - Assertion and Reason on zero or fractional reaction order</text></name>
+  <questiontext format="html"><text><![CDATA[<p><strong>Assertion :</strong> Order of the reaction can be zero or fractional.<br/><strong>Reason :</strong> We cannot determine order from balanced chemical equation.</p><hr/><p><strong>দৃঢ়তা (Assertion) :</strong> বিক্রিয়ার ক্রম শূন্য বা ভগ্নাংশ হতে পারে।<br/><strong>কারণ (Reason) :</strong> সন্তুলিত রাসায়নিক সমীকরণ থেকে আমরা ক্রম নির্ণয় করতে পারি না।</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Evaluate the Assertion</strong><br/>The order of a reaction is an experimental quantity equal to the sum of the powers of concentration terms in the rate law. It can be zero, a positive integer, or a fraction (for example, \(1.5\) in the thermal decomposition of acetaldehyde). Thus, the assertion is correct.</p>
+<p><strong>Step 2: Evaluate the Reason</strong><br/>Because reaction order depends on the actual mechanism and rate-determining step rather than overall stoichiometry, we cannot determine the order from the balanced chemical equation. Thus, the reason is also correct.</p>
+<p><strong>Step 3: Check Explanation Link</strong><br/>Although both statements are true, the inability to determine order from a balanced chemical equation does not explain why the order can be zero or fractional (which arises from complex reaction mechanisms or catalyst surface saturation). Therefore, the reason does not explain the assertion.</p>
+<p><strong>Step 4: Final Conclusion</strong><br/>Both assertion and reason are correct, but reason does not explain assertion.</p><hr/><p><strong>ধাপ ১: দৃঢ়তা মূল্যায়ন</strong><br/>বিক্রিয়ার ক্রম একটি পরীক্ষালব্ধ রাশি যা হার সমীকরণে ঘনমাত্রা পদগুলোর ঘাতের সমষ্টির সমান। এটি শূন্য, ধনাত্মক পূর্ণসংখ্যা বা ভগ্নাংশ হতে পারে (যেমন অ্যাসিট্যালডিহাইডের তাপীয় বিয়োজনে \(1.5\))। সুতরাং, দৃঢ়তাটি সঠিক।</p>
+<p><strong>ধাপ ২: কারণ মূল্যায়ন</strong><br/>যেহেতু বিক্রিয়ার ক্রম সামগ্রিক স্টয়সিওমেট্রির পরিবর্তে প্রকৃত বিক্রিয়া কৌশল ও হার-নির্ধারক ধাপের ওপর নির্ভর করে, তাই সন্তুলিত রাসায়নিক সমীকরণ থেকে ক্রম নির্ণয় করা যায় না। সুতরাং, কারণটিও সঠিক।</p>
+<p><strong>ধাপ ৩: ব্যাখ্যার সম্পর্ক যাচাই</strong><br/>যদিও উভয় বক্তব্যই সত্য, সন্তুলিত সমীকরণ থেকে ক্রম নির্ণয় করতে না পারাটা কেন ক্রম শূন্য বা ভগ্নাংশ হতে পারে তার ব্যাখ্যা দেয় না। তাই কারণটি দৃঢ়তাকে ব্যাখ্যা করে না।</p>
+<p><strong>ধাপ ৪: চূড়ান্ত সিদ্ধান্ত</strong><br/>দৃঢ়তা এবং কারণ উভয়ই সঠিক, কিন্তু কারণ দৃঢ়তাকে ব্যাখ্যা করে না।</p>]]></text></generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>false</shuffleanswers>
+  <answernumbering>iii</answernumbering>
+  <answer fraction="0" format="html"><text><![CDATA[<p>Both assertion and reason are correct and the reason is correct explanation of assertion.</p>]]></text></answer>
+  <answer fraction="100" format="html"><text><![CDATA[<p>Both assertion and reason are correct but reason does not explain assertion.</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>Assertion is correct but reason is incorrect.</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>Both assertion and reason are incorrect.</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>Assertion is incorrect but reason is correct.</p>]]></text></answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:bn</text></tag>
+    <tag><text>subject:chemistry</text></tag>
+    <tag><text>section:assertion_reason</text></tag>
+    <tag><text>class:class_12</text></tag>
+    <tag><text>chapter:chemical_kinetics</text></tag>
+    <tag><text>typology:assertion_reason</text></tag>
+    <tag><text>difficulty:medium</text></tag>
+    <tag><text>blooms:understand</text></tag>
+    <tag><text>media:text</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+<question type="multichoice">
+  <name><text>NEET_UG_CHEMISTRY_CHEMICALKINETICS_AR_Q58 - Assertion and Reason on order and molecularity</text></name>
+  <questiontext format="html"><text><![CDATA[<p><strong>Assertion :</strong> Order and molecularity are same.<br/><strong>Reason :</strong> Order is determined experimentally and molecularity is the sum of the stoichiometric coefficient of rate determining elementary step.</p><hr/><p><strong>দৃঢ়তা (Assertion) :</strong> ক্রম এবং আণবিকতা একই।<br/><strong>কারণ (Reason) :</strong> ক্রম পরীক্ষামূলকভাবে নির্ণয় করা হয় এবং আণবিকতা হলো হার-নির্ধারক মৌলিক ধাপের স্টয়সিওমেট্রিক সহগগুলোর সমষ্টি।</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Evaluate the Assertion</strong><br/>Order and molecularity are the same only for elementary (single-step) reactions. For complex reactions or pseudo-order reactions, order and molecularity are different (for instance, order can be zero or fractional, whereas molecularity is always a positive integer). Thus, the assertion is incorrect.</p>
+<p><strong>Step 2: Evaluate the Reason</strong><br/>Order of a reaction is always determined experimentally, while molecularity of an elementary step is the number of reacting species (sum of stoichiometric coefficients) taking part in that rate-determining elementary step. Thus, the reason is correct.</p>
+<p><strong>Step 3: Final Conclusion</strong><br/>Assertion is incorrect, but reason is correct.</p><hr/><p><strong>ধাপ ১: দৃঢ়তা মূল্যায়ন</strong><br/>ক্রম এবং আণবিকতা কেবল মৌলিক (এক-ধাপ বিশিষ্ট) বিক্রিয়ার ক্ষেত্রেই সমান হয়। জটিল বিক্রিয়া বা ছদ্ম-ক্রম বিক্রিয়ার ক্ষেত্রে ক্রম এবং আণবিকতা ভিন্ন হয় (যেমন ক্রম শূন্য বা ভগ্নাংশ হতে পারে, কিন্তু আণবিকতা সর্বদা ধনাত্মক পূর্ণসংখ্যা)। সুতরাং, দৃঢ়তাটি ভুল।</p>
+<p><strong>ধাপ ২: কারণ মূল্যায়ন</strong><br/>বিক্রিয়ার ক্রম সর্বদা পরীক্ষামূলকভাবে নির্ণয় করা হয়, এবং একটি মৌলিক ধাপের আণবিকতা হলো হার-নির্ধারক মৌলিক ধাপে অংশগ্রহণকারী বিক্রিয়ক কণার সংখ্যা (স্টয়সিওমেট্রিক সহগের সমষ্টি)। সুতরাং, কারণটি সঠিক।</p>
+<p><strong>ধাপ ৩: চূড়ান্ত সিদ্ধান্ত</strong><br/>দৃঢ়তা ভুল, কিন্তু কারণ সঠিক।</p>]]></text></generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>false</shuffleanswers>
+  <answernumbering>iii</answernumbering>
+  <answer fraction="0" format="html"><text><![CDATA[<p>Both assertion and reason are correct and the reason is correct explanation of assertion.</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>Both assertion and reason are correct but reason does not explain assertion.</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>Assertion is correct but reason is incorrect.</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>Both assertion and reason are incorrect.</p>]]></text></answer>
+  <answer fraction="100" format="html"><text><![CDATA[<p>Assertion is incorrect but reason is correct.</p>]]></text></answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:bn</text></tag>
+    <tag><text>subject:chemistry</text></tag>
+    <tag><text>section:assertion_reason</text></tag>
+    <tag><text>class:class_12</text></tag>
+    <tag><text>chapter:chemical_kinetics</text></tag>
+    <tag><text>typology:assertion_reason</text></tag>
+    <tag><text>difficulty:easy</text></tag>
+    <tag><text>blooms:understand</text></tag>
+    <tag><text>media:text</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+<question type="multichoice">
+  <name><text>NEET_UG_CHEMISTRY_CHEMICALKINETICS_AR_Q59 - Assertion and Reason on enthalpy of reaction with a catalyst</text></name>
+  <questiontext format="html"><text><![CDATA[<p><strong>Assertion :</strong> The enthalpy of reaction remains constant in the presence of a catalyst.<br/><strong>Reason :</strong> A catalyst participating in the reaction, forms different activated complex and lowers down the activation energy but the difference in energy of reactant and product remains the same.</p><hr/><p><strong>দৃঢ়তা (Assertion) :</strong> অনুঘটকের উপস্থিতিতে বিক্রিয়ার এনথ্যালপি স্থির থাকে।<br/><strong>কারণ (Reason) :</strong> বিক্রিয়ায় অংশগ্রহণকারী একটি অনুঘটক ভিন্ন সক্রিয় জটিল যৌগ গঠন করে এবং সক্রিয়ণ শক্তি কমিয়ে দেয়, কিন্তু বিক্রিয়ক ও বিক্রিয়াজাত পদার্থের শক্তির পার্থক্য একই থাকে।</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Evaluate the Assertion</strong><br/>Enthalpy of reaction (\(\Delta H = H_{\text{products}} - H_{\text{reactants}}\)) depends solely on the initial and final states and is unaffected by a catalyst. Thus, the assertion is correct.</p>
+<p><strong>Step 2: Evaluate the Reason</strong><br/>A catalyst participates by forming an alternative activated complex with lower activation energy, while the energies of the reactants and products remain unchanged, keeping their energy difference (\(\Delta H\)) identical. Thus, the reason is correct and directly explains the assertion.</p>
+<p><strong>Step 3: Final Conclusion</strong><br/>Both assertion and reason are correct and the reason is the correct explanation of the assertion.</p><hr/><p><strong>ধাপ ১: দৃঢ়তা মূল্যায়ন</strong><br/>বিক্রিয়ার এনথ্যালপি (\(\Delta H = H_{\text{products}} - H_{\text{reactants}}\)) কেবল প্রাথমিক এবং চূড়ান্ত অবস্থার ওপর নির্ভর করে এবং অনুঘটক দ্বারা প্রভাবিত হয় না। সুতরাং, দৃঢ়তাটি সঠিক।</p>
+<p><strong>ধাপ ২: কারণ মূল্যায়ন</strong><br/>একটি অনুঘটক বিক্রিয়ায় অংশগ্রহণ করে কম সক্রিয়ণ শক্তিবিশিষ্ট একটি বিকল্প সক্রিয় জটিল যৌগ গঠন করে, কিন্তু বিক্রিয়ক ও বিক্রিয়াজাত পদার্থের শক্তি অপরিবর্তিত থাকে, ফলে তাদের শক্তির পার্থক্য (\(\Delta H\)) একই থাকে। সুতরাং, কারণটি সঠিক এবং এটি দৃঢ়তাকে সঠিকভাবে ব্যাখ্যা করে।</p>
+<p><strong>ধাপ ৩: চূড়ান্ত সিদ্ধান্ত</strong><br/>দৃঢ়তা এবং কারণ উভয়ই সঠিক এবং কারণ হলো দৃঢ়তার সঠিক ব্যাখ্যা।</p>]]></text></generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>false</shuffleanswers>
+  <answernumbering>iii</answernumbering>
+  <answer fraction="100" format="html"><text><![CDATA[<p>Both assertion and reason are correct and the reason is correct explanation of assertion.</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>Both assertion and reason are correct but reason does not explain assertion.</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>Assertion is correct but reason is incorrect.</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>Both assertion and reason are incorrect.</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>Assertion is incorrect but reason is correct.</p>]]></text></answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:bn</text></tag>
+    <tag><text>subject:chemistry</text></tag>
+    <tag><text>section:assertion_reason</text></tag>
+    <tag><text>class:class_12</text></tag>
+    <tag><text>chapter:chemical_kinetics</text></tag>
+    <tag><text>typology:assertion_reason</text></tag>
+    <tag><text>difficulty:easy</text></tag>
+    <tag><text>blooms:understand</text></tag>
+    <tag><text>media:text</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+<question type="multichoice">
+  <name><text>NEET_UG_CHEMISTRY_CHEMICALKINETICS_AR_Q60 - Assertion and Reason on effective collisions and product formation</text></name>
+  <questiontext format="html"><text><![CDATA[<p><strong>Assertion :</strong> All collision of reactant molecules lead to product formation.<br/><strong>Reason :</strong> Only those collisions in which molecules have correct orientation and sufficient kinetic energy lead to compound formation.</p><hr/><p><strong>দৃঢ়তা (Assertion) :</strong> বিক্রিয়ক অণুগুলোর সকল সংঘর্ষই বিক্রিয়াজাত পদার্থ গঠনের দিকে পরিচালিত করে।<br/><strong>কারণ (Reason) :</strong> কেবল সেই সংঘর্ষগুলোই যৌগ গঠনের দিকে পরিচালিত করে যেগুলোতে অণুগুলোর সঠিক অভিমুখ এবং পর্যাপ্ত গতিশক্তি থাকে।</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Evaluate the Assertion</strong><br/>According to collision theory, not every collision between reactant molecules results in product formation; only effective collisions do. Thus, the assertion is incorrect.</p>
+<p><strong>Step 2: Evaluate the Reason</strong><br/>For a collision to be effective and lead to product formation, the colliding molecules must possess kinetic energy equal to or greater than the threshold energy and must collide with proper spatial orientation. Thus, the reason is correct.</p>
+<p><strong>Step 3: Final Conclusion</strong><br/>Assertion is incorrect, but reason is correct.</p><hr/><p><strong>ধাপ ১: দৃঢ়তা মূল্যায়ন</strong><br/>সংঘর্ষ তত্ত্ব অনুযায়ী, বিক্রিয়ক অণুগুলোর প্রতিটি সংঘর্ষ থেকে বিক্রিয়াজাত পদার্থ তৈরি হয় না; কেবল কার্যকরী সংঘর্ষ থেকেই উৎপাদ গঠিত হয়। সুতরাং, দৃঢ়তাটি ভুল।</p>
+<p><strong>ধাপ ২: কারণ মূল্যায়ন</strong><br/>একটি সংঘর্ষ কার্যকরী হয়ে বিক্রিয়াজাত পদার্থ গঠন করতে হলে সংঘর্ষরত অণুগুলোর প্রারম্ভিক শক্তির সমান বা তার বেশি গতিশক্তি থাকতে হয় এবং সঠিক ত্রিমাত্রিক অভিমুখে সংঘর্ষ হতে হয়। সুতরাং, কারণটি সঠিক।</p>
+<p><strong>ধাপ ৩: চূড়ান্ত সিদ্ধান্ত</strong><br/>দৃঢ়তা ভুল, কিন্তু কারণ সঠিক।</p>]]></text></generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>false</shuffleanswers>
+  <answernumbering>iii</answernumbering>
+  <answer fraction="0" format="html"><text><![CDATA[<p>Both assertion and reason are correct and the reason is correct explanation of assertion.</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>Both assertion and reason are correct but reason does not explain assertion.</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>Assertion is correct but reason is incorrect.</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>Both assertion and reason are incorrect.</p>]]></text></answer>
+  <answer fraction="100" format="html"><text><![CDATA[<p>Assertion is incorrect but reason is correct.</p>]]></text></answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:bn</text></tag>
+    <tag><text>subject:chemistry</text></tag>
+    <tag><text>section:assertion_reason</text></tag>
+    <tag><text>class:class_12</text></tag>
+    <tag><text>chapter:chemical_kinetics</text></tag>
+    <tag><text>typology:assertion_reason</text></tag>
+    <tag><text>difficulty:easy</text></tag>
+    <tag><text>blooms:understand</text></tag>
+    <tag><text>media:text</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+<question type="multichoice">
+  <name><text>NEET_UG_CHEMISTRY_CHEMICALKINETICS_AR_Q61 - Assertion and Reason on Arrhenius equation and molecular orientation</text></name>
+  <questiontext format="html"><text><![CDATA[<p><strong>Assertion :</strong> Rate constants determined from Arrhenius equation are fairly accurate for simple as well as complex molecules.<br/><strong>Reason :</strong> Reactant molecules undergo chemical change irrespective of their orientation during collision.</p><hr/><p><strong>দৃঢ়তা (Assertion) :</strong> আরহেনিয়াস সমীকরণ থেকে নির্ণীত হার ধ্রুবকগুলো সরল এবং জটিল উভয় প্রকার অণুর জন্যই বেশ নির্ভুল হয়।<br/><strong>কারণ (Reason) :</strong> সংঘর্ষের সময় অভিমুখ নির্বিশেষে বিক্রিয়ক অণুগুলো রাসায়নিক পরিবর্তনের মধ্য দিয়ে যায়।</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Evaluate the Assertion</strong><br/>The Arrhenius equation \(k = A e^{-E_a/RT}\) gives fairly accurate values of rate constants for both simple and complex molecules because the pre-exponential factor \(A\) empirically accounts for collision frequency and steric orientation effects. Thus, the assertion is correct.</p>
+<p><strong>Step 2: Evaluate the Reason</strong><br/>Reactant molecules do not undergo chemical change irrespective of their orientation; proper orientation during collision is essential for breaking old bonds and forming new ones. Thus, the reason is incorrect.</p>
+<p><strong>Step 3: Final Conclusion</strong><br/>Assertion is correct, but reason is incorrect.</p><hr/><p><strong>ধাপ ১: দৃঢ়তা মূল্যায়ন</strong><br/>আরহেনিয়াস সমীকরণ \(k = A e^{-E_a/RT}\) সরল এবং জটিল উভয় প্রকার অণুর জন্যই হার ধ্রুবকের বেশ নির্ভুল মান প্রদান করে কারণ প্রাক-সূচকীয় গুণক \(A\) পরীক্ষামূলকভাবে সংঘর্ষের কম্পাঙ্ক এবং স্থানিক অভিমুখের প্রভাবকে অন্তর্ভুক্ত করে। সুতরাং, দৃঢ়তাটি সঠিক।</p>
+<p><strong>ধাপ ২: কারণ মূল্যায়ন</strong><br/>সংঘর্ষের সময় অভিমুখ নির্বিশেষে বিক্রিয়ক অণুগুলোতে রাসায়নিক পরিবর্তন ঘটে না; পুরোনো বন্ধন ভাঙা এবং নতুন বন্ধন গঠনের জন্য সংঘর্ষের সময় সঠিক অভিমুখ থাকা অপরিহার্য। সুতরাং, কারণটি ভুল।</p>
+<p><strong>ধাপ ৩: চূড়ান্ত সিদ্ধান্ত</strong><br/>দৃঢ়তা সঠিক, কিন্তু কারণ ভুল।</p>]]></text></generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>false</shuffleanswers>
+  <answernumbering>iii</answernumbering>
+  <answer fraction="0" format="html"><text><![CDATA[<p>Both assertion and reason are correct and the reason is correct explanation of assertion.</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>Both assertion and reason are correct but reason does not explain assertion.</p>]]></text></answer>
+  <answer fraction="100" format="html"><text><![CDATA[<p>Assertion is correct but reason is incorrect.</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>Both assertion and reason are incorrect.</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>Assertion is incorrect but reason is correct.</p>]]></text></answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:bn</text></tag>
+    <tag><text>subject:chemistry</text></tag>
+    <tag><text>section:assertion_reason</text></tag>
+    <tag><text>class:class_12</text></tag>
+    <tag><text>chapter:chemical_kinetics</text></tag>
+    <tag><text>typology:assertion_reason</text></tag>
+    <tag><text>difficulty:medium</text></tag>
+    <tag><text>blooms:understand</text></tag>
+    <tag><text>media:text</text></tag>
     <tag><text>multiconcept:false</text></tag>
   </tags>
 </question>

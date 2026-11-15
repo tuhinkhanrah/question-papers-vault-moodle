@@ -1,62 +1,602 @@
-<question type="matching">
-  <name><text>NEET_UG_PHYSICS_2026_SYSTEMOFPARTICLESANDROTATIONALMOTION_MATCHING_Q17 - Equilibrium and rotation of a pulled cube</text></name>
-  <questiontext format="html">
-    <text><![CDATA[<p>A uniform cube of mass \(m\) and side \(a\) is placed on a frictionless horizontal surface. A vertical force \(F\) is applied to the edge as shown in Fig. 7.8. Match the following (most appropriate choice):</p><p><img src="@@PLUGINFILE@@/img-7.jpeg" alt="Fig. 7.8" /></p><hr/><p>\(m\) ভরের এবং \(a\) বাহুবিশিষ্ট একটি সুষম ঘনক একটি ঘর্ষণহীন অনুভূমিক তলের ওপর রাখা আছে। চিত্র 7.8-এ প্রদর্শিত অনুযায়ী ঘনকের একটি প্রান্তে উল্লম্ব বল \(F\) প্রয়োগ করা হলো। নিচের বিষয়গুলির মধ্যে সঠিক মিল নির্ণয় করো:</p><p><img src="@@PLUGINFILE@@/img-7.jpeg" alt="চিত্র 7.8" /></p>]]></text>
-  </questiontext>
-  <generalfeedback format="html">
-    <text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>A uniform cube of mass \(m\) and side length \(a\) rests on a smooth, frictionless horizontal surface.<br/>The downward gravitational force \(mg\) acts at the centre of mass of the cube, which is at a horizontal distance of \(a/2\) from the bottom pivoting edge A.<br/>An upward vertical force \(F\) is applied at the opposite top edge, located at a horizontal distance of \(a\) from edge A.<br/>The normal reaction force \(N\) from the floor acts vertically upward at an effective distance \(x\) from edge A.</p>
-<p><strong>Step 2: Translational and Rotational Equilibrium</strong><br/>For translational equilibrium in the vertical direction:
-\[N + F = mg \implies N = mg - F\]
-For rotational equilibrium about the edge A, the net torque must be zero:
-\[\sum \tau_A = F \cdot a + N \cdot x - mg \cdot \frac{a}{2} = 0\]
-Substituting \(N = mg - F\):
-\[F a + (mg - F)x - \frac{mg a}{2} = 0 \implies x = a \frac{\frac{mg}{2} - F}{mg - F}\]</p>
-<p><strong>Step 3: Evaluation of Force Ranges</strong><br/>- For the condition \(F = \frac{mg}{4}\):
-\[N = mg - \frac{mg}{4} = \frac{3mg}{4}\]
-\[x = a \frac{\frac{mg}{2} - \frac{mg}{4}}{mg - \frac{mg}{4}} = a \frac{\frac{mg}{4}}{\frac{3mg}{4}} = \frac{a}{3}\]
-Thus, the normal reaction acts effectively at a distance of \(a/3\) from edge A, and the cube remains in equilibrium with no motion.<br/>- For the range \(\frac{mg}{4} < F < \frac{mg}{2}\):
-Since \(F < \frac{mg}{2}\), the position \(x\) satisfies \(0 < x < \frac{a}{3}\) and \(N > 0\). The normal force line of action remains comfortably within the base of the cube, so the cube will not exhibit motion.<br/>- For the condition \(F > \frac{mg}{2}\) (with \(F < mg\)):
-The applied torque \(F \cdot a\) exceeds the maximum restoring torque exerted by gravity \(mg \cdot \frac{a}{2}\). The cube therefore begins to rotate about edge A. Because the supporting horizontal surface is completely frictionless, the edge at A cannot provide any horizontal frictional reaction and therefore slips along the surface.<br/>- For the condition \(F > mg\):
-The upward applied force exceeds the downward gravitational weight of the cube, resulting in a net upward vertical acceleration. Thus, the cube will move up.</p>
-<p><strong>Step 4: Final Conclusion</strong><br/>The correct matching correspondences are:
-\(mg/4 < F < mg/2\) matches with cube will not exhibit motion;
-\(F > mg/2\) matches with cube will begin to rotate and slip at A;
-\(F > mg\) matches with cube will move up; and
-\(F = mg/4\) matches with normal reaction effectively at \(a/3\) from A, no motion.</p>
+<question type="multichoice">
+  <name><text>NEET_UG_PHYSICS_MCQI_CH07_MCQ_Q7_1 - Centre of mass lying outside the body</text></name>
+  <questiontext format="html"><text><![CDATA[<p>7.1 For which of the following does the centre of mass lie outside the body?</p><hr/><p>৭.১ নিচের কোনটির ভরকেন্দ্র বস্তুর বাইরে অবস্থান করে?</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>The centre of mass of a rigid body is the weighted average position of its mass distribution. For a uniform, solid, convex object, the centre of mass lies inside the material of the body. However, for a hollow or ring-shaped object, the mass is distributed around an empty central region, so the centre of mass can lie in the empty space outside the material.</p>
+<p><strong>Step 2: Evaluation</strong><br/>A pencil, a shotput (solid sphere), and a dice (solid cube) are all solid objects whose mass is distributed throughout their interior, so their centres of mass lie inside the body. A bangle is a thin circular ring; by symmetry, its centre of mass lies at its geometric centre, where there is no material.</p>
+<p><strong>Step 3: Final Conclusion</strong><br/>Therefore, the centre of mass lies outside the body for a bangle.</p>
 <hr/>
-<p><strong>ধাপ ১: প্রদত্ত উপাত্ত এবং শর্তাবলী</strong><br/>\(m\) ভর ও \(a\) বাহুবিশিষ্ট একটি সুষম ঘনক একটি মসৃণ ঘর্ষণহীন অনুভূমিক তলে অবস্থিত।<br/>ঘনকের ভরকেন্দ্র দিয়ে অভিকর্ষ বল \(mg\) উল্লম্বভাবে নিচের দিকে ক্রিয়া করে, যা A প্রান্ত থেকে অনুভূমিক দূরত্বে \(a/2\)-এ রয়েছে।<br/>A প্রান্ত থেকে অনুভূমিক দূরত্ব \(a\)-এ অবস্থিত বিপরীত শীর্ষ প্রান্তে উল্লম্বভাবে ওপরের দিকে বল \(F\) প্রযুক্ত হয়।<br/>মেঝে থেকে লম্ব প্রতিক্রিয়া বল \(N\) উল্লম্বভাবে ওপরের দিকে A প্রান্ত থেকে কার্যকর দূরত্ব \(x\)-এ ক্রিয়াশীল।</p>
-<p><strong>ধাপ ২: চলন ও ঘূর্ণন সাম্যাবস্থা</strong><br/>উল্লম্ব দিকে চলন সাম্যাবস্থার জন্য:
-\[N + F = mg \implies N = mg - F\]
-A প্রান্তের সাপেক্ষে ঘূর্ণন সাম্যাবস্থার শর্তানুযায়ী মোট টর্ক শূন্য হতে হবে:
-\[\sum \tau_A = F \cdot a + N \cdot x - mg \cdot \frac{a}{2} = 0\]
-\(N = mg - F\) প্রতিস্থাপন করে পাওয়া যায়:
-\[F a + (mg - F)x - \frac{mg a}{2} = 0 \implies x = a \frac{\frac{mg}{2} - F}{mg - F}\]</p>
-<p><strong>ধাপ ৩: বিভিন্ন বলের সীমার বিশ্লেষণ</strong><br/>- \(F = \frac{mg}{4}\) হওয়ার ক্ষেত্রে:
-\[x = a \frac{\frac{mg}{4}}{\frac{3mg}{4}} = \frac{a}{3}\]
-অর্থাৎ লম্ব প্রতিক্রিয়া বলটি কার্যকরভাবে A প্রান্ত থেকে \(a/3\) দূরত্বে অবস্থান করে এবং ঘনকটি সম্পূর্ণরূপে স্থির থাকে, কোনো গতি সৃষ্টি হয় না।<br/>- \(\frac{mg}{4} < F < \frac{mg}{2}\) হওয়ার ক্ষেত্রে:
-যেহেতু \(F < \frac{mg}{2}\), তাই \(x > 0\) এবং \(N > 0\)। লম্ব প্রতিক্রিয়া বলের অবস্থান ঘনকের ভূমির সীমার মধ্যেই থাকে এবং ঘনকটি কোনো গতি প্রদর্শন করে না।<br/>- \(F > \frac{mg}{2}\) (কিন্তু \(F < mg\)) হওয়ার ক্ষেত্রে:
-A প্রান্তের সাপেক্ষে প্রযুক্ত ঊর্ধ্বমুখী বলের টর্ক অভিকর্ষের পুনরুদ্ধারক টর্কের চেয়ে বেশি হয়। ফলে ঘনকটি A প্রান্তের সাপেক্ষে আবর্তিত হতে শুরু করে এবং ঘর্ষণহীন তলের কারণে A প্রান্তে পিছলে যায়।<br/>- \(F > mg\) হওয়ার ক্ষেত্রে:
-মোট প্রযুক্ত ঊর্ধ্বমুখী বল ঘনকের ওজনের চেয়ে বেশি হওয়ায় ঘনকটিতে ঊর্ধ্বমুখী ত্বরণ সৃষ্টি হয় এবং ঘনকটি ওপরের দিকে উঠবে।</p>
-<p><strong>ধাপ ৪: চূড়ান্ত সিদ্ধান্ত</strong><br/>সঠিক মিলসমূহ হলো:
-\(mg/4 < F < mg/2\)-এর সাথে কোনো গতি প্রদর্শন করবে না;
-\(F > mg/2\)-এর সাথে ঘনকটি ঘুরতে শুরু করবে এবং A বিন্দুতে পিছলে যাবে;
-\(F > mg\)-এর সাথে ঘনকটি ওপরের দিকে উঠবে; এবং
-\(F = mg/4\)-এর সাথে লম্ব প্রতিক্রিয়া বল A থেকে \(a/3\) দূরত্বে কার্যকর থাকবে এবং কোনো গতি হবে না।</p>]]></text>
-  </generalfeedback>
+<p><strong>ধাপ ১: মূল ধারণা</strong><br/>কোনো দৃঢ় বস্তুর ভরকেন্দ্র হলো তার ভর বণ্টনের গড় অবস্থান। সুষম ও নিরেট বস্তুর ক্ষেত্রে ভরকেন্দ্র বস্তুর উপাদানের ভেতরেই থাকে। কিন্তু ফাঁপা বা বলয়াকৃতি বস্তুর ক্ষেত্রে ভর একটি খালি কেন্দ্রের চারপাশে বণ্টিত থাকে, ফলে ভরকেন্দ্র বস্তুর উপাদানের বাইরে খালি স্থানে অবস্থান করতে পারে।</p>
+<p><strong>ধাপ ২: মূল্যায়ন</strong><br/>একটি পেন্সিল, একটি শটপাট (নিরেট গোলক) এবং একটি ছক্কা (নিরেট ঘনক)—এই সবগুলোই নিরেট বস্তু, তাই এদের ভরকেন্দ্র বস্তুর ভেতরেই থাকে। অন্যদিকে, একটি চুড়ি হলো একটি সরু বৃত্তাকার বলয়; প্রতিসাম্যের কারণে এর ভরকেন্দ্র এর জ্যামিতিক কেন্দ্রে অবস্থান করে, যেখানে কোনো উপাদান নেই।</p>
+<p><strong>ধাপ ৩: চূড়ান্ত সিদ্ধান্ত</strong><br/>অতএব, একটি চুড়ির ভরকেন্দ্র বস্তুর বাইরে অবস্থান করে।</p>]]></text></generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="0" format="html"><text><![CDATA[<p>A pencil</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>A shotput</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>A dice</p>]]></text></answer>
+  <answer fraction="100" format="html"><text><![CDATA[<p>A bangle</p>]]></text></answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:bn</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>section:mcq_i</text></tag>
+    <tag><text>class:11</text></tag>
+    <tag><text>chapter:system_of_particles_and_rotational_motion</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:easy</text></tag>
+    <tag><text>blooms:understand</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:text</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+
+<question type="multichoice">
+  <name><text>NEET_UG_PHYSICS_MCQI_CH07_MCQ_Q7_2 - Likely position of centre of mass of sphere</text></name>
+  <questiontext format="html"><text><![CDATA[<p>7.2 Which of the following points is the likely position of the centre of mass of the system shown in Fig. 7.1?</p><p><img src="@@PLUGINFILE@@/img-0.jpeg" alt="Hollow sphere half filled with air and half filled with sand" /></p><hr/><p>৭.২ চিত্র ৭.১-এ প্রদর্শিত সংস্থাটির ভরকেন্দ্রের সম্ভাব্য অবস্থান নিচের কোন বিন্দুতে হবে?</p><p><img src="@@PLUGINFILE@@/img-0.jpeg" alt="বাতাস ও বালি দিয়ে অর্ধপূর্ণ ফাঁপা গোলক" /></p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>A hollow sphere has its upper half filled with air and its lower half filled with sand. Four points A, B, C, and D lie along the vertical diameter: A is in the upper air-filled half, B is at the geometric centre (interface between air and sand), C is in the lower sand-filled half just below the centre, and D is near the bottom of the sphere.</p>
+<p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>The hollow spherical shell itself is uniform, so its centre of mass lies at the geometric centre B. Both air and sand are uniformly distributed in their respective hemispheres. Since sand is much denser than air, the mass of sand in the lower hemisphere is vastly greater than the mass of air in the upper hemisphere.</p>
+<p><strong>Step 3: Relevant Formulae and Principles</strong><br/>The centre of mass of a two-part system lies along the line joining their individual centres of mass and is closer to the heavier mass: \(y_{\text{CM}} = \frac{m_{\text{shell}} y_{\text{shell}} + m_{\text{air}} y_{\text{air}} + m_{\text{sand}} y_{\text{sand}}}{m_{\text{shell}} + m_{\text{air}} + m_{\text{sand}}}\).</p>
+<p><strong>Step 4: Step-by-Step Working</strong><br/>For a uniform solid hemisphere of radius \(R\), the centre of mass lies at a distance \(\frac{3R}{8}\) from the flat base. Neglecting the small mass of air compared to sand, the centre of mass of the sand hemisphere lies at \(\frac{3R}{8}\) below the centre B (well inside the lower half, not at the very bottom D). Combining this with the mass of the hollow shell (whose CM is at B) pulls the overall centre of mass slightly closer to B, placing it in the lower half near C.</p>
+<p><strong>Step 5: Check and Final Answer</strong><br/>Because the lower half is much heavier than the upper half, the centre of mass must lie below B, yet above the bottom edge D. Hence, the likely position of the centre of mass is point C.</p>
+<hr/>
+<p><strong>ধাপ ১: প্রদত্ত তথ্য ও শর্তাবলি</strong><br/>একটি ফাঁপা গোলকের উপরের অর্ধাংশ বাতাস দ্বারা এবং নিচের অর্ধাংশ বালি দ্বারা পূর্ণ। উল্লম্ব ব্যাস বরাবর চারটি বিন্দু A, B, C ও D অবস্থিত: A উপরের বাতাসপূর্ণ অর্ধাংশে, B জ্যামিতিক কেন্দ্রে (বাতাস ও বালির বিভেদতলে), C নিচের বালিপূর্ণ অর্ধাংশে কেন্দ্রের ঠিক নিচে এবং D গোলকের তলদেশের কাছাকাছি অবস্থিত।</p>
+<p><strong>ধাপ ২: অনুমান ও চিহ্ন প্রথা</strong><br/>ফাঁপা গোলকটির খোলস সুষম, তাই খোলসের ভরকেন্দ্র জ্যামিতিক কেন্দ্র B-তে অবস্থিত। বাতাস ও বালি নিজ নিজ অর্ধগোলকে সুষমভাবে বণ্টিত। যেহেতু বালির ঘনত্ব বাতাসের তুলনায় অনেক বেশি, তাই নিচের অর্ধগোলকের বালির ভর উপরের অর্ধগোলকের বাতাসের ভরের চেয়ে অনেক বেশি।</p>
+<p><strong>ধাপ ৩: প্রাসঙ্গিক সূত্র ও নীতি</strong><br/>একাধিক অংশের সমন্বয়ে গঠিত সংস্থার ভরকেন্দ্র পৃথক ভরকেন্দ্রগুলোর সংযোজক সরলরেখা বরাবর ভারী অংশের দিকে সরে যায়: \(y_{\text{CM}} = \frac{m_{\text{shell}} y_{\text{shell}} + m_{\text{air}} y_{\text{air}} + m_{\text{sand}} y_{\text{sand}}}{m_{\text{shell}} + m_{\text{air}} + m_{\text{sand}}}\)।</p>
+<p><strong>ধাপ ৪: ধাপে ধাপে সমাধান</strong><br/>\(R\) ব্যাসার্ধের একটি সুষম নিরেট অর্ধগোলকের ভরকেন্দ্র তার সমতল ভূমি থেকে \(\frac{3R}{8}\) দূরত্বে থাকে। বালির তুলনায় বাতাসের ভর নগণ্য ধরলে, বালির অর্ধগোলকের ভরকেন্দ্র B বিন্দু থেকে \(\frac{3R}{8}\) নিচে অবস্থান করে (একদম তলদেশ D-তে নয়)। এর সাথে খোলসের ভর (যার ভরকেন্দ্র B-তে) যুক্ত হলে সম্মিলিত ভরকেন্দ্র B-এর কিছুটা কাছাকাছি নিচের অর্ধাংশে, অর্থাৎ C বিন্দুতে অবস্থান করে।</p>
+<p><strong>ধাপ ৫: যাচাই ও চূড়ান্ত উত্তর</strong><br/>নিচের অর্ধাংশ অনেক বেশি ভারী হওয়ায় ভরকেন্দ্র অবশ্যই B-এর নিচে কিন্তু D-এর উপরে থাকবে। সুতরাং, সংস্থাটির ভরকেন্দ্রের সম্ভাব্য অবস্থান হলো C বিন্দু।</p>]]></text></generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="0" format="html"><text><![CDATA[<p>A</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>B</p>]]></text></answer>
+  <answer fraction="100" format="html"><text><![CDATA[<p>C</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>D</p>]]></text></answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:bn</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>section:mcq_i</text></tag>
+    <tag><text>class:11</text></tag>
+    <tag><text>chapter:system_of_particles_and_rotational_motion</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:easy</text></tag>
+    <tag><text>blooms:understand</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:diagram</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+
+<question type="multichoice">
+  <name><text>NEET_UG_PHYSICS_MCQI_CH07_MCQ_Q7_3 - Change in angular momentum upon elastic bounce</text></name>
+  <questiontext format="html"><text><![CDATA[<p>7.3 A particle of mass \(m\) is moving in \(yz\)-plane with a uniform velocity \(v\) with its trajectory running parallel to \(+\text{ve}\) \(y\)-axis and intersecting \(z\)-axis at \(z = a\) (Fig. 7.2). The change in its angular momentum about the origin as it bounces elastically from a wall at \(y = \text{constant}\) is:</p><p><img src="@@PLUGINFILE@@/img-1.jpeg" alt="Particle moving parallel to y-axis at z = a towards a wall" /></p><hr/><p>৭.৩ \(m\) ভরের একটি কণা \(yz\)-তলে \(v\) সুষম বেগে গতিশীল, যার গতিপথ ধনাত্মক \(y\)-অক্ষের সমান্তরাল এবং \(z\)-অক্ষকে \(z = a\) বিন্দুতে ছেদ করে (চিত্র ৭.২)। \(y = \text{ধ্রুবক}\) অবস্থানে থাকা একটি দেয়াল থেকে স্থিতিস্থাপকভাবে প্রতিফলিত হলে মূলবিন্দুর সাপেক্ষে কণাটির কৌণিক ভরবেগের পরিবর্তন কত হবে?</p><p><img src="@@PLUGINFILE@@/img-1.jpeg" alt="z = a অবস্থানে y-অক্ষের সমান্তরালে দেয়ালের দিকে গতিশীল কণা" /></p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>Mass of the particle = \(m\). Initial velocity \(\mathbf{v}_i = v\hat{\mathbf{e}}_y\) in the \(yz\)-plane along the line \(z = a\). The particle bounces elastically off a wall at \(y = \text{constant}\).</p>
+<p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>Let \(\hat{\mathbf{e}}_x, \hat{\mathbf{e}}_y, \hat{\mathbf{e}}_z\) form a right-handed Cartesian coordinate system, so \(\hat{\mathbf{e}}_y \times \hat{\mathbf{e}}_y = \mathbf{0}\) and \(\hat{\mathbf{e}}_z \times \hat{\mathbf{e}}_y = -\hat{\mathbf{e}}_x\). Since the collision with the wall at \(y = \text{constant}\) is elastic and normal to the wall (along the \(y\)-direction), the velocity reverses direction after bouncing: \(\mathbf{v}_f = -v\hat{\mathbf{e}}_y\). At the wall, the position vector of the particle is \(\mathbf{r} = y\hat{\mathbf{e}}_y + a\hat{\mathbf{e}}_z\).</p>
+<p><strong>Step 3: Relevant Formulae and Principles</strong><br/>Angular momentum about the origin is \(\mathbf{L} = \mathbf{r} \times \mathbf{p} = \mathbf{r} \times m\mathbf{v}\). The change in angular momentum is \(\Delta \mathbf{L} = \mathbf{L}_f - \mathbf{L}_i\).</p>
+<p><strong>Step 4: Step-by-Step Working</strong><br/>Initial angular momentum before the bounce:
+\[\mathbf{L}_i = (y\hat{\mathbf{e}}_y + a\hat{\mathbf{e}}_z) \times (mv\hat{\mathbf{e}}_y) = mva(\hat{\mathbf{e}}_z \times \hat{\mathbf{e}}_y) = -mva\hat{\mathbf{e}}_x\]
+Final angular momentum after the elastic bounce:
+\[\mathbf{L}_f = (y\hat{\mathbf{e}}_y + a\hat{\mathbf{e}}_z) \times (-mv\hat{\mathbf{e}}_y) = -mva(\hat{\mathbf{e}}_z \times \hat{\mathbf{e}}_y) = +mva\hat{\mathbf{e}}_x\]
+Therefore, the change in angular momentum is:
+\[\Delta \mathbf{L} = \mathbf{L}_f - \mathbf{L}_i = mva\hat{\mathbf{e}}_x - (-mva\hat{\mathbf{e}}_x) = 2mva\hat{\mathbf{e}}_x\]</p>
+<p><strong>Step 5: Check and Final Answer</strong><br/>The dimensions of \(mva\) are \([\text{M L}^2 \text{T}^{-1}]\), matching angular momentum, and \(\Delta \mathbf{L}\) is independent of \(y\) as required for motion parallel to the \(y\)-axis. Thus, the change in angular momentum is \(2mva\hat{\mathbf{e}}_x\).</p>
+<hr/>
+<p><strong>ধাপ ১: প্রদত্ত তথ্য ও শর্তাবলি</strong><br/>কণাটির ভর = \(m\)। \(yz\)-তলে \(z = a\) রেখা বরাবর প্রাথমিক বেগ \(\mathbf{v}_i = v\hat{\mathbf{e}}_y\)। কণাটি \(y = \text{ধ্রুবক}\) অবস্থানে থাকা একটি দেয়ালে স্থিতিস্থাপক সংঘর্ষের পর ফিরে আসে।</p>
+<p><strong>ধাপ ২: অনুমান ও চিহ্ন প্রথা</strong><br/>ধরি \(\hat{\mathbf{e}}_x, \hat{\mathbf{e}}_y, \hat{\mathbf{e}}_z\) একটি ডান-হাতি কার্তেসীয় স্থানাঙ্ক ব্যবস্থা গঠন করে, যেখানে \(\hat{\mathbf{e}}_y \times \hat{\mathbf{e}}_y = \mathbf{0}\) এবং \(\hat{\mathbf{e}}_z \times \hat{\mathbf{e}}_y = -\hat{\mathbf{e}}_x\)। দেয়ালটির সাথে সংঘর্ষ স্থিতিস্থাপক ও লম্বভাবে হওয়ায় প্রতিফলনের পর বেগের দিক বিপরীত হয়: \(\mathbf{v}_f = -v\hat{\mathbf{e}}_y\)। দেয়ালের কাছে কণাটির অবস্থান ভেক্টর \(\mathbf{r} = y\hat{\mathbf{e}}_y + a\hat{\mathbf{e}}_z\)।</p>
+<p><strong>ধাপ ৩: প্রাসঙ্গিক সূত্র ও নীতি</strong><br/>মূলবিন্দুর সাপেক্ষে কৌণিক ভরবেগ \(\mathbf{L} = \mathbf{r} \times \mathbf{p} = \mathbf{r} \times m\mathbf{v}\)। কৌণিক ভরবেগের পরিবর্তন \(\Delta \mathbf{L} = \mathbf{L}_f - \mathbf{L}_i\)।</p>
+<p><strong>ধাপ ৪: ধাপে ধাপে সমাধান</strong><br/>সংঘর্ষের পূর্বে প্রাথমিক কৌণিক ভরবেগ:
+\[\mathbf{L}_i = (y\hat{\mathbf{e}}_y + a\hat{\mathbf{e}}_z) \times (mv\hat{\mathbf{e}}_y) = mva(\hat{\mathbf{e}}_z \times \hat{\mathbf{e}}_y) = -mva\hat{\mathbf{e}}_x\]
+স্থিতিস্থাপক প্রতিফলনের পর চূড়ান্ত কৌণিক ভরবেগ:
+\[\mathbf{L}_f = (y\hat{\mathbf{e}}_y + a\hat{\mathbf{e}}_z) \times (-mv\hat{\mathbf{e}}_y) = -mva(\hat{\mathbf{e}}_z \times \hat{\mathbf{e}}_y) = +mva\hat{\mathbf{e}}_x\]
+অতএব, কৌণিক ভরবেগের পরিবর্তন:
+\[\Delta \mathbf{L} = \mathbf{L}_f - \mathbf{L}_i = mva\hat{\mathbf{e}}_x - (-mva\hat{\mathbf{e}}_x) = 2mva\hat{\mathbf{e}}_x\]</p>
+<p><strong>ধাপ ৫: যাচাই ও চূড়ান্ত উত্তর</strong><br/>\(mva\)-এর মাত্রা \([\text{M L}^2 \text{T}^{-1}]\), যা কৌণিক ভরবেগের মাত্রার সাথে মেলে এবং এটি \(y\)-এর ওপর নির্ভরশীল নয়। সুতরাং, কৌণিক ভরবেগের পরিবর্তন হলো \(2mva\hat{\mathbf{e}}_x\)।</p>]]></text></generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="0" format="html"><text><![CDATA[<p>\(mva \hat{\mathbf{e}}_x\)</p>]]></text></answer>
+  <answer fraction="100" format="html"><text><![CDATA[<p>\(2mva \hat{\mathbf{e}}_x\)</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>\(ymv \hat{\mathbf{e}}_x\)</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>\(2ymv \hat{\mathbf{e}}_x\)</p>]]></text></answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:bn</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>section:mcq_i</text></tag>
+    <tag><text>class:11</text></tag>
+    <tag><text>chapter:system_of_particles_and_rotational_motion</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:medium</text></tag>
+    <tag><text>blooms:apply</text></tag>
+    <tag><text>calculation:moderate</text></tag>
+    <tag><text>media:diagram</text></tag>
+    <tag><text>multiconcept:true</text></tag>
+  </tags>
+</question>
+
+<question type="multichoice">
+  <name><text>NEET_UG_PHYSICS_MCQI_CH07_MCQ_Q7_4 - Disc rotating with uniform angular velocity</text></name>
+  <questiontext format="html"><text><![CDATA[<p>7.4 When a disc rotates with uniform angular velocity, which of the following is not true?</p><hr/><p>৭.৪ যখন একটি চাকতি সুষম কৌণিক বেগে ঘূর্ণায়মান থাকে, তখন নিচের কোনটি সত্য নয়?</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>Uniform angular velocity means that the angular velocity vector \(\boldsymbol{\omega}\) is constant in both magnitude and direction over time (\(\boldsymbol{\omega} = \text{constant} \neq \mathbf{0}\) for a rotating disc).</p>
+<p><strong>Step 2: Evaluation</strong><br/>Since \(\boldsymbol{\omega}\) is constant in direction, both the orientation of the axis of rotation and the sense of rotation remain unchanged. Since \(\boldsymbol{\omega}\) is constant in magnitude, the speed of rotation is non-zero and remains constant. Angular acceleration is defined as the time rate of change of angular velocity: \(\boldsymbol{\alpha} = \frac{d\boldsymbol{\omega}}{dt} = \mathbf{0}\). Therefore, the statement that the angular acceleration is non-zero and remains the same is false.</p>
+<p><strong>Step 3: Final Conclusion</strong><br/>Hence, the statement that is not true is that the angular acceleration is non-zero and remains the same.</p>
+<hr/>
+<p><strong>ধাপ ১: মূল ধারণা</strong><br/>সুষম কৌণিক বেগের অর্থ হলো সময়ের সাথে কৌণিক বেগ ভেক্টর \(\boldsymbol{\omega}\)-এর মান এবং দিক উভয়ই অপরিবর্তিত থাকে (ঘূর্ণায়মান চাকতির ক্ষেত্রে \(\boldsymbol{\omega} = \text{ধ্রুবক} \neq \mathbf{0}\))।</p>
+<p><strong>ধাপ ২: মূল্যায়ন</strong><br/>যেহেতু \(\boldsymbol{\omega}\)-এর দিক ধ্রুবক, তাই ঘূর্ণন অক্ষের অভিমুখ এবং ঘূর্ণনের দিক একই থাকে। যেহেতু \(\boldsymbol{\omega}\)-এর মান ধ্রুবক, তাই ঘূর্ণন দ্রুতি অশূন্য ও অপরিবর্তিত থাকে। কৌণিক ত্বরণ হলো সময়ের সাপেক্ষে কৌণিক বেগের পরিবর্তনের হার: \(\boldsymbol{\alpha} = \frac{d\boldsymbol{\omega}}{dt} = \mathbf{0}\)। সুতরাং, কৌণিক ত্বরণ অশূন্য এবং একই থাকে—এই উক্তিটি মিথ্যা।</p>
+<p><strong>ধাপ ৩: চূড়ান্ত সিদ্ধান্ত</strong><br/>অতএব, কৌণিক ত্বরণ অশূন্য ও অপরিবর্তিত থাকে—এই উক্তিটি সত্য নয়।</p>]]></text></generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="0" format="html"><text><![CDATA[<p>The sense of rotation remains same.</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>The orientation of the axis of rotation remains same.</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>The speed of rotation is non-zero and remains same.</p>]]></text></answer>
+  <answer fraction="100" format="html"><text><![CDATA[<p>The angular acceleration is non-zero and remains same.</p>]]></text></answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:bn</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>section:mcq_i</text></tag>
+    <tag><text>class:11</text></tag>
+    <tag><text>chapter:system_of_particles_and_rotational_motion</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:easy</text></tag>
+    <tag><text>blooms:understand</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:text</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+
+<question type="multichoice">
+  <name><text>NEET_UG_PHYSICS_MCQI_CH07_MCQ_Q7_5 - Moment of inertia after moving piece to centre</text></name>
+  <questiontext format="html"><text><![CDATA[<p>7.5 A uniform square plate has a small piece \(Q\) of an irregular shape removed and glued to the centre of the plate leaving a hole behind (Fig. 7.3). The moment of inertia about the \(z\)-axis is then</p><p><img src="@@PLUGINFILE@@/img-2.jpeg" alt="Square plate with piece Q removed and glued to the centre" /></p><hr/><p>৭.৫ একটি সুষম বর্গাকার পাত থেকে অনিয়মিত আকৃতির একটি ছোট টুকরো \(Q\) কেটে নিয়ে পাতের কেন্দ্রে আঠা দিয়ে লাগানো হলো এবং সেখানে একটি ছিদ্র তৈরি হলো (চিত্র ৭.৩)। তাহলে \(z\)-অক্ষের সাপেক্ষে জড়তার ভ্রামক</p><p><img src="@@PLUGINFILE@@/img-2.jpeg" alt="বর্গাকার পাত থেকে Q অংশ কেটে কেন্দ্রে লাগানো হয়েছে" /></p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>A small piece \(Q\) of mass \(m_Q\) is removed from a point away from the centre of a uniform square plate and is glued at the centre of the plate (on the \(z\)-axis).</p>
+<p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>The \(z\)-axis passes through the centre of the square plate perpendicular to its plane. Originally, the piece \(Q\) was at some non-zero perpendicular distance \(r > 0\) from the \(z\)-axis. After gluing it at the centre, its perpendicular distance from the \(z\)-axis becomes \(r' \approx 0\) (or strictly less than \(r\)).</p>
+<p><strong>Step 3: Relevant Formulae and Principles</strong><br/>The moment of inertia of a system of particles about an axis is \(I = \sum m_i r_i^2\).</p>
+<p><strong>Step 4: Step-by-Step Working</strong><br/>Let \(I_{\text{initial}}\) be the moment of inertia of the original plate about the \(z\)-axis. When piece \(Q\) is removed from distance \(r\) and placed at the centre (\(r' = 0\)), the change in moment of inertia is:
+\[\Delta I = I_{\text{final}} - I_{\text{initial}} = m_Q (0)^2 - m_Q r^2 = -m_Q r^2 < 0\]
+Since mass has been brought closer to the axis of rotation, the moment of inertia decreases.</p>
+<p><strong>Step 5: Check and Final Answer</strong><br/>Moment of inertia increases when mass is distributed farther from the axis and decreases when mass is moved closer to the axis. Therefore, the moment of inertia about the \(z\)-axis is decreased.</p>
+<hr/>
+<p><strong>ধাপ ১: প্রদত্ত তথ্য ও শর্তাবলি</strong><br/>একটি সুষম বর্গাকার পাতের কেন্দ্র থেকে দূরে অবস্থিত একটি ছোট \(Q\) অংশ (ভর \(m_Q\)) কেটে নিয়ে পাতের কেন্দ্রে (\(z\)-অক্ষের ওপর) লাগানো হয়েছে।</p>
+<p><strong>ধাপ ২: অনুমান ও চিহ্ন প্রথা</strong><br/>\(z\)-অক্ষটি পাতের কেন্দ্র দিয়ে তলের সাথে লম্বভাবে যায়। পূর্বে \(Q\) অংশটি \(z\)-অক্ষ থেকে অশূন্য লম্ব দূরত্ব \(r > 0\)-এ ছিল। কেন্দ্রে লাগানোর পর \(z\)-অক্ষ থেকে এর লম্ব দূরত্ব \(r' \approx 0\) (বা \(r\)-এর চেয়ে অনেক কম) হয়।</p>
+<p><strong>ধাপ ৩: প্রাসঙ্গিক সূত্র ও নীতি</strong><br/>কোনো অক্ষের সাপেক্ষে জড়তার ভ্রামক হলো \(I = \sum m_i r_i^2\)।</p>
+<p><strong>ধাপ ৪: ধাপে ধাপে সমাধান</strong><br/>মূল পাতের \(z\)-অক্ষের সাপেক্ষে জড়তার ভ্রামক \(I_{\text{initial}}\) হলে, \(r\) দূরত্ব থেকে \(Q\) অংশটিকে কেন্দ্রে (\(r' = 0\)) আনলে জড়তার ভ্রামকের পরিবর্তন হয়:
+\[\Delta I = I_{\text{final}} - I_{\text{initial}} = m_Q (0)^2 - m_Q r^2 = -m_Q r^2 < 0\]
+যেহেতু ভর ঘূর্ণন অক্ষের কাছাকাছি সরে এসেছে, তাই জড়তার ভ্রামক হ্রাস পায়।</p>
+<p><strong>ধাপ ৫: যাচাই ও চূড়ান্ত উত্তর</strong><br/>অক্ষ থেকে ভর দূরে সরালে জড়তার ভ্রামক বাড়ে এবং কাছে আনলে কমে। অতএব, \(z\)-অক্ষের সাপেক্ষে জড়তার ভ্রামক হ্রাস পেয়েছে।</p>]]></text></generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="0" format="html"><text><![CDATA[<p>increased</p>]]></text></answer>
+  <answer fraction="100" format="html"><text><![CDATA[<p>decreased</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>the same</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>changed in unpredicted manner.</p>]]></text></answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:bn</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>section:mcq_i</text></tag>
+    <tag><text>class:11</text></tag>
+    <tag><text>chapter:system_of_particles_and_rotational_motion</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:easy</text></tag>
+    <tag><text>blooms:apply</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:diagram</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+
+<question type="multichoice">
+  <name><text>NEET_UG_PHYSICS_MCQI_CH07_MCQ_Q7_6 - Quadrant of new centre of mass</text></name>
+  <questiontext format="html"><text><![CDATA[<p>7.6 In problem 7.5, the CM of the plate is now in the following quadrant of \(x\)-\(y\) plane,</p><hr/><p>৭.৬ ৭.৫ নং সমস্যায়, পাতটির নতুন ভরকেন্দ্র এখন \(x\)-\(y\) তলের কোন পাদে (quadrant) অবস্থান করবে?</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>In the uniform square plate of problem 7.5 (Fig. 7.3), the origin \((0,0)\) is at the centre of the plate. The small piece \(Q\) is removed from the first quadrant \((x > 0, y > 0)\) and glued at the origin \((0,0)\).</p>
+<p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>Let \(M\) be the total mass of the original uniform plate (whose CM is at \((0,0)\)), and let \(m\) be the mass of piece \(Q\) initially centred at \((x_0, y_0)\) with \(x_0 > 0, y_0 > 0\).</p>
+<p><strong>Step 3: Relevant Formulae and Principles</strong><br/>Using the principle of superposition for centre of mass, removing mass \(m\) from \((x_0, y_0)\) and placing it at \((0,0)\) gives:
+\[x_{\text{CM}} = \frac{M(0) - m x_0 + m(0)}{M} = -\frac{m}{M} x_0, \quad y_{\text{CM}} = \frac{M(0) - m y_0 + m(0)}{M} = -\frac{m}{M} y_0\]</p>
+<p><strong>Step 4: Step-by-Step Working</strong><br/>Since \(x_0 > 0\) and \(y_0 > 0\), and \(m, M > 0\), we obtain:
+\[x_{\text{CM}} < 0 \quad \text{and} \quad y_{\text{CM}} < 0\]
+Points with both negative \(x\) and negative \(y\) coordinates lie in the third quadrant (III).</p>
+<p><strong>Step 5: Check and Final Answer</strong><br/>Removing mass from the first quadrant shifts the centre of mass in the opposite direction, into the third quadrant. Therefore, the CM of the plate is now in quadrant III.</p>
+<hr/>
+<p><strong>ধাপ ১: প্রদত্ত তথ্য ও শর্তাবলি</strong><br/>৭.৫ নং সমস্যার সুষম বর্গাকার পাতে (চিত্র ৭.৩) মূলবিন্দু \((0,0)\) পাতের কেন্দ্রে অবস্থিত। \(Q\) টুকরোটি প্রথম পাদ \((x > 0, y > 0)\) থেকে কেটে মূলবিন্দু \((0,0)\)-তে লাগানো হয়েছে।</p>
+<p><strong>ধাপ ২: অনুমান ও চিহ্ন প্রথা</strong><br/>ধরি মূল পাতের মোট ভর \(M\) (যার ভরকেন্দ্র \((0,0)\)-তে) এবং \(Q\) অংশের ভর \(m\), যা পূর্বে \((x_0, y_0)\) বিন্দুতে ছিল যেখানে \(x_0 > 0, y_0 > 0\)।</p>
+<p><strong>ধাপ ৩: প্রাসঙ্গিক সূত্র ও নীতি</strong><br/>ভরকেন্দ্রের উপরিপাতন নীতি অনুযায়ী \((x_0, y_0)\) থেকে \(m\) ভর সরিয়ে \((0,0)\)-তে স্থাপন করলে নতুন ভরকেন্দ্র:
+\[x_{\text{CM}} = \frac{M(0) - m x_0 + m(0)}{M} = -\frac{m}{M} x_0, \quad y_{\text{CM}} = \frac{M(0) - m y_0 + m(0)}{M} = -\frac{m}{M} y_0\]</p>
+<p><strong>ধাপ ৪: ধাপে ধাপে সমাধান</strong><br/>যেহেতু \(x_0 > 0, y_0 > 0\) এবং \(m, M > 0\), তাই:
+\[x_{\text{CM}} < 0 \quad \text{এবং} \quad y_{\text{CM}} < 0\]
+যে বিন্দুর \(x\) ও \(y\) উভয় স্থানাঙ্ক ঋণাত্মক, সেটি তৃতীয় পাদে (III) অবস্থান করে।</p>
+<p><strong>ধাপ ৫: যাচাই ও চূড়ান্ত উত্তর</strong><br/>প্রথম পাদ থেকে ভর অপসারণ করলে ভরকেন্দ্র বিপরীত দিকে অর্থাৎ তৃতীয় পাদে সরে যায়। অতএব, পাতের নতুন ভরকেন্দ্র তৃতীয় (III) পাদে অবস্থান করবে।</p>]]></text></generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="0" format="html"><text><![CDATA[<p>I</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>II</p>]]></text></answer>
+  <answer fraction="100" format="html"><text><![CDATA[<p>III</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>IV</p>]]></text></answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:bn</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>section:mcq_i</text></tag>
+    <tag><text>class:11</text></tag>
+    <tag><text>chapter:system_of_particles_and_rotational_motion</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:easy</text></tag>
+    <tag><text>blooms:apply</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:text</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+
+<question type="multichoice">
+  <name><text>NEET_UG_PHYSICS_MCQI_CH07_MCQ_Q7_7 - Centre of mass of non-uniform rod</text></name>
+  <questiontext format="html"><text><![CDATA[<p>7.7 The density of a non-uniform rod of length \(1\text{ m}\) is given by \(\rho(x) = a(1+bx^2)\) where \(a\) and \(b\) are constants and \(0 \leq x \leq 1\). The centre of mass of the rod will be at</p><hr/><p>৭.৭ \(1\text{ m}\) দৈর্ঘ্যের একটি অসম দণ্ডের রৈখিক ভর ঘনত্ব \(\rho(x) = a(1+bx^2)\), যেখানে \(a\) ও \(b\) ধ্রুবক এবং \(0 \leq x \leq 1\)। দণ্ডটির ভরকেন্দ্র কোথায় অবস্থিত হবে?</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>Length of the rod \(L = 1\text{ m}\), extending from \(x = 0\) to \(x = 1\). Linear mass density is \(\rho(x) = a(1 + bx^2)\).</p>
+<p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>The rod lies along the \(x\)-axis from \(x = 0\) to \(x = 1\) with \(a > 0\) and \(1 + bx^2 > 0\).</p>
+<p><strong>Step 3: Relevant Formulae and Principles</strong><br/>The centre of mass of a continuous one-dimensional mass distribution is given by:
+\[x_{\text{CM}} = \frac{\int_0^L x \rho(x)\, dx}{\int_0^L \rho(x)\, dx}\]</p>
+<p><strong>Step 4: Step-by-Step Working</strong><br/>First, compute the numerator:
+\[\int_0^1 x \cdot a(1 + bx^2)\, dx = a \int_0^1 (x + bx^3)\, dx = a \left[\frac{x^2}{2} + \frac{bx^4}{4}\right]_0^1 = a \left(\frac{1}{2} + \frac{b}{4}\right) = \frac{a(2 + b)}{4}\]
+Next, compute the denominator (total mass):
+\[\int_0^1 a(1 + bx^2)\, dx = a \left[x + \frac{bx^3}{3}\right]_0^1 = a \left(1 + \frac{b}{3}\right) = \frac{a(3 + b)}{3}\]
+Dividing the numerator by the denominator:
+\[x_{\text{CM}} = \frac{\frac{a(2 + b)}{4}}{\frac{a(3 + b)}{3}} = \frac{3(2 + b)}{4(3 + b)}\]</p>
+<p><strong>Step 5: Check and Final Answer</strong><br/>As a limiting check, when \(b = 0\) (uniform rod), \(x_{\text{CM}} = \frac{3(2)}{4(3)} = \frac{1}{2} = 0.5\text{ m}\), which is the exact midpoint. Thus, the centre of mass is at \(\frac{3(2 + b)}{4(3 + b)}\).</p>
+<hr/>
+<p><strong>ধাপ ১: প্রদত্ত তথ্য ও শর্তাবলি</strong><br/>দণ্ডটির দৈর্ঘ্য \(L = 1\text{ m}\), যা \(x = 0\) থেকে \(x = 1\) পর্যন্ত বিস্তৃত। রৈখিক ভর ঘনত্ব \(\rho(x) = a(1 + bx^2)\)।</p>
+<p><strong>ধাপ ২: অনুমান ও চিহ্ন প্রথা</strong><br/>দণ্ডটি \(x\)-অক্ষ বরাবর \(x = 0\) থেকে \(x = 1\) পর্যন্ত অবস্থিত এবং \(a > 0\) ও \(1 + bx^2 > 0\)।</p>
+<p><strong>ধাপ ৩: প্রাসঙ্গিক সূত্র ও নীতি</strong><br/>অবিচ্ছিন্ন একমাত্রিক ভর বণ্টনের ভরকেন্দ্রের অবস্থান:
+\[x_{\text{CM}} = \frac{\int_0^L x \rho(x)\, dx}{\int_0^L \rho(x)\, dx}\]</p>
+<p><strong>ধাপ ৪: ধাপে ধাপে সমাধান</strong><br/>প্রথমে লব নির্ণয় করি:
+\[\int_0^1 x \cdot a(1 + bx^2)\, dx = a \int_0^1 (x + bx^3)\, dx = a \left[\frac{x^2}{2} + \frac{bx^4}{4}\right]_0^1 = a \left(\frac{1}{2} + \frac{b}{4}\right) = \frac{a(2 + b)}{4}\]
+এরপর হর (মোট ভর) নির্ণয় করি:
+\[\int_0^1 a(1 + bx^2)\, dx = a \left[x + \frac{bx^3}{3}\right]_0^1 = a \left(1 + \frac{b}{3}\right) = \frac{a(3 + b)}{3}\]
+লবকে হর দিয়ে ভাগ করলে পাই:
+\[x_{\text{CM}} = \frac{\frac{a(2 + b)}{4}}{\frac{a(3 + b)}{3}} = \frac{3(2 + b)}{4(3 + b)}\]</p>
+<p><strong>ধাপ ৫: যাচাই ও চূড়ান্ত উত্তর</strong><br/>সীমান্ত যাচাই হিসেবে \(b = 0\) (সুষম দণ্ড) বসালে \(x_{\text{CM}} = \frac{3(2)}{4(3)} = \frac{1}{2} = 0.5\text{ m}\) পাওয়া যায়, যা দণ্ডের ঠিক মধ্যবিন্দু। অতএব, ভরকেন্দ্রের অবস্থান হলো \(\frac{3(2 + b)}{4(3 + b)}\)।</p>]]></text></generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="100" format="html"><text><![CDATA[<p>\(\frac{3(2+b)}{4(3+b)}\)</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>\(\frac{4(2+b)}{3(3+b)}\)</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>\(\frac{3(3+b)}{4(2+b)}\)</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>\(\frac{4(3+b)}{3(2+b)}\)</p>]]></text></answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:bn</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>section:mcq_i</text></tag>
+    <tag><text>class:11</text></tag>
+    <tag><text>chapter:system_of_particles_and_rotational_motion</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:medium</text></tag>
+    <tag><text>blooms:apply</text></tag>
+    <tag><text>calculation:moderate</text></tag>
+    <tag><text>media:equation</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+
+<question type="multichoice">
+  <name><text>NEET_UG_PHYSICS_MCQI_CH07_MCQ_Q7_8 - Angular speed of merry-go-round after person jumps</text></name>
+  <questiontext format="html"><text><![CDATA[<p>7.8 A Merry-go-round, made of a ring-like platform of radius \(R\) and mass \(M\), is revolving with angular speed \(\omega\). A person of mass \(M\) is standing on it. At one instant, the person jumps off the round, radially away from the centre of the round (as seen from the round). The speed of the round afterwards is</p><hr/><p>৭.৮ \(R\) ব্যাসার্ধ ও \(M\) ভরের একটি বলয়াকৃতি মেরি-গো-রাউন্ড \(\omega\) কৌণিক দ্রুতিতে ঘুরছে। \(M\) ভরের একজন ব্যক্তি এর ওপর দাঁড়িয়ে আছে। এক মুহূর্তে ব্যক্তিটি (রাউন্ডের সাপেক্ষে) কেন্দ্র থেকে ব্যাসার্ধ বরাবর বাইরের দিকে লাফ দিয়ে নেমে যায়। এরপর রাউন্ডটির কৌণিক দ্রুতি কত হবে?</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>Mass of the ring-like platform = \(M\), radius = \(R\), initial angular speed = \(\omega\). Mass of the person = \(M\), standing at radius \(R\). The person jumps off radially away from the centre as seen from the rotating round.</p>
+<p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>No external torque acts on the (platform + person) system about the vertical axis of rotation. Because the person jumps radially as seen from the round, the impulse exerted by the person on the round is purely radial and passes through the axis of rotation.</p>
+<p><strong>Step 3: Relevant Formulae and Principles</strong><br/>Conservation of angular momentum about the axis of rotation: \(L_i = L_f\). Moment of inertia of a ring of mass \(M\) and radius \(R\) is \(I_{\text{ring}} = MR^2\), and of the person at the rim is \(I_{\text{person}} = MR^2\).</p>
+<p><strong>Step 4: Step-by-Step Working</strong><br/>Before jumping, the total angular momentum is:
+\[L_i = (I_{\text{ring}} + I_{\text{person}})\omega = (MR^2 + MR^2)\omega = 2MR^2\omega\]
+When the person jumps radially outward relative to the round, the person retains the same tangential velocity \(v_t = \omega R\) as the rim at the instant of leaving. Thus, the person carries away angular momentum \(L_{\text{person}} = m v_t R = M(\omega R)R = MR^2\omega\). Let \(\omega'\) be the final angular speed of the round. By conservation of angular momentum:
+\[L_i = L_{\text{ring, f}} + L_{\text{person}} \implies 2MR^2\omega = MR^2\omega' + MR^2\omega \implies \omega' = \omega\]
+Equivalently, since the jump exerts zero tangential force, no torque acts on the round, so its angular speed remains unchanged.</p>
+<p><strong>Step 5: Check and Final Answer</strong><br/>Zero torque on the round implies \(\Delta \omega = 0\). Therefore, the speed of the round afterwards is \(\omega\).</p>
+<hr/>
+<p><strong>ধাপ ১: প্রদত্ত তথ্য ও শর্তাবলি</strong><br/>বলয়াকৃতি প্ল্যাটফর্মের ভর = \(M\), ব্যাসার্ধ = \(R\), প্রাথমিক কৌণিক দ্রুতি = \(\omega\)। ব্যক্তির ভর = \(M\), যিনি \(R\) ব্যাসার্ধে দাঁড়িয়ে আছেন। ব্যক্তিটি ঘূর্ণায়মান রাউন্ডের সাপেক্ষে কেন্দ্র থেকে ব্যাসার্ধ বরাবর বাইরে লাফ দেন।</p>
+<p><strong>ধাপ ২: অনুমান ও চিহ্ন প্রথা</strong><br/>উল্লম্ব ঘূর্ণন অক্ষের সাপেক্ষে (প্ল্যাটফর্ম + ব্যক্তি) সংস্থার ওপর কোনো বাহ্যিক টর্ক কাজ করে না। যেহেতু ব্যক্তিটি রাউন্ডের সাপেক্ষে ব্যাসার্ধ বরাবর লাফ দেন, তাই রাউন্ডের ওপর প্রযুক্ত ঘাত সম্পূর্ণ ব্যাসার্ধীয় এবং ঘূর্ণন অক্ষ দিয়ে যায়।</p>
+<p><strong>ধাপ ৩: প্রাসঙ্গিক সূত্র ও নীতি</strong><br/>ঘূর্ণন অক্ষের সাপেক্ষে কৌণিক ভরবেগের সংরক্ষণ সূত্র: \(L_i = L_f\)। \(M\) ভর ও \(R\) ব্যাসার্ধের বলয়ের জড়তার ভ্রামক \(I_{\text{ring}} = MR^2\) এবং কিনারায় থাকা ব্যক্তির জড়তার ভ্রামক \(I_{\text{person}} = MR^2\)।</p>
+<p><strong>ধাপ ৪: ধাপে ধাপে সমাধান</strong><br/>লাফ দেওয়ার আগে মোট কৌণিক ভরবেগ:
+\[L_i = (I_{\text{ring}} + I_{\text{person}})\omega = (MR^2 + MR^2)\omega = 2MR^2\omega\]
+রাউন্ডের সাপেক্ষে ব্যাসার্ধ বরাবর বাইরে লাফ দেওয়ার মুহূর্তে ব্যক্তির স্পর্শকীয় বেগ কিনারার বেগের সমান, অর্থাৎ \(v_t = \omega R\) থাকে। ফলে ব্যক্তিটি \(L_{\text{person}} = M v_t R = MR^2\omega\) কৌণিক ভরবেগ নিয়ে বিচ্ছিন্ন হয়। ধরি রাউন্ডের পরবর্তী কৌণিক দ্রুতি \(\omega'\)। কৌণিক ভরবেগের সংরক্ষণ সূত্র অনুযায়ী:
+\[2MR^2\omega = MR^2\omega' + MR^2\omega \implies \omega' = \omega\]
+একইভাবে, কোনো স্পর্শকীয় বল না থাকায় রাউন্ডের ওপর প্রযুক্ত টর্ক শূন্য, তাই এর কৌণিক দ্রুতি অপরিবর্তিত থাকে।</p>
+<p><strong>ধাপ ৫: যাচাই ও চূড়ান্ত উত্তর</strong><br/>রাউন্ডের ওপর টর্ক শূন্য হওয়ায় \(\Delta \omega = 0\)। অতএব, এরপর রাউন্ডটির কৌণিক দ্রুতি হবে \(\omega\)।</p>]]></text></generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="0" format="html"><text><![CDATA[<p>\(2\omega\)</p>]]></text></answer>
+  <answer fraction="100" format="html"><text><![CDATA[<p>\(\omega\)</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>\(\frac{\omega}{2}\)</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>\(0\)</p>]]></text></answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:bn</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>section:mcq_i</text></tag>
+    <tag><text>class:11</text></tag>
+    <tag><text>chapter:system_of_particles_and_rotational_motion</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:medium</text></tag>
+    <tag><text>blooms:apply</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:text</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+
+<question type="multichoice">
+  <name><text>NEET_UG_PHYSICS_MCQII_CH07_MCQ_Q7_9 - Relationship between angular momentum, momentum, and velocity</text></name>
+  <questiontext format="html"><text><![CDATA[<p>7.9 Choose the correct alternatives:</p><hr/><p>৭.৯ সঠিক বিকল্পগুলি নির্বাচন করো:</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>In rotational motion, angular momentum is related to angular velocity by the inertia tensor, \(\mathbf{L} = \mathbf{I}\boldsymbol{\omega}\). In translational motion, linear momentum is \(\mathbf{p} = m\mathbf{v}\), while acceleration is \(\mathbf{a} = \frac{d\mathbf{v}}{dt}\).</p>
+<p><strong>Step 2: Evaluation</strong><br/>1. For a general rotational motion, \(\mathbf{L}\) and \(\boldsymbol{\omega}\) need not be parallel; they are parallel only when the axis of rotation is a principal axis of inertia (such as a symmetry axis). Even for rotation about a fixed axis, if the axis is not a principal axis of the body, \(\mathbf{L}\) and \(\boldsymbol{\omega}\) are not parallel.<br/>2. For a general translational motion, \(\mathbf{p} = m\mathbf{v}\) where mass \(m\) is a positive scalar, so \(\mathbf{p}\) and \(\mathbf{v}\) are always parallel.<br/>3. For a general translational motion, \(\mathbf{a}\) and \(\mathbf{v}\) need not be parallel (for example, in projectile motion or uniform circular motion, \(\mathbf{a}\) is at an angle to \(\mathbf{v}\)).</p>
+<p><strong>Step 3: Final Conclusion</strong><br/>Therefore, the correct statements are that for a general rotational motion, angular momentum \(\mathbf{L}\) and angular velocity \(\boldsymbol{\omega}\) need not be parallel, and for a general translational motion, momentum \(\mathbf{p}\) and velocity \(\mathbf{v}\) are always parallel.</p>
+<hr/>
+<p><strong>ধাপ ১: মূল ধারণা</strong><br/>ঘূর্ণন গতিতে কৌণিক ভরবেগ ও কৌণিক বেগ জড়তার টেনসর দ্বারা সম্পর্কিত, \(\mathbf{L} = \mathbf{I}\boldsymbol{\omega}\)। চলন গতিতে রৈখিক ভরবেগ \(\mathbf{p} = m\mathbf{v}\) এবং ত্বরণ \(\mathbf{a} = \frac{d\mathbf{v}}{dt}\)।</p>
+<p><strong>ধাপ ২: মূল্যায়ন</strong><br/>১. সাধারণ ঘূর্ণন গতির ক্ষেত্রে \(\mathbf{L}\) এবং \(\boldsymbol{\omega}\) সমান্তরাল হওয়া আবশ্যক নয়; ঘূর্ণন অক্ষটি কেবল জড়তার মুখ্য অক্ষ (যেমন প্রতিসাম্য অক্ষ) হলেই এরা সমান্তরাল হয়। এমনকি নির্দিষ্ট অক্ষের চারপাশে ঘূর্ণনের ক্ষেত্রেও অক্ষটি মুখ্য অক্ষ না হলে \(\mathbf{L}\) ও \(\boldsymbol{\omega}\) সমান্তরাল হয় না।<br/>২. সাধারণ চলন গতির ক্ষেত্রে \(\mathbf{p} = m\mathbf{v}\), যেখানে ভর \(m\) একটি ধনাত্মক স্কেলার রাশি, তাই \(\mathbf{p}\) ও \(\mathbf{v}\) সর্বদা সমান্তরাল।<br/>৩. সাধারণ চলন গতির ক্ষেত্রে \(\mathbf{a}\) ও \(\mathbf{v}\) সর্বদা সমান্তরাল হয় না (যেমন প্রাস গতি বা সুষম বৃত্তাকার গতিতে \(\mathbf{a}\) ও \(\mathbf{v}\)-এর মধ্যবর্তী কোণ অশূন্য হয়)।</p>
+<p><strong>ধাপ ৩: চূড়ান্ত সিদ্ধান্ত</strong><br/>অতএব, সঠিক উক্তিগুলি হলো: সাধারণ ঘূর্ণন গতির ক্ষেত্রে কৌণিক ভরবেগ \(\mathbf{L}\) ও কৌণিক বেগ \(\boldsymbol{\omega}\) সমান্তরাল নাও হতে পারে, এবং সাধারণ চলন গতির ক্ষেত্রে ভরবেগ \(\mathbf{p}\) ও বেগ \(\mathbf{v}\) সর্বদা সমান্তরাল হয়।</p>]]></text></generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>false</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="50" format="html"><text><![CDATA[<p>For a general rotational motion, angular momentum \(\mathbf{L}\) and angular velocity \(\boldsymbol{\omega}\) need not be parallel.</p>]]></text></answer>
+  <answer fraction="-50" format="html"><text><![CDATA[<p>For a rotational motion about a fixed axis, angular momentum \(\mathbf{L}\) and angular velocity \(\boldsymbol{\omega}\) are always parallel.</p>]]></text></answer>
+  <answer fraction="50" format="html"><text><![CDATA[<p>For a general translational motion, momentum \(\mathbf{p}\) and velocity \(\mathbf{v}\) are always parallel.</p>]]></text></answer>
+  <answer fraction="-50" format="html"><text><![CDATA[<p>For a general translational motion, acceleration \(\mathbf{a}\) and velocity \(\mathbf{v}\) are always parallel.</p>]]></text></answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:bn</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>section:mcq_ii</text></tag>
+    <tag><text>class:11</text></tag>
+    <tag><text>chapter:system_of_particles_and_rotational_motion</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:medium</text></tag>
+    <tag><text>blooms:understand</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:text</text></tag>
+    <tag><text>multiconcept:true</text></tag>
+  </tags>
+</question>
+
+<question type="multichoice">
+  <name><text>NEET_UG_PHYSICS_MCQII_CH07_MCQ_Q7_10 - Angular momentum of two particles on parallel lines</text></name>
+  <questiontext format="html"><text><![CDATA[<p>7.10 Figure 7.4 shows two identical particles 1 and 2, each of mass \(m\), moving in opposite directions with same speed \(v\) along parallel lines. At a particular instant, \(\mathbf{r}_1\) and \(\mathbf{r}_2\) are their respective position vectors drawn from point A which is in the plane of the parallel lines. Choose the correct options:</p><p><img src="@@PLUGINFILE@@/img-3.jpeg" alt="Two identical particles moving in opposite directions along parallel lines" /></p><p>(\(\odot\) represents a unit vector coming out of the page. \(\otimes\) represents a unit vector going into the page.)</p><hr/><p>৭.১০ চিত্র ৭.৪-এ \(m\) ভরের দুটি অভিন্ন কণা ১ ও ২ সমান্তরাল রেখা বরাবর একই দ্রুতি \(v\)-তে বিপরীত দিকে গতিশীল। একটি নির্দিষ্ট মুহূর্তে সমান্তরাল রেখাগুলির তলে অবস্থিত A বিন্দু থেকে কণা দুটির অবস্থান ভেক্টর যথাক্রমে \(\mathbf{r}_1\) এবং \(\mathbf{r}_2\)। সঠিক বিকল্পগুলি নির্বাচন করো:</p><p><img src="@@PLUGINFILE@@/img-3.jpeg" alt="সমান্তরাল রেখা বরাবর বিপরীত দিকে গতিশীল দুটি অভিন্ন কণা" /></p><p>(\(\odot\) পৃষ্ঠা থেকে বাইরের দিকে আসা একক ভেক্টর এবং \(\otimes\) পৃষ্ঠার ভেতরের দিকে যাওয়া একক ভেক্টর নির্দেশ করে।)</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>Two identical particles 1 and 2, each of mass \(m\), move with speed \(v\) in opposite directions along two parallel lines. Point A lies in the plane of the lines at perpendicular distances \(d_1\) from the line of particle 1 and \(d_2\) from the line of particle 2 (with \(d_2 > d_1\)).</p>
+<p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>From the diagram, particle 1 moves to the right (\(\mathbf{v}_1 = +v\hat{\mathbf{i}}\)) and particle 2 moves to the left (\(\mathbf{v}_2 = -v\hat{\mathbf{i}}\)), while point A is above both lines. Let \(\odot\) denote the unit vector coming out of the page and \(\otimes\) denote the unit vector going into the page.</p>
+<p><strong>Step 3: Relevant Formulae and Principles</strong><br/>Angular momentum of a particle about point A is \(\mathbf{l} = \mathbf{r} \times m\mathbf{v}\), whose magnitude is \(mvd\), where \(d\) is the perpendicular distance from A to the line of motion. Total angular momentum is \(\mathbf{l}_{\text{total}} = \mathbf{l}_1 + \mathbf{l}_2\).</p>
+<p><strong>Step 4: Step-by-Step Working</strong><br/>For particle 1: \(\mathbf{r}_1\) points downward and to the right from A, and \(\mathbf{v}_1\) points to the right. By the right-hand rule, \(\mathbf{r}_1 \times \mathbf{v}_1\) points into the page (\(\otimes\)), with magnitude \(mvd_1\). Thus:
+\[\mathbf{l}_1 = mvd_1 \otimes\]
+For particle 2: \(\mathbf{r}_2\) points downward and to the right from A, and \(\mathbf{v}_2\) points to the left. By the right-hand rule, \(\mathbf{r}_2 \times \mathbf{v}_2\) points out of the page (\(\odot\)), with magnitude \(mvd_2\). Thus:
+\[\mathbf{l}_2 = mvd_2 \odot\]
+Since \(d_2 > d_1\) and the two vectors are in opposite directions, the total angular momentum about A is:
+\[\mathbf{l} = \mathbf{l}_1 + \mathbf{l}_2 = mv(d_2 - d_1) \odot\]</p>
+<p><strong>Step 5: Check and Final Answer</strong><br/>The dimensions of \(mvd\) match angular momentum, whereas expressions like \(mvr_2\) do not account for the sine of the angle. Hence, \(\mathbf{l}_1 = mvd_1 \otimes\) and \(\mathbf{l} = mv(d_2 - d_1) \odot\) are correct.</p>
+<hr/>
+<p><strong>ধাপ ১: প্রদত্ত তথ্য ও শর্তাবলি</strong><br/>\(m\) ভরের দুটি অভিন্ন কণা ১ ও ২ সমান্তরাল দুটি সরলরেখা বরাবর \(v\) দ্রুতিতে পরস্পর বিপরীত দিকে গতিশীল। সরলরেখাগুলির তলে অবস্থিত A বিন্দু থেকে ১ নং ও ২ নং কণার গতির রেখার লম্ব দূরত্ব যথাক্রমে \(d_1\) ও \(d_2\) (যেখানে \(d_2 > d_1\))।</p>
+<p><strong>ধাপ ২: অনুমান ও চিহ্ন প্রথা</strong><br/>চিত্র অনুযায়ী ১ নং কণা ডানদিকে এবং ২ নং কণা বামদিকে গতিশীল, এবং A বিন্দুটি উভয় রেখার উপরে অবস্থিত। \(\odot\) পৃষ্ঠা থেকে বাইরের দিকে আসা একক ভেক্টর এবং \(\otimes\) পৃষ্ঠার ভেতরের দিকে যাওয়া একক ভেক্টর নির্দেশ করে।</p>
+<p><strong>ধাপ ৩: প্রাসঙ্গিক সূত্র ও নীতি</strong><br/>A বিন্দুর সাপেক্ষে কোনো কণার কৌণিক ভরবেগ \(\mathbf{l} = \mathbf{r} \times m\mathbf{v}\), যার মান \(mvd\), যেখানে \(d\) হলো A থেকে গতির রেখার লম্ব দূরত্ব। মোট কৌণিক ভরবেগ \(\mathbf{l}_{\text{total}} = \mathbf{l}_1 + \mathbf{l}_2\)।</p>
+<p><strong>ধাপ ৪: ধাপে ধাপে সমাধান</strong><br/>১ নং কণার ক্ষেত্রে: A থেকে \(\mathbf{r}_1\) নিচের ডানদিকে এবং \(\mathbf{v}_1\) ডানদিকে। ডান-হাতের নিয়ম অনুযায়ী \(\mathbf{r}_1 \times \mathbf{v}_1\) পৃষ্ঠার ভেতরের দিকে (\(\otimes\)) ক্রিয়া করে এবং এর মান \(mvd_1\)। সুতরাং:
+\[\mathbf{l}_1 = mvd_1 \otimes\]
+২ নং কণার ক্ষেত্রে: A থেকে \(\mathbf{r}_2\) নিচের ডানদিকে এবং \(\mathbf{v}_2\) বামদিকে। ডান-হাতের নিয়ম অনুযায়ী \(\mathbf{r}_2 \times \mathbf{v}_2\) পৃষ্ঠা থেকে বাইরের দিকে (\(\odot\)) ক্রিয়া করে এবং এর মান \(mvd_2\)। সুতরাং:
+\[\mathbf{l}_2 = mvd_2 \odot\]
+যেহেতু \(d_2 > d_1\) এবং ভেক্টর দুটি বিপরীতমুখী, তাই A-এর সাপেক্ষে মোট কৌণিক ভরবেগ:
+\[\mathbf{l} = \mathbf{l}_1 + \mathbf{l}_2 = mv(d_2 - d_1) \odot\]</p>
+<p><strong>ধাপ ৫: যাচাই ও চূড়ান্ত উত্তর</strong><br/>\(mvd\)-এর মাত্রা কৌণিক ভরবেগের সাথে মিলে যায়। অতএব, \(\mathbf{l}_1 = mvd_1 \otimes\) এবং \(\mathbf{l} = mv(d_2 - d_1) \odot\) সঠিক।</p>]]></text></generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>false</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="50" format="html"><text><![CDATA[<p>Angular momentum \(\mathbf{l}_1\) of particle 1 about A is \(\mathbf{l}_1 = mvd_1 \otimes\)</p>]]></text></answer>
+  <answer fraction="-50" format="html"><text><![CDATA[<p>Angular momentum \(\mathbf{l}_2\) of particle 2 about A is \(\mathbf{l}_2 = mvr_2 \odot\)</p>]]></text></answer>
+  <answer fraction="-50" format="html"><text><![CDATA[<p>Total angular momentum of the system about A is \(\mathbf{l} = mv(r_1 + r_2)\)</p>]]></text></answer>
+  <answer fraction="50" format="html"><text><![CDATA[<p>Total angular momentum of the system about A is \(\mathbf{l} = mv(d_2 - d_1) \odot\)</p>]]></text></answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:bn</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>section:mcq_ii</text></tag>
+    <tag><text>class:11</text></tag>
+    <tag><text>chapter:system_of_particles_and_rotational_motion</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:medium</text></tag>
+    <tag><text>blooms:analyze</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:diagram</text></tag>
+    <tag><text>multiconcept:true</text></tag>
+  </tags>
+</question>
+
+<question type="multichoice">
+  <name><text>NEET_UG_PHYSICS_MCQII_CH07_MCQ_Q7_11 - Conditions for zero net external torque</text></name>
+  <questiontext format="html"><text><![CDATA[<p>7.11 The net external torque on a system of particles about an axis is zero. Which of the following are compatible with it?</p><hr/><p>৭.১১ কোনো অক্ষের সাপেক্ষে একটি কণা-সংস্থার ওপর লব্ধি বাহ্যিক টর্ক শূন্য। নিচের কোন শর্তগুলি এর সাথে সামঞ্জস্যপূর্ণ?</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>The torque of a force \(\mathbf{F}\) acting at position \(\mathbf{r}\) from a point on the axis of rotation is \(\boldsymbol{\tau} = \mathbf{r} \times \mathbf{F}\). The torque about the axis is the component of \(\boldsymbol{\tau}\) along the axis.</p>
+<p><strong>Step 2: Evaluation</strong><br/>1. If the forces act radially from a point on the axis, \(\mathbf{r}\) and \(\mathbf{F}\) are collinear, so \(\mathbf{r} \times \mathbf{F} = \mathbf{0}\).<br/>2. If the forces act directly on the axis of rotation, the perpendicular distance from the axis is zero, giving zero torque about the axis.<br/>3. If the forces act parallel to the axis of rotation, \(\mathbf{r} \times \mathbf{F}\) is perpendicular to the axis, so its component along the axis is zero.<br/>4. Even if individual forces produce non-zero torques about the axis, their vector sum can be zero if the torques caused by some forces are equal and opposite to those caused by other forces.</p>
+<p><strong>Step 3: Final Conclusion</strong><br/>Therefore, all four situations—forces acting radially from a point on the axis, acting on the axis of rotation, acting parallel to the axis of rotation, and opposing torques cancelling each other—are compatible with zero net external torque about the axis.</p>
+<hr/>
+<p><strong>ধাপ ১: মূল ধারণা</strong><br/>ঘূর্ণন অক্ষের ওপর অবস্থিত কোনো বিন্দু থেকে \(\mathbf{r}\) অবস্থান ভেক্টরে ক্রিয়াশীল \(\mathbf{F}\) বলের টর্ক \(\boldsymbol{\tau} = \mathbf{r} \times \mathbf{F}\)। অক্ষের সাপেক্ষে টর্ক হলো এই \(\boldsymbol{\tau}\)-এর অক্ষ বরাবর উপাংশ।</p>
+<p><strong>ধাপ ২: মূল্যায়ন</strong><br/>১. বলগুলি অক্ষের ওপর কোনো বিন্দু থেকে ব্যাসার্ধ বরাবর ক্রিয়া করলে \(\mathbf{r}\) ও \(\mathbf{F}\) সমরেখ হয়, ফলে \(\mathbf{r} \times \mathbf{F} = \mathbf{0}\)।<br/>২. বলগুলি সরাসরি ঘূর্ণন অক্ষের ওপর ক্রিয়া করলে অক্ষ থেকে লম্ব দূরত্ব শূন্য হয়, তাই অক্ষের সাপেক্ষে টর্ক শূন্য হয়।<br/>৩. বলগুলি ঘূর্ণন অক্ষের সমান্তরালে ক্রিয়া করলে \(\mathbf{r} \times \mathbf{F}\) অক্ষের সাথে লম্ব হয়, ফলে অক্ষ বরাবর এর উপাংশ শূন্য হয়।<br/>৪. বিভিন্ন বল দ্বারা সৃষ্ট অশূন্য টর্কগুলি পরস্পর সমান ও বিপরীতমুখী হলে লব্ধি টর্ক শূন্য হতে পারে।</p>
+<p><strong>ধাপ ৩: চূড়ান্ত সিদ্ধান্ত</strong><br/>অতএব, চারটি পরিস্থিতিই অক্ষের সাপেক্ষে লব্ধি বাহ্যিক টর্ক শূন্য হওয়ার সাথে সামঞ্জস্যপূর্ণ।</p>]]></text></generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>false</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="25" format="html"><text><![CDATA[<p>The forces may be acting radially from a point on the axis.</p>]]></text></answer>
+  <answer fraction="25" format="html"><text><![CDATA[<p>The forces may be acting on the axis of rotation.</p>]]></text></answer>
+  <answer fraction="25" format="html"><text><![CDATA[<p>The forces may be acting parallel to the axis of rotation.</p>]]></text></answer>
+  <answer fraction="25" format="html"><text><![CDATA[<p>The torque caused by some forces may be equal and opposite to that caused by other forces.</p>]]></text></answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:bn</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>section:mcq_ii</text></tag>
+    <tag><text>class:11</text></tag>
+    <tag><text>chapter:system_of_particles_and_rotational_motion</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:medium</text></tag>
+    <tag><text>blooms:understand</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:text</text></tag>
+    <tag><text>multiconcept:true</text></tag>
+  </tags>
+</question>
+
+<question type="multichoice">
+  <name><text>NEET_UG_PHYSICS_MCQII_CH07_MCQ_Q7_12 - Torques about two parallel axes on a lamina</text></name>
+  <questiontext format="html"><text><![CDATA[<p>7.12 Figure 7.5 shows a lamina in \(x\)-\(y\) plane. Two axes \(z\) and \(z'\) pass perpendicular to its plane. A force \(\mathbf{F}\) acts in the plane of lamina at point P as shown. Which of the following are true? (The point P is closer to \(z'\)-axis than the \(z\)-axis.)</p><p><img src="@@PLUGINFILE@@/img-4.jpeg" alt="Lamina in x-y plane with z and z' axes and force F at point P" /></p><hr/><p>৭.১২ চিত্র ৭.৫-এ \(x\)-\(y\) তলে একটি পাতলা পাত দেখানো হয়েছে। পাতটির তলের সাথে লম্বভাবে দুটি অক্ষ \(z\) ও \(z'\) অতিক্রম করেছে। চিত্রানুযায়ী পাতের তলে P বিন্দুতে একটি বল \(\mathbf{F}\) ক্রিয়া করছে। নিচের কোন উক্তিগুলি সত্য? (P বিন্দুটি \(z\)-অক্ষের তুলনায় \(z'\)-অক্ষের কাছাকাছি অবস্থিত।)</p><p><img src="@@PLUGINFILE@@/img-4.jpeg" alt="x-y তলে z ও z' অক্ষ এবং P বিন্দুতে ক্রিয়াশীল F বল" /></p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>A lamina lies in the \(x\)-\(y\) plane with two parallel axes \(z\) and \(z'\) perpendicular to the lamina, both directed along \(+\hat{\mathbf{k}}\). Force \(\mathbf{F}\) acts in the \(x\)-\(y\) plane at point P, which lies between the \(z\)-axis and \(z'\)-axis and is closer to the \(z'\)-axis (\(r > r'\)).</p>
+<p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>Torque about an axis is \(\boldsymbol{\tau} = \mathbf{r} \times \mathbf{F}\), where \(\mathbf{r}\) is the position vector from the axis to point P in the \(x\)-\(y\) plane.</p>
+<p><strong>Step 3: Relevant Formulae and Principles</strong><br/>\(\boldsymbol{\tau} = r F \sin\theta\,\hat{\mathbf{n}}\), where \(\hat{\mathbf{n}}\) is determined by the right-hand rule. Torques calculated about different axes cannot be added to obtain a single net torque.</p>
+<p><strong>Step 4: Step-by-Step Working</strong><br/>1. About the \(z\)-axis: \(\mathbf{r}\) points from the \(z\)-axis towards P (to the right) and \(\mathbf{F}\) points upward-right in the plane. By the right-hand rule, \(\mathbf{r} \times \mathbf{F}\) points along \(+\hat{\mathbf{k}}\), not \(-\hat{\mathbf{k}}\).<br/>2. About the \(z'\)-axis: \(\mathbf{r}'\) points from the \(z'\)-axis towards P (to the left) and \(\mathbf{F}\) points upward-right. By the right-hand rule, \(\mathbf{r}' \times \mathbf{F}\) points along \(-\hat{\mathbf{k}}\).<br/>3. Since P is farther from the \(z\)-axis than from the \(z'\)-axis (\(r > r'\)), the magnitude of the torque \(\tau\) about the \(z\)-axis is greater than the magnitude of the torque \(\tau'\) about the \(z'\)-axis.<br/>4. Total torque is only defined about a single chosen axis; adding \(\boldsymbol{\tau}\) and \(\boldsymbol{\tau}'\) about two different axes is physically meaningless.</p>
+<p><strong>Step 5: Check and Final Answer</strong><br/>Therefore, the true statements are that the torque \(\tau'\) caused by \(\mathbf{F}\) about the \(z'\)-axis is along \(-\hat{\mathbf{k}}\), and the torque \(\tau\) caused by \(\mathbf{F}\) about the \(z\)-axis is greater in magnitude than that about the \(z'\)-axis.</p>
+<hr/>
+<p><strong>ধাপ ১: প্রদত্ত তথ্য ও শর্তাবলি</strong><br/>\(x\)-\(y\) তলে অবস্থিত একটি পাতলা পাতের তলের সাথে লম্বভাবে দুটি সমান্তরাল অক্ষ \(z\) ও \(z'\) (\(+\hat{\mathbf{k}}\) অভিমুখে) অতিক্রম করেছে। P বিন্দুতে পাতের তলে \(\mathbf{F}\) বল ক্রিয়া করছে। P বিন্দুটি \(z\) ও \(z'\) অক্ষের মাঝে এবং \(z'\)-অক্ষের বেশি কাছে অবস্থিত (\(r > r'\))।</p>
+<p><strong>ধাপ ২: অনুমান ও চিহ্ন প্রথা</strong><br/>কোনো অক্ষের সাপেক্ষে টর্ক \(\boldsymbol{\tau} = \mathbf{r} \times \mathbf{F}\), যেখানে \(\mathbf{r}\) হলো অক্ষ থেকে P বিন্দুর অবস্থান ভেক্টর।</p>
+<p><strong>ধাপ ৩: প্রাসঙ্গিক সূত্র ও নীতি</strong><br/>\(\boldsymbol{\tau} = r F \sin\theta\,\hat{\mathbf{n}}\), যেখানে \(\hat{\mathbf{n}}\)-এর দিক ডান-হাতের নিয়মে নির্ধারিত হয়। দুটি ভিন্ন অক্ষের সাপেক্ষে নির্ণীত টর্ককে যোগ করে মোট টর্ক পাওয়া যায় না।</p>
+<p><strong>ধাপ ৪: ধাপে ধাপে সমাধান</strong><br/>১. \(z\)-অক্ষের সাপেক্ষে: \(\mathbf{r}\) ডানদিকে এবং \(\mathbf{F}\) তলের মধ্যে উপরের ডানদিকে। ডান-হাতের নিয়মে \(\mathbf{r} \times \mathbf{F}\) ভেক্টরটি \(+\hat{\mathbf{k}}\) বরাবর হয়, \(-\hat{\mathbf{k}}\) বরাবর নয়।<br/>২. \(z'\)-অক্ষের সাপেক্ষে: \(\mathbf{r}'\) বামদিকে এবং \(\mathbf{F}\) উপরের ডানদিকে। ডান-হাতের নিয়মে \(\mathbf{r}' \times \mathbf{F}\) ভেক্টরটি \(-\hat{\mathbf{k}}\) বরাবর হয়।<br/>৩. যেহেতু P বিন্দুটি \(z'\)-অক্ষের চেয়ে \(z\)-অক্ষ থেকে বেশি দূরে (\(r > r'\)), তাই \(z\)-অক্ষের সাপেক্ষে টর্ক \(\tau\)-এর মান \(z'\)-অক্ষের সাপেক্ষে টর্ক \(\tau'\)-এর মানের চেয়ে বড়।<br/>৪. দুটি ভিন্ন অক্ষের টর্ককে একসাথে যোগ করা অর্থহীন।</p>
+<p><strong>ধাপ ৫: যাচাই ও চূড়ান্ত উত্তর</strong><br/>অতএব, \(z'\)-অক্ষের সাপেক্ষে \(\mathbf{F}\) দ্বারা সৃষ্ট টর্ক \(\tau'\) হলো \(-\hat{\mathbf{k}}\) বরাবর, এবং \(z\)-অক্ষের সাপেক্ষে টর্ক \(\tau\)-এর মান \(z'\)-অক্ষের সাপেক্ষে টর্কের চেয়ে বড়।</p>]]></text></generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>false</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="-50" format="html"><text><![CDATA[<p>Torque \(\tau\) caused by \(\mathbf{F}\) about \(z\) axis is along \(-\hat{\mathbf{k}}\).</p>]]></text></answer>
+  <answer fraction="50" format="html"><text><![CDATA[<p>Torque \(\tau'\) caused by \(\mathbf{F}\) about \(z'\) axis is along \(-\hat{\mathbf{k}}\).</p>]]></text></answer>
+  <answer fraction="50" format="html"><text><![CDATA[<p>Torque \(\tau\) caused by \(\mathbf{F}\) about \(z\) axis is greater in magnitude than that about \(z'\) axis.</p>]]></text></answer>
+  <answer fraction="-50" format="html"><text><![CDATA[<p>Total torque is given by \(\tau = \tau + \tau'\).</p>]]></text></answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:bn</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>section:mcq_ii</text></tag>
+    <tag><text>class:11</text></tag>
+    <tag><text>chapter:system_of_particles_and_rotational_motion</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:medium</text></tag>
+    <tag><text>blooms:analyze</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:diagram</text></tag>
+    <tag><text>multiconcept:true</text></tag>
+  </tags>
+</question>
+
+<question type="multichoice">
+  <name><text>NEET_UG_PHYSICS_MCQII_CH07_MCQ_Q7_13 - Moment of inertia of a cube about different axes</text></name>
+  <questiontext format="html"><text><![CDATA[<p>7.13 With reference to Fig. 7.6 of a cube of edge \(a\) and mass \(m\), state which of the following are true. (O is the centre of the cube.)</p><p><img src="@@PLUGINFILE@@/img-5.jpeg" alt="Cube of edge a and mass m with axes x, y, z, z', and z''" /></p><hr/><p>৭.১৩ \(a\) বাহু ও \(m\) ভরের একটি ঘনকের চিত্র ৭.৬ অনুযায়ী নিচের কোন উক্তিগুলি সত্য? (O হলো ঘনকটির কেন্দ্র।)</p><p><img src="@@PLUGINFILE@@/img-5.jpeg" alt="a বাহু ও m ভরের ঘনক এবং x, y, z, z' ও z'' অক্ষসমূহ" /></p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>A uniform cube of mass \(m\) and edge \(a\) has its centre at O. Orthogonal axes \(x, y, z\) pass through O perpendicular to its faces. Axis \(z'\) passes along a vertical edge AD (parallel to the \(z\)-axis), and axis \(z''\) passes along the face diagonal BG.</p>
+<p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>The perpendicular-axis theorem applies only to planar (2D) laminae, whereas the parallel-axis theorem applies to any 3D rigid body when the two axes are parallel and one passes through the centre of mass.</p>
+<p><strong>Step 3: Relevant Formulae and Principles</strong><br/>Parallel-axis theorem: \(I = I_{\text{CM}} + md^2\), where \(d\) is the perpendicular distance between the two parallel axes.</p>
+<p><strong>Step 4: Step-by-Step Working</strong><br/>1. Since the cube is a 3D object, the perpendicular-axis theorem does not apply, so \(I_z \neq I_x + I_y\). (In fact, by symmetry, \(I_x = I_y = I_z = \frac{1}{6}ma^2\).)<br/>2. Axis \(z'\) is parallel to the \(z\)-axis passing through the centre of mass O, and the perpendicular distance between them is half the face diagonal: \(d = \frac{\sqrt{a^2 + a^2}}{2} = \frac{a}{\sqrt{2}}\). By the parallel-axis theorem:
+\[I'_z = I_z + m\left(\frac{a}{\sqrt{2}}\right)^2 = I_z + \frac{ma^2}{2}\]
+3. Axis \(z''\) (along BG) is not parallel to the \(z\)-axis, so the parallel-axis theorem cannot be applied between \(z\) and \(z''\); hence \(I''_z \neq I_z + \frac{ma^2}{2}\).<br/>4. By symmetry of the cube about its centre O, the moments of inertia about the \(x\) and \(y\) axes are equal: \(I_x = I_y\).</p>
+<p><strong>Step 5: Check and Final Answer</strong><br/>Therefore, the true statements are \(I'_z = I_z + \frac{ma^2}{2}\) and \(I_x = I_y\).</p>
+<hr/>
+<p><strong>ধাপ ১: প্রদত্ত তথ্য ও শর্তাবলি</strong><br/>\(m\) ভর ও \(a\) বাহুবিশিষ্ট একটি সুষম ঘনকের কেন্দ্র O। পরস্পর লম্ব \(x, y, z\) অক্ষ তিনটি O বিন্দু দিয়ে তলগুলির সাথে লম্বভাবে যায়। \(z'\) অক্ষটি একটি উল্লম্ব ধার AD বরাবর (\(z\)-অক্ষের সমান্তরাল) এবং \(z''\) অক্ষটি তলের কর্ণ BG বরাবর অবস্থিত।</p>
+<p><strong>ধাপ ২: অনুমান ও চিহ্ন প্রথা</strong><br/>লম্ব অক্ষ উপপাদ্য কেবল দ্বিমাত্রিক পাতের জন্য প্রযোজ্য। সমান্তরাল অক্ষ উপপাদ্য যেকোনো ত্রিমাত্রিক দৃঢ় বস্তুর ক্ষেত্রে প্রযোজ্য, যদি অক্ষ দুটি সমান্তরাল হয় এবং একটি ভরকেন্দ্র দিয়ে যায়।</p>
+<p><strong>ধাপ ৩: প্রাসঙ্গিক সূত্র ও নীতি</strong><br/>সমান্তরাল অক্ষ উপপাদ্য: \(I = I_{\text{CM}} + md^2\), যেখানে \(d\) হলো সমান্তরাল অক্ষ দুটির মধ্যবর্তী লম্ব দূরত্ব।</p>
+<p><strong>ধাপ ৪: ধাপে ধাপে সমাধান</strong><br/>১. ঘনক একটি ত্রিমাত্রিক বস্তু হওয়ায় লম্ব অক্ষ উপপাদ্য প্রযোজ্য নয়, তাই \(I_z \neq I_x + I_y\)।<br/>২. \(z'\) অক্ষটি ভরকেন্দ্র O-গামী \(z\)-অক্ষের সমান্তরাল এবং এদের মধ্যবর্তী লম্ব দূরত্ব হলো একটি তলের কর্ণের অর্ধেক: \(d = \frac{\sqrt{a^2 + a^2}}{2} = \frac{a}{\sqrt{2}}\)। সমান্তরাল অক্ষ উপপাদ্য অনুসারে:
+\[I'_z = I_z + m\left(\frac{a}{\sqrt{2}}\right)^2 = I_z + \frac{ma^2}{2}\]
+৩. \(z''\) অক্ষটি (BG) \(z\)-অক্ষের সমান্তরাল নয়, তাই সমান্তরাল অক্ষ উপপাদ্য প্রয়োগ করে \(I''_z = I_z + \frac{ma^2}{2}\) লেখা যায় না।<br/>৪. কেন্দ্র O-এর সাপেক্ষে ঘনকটির প্রতিসাম্যের কারণে \(I_x = I_y\)।</p>
+<p><strong>ধাপ ৫: যাচাই ও চূড়ান্ত উত্তর</strong><br/>অতএব, সত্য উক্তিগুলি হলো \(I'_z = I_z + \frac{ma^2}{2}\) এবং \(I_x = I_y\)।</p>]]></text></generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>false</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="-50" format="html"><text><![CDATA[<p>The moment of inertia of cube about \(z\)-axis is \(I_z = I_x + I_y\)</p>]]></text></answer>
+  <answer fraction="50" format="html"><text><![CDATA[<p>The moment of inertia of cube about \(z'\) is \(I'_z = I_z + \frac{ma^2}{2}\)</p>]]></text></answer>
+  <answer fraction="-50" format="html"><text><![CDATA[<p>The moment of inertia of cube about \(z''\) is \(I''_z = I_z + \frac{ma^2}{2}\)</p>]]></text></answer>
+  <answer fraction="50" format="html"><text><![CDATA[<p>\(I_x = I_y\)</p>]]></text></answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:bn</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>section:mcq_ii</text></tag>
+    <tag><text>class:11</text></tag>
+    <tag><text>chapter:system_of_particles_and_rotational_motion</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:medium</text></tag>
+    <tag><text>blooms:analyze</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:diagram</text></tag>
+    <tag><text>multiconcept:true</text></tag>
+  </tags>
+</question>
+
+<question type="matching">
+  <name><text>NEET_UG_PHYSICS_MATCHING_CH07_MATCHING_Q7_17 - Equilibrium and rotation of a cube under vertical force</text></name>
+  <questiontext format="html"><text><![CDATA[<p>7.17 A uniform cube of mass \(m\) and side \(a\) is placed on a frictionless horizontal surface. A vertical force \(F\) is applied to the edge as shown in Fig. 7.8. Match the following (most appropriate choice):</p><p><img src="@@PLUGINFILE@@/img-7.jpeg" alt="Uniform cube on frictionless horizontal surface with vertical upward force F at edge" /></p><hr/><p>৭.১৭ \(m\) ভর ও \(a\) বাহুবিশিষ্ট একটি সুষম ঘনক একটি ঘর্ষণহীন অনুভূমিক তলের ওপর রাখা আছে। চিত্র ৭.৮ অনুযায়ী ঘনকটির কিনারায় একটি উল্লম্ব বল \(F\) প্রয়োগ করা হলো। নিচের স্তম্ভগুলি মেলাও (সর্বোৎকৃষ্ট বিকল্পটি নির্বাচন করো):</p><p><img src="@@PLUGINFILE@@/img-7.jpeg" alt="ঘর্ষণহীন অনুভূমিক তলে ঘনকের কিনারায় উল্লম্ব বল F" /></p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>A uniform cube of mass \(m\) and side \(a\) rests on a frictionless horizontal surface. A vertical upward force \(F\) is applied at the right edge (at horizontal distance \(a\) from the left corner A). Weight \(mg\) acts downward through the centre (at distance \(a/2\) from A).</p>
+<p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>Let the effective normal reaction \(N\) act upward at a horizontal distance \(x\) from A (\(0 \leq x \leq a\)).</p>
+<p><strong>Step 3: Relevant Formulae and Principles</strong><br/>For vertical equilibrium: \(N + F = mg \implies N = mg - F\).<br/>For rotational equilibrium about A: \(N x + F a = mg\frac{a}{2}\).</p>
+<p><strong>Step 4: Step-by-Step Working</strong><br/>1. When \(F = \frac{mg}{4}\): \(N = mg - \frac{mg}{4} = \frac{3mg}{4}\). Substituting into the torque equation gives \(\frac{3mg}{4} x + \frac{mg}{4} a = \frac{mg}{2} a \implies \frac{3}{4}x = \frac{a}{4} \implies x = \frac{a}{3}\). Since \(0 < \frac{a}{3} < a\), the cube remains stationary with normal reaction effectively at \(a/3\) from A.<br/>2. When \(\frac{mg}{4} < F < \frac{mg}{2}\): \(N = mg - F > 0\), and \(x = \frac{(mg/2 - F)}{(mg - F)} a\) satisfies \(0 < x < \frac{a}{3}\). Thus, the cube remains in equilibrium and will not exhibit motion.<br/>3. When \(F > \frac{mg}{2}\) (and up to \(mg\)): the upward torque \(Fa\) exceeds the restoring gravitational torque \(mg\frac{a}{2}\), so the cube begins to rotate about A, and since the surface is frictionless, it slips at A.<br/>4. When \(F > mg\): the upward force exceeds the total weight \(mg\), so the net vertical force is upward and the cube moves up.</p>
+<p><strong>Step 5: Check and Final Answer</strong><br/>Thus, \(\frac{mg}{4} < F < \frac{mg}{2}\) corresponds to no motion; \(F > \frac{mg}{2}\) corresponds to rotation and slipping at A; \(F > mg\) corresponds to moving up; and \(F = \frac{mg}{4}\) corresponds to normal reaction effectively at \(a/3\) from A with no motion.</p>
+<hr/>
+<p><strong>ধাপ ১: প্রদত্ত তথ্য ও শর্তাবলি</strong><br/>\(m\) ভর ও \(a\) বাহুবিশিষ্ট একটি সুষম ঘনক ঘর্ষণহীন অনুভূমিক তলে রাখা আছে। বাম প্রান্ত A থেকে \(a\) দূরত্বে ডান কিনারায় একটি উল্লম্ব ঊর্ধ্বমুখী বল \(F\) ক্রিয়া করছে। ওজন \(mg\) কেন্দ্র দিয়ে (A থেকে \(a/2\) দূরত্বে) নিচের দিকে ক্রিয়া করে।</p>
+<p><strong>ধাপ ২: অনুমান ও চিহ্ন প্রথা</strong><br/>ধরি লম্ব প্রতিক্রিয়া \(N\) বাম প্রান্ত A থেকে \(x\) দূরত্বে (\(0 \leq x \leq a\)) ঊর্ধ্বমুখী ক্রিয়া করে।</p>
+<p><strong>ধাপ ৩: প্রাসঙ্গিক সূত্র ও নীতি</strong><br/>উল্লম্ব সাম্যের জন্য: \(N + F = mg \implies N = mg - F\)।<br/>A-এর সাপেক্ষে ঘূর্ণন সাম্যের জন্য: \(N x + F a = mg\frac{a}{2}\)।</p>
+<p><strong>ধাপ ৪: ধাপে ধাপে সমাধান</strong><br/>১. যখন \(F = \frac{mg}{4}\): \(N = \frac{3mg}{4}\) এবং \(\frac{3mg}{4} x + \frac{mg}{4} a = \frac{mg}{2} a \implies x = \frac{a}{3}\)। যেহেতু \(0 < \frac{a}{3} < a\), ঘনকটি স্থির থাকবে এবং লম্ব প্রতিক্রিয়া A থেকে \(a/3\) দূরত্বে ক্রিয়া করবে।<br/>২. যখন \(\frac{mg}{4} < F < \frac{mg}{2}\): \(N > 0\) এবং \(0 < x < \frac{a}{3}\), তাই ঘনকটি কোনো গতি প্রদর্শন করবে না।<br/>৩. যখন \(F > \frac{mg}{2}\): \(F\)-এর টর্ক \(Fa\) ওজনের টর্ক \(mg\frac{a}{2}\)-কে ছাড়িয়ে যায়, ফলে ঘনকটি ঘুরতে শুরু করে এবং তল ঘর্ষণহীন হওয়ায় A বিন্দুতে পিছলে যায়।<br/>৪. যখন \(F > mg\): ঊর্ধ্বমুখী বল ওজন \(mg\)-এর চেয়ে বেশি হওয়ায় ঘনকটি উপরে উঠে যায়।</p>
+<p><strong>ধাপ ৫: যাচাই ও চূড়ান্ত উত্তর</strong><br/>সুতরাং, \(\frac{mg}{4} < F < \frac{mg}{2}\) এর সাথে গতিহীন অবস্থা, \(F > \frac{mg}{2}\) এর সাথে ঘূর্ণন ও পিছলে যাওয়া, \(F > mg\) এর সাথে উপরে ওঠা এবং \(F = \frac{mg}{4}\) এর সাথে A থেকে \(a/3\) দূরত্বে লম্ব প্রতিক্রিয়া ও গতিহীন অবস্থা মিলে যায়।</p>]]></text></generalfeedback>
   <defaultgrade>4.0000000</defaultgrade>
   <penalty>0.2500000</penalty>
   <hidden>0</hidden>
   <shuffleanswers>true</shuffleanswers>
   <subquestion format="html">
-    <text><![CDATA[<p>\(mg/4 < F < mg/2\)</p>]]></text>
+    <text><![CDATA[<p>\(mg/4 &lt; F &lt; mg/2\)</p>]]></text>
     <answer><text>Cube will not exhibit motion.</text></answer>
   </subquestion>
   <subquestion format="html">
-    <text><![CDATA[<p>\(F > mg/2\)</p>]]></text>
+    <text><![CDATA[<p>\(F &gt; mg/2\)</p>]]></text>
     <answer><text>Cube will begin to rotate and slip at A.</text></answer>
   </subquestion>
   <subquestion format="html">
-    <text><![CDATA[<p>\(F > mg\)</p>]]></text>
+    <text><![CDATA[<p>\(F &gt; mg\)</p>]]></text>
     <answer><text>Cube will move up.</text></answer>
   </subquestion>
   <subquestion format="html">
@@ -65,14 +605,13 @@ A প্রান্তের সাপেক্ষে প্রযুক্ত 
   </subquestion>
   <tags>
     <tag><text>standard:neet_ug</text></tag>
-    <tag><text>year:2026</text></tag>
     <tag><text>lang:en</text></tag>
     <tag><text>lang:bn</text></tag>
     <tag><text>subject:physics</text></tag>
-    <tag><text>class:class_11</text></tag>
-    <tag><text>topic:rotational_motion</text></tag>
+    <tag><text>section:matching</text></tag>
+    <tag><text>class:11</text></tag>
     <tag><text>chapter:system_of_particles_and_rotational_motion</text></tag>
-    <tag><text>typology:matching_native</text></tag>
+    <tag><text>typology:matching-native</text></tag>
     <tag><text>difficulty:hard</text></tag>
     <tag><text>blooms:analyze</text></tag>
     <tag><text>calculation:moderate</text></tag>
@@ -82,49 +621,23 @@ A প্রান্তের সাপেক্ষে প্রযুক্ত 
 </question>
 
 <question type="matching">
-  <name><text>NEET_UG_PHYSICS_2026_SYSTEMOFPARTICLESANDROTATIONALMOTION_MATCHING_Q18 - Motion of a struck sphere on floor</text></name>
-  <questiontext format="html">
-    <text><![CDATA[<p>A uniform sphere of mass \(m\) and radius \(R\) is placed on a rough horizontal surface (Fig. 7.9). The sphere is struck horizontally at a height \(h\) from the floor. Match the following:</p><p><img src="@@PLUGINFILE@@/img-8.jpeg" alt="Fig. 7.9" /></p><hr/><p>\(m\) ভরের এবং \(R\) ব্যাসার্ধের একটি সুষম নিরেট গোলক একটি অমসৃণ অনুভূমিক তলের ওপর রাখা আছে (চিত্র 7.9)। মেঝে থেকে \(h\) উচ্চতায় গোলকটিকে অনুভূমিকভাবে আঘাত করা হলো। নিচের বিষয়গুলির মধ্যে সঠিক মিল নির্ণয় করো:</p><p><img src="@@PLUGINFILE@@/img-8.jpeg" alt="চিত্র 7.9" /></p>]]></text>
-  </questiontext>
-  <generalfeedback format="html">
-    <text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>A uniform solid sphere of mass \(m\) and radius \(R\) rests on a rough horizontal floor.<br/>Moment of inertia of the solid sphere about an axis passing through its centre of mass is \(I = \frac{2}{5}m R^2\).<br/>The sphere is struck horizontally with an impulsive blow \(J = \int F\,dt\) at height \(h\) above the floor.<br/>The centre of mass of the sphere is located at height \(R\) above the floor.</p>
-<p><strong>Step 2: Impulse and Momentum Equations</strong><br/>The horizontal impulse imparts an initial linear velocity \(v\) to the centre of mass:
-\[v = \frac{J}{m}\]
-The height of the horizontal blow above the centre of mass is \((h - R)\). The angular impulse about the centre of mass is:
-\[\tau_{\text{imp}} = J(h - R)\]
-This imparts an angular velocity \(\omega\) given by:
-\[\omega = \frac{J(h - R)}{I} = \frac{J(h - R)}{\frac{2}{5}m R^2} = \frac{5 J(h - R)}{2 m R^2}\]
-For pure rolling without slipping from the instant of impact, the condition \(v = R\omega\) must hold:
-\[\frac{J}{m} = R \cdot \frac{5 J(h - R)}{2 m R^2} = \frac{5 J(h - R)}{2 m R} \implies 1 = \frac{5(h - R)}{2 R} \implies h - R = \frac{2}{5}R \implies h = \frac{7}{5}R\]</p>
-<p><strong>Step 3: Analysis of Specific Heights</strong><br/>- For the condition \(h = \frac{7R}{5}\):
-The forward velocity precisely matches \(R\omega\) (\(v = R\omega\)). The instantaneous velocity of the contact point with the floor is zero. The sphere immediately rolls without slipping with constant velocity and no mechanical energy is lost to friction.<br/>- For the condition \(h = R\):
-The line of action of the impulse passes directly through the centre of mass (\(h - R = 0\)). The torque about the centre of mass is zero, resulting in \(\omega = 0\). The sphere initially has purely translational motion and slides forward, losing energy through kinetic friction.<br/>- For the condition \(h = \frac{R}{2} < R\):
-The blow is struck below the centre of mass (\(h - R = -\frac{R}{2} < 0\)). The resulting torque acts in the counter-clockwise (anti-clockwise) direction, causing the sphere to spin anti-clockwise while sliding forward, dissipating energy through friction.<br/>- For the condition \(h = \frac{3R}{2} > \frac{7R}{5}\):
-Since \(\frac{3}{2} = 1.5 > 1.4 = \frac{7}{5}\), the angular velocity imparted exceeds the condition for pure rolling (\(R\omega > v\)). The sphere spins clockwise faster than required for rolling, slipping at the floor contact and losing energy to friction.</p>
-<p><strong>Step 4: Final Conclusion</strong><br/>The correct matching correspondences are:
-\(h = R/2\) matches with sphere spins anti-clockwise, loses energy by friction;
-\(h = R\) matches with sphere has only a translational motion, looses energy by friction;
-\(h = 3R/2\) matches with sphere spins clockwise, loses energy by friction; and
-\(h = 7R/5\) matches with sphere rolls without slipping with a constant velocity and no loss of energy.</p>
+  <name><text>NEET_UG_PHYSICS_MATCHING_CH07_MATCHING_Q7_18 - Motion of a sphere struck horizontally at height h</text></name>
+  <questiontext format="html"><text><![CDATA[<p>7.18 A uniform sphere of mass \(m\) and radius \(R\) is placed on a rough horizontal surface (Fig. 7.9). The sphere is struck horizontally at a height \(h\) from the floor. Match the following:</p><p><img src="@@PLUGINFILE@@/img-8.jpeg" alt="Uniform sphere on rough horizontal surface struck horizontally at height h" /></p><hr/><p>৭.১৮ \(m\) ভর ও \(R\) ব্যাসার্ধের একটি সুষম গোলক একটি অমসৃণ অনুভূমিক তলের ওপর রাখা আছে (চিত্র ৭.৯)। মেঝে থেকে \(h\) উচ্চতায় গোলকটিকে অনুভূমিকভাবে আঘাত করা হলো। নিচের স্তম্ভগুলি মেলাও:</p><p><img src="@@PLUGINFILE@@/img-8.jpeg" alt="অমসৃণ অনুভূমিক তলে h উচ্চতায় আঘাতপ্রাপ্ত সুষম গোলক" /></p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>A uniform solid sphere of mass \(m\) and radius \(R\) rests on a rough horizontal surface and receives a horizontal impulse \(J\) to the right at height \(h\) above the floor.</p>
+<p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>Let clockwise rotation be positive (\(\omega > 0\)) and anti-clockwise rotation be negative (\(\omega < 0\)). The centre of the sphere is at height \(R\) above the floor, so the line of action of the impulse is at distance \((h - R)\) above the centre of mass.</p>
+<p><strong>Step 3: Relevant Formulae and Principles</strong><br/>Linear impulse-momentum theorem: \(v = \frac{J}{m}\).<br/>Angular impulse-momentum theorem about the centre of mass: \(J(h - R) = I \omega\), where \(I = \frac{2}{5}mR^2\) for a solid sphere.<br/>Condition for pure rolling without slipping: \(v = \omega R\).</p>
+<p><strong>Step 4: Step-by-Step Working</strong><br/>Solving for \(\omega\):
+\[\omega = \frac{J(h - R)}{\frac{2}{5}mR^2} = \frac{5(h - R)}{2R^2} v\]
+1. For \(h = \frac{R}{2}\): \(h - R = -\frac{R}{2} < 0\), so \(\omega < 0\) (anti-clockwise spin). Since \(v \neq \omega R\), slipping occurs and energy is lost by friction.<br/>2. For \(h = R\): \(h - R = 0\), so \(\omega = 0\). Initially the sphere has only translational motion, and it slips and loses energy by friction.<br/>3. For \(h = \frac{3R}{2}\): \(h - R = +\frac{R}{2} > 0\), so \(\omega > 0\) (clockwise spin). Since \(\omega = \frac{5v}{4R} \neq \frac{v}{R}\), slipping occurs and energy is lost by friction.<br/>4. For \(h = \frac{7R}{5}\): \(h - R = \frac{2R}{5}\), so \(\omega = \frac{5(2R/5)}{2R^2} v = \frac{v}{R}\). The condition \(v = \omega R\) is satisfied immediately, so the sphere rolls without slipping with constant velocity and no loss of energy.</p>
+<p><strong>Step 5: Check and Final Answer</strong><br/>Thus, \(h = \frac{R}{2}\) gives anti-clockwise spin with energy loss; \(h = R\) gives pure translational motion initially with energy loss; \(h = \frac{3R}{2}\) gives clockwise spin with energy loss; and \(h = \frac{7R}{5}\) gives pure rolling without slipping and no energy loss.</p>
 <hr/>
-<p><strong>ধাপ ১: প্রদত্ত উপাত্ত এবং শর্তাবলী</strong><br/>\(m\) ভর ও \(R\) ব্যাসার্ধের একটি সুষম নিরেট গোলক একটি অমসৃণ অনুভূমিক মেঝের ওপর অবস্থিত।<br/>ভরকেন্দ্রগামী অক্ষের সাপেক্ষে নিরেট গোলকের জড়তার ভ্রামক হলো \(I = \frac{2}{5}m R^2\)।<br/>মেঝে থেকে \(h\) উচ্চতায় গোলকটিতে \(J = \int F\,dt\) অনুভূমিক ঘাত প্রয়োগ করা হলো।<br/>গোলকটির ভরকেন্দ্র মেঝে থেকে \(R\) উচ্চতায় অবস্থিত।</p>
-<p><strong>ধাপ ২: ঘাত ও ভরবেগের সমীকরণ</strong><br/>অনুভূমিক ঘাতের কারণে ভরকেন্দ্রের প্রাথমিক রৈখিক বেগ:
-\[v = \frac{J}{m}\]
-ভরকেন্দ্র থেকে আঘাতের লম্ব দূরত্ব হলো \((h - R)\)। ভরকেন্দ্রের সাপেক্ষে কৌণিক ঘাত দ্বারা সৃষ্ট কৌণিক বেগ \(\omega\):
-\[\omega = \frac{J(h - R)}{I} = \frac{5 J(h - R)}{2 m R^2}\]
-আঘাতের মুহূর্ত থেকেই না পিছলে বিশুদ্ধ গড়ানোর শর্ত হলো \(v = R\omega\):
-\[\frac{J}{m} = \frac{5 J(h - R)}{2 m R} \implies h - R = \frac{2}{5}R \implies h = \frac{7}{5}R\]</p>
-<p><strong>ধাপ ৩: বিভিন্ন আঘাতের উচ্চতার বিশ্লেষণ</strong><br/>- \(h = \frac{7R}{5}\) হওয়ার ক্ষেত্রে:
-\(v = R\omega\) শর্তটি সঠিকভাবে সন্তুষ্ট হয়। ফলে ভূমির সাথে স্পর্শবিন্দুর কোনো পিছলানো থাকে না এবং গোলকটি না পিছলে সমবেগে গড়াতে থাকে এবং ঘর্ষণে কোনো শক্তি ক্ষয় হয় না।<br/>- \(h = R\) হওয়ার ক্ষেত্রে:
-ঘাতটি সরাসরি ভরকেন্দ্র দিয়ে অতিক্রম করায় (\(h - R = 0\)) কোনো টর্ক সৃষ্টি হয় না এবং \(\omega = 0\) হয়। গোলকটিতে শুরুতে কেবল চলন গতি থাকে এবং ঘর্ষণে শক্তি ক্ষয় হয়।<br/>- \(h = \frac{R}{2}\) হওয়ার ক্ষেত্রে:
-আঘাতটি ভরকেন্দ্রের নিচে হওয়ায় উৎপন্ন টর্ক ঘড়ির কাঁটার বিপরীতমুখী হয়। ফলে গোলকটি ঘড়ির কাঁটার বিপরীত দিকে ঘুরতে থাকে এবং ঘর্ষণে শক্তি ক্ষয় হয়।<br/>- \(h = \frac{3R}{2}\) হওয়ার ক্ষেত্রে:
-যেহেতু \(1.5 R > 1.4 R\), উৎপন্ন কৌণিক বেগ গড়ানোর শর্তের চেয়ে বেশি হয় (\(R\omega > v\))। ফলে গোলকটি ঘড়ির কাঁটার দিকে ঘোরে এবং পিছলানোর কারণে ঘর্ষণে শক্তি ক্ষয় হয়।</p>
-<p><strong>ধাপ ৪: চূড়ান্ত সিদ্ধান্ত</strong><br/>সঠিক মিলসমূহ হলো:
-\(h = R/2\)-এর সাথে গোলকটি ঘড়ির কাঁটার বিপরীত দিকে ঘোরে এবং ঘর্ষণে শক্তি ক্ষয় হয়;
-\(h = R\)-এর সাথে গোলকটিতে কেবল চলন গতি থাকে এবং ঘর্ষণে শক্তি ক্ষয় হয়;
-\(h = 3R/2\)-এর সাথে গোলকটি ঘড়ির কাঁটার দিকে ঘোরে এবং ঘর্ষণে শক্তি ক্ষয় হয়; এবং
-\(h = 7R/5\)-এর সাথে গোলকটি না পিছলে সমবেগে গড়ায় এবং কোনো শক্তি ক্ষয় হয় না।</p>]]></text>
-  </generalfeedback>
+<p><strong>ধাপ ১: প্রদত্ত তথ্য ও শর্তাবলি</strong><br/>\(m\) ভর ও \(R\) ব্যাসার্ধের একটি সুষম নিরেট গোলক অমসৃণ অনুভূমিক তলে রাখা আছে এবং মেঝে থেকে \(h\) উচ্চতায় ডানদিকে একটি অনুভূমিক ঘাত \(J\) প্রয়োগ করা হয়েছে।</p>
+<p><strong>ধাপ ২: অনুমান ও চিহ্ন প্রথা</strong><br/>ধরি ঘড়ির কাঁটার দিকে ঘূর্ণন ধনাত্মক (\(\omega > 0\)) এবং ঘড়ির কাঁটার বিপরীত দিকে ঘূর্ণন ঋণাত্মক (\(\omega < 0\))। গোলকের কেন্দ্র মেঝে থেকে \(R\) উচ্চতায় অবস্থিত, তাই ঘাতের ক্রিয়ারেখা ভরকেন্দ্র থেকে \((h - R)\) উচ্চতায় অবস্থিত।</p>
+<p><strong>ধাপ ৩: প্রাসঙ্গিক সূত্র ও নীতি</strong><br/>রৈখিক ঘাত-ভরবেগ উপপাদ্য: \(v = \frac{J}{m}\)।<br/>ভরকেন্দ্রের সাপেক্ষে কৌণিক ঘাত-ভরবেগ উপপাদ্য: \(J(h - R) = I \omega\), যেখানে নিরেট গোলকের জন্য \(I = \frac{2}{5}mR^2\)।<br/>পিছলে না গিয়ে বিশুদ্ধ গড়ানোর শর্ত: \(v = \omega R\)।</p>
+<p><strong>ধাপ ৪: ধাপে ধাপে সমাধান</strong><br/>\(\omega\)-এর মান নির্ণয় করে পাই:
+\[\omega = \frac{J(h - R)}{\frac{2}{5}mR^2} = \frac{5(h - R)}{2R^2} v\]
+১. \(h = \frac{R}{2}\) হলে: \(h - R = -\frac{R}{2} < 0\), তাই \(\omega < 0\) (ঘড়ির কাঁটার বিপরীতে ঘোরে) এবং ঘর্ষণের কারণে শক্তি ক্ষয় হয়।<br/>২. \(h = R\) হলে: \(h - R = 0\), তাই \(\omega = 0\)। প্রাথমিকভাবে গোলকটির কেবল চলন গতি থাকে এবং ঘর্ষণে শক্তি ক্ষয় হয়।<br/>৩. \(h = \frac{3R}{2}\) হলে: \(h - R = +\frac{R}{2} > 0\), তাই \(\omega > 0\) (ঘড়ির কাঁটার দিকে ঘোরে) এবং \(v \neq \omega R\) হওয়ায় ঘর্ষণে শক্তি ক্ষয় হয়।<br/>৪. \(h = \frac{7R}{5}\) হলে: \(h - R = \frac{2R}{5}\), ফলে \(\omega = \frac{5(2R/5)}{2R^2} v = \frac{v}{R}\)। \(v = \omega R\) শর্তটি পূর্ণ হওয়ায় গোলকটি কোনো শক্তি ক্ষয় ছাড়াই ধ্রুব বেগে পিছলে না গিয়ে গড়িয়ে চলে।</p>
+<p><strong>ধাপ ৫: যাচাই ও চূড়ান্ত উত্তর</strong><br/>অতএব, \(h = \frac{R}{2}\)-এর ক্ষেত্রে ঘড়ির কাঁটার বিপরীতে ঘূর্ণন ও শক্তি ক্ষয়; \(h = R\)-এর ক্ষেত্রে কেবল চলন গতি ও শক্তি ক্ষয়; \(h = \frac{3R}{2}\)-এর ক্ষেত্রে ঘড়ির কাঁটার দিকে ঘূর্ণন ও শক্তি ক্ষয়; এবং \(h = \frac{7R}{5}\)-এর ক্ষেত্রে কোনো শক্তি ক্ষয় ছাড়াই বিশুদ্ধ গড়ানো গতি ঘটে।</p>]]></text></generalfeedback>
   <defaultgrade>4.0000000</defaultgrade>
   <penalty>0.2500000</penalty>
   <hidden>0</hidden>
@@ -147,14 +660,13 @@ Since \(\frac{3}{2} = 1.5 > 1.4 = \frac{7}{5}\), the angular velocity imparted e
   </subquestion>
   <tags>
     <tag><text>standard:neet_ug</text></tag>
-    <tag><text>year:2026</text></tag>
     <tag><text>lang:en</text></tag>
     <tag><text>lang:bn</text></tag>
     <tag><text>subject:physics</text></tag>
-    <tag><text>class:class_11</text></tag>
-    <tag><text>topic:rotational_motion</text></tag>
+    <tag><text>section:matching</text></tag>
+    <tag><text>class:11</text></tag>
     <tag><text>chapter:system_of_particles_and_rotational_motion</text></tag>
-    <tag><text>typology:matching_native</text></tag>
+    <tag><text>typology:matching-native</text></tag>
     <tag><text>difficulty:hard</text></tag>
     <tag><text>blooms:analyze</text></tag>
     <tag><text>calculation:moderate</text></tag>

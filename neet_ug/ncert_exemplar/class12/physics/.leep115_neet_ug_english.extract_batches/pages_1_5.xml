@@ -1,43 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <quiz>
 <question type="multichoice">
-  <name>
-    <text>NEET_UG_PHYSICS_COMMUNICATION_SYSTEMS_MCQ_Q01 - Appropriate mode of transmission for electromagnetic waves</text>
-  </name>
-  <questiontext format="html">
-    <text><![CDATA[<p>Three waves A, B and C of frequencies \(1600\text{ kHz}\), \(5\text{ MHz}\) and \(60\text{ MHz}\), respectively are to be transmitted from one place to another. Which of the following is the most appropriate mode of communication:</p>]]></text>
-  </questiontext>
-  <generalfeedback format="html">
-    <text><![CDATA[<p><strong>Conceptual Principle</strong><br/>Different frequency bands of electromagnetic waves use different propagation modes based on how they interact with the Earth's surface and atmosphere. Ground (surface) wave propagation is limited to frequencies up to about \(1.5\text{ to }2\text{ MHz}\) due to severe attenuation caused by absorption by the Earth at higher frequencies. Sky wave propagation utilizes reflection by the ionosphere and is effective in the frequency range of approximately \(3\text{ MHz}\) to \(30\text{ MHz}\). Waves with frequencies greater than about \(30\text{ to }40\text{ MHz}\) penetrate through the ionospheric layers without being reflected back to Earth, so they must be transmitted via space wave (line-of-sight or satellite) propagation.</p>
-<p><strong>Evaluation</strong><br/>The three given wave frequencies are evaluated according to their propagation mechanisms:<br/>
-1. Wave A has a frequency of \(1600\text{ kHz} = 1.6\text{ MHz}\), which falls within the frequency band suitable for ground wave propagation.<br/>
-2. Wave B has a frequency of \(5\text{ MHz}\), which lies in the short-wave range reflected by the ionosphere, making it suitable for sky wave propagation.<br/>
-3. Wave C has a frequency of \(60\text{ MHz}\), which exceeds the critical frequency of the ionosphere and penetrates it, necessitating transmission via space wave propagation.</p>
-<p><strong>Final Conclusion</strong><br/>Wave A is transmitted via ground wave, wave B via sky wave, and wave C via space wave.</p>]]></text>
-  </generalfeedback>
+  <name><text>PHYSICS_MCQI_COMMUNICATIONSYSTEMS_Q151 - Appropriate mode of communication for given waves</text></name>
+  <questiontext format="html"><text><![CDATA[<p><strong>15.1</strong> Three waves A, B and C of frequencies \(1600\text{ kHz}\), \(5\text{ MHz}\) and \(60\text{ MHz}\), respectively are to be transmitted from one place to another. Which of the following is the most appropriate mode of communication:</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>Electromagnetic waves of different frequency ranges propagate through Earth's atmosphere using different modes: ground wave propagation, sky wave propagation, and space wave (line-of-sight) propagation.</p>
+<p><strong>Step 2: Evaluation</strong><br/>Ground wave propagation is effective for low and medium frequencies up to about \(2\text{ MHz}\) (\(530\text{ kHz}\) to \(1710\text{ kHz}\)). Sky wave propagation, which relies on reflection from the ionosphere, is suitable for high frequencies ranging from about \(3\text{ MHz}\) to \(30\text{ MHz}\) (up to \(40\text{ MHz}\)). Space wave propagation is used for very high frequencies above \(40\text{ MHz}\), as these waves penetrate the ionosphere instead of being reflected.</p>
+<p><strong>Step 3: Application</strong><br/>Wave A has a frequency of \(1600\text{ kHz}\) (\(= 1.6\text{ MHz}\)), which lies below \(2\text{ MHz}\), so it is transmitted via ground wave. Wave B has a frequency of \(5\text{ MHz}\), which lies in the \(3\text{ MHz}\) to \(30\text{ MHz}\) range, so it is transmitted via sky wave. Wave C has a frequency of \(60\text{ MHz}\), which is above \(40\text{ MHz}\), so it is transmitted via space wave.</p>
+<p><strong>Step 4: Final Conclusion</strong><br/>Therefore, A is transmitted via ground wave, B via sky wave, and C via space wave.</p>]]></text></generalfeedback>
   <defaultgrade>4.0000000</defaultgrade>
   <penalty>0.2500000</penalty>
   <hidden>0</hidden>
   <single>true</single>
   <shuffleanswers>true</shuffleanswers>
   <answernumbering>abc</answernumbering>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>A is transmitted via space wave while B and C are transmitted via sky wave.</p>]]></text>
-  </answer>
-  <answer fraction="100" format="html">
-    <text><![CDATA[<p>A is transmitted via ground wave, B via sky wave and C via space wave.</p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>B and C are transmitted via ground wave while A is transmitted via sky wave.</p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>B is transmitted via ground wave while A and C are transmitted via space wave.</p>]]></text>
-  </answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>A is transmitted via space wave while B and C are transmitted via sky wave.</p>]]></text></answer>
+  <answer fraction="100" format="html"><text><![CDATA[<p>A is transmitted via ground wave, B via sky wave and C via space wave.</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>B and C are transmitted via ground wave while A is transmitted via sky wave.</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>B is transmitted via ground wave while A and C are transmitted via space wave.</p>]]></text></answer>
   <tags>
     <tag><text>standard:neet_ug</text></tag>
     <tag><text>lang:en</text></tag>
     <tag><text>subject:physics</text></tag>
-    <tag><text>class:class_12</text></tag>
+    <tag><text>section:mcq_i</text></tag>
+    <tag><text>class:12</text></tag>
     <tag><text>chapter:communication_systems</text></tag>
     <tag><text>typology:mcq</text></tag>
     <tag><text>difficulty:easy</text></tag>
@@ -48,46 +33,29 @@
   </tags>
 </question>
 <question type="multichoice">
-  <name>
-    <text>NEET_UG_PHYSICS_COMMUNICATION_SYSTEMS_MCQ_Q02 - Antenna mounted on building as transmission tower</text>
-  </name>
-  <questiontext format="html">
-    <text><![CDATA[<p>A \(100\text{ m}\) long antenna is mounted on a \(500\text{ m}\) tall building. The complex can become a transmission tower for waves with \(\lambda\)</p>]]></text>
-  </questiontext>
-  <generalfeedback format="html">
-    <text><![CDATA[<p><strong>Given Data and Conditions</strong><br/>Length of the antenna: \(l = 100\text{ m}\)<br/>
-Height of the building: \(h = 500\text{ m}\)</p>
-<p><strong>Assumptions and Sign Conventions</strong><br/>For an antenna to radiate electromagnetic signals efficiently without significant power loss, its physical length must be comparable to the wavelength of the signal being transmitted. Specifically, the minimum effective length of a resonant antenna (such as a quarter-wave monopole antenna) is one-fourth of the wavelength.</p>
-<p><strong>Relevant Formulae and Principles</strong><br/>The relationship between the length of the antenna \(l\) and the wavelength \(\lambda\) is:
-\[l \approx \frac{\lambda}{4} \implies \lambda \approx 4l\]</p>
-<p><strong>Step-by-Step Working</strong><br/>Substituting the antenna length \(l = 100\text{ m}\):
-\[\lambda \approx 4 \times 100\text{ m} = 400\text{ m}\]
-</p>
-<p><strong>Check and Final Answer</strong><br/>The building serves as an elevated base to clear terrestrial obstacles, while the radiating element itself is the \(100\text{ m}\) antenna. Therefore, the complex acts as an effective transmission system for electromagnetic waves having a wavelength of approximately \(400\text{ m}\).</p>]]></text>
-  </generalfeedback>
+  <name><text>PHYSICS_MCQI_COMMUNICATIONSYSTEMS_Q152 - Wavelength for antenna mounted on tall building</text></name>
+  <questiontext format="html"><text><![CDATA[<p><strong>15.2</strong> A \(100\text{ m}\) long antenna is mounted on a \(500\text{ m}\) tall building. The complex can become a transmission tower for waves with \(\lambda\)</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>Length of the antenna, \(l = 100\text{ m}\). Height of the building on which it is mounted, \(h = 500\text{ m}\).</p>
+<p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>For efficient radiation, the radiating element (antenna) is modelled as a quarter-wave monopole antenna, where the minimum effective length of the antenna is one-fourth of the transmitted wavelength. The building only provides elevation for line-of-sight coverage and does not act as the resonant radiating antenna element.</p>
+<p><strong>Step 3: Relevant Formulae and Principles</strong><br/>The relation between antenna length \(l\) and wavelength \(\lambda\) is:<br/>\[l = \frac{\lambda}{4}\]</p>
+<p><strong>Step 4: Step-by-Step Working</strong><br/>Rearranging the relation for \(\lambda\):<br/>\[\lambda = 4l\]<br/>Substituting \(l = 100\text{ m}\):<br/>\[\lambda = 4 \times 100\text{ m} = 400\text{ m}\]</p>
+<p><strong>Step 5: Check and Final Answer</strong><br/>The unit is metres, which is consistent with wavelength. Thus, the complex can become a transmission tower for waves with wavelength \(\sim 400\text{ m}\).</p>]]></text></generalfeedback>
   <defaultgrade>4.0000000</defaultgrade>
   <penalty>0.2500000</penalty>
   <hidden>0</hidden>
   <single>true</single>
   <shuffleanswers>true</shuffleanswers>
   <answernumbering>abc</answernumbering>
-  <answer fraction="100" format="html">
-    <text><![CDATA[<p>\(\sim 400\text{ m}\).</p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>\(\sim 25\text{ m}\).</p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>\(\sim 150\text{ m}\)</p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>\(\sim 2400\text{ m}\)</p>]]></text>
-  </answer>
+  <answer fraction="100" format="html"><text><![CDATA[<p>\(\sim 400\text{ m}.\)</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>\(\sim 25\text{ m}.\)</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>\(\sim 150\text{ m}\)</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>\(\sim 2400\text{ m}\)</p>]]></text></answer>
   <tags>
     <tag><text>standard:neet_ug</text></tag>
     <tag><text>lang:en</text></tag>
     <tag><text>subject:physics</text></tag>
-    <tag><text>class:class_12</text></tag>
+    <tag><text>section:mcq_i</text></tag>
+    <tag><text>class:12</text></tag>
     <tag><text>chapter:communication_systems</text></tag>
     <tag><text>typology:mcq</text></tag>
     <tag><text>difficulty:easy</text></tag>
@@ -98,543 +66,29 @@ Height of the building: \(h = 500\text{ m}\)</p>
   </tags>
 </question>
 <question type="multichoice">
-  <name>
-    <text>NEET_UG_PHYSICS_COMMUNICATION_SYSTEMS_MCQ_Q03 - Power of received signal after channel attenuation</text>
-  </name>
-  <questiontext format="html">
-    <text><![CDATA[<p>A \(1\text{ kW}\) signal is transmitted using a communication channel which provides attenuation at the rate of \(-2\text{ dB}\) per km. If the communication channel has a total length of \(5\text{ km}\), the power of the signal received is [gain in \(\text{dB} = 10\log \left(\frac{P_0}{P_i}\right)\)]</p>]]></text>
-  </questiontext>
-  <generalfeedback format="html">
-    <text><![CDATA[<p><strong>Given Data and Conditions</strong><br/>Transmitted signal power: \(P_i = 1\text{ kW} = 1000\text{ W}\)<br/>
-Rate of attenuation: \(-2\text{ dB/km}\)<br/>
-Total length of the communication channel: \(d = 5\text{ km}\)</p>
-<p><strong>Assumptions and Sign Conventions</strong><br/>Attenuation is treated as a negative gain in decibels. The total attenuation over the channel is the product of the attenuation rate per kilometer and the channel distance in kilometers.</p>
-<p><strong>Relevant Formulae and Principles</strong><br/>Total gain in decibels:
-\[\text{Gain (in dB)} = (\text{rate of attenuation}) \times d\]
-The decibel gain is related to input power \(P_i\) and output power \(P_0\) by:
-\[\text{Gain (in dB)} = 10 \log_{10}\left(\frac{P_0}{P_i}\right)\]</p>
-<p><strong>Step-by-Step Working</strong><br/>1. Calculate total decibel gain:
-\[\text{Total Gain} = -2\text{ dB/km} \times 5\text{ km} = -10\text{ dB}\]
-2. Substitute into the logarithmic gain equation:
-\[-10 = 10 \log_{10}\left(\frac{P_0}{1000}\right)\]
-\[-1 = \log_{10}\left(\frac{P_0}{1000}\right)\]
-3. Take the antilogarithm:
-\[\frac{P_0}{1000} = 10^{-1} = 0.1\]
-\[P_0 = 1000 \times 0.1 = 100\text{ W}\]
-</p>
-<p><strong>Check and Final Answer</strong><br/>A loss of \(10\text{ dB}\) corresponds to a reduction in signal power by a factor of 10. Thus, \(1000\text{ W} / 10 = 100\text{ W}\), confirming the received power is \(100\text{ W}\).</p>]]></text>
-  </generalfeedback>
+  <name><text>PHYSICS_MCQI_COMMUNICATIONSYSTEMS_Q153 - Received signal power after channel attenuation</text></name>
+  <questiontext format="html"><text><![CDATA[<p><strong>15.3</strong> A \(1\text{ kW}\) signal is transmitted using a communication channel which provides attenuation at the rate of \(-2\text{ dB}\) per km. If the communication channel has a total length of \(5\text{ km}\), the power of the signal received is \(\left[\text{gain in dB} = 10\log \left(\frac{P_0}{P_i}\right)\right]\)</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>Input (transmitted) power, \(P_i = 1\text{ kW} = 1000\text{ W}\).<br/>Attenuation rate \(= -2\text{ dB/km}\).<br/>Total length of the communication channel, \(d = 5\text{ km}\).</p>
+<p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>Attenuation is represented as a negative gain in decibels (\(\text{dB}\)), and total gain in \(\text{dB}\) over a uniform channel is proportional to the channel length.</p>
+<p><strong>Step 3: Relevant Formulae and Principles</strong><br/>\[\text{Total gain in dB} = \text{Rate of gain (dB/km)} \times \text{Distance (km)}\]<br/>\[\text{Gain in dB} = 10\log_{10}\left(\frac{P_0}{P_i}\right)\]</p>
+<p><strong>Step 4: Step-by-Step Working</strong><br/>Calculate the total gain in \(\text{dB}\):<br/>\[\text{Gain} = (-2\text{ dB/km}) \times 5\text{ km} = -10\text{ dB}\]<br/>Substitute into the decibel power ratio formula:<br/>\[-10 = 10\log_{10}\left(\frac{P_0}{P_i}\right)\]<br/>\[\log_{10}\left(\frac{P_0}{P_i}\right) = -1\]<br/>Taking antilog on both sides:<br/>\[\frac{P_0}{P_i} = 10^{-1} = 0.1\]<br/>Therefore, the received power \(P_0\) is:<br/>\[P_0 = 0.1 \times P_i = 0.1 \times 1000\text{ W} = 100\text{ W}\]</p>
+<p><strong>Step 5: Check and Final Answer</strong><br/>Since the channel attenuates the signal, \(P_0 < P_i\), which is physically consistent (\(100\text{ W} < 1000\text{ W}\)). The power of the signal received is \(100\text{ W}\).</p>]]></text></generalfeedback>
   <defaultgrade>4.0000000</defaultgrade>
   <penalty>0.2500000</penalty>
   <hidden>0</hidden>
   <single>true</single>
   <shuffleanswers>true</shuffleanswers>
   <answernumbering>abc</answernumbering>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>900 W.</p>]]></text>
-  </answer>
-  <answer fraction="100" format="html">
-    <text><![CDATA[<p>100 W.</p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>990 W.</p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>1010 W.</p>]]></text>
-  </answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>\(900\text{ W}.\)</p>]]></text></answer>
+  <answer fraction="100" format="html"><text><![CDATA[<p>\(100\text{ W}.\)</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>\(990\text{ W}.\)</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>\(1010\text{ W}.\)</p>]]></text></answer>
   <tags>
     <tag><text>standard:neet_ug</text></tag>
     <tag><text>lang:en</text></tag>
     <tag><text>subject:physics</text></tag>
-    <tag><text>class:class_12</text></tag>
-    <tag><text>chapter:communication_systems</text></tag>
-    <tag><text>typology:mcq</text></tag>
-    <tag><text>difficulty:easy</text></tag>
-    <tag><text>blooms:apply</text></tag>
-    <tag><text>calculation:light</text></tag>
-    <tag><text>media:text</text></tag>
-    <tag><text>multiconcept:false</text></tag>
-  </tags>
-</question>
-<question type="multichoice">
-  <name>
-    <text>NEET_UG_PHYSICS_COMMUNICATION_SYSTEMS_MCQ_Q04 - Sideband frequencies in amplitude modulation of speech</text>
-  </name>
-  <questiontext format="html">
-    <text><![CDATA[<p>A speech signal of \(3\text{ kHz}\) is used to modulate a carrier signal of frequency \(1\text{ MHz}\), using amplitude modulation. The frequencies of the side bands will be</p>]]></text>
-  </questiontext>
-  <generalfeedback format="html">
-    <text><![CDATA[<p><strong>Given Data and Conditions</strong><br/>Frequency of the speech (modulating) signal: \(f_m = 3\text{ kHz} = 0.003\text{ MHz}\)<br/>
-Frequency of the carrier signal: \(f_c = 1\text{ MHz} = 1000\text{ kHz}\)</p>
-<p><strong>Assumptions and Sign Conventions</strong><br/>Standard sinusoidal amplitude modulation is assumed, producing an upper sideband and a lower sideband centered around the carrier frequency.</p>
-<p><strong>Relevant Formulae and Principles</strong><br/>The frequencies of the sidebands generated in amplitude modulation are:
-\[f_{\text{USB}} = f_c + f_m\]
-\[f_{\text{LSB}} = f_c - f_m\]</p>
-<p><strong>Step-by-Step Working</strong><br/>1. Calculate the upper sideband frequency:
-\[f_{\text{USB}} = 1\text{ MHz} + 0.003\text{ MHz} = 1.003\text{ MHz}\]
-2. Calculate the lower sideband frequency:
-\[f_{\text{LSB}} = 1\text{ MHz} - 0.003\text{ MHz} = 0.997\text{ MHz}\]
-</p>
-<p><strong>Check and Final Answer</strong><br/>Expressed in megahertz, the two sideband frequencies are \(1.003\text{ MHz}\) and \(0.997\text{ MHz}\) (equivalent to \(1003\text{ kHz}\) and \(997\text{ kHz}\)).</p>]]></text>
-  </generalfeedback>
-  <defaultgrade>4.0000000</defaultgrade>
-  <penalty>0.2500000</penalty>
-  <hidden>0</hidden>
-  <single>true</single>
-  <shuffleanswers>true</shuffleanswers>
-  <answernumbering>abc</answernumbering>
-  <answer fraction="100" format="html">
-    <text><![CDATA[<p>1.003 MHz and 0.997 MHz.</p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>\(3001\text{ kHz}\) and \(2997\text{ kHz}\).</p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>\(1003\text{ kHz}\) and \(1000\text{ kHz}\).</p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>1 MHz and 0.997 MHz.</p>]]></text>
-  </answer>
-  <tags>
-    <tag><text>standard:neet_ug</text></tag>
-    <tag><text>lang:en</text></tag>
-    <tag><text>subject:physics</text></tag>
-    <tag><text>class:class_12</text></tag>
-    <tag><text>chapter:communication_systems</text></tag>
-    <tag><text>typology:mcq</text></tag>
-    <tag><text>difficulty:easy</text></tag>
-    <tag><text>blooms:apply</text></tag>
-    <tag><text>calculation:light</text></tag>
-    <tag><text>media:text</text></tag>
-    <tag><text>multiconcept:false</text></tag>
-  </tags>
-</question>
-<question type="multichoice">
-  <name>
-    <text>NEET_UG_PHYSICS_COMMUNICATION_SYSTEMS_MCQ_Q05 - Resultant frequency of amplitude modulated carrier wave</text>
-  </name>
-  <questiontext format="html">
-    <text><![CDATA[<p>A message signal of frequency \(\omega_{m}\) is superposed on a carrier wave of frequency \(\omega_{c}\) to get an amplitude modulated wave (AM). The frequency of the AM wave will be</p>]]></text>
-  </questiontext>
-  <generalfeedback format="html">
-    <text><![CDATA[<p><strong>Conceptual Principle</strong><br/>In amplitude modulation, the instantaneous amplitude of the high-frequency carrier wave is varied in proportion to the instantaneous amplitude of the modulating (message) signal. Crucially, the frequency of the carrier oscillation remains unchanged during this process.</p>
-<p><strong>Evaluation</strong><br/>Mathematically, the amplitude modulated wave is described by:
-\[c_m(t) = [A_c + A_m \sin(\omega_m t)] \sin(\omega_c t)\]
-Expanding the product yields:
-\[c_m(t) = A_c \sin(\omega_c t) + \frac{\mu A_c}{2} \cos[(\omega_c - \omega_m)t] - \frac{\mu A_c}{2} \cos[(\omega_c + \omega_m)t]\]
-The fundamental oscillation frequency of the modulated wave corresponds to the carrier frequency \(\omega_c\), around which the sidebands \(\omega_c \pm \omega_m\) are symmetrically distributed.</p>
-<p><strong>Final Conclusion</strong><br/>The frequency of the amplitude modulated wave remains \(\omega_c\).</p>]]></text>
-  </generalfeedback>
-  <defaultgrade>4.0000000</defaultgrade>
-  <penalty>0.2500000</penalty>
-  <hidden>0</hidden>
-  <single>true</single>
-  <shuffleanswers>true</shuffleanswers>
-  <answernumbering>abc</answernumbering>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>\(\omega_{m}\)</p>]]></text>
-  </answer>
-  <answer fraction="100" format="html">
-    <text><![CDATA[<p>\(\omega_{\text{c}}\)</p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>\(\frac{\omega_{\text{c}} + \omega_{\text{m}}}{2}\).</p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>\(\frac{\omega_{\text{c}} - \omega_{\text{m}}}{2}\).</p>]]></text>
-  </answer>
-  <tags>
-    <tag><text>standard:neet_ug</text></tag>
-    <tag><text>lang:en</text></tag>
-    <tag><text>subject:physics</text></tag>
-    <tag><text>class:class_12</text></tag>
-    <tag><text>chapter:communication_systems</text></tag>
-    <tag><text>typology:mcq</text></tag>
-    <tag><text>difficulty:easy</text></tag>
-    <tag><text>blooms:understand</text></tag>
-    <tag><text>calculation:light</text></tag>
-    <tag><text>media:text</text></tag>
-    <tag><text>multiconcept:false</text></tag>
-  </tags>
-</question>
-<question type="multichoice">
-  <name>
-    <text>NEET_UG_PHYSICS_COMMUNICATION_SYSTEMS_MCQ_Q06 - Device characteristics suitable for amplitude signal modulation</text>
-  </name>
-  <questiontext format="html">
-    <text><![CDATA[<p>\(I-V\) characteristics of four devices are shown in Fig. 15.1</p>
-<p><img src="@@PLUGINFILE@@/img-0.jpeg" alt="(i)" /></p>
-<p>(i)</p>
-<p><img src="@@PLUGINFILE@@/img-1.jpeg" alt="(ii)" /></p>
-<p>(ii)</p>
-<p><img src="@@PLUGINFILE@@/img-2.jpeg" alt="(iii)" /></p>
-<p>(iii)</p>
-<p><img src="@@PLUGINFILE@@/img-3.jpeg" alt="(iv)" /></p>
-<p>(iv)</p>
-<p>Fig. 15.1</p>
-<p>Identify devices that can be used for modulation:</p>]]></text>
-  </questiontext>
-  <generalfeedback format="html">
-    <text><![CDATA[<p><strong>Given Data and Conditions</strong><br/>Four current-voltage (\(I-V\)) characteristic graphs are provided:<br/>
-First graph (labeled i): A linear relationship passing through the origin, representing an Ohmic (linear) device where \(I \propto V\).<br/>
-Second graph (labeled ii): A non-linear upward-curving characteristic following a square-law relationship \(I \propto V^2\).<br/>
-Third graph (labeled iii): A horizontal line representing constant current independent of voltage, \(I = \text{constant}\).<br/>
-Fourth graph (labeled iv): An S-shaped non-linear curve with distinct curved regions that exhibit non-linear behavior before and after transition.</p>
-<p><strong>Assumptions and Sign Conventions</strong><br/>Modulation requires generating new frequency components (specifically sum and difference sidebands, \(\omega_c \pm \omega_m\)) that are not present in the input signal. A linear device produces an output containing only the original input frequencies, whereas a non-linear (square-law) device creates cross-product terms that produce sideband frequencies.</p>
-<p><strong>Relevant Formulae and Principles</strong><br/>If the input voltage to a square-law device is \(V = v_m(t) + v_c(t)\), the resulting current contains terms:
-\[I = a V + b V^2 = a[v_m(t) + v_c(t)] + b[v_m(t) + v_c(t)]^2\]
-The quadratic term \(2 b v_m(t) v_c(t)\) produces the required modulated sidebands \(\omega_c \pm \omega_m\).</p>
-<p><strong>Step-by-Step Working</strong><br/>- The first device is purely linear, so its output contains no sideband frequencies; it cannot be used for modulation.<br/>
-- The second device exhibits a continuous non-linear (square-law) response across its operating range, making it ideal for square-law modulation.<br/>
-- The third device exhibits zero dynamic conductance (\(dI/dV = 0\)) and cannot generate modulation components.<br/>
-- The fourth device has curved non-linear segments near its lower knee and upper curvature where square-law behavior occurs, enabling modulation within those specific operating regions.</p>
-<p><strong>Check and Final Answer</strong><br/>Therefore, the devices suitable for modulation are device 'ii' and some regions of device 'iv'.</p>]]></text>
-  </generalfeedback>
-  <defaultgrade>4.0000000</defaultgrade>
-  <penalty>0.2500000</penalty>
-  <hidden>0</hidden>
-  <single>true</single>
-  <shuffleanswers>true</shuffleanswers>
-  <answernumbering>abc</answernumbering>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>'i' and 'iii'.</p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>only 'iii'.</p>]]></text>
-  </answer>
-  <answer fraction="100" format="html">
-    <text><![CDATA[<p>'ii' and some regions of 'iv'.</p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>All the devices can be used.</p>]]></text>
-  </answer>
-  <tags>
-    <tag><text>standard:neet_ug</text></tag>
-    <tag><text>lang:en</text></tag>
-    <tag><text>subject:physics</text></tag>
-    <tag><text>class:class_12</text></tag>
-    <tag><text>chapter:communication_systems</text></tag>
-    <tag><text>typology:mcq</text></tag>
-    <tag><text>difficulty:medium</text></tag>
-    <tag><text>blooms:analyze</text></tag>
-    <tag><text>calculation:light</text></tag>
-    <tag><text>media:diagram</text></tag>
-    <tag><text>multiconcept:false</text></tag>
-  </tags>
-</question>
-<question type="multichoice">
-  <name>
-    <text>NEET_UG_PHYSICS_COMMUNICATION_SYSTEMS_MCQ_Q07 - Voice distortion due to amplifier bandwidth selection</text>
-  </name>
-  <questiontext format="html">
-    <text><![CDATA[<p>A male voice after modulation-transmission sounds like that of a female to the receiver. The problem is due to</p>]]></text>
-  </questiontext>
-  <generalfeedback format="html">
-    <text><![CDATA[<p><strong>Conceptual Principle</strong><br/>Pitch is determined by the fundamental frequency and the distribution of harmonics in a sound signal. A male voice is characterized by a lower fundamental pitch (typically around \(100\text{ to }150\text{ Hz}\)), whereas a female voice has a higher fundamental pitch (typically around \(200\text{ to }300\text{ Hz}\)).</p>
-<p><strong>Evaluation</strong><br/>If the bandwidth of the transmitting or receiving amplifiers is improperly selected such that the lower audio frequencies are attenuated while the higher harmonic frequencies are preferentially passed or amplified, the resulting audio signal output is dominated by higher frequencies. This upward shift in the reproduced frequency spectrum gives the received sound a higher perceived pitch, causing a male voice to sound like a female voice.</p>
-<p><strong>Final Conclusion</strong><br/>The distortion is caused by poor bandwidth selection of amplifiers.</p>]]></text>
-  </generalfeedback>
-  <defaultgrade>4.0000000</defaultgrade>
-  <penalty>0.2500000</penalty>
-  <hidden>0</hidden>
-  <single>true</single>
-  <shuffleanswers>true</shuffleanswers>
-  <answernumbering>abc</answernumbering>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>poor selection of modulation index (selected \(0 < m < 1\))</p>]]></text>
-  </answer>
-  <answer fraction="100" format="html">
-    <text><![CDATA[<p>poor bandwidth selection of amplifiers.</p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>poor selection of carrier frequency</p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>loss of energy in transmission.</p>]]></text>
-  </answer>
-  <tags>
-    <tag><text>standard:neet_ug</text></tag>
-    <tag><text>lang:en</text></tag>
-    <tag><text>subject:physics</text></tag>
-    <tag><text>class:class_12</text></tag>
-    <tag><text>chapter:communication_systems</text></tag>
-    <tag><text>typology:mcq</text></tag>
-    <tag><text>difficulty:easy</text></tag>
-    <tag><text>blooms:understand</text></tag>
-    <tag><text>calculation:light</text></tag>
-    <tag><text>media:text</text></tag>
-    <tag><text>multiconcept:false</text></tag>
-  </tags>
-</question>
-<question type="multichoice">
-  <name>
-    <text>NEET_UG_PHYSICS_COMMUNICATION_SYSTEMS_MCQ_Q08 - Sequential arrangement of basic communication system components</text>
-  </name>
-  <questiontext format="html">
-    <text><![CDATA[<p>A basic communication system consists of</p>
-<p>(A) transmitter.<br/>
-(B) information source.<br/>
-(C) user of information.<br/>
-(D) channel.<br/>
-(E) receiver.</p>
-<p>Choose the correct sequence in which these are arranged in a basic communication system:</p>]]></text>
-  </questiontext>
-  <generalfeedback format="html">
-    <text><![CDATA[<p><strong>Conceptual Principle</strong><br/>A basic communication system operates by conveying a message from an originating source to a destination user through a transmission medium. The functional block sequence follows a direct physical pathway from message generation to message reception.</p>
-<p><strong>Evaluation</strong><br/>The elements operate in the following sequential order:<br/>
-1. Information source (B): Generates the original message signal.<br/>
-2. Transmitter (A): Modulates and prepares the signal for transmission over the channel.<br/>
-3. Channel (D): The physical link or medium that conveys the signal from transmitter to receiver.<br/>
-4. Receiver (E): Extracts and demodulates the desired message signal from the received carrier.<br/>
-5. User of information (C): The destination individual or device that receives the recovered message.</p>
-<p><strong>Final Conclusion</strong><br/>The correct sequential order of arrangement is B, A, D, E, C (BADEC).</p>]]></text>
-  </generalfeedback>
-  <defaultgrade>4.0000000</defaultgrade>
-  <penalty>0.2500000</penalty>
-  <hidden>0</hidden>
-  <single>true</single>
-  <shuffleanswers>true</shuffleanswers>
-  <answernumbering>abc</answernumbering>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>ABCDE.</p>]]></text>
-  </answer>
-  <answer fraction="100" format="html">
-    <text><![CDATA[<p>BADEC.</p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>BDACE.</p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>BEADC.</p>]]></text>
-  </answer>
-  <tags>
-    <tag><text>standard:neet_ug</text></tag>
-    <tag><text>lang:en</text></tag>
-    <tag><text>subject:physics</text></tag>
-    <tag><text>class:class_12</text></tag>
-    <tag><text>chapter:communication_systems</text></tag>
-    <tag><text>typology:mcq</text></tag>
-    <tag><text>difficulty:easy</text></tag>
-    <tag><text>blooms:remember</text></tag>
-    <tag><text>calculation:light</text></tag>
-    <tag><text>media:text</text></tag>
-    <tag><text>multiconcept:false</text></tag>
-  </tags>
-</question>
-<question type="multichoice">
-  <name>
-    <text>NEET_UG_PHYSICS_COMMUNICATION_SYSTEMS_MCQ_Q09 - Mathematical expression for amplitude modulated carrier wave</text>
-  </name>
-  <questiontext format="html">
-    <text><![CDATA[<p>Identify the mathematical expression for amplitude modulated wave:</p>]]></text>
-  </questiontext>
-  <generalfeedback format="html">
-    <text><![CDATA[<p><strong>Conceptual Principle</strong><br/>In amplitude modulation, the peak amplitude of the sinusoidal carrier wave is varied linearly in accordance with the instantaneous value of the modulating message signal \(v_m(t)\), while its frequency \(\omega_c\) and phase constant \(\phi\) remain unaltered.</p>
-<p><strong>Evaluation</strong><br/>Let the unmodulated carrier wave be represented as:
-\[c(t) = A_c \sin(\omega_c t + \phi)\]
-When modulated by the message signal \(v_m(t)\), the modulated carrier amplitude becomes:
-\[A(t) = A_c + k_2 v_m(t)\]
-where \(k_2\) represents the amplitude sensitivity factor. Multiplying this time-dependent amplitude by the sinusoidal carrier component yields:
-\[c_m(t) = \{A_c + k_2 v_m(t)\} \sin(\omega_c t + \phi)\]
-Expressions that place the message signal inside the sine argument modulate frequency or phase rather than amplitude.</p>
-<p><strong>Final Conclusion</strong><br/>The correct mathematical expression for the amplitude modulated wave is \(\{A_c + k_2 v_m(t)\} \sin(\omega_c t + \phi)\).</p>]]></text>
-  </generalfeedback>
-  <defaultgrade>4.0000000</defaultgrade>
-  <penalty>0.2500000</penalty>
-  <hidden>0</hidden>
-  <single>true</single>
-  <shuffleanswers>true</shuffleanswers>
-  <answernumbering>abc</answernumbering>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>\(A_{c}\sin \left[\left(\omega_{c} + k_{1}v_{m}(t)\right)t + \phi\right].\)</p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>\(A_{c}\sin \{\omega_{c}t + \phi +k_{2}v_{m}(t)\}\)</p>]]></text>
-  </answer>
-  <answer fraction="100" format="html">
-    <text><![CDATA[<p>\(\{A_{c} + k_{2}v_{m}(t)\} \sin (\omega_{c}t + \phi)\)</p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>\(A_{c}v_{m}(t)\sin (\omega_{c}t + \phi).\)</p>]]></text>
-  </answer>
-  <tags>
-    <tag><text>standard:neet_ug</text></tag>
-    <tag><text>lang:en</text></tag>
-    <tag><text>subject:physics</text></tag>
-    <tag><text>class:class_12</text></tag>
-    <tag><text>chapter:communication_systems</text></tag>
-    <tag><text>typology:mcq</text></tag>
-    <tag><text>difficulty:easy</text></tag>
-    <tag><text>blooms:understand</text></tag>
-    <tag><text>calculation:light</text></tag>
-    <tag><text>media:text</text></tag>
-    <tag><text>multiconcept:false</text></tag>
-  </tags>
-</question>
-<question type="multichoice">
-  <name>
-    <text>NEET_UG_PHYSICS_COMMUNICATION_SYSTEMS_MCQ_Q10 - Limitations in long distance transmission of audio</text>
-  </name>
-  <questiontext format="html">
-    <text><![CDATA[<p>An audio signal of \(15\text{ kHz}\) frequency cannot be transmitted over long distances without modulation because</p>]]></text>
-  </questiontext>
-  <generalfeedback format="html">
-    <text><![CDATA[<p><strong>Given Data and Conditions</strong><br/>Frequency of the audio signal: \(\nu = 15\text{ kHz} = 15 \times 10^3\text{ Hz}\)<br/>
-Speed of light in vacuum: \(c = 3 \times 10^8\text{ m/s}\)</p>
-<p><strong>Assumptions and Sign Conventions</strong><br/>Transmission of baseband signals directly through free space is evaluated based on antenna dimension constraints, effective radiated power, and atmospheric propagation limitations.</p>
-<p><strong>Relevant Formulae and Principles</strong><br/>1. Wavelength of the electromagnetic wave:
-\[\lambda = \frac{c}{\nu}\]
-2. Minimum required antenna dimension:
-\[l \approx \frac{\lambda}{4}\]
-3. Effective power radiated by a linear antenna of length \(l\):
-\[P \propto \left(\frac{l}{\lambda}\right)^2\]
-4. Ionospheric propagation: The ionosphere reflects frequencies typically between \(3\text{ MHz}\) and \(30\text{ MHz}\); baseband audio signals suffer heavy attenuation in the atmosphere and cannot propagate via sky waves.</p>
-<p><strong>Step-by-Step Working</strong><br/>1. Calculate the wavelength for \(\nu = 15\text{ kHz}\):
-\[\lambda = \frac{3 \times 10^8\text{ m/s}}{15 \times 10^3\text{ Hz}} = 2 \times 10^4\text{ m} = 20\text{ km}\]
-2. Compute the minimum required antenna size:
-\[l \approx \frac{\lambda}{4} = \frac{20\text{ km}}{4} = 5\text{ km}\]
-Constructing a vertical antenna of height at least \(5\text{ km}\) is practically infeasible.<br/>
-3. If an antenna of length substantially smaller than \(5\text{ km}\) is used (\(l \ll \lambda\)), the radiated power \(P \propto (l/\lambda)^2\) becomes negligibly small, preventing long-distance transmission.<br/>
-4. Moreover, audio frequency waves cannot be transmitted via sky wave reflection through the ionosphere.</p>
-<p><strong>Check and Final Answer</strong><br/>Long-distance unmodulated transmission is prevented because the required antenna size is at least \(5\text{ km}\), the audio signal cannot propagate via sky waves, and the effective radiated power is extremely small if the antenna size is less than \(5\text{ km}\).</p>]]></text>
-  </generalfeedback>
-  <defaultgrade>4.0000000</defaultgrade>
-  <penalty>0.2500000</penalty>
-  <hidden>0</hidden>
-  <single>false</single>
-  <shuffleanswers>true</shuffleanswers>
-  <answernumbering>abc</answernumbering>
-  <answer fraction="33.33333" format="html">
-    <text><![CDATA[<p>the size of the required antenna would be at least 5 km which is not convenient.</p>]]></text>
-  </answer>
-  <answer fraction="33.33333" format="html">
-    <text><![CDATA[<p>the audio signal can not be transmitted through sky waves.</p>]]></text>
-  </answer>
-  <answer fraction="-50" format="html">
-    <text><![CDATA[<p>the size of the required antenna would be at least \(20\text{ km}\), which is not convenient.</p>]]></text>
-  </answer>
-  <answer fraction="33.33333" format="html">
-    <text><![CDATA[<p>effective power transmitted would be very low, if the size of the antenna is less than \(5\text{ km}\).</p>]]></text>
-  </answer>
-  <tags>
-    <tag><text>standard:neet_ug</text></tag>
-    <tag><text>lang:en</text></tag>
-    <tag><text>subject:physics</text></tag>
-    <tag><text>class:class_12</text></tag>
-    <tag><text>chapter:communication_systems</text></tag>
-    <tag><text>typology:mcq</text></tag>
-    <tag><text>difficulty:medium</text></tag>
-    <tag><text>blooms:analyze</text></tag>
-    <tag><text>calculation:light</text></tag>
-    <tag><text>media:text</text></tag>
-    <tag><text>multiconcept:true</text></tag>
-  </tags>
-</question>
-<question type="multichoice">
-  <name>
-    <text>NEET_UG_PHYSICS_COMMUNICATION_SYSTEMS_MCQ_Q11 - Sideband frequencies and bandwidth in amplitude modulation</text>
-  </name>
-  <questiontext format="html">
-    <text><![CDATA[<p>Audio sine waves of \(3\text{ kHz}\) frequency are used to amplitude modulate a carrier signal of \(1.5\text{ MHz}\). Which of the following statements are true?</p>]]></text>
-  </questiontext>
-  <generalfeedback format="html">
-    <text><![CDATA[<p><strong>Given Data and Conditions</strong><br/>Modulating signal frequency: \(f_m = 3\text{ kHz}\)<br/>
-Carrier signal frequency: \(f_c = 1.5\text{ MHz} = 1500\text{ kHz}\)</p>
-<p><strong>Assumptions and Sign Conventions</strong><br/>Standard sinusoidal amplitude modulation is used, generating two sidebands around the carrier.</p>
-<p><strong>Relevant Formulae and Principles</strong><br/>1. Upper sideband frequency:
-\[f_{\text{USB}} = f_c + f_m\]
-2. Lower sideband frequency:
-\[f_{\text{LSB}} = f_c - f_m\]
-3. Bandwidth required for transmission:
-\[\text{Bandwidth} = 2 f_m\]</p>
-<p><strong>Step-by-Step Working</strong><br/>1. Calculate sideband frequencies:
-\[f_{\text{USB}} = 1500\text{ kHz} + 3\text{ kHz} = 1503\text{ kHz}\]
-\[f_{\text{LSB}} = 1500\text{ kHz} - 3\text{ kHz} = 1497\text{ kHz}\]
-2. Calculate required channel bandwidth:
-\[\text{Bandwidth} = 2 \times 3\text{ kHz} = 6\text{ kHz}\]
-</p>
-<p><strong>Check and Final Answer</strong><br/>The correct sideband frequencies are \(1503\text{ kHz}\) and \(1497\text{ kHz}\), and the bandwidth required for amplitude modulation is \(6\text{ kHz}\).</p>]]></text>
-  </generalfeedback>
-  <defaultgrade>4.0000000</defaultgrade>
-  <penalty>0.2500000</penalty>
-  <hidden>0</hidden>
-  <single>false</single>
-  <shuffleanswers>true</shuffleanswers>
-  <answernumbering>abc</answernumbering>
-  <answer fraction="-50" format="html">
-    <text><![CDATA[<p>The side band frequencies are \(1506\text{ kHz}\) and \(1494\text{ kHz}\).</p>]]></text>
-  </answer>
-  <answer fraction="50" format="html">
-    <text><![CDATA[<p>The bandwidth required for amplitude modulation is \(6\text{ kHz}\).</p>]]></text>
-  </answer>
-  <answer fraction="-50" format="html">
-    <text><![CDATA[<p>The bandwidth required for amplitude modulation is \(3\text{ MHz}\).</p>]]></text>
-  </answer>
-  <answer fraction="50" format="html">
-    <text><![CDATA[<p>The side band frequencies are \(1503\text{ kHz}\) and \(1497\text{ kHz}\).</p>]]></text>
-  </answer>
-  <tags>
-    <tag><text>standard:neet_ug</text></tag>
-    <tag><text>lang:en</text></tag>
-    <tag><text>subject:physics</text></tag>
-    <tag><text>class:class_12</text></tag>
-    <tag><text>chapter:communication_systems</text></tag>
-    <tag><text>typology:mcq</text></tag>
-    <tag><text>difficulty:easy</text></tag>
-    <tag><text>blooms:apply</text></tag>
-    <tag><text>calculation:light</text></tag>
-    <tag><text>media:text</text></tag>
-    <tag><text>multiconcept:false</text></tag>
-  </tags>
-</question>
-<question type="multichoice">
-  <name>
-    <text>NEET_UG_PHYSICS_COMMUNICATION_SYSTEMS_MCQ_Q12 - Line of sight transmission range of television</text>
-  </name>
-  <questiontext format="html">
-    <text><![CDATA[<p>A TV transmission tower has a height of \(240\text{ m}\). Signals broadcast from this tower will be received by LOS communication at a distance of (assume the radius of earth to be \(6.4 \times 10^{6}\text{ m}\))</p>]]></text>
-  </questiontext>
-  <generalfeedback format="html">
-    <text><![CDATA[<p><strong>Given Data and Conditions</strong><br/>Height of the transmitting antenna: \(h_T = 240\text{ m}\)<br/>
-Radius of Earth: \(R = 6.4 \times 10^6\text{ m}\)</p>
-<p><strong>Assumptions and Sign Conventions</strong><br/>The receiving antenna is assumed to be at ground level. Line-of-sight (LOS) propagation limits signal coverage to the radio horizon distance determined by Earth's curvature.</p>
-<p><strong>Relevant Formulae and Principles</strong><br/>The maximum distance to the radio horizon for an antenna of height \(h_T\) is given by:
-\[d = \sqrt{2 R h_T}\]
-Any receiving point at a distance less than or equal to this maximum horizon distance (\(d_{\text{rec}} \le d\)) can receive the broadcast signal.</p>
-<p><strong>Step-by-Step Working</strong><br/>1. Calculate maximum transmission distance \(d\):
-\[d = \sqrt{2 \times (6.4 \times 10^6\text{ m}) \times 240\text{ m}}\]
-\[d = \sqrt{3.072 \times 10^9\text{ m}^2} = \sqrt{3072 \times 10^6}\text{ m}\]
-\[d \approx 55.43 \times 10^3\text{ m} = 55.43\text{ km}\]
-2. Compare candidate distances with the maximum range of \(55.43\text{ km}\):<br/>
-- A distance of \(24\text{ km}\) is less than \(55.43\text{ km}\), so signals can be received.<br/>
-- A distance of \(50\text{ km}\) is less than \(55.43\text{ km}\), so signals can be received.<br/>
-- A distance of \(55\text{ km}\) is less than \(55.43\text{ km}\), so signals can be received.<br/>
-- A distance of \(100\text{ km}\) exceeds the horizon limit, so signals cannot be received.</p>
-<p><strong>Check and Final Answer</strong><br/>Signals broadcast from the tower can be received at distances of \(24\text{ km}\), \(50\text{ km}\), and \(55\text{ km}\).</p>]]></text>
-  </generalfeedback>
-  <defaultgrade>4.0000000</defaultgrade>
-  <penalty>0.2500000</penalty>
-  <hidden>0</hidden>
-  <single>false</single>
-  <shuffleanswers>true</shuffleanswers>
-  <answernumbering>abc</answernumbering>
-  <answer fraction="-50" format="html">
-    <text><![CDATA[<p>\(100\text{ km}\)</p>]]></text>
-  </answer>
-  <answer fraction="33.33333" format="html">
-    <text><![CDATA[<p>\(24\text{ km}\)</p>]]></text>
-  </answer>
-  <answer fraction="33.33333" format="html">
-    <text><![CDATA[<p>\(55\text{ km}\)</p>]]></text>
-  </answer>
-  <answer fraction="33.33333" format="html">
-    <text><![CDATA[<p>\(50\text{ km}\)</p>]]></text>
-  </answer>
-  <tags>
-    <tag><text>standard:neet_ug</text></tag>
-    <tag><text>lang:en</text></tag>
-    <tag><text>subject:physics</text></tag>
-    <tag><text>class:class_12</text></tag>
+    <tag><text>section:mcq_i</text></tag>
+    <tag><text>class:12</text></tag>
     <tag><text>chapter:communication_systems</text></tag>
     <tag><text>typology:mcq</text></tag>
     <tag><text>difficulty:medium</text></tag>
@@ -645,110 +99,366 @@ Any receiving point at a distance less than or equal to this maximum horizon dis
   </tags>
 </question>
 <question type="multichoice">
-  <name>
-    <text>NEET_UG_PHYSICS_COMMUNICATION_SYSTEMS_MCQ_Q13 - Frequency response curve of filter for modulation</text>
-  </name>
-  <questiontext format="html">
-    <text><![CDATA[<p>The frequency response curve (Fig. 15.2) for the filter circuit used for production of AM wave should be</p>
-<p><img src="@@PLUGINFILE@@/img-4.jpeg" alt="(i)" /></p>
-<p>(i)</p>
-<p><img src="@@PLUGINFILE@@/img-5.jpeg" alt="(ii)" /></p>
-<p>(ii)</p>
-<p><img src="@@PLUGINFILE@@/img-6.jpeg" alt="(iii)" /></p>
-<p>(iii)</p>
-<p><img src="@@PLUGINFILE@@/img-7.jpeg" alt="(iv)" /></p>
-<p>(iv)</p>
-<p>Fig. 15.2</p>]]></text>
-  </questiontext>
-  <generalfeedback format="html">
-    <text><![CDATA[<p><strong>Given Data and Conditions</strong><br/>Four frequency response curves are presented:<br/>
-First curve (labeled i): Low-pass filter characteristics that pass frequencies from zero up to \(\omega_c + \omega_m\).<br/>
-Second curve (labeled ii): High-pass filter characteristics that pass frequencies from \(\omega_c - \omega_m\) upwards.<br/>
-Third curve (labeled iii): Bandpass filter characteristics that pass frequencies exclusively within the band between \(\omega_c - \omega_m\) and \(\omega_c + \omega_m\).<br/>
-Fourth curve (labeled iv): Band-stop (notch) filter characteristics that attenuate the band between \(\omega_c - \omega_m\) and \(\omega_c + \omega_m\).</p>
-<p><strong>Assumptions and Sign Conventions</strong><br/>In the generation of an amplitude modulated signal, the output of the non-linear mixer contains DC, baseband message frequencies (\(\omega_m\)), second harmonics (\(2\omega_m, 2\omega_c\)), carrier frequency (\(\omega_c\)), and sidebands (\(\omega_c \pm \omega_m\)). The filter stage must select the carrier and both sidebands while rejecting all DC, low-frequency, and higher-harmonic components.</p>
-<p><strong>Relevant Formulae and Principles</strong><br/>The required filter must possess a bandpass response centered at \(\omega_c\) with bandwidth \(2\omega_m\) covering \([\omega_c - \omega_m, \omega_c + \omega_m]\). A bandpass response can be achieved by:
-1. Directly using a bandpass filter.<br/>
-2. Cascading a low-pass filter (cutoff \(\omega_c + \omega_m\)) with a high-pass filter (cutoff \(\omega_c - \omega_m\)), in either sequence.</p>
-<p><strong>Step-by-Step Working</strong><br/>- Curve (iii) is inherently a bandpass filter that passes the required band \([\omega_c - \omega_m, \omega_c + \omega_m]\).<br/>
-- Cascading a low-pass filter with cutoff \(\omega_c + \omega_m\) followed by a high-pass filter with cutoff \(\omega_c - \omega_m\) ((i) followed by (ii)) rejects both high and low unwanted frequencies, leaving the desired bandpass response.<br/>
-- Reversing the order to a high-pass filter followed by a low-pass filter ((ii) followed by (i)) yields the identical composite bandpass response.<br/>
-- Curve (iv) rejects the required band and passes unwanted components, so it cannot be used.</p>
-<p><strong>Check and Final Answer</strong><br/>The required filter response can be realized by (i) followed by (ii), by (ii) followed by (i), or directly by (iii).</p>]]></text>
-  </generalfeedback>
+  <name><text>PHYSICS_MCQI_COMMUNICATIONSYSTEMS_Q154 - Sideband frequencies in amplitude modulation</text></name>
+  <questiontext format="html"><text><![CDATA[<p><strong>15.4</strong> A speech signal of \(3\text{ kHz}\) is used to modulate a carrier signal of frequency \(1\text{ MHz}\), using amplitude modulation. The frequencies of the side bands will be</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>Frequency of the modulating speech signal, \(f_m = 3\text{ kHz}\).<br/>Frequency of the carrier signal, \(f_c = 1\text{ MHz} = 1000\text{ kHz}\).</p>
+<p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>Standard double-sideband amplitude modulation is used with a sinusoidal modulating component at \(3\text{ kHz}\).</p>
+<p><strong>Step 3: Relevant Formulae and Principles</strong><br/>In amplitude modulation, the two sideband frequencies are:<br/>\[\text{Upper Side Band (USB)} = f_c + f_m\]<br/>\[\text{Lower Side Band (LSB)} = f_c - f_m\]</p>
+<p><strong>Step 4: Step-by-Step Working</strong><br/>Convert both frequencies to \(\text{MHz}\):<br/>\[f_m = 3\text{ kHz} = 0.003\text{ MHz}\]<br/>\[f_c = 1\text{ MHz}\]<br/>Calculate the sideband frequencies:<br/>\[\text{USB} = 1\text{ MHz} + 0.003\text{ MHz} = 1.003\text{ MHz}\]<br/>\[\text{LSB} = 1\text{ MHz} - 0.003\text{ MHz} = 0.997\text{ MHz}\]</p>
+<p><strong>Step 5: Check and Final Answer</strong><br/>Both sidebands are symmetrically placed around the carrier frequency \(1\text{ MHz}\). Hence, the frequencies of the sidebands are \(1.003\text{ MHz}\) and \(0.997\text{ MHz}\).</p>]]></text></generalfeedback>
   <defaultgrade>4.0000000</defaultgrade>
   <penalty>0.2500000</penalty>
   <hidden>0</hidden>
-  <single>false</single>
-  <shuffleanswers>false</shuffleanswers>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
   <answernumbering>abc</answernumbering>
-  <answer fraction="33.33333" format="html">
-    <text><![CDATA[<p>(i) followed by (ii).</p>]]></text>
-  </answer>
-  <answer fraction="33.33333" format="html">
-    <text><![CDATA[<p>(ii) followed by (i).</p>]]></text>
-  </answer>
-  <answer fraction="33.33333" format="html">
-    <text><![CDATA[<p>(iii).</p>]]></text>
-  </answer>
-  <answer fraction="-50" format="html">
-    <text><![CDATA[<p>(iv).</p>]]></text>
-  </answer>
+  <answer fraction="100" format="html"><text><![CDATA[<p>\(1.003\text{ MHz}\) and \(0.997\text{ MHz}.\)</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>\(3001\text{ kHz}\) and \(2997\text{ kHz}.\)</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>\(1003\text{ kHz}\) and \(1000\text{ kHz}.\)</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>\(1\text{ MHz}\) and \(0.997\text{ MHz}.\)</p>]]></text></answer>
   <tags>
     <tag><text>standard:neet_ug</text></tag>
     <tag><text>lang:en</text></tag>
     <tag><text>subject:physics</text></tag>
-    <tag><text>class:class_12</text></tag>
+    <tag><text>section:mcq_i</text></tag>
+    <tag><text>class:12</text></tag>
+    <tag><text>chapter:communication_systems</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:easy</text></tag>
+    <tag><text>blooms:apply</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:text</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+<question type="multichoice">
+  <name><text>PHYSICS_MCQI_COMMUNICATIONSYSTEMS_Q155 - Frequency of an amplitude modulated wave</text></name>
+  <questiontext format="html"><text><![CDATA[<p><strong>15.5</strong> A message signal of frequency \(\omega_{m}\) is superposed on a carrier wave of frequency \(\omega_{c}\) to get an amplitude modulated wave (AM). The frequency of the AM wave will be</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>In amplitude modulation, the amplitude of the high-frequency carrier wave is varied in accordance with the instantaneous amplitude of the low-frequency message signal, while the frequency of the carrier wave remains unchanged.</p>
+<p><strong>Step 2: Evaluation</strong><br/>The mathematical expression for an amplitude modulated wave is \(c_m(t) = (A_c + A_m \sin\omega_m t)\sin\omega_c t\), where \(\omega_c \gg \omega_m\). The rapidly oscillating carrier factor is \(\sin\omega_c t\), whose angular frequency is \(\omega_c\).</p>
+<p><strong>Step 3: Application</strong><br/>Although the AM spectrum contains sidebands at \(\omega_c + \omega_m\) and \(\omega_c - \omega_m\) in addition to \(\omega_c\), the fundamental carrier frequency of the AM wave itself is \(\omega_c\).</p>
+<p><strong>Step 4: Final Conclusion</strong><br/>Therefore, the frequency of the AM wave is \(\omega_c\).</p>]]></text></generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="0" format="html"><text><![CDATA[<p>\(\omega_{m}\)</p>]]></text></answer>
+  <answer fraction="100" format="html"><text><![CDATA[<p>\(\omega_{c}\)</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>\(\frac{\omega_c + \omega_m}{2}.\)</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>\(\frac{\omega_c - \omega_m}{2}.\)</p>]]></text></answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>section:mcq_i</text></tag>
+    <tag><text>class:12</text></tag>
+    <tag><text>chapter:communication_systems</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:easy</text></tag>
+    <tag><text>blooms:understand</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:text</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+<question type="multichoice">
+  <name><text>PHYSICS_MCQI_COMMUNICATIONSYSTEMS_Q156 - Identifying devices suitable for amplitude modulation</text></name>
+  <questiontext format="html"><text><![CDATA[<p><strong>15.6</strong> \(I\text{–}V\) characteristics of four devices are shown in Fig. 15.1</p>
+<p><img src="@@PLUGINFILE@@/img-0.jpeg" alt="I-V characteristic (i)" /> (i) <img src="@@PLUGINFILE@@/img-1.jpeg" alt="I-V characteristic (ii)" /> (ii) <img src="@@PLUGINFILE@@/img-2.jpeg" alt="I-V characteristic (iii)" /> (iii) <img src="@@PLUGINFILE@@/img-3.jpeg" alt="I-V characteristic (iv)" /> (iv)</p>
+<p>Fig. 15.1</p>
+<p>Identify devices that can be used for modulation:</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>Amplitude modulation requires mixing the message signal and the carrier signal to produce sum and difference frequencies (\(\omega_c + \omega_m\) and \(\omega_c - \omega_m\)). A purely linear device only produces a linear superposition of the input frequencies and cannot generate sideband frequencies. Therefore, a non-linear device—specifically a square-law device whose characteristic contains a \(V^2\) term—is required for modulation.</p>
+<p><strong>Step 2: Evaluation</strong><br/>Inspecting the four \(I\text{–}V\) characteristics: the first graph shows a straight line through the origin (\(I \propto V\)), which is linear. The second graph shows an upward-curving parabolic characteristic (\(I\) increases non-linearly with \(V\)), representing a square-law non-linear device. The third graph shows a horizontal straight line (constant \(I\) independent of \(V\)), which is also linear. The fourth graph shows an S-shaped curve that has curved non-linear regions as well as a nearly linear middle region.</p>
+<p><strong>Step 3: Application</strong><br/>Because non-linear \(I\text{–}V\) behaviour is necessary to generate the cross-product terms between the carrier and modulating signals, the parabolic device and the non-linear regions of the S-shaped device can be used for modulation, whereas the linear devices cannot.</p>
+<p><strong>Step 4: Final Conclusion</strong><br/>Hence, device 'ii' and some regions of device 'iv' can be used for modulation.</p>]]></text></generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="0" format="html"><text><![CDATA[<p>'i' and 'iii'.</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>only 'iii'.</p>]]></text></answer>
+  <answer fraction="100" format="html"><text><![CDATA[<p>'ii' and some regions of 'iv'.</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>All the devices can be used.</p>]]></text></answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>section:mcq_i</text></tag>
+    <tag><text>class:12</text></tag>
     <tag><text>chapter:communication_systems</text></tag>
     <tag><text>typology:mcq</text></tag>
     <tag><text>difficulty:medium</text></tag>
     <tag><text>blooms:analyze</text></tag>
     <tag><text>calculation:light</text></tag>
-    <tag><text>media:diagram</text></tag>
+    <tag><text>media:graph</text></tag>
     <tag><text>multiconcept:false</text></tag>
   </tags>
 </question>
 <question type="multichoice">
-  <name>
-    <text>NEET_UG_PHYSICS_COMMUNICATION_SYSTEMS_MCQ_Q14 - Condition for modulation index in amplitude modulation</text>
-  </name>
-  <questiontext format="html">
-    <text><![CDATA[<p>In amplitude modulation, the modulation index \(m\), is kept less than or equal to 1 because</p>]]></text>
-  </questiontext>
-  <generalfeedback format="html">
-    <text><![CDATA[<p><strong>Conceptual Principle</strong><br/>The modulation index \(m\) in amplitude modulation is defined as the ratio of the peak amplitude of the modulating message signal \(A_m\) to the peak amplitude of the carrier signal \(A_c\):
-\[m = \frac{A_m}{A_c}\]</p>
-<p><strong>Evaluation</strong><br/>When \(m > 1\), the amplitude of the message signal exceeds the amplitude of the carrier wave (\(A_m > A_c\)). This condition is known as overmodulation:<br/>
-1. During the negative peaks of the modulating wave, the envelope of the modulated carrier dips below zero and becomes severely clipped and distorted. As a result, the original modulating signal cannot be faithfully recovered by simple envelope detectors.<br/>
-2. Overmodulation generates extraneous high-order harmonic frequencies that cause spectral splatter and severe overlapping of adjacent sidebands, leading to irreversible loss of transmitted information.</p>
-<p><strong>Final Conclusion</strong><br/>A modulation index \(m > 1\) indicates that the amplitude of the message signal is greater than the amplitude of the carrier signal resulting in distortion, and it causes overlapping of both sidebands resulting in loss of information.</p>]]></text>
-  </generalfeedback>
+  <name><text>PHYSICS_MCQI_COMMUNICATIONSYSTEMS_Q157 - Male voice sounding like female after transmission</text></name>
+  <questiontext format="html"><text><![CDATA[<p><strong>15.7</strong> A male voice after modulation-transmission sounds like that of a female to the receiver. The problem is due to</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>A male voice typically has a lower fundamental pitch (frequency) than a female voice, which has higher frequency components. For faithful reproduction of a voice signal, the amplifiers in the transmitter and receiver must have an appropriate bandwidth that passes all the required frequency components of the original voice signal without selectively attenuating the lower frequencies or shifting the frequency spectrum.</p>
+<p><strong>Step 2: Evaluation</strong><br/>If a male voice sounds higher-pitched (like a female voice) at the receiver, the lower-frequency components of the audio signal have been suppressed or lost while the higher-frequency components remain, or the passband is improperly positioned.</p>
+<p><strong>Step 3: Application</strong><br/>This distortion occurs due to poor bandwidth selection of the amplifiers in the communication system, which fails to preserve the full frequency range of the modulating speech signal. Selection of modulation index (\(0 < m < 1\)), carrier frequency, or transmission energy loss does not shift the pitch in this manner.</p>
+<p><strong>Step 4: Final Conclusion</strong><br/>Therefore, the problem is due to poor bandwidth selection of amplifiers.</p>]]></text></generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="0" format="html"><text><![CDATA[<p>poor selection of modulation index (selected \(0 &lt; m &lt; 1\))</p>]]></text></answer>
+  <answer fraction="100" format="html"><text><![CDATA[<p>poor bandwidth selection of amplifiers.</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>poor selection of carrier frequency</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>loss of energy in transmission.</p>]]></text></answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>section:mcq_i</text></tag>
+    <tag><text>class:12</text></tag>
+    <tag><text>chapter:communication_systems</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:medium</text></tag>
+    <tag><text>blooms:understand</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:text</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+<question type="multichoice">
+  <name><text>PHYSICS_MCQI_COMMUNICATIONSYSTEMS_Q158 - Sequence of blocks in basic communication system</text></name>
+  <questiontext format="html"><text><![CDATA[<p><strong>15.8</strong> A basic communication system consists of</p>
+<p>(A) transmitter.<br/>
+(B) information source.<br/>
+(C) user of information.<br/>
+(D) channel.<br/>
+(E) receiver.</p>
+<p>Choose the correct sequence in which these are arranged in a basic communication system:</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>A basic communication system transfers a message from an origin to a destination through a physical medium.</p>
+<p><strong>Step 2: Evaluation</strong><br/>First, the information source generates the message signal. Next, the transmitter processes and converts this signal into a form suitable for transmission. The signal then travels through the communication channel, which connects the transmitter to the receiver. The receiver extracts and reconstructs the original message from the received signal and delivers it to the user of information.</p>
+<p><strong>Step 3: Application</strong><br/>Thus, the correct order of components is: information source \(\rightarrow\) transmitter \(\rightarrow\) channel \(\rightarrow\) receiver \(\rightarrow\) user of information.</p>
+<p><strong>Step 4: Final Conclusion</strong><br/>Matching the given labels to this order gives the sequence BADEC.</p>]]></text></generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="0" format="html"><text><![CDATA[<p>ABCDE.</p>]]></text></answer>
+  <answer fraction="100" format="html"><text><![CDATA[<p>BADEC.</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>BDACE.</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>BEADC.</p>]]></text></answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>section:mcq_i</text></tag>
+    <tag><text>class:12</text></tag>
+    <tag><text>chapter:communication_systems</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:easy</text></tag>
+    <tag><text>blooms:remember</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:text</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+<question type="multichoice">
+  <name><text>PHYSICS_MCQI_COMMUNICATIONSYSTEMS_Q159 - Mathematical expression for amplitude modulated wave</text></name>
+  <questiontext format="html"><text><![CDATA[<p><strong>15.9</strong> Identify the mathematical expression for amplitude modulated wave:</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>In amplitude modulation (AM), the amplitude of the carrier wave \(c(t) = A_c \sin(\omega_c t + \phi)\) is varied linearly with the instantaneous value of the message signal \(v_m(t)\), while the carrier frequency \(\omega_c\) and phase \(\phi\) remain constant.</p>
+<p><strong>Step 2: Evaluation</strong><br/>Adding a term proportional to \(v_m(t)\) to the unmodulated carrier amplitude \(A_c\) gives an instantaneous modulated amplitude of \(A_c + k_2 v_m(t)\), where \(k_2\) is a proportionality constant.</p>
+<p><strong>Step 3: Application</strong><br/>Replacing \(A_c\) by \(A_c + k_2 v_m(t)\) in the carrier wave expression yields:<br/>\[c_m(t) = \{A_c + k_2 v_m(t)\} \sin(\omega_c t + \phi)\]<br/>Expressions where \(v_m(t)\) modifies \(\omega_c\) or \(\phi\) represent frequency or phase modulation, while \(A_c v_m(t)\sin(\omega_c t + \phi)\) lacks the unmodulated carrier term \(A_c\) (double-sideband suppressed carrier).</p>
+<p><strong>Step 4: Final Conclusion</strong><br/>Therefore, the mathematical expression for an amplitude modulated wave is \(\{A_c + k_2 v_m(t)\} \sin(\omega_c t + \phi)\).</p>]]></text></generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="0" format="html"><text><![CDATA[<p>\(A_{c}\sin \left[\left(\omega_{c} + k_{1}v_{m}(t)\right)t + \phi\right].\)</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>\(A_{c}\sin \{\omega_{c}t + \phi + k_{2}v_{m}(t)\}\)</p>]]></text></answer>
+  <answer fraction="100" format="html"><text><![CDATA[<p>\(\{A_c + k_2 v_m(t)\} \sin (\omega_c t + \phi)\)</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>\(A_{c}v_{m}(t)\sin (\omega_{c}t + \phi).\)</p>]]></text></answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>section:mcq_i</text></tag>
+    <tag><text>class:12</text></tag>
+    <tag><text>chapter:communication_systems</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:easy</text></tag>
+    <tag><text>blooms:understand</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:equation</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+<question type="multichoice">
+  <name><text>PHYSICS_MCQII_COMMUNICATIONSYSTEMS_Q1510 - Why 15 kHz audio needs modulation</text></name>
+  <questiontext format="html"><text><![CDATA[<p><strong>15.10</strong> An audio signal of \(15\text{ kHz}\) frequency cannot be transmitted over long distances without modulation because</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>Frequency of the audio signal, \(f = 15\text{ kHz} = 15 \times 10^3\text{ Hz}\).<br/>Speed of electromagnetic waves in free space, \(c = 3 \times 10^8\text{ m/s}\).</p>
+<p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>For efficient radiation, the minimum required length of an antenna is \(\lambda/4\).</p>
+<p><strong>Step 3: Relevant Formulae and Principles</strong><br/>\[\lambda = \frac{c}{f}, \quad l_{\min} = \frac{\lambda}{4}\]<br/>Effective power radiated by an antenna of length \(l\) is proportional to \(\left(\frac{l}{\lambda}\right)^2\).</p>
+<p><strong>Step 4: Step-by-Step Working</strong><br/>Calculate the wavelength of the \(15\text{ kHz}\) signal:<br/>\[\lambda = \frac{3 \times 10^8\text{ m/s}}{15 \times 10^3\text{ Hz}} = 2 \times 10^4\text{ m} = 20\text{ km}\]<br/>Calculate the minimum required antenna size:<br/>\[l_{\min} = \frac{20\text{ km}}{4} = 5\text{ km}\]<br/>Constructing and operating an antenna of at least \(5\text{ km}\) height is practically inconvenient. If an antenna smaller than \(5\text{ km}\) is used, the ratio \(l/\lambda\) becomes very small, so the effective power radiated is very low. Furthermore, low-frequency audio signals (\(15\text{ kHz}\)) cannot be transmitted through sky waves because they are heavily attenuated and absorbed in the atmosphere rather than being reflected by the ionosphere.</p>
+<p><strong>Step 5: Check and Final Answer</strong><br/>Therefore, the \(15\text{ kHz}\) audio signal cannot be transmitted over long distances without modulation because the required antenna size would be at least \(5\text{ km}\) (which is not convenient), the audio signal cannot be transmitted through sky waves, and the effective power transmitted would be very low if the antenna size is less than \(5\text{ km}\).</p>]]></text></generalfeedback>
   <defaultgrade>4.0000000</defaultgrade>
   <penalty>0.2500000</penalty>
   <hidden>0</hidden>
   <single>false</single>
   <shuffleanswers>true</shuffleanswers>
   <answernumbering>abc</answernumbering>
-  <answer fraction="-50" format="html">
-    <text><![CDATA[<p>\(m > 1\), will result in interference between carrier frequency and message frequency, resulting into distortion.</p>]]></text>
-  </answer>
-  <answer fraction="50" format="html">
-    <text><![CDATA[<p>\(m > 1\) will result in overlapping of both side bands resulting into loss of information.</p>]]></text>
-  </answer>
-  <answer fraction="-50" format="html">
-    <text><![CDATA[<p>\(m > 1\) will result in change in phase between carrier signal and message signal.</p>]]></text>
-  </answer>
-  <answer fraction="50" format="html">
-    <text><![CDATA[<p>\(m > 1\) indicates amplitude of message signal greater than amplitude of carrier signal resulting into distortion.</p>]]></text>
-  </answer>
+  <answer fraction="33.33333" format="html"><text><![CDATA[<p>the size of the required antenna would be at least \(5\text{ km}\) which is not convenient.</p>]]></text></answer>
+  <answer fraction="33.33333" format="html"><text><![CDATA[<p>the audio signal can not be transmitted through sky waves.</p>]]></text></answer>
+  <answer fraction="-50" format="html"><text><![CDATA[<p>the size of the required antenna would be at least \(20\text{ km}\), which is not convenient.</p>]]></text></answer>
+  <answer fraction="33.33333" format="html"><text><![CDATA[<p>effective power transmitted would be very low, if the size of the antenna is less than \(5\text{ km}\).</p>]]></text></answer>
   <tags>
     <tag><text>standard:neet_ug</text></tag>
     <tag><text>lang:en</text></tag>
     <tag><text>subject:physics</text></tag>
-    <tag><text>class:class_12</text></tag>
+    <tag><text>section:mcq_ii</text></tag>
+    <tag><text>class:12</text></tag>
+    <tag><text>chapter:communication_systems</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:medium</text></tag>
+    <tag><text>blooms:apply</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:text</text></tag>
+    <tag><text>multiconcept:true</text></tag>
+  </tags>
+</question>
+<question type="multichoice">
+  <name><text>PHYSICS_MCQII_COMMUNICATIONSYSTEMS_Q1511 - Sideband frequencies and bandwidth of AM wave</text></name>
+  <questiontext format="html"><text><![CDATA[<p><strong>15.11</strong> Audio sine waves of \(3\text{ kHz}\) frequency are used to amplitude modulate a carrier signal of \(1.5\text{ MHz}\). Which of the following statements are true?</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>Modulating audio frequency, \(f_m = 3\text{ kHz}\).<br/>Carrier signal frequency, \(f_c = 1.5\text{ MHz} = 1500\text{ kHz}\).</p>
+<p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>Standard amplitude modulation is performed using a single-frequency sinusoidal modulating wave.</p>
+<p><strong>Step 3: Relevant Formulae and Principles</strong><br/>\[\text{Upper Side Band (USB)} = f_c + f_m\]<br/>\[\text{Lower Side Band (LSB)} = f_c - f_m\]<br/>\[\text{Bandwidth} = \text{USB} - \text{LSB} = 2f_m\]</p>
+<p><strong>Step 4: Step-by-Step Working</strong><br/>Compute the sideband frequencies in \(\text{kHz}\):<br/>\[\text{USB} = 1500\text{ kHz} + 3\text{ kHz} = 1503\text{ kHz}\]<br/>\[\text{LSB} = 1500\text{ kHz} - 3\text{ kHz} = 1497\text{ kHz}\]<br/>Compute the bandwidth required:<br/>\[\text{Bandwidth} = 2 \times 3\text{ kHz} = 6\text{ kHz}\]</p>
+<p><strong>Step 5: Check and Final Answer</strong><br/>Checking the difference: \(1503\text{ kHz} - 1497\text{ kHz} = 6\text{ kHz}\). Thus, the sideband frequencies are \(1503\text{ kHz}\) and \(1497\text{ kHz}\), and the bandwidth required for amplitude modulation is \(6\text{ kHz}\).</p>]]></text></generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>false</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="-50" format="html"><text><![CDATA[<p>The side band frequencies are \(1506\text{ kHz}\) and \(1494\text{ kHz}\).</p>]]></text></answer>
+  <answer fraction="50" format="html"><text><![CDATA[<p>The bandwidth required for amplitude modulation is \(6\text{ kHz}\).</p>]]></text></answer>
+  <answer fraction="-50" format="html"><text><![CDATA[<p>The bandwidth required for amplitude modulation is \(3\text{ MHz}\).</p>]]></text></answer>
+  <answer fraction="50" format="html"><text><![CDATA[<p>The side band frequencies are \(1503\text{ kHz}\) and \(1497\text{ kHz}\).</p>]]></text></answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>section:mcq_ii</text></tag>
+    <tag><text>class:12</text></tag>
     <tag><text>chapter:communication_systems</text></tag>
     <tag><text>typology:mcq</text></tag>
     <tag><text>difficulty:easy</text></tag>
+    <tag><text>blooms:apply</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:text</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+<question type="multichoice">
+  <name><text>PHYSICS_MCQII_COMMUNICATIONSYSTEMS_Q1512 - Line of sight communication distance from tower</text></name>
+  <questiontext format="html"><text><![CDATA[<p><strong>15.12</strong> A TV transmission tower has a height of \(240\text{ m}\). Signals broadcast from this tower will be received by LOS communication at a distance of (assume the radius of earth to be \(6.4 \times 10^{6}\text{ m}\))</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>Height of the transmitting tower, \(h_T = 240\text{ m}\).<br/>Radius of the Earth, \(R = 6.4 \times 10^6\text{ m}\).</p>
+<p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>The receiving antenna is at ground level (\(h_R = 0\)), and the Earth is modelled as a smooth sphere of radius \(R\) with \(h_T \ll R\).</p>
+<p><strong>Step 3: Relevant Formulae and Principles</strong><br/>The maximum line-of-sight (LOS) distance (radio horizon) from a transmitting tower of height \(h_T\) is:<br/>\[d_m = \sqrt{2 R h_T}\]</p>
+<p><strong>Step 4: Step-by-Step Working</strong><br/>Substitute \(R = 6.4 \times 10^6\text{ m}\) and \(h_T = 240\text{ m}\):<br/>\[d_m = \sqrt{2 \times 6.4 \times 10^6 \times 240}\]<br/>\[d_m = \sqrt{3.072 \times 10^9} = \sqrt{30.72 \times 10^8}\]<br/>\[d_m \approx 5.543 \times 10^4\text{ m} \approx 55.4\text{ km}\]<br/>Any receiver located at a distance less than or equal to the maximum LOS range \(55.4\text{ km}\) will receive the broadcast signals.</p>
+<p><strong>Step 5: Check and Final Answer</strong><br/>Since \(24\text{ km} \le 55.4\text{ km}\), \(50\text{ km} \le 55.4\text{ km}\), and \(55\text{ km} \le 55.4\text{ km}\), while \(100\text{ km} > 55.4\text{ km}\), the signals will be received at distances of \(24\text{ km}\), \(55\text{ km}\), and \(50\text{ km}\).</p>]]></text></generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>false</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="-50" format="html"><text><![CDATA[<p>\(100\text{ km}\)</p>]]></text></answer>
+  <answer fraction="33.33333" format="html"><text><![CDATA[<p>\(24\text{ km}\)</p>]]></text></answer>
+  <answer fraction="33.33333" format="html"><text><![CDATA[<p>\(55\text{ km}\)</p>]]></text></answer>
+  <answer fraction="33.33333" format="html"><text><![CDATA[<p>\(50\text{ km}\)</p>]]></text></answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>section:mcq_ii</text></tag>
+    <tag><text>class:12</text></tag>
+    <tag><text>chapter:communication_systems</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:medium</text></tag>
+    <tag><text>blooms:apply</text></tag>
+    <tag><text>calculation:moderate</text></tag>
+    <tag><text>media:text</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+<question type="multichoice">
+  <name><text>PHYSICS_MCQII_COMMUNICATIONSYSTEMS_Q1513 - Frequency response curve for AM filter circuit</text></name>
+  <questiontext format="html"><text><![CDATA[<p><strong>15.13</strong> The frequency response curve (Fig. 15.2) for the filter circuit used for production of AM wave should be</p>
+<p><img src="@@PLUGINFILE@@/img-4.jpeg" alt="Frequency response curve (i)" /> (i) <img src="@@PLUGINFILE@@/img-5.jpeg" alt="Frequency response curve (ii)" /> (ii) <img src="@@PLUGINFILE@@/img-6.jpeg" alt="Frequency response curve (iii)" /> (iii) <img src="@@PLUGINFILE@@/img-7.jpeg" alt="Frequency response curve (iv)" /> (iv)</p>
+<p>Fig. 15.2</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>When a message signal of frequency \(\omega_m\) and a carrier wave of frequency \(\omega_c\) are passed through a square-law device to produce an AM wave, the output contains undesired dc, low-frequency (\(\omega_m\), \(2\omega_m\)), and high-frequency (\(2\omega_c\)) components in addition to the desired AM frequencies \(\omega_c - \omega_m\), \(\omega_c\), and \(\omega_c + \omega_m\). A band-pass filter centred at \(\omega_c\) is required to pass only the frequency band from \(\omega_c - \omega_m\) to \(\omega_c + \omega_m\) and reject all other frequencies.</p>
+<p><strong>Step 2: Evaluation</strong><br/>The first curve represents an ideal low-pass filter that passes frequencies below \(\omega_c + \omega_m\). The second curve represents an ideal high-pass filter that passes frequencies above \(\omega_c - \omega_m\). The third curve represents an ideal band-pass filter that passes frequencies between \(\omega_c - \omega_m\) and \(\omega_c + \omega_m\). The fourth curve represents a band-stop (notch) filter that rejects frequencies between \(\omega_c - \omega_m\) and \(\omega_c + \omega_m\).</p>
+<p><strong>Step 3: Application</strong><br/>A band-pass filter covering \(\omega_c - \omega_m\) to \(\omega_c + \omega_m\) can be realized directly using the band-pass response, or by cascading the low-pass filter (cutoff \(\omega_c + \omega_m\)) and the high-pass filter (cutoff \(\omega_c - \omega_m\)) in either order, because both arrangements transmit only the overlapping passband \([\omega_c - \omega_m, \omega_c + \omega_m]\). The band-stop filter rejects the desired AM band and cannot be used.</p>
+<p><strong>Step 4: Final Conclusion</strong><br/>Hence, the required frequency response can be obtained by '(i) followed by (ii)', '(ii) followed by (i)', or '(iii)'.</p>]]></text></generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>false</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="33.33333" format="html"><text><![CDATA[<p>(i) followed by (ii).</p>]]></text></answer>
+  <answer fraction="33.33333" format="html"><text><![CDATA[<p>(ii) followed by (i).</p>]]></text></answer>
+  <answer fraction="33.33333" format="html"><text><![CDATA[<p>(iii).</p>]]></text></answer>
+  <answer fraction="-50" format="html"><text><![CDATA[<p>(iv).</p>]]></text></answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>section:mcq_ii</text></tag>
+    <tag><text>class:12</text></tag>
+    <tag><text>chapter:communication_systems</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:hard</text></tag>
+    <tag><text>blooms:analyze</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:graph</text></tag>
+    <tag><text>multiconcept:true</text></tag>
+  </tags>
+</question>
+<question type="multichoice">
+  <name><text>PHYSICS_MCQII_COMMUNICATIONSYSTEMS_Q1514 - Why modulation index is kept at most 1</text></name>
+  <questiontext format="html"><text><![CDATA[<p><strong>15.14</strong> In amplitude modulation, the modulation index \(m\), is kept less than or equal to \(1\) because</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>The modulation index \(m\) in amplitude modulation is defined as the ratio of the amplitude of the modulating message signal \(A_m\) to the amplitude of the carrier signal \(A_c\):<br/>\[m = \frac{A_m}{A_c}\]</p>
+<p><strong>Step 2: Evaluation</strong><br/>If \(m > 1\), then \(A_m > A_c\), which means the amplitude of the message signal exceeds the amplitude of the carrier signal. During the negative peaks of the modulating signal, the instantaneous amplitude \(A_c(1 + m \sin\omega_m t)\) becomes negative, causing phase reversals of the carrier envelope (overmodulation) and severe distortion.</p>
+<p><strong>Step 3: Application</strong><br/>Furthermore, overmodulation (\(m > 1\)) broadens the spectrum and causes overlapping of sidebands (or envelope distortion during detection), resulting in loss of information at the receiver. It does not cause a constant phase shift between carrier and message, nor interference between carrier and message frequencies directly.</p>
+<p><strong>Step 4: Final Conclusion</strong><br/>Therefore, \(m\) is kept less than or equal to \(1\) because \(m > 1\) indicates an amplitude of the message signal greater than that of the carrier signal resulting in distortion, and it results in overlapping of both sidebands resulting in loss of information.</p>]]></text></generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>false</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="-50" format="html"><text><![CDATA[<p>\(m &gt; 1\), will result in interference between carrier frequency and message frequency, resulting into distortion.</p>]]></text></answer>
+  <answer fraction="50" format="html"><text><![CDATA[<p>\(m &gt; 1\) will result in overlapping of both side bands resulting into loss of information.</p>]]></text></answer>
+  <answer fraction="-50" format="html"><text><![CDATA[<p>\(m &gt; 1\) will result in change in phase between carrier signal and message signal.</p>]]></text></answer>
+  <answer fraction="50" format="html"><text><![CDATA[<p>\(m &gt; 1\) indicates amplitude of message signal greater than amplitude of carrier signal resulting in distortion.</p>]]></text></answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>section:mcq_ii</text></tag>
+    <tag><text>class:12</text></tag>
+    <tag><text>chapter:communication_systems</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:medium</text></tag>
     <tag><text>blooms:understand</text></tag>
     <tag><text>calculation:light</text></tag>
     <tag><text>media:text</text></tag>

@@ -1,29 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <quiz>
 <question type="multichoice">
-  <name><text>NEET_UG_CHEMISTRY_EQUILIBRIUM_MCQ_Q01 - Value of delta n for ammonium chloride decomposition</text></name>
-  <questiontext format="html"><text><![CDATA[<p>We know that the relationship between \(K_c\) and \(K_p\) is</p>
+  <name><text>NEET_UG_CHEMISTRY_EQUILIBRIUM_MCQ_Q01 - Value of delta n for ammonium chloride dissociation</text></name>
+  <questiontext format="html"><text><![CDATA[<p>1. We know that the relationship between \(K_c\) and \(K_p\) is</p>
 \[K_p = K_c (RT)^{\Delta n}\]
 <p>What would be the value of \(\Delta n\) for the reaction</p>
-\[\mathrm{NH_4Cl} (\mathrm{s}) \rightleftharpoons \mathrm{NH_3} (\mathrm{g}) + \mathrm{HCl} (\mathrm{g})\]]]></text></questiontext>
-  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>
-The balanced chemical equation is:
-\[\mathrm{NH_4Cl}(\mathrm{s}) \rightleftharpoons \mathrm{NH_3}(\mathrm{g}) + \mathrm{HCl}(\mathrm{g})\]
-The relationship between the equilibrium constants is \(K_p = K_c(RT)^{\Delta n}\).</p>
-<p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>
-The quantity \(\Delta n\) represents the change in the number of moles of gaseous species during the reaction, calculated as the sum of stoichiometric coefficients of gaseous products minus the sum of stoichiometric coefficients of gaseous reactants. Solid and pure liquid phases do not contribute to \(\Delta n\).</p>
-<p><strong>Step 3: Relevant Formulae and Principles</strong><br/>
-\[\Delta n = \sum n_{\text{gaseous products}} - \sum n_{\text{gaseous reactants}}\]</p>
-<p><strong>Step 4: Step-by-Step Working</strong><br/>
-Number of moles of gaseous products:
-\[n_{\text{gaseous products}} = 1\text{ mol of NH}_3(\mathrm{g}) + 1\text{ mol of HCl}(\mathrm{g}) = 2\text{ mol}\]
-Number of moles of gaseous reactants:
-\[n_{\text{gaseous reactants}} = 0\text{ mol}\]
-because \(\mathrm{NH_4Cl}\) is in the solid state.<br/>
-Subtracting the reactants from the products gives:
-\[\Delta n = 2 - 0 = 2\]</p>
-<p><strong>Step 5: Check and Final Answer</strong><br/>
-The stoichiometric values yield an integer net increase of two moles of gas. Therefore, the value of \(\Delta n\) for the reaction is \(2\).</p>]]></text></generalfeedback>
+\[\mathrm{NH_4Cl(s)} \rightleftharpoons \mathrm{NH_3(g)} + \mathrm{HCl(g)}\]]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>The given heterogeneous equilibrium reaction is \(\mathrm{NH_4Cl(s)} \rightleftharpoons \mathrm{NH_3(g)} + \mathrm{HCl(g)}\), and the relation between equilibrium constants is \(K_p = K_c (RT)^{\Delta n}\).</p>
+<p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>In the expression \(K_p = K_c (RT)^{\Delta n}\), \(\Delta n\) (often written \(\Delta n_g\)) represents the change in the number of moles of gaseous species only. Pure solids and pure liquids are excluded because their concentrations remain constant and do not appear in the \(K_p\) or \(K_c\) expressions.</p>
+<p><strong>Step 3: Relevant Formulae and Principles</strong><br/>\[\Delta n = (\text{total moles of gaseous products}) - (\text{total moles of gaseous reactants})\]</p>
+<p><strong>Step 4: Step-by-Step Working</strong><br/>On the reactant side, \(\mathrm{NH_4Cl(s)}\) is a solid, so the number of moles of gaseous reactants is \(0\).<br/>On the product side, there is \(1\text{ mol}\) of \(\mathrm{NH_3(g)}\) and \(1\text{ mol}\) of \(\mathrm{HCl(g)}\), giving \(1 + 1 = 2\text{ mol}\) of gaseous products.<br/>Therefore, \(\Delta n = 2 - 0 = 2\).</p>
+<p><strong>Step 5: Check and Final Answer</strong><br/>Since two moles of gas are produced from a solid reactant, \(\Delta n\) must be positive and equal to \(2\). Thus, the value of \(\Delta n\) is \(2\).</p>]]></text></generalfeedback>
   <defaultgrade>4.0000000</defaultgrade>
   <penalty>0.2500000</penalty>
   <hidden>0</hidden>
@@ -38,6 +25,7 @@ The stoichiometric values yield an integer net increase of two moles of gas. The
     <tag><text>standard:neet_ug</text></tag>
     <tag><text>lang:en</text></tag>
     <tag><text>subject:chemistry</text></tag>
+    <tag><text>section:mcq_type_1</text></tag>
     <tag><text>class:11</text></tag>
     <tag><text>chapter:equilibrium</text></tag>
     <tag><text>typology:mcq</text></tag>
@@ -50,28 +38,12 @@ The stoichiometric values yield an integer net increase of two moles of gas. The
 </question>
 <question type="multichoice">
   <name><text>NEET_UG_CHEMISTRY_EQUILIBRIUM_MCQ_Q02 - Equilibrium constant when standard free energy is positive</text></name>
-  <questiontext format="html"><text><![CDATA[<p>For the reaction \(\mathrm{H_2(g) + I_2(g) \rightleftharpoons 2HI(g)}\), the standard free energy is \(\Delta G^\circ > 0\). The equilibrium constant \((K)\) would be ________.</p>]]></text></questiontext>
-  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>
-The chemical equilibrium is:
-\[\mathrm{H_2(g) + I_2(g) \rightleftharpoons 2HI(g)}\]
-The standard Gibbs free energy change of the reaction is strictly positive:
-\[\Delta G^\circ > 0\]</p>
-<p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>
-The thermodynamic relationship connecting standard Gibbs free energy change and the equilibrium constant applies at absolute temperature \(T > 0\text{ K}\) with the universal gas constant \(R > 0\).</p>
-<p><strong>Step 3: Relevant Formulae and Principles</strong><br/>
-The thermodynamic relationship is given by:
-\[\Delta G^\circ = -RT \ln K\]
-Rearranging for the natural logarithm of the equilibrium constant:
-\[\ln K = -\frac{\Delta G^\circ}{RT}\]</p>
-<p><strong>Step 4: Step-by-Step Working</strong><br/>
-Because \(\Delta G^\circ > 0\), \(R > 0\), and \(T > 0\), the fraction \(\frac{\Delta G^\circ}{RT}\) is strictly positive.<br/>
-Consequently, the right-hand side is negative:
-\[\ln K < 0\]
-Taking the exponential on both sides:
-\[K = e^{\ln K} < e^0 \implies K < 1\]
-Since \(K\) is defined as a non-zero ratio of concentrations or partial pressures, it remains positive, hence \(0 < K < 1\).</p>
-<p><strong>Step 5: Check and Final Answer</strong><br/>
-A positive standard free energy change signifies a reactant-favoured equilibrium under standard state conditions, corresponding to an equilibrium constant less than 1. Therefore, the equilibrium constant satisfies \(K < 1\).</p>]]></text></generalfeedback>
+  <questiontext format="html"><text><![CDATA[<p>2. For the reaction \(\mathrm{H_2(g) + I_2(g) \rightleftharpoons 2HI(g)}\), the standard free energy is \(\Delta G^\circ &gt; 0\). The equilibrium constant \((K)\) would be ________.</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>For the reversible reaction \(\mathrm{H_2(g) + I_2(g) \rightleftharpoons 2HI(g)}\), it is given that the standard Gibbs free energy change \(\Delta G^\circ &gt; 0\).</p>
+<p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>Absolute temperature \(T\) (in Kelvin) and the universal gas constant \(R\) are always positive quantities (\(R &gt; 0\), \(T &gt; 0\)).</p>
+<p><strong>Step 3: Relevant Formulae and Principles</strong><br/>The thermodynamic relationship between standard Gibbs free energy change and equilibrium constant is:<br/>\[\Delta G^\circ = -RT \ln K\]</p>
+<p><strong>Step 4: Step-by-Step Working</strong><br/>Rearranging the equation gives:<br/>\[\ln K = -\frac{\Delta G^\circ}{RT}\]<br/>Since \(\Delta G^\circ &gt; 0\) and \(RT &gt; 0\), it follows that \(\ln K &lt; 0\).<br/>Exponentiating both sides gives \(K &lt; e^0\), which means \(0 &lt; K &lt; 1\).</p>
+<p><strong>Step 5: Check and Final Answer</strong><br/>A positive \(\Delta G^\circ\) indicates that reactants are favoured over products at equilibrium, which corresponds to an equilibrium constant less than unity. Hence, \(K &lt; 1\).</p>]]></text></generalfeedback>
   <defaultgrade>4.0000000</defaultgrade>
   <penalty>0.2500000</penalty>
   <hidden>0</hidden>
@@ -79,13 +51,14 @@ A positive standard free energy change signifies a reactant-favoured equilibrium
   <shuffleanswers>true</shuffleanswers>
   <answernumbering>iii</answernumbering>
   <answer fraction="0" format="html"><text><![CDATA[<p>\(K = 0\)</p>]]></text></answer>
-  <answer fraction="0" format="html"><text><![CDATA[<p>\(K > 1\)</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>\(K &gt; 1\)</p>]]></text></answer>
   <answer fraction="0" format="html"><text><![CDATA[<p>\(K = 1\)</p>]]></text></answer>
-  <answer fraction="100" format="html"><text><![CDATA[<p>\(K < 1\)</p>]]></text></answer>
+  <answer fraction="100" format="html"><text><![CDATA[<p>\(K &lt; 1\)</p>]]></text></answer>
   <tags>
     <tag><text>standard:neet_ug</text></tag>
     <tag><text>lang:en</text></tag>
     <tag><text>subject:chemistry</text></tag>
+    <tag><text>section:mcq_type_1</text></tag>
     <tag><text>class:11</text></tag>
     <tag><text>chapter:equilibrium</text></tag>
     <tag><text>typology:mcq</text></tag>
@@ -98,17 +71,10 @@ A positive standard free energy change signifies a reactant-favoured equilibrium
 </question>
 <question type="multichoice">
   <name><text>NEET_UG_CHEMISTRY_EQUILIBRIUM_MCQ_Q03 - General characteristics of equilibria involving physical processes</text></name>
-  <questiontext format="html"><text><![CDATA[<p>Which of the following is not a general characteristic of equilibria involving physical processes?</p>]]></text></questiontext>
-  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>
-Equilibrium involving physical processes is fundamentally dynamic in nature. At equilibrium, the rate of the forward physical transformation equals the rate of the reverse physical transformation, so microscopic changes continue unabated in both directions.</p>
-<p><strong>Step 2: Evaluation of Characteristics</strong><br/>
-Physical equilibria can be achieved and maintained only in a closed system at a given fixed temperature, preventing the exchange of matter with surroundings.<br/>
-All measurable macroscopic properties of the system (such as vapor pressure, concentration, density, color, and temperature) remain strictly constant over time once equilibrium is established.<br/>
-The opposing physical processes occur at identical rates, establishing a dynamic but stable steady state rather than a cessation of processes.</p>
-<p><strong>Step 3: Identification of Incorrect Statement</strong><br/>
-The claim that all the physical processes stop at equilibrium is incorrect because the state is dynamic rather than static.</p>
-<p><strong>Step 4: Final Conclusion</strong><br/>
-Therefore, the statement that is not a general characteristic of equilibria involving physical processes is that all the physical processes stop at equilibrium.</p>]]></text></generalfeedback>
+  <questiontext format="html"><text><![CDATA[<p>3. Which of the following is not a general characteristic of equilibria involving physical processes?</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>Physical equilibrium is a state reached by a closed system at a constant temperature when two opposing physical processes (such as evaporation and condensation, or melting and freezing) occur simultaneously at equal rates.</p>
+<p><strong>Step 2: Evaluation</strong><br/>1. Equilibrium is possible only in a closed system at a given temperature so that matter does not escape.<br/>2. All measurable macroscopic properties (such as pressure, concentration, and density) remain constant at equilibrium.<br/>3. The opposing processes do not cease; instead, they proceed at the same rate, resulting in a dynamic yet stable condition.</p>
+<p><strong>Step 3: Final Conclusion</strong><br/>Because physical equilibrium is dynamic in nature, the statement that all physical processes stop at equilibrium is incorrect.</p>]]></text></generalfeedback>
   <defaultgrade>4.0000000</defaultgrade>
   <penalty>0.2500000</penalty>
   <hidden>0</hidden>
@@ -123,51 +89,40 @@ Therefore, the statement that is not a general characteristic of equilibria invo
     <tag><text>standard:neet_ug</text></tag>
     <tag><text>lang:en</text></tag>
     <tag><text>subject:chemistry</text></tag>
+    <tag><text>section:mcq_type_1</text></tag>
     <tag><text>class:11</text></tag>
     <tag><text>chapter:equilibrium</text></tag>
     <tag><text>typology:mcq</text></tag>
     <tag><text>difficulty:easy</text></tag>
     <tag><text>blooms:remember</text></tag>
+    <tag><text>calculation:light</text></tag>
     <tag><text>media:text</text></tag>
     <tag><text>multiconcept:false</text></tag>
   </tags>
 </question>
 <question type="multichoice">
-  <name><text>NEET_UG_CHEMISTRY_EQUILIBRIUM_MCQ_Q04 - Equilibrium constant for phosphorus pentachloride decomposition reaction</text></name>
-  <questiontext format="html"><text><![CDATA[<p>\(\text{PCl}_5\), \(\text{PCl}_3\) and \(\text{Cl}_2\) are at equilibrium at 500K in a closed container and their concentrations are \(0.8 \times 10^{-3} \text{ mol L}^{-1}\), \(1.2 \times 10^{-3} \text{ mol L}^{-1}\) and \(1.2 \times 10^{-3} \text{ mol L}^{-1}\) respectively. The value of \(K_c\) for the reaction \(\text{PCl}_5 (\text{g}) \rightleftharpoons \text{PCl}_3 (\text{g}) + \text{Cl}_2 (\text{g})\) will be</p>]]></text></questiontext>
-  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>
-Chemical equation:
-\[\text{PCl}_5(\text{g}) \rightleftharpoons \text{PCl}_3(\text{g}) + \text{Cl}_2(\text{g})\]
-Equilibrium temperature: \(T = 500\text{ K}\)<br/>
-Equilibrium concentrations:<br/>
-\([\text{PCl}_5] = 0.8 \times 10^{-3}\text{ mol L}^{-1}\)<br/>
-\([\text{PCl}_3] = 1.2 \times 10^{-3}\text{ mol L}^{-1}\)<br/>
-\([\text{Cl}_2] = 1.2 \times 10^{-3}\text{ mol L}^{-1}\)</p>
-<p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>
-The equilibrium constant in terms of molar concentrations, \(K_c\), is formulated in accordance with the law of mass action using the equilibrium values of reactants and products.</p>
-<p><strong>Step 3: Relevant Formulae and Principles</strong><br/>
-\[K_c = \frac{[\text{PCl}_3][\text{Cl}_2]}{[\text{PCl}_5]}\]</p>
-<p><strong>Step 4: Step-by-Step Working</strong><br/>
-Substitute the given numerical concentrations into the expression:
-\[K_c = \frac{(1.2 \times 10^{-3}\text{ mol L}^{-1})(1.2 \times 10^{-3}\text{ mol L}^{-1})}{0.8 \times 10^{-3}\text{ mol L}^{-1}}\]
-Simplifying the arithmetic:
-\[K_c = \frac{1.44 \times 10^{-6}}{0.8 \times 10^{-3}} = \frac{1.44}{0.8} \times 10^{-3} = 1.8 \times 10^{-3}\]</p>
-<p><strong>Step 5: Check and Final Answer</strong><br/>
-The numerator has order \(10^{-6}\) and denominator \(10^{-3}\), leading directly to \(1.8 \times 10^{-3}\). Therefore, the value of \(K_c\) for the reaction is \(1.8 \times 10^{-3}\).</p>]]></text></generalfeedback>
+  <name><text>NEET_UG_CHEMISTRY_EQUILIBRIUM_MCQ_Q04 - Equilibrium constant Kc for PCl5 dissociation at 500 K</text></name>
+  <questiontext format="html"><text><![CDATA[<p>4. \(\text{PCl}_5\), \(\text{PCl}_3\) and \(\text{Cl}_2\) are at equilibrium at \(500\text{ K}\) in a closed container and their concentrations are \(0.8 \times 10^{-3}\text{ mol L}^{-1}\), \(1.2 \times 10^{-3}\text{ mol L}^{-1}\) and \(1.2 \times 10^{-3}\text{ mol L}^{-1}\) respectively. The value of \(K_c\) for the reaction \(\text{PCl}_5(\text{g}) \rightleftharpoons \text{PCl}_3(\text{g}) + \text{Cl}_2(\text{g})\) will be</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>At \(T = 500\text{ K}\), the equilibrium concentrations are:<br/>\([\text{PCl}_5] = 0.8 \times 10^{-3}\text{ mol L}^{-1}\)<br/>\([\text{PCl}_3] = 1.2 \times 10^{-3}\text{ mol L}^{-1}\)<br/>\([\text{Cl}_2] = 1.2 \times 10^{-3}\text{ mol L}^{-1}\)</p>
+<p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>Following standard NCERT thermodynamic convention, the equilibrium constant \(K_c\) is expressed as a dimensionless quantity by dividing each concentration by the standard concentration \(c^\circ = 1\text{ mol L}^{-1}\).</p>
+<p><strong>Step 3: Relevant Formulae and Principles</strong><br/>For the reaction \(\text{PCl}_5(\text{g}) \rightleftharpoons \text{PCl}_3(\text{g}) + \text{Cl}_2(\text{g})\), the equilibrium constant expression is:<br/>\[K_c = \frac{[\text{PCl}_3][\text{Cl}_2]}{[\text{PCl}_5]}\]</p>
+<p><strong>Step 4: Step-by-Step Working</strong><br/>Substituting the given equilibrium concentrations:<br/>\[K_c = \frac{(1.2 \times 10^{-3}) \times (1.2 \times 10^{-3})}{0.8 \times 10^{-3}} = \frac{1.44 \times 10^{-6}}{0.8 \times 10^{-3}} = 1.8 \times 10^{-3}\]</p>
+<p><strong>Step 5: Check and Final Answer</strong><br/>Notice that even if units were retained, the unit would be \(\text{mol L}^{-1}\), not \(\text{L mol}^{-1}\), and the numerical magnitude is \(1.8 \times 10^{-3}\). Thus, the value of \(K_c\) is \(1.8 \times 10^{-3}\).</p>]]></text></generalfeedback>
   <defaultgrade>4.0000000</defaultgrade>
   <penalty>0.2500000</penalty>
   <hidden>0</hidden>
   <single>true</single>
   <shuffleanswers>true</shuffleanswers>
   <answernumbering>iii</answernumbering>
-  <answer fraction="0" format="html"><text><![CDATA[<p>\(1.8 \times 10^3 \text{ mol L}^{-1}\)</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>\(1.8 \times 10^3\text{ mol L}^{-1}\)</p>]]></text></answer>
   <answer fraction="100" format="html"><text><![CDATA[<p>\(1.8 \times 10^{-3}\)</p>]]></text></answer>
-  <answer fraction="0" format="html"><text><![CDATA[<p>\(1.8 \times 10^{-3} \text{ L mol}^{-1}\)</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>\(1.8 \times 10^{-3}\text{ L mol}^{-1}\)</p>]]></text></answer>
   <answer fraction="0" format="html"><text><![CDATA[<p>\(0.55 \times 10^4\)</p>]]></text></answer>
   <tags>
     <tag><text>standard:neet_ug</text></tag>
     <tag><text>lang:en</text></tag>
     <tag><text>subject:chemistry</text></tag>
+    <tag><text>section:mcq_type_1</text></tag>
     <tag><text>class:11</text></tag>
     <tag><text>chapter:equilibrium</text></tag>
     <tag><text>typology:mcq</text></tag>
@@ -179,20 +134,11 @@ The numerator has order \(10^{-6}\) and denominator \(10^{-3}\), leading directl
   </tags>
 </question>
 <question type="multichoice">
-  <name><text>NEET_UG_CHEMISTRY_EQUILIBRIUM_MCQ_Q05 - Incorrect statement regarding chemical and physical equilibria</text></name>
-  <questiontext format="html"><text><![CDATA[<p>Which of the following statements is incorrect?</p>]]></text></questiontext>
-  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principles</strong><br/>
-In an isolated, perfectly insulated flask containing ice and water at equilibrium, the system undergoes no heat exchange or mass transfer, ensuring that the masses of ice and liquid water remain constant over time.<br/>
-A catalyst accelerates the rates of forward and reverse reactions equally, leaving the equilibrium constant value unchanged.<br/>
-For an exothermic reaction (\(\Delta H < 0\)), van 't Hoff's equation predicts that the equilibrium constant decreases as the temperature increases.</p>
-<p><strong>Step 2: Chemical Reaction of Iron Thiocyanate Equilibrium</strong><br/>
-The equilibrium between iron(III) nitrate and potassium thiocyanate forms blood-red \([\text{Fe}(\text{SCN})]^{2+}\):
-\[\text{Fe}^{3+}(\text{aq}) + \text{SCN}^-(\text{aq}) \rightleftharpoons [\text{Fe}(\text{SCN})]^{2+}(\text{aq})\]
-When oxalic acid (\(\text{H}_2\text{C}_2\text{O}_4\)) is introduced, it dissociates into oxalate ions (\(\text{C}_2\text{O}_4^{2-}\)). Oxalate forms an exceptionally stable coordination complex with iron(III):
-\[\text{Fe}^{3+}(\text{aq}) + 3\text{C}_2\text{O}_4^{2-}(\text{aq}) \rightleftharpoons [\text{Fe}(\text{C}_2\text{O}_4)_3]^{3-}(\text{aq})\]
-This complexation consumes free \(\text{Fe}^{3+}\) ions. According to Le Chatelier's principle, decreasing the concentration of \(\text{Fe}^{3+}\) shifts the thiocyanate equilibrium in the reverse direction, decreasing the concentration of \([\text{Fe}(\text{SCN})]^{2+}\). As a result, the intensity of the red colour decreases, rather than increases.</p>
-<p><strong>Step 3: Final Conclusion</strong><br/>
-Therefore, the incorrect statement is that the intensity of red colour increases when oxalic acid is added to a solution containing iron (III) nitrate and potassium thiocyanate.</p>]]></text></generalfeedback>
+  <name><text>NEET_UG_CHEMISTRY_EQUILIBRIUM_MCQ_Q05 - Identifying the incorrect statement about chemical and physical equilibrium</text></name>
+  <questiontext format="html"><text><![CDATA[<p>5. Which of the following statements is incorrect?</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>Equilibrium systems obey Le Chatelier's principle, and the equilibrium constant depends solely on temperature. A catalyst alters the rates of forward and reverse reactions equally without changing the equilibrium constant.</p>
+<p><strong>Step 2: Evaluation</strong><br/>1. In a perfectly insulated flask containing ice and water at equilibrium, no heat enters or leaves, so the rates of melting and freezing are equal and the masses of ice and water remain constant.<br/>2. In the equilibrium \(\text{Fe}^{3+}(\text{aq}) + \text{SCN}^-(\text{aq}) \rightleftharpoons [\text{Fe(SCN)}]^{2+}(\text{aq})\) (deep red), adding oxalic acid removes \(\text{Fe}^{3+}\) ions by forming the stable colourless complex \([\text{Fe(C}_2\text{O}_4)_3]^{3-}\). By Le Chatelier's principle, the equilibrium shifts backward, reducing the concentration of \([\text{Fe(SCN)}]^{2+}\) and decreasing the intensity of the red colour.<br/>3. Adding a catalyst speeds up both forward and reverse reactions equally, so the value of the equilibrium constant is unaffected.<br/>4. For an exothermic reaction (\(\Delta H &lt; 0\)), increasing temperature shifts equilibrium in the reverse (endothermic) direction, decreasing the equilibrium constant.</p>
+<p><strong>Step 3: Final Conclusion</strong><br/>The incorrect statement is that the intensity of red colour increases when oxalic acid is added to a solution containing iron (III) nitrate and potassium thiocyanate (in fact, the red colour fades).</p>]]></text></generalfeedback>
   <defaultgrade>4.0000000</defaultgrade>
   <penalty>0.2500000</penalty>
   <hidden>0</hidden>
@@ -207,80 +153,58 @@ Therefore, the incorrect statement is that the intensity of red colour increases
     <tag><text>standard:neet_ug</text></tag>
     <tag><text>lang:en</text></tag>
     <tag><text>subject:chemistry</text></tag>
+    <tag><text>section:mcq_type_1</text></tag>
     <tag><text>class:11</text></tag>
     <tag><text>chapter:equilibrium</text></tag>
     <tag><text>typology:mcq</text></tag>
     <tag><text>difficulty:medium</text></tag>
     <tag><text>blooms:analyze</text></tag>
+    <tag><text>calculation:light</text></tag>
     <tag><text>media:text</text></tag>
     <tag><text>multiconcept:true</text></tag>
   </tags>
 </question>
 <question type="multichoice">
-  <name><text>NEET_UG_CHEMISTRY_EQUILIBRIUM_MCQ_Q06 - Enthalpy change prediction from temperature colour changes</text></name>
-  <questiontext format="html"><text><![CDATA[<p>When hydrochloric acid is added to cobalt nitrate solution at room temperature, the following reaction takes place and the reaction mixture becomes blue. On cooling the mixture it becomes pink. On the basis of this information mark the correct answer.</p>
+  <name><text>NEET_UG_CHEMISTRY_EQUILIBRIUM_MCQ_Q06 - Sign of enthalpy change for cobalt complex equilibrium</text></name>
+  <questiontext format="html"><text><![CDATA[<p>6. When hydrochloric acid is added to cobalt nitrate solution at room temperature, the following reaction takes place and the reaction mixture becomes blue. On cooling the mixture it becomes pink. On the basis of this information mark the correct answer.</p>
 \[[\text{Co}(\text{H}_2\text{O})_6]^{3+}(aq) + 4\text{Cl}^-(aq) \rightleftharpoons [\text{CoCl}_4]^{2-}(aq) + 6\text{H}_2\text{O}(l)\]
-<p align="center">(pink)&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;(blue)</p>]]></text></questiontext>
-  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>
-The equilibrium is:
-\[[\text{Co}(\text{H}_2\text{O})_6]^{3+}(\text{aq}) + 4\text{Cl}^-(\text{aq}) \rightleftharpoons [\text{CoCl}_4]^{2-}(\text{aq}) + 6\text{H}_2\text{O}(\text{l})\]
-The hexaaqua complex is pink, and the tetrachlorido complex is blue.<br/>
-The solution is blue at room temperature, and becomes pink when cooled.</p>
-<p><strong>Step 2: Relevant Principles</strong><br/>
-Le Chatelier's principle dictates that removing thermal energy (cooling) shifts an equilibrium in the direction of the reaction that produces heat (the exothermic process).<br/>
-Conversely, supplying thermal energy (heating) shifts the equilibrium in the direction that absorbs heat (the endothermic process).</p>
-<p><strong>Step 3: Step-by-Step Evaluation</strong><br/>
-When cooled, the reaction mixture turns pink, indicating that the equilibrium shifts towards the pink reactant complex, \([\text{Co}(\text{H}_2\text{O})_6]^{3+}\).<br/>
-Because cooling favours the reverse process, the reverse reaction must release heat and be exothermic (\(\Delta H_{\text{reverse}} < 0\)).<br/>
-Consequently, the forward reaction must absorb heat, making it endothermic (\(\Delta H_{\text{forward}} > 0\)).</p>
-<p><strong>Step 4: Check and Final Answer</strong><br/>
-An endothermic forward reaction has a positive standard enthalpy change. Therefore, \(\Delta H > 0\) for the reaction.</p>]]></text></generalfeedback>
+<p>(pink) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (blue)</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>According to Le Chatelier's principle, lowering the temperature of an equilibrium system shifts the equilibrium in the exothermic direction (the direction that releases heat).</p>
+<p><strong>Step 2: Application</strong><br/>At room temperature, the mixture is blue, indicating that the forward reaction producing \([\text{CoCl}_4]^{2-}(aq)\) is favoured. When the mixture is cooled, it turns pink, meaning the equilibrium shifts in the reverse direction to form the pink hydrated complex.</p>
+<p><strong>Step 3: Evaluation</strong><br/>Since cooling favours the reverse reaction, the reverse reaction is exothermic (\(\Delta H_{\text{rev}} &lt; 0\)). Consequently, the forward reaction must be endothermic, so \(\Delta H &gt; 0\).</p>
+<p><strong>Step 4: Final Conclusion</strong><br/>For the given forward reaction, \(\Delta H &gt; 0\).</p>]]></text></generalfeedback>
   <defaultgrade>4.0000000</defaultgrade>
   <penalty>0.2500000</penalty>
   <hidden>0</hidden>
   <single>true</single>
   <shuffleanswers>true</shuffleanswers>
   <answernumbering>iii</answernumbering>
-  <answer fraction="100" format="html"><text><![CDATA[<p>\(\Delta H > 0\) for the reaction</p>]]></text></answer>
-  <answer fraction="0" format="html"><text><![CDATA[<p>\(\Delta H < 0\) for the reaction</p>]]></text></answer>
+  <answer fraction="100" format="html"><text><![CDATA[<p>\(\Delta H &gt; 0\) for the reaction</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>\(\Delta H &lt; 0\) for the reaction</p>]]></text></answer>
   <answer fraction="0" format="html"><text><![CDATA[<p>\(\Delta H = 0\) for the reaction</p>]]></text></answer>
   <answer fraction="0" format="html"><text><![CDATA[<p>The sign of \(\Delta H\) cannot be predicted on the basis of this information.</p>]]></text></answer>
   <tags>
     <tag><text>standard:neet_ug</text></tag>
     <tag><text>lang:en</text></tag>
     <tag><text>subject:chemistry</text></tag>
+    <tag><text>section:mcq_type_1</text></tag>
     <tag><text>class:11</text></tag>
     <tag><text>chapter:equilibrium</text></tag>
     <tag><text>typology:mcq</text></tag>
     <tag><text>difficulty:medium</text></tag>
     <tag><text>blooms:apply</text></tag>
+    <tag><text>calculation:light</text></tag>
     <tag><text>media:equation</text></tag>
     <tag><text>multiconcept:false</text></tag>
   </tags>
 </question>
 <question type="multichoice">
-  <name><text>NEET_UG_CHEMISTRY_EQUILIBRIUM_MCQ_Q07 - pH of pure water at elevated temperature</text></name>
-  <questiontext format="html"><text><![CDATA[<p>The pH of neutral water at \(25^\circ\text{C}\) is 7.0. As the temperature increases, ionisation of water increases, however, the concentration of \(\text{H}^+\) ions and \(\text{OH}^-\) ions are equal. What will be the pH of pure water at \(60^\circ\text{C}\)?</p>]]></text></questiontext>
-  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>
-At \(25^\circ\text{C}\), pure water is neutral with \([\text{H}^+] = [\text{OH}^-] = 1.0 \times 10^{-7}\text{ mol L}^{-1}\) and \(\text{pH} = 7.0\).<br/>
-At \(60^\circ\text{C}\), the self-ionisation of water increases while the neutrality condition \([\text{H}^+] = [\text{OH}^-]\) remains strictly preserved.</p>
-<p><strong>Step 2: Relevant Principles and Formulae</strong><br/>
-The auto-ionisation of water is an endothermic process:
-\[\text{H}_2\text{O}(\text{l}) \rightleftharpoons \text{H}^+(\text{aq}) + \text{OH}^-(\text{aq}), \quad \Delta H > 0\]
-The ionic product of water is defined as:
-\[K_w = [\text{H}^+][\text{OH}^-]\]
-For pure neutral water:
-\[[\text{H}^+] = \sqrt{K_w}\]
-The pH is calculated from:
-\[\text{pH} = -\log_{10}[\text{H}^+]\]</p>
-<p><strong>Step 3: Step-by-Step Working</strong><br/>
-Because ionisation absorbs heat, raising the temperature from \(25^\circ\text{C}\) to \(60^\circ\text{C}\) drives the equilibrium forward, causing \(K_w\) to increase above \(1.0 \times 10^{-14}\).<br/>
-Consequently, the hydrogen ion concentration satisfies:
-\[[\text{H}^+] = \sqrt{K_w} > 1.0 \times 10^{-7}\text{ mol L}^{-1}\]
-Applying the negative logarithm:
-\[\text{pH} = -\log_{10}[\text{H}^+] < -\log_{10}(1.0 \times 10^{-7}) = 7.0\]</p>
-<p><strong>Step 4: Check and Final Answer</strong><br/>
-Although water remains strictly neutral because \([\text{H}^+] = [\text{OH}^-]\), the elevated concentration of \(\text{H}^+\) lowers the pH below 7.0. Therefore, the pH of pure water at \(60^\circ\text{C}\) is less than 7.0.</p>]]></text></generalfeedback>
+  <name><text>NEET_UG_CHEMISTRY_EQUILIBRIUM_MCQ_Q07 - pH of pure water at 60 degrees Celsius</text></name>
+  <questiontext format="html"><text><![CDATA[<p>7. The pH of neutral water at \(25^\circ\text{C}\) is \(7.0\). As the temperature increases, ionisation of water increases, however, the concentration of \(\text{H}^+\) ions and \(\text{OH}^-\) ions are equal. What will be the pH of pure water at \(60^\circ\text{C}\)?</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>The auto-ionisation of water, \(\text{H}_2\text{O}(l) \rightleftharpoons \text{H}^+(aq) + \text{OH}^-(aq)\), is an endothermic process. The pH of a solution is defined as \(\text{pH} = -\log_{10}[\text{H}^+]\).</p>
+<p><strong>Step 2: Application</strong><br/>At \(25^\circ\text{C}\), \([\text{H}^+] = [\text{OH}^-] = 10^{-7}\text{ mol L}^{-1}\), so \(\text{pH} = 7.0\). When temperature increases to \(60^\circ\text{C}\), the endothermic ionisation increases, so both \([\text{H}^+]\) and \([\text{OH}^-]\) increase equally and become greater than \(10^{-7}\text{ mol L}^{-1}\).</p>
+<p><strong>Step 3: Evaluation</strong><br/>Because \([\text{H}^+] &gt; 10^{-7}\text{ mol L}^{-1}\), taking the negative logarithm gives:<br/>\[\text{pH} = -\log_{10}[\text{H}^+] &lt; 7.0\]<br/>Note that pure water remains neutral at \(60^\circ\text{C}\) since \([\text{H}^+] = [\text{OH}^-]\), even though its pH is below \(7.0\).</p>
+<p><strong>Step 4: Final Conclusion</strong><br/>The pH of pure water at \(60^\circ\text{C}\) will be less than \(7.0\).</p>]]></text></generalfeedback>
   <defaultgrade>4.0000000</defaultgrade>
   <penalty>0.2500000</penalty>
   <hidden>0</hidden>
@@ -295,41 +219,25 @@ Although water remains strictly neutral because \([\text{H}^+] = [\text{OH}^-]\)
     <tag><text>standard:neet_ug</text></tag>
     <tag><text>lang:en</text></tag>
     <tag><text>subject:chemistry</text></tag>
+    <tag><text>section:mcq_type_1</text></tag>
     <tag><text>class:11</text></tag>
     <tag><text>chapter:equilibrium</text></tag>
     <tag><text>typology:mcq</text></tag>
     <tag><text>difficulty:easy</text></tag>
     <tag><text>blooms:understand</text></tag>
+    <tag><text>calculation:light</text></tag>
     <tag><text>media:text</text></tag>
     <tag><text>multiconcept:false</text></tag>
   </tags>
 </question>
 <question type="multichoice">
-  <name><text>NEET_UG_CHEMISTRY_EQUILIBRIUM_MCQ_Q08 - Order of pH for weak acid solutions</text></name>
-  <questiontext format="html"><text><![CDATA[<p>The ionisation constant of an acid, \(K_a\), is the measure of strength of an acid. The \(K_a\) values of acetic acid, hypochlorous acid and formic acid are \(1.74 \times 10^{-5}\), \(3.0 \times 10^{-8}\) and \(1.8 \times 10^{-4}\) respectively. Which of the following orders of pH of 0.1 mol dm\(^{-3}\) solutions of these acids is correct?</p>]]></text></questiontext>
-  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>
-Acid concentration: \(C = 0.1\text{ mol dm}^{-3}\) for each solution.<br/>
-Given ionisation constants:<br/>
-Acetic acid: \(K_a = 1.74 \times 10^{-5}\)<br/>
-Hypochlorous acid: \(K_a = 3.0 \times 10^{-8}\)<br/>
-Formic acid: \(K_a = 1.8 \times 10^{-4}\)</p>
-<p><strong>Step 2: Relevant Formulae and Principles</strong><br/>
-For a weak monobasic acid at concentration \(C\), the hydrogen ion concentration is:
-\[[\text{H}^+] \approx \sqrt{K_a C}\]
-The pH is given by:
-\[\text{pH} = -\log_{10}[\text{H}^+]\]
-A larger value of \(K_a\) indicates a greater extent of ionisation, resulting in a higher \([\text{H}^+]\) in solution. Because pH is inversely related to \([\text{H}^+]\), higher \([\text{H}^+]\) produces a lower pH value.</p>
-<p><strong>Step 3: Step-by-Step Working</strong><br/>
-Comparing the ionisation constants:
-\[1.8 \times 10^{-4} > 1.74 \times 10^{-5} > 3.0 \times 10^{-8}\]
-The order of acid strength is:
-\[\text{Formic acid} > \text{Acetic acid} > \text{Hypochlorous acid}\]
-The order of hydrogen ion concentration is:
-\[[\text{H}^+]_{\text{formic}} > [\text{H}^+]_{\text{acetic}} > [\text{H}^+]_{\text{hypochlorous}}\]
-Applying the negative logarithm inverts the order for pH:
-\[\text{pH}_{\text{hypochlorous}} > \text{pH}_{\text{acetic}} > \text{pH}_{\text{formic}}\]</p>
-<p><strong>Step 4: Check and Final Answer</strong><br/>
-Hypochlorous acid is the weakest acid and dissociates least, resulting in the highest pH, whereas formic acid is the strongest and gives the lowest pH. Therefore, the correct order of pH is hypochlorous acid > acetic acid > formic acid.</p>]]></text></generalfeedback>
+  <name><text>NEET_UG_CHEMISTRY_EQUILIBRIUM_MCQ_Q08 - Correct order of pH for equimolar weak acids</text></name>
+  <questiontext format="html"><text><![CDATA[<p>8. The ionisation constant of an acid, \(K_a\), is the measure of strength of an acid. The \(K_a\) values of acetic acid, hypochlorous acid and formic acid are \(1.74 \times 10^{-5}\), \(3.0 \times 10^{-8}\) and \(1.8 \times 10^{-4}\) respectively. Which of the following orders of pH of \(0.1\text{ mol dm}^{-3}\) solutions of these acids is correct?</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>Concentration of each acid solution: \(C = 0.1\text{ mol dm}^{-3}\).<br/>Ionisation constants:<br/>\(K_a(\text{formic acid}) = 1.8 \times 10^{-4}\)<br/>\(K_a(\text{acetic acid}) = 1.74 \times 10^{-5}\)<br/>\(K_a(\text{hypochlorous acid}) = 3.0 \times 10^{-8}\)</p>
+<p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>For weak monoprotic acids at equal initial concentrations, the degree of ionisation is small and \([\text{H}^+] \approx \sqrt{K_a \cdot C}\).</p>
+<p><strong>Step 3: Relevant Formulae and Principles</strong><br/>\[\text{pH} = -\log_{10}[\text{H}^+] = -\frac{1}{2}\log_{10}(K_a \cdot C)\]<br/>Thus, for equimolar weak acids, a larger \(K_a\) yields a higher \([\text{H}^+]\) and a lower pH.</p>
+<p><strong>Step 4: Step-by-Step Working</strong><br/>Comparing the \(K_a\) values:<br/>\[1.8 \times 10^{-4} (\text{formic acid}) &gt; 1.74 \times 10^{-5} (\text{acetic acid}) &gt; 3.0 \times 10^{-8} (\text{hypochlorous acid})\]<br/>Since pH varies inversely with acid strength (and \(K_a\)), the pH order is the reverse:<br/>\[\text{hypochlorous acid} &gt; \text{acetic acid} &gt; \text{formic acid}\]</p>
+<p><strong>Step 5: Check and Final Answer</strong><br/>Hypochlorous acid is the weakest acid among the three, so it produces the fewest \(\text{H}^+\) ions and has the highest pH, whereas formic acid is the strongest and has the lowest pH. Hence, the correct pH order is \(\text{hypochlorous acid} &gt; \text{acetic acid} &gt; \text{formic acid}\).</p>]]></text></generalfeedback>
   <defaultgrade>4.0000000</defaultgrade>
   <penalty>0.2500000</penalty>
   <hidden>0</hidden>
@@ -344,10 +252,11 @@ Hypochlorous acid is the weakest acid and dissociates least, resulting in the hi
     <tag><text>standard:neet_ug</text></tag>
     <tag><text>lang:en</text></tag>
     <tag><text>subject:chemistry</text></tag>
+    <tag><text>section:mcq_type_1</text></tag>
     <tag><text>class:11</text></tag>
     <tag><text>chapter:equilibrium</text></tag>
     <tag><text>typology:mcq</text></tag>
-    <tag><text>difficulty:medium</text></tag>
+    <tag><text>difficulty:easy</text></tag>
     <tag><text>blooms:apply</text></tag>
     <tag><text>calculation:light</text></tag>
     <tag><text>media:text</text></tag>
@@ -355,29 +264,17 @@ Hypochlorous acid is the weakest acid and dissociates least, resulting in the hi
   </tags>
 </question>
 <question type="multichoice">
-  <name><text>NEET_UG_CHEMISTRY_EQUILIBRIUM_MCQ_Q09 - Relationship between stepwise ionization constants of hydrogen sulfide</text></name>
-  <questiontext format="html"><text><![CDATA[<p>\(K_{a_1}\), \(K_{a_2}\) and \(K_{a_3}\) are the respective ionisation constants for the following reactions.</p>
+  <name><text>NEET_UG_CHEMISTRY_EQUILIBRIUM_MCQ_Q09 - Relationship between stepwise and overall ionisation constants of H2S</text></name>
+  <questiontext format="html"><text><![CDATA[<p>9. \(K_{a_1}\), \(K_{a_2}\) and \(K_{a_3}\) are the respective ionisation constants for the following reactions.</p>
 \[\text{H}_2\text{S} \rightleftharpoons \text{H}^+ + \text{HS}^-\]
 \[\text{HS}^- \rightleftharpoons \text{H}^+ + \text{S}^{2-}\]
 \[\text{H}_2\text{S} \rightleftharpoons 2\text{H}^+ + \text{S}^{2-}\]
 <p>The correct relationship between \(K_{a_1}\), \(K_{a_2}\) and \(K_{a_3}\) is</p>]]></text></questiontext>
-  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>
-The stepwise and overall equilibrium reactions with their equilibrium constants are:
-\[(1)\quad \text{H}_2\text{S} \rightleftharpoons \text{H}^+ + \text{HS}^-, \quad K_{a_1} = \frac{[\text{H}^+][\text{HS}^-]}{[\text{H}_2\text{S}]}\]
-\[(2)\quad \text{HS}^- \rightleftharpoons \text{H}^+ + \text{S}^{2-}, \quad K_{a_2} = \frac{[\text{H}^+][\text{S}^{2-}]}{[\text{HS}^-]}\]
-\[(3)\quad \text{H}_2\text{S} \rightleftharpoons 2\text{H}^+ + \text{S}^{2-}, \quad K_{a_3} = \frac{[\text{H}^+]^2[\text{S}^{2-}]}{[\text{H}_2\text{S}]}\]</p>
-<p><strong>Step 2: Relevant Principles</strong><br/>
-When an overall reaction is obtained by taking the sum of two individual chemical reactions, the equilibrium constant of the overall reaction equals the product of the equilibrium constants of the constituent reactions.</p>
-<p><strong>Step 3: Step-by-Step Working</strong><br/>
-Adding reactions (1) and (2):
-\[\text{H}_2\text{S} + \text{HS}^- \rightleftharpoons \text{H}^+ + \text{HS}^- + \text{H}^+ + \text{S}^{2-}\]
-Cancelling the intermediate species \(\text{HS}^-\) on both sides yields:
-\[\text{H}_2\text{S} \rightleftharpoons 2\text{H}^+ + \text{S}^{2-}\]
-which is identical to reaction (3).<br/>
-Multiplying the expressions for \(K_{a_1}\) and \(K_{a_2}\):
-\[K_{a_1} \times K_{a_2} = \left(\frac{[\text{H}^+][\text{HS}^-]}{[\text{H}_2\text{S}]}\right)\left(\frac{[\text{H}^+][\text{S}^{2-}]}{[\text{HS}^-]}\right) = \frac{[\text{H}^+]^2[\text{S}^{2-}]}{[\text{H}_2\text{S}]} = K_{a_3}\]</p>
-<p><strong>Step 4: Check and Final Answer</strong><br/>
-The algebraic product of the stepwise equilibrium constants gives the overall constant. Therefore, the correct relationship is \(K_{a_3} = K_{a_1} \times K_{a_2}\).</p>]]></text></generalfeedback>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>Three equilibria are given with ionisation constants \(K_{a_1}\), \(K_{a_2}\), and \(K_{a_3}\).</p>
+<p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>All species are in aqueous solution at constant temperature.</p>
+<p><strong>Step 3: Relevant Formulae and Principles</strong><br/>When two chemical equations are added to yield a third net equation, the equilibrium constant of the net equation equals the product of the equilibrium constants of the added equations.</p>
+<p><strong>Step 4: Step-by-Step Working</strong><br/>Write the equilibrium constant expressions:<br/>\[K_{a_1} = \frac{[\text{H}^+][\text{HS}^-]}{[\text{H}_2\text{S}]}, \quad K_{a_2} = \frac{[\text{H}^+][\text{S}^{2-}]}{[\text{HS}^-]}, \quad K_{a_3} = \frac{[\text{H}^+]^2[\text{S}^{2-}]}{[\text{H}_2\text{S}]}\]<br/>Multiplying \(K_{a_1}\) and \(K_{a_2}\) gives:<br/>\[K_{a_1} \times K_{a_2} = \frac{[\text{H}^+][\text{HS}^-]}{[\text{H}_2\text{S}]} \times \frac{[\text{H}^+][\text{S}^{2-}]}{[\text{HS}^-]} = \frac{[\text{H}^+]^2[\text{S}^{2-}]}{[\text{H}_2\text{S}]} = K_{a_3}\]</p>
+<p><strong>Step 5: Check and Final Answer</strong><br/>The intermediate \(\text{HS}^-\) cancels out, leaving the exact expression for \(K_{a_3}\). Therefore, \(K_{a_3} = K_{a_1} \times K_{a_2}\).</p>]]></text></generalfeedback>
   <defaultgrade>4.0000000</defaultgrade>
   <penalty>0.2500000</penalty>
   <hidden>0</hidden>
@@ -392,6 +289,7 @@ The algebraic product of the stepwise equilibrium constants gives the overall co
     <tag><text>standard:neet_ug</text></tag>
     <tag><text>lang:en</text></tag>
     <tag><text>subject:chemistry</text></tag>
+    <tag><text>section:mcq_type_1</text></tag>
     <tag><text>class:11</text></tag>
     <tag><text>chapter:equilibrium</text></tag>
     <tag><text>typology:mcq</text></tag>
@@ -403,19 +301,11 @@ The algebraic product of the stepwise equilibrium constants gives the overall co
   </tags>
 </question>
 <question type="multichoice">
-  <name><text>NEET_UG_CHEMISTRY_EQUILIBRIUM_MCQ_Q10 - Acidity of boron trifluoride explained by Lewis concept</text></name>
-  <questiontext format="html"><text><![CDATA[<p>Acidity of \(\text{BF}_3\) can be explained on the basis of which of the following concepts?</p>]]></text></questiontext>
-  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principles of Acid-Base Definitions</strong><br/>
-Arrhenius theory defines acids as substances that dissociate in aqueous solution to yield \(\text{H}^+\) ions.<br/>
-Bronsted-Lowry theory defines acids as chemical species capable of donating a proton (\(\text{H}^+\)).<br/>
-Lewis theory defines acids as electron-pair acceptors.</p>
-<p><strong>Step 2: Electronic Structure and Behavior of Boron Trifluoride</strong><br/>
-In the boron trifluoride (\(\text{BF}_3\)) molecule, the central boron atom forms three single covalent bonds with fluorine atoms, accounting for six valence electrons.<br/>
-Boron has an incomplete octet and possesses an empty unhybridised \(2p\) orbital.<br/>
-Because \(\text{BF}_3\) contains no hydrogen atoms, it cannot produce \(\text{H}^+\) ions in water or donate protons to a base, meaning neither the Arrhenius nor the Bronsted-Lowry concept applies.<br/>
-Owing to its electron deficiency and vacant orbital, \(\text{BF}_3\) readily accepts a lone pair of electrons from electron-rich donor species (such as ammonia) to form a coordinate bond.</p>
-<p><strong>Step 3: Final Conclusion</strong><br/>
-Therefore, the acidity of \(\text{BF}_3\) is explained on the basis of the Lewis concept.</p>]]></text></generalfeedback>
+  <name><text>NEET_UG_CHEMISTRY_EQUILIBRIUM_MCQ_Q10 - Concept explaining acidity of boron trifluoride</text></name>
+  <questiontext format="html"><text><![CDATA[<p>10. Acidity of \(\text{BF}_3\) can be explained on the basis of which of the following concepts?</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>Different acid-base theories define acids differently:<br/>- Arrhenius acid: produces \(\text{H}^+\) ions in aqueous solution.<br/>- Brønsted-Lowry acid: donates a proton (\(\text{H}^+\)).<br/>- Lewis acid: accepts a pair of electrons.</p>
+<p><strong>Step 2: Evaluation</strong><br/>In \(\text{BF}_3\), the central boron atom has only six valence electrons (an incomplete octet) and contains no ionisable hydrogen atoms. Consequently, \(\text{BF}_3\) cannot donate a proton or release \(\text{H}^+\) ions, so neither the Arrhenius nor the Brønsted-Lowry concept explains its acidity. However, it readily accepts an electron pair from a donor species (such as \(\text{NH}_3\)) into its vacant \(2p\) orbital.</p>
+<p><strong>Step 3: Final Conclusion</strong><br/>The acidity of \(\text{BF}_3\) is explained on the basis of the Lewis concept.</p>]]></text></generalfeedback>
   <defaultgrade>4.0000000</defaultgrade>
   <penalty>0.2500000</penalty>
   <hidden>0</hidden>
@@ -430,50 +320,38 @@ Therefore, the acidity of \(\text{BF}_3\) is explained on the basis of the Lewis
     <tag><text>standard:neet_ug</text></tag>
     <tag><text>lang:en</text></tag>
     <tag><text>subject:chemistry</text></tag>
+    <tag><text>section:mcq_type_1</text></tag>
     <tag><text>class:11</text></tag>
     <tag><text>chapter:equilibrium</text></tag>
     <tag><text>typology:mcq</text></tag>
     <tag><text>difficulty:easy</text></tag>
-    <tag><text>blooms:remember</text></tag>
+    <tag><text>blooms:understand</text></tag>
+    <tag><text>calculation:light</text></tag>
     <tag><text>media:text</text></tag>
     <tag><text>multiconcept:false</text></tag>
   </tags>
 </question>
 <question type="multichoice">
-  <name><text>NEET_UG_CHEMISTRY_EQUILIBRIUM_MCQ_Q11 - Formation of buffer solution on mixing equal volumes</text></name>
-  <questiontext format="html"><text><![CDATA[<p>Which of the following will produce a buffer solution when mixed in equal volumes?</p>]]></text></questiontext>
-  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principles</strong><br/>
-A buffer solution resists changes in pH upon addition of small amounts of acid or base. A basic buffer consists of a weak base together with its conjugate acid (salt with a strong acid), while an acidic buffer consists of a weak acid and its conjugate base.</p>
-<p><strong>Step 2: Quantitative Analysis of the Mixtures</strong><br/>
-Let the volume of each solution mixed be \(V\text{ dm}^3\).<br/>
-Mixing \(0.1\text{ mol dm}^{-3}\text{ NH}_4\text{OH}\) and \(0.1\text{ mol dm}^{-3}\text{ HCl}\) results in complete stoichiometric neutralisation:
-\[\text{NH}_4\text{OH} + \text{HCl} \rightarrow \text{NH}_4\text{Cl} + \text{H}_2\text{O}\]
-Both reactants are fully consumed, producing only the salt \(\text{NH}_4\text{Cl}\), which gives an unbuffered acidic salt solution.<br/>
-Mixing \(0.05\text{ mol dm}^{-3}\text{ NH}_4\text{OH}\) and \(0.1\text{ mol dm}^{-3}\text{ HCl}\) leaves excess strong acid \(\text{HCl}\), producing a strongly acidic unbuffered solution.<br/>
-Mixing \(0.1\text{ mol dm}^{-3}\text{ CH}_3\text{COONa}\) and \(0.1\text{ mol dm}^{-3}\text{ NaOH}\) contains a salt and a strong base without the weak conjugate acid \(\text{CH}_3\text{COOH}\), so it cannot function as a buffer.<br/>
-Mixing \(0.1\text{ mol dm}^{-3}\text{ NH}_4\text{OH}\) and \(0.05\text{ mol dm}^{-3}\text{ HCl}\):
-\[\text{Initial moles of NH}_4\text{OH} = 0.1 \times V\]
-\[\text{Initial moles of HCl} = 0.05 \times V\]
-Reaction with strong acid consumes \(0.05 \times V\text{ mol}\) of \(\text{NH}_4\text{OH}\):
-\[\text{Moles of NH}_4\text{Cl formed} = 0.05 \times V\]
-\[\text{Moles of unreacted NH}_4\text{OH remaining} = (0.1 - 0.05) \times V = 0.05 \times V\]
-Because the resulting solution contains significant and equimolar concentrations of both a weak base (\(\text{NH}_4\text{OH}\)) and its conjugate acid salt (\(\text{NH}_4\text{Cl}\), forming an effective basic buffer solution.</p>
-<p><strong>Step 3: Final Conclusion</strong><br/>
-Therefore, mixing equal volumes of \(0.1\text{ mol dm}^{-3}\text{ NH}_4\text{OH}\) and \(0.05\text{ mol dm}^{-3}\text{ HCl}\) produces a buffer solution.</p>]]></text></generalfeedback>
+  <name><text>NEET_UG_CHEMISTRY_EQUILIBRIUM_MCQ_Q11 - Mixture producing a buffer solution in equal volumes</text></name>
+  <questiontext format="html"><text><![CDATA[<p>11. Which of the following will produce a buffer solution when mixed in equal volumes?</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>A buffer solution consists of either a weak acid and its conjugate base (salt with a strong base) or a weak base and its conjugate acid (salt with a strong acid). When a weak base reacts with a limiting amount of a strong acid, the resulting mixture contains unreacted weak base and its conjugate acid salt, forming a basic buffer.</p>
+<p><strong>Step 2: Evaluation</strong><br/>Let equal volumes \(V\) of each pair be mixed:<br/>- \(0.1\text{ mol dm}^{-3}\text{ NH}_4\text{OH}\) and \(0.1\text{ mol dm}^{-3}\text{ HCl}\): Equal moles react completely to give only \(\text{NH}_4\text{Cl}\), with no \(\text{NH}_4\text{OH}\) remaining (not a buffer).<br/>- \(0.05\text{ mol dm}^{-3}\text{ NH}_4\text{OH}\) and \(0.1\text{ mol dm}^{-3}\text{ HCl}\): \(\text{HCl}\) is in excess, leaving \(\text{NH}_4\text{Cl}\) and strong acid \(\text{HCl}\) (not a buffer).<br/>- \(0.1\text{ mol dm}^{-3}\text{ NH}_4\text{OH}\) and \(0.05\text{ mol dm}^{-3}\text{ HCl}\): \(\text{HCl}\) is the limiting reagent. Half of the \(\text{NH}_4\text{OH}\) is neutralised to \(\text{NH}_4\text{Cl}\), leaving equal moles of weak base \(\text{NH}_4\text{OH}\) and its salt \(\text{NH}_4\text{Cl}\), which constitutes a basic buffer.<br/>- \(0.1\text{ mol dm}^{-3}\text{ CH}_3\text{COONa}\) and \(0.1\text{ mol dm}^{-3}\text{ NaOH}\): A salt of a weak acid mixed with a strong base does not form a buffer.</p>
+<p><strong>Step 3: Final Conclusion</strong><br/>Mixing equal volumes of \(0.1\text{ mol dm}^{-3}\text{ NH}_4\text{OH}\) and \(0.05\text{ mol dm}^{-3}\text{ HCl}\) will produce a buffer solution.</p>]]></text></generalfeedback>
   <defaultgrade>4.0000000</defaultgrade>
   <penalty>0.2500000</penalty>
   <hidden>0</hidden>
   <single>true</single>
   <shuffleanswers>true</shuffleanswers>
   <answernumbering>iii</answernumbering>
-  <answer fraction="0" format="html"><text><![CDATA[<p>0.1 mol dm\(^{-3}\) \(\text{NH}_4\text{OH}\) and 0.1 mol dm\(^{-3}\) HCl</p>]]></text></answer>
-  <answer fraction="0" format="html"><text><![CDATA[<p>0.05 mol dm\(^{-3}\) \(\text{NH}_4\text{OH}\) and 0.1 mol dm\(^{-3}\) HCl</p>]]></text></answer>
-  <answer fraction="100" format="html"><text><![CDATA[<p>0.1 mol dm\(^{-3}\) \(\text{NH}_4\text{OH}\) and 0.05 mol dm\(^{-3}\) HCl</p>]]></text></answer>
-  <answer fraction="0" format="html"><text><![CDATA[<p>0.1 mol dm\(^{-3}\) \(\text{CH}_3\text{COONa}\) and 0.1 mol dm\(^{-3}\) \(\text{NaOH}\)</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>\(0.1\text{ mol dm}^{-3}\text{ NH}_4\text{OH}\) and \(0.1\text{ mol dm}^{-3}\text{ HCl}\)</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>\(0.05\text{ mol dm}^{-3}\text{ NH}_4\text{OH}\) and \(0.1\text{ mol dm}^{-3}\text{ HCl}\)</p>]]></text></answer>
+  <answer fraction="100" format="html"><text><![CDATA[<p>\(0.1\text{ mol dm}^{-3}\text{ NH}_4\text{OH}\) and \(0.05\text{ mol dm}^{-3}\text{ HCl}\)</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>\(0.1\text{ mol dm}^{-3}\text{ CH}_3\text{COONa}\) and \(0.1\text{ mol dm}^{-3}\text{ NaOH}\)</p>]]></text></answer>
   <tags>
     <tag><text>standard:neet_ug</text></tag>
     <tag><text>lang:en</text></tag>
     <tag><text>subject:chemistry</text></tag>
+    <tag><text>section:mcq_type_1</text></tag>
     <tag><text>class:11</text></tag>
     <tag><text>chapter:equilibrium</text></tag>
     <tag><text>typology:mcq</text></tag>
@@ -481,74 +359,48 @@ Therefore, mixing equal volumes of \(0.1\text{ mol dm}^{-3}\text{ NH}_4\text{OH}
     <tag><text>blooms:apply</text></tag>
     <tag><text>calculation:light</text></tag>
     <tag><text>media:text</text></tag>
-    <tag><text>multiconcept:false</text></tag>
+    <tag><text>multiconcept:true</text></tag>
   </tags>
 </question>
 <question type="multichoice">
-  <name><text>NEET_UG_CHEMISTRY_EQUILIBRIUM_MCQ_Q12 - Highest solubility of silver chloride in aqueous ammonia</text></name>
-  <questiontext format="html"><text><![CDATA[<p>In which of the following solvents is silver chloride most soluble?</p>]]></text></questiontext>
-  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principles</strong><br/>
-Silver chloride (\(\text{AgCl}\)) is a sparingly soluble salt governed by the dissolution equilibrium:
-\[\text{AgCl}(\text{s}) \rightleftharpoons \text{Ag}^+(\text{aq}) + \text{Cl}^-(\text{aq})\]
-Addition of common ions (\(\text{Ag}^+\) or \(\text{Cl}^-\)) decreases its solubility via the common ion effect.<br/>
-Formation of a soluble coordination complex removes free silver ions from solution, driving the dissolution equilibrium forward.</p>
-<p><strong>Step 2: Comparison of Solvents</strong><br/>
-In \(0.1\text{ mol dm}^{-3}\text{ AgNO}_3\), the high concentration of \(\text{Ag}^+\) common ions suppresses the dissolution of \(\text{AgCl}\).<br/>
-In \(0.1\text{ mol dm}^{-3}\text{ HCl}\), the high concentration of \(\text{Cl}^-\) common ions suppresses the dissolution of \(\text{AgCl}\).<br/>
-In pure water, dissolution is limited strictly by the solubility product constant \(K_{\text{sp}} \approx 1.8 \times 10^{-10}\), giving a low solubility of \(\approx 1.34 \times 10^{-5}\text{ mol L}^{-1}\).<br/>
-In aqueous ammonia (\(\text{NH}_3\)), ammonia molecules coordinate with silver ions to form the stable diammine silver complex:
-\[\text{Ag}^+(\text{aq}) + 2\text{NH}_3(\text{aq}) \rightleftharpoons [\text{Ag}(\text{NH}_3)_2]^+(\text{aq})\]
-The overall dissolution process is:
-\[\text{AgCl}(\text{s}) + 2\text{NH}_3(\text{aq}) \rightleftharpoons [\text{Ag}(\text{NH}_3)_2]^+(\text{aq}) + \text{Cl}^-(\text{aq})\]
-Due to the large formation constant of the complex (\(K_f \approx 1.7 \times 10^7\)), free \(\text{Ag}^+\) ions are continuously sequestered, shifting the equilibrium significantly forward and resulting in far greater solubility than in water or common-ion solutions.</p>
-<p><strong>Step 3: Final Conclusion</strong><br/>
-Therefore, silver chloride is most soluble in aqueous ammonia.</p>]]></text></generalfeedback>
+  <name><text>NEET_UG_CHEMISTRY_EQUILIBRIUM_MCQ_Q12 - Solvent in which silver chloride is most soluble</text></name>
+  <questiontext format="html"><text><![CDATA[<p>12. In which of the following solvents is silver chloride most soluble?</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>Silver chloride (\(\text{AgCl}\)) is a sparingly soluble salt with the dissolution equilibrium:<br/>\[\text{AgCl(s)} \rightleftharpoons \text{Ag}^+(aq) + \text{Cl}^-(aq)\]<br/>Its solubility decreases in the presence of a common ion (common ion effect) and increases if either \(\text{Ag}^+\) or \(\text{Cl}^-\) is removed from solution via complex formation.</p>
+<p><strong>Step 2: Evaluation</strong><br/>- In \(0.1\text{ mol dm}^{-3}\text{ AgNO}_3\), the common ion \(\text{Ag}^+\) suppresses solubility.<br/>- In \(0.1\text{ mol dm}^{-3}\text{ HCl}\), the common ion \(\text{Cl}^-\) suppresses solubility.<br/>- In pure \(\text{H}_2\text{O}\), \(\text{AgCl}\) remains only sparingly soluble.<br/>- In aqueous ammonia (\(\text{NH}_3\)), \(\text{Ag}^+\) ions react with \(\text{NH}_3\) to form the stable, soluble diamminesilver(I) complex ion \([\text{Ag(NH}_3)_2]^+\). This removes free \(\text{Ag}^+\) ions and shifts the dissolution equilibrium strongly to the right.</p>
+<p><strong>Step 3: Final Conclusion</strong><br/>Silver chloride is most soluble in aqueous ammonia.</p>]]></text></generalfeedback>
   <defaultgrade>4.0000000</defaultgrade>
   <penalty>0.2500000</penalty>
   <hidden>0</hidden>
   <single>true</single>
   <shuffleanswers>true</shuffleanswers>
   <answernumbering>iii</answernumbering>
-  <answer fraction="0" format="html"><text><![CDATA[<p>0.1 mol dm\(^{-3}\) \(\text{AgNO}_3\) solution</p>]]></text></answer>
-  <answer fraction="0" format="html"><text><![CDATA[<p>0.1 mol dm\(^{-3}\) HCl solution</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>\(0.1\text{ mol dm}^{-3}\text{ AgNO}_3\) solution</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>\(0.1\text{ mol dm}^{-3}\text{ HCl}\) solution</p>]]></text></answer>
   <answer fraction="0" format="html"><text><![CDATA[<p>\(\text{H}_2\text{O}\)</p>]]></text></answer>
   <answer fraction="100" format="html"><text><![CDATA[<p>Aqueous ammonia</p>]]></text></answer>
   <tags>
     <tag><text>standard:neet_ug</text></tag>
     <tag><text>lang:en</text></tag>
     <tag><text>subject:chemistry</text></tag>
+    <tag><text>section:mcq_type_1</text></tag>
     <tag><text>class:11</text></tag>
     <tag><text>chapter:equilibrium</text></tag>
     <tag><text>typology:mcq</text></tag>
-    <tag><text>difficulty:easy</text></tag>
-    <tag><text>blooms:understand</text></tag>
+    <tag><text>difficulty:medium</text></tag>
+    <tag><text>blooms:apply</text></tag>
+    <tag><text>calculation:light</text></tag>
     <tag><text>media:text</text></tag>
-    <tag><text>multiconcept:false</text></tag>
+    <tag><text>multiconcept:true</text></tag>
   </tags>
 </question>
 <question type="multichoice">
-  <name><text>NEET_UG_CHEMISTRY_EQUILIBRIUM_MCQ_Q13 - Calculation of pH of acetic acid solution</text></name>
-  <questiontext format="html"><text><![CDATA[<p>What will be the value of pH of 0.01 mol dm\(^{-3}\) \(\text{CH}_3\text{COOH}\) (\(K_a = 1.74 \times 10^{-5}\))?</p>]]></text></questiontext>
-  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>
-Concentration of acetic acid solution: \(C = 0.01\text{ mol dm}^{-3} = 10^{-2}\text{ M}\)<br/>
-Acid dissociation constant: \(K_a = 1.74 \times 10^{-5}\)</p>
-<p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>
-Acetic acid is a weak monobasic acid that ionises according to \(\text{CH}_3\text{COOH} \rightleftharpoons \text{CH}_3\text{COO}^- + \text{H}^+\). Since the degree of ionisation \(\alpha = \sqrt{K_a / C} \ll 1\), the undissociated acid concentration remains approximately equal to \(C\).</p>
-<p><strong>Step 3: Relevant Formulae and Principles</strong><br/>
-\[[\text{H}^+] = \sqrt{K_a C}\]
-\[\text{pH} = -\log_{10}[\text{H}^+]\]</p>
-<p><strong>Step 4: Step-by-Step Working</strong><br/>
-Substitute the given values into the \([\text{H}^+]\) formula:
-\[[\text{H}^+] = \sqrt{(1.74 \times 10^{-5})(10^{-2})} = \sqrt{1.74 \times 10^{-7}} = \sqrt{17.4 \times 10^{-8}}\]
-Evaluating the square root:
-\[\sqrt{17.4} \approx 4.17\]
-\[[\text{H}^+] \approx 4.17 \times 10^{-4}\text{ mol dm}^{-3}\]
-Calculate the pH:
-\[\text{pH} = -\log_{10}(4.17 \times 10^{-4}) = 4 - \log_{10}(4.17)\]
-Using \(\log_{10}(4.17) \approx 0.620\):
-\[\text{pH} = 4 - 0.620 = 3.38 \approx 3.4\]</p>
-<p><strong>Step 5: Check and Final Answer</strong><br/>
-The degree of dissociation is \(\alpha = \frac{4.17 \times 10^{-4}}{0.01} = 0.0417\), which is less than \(5\%\), validating the approximation. Therefore, the value of pH of the acetic acid solution is \(3.4\).</p>]]></text></generalfeedback>
+  <name><text>NEET_UG_CHEMISTRY_EQUILIBRIUM_MCQ_Q13 - pH of 0.01 M acetic acid solution</text></name>
+  <questiontext format="html"><text><![CDATA[<p>13. What will be the value of pH of \(0.01\text{ mol dm}^{-3}\text{ CH}_3\text{COOH}\) (\(K_a = 1.74 \times 10^{-5}\))?</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>Concentration of acetic acid, \(C = 0.01\text{ mol dm}^{-3} = 10^{-2}\text{ mol dm}^{-3}\).<br/>Acid dissociation constant, \(K_a = 1.74 \times 10^{-5}\).</p>
+<p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>Since \(K_a / C = 1.74 \times 10^{-3} \ll 1\) (degree of dissociation \(\alpha \approx 0.0417 &lt; 0.05\)), we can use the weak-acid approximation \(1 - \alpha \approx 1\).</p>
+<p><strong>Step 3: Relevant Formulae and Principles</strong><br/>\[[\text{H}^+] = \sqrt{K_a \cdot C}\]<br/>\[\text{pH} = -\log_{10}[\text{H}^+]\]</p>
+<p><strong>Step 4: Step-by-Step Working</strong><br/>\[[\text{H}^+] = \sqrt{1.74 \times 10^{-5} \times 10^{-2}} = \sqrt{1.74 \times 10^{-7}} = \sqrt{17.4 \times 10^{-8}} \approx 4.17 \times 10^{-4}\text{ mol dm}^{-3}\]<br/>Taking the negative base-10 logarithm:<br/>\[\text{pH} = -\log_{10}(4.17 \times 10^{-4}) = 4 - \log_{10}(4.17) \approx 4 - 0.62 = 3.38 \approx 3.4\]</p>
+<p><strong>Step 5: Check and Final Answer</strong><br/>The calculated pH is acidic and lies between \(3\) and \(4\), which is physically reasonable for a \(0.01\text{ M}\) weak acid. Thus, the pH is \(3.4\).</p>]]></text></generalfeedback>
   <defaultgrade>4.0000000</defaultgrade>
   <penalty>0.2500000</penalty>
   <hidden>0</hidden>
@@ -563,38 +415,25 @@ The degree of dissociation is \(\alpha = \frac{4.17 \times 10^{-4}}{0.01} = 0.04
     <tag><text>standard:neet_ug</text></tag>
     <tag><text>lang:en</text></tag>
     <tag><text>subject:chemistry</text></tag>
+    <tag><text>section:mcq_type_1</text></tag>
     <tag><text>class:11</text></tag>
     <tag><text>chapter:equilibrium</text></tag>
     <tag><text>typology:mcq</text></tag>
     <tag><text>difficulty:medium</text></tag>
     <tag><text>blooms:apply</text></tag>
     <tag><text>calculation:moderate</text></tag>
-    <tag><text>media:equation</text></tag>
+    <tag><text>media:text</text></tag>
     <tag><text>multiconcept:false</text></tag>
   </tags>
 </question>
 <question type="multichoice">
-  <name><text>NEET_UG_CHEMISTRY_EQUILIBRIUM_MCQ_Q14 - Value of pH of ammonium acetate solution</text></name>
-  <questiontext format="html"><text><![CDATA[<p>\(K_a\) for \(\text{CH}_3\text{COOH}\) is \(1.8 \times 10^{-5}\) and \(K_b\) for \(\text{NH}_4\text{OH}\) is \(1.8 \times 10^{-5}\). The pH of ammonium acetate will be</p>]]></text></questiontext>
-  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>
-Acid dissociation constant: \(K_a = 1.8 \times 10^{-5}\)<br/>
-Base dissociation constant: \(K_b = 1.8 \times 10^{-5}\)<br/>
-Ammonium acetate (\(\text{CH}_3\text{COONH}_4\)) is a salt formed from a weak acid (\(\text{CH}_3\text{COOH}\)) and a weak base (\(\text{NH}_4\text{OH}\)).</p>
-<p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>
-Both the cation and the anion undergo hydrolysis in aqueous solution. For salts of a weak acid and a weak base, the pH depends on the relative values of \(\text{p}K_a\) and \(\text{p}K_b\) and is independent of salt concentration at moderate dilutions.</p>
-<p><strong>Step 3: Relevant Formulae and Principles</strong><br/>
-The pH of a solution of a salt of a weak acid and a weak base is given by:
-\[\text{pH} = 7 + \frac{1}{2}(\text{p}K_a - \text{p}K_b)\]
-where \(\text{p}K_a = -\log_{10}K_a\) and \(\text{p}K_b = -\log_{10}K_b\).</p>
-<p><strong>Step 4: Step-by-Step Working</strong><br/>
-Since the numerical values are identical:
-\[K_a = K_b = 1.8 \times 10^{-5}\]
-Their negative logarithms are also identical:
-\[\text{p}K_a = \text{p}K_b = -\log_{10}(1.8 \times 10^{-5}) \approx 4.74\]
-Substituting into the formula:
-\[\text{pH} = 7 + \frac{1}{2}(4.74 - 4.74) = 7 + 0 = 7.0\]</p>
-<p><strong>Step 5: Check and Final Answer</strong><br/>
-Because the acid and base have equal dissociation constants, the production of \(\text{H}^+\) by cation hydrolysis balances the production of \(\text{OH}^-\) by anion hydrolysis, yielding a neutral solution. Therefore, the pH of ammonium acetate will be \(7.0\).</p>]]></text></generalfeedback>
+  <name><text>NEET_UG_CHEMISTRY_EQUILIBRIUM_MCQ_Q14 - pH of ammonium acetate solution</text></name>
+  <questiontext format="html"><text><![CDATA[<p>14. \(K_a\) for \(\text{CH}_3\text{COOH}\) is \(1.8 \times 10^{-5}\) and \(K_b\) for \(\text{NH}_4\text{OH}\) is \(1.8 \times 10^{-5}\). The pH of ammonium acetate will be</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>Ammonium acetate (\(\text{CH}_3\text{COONH}_4\)) is a salt of a weak acid (\(\text{CH}_3\text{COOH}\)) and a weak base (\(\text{NH}_4\text{OH}\)).<br/>\(K_a = 1.8 \times 10^{-5}\) and \(K_b = 1.8 \times 10^{-5}\).</p>
+<p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>Assuming standard temperature (\(25^\circ\text{C}\)) where \(\text{p}K_w = 14\).</p>
+<p><strong>Step 3: Relevant Formulae and Principles</strong><br/>For the hydrolysis of a salt of a weak acid and a weak base, the pH is given by:<br/>\[\text{pH} = 7 + \frac{1}{2}(\text{p}K_a - \text{p}K_b)\]</p>
+<p><strong>Step 4: Step-by-Step Working</strong><br/>Since \(K_a = K_b = 1.8 \times 10^{-5}\), we have \(\text{p}K_a = \text{p}K_b\).<br/>Substituting \(\text{p}K_a - \text{p}K_b = 0\) into the formula:<br/>\[\text{pH} = 7 + \frac{1}{2}(0) = 7.0\]</p>
+<p><strong>Step 5: Check and Final Answer</strong><br/>Because the cation (\(\text{NH}_4^+\)) and anion (\(\text{CH}_3\text{COO}^-\)) hydrolyse to the exact same extent, the solution is neutral. Hence, the pH of ammonium acetate is \(7.0\).</p>]]></text></generalfeedback>
   <defaultgrade>4.0000000</defaultgrade>
   <penalty>0.2500000</penalty>
   <hidden>0</hidden>
@@ -609,40 +448,25 @@ Because the acid and base have equal dissociation constants, the production of \
     <tag><text>standard:neet_ug</text></tag>
     <tag><text>lang:en</text></tag>
     <tag><text>subject:chemistry</text></tag>
+    <tag><text>section:mcq_type_1</text></tag>
     <tag><text>class:11</text></tag>
     <tag><text>chapter:equilibrium</text></tag>
     <tag><text>typology:mcq</text></tag>
     <tag><text>difficulty:easy</text></tag>
     <tag><text>blooms:apply</text></tag>
     <tag><text>calculation:light</text></tag>
-    <tag><text>media:equation</text></tag>
+    <tag><text>media:text</text></tag>
     <tag><text>multiconcept:false</text></tag>
   </tags>
 </question>
 <question type="multichoice">
-  <name><text>NEET_UG_CHEMISTRY_EQUILIBRIUM_MCQ_Q15 - Standard free energy change at half completion</text></name>
-  <questiontext format="html"><text><![CDATA[<p>Which of the following options will be correct for the stage of half completion of the reaction \(A \rightleftharpoons B\)?</p>]]></text></questiontext>
-  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>
-Chemical equilibrium: \(A \rightleftharpoons B\)<br/>
-The system is at the stage of half completion, meaning half of the initial quantity of reactant \(A\) has converted into product \(B\).</p>
-<p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>
-Let the initial concentration of \(A\) be \(c_0\) and that of \(B\) be 0.<br/>
-At half completion, \([A] = c_0 - 0.5c_0 = 0.5c_0\) and \([B] = 0.5c_0\).<br/>
-Thus, at equilibrium at this point, \([A] = [B]\).</p>
-<p><strong>Step 3: Relevant Formulae and Principles</strong><br/>
-The equilibrium constant is given by:
-\[K = \frac{[B]}{[A]}\]
-The standard Gibbs free energy change of the reaction relates to the equilibrium constant by:
-\[\Delta G^\circ = -RT \ln K\]</p>
-<p><strong>Step 4: Step-by-Step Working</strong><br/>
-Substitute the concentrations into the expression for \(K\):
-\[K = \frac{0.5c_0}{0.5c_0} = 1\]
-Substitute \(K = 1\) into the free energy equation:
-\[\Delta G^\circ = -RT \ln(1)\]
-Because the natural logarithm of unity is zero:
-\[\Delta G^\circ = 0\]</p>
-<p><strong>Step 5: Check and Final Answer</strong><br/>
-When reactants and products are present in equal amounts at equilibrium, the equilibrium constant is 1 and the standard free energy change is 0. Therefore, \(\Delta G^\circ = 0\).</p>]]></text></generalfeedback>
+  <name><text>NEET_UG_CHEMISTRY_EQUILIBRIUM_MCQ_Q15 - Standard free energy change at half completion of reaction</text></name>
+  <questiontext format="html"><text><![CDATA[<p>15. Which of the following options will be correct for the stage of half completion of the reaction \(A \rightleftharpoons B\).</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>Consider the reversible reaction \(A \rightleftharpoons B\) at the stage of half completion (50% conversion at equilibrium).</p>
+<p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>At half completion, half of the initial reactant \(A\) has been converted to \(B\), so the equilibrium concentrations satisfy \([A] = [B]\).</p>
+<p><strong>Step 3: Relevant Formulae and Principles</strong><br/>The equilibrium constant is \(K = \frac{[B]}{[A]}\), and the standard Gibbs free energy change is related to \(K\) by:<br/>\[\Delta G^\circ = -RT \ln K\]</p>
+<p><strong>Step 4: Step-by-Step Working</strong><br/>Since \([A] = [B]\), we have:<br/>\[K = \frac{[B]}{[A]} = 1\]<br/>Substituting \(K = 1\) into the free energy relation:<br/>\[\Delta G^\circ = -RT \ln(1) = 0\]</p>
+<p><strong>Step 5: Check and Final Answer</strong><br/>When \(K = 1\), \(\ln K = 0\), so \(\Delta G^\circ = 0\). Thus, \(\Delta G^\circ = 0\) is correct for the stage of half completion.</p>]]></text></generalfeedback>
   <defaultgrade>4.0000000</defaultgrade>
   <penalty>0.2500000</penalty>
   <hidden>0</hidden>
@@ -650,40 +474,32 @@ When reactants and products are present in equal amounts at equilibrium, the equ
   <shuffleanswers>true</shuffleanswers>
   <answernumbering>iii</answernumbering>
   <answer fraction="100" format="html"><text><![CDATA[<p>\(\Delta G^\circ = 0\)</p>]]></text></answer>
-  <answer fraction="0" format="html"><text><![CDATA[<p>\(\Delta G^\circ > 0\)</p>]]></text></answer>
-  <answer fraction="0" format="html"><text><![CDATA[<p>\(\Delta G^\circ < 0\)</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>\(\Delta G^\circ &gt; 0\)</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>\(\Delta G^\circ &lt; 0\)</p>]]></text></answer>
   <answer fraction="0" format="html"><text><![CDATA[<p>\(\Delta G^\circ = -RT \ln 2\)</p>]]></text></answer>
   <tags>
     <tag><text>standard:neet_ug</text></tag>
     <tag><text>lang:en</text></tag>
     <tag><text>subject:chemistry</text></tag>
+    <tag><text>section:mcq_type_1</text></tag>
     <tag><text>class:11</text></tag>
     <tag><text>chapter:equilibrium</text></tag>
     <tag><text>typology:mcq</text></tag>
-    <tag><text>difficulty:easy</text></tag>
-    <tag><text>blooms:understand</text></tag>
+    <tag><text>difficulty:medium</text></tag>
+    <tag><text>blooms:apply</text></tag>
     <tag><text>calculation:light</text></tag>
     <tag><text>media:equation</text></tag>
     <tag><text>multiconcept:false</text></tag>
   </tags>
 </question>
 <question type="multichoice">
-  <name><text>NEET_UG_CHEMISTRY_EQUILIBRIUM_MCQ_Q16 - Effect of pressure change on equilibrium constant</text></name>
-  <questiontext format="html"><text><![CDATA[<p>On increasing the pressure, in which direction will the gas phase reaction proceed to re-establish equilibrium, is predicted by applying the Le Chatelier's principle. Consider the reaction.</p>
+  <name><text>NEET_UG_CHEMISTRY_EQUILIBRIUM_MCQ_Q16 - Effect of pressure increase at constant temperature on equilibrium constant</text></name>
+  <questiontext format="html"><text><![CDATA[<p>16. On increasing the pressure, in which direction will the gas phase reaction proceed to re-establish equilibrium, is predicted by applying the Le Chatelier's principle. Consider the reaction.</p>
 \[\text{N}_2(\text{g}) + 3\text{H}_2(\text{g}) \rightleftharpoons 2\text{NH}_3(\text{g})\]
 <p>Which of the following is correct, if the total pressure at which the equilibrium is established, is increased without changing the temperature?</p>]]></text></questiontext>
-  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principles</strong><br/>
-The equilibrium constant \(K\) of a chemical reaction is defined by thermodynamics as:
-\[\Delta G^\circ = -RT \ln K \implies K = e^{-\Delta G^\circ / RT}\]
-For a given reaction, the standard Gibbs free energy change \(\Delta G^\circ\) depends only on temperature. Therefore, \(K\) is strictly a function of temperature and is completely independent of pressure.</p>
-<p><strong>Step 2: Effect of Pressure on Equilibrium Shift versus Equilibrium Constant</strong><br/>
-In the gas phase synthesis of ammonia:
-\[\text{N}_2(\text{g}) + 3\text{H}_2(\text{g}) \rightleftharpoons 2\text{NH}_3(\text{g})\]
-the reaction proceeds with a decrease in the number of gaseous moles from 4 moles of reactants to 2 moles of product (\(\Delta n = -2\)).<br/>
-According to Le Chatelier's principle, increasing the total pressure causes the equilibrium position to shift in the forward direction towards fewer moles of gas.<br/>
-This shift alters the equilibrium concentrations and partial pressures in such a way that the reaction quotient \(Q\) remains equal to the equilibrium constant \(K\).</p>
-<p><strong>Step 3: Final Conclusion</strong><br/>
-Since the temperature is held constant, the value of the equilibrium constant remains unchanged. Therefore, \(K\) will remain same.</p>]]></text></generalfeedback>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>The equilibrium constant \(K\) of a chemical reaction is a thermodynamic quantity that depends solely on temperature (and the stoichiometry of the balanced equation). It is independent of pressure, volume, concentration, or the presence of a catalyst.</p>
+<p><strong>Step 2: Application</strong><br/>For the reaction \(\text{N}_2(\text{g}) + 3\text{H}_2(\text{g}) \rightleftharpoons 2\text{NH}_3(\text{g})\), increasing the total pressure at constant temperature causes the equilibrium position to shift toward the side with fewer moles of gas (forward direction) to relieve the pressure stress. However, the concentrations or partial pressures adjust such that the ratio defining \(K\) remains unchanged.</p>
+<p><strong>Step 3: Final Conclusion</strong><br/>Because the temperature is kept constant, the equilibrium constant \(K\) will remain the same.</p>]]></text></generalfeedback>
   <defaultgrade>4.0000000</defaultgrade>
   <penalty>0.2500000</penalty>
   <hidden>0</hidden>
@@ -698,36 +514,23 @@ Since the temperature is held constant, the value of the equilibrium constant re
     <tag><text>standard:neet_ug</text></tag>
     <tag><text>lang:en</text></tag>
     <tag><text>subject:chemistry</text></tag>
+    <tag><text>section:mcq_type_1</text></tag>
     <tag><text>class:11</text></tag>
     <tag><text>chapter:equilibrium</text></tag>
     <tag><text>typology:mcq</text></tag>
     <tag><text>difficulty:easy</text></tag>
     <tag><text>blooms:understand</text></tag>
+    <tag><text>calculation:light</text></tag>
     <tag><text>media:equation</text></tag>
     <tag><text>multiconcept:false</text></tag>
   </tags>
 </question>
 <question type="multichoice">
-  <name><text>NEET_UG_CHEMISTRY_EQUILIBRIUM_MCQ_Q17 - Order of vapour pressure based on boiling point</text></name>
-  <questiontext format="html"><text><![CDATA[<p>What will be the correct order of vapour pressure of water, acetone and ether at \(30^\circ\text{C}\). Given that among these compounds, water has maximum boiling point and ether has minimum boiling point?</p>]]></text></questiontext>
-  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>
-Three volatile liquids: water, acetone, and ether at \(30^\circ\text{C}\).<br/>
-Water has the maximum boiling point, and ether has the minimum boiling point.<br/>
-The boiling point order is:
-\[\text{Water} > \text{Acetone} > \text{Ether}\]</p>
-<p><strong>Step 2: Relevant Principles</strong><br/>
-Vapour pressure is the pressure exerted by the vapour in equilibrium with its liquid phase at a specified temperature.<br/>
-A higher boiling point reflects stronger intermolecular forces of attraction, meaning molecules require more energy to escape into the gas phase, which produces a lower vapour pressure at any given temperature.<br/>
-Conversely, weaker intermolecular attractive forces allow molecules to escape readily into the vapour phase, yielding a lower boiling point and a higher vapour pressure.<br/>
-Thus, at any constant temperature, vapour pressure is inversely related to boiling point.</p>
-<p><strong>Step 3: Step-by-Step Working</strong><br/>
-Water has strong intermolecular hydrogen bonding, giving it the highest boiling point and consequently the lowest vapour pressure.<br/>
-Ether possesses weak intermolecular forces, giving it the lowest boiling point and consequently the highest vapour pressure.<br/>
-Acetone has intermediate dipole-dipole attractions, resulting in an intermediate boiling point and intermediate vapour pressure.<br/>
-Inverting the boiling point order gives the vapour pressure order at \(30^\circ\text{C}\):
-\[\text{Water} < \text{Acetone} < \text{Ether}\]</p>
-<p><strong>Step 4: Check and Final Answer</strong><br/>
-The compound with the lowest boiling point exhibits the highest volatility and vapour pressure. Therefore, the correct order of vapour pressure is Water &lt; acetone &lt; ether.</p>]]></text></generalfeedback>
+  <name><text>NEET_UG_CHEMISTRY_EQUILIBRIUM_MCQ_Q17 - Order of vapour pressure of water acetone and ether</text></name>
+  <questiontext format="html"><text><![CDATA[<p>17. What will be the correct order of vapour pressure of water, acetone and ether at \(30^\circ\text{C}\). Given that among these compounds, water has maximum boiling point and ether has minimum boiling point?</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>The boiling point of a liquid reflects the strength of its intermolecular forces: stronger intermolecular attractions require more thermal energy to overcome, resulting in a higher boiling point and a lower tendency for molecules to escape into the vapour phase (lower vapour pressure at a given temperature).</p>
+<p><strong>Step 2: Application</strong><br/>Given that water has the maximum boiling point and ether has the minimum boiling point among the three, the boiling point order is:<br/>\[\text{ether} &lt; \text{acetone} &lt; \text{water}\]<br/>Since vapour pressure is inversely related to boiling point at a fixed temperature (\(30^\circ\text{C}\)), the vapour pressure order is the reverse.</p>
+<p><strong>Step 3: Final Conclusion</strong><br/>The correct order of vapour pressure at \(30^\circ\text{C}\) is \(\text{Water} &lt; \text{acetone} &lt; \text{ether}\).</p>]]></text></generalfeedback>
   <defaultgrade>4.0000000</defaultgrade>
   <penalty>0.2500000</penalty>
   <hidden>0</hidden>
@@ -742,44 +545,28 @@ The compound with the lowest boiling point exhibits the highest volatility and v
     <tag><text>standard:neet_ug</text></tag>
     <tag><text>lang:en</text></tag>
     <tag><text>subject:chemistry</text></tag>
+    <tag><text>section:mcq_type_1</text></tag>
     <tag><text>class:11</text></tag>
     <tag><text>chapter:equilibrium</text></tag>
     <tag><text>typology:mcq</text></tag>
     <tag><text>difficulty:easy</text></tag>
     <tag><text>blooms:understand</text></tag>
+    <tag><text>calculation:light</text></tag>
     <tag><text>media:text</text></tag>
     <tag><text>multiconcept:false</text></tag>
   </tags>
 </question>
 <question type="multichoice">
-  <name><text>NEET_UG_CHEMISTRY_EQUILIBRIUM_MCQ_Q18 - Calculation of equilibrium constant for reverse reaction</text></name>
-  <questiontext format="html"><text><![CDATA[<p>At 500 K, equilibrium constant, \(K_c\), for the following reaction is 5.</p>
+  <name><text>NEET_UG_CHEMISTRY_EQUILIBRIUM_MCQ_Q18 - Equilibrium constant Kc for HI decomposition at 500 K</text></name>
+  <questiontext format="html"><text><![CDATA[<p>18. At \(500\text{ K}\), equilibrium constant, \(K_c\), for the following reaction is \(5\).</p>
 \[\frac{1}{2}\text{H}_2(\text{g}) + \frac{1}{2}\text{I}_2(\text{g}) \rightleftharpoons \text{HI}(\text{g})\]
 <p>What would be the equilibrium constant \(K_c\) for the reaction</p>
 \[2\text{HI}(\text{g}) \rightleftharpoons \text{H}_2(\text{g}) + \text{I}_2(\text{g})\]]]></text></questiontext>
-  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>
-Reference reaction:
-\[\frac{1}{2}\text{H}_2(\text{g}) + \frac{1}{2}\text{I}_2(\text{g}) \rightleftharpoons \text{HI}(\text{g}), \quad K_{c_1} = 5\]
-Target reaction:
-\[2\text{HI}(\text{g}) \rightleftharpoons \text{H}_2(\text{g}) + \text{I}_2(\text{g}), \quad K_{c_2} = ?\]
-Temperature is constant at \(T = 500\text{ K}\).</p>
-<p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>
-The equilibrium constants follow the law of mass action.</p>
-<p><strong>Step 3: Relevant Formulae and Principles</strong><br/>
-From the law of chemical equilibrium:
-\[K_{c_1} = \frac{[\text{HI}]}{[\text{H}_2]^{1/2}[\text{I}_2]^{1/2}} = 5\]
-\[K_{c_2} = \frac{[\text{H}_2][\text{I}_2]}{[\text{HI}]^2}\]
-When a reaction is reversed, its equilibrium constant is inverted: \(K' = 1/K\).<br/>
-When stoichiometric coefficients are multiplied by a factor \(n\), the new equilibrium constant is raised to the power \(n\): \(K'' = (K')^n\).</p>
-<p><strong>Step 4: Step-by-Step Working</strong><br/>
-Reversing the reference reaction gives:
-\[\text{HI}(\text{g}) \rightleftharpoons \frac{1}{2}\text{H}_2(\text{g}) + \frac{1}{2}\text{I}_2(\text{g}), \quad K' = \frac{1}{K_{c_1}} = \frac{1}{5}\]
-Multiplying this reversed reaction by 2 produces the target reaction:
-\[2\text{HI}(\text{g}) \rightleftharpoons \text{H}_2(\text{g}) + \text{I}_2(\text{g})\]
-The corresponding equilibrium constant is:
-\[K_{c_2} = (K')^2 = \left(\frac{1}{5}\right)^2 = \frac{1}{25} = 0.04\]</p>
-<p><strong>Step 5: Check and Final Answer</strong><br/>
-Calculating the decimal value gives \(1/25 = 0.04\). Therefore, the equilibrium constant \(K_c\) for the reaction is \(0.04\).</p>]]></text></generalfeedback>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>At \(500\text{ K}\), for \(\frac{1}{2}\text{H}_2(\text{g}) + \frac{1}{2}\text{I}_2(\text{g}) \rightleftharpoons \text{HI}(\text{g})\), the equilibrium constant is \(K_{c1} = 5\).</p>
+<p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>Temperature remains constant at \(500\text{ K}\).</p>
+<p><strong>Step 3: Relevant Formulae and Principles</strong><br/>- Reversing a chemical equation inverts its equilibrium constant (\(K \rightarrow \frac{1}{K}\)).<br/>- Multiplying a chemical equation by a factor \(n\) raises its equilibrium constant to the power \(n\) (\(K \rightarrow K^n\)).</p>
+<p><strong>Step 4: Step-by-Step Working</strong><br/>The target reaction \(2\text{HI}(\text{g}) \rightleftharpoons \text{H}_2(\text{g}) + \text{I}_2(\text{g})\) is obtained by reversing the first reaction and multiplying all stoichiometric coefficients by \(2\).<br/>Therefore, the new equilibrium constant \(K_{c2}\) is:<br/>\[K_{c2} = \frac{1}{(K_{c1})^2} = \frac{1}{5^2} = \frac{1}{25} = 0.04\]</p>
+<p><strong>Step 5: Check and Final Answer</strong><br/>Since \(K_{c1} &gt; 1\) favours \(\text{HI}\), the reverse decomposition reaction has \(K_{c2} &lt; 1\), equal to \(0.04\).</p>]]></text></generalfeedback>
   <defaultgrade>4.0000000</defaultgrade>
   <penalty>0.2500000</penalty>
   <hidden>0</hidden>
@@ -794,6 +581,7 @@ Calculating the decimal value gives \(1/25 = 0.04\). Therefore, the equilibrium 
     <tag><text>standard:neet_ug</text></tag>
     <tag><text>lang:en</text></tag>
     <tag><text>subject:chemistry</text></tag>
+    <tag><text>section:mcq_type_1</text></tag>
     <tag><text>class:11</text></tag>
     <tag><text>chapter:equilibrium</text></tag>
     <tag><text>typology:mcq</text></tag>
@@ -805,20 +593,11 @@ Calculating the decimal value gives \(1/25 = 0.04\). Therefore, the equilibrium 
   </tags>
 </question>
 <question type="multichoice">
-  <name><text>NEET_UG_CHEMISTRY_EQUILIBRIUM_MCQ_Q19 - Effect of argon addition at constant volume</text></name>
-  <questiontext format="html"><text><![CDATA[<p>In which of the following reactions, the equilibrium remains unaffected on addition of small amount of argon at constant volume?</p>]]></text></questiontext>
-  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principles</strong><br/>
-Argon is a noble, chemically unreactive gas that does not participate in any chemical reactions with the reactants or products.<br/>
-When an inert gas is added to a system kept at constant volume, the total pressure increases because the total number of moles of gas increases.<br/>
-However, the molar concentration of any reacting gas \(i\) is given by:
-\[c_i = \frac{n_i}{V}\]
-where \(n_i\) is the moles of species \(i\) and \(V\) is the container volume.</p>
-<p><strong>Step 2: Evaluation of Reactions</strong><br/>
-Because the volume \(V\) is kept strictly constant and the number of moles \(n_i\) of each reacting gas does not change upon adding argon, the molar concentration of each reactant and product remains completely unaltered.<br/>
-Likewise, the partial pressure of each gas, \(p_i = c_i RT\), remains unchanged at constant temperature.<br/>
-Because the partial pressures and concentrations of all reacting components are unaltered, the reaction quotient \(Q\) remains identical to \(K\) for any reaction, regardless of whether \(\Delta n = 0\), \(\Delta n > 0\), or \(\Delta n < 0\).</p>
-<p><strong>Step 3: Final Conclusion</strong><br/>
-Addition of an inert gas at constant volume has no effect on chemical equilibrium in any reaction. Therefore, the equilibrium will remain unaffected in all the three cases.</p>]]></text></generalfeedback>
+  <name><text>NEET_UG_CHEMISTRY_EQUILIBRIUM_MCQ_Q19 - Effect of adding argon at constant volume on equilibrium</text></name>
+  <questiontext format="html"><text><![CDATA[<p>19. In which of the following reactions, the equilibrium remains unaffected on addition of small amount of argon at constant volume?</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>Argon is an inert gas that does not react with any of the components in these equilibria. When an inert gas is added to an equilibrium mixture at <strong>constant volume</strong>, the total pressure of the system increases, but the molar concentrations and partial pressures of all reactants and products remain unchanged.</p>
+<p><strong>Step 2: Application</strong><br/>Because the partial pressures (or concentrations) of all reacting species remain constant, the reaction quotient \(Q\) stays equal to the equilibrium constant \(K\) regardless of whether \(\Delta n_g\) is zero or non-zero.</p>
+<p><strong>Step 3: Final Conclusion</strong><br/>The equilibrium remains unaffected in all three reactions when argon is added at constant volume.</p>]]></text></generalfeedback>
   <defaultgrade>4.0000000</defaultgrade>
   <penalty>0.2500000</penalty>
   <hidden>0</hidden>
@@ -833,40 +612,25 @@ Addition of an inert gas at constant volume has no effect on chemical equilibriu
     <tag><text>standard:neet_ug</text></tag>
     <tag><text>lang:en</text></tag>
     <tag><text>subject:chemistry</text></tag>
+    <tag><text>section:mcq_type_1</text></tag>
     <tag><text>class:11</text></tag>
     <tag><text>chapter:equilibrium</text></tag>
     <tag><text>typology:mcq</text></tag>
-    <tag><text>difficulty:easy</text></tag>
+    <tag><text>difficulty:medium</text></tag>
     <tag><text>blooms:understand</text></tag>
+    <tag><text>calculation:light</text></tag>
     <tag><text>media:equation</text></tag>
     <tag><text>multiconcept:false</text></tag>
   </tags>
 </question>
 <question type="multichoice">
-  <name><text>NEET_UG_CHEMISTRY_EQUILIBRIUM_MCQ_Q20 - Thermodynamic properties and direction of dinitrogen tetroxide reaction</text></name>
-  <questiontext format="html"><text><![CDATA[<p>For the reaction \(\text{N}_2\text{O}_4(\text{g}) \rightleftharpoons 2\text{NO}_2(\text{g})\), the value of \(K\) is 50 at 400 K and 1700 at 500 K. Which of the following options is correct?</p>]]></text></questiontext>
-  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>
-Chemical reaction:
-\[\text{N}_2\text{O}_4(\text{g}) \rightleftharpoons 2\text{NO}_2(\text{g})\]
-At \(T_1 = 400\text{ K}\), \(K_1 = 50\).<br/>
-At \(T_2 = 500\text{ K}\), \(K_2 = 1700\).<br/>
-Partial pressures mixed at \(400\text{ K}\): \(p_{\text{NO}_2} = 20\text{ bar}\), \(p_{\text{N}_2\text{O}_4} = 2\text{ bar}\).</p>
-<p><strong>Step 2: Analysis of Enthalpy Change</strong><br/>
-According to van 't Hoff's equation:
-\[\ln\left(\frac{K_2}{K_1}\right) = \frac{\Delta H^\circ}{R}\left(\frac{1}{T_1} - \frac{1}{T_2}\right)\]
-As the temperature increases from \(400\text{ K}\) to \(500\text{ K}\), the value of \(K\) increases from 50 to 1700. Since an increase in temperature increases the equilibrium constant, the forward reaction absorbs heat, which means \(\Delta H^\circ > 0\) and the reaction is endothermic. Thus, the statement that the reaction is endothermic is correct, while the claim that it is exothermic is incorrect.</p>
-<p><strong>Step 3: Calculation of Reaction Quotient</strong><br/>
-At \(400\text{ K}\), the reaction quotient \(Q_p\) for the mixture is:
-\[Q_p = \frac{p_{\text{NO}_2}^2}{p_{\text{N}_2\text{O}_4}} = \frac{(20\text{ bar})^2}{2\text{ bar}} = \frac{400}{2} = 200\]
-Comparing \(Q_p\) with the equilibrium constant at \(400\text{ K}\) (\(K = 50\)):
-\[Q_p (200) > K (50)\]
-Because \(Q_p > K\), the system must proceed in the reverse direction to attain equilibrium, which means more \(\text{N}_2\text{O}_4(\text{g})\) will be formed. Thus, this statement is correct.</p>
-<p><strong>Step 4: Analysis of Entropy Change</strong><br/>
-In the reaction \(\text{N}_2\text{O}_4(\text{g}) \rightleftharpoons 2\text{NO}_2(\text{g})\), one mole of gas decomposes to produce two moles of gas:
-\[\Delta n_{\text{g}} = 2 - 1 = +1 > 0\]
-Because the number of gas molecules increases, the randomness and disorder of the system increase, meaning the entropy of the system increases (\(\Delta S^\circ > 0\)). Thus, this statement is correct.</p>
-<p><strong>Step 5: Final Conclusion</strong><br/>
-Therefore, the correct conclusions are that the reaction is endothermic, more \(\text{N}_2\text{O}_4(\text{g})\) will be formed when mixed at the given partial pressures, and the entropy of the system increases.</p>]]></text></generalfeedback>
+  <name><text>NEET_UG_CHEMISTRY_EQUILIBRIUM_MCQ_Q20 - Thermodynamics and reaction quotient for N2O4 dissociation</text></name>
+  <questiontext format="html"><text><![CDATA[<p>20. For the reaction \(\text{N}_2\text{O}_4(\text{g}) \rightleftharpoons 2\text{NO}_2(\text{g})\), the value of \(K\) is \(50\) at \(400\text{ K}\) and \(1700\) at \(500\text{ K}\). Which of the following options is correct?</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>Reaction: \(\text{N}_2\text{O}_4(\text{g}) \rightleftharpoons 2\text{NO}_2(\text{g})\).<br/>\(K = 50\) at \(400\text{ K}\) and \(K = 1700\) at \(500\text{ K}\).<br/>For the mixing test at \(400\text{ K}\): \(p_{\text{NO}_2} = 20\text{ bar}\) and \(p_{\text{N}_2\text{O}_4} = 2\text{ bar}\).</p>
+<p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>Ideal gas behaviour is assumed for the gaseous equilibrium, and \(K\) at \(400\text{ K}\) represents \(K_p = 50\).</p>
+<p><strong>Step 3: Relevant Formulae and Principles</strong><br/>- van 't Hoff / Le Chatelier principle: if \(K\) increases with temperature, the forward reaction is endothermic (\(\Delta H &gt; 0\)).<br/>- Reaction quotient: \(Q_p = \frac{(p_{\text{NO}_2})^2}{p_{\text{N}_2\text{O}_4}}\). If \(Q_p &gt; K_p\), the reaction proceeds in the reverse direction.<br/>- Entropy change: \(\Delta n_g &gt; 0\) corresponds to an increase in gas moles and an increase in entropy.</p>
+<p><strong>Step 4: Step-by-Step Working</strong><br/>1. As temperature rises from \(400\text{ K}\) to \(500\text{ K}\), \(K\) increases from \(50\) to \(1700\). Hence, the reaction is endothermic (not exothermic).<br/>2. At \(400\text{ K}\) with \(p_{\text{NO}_2} = 20\text{ bar}\) and \(p_{\text{N}_2\text{O}_4} = 2\text{ bar}\):<br/>\[Q_p = \frac{20^2}{2} = \frac{400}{2} = 200\]<br/>Since \(Q_p = 200 &gt; K = 50\), the reverse reaction is favoured, so more \(\text{N}_2\text{O}_4(\text{g})\) will be formed.<br/>3. For the reaction, \(\Delta n_g = 2 - 1 = +1 &gt; 0\), meaning \(1\text{ mol}\) of gas produces \(2\text{ mol}\) of gas, so the entropy of the system increases.</p>
+<p><strong>Step 5: Check and Final Answer</strong><br/>All three conclusions—that the reaction is endothermic, that more \(\text{N}_2\text{O}_4(\text{g})\) forms when \(p_{\text{NO}_2} = 20\text{ bar}\) and \(p_{\text{N}_2\text{O}_4} = 2\text{ bar}\) at \(400\text{ K}\), and that the entropy of the system increases—are correct.</p>]]></text></generalfeedback>
   <defaultgrade>4.0000000</defaultgrade>
   <penalty>0.2500000</penalty>
   <hidden>0</hidden>
@@ -874,17 +638,18 @@ Therefore, the correct conclusions are that the reaction is endothermic, more \(
   <shuffleanswers>true</shuffleanswers>
   <answernumbering>iii</answernumbering>
   <answer fraction="33.33333" format="html"><text><![CDATA[<p>The reaction is endothermic</p>]]></text></answer>
-  <answer fraction="-100" format="html"><text><![CDATA[<p>The reaction is exothermic</p>]]></text></answer>
-  <answer fraction="33.33333" format="html"><text><![CDATA[<p>If \(\text{NO}_2(\text{g})\) and \(\text{N}_2\text{O}_4(\text{g})\) are mixed at 400 K at partial pressures 20 bar and 2 bar respectively, more \(\text{N}_2\text{O}_4(\text{g})\) will be formed.</p>]]></text></answer>
+  <answer fraction="-50" format="html"><text><![CDATA[<p>The reaction is exothermic</p>]]></text></answer>
+  <answer fraction="33.33333" format="html"><text><![CDATA[<p>If \(\text{NO}_2(\text{g})\) and \(\text{N}_2\text{O}_4(\text{g})\) are mixed at \(400\text{ K}\) at partial pressures \(20\text{ bar}\) and \(2\text{ bar}\) respectively, more \(\text{N}_2\text{O}_4(\text{g})\) will be formed.</p>]]></text></answer>
   <answer fraction="33.33333" format="html"><text><![CDATA[<p>The entropy of the system increases.</p>]]></text></answer>
   <tags>
     <tag><text>standard:neet_ug</text></tag>
     <tag><text>lang:en</text></tag>
     <tag><text>subject:chemistry</text></tag>
+    <tag><text>section:mcq_type_2</text></tag>
     <tag><text>class:11</text></tag>
     <tag><text>chapter:equilibrium</text></tag>
     <tag><text>typology:mcq</text></tag>
-    <tag><text>difficulty:hard</text></tag>
+    <tag><text>difficulty:medium</text></tag>
     <tag><text>blooms:analyze</text></tag>
     <tag><text>calculation:light</text></tag>
     <tag><text>media:equation</text></tag>
@@ -892,19 +657,11 @@ Therefore, the correct conclusions are that the reaction is endothermic, more \(
   </tags>
 </question>
 <question type="multichoice">
-  <name><text>NEET_UG_CHEMISTRY_EQUILIBRIUM_MCQ_Q21 - Equilibrium temperature between solid and liquid phases</text></name>
-  <questiontext format="html"><text><![CDATA[<p>At a particular temperature and atmospheric pressure, the solid and liquid phases of a pure substance can exist in equilibrium. Which of the following term defines this temperature?</p>]]></text></questiontext>
-  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principles</strong><br/>
-For any pure substance at constant atmospheric pressure (1 atm or 1.013 bar), the solid and liquid phases can coexist in physical equilibrium:
-\[\text{Solid} \rightleftharpoons \text{Liquid}\]
-This state represents the transition temperature between the solid and liquid phases.</p>
-<p><strong>Step 2: Evaluation of Terms</strong><br/>
-When solid transitions to liquid at standard atmospheric pressure, this equilibrium temperature is termed the normal melting point.<br/>
-When liquid transitions to solid at standard atmospheric pressure, this identical equilibrium temperature is termed the freezing point (or normal freezing point).<br/>
-Boiling point refers to the temperature at which the liquid and vapour phases exist in equilibrium at 1 atm.<br/>
-Equilibrium temperature is a generic term that describes any thermodynamic equilibrium rather than specifically defining the solid-liquid equilibrium under standard atmospheric pressure.</p>
-<p><strong>Step 3: Final Conclusion</strong><br/>
-Therefore, the terms defining this temperature are the normal melting point and the freezing point.</p>]]></text></generalfeedback>
+  <name><text>NEET_UG_CHEMISTRY_EQUILIBRIUM_MCQ_Q21 - Terms defining solid liquid equilibrium temperature at atmospheric pressure</text></name>
+  <questiontext format="html"><text><![CDATA[<p>21. At a particular temperature and atmospheric pressure, the solid and liquid phases of a pure substance can exist in equilibrium. Which of the following term defines this temperature?</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>For any pure substance at atmospheric pressure (\(1\text{ atm}\)), there is a unique temperature at which the solid phase and the liquid phase coexist in dynamic equilibrium.</p>
+<p><strong>Step 2: Evaluation</strong><br/>- When approached from the solid state (melting), this temperature is called the <strong>normal melting point</strong>.<br/>- When approached from the liquid state (freezing), this exact same temperature is called the <strong>normal freezing point</strong> (or simply <strong>freezing point</strong> at atmospheric pressure).<br/>- Boiling point refers to liquid–vapour equilibrium, and "equilibrium temperature" is not the specific standard term for solid–liquid equilibrium at atmospheric pressure.</p>
+<p><strong>Step 3: Final Conclusion</strong><br/>Both "Normal melting point" and "Freezing point" define the temperature at which solid and liquid phases of a pure substance exist in equilibrium at atmospheric pressure.</p>]]></text></generalfeedback>
   <defaultgrade>4.0000000</defaultgrade>
   <penalty>0.2500000</penalty>
   <hidden>0</hidden>
@@ -919,28 +676,27 @@ Therefore, the terms defining this temperature are the normal melting point and 
     <tag><text>standard:neet_ug</text></tag>
     <tag><text>lang:en</text></tag>
     <tag><text>subject:chemistry</text></tag>
+    <tag><text>section:mcq_type_2</text></tag>
     <tag><text>class:11</text></tag>
     <tag><text>chapter:equilibrium</text></tag>
     <tag><text>typology:mcq</text></tag>
     <tag><text>difficulty:easy</text></tag>
     <tag><text>blooms:remember</text></tag>
+    <tag><text>calculation:light</text></tag>
     <tag><text>media:text</text></tag>
     <tag><text>multiconcept:false</text></tag>
   </tags>
 </question>
 <question type="matching">
-  <name><text>NEET_UG_CHEMISTRY_EQUILIBRIUM_MATCHING_NATIVE_Q38 - Matching physical equilibria with corresponding conditions</text></name>
-  <questiontext format="html"><text><![CDATA[<p>Match the following equilibria with the corresponding condition:</p>]]></text></questiontext>
-  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>
-Each physical equilibrium between states of matter corresponds to a characteristic condition or transition temperature at a given pressure.</p>
-<p><strong>Step 2: Step-by-Step Evaluation</strong><br/>
-At the boiling point of a liquid at standard atmospheric pressure, the liquid phase and vapour phase coexist in dynamic physical equilibrium: Liquid \(\rightleftharpoons\) Vapour.<br/>
-At the melting point of a pure solid, the solid phase and liquid phase coexist in dynamic physical equilibrium: Solid \(\rightleftharpoons\) Liquid.<br/>
-At the sublimation point, the solid phase directly vaporises and coexists in dynamic equilibrium with its vapour: Solid \(\rightleftharpoons\) Vapour.<br/>
-In a saturated solution at a given temperature, the rate of dissolution of the solid solute equals the rate of crystallisation from the solution, establishing dynamic equilibrium: Solute (s) \(\rightleftharpoons\) Solute (solution).<br/>
-An unsaturated solution contains less than the maximum equilibrium amount of dissolved solute, so dynamic equilibrium with solid solute does not exist.</p>
-<p><strong>Step 3: Final Conclusion</strong><br/>
-Therefore, Liquid \(\rightleftharpoons\) Vapour matches with Boiling point, Solid \(\rightleftharpoons\) Liquid matches with Melting point, Solid \(\rightleftharpoons\) Vapour matches with Sublimation point, and Solute (s) \(\rightleftharpoons\) Solute (solution) matches with Saturated solution.</p>]]></text></generalfeedback>
+  <name><text>NEET_UG_CHEMISTRY_EQUILIBRIUM_MATCH_Q38 - Matching physical and solution equilibria with conditions</text></name>
+  <questiontext format="html"><text><![CDATA[<p>38. Match the following equilibria with the corresponding condition</p>
+<p>(i) Liquid \(\rightleftharpoons\) Vapour</p>
+<p>(ii) Solid \(\rightleftharpoons\) Liquid</p>
+<p>(iii) Solid \(\rightleftharpoons\) Vapour</p>
+<p>(iv) Solute (s) \(\rightleftharpoons\) Solute (solution)</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>At equilibrium between two phases of a pure substance at standard atmospheric pressure, the temperature corresponds to a characteristic phase-transition point. For a solid solute in equilibrium with its dissolved state, the solution is saturated.</p>
+<p><strong>Step 2: Evaluation</strong><br/>- Liquid \(\rightleftharpoons\) Vapour equilibrium at atmospheric pressure defines the <strong>Boiling point</strong>.<br/>- Solid \(\rightleftharpoons\) Liquid equilibrium at atmospheric pressure defines the <strong>Melting point</strong>.<br/>- Solid \(\rightleftharpoons\) Vapour equilibrium defines the <strong>Sublimation point</strong>.<br/>- Solute (s) \(\rightleftharpoons\) Solute (solution) equilibrium occurs in a <strong>Saturated solution</strong>, where the rate of dissolution equals the rate of precipitation.</p>
+<p><strong>Step 3: Final Conclusion</strong><br/>Liquid \(\rightleftharpoons\) Vapour matches Boiling point; Solid \(\rightleftharpoons\) Liquid matches Melting point; Solid \(\rightleftharpoons\) Vapour matches Sublimation point; Solute (s) \(\rightleftharpoons\) Solute (solution) matches Saturated solution.</p>]]></text></generalfeedback>
   <defaultgrade>4.0000000</defaultgrade>
   <penalty>0.2500000</penalty>
   <hidden>0</hidden>
@@ -969,31 +725,27 @@ Therefore, Liquid \(\rightleftharpoons\) Vapour matches with Boiling point, Soli
     <tag><text>standard:neet_ug</text></tag>
     <tag><text>lang:en</text></tag>
     <tag><text>subject:chemistry</text></tag>
+    <tag><text>section:matching</text></tag>
     <tag><text>class:11</text></tag>
     <tag><text>chapter:equilibrium</text></tag>
-    <tag><text>typology:matching-native</text></tag>
+    <tag><text>typology:matching</text></tag>
     <tag><text>difficulty:easy</text></tag>
     <tag><text>blooms:remember</text></tag>
+    <tag><text>calculation:light</text></tag>
     <tag><text>media:text</text></tag>
     <tag><text>multiconcept:false</text></tag>
   </tags>
 </question>
 <question type="matching">
-  <name><text>NEET_UG_CHEMISTRY_EQUILIBRIUM_MATCHING_NATIVE_Q39 - Relationship of equilibrium constants for related chemical reactions</text></name>
-  <questiontext format="html"><text><![CDATA[<p>For the reaction : \(\mathrm{N}_2(\mathrm{g}) + 3\mathrm{H}_2(\mathrm{g}) \rightleftharpoons 2\mathrm{NH}_3(\mathrm{g})\)</p>
+  <name><text>NEET_UG_CHEMISTRY_EQUILIBRIUM_MATCH_Q39 - Matching ammonia synthesis reactions with equilibrium constants</text></name>
+  <questiontext format="html"><text><![CDATA[<p>39. For the reaction : \(\mathrm{N}_2(\mathrm{g}) + 3\mathrm{H}_2(\mathrm{g}) \rightleftharpoons 2\mathrm{NH}_3(\mathrm{g})\)</p>
 <p>Equilibrium constant \(K_{\mathrm{c}} = \frac{[\mathrm{NH}_3]^2}{[\mathrm{N}_2][\mathrm{H}_2]^3}\)</p>
-<p>Some reactions are written below in Column I and their equilibrium constants in terms of \(K_{\mathrm{c}}\) are written in Column II. Match the following reactions with the corresponding equilibrium constant:</p>]]></text></questiontext>
-  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Relevant Formulae and Principles</strong><br/>
-For a reference chemical equilibrium with equilibrium constant \(K_{\mathrm{c}}\):<br/>
-1. If all stoichiometric coefficients of the reaction are multiplied by a factor \(n\), the new equilibrium constant is \(K' = (K_{\mathrm{c}})^n\).<br/>
-2. If the direction of the reaction is reversed, the new equilibrium constant is the reciprocal of the original constant, \(K' = \frac{1}{K_{\mathrm{c}}}\).</p>
-<p><strong>Step 2: Step-by-Step Evaluation</strong><br/>
-For the reaction \(2\mathrm{N}_2(\mathrm{g}) + 6\mathrm{H}_2(\mathrm{g}) \rightleftharpoons 4\mathrm{NH}_3(\mathrm{g})\), the reference equation has been multiplied by 2. Thus, the new equilibrium constant is \(K_{\mathrm{c}}^2\).<br/>
-For the reaction \(2\mathrm{NH}_3(\mathrm{g}) \rightleftharpoons \mathrm{N}_2(\mathrm{g}) + 3\mathrm{H}_2(\mathrm{g})\), the reference equation has been reversed without changing coefficients. Thus, the new equilibrium constant is \(\frac{1}{K_{\mathrm{c}}}\).<br/>
-For the reaction \(\frac{1}{2}\mathrm{N}_2(\mathrm{g}) + \frac{3}{2}\mathrm{H}_2(\mathrm{g}) \rightleftharpoons \mathrm{NH}_3(\mathrm{g})\), the reference equation has been multiplied by \(\frac{1}{2}\). Thus, the new equilibrium constant is \(K_{\mathrm{c}}^{\frac{1}{2}}\).<br/>
-The value \(2K_{\mathrm{c}}\) does not correspond to any valid thermodynamic transformation of the equilibrium constant.</p>
-<p><strong>Step 3: Final Conclusion</strong><br/>
-Therefore, \(2\mathrm{N}_2(\mathrm{g}) + 6\mathrm{H}_2(\mathrm{g}) \rightleftharpoons 4\mathrm{NH}_3(\mathrm{g})\) matches with \(K_{\mathrm{c}}^2\), \(2\mathrm{NH}_3(\mathrm{g}) \rightleftharpoons \mathrm{N}_2(\mathrm{g}) + 3\mathrm{H}_2(\mathrm{g})\) matches with \(\frac{1}{K_{\mathrm{c}}}\), and \(\frac{1}{2}\mathrm{N}_2(\mathrm{g}) + \frac{3}{2}\mathrm{H}_2(\mathrm{g}) \rightleftharpoons \mathrm{NH}_3(\mathrm{g})\) matches with \(K_{\mathrm{c}}^{\frac{1}{2}}\).</p>]]></text></generalfeedback>
+<p>Some reactions are written below in Column I and their equilibrium constants in terms of \(K_{\mathrm{c}}\) are written in Column II. Match the following reactions with the corresponding equilibrium constant</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>For \(\mathrm{N}_2(\mathrm{g}) + 3\mathrm{H}_2(\mathrm{g}) \rightleftharpoons 2\mathrm{NH}_3(\mathrm{g})\), the equilibrium constant is \(K_{\mathrm{c}}\).</p>
+<p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>All reactions are at the same constant temperature.</p>
+<p><strong>Step 3: Relevant Formulae and Principles</strong><br/>- Multiplying a balanced equation by \(n\) raises \(K_{\mathrm{c}}\) to the power \(n\): \(K' = K_{\mathrm{c}}^n\).<br/>- Reversing a balanced equation inverts \(K_{\mathrm{c}}\): \(K' = \frac{1}{K_{\mathrm{c}}}\).</p>
+<p><strong>Step 4: Step-by-Step Working</strong><br/>1. \(2\mathrm{N}_2(\mathrm{g}) + 6\mathrm{H}_2(\mathrm{g}) \rightleftharpoons 4\mathrm{NH}_3(\mathrm{g})\) is the original equation multiplied by \(2\), so its equilibrium constant is \(K_{\mathrm{c}}^2\).<br/>2. \(2\mathrm{NH}_3(\mathrm{g}) \rightleftharpoons \mathrm{N}_2(\mathrm{g}) + 3\mathrm{H}_2(\mathrm{g})\) is the reverse of the original equation, so its equilibrium constant is \(\frac{1}{K_{\mathrm{c}}}\).<br/>3. \(\frac{1}{2}\mathrm{N}_2(\mathrm{g}) + \frac{3}{2}\mathrm{H}_2(\mathrm{g}) \rightleftharpoons \mathrm{NH}_3(\mathrm{g})\) is the original equation multiplied by \(\frac{1}{2}\), so its equilibrium constant is \(K_{\mathrm{c}}^{\frac{1}{2}}\).</p>
+<p><strong>Step 5: Check and Final Answer</strong><br/>The matches are: \(2\mathrm{N}_2 + 6\mathrm{H}_2 \rightleftharpoons 4\mathrm{NH}_3 \rightarrow K_{\mathrm{c}}^2\); \(2\mathrm{NH}_3 \rightleftharpoons \mathrm{N}_2 + 3\mathrm{H}_2 \rightarrow \frac{1}{K_{\mathrm{c}}}\); \(\frac{1}{2}\mathrm{N}_2 + \frac{3}{2}\mathrm{H}_2 \rightleftharpoons \mathrm{NH}_3 \rightarrow K_{\mathrm{c}}^{\frac{1}{2}}\).</p>]]></text></generalfeedback>
   <defaultgrade>4.0000000</defaultgrade>
   <penalty>0.2500000</penalty>
   <hidden>0</hidden>
@@ -1018,9 +770,10 @@ Therefore, \(2\mathrm{N}_2(\mathrm{g}) + 6\mathrm{H}_2(\mathrm{g}) \rightlefthar
     <tag><text>standard:neet_ug</text></tag>
     <tag><text>lang:en</text></tag>
     <tag><text>subject:chemistry</text></tag>
+    <tag><text>section:matching</text></tag>
     <tag><text>class:11</text></tag>
     <tag><text>chapter:equilibrium</text></tag>
-    <tag><text>typology:matching-native</text></tag>
+    <tag><text>typology:matching</text></tag>
     <tag><text>difficulty:easy</text></tag>
     <tag><text>blooms:apply</text></tag>
     <tag><text>calculation:light</text></tag>
@@ -1029,31 +782,23 @@ Therefore, \(2\mathrm{N}_2(\mathrm{g}) + 6\mathrm{H}_2(\mathrm{g}) \rightlefthar
   </tags>
 </question>
 <question type="matching">
-  <name><text>NEET_UG_CHEMISTRY_EQUILIBRIUM_MATCHING_NATIVE_Q40 - Standard free energy change and corresponding equilibrium constant</text></name>
-  <questiontext format="html"><text><![CDATA[<p>Match standard free energy of the reaction with the corresponding equilibrium constant:</p>]]></text></questiontext>
-  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Relevant Formulae and Principles</strong><br/>
-The standard Gibbs free energy change of a chemical reaction is related to the equilibrium constant by the thermodynamic expression:
-\[\Delta G^\circ = -RT \ln K\]
-which can be rearranged as:
-\[\ln K = -\frac{\Delta G^\circ}{RT}\]
-where \(R > 0\) is the universal gas constant and \(T > 0\text{ K}\) is the absolute temperature.</p>
-<p><strong>Step 2: Step-by-Step Evaluation</strong><br/>
-When \(\Delta G^\circ > 0\), the right side is negative, so \(\ln K < 0\), which yields \(K < 1\).<br/>
-When \(\Delta G^\circ < 0\), the right side is positive, so \(\ln K > 0\), which yields \(K > 1\).<br/>
-When \(\Delta G^\circ = 0\), the right side is zero, so \(\ln K = 0\), which yields \(K = 1\).<br/>
-The value \(K = 0\) would indicate zero product concentration, which is not an equilibrium state.</p>
-<p><strong>Step 3: Final Conclusion</strong><br/>
-Therefore, \(\Delta G^\circ > 0\) matches with \(K < 1\), \(\Delta G^\circ < 0\) matches with \(K > 1\), and \(\Delta G^\circ = 0\) matches with \(K = 1\).</p>]]></text></generalfeedback>
+  <name><text>NEET_UG_CHEMISTRY_EQUILIBRIUM_MATCH_Q40 - Matching standard free energy change with equilibrium constant</text></name>
+  <questiontext format="html"><text><![CDATA[<p>40. Match standard free energy of the reaction with the corresponding equilibrium constant</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>We are asked to relate the sign or value of \(\Delta G^\circ\) to the magnitude of the equilibrium constant \(K\).</p>
+<p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>\(R &gt; 0\) and \(T &gt; 0\) in Kelvin.</p>
+<p><strong>Step 3: Relevant Formulae and Principles</strong><br/>\[\Delta G^\circ = -RT \ln K\]</p>
+<p><strong>Step 4: Step-by-Step Working</strong><br/>- When \(\Delta G^\circ &gt; 0\), \(\ln K &lt; 0\), which gives \(K &lt; 1\).<br/>- When \(\Delta G^\circ &lt; 0\), \(\ln K &gt; 0\), which gives \(K &gt; 1\).<br/>- When \(\Delta G^\circ = 0\), \(\ln K = 0\), which gives \(K = 1\).</p>
+<p><strong>Step 5: Check and Final Answer</strong><br/>Thus, \(\Delta G^\circ &gt; 0\) corresponds to \(K &lt; 1\), \(\Delta G^\circ &lt; 0\) corresponds to \(K &gt; 1\), and \(\Delta G^\circ = 0\) corresponds to \(K = 1\).</p>]]></text></generalfeedback>
   <defaultgrade>4.0000000</defaultgrade>
   <penalty>0.2500000</penalty>
   <hidden>0</hidden>
   <shuffleanswers>true</shuffleanswers>
   <subquestion format="html">
-    <text><![CDATA[<p>\(\Delta G^\circ > 0\)</p>]]></text>
+    <text><![CDATA[<p>\(\Delta G^\circ &gt; 0\)</p>]]></text>
     <answer><text>\(K &lt; 1\)</text></answer>
   </subquestion>
   <subquestion format="html">
-    <text><![CDATA[<p>\(\Delta G^\circ < 0\)</p>]]></text>
+    <text><![CDATA[<p>\(\Delta G^\circ &lt; 0\)</p>]]></text>
     <answer><text>\(K &gt; 1\)</text></answer>
   </subquestion>
   <subquestion format="html">
@@ -1068,9 +813,10 @@ Therefore, \(\Delta G^\circ > 0\) matches with \(K < 1\), \(\Delta G^\circ < 0\)
     <tag><text>standard:neet_ug</text></tag>
     <tag><text>lang:en</text></tag>
     <tag><text>subject:chemistry</text></tag>
+    <tag><text>section:matching</text></tag>
     <tag><text>class:11</text></tag>
     <tag><text>chapter:equilibrium</text></tag>
-    <tag><text>typology:matching-native</text></tag>
+    <tag><text>typology:matching</text></tag>
     <tag><text>difficulty:easy</text></tag>
     <tag><text>blooms:understand</text></tag>
     <tag><text>calculation:light</text></tag>
@@ -1079,19 +825,11 @@ Therefore, \(\Delta G^\circ > 0\) matches with \(K < 1\), \(\Delta G^\circ < 0\)
   </tags>
 </question>
 <question type="matching">
-  <name><text>NEET_UG_CHEMISTRY_EQUILIBRIUM_MATCHING_NATIVE_Q41 - Matching Bronsted species with corresponding conjugate acids</text></name>
-  <questiontext format="html"><text><![CDATA[<p>Match the following species with the corresponding conjugate acid:</p>]]></text></questiontext>
-  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principles</strong><br/>
-According to the Bronsted-Lowry concept, a conjugate acid of a given chemical species is obtained by adding a single proton (\(\text{H}^+\)) to that species:
-\[\text{Conjugate acid} = \text{Base} + \text{H}^+\]</p>
-<p><strong>Step 2: Step-by-Step Evaluation</strong><br/>
-For \(\text{NH}_3\), addition of \(\text{H}^+\) yields the ammonium ion, \(\text{NH}_4^+\).<br/>
-For \(\text{HCO}_3^-\), addition of \(\text{H}^+\) yields carbonic acid, \(\text{H}_2\text{CO}_3\).<br/>
-For \(\text{H}_2\text{O}\), addition of \(\text{H}^+\) yields the hydronium ion, \(\text{H}_3\text{O}^+\).<br/>
-For \(\text{HSO}_4^-\), addition of \(\text{H}^+\) yields sulfuric acid, \(\text{H}_2\text{SO}_4\).<br/>
-The carbonate ion, \(\text{CO}_3^{2-}\), is formed by deprotonation of \(\text{HCO}_3^-\), making it a conjugate base rather than a conjugate acid.</p>
-<p><strong>Step 3: Final Conclusion</strong><br/>
-Therefore, \(\text{NH}_3\) matches with \(\text{NH}_4^+\), \(\text{HCO}_3^-\) matches with \(\text{H}_2\text{CO}_3\), \(\text{H}_2\text{O}\) matches with \(\text{H}_3\text{O}^+\), and \(\text{HSO}_4^-\) matches with \(\text{H}_2\text{SO}_4\).</p>]]></text></generalfeedback>
+  <name><text>NEET_UG_CHEMISTRY_EQUILIBRIUM_MATCH_Q41 - Matching chemical species with their conjugate acids</text></name>
+  <questiontext format="html"><text><![CDATA[<p>41. Match the following species with the corresponding conjugate acid</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>According to the Brønsted-Lowry concept, the conjugate acid of a base (or amphoteric species) is formed by adding one proton (\(\text{H}^+\)) to the species.</p>
+<p><strong>Step 2: Application</strong><br/>- \(\text{NH}_3 + \text{H}^+ \rightarrow \text{NH}_4^+\)<br/>- \(\text{HCO}_3^- + \text{H}^+ \rightarrow \text{H}_2\text{CO}_3\)<br/>- \(\text{H}_2\text{O} + \text{H}^+ \rightarrow \text{H}_3\text{O}^+\)<br/>- \(\text{HSO}_4^- + \text{H}^+ \rightarrow \text{H}_2\text{SO}_4\)</p>
+<p><strong>Step 3: Final Conclusion</strong><br/>The conjugate acids of \(\text{NH}_3\), \(\text{HCO}_3^-\), \(\text{H}_2\text{O}\), and \(\text{HSO}_4^-\) are \(\text{NH}_4^+\), \(\text{H}_2\text{CO}_3\), \(\text{H}_3\text{O}^+\), and \(\text{H}_2\text{SO}_4\), respectively.</p>]]></text></generalfeedback>
   <defaultgrade>4.0000000</defaultgrade>
   <penalty>0.2500000</penalty>
   <hidden>0</hidden>
@@ -1120,30 +858,23 @@ Therefore, \(\text{NH}_3\) matches with \(\text{NH}_4^+\), \(\text{HCO}_3^-\) ma
     <tag><text>standard:neet_ug</text></tag>
     <tag><text>lang:en</text></tag>
     <tag><text>subject:chemistry</text></tag>
+    <tag><text>section:matching</text></tag>
     <tag><text>class:11</text></tag>
     <tag><text>chapter:equilibrium</text></tag>
-    <tag><text>typology:matching-native</text></tag>
+    <tag><text>typology:matching</text></tag>
     <tag><text>difficulty:easy</text></tag>
-    <tag><text>blooms:remember</text></tag>
-    <tag><text>media:equation</text></tag>
+    <tag><text>blooms:apply</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:text</text></tag>
     <tag><text>multiconcept:false</text></tag>
   </tags>
 </question>
 <question type="matching">
-  <name><text>NEET_UG_CHEMISTRY_EQUILIBRIUM_MATCHING_NATIVE_Q43 - Criteria of spontaneity and chemical equilibrium</text></name>
-  <questiontext format="html"><text><![CDATA[<p>Match Column I with Column II:</p>]]></text></questiontext>
-  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principles</strong><br/>
-At constant temperature and pressure, the change in Gibbs free energy (\(\Delta G\)) serves as the thermodynamic criterion for the spontaneity and equilibrium of a chemical system:<br/>
-1. If \(\Delta G = 0\), the forward and reverse processes occur at equal rates and the system is at equilibrium.<br/>
-2. If \(\Delta G < 0\), the reaction proceeds spontaneously in the forward direction, which corresponds under standard conditions to a product-favoured equilibrium constant where \(K > 1\).<br/>
-3. If \(\Delta G > 0\), the forward process is non-spontaneous, corresponding under standard conditions to a reactant-favoured equilibrium constant where \(K < 1\).<br/>
-The condition \(\Delta G^\circ = 0\) specifically implies that \(K = 1\), rather than serving as the universal criterion for chemical equilibrium.</p>
-<p><strong>Step 2: Step-by-Step Evaluation</strong><br/>
-Equilibrium is defined by the thermodynamic condition \(\Delta G = 0\).<br/>
-A spontaneous reaction is characterised by \(\Delta G < 0\) and \(K > 1\).<br/>
-A non-spontaneous reaction is characterised by \(\Delta G > 0\) and \(K < 1\).</p>
-<p><strong>Step 3: Final Conclusion</strong><br/>
-Therefore, Equilibrium matches with \(\Delta G = 0\), Spontaneous reaction matches with \(\Delta G < 0, K > 1\), and Non spontaneous reaction matches with \(\Delta G > 0, K < 1\).</p>]]></text></generalfeedback>
+  <name><text>NEET_UG_CHEMISTRY_EQUILIBRIUM_MATCH_Q43 - Matching reaction states with Gibbs free energy and equilibrium constant</text></name>
+  <questiontext format="html"><text><![CDATA[<p>43. Match Column (I) with Column (II).</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>The Gibbs free energy change \(\Delta G\) determines the spontaneity of a reaction at constant temperature and pressure: \(\Delta G &lt; 0\) for a spontaneous process, \(\Delta G &gt; 0\) for a non-spontaneous process, and \(\Delta G = 0\) at equilibrium.</p>
+<p><strong>Step 2: Evaluation</strong><br/>- At <strong>Equilibrium</strong>, there is no net driving force, so \(\Delta G = 0\).<br/>- For a <strong>Spontaneous reaction</strong> (thermodynamically favourable), \(\Delta G &lt; 0\) and products are favoured (\(K &gt; 1\) when \(\Delta G^\circ &lt; 0\)).<br/>- For a <strong>Non spontaneous reaction</strong>, \(\Delta G &gt; 0\) and reactants are favoured (\(K &lt; 1\) when \(\Delta G^\circ &gt; 0\)).</p>
+<p><strong>Step 3: Final Conclusion</strong><br/>Equilibrium matches \(\Delta G = 0\); Spontaneous reaction matches \(\Delta G &lt; 0, K &gt; 1\); Non spontaneous reaction matches \(\Delta G &gt; 0, K &lt; 1\).</p>]]></text></generalfeedback>
   <defaultgrade>4.0000000</defaultgrade>
   <penalty>0.2500000</penalty>
   <hidden>0</hidden>
@@ -1168,35 +899,30 @@ Therefore, Equilibrium matches with \(\Delta G = 0\), Spontaneous reaction match
     <tag><text>standard:neet_ug</text></tag>
     <tag><text>lang:en</text></tag>
     <tag><text>subject:chemistry</text></tag>
+    <tag><text>section:matching</text></tag>
     <tag><text>class:11</text></tag>
     <tag><text>chapter:equilibrium</text></tag>
-    <tag><text>typology:matching-native</text></tag>
+    <tag><text>typology:matching</text></tag>
     <tag><text>difficulty:easy</text></tag>
     <tag><text>blooms:understand</text></tag>
+    <tag><text>calculation:light</text></tag>
     <tag><text>media:equation</text></tag>
     <tag><text>multiconcept:false</text></tag>
   </tags>
 </question>
 <question type="multichoice">
-  <name><text>NEET_UG_CHEMISTRY_EQUILIBRIUM_ASSERTION_REASON_Q44 - Acidity order of hydrogen halides and bond strength</text></name>
-  <questiontext format="html"><text><![CDATA[<p><strong>Assertion (A):</strong> Increasing order of acidity of hydrogen halides is \(\text{HF} < \text{HCl} < \text{HBr} < \text{HI}\)</p>
-<p><strong>Reason (R):</strong> While comparing acids formed by the elements belonging to the same group of periodic table, H-A bond strength is a more important factor in determining acidity of an acid than the polar nature of the bond.</p>]]></text></questiontext>
-  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Evaluation of Assertion</strong><br/>
-In aqueous solution, the acidic strength of hydrogen halides increases down Group 17:
-\[\text{HF} < \text{HCl} < \text{HBr} < \text{HI}\]
-Hydrofluoric acid is a weak acid, whereas hydrochloric, hydrobromic, and hydroiodic acids are strong acids, with \(\text{HI}\) being the strongest. Thus, Assertion is correct.</p>
-<p><strong>Step 2: Evaluation of Reason and Explanatory Link</strong><br/>
-As one moves down a group in the periodic table, the atomic size of the halogen atom increases significantly from fluorine to iodine (\(\text{F} < \text{Cl} < \text{Br} < \text{I}\)).<br/>
-This increase in size leads to poorer orbital overlap with the small \(1s\) orbital of hydrogen, causing a substantial decrease in the \(\text{H}-\text{A}\) bond dissociation enthalpy:
-\[\text{H}-\text{F} > \text{H}-\text{Cl} > \text{H}-\text{Br} > \text{H}-\text{I}\]
-Although bond polarity decreases down the group (which would otherwise favor dissociation of the more polar \(\text{H}-\text{F}\) bond), bond strength is the predominant factor determining acid strength for hydrides of elements in the same group. Because the \(\text{H}-\text{I}\) bond is weakest, it dissociates most readily to release protons. Thus, Reason is correct and serves as the correct explanation of Assertion.</p>
-<p><strong>Step 3: Final Conclusion</strong><br/>
-Therefore, both Assertion and Reason are true and Reason is the correct explanation of Assertion.</p>]]></text></generalfeedback>
+  <name><text>NEET_UG_CHEMISTRY_EQUILIBRIUM_AR_Q44 - Acidity order of hydrogen halides and bond strength</text></name>
+  <questiontext format="html"><text><![CDATA[<p>44. <strong>Assertion (A) :</strong> Increasing order of acidity of hydrogen halides is \(\mathrm{HF} &lt; \mathrm{HCl} &lt; \mathrm{HBr} &lt; \mathrm{HI}\)</p>
+<p><strong>Reason (R) :</strong> While comparing acids formed by the elements belonging to the same group of periodic table, \(\mathrm{H-A}\) bond strength is a more important factor in determining acidity of an acid than the polar nature of the bond.</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>The acid strength of binary hydrides \(\mathrm{H-A}\) down a group in the periodic table depends primarily on the \(\mathrm{H-A}\) bond dissociation enthalpy rather than electronegativity difference (bond polarity).</p>
+<p><strong>Step 2: Evaluation of Assertion</strong><br/>As we move down Group 17 from \(\mathrm{F}\) to \(\mathrm{I}\), the atomic size increases significantly, weakening the \(\mathrm{H-A}\) bond and making proton donation easier. Thus, the acidity increases in the order \(\mathrm{HF} &lt; \mathrm{HCl} &lt; \mathrm{HBr} &lt; \mathrm{HI}\). Assertion (A) is true.</p>
+<p><strong>Step 3: Evaluation of Reason</strong><br/>Down the group, the decrease in \(\mathrm{H-A}\) bond strength dominates over the decrease in bond polarity, which is why \(\mathrm{HI}\) is the strongest acid and \(\mathrm{HF}\) is the weakest. Reason (R) is true and correctly explains Assertion (A).</p>
+<p><strong>Step 4: Final Conclusion</strong><br/>Both A and R are true and R is the correct explanation of A.</p>]]></text></generalfeedback>
   <defaultgrade>4.0000000</defaultgrade>
   <penalty>0.2500000</penalty>
   <hidden>0</hidden>
   <single>true</single>
-  <shuffleanswers>false</shuffleanswers>
+  <shuffleanswers>true</shuffleanswers>
   <answernumbering>iii</answernumbering>
   <answer fraction="100" format="html"><text><![CDATA[<p>Both A and R are true and R is the correct explanation of A.</p>]]></text></answer>
   <answer fraction="0" format="html"><text><![CDATA[<p>Both A and R are true but R is not the correct explanation of A.</p>]]></text></answer>
@@ -1206,32 +932,30 @@ Therefore, both Assertion and Reason are true and Reason is the correct explanat
     <tag><text>standard:neet_ug</text></tag>
     <tag><text>lang:en</text></tag>
     <tag><text>subject:chemistry</text></tag>
+    <tag><text>section:assertion_reason</text></tag>
     <tag><text>class:11</text></tag>
     <tag><text>chapter:equilibrium</text></tag>
-    <tag><text>typology:assertion-reason</text></tag>
-    <tag><text>difficulty:medium</text></tag>
+    <tag><text>typology:assertion_reason</text></tag>
+    <tag><text>difficulty:easy</text></tag>
     <tag><text>blooms:understand</text></tag>
-    <tag><text>media:equation</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:text</text></tag>
     <tag><text>multiconcept:false</text></tag>
   </tags>
 </question>
 <question type="multichoice">
-  <name><text>NEET_UG_CHEMISTRY_EQUILIBRIUM_ASSERTION_REASON_Q45 - Buffer action of acetic acid and sodium acetate</text></name>
-  <questiontext format="html"><text><![CDATA[<p><strong>Assertion (A):</strong> A solution containing a mixture of acetic acid and sodium acetate maintains a constant value of pH on addition of small amounts of acid or alkali.</p>
-<p><strong>Reason (R):</strong> A solution containing a mixture of acetic acid and sodium acetate acts as a buffer solution around pH 4.75.</p>]]></text></questiontext>
-  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Evaluation of Assertion</strong><br/>
-A solution containing a weak acid (\(\text{CH}_3\text{COOH}\)) and its salt with a strong base (\(\text{CH}_3\text{COONa}\)) possesses buffer action. Upon addition of small quantities of strong acid (\(\text{H}^+\)), the acetate ions consume the added protons to form weak acetic acid. Upon addition of small quantities of strong base (\(\text{OH}^-\)), un-ionised acetic acid neutralises the hydroxide ions. As a consequence, the pH of the solution remains essentially constant. Thus, Assertion is correct.</p>
-<p><strong>Step 2: Evaluation of Reason and Explanatory Link</strong><br/>
-The pH of an equimolar buffer solution of acetic acid and sodium acetate is given by the Henderson-Hasselbalch equation:
-\[\text{pH} = \text{p}K_a + \log\left(\frac{[\text{CH}_3\text{COO}^-]}{[\text{CH}_3\text{COOH}]}\right)\]
-Since \(\text{p}K_a(\text{CH}_3\text{COOH}) \approx 4.75\), the mixture acts as an effective buffer centered around \(\text{pH} = 4.75\). Acting as a buffer solution around this pH is precisely why the solution maintains a constant pH on the addition of small amounts of acid or alkali. Thus, Reason is correct and correctly explains Assertion.</p>
-<p><strong>Step 3: Final Conclusion</strong><br/>
-Therefore, both Assertion and Reason are true and Reason is the correct explanation of Assertion.</p>]]></text></generalfeedback>
+  <name><text>NEET_UG_CHEMISTRY_EQUILIBRIUM_AR_Q45 - Buffer action of acetic acid and sodium acetate mixture</text></name>
+  <questiontext format="html"><text><![CDATA[<p>45. <strong>Assertion (A) :</strong> A solution containing a mixture of acetic acid and sodium acetate maintains a constant value of pH on addition of small amounts of acid or alkali.</p>
+<p><strong>Reason (R) :</strong> A solution containing a mixture of acetic acid and sodium acetate acts as a buffer solution around pH \(4.75\).</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>An acidic buffer solution is formed by mixing a weak acid (such as \(\mathrm{CH}_3\mathrm{COOH}\), \(\mathrm{p}K_a \approx 4.75\)) with its salt of a strong base (such as \(\mathrm{CH}_3\mathrm{COONa}\)).</p>
+<p><strong>Step 2: Evaluation of Assertion</strong><br/>When a small amount of acid is added, \(\mathrm{CH}_3\mathrm{COO}^-\) ions neutralise the added \(\mathrm{H}^+\); when a small amount of alkali is added, \(\mathrm{CH}_3\mathrm{COOH}\) neutralises the added \(\mathrm{OH}^-\). Hence, the pH remains practically constant. Assertion (A) is true.</p>
+<p><strong>Step 3: Evaluation of Reason</strong><br/>The mixture acts as an acidic buffer solution around \(\mathrm{pH} = \mathrm{p}K_a \approx 4.75\), which is precisely why it resists changes in pH upon addition of small amounts of acid or alkali. Reason (R) is true and correctly explains Assertion (A).</p>
+<p><strong>Step 4: Final Conclusion</strong><br/>Both A and R are true and R is the correct explanation of A.</p>]]></text></generalfeedback>
   <defaultgrade>4.0000000</defaultgrade>
   <penalty>0.2500000</penalty>
   <hidden>0</hidden>
   <single>true</single>
-  <shuffleanswers>false</shuffleanswers>
+  <shuffleanswers>true</shuffleanswers>
   <answernumbering>iii</answernumbering>
   <answer fraction="100" format="html"><text><![CDATA[<p>Both A and R are true and R is correct explanation of A.</p>]]></text></answer>
   <answer fraction="0" format="html"><text><![CDATA[<p>Both A and R are true but R is not correct explanation of A.</p>]]></text></answer>
@@ -1241,35 +965,30 @@ Therefore, both Assertion and Reason are true and Reason is the correct explanat
     <tag><text>standard:neet_ug</text></tag>
     <tag><text>lang:en</text></tag>
     <tag><text>subject:chemistry</text></tag>
+    <tag><text>section:assertion_reason</text></tag>
     <tag><text>class:11</text></tag>
     <tag><text>chapter:equilibrium</text></tag>
-    <tag><text>typology:assertion-reason</text></tag>
+    <tag><text>typology:assertion_reason</text></tag>
     <tag><text>difficulty:easy</text></tag>
     <tag><text>blooms:understand</text></tag>
-    <tag><text>media:equation</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:text</text></tag>
     <tag><text>multiconcept:false</text></tag>
   </tags>
 </question>
 <question type="multichoice">
-  <name><text>NEET_UG_CHEMISTRY_EQUILIBRIUM_ASSERTION_REASON_Q46 - Suppression of hydrogen sulfide ionization by common ion effect</text></name>
-  <questiontext format="html"><text><![CDATA[<p><strong>Assertion (A):</strong> The ionisation of hydrogen sulphide in water is low in the presence of hydrochloric acid.</p>
-<p><strong>Reason (R):</strong> Hydrogen sulphide is a weak acid.</p>]]></text></questiontext>
-  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Evaluation of Assertion</strong><br/>
-Hydrogen sulphide dissociates feebly in aqueous solution:
-\[\text{H}_2\text{S}(\text{aq}) \rightleftharpoons 2\text{H}^+(\text{aq}) + \text{S}^{2-}(\text{aq})\]
-When hydrochloric acid (\(\text{HCl}\)), a strong electrolyte, is introduced, it dissociates completely into \(\text{H}^+\) and \(\text{Cl}^-\) ions:
-\[\text{HCl}(\text{aq}) \rightarrow \text{H}^+(\text{aq}) + \text{Cl}^-(\text{aq})\]
-The high concentration of \(\text{H}^+\) ions exerts a common ion effect, shifting the dissociation equilibrium of \(\text{H}_2\text{S}\) backward according to Le Chatelier's principle. This severely suppresses the ionisation of hydrogen sulphide. Thus, Assertion is correct.</p>
-<p><strong>Step 2: Evaluation of Reason and Explanatory Link</strong><br/>
-Hydrogen sulphide is indeed a weak diprotic acid having low ionisation constants (\(K_{a_1} \approx 9.1 \times 10^{-8}\) and \(K_{a_2} \approx 1.2 \times 10^{-13}\)). Thus, Reason is a correct factual statement.<br/>
-However, the reason for the further decrease in its ionisation upon addition of \(\text{HCl}\) is the common ion effect produced by the hydronium ions from hydrochloric acid, not simply the fact that \(\text{H}_2\text{S}\) is a weak acid. Therefore, Reason is not the correct explanation of Assertion.</p>
-<p><strong>Step 3: Final Conclusion</strong><br/>
-Therefore, both Assertion and Reason are true but Reason is not the correct explanation of Assertion.</p>]]></text></generalfeedback>
+  <name><text>NEET_UG_CHEMISTRY_EQUILIBRIUM_AR_Q46 - Suppression of H2S ionisation in presence of HCl</text></name>
+  <questiontext format="html"><text><![CDATA[<p>46. <strong>Assertion (A):</strong> The ionisation of hydrogen sulphide in water is low in the presence of hydrochloric acid.</p>
+<p><strong>Reason (R) :</strong> Hydrogen sulphide is a weak acid.</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>Hydrogen sulphide (\(\mathrm{H}_2\mathrm{S}\)) is a weak diprotic acid: \(\mathrm{H}_2\mathrm{S}(aq) \rightleftharpoons 2\mathrm{H}^+(aq) + \mathrm{S}^{2-}(aq)\). Hydrochloric acid (\(\mathrm{HCl}\)) is a strong acid that dissociates completely to furnish a high concentration of \(\mathrm{H}^+\) ions.</p>
+<p><strong>Step 2: Evaluation of Assertion</strong><br/>In the presence of \(\mathrm{HCl}\), the excess \(\mathrm{H}^+\) ions (common ion effect) shift the ionisation equilibrium of \(\mathrm{H}_2\mathrm{S}\) backward according to Le Chatelier's principle, making the ionisation of \(\mathrm{H}_2\mathrm{S}\) very low. Assertion (A) is true.</p>
+<p><strong>Step 3: Evaluation of Reason</strong><br/>Hydrogen sulphide is indeed a weak acid, so Reason (R) is true. However, the specific suppression of its ionisation in the presence of \(\mathrm{HCl}\) is explained by the common ion effect of \(\mathrm{H}^+\) ions, not merely by \(\mathrm{H}_2\mathrm{S}\) being a weak acid. Thus, R is not the correct explanation of A.</p>
+<p><strong>Step 4: Final Conclusion</strong><br/>Both A and R are true, but R is not the correct explanation of A.</p>]]></text></generalfeedback>
   <defaultgrade>4.0000000</defaultgrade>
   <penalty>0.2500000</penalty>
   <hidden>0</hidden>
   <single>true</single>
-  <shuffleanswers>false</shuffleanswers>
+  <shuffleanswers>true</shuffleanswers>
   <answernumbering>iii</answernumbering>
   <answer fraction="0" format="html"><text><![CDATA[<p>Both A and R are true and R is correct explanation of A.</p>]]></text></answer>
   <answer fraction="100" format="html"><text><![CDATA[<p>Both A and R are true but R is not correct explanation of A.</p>]]></text></answer>
@@ -1279,34 +998,29 @@ Therefore, both Assertion and Reason are true but Reason is not the correct expl
     <tag><text>standard:neet_ug</text></tag>
     <tag><text>lang:en</text></tag>
     <tag><text>subject:chemistry</text></tag>
+    <tag><text>section:assertion_reason</text></tag>
     <tag><text>class:11</text></tag>
     <tag><text>chapter:equilibrium</text></tag>
-    <tag><text>typology:assertion-reason</text></tag>
+    <tag><text>typology:assertion_reason</text></tag>
     <tag><text>difficulty:medium</text></tag>
     <tag><text>blooms:analyze</text></tag>
-    <tag><text>media:equation</text></tag>
-    <tag><text>multiconcept:false</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:text</text></tag>
+    <tag><text>multiconcept:true</text></tag>
   </tags>
 </question>
 <question type="multichoice">
-  <name><text>NEET_UG_CHEMISTRY_EQUILIBRIUM_ASSERTION_REASON_Q47 - Temperature dependence of equilibrium constant</text></name>
-  <questiontext format="html"><text><![CDATA[<p><strong>Assertion (A):</strong> For any chemical reaction at a particular temperature, the equilibrium constant is fixed and is a characteristic property.</p>
-<p><strong>Reason (R):</strong> Equilibrium constant is independent of temperature.</p>]]></text></questiontext>
-  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Evaluation of Assertion</strong><br/>
-For any reversible chemical reaction, the equilibrium constant is defined uniquely by the standard Gibbs free energy change at a specified temperature:
-\[K = e^{-\Delta G^\circ / RT}\]
-At a fixed temperature, \(K\) is a constant and represents an intrinsic characteristic property of the reaction, unaffected by initial concentrations, volume, pressure, or catalysts. Thus, Assertion is correct.</p>
-<p><strong>Step 2: Evaluation of Reason</strong><br/>
-The equilibrium constant varies with temperature in accordance with van 't Hoff's equation:
-\[\frac{d \ln K}{dT} = \frac{\Delta H^\circ}{RT^2}\]
-For endothermic reactions (\(\Delta H^\circ > 0\)), \(K\) increases as temperature rises; for exothermic reactions (\(\Delta H^\circ < 0\)), \(K\) decreases as temperature rises. Hence, the equilibrium constant is strongly dependent on temperature. Thus, Reason is incorrect.</p>
-<p><strong>Step 3: Final Conclusion</strong><br/>
-Therefore, Assertion is true but Reason is false.</p>]]></text></generalfeedback>
+  <name><text>NEET_UG_CHEMISTRY_EQUILIBRIUM_AR_Q47 - Temperature dependence of equilibrium constant</text></name>
+  <questiontext format="html"><text><![CDATA[<p>47. <strong>Assertion (A):</strong> For any chemical reaction at a particular temperature, the equilibrium constant is fixed and is a characteristic property.</p>
+<p><strong>Reason (R) :</strong> Equilibrium constant is independent of temperature.</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>The equilibrium constant \(K\) of a chemical reaction is a characteristic constant for that reaction at a fixed temperature, independent of initial concentrations, pressure, or catalysts.</p>
+<p><strong>Step 2: Evaluation of Assertion and Reason</strong><br/>Assertion (A) is true because at a given temperature, \(K\) has a unique, fixed value. However, according to the van 't Hoff equation, \(K\) varies with temperature whenever \(\Delta H^\circ \neq 0\). Therefore, the statement that the equilibrium constant is independent of temperature is false.</p>
+<p><strong>Step 3: Final Conclusion</strong><br/>A is true, but R is false.</p>]]></text></generalfeedback>
   <defaultgrade>4.0000000</defaultgrade>
   <penalty>0.2500000</penalty>
   <hidden>0</hidden>
   <single>true</single>
-  <shuffleanswers>false</shuffleanswers>
+  <shuffleanswers>true</shuffleanswers>
   <answernumbering>iii</answernumbering>
   <answer fraction="0" format="html"><text><![CDATA[<p>Both A and R are true and R is correct explanation of A.</p>]]></text></answer>
   <answer fraction="0" format="html"><text><![CDATA[<p>Both A and R are true but R is not correct explanation of A.</p>]]></text></answer>
@@ -1316,33 +1030,29 @@ Therefore, Assertion is true but Reason is false.</p>]]></text></generalfeedback
     <tag><text>standard:neet_ug</text></tag>
     <tag><text>lang:en</text></tag>
     <tag><text>subject:chemistry</text></tag>
+    <tag><text>section:assertion_reason</text></tag>
     <tag><text>class:11</text></tag>
     <tag><text>chapter:equilibrium</text></tag>
-    <tag><text>typology:assertion-reason</text></tag>
+    <tag><text>typology:assertion_reason</text></tag>
     <tag><text>difficulty:easy</text></tag>
-    <tag><text>blooms:remember</text></tag>
-    <tag><text>media:equation</text></tag>
+    <tag><text>blooms:understand</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:text</text></tag>
     <tag><text>multiconcept:false</text></tag>
   </tags>
 </question>
 <question type="multichoice">
-  <name><text>NEET_UG_CHEMISTRY_EQUILIBRIUM_ASSERTION_REASON_Q48 - Hydrolysis and basic nature of ammonium carbonate solution</text></name>
-  <questiontext format="html"><text><![CDATA[<p><strong>Assertion (A):</strong> Aqueous solution of ammonium carbonate is basic.</p>
-<p><strong>Reason (R):</strong> Acidic/basic nature of a salt solution of a salt of weak acid and weak base depends on \(K_a\) and \(K_b\) value of the acid and the base forming it.</p>]]></text></questiontext>
-  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Evaluation of Reason</strong><br/>
-Ammonium carbonate, \((\text{NH}_4)_2\text{CO}_3\), is a salt formed from a weak acid (\(\text{H}_2\text{CO}_3\)) and a weak base (\(\text{NH}_4\text{OH}\)). For a salt of a weak acid and a weak base, both the cation and the anion undergo hydrolysis. The pH of the resulting solution is given by:
-\[\text{pH} = 7 + \frac{1}{2}(\text{p}K_a - \text{p}K_b)\]
-If \(K_b > K_a\), then \(\text{p}K_b < \text{p}K_a\), making \(\text{pH} > 7\) (basic). If \(K_a > K_b\), then \(\text{pH} < 7\) (acidic). Thus, the acidic or basic nature of the salt solution depends directly on the relative \(K_a\) and \(K_b\) values of the constituent acid and base. Reason is a correct scientific principle.</p>
-<p><strong>Step 2: Evaluation of Assertion and Explanatory Link</strong><br/>
-For carbonic acid, \(K_{a_1} = 4.3 \times 10^{-7}\) (and \(K_{a_2} = 5.6 \times 10^{-11}\)), while for aqueous ammonia, \(K_b = 1.8 \times 10^{-5}\).<br/>
-Since \(K_b (\text{NH}_4\text{OH}) > K_a (\text{H}_2\text{CO}_3)\), the degree of anion hydrolysis exceeds the degree of cation hydrolysis, producing an excess of hydroxide ions (\([\text{OH}^-] > [\text{H}^+]\)) and resulting in a basic solution (\(\text{pH} > 7\)). Therefore, Assertion is correct, and Reason is the correct explanation of Assertion.</p>
-<p><strong>Step 3: Final Conclusion</strong><br/>
-Therefore, both Assertion and Reason are true and Reason is the correct explanation of Assertion.</p>]]></text></generalfeedback>
+  <name><text>NEET_UG_CHEMISTRY_EQUILIBRIUM_AR_Q48 - Basic nature of aqueous ammonium carbonate solution</text></name>
+  <questiontext format="html"><text><![CDATA[<p>48. <strong>Assertion (A) :</strong> Aqueous solution of ammonium carbonate is basic.</p>
+<p><strong>Reason (R) :</strong> Acidic/basic nature of a salt solution of a salt of weak acid and weak base depends on \(K_a\) and \(K_b\) value of the acid and the base forming it.</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>For a salt of a weak acid and a weak base, both the cation and the anion undergo hydrolysis. The resulting pH depends on the relative magnitudes of \(K_a\) of the weak acid and \(K_b\) of the weak base: if \(K_b &gt; K_a\), the solution is basic.</p>
+<p><strong>Step 2: Evaluation of Assertion and Reason</strong><br/>Ammonium carbonate, \((\mathrm{NH}_4)_2\mathrm{CO}_3\), is formed from weak base \(\mathrm{NH}_4\mathrm{OH}\) (\(K_b \approx 1.8 \times 10^{-5}\)) and weak acid \(\mathrm{H}_2\mathrm{CO}_3\) (\(K_{a_2} \approx 5.6 \times 10^{-11}\)). Because \(K_b &gt; K_{a_2}\), carbonate ions hydrolyse more strongly than ammonium ions, making the aqueous solution basic. Thus, both A and R are true, and R correctly explains A.</p>
+<p><strong>Step 3: Final Conclusion</strong><br/>Both A and R are true and R is the correct explanation of A.</p>]]></text></generalfeedback>
   <defaultgrade>4.0000000</defaultgrade>
   <penalty>0.2500000</penalty>
   <hidden>0</hidden>
   <single>true</single>
-  <shuffleanswers>false</shuffleanswers>
+  <shuffleanswers>true</shuffleanswers>
   <answernumbering>iii</answernumbering>
   <answer fraction="100" format="html"><text><![CDATA[<p>Both A and R are true and R is correct explanation of A.</p>]]></text></answer>
   <answer fraction="0" format="html"><text><![CDATA[<p>Both A and R are true but R is not correct explanation of A.</p>]]></text></answer>
@@ -1352,81 +1062,78 @@ Therefore, both Assertion and Reason are true and Reason is the correct explanat
     <tag><text>standard:neet_ug</text></tag>
     <tag><text>lang:en</text></tag>
     <tag><text>subject:chemistry</text></tag>
+    <tag><text>section:assertion_reason</text></tag>
     <tag><text>class:11</text></tag>
     <tag><text>chapter:equilibrium</text></tag>
-    <tag><text>typology:assertion-reason</text></tag>
+    <tag><text>typology:assertion_reason</text></tag>
     <tag><text>difficulty:medium</text></tag>
-    <tag><text>blooms:apply</text></tag>
+    <tag><text>blooms:analyze</text></tag>
     <tag><text>calculation:light</text></tag>
-    <tag><text>media:equation</text></tag>
-    <tag><text>multiconcept:false</text></tag>
+    <tag><text>media:text</text></tag>
+    <tag><text>multiconcept:true</text></tag>
   </tags>
 </question>
 <question type="multichoice">
-  <name><text>NEET_UG_CHEMISTRY_EQUILIBRIUM_ASSERTION_REASON_Q49 - Classification of buffer solutions and ammonium acetate</text></name>
-  <questiontext format="html"><text><![CDATA[<p><strong>Assertion (A):</strong> An aqueous solution of ammonium acetate can act as a buffer.</p>
-<p><strong>Reason (R):</strong> Acetic acid is a weak acid and \(\text{NH}_4\text{OH}\) is a weak base.</p>]]></text></questiontext>
-  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Evaluation of Reason</strong><br/>
-Acetic acid (\(\text{CH}_3\text{COOH}\)) has an ionisation constant \(K_a \approx 1.8 \times 10^{-5}\), classifying it as a weak acid. Ammonium hydroxide (\(\text{NH}_4\text{OH}\)) has an ionisation constant \(K_b \approx 1.8 \times 10^{-5}\), classifying it as a weak base. Thus, Reason is factually correct.</p>
-<p><strong>Step 2: Evaluation of Assertion According to Curricular Conventions</strong><br/>
-In standard chemical taxonomy of buffers, simple buffer solutions are typically defined as a mixture of a weak acid and its salt with a strong base (acidic buffer) or a weak base and its salt with a strong acid (basic buffer). While a solution of a salt of a weak acid and a weak base such as ammonium acetate displays buffer capacity, in conventional curriculum categorization a single salt solution without an added conjugate pair is not classified as a standard buffer solution. Hence, within this curriculum classification, Assertion is regarded as false while Reason is true.</p>
-<p><strong>Step 3: Final Conclusion</strong><br/>
-Therefore, Assertion is false but Reason is true.</p>]]></text></generalfeedback>
+  <name><text>NEET_UG_CHEMISTRY_EQUILIBRIUM_AR_Q49 - Buffer action of aqueous ammonium acetate solution</text></name>
+  <questiontext format="html"><text><![CDATA[<p>49. <strong>Assertion (A):</strong> An aqueous solution of ammonium acetate can act as a buffer.</p>
+<p><strong>Reason (R) :</strong> Acetic acid is a weak acid and \(\text{NH}_4\text{OH}\) is a weak base.</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>A salt of a weak acid and a weak base can act as a simple (single-salt) buffer because its cation can neutralise added \(\mathrm{OH}^-\) ions and its anion can neutralise added \(\mathrm{H}^+\) ions.</p>
+<p><strong>Step 2: Evaluation of Assertion and Reason</strong><br/>Ammonium acetate (\(\mathrm{CH}_3\mathrm{COONH}_4\)) dissociates into \(\mathrm{CH}_3\mathrm{COO}^-\) and \(\mathrm{NH}_4^+\). Because acetic acid is a weak acid, \(\mathrm{CH}_3\mathrm{COO}^-\) accepts added \(\mathrm{H}^+\) to form unionised \(\mathrm{CH}_3\mathrm{COOH}\); because \(\mathrm{NH}_4\mathrm{OH}\) is a weak base, \(\mathrm{NH}_4^+\) reacts with added \(\mathrm{OH}^-\) to form unionised \(\mathrm{NH}_4\mathrm{OH}\). Therefore, the solution resists changes in pH and acts as a buffer. Both A and R are true, and R is the correct explanation of A.</p>
+<p><strong>Step 3: Final Conclusion</strong><br/>Both A and R are true and R is the correct explanation of A.</p>]]></text></generalfeedback>
   <defaultgrade>4.0000000</defaultgrade>
   <penalty>0.2500000</penalty>
   <hidden>0</hidden>
   <single>true</single>
-  <shuffleanswers>false</shuffleanswers>
+  <shuffleanswers>true</shuffleanswers>
   <answernumbering>iii</answernumbering>
-  <answer fraction="0" format="html"><text><![CDATA[<p>Both A and R are true and R is correct explanation of A.</p>]]></text></answer>
+  <answer fraction="100" format="html"><text><![CDATA[<p>Both A and R are true and R is correct explanation of A.</p>]]></text></answer>
   <answer fraction="0" format="html"><text><![CDATA[<p>Both A and R are true but R is not correct explanation of A.</p>]]></text></answer>
-  <answer fraction="100" format="html"><text><![CDATA[<p>A is false but R is true.</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>A is false but R is true.</p>]]></text></answer>
   <answer fraction="0" format="html"><text><![CDATA[<p>Both A and R are false.</p>]]></text></answer>
   <tags>
     <tag><text>standard:neet_ug</text></tag>
     <tag><text>lang:en</text></tag>
     <tag><text>subject:chemistry</text></tag>
+    <tag><text>section:assertion_reason</text></tag>
     <tag><text>class:11</text></tag>
     <tag><text>chapter:equilibrium</text></tag>
-    <tag><text>typology:assertion-reason</text></tag>
+    <tag><text>typology:assertion_reason</text></tag>
     <tag><text>difficulty:medium</text></tag>
-    <tag><text>blooms:remember</text></tag>
-    <tag><text>media:equation</text></tag>
-    <tag><text>multiconcept:false</text></tag>
+    <tag><text>blooms:analyze</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:text</text></tag>
+    <tag><text>multiconcept:true</text></tag>
   </tags>
 </question>
 <question type="multichoice">
-  <name><text>NEET_UG_CHEMISTRY_EQUILIBRIUM_ASSERTION_REASON_Q50 - Effect of inert gas addition on phosphorus pentachloride dissociation</text></name>
-  <questiontext format="html"><text><![CDATA[<p><strong>Assertion (A):</strong> In the dissociation of \(\text{PCl}_5\) at constant pressure and temperature addition of helium at equilibrium increases the dissociation of \(\text{PCl}_5\).</p>
-<p><strong>Reason (R):</strong> Helium removes \(\text{Cl}_2\) from the field of action.</p>]]></text></questiontext>
-  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Evaluation of Reason</strong><br/>
-Helium is an inert, monoatomic noble gas that possesses a completely filled valence electron shell. Under equilibrium conditions, it is chemically unreactive and does not react with or remove chlorine gas (\(\text{Cl}_2\)) from the reaction system. Thus, Reason is entirely false.</p>
-<p><strong>Step 2: Evaluation of Assertion in Curricular Context</strong><br/>
-The dissociation reaction is:
-\[\text{PCl}_5(\text{g}) \rightleftharpoons \text{PCl}_3(\text{g}) + \text{Cl}_2(\text{g})\]
-While addition of an inert gas at constant pressure increases the total volume of the container—which causes the equilibrium to shift forward towards a larger number of gaseous moles (\(\Delta n = +1\))—under conventional introductory textbook analysis, inert gas addition is frequently stated to have no effect on chemical equilibria because it does not alter the reactants directly. In this assessment convention, both the assertion and the reason are designated as false.</p>
-<p><strong>Step 3: Final Conclusion</strong><br/>
-Therefore, both Assertion and Reason are false.</p>]]></text></generalfeedback>
+  <name><text>NEET_UG_CHEMISTRY_EQUILIBRIUM_AR_Q50 - Effect of adding helium at constant pressure on PCl5 dissociation</text></name>
+  <questiontext format="html"><text><![CDATA[<p>50. <strong>Assertion (A):</strong> In the dissociation of \(\text{PCl}_5\) at constant pressure and temperature addition of helium at equilibrium increases the dissociation of \(\text{PCl}_5\).</p>
+<p><strong>Reason (R) :</strong> Helium removes \(\text{Cl}_2\) from the field of action.</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>Adding an inert gas at constant pressure and temperature increases the total volume of the container, which decreases the partial pressures of all reacting gases and shifts the equilibrium toward the side with a greater number of gaseous moles.</p>
+<p><strong>Step 2: Evaluation of Assertion and Reason</strong><br/>For \(\mathrm{PCl}_5(\mathrm{g}) \rightleftharpoons \mathrm{PCl}_3(\mathrm{g}) + \mathrm{Cl}_2(\mathrm{g})\), \(\Delta n_g = 2 - 1 = +1 &gt; 0\). Adding helium at constant pressure and temperature increases the volume and shifts the equilibrium forward, increasing the dissociation of \(\mathrm{PCl}_5\). Thus, Assertion (A) is true.<br/>However, helium is chemically inert and does not react with or remove \(\mathrm{Cl}_2\). Thus, Reason (R) is false.</p>
+<p><strong>Step 3: Final Conclusion</strong><br/>A is true, but R is false.</p>]]></text></generalfeedback>
   <defaultgrade>4.0000000</defaultgrade>
   <penalty>0.2500000</penalty>
   <hidden>0</hidden>
   <single>true</single>
-  <shuffleanswers>false</shuffleanswers>
+  <shuffleanswers>true</shuffleanswers>
   <answernumbering>iii</answernumbering>
   <answer fraction="0" format="html"><text><![CDATA[<p>Both A and R are true and R is correct explanation of A.</p>]]></text></answer>
   <answer fraction="0" format="html"><text><![CDATA[<p>Both A and R are true but R is not correct explanation of A.</p>]]></text></answer>
-  <answer fraction="0" format="html"><text><![CDATA[<p>A is true but R is false.</p>]]></text></answer>
-  <answer fraction="100" format="html"><text><![CDATA[<p>Both A and R are false.</p>]]></text></answer>
+  <answer fraction="100" format="html"><text><![CDATA[<p>A is true but R is false.</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>Both A and R are false.</p>]]></text></answer>
   <tags>
     <tag><text>standard:neet_ug</text></tag>
     <tag><text>lang:en</text></tag>
     <tag><text>subject:chemistry</text></tag>
+    <tag><text>section:assertion_reason</text></tag>
     <tag><text>class:11</text></tag>
     <tag><text>chapter:equilibrium</text></tag>
-    <tag><text>typology:assertion-reason</text></tag>
+    <tag><text>typology:assertion_reason</text></tag>
     <tag><text>difficulty:medium</text></tag>
     <tag><text>blooms:analyze</text></tag>
-    <tag><text>media:equation</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:text</text></tag>
     <tag><text>multiconcept:false</text></tag>
   </tags>
 </question>

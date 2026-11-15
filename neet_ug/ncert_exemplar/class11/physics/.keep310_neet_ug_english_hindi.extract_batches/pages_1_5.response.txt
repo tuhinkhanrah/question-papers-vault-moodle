@@ -1,68 +1,23 @@
 <question type="multichoice">
-  <name><text>NEET_UG_PHYSICS_MCQ_Q10_01 - Velocity time graph of dropped pebble</text></name>
-  <questiontext format="html">
-    <text><![CDATA[<p>A tall cylinder is filled with viscous oil. A round pebble is dropped from the top with zero initial velocity. From the plot shown in Fig. 10.1, indicate the one that represents the velocity (\(v\)) of the pebble as a function of time (\(t\)).</p>
-<hr/>
-<p>एक लंबे सिलिंडर को श्यान तेल से भरा गया है। एक गोल कंकड़ को शीर्ष से शून्य प्रारंभिक वेग से गिराया जाता है। प्रदर्शित आलेखों (चित्र 10.1) में से उस आलेख को पहचानिए जो समय (\(t\)) के फलन के रूप में कंकड़ के वेग (\(v\)) को निरूपित करता है।</p>]]></text>
-  </questiontext>
-  <generalfeedback format="html">
-    <text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>A round pebble of mass \(m\), radius \(r\), and density \(\rho\) is released from rest (\(v = 0\) at \(t = 0\)) inside a tall cylinder containing viscous oil of density \(\sigma\) and dynamic viscosity \(\eta\), where \(\rho > \sigma\).</p>
-<p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>Downwards is taken as the positive direction. The pebble is assumed to be spherical so that Stokes' law applies, and the cylinder is sufficiently wide and tall to ignore boundary wall effects.</p>
-<p><strong>Step 3: Relevant Formulae and Principles</strong><br/>At any instant when the pebble moves downward with speed \(v\), the forces acting on it are:<br/>
-Downward weight: \(W = mg = \frac{4}{3}\pi r^3 \rho g\)<br/>
-Upward buoyant force: \(F_b = \frac{4}{3}\pi r^3 \sigma g\)<br/>
-Upward viscous drag (Stokes' law): \(F_v = 6\pi \eta r v\)<br/>
-The equation of motion is:
-\[m\frac{dv}{dt} = W - F_b - F_v = \frac{4}{3}\pi r^3 (\rho - \sigma)g - 6\pi \eta r v\]</p>
-<p><strong>Step 4: Step-by-Step Working</strong><br/>At \(t = 0\), \(v = 0\), the viscous resistance is zero, giving an initial maximum acceleration:
-\[a_0 = \left(\frac{dv}{dt}\right)_{t=0} = g\left(1 - \frac{\sigma}{\rho}\right) > 0\]
-As time progresses, velocity \(v\) increases, which increases the upward retarding viscous drag \(F_v\). Consequently, the net downward force and the acceleration \(a = \frac{dv}{dt}\) decrease continuously.<br/>
-Solving the differential equation yields:
-\[v(t) = v_t \left(1 - e^{-t/\tau}\right)\]
-where \(v_t = \frac{2r^2(\rho - \sigma)g}{9\eta}\) is the constant terminal velocity and \(\tau = \frac{m}{6\pi \eta r}\) is the characteristic time constant.<br/>
-The slope of the velocity-time graph, \(\frac{dv}{dt} = \frac{v_t}{\tau} e^{-t/\tau}\), is positive at \(t = 0\) and decreases monotonically toward zero as \(t \to \infty\).</p>
-<p><strong>Step 5: Check and Final Answer</strong><br/>The velocity-time graph starts from the origin with a positive initial slope and curves smoothly such that the slope continuously decreases, asymptotically approaching a horizontal line corresponding to the terminal velocity. The graph showing a smooth curve rising from the origin with decreasing slope towards a constant asymptotic value represents this behavior correctly.</p>
-<hr/>
-<p><strong>चरण 1: दिए गए आँकड़े और स्थितियाँ</strong><br/>द्रव्यमान \(m\), त्रिज्या \(r\) और घनत्व \(\rho\) वाले एक गोल कंकड़ को श्यान तेल (घनत्व \(\sigma\) तथा श्यानता गुणांक \(\eta\), जहाँ \(\rho > \sigma\)) से भरे एक लंबे सिलिंडर में विरामावस्था (\(t = 0\) पर \(v = 0\)) से छोड़ा जाता है।</p>
-<p><strong>चरण 2: मान्यताएँ और चिह्न परिपाटी</strong><br/>नीचे की दिशा को धनात्मक माना गया है। कंकड़ को गोलाकार माना गया है ताकि स्टोक का नियम लागू हो सके, तथा सिलिंडर को पर्याप्त रूप से चौड़ा माना गया है ताकि दीवारों के प्रभाव को नगण्य माना जा सके।</p>
-<p><strong>चरण 3: संबंधित सूत्र और सिद्धांत</strong><br/>किसी क्षण जब कंकड़ नीचे की ओर वेग \(v\) से गति कर रहा हो, उस पर कार्यरत बल निम्न हैं:<br/>
-नीचे की ओर भार: \(W = mg = \frac{4}{3}\pi r^3 \rho g\)<br/>
-ऊपर की ओर उत्प्लावन बल: \(F_b = \frac{4}{3}\pi r^3 \sigma g\)<br/>
-ऊपर की ओर श्यान बल (स्टोक का नियम): \(F_v = 6\pi \eta r v\)<br/>
-गति का समीकरण है:
-\[m\frac{dv}{dt} = W - F_b - F_v = \frac{4}{3}\pi r^3 (\rho - \sigma)g - 6\pi \eta r v\]</p>
-<p><strong>चरण 4: चरणबद्ध गणना</strong><br/>\(t = 0\) पर, \(v = 0\) होने से श्यान बल शून्य होता है, जिससे प्रारंभिक त्वरण अधिकतम होता है:
-\[a_0 = \left(\frac{dv}{dt}\right)_{t=0} = g\left(1 - \frac{\sigma}{\rho}\right) > 0\]
-समय के साथ वेग \(v\) बढ़ता है, जिससे ऊपर की ओर कार्यरत श्यान खिंचाव बल \(F_v\) बढ़ता है। परिणामस्वरूप, परिणामी नीचे की ओर बल तथा त्वरण \(a = \frac{dv}{dt}\) निरंतर घटता जाता है।<br/>
-इस अवकल समीकरण का हल है:
-\[v(t) = v_t \left(1 - e^{-t/\tau}\right)\]
-जहाँ \(v_t = \frac{2r^2(\rho - \sigma)g}{9\eta}\) सीमांत वेग है तथा \(\tau = \frac{m}{6\pi \eta r}\) समय नियतांक है।<br/>
-वेग-समय आलेख की ढाल \(\frac{dv}{dt} = \frac{v_t}{\tau} e^{-t/\tau}\) प्रारंभ में धनात्मक होती है और समय के साथ निरंतर घटती हुई शून्य की ओर अग्रसर होती है।</p>
-<p><strong>चरण 5: जाँच और अंतिम उत्तर</strong><br/>वेग-समय आलेख मूल बिंदु से धनात्मक ढाल के साथ प्रारंभ होता है तथा इसकी ढाल निरंतर घटती जाती है और अंततः सीमांत वेग को प्रदर्शित करने वाली एक क्षैतिज रेखा की ओर स्पर्शोन्मुख हो जाती है। मूल बिंदु से प्रारंभ होकर घटती हुई प्रवणता के साथ एक नियत मान की ओर अग्रसर होने वाला वक्र सही निरूपण है।</p>]]></text>
-  </generalfeedback>
+  <name><text>NEET_UG_PHYSICS_MCQI_MECHANICALPROPERTIESOFFLUIDS_MCQ_Q101 - Velocity time plot for falling pebble</text></name>
+  <questiontext format="html"><text><![CDATA[<p>A tall cylinder is filled with viscous oil. A round pebble is dropped from the top with zero initial velocity. From the plot shown in Fig. 10.1, indicate the one that represents the velocity (\(v\)) of the pebble as a function of time (\(t\)).</p><hr/><p>एक ऊँचा बेलन श्यान तेल से भरा है। शीर्ष से एक गोल कंकड़ शून्य प्रारंभिक वेग से गिराया जाता है। चित्र 10.1 में दिखाए गए आरेखों में से वह आरेख चुनिए जो समय (\(t\)) के फलन के रूप में कंकड़ के वेग (\(v\)) को दर्शाता है।</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>A round pebble is dropped from rest (\(v = 0\) at \(t = 0\)) into a tall cylinder filled with viscous oil.</p><p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>Downward motion is taken as positive. The forces acting on the pebble are its downward weight, upward buoyant force, and upward viscous drag force given by Stokes' law.</p><p><strong>Step 3: Relevant Formulae and Principles</strong><br/>Net downward force: \(F_{\text{net}} = mg - F_B - F_v\), where viscous drag \(F_v = 6\pi\eta r v\). Thus, acceleration \(a = \frac{dv}{dt} = g' - kv\), where \(g'\) is the effective gravitational acceleration reduced by buoyancy and \(k = \frac{6\pi\eta r}{m}\).</p><p><strong>Step 4: Step-by-Step Working</strong><br/>Initially at \(t = 0\), \(v = 0\), so viscous drag is zero and the pebble accelerates downward at \(a = g'\). As \(v\) increases, the viscous drag \(6\pi\eta r v\) increases, causing the net force and hence the acceleration (slope of the \(v\text{-}t\) curve) to decrease continuously. Eventually, when the viscous drag plus buoyancy balances the weight, \(a = 0\) and the pebble attains a constant terminal velocity \(v_t\).</p><p><strong>Step 5: Check and Final Answer</strong><br/>Therefore, the \(v\text{-}t\) graph starts from the origin, rises with a continuously decreasing positive slope (concave downward), and asymptotically approaches a constant horizontal value corresponding to terminal velocity.</p><hr/><p><strong>चरण 1: दिया गया डेटा और शर्तें</strong><br/>एक गोल कंकड़ को श्यान तेल से भरे एक ऊँचे बेलन के शीर्ष से विराम अवस्था (\(t = 0\) पर \(v = 0\)) से गिराया जाता है।</p><p><strong>चरण 2: मान्यताएँ और चिह्न परिपाटी</strong><br/>नीचे की ओर गति को धनात्मक माना गया है। कंकड़ पर नीचे की ओर उसका भार, ऊपर की ओर उत्प्लावन बल तथा स्टोक्स के नियम के अनुसार ऊपर की ओर श्यान कर्षण बल कार्य करते हैं।</p><p><strong>चरण 3: संबंधित सूत्र और सिद्धांत</strong><br/>कुल अधोमुखी बल: \(F_{\text{net}} = mg - F_B - F_v\), जहाँ श्यान बल \(F_v = 6\pi\eta r v\) है। अतः त्वरण \(a = \frac{dv}{dt} = g' - kv\), जहाँ \(g'\) उत्प्लावन के कारण घटा हुआ प्रभावी गुरुत्वीय त्वरण है और \(k = \frac{6\pi\eta r}{m}\) है।</p><p><strong>चरण 4: चरण-दर-चरण हल</strong><br/>प्रारंभ में \(t = 0\) पर \(v = 0\) होता है, इसलिए श्यान बल शून्य होता है और कंकड़ \(a = g'\) त्वरण से नीचे गिरता है। जैसे-जैसे \(v\) बढ़ता है, श्यान बल \(6\pi\eta r v\) बढ़ता जाता है, जिससे कुल बल और त्वरण (\(v\text{-}t\) वक्र की ढाल) लगातार घटते जाते हैं। अंततः जब श्यान बल और उत्प्लावन बल का योग भार को संतुलित कर लेता है, तो \(a = 0\) हो जाता है और कंकड़ एक नियत सीमांत वेग \(v_t\) प्राप्त कर लेता है।</p><p><strong>चरण 5: जाँच और अंतिम उत्तर</strong><br/>अतः \(v\text{-}t\) आरेख मूल बिंदु से प्रारंभ होता है, लगातार घटती धनात्मक ढाल (नीचे की ओर अवतल) के साथ बढ़ता है, और अंत में सीमांत वेग के संगत एक नियत क्षैतिज मान की ओर अग्रसर होता है।</p>]]></text></generalfeedback>
   <defaultgrade>4.0000000</defaultgrade>
   <penalty>0.2500000</penalty>
   <hidden>0</hidden>
   <single>true</single>
-  <shuffleanswers>true</shuffleanswers>
+  <shuffleanswers>false</shuffleanswers>
   <answernumbering>abc</answernumbering>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p><img src="@@PLUGINFILE@@/img-0.jpeg" alt="Graph a" /></p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p><img src="@@PLUGINFILE@@/img-1.jpeg" alt="Graph b" /></p>]]></text>
-  </answer>
-  <answer fraction="100" format="html">
-    <text><![CDATA[<p><img src="@@PLUGINFILE@@/img-2.jpeg" alt="Graph c" /></p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p><img src="@@PLUGINFILE@@/img-3.jpeg" alt="Graph d" /></p>]]></text>
-  </answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p><img src="@@PLUGINFILE@@/img-0.jpeg" /></p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p><img src="@@PLUGINFILE@@/img-1.jpeg" /></p>]]></text></answer>
+  <answer fraction="100" format="html"><text><![CDATA[<p><img src="@@PLUGINFILE@@/img-2.jpeg" /></p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p><img src="@@PLUGINFILE@@/img-3.jpeg" /></p>]]></text></answer>
   <tags>
     <tag><text>standard:neet_ug</text></tag>
     <tag><text>lang:en</text></tag>
     <tag><text>lang:hi</text></tag>
     <tag><text>subject:physics</text></tag>
+    <tag><text>section:mcq_i</text></tag>
     <tag><text>class:class_11</text></tag>
     <tag><text>chapter:mechanical_properties_of_fluids</text></tag>
     <tag><text>typology:mcq</text></tag>
@@ -73,100 +28,58 @@ The slope of the velocity-time graph, \(\frac{dv}{dt} = \frac{v_t}{\tau} e^{-t/\
     <tag><text>multiconcept:false</text></tag>
   </tags>
 </question>
+
 <question type="multichoice">
-  <name><text>NEET_UG_PHYSICS_MCQ_Q10_02 - Identification of non streamline flow pattern</text></name>
-  <questiontext format="html">
-    <text><![CDATA[<p>Which of the following diagrams (Fig. 10.2) does not represent a streamline flow?</p>
-<p><img src="@@PLUGINFILE@@/img-4.jpeg" alt="Fig. 10.2" /></p>
-<hr/>
-<p>निम्नलिखित में से कौन-सा आलेख (चित्र 10.2) धारारेखीय प्रवाह को निरूपित नहीं करता है?</p>
-<p><img src="@@PLUGINFILE@@/img-4.jpeg" alt="चित्र 10.2" /></p>]]></text>
-  </questiontext>
-  <generalfeedback format="html">
-    <text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>A streamline is defined as a curve whose tangent at any point indicates the direction of the velocity vector of the fluid particle at that point. In steady or streamline flow, the velocity of every fluid particle passing through a particular point remains constant in magnitude and direction over time.</p>
-<p><strong>Step 2: Evaluation of Streamline Properties</strong><br/>If two streamlines were to intersect at any point, a fluid particle arriving at the intersection point would simultaneously have two different directions of velocity. Since a fluid particle cannot move in two distinct directions at the same instant, two streamlines can never cross each other in steady streamline flow.</p>
-<p><strong>Step 3: Diagram Interpretation and Final Conclusion</strong><br/>Patterns featuring parallel curved lines, diverging smooth paths, or curved trajectories without intersections represent valid streamline configurations under varying flow speeds or cross-sectional geometries. In contrast, the pattern illustrating flow lines crossing and intersecting one another violates the fundamental property of steady flow. Therefore, the diagram depicting intersecting trajectories does not represent a streamline flow.</p>
-<hr/>
-<p><strong>चरण 1: संकल्पनात्मक सिद्धांत</strong><br/>धारारेखा वह वक्र है जिसके किसी भी बिंदु पर खींची गई स्पर्श रेखा उस बिंदु पर तरल कण के वेग की दिशा को प्रदर्शित करती है। अपरिवर्ती या धारारेखीय प्रवाह में, किसी निश्चित बिंदु से गुजरने वाले प्रत्येक तरल कण का वेग परिमाण और दिशा में समय के साथ नियत रहता है।</p>
-<p><strong>चरण 2: धारारेखा के गुणों का मूल्यांकन</strong><br/>यदि दो धारारेखाएं किसी बिंदु पर एक-दूसरे को काटती हैं, तो उस प्रतिच्छेद बिंदु पर पहुँचने वाले तरल कण के वेग की एक ही समय पर दो अलग-अलग दिशाएं होंगी। चूंकि कोई भी कण एक ही क्षण में दो अलग-अलग दिशाओं में गति नहीं कर सकता, अतः धारारेखीय प्रवाह में दो धारारेखाएं कभी भी एक-दूसरे को प्रतिच्छेद नहीं कर सकती हैं।</p>
-<p><strong>चरण 3: आलेखीय व्याख्या और अंतिम निष्कर्ष</strong><br/>समांतर वक्र रेखाओं, अपसारी चिकने पथों अथवा बिना प्रतिच्छेदन वाले वक्र पथों को दर्शाने वाले आलेख विभिन्न प्रवाह स्थितियों में मान्य धारारेखाओं को दर्शाते हैं। इसके विपरीत, जिस आलेख में प्रवाह रेखाएं एक-दूसरे को काटती हुई दिखाई गई हैं, वह धारारेखीय प्रवाह के मौलिक नियम का उल्लंघन करता है। अतः प्रतिच्छेदी रेखाओं वाला आलेख धारारेखीय प्रवाह को प्रदर्शित नहीं करता है।</p>]]></text>
-  </generalfeedback>
+  <name><text>NEET_UG_PHYSICS_MCQI_MECHANICALPROPERTIESOFFLUIDS_MCQ_Q102 - Diagram not representing streamline flow</text></name>
+  <questiontext format="html"><text><![CDATA[<p>Which of the following diagrams (Fig. 10.2) does not represent a streamline flow?</p><p><img src="@@PLUGINFILE@@/img-4.jpeg" /></p><hr/><p>निम्नलिखित आरेखों (चित्र 10.2) में से कौन-सा धारा-रेखीय प्रवाह को निरूपित नहीं करता है?</p><p><img src="@@PLUGINFILE@@/img-4.jpeg" /></p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>A streamline is a curve whose tangent at any point gives the direction of the fluid velocity at that point. In steady (streamline) flow, the velocity at any fixed point in space is unique and constant over time.</p><p><strong>Step 2: Evaluation</strong><br/>If two streamlines were to intersect each other, a fluid particle reaching the point of intersection would have two different directions of velocity simultaneously, which is physically impossible for steady streamline flow.</p><p><strong>Step 3: Application</strong><br/>Examining the four flow patterns, the first three show smooth, non-intersecting flow lines (whether parallel, diverging, or gently curved). The fourth pattern shows streamlines crossing one another.</p><p><strong>Step 4: Final Conclusion</strong><br/>Therefore, the diagram showing intersecting streamlines (the fourth diagram from the left) does not represent a streamline flow.</p><hr/><p><strong>चरण 1: सैद्धांतिक सिद्धांत</strong><br/>धारा-रेखा वह वक्र है जिसके किसी भी बिंदु पर खींची गई स्पर्श रेखा उस बिंदु पर द्रव के वेग की दिशा बताती है। अपरिवर्ती (धारा-रेखीय) प्रवाह में किसी निश्चित बिंदु पर वेग समय के साथ नियत और अद्वितीय होता है।</p><p><strong>चरण 2: मूल्यांकन</strong><br/>यदि दो धारा-रेखाएँ एक-दूसरे को काटती हैं, तो प्रतिच्छेदन बिंदु पर पहुँचने वाले द्रव कण के वेग की एक ही समय में दो भिन्न दिशाएँ होंगी, जो अपरिवर्ती धारा-रेखीय प्रवाह के लिए भौतिक रूप से असंभव है।</p><p><strong>चरण 3: अनुप्रयोग</strong><br/>चारों प्रवाह आरेखों का निरीक्षण करने पर पहले तीन आरेखों में चिकनी, अप्रतिच्छेदी प्रवाह रेखाएँ दिखाई देती हैं (चाहे वे समांतर हों, अपसारी हों या हल्की मुड़ी हुई हों)। चौथे आरेख में धारा-रेखाएँ एक-दूसरे को काटती हुई दिखाई गई हैं।</p><p><strong>चरण 4: अंतिम निष्कर्ष</strong><br/>अतः प्रतिच्छेदी धारा-रेखाओं को दर्शाने वाला आरेख (बाएँ से चौथा आरेख) धारा-रेखीय प्रवाह को निरूपित नहीं करता है।</p>]]></text></generalfeedback>
   <defaultgrade>4.0000000</defaultgrade>
   <penalty>0.2500000</penalty>
   <hidden>0</hidden>
   <single>true</single>
   <shuffleanswers>false</shuffleanswers>
   <answernumbering>abc</answernumbering>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>(a)</p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>(b)</p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>(c)</p>]]></text>
-  </answer>
-  <answer fraction="100" format="html">
-    <text><![CDATA[<p>(d)</p>]]></text>
-  </answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>First diagram (from the left)</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>Second diagram (from the left)</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>Third diagram (from the left)</p>]]></text></answer>
+  <answer fraction="100" format="html"><text><![CDATA[<p>Fourth diagram (from the left)</p>]]></text></answer>
   <tags>
     <tag><text>standard:neet_ug</text></tag>
     <tag><text>lang:en</text></tag>
     <tag><text>lang:hi</text></tag>
     <tag><text>subject:physics</text></tag>
+    <tag><text>section:mcq_i</text></tag>
     <tag><text>class:class_11</text></tag>
     <tag><text>chapter:mechanical_properties_of_fluids</text></tag>
     <tag><text>typology:mcq</text></tag>
     <tag><text>difficulty:easy</text></tag>
-    <tag><text>blooms:remember</text></tag>
+    <tag><text>blooms:understand</text></tag>
     <tag><text>calculation:light</text></tag>
     <tag><text>media:diagram</text></tag>
     <tag><text>multiconcept:false</text></tag>
   </tags>
 </question>
+
 <question type="multichoice">
-  <name><text>NEET_UG_PHYSICS_MCQ_Q10_03 - Constancy of fluid velocity along streamline</text></name>
-  <questiontext format="html">
-    <text><![CDATA[<p>Along a streamline</p>
-<hr/>
-<p>किसी धारारेखा के अनुदिश</p>]]></text>
-  </questiontext>
-  <generalfeedback format="html">
-    <text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>By definition, a streamline represents the path traced by fluid particles in steady flow. In steady flow, fluid properties (such as velocity, pressure, and density) at any fixed point in space remain invariant with respect to time.</p>
-<p><strong>Step 2: Evaluation of Options</strong><br/>As a single particle travels along a streamline, it may enter narrower or wider channels, moving to points with different cross-sectional areas. Consequently, both the magnitude of velocity (speed) and direction of an individual fluid particle can change from one point to another along its trajectory, meaning the velocity and speed of a given particle do not necessarily remain constant.<br/>
-Similarly, at any single instant of time, particles situated at different locations along a streamline generally have different velocities determined by local cross-sectional variations.<br/>
-However, at any specific fixed point in space through which the streamline passes, every fluid particle that arrives at that position possesses the exact same velocity (both in magnitude and direction) as the particle that preceded it.</p>
-<p><strong>Step 3: Final Conclusion</strong><br/>Along a streamline, the defining property is that the velocity of all fluid particles crossing a given position is constant.</p>
-<hr/>
-<p><strong>चरण 1: संकल्पनात्मक सिद्धांत</strong><br/>परिभाषा के अनुसार, अपरिवर्ती प्रवाह में तरल कणों द्वारा तय किए गए पथ को धारारेखा कहते हैं। अपरिवर्ती प्रवाह में आकाश के किसी निश्चित बिंदु पर तरल के भौतिक गुण (जैसे वेग, दाब और घनत्व) समय के साथ अपरिवर्तित रहते हैं।</p>
-<p><strong>चरण 2: विकल्पों का मूल्यांकन</strong><br/>जैसे ही कोई एक तरल कण धारारेखा के अनुदिश गति करता है, वह सकरे या चौड़े अनुप्रस्थ-काट वाले क्षेत्रों से गुजर सकता है। अतः एक कण का वेग और चाल अपने पथ के अलग-अलग बिंदुओं पर परिवर्तित हो सकते हैं।<br/>
-इसी प्रकार, किसी एक निश्चित क्षण पर धारारेखा के विभिन्न स्थानों पर स्थित कणों के वेग स्थानीय ज्यामिति के अनुसार भिन्न-भिन्न हो सकते हैं।<br/>
-किंतु, किसी निश्चित स्थान या स्थिति से गुजरने वाले प्रत्येक कण का वेग ठीक वही होता है जो उससे पहले गुजरने वाले कण का था।</p>
-<p><strong>चरण 3: अंतिम निष्कर्ष</strong><br/>किसी धारारेखा के अनुदिश प्रमुख विशेषता यह है कि किसी दिए गए स्थान से गुजरने वाले सभी तरल कणों का वेग नियत रहता है।</p>]]></text>
-  </generalfeedback>
+  <name><text>NEET_UG_PHYSICS_MCQI_MECHANICALPROPERTIESOFFLUIDS_MCQ_Q103 - Velocity of fluid particles along streamline</text></name>
+  <questiontext format="html"><text><![CDATA[<p>Along a streamline</p><hr/><p>एक धारा-रेखा के अनुदिश</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>Streamline (steady) flow is defined as a flow in which the fluid velocity at any given spatial point does not change with time.</p><p><strong>Step 2: Evaluation</strong><br/>As different fluid particles pass through a specific position along a streamline, each particle must have the exact same velocity (both magnitude and direction) at that position. However, a single particle's speed and velocity can change as it moves from one point to another along the streamline (for example, when the cross-sectional area changes).</p><p><strong>Step 3: Application</strong><br/>Similarly, at a given instant, different particles at different positions along a streamline may have different velocities. Only the velocity of all fluid particles crossing a given fixed position remains constant.</p><p><strong>Step 4: Final Conclusion</strong><br/>Therefore, along a streamline, the velocity of all fluid particles crossing a given position is constant.</p><hr/><p><strong>चरण 1: सैद्धांतिक सिद्धांत</strong><br/>धारा-रेखीय (अपरिवर्ती) प्रवाह को ऐसे प्रवाह के रूप में परिभाषित किया जाता है जिसमें किसी भी दिए गए स्थानिक बिंदु पर द्रव का वेग समय के साथ नहीं बदलता है।</p><p><strong>चरण 2: मूल्यांकन</strong><br/>जब विभिन्न द्रव कण किसी धारा-रेखा के अनुदिश एक विशिष्ट स्थिति से गुजरते हैं, तो उस स्थिति पर प्रत्येक कण का वेग (परिमाण और दिशा दोनों) समान होता है। यद्यपि, जब कोई एक कण धारा-रेखा के अनुदिश एक बिंदु से दूसरे बिंदु पर जाता है, तो उसकी चाल और वेग बदल सकते हैं (उदाहरण के लिए, अनुप्रस्थ-काट क्षेत्रफल बदलने पर)।</p><p><strong>चरण 3: अनुप्रयोग</strong><br/>इसी प्रकार, किसी दिए गए क्षण पर धारा-रेखा के विभिन्न बिंदुओं पर स्थित कणों के वेग भिन्न हो सकते हैं। केवल किसी दी गई निश्चित स्थिति को पार करने वाले सभी द्रव कणों का वेग नियत रहता है।</p><p><strong>चरण 4: अंतिम निष्कर्ष</strong><br/>अतः एक धारा-रेखा के अनुदिश, किसी दी गई स्थिति को पार करने वाले सभी द्रव कणों का वेग नियत रहता है।</p>]]></text></generalfeedback>
   <defaultgrade>4.0000000</defaultgrade>
   <penalty>0.2500000</penalty>
   <hidden>0</hidden>
   <single>true</single>
   <shuffleanswers>true</shuffleanswers>
   <answernumbering>abc</answernumbering>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>the velocity of a fluid particle remains constant.</p>]]></text>
-  </answer>
-  <answer fraction="100" format="html">
-    <text><![CDATA[<p>the velocity of all fluid particles crossing a given position is constant.</p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>the velocity of all fluid particles at a given instant is constant.</p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>the speed of a fluid particle remains constant.</p>]]></text>
-  </answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>the velocity of a fluid particle remains constant.</p>]]></text></answer>
+  <answer fraction="100" format="html"><text><![CDATA[<p>the velocity of all fluid particles crossing a given position is constant.</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>the velocity of all fluid particles at a given instant is constant.</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>the speed of a fluid particle remains constant.</p>]]></text></answer>
   <tags>
     <tag><text>standard:neet_ug</text></tag>
     <tag><text>lang:en</text></tag>
     <tag><text>lang:hi</text></tag>
     <tag><text>subject:physics</text></tag>
+    <tag><text>section:mcq_i</text></tag>
     <tag><text>class:class_11</text></tag>
     <tag><text>chapter:mechanical_properties_of_fluids</text></tag>
     <tag><text>typology:mcq</text></tag>
@@ -177,183 +90,120 @@ However, at any specific fixed point in space through which the streamline passe
     <tag><text>multiconcept:false</text></tag>
   </tags>
 </question>
+
 <question type="multichoice">
-  <name><text>NEET_UG_PHYSICS_MCQ_Q10_04 - Ratio of fluid velocities in pipe</text></name>
-  <questiontext format="html">
-    <text><![CDATA[<p>An ideal fluid flows through a pipe of circular cross-section made of two sections with diameters \(2.5\text{ cm}\) and \(3.75\text{ cm}\). The ratio of the velocities in the two pipes is</p>
-<hr/>
-<p>एक आदर्श तरल वृत्ताकार अनुप्रस्थ-काट वाले पाइप से बहता है जो \(2.5\text{ cm}\) और \(3.75\text{ cm}\) व्यासों वाले दो खंडों से बना है। दोनों पाइपों में वेगों का अनुपात है</p>]]></text>
-  </questiontext>
-  <generalfeedback format="html">
-    <text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>Diameter of the first section: \(d_1 = 2.5\text{ cm} = \frac{5}{2}\text{ cm}\)<br/>
-Diameter of the second section: \(d_2 = 3.75\text{ cm} = \frac{15}{4}\text{ cm}\)<br/>
-The fluid is ideal (incompressible and non-viscous) and undergoes steady flow through circular cross-sections.</p>
-<p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>The fluid density remains uniform throughout. Cross-sectional areas are circular, where area \(A = \frac{\pi d^2}{4}\).</p>
-<p><strong>Step 3: Relevant Formulae and Principles</strong><br/>According to the equation of continuity for an incompressible fluid:
-\[A_1 v_1 = A_2 v_2\]
-where \(A_1\) and \(A_2\) are the respective cross-sectional areas, and \(v_1\) and \(v_2\) are the respective flow velocities.<br/>
-Thus, the velocity ratio is inversely proportional to the ratio of cross-sectional areas:
-\[\frac{v_1}{v_2} = \frac{A_2}{A_1} = \left(\frac{d_2}{d_1}\right)^2\]</p>
-<p><strong>Step 4: Step-by-Step Working</strong><br/>Calculate the ratio of the diameters:
-\[\frac{d_2}{d_1} = \frac{3.75}{2.5} = \frac{15/4}{5/2} = \frac{15}{4} \times \frac{2}{5} = \frac{3}{2}\]
-Substitute this diameter ratio into the velocity relation:
-\[\frac{v_1}{v_2} = \left(\frac{3}{2}\right)^2 = \frac{9}{4}\]
-Hence, the ratio of the velocities \(v_1 : v_2\) is \(9:4\).</p>
-<p><strong>Step 5: Check and Final Answer</strong><br/>Since the first pipe has a smaller cross-sectional area, fluid velocity must be greater in the first section than in the second section (\(v_1 > v_2\)), which confirms that the ratio \(v_1 : v_2 = 9:4 > 1\) is physically consistent. The ratio of velocities is \(9:4\).</p>
-<hr/>
-<p><strong>चरण 1: दिए गए आँकड़े और स्थितियाँ</strong><br/>पहले खंड का व्यास: \(d_1 = 2.5\text{ cm} = \frac{5}{2}\text{ cm}\)<br/>
-दूसरे खंड का व्यास: \(d_2 = 3.75\text{ cm} = \frac{15}{4}\text{ cm}\)<br/>
-तरल आदर्श (असंपीड्य एवं अश्यान) है तथा वृत्ताकार अनुप्रस्थ-काट से स्थायी रूप से बहता है।</p>
-<p><strong>चरण 2: मान्यताएँ और चिह्न परिपाटी</strong><br/>संपूर्ण पाइप में तरल का घनत्व एकसमान रहता है। अनुप्रस्थ-काट वृत्ताकार है, जिसका क्षेत्रफल \(A = \frac{\pi d^2}{4}\) है।</p>
-<p><strong>चरण 3: संबंधित सूत्र और सिद्धांत</strong><br/>असंपीड्य तरल के लिए सांतत्य समीकरण के अनुसार:
-\[A_1 v_1 = A_2 v_2\]
-जहाँ \(A_1\) और \(A_2\) क्रमशः अनुप्रस्थ-काट के क्षेत्रफल हैं, तथा \(v_1\) और \(v_2\) संबंधित प्रवाह वेग हैं।<br/>
-अतः वेगों का अनुपात क्षेत्रफलों के अनुपात के व्युत्क्रमानुपाती होता है:
-\[\frac{v_1}{v_2} = \frac{A_2}{A_1} = \left(\frac{d_2}{d_1}\right)^2\]</p>
-<p><strong>चरण 4: चरणबद्ध गणना</strong><br/>व्यासों का अनुपात ज्ञात करने पर:
-\[\frac{d_2}{d_1} = \frac{3.75}{2.5} = \frac{15/4}{5/2} = \frac{15}{4} \times \frac{2}{5} = \frac{3}{2}\]
-इस मान को वेग अनुपात के सूत्र में रखने पर:
-\[\frac{v_1}{v_2} = \left(\frac{3}{2}\right)^2 = \frac{9}{4}\]
-अतः दोनों पाइपों में वेगों का अनुपात \(v_1 : v_2 = 9:4\) है।</p>
-<p><strong>चरण 5: जाँच और अंतिम उत्तर</strong><br/>चूंकि पहले पाइप का व्यास छोटा है, अतः सांतत्य नियम से उसमें वेग अधिक होना चाहिए (\(v_1 > v_2\)), जो कि अनुपात \(9:4\) से पुष्ट होता है। दोनों खंडों में वेगों का सही अनुपात \(9:4\) है।</p>]]></text>
-  </generalfeedback>
+  <name><text>NEET_UG_PHYSICS_MCQI_MECHANICALPROPERTIESOFFLUIDS_MCQ_Q104 - Ratio of fluid velocities in pipes</text></name>
+  <questiontext format="html"><text><![CDATA[<p>An ideal fluid flows through a pipe of circular cross-section made of two sections with diameters \(2.5\text{ cm}\) and \(3.75\text{ cm}\). The ratio of the velocities in the two pipes is</p><hr/><p>एक आदर्श द्रव दो खंडों से बने वृत्ताकार अनुप्रस्थ-काट वाले पाइप से प्रवाहित होता है, जिनके व्यास \(2.5\text{ cm}\) और \(3.75\text{ cm}\) हैं। दोनों पाइपों में वेगों का अनुपात है</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>Diameter of the first pipe section, \(d_1 = 2.5\text{ cm}\).<br/>Diameter of the second pipe section, \(d_2 = 3.75\text{ cm}\).</p><p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>The fluid is ideal (incompressible and non-viscous) and flows steadily through a circular pipe without any sources or sinks.</p><p><strong>Step 3: Relevant Formulae and Principles</strong><br/>By the equation of continuity for an incompressible fluid, the volume flow rate is constant:<br/>\[A_1 v_1 = A_2 v_2\]<br/>where \(A = \frac{\pi d^2}{4}\) is the cross-sectional area of a circular pipe of diameter \(d\).</p><p><strong>Step 4: Step-by-Step Working</strong><br/>\[\frac{v_1}{v_2} = \frac{A_2}{A_1} = \frac{\pi d_2^2 / 4}{\pi d_1^2 / 4} = \left(\frac{d_2}{d_1}\right)^2\]<br/>Substituting the given diameters:<br/>\[\frac{v_1}{v_2} = \left(\frac{3.75\text{ cm}}{2.5\text{ cm}}\right)^2 = \left(\frac{3}{2}\right)^2 = \frac{9}{4}\]</p><p><strong>Step 5: Check and Final Answer</strong><br/>Since \(d_1 &lt; d_2\), we must have \(v_1 &gt; v_2\), which agrees with \(9:4\). Thus, the ratio of the velocities in the two pipes is \(9:4\).</p><hr/><p><strong>चरण 1: दिया गया डेटा और शर्तें</strong><br/>पाइप के पहले खंड का व्यास, \(d_1 = 2.5\text{ cm}\)।<br/>पाइप के दूसरे खंड का व्यास, \(d_2 = 3.75\text{ cm}\)।</p><p><strong>चरण 2: मान्यताएँ और चिह्न परिपाटी</strong><br/>द्रव आदर्श (असंपीड्य और अश्यान) है तथा बिना किसी स्रोत या सिंक के वृत्ताकार पाइप में अपरिवर्ती रूप से प्रवाहित होता है।</p><p><strong>चरण 3: संबंधित सूत्र और सिद्धांत</strong><br/>असंपीड्य द्रव के लिए सांतत्य समीकरण के अनुसार आयतन प्रवाह दर नियत रहती है:<br/>\[A_1 v_1 = A_2 v_2\]<br/>जहाँ \(d\) व्यास वाले वृत्ताकार पाइप का अनुप्रस्थ-काट क्षेत्रफल \(A = \frac{\pi d^2}{4}\) है।</p><p><strong>चरण 4: चरण-दर-चरण हल</strong><br/>\[\frac{v_1}{v_2} = \frac{A_2}{A_1} = \frac{\pi d_2^2 / 4}{\pi d_1^2 / 4} = \left(\frac{d_2}{d_1}\right)^2\]<br/>दिए गए व्यास रखने पर:<br/>\[\frac{v_1}{v_2} = \left(\frac{3.75\text{ cm}}{2.5\text{ cm}}\right)^2 = \left(\frac{3}{2}\right)^2 = \frac{9}{4}\]</p><p><strong>चरण 5: जाँच और अंतिम उत्तर</strong><br/>चूँकि \(d_1 &lt; d_2\), इसलिए \(v_1 &gt; v_2\) होना चाहिए, जो \(9:4\) के अनुरूप है। अतः दोनों पाइपों में वेगों का अनुपात \(9:4\) है।</p>]]></text></generalfeedback>
   <defaultgrade>4.0000000</defaultgrade>
   <penalty>0.2500000</penalty>
   <hidden>0</hidden>
   <single>true</single>
   <shuffleanswers>true</shuffleanswers>
   <answernumbering>abc</answernumbering>
-  <answer fraction="100" format="html">
-    <text><![CDATA[<p>9:4</p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>3:2</p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>\(\sqrt{3}:\sqrt{2}\)</p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>\(\sqrt{2}:\sqrt{3}\)</p>]]></text>
-  </answer>
+  <answer fraction="100" format="html"><text><![CDATA[<p>\(9:4\)</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>\(3:2\)</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>\(\sqrt{3}:\sqrt{2}\)</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>\(\sqrt{2}:\sqrt{3}\)</p>]]></text></answer>
   <tags>
     <tag><text>standard:neet_ug</text></tag>
     <tag><text>lang:en</text></tag>
     <tag><text>lang:hi</text></tag>
     <tag><text>subject:physics</text></tag>
+    <tag><text>section:mcq_i</text></tag>
     <tag><text>class:class_11</text></tag>
     <tag><text>chapter:mechanical_properties_of_fluids</text></tag>
     <tag><text>typology:mcq</text></tag>
     <tag><text>difficulty:easy</text></tag>
     <tag><text>blooms:apply</text></tag>
     <tag><text>calculation:light</text></tag>
-    <tag><text>media:equation</text></tag>
+    <tag><text>media:text</text></tag>
     <tag><text>multiconcept:false</text></tag>
   </tags>
 </question>
+
 <question type="multichoice">
-  <name><text>NEET_UG_PHYSICS_MCQ_Q10_05 - Identification of liquid with convex meniscus</text></name>
-  <questiontext format="html">
-    <text><![CDATA[<p>The angle of contact at the interface of water-glass is \(0^{\circ}\), ethylalcohol-glass is \(0^{\circ}\), mercury-glass is \(140^{\circ}\) and methyliodide-glass is \(30^{\circ}\). A glass capillary is put in a trough containing one of these four liquids. It is observed that the meniscus is convex. The liquid in the trough is</p>
-<hr/>
-<p>जल-काँच अंतरापृष्ठ पर स्पर्श कोण \(0^{\circ}\), एथिल ऐल्कोहॉल-काँच पर \(0^{\circ}\), पारा-काँच पर \(140^{\circ}\) और मेथिल आयोडाइड-काँच पर \(30^{\circ}\) है। इनमें से किसी एक द्रव से भरे कुंड में काँच की एक केशिका नली रखी जाती है। यह देखा जाता है कि मेनिस्कस उत्तल है। कुंड में उपस्थित द्रव है</p>]]></text>
-  </questiontext>
-  <generalfeedback format="html">
-    <text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>The curvature of a liquid meniscus inside a narrow tube is determined by the balance between adhesive forces (between liquid molecules and the solid container wall) and cohesive forces (between liquid molecules themselves). This balance is quantified by the angle of contact \(\theta\):<br/>
-- When \(\theta < 90^{\circ}\) (acute angle), adhesive forces predominate over cohesive forces, causing the liquid to wet the glass surface, resulting in a concave meniscus.<br/>
-- When \(\theta > 90^{\circ}\) (obtuse angle), cohesive forces dominate over adhesive forces, preventing wetting and resulting in a convex meniscus.</p>
-<p><strong>Step 2: Evaluation of Given Liquids</strong><br/>The contact angles provided for the four interfaces are:<br/>
-Water-glass: \(\theta = 0^{\circ}\) (acute \(\implies\) concave meniscus)<br/>
-Ethyl alcohol-glass: \(\theta = 0^{\circ}\) (acute \(\implies\) concave meniscus)<br/>
-Methyl iodide-glass: \(\theta = 30^{\circ}\) (acute \(\implies\) concave meniscus)<br/>
-Mercury-glass: \(\theta = 140^{\circ}\) (obtuse \(\implies\) convex meniscus)</p>
-<p><strong>Step 3: Final Conclusion</strong><br/>Since the observed meniscus inside the glass capillary is convex, the angle of contact must be obtuse (\(\theta > 90^{\circ}\)). Among the given options, only the mercury-glass interface possesses an obtuse angle of contact (\(140^{\circ}\)). Therefore, the liquid in the trough is mercury.</p>
-<hr/>
-<p><strong>चरण 1: संकल्पनात्मक सिद्धांत</strong><br/>केशिका नली के भीतर द्रव के मेनिस्कस (मुक्त पृष्ठ) का आकार आसंजक बल (द्रव अणुओं और काँच की दीवार के मध्य) तथा संसंजक बल (द्रव के अपने अणुओं के मध्य) के संतुलन पर निर्भर करता है। यह संतुलन स्पर्श कोण \(\theta\) द्वारा निर्धारित होता है:<br/>
-- यदि \(\theta < 90^{\circ}\) (न्यूनकोण) हो, तो आसंजक बल संसंजक बल से अधिक होते हैं, द्रव काँच को भिगोता है और मेनिस्कस अवतल बनता है।<br/>
-- यदि \(\theta > 90^{\circ}\) (अधिक कोण) हो, तो संसंजक बल आसंजक बल से अधिक होते हैं, द्रव पृष्ठ को नहीं भिगोता और मेनिस्कस उत्तल बनता है।</p>
-<p><strong>चरण 2: दिए गए द्रवों का मूल्यांकन</strong><br/>दिए गए चारों द्रवों के स्पर्श कोण निम्न हैं:<br/>
-जल-काँच: \(\theta = 0^{\circ}\) (न्यूनकोण \(\implies\) अवतल मेनिस्कस)<br/>
-एथिल ऐल्कोहॉल-काँच: \(\theta = 0^{\circ}\) (न्यूनकोण \(\implies\) अवतल मेनिस्कस)<br/>
-मेथिल आयोडाइड-काँच: \(\theta = 30^{\circ}\) (न्यूनकोण \(\implies\) अवतल मेनिस्कस)<br/>
-पारा-काँच: \(\theta = 140^{\circ}\) (अधिक कोण \(\implies\) उत्तल मेनिस्कस)</p>
-<p><strong>चरण 3: अंतिम निष्कर्ष</strong><br/>चूंकि केशिका नली में देखा गया मेनिस्कस उत्तल है, अतः स्पर्श कोण अधिक कोण (\(\theta > 90^{\circ}\)) होना चाहिए। दिए गए मानों में केवल पारे और काँच के लिए स्पर्श कोण अधिक कोण (\(140^{\circ}\)) है। अतः कुंड में उपस्थित द्रव पारा है।</p>]]></text>
-  </generalfeedback>
+  <name><text>NEET_UG_PHYSICS_MCQI_MECHANICALPROPERTIESOFFLUIDS_MCQ_Q105 - Convex meniscus and angle of contact</text></name>
+  <questiontext format="html"><text><![CDATA[<p>The angle of contact at the interface of water-glass is \(0^\circ\), ethylalcohol-glass is \(0^\circ\), mercury-glass is \(140^\circ\) and methyliodide-glass is \(30^\circ\). A glass capillary is put in a trough containing one of these four liquids. It is observed that the meniscus is convex. The liquid in the trough is</p><hr/><p>जल-काँच के अंतरापृष्ठ पर स्पर्श कोण \(0^\circ\), एथिल ऐल्कोहॉल-काँच पर \(0^\circ\), पारा-काँच पर \(140^\circ\) तथा मेथिल आयोडाइड-काँच पर \(30^\circ\) है। इन चारों द्रवों में से किसी एक द्रव से भरी नांद में एक काँच की केशनली रखी जाती है। यह देखा जाता है कि नवचंद्रक उत्तल है। नांद में भरा द्रव है</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>The shape of the liquid meniscus inside a glass capillary depends on the angle of contact \(\theta\) between the liquid and glass.</p><p><strong>Step 2: Evaluation</strong><br/>If the angle of contact is acute (\(\theta &lt; 90^\circ\)), adhesive forces dominate over cohesive forces, the liquid wets the glass, and the meniscus is concave upwards. If the angle of contact is obtuse (\(\theta &gt; 90^\circ\)), cohesive forces dominate, the liquid does not wet the glass, and the meniscus is convex upwards.</p><p><strong>Step 3: Application</strong><br/>Among the given liquids, water (\(0^\circ\)), ethyl alcohol (\(0^\circ\)), and methyl iodide (\(30^\circ\)) all have acute angles of contact with glass, producing concave menisci. Only mercury has an obtuse angle of contact (\(140^\circ &gt; 90^\circ\)) with glass.</p><p><strong>Step 4: Final Conclusion</strong><br/>Therefore, the liquid in the trough that forms a convex meniscus is mercury.</p><hr/><p><strong>चरण 1: सैद्धांतिक सिद्धांत</strong><br/>काँच की केशनली के भीतर द्रव के नवचंद्रक की आकृति द्रव और काँच के बीच स्पर्श कोण \(\theta\) पर निर्भर करती है।</p><p><strong>चरण 2: मूल्यांकन</strong><br/>यदि स्पर्श कोण न्यून कोण (\(\theta &lt; 90^\circ\)) होता है, तो आसंजक बल ससंजक बलों से अधिक होते हैं, द्रव काँच को भिगोता है और नवचंद्रक ऊपर की ओर अवतल होता है। यदि स्पर्श कोण अधिक कोण (\(\theta &gt; 90^\circ\)) होता है, तो ससंजक बल प्रबल होते हैं, द्रव काँच को नहीं भिगोता और नवचंद्रक ऊपर की ओर उत्तल होता है।</p><p><strong>चरण 3: अनुप्रयोग</strong><br/>दिए गए द्रवों में जल (\(0^\circ\)), एथिल ऐल्कोहॉल (\(0^\circ\)) और मेथिल आयोडाइड (\(30^\circ\)) सभी के काँच के साथ स्पर्श कोण न्यून कोण हैं, जो अवतल नवचंद्रक बनाते हैं। केवल पारे का काँच के साथ स्पर्श कोण अधिक कोण (\(140^\circ &gt; 90^\circ\)) है।</p><p><strong>चरण 4: अंतिम निष्कर्ष</strong><br/>अतः नांद में भरा वह द्रव जो उत्तल नवचंद्रक बनाता है, पारा है।</p>]]></text></generalfeedback>
   <defaultgrade>4.0000000</defaultgrade>
   <penalty>0.2500000</penalty>
   <hidden>0</hidden>
   <single>true</single>
   <shuffleanswers>true</shuffleanswers>
   <answernumbering>abc</answernumbering>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>water</p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>ethylalcohol</p>]]></text>
-  </answer>
-  <answer fraction="100" format="html">
-    <text><![CDATA[<p>mercury</p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>methyliodide.</p>]]></text>
-  </answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>water</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>ethylalcohol</p>]]></text></answer>
+  <answer fraction="100" format="html"><text><![CDATA[<p>mercury</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>methyliodide.</p>]]></text></answer>
   <tags>
     <tag><text>standard:neet_ug</text></tag>
     <tag><text>lang:en</text></tag>
     <tag><text>lang:hi</text></tag>
     <tag><text>subject:physics</text></tag>
+    <tag><text>section:mcq_i</text></tag>
     <tag><text>class:class_11</text></tag>
     <tag><text>chapter:mechanical_properties_of_fluids</text></tag>
     <tag><text>typology:mcq</text></tag>
     <tag><text>difficulty:easy</text></tag>
-    <tag><text>blooms:remember</text></tag>
+    <tag><text>blooms:understand</text></tag>
     <tag><text>calculation:light</text></tag>
     <tag><text>media:text</text></tag>
     <tag><text>multiconcept:false</text></tag>
   </tags>
 </question>
+
 <question type="multichoice">
-  <name><text>NEET_UG_PHYSICS_MCQ_Q10_06 - Net force and energy of surface molecule</text></name>
-  <questiontext format="html">
-    <text><![CDATA[<p>For a surface molecule</p>
-<hr/>
-<p>किसी पृष्ठ अणु के लिए</p>]]></text>
-  </questiontext>
-  <generalfeedback format="html">
-    <text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>Liquid molecules exert mutual attractive cohesive forces on each other within their sphere of molecular influence. The net force and potential energy of a molecule depend directly on whether it is located in the bulk interior or in the surface boundary layer of the liquid.</p>
-<p><strong>Step 2: Evaluation of Net Cohesive Force</strong><br/>A molecule deep in the interior of the liquid is surrounded symmetrically in all directions by neighboring liquid molecules, resulting in complete cancellation of attractive forces and a net force of zero.<br/>
-In contrast, a molecule situated in the surface layer is surrounded by liquid molecules only on its sides and below, while virtually no liquid molecules exist above it in the vapor phase. Because the attractive cohesive forces from the liquid below are uncompensated from above, a surface molecule experiences a net inward, downward cohesive force pulling it toward the interior of the liquid.</p>
-<p><strong>Step 3: Evaluation of Molecular Potential Energy</strong><br/>To bring a molecule from the interior to the surface layer, work must be performed against this net inward attractive force. This work done is stored as additional surface potential energy. Consequently, a surface molecule has a higher potential energy than a molecule located deep inside the bulk liquid.</p>
-<p><strong>Step 4: Final Conclusion</strong><br/>For a surface molecule, there is a net downward force acting on it, and its potential energy is more than that of a molecule inside.</p>
-<hr/>
-<p><strong>चरण 1: संकल्पनात्मक सिद्धांत</strong><br/>द्रव के अणु अपने आण्विक प्रभाव क्षेत्र के भीतर एक-दूसरे पर परस्पर संसंजक आकर्षण बल लगाते हैं। किसी अणु पर लगने वाला परिणामी बल और उसकी स्थितिज ऊर्जा इस बात पर निर्भर करती है कि वह द्रव के आंतरिक भाग में स्थित है अथवा उसकी मुक्त सतह पर।</p>
-<p><strong>चरण 2: परिणामी संसंजक बल का मूल्यांकन</strong><br/>द्रव के भीतर गहराई में स्थित अणु सभी दिशाओं से अन्य द्रव अणुओं द्वारा सममित रूप से घिरा होता है, जिसके कारण उस पर परिणामी आकर्षण बल शून्य होता है।<br/>
-इसके विपरीत, द्रव के पृष्ठ पर स्थित अणु के केवल नीचे और पार्श्व में द्रव अणु होते हैं, जबकि ऊपर वाष्प या वायु में द्रव अणुओं की संख्या नगण्य होती है। अतः नीचे के द्रव अणुओं का आकर्षण बल ऊपर से संतुलित नहीं हो पाता, जिससे पृष्ठ पर स्थित अणु पर नीचे की ओर एक परिणामी आकर्षण बल कार्य करता है।</p>
-<p><strong>चरण 3: आण्विक स्थितिज ऊर्जा का मूल्यांकन</strong><br/>किसी अणु को द्रव के भीतर से पृष्ठ तक लाने के लिए इस नीचे की ओर लगने वाले आकर्षण बल के विरुद्ध कार्य करना पड़ता है। यह किया गया कार्य पृष्ठ स्थितिज ऊर्जा के रूप में संचित हो जाता है। अतः पृष्ठ पर स्थित अणु की स्थितिज ऊर्जा भीतर स्थित अणु की स्थितिज ऊर्जा से अधिक होती है।</p>
-<p><strong>चरण 4: अंतिम निष्कर्ष</strong><br/>पृष्ठ के अणु के लिए, इस पर एक कुल नीचे की ओर बल कार्य करता है तथा इसकी स्थितिज ऊर्जा द्रव के अंदर के अणु की तुलना में अधिक होती है।</p>]]></text>
-  </generalfeedback>
+  <name><text>NEET_UG_PHYSICS_MCQII_MECHANICALPROPERTIESOFFLUIDS_MCQ_Q106 - Net force and potential energy of surface molecule</text></name>
+  <questiontext format="html"><text><![CDATA[<p>For a surface molecule</p><hr/><p>एक पृष्ठ अणु के लिए</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>Molecules inside the bulk of a liquid are surrounded uniformly on all sides by neighbouring liquid molecules, so the net intermolecular cohesive force on an interior molecule is zero.</p><p><strong>Step 2: Evaluation</strong><br/>A molecule at the free surface of a liquid has liquid molecules only below and beside it, with almost no liquid molecules above it. Consequently, it experiences an unbalanced net downward cohesive force pulling it towards the interior of the liquid.</p><p><strong>Step 3: Application</strong><br/>To bring a molecule from the interior of the liquid to the surface, work must be done against this inward cohesive pull. This work is stored as extra potential energy in the surface molecules. Hence, a surface molecule has more potential energy than a molecule inside the liquid.</p><p><strong>Step 4: Final Conclusion</strong><br/>Therefore, for a surface molecule, there is a net downward force and its potential energy is more than that of a molecule inside.</p><hr/><p><strong>चरण 1: सैद्धांतिक सिद्धांत</strong><br/>द्रव के भीतर स्थित अणु चारों ओर से समान रूप से पड़ोसी द्रव अणुओं से घिरे होते हैं, इसलिए आंतरिक अणु पर कुल अंतर-आण्विक ससंजक बल शून्य होता है।</p><p><strong>चरण 2: मूल्यांकन</strong><br/>द्रव के मुक्त पृष्ठ पर स्थित अणु के केवल नीचे और बगल में ही द्रव अणु होते हैं, जबकि ऊपर की ओर लगभग कोई द्रव अणु नहीं होता। परिणामस्वरूप, इस पर द्रव के भीतर की ओर खींचने वाला एक असंतुलित कुल अधोमुखी ससंजक बल कार्य करता है।</p><p><strong>चरण 3: अनुप्रयोग</strong><br/>किसी अणु को द्रव के भीतर से पृष्ठ तक लाने के लिए इस आंतरिक ससंजक आकर्षण के विरुद्ध कार्य करना पड़ता है। यह कार्य पृष्ठ अणुओं में अतिरिक्त स्थितिज ऊर्जा के रूप में संचित हो जाता है। अतः पृष्ठ अणु की स्थितिज ऊर्जा भीतर स्थित अणु की स्थितिज ऊर्जा से अधिक होती है।</p><p><strong>चरण 4: अंतिम निष्कर्ष</strong><br/>अतः एक पृष्ठ अणु के लिए, उस पर एक कुल अधोमुखी बल कार्य करता है और उसकी स्थितिज ऊर्जा भीतर के अणु से अधिक होती है।</p>]]></text></generalfeedback>
   <defaultgrade>4.0000000</defaultgrade>
   <penalty>0.2500000</penalty>
   <hidden>0</hidden>
   <single>false</single>
   <shuffleanswers>true</shuffleanswers>
   <answernumbering>abc</answernumbering>
-  <answer fraction="-50" format="html">
-    <text><![CDATA[<p>the net force on it is zero.</p>]]></text>
-  </answer>
-  <answer fraction="50" format="html">
-    <text><![CDATA[<p>there is a net downward force.</p>]]></text>
-  </answer>
-  <answer fraction="-50" format="html">
-    <text><![CDATA[<p>the potential energy is less than that of a molecule inside.</p>]]></text>
-  </answer>
-  <answer fraction="50" format="html">
-    <text><![CDATA[<p>the potential energy is more than that of a molecule inside.</p>]]></text>
-  </answer>
+  <answer fraction="-50" format="html"><text><![CDATA[<p>the net force on it is zero.</p>]]></text></answer>
+  <answer fraction="50" format="html"><text><![CDATA[<p>there is a net downward force.</p>]]></text></answer>
+  <answer fraction="-50" format="html"><text><![CDATA[<p>the potential energy is less than that of a molecule inside.</p>]]></text></answer>
+  <answer fraction="50" format="html"><text><![CDATA[<p>the potential energy is more than that of a molecule inside.</p>]]></text></answer>
   <tags>
     <tag><text>standard:neet_ug</text></tag>
     <tag><text>lang:en</text></tag>
     <tag><text>lang:hi</text></tag>
     <tag><text>subject:physics</text></tag>
+    <tag><text>section:mcq_ii</text></tag>
+    <tag><text>class:class_11</text></tag>
+    <tag><text>chapter:mechanical_properties_of_fluids</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:easy</text></tag>
+    <tag><text>blooms:understand</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:text</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+
+<question type="multichoice">
+  <name><text>NEET_UG_PHYSICS_MCQII_MECHANICALPROPERTIESOFFLUIDS_MCQ_Q107 - Why pressure is a scalar quantity</text></name>
+  <questiontext format="html"><text><![CDATA[<p>Pressure is a scalar quantity because</p><hr/><p>दाब एक अदिश राशि है क्योंकि</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>Pressure at a point in a fluid is defined as the magnitude of the normal component of force acting per unit area of a surface placed at that point: \(P = \frac{F_{\perp}}{A}\).</p><p><strong>Step 2: Evaluation</strong><br/>Because only the magnitude of the force component normal to the area is used in the numerator (and the area element's magnitude is in the denominator), the resulting ratio has no associated direction in space—at a given point in a static fluid, pressure acts equally in all directions regardless of the orientation of the surface.</p><p><strong>Step 3: Application</strong><br/>Note that pressure is not defined as the ratio of two vector quantities directly, nor is the scalar nature due to independence of the size of the area chosen (which holds only for uniform pressure). Rather, it is a scalar because it is the ratio of the magnitude of the force (specifically, the component of the force normal to the area) to the area.</p><p><strong>Step 4: Final Conclusion</strong><br/>Therefore, pressure is a scalar quantity because it is the ratio of the magnitude of the force to area and specifically the ratio of the component of the force normal to the area.</p><hr/><p><strong>चरण 1: सैद्धांतिक सिद्धांत</strong><br/>किसी द्रव के एक बिंदु पर दाब को उस बिंदु पर रखे पृष्ठ के एकांक क्षेत्रफल पर लगने वाले बल के अभिलंबवत घटक के परिमाण के रूप में परिभाषित किया जाता है: \(P = \frac{F_{\perp}}{A}\)।</p><p><strong>चरण 2: मूल्यांकन</strong><br/>चूँकि अंश में क्षेत्रफल के अभिलंबवत बल के घटक का केवल परिमाण लिया जाता है (और हर में क्षेत्रफल का परिमाण होता है), इसलिए प्राप्त अनुपात की अंतरिक्ष में कोई निश्चित दिशा नहीं होती—स्थिर द्रव के किसी बिंदु पर दाब पृष्ठ के अभिविन्यास से स्वतंत्र होकर सभी दिशाओं में समान रूप से कार्य करता है।</p><p><strong>चरण 3: अनुप्रयोग</strong><br/>दाब सीधे दो सदिश राशियों का अनुपात नहीं है, और न ही इसका अदिश होना चुने गए क्षेत्रफल के आकार से स्वतंत्र होने के कारण है (जो केवल एकसमान दाब के लिए सत्य है)। यह अदिश इसलिए है क्योंकि यह बल के परिमाण (विशेष रूप से क्षेत्रफल के अभिलंबवत बल के घटक) और क्षेत्रफल का अनुपात है।</p><p><strong>चरण 4: अंतिम निष्कर्ष</strong><br/>अतः दाब एक अदिश राशि है क्योंकि यह बल के परिमाण और क्षेत्रफल का अनुपात है तथा विशेष रूप से क्षेत्रफल के अभिलंबवत बल के घटक और क्षेत्रफल का अनुपात है।</p>]]></text></generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>false</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="-50" format="html"><text><![CDATA[<p>it is the ratio of force to area and both force and area are vectors.</p>]]></text></answer>
+  <answer fraction="50" format="html"><text><![CDATA[<p>it is the ratio of the magnitude of the force to area.</p>]]></text></answer>
+  <answer fraction="50" format="html"><text><![CDATA[<p>it is the ratio of the component of the force normal to the area.</p>]]></text></answer>
+  <answer fraction="-50" format="html"><text><![CDATA[<p>it does not depend on the size of the area chosen.</p>]]></text></answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:hi</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>section:mcq_ii</text></tag>
     <tag><text>class:class_11</text></tag>
     <tag><text>chapter:mechanical_properties_of_fluids</text></tag>
     <tag><text>typology:mcq</text></tag>
@@ -364,128 +214,27 @@ In contrast, a molecule situated in the surface layer is surrounded by liquid mo
     <tag><text>multiconcept:false</text></tag>
   </tags>
 </question>
+
 <question type="multichoice">
-  <name><text>NEET_UG_PHYSICS_MCQ_Q10_07 - Scalar nature of fluid pressure explanation</text></name>
-  <questiontext format="html">
-    <text><![CDATA[<p>Pressure is a scalar quantity because</p>
-<hr/>
-<p>दाब एक अदिश राशि है क्योंकि</p>]]></text>
-  </questiontext>
-  <generalfeedback format="html">
-    <text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>In fluid statics, pressure at a point in an incompressible fluid is defined as the magnitude of the normal force exerted by the fluid per unit surface area:
-\[P = \lim_{\Delta A \to 0} \frac{F_{\perp}}{\Delta A}\]</p>
-<p><strong>Step 2: Analysis of Force and Area Components</strong><br/>Although force is a vector quantity, a fluid at rest cannot support static tangential or shear stresses. Consequently, any force exerted by a static fluid on an immersed surface or container boundary is strictly perpendicular (normal) to that surface.<br/>
-Because only the component of the force normal to the surface is considered in the definition, the direction of the resulting thrust is dictated entirely by the orientation of the chosen surface area itself rather than by an intrinsic directional property of the pressure field.<br/>
-At any point in a fluid, pressure transmits equally in all directions (Pascal's law), meaning no unique direction can be assigned to it in space.</p>
-<p><strong>Step 3: Final Conclusion</strong><br/>Pressure is a scalar quantity because it is defined specifically as the ratio of the component of the force normal to the area.</p>
-<hr/>
-<p><strong>चरण 1: संकल्पनात्मक सिद्धांत</strong><br/>तरल स्थैतिकी में, विरामावस्था में किसी तरल द्वारा किसी पृष्ठ पर लगाया गया दाब प्रति एकांक क्षेत्रफल पर लगने वाले अभिलंबवत बल के परिमाण के रूप में परिभाषित होता है:
-\[P = \lim_{\Delta A \to 0} \frac{F_{\perp}}{\Delta A}\]</p>
-<p><strong>चरण 2: बल और क्षेत्रफल घटकों का विश्लेषण</strong><br/>यद्यपि बल एक सदिश राशि है, किंतु विरामावस्था में तरल स्पर्शरेखीय या अपरूपण प्रतिबल सहन नहीं कर सकता। परिणामस्वरूप, स्थिर तरल द्वारा किसी भी पृष्ठ पर लगाया गया बल सदैव उस पृष्ठ के लंबवत होता है।<br/>
-चूंकि दाब की परिभाषा में केवल पृष्ठ के अभिलंबवत बल घटक को ही लिया जाता है, इसलिए उत्पन्न बल की दिशा स्वयं चुने गए क्षेत्रफल के अभिविन्यास से निर्धारित होती है, न कि दाब के किसी आंतरिक दिशा गुण से।<br/>
-तरल में किसी बिंदु पर दाब सभी दिशाओं में समान रूप से कार्य करता है (पास्कल का नियम), जिससे अंतरिक्ष में इसकी कोई एक निश्चित दिशा निर्दिष्ट नहीं की जा सकती।</p>
-<p><strong>चरण 3: अंतिम निष्कर्ष</strong><br/>दाब एक अदिश राशि है क्योंकि यह क्षेत्रफल के अभिलंबवत बल के घटक का अनुपात है।</p>]]></text>
-  </generalfeedback>
-  <defaultgrade>4.0000000</defaultgrade>
-  <penalty>0.2500000</penalty>
-  <hidden>0</hidden>
-  <single>true</single>
-  <shuffleanswers>true</shuffleanswers>
-  <answernumbering>abc</answernumbering>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>it is the ratio of force to area and both force and area are vectors.</p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>it is the ratio of the magnitude of the force to area.</p>]]></text>
-  </answer>
-  <answer fraction="100" format="html">
-    <text><![CDATA[<p>it is the ratio of the component of the force normal to the area.</p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>it does not depend on the size of the area chosen.</p>]]></text>
-  </answer>
-  <tags>
-    <tag><text>standard:neet_ug</text></tag>
-    <tag><text>lang:en</text></tag>
-    <tag><text>lang:hi</text></tag>
-    <tag><text>subject:physics</text></tag>
-    <tag><text>class:class_11</text></tag>
-    <tag><text>chapter:mechanical_properties_of_fluids</text></tag>
-    <tag><text>typology:mcq</text></tag>
-    <tag><text>difficulty:easy</text></tag>
-    <tag><text>blooms:understand</text></tag>
-    <tag><text>calculation:light</text></tag>
-    <tag><text>media:text</text></tag>
-    <tag><text>multiconcept:false</text></tag>
-  </tags>
-</question>
-<question type="multichoice">
-  <name><text>NEET_UG_PHYSICS_MCQ_Q10_08 - Changes in water level and immersion</text></name>
-  <questiontext format="html">
-    <text><![CDATA[<p>A wooden block with a coin placed on its top, floats in water as shown in Fig. 10.3.</p>
-<p><img src="@@PLUGINFILE@@/img-5.jpeg" alt="Fig. 10.3" /></p>
-<p>The distance \(l\) and \(h\) are shown in the figure. After some time the coin falls into the water. Then</p>
-<hr/>
-<p>एक लकड़ी का गुटका जिसके ऊपर एक सिक्का रखा है, चित्र 10.3 में दर्शाए अनुसार जल में तैर रहा है।</p>
-<p><img src="@@PLUGINFILE@@/img-5.jpeg" alt="चित्र 10.3" /></p>
-<p>दूरियाँ \(l\) तथा \(h\) चित्र में प्रदर्शित हैं। कुछ समय बाद सिक्का जल में गिर जाता है। तब</p>]]></text>
-  </questiontext>
-  <generalfeedback format="html">
-    <text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>A wooden block of mass \(M_b\) and cross-sectional area \(A_b\) floats in water of density \(\rho_w\). A metallic coin of mass \(m_c\) and density \(\rho_c\) is placed on top of the block. The depth of immersion of the block is \(l\), and the total liquid height in the vessel of base area \(A_v\) is \(h\). The coin is denser than water: \(\rho_c > \rho_w\).</p>
-<p><strong>Step 2: Assumptions and Physical Principles</strong><br/>Archimedes' principle of flotation states that a floating body displaces an amount of water whose weight equals the total weight of the floating body. A submerged body displaces an amount of water equal to its own physical volume.</p>
-<p><strong>Step 3: Evaluation of Submerged Length \(l\)</strong><br/>Initially, the block supports both its own weight and that of the coin:
-\[(M_b + m_c)g = \rho_w A_b l_1 g \implies l_1 = \frac{M_b + m_c}{\rho_w A_b}\]
-After the coin falls into the water and sinks to the bottom, the floating block supports only its own weight:
-\[M_b g = \rho_w A_b l_2 g \implies l_2 = \frac{M_b}{\rho_w A_b}\]
-Since \(l_2 < l_1\), the submerged depth of the wooden block decreases (\(l\) decreases).</p>
-<p><strong>Step 4: Evaluation of Total Liquid Height \(h\)</strong><br/>Initially, the coin is part of the floating system, so it displaces a volume of water equal to:
-\[V_{1} = \frac{m_c}{\rho_w}\]
-After falling into the water, the coin sinks to the bottom because \(\rho_c > \rho_w\). When completely submerged, the volume of water it displaces is simply its own physical volume:
-\[V_{2} = \frac{m_c}{\rho_c}\]
-Since \(\rho_c > \rho_w\), it follows that:
-\[V_{2} = \frac{m_c}{\rho_c} < \frac{m_c}{\rho_w} = V_{1}\]
-The total volume of water displaced by the system decreases, causing the total water level \(h\) in the beaker to decrease.</p>
-<p><strong>Step 5: Check and Final Answer</strong><br/>Both \(l\) decreases and \(h\) decreases after the coin drops into the water.</p>
-<hr/>
-<p><strong>चरण 1: दिए गए आँकड़े और स्थितियाँ</strong><br/>द्रव्यमान \(M_b\) और अनुप्रस्थ-काट क्षेत्रफल \(A_b\) का एक लकड़ी का गुटका जल (घनत्व \(\rho_w\)) में तैर रहा है। द्रव्यमान \(m_c\) और घनत्व \(\rho_c\) का एक धात्विक सिक्का गुटके के ऊपर रखा है। गुटके की जलमग्न गहराई \(l\) है तथा पात्र (अनुप्रस्थ-काट \(A_v\)) में जल स्तर की कुल ऊँचाई \(h\) है। सिक्का जल से अधिक सघन है: \(\rho_c > \rho_w\)।</p>
-<p><strong>चरण 2: मान्यताएँ और भौतिक सिद्धांत</strong><br/>आर्किमिडीज के प्लवन सिद्धांत के अनुसार, तैरती हुई वस्तु अपने कुल भार के बराबर जल विस्थापित करती है। डूबी हुई वस्तु अपने आयतन के बराबर जल विस्थापित करती है।</p>
-<p><strong>चरण 3: जलमग्न गहराई \(l\) का मूल्यांकन</strong><br/>प्रारंभ में, गुटका अपने भार के साथ-साथ सिक्के के भार को भी संतुलित करता है:
-\[(M_b + m_c)g = \rho_w A_b l_1 g \implies l_1 = \frac{M_b + m_c}{\rho_w A_b}\]
-जब सिक्का जल में गिरकर तली में बैठ जाता है, तब तैरता हुआ गुटका केवल अपने स्वयं के भार को संतुलित करता है:
-\[M_b g = \rho_w A_b l_2 g \implies l_2 = \frac{M_b}{\rho_w A_b}\]
-चूंकि \(l_2 < l_1\), अतः गुटके की निमज्जित गहराई घटती है (\(l\) घटता है)।</p>
-<p><strong>चरण 4: कुल जल स्तर \(h\) का मूल्यांकन</strong><br/>प्रारंभ में जब सिक्का गुटके पर था, तो तैरने के कारण वह अपने भार के तुल्य जल का आयतन विस्थापित कर रहा था:
-\[V_{1} = \frac{m_c}{\rho_w}\]
-सिक्के के जल में गिरने पर, चूंकि \(\rho_c > \rho_w\) है, वह तली में डूब जाता है। पूर्णतः डूबने पर विस्थापित जल का आयतन केवल सिक्के के अपने आयतन के बराबर होता है:
-\[V_{2} = \frac{m_c}{\rho_c}\]
-चूंकि \(\rho_c > \rho_w\) है, अतः:
-\[V_{2} = \frac{m_c}{\rho_c} < \frac{m_c}{\rho_w} = V_{1}\]
-निकाय द्वारा विस्थापित जल का कुल आयतन कम हो जाता है, जिससे पात्र में जल का समग्र स्तर \(h\) घट जाता है।</p>
-<p><strong>चरण 5: जाँच और अंतिम उत्तर</strong><br/>सिक्के के जल में गिर जाने के उपरांत \(l\) घटता है तथा \(h\) भी घटता है।</p>]]></text>
-  </generalfeedback>
+  <name><text>NEET_UG_PHYSICS_MCQII_MECHANICALPROPERTIESOFFLUIDS_MCQ_Q108 - Floating block with coin falling into water</text></name>
+  <questiontext format="html"><text><![CDATA[<p>A wooden block with a coin placed on its top, floats in water as shown in Fig. 10.3.</p><p><img src="@@PLUGINFILE@@/img-5.jpeg" /></p><p>The distance \(l\) and \(h\) are shown in the figure. After some time the coin falls into the water. Then</p><hr/><p>एक लकड़ी का गुटका, जिसके शीर्ष पर एक सिक्का रखा है, चित्र 10.3 में दर्शाए अनुसार जल में तैरता है।</p><p><img src="@@PLUGINFILE@@/img-5.jpeg" /></p><p>चित्र में दूरियाँ \(l\) और \(h\) दर्शाई गई हैं। कुछ समय बाद सिक्का जल में गिर जाता है। तब</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>A wooden block of mass \(M\) with a coin of mass \(m\) on top floats in water of density \(\rho_w\). Here \(l\) is the submerged depth of the wooden block and \(h\) is the height of the water level in the vessel. After some time, the coin falls into the water and sinks (since the density of the coin \(\rho_c &gt; \rho_w\)).</p><p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>The vessel has a uniform cross-sectional area, and no water splashes out when the coin falls.</p><p><strong>Step 3: Relevant Formulae and Principles</strong><br/>By Archimedes' principle, a floating body displaces a volume of water whose weight equals the weight of the floating body: \(V_{\text{disp}} \rho_w g = W_{\text{floating}}\). A completely submerged body displaces a volume of water equal to its own volume.</p><p><strong>Step 4: Step-by-Step Working</strong><br/>Before the coin falls, the block and coin float together, so the submerged depth \(l\) supports the combined weight \((M + m)g\). When the coin falls off, the block alone supports only its own weight \(Mg\), so the block rises slightly and the submerged depth \(l\) decreases.<br/>Regarding the water level \(h\): while on the block, the coin caused an extra displaced water volume of \(V_1 = \frac{m}{\rho_w}\). Once the coin sinks to the bottom, it displaces only its own volume \(V_2 = \frac{m}{\rho_c}\). Since \(\rho_c &gt; \rho_w\), we have \(V_2 &lt; V_1\). Thus, the total volume of water displaced decreases, causing the water level \(h\) to decrease.</p><p><strong>Step 5: Check and Final Answer</strong><br/>Both \(l\) decreases and \(h\) decreases after the coin falls into the water.</p><hr/><p><strong>चरण 1: दिया गया डेटा और शर्तें</strong><br/>\(M\) द्रव्यमान का एक लकड़ी का गुटका, जिसके शीर्ष पर \(m\) द्रव्यमान का एक सिक्का रखा है, \(\rho_w\) घनत्व वाले जल में तैरता है। यहाँ \(l\) लकड़ी के गुटके की डूबी हुई गहराई है और \(h\) बर्तन में जल स्तर की ऊँचाई है। कुछ समय बाद सिक्का जल में गिरकर डूब जाता है (क्योंकि सिक्के का घनत्व \(\rho_c &gt; \rho_w\) है)।</p><p><strong>चरण 2: मान्यताएँ और चिह्न परिपाटी</strong><br/>बर्तन का अनुप्रस्थ-काट क्षेत्रफल एकसमान है और सिक्का गिरते समय कोई जल बाहर नहीं छलकती है।</p><p><strong>चरण 3: संबंधित सूत्र और सिद्धांत</strong><br/>आर्किमिडीज़ के सिद्धांत के अनुसार, तैरता हुआ पिंड अपने भार के बराबर भार का जल विस्थापित करता है: \(V_{\text{disp}} \rho_w g = W_{\text{floating}}\)। पूर्णतः डूबा हुआ पिंड अपने स्वयं के आयतन के बराबर जल विस्थापित करता है।</p><p><strong>चरण 4: चरण-दर-चरण हल</strong><br/>सिक्के के गिरने से पहले गुटका और सिक्का एक साथ तैरते हैं, इसलिए डूबी हुई गहराई \(l\) संयुक्त भार \((M + m)g\) को सँभालती है। जब सिक्का गिर जाता है, तो अकेला गुटका केवल अपने भार \(Mg\) को सँभालता है, अतः गुटका थोड़ा ऊपर उठता है और डूबी हुई गहराई \(l\) घट जाती है।<br/>जल स्तर \(h\) के लिए: गुटके पर रहते समय सिक्के के कारण विस्थापित अतिरिक्त जल का आयतन \(V_1 = \frac{m}{\rho_w}\) था। तली में डूबने पर सिक्का केवल अपने आयतन \(V_2 = \frac{m}{\rho_c}\) के बराबर जल विस्थापित करता है। चूँकि \(\rho_c &gt; \rho_w\), इसलिए \(V_2 &lt; V_1\) होता है। अतः कुल विस्थापित जल का आयतन घट जाता है, जिससे जल स्तर \(h\) घट जाता है।</p><p><strong>चरण 5: जाँच और अंतिम उत्तर</strong><br/>सिक्के के जल में गिरने के बाद \(l\) घटता है और \(h\) भी घटता है।</p>]]></text></generalfeedback>
   <defaultgrade>4.0000000</defaultgrade>
   <penalty>0.2500000</penalty>
   <hidden>0</hidden>
   <single>false</single>
   <shuffleanswers>true</shuffleanswers>
   <answernumbering>abc</answernumbering>
-  <answer fraction="50" format="html">
-    <text><![CDATA[<p>\(l\) decreases.</p>]]></text>
-  </answer>
-  <answer fraction="50" format="html">
-    <text><![CDATA[<p>\(h\) decreases.</p>]]></text>
-  </answer>
-  <answer fraction="-50" format="html">
-    <text><![CDATA[<p>\(l\) increases.</p>]]></text>
-  </answer>
-  <answer fraction="-50" format="html">
-    <text><![CDATA[<p>\(h\) increase.</p>]]></text>
-  </answer>
+  <answer fraction="50" format="html"><text><![CDATA[<p>\(l\) decreases.</p>]]></text></answer>
+  <answer fraction="50" format="html"><text><![CDATA[<p>\(h\) decreases.</p>]]></text></answer>
+  <answer fraction="-50" format="html"><text><![CDATA[<p>\(l\) increases.</p>]]></text></answer>
+  <answer fraction="-50" format="html"><text><![CDATA[<p>\(h\) increase.</p>]]></text></answer>
   <tags>
     <tag><text>standard:neet_ug</text></tag>
     <tag><text>lang:en</text></tag>
     <tag><text>lang:hi</text></tag>
     <tag><text>subject:physics</text></tag>
+    <tag><text>section:mcq_ii</text></tag>
     <tag><text>class:class_11</text></tag>
     <tag><text>chapter:mechanical_properties_of_fluids</text></tag>
     <tag><text>typology:mcq</text></tag>
@@ -496,115 +245,65 @@ The total volume of water displaced by the system decreases, causing the total w
     <tag><text>multiconcept:true</text></tag>
   </tags>
 </question>
+
 <question type="multichoice">
-  <name><text>NEET_UG_PHYSICS_MCQ_Q10_09 - Temperature dependence of fluid viscosity variation</text></name>
-  <questiontext format="html">
-    <text><![CDATA[<p>With increase in temperature, the viscosity of</p>
-<hr/>
-<p>तापमान में वृद्धि के साथ, श्यानता</p>]]></text>
-  </questiontext>
-  <generalfeedback format="html">
-    <text><![CDATA[<p><strong>Step 1: Conceptual Principle of Viscosity in Liquids</strong><br/>In liquids, viscosity arises primarily from cohesive intermolecular attractive forces between closely spaced molecules of adjacent layers. As temperature increases, the average kinetic energy of the molecules increases, which weakens these intermolecular bonds and facilitates easier shearing and sliding between adjacent liquid layers. Therefore, the viscosity of liquids decreases as temperature rises.</p>
-<p><strong>Step 2: Conceptual Principle of Viscosity in Gases</strong><br/>In gases, molecules are widely separated, and viscosity is caused by the transfer and diffusion of momentum between adjacent layers due to the random thermal motion of gas molecules crossing between layers with different bulk velocities. As temperature increases, the root-mean-square thermal speed of gas molecules increases (\(v_{\text{rms}} \propto \sqrt{T}\)), leading to a higher rate of molecular transport and more frequent collisions across adjacent layers. Consequently, momentum exchange increases, causing the viscosity of gases to increase with increasing temperature (\(\eta \propto \sqrt{T}\)).</p>
-<p><strong>Step 3: Final Conclusion</strong><br/>With an increase in temperature, the viscosity of gases increases and the viscosity of liquids decreases.</p>
-<hr/>
-<p><strong>चरण 1: द्रवों में श्यानता का संकल्पनात्मक सिद्धांत</strong><br/>द्रवों में श्यानता मुख्य रूप से निकटवर्ती परतों के अणुओं के मध्य लगने वाले अंतराआण्विक संसंजक आकर्षण बलों के कारण उत्पन्न होती है। तापमान बढ़ने पर अणुओं की औसत गतिज ऊर्जा बढ़ जाती है, जिससे ये अंतराआण्विक आकर्षण बल कमजोर पड़ जाते हैं और द्रव की परतें एक-दूसरे पर अधिक सुगमता से फिसल सकती हैं। अतः तापमान में वृद्धि के साथ द्रवों की श्यानता घटती है।</p>
-<p><strong>चरण 2: गैसों में श्यानता का संकल्पनात्मक सिद्धांत</strong><br/>गैसों में अणु परस्पर दूर-दूर होते हैं, तथा श्यानता विभिन्न वेगों वाली परतों के मध्य अणुओं की यादृच्छिक ऊष्मीय गति द्वारा संवेग के स्थानांतरण के कारण होती है। जब तापमान बढ़ता है, तो गैस अणुओं की वर्ग-माध्य-मूल चाल बढ़ जाती है (\(v_{\text{rms}} \propto \sqrt{T}\)), जिससे परतों के मध्य संवेग का विनिमय अधिक तीव्रता से होता है। इसके परिणामस्वरूप, तापमान में वृद्धि के साथ गैसों की श्यानता बढ़ती है (\(\eta \propto \sqrt{T}\))।</p>
-<p><strong>चरण 3: अंतिम निष्कर्ष</strong><br/>तापमान में वृद्धि होने पर, गैसों की श्यानता बढ़ती है तथा द्रवों की श्यानता घटती है।</p>]]></text>
-  </generalfeedback>
+  <name><text>NEET_UG_PHYSICS_MCQII_MECHANICALPROPERTIESOFFLUIDS_MCQ_Q109 - Effect of temperature on viscosity of liquids and gases</text></name>
+  <questiontext format="html"><text><![CDATA[<p>With increase in temperature, the viscosity of</p><hr/><p>ताप में वृद्धि के साथ, श्यानता</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>Viscosity arises from different dominant mechanisms in liquids and gases: intermolecular cohesive forces in liquids, and molecular momentum transfer between adjacent layers in gases.</p><p><strong>Step 2: Evaluation</strong><br/>In liquids, increasing temperature increases the thermal kinetic energy of molecules, which weakens the intermolecular cohesive forces and allows layers to slide past one another more easily. Hence, the viscosity of liquids decreases with an increase in temperature.</p><p><strong>Step 3: Application</strong><br/>In gases, cohesive forces are negligible, and viscosity is governed by the rate of random molecular collisions transferring momentum across layers (\(\eta \propto \sqrt{T}\)). Increasing temperature increases molecular speed and collision frequency, so the viscosity of gases increases with temperature.</p><p><strong>Step 4: Final Conclusion</strong><br/>Therefore, with an increase in temperature, the viscosity of gases increases and the viscosity of liquids decreases.</p><hr/><p><strong>चरण 1: सैद्धांतिक सिद्धांत</strong><br/>द्रवों और गैसों में श्यानता भिन्न-भिन्न प्रमुख क्रियाविधियों के कारण उत्पन्न होती है: द्रवों में यह अंतर-आण्विक ससंजक बलों के कारण होती है, जबकि गैसों में यह संलग्न परतों के बीच आण्विक संवेग स्थानांतरण के कारण होती है।</p><p><strong>चरण 2: मूल्यांकन</strong><br/>द्रवों में ताप बढ़ाने से अणुओं की तापीय गतिज ऊर्जा बढ़ जाती है, जिससे अंतर-आण्विक ससंजक बल दुर्बल हो जाते हैं और परतें एक-दूसरे पर अधिक आसानी से फिसल सकती हैं। अतः ताप बढ़ने पर द्रवों की श्यानता घटती है।</p><p><strong>चरण 3: अनुप्रयोग</strong><br/>गैसों में ससंजक बल नगण्य होते हैं और श्यानता परतों के बीच संवेग स्थानांतरित करने वाली यादृच्छिक आण्विक टक्करों की दर पर निर्भर करती है (\(\eta \propto \sqrt{T}\))। ताप बढ़ाने से अणुओं की चाल और टक्करों की आवृत्ति बढ़ती है, इसलिए ताप बढ़ने पर गैसों की श्यानता बढ़ती है।</p><p><strong>चरण 4: अंतिम निष्कर्ष</strong><br/>अतः ताप में वृद्धि के साथ गैसों की श्यानता बढ़ती है और द्रवों की श्यानता घटती है।</p>]]></text></generalfeedback>
   <defaultgrade>4.0000000</defaultgrade>
   <penalty>0.2500000</penalty>
   <hidden>0</hidden>
   <single>false</single>
   <shuffleanswers>true</shuffleanswers>
   <answernumbering>abc</answernumbering>
-  <answer fraction="-50" format="html">
-    <text><![CDATA[<p>gases decreases.</p>]]></text>
-  </answer>
-  <answer fraction="-50" format="html">
-    <text><![CDATA[<p>liquids increases.</p>]]></text>
-  </answer>
-  <answer fraction="50" format="html">
-    <text><![CDATA[<p>gases increases.</p>]]></text>
-  </answer>
-  <answer fraction="50" format="html">
-    <text><![CDATA[<p>liquids decreases.</p>]]></text>
-  </answer>
+  <answer fraction="-50" format="html"><text><![CDATA[<p>gases decreases.</p>]]></text></answer>
+  <answer fraction="-50" format="html"><text><![CDATA[<p>liquids increases.</p>]]></text></answer>
+  <answer fraction="50" format="html"><text><![CDATA[<p>gases increases.</p>]]></text></answer>
+  <answer fraction="50" format="html"><text><![CDATA[<p>liquids decreases.</p>]]></text></answer>
   <tags>
     <tag><text>standard:neet_ug</text></tag>
     <tag><text>lang:en</text></tag>
     <tag><text>lang:hi</text></tag>
     <tag><text>subject:physics</text></tag>
-    <tag><text>class:class_11</text></tag>
-    <tag><text>chapter:mechanical_properties_of_fluids</text></tag>
-    <tag><text>typology:mcq</text></tag>
-    <tag><text>difficulty:easy</text></tag>
-    <tag><text>blooms:remember</text></tag>
-    <tag><text>calculation:light</text></tag>
-    <tag><text>media:text</text></tag>
-    <tag><text>multiconcept:false</text></tag>
-  </tags>
-</question>
-<question type="multichoice">
-  <name><text>NEET_UG_PHYSICS_MCQ_Q10_10 - Conditions favoring streamline flow of liquids</text></name>
-  <questiontext format="html">
-    <text><![CDATA[<p>Streamline flow is more likely for liquids with</p>
-<hr/>
-<p>धारारेखीय प्रवाह उन द्रवों के लिए अधिक संभावित है जिनमें होता है</p>]]></text>
-  </questiontext>
-  <generalfeedback format="html">
-    <text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>The transition between orderly streamline (laminar) flow and disordered turbulent flow is determined by the dimensionless Reynolds number \(R_e\), defined as:
-\[R_e = \frac{\rho v D}{\eta}\]
-where \(\rho\) is the fluid density, \(v\) is the flow velocity, \(D\) is the characteristic dimension (such as pipe diameter), and \(\eta\) is the dynamic viscosity of the liquid.</p>
-<p><strong>Step 2: Condition for Streamline Flow</strong><br/>Streamline flow is maintained when the Reynolds number is below a critical threshold (typically \(R_e < 1000\) to \(2000\)). A low Reynolds number indicates that viscous forces dominate over inertial forces, effectively damping perturbations and preserving smooth, layered motion.</p>
-<p><strong>Step 3: Relationship with Fluid Properties</strong><br/>From the expression for Reynolds number:
-\[R_e \propto \frac{\rho}{\eta}\]
-To minimize \(R_e\) (and hence make streamline flow more likely):<br/>
-- Dynamic viscosity \(\eta\) should be large (high viscosity).<br/>
-- Fluid density \(\rho\) should be small (low density).</p>
-<p><strong>Step 4: Final Conclusion</strong><br/>Streamline flow is more likely for liquids characterized by high viscosity and low density.</p>
-<hr/>
-<p><strong>चरण 1: संकल्पनात्मक सिद्धांत</strong><br/>नियमित धारारेखीय (पटलीय) प्रवाह तथा प्रक्षुब्ध प्रवाह के मध्य का संक्रमण विमाहीन रेनॉल्ड्स संख्या \(R_e\) द्वारा निर्धारित होता है:
-\[R_e = \frac{\rho v D}{\eta}\]
-जहाँ \(\rho\) द्रव का घनत्व, \(v\) प्रवाह वेग, \(D\) पाइप का व्यास (अभिलाक्षणिक विमा) तथा \(\eta\) श्यानता गुणांक है।</p>
-<p><strong>चरण 2: धारारेखीय प्रवाह की शर्त</strong><br/>धारारेखीय प्रवाह तब बना रहता है जब रेनॉल्ड्स संख्या का मान एक क्रांतिक मान (सामान्यतः \(R_e < 1000\) से \(2000\)) से कम हो। कम रेनॉल्ड्स संख्या यह दर्शाती है कि श्यान बल जड़त्वीय बलों पर प्रभावी हैं, जिससे विक्षोभ शांत रहते हैं और प्रवाह शांत बना रहता है।</p>
-<p><strong>चरण 3: द्रव के गुणों के साथ संबंध</strong><br/>रेनॉल्ड्स संख्या के सूत्र से:
-\[R_e \propto \frac{\rho}{\eta}\]
-रेनॉल्ड्स संख्या \(R_e\) को न्यूनतम रखने के लिए (जिससे धारारेखीय प्रवाह की संभावना सर्वाधिक हो):<br/>
-- द्रव की श्यानता अधिक होनी चाहिए (उच्च श्यानता)।<br/>
-- द्रव का घनत्व कम होना चाहिए (निम्न घनत्व)।</p>
-<p><strong>चरण 4: अंतिम निष्कर्ष</strong><br/>धारारेखीय प्रवाह उन द्रवों के लिए अधिक संभावित होता है जिनमें उच्च श्यानता तथा निम्न घनत्व होता है।</p>]]></text>
-  </generalfeedback>
-  <defaultgrade>4.0000000</defaultgrade>
-  <penalty>0.2500000</penalty>
-  <hidden>0</hidden>
-  <single>false</single>
-  <shuffleanswers>true</shuffleanswers>
-  <answernumbering>abc</answernumbering>
-  <answer fraction="-50" format="html">
-    <text><![CDATA[<p>high density.</p>]]></text>
-  </answer>
-  <answer fraction="50" format="html">
-    <text><![CDATA[<p>high viscosity.</p>]]></text>
-  </answer>
-  <answer fraction="50" format="html">
-    <text><![CDATA[<p>low density.</p>]]></text>
-  </answer>
-  <answer fraction="-50" format="html">
-    <text><![CDATA[<p>low viscosity.</p>]]></text>
-  </answer>
-  <tags>
-    <tag><text>standard:neet_ug</text></tag>
-    <tag><text>lang:en</text></tag>
-    <tag><text>lang:hi</text></tag>
-    <tag><text>subject:physics</text></tag>
+    <tag><text>section:mcq_ii</text></tag>
     <tag><text>class:class_11</text></tag>
     <tag><text>chapter:mechanical_properties_of_fluids</text></tag>
     <tag><text>typology:mcq</text></tag>
     <tag><text>difficulty:easy</text></tag>
     <tag><text>blooms:understand</text></tag>
     <tag><text>calculation:light</text></tag>
-    <tag><text>media:equation</text></tag>
+    <tag><text>media:text</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+
+<question type="multichoice">
+  <name><text>NEET_UG_PHYSICS_MCQII_MECHANICALPROPERTIESOFFLUIDS_MCQ_Q110 - Conditions favouring streamline flow</text></name>
+  <questiontext format="html"><text><![CDATA[<p>Streamline flow is more likely for liquids with</p><hr/><p>धारा-रेखीय प्रवाह उन द्रवों के लिए अधिक संभावित है जिनमें</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>Whether fluid flow is streamline (laminar) or turbulent is determined by the dimensionless Reynolds number, \(R_e = \frac{\rho v d}{\eta}\), where \(\rho\) is the fluid density, \(v\) is the flow speed, \(d\) is the characteristic dimension, and \(\eta\) is the coefficient of viscosity.</p><p><strong>Step 2: Evaluation</strong><br/>Streamline flow occurs when the Reynolds number is small (typically \(R_e &lt; 1000\)).</p><p><strong>Step 3: Application</strong><br/>From the expression \(R_e = \frac{\rho v d}{\eta}\), a smaller value of \(R_e\) is favoured when the numerator is small (low density \(\rho\)) and the denominator is large (high viscosity \(\eta\)).</p><p><strong>Step 4: Final Conclusion</strong><br/>Therefore, streamline flow is more likely for liquids with low density and high viscosity.</p><hr/><p><strong>चरण 1: सैद्धांतिक सिद्धांत</strong><br/>द्रव का प्रवाह धारा-रेखीय (स्तरीय) होगा या विक्षुब्ध, यह विमाहीन रेनॉल्ड्स संख्या \(R_e = \frac{\rho v d}{\eta}\) द्वारा निर्धारित होता है, जहाँ \(\rho\) द्रव का घनत्व, \(v\) प्रवाह की चाल, \(d\) अभिलाक्षणिक विमा और \(\eta\) श्यानता गुणांक है।</p><p><strong>चरण 2: मूल्यांकन</strong><br/>धारा-रेखीय प्रवाह तब होता है जब रेनॉल्ड्स संख्या कम होती है (सामान्यतः \(R_e &lt; 1000\))।</p><p><strong>चरण 3: अनुप्रयोग</strong><br/>सूत्र \(R_e = \frac{\rho v d}{\eta}\) से स्पष्ट है कि \(R_e\) का मान कम तब होगा जब अंश छोटा हो (कम घनत्व \(\rho\)) और हर बड़ा हो (उच्च श्यानता \(\eta\))।</p><p><strong>चरण 4: अंतिम निष्कर्ष</strong><br/>अतः धारा-रेखीय प्रवाह कम घनत्व और उच्च श्यानता वाले द्रवों के लिए अधिक संभावित है।</p>]]></text></generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>false</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="-50" format="html"><text><![CDATA[<p>high density.</p>]]></text></answer>
+  <answer fraction="50" format="html"><text><![CDATA[<p>high viscosity.</p>]]></text></answer>
+  <answer fraction="50" format="html"><text><![CDATA[<p>low density.</p>]]></text></answer>
+  <answer fraction="-50" format="html"><text><![CDATA[<p>low viscosity.</p>]]></text></answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:hi</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>section:mcq_ii</text></tag>
+    <tag><text>class:class_11</text></tag>
+    <tag><text>chapter:mechanical_properties_of_fluids</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:easy</text></tag>
+    <tag><text>blooms:apply</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:text</text></tag>
     <tag><text>multiconcept:false</text></tag>
   </tags>
 </question>

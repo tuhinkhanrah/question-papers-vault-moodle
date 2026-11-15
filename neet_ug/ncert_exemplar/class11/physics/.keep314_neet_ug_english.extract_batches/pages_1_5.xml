@@ -1,82 +1,507 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <quiz>
 <question type="multichoice">
-  <name><text>NEET_UG_PHYSICS_OSCILLATIONS_MCQ_Q14_15 - True properties of simple harmonic oscillator</text></name>
-  <questiontext format="html">
-    <text><![CDATA[<p>Which of the following statements is/are true for a simple harmonic oscillator?</p>]]></text>
-  </questiontext>
-  <generalfeedback format="html">
-    <text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br />Simple harmonic motion is defined by a linear restoring force law and harmonic time dependence of displacement, velocity, and acceleration.</p>
-<p><strong>Step 2: Evaluation of Force Characteristics</strong><br />The restoring force governing a simple harmonic oscillator is given by Hooke's law: \[F = -kx\] where \(k\) is the force constant and \(x\) is the displacement from the mean position. The negative sign signifies that the force is directed opposite to the displacement vector. Thus, the statement that the force acting is directly proportional to displacement from the mean position and opposite to it is true.</p>
-<p><strong>Step 3: Evaluation of Periodicity and Kinematics</strong><br />The displacement of a simple harmonic oscillator is given by \(x(t) = A \sin(\omega t + \phi)\), which repeats identically after every time period \(T = \frac{2\pi}{\omega}\). Hence, the motion is periodic.<br />The acceleration of the oscillator is \[a(t) = -\omega^2 x(t) = -\omega^2 A \sin(\omega t + \phi)\] Because acceleration depends continuously on displacement \(x\), it changes from zero at the equilibrium position to a maximum value at the extreme points, meaning the acceleration is not constant.<br />The velocity of the oscillator is given by \[v(t) = \frac{dx}{dt} = \omega A \cos(\omega t + \phi)\] This velocity function is harmonic and repeats identically with time period \(T = \frac{2\pi}{\omega}\), making the velocity periodic.</p>
-<p><strong>Step 4: Check and Final Conclusion</strong><br />The true statements are that the force acting is directly proportional to displacement from the mean position and opposite to it, the motion is periodic, and the velocity is periodic.</p>]]></text>
-  </generalfeedback>
+  <name><text>PHYSICS_OSCILLATIONS_MCQI_MCQ_Q14_1 - Motion of a particle with cosine displacement</text></name>
+  <questiontext format="html"><text><![CDATA[<p>The displacement of a particle is represented by the equation</p>
+\[y = 3 \cos \left( \frac{\pi}{4} - 2\omega t \right).\]
+<p>The motion of the particle is</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>The displacement of the particle as a function of time \(t\) is given by \(y = 3 \cos \left( \frac{\pi}{4} - 2\omega t \right)\), where \(\omega\) is a positive constant.</p>
+<p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>Using the even property of the cosine function, \(\cos(-\theta) = \cos(\theta)\), the displacement equation can be rewritten in standard phase-angle form with a positive coefficient of \(t\).</p>
+<p><strong>Step 3: Relevant Formulae and Principles</strong><br/>A motion is simple harmonic if its displacement can be expressed in the form \(y = A \cos(\Omega t + \phi)\) or \(y = A \sin(\Omega t + \phi)\), where \(A\) is the amplitude, \(\Omega\) is the angular frequency, and \(\phi\) is the initial phase. The time period \(T\) of such a simple harmonic motion is given by \(T = \frac{2\pi}{\Omega}\).</p>
+<p><strong>Step 4: Step-by-Step Working</strong><br/>Rewriting the given equation:<br/>
+\[y = 3 \cos \left( 2\omega t - \frac{\pi}{4} \right)\]
+Comparing this with \(y = A \cos(\Omega t + \phi)\), we identify the amplitude \(A = 3\), the initial phase \(\phi = -\frac{\pi}{4}\), and the angular frequency \(\Omega = 2\omega\).<br/>
+The time period of oscillation is:<br/>
+\[T = \frac{2\pi}{\Omega} = \frac{2\pi}{2\omega} = \frac{\pi}{\omega}\]</p>
+<p><strong>Step 5: Check and Final Answer</strong><br/>Since \(y\) is a single harmonic function of time with constant amplitude and angular frequency \(2\omega\), the motion is simple harmonic with period \(\frac{\pi}{\omega}\).</p>]]></text></generalfeedback>
   <defaultgrade>4.0000000</defaultgrade>
   <penalty>0.2500000</penalty>
   <hidden>0</hidden>
-  <single>false</single>
+  <single>true</single>
   <shuffleanswers>true</shuffleanswers>
   <answernumbering>abc</answernumbering>
-  <answer fraction="33.33333" format="html">
-    <text><![CDATA[<p>Force acting is directly proportional to displacement from the mean position and opposite to it.</p>]]></text>
-  </answer>
-  <answer fraction="33.33333" format="html">
-    <text><![CDATA[<p>Motion is periodic.</p>]]></text>
-  </answer>
-  <answer fraction="-50" format="html">
-    <text><![CDATA[<p>Acceleration of the oscillator is constant.</p>]]></text>
-  </answer>
-  <answer fraction="33.33333" format="html">
-    <text><![CDATA[<p>The velocity is periodic.</p>]]></text>
-  </answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>simple harmonic with period \(2\pi/\omega\)</p>]]></text></answer>
+  <answer fraction="100" format="html"><text><![CDATA[<p>simple harmonic with period \(\pi/\omega\)</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>periodic but not simple harmonic.</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>non-periodic.</p>]]></text></answer>
   <tags>
     <tag><text>standard:neet_ug</text></tag>
     <tag><text>lang:en</text></tag>
     <tag><text>subject:physics</text></tag>
-    <tag><text>class:class_11</text></tag>
+    <tag><text>section:mcq_i</text></tag>
+    <tag><text>class:11</text></tag>
     <tag><text>chapter:oscillations</text></tag>
     <tag><text>typology:mcq</text></tag>
     <tag><text>difficulty:easy</text></tag>
-    <tag><text>blooms:remember</text></tag>
+    <tag><text>blooms:apply</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:equation</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+<question type="multichoice">
+  <name><text>PHYSICS_OSCILLATIONS_MCQI_MCQ_Q14_2 - Motion represented by sine cubed function</text></name>
+  <questiontext format="html"><text><![CDATA[<p>The displacement of a particle is represented by the equation</p>
+\[y = \sin^3 \omega t.\]
+<p>The motion is</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>The displacement of the particle is given by \(y = \sin^3 \omega t\), where \(\omega\) is a constant.</p>
+<p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>A motion is periodic if there exists a smallest positive constant \(T\) (time period) such that \(y(t + T) = y(t)\) for all \(t\). It is simple harmonic only if it can be expressed as a single sine or cosine function of \(\Omega t + \phi\) (satisfying \(\frac{d^2y}{dt^2} = -\Omega^2 y\)).</p>
+<p><strong>Step 3: Relevant Formulae and Principles</strong><br/>Using the trigonometric identity for \(\sin 3\theta\):<br/>
+\[\sin 3\theta = 3\sin\theta - 4\sin^3\theta \implies \sin^3\theta = \frac{3\sin\theta - \sin 3\theta}{4}\]</p>
+<p><strong>Step 4: Step-by-Step Working</strong><br/>Substituting \(\theta = \omega t\):<br/>
+\[y = \frac{3}{4}\sin\omega t - \frac{1}{4}\sin 3\omega t\]
+Here, \(y\) is a superposition of two simple harmonic motions of angular frequencies \(\omega\) (with period \(T_1 = \frac{2\pi}{\omega}\)) and \(3\omega\) (with period \(T_2 = \frac{2\pi}{3\omega}\)).<br/>
+Since \(T_1 = 3T_2\), the function repeats itself after a least common period \(T = \frac{2\pi}{\omega}\), so the motion is periodic. However, because it contains two distinct angular frequencies (\(\omega\) and \(3\omega\)), \(\frac{d^2y}{dt^2}\) is not proportional to \(-y\), so it is not simple harmonic.</p>
+<p><strong>Step 5: Check and Final Answer</strong><br/>Checking \(y\left(t + \frac{2\pi}{\omega}\right) = \sin^3(\omega t + 2\pi) = \sin^3\omega t = y(t)\) confirms periodicity. Therefore, the motion is periodic but not simple harmonic.</p>]]></text></generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="0" format="html"><text><![CDATA[<p>non-periodic.</p>]]></text></answer>
+  <answer fraction="100" format="html"><text><![CDATA[<p>periodic but not simple harmonic.</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>simple harmonic with period \(2\pi/\omega\)</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>simple harmonic with period \(\pi/\omega\)</p>]]></text></answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>section:mcq_i</text></tag>
+    <tag><text>class:11</text></tag>
+    <tag><text>chapter:oscillations</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:medium</text></tag>
+    <tag><text>blooms:analyze</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:equation</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+<question type="multichoice">
+  <name><text>PHYSICS_OSCILLATIONS_MCQI_MCQ_Q14_3 - Acceleration displacement relation for simple harmonic motion</text></name>
+  <questiontext format="html"><text><![CDATA[<p>The relation between acceleration and displacement of four particles are given below. Which one of the particles is executing simple harmonic motion?</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>A particle executes simple harmonic motion (S.H.M.) if and only if its restoring force, and hence its acceleration \(a_x\), is directly proportional to its displacement \(x\) from the mean position and is directed opposite to the displacement.</p>
+<p><strong>Step 2: Mathematical Condition</strong><br/>The necessary and sufficient condition for linear S.H.M. is:<br/>
+\[a_x = -\omega^2 x\]
+where \(\omega^2\) is a positive constant. This means \(a_x\) must be linear in \(x\) (exponent of \(x\) is \(1\)) and carry a negative sign.</p>
+<p><strong>Step 3: Evaluation</strong><br/>Relations involving \(x^2\) are non-linear and do not represent S.H.M. The relation \(a_x = +2x\) has a positive sign, meaning acceleration is directed away from the equilibrium position, which leads to unstable motion rather than oscillation. Only the relation \(a_x = -2x\) is linear in \(x\) with a negative proportionality constant (\(-\omega^2 = -2\)).</p>
+<p><strong>Step 4: Final Conclusion</strong><br/>The particle obeying \(a_x = -2x\) is executing simple harmonic motion.</p>]]></text></generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="0" format="html"><text><![CDATA[<p>\(a_x = +2x\)</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>\(a_x = +2x^2\)</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>\(a_x = -2x^2\)</p>]]></text></answer>
+  <answer fraction="100" format="html"><text><![CDATA[<p>\(a_x = -2x\)</p>]]></text></answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>section:mcq_i</text></tag>
+    <tag><text>class:11</text></tag>
+    <tag><text>chapter:oscillations</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:easy</text></tag>
+    <tag><text>blooms:understand</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:equation</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+<question type="multichoice">
+  <name><text>PHYSICS_OSCILLATIONS_MCQI_MCQ_Q14_4 - Oscillating liquid column in a U-tube</text></name>
+  <questiontext format="html"><text><![CDATA[<p>Motion of an oscillating liquid column in a U-tube is</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>Consider a liquid of density \(\rho\) and total length \(L\) in a uniform U-tube of cross-sectional area \(A\).</p>
+<p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>Assume the liquid is incompressible and non-viscous (no damping). Let the liquid level in one limb be depressed by a small displacement \(y\) below the equilibrium level, so the level in the other limb rises by \(y\).</p>
+<p><strong>Step 3: Relevant Formulae and Principles</strong><br/>The difference in liquid levels between the two limbs is \(2y\). The restoring force \(F\) is the weight of this excess liquid column of height \(2y\):<br/>
+\[F = -(\text{mass of excess column}) \times g = -(A \cdot 2y \cdot \rho)g\]
+The total mass of the oscillating liquid column is \(m = A L \rho\). By Newton's second law, \(F = ma\).</p>
+<p><strong>Step 4: Step-by-Step Working</strong><br/>Equating \(ma = F\):<br/>
+\[(A L \rho) a = -2 A \rho g y\]
+Dividing both sides by \(A L \rho\):<br/>
+\[a = -\left(\frac{2g}{L}\right) y\]
+This has the form \(a = -\omega^2 y\) with \(\omega = \sqrt{\frac{2g}{L}}\). Thus, the motion is simple harmonic with time period:<br/>
+\[T = \frac{2\pi}{\omega} = 2\pi \sqrt{\frac{L}{2g}}\]</p>
+<p><strong>Step 5: Check and Final Answer</strong><br/>The density \(\rho\) cancels out completely in the expression for \(T\). Therefore, the motion is simple harmonic and its time period is independent of the density of the liquid.</p>]]></text></generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="0" format="html"><text><![CDATA[<p>periodic but not simple harmonic.</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>non-periodic.</p>]]></text></answer>
+  <answer fraction="100" format="html"><text><![CDATA[<p>simple harmonic and time period is independent of the density of the liquid.</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>simple harmonic and time-period is directly proportional to the density of the liquid.</p>]]></text></answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>section:mcq_i</text></tag>
+    <tag><text>class:11</text></tag>
+    <tag><text>chapter:oscillations</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:easy</text></tag>
+    <tag><text>blooms:understand</text></tag>
     <tag><text>calculation:light</text></tag>
     <tag><text>media:text</text></tag>
     <tag><text>multiconcept:false</text></tag>
   </tags>
 </question>
 <question type="multichoice">
-  <name><text>NEET_UG_PHYSICS_OSCILLATIONS_MCQ_Q14_16 - Physical quantities from displacement time graph</text></name>
-  <questiontext format="html">
-    <text><![CDATA[<p>The displacement time graph of a particle executing S.H.M. is shown in Fig. 14.5. Which of the following statement is/are true?</p>
-<p><img src="@@PLUGINFILE@@/img-4.jpeg" alt="Fig. 14.5" /></p>]]></text>
-  </questiontext>
-  <generalfeedback format="html">
-    <text><![CDATA[<p><strong>Step 1: Given Data and Curve Analysis</strong><br />The graph represents simple harmonic motion with displacement starting at positive maximum at \(t = 0\):<br />\[x(t) = A \cos(\omega t) = A \cos\left(\frac{2\pi t}{T}\right)\]<br />Velocity is given by \(v(t) = -\omega A \sin\left(\frac{2\pi t}{T}\right)\).<br />Acceleration is given by \(a(t) = -\omega^2 x(t) = -\omega^2 A \cos\left(\frac{2\pi t}{T}\right)\).<br />Restoring force is \(F(t) = -k x(t) = -m\omega^2 x(t)\).</p>
-<p><strong>Step 2: Evaluation at Specific Time Instants</strong><br />At \(t = \frac{T}{4}\):<br />\[x = A \cos\left(\frac{\pi}{2}\right) = 0\]<br />The particle is passing through the mean position, where the magnitude of velocity is maximum: \(|v| = \omega A = v_{\max}\). Hence, the velocity is maximum at \(t = \frac{T}{4}\).<br />At \(t = \frac{T}{2} = \frac{2T}{4}\):<br />\[x = A \cos(\pi) = -A\]<br />The particle is at the negative extreme position. Its velocity is zero, so kinetic energy is zero (\(\text{K.E.} = 0\)), while potential energy is maximum (\(\text{P.E.} = \frac{1}{2}kA^2\)). Thus, potential energy is not equal to kinetic energy at \(t = \frac{T}{2}\).<br />At \(t = \frac{3T}{4}\):<br />\[x = A \cos\left(\frac{3\pi}{2}\right) = 0\]<br />The displacement is zero, so the restoring force \(F = -kx = 0\). Hence, the force is zero at \(t = \frac{3T}{4}\).<br />At \(t = \frac{4T}{4} = T\):<br />\[x = A \cos(2\pi) = A\]<br />The particle is at the positive extreme position, where displacement has maximum magnitude, so the magnitude of acceleration \(|a| = \omega^2 A\) is maximum. Hence, the acceleration is maximum at \(t = \frac{4T}{4}\).</p>
-<p><strong>Step 3: Check and Final Conclusion</strong><br />The true statements are that the force is zero at \(t = \frac{3T}{4}\), the acceleration is maximum at \(t = \frac{4T}{4}\), and the velocity is maximum at \(t = \frac{T}{4}\).</p>]]></text>
-  </generalfeedback>
+  <name><text>PHYSICS_OSCILLATIONS_MCQI_MCQ_Q14_5 - Trajectory under mutually perpendicular simple harmonic motions</text></name>
+  <questiontext format="html"><text><![CDATA[<p>A particle is acted simultaneously by mutually perpendicular simple harmonic motions \(x = a \cos \omega t\) and \(y = a \sin \omega t\). The trajectory of motion of the particle will be</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>The particle's coordinates as functions of time \(t\) are \(x = a \cos \omega t\) and \(y = a \sin \omega t\), where \(a\) is the common amplitude and \(\omega\) is the angular frequency.</p>
+<p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>The \(x\) and \(y\) axes are mutually perpendicular Cartesian axes. To find the trajectory, we eliminate the time parameter \(t\) between the two equations.</p>
+<p><strong>Step 3: Relevant Formulae and Principles</strong><br/>Using the fundamental trigonometric identity:<br/>
+\[\cos^2 \theta + \sin^2 \theta = 1\]</p>
+<p><strong>Step 4: Step-by-Step Working</strong><br/>Squaring and adding the expressions for \(x\) and \(y\):<br/>
+\[x^2 + y^2 = (a \cos \omega t)^2 + (a \sin \omega t)^2 = a^2 (\cos^2 \omega t + \sin^2 \omega t) = a^2\]</p>
+<p><strong>Step 5: Check and Final Answer</strong><br/>The equation \(x^2 + y^2 = a^2\) is the standard equation of a circle of radius \(a\) centered at the origin. Hence, the trajectory of the particle is a circle.</p>]]></text></generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="0" format="html"><text><![CDATA[<p>an ellipse.</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>a parabola.</p>]]></text></answer>
+  <answer fraction="100" format="html"><text><![CDATA[<p>a circle.</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>a straight line.</p>]]></text></answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>section:mcq_i</text></tag>
+    <tag><text>class:11</text></tag>
+    <tag><text>chapter:oscillations</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:easy</text></tag>
+    <tag><text>blooms:apply</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:equation</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+<question type="multichoice">
+  <name><text>PHYSICS_OSCILLATIONS_MCQI_MCQ_Q14_6 - Superposition of sine and cosine harmonic motions</text></name>
+  <questiontext format="html"><text><![CDATA[<p>The displacement of a particle varies with time according to the relation</p>
+\[y = a \sin \omega t + b \cos \omega t.\]
+]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>The displacement of the particle is given by \(y = a \sin \omega t + b \cos \omega t\), where \(a\), \(b\), and \(\omega\) are constants.</p>
+<p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>We express the linear combination of \(\sin\omega t\) and \(\cos\omega t\) as a single harmonic function \(A \sin(\omega t + \phi)\) by introducing an auxiliary angle \(\phi\).</p>
+<p><strong>Step 3: Relevant Formulae and Principles</strong><br/>Let \(a = A \cos\phi\) and \(b = A \sin\phi\), where \(A > 0\). Using \(\sin(\omega t + \phi) = \sin\omega t \cos\phi + \cos\omega t \sin\phi\), the expression reduces to a single sine function.</p>
+<p><strong>Step 4: Step-by-Step Working</strong><br/>Squaring and adding \(a = A \cos\phi\) and \(b = A \sin\phi\):<br/>
+\[a^2 + b^2 = A^2(\cos^2\phi + \sin^2\phi) = A^2 \implies A = \sqrt{a^2 + b^2}\]
+Substituting back into the displacement relation:<br/>
+\[y = A \cos\phi \sin\omega t + A \sin\phi \cos\omega t = \sqrt{a^2 + b^2} \sin(\omega t + \phi)\]
+where \(\tan\phi = \frac{b}{a}\).</p>
+<p><strong>Step 5: Check and Final Answer</strong><br/>Since \(y\) is a single sine function of time with constant angular frequency \(\omega\), the motion is S.H.M. with amplitude \(\sqrt{a^2 + b^2}\).</p>]]></text></generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="0" format="html"><text><![CDATA[<p>The motion is oscillatory but not S.H.M.</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>The motion is S.H.M. with amplitude \(a + b\).</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>The motion is S.H.M. with amplitude \(a^2 + b^2\).</p>]]></text></answer>
+  <answer fraction="100" format="html"><text><![CDATA[<p>The motion is S.H.M. with amplitude \(\sqrt{a^2 + b^2}\).</p>]]></text></answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>section:mcq_i</text></tag>
+    <tag><text>class:11</text></tag>
+    <tag><text>chapter:oscillations</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:easy</text></tag>
+    <tag><text>blooms:apply</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:equation</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+<question type="multichoice">
+  <name><text>PHYSICS_OSCILLATIONS_MCQI_MCQ_Q14_7 - Resonance in coupled pendulums on elastic support</text></name>
+  <questiontext format="html"><text><![CDATA[<p>Four pendulums A, B, C and D are suspended from the same elastic support as shown in Fig. 14.1. A and C are of the same length, while B is smaller than A and D is larger than A. If A is given a transverse displacement,</p>
+<p><img src="@@PLUGINFILE@@/img-0.jpeg" alt="Four pendulums A, B, C and D suspended from an elastic support" /></p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>When pendulum A oscillates, it exerts a periodic driving force through the elastic horizontal support on the other pendulums B, C, and D. This sets B, C, and D into forced oscillations at the natural frequency of A.</p>
+<p><strong>Step 2: Formula and Frequency Relation</strong><br/>The natural frequency of a simple pendulum of length \(L\) is given by \(\nu = \frac{1}{2\pi}\sqrt{\frac{g}{L}}\). Thus, pendulums of equal length have the same natural frequency.</p>
+<p><strong>Step 3: Application (Resonance)</strong><br/>Since pendulums A and C have the same length, the natural frequency of C matches the driving frequency of A. Consequently, resonance occurs for pendulum C, resulting in maximum energy transfer from A to C. Pendulums B and D have different lengths and therefore different natural frequencies, so they vibrate with smaller amplitudes.</p>
+<p><strong>Step 4: Final Conclusion</strong><br/>Pendulum C will vibrate with maximum amplitude.</p>]]></text></generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="0" format="html"><text><![CDATA[<p>D will vibrate with maximum amplitude.</p>]]></text></answer>
+  <answer fraction="100" format="html"><text><![CDATA[<p>C will vibrate with maximum amplitude.</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>B will vibrate with maximum amplitude.</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>All the four will oscillate with equal amplitude.</p>]]></text></answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>section:mcq_i</text></tag>
+    <tag><text>class:11</text></tag>
+    <tag><text>chapter:oscillations</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:easy</text></tag>
+    <tag><text>blooms:understand</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:diagram</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+<question type="multichoice">
+  <name><text>PHYSICS_OSCILLATIONS_MCQI_MCQ_Q14_8 - X-projection of uniform circular motion</text></name>
+  <questiontext format="html"><text><![CDATA[<p>Figure 14.2 shows the circular motion of a particle. The radius of the circle, the period, sense of revolution and the initial position are indicated on the figure. The simple harmonic motion of the \(x\)-projection of the radius vector of the rotating particle P is</p>
+<p><img src="@@PLUGINFILE@@/img-1.jpeg" alt="Circular motion of particle P starting on the positive y-axis with clockwise rotation and period 30 s" /></p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>From the diagram, the radius of the reference circle is \(B\), the time period of revolution is \(T = 30\text{ s}\), the particle P starts at \(t = 0\) on the positive \(y\)-axis, and the sense of revolution is clockwise.</p>
+<p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>Measure the angular position \(\theta\) counterclockwise from the positive \(x\)-axis. At \(t = 0\), P is on the positive \(y\)-axis, so \(\theta_0 = \frac{\pi}{2}\). Since the rotation is clockwise, \(\theta(t)\) decreases with time at a constant angular speed \(\omega\).</p>
+<p><strong>Step 3: Relevant Formulae and Principles</strong><br/>The angular speed is \(\omega = \frac{2\pi}{T}\). At time \(t\), the angle with the positive \(x\)-axis is \(\theta(t) = \theta_0 - \omega t\), and the \(x\)-projection of the radius vector is \(x(t) = B \cos\theta(t)\).</p>
+<p><strong>Step 4: Step-by-Step Working</strong><br/>Substituting \(T = 30\text{ s}\):<br/>
+\[\omega = \frac{2\pi}{30}\]
+Thus, the angular position at time \(t\) is:<br/>
+\[\theta(t) = \frac{\pi}{2} - \frac{2\pi t}{30}\]
+The \(x\)-projection is:<br/>
+\[x(t) = B \cos\left(\frac{\pi}{2} - \frac{2\pi t}{30}\right) = B \sin\left(\frac{2\pi t}{30}\right)\]</p>
+<p><strong>Step 5: Check and Final Answer</strong><br/>At \(t = 0\), \(x(0) = 0\), and for small \(t > 0\), moving clockwise from the \(+y\)-axis moves the particle into the first quadrant where \(x > 0\), which matches \(B\sin\left(\frac{2\pi t}{30}\right) > 0\). Hence, the \(x\)-projection is \(x(t) = B \sin\left(\frac{2\pi t}{30}\right)\).</p>]]></text></generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="100" format="html"><text><![CDATA[<p>\(x(t) = \mathrm{B}\sin\left(\frac{2\pi t}{30}\right)\).</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>\(x(t) = \mathrm{B}\cos\left(\frac{\pi t}{15}\right)\).</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>\(x(t) = \mathrm{B}\sin\left(\frac{\pi t}{15} + \frac{\pi}{2}\right)\).</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>\(x(t) = \mathrm{B}\cos\left(\frac{\pi t}{15} + \frac{\pi}{2}\right)\).</p>]]></text></answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>section:mcq_i</text></tag>
+    <tag><text>class:11</text></tag>
+    <tag><text>chapter:oscillations</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:medium</text></tag>
+    <tag><text>blooms:apply</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:diagram</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+<question type="multichoice">
+  <name><text>PHYSICS_OSCILLATIONS_MCQI_MCQ_Q14_9 - Oscillatory but non-periodic cosine squared-time motion</text></name>
+  <questiontext format="html"><text><![CDATA[<p>The equation of motion of a particle is \(x = a \cos (\alpha t)^2\). The motion is</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>A motion is oscillatory if the particle moves back and forth repeatedly about a mean position between two fixed extreme limits. A motion is periodic if there exists a constant positive time period \(T\) such that \(x(t + T) = x(t)\) for all \(t\).</p>
+<p><strong>Step 2: Evaluation of Oscillatory Nature</strong><br/>In \(x = a \cos(\alpha^2 t^2)\), as \(t\) increases continuously, the argument \(\alpha^2 t^2\) increases continuously from \(0\) to \(\infty\). Consequently, \(\cos(\alpha^2 t^2)\) varies continuously between \(-1\) and \(+1\), so \(x\) moves back and forth between \(-a\) and \(+a\) about \(x = 0\). Thus, the motion is oscillatory.</p>
+<p><strong>Step 3: Evaluation of Periodicity</strong><br/>For the motion to be periodic with period \(T\), we would need \(\alpha^2(t + T)^2 - \alpha^2 t^2 = 2n\pi\) for some integer \(n\) independent of \(t\). However, \(\alpha^2(2tT + T^2)\) depends explicitly on \(t\), so no constant \(T > 0\) exists for which \(x(t + T) = x(t)\) for all \(t\).</p>
+<p><strong>Step 4: Final Conclusion</strong><br/>The motion is oscillatory but not periodic.</p>]]></text></generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="0" format="html"><text><![CDATA[<p>periodic but not oscillatory.</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>periodic and oscillatory.</p>]]></text></answer>
+  <answer fraction="100" format="html"><text><![CDATA[<p>oscillatory but not periodic.</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>neither periodic nor oscillatory.</p>]]></text></answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>section:mcq_i</text></tag>
+    <tag><text>class:11</text></tag>
+    <tag><text>chapter:oscillations</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:medium</text></tag>
+    <tag><text>blooms:analyze</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:equation</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+<question type="multichoice">
+  <name><text>PHYSICS_OSCILLATIONS_MCQI_MCQ_Q14_10 - Period from maximum speed and acceleration</text></name>
+  <questiontext format="html"><text><![CDATA[<p>A particle executing S.H.M. has a maximum speed of \(30~\mathrm{cm/s}\) and a maximum acceleration of \(60~\mathrm{cm/s^2}\). The period of oscillation is</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>Maximum speed of the particle, \(v_{\max} = 30~\mathrm{cm/s}\).<br/>
+Maximum acceleration of the particle, \(a_{\max} = 60~\mathrm{cm/s^2}\).</p>
+<p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>Let \(A\) be the amplitude and \(\omega\) be the angular frequency of the simple harmonic motion.</p>
+<p><strong>Step 3: Relevant Formulae and Principles</strong><br/>For S.H.M.:<br/>
+\[v_{\max} = \omega A\]
+\[a_{\max} = \omega^2 A\]
+\[T = \frac{2\pi}{\omega}\]</p>
+<p><strong>Step 4: Step-by-Step Working</strong><br/>Dividing \(a_{\max}\) by \(v_{\max}\):<br/>
+\[\omega = \frac{a_{\max}}{v_{\max}} = \frac{60~\mathrm{cm/s^2}}{30~\mathrm{cm/s}} = 2~\mathrm{rad/s}\]
+Calculating the time period \(T\):<br/>
+\[T = \frac{2\pi}{\omega} = \frac{2\pi}{2} = \pi~\mathrm{s}\]</p>
+<p><strong>Step 5: Check and Final Answer</strong><br/>The units simplify cleanly to seconds (\(\mathrm{s}\)). The period of oscillation is \(\pi~\mathrm{s}\).</p>]]></text></generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="100" format="html"><text><![CDATA[<p>\(\pi~\mathrm{s}\)</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>\(\frac{\pi}{2}~\mathrm{s}\).</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>\(2\pi~\mathrm{s}\).</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>\(\frac{\pi}{t}~\mathrm{s}\).</p>]]></text></answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>section:mcq_i</text></tag>
+    <tag><text>class:11</text></tag>
+    <tag><text>chapter:oscillations</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:easy</text></tag>
+    <tag><text>blooms:apply</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:text</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+<question type="multichoice">
+  <name><text>PHYSICS_OSCILLATIONS_MCQI_MCQ_Q14_11 - Oscillation frequency of mass between two springs</text></name>
+  <questiontext format="html"><text><![CDATA[<p>When a mass \(m\) is connected individually to two springs \(S_1\) and \(S_2\), the oscillation frequencies are \(\nu_1\) and \(\nu_2\). If the same mass is attached to the two springs as shown in Fig. 14.3, the oscillation frequency would be</p>
+<p><img src="@@PLUGINFILE@@/img-2.jpeg" alt="Mass m connected between two springs S1 and S2 fixed to rigid walls on a horizontal surface" /></p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>A mass \(m\) oscillates with frequencies \(\nu_1\) and \(\nu_2\) when attached individually to springs \(S_1\) (spring constant \(k_1\)) and \(S_2\) (spring constant \(k_2\)), respectively. In the given figure, the mass \(m\) is placed between the two springs, with the outer ends of \(S_1\) and \(S_2\) fixed to rigid walls.</p>
+<p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>Assume the horizontal surface is frictionless and both springs are massless and obey Hooke's law. When the mass is displaced by \(x\) to the right, \(S_1\) is stretched by \(x\) and \(S_2\) is compressed by \(x\).</p>
+<p><strong>Step 3: Relevant Formulae and Principles</strong><br/>The oscillation frequency of a spring-mass system is \(\nu = \frac{1}{2\pi}\sqrt{\frac{k}{m}}\). For the combined system, both restoring forces act toward the equilibrium position (to the left): \(F = -k_1 x - k_2 x = -(k_1 + k_2)x\), so the effective spring constant is \(k_{\text{eff}} = k_1 + k_2\).</p>
+<p><strong>Step 4: Step-by-Step Working</strong><br/>From the individual frequencies:<br/>
+\[k_1 = 4\pi^2 m \nu_1^2, \qquad k_2 = 4\pi^2 m \nu_2^2\]
+For the combined system, the frequency \(\nu\) satisfies:<br/>
+\[4\pi^2 m \nu^2 = k_{\text{eff}} = k_1 + k_2 = 4\pi^2 m (\nu_1^2 + \nu_2^2)\]
+Dividing by \(4\pi^2 m\) and taking the positive square root:<br/>
+\[\nu = \sqrt{\nu_1^2 + \nu_2^2}\]</p>
+<p><strong>Step 5: Check and Final Answer</strong><br/>Since the springs act in parallel, the effective stiffness increases, so \(\nu\) must be greater than both \(\nu_1\) and \(\nu_2\). Thus, the oscillation frequency is \(\sqrt{\nu_1^2 + \nu_2^2}\).</p>]]></text></generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="0" format="html"><text><![CDATA[<p>\(\nu_1 + \nu_2\).</p>]]></text></answer>
+  <answer fraction="100" format="html"><text><![CDATA[<p>\(\sqrt{\nu_1^2 + \nu_2^2}\).</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>\(\left(\frac{1}{\nu_1} + \frac{1}{\nu_2}\right)^{-1}\).</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>\(\sqrt{\nu_1^2 - \nu_2^2}\).</p>]]></text></answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>section:mcq_i</text></tag>
+    <tag><text>class:11</text></tag>
+    <tag><text>chapter:oscillations</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:medium</text></tag>
+    <tag><text>blooms:apply</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:diagram</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+<question type="multichoice">
+  <name><text>PHYSICS_OSCILLATIONS_MCQII_MCQ_Q14_12 - Rotation of earth about its axis</text></name>
+  <questiontext format="html"><text><![CDATA[<p>The rotation of earth about its axis is</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>A motion is periodic if it repeats itself identically after a fixed interval of time (its time period). A motion is simple harmonic if it is a to-and-fro oscillatory motion about a mean position under a linear restoring force proportional to displacement.</p>
+<p><strong>Step 2: Evaluation</strong><br/>The Earth completes one rotation about its axis in a fixed interval of time (one sidereal day, approximately \(24\text{ hours}\)) and repeats this state identically after every such interval. Therefore, the motion is periodic.</p>
+<p><strong>Step 3: Application</strong><br/>Because the Earth rotates continuously in the same sense rather than moving back and forth about a mean equilibrium position, it is not oscillatory and hence not simple harmonic motion.</p>
+<p><strong>Step 4: Final Conclusion</strong><br/>The rotation of the Earth about its axis is a periodic motion, and specifically it is periodic but not simple harmonic motion.</p>]]></text></generalfeedback>
   <defaultgrade>4.0000000</defaultgrade>
   <penalty>0.2500000</penalty>
   <hidden>0</hidden>
   <single>false</single>
   <shuffleanswers>true</shuffleanswers>
   <answernumbering>abc</answernumbering>
-  <answer fraction="33.33333" format="html">
-    <text><![CDATA[<p>The force is zero at \( t = \frac{3T}{4} \).</p>]]></text>
-  </answer>
-  <answer fraction="33.33333" format="html">
-    <text><![CDATA[<p>The acceleration is maximum at \( t = \frac{4T}{4} \).</p>]]></text>
-  </answer>
-  <answer fraction="33.33333" format="html">
-    <text><![CDATA[<p>The velocity is maximum at \( t = \frac{T}{4} \).</p>]]></text>
-  </answer>
-  <answer fraction="-50" format="html">
-    <text><![CDATA[<p>The P.E. is equal to K.E. of oscillation at \( t = \frac{T}{2} \).</p>]]></text>
-  </answer>
+  <answer fraction="50" format="html"><text><![CDATA[<p>periodic motion.</p>]]></text></answer>
+  <answer fraction="-50" format="html"><text><![CDATA[<p>simple harmonic motion.</p>]]></text></answer>
+  <answer fraction="50" format="html"><text><![CDATA[<p>periodic but not simple harmonic motion.</p>]]></text></answer>
+  <answer fraction="-50" format="html"><text><![CDATA[<p>non-periodic motion.</p>]]></text></answer>
   <tags>
     <tag><text>standard:neet_ug</text></tag>
     <tag><text>lang:en</text></tag>
     <tag><text>subject:physics</text></tag>
-    <tag><text>class:class_11</text></tag>
+    <tag><text>section:mcq_ii</text></tag>
+    <tag><text>class:11</text></tag>
+    <tag><text>chapter:oscillations</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:easy</text></tag>
+    <tag><text>blooms:understand</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:text</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+<question type="multichoice">
+  <name><text>PHYSICS_OSCILLATIONS_MCQII_MCQ_Q14_13 - Motion of ball bearing in smooth curved bowl</text></name>
+  <questiontext format="html"><text><![CDATA[<p>Motion of a ball bearing inside a smooth curved bowl, when released from a point slightly above the lower point is</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>When a ball bearing is displaced slightly from the lowest point (equilibrium position) of a smooth curved bowl of radius of curvature \(R\), gravity provides a restoring force tangential to the surface.</p>
+<p><strong>Step 2: Evaluation</strong><br/>For small angular displacement \(\theta\) from the lowest point, the tangential restoring force is \(F = -mg\sin\theta \approx -mg\theta = -mg\frac{s}{R}\), where \(s = R\theta\) is the arc displacement. Since the restoring force is directly proportional to displacement \(s\) and opposite to it, the motion is simple harmonic (with \(T = 2\pi\sqrt{\frac{R}{g}}\) for sliding on a smooth surface).</p>
+<p><strong>Step 3: Application</strong><br/>Every simple harmonic motion repeats itself after a constant time period \(T\), so it is also a periodic motion.</p>
+<p><strong>Step 4: Final Conclusion</strong><br/>The motion of the ball bearing is simple harmonic motion and therefore also a periodic motion.</p>]]></text></generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>false</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="50" format="html"><text><![CDATA[<p>simple harmonic motion.</p>]]></text></answer>
+  <answer fraction="-50" format="html"><text><![CDATA[<p>non-periodic motion.</p>]]></text></answer>
+  <answer fraction="50" format="html"><text><![CDATA[<p>periodic motion.</p>]]></text></answer>
+  <answer fraction="-50" format="html"><text><![CDATA[<p>periodic but not S.H.M.</p>]]></text></answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>section:mcq_ii</text></tag>
+    <tag><text>class:11</text></tag>
+    <tag><text>chapter:oscillations</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:easy</text></tag>
+    <tag><text>blooms:understand</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:text</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+<question type="multichoice">
+  <name><text>PHYSICS_OSCILLATIONS_MCQII_MCQ_Q14_14 - Phase comparison from displacement-time graph</text></name>
+  <questiontext format="html"><text><![CDATA[<p>Displacement vs. time curve for a particle executing S.H.M. is shown in Fig. 14.4. Choose the correct statements.</p>
+<p><img src="@@PLUGINFILE@@/img-3.jpeg" alt="Displacement versus time curve of an oscillator with period 4 s" /></p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>From the displacement-time graph, the oscillator starts at maximum positive displacement at \(t = 0\text{ s}\), crosses zero going downward at \(t = 1\text{ s}\), reaches maximum negative displacement at \(t = 2\text{ s}\), crosses zero going upward at \(t = 3\text{ s}\), and returns to maximum positive displacement at \(t = 4\text{ s}\). Thus, the time period is \(T = 4\text{ s}\).</p>
+<p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>Two states of an oscillator have the same phase (modulo \(2\pi\)) if and only if both their displacements and velocities (slopes of the \(x\)-\(t\) graph) are identical, which occurs whenever the time difference \(\Delta t\) is an integer multiple of the time period \(T = 4\text{ s}\).</p>
+<p><strong>Step 3: Relevant Formulae and Principles</strong><br/>Phase difference \(\Delta \phi = \frac{2\pi}{T}\Delta t\). The phase is the same when \(\Delta \phi = 2n\pi\), i.e., \(\Delta t = nT = 4n\text{ s}\).</p>
+<p><strong>Step 4: Step-by-Step Working</strong><br/>Checking each pair of times:<br/>
+- Between \(t = 0\text{ s}\) and \(t = 2\text{ s}\): \(\Delta t = 2\text{ s} = \frac{T}{2}\), so the phase differs by \(\pi\) (opposite displacements).<br/>
+- Between \(t = 2\text{ s}\) and \(t = 6\text{ s}\): \(\Delta t = 4\text{ s} = T\), so the phase is the same.<br/>
+- Between \(t = 1\text{ s}\) and \(t = 7\text{ s}\): \(\Delta t = 6\text{ s} = \frac{3T}{2}\), so the phase differs by \(3\pi\) (opposite velocities).<br/>
+- Between \(t = 1\text{ s}\) and \(t = 5\text{ s}\): \(\Delta t = 4\text{ s} = T\), so the phase is the same.</p>
+<p><strong>Step 5: Check and Final Answer</strong><br/>The phase of the oscillator is the same at \(t = 2\text{ s}\) and \(t = 6\text{ s}\), and also at \(t = 1\text{ s}\) and \(t = 5\text{ s}\).</p>]]></text></generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>false</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="-50" format="html"><text><![CDATA[<p>Phase of the oscillator is same at \(t = 0\text{ s}\) and \(t = 2\text{ s}\).</p>]]></text></answer>
+  <answer fraction="50" format="html"><text><![CDATA[<p>Phase of the oscillator is same at \(t = 2\text{ s}\) and \(t = 6\text{ s}\).</p>]]></text></answer>
+  <answer fraction="-50" format="html"><text><![CDATA[<p>Phase of the oscillator is same at \(t = 1\text{ s}\) and \(t = 7\text{ s}\).</p>]]></text></answer>
+  <answer fraction="50" format="html"><text><![CDATA[<p>Phase of the oscillator is same at \(t = 1\text{ s}\) and \(t = 5\text{ s}\).</p>]]></text></answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>section:mcq_ii</text></tag>
+    <tag><text>class:11</text></tag>
     <tag><text>chapter:oscillations</text></tag>
     <tag><text>typology:mcq</text></tag>
     <tag><text>difficulty:medium</text></tag>
@@ -87,42 +512,31 @@
   </tags>
 </question>
 <question type="multichoice">
-  <name><text>NEET_UG_PHYSICS_OSCILLATIONS_MCQ_Q14_17 - Energy and velocity relationships in simple harmonic motion</text></name>
-  <questiontext format="html">
-    <text><![CDATA[<p>A body is performing S.H.M. Then its</p>]]></text>
-  </questiontext>
-  <generalfeedback format="html">
-    <text><![CDATA[<p><strong>Step 1: Formulae and Energy Relations</strong><br />Let the displacement be \(x(t) = A \sin(\omega t)\), with velocity \(v(t) = v_{\max} \cos(\omega t)\), where \(v_{\max} = \omega A\).<br />The total mechanical energy at any instant is \[E = \frac{1}{2} m \omega^2 A^2\] The kinetic energy is \[K(t) = \frac{1}{2} m v(t)^2 = \frac{1}{2} m v_{\max}^2 \cos^2(\omega t)\] The maximum kinetic energy occurs when \(\cos^2(\omega t) = 1\): \[K_{\max} = \frac{1}{2} m v_{\max}^2 = \frac{1}{2} m \omega^2 A^2\]</p>
-<p><strong>Step 2: Evaluation of Energy Quantities</strong><br />Total energy is constant throughout the motion, so its time average over a cycle is \[\langle E \rangle = E = K_{\max}\] Therefore, the average total energy per cycle is equal to the maximum kinetic energy.<br />The average kinetic energy over a cycle is \[\langle K \rangle = \frac{1}{2} m v_{\max}^2 \langle \cos^2(\omega t) \rangle = \frac{1}{2} m v_{\max}^2 \left(\frac{1}{2}\right) = \frac{1}{2} K_{\max}\] Therefore, the average kinetic energy per cycle is equal to half of the maximum kinetic energy.</p>
-<p><strong>Step 3: Evaluation of Velocity Averages</strong><br />The mean velocity over a complete cycle is the integral over one period: \[\langle v \rangle = \frac{1}{T} \int_0^T v_{\max} \cos(\omega t)\, dt = 0\] Because the particle travels equally in forward and reverse directions over a cycle, the mean velocity is zero, not \(\frac{2}{\pi} v_{\max}\).<br />The root mean square velocity is \[v_{\text{rms}} = \sqrt{\langle v^2 \rangle} = \sqrt{v_{\max}^2 \langle \cos^2(\omega t) \rangle} = \sqrt{\frac{v_{\max}^2}{2}} = \frac{1}{\sqrt{2}} v_{\max}\] Therefore, the root mean square velocity is \(\frac{1}{\sqrt{2}}\) times the maximum velocity.</p>
-<p><strong>Step 4: Check and Final Conclusion</strong><br />The true statements are that the average total energy per cycle is equal to maximum kinetic energy, the average kinetic energy per cycle is equal to half of maximum kinetic energy, and the root mean square velocity is \(\frac{1}{\sqrt{2}}\) times maximum velocity.</p>]]></text>
-  </generalfeedback>
+  <name><text>PHYSICS_OSCILLATIONS_MCQII_MCQ_Q14_15 - Properties of a simple harmonic oscillator</text></name>
+  <questiontext format="html"><text><![CDATA[<p>Which of the following statements is/are true for a simple harmonic oscillator?</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>A simple harmonic oscillator is defined by a restoring force \(F = -kx\) acting towards the mean position (\(x = 0\)), resulting in displacement \(x(t) = A\sin(\omega t + \phi)\).</p>
+<p><strong>Step 2: Evaluation of Force and Acceleration</strong><br/>Because \(F = -kx\), the force acting on the oscillator is directly proportional to its displacement from the mean position and opposite to it. Since acceleration is \(a = \frac{F}{m} = -\frac{k}{m}x = -\omega^2 x\), the acceleration varies linearly with \(x\) and is not constant.</p>
+<p><strong>Step 3: Evaluation of Periodicity of Motion and Velocity</strong><br/>Both displacement \(x(t) = A\sin(\omega t + \phi)\) and velocity \(v(t) = \omega A \cos(\omega t + \phi)\) repeat their values after every time period \(T = \frac{2\pi}{\omega}\). Therefore, both the motion and the velocity are periodic.</p>
+<p><strong>Step 4: Final Conclusion</strong><br/>For a simple harmonic oscillator, the force is directly proportional to displacement from the mean position and opposite to it, the motion is periodic, and the velocity is periodic.</p>]]></text></generalfeedback>
   <defaultgrade>4.0000000</defaultgrade>
   <penalty>0.2500000</penalty>
   <hidden>0</hidden>
   <single>false</single>
   <shuffleanswers>true</shuffleanswers>
   <answernumbering>abc</answernumbering>
-  <answer fraction="33.33333" format="html">
-    <text><![CDATA[<p>average total energy per cycle is equal to its maximum kinetic energy.</p>]]></text>
-  </answer>
-  <answer fraction="33.33333" format="html">
-    <text><![CDATA[<p>average kinetic energy per cycle is equal to half of its maximum kinetic energy.</p>]]></text>
-  </answer>
-  <answer fraction="-50" format="html">
-    <text><![CDATA[<p>mean velocity over a complete cycle is equal to \(\frac{2}{\pi}\) times of its maximum velocity.</p>]]></text>
-  </answer>
-  <answer fraction="33.33333" format="html">
-    <text><![CDATA[<p>root mean square velocity is \(\frac{1}{\sqrt{2}}\) times of its maximum velocity.</p>]]></text>
-  </answer>
+  <answer fraction="33.33333" format="html"><text><![CDATA[<p>Force acting is directly proportional to displacement from the mean position and opposite to it.</p>]]></text></answer>
+  <answer fraction="33.33333" format="html"><text><![CDATA[<p>Motion is periodic.</p>]]></text></answer>
+  <answer fraction="-50" format="html"><text><![CDATA[<p>Acceleration of the oscillator is constant.</p>]]></text></answer>
+  <answer fraction="33.33333" format="html"><text><![CDATA[<p>The velocity is periodic.</p>]]></text></answer>
   <tags>
     <tag><text>standard:neet_ug</text></tag>
     <tag><text>lang:en</text></tag>
     <tag><text>subject:physics</text></tag>
-    <tag><text>class:class_11</text></tag>
+    <tag><text>section:mcq_ii</text></tag>
+    <tag><text>class:11</text></tag>
     <tag><text>chapter:oscillations</text></tag>
     <tag><text>typology:mcq</text></tag>
-    <tag><text>difficulty:medium</text></tag>
+    <tag><text>difficulty:easy</text></tag>
     <tag><text>blooms:understand</text></tag>
     <tag><text>calculation:light</text></tag>
     <tag><text>media:text</text></tag>
@@ -130,45 +544,114 @@
   </tags>
 </question>
 <question type="multichoice">
-  <name><text>NEET_UG_PHYSICS_OSCILLATIONS_MCQ_Q14_18 - Sign of velocity acceleration and restoring force</text></name>
-  <questiontext format="html">
-    <text><![CDATA[<p>A particle is in linear simple harmonic motion between two points A and B, 10 cm apart (Fig. 14.6). Take the direction from A to B as the +ve direction and choose the correct statements.</p>
-<p><img src="@@PLUGINFILE@@/img-5.jpeg" alt="Fig. 14.6" /></p>
-<p>\[\mathrm{AO} = \mathrm{OB} = 5\mathrm{cm}\]</p>
-<p>\[\mathrm{BC} = 8\mathrm{cm}\]</p>]]></text>
-  </questiontext>
-  <generalfeedback format="html">
-    <text><![CDATA[<p><strong>Step 1: Given Data and Sign Convention</strong><br />Points along the line from right to left are arranged as A, C, O, B.<br />Total path length between extremes: \(\mathrm{AB} = 10\text{ cm}\).<br />Midpoint O is the equilibrium position: \(\mathrm{AO} = \mathrm{OB} = 5\text{ cm}\).<br />Point C lies between O and A: since \(\mathrm{BC} = 8\text{ cm}\) and \(\mathrm{BO} = 5\text{ cm}\), \(\mathrm{OC} = 3\text{ cm}\) (towards A), and \(\mathrm{AC} = 2\text{ cm}\).<br />Convention: The direction from A to B is defined as the positive (+ve) direction. Therefore, the opposite direction from B to A is negative (-ve).</p>
-<p><strong>Step 2: Physics Principles for Direction of Quantities</strong><br />Velocity is positive if the particle travels from A towards B, and negative if it travels from B towards A.<br />Restoring force in simple harmonic motion always acts toward the equilibrium position O: \[F = -kx\] Acceleration has the same direction and sign as the net restoring force: \[a = \frac{F}{m}\]</p>
-<p><strong>Step 3: Analysis of the Scenarios</strong><br />Particle is \(3\text{ cm}\) away from A going towards B:<br />Since the particle is between A and O (at \(2\text{ cm}\) from O on the A side) moving towards B, its velocity is directed toward B, which is positive.<br />Because the particle is on the A side of the mean position O, the restoring force towards O is directed toward B (positive direction). Consequently, the restoring force and acceleration are both positive.<br />Thus, the signs of velocity, acceleration, and force are all positive.<br />Particle at C going towards O:<br />Point C is on the A side of O. Moving from C toward O means traveling toward B, which is the positive direction. Therefore, the velocity of the particle is positive, not negative.<br />Particle is \(4\text{ cm}\) away from B going towards A:<br />The particle is between B and O (at \(1\text{ cm}\) from O on the B side) moving toward A. Moving toward A is in the negative direction, so velocity is negative.<br />Because the particle is on the B side of O, the restoring force towards O is directed toward A, which is the negative direction. Hence, force and acceleration are both negative.<br />Thus, the signs of velocity, acceleration, and force are all negative.<br />Particle at point B:<br />Point B is the negative extreme position. The restoring force is directed towards the equilibrium position O (from B towards A), which is the negative direction. Hence, the acceleration and force on the particle are negative.</p>
-<p><strong>Step 4: Check and Final Conclusion</strong><br />The correct statements are that the sign of velocity, acceleration, and force when the particle is \(3\text{ cm}\) away from A going towards B are positive; the sign of velocity, acceleration, and force when it is \(4\text{ cm}\) away from B going towards A are negative; and the sign of acceleration and force at point B is negative.</p>]]></text>
-  </generalfeedback>
+  <name><text>PHYSICS_OSCILLATIONS_MCQII_MCQ_Q14_16 - Force, acceleration, velocity and energy from SHM graph</text></name>
+  <questiontext format="html"><text><![CDATA[<p>The displacement time graph of a particle executing S.H.M. is shown in Fig. 14.5. Which of the following statement is/are true?</p>
+<p><img src="@@PLUGINFILE@@/img-4.jpeg" alt="Displacement time graph of S.H.M. starting from positive extreme at t=0 with period T" /></p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>From the displacement-time graph, at \(t = 0\) the displacement is \(+A\), at \(t = \frac{T}{4}\) it is \(0\), at \(t = \frac{2T}{4} = \frac{T}{2}\) it is \(-A\), at \(t = \frac{3T}{4}\) it is \(0\), and at \(t = T = \frac{4T}{4}\) it is \(+A\).</p>
+<p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>For a particle executing S.H.M. with displacement \(x\): restoring force \(F = -kx\), acceleration \(a = -\omega^2 x\), speed \(v = \omega\sqrt{A^2 - x^2}\), potential energy \(\text{P.E.} = \frac{1}{2}kx^2\), and kinetic energy \(\text{K.E.} = \frac{1}{2}k(A^2 - x^2)\).</p>
+<p><strong>Step 3: Relevant Formulae and Principles</strong><br/>At the mean position (\(x = 0\)), \(F = 0\), \(a = 0\), and speed \(v\) is maximum. At the extreme positions (\(x = \pm A\)), \(|a|\) is maximum, \(\text{K.E.} = 0\), and \(\text{P.E.}\) is maximum.</p>
+<p><strong>Step 4: Step-by-Step Working</strong><br/>- At \(t = \frac{3T}{4}\): \(x = 0\), so \(F = -kx = 0\).<br/>
+- At \(t = \frac{4T}{4} = T\): \(x = +A\) (extreme position), so the magnitude of acceleration \(|a| = \omega^2 A\) is maximum.<br/>
+- At \(t = \frac{T}{4}\): \(x = 0\) (mean position), so the speed is maximum.<br/>
+- At \(t = \frac{T}{2}\): \(x = -A\) (extreme position), so \(\text{K.E.} = 0\) while \(\text{P.E.} = \frac{1}{2}kA^2\), meaning \(\text{P.E.} \neq \text{K.E.}\).</p>
+<p><strong>Step 5: Check and Final Answer</strong><br/>Thus, the force is zero at \(t = \frac{3T}{4}\), the acceleration is maximum at \(t = \frac{4T}{4}\), and the velocity is maximum at \(t = \frac{T}{4}\).</p>]]></text></generalfeedback>
   <defaultgrade>4.0000000</defaultgrade>
   <penalty>0.2500000</penalty>
   <hidden>0</hidden>
   <single>false</single>
   <shuffleanswers>true</shuffleanswers>
   <answernumbering>abc</answernumbering>
-  <answer fraction="33.33333" format="html">
-    <text><![CDATA[<p>The sign of velocity, acceleration and force on the particle when it is \(3\mathrm{cm}\) away from A going towards B are positive.</p>]]></text>
-  </answer>
-  <answer fraction="-50" format="html">
-    <text><![CDATA[<p>The sign of velocity of the particle at C going towards O is negative.</p>]]></text>
-  </answer>
-  <answer fraction="33.33333" format="html">
-    <text><![CDATA[<p>The sign of velocity, acceleration and force on the particle when it is \(4\mathrm{cm}\) away from B going towards A are negative.</p>]]></text>
-  </answer>
-  <answer fraction="33.33333" format="html">
-    <text><![CDATA[<p>The sign of acceleration and force on the particle when it is at point B is negative.</p>]]></text>
-  </answer>
+  <answer fraction="33.33333" format="html"><text><![CDATA[<p>The force is zero at \(t = \frac{3T}{4}\).</p>]]></text></answer>
+  <answer fraction="33.33333" format="html"><text><![CDATA[<p>The acceleration is maximum at \(t = \frac{4T}{4}\).</p>]]></text></answer>
+  <answer fraction="33.33333" format="html"><text><![CDATA[<p>The velocity is maximum at \(t = \frac{T}{4}\).</p>]]></text></answer>
+  <answer fraction="-50" format="html"><text><![CDATA[<p>The P.E. is equal to K.E. of oscillation at \(t = \frac{T}{2}\).</p>]]></text></answer>
   <tags>
     <tag><text>standard:neet_ug</text></tag>
     <tag><text>lang:en</text></tag>
     <tag><text>subject:physics</text></tag>
-    <tag><text>class:class_11</text></tag>
+    <tag><text>section:mcq_ii</text></tag>
+    <tag><text>class:11</text></tag>
     <tag><text>chapter:oscillations</text></tag>
     <tag><text>typology:mcq</text></tag>
-    <tag><text>difficulty:hard</text></tag>
+    <tag><text>difficulty:medium</text></tag>
+    <tag><text>blooms:analyze</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:graph</text></tag>
+    <tag><text>multiconcept:true</text></tag>
+  </tags>
+</question>
+<question type="multichoice">
+  <name><text>PHYSICS_OSCILLATIONS_MCQII_MCQ_Q14_17 - Average energy and velocity in simple harmonic motion</text></name>
+  <questiontext format="html"><text><![CDATA[<p>A body is performing S.H.M. Then its</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>Consider a body of mass \(m\) performing S.H.M. with amplitude \(A\) and angular frequency \(\omega\), so \(x = A\sin\omega t\) and \(v = v_{\max}\cos\omega t\), where \(v_{\max} = \omega A\).</p>
+<p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>Mechanical energy is conserved during ideal S.H.M. Averages are computed over one complete cycle of time period \(T = \frac{2\pi}{\omega}\).</p>
+<p><strong>Step 3: Relevant Formulae and Principles</strong><br/>Maximum kinetic energy: \(K_{\max} = \frac{1}{2}mv_{\max}^2\).<br/>
+Total mechanical energy: \(E = \frac{1}{2}m\omega^2 A^2 = K_{\max}\) (constant).<br/>
+Average over one cycle: \(\langle \cos\omega t \rangle = 0\) and \(\langle \cos^2\omega t \rangle = \frac{1}{2}\).</p>
+<p><strong>Step 4: Step-by-Step Working</strong><br/>1. Average total energy per cycle: \(\langle E \rangle = E = K_{\max}\).<br/>
+2. Average kinetic energy per cycle: \(\langle K \rangle = \left\langle \frac{1}{2}mv_{\max}^2 \cos^2\omega t \right\rangle = \frac{1}{2}K_{\max}\).<br/>
+3. Mean velocity over a complete cycle: \(\langle v \rangle = \langle v_{\max}\cos\omega t \rangle = 0\) (since net displacement over one full cycle is zero; note that \(\frac{2}{\pi}v_{\max}\) is the mean speed, not mean velocity).<br/>
+4. Root mean square velocity: \(v_{\text{rms}} = \sqrt{\langle v^2 \rangle} = \sqrt{v_{\max}^2 \langle \cos^2\omega t \rangle} = \frac{v_{\max}}{\sqrt{2}}\).</p>
+<p><strong>Step 5: Check and Final Answer</strong><br/>Thus, the average total energy per cycle equals the maximum kinetic energy, the average kinetic energy per cycle equals half of the maximum kinetic energy, and the root mean square velocity is \(\frac{1}{\sqrt{2}}\) times the maximum velocity.</p>]]></text></generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>false</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="33.33333" format="html"><text><![CDATA[<p>average total energy per cycle is equal to its maximum kinetic energy.</p>]]></text></answer>
+  <answer fraction="33.33333" format="html"><text><![CDATA[<p>average kinetic energy per cycle is equal to half of its maximum kinetic energy.</p>]]></text></answer>
+  <answer fraction="-50" format="html"><text><![CDATA[<p>mean velocity over a complete cycle is equal to \(\frac{2}{\pi}\) times of its maximum velocity.</p>]]></text></answer>
+  <answer fraction="33.33333" format="html"><text><![CDATA[<p>root mean square velocity is \(\frac{1}{\sqrt{2}}\) times of its maximum velocity.</p>]]></text></answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>section:mcq_ii</text></tag>
+    <tag><text>class:11</text></tag>
+    <tag><text>chapter:oscillations</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:medium</text></tag>
+    <tag><text>blooms:analyze</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:text</text></tag>
+    <tag><text>multiconcept:true</text></tag>
+  </tags>
+</question>
+<question type="multichoice">
+  <name><text>PHYSICS_OSCILLATIONS_MCQII_MCQ_Q14_18 - Signs of velocity, acceleration and force in linear SHM</text></name>
+  <questiontext format="html"><text><![CDATA[<p>A particle is in linear simple harmonic motion between two points A and B, \(10\text{ cm}\) apart (Fig. 14.6). Take the direction from A to B as the +ve direction and choose the correct statements.</p>
+<p><img src="@@PLUGINFILE@@/img-5.jpeg" alt="Linear simple harmonic motion path showing points B, O, C, and A with AO = OB = 5 cm and BC = 8 cm" /></p>
+\[\mathrm{AO} = \mathrm{OB} = 5\mathrm{cm}\]
+\[\mathrm{BC} = 8\mathrm{cm}\]
+]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>The particle oscillates between extreme points A and B separated by \(10\text{ cm}\), with mean position O at the midpoint (\(AO = OB = 5\text{ cm}\)). Point C lies at \(BC = 8\text{ cm}\), so C is \(2\text{ cm}\) from A (i.e., \(3\text{ cm}\) from O on the A-side).</p>
+<p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>The direction from A to B is taken as positive (\(+\)). Consequently, the direction from B to A is negative (\(-\)). In S.H.M., the restoring force and acceleration are always directed towards the mean position O.</p>
+<p><strong>Step 3: Relevant Formulae and Principles</strong><br/>Restoring force \(F = -kx\) and acceleration \(a = -\omega^2 x\) always point towards O. Velocity is positive if motion is towards B, and negative if motion is towards A.</p>
+<p><strong>Step 4: Step-by-Step Working</strong><br/>- When \(3\text{ cm}\) away from A going towards B: the particle is between A and O. Moving towards B gives positive velocity. Being on the A-side of O, the restoring force and acceleration point towards O (which is the A-to-B direction), so acceleration and force are also positive.<br/>
+- At C going towards O: C is on the A-side of O, so moving from C towards O is in the A-to-B direction, meaning velocity is positive (not negative).<br/>
+- When \(4\text{ cm}\) away from B going towards A: the particle is between B and O. Moving towards A gives negative velocity. Being on the B-side of O, the restoring force and acceleration point towards O (which is the B-to-A direction), so acceleration and force are also negative.<br/>
+- At point B: the particle is at the B-side extreme, so the restoring force and acceleration point towards O (in the B-to-A direction), which is negative.</p>
+<p><strong>Step 5: Check and Final Answer</strong><br/>Therefore, velocity, acceleration, and force are all positive when \(3\text{ cm}\) from A going towards B; velocity, acceleration, and force are all negative when \(4\text{ cm}\) from B going towards A; and acceleration and force are negative at point B.</p>]]></text></generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>false</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="33.33333" format="html"><text><![CDATA[<p>The sign of velocity, acceleration and force on the particle when it is \(3\text{ cm}\) away from A going towards B are positive.</p>]]></text></answer>
+  <answer fraction="-50" format="html"><text><![CDATA[<p>The sign of velocity of the particle at C going towards O is negative.</p>]]></text></answer>
+  <answer fraction="33.33333" format="html"><text><![CDATA[<p>The sign of velocity, acceleration and force on the particle when it is \(4\text{ cm}\) away from B going towards A are negative.</p>]]></text></answer>
+  <answer fraction="33.33333" format="html"><text><![CDATA[<p>The sign of acceleration and force on the particle when it is at point B is negative.</p>]]></text></answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>section:mcq_ii</text></tag>
+    <tag><text>class:11</text></tag>
+    <tag><text>chapter:oscillations</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:medium</text></tag>
     <tag><text>blooms:analyze</text></tag>
     <tag><text>calculation:light</text></tag>
     <tag><text>media:diagram</text></tag>

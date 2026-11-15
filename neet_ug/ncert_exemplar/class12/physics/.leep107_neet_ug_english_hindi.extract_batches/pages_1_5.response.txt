@@ -1,1 +1,402 @@
-<quiz></quiz>
+<question type="multichoice">
+  <name><text>NEET_UG_PHYSICS_MCQI_ALTERNATINGCURRENT_Q7_1 - Current in an AC circuit after zero</text></name>
+  <questiontext format="html"><text><![CDATA[<p>7.1 If the rms current in a \(50\text{ Hz}\) ac circuit is \(5\text{ A}\), the value of the current \(\frac{1}{300}\text{ seconds}\) after its value becomes zero is</p><hr/><p>7.1 यदि किसी \(50\text{ Hz}\) प्रत्यावर्ती धारा परिपथ में वर्ग माध्य मूल (rms) धारा \(5\text{ A}\) है, तो इसके मान के शून्य होने के \(\frac{1}{300}\text{ सेकंड}\) बाद धारा का मान है</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>Frequency of the alternating current, \(f = 50\text{ Hz}\); root-mean-square current, \(I_{\text{rms}} = 5\text{ A}\); time elapsed after the current becomes zero, \(t = \frac{1}{300}\text{ s}\).</p><p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>Assume the alternating current varies sinusoidally with time and starts from zero at \(t = 0\) with positive slope, so \(I(t) = I_0 \sin(\omega t)\).</p><p><strong>Step 3: Relevant Formulae and Principles</strong><br/>Peak current \(I_0 = \sqrt{2}\,I_{\text{rms}}\), angular frequency \(\omega = 2\pi f\), and instantaneous current \(I(t) = I_0 \sin(\omega t)\).</p><p><strong>Step 4: Step-by-Step Working</strong><br/>Calculate the peak current: \(I_0 = 5\sqrt{2}\text{ A}\).<br/>Calculate the angular frequency: \(\omega = 2\pi \times 50 = 100\pi\text{ rad/s}\).<br/>Find the phase angle at \(t = \frac{1}{300}\text{ s}\): \(\omega t = 100\pi \times \frac{1}{300} = \frac{\pi}{3}\text{ rad}\).<br/>Substitute into the instantaneous current equation: \(I = 5\sqrt{2} \sin\left(\frac{\pi}{3}\right) = 5\sqrt{2} \times \frac{\sqrt{3}}{2} = 5\sqrt{\frac{3}{2}}\text{ A}\).</p><p><strong>Step 5: Check and Final Answer</strong><br/>The value \(5\sqrt{3/2}\text{ A} \approx 6.12\text{ A}\) lies between \(0\) and the peak value \(5\sqrt{2}\text{ A} \approx 7.07\text{ A}\), which is physically consistent. Thus, the current is \(5\sqrt{3/2}\text{ A}\).</p><hr/><p><strong>चरण 1: दिए गए आंकड़े और शर्तें</strong><br/>प्रत्यावर्ती धारा की आवृत्ति, \(f = 50\text{ Hz}\); वर्ग माध्य मूल धारा, \(I_{\text{rms}} = 5\text{ A}\); धारा के शून्य होने के बाद व्यतीत समय, \(t = \frac{1}{300}\text{ s}\)।</p><p><strong>चरण 2: मान्यताएँ और चिह्न परिपाटी</strong><br/>मान लें कि प्रत्यावर्ती धारा समय के साथ ज्यावक्रीय (sinusoidal) रूप से परिवर्तित होती है और \(t = 0\) पर शून्य से धनात्मक ढाल के साथ प्रारंभ होती है, अतः \(I(t) = I_0 \sin(\omega t)\)।</p><p><strong>चरण 3: संबंधित सूत्र और सिद्धांत</strong><br/>शिखर धारा \(I_0 = \sqrt{2}\,I_{\text{rms}}\), कोणीय आवृत्ति \(\omega = 2\pi f\), तथा तात्क्षणिक धारा \(I(t) = I_0 \sin(\omega t)\)।</p><p><strong>चरण 4: चरण-दर-चरण गणना</strong><br/>शिखर धारा की गणना: \(I_0 = 5\sqrt{2}\text{ A}\)।<br/>कोणीय आवृत्ति की गणना: \(\omega = 2\pi \times 50 = 100\pi\text{ rad/s}\)।<br/>\(t = \frac{1}{300}\text{ s}\) पर कला कोण ज्ञात करें: \(\omega t = 100\pi \times \frac{1}{300} = \frac{\pi}{3}\text{ rad}\)।<br/>तात्क्षणिक धारा के समीकरण में मान रखने पर: \(I = 5\sqrt{2} \sin\left(\frac{\pi}{3}\right) = 5\sqrt{2} \times \frac{\sqrt{3}}{2} = 5\sqrt{\frac{3}{2}}\text{ A}\)।</p><p><strong>चरण 5: जाँच और अंतिम उत्तर</strong><br/>मान \(5\sqrt{3/2}\text{ A} \approx 6.12\text{ A}\), शून्य और शिखर मान \(5\sqrt{2}\text{ A} \approx 7.07\text{ A}\) के बीच स्थित है, जो भौतिक रूप से संगत है। अतः धारा का मान \(5\sqrt{3/2}\text{ A}\) है।</p>]]></text></generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="0" format="html"><text><![CDATA[<p>\(5\sqrt{2}\text{ A}\)</p>]]></text></answer>
+  <answer fraction="100" format="html"><text><![CDATA[<p>\(5\sqrt{3/2}\text{ A}\)</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>\(\frac{5}{6}\text{ A}\)</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>\(\frac{5}{\sqrt{2}}\text{ A}\)</p>]]></text></answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:hi</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>section:mcq_i</text></tag>
+    <tag><text>class:12</text></tag>
+    <tag><text>chapter:alternating_current</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:easy</text></tag>
+    <tag><text>blooms:apply</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:text</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+
+<question type="multichoice">
+  <name><text>NEET_UG_PHYSICS_MCQI_ALTERNATINGCURRENT_Q7_2 - Load reactance for maximum power transfer</text></name>
+  <questiontext format="html"><text><![CDATA[<p>7.2 An alternating current generator has an internal resistance \(R_g\) and an internal reactance \(X_g\). It is used to supply power to a passive load consisting of a resistance \(R_g\) and a reactance \(X_L\). For maximum power to be delivered from the generator to the load, the value of \(X_L\) is equal to</p><hr/><p>7.2 एक प्रत्यावर्ती धारा जनित्र का आंतरिक प्रतिरोध \(R_g\) और आंतरिक प्रतिघात \(X_g\) है। इसका उपयोग एक निष्क्रिय लोड को शक्ति प्रदान करने के लिए किया जाता है जिसमें प्रतिरोध \(R_g\) और प्रतिघात \(X_L\) है। जनित्र से लोड को अधिकतम शक्ति प्रदान करने के लिए, \(X_L\) का मान किसके बराबर होगा?</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>Generator internal impedance \(Z_g = R_g + j X_g\); passive load impedance \(Z_L = R_g + j X_L\). Let the rms emf of the generator be \(E_{\text{rms}}\).</p><p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>Inductive reactance is taken as positive and capacitive reactance as negative. The generator and load are connected in a single closed series loop.</p><p><strong>Step 3: Relevant Formulae and Principles</strong><br/>Total impedance magnitude \(|Z_{\text{total}}| = \sqrt{(R_g + R_g)^2 + (X_g + X_L)^2}\). The average power delivered to the load resistance \(R_g\) is \(P = I_{\text{rms}}^2 R_g = \frac{E_{\text{rms}}^2 R_g}{(2R_g)^2 + (X_g + X_L)^2}\).</p><p><strong>Step 4: Step-by-Step Working</strong><br/>Since \(E_{\text{rms}}\) and \(R_g\) are fixed, \(P\) is maximized when the denominator \((2R_g)^2 + (X_g + X_L)^2\) is minimized.<br/>Because \((X_g + X_L)^2 \ge 0\), its minimum possible value is zero.<br/>Setting \((X_g + X_L)^2 = 0\) gives \(X_g + X_L = 0\), which yields \(X_L = -X_g\).</p><p><strong>Step 5: Check and Final Answer</strong><br/>When \(X_L = -X_g\), the net reactance of the circuit vanishes (resonance condition), minimizing impedance and maximizing current and power transfer. Thus, \(X_L = -X_g\).</p><hr/><p><strong>चरण 1: दिए गए आंकड़े और शर्तें</strong><br/>जनित्र की आंतरिक प्रतिबाधा \(Z_g = R_g + j X_g\); निष्क्रिय लोड की प्रतिबाधा \(Z_L = R_g + j X_L\)। मान लें कि जनित्र का वर्ग माध्य मूल विद्युत वाहक बल \(E_{\text{rms}}\) है।</p><p><strong>चरण 2: मान्यताएँ और चिह्न परिपाटी</strong><br/>प्रेरक प्रतिघात को धनात्मक और धारिता प्रतिघात को ऋणात्मक माना जाता है। जनित्र और लोड एकल बंद श्रेणी परिपथ में जुड़े हैं।</p><p><strong>चरण 3: संबंधित सूत्र और सिद्धांत</strong><br/>कुल प्रतिबाधा का परिमाण \(|Z_{\text{total}}| = \sqrt{(R_g + R_g)^2 + (X_g + X_L)^2}\)। लोड प्रतिरोध \(R_g\) को प्रदान की गई औसत शक्ति \(P = I_{\text{rms}}^2 R_g = \frac{E_{\text{rms}}^2 R_g}{(2R_g)^2 + (X_g + X_L)^2}\)।</p><p><strong>चरण 4: चरण-दर-चरण गणना</strong><br/>चूँकि \(E_{\text{rms}}\) और \(R_g\) नियत हैं, \(P\) अधिकतम तब होगा जब हर \((2R_g)^2 + (X_g + X_L)^2\) न्यूनतम हो।<br/>चूँकि \((X_g + X_L)^2 \ge 0\), इसका न्यूनतम संभव मान शून्य है।<br/>\((X_g + X_L)^2 = 0\) रखने पर \(X_g + X_L = 0\) प्राप्त होता है, जिससे \(X_L = -X_g\) मिलता है।</p><p><strong>चरण 5: जाँच और अंतिम उत्तर</strong><br/>जब \(X_L = -X_g\) होता है, तो परिपथ का कुल प्रतिघात शून्य हो जाता है (अनुनाद की स्थिति), जिससे प्रतिबाधा न्यूनतम तथा धारा और शक्ति स्थानांतरण अधिकतम हो जाते हैं। अतः \(X_L = -X_g\)।</p>]]></text></generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="0" format="html"><text><![CDATA[<p>zero.</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>\(X_g\).</p>]]></text></answer>
+  <answer fraction="100" format="html"><text><![CDATA[<p>\(-X_g\).</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>\(R_g\).</p>]]></text></answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:hi</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>section:mcq_i</text></tag>
+    <tag><text>class:12</text></tag>
+    <tag><text>chapter:alternating_current</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:medium</text></tag>
+    <tag><text>blooms:apply</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:text</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+
+<question type="multichoice">
+  <name><text>NEET_UG_PHYSICS_MCQI_ALTERNATINGCURRENT_Q7_3 - Steady 220 V reading on AC voltmeter</text></name>
+  <questiontext format="html"><text><![CDATA[<p>7.3 When a voltage measuring device is connected to AC mains, the meter shows the steady input voltage of \(220\text{ V}\). This means</p><hr/><p>7.3 जब एक वोल्टता मापक यंत्र को AC मेन्स से जोड़ा जाता है, तो मीटर \(220\text{ V}\) की स्थिर निविष्ट वोल्टता दर्शाता है। इसका अर्थ है कि</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>An alternating voltage varies sinusoidally with time as \(v = v_0 \sin(\omega t)\), so its average value over a complete cycle is zero. Standard AC voltmeters are designed to measure the root-mean-square (rms) value rather than the instantaneous or average voltage.</p><p><strong>Step 2: Evaluation</strong><br/>An AC voltmeter responds to the time-averaged square of the voltage, \(\langle v^2 \rangle\), because the heating or deflecting effect is proportional to \(v^2\). Its scale is calibrated to display \(\sqrt{\langle v^2 \rangle} = V_{\text{rms}}\).</p><p><strong>Step 3: Application</strong><br/>For domestic AC mains, the steady reading of \(220\text{ V}\) represents the rms value \(\sqrt{\langle v^2 \rangle}\), whereas the peak (maximum) voltage is \(220\sqrt{2}\text{ V} \approx 311\text{ V}\).</p><p><strong>Step 4: Final Conclusion</strong><br/>Therefore, the meter reads not \(v\) but \(\langle v^2 \rangle\) and is calibrated to read \(\sqrt{\langle v^2 \rangle}\).</p><hr/><p><strong>चरण 1: अवधारणात्मक सिद्धांत</strong><br/>प्रत्यावर्ती वोल्टता समय के साथ ज्यावक्रीय रूप से \(v = v_0 \sin(\omega t)\) के अनुसार बदलती है, इसलिए एक पूर्ण चक्र में इसका औसत मान शून्य होता है। मानक AC वोल्टमीटर तात्क्षणिक या औसत वोल्टता के बजाय वर्ग माध्य मूल (rms) मान को मापने के लिए बनाए जाते हैं।</p><p><strong>चरण 2: मूल्यांकन</strong><br/>एक AC वोल्टमीटर वोल्टता के समय-औसत वर्ग \(\langle v^2 \rangle\) के प्रति संवेदनशील होता है, क्योंकि ऊष्मीय या विक्षेपक प्रभाव \(v^2\) के समानुपाती होता है। इसका पैमाना \(\sqrt{\langle v^2 \rangle} = V_{\text{rms}}\) प्रदर्शित करने के लिए अंशांकित (calibrated) होता है।</p><p><strong>चरण 3: अनुप्रयोग</strong><br/>घरेलू AC मेन्स के लिए, \(220\text{ V}\) का स्थिर पाठ्यांक rms मान \(\sqrt{\langle v^2 \rangle}\) को दर्शाता है, जबकि शिखर (अधिकतम) वोल्टता \(220\sqrt{2}\text{ V} \approx 311\text{ V}\) होती है।</p><p><strong>चरण 4: अंतिम निष्कर्ष</strong><br/>अतः, मीटर \(v\) को नहीं बल्कि \(\langle v^2 \rangle\) को पढ़ता है और \(\sqrt{\langle v^2 \rangle}\) पढ़ने के लिए अंशांकित होता है।</p>]]></text></generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="0" format="html"><text><![CDATA[<p>input voltage cannot be AC voltage, but a DC voltage.</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>maximum input voltage is \(220\text{ V}\).</p>]]></text></answer>
+  <answer fraction="100" format="html"><text><![CDATA[<p>the meter reads not \(v\) but \(\langle v^2 \rangle\) and is calibrated to read \(\sqrt{\langle v^2 \rangle}\).</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>the pointer of the meter is stuck by some mechanical defect.</p>]]></text></answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:hi</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>section:mcq_i</text></tag>
+    <tag><text>class:12</text></tag>
+    <tag><text>chapter:alternating_current</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:easy</text></tag>
+    <tag><text>blooms:understand</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:text</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+
+<question type="multichoice">
+  <name><text>NEET_UG_PHYSICS_MCQI_ALTERNATINGCURRENT_Q7_4 - Reducing resonant frequency in LCR circuit</text></name>
+  <questiontext format="html"><text><![CDATA[<p>7.4 To reduce the resonant frequency in an LCR series circuit with a generator</p><hr/><p>7.4 जनित्र सहित किसी LCR श्रेणी परिपथ में अनुनादी आवृत्ति को कम करने के लिए</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>The resonant frequency \(f_0\) of a series LCR circuit depends solely on its inductance \(L\) and capacitance \(C\) according to \(f_0 = \frac{1}{2\pi\sqrt{LC}}\).</p><p><strong>Step 2: Evaluation</strong><br/>To decrease \(f_0\), the product \(LC\) must be increased—either by increasing \(L\) or by increasing \(C\). Changing the generator frequency does not alter the natural resonant frequency of the circuit. Removing the iron core reduces \(L\), and removing the dielectric reduces \(C\), both of which would increase \(f_0\).</p><p><strong>Step 3: Application</strong><br/>Connecting another capacitor in parallel with the existing capacitor increases the equivalent capacitance (\(C_{\text{eq}} = C_1 + C_2\)), which increases \(LC\) and therefore lowers the resonant frequency.</p><p><strong>Step 4: Final Conclusion</strong><br/>Hence, another capacitor should be added in parallel to the first.</p><hr/><p><strong>चरण 1: अवधारणात्मक सिद्धांत</strong><br/>श्रेणी LCR परिपथ की अनुनादी आवृत्ति \(f_0\) केवल इसके प्रेरकत्व \(L\) और धारिता \(C\) पर निर्भर करती है, जिसका सूत्र \(f_0 = \frac{1}{2\pi\sqrt{LC}}\) है।</p><p><strong>चरण 2: मूल्यांकन</strong><br/>\(f_0\) को कम करने के लिए गुणनफल \(LC\) को बढ़ाना आवश्यक है—अर्थात् या तो \(L\) बढ़ाया जाए या \(C\) बढ़ाया जाए। जनित्र की आवृत्ति बदलने से परिपथ की प्राकृतिक अनुनादी आवृत्ति नहीं बदलती। लोहे की क्रोड हटाने से \(L\) घटता है और परावैद्युत हटाने से \(C\) घटता है, जिससे \(f_0\) बढ़ जाएगा।</p><p><strong>चरण 3: अनुप्रयोग</strong><br/>पहले संधारित्र के समानांतर क्रम में एक अन्य संधारित्र जोड़ने से तुल्य धारिता (\(C_{\text{eq}} = C_1 + C_2\)) बढ़ जाती है, जिससे \(LC\) बढ़ता है और अनुनादी आवृत्ति कम हो जाती है।</p><p><strong>चरण 4: अंतिम निष्कर्ष</strong><br/>अतः, पहले संधारित्र के समानांतर क्रम में एक अन्य संधारित्र जोड़ा जाना चाहिए।</p>]]></text></generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="0" format="html"><text><![CDATA[<p>the generator frequency should be reduced.</p>]]></text></answer>
+  <answer fraction="100" format="html"><text><![CDATA[<p>another capacitor should be added in parallel to the first.</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>the iron core of the inductor should be removed.</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>dielectric in the capacitor should be removed.</p>]]></text></answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:hi</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>section:mcq_i</text></tag>
+    <tag><text>class:12</text></tag>
+    <tag><text>chapter:alternating_current</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:easy</text></tag>
+    <tag><text>blooms:apply</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:text</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+
+<question type="multichoice">
+  <name><text>NEET_UG_PHYSICS_MCQI_ALTERNATINGCURRENT_Q7_5 - Best LCR combination for communication tuning</text></name>
+  <questiontext format="html"><text><![CDATA[<p>7.5 Which of the following combinations should be selected for better tuning of an LCR circuit used for communication?</p><hr/><p>7.5 संचार के लिए प्रयुक्त किसी LCR परिपथ की बेहतर ट्यूनिंग (समस्वरण) के लिए निम्नलिखित में से कौन-सा संयोजन चुना जाना चाहिए?</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>Four combinations of \((R, L, C)\):<br/>(i) \(20\ \Omega, 1.5\text{ H}, 35\ \mu\text{F}\);<br/>(ii) \(25\ \Omega, 2.5\text{ H}, 45\ \mu\text{F}\);<br/>(iii) \(15\ \Omega, 3.5\text{ H}, 30\ \mu\text{F}\);<br/>(iv) \(25\ \Omega, 1.5\text{ H}, 45\ \mu\text{F}\).</p><p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>Better tuning in a communication receiver corresponds to a sharper resonance curve, which requires a higher quality factor \(Q\).</p><p><strong>Step 3: Relevant Formulae and Principles</strong><br/>Quality factor of a series LCR circuit: \(Q = \frac{1}{R}\sqrt{\frac{L}{C}}\).</p><p><strong>Step 4: Step-by-Step Working</strong><br/>Calculate \(Q\) for each combination:<br/>For \(R = 20\ \Omega, L = 1.5\text{ H}, C = 35\ \mu\text{F}\): \(Q_1 = \frac{1}{20}\sqrt{\frac{1.5}{35 \times 10^{-6}}} \approx 10.35\).<br/>For \(R = 25\ \Omega, L = 2.5\text{ H}, C = 45\ \mu\text{F}\): \(Q_2 = \frac{1}{25}\sqrt{\frac{2.5}{45 \times 10^{-6}}} \approx 9.43\).<br/>For \(R = 15\ \Omega, L = 3.5\text{ H}, C = 30\ \mu\text{F}\): \(Q_3 = \frac{1}{15}\sqrt{\frac{3.5}{30 \times 10^{-6}}} \approx 22.77\).<br/>For \(R = 25\ \Omega, L = 1.5\text{ H}, C = 45\ \mu\text{F}\): \(Q_4 = \frac{1}{25}\sqrt{\frac{1.5}{45 \times 10^{-6}}} \approx 7.30\).</p><p><strong>Step 5: Check and Final Answer</strong><br/>The combination \(R = 15\ \Omega, L = 3.5\text{ H}, C = 30\ \mu\text{F}\) has the smallest \(R\), largest \(L\), and smallest \(C\), giving the maximum quality factor \(Q \approx 22.77\). Thus, \(R = 15\ \Omega, L = 3.5\text{ H}, C = 30\ \mu\text{F}\) is best for tuning.</p><hr/><p><strong>चरण 1: दिए गए आंकड़े और शर्तें</strong><br/>\((R, L, C)\) के चार संयोजन दिए गए हैं:<br/>(i) \(20\ \Omega, 1.5\text{ H}, 35\ \mu\text{F}\);<br/>(ii) \(25\ \Omega, 2.5\text{ H}, 45\ \mu\text{F}\);<br/>(iii) \(15\ \Omega, 3.5\text{ H}, 30\ \mu\text{F}\);<br/>(iv) \(25\ \Omega, 1.5\text{ H}, 45\ \mu\text{F}\)।</p><p><strong>चरण 2: मान्यताएँ और चिह्न परिपाटी</strong><br/>संचार ग्राही में बेहतर ट्यूनिंग का अर्थ तीक्ष्ण अनुनाद वक्र से है, जिसके लिए उच्च गुणवत्ता गुणांक \(Q\) की आवश्यकता होती है।</p><p><strong>चरण 3: संबंधित सूत्र और सिद्धांत</strong><br/>श्रेणी LCR परिपथ का गुणवत्ता गुणांक: \(Q = \frac{1}{R}\sqrt{\frac{L}{C}}\) ।</p><p><strong>चरण 4: चरण-दर-चरण गणना</strong><br/>प्रत्येक संयोजन के लिए \(Q\) की गणना:<br/>\(R = 20\ \Omega, L = 1.5\text{ H}, C = 35\ \mu\text{F}\) के लिए: \(Q_1 = \frac{1}{20}\sqrt{\frac{1.5}{35 \times 10^{-6}}} \approx 10.35\)।<br/>\(R = 25\ \Omega, L = 2.5\text{ H}, C = 45\ \mu\text{F}\) के लिए: \(Q_2 = \frac{1}{25}\sqrt{\frac{2.5}{45 \times 10^{-6}}} \approx 9.43\)।<br/>\(R = 15\ \Omega, L = 3.5\text{ H}, C = 30\ \mu\text{F}\) के लिए: \(Q_3 = \frac{1}{15}\sqrt{\frac{3.5}{30 \times 10^{-6}}} \approx 22.77\)।<br/>\(R = 25\ \Omega, L = 1.5\text{ H}, C = 45\ \mu\text{F}\) के लिए: \(Q_4 = \frac{1}{25}\sqrt{\frac{1.5}{45 \times 10^{-6}}} \approx 7.30\)।</p><p><strong>चरण 5: जाँच और अंतिम उत्तर</strong><br/>संयोजन \(R = 15\ \Omega, L = 3.5\text{ H}, C = 30\ \mu\text{F}\) में \(R\) न्यूनतम, \(L\) अधिकतम और \(C\) न्यूनतम है, जिससे अधिकतम गुणवत्ता गुणांक \(Q \approx 22.77\) प्राप्त होता है। अतः ट्यूनिंग के लिए \(R = 15\ \Omega, L = 3.5\text{ H}, C = 30\ \mu\text{F}\) सर्वोत्तम है।</p>]]></text></generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="0" format="html"><text><![CDATA[<p>\(R = 20\ \Omega,\ L = 1.5\text{ H},\ C = 35\ \mu\text{F}\).</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>\(R = 25\ \Omega,\ L = 2.5\text{ H},\ C = 45\ \mu\text{F}\).</p>]]></text></answer>
+  <answer fraction="100" format="html"><text><![CDATA[<p>\(R = 15\ \Omega,\ L = 3.5\text{ H},\ C = 30\ \mu\text{F}\).</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>\(R = 25\ \Omega,\ L = 1.5\text{ H},\ C = 45\ \mu\text{F}\).</p>]]></text></answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:hi</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>section:mcq_i</text></tag>
+    <tag><text>class:12</text></tag>
+    <tag><text>chapter:alternating_current</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:medium</text></tag>
+    <tag><text>blooms:analyze</text></tag>
+    <tag><text>calculation:moderate</text></tag>
+    <tag><text>media:text</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+
+<question type="multichoice">
+  <name><text>NEET_UG_PHYSICS_MCQI_ALTERNATINGCURRENT_Q7_6 - Power dissipated in series RL circuit</text></name>
+  <questiontext format="html"><text><![CDATA[<p>7.6 An inductor of reactance \(1\ \Omega\) and a resistor of \(2\ \Omega\) are connected in series to the terminals of a \(6\text{ V}\) (rms) a.c. source. The power dissipated in the circuit is</p><hr/><p>7.6 \(1\ \Omega\) प्रतिघात का एक प्रेरक और \(2\ \Omega\) का एक प्रतिरोधक किसी \(6\text{ V}\) (rms) प्रत्यावर्ती धारा स्रोत के टर्मिनलों से श्रेणीक्रम में जुड़े हैं। परिपथ में क्षयित शक्ति है</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>Inductive reactance, \(X_L = 1\ \Omega\); resistance, \(R = 2\ \Omega\); rms source voltage, \(V_{\text{rms}} = 6\text{ V}\).</p><p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>The inductor is ideal (zero internal resistance), so all average power is dissipated only in the resistor \(R\).</p><p><strong>Step 3: Relevant Formulae and Principles</strong><br/>Impedance of series RL circuit: \(Z = \sqrt{R^2 + X_L^2}\).<br/>RMS current: \(I_{\text{rms}} = \frac{V_{\text{rms}}}{Z}\).<br/>Average power dissipated: \(P = I_{\text{rms}}^2 R\).</p><p><strong>Step 4: Step-by-Step Working</strong><br/>Calculate impedance: \(Z = \sqrt{2^2 + 1^2} = \sqrt{4 + 1} = \sqrt{5}\ \Omega\).<br/>Calculate rms current: \(I_{\text{rms}} = \frac{6}{\sqrt{5}}\text{ A}\).<br/>Calculate power dissipated: \(P = \left(\frac{6}{\sqrt{5}}\right)^2 \times 2 = \frac{36}{5} \times 2 = \frac{72}{5} = 14.4\text{ W}\).</p><p><strong>Step 5: Check and Final Answer</strong><br/>Without the inductor, power would be \(V_{\text{rms}}^2 / R = 36/2 = 18\text{ W}\). Including reactance reduces the current and power to \(14.4\text{ W} &lt; 18\text{ W}\), which is consistent. Thus, the power dissipated is \(14.4\text{ W}\).</p><hr/><p><strong>चरण 1: दिए गए आंकड़े और शर्तें</strong><br/>प्रेरक प्रतिघात, \(X_L = 1\ \Omega\); प्रतिरोध, \(R = 2\ \Omega\); स्रोत की वर्ग माध्य मूल वोल्टता, \(V_{\text{rms}} = 6\text{ V}\)।</p><p><strong>चरण 2: मान्यताएँ और चिह्न परिपाटी</strong><br/>प्रेरक आदर्श है (शून्य आंतरिक प्रतिरोध), इसलिए संपूर्ण औसत शक्ति केवल प्रतिरोधक \(R\) में ही क्षय होती है।</p><p><strong>चरण 3: संबंधित सूत्र और सिद्धांत</strong><br/>श्रेणी RL परिपथ की प्रतिबाधा: \(Z = \sqrt{R^2 + X_L^2}\)।<br/>वर्ग माध्य मूल धारा: \(I_{\text{rms}} = \frac{V_{\text{rms}}}{Z}\)।<br/>क्षयित औसत शक्ति: \(P = I_{\text{rms}}^2 R\)।</p><p><strong>चरण 4: चरण-दर-चरण गणना</strong><br/>प्रतिबाधा की गणना: \(Z = \sqrt{2^2 + 1^2} = \sqrt{4 + 1} = \sqrt{5}\ \Omega\)।<br/>वर्ग माध्य मूल धारा की गणना: \(I_{\text{rms}} = \frac{6}{\sqrt{5}}\text{ A}\)।<br/>क्षयित शक्ति की गणना: \(P = \left(\frac{6}{\sqrt{5}}\right)^2 \times 2 = \frac{36}{5} \times 2 = \frac{72}{5} = 14.4\text{ W}\)।</p><p><strong>चरण 5: जाँच और अंतिम उत्तर</strong><br/>प्रेरक के बिना शक्ति \(V_{\text{rms}}^2 / R = 36/2 = 18\text{ W}\) होती। प्रतिघात जोड़ने पर धारा और शक्ति घटकर \(14.4\text{ W} &lt; 18\text{ W}\) हो जाती है, जो संगत है। अतः क्षयित शक्ति \(14.4\text{ W}\) है।</p>]]></text></generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="0" format="html"><text><![CDATA[<p>\(8\text{ W}\).</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>\(12\text{ W}\).</p>]]></text></answer>
+  <answer fraction="100" format="html"><text><![CDATA[<p>\(14.4\text{ W}\).</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>\(18\text{ W}\).</p>]]></text></answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:hi</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>section:mcq_i</text></tag>
+    <tag><text>class:12</text></tag>
+    <tag><text>chapter:alternating_current</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:easy</text></tag>
+    <tag><text>blooms:apply</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:text</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+
+<question type="multichoice">
+  <name><text>NEET_UG_PHYSICS_MCQI_ALTERNATINGCURRENT_Q7_7 - Peak current in step-down transformer load</text></name>
+  <questiontext format="html"><text><![CDATA[<p>7.7 The output of a step-down transformer is measured to be \(24\text{ V}\) when connected to a \(12\text{ watt}\) light bulb. The value of the peak current is</p><hr/><p>7.7 एक अपचायी (step-down) ट्रांसफार्मर का निर्गत \(24\text{ V}\) मापा जाता है जब इसे \(12\text{ वाट}\) के प्रकाश बल्ब से जोड़ा जाता है। शिखर धारा का मान है</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>Output rms voltage of the transformer, \(V_{\text{rms}} = 24\text{ V}\); power consumed by the light bulb, \(P = 12\text{ W}\).</p><p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>A light bulb acts as a purely resistive load (\(\cos\phi = 1\)), and the measured AC voltage is the rms value.</p><p><strong>Step 3: Relevant Formulae and Principles</strong><br/>Power \(P = V_{\text{rms}} I_{\text{rms}}\), and peak current \(I_0 = \sqrt{2}\,I_{\text{rms}}\).</p><p><strong>Step 4: Step-by-Step Working</strong><br/>Calculate the rms current: \(I_{\text{rms}} = \frac{P}{V_{\text{rms}}} = \frac{12}{24} = 0.5\text{ A} = \frac{1}{2}\text{ A}\).<br/>Calculate the peak current: \(I_0 = \sqrt{2} \times \frac{1}{2} = \frac{1}{\sqrt{2}}\text{ A}\).</p><p><strong>Step 5: Check and Final Answer</strong><br/>The peak current \(\frac{1}{\sqrt{2}}\text{ A} \approx 0.707\text{ A}\) is larger than the rms current \(0.5\text{ A}\) by a factor of \(\sqrt{2}\). Thus, the peak current is \(\frac{1}{\sqrt{2}}\text{ A}\).</p><hr/><p><strong>चरण 1: दिए गए आंकड़े और शर्तें</strong><br/>ट्रांसफार्मर की निर्गत वर्ग माध्य मूल वोल्टता, \(V_{\text{rms}} = 24\text{ V}\); प्रकाश बल्ब द्वारा उपभुक्त शक्ति, \(P = 12\text{ W}\)।</p><p><strong>चरण 2: मान्यताएँ और चिह्न परिपाटी</strong><br/>प्रकाश बल्ब एक शुद्ध प्रतिरोधक लोड की भाँति कार्य करता है (\(\cos\phi = 1\)), और मापी गई प्रत्यावर्ती वोल्टता उसका rms मान है।</p><p><strong>चरण 3: संबंधित सूत्र और सिद्धांत</strong><br/>शक्ति \(P = V_{\text{rms}} I_{\text{rms}}\), तथा शिखर धारा \(I_0 = \sqrt{2}\,I_{\text{rms}}\) ।</p><p><strong>चरण 4: चरण-दर-चरण गणना</strong><br/>वर्ग माध्य मूल धारा की गणना: \(I_{\text{rms}} = \frac{P}{V_{\text{rms}}} = \frac{12}{24} = 0.5\text{ A} = \frac{1}{2}\text{ A}\)।<br/>शिखर धारा की गणना: \(I_0 = \sqrt{2} \times \frac{1}{2} = \frac{1}{\sqrt{2}}\text{ A}\)।</p><p><strong>चरण 5: जाँच और अंतिम उत्तर</strong><br/>शिखर धारा \(\frac{1}{\sqrt{2}}\text{ A} \approx 0.707\text{ A}\), वर्ग माध्य मूल धारा \(0.5\text{ A}\) से \(\sqrt{2}\) गुना बड़ी है। अतः शिखर धारा \(\frac{1}{\sqrt{2}}\text{ A}\) है।</p>]]></text></generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="100" format="html"><text><![CDATA[<p>\(\frac{1}{\sqrt{2}}\text{ A}\)</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>\(\sqrt{2}\text{ A}\)</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>\(2\text{ A}\).</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>\(2\sqrt{2}\text{ A}\)</p>]]></text></answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:hi</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>section:mcq_i</text></tag>
+    <tag><text>class:12</text></tag>
+    <tag><text>chapter:alternating_current</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:easy</text></tag>
+    <tag><text>blooms:apply</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:text</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+
+<question type="multichoice">
+  <name><text>NEET_UG_PHYSICS_MCQII_ALTERNATINGCURRENT_Q7_8 - Circuit elements showing resonance peak</text></name>
+  <questiontext format="html"><text><![CDATA[<p>7.8 As the frequency of an ac circuit increases, the current first increases and then decreases. What combination of circuit elements is most likely to comprise the circuit?</p><hr/><p>7.8 जैसे-जैसे किसी प्रत्यावर्ती धारा परिपथ की आवृत्ति बढ़ती है, धारा पहले बढ़ती है और फिर घटती है। परिपथ में अवयवों का कौन-सा संयोजन होने की सर्वाधिक संभावना है?</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>In a series AC circuit, current \(I = \frac{V}{Z}\) is inversely proportional to impedance \(Z = \sqrt{R^2 + (X_L - X_C)^2}\), where \(X_L = \omega L\) and \(X_C = \frac{1}{\omega C}\).</p><p><strong>Step 2: Evaluation</strong><br/>For current to first increase and then decrease with increasing frequency, the impedance \(Z\) must first decrease, reach a minimum at a resonant frequency \(\omega_0 = \frac{1}{\sqrt{LC}}\), and then increase. This resonance behavior requires both an inductor and a capacitor to be present so that \(X_L\) and \(X_C\) can cancel at \(\omega_0\).</p><p><strong>Step 3: Application</strong><br/>A circuit with only a resistor and an inductor has \(Z = \sqrt{R^2 + \omega^2 L^2}\), so current monotonically decreases with frequency. A circuit with only a resistor and a capacitor has \(Z = \sqrt{R^2 + (1/\omega C)^2}\), so current monotonically increases with frequency. Only an inductor-capacitor (LC) combination or a resistor-inductor-capacitor (LCR) combination exhibits a current peak.</p><p><strong>Step 4: Final Conclusion</strong><br/>Therefore, the circuit most likely comprises an inductor and capacitor, or a resistor, inductor and capacitor.</p><hr/><p><strong>चरण 1: अवधारणात्मक सिद्धांत</strong><br/>श्रेणी प्रत्यावर्ती धारा परिपथ में धारा \(I = \frac{V}{Z}\) प्रतिबाधा \(Z = \sqrt{R^2 + (X_L - X_C)^2}\) के व्युत्क्रमानुपाती होती है, जहाँ \(X_L = \omega L\) और \(X_C = \frac{1}{\omega C}\) हैं।</p><p><strong>चरण 2: मूल्यांकन</strong><br/>आवृत्ति बढ़ने पर धारा के पहले बढ़ने और फिर घटने के लिए, प्रतिबाधा \(Z\) को पहले घटना चाहिए, अनुनादी आवृत्ति \(\omega_0 = \frac{1}{\sqrt{LC}}\) पर न्यूनतम मान तक पहुँचना चाहिए, और फिर बढ़ना चाहिए। इस अनुनाद व्यवहार के लिए प्रेरक और संधारित्र दोनों का होना आवश्यक है ताकि \(\omega_0\) पर \(X_L\) और \(X_C\) एक-दूसरे को निरस्त कर सकें।</p><p><strong>चरण 3: अनुप्रयोग</strong><br/>केवल प्रतिरोधक और प्रेरक वाले परिपथ में \(Z = \sqrt{R^2 + \omega^2 L^2}\) होता है, अतः आवृत्ति के साथ धारा लगातार घटती है। केवल प्रतिरोधक और संधारित्र वाले परिपथ में \(Z = \sqrt{R^2 + (1/\omega C)^2}\) होता है, अतः आवृत्ति के साथ धारा लगातार बढ़ती है। केवल प्रेरक-संधारित्र (LC) या प्रतिरोधक-प्रेरक-संधारित्र (LCR) संयोजन ही धारा का शिखर दर्शाता है।</p><p><strong>चरण 4: अंतिम निष्कर्ष</strong><br/>अतः, परिपथ में प्रेरक और संधारित्र, या प्रतिरोधक, प्रेरक और संधारित्र होने की सर्वाधिक संभावना है।</p>]]></text></generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>false</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="50" format="html"><text><![CDATA[<p>Inductor and capacitor.</p>]]></text></answer>
+  <answer fraction="-50" format="html"><text><![CDATA[<p>Resistor and inductor.</p>]]></text></answer>
+  <answer fraction="-50" format="html"><text><![CDATA[<p>Resistor and capacitor.</p>]]></text></answer>
+  <answer fraction="50" format="html"><text><![CDATA[<p>Resistor, inductor and capacitor.</p>]]></text></answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:hi</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>section:mcq_ii</text></tag>
+    <tag><text>class:12</text></tag>
+    <tag><text>chapter:alternating_current</text></tag>
+    <tag><text>typology:multi_correct_mcq</text></tag>
+    <tag><text>difficulty:medium</text></tag>
+    <tag><text>blooms:analyze</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:text</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+
+<question type="multichoice">
+  <name><text>NEET_UG_PHYSICS_MCQII_ALTERNATINGCURRENT_Q7_9 - Elements where current increases with frequency</text></name>
+  <questiontext format="html"><text><![CDATA[<p>7.9 In an alternating current circuit consisting of elements in series, the current increases on increasing the frequency of supply. Which of the following elements are likely to constitute the circuit?</p><hr/><p>7.9 श्रेणीक्रम में जुड़े अवयवों वाले एक प्रत्यावर्ती धारा परिपथ में आपूर्ति की आवृत्ति बढ़ाने पर धारा बढ़ती है। निम्नलिखित में से कौन-से अवयव परिपथ का निर्माण करने की संभावना रखते हैं?</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>For a series AC circuit driven by a constant voltage \(V\), the current \(I = \frac{V}{Z}\) increases with frequency \(\omega\) only if the total impedance \(Z\) decreases as \(\omega\) increases.</p><p><strong>Step 2: Evaluation</strong><br/>Resistance \(R\) is independent of frequency, inductive reactance \(X_L = \omega L\) increases with frequency, and capacitive reactance \(X_C = \frac{1}{\omega C}\) decreases with frequency.</p><p><strong>Step 3: Application</strong><br/>For a pure resistor, \(Z = R\) (constant current). For a resistor and an inductor, \(Z = \sqrt{R^2 + \omega^2 L^2}\) increases with \(\omega\) (current decreases). For a resistor and a capacitor, \(Z = \sqrt{R^2 + (1/\omega C)^2}\) decreases as \(\omega\) increases (current increases). For only a capacitor, \(Z = \frac{1}{\omega C}\) decreases as \(\omega\) increases (current increases).</p><p><strong>Step 4: Final Conclusion</strong><br/>Hence, the circuit is likely to consist of a resistor and a capacitor, or only a capacitor.</p><hr/><p><strong>चरण 1: अवधारणात्मक सिद्धांत</strong><br/>नियत वोल्टता \(V\) द्वारा संचालित श्रेणी प्रत्यावर्ती धारा परिपथ में, आवृत्ति \(\omega\) बढ़ाने पर धारा \(I = \frac{V}{Z}\) तभी बढ़ती है जब \(\omega\) बढ़ने के साथ कुल प्रतिबाधा \(Z\) घटती है।</p><p><strong>चरण 2: मूल्यांकन</strong><br/>प्रतिरोध \(R\) आवृत्ति से स्वतंत्र होता है, प्रेरक प्रतिघात \(X_L = \omega L\) आवृत्ति के साथ बढ़ता है, तथा धारिता प्रतिघात \(X_C = \frac{1}{\omega C}\) आवृत्ति के साथ घटता है।</p><p><strong>चरण 3: अनुप्रयोग</strong><br/>शुद्ध प्रतिरोधक के लिए \(Z = R\) (धारा नियत)। प्रतिरोधक और प्रेरक के लिए \(Z = \sqrt{R^2 + \omega^2 L^2}\) आवृत्ति \(\omega\) के साथ बढ़ता है (धारा घटती है)। प्रतिरोधक और संधारित्र के लिए \(Z = \sqrt{R^2 + (1/\omega C)^2}\) आवृत्ति \(\omega\) बढ़ने पर घटता है (धारा बढ़ती है)। केवल संधारित्र के लिए \(Z = \frac{1}{\omega C}\) आवृत्ति \(\omega\) बढ़ने पर घटता है (धारा बढ़ती है)।</p><p><strong>चरण 4: अंतिम निष्कर्ष</strong><br/>अतः, परिपथ में प्रतिरोधक और एक संधारित्र, या केवल एक संधारित्र होने की संभावना है।</p>]]></text></generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>false</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="-50" format="html"><text><![CDATA[<p>Only resistor.</p>]]></text></answer>
+  <answer fraction="-50" format="html"><text><![CDATA[<p>Resistor and an inductor.</p>]]></text></answer>
+  <answer fraction="50" format="html"><text><![CDATA[<p>Resistor and a capacitor.</p>]]></text></answer>
+  <answer fraction="50" format="html"><text><![CDATA[<p>Only a capacitor.</p>]]></text></answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:hi</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>section:mcq_ii</text></tag>
+    <tag><text>class:12</text></tag>
+    <tag><text>chapter:alternating_current</text></tag>
+    <tag><text>typology:multi_correct_mcq</text></tag>
+    <tag><text>difficulty:medium</text></tag>
+    <tag><text>blooms:analyze</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:text</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+
+<question type="multichoice">
+  <name><text>NEET_UG_PHYSICS_MCQII_ALTERNATINGCURRENT_Q7_10 - High voltage AC power transmission advantages</text></name>
+  <questiontext format="html"><text><![CDATA[<p>7.10 Electrical energy is transmitted over large distances at high alternating voltages. Which of the following statements is (are) correct?</p><hr/><p>7.10 लंबी दूरियों तक विद्युत ऊर्जा का संचरण उच्च प्रत्यावर्ती वोल्टताओं पर किया जाता है। निम्नलिखित में से कौन-सा/कौन-से कथन सही है/हैं?</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>Electrical power transmitted at voltage \(V\) and current \(I\) is \(P = VI\) (for unity power factor), while the Joule heating power loss in transmission cables of resistance \(R\) is \(P_{\text{loss}} = I^2 R = \left(\frac{P}{V}\right)^2 R\).</p><p><strong>Step 2: Evaluation</strong><br/>For a given power level \(P\), transmitting at a high voltage \(V\) results in a correspondingly lower current \(I = \frac{P}{V}\). Because power loss scales as \(I^2 R\), a lower current significantly reduces power loss in the transmission lines. Furthermore, AC voltages can be easily stepped up at the power station and stepped down at the receiving end using transformers.</p><p><strong>Step 3: Application</strong><br/>Making transmission lines thinner would increase their resistance \(R = \rho \frac{l}{A}\), which would oppose the goal of minimizing \(I^2 R\) losses; thus, high-voltage transmission is specifically aimed at lowering current and reducing losses, and step-down transformers make voltage reduction at the receiving end practical.</p><p><strong>Step 4: Final Conclusion</strong><br/>Therefore, for a given power level there is a lower current, lower current implies less power loss, and it is easy to reduce the voltage at the receiving end using step-down transformers.</p><hr/><p><strong>चरण 1: अवधारणात्मक सिद्धांत</strong><br/>वोल्टता \(V\) और धारा \(I\) पर संचरित विद्युत शक्ति \(P = VI\) (इकाई शक्ति गुणांक के लिए) होती है, जबकि प्रतिरोध \(R\) वाले संचरण केबलों में जूल तापन शक्ति क्षय \(P_{\text{loss}} = I^2 R = \left(\frac{P}{V}\right)^2 R\) होता है।</p><p><strong>चरण 2: मूल्यांकन</strong><br/>एक निश्चित शक्ति स्तर \(P\) के लिए, उच्च वोल्टता \(V\) पर संचरण करने से धारा \(I = \frac{P}{V}\) कम हो जाती है। चूँकि शक्ति क्षय \(I^2 R\) के समानुपाती होता है, इसलिए कम धारा के कारण संचरण लाइनों में शक्ति क्षय बहुत कम हो जाता है। इसके अतिरिक्त, ट्रांसफार्मरों की सहायता से AC वोल्टता को विद्युत केंद्र पर आसानी से बढ़ाया (step-up) और अभिग्राही सिरे पर कम किया (step-down) जा सकता है।</p><p><strong>चरण 3: अनुप्रयोग</strong><br/>संचरण लाइनों को पतला बनाने से उनका प्रतिरोध \(R = \rho \frac{l}{A}\) बढ़ जाएगा, जो \(I^2 R\) क्षय को कम करने के उद्देश्य के विपरीत है; अतः उच्च वोल्टता संचरण का मुख्य लाभ कम धारा, कम शक्ति क्षय और अभिग्राही सिरे पर अपचायी ट्रांसफार्मर द्वारा वोल्टता को आसानी से कम करना है।</p><p><strong>चरण 4: अंतिम निष्कर्ष</strong><br/>अतः, दिए गए शक्ति स्तर के लिए धारा कम होती है, कम धारा का अर्थ कम शक्ति क्षय है, और अपचायी ट्रांसफार्मर का उपयोग करके अभिग्राही सिरे पर वोल्टता को कम करना आसान होता है।</p>]]></text></generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>false</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="33.33333" format="html"><text><![CDATA[<p>For a given power level, there is a lower current.</p>]]></text></answer>
+  <answer fraction="33.33333" format="html"><text><![CDATA[<p>Lower current implies less power loss.</p>]]></text></answer>
+  <answer fraction="-50" format="html"><text><![CDATA[<p>Transmission lines can be made thinner.</p>]]></text></answer>
+  <answer fraction="33.33333" format="html"><text><![CDATA[<p>It is easy to reduce the voltage at the receiving end using step-down transformers.</p>]]></text></answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:hi</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>section:mcq_ii</text></tag>
+    <tag><text>class:12</text></tag>
+    <tag><text>chapter:alternating_current</text></tag>
+    <tag><text>typology:multi_correct_mcq</text></tag>
+    <tag><text>difficulty:medium</text></tag>
+    <tag><text>blooms:understand</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:text</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+
+<question type="multichoice">
+  <name><text>NEET_UG_PHYSICS_MCQII_ALTERNATINGCURRENT_Q7_11 - Power transferred in driven LCR oscillator</text></name>
+  <questiontext format="html"><text><![CDATA[<p>7.11 For an \(LCR\) circuit, the power transferred from the driving source to the driven oscillator is \(P = I^2 Z \cos \phi\).</p><hr/><p>7.11 किसी \(LCR\) परिपथ के लिए, चालक स्रोत से चालित दोलक को स्थानांतरित शक्ति \(P = I^2 Z \cos \phi\) है।</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>In a series \(LCR\) circuit, the power factor is \(\cos \phi = \frac{R}{Z}\), where resistance \(R \ge 0\) and impedance \(Z &gt; 0\). Thus, the average power transferred from the driving source is \(P = I^2 Z \cos \phi = I^2 R\).</p><p><strong>Step 2: Evaluation</strong><br/>Since \(R \ge 0\) and \(Z &gt; 0\), we always have \(\cos \phi \ge 0\). Consequently, \(P = I^2 Z \cos \phi \ge 0\) at all times. If the circuit is purely reactive (\(R = 0\)), then \(\cos \phi = 0\) and \(P = 0\), meaning the driving force transfers zero net energy to the oscillator.</p><p><strong>Step 3: Application</strong><br/>Because \(P \ge 0\) is guaranteed, \(P\) can never be negative (\(P &lt; 0\) is impossible). Hence, the driving force cannot syphon or take away net energy out of the oscillator over a cycle.</p><p><strong>Step 4: Final Conclusion</strong><br/>Therefore, \(\cos \phi \ge 0\) and \(P \ge 0\), the driving force can give no energy (\(P = 0\)) in some cases, and it cannot syphon out energy (\(P &lt; 0\)) from the oscillator.</p><hr/><p><strong>चरण 1: अवधारणात्मक सिद्धांत</strong><br/>श्रेणी \(LCR\) परिपथ में शक्ति गुणांक \(\cos \phi = \frac{R}{Z}\) होता है, जहाँ प्रतिरोध \(R \ge 0\) और प्रतिबाधा \(Z &gt; 0\) है। अतः चालक स्रोत से स्थानांतरित औसत शक्ति \(P = I^2 Z \cos \phi = I^2 R\) है।</p><p><strong>चरण 2: मूल्यांकन</strong><br/>चूँकि \(R \ge 0\) और \(Z &gt; 0\), इसलिए सदैव \(\cos \phi \ge 0\) होता है। परिणामस्वरूप, प्रत्येक स्थिति में \(P = I^2 Z \cos \phi \ge 0\) होता है। यदि परिपथ शुद्ध प्रतिघाती (\(R = 0\)) है, तो \(\cos \phi = 0\) और \(P = 0\) होता है, अर्थात् चालक बल कुछ स्थितियों में दोलक को कोई ऊर्जा नहीं देता।</p><p><strong>चरण 3: अनुप्रयोग</strong><br/>चूँकि \(P \ge 0\) सदैव सत्य है, इसलिए \(P\) कभी ऋणात्मक नहीं हो सकता (\(P &lt; 0\) असंभव है)। अतः चालक बल एक चक्र में दोलक से ऊर्जा बाहर नहीं निकाल सकता।</p><p><strong>चरण 4: अंतिम निष्कर्ष</strong><br/>अतः, यहाँ \(\cos \phi \ge 0\) और \(P \ge 0\) हैं, चालक बल कुछ स्थितियों में दोलक को कोई ऊर्जा नहीं दे सकता (\(P = 0\)), तथा यह दोलक से ऊर्जा बाहर नहीं निकाल सकता (\(P &lt; 0\))।</p>]]></text></generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>false</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="33.33333" format="html"><text><![CDATA[<p>Here, the power factor \(\cos \phi \ge 0\), \(P \ge 0\).</p>]]></text></answer>
+  <answer fraction="33.33333" format="html"><text><![CDATA[<p>The driving force can give no energy to the oscillator (\(P = 0\)) in some cases.</p>]]></text></answer>
+  <answer fraction="33.33333" format="html"><text><![CDATA[<p>The driving force cannot syphon out (\(P &lt; 0\)) the energy out of oscillator.</p>]]></text></answer>
+  <answer fraction="-50" format="html"><text><![CDATA[<p>The driving force can take away energy out of the oscillator.</p>]]></text></answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:hi</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>section:mcq_ii</text></tag>
+    <tag><text>class:12</text></tag>
+    <tag><text>chapter:alternating_current</text></tag>
+    <tag><text>typology:multi_correct_mcq</text></tag>
+    <tag><text>difficulty:hard</text></tag>
+    <tag><text>blooms:analyze</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:text</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+
+<question type="multichoice">
+  <name><text>NEET_UG_PHYSICS_MCQII_ALTERNATINGCURRENT_Q7_12 - AC voltage applied to a pure capacitor</text></name>
+  <questiontext format="html"><text><![CDATA[<p>7.12 When an AC voltage of \(220\text{ V}\) is applied to the capacitor \(C\)</p><hr/><p>7.12 जब \(220\text{ V}\) की प्रत्यावर्ती वोल्टता संधारित्र \(C\) पर आरोपित की जाती है</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>When an AC voltage \(v = v_0 \sin(\omega t)\) is applied across a pure capacitor \(C\), the instantaneous charge on the plates is \(q = Cv = Cv_0 \sin(\omega t)\), and the current is \(i = \frac{dq}{dt} = \omega C v_0 \cos(\omega t) = i_0 \sin\left(\omega t + \frac{\pi}{2}\right)\).</p><p><strong>Step 2: Evaluation</strong><br/>1. The specified \(220\text{ V}\) is the rms voltage, so the maximum (peak) voltage between the plates is \(v_0 = 220\sqrt{2}\text{ V} \approx 311\text{ V}\), not \(220\text{ V}\).<br/>2. Since \(q = Cv\), the charge \(q\) varies directly with \(v\) and is therefore in phase with the applied voltage.<br/>3. The current leads the applied voltage by \(\frac{\pi}{2}\) (\(90^\circ\)), so they are not in phase.</p><p><strong>Step 3: Application</strong><br/>The average power delivered to the pure capacitor over a complete cycle is \(P = V_{\text{rms}} I_{\text{rms}} \cos\left(\frac{\pi}{2}\right) = 0\).</p><p><strong>Step 4: Final Conclusion</strong><br/>Hence, the charge on the plates is in phase with the applied voltage, and the power delivered to the capacitor is zero.</p><hr/><p><strong>चरण 1: अवधारणात्मक सिद्धांत</strong><br/>जब किसी शुद्ध संधारित्र \(C\) के सिरों पर प्रत्यावर्ती वोल्टता \(v = v_0 \sin(\omega t)\) आरोपित की जाती है, तो प्लेटों पर तात्क्षणिक आवेश \(q = Cv = Cv_0 \sin(\omega t)\) होता है, और धारा \(i = \frac{dq}{dt} = \omega C v_0 \cos(\omega t) = i_0 \sin\left(\omega t + \frac{\pi}{2}\right)\) होती है।</p><p><strong>चरण 2: मूल्यांकन</strong><br/>1. दी गई वोल्टता \(220\text{ V}\) वर्ग माध्य मूल (rms) मान है, अतः प्लेटों के बीच अधिकतम (शिखर) वोल्टता \(v_0 = 220\sqrt{2}\text{ V} \approx 311\text{ V}\) होती है, न कि \(220\text{ V}\)।<br/>2. चूँकि \(q = Cv\), इसलिए आवेश \(q\), \(v\) के समानुपाती है और आरोपित वोल्टता के साथ समान कला (in phase) में होता है।<br/>3. धारा आरोपित वोल्टता से \(\frac{\pi}{2}\) (\(90^\circ\)) आगे होती है, अतः वे समान कला में नहीं होते।</p><p><strong>चरण 3: अनुप्रयोग</strong><br/>एक पूर्ण चक्र में शुद्ध संधारित्र को प्रदान की गई औसत शक्ति \(P = V_{\text{rms}} I_{\text{rms}} \cos\left(\frac{\pi}{2}\right) = 0\) होती है।</p><p><strong>चरण 4: अंतिम निष्कर्ष</strong><br/>अतः, प्लेटों पर आवेश आरोपित वोल्टता के साथ समान कला में होता है, और संधारित्र को प्रदान की गई शक्ति शून्य होती है।</p>]]></text></generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>false</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="-50" format="html"><text><![CDATA[<p>the maximum voltage between plates is \(220\text{ V}\).</p>]]></text></answer>
+  <answer fraction="-50" format="html"><text><![CDATA[<p>the current is in phase with the applied voltage.</p>]]></text></answer>
+  <answer fraction="50" format="html"><text><![CDATA[<p>the charge on the plates is in phase with the applied voltage.</p>]]></text></answer>
+  <answer fraction="50" format="html"><text><![CDATA[<p>power delivered to the capacitor is zero.</p>]]></text></answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:hi</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>section:mcq_ii</text></tag>
+    <tag><text>class:12</text></tag>
+    <tag><text>chapter:alternating_current</text></tag>
+    <tag><text>typology:multi_correct_mcq</text></tag>
+    <tag><text>difficulty:medium</text></tag>
+    <tag><text>blooms:understand</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:text</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+
+<question type="multichoice">
+  <name><text>NEET_UG_PHYSICS_MCQII_ALTERNATINGCURRENT_Q7_13 - Characteristics of domestic AC power line</text></name>
+  <questiontext format="html"><text><![CDATA[<p>7.13 The line that draws power supply to your house from street has</p><hr/><p>7.13 गली से आपके घर तक विद्युत आपूर्ति लाने वाली लाइन में</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>Domestic power supply is alternating current (AC). Over a complete cycle, any sinusoidal alternating current or voltage has an average value of zero, while its rms voltage is \(220\text{ V}\).</p><p><strong>Step 2: Evaluation</strong><br/>1. Because the current is alternating, its average value over a full cycle is zero.<br/>2. \(220\text{ V}\) is the rms voltage, not the average voltage (the average voltage over a cycle is zero).<br/>3. Household appliances draw real power \(P = V_{\text{rms}} I_{\text{rms}} \cos \phi &gt; 0\), which requires \(\cos \phi &gt; 0\), i.e., \(|\phi| &lt; \frac{\pi}{2}\). If the phase difference were \(90^\circ\), average power would be zero.</p><p><strong>Step 3: Application</strong><br/>Since domestic loads contain resistance along with possible inductance or capacitance (such as motors or fans), the phase difference \(\phi\) between voltage and current satisfies \(|\phi| &lt; \frac{\pi}{2}\).</p><p><strong>Step 4: Final Conclusion</strong><br/>Therefore, the line has zero average current, and voltage and current possibly differ in phase \(\phi\) such that \(|\phi| &lt; \frac{\pi}{2}\).</p><hr/><p><strong>चरण 1: अवधारणात्मक सिद्धांत</strong><br/>घरेलू विद्युत आपूर्ति प्रत्यावर्ती धारा (AC) होती है। एक पूर्ण चक्र में किसी भी ज्यावक्रीय प्रत्यावर्ती धारा या वोल्टता का औसत मान शून्य होता है, जबकि इसकी वर्ग माध्य मूल (rms) वोल्टता \(220\text{ V}\) होती है।</p><p><strong>चरण 2: मूल्यांकन</strong><br/>1. चूँकि धारा प्रत्यावर्ती है, इसलिए एक पूर्ण चक्र में इसका औसत मान शून्य होता है।<br/>2. \(220\text{ V}\) औसत वोल्टता नहीं बल्कि वर्ग माध्य मूल वोल्टता है (एक चक्र में औसत वोल्टता शून्य होती है)।<br/>3. घरेलू उपकरण वास्तविक शक्ति \(P = V_{\text{rms}} I_{\text{rms}} \cos \phi &gt; 0\) उपभुक्त करते हैं, जिसके लिए \(\cos \phi &gt; 0\) अर्थात् \(|\phi| &lt; \frac{\pi}{2}\) होना आवश्यक है। यदि कलांतर \(90^\circ\) होता, तो औसत शक्ति शून्य होती।</p><p><strong>चरण 3: अनुप्रयोग</strong><br/>चूँकि घरेलू लोड में प्रतिरोध के साथ-साथ संभावित प्रेरकत्व या धारिता (जैसे मोटर या पंखे) भी होते हैं, इसलिए वोल्टता और धारा के बीच कलांतर \(\phi\) शर्त \(|\phi| &lt; \frac{\pi}{2}\) को संतुष्ट करता है।</p><p><strong>चरण 4: अंतिम निष्कर्ष</strong><br/>अतः, लाइन में औसत धारा शून्य होती है, तथा वोल्टता और धारा के बीच कलांतर \(\phi\) इस प्रकार हो सकता है कि \(|\phi| &lt; \frac{\pi}{2}\) हो।</p>]]></text></generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>false</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="50" format="html"><text><![CDATA[<p>zero average current.</p>]]></text></answer>
+  <answer fraction="-50" format="html"><text><![CDATA[<p>\(220\text{ V}\) average voltage.</p>]]></text></answer>
+  <answer fraction="-50" format="html"><text><![CDATA[<p>voltage and current out of phase by \(90^\circ\).</p>]]></text></answer>
+  <answer fraction="50" format="html"><text><![CDATA[<p>voltage and current possibly differing in phase \(\phi\) such that \(|\phi| &lt; \frac{\pi}{2}\).</p>]]></text></answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:hi</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>section:mcq_ii</text></tag>
+    <tag><text>class:12</text></tag>
+    <tag><text>chapter:alternating_current</text></tag>
+    <tag><text>typology:multi_correct_mcq</text></tag>
+    <tag><text>difficulty:medium</text></tag>
+    <tag><text>blooms:understand</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:text</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>

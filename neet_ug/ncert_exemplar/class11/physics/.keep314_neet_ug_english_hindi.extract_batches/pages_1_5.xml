@@ -1,240 +1,95 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <quiz>
 <question type="multichoice">
-  <name><text>NEET_UG_PHYSICS_2026_OSCILLATIONS_MCQ_Q14_01 - Nature and period of harmonic particle motion</text></name>
-  <questiontext format="html"><text><![CDATA[<p>The displacement of a particle is represented by the equation</p>
-<p>\[y = 3 \cos \left( \frac{\pi}{4} - 2\omega t \right)\]</p>
-<p>The motion of the particle is</p>
+  <name><text>PHYSICS_OSCILLATIONS_MCQI_Q1401 - Period of simple harmonic motion from cosine equation</text></name>
+  <questiontext format="html"><text><![CDATA[<p>The displacement of a particle is represented by the equation \(y = 3 \cos \left( \frac{\pi}{4} - 2\omega t \right)\). The motion of the particle is</p><hr/><p>किसी कण का विस्थापन समीकरण \(y = 3 \cos \left( \frac{\pi}{4} - 2\omega t \right)\) द्वारा निरूपित किया जाता है। कण की गति है</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>The displacement of the particle as a function of time \(t\) is given by \(y = 3 \cos \left( \frac{\pi}{4} - 2\omega t \right)\).</p>
+<p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>The motion is one-dimensional along the \(y\)-axis about the mean position \(y = 0\), and \(\omega\) is a positive constant.</p>
+<p><strong>Step 3: Relevant Formulae and Principles</strong><br/>The standard equation of simple harmonic motion (S.H.M.) is \(y = A \cos(\omega' t + \phi)\), where \(A\) is the amplitude, \(\omega'\) is the angular frequency, and the time period is \(T = \frac{2\pi}{\omega'}\). Also, \(\cos(-\theta) = \cos(\theta)\).</p>
+<p><strong>Step 4: Step-by-Step Working</strong><br/>Using the identity \(\cos(-\theta) = \cos(\theta)\), rewrite the displacement equation as:<br/>\(y = 3 \cos \left( 2\omega t - \frac{\pi}{4} \right)\)<br/>Comparing this with the standard S.H.M. form \(y = A \cos(\omega' t + \phi)\), we identify the amplitude \(A = 3\), the effective angular frequency \(\omega' = 2\omega\), and the initial phase \(\phi = -\frac{\pi}{4}\).<br/>Therefore, the time period of oscillation is:<br/>\(T = \frac{2\pi}{\omega'} = \frac{2\pi}{2\omega} = \frac{\pi}{\omega}\)</p>
+<p><strong>Step 5: Check and Final Answer</strong><br/>Since the displacement varies sinusoidally with a single constant angular frequency \(2\omega\), the acceleration \(a = -\omega'^2 y = -4\omega^2 y\) is directly proportional to \(-y\). Hence, the motion is simple harmonic with period \(\frac{\pi}{\omega}\).</p>
 <hr/>
-<p>किसी कण के विस्थापन को निम्नलिखित समीकरण द्वारा निरूपित किया जाता है:</p>
-<p>\[y = 3 \cos \left( \frac{\pi}{4} - 2\omega t \right)\]</p>
-<p>कण की गति है:</p>]]></text></questiontext>
-  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>
-The given displacement of the particle as a function of time \(t\) is:
-\[y(t) = 3 \cos \left( \frac{\pi}{4} - 2\omega t \right)\]</p>
-<p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>
-Since the cosine function is an even function, \(\cos(-\theta) = \cos(\theta)\), the expression can be rewritten as:
-\[y(t) = 3 \cos \left( 2\omega t - \frac{\pi}{4} \right)\]</p>
-<p><strong>Step 3: Relevant Formulae and Principles</strong><br/>
-A motion is simple harmonic if the acceleration is directly proportional to the displacement and directed opposite to it:
-\[\frac{d^2y}{dt^2} = -\omega'^2 y\]
-For a general simple harmonic motion of the form \(y(t) = A \cos(\omega' t + \phi)\), the angular frequency is \(\omega'\), and the time period of oscillation is:
-\[T = \frac{2\pi}{\omega'}\]</p>
-<p><strong>Step 4: Step-by-Step Working</strong><br/>
-Comparing \(y(t) = 3 \cos \left( 2\omega t - \frac{\pi}{4} \right)\) with the standard equation \(y(t) = A \cos(\omega' t + \phi)\):
-Amplitude \(A = 3\)
-Angular frequency \(\omega' = 2\omega\)
-Initial phase \(\phi = -\frac{\pi}{4}\)
-Differentiating with respect to time gives the velocity:
-\[v(t) = \frac{dy}{dt} = -6\omega \sin \left( 2\omega t - \frac{\pi}{4} \right)\]
-Differentiating again gives the acceleration:
-\[a(t) = \frac{d^2y}{dt^2} = -12\omega^2 \cos \left( 2\omega t - \frac{\pi}{4} \right) = -(2\omega)^2 y = -4\omega^2 y\]
-Because the acceleration satisfies \(a = -\omega'^2 y\) with \(\omega' = 2\omega\), the motion is simple harmonic motion.
-The time period of oscillation is:
-\[T = \frac{2\pi}{\omega'} = \frac{2\pi}{2\omega} = \frac{\pi}{\omega}\]</p>
-<p><strong>Step 5: Check and Final Answer</strong><br/>
-The acceleration is directly proportional to the negative of displacement, confirming simple harmonic motion, and the period is \(\frac{\pi}{\omega}\).
-Therefore, the motion of the particle is simple harmonic with period \(\pi/\omega\).</p>
-<hr/>
-<p><strong>चरण 1: दिए गए आंकड़े और स्थितियाँ</strong><br/>
-समय \(t\) के फलन के रूप में कण का दिया गया विस्थापन समीकरण है:
-\[y(t) = 3 \cos \left( \frac{\pi}{4} - 2\omega t \right)\]</p>
-<p><strong>चरण 2: मान्यताएँ और चिन्ह परिपाटी</strong><br/>
-चूँकि कोज्या (cosine) एक सम फलन है, अर्थात् \(\cos(-\theta) = \cos(\theta)\), अतः विस्थापन को इस प्रकार लिखा जा सकता है:
-\[y(t) = 3 \cos \left( 2\omega t - \frac{\pi}{4} \right)\]</p>
-<p><strong>चरण 3: संबंधित सूत्र और सिद्धांत</strong><br/>
-कोई गति सरल आवर्त गति (SHM) होती है यदि त्वरण विस्थापन के समानुपाती और उसकी दिशा के विपरीत हो:
-\[\frac{d^2y}{dt^2} = -\omega'^2 y\]
-मानक सरल आवर्त समीकरण \(y(t) = A \cos(\omega' t + \phi)\) के लिए कोणीय आवृत्ति \(\omega'\) होती है, तथा आवर्तकाल निम्न सूत्र से प्राप्त होता है:
-\[T = \frac{2\pi}{\omega'}\]</p>
-<p><strong>चरण 4: चरणबद्ध हल</strong><br/>
-दिए गए समीकरण की मानक समीकरण \(y(t) = A \cos(\omega' t + \phi)\) से तुलना करने पर:
-आयाम \(A = 3\)
-कोणीय आवृत्ति \(\omega' = 2\omega\)
-प्रारंभिक कला \(\phi = -\frac{\pi}{4}\)
-समय के सापेक्ष अवकलन करने पर वेग प्राप्त होता है:
-\[v(t) = \frac{dy}{dt} = -6\omega \sin \left( 2\omega t - \frac{\pi}{4} \right)\]
-पुनः अवकलन करने पर त्वरण प्राप्त होता है:
-\[a(t) = \frac{d^2y}{dt^2} = -12\omega^2 \cos \left( 2\omega t - \frac{\pi}{4} \right) = -(2\omega)^2 y = -4\omega^2 y\]
-चूँकि त्वरण विस्थापन के ऋणात्मक मान के समानुपाती है (\(a \propto -y\)), अतः यह गति सरल आवर्त गति है।
-दोलन का आवर्तकाल है:
-\[T = \frac{2\pi}{\omega'} = \frac{2\pi}{2\omega} = \frac{\pi}{\omega}\]</p>
-<p><strong>चरण 5: जांच और अंतिम उत्तर</strong><br/>
-त्वरण विस्थापन के सीधे समानुपाती और विपरीत दिशा में है, जो सरल आवर्त गति की पुष्टि करता है, तथा इसका आवर्तकाल \(\frac{\pi}{\omega}\) है।
-अतः कण की गति \(\pi/\omega\) आवर्तकाल के साथ सरल आवर्त गति है।</p>]]></text></generalfeedback>
+<p><strong>चरण 1: दिए गए आंकड़े और शर्तें</strong><br/>समय \(t\) के फलन के रूप में कण का विस्थापन \(y = 3 \cos \left( \frac{\pi}{4} - 2\omega t \right)\) द्वारा दिया गया है।</p>
+<p><strong>चरण 2: मान्यताएँ और चिह्न परिपाटी</strong><br/>गति माध्य स्थिति \(y = 0\) के परितः \(y\)-अक्ष के अनुदिश एकविमीय है, और \(\omega\) एक धनात्मक स्थिरांक है।</p>
+<p><strong>चरण 3: प्रासंगिक सूत्र और सिद्धांत</strong><br/>सरल आवर्त गति (S.H.M.) का मानक समीकरण \(y = A \cos(\omega' t + \phi)\) है, जहाँ \(A\) आयाम है, \(\omega'\) कोणीय आवृत्ति है, तथा आवर्तकाल \(T = \frac{2\pi}{\omega'}\) है। साथ ही, \(\cos(-\theta) = \cos(\theta)\) होता है।</p>
+<p><strong>चरण 4: चरण-दर-चरण हल</strong><br/>सर्वसमिका \(\cos(-\theta) = \cos(\theta)\) का उपयोग करके विस्थापन समीकरण को इस प्रकार लिखने पर:<br/>\(y = 3 \cos \left( 2\omega t - \frac{\pi}{4} \right)\)<br/>इसकी तुलना सरल आवर्त गति के मानक रूप \(y = A \cos(\omega' t + \phi)\) से करने पर, हमें आयाम \(A = 3\), प्रभावी कोणीय आवृत्ति \(\omega' = 2\omega\), तथा प्रारंभिक कला \(\phi = -\frac{\pi}{4}\) प्राप्त होती है।<br/>अतः दोलन का आवर्तकाल है:<br/>\(T = \frac{2\pi}{\omega'} = \frac{2\pi}{2\omega} = \frac{\pi}{\omega}\)</p>
+<p><strong>चरण 5: जाँच और अंतिम उत्तर</strong><br/>चूँकि विस्थापन एक एकल नियत कोणीय आवृत्ति \(2\omega\) के साथ ज्यावक्रीय रूप से बदलता है, इसलिए त्वरण \(a = -\omega'^2 y = -4\omega^2 y\) सीधे \(-y\) के अनुक्रमानुपाती है। अतः गति \(\frac{\pi}{\omega}\) आवर्तकाल वाली सरल आवर्त गति है।</p>]]></text></generalfeedback>
   <defaultgrade>4.0000000</defaultgrade>
   <penalty>0.2500000</penalty>
   <hidden>0</hidden>
   <single>true</single>
   <shuffleanswers>true</shuffleanswers>
   <answernumbering>abc</answernumbering>
-  <answer fraction="0" format="html"><text><![CDATA[<p>simple harmonic with period \(2\pi/\omega\)</p>]]></text></answer>
-  <answer fraction="100" format="html"><text><![CDATA[<p>simple harmonic with period \(\pi/\omega\)</p>]]></text></answer>
-  <answer fraction="0" format="html"><text><![CDATA[<p>periodic but not simple harmonic</p>]]></text></answer>
-  <answer fraction="0" format="html"><text><![CDATA[<p>non-periodic</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>simple harmonic with period \(2\pi / \omega\)</p>]]></text></answer>
+  <answer fraction="100" format="html"><text><![CDATA[<p>simple harmonic with period \(\pi / \omega\)</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>periodic but not simple harmonic.</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>non-periodic.</p>]]></text></answer>
   <tags>
     <tag><text>standard:neet_ug</text></tag>
-    <tag><text>year:2026</text></tag>
     <tag><text>lang:en</text></tag>
     <tag><text>lang:hi</text></tag>
     <tag><text>subject:physics</text></tag>
+    <tag><text>section:mcq_i</text></tag>
     <tag><text>class:class_11</text></tag>
-    <tag><text>topic:oscillations</text></tag>
     <tag><text>chapter:oscillations</text></tag>
     <tag><text>typology:mcq</text></tag>
     <tag><text>difficulty:easy</text></tag>
-    <tag><text>blooms:understand</text></tag>
+    <tag><text>blooms:apply</text></tag>
     <tag><text>calculation:light</text></tag>
     <tag><text>media:equation</text></tag>
     <tag><text>multiconcept:false</text></tag>
   </tags>
 </question>
 <question type="multichoice">
-  <name><text>NEET_UG_PHYSICS_2026_OSCILLATIONS_MCQ_Q14_02 - Periodicity of cubic sine displacement motion</text></name>
-  <questiontext format="html"><text><![CDATA[<p>The displacement of a particle is represented by the equation</p>
-<p>\[y = \sin^3 \omega t\]</p>
-<p>The motion is</p>
+  <name><text>PHYSICS_OSCILLATIONS_MCQI_Q1402 - Nature of motion for sine cubed displacement</text></name>
+  <questiontext format="html"><text><![CDATA[<p>The displacement of a particle is represented by the equation \(y = \sin^3 \omega t\). The motion is</p><hr/><p>किसी कण का विस्थापन समीकरण \(y = \sin^3 \omega t\) द्वारा निरूपित किया जाता है। यह गति है</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>The displacement of the particle is \(y = \sin^3 \omega t\), where \(\omega\) is a constant.</p>
+<p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>The motion occurs along the \(y\)-axis for all time \(t\).</p>
+<p><strong>Step 3: Relevant Formulae and Principles</strong><br/>1. Trigonometric identity: \(\sin 3\theta = 3\sin\theta - 4\sin^3\theta\), which gives \(\sin^3\theta = \frac{3\sin\theta - \sin 3\theta}{4}\).<br/>2. A motion is periodic with period \(T\) if \(y(t + T) = y(t)\).<br/>3. A motion is simple harmonic if and only if \(\frac{d^2 y}{dt^2} = -\omega'^2 y\) for a single constant \(\omega'\).</p>
+<p><strong>Step 4: Step-by-Step Working</strong><br/>Expanding the given equation:<br/>\(y = \frac{3\sin\omega t - \sin 3\omega t}{4}\)<br/>Let \(T = \frac{2\pi}{\omega}\). Substituting \(t + T\) for \(t\):<br/>\(y\left(t + \frac{2\pi}{\omega}\right) = \frac{3\sin(\omega t + 2\pi) - \sin(3\omega t + 6\pi)}{4} = \frac{3\sin\omega t - \sin 3\omega t}{4} = y(t)\)<br/>Thus, the motion is periodic with period \(\frac{2\pi}{\omega}\).<br/>Differentiating \(y\) twice with respect to \(t\):<br/>\(\frac{dy}{dt} = \frac{3\omega \cos\omega t - 3\omega \cos 3\omega t}{4}\)<br/>\(\frac{d^2y}{dt^2} = \frac{-3\omega^2 \sin\omega t + 9\omega^2 \sin 3\omega t}{4}\)<br/>Clearly, \(\frac{d^2y}{dt^2}\) is not proportional to \(-y\).</p>
+<p><strong>Step 5: Check and Final Answer</strong><br/>Since \(y(t)\) repeats after every interval \(\frac{2\pi}{\omega}\) but its acceleration is not proportional to \(-y\), the motion is periodic but not simple harmonic.</p>
 <hr/>
-<p>किसी कण के विस्थापन को निम्नलिखित समीकरण द्वारा निरूपित किया जाता है:</p>
-<p>\[y = \sin^3 \omega t\]</p>
-<p>यह गति है:</p>]]></text></questiontext>
-  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>
-The displacement equation of the particle is:
-\[y(t) = \sin^3 \omega t\]</p>
-<p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>
-We use standard trigonometric identities to expand the cube of the sine function into linear harmonic terms.</p>
-<p><strong>Step 3: Relevant Formulae and Principles</strong><br/>
-Using the trigonometric identity:
-\[\sin(3\theta) = 3\sin\theta - 4\sin^3\theta \implies \sin^3\theta = \frac{1}{4}(3\sin\theta - \sin 3\theta)\]
-For motion to be simple harmonic, the restoring acceleration must satisfy \(\frac{d^2y}{dt^2} = -\omega'^2 y\) for a single fixed frequency.
-For a motion composed of harmonic terms with angular frequencies \(\omega\) and \(3\omega\), the period of the resultant motion is determined by the fundamental angular frequency \(\omega\):
-\[T = \frac{2\pi}{\omega}\]</p>
-<p><strong>Step 4: Step-by-Step Working</strong><br/>
-Substituting \(\theta = \omega t\):
-\[y(t) = \frac{3}{4}\sin\omega t - \frac{1}{4}\sin 3\omega t\]
-Finding the velocity:
-\[v(t) = \frac{dy}{dt} = \frac{3}{4}\omega\cos\omega t - \frac{3}{4}\omega\cos 3\omega t\]
-Finding the acceleration:
-\[a(t) = \frac{d^2y}{dt^2} = -\frac{3}{4}\omega^2\sin\omega t + \frac{9}{4}\omega^2\sin 3\omega t\]
-Because \(a(t)\) cannot be written in the form \(-\omega'^2 y(t)\), the acceleration is not proportional to the displacement. Hence, the motion is not simple harmonic.
-However, both terms \(\sin\omega t\) and \(\sin 3\omega t\) are periodic. The period of \(\sin\omega t\) is \(T_1 = \frac{2\pi}{\omega}\) and the period of \(\sin 3\omega t\) is \(T_2 = \frac{2\pi}{3\omega}\).
-The common period is the least common multiple of \(T_1\) and \(T_2\), which is:
-\[T = \frac{2\pi}{\omega}\]
-Since \(y(t + 2\pi/\omega) = y(t)\), the function repeats itself at regular intervals.</p>
-<p><strong>Step 5: Check and Final Answer</strong><br/>
-The motion repeats identically after every interval of \(2\pi/\omega\), but acceleration is not proportional to \(-y\).
-Therefore, the motion is periodic but not simple harmonic.</p>
-<hr/>
-<p><strong>चरण 1: दिए गए आंकड़े और स्थितियाँ</strong><br/>
-कण का विस्थापन समीकरण दिया गया है:
-\[y(t) = \sin^3 \omega t\]</p>
-<p><strong>चरण 2: मान्यताएँ और चिन्ह परिपाटी</strong><br/>
-त्रिकोणमितीय सर्वसमिका का उपयोग करके घन पद को एकल घात वाले आवर्ती पदों में व्यक्त करते हैं।</p>
-<p><strong>चरण 3: संबंधित सूत्र और सिद्धांत</strong><br/>
-त्रिकोणमितीय सर्वसमिका के अनुसार:
-\[\sin(3\theta) = 3\sin\theta - 4\sin^3\theta \implies \sin^3\theta = \frac{1}{4}(3\sin\theta - \sin 3\theta)\]
-सरल आवर्त गति के लिए त्वरण सदैव विस्थापन के ऋणात्मक मान के समानुपाती होना चाहिए:
-\[\frac{d^2y}{dt^2} = -\omega'^2 y\]
-यदि गति \(\omega\) और \(3\omega\) आवृत्तियों के संयोजनों से बनी हो, तो परिणामी आवर्तकाल मूल आवृत्ति \(\omega\) द्वारा निर्धारित होता है:
-\[T = \frac{2\pi}{\omega}\]</p>
-<p><strong>चरण 4: चरणबद्ध हल</strong><br/>
-\(\theta = \omega t\) रखने पर:
-\[y(t) = \frac{3}{4}\sin\omega t - \frac{1}{4}\sin 3\omega t\]
-समय के सापेक्ष प्रथम अवकलन करने पर वेग:
-\[v(t) = \frac{dy}{dt} = \frac{3}{4}\omega\cos\omega t - \frac{3}{4}\omega\cos 3\omega t\]
-पुनः अवकलन करने पर त्वरण:
-\[a(t) = \frac{d^2y}{dt^2} = -\frac{3}{4}\omega^2\sin\omega t + \frac{9}{4}\omega^2\sin 3\omega t\]
-चूँकि त्वरण \(a(t)\) को \(-\omega'^2 y(t)\) के रूप में नहीं लिखा जा सकता, अतः त्वरण विस्थापन के समानुपाती नहीं है। इसलिए यह गति सरल आवर्त गति नहीं है।
-परन्तु \(\sin\omega t\) का आवर्तकाल \(\frac{2\pi}{\omega}\) है और \(\sin 3\omega t\) का आवर्तकाल \(\frac{2\pi}{3\omega}\) है।
-दोनों का उभयनिष्ठ आवर्तकाल \(T = \frac{2\pi}{\omega}\) है। अतः विस्थापन एक निश्चित समय बाद स्वयं को दोहराता है।</p>
-<p><strong>चरण 5: जांच और अंतिम उत्तर</strong><br/>
-कण की गति प्रत्येक \(2\pi/\omega\) समय अंतराल के बाद दोहराई जाती है, परन्तु त्वरण \(-y\) के समानुपाती नहीं है।
-अतः यह गति आवर्ती है परन्तु सरल आवर्त नहीं है।</p>]]></text></generalfeedback>
+<p><strong>चरण 1: दिए गए आंकड़े और शर्तें</strong><br/>कण का विस्थापन \(y = \sin^3 \omega t\) है, जहाँ \(\omega\) एक नियतांक है।</p>
+<p><strong>चरण 2: मान्यताएँ और चिह्न परिपाटी</strong><br/>गति सभी समय \(t\) के लिए \(y\)-अक्ष के अनुदिश होती है।</p>
+<p><strong>चरण 3: प्रासंगिक सूत्र और सिद्धांत</strong><br/>1. त्रिकोणमितीय सर्वसमिका: \(\sin 3\theta = 3\sin\theta - 4\sin^3\theta\), जिससे \(\sin^3\theta = \frac{3\sin\theta - \sin 3\theta}{4}\) प्राप्त होता है।<br/>2. कोई गति \(T\) आवर्तकाल के साथ आवर्ती होती है यदि \(y(t + T) = y(t)\) हो।<br/>3. कोई गति सरल आवर्त तभी होती है जब किसी एक नियतांक \(\omega'\) के लिए \(\frac{d^2 y}{dt^2} = -\omega'^2 y\) हो।</p>
+<p><strong>चरण 4: चरण-दर-चरण हल</strong><br/>दिए गए समीकरण का विस्तार करने पर:<br/>\(y = \frac{3\sin\omega t - \sin 3\omega t}{4}\)<br/>माना \(T = \frac{2\pi}{\omega}\)। \(t\) के स्थान पर \(t + T\) रखने पर:<br/>\(y\left(t + \frac{2\pi}{\omega}\right) = \frac{3\sin(\omega t + 2\pi) - \sin(3\omega t + 6\pi)}{4} = \frac{3\sin\omega t - \sin 3\omega t}{4} = y(t)\)<br/>अतः गति \(\frac{2\pi}{\omega}\) आवर्तकाल के साथ आवर्ती है।<br/>\(t\) के सापेक्ष \(y\) का दो बार अवकलन करने पर:<br/>\(\frac{dy}{dt} = \frac{3\omega \cos\omega t - 3\omega \cos 3\omega t}{4}\)<br/>\(\frac{d^2y}{dt^2} = \frac{-3\omega^2 \sin\omega t + 9\omega^2 \sin 3\omega t}{4}\)<br/>स्पष्टतः, \(\frac{d^2y}{dt^2}\), \(-y\) के अनुक्रमानुपाती नहीं है।</p>
+<p><strong>चरण 5: जाँच और अंतिम उत्तर</strong><br/>चूँकि \(y(t)\) प्रत्येक \(\frac{2\pi}{\omega}\) अंतराल के बाद स्वयं को दोहराता है लेकिन इसका त्वरण \(-y\) के अनुक्रमानुपाती नहीं है, इसलिए गति आवर्ती है परंतु सरल आवर्त नहीं है।</p>]]></text></generalfeedback>
   <defaultgrade>4.0000000</defaultgrade>
   <penalty>0.2500000</penalty>
   <hidden>0</hidden>
   <single>true</single>
   <shuffleanswers>true</shuffleanswers>
   <answernumbering>abc</answernumbering>
-  <answer fraction="0" format="html"><text><![CDATA[<p>non-periodic</p>]]></text></answer>
-  <answer fraction="100" format="html"><text><![CDATA[<p>periodic but not simple harmonic</p>]]></text></answer>
-  <answer fraction="0" format="html"><text><![CDATA[<p>simple harmonic with period \(2\pi/\omega\)</p>]]></text></answer>
-  <answer fraction="0" format="html"><text><![CDATA[<p>simple harmonic with period \(\pi/\omega\)</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>non-periodic.</p>]]></text></answer>
+  <answer fraction="100" format="html"><text><![CDATA[<p>periodic but not simple harmonic.</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>simple harmonic with period \(2\pi / \omega\)</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>simple harmonic with period \(\pi / \omega\)</p>]]></text></answer>
   <tags>
     <tag><text>standard:neet_ug</text></tag>
-    <tag><text>year:2026</text></tag>
     <tag><text>lang:en</text></tag>
     <tag><text>lang:hi</text></tag>
     <tag><text>subject:physics</text></tag>
+    <tag><text>section:mcq_i</text></tag>
     <tag><text>class:class_11</text></tag>
-    <tag><text>topic:oscillations</text></tag>
     <tag><text>chapter:oscillations</text></tag>
     <tag><text>typology:mcq</text></tag>
     <tag><text>difficulty:medium</text></tag>
-    <tag><text>blooms:understand</text></tag>
-    <tag><text>calculation:light</text></tag>
+    <tag><text>blooms:analyze</text></tag>
+    <tag><text>calculation:moderate</text></tag>
     <tag><text>media:equation</text></tag>
     <tag><text>multiconcept:false</text></tag>
   </tags>
 </question>
 <question type="multichoice">
-  <name><text>NEET_UG_PHYSICS_2026_OSCILLATIONS_MCQ_Q14_03 - Identification of simple harmonic motion relation</text></name>
-  <questiontext format="html"><text><![CDATA[<p>The relation between acceleration and displacement of four particles are given below:</p>
-<p>(a) \(a_x = +2x\)<br/>
-(b) \(a_x = +2x^2\)<br/>
-(c) \(a_x = -2x^2\)<br/>
-(d) \(a_x = -2x\)</p>
-<p>Which one of the particles is executing simple harmonic motion?</p>
+  <name><text>PHYSICS_OSCILLATIONS_MCQI_Q1403 - Acceleration displacement relation for simple harmonic motion</text></name>
+  <questiontext format="html"><text><![CDATA[<p>The relation between acceleration and displacement of four particles are given below. Which one of the particles is executing simple harmonic motion?</p><hr/><p>नीचे चार कणों के त्वरण और विस्थापन के बीच संबंध दिए गए हैं। इनमें से कौन-सा कण सरल आवर्त गति कर रहा है?</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>For a particle executing simple harmonic motion (S.H.M.) along the \(x\)-axis about the origin, the restoring force and hence the acceleration \(a_x\) must be directly proportional to the displacement \(x\) from the mean position and directed opposite to it. Mathematically, \(a_x = -\omega^2 x\), where \(\omega^2 > 0\) is a positive constant.</p>
+<p><strong>Step 2: Evaluation</strong><br/>Examining the given relations:<br/>- \(a_x = +2x\): The acceleration is in the same direction as displacement (positive proportionality), so the particle moves away from the mean position rather than oscillating.<br/>- \(a_x = +2x^2\) and \(a_x = -2x^2\): The acceleration depends nonlinearly on \(x^2\), which violates the linearity requirement of S.H.M.<br/>- \(a_x = -2x\): The acceleration is linear in \(x\) with a negative proportionality constant (\(-\omega^2 = -2\)), meaning it always points toward the mean position \(x = 0\).</p>
+<p><strong>Step 3: Final Conclusion</strong><br/>Therefore, the particle obeying \(a_x = -2x\) is executing simple harmonic motion.</p>
 <hr/>
-<p>चार कणों के त्वरण और विस्थापन के बीच संबंध नीचे दिए गए हैं:</p>
-<p>(a) \(a_x = +2x\)<br/>
-(b) \(a_x = +2x^2\)<br/>
-(c) \(a_x = -2x^2\)<br/>
-(d) \(a_x = -2x\)</p>
-<p>इनमें से कौन-सा कण सरल आवर्त गति कर रहा है?</p>]]></text></questiontext>
-  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>
-Four relations between acceleration \(a_x\) and displacement \(x\) along the x-axis are provided:
-\(a_x = +2x\)
-\(a_x = +2x^2\)
-\(a_x = -2x^2\)
-\(a_x = -2x\)</p>
-<p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>
-The motion is one-dimensional along the x-axis with the origin \(x = 0\) as the equilibrium position. A positive displacement means the particle is to the right of the mean position, and a negative displacement means it is to the left.</p>
-<p><strong>Step 3: Relevant Formulae and Principles</strong><br/>
-The defining condition for simple harmonic motion is that the acceleration must be directly proportional to the displacement from the equilibrium position and directed towards the equilibrium position:
-\[a_x = -\omega^2 x\]
-where \(\omega^2\) is a positive constant representing the square of the angular frequency.</p>
-<p><strong>Step 4: Step-by-Step Working</strong><br/>
-Evaluating each functional relationship against the condition \(a_x = -\omega^2 x\):
-For \(a_x = +2x\), the acceleration has the same sign as the displacement, which means the force is directed away from equilibrium (unstable repulsive force), so it is not simple harmonic motion.
-For \(a_x = +2x^2\), the acceleration depends on the square of displacement rather than being linear, so it is not simple harmonic motion.
-For \(a_x = -2x^2\), the acceleration is non-linear and does not change sign when \(x\) changes sign, so it is not simple harmonic motion.
-For \(a_x = -2x\), the acceleration is linear in displacement and opposite in sign to displacement, matching \(a_x = -\omega^2 x\) with \(\omega = \sqrt{2}\text{ rad/s}\).</p>
-<p><strong>Step 5: Check and Final Answer</strong><br/>
-Only the relation \(a_x = -2x\) satisfies the defining differential equation of simple harmonic motion.
-Therefore, the particle with acceleration relation \(a_x = -2x\) executes simple harmonic motion.</p>
-<hr/>
-<p><strong>चरण 1: दिए गए आंकड़े और स्थितियाँ</strong><br/>
-x-अक्ष के अनुदिश त्वरण \(a_x\) और विस्थापन \(x\) के बीच चार संबंध दिए गए हैं:
-\(a_x = +2x\)
-\(a_x = +2x^2\)
-\(a_x = -2x^2\)
-\(a_x = -2x\)</p>
-<p><strong>चरण 2: मान्यताएँ और चिन्ह परिपाटी</strong><br/>
-गति x-अक्ष के अनुदिश एकविमीय है जहाँ मूलबिंदु \(x = 0\) साम्यावस्था है। धनात्मक विस्थापन साम्य के दाईं ओर और ऋणात्मक विस्थापन बाईं ओर की स्थिति को दर्शाता है।</p>
-<p><strong>चरण 3: संबंधित सूत्र और सिद्धांत</strong><br/>
-सरल आवर्त गति की मूलभूत शर्त यह है कि त्वरण सदैव साम्यावस्था से विस्थापन के सीधे समानुपाती और साम्यावस्था की ओर निर्देशित (विपरीत दिशा में) होना चाहिए:
-\[a_x = -\omega^2 x\]
-जहाँ \(\omega^2\) एक धनात्मक नियतांक है जो कोणीय आवृत्ति के वर्ग को व्यक्त करता है।</p>
-<p><strong>चरण 4: चरणबद्ध हल</strong><br/>
-प्रत्येक संबंध की \(a_x = -\omega^2 x\) से तुलना करने पर:
-\(a_x = +2x\) में त्वरण विस्थापन की ही दिशा में है (प्रतिकर्षी बल), अतः यह सरल आवर्त गति नहीं है।
-\(a_x = +2x^2\) में त्वरण विस्थापन के वर्ग पर निर्भर करता है, अतः यह सरल आवर्त गति नहीं है।
-\(a_x = -2x^2\) में त्वरण अरैखिक है और विस्थापन की दिशा बदलने पर चिन्ह नहीं बदलता, अतः यह सरल आवर्त गति नहीं है।
-\(a_x = -2x\) में त्वरण विस्थापन के रैखिक रूप से समानुपाती है तथा दिशा विपरीत है, जो \(\omega = \sqrt{2}\text{ rad/s}\) के साथ \(a_x = -\omega^2 x\) के पूर्णतः अनुरूप है।</p>
-<p><strong>चरण 5: जांच और अंतिम उत्तर</strong><br/>
-केवल संबंध \(a_x = -2x\) ही सरल आवर्त गति की परिभाषा को संतुष्ट करता है।
-अतः \(a_x = -2x\) त्वरण वाला कण सरल आवर्त गति कर रहा है।</p>]]></text></generalfeedback>
+<p><strong>चरण 1: अवधारणात्मक सिद्धांत</strong><br/>मूल बिंदु के परितः \(x\)-अक्ष के अनुदिश सरल आवर्त गति (S.H.M.) करने वाले कण के लिए, प्रत्यानयन बल और इस कारण त्वरण \(a_x\), माध्य स्थिति से विस्थापन \(x\) के सीधे अनुक्रमानुपाती तथा इसके विपरीत दिशा में होना चाहिए। गणितीय रूप से, \(a_x = -\omega^2 x\), जहाँ \(\omega^2 > 0\) एक धनात्मक स्थिरांक है।</p>
+<p><strong>चरण 2: मूल्यांकन</strong><br/>दिए गए संबंधों का परीक्षण करने पर:<br/>- \(a_x = +2x\): त्वरण विस्थापन की ही दिशा में है (धनात्मक आनुपातिकता), इसलिए कण दोलन करने के बजाय माध्य स्थिति से दूर चला जाता है।<br/>- \(a_x = +2x^2\) तथा \(a_x = -2x^2\): त्वरण \(x^2\) पर अरेखीय रूप से निर्भर करता है, जो सरल आवर्त गति की रैखिकता की शर्त का उल्लंघन करता है।<br/>- \(a_x = -2x\): त्वरण \(x\) में रैखिक है तथा इसका आनुपातिकता नियतांक ऋणात्मक (\(-\omega^2 = -2\)) है, जिसका अर्थ है कि यह सदैव माध्य स्थिति \(x = 0\) की ओर दिष्ट होता है।</p>
+<p><strong>चरण 3: अंतिम निष्कर्ष</strong><br/>अतः, \(a_x = -2x\) का पालन करने वाला कण सरल आवर्त गति कर रहा है।</p>]]></text></generalfeedback>
   <defaultgrade>4.0000000</defaultgrade>
   <penalty>0.2500000</penalty>
   <hidden>0</hidden>
@@ -247,12 +102,11 @@ x-अक्ष के अनुदिश त्वरण \(a_x\) और वि�
   <answer fraction="100" format="html"><text><![CDATA[<p>\(a_x = -2x\)</p>]]></text></answer>
   <tags>
     <tag><text>standard:neet_ug</text></tag>
-    <tag><text>year:2026</text></tag>
     <tag><text>lang:en</text></tag>
     <tag><text>lang:hi</text></tag>
     <tag><text>subject:physics</text></tag>
+    <tag><text>section:mcq_i</text></tag>
     <tag><text>class:class_11</text></tag>
-    <tag><text>topic:oscillations</text></tag>
     <tag><text>chapter:oscillations</text></tag>
     <tag><text>typology:mcq</text></tag>
     <tag><text>difficulty:easy</text></tag>
@@ -263,77 +117,39 @@ x-अक्ष के अनुदिश त्वरण \(a_x\) और वि�
   </tags>
 </question>
 <question type="multichoice">
-  <name><text>NEET_UG_PHYSICS_2026_OSCILLATIONS_MCQ_Q14_04 - Oscillation of liquid column in tube</text></name>
-  <questiontext format="html"><text><![CDATA[<p>Motion of an oscillating liquid column in a U-tube is</p>
+  <name><text>PHYSICS_OSCILLATIONS_MCQI_Q1404 - Oscillating liquid column in a U tube</text></name>
+  <questiontext format="html"><text><![CDATA[<p>Motion of an oscillating liquid column in a U-tube is</p><hr/><p>U-नली में दोलन करते हुए द्रव स्तंभ की गति होती है</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>Consider a liquid of density \(\rho\) and total length \(L\) in a uniform U-tube of cross-sectional area \(A\).</p>
+<p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>Viscous effects and surface tension are neglected. Let the liquid be depressed by a displacement \(y\) in one arm, so it rises by \(y\) in the other arm.</p>
+<p><strong>Step 3: Relevant Formulae and Principles</strong><br/>Restoring force due to the excess liquid column of height \(2y\) is \(F = -(A \cdot 2y \cdot \rho)g\), and by Newton's second law \(F = ma\), where \(m = A L \rho\).</p>
+<p><strong>Step 4: Step-by-Step Working</strong><br/>The total mass of the oscillating liquid column is \(m = A L \rho\).<br/>The restoring force is:<br/>\(F = -2A\rho g y\)<br/>Therefore, the acceleration of the liquid column is:<br/>\(a = \frac{F}{m} = \frac{-2A\rho g y}{AL\rho} = -\left(\frac{2g}{L}\right) y\)<br/>Since \(a = -\omega^2 y\) with \(\omega^2 = \frac{2g}{L}\), the motion is simple harmonic with time period:<br/>\(T = 2\pi \sqrt{\frac{L}{2g}}\)</p>
+<p><strong>Step 5: Check and Final Answer</strong><br/>Notice that \(\rho\) cancels out completely in the expression for acceleration and time period. Hence, the motion is simple harmonic and the time period is independent of the density of the liquid.</p>
 <hr/>
-<p>एक U-नली में दोलन करते द्रव स्तंभ की गति होती है:</p>]]></text></questiontext>
-  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>
-A liquid of density \(\rho\) is contained in a vertical U-tube of uniform cross-sectional area \(A\). Total length of the liquid column is \(L\), and the initial equilibrium height of the liquid in each arm is \(h = L/2\).</p>
-<p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>
-The liquid is incompressible and non-viscous. When the liquid column is depressed by a displacement \(y\) in one arm, it rises by \(y\) in the other arm.</p>
-<p><strong>Step 3: Relevant Formulae and Principles</strong><br/>
-The difference in liquid levels between the two limbs is \(2y\).
-The restoring force due to the excess weight of the liquid column of height \(2y\) is:
-\[F = -(\text{mass of excess column}) \times g = -(A \cdot 2y \cdot \rho) g = -2A\rho g y\]
-The total mass of the liquid column in the U-tube is:
-\[m = A L \rho\]
-Newton's second law gives:
-\[m \frac{d^2y}{dt^2} = -2A\rho g y \implies \frac{d^2y}{dt^2} = -\frac{2A\rho g}{AL\rho} y = -\frac{2g}{L} y\]</p>
-<p><strong>Step 4: Step-by-Step Working</strong><br/>
-The acceleration equation is:
-\[a = -\frac{2g}{L} y = -\frac{g}{h} y\]
-Because the restoring acceleration is directly proportional to displacement \(y\) and directed opposite to it, the motion is simple harmonic motion.
-The angular frequency is \(\omega = \sqrt{\frac{2g}{L}} = \sqrt{\frac{g}{h}}\).
-The time period of oscillation is:
-\[T = \frac{2\pi}{\omega} = 2\pi \sqrt{\frac{L}{2g}} = 2\pi \sqrt{\frac{h}{g}}\]
-Notice that the density \(\rho\) cancels out completely from the equation of motion.</p>
-<p><strong>Step 5: Check and Final Answer</strong><br/>
-The resulting differential equation is linear in \(y\), proving simple harmonic motion, and the time period expression contains only length and gravitational acceleration, being completely independent of liquid density.
-Therefore, the motion is simple harmonic and the time period is independent of the density of the liquid.</p>
-<hr/>
-<p><strong>चरण 1: दिए गए आंकड़े और स्थितियाँ</strong><br/>
-एकसमान अनुप्रस्थ-काट क्षेत्रफल \(A\) वाली ऊर्ध्वाधर U-नली में घनत्व \(\rho\) का द्रव भरा है। द्रव स्तंभ की कुल लंबाई \(L\) है तथा प्रत्येक भुजा में साम्यावस्था की ऊँचाई \(h = L/2\) है।</p>
-<p><strong>चरण 2: मान्यताएँ और चिन्ह परिपाटी</strong><br/>
-द्रव असंपीड़्य और अश्यान है। जब एक भुजा में द्रव को \(y\) दूरी नीचे दबाया जाता है, तो दूसरी भुजा में द्रव \(y\) दूरी ऊपर उठ जाता है।</p>
-<p><strong>चरण 3: संबंधित सूत्र और सिद्धांत</strong><br/>
-दोनों भुजाओं में द्रव स्तर का अंतर \(2y\) हो जाता है।
-\(2y\) ऊँचाई वाले अतिरिक्त द्रव स्तंभ के भार के कारण प्रत्यानयन बल:
-\[F = -(A \cdot 2y \cdot \rho) g = -2A\rho g y\]
-U-नली में द्रव का कुल द्रव्यमान \(m = A L \rho\) है।
-न्यूटन के गति के द्वितीय नियम से:
-\[m \frac{d^2y}{dt^2} = -2A\rho g y \implies \frac{d^2y}{dt^2} = -\frac{2g}{L} y\]</p>
-<p><strong>चरण 4: चरणबद्ध हल</strong><br/>
-त्वरण का समीकरण निम्न प्रकार प्राप्त होता है:
-\[a = -\frac{2g}{L} y = -\frac{g}{h} y\]
-चूँकि प्रत्यानयन त्वरण विस्थापन \(y\) के समानुपाती और विपरीत दिशा में है, अतः यह गति सरल आवर्त गति है।
-कोणीय आवृत्ति \(\omega = \sqrt{\frac{2g}{L}}\) है।
-दोलन का आवर्तकाल है:
-\[T = 2\pi \sqrt{\frac{L}{2g}} = 2\pi \sqrt{\frac{h}{g}}\]
-इस समीकरण में द्रव का घनत्व \(\rho\) पूर्णतः कट जाता है।</p>
-<p><strong>चरण 5: जांच और अंतिम उत्तर</strong><br/>
-समीकरण रैखिक है जो सरल आवर्त गति सिद्ध करता है, तथा आवर्तकाल द्रव के घनत्व पर बिल्कुल निर्भर नहीं करता।
-अतः गति सरल आवर्त गति है और आवर्तकाल द्रव के घनत्व से स्वतंत्र होता है।</p>]]></text></generalfeedback>
+<p><strong>चरण 1: दिए गए आंकड़े और शर्तें</strong><br/>अनुप्रस्थ-काट क्षेत्रफल \(A\) वाली एकसमान U-नली में \(\rho\) घनत्व तथा \(L\) कुल लंबाई के द्रव पर विचार करें।</p>
+<p><strong>चरण 2: मान्यताएँ और चिह्न परिपाटी</strong><br/>श्यानता प्रभाव और पृष्ठ तनाव को नगण्य माना गया है। मान लें कि एक भुजा में द्रव को \(y\) विस्थापन से नीचे दबाया जाता है, जिससे दूसरी भुजा में यह \(y\) ऊपर उठता है।</p>
+<p><strong>चरण 3: प्रासंगिक सूत्र और सिद्धांत</strong><br/>\(2y\) ऊँचाई के अतिरिक्त द्रव स्तंभ के कारण प्रत्यानयन बल \(F = -(A \cdot 2y \cdot \rho)g\) होता है, तथा न्यूटन के द्वितीय नियम से \(F = ma\), जहाँ \(m = A L \rho\) है।</p>
+<p><strong>चरण 4: चरण-दर-चरण हल</strong><br/>दोलन करते हुए द्रव स्तंभ का कुल द्रव्यमान \(m = A L \rho\) है।<br/>प्रत्यानयन बल है:<br/>\(F = -2A\rho g y\)<br/>अतः द्रव स्तंभ का त्वरण है:<br/>\(a = \frac{F}{m} = \frac{-2A\rho g y}{AL\rho} = -\left(\frac{2g}{L}\right) y\)<br/>चूँकि \(a = -\omega^2 y\) जहाँ \(\omega^2 = \frac{2g}{L}\), इसलिए यह गति सरल आवर्त है जिसका आवर्तकाल है:<br/>\(T = 2\pi \sqrt{\frac{L}{2g}}\)</p>
+<p><strong>चरण 5: जाँच और अंतिम उत्तर</strong><br/>ध्यान दें कि त्वरण और आवर्तकाल के व्यंजक में \(\rho\) पूर्णतः निरस्त हो जाता है। अतः गति सरल आवर्त है और आवर्तकाल द्रव के घनत्व से स्वतंत्र है।</p>]]></text></generalfeedback>
   <defaultgrade>4.0000000</defaultgrade>
   <penalty>0.2500000</penalty>
   <hidden>0</hidden>
   <single>true</single>
   <shuffleanswers>true</shuffleanswers>
   <answernumbering>abc</answernumbering>
-  <answer fraction="0" format="html"><text><![CDATA[<p>periodic but not simple harmonic</p>]]></text></answer>
-  <answer fraction="0" format="html"><text><![CDATA[<p>non-periodic</p>]]></text></answer>
-  <answer fraction="100" format="html"><text><![CDATA[<p>simple harmonic and time period is independent of the density of the liquid</p>]]></text></answer>
-  <answer fraction="0" format="html"><text><![CDATA[<p>simple harmonic and time-period is directly proportional to the density of the liquid</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>periodic but not simple harmonic.</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>non-periodic.</p>]]></text></answer>
+  <answer fraction="100" format="html"><text><![CDATA[<p>simple harmonic and time period is independent of the density of the liquid.</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>simple harmonic and time-period is directly proportional to the density of the liquid.</p>]]></text></answer>
   <tags>
     <tag><text>standard:neet_ug</text></tag>
-    <tag><text>year:2026</text></tag>
     <tag><text>lang:en</text></tag>
     <tag><text>lang:hi</text></tag>
     <tag><text>subject:physics</text></tag>
+    <tag><text>section:mcq_i</text></tag>
     <tag><text>class:class_11</text></tag>
-    <tag><text>topic:oscillations</text></tag>
     <tag><text>chapter:oscillations</text></tag>
     <tag><text>typology:mcq</text></tag>
-    <tag><text>difficulty:medium</text></tag>
+    <tag><text>difficulty:easy</text></tag>
     <tag><text>blooms:understand</text></tag>
     <tag><text>calculation:light</text></tag>
     <tag><text>media:text</text></tag>
@@ -341,137 +157,59 @@ U-नली में द्रव का कुल द्रव्यमान 
   </tags>
 </question>
 <question type="multichoice">
-  <name><text>NEET_UG_PHYSICS_2026_OSCILLATIONS_MCQ_Q14_05 - Trajectory of perpendicular simple harmonic motions</text></name>
-  <questiontext format="html"><text><![CDATA[<p>A particle is acted simultaneously by mutually perpendicular simple harmonic motions \(x = a \cos \omega t\) and \(y = a \sin \omega t\). The trajectory of motion of the particle will be</p>
+  <name><text>PHYSICS_OSCILLATIONS_MCQI_Q1405 - Trajectory of mutually perpendicular simple harmonic motions</text></name>
+  <questiontext format="html"><text><![CDATA[<p>A particle is acted simultaneously by mutually perpendicular simple harmonic motions \(x = a \cos \omega t\) and \(y = a \sin \omega t\). The trajectory of motion of the particle will be</p><hr/><p>एक कण पर एक साथ दो परस्पर लंबवत सरल आवर्त गतियाँ \(x = a \cos \omega t\) और \(y = a \sin \omega t\) कार्यरत हैं। कण की गति का प्रक्षेप-पथ होगा</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>The particle simultaneously executes two mutually perpendicular S.H.M.s given by \(x = a \cos \omega t\) and \(y = a \sin \omega t\).</p>
+<p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>The motions lie in the \(xy\)-plane with the origin \((0,0)\) as the centre of motion, and \(a > 0\).</p>
+<p><strong>Step 3: Relevant Formulae and Principles</strong><br/>To find the trajectory, eliminate the time parameter \(t\) using the trigonometric identity \(\cos^2 \omega t + \sin^2 \omega t = 1\). The standard equation of a circle of radius \(a\) centred at the origin is \(x^2 + y^2 = a^2\).</p>
+<p><strong>Step 4: Step-by-Step Working</strong><br/>Squaring both equations and adding them:<br/>\(x^2 + y^2 = (a \cos \omega t)^2 + (a \sin \omega t)^2\)<br/>\(x^2 + y^2 = a^2 (\cos^2 \omega t + \sin^2 \omega t)\)<br/>\(x^2 + y^2 = a^2\)</p>
+<p><strong>Step 5: Check and Final Answer</strong><br/>The resulting equation \(x^2 + y^2 = a^2\) is independent of \(t\) and represents a circle of radius \(a\) centred at the origin. Thus, the trajectory of the particle is a circle.</p>
 <hr/>
-<p>एक कण पर परस्पर लंबवत दो सरल आवर्त गतियाँ \(x = a \cos \omega t\) और \(y = a \sin \omega t\) एक साथ कार्य करती हैं। कण की गति का प्रक्षेप-पथ (पथ) होगा:</p>]]></text></questiontext>
-  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>
-The parametric equations describing the position coordinates of the particle are:
-\[x(t) = a \cos \omega t\]
-\[y(t) = a \sin \omega t\]
-Both motions have the same amplitude \(a\) and angular frequency \(\omega\), and are mutually perpendicular.</p>
-<p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>
-Cartesian coordinates \((x, y)\) define the plane of motion with the origin \((0, 0)\) as the center of oscillation.</p>
-<p><strong>Step 3: Relevant Formulae and Principles</strong><br/>
-The equation of the trajectory is obtained by eliminating the time parameter \(t\) between the expressions for \(x(t)\) and \(y(t)\) using the fundamental trigonometric identity:
-\[\cos^2 \theta + \sin^2 \theta = 1\]</p>
-<p><strong>Step 4: Step-by-Step Working</strong><br/>
-From the given equations:
-\[\frac{x}{a} = \cos \omega t\]
-\[\frac{y}{a} = \sin \omega t\]
-Squaring and adding both equations:
-\[\left(\frac{x}{a}\right)^2 + \left(\frac{y}{a}\right)^2 = \cos^2 \omega t + \sin^2 \omega t\]
-\[\frac{x^2}{a^2} + \frac{y^2}{a^2} = 1 \implies x^2 + y^2 = a^2\]
-This is the standard equation of a circle centered at the origin with radius \(a\).</p>
-<p><strong>Step 5: Check and Final Answer</strong><br/>
-The sum of squares of the coordinates is constant for all times, meaning the distance from the origin remains fixed at \(a\).
-Therefore, the trajectory of motion of the particle will be a circle.</p>
-<hr/>
-<p><strong>चरण 1: दिए गए आंकड़े और स्थितियाँ</strong><br/>
-कण के स्थिति निर्देशांकों के प्राचलिक समीकरण दिए गए हैं:
-\[x(t) = a \cos \omega t\]
-\[y(t) = a \sin \omega t\]
-दोनों गतियों का आयाम \(a\) तथा कोणीय आवृत्ति \(\omega\) समान है और वे परस्पर लंबवत हैं।</p>
-<p><strong>चरण 2: मान्यताएँ और चिन्ह परिपाटी</strong><br/>
-गति के तल को कार्तीय निर्देशांक \((x, y)\) द्वारा परिभाषित किया गया है जहाँ मूलबिंदु \((0, 0)\) दोलन का केंद्र है।</p>
-<p><strong>चरण 3: संबंधित सूत्र और सिद्धांत</strong><br/>
-प्रक्षेप-पथ का समीकरण समय प्राचल \(t\) को त्रिकोणमितीय सर्वसमिका की सहायता से विलुप्त करके प्राप्त किया जाता है:
-\[\cos^2 \theta + \sin^2 \theta = 1\]</p>
-<p><strong>चरण 4: चरणबद्ध हल</strong><br/>
-दिए गए समीकरणों से:
-\[\frac{x}{a} = \cos \omega t\]
-\[\frac{y}{a} = \sin \omega t\]
-दोनों समीकरणों का वर्ग करके जोड़ने पर:
-\[\left(\frac{x}{a}\right)^2 + \left(\frac{y}{a}\right)^2 = \cos^2 \omega t + \sin^2 \omega t\]
-\[x^2 + y^2 = a^2\]
-यह मूलबिंदु पर केंद्र और \(a\) त्रिज्या वाले वृत्त का मानक समीकरण है।</p>
-<p><strong>चरण 5: जांच और अंतिम उत्तर</strong><br/>
-निर्देशांकों के वर्गों का योग सदैव स्थिर \(a^2\) रहता है, अर्थात् कण की मूलबिंदु से दूरी नियत रहती है।
-अतः कण की गति का प्रक्षेप-पथ एक वृत्त होगा।</p>]]></text></generalfeedback>
+<p><strong>चरण 1: दिए गए आंकड़े और शर्तें</strong><br/>कण एक साथ दो परस्पर लंबवत सरल आवर्त गतियाँ कर रहा है जो \(x = a \cos \omega t\) और \(y = a \sin \omega t\) द्वारा दी गई हैं।</p>
+<p><strong>चरण 2: मान्यताएँ और चिह्न परिपाटी</strong><br/>गति \(xy\)-तल में मूल बिंदु \((0,0)\) को केंद्र मानकर हो रही है, तथा \(a > 0\) है।</p>
+<p><strong>चरण 3: प्रासंगिक सूत्र और सिद्धांत</strong><br/>प्रक्षेप-पथ ज्ञात करने के लिए त्रिकोणमितीय सर्वसमिका \(\cos^2 \omega t + \sin^2 \omega t = 1\) का उपयोग करके समय प्राचल \(t\) को विलोपित किया जाता है। मूल बिंदु पर केंद्रित \(a\) त्रिज्या के वृत्त का मानक समीकरण \(x^2 + y^2 = a^2\) होता है।</p>
+<p><strong>चरण 4: चरण-दर-चरण हल</strong><br/>दोनों समीकरणों का वर्ग करके उन्हें जोड़ने पर:<br/>\(x^2 + y^2 = (a \cos \omega t)^2 + (a \sin \omega t)^2\)<br/>\(x^2 + y^2 = a^2 (\cos^2 \omega t + \sin^2 \omega t)\)<br/>\(x^2 + y^2 = a^2\)</p>
+<p><strong>चरण 5: जाँच और अंतिम उत्तर</strong><br/>प्राप्त समीकरण \(x^2 + y^2 = a^2\) समय \(t\) से स्वतंत्र है और मूल बिंदु पर केंद्रित \(a\) त्रिज्या के वृत्त को निरूपित करता है। अतः कण का प्रक्षेप-पथ एक वृत्त है।</p>]]></text></generalfeedback>
   <defaultgrade>4.0000000</defaultgrade>
   <penalty>0.2500000</penalty>
   <hidden>0</hidden>
   <single>true</single>
   <shuffleanswers>true</shuffleanswers>
   <answernumbering>abc</answernumbering>
-  <answer fraction="0" format="html"><text><![CDATA[<p>an ellipse</p>]]></text></answer>
-  <answer fraction="0" format="html"><text><![CDATA[<p>a parabola</p>]]></text></answer>
-  <answer fraction="100" format="html"><text><![CDATA[<p>a circle</p>]]></text></answer>
-  <answer fraction="0" format="html"><text><![CDATA[<p>a straight line</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>an ellipse.</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>a parabola.</p>]]></text></answer>
+  <answer fraction="100" format="html"><text><![CDATA[<p>a circle.</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>a straight line.</p>]]></text></answer>
   <tags>
     <tag><text>standard:neet_ug</text></tag>
-    <tag><text>year:2026</text></tag>
     <tag><text>lang:en</text></tag>
     <tag><text>lang:hi</text></tag>
     <tag><text>subject:physics</text></tag>
+    <tag><text>section:mcq_i</text></tag>
     <tag><text>class:class_11</text></tag>
-    <tag><text>topic:oscillations</text></tag>
     <tag><text>chapter:oscillations</text></tag>
     <tag><text>typology:mcq</text></tag>
     <tag><text>difficulty:easy</text></tag>
-    <tag><text>blooms:understand</text></tag>
+    <tag><text>blooms:apply</text></tag>
     <tag><text>calculation:light</text></tag>
     <tag><text>media:equation</text></tag>
     <tag><text>multiconcept:false</text></tag>
   </tags>
 </question>
 <question type="multichoice">
-  <name><text>NEET_UG_PHYSICS_2026_OSCILLATIONS_MCQ_Q14_06 - Amplitude of combined perpendicular harmonic oscillations</text></name>
-  <questiontext format="html"><text><![CDATA[<p>The displacement of a particle varies with time according to the relation</p>
-<p>\[y = a \sin \omega t + b \cos \omega t\]</p>
+  <name><text>PHYSICS_OSCILLATIONS_MCQI_Q1406 - Resultant amplitude of superposed simple harmonic motions</text></name>
+  <questiontext format="html"><text><![CDATA[<p>The displacement of a particle varies with time according to the relation \(y = a \sin \omega t + b \cos \omega t\).</p><hr/><p>किसी कण का विस्थापन समय के साथ संबंध \(y = a \sin \omega t + b \cos \omega t\) के अनुसार परिवर्तित होता है।</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>The displacement is given by \(y = a \sin \omega t + b \cos \omega t\), where \(a\), \(b\), and \(\omega\) are constants.</p>
+<p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>We express \(a\) and \(b\) in polar form using \(a = A \cos \phi\) and \(b = A \sin \phi\) with \(A > 0\).</p>
+<p><strong>Step 3: Relevant Formulae and Principles</strong><br/>Trigonometric addition identity: \(\sin(\omega t + \phi) = \sin\omega t \cos\phi + \cos\omega t \sin\phi\).<br/>Standard S.H.M. equation: \(y = A \sin(\omega t + \phi)\), where \(A\) is the amplitude.</p>
+<p><strong>Step 4: Step-by-Step Working</strong><br/>Setting \(a = A \cos \phi\) and \(b = A \sin \phi\), squaring and adding gives:<br/>\(a^2 + b^2 = A^2 (\cos^2 \phi + \sin^2 \phi) = A^2 \implies A = \sqrt{a^2 + b^2}\)<br/>Substituting \(a\) and \(b\) into the displacement relation:<br/>\(y = A \cos \phi \sin \omega t + A \sin \phi \cos \omega t = A \sin(\omega t + \phi) = \sqrt{a^2 + b^2} \sin(\omega t + \phi)\)</p>
+<p><strong>Step 5: Check and Final Answer</strong><br/>The equation \(y = \sqrt{a^2 + b^2} \sin(\omega t + \phi)\) is a single sinusoidal function of angular frequency \(\omega\). Thus, the motion is S.H.M. with amplitude \(\sqrt{a^2 + b^2}\).</p>
 <hr/>
-<p>किसी कण का विस्थापन समय के साथ निम्नलिखित संबंध के अनुसार परिवर्तित होता है:</p>
-<p>\[y = a \sin \omega t + b \cos \omega t\]</p>]]></text></questiontext>
-  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>
-The displacement of the particle is given by the linear combination of two harmonic functions:
-\[y(t) = a \sin \omega t + b \cos \omega t\]
-where \(a\) and \(b\) are constants and \(\omega\) is the angular frequency.</p>
-<p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>
-We express the constants \(a\) and \(b\) in terms of an amplitude \(A\) and a phase angle \(\phi\) such that:
-\(a = A \cos \phi\) and \(b = A \sin \phi\).</p>
-<p><strong>Step 3: Relevant Formulae and Principles</strong><br/>
-Using the addition identity:
-\[\sin(\omega t + \phi) = \sin\omega t \cos\phi + \cos\omega t \sin\phi\]
-The resultant amplitude \(A\) is given by:
-\[A^2 = (A\cos\phi)^2 + (A\sin\phi)^2 = a^2 + b^2 \implies A = \sqrt{a^2 + b^2}\]
-The phase angle satisfies \(\tan\phi = b/a\).</p>
-<p><strong>Step 4: Step-by-Step Working</strong><br/>
-Substitute \(a = A \cos \phi\) and \(b = A \sin \phi\) into the displacement relation:
-\[y(t) = A \cos\phi \sin\omega t + A \sin\phi \cos\omega t = A \sin(\omega t + \phi)\]
-where:
-\[A = \sqrt{a^2 + b^2}\]
-Differentiating \(y(t)\) twice with respect to time:
-\[\frac{dy}{dt} = A \omega \cos(\omega t + \phi)\]
-\[\frac{d^2y}{dt^2} = -A \omega^2 \sin(\omega t + \phi) = -\omega^2 y\]
-Since the acceleration is directly proportional to \(-y\), the resulting motion is simple harmonic motion with amplitude \(\sqrt{a^2 + b^2}\).</p>
-<p><strong>Step 5: Check and Final Answer</strong><br/>
-The superposition of two simple harmonic motions of identical frequency along the same line produces simple harmonic motion whose amplitude equals the vector hypotenuse \(\sqrt{a^2 + b^2}\).
-Therefore, the motion is S.H.M. with amplitude \(\sqrt{a^2 + b^2}\).</p>
-<hr/>
-<p><strong>चरण 1: दिए गए आंकड़े और स्थितियाँ</strong><br/>
-कण का विस्थापन दो सरल आवर्त फलनों के रैखिक संयोजन द्वारा दिया गया है:
-\[y(t) = a \sin \omega t + b \cos \omega t\]
-जहाँ \(a\) और \(b\) नियतांक हैं तथा \(\omega\) कोणीय आवृत्ति है।</p>
-<p><strong>चरण 2: मान्यताएँ और चिन्ह परिपाटी</strong><br/>
-नियतांक \(a\) और \(b\) को आयाम \(A\) और कला कोण \(\phi\) के रूप में मानते हैं:
-\(a = A \cos \phi\) तथा \(b = A \sin \phi\)।</p>
-<p><strong>चरण 3: संबंधित सूत्र और सिद्धांत</strong><br/>
-त्रिकोणमितीय योग सूत्र के अनुसार:
-\[\sin(\omega t + \phi) = \sin\omega t \cos\phi + \cos\omega t \sin\phi\]
-परिणामी आयाम \(A\) का मान निम्न प्रकार प्राप्त होता है:
-\[A = \sqrt{a^2 + b^2}\]
-तथा कला कोण \(\tan\phi = b/a\) होता है।</p>
-<p><strong>चरण 4: चरणबद्ध हल</strong><br/>
-विस्थापन समीकरण में प्रतिस्थापित करने पर:
-\[y(t) = A \cos\phi \sin\omega t + A \sin\phi \cos\omega t = A \sin(\omega t + \phi)\]
-जहाँ:
-\[A = \sqrt{a^2 + b^2}\]
-समय के सापेक्ष दो बार अवकलन करने पर:
-\[\frac{d^2y}{dt^2} = -\omega^2 A \sin(\omega t + \phi) = -\omega^2 y\]
-चूँकि त्वरण विस्थापन के ऋणात्मक मान के समानुपाती है, अतः गति सरल आवर्त गति है जिसका आयाम \(\sqrt{a^2 + b^2}\) है।</p>
-<p><strong>चरण 5: जांच और अंतिम उत्तर</strong><br/>
-समान आवृत्ति की दो परस्पर लंबवत कलाओं वाली गतियों का संयोजन सरल आवर्त गति उत्पन्न करता है जिसका आयाम \(\sqrt{a^2 + b^2}\) होता है।
-अतः गति \(\sqrt{a^2 + b^2}\) आयाम के साथ सरल आवर्त गति है।</p>]]></text></generalfeedback>
+<p><strong>चरण 1: दिए गए आंकड़े और शर्तें</strong><br/>विस्थापन \(y = a \sin \omega t + b \cos \omega t\) द्वारा दिया गया है, जहाँ \(a\), \(b\) और \(\omega\) नियतांक हैं।</p>
+<p><strong>चरण 2: मान्यताएँ और चिह्न परिपाटी</strong><br/>हम \(A > 0\) के साथ \(a = A \cos \phi\) और \(b = A \sin \phi\) का उपयोग करके \(a\) और \(b\) को ध्रुवीय रूप में व्यक्त करते हैं।</p>
+<p><strong>चरण 3: प्रासंगिक सूत्र और सिद्धांत</strong><br/>त्रिकोणमितीय योग सर्वसमिका: \(\sin(\omega t + \phi) = \sin\omega t \cos\phi + \cos\omega t \sin\phi\)।<br/>मानक सरल आवर्त गति समीकरण: \(y = A \sin(\omega t + \phi)\), जहाँ \(A\) आयाम है।</p>
+<p><strong>चरण 4: चरण-दर-चरण हल</strong><br/>\(a = A \cos \phi\) और \(b = A \sin \phi\) मानकर, वर्ग करने और जोड़ने पर प्राप्त होता है:<br/>\(a^2 + b^2 = A^2 (\cos^2 \phi + \sin^2 \phi) = A^2 \implies A = \sqrt{a^2 + b^2}\)<br/>विस्थापन संबंध में \(a\) और \(b\) को प्रतिस्थापित करने पर:<br/>\(y = A \cos \phi \sin \omega t + A \sin \phi \cos \omega t = A \sin(\omega t + \phi) = \sqrt{a^2 + b^2} \sin(\omega t + \phi)\)</p>
+<p><strong>चरण 5: जाँच और अंतिम उत्तर</strong><br/>समीकरण \(y = \sqrt{a^2 + b^2} \sin(\omega t + \phi)\) कोणीय आवृत्ति \(\omega\) का एक एकल ज्यावक्रीय फलन है। अतः गति \(\sqrt{a^2 + b^2}\) आयाम वाली सरल आवर्त गति (S.H.M.) है।</p>]]></text></generalfeedback>
   <defaultgrade>4.0000000</defaultgrade>
   <penalty>0.2500000</penalty>
   <hidden>0</hidden>
@@ -479,78 +217,39 @@ Therefore, the motion is S.H.M. with amplitude \(\sqrt{a^2 + b^2}\).</p>
   <shuffleanswers>true</shuffleanswers>
   <answernumbering>abc</answernumbering>
   <answer fraction="0" format="html"><text><![CDATA[<p>The motion is oscillatory but not S.H.M.</p>]]></text></answer>
-  <answer fraction="0" format="html"><text><![CDATA[<p>The motion is S.H.M. with amplitude \(a + b\)</p>]]></text></answer>
-  <answer fraction="0" format="html"><text><![CDATA[<p>The motion is S.H.M. with amplitude \(a^2 + b^2\)</p>]]></text></answer>
-  <answer fraction="100" format="html"><text><![CDATA[<p>The motion is S.H.M. with amplitude \(\sqrt{a^2 + b^2}\)</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>The motion is S.H.M. with amplitude \(a + b\).</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>The motion is S.H.M. with amplitude \(a^2 + b^2\).</p>]]></text></answer>
+  <answer fraction="100" format="html"><text><![CDATA[<p>The motion is S.H.M. with amplitude \(\sqrt{a^2 + b^2}\).</p>]]></text></answer>
   <tags>
     <tag><text>standard:neet_ug</text></tag>
-    <tag><text>year:2026</text></tag>
     <tag><text>lang:en</text></tag>
     <tag><text>lang:hi</text></tag>
     <tag><text>subject:physics</text></tag>
+    <tag><text>section:mcq_i</text></tag>
     <tag><text>class:class_11</text></tag>
-    <tag><text>topic:oscillations</text></tag>
     <tag><text>chapter:oscillations</text></tag>
     <tag><text>typology:mcq</text></tag>
     <tag><text>difficulty:easy</text></tag>
-    <tag><text>blooms:understand</text></tag>
+    <tag><text>blooms:apply</text></tag>
     <tag><text>calculation:light</text></tag>
     <tag><text>media:equation</text></tag>
     <tag><text>multiconcept:false</text></tag>
   </tags>
 </question>
 <question type="multichoice">
-  <name><text>NEET_UG_PHYSICS_2026_OSCILLATIONS_MCQ_Q14_07 - Resonant vibration amplitude of coupled pendulums</text></name>
-  <questiontext format="html"><text><![CDATA[<p>Four pendulums A, B, C and D are suspended from the same elastic support as shown in the figure. A and C are of the same length, while B is smaller than A and D is larger than A. If A is given a transverse displacement,</p>
-<p><img src="@@PLUGINFILE@@/img-0.jpeg" alt="Four pendulums suspended from elastic support" /></p>
+  <name><text>PHYSICS_OSCILLATIONS_MCQI_Q1407 - Resonance in coupled pendulums on elastic support</text></name>
+  <questiontext format="html"><text><![CDATA[<p>Four pendulums A, B, C and D are suspended from the same elastic support as shown in Fig. 14.1. A and C are of the same length, while B is smaller than A and D is larger than A. If A is given a transverse displacement,</p><p><img src="@@PLUGINFILE@@/img-0.jpeg" alt="Four pendulums suspended from an elastic support" /></p><hr/><p>चित्र 14.1 में दर्शाए अनुसार चार लोलक A, B, C और D एक ही प्रत्यास्थ आधार से लटकाए गए हैं। A और C की लंबाई समान है, जबकि B की लंबाई A से कम तथा D की लंबाई A से अधिक है। यदि A को एक अनुप्रस्थ विस्थापन दिया जाए, तो</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>Four pendulums A, B, C, and D are suspended from a common elastic support. Lengths satisfy \(L_A = L_C\), \(L_B < L_A\), and \(L_D > L_A\). Pendulum A is given an initial transverse displacement.</p>
+<p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>All pendulums oscillate with small amplitudes in the same acceleration due to gravity \(g\), and the elastic support transmits periodic disturbances from A to B, C, and D.</p>
+<p><strong>Step 3: Relevant Formulae and Principles</strong><br/>The natural frequency of a simple pendulum of length \(L\) is \(\nu = \frac{1}{2\pi}\sqrt{\frac{g}{L}}\). Resonance occurs when the driving frequency equals the natural frequency of a driven oscillator, producing maximum oscillation amplitude.</p>
+<p><strong>Step 4: Step-by-Step Working</strong><br/>Since \(L_A = L_C\), the natural frequency of pendulum C equals that of pendulum A (\(\nu_C = \nu_A\)).<br/>For pendulum B, \(L_B < L_A \implies \nu_B > \nu_A\).<br/>For pendulum D, \(L_D > L_A \implies \nu_D < \nu_A\).<br/>When A oscillates, it exerts a periodic driving force of frequency \(\nu_A\) through the elastic support on B, C, and D. Because \(\nu_C = \nu_A\), pendulum C is in resonance with the driving force.</p>
+<p><strong>Step 5: Check and Final Answer</strong><br/>Due to resonance, energy is transferred most efficiently to pendulum C, so C will vibrate with maximum amplitude.</p>
 <hr/>
-<p>चार लोलक A, B, C और D एक ही प्रत्यास्थ आधार से चित्र में दिखाए अनुसार लटकाए गए हैं। A और C की लंबाइयाँ समान हैं, जबकि B की लंबाई A से कम है और D की लंबाई A से अधिक है। यदि A को अनुप्रस्थ विस्थापन दिया जाता है, तो:</p>
-<p><img src="@@PLUGINFILE@@/img-0.jpeg" alt="प्रत्यास्थ आधार से लटके चार लोलक" /></p>]]></text></questiontext>
-  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>
-Four simple pendulums labeled A, B, C, and D are suspended from a common elastic horizontal support.
-The lengths of the pendulums satisfy:
-\(l_A = l_C\)
-\(l_B < l_A\)
-\(l_D > l_A\)
-Pendulum A is initially set into transverse oscillation.</p>
-<p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>
-The horizontal support is elastic and couples the vibrations of the pendulums. The energy of pendulum A is transmitted through the elastic support to pendulums B, C, and D as a periodic driving force of frequency equal to the natural frequency of pendulum A.</p>
-<p><strong>Step 3: Relevant Formulae and Principles</strong><br/>
-The natural time period and natural frequency of a simple pendulum of length \(l\) are:
-\[T = 2\pi \sqrt{\frac{l}{g}}, \quad \nu = \frac{1}{2\pi} \sqrt{\frac{g}{l}}\]
-When a system is subjected to an external periodic driving force whose frequency equals its own natural frequency, the phenomenon of resonance occurs, leading to a maximum amplitude of vibration.</p>
-<p><strong>Step 4: Step-by-Step Working</strong><br/>
-Because pendulum A and pendulum C have identical lengths (\(l_A = l_C\)), their natural frequencies of vibration are identical:
-\[\nu_A = \nu_C\]
-The periodic transverse disturbance from pendulum A acts as an external driving force on the remaining pendulums.
-Pendulums B and D have natural frequencies different from that of pendulum A because their lengths differ (\(\nu_B > \nu_A\) and \(\nu_D < \nu_A\)), so they undergo forced oscillations with relatively small amplitudes.
-In contrast, pendulum C is driven exactly at its natural resonant frequency (\(\nu_{\text{driver}} = \nu_C\)). As a result, resonance occurs in pendulum C, causing a substantial transfer of energy from pendulum A to pendulum C.</p>
-<p><strong>Step 5: Check and Final Answer</strong><br/>
-Due to matching lengths and frequencies, resonance occurs exclusively for pendulum C, making its vibration amplitude the largest among all driven pendulums.
-Therefore, pendulum C will vibrate with maximum amplitude.</p>
-<hr/>
-<p><strong>चरण 1: दिए गए आंकड़े और स्थितियाँ</strong><br/>
-चार सरल लोलक A, B, C और D एक उभयनिष्ठ प्रत्यास्थ क्षैतिज आधार से लटकाए गए हैं।
-लोलकों की लंबाइयों में संबंध निम्न है:
-\(l_A = l_C\)
-\(l_B < l_A\)
-\(l_D > l_A\)
-प्रारंभ में लोलक A को अनुप्रस्थ विस्थापन देकर दोलन कराया जाता है।</p>
-<p><strong>चरण 2: मान्यताएँ और चिन्ह परिपाटी</strong><br/>
-प्रत्यास्थ आधार लोलकों के कंपनों को युग्मित करता है। लोलक A की ऊर्जा प्रत्यास्थ आधार के माध्यम से अन्य लोलकों को लोलक A की स्वाभाविक आवृत्ति के बराबर आवृत्ति वाले आवर्ती चालक बल के रूप में प्राप्त होती है।</p>
-<p><strong>चरण 3: संबंधित सूत्र और सिद्धांत</strong><br/>
-\(l\) लंबाई वाले सरल लोलक का स्वाभाविक आवर्तकाल और आवृत्ति निम्न प्रकार व्यक्त की जाती है:
-\[T = 2\pi \sqrt{\frac{l}{g}}, \quad \nu = \frac{1}{2\pi} \sqrt{\frac{g}{l}}\]
-जब किसी निकाय पर उसकी स्वाभाविक आवृत्ति के बराबर आवृत्ति वाला बाह्य आवर्ती चालक बल लगाया जाता है, तो अनुनाद की स्थिति उत्पन्न होती है, जिससे दोलन का आयाम अधिकतम हो जाता है।</p>
-<p><strong>चरण 4: चरणबद्ध हल</strong><br/>
-चूँकि लोलक A और C की लंबाइयाँ समान हैं (\(l_A = l_C\)), अतः उनकी स्वाभाविक आवृत्तियाँ भी समान हैं:
-\[\nu_A = \nu_C\]
-लोलक A के कंपन अन्य लोलकों के लिए बाह्य चालक बल का कार्य करते हैं।
-लोलक B और D की लंबाइयाँ भिन्न होने के कारण उनकी स्वाभाविक आवृत्तियाँ लोलक A से भिन्न हैं, अतः वे कम आयाम के साथ प्रणोदित दोलन करते हैं।
-परन्तु लोलक C के लिए चालक बल की आवृत्ति उसकी स्वाभाविक आवृत्ति के ठीक बराबर होती है (अनुनाद की स्थिति)। इसके परिणामस्वरूप लोलक C अधिकतम आयाम के साथ कंपन करता है।</p>
-<p><strong>चरण 5: जांच और अंतिम उत्तर</strong><br/>
-समान लंबाई और आवृत्ति के कारण केवल लोलक C में अनुनाद घटित होता है, जिससे इसका आयाम सर्वाधिक होता है।
-अतः लोलक C अधिकतम आयाम से कंपन करेगा।</p>]]></text></generalfeedback>
+<p><strong>चरण 1: दिए गए आंकड़े और शर्तें</strong><br/>चार लोलक A, B, C और D एक उभयनिष्ठ प्रत्यास्थ आधार से लटकाए गए हैं। इनकी लंबाइयाँ \(L_A = L_C\), \(L_B < L_A\), तथा \(L_D > L_A\) को संतुष्ट करती हैं। लोलक A को प्रारंभिक अनुप्रस्थ विस्थापन दिया जाता है।</p>
+<p><strong>चरण 2: मान्यताएँ और चिह्न परिपाटी</strong><br/>सभी लोलक एक ही गुरुत्वीय त्वरण \(g\) में अल्प आयाम से दोलन करते हैं, तथा प्रत्यास्थ आधार A से आवर्ती विक्षोभ को B, C और D तक संचारित करता है।</p>
+<p><strong>चरण 3: प्रासंगिक सूत्र और सिद्धांत</strong><br/>\(L\) लंबाई के सरल लोलक की स्वाभाविक आवृत्ति \(\nu = \frac{1}{2\pi}\sqrt{\frac{g}{L}}\) होती है। अनुनाद तब होता है जब प्रणोदित आवृत्ति किसी चालित दोलक की स्वाभाविक आवृत्ति के बराबर होती है, जिससे दोलन का आयाम अधिकतम हो जाता है।</p>
+<p><strong>चरण 4: चरण-दर-चरण हल</strong><br/>चूँकि \(L_A = L_C\), इसलिए लोलक C की स्वाभाविक आवृत्ति लोलक A के बराबर (\(\nu_C = \nu_A\)) है।<br/>लोलक B के लिए, \(L_B < L_A \implies \nu_B > \nu_A\)।<br/>लोलक D के लिए, \(L_D > L_A \implies \nu_D < \nu_A\)।<br/>जब A दोलन करता है, तो यह प्रत्यास्थ आधार के माध्यम से B, C और D पर \(\nu_A\) आवृत्ति का आवर्ती प्रणोदित बल लगाता है। चूँकि \(\nu_C = \nu_A\) है, इसलिए लोलक C प्रणोदित बल के साथ अनुनाद में होता है।</p>
+<p><strong>चरण 5: जाँच और अंतिम उत्तर</strong><br/>अनुनाद के कारण लोलक C को ऊर्जा का स्थानांतरण सर्वाधिक दक्षता से होता है, इसलिए C अधिकतम आयाम से कंपन करेगा।</p>]]></text></generalfeedback>
   <defaultgrade>4.0000000</defaultgrade>
   <penalty>0.2500000</penalty>
   <hidden>0</hidden>
@@ -563,15 +262,14 @@ Therefore, pendulum C will vibrate with maximum amplitude.</p>
   <answer fraction="0" format="html"><text><![CDATA[<p>All the four will oscillate with equal amplitude.</p>]]></text></answer>
   <tags>
     <tag><text>standard:neet_ug</text></tag>
-    <tag><text>year:2026</text></tag>
     <tag><text>lang:en</text></tag>
     <tag><text>lang:hi</text></tag>
     <tag><text>subject:physics</text></tag>
+    <tag><text>section:mcq_i</text></tag>
     <tag><text>class:class_11</text></tag>
-    <tag><text>topic:oscillations</text></tag>
     <tag><text>chapter:oscillations</text></tag>
     <tag><text>typology:mcq</text></tag>
-    <tag><text>difficulty:medium</text></tag>
+    <tag><text>difficulty:easy</text></tag>
     <tag><text>blooms:understand</text></tag>
     <tag><text>calculation:light</text></tag>
     <tag><text>media:diagram</text></tag>
@@ -579,81 +277,36 @@ Therefore, pendulum C will vibrate with maximum amplitude.</p>
   </tags>
 </question>
 <question type="multichoice">
-  <name><text>NEET_UG_PHYSICS_2026_OSCILLATIONS_MCQ_Q14_08 - Projection of rotating particle on axis</text></name>
-  <questiontext format="html"><text><![CDATA[<p>The figure shows the circular motion of a particle. The radius of the circle, the period, sense of revolution and the initial position are indicated on the figure. The simple harmonic motion of the \(x\)-projection of the radius vector of the rotating particle P is</p>
-<p><img src="@@PLUGINFILE@@/img-1.jpeg" alt="Circular motion of particle P" /></p>
+  <name><text>PHYSICS_OSCILLATIONS_MCQI_Q1408 - Projection of uniform circular motion on x axis</text></name>
+  <questiontext format="html"><text><![CDATA[<p>Figure 14.2 shows the circular motion of a particle. The radius of the circle, the period, sense of revolution and the initial position are indicated on the figure. The simple harmonic motion of the \(x\)-projection of the radius vector of the rotating particle P is</p><p><img src="@@PLUGINFILE@@/img-1.jpeg" alt="Circular motion of particle P with radius B and period 30s" /></p><hr/><p>चित्र 14.2 किसी कण की वृत्तीय गति को दर्शाता है। चित्र में वृत्त की त्रिज्या, आवर्तकाल, परिक्रमण की दिशा तथा प्रारंभिक स्थिति दर्शाए गए हैं। घूर्णन करते कण P के त्रिज्या सदिश के \(x\)-प्रक्षेप की सरल आवर्त गति है</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>From the diagram, the particle P moves in a circle of radius \(B\) with time period \(T = 30\text{ s}\). At \(t = 0\), P is at \((0, B)\) on the positive \(y\)-axis, and the sense of revolution is clockwise.</p>
+<p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>The \(x\)-axis is horizontal with the positive direction to the right, and the \(y\)-axis is vertical with the positive direction upwards. Angle \(\theta\) is measured clockwise from the positive \(y\)-axis.</p>
+<p><strong>Step 3: Relevant Formulae and Principles</strong><br/>Angular speed of uniform circular motion is \(\omega = \frac{2\pi}{T}\). After time \(t\), the angular displacement from the positive \(y\)-axis in the clockwise direction is \(\theta = \omega t\). The \(x\)-projection of the radius vector is \(x(t) = B \sin\theta\).</p>
+<p><strong>Step 4: Step-by-Step Working</strong><br/>Calculate the angular speed:<br/>\(\omega = \frac{2\pi}{T} = \frac{2\pi}{30}\text{ rad/s}\)<br/>At time \(t\), the radius vector makes an angle \(\theta = \omega t = \frac{2\pi t}{30}\) with the positive \(y\)-axis towards the positive \(x\)-axis.<br/>Therefore, the \(x\)-projection is:<br/>\(x(t) = B \sin \left(\frac{2\pi t}{30}\right)\)</p>
+<p><strong>Step 5: Check and Final Answer</strong><br/>At \(t = 0\), \(x(0) = 0\), and as \(t\) increases slightly from \(0\), moving clockwise from \((0, B)\) makes \(x(t)\) positive, which matches \(x(t) = B \sin \left(\frac{2\pi t}{30}\right)\).</p>
 <hr/>
-<p>चित्र में एक कण की वृत्तीय गति दर्शाई गई है। वृत्त की त्रिज्या, आवर्तकाल, परिक्रमण की दिशा तथा प्रारंभिक स्थिति चित्र में अंकित हैं। घूर्णन करते कण P के त्रिज्या सदिश के \(x\)-प्रक्षेप की सरल आवर्त गति है:</p>
-<p><img src="@@PLUGINFILE@@/img-1.jpeg" alt="कण P की वृत्तीय गति" /></p>]]></text></questiontext>
-  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>
-From the reference circle in the figure:
-Radius of circle \(= B\)
-Time period of revolution \(T = 30\text{ s}\)
-Initial position of particle P at \(t = 0\) is on the positive y-axis: \((0, B)\)
-Sense of rotation: Clockwise</p>
-<p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>
-The center of the circle is at the origin \((0, 0)\). Angular displacement is measured relative to the positive x-axis. At \(t = 0\), the position vector makes an angle of \(+\frac{\pi}{2}\text{ rad}\) with the positive x-axis. Since revolution is clockwise, the angle with the positive x-axis decreases with time.</p>
-<p><strong>Step 3: Relevant Formulae and Principles</strong><br/>
-Angular velocity:
-\[\omega = \frac{2\pi}{T} = \frac{2\pi}{30}\text{ rad/s}\]
-The angle \(\theta(t)\) of the radius vector with the positive x-axis at time \(t\) is:
-\[\theta(t) = \frac{\pi}{2} - \omega t\]
-The projection of the radius vector of length \(B\) onto the x-axis is:
-\[x(t) = B \cos\theta(t)\]</p>
-<p><strong>Step 4: Step-by-Step Working</strong><br/>
-Substituting \(\theta(t) = \frac{\pi}{2} - \omega t\) into the projection formula:
-\[x(t) = B \cos\left(\frac{\pi}{2} - \omega t\right)\]
-Using the trigonometric identity \(\cos(\frac{\pi}{2} - \alpha) = \sin\alpha\):
-\[x(t) = B \sin(\omega t)\]
-Substituting \(\omega = \frac{2\pi}{30}\):
-\[x(t) = B \sin\left(\frac{2\pi t}{30}\right)\]</p>
-<p><strong>Step 5: Check and Final Answer</strong><br/>
-At \(t = 0\), \(x(0) = B \sin(0) = 0\), which correctly matches the x-coordinate of the particle on the y-axis. As time increases, the clockwise motion moves the particle into the first quadrant, making the x-coordinate positive, in full agreement with \(\sin(2\pi t/30) > 0\).
-Therefore, the simple harmonic motion of the projection is \(x(t) = B \sin\left(\frac{2\pi t}{30}\right)\).</p>
-<hr/>
-<p><strong>चरण 1: दिए गए आंकड़े और स्थितियाँ</strong><br/>
-चित्र में दर्शाए गए संदर्भ वृत्त के अनुसार:
-वृत्त की त्रिज्या \(= B\)
-परिक्रमण का आवर्तकाल \(T = 30\text{ s}\)
-समय \(t = 0\) पर कण P की प्रारंभिक स्थिति धनात्मक y-अक्ष पर \((0, B)\) है।
-परिक्रमण की दिशा: दक्षिणावर्त (clockwise)</p>
-<p><strong>चरण 2: मान्यताएँ और चिन्ह परिपाटी</strong><br/>
-वृत्त का केंद्र मूलबिंदु पर स्थित है। कोण धनात्मक x-अक्ष से मापा जाता है। \(t = 0\) पर त्रिज्या सदिश का x-अक्ष से कोण \(+\frac{\pi}{2}\) है। दक्षिणावर्त गति के कारण यह कोण समय के साथ घटता है।</p>
-<p><strong>चरण 3: संबंधित सूत्र और सिद्धांत</strong><br/>
-कोणीय वेग का मान:
-\[\omega = \frac{2\pi}{T} = \frac{2\pi}{30}\text{ rad/s}\]
-समय \(t\) पर x-अक्ष के साथ त्रिज्या सदिश का कोण:
-\[\theta(t) = \frac{\pi}{2} - \omega t\]
-x-अक्ष पर त्रिज्या सदिश का प्रक्षेप:
-\[x(t) = B \cos\theta(t)\]</p>
-<p><strong>चरण 4: चरणबद्ध हल</strong><br/>
-कोण का मान प्रक्षेप सूत्र में रखने पर:
-\[x(t) = B \cos\left(\frac{\pi}{2} - \omega t\right)\]
-त्रिकोणमितीय सर्वसमिका \(\cos(\frac{\pi}{2} - \alpha) = \sin\alpha\) के उपयोग से:
-\[x(t) = B \sin(\omega t)\]
-\(\omega = \frac{2\pi}{30}\) रखने पर:
-\[x(t) = B \sin\left(\frac{2\pi t}{30}\right)\]</p>
-<p><strong>चरण 5: जांच और अंतिम उत्तर</strong><br/>
-\(t = 0\) पर \(x(0) = 0\) प्राप्त होता है, जो y-अक्ष पर स्थित बिंदु के x-निर्देशांक के बिल्कुल अनुरूप है। दक्षिणावर्त गति से कण प्रथम चतुर्थांश में जाता है जहाँ x धनात्मक होता है।
-अतः प्रक्षेप की सरल आवर्त गति का समीकरण \(x(t) = B \sin\left(\frac{2\pi t}{30}\right)\) है।</p>]]></text></generalfeedback>
+<p><strong>चरण 1: दिए गए आंकड़े और शर्तें</strong><br/>आरेख के अनुसार, कण P त्रिज्या \(B\) के वृत्त में \(T = 30\text{ s}\) आवर्तकाल से गति कर रहा है। \(t = 0\) पर P धनात्मक \(y\)-अक्ष पर \((0, B)\) पर स्थित है, तथा परिक्रमण की दिशा दक्षिणावर्त है।</p>
+<p><strong>चरण 2: मान्यताएँ और चिह्न परिपाटी</strong><br/>\(x\)-अक्ष क्षैतिज है जिसकी धनात्मक दिशा दाईं ओर है, तथा \(y\)-अक्ष ऊर्ध्वाधर है जिसकी धनात्मक दिशा ऊपर की ओर है। कोण \(\theta\) धनात्मक \(y\)-अक्ष से दक्षिणावर्त दिशा में मापा जाता है।</p>
+<p><strong>चरण 3: प्रासंगिक सूत्र और सिद्धांत</strong><br/>एकसमान वृत्तीय गति की कोणीय चाल \(\omega = \frac{2\pi}{T}\) है। समय \(t\) के बाद, दक्षिणावर्त दिशा में धनात्मक \(y\)-अक्ष से कोणीय विस्थापन \(\theta = \omega t\) है। त्रिज्या सदिश का \(x\)-प्रक्षेप \(x(t) = B \sin\theta\) होता है।</p>
+<p><strong>चरण 4: चरण-दर-चरण हल</strong><br/>कोणीय चाल की गणना करने पर:<br/>\(\omega = \frac{2\pi}{T} = \frac{2\pi}{30}\text{ rad/s}\)<br/>समय \(t\) पर, त्रिज्या सदिश धनात्मक \(y\)-अक्ष से धनात्मक \(x\)-अक्ष की ओर \(\theta = \omega t = \frac{2\pi t}{30}\) कोण बनाता है।<br/>अतः \(x\)-प्रक्षेप है:<br/>\(x(t) = B \sin \left(\frac{2\pi t}{30}\right)\)</p>
+<p><strong>चरण 5: जाँच और अंतिम उत्तर</strong><br/>\(t = 0\) पर \(x(0) = 0\) है, तथा \(t\) के \(0\) से थोड़ा बढ़ने पर \((0, B)\) से दक्षिणावर्त चलने से \(x(t)\) धनात्मक हो जाता है, जो \(x(t) = B \sin \left(\frac{2\pi t}{30}\right)\) से मेल खाता है।</p>]]></text></generalfeedback>
   <defaultgrade>4.0000000</defaultgrade>
   <penalty>0.2500000</penalty>
   <hidden>0</hidden>
   <single>true</single>
   <shuffleanswers>true</shuffleanswers>
   <answernumbering>abc</answernumbering>
-  <answer fraction="100" format="html"><text><![CDATA[<p>\(x(t) = B\sin \left(\frac{2\pi t}{30}\right)\)</p>]]></text></answer>
-  <answer fraction="0" format="html"><text><![CDATA[<p>\(x(t) = B\cos \left(\frac{\pi t}{15}\right)\)</p>]]></text></answer>
-  <answer fraction="0" format="html"><text><![CDATA[<p>\(x(t) = B\sin \left(\frac{\pi t}{15} +\frac{\pi}{2}\right)\)</p>]]></text></answer>
-  <answer fraction="0" format="html"><text><![CDATA[<p>\(x(t) = B\cos \left(\frac{\pi t}{15} +\frac{\pi}{2}\right)\)</p>]]></text></answer>
+  <answer fraction="100" format="html"><text><![CDATA[<p>\(x(t) = \mathrm{B}\sin \left(\frac{2\pi t}{30}\right).\)</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>\(x(t) = \mathrm{B}\cos \left(\frac{\pi t}{15}\right).\)</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>\(x(t) = \mathrm{B}\sin \left(\frac{\pi t}{15} +\frac{\pi}{2}\right).\)</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>\(x(t) = \mathrm{B}\cos \left(\frac{\pi t}{15} +\frac{\pi}{2}\right).\)</p>]]></text></answer>
   <tags>
     <tag><text>standard:neet_ug</text></tag>
-    <tag><text>year:2026</text></tag>
     <tag><text>lang:en</text></tag>
     <tag><text>lang:hi</text></tag>
     <tag><text>subject:physics</text></tag>
+    <tag><text>section:mcq_i</text></tag>
     <tag><text>class:class_11</text></tag>
-    <tag><text>topic:oscillations</text></tag>
     <tag><text>chapter:oscillations</text></tag>
     <tag><text>typology:mcq</text></tag>
     <tag><text>difficulty:medium</text></tag>
@@ -664,137 +317,55 @@ x-अक्ष पर त्रिज्या सदिश का प्रक�
   </tags>
 </question>
 <question type="multichoice">
-  <name><text>NEET_UG_PHYSICS_2026_OSCILLATIONS_MCQ_Q14_09 - Oscillatory nature of quadratic cosine function</text></name>
-  <questiontext format="html"><text><![CDATA[<p>The equation of motion of a particle is \(x = a \cos (\alpha t)^2\). The motion is</p>
+  <name><text>PHYSICS_OSCILLATIONS_MCQI_Q1409 - Motion represented by cosine of squared time</text></name>
+  <questiontext format="html"><text><![CDATA[<p>The equation of motion of a particle is \(x = a \cos (\alpha t)^2\). The motion is</p><hr/><p>एक कण की गति का समीकरण \(x = a \cos (\alpha t)^2\) है। यह गति है</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>A motion is oscillatory if the particle moves back and forth between two fixed extreme positions about a mean position. A motion is periodic if there exists a constant time period \(T > 0\) such that \(x(t + T) = x(t)\) for all \(t\).</p>
+<p><strong>Step 2: Evaluation</strong><br/>In \(x = a \cos(\alpha^2 t^2)\), the cosine function is bounded between \(-1\) and \(+1\), so \(x\) oscillates back and forth between \(-a\) and \(+a\) about \(x = 0\). Thus, the motion is oscillatory.<br/>However, for any constant \(T > 0\), \(\alpha^2 (t + T)^2 = \alpha^2 t^2 + 2\alpha^2 t T + \alpha^2 T^2\), which depends on \(t\) and does not increase by a constant multiple of \(2\pi\). Hence, \(x(t + T) \neq x(t)\) for any fixed \(T\), so the motion is not periodic.</p>
+<p><strong>Step 3: Final Conclusion</strong><br/>Therefore, the motion is oscillatory but not periodic.</p>
 <hr/>
-<p>किसी कण की गति का समीकरण \(x = a \cos (\alpha t)^2\) है। यह गति है:</p>]]></text></questiontext>
-  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>
-The position coordinate of the particle as a function of time is given by:
-\[x(t) = a \cos (\alpha^2 t^2)\]
-where \(a\) and \(\alpha\) are non-zero positive constants.</p>
-<p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>
-The motion occurs along the x-axis with the origin \(x = 0\) as the central point.</p>
-<p><strong>Step 3: Relevant Formulae and Principles</strong><br/>
-1. An oscillatory motion is one where the particle moves to and fro bounded between two extreme limits about a central equilibrium position.
-2. A periodic motion is one where the motion repeats itself identically after a fixed interval of time \(T\), such that \(x(t + T) = x(t)\) for all \(t\).</p>
-<p><strong>Step 4: Step-by-Step Working</strong><br/>
-Because the cosine function is bounded, \(-1 \le \cos(\alpha^2 t^2) \le +1\), the displacement of the particle is always confined to the range:
-\[-a \le x(t) \le +a\]
-As time \(t\) increases, \(x(t)\) continually passes back and forth through the origin \(x = 0\) between \(+a\) and \(-a\). Hence, the motion is oscillatory.
-To test for periodicity, consider the times at which \(x(t) = a\), which occur when:
-\[\alpha^2 t^2 = 2n\pi \implies t_n = \frac{\sqrt{2n\pi}}{\alpha}, \quad n = 0, 1, 2, 3, \dots\]
-The time difference between successive maxima is:
-\[\Delta t_n = t_{n+1} - t_n = \frac{\sqrt{2\pi}}{\alpha} \left(\sqrt{n+1} - \sqrt{n}\right)\]
-As \(n\) increases, \(\left(\sqrt{n+1} - \sqrt{n}\right) = \frac{1}{\sqrt{n+1} + \sqrt{n}}\) steadily decreases towards zero.
-Because the time taken to complete each successive cycle is not constant and continuously decreases with time, there is no constant period \(T\) satisfying \(x(t + T) = x(t)\). Thus, the motion is not periodic.</p>
-<p><strong>Step 5: Check and Final Answer</strong><br/>
-The motion is to-and-fro between \(-a\) and \(+a\), so it is oscillatory, but the oscillation frequency continuously increases, making it non-periodic.
-Therefore, the motion is oscillatory but not periodic.</p>
-<hr/>
-<p><strong>चरण 1: दिए गए आंकड़े और स्थितियाँ</strong><br/>
-समय के फलन के रूप में कण का स्थिति समीकरण दिया गया है:
-\[x(t) = a \cos (\alpha^2 t^2)\]
-जहाँ \(a\) और \(\alpha\) शून्येतर धनात्मक नियतांक हैं।</p>
-<p><strong>चरण 2: मान्यताएँ और चिन्ह परिपाटी</strong><br/>
-कण x-अक्ष के अनुदिश गति करता है जहाँ मूलबिंदु \(x = 0\) केंद्रीय स्थिति है।</p>
-<p><strong>चरण 3: संबंधित सूत्र और सिद्धांत</strong><br/>
-1. दोलनी गति वह गति है जिसमें कण एक निश्चित माध्य स्थिति के दोनों ओर निश्चित सीमाओं के मध्य आगे-पीछे गति करता है।
-2. आवर्ती गति वह गति है जो एक निश्चित समय अंतराल \(T\) के बाद हूबहू दोहराई जाती है, अर्थात् सभी \(t\) के लिए \(x(t + T) = x(t)\) होता है।</p>
-<p><strong>चरण 4: चरणबद्ध हल</strong><br/>
-चूँकि कोज्या फलन का मान \(-1\) और \(+1\) के बीच सीमित रहता है, अतः कण का विस्थापन सदैव निम्नलिखित परास में परिबद्ध रहता है:
-\[-a \le x(t) \le +a\]
-कण \(+a\) और \(-a\) के बीच मूलबिंदु के परितः बार-बार इधर-उधर गति करता है, अतः यह गति दोलनी (oscillatory) है।
-आवर्तकाल की जांच करने के लिए, अधिकतम मान प्राप्त होने के समय:
-\[\alpha^2 t^2 = 2n\pi \implies t_n = \frac{\sqrt{2n\pi}}{\alpha}\]
-उत्तरोत्तर उच्चिष्ठों के बीच का समय अंतराल:
-\[\Delta t_n = t_{n+1} - t_n = \frac{\sqrt{2\pi}}{\alpha} (\sqrt{n+1} - \sqrt{n})\]
-जैसे-जैसे \(n\) बढ़ता है, यह समयांतराल लगातार घटता जाता है।
-चूँकि कोई स्थिर आवर्तकाल \(T\) विद्यमान नहीं है, अतः गति आवर्ती नहीं है।</p>
-<p><strong>चरण 5: जांच और अंतिम उत्तर</strong><br/>
-गति परिबद्ध सीमाओं के बीच दोलन करती है, परन्तु चक्रों का समय स्थिर नहीं रहता।
-अतः यह गति दोलनी है परन्तु आवर्ती नहीं है।</p>]]></text></generalfeedback>
+<p><strong>चरण 1: अवधारणात्मक सिद्धांत</strong><br/>कोई गति दोलनी होती है यदि कण माध्य स्थिति के परितः दो निश्चित चरम स्थितियों के बीच आगे-पीछे गति करता है। कोई गति आवर्ती होती है यदि कोई ऐसा नियत आवर्तकाल \(T > 0\) विद्यमान हो कि सभी \(t\) के लिए \(x(t + T) = x(t)\) हो।</p>
+<p><strong>चरण 2: मूल्यांकन</strong><br/>\(x = a \cos(\alpha^2 t^2)\) में कोज्या फलन \(-1\) और \(+1\) के बीच परिबद्ध है, इसलिए \(x\) का मान \(x = 0\) के परितः \(-a\) और \(+a\) के बीच आगे-पीछे दोलन करता है। अतः गति दोलनी है।<br/>परंतु किसी भी नियत \(T > 0\) के लिए \(\alpha^2 (t + T)^2 = \alpha^2 t^2 + 2\alpha^2 t T + \alpha^2 T^2\) का मान \(t\) पर निर्भर करता है और इसमें \(2\pi\) के किसी नियत गुणज की वृद्धि नहीं होती। इसलिए किसी भी नियत \(T\) के लिए \(x(t + T) \neq x(t)\) होगा, अतः गति आवर्ती नहीं है।</p>
+<p><strong>चरण 3: अंतिम निष्कर्ष</strong><br/>अतः गति दोलनी है परंतु आवर्ती नहीं है।</p>]]></text></generalfeedback>
   <defaultgrade>4.0000000</defaultgrade>
   <penalty>0.2500000</penalty>
   <hidden>0</hidden>
   <single>true</single>
   <shuffleanswers>true</shuffleanswers>
   <answernumbering>abc</answernumbering>
-  <answer fraction="0" format="html"><text><![CDATA[<p>periodic but not oscillatory</p>]]></text></answer>
-  <answer fraction="0" format="html"><text><![CDATA[<p>periodic and oscillatory</p>]]></text></answer>
-  <answer fraction="100" format="html"><text><![CDATA[<p>oscillatory but not periodic</p>]]></text></answer>
-  <answer fraction="0" format="html"><text><![CDATA[<p>neither periodic nor oscillatory</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>periodic but not oscillatory.</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>periodic and oscillatory.</p>]]></text></answer>
+  <answer fraction="100" format="html"><text><![CDATA[<p>oscillatory but not periodic.</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>neither periodic nor oscillatory.</p>]]></text></answer>
   <tags>
     <tag><text>standard:neet_ug</text></tag>
-    <tag><text>year:2026</text></tag>
     <tag><text>lang:en</text></tag>
     <tag><text>lang:hi</text></tag>
     <tag><text>subject:physics</text></tag>
+    <tag><text>section:mcq_i</text></tag>
     <tag><text>class:class_11</text></tag>
-    <tag><text>topic:oscillations</text></tag>
     <tag><text>chapter:oscillations</text></tag>
     <tag><text>typology:mcq</text></tag>
     <tag><text>difficulty:medium</text></tag>
-    <tag><text>blooms:understand</text></tag>
+    <tag><text>blooms:analyze</text></tag>
     <tag><text>calculation:light</text></tag>
     <tag><text>media:equation</text></tag>
     <tag><text>multiconcept:false</text></tag>
   </tags>
 </question>
 <question type="multichoice">
-  <name><text>NEET_UG_PHYSICS_2026_OSCILLATIONS_MCQ_Q14_10 - Period from maximum speed and acceleration</text></name>
-  <questiontext format="html"><text><![CDATA[<p>A particle executing S.H.M. has a maximum speed of \(30\text{ cm/s}\) and a maximum acceleration of \(60\text{ cm/s}^2\). The period of oscillation is</p>
+  <name><text>PHYSICS_OSCILLATIONS_MCQI_Q1410 - Time period from maximum speed and acceleration</text></name>
+  <questiontext format="html"><text><![CDATA[<p>A particle executing S.H.M. has a maximum speed of \(30\text{ cm/s}\) and a maximum acceleration of \(60\text{ cm/s}^2\). The period of oscillation is</p><hr/><p>सरल आवर्त गति करते हुए एक कण की अधिकतम चाल \(30\text{ cm/s}\) तथा अधिकतम त्वरण \(60\text{ cm/s}^2\) है। दोलन का आवर्तकाल है</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>Maximum speed, \(v_{\max} = 30\text{ cm/s}\).<br/>Maximum acceleration, \(a_{\max} = 60\text{ cm/s}^2\).</p>
+<p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>Let \(A\) be the amplitude and \(\omega\) be the angular frequency of the S.H.M., both positive.</p>
+<p><strong>Step 3: Relevant Formulae and Principles</strong><br/>In S.H.M., \(v_{\max} = A\omega\) and \(a_{\max} = A\omega^2\). The time period is \(T = \frac{2\pi}{\omega}\).</p>
+<p><strong>Step 4: Step-by-Step Working</strong><br/>Dividing \(a_{\max}\) by \(v_{\max}\):<br/>\(\omega = \frac{a_{\max}}{v_{\max}} = \frac{60\text{ cm/s}^2}{30\text{ cm/s}} = 2\text{ rad/s}\)<br/>Now, calculate the time period:<br/>\(T = \frac{2\pi}{\omega} = \frac{2\pi}{2} = \pi\text{ s}\)</p>
+<p><strong>Step 5: Check and Final Answer</strong><br/>The units of \(\frac{a_{\max}}{v_{\max}}\) are \(\text{s}^{-1}\), so \(T\) has units of seconds. Thus, the period of oscillation is \(\pi\text{ s}\).</p>
 <hr/>
-<p>सरल आवर्त गति कर रहे एक कण की अधिकतम चाल \(30\text{ cm/s}\) तथा अधिकतम त्वरण \(60\text{ cm/s}^2\) है। दोलन का आवर्तकाल है:</p>]]></text></questiontext>
-  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>
-Maximum speed of the particle: \(v_{\max} = 30\text{ cm/s}\)
-Maximum acceleration of the particle: \(a_{\max} = 60\text{ cm/s}^2\)</p>
-<p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>
-The motion is standard simple harmonic motion with amplitude \(A\) and angular frequency \(\omega\). Magnitude values of maximum velocity and acceleration are used.</p>
-<p><strong>Step 3: Relevant Formulae and Principles</strong><br/>
-In simple harmonic motion:
-Maximum speed:
-\[v_{\max} = \omega A\]
-Maximum acceleration:
-\[a_{\max} = \omega^2 A\]
-The ratio of maximum acceleration to maximum speed gives the angular frequency:
-\[\omega = \frac{a_{\max}}{v_{\max}}\]
-The time period of oscillation is related to angular frequency by:
-\[T = \frac{2\pi}{\omega}\]</p>
-<p><strong>Step 4: Step-by-Step Working</strong><br/>
-Calculate the angular frequency \(\omega\):
-\[\omega = \frac{60\text{ cm/s}^2}{30\text{ cm/s}} = 2\text{ rad/s}\]
-Calculate the time period \(T\):
-\[T = \frac{2\pi}{\omega} = \frac{2\pi}{2} = \pi\text{ s}\]</p>
-<p><strong>Step 5: Check and Final Answer</strong><br/>
-Checking dimensions:
-\([\omega] = [\text{T}^{-1}]\) and \([T] = [\text{T}]\), which is correct.
-Substituting back: \(A = v_{\max}/\omega = 30/2 = 15\text{ cm}\), then \(a_{\max} = \omega^2 A = 4 \times 15 = 60\text{ cm/s}^2\), verifying consistency.
-Therefore, the period of oscillation is \(\pi\text{ s}\).</p>
-<hr/>
-<p><strong>चरण 1: दिए गए आंकड़े और स्थितियाँ</strong><br/>
-कण की अधिकतम चाल: \(v_{\max} = 30\text{ cm/s}\)
-कण का अधिकतम त्वरण: \(a_{\max} = 60\text{ cm/s}^2\)</p>
-<p><strong>चरण 2: मान्यताएँ और चिन्ह परिपाटी</strong><br/>
-कण आयाम \(A\) तथा कोणीय आवृत्ति \(\omega\) के साथ सरल आवर्त गति कर रहा है।</p>
-<p><strong>चरण 3: संबंधित सूत्र और सिद्धांत</strong><br/>
-सरल आवर्त गति में:
-अधिकतम चाल:
-\[v_{\max} = \omega A\]
-अधिकतम त्वरण:
-\[a_{\max} = \omega^2 A\]
-अधिकतम त्वरण तथा अधिकतम चाल का अनुपात कोणीय आवृत्ति देता है:
-\[\omega = \frac{a_{\max}}{v_{\max}}\]
-दोलन का आवर्तकाल निम्न सूत्र से प्राप्त होता है:
-\[T = \frac{2\pi}{\omega}\]</p>
-<p><strong>चरण 4: चरणबद्ध हल</strong><br/>
-कोणीय आवृत्ति \(\omega\) की गणना:
-\[\omega = \frac{60}{30} = 2\text{ rad/s}\]
-आवर्तकाल \(T\) की गणना:
-\[T = \frac{2\pi}{2} = \pi\text{ s}\]
-</p>
-<p><strong>चरण 5: जांच और अंतिम उत्तर</strong><br/>
-मानों की पुनः जांच: \(A = 15\text{ cm}\) तथा \(a_{\max} = 2^2 \times 15 = 60\text{ cm/s}^2\), जो दिए गए मानों से पूर्णतः मेल खाता है।
-अतः दोलन का आवर्तकाल \(\pi\text{ s}\) है।</p>]]></text></generalfeedback>
+<p><strong>चरण 1: दिए गए आंकड़े और शर्तें</strong><br/>अधिकतम चाल, \(v_{\max} = 30\text{ cm/s}\)।<br/>अधिकतम त्वरण, \(a_{\max} = 60\text{ cm/s}^2\)।</p>
+<p><strong>चरण 2: मान्यताएँ और चिह्न परिपाटी</strong><br/>माना सरल आवर्त गति का आयाम \(A\) तथा कोणीय आवृत्ति \(\omega\) है, दोनों धनात्मक हैं।</p>
+<p><strong>चरण 3: प्रासंगिक सूत्र और सिद्धांत</strong><br/>सरल आवर्त गति में \(v_{\max} = A\omega\) तथा \(a_{\max} = A\omega^2\) होता है। आवर्तकाल \(T = \frac{2\pi}{\omega}\) है।</p>
+<p><strong>चरण 4: चरण-दर-चरण हल</strong><br/>\(a_{\max}\) को \(v_{\max}\) से विभाजित करने पर:<br/>\(\omega = \frac{a_{\max}}{v_{\max}} = \frac{60\text{ cm/s}^2}{30\text{ cm/s}} = 2\text{ rad/s}\)<br/>अब, आवर्तकाल की गणना करने पर:<br/>\(T = \frac{2\pi}{\omega} = \frac{2\pi}{2} = \pi\text{ s}\)</p>
+<p><strong>चरण 5: जाँच और अंतिम उत्तर</strong><br/>\(\frac{a_{\max}}{v_{\max}}\) का मात्रक \(\text{s}^{-1}\) है, इसलिए \(T\) का मात्रक सेकंड है। अतः दोलन का आवर्तकाल \(\pi\text{ s}\) है।</p>]]></text></generalfeedback>
   <defaultgrade>4.0000000</defaultgrade>
   <penalty>0.2500000</penalty>
   <hidden>0</hidden>
@@ -804,15 +375,14 @@ Therefore, the period of oscillation is \(\pi\text{ s}\).</p>
   <answer fraction="100" format="html"><text><![CDATA[<p>\(\pi\text{ s}\)</p>]]></text></answer>
   <answer fraction="0" format="html"><text><![CDATA[<p>\(\frac{\pi}{2}\text{ s}\)</p>]]></text></answer>
   <answer fraction="0" format="html"><text><![CDATA[<p>\(2\pi\text{ s}\)</p>]]></text></answer>
-  <answer fraction="0" format="html"><text><![CDATA[<p>\(\frac{\pi}{4}\text{ s}\)</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>\(\frac{\pi}{t}\text{ s}\)</p>]]></text></answer>
   <tags>
     <tag><text>standard:neet_ug</text></tag>
-    <tag><text>year:2026</text></tag>
     <tag><text>lang:en</text></tag>
     <tag><text>lang:hi</text></tag>
     <tag><text>subject:physics</text></tag>
+    <tag><text>section:mcq_i</text></tag>
     <tag><text>class:class_11</text></tag>
-    <tag><text>topic:oscillations</text></tag>
     <tag><text>chapter:oscillations</text></tag>
     <tag><text>typology:mcq</text></tag>
     <tag><text>difficulty:easy</text></tag>
@@ -823,78 +393,36 @@ Therefore, the period of oscillation is \(\pi\text{ s}\).</p>
   </tags>
 </question>
 <question type="multichoice">
-  <name><text>NEET_UG_PHYSICS_2026_OSCILLATIONS_MCQ_Q14_11 - Frequency of mass between two springs</text></name>
-  <questiontext format="html"><text><![CDATA[<p>When a mass \(m\) is connected individually to two springs \(S_1\) and \(S_2\), the oscillation frequencies are \(\nu_1\) and \(\nu_2\). If the same mass is attached to the two springs as shown in the figure, the oscillation frequency would be</p>
-<p><img src="@@PLUGINFILE@@/img-2.jpeg" alt="Mass attached between two springs connected to rigid walls" /></p>
+  <name><text>PHYSICS_OSCILLATIONS_MCQI_Q1411 - Oscillation frequency of mass between two springs</text></name>
+  <questiontext format="html"><text><![CDATA[<p>When a mass \(m\) is connected individually to two springs \(S_1\) and \(S_2\), the oscillation frequencies are \(\nu_1\) and \(\nu_2\). If the same mass is attached to the two springs as shown in Fig. 14.3, the oscillation frequency would be</p><p><img src="@@PLUGINFILE@@/img-2.jpeg" alt="Mass m attached between two springs S1 and S2 fixed to walls" /></p><hr/><p>जब किसी द्रव्यमान \(m\) को दो स्प्रिंगों \(S_1\) और \(S_2\) से अलग-अलग जोड़ा जाता है, तो दोलन आवृत्तियाँ \(\nu_1\) और \(\nu_2\) होती हैं। यदि उसी द्रव्यमान को चित्र 14.3 में दर्शाए अनुसार दोनों स्प्रिंगों से जोड़ दिया जाए, तो दोलन आवृत्ति होगी</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>Individual oscillation frequencies of mass \(m\) with springs \(S_1\) and \(S_2\) are \(\nu_1\) and \(\nu_2\), respectively. In the combined setup, the mass \(m\) rests on a smooth horizontal surface between two fixed walls, connected to \(S_1\) on one side and \(S_2\) on the other.</p>
+<p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>The springs are massless and obey Hooke's law with spring constants \(k_1\) and \(k_2\), and the horizontal surface is frictionless. Displace the mass by \(x\) to the right.</p>
+<p><strong>Step 3: Relevant Formulae and Principles</strong><br/>Frequency of a spring-mass oscillator: \(\nu = \frac{1}{2\pi}\sqrt{\frac{k}{m}}\). When \(m\) is displaced by \(x\) to the right, \(S_1\) stretches by \(x\) and pulls left with force \(-k_1 x\), while \(S_2\) compresses by \(x\) and pushes left with force \(-k_2 x\). Thus, the springs act in parallel with effective spring constant \(k_{\text{eff}} = k_1 + k_2\).</p>
+<p><strong>Step 4: Step-by-Step Working</strong><br/>From the individual frequencies:<br/>\(k_1 = 4\pi^2 m \nu_1^2\) and \(k_2 = 4\pi^2 m \nu_2^2\)<br/>For the combined system:<br/>\(\nu = \frac{1}{2\pi}\sqrt{\frac{k_1 + k_2}{m}} = \frac{1}{2\pi}\sqrt{\frac{4\pi^2 m (\nu_1^2 + \nu_2^2)}{m}} = \sqrt{\nu_1^2 + \nu_2^2}\)</p>
+<p><strong>Step 5: Check and Final Answer</strong><br/>The combined frequency \(\sqrt{\nu_1^2 + \nu_2^2}\) has the same dimension as frequency and is greater than both \(\nu_1\) and \(\nu_2\), as expected for a stiffer parallel spring combination.</p>
 <hr/>
-<p>जब एक द्रव्यमान \(m\) को अलग-अलग दो कमानी \(S_1\) और \(S_2\) से जोड़ा जाता है, तो दोलन आवृत्तियाँ \(\nu_1\) और \(\nu_2\) होती हैं। यदि उसी द्रव्यमान को चित्र में दिखाए अनुसार दोनों कमानियों से जोड़ दिया जाए, तो दोलन आवृत्ति होगी:</p>
-<p><img src="@@PLUGINFILE@@/img-2.jpeg" alt="दो कमानियों के बीच जुड़ा द्रव्यमान" /></p>]]></text></questiontext>
-  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>
-Oscillation frequency of mass \(m\) with spring \(S_1\) alone: \(\nu_1\)
-Oscillation frequency of mass \(m\) with spring \(S_2\) alone: \(\nu_2\)
-In the combined system, the mass \(m\) is placed between the two springs, each attached to a fixed rigid wall.</p>
-<p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>
-Let the spring constants of \(S_1\) and \(S_2\) be \(k_1\) and \(k_2\). The surface is frictionless. When mass \(m\) is displaced by a distance \(x\) to the right from its equilibrium position, spring \(S_1\) is stretched by \(x\) and spring \(S_2\) is compressed by \(x\).</p>
-<p><strong>Step 3: Relevant Formulae and Principles</strong><br/>
-The frequency of oscillation for a mass-spring system is:
-\[\nu = \frac{1}{2\pi}\sqrt{\frac{k}{m}} \implies k = 4\pi^2 m \nu^2\]
-For the two individual springs:
-\[k_1 = 4\pi^2 m \nu_1^2, \quad k_2 = 4\pi^2 m \nu_2^2\]
-When displaced by \(x\), both springs exert restoring forces in the direction opposing displacement:
-\[F_{\text{net}} = -k_1 x - k_2 x = -(k_1 + k_2) x\]
-Thus, the two springs act in parallel, giving an effective spring constant:
-\[k_{\text{eff}} = k_1 + k_2\]</p>
-<p><strong>Step 4: Step-by-Step Working</strong><br/>
-The frequency \(\nu\) of the combined system is:
-\[\nu = \frac{1}{2\pi}\sqrt{\frac{k_{\text{eff}}}{m}} = \frac{1}{2\pi}\sqrt{\frac{k_1 + k_2}{m}}\]
-Expressing \(k_1/m\) and \(k_2/m\) in terms of the individual frequencies:
-\[\frac{k_1}{m} = 4\pi^2 \nu_1^2, \quad \frac{k_2}{m} = 4\pi^2 \nu_2^2\]
-Substitute these into the expression for \(\nu\):
-\[\nu = \frac{1}{2\pi}\sqrt{4\pi^2 \nu_1^2 + 4\pi^2 \nu_2^2} = \frac{1}{2\pi} (2\pi) \sqrt{\nu_1^2 + \nu_2^2} = \sqrt{\nu_1^2 + \nu_2^2}\]</p>
-<p><strong>Step 5: Check and Final Answer</strong><br/>
-Since both springs assist in restoring the mass to equilibrium, the effective stiffness increases, which raises the frequency above both \(\nu_1\) and \(\nu_2\), satisfying \(\nu = \sqrt{\nu_1^2 + \nu_2^2}\).
-Therefore, the oscillation frequency would be \(\sqrt{\nu_1^2 + \nu_2^2}\).</p>
-<hr/>
-<p><strong>चरण 1: दिए गए आंकड़े और स्थितियाँ</strong><br/>
-कमानी \(S_1\) के साथ द्रव्यमान \(m\) की दोलन आवृत्ति: \(\nu_1\)
-कमानी \(S_2\) के साथ द्रव्यमान \(m\) की दोलन आवृत्ति: \(\nu_2\)
-संयुक्त निकाय में द्रव्यमान \(m\) दोनों कमानियों के बीच स्थित है जो दृढ़ दीवारों से जुड़ी हैं।</p>
-<p><strong>चरण 2: मान्यताएँ और चिन्ह परिपाटी</strong><br/>
-कमानियों के बल नियतांक क्रमशः \(k_1\) और \(k_2\) हैं। सतह घर्षणहीन है। साम्यावस्था से दाईं ओर \(x\) विस्थापन देने पर कमानी \(S_1\) में \(x\) का खिंचाव तथा कमानी \(S_2\) में \(x\) का संपीड़न उत्पन्न होता है।</p>
-<p><strong>चरण 3: संबंधित सूत्र और सिद्धांत</strong><br/>
-कमानी-द्रव्यमान निकाय की आवृत्ति निम्न सूत्र से दी जाती है:
-\[\nu = \frac{1}{2\pi}\sqrt{\frac{k}{m}} \implies k = 4\pi^2 m \nu^2\]
-प्रत्येक कमानी के लिए:
-\[k_1 = 4\pi^2 m \nu_1^2, \quad k_2 = 4\pi^2 m \nu_2^2\]
-विस्थापन \(x\) के लिए दोनों कमानियों द्वारा लगाया गया कुल प्रत्यानयन बल:
-\[F_{\text{net}} = -k_1 x - k_2 x = -(k_1 + k_2) x\]
-अतः यह संयोजन समांतर संयोजन के समतुल्य है जिसका प्रभावी बल नियतांक \(k_{\text{eff}} = k_1 + k_2\) है।</p>
-<p><strong>चरण 4: चरणबद्ध हल</strong><br/>
-संयुक्त निकाय की दोलन आवृत्ति:
-\[\nu = \frac{1}{2\pi}\sqrt{\frac{k_{\text{eff}}}{m}} = \frac{1}{2\pi}\sqrt{\frac{k_1 + k_2}{m}}\]
-\(k_1/m\) तथा \(k_2/m\) के मान प्रतिस्थापित करने पर:
-\[\nu = \frac{1}{2\pi}\sqrt{4\pi^2 \nu_1^2 + 4\pi^2 \nu_2^2} = \sqrt{\nu_1^2 + \nu_2^2}\]</p>
-<p><strong>चरण 5: जांच और अंतिम उत्तर</strong><br/>
-चूँकि दोनों कमानियाँ मिलकर प्रत्यानयन बल प्रदान करती हैं, अतः प्रभावी दृढ़ता बढ़ती है और परिणामी आवृत्ति दोनों व्यक्तिगत आवृत्तियों से अधिक \(\sqrt{\nu_1^2 + \nu_2^2}\) होती है।
-अतः दोलन आवृत्ति \(\sqrt{\nu_1^2 + \nu_2^2}\) होगी।</p>]]></text></generalfeedback>
+<p><strong>चरण 1: दिए गए आंकड़े और शर्तें</strong><br/>स्प्रिंग \(S_1\) और \(S_2\) के साथ द्रव्यमान \(m\) की अलग-अलग दोलन आवृत्तियाँ क्रमशः \(\nu_1\) और \(\nu_2\) हैं। संयुक्त व्यवस्था में, द्रव्यमान \(m\) दो स्थिर दीवारों के बीच एक चिकने क्षैतिज तल पर रखा है, जो एक ओर \(S_1\) से तथा दूसरी ओर \(S_2\) से जुड़ा है।</p>
+<p><strong>चरण 2: मान्यताएँ और चिह्न परिपाटी</strong><br/>स्प्रिंग द्रव्यमानहीन हैं और बल नियतांक \(k_1\) व \(k_2\) के साथ हुक के नियम का पालन करते हैं, तथा क्षैतिज तल घर्षणरहित है। द्रव्यमान को दाईं ओर \(x\) विस्थापित करें।</p>
+<p><strong>चरण 3: प्रासंगिक सूत्र और सिद्धांत</strong><br/>स्प्रिंग-द्रव्यमान दोलक की आवृत्ति: \(\nu = \frac{1}{2\pi}\sqrt{\frac{k}{m}}\)। जब \(m\) को दाईं ओर \(x\) विस्थापित किया जाता है, तो \(S_1\) में \(x\) का खिंचाव होता है और वह बाईं ओर \(-k_1 x\) बल लगाती है, जबकि \(S_2\) में \(x\) का संपीड़न होता है और वह बाईं ओर \(-k_2 x\) बल लगाती है। अतः दोनों स्प्रिंग समानांतर क्रम में कार्य करती हैं जिनका प्रभावी बल नियतांक \(k_{\text{eff}} = k_1 + k_2\) है।</p>
+<p><strong>चरण 4: चरण-दर-चरण हल</strong><br/>अलग-अलग आवृत्तियों से:<br/>\(k_1 = 4\pi^2 m \nu_1^2\) तथा \(k_2 = 4\pi^2 m \nu_2^2\)<br/>संयुक्त निकाय के लिए:<br/>\(\nu = \frac{1}{2\pi}\sqrt{\frac{k_1 + k_2}{m}} = \frac{1}{2\pi}\sqrt{\frac{4\pi^2 m (\nu_1^2 + \nu_2^2)}{m}} = \sqrt{\nu_1^2 + \nu_2^2}\)</p>
+<p><strong>चरण 5: जाँच और अंतिम उत्तर</strong><br/>संयुक्त आवृत्ति \(\sqrt{\nu_1^2 + \nu_2^2}\) की विमा आवृत्ति के समान है और यह \(\nu_1\) तथा \(\nu_2\) दोनों से अधिक है, जो अधिक कठोर समानांतर स्प्रिंग संयोजन के लिए अपेक्षित है।</p>]]></text></generalfeedback>
   <defaultgrade>4.0000000</defaultgrade>
   <penalty>0.2500000</penalty>
   <hidden>0</hidden>
   <single>true</single>
   <shuffleanswers>true</shuffleanswers>
   <answernumbering>abc</answernumbering>
-  <answer fraction="0" format="html"><text><![CDATA[<p>\(\nu_1 + \nu_2\)</p>]]></text></answer>
-  <answer fraction="100" format="html"><text><![CDATA[<p>\(\sqrt{\nu_1^2 + \nu_2^2}\)</p>]]></text></answer>
-  <answer fraction="0" format="html"><text><![CDATA[<p>\(\left(\frac{1}{\nu_1} +\frac{1}{\nu_2}\right)^{-1}\)</p>]]></text></answer>
-  <answer fraction="0" format="html"><text><![CDATA[<p>\(\sqrt{\nu_1^2 - \nu_2^2}\)</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>\(\nu_1 + \nu_2\).</p>]]></text></answer>
+  <answer fraction="100" format="html"><text><![CDATA[<p>\(\sqrt{\nu_1^2 + \nu_2^2}\).</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>\(\left(\frac{1}{\nu_1} + \frac{1}{\nu_2}\right)^{-1}\).</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>\(\sqrt{\nu_1^2 - \nu_2^2}\).</p>]]></text></answer>
   <tags>
     <tag><text>standard:neet_ug</text></tag>
-    <tag><text>year:2026</text></tag>
     <tag><text>lang:en</text></tag>
     <tag><text>lang:hi</text></tag>
     <tag><text>subject:physics</text></tag>
+    <tag><text>section:mcq_i</text></tag>
     <tag><text>class:class_11</text></tag>
-    <tag><text>topic:oscillations</text></tag>
     <tag><text>chapter:oscillations</text></tag>
     <tag><text>typology:mcq</text></tag>
     <tag><text>difficulty:medium</text></tag>
@@ -905,39 +433,15 @@ Therefore, the oscillation frequency would be \(\sqrt{\nu_1^2 + \nu_2^2}\).</p>
   </tags>
 </question>
 <question type="multichoice">
-  <name><text>NEET_UG_PHYSICS_2026_OSCILLATIONS_MCQ_Q14_12 - Nature of rotation of earth motion</text></name>
-  <questiontext format="html"><text><![CDATA[<p>The rotation of earth about its axis is</p>
+  <name><text>PHYSICS_OSCILLATIONS_MCQII_Q1412 - Nature of rotation of earth about its axis</text></name>
+  <questiontext format="html"><text><![CDATA[<p>The rotation of earth about its axis is</p><hr/><p>पृथ्वी का अपनी अक्ष के परितः घूर्णन है</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>A motion is periodic if it repeats itself identically after a fixed interval of time. A motion is simple harmonic if the body moves to and fro along a path about a fixed mean position under a linear restoring force.</p>
+<p><strong>Step 2: Evaluation</strong><br/>The Earth completes one full rotation about its own axis every 24 hours, so its state of motion repeats after a fixed period of 24 hours. Therefore, it is a periodic motion.<br/>However, rotation is continuous circular motion in one sense and not a to-and-fro oscillatory motion about an equilibrium position. Hence, it is not simple harmonic motion.</p>
+<p><strong>Step 3: Final Conclusion</strong><br/>Thus, the rotation of Earth about its axis is periodic motion, and specifically periodic but not simple harmonic motion.</p>
 <hr/>
-<p>पृथ्वी का अपनी धुरी के परितः घूर्णन है:</p>]]></text></questiontext>
-  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>
-The physical motion under consideration is the spinning of the Earth about its geographic polar axis.</p>
-<p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>
-The rotation of the Earth has a fixed period of approximately 24 hours (one sidereal day) and takes place continuously in one rotational direction (from west to east).</p>
-<p><strong>Step 3: Relevant Formulae and Principles</strong><br/>
-1. Periodic motion is a motion that repeats itself identically after a definite interval of time.
-2. Simple harmonic motion requires bounded to-and-fro motion along a path about a stable equilibrium point, driven by a linear restoring force proportional to the negative of displacement from that equilibrium position.</p>
-<p><strong>Step 4: Step-by-Step Working</strong><br/>
-The Earth completes one full revolution about its axis every 24 hours, meaning the state of motion repeats regularly after every constant time interval \(T\). Thus, it satisfies the precise definition of periodic motion.
-However, the Earth's rotation is unidirectional rotational motion; it does not oscillate back and forth about an equilibrium orientation, nor is there a restoring force directed towards an equilibrium position proportional to angular displacement. Hence, it is not simple harmonic motion.
-Consequently, this motion is periodic, and it is periodic but not simple harmonic motion.</p>
-<p><strong>Step 5: Check and Final Answer</strong><br/>
-The motion has a constant repetition time without any to-and-fro oscillatory displacement.
-Therefore, the rotation of the Earth about its axis is a periodic motion, and it is periodic but not simple harmonic motion.</p>
-<hr/>
-<p><strong>चरण 1: दिए गए आंकड़े और स्थितियाँ</strong><br/>
-यहाँ अध्ययन की जा रही भौतिक गति पृथ्वी का अपने ध्रुवीय अक्ष के परितः घूर्णन है।</p>
-<p><strong>चरण 2: मान्यताएँ और चिन्ह परिपाटी</strong><br/>
-पृथ्वी का घूर्णन लगभग 24 घंटे के एक निश्चित आवर्तकाल के साथ सदैव एक ही दिशा (पश्चिम से पूर्व) में होता है।</p>
-<p><strong>चरण 3: संबंधित सूत्र और सिद्धांत</strong><br/>
-1. आवर्ती गति वह गति है जो एक निश्चित समय अंतराल के पश्चात दोहराई जाती है।
-2. सरल आवर्त गति में साम्यावस्था के दोनों ओर आगे-पीछे दोलन होना तथा विस्थापन के समानुपाती प्रत्यानयन बल का होना आवश्यक है।</p>
-<p><strong>चरण 4: चरणबद्ध हल</strong><br/>
-पृथ्वी प्रत्येक 24 घंटे में एक घूर्णन पूरा करती है, अतः यह गति नियमित रूप से एक निश्चित समयांतराल के बाद दोहराई जाती है, इसलिए यह आवर्ती गति है।
-परन्तु पृथ्वी किसी साम्यावस्था के परितः आगे-पीछे दोलन नहीं करती और न ही कोई प्रत्यानयन बल कार्य करता है, अतः यह सरल आवर्त गति नहीं है।
-अतः यह गति आवर्ती गति है तथा आवर्ती है परन्तु सरल आवर्त गति नहीं है।</p>
-<p><strong>चरण 5: जांच और अंतिम उत्तर</strong><br/>
-गति निश्चित समय में दोहराई जाती है परन्तु इसमें आगे-पीछे का दोलन नहीं होता।
-अतः पृथ्वी का अपनी धुरी के परितः घूर्णन आवर्ती गति है, तथा यह आवर्ती है परन्तु सरल आवर्त गति नहीं है।</p>]]></text></generalfeedback>
+<p><strong>चरण 1: अवधारणात्मक सिद्धांत</strong><br/>कोई गति आवर्ती होती है यदि वह एक निश्चित समय अंतराल के बाद स्वयं को समान रूप से दोहराती है। कोई गति सरल आवर्त होती है यदि पिंड एक रैखिक प्रत्यानयन बल के अंतर्गत किसी निश्चित माध्य स्थिति के परितः आगे-पीछे गति करता है।</p>
+<p><strong>चरण 2: मूल्यांकन</strong><br/>पृथ्वी अपनी अक्ष के परितः प्रत्येक 24 घंटे में एक पूर्ण घूर्णन पूरा करती है, इसलिए इसकी गति की अवस्था 24 घंटे के निश्चित अंतराल के बाद दोहराती है। अतः यह एक आवर्ती गति है।<br/>परंतु घूर्णन एक ही दिशा में निरंतर वृत्तीय गति है, न कि किसी साम्य स्थिति के परितः आगे-पीछे की दोलनी गति। इसलिए यह सरल आवर्त गति नहीं है।</p>
+<p><strong>चरण 3: अंतिम निष्कर्ष</strong><br/>अतः पृथ्वी का अपनी अक्ष के परितः घूर्णन आवर्ती गति है, तथा विशेष रूप से यह आवर्ती है परंतु सरल आवर्त गति नहीं है।</p>]]></text></generalfeedback>
   <defaultgrade>4.0000000</defaultgrade>
   <penalty>0.2500000</penalty>
   <hidden>0</hidden>
@@ -950,12 +454,11 @@ Therefore, the rotation of the Earth about its axis is a periodic motion, and it
   <answer fraction="-50" format="html"><text><![CDATA[<p>non-periodic motion.</p>]]></text></answer>
   <tags>
     <tag><text>standard:neet_ug</text></tag>
-    <tag><text>year:2026</text></tag>
     <tag><text>lang:en</text></tag>
     <tag><text>lang:hi</text></tag>
     <tag><text>subject:physics</text></tag>
+    <tag><text>section:mcq_ii</text></tag>
     <tag><text>class:class_11</text></tag>
-    <tag><text>topic:oscillations</text></tag>
     <tag><text>chapter:oscillations</text></tag>
     <tag><text>typology:mcq</text></tag>
     <tag><text>difficulty:easy</text></tag>
@@ -966,50 +469,15 @@ Therefore, the rotation of the Earth about its axis is a periodic motion, and it
   </tags>
 </question>
 <question type="multichoice">
-  <name><text>NEET_UG_PHYSICS_2026_OSCILLATIONS_MCQ_Q14_13 - Motion of ball bearing inside bowl</text></name>
-  <questiontext format="html"><text><![CDATA[<p>Motion of a ball bearing inside a smooth curved bowl, when released from a point slightly above the lower point is</p>
+  <name><text>PHYSICS_OSCILLATIONS_MCQII_Q1413 - Motion of ball bearing in smooth curved bowl</text></name>
+  <questiontext format="html"><text><![CDATA[<p>Motion of a ball bearing inside a smooth curved bowl, when released from a point slightly above the lower point is</p><hr/><p>एक चिकने वक्र कटोरे के अंदर निम्नतम बिंदु से थोड़ा ऊपर किसी बिंदु से छोड़ी गई बॉल बेयरिंग की गति होती है</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>When a ball bearing is displaced slightly from the lowest point of a smooth curved bowl of radius of curvature \(R\) (by a small angle \(\theta\) or small arc displacement \(x = R\theta\)), the tangential restoring force is \(F = -mg \sin\theta \approx -mg\theta = -\frac{mg}{R} x\).</p>
+<p><strong>Step 2: Evaluation</strong><br/>Since the restoring force is directly proportional to the displacement \(x\) and directed towards the lowest equilibrium point, the motion is simple harmonic motion (S.H.M.).<br/>Furthermore, every simple harmonic motion repeats after a fixed time period \(T = 2\pi\sqrt{\frac{R}{g}}\) (for pure sliding; or with an effective inertia factor for rolling), so it is also a periodic motion.</p>
+<p><strong>Step 3: Final Conclusion</strong><br/>Therefore, the motion of the ball bearing is both simple harmonic motion and periodic motion.</p>
 <hr/>
-<p>एक चिकने वक्रित कटोरे के अंदर, पेंदे (निम्नतम बिंदु) से थोड़ा ऊपर किसी बिंदु से छोड़े गए छर्रे (ball bearing) की गति होती है:</p>]]></text></questiontext>
-  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>
-A small ball bearing of mass \(m\) is placed inside a spherical bowl of radius of curvature \(R\). The surface of the bowl is smooth (frictionless). The ball is released from a point slightly above the lowest bottom point.</p>
-<p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>
-The angular displacement \(\theta\) from the lowest equilibrium point is very small, so the small-angle approximation applies: \(\sin\theta \approx \theta\). The displacement along the curve is \(s = R\theta\).</p>
-<p><strong>Step 3: Relevant Formulae and Principles</strong><br/>
-The restoring force acting tangentially on the ball bearing along the surface of the bowl is:
-\[F = -mg \sin\theta\]
-Using the small-angle approximation \(\sin\theta \approx \theta = \frac{s}{R}\):
-\[F = -mg \left(\frac{s}{R}\right) = -\left(\frac{mg}{R}\right) s\]
-Acceleration along the path is:
-\[a = \frac{F}{m} = -\frac{g}{R} s\]</p>
-<p><strong>Step 4: Step-by-Step Working</strong><br/>
-Because the restoring acceleration \(a\) is directly proportional to displacement \(s\) and directed toward the lowest point (the equilibrium point), the motion satisfies \(a = -\omega^2 s\) with:
-\[\omega = \sqrt{\frac{g}{R}}\]
-This proves that the motion is simple harmonic motion.
-Furthermore, every simple harmonic motion is fundamentally a periodic motion, repeating with time period:
-\[T = 2\pi \sqrt{\frac{R}{g}}\]
-Therefore, the motion is both simple harmonic motion and periodic motion.</p>
-<p><strong>Step 5: Check and Final Answer</strong><br/>
-The restoring force is linear in displacement for small angles, confirming simple harmonic motion, which inherently qualifies as periodic motion.
-Therefore, the motion of the ball bearing is simple harmonic motion, and it is also periodic motion.</p>
-<hr/>
-<p><strong>चरण 1: दिए गए आंकड़े और स्थितियाँ</strong><br/>
-द्रव्यमान \(m\) का एक छोटा छर्रा \(R\) वक्रता त्रिज्या वाले चिकने (घर्षणरहित) कटोरे में स्थित है। छर्रे को पेंदे से थोड़े ऊपर के बिंदु से मुक्त किया जाता है।</p>
-<p><strong>चरण 2: मान्यताएँ और चिन्ह परिपाटी</strong><br/>
-निम्नतम बिंदु से कोणीय विस्थापन \(\theta\) अत्यंत सूक्ष्म है, अतः \(\sin\theta \approx \theta\)। वक्र के अनुदिश विस्थापन \(s = R\theta\) है।</p>
-<p><strong>चरण 3: संबंधित सूत्र और सिद्धांत</strong><br/>
-कटोरे की सतह के अनुदिश छर्रे पर कार्यरत स्पर्शरेखीय प्रत्यानयन बल:
-\[F = -mg \sin\theta\]
-सूक्ष्म कोण सन्निकटन \(\sin\theta \approx s/R\) से:
-\[F = -\left(\frac{mg}{R}\right) s\]
-पथ के अनुदिश त्वरण:
-\[a = -\frac{g}{R} s\]</p>
-<p><strong>चरण 4: चरणबद्ध हल</strong><br/>
-चूँकि त्वरण विस्थापन के समानुपाती और निम्नतम बिंदु की ओर निर्देशित है, अतः यह \(\omega = \sqrt{g/R}\) के साथ सरल आवर्त गति है।
-साथ ही, प्रत्येक सरल आवर्त गति अनिवार्य रूप से आवर्ती गति भी होती है, जिसका आवर्तकाल \(T = 2\pi\sqrt{R/g}\) होता है।
-अतः यह गति सरल आवर्त गति है और आवर्ती गति भी है।</p>
-<p><strong>चरण 5: जांच और अंतिम उत्तर</strong><br/>
-सूक्ष्म विस्थापन के लिए प्रत्यानयन बल रैखिक है, जो सरल आवर्त गति तथा आवर्ती गति दोनों की पुष्टि करता है।
-अतः छर्रे की गति सरल आवर्त गति है, तथा यह आवर्ती गति भी है।</p>]]></text></generalfeedback>
+<p><strong>चरण 1: अवधारणात्मक सिद्धांत</strong><br/>जब किसी बॉल बेयरिंग को वक्रता त्रिज्या \(R\) वाले एक चिकने वक्र कटोरे के निम्नतम बिंदु से थोड़ा-सा विस्थापित किया जाता है (अल्प कोण \(\theta\) या अल्प चाप विस्थापन \(x = R\theta\) से), तो स्पर्शरेखीय प्रत्यानयन बल \(F = -mg \sin\theta \approx -mg\theta = -\frac{mg}{R} x\) होता है।</p>
+<p><strong>चरण 2: मूल्यांकन</strong><br/>चूँकि प्रत्यानयन बल विस्थापन \(x\) के सीधे अनुक्रमानुपाती है और निम्नतम साम्य बिंदु की ओर दिष्ट है, इसलिए यह गति सरल आवर्त गति (S.H.M.) है।<br/>इसके अतिरिक्त, प्रत्येक सरल आवर्त गति एक निश्चित आवर्तकाल \(T = 2\pi\sqrt{\frac{R}{g}}\) (शुद्ध फिसलन के लिए; या लोटनी गति के लिए प्रभावी जड़त्व गुणक सहित) के बाद स्वयं को दोहराती है, इसलिए यह एक आवर्ती गति भी है।</p>
+<p><strong>चरण 3: अंतिम निष्कर्ष</strong><br/>अतः बॉल बेयरिंग की गति सरल आवर्त गति तथा आवर्ती गति दोनों है।</p>]]></text></generalfeedback>
   <defaultgrade>4.0000000</defaultgrade>
   <penalty>0.2500000</penalty>
   <hidden>0</hidden>
@@ -1022,12 +490,11 @@ Therefore, the motion of the ball bearing is simple harmonic motion, and it is a
   <answer fraction="-50" format="html"><text><![CDATA[<p>periodic but not S.H.M.</p>]]></text></answer>
   <tags>
     <tag><text>standard:neet_ug</text></tag>
-    <tag><text>year:2026</text></tag>
     <tag><text>lang:en</text></tag>
     <tag><text>lang:hi</text></tag>
     <tag><text>subject:physics</text></tag>
+    <tag><text>section:mcq_ii</text></tag>
     <tag><text>class:class_11</text></tag>
-    <tag><text>topic:oscillations</text></tag>
     <tag><text>chapter:oscillations</text></tag>
     <tag><text>typology:mcq</text></tag>
     <tag><text>difficulty:easy</text></tag>
@@ -1038,72 +505,19 @@ Therefore, the motion of the ball bearing is simple harmonic motion, and it is a
   </tags>
 </question>
 <question type="multichoice">
-  <name><text>NEET_UG_PHYSICS_2026_OSCILLATIONS_MCQ_Q14_14 - Phase comparison in displacement time curve</text></name>
-  <questiontext format="html"><text><![CDATA[<p>Displacement vs. time curve for a particle executing S.H.M. is shown in the figure. Choose the correct statements.</p>
-<p><img src="@@PLUGINFILE@@/img-3.jpeg" alt="Displacement versus time curve showing periodic waveform" /></p>
+  <name><text>PHYSICS_OSCILLATIONS_MCQII_Q1414 - Phase equality from displacement time graph</text></name>
+  <questiontext format="html"><text><![CDATA[<p>Displacement vs. time curve for a particle executing S.H.M. is shown in Fig. 14.4. Choose the correct statements.</p><p><img src="@@PLUGINFILE@@/img-3.jpeg" alt="Displacement vs time curve for S.H.M. with period 4s" /></p><hr/><p>सरल आवर्त गति करते हुए एक कण के लिए विस्थापन बनाम समय वक्र चित्र 14.4 में दर्शाया गया है। सही कथनों का चयन कीजिए।</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>From the displacement–time graph: at \(t = 0\text{ s}\), displacement is at its positive maximum; at \(t = 1\text{ s}\), displacement is zero with negative slope; at \(t = 2\text{ s}\), displacement is at its negative minimum; at \(t = 3\text{ s}\), displacement is zero with positive slope; and at \(t = 4\text{ s}\), the particle returns to its positive maximum.</p>
+<p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>The time period of the oscillation is \(T = 4\text{ s}\).</p>
+<p><strong>Step 3: Relevant Formulae and Principles</strong><br/>Two states of an oscillator have the same phase (modulo \(2\pi\)) if and only if they have both the same displacement and the same velocity (slope), which occurs when the time difference \(\Delta t = nT\) for an integer \(n\).</p>
+<p><strong>Step 4: Step-by-Step Working</strong><br/>- Comparing \(t = 0\text{ s}\) and \(t = 2\text{ s}\): \(\Delta t = 2\text{ s} = \frac{T}{2}\), so the phase differs by \(\pi\) (opposite extremes).<br/>- Comparing \(t = 2\text{ s}\) and \(t = 6\text{ s}\): \(\Delta t = 6 - 2 = 4\text{ s} = T\), so the oscillator is at the negative extreme in both cases and has the same phase.<br/>- Comparing \(t = 1\text{ s}\) and \(t = 7\text{ s}\): \(\Delta t = 7 - 1 = 6\text{ s} = 1.5T\), so the velocities have opposite signs (phase differs by \(\pi\)).<br/>- Comparing \(t = 1\text{ s}\) and \(t = 5\text{ s}\): \(\Delta t = 5 - 1 = 4\text{ s} = T\), so in both cases the particle is at \(x = 0\) moving in the negative direction, meaning the phase is the same.</p>
+<p><strong>Step 5: Check and Final Answer</strong><br/>Thus, the phase of the oscillator is the same at \(t = 2\text{ s}\) and \(t = 6\text{ s}\), as well as at \(t = 1\text{ s}\) and \(t = 5\text{ s}\).</p>
 <hr/>
-<p>सरल आवर्त गति कर रहे किसी कण का विस्थापन-समय वक्र चित्र में दिखाया गया है। सही कथनों का चयन कीजिए:</p>
-<p><img src="@@PLUGINFILE@@/img-3.jpeg" alt="आवर्ती तरंगरूप दर्शाता विस्थापन बनाम समय वक्र" /></p>]]></text></questiontext>
-  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>
-From the displacement vs. time graph:
-At \(t = 0\text{ s}\), the displacement is positive and decreasing.
-At \(t = 1\text{ s}\), the displacement is zero with negative velocity.
-At \(t = 2\text{ s}\), the displacement reaches a negative peak (negative extreme).
-At \(t = 3\text{ s}\), the displacement is zero with positive velocity.
-At \(t = 4\text{ s}\), the displacement reaches a positive peak (positive extreme).
-At \(t = 5\text{ s}\), the displacement is zero with negative velocity.
-At \(t = 6\text{ s}\), the displacement reaches a negative peak.
-At \(t = 7\text{ s}\), the displacement is zero with positive velocity.</p>
-<p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>
-The time period \(T\) is the time required to complete one full cycle of oscillation:
-\[T = 4\text{ s}\]
-Two states have the same phase if they have the exact same displacement and velocity (differing in time by an integer multiple of the time period, \(\Delta t = nT\), where \(n\) is an integer).</p>
-<p><strong>Step 3: Relevant Formulae and Principles</strong><br/>
-Phase difference \(\Delta \phi\) between times \(t_1\) and \(t_2\) is:
-\[\Delta \phi = \omega (t_2 - t_1) = \frac{2\pi}{T} (t_2 - t_1)\]
-For the phase to be identical, the phase difference must be an integral multiple of \(2\pi\):
-\[\Delta \phi = 2n\pi \iff t_2 - t_1 = nT = 4n\text{ seconds}\]</p>
-<p><strong>Step 4: Step-by-Step Working</strong><br/>
-Evaluating each time pair:
-1. Between \(t = 0\text{ s}\) and \(t = 2\text{ s}\):
-\(\Delta t = 2 - 0 = 2\text{ s} = T/2\).
-The phase difference is \(\Delta \phi = \pi\text{ rad}\), meaning opposite phase.
-2. Between \(t = 2\text{ s}\) and \(t = 6\text{ s}\):
-\(\Delta t = 6 - 2 = 4\text{ s} = T\).
-At both instants, the oscillator is at the negative extreme with zero velocity. The phase difference is \(\Delta\phi = 2\pi\text{ rad}\), so the phase is the same.
-3. Between \(t = 1\text{ s}\) and \(t = 7\text{ s}\):
-\(\Delta t = 7 - 1 = 6\text{ s} = 1.5 T\).
-At \(t = 1\text{ s}\), the particle moves in the negative direction, while at \(t = 7\text{ s}\), it moves in the positive direction. The phase difference is \(3\pi\text{ rad}\), so the phase is not the same.
-4. Between \(t = 1\text{ s}\) and \(t = 5\text{ s}\):
-\(\Delta t = 5 - 1 = 4\text{ s} = T\).
-At both instants, the particle passes through the equilibrium position \(x = 0\) moving in the negative direction with maximum negative velocity. The phase difference is \(2\pi\text{ rad}\), so the phase is the same.</p>
-<p><strong>Step 5: Check and Final Answer</strong><br/>
-Identical phase requires a time separation equal to an integral number of periods (4 seconds). This holds true for the pair at 2 seconds and 6 seconds, as well as the pair at 1 second and 5 seconds.
-Therefore, the phase of the oscillator is the same at \(t = 2\text{ s}\) and \(t = 6\text{ s}\), and also at \(t = 1\text{ s}\) and \(t = 5\text{ s}\).</p>
-<hr/>
-<p><strong>चरण 1: दिए गए आंकड़े और स्थितियाँ</strong><br/>
-विस्थापन-समय ग्राफ के विश्लेषण से:
-समय \(t = 1\text{ s}\) पर विस्थापन शून्य है तथा वेग ऋणात्मक है।
-समय \(t = 2\text{ s}\) पर विस्थापन ऋणात्मक चरम (negative extreme) पर है।
-समय \(t = 4\text{ s}\) पर विस्थापन धनात्मक चरम पर है।
-समय \(t = 5\text{ s}\) पर विस्थापन शून्य तथा वेग ऋणात्मक है।
-समय \(t = 6\text{ s}\) पर विस्थापन पुनः ऋणात्मक चरम पर है।
-एक पूर्ण दोलन का आवर्तकाल \(T = 4\text{ s}\) है।</p>
-<p><strong>चरण 2: मान्यताएँ और चिन्ह परिपाटी</strong><br/>
-दो क्षणों पर दोलक की कला समान होती है यदि उनके बीच का समय अंतराल आवर्तकाल \(T = 4\text{ s}\) का पूर्ण गुणज हो (\(\Delta t = nT\))।</p>
-<p><strong>चरण 3: संबंधित सूत्र और सिद्धांत</strong><br/>
-कलांतर का सूत्र:
-\[\Delta \phi = \frac{2\pi}{T} \Delta t\]
-समान कला के लिए \(\Delta \phi = 2n\pi\) होना चाहिए, जिसके लिए \(\Delta t = 4\text{ s}, 8\text{ s}, \dots\) आवश्यक है।</p>
-<p><strong>चरण 4: चरणबद्ध हल</strong><br/>
-दिए गए समयांतरालों का परीक्षण:
-1. \(t = 0\text{ s}\) और \(t = 2\text{ s}\) के बीच \(\Delta t = 2\text{ s} = T/2\) है, अतः कलांतर \(\pi\) है (विपरीत कला)।
-2. \(t = 2\text{ s}\) और \(t = 6\text{ s}\) के बीच \(\Delta t = 6 - 2 = 4\text{ s} = T\) है। दोनों क्षणों पर कण ऋणात्मक चरम स्थिति में है, अतः कला समान है।
-3. \(t = 1\text{ s}\) और \(t = 7\text{ s}\) के बीच \(\Delta t = 6\text{ s} = 1.5T\) है, अतः कलांतर \(3\pi\) है।
-4. \(t = 1\text{ s}\) और \(t = 5\text{ s}\) के बीच \(\Delta t = 5 - 1 = 4\text{ s} = T\) है। दोनों क्षणों पर कण साम्यावस्था से ऋणात्मक दिशा की ओर गति कर रहा है, अतः कला समान है।</p>
-<p><strong>चरण 5: जांच और अंतिम उत्तर</strong><br/>
-समान कला के लिए समय अंतर ठीक एक आवर्तकाल (4 सेकंड) होना आवश्यक है, जो \(t = 2\text{ s}\) व \(t = 6\text{ s}\) तथा \(t = 1\text{ s}\) व \(t = 5\text{ s}\) के लिए सत्य है।
-अतः दोलक की कला \(t = 2\text{ s}\) तथा \(t = 6\text{ s}\) पर समान है, और \(t = 1\text{ s}\) तथा \(t = 5\text{ s}\) पर समान है।</p>]]></text></generalfeedback>
+<p><strong>चरण 1: दिए गए आंकड़े और शर्तें</strong><br/>विस्थापन-समय ग्राफ से: \(t = 0\text{ s}\) पर विस्थापन धनात्मक अधिकतम पर है; \(t = 1\text{ s}\) पर विस्थापन शून्य और ढलान ऋणात्मक है; \(t = 2\text{ s}\) पर विस्थापन ऋणात्मक न्यूनतम पर है; \(t = 3\text{ s}\) पर विस्थापन शून्य और ढलान धनात्मक है; तथा \(t = 4\text{ s}\) पर कण पुनः धनात्मक अधिकतम पर लौट आता है।</p>
+<p><strong>चरण 2: मान्यताएँ और चिह्न परिपाटी</strong><br/>दोलन का आवर्तकाल \(T = 4\text{ s}\) है।</p>
+<p><strong>चरण 3: प्रासंगिक सूत्र और सिद्धांत</strong><br/>किसी दोलक की दो अवस्थाओं की कला समान (\(2\pi\) के गुणज में) तभी होती है जब उनका विस्थापन और वेग (ढलान) दोनों समान हों, जो तब होता है जब किसी पूर्णांक \(n\) के लिए समयांतराल \(\Delta t = nT\) हो।</p>
+<p><strong>चरण 4: चरण-दर-चरण हल</strong><br/>- \(t = 0\text{ s}\) और \(t = 2\text{ s}\) की तुलना: \(\Delta t = 2\text{ s} = \frac{T}{2}\), इसलिए कला में \(\pi\) का अंतर है (विपरीत चरम स्थितियाँ)।<br/>- \(t = 2\text{ s}\) और \(t = 6\text{ s}\) की तुलना: \(\Delta t = 6 - 2 = 4\text{ s} = T\), इसलिए दोनों स्थितियों में दोलक ऋणात्मक चरम पर है और कला समान है।<br/>- \(t = 1\text{ s}\) और \(t = 7\text{ s}\) की तुलना: \(\Delta t = 7 - 1 = 6\text{ s} = 1.5T\), इसलिए वेगों के चिह्न विपरीत हैं (कला में \(\pi\) का अंतर)।<br/>- \(t = 1\text{ s}\) और \(t = 5\text{ s}\) की तुलना: \(\Delta t = 5 - 1 = 4\text{ s} = T\), इसलिए दोनों स्थितियों में कण \(x = 0\) पर है और ऋणात्मक दिशा में गति कर रहा है, अर्थात कला समान है।</p>
+<p><strong>चरण 5: जाँच और अंतिम उत्तर</strong><br/>अतः दोलक की कला \(t = 2\text{ s}\) और \(t = 6\text{ s}\) पर, तथा \(t = 1\text{ s}\) और \(t = 5\text{ s}\) पर समान है।</p>]]></text></generalfeedback>
   <defaultgrade>4.0000000</defaultgrade>
   <penalty>0.2500000</penalty>
   <hidden>0</hidden>
@@ -1116,12 +530,11 @@ Therefore, the phase of the oscillator is the same at \(t = 2\text{ s}\) and \(t
   <answer fraction="50" format="html"><text><![CDATA[<p>Phase of the oscillator is same at \(t = 1\text{ s}\) and \(t = 5\text{ s}\).</p>]]></text></answer>
   <tags>
     <tag><text>standard:neet_ug</text></tag>
-    <tag><text>year:2026</text></tag>
     <tag><text>lang:en</text></tag>
     <tag><text>lang:hi</text></tag>
     <tag><text>subject:physics</text></tag>
+    <tag><text>section:mcq_ii</text></tag>
     <tag><text>class:class_11</text></tag>
-    <tag><text>topic:oscillations</text></tag>
     <tag><text>chapter:oscillations</text></tag>
     <tag><text>typology:mcq</text></tag>
     <tag><text>difficulty:medium</text></tag>
@@ -1132,52 +545,15 @@ Therefore, the phase of the oscillator is the same at \(t = 2\text{ s}\) and \(t
   </tags>
 </question>
 <question type="multichoice">
-  <name><text>NEET_UG_PHYSICS_2026_OSCILLATIONS_MCQ_Q14_15 - Properties of simple harmonic oscillator motion</text></name>
-  <questiontext format="html"><text><![CDATA[<p>Which of the following statements is/are true for a simple harmonic oscillator?</p>
+  <name><text>PHYSICS_OSCILLATIONS_MCQII_Q1415 - Properties of a simple harmonic oscillator</text></name>
+  <questiontext format="html"><text><![CDATA[<p>Which of the following statements is/are true for a simple harmonic oscillator?</p><hr/><p>सरल आवर्त दोलक के लिए निम्नलिखित में से कौन-सा/से कथन सत्य है/हैं?</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>A simple harmonic oscillator of mass \(m\) and angular frequency \(\omega\) has displacement \(x = A\sin(\omega t + \phi)\), velocity \(v = A\omega\cos(\omega t + \phi)\), acceleration \(a = -\omega^2 x\), and restoring force \(F = -m\omega^2 x = -kx\).</p>
+<p><strong>Step 2: Evaluation</strong><br/>- Restoring force: \(F = -kx\) is directly proportional to the displacement from the mean position and directed opposite to it. This is true.<br/>- Periodicity of motion: Since \(x(t + T) = x(t)\) for \(T = \frac{2\pi}{\omega}\), the motion is periodic. This is true.<br/>- Acceleration: \(a = -\omega^2 x\) varies continuously with displacement \(x\) and time \(t\), so it is not constant. This is false.<br/>- Periodicity of velocity: Since \(v(t) = A\omega\cos(\omega t + \phi)\) repeats with period \(T = \frac{2\pi}{\omega}\), the velocity is periodic. This is true.</p>
+<p><strong>Step 3: Final Conclusion</strong><br/>Therefore, the true statements are that the force acting is directly proportional to displacement from the mean position and opposite to it, the motion is periodic, and the velocity is periodic.</p>
 <hr/>
-<p>एक सरल आवर्त दोलक के लिए निम्नलिखित में से कौन-सा/से कथन सत्य है/हैं?</p>]]></text></questiontext>
-  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>
-A simple harmonic oscillator moving along a straight line about a stable mean position.</p>
-<p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>
-Let displacement from the mean position be \(x(t)\). The mean position is at \(x = 0\).</p>
-<p><strong>Step 3: Relevant Formulae and Principles</strong><br/>
-In simple harmonic motion:
-1. Restoring force is directly proportional to displacement and opposite to it:
-\[F = -k x\]
-2. Displacement, velocity, and acceleration are sinusoidal functions of time with period \(T = \frac{2\pi}{\omega}\):
-\[x(t) = A \sin(\omega t + \phi)\]
-\[v(t) = A\omega \cos(\omega t + \phi)\]
-\[a(t) = -\omega^2 x(t) = -A\omega^2 \sin(\omega t + \phi)\]</p>
-<p><strong>Step 4: Step-by-Step Working</strong><br/>
-Evaluating each statement conceptually:
-1. Force acting on the oscillator: The defining relation of simple harmonic motion is \(F = -kx\), which means the restoring force is directly proportional to the displacement from the mean position and directed opposite to it. This statement is true.
-2. Nature of motion: The motion repeats itself identically after every fixed interval of time \(T = \frac{2\pi}{\omega}\). Thus, the motion is periodic. This statement is true.
-3. Acceleration of the oscillator: The acceleration is \(a = -\omega^2 x\), which continuously varies with the displacement \(x\) (being zero at the mean position and maximum at the extreme positions). Therefore, acceleration is not constant. This statement is false.
-4. Velocity: The velocity \(v(t) = A\omega\cos(\omega t + \phi)\) is a sinusoidal function of time that repeats identically with period \(T = \frac{2\pi}{\omega}\). Thus, velocity is periodic. This statement is true.</p>
-<p><strong>Step 5: Check and Final Answer</strong><br/>
-The force satisfies Hooke's restoring law, the position and velocity repeat periodically, while the acceleration varies sinusoidally with position.
-Therefore, the true statements are: force acting is directly proportional to displacement from the mean position and opposite to it; motion is periodic; and the velocity is periodic.</p>
-<hr/>
-<p><strong>चरण 1: दिए गए आंकड़े और स्थितियाँ</strong><br/>
-माध्य स्थिति के परितः सरल रेखा में गतिमान एक सरल आवर्त दोलक।</p>
-<p><strong>चरण 2: मान्यताएँ और चिन्ह परिपाटी</strong><br/>
-माध्य स्थिति से विस्थापन \(x(t)\) है जहाँ साम्यावस्था पर \(x = 0\) है।</p>
-<p><strong>चरण 3: संबंधित सूत्र और सिद्धांत</strong><br/>
-सरल आवर्त गति के मूलभूत समीकरण:
-प्रत्यानयन बल:
-\[F = -k x\]
-वेग तथा त्वरण:
-\[v(t) = A\omega \cos(\omega t + \phi)\]
-\[a(t) = -\omega^2 x(t)\]</p>
-<p><strong>चरण 4: चरणबद्ध हल</strong><br/>
-कथनों का क्रमिक मूल्यांकन:
-1. दोलक पर कार्यकारी बल: परिभाषा के अनुसार \(F = -kx\) होता है, अर्थात् कार्यकारी बल माध्य स्थिति से विस्थापन के सीधे समानुपाती तथा उसकी विपरीत दिशा में होता है। यह कथन सत्य है।
-2. गति की प्रकृति: दोलक की स्थिति और वेग प्रत्येक आवर्तकाल \(T\) के पश्चात दोहराए जाते हैं, अतः गति आवर्ती होती है। यह कथन सत्य है।
-3. दोलक का त्वरण: त्वरण \(a = -\omega^2 x\) विस्थापन के साथ निरंतर बदलता है, अतः त्वरण नियत नहीं होता। यह कथन असत्य है।
-4. वेग: वेग \(v(t)\) एक ज्यावक्रीय फलन है जो निश्चित समय \(T\) के बाद दोहराया जाता है, अतः वेग आवर्ती होता है। यह कथन सत्य है।</p>
-<p><strong>चरण 5: जांच और अंतिम उत्तर</strong><br/>
-बल विस्थापन के समानुपाती और विपरीत होता है, गति आवर्ती होती है, तथा वेग भी आवर्ती होता है।
-अतः सत्य कथन हैं: कार्यकारी बल माध्य स्थिति से विस्थापन के सीधे समानुपाती तथा विपरीत होता है; गति आवर्ती होती है; तथा वेग आवर्ती होता है।</p>]]></text></generalfeedback>
+<p><strong>चरण 1: अवधारणात्मक सिद्धांत</strong><br/>\(m\) द्रव्यमान और \(\omega\) कोणीय आवृत्ति वाले एक सरल आवर्त दोलक का विस्थापन \(x = A\sin(\omega t + \phi)\), वेग \(v = A\omega\cos(\omega t + \phi)\), त्वरण \(a = -\omega^2 x\), तथा प्रत्यानयन बल \(F = -m\omega^2 x = -kx\) होता है।</p>
+<p><strong>चरण 2: मूल्यांकन</strong><br/>- प्रत्यानयन बल: \(F = -kx\) माध्य स्थिति से विस्थापन के सीधे अनुक्रमानुपाती तथा इसके विपरीत होता है। यह सत्य है।<br/>- गति की आवर्तिता: चूँकि \(T = \frac{2\pi}{\omega}\) के लिए \(x(t + T) = x(t)\) है, इसलिए गति आवर्ती है। यह सत्य है।<br/>- त्वरण: \(a = -\omega^2 x\) विस्थापन \(x\) और समय \(t\) के साथ निरंतर बदलता रहता है, अतः यह नियत नहीं है। यह असत्य है।<br/>- वेग की आवर्तिता: चूँकि \(v(t) = A\omega\cos(\omega t + \phi)\) भी \(T = \frac{2\pi}{\omega}\) आवर्तकाल से दोहराता है, इसलिए वेग आवर्ती है। यह सत्य है।</p>
+<p><strong>चरण 3: अंतिम निष्कर्ष</strong><br/>अतः सत्य कथन ये हैं कि लगने वाला बल माध्य स्थिति से विस्थापन के अनुक्रमानुपाती तथा विपरीत होता है, गति आवर्ती है, और वेग आवर्ती है।</p>]]></text></generalfeedback>
   <defaultgrade>4.0000000</defaultgrade>
   <penalty>0.2500000</penalty>
   <hidden>0</hidden>
@@ -1190,12 +566,11 @@ Therefore, the true statements are: force acting is directly proportional to dis
   <answer fraction="33.33333" format="html"><text><![CDATA[<p>The velocity is periodic.</p>]]></text></answer>
   <tags>
     <tag><text>standard:neet_ug</text></tag>
-    <tag><text>year:2026</text></tag>
     <tag><text>lang:en</text></tag>
     <tag><text>lang:hi</text></tag>
     <tag><text>subject:physics</text></tag>
+    <tag><text>section:mcq_ii</text></tag>
     <tag><text>class:class_11</text></tag>
-    <tag><text>topic:oscillations</text></tag>
     <tag><text>chapter:oscillations</text></tag>
     <tag><text>typology:mcq</text></tag>
     <tag><text>difficulty:easy</text></tag>
@@ -1206,69 +581,19 @@ Therefore, the true statements are: force acting is directly proportional to dis
   </tags>
 </question>
 <question type="multichoice">
-  <name><text>NEET_UG_PHYSICS_2026_OSCILLATIONS_MCQ_Q14_16 - Analysis of displacement time harmonic graph</text></name>
-  <questiontext format="html"><text><![CDATA[<p>The displacement time graph of a particle executing S.H.M. is shown in the figure. Which of the following statement is/are true?</p>
-<p><img src="@@PLUGINFILE@@/img-4.jpeg" alt="Displacement time graph of a particle executing SHM" /></p>
+  <name><text>PHYSICS_OSCILLATIONS_MCQII_Q1416 - Force acceleration velocity and energy from SHM graph</text></name>
+  <questiontext format="html"><text><![CDATA[<p>The displacement time graph of a particle executing S.H.M. is shown in Fig. 14.5. Which of the following statement is/are true?</p><p><img src="@@PLUGINFILE@@/img-4.jpeg" alt="Displacement time graph of S.H.M. showing T/4, 2T/4, 3T/4, T, 5T/4" /></p><hr/><p>सरल आवर्त गति करते हुए एक कण का विस्थापन-समय ग्राफ चित्र 14.5 में दर्शाया गया है। निम्नलिखित में से कौन-सा/से कथन सत्य है/हैं?</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>From the displacement–time graph of period \(T\):<br/>- At \(t = \frac{T}{4}\) and \(t = \frac{3T}{4}\), displacement \(x = 0\) (mean position).<br/>- At \(t = \frac{2T}{4} = \frac{T}{2}\) and \(t = \frac{4T}{4} = T\), displacement is at an extreme position (\(|x| = A\)).</p>
+<p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>The particle executes ideal S.H.M. with amplitude \(A\) and angular frequency \(\omega = \frac{2\pi}{T}\).</p>
+<p><strong>Step 3: Relevant Formulae and Principles</strong><br/>- Restoring force: \(F = -kx\)<br/>- Acceleration magnitude: \(|a| = \omega^2 |x|\)<br/>- Speed: \(|v| = \omega \sqrt{A^2 - x^2}\)<br/>- Potential energy: \(U = \frac{1}{2}kx^2\), Kinetic energy: \(K = \frac{1}{2}k(A^2 - x^2)\).</p>
+<p><strong>Step 4: Step-by-Step Working</strong><br/>- At \(t = \frac{3T}{4}\), \(x = 0\), so \(F = -k(0) = 0\). Thus, the force is zero.<br/>- At \(t = \frac{4T}{4} = T\), \(|x| = A\), so the magnitude of acceleration \(|a| = \omega^2 A\) is maximum.<br/>- At \(t = \frac{T}{4}\), \(x = 0\), so the speed \(|v| = \omega A\) is maximum.<br/>- At \(t = \frac{T}{2}\), \(|x| = A\), so potential energy \(U = \frac{1}{2}kA^2\) is maximum while kinetic energy \(K = 0\); they are not equal.</p>
+<p><strong>Step 5: Check and Final Answer</strong><br/>Therefore, the true statements are that the force is zero at \(t = \frac{3T}{4}\), the acceleration is maximum at \(t = \frac{4T}{4}\), and the velocity is maximum at \(t = \frac{T}{4}\).</p>
 <hr/>
-<p>सरल आवर्त गति कर रहे किसी कण का विस्थापन-समय ग्राफ चित्र में दर्शाया गया है। निम्नलिखित में से कौन-सा/से कथन सत्य है/हैं?</p>
-<p><img src="@@PLUGINFILE@@/img-4.jpeg" alt="सरल आवर्त गति कर रहे कण का विस्थापन-समय ग्राफ" /></p>]]></text></questiontext>
-  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>
-The graph depicts the displacement \(x(t)\) of an oscillator as a cosine curve of period \(T\):
-At \(t = 0\), displacement is positive maximum: \(x = +A\).
-At \(t = T/4\), displacement is zero: \(x = 0\).
-At \(t = 2T/4 = T/2\), displacement is negative maximum: \(x = -A\).
-At \(t = 3T/4\), displacement is zero: \(x = 0\).
-At \(t = 4T/4 = T\), displacement is positive maximum: \(x = +A\).</p>
-<p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>
-The equation of the displacement is \(x(t) = A \cos(\omega t)\) where \(\omega = \frac{2\pi}{T}\).
-Velocity is \(v(t) = \frac{dx}{dt} = -A\omega \sin(\omega t)\).
-Acceleration is \(a(t) = \frac{dv}{dt} = -A\omega^2 \cos(\omega t) = -\omega^2 x(t)\).
-Restoring force is \(F(t) = m a(t) = -m\omega^2 x(t)\Close</p>
-<p><strong>Step 3: Relevant Formulae and Principles</strong><br/>
-1. Force is proportional to displacement: \(F = -m\omega^2 x\). When \(x = 0\), \(F = 0\).
-2. Magnitude of acceleration is \(|a| = \omega^2 |x|\). It is maximum when \(|x| = A\).
-3. Speed is \(|v| = \omega \sqrt{A^2 - x^2}\). It is maximum when \(x = 0\).
-4. Kinetic energy \(K = \frac{1}{2}m v^2\) and potential energy \(U = \frac{1}{2}m\omega^2 x^2\).</p>
-<p><strong>Step 4: Step-by-Step Working</strong><br/>
-Evaluating each statement:
-1. At \(t = \frac{3T}{4}\):
-\(x(3T/4) = A \cos\left(\frac{2\pi}{T} \cdot \frac{3T}{4}\right) = A \cos\left(\frac{3\pi}{2}\right) = 0\).
-Since displacement is zero, the restoring force \(F = -m\omega^2(0) = 0\). This statement is true.
-2. At \(t = \frac{4T}{4} = T\):
-\(x(T) = A \cos(2\pi) = A\).
-The particle is at the extreme position. The acceleration magnitude is \(|a| = \omega^2 A\), which is the maximum possible value. This statement is true.
-3. At \(t = \frac{T}{4}\):
-\(x(T/4) = A \cos\left(\frac{\pi}{2}\right) = 0\).
-The particle is passing through the equilibrium position, so its speed \(|v| = A\omega\) is maximum. This statement is true.
-4. At \(t = \frac{T}{2}\):
-\(x(T/2) = A \cos(\pi) = -A\).
-The particle is at an extreme position where velocity is zero, so kinetic energy is \(K = 0\) and potential energy is maximum: \(U = \frac{1}{2}m\omega^2 A^2\). Thus, P.E. is not equal to K.E. (they are equal at \(x = \pm A/\sqrt{2}\)). This statement is false.</p>
-<p><strong>Step 5: Check and Final Answer</strong><br/>
-At the mean positions (quarter periods), force is zero and speed is maximum. At the extremes (half and full periods), acceleration magnitude is maximum.
-Therefore, the true statements are: the force is zero at \(t = \frac{3T}{4}\); the acceleration is maximum at \(t = \frac{4T}{4}\); and the velocity is maximum at \(t = \frac{T}{4}\).</p>
-<hr/>
-<p><strong>चरण 1: दिए गए आंकड़े और स्थितियाँ</strong><br/>
-ग्राफ आवर्तकाल \(T\) के साथ एक ज्यावक्रीय (कोज्या) वक्र को प्रदर्शित करता है:
-\(t = T/4\) पर \(x = 0\) (माध्य स्थिति)
-\(t = 2T/4 = T/2\) पर \(x = -A\) (ऋणात्मक चरम स्थिति)
-\(t = 3T/4\) पर \(x = 0\) (माध्य स्थिति)
-\(t = 4T/4 = T\) पर \(x = +A\) (धनात्मक चरम स्थिति)</p>
-<p><strong>चरण 2: मान्यताएँ और चिन्ह परिपाटी</strong><br/>
-विस्थापन समीकरण \(x(t) = A \cos(\omega t)\) है जहाँ \(\omega = \frac{2\pi}{T}\)।
-वेग \(v(t) = -A\omega \sin(\omega t)\) तथा त्वरण \(a(t) = -\omega^2 x(t)\) है।</p>
-<p><strong>चरण 3: संबंधित सूत्र और सिद्धांत</strong><br/>
-प्रत्यानयन बल \(F = -m\omega^2 x\), विस्थापन शून्य होने पर शून्य होता है।
-त्वरण का परिमाण चरम स्थिति (\(|x| = A\)) पर अधिकतम \(\omega^2 A\) होता है।
-चाल माध्य स्थिति (\(x = 0\)) पर अधिकतम \(A\omega\) होती है।</p>
-<p><strong>चरण 4: चरणबद्ध हल</strong><br/>
-कथनों का विश्लेषण:
-1. \(t = \frac{3T}{4}\) पर विस्थापन \(x = 0\) है, अतः बल \(F = 0\) है। यह कथन सत्य है।
-2. \(t = \frac{4T}{4}\) पर कण चरम स्थिति \(x = A\) पर है, अतः त्वरण का परिमाण अधिकतम \(\omega^2 A\) है। यह कथन सत्य है।
-3. \(t = \frac{T}{4}\) पर कण माध्य स्थिति से गुजरता है, अतः वेग का परिमाण अधिकतम \(A\omega\) है। यह कथन सत्य है।
-4. \(t = \frac{T}{2}\) पर कण चरम स्थिति \(x = -A\) पर है जहाँ गतिज ऊर्जा शून्य तथा स्थितिज ऊर्जा अधिकतम होती है, अतः दोनों बराबर नहीं हैं। यह कथन असत्य है।</p>
-<p><strong>चरण 5: जांच और अंतिम उत्तर</strong><br/>
-माध्य स्थिति पर बल शून्य और वेग अधिकतम होता है, तथा चरम स्थिति पर त्वरण अधिकतम होता है।
-अतः सत्य कथन हैं: \(t = \frac{3T}{4}\) पर बल शून्य है; \(t = \frac{4T}{4}\) पर त्वरण अधिकतम है; तथा \(t = \frac{T}{4}\) पर वेग अधिकतम है।</p>]]></text></generalfeedback>
+<p><strong>चरण 1: दिए गए आंकड़े और शर्तें</strong><br/>\(T\) आवर्तकाल वाले विस्थापन-समय ग्राफ से:<br/>- \(t = \frac{T}{4}\) तथा \(t = \frac{3T}{4}\) पर विस्थापन \(x = 0\) (माध्य स्थिति) है।<br/>- \(t = \frac{2T}{4} = \frac{T}{2}\) तथा \(t = \frac{4T}{4} = T\) पर विस्थापन चरम स्थिति (\(|x| = A\)) पर है।</p>
+<p><strong>चरण 2: मान्यताएँ और चिह्न परिपाटी</strong><br/>कण आयाम \(A\) तथा कोणीय आवृत्ति \(\omega = \frac{2\pi}{T}\) के साथ आदर्श सरल आवर्त गति करता है।</p>
+<p><strong>चरण 3: प्रासंगिक सूत्र और सिद्धांत</strong><br/>- प्रत्यानयन बल: \(F = -kx\)<br/>- त्वरण का परिमाण: \(|a| = \omega^2 |x|\)<br/>- चाल: \(|v| = \omega \sqrt{A^2 - x^2}\)<br/>- स्थितिज ऊर्जा: \(U = \frac{1}{2}kx^2\), गतिज ऊर्जा: \(K = \frac{1}{2}k(A^2 - x^2)\)।</p>
+<p><strong>चरण 4: चरण-दर-चरण हल</strong><br/>- \(t = \frac{3T}{4}\) पर, \(x = 0\), इसलिए \(F = -k(0) = 0\)। अतः बल शून्य है।<br/>- \(t = \frac{4T}{4} = T\) पर, \(|x| = A\), इसलिए त्वरण का परिमाण \(|a| = \omega^2 A\) अधिकतम है।<br/>- \(t = \frac{T}{4}\) पर, \(x = 0\), इसलिए चाल \(|v| = \omega A\) अधिकतम है।<br/>- \(t = \frac{T}{2}\) पर, \(|x| = A\), इसलिए स्थितिज ऊर्जा \(U = \frac{1}{2}kA^2\) अधिकतम है जबकि गतिज ऊर्जा \(K = 0\) है; ये बराबर नहीं हैं।</p>
+<p><strong>चरण 5: जाँच और अंतिम उत्तर</strong><br/>अतः सत्य कथन ये हैं कि \(t = \frac{3T}{4}\) पर बल शून्य है, \(t = \frac{4T}{4}\) पर त्वरण अधिकतम है, तथा \(t = \frac{T}{4}\) पर वेग अधिकतम है।</p>]]></text></generalfeedback>
   <defaultgrade>4.0000000</defaultgrade>
   <penalty>0.2500000</penalty>
   <hidden>0</hidden>
@@ -1281,12 +606,11 @@ Therefore, the true statements are: the force is zero at \(t = \frac{3T}{4}\); t
   <answer fraction="-50" format="html"><text><![CDATA[<p>The P.E. is equal to K.E. of oscillation at \(t = \frac{T}{2}\).</p>]]></text></answer>
   <tags>
     <tag><text>standard:neet_ug</text></tag>
-    <tag><text>year:2026</text></tag>
     <tag><text>lang:en</text></tag>
     <tag><text>lang:hi</text></tag>
     <tag><text>subject:physics</text></tag>
+    <tag><text>section:mcq_ii</text></tag>
     <tag><text>class:class_11</text></tag>
-    <tag><text>topic:oscillations</text></tag>
     <tag><text>chapter:oscillations</text></tag>
     <tag><text>typology:mcq</text></tag>
     <tag><text>difficulty:medium</text></tag>
@@ -1297,67 +621,19 @@ Therefore, the true statements are: the force is zero at \(t = \frac{3T}{4}\); t
   </tags>
 </question>
 <question type="multichoice">
-  <name><text>NEET_UG_PHYSICS_2026_OSCILLATIONS_MCQ_Q14_17 - Energy and velocity in harmonic motion</text></name>
-  <questiontext format="html"><text><![CDATA[<p>A body is performing S.H.M. Then its</p>
+  <name><text>PHYSICS_OSCILLATIONS_MCQII_Q1417 - Average energy and velocity relations in SHM</text></name>
+  <questiontext format="html"><text><![CDATA[<p>A body is performing S.H.M. Then its</p><hr/><p>एक पिंड सरल आवर्त गति कर रहा है। तब इसका</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>A body of mass \(m\) executes S.H.M. with amplitude \(A\), angular frequency \(\omega\), and time period \(T = \frac{2\pi}{\omega}\).</p>
+<p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>Let the displacement be \(x = A\sin(\omega t)\), so velocity is \(v = A\omega\cos(\omega t) = v_{\max}\cos(\omega t)\), where \(v_{\max} = A\omega\).</p>
+<p><strong>Step 3: Relevant Formulae and Principles</strong><br/>- Total mechanical energy: \(E = \frac{1}{2}m\omega^2 A^2 = \frac{1}{2}mv_{\max}^2 = K_{\max}\).<br/>- Kinetic energy: \(K = \frac{1}{2}mv_{\max}^2 \cos^2(\omega t)\).<br/>- Over one complete cycle, \(\langle \cos(\omega t) \rangle = 0\) and \(\langle \cos^2(\omega t) \rangle = \frac{1}{2}\).</p>
+<p><strong>Step 4: Step-by-Step Working</strong><br/>1. Average total energy per cycle: Since \(E = K_{\max}\) is constant, \(\langle E \rangle = K_{\max}\). True.<br/>2. Average kinetic energy per cycle: \(\langle K \rangle = K_{\max}\langle \cos^2(\omega t) \rangle = \frac{1}{2}K_{\max}\). True.<br/>3. Mean velocity over a complete cycle: \(\langle v \rangle = v_{\max}\langle \cos(\omega t) \rangle = 0\) (net displacement in one full cycle is zero), not \(\frac{2}{\pi}v_{\max}\). False.<br/>4. Root mean square velocity: \(v_{\text{rms}} = \sqrt{\langle v^2 \rangle} = \sqrt{v_{\max}^2 \langle \cos^2(\omega t) \rangle} = \frac{v_{\max}}{\sqrt{2}}\). True.</p>
+<p><strong>Step 5: Check and Final Answer</strong><br/>Hence, in S.H.M., the average total energy per cycle equals the maximum kinetic energy, the average kinetic energy per cycle equals half the maximum kinetic energy, and the root mean square velocity is \(\frac{1}{\sqrt{2}}\) times the maximum velocity.</p>
 <hr/>
-<p>एक पिंड सरल आवर्त गति कर रहा है। तब इसकी/इसके:</p>]]></text></questiontext>
-  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>
-A body of mass \(m\) performs simple harmonic motion with amplitude \(A\) and angular frequency \(\omega\).</p>
-<p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>
-Let the displacement be \(x(t) = A \sin\omega t\).
-Then velocity is \(v(t) = A\omega \cos\omega t\), and maximum velocity is \(v_{\max} = A\omega\).
-The period of a complete cycle is \(T = \frac{2\pi}{\omega}\).</p>
-<p><strong>Step 3: Relevant Formulae and Principles</strong><br/>
-1. Total mechanical energy in SHM is conserved at all instants:
-\[E = \frac{1}{2}m\omega^2 A^2\]
-Since maximum kinetic energy occurs when potential energy is zero (at the mean position):
-\[K_{\max} = \frac{1}{2}m v_{\max}^2 = \frac{1}{2}m\omega^2 A^2 = E\]
-2. Instantaneous kinetic energy:
-\[K(t) = \frac{1}{2}m v(t)^2 = \frac{1}{2}m\omega^2 A^2 \cos^2\omega t = K_{\max} \cos^2\omega t\]
-3. The average value of \(\cos^2\omega t\) over a complete cycle is \(\frac{1}{2}\).
-4. The mean of a sinusoidal quantity over a complete period is zero.
-5. The root mean square (rms) value of \(v(t) = v_{\max}\cos\omega t\) is:
-\[v_{\text{rms}} = \sqrt{\langle v^2 \rangle}\]</p>
-<p><strong>Step 4: Step-by-Step Working</strong><br/>
-Evaluating each statement:
-1. Average total energy per cycle: Since total energy is constant at every instant, its average over a cycle is simply \(E = K_{\max}\). This statement is true.
-2. Average kinetic energy per cycle:
-\[\langle K \rangle = K_{\max} \langle \cos^2\omega t \rangle = K_{\max} \left(\frac{1}{2}\right) = \frac{1}{2} K_{\max}\]
-Thus, average kinetic energy per cycle is half of maximum kinetic energy. This statement is true.
-3. Mean velocity over a complete cycle:
-\[\langle v \rangle = \frac{1}{T} \int_0^T v(t) dt = \frac{x(T) - x(0)}{T} = 0\]
-Because velocity is symmetrically positive for half the cycle and negative for the other half, the mean velocity over a complete cycle is zero, not \(\frac{2}{\pi} v_{\max}\) (which is the average speed). This statement is false.
-4. Root mean square velocity:
-\[v_{\text{rms}} = \sqrt{\langle v^2 \rangle} = \sqrt{v_{\max}^2 \langle \cos^2\omega t \rangle} = \sqrt{\frac{v_{\max}^2}{2}} = \frac{1}{\sqrt{2}} v_{\max}\]
-Thus, the root mean square velocity is \(\frac{1}{\sqrt{2}}\) times the maximum velocity. This statement is true.</p>
-<p><strong>Step 5: Check and Final Answer</strong><br/>
-Total energy is invariant and equals maximum kinetic energy; time-average kinetic energy is half of the peak; and the rms value of a sinusoidal wave is its peak divided by \(\sqrt{2}\).
-Therefore, the true statements are: average total energy per cycle is equal to its maximum kinetic energy; average kinetic energy per cycle is equal to half of its maximum kinetic energy; and root mean square velocity is \(\frac{1}{\sqrt{2}}\) times of its maximum velocity.</p>
-<hr/>
-<p><strong>चरण 1: दिए गए आंकड़े और स्थितियाँ</strong><br/>
-द्रव्यमान \(m\) का एक पिंड आयाम \(A\) और कोणीय आवृत्ति \(\omega\) के साथ सरल आवर्त गति कर रहा है।</p>
-<p><strong>चरण 2: मान्यताएँ और चिन्ह परिपाटी</strong><br/>
-विस्थापन \(x(t) = A \sin\omega t\) है।
-वेग \(v(t) = A\omega \cos\omega t\) तथा अधिकतम वेग \(v_{\max} = A\omega\) है। पूर्ण चक्र का आवर्तकाल \(T = \frac{2\pi}{\omega}\) है।</p>
-<p><strong>चरण 3: संबंधित सूत्र और सिद्धांत</strong><br/>
-1. कुल यांत्रिक ऊर्जा संरक्षित रहती है: \(E = \frac{1}{2}m\omega^2 A^2 = K_{\max}\)।
-2. तात्क्षणिक गतिज ऊर्जा: \(K(t) = K_{\max} \cos^2\omega t\)।
-3. पूर्ण चक्र पर \(\cos^2\omega t\) का औसत मान \(1/2\) होता है।
-4. पूर्ण चक्र पर वेग का माध्य मान \(\langle v \rangle = 0\) होता है।
-5. वर्ग माध्य मूल (rms) वेग \(v_{\text{rms}} = \sqrt{\langle v^2 \rangle} = \frac{v_{\max}}{\sqrt{2}}\) होता है।</p>
-<p><strong>चरण 4: चरणबद्ध हल</strong><br/>
-कथनों का क्रमिक सत्यापन:
-1. कुल ऊर्जा सदैव नियत रहती है, अतः इसका प्रति चक्र औसत मान अधिकतम गतिज ऊर्जा के बराबर होता है। यह कथन सत्य है।
-2. प्रति चक्र औसत गतिज ऊर्जा:
-\[\langle K \rangle = \frac{1}{2} K_{\max}\]
-अतः औसत गतिज ऊर्जा अधिकतम गतिज ऊर्जा की आधी होती है। यह कथन सत्य है।
-3. एक पूर्ण चक्र में विस्थापन का कुल परिवर्तन शून्य होता है, अतः माध्य वेग शून्य होता है, \(\frac{2}{\pi} v_{\max}\) नहीं। यह कथन असत्य है।
-4. वर्ग माध्य मूल वेग:
-\[v_{\text{rms}} = \sqrt{\frac{v_{\max}^2}{2}} = \frac{1}{\sqrt{2}} v_{\max}\]
-अतः rms वेग अधिकतम वेग का \(\frac{1}{\sqrt{2}}\) गुना होता है। यह कथन सत्य है।</p>
-<p><strong>चरण 5: जांच और अंतिम उत्तर</strong><br/>
-औसत कुल ऊर्जा अधिकतम गतिज ऊर्जा के बराबर है, औसत गतिज ऊर्जा आधी है, और rms वेग शिखर मान का \(1/\sqrt{2}\) है।
-अतः सत्य कथन हैं: प्रति चक्र औसत कुल ऊर्जा अधिकतम गतिज ऊर्जा के बराबर होती है; प्रति चक्र औसत गतिज ऊर्जा अधिकतम गतिज ऊर्जा की आधी होती है; तथा वर्ग माध्य मूल वेग अधिकतम वेग का \(\frac{1}{\sqrt{2}}\) गुना होता है।</p>]]></text></generalfeedback>
+<p><strong>चरण 1: दिए गए आंकड़े और शर्तें</strong><br/>\(m\) द्रव्यमान का एक पिंड \(A\) आयाम, \(\omega\) कोणीय आवृत्ति तथा \(T = \frac{2\pi}{\omega}\) आवर्तकाल के साथ सरल आवर्त गति कर रहा है।</p>
+<p><strong>चरण 2: मान्यताएँ और चिह्न परिपाटी</strong><br/>मान लें विस्थापन \(x = A\sin(\omega t)\) है, तो वेग \(v = A\omega\cos(\omega t) = v_{\max}\cos(\omega t)\) होगा, जहाँ \(v_{\max} = A\omega\) है।</p>
+<p><strong>चरण 3: प्रासंगिक सूत्र और सिद्धांत</strong><br/>- कुल यांत्रिक ऊर्जा: \(E = \frac{1}{2}m\omega^2 A^2 = \frac{1}{2}mv_{\max}^2 = K_{\max}\)।<br/>- गतिज ऊर्जा: \(K = \frac{1}{2}mv_{\max}^2 \cos^2(\omega t)\)।<br/>- एक पूर्ण चक्र में, \(\langle \cos(\omega t) \rangle = 0\) तथा \(\langle \cos^2(\omega t) \rangle = \frac{1}{2}\) होता है।</p>
+<p><strong>चरण 4: चरण-दर-चरण हल</strong><br/>1. प्रति चक्र औसत कुल ऊर्जा: चूँकि \(E = K_{\max}\) नियत है, इसलिए \(\langle E \rangle = K_{\max}\)। सत्य।<br/>2. प्रति चक्र औसत गतिज ऊर्जा: \(\langle K \rangle = K_{\max}\langle \cos^2(\omega t) \rangle = \frac{1}{2}K_{\max}\)। सत्य।<br/>3. एक पूर्ण चक्र में माध्य वेग: \(\langle v \rangle = v_{\max}\langle \cos(\omega t) \rangle = 0\) (एक पूर्ण चक्र में कुल विस्थापन शून्य होता है), न कि \(\frac{2}{\pi}v_{\max}\)। असत्य।<br/>4. वर्ग माध्य मूल वेग: \(v_{\text{rms}} = \sqrt{\langle v^2 \rangle} = \sqrt{v_{\max}^2 \langle \cos^2(\omega t) \rangle} = \frac{v_{\max}}{\sqrt{2}}\)। सत्य।</p>
+<p><strong>चरण 5: जाँच और अंतिम उत्तर</strong><br/>अतः सरल आवर्त गति में, प्रति चक्र औसत कुल ऊर्जा अधिकतम गतिज ऊर्जा के बराबर होती है, प्रति चक्र औसत गतिज ऊर्जा अधिकतम गतिज ऊर्जा की आधी होती है, तथा वर्ग माध्य मूल वेग अधिकतम वेग का \(\frac{1}{\sqrt{2}}\) गुना होता है।</p>]]></text></generalfeedback>
   <defaultgrade>4.0000000</defaultgrade>
   <penalty>0.2500000</penalty>
   <hidden>0</hidden>
@@ -1370,106 +646,34 @@ Therefore, the true statements are: average total energy per cycle is equal to i
   <answer fraction="33.33333" format="html"><text><![CDATA[<p>root mean square velocity is \(\frac{1}{\sqrt{2}}\) times of its maximum velocity.</p>]]></text></answer>
   <tags>
     <tag><text>standard:neet_ug</text></tag>
-    <tag><text>year:2026</text></tag>
     <tag><text>lang:en</text></tag>
     <tag><text>lang:hi</text></tag>
     <tag><text>subject:physics</text></tag>
+    <tag><text>section:mcq_ii</text></tag>
     <tag><text>class:class_11</text></tag>
-    <tag><text>topic:oscillations</text></tag>
     <tag><text>chapter:oscillations</text></tag>
     <tag><text>typology:mcq</text></tag>
     <tag><text>difficulty:medium</text></tag>
-    <tag><text>blooms:understand</text></tag>
+    <tag><text>blooms:apply</text></tag>
     <tag><text>calculation:light</text></tag>
     <tag><text>media:text</text></tag>
     <tag><text>multiconcept:false</text></tag>
   </tags>
 </question>
 <question type="multichoice">
-  <name><text>NEET_UG_PHYSICS_2026_OSCILLATIONS_MCQ_Q14_18 - Sign of kinematic quantities in oscillation</text></name>
-  <questiontext format="html"><text><![CDATA[<p>A particle is in linear simple harmonic motion between two points A and B, \(10\text{ cm}\) apart as shown in the figure. Take the direction from A to B as the +ve direction and choose the correct statements.</p>
-<p><img src="@@PLUGINFILE@@/img-5.jpeg" alt="Points B, O, C, A along straight line" /></p>
-<p>\[\mathrm{AO} = \mathrm{OB} = 5\text{ cm}\]</p>
-<p>\[\mathrm{BC} = 8\text{ cm}\]</p>
+  <name><text>PHYSICS_OSCILLATIONS_MCQII_Q1418 - Signs of velocity acceleration and force in linear SHM</text></name>
+  <questiontext format="html"><text><![CDATA[<p>A particle is in linear simple harmonic motion between two points A and B, \(10\text{ cm}\) apart (Fig. 14.6). Take the direction from A to B as the +ve direction and choose the correct statements.</p><p><img src="@@PLUGINFILE@@/img-5.jpeg" alt="Linear S.H.M. between points A and B with mean position O and point C" /></p><p>\(\mathrm{AO} = \mathrm{OB} = 5\text{ cm}\)</p><p>\(\mathrm{BC} = 8\text{ cm}\)</p><hr/><p>एक कण \(10\text{ cm}\) की दूरी पर स्थित दो बिंदुओं A और B के बीच रैखिक सरल आवर्त गति कर रहा है (चित्र 14.6)। A से B की दिशा को धनात्मक दिशा मानकर सही कथनों का चयन कीजिए।</p><p>\(\mathrm{AO} = \mathrm{OB} = 5\text{ cm}\)</p><p>\(\mathrm{BC} = 8\text{ cm}\)</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>The particle oscillates between extremes A and B with \(\mathrm{AO} = \mathrm{OB} = 5\text{ cm}\) and \(\mathrm{BC} = 8\text{ cm}\), where O is the mean position. Thus, C lies between A and O at a distance of \(3\text{ cm}\) from O (and \(2\text{ cm}\) from A).</p>
+<p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>Taking the direction from A to B as positive and O as origin (\(x = 0\)), the coordinates are \(x_A = -5\text{ cm}\), \(x_C = -3\text{ cm}\), and \(x_B = +5\text{ cm}\). Velocity \(v > 0\) when moving from A towards B, and \(v < 0\) when moving from B towards A.</p>
+<p><strong>Step 3: Relevant Formulae and Principles</strong><br/>In S.H.M., acceleration \(a = -\omega^2 x\) and restoring force \(F = -kx = m a\) always have signs opposite to the displacement \(x\).</p>
+<p><strong>Step 4: Step-by-Step Working</strong><br/>1. At \(3\text{ cm}\) from A going towards B: \(x = -5 + 3 = -2\text{ cm} < 0\). Moving towards B gives \(v > 0\). Since \(x < 0\), \(a = -\omega^2 x > 0\) and \(F = -kx > 0\). Thus, velocity, acceleration, and force are all positive.<br/>2. At C going towards O: Moving from C (\(x = -3\text{ cm}\)) towards O (\(x = 0\)) is in the direction from A to B, so velocity is positive, not negative.<br/>3. At \(4\text{ cm}\) from B going towards A: \(x = +5 - 4 = +1\text{ cm} > 0\). Moving towards A gives \(v < 0\). Since \(x > 0\), \(a = -\omega^2 x < 0\) and \(F = -kx < 0\). Thus, velocity, acceleration, and force are all negative.<br/>4. At point B: \(x = +5\text{ cm} > 0\), so \(a = -\omega^2 x < 0\) and \(F = -kx < 0\). Thus, both acceleration and force are negative.</p>
+<p><strong>Step 5: Check and Final Answer</strong><br/>Therefore, the correct statements are: velocity, acceleration, and force are positive when \(3\text{ cm}\) away from A going towards B; velocity, acceleration, and force are negative when \(4\text{ cm}\) away from B going towards A; and acceleration and force are negative at point B.</p>
 <hr/>
-<p>चित्र में दर्शाए अनुसार एक कण \(10\text{ cm}\) दूर स्थित दो बिंदुओं A और B के बीच सरल रेखीय सरल आवर्त गति में है। A से B की दिशा को धनात्मक (+ve) दिशा मानकर सही कथनों का चयन कीजिए:</p>
-<p><img src="@@PLUGINFILE@@/img-5.jpeg" alt="सीधी रेखा पर बिंदु B, O, C, A" /></p>
-<p>\[\mathrm{AO} = \mathrm{OB} = 5\text{ cm}\]</p>
-<p>\[\mathrm{BC} = 8\text{ cm}\]</p>]]></text></questiontext>
-  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>
-Total path length between extremes A and B: \(AB = 10\text{ cm}\).
-Mean position is at O with \(AO = OB = 5\text{ cm}\), so amplitude is \(A = 5\text{ cm}\).
-Reference direction: From A to B is defined as the positive (+ve) direction.
-Looking at the line from left to right: point B is on the left, O is at the center, point C is between O and A, and point A is on the right.
-Since \(BC = 8\text{ cm}\) and \(OB = 5\text{ cm}\), point C is at distance \(OC = BC - OB = 8 - 5 = 3\text{ cm}\) from O towards A.
-Also, \(AC = OA - OC = 5 - 3 = 2\text{ cm}\).</p>
-<p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>
-Direction from A to B (right to left) is taken as POSITIVE (+ve).
-Consequently, the direction from B to A (left to right) is NEGATIVE (-ve).
-At equilibrium position O, \(x = 0\).
-Displacement towards B is positive: \(x_B = +5\text{ cm}\).
-Displacement towards A is negative: \(x_A = -5\text{ cm}\).
-At point C, displacement from O is towards A, so \(x_C = -3\text{ cm}\).
-Velocity \(v\) is positive when moving towards B, and negative when moving towards A.
-Acceleration is directed towards the equilibrium position O:
-\[a = -\omega^2 x\]
-Restoring force has the same sign as acceleration: \(F = ma = -m\omega^2 x\).</p>
-<p><strong>Step 3: Relevant Formulae and Principles</strong><br/>
-1. If the particle is moving towards B, \(v > 0\) (positive). If moving towards A, \(v < 0\) (negative).
-2. If displacement \(x < 0\) (particle is on the A side of O), acceleration and force are directed towards O (which is towards B, the +ve direction), so \(a > 0\) and \(F > 0\).
-3. If displacement \(x > 0\) (particle is on the B side of O), acceleration and force are directed towards O (which is towards A, the -ve direction), so \(a < 0\) and \(F < 0\).</p>
-<p><strong>Step 4: Step-by-Step Working</strong><br/>
-Analyzing each statement:
-1. When the particle is \(3\text{ cm}\) away from A going towards B:
-The distance from A is \(3\text{ cm}\) towards O, so its position is \(2\text{ cm}\) from O on the A side: displacement \(x = -2\text{ cm}\).
-Because it is moving towards B (the positive direction), its velocity is positive: \(v > 0\).
-Because \(x = -2\text{ cm} < 0\), the restoring acceleration and force act towards O (towards B), which is the positive direction: \(a > 0\) and \(F > 0\).
-Thus, velocity, acceleration, and force are all positive. This statement is true.
-2. At point C going towards O:
-Point C is on the A side, so moving from C towards O means moving towards B (the positive direction). Therefore, the velocity of the particle is positive, not negative. This statement is false.
-3. When the particle is \(4\text{ cm}\) away from B going towards A:
-The distance from B is \(4\text{ cm}\) towards O, so its position is \(1\text{ cm}\) from O on the B side: displacement \(x = +1\text{ cm}\).
-Because it is moving towards A, its velocity is in the negative direction: \(v < 0\).
-Because \(x = +1\text{ cm} > 0\), the restoring acceleration and force act towards O (towards A), which is the negative direction: \(a < 0\) and \(F < 0\).
-Thus, velocity, acceleration, and force are all negative. This statement is true.
-4. When the particle is at point B:
-At point B, displacement is positive maximum: \(x = +5\text{ cm}\).
-The restoring force and acceleration act towards the mean position O (which is towards A, the negative direction). Hence, both acceleration and force are negative. This statement is true.</p>
-<p><strong>Step 5: Check and Final Answer</strong><br/>
-With the positive direction defined from A to B:
-On the A side of O moving towards B, \(v > 0\), \(a > 0\), \(F > 0\).
-On the B side of O moving towards A, \(v < 0\), \(a < 0\), \(F < 0\).
-At point B, the particle experiences restoring acceleration and force directed towards O (negative direction).
-Therefore, the correct statements are:
-The sign of velocity, acceleration and force on the particle when it is \(3\text{ cm}\) away from A going towards B are positive;
-The sign of velocity, acceleration and force on the particle when it is \(4\text{ cm}\) away from B going towards A are negative;
-The sign of acceleration and force on the particle when it is at point B is negative.</p>
-<hr/>
-<p><strong>चरण 1: दिए गए आंकड़े और स्थितियाँ</strong><br/>
-A और B के बीच की कुल दूरी: \(AB = 10\text{ cm}\)।
-साम्यावस्था O पर \(AO = OB = 5\text{ cm}\) है, अतः आयाम \(A = 5\text{ cm}\) है।
-निर्देश दिशा: A से B की ओर की दिशा धनात्मक (+ve) ली गई है।
-अतः B से A की ओर की दिशा ऋणात्मक (-ve) है।
-बिंदु C, O से A की ओर \(3\text{ cm}\) की दूरी पर स्थित है।</p>
-<p><strong>चरण 2: मान्यताएँ और चिन्ह परिपाटी</strong><br/>
-O से B की ओर विस्थापन धनात्मक (\(x > 0\)) है तथा O से A की ओर विस्थापन ऋणात्मक (\(x < 0\)) है।
-B की ओर गति के लिए वेग धनात्मक (\(v > 0\)) तथा A की ओर गति के लिए वेग ऋणात्मक (\(v < 0\)) है।
-प्रत्यानयन त्वरण तथा बल सदैव माध्य स्थिति O की ओर निर्देशित होते हैं: \(a = -\omega^2 x\)।</p>
-<p><strong>चरण 3: संबंधित सूत्र और सिद्धांत</strong><br/>
-यदि कण A की तरफ है (\(x < 0\)), तो O की ओर दिशा धनात्मक दिशा है, अतः \(a > 0\) तथा \(F > 0\)।
-यदि कण B की तरफ है (\(x > 0\)), तो O की ओर दिशा ऋणात्मक दिशा है, अतः \(a < 0\) तथा \(F < 0\)।</p>
-<p><strong>चरण 4: चरणबद्ध हल</strong><br/>
-कथनों का विश्लेषण:
-1. जब कण A से \(3\text{ cm}\) दूर B की ओर जा रहा है: कण O से A की ओर स्थित है (\(x < 0\)) तथा B की ओर गतिमान है। अतः वेग धनात्मक है, तथा त्वरण व बल O की ओर (B की दिशा में) होने से धनात्मक हैं। यह कथन सत्य है।
-2. बिंदु C पर O की ओर गति: गति B की दिशा में है, अतः वेग धनात्मक होगा, ऋणात्मक नहीं। यह कथन असत्य है।
-3. जब कण B से \(4\text{ cm}\) दूर A की ओर जा रहा है: कण B की तरफ स्थित है (\(x > 0\)) तथा A की ओर गतिमान है। अतः वेग ऋणात्मक है, तथा त्वरण व बल O की ओर (A की दिशा में) होने से ऋणात्मक हैं। यह कथन सत्य है।
-4. जब कण बिंदु B पर है: विस्थापन अधिकतम धनात्मक है, अतः प्रत्यानयन बल और त्वरण O की ओर (ऋणात्मक दिशा में) निर्देशित हैं। यह कथन सत्य है।</p>
-<p><strong>चरण 5: जांच और अंतिम उत्तर</strong><br/>
-चिन्ह परिपाटी के अनुसार कण की गति की दिशा और त्वरण की दिशा का विश्लेषण पूर्णतः संगत है।
-अतः सत्य कथन हैं:
-A से \(3\text{ cm}\) दूर B की ओर जाते समय कण के वेग, त्वरण और बल के चिन्ह धनात्मक हैं;
-B से \(4\text{ cm}\) दूर A की ओर जाते समय कण के वेग, त्वरण और बल के चिन्ह ऋणात्मक हैं;
-बिंदु B पर कण के त्वरण और बल के चिन्ह ऋणात्मक हैं।</p>]]></text></generalfeedback>
+<p><strong>चरण 1: दिए गए आंकड़े और शर्तें</strong><br/>कण दो चरम बिंदुओं A और B के बीच दोलन करता है जहाँ \(\mathrm{AO} = \mathrm{OB} = 5\text{ cm}\) तथा \(\mathrm{BC} = 8\text{ cm}\) है, और O माध्य स्थिति है। अतः बिंदु C, A और O के बीच O से \(3\text{ cm}\) (तथा A से \(2\text{ cm}\)) की दूरी पर स्थित है।</p>
+<p><strong>चरण 2: मान्यताएँ और चिह्न परिपाटी</strong><br/>A से B की दिशा को धनात्मक तथा O को मूल बिंदु (\(x = 0\)) मानने पर, निर्देशांक \(x_A = -5\text{ cm}\), \(x_C = -3\text{ cm}\), तथा \(x_B = +5\text{ cm}\) हैं। A से B की ओर गति करने पर वेग \(v > 0\), तथा B से A की ओर गति करने पर \(v < 0\) होता है।</p>
+<p><strong>चरण 3: प्रासंगिक सूत्र और सिद्धांत</strong><br/>सरल आवर्त गति में त्वरण \(a = -\omega^2 x\) तथा प्रत्यानयन बल \(F = -kx = ma\) के चिह्न सदैव विस्थापन \(x\) के विपरीत होते हैं।</p>
+<p><strong>चरण 4: चरण-दर-चरण हल</strong><br/>1. A से \(3\text{ cm}\) दूर B की ओर जाते समय: \(x = -5 + 3 = -2\text{ cm} < 0\)। B की ओर गति के कारण \(v > 0\) है। चूँकि \(x < 0\), इसलिए \(a = -\omega^2 x > 0\) तथा \(F = -kx > 0\) है। अतः वेग, त्वरण और बल तीनों धनात्मक हैं।<br/>2. C पर O की ओर जाते समय: C (\(x = -3\text{ cm}\)) से O (\(x = 0\)) की ओर गति A से B की दिशा में है, इसलिए वेग धनात्मक है, ऋणात्मक नहीं।<br/>3. B से \(4\text{ cm}\) दूर A की ओर जाते समय: \(x = +5 - 4 = +1\text{ cm} > 0\)। A की ओर गति के कारण \(v < 0\) है। चूँकि \(x > 0\), इसलिए \(a = -\omega^2 x < 0\) तथा \(F = -kx < 0\) है। अतः वेग, त्वरण और बल तीनों ऋणात्मक हैं।<br/>4. बिंदु B पर: \(x = +5\text{ cm} > 0\), इसलिए \(a = -\omega^2 x < 0\) तथा \(F = -kx < 0\) है। अतः त्वरण और बल दोनों ऋणात्मक हैं।</p>
+<p><strong>चरण 5: जाँच और अंतिम उत्तर</strong><br/>अतः सही कथन ये हैं: A से \(3\text{ cm}\) दूर B की ओर जाते समय वेग, त्वरण और बल धनात्मक हैं; B से \(4\text{ cm}\) दूर A की ओर जाते समय वेग, त्वरण और बल ऋणात्मक हैं; तथा बिंदु B पर त्वरण और बल ऋणात्मक हैं।</p>]]></text></generalfeedback>
   <defaultgrade>4.0000000</defaultgrade>
   <penalty>0.2500000</penalty>
   <hidden>0</hidden>
@@ -1482,15 +686,14 @@ B से \(4\text{ cm}\) दूर A की ओर जाते समय कण
   <answer fraction="33.33333" format="html"><text><![CDATA[<p>The sign of acceleration and force on the particle when it is at point B is negative.</p>]]></text></answer>
   <tags>
     <tag><text>standard:neet_ug</text></tag>
-    <tag><text>year:2026</text></tag>
     <tag><text>lang:en</text></tag>
     <tag><text>lang:hi</text></tag>
     <tag><text>subject:physics</text></tag>
+    <tag><text>section:mcq_ii</text></tag>
     <tag><text>class:class_11</text></tag>
-    <tag><text>topic:oscillations</text></tag>
     <tag><text>chapter:oscillations</text></tag>
     <tag><text>typology:mcq</text></tag>
-    <tag><text>difficulty:hard</text></tag>
+    <tag><text>difficulty:medium</text></tag>
     <tag><text>blooms:analyze</text></tag>
     <tag><text>calculation:light</text></tag>
     <tag><text>media:diagram</text></tag>

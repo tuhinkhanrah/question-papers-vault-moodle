@@ -1,500 +1,331 @@
+<quiz>
 <question type="multichoice">
-  <name><text>NEET_UG_CHEMISTRY_BIOMOLECULES_MCQ_Q19 - Glycosidic linkages between glucose units</text></name>
-  <questiontext format="html">
-    <text><![CDATA[<p>Three structures are given below in which two glucose units are linked. Which of these linkages between glucose units are between C1 and C4 and which linkages are between C1 and C6?</p>
-<p><img src="@@PLUGINFILE@@/img-19.jpeg" alt="Linkages between glucose units" /></p>
-<hr/>
-<p>নিচে তিনটি গঠন দেওয়া হলো যেখানে দুটি করে গ্লুকোজ একক যুক্ত রয়েছে। গ্লুকোজ এককগুলির মধ্যে কোন বন্ধনগুলি C1 ও C4-এর মধ্যে এবং কোন বন্ধনগুলি C1 ও C6-এর মধ্যে অবস্থিত?</p>
-<p><img src="@@PLUGINFILE@@/img-19.jpeg" alt="গ্লুকোজ এককগুলির মধ্যবর্তী বন্ধন" /></p>]]></text>
-  </questiontext>
-  <generalfeedback format="html">
-    <text><![CDATA[<p><strong>Step 1: Conceptual Identification of Glycosidic Linkages</strong><br/>In cyclic glucopyranose rings, carbon atoms are numbered clockwise starting from the anomeric carbon as \(\text{C}1\), proceeding through \(\text{C}2\), \(\text{C}3\), \(\text{C}4\), \(\text{C}5\), to the exocyclic \(\text{CH}_2\text{OH}\) group as \(\text{C}6\).</p>
-<p><strong>Step 2: Analysis of Structures (I), (II), and (III)</strong><br/>- In Structure (I), linkage (A) joins \(\text{C}1\) of the first glucose unit to \(\text{C}4\) of the adjacent glucose unit, establishing a \(\text{C}1-\text{C}4\) glycosidic linkage.<br/>- In Structure (II), linkage (B) connects \(\text{C}1\) of the upper glucose ring to the exocyclic \(\text{C}6\) carbon (\(-\text{CH}_2-\)) of the lower glucose ring, establishing a \(\text{C}1-\text{C}6\) glycosidic linkage.<br/>- In Structure (III), linkage (C) connects \(\text{C}1\) of the lower glucose ring to \(\text{C}4\) of the upper glucose ring, establishing a \(\text{C}1-\text{C}4\) glycosidic linkage.</p>
-<p><strong>Step 3: Final Conclusion</strong><br/>Therefore, linkages (A) and (C) are between \(\text{C}1\) and \(\text{C}4\), whereas linkage (B) is between \(\text{C}1\) and \(\text{C}6\).</p>
-<hr/>
-<p><strong>ধাপ ১: গ্লাইকোসিডিক বন্ধন শনাক্তকরণের ধারণাগত নীতি</strong><br/>চক্রীয় গ্লুকোপাইরানোজ বলয়ে কার্বন পরমাণুগুলি অ্যানোমেরিক কার্বন \(\text{C}1\) থেকে শুরু করে ক্রমান্বয়ে \(\text{C}2\), \(\text{C}3\), \(\text{C}4\), \(\text{C}5\) এবং বলয়-বহির্ভূত \(\text{CH}_2\text{OH}\) মূলককে \(\text{C}6\) হিসেবে চিহ্নিত করা হয়।</p>
-<p><strong>ধাপ ২: গঠন (I), (II) এবং (III)-এর বিশ্লেষণ</strong><br/>- গঠন (I)-এ, (A) বন্ধনটি প্রথম গ্লুকোজ এককের \(\text{C}1\) কার্বনের সাথে পরবর্তী গ্লুকোজ এককের \(\text{C}4\) কার্বনকে যুক্ত করে, অর্থাৎ এটি একটি \(\text{C}1-\text{C}4\) বন্ধন।<br/>- গঠন (II)-তে, (B) বন্ধনটি ওপরের গ্লুকোজের \(\text{C}1\) কার্বনের সাথে নিচের গ্লুকোজের বলয়-বহির্ভূত \(\text{C}6\) কার্বনকে (\(-\text{CH}_2-\)) যুক্ত করে, অর্থাৎ এটি একটি \(\text{C}1-\text{C}6\) বন্ধন।<br/>- গঠন (III)-এ, (C) বন্ধনটি নিচের গ্লুকোজের \(\text{C}1\) কার্বনের সাথে ওপরের গ্লুকোজের \(\text{C}4\) কার্বনকে যুক্ত করে, অর্থাৎ এটি একটি \(\text{C}1-\text{C}4\) বন্ধন।</p>
-<p><strong>ধাপ ৩: চূড়ান্ত সিদ্ধান্ত</strong><br/>অতএব, (A) ও (C) বন্ধন দুটি \(\text{C}1\) ও \(\text{C}4\)-এর মধ্যে এবং (B) বন্ধনটি \(\text{C}1\) ও \(\text{C}6\)-এর মধ্যে অবস্থিত।</p>]]></text>
-  </generalfeedback>
+  <name><text>NEET_UG_CHEMISTRY_BIOMOLECULES_MCQ_Q19 - Glycosidic linkages in three disaccharide structures</text></name>
+  <questiontext format="html"><text><![CDATA[<p>Three structures are given below in which two glucose units are linked. Which of these linkages between glucose units are between \(\mathrm{C}1\) and \(\mathrm{C}4\) and which linkages are between \(\mathrm{C}1\) and \(\mathrm{C}6\)?</p><p><img src="@@PLUGINFILE@@/img-19.jpeg" alt="Three disaccharide structures (I), (II), and (III) showing glycosidic linkages (A), (B), and (C)" /></p><hr/><p>নিচে তিনটি গঠন দেওয়া হয়েছে যেখানে দুটি গ্লুকোজ একক পরস্পর যুক্ত রয়েছে। গ্লুকোজ এককগুলোর মধ্যে এই বন্ধনগুলোর কোনটি \(\mathrm{C}1\) এবং \(\mathrm{C}4\)-এর মধ্যে এবং কোনটি \(\mathrm{C}1\) এবং \(\mathrm{C}6\)-এর মধ্যে অবস্থিত?</p><p><img src="@@PLUGINFILE@@/img-19.jpeg" alt="Three disaccharide structures (I), (II), and (III) showing glycosidic linkages (A), (B), and (C)" /></p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>Three disaccharide structures labeled (I), (II), and (III) are shown, each consisting of two \(\alpha\)-D-glucopyranose units joined by an oxygen glycosidic bridge labeled (A), (B), and (C) respectively.</p><p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>In a glucopyranose ring, the carbon atoms are numbered clockwise starting from the anomeric carbon adjacent to the ring oxygen (\(\mathrm{C}1\)), followed by \(\mathrm{C}2\), \(\mathrm{C}3\), \(\mathrm{C}4\), \(\mathrm{C}5\), and the exocyclic \(-\mathrm{CH_2OH}\) carbon as \(\mathrm{C}6\).</p><p><strong>Step 3: Relevant Formulae and Principles</strong><br/>A glycosidic linkage joins the anomeric carbon (\(\mathrm{C}1\)) of one monosaccharide unit to a hydroxyl-bearing carbon (such as \(\mathrm{C}4\) or \(\mathrm{C}6\)) of the second monosaccharide unit through an oxygen atom.</p><p><strong>Step 4: Step-by-Step Working</strong><br/>In structure (I), the oxygen bridge (A) connects \(\mathrm{C}1\) of the left glucose ring to \(\mathrm{C}4\) of the right glucose ring.<br/>In structure (II), the oxygen bridge (B) connects \(\mathrm{C}1\) of the upper glucose ring to the exocyclic \(-\mathrm{CH_2}-\) group (\(\mathrm{C}6\)) of the lower glucose ring.<br/>In structure (III), the oxygen bridge (C) connects \(\mathrm{C}1\) of the lower-left glucose ring to \(\mathrm{C}4\) of the upper-right glucose ring.</p><p><strong>Step 5: Check and Final Answer</strong><br/>Verifying the ring numbering confirms that linkages (A) and (C) are \(\mathrm{C}1\text{--}\mathrm{C}4\) glycosidic linkages, whereas linkage (B) is a \(\mathrm{C}1\text{--}\mathrm{C}6\) glycosidic linkage.</p><hr/><p><strong>ধাপ ১: প্রদত্ত তথ্য ও শর্তাবলি</strong><br/>(I), (II) এবং (III) চিহ্নিত তিনটি ডাইস্যাকারাইড গঠন দেওয়া হয়েছে, যেখানে প্রতিটিতে দুটি \(\alpha\)-D-গ্লুকোপাইরানোজ একক যথাক্রমে (A), (B) এবং (C) চিহ্নিত অক্সিজেন গ্লাইকোসাইডিক সেতুর মাধ্যমে যুক্ত রয়েছে।</p><p><strong>ধাপ ২: অনুমান ও চিহ্ন প্রথা</strong><br/>গ্লুকোপাইরানোজ বলয়ে, বলয়ের অক্সিজেন পরমাণুর সংলগ্ন অ্যানোমেরিক কার্বন থেকে ঘড়ির কাঁটার দিকে কার্বন পরমাণুগুলোকে যথাক্রমে \(\mathrm{C}1\), \(\mathrm{C}2\), \(\mathrm{C}3\), \(\mathrm{C}4\), \(\mathrm{C}5\) এবং বহিঃস্থ \(-\mathrm{CH_2OH}\) কার্বনকে \(\mathrm{C}6\) হিসেবে চিহ্নিত করা হয়।</p><p><strong>ধাপ ৩: প্রাসঙ্গিক সূত্র ও নীতি</strong><br/>একটি গ্লাইকোসাইডিক বন্ধন একটি মনোস্যাকারাইড এককের অ্যানোমেরিক কার্বন (\(\mathrm{C}1\)-কে) অক্সিজেন পরমাণুর মাধ্যমে দ্বিতীয় মনোস্যাকারাইড এককের হাইড্রক্সিল-যুক্ত কার্বনের (যেমন \(\mathrm{C}4\) বা \(\mathrm{C}6\)) সাথে যুক্ত করে।</p><p><strong>ধাপ ৪: ধাপে ধাপে সমাধান</strong><br/>(I) গঠনে, অক্সিজেন সেতু (A) বাম দিকের গ্লুকোজ বলয়ের \(\mathrm{C}1\)-কে ডান দিকের গ্লুকোজ বলয়ের \(\mathrm{C}4\)-এর সাথে যুক্ত করে।<br/>(II) গঠনে, অক্সিজেন সেতু (B) উপরের গ্লুকোজ বলয়ের \(\mathrm{C}1\)-কে নিচের গ্লুকোজ বলয়ের বহিঃস্থ \(-\mathrm{CH_2}-\) মূলক (\(\mathrm{C}6\))-এর সাথে যুক্ত করে।<br/>(III) গঠনে, অক্সিজেন সেতু (C) নিচের-বাম গ্লুকোজ বলয়ের \(\mathrm{C}1\)-কে উপরের-ডান গ্লুকোজ বলয়ের \(\mathrm{C}4\)-এর সাথে যুক্ত করে।</p><p><strong>ধাপ ৫: যাচাই ও চূড়ান্ত উত্তর</strong><br/>বলয়ের সংখ্যায়ন যাচাই করে নিশ্চিত হওয়া যায় যে (A) এবং (C) বন্ধন দুটি \(\mathrm{C}1\) এবং \(\mathrm{C}4\)-এর মধ্যে অবস্থিত, আর (B) বন্ধনটি \(\mathrm{C}1\) এবং \(\mathrm{C}6\)-এর মধ্যে অবস্থিত।</p>]]></text></generalfeedback>
   <defaultgrade>4.0000000</defaultgrade>
   <penalty>0.2500000</penalty>
   <hidden>0</hidden>
   <single>true</single>
   <shuffleanswers>true</shuffleanswers>
   <answernumbering>iii</answernumbering>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>(A) is between C1 and C4, (B) and (C) are between C1 and C6</p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>(A) and (B) are between C1 and C4, (C) is between C1 and C6</p>]]></text>
-  </answer>
-  <answer fraction="100" format="html">
-    <text><![CDATA[<p>(A) and (C) are between C1 and C4, (B) is between C1 and C6</p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>(A) and (C) are between C1 and C6, (B) is between C1 and C4</p>]]></text>
-  </answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>(A) is between \(\mathrm{C}1\) and \(\mathrm{C}4\), (B) and (C) are between \(\mathrm{C}1\) and \(\mathrm{C}6\)</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>(A) and (B) are between \(\mathrm{C}1\) and \(\mathrm{C}4\), (C) is between \(\mathrm{C}1\) and \(\mathrm{C}6\)</p>]]></text></answer>
+  <answer fraction="100" format="html"><text><![CDATA[<p>(A) and (C) are between \(\mathrm{C}1\) and \(\mathrm{C}4\), (B) is between \(\mathrm{C}1\) and \(\mathrm{C}6\)</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>(A) and (C) are between \(\mathrm{C}1\) and \(\mathrm{C}6\), (B) is between \(\mathrm{C}1\) and \(\mathrm{C}4\)</p>]]></text></answer>
   <tags>
     <tag><text>standard:neet_ug</text></tag>
     <tag><text>lang:en</text></tag>
     <tag><text>lang:bn</text></tag>
     <tag><text>subject:chemistry</text></tag>
     <tag><text>class:class_12</text></tag>
-    <tag><text>topic:biomolecules</text></tag>
     <tag><text>chapter:biomolecules</text></tag>
-    <tag><text>typology:single_choice</text></tag>
+    <tag><text>typology:mcq</text></tag>
     <tag><text>difficulty:medium</text></tag>
     <tag><text>blooms:analyze</text></tag>
+    <tag><text>calculation:light</text></tag>
     <tag><text>media:diagram</text></tag>
     <tag><text>multiconcept:false</text></tag>
   </tags>
 </question>
+
 <question type="multichoice">
-  <name><text>NEET_UG_CHEMISTRY_BIOMOLECULES_MCQ_Q20 - Classification of sucrose as disaccharide and non reducing sugar</text></name>
-  <questiontext format="html">
-    <text><![CDATA[<p>Carbohydrates are classified on the basis of their behaviour on hydrolysis and also as reducing or non-reducing sugar. Sucrose is a</p>
-<hr/>
-<p>কার্বোহাইড্রেটগুলিকে আর্দ্রবিশ্লেষণের আচরণের ওপর ভিত্তি করে এবং বিজারক বা অবিজারক চিনি হিসেবে শ্রেণিভুক্ত করা হয়। সুক্রোজ হলো একটি</p>]]></text>
-  </questiontext>
-  <generalfeedback format="html">
-    <text><![CDATA[<p><strong>Step 1: Classification by Hydrolysis</strong><br/>Sucrose upon hydrolysis yields two monosaccharide units (one molecule of D-glucose and one molecule of D-fructose). Hence, sucrose is classified as a disaccharide.</p>
-<p><strong>Step 2: Classification by Reducing Ability</strong><br/>In sucrose, the glycosidic bond links the anomeric carbon of glucose (\(\text{C}1\)) directly to the anomeric carbon of fructose (\(\text{C}2\)). Because both reducing functional centers are involved in the linkage, no free aldehyde or ketone group can be exposed in solution. As a result, sucrose cannot reduce Tollens' or Fehling's reagents and is classified as a non-reducing sugar.</p>
-<p><strong>Step 3: Final Conclusion</strong><br/>Therefore, sucrose is both a disaccharide and a non-reducing sugar.</p>
-<hr/>
-<p><strong>ধাপ ১: আর্দ্রবিশ্লেষণের ভিত্তিতে শ্রেণিবিভাগ</strong><br/>সুক্রোজ আর্দ্রবিশ্লেষিত হয়ে দুটি মনোস্যাকারাইড একক (এক অণু D-গ্লুকোজ এবং এক অণু D-ফ্রুক্টোজ) উৎপন্ন করে। সুতরাং সুক্রোজ একটি ডাইস্যাকারাইড।</p>
-<p><strong>ধাপ ২: বিজারণ ক্ষমতার ভিত্তিতে শ্রেণিবিভাগ</strong><br/>সুক্রোজে গ্লুকোজের অ্যানোমেরিক কার্বন (\(\text{C}1\)) এবং ফ্রুক্টোজের অ্যানোমেরিক কার্বনের (\(\text{C}2\)) মধ্যে গ্লাইকোসিডিক বন্ধন গঠিত হয়। উভয় বিজারক কেন্দ্র বন্ধনে আবদ্ধ থাকায় কোনো মুক্ত কার্যকরী মূলক তৈরি হতে পারে না। ফলে এটি টলেন্স বা ফেলিং দ্রবণকে বিজারিত করে না এবং এটি একটি অবিজারক চিনি (নন-রিডিউসিং সুগার)।</p>
-<p><strong>ধাপ ৩: চূড়ান্ত সিদ্ধান্ত</strong><br/>অতএব, সুক্রোজ হলো একটি ডাইস্যাকারাইড এবং একটি অবিজারক চিনি।</p>]]></text>
-  </generalfeedback>
+  <name><text>NEET_UG_CHEMISTRY_BIOMOLECULES_MCQ_Q20 - Classification and reducing nature of sucrose</text></name>
+  <questiontext format="html"><text><![CDATA[<p>Carbohydrates are classified on the basis of their behaviour on hydrolysis and also as reducing or non-reducing sugar. Sucrose is a</p><hr/><p>হাইড্রোলাইসিসের আচরণের ভিত্তিতে এবং বিজারক বা অ-বিজারক শর্করা হিসেবে কার্বোহাইড্রেটকে শ্রেণিবদ্ধ করা হয়। সুক্রোজ হলো একটি</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>Carbohydrates that yield two monosaccharide units upon hydrolysis are called disaccharides. A sugar is reducing only if it possesses a free aldehydic or ketonic (hemiacetal or hemiketal) group.</p><p><strong>Step 2: Evaluation</strong><br/>Upon hydrolysis, one molecule of sucrose yields an equimolar mixture of \(\mathrm{D}\)-(+)-glucose and \(\mathrm{D}\)-(&minus;)-fructose, confirming that it is composed of two monosaccharide units.</p><p><strong>Step 3: Application</strong><br/>In sucrose, the glycosidic linkage is formed between \(\mathrm{C}1\) of \(\alpha\)-D-glucose and \(\mathrm{C}2\) of \(\beta\)-D-fructose. Because the reducing groups (both anomeric carbons) of glucose and fructose are involved in glycosidic bond formation, neither ring can open to expose a free carbonyl group.</p><p><strong>Step 4: Final Conclusion</strong><br/>Therefore, sucrose is both a disaccharide and a non-reducing sugar.</p><hr/><p><strong>ধাপ ১: ধারণাগত নীতি</strong><br/>যেসব কার্বোহাইড্রেট হাইড্রোলাইসিসের মাধ্যমে দুটি মনোস্যাকারাইড একক উৎপন্ন করে তাদের ডাইস্যাকারাইড বলে। কোনো শর্করা কেবল তখনই বিজারক হয় যখন তাতে একটি মুক্ত অ্যালডিহাইডিক বা কিটোনিক (হেমিঅ্যাসিটাল বা হেমিকিটাল) মূলক উপস্থিত থাকে।</p><p><strong>ধাপ ২: মূল্যায়ন</strong><br/>হাইড্রোলাইসিসে, এক অণু সুক্রোজ থেকে সমমোলার \(\mathrm{D}\)-(+)-গ্লুকোজ এবং \(\mathrm{D}\)-(&minus;)-ফ্রুক্টোজের মিশ্রণ পাওয়া যায়, যা প্রমাণ করে এটি দুটি মনোস্যাকারাইড একক দ্বারা গঠিত।</p><p><strong>ধাপ ৩: প্রয়োগ</strong><br/>সুক্রোজে, \(\alpha\)-D-গ্লুকোজের \(\mathrm{C}1\) এবং \(\beta\)-D-ফ্রুক্টোজের \(\mathrm{C}2\)-এর মধ্যে গ্লাইকোসাইডিক বন্ধন গঠিত হয়। গ্লুকোজ ও ফ্রুক্টোজের উভয় বিজারক মূলক (অ্যানোমেরিক কার্বন) গ্লাইকোসাইডিক বন্ধন গঠনে ব্যবহৃত হওয়ায় কোনো বলয়ই খুলে মুক্ত কার্বনিল মূলক তৈরি করতে পারে না।</p><p><strong>ধাপ ৪: চূড়ান্ত সিদ্ধান্ত</strong><br/>সুতরাং, সুক্রোজ একটি ডাইস্যাকারাইড এবং একটি অ-বিজারক শর্করা।</p>]]></text></generalfeedback>
   <defaultgrade>4.0000000</defaultgrade>
   <penalty>0.2500000</penalty>
   <hidden>0</hidden>
   <single>false</single>
   <shuffleanswers>true</shuffleanswers>
   <answernumbering>iii</answernumbering>
-  <answer fraction="-50" format="html">
-    <text><![CDATA[<p>monosaccharide</p>]]></text>
-  </answer>
-  <answer fraction="50" format="html">
-    <text><![CDATA[<p>disaccharide</p>]]></text>
-  </answer>
-  <answer fraction="-50" format="html">
-    <text><![CDATA[<p>reducing sugar</p>]]></text>
-  </answer>
-  <answer fraction="50" format="html">
-    <text><![CDATA[<p>non-reducing sugar</p>]]></text>
-  </answer>
+  <answer fraction="-50" format="html"><text><![CDATA[<p>monosaccharide</p>]]></text></answer>
+  <answer fraction="50" format="html"><text><![CDATA[<p>disaccharide</p>]]></text></answer>
+  <answer fraction="-50" format="html"><text><![CDATA[<p>reducing sugar</p>]]></text></answer>
+  <answer fraction="50" format="html"><text><![CDATA[<p>non-reducing sugar</p>]]></text></answer>
   <tags>
     <tag><text>standard:neet_ug</text></tag>
     <tag><text>lang:en</text></tag>
     <tag><text>lang:bn</text></tag>
     <tag><text>subject:chemistry</text></tag>
     <tag><text>class:class_12</text></tag>
-    <tag><text>topic:biomolecules</text></tag>
     <tag><text>chapter:biomolecules</text></tag>
-    <tag><text>typology:multiple_choice</text></tag>
+    <tag><text>typology:mcq</text></tag>
     <tag><text>difficulty:easy</text></tag>
     <tag><text>blooms:understand</text></tag>
+    <tag><text>calculation:light</text></tag>
     <tag><text>media:text</text></tag>
-    <tag><text>multiconcept:false</text></tag>
+    <tag><text>multiconcept:true</text></tag>
   </tags>
 </question>
+
 <question type="multichoice">
-  <name><text>NEET_UG_CHEMISTRY_BIOMOLECULES_MCQ_Q21 - Identification of globular proteins</text></name>
-  <questiontext format="html">
-    <text><![CDATA[<p>Proteins can be classified into two types on the basis of their molecular shape i.e., fibrous proteins and globular proteins. Examples of globular proteins are :</p>
-<hr/>
-<p>আণবিক আকৃতির ওপর ভিত্তি করে প্রোটিনগুলিকে দুটি ভাগে ভাগ করা যায়, যথা—তন্তুময় প্রোটিন এবং বর্তুলাকার প্রোটিন। বর্তুলাকার (গ্লোবিউলার) প্রোটিনের উদাহরণ হলো :</p>]]></text>
-  </questiontext>
-  <generalfeedback format="html">
-    <text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>Globular proteins result when polypeptide chains fold tightly into compact spherical or spheroidal shapes. They possess hydrophilic amino acid residues on their surfaces, rendering them generally soluble in aqueous media. In contrast, fibrous proteins consist of linear polypeptide chains aligned parallel to one another and held by intermolecular hydrogen and disulfide bonds, rendering them water-insoluble.</p>
-<p><strong>Step 2: Evaluation of the Examples</strong><br/>- Insulin and albumin fold into compact spherical structures and dissolve in water; they are globular proteins.<br/>- Keratin (present in hair and nails) and myosin (present in muscles) form elongated insoluble fibers; they are fibrous proteins.</p>
-<p><strong>Step 3: Final Conclusion</strong><br/>Hence, insulin and albumin are examples of globular proteins.</p>
-<hr/>
-<p><strong>ধাপ ১: ধারণাগত নীতি</strong><br/>বর্তুলাকার (গ্লোবিউলার) প্রোটিনে পলিপেপটাইড শৃঙ্খলগুলি কুন্ডলীকৃত হয়ে একটি নিবিড় গোলকাকার আকৃতি ধারণ করে। এদের বহির্ভাগে হাইড্রোফিলিক মূলক থাকায় এরা সাধারণত জলে দ্রবণীয় হয়। পক্ষান্তরে, তন্তুময় প্রোটিনে শৃঙ্খলগুলি সমান্তরালভাবে সজ্জিত থাকে এবং এরা জলে অদ্রবণীয় হয়।</p>
-<p><strong>ধাপ ২: উদাহরণগুলির মূল্যায়ন</strong><br/>- ইনসুলিন এবং অ্যালবুমিন গোলকাকার কাঠামো গঠন করে এবং জলে দ্রবীভূত হয়; এরা বর্তুলাকার প্রোটিন।<br/>- কেরাটিন (চুল ও নখে উপস্থিত) এবং মায়োসিন (পেশিতে উপস্থিত) দীর্ঘায়িত অদ্রবণীয় তন্তু গঠন করে; এরা তন্তুময় প্রোটিন।</p>
-<p><strong>ধাপ ৩: চূড়ান্ত সিদ্ধান্ত</strong><br/>অতএব, ইনসুলিন এবং অ্যালবুমিন হলো বর্তুলাকার প্রোটিনের উদাহরণ।</p>]]></text>
-  </generalfeedback>
+  <name><text>NEET_UG_CHEMISTRY_BIOMOLECULES_MCQ_Q21 - Examples of globular proteins</text></name>
+  <questiontext format="html"><text><![CDATA[<p>Proteins can be classified into two types on the basis of their molecular shape i.e., fibrous proteins and globular proteins. Examples of globular proteins are :</p><hr/><p>আণবিক আকৃতির ভিত্তিতে প্রোটিনকে দুই ভাগে ভাগ করা যায়, যথা— তন্তুময় প্রোটিন এবং গ্লোবিউলার (গোলকাকার) প্রোটিন। গ্লোবিউলার প্রোটিনের উদাহরণ হলো :</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>Globular proteins are formed when polypeptide chains coil around to give a spherical shape, and they are generally soluble in water. Fibrous proteins have polypeptide chains running parallel and held together by hydrogen and disulphide bonds, forming fibre-like structures that are generally insoluble in water.</p><p><strong>Step 2: Evaluation</strong><br/>Insulin (a peptide hormone) and albumin (found in egg white and blood plasma) have compact, spherical three-dimensional structures and are water-soluble.<br/>Keratin (present in hair, wool, silk) and myosin (present in muscles) have elongated, thread-like structures.</p><p><strong>Step 3: Application</strong><br/>Applying the molecular shape classification, insulin and albumin fall under globular proteins, whereas keratin and myosin are fibrous proteins.</p><p><strong>Step 4: Final Conclusion</strong><br/>Thus, insulin and albumin are examples of globular proteins.</p><hr/><p><strong>ধাপ ১: ধারণাগত নীতি</strong><br/>পলিপেপটাইড শৃঙ্খলগুলো কুণ্ডলীকৃত হয়ে গোলাকার আকৃতি ধারণ করলে গ্লোবিউলার প্রোটিন গঠিত হয় এবং এরা সাধারণত জলে দ্রবণীয়। তন্তুময় প্রোটিনে পলিপেপটাইড শৃঙ্খলগুলো সমান্তরালভাবে থাকে এবং হাইড্রোজেন ও ডাইসালফাইড বন্ধন দ্বারা যুক্ত হয়ে তন্তুর মতো গঠন তৈরি করে, যা সাধারণত জলে অদ্রবণীয়।</p><p><strong>ধাপ ২: মূল্যায়ন</strong><br/>ইনসুলিন (একটি পেপটাইড হরমোন) এবং অ্যালবুমিন (ডিমের সাদা অংশ ও রক্তরসে উপস্থিত) সংকুচিত, গোলাকার ত্রিমাত্রিক গঠনবিশিষ্ট এবং জলে দ্রবণীয়।<br/>কেরাটিন (চুল, পশম, রেশমে উপস্থিত) এবং মায়োসিন (পেশিতে উপস্থিত) দীর্ঘ, সুতোর মতো গঠনবিশিষ্ট।</p><p><strong>ধাপ ৩: প্রয়োগ</strong><br/>আণবিক আকৃতির শ্রেণিবিন্যাস অনুযায়ী, ইনসুলিন ও অ্যালবুমিন হলো গ্লোবিউলার প্রোটিন, অন্যদিকে কেরাটিন ও মায়োসিন হলো তন্তুময় প্রোটিন।</p><p><strong>ধাপ ৪: চূড়ান্ত সিদ্ধান্ত</strong><br/>অতএব, ইনসুলিন এবং অ্যালবুমিন হলো গ্লোবিউলার প্রোটিনের উদাহরণ।</p>]]></text></generalfeedback>
   <defaultgrade>4.0000000</defaultgrade>
   <penalty>0.2500000</penalty>
   <hidden>0</hidden>
   <single>false</single>
   <shuffleanswers>true</shuffleanswers>
   <answernumbering>iii</answernumbering>
-  <answer fraction="50" format="html">
-    <text><![CDATA[<p>Insulin</p>]]></text>
-  </answer>
-  <answer fraction="-50" format="html">
-    <text><![CDATA[<p>Keratin</p>]]></text>
-  </answer>
-  <answer fraction="50" format="html">
-    <text><![CDATA[<p>Albumin</p>]]></text>
-  </answer>
-  <answer fraction="-50" format="html">
-    <text><![CDATA[<p>Myosin</p>]]></text>
-  </answer>
+  <answer fraction="50" format="html"><text><![CDATA[<p>Insulin</p>]]></text></answer>
+  <answer fraction="-50" format="html"><text><![CDATA[<p>Keratin</p>]]></text></answer>
+  <answer fraction="50" format="html"><text><![CDATA[<p>Albumin</p>]]></text></answer>
+  <answer fraction="-50" format="html"><text><![CDATA[<p>Myosin</p>]]></text></answer>
   <tags>
     <tag><text>standard:neet_ug</text></tag>
     <tag><text>lang:en</text></tag>
     <tag><text>lang:bn</text></tag>
     <tag><text>subject:chemistry</text></tag>
     <tag><text>class:class_12</text></tag>
-    <tag><text>topic:biomolecules</text></tag>
     <tag><text>chapter:biomolecules</text></tag>
-    <tag><text>typology:multiple_choice</text></tag>
+    <tag><text>typology:mcq</text></tag>
     <tag><text>difficulty:easy</text></tag>
     <tag><text>blooms:remember</text></tag>
+    <tag><text>calculation:light</text></tag>
     <tag><text>media:text</text></tag>
     <tag><text>multiconcept:false</text></tag>
   </tags>
 </question>
+
 <question type="multichoice">
-  <name><text>NEET_UG_CHEMISTRY_BIOMOLECULES_MCQ_Q22 - Branched chain polymers of glucose</text></name>
-  <questiontext format="html">
-    <text><![CDATA[<p>Which of the following carbohydrates are branched polymer of glucose?</p>
-<hr/>
-<p>নিচের কোন কার্বোহাইড্রেটগুলি গ্লুকোজের শাখাযুক্ত পলিমার?</p>]]></text>
-  </questiontext>
-  <generalfeedback format="html">
-    <text><![CDATA[<p><strong>Step 1: Structural Principles of Polysaccharides</strong><br/>Polysaccharides of glucose can exist either as linear, unbranched chains or as branched polymeric networks containing primary backbone linkages and branch-point linkages.</p>
-<p><strong>Step 2: Evaluation of Options</strong><br/>- Amylose is a linear, unbranched chain of \(\alpha\)-D-glucose linked solely by \(\alpha\)-(1\(\rightarrow\)4) glycosidic bonds.<br/>- Cellulose is an unbranched linear polymer of \(\beta\)-D-glucose joined exclusively by \(\beta\)-(1\(\rightarrow\)4) glycosidic bonds.<br/>- Amylopectin is a branched polymer of \(\alpha\)-D-glucose containing \(\alpha\)-(1\(\rightarrow\)4) linear linkages and \(\alpha\)-(1\(\rightarrow\)6) branch points.<br/>- Glycogen is also a branched polymer of \(\alpha\)-D-glucose containing \(\alpha\)-(1\(\rightarrow\)4) linear linkages and \(\alpha\)-(1\(\rightarrow\)6) branch points, with an even higher branching frequency than amylopectin.</p>
-<p><strong>Step 3: Final Conclusion</strong><br/>Therefore, amylopectin and glycogen are branched polymers of glucose.</p>
-<hr/>
-<p><strong>ধাপ ১: পলিস্যাকারাইডের কাঠামোগত নীতি</strong><br/>গ্লুকোজের পলিস্যাকারাইডগুলি সরল রৈখিক শাখাহীন শৃঙ্খল অথবা শাখা বিশিষ্ট পলিমারিক জালক হিসেবে থাকতে পারে।</p>
-<p><strong>ধাপ ২: বিকল্পগুলির মূল্যায়ন</strong><br/>- অ্যামাইলোজ হলো \(\alpha\)-D-গ্লুকোজের একটি শাখাহীন রৈখিক পলিমার যা কেবল \(\alpha\)-(1\(\rightarrow\)4) বন্ধন ধারণ করে।<br/>- সেলুলোজ হলো \(\beta\)-D-গ্লুকোজের একটি শাখাহীন রৈখিক পলিমার যা কেবল \(\beta\)-(1\(\rightarrow\)4) বন্ধন ধারণ করে।<br/>- অ্যামাইলোপেকটিন হলো \(\alpha\)-D-গ্লুকোজের একটি শাখাযুক্ত পলিমার যাতে \(\alpha\)-(1\(\rightarrow\)4) শৃঙ্খলের পাশাপাশি \(\alpha\)-(1\(\rightarrow\)6) শাখা বন্ধন থাকে।<br/>- গ্লাইকোজেনও হলো \(\alpha\)-D-গ্লুকোজের একটি শাখাযুক্ত পলিমার যা অ্যামাইলোপেকটিনের চেয়েও অধিক শাখাযুক্ত।</p>
-<p><strong>ধাপ ৩: চূড়ান্ত সিদ্ধান্ত</strong><br/>অতএব, অ্যামাইলোপেকটিন এবং গ্লাইকোজেন হলো গ্লুকোজের শাখাযুক্ত পলিমার।</p>]]></text>
-  </generalfeedback>
+  <name><text>NEET_UG_CHEMISTRY_BIOMOLECULES_MCQ_Q22 - Branched polymers of glucose among carbohydrates</text></name>
+  <questiontext format="html"><text><![CDATA[<p>Which of the following carbohydrates are branched polymer of glucose?</p><hr/><p>নিচের কোন কার্বোহাইড্রেটগুলো গ্লুকোজের শাখাযুক্ত পলিমার?</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>Polysaccharides of glucose can be linear (unbranched) or branched depending on whether they contain only \(\mathrm{C}1\text{--}\mathrm{C}4\) glycosidic linkages or both \(\mathrm{C}1\text{--}\mathrm{C}4\) chain linkages and \(\mathrm{C}1\text{--}\mathrm{C}6\) branching linkages.</p><p><strong>Step 2: Evaluation</strong><br/>Amylose is a long, unbranched linear chain of \(\alpha\)-D-(+)-glucose units held by \(\mathrm{C}1\text{--}\mathrm{C}4\) glycosidic linkages.<br/>Cellulose is a straight-chain polysaccharide composed solely of \(\beta\)-D-glucose units joined by \(\mathrm{C}1\text{--}\mathrm{C}4\) glycosidic linkages.<br/>Amylopectin is a branched-chain polymer of \(\alpha\)-D-glucose units in which the main chain has \(\mathrm{C}1\text{--}\mathrm{C}4\) linkages and branching occurs via \(\mathrm{C}1\text{--}\mathrm{C}6\) linkages.<br/>Glycogen (animal starch) has a structure similar to amylopectin but is even more highly branched.</p><p><strong>Step 3: Application</strong><br/>Comparing the structural features, amylopectin and glycogen possess \(\mathrm{C}1\text{--}\mathrm{C}6\) branch points, whereas amylose and cellulose are strictly linear.</p><p><strong>Step 4: Final Conclusion</strong><br/>Therefore, amylopectin and glycogen are branched polymers of glucose.</p><hr/><p><strong>ধাপ ১: ধারণাগত নীতি</strong><br/>গ্লুকোজের পলিস্যাকারাইডগুলোতে কেবল \(\mathrm{C}1\text{--}\mathrm{C}4\) গ্লাইকোসাইডিক বন্ধন আছে নাকি মূল শৃঙ্খলে \(\mathrm{C}1\text{--}\mathrm{C}4\) এবং শাখা গঠনে \(\mathrm{C}1\text{--}\mathrm{C}6\) বন্ধন রয়েছে, তার ওপর ভিত্তি করে সেগুলো সরলরৈখিক (শাখাহীন) বা শাখাযুক্ত হয়।</p><p><strong>ধাপ ২: মূল্যায়ন</strong><br/>অ্যামাইলোজ হলো \(\alpha\)-D-(+)-গ্লুকোজ এককের একটি দীর্ঘ, শাখাহীন সরলরৈখিক শৃঙ্খল যা \(\mathrm{C}1\text{--}\mathrm{C}4\) গ্লাইকোসাইডিক বন্ধন দ্বারা যুক্ত।<br/>সেলুলোজ হলো কেবল \(\beta\)-D-গ্লুকোজ একক দিয়ে গঠিত একটি সরলরৈখিক পলিস্যাকারাইড যা \(\mathrm{C}1\text{--}\mathrm{C}4\) গ্লাইকোসাইডিক বন্ধন দ্বারা যুক্ত।<br/>অ্যামাইলোপেকটিন হলো \(\alpha\)-D-গ্লুকোজ এককের একটি শাখাযুক্ত পলিমার যেখানে মূল শৃঙ্খলে \(\mathrm{C}1\text{--}\mathrm{C}4\) বন্ধন এবং শাখাগুলোতে \(\mathrm{C}1\text{--}\mathrm{C}6\) বন্ধন থাকে।<br/>গ্লাইকোজেন (প্রাণীজ শ্বেতসার)-এর গঠন অ্যামাইলোপেকটিনের মতো, তবে এটি আরও বেশি শাখাযুক্ত।</p><p><strong>ধাপ ৩: প্রয়োগ</strong><br/>গঠনগত বৈশিষ্ট্য তুলনা করলে দেখা যায়, অ্যামাইলোপেকটিন ও গ্লাইকোজেনে \(\mathrm{C}1\text{--}\mathrm{C}6\) শাখা বিন্দু রয়েছে, যেখানে অ্যামাইলোজ ও সেলুলোজ সম্পূর্ণ সরলরৈখিক।</p><p><strong>ধাপ ৪: চূড়ান্ত সিদ্ধান্ত</strong><br/>সুতরাং, অ্যামাইলোপেকটিন এবং গ্লাইকোজেন হলো গ্লুকোজের শাখাযুক্ত পলিমার।</p>]]></text></generalfeedback>
   <defaultgrade>4.0000000</defaultgrade>
   <penalty>0.2500000</penalty>
   <hidden>0</hidden>
   <single>false</single>
   <shuffleanswers>true</shuffleanswers>
   <answernumbering>iii</answernumbering>
-  <answer fraction="-50" format="html">
-    <text><![CDATA[<p>Amylose</p>]]></text>
-  </answer>
-  <answer fraction="50" format="html">
-    <text><![CDATA[<p>Amylopectin</p>]]></text>
-  </answer>
-  <answer fraction="-50" format="html">
-    <text><![CDATA[<p>Cellulose</p>]]></text>
-  </answer>
-  <answer fraction="50" format="html">
-    <text><![CDATA[<p>Glycogen</p>]]></text>
-  </answer>
+  <answer fraction="-50" format="html"><text><![CDATA[<p>Amylose</p>]]></text></answer>
+  <answer fraction="50" format="html"><text><![CDATA[<p>Amylopectin</p>]]></text></answer>
+  <answer fraction="-50" format="html"><text><![CDATA[<p>Cellulose</p>]]></text></answer>
+  <answer fraction="50" format="html"><text><![CDATA[<p>Glycogen</p>]]></text></answer>
   <tags>
     <tag><text>standard:neet_ug</text></tag>
     <tag><text>lang:en</text></tag>
     <tag><text>lang:bn</text></tag>
     <tag><text>subject:chemistry</text></tag>
     <tag><text>class:class_12</text></tag>
-    <tag><text>topic:biomolecules</text></tag>
     <tag><text>chapter:biomolecules</text></tag>
-    <tag><text>typology:multiple_choice</text></tag>
+    <tag><text>typology:mcq</text></tag>
     <tag><text>difficulty:easy</text></tag>
     <tag><text>blooms:remember</text></tag>
+    <tag><text>calculation:light</text></tag>
     <tag><text>media:text</text></tag>
     <tag><text>multiconcept:false</text></tag>
   </tags>
 </question>
+
 <question type="multichoice">
-  <name><text>NEET_UG_CHEMISTRY_BIOMOLECULES_MCQ_Q23 - Identification of acidic amino acids</text></name>
-  <questiontext format="html">
-    <text><![CDATA[<p>Amino acids are classified as acidic, basic or neutral depending upon the relative number of amino and carboxyl groups in their molecule. Which of the following are acidic?</p>
-<p>(i) \((\mathrm{CH}_3)_2\mathrm{CH}-\mathrm{CH}(\mathrm{NH}_2)-\mathrm{COOH}\)</p>
-<p>(ii) \(\mathrm{HOOC}-\mathrm{CH}_2-\mathrm{CH}_2-\mathrm{CH}(\mathrm{NH}_2)-\mathrm{COOH}\)</p>
-<p>(iii) \(\mathrm{H}_2\mathrm{N}-\mathrm{CH}_2-\mathrm{CH}_2-\mathrm{CH}_2-\mathrm{COOH}\)</p>
-<p>(iv) \(\mathrm{HOOC}-\mathrm{CH}_2-\mathrm{CH}(\mathrm{NH}_2)-\mathrm{COOH}\)</p>
-<hr/>
-<p>অ্যামিনো অ্যাসিডের অণুতে অ্যামিনো এবং কার্বক্সিল মূলকের আপেক্ষিক সংখ্যার ওপর ভিত্তি করে এদের আম্লিক, ক্ষারকীয় বা প্রশম হিসেবে শ্রেণিভুক্ত করা হয়। নিচের কোনগুলি আম্লিক?</p>
-<p>(i) \((\mathrm{CH}_3)_2\mathrm{CH}-\mathrm{CH}(\mathrm{NH}_2)-\mathrm{COOH}\)</p>
-<p>(ii) \(\mathrm{HOOC}-\mathrm{CH}_2-\mathrm{CH}_2-\mathrm{CH}(\mathrm{NH}_2)-\mathrm{COOH}\)</p>
-<p>(iii) \(\mathrm{H}_2\mathrm{N}-\mathrm{CH}_2-\mathrm{CH}_2-\mathrm{CH}_2-\mathrm{COOH}\)</p>
-<p>(iv) \(\mathrm{HOOC}-\mathrm{CH}_2-\mathrm{CH}(\mathrm{NH}_2)-\mathrm{COOH}\)</p>]]></text>
-  </questiontext>
-  <generalfeedback format="html">
-    <text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>An amino acid is acidic when its chemical structure contains more carboxylic acid groups (\(-\text{COOH}\)) than amino groups (\(-\text{NH}_2\)). It is basic if it contains more amino groups than carboxyl groups, and neutral if the count of carboxyl and amino groups is equal.</p>
-<p><strong>Step 2: Analysis of Given Structures</strong><br/>- \((\text{CH}_3)_2\text{CH}-\text{CH}(\text{NH}_2)-\text{COOH}\) (Valine) contains one \(-\text{NH}_2\) group and one \(-\text{COOH}\) group; it is neutral.<br/>- \(\text{HOOC}-\text{CH}_2-\text{CH}_2-\text{CH}(\text{NH}_2)-\text{COOH}\) (Glutamic acid) contains two \(-\text{COOH}\) groups and one \(-\text{NH}_2\) group; it is acidic.<br/>- \(\text{H}_2\text{N}-\text{CH}_2-\text{CH}_2-\text{CH}_2-\text{COOH}\) contains one \(-\text{NH}_2\) group and one \(-\text{COOH}\) group; it is neutral.<br/>- \(\text{HOOC}-\text{CH}_2-\text{CH}(\text{NH}_2)-\text{COOH}\) (Aspartic acid) contains two \(-\text{COOH}\) groups and one \(-\text{NH}_2\) group; it is acidic.</p>
-<p><strong>Step 3: Final Conclusion</strong><br/>Thus, glutamic acid and aspartic acid are the acidic amino acids.</p>
-<hr/>
-<p><strong>ধাপ ১: ধারণাগত নীতি</strong><br/>একটি অ্যামিনো অ্যাসিড আম্লিক হয় যখন এর গঠনে অ্যামিনো মূলকের (\(-\text{NH}_2\)) তুলনায় কার্বক্সিল মূলকের (\(-\text{COOH}\)) সংখ্যা বেশি থাকে। যদি দুটি মূলকের সংখ্যা সমান হয় তবে তা প্রশম হয়।</p>
-<p><strong>ধাপ ২: প্রদত্ত কাঠামোসমূহের বিশ্লেষণ</strong><br/>- \((\text{CH}_3)_2\text{CH}-\text{CH}(\text{NH}_2)-\text{COOH}\) (ভ্যালিন)-এ একটি \(-\text{NH}_2\) এবং একটি \(-\text{COOH}\) মূলক আছে; এটি প্রশম।<br/>- \(\text{HOOC}-\text{CH}_2-\text{CH}_2-\text{CH}(\text{NH}_2)-\text{COOH}\) (গ্লুটামিক অ্যাসিড)-এ দুটি \(-\text{COOH}\) এবং একটি \(-\text{NH}_2\) মূলক আছে; এটি আম্লিক।<br/>- \(\text{H}_2\text{N}-\text{CH}_2-\text{CH}_2-\text{CH}_2-\text{COOH}\)-এ একটি \(-\text{NH}_2\) এবং একটি \(-\text{COOH}\) মূলক আছে; এটি প্রশম।<br/>- \(\text{HOOC}-\text{CH}_2-\text{CH}(\text{NH}_2)-\text{COOH}\) (অ্যাসপার্টিক অ্যাসিড)-এ দুটি \(-\text{COOH}\) এবং একটি \(-\text{NH}_2\) মূলক আছে; এটি আম্লিক।</p>
-<p><strong>ধাপ ৩: চূড়ান্ত সিদ্ধান্ত</strong><br/>অতএব, গ্লুটামিক অ্যাসিড এবং অ্যাসপার্টিক অ্যাসিড হলো আম্লিক অ্যামিনো অ্যাসিড।</p>]]></text>
-  </generalfeedback>
+  <name><text>NEET_UG_CHEMISTRY_BIOMOLECULES_MCQ_Q23 - Identifying acidic amino acids from structures</text></name>
+  <questiontext format="html"><text><![CDATA[<p>Amino acids are classified as acidic, basic or neutral depending upon the relative number of amino and carboxyl groups in their molecule. Which of the following are acidic?</p><hr/><p>অ্যামিনো অ্যাসিডের অণুতে অ্যামিনো এবং কার্বক্সিল মূলকের আপেক্ষিক সংখ্যার ওপর ভিত্তি করে এগুলোকে আম্লিক, ক্ষারীয় বা প্রশম হিসেবে শ্রেণিবদ্ধ করা হয়। নিচের কোনগুলো আম্লিক?</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>An amino acid is acidic if it contains more carboxyl (\(-\mathrm{COOH}\)) groups than amino (\(-\mathrm{NH_2}\)) groups, basic if it contains more amino groups than carboxyl groups, and neutral if the numbers of both groups are equal.</p><p><strong>Step 2: Evaluation</strong><br/>In \(\mathrm{(CH_3)_2CH-CH(NH_2)-COOH}\) (valine), there is one \(-\mathrm{NH_2}\) group and one \(-\mathrm{COOH}\) group, so it is neutral.<br/>In \(\mathrm{HOOC-CH_2-CH_2-CH(NH_2)-COOH}\) (glutamic acid), there are two \(-\mathrm{COOH}\) groups and one \(-\mathrm{NH_2}\) group, so it is acidic.<br/>In \(\mathrm{H_2N-CH_2-CH_2-CH_2-COOH}\), there is one \(-\mathrm{NH_2}\) group and one \(-\mathrm{COOH}\) group, so it is neutral.<br/>In \(\mathrm{HOOC-CH_2-CH(NH_2)-COOH}\) (aspartic acid), there are two \(-\mathrm{COOH}\) groups and one \(-\mathrm{NH_2}\) group, so it is acidic.</p><p><strong>Step 3: Application</strong><br/>Only the two dicarboxylic amino acids, glutamic acid and aspartic acid, have an excess of \(-\mathrm{COOH}\) groups over \(-\mathrm{NH_2}\) groups.</p><p><strong>Step 4: Final Conclusion</strong><br/>Therefore, \(\mathrm{HOOC-CH_2-CH_2-CH(NH_2)-COOH}\) and \(\mathrm{HOOC-CH_2-CH(NH_2)-COOH}\) are acidic amino acids.</p><hr/><p><strong>ধাপ ১: ধারণাগত নীতি</strong><br/>কোনো অ্যামিনো অ্যাসিডে অ্যামিনো (\(-\mathrm{NH_2}\)) মূলকের চেয়ে কার্বক্সিল (\(-\mathrm{COOH}\)) মূলকের সংখ্যা বেশি হলে সেটি আম্লিক হয়, অ্যামিনো মূলকের সংখ্যা বেশি হলে ক্ষারীয় হয় এবং উভয় মূলকের সংখ্যা সমান হলে প্রশম হয়।</p><p><strong>ধাপ ২: মূল্যায়ন</strong><br/>\(\mathrm{(CH_3)_2CH-CH(NH_2)-COOH}\) (ভ্যালিন)-এ একটি \(-\mathrm{NH_2}\) মূলক এবং একটি \(-\mathrm{COOH}\) মূলক আছে, তাই এটি প্রশম।<br/>\(\mathrm{HOOC-CH_2-CH_2-CH(NH_2)-COOH}\) (গ্লুটামিক অ্যাসিড)-এ দুটি \(-\mathrm{COOH}\) মূলক এবং একটি \(-\mathrm{NH_2}\) মূলক আছে, তাই এটি আম্লিক।<br/>\(\mathrm{H_2N-CH_2-CH_2-CH_2-COOH}\)-এ একটি \(-\mathrm{NH_2}\) মূলক এবং একটি \(-\mathrm{COOH}\) মূলক আছে, তাই এটি প্রশম।<br/>\(\mathrm{HOOC-CH_2-CH(NH_2)-COOH}\) (অ্যাসপার্টিক অ্যাসিড)-এ দুটি \(-\mathrm{COOH}\) মূলক এবং একটি \(-\mathrm{NH_2}\) মূলক আছে, তাই এটি আম্লিক।</p><p><strong>ধাপ ৩: প্রয়োগ</strong><br/>কেবল দুটি ডাইকার্বক্সিলিক অ্যামিনো অ্যাসিড— গ্লুটামিক অ্যাসিড ও অ্যাসপার্টিক অ্যাসিডে \(-\mathrm{NH_2}\) মূলকের তুলনায় \(-\mathrm{COOH}\) মূলকের সংখ্যা বেশি।</p><p><strong>ধাপ ৪: চূড়ান্ত সিদ্ধান্ত</strong><br/>অতএব, \(\mathrm{HOOC-CH_2-CH_2-CH(NH_2)-COOH}\) এবং \(\mathrm{HOOC-CH_2-CH(NH_2)-COOH}\) হলো আম্লিক অ্যামিনো অ্যাসিড।</p>]]></text></generalfeedback>
   <defaultgrade>4.0000000</defaultgrade>
   <penalty>0.2500000</penalty>
   <hidden>0</hidden>
   <single>false</single>
   <shuffleanswers>true</shuffleanswers>
   <answernumbering>iii</answernumbering>
-  <answer fraction="-50" format="html">
-    <text><![CDATA[<p>\((\mathrm{CH}_3)_2\mathrm{CH}-\mathrm{CH}(\mathrm{NH}_2)-\mathrm{COOH}\)</p>]]></text>
-  </answer>
-  <answer fraction="50" format="html">
-    <text><![CDATA[<p>\(\mathrm{HOOC}-\mathrm{CH}_2-\mathrm{CH}_2-\mathrm{CH}(\mathrm{NH}_2)-\mathrm{COOH}\)</p>]]></text>
-  </answer>
-  <answer fraction="-50" format="html">
-    <text><![CDATA[<p>\(\mathrm{H}_2\mathrm{N}-\mathrm{CH}_2-\mathrm{CH}_2-\mathrm{CH}_2-\mathrm{COOH}\)</p>]]></text>
-  </answer>
-  <answer fraction="50" format="html">
-    <text><![CDATA[<p>\(\mathrm{HOOC}-\mathrm{CH}_2-\mathrm{CH}(\mathrm{NH}_2)-\mathrm{COOH}\)</p>]]></text>
-  </answer>
+  <answer fraction="-50" format="html"><text><![CDATA[<p>\((\mathrm{CH}_3)_2\mathrm{CH}-\mathrm{CH}(\mathrm{NH}_2)-\mathrm{COOH}\)</p>]]></text></answer>
+  <answer fraction="50" format="html"><text><![CDATA[<p>\(\mathrm{HOOC}-\mathrm{CH}_2-\mathrm{CH}_2-\mathrm{CH}(\mathrm{NH}_2)-\mathrm{COOH}\)</p>]]></text></answer>
+  <answer fraction="-50" format="html"><text><![CDATA[<p>\(\mathrm{H}_2\mathrm{N}-\mathrm{CH}_2-\mathrm{CH}_2-\mathrm{CH}_2-\mathrm{COOH}\)</p>]]></text></answer>
+  <answer fraction="50" format="html"><text><![CDATA[<p>\(\mathrm{HOOC}-\mathrm{CH}_2-\mathrm{CH}(\mathrm{NH}_2)-\mathrm{COOH}\)</p>]]></text></answer>
   <tags>
     <tag><text>standard:neet_ug</text></tag>
     <tag><text>lang:en</text></tag>
     <tag><text>lang:bn</text></tag>
     <tag><text>subject:chemistry</text></tag>
     <tag><text>class:class_12</text></tag>
-    <tag><text>topic:biomolecules</text></tag>
     <tag><text>chapter:biomolecules</text></tag>
-    <tag><text>typology:multiple_choice</text></tag>
+    <tag><text>typology:mcq</text></tag>
     <tag><text>difficulty:easy</text></tag>
+    <tag><text>blooms:apply</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:text</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+
+<question type="multichoice">
+  <name><text>NEET_UG_CHEMISTRY_BIOMOLECULES_MCQ_Q24 - Classification and properties of lysine</text></name>
+  <questiontext format="html"><text><![CDATA[<p>Lysine, \(\mathrm{H}_2\mathrm{N}-(\mathrm{CH}_2)_4-\mathrm{CH}(\mathrm{NH}_2)-\mathrm{COOH}\) is</p><hr/><p>লাইসিন, \(\mathrm{H}_2\mathrm{N}-(\mathrm{CH}_2)_4-\mathrm{CH}(\mathrm{NH}_2)-\mathrm{COOH}\) হলো একটি</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>Amino acids are classified as \(\alpha\)-, \(\beta\)-, etc., based on the position of the amino group relative to the carboxyl group. They are basic if they contain more \(-\mathrm{NH_2}\) groups than \(-\mathrm{COOH}\) groups, and essential if they cannot be synthesised in the human body.</p><p><strong>Step 2: Evaluation</strong><br/>In lysine, an amino group (\(-\mathrm{NH_2}\)) is attached to the \(\alpha\)-carbon (the carbon directly bonded to the \(-\mathrm{COOH}\) group), making it an \(\alpha\)-amino acid rather than a \(\beta\)-amino acid.<br/>Lysine contains two \(-\mathrm{NH_2}\) groups and only one \(-\mathrm{COOH}\) group, making it a basic amino acid.<br/>Lysine is an essential amino acid, which means it is not synthesised in the human body and must be obtained through the diet.</p><p><strong>Step 3: Application</strong><br/>Combining these structural and nutritional facts shows that lysine is both an \(\alpha\)-amino acid and a basic amino acid.</p><p><strong>Step 4: Final Conclusion</strong><br/>Therefore, lysine is an \(\alpha\)-amino acid and a basic amino acid.</p><hr/><p><strong>ধাপ ১: ধারণাগত নীতি</strong><br/>কার্বক্সিল মূলকের সাপেক্ষে অ্যামিনো মূলকের অবস্থানের ওপর ভিত্তি করে অ্যামিনো অ্যাসিডকে \(\alpha\)-, \(\beta\)- ইত্যাদি ভাগে ভাগ করা হয়। এতে \(-\mathrm{COOH}\) মূলকের চেয়ে \(-\mathrm{NH_2}\) মূলকের সংখ্যা বেশি হলে সেটি ক্ষারীয় হয় এবং মানবদেহে সংশ্লেষিত হতে না পারলে সেটি অত্যাবশ্যকীয় হয়।</p><p><strong>ধাপ ২: মূল্যায়ন</strong><br/>লাইসিনে, একটি অ্যামিনো মূলক (\(-\mathrm{NH_2}\)) \(\alpha\)-কার্বনের (যে কার্বনটি সরাসরি \(-\mathrm{COOH}\) মূলকের সাথে যুক্ত) সাথে যুক্ত থাকে, তাই এটি \(\beta\)-অ্যামিনো অ্যাসিড নয় বরং একটি \(\alpha\)-অ্যামিনো অ্যাসিড।<br/>লাইসিনে দুটি \(-\mathrm{NH_2}\) মূলক এবং মাত্র একটি \(-\mathrm{COOH}\) মূলক আছে, তাই এটি একটি ক্ষারীয় অ্যামিনো অ্যাসিড।<br/>লাইসিন একটি অত্যাবশ্যকীয় অ্যামিনো অ্যাসিড, অর্থাৎ এটি মানবদেহে সংশ্লেষিত হয় না এবং খাদ্যের মাধ্যমে গ্রহণ করতে হয়।</p><p><strong>ধাপ ৩: প্রয়োগ</strong><br/>এই গঠনগত ও পুষ্টিগত তথ্যগুলো একত্রিত করলে দেখা যায় যে লাইসিন হলো একটি \(\alpha\)-অ্যামিনো অ্যাসিড এবং একটি ক্ষারীয় অ্যামিনো অ্যাসিড।</p><p><strong>ধাপ ৪: চূড়ান্ত সিদ্ধান্ত</strong><br/>সুতরাং, লাইসিন হলো একটি \(\alpha\)-অ্যামিনো অ্যাসিড এবং ক্ষারীয় অ্যামিনো অ্যাসিড।</p>]]></text></generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>false</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>iii</answernumbering>
+  <answer fraction="50" format="html"><text><![CDATA[<p>\(\alpha\)-Amino acid</p>]]></text></answer>
+  <answer fraction="50" format="html"><text><![CDATA[<p>Basic amino acid</p>]]></text></answer>
+  <answer fraction="-50" format="html"><text><![CDATA[<p>Amino acid synthesised in body</p>]]></text></answer>
+  <answer fraction="-50" format="html"><text><![CDATA[<p>\(\beta\)-Amino acid</p>]]></text></answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:bn</text></tag>
+    <tag><text>subject:chemistry</text></tag>
+    <tag><text>class:class_12</text></tag>
+    <tag><text>chapter:biomolecules</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:medium</text></tag>
     <tag><text>blooms:understand</text></tag>
-    <tag><text>media:equation</text></tag>
-    <tag><text>multiconcept:false</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:text</text></tag>
+    <tag><text>multiconcept:true</text></tag>
   </tags>
 </question>
+
 <question type="multichoice">
-  <name><text>NEET_UG_CHEMISTRY_BIOMOLECULES_MCQ_Q24 - Structural and chemical classification of lysine</text></name>
-  <questiontext format="html">
-    <text><![CDATA[<p>Lysine, \(\mathrm{H}_2\mathrm{N}-(\mathrm{CH}_2)_4-\mathrm{CH}(\mathrm{NH}_2)-\mathrm{COOH}\) is</p>
-<hr/>
-<p>লাইসিন, \(\mathrm{H}_2\mathrm{N}-(\mathrm{CH}_2)_4-\mathrm{CH}(\mathrm{NH}_2)-\mathrm{COOH}\) হলো একটি</p>]]></text>
-  </questiontext>
-  <generalfeedback format="html">
-    <text><![CDATA[<p><strong>Step 1: Structural Position of Amino Group</strong><br/>In lysine, one of the amino groups (\(-\text{NH}_2\)) is attached directly to the \(\alpha\)-carbon atom immediately adjacent to the carboxyl group (\(-\text{COOH}\)). Hence, lysine is classified as an \(\alpha\)-amino acid.</p>
-<p><strong>Step 2: Acid-Base Nature and Essentiality</strong><br/>- Lysine possesses two amino groups (one \(\alpha\)-amino group and one \(\epsilon\)-amino group) and only one carboxyl group. Because basic groups outnumber acidic groups, lysine is a basic amino acid.<br/>- Lysine is an essential amino acid, meaning it cannot be synthesized by the human body and must be acquired through diet.</p>
-<p><strong>Step 3: Final Conclusion</strong><br/>Therefore, lysine is an \(\alpha\)-amino acid and a basic amino acid.</p>
-<hr/>
-<p><strong>ধাপ ১: অ্যামিনো মূলকের কাঠামোগত অবস্থান</strong><br/>লাইসিনের গঠনে একটি অ্যামিনো মূলক (\(-\text{NH}_2\)) সরাসরি কার্বক্সিল মূলকের (\(-\text{COOH}\)) সাথে যুক্ত \(\alpha\)-কার্বনে অবস্থিত। ফলে লাইসিন হলো একটি \(\alpha\)-অ্যামিনো অ্যাসিড।</p>
-<p><strong>ধাপ ২: অম্ল-ক্ষারকীয় প্রকৃতি এবং অপরিহার্যতা</strong><br/>- লাইসিনের অণুতে দুটি অ্যামিনো মূলক এবং মাত্র একটি কার্বক্সিল মূলক রয়েছে। ক্ষারকীয় মূলকের সংখ্যা বেশি হওয়ায় এটি একটি ক্ষারকীয় অ্যামিনো অ্যাসিড।<br/>- লাইসিন হলো একটি অপরিহার্য অ্যামিনো অ্যাসিড, যা মানবদেহে সংশ্লেষিত হতে পারে না এবং খাদ্যের মাধ্যমে গ্রহণ করতে হয়।</p>
-<p><strong>ধাপ ৩: চূড়ান্ত সিদ্ধান্ত</strong><br/>অতএব, লাইসিন হলো একটি \(\alpha\)-অ্যামিনো অ্যাসিড এবং একটি ক্ষারকীয় অ্যামিনো অ্যাসিড।</p>]]></text>
-  </generalfeedback>
+  <name><text>NEET_UG_CHEMISTRY_BIOMOLECULES_MCQ_Q25 - Monosaccharides with five-membered furanose cyclic structure</text></name>
+  <questiontext format="html"><text><![CDATA[<p>Which of the following monosaccharides are present as five membered cyclic structure (furanose structure)?</p><hr/><p>নিচের কোন মনোস্যাকারাইডগুলো পাঁচ-সদস্যবিশিষ্ট চাক্রিক গঠন (ফিউরানোজ গঠন) হিসেবে অবস্থান করে?</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>Monosaccharides form cyclic hemiacetal or hemiketal structures. A five-membered ring containing four carbon atoms and one oxygen atom (analogous to furan) is called a furanose structure, whereas a six-membered ring (analogous to pyran) is called a pyranose structure.</p><p><strong>Step 2: Evaluation</strong><br/>Ribose is an aldopentose whose \(\mathrm{C}4\) hydroxyl group attacks the \(\mathrm{C}1\) aldehyde group to form a stable five-membered furanose ring (ribofuranose, as found in RNA).<br/>Fructose is a ketohexose whose \(\mathrm{C}5\) hydroxyl group attacks the \(\mathrm{C}2\) keto group to form a five-membered furanose ring (fructofuranose, as in sucrose).<br/>Glucose and galactose are aldohexoses that predominantly exist in six-membered pyranose cyclic structures.</p><p><strong>Step 3: Application</strong><br/>Thus, among the given monosaccharides, only ribose and fructose adopt the five-membered furanose ring structure.</p><p><strong>Step 4: Final Conclusion</strong><br/>Therefore, ribose and fructose are present as five-membered cyclic (furanose) structures.</p><hr/><p><strong>ধাপ ১: ধারণাগত নীতি</strong><br/>মনোস্যাকারাইডগুলো চাক্রিক হেমিঅ্যাসিটাল বা হেমিকিটাল গঠন তৈরি করে। চারটি কার্বন পরমাণু ও একটি অক্সিজেন পরমাণুযুক্ত পাঁচ-সদস্যের বলয়কে (ফিউরানের অনুরূপ) ফিউরানোজ গঠন বলে, আর ছয়-সদস্যের বলয়কে (পাইরানের অনুরূপ) পাইরানোজ গঠন বলে।</p><p><strong>ধাপ ২: মূল্যায়ন</strong><br/>রাইবোজ একটি অ্যালডোপেন্টোজ, যার \(\mathrm{C}4\) হাইড্রক্সিল মূলক \(\mathrm{C}1\) অ্যালডিহাইড মূলকে আক্রমণ করে একটি স্থায়ী পাঁচ-সদস্যের ফিউরানোজ বলয় (রাইবোফিউরানোজ, যা RNA-তে থাকে) গঠন করে।<br/>ফ্রুক্টোজ একটি কিটোহেক্সোজ, যার \(\mathrm{C}5\) হাইড্রক্সিল মূলক \(\mathrm{C}2\) কিটো মূলকে আক্রমণ করে পাঁচ-সদস্যের ফিউরানোজ বলয় (ফ্রুক্টোফিউরানোজ, যেমন সুক্রোজে) গঠন করে।<br/>গ্লুকোজ এবং গ্যালাকটোজ হলো অ্যালডোহেক্সোজ, যা প্রধানত ছয়-সদস্যের পাইরানোজ চাক্রিক গঠনে অবস্থান করে।</p><p><strong>ধাপ ৩: প্রয়োগ</strong><br/>সুতরাং, প্রদত্ত মনোস্যাকারাইডগুলোর মধ্যে কেবল রাইবোজ এবং ফ্রুক্টোজ পাঁচ-সদস্যের ফিউরানোজ বলয় গঠন ধারণ করে।</p><p><strong>ধাপ ৪: চূড়ান্ত সিদ্ধান্ত</strong><br/>অতএব, রাইবোজ এবং ফ্রুক্টোজ পাঁচ-সদস্যবিশিষ্ট চাক্রিক (ফিউরানোজ) গঠনে উপস্থিত থাকে।</p>]]></text></generalfeedback>
   <defaultgrade>4.0000000</defaultgrade>
   <penalty>0.2500000</penalty>
   <hidden>0</hidden>
   <single>false</single>
   <shuffleanswers>true</shuffleanswers>
   <answernumbering>iii</answernumbering>
-  <answer fraction="50" format="html">
-    <text><![CDATA[<p>\(\alpha\)-Amino acid</p>]]></text>
-  </answer>
-  <answer fraction="50" format="html">
-    <text><![CDATA[<p>Basic amino acid</p>]]></text>
-  </answer>
-  <answer fraction="-50" format="html">
-    <text><![CDATA[<p>Amino acid synthesised in body</p>]]></text>
-  </answer>
-  <answer fraction="-50" format="html">
-    <text><![CDATA[<p>\(\beta\)-Amino acid</p>]]></text>
-  </answer>
+  <answer fraction="50" format="html"><text><![CDATA[<p>Ribose</p>]]></text></answer>
+  <answer fraction="-50" format="html"><text><![CDATA[<p>Glucose</p>]]></text></answer>
+  <answer fraction="50" format="html"><text><![CDATA[<p>Fructose</p>]]></text></answer>
+  <answer fraction="-50" format="html"><text><![CDATA[<p>Galactose</p>]]></text></answer>
   <tags>
     <tag><text>standard:neet_ug</text></tag>
     <tag><text>lang:en</text></tag>
     <tag><text>lang:bn</text></tag>
     <tag><text>subject:chemistry</text></tag>
     <tag><text>class:class_12</text></tag>
-    <tag><text>topic:biomolecules</text></tag>
     <tag><text>chapter:biomolecules</text></tag>
-    <tag><text>typology:multiple_choice</text></tag>
-    <tag><text>difficulty:easy</text></tag>
-    <tag><text>blooms:understand</text></tag>
-    <tag><text>media:equation</text></tag>
-    <tag><text>multiconcept:false</text></tag>
-  </tags>
-</question>
-<question type="multichoice">
-  <name><text>NEET_UG_CHEMISTRY_BIOMOLECULES_MCQ_Q25 - Monosaccharides existing in furanose cyclic structure</text></name>
-  <questiontext format="html">
-    <text><![CDATA[<p>Which of the following monosaccharides are present as five membered cyclic structure (furanose structure)?</p>
-<hr/>
-<p>নিচের কোন মনোস্যাকারাইডগুলি পাঁচ সদস্যের চক্রীয় কাঠামোয় (ফিউরানোজ কাঠামোয়) উপস্থিত থাকে?</p>]]></text>
-  </questiontext>
-  <generalfeedback format="html">
-    <text><![CDATA[<p><strong>Step 1: Conceptual Ring Sizes in Monosaccharides</strong><br/>Cyclic hemiacetal or hemiketal forms of monosaccharides can exist as five-membered rings (analogous to furan, known as furanose forms) or six-membered rings (analogous to pyran, known as pyranose forms).</p>
-<p><strong>Step 2: Evaluation of the Monosaccharides</strong><br/>- Ribose is an aldopentose (\(\text{C}_5\text{H}_{10}\text{O}_5\)); cyclization between \(\text{C}1\) and \(\text{C}4\) produces a five-membered furanose ring (ribofuranose).<br/>- Fructose is a ketohexose (\(\text{C}_6\text{H}_{12}\text{O}_6\)); intramolecular addition of the \(\text{C}5-\text{OH}\) to the \(\text{C}2\) carbonyl group forms a five-membered furanose ring (fructofuranose).<br/>- Glucose and galactose are aldohexoses that preferentially cyclize via their \(\text{C}5-\text{OH}\) with the \(\text{C}1\) aldehyde to form six-membered pyranose rings.</p>
-<p><strong>Step 3: Final Conclusion</strong><br/>Therefore, ribose and fructose exist as five-membered cyclic furanose structures.</p>
-<hr/>
-<p><strong>ধাপ ১: মনোস্যাকারাইডের বলয় আকারের ধারণাগত নীতি</strong><br/>মনোস্যাকারাইডের চক্রীয় হেমিঅ্যাসিটাল বা হেমিকিটাল গঠনগুলি পাঁচ সদস্যযুক্ত বলয় (ফিউরানের অনুরূপ, যাকে ফিউরানোজ বলা হয়) অথবা ছয় সদস্যযুক্ত বলয় (পাইরানের অনুরূপ, যাকে পাইরানোজ বলা হয়) হিসেবে উপস্থিত থাকতে পারে।</p>
-<p><strong>ধাপ ২: মনোস্যাকারাইডসমূহের মূল্যায়ন</strong><br/>- রাইবোজ হলো একটি অ্যালডোপেন্টোজ (\(\text{C}_5\text{H}_{10}\text{O}_5\)), যা \(\text{C}1\) ও \(\text{C}4\)-এর মধ্যে যুক্ত হয়ে পাঁচ সদস্যের ফিউরানোজ বলয় তৈরি করে।<br/>- ফ্রুক্টোজ হলো একটি কিটোহেক্সোজ (\(\text{C}_6\text{H}_{12}\text{O}_6\)), যা \(\text{C}5-\text{OH}\) এবং \(\text{C}2\) কার্বনিল মূলকের মধ্যে যুক্ত হয়ে পাঁচ সদস্যের ফিউরানোজ বলয় গঠন করে।<br/>- গ্লুকোজ এবং গ্যালাকটোজ প্রধানত ছয় সদস্যের পাইরানোজ বলয় গঠন করে।</p>
-<p><strong>ধাপ ৩: চূড়ান্ত সিদ্ধান্ত</strong><br/>অতএব, রাইবোজ এবং ফ্রুক্টোজ পাঁচ সদস্যযুক্ত চক্রীয় ফিউরানোজ কাঠামোয় উপস্থিত থাকে।</p>]]></text>
-  </generalfeedback>
-  <defaultgrade>4.0000000</defaultgrade>
-  <penalty>0.2500000</penalty>
-  <hidden>0</hidden>
-  <single>false</single>
-  <shuffleanswers>true</shuffleanswers>
-  <answernumbering>iii</answernumbering>
-  <answer fraction="50" format="html">
-    <text><![CDATA[<p>Ribose</p>]]></text>
-  </answer>
-  <answer fraction="-50" format="html">
-    <text><![CDATA[<p>Glucose</p>]]></text>
-  </answer>
-  <answer fraction="50" format="html">
-    <text><![CDATA[<p>Fructose</p>]]></text>
-  </answer>
-  <answer fraction="-50" format="html">
-    <text><![CDATA[<p>Galactose</p>]]></text>
-  </answer>
-  <tags>
-    <tag><text>standard:neet_ug</text></tag>
-    <tag><text>lang:en</text></tag>
-    <tag><text>lang:bn</text></tag>
-    <tag><text>subject:chemistry</text></tag>
-    <tag><text>class:class_12</text></tag>
-    <tag><text>topic:biomolecules</text></tag>
-    <tag><text>chapter:biomolecules</text></tag>
-    <tag><text>typology:multiple_choice</text></tag>
+    <tag><text>typology:mcq</text></tag>
     <tag><text>difficulty:easy</text></tag>
     <tag><text>blooms:remember</text></tag>
+    <tag><text>calculation:light</text></tag>
     <tag><text>media:text</text></tag>
     <tag><text>multiconcept:false</text></tag>
   </tags>
 </question>
+
 <question type="multichoice">
-  <name><text>NEET_UG_CHEMISTRY_BIOMOLECULES_MCQ_Q26 - Interchain bonding in fibrous proteins</text></name>
-  <questiontext format="html">
-    <text><![CDATA[<p>In fibrous proteins, polypeptide chains are held together by</p>
-<hr/>
-<p>তন্তুময় প্রোটিনে, পলিপেপটাইড শৃঙ্খলগুলি পরস্পরের সাথে কীসের দ্বারা যুক্ত থাকে?</p>]]></text>
-  </questiontext>
-  <generalfeedback format="html">
-    <text><![CDATA[<p><strong>Step 1: Structural Characteristics of Fibrous Proteins</strong><br/>In fibrous proteins (such as keratin, fibroin, and collagen), long polypeptide chains lie parallel to one another to form extended fiber-like filaments.</p>
-<p><strong>Step 2: Interchain Chemical Bonding</strong><br/>These parallel polypeptide chains are held tightly together by intermolecular hydrogen bonds (formed between \(>\text{C}=\text{O}\) and \(-\text{NH}-\) groups) and covalent disulfide linkages (\(-\text{S}-\text{S}-\) bonds formed between cysteine residues). These strong interactions impart tensile strength and water insolubility to fibrous proteins.</p>
-<p><strong>Step 3: Final Conclusion</strong><br/>Hence, in fibrous proteins, polypeptide chains are held together by disulfide linkages and hydrogen bonds.</p>
-<hr/>
-<p><strong>ধাপ ১: তন্তুময় প্রোটিনের কাঠামোগত বৈশিষ্ট্য</strong><br/>তন্তুময় প্রোটিনে (যেমন কেরাটিন ও কোলাজেন) দীর্ঘ পলিপেপটাইড শৃঙ্খলগুলি পরস্পরের সাথে সমান্তরালভাবে সজ্জিত হয়ে দীর্ঘ তন্তুর মতো গঠন তৈরি করে।</p>
-<p><strong>ধাপ ২: শৃঙ্খলসমূহের মধ্যবর্তী রাসায়নিক বন্ধন</strong><br/>এই সমান্তরাল পলিপেপটাইড শৃঙ্খলগুলি মূলত আন্তঃআণবিক হাইড্রোজেন বন্ধন এবং সিস্টাইন অবশিষ্টাংশের মধ্যে গঠিত কোভ্যালেন্ট ডাইসালফাইড বন্ধন (\(-\text{S}-\text{S}-\)) দ্বারা দৃঢ়ভাবে আবদ্ধ থাকে। এই বন্ধনগুলি তন্তুময় প্রোটিনকে দৃঢ়তা ও জলে অদ্রবণীয়তা প্রদান করে।</p>
-<p><strong>ধাপ ৩: চূড়ান্ত সিদ্ধান্ত</strong><br/>অতএব, তন্তুময় প্রোটিনে পলিপেপটাইড শৃঙ্খলগুলি ডাইসালফাইড বন্ধন এবং হাইড্রোজেন বন্ধন দ্বারা যুক্ত থাকে।</p>]]></text>
-  </generalfeedback>
+  <name><text>NEET_UG_CHEMISTRY_BIOMOLECULES_MCQ_Q26 - Forces holding polypeptide chains in fibrous proteins</text></name>
+  <questiontext format="html"><text><![CDATA[<p>In fibrous proteins, polypeptide chains are held together by</p><hr/><p>তন্তুময় প্রোটিনে, পলিপেপটাইড শৃঙ্খলগুলো কোন বন্ধন দ্বারা পরস্পরের সাথে আবদ্ধ থাকে?</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>Fibrous proteins are elongated, thread-like molecules formed when parallel polypeptide chains align side by side and are cross-linked to impart mechanical strength and water insolubility.</p><p><strong>Step 2: Evaluation</strong><br/>In fibrous proteins such as keratin and myosin, adjacent polypeptide chains run parallel to each other and are held firmly together by intermolecular hydrogen bonds and covalent disulphide (\(-\mathrm{S}-\mathrm{S}-\)) linkages.</p><p><strong>Step 3: Application</strong><br/>While van der Waals forces and electrostatic attractions contribute to tertiary folding in globular proteins, the primary inter-chain forces stabilizing fibrous protein sheets and fibres are disulphide linkages and hydrogen bonds.</p><p><strong>Step 4: Final Conclusion</strong><br/>Therefore, in fibrous proteins, polypeptide chains are held together by disulphide linkages and hydrogen bonds.</p><hr/><p><strong>ধাপ ১: ধারণাগত নীতি</strong><br/>সমান্তরাল পলিপেপটাইড শৃঙ্খলগুলো পাশাপাশি সজ্জিত হয়ে এবং পরস্পরের সাথে যুক্ত হয়ে যান্ত্রিক দৃঢ়তা ও জলে অদ্রবণীয়তা প্রদান করলে তন্তুময় প্রোটিন গঠিত হয়।</p><p><strong>ধাপ ২: মূল্যায়ন</strong><br/>কেরাটিন এবং মায়োসিনের মতো তন্তুময় প্রোটিনে, পাশাপাশি থাকা পলিপেপটাইড শৃঙ্খলগুলো সমান্তরালভাবে অবস্থান করে এবং আন্তঃআণবিক হাইড্রোজেন বন্ধন ও সমযোজী ডাইসালফাইড (\(-\mathrm{S}-\mathrm{S}-\)) বন্ধন দ্বারা দৃঢ়ভাবে আবদ্ধ থাকে।</p><p><strong>ধাপ ৩: প্রয়োগ</strong><br/>ভ্যান ডার ওয়ালস বল এবং স্থিরতাড়িতিক আকর্ষণ গ্লোবিউলার প্রোটিনের টারশিয়ারি ভাঁজে ভূমিকা রাখলেও, তন্তুময় প্রোটিনের শৃঙ্খলগুলোকে স্থায়িত্ব প্রদানকারী প্রধান বন্ধন হলো ডাইসালফাইড বন্ধন এবং হাইড্রোজেন বন্ধন।</p><p><strong>ধাপ ৪: চূড়ান্ত সিদ্ধান্ত</strong><br/>সুতরাং, তন্তুময় প্রোটিনে পলিপেপটাইড শৃঙ্খলগুলো ডাইসালফাইড বন্ধন এবং হাইড্রোজেন বন্ধন দ্বারা আবদ্ধ থাকে।</p>]]></text></generalfeedback>
   <defaultgrade>4.0000000</defaultgrade>
   <penalty>0.2500000</penalty>
   <hidden>0</hidden>
   <single>false</single>
   <shuffleanswers>true</shuffleanswers>
   <answernumbering>iii</answernumbering>
-  <answer fraction="-50" format="html">
-    <text><![CDATA[<p>van der Waals forces</p>]]></text>
-  </answer>
-  <answer fraction="50" format="html">
-    <text><![CDATA[<p>disulphide linkage</p>]]></text>
-  </answer>
-  <answer fraction="-50" format="html">
-    <text><![CDATA[<p>electrostatic forces of attraction</p>]]></text>
-  </answer>
-  <answer fraction="50" format="html">
-    <text><![CDATA[<p>hydrogen bonds</p>]]></text>
-  </answer>
+  <answer fraction="-50" format="html"><text><![CDATA[<p>van der Waals forces</p>]]></text></answer>
+  <answer fraction="50" format="html"><text><![CDATA[<p>disulphide linkage</p>]]></text></answer>
+  <answer fraction="-50" format="html"><text><![CDATA[<p>electrostatic forces of attraction</p>]]></text></answer>
+  <answer fraction="50" format="html"><text><![CDATA[<p>hydrogen bonds</p>]]></text></answer>
   <tags>
     <tag><text>standard:neet_ug</text></tag>
     <tag><text>lang:en</text></tag>
     <tag><text>lang:bn</text></tag>
     <tag><text>subject:chemistry</text></tag>
     <tag><text>class:class_12</text></tag>
-    <tag><text>topic:biomolecules</text></tag>
     <tag><text>chapter:biomolecules</text></tag>
-    <tag><text>typology:multiple_choice</text></tag>
+    <tag><text>typology:mcq</text></tag>
     <tag><text>difficulty:easy</text></tag>
     <tag><text>blooms:remember</text></tag>
+    <tag><text>calculation:light</text></tag>
     <tag><text>media:text</text></tag>
     <tag><text>multiconcept:false</text></tag>
   </tags>
 </question>
+
 <question type="multichoice">
-  <name><text>NEET_UG_CHEMISTRY_BIOMOLECULES_MCQ_Q27 - Identification of purine nitrogenous bases</text></name>
-  <questiontext format="html">
-    <text><![CDATA[<p>Which of the following are purine bases?</p>
-<hr/>
-<p>নিচের কোনগুলি পিউরিন ক্ষারক?</p>]]></text>
-  </questiontext>
-  <generalfeedback format="html">
-    <text><![CDATA[<p><strong>Step 1: Classification of Nitrogenous Bases</strong><br/>Nitrogenous bases found in nucleic acids are derived from two parent heterocyclic aromatic compounds: purine and pyrimidine.</p>
-<p><strong>Step 2: Evaluation of Bases</strong><br/>- Purines contain a bicyclic system consisting of a fused pyrimidine and imidazole ring. The two major purine bases present in DNA and RNA are Adenine and Guanine.<br/>- Pyrimidines contain a monocyclic six-membered ring. The pyrimidine bases are Cytosine, Thymine (in DNA), and Uracil (in RNA).</p>
-<p><strong>Step 3: Final Conclusion</strong><br/>Therefore, guanine and adenine are purine bases.</p>
-<hr/>
-<p><strong>ধাপ ১: নাইট্রোজেনঘটিত ক্ষারকের শ্রেণিবিভাগ</strong><br/>নিউক্লিক অ্যাসিডে উপস্থিত নাইট্রোজেনঘটিত ক্ষারকগুলি দুটি প্রধান বিষমচক্রীয় অ্যারোমেটিক যৌগ থেকে উদ্ভূত: পিউরিন এবং পিরিমিডিন।</p>
-<p><strong>ধাপ ২: ক্ষারকসমূহের মূল্যায়ন</strong><br/>- পিউরিন ক্ষারকগুলি পিরিমিডিন ও ইমিডাজল বলয়ের সমন্বয়ে গঠিত দ্বি-বলয় কাঠামোযুক্ত। DNA এবং RNA-তে উপস্থিত দুটি প্রধান পিউরিন ক্ষারক হলো অ্যাডেনিন এবং গুয়ানিন।<br/>- পিরিমিডিন ক্ষারকগুলি একক ছয় সদস্যযুক্ত বিষমচক্রীয় বলয় ধারণ করে। এদের উদাহরণ হলো সাইটোসিন, থাইমিন (DNA-তে) এবং ইউরাসিল (RNA-তে)।</p>
-<p><strong>ধাপ ৩: চূড়ান্ত সিদ্ধান্ত</strong><br/>অতএব, গুয়ানিন এবং অ্যাডেনিন হলো পিউরিন ক্ষারক।</p>]]></text>
-  </generalfeedback>
+  <name><text>NEET_UG_CHEMISTRY_BIOMOLECULES_MCQ_Q27 - Identifying purine bases in nucleic acids</text></name>
+  <questiontext format="html"><text><![CDATA[<p>Which of the following are purine bases?</p><hr/><p>নিচের কোনগুলো পিউরিন ক্ষারক?</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>Nitrogenous bases in nucleic acids are classified into two families: purines (which have a fused double-ring structure consisting of a six-membered pyrimidine ring and a five-membered imidazole ring) and pyrimidines (which have a single six-membered ring).</p><p><strong>Step 2: Evaluation</strong><br/>Adenine (A) and guanine (G) possess the bicyclic purine ring skeleton.<br/>Thymine (T), cytosine (C), and uracil (U) possess the monocyclic pyrimidine ring skeleton.</p><p><strong>Step 3: Application</strong><br/>Sorting the given bases by their ring structure identifies guanine and adenine as purines, while thymine and uracil are pyrimidines.</p><p><strong>Step 4: Final Conclusion</strong><br/>Therefore, guanine and adenine are purine bases.</p><hr/><p><strong>ধাপ ১: ধারণাগত নীতি</strong><br/>নিউক্লিক অ্যাসিডের নাইট্রোজেনঘটিত ক্ষারকগুলোকে দুটি শ্রেণিতে ভাগ করা হয়: পিউরিন (যাদের একটি ছয়-সদস্যের পিরিমিডিন বলয় ও একটি পাঁচ-সদস্যের ইমিডাজল বলয়ের সংযুক্ত দ্বি-বলয় গঠন থাকে) এবং পিরিমিডিন (যাদের একটি মাত্র ছয়-সদস্যের বলয় থাকে)।</p><p><strong>ধাপ ২: মূল্যায়ন</strong><br/>অ্যাডেনিন (A) এবং গুয়ানিন (G)-এ দ্বি-চাক্রিক পিউরিন বলয় কাঠামো রয়েছে।<br/>থাইমিন (T), সাইটোসিন (C) এবং ইউরাসিল (U)-এ এক-চাক্রিক পিরিমিডিন বলয় কাঠামো রয়েছে।</p><p><strong>ধাপ ৩: প্রয়োগ</strong><br/>বলয় গঠনের ভিত্তিতে প্রদত্ত ক্ষারকগুলোকে পৃথক করলে গুয়ানিন ও অ্যাডেনিন পিউরিন হিসেবে এবং থাইমিন ও ইউরাসিল পিরিমিডিন হিসেবে চিহ্নিত হয়।</p><p><strong>ধাপ ৪: চূড়ান্ত সিদ্ধান্ত</strong><br/>সুতরাং, গুয়ানিন এবং অ্যাডেনিন হলো পিউরিন ক্ষারক।</p>]]></text></generalfeedback>
   <defaultgrade>4.0000000</defaultgrade>
   <penalty>0.2500000</penalty>
   <hidden>0</hidden>
   <single>false</single>
   <shuffleanswers>true</shuffleanswers>
   <answernumbering>iii</answernumbering>
-  <answer fraction="50" format="html">
-    <text><![CDATA[<p>Guanine</p>]]></text>
-  </answer>
-  <answer fraction="50" format="html">
-    <text><![CDATA[<p>Adenine</p>]]></text>
-  </answer>
-  <answer fraction="-50" format="html">
-    <text><![CDATA[<p>Thymine</p>]]></text>
-  </answer>
-  <answer fraction="-50" format="html">
-    <text><![CDATA[<p>Uracil</p>]]></text>
-  </answer>
+  <answer fraction="50" format="html"><text><![CDATA[<p>Guanine</p>]]></text></answer>
+  <answer fraction="50" format="html"><text><![CDATA[<p>Adenine</p>]]></text></answer>
+  <answer fraction="-50" format="html"><text><![CDATA[<p>Thymine</p>]]></text></answer>
+  <answer fraction="-50" format="html"><text><![CDATA[<p>Uracil</p>]]></text></answer>
   <tags>
     <tag><text>standard:neet_ug</text></tag>
     <tag><text>lang:en</text></tag>
     <tag><text>lang:bn</text></tag>
     <tag><text>subject:chemistry</text></tag>
     <tag><text>class:class_12</text></tag>
-    <tag><text>topic:biomolecules</text></tag>
     <tag><text>chapter:biomolecules</text></tag>
-    <tag><text>typology:multiple_choice</text></tag>
+    <tag><text>typology:mcq</text></tag>
     <tag><text>difficulty:easy</text></tag>
     <tag><text>blooms:remember</text></tag>
+    <tag><text>calculation:light</text></tag>
     <tag><text>media:text</text></tag>
     <tag><text>multiconcept:false</text></tag>
   </tags>
 </question>
+
 <question type="multichoice">
-  <name><text>NEET_UG_CHEMISTRY_BIOMOLECULES_MCQ_Q28 - Characteristics and chemical nature of enzymes</text></name>
-  <questiontext format="html">
-    <text><![CDATA[<p>Which of the following terms are correct about enzyme?</p>
-<hr/>
-<p>উৎসেচক (এনজাইম) সম্পর্কে নিচের কোন পদগুলি সঠিক?</p>]]></text>
-  </questiontext>
-  <generalfeedback format="html">
-    <text><![CDATA[<p><strong>Step 1: Chemical Nature of Enzymes</strong><br/>Almost all enzymes are globular proteins synthesized in living cells that possess high molecular masses and distinct three-dimensional conformations.</p>
-<p><strong>Step 2: Functional Role of Enzymes</strong><br/>Enzymes function as highly specific biological catalysts (biocatalysts) that dramatically accelerate the rates of metabolic reactions by lowering their activation energies, without themselves being consumed in the overall process.</p>
-<p><strong>Step 3: Final Conclusion</strong><br/>Thus, enzymes are proteins and biocatalysts.</p>
-<hr/>
-<p><strong>ধাপ ১: উৎসেচকের রাসায়নিক প্রকৃতি</strong><br/>প্রায় সমস্ত উৎসেচকই হলো সজীব কোষে তৈরি হওয়া বর্তুলাকার প্রোটিন, যাদের নির্দিষ্ট ত্রিমাত্রিক গঠন এবং উচ্চ আণবিক ভর রয়েছে।</p>
-<p><strong>ধাপ ২: উৎসেচকের কার্যকরী ভূমিকা</strong><br/>উৎসেচকগুলি অত্যন্ত নির্দিষ্ট জৈব অনুঘটক (বায়োক্যাটালিস্ট) হিসেবে কাজ করে, যা বিক্রিয়ার সক্রিয়করণ শক্তি কমিয়ে বিপাকীয় বিক্রিয়ার গতি বহুগুণ বৃদ্ধি করে এবং বিক্রিয়া শেষে অপরিবর্তিত থাকে।</p>
-<p><strong>ধাপ ৩: চূড়ান্ত সিদ্ধান্ত</strong><br/>অতএব, উৎসেচক সম্পর্কে প্রোটিন এবং বায়োক্যাটালিস্ট (জৈব অনুঘটক) পদ দুটি সঠিক।</p>]]></text>
-  </generalfeedback>
+  <name><text>NEET_UG_CHEMISTRY_BIOMOLECULES_MCQ_Q28 - Characteristic terms describing enzymes</text></name>
+  <questiontext format="html"><text><![CDATA[<p>Which of the following terms are correct about enzyme?</p><hr/><p>এনজাইম (উৎসেচক) সম্পর্কে নিচের কোন পদগুলো সঠিক?</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>Enzymes are biological catalysts that accelerate specific biochemical reactions in living organisms by lowering the activation energy.</p><p><strong>Step 2: Evaluation</strong><br/>Chemically, almost all enzymes are globular proteins (sometimes associated with non-protein cofactors).<br/>Dinucleotides (such as \(\mathrm{NAD}^+\) or \(\mathrm{FAD}\)) act as coenzymes or energy/electron carriers, not as the enzyme protein itself, and nucleic acids (DNA and RNA) store and transmit genetic information.</p><p><strong>Step 3: Application</strong><br/>Therefore, among the listed terms, "proteins" describes the chemical nature of enzymes and "biocatalysts" describes their biological function.</p><p><strong>Step 4: Final Conclusion</strong><br/>Thus, enzymes are proteins and biocatalysts.</p><hr/><p><strong>ধাপ ১: ধারণাগত নীতি</strong><br/>এনজাইম হলো জৈব অনুঘটক যা সক্রিয়ণ শক্তি কমিয়ে জীবদেহের নির্দিষ্ট জৈব-রাসায়নিক বিক্রিয়ার গতি বৃদ্ধি করে।</p><p><strong>ধাপ ২: মূল্যায়ন</strong><br/>রাসায়নিকভাবে, প্রায় সব এনজাইমই গ্লোবিউলার প্রোটিন (কখনো কখনো অ-প্রোটিন কোফ্যাক্টরের সাথে যুক্ত থাকে)।<br/>ডাইনিউক্লিওটাইড (যেমন \(\mathrm{NAD}^+\) বা \(\mathrm{FAD}\)) কোএনজাইম বা ইলেকট্রন বাহক হিসেবে কাজ করে, স্বয়ং এনজাইম প্রোটিন নয়; এবং নিউক্লিক অ্যাসিড (DNA ও RNA) জিনগত তথ্য সংরক্ষণ ও পরিবহন করে।</p><p><strong>ধাপ ৩: প্রয়োগ</strong><br/>সুতরাং, প্রদত্ত পদগুলোর মধ্যে "প্রোটিন" এনজাইমের রাসায়নিক প্রকৃতি এবং "বায়োক্যাটালিস্ট (জৈব অনুঘটক)" তাদের জৈবিক কাজকে নির্দেশ করে।</p><p><strong>ধাপ ৪: চূড়ান্ত সিদ্ধান্ত</strong><br/>অতএব, এনজাইম হলো প্রোটিন এবং বায়োক্যাটালিস্ট।</p>]]></text></generalfeedback>
   <defaultgrade>4.0000000</defaultgrade>
   <penalty>0.2500000</penalty>
   <hidden>0</hidden>
   <single>false</single>
   <shuffleanswers>true</shuffleanswers>
   <answernumbering>iii</answernumbering>
-  <answer fraction="50" format="html">
-    <text><![CDATA[<p>Proteins</p>]]></text>
-  </answer>
-  <answer fraction="-50" format="html">
-    <text><![CDATA[<p>Dinucleotides</p>]]></text>
-  </answer>
-  <answer fraction="-50" format="html">
-    <text><![CDATA[<p>Nucleic acids</p>]]></text>
-  </answer>
-  <answer fraction="50" format="html">
-    <text><![CDATA[<p>Biocatalysts</p>]]></text>
-  </answer>
+  <answer fraction="50" format="html"><text><![CDATA[<p>Proteins</p>]]></text></answer>
+  <answer fraction="-50" format="html"><text><![CDATA[<p>Dinucleotides</p>]]></text></answer>
+  <answer fraction="-50" format="html"><text><![CDATA[<p>Nucleic acids</p>]]></text></answer>
+  <answer fraction="50" format="html"><text><![CDATA[<p>Biocatalysts</p>]]></text></answer>
   <tags>
     <tag><text>standard:neet_ug</text></tag>
     <tag><text>lang:en</text></tag>
     <tag><text>lang:bn</text></tag>
     <tag><text>subject:chemistry</text></tag>
     <tag><text>class:class_12</text></tag>
-    <tag><text>topic:biomolecules</text></tag>
     <tag><text>chapter:biomolecules</text></tag>
-    <tag><text>typology:multiple_choice</text></tag>
+    <tag><text>typology:mcq</text></tag>
     <tag><text>difficulty:easy</text></tag>
     <tag><text>blooms:remember</text></tag>
+    <tag><text>calculation:light</text></tag>
     <tag><text>media:text</text></tag>
     <tag><text>multiconcept:false</text></tag>
   </tags>
 </question>
+
+<question type="multichoice">
+  <name><text>NEET_UG_CHEMISTRY_BIOMOLECULES_MATCHING_Q58 - Matching vitamins with deficiency diseases</text></name>
+  <questiontext format="html"><text><![CDATA[<p>Match the vitamins given in Column I with the deficiency disease they cause given in Column II. (More than one option in Column II may match with the items given in Column I.)</p><table><thead><tr><th>Column I (Vitamins)</th><th>Column II (Diseases)</th></tr></thead><tbody><tr><td>(i) Vitamin A</td><td>(a) Pernicious anaemia</td></tr><tr><td>(ii) Vitamin \(\mathrm{B}_1\)</td><td>(b) Increased blood clotting time</td></tr><tr><td>(iii) Vitamin \(\mathrm{B}_{12}\)</td><td>(c) Xerophthalmia</td></tr><tr><td>(iv) Vitamin C</td><td>(d) Rickets</td></tr><tr><td>(v) Vitamin D</td><td>(e) Muscular weakness</td></tr><tr><td>(vi) Vitamin E</td><td>(f) Night blindness</td></tr><tr><td>(vii) Vitamin K</td><td>(g) Beri Beri</td></tr><tr><td></td><td>(h) Bleeding gums</td></tr><tr><td></td><td>(i) Osteomalacia</td></tr></tbody></table><hr/><p>কলাম I-এ প্রদত্ত ভিটামিনগুলোর সাথে কলাম II-এ প্রদত্ত অভাবজনিত রোগগুলোর মিল করো। (কলাম I-এর কোনো একটি বিষয়ের সাথে কলাম II-এর একাধিক বিকল্প মিলতে পারে।)</p><table><thead><tr><th>কলাম I (ভিটামিন)</th><th>কলাম II (রোগ)</th></tr></thead><tbody><tr><td>(i) ভিটামিন A</td><td>(a) পারনিসিয়াস অ্যানিমিয়া</td></tr><tr><td>(ii) ভিটামিন \(\mathrm{B}_1\)</td><td>(b) রক্ত তঞ্চনের সময় বৃদ্ধি</td></tr><tr><td>(iii) ভিটামিন \(\mathrm{B}_{12}\)</td><td>(c) জেরপথ্যালমিয়া</td></tr><tr><td>(iv) ভিটামিন C</td><td>(d) রিকেটস</td></tr><tr><td>(v) ভিটামিন D</td><td>(e) পেশির দুর্বলতা</td></tr><tr><td>(vi) ভিটামিন E</td><td>(f) রাতকানা রোগ</td></tr><tr><td>(vii) ভিটামিন K</td><td>(g) বেরিবেরি</td></tr><tr><td></td><td>(h) মাড়ি থেকে রক্ত পড়া</td></tr><tr><td></td><td>(i) অস্টিওম্যালাসিয়া</td></tr></tbody></table>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>Each essential vitamin performs specific physiological roles, and its deficiency leads to characteristic clinical disorders.</p><p><strong>Step 2: Evaluation</strong><br/>Vitamin A deficiency causes hardening of the cornea of the eye (xerophthalmia) and night blindness.<br/>Vitamin \(\mathrm{B}_1\) (thiamine) deficiency causes beri beri.<br/>Vitamin \(\mathrm{B}_{12}\) (cyanocobalamin) deficiency causes pernicious anaemia (RBC deficient in haemoglobin).<br/>Vitamin C (ascorbic acid) deficiency causes scurvy, characterized by bleeding gums.<br/>Vitamin D deficiency causes rickets (bone deformities in children) and osteomalacia (soft bones and joint pain in adults).<br/>Vitamin E deficiency causes increased fragility of RBCs and muscular weakness.<br/>Vitamin K deficiency causes increased blood clotting time.</p><p><strong>Step 3: Application</strong><br/>Mapping each vitamin to its corresponding deficiency condition(s) yields:<br/>Vitamin A &rarr; Xerophthalmia, Night blindness;<br/>Vitamin \(\mathrm{B}_1\) &rarr; Beri Beri;<br/>Vitamin \(\mathrm{B}_{12}\) &rarr; Pernicious anaemia;<br/>Vitamin C &rarr; Bleeding gums;<br/>Vitamin D &rarr; Rickets, Osteomalacia;<br/>Vitamin E &rarr; Muscular weakness;<br/>Vitamin K &rarr; Increased blood clotting time.</p><p><strong>Step 4: Final Conclusion</strong><br/>Thus, the complete matching is: (i)&ndash;(c), (f); (ii)&ndash;(g); (iii)&ndash;(a); (iv)&ndash;(h); (v)&ndash;(d), (i); (vi)&ndash;(e); (vii)&ndash;(b).</p><hr/><p><strong>ধাপ ১: ধারণাগত নীতি</strong><br/>প্রতিটি অত্যাবশ্যকীয় ভিটামিন দেহে নির্দিষ্ট শারীরবৃত্তীয় কাজ করে এবং এর অভাবে নির্দিষ্ট রোগের লক্ষণ দেখা দেয়।</p><p><strong>ধাপ ২: মূল্যায়ন</strong><br/>ভিটামিন A-এর অভাবে চোখের কর্নিয়া শক্ত হয়ে যাওয়া (জেরপথ্যালমিয়া) এবং রাতকানা রোগ হয়।<br/>ভিটামিন \(\mathrm{B}_1\) (থায়ামিন)-এর অভাবে বেরিবেরি রোগ হয়।<br/>ভিটামিন \(\mathrm{B}_{12}\) (সায়ানোকোবালামিন)-এর অভাবে পারনিসিয়াস অ্যানিমিয়া (হিমোগ্লোবিন-স্বল্পতা) হয়।<br/>ভিটামিন C (অ্যাসকরবিক অ্যাসিড)-এর অভাবে স্কার্ভি হয়, যার লক্ষণ হলো মাড়ি থেকে রক্ত পড়া।<br/>ভিটামিন D-এর অভাবে শিশুদের রিকেটস এবং প্রাপ্তবয়স্কদের অস্টিওম্যালাসিয়া (হাড় নরম হয়ে যাওয়া ও অস্থিসন্ধিতে ব্যথা) হয়।<br/>ভিটামিন E-এর অভাবে লোহিত রক্তকণিকার ভঙ্গুরতা বৃদ্ধি পায় এবং পেশির দুর্বলতা দেখা দেয়।<br/>ভিটামিন K-এর অভাবে রক্ত তঞ্চনের সময় বৃদ্ধি পায়।</p><p><strong>ধাপ ৩: প্রয়োগ</strong><br/>প্রতিটি ভিটামিনকে তার অভাবজনিত রোগের সাথে মেলালে পাওয়া যায়:<br/>ভিটামিন A &rarr; জেরপথ্যালমিয়া, রাতকানা রোগ;<br/>ভিটামিন \(\mathrm{B}_1\) &rarr; বেরিবেরি;<br/>ভিটামিন \(\mathrm{B}_{12}\) &rarr; পারনিসিয়াস অ্যানিমিয়া;<br/>ভিটামিন C &rarr; মাড়ি থেকে রক্ত পড়া;<br/>ভিটামিন D &rarr; রিকেটস, অস্টিওম্যালাসিয়া;<br/>ভিটামিন E &rarr; পেশির দুর্বলতা;<br/>ভিটামিন K &rarr; রক্ত তঞ্চনের সময় বৃদ্ধি।</p><p><strong>ধাপ ৪: চূড়ান্ত সিদ্ধান্ত</strong><br/>অতএব, সঠিক মিলটি হলো: (i)&ndash;(c), (f); (ii)&ndash;(g); (iii)&ndash;(a); (iv)&ndash;(h); (v)&ndash;(d), (i); (vi)&ndash;(e); (vii)&ndash;(b)।</p>]]></text></generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="100" format="html"><text><![CDATA[<p>(i)-(c), (f); (ii)-(g); (iii)-(a); (iv)-(h); (v)-(d), (i); (vi)-(e); (vii)-(b)</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>(i)-(c), (f); (ii)-(a); (iii)-(g); (iv)-(h); (v)-(d), (i); (vi)-(b); (vii)-(e)</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>(i)-(f); (ii)-(g); (iii)-(a); (iv)-(c), (h); (v)-(d); (vi)-(e), (i); (vii)-(b)</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>(i)-(c), (f); (ii)-(g); (iii)-(e); (iv)-(h); (v)-(d), (i); (vi)-(a); (vii)-(b)</p>]]></text></answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:bn</text></tag>
+    <tag><text>subject:chemistry</text></tag>
+    <tag><text>class:class_12</text></tag>
+    <tag><text>chapter:biomolecules</text></tag>
+    <tag><text>typology:matching-mcq</text></tag>
+    <tag><text>difficulty:medium</text></tag>
+    <tag><text>blooms:remember</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:table</text></tag>
+    <tag><text>multiconcept:true</text></tag>
+  </tags>
+</question>
+</quiz>

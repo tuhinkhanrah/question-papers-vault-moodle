@@ -1,82 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <quiz>
 <question type="multichoice">
-  <name>
-    <text>NEET_UG_PHYSICS_WORKENERGYANDPOWER_MCQ_Q15 - Kinetic and potential energy of falling raindrop</text>
-  </name>
-  <questiontext format="html">
-    <text><![CDATA[<p>A raindrop falling from a height \(h\) above ground, attains a near terminal velocity when it has fallen through a height \((3/4)h\). Which of the diagrams shown correctly shows the change in kinetic and potential energy of the drop during its fall up to the ground?</p>]]></text>
-  </questiontext>
-  <generalfeedback format="html">
-    <text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>- Initial height of raindrop: \(h\) above the ground.<br/>- Release condition: Starts from rest at height \(h\).<br/>- Terminal velocity attained after falling through distance: \(\frac{3}{4}h\).<br/>- Remaining distance to ground: \(h - \frac{3}{4}h = \frac{1}{4}h\).<br/>- Quantities plotted: Potential energy (\(PE\)) and kinetic energy (\(KE\)) as functions of time \(t\).</p><p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>The reference level for potential energy is ground level, so \(PE = 0\) at the ground. Upward resistive drag from air opposes downward motion and increases with speed.</p><p><strong>Step 3: Relevant Formulae and Principles</strong><br/>- Gravitational potential energy at height \(y\):<br/>\[PE = mgy\]<br/>- Kinetic energy at speed \(v\):<br/>\[KE = \frac{1}{2}mv^2\]<br/>- Terminal velocity condition: When the upward viscous drag balances downward gravity, acceleration becomes zero and speed remains constant at terminal velocity \(v_t\).</p><p><strong>Step 4: Step-by-Step Working</strong><br/>1. Potential energy behavior:<br/>At the start of the fall (\(t = 0\)), the drop is at height \(h\), so its potential energy is maximum (\(PE = mgh\)). As the drop falls continuously toward the ground, its height decreases monotonically to zero, causing potential energy to decrease continuously throughout the fall until it reaches zero at the ground.<br/>2. Kinetic energy behavior:<br/>Initially, the drop is released from rest, so \(KE = 0\). As it falls under gravity, it accelerates downward, causing its speed and kinetic energy to increase.<br/>However, as speed rises, air resistance increases, reducing downward acceleration. When the drop has fallen through \(\frac{3}{4}h\) (reaching height \(\frac{1}{4}h\)), air resistance balances gravity, and the drop attains terminal velocity.<br/>From this height down to the ground, velocity remains constant at the terminal speed. Consequently, kinetic energy becomes constant and forms a horizontal plateau during the final phase of the fall.</p><p><strong>Step 5: Check and Final Answer</strong><br/>Kinetic energy starts from zero, increases with decreasing slope, and becomes a constant horizontal line near terminal velocity, while potential energy starts from \(mgh\) and decreases continuously to zero at the ground.</p><p><strong>Final Answer:</strong><br/>The diagram in which kinetic energy rises from zero and levels off into a horizontal line at near terminal velocity while potential energy decreases continuously to zero.</p>]]></text>
-  </generalfeedback>
+  <name><text>NCERTEXEMPLAR_PHYSICS_MCQI_WORKENERGYANDPOWER_Q616 - Kinetic energy of a thrown shotput</text></name>
+  <questiontext format="html"><text><![CDATA[<p>In a shotput event an athlete throws the shotput of mass \(10\text{ kg}\) with an initial speed of \(1\text{ m s}^{-1}\) at \(45^\circ\) from a height \(1.5\text{ m}\) above ground. Assuming air resistance to be negligible and acceleration due to gravity to be \(10\text{ m s}^{-2}\), the kinetic energy of the shotput when it just reaches the ground will be</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>Mass of the shotput, \(m = 10\text{ kg}\). Initial speed, \(v_i = 1\text{ m s}^{-1}\). Angle of projection, \(\theta = 45^\circ\). Initial height above the ground, \(h = 1.5\text{ m}\). Acceleration due to gravity, \(g = 10\text{ m s}^{-2}\). Air resistance is negligible.</p><p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>Take the ground level as the reference for zero gravitational potential energy (\(U_f = 0\)). Since air resistance is negligible, only the conservative gravitational force does work on the shotput during its flight.</p><p><strong>Step 3: Relevant Formulae and Principles</strong><br/>By the law of conservation of mechanical energy:<br/>\(K_i + U_i = K_f + U_f\)<br/>where kinetic energy is \(K = \frac{1}{2}mv^2\) and gravitational potential energy is \(U = mgh\).</p><p><strong>Step 4: Step-by-Step Working</strong><br/>Initial kinetic energy:<br/>\(K_i = \frac{1}{2} m v_i^2 = \frac{1}{2} \times 10\text{ kg} \times (1\text{ m s}^{-1})^2 = 5.0\text{ J}\)<br/>Initial potential energy:<br/>\(U_i = mgh = 10\text{ kg} \times 10\text{ m s}^{-2} \times 1.5\text{ m} = 150.0\text{ J}\)<br/>At the ground, \(U_f = 0\). Therefore, the final kinetic energy is:<br/>\(K_f = K_i + U_i - U_f = 5.0\text{ J} + 150.0\text{ J} - 0 = 155.0\text{ J}\)</p><p><strong>Step 5: Check and Final Answer</strong><br/>The units are consistent in joules (\(\text{J}\)), and the final kinetic energy is greater than the initial kinetic energy due to the loss in gravitational potential energy. Thus, the kinetic energy of the shotput when it just reaches the ground is \(155.0\text{ J}\).</p>]]></text></generalfeedback>
   <defaultgrade>4.0000000</defaultgrade>
   <penalty>0.2500000</penalty>
   <hidden>0</hidden>
   <single>true</single>
   <shuffleanswers>true</shuffleanswers>
   <answernumbering>abc</answernumbering>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p><img src="@@PLUGINFILE@@/img-24.jpeg" alt="Diagram showing linear variations" /></p>]]></text>
-  </answer>
-  <answer fraction="100" format="html">
-    <text><![CDATA[<p><img src="@@PLUGINFILE@@/img-25.jpeg" alt="Diagram showing kinetic energy becoming constant and potential energy decreasing to zero" /></p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p><img src="@@PLUGINFILE@@/img-26.jpeg" alt="Diagram showing potential energy increasing linearly" /></p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p><img src="@@PLUGINFILE@@/img-27.jpeg" alt="Diagram showing symmetric parabolic curves" /></p>]]></text>
-  </answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>\(2.5\text{ J}\)</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>\(5.0\text{ J}\)</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>\(52.5\text{ J}\)</p>]]></text></answer>
+  <answer fraction="100" format="html"><text><![CDATA[<p>\(155.0\text{ J}\)</p>]]></text></answer>
   <tags>
     <tag><text>standard:neet_ug</text></tag>
     <tag><text>lang:en</text></tag>
     <tag><text>subject:physics</text></tag>
+    <tag><text>section:mcq_i</text></tag>
     <tag><text>class:class_11</text></tag>
-    <tag><text>topic:work_energy_and_power</text></tag>
-    <tag><text>chapter:work_energy_and_power</text></tag>
-    <tag><text>typology:mcq</text></tag>
-    <tag><text>difficulty:medium</text></tag>
-    <tag><text>blooms:analyze</text></tag>
-    <tag><text>calculation:light</text></tag>
-    <tag><text>media:graph</text></tag>
-    <tag><text>multiconcept:true</text></tag>
-  </tags>
-</question>
-<question type="multichoice">
-  <name>
-    <text>NEET_UG_PHYSICS_WORKENERGYANDPOWER_MCQ_Q16 - Kinetic energy of shotput reaching the ground</text>
-  </name>
-  <questiontext format="html">
-    <text><![CDATA[<p>In a shotput event an athlete throws the shotput of mass \(10\text{ kg}\) with an initial speed of \(1\text{ m s}^{-1}\) at \(45^\circ\) from a height \(1.5\text{ m}\) above ground. Assuming air resistance to be negligible and acceleration due to gravity to be \(10\text{ m s}^{-2}\), the kinetic energy of the shotput when it just reaches the ground will be</p>]]></text>
-  </questiontext>
-  <generalfeedback format="html">
-    <text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>- Mass of the shotput: \(m = 10\text{ kg}\).<br/>- Initial speed of projection: \(v_0 = 1\text{ m s}^{-1}\).<br/>- Angle of projection: \(\theta = 45^\circ\).<br/>- Initial height above ground: \(h = 1.5\text{ m}\).<br/>- Acceleration due to gravity: \(g = 10\text{ m s}^{-2}\).<br/>- Air resistance: Negligible.</p><p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>Because air resistance is negligible, the gravitational force is the only force doing work. Since gravity is conservative, total mechanical energy is conserved throughout the projectile motion. The ground level is chosen as the reference plane for gravitational potential energy (\(U = 0\)).</p><p><strong>Step 3: Relevant Formulae and Principles</strong><br/>- Initial kinetic energy:<br/>\[K_i = \frac{1}{2}m v_0^2\]<br/>- Initial potential energy:<br/>\[U_i = mgh\]<br/>- Conservation of mechanical energy:<br/>\[E_{\text{total}} = K_i + U_i = K_f + U_f\]</p><p><strong>Step 4: Step-by-Step Working</strong><br/>1. Calculate initial kinetic energy at launch:<br/>\[K_i = \frac{1}{2} \times 10\text{ kg} \times (1\text{ m s}^{-1})^2 = 5\text{ J}\]<br/>2. Calculate initial potential energy at height \(1.5\text{ m}\):<br/>\[U_i = 10\text{ kg} \times 10\text{ m s}^{-2} \times 1.5\text{ m} = 150\text{ J}\]<br/>3. Calculate total initial mechanical energy:<br/>\[E_{\text{total}} = K_i + U_i = 5\text{ J} + 150\text{ J} = 155\text{ J}\]<br/>4. Determine final kinetic energy when reaching the ground:<br/>At ground level, height is zero, so final potential energy \(U_f = 0\). By energy conservation:<br/>\[K_f = E_{\text{total}} - U_f = 155\text{ J} - 0 = 155.0\text{ J}\]</p><p><strong>Step 5: Check and Final Answer</strong><br/>The energy has correct units of joules (\(\text{J}\)), and the result is independent of the projection angle. The final kinetic energy is \(155.0\text{ J}\).</p><p><strong>Final Answer:</strong><br/>\(155.0\text{ J}\)</p>]]></text>
-  </generalfeedback>
-  <defaultgrade>4.0000000</defaultgrade>
-  <penalty>0.2500000</penalty>
-  <hidden>0</hidden>
-  <single>true</single>
-  <shuffleanswers>true</shuffleanswers>
-  <answernumbering>abc</answernumbering>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>2.5 J</p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>5.0 J</p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>52.5 J</p>]]></text>
-  </answer>
-  <answer fraction="100" format="html">
-    <text><![CDATA[<p>155.0 J</p>]]></text>
-  </answer>
-  <tags>
-    <tag><text>standard:neet_ug</text></tag>
-    <tag><text>lang:en</text></tag>
-    <tag><text>subject:physics</text></tag>
-    <tag><text>class:class_11</text></tag>
-    <tag><text>topic:work_energy_and_power</text></tag>
     <tag><text>chapter:work_energy_and_power</text></tag>
     <tag><text>typology:mcq</text></tag>
     <tag><text>difficulty:easy</text></tag>
@@ -87,39 +30,25 @@
   </tags>
 </question>
 <question type="multichoice">
-  <name>
-    <text>NEET_UG_PHYSICS_WORKENERGYANDPOWER_MCQ_Q17 - Kinetic energy of iron sphere in lake</text>
-  </name>
-  <questiontext format="html">
-    <text><![CDATA[<p>Which of the diagrams in the figure correctly shows the change in kinetic energy of an iron sphere falling freely in a lake having sufficient depth to impart it a terminal velocity?</p>]]></text>
-  </questiontext>
-  <generalfeedback format="html">
-    <text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>- Object: Solid iron sphere falling under gravity in a lake of large depth.<br/>- Initial state: Enters the water from rest at depth \(d = 0\).<br/>- Target relation: Variation of kinetic energy (\(K\)) as a function of depth.</p><p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>Depth is measured downward from the water surface. Forces acting on the sphere in the fluid are:<br/>- Downward gravitational force: \(W = mg\)<br/>- Upward buoyant force: \(F_b = \rho_{\text{water}} V g\)<br/>- Upward viscous resistive force: \(F_v = 6\pi\eta r v\)</p><p><strong>Step 3: Relevant Formulae and Principles</strong><br/>- Net downward force:<br/>\[F_{\text{net}} = mg - F_b - 6\pi\eta r v\]<br/>- Rate of change of kinetic energy with depth:<br/>\[\frac{dK}{dd} = \frac{d}{dd}\left(\frac{1}{2}mv^2\right) = mv\frac{dv}{dd} = ma = F_{\text{net}}\]</p><p><strong>Step 4: Step-by-Step Working</strong><br/>1. At the lake surface (\(d = 0\)), velocity is zero, so \(K = 0\).<br/>2. Since iron is denser than water (\(\rho_{\text{iron}} > \rho_{\text{water}}\)), \(mg > F_b\). Initially, when \(v\) is small, the net force is downward and positive, causing the sphere to accelerate downward. Hence, kinetic energy increases with depth.<br/>3. As velocity increases, the opposing viscous force increases linearly with \(v\), so \(F_{\text{net}}\) decreases. Thus, the slope \(\frac{dK}{dd} = F_{\text{net}}\) decreases continuously, making the curve concave downward.<br/>4. At sufficient depth, the upward viscous drag plus buoyancy exactly balances downward gravity (\(F_{\text{net}} = 0\)). The sphere reaches a steady constant speed known as terminal velocity (\(v_t\)).<br/>5. Beyond this depth, acceleration is zero, and kinetic energy remains constant at \(K_t = \frac{1}{2}mv_t^2\), producing a horizontal plateau parallel to the depth axis.</p><p><strong>Step 5: Check and Final Answer</strong><br/>The curve must start from the origin, curve upward with decreasing slope, and asymptotically approach a constant horizontal value.</p><p><strong>Final Answer:</strong><br/>The curve starting from the origin and increasing with decreasing slope until it becomes constant with depth.</p>]]></text>
-  </generalfeedback>
+  <name><text>NCERTEXEMPLAR_PHYSICS_MCQI_WORKENERGYANDPOWER_Q617 - Kinetic energy versus depth for sphere</text></name>
+  <questiontext format="html"><text><![CDATA[<p>Which of the diagrams in Fig. 6.9 correctly shows the change in kinetic energy of an iron sphere falling freely in a lake having sufficient depth to impart it a terminal velocity?</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>By the work-energy theorem, the rate of change of kinetic energy with respect to depth \(x\) equals the net downward force acting on the sphere: \(\frac{dK}{dx} = F_{\text{net}}\).</p><p><strong>Step 2: Evaluation</strong><br/>As the iron sphere enters and falls through the water, three forces act on it: downward weight \(mg\), upward buoyant force \(F_B\), and upward viscous drag force \(F_v\) which increases with speed. Thus, \(F_{\text{net}} = mg - F_B - F_v\).</p><p><strong>Step 3: Application</strong><br/>At zero depth, the initial speed is zero (or negligible), so the viscous drag is zero and the net downward force \(mg - F_B\) is positive and maximum. Therefore, the kinetic energy starts at zero with a positive, non-zero slope. As the sphere accelerates downward, its speed and the opposing viscous drag increase, causing \(F_{\text{net}}\) and hence the slope \(\frac{dK}{dx}\) to decrease continuously (producing a concave-downward curve). Once the sphere attains terminal velocity, \(F_{\text{net}} = 0\), so the slope becomes zero and the kinetic energy remains constant with further increase in depth.</p><p><strong>Step 4: Final Conclusion</strong><br/>The correct graph is the one that starts from the origin with a positive slope, curves concave downward as the slope decreases, and eventually flattens out into a horizontal line at constant kinetic energy.</p>]]></text></generalfeedback>
   <defaultgrade>4.0000000</defaultgrade>
   <penalty>0.2500000</penalty>
   <hidden>0</hidden>
   <single>true</single>
   <shuffleanswers>true</shuffleanswers>
   <answernumbering>abc</answernumbering>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p><img src="@@PLUGINFILE@@/img-28.jpeg" alt="Linear variation of kinetic energy with depth" /></p>]]></text>
-  </answer>
-  <answer fraction="100" format="html">
-    <text><![CDATA[<p><img src="@@PLUGINFILE@@/img-29.jpeg" alt="Kinetic energy increasing and becoming constant with depth" /></p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p><img src="@@PLUGINFILE@@/img-30.jpeg" alt="Sigmoidal variation of kinetic energy with depth" /></p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p><img src="@@PLUGINFILE@@/img-31.jpeg" alt="Upward curving variation of kinetic energy with depth" /></p>]]></text>
-  </answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p><img src="@@PLUGINFILE@@/img-28.jpeg" alt="Linear increase of K.E with depth" /></p>]]></text></answer>
+  <answer fraction="100" format="html"><text><![CDATA[<p><img src="@@PLUGINFILE@@/img-29.jpeg" alt="K.E increasing at decreasing rate and becoming constant with depth" /></p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p><img src="@@PLUGINFILE@@/img-30.jpeg" alt="S-shaped curve of K.E with depth" /></p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p><img src="@@PLUGINFILE@@/img-31.jpeg" alt="Concave upward curve of K.E with depth" /></p>]]></text></answer>
   <tags>
     <tag><text>standard:neet_ug</text></tag>
     <tag><text>lang:en</text></tag>
     <tag><text>subject:physics</text></tag>
+    <tag><text>section:mcq_i</text></tag>
     <tag><text>class:class_11</text></tag>
-    <tag><text>topic:work_energy_and_power</text></tag>
     <tag><text>chapter:work_energy_and_power</text></tag>
     <tag><text>typology:mcq</text></tag>
     <tag><text>difficulty:medium</text></tag>
@@ -130,82 +59,85 @@
   </tags>
 </question>
 <question type="multichoice">
-  <name>
-    <text>NEET_UG_PHYSICS_WORKENERGYANDPOWER_MCQ_Q18 - Force applied by batsman holding the bat</text>
-  </name>
-  <questiontext format="html">
-    <text><![CDATA[<p>A cricket ball of mass \(150\text{ g}\) moving with a speed of \(126\text{ km/h}\) hits at the middle of the bat, held firmly at its position by the batsman. The ball moves straight back to the bowler after hitting the bat. Assuming that collision between ball and bat is completely elastic and the two remain in contact for \(0.001\text{ s}\), the force that the batsman had to apply to hold the bat firmly at its place would be</p>]]></text>
-  </questiontext>
-  <generalfeedback format="html">
-    <text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>- Mass of cricket ball: \(m = 150\text{ g} = 0.15\text{ kg}\).<br/>- Initial speed: \(u = 126\text{ km/h}\).<br/>- Collision nature: Completely elastic.<br/>- Direction: Rebounds straight back along the line of incidence.<br/>- Duration of contact: \(\Delta t = 0.001\text{ s} = 10^{-3}\text{ s}\).</p><p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>Let the forward direction toward the batsman be positive. The rebound direction back to the bowler is therefore negative.</p><p><strong>Step 3: Relevant Formulae and Principles</strong><br/>- Speed unit conversion:<br/>\[1\text{ km/h} = \frac{5}{18}\text{ m/s}\]<br/>- Impulse-momentum theorem for average force exerted on the ball:<br/>\[\vec{F}_{\text{avg}} = \frac{\Delta\vec{p}}{\Delta t} = \frac{m(\vec{v} - \vec{u})}{\Delta t}\]<br/>- Newton's third law: The force exerted by the batsman holding the bat balances the impact force exerted by the ball on the bat.</p><p><strong>Step 4: Step-by-Step Working</strong><br/>1. Convert initial velocity into SI units:<br/>\[u = 126 \times \frac{5}{18}\text{ m/s} = 35\text{ m/s}\]<br/>2. Rebound velocity:<br/>Because the collision is perfectly elastic and the bat is held firmly at rest, the ball rebounds with an equal speed in the opposite direction:<br/>\[v = -35\text{ m/s}\]<br/>3. Change in momentum of the ball:<br/>\[\Delta p = m(v - u) = 0.15\text{ kg} \times (-35 - 35)\text{ m/s} = 0.15 \times (-70)\text{ kg m/s} = -10.5\text{ N s}\]<br/>4. Average force exerted on the ball during contact:<br/>\[F_{\text{ball}} = \frac{\Delta p}{\Delta t} = \frac{-10.5\text{ N s}}{10^{-3}\text{ s}} = -1.05 \times 10^4\text{ N}\]<br/>5. By Newton's third law, the force exerted by the ball on the bat is \(+1.05 \times 10^4\text{ N}\). To hold the bat firmly stationary in place, the batsman must exert an equal balancing force of magnitude \(1.05 \times 10^4\text{ N}\).</p><p><strong>Step 5: Check and Final Answer</strong><br/>The calculated force magnitude is \(1.05 \times 10^4\text{ N}\).</p><p><strong>Final Answer:</strong><br/>\(1.05 \times 10^4\text{ N}\)</p>]]></text>
-  </generalfeedback>
+  <name><text>NCERTEXEMPLAR_PHYSICS_MCQI_WORKENERGYANDPOWER_Q618 - Force applied by batsman on bat</text></name>
+  <questiontext format="html"><text><![CDATA[<p>A cricket ball of mass \(150\text{ g}\) moving with a speed of \(126\text{ km/h}\) hits at the middle of the bat, held firmly at its position by the batsman. The ball moves straight back to the bowler after hitting the bat. Assuming that collision between ball and bat is completely elastic and the two remain in contact for \(0.001\text{ s}\), the force that the batsman had to apply to hold the bat firmly at its place would be</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>Mass of the cricket ball, \(m = 150\text{ g} = 0.15\text{ kg}\). Initial speed of the ball, \(v = 126\text{ km/h}\). Time of contact, \(\Delta t = 0.001\text{ s} = 10^{-3}\text{ s}\). The collision is completely elastic and the bat is held firmly at rest.</p><p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>Take the direction from the bat toward the bowler (rebound direction) as positive, so the initial velocity toward the bat is \(u = -v\). Since the bat is held firmly at rest and the collision is completely elastic, the ball rebounds with the same speed \(v\) in the opposite direction.</p><p><strong>Step 3: Relevant Formulae and Principles</strong><br/>By Newton's second law (impulse-momentum theorem), the average force exerted on the ball (and by Newton's third law, equal in magnitude to the force the batsman applies to hold the bat) is:<br/>\(F = \frac{|\Delta p|}{\Delta t} = \frac{|m v_f - m u|}{\Delta t}\)</p><p><strong>Step 4: Step-by-Step Working</strong><br/>Convert the speed into SI units:<br/>\(v = 126\text{ km/h} = 126 \times \frac{5}{18}\text{ m s}^{-1} = 35\text{ m s}^{-1}\)<br/>Magnitude of change in momentum of the ball:<br/>\(|\Delta p| = |m(v) - m(-v)| = 2mv = 2 \times 0.15\text{ kg} \times 35\text{ m s}^{-1} = 10.5\text{ kg m s}^{-1}\)<br/>Average force applied:<br/>\(F = \frac{10.5\text{ kg m s}^{-1}}{10^{-3}\text{ s}} = 1.05 \times 10^4\text{ N}\)</p><p><strong>Step 5: Check and Final Answer</strong><br/>The units reduce to \(\text{kg m s}^{-2} = \text{N}\), and a large impulsive force is expected for a very short contact time of \(1\text{ ms}\). Thus, the force the batsman had to apply is \(1.05 \times 10^4\text{ N}\).</p>]]></text></generalfeedback>
   <defaultgrade>4.0000000</defaultgrade>
   <penalty>0.2500000</penalty>
   <hidden>0</hidden>
   <single>true</single>
   <shuffleanswers>true</shuffleanswers>
   <answernumbering>abc</answernumbering>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>10.5 N</p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>21 N</p>]]></text>
-  </answer>
-  <answer fraction="100" format="html">
-    <text><![CDATA[<p>\(1.05 \times 10^4\text{ N}\)</p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>\(2.1 \times 10^4\text{ N}\)</p>]]></text>
-  </answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>\(10.5\text{ N}\)</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>\(21\text{ N}\)</p>]]></text></answer>
+  <answer fraction="100" format="html"><text><![CDATA[<p>\(1.05 \times 10^{4}\text{ N}\)</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>\(2.1 \times 10^{4}\text{ N}\)</p>]]></text></answer>
   <tags>
     <tag><text>standard:neet_ug</text></tag>
     <tag><text>lang:en</text></tag>
     <tag><text>subject:physics</text></tag>
+    <tag><text>section:mcq_i</text></tag>
     <tag><text>class:class_11</text></tag>
-    <tag><text>topic:work_energy_and_power</text></tag>
     <tag><text>chapter:work_energy_and_power</text></tag>
     <tag><text>typology:mcq</text></tag>
-    <tag><text>difficulty:easy</text></tag>
+    <tag><text>difficulty:medium</text></tag>
     <tag><text>blooms:apply</text></tag>
     <tag><text>calculation:moderate</text></tag>
     <tag><text>media:text</text></tag>
-    <tag><text>multiconcept:false</text></tag>
+    <tag><text>multiconcept:true</text></tag>
   </tags>
 </question>
 <question type="multichoice">
-  <name>
-    <text>NEET_UG_PHYSICS_WORKENERGYANDPOWER_MCQ_Q19 - Work done by forces on climbing man</text>
-  </name>
-  <questiontext format="html">
-    <text><![CDATA[<p>A man, of mass \(m\), standing at the bottom of the staircase, of height \(L\) climbs it and stands at its top.</p>]]></text>
-  </questiontext>
-  <generalfeedback format="html">
-    <text><![CDATA[<p><strong>Step 1: Conceptual Principles</strong><br/>Consider the man as a thermodynamic/mechanical system moving from rest at the bottom of a staircase of height \(L\) to rest at the top.</p><p><strong>Step 2: Evaluation of Work Done by All Forces</strong><br/>According to the work-energy theorem:<br/>\[W_{\text{net}} = \Delta K = K_f - K_i\]<br/>Since the man starts from rest at the bottom (\(K_i = 0\)) and stands stationary at the top (\(K_f = 0\)), the total change in kinetic energy is zero:<br/>\[\Delta K = 0 \implies W_{\text{all forces}} = 0\]<br/>Therefore, the work done by all external forces acting on the man is zero.</p><p><strong>Step 3: Evaluation of Work Done by Gravity</strong><br/>The downward gravitational force is \(\vec{F}_g = -mg\,\hat{j}\), while his vertical displacement is \(\vec{s} = L\,\hat{j}\). The work done by gravity is:<br/>\[W_g = \vec{F}_g \cdot \vec{s} = -mgL\]<br/>Hence, the gravitational work done on the man is \(-mgL\), not \(+mgL\).</p><p><strong>Step 4: Evaluation of Normal Reaction Force</strong><br/>When the man climbs each step, the contact normal reaction force acts on his foot only while that foot is firmly pressed against the step. During this period of contact, the foot does not move, meaning the displacement of the point of application of the normal force is zero. When the foot is lifted and moves upward, it is in the air and the contact reaction force from the step is zero. Consequently, the normal reaction force from the steps does zero work.</p><p><strong>Step 5: Final Conclusion</strong><br/>The correct statements are that the work done by all forces on the man is zero, and the reaction force from a step does not do work because the point of application of the force does not move while the force exists.</p><p><strong>Final Answer:</strong><br/>The statements stating that work done by all forces on the man is zero, and that the reaction force from a step does not do work because the point of application of the force does not move while the force exists.</p>]]></text>
-  </generalfeedback>
+  <name><text>NCERTEXEMPLAR_PHYSICS_MCQII_WORKENERGYANDPOWER_Q619 - Work done climbing a staircase</text></name>
+  <questiontext format="html"><text><![CDATA[<p>A man, of mass \(m\), standing at the bottom of the staircase, of height \(L\) climbs it and stands at its top.</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>According to the work-energy theorem, the net work done by all forces acting on a body equals the change in its kinetic energy (\(W_{\text{all}} = \Delta K\)). Also, mechanical work done by a force is \(W = \int \vec{F} \cdot d\vec{r}\), where \(d\vec{r}\) is the displacement of the point of application of the force.</p><p><strong>Step 2: Evaluation</strong><br/>Since the man is standing at rest at the bottom initially and standing at rest at the top finally, his initial and final kinetic energies are both zero. Thus \(\Delta K = 0\), which means the work done by all forces on the man is zero, not \(mgL\).</p><p><strong>Step 3: Application</strong><br/>As the man climbs upward by height \(L\), the gravitational force acts downward, so the work done by the gravitational force is \(-mgL\) (negative, not \(+mgL\)). Furthermore, when the man pushes down on a step, the normal reaction force from the step acts on the man's foot only while the foot is stationary on the step. Because the point of application of the reaction force does not move while the force exists, the reaction force from a step does no work.</p><p><strong>Step 4: Final Conclusion</strong><br/>Therefore, the work done by all forces on the man is zero, and the reaction force from a step does not do work because the point of application of the force does not move while the force exists.</p>]]></text></generalfeedback>
   <defaultgrade>4.0000000</defaultgrade>
   <penalty>0.2500000</penalty>
   <hidden>0</hidden>
   <single>false</single>
   <shuffleanswers>true</shuffleanswers>
   <answernumbering>abc</answernumbering>
-  <answer fraction="-50" format="html">
-    <text><![CDATA[<p>Work done by all forces on man is equal to the rise in potential energy \(mgL\).</p>]]></text>
-  </answer>
-  <answer fraction="50" format="html">
-    <text><![CDATA[<p>Work done by all forces on man is zero.</p>]]></text>
-  </answer>
-  <answer fraction="-50" format="html">
-    <text><![CDATA[<p>Work done by the gravitational force on man is \(mgL\).</p>]]></text>
-  </answer>
-  <answer fraction="50" format="html">
-    <text><![CDATA[<p>The reaction force from a step does not do work because the point of application of the force does not move while the force exists.</p>]]></text>
-  </answer>
+  <answer fraction="-50" format="html"><text><![CDATA[<p>Work done by all forces on man is equal to the rise in potential energy \(mgL\).</p>]]></text></answer>
+  <answer fraction="50" format="html"><text><![CDATA[<p>Work done by all forces on man is zero.</p>]]></text></answer>
+  <answer fraction="-50" format="html"><text><![CDATA[<p>Work done by the gravitational force on man is \(mgL\).</p>]]></text></answer>
+  <answer fraction="50" format="html"><text><![CDATA[<p>The reaction force from a step does not do work because the point of application of the force does not move while the force exists.</p>]]></text></answer>
   <tags>
     <tag><text>standard:neet_ug</text></tag>
     <tag><text>lang:en</text></tag>
     <tag><text>subject:physics</text></tag>
+    <tag><text>section:mcq_ii</text></tag>
     <tag><text>class:class_11</text></tag>
-    <tag><text>topic:work_energy_and_power</text></tag>
+    <tag><text>chapter:work_energy_and_power</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:medium</text></tag>
+    <tag><text>blooms:understand</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:text</text></tag>
+    <tag><text>multiconcept:true</text></tag>
+  </tags>
+</question>
+<question type="multichoice">
+  <name><text>NCERTEXEMPLAR_PHYSICS_MCQII_WORKENERGYANDPOWER_Q620 - Bullet emerging from soft target</text></name>
+  <questiontext format="html"><text><![CDATA[<p>A bullet of mass \(m\) fired at \(30^\circ\) to the horizontal leaves the barrel of the gun with a velocity \(v\). The bullet hits a soft target at a height \(h\) above the ground while it is moving downward and emerges out with half the kinetic energy it had before hitting the target.</p><p>Which of the following statements are correct in respect of bullet after it emerges out of the target?</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>Kinetic energy is given by \(K = \frac{1}{2}mu^2\). Under uniform gravity alone, a projectile with non-zero horizontal velocity follows a parabolic trajectory determined by its velocity at the point of emergence. By conservation of energy, any loss in mechanical energy during an inelastic interaction with a target is converted into internal energy.</p><p><strong>Step 2: Evaluation</strong><br/>Let \(v_1\) be the speed of the bullet just before hitting the target, so its kinetic energy is \(K_1 = \frac{1}{2}mv_1^2\). Upon emerging, its kinetic energy becomes \(K_2 = \frac{1}{2}K_1 = \frac{1}{2}m\left(\frac{v_1}{\sqrt{2}}\right)^2\). Thus, the new speed is \(v_2 = \frac{v_1}{\sqrt{2}} \approx 0.707\,v_1\), which is greater than \(\frac{1}{2}v_1\).</p><p><strong>Step 3: Application</strong><br/>Because the bullet emerges with a reduced speed \(v_2 &lt; v_1\) and still retains a horizontal component of velocity, it does not fall vertically downward nor does it continue along the original parabolic path; instead, it moves in a different parabolic path under gravity. Furthermore, the half of the kinetic energy lost by the bullet while passing through the soft target is dissipated into the target, increasing the internal energy of the particles of the target.</p><p><strong>Step 4: Final Conclusion</strong><br/>Therefore, after emerging out of the target, the velocity of the bullet will be more than half of its earlier velocity, the bullet will move in a different parabolic path, and the internal energy of the particles of the target will increase.</p>]]></text></generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>false</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="-50" format="html"><text><![CDATA[<p>The velocity of the bullet will be reduced to half its initial value.</p>]]></text></answer>
+  <answer fraction="33.33333" format="html"><text><![CDATA[<p>The velocity of the bullet will be more than half of its earlier velocity.</p>]]></text></answer>
+  <answer fraction="-50" format="html"><text><![CDATA[<p>The bullet will continue to move along the same parabolic path.</p>]]></text></answer>
+  <answer fraction="33.33333" format="html"><text><![CDATA[<p>The bullet will move in a different parabolic path.</p>]]></text></answer>
+  <answer fraction="-50" format="html"><text><![CDATA[<p>The bullet will fall vertically downward after hitting the target.</p>]]></text></answer>
+  <answer fraction="33.33333" format="html"><text><![CDATA[<p>The internal energy of the particles of the target will increase.</p>]]></text></answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>section:mcq_ii</text></tag>
+    <tag><text>class:class_11</text></tag>
     <tag><text>chapter:work_energy_and_power</text></tag>
     <tag><text>typology:mcq</text></tag>
     <tag><text>difficulty:medium</text></tag>
@@ -216,93 +148,30 @@
   </tags>
 </question>
 <question type="multichoice">
-  <name>
-    <text>NEET_UG_PHYSICS_WORKENERGYANDPOWER_MCQ_Q20 - Motion of bullet after emerging from target</text>
-  </name>
-  <questiontext format="html">
-    <text><![CDATA[<p>A bullet of mass \(m\) fired at \(30^\circ\) to the horizontal leaves the barrel of the gun with a velocity \(v\). The bullet hits a soft target at a height \(h\) above the ground while it is moving downward and emerges out with half the kinetic energy it had before hitting the target.</p><p>Which of the following statements are correct in respect of bullet after it emerges out of the target?</p>]]></text>
-  </questiontext>
-  <generalfeedback format="html">
-    <text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>- Bullet mass: \(m\).<br/>- Launch velocity: \(v\) at \(30^\circ\) to the horizontal.<br/>- State before impact: Moving downward at height \(h\) with speed \(v_1\).<br/>- Kinetic energy before impact: \(K_1 = \frac{1}{2}mv_1^2\).<br/>- Kinetic energy after emerging: \(K_2 = \frac{1}{2}K_1\).</p><p><strong>Step 2: Speed After Emerging</strong><br/>Let \(v_2\) be the speed of the bullet upon emerging from the target:<br/>\[K_2 = \frac{1}{2}mv_2^2 = \frac{1}{2}\left(\frac{1}{2}mv_1^2\right) = \frac{1}{4}mv_1^2\]<br/>Taking the square root:<br/>\[v_2 = \frac{v_1}{\sqrt{2}} \approx 0.707 v_1\]<br/>Since \(0.707 > 0.5\), the velocity of the bullet is more than half of its earlier velocity, rather than being reduced to half.</p><p><strong>Step 3: Trajectory After Emerging</strong><br/>After emerging from the target at height \(h\), the bullet moves solely under the influence of gravity with a reduced speed and possibly altered direction. Consequently, it executes projectile motion along a different parabolic trajectory than its initial path.</p><p><strong>Step 4: Energy Transformation in the Target</strong><br/>By conservation of total energy, the loss in kinetic energy of the bullet (\(\Delta K = K_1 - K_2 = \frac{1}{2}K_1\)) is dissipated in doing work against resistive forces inside the target material. This lost mechanical energy transforms into thermal and internal energy, causing an increase in the internal energy of the particles of the target.</p><p><strong>Step 5: Final Conclusion</strong><br/>The correct statements are:<br/>- The velocity of the bullet will be more than half of its earlier velocity.<br/>- The bullet will move in a different parabolic path.<br/>- The internal energy of the particles of the target will increase.</p><p><strong>Final Answer:</strong><br/>The statements establishing that the velocity of the bullet will be more than half of its earlier velocity, that it will move in a different parabolic path, and that the internal energy of the particles of the target will increase.</p>]]></text>
-  </generalfeedback>
+  <name><text>NCERTEXEMPLAR_PHYSICS_MCQII_WORKENERGYANDPOWER_Q621 - Head-on collision with spring block</text></name>
+  <questiontext format="html"><text><![CDATA[<p>Two blocks \(M_1\) and \(M_2\) having equal mass are free to move on a horizontal frictionless surface. \(M_2\) is attached to a massless spring as shown in Fig. 6.10. Initially \(M_2\) is at rest and \(M_1\) is moving toward \(M_2\) with speed \(v\) and collides head-on with \(M_2\).</p><p><img src="@@PLUGINFILE@@/img-32.jpeg" alt="Fig. 6.10 Two blocks M1 and M2 of equal mass m with M2 attached to a massless spring" /></p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>In the absence of external horizontal forces on a frictionless surface, the total linear momentum of the two-block system is conserved at every instant during the collision. If the spring is massless and there is no friction, mechanical energy is conserved and the collision is elastic.</p><p><strong>Step 2: Evaluation</strong><br/>At the instant of maximum compression of the spring, both blocks move together with the same velocity \(v_{\text{cm}} = \frac{mv}{2m} = \frac{v}{2}\). At this instant, the system possesses kinetic energy \(\frac{1}{2}(2m)\left(\frac{v}{2}\right)^2 = \frac{1}{4}mv^2\), so only half of the initial kinetic energy is stored as potential energy of the spring, not all of it. Furthermore, system momentum is conserved throughout, including while the spring is fully compressed.</p><p><strong>Step 3: Application</strong><br/>Since the spring is massless and the surface is frictionless, the collision is elastic. In a head-on elastic collision between two bodies of equal mass where one is initially at rest, the bodies exchange their velocities after separation; hence, the final state of \(M_1\) is a state of rest. Conversely, if the surface has friction, mechanical energy is dissipated as heat, so total kinetic energy is not conserved and the collision cannot be elastic.</p><p><strong>Step 4: Final Conclusion</strong><br/>Therefore, if the spring is massless, the final state of \(M_1\) is a state of rest, and if the surface on which the blocks are moving has friction, then the collision cannot be elastic.</p>]]></text></generalfeedback>
   <defaultgrade>4.0000000</defaultgrade>
   <penalty>0.2500000</penalty>
   <hidden>0</hidden>
   <single>false</single>
   <shuffleanswers>true</shuffleanswers>
   <answernumbering>abc</answernumbering>
-  <answer fraction="-33.33333" format="html">
-    <text><![CDATA[<p>The velocity of the bullet will be reduced to half its initial value.</p>]]></text>
-  </answer>
-  <answer fraction="33.33333" format="html">
-    <text><![CDATA[<p>The velocity of the bullet will be more than half of its earlier velocity.</p>]]></text>
-  </answer>
-  <answer fraction="-33.33333" format="html">
-    <text><![CDATA[<p>The bullet will continue to move along the same parabolic path.</p>]]></text>
-  </answer>
-  <answer fraction="33.33333" format="html">
-    <text><![CDATA[<p>The bullet will move in a different parabolic path.</p>]]></text>
-  </answer>
-  <answer fraction="-33.33333" format="html">
-    <text><![CDATA[<p>The bullet will fall vertically downward after hitting the target.</p>]]></text>
-  </answer>
-  <answer fraction="33.33333" format="html">
-    <text><![CDATA[<p>The internal energy of the particles of the target will increase.</p>]]></text>
-  </answer>
+  <answer fraction="-50" format="html"><text><![CDATA[<p>While spring is fully compressed all the KE of \(M_1\) is stored as PE of spring.</p>]]></text></answer>
+  <answer fraction="-50" format="html"><text><![CDATA[<p>While spring is fully compressed the system momentum is not conserved, though final momentum is equal to initial momentum.</p>]]></text></answer>
+  <answer fraction="50" format="html"><text><![CDATA[<p>If spring is massless, the final state of the \(M_1\) is state of rest.</p>]]></text></answer>
+  <answer fraction="50" format="html"><text><![CDATA[<p>If the surface on which blocks are moving has friction, then collision cannot be elastic.</p>]]></text></answer>
   <tags>
     <tag><text>standard:neet_ug</text></tag>
     <tag><text>lang:en</text></tag>
     <tag><text>subject:physics</text></tag>
+    <tag><text>section:mcq_ii</text></tag>
     <tag><text>class:class_11</text></tag>
-    <tag><text>topic:work_energy_and_power</text></tag>
     <tag><text>chapter:work_energy_and_power</text></tag>
     <tag><text>typology:mcq</text></tag>
     <tag><text>difficulty:medium</text></tag>
     <tag><text>blooms:analyze</text></tag>
     <tag><text>calculation:light</text></tag>
-    <tag><text>media:text</text></tag>
-    <tag><text>multiconcept:true</text></tag>
-  </tags>
-</question>
-<question type="multichoice">
-  <name>
-    <text>NEET_UG_PHYSICS_WORKENERGYANDPOWER_MCQ_Q21 - Collision of equal masses with attached spring</text>
-  </name>
-  <questiontext format="html">
-    <text><![CDATA[<p>Two blocks \(M_1\) and \(M_2\) having equal mass are free to move on a horizontal frictionless surface. \(M_2\) is attached to a massless spring as shown in the figure.</p><p><img src="@@PLUGINFILE@@/img-32.jpeg" alt="Fig. 6.10" /></p><p>Initially \(M_2\) is at rest and \(M_1\) is moving toward \(M_2\) with speed \(v\) and collides head-on with \(M_2\).</p>]]></text>
-  </questiontext>
-  <generalfeedback format="html">
-    <text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>- Masses: \(M_1 = M_2 = m\).<br/>- Surface: Horizontal and frictionless.<br/>- Initial velocities: \(u_1 = v\) for \(M_1\) and \(u_2 = 0\) for \(M_2\).<br/>- Spring: Massless and attached to \(M_2\).</p><p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>Motion is one-dimensional along the horizontal axis. Since the surface is frictionless and the spring is ideal, no external horizontal force acts on the two-block system.</p><p><strong>Step 3: Relevant Formulae and Principles</strong><br/>- Conservation of linear momentum:<br/>\[P_{\text{total}} = m u_1 + m u_2 = mv = \text{constant}\]<br/>- Velocity of center of mass:<br/>\[v_{\text{cm}} = \frac{m v + m(0)}{2m} = \frac{v}{2}\]<br/>- Kinetic energy at maximum spring compression:<br/>At maximum compression, both blocks move with the common center-of-mass velocity \(v_{\text{cm}}\):<br/>\[K_{\text{cm}} = \frac{1}{2}(2m) v_{\text{cm}}^2 = m \left(\frac{v}{2}\right)^2 = \frac{1}{4}mv^2\]<br/>Since initial kinetic energy is \(K_i = \frac{1}{2}mv^2\), the potential energy stored in the spring is:<br/>\[U_{\text{spring}} = K_i - K_{\text{cm}} = \frac{1}{2}mv^2 - \frac{1}{4}mv^2 = \frac{1}{4}mv^2\]<br/>Thus, only half of the initial kinetic energy is stored as potential energy, not all of it.</p><p><strong>Step 4: Step-by-Step Working</strong><br/>1. Momentum conservation: Since the net external horizontal force is zero at all instants during the collision, linear momentum is conserved throughout, including at the instant of maximum compression.<br/>2. Final state after collision: The collision mediated by an ideal massless spring is an elastic head-on collision between two equal masses. For two equal masses colliding elastically in one dimension, the bodies exchange their velocities completely:<br/>\[v_{1,\text{final}} = u_2 = 0, \quad v_{2,\text{final}} = u_1 = v\]<br/>Thus, the final state of block \(M_1\) is the state of rest.<br/>3. Effect of friction: If friction were present on the surface, mechanical energy would be continuously dissipated as thermal energy, which prevents total kinetic energy from being conserved, meaning the collision cannot be elastic.</p><p><strong>Step 5: Check and Final Answer</strong><br/>The correct statements are that if the spring is massless, the final state of \(M_1\) is a state of rest, and if the surface has friction, then the collision cannot be elastic.</p><p><strong>Final Answer:</strong><br/>The statements stating that if the spring is massless, the final state of \(M_1\) is a state of rest, and if the surface on which blocks are moving has friction, then the collision cannot be elastic.</p>]]></text>
-  </generalfeedback>
-  <defaultgrade>4.0000000</defaultgrade>
-  <penalty>0.2500000</penalty>
-  <hidden>0</hidden>
-  <single>false</single>
-  <shuffleanswers>true</shuffleanswers>
-  <answernumbering>abc</answernumbering>
-  <answer fraction="-50" format="html">
-    <text><![CDATA[<p>While spring is fully compressed all the KE of \(M_1\) is stored as PE of spring.</p>]]></text>
-  </answer>
-  <answer fraction="-50" format="html">
-    <text><![CDATA[<p>While spring is fully compressed the system momentum is not conserved, though final momentum is equal to initial momentum.</p>]]></text>
-  </answer>
-  <answer fraction="50" format="html">
-    <text><![CDATA[<p>If spring is massless, the final state of the \(M_1\) is state of rest.</p>]]></text>
-  </answer>
-  <answer fraction="50" format="html">
-    <text><![CDATA[<p>If the surface on which blocks are moving has friction, then collision cannot be elastic.</p>]]></text>
-  </answer>
-  <tags>
-    <tag><text>standard:neet_ug</text></tag>
-    <tag><text>lang:en</text></tag>
-    <tag><text>subject:physics</text></tag>
-    <tag><text>class:class_11</text></tag>
-    <tag><text>topic:work_energy_and_power</text></tag>
-    <tag><text>chapter:work_energy_and_power</text></tag>
-    <tag><text>typology:mcq</text></tag>
-    <tag><text>difficulty:medium</text></tag>
-    <tag><text>blooms:analyze</text></tag>
-    <tag><text>calculation:moderate</text></tag>
     <tag><text>media:diagram</text></tag>
     <tag><text>multiconcept:true</text></tag>
   </tags>

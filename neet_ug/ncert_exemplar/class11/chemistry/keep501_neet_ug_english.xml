@@ -1,136 +1,87 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <quiz>
 <question type="multichoice">
-  <name><text>NEET_UG_CHEMISTRY_SOMEBASICCONCEPTSOFCHEMISTRY_MCQ_Q01 - Precision and accuracy in measurement readings</text></name>
-  <questiontext format="html">
-    <text><![CDATA[<p>Two students performed the same experiment separately and each one of them recorded two readings of mass which are given below. Correct reading of mass is \(3.0\text{ g}\). On the basis of given data, mark the correct option out of the following statements.</p>
-<table>
-<thead>
-<tr>
-<th scope="col">Student</th>
-<th scope="col" colspan="2">Readings</th>
-</tr>
-<tr>
-<th scope="col"></th>
-<th scope="col">(i)</th>
-<th scope="col">(ii)</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>A</td>
-<td>3.01</td>
-<td>2.99</td>
-</tr>
-<tr>
-<td>B</td>
-<td>3.05</td>
-<td>2.95</td>
-</tr>
-</tbody>
-</table>]]></text>
-  </questiontext>
-  <generalfeedback format="html">
-    <text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>
-True value of mass = \(3.0\text{ g}\).<br/>
-Readings recorded by Student A: \(3.01\text{ g}\) and \(2.99\text{ g}\).<br/>
-Readings recorded by Student B: \(3.05\text{ g}\) and \(2.95\text{ g}\).</p>
-<p><strong>Step 2: Assumptions and Principles</strong><br/>
-Precision refers to the closeness of various measurements for the same quantity to one another.<br/>
-Accuracy refers to the agreement of a particular value to the true value of the result.</p>
-<p><strong>Step 3: Relevant Formulae and Principles</strong><br/>
-Mean of readings: \(\bar{x} = \frac{x_1 + x_2}{2}\).<br/>
-Closeness of readings is evaluated by the difference \(|x_1 - x_2|\).</p>
-<p><strong>Step 4: Step-by-Step Working</strong><br/>
-For Student A:<br/>
-Difference between measurements = \(|3.01\text{ g} - 2.99\text{ g}| = 0.02\text{ g}\).<br/>
-Mean of measurements = \(\frac{3.01\text{ g} + 2.99\text{ g}}{2} = 3.00\text{ g}\).<br/>
-For Student B:<br/>
-Difference between measurements = \(|3.05\text{ g} - 2.95\text{ g}| = 0.10\text{ g}\).<br/>
-Mean of measurements = \(\frac{3.05\text{ g} + 2.95\text{ g}}{2} = 3.00\text{ g}\).<br/>
-The readings of Student A are very close to each other (\(0.02\text{ g}\) difference), indicating high precision. The average value matches the correct reading of \(3.0\text{ g}\), indicating high accuracy.<br/>
-The readings of Student B have a larger variation (\(0.10\text{ g}\) difference), so they are not precise, although their average happens to coincide with the true value.</p>
-<p><strong>Step 5: Check and Final Answer</strong><br/>
-The data confirms that the results of student A are both precise and accurate.</p>]]></text>
-  </generalfeedback>
+  <name><text>NEET_UG_CHEMISTRY_MCQI_SOMEBASICCONCEPTSOFCHEMISTRY_MCQ_Q01 - Accuracy and precision of mass measurements</text></name>
+  <questiontext format="html"><text><![CDATA[<p>1. Two students performed the same experiment separately and each one of them recorded two readings of mass which are given below. Correct reading of mass is 3.0 g. On the basis of given data, mark the correct option out of the following statements.</p>
+<table border="1" cellpadding="5" cellspacing="0">
+  <thead>
+    <tr>
+      <th rowspan="2">Student</th>
+      <th colspan="2">Readings</th>
+    </tr>
+    <tr>
+      <th>(i)</th>
+      <th>(ii)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>A</td>
+      <td>3.01</td>
+      <td>2.99</td>
+    </tr>
+    <tr>
+      <td>B</td>
+      <td>3.05</td>
+      <td>2.95</td>
+    </tr>
+  </tbody>
+</table>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>Precision refers to the closeness of various measurements for the same quantity to one another. Accuracy refers to the agreement of a particular value (or the average of measurements) to the true value of the result.</p>
+<p><strong>Step 2: Evaluation</strong><br/>The true mass is \(3.0\text{ g}\). For student A, the readings are \(3.01\text{ g}\) and \(2.99\text{ g}\). Their average is \(\frac{3.01 + 2.99}{2} = 3.00\text{ g}\), which matches the true value, and the difference between the two readings is only \(0.02\text{ g}\). For student B, the readings are \(3.05\text{ g}\) and \(2.95\text{ g}\). Their average is \(\frac{3.05 + 2.95}{2} = 3.00\text{ g}\), which matches the true value, but the difference between the two readings is \(0.10\text{ g}\).</p>
+<p><strong>Step 3: Application</strong><br/>Since the readings of student A are both very close to each other and their average equals the true value, the results of student A are both precise and accurate. For student B, the average equals the true value (accurate), but the individual readings are spread apart (not precise).</p>
+<p><strong>Step 4: Final Conclusion</strong><br/>Results of student A are both precise and accurate.</p>]]></text></generalfeedback>
   <defaultgrade>4.0000000</defaultgrade>
   <penalty>0.2500000</penalty>
   <hidden>0</hidden>
   <single>true</single>
   <shuffleanswers>true</shuffleanswers>
   <answernumbering>iii</answernumbering>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>Results of both the students are neither accurate nor precise.</p>]]></text>
-  </answer>
-  <answer fraction="100" format="html">
-    <text><![CDATA[<p>Results of student A are both precise and accurate.</p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>Results of student B are neither precise nor accurate.</p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>Results of student B are both precise and accurate.</p>]]></text>
-  </answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>Results of both the students are neither accurate nor precise.</p>]]></text></answer>
+  <answer fraction="100" format="html"><text><![CDATA[<p>Results of student A are both precise and accurate.</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>Results of student B are neither precise nor accurate.</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>Results of student B are both precise and accurate.</p>]]></text></answer>
   <tags>
     <tag><text>standard:neet_ug</text></tag>
     <tag><text>lang:en</text></tag>
     <tag><text>subject:chemistry</text></tag>
+    <tag><text>section:mcq_type_1</text></tag>
     <tag><text>class:11</text></tag>
     <tag><text>chapter:some_basic_concepts_of_chemistry</text></tag>
-    <tag><text>typology:mcq</text></tag>
+    <tag><text>typology:single_choice</text></tag>
     <tag><text>difficulty:easy</text></tag>
-    <tag><text>blooms:understand</text></tag>
+    <tag><text>blooms:analyze</text></tag>
     <tag><text>calculation:light</text></tag>
     <tag><text>media:table</text></tag>
     <tag><text>multiconcept:false</text></tag>
   </tags>
 </question>
 <question type="multichoice">
-  <name><text>NEET_UG_CHEMISTRY_SOMEBASICCONCEPTSOFCHEMISTRY_MCQ_Q02 - Conversion of temperature from Fahrenheit to Celsius</text></name>
-  <questiontext format="html">
-    <text><![CDATA[<p>A measured temperature on Fahrenheit scale is \(200\ ^\circ\mathrm{F}\). What will this reading be on Celsius scale?</p>]]></text>
-  </questiontext>
-  <generalfeedback format="html">
-    <text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>
-Temperature on Fahrenheit scale, \(T_{\mathrm{F}} = 200\ ^\circ\mathrm{F}\).</p>
-<p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>
-The Celsius and Fahrenheit scales are linearly related based on the freezing and boiling points of water under standard atmospheric pressure.</p>
-<p><strong>Step 3: Relevant Formulae and Principles</strong><br/>
-The relationship between Fahrenheit and Celsius scales is given by:<br/>
-\[\ ^\circ\mathrm{C} = \frac{5}{9} (^\circ\mathrm{F} - 32)\]</p>
-<p><strong>Step 4: Step-by-Step Working</strong><br/>
-Substitute the given value \(200\ ^\circ\mathrm{F}\) into the formula:<br/>
-\[^\circ\mathrm{C} = \frac{5}{9} (200 - 32)\]<br/>
-\[^\circ\mathrm{C} = \frac{5}{9} \times 168 = \frac{840}{9} \approx 93.33\ ^\circ\mathrm{C}\]<br/>
-Rounding to three significant figures yields \(93.3\ ^\circ\mathrm{C}\).</p>
-<p><strong>Step 5: Check and Final Answer</strong><br/>
-Since \(200\ ^\circ\mathrm{F}\) is close to the boiling point of water (\(212\ ^\circ\mathrm{F} = 100\ ^\circ\mathrm{C}\)), a Celsius value slightly below \(100\ ^\circ\mathrm{C}\) is physically sound. The reading on the Celsius scale is \(93.3\ ^\circ\mathrm{C}\).</p>]]></text>
-  </generalfeedback>
+  <name><text>NEET_UG_CHEMISTRY_MCQI_SOMEBASICCONCEPTSOFCHEMISTRY_MCQ_Q02 - Conversion of Fahrenheit temperature to Celsius scale</text></name>
+  <questiontext format="html"><text><![CDATA[<p>2. A measured temperature on Fahrenheit scale is 200 °F. What will this reading be on Celsius scale?</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>Temperature on the Fahrenheit scale, \(T_{\text{F}} = 200\ ^\circ\text{F}\).</p>
+<p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>Standard temperature conversion relation between Fahrenheit and Celsius scales applies.</p>
+<p><strong>Step 3: Relevant Formulae and Principles</strong><br/>The relation between Fahrenheit and Celsius scales is:<br/>\[T_{\text{F}} = \frac{9}{5}T_{\text{C}} + 32\]</p>
+<p><strong>Step 4: Step-by-Step Working</strong><br/>Rearranging the formula for \(T_{\text{C}}\):<br/>\[T_{\text{C}} = \frac{5}{9}(T_{\text{F}} - 32)\]<br/>Substituting \(T_{\text{F}} = 200\):<br/>\[T_{\text{C}} = \frac{5}{9}(200 - 32) = \frac{5}{9} \times 168 = \frac{840}{9} = 93.33\ ^\circ\text{C} \approx 93.3\ ^\circ\text{C}\]</p>
+<p><strong>Step 5: Check and Final Answer</strong><br/>Since \(212\ ^\circ\text{F} = 100\ ^\circ\text{C}\), a value slightly below \(212\ ^\circ\text{F}\) should be slightly below \(100\ ^\circ\text{C}\). Thus, \(93.3\ ^\circ\text{C}\) is physically reasonable. The reading on the Celsius scale is \(93.3\ ^\circ\text{C}\).</p>]]></text></generalfeedback>
   <defaultgrade>4.0000000</defaultgrade>
   <penalty>0.2500000</penalty>
   <hidden>0</hidden>
   <single>true</single>
   <shuffleanswers>true</shuffleanswers>
   <answernumbering>iii</answernumbering>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>\(40\ ^\circ\mathrm{C}\)</p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>\(94\ ^\circ\mathrm{C}\)</p>]]></text>
-  </answer>
-  <answer fraction="100" format="html">
-    <text><![CDATA[<p>\(93.3\ ^\circ\mathrm{C}\)</p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>\(30\ ^\circ\mathrm{C}\)</p>]]></text>
-  </answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>40 °C</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>94 °C</p>]]></text></answer>
+  <answer fraction="100" format="html"><text><![CDATA[<p>93.3 °C</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>30 °C</p>]]></text></answer>
   <tags>
     <tag><text>standard:neet_ug</text></tag>
     <tag><text>lang:en</text></tag>
     <tag><text>subject:chemistry</text></tag>
+    <tag><text>section:mcq_type_1</text></tag>
     <tag><text>class:11</text></tag>
     <tag><text>chapter:some_basic_concepts_of_chemistry</text></tag>
-    <tag><text>typology:mcq</text></tag>
+    <tag><text>typology:single_choice</text></tag>
     <tag><text>difficulty:easy</text></tag>
     <tag><text>blooms:apply</text></tag>
     <tag><text>calculation:light</text></tag>
@@ -139,55 +90,31 @@ Since \(200\ ^\circ\mathrm{F}\) is close to the boiling point of water (\(212\ ^
   </tags>
 </question>
 <question type="multichoice">
-  <name><text>NEET_UG_CHEMISTRY_SOMEBASICCONCEPTSOFCHEMISTRY_MCQ_Q03 - Calculation of molarity of sodium chloride solution</text></name>
-  <questiontext format="html">
-    <text><![CDATA[<p>What will be the molarity of a solution, which contains \(5.85\text{ g}\) of \(\mathrm{NaCl(s)}\) per \(500\text{ mL}\)?</p>]]></text>
-  </questiontext>
-  <generalfeedback format="html">
-    <text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>
-Mass of solute (\(\mathrm{NaCl}\)), \(w = 5.85\text{ g}\).<br/>
-Volume of solution, \(V = 500\text{ mL} = 0.500\text{ L}\).<br/>
-Molar mass of \(\mathrm{NaCl}\) = \(23.0\text{ g mol}^{-1} + 35.5\text{ g mol}^{-1} = 58.5\text{ g mol}^{-1}\).</p>
-<p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>
-The solution volume is assumed to remain exactly \(500\text{ mL}\) after dissolving the solid solute.</p>
-<p><strong>Step 3: Relevant Formulae and Principles</strong><br/>
-Amount of solute (in moles):<br/>
-\[n = \frac{w}{M}\]<br/>
-Molarity of solution:<br/>
-\[\text{Molarity } (M) = \frac{n}{V\text{ (in L)}} = \frac{w}{M \times V\text{ (in L)}}\]</p>
-<p><strong>Step 4: Step-by-Step Working</strong><br/>
-Calculate moles of \(\mathrm{NaCl}\):<br/>
-\[n = \frac{5.85\text{ g}}{58.5\text{ g mol}^{-1}} = 0.1\text{ mol}\]<br/>
-Calculate molarity:<br/>
-\[\text{Molarity} = \frac{0.1\text{ mol}}{0.500\text{ L}} = 0.2\text{ mol L}^{-1}\]</p>
-<p><strong>Step 5: Check and Final Answer</strong><br/>
-The units are \(\text{mol L}^{-1}\) and the calculated value is \(0.2\text{ mol L}^{-1}\). The molarity of the solution is \(0.2\text{ mol L}^{-1}\).</p>]]></text>
-  </generalfeedback>
+  <name><text>NEET_UG_CHEMISTRY_MCQI_SOMEBASICCONCEPTSOFCHEMISTRY_MCQ_Q03 - Molarity of sodium chloride aqueous solution</text></name>
+  <questiontext format="html"><text><![CDATA[<p>3. What will be the molarity of a solution, which contains 5.85 g of NaCl(s) per 500 mL?</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>Mass of \(\mathrm{NaCl}\) = \(5.85\text{ g}\)<br/>Volume of solution = \(500\text{ mL}\)<br/>Molar mass of \(\mathrm{NaCl}\) = \(23 + 35.5 = 58.5\text{ g mol}^{-1}\)</p>
+<p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>Volume is converted to litres using \(1\text{ L} = 1000\text{ mL}\).</p>
+<p><strong>Step 3: Relevant Formulae and Principles</strong><br/>\[\text{Number of moles of solute} = \frac{\text{Mass of solute}}{\text{Molar mass of solute}}\]<br/>\[\text{Molarity } (M) = \frac{\text{Number of moles of solute}}{\text{Volume of solution in litres}}\]</p>
+<p><strong>Step 4: Step-by-Step Working</strong><br/>Moles of \(\mathrm{NaCl} = \frac{5.85\text{ g}}{58.5\text{ g mol}^{-1}} = 0.1\text{ mol}\)<br/>Volume of solution in litres \(= \frac{500\text{ mL}}{1000\text{ mL L}^{-1}} = 0.5\text{ L}\)<br/>\[M = \frac{0.1\text{ mol}}{0.5\text{ L}} = 0.2\text{ mol L}^{-1}\]</p>
+<p><strong>Step 5: Check and Final Answer</strong><br/>Units simplify to \(\text{mol L}^{-1}\), which is the standard unit for molarity. Therefore, the molarity of the solution is \(0.2\text{ mol L}^{-1}\).</p>]]></text></generalfeedback>
   <defaultgrade>4.0000000</defaultgrade>
   <penalty>0.2500000</penalty>
   <hidden>0</hidden>
   <single>true</single>
   <shuffleanswers>true</shuffleanswers>
   <answernumbering>iii</answernumbering>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>\(4\text{ mol L}^{-1}\)</p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>\(20\text{ mol L}^{-1}\)</p>]]></text>
-  </answer>
-  <answer fraction="100" format="html">
-    <text><![CDATA[<p>\(0.2\text{ mol L}^{-1}\)</p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>\(2\text{ mol L}^{-1}\)</p>]]></text>
-  </answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>\(4\text{ mol L}^{-1}\)</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>\(20\text{ mol L}^{-1}\)</p>]]></text></answer>
+  <answer fraction="100" format="html"><text><![CDATA[<p>\(0.2\text{ mol L}^{-1}\)</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>\(2\text{ mol L}^{-1}\)</p>]]></text></answer>
   <tags>
     <tag><text>standard:neet_ug</text></tag>
     <tag><text>lang:en</text></tag>
     <tag><text>subject:chemistry</text></tag>
+    <tag><text>section:mcq_type_1</text></tag>
     <tag><text>class:11</text></tag>
     <tag><text>chapter:some_basic_concepts_of_chemistry</text></tag>
-    <tag><text>typology:mcq</text></tag>
+    <tag><text>typology:single_choice</text></tag>
     <tag><text>difficulty:easy</text></tag>
     <tag><text>blooms:apply</text></tag>
     <tag><text>calculation:light</text></tag>
@@ -196,55 +123,31 @@ The units are \(\text{mol L}^{-1}\) and the calculated value is \(0.2\text{ mol 
   </tags>
 </question>
 <question type="multichoice">
-  <name><text>NEET_UG_CHEMISTRY_SOMEBASICCONCEPTSOFCHEMISTRY_MCQ_Q04 - Molarity of solution obtained upon dilution</text></name>
-  <questiontext format="html">
-    <text><![CDATA[<p>If \(500\text{ mL}\) of a \(5\text{M}\) solution is diluted to \(1500\text{ mL}\), what will be the molarity of the solution obtained?</p>]]></text>
-  </questiontext>
-  <generalfeedback format="html">
-    <text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>
-Initial volume, \(V_1 = 500\text{ mL}\).<br/>
-Initial molarity, \(M_1 = 5\text{ M}\).<br/>
-Final volume, \(V_2 = 1500\text{ mL}\).</p>
-<p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>
-During dilution by adding solvent, the total amount of solute (moles of solute) remains constant.</p>
-<p><strong>Step 3: Relevant Formulae and Principles</strong><br/>
-The dilution equation is:<br/>
-\[M_1 V_1 = M_2 V_2\]<br/>
-where \(M_2\) is the final molarity.</p>
-<p><strong>Step 4: Step-by-Step Working</strong><br/>
-Rearranging for \(M_2\):<br/>
-\[M_2 = \frac{M_1 V_1}{V_2}\]<br/>
-Substitute the given values:<br/>
-\[M_2 = \frac{5\text{ M} \times 500\text{ mL}}{1500\text{ mL}} = \frac{2500}{1500}\text{ M} = \frac{5}{3}\text{ M} \approx 1.666...\text{ M}\]<br/>
-To two decimal places, this is \(1.66\text{ M}\).</p>
-<p><strong>Step 5: Check and Final Answer</strong><br/>
-Since the volume increases threefold, the concentration decreases to one-third of its original value (\(5/3\text{ M} \approx 1.66\text{ M}\)). The molarity of the diluted solution is \(1.66\text{ M}\).</p>]]></text>
-  </generalfeedback>
+  <name><text>NEET_UG_CHEMISTRY_MCQI_SOMEBASICCONCEPTSOFCHEMISTRY_MCQ_Q04 - Molarity of a solution after dilution</text></name>
+  <questiontext format="html"><text><![CDATA[<p>4. If 500 mL of a 5M solution is diluted to 1500 mL, what will be the molarity of the solution obtained?</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>Initial molarity, \(M_1 = 5\text{ M}\)<br/>Initial volume, \(V_1 = 500\text{ mL}\)<br/>Final volume after dilution, \(V_2 = 1500\text{ mL}\)</p>
+<p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>Upon dilution by adding solvent, the total number of moles of solute remains conserved.</p>
+<p><strong>Step 3: Relevant Formulae and Principles</strong><br/>Dilution equation:<br/>\[M_1 V_1 = M_2 V_2\]</p>
+<p><strong>Step 4: Step-by-Step Working</strong><br/>Substituting the given values:<br/>\[5\text{ M} \times 500\text{ mL} = M_2 \times 1500\text{ mL}\]<br/>\[M_2 = \frac{5 \times 500}{1500} = \frac{5}{3} = 1.666\ldots\text{ M} \approx 1.66\text{ M}\]</p>
+<p><strong>Step 5: Check and Final Answer</strong><br/>The volume increases by a factor of 3, so the molarity decreases by a factor of 3 (\(5 / 3 \approx 1.66\text{ M}\)). Thus, the final molarity is \(1.66\text{ M}\).</p>]]></text></generalfeedback>
   <defaultgrade>4.0000000</defaultgrade>
   <penalty>0.2500000</penalty>
   <hidden>0</hidden>
   <single>true</single>
   <shuffleanswers>true</shuffleanswers>
   <answernumbering>iii</answernumbering>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>\(1.5\text{ M}\)</p>]]></text>
-  </answer>
-  <answer fraction="100" format="html">
-    <text><![CDATA[<p>\(1.66\text{ M}\)</p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>\(0.017\text{ M}\)</p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>\(1.59\text{ M}\)</p>]]></text>
-  </answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>\(1.5\text{ M}\)</p>]]></text></answer>
+  <answer fraction="100" format="html"><text><![CDATA[<p>\(1.66\text{ M}\)</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>\(0.017\text{ M}\)</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>\(1.59\text{ M}\)</p>]]></text></answer>
   <tags>
     <tag><text>standard:neet_ug</text></tag>
     <tag><text>lang:en</text></tag>
     <tag><text>subject:chemistry</text></tag>
+    <tag><text>section:mcq_type_1</text></tag>
     <tag><text>class:11</text></tag>
     <tag><text>chapter:some_basic_concepts_of_chemistry</text></tag>
-    <tag><text>typology:mcq</text></tag>
+    <tag><text>typology:single_choice</text></tag>
     <tag><text>difficulty:easy</text></tag>
     <tag><text>blooms:apply</text></tag>
     <tag><text>calculation:light</text></tag>
@@ -253,58 +156,31 @@ Since the volume increases threefold, the concentration decreases to one-third o
   </tags>
 </question>
 <question type="multichoice">
-  <name><text>NEET_UG_CHEMISTRY_SOMEBASICCONCEPTSOFCHEMISTRY_MCQ_Q05 - Identification of element with greatest number atoms</text></name>
-  <questiontext format="html">
-    <text><![CDATA[<p>The number of atoms present in one mole of an element is equal to Avogadro number. Which of the following element contains the greatest number of atoms?</p>]]></text>
-  </questiontext>
-  <generalfeedback format="html">
-    <text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>
-Quantities to compare:<br/>
-1. \(4\text{ g He}\)<br/>
-2. \(46\text{ g Na}\)<br/>
-3. \(0.40\text{ g Ca}\)<br/>
-4. \(12\text{ g He}\)<br/>
-Atomic masses: \(\mathrm{He} = 4\text{ g mol}^{-1}\), \(\mathrm{Na} = 23\text{ g mol}^{-1}\), \(\mathrm{Ca} = 40\text{ g mol}^{-1}\).</p>
-<p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>
-All samples consist of monoatomic neutral atoms.</p>
-<p><strong>Step 3: Relevant Formulae and Principles</strong><br/>
-Number of moles of atoms: \(n = \frac{m}{M}\).<br/>
-Number of atoms: \(N = n \times N_{\mathrm{A}}\).<br/>
-The sample with the largest number of moles contains the greatest number of atoms.</p>
-<p><strong>Step 4: Step-by-Step Working</strong><br/>
-Calculate moles of atoms for each case:<br/>
-- For \(4\text{ g He}\): \(n = \frac{4\text{ g}}{4\text{ g mol}^{-1}} = 1\text{ mol}\), so \(N = 1 N_{\mathrm{A}}\).<br/>
-- For \(46\text{ g Na}\): \(n = \frac{46\text{ g}}{23\text{ g mol}^{-1}} = 2\text{ mol}\), so \(N = 2 N_{\mathrm{A}}\).<br/>
-- For \(0.40\text{ g Ca}\): \(n = \frac{0.40\text{ g}}{40\text{ g mol}^{-1}} = 0.01\text{ mol}\), so \(N = 0.01 N_{\mathrm{A}}\).<br/>
-- For \(12\text{ g He}\): \(n = \frac{12\text{ g}}{4\text{ g mol}^{-1}} = 3\text{ mol}\), so \(N = 3 N_{\mathrm{A}}\).</p>
-<p><strong>Step 5: Check and Final Answer</strong><br/>
-Comparing the mole values: \(3\text{ mol} > 2\text{ mol} > 1\text{ mol} > 0.01\text{ mol}\). Thus, \(12\text{ g He}\) contains the greatest number of atoms (\(3 \times 6.022 \times 10^{23}\) atoms).</p>]]></text>
-  </generalfeedback>
+  <name><text>NEET_UG_CHEMISTRY_MCQI_SOMEBASICCONCEPTSOFCHEMISTRY_MCQ_Q05 - Greatest number of atoms among given samples</text></name>
+  <questiontext format="html"><text><![CDATA[<p>5. The number of atoms present in one mole of an element is equal to Avogadro number. Which of the following element contains the greatest number of atoms?</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>Four samples are given: \(4\text{ g He}\), \(46\text{ g Na}\), \(0.40\text{ g Ca}\), and \(12\text{ g He}\).<br/>Atomic masses: \(\mathrm{He} = 4\text{ g mol}^{-1}\), \(\mathrm{Na} = 23\text{ g mol}^{-1}\), \(\mathrm{Ca} = 40\text{ g mol}^{-1}\).</p>
+<p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>One mole of atoms of any element contains Avogadro's number (\(N_A = 6.022 \times 10^{23}\)) of atoms, so the sample with the largest number of moles contains the greatest number of atoms.</p>
+<p><strong>Step 3: Relevant Formulae and Principles</strong><br/>\[\text{Number of moles } (n) = \frac{\text{Mass}}{\text{Molar mass}}\]<br/>\[\text{Number of atoms} = n \times N_A\]</p>
+<p><strong>Step 4: Step-by-Step Working</strong><br/>For \(4\text{ g He}\): \(n = \frac{4}{4} = 1\text{ mol}\) (Number of atoms \(= N_A\))<br/>For \(46\text{ g Na}\): \(n = \frac{46}{23} = 2\text{ mol}\) (Number of atoms \(= 2N_A\))<br/>For \(0.40\text{ g Ca}\): \(n = \frac{0.40}{40} = 0.01\text{ mol}\) (Number of atoms \(= 0.01N_A\))<br/>For \(12\text{ g He}\): \(n = \frac{12}{4} = 3\text{ mol}\) (Number of atoms \(= 3N_A\))</p>
+<p><strong>Step 5: Check and Final Answer</strong><br/>Comparing the number of moles, \(3\text{ mol}\) is the largest. Therefore, \(12\text{ g He}\) contains the greatest number of atoms.</p>]]></text></generalfeedback>
   <defaultgrade>4.0000000</defaultgrade>
   <penalty>0.2500000</penalty>
   <hidden>0</hidden>
   <single>true</single>
   <shuffleanswers>true</shuffleanswers>
   <answernumbering>iii</answernumbering>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>\(4\text{ g He}\)</p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>\(46\text{ g Na}\)</p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>\(0.40\text{ g Ca}\)</p>]]></text>
-  </answer>
-  <answer fraction="100" format="html">
-    <text><![CDATA[<p>\(12\text{ g He}\)</p>]]></text>
-  </answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>\(4\text{ g He}\)</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>\(46\text{ g Na}\)</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>\(0.40\text{ g Ca}\)</p>]]></text></answer>
+  <answer fraction="100" format="html"><text><![CDATA[<p>\(12\text{ g He}\)</p>]]></text></answer>
   <tags>
     <tag><text>standard:neet_ug</text></tag>
     <tag><text>lang:en</text></tag>
     <tag><text>subject:chemistry</text></tag>
+    <tag><text>section:mcq_type_1</text></tag>
     <tag><text>class:11</text></tag>
     <tag><text>chapter:some_basic_concepts_of_chemistry</text></tag>
-    <tag><text>typology:mcq</text></tag>
+    <tag><text>typology:single_choice</text></tag>
     <tag><text>difficulty:easy</text></tag>
     <tag><text>blooms:apply</text></tag>
     <tag><text>calculation:light</text></tag>
@@ -313,53 +189,31 @@ Comparing the mole values: \(3\text{ mol} > 2\text{ mol} > 1\text{ mol} > 0.01\t
   </tags>
 </question>
 <question type="multichoice">
-  <name><text>NEET_UG_CHEMISTRY_SOMEBASICCONCEPTSOFCHEMISTRY_MCQ_Q06 - Molarity of glucose in human blood solution</text></name>
-  <questiontext format="html">
-    <text><![CDATA[<p>If the concentration of glucose (\(\mathrm{C}_{6}\mathrm{H}_{12}\mathrm{O}_{6}\)) in blood is \(0.9\text{ g L}^{-1}\), what will be the molarity of glucose in blood?</p>]]></text>
-  </questiontext>
-  <generalfeedback format="html">
-    <text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>
-Mass concentration of glucose = \(0.9\text{ g L}^{-1}\).<br/>
-Molecular formula of glucose = \(\mathrm{C}_6\mathrm{H}_{12}\mathrm{O}_6\).<br/>
-Atomic masses: \(\mathrm{C} = 12.0\text{ g mol}^{-1}\), \(\mathrm{H} = 1.0\text{ g mol}^{-1}\), \(\mathrm{O} = 16.0\text{ g mol}^{-1}\).</p>
-<p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>
-The solution volume considered is \(1\text{ L}\).</p>
-<p><strong>Step 3: Relevant Formulae and Principles</strong><br/>
-Molar mass of glucose:<br/>
-\[M = 6 \times 12.0 + 12 \times 1.0 + 6 \times 16.0 = 72 + 12 + 96 = 180\text{ g mol}^{-1}\]<br/>
-Molarity is defined as:<br/>
-\[\text{Molarity } (M) = \frac{\text{Concentration in g L}^{-1}}{\text{Molar mass in g mol}^{-1}}\]</p>
-<p><strong>Step 4: Step-by-Step Working</strong><br/>
-Substitute the values into the formula:<br/>
-\[\text{Molarity} = \frac{0.9\text{ g L}^{-1}}{180\text{ g mol}^{-1}} = \frac{9 \times 10^{-1}}{1.8 \times 10^2}\text{ mol L}^{-1} = 0.005\text{ mol L}^{-1} = 0.005\text{ M}\]</p>
-<p><strong>Step 5: Check and Final Answer</strong><br/>
-The calculated molarity has the unit \(\text{M}\) and value \(0.005\text{ M}\). The molarity of glucose in blood is \(0.005\text{ M}\).</p>]]></text>
-  </generalfeedback>
+  <name><text>NEET_UG_CHEMISTRY_MCQI_SOMEBASICCONCEPTSOFCHEMISTRY_MCQ_Q06 - Molarity of glucose in blood</text></name>
+  <questiontext format="html"><text><![CDATA[<p>6. If the concentration of glucose (\(\mathrm{C}_{6}\mathrm{H}_{12}\mathrm{O}_{6}\)) in blood is \(0.9\text{ g L}^{-1}\), what will be the molarity of glucose in blood?</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>Concentration of glucose in blood \(= 0.9\text{ g L}^{-1}\)<br/>Molecular formula of glucose \(= \mathrm{C_6H_{12}O_6}\)</p>
+<p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>Standard atomic masses are \(\mathrm{C} = 12\text{ g mol}^{-1}\), \(\mathrm{H} = 1\text{ g mol}^{-1}\), and \(\mathrm{O} = 16\text{ g mol}^{-1}\).</p>
+<p><strong>Step 3: Relevant Formulae and Principles</strong><br/>\[\text{Molarity} = \frac{\text{Concentration in g L}^{-1}}{\text{Molar mass in g mol}^{-1}}\]</p>
+<p><strong>Step 4: Step-by-Step Working</strong><br/>Molar mass of \(\mathrm{C_6H_{12}O_6} = 6(12) + 12(1) + 6(16) = 72 + 12 + 96 = 180\text{ g mol}^{-1}\)<br/>\[\text{Molarity} = \frac{0.9\text{ g L}^{-1}}{180\text{ g mol}^{-1}} = 0.005\text{ mol L}^{-1} = 0.005\text{ M}\]</p>
+<p><strong>Step 5: Check and Final Answer</strong><br/>Units simplify to \(\text{mol L}^{-1}\) (M). Thus, the molarity of glucose in blood is \(0.005\text{ M}\).</p>]]></text></generalfeedback>
   <defaultgrade>4.0000000</defaultgrade>
   <penalty>0.2500000</penalty>
   <hidden>0</hidden>
   <single>true</single>
   <shuffleanswers>true</shuffleanswers>
   <answernumbering>iii</answernumbering>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>\(5\text{ M}\)</p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>\(50\text{ M}\)</p>]]></text>
-  </answer>
-  <answer fraction="100" format="html">
-    <text><![CDATA[<p>\(0.005\text{ M}\)</p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>\(0.5\text{ M}\)</p>]]></text>
-  </answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>\(5\text{ M}\)</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>\(50\text{ M}\)</p>]]></text></answer>
+  <answer fraction="100" format="html"><text><![CDATA[<p>\(0.005\text{ M}\)</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>\(0.5\text{ M}\)</p>]]></text></answer>
   <tags>
     <tag><text>standard:neet_ug</text></tag>
     <tag><text>lang:en</text></tag>
     <tag><text>subject:chemistry</text></tag>
+    <tag><text>section:mcq_type_1</text></tag>
     <tag><text>class:11</text></tag>
     <tag><text>chapter:some_basic_concepts_of_chemistry</text></tag>
-    <tag><text>typology:mcq</text></tag>
+    <tag><text>typology:single_choice</text></tag>
     <tag><text>difficulty:easy</text></tag>
     <tag><text>blooms:apply</text></tag>
     <tag><text>calculation:light</text></tag>
@@ -368,55 +222,31 @@ The calculated molarity has the unit \(\text{M}\) and value \(0.005\text{ M}\). 
   </tags>
 </question>
 <question type="multichoice">
-  <name><text>NEET_UG_CHEMISTRY_SOMEBASICCONCEPTSOFCHEMISTRY_MCQ_Q07 - Calculation of molality of hydrochloric acid solution</text></name>
-  <questiontext format="html">
-    <text><![CDATA[<p>What will be the molality of the solution containing \(18.25\text{ g}\) of \(\mathrm{HCl}\) gas in \(500\text{ g}\) of water?</p>]]></text>
-  </questiontext>
-  <generalfeedback format="html">
-    <text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>
-Mass of solute (\(\mathrm{HCl}\)), \(w = 18.25\text{ g}\).<br/>
-Mass of solvent (\(\mathrm{H}_2\mathrm{O}\)), \(W = 500\text{ g} = 0.500\text{ kg}\).<br/>
-Molar mass of \(\mathrm{HCl}\) = \(1.0 + 35.5 = 36.5\text{ g mol}^{-1}\).</p>
-<p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>
-Molality is defined relative to the mass of solvent, which is strictly in kilograms.</p>
-<p><strong>Step 3: Relevant Formulae and Principles</strong><br/>
-Moles of solute:<br/>
-\[n = \frac{w}{M}\]<br/>
-Molality (\(m\)):<br/>
-\[m = \frac{n}{\text{Mass of solvent in kg}} = \frac{w}{M \times W\text{ (in kg)}}\]</p>
-<p><strong>Step 4: Step-by-Step Working</strong><br/>
-Calculate moles of \(\mathrm{HCl}\):<br/>
-\[n = \frac{18.25\text{ g}}{36.5\text{ g mol}^{-1}} = 0.5\text{ mol}\]<br/>
-Calculate molality:<br/>
-\[m = \frac{0.5\text{ mol}}{0.500\text{ kg}} = 1\text{ mol kg}^{-1} = 1\text{ m}\]</p>
-<p><strong>Step 5: Check and Final Answer</strong><br/>
-Molality has units of \(\text{mol kg}^{-1}\) (denoted by \(\text{m}\)). The molality of the solution is \(1\text{ m}\).</p>]]></text>
-  </generalfeedback>
+  <name><text>NEET_UG_CHEMISTRY_MCQI_SOMEBASICCONCEPTSOFCHEMISTRY_MCQ_Q07 - Molality of HCl gas in water</text></name>
+  <questiontext format="html"><text><![CDATA[<p>7. What will be the molality of the solution containing 18.25 g of HCl gas in 500 g of water?</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>Mass of solute (\(\mathrm{HCl}\)) \(= 18.25\text{ g}\)<br/>Mass of solvent (water) \(= 500\text{ g}\)<br/>Molar mass of \(\mathrm{HCl} = 1 + 35.5 = 36.5\text{ g mol}^{-1}\)</p>
+<p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>Mass of solvent is converted from grams to kilograms using \(1\text{ kg} = 1000\text{ g}\).</p>
+<p><strong>Step 3: Relevant Formulae and Principles</strong><br/>\[\text{Molality } (m) = \frac{\text{Moles of solute}}{\text{Mass of solvent in kg}}\]</p>
+<p><strong>Step 4: Step-by-Step Working</strong><br/>Moles of \(\mathrm{HCl} = \frac{18.25\text{ g}}{36.5\text{ g mol}^{-1}} = 0.5\text{ mol}\)<br/>Mass of water in kg \(= \frac{500\text{ g}}{1000\text{ g kg}^{-1}} = 0.5\text{ kg}\)<br/>\[m = \frac{0.5\text{ mol}}{0.5\text{ kg}} = 1\text{ mol kg}^{-1} = 1\text{ m}\]</p>
+<p><strong>Step 5: Check and Final Answer</strong><br/>Molality is denoted by lowercase \(m\) (whereas \(M\) denotes molarity). Hence, the molality of the solution is \(1\text{ m}\).</p>]]></text></generalfeedback>
   <defaultgrade>4.0000000</defaultgrade>
   <penalty>0.2500000</penalty>
   <hidden>0</hidden>
   <single>true</single>
   <shuffleanswers>true</shuffleanswers>
   <answernumbering>iii</answernumbering>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>\(0.1\text{ m}\)</p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>\(1\text{ M}\)</p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>\(0.5\text{ m}\)</p>]]></text>
-  </answer>
-  <answer fraction="100" format="html">
-    <text><![CDATA[<p>\(1\text{ m}\)</p>]]></text>
-  </answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>\(0.1\text{ m}\)</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>\(1\text{ M}\)</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>\(0.5\text{ m}\)</p>]]></text></answer>
+  <answer fraction="100" format="html"><text><![CDATA[<p>\(1\text{ m}\)</p>]]></text></answer>
   <tags>
     <tag><text>standard:neet_ug</text></tag>
     <tag><text>lang:en</text></tag>
     <tag><text>subject:chemistry</text></tag>
+    <tag><text>section:mcq_type_1</text></tag>
     <tag><text>class:11</text></tag>
     <tag><text>chapter:some_basic_concepts_of_chemistry</text></tag>
-    <tag><text>typology:mcq</text></tag>
+    <tag><text>typology:single_choice</text></tag>
     <tag><text>difficulty:easy</text></tag>
     <tag><text>blooms:apply</text></tag>
     <tag><text>calculation:light</text></tag>
@@ -425,56 +255,31 @@ Molality has units of \(\text{mol kg}^{-1}\) (denoted by \(\text{m}\)). The mola
   </tags>
 </question>
 <question type="multichoice">
-  <name><text>NEET_UG_CHEMISTRY_SOMEBASICCONCEPTSOFCHEMISTRY_MCQ_Q08 - Number of molecules in sulphuric acid solution</text></name>
-  <questiontext format="html">
-    <text><![CDATA[<p>One mole of any substance contains \(6.022 \times 10^{23}\) atoms/molecules. Number of molecules of \(\mathrm{H}_{2}\mathrm{SO}_{4}\) present in \(100\text{ mL}\) of \(0.02\text{M}\) \(\mathrm{H}_{2}\mathrm{SO}_{4}\) solution is ______.</p>]]></text>
-  </questiontext>
-  <generalfeedback format="html">
-    <text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>
-Volume of \(\mathrm{H}_2\mathrm{SO}_4\) solution, \(V = 100\text{ mL} = 0.100\text{ L}\).<br/>
-Molarity of solution, \(M = 0.02\text{ M} = 0.02\text{ mol L}^{-1}\).<br/>
-Avogadro constant, \(N_{\mathrm{A}} = 6.022 \times 10^{23}\text{ molecules mol}^{-1}\).</p>
-<p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>
-The solute is completely dissolved in the specified volume.</p>
-<p><strong>Step 3: Relevant Formulae and Principles</strong><br/>
-Moles of solute:<br/>
-\[n = M \times V\text{ (in L)}\]<br/>
-Number of molecules:<br/>
-\[N = n \times N_{\mathrm{A}}\]</p>
-<p><strong>Step 4: Step-by-Step Working</strong><br/>
-Calculate the amount of \(\mathrm{H}_2\mathrm{SO}_4\) in moles:<br/>
-\[n = 0.02\text{ mol L}^{-1} \times 0.100\text{ L} = 0.002\text{ mol} = 2 \times 10^{-3}\text{ mol}\]<br/>
-Calculate the number of molecules:<br/>
-\[N = 2 \times 10^{-3}\text{ mol} \times 6.022 \times 10^{23}\text{ molecules mol}^{-1}\]<br/>
-\[N = 12.044 \times 10^{20}\text{ molecules}\]</p>
-<p><strong>Step 5: Check and Final Answer</strong><br/>
-The calculated value is \(12.044 \times 10^{20}\text{ molecules}\). Therefore, the number of molecules of \(\mathrm{H}_2\mathrm{SO}_4\) is \(12.044 \times 10^{20}\text{ molecules}\).</p>]]></text>
-  </generalfeedback>
+  <name><text>NEET_UG_CHEMISTRY_MCQI_SOMEBASICCONCEPTSOFCHEMISTRY_MCQ_Q08 - Number of sulphuric acid molecules in solution</text></name>
+  <questiontext format="html"><text><![CDATA[<p>8. One mole of any substance contains \(6.022 \times 10^{23}\) atoms/molecules. Number of molecules of \(\mathrm{H}_{2}\mathrm{SO}_{4}\) present in 100 mL of \(0.02\text{ M}\) \(\mathrm{H}_{2}\mathrm{SO}_{4}\) solution is ______.</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>Volume of \(\mathrm{H_2SO_4}\) solution, \(V = 100\text{ mL}\)<br/>Molarity of \(\mathrm{H_2SO_4}\) solution, \(M = 0.02\text{ M} = 0.02\text{ mol L}^{-1}\)<br/>Avogadro's number, \(N_A = 6.022 \times 10^{23}\text{ mol}^{-1}\)</p>
+<p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>Convert volume from millilitres to litres: \(100\text{ mL} = 0.1\text{ L}\).</p>
+<p><strong>Step 3: Relevant Formulae and Principles</strong><br/>\[\text{Number of moles} = \text{Molarity} \times \text{Volume in litres}\]<br/>\[\text{Number of molecules} = \text{Number of moles} \times N_A\]</p>
+<p><strong>Step 4: Step-by-Step Working</strong><br/>Moles of \(\mathrm{H_2SO_4} = 0.02\text{ mol L}^{-1} \times 0.1\text{ L} = 0.002\text{ mol} = 2 \times 10^{-3}\text{ mol}\)<br/>Number of molecules \(= 2 \times 10^{-3}\text{ mol} \times 6.022 \times 10^{23}\text{ mol}^{-1} = 12.044 \times 10^{20}\text{ molecules}\)</p>
+<p><strong>Step 5: Check and Final Answer</strong><br/>The exponent is \(10^{-3} \times 10^{23} = 10^{20}\), and \(2 \times 6.022 = 12.044\). Therefore, the number of molecules is \(12.044 \times 10^{20}\) molecules.</p>]]></text></generalfeedback>
   <defaultgrade>4.0000000</defaultgrade>
   <penalty>0.2500000</penalty>
   <hidden>0</hidden>
   <single>true</single>
   <shuffleanswers>true</shuffleanswers>
   <answernumbering>iii</answernumbering>
-  <answer fraction="100" format="html">
-    <text><![CDATA[<p>\(12.044 \times 10^{20}\text{ molecules}\)</p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>\(6.022 \times 10^{23}\text{ molecules}\)</p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>\(1 \times 10^{23}\text{ molecules}\)</p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>\(12.044 \times 10^{23}\text{ molecules}\)</p>]]></text>
-  </answer>
+  <answer fraction="100" format="html"><text><![CDATA[<p>\(12.044 \times 10^{20}\text{ molecules}\)</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>\(6.022 \times 10^{23}\text{ molecules}\)</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>\(1 \times 10^{23}\text{ molecules}\)</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>\(12.044 \times 10^{23}\text{ molecules}\)</p>]]></text></answer>
   <tags>
     <tag><text>standard:neet_ug</text></tag>
     <tag><text>lang:en</text></tag>
     <tag><text>subject:chemistry</text></tag>
+    <tag><text>section:mcq_type_1</text></tag>
     <tag><text>class:11</text></tag>
     <tag><text>chapter:some_basic_concepts_of_chemistry</text></tag>
-    <tag><text>typology:mcq</text></tag>
+    <tag><text>typology:single_choice</text></tag>
     <tag><text>difficulty:easy</text></tag>
     <tag><text>blooms:apply</text></tag>
     <tag><text>calculation:light</text></tag>
@@ -483,54 +288,31 @@ The calculated value is \(12.044 \times 10^{20}\text{ molecules}\). Therefore, t
   </tags>
 </question>
 <question type="multichoice">
-  <name><text>NEET_UG_CHEMISTRY_SOMEBASICCONCEPTSOFCHEMISTRY_MCQ_Q09 - Mass percent of carbon in carbon dioxide</text></name>
-  <questiontext format="html">
-    <text><![CDATA[<p>What is the mass percent of carbon in carbon dioxide?</p>]]></text>
-  </questiontext>
-  <generalfeedback format="html">
-    <text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>
-Chemical formula of carbon dioxide = \(\mathrm{CO}_2\).<br/>
-Atomic masses: \(\mathrm{C} = 12.01\text{ g mol}^{-1}\) (or \(12.0\text{ g mol}^{-1}\)), \(\mathrm{O} = 16.00\text{ g mol}^{-1}\).</p>
-<p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>
-Calculations are based on one mole of \(\mathrm{CO}_2\).</p>
-<p><strong>Step 3: Relevant Formulae and Principles</strong><br/>
-Molar mass of \(\mathrm{CO}_2\):<br/>
-\[M = 12.01 + 2 \times 16.00 = 44.01\text{ g mol}^{-1}\]<br/>
-Mass percent of an element:<br/>
-\[\text{Mass percent} = \frac{\text{Mass of element in 1 mol of compound}}{\text{Molar mass of compound}} \times 100\%\]</p>
-<p><strong>Step 4: Step-by-Step Working</strong><br/>
-Mass of carbon in one mole of \(\mathrm{CO}_2\) = \(12.01\text{ g}\) (or \(12.0\text{ g}\)).<br/>
-Substitute into the mass percent expression:<br/>
-\[\text{Mass percent of C} = \frac{12.01\text{ g}}{44.01\text{ g}} \times 100\% \approx 27.28\% \approx 27.27\%\]<br/>
-Using \(12.0 / 44.0 \times 100\% = 27.27\%\).</p>
-<p><strong>Step 5: Check and Final Answer</strong><br/>
-The mass percent of carbon in carbon dioxide is \(27.27\%\).</p>]]></text>
-  </generalfeedback>
+  <name><text>NEET_UG_CHEMISTRY_MCQI_SOMEBASICCONCEPTSOFCHEMISTRY_MCQ_Q09 - Mass percent of carbon in carbon dioxide</text></name>
+  <questiontext format="html"><text><![CDATA[<p>9. What is the mass percent of carbon in carbon dioxide?</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>Compound: Carbon dioxide (\(\mathrm{CO_2}\))<br/>Atomic mass of carbon (\(\mathrm{C}\)) \(= 12\text{ g mol}^{-1}\)<br/>Atomic mass of oxygen (\(\mathrm{O}\)) \(= 16\text{ g mol}^{-1}\)</p>
+<p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>One mole of \(\mathrm{CO_2}\) contains 1 mole of \(\mathrm{C}\) atoms and 2 moles of \(\mathrm{O}\) atoms.</p>
+<p><strong>Step 3: Relevant Formulae and Principles</strong><br/>\[\text{Mass percent of an element} = \frac{\text{Mass of that element in 1 mole of compound}}{\text{Molar mass of the compound}} \times 100\]</p>
+<p><strong>Step 4: Step-by-Step Working</strong><br/>Molar mass of \(\mathrm{CO_2} = 12 + 2(16) = 12 + 32 = 44\text{ g mol}^{-1}\)<br/>\[\text{Mass percent of carbon} = \frac{12}{44} \times 100 = \frac{3}{11} \times 100 = 27.27\%\]</p>
+<p><strong>Step 5: Check and Final Answer</strong><br/>Since \(\frac{12}{44} \approx 0.2727\), the percentage is \(27.27\%\). Therefore, the mass percent of carbon in carbon dioxide is \(27.27\%\).</p>]]></text></generalfeedback>
   <defaultgrade>4.0000000</defaultgrade>
   <penalty>0.2500000</penalty>
   <hidden>0</hidden>
   <single>true</single>
   <shuffleanswers>true</shuffleanswers>
   <answernumbering>iii</answernumbering>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>\(0.034\%\)</p>]]></text>
-  </answer>
-  <answer fraction="100" format="html">
-    <text><![CDATA[<p>\(27.27\%\)</p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>\(3.4\%\)</p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>\(28.7\%\)</p>]]></text>
-  </answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>0.034%</p>]]></text></answer>
+  <answer fraction="100" format="html"><text><![CDATA[<p>27.27%</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>3.4%</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>28.7%</p>]]></text></answer>
   <tags>
     <tag><text>standard:neet_ug</text></tag>
     <tag><text>lang:en</text></tag>
     <tag><text>subject:chemistry</text></tag>
+    <tag><text>section:mcq_type_1</text></tag>
     <tag><text>class:11</text></tag>
     <tag><text>chapter:some_basic_concepts_of_chemistry</text></tag>
-    <tag><text>typology:mcq</text></tag>
+    <tag><text>typology:single_choice</text></tag>
     <tag><text>difficulty:easy</text></tag>
     <tag><text>blooms:apply</text></tag>
     <tag><text>calculation:light</text></tag>
@@ -539,56 +321,31 @@ The mass percent of carbon in carbon dioxide is \(27.27\%\).</p>]]></text>
   </tags>
 </question>
 <question type="multichoice">
-  <name><text>NEET_UG_CHEMISTRY_SOMEBASICCONCEPTSOFCHEMISTRY_MCQ_Q10 - Determination of molecular formula from empirical formula</text></name>
-  <questiontext format="html">
-    <text><![CDATA[<p>The empirical formula and molecular mass of a compound are \(\mathrm{CH}_2\mathrm{O}\) and \(180\text{ g}\) respectively. What will be the molecular formula of the compound?</p>]]></text>
-  </questiontext>
-  <generalfeedback format="html">
-    <text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>
-Empirical formula = \(\mathrm{CH}_2\mathrm{O}\).<br/>
-Molecular mass = \(180\text{ g mol}^{-1}\).<br/>
-Atomic masses: \(\mathrm{C} = 12\text{ g mol}^{-1}\), \(\mathrm{H} = 1\text{ g mol}^{-1}\), \(\mathrm{O} = 16\text{ g mol}^{-1}\).</p>
-<p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>
-The molecular formula is an integral multiple of the empirical formula.</p>
-<p><strong>Step 3: Relevant Formulae and Principles</strong><br/>
-Empirical formula mass:<br/>
-\[\text{Empirical formula mass} = 12 + (2 \times 1) + 16 = 30\text{ g mol}^{-1}\]<br/>
-Multiplication factor \(n\):<br/>
-\[n = \frac{\text{Molecular mass}}{\text{Empirical formula mass}}\]<br/>
-Molecular formula = \((\text{Empirical formula})_n\).</p>
-<p><strong>Step 4: Step-by-Step Working</strong><br/>
-Calculate \(n\):<br/>
-\[n = \frac{180\text{ g mol}^{-1}}{30\text{ g mol}^{-1}} = 6\]<br/>
-Determine the molecular formula:<br/>
-\[\text{Molecular formula} = (\mathrm{CH}_2\mathrm{O})_6 = \mathrm{C}_6\mathrm{H}_{12}\mathrm{O}_6\]</p>
-<p><strong>Step 5: Check and Final Answer</strong><br/>
-Molar mass of \(\mathrm{C}_6\mathrm{H}_{12}\mathrm{O}_6 = (6 \times 12) + (12 \times 1) + (6 \times 16) = 72 + 12 + 96 = 180\text{ g mol}^{-1}\), which matches the given molecular mass. The molecular formula of the compound is \(\mathrm{C}_6\mathrm{H}_{12}\mathrm{O}_6\).</p>]]></text>
-  </generalfeedback>
+  <name><text>NEET_UG_CHEMISTRY_MCQI_SOMEBASICCONCEPTSOFCHEMISTRY_MCQ_Q10 - Molecular formula from empirical formula and mass</text></name>
+  <questiontext format="html"><text><![CDATA[<p>10. The empirical formula and molecular mass of a compound are CH₂O and 180 g respectively. What will be the molecular formula of the compound?</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>Empirical formula \(= \mathrm{CH_2O}\)<br/>Molecular mass \(= 180\text{ g}\)<br/>Atomic masses: \(\mathrm{C} = 12\), \(\mathrm{H} = 1\), \(\mathrm{O} = 16\).</p>
+<p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>The molecular formula is an integral multiple \(n\) of the empirical formula.</p>
+<p><strong>Step 3: Relevant Formulae and Principles</strong><br/>\[n = \frac{\text{Molecular mass}}{\text{Empirical formula mass}}\]<br/>\[\text{Molecular formula} = (\text{Empirical formula})_n\]</p>
+<p><strong>Step 4: Step-by-Step Working</strong><br/>Empirical formula mass of \(\mathrm{CH_2O} = 12 + 2(1) + 16 = 30\text{ g}\)<br/>\[n = \frac{180}{30} = 6\]<br/>\[\text{Molecular formula} = (\mathrm{CH_2O})_6 = \mathrm{C_6H_{12}O_6}\]</p>
+<p><strong>Step 5: Check and Final Answer</strong><br/>The molecular mass of \(\mathrm{C_6H_{12}O_6}\) is \(6(12) + 12(1) + 6(16) = 180\text{ g}\), which matches the given value. Thus, the molecular formula is \(\mathrm{C_6H_{12}O_6}\).</p>]]></text></generalfeedback>
   <defaultgrade>4.0000000</defaultgrade>
   <penalty>0.2500000</penalty>
   <hidden>0</hidden>
   <single>true</single>
   <shuffleanswers>true</shuffleanswers>
   <answernumbering>iii</answernumbering>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>\(\mathrm{C_9H_{18}O_9}\)</p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>\(\mathrm{CH}_2\mathrm{O}\)</p>]]></text>
-  </answer>
-  <answer fraction="100" format="html">
-    <text><![CDATA[<p>\(\mathrm{C_6H_{12}O_6}\)</p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>\(\mathrm{C}_2\mathrm{H}_4\mathrm{O}_2\)</p>]]></text>
-  </answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>\(\mathrm{C_9H_{18}O_9}\)</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>\(\mathrm{CH_2O}\)</p>]]></text></answer>
+  <answer fraction="100" format="html"><text><![CDATA[<p>\(\mathrm{C_6H_{12}O_6}\)</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>\(\mathrm{C_2H_4O_2}\)</p>]]></text></answer>
   <tags>
     <tag><text>standard:neet_ug</text></tag>
     <tag><text>lang:en</text></tag>
     <tag><text>subject:chemistry</text></tag>
+    <tag><text>section:mcq_type_1</text></tag>
     <tag><text>class:11</text></tag>
     <tag><text>chapter:some_basic_concepts_of_chemistry</text></tag>
-    <tag><text>typology:mcq</text></tag>
+    <tag><text>typology:single_choice</text></tag>
     <tag><text>difficulty:easy</text></tag>
     <tag><text>blooms:apply</text></tag>
     <tag><text>calculation:light</text></tag>
@@ -597,52 +354,31 @@ Molar mass of \(\mathrm{C}_6\mathrm{H}_{12}\mathrm{O}_6 = (6 \times 12) + (12 \t
   </tags>
 </question>
 <question type="multichoice">
-  <name><text>NEET_UG_CHEMISTRY_SOMEBASICCONCEPTSOFCHEMISTRY_MCQ_Q11 - Mass of solution expressed in significant figures</text></name>
-  <questiontext format="html">
-    <text><![CDATA[<p>If the density of a solution is \(3.12\text{ g mL}^{-1}\), the mass of \(1.5\text{ mL}\) solution in significant figures is ______.</p>]]></text>
-  </questiontext>
-  <generalfeedback format="html">
-    <text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>
-Density of solution, \(d = 3.12\text{ g mL}^{-1}\) (contains 3 significant figures).<br/>
-Volume of solution, \(V = 1.5\text{ mL}\) (contains 2 significant figures).</p>
-<p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>
-In multiplication, the final result must contain no more significant figures than the measurement with the fewest significant figures.</p>
-<p><strong>Step 3: Relevant Formulae and Principles</strong><br/>
-Relationship between mass, density, and volume:<br/>
-\[\text{Mass } (m) = \text{Density } (d) \times \text{Volume } (V)\]</p>
-<p><strong>Step 4: Step-by-Step Working</strong><br/>
-Multiply the given values:<br/>
-\[m = 3.12\text{ g mL}^{-1} \times 1.5\text{ mL} = 4.68\text{ g}\]<br/>
-Since the volume \(1.5\text{ mL}\) has 2 significant figures, the calculated mass must be rounded to 2 significant figures.<br/>
-Rounding \(4.68\text{ g}\) to 2 significant figures gives \(4.7\text{ g}\).</p>
-<p><strong>Step 5: Check and Final Answer</strong><br/>
-The result is rounded correctly according to the rules of significant figures. The mass of the solution is \(4.7\text{ g}\).</p>]]></text>
-  </generalfeedback>
+  <name><text>NEET_UG_CHEMISTRY_MCQI_SOMEBASICCONCEPTSOFCHEMISTRY_MCQ_Q11 - Mass calculation using significant figures rules</text></name>
+  <questiontext format="html"><text><![CDATA[<p>11. If the density of a solution is \(3.12\text{ g mL}^{-1}\), the mass of \(1.5\text{ mL}\) solution in significant figures is ______.</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>Density of solution \(= 3.12\text{ g mL}^{-1}\) (3 significant figures)<br/>Volume of solution \(= 1.5\text{ mL}\) (2 significant figures)</p>
+<p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>In multiplication or division, the final result should be reported with no more significant figures than the measurement with the fewest significant figures.</p>
+<p><strong>Step 3: Relevant Formulae and Principles</strong><br/>\[\text{Mass} = \text{Density} \times \text{Volume}\]</p>
+<p><strong>Step 4: Step-by-Step Working</strong><br/>\[\text{Mass} = 3.12\text{ g mL}^{-1} \times 1.5\text{ mL} = 4.68\text{ g}\]<br/>Since \(1.5\text{ mL}\) has only 2 significant figures, \(4.68\text{ g}\) must be rounded to 2 significant figures. As the digit to be dropped (8) is greater than 5, the preceding digit (6) is increased by 1, giving \(4.7\text{ g}\).</p>
+<p><strong>Step 5: Check and Final Answer</strong><br/>The value \(4.7\text{ g}\) has 2 significant figures and correct units. Therefore, the mass in significant figures is \(4.7\text{ g}\).</p>]]></text></generalfeedback>
   <defaultgrade>4.0000000</defaultgrade>
   <penalty>0.2500000</penalty>
   <hidden>0</hidden>
   <single>true</single>
   <shuffleanswers>true</shuffleanswers>
   <answernumbering>iii</answernumbering>
-  <answer fraction="100" format="html">
-    <text><![CDATA[<p>\(4.7\text{ g}\)</p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>\(4680 \times 10^{-3}\text{ g}\)</p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>\(4.680\text{ g}\)</p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>\(46.80\text{ g}\)</p>]]></text>
-  </answer>
+  <answer fraction="100" format="html"><text><![CDATA[<p>4.7 g</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>\(4680 \times 10^{-3}\text{ g}\)</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>4.680 g</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>46.80 g</p>]]></text></answer>
   <tags>
     <tag><text>standard:neet_ug</text></tag>
     <tag><text>lang:en</text></tag>
     <tag><text>subject:chemistry</text></tag>
+    <tag><text>section:mcq_type_1</text></tag>
     <tag><text>class:11</text></tag>
     <tag><text>chapter:some_basic_concepts_of_chemistry</text></tag>
-    <tag><text>typology:mcq</text></tag>
+    <tag><text>typology:single_choice</text></tag>
     <tag><text>difficulty:easy</text></tag>
     <tag><text>blooms:apply</text></tag>
     <tag><text>calculation:light</text></tag>
@@ -651,251 +387,157 @@ The result is rounded correctly according to the rules of significant figures. T
   </tags>
 </question>
 <question type="multichoice">
-  <name><text>NEET_UG_CHEMISTRY_SOMEBASICCONCEPTSOFCHEMISTRY_MCQ_Q12 - Incorrect statement regarding properties of chemical compounds</text></name>
-  <questiontext format="html">
-    <text><![CDATA[<p>Which of the following statements about a compound is incorrect?</p>]]></text>
-  </questiontext>
-  <generalfeedback format="html">
-    <text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>
-A compound is a pure substance formed when two or more atoms of different elements combine chemically in a fixed definite proportion by mass. When a compound forms, its constituent elements lose their individual physical and chemical properties, resulting in a substance with entirely new characteristics.</p>
-<p><strong>Step 2: Evaluation of Statements</strong><br/>
-- A molecule of a compound always contains atoms of two or more different elements chemically bonded together.<br/>
-- Chemical compounds cannot be separated into their constituent elements by ordinary physical methods of separation (such as filtration, distillation, or magnetic separation); chemical methods are required.<br/>
-- The ratio of atoms of different elements in a given compound is always fixed and definite according to the law of constant composition.<br/>
-- A compound does not retain the physical and chemical properties of its constituent elements. For instance, water (\(\mathrm{H}_2\mathrm{O}\)) is a liquid that extinguishes fires, whereas its constituents are hydrogen (a combustible gas) and oxygen (a supporter of combustion).</p>
-<p><strong>Step 3: Final Conclusion</strong><br/>
-The statement claiming that a compound retains the physical properties of its constituent elements is incorrect.</p>]]></text>
-  </generalfeedback>
+  <name><text>NEET_UG_CHEMISTRY_MCQI_SOMEBASICCONCEPTSOFCHEMISTRY_MCQ_Q12 - Characteristic properties of a chemical compound</text></name>
+  <questiontext format="html"><text><![CDATA[<p>12. Which of the following statements about a compound is incorrect?</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>A compound is a pure substance formed when two or more atoms of different elements combine chemically in a fixed ratio by mass. Its constituent elements can only be separated by chemical or electrochemical methods, not physical methods.</p>
+<p><strong>Step 2: Evaluation</strong><br/>When elements combine chemically to form a compound, a new substance is formed whose physical and chemical properties are completely different from those of its constituent elements. For example, hydrogen and oxygen are gases at room temperature, whereas their compound, water, is a liquid.</p>
+<p><strong>Step 3: Application</strong><br/>Statements stating that a molecule of a compound has atoms of different elements, cannot be separated by physical methods, and has a fixed ratio of atoms are all true. The statement claiming that a compound retains the physical properties of its constituent elements is false.</p>
+<p><strong>Step 4: Final Conclusion</strong><br/>The incorrect statement is that a compound retains the physical properties of its constituent elements.</p>]]></text></generalfeedback>
   <defaultgrade>4.0000000</defaultgrade>
   <penalty>0.2500000</penalty>
   <hidden>0</hidden>
   <single>true</single>
   <shuffleanswers>true</shuffleanswers>
   <answernumbering>iii</answernumbering>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>A molecule of a compound has atoms of different elements.</p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>A compound cannot be separated into its constituent elements by physical methods of separation.</p>]]></text>
-  </answer>
-  <answer fraction="100" format="html">
-    <text><![CDATA[<p>A compound retains the physical properties of its constituent elements.</p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>The ratio of atoms of different elements in a compound is fixed.</p>]]></text>
-  </answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>A molecule of a compound has atoms of different elements.</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>A compound cannot be separated into its constituent elements by physical methods of separation.</p>]]></text></answer>
+  <answer fraction="100" format="html"><text><![CDATA[<p>A compound retains the physical properties of its constituent elements.</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>The ratio of atoms of different elements in a compound is fixed.</p>]]></text></answer>
   <tags>
     <tag><text>standard:neet_ug</text></tag>
     <tag><text>lang:en</text></tag>
     <tag><text>subject:chemistry</text></tag>
+    <tag><text>section:mcq_type_1</text></tag>
     <tag><text>class:11</text></tag>
     <tag><text>chapter:some_basic_concepts_of_chemistry</text></tag>
-    <tag><text>typology:mcq</text></tag>
-    <tag><text>difficulty:easy</text></tag>
-    <tag><text>blooms:remember</text></tag>
-    <tag><text>media:text</text></tag>
-    <tag><text>multiconcept:false</text></tag>
-  </tags>
-</question>
-<question type="multichoice">
-  <name><text>NEET_UG_CHEMISTRY_SOMEBASICCONCEPTSOFCHEMISTRY_MCQ_Q13 - Law of conservation of mass in reaction</text></name>
-  <questiontext format="html">
-    <text><![CDATA[<p>Which of the following statements is correct about the reaction given below:</p>
-\[4 \mathrm{Fe}(\mathrm{s}) + 3 \mathrm{O}_2(\mathrm{g}) \longrightarrow 2 \mathrm{Fe}_2\mathrm{O}_3(\mathrm{s})\]]]></text>
-  </questiontext>
-  <generalfeedback format="html">
-    <text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>
-The law of conservation of mass states that matter can neither be created nor destroyed in a chemical reaction. Consequently, the total mass of reactants must be equal to the total mass of products in a balanced chemical equation.</p>
-<p><strong>Step 2: Evaluation</strong><br/>
-In the reaction \(4\mathrm{Fe}(\mathrm{s}) + 3\mathrm{O}_2(\mathrm{g}) \longrightarrow 2\mathrm{Fe}_2\mathrm{O}_3(\mathrm{s})\):<br/>
-- Mass of reactants = \(4 \times \text{atomic mass of Fe} + 6 \times \text{atomic mass of O}\).<br/>
-- Mass of products = \(4 \times \text{atomic mass of Fe} + 6 \times \text{atomic mass of O}\).<br/>
-Since the total mass of iron and oxygen in the reactants equals the total mass of iron and oxygen in the product, the reaction obeys the law of conservation of mass.<br/>
-The law of multiple proportions describes scenarios where two elements form more than one compound, which is not illustrated by a single balanced reaction.<br/>
-Furthermore, taking one reactant in excess does not continuously increase product without additional limiting reactant, nor does an excess decrease the amount formed.</p>
-<p><strong>Step 3: Final Conclusion</strong><br/>
-The statement that total mass of iron and oxygen in reactants equals total mass of iron and oxygen in product, therefore following the law of conservation of mass, is correct.</p>]]></text>
-  </generalfeedback>
-  <defaultgrade>4.0000000</defaultgrade>
-  <penalty>0.2500000</penalty>
-  <hidden>0</hidden>
-  <single>true</single>
-  <shuffleanswers>true</shuffleanswers>
-  <answernumbering>iii</answernumbering>
-  <answer fraction="100" format="html">
-    <text><![CDATA[<p>Total mass of iron and oxygen in reactants \(=\) total mass of iron and oxygen in product therefore it follows law of conservation of mass.</p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>Total mass of reactants \(=\) total mass of product; therefore, law of multiple proportions is followed.</p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>Amount of \(\mathrm{Fe}_2\mathrm{O}_3\) can be increased by taking any one of the reactants (iron or oxygen) in excess.</p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>Amount of \(\mathrm{Fe}_2\mathrm{O}_3\) produced will decrease if the amount of any one of the reactants (iron or oxygen) is taken in excess.</p>]]></text>
-  </answer>
-  <tags>
-    <tag><text>standard:neet_ug</text></tag>
-    <tag><text>lang:en</text></tag>
-    <tag><text>subject:chemistry</text></tag>
-    <tag><text>class:11</text></tag>
-    <tag><text>chapter:some_basic_concepts_of_chemistry</text></tag>
-    <tag><text>typology:mcq</text></tag>
+    <tag><text>typology:single_choice</text></tag>
     <tag><text>difficulty:easy</text></tag>
     <tag><text>blooms:understand</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:text</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+<question type="multichoice">
+  <name><text>NEET_UG_CHEMISTRY_MCQI_SOMEBASICCONCEPTSOFCHEMISTRY_MCQ_Q13 - Law of conservation of mass in iron oxidation</text></name>
+  <questiontext format="html"><text><![CDATA[<p>13. Which of the following statements is correct about the reaction given below:</p>
+<p>\[4\text{Fe(s)} + 3\text{O}_2\text{(g)} \longrightarrow 2\text{Fe}_2\text{O}_3\text{(g)}\]</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>According to the law of conservation of mass, matter can neither be created nor destroyed in a chemical reaction; therefore, the total mass of reactants equals the total mass of products in a balanced chemical equation.</p>
+<p><strong>Step 2: Evaluation</strong><br/>The given equation \(4\text{Fe(s)} + 3\text{O}_2\text{(g)} \longrightarrow 2\text{Fe}_2\text{O}_3\text{(g)}\) is balanced: there are 4 atoms of \(\mathrm{Fe}\) and 6 atoms of \(\mathrm{O}\) on both the reactant and product sides. Hence, the total mass of iron and oxygen in the reactants equals the total mass of iron and oxygen in the product.</p>
+<p><strong>Step 3: Application</strong><br/>The law of multiple proportions applies when two elements form more than one compound, not to mass conservation in a single reaction. Furthermore, adding one reactant in excess does not increase or decrease the amount of product formed once the other reactant acts as the limiting reagent.</p>
+<p><strong>Step 4: Final Conclusion</strong><br/>Total mass of iron and oxygen in reactants = total mass of iron and oxygen in product therefore it follows law of conservation of mass.</p>]]></text></generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>iii</answernumbering>
+  <answer fraction="100" format="html"><text><![CDATA[<p>Total mass of iron and oxygen in reactants = total mass of iron and oxygen in product therefore it follows law of conservation of mass.</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>Total mass of reactants = total mass of product; therefore, law of multiple proportions is followed.</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>Amount of \(\mathrm{Fe_2O_3}\) can be increased by taking any one of the reactants (iron or oxygen) in excess.</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>Amount of \(\mathrm{Fe_2O_3}\) produced will decrease if the amount of any one of the reactants (iron or oxygen) is taken in excess.</p>]]></text></answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>subject:chemistry</text></tag>
+    <tag><text>section:mcq_type_1</text></tag>
+    <tag><text>class:11</text></tag>
+    <tag><text>chapter:some_basic_concepts_of_chemistry</text></tag>
+    <tag><text>typology:single_choice</text></tag>
+    <tag><text>difficulty:easy</text></tag>
+    <tag><text>blooms:understand</text></tag>
+    <tag><text>calculation:light</text></tag>
     <tag><text>media:equation</text></tag>
     <tag><text>multiconcept:false</text></tag>
   </tags>
 </question>
 <question type="multichoice">
-  <name><text>NEET_UG_CHEMISTRY_SOMEBASICCONCEPTSOFCHEMISTRY_MCQ_Q14 - Reaction violating the law of conservation mass</text></name>
-  <questiontext format="html">
-    <text><![CDATA[<p>Which of the following reactions is not correct according to the law of conservation of mass.</p>]]></text>
-  </questiontext>
-  <generalfeedback format="html">
-    <text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>
-According to the law of conservation of mass, the total number of atoms of each element must be conserved during a chemical reaction, which means the chemical equation must be fully balanced.</p>
-<p><strong>Step 2: Evaluation of Reactions</strong><br/>
-1. \(2\mathrm{Mg(s)} + \mathrm{O}_2(\mathrm{g})\longrightarrow 2\mathrm{MgO(s)}\):<br/>
-Reactants: \(2\text{ Mg}, 2\text{ O}\). Products: \(2\text{ Mg}, 2\text{ O}\). Fully balanced.<br/>
-2. \(\mathrm{C_3H_8(g) + O_2(g)\longrightarrow CO_2(g) + H_2O(g)}\):<br/>
-Reactants: \(3\text{ C}, 8\text{ H}, 2\text{ O}\). Products: \(1\text{ C}, 2\text{ H}, 3\text{ O}\). This equation is not balanced, as neither carbon, hydrogen, nor oxygen atoms are conserved.<br/>
-3. \(\mathrm{P}_4(\mathrm{s}) + 5\mathrm{O}_2(\mathrm{g})\longrightarrow \mathrm{P}_4\mathrm{O}_{10}(\mathrm{s})\):<br/>
-Reactants: \(4\text{ P}, 10\text{ O}\). Products: \(4\text{ P}, 10\text{ O}\). Fully balanced.<br/>
-4. \(\mathrm{CH}_4(\mathrm{g}) + 2\mathrm{O}_2(\mathrm{g})\longrightarrow \mathrm{CO}_2(\mathrm{g}) + 2\mathrm{H}_2\mathrm{O}(\mathrm{g})\):<br/>
-Reactants: \(1\text{ C}, 4\text{ H}, 4\text{ O}\). Products: \(1\text{ C}, 4\text{ H}, 4\text{ O}\). Fully balanced.</p>
-<p><strong>Step 3: Final Conclusion</strong><br/>
-The unbalanced reaction \(\mathrm{C_3H_8(g) + O_2(g)\longrightarrow CO_2(g) + H_2O(g)}\) violates the law of conservation of mass.</p>]]></text>
-  </generalfeedback>
+  <name><text>NEET_UG_CHEMISTRY_MCQI_SOMEBASICCONCEPTSOFCHEMISTRY_MCQ_Q14 - Reaction violating law of conservation of mass</text></name>
+  <questiontext format="html"><text><![CDATA[<p>14. Which of the following reactions is not correct according to the law of conservation of mass.</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>For a chemical reaction to obey the law of conservation of mass, the number of atoms of each element on the reactant side must equal the number of atoms of that element on the product side (i.e., the equation must be balanced).</p>
+<p><strong>Step 2: Evaluation</strong><br/>Checking the atom balance for each reaction:<br/>- \(2\text{Mg(s)} + \text{O}_2\text{(g)} \longrightarrow 2\text{MgO(s)}\): 2 Mg and 2 O on both sides (balanced).<br/>- \(\text{C}_3\text{H}_8\text{(g)} + \text{O}_2\text{(g)} \longrightarrow \text{CO}_2\text{(g)} + \text{H}_2\text{O(g)}\): Reactants have 3 C, 8 H, 2 O; products have 1 C, 2 H, 3 O (unbalanced).<br/>- \(\text{P}_4\text{(s)} + 5\text{O}_2\text{(g)} \longrightarrow \text{P}_4\text{O}_{10}\text{(s)}\): 4 P and 10 O on both sides (balanced).<br/>- \(\text{CH}_4\text{(g)} + 2\text{O}_2\text{(g)} \longrightarrow \text{CO}_2\text{(g)} + 2\text{H}_2\text{O(g)}\): 1 C, 4 H, and 4 O on both sides (balanced).</p>
+<p><strong>Step 3: Application</strong><br/>Because \(\text{C}_3\text{H}_8\text{(g)} + \text{O}_2\text{(g)} \longrightarrow \text{CO}_2\text{(g)} + \text{H}_2\text{O(g)}\) is unbalanced, the total mass of reactants does not equal the total mass of products.</p>
+<p><strong>Step 4: Final Conclusion</strong><br/>The reaction \(\text{C}_3\text{H}_8\text{(g)} + \text{O}_2\text{(g)} \longrightarrow \text{CO}_2\text{(g)} + \text{H}_2\text{O(g)}\) is not correct according to the law of conservation of mass.</p>]]></text></generalfeedback>
   <defaultgrade>4.0000000</defaultgrade>
   <penalty>0.2500000</penalty>
   <hidden>0</hidden>
   <single>true</single>
   <shuffleanswers>true</shuffleanswers>
   <answernumbering>iii</answernumbering>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>\(2\mathrm{Mg(s)} + \mathrm{O}_2(\mathrm{g})\longrightarrow 2\mathrm{MgO(s)}\)</p>]]></text>
-  </answer>
-  <answer fraction="100" format="html">
-    <text><![CDATA[<p>\(\mathrm{C_3H_8(g) + O_2(g)\longrightarrow CO_2(g) + H_2O(g)}\)</p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>\(\mathrm{P}_4(\mathrm{s}) + 5\mathrm{O}_2(\mathrm{g})\longrightarrow \mathrm{P}_4\mathrm{O}_{10}(\mathrm{s})\)</p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>\(\mathrm{CH}_4(\mathrm{g}) + 2\mathrm{O}_2(\mathrm{g})\longrightarrow \mathrm{CO}_2(\mathrm{g}) + 2\mathrm{H}_2\mathrm{O}(\mathrm{g})\)</p>]]></text>
-  </answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>\(2\text{Mg(s)} + \text{O}_2\text{(g)} \longrightarrow 2\text{MgO(s)}\)</p>]]></text></answer>
+  <answer fraction="100" format="html"><text><![CDATA[<p>\(\text{C}_3\text{H}_8\text{(g)} + \text{O}_2\text{(g)} \longrightarrow \text{CO}_2\text{(g)} + \text{H}_2\text{O(g)}\)</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>\(\text{P}_4\text{(s)} + 5\text{O}_2\text{(g)} \longrightarrow \text{P}_4\text{O}_{10}\text{(s)}\)</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>\(\text{CH}_4\text{(g)} + 2\text{O}_2\text{(g)} \longrightarrow \text{CO}_2\text{(g)} + 2\text{H}_2\text{O(g)}\)</p>]]></text></answer>
   <tags>
     <tag><text>standard:neet_ug</text></tag>
     <tag><text>lang:en</text></tag>
     <tag><text>subject:chemistry</text></tag>
+    <tag><text>section:mcq_type_1</text></tag>
     <tag><text>class:11</text></tag>
     <tag><text>chapter:some_basic_concepts_of_chemistry</text></tag>
-    <tag><text>typology:mcq</text></tag>
+    <tag><text>typology:single_choice</text></tag>
     <tag><text>difficulty:easy</text></tag>
-    <tag><text>blooms:understand</text></tag>
+    <tag><text>blooms:apply</text></tag>
+    <tag><text>calculation:light</text></tag>
     <tag><text>media:equation</text></tag>
     <tag><text>multiconcept:false</text></tag>
   </tags>
 </question>
 <question type="multichoice">
-  <name><text>NEET_UG_CHEMISTRY_SOMEBASICCONCEPTSOFCHEMISTRY_MCQ_Q15 - Statement indicating law of multiple proportions followed</text></name>
-  <questiontext format="html">
-    <text><![CDATA[<p>Which of the following statements indicates that law of multiple proportion is being followed.</p>]]></text>
-  </questiontext>
-  <generalfeedback format="html">
-    <text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>
-The law of multiple proportions states that if two elements combine to form more than one compound, the masses of one element that combine with a fixed mass of the other element are in the ratio of small whole numbers.</p>
-<p><strong>Step 2: Evaluation of Statements</strong><br/>
-- The observation that carbon dioxide from any source contains carbon and oxygen in a fixed ratio illustrates the law of definite proportions.<br/>
-- In carbon monoxide (\(\mathrm{CO}\)) and carbon dioxide (\(\mathrm{CO}_2\)), \(12\text{ g}\) of carbon combines with \(16\text{ g}\) and \(32\text{ g}\) of oxygen respectively. The masses of oxygen combining with a fixed mass (\(12\text{ g}\)) of carbon are in the simple whole-number ratio \(16 : 32 = 1 : 2\) (or \(2 : 1\)). This directly illustrates the law of multiple proportions.<br/>
-- Magnesium burning such that the amount of magnesium is conserved illustrates the law of conservation of mass.<br/>
-- Combining gaseous volumes of hydrogen and oxygen to produce water vapour illustrates Gay-Lussac's law of gaseous volumes.</p>
-<p><strong>Step 3: Final Conclusion</strong><br/>
-The formation of two oxides of carbon (\(\mathrm{CO}_2\) and \(\mathrm{CO}\)), where the masses of oxygen combining with a fixed mass of carbon are in the simple ratio \(2:1\), demonstrates the law of multiple proportions.</p>]]></text>
-  </generalfeedback>
+  <name><text>NEET_UG_CHEMISTRY_MCQI_SOMEBASICCONCEPTSOFCHEMISTRY_MCQ_Q15 - Statement illustrating law of multiple proportions</text></name>
+  <questiontext format="html"><text><![CDATA[<p>15. Which of the following statements indicates that law of multiple proportion is being followed.</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>The law of multiple proportions (proposed by Dalton) states that if two elements can combine to form more than one compound, the masses of one element that combine with a fixed mass of the other element are in the ratio of small whole numbers.</p>
+<p><strong>Step 2: Evaluation</strong><br/>- Carbon dioxide from any source having a fixed ratio illustrates the law of definite proportions.<br/>- Carbon forming two oxides, \(\mathrm{CO_2}\) and \(\mathrm{CO}\), where the masses of oxygen (\(32\text{ g}\) and \(16\text{ g}\)) combining with a fixed mass of carbon (\(12\text{ g}\)) are in the simple whole-number ratio \(2:1\), directly illustrates the law of multiple proportions.<br/>- Conservation of magnesium mass illustrates the law of conservation of mass.<br/>- Combining \(200\text{ mL}\) of hydrogen with \(100\text{ mL}\) of oxygen to give \(200\text{ mL}\) of water vapour illustrates Gay Lussac's law of gaseous volumes.</p>
+<p><strong>Step 3: Final Conclusion</strong><br/>The statement that carbon forms two oxides namely \(\mathrm{CO_2}\) and \(\mathrm{CO}\), where masses of oxygen which combine with fixed mass of carbon are in the simple ratio \(2:1\), indicates that the law of multiple proportions is being followed.</p>]]></text></generalfeedback>
   <defaultgrade>4.0000000</defaultgrade>
   <penalty>0.2500000</penalty>
   <hidden>0</hidden>
   <single>true</single>
   <shuffleanswers>true</shuffleanswers>
   <answernumbering>iii</answernumbering>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>Sample of carbon dioxide taken from any source will always have carbon and oxygen in the ratio 1:2.</p>]]></text>
-  </answer>
-  <answer fraction="100" format="html">
-    <text><![CDATA[<p>Carbon forms two oxides namely \(\mathrm{CO}_{2}\) and CO, where masses of oxygen which combine with fixed mass of carbon are in the simple ratio 2:1.</p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>When magnesium burns in oxygen, the amount of magnesium taken for the reaction is equal to the amount of magnesium in magnesium oxide formed.</p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>At constant temperature and pressure \(200~\mathrm{mL}\) of hydrogen will combine with \(100~\mathrm{mL}\) oxygen to produce \(200~\mathrm{mL}\) of water vapour.</p>]]></text>
-  </answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>Sample of carbon dioxide taken from any source will always have carbon and oxygen in the ratio 1:2.</p>]]></text></answer>
+  <answer fraction="100" format="html"><text><![CDATA[<p>Carbon forms two oxides namely \(\mathrm{CO}_{2}\) and \(\mathrm{CO}\), where masses of oxygen which combine with fixed mass of carbon are in the simple ratio 2:1.</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>When magnesium burns in oxygen, the amount of magnesium taken for the reaction is equal to the amount of magnesium in magnesium oxide formed.</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>At constant temperature and pressure \(200\text{ mL}\) of hydrogen will combine with \(100\text{ mL}\) oxygen to produce \(200\text{ mL}\) of water vapour.</p>]]></text></answer>
   <tags>
     <tag><text>standard:neet_ug</text></tag>
     <tag><text>lang:en</text></tag>
     <tag><text>subject:chemistry</text></tag>
+    <tag><text>section:mcq_type_1</text></tag>
     <tag><text>class:11</text></tag>
     <tag><text>chapter:some_basic_concepts_of_chemistry</text></tag>
-    <tag><text>typology:mcq</text></tag>
+    <tag><text>typology:single_choice</text></tag>
     <tag><text>difficulty:easy</text></tag>
     <tag><text>blooms:understand</text></tag>
+    <tag><text>calculation:light</text></tag>
     <tag><text>media:text</text></tag>
     <tag><text>multiconcept:false</text></tag>
   </tags>
 </question>
 <question type="multichoice">
-  <name><text>NEET_UG_CHEMISTRY_SOMEBASICCONCEPTSOFCHEMISTRY_MCQ_Q16 - Equivalents of one mole oxygen gas STP</text></name>
-  <questiontext format="html">
-    <text><![CDATA[<p>One mole of oxygen gas at STP is equal to</p>]]></text>
-  </questiontext>
-  <generalfeedback format="html">
-    <text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>
-Amount of oxygen gas = \(1\text{ mol}\) of \(\mathrm{O}_2(\mathrm{g})\).<br/>
-Conditions = Standard Temperature and Pressure (STP).<br/>
-Molar mass of \(\mathrm{O}_2 = 2 \times 16.0\text{ g mol}^{-1} = 32\text{ g mol}^{-1}\).<br/>
-Avogadro constant, \(N_{\mathrm{A}} = 6.022 \times 10^{23}\text{ mol}^{-1}\).</p>
-<p><strong>Step 2: Assumptions and Principles</strong><br/>
-Oxygen gas exists under standard conditions as diatomic molecules (\(\mathrm{O}_2\)).</p>
-<p><strong>Step 3: Relevant Formulae and Principles</strong><br/>
-- \(1\text{ mol}\) of diatomic gas contains \(N_{\mathrm{A}}\) molecules = \(6.022 \times 10^{23}\) molecules.<br/>
-- Since each molecule contains 2 atoms, \(1\text{ mol}\) of \(\mathrm{O}_2\) contains \(2 \times N_{\mathrm{A}} = 1.2044 \times 10^{24}\) atoms of oxygen.<br/>
-- Mass of \(1\text{ mol}\) of \(\mathrm{O}_2 = 1\text{ mol} \times 32\text{ g mol}^{-1} = 32\text{ g}\).</p>
-<p><strong>Step 4: Step-by-Step Working</strong><br/>
-Evaluating the statements:<br/>
-- Number of molecules of oxygen = \(6.022 \times 10^{23}\) molecules (correct).<br/>
-- Number of atoms of oxygen = \(2 \times 6.022 \times 10^{23}\) atoms, not \(6.022 \times 10^{23}\) atoms (incorrect).<br/>
-- Mass of \(1\text{ mol}\) of oxygen gas is \(32\text{ g}\), not \(16\text{ g}\) (incorrect).<br/>
-- Mass of oxygen gas = \(32\text{ g}\) (correct).</p>
-<p><strong>Step 5: Check and Final Answer</strong><br/>
-One mole of oxygen gas at STP corresponds to \(6.022 \times 10^{23}\) molecules of oxygen and \(32\text{ g}\) of oxygen.</p>]]></text>
-  </generalfeedback>
+  <name><text>NEET_UG_CHEMISTRY_MCQII_SOMEBASICCONCEPTSOFCHEMISTRY_MCQ_Q16 - Properties of one mole of oxygen gas</text></name>
+  <questiontext format="html"><text><![CDATA[<p>16. One mole of oxygen gas at STP is equal to</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>Oxygen gas exists as diatomic molecules (\(\mathrm{O_2}\)). One mole of any molecular substance contains Avogadro's number (\(6.022 \times 10^{23}\)) of molecules and has a mass equal to its molar mass in grams.</p>
+<p><strong>Step 2: Evaluation</strong><br/>For one mole of \(\mathrm{O_2}\) gas:<br/>- Number of molecules \(= 6.022 \times 10^{23}\) molecules of \(\mathrm{O_2}\).<br/>- Number of atoms \(= 2 \times 6.022 \times 10^{23} = 1.2044 \times 10^{24}\) atoms of oxygen.<br/>- Molar mass of \(\mathrm{O_2} = 2 \times 16 = 32\text{ g mol}^{-1}\), so 1 mole weighs \(32\text{ g}\).</p>
+<p><strong>Step 3: Final Conclusion</strong><br/>One mole of oxygen gas at STP is equal to \(6.022 \times 10^{23}\) molecules of oxygen and \(32\text{ g}\) of oxygen.</p>]]></text></generalfeedback>
   <defaultgrade>4.0000000</defaultgrade>
   <penalty>0.2500000</penalty>
   <hidden>0</hidden>
   <single>false</single>
   <shuffleanswers>true</shuffleanswers>
   <answernumbering>iii</answernumbering>
-  <answer fraction="50" format="html">
-    <text><![CDATA[<p>\(6.022 \times 10^{23}\text{ molecules of oxygen}\)</p>]]></text>
-  </answer>
-  <answer fraction="-50" format="html">
-    <text><![CDATA[<p>\(6.022 \times 10^{23}\text{ atoms of oxygen}\)</p>]]></text>
-  </answer>
-  <answer fraction="-50" format="html">
-    <text><![CDATA[<p>\(16\text{ g of oxygen}\)</p>]]></text>
-  </answer>
-  <answer fraction="50" format="html">
-    <text><![CDATA[<p>\(32\text{ g of oxygen}\)</p>]]></text>
-  </answer>
+  <answer fraction="50" format="html"><text><![CDATA[<p>\(6.022 \times 10^{23}\) molecules of oxygen</p>]]></text></answer>
+  <answer fraction="-50" format="html"><text><![CDATA[<p>\(6.022 \times 10^{23}\) atoms of oxygen</p>]]></text></answer>
+  <answer fraction="-50" format="html"><text><![CDATA[<p>\(16\text{ g}\) of oxygen</p>]]></text></answer>
+  <answer fraction="50" format="html"><text><![CDATA[<p>\(32\text{ g}\) of oxygen</p>]]></text></answer>
   <tags>
     <tag><text>standard:neet_ug</text></tag>
     <tag><text>lang:en</text></tag>
     <tag><text>subject:chemistry</text></tag>
+    <tag><text>section:mcq_type_2</text></tag>
     <tag><text>class:11</text></tag>
     <tag><text>chapter:some_basic_concepts_of_chemistry</text></tag>
-    <tag><text>typology:mcq</text></tag>
+    <tag><text>typology:multiple_response</text></tag>
     <tag><text>difficulty:easy</text></tag>
     <tag><text>blooms:understand</text></tag>
     <tag><text>calculation:light</text></tag>
@@ -904,64 +546,33 @@ One mole of oxygen gas at STP corresponds to \(6.022 \times 10^{23}\) molecules 
   </tags>
 </question>
 <question type="multichoice">
-  <name><text>NEET_UG_CHEMISTRY_SOMEBASICCONCEPTSOFCHEMISTRY_MCQ_Q17 - Amount and concentration of sodium sulphate formed</text></name>
-  <questiontext format="html">
-    <text><![CDATA[<p>Sulphuric acid reacts with sodium hydroxide as follows :</p>
-\[\mathrm{H}_{2}\mathrm{SO}_{4} + 2\mathrm{NaOH} \longrightarrow \mathrm{Na}_{2}\mathrm{SO}_{4} + 2\mathrm{H}_{2}\mathrm{O}\]
-<p>When \(1\text{L}\) of \(0.1\text{M}\) sulphuric acid solution is allowed to react with \(1\text{L}\) of \(0.1\text{M}\) sodium hydroxide solution, the amount of sodium sulphate formed and its molarity in the solution obtained is</p>]]></text>
-  </questiontext>
-  <generalfeedback format="html">
-    <text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>
-Volume of \(\mathrm{H}_2\mathrm{SO}_4\) solution = \(1\text{ L}\), molarity = \(0.1\text{ M}\).<br/>
-Volume of \(\mathrm{NaOH}\) solution = \(1\text{ L}\), molarity = \(0.1\text{ M}\).<br/>
-Reaction: \(\mathrm{H}_2\mathrm{SO}_4 + 2\mathrm{NaOH} \longrightarrow \mathrm{Na}_2\mathrm{SO}_4 + 2\mathrm{H}_2\mathrm{O}\).<br/>
-Molar mass of \(\mathrm{Na}_2\mathrm{SO}_4 = (2 \times 23) + 32 + (4 \times 16) = 46 + 32 + 64 = 142\text{ g mol}^{-1}\).</p>
-<p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>
-The total volume of the resulting mixture is additive: \(V_{\text{total}} = 1\text{ L} + 1\text{ L} = 2\text{ L}\).</p>
-<p><strong>Step 3: Relevant Formulae and Principles</strong><br/>
-Initial moles: \(n = M \times V\).<br/>
-Stoichiometric ratio requires \(2\text{ moles of NaOH}\) per \(1\text{ mole of H}_2\mathrm{SO}_4\). The reactant present in lesser stoichiometric amount is the limiting reagent.</p>
-<p><strong>Step 4: Step-by-Step Working</strong><br/>
-Calculate initial moles:<br/>
-\[n(\mathrm{H}_2\mathrm{SO}_4) = 0.1\text{ M} \times 1\text{ L} = 0.1\text{ mol}\]<br/>
-\[n(\mathrm{NaOH}) = 0.1\text{ M} \times 1\text{ L} = 0.1\text{ mol}\]<br/>
-From the stoichiometry, \(0.1\text{ mol of NaOH}\) requires \(\frac{0.1}{2} = 0.05\text{ mol of H}_2\mathrm{SO}_4\).<br/>
-Since \(0.1\text{ mol of H}_2\mathrm{SO}_4\) is present, \(\mathrm{NaOH}\) is completely consumed and acts as the limiting reagent.<br/>
-Amount of \(\mathrm{Na}_2\mathrm{SO}_4\) formed:<br/>
-\[n(\mathrm{Na}_2\mathrm{SO}_4) = \frac{1}{2} \times n(\mathrm{NaOH}) = \frac{0.1\text{ mol}}{2} = 0.05\text{ mol}\]<br/>
-Mass of \(\mathrm{Na}_2\mathrm{SO}_4\) formed:<br/>
-\[m = 0.05\text{ mol} \times 142\text{ g mol}^{-1} = 7.10\text{ g}\]<br/>
-Total volume of solution = \(1\text{ L} + 1\text{ L} = 2\text{ L}\).<br/>
-Molarity of \(\mathrm{Na}_2\mathrm{SO}_4\):<br/>
-\[M = \frac{0.05\text{ mol}}{2\text{ L}} = 0.025\text{ mol L}^{-1}\]</p>
-<p><strong>Step 5: Check and Final Answer</strong><br/>
-The mass of \(\mathrm{Na}_2\mathrm{SO}_4\) produced is \(7.10\text{ g}\) and its concentration in the final mixture is \(0.025\text{ mol L}^{-1}\).</p>]]></text>
-  </generalfeedback>
+  <name><text>NEET_UG_CHEMISTRY_MCQII_SOMEBASICCONCEPTSOFCHEMISTRY_MCQ_Q17 - Mass and molarity of sodium sulphate formed</text></name>
+  <questiontext format="html"><text><![CDATA[<p>17. Sulphuric acid reacts with sodium hydroxide as follows :</p>
+<p>\[\mathrm{H_2SO_4} + 2\mathrm{NaOH} \longrightarrow \mathrm{Na_2SO_4} + 2\mathrm{H_2O}\]</p>
+<p>When 1L of 0.1M sulphuric acid solution is allowed to react with 1L of 0.1M sodium hydroxide solution, the amount of sodium sulphate formed and its molarity in the solution obtained is</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>Reaction: \(\mathrm{H_2SO_4 + 2NaOH \longrightarrow Na_2SO_4 + 2H_2O}\)<br/>Volume of \(\mathrm{H_2SO_4} = 1\text{ L}\), Molarity \(= 0.1\text{ M}\)<br/>Volume of \(\mathrm{NaOH} = 1\text{ L}\), Molarity \(= 0.1\text{ M}\)<br/>Molar mass of \(\mathrm{Na_2SO_4} = 2(23) + 32 + 4(16) = 142\text{ g mol}^{-1}\)</p>
+<p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>Total volume of the resulting solution is the sum of the two volumes: \(V_{\text{total}} = 1\text{ L} + 1\text{ L} = 2\text{ L}\).</p>
+<p><strong>Step 3: Relevant Formulae and Principles</strong><br/>\[\text{Moles} = \text{Molarity} \times \text{Volume in L}\]<br/>\[\text{Mass} = \text{Moles} \times \text{Molar mass}\]<br/>\[\text{Molarity} = \frac{\text{Moles of solute}}{\text{Total volume in L}}\]</p>
+<p><strong>Step 4: Step-by-Step Working</strong><br/>Moles of \(\mathrm{H_2SO_4} = 0.1\text{ mol L}^{-1} \times 1\text{ L} = 0.1\text{ mol}\)<br/>Moles of \(\mathrm{NaOH} = 0.1\text{ mol L}^{-1} \times 1\text{ L} = 0.1\text{ mol}\)<br/>From stoichiometry, \(1\text{ mol}\) of \(\mathrm{H_2SO_4}\) requires \(2\text{ mol}\) of \(\mathrm{NaOH}\). Thus, \(0.1\text{ mol}\) of \(\mathrm{H_2SO_4}\) would require \(0.2\text{ mol}\) of \(\mathrm{NaOH}\), so \(\mathrm{NaOH}\) is the limiting reagent.<br/>\(2\text{ mol}\) of \(\mathrm{NaOH}\) produces \(1\text{ mol}\) of \(\mathrm{Na_2SO_4}\), so \(0.1\text{ mol}\) of \(\mathrm{NaOH}\) produces:<br/>\[\text{Moles of }\mathrm{Na_2SO_4} = \frac{0.1}{2} = 0.05\text{ mol}\]<br/>Mass of \(\mathrm{Na_2SO_4}\) formed:<br/>\[\text{Mass} = 0.05\text{ mol} \times 142\text{ g mol}^{-1} = 7.10\text{ g}\]<br/>Molarity of \(\mathrm{Na_2SO_4}\) in the \(2\text{ L}\) solution:<br/>\[M = \frac{0.05\text{ mol}}{2\text{ L}} = 0.025\text{ mol L}^{-1}\]</p>
+<p><strong>Step 5: Check and Final Answer</strong><br/>The amount of \(\mathrm{Na_2SO_4}\) formed is \(7.10\text{ g}\) and its molarity in the resulting solution is \(0.025\text{ mol L}^{-1}\).</p>]]></text></generalfeedback>
   <defaultgrade>4.0000000</defaultgrade>
   <penalty>0.2500000</penalty>
   <hidden>0</hidden>
   <single>false</single>
   <shuffleanswers>true</shuffleanswers>
   <answernumbering>iii</answernumbering>
-  <answer fraction="-50" format="html">
-    <text><![CDATA[<p>\(0.1\text{ mol L}^{-1}\)</p>]]></text>
-  </answer>
-  <answer fraction="50" format="html">
-    <text><![CDATA[<p>\(7.10\text{ g}\)</p>]]></text>
-  </answer>
-  <answer fraction="50" format="html">
-    <text><![CDATA[<p>\(0.025\text{ mol L}^{-1}\)</p>]]></text>
-  </answer>
-  <answer fraction="-50" format="html">
-    <text><![CDATA[<p>\(3.55\text{ g}\)</p>]]></text>
-  </answer>
+  <answer fraction="-50" format="html"><text><![CDATA[<p>\(0.1\text{ mol L}^{-1}\)</p>]]></text></answer>
+  <answer fraction="50" format="html"><text><![CDATA[<p>\(7.10\text{ g}\)</p>]]></text></answer>
+  <answer fraction="50" format="html"><text><![CDATA[<p>\(0.025\text{ mol L}^{-1}\)</p>]]></text></answer>
+  <answer fraction="-50" format="html"><text><![CDATA[<p>\(3.55\text{ g}\)</p>]]></text></answer>
   <tags>
     <tag><text>standard:neet_ug</text></tag>
     <tag><text>lang:en</text></tag>
     <tag><text>subject:chemistry</text></tag>
+    <tag><text>section:mcq_type_2</text></tag>
     <tag><text>class:11</text></tag>
     <tag><text>chapter:some_basic_concepts_of_chemistry</text></tag>
-    <tag><text>typology:mcq</text></tag>
+    <tag><text>typology:multiple_response</text></tag>
     <tag><text>difficulty:medium</text></tag>
     <tag><text>blooms:apply</text></tag>
     <tag><text>calculation:moderate</text></tag>
@@ -970,177 +581,97 @@ The mass of \(\mathrm{Na}_2\mathrm{SO}_4\) produced is \(7.10\text{ g}\) and its
   </tags>
 </question>
 <question type="multichoice">
-  <name><text>NEET_UG_CHEMISTRY_SOMEBASICCONCEPTSOFCHEMISTRY_MCQ_Q18 - Pairs of substances containing same number atoms</text></name>
-  <questiontext format="html">
-    <text><![CDATA[<p>Which of the following pairs have the same number of atoms?</p>]]></text>
-  </questiontext>
-  <generalfeedback format="html">
-    <text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>
-Atomic masses: \(\mathrm{H} = 1\text{ g mol}^{-1}\), \(\mathrm{C} = 12\text{ g mol}^{-1}\), \(\mathrm{N} = 14\text{ g mol}^{-1}\), \(\mathrm{O} = 16\text{ g mol}^{-1}\), \(\mathrm{Na} = 23\text{ g mol}^{-1}\).<br/>
-Molar masses: \(\mathrm{O}_2 = 32\text{ g mol}^{-1}\), \(\mathrm{H}_2 = 2\text{ g mol}^{-1}\), \(\mathrm{CO}_2 = 44\text{ g mol}^{-1}\), \(\mathrm{N}_2 = 28\text{ g mol}^{-1}\).</p>
-<p><strong>Step 2: Assumptions and Principles</strong><br/>
-Number of atoms in a sample equals \(n \times (\text{atomicity}) \times N_{\mathrm{A}}\), where \(n = \frac{m}{M}\).</p>
-<p><strong>Step 3: Relevant Formulae</strong><br/>
-\[\text{Total moles of atoms} = \frac{\text{Mass}}{\text{Molar mass}} \times \text{number of atoms per molecule}\]</p>
-<p><strong>Step 4: Step-by-Step Working</strong><br/>
-Evaluate each pair:<br/>
-- Pair 1: \(16\text{ g}\) of \(\mathrm{O}_2\) has \(\frac{16}{32} \times 2 = 1\text{ mol}\) of atoms. \(4\text{ g}\) of \(\mathrm{H}_2\) has \(\frac{4}{2} \times 2 = 4\text{ mol}\) of atoms. These are unequal (\(1\text{ mol} \neq 4\text{ mol}\)).<br/>
-- Pair 2: \(16\text{ g}\) of \(\mathrm{O}_2\) has \(1\text{ mol}\) of atoms. \(44\text{ g}\) of \(\mathrm{CO}_2\) has \(\frac{44}{44} \times 3 = 3\text{ mol}\) of atoms. These are unequal (\(1\text{ mol} \neq 3\text{ mol}\)).<br/>
-- Pair 3: \(28\text{ g}\) of \(\mathrm{N}_2\) has \(\frac{28}{28} \times 2 = 2\text{ mol}\) of atoms. \(32\text{ g}\) of \(\mathrm{O}_2\) has \(\frac{32}{32} \times 2 = 2\text{ mol}\) of atoms. Both have \(2 N_{\mathrm{A}}\) atoms, so they are equal.<br/>
-- Pair 4: \(12\text{ g}\) of \(\mathrm{C(s)}\) has \(\frac{12}{12} = 1\text{ mol}\) of atoms. \(23\text{ g}\) of \(\mathrm{Na(s)}\) has \(\frac{23}{23} = 1\text{ mol}\) of atoms. Both have \(1 N_{\mathrm{A}}\) atoms, so they are equal.</p>
-<p><strong>Step 5: Check and Final Answer</strong><br/>
-The pairs having the same number of atoms are \(28\text{ g}\) of \(\mathrm{N}_2\) and \(32\text{ g}\) of \(\mathrm{O}_2\) (both contain \(2\text{ moles of atoms}\)), and \(12\text{ g}\) of \(\mathrm{C(s)}\) and \(23\text{ g}\) of \(\mathrm{Na(s)}\) (both contain \(1\text{ mole of atoms}\)).</p>]]></text>
-  </generalfeedback>
+  <name><text>NEET_UG_CHEMISTRY_MCQII_SOMEBASICCONCEPTSOFCHEMISTRY_MCQ_Q18 - Pairs having the same number of atoms</text></name>
+  <questiontext format="html"><text><![CDATA[<p>18. Which of the following pairs have the same number of atoms?</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>Molar masses: \(\mathrm{O_2} = 32\text{ g mol}^{-1}\), \(\mathrm{H_2} = 2\text{ g mol}^{-1}\), \(\mathrm{CO_2} = 44\text{ g mol}^{-1}\), \(\mathrm{N_2} = 28\text{ g mol}^{-1}\), \(\mathrm{C} = 12\text{ g mol}^{-1}\), \(\mathrm{Na} = 23\text{ g mol}^{-1}\).</p>
+<p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>Total number of atoms in a sample is the product of moles of molecules (or formula units), atomicity (atoms per molecule), and Avogadro's number \(N_A\).</p>
+<p><strong>Step 3: Relevant Formulae and Principles</strong><br/>\[\text{Number of atoms} = \frac{\text{Mass}}{\text{Molar mass}} \times \text{Atomicity} \times N_A\]</p>
+<p><strong>Step 4: Step-by-Step Working</strong><br/>1. \(16\text{ g}\) of \(\mathrm{O_2}\): \(\frac{16}{32} \times 2 \times N_A = 1 N_A\) atoms; \(4\text{ g}\) of \(\mathrm{H_2}\): \(\frac{4}{2} \times 2 \times N_A = 4 N_A\) atoms (not equal).<br/>2. \(16\text{ g}\) of \(\mathrm{O_2}\): \(1 N_A\) atoms; \(44\text{ g}\) of \(\mathrm{CO_2}\): \(\frac{44}{44} \times 3 \times N_A = 3 N_A\) atoms (not equal).<br/>3. \(28\text{ g}\) of \(\mathrm{N_2}\): \(\frac{28}{28} \times 2 \times N_A = 2 N_A\) atoms; \(32\text{ g}\) of \(\mathrm{O_2}\): \(\frac{32}{32} \times 2 \times N_A = 2 N_A\) atoms (equal).<br/>4. \(12\text{ g}\) of \(\mathrm{C(s)}\): \(\frac{12}{12} \times 1 \times N_A = 1 N_A\) atoms; \(23\text{ g}\) of \(\mathrm{Na(s)}\): \(\frac{23}{23} \times 1 \times N_A = 1 N_A\) atoms (equal).</p>
+<p><strong>Step 5: Check and Final Answer</strong><br/>The pairs with the same number of atoms are \(28\text{ g}\) of \(\mathrm{N_2}\) and \(32\text{ g}\) of \(\mathrm{O_2}\) (each \(2N_A\)), and \(12\text{ g}\) of \(\mathrm{C(s)}\) and \(23\text{ g}\) of \(\mathrm{Na(s)}\) (each \(1N_A\)).</p>]]></text></generalfeedback>
   <defaultgrade>4.0000000</defaultgrade>
   <penalty>0.2500000</penalty>
   <hidden>0</hidden>
   <single>false</single>
   <shuffleanswers>true</shuffleanswers>
   <answernumbering>iii</answernumbering>
-  <answer fraction="-50" format="html">
-    <text><![CDATA[<p>\(16\text{ g}\) of \(\mathrm{O}_2(\mathrm{g})\) and \(4\text{ g}\) of \(\mathrm{H}_2(\mathrm{g})\)</p>]]></text>
-  </answer>
-  <answer fraction="-50" format="html">
-    <text><![CDATA[<p>\(16\text{ g}\) of \(\mathrm{O}_2\) and \(44\text{ g}\) of \(\mathrm{CO}_{2}\)</p>]]></text>
-  </answer>
-  <answer fraction="50" format="html">
-    <text><![CDATA[<p>\(28\text{ g}\) of \(\mathrm{N}_2\) and \(32\text{ g}\) of \(\mathrm{O}_2\)</p>]]></text>
-  </answer>
-  <answer fraction="50" format="html">
-    <text><![CDATA[<p>\(12\text{ g}\) of C(s) and \(23\text{ g}\) of Na(s)</p>]]></text>
-  </answer>
+  <answer fraction="-50" format="html"><text><![CDATA[<p>\(16\text{ g}\) of \(\mathrm{O}_2\mathrm{(g)}\) and \(4\text{ g}\) of \(\mathrm{H}_2\mathrm{(g)}\)</p>]]></text></answer>
+  <answer fraction="-50" format="html"><text><![CDATA[<p>\(16\text{ g}\) of \(\mathrm{O}_2\) and \(44\text{ g}\) of \(\mathrm{CO}_2\)</p>]]></text></answer>
+  <answer fraction="50" format="html"><text><![CDATA[<p>\(28\text{ g}\) of \(\mathbf{N}_2\) and \(32\text{ g}\) of \(\mathrm{O}_2\)</p>]]></text></answer>
+  <answer fraction="50" format="html"><text><![CDATA[<p>\(12\text{ g}\) of \(\mathrm{C(s)}\) and \(23\text{ g}\) of \(\mathrm{Na(s)}\)</p>]]></text></answer>
   <tags>
     <tag><text>standard:neet_ug</text></tag>
     <tag><text>lang:en</text></tag>
     <tag><text>subject:chemistry</text></tag>
+    <tag><text>section:mcq_type_2</text></tag>
     <tag><text>class:11</text></tag>
     <tag><text>chapter:some_basic_concepts_of_chemistry</text></tag>
-    <tag><text>typology:mcq</text></tag>
+    <tag><text>typology:multiple_response</text></tag>
     <tag><text>difficulty:medium</text></tag>
     <tag><text>blooms:apply</text></tag>
-    <tag><text>calculation:light</text></tag>
+    <tag><text>calculation:moderate</text></tag>
     <tag><text>media:text</text></tag>
     <tag><text>multiconcept:false</text></tag>
   </tags>
 </question>
 <question type="multichoice">
-  <name><text>NEET_UG_CHEMISTRY_SOMEBASICCONCEPTSOFCHEMISTRY_MCQ_Q19 - Identification of solutions having identical molar concentration</text></name>
-  <questiontext format="html">
-    <text><![CDATA[<p>Which of the following solutions have the same concentration?</p>]]></text>
-  </questiontext>
-  <generalfeedback format="html">
-    <text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>
-1. \(20\text{ g of NaOH}\) in \(200\text{ mL}\) of solution.<br/>
-2. \(0.5\text{ mol of KCl}\) in \(200\text{ mL}\) of solution.<br/>
-3. \(40\text{ g of NaOH}\) in \(100\text{ mL}\) of solution.<br/>
-4. \(20\text{ g of KOH}\) in \(200\text{ mL}\) of solution.<br/>
-Molar mass of \(\mathrm{NaOH} = 23 + 16 + 1 = 40\text{ g mol}^{-1}\).<br/>
-Molar mass of \(\mathrm{KOH} = 39.1 + 16 + 1 = 56.1\text{ g mol}^{-1}\).</p>
-<p><strong>Step 2: Assumptions and Principles</strong><br/>
-Concentration is evaluated as molarity (\(M = \frac{n}{V\text{ (in L)}}\)).</p>
-<p><strong>Step 3: Relevant Formulae</strong><br/>
-\[\text{Molarity } (M) = \frac{w}{M_{\text{solute}} \times V\text{ (in L)}}\]</p>
-<p><strong>Step 4: Step-by-Step Working</strong><br/>
-Calculate molarity for each solution:<br/>
-- Solution 1: \(20\text{ g of NaOH}\) is \(\frac{20\text{ g}}{40\text{ g mol}^{-1}} = 0.5\text{ mol}\).<br/>
-  Volume = \(200\text{ mL} = 0.2\text{ L}\).<br/>
-  Molarity = \(\frac{0.5\text{ mol}}{0.2\text{ L}} = 2.5\text{ M}\).<br/>
-- Solution 2: Moles of \(\mathrm{KCl} = 0.5\text{ mol}\).<br/>
-  Volume = \(200\text{ mL} = 0.2\text{ L}\).<br/>
-  Molarity = \(\frac{0.5\text{ mol}}{0.2\text{ L}} = 2.5\text{ M}\).<br/>
-- Solution 3: \(40\text{ g of NaOH}\) is \(\frac{40\text{ g}}{40\text{ g mol}^{-1}} = 1.0\text{ mol}\).<br/>
-  Volume = \(100\text{ mL} = 0.1\text{ L}\).<br/>
-  Molarity = \(\frac{1.0\text{ mol}}{0.1\text{ L}} = 10\text{ M}\).<br/>
-- Solution 4: \(20\text{ g of KOH}\) is \(\frac{20\text{ g}}{56.1\text{ g mol}^{-1}} \approx 0.356\text{ mol}\).<br/>
-  Volume = \(200\text{ mL} = 0.2\text{ L}\).<br/>
-  Molarity = \(\frac{0.356\text{ mol}}{0.2\text{ L}} \approx 1.78\text{ M}\).</p>
-<p><strong>Step 5: Check and Final Answer</strong><br/>
-Both \(20\text{ g of NaOH}\) in \(200\text{ mL}\) and \(0.5\text{ mol of KCl}\) in \(200\text{ mL}\) have identical concentrations of \(2.5\text{ M}\).</p>]]></text>
-  </generalfeedback>
+  <name><text>NEET_UG_CHEMISTRY_MCQII_SOMEBASICCONCEPTSOFCHEMISTRY_MCQ_Q19 - Solutions having the same molar concentration</text></name>
+  <questiontext format="html"><text><![CDATA[<p>19. Which of the following solutions have the same concentration?</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>Molar masses: \(\mathrm{NaOH} = 23 + 16 + 1 = 40\text{ g mol}^{-1}\), \(\mathrm{KOH} = 39 + 16 + 1 = 56\text{ g mol}^{-1}\).</p>
+<p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>Concentration here refers to molarity (\(\text{mol L}^{-1}\)), with volume converted from \(\text{mL}\) to \(\text{L}\).</p>
+<p><strong>Step 3: Relevant Formulae and Principles</strong><br/>\[\text{Molarity} = \frac{\text{Moles of solute}}{\text{Volume of solution in L}}\]</p>
+<p><strong>Step 4: Step-by-Step Working</strong><br/>1. \(20\text{ g}\) of \(\mathrm{NaOH}\) in \(200\text{ mL}\): \(\text{Moles} = \frac{20}{40} = 0.5\text{ mol}\); \(\text{Molarity} = \frac{0.5}{0.2} = 2.5\text{ M}\).<br/>2. \(0.5\text{ mol}\) of \(\mathrm{KCl}\) in \(200\text{ mL}\): \(\text{Molarity} = \frac{0.5}{0.2} = 2.5\text{ M}\).<br/>3. \(40\text{ g}\) of \(\mathrm{NaOH}\) in \(100\text{ mL}\): \(\text{Moles} = \frac{40}{40} = 1\text{ mol}\); \(\text{Molarity} = \frac{1}{0.1} = 10\text{ M}\).<br/>4. \(20\text{ g}\) of \(\mathrm{KOH}\) in \(200\text{ mL}\): \(\text{Moles} = \frac{20}{56} \approx 0.357\text{ mol}\); \(\text{Molarity} = \frac{0.357}{0.2} \approx 1.79\text{ M}\).</p>
+<p><strong>Step 5: Check and Final Answer</strong><br/>Both \(20\text{ g}\) of \(\mathrm{NaOH}\) in \(200\text{ mL}\) of solution and \(0.5\text{ mol}\) of \(\mathrm{KCl}\) in \(200\text{ mL}\) of solution have a molarity of \(2.5\text{ M}\).</p>]]></text></generalfeedback>
   <defaultgrade>4.0000000</defaultgrade>
   <penalty>0.2500000</penalty>
   <hidden>0</hidden>
   <single>false</single>
   <shuffleanswers>true</shuffleanswers>
   <answernumbering>iii</answernumbering>
-  <answer fraction="50" format="html">
-    <text><![CDATA[<p>\(20\text{ g}\) of NaOH in \(200~\mathrm{mL}\) of solution</p>]]></text>
-  </answer>
-  <answer fraction="50" format="html">
-    <text><![CDATA[<p>\(0.5\mathrm{mol}\) of KCl in \(200~\mathrm{mL}\) of solution</p>]]></text>
-  </answer>
-  <answer fraction="-50" format="html">
-    <text><![CDATA[<p>\(40\mathrm{g}\) of NaOH in \(100~\mathrm{mL}\) of solution</p>]]></text>
-  </answer>
-  <answer fraction="-50" format="html">
-    <text><![CDATA[<p>\(20\mathrm{g}\) of KOH in \(200~\mathrm{mL}\) of solution</p>]]></text>
-  </answer>
+  <answer fraction="50" format="html"><text><![CDATA[<p>\(20\text{ g}\) of \(\mathrm{NaOH}\) in \(200\text{ mL}\) of solution</p>]]></text></answer>
+  <answer fraction="50" format="html"><text><![CDATA[<p>\(0.5\text{ mol}\) of \(\mathrm{KCl}\) in \(200\text{ mL}\) of solution</p>]]></text></answer>
+  <answer fraction="-50" format="html"><text><![CDATA[<p>\(40\text{ g}\) of \(\mathrm{NaOH}\) in \(100\text{ mL}\) of solution</p>]]></text></answer>
+  <answer fraction="-50" format="html"><text><![CDATA[<p>\(20\text{ g}\) of \(\mathrm{KOH}\) in \(200\text{ mL}\) of solution</p>]]></text></answer>
   <tags>
     <tag><text>standard:neet_ug</text></tag>
     <tag><text>lang:en</text></tag>
     <tag><text>subject:chemistry</text></tag>
+    <tag><text>section:mcq_type_2</text></tag>
     <tag><text>class:11</text></tag>
     <tag><text>chapter:some_basic_concepts_of_chemistry</text></tag>
-    <tag><text>typology:mcq</text></tag>
+    <tag><text>typology:multiple_response</text></tag>
     <tag><text>difficulty:medium</text></tag>
     <tag><text>blooms:apply</text></tag>
-    <tag><text>calculation:light</text></tag>
+    <tag><text>calculation:moderate</text></tag>
     <tag><text>media:text</text></tag>
     <tag><text>multiconcept:false</text></tag>
   </tags>
 </question>
 <question type="multichoice">
-  <name><text>NEET_UG_CHEMISTRY_SOMEBASICCONCEPTSOFCHEMISTRY_MCQ_Q20 - Substances containing same number of oxygen molecules</text></name>
-  <questiontext format="html">
-    <text><![CDATA[<p>\(16\text{ g}\) of oxygen has same number of molecules as in</p>]]></text>
-  </questiontext>
-  <generalfeedback format="html">
-    <text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>
-Mass of oxygen gas (\(\mathrm{O}_2\)) = \(16\text{ g}\).<br/>
-Molar mass of \(\mathrm{O}_2 = 32\text{ g mol}^{-1}\).<br/>
-Molar masses of substances in choices: \(\mathrm{CO} = 28\text{ g mol}^{-1}\), \(\mathrm{N}_2 = 28\text{ g mol}^{-1}\), \(\mathrm{H}_2 = 2.0\text{ g mol}^{-1}\).</p>
-<p><strong>Step 2: Assumptions and Principles</strong><br/>
-Equal numbers of moles of any molecular substance contain the same number of molecules.</p>
-<p><strong>Step 3: Relevant Formulae</strong><br/>
-\[n = \frac{m}{M}\]<br/>
-\[N = n \times N_{\mathrm{A}}\]</p>
-<p><strong>Step 4: Step-by-Step Working</strong><br/>
-Calculate moles of \(\mathrm{O}_2\) molecules:<br/>
-\[n(\mathrm{O}_2) = \frac{16\text{ g}}{32\text{ g mol}^{-1}} = 0.5\text{ mol}\]<br/>
-Number of \(\mathrm{O}_2\) molecules = \(0.5 N_{\mathrm{A}}\).<br/>
-Now calculate moles of molecules for each given choice:<br/>
-- For \(16\text{ g of CO}\): \(n = \frac{16\text{ g}}{28\text{ g mol}^{-1}} \approx 0.57\text{ mol} \neq 0.5\text{ mol}\).<br/>
-- For \(28\text{ g of N}_2\): \(n = \frac{28\text{ g}}{28\text{ g mol}^{-1}} = 1.0\text{ mol} \neq 0.5\text{ mol}\).<br/>
-- For \(14\text{ g of N}_2\): \(n = \frac{14\text{ g}}{28\text{ g mol}^{-1}} = 0.5\text{ mol} = 0.5 N_{\mathrm{A}}\).<br/>
-- For \(1.0\text{ g of H}_2\): \(n = \frac{1.0\text{ g}}{2.0\text{ g mol}^{-1}} = 0.5\text{ mol} = 0.5 N_{\mathrm{A}}\).</p>
-<p><strong>Step 5: Check and Final Answer</strong><br/>
-Both \(14\text{ g of N}_2\) and \(1.0\text{ g of H}_2\) contain \(0.5\text{ mol}\) of molecules, which is identical to the number of molecules in \(16\text{ g of oxygen}\).</p>]]></text>
-  </generalfeedback>
+  <name><text>NEET_UG_CHEMISTRY_MCQII_SOMEBASICCONCEPTSOFCHEMISTRY_MCQ_Q20 - Samples with same number of molecules as oxygen</text></name>
+  <questiontext format="html"><text><![CDATA[<p>20. 16 g of oxygen has same number of molecules as in</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>Reference sample: \(16\text{ g}\) of oxygen gas (\(\mathrm{O_2}\)), molar mass \(= 32\text{ g mol}^{-1}\).<br/>Molar masses of other gases: \(\mathrm{CO} = 12 + 16 = 28\text{ g mol}^{-1}\), \(\mathrm{N_2} = 28\text{ g mol}^{-1}\), \(\mathrm{H_2} = 2\text{ g mol}^{-1}\).</p>
+<p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>Equal numbers of moles of different molecular substances contain equal numbers of molecules.</p>
+<p><strong>Step 3: Relevant Formulae and Principles</strong><br/>\[\text{Number of moles } (n) = \frac{\text{Mass}}{\text{Molar mass}}\]</p>
+<p><strong>Step 4: Step-by-Step Working</strong><br/>Moles in \(16\text{ g}\) of \(\mathrm{O_2} = \frac{16}{32} = 0.5\text{ mol}\).<br/>Comparing with the given samples:<br/>- \(16\text{ g}\) of \(\mathrm{CO}\): \(n = \frac{16}{28} \approx 0.57\text{ mol}\)<br/>- \(28\text{ g}\) of \(\mathrm{N_2}\): \(n = \frac{28}{28} = 1\text{ mol}\)<br/>- \(14\text{ g}\) of \(\mathrm{N_2}\): \(n = \frac{14}{28} = 0.5\text{ mol}\)<br/>- \(1.0\text{ g}\) of \(\mathrm{H_2}\): \(n = \frac{1.0}{2} = 0.5\text{ mol}\)</p>
+<p><strong>Step 5: Check and Final Answer</strong><br/>Both \(14\text{ g}\) of \(\mathrm{N_2}\) and \(1.0\text{ g}\) of \(\mathrm{H_2}\) correspond to \(0.5\text{ mol}\), so they have the same number of molecules as \(16\text{ g}\) of \(\mathrm{O_2}\).</p>]]></text></generalfeedback>
   <defaultgrade>4.0000000</defaultgrade>
   <penalty>0.2500000</penalty>
   <hidden>0</hidden>
   <single>false</single>
   <shuffleanswers>true</shuffleanswers>
   <answernumbering>iii</answernumbering>
-  <answer fraction="-50" format="html">
-    <text><![CDATA[<p>\(16\mathrm{g}\) of CO</p>]]></text>
-  </answer>
-  <answer fraction="-50" format="html">
-    <text><![CDATA[<p>\(28\mathrm{g}\) of \(\mathrm{N}_2\)</p>]]></text>
-  </answer>
-  <answer fraction="50" format="html">
-    <text><![CDATA[<p>\(14\mathrm{g}\) of \(\mathrm{N}_2\)</p>]]></text>
-  </answer>
-  <answer fraction="50" format="html">
-    <text><![CDATA[<p>\(1.0\mathrm{g}\) of \(\mathrm{H}_{2}\)</p>]]></text>
-  </answer>
+  <answer fraction="-50" format="html"><text><![CDATA[<p>\(16\text{ g}\) of \(\mathrm{CO}\)</p>]]></text></answer>
+  <answer fraction="-50" format="html"><text><![CDATA[<p>\(28\text{ g}\) of \(\mathbf{N}_2\)</p>]]></text></answer>
+  <answer fraction="50" format="html"><text><![CDATA[<p>\(14\text{ g}\) of \(\mathbf{N}_2\)</p>]]></text></answer>
+  <answer fraction="50" format="html"><text><![CDATA[<p>\(1.0\text{ g}\) of \(\mathrm{H}_2\)</p>]]></text></answer>
   <tags>
     <tag><text>standard:neet_ug</text></tag>
     <tag><text>lang:en</text></tag>
     <tag><text>subject:chemistry</text></tag>
+    <tag><text>section:mcq_type_2</text></tag>
     <tag><text>class:11</text></tag>
     <tag><text>chapter:some_basic_concepts_of_chemistry</text></tag>
-    <tag><text>typology:mcq</text></tag>
+    <tag><text>typology:multiple_response</text></tag>
     <tag><text>difficulty:easy</text></tag>
     <tag><text>blooms:apply</text></tag>
     <tag><text>calculation:light</text></tag>
@@ -1149,132 +680,77 @@ Both \(14\text{ g of N}_2\) and \(1.0\text{ g of H}_2\) contain \(0.5\text{ mol}
   </tags>
 </question>
 <question type="multichoice">
-  <name><text>NEET_UG_CHEMISTRY_SOMEBASICCONCEPTSOFCHEMISTRY_MCQ_Q21 - Identification of concentration terms without any units</text></name>
-  <questiontext format="html">
-    <text><![CDATA[<p>Which of the following terms are unitless?</p>]]></text>
-  </questiontext>
-  <generalfeedback format="html">
-    <text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>
-A quantity is unitless (dimensionless) when it represents the ratio of two physical quantities having the exact same dimensions and units.</p>
-<p><strong>Step 2: Evaluation of Terms</strong><br/>
-- Molality is defined as moles of solute per kilogram of solvent: \(\text{Unit} = \text{mol kg}^{-1}\). It has units.<br/>
-- Molarity is defined as moles of solute per litre of solution: \(\text{Unit} = \text{mol L}^{-1}\). It has units.<br/>
-- Mole fraction is defined as the ratio of the moles of a particular component to the total moles of all components in the mixture: \(\chi_{\mathrm{A}} = \frac{n_{\mathrm{A}}}{n_{\mathrm{total}}}\). As a ratio of identical units (\(\text{mol} / \text{mol}\)), it is unitless.<br/>
-- Mass percent is defined as the ratio of the mass of solute to the total mass of solution multiplied by 100: \(\frac{\text{mass of solute}}{\text{total mass of solution}} \times 100\). As a ratio of identical mass units, it is unitless.</p>
-<p><strong>Step 3: Final Conclusion</strong><br/>
-Mole fraction and mass percent are both unitless quantities.</p>]]></text>
-  </generalfeedback>
+  <name><text>NEET_UG_CHEMISTRY_MCQII_SOMEBASICCONCEPTSOFCHEMISTRY_MCQ_Q21 - Unitless concentration terms in chemistry</text></name>
+  <questiontext format="html"><text><![CDATA[<p>21. Which of the following terms are unitless?</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>A quantity is unitless (dimensionless) if it is defined as a ratio of two quantities having the same units.</p>
+<p><strong>Step 2: Evaluation</strong><br/>- Molality is defined as moles of solute per kilogram of solvent, so its unit is \(\text{mol kg}^{-1}\).<br/>- Molarity is defined as moles of solute per litre of solution, so its unit is \(\text{mol L}^{-1}\).<br/>- Mole fraction is the ratio of moles of one component to the total moles of all components (\(\frac{\text{mol}}{\text{mol}}\)), making it unitless.<br/>- Mass percent is the ratio of mass of solute to mass of solution multiplied by 100 (\(\frac{\text{g}}{\text{g}} \times 100\)), making it unitless.</p>
+<p><strong>Step 3: Final Conclusion</strong><br/>Mole fraction and mass percent are unitless.</p>]]></text></generalfeedback>
   <defaultgrade>4.0000000</defaultgrade>
   <penalty>0.2500000</penalty>
   <hidden>0</hidden>
   <single>false</single>
   <shuffleanswers>true</shuffleanswers>
   <answernumbering>iii</answernumbering>
-  <answer fraction="-50" format="html">
-    <text><![CDATA[<p>Molality</p>]]></text>
-  </answer>
-  <answer fraction="-50" format="html">
-    <text><![CDATA[<p>Molarity</p>]]></text>
-  </answer>
-  <answer fraction="50" format="html">
-    <text><![CDATA[<p>Mole fraction</p>]]></text>
-  </answer>
-  <answer fraction="50" format="html">
-    <text><![CDATA[<p>Mass percent</p>]]></text>
-  </answer>
+  <answer fraction="-50" format="html"><text><![CDATA[<p>Molality</p>]]></text></answer>
+  <answer fraction="-50" format="html"><text><![CDATA[<p>Molarity</p>]]></text></answer>
+  <answer fraction="50" format="html"><text><![CDATA[<p>Mole fraction</p>]]></text></answer>
+  <answer fraction="50" format="html"><text><![CDATA[<p>Mass percent</p>]]></text></answer>
   <tags>
     <tag><text>standard:neet_ug</text></tag>
     <tag><text>lang:en</text></tag>
     <tag><text>subject:chemistry</text></tag>
+    <tag><text>section:mcq_type_2</text></tag>
     <tag><text>class:11</text></tag>
     <tag><text>chapter:some_basic_concepts_of_chemistry</text></tag>
-    <tag><text>typology:mcq</text></tag>
+    <tag><text>typology:multiple_response</text></tag>
     <tag><text>difficulty:easy</text></tag>
     <tag><text>blooms:remember</text></tag>
+    <tag><text>calculation:light</text></tag>
     <tag><text>media:text</text></tag>
     <tag><text>multiconcept:false</text></tag>
   </tags>
 </question>
 <question type="multichoice">
-  <name><text>NEET_UG_CHEMISTRY_SOMEBASICCONCEPTSOFCHEMISTRY_MCQ_Q22 - Laws not related to Daltons atomic theory</text></name>
-  <questiontext format="html">
-    <text><![CDATA[<p>One of the statements of Dalton's atomic theory is given below:</p>
-<p>&quot;Compounds are formed when atoms of different elements combine in a fixed ratio&quot;</p>
-<p>Which of the following laws is <strong>not</strong> related to this statement?</p>]]></text>
-  </questiontext>
-  <generalfeedback format="html">
-    <text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>
-Dalton's postulate stating that &quot;compounds are formed when atoms of different elements combine in a fixed ratio&quot; explains the chemical laws governing the proportions by which elements combine to form compounds.</p>
-<p><strong>Step 2: Evaluation of Laws</strong><br/>
-- The law of definite proportions states that a given chemical compound always contains its component elements in a fixed ratio by mass. This directly relates to Dalton's postulate.<br/>
-- The law of multiple proportions states that when two elements form more than one compound, the masses of one element combining with a fixed mass of the other are in simple whole-number ratios. This is also directly explained by atoms combining in integral ratios.<br/>
-- The law of conservation of mass states that matter cannot be created or destroyed, which corresponds to Dalton's postulate that atoms are indivisible and cannot be created or destroyed in a chemical reaction (not the postulate on compound formation in fixed ratios).<br/>
-- Avogadro law relates the volume of gases to the number of molecules at constant temperature and pressure, which was formulated later and explains Gay-Lussac's law, rather than being explained by Dalton's fixed atomic ratio postulate.</p>
-<p><strong>Step 3: Final Conclusion</strong><br/>
-The laws not related to this specific statement of Dalton's atomic theory are the law of conservation of mass and Avogadro law.</p>]]></text>
-  </generalfeedback>
+  <name><text>NEET_UG_CHEMISTRY_MCQII_SOMEBASICCONCEPTSOFCHEMISTRY_MCQ_Q22 - Laws unrelated to Dalton atomic theory statement</text></name>
+  <questiontext format="html"><text><![CDATA[<p>22. One of the statements of Dalton's atomic theory is given below:</p>
+<p>"Compounds are formed when atoms of different elements combine in a fixed ratio"</p>
+<p>Which of the following laws is <strong>not</strong> related to this statement?</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>The given statement of Dalton's atomic theory explains how elements combine in fixed ratios by number of atoms (and hence fixed ratios by mass) to form compounds.</p>
+<p><strong>Step 2: Evaluation</strong><br/>- Law of definite proportions states that a given compound always contains exactly the same proportion of elements by weight, which is directly explained by atoms combining in a fixed ratio.<br/>- Law of multiple proportions deals with simple whole-number mass ratios when elements combine to form different compounds, which also follows from atoms combining in fixed whole-number ratios.<br/>- Law of conservation of mass is explained by another postulate of Dalton's theory (atoms are indivisible and can neither be created nor destroyed in a chemical reaction), not by the fixed-ratio combination statement.<br/>- Avogadro law relates equal volumes of all gases under the same conditions of temperature and pressure to equal numbers of molecules, which is not related to the fixed-ratio combination of atoms in compounds.</p>
+<p><strong>Step 3: Final Conclusion</strong><br/>The law of conservation of mass and Avogadro law are not related to the given statement.</p>]]></text></generalfeedback>
   <defaultgrade>4.0000000</defaultgrade>
   <penalty>0.2500000</penalty>
   <hidden>0</hidden>
   <single>false</single>
   <shuffleanswers>true</shuffleanswers>
   <answernumbering>iii</answernumbering>
-  <answer fraction="50" format="html">
-    <text><![CDATA[<p>Law of conservation of mass</p>]]></text>
-  </answer>
-  <answer fraction="-50" format="html">
-    <text><![CDATA[<p>Law of definite proportions</p>]]></text>
-  </answer>
-  <answer fraction="-50" format="html">
-    <text><![CDATA[<p>Law of multiple proportions</p>]]></text>
-  </answer>
-  <answer fraction="50" format="html">
-    <text><![CDATA[<p>Avogadro law</p>]]></text>
-  </answer>
+  <answer fraction="50" format="html"><text><![CDATA[<p>Law of conservation of mass</p>]]></text></answer>
+  <answer fraction="-50" format="html"><text><![CDATA[<p>Law of definite proportions</p>]]></text></answer>
+  <answer fraction="-50" format="html"><text><![CDATA[<p>Law of multiple proportions</p>]]></text></answer>
+  <answer fraction="50" format="html"><text><![CDATA[<p>Avogadro law</p>]]></text></answer>
   <tags>
     <tag><text>standard:neet_ug</text></tag>
     <tag><text>lang:en</text></tag>
     <tag><text>subject:chemistry</text></tag>
+    <tag><text>section:mcq_type_2</text></tag>
     <tag><text>class:11</text></tag>
     <tag><text>chapter:some_basic_concepts_of_chemistry</text></tag>
-    <tag><text>typology:mcq</text></tag>
+    <tag><text>typology:multiple_response</text></tag>
     <tag><text>difficulty:medium</text></tag>
     <tag><text>blooms:understand</text></tag>
+    <tag><text>calculation:light</text></tag>
     <tag><text>media:text</text></tag>
     <tag><text>multiconcept:false</text></tag>
   </tags>
 </question>
 <question type="matching">
-  <name><text>NEET_UG_CHEMISTRY_SOMEBASICCONCEPTSOFCHEMISTRY_MATCHING_Q36 - Matching chemical quantities with equivalent amounts</text></name>
-  <questiontext format="html">
-    <text><![CDATA[<p>Match the following:</p>]]></text>
-  </questiontext>
-  <generalfeedback format="html">
-    <text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>
-The mole is related to mass, molar volume of gas at STP, and Avogadro's number of molecules through the expressions:<br/>
-\[n = \frac{m}{M} = \frac{V\text{ (at STP)}}{22.4\text{ L}} = \frac{N}{N_{\mathrm{A}}}\]</p>
-<p><strong>Step 2: Step-by-Step Evaluation of Each Item</strong><br/>
-1. For \(88\text{ g}\) of \(\mathrm{CO}_2\):<br/>
-Molar mass of \(\mathrm{CO}_2 = 12 + 2(16) = 44\text{ g mol}^{-1}\).<br/>
-Amount in moles = \(\frac{88\text{ g}}{44\text{ g mol}^{-1}} = 2\text{ mol}\).<br/>
-2. For \(6.022 \times 10^{23}\) molecules of \(\mathrm{H}_2\mathrm{O}\):<br/>
-One mole of any substance contains \(6.022 \times 10^{23}\) entities, so this corresponds to \(1\text{ mol}\).<br/>
-3. For \(5.6\text{ litres of }\mathrm{O}_2\text{ at STP}\):<br/>
-At STP, \(1\text{ mol}\) occupies \(22.4\text{ L}\).<br/>
-Amount in moles = \(\frac{5.6\text{ L}}{22.4\text{ L mol}^{-1}} = 0.25\text{ mol}\).<br/>
-4. For \(96\text{ g}\) of \(\mathrm{O}_2\):<br/>
-Molar mass of \(\mathrm{O}_2 = 32\text{ g mol}^{-1}\).<br/>
-Amount in moles = \(\frac{96\text{ g}}{32\text{ g mol}^{-1}} = 3\text{ mol}\).<br/>
-5. For \(1\text{ mol of any gas}\):<br/>
-By definition of the mole, one mole contains \(6.022 \times 10^{23}\) molecules.</p>
-<p><strong>Step 3: Final Conclusion</strong><br/>
-The correct correspondences are:<br/>
-- \(88\text{ g}\) of \(\mathrm{CO}_2\) corresponds to \(2\text{ mol}\).<br/>
-- \(6.022 \times 10^{23}\) molecules of \(\mathrm{H}_2\mathrm{O}\) corresponds to \(1\text{ mol}\).<br/>
-- \(5.6\text{ litres of }\mathrm{O}_2\text{ at STP}\) corresponds to \(0.25\text{ mol}\).<br/>
-- \(96\text{ g}\) of \(\mathrm{O}_2\) corresponds to \(3\text{ mol}\).<br/>
-- \(1\text{ mol of any gas}\) corresponds to \(6.022 \times 10^{23}\text{ molecules}\).</p>]]></text>
-  </generalfeedback>
+  <name><text>NEET_UG_CHEMISTRY_MATCHING_SOMEBASICCONCEPTSOFCHEMISTRY_MT_Q36 - Matching quantities to moles and molecules</text></name>
+  <questiontext format="html"><text><![CDATA[<p>36. Match the following:</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>Molar masses: \(\mathrm{CO_2} = 12 + 2(16) = 44\text{ g mol}^{-1}\), \(\mathrm{O_2} = 2(16) = 32\text{ g mol}^{-1}\).<br/>Molar volume of an ideal gas at STP \(= 22.4\text{ L mol}^{-1}\).<br/>Avogadro's number, \(N_A = 6.022 \times 10^{23}\text{ mol}^{-1}\).</p>
+<p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>Number of moles is calculated from mass, number of molecules, or gas volume at STP using standard mole relationships.</p>
+<p><strong>Step 3: Relevant Formulae and Principles</strong><br/>\[n = \frac{\text{Mass}}{\text{Molar mass}} = \frac{\text{Number of molecules}}{N_A} = \frac{\text{Volume at STP}}{22.4\text{ L}}\]</p>
+<p><strong>Step 4: Step-by-Step Working</strong><br/>- \(88\text{ g}\) of \(\mathrm{CO_2}\): \(n = \frac{88}{44} = 2\text{ mol}\).<br/>- \(6.022 \times 10^{23}\) molecules of \(\mathrm{H_2O}\): \(n = \frac{6.022 \times 10^{23}}{6.022 \times 10^{23}} = 1\text{ mol}\).<br/>- \(5.6\text{ litres}\) of \(\mathrm{O_2}\) at STP: \(n = \frac{5.6}{22.4} = 0.25\text{ mol}\).<br/>- \(96\text{ g}\) of \(\mathrm{O_2}\): \(n = \frac{96}{32} = 3\text{ mol}\).<br/>- \(1\text{ mol}\) of any gas: contains \(6.022 \times 10^{23}\) molecules.</p>
+<p><strong>Step 5: Check and Final Answer</strong><br/>Each quantity is matched to its corresponding mole or molecular count: \(88\text{ g }\mathrm{CO_2} \rightarrow 2\text{ mol}\); \(6.022 \times 10^{23}\text{ molecules of }\mathrm{H_2O} \rightarrow 1\text{ mol}\); \(5.6\text{ L }\mathrm{O_2}\text{ at STP} \rightarrow 0.25\text{ mol}\); \(96\text{ g }\mathrm{O_2} \rightarrow 3\text{ mol}\); \(1\text{ mol of any gas} \rightarrow 6.022 \times 10^{23}\text{ molecules}\).</p>]]></text></generalfeedback>
   <defaultgrade>4.0000000</defaultgrade>
   <penalty>0.2500000</penalty>
   <hidden>0</hidden>
@@ -1284,11 +760,11 @@ The correct correspondences are:<br/>
     <answer><text>2 mol</text></answer>
   </subquestion>
   <subquestion format="html">
-    <text><![CDATA[<p>\(6.022 \times 10^{23}\) molecules of \(\mathrm{H}_{2} \mathrm{O}\)</p>]]></text>
+    <text><![CDATA[<p>\(6.022 \times 10^{23}\) molecules of \(\mathrm{H}_{2}\mathrm{O}\)</p>]]></text>
     <answer><text>1 mol</text></answer>
   </subquestion>
   <subquestion format="html">
-    <text><![CDATA[<p>\(5.6\text{ litres of }\mathrm{O}_2\text{ at STP}\)</p>]]></text>
+    <text><![CDATA[<p>\(5.6\text{ litres}\) of \(\mathrm{O}_2\) at STP</p>]]></text>
     <answer><text>0.25 mol</text></answer>
   </subquestion>
   <subquestion format="html">
@@ -1296,16 +772,17 @@ The correct correspondences are:<br/>
     <answer><text>3 mol</text></answer>
   </subquestion>
   <subquestion format="html">
-    <text><![CDATA[<p>\(1\text{ mol of any gas}\)</p>]]></text>
-    <answer><text>\(6.022 \times 10^{23}\text{ molecules}\)</text></answer>
+    <text><![CDATA[<p>\(1\text{ mol}\) of any gas</p>]]></text>
+    <answer><text>6.022 × 10²³ molecules</text></answer>
   </subquestion>
   <tags>
     <tag><text>standard:neet_ug</text></tag>
     <tag><text>lang:en</text></tag>
     <tag><text>subject:chemistry</text></tag>
+    <tag><text>section:matching</text></tag>
     <tag><text>class:11</text></tag>
     <tag><text>chapter:some_basic_concepts_of_chemistry</text></tag>
-    <tag><text>typology:matching-native</text></tag>
+    <tag><text>typology:matching</text></tag>
     <tag><text>difficulty:easy</text></tag>
     <tag><text>blooms:apply</text></tag>
     <tag><text>calculation:light</text></tag>
@@ -1314,59 +791,18 @@ The correct correspondences are:<br/>
   </tags>
 </question>
 <question type="matching">
-  <name><text>NEET_UG_CHEMISTRY_SOMEBASICCONCEPTSOFCHEMISTRY_MATCHING_Q37 - Matching physical quantities with their corresponding units</text></name>
-  <questiontext format="html">
-    <text><![CDATA[<p>Match the following physical quantities with units:</p>
-<table>
-<thead>
-<tr>
-<th scope="col">Physical quantity</th>
-<th scope="col">Unit</th>
-</tr>
-</thead>
-<tbody>
-<tr><td>(i) Molarity</td><td>(a) \(\text{g mL}^{-1}\)</td></tr>
-<tr><td>(ii) Mole fraction</td><td>(b) \(\text{mol}\)</td></tr>
-<tr><td>(iii) Mole</td><td>(c) \(\text{Pascal}\)</td></tr>
-<tr><td>(iv) Molality</td><td>(d) \(\text{Unitless}\)</td></tr>
-<tr><td>(v) Pressure</td><td>(e) \(\text{mol L}^{-1}\)</td></tr>
-<tr><td>(vi) Luminous intensity</td><td>(f) \(\text{Candela}\)</td></tr>
-<tr><td>(vii) Density</td><td>(g) \(\text{mol kg}^{-1}\)</td></tr>
-<tr><td>(viii) Mass</td><td>(h) \(\text{Nm}^{-1}\)</td></tr>
-<tr><td></td><td>(i) \(\text{kg}\)</td></tr>
-</tbody>
-</table>]]></text>
-  </questiontext>
-  <generalfeedback format="html">
-    <text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>
-Each physical quantity is defined in terms of base or derived SI/standard units according to international dimensional conventions.</p>
-<p><strong>Step 2: Step-by-Step Evaluation of Each Quantity</strong><br/>
-1. Molarity is the number of moles of solute per litre of solution; its unit is \(\text{mol L}^{-1}\).<br/>
-2. Mole fraction is the ratio of moles of a component to total moles; being a ratio of identical units, it is Unitless.<br/>
-3. Mole is the SI base unit for the amount of substance; its unit is \(\text{mol}\).<br/>
-4. Molality is the number of moles of solute per kilogram of solvent; its unit is \(\text{mol kg}^{-1}\).<br/>
-5. Pressure is force per unit area; in the SI system, its unit is the Pascal (\(\text{Pa}\)).<br/>
-6. Luminous intensity is an SI base quantity; its base unit is the Candela (\(\text{cd}\)).<br/>
-7. Density is mass per unit volume; a common laboratory unit is \(\text{g mL}^{-1}\).<br/>
-8. Mass is an SI base quantity; its base unit is the kilogram (\(\text{kg}\)).</p>
-<p><strong>Step 3: Final Conclusion</strong><br/>
-The correct matches are:<br/>
-- Molarity corresponds to \(\text{mol L}^{-1}\).<br/>
-- Mole fraction corresponds to \(\text{Unitless}\).<br/>
-- Mole corresponds to \(\text{mol}\).<br/>
-- Molality corresponds to \(\text{mol kg}^{-1}\).<br/>
-- Pressure corresponds to \(\text{Pascal}\).<br/>
-- Luminous intensity corresponds to \(\text{Candela}\).<br/>
-- Density corresponds to \(\text{g mL}^{-1}\).<br/>
-- Mass corresponds to \(\text{kg}\).</p>]]></text>
-  </generalfeedback>
+  <name><text>NEET_UG_CHEMISTRY_MATCHING_SOMEBASICCONCEPTSOFCHEMISTRY_MT_Q37 - Matching physical quantities with their units</text></name>
+  <questiontext format="html"><text><![CDATA[<p>37. Match the following physical quantities with units</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>Each physical quantity in chemistry has a characteristic unit (SI or commonly used laboratory unit) derived from its definition.</p>
+<p><strong>Step 2: Evaluation</strong><br/>- Molarity is moles of solute per litre of solution, with unit \(\text{mol L}^{-1}\).<br/>- Mole fraction is a ratio of moles to total moles, so it is unitless.<br/>- Mole is the SI unit for amount of substance, denoted by \(\text{mol}\).<br/>- Molality is moles of solute per kilogram of solvent, with unit \(\text{mol kg}^{-1}\).<br/>- Pressure is force per unit area, whose SI unit is Pascal (\(\text{N m}^{-2}\)).<br/>- Luminous intensity has the SI base unit Candela.<br/>- Density is mass per unit volume, commonly expressed in \(\text{g mL}^{-1}\).<br/>- Mass has the SI base unit \(\text{kg}\).</p>
+<p><strong>Step 3: Final Conclusion</strong><br/>The correct pairings are: Molarity \(\rightarrow \text{mol L}^{-1}\), Mole fraction \(\rightarrow\) Unitless, Mole \(\rightarrow \text{mol}\), Molality \(\rightarrow \text{mol kg}^{-1}\), Pressure \(\rightarrow\) Pascal, Luminous intensity \(\rightarrow\) Candela, Density \(\rightarrow \text{g mL}^{-1}\), and Mass \(\rightarrow \text{kg}\).</p>]]></text></generalfeedback>
   <defaultgrade>4.0000000</defaultgrade>
   <penalty>0.2500000</penalty>
   <hidden>0</hidden>
   <shuffleanswers>true</shuffleanswers>
   <subquestion format="html">
     <text><![CDATA[<p>Molarity</p>]]></text>
-    <answer><text>\(\text{mol L}^{-1}\)</text></answer>
+    <answer><text>mol L⁻¹</text></answer>
   </subquestion>
   <subquestion format="html">
     <text><![CDATA[<p>Mole fraction</p>]]></text>
@@ -1378,7 +814,7 @@ The correct matches are:<br/>
   </subquestion>
   <subquestion format="html">
     <text><![CDATA[<p>Molality</p>]]></text>
-    <answer><text>\(\text{mol kg}^{-1}\)</text></answer>
+    <answer><text>mol kg⁻¹</text></answer>
   </subquestion>
   <subquestion format="html">
     <text><![CDATA[<p>Pressure</p>]]></text>
@@ -1390,7 +826,7 @@ The correct matches are:<br/>
   </subquestion>
   <subquestion format="html">
     <text><![CDATA[<p>Density</p>]]></text>
-    <answer><text>\(\text{g mL}^{-1}\)</text></answer>
+    <answer><text>g mL⁻¹</text></answer>
   </subquestion>
   <subquestion format="html">
     <text><![CDATA[<p>Mass</p>]]></text>
@@ -1398,67 +834,49 @@ The correct matches are:<br/>
   </subquestion>
   <subquestion format="html">
     <text></text>
-    <answer><text>\(\text{Nm}^{-1}\)</text></answer>
+    <answer><text>Nm⁻¹</text></answer>
   </subquestion>
   <tags>
     <tag><text>standard:neet_ug</text></tag>
     <tag><text>lang:en</text></tag>
     <tag><text>subject:chemistry</text></tag>
+    <tag><text>section:matching</text></tag>
     <tag><text>class:11</text></tag>
     <tag><text>chapter:some_basic_concepts_of_chemistry</text></tag>
-    <tag><text>typology:matching-native</text></tag>
+    <tag><text>typology:matching</text></tag>
     <tag><text>difficulty:easy</text></tag>
     <tag><text>blooms:remember</text></tag>
+    <tag><text>calculation:light</text></tag>
     <tag><text>media:table</text></tag>
     <tag><text>multiconcept:false</text></tag>
   </tags>
 </question>
 <question type="multichoice">
-  <name><text>NEET_UG_CHEMISTRY_SOMEBASICCONCEPTSOFCHEMISTRY_MCQ_Q38 - Empirical and molecular mass of ethene</text></name>
-  <questiontext format="html">
-    <text><![CDATA[<p><strong>Assertion (A):</strong> The empirical mass of ethene is half of its molecular mass.</p>
-<p><strong>Reason (R):</strong> The empirical formula represents the simplest whole number ratio of various atoms present in a compound.</p>]]></text>
-  </questiontext>
-  <generalfeedback format="html">
-    <text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>
-The empirical formula represents the simplest whole-number ratio of the different atoms present in a molecule of a compound, whereas the molecular formula shows the exact number of different atoms present in a molecule. The molecular formula is related to the empirical formula by an integer factor \(n\):<br/>
-\[\text{Molecular formula} = (\text{Empirical formula})_n\]<br/>
-\[\text{Molecular mass} = n \times (\text{Empirical formula mass})\]</p>
-<p><strong>Step 2: Evaluation of Assertion and Reason</strong><br/>
-For ethene (\(\mathrm{C}_2\mathrm{H}_4\)):<br/>
-- Molecular mass of \(\mathrm{C}_2\mathrm{H}_4 = (2 \times 12) + (4 \times 1) = 28\text{ g mol}^{-1}\).<br/>
-- The simplest ratio of carbon to hydrogen atoms is \(2 : 4 = 1 : 2\), giving the empirical formula \(\mathrm{CH}_2\).<br/>
-- Empirical formula mass of \(\mathrm{CH}_2 = 12 + (2 \times 1) = 14\text{ g mol}^{-1}\).<br/>
-Here, \(n = \frac{28}{14} = 2\), which means the empirical mass is exactly half of the molecular mass. Hence, the Assertion is true.<br/>
-The Reason correctly defines the empirical formula as the simplest whole-number ratio of atoms in a compound, and it directly explains why the empirical formula of ethene is \(\mathrm{CH}_2\) with an empirical mass that is half of the molecular mass (\(\mathrm{C}_2\mathrm{H}_4\)). Hence, the Reason is true and correctly explains the Assertion.</p>
-<p><strong>Step 3: Final Conclusion</strong><br/>
-Both A and R are true and R is the correct explanation of A.</p>]]></text>
-  </generalfeedback>
+  <name><text>NEET_UG_CHEMISTRY_AR_SOMEBASICCONCEPTSOFCHEMISTRY_AR_Q38 - Empirical mass and molecular mass of ethene</text></name>
+  <questiontext format="html"><text><![CDATA[<p>38. <strong>Assertion (A)</strong> : The empirical mass of ethene is half of its molecular mass.</p>
+<p><strong>Reason (R)</strong> : The empirical formula represents the simplest whole number ratio of various atoms present in a compound.</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>The molecular formula gives the exact number of different types of atoms present in a molecule, whereas the empirical formula represents the simplest whole-number ratio of those atoms.</p>
+<p><strong>Step 2: Evaluation</strong><br/>For ethene, the molecular formula is \(\mathrm{C_2H_4}\), giving a molecular mass of \(2(12) + 4(1) = 28\text{ u}\). Dividing the subscripts by 2 gives the simplest whole-number ratio, which is the empirical formula \(\mathrm{CH_2}\). Its empirical mass is \(12 + 2(1) = 14\text{ u}\), which is exactly half of \(28\text{ u}\). Therefore, the Assertion is true.</p>
+<p><strong>Step 3: Application</strong><br/>The Reason accurately defines the empirical formula as representing the simplest whole-number ratio of atoms in a compound, and this simplification by a factor of 2 directly explains why the empirical mass of ethene is half its molecular mass.</p>
+<p><strong>Step 4: Final Conclusion</strong><br/>Both A and R are true and R is the correct explanation of A.</p>]]></text></generalfeedback>
   <defaultgrade>4.0000000</defaultgrade>
   <penalty>0.2500000</penalty>
   <hidden>0</hidden>
   <single>true</single>
-  <shuffleanswers>false</shuffleanswers>
+  <shuffleanswers>true</shuffleanswers>
   <answernumbering>iii</answernumbering>
-  <answer fraction="100" format="html">
-    <text><![CDATA[<p>Both A and R are true and R is the correct explanation of A.</p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>A is true but R is false.</p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>A is false but R is true.</p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>Both A and R are false.</p>]]></text>
-  </answer>
+  <answer fraction="100" format="html"><text><![CDATA[<p>Both A and R are true and R is the correct explanation of A.</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>A is true but R is false.</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>A is false but R is true.</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>Both A and R are false.</p>]]></text></answer>
   <tags>
     <tag><text>standard:neet_ug</text></tag>
     <tag><text>lang:en</text></tag>
     <tag><text>subject:chemistry</text></tag>
+    <tag><text>section:assertion_and_reason</text></tag>
     <tag><text>class:11</text></tag>
     <tag><text>chapter:some_basic_concepts_of_chemistry</text></tag>
-    <tag><text>typology:assertion-reason</text></tag>
+    <tag><text>typology:assertion_reason</text></tag>
     <tag><text>difficulty:easy</text></tag>
     <tag><text>blooms:understand</text></tag>
     <tag><text>calculation:light</text></tag>
@@ -1467,152 +885,97 @@ Both A and R are true and R is the correct explanation of A.</p>]]></text>
   </tags>
 </question>
 <question type="multichoice">
-  <name><text>NEET_UG_CHEMISTRY_SOMEBASICCONCEPTSOFCHEMISTRY_MCQ_Q39 - Definition of atomic mass unit standard</text></name>
-  <questiontext format="html">
-    <text><![CDATA[<p><strong>Assertion (A):</strong> One atomic mass unit is defined as one twelfth of the mass of one carbon-12 atom.</p>
-<p><strong>Reason (R):</strong> Carbon-12 isotope is the most abundant isotope of carbon and has been chosen as standard.</p>]]></text>
-  </questiontext>
-  <generalfeedback format="html">
-    <text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>
-One atomic mass unit (\(1\text{ amu}\) or \(1\text{ u}\)) is standardly defined as a mass exactly equal to one-twelfth of the mass of one \({}^{12}\mathrm{C}\) atom.</p>
-<p><strong>Step 2: Evaluation of Assertion and Reason</strong><br/>
-- Assertion: By international standard (IUPAC, 1961), \(1\text{ amu}\) is defined as one-twelfth of the mass of a single atom of carbon-12. Thus, the Assertion is true.<br/>
-- Reason: Carbon-12 is indeed the most abundant natural isotope of carbon (abundance \(\approx 98.9\%\)) and has been chosen as the standard for defining atomic and molecular masses. Thus, the Reason is also a true statement.<br/>
-- However, the definition of one atomic mass unit as one-twelfth of the mass of a carbon-12 atom is a matter of agreed international convention (chosen so that hydrogen has an atomic mass close to 1); the high natural abundance of carbon-12 does not provide the logical explanation for why the fraction \(\frac{1}{12}\) is selected in the definition. Hence, the Reason is not the correct explanation of the Assertion.</p>
-<p><strong>Step 3: Final Conclusion</strong><br/>
-Both A and R are true but R is not the correct explanation of A.</p>]]></text>
-  </generalfeedback>
+  <name><text>NEET_UG_CHEMISTRY_AR_SOMEBASICCONCEPTSOFCHEMISTRY_AR_Q39 - Definition of atomic mass unit and carbon-12</text></name>
+  <questiontext format="html"><text><![CDATA[<p>39. <strong>Assertion (A)</strong> : One atomic mass unit is defined as one twelfth of the mass of one carbon-12 atom.</p>
+<p><strong>Reason (R)</strong> : Carbon-12 isotope is the most abundant isotope of carbon and has been chosen as standard.</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>One atomic mass unit (amu or u) is defined by international convention as a mass exactly equal to one-twelfth of the mass of one carbon-12 (\({}^{12}\mathrm{C}\)) atom.</p>
+<p><strong>Step 2: Evaluation</strong><br/>The Assertion is a true statement of the modern definition of the atomic mass unit. The Reason is also true: \({}^{12}\mathrm{C}\) is the most abundant isotope of carbon and was chosen as the reference standard.</p>
+<p><strong>Step 3: Application</strong><br/>However, the abundance of \({}^{12}\mathrm{C}\) does not explain why one atomic mass unit is defined specifically as *one-twelfth* of its mass (the factor of \(\frac{1}{12}\) is chosen so that the mass of a hydrogen atom is close to \(1\text{ u}\) and atomic masses of other elements remain convenient).</p>
+<p><strong>Step 4: Final Conclusion</strong><br/>Both A and R are true but R is not the correct explanation of A.</p>]]></text></generalfeedback>
   <defaultgrade>4.0000000</defaultgrade>
   <penalty>0.2500000</penalty>
   <hidden>0</hidden>
   <single>true</single>
-  <shuffleanswers>false</shuffleanswers>
+  <shuffleanswers>true</shuffleanswers>
   <answernumbering>iii</answernumbering>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>Both A and R are true and R is the correct explanation of A.</p>]]></text>
-  </answer>
-  <answer fraction="100" format="html">
-    <text><![CDATA[<p>Both A and R are true but R is not the correct explanation of A.</p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>A is true but R is false.</p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>Both A and R are false.</p>]]></text>
-  </answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>Both A and R are true and R is the correct explanation of A.</p>]]></text></answer>
+  <answer fraction="100" format="html"><text><![CDATA[<p>Both A and R are true but R is not the correct explanation of A.</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>A is true but R is false.</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>Both A and R are false.</p>]]></text></answer>
   <tags>
     <tag><text>standard:neet_ug</text></tag>
     <tag><text>lang:en</text></tag>
     <tag><text>subject:chemistry</text></tag>
+    <tag><text>section:assertion_and_reason</text></tag>
     <tag><text>class:11</text></tag>
     <tag><text>chapter:some_basic_concepts_of_chemistry</text></tag>
-    <tag><text>typology:assertion-reason</text></tag>
-    <tag><text>difficulty:easy</text></tag>
-    <tag><text>blooms:remember</text></tag>
+    <tag><text>typology:assertion_reason</text></tag>
+    <tag><text>difficulty:medium</text></tag>
+    <tag><text>blooms:understand</text></tag>
+    <tag><text>calculation:light</text></tag>
     <tag><text>media:text</text></tag>
     <tag><text>multiconcept:false</text></tag>
   </tags>
 </question>
 <question type="multichoice">
-  <name><text>NEET_UG_CHEMISTRY_SOMEBASICCONCEPTSOFCHEMISTRY_MCQ_Q40 - Significant figures in decimal measurement numbers</text></name>
-  <questiontext format="html">
-    <text><![CDATA[<p><strong>Assertion (A):</strong> Significant figures for \(0.200\) is \(3\) where as for \(200\) it is \(1\).</p>
-<p><strong>Reason (R):</strong> Zero at the end or right of a number are significant provided they are not on the right side of the decimal point.</p>]]></text>
-  </questiontext>
-  <generalfeedback format="html">
-    <text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>
-Rules for determining significant figures specify:<br/>
-1. All non-zero digits are significant.<br/>
-2. Zeros to the left of the first non-zero digit are not significant.<br/>
-3. Zeros at the end or to the right of a number are significant only if they are on the right side of the decimal point.<br/>
-4. Terminal zeros in an integer without a decimal point are not significant unless indicated by scientific notation.</p>
-<p><strong>Step 2: Evaluation of Assertion and Reason</strong><br/>
-- In \(0.200\), the zeros appear after a non-zero digit and to the right of a decimal point; hence both terminal zeros are significant, giving a total of \(3\) significant figures.<br/>
-- In \(200\), there is no decimal point; hence the trailing zeros are not significant, giving only \(1\) significant figure. Thus, the Assertion is true.<br/>
-- The Reason states that zeros at the end or right of a number are significant provided they are not on the right side of the decimal point. According to the standard rules of significant figures, trailing zeros are significant provided they ARE on the right side of a decimal point. Therefore, the Reason statement is false.</p>
-<p><strong>Step 3: Final Conclusion</strong><br/>
-A is true but R is false.</p>]]></text>
-  </generalfeedback>
+  <name><text>NEET_UG_CHEMISTRY_AR_SOMEBASICCONCEPTSOFCHEMISTRY_AR_Q40 - Significant figures for trailing zeros in numbers</text></name>
+  <questiontext format="html"><text><![CDATA[<p>40. <strong>Assertion (A)</strong> : Significant figures for 0.200 is 3 where as for 200 it is 1.</p>
+<p><strong>Reason (R)</strong> : Zero at the end or right of a number are significant provided they are not on the right side of the decimal point.</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>According to the rules for determining significant figures, trailing zeros (zeros at the end or right of a number) are significant if and only if they are on the right side of the decimal point.</p>
+<p><strong>Step 2: Evaluation</strong><br/>In \(0.200\), the leading zero is not significant, while the two trailing zeros to the right of the decimal point are significant; hence, \(0.200\) has 3 significant figures. In \(200\) (written without a decimal point), the trailing zeros are not significant; hence, \(200\) has 1 significant figure. Therefore, the Assertion is true.</p>
+<p><strong>Step 3: Application</strong><br/>The Reason states the opposite of the rule—it claims trailing zeros are significant provided they are *not* on the right side of the decimal point. Thus, the Reason is false.</p>
+<p><strong>Step 4: Final Conclusion</strong><br/>A is true but R is false.</p>]]></text></generalfeedback>
   <defaultgrade>4.0000000</defaultgrade>
   <penalty>0.2500000</penalty>
   <hidden>0</hidden>
   <single>true</single>
-  <shuffleanswers>false</shuffleanswers>
+  <shuffleanswers>true</shuffleanswers>
   <answernumbering>iii</answernumbering>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>Both A and R are true and R is correct explanation of A.</p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>Both A and R are true but R is not a correct explanation of A.</p>]]></text>
-  </answer>
-  <answer fraction="100" format="html">
-    <text><![CDATA[<p>A is true but R is false.</p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>Both A and R are false.</p>]]></text>
-  </answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>Both A and R are true and R is correct explanation of A.</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>Both A and R are true but R is not a correct explanation of A.</p>]]></text></answer>
+  <answer fraction="100" format="html"><text><![CDATA[<p>A is true but R is false.</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>Both A and R are false.</p>]]></text></answer>
   <tags>
     <tag><text>standard:neet_ug</text></tag>
     <tag><text>lang:en</text></tag>
     <tag><text>subject:chemistry</text></tag>
+    <tag><text>section:assertion_and_reason</text></tag>
     <tag><text>class:11</text></tag>
     <tag><text>chapter:some_basic_concepts_of_chemistry</text></tag>
-    <tag><text>typology:assertion-reason</text></tag>
+    <tag><text>typology:assertion_reason</text></tag>
     <tag><text>difficulty:easy</text></tag>
     <tag><text>blooms:understand</text></tag>
+    <tag><text>calculation:light</text></tag>
     <tag><text>media:text</text></tag>
     <tag><text>multiconcept:false</text></tag>
   </tags>
 </question>
 <question type="multichoice">
-  <name><text>NEET_UG_CHEMISTRY_SOMEBASICCONCEPTSOFCHEMISTRY_MCQ_Q41 - Stoichiometry of water in methane combustion</text></name>
-  <questiontext format="html">
-    <text><![CDATA[<p><strong>Assertion (A):</strong> Combustion of \(16\text{ g}\) of methane gives \(18\text{ g}\) of water.</p>
-<p><strong>Reason (R):</strong> In the combustion of methane, water is one of the products.</p>]]></text>
-  </questiontext>
-  <generalfeedback format="html">
-    <text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>
-Mass of methane (\(\mathrm{CH}_4\)) = \(16\text{ g}\).<br/>
-Combustion reaction: \(\mathrm{CH}_4(\mathrm{g}) + 2\mathrm{O}_2(\mathrm{g}) \longrightarrow \mathrm{CO}_2(\mathrm{g}) + 2\mathrm{H}_2\mathrm{O}(\mathrm{l})\).<br/>
-Molar mass of \(\mathrm{CH}_4 = 12 + 4(1) = 16\text{ g mol}^{-1}\).<br/>
-Molar mass of \(\mathrm{H}_2\mathrm{O} = 2(1) + 16 = 18\text{ g mol}^{-1}\).</p>
-<p><strong>Step 2: Assumptions and Principles</strong><br/>
-Combustion is assumed to be complete in excess oxygen, following stoichiometric mass relationships.</p>
-<p><strong>Step 3: Relevant Formulae and Principles</strong><br/>
-\[n(\mathrm{CH}_4) = \frac{m}{M} = \frac{16\text{ g}}{16\text{ g mol}^{-1}} = 1\text{ mol}\]<br/>
-From the balanced equation, \(1\text{ mol}\) of \(\mathrm{CH}_4\) produces \(2\text{ mol}\) of \(\mathrm{H}_2\mathrm{O}\).<br/>
-\[m(\mathrm{H}_2\mathrm{O}) = n \times M = 2\text{ mol} \times 18\text{ g mol}^{-1} = 36\text{ g}\]</p>
-<p><strong>Step 4: Step-by-Step Working and Evaluation</strong><br/>
-- Complete combustion of \(16\text{ g}\) of methane yields \(36\text{ g}\) of water, not \(18\text{ g}\). Therefore, the Assertion is false.<br/>
-- In the combustion reaction, carbon dioxide and water are the reaction products; hence water is indeed one of the products. Therefore, the Reason is true.</p>
-<p><strong>Step 5: Check and Final Answer</strong><br/>
-Since the Assertion is false and the Reason is true, the correct evaluation is that A is false but R is true.</p>]]></text>
-  </generalfeedback>
+  <name><text>NEET_UG_CHEMISTRY_AR_SOMEBASICCONCEPTSOFCHEMISTRY_AR_Q41 - Combustion of methane and mass of water formed</text></name>
+  <questiontext format="html"><text><![CDATA[<p>41. <strong>Assertion (A)</strong> : Combustion of 16 g of methane gives 18 g of water.</p>
+<p><strong>Reason (R)</strong> : In the combustion of methane, water is one of the products.</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>Complete combustion of a hydrocarbon such as methane (\(\mathrm{CH_4}\)) in oxygen produces carbon dioxide and water according to a balanced stoichiometric equation.</p>
+<p><strong>Step 2: Evaluation</strong><br/>The balanced equation for the combustion of methane is:<br/>\[\mathrm{CH_4(g) + 2O_2(g) \longrightarrow CO_2(g) + 2H_2O(g)}\]<br/>\(16\text{ g}\) of \(\mathrm{CH_4}\) corresponds to \(1\text{ mol}\) of \(\mathrm{CH_4}\). From stoichiometry, \(1\text{ mol}\) of \(\mathrm{CH_4}\) produces \(2\text{ mol}\) of \(\mathrm{H_2O}\), which has a mass of \(2 \times 18\text{ g} = 36\text{ g}\), not \(18\text{ g}\). Therefore, the Assertion is false.</p>
+<p><strong>Step 3: Application</strong><br/>The Reason states that water is one of the products in the combustion of methane, which is true.</p>
+<p><strong>Step 4: Final Conclusion</strong><br/>A is false but R is true.</p>]]></text></generalfeedback>
   <defaultgrade>4.0000000</defaultgrade>
   <penalty>0.2500000</penalty>
   <hidden>0</hidden>
   <single>true</single>
-  <shuffleanswers>false</shuffleanswers>
+  <shuffleanswers>true</shuffleanswers>
   <answernumbering>iii</answernumbering>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>Both A and R are true but R is not the correct explanation of A.</p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>A is true but R is false.</p>]]></text>
-  </answer>
-  <answer fraction="100" format="html">
-    <text><![CDATA[<p>A is false but R is true.</p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>Both A and R are false.</p>]]></text>
-  </answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>Both A and R are true but R is not the correct explanation of A.</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>A is true but R is false.</p>]]></text></answer>
+  <answer fraction="100" format="html"><text><![CDATA[<p>A is false but R is true.</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>Both A and R are false.</p>]]></text></answer>
   <tags>
     <tag><text>standard:neet_ug</text></tag>
     <tag><text>lang:en</text></tag>
     <tag><text>subject:chemistry</text></tag>
+    <tag><text>section:assertion_and_reason</text></tag>
     <tag><text>class:11</text></tag>
     <tag><text>chapter:some_basic_concepts_of_chemistry</text></tag>
-    <tag><text>typology:assertion-reason</text></tag>
+    <tag><text>typology:assertion_reason</text></tag>
     <tag><text>difficulty:easy</text></tag>
     <tag><text>blooms:apply</text></tag>
     <tag><text>calculation:light</text></tag>

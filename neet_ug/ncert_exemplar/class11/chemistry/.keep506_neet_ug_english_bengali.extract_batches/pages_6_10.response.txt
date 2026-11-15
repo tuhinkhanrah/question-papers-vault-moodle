@@ -1,105 +1,201 @@
+<question type="matching">
+  <name><text>CHEMISTRY_THERMODYNAMICS_MATCHING_Q52 - Matching thermodynamic processes with entropy change</text></name>
+  <questiontext format="html"><text><![CDATA[<p>Match the following processes with entropy change:</p><hr/><p>নিচের প্রক্রিয়াগুলোর সাথে এনট্রপির পরিবর্তনের মিল করো:</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>Entropy (\(S\)) measures the disorder or randomness of a system. For any reversible process, the total entropy change of the universe is zero.</p><p><strong>Step 2: Evaluation</strong><br/>1. When a liquid vapourises, molecules move from a relatively ordered liquid phase to a highly disordered gaseous phase, so \(\Delta S\) is positive.<br/>2. For a reaction with \(\Delta H > 0\) to be non-spontaneous at all temperatures (\(\Delta G = \Delta H - T\Delta S > 0\) for all \(T > 0\)), \(-T\Delta S\) must be positive, meaning \(\Delta S\) must be negative.<br/>3. For a reversible expansion of an ideal gas (considering total entropy change of system plus surroundings, or reversible adiabatic expansion), \(\Delta S = 0\).</p><p><strong>Step 3: Final Conclusion</strong><br/>Thus, a liquid vapourises corresponds to \(\Delta S = \text{positive}\); a reaction that is non-spontaneous at all temperatures with positive \(\Delta H\) corresponds to \(\Delta S = \text{negative}\); and reversible expansion of an ideal gas corresponds to \(\Delta S = 0\).</p><hr/><p><strong>ধাপ ১: ধারণাগত নীতি</strong><br/>এনট্রপি (\(S\)) কোনো সিস্টেমের বিশৃঙ্খলা বা এলোমেলো অবস্থার পরিমাপ করে। যেকোনো পরাবর্তী প্রক্রিয়ার জন্য মহাবিশ্বের মোট এনট্রপির পরিবর্তন শূন্য হয়।</p><p><strong>ধাপ ২: মূল্যায়ন</strong><br/>১. যখন একটি তরল বাষ্পীভূত হয়, তখন অণুগুলো তুলনামূলকভাবে সুশৃঙ্খল তরল দশা থেকে অত্যন্ত বিশৃঙ্খল গ্যাসীয় দশায় যায়, তাই \(\Delta S\) ধনাত্মক হয়।<br/>২. \(\Delta H > 0\) যুক্ত কোনো বিক্রিয়া সকল তাপমাত্রায় অস্বতঃস্ফূর্ত হওয়ার জন্য (সকল \(T > 0\)-এর জন্য \(\Delta G = \Delta H - T\Delta S > 0\)), \(-T\Delta S\) ধনাত্মক হতে হবে, অর্থাৎ \(\Delta S\) অবশ্যই ঋণাত্মক হবে।<br/>৩. একটি আদর্শ গ্যাসের পরাবর্তী প্রসারণের জন্য (সিস্টেম ও পরিবেশের মোট এনট্রপি পরিবর্তন বা পরাবর্তী রুদ্ধতাপীয় প্রসারণ বিবেচনায়), \(\Delta S = 0\) হয়।</p><p><strong>ধাপ ৩: চূড়ান্ত সিদ্ধান্ত</strong><br/>সুতরাং, তরলের বাষ্পীভবন \(\Delta S = \text{positive}\)-এর সাথে; ধনাত্মক \(\Delta H\) সহ সকল তাপমাত্রায় অস্বতঃস্ফূর্ত বিক্রিয়া \(\Delta S = \text{negative}\)-এর সাথে; এবং আদর্শ গ্যাসের পরাবর্তী প্রসারণ \(\Delta S = 0\)-এর সাথে মেলে।</p>]]></text></generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <shuffleanswers>true</shuffleanswers>
+  <subquestion format="html">
+    <text><![CDATA[<p>A liquid vapourises</p>]]></text>
+    <answer><text>\(\Delta S = \text{positive}\)</text></answer>
+  </subquestion>
+  <subquestion format="html">
+    <text><![CDATA[<p>Reaction is non-spontaneous at all temperatures and \(\Delta H\) is positive</p>]]></text>
+    <answer><text>\(\Delta S = \text{negative}\)</text></answer>
+  </subquestion>
+  <subquestion format="html">
+    <text><![CDATA[<p>Reversible expansion of an ideal gas</p>]]></text>
+    <answer><text>\(\Delta S = 0\)</text></answer>
+  </subquestion>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:bn</text></tag>
+    <tag><text>subject:chemistry</text></tag>
+    <tag><text>section:matching</text></tag>
+    <tag><text>class:11</text></tag>
+    <tag><text>chapter:thermodynamics</text></tag>
+    <tag><text>typology:matching</text></tag>
+    <tag><text>difficulty:medium</text></tag>
+    <tag><text>blooms:analyze</text></tag>
+    <tag><text>media:equation</text></tag>
+    <tag><text>multiconcept:true</text></tag>
+  </tags>
+</question>
+
+<question type="matching">
+  <name><text>CHEMISTRY_THERMODYNAMICS_MATCHING_Q53 - Matching thermodynamic parameters with spontaneity description</text></name>
+  <questiontext format="html"><text><![CDATA[<p>Match the following parameters with description for spontaneity:</p><hr/><p>স্বতঃস্ফূর্ততার বর্ণনার সাথে নিচের প্যারামিটারগুলোর মিল করো:</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>Spontaneity at constant temperature and pressure is governed by the Gibbs-Helmholtz equation: \(\Delta_r G^\ominus = \Delta_r H^\ominus - T\Delta_r S^\ominus\). A process is spontaneous when \(\Delta_r G^\ominus < 0\) and non-spontaneous when \(\Delta_r G^\ominus > 0\).</p><p><strong>Step 2: Evaluation</strong><br/>1. When \(\Delta_r H^\ominus = +\) and \(\Delta_r S^\ominus = -\), then \(\Delta_r G^\ominus = (+) - T(-) = +\) at all temperatures; hence, the reaction is non-spontaneous at all temperatures.<br/>2. When \(\Delta_r H^\ominus = -\) and \(\Delta_r S^\ominus = -\), then \(\Delta_r G^\ominus = (-) - T(-)\). At high temperature, \(|T\Delta_r S^\ominus| > |\Delta_r H^\ominus|\), making \(\Delta_r G^\ominus\) positive; hence, it is non-spontaneous at high temperature.<br/>3. When \(\Delta_r H^\ominus = -\) and \(\Delta_r S^\ominus = +\), then \(\Delta_r G^\ominus = (-) - T(+) = -\) at all temperatures; hence, the reaction is spontaneous at all temperatures.</p><p><strong>Step 3: Final Conclusion</strong><br/>Thus, \((\Delta_r H^\ominus: +, \; \Delta_r S^\ominus: -, \; \Delta_r G^\ominus: +)\) matches non-spontaneous at all temperatures; \((\Delta_r H^\ominus: -, \; \Delta_r S^\ominus: -, \; \Delta_r G^\ominus: + \text{ at high } T)\) matches non-spontaneous at high temperature; and \((\Delta_r H^\ominus: -, \; \Delta_r S^\ominus: +, \; \Delta_r G^\ominus: -)\) matches spontaneous at all temperatures.</p><hr/><p><strong>ধাপ ১: ধারণাগত নীতি</strong><br/>স্থির তাপমাত্রা ও চাপে স্বতঃস্ফূর্ততা গিবস-হেলমহোল্টজ সমীকরণ দ্বারা নির্ধারিত হয়: \(\Delta_r G^\ominus = \Delta_r H^\ominus - T\Delta_r S^\ominus\)। যখন \(\Delta_r G^\ominus < 0\) হয় তখন প্রক্রিয়াটি স্বতঃস্ফূর্ত এবং \(\Delta_r G^\ominus > 0\) হলে অস্বতঃস্ফূর্ত হয়।</p><p><strong>ধাপ ২: মূল্যায়ন</strong><br/>১. যখন \(\Delta_r H^\ominus = +\) এবং \(\Delta_r S^\ominus = -\), তখন সকল তাপমাত্রায় \(\Delta_r G^\ominus = (+) - T(-) = +\) হয়; ফলে বিক্রিয়াটি সকল তাপমাত্রায় অস্বতঃস্ফূর্ত।<br/>২. যখন \(\Delta_r H^\ominus = -\) এবং \(\Delta_r S^\ominus = -\), তখন \(\Delta_r G^\ominus = (-) - T(-)\) হয়। উচ্চ তাপমাত্রায় \(|T\Delta_r S^\ominus| > |\Delta_r H^\ominus|\) হওয়ায় \(\Delta_r G^\ominus\) ধনাত্মক হয়; ফলে এটি উচ্চ তাপমাত্রায় অস্বতঃস্ফূর্ত।<br/>৩. যখন \(\Delta_r H^\ominus = -\) এবং \(\Delta_r S^\ominus = +\), তখন সকল তাপমাত্রায় \(\Delta_r G^\ominus = (-) - T(+) = -\) হয়; ফলে বিক্রিয়াটি সকল তাপমাত্রায় স্বতঃস্ফূর্ত।</p><p><strong>ধাপ ৩: চূড়ান্ত সিদ্ধান্ত</strong><br/>সুতরাং, \((\Delta_r H^\ominus: +, \; \Delta_r S^\ominus: -, \; \Delta_r G^\ominus: +)\) সকল তাপমাত্রায় অস্বতঃস্ফূর্ত-এর সাথে; \((\Delta_r H^\ominus: -, \; \Delta_r S^\ominus: -, \; \Delta_r G^\ominus: + \text{ উচ্চ } T\text{-তে})\) উচ্চ তাপমাত্রায় অস্বতঃস্ফূর্ত-এর সাথে; এবং \((\Delta_r H^\ominus: -, \; \Delta_r S^\ominus: +, \; \Delta_r G^\ominus: -)\) সকল তাপমাত্রায় স্বতঃস্ফূর্ত-এর সাথে মেলে।</p>]]></text></generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <shuffleanswers>true</shuffleanswers>
+  <subquestion format="html">
+    <text><![CDATA[<p>\(\Delta_r H^\ominus = +, \; \Delta_r S^\ominus = -, \; \Delta_r G^\ominus = +\)</p>]]></text>
+    <answer><text>Non-spontaneous at all temperatures</text></answer>
+  </subquestion>
+  <subquestion format="html">
+    <text><![CDATA[<p>\(\Delta_r H^\ominus = -, \; \Delta_r S^\ominus = -, \; \Delta_r G^\ominus = +\) at high \(T\)</p>]]></text>
+    <answer><text>Non-spontaneous at high temperature</text></answer>
+  </subquestion>
+  <subquestion format="html">
+    <text><![CDATA[<p>\(\Delta_r H^\ominus = -, \; \Delta_r S^\ominus = +, \; \Delta_r G^\ominus = -\)</p>]]></text>
+    <answer><text>Spontaneous at all temperatures</text></answer>
+  </subquestion>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:bn</text></tag>
+    <tag><text>subject:chemistry</text></tag>
+    <tag><text>section:matching</text></tag>
+    <tag><text>class:11</text></tag>
+    <tag><text>chapter:thermodynamics</text></tag>
+    <tag><text>typology:matching</text></tag>
+    <tag><text>difficulty:medium</text></tag>
+    <tag><text>blooms:apply</text></tag>
+    <tag><text>media:equation</text></tag>
+    <tag><text>multiconcept:true</text></tag>
+  </tags>
+</question>
+
+<question type="matching">
+  <name><text>CHEMISTRY_THERMODYNAMICS_MATCHING_Q54 - Matching thermodynamic quantities and states with properties</text></name>
+  <questiontext format="html"><text><![CDATA[<p>Match the following:</p><hr/><p>নিচের বিষয়গুলোর মিল করো:</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>Thermodynamic quantities such as entropy of phase transitions, equilibrium constants, and internal energy changes in adiabatic processes follow well-defined thermodynamic relationships.</p><p><strong>Step 2: Evaluation</strong><br/>1. Entropy of vapourisation at the normal boiling point \(T_b\) is given by \(\Delta_{\text{vap}} S = \frac{\Delta H_{\text{vap}}}{T_b}\).<br/>2. Equilibrium constant \(K\) is related to standard Gibbs energy by \(K = e^{-\Delta G^\ominus / RT}\), which is always positive.<br/>3. In a crystalline solid state, constituent particles occupy fixed lattice positions with minimal disorder, giving it the lowest entropy.<br/>4. In an adiabatic expansion of an ideal gas, \(q = 0\) and work is done by the gas (\(w < 0\)); by the First Law (\(\Delta U = q + w = w < 0\)), internal energy \(\Delta U\) decreases.</p><p><strong>Step 3: Final Conclusion</strong><br/>Thus, entropy of vapourisation matches \(\frac{\Delta H_{\mathrm{vap}}}{T_{\mathrm{b}}}\); \(K\) for spontaneous process matches is always positive; crystalline solid state matches lowest entropy; and \(\Delta U\) in adiabatic expansion of ideal gas matches decreases.</p><hr/><p><strong>ধাপ ১: ধারণাগত নীতি</strong><br/>দশা পরিবর্তনের এনট্রপি, সাম্যধ্রুবক এবং রুদ্ধতাপীয় প্রক্রিয়ায় অভ্যন্তরীণ শক্তির পরিবর্তনের মতো তাপগতীয় রাশিগুলো সুনির্দিষ্ট তাপগতীয় সম্পর্ক মেনে চলে।</p><p><strong>ধাপ ২: মূল্যায়ন</strong><br/>১. স্বাভাবিক স্ফুটনাঙ্ক \(T_b\)-তে বাষ্পীভবনের এনট্রপি হলো \(\Delta_{\text{vap}} S = \frac{\Delta H_{\text{vap}}}{T_b}\)।<br/>২. সাম্যধ্রুবক \(K\) প্রমাণ গিবস শক্তির সাথে \(K = e^{-\Delta G^\ominus / RT}\) দ্বারা সম্পর্কিত, যা সর্বদা ধনাত্মক হয়।<br/>৩. কেলাসাকার কঠিন অবস্থায় উপাদান কণাগুলো নির্দিষ্ট জালক বিন্দুতে ন্যূনতম বিশৃঙ্খলা নিয়ে অবস্থান করে, ফলে এর এনট্রপি সর্বনিম্ন হয়।<br/>৪. একটি আদর্শ গ্যাসের রুদ্ধতাপীয় প্রসারণে \(q = 0\) এবং গ্যাস দ্বারা কার্য সম্পাদিত হয় (\(w < 0\)); তাপগতিবিদ্যার প্রথম সূত্র অনুসারে (\(\Delta U = q + w = w < 0\)), অভ্যন্তরীণ শক্তি \(\Delta U\) হ্রাস পায়।</p><p><strong>ধাপ ৩: চূড়ান্ত সিদ্ধান্ত</strong><br/>সুতরাং, বাষ্পীভবনের এনট্রপি \(\frac{\Delta H_{\mathrm{vap}}}{T_{\mathrm{b}}}\)-এর সাথে; স্বতঃস্ফূর্ত প্রক্রিয়ার জন্য \(K\) সর্বদা ধনাত্মক-এর সাথে; কেলাসাকার কঠিন অবস্থা সর্বনিম্ন এনট্রপি-এর সাথে; এবং আদর্শ গ্যাসের রুদ্ধতাপীয় প্রসারণে \(\Delta U\) হ্রাস পায়-এর সাথে মেলে।</p>]]></text></generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <shuffleanswers>true</shuffleanswers>
+  <subquestion format="html">
+    <text><![CDATA[<p>Entropy of vapourisation</p>]]></text>
+    <answer><text>\(\frac{\Delta H_{\mathrm{vap}}}{T_{\mathrm{b}}}\)</text></answer>
+  </subquestion>
+  <subquestion format="html">
+    <text><![CDATA[<p>\(K\) for spontaneous process</p>]]></text>
+    <answer><text>is always positive</text></answer>
+  </subquestion>
+  <subquestion format="html">
+    <text><![CDATA[<p>Crystalline solid state</p>]]></text>
+    <answer><text>lowest entropy</text></answer>
+  </subquestion>
+  <subquestion format="html">
+    <text><![CDATA[<p>\(\Delta U\) in adiabatic expansion of ideal gas</p>]]></text>
+    <answer><text>decreases</text></answer>
+  </subquestion>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:bn</text></tag>
+    <tag><text>subject:chemistry</text></tag>
+    <tag><text>section:matching</text></tag>
+    <tag><text>class:11</text></tag>
+    <tag><text>chapter:thermodynamics</text></tag>
+    <tag><text>typology:matching</text></tag>
+    <tag><text>difficulty:medium</text></tag>
+    <tag><text>blooms:understand</text></tag>
+    <tag><text>media:equation</text></tag>
+    <tag><text>multiconcept:true</text></tag>
+  </tags>
+</question>
+
 <question type="multichoice">
-    <name><text>NEET_UG_CHEMISTRY_THERMODYNAMICS_MCQ_Q55 - Exothermic nature of combustion of organic compounds</text></name>
-    <questiontext format="html"><text><![CDATA[<p><strong>Assertion (A):</strong> Combustion of all organic compounds is an exothermic reaction.</p>
-<p><strong>Reason (R) :</strong> The enthalpies of all elements in their standard state are zero.</p>
-<hr/>
-<p><strong>নিশ্চিতকরণ (A):</strong> সমস্ত জৈব যৌগের দহন একটি তাপমোচী বিক্রিয়া।</p>
-<p><strong>যুক্তি (R):</strong> প্রমাণ অবস্থায় সমস্ত মৌলের এনথ্যালপি শূন্য।</p>]]></text></questiontext>
-    <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>Combustion of organic compounds involves oxidation by oxygen to form stable products, primarily carbon dioxide and water. The enthalpy change of an element in its standard reference state is defined as zero by thermodynamic convention.</p><p><strong>Step 2: Evaluation of Assertion</strong><br/>During the combustion of any organic compound, a large amount of energy is released because the bonds formed in the products (specifically \(\mathrm{C=O}\) bonds in \(\mathrm{CO}_2\) and \(\mathrm{O-H}\) bonds in \(\mathrm{H}_2\mathrm{O}\)) are significantly stronger and more stable than the bonds broken in the organic reactant and diatomic oxygen. Consequently, \(\Delta_c H < 0\) for all organic compounds, making the assertion true.</p><p><strong>Step 3: Evaluation of Reason and Relationship</strong><br/>By international thermodynamic convention, the standard molar enthalpy of formation of every pure element in its most stable reference physical state at \(298.15\mathrm{\ K}\) and \(1\mathrm{\ bar}\) is assigned a value of zero. Thus, the reason is also true. However, the convention assigning zero standard enthalpy to pure elements is an arbitrary reference baseline and is not the causal reason why combustion reactions release heat. The exothermicity arises entirely from the difference between the bond energies of products and reactants.</p><p><strong>Step 4: Final Conclusion</strong><br/>Therefore, both the assertion and reason are true, but the reason is not the correct explanation of the assertion.</p>
-<hr/>
-<p><strong>ধাপ ১: মূল নীতি ও ধারণা</strong><br/>জৈব যৌগের দহন প্রক্রিয়ায় অক্সিজেনের উপস্থিতিতে জারণ ঘটে মূলত কার্বন ডাই অক্সাইড ও পানি উৎপন্ন হয়। তাপগতীয় রীতি অনুসারে প্রমাণ অবস্থায় বিশুদ্ধ মৌলিক পদার্থের গঠন এনথ্যালপি শূন্য ধরা হয়।</p><p><strong>ধাপ ২: অ্যাসারশন (Assertion)-এর মূল্যায়ন</strong><br/>যেকোনো জৈব যৌগের দহনে প্রচুর পরিমাণে তাপশক্তি নির্গত হয়, কারণ উৎপন্ন উৎপাদসমূহের মধ্যে গঠিত বন্ধনগুলি (বিশেষ করে \(\mathrm{CO}_2\)-এর \(\mathrm{C=O}\) এবং \(\mathrm{H}_2\mathrm{O}\)-এর \(\mathrm{O-H}\) বন্ধন) বিক্রিয়কের বন্ধন অপেক্ষা অনেক বেশি শক্তিশালী ও সুস্থিত। ফলে সমস্ত জৈব যৌগের ক্ষেত্রে \(\Delta_c H < 0\) হয়, অর্থাৎ অ্যাসারশনটি সত্য।</p><p><strong>ধাপ ৩: রিজন (Reason) ও কার্যকারণ সম্পর্ক মূল্যায়ন</strong><br/>আন্তর্জাতিক তাপগতীয় রীতি অনুযায়ী, \(298.15\mathrm{\ K}\) তাপমাত্রা ও \(1\mathrm{\ bar}\) চাপে প্রতিটি বিশুদ্ধ মৌলের সবচেয়ে স্থিতিশীল প্রাকৃতিক অবস্থায় প্রমাণ গঠন এনথ্যালপি শূন্য ধরা হয়। সুতরাং রিজনটিও সত্য। তবে মৌলের প্রমাণ এনথ্যালপি শূন্য ধরার প্রথাটি কেবল একটি নির্দেশক ভিত্তি এবং এটি দহন বিক্রিয়ায় তাপ নির্গমনের কারণ নয়; মূলত বন্ধন শক্তির পার্থক্যের কারণেই বিক্রিয়াটি তাপমোচী হয়।</p><p><strong>ধাপ ৪: চূড়ান্ত সিদ্ধান্ত</strong><br/>অতএব, অ্যাসারশন এবং রিজন উভয়ই সত্য, কিন্তু রিজনটি অ্যাসারশনের সঠিক ব্যাখ্যা নয়।</p>]]></text></generalfeedback>
-    <defaultgrade>4.0000000</defaultgrade>
-    <penalty>0.2500000</penalty>
-    <hidden>0</hidden>
-    <single>true</single>
-    <shuffleanswers>false</shuffleanswers>
-    <answernumbering>iii</answernumbering>
-    <answer fraction="0" format="html"><text><![CDATA[<p>Both A and R are true and R is the correct explanation of A.</p>]]></text></answer>
-    <answer fraction="100" format="html"><text><![CDATA[<p>Both A and R are true but R is not the correct explanation of A.</p>]]></text></answer>
-    <answer fraction="0" format="html"><text><![CDATA[<p>A is true but R is false.</p>]]></text></answer>
-    <answer fraction="0" format="html"><text><![CDATA[<p>A is false but R is true.</p>]]></text></answer>
-    <tags>
-      <tag><text>standard:neet_ug</text></tag>
-      <tag><text>lang:en</text></tag>
-      <tag><text>lang:bn</text></tag>
-      <tag><text>subject:chemistry</text></tag>
-      <tag><text>class:class_11</text></tag>
-      <tag><text>chapter:thermodynamics</text></tag>
-      <tag><text>typology:assertion_reason</text></tag>
-      <tag><text>difficulty:medium</text></tag>
-      <tag><text>blooms:understand</text></tag>
-      <tag><text>calculation:light</text></tag>
-      <tag><text>media:text</text></tag>
-      <tag><text>multiconcept:false</text></tag>
-    </tags>
-  </question>
-  <question type="multichoice">
-    <name><text>NEET_UG_CHEMISTRY_THERMODYNAMICS_MCQ_Q56 - Irreversibility and enthalpy contribution in spontaneity</text></name>
-    <questiontext format="html"><text><![CDATA[<p><strong>Assertion (A):</strong> Spontaneous process is an irreversible process and may be reversed by some external agency.</p>
-<p><strong>Reason (R) :</strong> Decrease in enthalpy is a contributory factor for spontaneity.</p>
-<hr/>
-<p><strong>নিশ্চিতকরণ (A):</strong> স্বতঃস্ফূর্ত প্রক্রিয়া একটি অপরাবর্ত প্রক্রিয়া এবং কোনো বাহ্যিক মাধ্যমের দ্বারা এটি বিপরীতমুখী করা যেতে পারে।</p>
-<p><strong>যুক্তি (R):</strong> এনথ্যালপি হ্রাস স্বতঃস্ফূর্ততার ক্ষেত্রে একটি সহায়ক উপাদান।</p>]]></text></questiontext>
-    <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>A spontaneous process naturally proceeds in a definite direction on its own without external assistance. Such processes are inherently irreversible. For any process, a decrease in enthalpy (exothermicity) lowers system energy and favors spontaneity, though overall spontaneity is governed by the change in Gibbs free energy: \(\Delta G = \Delta H - T\Delta S < 0\).</p><p><strong>Step 2: Evaluation of Assertion</strong><br/>All spontaneous processes occurring in nature are thermodynamically irreversible; they cannot reverse on their own. However, they can be made to proceed in the reverse direction by coupling them with an external agency that supplies energy or does work on the system (for example, water flowing downhill can be pumped uphill by an external motor, or a discharged cell can be recharged by an external power source). Thus, the assertion is true.</p><p><strong>Step 3: Evaluation of Reason and Relationship</strong><br/>Systems naturally tend toward states of minimum energy. Therefore, a negative enthalpy change (\(\Delta H < 0\)) contributes favorably toward making \(\Delta G\) negative, serving as a contributory factor for spontaneity. Thus, the reason is also true. However, the reason addresses the energetic drive toward spontaneity, whereas the irreversibility of a spontaneous process is fundamentally a consequence of the Second Law of Thermodynamics (increase in total entropy of the universe). Hence, the reason does not explain the assertion.</p><p><strong>Step 4: Final Conclusion</strong><br/>Therefore, both the assertion and reason are true, but the reason is not the correct explanation of the assertion.</p>
-<hr/>
-<p><strong>ধাপ ১: মূল নীতি ও ধারণা</strong><br/>একটি স্বতঃস্ফূর্ত প্রক্রিয়া কোনো বাহ্যিক সাহায্য ছাড়াই প্রাকৃতিকভাবে একটি নির্দিষ্ট দিকে ঘটে থাকে। এই ধরনের প্রক্রিয়াগুলি মূলত অপরাবর্ত (irreversible)। সিস্টেমে এনথ্যালপি হ্রাস (তাপমোচী বিক্রিয়া) শক্তির স্তর কমিয়ে স্বতঃস্ফূর্ততায় সহায়তা করে, যদিও সামগ্রিক স্বতঃস্ফূর্ততা গিবস মুক্ত শক্তির পরিবর্তনের ওপর নির্ভর করে: \(\Delta G = \Delta H - T\Delta S < 0\)।</p><p><strong>ধাপ ২: অ্যাসারশন (Assertion)-এর মূল্যায়ন</strong><br/>প্রকৃতিতে ঘটা সমস্ত স্বতঃস্ফূর্ত প্রক্রিয়াই অপরাবর্ত; এগুলি নিজে নিজে বিপরীত দিকে চলতে পারে না। তবে কোনো বাহ্যিক মাধ্যমের দ্বারা কাজ সম্পাদন করে বা শক্তি প্রয়োগ করে প্রক্রিয়াটিকে বিপরীতমুখী করা সম্ভব (যেমন বিদ্যুৎ চালিত পাম্পের সাহায্যে পানিকে নিচ থেকে উপরে তোলা যায়)। অতএব, অ্যাসারশনটি সত্য।</p><p><strong>ধাপ ৩: রিজন (Reason) ও কার্যকারণ সম্পর্ক মূল্যায়ন</strong><br/>যেকোনো ব্যবস্থা সর্বনিম্ন শক্তি অর্জনের দিকে ধাবিত হয়। তাই এনথ্যালপি হ্রাস (\(\Delta H < 0\)) গিবস মুক্ত শক্তি ঋণাত্মক করতে সহায়তা করে, ফলে এটি স্বতঃস্ফূর্ততার একটি সহায়ক উপাদান। সুতরাং রিজনটিও সত্য। কিন্তু স্বতঃস্ফূর্ত প্রক্রিয়ার একমুখী ও অপরাবর্ত বৈশিষ্ট্যটি তাপগতিবিদ্যার দ্বিতীয় সূত্রের (মহাবিশ্বের এনট্রপি বৃদ্ধি) ওপর প্রতিষ্ঠিত, এনথ্যালপি হ্রাসের ওপর নয়। ফলে রিজনটি অ্যাসারশনের সঠিক কারণ ব্যাখ্যা করে না।</p><p><strong>ধাপ ৪: চূড়ান্ত সিদ্ধান্ত</strong><br/>অতএব, অ্যাসারশন এবং রিজন উভয়ই সত্য, কিন্তু রিজনটি অ্যাসারশনের সঠিক ব্যাখ্যা নয়।</p>]]></text></generalfeedback>
-    <defaultgrade>4.0000000</defaultgrade>
-    <penalty>0.2500000</penalty>
-    <hidden>0</hidden>
-    <single>true</single>
-    <shuffleanswers>false</shuffleanswers>
-    <answernumbering>iii</answernumbering>
-    <answer fraction="0" format="html"><text><![CDATA[<p>Both A and R are true and R is the correct explanation of A.</p>]]></text></answer>
-    <answer fraction="100" format="html"><text><![CDATA[<p>Both A and R are true but R is not the correct explanation of A.</p>]]></text></answer>
-    <answer fraction="0" format="html"><text><![CDATA[<p>A is true but R is false.</p>]]></text></answer>
-    <answer fraction="0" format="html"><text><![CDATA[<p>A is false but R is true.</p>]]></text></answer>
-    <tags>
-      <tag><text>standard:neet_ug</text></tag>
-      <tag><text>lang:en</text></tag>
-      <tag><text>lang:bn</text></tag>
-      <tag><text>subject:chemistry</text></tag>
-      <tag><text>class:class_11</text></tag>
-      <tag><text>chapter:thermodynamics</text></tag>
-      <tag><text>typology:assertion_reason</text></tag>
-      <tag><text>difficulty:medium</text></tag>
-      <tag><text>blooms:analyze</text></tag>
-      <tag><text>calculation:light</text></tag>
-      <tag><text>media:text</text></tag>
-      <tag><text>multiconcept:false</text></tag>
-    </tags>
-  </question>
-  <question type="multichoice">
-    <name><text>NEET_UG_CHEMISTRY_THERMODYNAMICS_MCQ_Q57 - Entropy decrease during crystallization of liquids</text></name>
-    <questiontext format="html"><text><![CDATA[<p><strong>Assertion (A):</strong> A liquid crystallises into a solid and is accompanied by decrease in entropy.</p>
-<p><strong>Reason (R) :</strong> In crystals, molecules organise in an ordered manner.</p>
-<hr/>
-<p><strong>নিশ্চিতকরণ (A):</strong> একটি তরল যখন কেলাসিত হয়ে কঠিনে পরিণত হয়, তখন এর এনট্রপি হ্রাস পায়।</p>
-<p><strong>যুক্তি (R):</strong> কেলাসের মধ্যে অণুগুলি সুশৃঙ্খলভাবে বিন্যস্ত থাকে।</p>]]></text></questiontext>
-    <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>Entropy is a thermodynamic state function that provides a quantitative measure of randomness, chaos, or spatial disorder among the constituent particles of a system.</p><p><strong>Step 2: Evaluation of Assertion</strong><br/>When a substance transitions from liquid to solid phase during crystallization, the constituent particles lose their freedom of translational movement and become fixed into rigid lattice sites, resulting in a decrease in system entropy (\(\Delta S < 0\)). Hence, the assertion is true.</p><p><strong>Step 3: Evaluation of Reason and Relationship</strong><br/>In crystalline solids, the atoms, ions, or molecules are packed in a highly ordered, regular, and repeating three-dimensional lattice. In contrast, molecules in a liquid have much greater translational and rotational disorder. Because entropy is directly proportional to microscopic disorder, the transition into a well-ordered crystal directly causes the entropy of the substance to decrease.</p><p><strong>Step 4: Final Conclusion</strong><br/>Therefore, both the assertion and reason are true, and the reason is the correct explanation of the assertion.</p>
-<hr/>
-<p><strong>ধাপ ১: মূল নীতি ও ধারণা</strong><br/>এনট্রপি হলো এমন একটি তাপগতীয় অবস্থা অপেক্ষক, যা কোনো সিস্টেমের গঠনকারী কণাগুলির বিশৃঙ্খলা বা বিশৃঙ্খল বিন্যাসের পরিমাপ নির্দেশ করে।</p><p><strong>ধাপ ২: অ্যাসারশন (Assertion)-এর মূল্যায়ন</strong><br/>তরল থেকে কঠিন অবস্থায় কেলাসন ঘটার সময় কণাগুলির মুক্ত স্থানান্তর গতি রহিত হয় এবং কণাগুলি সুনির্দিষ্ট স্থানে স্থির হয়ে যায়, ফলে সিস্টেমের এনট্রপি হ্রাস পায় (\(\Delta S < 0\))। সুতরাং, অ্যাসারশনটি সত্য।</p><p><strong>ধাপ ৩: রিজন (Reason) ও কার্যকারণ সম্পর্ক মূল্যায়ন</strong><br/>কেলাসাকার কঠিন পদার্থে অণু, পরমাণু বা আয়নগুলি ত্রিমাত্রিক জালকে অত্যন্ত সুশৃঙ্খল ও পর্যায়ক্রমিক বিন্যাসে অবস্থান করে। তরলের ক্ষেত্রে কণাগুলির বিশৃঙ্খলা অনেক বেশি থাকে। এনট্রপি মূলত বিশৃঙ্খলার পরিমাপ হওয়ায় সুশৃঙ্খল কেলাস গঠনে কণার বিশৃঙ্খলা কমে যায়, যা সরাসরি এনট্রপি হ্রাসের কারণ ব্যাখ্যা করে।</p><p><strong>ধাপ ৪: চূড়ান্ত সিদ্ধান্ত</strong><br/>অতএব, অ্যাসারশন এবং রিজন উভয়ই সত্য, এবং রিজনটি অ্যাসারশনের সঠিক ব্যাখ্যা।</p>]]></text></generalfeedback>
-    <defaultgrade>4.0000000</defaultgrade>
-    <penalty>0.2500000</penalty>
-    <hidden>0</hidden>
-    <single>true</single>
-    <shuffleanswers>false</shuffleanswers>
-    <answernumbering>iii</answernumbering>
-    <answer fraction="100" format="html"><text><![CDATA[<p>Both A and R are true and R is the correct explanation of A.</p>]]></text></answer>
-    <answer fraction="0" format="html"><text><![CDATA[<p>Both A and R are true but R is not the correct explanation of A.</p>]]></text></answer>
-    <answer fraction="0" format="html"><text><![CDATA[<p>A is true but R is false.</p>]]></text></answer>
-    <answer fraction="0" format="html"><text><![CDATA[<p>A is false but R is true.</p>]]></text></answer>
-    <tags>
-      <tag><text>standard:neet_ug</text></tag>
-      <tag><text>lang:en</text></tag>
-      <tag><text>lang:bn</text></tag>
-      <tag><text>subject:chemistry</text></tag>
-      <tag><text>class:class_11</text></tag>
-      <tag><text>chapter:thermodynamics</text></tag>
-      <tag><text>typology:assertion_reason</text></tag>
-      <tag><text>difficulty:easy</text></tag>
-      <tag><text>blooms:understand</text></tag>
-      <tag><text>calculation:light</text></tag>
-      <tag><text>media:text</text></tag>
-      <tag><text>multiconcept:false</text></tag>
-    </tags>
-  </question>
+  <name><text>CHEMISTRY_THERMODYNAMICS_AR_Q55 - Assertion reason on combustion of organic compounds</text></name>
+  <questiontext format="html"><text><![CDATA[<p><strong>Assertion (A):</strong> Combustion of all organic compounds is an exothermic reaction.<br/><strong>Reason (R):</strong> The enthalpies of all elements in their standard state are zero.</p><hr/><p><strong>বিবৃতি (A):</strong> সকল জৈব যৌগের দহন একটি তাপমোচী বিক্রিয়া।<br/><strong>কারণ (R):</strong> প্রমাণ অবস্থায় সকল মৌলের এনথ্যালপি শূন্য।</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Evaluate Assertion (A)</strong><br/>Organic compounds contain carbon and hydrogen (and sometimes oxygen, nitrogen, etc.) which react with oxygen during combustion to form stable oxides like \(\mathrm{CO_2}(g)\) and \(\mathrm{H_2O}(l)\), releasing heat. Therefore, combustion of all organic compounds is an exothermic reaction (\(\Delta_c H < 0\)), so Assertion (A) is true.</p><p><strong>Step 2: Evaluate Reason (R)</strong><br/>By thermodynamic convention, the standard enthalpies of formation of all elements in their most stable reference (standard) states at \(298\,\mathrm{K}\) and \(1\,\mathrm{bar}\) are taken as zero. Therefore, Reason (R) is also true.</p><p><strong>Step 3: Check Explanation Link and Final Conclusion</strong><br/>The exothermicity of organic combustion arises because the bonds formed in \(\mathrm{CO_2}\) and \(\mathrm{H_2O}\) are stronger and lower in energy than the bonds broken in the organic compound and \(\mathrm{O_2}\), not because standard enthalpies of elements are defined as zero. Thus, both A and R are true, but R is not the correct explanation of A.</p><hr/><p><strong>ধাপ ১: বিবৃতি (A) মূল্যায়ন</strong><br/>জৈব যৌগে কার্বন ও হাইড্রোজেন (এবং কখনো অক্সিজেন, নাইট্রোজেন ইত্যাদি) থাকে যা দহনের সময় অক্সিজেনের সাথে বিক্রিয়া করে \(\mathrm{CO_2}(g)\) এবং \(\mathrm{H_2O}(l)\)-এর মতো স্থায়ী অক্সাইড গঠন করে এবং তাপ নির্গত করে। তাই সকল জৈব যৌগের দহন একটি তাপমোচী বিক্রিয়া (\(\Delta_c H < 0\)), অর্থাৎ বিবৃতি (A) সত্য।</p><p><strong>ধাপ ২: কারণ (R) মূল্যায়ন</strong><br/>তাপগতীয় প্রথা অনুসারে, \(298\,\mathrm{K}\) তাপমাত্রা ও \(1\,\mathrm{bar}\) চাপে সবচেয়ে স্থায়ী প্রমাণ অবস্থায় সকল মৌলের প্রমাণ গঠন এনথ্যালপি শূন্য ধরা হয়। তাই কারণ (R)-ও সত্য।</p><p><strong>ধাপ ৩: ব্যাখ্যার সম্পর্ক যাচাই ও চূড়ান্ত সিদ্ধান্ত</strong><br/>জৈব যৌগের দহন তাপমোচী হওয়ার কারণ হলো \(\mathrm{CO_2}\) এবং \(\mathrm{H_2O}\)-তে গঠিত বন্ধনগুলো জৈব যৌগ ও \(\mathrm{O_2}\)-তে ভাঙা বন্ধনগুলোর চেয়ে বেশি শক্তিশালী ও কম শক্তিসম্পন্ন, মৌলগুলোর প্রমাণ এনথ্যালপি শূন্য ধরা হয় বলে নয়। সুতরাং, A এবং R উভয়ই সত্য কিন্তু R, A-এর সঠিক ব্যাখ্যা নয়।</p>]]></text></generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>iii</answernumbering>
+  <answer fraction="0" format="html"><text><![CDATA[<p>Both A and R are true and R is the correct explanation of A.</p>]]></text></answer>
+  <answer fraction="100" format="html"><text><![CDATA[<p>Both A and R are true but R is not the correct explanation of A.</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>A is true but R is false.</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>A is false but R is true.</p>]]></text></answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:bn</text></tag>
+    <tag><text>subject:chemistry</text></tag>
+    <tag><text>section:assertion_and_reason</text></tag>
+    <tag><text>class:11</text></tag>
+    <tag><text>chapter:thermodynamics</text></tag>
+    <tag><text>typology:assertion_reason</text></tag>
+    <tag><text>difficulty:medium</text></tag>
+    <tag><text>blooms:analyze</text></tag>
+    <tag><text>media:text</text></tag>
+    <tag><text>multiconcept:true</text></tag>
+  </tags>
+</question>
+
+<question type="multichoice">
+  <name><text>CHEMISTRY_THERMODYNAMICS_AR_Q56 - Assertion reason on spontaneous process irreversibility and enthalpy</text></name>
+  <questiontext format="html"><text><![CDATA[<p><strong>Assertion (A):</strong> Spontaneous process is an irreversible process and may be reversed by some external agency.<br/><strong>Reason (R):</strong> Decrease in enthalpy is a contributory factor for spontaneity.</p><hr/><p><strong>বিবৃতি (A):</strong> স্বতঃস্ফূর্ত প্রক্রিয়া একটি অপরাবর্তী প্রক্রিয়া এবং কোনো বাহ্যিক সংস্থার দ্বারা এটিকে বিপরীতমুখী করা যেতে পারে।<br/><strong>কারণ (R):</strong> এনথ্যালপি হ্রাস স্বতঃস্ফূর্ততার একটি সহায়ক উপাদান।</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Evaluate Assertion (A)</strong><br/>A spontaneous process proceeds naturally in one direction without external assistance and is thermodynamically irreversible; however, it can be reversed by applying work or energy from an external agency (for example, charging a discharged battery). Therefore, Assertion (A) is true.</p><p><strong>Step 2: Evaluate Reason (R)</strong><br/>According to \(\Delta G = \Delta H - T\Delta S\), a negative \(\Delta H\) (decrease in enthalpy) helps make \(\Delta G\) negative, so it is a contributory factor for spontaneity (along with increase in entropy). Therefore, Reason (R) is also true.</p><p><strong>Step 3: Check Explanation Link and Final Conclusion</strong><br/>Reason (R) describes one factor contributing to spontaneity, whereas Assertion (A) states the irreversibility of spontaneous processes and their reversal by external work. Thus, R does not explain A. Both A and R are true, but R is not the correct explanation of A.</p><hr/><p><strong>ধাপ ১: বিবৃতি (A) মূল্যায়ন</strong><br/>একটি স্বতঃস্ফূর্ত প্রক্রিয়া কোনো বাহ্যিক সাহায্য ছাড়াই স্বাভাবিকভাবে এক দিকে অগ্রসর হয় এবং এটি তাপগতীয়ভাবে অপরাবর্তী; তবে কোনো বাহ্যিক সংস্থার দ্বারা কার্য বা শক্তি প্রয়োগ করে এটিকে বিপরীতমুখী করা যেতে পারে (যেমন, নিঃশেষিত ব্যাটারি চার্জ করা)। তাই বিবৃতি (A) সত্য।</p><p><strong>ধাপ ২: কারণ (R) মূল্যায়ন</strong><br/>\(\Delta G = \Delta H - T\Delta S\) অনুসারে, ঋণাত্মক \(\Delta H\) (এনথ্যালপি হ্রাস) \(\Delta G\)-কে ঋণাত্মক করতে সাহায্য করে, তাই এটি (এনট্রপি বৃদ্ধির পাশাপাশি) স্বতঃস্ফূর্ততার একটি সহায়ক উপাদান। তাই কারণ (R)-ও সত্য।</p><p><strong>ধাপ ৩: ব্যাখ্যার সম্পর্ক যাচাই ও চূড়ান্ত সিদ্ধান্ত</strong><br/>কারণ (R) স্বতঃস্ফূর্ততার একটি সহায়ক উপাদান বর্ণনা করে, যেখানে বিবৃতি (A) স্বতঃস্ফূর্ত প্রক্রিয়ার অপরাবর্তিতা এবং বাহ্যিক কার্যের মাধ্যমে এর বিপরীতমুখীকরণের কথা বলে। সুতরাং, R, A-কে ব্যাখ্যা করে না। A এবং R উভয়ই সত্য কিন্তু R, A-এর সঠিক ব্যাখ্যা নয়।</p>]]></text></generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>iii</answernumbering>
+  <answer fraction="0" format="html"><text><![CDATA[<p>Both A and R are true and R is the correct explanation of A.</p>]]></text></answer>
+  <answer fraction="100" format="html"><text><![CDATA[<p>Both A and R are true but R is not the correct explanation of A.</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>A is true but R is false.</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>A is false but R is true.</p>]]></text></answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:bn</text></tag>
+    <tag><text>subject:chemistry</text></tag>
+    <tag><text>section:assertion_and_reason</text></tag>
+    <tag><text>class:11</text></tag>
+    <tag><text>chapter:thermodynamics</text></tag>
+    <tag><text>typology:assertion_reason</text></tag>
+    <tag><text>difficulty:medium</text></tag>
+    <tag><text>blooms:analyze</text></tag>
+    <tag><text>media:text</text></tag>
+    <tag><text>multiconcept:true</text></tag>
+  </tags>
+</question>
+
+<question type="multichoice">
+  <name><text>CHEMISTRY_THERMODYNAMICS_AR_Q57 - Assertion reason on entropy change during crystallisation</text></name>
+  <questiontext format="html"><text><![CDATA[<p><strong>Assertion (A):</strong> A liquid crystallises into a solid and is accompanied by decrease in entropy.<br/><strong>Reason (R):</strong> In crystals, molecules organise in an ordered manner.</p><hr/><p><strong>বিবৃতি (A):</strong> একটি তরল কেলাসিত হয়ে কঠিনে পরিণত হয় এবং এর সাথে এনট্রপি হ্রাস পায়।<br/><strong>কারণ (R):</strong> কেলাসে অণুগুলো একটি সুশৃঙ্খল উপায়ে সজ্জিত থাকে।</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Evaluate Assertion (A)</strong><br/>When a liquid crystallises into a solid, the freedom of movement of particles decreases significantly, leading to a decrease in entropy (\(\Delta S < 0\)). Therefore, Assertion (A) is true.</p><p><strong>Step 2: Evaluate Reason (R)</strong><br/>In a crystalline solid, constituent molecules or ions occupy fixed, regular positions in a three-dimensional crystal lattice, meaning they are organised in an ordered manner. Therefore, Reason (R) is true.</p><p><strong>Step 3: Check Explanation Link and Final Conclusion</strong><br/>Because entropy is a measure of disorder, the ordered arrangement of molecules in crystals directly explains why crystallisation of a liquid is accompanied by a decrease in entropy. Thus, both A and R are true and R is the correct explanation of A.</p><hr/><p><strong>ধাপ ১: বিবৃতি (A) মূল্যায়ন</strong><br/>যখন একটি তরল কেলাসিত হয়ে কঠিনে পরিণত হয়, তখন কণাগুলোর চলাচলের স্বাধীনতা উল্লেখযোগ্যভাবে কমে যায়, যার ফলে এনট্রপি হ্রাস পায় (\(\Delta S < 0\))। তাই বিবৃতি (A) সত্য।</p><p><strong>ধাপ ২: কারণ (R) মূল্যায়ন</strong><br/>একটি কেলাসাকার কঠিনে, উপাদান অণু বা আয়নগুলো ত্রিমাত্রিক কেলাস জালকের নির্দিষ্ট ও নিয়মিত অবস্থানে থাকে, অর্থাৎ তারা একটি সুশৃঙ্খল উপায়ে সজ্জিত থাকে। তাই কারণ (R) সত্য।</p><p><strong>ধাপ ৩: ব্যাখ্যার সম্পর্ক যাচাই ও চূড়ান্ত সিদ্ধান্ত</strong><br/>যেহেতু এনট্রপি হলো বিশৃঙ্খলার পরিমাপ, তাই কেলাসে অণুগুলোর সুশৃঙ্খল বিন্যাসই সরাসরি ব্যাখ্যা করে যে কেন তরলের কেলাসনের সাথে এনট্রপি হ্রাস পায়। সুতরাং, A এবং R উভয়ই সত্য এবং R হলো A-এর সঠিক ব্যাখ্যা।</p>]]></text></generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>iii</answernumbering>
+  <answer fraction="100" format="html"><text><![CDATA[<p>Both A and R are true and R is the correct explanation of A.</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>Both A and R are true but R is not the correct explanation of A.</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>A is true but R is false.</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>A is false but R is true.</p>]]></text></answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:bn</text></tag>
+    <tag><text>subject:chemistry</text></tag>
+    <tag><text>section:assertion_and_reason</text></tag>
+    <tag><text>class:11</text></tag>
+    <tag><text>chapter:thermodynamics</text></tag>
+    <tag><text>typology:assertion_reason</text></tag>
+    <tag><text>difficulty:easy</text></tag>
+    <tag><text>blooms:understand</text></tag>
+    <tag><text>media:text</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>

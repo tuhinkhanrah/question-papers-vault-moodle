@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <quiz>
 <question type="multichoice">
-  <name><text>NEET_UG_CHEMISTRY_ELECTROCHEMISTRY_MCQ_Q01 - Cell measuring standard electrode potential of copper</text></name>
+  <name><text>NCERT_EXEMPLAR_CHEMISTRY_ELECTROCHEMISTRY_MCQI_Q01 - Standard electrode potential of copper electrode</text></name>
   <questiontext format="html"><text><![CDATA[<p>Which cell will measure standard electrode potential of copper electrode?</p>]]></text></questiontext>
-  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>The standard electrode potential of an electrode couple is determined by coupling it with a standard hydrogen electrode (SHE) operating under IUPAC standard state conditions. By international convention, SHE functions as the reference anode with a potential of \(0.00\text{ V}\), while the copper half-cell acts as the cathode.</p><p><strong>Step 2: Evaluation of Standard Conditions</strong><br/>For any half-cell to be at its standard state, every participant in the electrode reaction must be present at unit activity. For the standard hydrogen electrode, pure hydrogen gas must be maintained at a standard pressure of \(1\text{ bar}\), and the aqueous hydrogen ion concentration must be \(1\text{ M}\). For the copper half-cell, the concentration of aqueous copper(II) ions must be \(1\text{ M}\).</p><p><strong>Step 3: Application to Cell Representation</strong><br/>In standard electrochemical cell notation, the oxidation half-cell (SHE) is placed on the left: \(\mathrm{Pt(s)}\left|\mathrm{H}_2(\mathrm{g}, 1\text{ bar})\right|\mathrm{H}^+(\mathrm{aq}, 1\text{ M})\). The reduction half-cell is placed on the right: \(\mathrm{Cu}^{2+}(\mathrm{aq}, 1\text{ M})\left|\mathrm{Cu}\right.\), joined by a salt bridge.</p><p><strong>Step 4: Final Conclusion</strong><br/>The complete cell that maintains all species at unit activity and correctly measures the standard electrode potential is \(\mathrm{Pt(s)}\left|\mathrm{H}_{2}(\mathrm{g}, 1\text{ bar})\right|\mathrm{H}^{+}(\mathrm{aq}, 1\text{ M})\left|\right|\mathrm{Cu}^{2+}(\mathrm{aq}, 1\text{ M})\left|\mathrm{Cu}\right.\).</p>]]></text></generalfeedback>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>The standard electrode potential of a half-cell is measured by coupling it with a Standard Hydrogen Electrode (SHE), whose standard electrode potential is defined as \(0.00\text{ V}\) at all temperatures. For the measurement to yield the standard electrode potential \(E^\ominus_{\mathrm{Cu^{2+}|Cu}}\), every species in both half-cells must be at standard state conditions.</p><p><strong>Step 2: Evaluation</strong><br/>Standard state conditions require a gas pressure of \(1\text{ bar}\) for \(\mathrm{H_2(g)}\) and a molar concentration of \(1\text{ M}\) for all aqueous ionic species, namely \([\mathrm{H^+}] = 1\text{ M}\) and \([\mathrm{Cu^{2+}}] = 1\text{ M}\).</p><p><strong>Step 3: Application</strong><br/>With SHE as the anode on the left and the copper half-cell as the cathode on the right, the cell representation meeting all standard conditions is \(\mathrm{Pt(s)} \mid \mathrm{H_2(g, 1\text{ bar})} \mid \mathrm{H^+(aq, 1\text{ M})} \parallel \mathrm{Cu^{2+}(aq, 1\text{ M})} \mid \mathrm{Cu}\). Any deviation in pressure (such as \(0.1\text{ bar}\)) or concentration (such as \(2\text{ M}\) or \(0.1\text{ M}\)) causes the measured cell potential to deviate from the standard electrode potential according to the Nernst equation.</p><p><strong>Step 4: Final Conclusion</strong><br/>Therefore, the cell \(\mathrm{Pt(s)}\left|\mathrm{H}_{2}(\mathrm{g},1\mathrm{bar})\right|\mathrm{H}^{+}(\mathrm{aq},1\mathrm{M})\left|\right|\mathrm{Cu}^{2+}(\mathrm{aq},1\mathrm{M})\left|\mathrm{Cu}\right.\) will measure the standard electrode potential of the copper electrode.</p>]]></text></generalfeedback>
   <defaultgrade>4.0000000</defaultgrade>
   <penalty>0.2500000</penalty>
   <hidden>0</hidden>
@@ -20,7 +20,7 @@
     <tag><text>subject:chemistry</text></tag>
     <tag><text>class:class_12</text></tag>
     <tag><text>chapter:electrochemistry</text></tag>
-    <tag><text>typology:mcq</text></tag>
+    <tag><text>typology:single_choice</text></tag>
     <tag><text>difficulty:easy</text></tag>
     <tag><text>blooms:understand</text></tag>
     <tag><text>media:text</text></tag>
@@ -28,27 +28,27 @@
   </tags>
 </question>
 <question type="multichoice">
-  <name><text>NEET_UG_CHEMISTRY_ELECTROCHEMISTRY_MCQ_Q02 - Graph of electrode potential versus log magnesium concentration</text></name>
-  <questiontext format="html"><text><![CDATA[<p>Electrode potential for Mg electrode varies according to the equation</p>\[ E_{\mathrm{Mg}^{2+}|\mathrm{Mg}} = E_{\mathrm{Mg}^{2+}|\mathrm{Mg}}^{\ominus} - \frac{0.059}{2} \log \frac{1}{[\mathrm{Mg}^{2+}]} \]<p>The graph of \(E_{\mathrm{Mg}^{2+}|\mathrm{Mg}}\) vs \(\log [\mathrm{Mg}^{2+}]\) is</p>]]></text></questiontext>
-  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>The Nernst relation for the magnesium reduction half-cell is provided as \(E_{\mathrm{Mg}^{2+}|\mathrm{Mg}} = E_{\mathrm{Mg}^{2+}|\mathrm{Mg}}^{\ominus} - \frac{0.059}{2} \log \frac{1}{[\mathrm{Mg}^{2+}]}\), where \(E_{\mathrm{Mg}^{2+}|\mathrm{Mg}}\) is the dependent variable on the vertical axis and \(\log [\mathrm{Mg}^{2+}]\) is the independent variable on the horizontal axis.</p><p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>The reduction half-reaction is \(\mathrm{Mg}^{2+} + 2\mathrm{e}^- \rightarrow \mathrm{Mg}\). Logarithmic rules dictate that \(\log\left(\frac{1}{x}\right) = -\log x\).</p><p><strong>Step 3: Relevant Formulae and Principles</strong><br/>Transforming the Nernst equation by expanding the logarithmic quotient gives:<br/>\[ E_{\mathrm{Mg}^{2+}|\mathrm{Mg}} = E_{\mathrm{Mg}^{2+}|\mathrm{Mg}}^{\ominus} - \frac{0.059}{2}\left(-\log [\mathrm{Mg}^{2+}]\right) = E_{\mathrm{Mg}^{2+}|\mathrm{Mg}}^{\ominus} + \frac{0.059}{2}\log [\mathrm{Mg}^{2+}] \]This matches the general linear equation \(y = mx + c\).</p><p><strong>Step 4: Step-by-Step Working</strong><br/>Identifying the parameters of the line \(y = mx + c\):<br/>Vertical coordinate: \(y = E_{\mathrm{Mg}^{2+}|\mathrm{Mg}}\)<br/>Horizontal coordinate: \(x = \log [\mathrm{Mg}^{2+}]\)<br/>Slope: \(m = +\frac{0.059}{2} = +0.0295 > 0\) (strictly positive slope)<br/>Intercept on the vertical axis: \(c = E_{\mathrm{Mg}^{2+}|\mathrm{Mg}}^{\ominus}\) (a finite constant intercept).</p><p><strong>Step 5: Check and Final Answer</strong><br/>Because the slope is positive and constant, the curve must be a straight line sloping upward to the right, intersecting the vertical axis at a non-zero intercept. Thus, the plot is a straight line with a positive slope and a non-zero intercept on the potential axis.</p>]]></text></generalfeedback>
+  <name><text>NCERT_EXEMPLAR_CHEMISTRY_ELECTROCHEMISTRY_MCQI_Q02 - Graph of electrode potential for Mg electrode</text></name>
+  <questiontext format="html"><text><![CDATA[<p>Electrode potential for \(\mathrm{Mg}\) electrode varies according to the equation</p><p>\[E_{\mathrm{Mg}^{2+}|\mathrm{Mg}} = E_{\mathrm{Mg}^{2+}|\mathrm{Mg}}^{\ominus} - \frac{0.059}{2} \log \frac{1}{[\mathrm{Mg}^{2+}]}.\]</p><p>The graph of \(E_{\mathrm{Mg}^{2+}|\mathrm{Mg}}\) vs \(\log [\mathrm{Mg}^{2+}]\) is</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>The Nernst equation for the \(\mathrm{Mg^{2+}|Mg}\) electrode is given as \(E_{\mathrm{Mg}^{2+}|\mathrm{Mg}} = E_{\mathrm{Mg}^{2+}|\mathrm{Mg}}^{\ominus} - \frac{0.059}{2} \log \frac{1}{[\mathrm{Mg}^{2+}]}\). We need to determine the shape of the plot of \(E_{\mathrm{Mg}^{2+}|\mathrm{Mg}}\) (on the vertical axis) versus \(\log [\mathrm{Mg}^{2+}]\) (on the horizontal axis).</p><p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>The standard electrode potential \(E_{\mathrm{Mg}^{2+}|\mathrm{Mg}}^{\ominus}\) is a non-zero constant at a given temperature, and the logarithm is base 10.</p><p><strong>Step 3: Relevant Formulae and Principles</strong><br/>Using the logarithmic identity \(\log\left(\frac{1}{x}\right) = -\log(x)\) and comparing the resulting expression with the equation of a straight line \(y = mx + c\), where \(m\) is the slope and \(c\) is the y-intercept.</p><p><strong>Step 4: Step-by-Step Working</strong><br/>Rewriting the given equation:<br/>\[E_{\mathrm{Mg}^{2+}|\mathrm{Mg}} = E_{\mathrm{Mg}^{2+}|\mathrm{Mg}}^{\ominus} - \frac{0.059}{2} (-\log [\mathrm{Mg}^{2+}])\]<br/>\[E_{\mathrm{Mg}^{2+}|\mathrm{Mg}} = \left(\frac{0.059}{2}\right) \log [\mathrm{Mg}^{2+}] + E_{\mathrm{Mg}^{2+}|\mathrm{Mg}}^{\ominus}\]<br/>Comparing with \(y = mx + c\), we have \(y = E_{\mathrm{Mg}^{2+}|\mathrm{Mg}}\), \(x = \log [\mathrm{Mg}^{2+}]\), slope \(m = +\frac{0.059}{2} > 0\), and y-intercept \(c = E_{\mathrm{Mg}^{2+}|\mathrm{Mg}}^{\ominus} \neq 0\).</p><p><strong>Step 5: Check and Final Answer</strong><br/>Since the relationship is linear with a positive slope and a non-zero y-intercept, the graph is a straight line with a positive slope that does not pass through the origin.</p>]]></text></generalfeedback>
   <defaultgrade>4.0000000</defaultgrade>
   <penalty>0.2500000</penalty>
   <hidden>0</hidden>
   <single>true</single>
   <shuffleanswers>true</shuffleanswers>
   <answernumbering>iii</answernumbering>
-  <answer fraction="0" format="html"><text><![CDATA[<p><img src="@@PLUGINFILE@@/img-0.jpeg" alt="Straight line through origin with positive slope" /></p>]]></text></answer>
-  <answer fraction="100" format="html"><text><![CDATA[<p><img src="@@PLUGINFILE@@/img-1.jpeg" alt="Straight line with positive slope and intercept" /></p>]]></text></answer>
-  <answer fraction="0" format="html"><text><![CDATA[<p><img src="@@PLUGINFILE@@/img-2.jpeg" alt="Non-linear curve" /></p>]]></text></answer>
-  <answer fraction="0" format="html"><text><![CDATA[<p><img src="@@PLUGINFILE@@/img-3.jpeg" alt="Straight line with negative slope" /></p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p><img src="@@PLUGINFILE@@/img-0.jpeg" /></p>]]></text></answer>
+  <answer fraction="100" format="html"><text><![CDATA[<p><img src="@@PLUGINFILE@@/img-1.jpeg" /></p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p><img src="@@PLUGINFILE@@/img-2.jpeg" /></p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p><img src="@@PLUGINFILE@@/img-3.jpeg" /></p>]]></text></answer>
   <tags>
     <tag><text>standard:neet_ug</text></tag>
     <tag><text>lang:en</text></tag>
     <tag><text>subject:chemistry</text></tag>
     <tag><text>class:class_12</text></tag>
     <tag><text>chapter:electrochemistry</text></tag>
-    <tag><text>typology:mcq</text></tag>
-    <tag><text>difficulty:medium</text></tag>
+    <tag><text>typology:single_choice</text></tag>
+    <tag><text>difficulty:easy</text></tag>
     <tag><text>blooms:apply</text></tag>
     <tag><text>calculation:light</text></tag>
     <tag><text>media:graph</text></tag>
@@ -56,9 +56,9 @@
   </tags>
 </question>
 <question type="multichoice">
-  <name><text>NEET_UG_CHEMISTRY_ELECTROCHEMISTRY_MCQ_Q03 - Thermodynamic nature of cell potential and Gibbs energy</text></name>
+  <name><text>NCERT_EXEMPLAR_CHEMISTRY_ELECTROCHEMISTRY_MCQI_Q03 - Intensive and extensive properties of cell</text></name>
   <questiontext format="html"><text><![CDATA[<p>Which of the following statement is correct?</p>]]></text></questiontext>
-  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>Thermodynamic properties are classified as intensive or extensive based on their dependence on the quantity of matter in the system. An intensive property is independent of the size or amount of material, whereas an extensive property scales directly with the quantity of material.</p><p><strong>Step 2: Evaluation of Cell Potential</strong><br/>Electrode or cell potential (\(E_{\mathrm{cell}}\)) represents electrical potential difference, defined as work per unit electric charge (\(E = -\frac{\Delta_{\mathrm{r}} G}{nF}\)). Multiplying the stoichiometric coefficients of a cell reaction does not change the voltage developed by the cell. Therefore, \(E_{\mathrm{cell}}\) is an intensive property.</p><p><strong>Step 3: Evaluation of Gibbs Energy of Reaction</strong><br/>The Gibbs free energy change of the reaction is given by \(\Delta_{\mathrm{r}} G = -nFE_{\mathrm{cell}}\). Because the value of \(n\) (moles of electrons transferred) depends directly on the quantity of reactants specified in the balanced equation, doubling the reaction amounts doubles the value of \(\Delta_{\mathrm{r}} G\). Therefore, \(\Delta_{\mathrm{r}} G\) is an extensive property.</p><p><strong>Step 4: Final Conclusion</strong><br/>The valid conceptual conclusion is that \(E_{\mathrm{cell}}\) is an intensive property while \(\Delta_{\mathrm{r}} G\) of cell reaction is an extensive property.</p>]]></text></generalfeedback>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>An intensive property does not depend on the amount of matter or the stoichiometric scale of the reaction, whereas an extensive property depends directly on the amount of substance involved.</p><p><strong>Step 2: Evaluation</strong><br/>The Gibbs free energy change of a cell reaction is given by \(\Delta_r G = -nFE_{\mathrm{Cell}}\), where \(n\) is the number of moles of electrons transferred in the balanced chemical equation. If the stoichiometric coefficients of the cell reaction are multiplied by a factor, \(n\) increases by the same factor, and consequently \(\Delta_r G\) scales proportionally. Thus, \(\Delta_r G\) is an extensive property.</p><p><strong>Step 3: Application</strong><br/>In contrast, cell potential \(E_{\mathrm{Cell}} = -\frac{\Delta_r G}{nF}\) is the ratio of two extensive quantities (\(\Delta_r G\) and \(n\)), meaning the scaling factor cancels out. Therefore, \(E_{\mathrm{Cell}}\) remains unchanged regardless of the size of the cell or the stoichiometric coefficients, making it an intensive property.</p><p><strong>Step 4: Final Conclusion</strong><br/>Hence, \(E_{\mathrm{Cell}}\) is an intensive property while \(\Delta_r G\) of the cell reaction is an extensive property.</p>]]></text></generalfeedback>
   <defaultgrade>4.0000000</defaultgrade>
   <penalty>0.2500000</penalty>
   <hidden>0</hidden>
@@ -75,7 +75,7 @@
     <tag><text>subject:chemistry</text></tag>
     <tag><text>class:class_12</text></tag>
     <tag><text>chapter:electrochemistry</text></tag>
-    <tag><text>typology:mcq</text></tag>
+    <tag><text>typology:single_choice</text></tag>
     <tag><text>difficulty:easy</text></tag>
     <tag><text>blooms:understand</text></tag>
     <tag><text>media:text</text></tag>
@@ -83,9 +83,9 @@
   </tags>
 </question>
 <question type="multichoice">
-  <name><text>NEET_UG_CHEMISTRY_ELECTROCHEMISTRY_MCQ_Q04 - Definition of cell electromotive force at zero current</text></name>
+  <name><text>NCERT_EXEMPLAR_CHEMISTRY_ELECTROCHEMISTRY_MCQI_Q04 - Definition of cell emf</text></name>
   <questiontext format="html"><text><![CDATA[<p>The difference between the electrode potentials of two electrodes when no current is drawn through the cell is called</p>]]></text></questiontext>
-  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>In an electrochemical cell, the potential difference between the cathode and anode under open-circuit conditions (zero net current) represents the maximum driving force of the chemical reaction.</p><p><strong>Step 2: Evaluation of Potential Differences</strong><br/>When current \(I\) flows through the cell, internal resistance \(r\) produces an internal potential drop \(Ir\), causing the measured terminal potential difference (\(V = \mathcal{E} - Ir\)) to be less than the intrinsic driving potential. Only when no current is drawn (\(I = 0\)) does the measured potential difference precisely equal the electromotive force (\(\mathrm{emf}\)) of the cell.</p><p><strong>Step 3: Application to Terminology</strong><br/>By standard definition, the difference between the electrode potentials of the two electrodes when no current is drawn through the cell is designated as the cell electromotive force (cell emf).</p><p><strong>Step 4: Final Conclusion</strong><br/>The correct term for the potential difference under zero current is cell emf.</p>]]></text></generalfeedback>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>In an electrochemical cell, the potential difference between the cathode and the anode depends on whether electric current is flowing through the external circuit.</p><p><strong>Step 2: Evaluation</strong><br/>When current flows, internal resistance causes a potential drop, and the measured value is called the cell potential (or terminal voltage). When no current is drawn through the cell (open-circuit condition), there is no internal potential drop, and the difference between the electrode potentials of the two electrodes reaches its maximum value.</p><p><strong>Step 3: Final Conclusion</strong><br/>This open-circuit potential difference between the two electrodes when no current is drawn through the cell is called the cell emf (electromotive force).</p>]]></text></generalfeedback>
   <defaultgrade>4.0000000</defaultgrade>
   <penalty>0.2500000</penalty>
   <hidden>0</hidden>
@@ -102,7 +102,7 @@
     <tag><text>subject:chemistry</text></tag>
     <tag><text>class:class_12</text></tag>
     <tag><text>chapter:electrochemistry</text></tag>
-    <tag><text>typology:mcq</text></tag>
+    <tag><text>typology:single_choice</text></tag>
     <tag><text>difficulty:easy</text></tag>
     <tag><text>blooms:remember</text></tag>
     <tag><text>media:text</text></tag>
@@ -110,9 +110,9 @@
   </tags>
 </question>
 <question type="multichoice">
-  <name><text>NEET_UG_CHEMISTRY_ELECTROCHEMISTRY_MCQ_Q05 - Role and characteristics of an inert electrode</text></name>
+  <name><text>NCERT_EXEMPLAR_CHEMISTRY_ELECTROCHEMISTRY_MCQI_Q05 - Role of an inert electrode</text></name>
   <questiontext format="html"><text><![CDATA[<p>Which of the following statement is <strong>not</strong> correct about an inert electrode in a cell?</p>]]></text></questiontext>
-  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>An inert electrode (such as platinum or gold) is chemically unreactive under the working conditions of an electrochemical cell. Its sole physical purpose is to act as an electrical conductor that supplies or accepts electrons.</p><p><strong>Step 2: Evaluation of Half-Cell Behavior</strong><br/>At an individual electrode within an electrochemical cell, only one half-reaction occurs: either an oxidation half-reaction where electrons are released onto the electrode surface, or a reduction half-reaction where electrons are extracted from the electrode surface. An inert electrode provides a conducting surface for this single half-reaction without taking part chemically.</p><p><strong>Step 3: Application to Full Redox Reactions</strong><br/>A complete redox reaction comprises both oxidation and reduction simultaneously occurring at two spatially separated electrodes connected through an electrolyte and external conductor. A single inert electrode never accommodates the full redox reaction on its surface; it supports only either oxidation or reduction individually.</p><p><strong>Step 4: Final Conclusion</strong><br/>The incorrect statement is that it provides surface for redox reaction.</p>]]></text></generalfeedback>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>An inert electrode, such as platinum (\(\mathrm{Pt}\)) or gold (\(\mathrm{Au}\)), is used in half-cells where the redox couple consists only of gaseous or aqueous species.</p><p><strong>Step 2: Evaluation</strong><br/>An inert electrode does not undergo oxidation or reduction itself, so it does not participate chemically in the cell reaction. Instead, it acts as a conductor of electrons and provides a physical surface on which either the oxidation half-reaction (at the anode) or the reduction half-reaction (at the cathode) takes place.</p><p><strong>Step 3: Application</strong><br/>Because oxidation and reduction occur at separate electrodes in a cell, a single inert electrode provides a surface for either oxidation or reduction, not for the complete redox reaction simultaneously.</p><p><strong>Step 4: Final Conclusion</strong><br/>Therefore, the statement that an inert electrode provides a surface for the redox reaction is not correct.</p>]]></text></generalfeedback>
   <defaultgrade>4.0000000</defaultgrade>
   <penalty>0.2500000</penalty>
   <hidden>0</hidden>
@@ -129,17 +129,17 @@
     <tag><text>subject:chemistry</text></tag>
     <tag><text>class:class_12</text></tag>
     <tag><text>chapter:electrochemistry</text></tag>
-    <tag><text>typology:mcq</text></tag>
-    <tag><text>difficulty:medium</text></tag>
+    <tag><text>typology:single_choice</text></tag>
+    <tag><text>difficulty:easy</text></tag>
     <tag><text>blooms:understand</text></tag>
     <tag><text>media:text</text></tag>
     <tag><text>multiconcept:false</text></tag>
   </tags>
 </question>
 <question type="multichoice">
-  <name><text>NEET_UG_CHEMISTRY_ELECTROCHEMISTRY_MCQ_Q06 - Condition for galvanic cell behaving as electrolytic cell</text></name>
+  <name><text>NCERT_EXEMPLAR_CHEMISTRY_ELECTROCHEMISTRY_MCQI_Q06 - Electrochemical cell acting as electrolytic cell</text></name>
   <questiontext format="html"><text><![CDATA[<p>An electrochemical cell can behave like an electrolytic cell when</p>]]></text></questiontext>
-  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>A galvanic cell converts spontaneous chemical energy into electrical energy, generating a cell potential \(E_{\mathrm{cell}}\). An electrolytic cell uses external electrical energy from an opposing power source (\(E_{\mathrm{ext}}\)) to force a non-spontaneous chemical reaction in reverse.</p><p><strong>Step 2: Evaluation of Opposing Potential</strong><br/>When an opposing external potential \(E_{\mathrm{ext}}\) is applied across the cell terminals:<br/>1. When \(E_{\mathrm{ext}} < E_{\mathrm{cell}}\), electrons flow in the normal spontaneous direction from the negative anode to the positive cathode, and the device functions as a galvanic cell.<br/>2. When \(E_{\mathrm{ext}} = E_{\mathrm{cell}}\), no current flows and the chemical reaction ceases.<br/>3. When \(E_{\mathrm{ext}} > E_{\mathrm{cell}}\), the applied external potential overcomes the spontaneous cell potential and forces electrons in the reverse direction, reversing the chemical reactions at both electrodes.</p><p><strong>Step 3: Application to Cell Mode</strong><br/>Under the condition where the external potential exceeds the cell potential, electrical energy is consumed to drive the non-spontaneous reaction, transforming the galvanic cell into an electrolytic cell.</p><p><strong>Step 4: Final Conclusion</strong><br/>The required condition for electrolytic behavior is \(E_{\mathrm{ext}} > E_{\mathrm{cell}}\).</p>]]></text></generalfeedback>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>A galvanic (electrochemical) cell generates electrical energy from a spontaneous redox reaction with cell potential \(E_{\mathrm{cell}}\). When an opposing external potential \(E_{\mathrm{ext}}\) is applied to the cell, the net driving force depends on the relative magnitudes of \(E_{\mathrm{ext}}\) and \(E_{\mathrm{cell}}\).</p><p><strong>Step 2: Evaluation</strong><br/>If \(E_{\mathrm{ext}} < E_{\mathrm{cell}}\), the cell continues to operate as a galvanic cell. If \(E_{\mathrm{ext}} = E_{\mathrm{cell}}\), no current flows and the reaction stops. If \(E_{\mathrm{ext}} > E_{\mathrm{cell}}\), the external source drives electrons in the opposite direction, reversing the electrode reactions and forcing a non-spontaneous chemical reaction to occur.</p><p><strong>Step 3: Final Conclusion</strong><br/>Thus, an electrochemical cell behaves like an electrolytic cell when \(E_{\mathrm{ext}} > E_{\mathrm{cell}}\).</p>]]></text></generalfeedback>
   <defaultgrade>4.0000000</defaultgrade>
   <penalty>0.2500000</penalty>
   <hidden>0</hidden>
@@ -156,7 +156,7 @@
     <tag><text>subject:chemistry</text></tag>
     <tag><text>class:class_12</text></tag>
     <tag><text>chapter:electrochemistry</text></tag>
-    <tag><text>typology:mcq</text></tag>
+    <tag><text>typology:single_choice</text></tag>
     <tag><text>difficulty:easy</text></tag>
     <tag><text>blooms:understand</text></tag>
     <tag><text>media:text</text></tag>
@@ -164,9 +164,9 @@
   </tags>
 </question>
 <question type="multichoice">
-  <name><text>NEET_UG_CHEMISTRY_ELECTROCHEMISTRY_MCQ_Q07 - Factors affecting conductivity of electrolytic solutions</text></name>
+  <name><text>NCERT_EXEMPLAR_CHEMISTRY_ELECTROCHEMISTRY_MCQI_Q07 - Factors affecting conductivity of electrolytic solutions</text></name>
   <questiontext format="html"><text><![CDATA[<p>Which of the statements about solutions of electrolytes is <strong>not</strong> correct?</p>]]></text></questiontext>
-  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>Electrolytic conductivity arises from the migration of ions under the influence of an applied electric field. Any physical factor that influences the mobility or effective concentration of these ions directly alters the electrical conductivity.</p><p><strong>Step 2: Evaluation of Solvation Effects</strong><br/>In electrolytic solutions, ions interact with surrounding solvent dipoles to form solvation shells. Greater extent of solvation increases the effective hydrodynamic radius of the ions and increases inter-particle drag forces. This reduces ionic mobility and consequently lowers conductivity. Hence, conductivity depends strongly on the solvation of ions.</p><p><strong>Step 3: Evaluation of Other Influencing Factors</strong><br/>Conductivity depends inversely on ion size (smaller bare or hydrated ions experience less drag) and viscosity of the medium (higher viscosity reduces ion drift velocity according to Stokes' law). Additionally, increasing temperature decreases viscosity and increases ionic kinetic energy, which increases conductivity.</p><p><strong>Step 4: Final Conclusion</strong><br/>The statement claiming that conductivity does not depend upon solvation of ions present in solution is false, making it the incorrect statement.</p>]]></text></generalfeedback>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>The conductivity of an electrolytic solution depends on the concentration of ions and their mobility through the solvent medium.</p><p><strong>Step 2: Evaluation</strong><br/>Ionic mobility is affected by the size of the ions, their solvation (hydration in water), the viscosity of the solvent, and the temperature. Larger ions or more heavily solvated ions experience greater drag, reducing mobility and conductivity. Higher solvent viscosity also impedes ion movement and lowers conductivity. Increasing temperature decreases viscosity and increases the kinetic energy of ions, thereby increasing conductivity.</p><p><strong>Step 3: Application</strong><br/>Since solvation increases the effective radius of an ion in solution, conductivity strongly depends upon the solvation of ions present in the solution.</p><p><strong>Step 4: Final Conclusion</strong><br/>Therefore, the statement that conductivity does not depend upon solvation of ions present in solution is not correct.</p>]]></text></generalfeedback>
   <defaultgrade>4.0000000</defaultgrade>
   <penalty>0.2500000</penalty>
   <hidden>0</hidden>
@@ -183,17 +183,17 @@
     <tag><text>subject:chemistry</text></tag>
     <tag><text>class:class_12</text></tag>
     <tag><text>chapter:electrochemistry</text></tag>
-    <tag><text>typology:mcq</text></tag>
-    <tag><text>difficulty:medium</text></tag>
+    <tag><text>typology:single_choice</text></tag>
+    <tag><text>difficulty:easy</text></tag>
     <tag><text>blooms:understand</text></tag>
     <tag><text>media:text</text></tag>
     <tag><text>multiconcept:false</text></tag>
   </tags>
 </question>
 <question type="multichoice">
-  <name><text>NEET_UG_CHEMISTRY_ELECTROCHEMISTRY_MCQ_Q08 - Identification of strongest reducing agent from standard reduction potentials</text></name>
-  <questiontext format="html"><text><![CDATA[<p>Using the data given below find out the strongest reducing agent.</p>\[ E_{\mathrm{Cr}_2\mathrm{O}_7^{2-}/\mathrm{Cr}^{3+}}^{\circ} = 1.33\,\mathrm{V} \quad E_{\mathrm{Cl}_2/\mathrm{Cl}^-}^{\circ} = 1.36\,\mathrm{V} \]\[ E_{\mathrm{MnO}_4^-/\mathrm{Mn}^{2+}}^{\circ} = 1.51\,\mathrm{V} \quad E_{\mathrm{Cr}^{3+}/\mathrm{Cr}}^{\circ} = -0.74\,\mathrm{V} \]]]></text></questiontext>
-  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>Standard reduction potentials are given as:<br/>\(E_{\mathrm{Cr}_2\mathrm{O}_7^{2-}/\mathrm{Cr}^{3+}}^{\circ} = 1.33\,\mathrm{V}\)<br/>\(E_{\mathrm{Cl}_2/\mathrm{Cl}^-}^{\circ} = 1.36\,\mathrm{V}\)<br/>\(E_{\mathrm{MnO}_4^-/\mathrm{Mn}^{2+}}^{\circ} = 1.51\,\mathrm{V}\)<br/>\(E_{\mathrm{Cr}^{3+}/\mathrm{Cr}}^{\circ} = -0.74\,\mathrm{V}\)</p><p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>All given potentials are standard reduction potentials (\(E^{\circ}_{\mathrm{red}}\)). A reducing agent undergoes oxidation by losing electrons. Standard oxidation potential is related to standard reduction potential by \(E^{\circ}_{\mathrm{ox}} = -E^{\circ}_{\mathrm{red}}\).</p><p><strong>Step 3: Relevant Formulae and Principles</strong><br/>The strength of a reducing agent is measured by its tendency to lose electrons, which is directly proportional to its standard oxidation potential \(E^{\circ}_{\mathrm{ox}}\), or inversely related to its standard reduction potential \(E^{\circ}_{\mathrm{red}}\). The lower (more negative) the standard reduction potential of a redox couple, the more easily the reduced form is oxidized, making it a stronger reducing agent.</p><p><strong>Step 4: Step-by-Step Working</strong><br/>Evaluating the oxidation tendencies of the reduced forms of each couple:<br/>For \(\mathrm{Mn}^{2+} \rightarrow \mathrm{MnO}_4^-\): \(E^{\circ}_{\mathrm{ox}} = -1.51\,\mathrm{V}\)<br/>For \(\mathrm{Cl}^- \rightarrow \frac{1}{2}\mathrm{Cl}_2\): \(E^{\circ}_{\mathrm{ox}} = -1.36\,\mathrm{V}\)<br/>For \(\mathrm{Cr}^{3+} \rightarrow \frac{1}{2}\mathrm{Cr}_2\mathrm{O}_7^{2-}\): \(E^{\circ}_{\mathrm{ox}} = -1.33\,\mathrm{V}\)<br/>For \(\mathrm{Cr} \rightarrow \mathrm{Cr}^{3+}\): \(E^{\circ}_{\mathrm{ox}} = -(-0.74\,\mathrm{V}) = +0.74\,\mathrm{V}\)<br/>The couple \(\mathrm{Cr}^{3+}/\mathrm{Cr}\) has the lowest reduction potential (\(-0.74\,\mathrm{V}\)), yielding the highest positive oxidation potential (\(+0.74\,\mathrm{V}\)).</p><p><strong>Step 5: Check and Final Answer</strong><br/>Chromium metal (\(\mathrm{Cr}\)) exhibits the greatest thermodynamic tendency to lose electrons among all candidates. Therefore, the strongest reducing agent is \(\mathrm{Cr}\).</p>]]></text></generalfeedback>
+  <name><text>NCERT_EXEMPLAR_CHEMISTRY_ELECTROCHEMISTRY_MCQI_Q08 - Strongest reducing agent from standard electrode potentials</text></name>
+  <questiontext format="html"><text><![CDATA[<p>Using the data given below find out the strongest reducing agent.</p><p>\[E_{\mathrm{Cr_2O_7^{2-}/Cr^{3+}}}^{\circ} = 1.33\text{ V} \qquad E_{\mathrm{Cl_2/Cl^-}}^{\circ} = 1.36\text{ V}\]</p><p>\[E_{\mathrm{MnO_4^-/Mn^{2+}}}^{\circ} = 1.51\text{ V} \qquad E_{\mathrm{Cr^{3+}/Cr}}^{\circ} = -0.74\text{ V}\]</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>The standard reduction potentials are:<br/>\(E_{\mathrm{Cr_2O_7^{2-}/Cr^{3+}}}^{\circ} = +1.33\text{ V}\)<br/>\(E_{\mathrm{Cl_2/Cl^-}}^{\circ} = +1.36\text{ V}\)<br/>\(E_{\mathrm{MnO_4^-/Mn^{2+}}}^{\circ} = +1.51\text{ V}\)<br/>\(E_{\mathrm{Cr^{3+}/Cr}}^{\circ} = -0.74\text{ V}\)</p><p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>All given values are standard reduction potentials (\(E^\circ_{\text{red}}\)). A more negative reduction potential corresponds to a more positive oxidation potential (\(E^\circ_{\text{ox}} = -E^\circ_{\text{red}}\)).</p><p><strong>Step 3: Relevant Formulae and Principles</strong><br/>A reducing agent undergoes oxidation by losing electrons. The species in the reduced form of the redox couple with the lowest (most negative) standard reduction potential has the greatest tendency to be oxidised and is therefore the strongest reducing agent.</p><p><strong>Step 4: Step-by-Step Working</strong><br/>Comparing the standard reduction potentials in increasing order:<br/>\(-0.74\text{ V} < +1.33\text{ V} < +1.36\text{ V} < +1.51\text{ V}\)<br/>The lowest standard reduction potential is \(-0.74\text{ V}\) for the \(\mathrm{Cr^{3+}/Cr}\) couple. Its reduced form is \(\mathrm{Cr}\), which has an oxidation potential of \(+0.74\text{ V}\).</p><p><strong>Step 5: Check and Final Answer</strong><br/>Since \(\mathrm{Cr}\) has the highest tendency to lose electrons among the given reduced species (\(\mathrm{Cr}, \mathrm{Cr^{3+}}, \mathrm{Cl^-}, \mathrm{Mn^{2+}}\)), \(\mathrm{Cr}\) is the strongest reducing agent.</p>]]></text></generalfeedback>
   <defaultgrade>4.0000000</defaultgrade>
   <penalty>0.2500000</penalty>
   <hidden>0</hidden>
@@ -210,18 +210,17 @@
     <tag><text>subject:chemistry</text></tag>
     <tag><text>class:class_12</text></tag>
     <tag><text>chapter:electrochemistry</text></tag>
-    <tag><text>typology:mcq</text></tag>
+    <tag><text>typology:single_choice</text></tag>
     <tag><text>difficulty:easy</text></tag>
-    <tag><text>blooms:analyze</text></tag>
-    <tag><text>calculation:light</text></tag>
-    <tag><text>media:equation</text></tag>
+    <tag><text>blooms:apply</text></tag>
+    <tag><text>media:text</text></tag>
     <tag><text>multiconcept:false</text></tag>
   </tags>
 </question>
 <question type="multichoice">
-  <name><text>NEET_UG_CHEMISTRY_ELECTROCHEMISTRY_MCQ_Q09 - Identification of strongest oxidising agent from standard reduction potentials</text></name>
-  <questiontext format="html"><text><![CDATA[<p>Use the data given in Q.8 and find out which of the following is the strongest oxidising agent.</p><p><strong>Given:</strong><br/>\(E_{\mathrm{Cr}_2\mathrm{O}_7^{2-}/\mathrm{Cr}^{3+}}^{\circ} = 1.33\,\mathrm{V} \quad E_{\mathrm{Cl}_2/\mathrm{Cl}^-}^{\circ} = 1.36\,\mathrm{V}\)<br/>\(E_{\mathrm{MnO}_4^-/\mathrm{Mn}^{2+}}^{\circ} = 1.51\,\mathrm{V} \quad E_{\mathrm{Cr}^{3+}/\mathrm{Cr}}^{\circ} = -0.74\,\mathrm{V}\)</p>]]></text></questiontext>
-  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>Standard reduction potentials are given as:<br/>\(E_{\mathrm{Cr}_2\mathrm{O}_7^{2-}/\mathrm{Cr}^{3+}}^{\circ} = 1.33\,\mathrm{V}\)<br/>\(E_{\mathrm{Cl}_2/\mathrm{Cl}^-}^{\circ} = 1.36\,\mathrm{V}\)<br/>\(E_{\mathrm{MnO}_4^-/\mathrm{Mn}^{2+}}^{\circ} = 1.51\,\mathrm{V}\)<br/>\(E_{\mathrm{Cr}^{3+}/\mathrm{Cr}}^{\circ} = -0.74\,\mathrm{V}\)</p><p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>An oxidising agent gains electrons and is reduced during a redox process. The standard reduction potential measures the thermodynamic tendency of the oxidised form of a couple to undergo reduction.</p><p><strong>Step 3: Relevant Formulae and Principles</strong><br/>The higher (more positive) the standard reduction potential \(E^{\circ}\), the greater the electron-accepting ability of the oxidised species, and hence the stronger its oxidising power.</p><p><strong>Step 4: Step-by-Step Working</strong><br/>Comparing the standard reduction potentials of the oxidised species:<br/>For \(\mathrm{Cr}^{3+} + 3\mathrm{e}^- \rightarrow \mathrm{Cr}\): \(E^{\circ} = -0.74\,\mathrm{V}\)<br/>For \(\mathrm{Cr}_2\mathrm{O}_7^{2-} + 14\mathrm{H}^+ + 6\mathrm{e}^- \rightarrow 2\mathrm{Cr}^{3+} + 7\mathrm{H}_2\mathrm{O}\): \(E^{\circ} = +1.33\,\mathrm{V}\)<br/>For \(\mathrm{Cl}_2 + 2\mathrm{e}^- \rightarrow 2\mathrm{Cl}^-\): \(E^{\circ} = +1.36\,\mathrm{V}\)<br/>For \(\mathrm{MnO}_4^- + 8\mathrm{H}^+ + 5\mathrm{e}^- \rightarrow \mathrm{Mn}^{2+} + 4\mathrm{H}_2\mathrm{O}\): \(E^{\circ} = +1.51\,\mathrm{V}\)<br/>The couple \(\mathrm{MnO}_4^-/\mathrm{Mn}^{2+}\) possesses the highest reduction potential of \(+1.51\,\mathrm{V}\).</p><p><strong>Step 5: Check and Final Answer</strong><br/>Because \(\mathrm{MnO}_4^-\) has the largest positive reduction potential, it has the strongest tendency to be reduced and is the strongest oxidising agent. Thus, the strongest oxidising agent is \(\mathrm{MnO}_4^-\).</p>]]></text></generalfeedback>
+  <name><text>NCERT_EXEMPLAR_CHEMISTRY_ELECTROCHEMISTRY_MCQI_Q09 - Strongest oxidising agent from standard electrode potentials</text></name>
+  <questiontext format="html"><text><![CDATA[<p>Use the data given in Q.8 (\(E_{\mathrm{Cr_2O_7^{2-}/Cr^{3+}}}^{\circ} = 1.33\text{ V}\), \(E_{\mathrm{Cl_2/Cl^-}}^{\circ} = 1.36\text{ V}\), \(E_{\mathrm{MnO_4^-/Mn^{2+}}}^{\circ} = 1.51\text{ V}\), \(E_{\mathrm{Cr^{3+}/Cr}}^{\circ} = -0.74\text{ V}\)) and find out which of the following is the strongest oxidising agent.</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>An oxidising agent undergoes reduction by gaining electrons. The higher (more positive) the standard reduction potential of a redox couple, the greater is the tendency of its oxidised species to accept electrons and act as an oxidising agent.</p><p><strong>Step 2: Evaluation</strong><br/>Comparing the given standard reduction potentials:<br/>\(E_{\mathrm{MnO_4^-/Mn^{2+}}}^{\circ} = +1.51\text{ V} > E_{\mathrm{Cl_2/Cl^-}}^{\circ} = +1.36\text{ V} > E_{\mathrm{Cr_2O_7^{2-}/Cr^{3+}}}^{\circ} = +1.33\text{ V} > E_{\mathrm{Cr^{3+}/Cr}}^{\circ} = -0.74\text{ V}\).</p><p><strong>Step 3: Application</strong><br/>The \(\mathrm{MnO_4^-/Mn^{2+}}\) couple has the highest standard reduction potential (\(+1.51\text{ V}\)), meaning \(\mathrm{MnO_4^-}\) has the strongest tendency to get reduced to \(\mathrm{Mn^{2+}}\).</p><p><strong>Step 4: Final Conclusion</strong><br/>Therefore, \(\mathrm{MnO}_4^-\) is the strongest oxidising agent.</p>]]></text></generalfeedback>
   <defaultgrade>4.0000000</defaultgrade>
   <penalty>0.2500000</penalty>
   <hidden>0</hidden>
@@ -238,18 +237,17 @@
     <tag><text>subject:chemistry</text></tag>
     <tag><text>class:class_12</text></tag>
     <tag><text>chapter:electrochemistry</text></tag>
-    <tag><text>typology:mcq</text></tag>
+    <tag><text>typology:single_choice</text></tag>
     <tag><text>difficulty:easy</text></tag>
-    <tag><text>blooms:analyze</text></tag>
-    <tag><text>calculation:light</text></tag>
-    <tag><text>media:equation</text></tag>
+    <tag><text>blooms:apply</text></tag>
+    <tag><text>media:text</text></tag>
     <tag><text>multiconcept:false</text></tag>
   </tags>
 </question>
 <question type="multichoice">
-  <name><text>NEET_UG_CHEMISTRY_ELECTROCHEMISTRY_MCQ_Q10 - Correct order of reducing power from electrode potentials</text></name>
-  <questiontext format="html"><text><![CDATA[<p>Using the data given in Q.8 find out in which option the order of reducing power is correct.</p><p><strong>Given:</strong><br/>\(E_{\mathrm{Cr}_2\mathrm{O}_7^{2-}/\mathrm{Cr}^{3+}}^{\circ} = 1.33\,\mathrm{V} \quad E_{\mathrm{Cl}_2/\mathrm{Cl}^-}^{\circ} = 1.36\,\mathrm{V}\)<br/>\(E_{\mathrm{MnO}_4^-/\mathrm{Mn}^{2+}}^{\circ} = 1.51\,\mathrm{V} \quad E_{\mathrm{Cr}^{3+}/\mathrm{Cr}}^{\circ} = -0.74\,\mathrm{V}\)</p>]]></text></questiontext>
-  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>The standard reduction potentials are:<br/>\(E_{\mathrm{MnO}_4^-/\mathrm{Mn}^{2+}}^{\circ} = 1.51\,\mathrm{V}\)<br/>\(E_{\mathrm{Cl}_2/\mathrm{Cl}^-}^{\circ} = 1.36\,\mathrm{V}\)<br/>\(E_{\mathrm{Cr}_2\mathrm{O}_7^{2-}/\mathrm{Cr}^{3+}}^{\circ} = 1.33\,\mathrm{V}\)<br/>\(E_{\mathrm{Cr}^{3+}/\mathrm{Cr}}^{\circ} = -0.74\,\mathrm{V}\)</p><p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>Reducing power reflects the relative ease with which a species is oxidised. Standard oxidation potential is \(E^{\circ}_{\mathrm{ox}} = -E^{\circ}_{\mathrm{red}}\). A higher oxidation potential corresponds to stronger reducing power.</p><p><strong>Step 3: Relevant Formulae and Principles</strong><br/>Reducing power increases as the standard reduction potential decreases (i.e. becoming more negative):<br/>Higher \(E^{\circ}_{\mathrm{red}} \implies\) weaker reducing agent.<br/>Lower \(E^{\circ}_{\mathrm{red}} \implies\) stronger reducing agent.</p><p><strong>Step 4: Step-by-Step Working</strong><br/>Comparing the reducing power of the species in their reduced states:<br/>1. For \(\mathrm{Mn}^{2+}\): \(E^{\circ}_{\mathrm{red}} = +1.51\,\mathrm{V} \implies E^{\circ}_{\mathrm{ox}} = -1.51\,\mathrm{V}\)<br/>2. For \(\mathrm{Cl}^-\): \(E^{\circ}_{\mathrm{red}} = +1.36\,\mathrm{V} \implies E^{\circ}_{\mathrm{ox}} = -1.36\,\mathrm{V}\)<br/>3. For \(\mathrm{Cr}^{3+}\) (oxidised to dichromate): \(E^{\circ}_{\mathrm{red}} = +1.33\,\mathrm{V} \implies E^{\circ}_{\mathrm{ox}} = -1.33\,\mathrm{V}\)<br/>4. For \(\mathrm{Cr}\) (oxidised to chromium(III)): \(E^{\circ}_{\mathrm{red}} = -0.74\,\mathrm{V} \implies E^{\circ}_{\mathrm{ox}} = +0.74\,\mathrm{V}\)<br/>Ordering by increasing oxidation potential:<br/>\(-1.51\,\mathrm{V} < -1.36\,\mathrm{V} < -1.33\,\mathrm{V} < +0.74\,\mathrm{V}\)</p><p><strong>Step 5: Check and Final Answer</strong><br/>The resulting sequence in order of increasing reducing power is \(\mathrm{Mn}^{2+} < \mathrm{Cl}^{-} < \mathrm{Cr}^{3+} < \mathrm{Cr}\).</p>]]></text></generalfeedback>
+  <name><text>NCERT_EXEMPLAR_CHEMISTRY_ELECTROCHEMISTRY_MCQI_Q10 - Order of reducing power</text></name>
+  <questiontext format="html"><text><![CDATA[<p>Using the data given in Q.8 (\(E_{\mathrm{Cr_2O_7^{2-}/Cr^{3+}}}^{\circ} = 1.33\text{ V}\), \(E_{\mathrm{Cl_2/Cl^-}}^{\circ} = 1.36\text{ V}\), \(E_{\mathrm{MnO_4^-/Mn^{2+}}}^{\circ} = 1.51\text{ V}\), \(E_{\mathrm{Cr^{3+}/Cr}}^{\circ} = -0.74\text{ V}\)) find out in which option the order of reducing power is correct.</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>The standard reduction potentials for the four couples are:<br/>\(E_{\mathrm{MnO_4^-/Mn^{2+}}}^{\circ} = +1.51\text{ V}\)<br/>\(E_{\mathrm{Cl_2/Cl^-}}^{\circ} = +1.36\text{ V}\)<br/>\(E_{\mathrm{Cr_2O_7^{2-}/Cr^{3+}}}^{\circ} = +1.33\text{ V}\)<br/>\(E_{\mathrm{Cr^{3+}/Cr}}^{\circ} = -0.74\text{ V}\)</p><p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>Reducing power is evaluated for the reduced forms (\(\mathrm{Mn^{2+}}, \mathrm{Cl^-}, \mathrm{Cr^{3+}}, \mathrm{Cr}\)) undergoing oxidation.</p><p><strong>Step 3: Relevant Formulae and Principles</strong><br/>Reducing power of a reduced species increases as the standard reduction potential \(E^\circ_{\text{red}}\) of its redox couple decreases (or as its oxidation potential \(E^\circ_{\text{ox}} = -E^\circ_{\text{red}}\) increases).</p><p><strong>Step 4: Step-by-Step Working</strong><br/>Arranging the standard reduction potentials in decreasing order:<br/>\(+1.51\text{ V} > +1.36\text{ V} > +1.33\text{ V} > -0.74\text{ V}\)<br/>The corresponding reduced species in increasing order of reducing power are:<br/>\(\mathrm{Mn}^{2+} < \mathrm{Cl}^{-} < \mathrm{Cr}^{3+} < \mathrm{Cr}\)</p><p><strong>Step 5: Check and Final Answer</strong><br/>\(\mathrm{Mn^{2+}}\) has the highest reduction potential and thus the weakest reducing power, while \(\mathrm{Cr}\) has the lowest reduction potential and the strongest reducing power. The correct order is \(\mathrm{Mn}^{2+} < \mathrm{Cl}^{-} < \mathrm{Cr}^{3+} < \mathrm{Cr}\).</p>]]></text></generalfeedback>
   <defaultgrade>4.0000000</defaultgrade>
   <penalty>0.2500000</penalty>
   <hidden>0</hidden>
@@ -266,18 +264,17 @@
     <tag><text>subject:chemistry</text></tag>
     <tag><text>class:class_12</text></tag>
     <tag><text>chapter:electrochemistry</text></tag>
-    <tag><text>typology:mcq</text></tag>
+    <tag><text>typology:single_choice</text></tag>
     <tag><text>difficulty:medium</text></tag>
     <tag><text>blooms:analyze</text></tag>
-    <tag><text>calculation:light</text></tag>
-    <tag><text>media:equation</text></tag>
+    <tag><text>media:text</text></tag>
     <tag><text>multiconcept:false</text></tag>
   </tags>
 </question>
 <question type="multichoice">
-  <name><text>NEET_UG_CHEMISTRY_ELECTROCHEMISTRY_MCQ_Q11 - Most stable ion in its reduced form from electrode potentials</text></name>
-  <questiontext format="html"><text><![CDATA[<p>Use the data given in Q.8 and find out the most stable ion in its reduced form.</p><p><strong>Given:</strong><br/>\(E_{\mathrm{Cr}_2\mathrm{O}_7^{2-}/\mathrm{Cr}^{3+}}^{\circ} = 1.33\,\mathrm{V} \quad E_{\mathrm{Cl}_2/\mathrm{Cl}^-}^{\circ} = 1.36\,\mathrm{V}\)<br/>\(E_{\mathrm{MnO}_4^-/\mathrm{Mn}^{2+}}^{\circ} = 1.51\,\mathrm{V} \quad E_{\mathrm{Cr}^{3+}/\mathrm{Cr}}^{\circ} = -0.74\,\mathrm{V}\)</p>]]></text></questiontext>
-  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>The given standard reduction potentials are \(E^{\circ}_{\mathrm{MnO}_4^-/\mathrm{Mn}^{2+}} = 1.51\,\mathrm{V}\), \(E^{\circ}_{\mathrm{Cl}_2/\mathrm{Cl}^-} = 1.36\,\mathrm{V}\), \(E^{\circ}_{\mathrm{Cr}_2\mathrm{O}_7^{2-}/\mathrm{Cr}^{3+}} = 1.33\,\mathrm{V}\), and \(E^{\circ}_{\mathrm{Cr}^{3+}/\mathrm{Cr}} = -0.74\,\mathrm{V}\).</p><p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>Stability of a species in its reduced state signifies resistance toward oxidation. An ion in its reduced form is most stable if it has the lowest tendency to release electrons (least positive or most negative oxidation potential).</p><p><strong>Step 3: Relevant Formulae and Principles</strong><br/>A high positive standard reduction potential indicates that the equilibrium strongly favors the reduced state. Thus, the couple with the highest positive \(E^{\circ}_{\mathrm{red}}\) forms the most thermodynamically stable reduced species.</p><p><strong>Step 4: Step-by-Step Working</strong><br/>Comparing the standard reduction potentials corresponding to the reduced ions:<br/>For \(\mathrm{Mn}^{2+}\), \(E^{\circ} = +1.51\,\mathrm{V}\)<br/>For \(\mathrm{Cl}^-\), \(E^{\circ} = +1.36\,\mathrm{V}\)<br/>For \(\mathrm{Cr}^{3+}\) (from dichromate reduction), \(E^{\circ} = +1.33\,\mathrm{V}\)<br/>The highest reduction potential is \(+1.51\,\mathrm{V}\) for the \(\mathrm{MnO}_4^-/\mathrm{Mn}^{2+}\) couple, meaning \(\mathrm{Mn}^{2+}\) has the least tendency to be oxidized back to \(\mathrm{MnO}_4^-\).</p><p><strong>Step 5: Check and Final Answer</strong><br/>Due to having the highest standard reduction potential, the ion most resistant to oxidation in its reduced state is \(\mathrm{Mn}^{2+}\).</p>]]></text></generalfeedback>
+  <name><text>NCERT_EXEMPLAR_CHEMISTRY_ELECTROCHEMISTRY_MCQI_Q11 - Most stable ion in its reduced form</text></name>
+  <questiontext format="html"><text><![CDATA[<p>Use the data given in Q.8 (\(E_{\mathrm{Cr_2O_7^{2-}/Cr^{3+}}}^{\circ} = 1.33\text{ V}\), \(E_{\mathrm{Cl_2/Cl^-}}^{\circ} = 1.36\text{ V}\), \(E_{\mathrm{MnO_4^-/Mn^{2+}}}^{\circ} = 1.51\text{ V}\), \(E_{\mathrm{Cr^{3+}/Cr}}^{\circ} = -0.74\text{ V}\)) and find out the most stable ion in its reduced form.</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>A higher (more positive) standard reduction potential \(E^\circ_{\text{red}}\) indicates a stronger thermodynamic drive for the oxidised species to undergo reduction and remain in its reduced form.</p><p><strong>Step 2: Evaluation</strong><br/>Among the four couples, \(\mathrm{MnO_4^-/Mn^{2+}}\) has the highest standard reduction potential (\(E^\circ = +1.51\text{ V}\)).</p><p><strong>Step 3: Application</strong><br/>Because the reduction \(\mathrm{MnO_4^- + 8H^+ + 5e^- \to Mn^{2+} + 4H_2O}\) has the largest positive \(E^\circ\) value, the resulting reduced ion \(\mathrm{Mn^{2+}}\) has the least tendency to be oxidised back and is therefore the most stable in its reduced form.</p><p><strong>Step 4: Final Conclusion</strong><br/>Thus, \(\mathrm{Mn}^{2+}\) is the most stable ion in its reduced form.</p>]]></text></generalfeedback>
   <defaultgrade>4.0000000</defaultgrade>
   <penalty>0.2500000</penalty>
   <hidden>0</hidden>
@@ -294,18 +291,17 @@
     <tag><text>subject:chemistry</text></tag>
     <tag><text>class:class_12</text></tag>
     <tag><text>chapter:electrochemistry</text></tag>
-    <tag><text>typology:mcq</text></tag>
+    <tag><text>typology:single_choice</text></tag>
     <tag><text>difficulty:medium</text></tag>
     <tag><text>blooms:analyze</text></tag>
-    <tag><text>calculation:light</text></tag>
-    <tag><text>media:equation</text></tag>
+    <tag><text>media:text</text></tag>
     <tag><text>multiconcept:false</text></tag>
   </tags>
 </question>
 <question type="multichoice">
-  <name><text>NEET_UG_CHEMISTRY_ELECTROCHEMISTRY_MCQ_Q12 - Most stable oxidised species from standard reduction potentials</text></name>
-  <questiontext format="html"><text><![CDATA[<p>Use the data of Q.8 and find out the most stable oxidised species.</p><p><strong>Given:</strong><br/>\(E_{\mathrm{Cr}_2\mathrm{O}_7^{2-}/\mathrm{Cr}^{3+}}^{\circ} = 1.33\,\mathrm{V} \quad E_{\mathrm{Cl}_2/\mathrm{Cl}^-}^{\circ} = 1.36\,\mathrm{V}\)<br/>\(E_{\mathrm{MnO}_4^-/\mathrm{Mn}^{2+}}^{\circ} = 1.51\,\mathrm{V} \quad E_{\mathrm{Cr}^{3+}/\mathrm{Cr}}^{\circ} = -0.74\,\mathrm{V}\)</p>]]></text></questiontext>
-  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>Standard reduction potentials are given as:<br/>\(E_{\mathrm{Cr}_2\mathrm{O}_7^{2-}/\mathrm{Cr}^{3+}}^{\circ} = 1.33\,\mathrm{V}\)<br/>\(E_{\mathrm{Cl}_2/\mathrm{Cl}^-}^{\circ} = 1.36\,\mathrm{V}\)<br/>\(E_{\mathrm{MnO}_4^-/\mathrm{Mn}^{2+}}^{\circ} = 1.51\,\mathrm{V}\)<br/>\(E_{\mathrm{Cr}^{3+}/\mathrm{Cr}}^{\circ} = -0.74\,\mathrm{V}\)</p><p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>An oxidised species is most stable when it has the lowest tendency to accept electrons (undergo reduction) to form the reduced state.</p><p><strong>Step 3: Relevant Formulae and Principles</strong><br/>Thermodynamic stability of an oxidised species is inversely related to its standard reduction potential. A lower (or more negative) standard reduction potential \(E^{\circ}_{\mathrm{red}}\) implies that reduction is least favorable, meaning the oxidised state is most stable.</p><p><strong>Step 4: Step-by-Step Working</strong><br/>Evaluating the reduction tendencies of the candidate oxidised species:<br/>For \(\mathrm{MnO}_4^-\): \(E^{\circ}_{\mathrm{red}} = +1.51\,\mathrm{V}\) (readily reduced, least stable oxidised state)<br/>For \(\mathrm{Cr}_2\mathrm{O}_7^{2-}\): \(E^{\circ}_{\mathrm{red}} = +1.33\,\mathrm{V}\) (readily reduced)<br/>For \(\mathrm{Cr}^{3+}\) in the \(\mathrm{Cr}^{3+}/\mathrm{Cr}\) couple: \(E^{\circ}_{\mathrm{red}} = -0.74\,\mathrm{V}\) (strongly disfavored reduction).<br/>Because \(-0.74\,\mathrm{V}\) is negative and significantly smaller than all positive potentials, \(\mathrm{Cr}^{3+}\) has the least tendency to be reduced to \(\mathrm{Cr}\).</p><p><strong>Step 5: Check and Final Answer</strong><br/>The lowest reduction potential identifies the most stable oxidised species as \(\mathrm{Cr}^{3+}\).</p>]]></text></generalfeedback>
+  <name><text>NCERT_EXEMPLAR_CHEMISTRY_ELECTROCHEMISTRY_MCQI_Q12 - Most stable oxidised species</text></name>
+  <questiontext format="html"><text><![CDATA[<p>Use the data of Q.8 (\(E_{\mathrm{Cr_2O_7^{2-}/Cr^{3+}}}^{\circ} = 1.33\text{ V}\), \(E_{\mathrm{Cl_2/Cl^-}}^{\circ} = 1.36\text{ V}\), \(E_{\mathrm{MnO_4^-/Mn^{2+}}}^{\circ} = 1.51\text{ V}\), \(E_{\mathrm{Cr^{3+}/Cr}}^{\circ} = -0.74\text{ V}\)) and find out the most stable oxidised species.</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>A lower (more negative) standard reduction potential \(E^\circ_{\text{red}}\) means that the corresponding oxidation potential is high, so the reduced form readily oxidises and the oxidised species has the least tendency to undergo reduction.</p><p><strong>Step 2: Evaluation</strong><br/>Among the given couples, \(\mathrm{Cr^{3+}/Cr}\) has the lowest standard reduction potential (\(E^\circ = -0.74\text{ V}\)).</p><p><strong>Step 3: Application</strong><br/>Since \(E_{\mathrm{Cr^{3+}/Cr}}^{\circ}\) is negative, \(\mathrm{Cr^{3+}}\) is the most resistant to reduction and remains preferentially in its oxidised state.</p><p><strong>Step 4: Final Conclusion</strong><br/>Therefore, \(\mathrm{Cr}^{3+}\) is the most stable oxidised species.</p>]]></text></generalfeedback>
   <defaultgrade>4.0000000</defaultgrade>
   <penalty>0.2500000</penalty>
   <hidden>0</hidden>
@@ -322,46 +318,45 @@
     <tag><text>subject:chemistry</text></tag>
     <tag><text>class:class_12</text></tag>
     <tag><text>chapter:electrochemistry</text></tag>
-    <tag><text>typology:mcq</text></tag>
+    <tag><text>typology:single_choice</text></tag>
     <tag><text>difficulty:medium</text></tag>
     <tag><text>blooms:analyze</text></tag>
-    <tag><text>calculation:light</text></tag>
-    <tag><text>media:equation</text></tag>
+    <tag><text>media:text</text></tag>
     <tag><text>multiconcept:false</text></tag>
   </tags>
 </question>
 <question type="multichoice">
-  <name><text>NEET_UG_CHEMISTRY_ELECTROCHEMISTRY_MCQ_Q13 - Charge required to obtain one mole aluminium from alumina</text></name>
+  <name><text>NCERT_EXEMPLAR_CHEMISTRY_ELECTROCHEMISTRY_MCQI_Q13 - Charge required to obtain one mole of aluminium</text></name>
   <questiontext format="html"><text><![CDATA[<p>The quantity of charge required to obtain one mole of aluminium from \(\mathrm{Al}_{2}\mathrm{O}_{3}\) is</p>]]></text></questiontext>
-  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>Target amount of aluminium to be produced: \(1\text{ mol}\) of \(\mathrm{Al}\).<br/>Source compound: \(\mathrm{Al}_2\mathrm{O}_3\), where aluminium exists in the \(+3\) oxidation state as \(\mathrm{Al}^{3+}\).</p><p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>Electrolytic reduction obeys Faraday's laws of electrolysis, where each mole of electrons transferred corresponds to one Faraday of electric charge (\(1\mathrm{F}\)).</p><p><strong>Step 3: Relevant Formulae and Principles</strong><br/>The balanced cathodic reduction half-reaction is:<br/>\[ \mathrm{Al}^{3+} + 3\mathrm{e}^- \longrightarrow \mathrm{Al(s)} \]<br/>According to stoichiometry, the reduction of \(1\text{ mol}\) of \(\mathrm{Al}^{3+}\) requires \(3\text{ mol}\) of electrons.</p><p><strong>Step 4: Step-by-Step Working</strong><br/>Charge calculation:<br/>\[ Q = n \times F = 3 \times 1\mathrm{F} = 3\mathrm{F} \]<br/>Thus, \(3\text{ mol}\) of electrons represent a total charge of \(3\mathrm{F}\).</p><p><strong>Step 5: Check and Final Answer</strong><br/>To obtain one mole of elemental aluminium from alumina, the required quantity of charge is \(3\mathrm{F}\).</p>]]></text></generalfeedback>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>We need to obtain \(1\text{ mol}\) of aluminium (\(\mathrm{Al}\)) by the reduction of aluminium oxide (\(\mathrm{Al_2O_3}\)).</p><p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>In \(\mathrm{Al_2O_3}\), aluminium exists in the \(+3\) oxidation state as \(\mathrm{Al^{3+}}\) ions. One Faraday (\(1\text{ F}\)) equals the charge of \(1\text{ mol}\) of electrons.</p><p><strong>Step 3: Relevant Formulae and Principles</strong><br/>By Faraday's first law of electrolysis, the charge \(Q\) required to deposit \(1\text{ mol}\) of a metal ion \(\mathrm{M}^{n+}\) is \(Q = n\text{ F}\), where \(n\) is the number of moles of electrons required per mole of metal.</p><p><strong>Step 4: Step-by-Step Working</strong><br/>The reduction half-reaction for \(\mathrm{Al^{3+}}\) is:<br/>\[\mathrm{Al^{3+} + 3e^- \longrightarrow Al(s)}\]<br/>Here, \(1\text{ mol}\) of \(\mathrm{Al^{3+}}\) requires \(3\text{ mol}\) of electrons, so \(n = 3\).<br/>Therefore, \(Q = 3\text{ F}\).</p><p><strong>Step 5: Check and Final Answer</strong><br/>The quantity of charge required to obtain one mole of aluminium from \(\mathrm{Al_2O_3}\) is \(3\text{ F}\).</p>]]></text></generalfeedback>
   <defaultgrade>4.0000000</defaultgrade>
   <penalty>0.2500000</penalty>
   <hidden>0</hidden>
   <single>true</single>
   <shuffleanswers>true</shuffleanswers>
   <answernumbering>iii</answernumbering>
-  <answer fraction="0" format="html"><text><![CDATA[<p>\(1\mathrm{F}\)</p>]]></text></answer>
-  <answer fraction="0" format="html"><text><![CDATA[<p>\(6\mathrm{F}\)</p>]]></text></answer>
-  <answer fraction="100" format="html"><text><![CDATA[<p>\(3\mathrm{F}\)</p>]]></text></answer>
-  <answer fraction="0" format="html"><text><![CDATA[<p>\(2\mathrm{F}\)</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>\(1\text{ F}\)</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>\(6\text{ F}\)</p>]]></text></answer>
+  <answer fraction="100" format="html"><text><![CDATA[<p>\(3\text{ F}\)</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>\(2\text{ F}\)</p>]]></text></answer>
   <tags>
     <tag><text>standard:neet_ug</text></tag>
     <tag><text>lang:en</text></tag>
     <tag><text>subject:chemistry</text></tag>
     <tag><text>class:class_12</text></tag>
     <tag><text>chapter:electrochemistry</text></tag>
-    <tag><text>typology:mcq</text></tag>
+    <tag><text>typology:single_choice</text></tag>
     <tag><text>difficulty:easy</text></tag>
     <tag><text>blooms:apply</text></tag>
     <tag><text>calculation:light</text></tag>
-    <tag><text>media:equation</text></tag>
+    <tag><text>media:text</text></tag>
     <tag><text>multiconcept:false</text></tag>
   </tags>
 </question>
 <question type="multichoice">
-  <name><text>NEET_UG_CHEMISTRY_ELECTROCHEMISTRY_MCQ_Q14 - Properties and constancy of conductivity cell constant</text></name>
+  <name><text>NCERT_EXEMPLAR_CHEMISTRY_ELECTROCHEMISTRY_MCQI_Q14 - Cell constant of a conductivity cell</text></name>
   <questiontext format="html"><text><![CDATA[<p>The cell constant of a conductivity cell</p>]]></text></questiontext>
-  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>The cell constant (\(G^*\)) of a conductivity cell is defined by the physical geometry of the electrode arrangement according to the relation \(G^* = \frac{l}{A}\), where \(l\) is the distance between the two parallel planar electrodes and \(A\) is the cross-sectional area of each electrode.</p><p><strong>Step 2: Evaluation of Geometric Dependence</strong><br/>Because the platinum electrodes are fixed rigidly within the glass cell envelope during manufacturing, both the electrode spacing and the surface area remain fixed.</p><p><strong>Step 3: Application to Operating Conditions</strong><br/>Varying the electrolyte identity, electrolyte concentration, or temperature changes the specific conductivity and resistance of the solution inside the cell, but does not alter the physical geometry or dimensions of the electrodes.</p><p><strong>Step 4: Final Conclusion</strong><br/>The cell constant remains constant for a given conductivity cell.</p>]]></text></generalfeedback>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>The cell constant \(G^*\) of a conductivity cell is defined by the geometry of its electrodes as \(G^* = \frac{l}{A}\), where \(l\) is the distance between the two electrodes and \(A\) is their area of cross-section.</p><p><strong>Step 2: Evaluation</strong><br/>Because \(l\) and \(A\) are fixed physical dimensions of a given conductivity cell, \(G^*\) does not depend on the nature of the electrolyte, its concentration, or the temperature of the solution.</p><p><strong>Step 3: Final Conclusion</strong><br/>Therefore, the cell constant remains constant for a cell.</p>]]></text></generalfeedback>
   <defaultgrade>4.0000000</defaultgrade>
   <penalty>0.2500000</penalty>
   <hidden>0</hidden>
@@ -378,7 +373,7 @@
     <tag><text>subject:chemistry</text></tag>
     <tag><text>class:class_12</text></tag>
     <tag><text>chapter:electrochemistry</text></tag>
-    <tag><text>typology:mcq</text></tag>
+    <tag><text>typology:single_choice</text></tag>
     <tag><text>difficulty:easy</text></tag>
     <tag><text>blooms:remember</text></tag>
     <tag><text>media:text</text></tag>
@@ -386,9 +381,9 @@
   </tags>
 </question>
 <question type="multichoice">
-  <name><text>NEET_UG_CHEMISTRY_ELECTROCHEMISTRY_MCQ_Q15 - Chemical reaction during charging of lead storage battery</text></name>
+  <name><text>NCERT_EXEMPLAR_CHEMISTRY_ELECTROCHEMISTRY_MCQI_Q15 - Charging of lead storage battery</text></name>
   <questiontext format="html"><text><![CDATA[<p>While charging the lead storage battery</p>]]></text></questiontext>
-  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>A lead storage battery is a secondary cell. During discharging, it functions as a galvanic cell where spontaneous reactions convert active materials into lead(II) sulfate. During charging, an external direct current source forces the reverse non-spontaneous reactions to regenerate the original active electrode materials.</p><p><strong>Step 2: Evaluation of Electrode Reactions During Discharge</strong><br/>During discharging:<br/>Anode (oxidation of lead): \(\mathrm{Pb(s)} + \mathrm{SO}_4^{2-}(\mathrm{aq}) \longrightarrow \mathrm{PbSO}_4(\mathrm{s}) + 2\mathrm{e}^-\)<br/>Cathode (reduction of lead dioxide): \(\mathrm{PbO}_2(\mathrm{s}) + \mathrm{SO}_4^{2-}(\mathrm{aq}) + 4\mathrm{H}^+(\mathrm{aq}) + 2\mathrm{e}^- \longrightarrow \mathrm{PbSO}_4(\mathrm{s}) + 2\mathrm{H}_2\mathrm{O}(\mathrm{l})\)</p><p><strong>Step 3: Evaluation of Electrode Reactions During Charging</strong><br/>During recharging, the polarity is connected such that the electrode designated as the anode during discharge is connected to the negative terminal of the external charger, undergoing reduction:<br/>\[ \mathrm{PbSO}_4(\mathrm{s}) + 2\mathrm{e}^- \longrightarrow \mathrm{Pb(s)} + \mathrm{SO}_4^{2-}(\mathrm{aq}) \]<br/>Here, lead(II) sulfate deposited on the discharge anode is reduced to elemental sponge lead (\(\mathrm{Pb}\)). At the opposite electrode (the discharge cathode), lead(II) sulfate is oxidised to lead dioxide (\(\mathrm{PbO}_2\)).</p><p><strong>Step 4: Final Conclusion</strong><br/>The correct description of the charging process is that \(\mathrm{PbSO}_4\) anode is reduced to \(\mathrm{Pb}\).</p>]]></text></generalfeedback>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>During the discharge of a lead storage battery, the overall cell reaction is:<br/>\[\mathrm{Pb(s) + PbO_2(s) + 2H_2SO_4(aq) \longrightarrow 2PbSO_4(s) + 2H_2O(l)}\]<br/>At the anode, \(\mathrm{Pb}\) is oxidised to \(\mathrm{PbSO_4}\), while at the cathode, \(\mathrm{PbO_2}\) is reduced to \(\mathrm{PbSO_4}\).</p><p><strong>Step 2: Evaluation</strong><br/>When the battery is recharged, an external potential reverses the discharge reactions:<br/>\[\mathrm{2PbSO_4(s) + 2H_2O(l) \longrightarrow Pb(s) + PbO_2(s) + 2H_2SO_4(aq)}\]</p><p><strong>Step 3: Application</strong><br/>On the electrode that functioned as the anode during discharge, \(\mathrm{PbSO_4}\) is reduced back to metallic \(\mathrm{Pb}\) according to:<br/>\[\mathrm{PbSO_4(s) + 2e^- \longrightarrow Pb(s) + SO_4^{2-}(aq)}\]<br/>Meanwhile, on the electrode that functioned as the cathode during discharge, \(\mathrm{PbSO_4}\) is oxidised back to \(\mathrm{PbO_2}\).</p><p><strong>Step 4: Final Conclusion</strong><br/>Thus, while charging the lead storage battery, the \(\mathrm{PbSO}_4\) anode is reduced to \(\mathrm{Pb}\).</p>]]></text></generalfeedback>
   <defaultgrade>4.0000000</defaultgrade>
   <penalty>0.2500000</penalty>
   <hidden>0</hidden>
@@ -405,7 +400,7 @@
     <tag><text>subject:chemistry</text></tag>
     <tag><text>class:class_12</text></tag>
     <tag><text>chapter:electrochemistry</text></tag>
-    <tag><text>typology:mcq</text></tag>
+    <tag><text>typology:single_choice</text></tag>
     <tag><text>difficulty:medium</text></tag>
     <tag><text>blooms:understand</text></tag>
     <tag><text>media:text</text></tag>
@@ -413,26 +408,26 @@
   </tags>
 </question>
 <question type="multichoice">
-  <name><text>NEET_UG_CHEMISTRY_ELECTROCHEMISTRY_MCQ_Q16 - Limiting molar conductivity of ammonium hydroxide using Kohlrausch law</text></name>
-  <questiontext format="html"><text><![CDATA[<p>\(\Lambda_{m}^{\circ}(\mathrm{NH}_4\mathrm{OH})\) is equal to</p>]]></text></questiontext>
-  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>Kohlrausch's law of independent migration of ions states that the limiting molar conductivity of an electrolyte can be expressed as the sum of the individual limiting ionic conductivities of its constituent cations and anions:<br/>\[ \Lambda_{m}^{\circ}(\mathrm{NH}_4\mathrm{OH}) = \lambda_{\mathrm{NH}_4^+}^{\circ} + \lambda_{\mathrm{OH}^-}^{\circ} \]</p><p><strong>Step 2: Evaluation of Strong Electrolyte Combinations</strong><br/>Because ammonium hydroxide is a weak electrolyte whose limiting molar conductivity cannot be obtained by direct extrapolation to zero concentration, it is calculated from completely dissociated strong electrolytes: \(\mathrm{NH}_4\mathrm{Cl}\), \(\mathrm{NaOH}\), and \(\mathrm{NaCl}\).</p><p><strong>Step 3: Algebraic Combination of Limiting Molar Conductivities</strong><br/>Expressing each strong electrolyte in terms of its ionic components:<br/>\[ \Lambda_{m}^{\circ}(\mathrm{NH}_4\mathrm{Cl}) = \lambda_{\mathrm{NH}_4^+}^{\circ} + \lambda_{\mathrm{Cl}^-}^{\circ} \]<br/>\[ \Lambda_{m}^{\circ}(\mathrm{NaOH}) = \lambda_{\mathrm{Na}^+}^{\circ} + \lambda_{\mathrm{OH}^-}^{\circ} \]<br/>\[ \Lambda_{m}^{\circ}(\mathrm{NaCl}) = \lambda_{\mathrm{Na}^+}^{\circ} + \lambda_{\mathrm{Cl}^-}^{\circ} \]<br/>Adding the conductivities of ammonium chloride and sodium hydroxide, and subtracting that of sodium chloride:<br/>\[ \Lambda_{m}^{\circ}(\mathrm{NH}_4\mathrm{Cl}) + \Lambda_{m}^{\circ}(\mathrm{NaOH}) - \Lambda_{m}^{\circ}(\mathrm{NaCl}) = (\lambda_{\mathrm{NH}_4^+}^{\circ} + \lambda_{\mathrm{Cl}^-}^{\circ}) + (\lambda_{\mathrm{Na}^+}^{\circ} + \lambda_{\mathrm{OH}^-}^{\circ}) - (\lambda_{\mathrm{Na}^+}^{\circ} + \lambda_{\mathrm{Cl}^-}^{\circ}) \]<br/>Canceling the common terms \(\lambda_{\mathrm{Na}^+}^{\circ}\) and \(\lambda_{\mathrm{Cl}^-}^{\circ}\) yields:<br/>\[ \lambda_{\mathrm{NH}_4^+}^{\circ} + \lambda_{\mathrm{OH}^-}^{\circ} = \Lambda_{m}^{\circ}(\mathrm{NH}_4\mathrm{OH}) \]</p><p><strong>Step 4: Final Conclusion</strong><br/>The equivalent expression is \(\Lambda_{m}^{\circ}(\mathrm{NH}_4\mathrm{Cl}) + \Lambda_{m}^{\circ}(\mathrm{NaOH}) - \Lambda_{m}^{\circ}(\mathrm{NaCl})\).</p>]]></text></generalfeedback>
+  <name><text>NCERT_EXEMPLAR_CHEMISTRY_ELECTROCHEMISTRY_MCQI_Q16 - Kohlrausch law for ammonium hydroxide</text></name>
+  <questiontext format="html"><text><![CDATA[<p>\(\Lambda_{m}^{\circ(\mathrm{NH_4OH})}\) is equal to</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>We need to express the limiting molar conductivity of the weak electrolyte \(\mathrm{NH_4OH}\), denoted \(\Lambda_m^{\circ(\mathrm{NH_4OH})}\), in terms of strong electrolytes.</p><p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>At infinite dilution, all electrolytes dissociate completely, and each ion contributes independently to the total limiting molar conductivity.</p><p><strong>Step 3: Relevant Formulae and Principles</strong><br/>By Kohlrausch's law of independent migration of ions:<br/>\[\Lambda_m^\circ(\mathrm{NH_4OH}) = \lambda^\circ(\mathrm{NH_4^+}) + \lambda^\circ(\mathrm{OH^-})\]</p><p><strong>Step 4: Step-by-Step Working</strong><br/>Using the strong electrolytes \(\mathrm{NH_4Cl}\), \(\mathrm{NaOH}\), and \(\mathrm{NaCl}\):<br/>\[\Lambda_m^{\circ(\mathrm{NH_4Cl})} + \Lambda_m^{\circ(\mathrm{NaOH})} - \Lambda_{(\mathrm{NaCl})}^0 = \left[\lambda^\circ(\mathrm{NH_4^+}) + \lambda^\circ(\mathrm{Cl^-})\right] + \left[\lambda^\circ(\mathrm{Na^+}) + \lambda^\circ(\mathrm{OH^-})\right] - \left[\lambda^\circ(\mathrm{Na^+}) + \lambda^\circ(\mathrm{Cl^-})\right]\]<br/>Cancelling \(\lambda^\circ(\mathrm{Na^+})\) and \(\lambda^\circ(\mathrm{Cl^-})\) gives:<br/>\[\lambda^\circ(\mathrm{NH_4^+}) + \lambda^\circ(\mathrm{OH^-}) = \Lambda_m^{\circ(\mathrm{NH_4OH})}\]</p><p><strong>Step 5: Check and Final Answer</strong><br/>Therefore, \(\Lambda_{m}^{\circ(\mathrm{NH_4OH})}\) is equal to \(\Lambda_{m}^{\circ(\mathrm{NH_4Cl})} + \Lambda_{m}^{\circ(\mathrm{NaOH})} - \Lambda_{(\mathrm{NaCl})}^{0}\).</p>]]></text></generalfeedback>
   <defaultgrade>4.0000000</defaultgrade>
   <penalty>0.2500000</penalty>
   <hidden>0</hidden>
   <single>true</single>
   <shuffleanswers>true</shuffleanswers>
   <answernumbering>iii</answernumbering>
-  <answer fraction="0" format="html"><text><![CDATA[<p>\(\Lambda_{m}^{\circ}(\mathrm{NH}_4\mathrm{OH}) + \Lambda_{m}^{\circ}(\mathrm{NH}_4\mathrm{Cl}) - \Lambda_{(\mathrm{HCl})}^{0}\)</p>]]></text></answer>
-  <answer fraction="100" format="html"><text><![CDATA[<p>\(\Lambda_{m}^{\circ}(\mathrm{NH}_4\mathrm{Cl}) + \Lambda_{m}^{\circ}(\mathrm{NaOH}) - \Lambda_{(\mathrm{NaCl})}^{0}\)</p>]]></text></answer>
-  <answer fraction="0" format="html"><text><![CDATA[<p>\(\Lambda_{m}^{\circ}(\mathrm{NH}_4\mathrm{Cl}) + \Lambda_{m}^{\circ}(\mathrm{NaCl}) - \Lambda_{(\mathrm{NaOH})}^{0}\)</p>]]></text></answer>
-  <answer fraction="0" format="html"><text><![CDATA[<p>\(\Lambda_{m}^{\circ}(\mathrm{NaOH}) + \Lambda_{m}^{\circ}(\mathrm{NaCl}) - \Lambda_{(\mathrm{NH}_4\mathrm{Cl})}^{0}\)</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>\(\Lambda_{m}^{\circ(\mathrm{NH_4OH})} + \Lambda_{m}^{\circ(\mathrm{NH_4Cl})} - \Lambda_{(\mathrm{HCl})}^{0}\)</p>]]></text></answer>
+  <answer fraction="100" format="html"><text><![CDATA[<p>\(\Lambda_{m}^{\circ(\mathrm{NH_4Cl})} + \Lambda_{m}^{\circ(\mathrm{NaOH})} - \Lambda_{(\mathrm{NaCl})}^{0}\)</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>\(\Lambda_{m}^{\circ(\mathrm{NH_4Cl})} + \Lambda_{m}^{\circ(\mathrm{NaCl})} - \Lambda_{(\mathrm{NaOH})}^{0}\)</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>\(\Lambda_{m}^{\circ(\mathrm{NaOH})} + \Lambda_{m}^{\circ(\mathrm{NaCl})} - \Lambda_{(\mathrm{NH}_4\mathrm{Cl})}^{0}\)</p>]]></text></answer>
   <tags>
     <tag><text>standard:neet_ug</text></tag>
     <tag><text>lang:en</text></tag>
     <tag><text>subject:chemistry</text></tag>
     <tag><text>class:class_12</text></tag>
     <tag><text>chapter:electrochemistry</text></tag>
-    <tag><text>typology:mcq</text></tag>
+    <tag><text>typology:single_choice</text></tag>
     <tag><text>difficulty:easy</text></tag>
     <tag><text>blooms:apply</text></tag>
     <tag><text>calculation:light</text></tag>
@@ -441,36 +436,36 @@
   </tags>
 </question>
 <question type="multichoice">
-  <name><text>NEET_UG_CHEMISTRY_ELECTROCHEMISTRY_MCQ_Q17 - Anodic half cell reaction during electrolysis of aqueous sodium chloride</text></name>
+  <name><text>NCERT_EXEMPLAR_CHEMISTRY_ELECTROCHEMISTRY_MCQI_Q17 - Anode reaction in electrolysis of aqueous NaCl</text></name>
   <questiontext format="html"><text><![CDATA[<p>In the electrolysis of aqueous sodium chloride solution which of the half cell reaction will occur at anode?</p>]]></text></questiontext>
-  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>During electrolysis, oxidation occurs at the anode. In aqueous sodium chloride solution, two species compete for oxidation at the anode: water molecules and chloride ions.</p><p><strong>Step 2: Evaluation of Competing Anodic Reactions</strong><br/>The competing oxidation reactions with their standard potentials are:<br/>1. Oxidation of water: \(2\mathrm{H}_2\mathrm{O}(\mathrm{l}) \longrightarrow \mathrm{O}_2(\mathrm{g}) + 4\mathrm{H}^+(\mathrm{aq}) + 4\mathrm{e}^-; \quad E^{\ominus} = 1.23\,\mathrm{V}\)<br/>2. Oxidation of chloride ions: \(\mathrm{Cl}^-(\mathrm{aq}) \longrightarrow \frac{1}{2}\mathrm{Cl}_2(\mathrm{g}) + \mathrm{e}^-; \quad E^{\ominus} = 1.36\,\mathrm{V}\)</p><p><strong>Step 3: Role of Overpotential</strong><br/>Thermodynamically, oxidation of water has a lower standard potential and is favored. However, the oxidation of water to produce oxygen gas is kinetically extremely sluggish and requires a substantial overpotential (overvoltage) at the electrode surface. Because of this kinetic barrier, the oxidation of chloride ions to form chlorine gas occurs at a much lower practical potential and dominates at the anode.</p><p><strong>Step 4: Final Conclusion</strong><br/>The anodic reaction that takes place is \(\mathrm{Cl}^{-}(\mathrm{aq})\longrightarrow \frac{1}{2}\mathrm{Cl}_{2}(\mathrm{g}) + \mathrm{e}^{-}; \quad E_{\mathrm{Cell}}^{\ominus} = 1.36\mathrm{V}\).</p>]]></text></generalfeedback>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>During electrolysis, oxidation takes place at the anode. In an aqueous \(\mathrm{NaCl}\) solution, two possible oxidation half-reactions compete at the anode: the oxidation of water to \(\mathrm{O_2}\) and the oxidation of \(\mathrm{Cl^-}\) ions to \(\mathrm{Cl_2}\).</p><p><strong>Step 2: Evaluation</strong><br/>The two competing anode reactions and their standard reduction potentials are:<br/>1. \(2\mathrm{H_2O}(l) \longrightarrow \mathrm{O_2}(\mathrm{g}) + 4\mathrm{H^+}(\mathrm{aq}) + 4\mathrm{e^-}; \quad E^\ominus = 1.23\text{ V}\)<br/>2. \(\mathrm{Cl^-}(\mathrm{aq}) \longrightarrow \frac{1}{2}\mathrm{Cl_2}(\mathrm{g}) + \mathrm{e^-}; \quad E^\ominus = 1.36\text{ V}\)</p><p><strong>Step 3: Application</strong><br/>Thermodynamically, the reaction with the lower reduction potential (water oxidation at \(1.23\text{ V}\)) would be preferred. However, the oxidation of water to oxygen gas is kinetically slow and requires a significant extra voltage known as overpotential (or overvoltage). Because of this overpotential of \(\mathrm{O_2}\), the oxidation of \(\mathrm{Cl^-}\) ions becomes kinetically favoured and occurs preferentially at the anode.</p><p><strong>Step 4: Final Conclusion</strong><br/>Therefore, the half-cell reaction occurring at the anode is \(\mathrm{Cl}^{-}(\mathrm{aq}) \longrightarrow \frac{1}{2}\mathrm{Cl}_{2}(\mathrm{g}) + \mathrm{e}^{-}; E_{\mathrm{Cell}}^{\ominus} = 1.36\text{ V}\).</p>]]></text></generalfeedback>
   <defaultgrade>4.0000000</defaultgrade>
   <penalty>0.2500000</penalty>
   <hidden>0</hidden>
   <single>true</single>
   <shuffleanswers>true</shuffleanswers>
   <answernumbering>iii</answernumbering>
-  <answer fraction="0" format="html"><text><![CDATA[<p>\(\mathrm{Na^{+}(aq) + e^{-}\longrightarrow Na(s)}; \quad E_{\mathrm{Cell}}^{\ominus} = -2.71\mathrm{V}\)</p>]]></text></answer>
-  <answer fraction="0" format="html"><text><![CDATA[<p>\(2\mathrm{H}_2\mathrm{O}(l)\longrightarrow \mathrm{O}_2(\mathrm{g}) + 4\mathrm{H}^+ (\mathrm{aq}) + 4\mathrm{e}^{-}; \quad E_{\mathrm{Cell}}^{\ominus} = 1.23\mathrm{V}\)</p>]]></text></answer>
-  <answer fraction="0" format="html"><text><![CDATA[<p>\(\mathrm{H}^{+}(\mathrm{aq}) + \mathrm{e}^{-}\longrightarrow \frac{1}{2}\mathrm{H}_{2}(\mathrm{g}); \quad E_{\mathrm{Cell}}^{\ominus} = 0.00\mathrm{V}\)</p>]]></text></answer>
-  <answer fraction="100" format="html"><text><![CDATA[<p>\(\mathrm{Cl}^{-}(\mathrm{aq})\longrightarrow \frac{1}{2}\mathrm{Cl}_{2}(\mathrm{g}) + \mathrm{e}^{-}; \quad E_{\mathrm{Cell}}^{\ominus} = 1.36\mathrm{V}\)</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>\(\mathrm{Na^{+}(aq) + e^{-}\longrightarrow Na(s)}; E_{\mathrm{Cell}}^{\ominus} = -2.71\mathrm{V}\)</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>\(2\mathrm{H}_2\mathrm{O}(l)\longrightarrow \mathrm{O}_2(\mathrm{g}) + 4\mathrm{H}^+(\mathrm{aq}) + 4\mathrm{e}^{-}; E_{\mathrm{Cell}}^{\ominus} = 1.23\mathrm{V}\)</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>\(\mathrm{H}^{+}(\mathrm{aq}) + \mathrm{e}^{-}\longrightarrow \frac{1}{2}\mathrm{H}_{2}(\mathrm{g}); E_{\mathrm{Cell}}^{\ominus} = 0.00\mathrm{V}\)</p>]]></text></answer>
+  <answer fraction="100" format="html"><text><![CDATA[<p>\(\mathrm{Cl}^{-}(\mathrm{aq})\longrightarrow \frac{1}{2}\mathrm{Cl}_{2}(\mathrm{g}) + \mathrm{e}^{-}; E_{\mathrm{Cell}}^{\ominus} = 1.36\mathrm{V}\)</p>]]></text></answer>
   <tags>
     <tag><text>standard:neet_ug</text></tag>
     <tag><text>lang:en</text></tag>
     <tag><text>subject:chemistry</text></tag>
     <tag><text>class:class_12</text></tag>
     <tag><text>chapter:electrochemistry</text></tag>
-    <tag><text>typology:mcq</text></tag>
+    <tag><text>typology:single_choice</text></tag>
     <tag><text>difficulty:medium</text></tag>
     <tag><text>blooms:understand</text></tag>
-    <tag><text>media:equation</text></tag>
+    <tag><text>media:text</text></tag>
     <tag><text>multiconcept:false</text></tag>
   </tags>
 </question>
 <question type="multichoice">
-  <name><text>NEET_UG_CHEMISTRY_ELECTROCHEMISTRY_MCQ_Q18 - Implications of positive standard electrode potential of copper</text></name>
+  <name><text>NCERT_EXEMPLAR_CHEMISTRY_ELECTROCHEMISTRY_MCQII_Q18 - Positive standard electrode potential of Cu2+/Cu</text></name>
   <questiontext format="html"><text><![CDATA[<p>The positive value of the standard electrode potential of \(\mathrm{Cu^{2+}/Cu}\) indicates that</p>]]></text></questiontext>
-  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>The standard reduction potential of the \(\mathrm{Cu}^{2+}/\mathrm{Cu}\) couple is \(+0.34\,\mathrm{V}\), which is positive relative to the standard hydrogen electrode (\(E^{\ominus}_{\mathrm{H}^+/\mathrm{H}_2} = 0.00\,\mathrm{V}\)). A more positive standard reduction potential indicates a greater thermodynamic tendency to gain electrons.</p><p><strong>Step 2: Evaluation of Oxidising Strength</strong><br/>Because \(E^{\ominus}_{\mathrm{Cu}^{2+}/\mathrm{Cu}} > E^{\ominus}_{\mathrm{H}^+/\mathrm{H}_2}\), copper(II) ions are reduced more readily than hydrogen ions. This demonstrates that the \(\mathrm{Cu}^{2+}/\mathrm{Cu}\) redox couple is a stronger oxidising agent than the \(\mathrm{H}^+/\mathrm{H}_2\) couple.</p><p><strong>Step 3: Evaluation of Hydrogen Displacement</strong><br/>For copper metal to displace hydrogen gas from a non-oxidising acid, the reaction \(\mathrm{Cu(s)} + 2\mathrm{H}^+(\mathrm{aq}) \rightarrow \mathrm{Cu}^{2+}(\mathrm{aq}) + \mathrm{H}_2(\mathrm{g})\) must have a positive standard cell potential. However, \(E^{\circ}_{\mathrm{cell}} = E^{\circ}_{\mathrm{H}^+/\mathrm{H}_2} - E^{\circ}_{\mathrm{Cu}^{2+}/\mathrm{Cu}} = 0.00\,\mathrm{V} - 0.34\,\mathrm{V} = -0.34\,\mathrm{V} < 0\). The negative cell potential indicates that the process is non-spontaneous, so copper cannot displace \(\mathrm{H}_2\) from acid.</p><p><strong>Step 4: Final Conclusion</strong><br/>The valid deductions are that this redox couple is a stronger oxidising agent than \(\mathrm{H}^+ / \mathrm{H}_2\) and that Cu cannot displace \(\mathrm{H}_2\) from acid.</p>]]></text></generalfeedback>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>The standard electrode potential of the \(\mathrm{H^+/H_2}\) couple is \(0.00\text{ V}\) by definition. A positive standard reduction potential for \(\mathrm{Cu^{2+}/Cu}\) (\(E^\ominus = +0.34\text{ V}\)) means that \(\mathrm{Cu^{2+}}\) ions have a greater tendency to gain electrons and undergo reduction than \(\mathrm{H^+}\) ions.</p><p><strong>Step 2: Evaluation</strong><br/>Because \(\mathrm{Cu^{2+}}\) is reduced more readily than \(\mathrm{H^+}\), the \(\mathrm{Cu^{2+}/Cu}\) redox couple is a stronger oxidising agent (and a weaker reducing agent) than the \(\mathrm{H^+/H_2}\) couple.</p><p><strong>Step 3: Application</strong><br/>Consequently, \(\mathrm{Cu}\) cannot reduce \(\mathrm{H^+}\) ions from acids to \(\mathrm{H_2}\) gas, because the reaction \(\mathrm{Cu + 2H^+ \to Cu^{2+} + H_2}\) would have a negative \(E^\ominus_{\mathrm{cell}} = 0.00 - 0.34 = -0.34\text{ V}\), making it non-spontaneous.</p><p><strong>Step 4: Final Conclusion</strong><br/>Hence, the positive value of \(E^\ominus_{\mathrm{Cu^{2+}/Cu}}\) indicates that this redox couple is a stronger oxidising agent than \(\mathrm{H^+/H_2}\) and that \(\mathrm{Cu}\) cannot displace \(\mathrm{H_2}\) from acid.</p>]]></text></generalfeedback>
   <defaultgrade>4.0000000</defaultgrade>
   <penalty>0.2500000</penalty>
   <hidden>0</hidden>
@@ -479,25 +474,25 @@
   <answernumbering>iii</answernumbering>
   <answer fraction="-50" format="html"><text><![CDATA[<p>this redox couple is a stronger reducing agent than the \(\mathrm{H^{+} / H_{2}}\) couple.</p>]]></text></answer>
   <answer fraction="50" format="html"><text><![CDATA[<p>this redox couple is a stronger oxidising agent than \(\mathrm{H^{+} / H_{2}}\)</p>]]></text></answer>
-  <answer fraction="-50" format="html"><text><![CDATA[<p>Cu can displace \(\mathrm{H}_{2}\) from acid.</p>]]></text></answer>
-  <answer fraction="50" format="html"><text><![CDATA[<p>Cu cannot displace \(\mathrm{H}_{2}\) from acid.</p>]]></text></answer>
+  <answer fraction="-50" format="html"><text><![CDATA[<p>\(\mathrm{Cu}\) can displace \(\mathrm{H}_{2}\) from acid.</p>]]></text></answer>
+  <answer fraction="50" format="html"><text><![CDATA[<p>\(\mathrm{Cu}\) cannot displace \(\mathrm{H}_{2}\) from acid.</p>]]></text></answer>
   <tags>
     <tag><text>standard:neet_ug</text></tag>
     <tag><text>lang:en</text></tag>
     <tag><text>subject:chemistry</text></tag>
     <tag><text>class:class_12</text></tag>
     <tag><text>chapter:electrochemistry</text></tag>
-    <tag><text>typology:mcq</text></tag>
+    <tag><text>typology:multi_choice</text></tag>
     <tag><text>difficulty:medium</text></tag>
-    <tag><text>blooms:analyze</text></tag>
+    <tag><text>blooms:understand</text></tag>
     <tag><text>media:text</text></tag>
-    <tag><text>multiconcept:false</text></tag>
+    <tag><text>multiconcept:true</text></tag>
   </tags>
 </question>
 <question type="multichoice">
-  <name><text>NEET_UG_CHEMISTRY_ELECTROCHEMISTRY_MCQ_Q19 - Electrode reactions during electrolysis of aqueous sulphuric acid</text></name>
+  <name><text>NCERT_EXEMPLAR_CHEMISTRY_ELECTROCHEMISTRY_MCQII_Q19 - Electrolysis of dilute and concentrated sulphuric acid</text></name>
   <questiontext format="html"><text><![CDATA[<p>\(E_{\mathrm{Cell}}^{\ominus}\) for some half cell reactions are given below. On the basis of these mark the correct answer.</p><p>(a) \(\mathrm{H}^{+}(\mathrm{aq}) + \mathrm{e}^{-}\longrightarrow \frac{1}{2}\mathrm{H}_{2}(\mathrm{g}); \quad E_{\mathrm{Cell}}^{\ominus} = 0.00\mathrm{V}\)</p><p>(b) \(2\mathrm{H}_{2}\mathrm{O}(\mathrm{l}) \longrightarrow \mathrm{O}_{2}(\mathrm{g}) + 4\mathrm{H}^{+}(\mathrm{aq}) + 4\mathrm{e}^{-}; \quad E_{\mathrm{Cell}}^{\ominus} = 1.23\mathrm{V}\)</p><p>(c) \(2\mathrm{SO}_{4}^{2-}(\mathrm{aq}) \longrightarrow \mathrm{S}_{2}\mathrm{O}_{8}^{2-}(\mathrm{aq}) + 2\mathrm{e}^{-}; \quad E_{\mathrm{Cell}}^{\ominus} = 1.96\mathrm{V}\)</p>]]></text></questiontext>
-  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>During the electrolysis of aqueous sulfuric acid solutions, the preferred reaction at each electrode is determined by comparing the standard electrode potentials and considering concentration conditions.</p><p><strong>Step 2: Evaluation of Cathodic Reaction</strong><br/>At the cathode, hydrogen ions are reduced: \(\mathrm{H}^+(\mathrm{aq}) + \mathrm{e}^- \longrightarrow \frac{1}{2}\mathrm{H}_2(\mathrm{g})\) with \(E^{\ominus} = 0.00\,\mathrm{V}\). In dilute sulfuric acid solution, hydrogen is continuously reduced at the cathode to evolve hydrogen gas.</p><p><strong>Step 3: Evaluation of Anodic Reaction</strong><br/>At the anode, the competing oxidation reactions are the oxidation of water (\(E^{\ominus} = 1.23\,\mathrm{V}\)) and the oxidation of sulfate ions (\(E^{\ominus} = 1.96\,\mathrm{V}\)). In dilute sulfuric acid solution, water oxidation has the lower standard potential and water is abundantly available, so water is oxidised at the anode to form oxygen gas. In concentrated sulfuric acid, sulfate ions are oxidised to peroxodisulfate (\(\mathrm{S}_2\mathrm{O}_8^{2-}\)).</p><p><strong>Step 4: Final Conclusion</strong><br/>The correct statements are that in dilute sulphuric acid solution, hydrogen will be reduced at cathode, and in dilute sulphuric acid solution, water will be oxidised at anode.</p>]]></text></generalfeedback>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>During electrolysis of aqueous \(\mathrm{H_2SO_4}\), reduction occurs at the cathode and oxidation occurs at the anode. At the anode, the species with the lower standard reduction potential is preferentially oxidised unless concentration effects alter the preference.</p><p><strong>Step 2: Evaluation</strong><br/>At the cathode, \(\mathrm{H^+}\) ions from the acid are reduced to \(\mathrm{H_2(g)}\) with \(E^\ominus = 0.00\text{ V}\):<br/>\[\mathrm{H^+(aq) + e^- \longrightarrow \frac{1}{2}H_2(g)}\]<br/>At the anode, water oxidation (\(E^\ominus = 1.23\text{ V}\)) competes with sulphate ion oxidation to peroxydisulphate \(\mathrm{S_2O_8^{2-}}\) (\(E^\ominus = 1.96\text{ V}\)).</p><p><strong>Step 3: Application</strong><br/>In dilute sulphuric acid solution, water is abundant and has the lower potential (\(1.23\text{ V} < 1.96\text{ V}\)), so water is oxidised to \(\mathrm{O_2}\) at the anode. In concentrated sulphuric acid solution, the high concentration of \(\mathrm{SO_4^{2-}}\) ions causes \(\mathrm{SO_4^{2-}}\) to be oxidised to \(\mathrm{S_2O_8^{2-}}\) (peroxydisulphate ion, not tetrathionate ion) at the anode.</p><p><strong>Step 4: Final Conclusion</strong><br/>Therefore, in dilute sulphuric acid solution, hydrogen is reduced at the cathode and water is oxidised at the anode.</p>]]></text></generalfeedback>
   <defaultgrade>4.0000000</defaultgrade>
   <penalty>0.2500000</penalty>
   <hidden>0</hidden>
@@ -514,18 +509,17 @@
     <tag><text>subject:chemistry</text></tag>
     <tag><text>class:class_12</text></tag>
     <tag><text>chapter:electrochemistry</text></tag>
-    <tag><text>typology:mcq</text></tag>
+    <tag><text>typology:multi_choice</text></tag>
     <tag><text>difficulty:medium</text></tag>
-    <tag><text>blooms:analyze</text></tag>
-    <tag><text>calculation:light</text></tag>
-    <tag><text>media:equation</text></tag>
-    <tag><text>multiconcept:false</text></tag>
+    <tag><text>blooms:apply</text></tag>
+    <tag><text>media:text</text></tag>
+    <tag><text>multiconcept:true</text></tag>
   </tags>
 </question>
 <question type="multichoice">
-  <name><text>NEET_UG_CHEMISTRY_ELECTROCHEMISTRY_MCQ_Q20 - Expressions describing equilibrium state in Daniell cell</text></name>
-  <questiontext format="html"><text><![CDATA[<p>\(E_{\mathrm{Cell}}^{\ominus} = 1.1\mathrm{V}\) for Daniel cell. Which of the following expressions are correct description of state of equilibrium in this cell?</p>]]></text></questiontext>
-  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>Standard cell potential of the Daniell cell: \(E_{\mathrm{cell}}^{\ominus} = 1.1\,\mathrm{V}\).<br/>The overall cell reaction is \(\mathrm{Zn(s)} + \mathrm{Cu}^{2+}(\mathrm{aq}) \rightleftharpoons \mathrm{Zn}^{2+}(\mathrm{aq}) + \mathrm{Cu(s)}\), involving \(n = 2\) moles of electrons.</p><p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>At electrochemical equilibrium, the cell potential is zero (\(E_{\mathrm{cell}} = 0\)), and the reaction quotient \(Q\) equals the equilibrium constant \(K_{\mathrm{c}}\).</p><p><strong>Step 3: Relevant Formulae and Principles</strong><br/>From the Nernst equation at equilibrium:<br/>\[ E_{\mathrm{cell}} = E_{\mathrm{cell}}^{\ominus} - \frac{2.303RT}{nF}\log K_{\mathrm{c}} = 0 \implies E_{\mathrm{cell}}^{\ominus} = \frac{2.303RT}{nF}\log K_{\mathrm{c}} \]</p><p><strong>Step 4: Step-by-Step Working</strong><br/>Substituting \(n = 2\) and \(E_{\mathrm{cell}}^{\ominus} = 1.1\,\mathrm{V}\) gives:<br/>\[ \frac{2.303RT}{2F}\log K_{\mathrm{c}} = 1.1 \]<br/>At standard temperature (\(298\,\mathrm{K}\)), substituting \(\frac{2.303RT}{F} \approx 0.059\,\mathrm{V}\) yields:<br/>\[ \frac{0.059}{2}\log K_{\mathrm{c}} = 1.1 \implies \log K_{\mathrm{c}} = \frac{2 \times 1.1}{0.059} = \frac{2.2}{0.059} \]</p><p><strong>Step 5: Check and Final Answer</strong><br/>Both \(\frac{2.303RT}{2F}\log K_{\mathrm{c}} = 1.1\) and \(\log K_{\mathrm{c}} = \frac{2.2}{0.059}\) are mathematically and physically correct representations of the equilibrium state.</p>]]></text></generalfeedback>
+  <name><text>NCERT_EXEMPLAR_CHEMISTRY_ELECTROCHEMISTRY_MCQII_Q20 - Equilibrium constant of Daniell cell</text></name>
+  <questiontext format="html"><text><![CDATA[<p>\(E_{\mathrm{Cell}}^{\ominus} = 1.1\text{ V}\) for Daniell cell. Which of the following expressions are correct description of state of equilibrium in this cell?</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>For the Daniell cell (\(\mathrm{Zn(s) + Cu^{2+}(aq) \rightleftharpoons Zn^{2+}(aq) + Cu(s)}\)), the standard cell potential is \(E_{\mathrm{Cell}}^\ominus = 1.1\text{ V}\) and the number of electrons transferred is \(n = 2\).</p><p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>At \(298\text{ K}\), \(\frac{2.303RT}{F} = 0.059\text{ V}\), and at chemical equilibrium, \(E_{\mathrm{Cell}} = 0\) and the reaction quotient \(Q = K_c\).</p><p><strong>Step 3: Relevant Formulae and Principles</strong><br/>From the Nernst equation at equilibrium:<br/>\[E_{\mathrm{Cell}}^\ominus = \frac{2.303RT}{nF}\log K_c\]</p><p><strong>Step 4: Step-by-Step Working</strong><br/>Substituting \(n = 2\) and \(E_{\mathrm{Cell}}^\ominus = 1.1\text{ V}\):<br/>\[\frac{2.303RT}{2F}\log K_c = 1.1\]<br/>At \(298\text{ K}\), replacing \(\frac{2.303RT}{F}\) with \(0.059\):<br/>\[\frac{0.059}{2}\log K_c = 1.1 \implies \log K_c = \frac{2 \times 1.1}{0.059} = \frac{2.2}{0.059}\]</p><p><strong>Step 5: Check and Final Answer</strong><br/>Both \(\frac{2.303RT}{2F}\log K_{\mathrm{c}} = 1.1\) and \(\log K_{\mathrm{c}} = \frac{2.2}{0.059}\) are correct descriptions of the equilibrium state in the Daniell cell.</p>]]></text></generalfeedback>
   <defaultgrade>4.0000000</defaultgrade>
   <penalty>0.2500000</penalty>
   <hidden>0</hidden>
@@ -542,7 +536,7 @@
     <tag><text>subject:chemistry</text></tag>
     <tag><text>class:class_12</text></tag>
     <tag><text>chapter:electrochemistry</text></tag>
-    <tag><text>typology:mcq</text></tag>
+    <tag><text>typology:multi_choice</text></tag>
     <tag><text>difficulty:medium</text></tag>
     <tag><text>blooms:apply</text></tag>
     <tag><text>calculation:light</text></tag>
@@ -551,9 +545,9 @@
   </tags>
 </question>
 <question type="multichoice">
-  <name><text>NEET_UG_CHEMISTRY_ELECTROCHEMISTRY_MCQ_Q21 - Factors governing conductivity of electrolytic solutions</text></name>
+  <name><text>NCERT_EXEMPLAR_CHEMISTRY_ELECTROCHEMISTRY_MCQII_Q21 - Factors affecting conductivity of electrolytic solution</text></name>
   <questiontext format="html"><text><![CDATA[<p>Conductivity of an electrolytic solution depends on</p>]]></text></questiontext>
-  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>Electrolytic conductivity (specific conductance, \(\kappa\)) is the conductance of a unit cube of solution. It is determined by the number of ions per unit volume and their mobility through the solution.</p><p><strong>Step 2: Evaluation of Intrinsic Solution Factors</strong><br/>Conductivity depends strongly on:<br/>1. The nature of the electrolyte: Strong electrolytes dissociate completely into ions, whereas weak electrolytes dissociate partially. The charge and radius of the ions also dictate their mobility.<br/>2. The concentration of the electrolyte: Conductivity decreases with dilution because the number of charge-carrying ions per unit volume decreases.</p><p><strong>Step 3: Evaluation of Instrumental Geometry</strong><br/>Parameters such as the distance between the electrodes or the power of the external alternating current source affect total measured resistance and cell constant, but they do not alter the intrinsic specific conductivity of the solution.</p><p><strong>Step 4: Final Conclusion</strong><br/>Conductivity depends on the nature of electrolyte and the concentration of electrolyte.</p>]]></text></generalfeedback>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>Conductivity (\(\kappa\)) is the conductance of a unit volume (\(1\text{ cm}^3\) or \(1\text{ m}^3\)) of an electrolytic solution and is an intrinsic property of the solution.</p><p><strong>Step 2: Evaluation</strong><br/>Conductivity depends on the nature of the electrolyte (strong vs. weak electrolyte, charge and size of ions, and solvation), the concentration of the electrolyte (number of ions per unit volume), the nature of the solvent and its viscosity, and the temperature. It does not depend on the power of the AC source or the distance between the electrodes (which affects conductance \(G\), not conductivity \(\kappa\)).</p><p><strong>Step 3: Final Conclusion</strong><br/>Thus, the conductivity of an electrolytic solution depends on the nature of the electrolyte and the concentration of the electrolyte.</p>]]></text></generalfeedback>
   <defaultgrade>4.0000000</defaultgrade>
   <penalty>0.2500000</penalty>
   <hidden>0</hidden>
@@ -570,17 +564,17 @@
     <tag><text>subject:chemistry</text></tag>
     <tag><text>class:class_12</text></tag>
     <tag><text>chapter:electrochemistry</text></tag>
-    <tag><text>typology:mcq</text></tag>
+    <tag><text>typology:multi_choice</text></tag>
     <tag><text>difficulty:easy</text></tag>
-    <tag><text>blooms:remember</text></tag>
+    <tag><text>blooms:understand</text></tag>
     <tag><text>media:text</text></tag>
     <tag><text>multiconcept:false</text></tag>
   </tags>
 </question>
 <question type="multichoice">
-  <name><text>NEET_UG_CHEMISTRY_ELECTROCHEMISTRY_MCQ_Q22 - Expressions for limiting molar conductivity of water</text></name>
+  <name><text>NCERT_EXEMPLAR_CHEMISTRY_ELECTROCHEMISTRY_MCQII_Q22 - Limiting molar conductivity of water</text></name>
   <questiontext format="html"><text><![CDATA[<p>\(\Lambda_{m}^{0}\mathrm{H}_{2}\mathrm{O}\) is equal to</p>]]></text></questiontext>
-  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>According to Kohlrausch's law of independent migration of ions, the limiting molar conductivity of water is the sum of the limiting molar conductivities of its constituent ions:<br/>\[ \Lambda_{m}^{0}(\mathrm{H}_2\mathrm{O}) = \lambda_{\mathrm{H}^+}^{0} + \lambda_{\mathrm{OH}^-}^{0} \]</p><p><strong>Step 2: Evaluation of Strong Electrolyte Pairs</strong><br/>Because water is an extremely weak electrolyte, its limiting molar conductivity is evaluated using combinations of completely dissociated strong electrolytes.<br/>Testing the combination of hydrochloric acid, sodium hydroxide, and sodium chloride:<br/>\[ \Lambda_{m(\mathrm{HCl})}^{0} + \Lambda_{m(\mathrm{NaOH})}^{0} - \Lambda_{m(\mathrm{NaCl})}^{0} = (\lambda_{\mathrm{H}^+}^{0} + \lambda_{\mathrm{Cl}^-}^{0}) + (\lambda_{\mathrm{Na}^+}^{0} + \lambda_{\mathrm{OH}^-}^{0}) - (\lambda_{\mathrm{Na}^+}^{0} + \lambda_{\mathrm{Cl}^-}^{0}) = \lambda_{\mathrm{H}^+}^{0} + \lambda_{\mathrm{OH}^-}^{0} = \Lambda_{m}^{0}(\mathrm{H}_2\mathrm{O}) \]</p><p><strong>Step 3: Evaluation of Nitric Acid Combination</strong><br/>Testing the combination of nitric acid, sodium hydroxide, and sodium nitrate:<br/>\[ \Lambda_{(\mathrm{HNO}_3)}^0 + \Lambda_{m(\mathrm{NaOH})}^0 - \Lambda_{m(\mathrm{NaNO}_3)}^0 = (\lambda_{\mathrm{H}^+}^{0} + \lambda_{\mathrm{NO}_3^-}^{0}) + (\lambda_{\mathrm{Na}^+}^{0} + \lambda_{\mathrm{OH}^-}^{0}) - (\lambda_{\mathrm{Na}^+}^{0} + \lambda_{\mathrm{NO}_3^-}^{0}) = \lambda_{\mathrm{H}^+}^{0} + \lambda_{\mathrm{OH}^-}^{0} = \Lambda_{m}^{0}(\mathrm{H}_2\mathrm{O}) \]</p><p><strong>Step 4: Evaluation of Weak Electrolyte Combinations</strong><br/>Combinations involving ammonium hydroxide (\(\mathrm{NH}_4\mathrm{OH}\)) do not provide an independent means of determining the value because ammonium hydroxide is itself a weak electrolyte whose limiting molar conductivity cannot be measured directly by extrapolation.</p><p><strong>Step 5: Final Conclusion</strong><br/>The valid expressions for the limiting molar conductivity of water are \(\Lambda_{m(\mathrm{HCl})}^{0} + \Lambda_{m(\mathrm{NaOH})}^{0} - \Lambda_{m(\mathrm{NaCl})}^{0}\) and \(\Lambda_{(\mathrm{HNO}_3)}^0 + \Lambda_{m(\mathrm{NaOH})}^0 - \Lambda_{m(\mathrm{NaNO}_3)}^0\).</p>]]></text></generalfeedback>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>We need to determine which combinations of limiting molar conductivities of strong electrolytes equal \(\Lambda_m^0(\mathrm{H_2O})\).</p><p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>By Kohlrausch's law of independent migration of ions, \(\Lambda_m^0(\mathrm{H_2O}) = \lambda^0(\mathrm{H^+}) + \lambda^0(\mathrm{OH^-})\), and strong electrolytes are used to determine the limiting molar conductivity of weak electrolytes like \(\mathrm{H_2O}\).</p><p><strong>Step 3: Relevant Formulae and Principles</strong><br/>For any electrolyte \(A_x B_y\), \(\Lambda_m^0(A_x B_y) = x\lambda^0(A^{y+}) + y\lambda^0(B^{x-})\).</p><p><strong>Step 4: Step-by-Step Working</strong><br/>1. Using \(\mathrm{HCl}\), \(\mathrm{NaOH}\), and \(\mathrm{NaCl}\):<br/>\[\Lambda_{m(\mathrm{HCl})}^0 + \Lambda_{m(\mathrm{NaOH})}^0 - \Lambda_{m(\mathrm{NaCl})}^0 = \left[\lambda^0(\mathrm{H^+}) + \lambda^0(\mathrm{Cl^-})\right] + \left[\lambda^0(\mathrm{Na^+}) + \lambda^0(\mathrm{OH^-})\right] - \left[\lambda^0(\mathrm{Na^+}) + \lambda^0(\mathrm{Cl^-})\right] = \lambda^0(\mathrm{H^+}) + \lambda^0(\mathrm{OH^-}) = \Lambda_m^0(\mathrm{H_2O})\]<br/>2. Using \(\mathrm{HNO_3}\), \(\mathrm{NaOH}\), and \(\mathrm{NaNO_3}\):<br/>\[\Lambda_{(\mathrm{HNO_3})}^0 + \Lambda_{m(\mathrm{NaOH})}^0 - \Lambda_{m(\mathrm{NaNO_3})}^0 = \left[\lambda^0(\mathrm{H^+}) + \lambda^0(\mathrm{NO_3^-})\right] + \left[\lambda^0(\mathrm{Na^+}) + \lambda^0(\mathrm{OH^-})\right] - \left[\lambda^0(\mathrm{Na^+}) + \lambda^0(\mathrm{NO_3^-})\right] = \lambda^0(\mathrm{H^+}) + \lambda^0(\mathrm{OH^-}) = \Lambda_m^0(\mathrm{H_2O})\]<br/>(Note: \(\Lambda_{m(\mathrm{HNO_3})}^0 + \Lambda_{m(\mathrm{NaNO_3})}^0 - \Lambda_{m(\mathrm{NaOH})}^0\) does not cancel \(\mathrm{NO_3^-}\) or give \(\mathrm{OH^-}\), while \(\mathrm{NH_4OH}\) is itself a weak electrolyte whose \(\Lambda_m^0\) cannot be obtained directly by extrapolation.)</p><p><strong>Step 5: Check and Final Answer</strong><br/>Therefore, \(\Lambda_{m}^{0}\mathrm{H}_{2}\mathrm{O}\) is equal to \(\Lambda_{m(\mathrm{HCl})}^{0} + \Lambda_{m(\mathrm{NaOH})}^{0} - \Lambda_{m(\mathrm{NaCl})}^{0}\) and \(\Lambda_{(\mathrm{HNO}_3)}^0 + \Lambda_{m(\mathrm{NaOH})}^0 - \Lambda_{m(\mathrm{NaNO}_3)}^0\).</p>]]></text></generalfeedback>
   <defaultgrade>4.0000000</defaultgrade>
   <penalty>0.2500000</penalty>
   <hidden>0</hidden>
@@ -597,7 +591,7 @@
     <tag><text>subject:chemistry</text></tag>
     <tag><text>class:class_12</text></tag>
     <tag><text>chapter:electrochemistry</text></tag>
-    <tag><text>typology:mcq</text></tag>
+    <tag><text>typology:multi_choice</text></tag>
     <tag><text>difficulty:medium</text></tag>
     <tag><text>blooms:apply</text></tag>
     <tag><text>calculation:light</text></tag>

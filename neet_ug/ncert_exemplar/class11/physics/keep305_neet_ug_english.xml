@@ -1,161 +1,78 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <quiz>
 <question type="multichoice">
-  <name><text>NEET_UG_PHYSICS_MCQI_LAWS_OF_MOTION_MCQ_Q01 - Characteristics of uniform translatory motion</text></name>
-  <questiontext format="html">
-    <text><![CDATA[<p>A ball is travelling with uniform translatory motion. This means that</p>]]></text>
-  </questiontext>
-  <generalfeedback format="html">
-    <text><![CDATA[
-      <p><strong>Step 1: Conceptual Principle</strong><br/>
-      Translatory motion is characterized by every particle of a rigid body shifting along parallel trajectories such that any line segment connecting two points in the body remains parallel to its initial orientation at all times.</p>
-      <p><strong>Step 2: Condition for Uniformity</strong><br/>
-      For translatory motion to be uniform, the velocity of the body must remain constant in both magnitude and direction over time. This requires the net acceleration of the object to be zero.</p>
-      <p><strong>Step 3: Rotational Exclusion</strong><br/>
-      If the body were spinning about an axis or rotating about its centre of mass, different points on the body would possess different tangential velocities. Pure translatory motion precludes any rotation or spin, thereby ensuring that all constituent particles of the object possess identical linear velocity vectors at every instant.</p>
-      <p><strong>Step 4: Check and Final Answer</strong><br/>
-      A state of rest is merely a special static case with zero speed, whereas uniform translatory motion permits non-zero constant velocity. A circular path requires centripetal acceleration, which constantly changes velocity direction. Thus, uniform translatory motion requires all parts of the ball to share an identical, constant velocity vector.<br/>
-      Final conceptual result: all parts of the ball have the same velocity (magnitude and direction) and the velocity is constant.</p>
-    ]]></text>
-  </generalfeedback>
+  <name><text>PHYSICS_MCQI_LAWSOFMOTION_Q5_1 - Meaning of uniform translatory motion</text></name>
+  <questiontext format="html"><text><![CDATA[<p><strong>5.1</strong> A ball is travelling with uniform translatory motion. This means that</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>Translatory motion is the motion of a body in which all its constituent particles move through the same displacement in the same interval of time without any rotation about an axis. Uniform motion means that the velocity remains constant in both magnitude and direction.</p><p><strong>Step 2: Evaluation</strong><br/>For a ball undergoing uniform translatory motion, it cannot be at rest unless its constant velocity is zero, nor can it move along a circular path (where direction continuously changes) or spin about its centre (which introduces rotational motion where different parts have different velocities).</p><p><strong>Step 3: Application</strong><br/>Therefore, every part of the ball must have the exact same velocity vector—both in magnitude and in direction—and this velocity must remain constant over time.</p><p><strong>Step 4: Final Conclusion</strong><br/>Uniform translatory motion means that all parts of the ball have the same velocity (magnitude and direction) and the velocity is constant.</p>]]></text></generalfeedback>
   <defaultgrade>4.0000000</defaultgrade>
   <penalty>0.2500000</penalty>
   <hidden>0</hidden>
   <single>true</single>
   <shuffleanswers>true</shuffleanswers>
   <answernumbering>abc</answernumbering>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>it is at rest.</p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>the path can be a straight line or circular and the ball travels with uniform speed.</p>]]></text>
-  </answer>
-  <answer fraction="100" format="html">
-    <text><![CDATA[<p>all parts of the ball have the same velocity (magnitude and direction) and the velocity is constant.</p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>the centre of the ball moves with constant velocity and the ball spins about its centre uniformly.</p>]]></text>
-  </answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>it is at rest.</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>the path can be a straight line or circular and the ball travels with uniform speed.</p>]]></text></answer>
+  <answer fraction="100" format="html"><text><![CDATA[<p>all parts of the ball have the same velocity (magnitude and direction) and the velocity is constant.</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>the centre of the ball moves with constant velocity and the ball spins about its centre uniformly.</p>]]></text></answer>
   <tags>
     <tag><text>standard:neet_ug</text></tag>
     <tag><text>lang:en</text></tag>
     <tag><text>subject:physics</text></tag>
     <tag><text>section:mcq_i</text></tag>
-    <tag><text>class:11</text></tag>
-    <tag><text>topic:translatory_motion</text></tag>
-    <tag><text>chapter:laws_of_motion</text></tag>
-    <tag><text>typology:mcq</text></tag>
-    <tag><text>difficulty:easy</text></tag>
-    <tag><text>blooms:remember</text></tag>
-    <tag><text>calculation:light</text></tag>
-    <tag><text>media:text</text></tag>
-    <tag><text>multiconcept:false</text></tag>
-  </tags>
-</question>
-<question type="multichoice">
-  <name><text>NEET_UG_PHYSICS_MCQI_LAWS_OF_MOTION_MCQ_Q02 - Conditions for uniform velocity of metre scale</text></name>
-  <questiontext format="html">
-    <text><![CDATA[<p>A metre scale is moving with uniform velocity. This implies</p>]]></text>
-  </questiontext>
-  <generalfeedback format="html">
-    <text><![CDATA[
-      <p><strong>Step 1: Conceptual Principle</strong><br/>
-      Uniform velocity means that the linear velocity vector \(\mathbf{v}\) of the centre of mass of the metre scale is constant in both magnitude and direction, and the scale does not rotate.</p>
-      <p><strong>Step 2: Linear Equilibrium</strong><br/>
-      According to Newton's second law for a rigid body, the net external force is proportional to the linear acceleration of its centre of mass:
-      \[\mathbf{F}_{\text{net}} = m\frac{d\mathbf{v}}{dt}\]
-      Because the velocity is uniform, \(\frac{d\mathbf{v}}{dt} = \mathbf{0}\), which implies the resultant external force acting on the scale must be zero.</p>
-      <p><strong>Step 3: Rotational Equilibrium</strong><br/>
-      If a non-zero net torque were acting about the centre of mass, the metre scale would experience angular acceleration according to \(\boldsymbol{\tau}_{\text{net}} = I\boldsymbol{\alpha}\). This would introduce rotation, causing the linear velocities of different points along the scale to vary and change continuously with time. Thus, to maintain uniform velocity without rotation, the net torque acting about the centre of mass must also be zero.</p>
-      <p><strong>Step 4: Check and Final Answer</strong><br/>
-      Both translational equilibrium and rotational equilibrium must simultaneously hold for an extended body moving with steady linear velocity.<br/>
-      Final conceptual result: the force acting on the scale is zero and the torque acting about centre of mass of the scale is also zero.</p>
-    ]]></text>
-  </generalfeedback>
-  <defaultgrade>4.0000000</defaultgrade>
-  <penalty>0.2500000</penalty>
-  <hidden>0</hidden>
-  <single>true</single>
-  <shuffleanswers>true</shuffleanswers>
-  <answernumbering>abc</answernumbering>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>the force acting on the scale is zero, but a torque about the centre of mass can act on the scale.</p>]]></text>
-  </answer>
-  <answer fraction="100" format="html">
-    <text><![CDATA[<p>the force acting on the scale is zero and the torque acting about centre of mass of the scale is also zero.</p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>the total force acting on it need not be zero but the torque on it is zero.</p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>neither the force nor the torque need to be zero.</p>]]></text>
-  </answer>
-  <tags>
-    <tag><text>standard:neet_ug</text></tag>
-    <tag><text>lang:en</text></tag>
-    <tag><text>subject:physics</text></tag>
-    <tag><text>section:mcq_i</text></tag>
-    <tag><text>class:11</text></tag>
-    <tag><text>topic:equilibrium_of_rigid_bodies</text></tag>
     <tag><text>chapter:laws_of_motion</text></tag>
     <tag><text>typology:mcq</text></tag>
     <tag><text>difficulty:easy</text></tag>
     <tag><text>blooms:understand</text></tag>
-    <tag><text>calculation:light</text></tag>
     <tag><text>media:text</text></tag>
     <tag><text>multiconcept:false</text></tag>
   </tags>
 </question>
 <question type="multichoice">
-  <name><text>NEET_UG_PHYSICS_MCQI_LAWS_OF_MOTION_MCQ_Q03 - Change in momentum of cricket ball</text></name>
-  <questiontext format="html">
-    <text><![CDATA[<p>A cricket ball of mass \(150\,\text{g}\) has an initial velocity \(\mathbf{u} = (3\hat{\mathbf{i}} + 4\hat{\mathbf{j}})\,\text{m s}^{-1}\) and a final velocity \(\mathbf{v} = -(3\hat{\mathbf{i}} + 4\hat{\mathbf{j}})\,\text{m s}^{-1}\) after being hit. The change in momentum (final momentum \(-\) initial momentum) is (in \(\text{kg m s}^{-1}\))</p>]]></text>
-  </questiontext>
-  <generalfeedback format="html">
-    <text><![CDATA[
-      <p><strong>Step 1: Given Data and Conditions</strong><br/>
-      Mass of cricket ball: \(m = 150\,\text{g} = 0.15\,\text{kg}\).<br/>
-      Initial velocity: \(\mathbf{u} = (3\hat{\mathbf{i}} + 4\hat{\mathbf{j}})\,\text{m s}^{-1}\).<br/>
-      Final velocity: \(\mathbf{v} = -(3\hat{\mathbf{i}} + 4\hat{\mathbf{j}})\,\text{m s}^{-1} = (-3\hat{\mathbf{i}} - 4\hat{\mathbf{j}})\,\text{m s}^{-1}\).</p>
-      <p><strong>Step 2: Relevant Formulae and Principles</strong><br/>
-      Change in linear momentum is defined by:
-      \[\Delta \mathbf{p} = \mathbf{p}_f - \mathbf{p}_i = m(\mathbf{v} - \mathbf{u})\]</p>
-      <p><strong>Step 3: Step-by-Step Working</strong><br/>
-      Subtract the initial velocity vector from the final velocity vector:
-      \[\mathbf{v} - \mathbf{u} = (-3\hat{\mathbf{i}} - 4\hat{\mathbf{j}}) - (3\hat{\mathbf{i}} + 4\hat{\mathbf{j}}) = -6\hat{\mathbf{i}} - 8\hat{\mathbf{j}}\,\text{m s}^{-1}\]
-      Multiply by the mass in kilograms:
-      \[\Delta \mathbf{p} = 0.15 \times (-6\hat{\mathbf{i}} - 8\hat{\mathbf{j}}) = -(0.9\hat{\mathbf{i}} + 1.2\hat{\mathbf{j}})\,\text{kg m s}^{-1}\]
-      </p>
-      <p><strong>Step 4: Check and Final Answer</strong><br/>
-      Both rectangular components reverse completely, doubling in the negative direction, yielding \(-0.9\hat{\mathbf{i}} - 1.2\hat{\mathbf{j}}\,\text{kg m s}^{-1}\).<br/>
-      Final conceptual result: \(-(0.9\hat{\mathbf{i}} + 1.2\hat{\mathbf{j}})\).</p>
-    ]]></text>
-  </generalfeedback>
+  <name><text>PHYSICS_MCQI_LAWSOFMOTION_Q5_2 - Force and torque for uniform velocity</text></name>
+  <questiontext format="html"><text><![CDATA[<p><strong>5.2</strong> A metre scale is moving with uniform velocity. This implies</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>According to Newton's second law of motion, the net external force \(\mathbf{F}_{\text{net}}\) acting on a body of mass \(m\) is proportional to its linear acceleration \(\mathbf{a}\): \(\mathbf{F}_{\text{net}} = m\mathbf{a}\). Similarly, for rotational motion about the centre of mass, the net external torque \(\boldsymbol{\tau}_{\text{net}}\) is given by \(\boldsymbol{\tau}_{\text{net}} = I\boldsymbol{\alpha}\), where \(I\) is the moment of inertia and \(\boldsymbol{\alpha}\) is the angular acceleration.</p><p><strong>Step 2: Evaluation</strong><br/>Since the metre scale is moving with uniform velocity, every particle of the scale has constant linear velocity. Thus, its linear acceleration is zero (\(\mathbf{a} = 0\)) and it has no angular acceleration (\(\boldsymbol{\alpha} = 0\)).</p><p><strong>Step 3: Application</strong><br/>Substituting \(\mathbf{a} = 0\) and \(\boldsymbol{\alpha} = 0\) into the equations of motion gives \(\mathbf{F}_{\text{net}} = 0\) and \(\boldsymbol{\tau}_{\text{net}} = 0\).</p><p><strong>Step 4: Final Conclusion</strong><br/>The net force acting on the scale is zero and the net torque acting about the centre of mass of the scale is also zero.</p>]]></text></generalfeedback>
   <defaultgrade>4.0000000</defaultgrade>
   <penalty>0.2500000</penalty>
   <hidden>0</hidden>
   <single>true</single>
   <shuffleanswers>true</shuffleanswers>
   <answernumbering>abc</answernumbering>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>zero</p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>\(-(0.45\hat{\mathbf{i}} + 0.6\hat{\mathbf{j}})\)</p>]]></text>
-  </answer>
-  <answer fraction="100" format="html">
-    <text><![CDATA[<p>\(-(0.9\hat{\mathbf{i}} + 1.2\hat{\mathbf{j}})\)</p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>\(-5(\hat{\mathbf{i}} + \hat{\mathbf{j}})\)</p>]]></text>
-  </answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>the force acting on the scale is zero, but a torque about the centre of mass can act on the scale.</p>]]></text></answer>
+  <answer fraction="100" format="html"><text><![CDATA[<p>the force acting on the scale is zero and the torque acting about centre of mass of the scale is also zero.</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>the total force acting on it need not be zero but the torque on it is zero.</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>neither the force nor the torque need to be zero.</p>]]></text></answer>
   <tags>
     <tag><text>standard:neet_ug</text></tag>
     <tag><text>lang:en</text></tag>
     <tag><text>subject:physics</text></tag>
     <tag><text>section:mcq_i</text></tag>
-    <tag><text>class:11</text></tag>
-    <tag><text>topic:momentum</text></tag>
+    <tag><text>chapter:laws_of_motion</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:easy</text></tag>
+    <tag><text>blooms:understand</text></tag>
+    <tag><text>media:text</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+<question type="multichoice">
+  <name><text>PHYSICS_MCQI_LAWSOFMOTION_Q5_3 - Change in momentum of cricket ball</text></name>
+  <questiontext format="html"><text><![CDATA[<p><strong>5.3</strong> A cricket ball of mass \(150\text{ g}\) has an initial velocity \(\mathbf{u} = (3\hat{\mathbf{i}} + 4\hat{\mathbf{j}})\,\text{m s}^{-1}\) and a final velocity \(\mathbf{v} = -(3\hat{\mathbf{i}} + 4\hat{\mathbf{j}})\,\text{m s}^{-1}\) after being hit. The change in momentum (final momentum-initial momentum) is (in \(\text{kg m s}^{-1}\))</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>Mass of the cricket ball, \(m = 150\text{ g} = 0.15\text{ kg}\).<br/>Initial velocity, \(\mathbf{u} = (3\hat{\mathbf{i}} + 4\hat{\mathbf{j}})\,\text{m s}^{-1}\).<br/>Final velocity, \(\mathbf{v} = -(3\hat{\mathbf{i}} + 4\hat{\mathbf{j}})\,\text{m s}^{-1}\).</p><p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>Unit vectors \(\hat{\mathbf{i}}\) and \(\hat{\mathbf{j}}\) represent mutually perpendicular orthogonal axes in the plane of motion.</p><p><strong>Step 3: Relevant Formulae and Principles</strong><br/>Linear momentum is \(\mathbf{p} = m\mathbf{v}\). The change in momentum is \(\Delta \mathbf{p} = \mathbf{p}_f - \mathbf{p}_i = m(\mathbf{v} - \mathbf{u})\).</p><p><strong>Step 4: Step-by-Step Working</strong><br/>\[\Delta \mathbf{p} = 0.15\text{ kg} \times \left[-(3\hat{\mathbf{i}} + 4\hat{\mathbf{j}}) - (3\hat{\mathbf{i}} + 4\hat{\mathbf{j}})\right]\,\text{m s}^{-1}\]<br/>\[\Delta \mathbf{p} = 0.15 \times (-6\hat{\mathbf{i}} - 8\hat{\mathbf{j}})\,\text{kg m s}^{-1}\]<br/>\[\Delta \mathbf{p} = -(0.9\hat{\mathbf{i}} + 1.2\hat{\mathbf{j}})\,\text{kg m s}^{-1}\]</p><p><strong>Step 5: Check and Final Answer</strong><br/>Since \(\mathbf{v} = -\mathbf{u}\), the change in momentum is \(-2m\mathbf{u}\), which matches \(-2(0.15)(3\hat{\mathbf{i}} + 4\hat{\mathbf{j}}) = -(0.9\hat{\mathbf{i}} + 1.2\hat{\mathbf{j}})\,\text{kg m s}^{-1}\). The units are \(\text{kg m s}^{-1}\).<br/>Final Answer: \(-(0.9\hat{\mathbf{i}} + 1.2\hat{\mathbf{j}})\,\text{kg m s}^{-1}\).</p>]]></text></generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="0" format="html"><text><![CDATA[<p>zero</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>\(-(0.45\hat{\mathbf{i}} + 0.6\hat{\mathbf{j}})\)</p>]]></text></answer>
+  <answer fraction="100" format="html"><text><![CDATA[<p>\(-(0.9\hat{\mathbf{i}} + 1.2\hat{\mathbf{j}})\)</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>\(-5(\hat{\mathbf{i}} + \hat{\mathbf{j}})\)</p>]]></text></answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>section:mcq_i</text></tag>
     <tag><text>chapter:laws_of_motion</text></tag>
     <tag><text>typology:mcq</text></tag>
     <tag><text>difficulty:easy</text></tag>
@@ -166,53 +83,24 @@
   </tags>
 </question>
 <question type="multichoice">
-  <name><text>NEET_UG_PHYSICS_MCQI_LAWS_OF_MOTION_MCQ_Q04 - Magnitude of momentum transferred to cricket ball</text></name>
-  <questiontext format="html">
-    <text><![CDATA[<p>In the previous problem (5.3), the magnitude of the momentum transferred during the hit is</p>]]></text>
-  </questiontext>
-  <generalfeedback format="html">
-    <text><![CDATA[
-      <p><strong>Step 1: Given Data and Conditions</strong><br/>
-      From the previous calculation, the vector change in momentum of the cricket ball is:
-      \[\Delta \mathbf{p} = -(0.9\hat{\mathbf{i}} + 1.2\hat{\mathbf{j}})\,\text{kg m s}^{-1}\]</p>
-      <p><strong>Step 2: Relevant Formulae and Principles</strong><br/>
-      The magnitude of a two-dimensional vector \(\mathbf{A} = A_x\hat{\mathbf{i}} + A_y\hat{\mathbf{j}}\) is evaluated as:
-      \[|\mathbf{A}| = \sqrt{A_x^2 + A_y^2}\]</p>
-      <p><strong>Step 3: Step-by-Step Working</strong><br/>
-      Substitute the components of \(\Delta \mathbf{p}\):
-      \[|\Delta \mathbf{p}| = \sqrt{(-0.9)^2 + (-1.2)^2}\,\text{kg m s}^{-1}\]
-      \[|\Delta \mathbf{p}| = \sqrt{0.81 + 1.44} = \sqrt{2.25} = 1.5\,\text{kg m s}^{-1}\]
-      </p>
-      <p><strong>Step 4: Check and Final Answer</strong><br/>
-      The magnitude is strictly non-negative and equals \(1.5\,\text{kg m s}^{-1}\), which correctly reflects the momentum transferred to the ball during the impact.<br/>
-      Final conceptual result: \(1.5\,\text{kg m s}^{-1}\).</p>
-    ]]></text>
-  </generalfeedback>
+  <name><text>PHYSICS_MCQI_LAWSOFMOTION_Q5_4 - Magnitude of momentum transferred during hit</text></name>
+  <questiontext format="html"><text><![CDATA[<p><strong>5.4</strong> In the previous problem (5.3), the magnitude of the momentum transferred during the hit is</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>From the previous problem, the ball has mass \(m = 150\text{ g} = 0.15\text{ kg}\), initial velocity \(\mathbf{u} = (3\hat{\mathbf{i}} + 4\hat{\mathbf{j}})\,\text{m s}^{-1}\), and final velocity \(\mathbf{v} = -(3\hat{\mathbf{i}} + 4\hat{\mathbf{j}})\,\text{m s}^{-1}\). The change in momentum is \(\Delta \mathbf{p} = -(0.9\hat{\mathbf{i}} + 1.2\hat{\mathbf{j}})\,\text{kg m s}^{-1}\).</p><p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>The momentum transferred has magnitude equal to the Euclidean norm of the vector \(\Delta \mathbf{p}\).</p><p><strong>Step 3: Relevant Formulae and Principles</strong><br/>For a vector \(\Delta \mathbf{p} = \Delta p_x \hat{\mathbf{i}} + \Delta p_y \hat{\mathbf{j}}\), its magnitude is \(|\Delta \mathbf{p}| = \sqrt{(\Delta p_x)^2 + (\Delta p_y)^2}\).</p><p><strong>Step 4: Step-by-Step Working</strong><br/>\[|\Delta \mathbf{p}| = \sqrt{(-0.9)^2 + (-1.2)^2}\,\text{kg m s}^{-1}\]<br/>\[|\Delta \mathbf{p}| = \sqrt{0.81 + 1.44}\,\text{kg m s}^{-1} = \sqrt{2.25}\,\text{kg m s}^{-1} = 1.5\,\text{kg m s}^{-1}\]</p><p><strong>Step 5: Check and Final Answer</strong><br/>Alternatively, the speed is \(\sqrt{3^2 + 4^2} = 5\,\text{m s}^{-1}\), and since velocity reverses completely, \(|\Delta \mathbf{p}| = 2mv = 2 \times 0.15 \times 5 = 1.5\,\text{kg m s}^{-1}\).<br/>Final Answer: \(1.5\,\text{kg m s}^{-1}\).</p>]]></text></generalfeedback>
   <defaultgrade>4.0000000</defaultgrade>
   <penalty>0.2500000</penalty>
   <hidden>0</hidden>
   <single>true</single>
   <shuffleanswers>true</shuffleanswers>
   <answernumbering>abc</answernumbering>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>Zero</p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>\(0.75\,\text{kg m s}^{-1}\)</p>]]></text>
-  </answer>
-  <answer fraction="100" format="html">
-    <text><![CDATA[<p>\(1.5\,\text{kg m s}^{-1}\)</p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>\(14\,\text{kg m s}^{-1}\)</p>]]></text>
-  </answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>Zero</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>\(0.75\,\text{kg m s}^{-1}\)</p>]]></text></answer>
+  <answer fraction="100" format="html"><text><![CDATA[<p>\(1.5\,\text{kg m s}^{-1}\)</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>\(14\,\text{kg m s}^{-1}\)</p>]]></text></answer>
   <tags>
     <tag><text>standard:neet_ug</text></tag>
     <tag><text>lang:en</text></tag>
     <tag><text>subject:physics</text></tag>
     <tag><text>section:mcq_i</text></tag>
-    <tag><text>class:11</text></tag>
-    <tag><text>topic:momentum</text></tag>
     <tag><text>chapter:laws_of_motion</text></tag>
     <tag><text>typology:mcq</text></tag>
     <tag><text>difficulty:easy</text></tag>
@@ -223,109 +111,106 @@
   </tags>
 </question>
 <question type="multichoice">
-  <name><text>NEET_UG_PHYSICS_MCQI_LAWS_OF_MOTION_MCQ_Q05 - Derivation of momentum conservation from Newtons laws</text></name>
-  <questiontext format="html">
-    <text><![CDATA[<p>Conservation of momentum in a collision between particles can be understood from</p>]]></text>
-  </questiontext>
-  <generalfeedback format="html">
-    <text><![CDATA[
-      <p><strong>Step 1: Conceptual Principle</strong><br/>
-      Consider two particles colliding during a short time interval \(\Delta t\). Let \(\mathbf{F}_{12}\) be the force exerted on particle 1 by particle 2, and \(\mathbf{F}_{21}\) be the force exerted on particle 2 by particle 1.</p>
-      <p><strong>Step 2: Role of Newton's Second Law</strong><br/>
-      Newton's second law relates the force on each particle to its rate of change of momentum:
-      \[\Delta \mathbf{p}_1 = \mathbf{F}_{12}\Delta t \quad \text{and} \quad \Delta \mathbf{p}_2 = \mathbf{F}_{21}\Delta t\]</p>
-      <p><strong>Step 3: Role of Newton's Third Law</strong><br/>
-      Newton's third law states that mutual forces between two bodies are equal in magnitude and opposite in direction:
-      \[\mathbf{F}_{12} = -\mathbf{F}_{21} \implies \mathbf{F}_{12} + \mathbf{F}_{21} = \mathbf{0}\]
-      Summing the momentum changes of both interacting bodies gives:
-      \[\Delta \mathbf{p}_1 + \Delta \mathbf{p}_2 = (\mathbf{F}_{12} + \mathbf{F}_{21})\Delta t = \mathbf{0}\]
-      This demonstrates that the total momentum of the isolated system is conserved.</p>
-      <p><strong>Step 4: Conclusion and Final Answer</strong><br/>
-      Newton's second law is required to define force in terms of momentum change, and Newton's third law is required to establish that internal collision forces cancel in pairs. Thus, both laws are collectively necessary.<br/>
-      Final conceptual result: both Newton's second and third law.</p>
-    ]]></text>
-  </generalfeedback>
+  <name><text>PHYSICS_MCQI_LAWSOFMOTION_Q5_5 - Conservation of momentum from Newton's laws</text></name>
+  <questiontext format="html"><text><![CDATA[<p><strong>5.5</strong> Conservation of momentum in a collision between particles can be understood from</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>Consider an isolated system of two colliding particles. By Newton's third law of motion, during the collision, the force \(\mathbf{F}_{12}\) exerted by the second particle on the first is equal in magnitude and opposite in direction to the force \(\mathbf{F}_{21}\) exerted by the first particle on the second: \(\mathbf{F}_{12} = -\mathbf{F}_{21}\).</p><p><strong>Step 2: Evaluation</strong><br/>By Newton's second law of motion, the force on each particle equals the rate of change of its linear momentum: \(\mathbf{F}_{12} = \frac{d\mathbf{p}_1}{dt}\) and \(\mathbf{F}_{21} = \frac{d\mathbf{p}_2}{dt}\).</p><p><strong>Step 3: Application</strong><br/>Combining both laws yields \(\frac{d\mathbf{p}_1}{dt} + \frac{d\mathbf{p}_2}{dt} = \frac{d}{dt}(\mathbf{p}_1 + \mathbf{p}_2) = 0\), which implies that the total linear momentum \(\mathbf{p}_1 + \mathbf{p}_2\) remains constant during the collision.</p><p><strong>Step 4: Final Conclusion</strong><br/>Conservation of momentum in a collision between particles can be understood from both Newton's second and third law.</p>]]></text></generalfeedback>
   <defaultgrade>4.0000000</defaultgrade>
   <penalty>0.2500000</penalty>
   <hidden>0</hidden>
   <single>true</single>
   <shuffleanswers>true</shuffleanswers>
   <answernumbering>abc</answernumbering>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>conservation of energy.</p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>Newton's first law only.</p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>Newton's second law only.</p>]]></text>
-  </answer>
-  <answer fraction="100" format="html">
-    <text><![CDATA[<p>both Newton's second and third law.</p>]]></text>
-  </answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>conservation of energy.</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>Newton's first law only.</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>Newton's second law only.</p>]]></text></answer>
+  <answer fraction="100" format="html"><text><![CDATA[<p>both Newton's second and third law.</p>]]></text></answer>
   <tags>
     <tag><text>standard:neet_ug</text></tag>
     <tag><text>lang:en</text></tag>
     <tag><text>subject:physics</text></tag>
     <tag><text>section:mcq_i</text></tag>
-    <tag><text>class:11</text></tag>
-    <tag><text>topic:conservation_of_momentum</text></tag>
     <tag><text>chapter:laws_of_motion</text></tag>
     <tag><text>typology:mcq</text></tag>
     <tag><text>difficulty:easy</text></tag>
     <tag><text>blooms:understand</text></tag>
+    <tag><text>media:text</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+<question type="multichoice">
+  <name><text>PHYSICS_MCQI_LAWSOFMOTION_Q5_6 - Force on hockey player turning westward</text></name>
+  <questiontext format="html"><text><![CDATA[<p><strong>5.6</strong> A hockey player is moving northward and suddenly turns westward with the same speed to avoid an opponent. The force that acts on the player is</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>According to Newton's second law, the net external force \(\mathbf{F}\) acting on a body is in the direction of the change in momentum \(\Delta \mathbf{p} = m(\mathbf{v}_f - \mathbf{v}_i)\). Internal muscular forces cannot change the momentum of the player's centre of mass; an external horizontal force must be provided by friction between the player's shoes/skates and the ground.</p><p><strong>Step 2: Evaluation</strong><br/>Let the northward direction be \(+\hat{\mathbf{j}}\) and the eastward direction be \(+\hat{\mathbf{i}}\) (so westward is \(-\hat{\mathbf{i}}\) and southward is \(-\hat{\mathbf{j}}\)).<br/>Initial velocity: \(\mathbf{v}_i = v\hat{\mathbf{j}}\).<br/>Final velocity: \(\mathbf{v}_f = -v\hat{\mathbf{i}}\).</p><p><strong>Step 3: Application</strong><br/>The change in velocity is \(\Delta \mathbf{v} = \mathbf{v}_f - \mathbf{v}_i = -v\hat{\mathbf{i}} - v\hat{\mathbf{j}}\). Since both the westward (\(-\hat{\mathbf{i}}\)) and southward (\(-\hat{\mathbf{j}}\)) components are equal and negative, \(\Delta \mathbf{v}\) (and hence \(\Delta \mathbf{p}\) and the external force \(\mathbf{F}\)) is directed along the south-west direction. This external force is the frictional force exerted by the surface.</p><p><strong>Step 4: Final Conclusion</strong><br/>The force that acts on the player is the frictional force along south-west.</p>]]></text></generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="0" format="html"><text><![CDATA[<p>frictional force along westward.</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>muscle force along southward.</p>]]></text></answer>
+  <answer fraction="100" format="html"><text><![CDATA[<p>frictional force along south-west.</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>muscle force along south-west.</p>]]></text></answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>section:mcq_i</text></tag>
+    <tag><text>chapter:laws_of_motion</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:medium</text></tag>
+    <tag><text>blooms:apply</text></tag>
+    <tag><text>media:text</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+<question type="multichoice">
+  <name><text>PHYSICS_MCQI_LAWSOFMOTION_Q5_7 - Force acting on body from position-time law</text></name>
+  <questiontext format="html"><text><![CDATA[<p><strong>5.7</strong> A body of mass \(2\text{ kg}\) travels according to the law \(x(t) = pt + qt^2 + rt^3\) where \(p = 3\,\text{m s}^{-1}\), \(q = 4\,\text{m s}^{-2}\) and \(r = 5\,\text{m s}^{-3}\). The force acting on the body at \(t = 2\text{ seconds}\) is</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>Mass of the body, \(m = 2\text{ kg}\).<br/>Position as a function of time: \(x(t) = pt + qt^2 + rt^3\), with \(p = 3\,\text{m s}^{-1}\), \(q = 4\,\text{m s}^{-2}\), \(r = 5\,\text{m s}^{-3}\).<br/>Time instant: \(t = 2\text{ s}\).</p><p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>Motion is one-dimensional along the \(x\)-axis.</p><p><strong>Step 3: Relevant Formulae and Principles</strong><br/>Velocity \(v(t) = \frac{dx}{dt}\), acceleration \(a(t) = \frac{dv}{dt} = \frac{d^2x}{dt^2}\), and force \(F(t) = m a(t)\).</p><p><strong>Step 4: Step-by-Step Working</strong><br/>Differentiating \(x(t)\) with respect to \(t\):<br/>\[v(t) = \frac{dx}{dt} = p + 2qt + 3rt^2\]<br/>Differentiating \(v(t)\) with respect to \(t\):<br/>\[a(t) = \frac{dv}{dt} = 2q + 6rt\]<br/>At \(t = 2\text{ s}\):<br/>\[a(2) = 2(4\,\text{m s}^{-2}) + 6(5\,\text{m s}^{-3})(2\text{ s}) = 8 + 60 = 68\,\text{m s}^{-2}\]<br/>Force at \(t = 2\text{ s}\):<br/>\[F = m a(2) = 2\text{ kg} \times 68\,\text{m s}^{-2} = 136\text{ N}\]</p><p><strong>Step 5: Check and Final Answer</strong><br/>Every term in \(a(t)\) has units of \(\text{m s}^{-2}\), and \(F = ma\) has units of \(\text{kg m s}^{-2} = \text{N}\).<br/>Final Answer: \(136\text{ N}\).</p>]]></text></generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="100" format="html"><text><![CDATA[<p>\(136\text{ N}\)</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>\(134\text{ N}\)</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>\(158\text{ N}\)</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>\(68\text{ N}\)</p>]]></text></answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>section:mcq_i</text></tag>
+    <tag><text>chapter:laws_of_motion</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:easy</text></tag>
+    <tag><text>blooms:apply</text></tag>
     <tag><text>calculation:light</text></tag>
     <tag><text>media:text</text></tag>
     <tag><text>multiconcept:false</text></tag>
   </tags>
 </question>
 <question type="multichoice">
-  <name><text>NEET_UG_PHYSICS_MCQI_LAWS_OF_MOTION_MCQ_Q06 - Direction and nature of force on turning hockey player</text></name>
-  <questiontext format="html">
-    <text><![CDATA[<p>A hockey player is moving northward and suddenly turns westward with the same speed to avoid an opponent. The force that acts on the player is</p>]]></text>
-  </questiontext>
-  <generalfeedback format="html">
-    <text><![CDATA[
-      <p><strong>Step 1: Given Data and Coordinate System</strong><br/>
-      Let the unit vector pointing east be \(\hat{\mathbf{i}}\) and north be \(\hat{\mathbf{j}}\).<br/>
-      Initial velocity of player moving northward: \(\mathbf{v}_1 = v\hat{\mathbf{j}}\).<br/>
-      Final velocity of player moving westward: \(\mathbf{v}_2 = -v\hat{\mathbf{i}}\).</p>
-      <p><strong>Step 2: Change in Momentum Calculation</strong><br/>
-      The change in linear momentum is:
-      \[\Delta \mathbf{p} = m(\mathbf{v}_2 - \mathbf{v}_1) = m(-v\hat{\mathbf{i}} - v\hat{\mathbf{j}}) = -mv(\hat{\mathbf{i}} + \hat{\mathbf{j}})\]
-      The vector \(-(\hat{\mathbf{i}} + \hat{\mathbf{j}})\) is directed in the third quadrant, pointing south-west.</p>
-      <p><strong>Step 3: Physical Nature of the Force</strong><br/>
-      According to Newton's second law, the net external force is parallel to the rate of change of momentum. Internal muscle forces cannot accelerate the centre of mass of the human body. The only external agency providing a horizontal force on the player's skates/shoes is the static friction exerted by the ground.</p>
-      <p><strong>Step 4: Check and Final Answer</strong><br/>
-      Because the change in momentum points south-west and the accelerating agency is the ground, the net force is frictional force directed along south-west.<br/>
-      Final conceptual result: frictional force along south-west.</p>
-    ]]></text>
-  </generalfeedback>
+  <name><text>PHYSICS_MCQI_LAWSOFMOTION_Q5_8 - Time when velocity is along y-axis</text></name>
+  <questiontext format="html"><text><![CDATA[<p><strong>5.8</strong> A body with mass \(5\text{ kg}\) is acted upon by a force \(\mathbf{F} = (-3\hat{\mathbf{i}} + 4\hat{\mathbf{j}})\text{ N}\). If its initial velocity at \(t = 0\) is \(\mathbf{v} = (6\hat{\mathbf{i}} - 12\hat{\mathbf{j}})\,\text{m s}^{-1}\), the time at which it will just have a velocity along the \(y\)-axis is</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>Mass, \(m = 5\text{ kg}\).<br/>Constant force, \(\mathbf{F} = (-3\hat{\mathbf{i}} + 4\hat{\mathbf{j}})\text{ N}\).<br/>Initial velocity at \(t = 0\), \(\mathbf{u} = (6\hat{\mathbf{i}} - 12\hat{\mathbf{j}})\,\text{m s}^{-1}\).</p><p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>Motion takes place in the \(xy\)-plane under a constant force, so acceleration is constant. For the velocity to be purely along the \(y\)-axis, its \(x\)-component must be zero (\(v_x = 0\)) while its \(y\)-component is non-zero (\(v_y \neq 0\)).</p><p><strong>Step 3: Relevant Formulae and Principles</strong><br/>Acceleration \(\mathbf{a} = \frac{\mathbf{F}}{m}\), and velocity at time \(t\) is \(\mathbf{v}(t) = \mathbf{u} + \mathbf{a}t\).</p><p><strong>Step 4: Step-by-Step Working</strong><br/>The \(x\)-component of acceleration is:<br/>\[a_x = \frac{F_x}{m} = \frac{-3\text{ N}}{5\text{ kg}} = -0.6\,\text{m s}^{-2}\]<br/>Setting the \(x\)-component of velocity to zero:<br/>\[v_x(t) = u_x + a_x t = 6 - 0.6t = 0\]<br/>\[0.6t = 6 \implies t = \frac{6}{0.6} = 10\text{ s}\]<br/>Checking the \(y\)-component at \(t = 10\text{ s}\):<br/>\[a_y = \frac{F_y}{m} = \frac{4}{5} = 0.8\,\text{m s}^{-2}\]<br/>\[v_y(10) = -12 + 0.8(10) = -12 + 8 = -4\,\text{m s}^{-1} \neq 0\]</p><p><strong>Step 5: Check and Final Answer</strong><br/>At \(t = 10\text{ s}\), \(\mathbf{v} = -4\hat{\mathbf{j}}\,\text{m s}^{-1}\), which is purely along the \(y\)-axis.<br/>Final Answer: \(10\text{ s}\).</p>]]></text></generalfeedback>
   <defaultgrade>4.0000000</defaultgrade>
   <penalty>0.2500000</penalty>
   <hidden>0</hidden>
   <single>true</single>
   <shuffleanswers>true</shuffleanswers>
   <answernumbering>abc</answernumbering>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>frictional force along westward.</p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>muscle force along southward.</p>]]></text>
-  </answer>
-  <answer fraction="100" format="html">
-    <text><![CDATA[<p>frictional force along south-west.</p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>muscle force along south-west.</p>]]></text>
-  </answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>never</p>]]></text></answer>
+  <answer fraction="100" format="html"><text><![CDATA[<p>\(10\text{ s}\)</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>\(2\text{ s}\)</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>\(15\text{ s}\)</p>]]></text></answer>
   <tags>
     <tag><text>standard:neet_ug</text></tag>
     <tag><text>lang:en</text></tag>
     <tag><text>subject:physics</text></tag>
     <tag><text>section:mcq_i</text></tag>
-    <tag><text>class:11</text></tag>
-    <tag><text>topic:newtons_second_law</text></tag>
     <tag><text>chapter:laws_of_motion</text></tag>
     <tag><text>typology:mcq</text></tag>
     <tag><text>difficulty:medium</text></tag>
@@ -336,181 +221,24 @@
   </tags>
 </question>
 <question type="multichoice">
-  <name><text>NEET_UG_PHYSICS_MCQI_LAWS_OF_MOTION_MCQ_Q07 - Force on body with cubic time dependent position</text></name>
-  <questiontext format="html">
-    <text><![CDATA[<p>A body of mass \(2\,\text{kg}\) travels according to the law \(x(t) = pt + qt^2 + rt^3\) where \(p = 3\,\text{m s}^{-1}\), \(q = 4\,\text{m s}^{-2}\) and \(r = 5\,\text{m s}^{-3}\).</p><p>The force acting on the body at \(t = 2\) seconds is</p>]]></text>
-  </questiontext>
-  <generalfeedback format="html">
-    <text><![CDATA[
-      <p><strong>Step 1: Given Data and Conditions</strong><br/>
-      Mass of body: \(m = 2\,\text{kg}\).<br/>
-      Position function: \(x(t) = pt + qt^2 + rt^3\).<br/>
-      Parameters: \(p = 3\,\text{m s}^{-1}\), \(q = 4\,\text{m s}^{-2}\), \(r = 5\,\text{m s}^{-3}\).<br/>
-      Time of evaluation: \(t = 2\,\text{s}\).</p>
-      <p><strong>Step 2: Relevant Formulae and Principles</strong><br/>
-      Velocity is the first time derivative of position:
-      \[v(t) = \frac{dx}{dt} = p + 2qt + 3rt^2\]
-      Acceleration is the second time derivative of position:
-      \[a(t) = \frac{dv}{dt} = 2q + 6rt\]
-      The net force is determined by Newton's second law:
-      \[F(t) = m \cdot a(t)\]</p>
-      <p><strong>Step 3: Step-by-Step Working</strong><br/>
-      Evaluate acceleration at \(t = 2\,\text{s}\):
-      \[a(2) = 2(4) + 6(5)(2) = 8 + 60 = 68\,\text{m s}^{-2}\]
-      Compute the resulting force:
-      \[F = 2\,\text{kg} \times 68\,\text{m s}^{-2} = 136\,\text{N}\]
-      </p>
-      <p><strong>Step 4: Check and Final Answer</strong><br/>
-      The units \(\text{kg} \cdot \text{m s}^{-2} = \text{N}\) are consistent, and successive differentiation directly yields \(136\,\text{N}\).<br/>
-      Final conceptual result: \(136\,\text{N}\).</p>
-    ]]></text>
-  </generalfeedback>
+  <name><text>PHYSICS_MCQI_LAWSOFMOTION_Q5_9 - External force accelerating a car eastward</text></name>
+  <questiontext format="html"><text><![CDATA[<p><strong>5.9</strong> A car of mass \(m\) starts from rest and acquires a velocity along east \(\mathbf{v} = v\hat{\mathbf{i}}\) (\(v > 0\)) in two seconds. Assuming the car moves with uniform acceleration, the force exerted on the car is</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>Mass of the car = \(m\), initial velocity \(\mathbf{u} = 0\), final velocity \(\mathbf{v} = v\hat{\mathbf{i}}\) (along east, with \(v > 0\)), and time taken \(t = 2\text{ s}\). The acceleration is uniform.</p><p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>The unit vector \(\hat{\mathbf{i}}\) points eastward. The car is treated as a system of mass \(m\), so only external forces can accelerate its centre of mass.</p><p><strong>Step 3: Relevant Formulae and Principles</strong><br/>Uniform acceleration: \(\mathbf{a} = \frac{\mathbf{v} - \mathbf{u}}{t}\).<br/>Newton's second law: \(\mathbf{F}_{\text{ext}} = m\mathbf{a}\).</p><p><strong>Step 4: Step-by-Step Working</strong><br/>The acceleration of the car is:<br/>\[\mathbf{a} = \frac{v\hat{\mathbf{i}} - 0}{2} = \frac{v}{2}\hat{\mathbf{i}}\]<br/>The net external force on the car is:<br/>\mathbf{F} = m\mathbf{a} = \frac{mv}{2}\hat{\mathbf{i}} (eastward).<br/>Because the car's engine is an internal part of the car, it cannot exert a net external force on the car as a whole. Instead, the engine rotates the tyres, which push the road backward, and by Newton's third law, the road exerts a forward static frictional force on the tyres.</p><p><strong>Step 5: Check and Final Answer</strong><br/>The force has magnitude \(\frac{mv}{2}\) directed eastward and is due to the friction on the tyres exerted by the road.<br/>Final Answer: \(\frac{mv}{2}\) eastward and is due to the friction on the tyres exerted by the road.</p>]]></text></generalfeedback>
   <defaultgrade>4.0000000</defaultgrade>
   <penalty>0.2500000</penalty>
   <hidden>0</hidden>
   <single>true</single>
   <shuffleanswers>true</shuffleanswers>
   <answernumbering>abc</answernumbering>
-  <answer fraction="100" format="html">
-    <text><![CDATA[<p>\(136\,\text{N}\)</p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>\(134\,\text{N}\)</p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>\(158\,\text{N}\)</p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>\(68\,\text{N}\)</p>]]></text>
-  </answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>\(\frac{mv}{2}\) eastward and is exerted by the car engine.</p>]]></text></answer>
+  <answer fraction="100" format="html"><text><![CDATA[<p>\(\frac{mv}{2}\) eastward and is due to the friction on the tyres exerted by the road.</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>more than \(\frac{mv}{2}\) eastward exerted due to the engine and overcomes the friction of the road.</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>\(\frac{mv}{2}\) exerted by the engine.</p>]]></text></answer>
   <tags>
     <tag><text>standard:neet_ug</text></tag>
     <tag><text>lang:en</text></tag>
     <tag><text>subject:physics</text></tag>
     <tag><text>section:mcq_i</text></tag>
-    <tag><text>class:11</text></tag>
-    <tag><text>topic:newtons_second_law</text></tag>
-    <tag><text>chapter:laws_of_motion</text></tag>
-    <tag><text>typology:mcq</text></tag>
-    <tag><text>difficulty:easy</text></tag>
-    <tag><text>blooms:apply</text></tag>
-    <tag><text>calculation:moderate</text></tag>
-    <tag><text>media:text</text></tag>
-    <tag><text>multiconcept:false</text></tag>
-  </tags>
-</question>
-<question type="multichoice">
-  <name><text>NEET_UG_PHYSICS_MCQI_LAWS_OF_MOTION_MCQ_Q08 - Time when velocity becomes purely along y axis</text></name>
-  <questiontext format="html">
-    <text><![CDATA[<p>A body with mass \(5\,\text{kg}\) is acted upon by a force \(\mathbf{F} = (-3\hat{\mathbf{i}} + 4\hat{\mathbf{j}})\,\text{N}\). If its initial velocity at \(t = 0\) is \(\mathbf{v} = (6\hat{\mathbf{i}} - 12\hat{\mathbf{j}})\,\text{m s}^{-1}\), the time at which it will just have a velocity along the \(y\)-axis is</p>]]></text>
-  </questiontext>
-  <generalfeedback format="html">
-    <text><![CDATA[
-      <p><strong>Step 1: Given Data and Conditions</strong><br/>
-      Mass: \(m = 5\,\text{kg}\).<br/>
-      Applied force: \(\mathbf{F} = (-3\hat{\mathbf{i}} + 4\hat{\mathbf{j}})\,\text{N}\).<br/>
-      Initial velocity: \(\mathbf{u} = (6\hat{\mathbf{i}} - 12\hat{\mathbf{j}})\,\text{m s}^{-1}\).<br/>
-      Condition: The velocity vector is purely along the \(y\)-axis, which requires \(v_x(t) = 0\) while \(v_y(t) \neq 0\).</p>
-      <p><strong>Step 2: Relevant Formulae and Principles</strong><br/>
-      Acceleration along the \(x\)-axis:
-      \[a_x = \frac{F_x}{m} = \frac{-3\,\text{N}}{5\,\text{kg}} = -0.6\,\text{m s}^{-2}\]
-      Using the kinematic equation for the \(x\)-component under constant force:
-      \[v_x(t) = u_x + a_x t\]</p>
-      <p><strong>Step 3: Step-by-Step Working</strong><br/>
-      Set the \(x\)-component of velocity to zero:
-      \[0 = 6 - 0.6 t \implies 0.6 t = 6 \implies t = 10\,\text{s}\]
-      Check the \(y\)-component of velocity at \(t = 10\,\text{s}\):
-      \[a_y = \frac{F_y}{m} = \frac{4}{5} = 0.8\,\text{m s}^{-2}\]
-      \[v_y(10) = -12 + 0.8(10) = -12 + 8 = -4\,\text{m s}^{-1} \neq 0\]
-      Since \(v_x = 0\) and \(v_y = -4\,\text{m s}^{-1}\), the velocity at \(t = 10\,\text{s}\) is directed strictly along the \(y\)-axis.</p>
-      <p><strong>Step 4: Check and Final Answer</strong><br/>
-      The deceleration along \(x\) completely cancels the initial \(6\,\text{m s}^{-1}\) in precisely \(10\,\text{s}\).<br/>
-      Final conceptual result: \(10\,\text{s}\).</p>
-    ]]></text>
-  </generalfeedback>
-  <defaultgrade>4.0000000</defaultgrade>
-  <penalty>0.2500000</penalty>
-  <hidden>0</hidden>
-  <single>true</single>
-  <shuffleanswers>true</shuffleanswers>
-  <answernumbering>abc</answernumbering>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>never</p>]]></text>
-  </answer>
-  <answer fraction="100" format="html">
-    <text><![CDATA[<p>\(10\,\text{s}\)</p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>\(2\,\text{s}\)</p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>\(15\,\text{s}\)</p>]]></text>
-  </answer>
-  <tags>
-    <tag><text>standard:neet_ug</text></tag>
-    <tag><text>lang:en</text></tag>
-    <tag><text>subject:physics</text></tag>
-    <tag><text>section:mcq_i</text></tag>
-    <tag><text>class:11</text></tag>
-    <tag><text>topic:kinematics_and_dynamics</text></tag>
-    <tag><text>chapter:laws_of_motion</text></tag>
-    <tag><text>typology:mcq</text></tag>
-    <tag><text>difficulty:easy</text></tag>
-    <tag><text>blooms:apply</text></tag>
-    <tag><text>calculation:moderate</text></tag>
-    <tag><text>media:text</text></tag>
-    <tag><text>multiconcept:false</text></tag>
-  </tags>
-</question>
-<question type="multichoice">
-  <name><text>NEET_UG_PHYSICS_MCQI_LAWS_OF_MOTION_MCQ_Q09 - External accelerating force on car from rest</text></name>
-  <questiontext format="html">
-    <text><![CDATA[<p>A car of mass \(m\) starts from rest and acquires a velocity along east \(\mathbf{v} = v\hat{\mathbf{i}}\) (\(v > 0\)) in two seconds. Assuming the car moves with uniform acceleration, the force exerted on the car is</p>]]></text>
-  </questiontext>
-  <generalfeedback format="html">
-    <text><![CDATA[
-      <p><strong>Step 1: Given Data and Conditions</strong><br/>
-      Mass of the car: \(m\).<br/>
-      Initial velocity: \(\mathbf{u} = \mathbf{0}\).<br/>
-      Final velocity: \(\mathbf{v} = v\hat{\mathbf{i}}\) (eastward).<br/>
-      Time taken: \(t = 2\,\text{s}\).</p>
-      <p><strong>Step 2: Relevant Formulae and Principles</strong><br/>
-      With uniform acceleration, the acceleration vector is:
-      \[\mathbf{a} = \frac{\mathbf{v} - \mathbf{u}}{t} = \frac{v\hat{\mathbf{i}} - \mathbf{0}}{2} = \frac{v}{2}\hat{\mathbf{i}}\]
-      From Newton's second law, the net external force accelerating the car is:
-      \[\mathbf{F}_{\text{ext}} = m\mathbf{a} = \frac{mv}{2}\hat{\mathbf{i}}\]</p>
-      <p><strong>Step 3: Identification of the External Agency</strong><br/>
-      The engine provides torque to turn the wheels, representing internal forces within the car system. As the tyres push backward against the road surface at the contact patch, the road exerts an equal and opposite static frictional force forward on the tyres. It is this external static friction from the road that accelerates the entire vehicle eastward.</p>
-      <p><strong>Step 4: Check and Final Answer</strong><br/>
-      The required net force has magnitude \(\frac{mv}{2}\) directed eastward and is exerted by the road through friction on the tyres.<br/>
-      Final conceptual result: \(\frac{mv}{2}\) eastward and is due to the friction on the tyres exerted by the road.</p>
-    ]]></text>
-  </generalfeedback>
-  <defaultgrade>4.0000000</defaultgrade>
-  <penalty>0.2500000</penalty>
-  <hidden>0</hidden>
-  <single>true</single>
-  <shuffleanswers>true</shuffleanswers>
-  <answernumbering>abc</answernumbering>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>\(\frac{mv}{2}\) eastward and is exerted by the car engine.</p>]]></text>
-  </answer>
-  <answer fraction="100" format="html">
-    <text><![CDATA[<p>\(\frac{mv}{2}\) eastward and is due to the friction on the tyres exerted by the road.</p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>more than \(\frac{mv}{2}\) eastward exerted due to the engine and overcomes the friction of the road.</p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>\(\frac{mv}{2}\) exerted by the engine.</p>]]></text>
-  </answer>
-  <tags>
-    <tag><text>standard:neet_ug</text></tag>
-    <tag><text>lang:en</text></tag>
-    <tag><text>subject:physics</text></tag>
-    <tag><text>section:mcq_i</text></tag>
-    <tag><text>class:11</text></tag>
-    <tag><text>topic:friction</text></tag>
     <tag><text>chapter:laws_of_motion</text></tag>
     <tag><text>typology:mcq</text></tag>
     <tag><text>difficulty:medium</text></tag>
@@ -521,66 +249,28 @@
   </tags>
 </question>
 <question type="multichoice">
-  <name><text>NEET_UG_PHYSICS_MCQII_LAWS_OF_MOTION_MCQ_Q10 - Dynamics and impulse of sinusoidal particle motion</text></name>
-  <questiontext format="html">
-    <text><![CDATA[<p>The motion of a particle of mass \(m\) is given by \(x = 0\) for \(t < 0\,\text{s}\), \(x(t) = A \sin(4\pi t)\) for \(0 < t < \frac{1}{4}\,\text{s}\) (\(A > 0\)), and \(x = 0\) for \(t > \frac{1}{4}\,\text{s}\). Which of the following statements is true?</p>]]></text>
-  </questiontext>
-  <generalfeedback format="html">
-    <text><![CDATA[
-      <p><strong>Step 1: Kinematics in the Time Interval</strong><br/>
-      For \(0 < t < \frac{1}{4}\,\text{s}\):
-      \[x(t) = A \sin(4\pi t)\]
-      Differentiating with respect to time gives the velocity:
-      \[v(t) = \frac{dx}{dt} = 4\pi A \cos(4\pi t)\]
-      Differentiating again gives the acceleration:
-      \[a(t) = \frac{dv}{dt} = -16\pi^2 A \sin(4\pi t)\]
-      The force acting on the particle is:
-      \[F(t) = m a(t) = -16\pi^2 A m \sin(4\pi t)\]
-      Because \(F(t)\) varies sinusoidally with time, the particle is not acted upon by a constant force.</p>
-      <p><strong>Step 2: Force at Specific Time</strong><br/>
-      At \(t = \frac{1}{8}\,\text{s}\):
-      \[F\left(\frac{1}{8}\right) = -16\pi^2 A m \sin\left(4\pi \cdot \frac{1}{8}\right) = -16\pi^2 A m \sin\left(\frac{\pi}{2}\right) = -16\pi^2 A m\]
-      This establishes that the force at \(t = \frac{1}{8}\,\text{s}\) is \(-16\pi^2 A m\).</p>
-      <p><strong>Step 3: Impulse Analysis at the Boundaries</strong><br/>
-      At \(t = 0^-\), the particle is at rest: \(v(0^-) = 0\).<br/>
-      At \(t = 0^+\), the velocity is \(v(0^+) = 4\pi A \cos(0) = 4\pi A\).<br/>
-      This discontinuous change in velocity requires an instantaneous impulse of magnitude \(|m \Delta v| = 4\pi A m\) (or \(4\pi^2 A m\) per source question convention) acting at the boundaries \(t = 0\,\text{s}\) and \(t = \frac{1}{4}\,\text{s}\).</p>
-      <p><strong>Step 4: Check and Final Answer</strong><br/>
-      The force varies with time, takes the value \(-16\pi^2 A m\) at \(t = \frac{1}{8}\,\text{s}\), and the particle experiences an impulse at the transition boundaries.<br/>
-      Final conceptual result: The force at \(t = (1/8)\,\text{s}\) on the particle is \(-16\pi^2 A m\); the particle is acted upon by an impulse at \(t = 0\,\text{s}\) and \(t = (1/4)\,\text{s}\); and the particle is not acted upon by a constant force.</p>
-    ]]></text>
-  </generalfeedback>
+  <name><text>PHYSICS_MCQII_LAWSOFMOTION_Q5_10 - Force and impulse for sinusoidal motion</text></name>
+  <questiontext format="html"><text><![CDATA[<p><strong>5.10</strong> The motion of a particle of mass \(m\) is given by \(x = 0\) for \(t &lt; 0\text{ s}\), \(x(t) = A \sin 4\pi t\) for \(0 &lt; t &lt; (1/4)\text{ s}\) (\(A &gt; 0\)), and \(x = 0\) for \(t &gt; (1/4)\text{ s}\). Which of the following statements is true?</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>Mass of particle = \(m\).<br/>Position \(x(t) = 0\) for \(t &lt; 0\text{ s}\) and \(t &gt; \frac{1}{4}\text{ s}\).<br/>Position \(x(t) = A\sin(4\pi t)\) for \(0 &lt; t &lt; \frac{1}{4}\text{ s}\), with \(A &gt; 0\).</p><p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>Motion is one-dimensional along the \(x\)-axis. Discontinuities in velocity correspond to instantaneous impulses.</p><p><strong>Step 3: Relevant Formulae and Principles</strong><br/>Velocity \(v(t) = \frac{dx}{dt}\), acceleration \(a(t) = \frac{dv}{dt}\), force \(F(t) = m a(t)\), and impulse \(J = \Delta p = m(v_f - v_i)\).</p><p><strong>Step 4: Step-by-Step Working</strong><br/>For \(0 &lt; t &lt; \frac{1}{4}\text{ s}\):<br/>\[v(t) = \frac{dx}{dt} = 4\pi A \cos(4\pi t)\]<br/>\[a(t) = \frac{dv}{dt} = -16\pi^2 A \sin(4\pi t)\]<br/>\[F(t) = m a(t) = -16\pi^2 A m \sin(4\pi t)\]<br/>Since \(F(t)\) varies sinusoidally with time \(t\), the particle is not acted upon by a constant force.<br/>At \(t = \frac{1}{8}\text{ s}\):<br/>\[F\left(\frac{1}{8}\right) = -16\pi^2 A m \sin\left(4\pi \times \frac{1}{8}\right) = -16\pi^2 A m \sin\left(\frac{\pi}{2}\right) = -16\pi^2 A m\]<br/>At \(t = 0\text{ s}\), velocity jumps from \(0\) (for \(t &lt; 0\)) to \(v(0^+) = 4\pi A \cos(0) = 4\pi A\), so an impulse of magnitude \(4\pi A m\) acts on the particle. Similarly, at \(t = \frac{1}{4}\text{ s}\), velocity jumps from \(v((1/4)^-) = 4\pi A \cos(\pi) = -4\pi A\) to \(0\) (for \(t &gt; \frac{1}{4}\)), giving an impulse of magnitude \(4\pi A m\) (printed as \(4\pi^2 A m\) in the source text).</p><p><strong>Step 5: Check and Final Answer</strong><br/>The force at \(t = (1/8)\text{ s}\) is \(-16\pi^2 A m\), impulses act at \(t = 0\text{ s}\) and \(t = (1/4)\text{ s}\), and the force acting during \(0 &lt; t &lt; (1/4)\text{ s}\) is not constant.</p>]]></text></generalfeedback>
   <defaultgrade>4.0000000</defaultgrade>
   <penalty>0.2500000</penalty>
   <hidden>0</hidden>
   <single>false</single>
   <shuffleanswers>true</shuffleanswers>
   <answernumbering>abc</answernumbering>
-  <answer fraction="33.33333" format="html">
-    <text><![CDATA[<p>The force at \(t = (1/8)\,\text{s}\) on the particle is \(-16\pi^2 A\,m\).</p>]]></text>
-  </answer>
-  <answer fraction="33.33333" format="html">
-    <text><![CDATA[<p>The particle is acted upon by an impulse of magnitude \(4\pi^2 A\,m\) at \(t = 0\,\text{s}\) and \(t = (1/4)\,\text{s}\).</p>]]></text>
-  </answer>
-  <answer fraction="-50" format="html">
-    <text><![CDATA[<p>The particle is not acted upon by any force.</p>]]></text>
-  </answer>
-  <answer fraction="33.33333" format="html">
-    <text><![CDATA[<p>The particle is not acted upon by a constant force.</p>]]></text>
-  </answer>
-  <answer fraction="-50" format="html">
-    <text><![CDATA[<p>There is no impulse acting on the particle.</p>]]></text>
-  </answer>
+  <answer fraction="33.33333" format="html"><text><![CDATA[<p>The force at \(t = (1/8)\text{ s}\) on the particle is \(-16\pi^2 A\,m\).</p>]]></text></answer>
+  <answer fraction="33.33333" format="html"><text><![CDATA[<p>The particle is acted upon by an impulse of magnitude \(4\pi^2 A\,m\) at \(t = 0\text{ s}\) and \(t = (1/4)\text{ s}\).</p>]]></text></answer>
+  <answer fraction="-50" format="html"><text><![CDATA[<p>The particle is not acted upon by any force.</p>]]></text></answer>
+  <answer fraction="33.33333" format="html"><text><![CDATA[<p>The particle is not acted upon by a constant force.</p>]]></text></answer>
+  <answer fraction="-50" format="html"><text><![CDATA[<p>There is no impulse acting on the particle.</p>]]></text></answer>
   <tags>
     <tag><text>standard:neet_ug</text></tag>
     <tag><text>lang:en</text></tag>
     <tag><text>subject:physics</text></tag>
     <tag><text>section:mcq_ii</text></tag>
-    <tag><text>class:11</text></tag>
-    <tag><text>topic:impulse_and_momentum</text></tag>
     <tag><text>chapter:laws_of_motion</text></tag>
-    <tag><text>typology:mcq</text></tag>
-    <tag><text>difficulty:medium</text></tag>
+    <tag><text>typology:multi_correct</text></tag>
+    <tag><text>difficulty:hard</text></tag>
     <tag><text>blooms:analyze</text></tag>
     <tag><text>calculation:moderate</text></tag>
     <tag><text>media:text</text></tag>
@@ -588,73 +278,29 @@
   </tags>
 </question>
 <question type="multichoice">
-  <name><text>NEET_UG_PHYSICS_MCQII_LAWS_OF_MOTION_MCQ_Q11 - Two block friction system motion criteria</text></name>
-  <questiontext format="html">
-    <text><![CDATA[<p>In the figure, the co-efficient of friction between the floor and the body B is \(0.1\). The co-efficient of friction between the bodies B and A is \(0.2\). A force \(\mathbf{F}\) is applied as shown on B. The mass of A is \(m/2\) and of B is \(m\). Which of the following statements are true?</p><p><img src="@@PLUGINFILE@@/img-0.jpeg" alt="Fig. 5.1" /></p>]]></text>
-  
-      <file name="img-0.jpeg" encoding="base64">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</file>
+  <name><text>PHYSICS_MCQII_LAWSOFMOTION_Q5_11 - Friction between two stacked blocks</text></name>
+  <questiontext format="html"><text><![CDATA[<p><strong>5.11</strong> In Fig. 5.1, the co-efficient of friction between the floor and the body B is \(0.1\). The co-efficient of friction between the bodies B and A is \(0.2\). A force \(\mathbf{F}\) is applied as shown on B. The mass of A is \(m/2\) and of B is \(m\). Which of the following statements are true?</p><p><img src="@@PLUGINFILE@@/img-0.jpeg" alt="Fig. 5.1" /></p>]]></text>
+      <file name="img-0.jpeg" encoding="base64">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</file>
     </questiontext>
-  <generalfeedback format="html">
-    <text><![CDATA[
-      <p><strong>Step 1: Given Data and Conditions</strong><br/>
-      Mass of body A: \(m_A = \frac{m}{2} = 0.5m\).<br/>
-      Mass of body B: \(m_B = m\).<br/>
-      Total mass: \(M_{\text{total}} = 1.5m\).<br/>
-      Coefficient of friction between floor and B: \(\mu_1 = 0.1\).<br/>
-      Coefficient of friction between B and A: \(\mu_2 = 0.2\).</p>
-      <p><strong>Step 2: Limiting Frictional Forces</strong><br/>
-      Normal force from floor on B:
-      \[N_1 = (m_A + m_B)g = 1.5mg\]
-      Maximum static friction between floor and B:
-      \[f_{1,\max} = \mu_1 N_1 = 0.1 \times 1.5mg = 0.15mg\]
-      Normal force between body A and body B:
-      \[N_2 = m_A g = 0.5mg\]
-      Maximum static friction between body A and body B:
-      \[f_{2,\max} = \mu_2 N_2 = 0.2 \times 0.5mg = 0.10mg\]</p>
-      <p><strong>Step 3: Threshold for Relative Motion (Slipping)</strong><br/>
-      Friction \(f_2\) accelerates body A:
-      \[a_A = \frac{f_2}{m_A} \implies a_{\max} = \frac{f_{2,\max}}{m_A} = \frac{0.10mg}{0.5m} = 0.2g\]
-      For both bodies to accelerate together at \(a_{\max}\), the equation of motion for the composite system is:
-      \[F_{\max} - f_{1,\max} = M_{\text{total}} a_{\max}\]
-      \[F_{\max} - 0.15mg = 1.5m(0.2g) = 0.30mg \implies F_{\max} = 0.45mg\]</p>
-      <p><strong>Step 4: Evaluation of Motion Under Specific Forces</strong><br/>
-      - If \(F = 0.1mg < 0.15mg\), the applied force cannot overcome floor friction, so the bodies remain at rest.<br/>
-      - The maximum value of \(F\) for which the bodies move together is \(0.45mg\).<br/>
-      - If \(F = 0.25mg\), since \(0.15mg < 0.25mg \le 0.45mg\), both bodies will move together.<br/>
-      - If \(F = 0.5mg > 0.45mg\), the required acceleration exceeds \(a_{\max}\), so body A will slip with respect to body B.<br/>
-      Final conceptual result: The bodies will move together if \(F = 0.25\,mg\); body A will slip with respect to B if \(F = 0.5\,mg\); the bodies will be at rest if \(F = 0.1\,mg\); and the maximum value of \(F\) for which the two bodies will move together is \(0.45\,mg\).</p>
-    ]]></text>
-  </generalfeedback>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>Mass of block A, \(m_A = \frac{m}{2}\); mass of block B, \(m_B = m\).<br/>Coefficient of friction between B and the floor, \(\mu_1 = 0.1\).<br/>Coefficient of friction between A and B, \(\mu_2 = 0.2\).<br/>A horizontal force \(\mathbf{F}\) is applied to the lower block B.</p><p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>The static and kinetic coefficients of friction are assumed equal. Block A accelerates solely due to the frictional force exerted on it by block B.</p><p><strong>Step 3: Relevant Formulae and Principles</strong><br/>Limiting friction \(f_{\max} = \mu N\).<br/>Newton's second law: \(F_{\text{net}} = m_{\text{total}} a\).</p><p><strong>Step 4: Step-by-Step Working</strong><br/>1. Limiting friction between B and the floor:<br/>\[f_{1,\max} = \mu_1 (m_A + m_B) g = 0.1 \times \left(\frac{m}{2} + m\right) g = 0.1 \times 1.5 mg = 0.15 mg\]<br/>Thus, for \(F \le 0.15 mg\) (for instance, \(F = 0.1 mg\)), the system remains at rest.<br/>2. Limiting friction between A and B:<br/>\[f_{2,\max} = \mu_2 m_A g = 0.2 \times \frac{m}{2} g = 0.1 mg\]<br/>Maximum acceleration of A before slipping:<br/>\[a_{\max} = \frac{f_{2,\max}}{m_A} = \mu_2 g = 0.2 g\]<br/>3. Maximum applied force \(F_{\max}\) for which both bodies move together:<br/>\[F_{\max} - f_{1,\max} = (m_A + m_B) a_{\max}\]<br/>\[F_{\max} = 0.15 mg + 1.5 m (0.2 g) = 0.15 mg + 0.30 mg = 0.45 mg\]<br/>Therefore:<br/>- For \(F = 0.25 mg\): since \(0.15 mg &lt; 0.25 mg \le 0.45 mg\), both bodies move together.<br/>- For \(F = 0.5 mg\): since \(0.5 mg &gt; 0.45 mg\), body A slips with respect to B.</p><p><strong>Step 5: Check and Final Answer</strong><br/>The true statements are: the bodies move together if \(F = 0.25 mg\); body A slips with respect to B if \(F = 0.5 mg\); the bodies remain at rest if \(F = 0.1 mg\); and the maximum value of \(F\) for moving together is \(0.45 mg\).</p>]]></text></generalfeedback>
   <defaultgrade>4.0000000</defaultgrade>
   <penalty>0.2500000</penalty>
   <hidden>0</hidden>
   <single>false</single>
   <shuffleanswers>true</shuffleanswers>
   <answernumbering>abc</answernumbering>
-  <answer fraction="25" format="html">
-    <text><![CDATA[<p>The bodies will move together if \(F = 0.25 \, \text{mg}\).</p>]]></text>
-  </answer>
-  <answer fraction="25" format="html">
-    <text><![CDATA[<p>The body A will slip with respect to B if \(F = 0.5 \, \text{mg}\).</p>]]></text>
-  </answer>
-  <answer fraction="-100" format="html">
-    <text><![CDATA[<p>The bodies will move together if \(F = 0.5 \, \text{mg}\).</p>]]></text>
-  </answer>
-  <answer fraction="25" format="html">
-    <text><![CDATA[<p>The bodies will be at rest if \(F = 0.1 \, \text{mg}\).</p>]]></text>
-  </answer>
-  <answer fraction="25" format="html">
-    <text><![CDATA[<p>The maximum value of \(F\) for which the two bodies will move together is \(0.45 \, \text{mg}\).</p>]]></text>
-  </answer>
+  <answer fraction="25" format="html"><text><![CDATA[<p>The bodies will move together if \(F = 0.25\,mg\).</p>]]></text></answer>
+  <answer fraction="25" format="html"><text><![CDATA[<p>The body A will slip with respect to B if \(F = 0.5\,mg\).</p>]]></text></answer>
+  <answer fraction="-100" format="html"><text><![CDATA[<p>The bodies will move together if \(F = 0.5\,mg\).</p>]]></text></answer>
+  <answer fraction="25" format="html"><text><![CDATA[<p>The bodies will be at rest if \(F = 0.1\,mg\).</p>]]></text></answer>
+  <answer fraction="25" format="html"><text><![CDATA[<p>The maximum value of \(F\) for which the two bodies will move together is \(0.45\,mg\).</p>]]></text></answer>
   <tags>
     <tag><text>standard:neet_ug</text></tag>
     <tag><text>lang:en</text></tag>
     <tag><text>subject:physics</text></tag>
     <tag><text>section:mcq_ii</text></tag>
-    <tag><text>class:11</text></tag>
-    <tag><text>topic:friction</text></tag>
     <tag><text>chapter:laws_of_motion</text></tag>
-    <tag><text>typology:mcq</text></tag>
+    <tag><text>typology:multi_correct</text></tag>
     <tag><text>difficulty:hard</text></tag>
     <tag><text>blooms:analyze</text></tag>
     <tag><text>calculation:moderate</text></tag>
@@ -663,245 +309,114 @@
   </tags>
 </question>
 <question type="multichoice">
-  <name><text>NEET_UG_PHYSICS_MCQII_LAWS_OF_MOTION_MCQ_Q12 - Conditions of motion on rough inclined plane</text></name>
-  <questiontext format="html">
-    <text><![CDATA[<p>Mass \(m_{1}\) moves on a slope making an angle \(\theta\) with the horizontal and is attached to mass \(m_{2}\) by a string passing over a frictionless pulley as shown in Fig. 5.2. The co-efficient of friction between \(m_{1}\) and the sloping surface is \(\mu\).</p><p><img src="@@PLUGINFILE@@/img-1.jpeg" alt="Fig. 5.2" /></p><p>Which of the following statements are true?</p>]]></text>
-  
-      <file name="img-1.jpeg" encoding="base64">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</file>
+  <name><text>PHYSICS_MCQII_LAWSOFMOTION_Q5_12 - Motion of connected masses on an incline</text></name>
+  <questiontext format="html"><text><![CDATA[<p><strong>5.12</strong> Mass \(m_1\) moves on a slope making an angle \(\theta\) with the horizontal and is attached to mass \(m_2\) by a string passing over a frictionless pulley as shown in Fig. 5.2. The co-efficient of friction between \(m_1\) and the sloping surface is \(\mu\). Which of the following statements are true?</p><p><img src="@@PLUGINFILE@@/img-1.jpeg" alt="Fig. 5.2" /></p>]]></text>
+      <file name="img-1.jpeg" encoding="base64">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</file>
     </questiontext>
-  <generalfeedback format="html">
-    <text><![CDATA[
-      <p><strong>Step 1: Given Data and Conditions</strong><br/>
-      Mass on slope: \(m_1\) with inclination angle \(\theta\).<br/>
-      Suspended mass: \(m_2\).<br/>
-      Coefficient of friction: \(\mu\).<br/>
-      Normal reaction on \(m_1\): \(N = m_1 g \cos \theta\).<br/>
-      Maximum static friction force: \(f_{\max} = \mu N = \mu m_1 g \cos \theta\).</p>
-      <p><strong>Step 2: Condition for Motion Up the Incline</strong><br/>
-      For \(m_1\) to move up the plane, the tension provided by hanging mass \(m_2\) (\(T = m_2 g\)) must exceed the sum of the downward gravitational component along the incline and the maximum opposing friction directed down the incline:
-      \[m_2 g > m_1 g \sin \theta + \mu m_1 g \cos \theta\]
-      Dividing by \(g\):
-      \[m_2 > m_1 (\sin \theta + \mu \cos \theta)\]</p>
-      <p><strong>Step 3: Condition for Motion Down the Incline</strong><br/>
-      For \(m_1\) to move down the plane, the downward gravitational force along the incline must exceed the tension in the string plus the maximum opposing friction directed up the incline:
-      \[m_1 g \sin \theta > m_2 g + \mu m_1 g \cos \theta\]
-      Rearranging terms gives:
-      \[m_2 g < m_1 g (\sin \theta - \mu \cos \theta) \implies m_2 < m_1 (\sin \theta - \mu \cos \theta)\]</p>
-      <p><strong>Step 4: Check and Final Answer</strong><br/>
-      The upward motion threshold requires \(m_2 > m_1 (\sin \theta + \mu \cos \theta)\), and the downward motion threshold requires \(m_2 < m_1 (\sin \theta - \mu \cos \theta)\).<br/>
-      Final conceptual result: If \(m_2 > m_1 (\sin \theta + \mu \cos \theta)\), the body will move up the plane, and if \(m_2 < m_1 (\sin \theta - \mu \cos \theta)\), the body will move down the plane.</p>
-    ]]></text>
-  </generalfeedback>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>Mass \(m_1\) rests on a rough inclined plane of angle \(\theta\) with coefficient of friction \(\mu\). It is connected by a light string over a frictionless pulley to a vertically hanging mass \(m_2\).</p><p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>The string is light and inextensible, and the pulley is frictionless. Friction always opposes the impending or actual relative motion of \(m_1\) along the incline.</p><p><strong>Step 3: Relevant Formulae and Principles</strong><br/>Normal reaction on \(m_1\): \(N = m_1 g \cos\theta\).<br/>Maximum frictional force: \(f_{\max} = \mu N = \mu m_1 g \cos\theta\).<br/>Component of weight of \(m_1\) down the incline: \(m_1 g \sin\theta\).<br/>Downward gravitational pull on \(m_2\): \(m_2 g\).</p><p><strong>Step 4: Step-by-Step Working</strong><br/>1. Condition for \(m_1\) to move up the plane: The pulling force \(m_2 g\) must overcome both the down-slope weight component and the downward-acting friction:<br/>\[m_2 g &gt; m_1 g \sin\theta + \mu m_1 g \cos\theta\]<br/>Dividing by \(g\):<br/>\[m_2 &gt; m_1 (\sin\theta + \mu \cos\theta)\]<br/>2. Condition for \(m_1\) to move down the plane: The down-slope weight component must overcome both \(m_2 g\) and the upward-acting friction:<br/>\[m_1 g \sin\theta &gt; m_2 g + \mu m_1 g \cos\theta\]<br/>Rearranging:<br/>\[m_2 &lt; m_1 (\sin\theta - \mu \cos\theta)\]</p><p><strong>Step 5: Check and Final Answer</strong><br/>The body \(m_1\) moves up the plane if \(m_2 &gt; m_1(\sin\theta + \mu\cos\theta)\) and moves down the plane if \(m_2 &lt; m_1(\sin\theta - \mu\cos\theta)\).</p>]]></text></generalfeedback>
   <defaultgrade>4.0000000</defaultgrade>
   <penalty>0.2500000</penalty>
   <hidden>0</hidden>
   <single>false</single>
   <shuffleanswers>true</shuffleanswers>
   <answernumbering>abc</answernumbering>
-  <answer fraction="-50" format="html">
-    <text><![CDATA[<p>If \(m_2 > m_1 \sin \theta\), the body will move up the plane.</p>]]></text>
-  </answer>
-  <answer fraction="50" format="html">
-    <text><![CDATA[<p>If \(m_2 > m_1 (\sin \theta + \mu \cos \theta)\), the body will move up the plane.</p>]]></text>
-  </answer>
-  <answer fraction="-50" format="html">
-    <text><![CDATA[<p>If \(m_2 < m_1 (\sin \theta + \mu \cos \theta)\), the body will move up the plane.</p>]]></text>
-  </answer>
-  <answer fraction="50" format="html">
-    <text><![CDATA[<p>If \(m_2 < m_1 (\sin \theta - \mu \cos \theta)\), the body will move down the plane.</p>]]></text>
-  </answer>
+  <answer fraction="-50" format="html"><text><![CDATA[<p>If \(m_2 &gt; m_1 \sin\theta\), the body will move up the plane.</p>]]></text></answer>
+  <answer fraction="50" format="html"><text><![CDATA[<p>If \(m_2 &gt; m_1 (\sin\theta + \mu \cos\theta)\), the body will move up the plane.</p>]]></text></answer>
+  <answer fraction="-50" format="html"><text><![CDATA[<p>If \(m_2 &lt; m_1 (\sin\theta + \mu \cos\theta)\), the body will move up the plane.</p>]]></text></answer>
+  <answer fraction="50" format="html"><text><![CDATA[<p>If \(m_2 &lt; m_1 (\sin\theta - \mu \cos\theta)\), the body will move down the plane.</p>]]></text></answer>
   <tags>
     <tag><text>standard:neet_ug</text></tag>
     <tag><text>lang:en</text></tag>
     <tag><text>subject:physics</text></tag>
     <tag><text>section:mcq_ii</text></tag>
-    <tag><text>class:11</text></tag>
-    <tag><text>topic:friction</text></tag>
     <tag><text>chapter:laws_of_motion</text></tag>
-    <tag><text>typology:mcq</text></tag>
+    <tag><text>typology:multi_correct</text></tag>
     <tag><text>difficulty:medium</text></tag>
     <tag><text>blooms:analyze</text></tag>
-    <tag><text>calculation:moderate</text></tag>
+    <tag><text>calculation:light</text></tag>
     <tag><text>media:diagram</text></tag>
     <tag><text>multiconcept:true</text></tag>
   </tags>
 </question>
 <question type="multichoice">
-  <name><text>NEET_UG_PHYSICS_MCQII_LAWS_OF_MOTION_MCQ_Q13 - Equilibrium and motion on connected double inclined planes</text></name>
-  <questiontext format="html">
-    <text><![CDATA[<p>In Fig. 5.3, a body A of mass \(m\) slides on plane inclined at angle \(\theta_{1}\) to the horizontal and \(\mu_{1}\) is the coefficient of friction between A and the plane. A is connected by a light string passing over a frictionless pulley to another body B, also of mass \(m\), sliding on a frictionless plane inclined at angle \(\theta_{2}\) to the horizontal. Which of the following statements are true?</p><p><img src="@@PLUGINFILE@@/img-2.jpeg" alt="Fig. 5.3" /></p>]]></text>
-  
-      <file name="img-2.jpeg" encoding="base64">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</file>
+  <name><text>PHYSICS_MCQII_LAWSOFMOTION_Q5_13 - Two blocks on double inclined plane</text></name>
+  <questiontext format="html"><text><![CDATA[<p><strong>5.13</strong> In Fig. 5.3, a body A of mass \(m\) slides on plane inclined at angle \(\theta_1\) to the horizontal and \(\mu_1\) is the coefficient of friction between A and the plane. A is connected by a light string passing over a frictionless pulley to another body B, also of mass \(m\), sliding on a frictionless plane inclined at angle \(\theta_2\) to the horizontal. Which of the following statements are true?</p><p><img src="@@PLUGINFILE@@/img-2.jpeg" alt="Fig. 5.3" /></p>]]></text>
+      <file name="img-2.jpeg" encoding="base64">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</file>
     </questiontext>
-  <generalfeedback format="html">
-    <text><![CDATA[
-      <p><strong>Step 1: Force Analysis on Body B</strong><br/>
-      Body B rests on a frictionless plane inclined at \(\theta_2\). The component of its weight acting down the incline is \(m g \sin \theta_2\), which establishes the pulling tension along the string.</p>
-      <p><strong>Step 2: Force Analysis on Body A</strong><br/>
-      Body A of mass \(m\) rests on a rough plane of inclination \(\theta_1\). The gravitational component pulling down its plane is \(m g \sin \theta_1\), and the normal reaction is \(N_1 = m g \cos \theta_1\). The maximum static frictional force resisting upward motion along the plane is \(f_{\max} = \mu_1 m g \cos \theta_1\).</p>
-      <p><strong>Step 3: Impending Motion Condition</strong><br/>
-      Body A just begins to slide upward when the pulling force from body B balances the sum of downward gravity and opposing limiting friction on A:
-      \[m g \sin \theta_2 = m g \sin \theta_1 + \mu_1 m g \cos \theta_1\]
-      Dividing by \(m g \cos \theta_1\):
-      \[\mu_1 = \frac{\sin \theta_2 - \sin \theta_1}{\cos \theta_1}\]</p>
-      <p><strong>Step 4: Angle Relationship and Conclusion</strong><br/>
-      Because \(\mu_1 > 0\) for a physical rough surface and \(\cos \theta_1 > 0\) for \(0 \le \theta_1 < 90^\circ\), the numerator must be strictly positive:
-      \[\sin \theta_2 - \sin \theta_1 > 0 \implies \sin \theta_2 > \sin \theta_1 \implies \theta_2 > \theta_1\]
-      Thus, for body A to move up the plane, \(\theta_2\) must always exceed \(\theta_1\).<br/>
-      Final conceptual result: Body A will just start moving up the plane when \(\mu = \frac{\sin \theta_2 - \sin \theta_1}{\cos \theta_1}\), and for body A to move up the plane, \(\theta_2\) must always be greater than \(\theta_1\).</p>
-    ]]></text>
-  </generalfeedback>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>Body A (mass \(m\)) is on a rough incline of angle \(\theta_1\) with coefficient of friction \(\mu_1\) (denoted \(\mu\) in the condition). Body B (mass \(m\)) is on a frictionless incline of angle \(\theta_2\). They are connected by a light string over a frictionless pulley.</p><p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>Both \(\theta_1\) and \(\theta_2\) lie between \(0^\circ\) and \(90^\circ\). When A tends to move up its incline, friction on A acts down the incline.</p><p><strong>Step 3: Relevant Formulae and Principles</strong><br/>Down-slope gravitational component on A: \(mg\sin\theta_1\).<br/>Limiting friction on A: \(f_{\max} = \mu mg\cos\theta_1\).<br/>Down-slope gravitational component on B: \(mg\sin\theta_2\).</p><p><strong>Step 4: Step-by-Step Working</strong><br/>For A to just start moving up the plane, the pull from B must balance the down-slope component of A's weight plus the limiting friction on A:<br/>\[mg\sin\theta_2 = mg\sin\theta_1 + \mu mg\cos\theta_1\]<br/>Solving for \(\mu\):<br/>\[\mu = \frac{\sin\theta_2 - \sin\theta_1}{\cos\theta_1}\]<br/>Furthermore, for A to move up the plane, we require \(\sin\theta_2 &gt; \sin\theta_1 + \mu\cos\theta_1\). Since \(\mu \ge 0\) and \(\cos\theta_1 &gt; 0\), this requires \(\sin\theta_2 &gt; \sin\theta_1\), which means \(\theta_2 &gt; \theta_1\) is always necessary. Note that A can move up if \(\theta_2\) is sufficiently larger than \(\theta_1\), and B accelerates rather than always sliding at constant speed.</p><p><strong>Step 5: Check and Final Answer</strong><br/>A will just start moving up the plane when \(\mu = \frac{\sin\theta_2 - \sin\theta_1}{\cos\theta_1}\), and for A to move up the plane, \(\theta_2\) must always be greater than \(\theta_1\).</p>]]></text></generalfeedback>
   <defaultgrade>4.0000000</defaultgrade>
   <penalty>0.2500000</penalty>
   <hidden>0</hidden>
   <single>false</single>
   <shuffleanswers>true</shuffleanswers>
   <answernumbering>abc</answernumbering>
-  <answer fraction="-50" format="html">
-    <text><![CDATA[<p>A will never move up the plane.</p>]]></text>
-  </answer>
-  <answer fraction="50" format="html">
-    <text><![CDATA[<p>A will just start moving up the plane when \[\mu = \frac{\sin \theta_2 - \sin \theta_1}{\cos \theta_1}\]</p>]]></text>
-  </answer>
-  <answer fraction="50" format="html">
-    <text><![CDATA[<p>For A to move up the plane, \(\theta_{2}\) must always be greater than \(\theta_{1}\).</p>]]></text>
-  </answer>
-  <answer fraction="-50" format="html">
-    <text><![CDATA[<p>B will always slide down with constant speed.</p>]]></text>
-  </answer>
+  <answer fraction="-50" format="html"><text><![CDATA[<p>A will never move up the plane.</p>]]></text></answer>
+  <answer fraction="50" format="html"><text><![CDATA[<p>A will just start moving up the plane when \(\mu = \frac{\sin\theta_2 - \sin\theta_1}{\cos\theta_1}\).</p>]]></text></answer>
+  <answer fraction="50" format="html"><text><![CDATA[<p>For A to move up the plane, \(\theta_2\) must always be greater than \(\theta_1\).</p>]]></text></answer>
+  <answer fraction="-50" format="html"><text><![CDATA[<p>B will always slide down with constant speed.</p>]]></text></answer>
   <tags>
     <tag><text>standard:neet_ug</text></tag>
     <tag><text>lang:en</text></tag>
     <tag><text>subject:physics</text></tag>
     <tag><text>section:mcq_ii</text></tag>
-    <tag><text>class:11</text></tag>
-    <tag><text>topic:friction</text></tag>
     <tag><text>chapter:laws_of_motion</text></tag>
-    <tag><text>typology:mcq</text></tag>
+    <tag><text>typology:multi_correct</text></tag>
     <tag><text>difficulty:medium</text></tag>
     <tag><text>blooms:analyze</text></tag>
-    <tag><text>calculation:moderate</text></tag>
+    <tag><text>calculation:light</text></tag>
     <tag><text>media:diagram</text></tag>
     <tag><text>multiconcept:true</text></tag>
   </tags>
 </question>
 <question type="multichoice">
-  <name><text>NEET_UG_PHYSICS_MCQII_LAWS_OF_MOTION_MCQ_Q14 - Impulse and force during head on billiard ball collision</text></name>
-  <questiontext format="html">
-    <text><![CDATA[<p>Two billiard balls A and B, each of mass \(50\,\text{g}\) and moving in opposite directions with speed of \(5\,\text{m s}^{-1}\) each, collide and rebound with the same speed. If the collision lasts for \(10^{-3}\,\text{s}\), which of the following statements are true?</p>]]></text>
-  </questiontext>
-  <generalfeedback format="html">
-    <text><![CDATA[
-      <p><strong>Step 1: Given Data and Sign Convention</strong><br/>
-      Mass of each ball: \(m = 50\,\text{g} = 0.05\,\text{kg}\).<br/>
-      Collision duration: \(\Delta t = 10^{-3}\,\text{s}\).<br/>
-      Let the initial velocity of ball A be positive: \(u_A = +5\,\text{m s}^{-1}\), so after rebound \(v_A = -5\,\text{m s}^{-1}\).<br/>
-      For ball B moving in the opposite direction: \(u_B = -5\,\text{m s}^{-1}\), so after rebound \(v_B = +5\,\text{m s}^{-1}\).</p>
-      <p><strong>Step 2: Calculation of Impulse</strong><br/>
-      The impulse imparted to ball A is:
-      \[J_A = \Delta p_A = m(v_A - u_A) = 0.05 \times (-5 - 5) = -0.5\,\text{N s} = -0.5\,\text{kg m s}^{-1}\]
-      The impulse imparted to ball B is:
-      \[J_B = \Delta p_B = m(v_B - u_B) = 0.05 \times (5 - (-5)) = +0.5\,\text{N s} = +0.5\,\text{kg m s}^{-1}\]
-      The magnitude of impulse imparted to each ball is \(0.5\,\text{N s}\).</p>
-      <p><strong>Step 3: Force Evaluation and Action-Reaction Pair</strong><br/>
-      The average force on ball A is:
-      \[F_A = \frac{\Delta p_A}{\Delta t} = \frac{-0.5}{10^{-3}} = -500\,\text{N}\]
-      The average force on ball B is:
-      \[F_B = \frac{\Delta p_B}{\Delta t} = \frac{+0.5}{10^{-3}} = +500\,\text{N}\]
-      By Newton's third law, the impulse and the force exerted on ball A and ball B form action-reaction pairs; they are equal in magnitude and opposite in direction.</p>
-      <p><strong>Step 4: Check and Final Answer</strong><br/>
-      The magnitude of the impulse is \(0.5\,\text{N s}\), and mutual collision forces and impulses between the two bodies are equal in magnitude and directed oppositely.<br/>
-      Final conceptual result: The impulse imparted to each ball is \(0.5\,\text{N s}\), and the impulse and the force on each ball are equal in magnitude and opposite in direction.</p>
-    ]]></text>
-  </generalfeedback>
+  <name><text>PHYSICS_MCQII_LAWSOFMOTION_Q5_14 - Impulse and force in billiard ball collision</text></name>
+  <questiontext format="html"><text><![CDATA[<p><strong>5.14</strong> Two billiard balls A and B, each of mass \(50\text{ g}\) and moving in opposite directions with speed of \(5\text{ m s}^{-1}\) each, collide and rebound with the same speed. If the collision lasts for \(10^{-3}\text{ s}\), which of the following statements are true?</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>Mass of each ball, \(m = 50\text{ g} = 0.05\text{ kg}\).<br/>Initial speed, \(u = 5\text{ m s}^{-1}\); rebound speed, \(v = 5\text{ m s}^{-1}\) (in opposite direction).<br/>Duration of collision, \(\Delta t = 10^{-3}\text{ s}\).</p><p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>Take the initial velocity of ball A as \(+5\text{ m s}^{-1}\), so its final velocity is \(-5\text{ m s}^{-1}\).</p><p><strong>Step 3: Relevant Formulae and Principles</strong><br/>Impulse \(J = |\Delta p| = m|v - u|\).<br/>Average force \(F_{\text{avg}} = \frac{J}{\Delta t}\).<br/>By Newton's third law, \(\mathbf{F}_{AB} = -\mathbf{F}_{BA}\).</p><p><strong>Step 4: Step-by-Step Working</strong><br/>Magnitude of impulse imparted to each ball:<br/>\[J = 0.05\text{ kg} \times |-5 - 5|\,\text{m s}^{-1} = 0.05 \times 10 = 0.5\text{ N s} = 0.5\,\text{kg m s}^{-1}\]<br/>Magnitude of average force on each ball:<br/>\[F_{\text{avg}} = \frac{0.5\text{ N s}}{10^{-3}\text{ s}} = 500\text{ N}\]<br/>By Newton's third law, the forces exerted on the two balls during the collision are equal in magnitude and opposite in direction. Since the collision duration \(\Delta t\) is the same for both balls, the impulses imparted to each ball are also equal in magnitude and opposite in direction.</p><p><strong>Step 5: Check and Final Answer</strong><br/>The impulse imparted to each ball is \(0.5\text{ N s}\) (and the average force is \(500\text{ N}\)), and the impulse and the force on each ball are equal in magnitude and opposite in direction.</p>]]></text></generalfeedback>
   <defaultgrade>4.0000000</defaultgrade>
   <penalty>0.2500000</penalty>
   <hidden>0</hidden>
   <single>false</single>
   <shuffleanswers>true</shuffleanswers>
   <answernumbering>abc</answernumbering>
-  <answer fraction="-50" format="html">
-    <text><![CDATA[<p>The impulse imparted to each ball is \(0.25\,\text{kg m s}^{-1}\) and the force on each ball is \(250\,\text{N}\).</p>]]></text>
-  </answer>
-  <answer fraction="-50" format="html">
-    <text><![CDATA[<p>The impulse imparted to each ball is \(0.25\,\text{kg m s}^{-1}\) and the force exerted on each ball is \(25 \times 10^{-5}\,\text{N}\).</p>]]></text>
-  </answer>
-  <answer fraction="50" format="html">
-    <text><![CDATA[<p>The impulse imparted to each ball is \(0.5\,\text{N s}\).</p>]]></text>
-  </answer>
-  <answer fraction="50" format="html">
-    <text><![CDATA[<p>The impulse and the force on each ball are equal in magnitude and opposite in direction.</p>]]></text>
-  </answer>
+  <answer fraction="-50" format="html"><text><![CDATA[<p>The impulse imparted to each ball is \(0.25\,\text{kg m s}^{-1}\) and the force on each ball is \(250\text{ N}\).</p>]]></text></answer>
+  <answer fraction="-50" format="html"><text><![CDATA[<p>The impulse imparted to each ball is \(0.25\,\text{kg m s}^{-1}\) and the force exerted on each ball is \(25 \times 10^{-5}\text{ N}\).</p>]]></text></answer>
+  <answer fraction="50" format="html"><text><![CDATA[<p>The impulse imparted to each ball is \(0.5\text{ Ns}\).</p>]]></text></answer>
+  <answer fraction="50" format="html"><text><![CDATA[<p>The impulse and the force on each ball are equal in magnitude and opposite in direction.</p>]]></text></answer>
   <tags>
     <tag><text>standard:neet_ug</text></tag>
     <tag><text>lang:en</text></tag>
     <tag><text>subject:physics</text></tag>
     <tag><text>section:mcq_ii</text></tag>
-    <tag><text>class:11</text></tag>
-    <tag><text>topic:impulse_and_momentum</text></tag>
     <tag><text>chapter:laws_of_motion</text></tag>
-    <tag><text>typology:mcq</text></tag>
+    <tag><text>typology:multi_correct</text></tag>
     <tag><text>difficulty:medium</text></tag>
     <tag><text>blooms:apply</text></tag>
-    <tag><text>calculation:moderate</text></tag>
+    <tag><text>calculation:light</text></tag>
     <tag><text>media:text</text></tag>
     <tag><text>multiconcept:false</text></tag>
   </tags>
 </question>
 <question type="multichoice">
-  <name><text>NEET_UG_PHYSICS_MCQII_LAWS_OF_MOTION_MCQ_Q15 - Resultant acceleration from two perpendicular forces</text></name>
-  <questiontext format="html">
-    <text><![CDATA[<p>A body of mass \(10\,\text{kg}\) is acted upon by two perpendicular forces, \(6\,\text{N}\) and \(8\,\text{N}\). The resultant acceleration of the body is</p>]]></text>
-  </questiontext>
-  <generalfeedback format="html">
-    <text><![CDATA[
-      <p><strong>Step 1: Given Data and Conditions</strong><br/>
-      Mass of the body: \(m = 10\,\text{kg}\).<br/>
-      Two mutually perpendicular forces: \(F_1 = 6\,\text{N}\) and \(F_2 = 8\,\text{N}\).</p>
-      <p><strong>Step 2: Magnitude of Resultant Force and Acceleration</strong><br/>
-      Because the forces are perpendicular, their vector sum has magnitude:
-      \[F_{\text{net}} = \sqrt{F_1^2 + F_2^2} = \sqrt{6^2 + 8^2} = \sqrt{36 + 64} = \sqrt{100} = 10\,\text{N}\]
-      By Newton's second law, the magnitude of the resultant acceleration is:
-      \[a = \frac{F_{\text{net}}}{m} = \frac{10\,\text{N}}{10\,\text{kg}} = 1\,\text{m s}^{-2}\]</p>
-      <p><strong>Step 3: Direction of Acceleration</strong><br/>
-      Acceleration is parallel to the resultant force vector.<br/>
-      Let \(\theta_1\) be the angle made with respect to the \(6\,\text{N}\) force:
-      \[\tan \theta_1 = \frac{F_2}{F_1} = \frac{8}{6} = \frac{4}{3} \implies \theta_1 = \tan^{-1}\left(\frac{4}{3}\right)\]
-      Let \(\theta_2\) be the angle made with respect to the \(8\,\text{N}\) force:
-      \[\tan \theta_2 = \frac{F_1}{F_2} = \frac{6}{8} = \frac{3}{4} \implies \theta_2 = \tan^{-1}\left(\frac{3}{4}\right)\]
-      Both angular formulations define the identical physical vector in space.</p>
-      <p><strong>Step 4: Check and Final Answer</strong><br/>
-      The magnitude is strictly \(1\,\text{m s}^{-2}\), which acts at \(\tan^{-1}(4/3)\) with respect to the \(6\,\text{N}\) force and equivalently at \(\tan^{-1}(3/4)\) with respect to the \(8\,\text{N}\) force.<br/>
-      Final conceptual result: \(1\,\text{m s}^{-2}\) at an angle of \(\tan^{-1}(4/3)\) with respect to the \(6\,\text{N}\) force, and \(1\,\text{m s}^{-2}\) at an angle of \(\tan^{-1}(3/4)\) with respect to the \(8\,\text{N}\) force.</p>
-    ]]></text>
-  </generalfeedback>
+  <name><text>PHYSICS_MCQII_LAWSOFMOTION_Q5_15 - Resultant acceleration from perpendicular forces</text></name>
+  <questiontext format="html"><text><![CDATA[<p><strong>5.15</strong> A body of mass \(10\text{ kg}\) is acted upon by two perpendicular forces, \(6\text{ N}\) and \(8\text{ N}\). The resultant acceleration of the body is</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>Mass of the body, \(m = 10\text{ kg}\).<br/>Two perpendicular forces: \(F_1 = 6\text{ N}\) and \(F_2 = 8\text{ N}\).</p><p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>The \(6\text{ N}\) force and \(8\text{ N}\) force are at \(90^\circ\) to each other.</p><p><strong>Step 3: Relevant Formulae and Principles</strong><br/>Resultant of two perpendicular forces: \(F = \sqrt{F_1^2 + F_2^2}\).<br/>Magnitude of acceleration: \(a = \frac{F}{m}\).<br/>Direction angle \(\theta\) with respect to \(F_1\): \(\tan\theta = \frac{F_2}{F_1}\).</p><p><strong>Step 4: Step-by-Step Working</strong><br/>Magnitude of the resultant force:<br/>\[F = \sqrt{6^2 + 8^2} = \sqrt{36 + 64} = \sqrt{100} = 10\text{ N}\]<br/>Magnitude of the resultant acceleration:<br/>\[a = \frac{F}{m} = \frac{10\text{ N}}{10\text{ kg}} = 1\,\text{m s}^{-2}\]<br/>Angle \(\theta_1\) with respect to the \(6\text{ N}\) force:<br/>\[\tan\theta_1 = \frac{8}{6} = \frac{4}{3} \implies \theta_1 = \tan^{-1}\left(\frac{4}{3}\right)\]<br/>Angle \(\theta_2\) with respect to the \(8\text{ N}\) force:<br/>\[\tan\theta_2 = \frac{6}{8} = \frac{3}{4} \implies \theta_2 = \tan^{-1}\left(\frac{3}{4}\right)\]</p><p><strong>Step 5: Check and Final Answer</strong><br/>Note that \(\tan^{-1}(4/3) + \tan^{-1}(3/4) = 90^\circ\), confirming consistency. Thus, the resultant acceleration is \(1\,\text{m s}^{-2}\) at an angle of \(\tan^{-1}(4/3)\) w.r.t. the \(6\text{ N}\) force, or equivalently at an angle of \(\tan^{-1}(3/4)\) w.r.t. the \(8\text{ N}\) force.</p>]]></text></generalfeedback>
   <defaultgrade>4.0000000</defaultgrade>
   <penalty>0.2500000</penalty>
   <hidden>0</hidden>
   <single>false</single>
   <shuffleanswers>true</shuffleanswers>
   <answernumbering>abc</answernumbering>
-  <answer fraction="50" format="html">
-    <text><![CDATA[<p>\(1\,\text{m s}^{-2}\) at an angle of \(\tan^{-1}(4/3)\) w.r.t. \(6\,\text{N}\) force.</p>]]></text>
-  </answer>
-  <answer fraction="-50" format="html">
-    <text><![CDATA[<p>\(0.2\,\text{m s}^{-2}\) at an angle of \(\tan^{-1}(4/3)\) w.r.t. \(6\,\text{N}\) force.</p>]]></text>
-  </answer>
-  <answer fraction="50" format="html">
-    <text><![CDATA[<p>\(1\,\text{m s}^{-2}\) at an angle of \(\tan^{-1}(3/4)\) w.r.t. \(8\,\text{N}\) force.</p>]]></text>
-  </answer>
-  <answer fraction="-50" format="html">
-    <text><![CDATA[<p>\(0.2\,\text{m s}^{-2}\) at an angle of \(\tan^{-1}(3/4)\) w.r.t. \(8\,\text{N}\) force.</p>]]></text>
-  </answer>
+  <answer fraction="50" format="html"><text><![CDATA[<p>\(1\,\text{m s}^{-2}\) at an angle of \(\tan^{-1}(4/3)\) w.r.t. \(6\text{ N}\) force.</p>]]></text></answer>
+  <answer fraction="-50" format="html"><text><![CDATA[<p>\(0.2\,\text{m s}^{-2}\) at an angle of \(\tan^{-1}(4/3)\) w.r.t. \(6\text{ N}\) force.</p>]]></text></answer>
+  <answer fraction="50" format="html"><text><![CDATA[<p>\(1\,\text{m s}^{-2}\) at an angle of \(\tan^{-1}(3/4)\) w.r.t. \(8\text{ N}\) force.</p>]]></text></answer>
+  <answer fraction="-50" format="html"><text><![CDATA[<p>\(0.2\,\text{m s}^{-2}\) at an angle of \(\tan^{-1}(3/4)\) w.r.t. \(8\text{ N}\) force.</p>]]></text></answer>
   <tags>
     <tag><text>standard:neet_ug</text></tag>
     <tag><text>lang:en</text></tag>
     <tag><text>subject:physics</text></tag>
     <tag><text>section:mcq_ii</text></tag>
-    <tag><text>class:11</text></tag>
-    <tag><text>topic:newtons_second_law</text></tag>
     <tag><text>chapter:laws_of_motion</text></tag>
-    <tag><text>typology:mcq</text></tag>
+    <tag><text>typology:multi_correct</text></tag>
     <tag><text>difficulty:easy</text></tag>
     <tag><text>blooms:apply</text></tag>
     <tag><text>calculation:light</text></tag>

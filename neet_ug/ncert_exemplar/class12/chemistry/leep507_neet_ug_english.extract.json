@@ -6,12 +6,11 @@
   "source_sha256": "aa5c5c6237f8a7faf89e614d8588c022b2fbb84b6cb367552d920445415efb70",
   "configuration": {
     "communicator": "AgentSessionBackend",
-    "model_name": "gemini-3.8-flash",
+    "model_name": "gemini-4-hydrogen",
     "agent_name": "antigravity-preview-09-2026",
     "agent_type": "antigravity",
     "bucket_name": null,
     "ocr_model": "mistral-ocr-latest",
-    "page_check_model_name": "gemini-3.6-flash",
     "languages": [
       "english"
     ],
@@ -42,7 +41,7 @@
       "questions_file": "pages_1_5.xml",
       "question_count": 28,
       "error": null,
-      "attempt_count": 2
+      "attempt_count": 1
     },
     {
       "id": "pages_6_10",
@@ -53,7 +52,7 @@
       "questions_file": "pages_6_10.xml",
       "question_count": 16,
       "error": null,
-      "attempt_count": 1
+      "attempt_count": 2
     },
     {
       "id": "pages_11_15",
@@ -67,5 +66,5 @@
       "attempt_count": 1
     }
   ],
-  "final_sha256": "e4bfc4b6ecd08efb867e5126cbb40660898242be1af6bebff899e5dae825f943"
+  "final_sha256": "2a54c2124e51e0810a44ead01c2a989067da12f1c3f1ce34b271c10213cae1a2"
 }

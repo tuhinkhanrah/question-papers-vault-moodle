@@ -1,168 +1,109 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <quiz>
 <question type="multichoice">
-  <name>
-    <text>NEET_UG_PHYSICS_WORKENERGYANDPOWER_MCQ_Q01 - Reason for ignoring mutual magnetic force</text>
-  </name>
-  <questiontext format="html">
-    <text><![CDATA[<p>An electron and a proton are moving under the influence of mutual forces. In calculating the change in the kinetic energy of the system during motion, one ignores the magnetic force of one on another. This is because,</p>]]></text>
-  </questiontext>
-  <generalfeedback format="html">
-    <text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>The magnetic Lorentz force acting on a charged particle of charge \(q\) moving with instantaneous velocity \(\vec{v}\) in a magnetic field \(\vec{B}\) is given by:<br/>\[\vec{F}_m = q(\vec{v} \times \vec{B})\]</p><p><strong>Step 2: Work Done by Magnetic Force</strong><br/>The rate of work done (power) by the magnetic force on the charged particle at any instant is:<br/>\[P = \vec{F}_m \cdot \vec{v} = q(\vec{v} \times \vec{B}) \cdot \vec{v}\]<br/>Because the vector cross product \(\vec{v} \times \vec{B}\) is always perpendicular to \(\vec{v}\), the dot product is identically zero at every instant:<br/>\[\vec{F}_m \cdot \vec{v} = 0\]<br/>Consequently, the elementary work done by the magnetic force along any displacement \(d\vec{r} = \vec{v}\,dt\) is zero:<br/>\[dW = \vec{F}_m \cdot d\vec{r} = 0 \implies W = 0\]</p><p><strong>Step 3: Work-Energy Theorem</strong><br/>By the work-energy theorem, the change in kinetic energy of each particle equals the net work done on it by all forces. Since the mutual magnetic forces do zero work on each particle individually, they cannot produce any change in the kinetic energy of the system.</p><p><strong>Step 4: Final Conclusion</strong><br/>Mutual magnetic forces are ignored in calculating the change in kinetic energy because the magnetic forces do no work on each particle.</p><p><strong>Final Answer:</strong><br/>The magnetic forces do no work on each particle.</p>]]></text>
-  </generalfeedback>
+  <name><text>NEET_UG_PHYSICS_MCQI_WORKENERGYANDPOWER_MCQ_Q6_1 - Ignoring magnetic force when calculating kinetic energy</text></name>
+  <questiontext format="html"><text><![CDATA[<p>An electron and a proton are moving under the influence of mutual forces. In calculating the change in the kinetic energy of the system during motion, one ignores the magnetic force of one on another. This is because,</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>The magnetic force acting on a moving charge \(q\) with velocity \(\vec{v}\) in a magnetic field \(\vec{B}\) is given by \(\vec{F}_m = q(\vec{v} \times \vec{B})\). By the definition of the cross product, \(\vec{F}_m\) is always perpendicular to the instantaneous velocity \(\vec{v}\) of the particle.</p><p><strong>Step 2: Evaluation</strong><br/>The elemental work done by any force \(\vec{F}\) during an infinitesimal displacement \(d\vec{r} = \vec{v}\,dt\) is \(dW = \vec{F} \cdot d\vec{r} = \vec{F} \cdot \vec{v}\,dt\). Because \(\vec{F}_m \perp \vec{v}\), their dot product is zero: \(dW_m = \vec{F}_m \cdot \vec{v}\,dt = 0\).</p><p><strong>Step 3: Application</strong><br/>By the work-energy theorem, the change in kinetic energy of each particle equals the net work done on it. Since the magnetic force does zero work on both the electron and the proton individually, it contributes nothing to the change in kinetic energy of either particle or of the system as a whole.</p><p><strong>Step 4: Final Conclusion</strong><br/>The magnetic force is ignored in calculating the change in kinetic energy because the magnetic forces do no work on each particle.</p>]]></text></generalfeedback>
   <defaultgrade>4.0000000</defaultgrade>
   <penalty>0.2500000</penalty>
   <hidden>0</hidden>
   <single>true</single>
   <shuffleanswers>true</shuffleanswers>
   <answernumbering>abc</answernumbering>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>the two magnetic forces are equal and opposite, so they produce no net effect.</p>]]></text>
-  </answer>
-  <answer fraction="100" format="html">
-    <text><![CDATA[<p>the magnetic forces do no work on each particle.</p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>the magnetic forces do equal and opposite (but non-zero) work on each particle.</p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>the magenetic forces are necessarily negligible.</p>]]></text>
-  </answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>the two magnetic forces are equal and opposite, so they produce no net effect.</p>]]></text></answer>
+  <answer fraction="100" format="html"><text><![CDATA[<p>the magnetic forces do no work on each particle.</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>the magnetic forces do equal and opposite (but non-zero) work on each particle.</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>the magnetic forces are necessarily negligible.</p>]]></text></answer>
   <tags>
     <tag><text>standard:neet_ug</text></tag>
     <tag><text>lang:en</text></tag>
     <tag><text>subject:physics</text></tag>
-    <tag><text>class:class_11</text></tag>
-    <tag><text>topic:work_energy_and_power</text></tag>
+    <tag><text>section:mcq_i</text></tag>
+    <tag><text>class:11</text></tag>
     <tag><text>chapter:work_energy_and_power</text></tag>
     <tag><text>typology:mcq</text></tag>
     <tag><text>difficulty:easy</text></tag>
     <tag><text>blooms:understand</text></tag>
-    <tag><text>calculation:light</text></tag>
-    <tag><text>media:text</text></tag>
-    <tag><text>multiconcept:false</text></tag>
-  </tags>
-</question>
-<question type="multichoice">
-  <name>
-    <text>NEET_UG_PHYSICS_WORKENERGYANDPOWER_MCQ_Q02 - Work done on proton versus positron</text>
-  </name>
-  <questiontext format="html">
-    <text><![CDATA[<p>A proton is kept at rest. A positively charged particle is released from rest at a distance \(d\) in its field. Consider two experiments; one in which the charged particle is also a proton and in another, a positron. In the same time \(t\), the work done on the two moving charged particles is</p>]]></text>
-  </questiontext>
-  <generalfeedback format="html">
-    <text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>- Stationary source: A proton of charge \(+e\) fixed at rest.<br/>- Released particle in Experiment 1: Proton of charge \(+e\) and mass \(m_p\).<br/>- Released particle in Experiment 2: Positron of charge \(+e\) and mass \(m_e\).<br/>- Initial separation: \(d\) for both cases.<br/>- Initial state: Both released from rest (\(u = 0\)).<br/>- Time duration: Same elapsed time \(t\).<br/>- Mass relationship: \(m_e \ll m_p\).</p><p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>Both particles experience a repulsive radial Coulomb force away from the fixed proton along a straight line.</p><p><strong>Step 3: Relevant Formulae and Principles</strong><br/>Coulomb force at separation \(r\):<br/>\[F = \frac{1}{4\pi\varepsilon_0}\frac{e^2}{r^2}\]<br/>Acceleration of the particle:<br/>\[a = \frac{F}{m}\]<br/>Work done by the electrostatic field equals the gain in kinetic energy or decrease in potential energy:<br/>\[W = \int F \, dr = U(d) - U(d + s) = \frac{e^2}{4\pi\varepsilon_0}\left(\frac{1}{d} - \frac{1}{d + s}\right)\]</p><p><strong>Step 4: Step-by-Step Working</strong><br/>At the initial release point \(r = d\), the electrostatic repulsive force on both particles is identical because their charges are equal (\(+e\)).<br/>Because the mass of the positron is roughly \(1836\) times smaller than that of the proton (\(m_e \ll m_p\)), the initial acceleration of the positron is drastically larger:<br/>\[a_e = \frac{F}{m_e} \gg a_p = \frac{F}{m_p}\]<br/>Because of this substantially greater acceleration throughout the motion, in the same elapsed time \(t\), the positron travels a much greater distance away from the fixed proton than the released proton does (\(s_{\text{positron}} \gg s_{\text{proton}}\)).<br/>Since \(s_{\text{positron}} > s_{\text{proton}}\), the drop in electrostatic potential energy is greater for the positron:<br/>\[\left(\frac{1}{d} - \frac{1}{d + s_{\text{positron}}}\right) > \left(\frac{1}{d} - \frac{1}{d + s_{\text{proton}}}\right)\]<br/>Consequently, the work done on the positron in time \(t\) is greater than that done on the proton.</p><p><strong>Step 5: Check and Final Answer</strong><br/>The lighter positron moves away a larger distance in time \(t\), leading to more work done on it by the electric field.</p><p><strong>Final Answer:</strong><br/>more for the case of a positron, as the positron moves away a larger distance.</p>]]></text>
-  </generalfeedback>
-  <defaultgrade>4.0000000</defaultgrade>
-  <penalty>0.2500000</penalty>
-  <hidden>0</hidden>
-  <single>true</single>
-  <shuffleanswers>true</shuffleanswers>
-  <answernumbering>abc</answernumbering>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>same as the same force law is involved in the two experiments.</p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>less for the case of a positron, as the positron moves away more rapidly and the force on it weakens.</p>]]></text>
-  </answer>
-  <answer fraction="100" format="html">
-    <text><![CDATA[<p>more for the case of a positron, as the positron moves away a larger distance.</p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>same as the work done by charged particle on the stationary proton.</p>]]></text>
-  </answer>
-  <tags>
-    <tag><text>standard:neet_ug</text></tag>
-    <tag><text>lang:en</text></tag>
-    <tag><text>subject:physics</text></tag>
-    <tag><text>class:class_11</text></tag>
-    <tag><text>topic:work_energy_and_power</text></tag>
-    <tag><text>chapter:work_energy_and_power</text></tag>
-    <tag><text>typology:mcq</text></tag>
-    <tag><text>difficulty:medium</text></tag>
-    <tag><text>blooms:analyze</text></tag>
-    <tag><text>calculation:light</text></tag>
     <tag><text>media:text</text></tag>
     <tag><text>multiconcept:true</text></tag>
   </tags>
 </question>
 <question type="multichoice">
-  <name>
-    <text>NEET_UG_PHYSICS_WORKENERGYANDPOWER_MCQ_Q03 - Reaction force on man standing up</text>
-  </name>
-  <questiontext format="html">
-    <text><![CDATA[<p>A man squatting on the ground gets straight up and stand. The force of reaction of ground on the man during the process is</p>]]></text>
-  </questiontext>
-  <generalfeedback format="html">
-    <text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>Let \(m\) be the mass of the man. The two vertical forces acting on him are:<br/>- Downward gravitational force: \(W = mg\)<br/>- Upward normal reaction force exerted by the ground: \(R\)<br/>By Newton's second law for vertical motion of his center of mass:<br/>\[R - mg = m a_y \implies R = m(g + a_y)\]<br/>where \(a_y\) is the vertical acceleration of his center of mass.</p><p><strong>Step 2: Evaluation of the Motion</strong><br/>- In the initial stage of standing up, the man accelerates his body upward from rest, so \(a_y > 0\). During this acceleration phase:<br/>\[R = m(g + a_y) > mg\]<br/>- As he approaches the erect position, he slows down his upward motion to come to rest, meaning \(a_y < 0\) (deceleration), so \(R < mg\).<br/>- Finally, once he is completely erect and standing stationary, his acceleration is zero (\(a_y = 0\)). In this static state:<br/>\[R = mg\]</p><p><strong>Step 3: Final Conclusion</strong><br/>During the overall process of getting straight up and standing, the reaction force from the ground is initially greater than \(mg\) to accelerate him upward and later becomes equal to \(mg\) once standing still.</p><p><strong>Final Answer:</strong><br/>at first greater than \(mg\), and later becomes equal to \(mg\).</p>]]></text>
-  </generalfeedback>
+  <name><text>NEET_UG_PHYSICS_MCQI_WORKENERGYANDPOWER_MCQ_Q6_2 - Work done on proton versus positron</text></name>
+  <questiontext format="html"><text><![CDATA[<p>A proton is kept at rest. A positively charged particle is released from rest at a distance \(d\) in its field. Consider two experiments; one in which the charged particle is also a proton and in another, a positron. In the same time \(t\), the work done on the two moving charged particles is</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>Both a proton and a positron carry the same positive charge \(+e\). When placed at the same distance \(d\) from a fixed proton, the electrostatic repulsive force on each is identical in magnitude at the same separation: \(F(r) = \frac{e^2}{4\pi\varepsilon_0 r^2}\).</p><p><strong>Step 2: Evaluation</strong><br/>By Newton's second law, the acceleration of the moving particle is \(a = \frac{F}{m}\). Since the mass of a positron (\(m_e\)) is much smaller than the mass of a proton (\(m_p \approx 1836\,m_e\)), the positron experiences a much larger acceleration. Consequently, in the same time interval \(t\), the positron travels a much larger distance \(\Delta r\) away from the stationary proton than the moving proton does.</p><p><strong>Step 3: Application</strong><br/>The work done by the electrostatic field on the particle as it moves from \(d\) to \(d + \Delta r\) is \(W = \int_{d}^{d+\Delta r} \frac{e^2}{4\pi\varepsilon_0 r^2}\,dr = \frac{e^2}{4\pi\varepsilon_0}\left(\frac{1}{d} - \frac{1}{d + \Delta r}\right)\). Because \(\Delta r\) is larger for the positron, \(\frac{1}{d + \Delta r}\) is smaller, making \(W\) strictly greater for the positron.</p><p><strong>Step 4: Final Conclusion</strong><br/>In the same time \(t\), the work done is more for the case of a positron, as the positron moves away a larger distance.</p>]]></text></generalfeedback>
   <defaultgrade>4.0000000</defaultgrade>
   <penalty>0.2500000</penalty>
   <hidden>0</hidden>
   <single>true</single>
   <shuffleanswers>true</shuffleanswers>
   <answernumbering>abc</answernumbering>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>constant and equal to \(mg\) in magnitude.</p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>constant and greater than \(mg\) in magnitude.</p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>variable but always greater than \(mg\).</p>]]></text>
-  </answer>
-  <answer fraction="100" format="html">
-    <text><![CDATA[<p>at first greater than \(mg\), and later becomes equal to \(mg\).</p>]]></text>
-  </answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>same as the same force law is involved in the two experiments.</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>less for the case of a positron, as the positron moves away more rapidly and the force on it weakens.</p>]]></text></answer>
+  <answer fraction="100" format="html"><text><![CDATA[<p>more for the case of a positron, as the positron moves away a larger distance.</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>same as the work done by charged particle on the stationary proton.</p>]]></text></answer>
   <tags>
     <tag><text>standard:neet_ug</text></tag>
     <tag><text>lang:en</text></tag>
     <tag><text>subject:physics</text></tag>
-    <tag><text>class:class_11</text></tag>
-    <tag><text>topic:work_energy_and_power</text></tag>
+    <tag><text>section:mcq_i</text></tag>
+    <tag><text>class:11</text></tag>
     <tag><text>chapter:work_energy_and_power</text></tag>
     <tag><text>typology:mcq</text></tag>
     <tag><text>difficulty:medium</text></tag>
-    <tag><text>blooms:understand</text></tag>
-    <tag><text>calculation:light</text></tag>
+    <tag><text>blooms:analyze</text></tag>
+    <tag><text>media:text</text></tag>
+    <tag><text>multiconcept:true</text></tag>
+  </tags>
+</question>
+<question type="multichoice">
+  <name><text>NEET_UG_PHYSICS_MCQI_WORKENERGYANDPOWER_MCQ_Q6_3 - Ground reaction force when standing up</text></name>
+  <questiontext format="html"><text><![CDATA[<p>A man squatting on the ground gets straight up and stand. The force of reaction of ground on the man during the process is</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>Let \(N\) be the upward normal reaction force exerted by the ground on the man of mass \(m\), and \(mg\) be his downward weight. By Newton's second law applied to the centre of mass, \(N - mg = ma\), where \(a\) is the upward acceleration of his centre of mass.</p><p><strong>Step 2: Evaluation</strong><br/>To rise from a squatting position (initially at rest), the man's centre of mass must accelerate upward (\(a &gt; 0\)), which requires \(N = m(g + a) &gt; mg\). Once he reaches the upright standing posture and comes to rest (\(a = 0\)), the net force on him becomes zero, so \(N = mg\).</p><p><strong>Step 3: Application</strong><br/>Therefore, the normal reaction of the ground on the man is not constant; it exceeds \(mg\) during the initial upward acceleration and settles to \(mg\) when he stands upright at rest.</p><p><strong>Step 4: Final Conclusion</strong><br/>The force of reaction of the ground on the man is at first greater than \(mg\), and later becomes equal to \(mg\).</p>]]></text></generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="0" format="html"><text><![CDATA[<p>constant and equal to \(mg\) in magnitude.</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>constant and greater than \(mg\) in magnitude.</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>variable but always greater than \(mg\).</p>]]></text></answer>
+  <answer fraction="100" format="html"><text><![CDATA[<p>at first greater than \(mg\), and later becomes equal to \(mg\).</p>]]></text></answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>section:mcq_i</text></tag>
+    <tag><text>class:11</text></tag>
+    <tag><text>chapter:work_energy_and_power</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:medium</text></tag>
+    <tag><text>blooms:apply</text></tag>
     <tag><text>media:text</text></tag>
     <tag><text>multiconcept:false</text></tag>
   </tags>
 </question>
 <question type="multichoice">
-  <name>
-    <text>NEET_UG_PHYSICS_WORKENERGYANDPOWER_MCQ_Q04 - Work done by skidding cycle on road</text>
-  </name>
-  <questiontext format="html">
-    <text><![CDATA[<p>A bicyclist comes to a skidding stop in \(10\text{ m}\). During this process, the force on the bicycle due to the road is \(200\text{ N}\) and is directly opposed to the motion. The work done by the cycle on the road is</p>]]></text>
-  </questiontext>
-  <generalfeedback format="html">
-    <text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>- Stopping distance of bicycle: \(s = 10\text{ m}\).<br/>- Force on the bicycle due to the road: \(F = 200\text{ N}\) directly opposed to motion.<br/>- Force exerted by the bicycle on the road (by Newton's third law): \(F' = 200\text{ N}\) in the forward direction.</p><p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>Work done on an object by a force is given by:<br/>\[W = \int \vec{F} \cdot d\vec{s}\]<br/>where \(d\vec{s}\) is the displacement of the point of application of the force on that specific object.</p><p><strong>Step 3: Relevant Formulae and Principles</strong><br/>For work to be done on a body, the point of contact on that body must undergo a non-zero displacement in the frame of reference.</p><p><strong>Step 4: Step-by-Step Working</strong><br/>By Newton's third law of motion, the bicycle exerts a forward frictional force of magnitude \(200\text{ N}\) on the road surface.<br/>However, the road does not move, so the point of application of this force on the road surface undergoes zero displacement:<br/>\[s_{\text{road}} = 0\]<br/>Therefore, the work done by the bicycle on the road is:<br/>\[W = F' \times s_{\text{road}} = 200\text{ N} \times 0\text{ m} = 0\text{ J}\]</p><p><strong>Step 5: Check and Final Answer</strong><br/>Because the road has zero displacement, the work done on it is strictly zero.</p><p><strong>Final Answer:</strong><br/>zero</p>]]></text>
-  </generalfeedback>
+  <name><text>NEET_UG_PHYSICS_MCQI_WORKENERGYANDPOWER_MCQ_Q6_4 - Work done by cycle on road</text></name>
+  <questiontext format="html"><text><![CDATA[<p>A bicyclist comes to a skidding stop in \(10\text{ m}\). During this process, the force on the bicycle due to the road is \(200\text{ N}\) and is directly opposed to the motion. The work done by the cycle on the road is</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>Stopping distance of the bicycle, \(s = 10\text{ m}\). Force exerted by the road on the bicycle, \(F = 200\text{ N}\) opposite to the direction of motion. By Newton's third law, the bicycle exerts an equal and opposite force of \(200\text{ N}\) on the road.</p><p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>The road is fixed to the Earth and is treated as stationary, so the point of application of the force on the road undergoes zero displacement (\(s_{\text{road}} = 0\)).</p><p><strong>Step 3: Relevant Formulae and Principles</strong><br/>The work done by a constant force \(\vec{F}\) acting on a body is \(W = \vec{F} \cdot \vec{s} = F s \cos\theta\), where \(\vec{s}\) is the displacement of the body on which the force acts.</p><p><strong>Step 4: Step-by-Step Working</strong><br/>For the work done by the cycle on the road, the displacement of the road is \(s_{\text{road}} = 0\text{ m}\). Substituting into the work formula gives \(W = (200\text{ N})(0\text{ m})\cos\theta = 0\text{ J}\).</p><p><strong>Step 5: Check and Final Answer</strong><br/>Since the road does not move, no work can be done on it regardless of the magnitude of the force. Thus, the work done by the cycle on the road is zero.</p>]]></text></generalfeedback>
   <defaultgrade>4.0000000</defaultgrade>
   <penalty>0.2500000</penalty>
   <hidden>0</hidden>
   <single>true</single>
   <shuffleanswers>true</shuffleanswers>
   <answernumbering>abc</answernumbering>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>+ 2000J</p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>- 200J</p>]]></text>
-  </answer>
-  <answer fraction="100" format="html">
-    <text><![CDATA[<p>zero</p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>- 20,000J</p>]]></text>
-  </answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>\(+2000\text{ J}\)</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>\(-200\text{ J}\)</p>]]></text></answer>
+  <answer fraction="100" format="html"><text><![CDATA[<p>zero</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>\(-20,000\text{ J}\)</p>]]></text></answer>
   <tags>
     <tag><text>standard:neet_ug</text></tag>
     <tag><text>lang:en</text></tag>
     <tag><text>subject:physics</text></tag>
-    <tag><text>class:class_11</text></tag>
-    <tag><text>topic:work_energy_and_power</text></tag>
+    <tag><text>section:mcq_i</text></tag>
+    <tag><text>class:11</text></tag>
     <tag><text>chapter:work_energy_and_power</text></tag>
     <tag><text>typology:mcq</text></tag>
     <tag><text>difficulty:easy</text></tag>
@@ -173,125 +114,81 @@
   </tags>
 </question>
 <question type="multichoice">
-  <name>
-    <text>NEET_UG_PHYSICS_WORKENERGYANDPOWER_MCQ_Q05 - Constant quantity during free fall in vacuum</text>
-  </name>
-  <questiontext format="html">
-    <text><![CDATA[<p>A body is falling freely under the action of gravity alone in vacuum. Which of the following quantities remain constant during the fall?</p>]]></text>
-  </questiontext>
-  <generalfeedback format="html">
-    <text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>In a vacuum, air resistance is completely absent. The only force acting on the falling body is the force of gravity, which is a conservative force.</p><p><strong>Step 2: Evaluation of Quantities</strong><br/>- Kinetic energy: As the body falls, it accelerates downward with acceleration \(g\), so its velocity increases continuously (\(v = gt\)). Thus, kinetic energy \(K = \frac{1}{2}mv^2\) increases throughout the fall.<br/>- Potential energy: The height \(h\) above the reference level decreases continuously, so gravitational potential energy \(U = mgh\) decreases.<br/>- Total linear momentum: Linear momentum \(p = mv\) increases continuously because the velocity increases.<br/>- Total mechanical energy: According to the law of conservation of mechanical energy, in the presence of conservative forces alone:<br/>\[E = K + U = \text{constant}\]<br/>The decrease in potential energy is continuously converted into an identical increase in kinetic energy (\(\Delta K = -\Delta U\)), keeping the sum constant.</p><p><strong>Step 3: Final Conclusion</strong><br/>During free fall under gravity alone in a vacuum, the total mechanical energy remains constant.</p><p><strong>Final Answer:</strong><br/>Total mechanical energy.</p>]]></text>
-  </generalfeedback>
+  <name><text>NEET_UG_PHYSICS_MCQI_WORKENERGYANDPOWER_MCQ_Q6_5 - Constant quantity during free fall in vacuum</text></name>
+  <questiontext format="html"><text><![CDATA[<p>A body is falling freely under the action of gravity alone in vacuum. Which of the following quantities remain constant during the fall?</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>When a body falls freely under gravity alone in vacuum, the only force acting on it is the conservative gravitational force; there are no dissipative forces such as air resistance.</p><p><strong>Step 2: Evaluation</strong><br/>As the body descends, its speed increases, so both its kinetic energy (\(K = \frac{1}{2}mv^2\)) and the magnitude of its linear momentum (\(p = mv\)) increase. Simultaneously, its height decreases, so its gravitational potential energy (\(U = mgh\)) decreases. However, by the principle of conservation of mechanical energy, the decrease in potential energy equals the increase in kinetic energy.</p><p><strong>Step 3: Application</strong><br/>Because only a conservative force acts on the body, the sum of its kinetic and potential energies, \(E = K + U\), remains invariant throughout the motion.</p><p><strong>Step 4: Final Conclusion</strong><br/>The total mechanical energy remains constant during the free fall in vacuum.</p>]]></text></generalfeedback>
   <defaultgrade>4.0000000</defaultgrade>
   <penalty>0.2500000</penalty>
   <hidden>0</hidden>
   <single>true</single>
   <shuffleanswers>true</shuffleanswers>
   <answernumbering>abc</answernumbering>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>Kinetic energy.</p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>Potential energy.</p>]]></text>
-  </answer>
-  <answer fraction="100" format="html">
-    <text><![CDATA[<p>Total mechanical energy.</p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>Total linear momentum.</p>]]></text>
-  </answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>Kinetic energy.</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>Potential energy.</p>]]></text></answer>
+  <answer fraction="100" format="html"><text><![CDATA[<p>Total mechanical energy.</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>Total linear momentum.</p>]]></text></answer>
   <tags>
     <tag><text>standard:neet_ug</text></tag>
     <tag><text>lang:en</text></tag>
     <tag><text>subject:physics</text></tag>
-    <tag><text>class:class_11</text></tag>
-    <tag><text>topic:work_energy_and_power</text></tag>
+    <tag><text>section:mcq_i</text></tag>
+    <tag><text>class:11</text></tag>
     <tag><text>chapter:work_energy_and_power</text></tag>
     <tag><text>typology:mcq</text></tag>
     <tag><text>difficulty:easy</text></tag>
-    <tag><text>blooms:remember</text></tag>
-    <tag><text>calculation:light</text></tag>
+    <tag><text>blooms:understand</text></tag>
     <tag><text>media:text</text></tag>
     <tag><text>multiconcept:false</text></tag>
   </tags>
 </question>
 <question type="multichoice">
-  <name>
-    <text>NEET_UG_PHYSICS_WORKENERGYANDPOWER_MCQ_Q06 - Conserved quantity in an inelastic collision</text>
-  </name>
-  <questiontext format="html">
-    <text><![CDATA[<p>During inelastic collision between two bodies, which of the following quantities always remain conserved?</p>]]></text>
-  </questiontext>
-  <generalfeedback format="html">
-    <text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>During a collision between two bodies, the forces that act during contact are internal action-reaction pairs between the colliding bodies. In the absence of external forces on the two-body system, the net external force is zero (\(\vec{F}_{\text{ext}} = 0\)).</p><p><strong>Step 2: Evaluation of Quantities</strong><br/>- Total linear momentum: By Newton's second law for a system of particles:<br/>\[\frac{d\vec{P}}{dt} = \vec{F}_{\text{ext}} = 0 \implies \vec{P} = \text{constant}\]<br/>Hence, total linear momentum is always conserved in every collision, whether elastic or inelastic.<br/>- Total kinetic energy: By definition, in an inelastic collision, a portion of the initial kinetic energy is converted into non-mechanical forms such as thermal energy, acoustic energy, and internal deformation energy. Thus, total kinetic energy is not conserved.<br/>- Total mechanical energy: Since mechanical energy is converted into non-mechanical forms of energy, it is not conserved.<br/>- Speed of each body: The speed of each individual body changes as a result of momentum exchange.</p><p><strong>Step 3: Final Conclusion</strong><br/>Only total linear momentum always remains conserved during an inelastic collision.</p><p><strong>Final Answer:</strong><br/>Total linear momentum.</p>]]></text>
-  </generalfeedback>
+  <name><text>NEET_UG_PHYSICS_MCQI_WORKENERGYANDPOWER_MCQ_Q6_6 - Conserved quantity in an inelastic collision</text></name>
+  <questiontext format="html"><text><![CDATA[<p>During inelastic collision between two bodies, which of the following quantities always remain conserved?</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>In any collision between two bodies, the forces exerted by the bodies on each other are internal forces forming an action-reaction pair. If no net external force acts on the two-body system during the collision, the rate of change of total linear momentum is zero.</p><p><strong>Step 2: Evaluation</strong><br/>During an inelastic collision, part of the initial kinetic energy is converted into internal energy such as heat, sound, or permanent deformation, so neither total kinetic energy nor total mechanical energy is conserved. Individual speeds of the bodies also change during the impact.</p><p><strong>Step 3: Application</strong><br/>By Newton's third law and the impulse-momentum theorem, the net internal impulse on the system is zero, ensuring that the vector sum of the momenta of the two bodies before and after the collision is identical.</p><p><strong>Step 4: Final Conclusion</strong><br/>During an inelastic collision between two bodies, the total linear momentum always remains conserved.</p>]]></text></generalfeedback>
   <defaultgrade>4.0000000</defaultgrade>
   <penalty>0.2500000</penalty>
   <hidden>0</hidden>
   <single>true</single>
   <shuffleanswers>true</shuffleanswers>
   <answernumbering>abc</answernumbering>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>Total kinetic energy.</p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>Total mechanical energy.</p>]]></text>
-  </answer>
-  <answer fraction="100" format="html">
-    <text><![CDATA[<p>Total linear momentum.</p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>Speed of each body.</p>]]></text>
-  </answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>Total kinetic energy.</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>Total mechanical energy.</p>]]></text></answer>
+  <answer fraction="100" format="html"><text><![CDATA[<p>Total linear momentum.</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>Speed of each body.</p>]]></text></answer>
   <tags>
     <tag><text>standard:neet_ug</text></tag>
     <tag><text>lang:en</text></tag>
     <tag><text>subject:physics</text></tag>
-    <tag><text>class:class_11</text></tag>
-    <tag><text>topic:work_energy_and_power</text></tag>
+    <tag><text>section:mcq_i</text></tag>
+    <tag><text>class:11</text></tag>
     <tag><text>chapter:work_energy_and_power</text></tag>
     <tag><text>typology:mcq</text></tag>
     <tag><text>difficulty:easy</text></tag>
     <tag><text>blooms:remember</text></tag>
-    <tag><text>calculation:light</text></tag>
     <tag><text>media:text</text></tag>
     <tag><text>multiconcept:false</text></tag>
   </tags>
 </question>
 <question type="multichoice">
-  <name>
-    <text>NEET_UG_PHYSICS_WORKENERGYANDPOWER_MCQ_Q07 - Motion of stones on frictionless inclined tracks</text>
-  </name>
-  <questiontext format="html">
-    <text><![CDATA[<p>Two inclined frictionless tracks, one gradual and the other steep meet at A from where two stones are allowed to slide down from rest, one on each track as shown in the figure.</p><p><img src="@@PLUGINFILE@@/img-0.jpeg" alt="Fig. 6.1" /></p><p>Which of the following statement is correct?</p>]]></text>
-  </questiontext>
-  <generalfeedback format="html">
-    <text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>- Both tracks start from vertex A at height \(h\) above the ground.<br/>- Track I has angle of inclination \(\theta_1\) (gradual).<br/>- Track II has angle of inclination \(\theta_2\) (steep), with \(\theta_2 > \theta_1\).<br/>- Both tracks are completely frictionless.<br/>- Both stones start from rest (\(u = 0\)).</p><p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>Motion occurs on smooth frictionless planes under gravity. Mechanical energy is conserved.</p><p><strong>Step 3: Relevant Formulae and Principles</strong><br/>- Speed at bottom from conservation of mechanical energy:<br/>\[mgh = \frac{1}{2}mv^2 \implies v = \sqrt{2gh}\]<br/>- Acceleration along an incline of angle \(\theta\):<br/>\[a = g\sin\theta\]<br/>- Length of incline of vertical height \(h\):<br/>\[s = \frac{h}{\sin\theta}\]<br/>- Time taken to slide down from rest (\(u = 0\)):<br/>\[s = \frac{1}{2}at^2 \implies \frac{h}{\sin\theta} = \frac{1}{2}(g\sin\theta)t^2 \implies t = \frac{1}{\sin\theta}\sqrt{\frac{2h}{g}}\]</p><p><strong>Step 4: Step-by-Step Working</strong><br/>1. Final speed at the bottom:<br/>Because both tracks are frictionless and both stones descend through the exact same vertical height \(h\), their speeds at the bottom depend only on \(h\):<br/>\[v_1 = v_2 = \sqrt{2gh}\]<br/>Thus, both stones reach the bottom with the same speed.<br/>2. Time taken to reach the bottom:<br/>The time of travel is inversely proportional to \(\sin\theta\):<br/>\[t = \frac{1}{\sin\theta}\sqrt{\frac{2h}{g}}\]<br/>Since track II is steeper than track I (\(\theta_2 > \theta_1\)), we have:<br/>\[\sin\theta_2 > \sin\theta_1 \implies t_2 < t_1\]<br/>Thus, stone II takes less time than stone I, meaning stone II reaches the bottom earlier than stone I.</p><p><strong>Step 5: Check and Final Answer</strong><br/>Both stones reach the bottom with the same speed, and stone II reaches the bottom earlier than stone I.</p><p><strong>Final Answer:</strong><br/>Both the stones reach the bottom with the same speed and stone II reaches the bottom earlier than stone I.</p>]]></text>
-  </generalfeedback>
+  <name><text>NEET_UG_PHYSICS_MCQI_WORKENERGYANDPOWER_MCQ_Q6_7 - Stones sliding down two frictionless tracks</text></name>
+  <questiontext format="html"><text><![CDATA[<p>Two inclined frictionless tracks, one gradual and the other steep meet at A from where two stones are allowed to slide down from rest, one on each track as shown in Fig. 6.1.</p><p><img src="@@PLUGINFILE@@/img-0.jpeg" alt="Two inclined frictionless tracks AB and AC meeting at A of height h" /></p><p>Which of the following statement is correct?</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>Two frictionless inclined planes AB (gradual, angle \(\theta_1\)) and AC (steep, angle \(\theta_2\), with \(\theta_2 &gt; \theta_1\)) meet at point A at vertical height \(h\) above the horizontal base BC. Stones I and II start from rest (\(u = 0\)) at A and slide down AB and AC, respectively.</p><p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>Friction is absent, so only gravity and the normal reaction act on each stone. The normal reaction is perpendicular to the displacement and does zero work. Taking the base BC as the zero-potential-energy level, motion is taken positive down each incline.</p><p><strong>Step 3: Relevant Formulae and Principles</strong><br/>By conservation of mechanical energy: \(mgh = \frac{1}{2}mv^2 \implies v = \sqrt{2gh}\). Along an incline of angle \(\theta\), acceleration is \(a = g\sin\theta\) and path length is \(l = \frac{h}{\sin\theta}\). Using \(l = \frac{1}{2}at^2\), the time of descent is \(t = \sqrt{\frac{2l}{a}}\).</p><p><strong>Step 4: Step-by-Step Working</strong><br/>For the final speeds at the bottom: since both stones fall through the same vertical height \(h\) from rest, \(v_1 = v_2 = \sqrt{2gh}\), so both reach the bottom with the same speed. For the times of descent: \(t = \sqrt{\frac{2(h/\sin\theta)}{g\sin\theta}} = \frac{1}{\sin\theta}\sqrt{\frac{2h}{g}}\). Because \(\theta_2 &gt; \theta_1\) (and both are acute angles), \(\sin\theta_2 &gt; \sin\theta_1\), which gives \(t_2 &lt; t_1\).</p><p><strong>Step 5: Check and Final Answer</strong><br/>A steeper incline gives both a larger acceleration and a shorter path length, reducing the descent time while leaving the final speed unchanged. Therefore, both stones reach the bottom with the same speed, and stone II reaches the bottom earlier than stone I.</p>]]></text></generalfeedback>
   <defaultgrade>4.0000000</defaultgrade>
   <penalty>0.2500000</penalty>
   <hidden>0</hidden>
   <single>true</single>
   <shuffleanswers>true</shuffleanswers>
   <answernumbering>abc</answernumbering>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>Both the stones reach the bottom at the same time but not with the same speed.</p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>Both the stones reach the bottom with the same speed and stone I reaches the bottom earlier than stone II.</p>]]></text>
-  </answer>
-  <answer fraction="100" format="html">
-    <text><![CDATA[<p>Both the stones reach the bottom with the same speed and stone II reaches the bottom earlier than stone I.</p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>Both the stones reach the bottom at different times and with different speeds.</p>]]></text>
-  </answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>Both the stones reach the bottom at the same time but not with the same speed.</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>Both the stones reach the bottom with the same speed and stone I reaches the bottom earlier than stone II.</p>]]></text></answer>
+  <answer fraction="100" format="html"><text><![CDATA[<p>Both the stones reach the bottom with the same speed and stone II reaches the bottom earlier than stone I.</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>Both the stones reach the bottom at different times and with different speeds.</p>]]></text></answer>
   <tags>
     <tag><text>standard:neet_ug</text></tag>
     <tag><text>lang:en</text></tag>
     <tag><text>subject:physics</text></tag>
-    <tag><text>class:class_11</text></tag>
-    <tag><text>topic:work_energy_and_power</text></tag>
+    <tag><text>section:mcq_i</text></tag>
+    <tag><text>class:11</text></tag>
     <tag><text>chapter:work_energy_and_power</text></tag>
     <tag><text>typology:mcq</text></tag>
     <tag><text>difficulty:medium</text></tag>
@@ -302,211 +199,111 @@
   </tags>
 </question>
 <question type="multichoice">
-  <name>
-    <text>NEET_UG_PHYSICS_WORKENERGYANDPOWER_MCQ_Q08 - Energy of oscillator at turning point</text>
-  </name>
-  <questiontext format="html">
-    <text><![CDATA[<p>The potential energy function for a particle executing linear SHM is given by \(V(x) = \frac{1}{2} kx^2\) where \(k\) is the force constant of the oscillator. For \(k = 0.5\mathrm{N / m}\), the graph of \(V(x)\) versus \(x\) is shown in the figure.</p><p><img src="@@PLUGINFILE@@/img-1.jpeg" alt="Fig. 6.2" /></p><p>A particle of total energy \(E\) turns back when it reaches \(x = \pm x_{m}\). If \(V\) and \(K\) indicate the P.E. and K.E., respectively of the particle at \(x = +x_{m}\), then which of the following is correct?</p>]]></text>
-  </questiontext>
-  <generalfeedback format="html">
-    <text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>- Potential energy function: \(V(x) = \frac{1}{2}kx^2\).<br/>- Force constant: \(k = 0.5\text{ N/m}\).<br/>- Total mechanical energy: \(E\).<br/>- Turning points: \(x = \pm x_m\).<br/>- Symbols at \(x = +x_m\): \(V\) is potential energy and \(K\) is kinetic energy.</p><p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>The motion is conservative simple harmonic motion. The total mechanical energy \(E = K + V\) is conserved.</p><p><strong>Step 3: Relevant Formulae and Principles</strong><br/>Total energy equation:<br/>\[E = K + V = \frac{1}{2}mv^2 + \frac{1}{2}kx^2\]</p><p><strong>Step 4: Step-by-Step Working</strong><br/>A turning point is defined as the position where the particle instantaneously comes to rest to reverse its direction of motion.<br/>At the extreme position \(x = +x_m\), the instantaneous velocity of the particle is zero:<br/>\[v = 0\]<br/>Consequently, the kinetic energy at this point is zero:<br/>\[K = \frac{1}{2}m(0)^2 = 0\]<br/>By conservation of total mechanical energy:<br/>\[E = K + V = 0 + V \implies V = E\]<br/>Thus, at \(x = +x_m\), the entire mechanical energy resides as potential energy, giving \(V = E\) and \(K = 0\).</p><p><strong>Step 5: Check and Final Answer</strong><br/>At the turning point, speed is zero so kinetic energy is zero, and potential energy equals total energy: \(V = E, \quad K = 0\).</p><p><strong>Final Answer:</strong><br/>\(V = E, \quad K = 0\)</p>]]></text>
-  </generalfeedback>
+  <name><text>NEET_UG_PHYSICS_MCQI_WORKENERGYANDPOWER_MCQ_Q6_8 - Potential and kinetic energy at turning point</text></name>
+  <questiontext format="html"><text><![CDATA[<p>The potential energy function for a particle executing linear SHM is given by \(V(x) = \frac{1}{2} kx^2\) where \(k\) is the force constant of the oscillator (Fig. 6.2). For \(k = 0.5\text{ N/m}\), the graph of \(V(x)\) versus \(x\) is shown in the figure. A particle of total energy \(E\) turns back when it reaches \(x = \pm x_m\). If \(V\) and \(K\) indicate the P.E. and K.E., respectively of the particle at \(x = +x_m\), then which of the following is correct?</p><p><img src="@@PLUGINFILE@@/img-1.jpeg" alt="Potential energy V(x) versus x parabola showing turning points at -x_m and +x_m" /></p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>The potential energy function is \(V(x) = \frac{1}{2}kx^2\) with \(k = 0.5\text{ N/m}\). The total mechanical energy is \(E\), and the particle turns back at the extreme positions \(x = \pm x_m\).</p><p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>The oscillator is conservative, so total mechanical energy \(E = V + K\) is constant everywhere, and kinetic energy \(K = \frac{1}{2}mv^2 \ge 0\).</p><p><strong>Step 3: Relevant Formulae and Principles</strong><br/>Total mechanical energy is \(E = V(x) + K(x)\). At a turning point, the velocity of the particle momentarily becomes zero before reversing direction.</p><p><strong>Step 4: Step-by-Step Working</strong><br/>At \(x = +x_m\), the velocity is \(v = 0\), so the kinetic energy is \(K = \frac{1}{2}m(0)^2 = 0\). Substituting \(K = 0\) into \(E = V + K\) yields \(V = E\).</p><p><strong>Step 5: Check and Final Answer</strong><br/>On the \(V(x)\) versus \(x\) graph, the horizontal line of total energy \(E\) intersects the potential energy curve at \(x = \pm x_m\), confirming that all energy is potential at the turning points. Therefore, \(V = E\) and \(K = 0\).</p>]]></text></generalfeedback>
   <defaultgrade>4.0000000</defaultgrade>
   <penalty>0.2500000</penalty>
   <hidden>0</hidden>
   <single>true</single>
   <shuffleanswers>true</shuffleanswers>
   <answernumbering>abc</answernumbering>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>\(V = 0, \quad K = E\)</p>]]></text>
-  </answer>
-  <answer fraction="100" format="html">
-    <text><![CDATA[<p>\(V = E, \quad K = 0\)</p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>\(V <   E,\quad K = 0\)</p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>\(V = 0, \quad K <   E.\)</p>]]></text>
-  </answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>\(V = 0, \quad K = E\)</p>]]></text></answer>
+  <answer fraction="100" format="html"><text><![CDATA[<p>\(V = E, \quad K = 0\)</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>\(V &lt; E, \quad K = 0\)</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>\(V = 0, \quad K &lt; E.\)</p>]]></text></answer>
   <tags>
     <tag><text>standard:neet_ug</text></tag>
     <tag><text>lang:en</text></tag>
     <tag><text>subject:physics</text></tag>
-    <tag><text>class:class_11</text></tag>
-    <tag><text>topic:work_energy_and_power</text></tag>
+    <tag><text>section:mcq_i</text></tag>
+    <tag><text>class:11</text></tag>
     <tag><text>chapter:work_energy_and_power</text></tag>
     <tag><text>typology:mcq</text></tag>
     <tag><text>difficulty:easy</text></tag>
     <tag><text>blooms:understand</text></tag>
-    <tag><text>calculation:light</text></tag>
     <tag><text>media:graph</text></tag>
     <tag><text>multiconcept:false</text></tag>
   </tags>
 </question>
 <question type="multichoice">
-  <name>
-    <text>NEET_UG_PHYSICS_WORKENERGYANDPOWER_MCQ_Q09 - Elastic collision of identical ball bearings</text>
-  </name>
-  <questiontext format="html">
-    <text><![CDATA[<p>Two identical ball bearings in contact with each other and resting on a frictionless table are hit head-on by another ball bearing of the same mass moving initially with a speed \(V\) as shown in the figure.</p><p><img src="@@PLUGINFILE@@/img-2.jpeg" alt="Ball 1 moving with speed V" /><br/><img src="@@PLUGINFILE@@/img-3.jpeg" alt="Balls 2 and 3 at rest in contact" /></p><p>If the collision is elastic, which of the following is a possible result after collision?</p>]]></text>
-  </questiontext>
-  <generalfeedback format="html">
-    <text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>- Three identical ball bearings (labeled 1, 2, and 3), each of mass \(m\).<br/>- Initially, ball 1 moves with speed \(V\), while balls 2 and 3 are at rest (\(v_2 = v_3 = 0\)) in contact.<br/>- The collision is perfectly elastic and head-on on a frictionless horizontal table.</p><p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>One-dimensional motion along the horizontal axis. In an elastic collision, both total linear momentum and total kinetic energy must be conserved simultaneously.</p><p><strong>Step 3: Relevant Formulae and Principles</strong><br/>- Initial total linear momentum:<br/>\[P_i = m V + m(0) + m(0) = mV\]<br/>- Initial total kinetic energy:<br/>\[K_i = \frac{1}{2}mV^2 + 0 + 0 = \frac{1}{2}mV^2\]</p><p><strong>Step 4: Step-by-Step Working</strong><br/>Let us analyze each potential outcome for conservation of momentum and kinetic energy:<br/>1. Configuration where ball 1 comes to rest while balls 2 and 3 move together with speed \(V/2\):<br/>- Final momentum: \(P_f = (2m)\left(\frac{V}{2}\right) = mV = P_i\)<br/>- Final kinetic energy: \(K_f = \frac{1}{2}(2m)\left(\frac{V}{2}\right)^2 = \frac{1}{4}mV^2 \ne K_i\)<br/>Kinetic energy is reduced by half; this is an inelastic outcome.<br/>2. Configuration where balls 1 and 2 remain at rest and ball 3 moves with speed \(V\):<br/>- Final momentum: \(P_f = m(0) + m(0) + mV = mV = P_i\)<br/>- Final kinetic energy: \(K_f = 0 + 0 + \frac{1}{2}mV^2 = \frac{1}{2}mV^2 = K_i\)<br/>Both total linear momentum and total kinetic energy are strictly conserved. Physically, ball 1 transfers its entire momentum and energy to ball 2 during contact, which instantly transfers it to ball 3, leaving balls 1 and 2 at rest and launching ball 3 forward with speed \(V\).<br/>3. Configuration where all three balls move together with speed \(V/3\):<br/>- Final momentum: \(P_f = (3m)\left(\frac{V}{3}\right) = mV = P_i\)<br/>- Final kinetic energy: \(K_f = \frac{1}{2}(3m)\left(\frac{V}{3}\right)^2 = \frac{1}{6}mV^2 \ne K_i\)<br/>Kinetic energy is not conserved.<br/>4. Configuration where the three balls move with different fractional speeds:<br/>Linear momentum and kinetic energy cannot both match initial values simultaneously.</p><p><strong>Step 5: Check and Final Answer</strong><br/>Only the outcome where balls 1 and 2 are stationary (\(V = 0\)) and ball 3 moves with velocity \(V\) conserves both momentum and kinetic energy.</p><p><strong>Final Answer:</strong><br/>The configuration in which balls 1 and 2 have zero velocity and ball 3 moves forward with speed \(V\).</p>]]></text>
-  </generalfeedback>
+  <name><text>NEET_UG_PHYSICS_MCQI_WORKENERGYANDPOWER_MCQ_Q6_9 - Elastic head-on collision of three identical balls</text></name>
+  <questiontext format="html"><text><![CDATA[<p>Two identical ball bearings in contact with each other and resting on a frictionless table are hit head-on by another ball bearing of the same mass moving initially with a speed \(V\) as shown in Fig. 6.3.</p><p><img src="@@PLUGINFILE@@/img-2.jpeg" alt="Ball bearing 1 moving with speed V" /> <img src="@@PLUGINFILE@@/img-3.jpeg" alt="Ball bearings 2 and 3 in contact at rest" /></p><p>If the collision is elastic, which of the following (Fig. 6.4) is a possible result after collision?</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>Three identical ball bearings (each of mass \(m\)) are on a frictionless table. Initially, ball 1 moves with speed \(V\) toward balls 2 and 3, which are at rest in contact with each other. The collision is head-on and elastic.</p><p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>Take the initial direction of motion of ball 1 as positive. Since the table is frictionless and the collision is elastic, both total linear momentum and total kinetic energy of the three-ball system are conserved.</p><p><strong>Step 3: Relevant Formulae and Principles</strong><br/>Initial total linear momentum is \(p_i = mV\). Initial total kinetic energy is \(K_i = \frac{1}{2}mV^2\). In an elastic collision between two identical masses where one is initially at rest, the colliding bodies exchange their velocities.</p><p><strong>Step 4: Step-by-Step Working</strong><br/>Ball 1 strikes ball 2 elastically and comes to rest, transferring its velocity \(V\) to ball 2. Immediately, ball 2 collides elastically with ball 3, transferring its velocity \(V\) to ball 3 and coming to rest. Thus, after the collision, balls 1 and 2 remain at rest (\(v_1 = 0, v_2 = 0\)) while ball 3 moves forward with speed \(V\). Checking conservation laws for this final state: \(p_f = m(0) + m(0) + mV = mV = p_i\), and \(K_f = 0 + 0 + \frac{1}{2}mV^2 = K_i\). All other outcomes either fail to conserve kinetic energy (giving \(\frac{1}{4}mV^2\) when two balls move at \(V/2\), or \(\frac{1}{6}mV^2\) when three balls move at \(V/3\)) or fail to conserve momentum (when speeds are \(V, V/2, V/3\)).</p><p><strong>Step 5: Check and Final Answer</strong><br/>Only the state where ball bearings 1 and 2 are at rest (\(V = 0\)) and ball bearing 3 moves forward with speed \(V\) satisfies both momentum and kinetic energy conservation for an elastic collision.</p>]]></text></generalfeedback>
   <defaultgrade>4.0000000</defaultgrade>
   <penalty>0.2500000</penalty>
   <hidden>0</hidden>
   <single>true</single>
   <shuffleanswers>true</shuffleanswers>
   <answernumbering>abc</answernumbering>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p><img src="@@PLUGINFILE@@/img-4.jpeg" alt="Ball 1 at rest" /><br/><img src="@@PLUGINFILE@@/img-5.jpeg" alt="Balls 2 and 3 moving with speed V/2" /></p>]]></text>
-  </answer>
-  <answer fraction="100" format="html">
-    <text><![CDATA[<p><img src="@@PLUGINFILE@@/img-6.jpeg" alt="Balls 1 and 2 at rest" /><br/><img src="@@PLUGINFILE@@/img-7.jpeg" alt="Ball 3 moving with speed V" /></p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p><img src="@@PLUGINFILE@@/img-8.jpeg" alt="Balls 1, 2, and 3 moving together with speed V/3" /></p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p><img src="@@PLUGINFILE@@/img-9.jpeg" alt="Ball 1 moving with speed V" /><br/><img src="@@PLUGINFILE@@/img-10.jpeg" alt="Ball 2 moving with speed V/2" /><br/><img src="@@PLUGINFILE@@/img-11.jpeg" alt="Ball 3 moving with speed V/3" /></p>]]></text>
-  </answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p><img src="@@PLUGINFILE@@/img-4.jpeg" alt="Ball 1 at V = 0" /> <img src="@@PLUGINFILE@@/img-5.jpeg" alt="Balls 2 and 3 moving together at V/2" /></p>]]></text></answer>
+  <answer fraction="100" format="html"><text><![CDATA[<p><img src="@@PLUGINFILE@@/img-6.jpeg" alt="Balls 1 and 2 at V = 0" /> <img src="@@PLUGINFILE@@/img-7.jpeg" alt="Ball 3 moving at V" /></p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p><img src="@@PLUGINFILE@@/img-8.jpeg" alt="Balls 1, 2, and 3 moving together at V/3" /></p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p><img src="@@PLUGINFILE@@/img-9.jpeg" alt="Ball 1 moving at V/1" /> <img src="@@PLUGINFILE@@/img-10.jpeg" alt="Ball 2 moving at V/2" /> <img src="@@PLUGINFILE@@/img-11.jpeg" alt="Ball 3 moving at V/3" /></p>]]></text></answer>
   <tags>
     <tag><text>standard:neet_ug</text></tag>
     <tag><text>lang:en</text></tag>
     <tag><text>subject:physics</text></tag>
-    <tag><text>class:class_11</text></tag>
-    <tag><text>topic:work_energy_and_power</text></tag>
+    <tag><text>section:mcq_i</text></tag>
+    <tag><text>class:11</text></tag>
     <tag><text>chapter:work_energy_and_power</text></tag>
     <tag><text>typology:mcq</text></tag>
     <tag><text>difficulty:medium</text></tag>
     <tag><text>blooms:analyze</text></tag>
-    <tag><text>calculation:moderate</text></tag>
+    <tag><text>calculation:light</text></tag>
     <tag><text>media:diagram</text></tag>
     <tag><text>multiconcept:true</text></tag>
   </tags>
 </question>
 <question type="multichoice">
-  <name>
-    <text>NEET_UG_PHYSICS_WORKENERGYANDPOWER_MCQ_Q10 - Work done by net force on body</text>
-  </name>
-  <questiontext format="html">
-    <text><![CDATA[<p>A body of mass \(0.5\mathrm{kg}\) travels in a straight line with velocity \(v = a x^{3 / 2}\) where \(a = 5\mathrm{m}^{-1 / 2}\mathrm{s}^{-1}\). The work done by the net force during its displacement from \(x = 0\) to \(x = 2\mathrm{m}\) is</p>]]></text>
-  </questiontext>
-  <generalfeedback format="html">
-    <text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>- Mass of the body: \(m = 0.5\text{ kg}\).<br/>- Velocity-position relation: \(v = a x^{3/2}\).<br/>- Proportionality constant: \(a = 5\text{ m}^{-1/2}\text{s}^{-1}\).<br/>- Initial position: \(x_i = 0\text{ m}\).<br/>- Final position: \(x_f = 2\text{ m}\).</p><p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>The body moves along a straight line in the positive \(x\)-direction. By the work-energy theorem, the total work done by the net force equals the change in kinetic energy of the body.</p><p><strong>Step 3: Relevant Formulae and Principles</strong><br/>Work-energy theorem:<br/>\[W = \Delta K = K_f - K_i = \frac{1}{2}m v_f^2 - \frac{1}{2}m v_i^2\]</p><p><strong>Step 4: Step-by-Step Working</strong><br/>1. Determine initial velocity at \(x_i = 0\text{ m}\):<br/>\[v_i = 5 \times (0)^{3/2} = 0\text{ m/s}\]<br/>2. Determine final velocity at \(x_f = 2\text{ m}\):<br/>\[v_f = 5 \times (2)^{3/2}\text{ m/s}\]<br/>Square of the final velocity:<br/>\[v_f^2 = 5^2 \times \left(2^{3/2}\right)^2 = 25 \times 2^3 = 25 \times 8 = 200\text{ m}^2/\text{s}^2\]<br/>3. Calculate the work done by the net force:<br/>\[W = \frac{1}{2} m \left(v_f^2 - v_i^2\right) = \frac{1}{2} \times 0.5\text{ kg} \times (200 - 0)\text{ m}^2/\text{s}^2 = 0.25 \times 200\text{ J} = 50\text{ J}\]</p><p><strong>Step 5: Check and Final Answer</strong><br/>Dimensional check: \(\text{kg}\cdot\text{m}^2/\text{s}^2 = \text{J}\). The calculation gives \(50\text{ J}\).</p><p><strong>Final Answer:</strong><br/>\(50\mathrm{J}\)</p>]]></text>
-  </generalfeedback>
+  <name><text>NEET_UG_PHYSICS_MCQI_WORKENERGYANDPOWER_MCQ_Q6_10 - Work done when velocity depends on position</text></name>
+  <questiontext format="html"><text><![CDATA[<p>A body of mass \(0.5\text{ kg}\) travels in a straight line with velocity \(v = a x^{3/2}\) where \(a = 5\text{ m}^{-1/2}\text{s}^{-1}\). The work done by the net force during its displacement from \(x = 0\) to \(x = 2\text{ m}\) is</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>Mass of the body, \(m = 0.5\text{ kg}\). Velocity as a function of position, \(v = a x^{3/2}\), where \(a = 5\text{ m}^{-1/2}\text{s}^{-1}\). Initial position \(x_i = 0\text{ m}\) and final position \(x_f = 2\text{ m}\).</p><p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>The body moves in a straight line along the positive \(x\)-axis under the action of the net force.</p><p><strong>Step 3: Relevant Formulae and Principles</strong><br/>By the work-energy theorem, the work done by the net force equals the change in kinetic energy of the body: \(W = \Delta K = \frac{1}{2}m(v_f^2 - v_i^2)\).</p><p><strong>Step 4: Step-by-Step Working</strong><br/>At \(x_i = 0\): \(v_i = 5 \times 0^{3/2} = 0\text{ m/s}\).<br/>At \(x_f = 2\text{ m}\): \(v_f = 5 \times 2^{3/2}\text{ m/s}\), so \(v_f^2 = 25 \times 2^3 = 25 \times 8 = 200\text{ m}^2\text{s}^{-2}\).<br/>Substituting into the work-energy theorem:<br/>\(W = \frac{1}{2}(0.5\text{ kg})(200\text{ m}^2\text{s}^{-2} - 0) = 0.25 \times 200 = 50\text{ J}\).</p><p><strong>Step 5: Check and Final Answer</strong><br/>Checking units: \(\text{kg}\cdot\text{m}^2\text{s}^{-2} = \text{J}\), and \(v_f &gt; v_i\) gives positive work. The work done by the net force is \(50\text{ J}\).</p>]]></text></generalfeedback>
   <defaultgrade>4.0000000</defaultgrade>
   <penalty>0.2500000</penalty>
   <hidden>0</hidden>
   <single>true</single>
   <shuffleanswers>true</shuffleanswers>
   <answernumbering>abc</answernumbering>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>\(1.5\mathrm{J}\)</p>]]></text>
-  </answer>
-  <answer fraction="100" format="html">
-    <text><![CDATA[<p>\(50\mathrm{J}\)</p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>\(10\mathrm{J}\)</p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>\(100\mathrm{J}\)</p>]]></text>
-  </answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>\(1.5\text{ J}\)</p>]]></text></answer>
+  <answer fraction="100" format="html"><text><![CDATA[<p>\(50\text{ J}\)</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>\(10\text{ J}\)</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>\(100\text{ J}\)</p>]]></text></answer>
   <tags>
     <tag><text>standard:neet_ug</text></tag>
     <tag><text>lang:en</text></tag>
     <tag><text>subject:physics</text></tag>
-    <tag><text>class:class_11</text></tag>
-    <tag><text>topic:work_energy_and_power</text></tag>
+    <tag><text>section:mcq_i</text></tag>
+    <tag><text>class:11</text></tag>
     <tag><text>chapter:work_energy_and_power</text></tag>
     <tag><text>typology:mcq</text></tag>
     <tag><text>difficulty:medium</text></tag>
     <tag><text>blooms:apply</text></tag>
     <tag><text>calculation:moderate</text></tag>
-    <tag><text>media:equation</text></tag>
+    <tag><text>media:text</text></tag>
     <tag><text>multiconcept:false</text></tag>
   </tags>
 </question>
 <question type="multichoice">
-  <name>
-    <text>NEET_UG_PHYSICS_WORKENERGYANDPOWER_MCQ_Q11 - Displacement time graph under constant power</text>
-  </name>
-  <questiontext format="html">
-    <text><![CDATA[<p>A body is moving unidirectionally under the influence of a source of constant power supplying energy. Which of the diagrams shown correctly shows the displacement-time curve for its motion?</p>]]></text>
-  </questiontext>
-  <generalfeedback format="html">
-    <text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>- Power supplied: \(P = \text{constant}\).<br/>- Motion: Unidirectional along a straight line.<br/>- Initial conditions: The body starts from rest at \(t = 0\) (\(v = 0, d = 0\)).</p><p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>Mass \(m\) is constant. Motion is in the positive \(d\)-direction.</p><p><strong>Step 3: Relevant Formulae and Principles</strong><br/>Power delivered to the body:<br/>\[P = F v = m \frac{dv}{dt} v = \text{constant}\]<br/>Displacement is the time integral of velocity:<br/>\[d = \int v \, dt\]</p><p><strong>Step 4: Step-by-Step Working</strong><br/>1. Integrate the power equation to find velocity as a function of time:<br/>\[m v \, dv = P \, dt\]<br/>Integrating both sides from rest (\(v = 0\) at \(t = 0\)):<br/>\[\int_0^v m v' \, dv' = \int_0^t P \, dt' \implies \frac{1}{2}m v^2 = P t\]<br/>\[v = \sqrt{\frac{2P}{m}} \, t^{1/2}\]<br/>2. Integrate velocity to determine displacement \(d(t)\):<br/>\[\frac{dd}{dt} = \sqrt{\frac{2P}{m}} \, t^{1/2}\]<br/>Integrating from \(d = 0\) at \(t = 0\):<br/>\[d = \sqrt{\frac{2P}{m}} \int_0^t t'^{1/2} \, dt' = \frac{2}{3}\sqrt{\frac{2P}{m}} \, t^{3/2}\]<br/>Thus, displacement varies with time according to:<br/>\[d \propto t^{3/2}\]<br/>3. Shape of the curve:<br/>- At \(t = 0\), \(d = 0\) and the slope \(\frac{dd}{dt} = v = 0\).<br/>- The slope \(\frac{dd}{dt} \propto t^{1/2}\) increases continuously with time.<br/>- The second derivative \(\frac{d^2d}{dt^2} = a \propto t^{-1/2} > 0\), which means the curve is concave upwards, bending upward with increasing slope as time advances.</p><p><strong>Step 5: Check and Final Answer</strong><br/>The correct curve starts at the origin with zero initial slope and bends upward, reflecting the \(d \propto t^{3/2}\) power-law dependence.</p><p><strong>Final Answer:</strong><br/>The non-linear curve starting from the origin and bending upward with continuously increasing slope, corresponding to \(d \propto t^{3/2}\).</p>]]></text>
-  </generalfeedback>
+  <name><text>NEET_UG_PHYSICS_MCQI_WORKENERGYANDPOWER_MCQ_Q6_11 - Displacement-time graph under constant power</text></name>
+  <questiontext format="html"><text><![CDATA[<p>A body is moving unidirectionally under the influence of a source of constant power supplying energy. Which of the diagrams shown in Fig. 6.5 correctly shows the displacement-time curve for its motion?</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>A body of constant mass \(m\) moves unidirectionally under a source delivering constant power \(P\).</p><p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>Assume the body starts from rest (\(v = 0\)) and from the origin (\(d = 0\)) at \(t = 0\), moving along the positive direction.</p><p><strong>Step 3: Relevant Formulae and Principles</strong><br/>Instantaneous power is \(P = Fv = m\frac{dv}{dt}v\). Displacement \(d\) is related to velocity by \(v = \frac{dd}{dt}\).</p><p><strong>Step 4: Step-by-Step Working</strong><br/>Integrating \(v\,dv = \frac{P}{m}\,dt\) from \(t = 0\) to \(t\):<br/>\(\frac{v^2}{2} = \frac{P}{m}t \implies v = \sqrt{\frac{2P}{m}}\,t^{1/2}\).<br/>Now integrating \(\frac{dd}{dt} = \sqrt{\frac{2P}{m}}\,t^{1/2}\) from \(t = 0\) to \(t\):<br/>\(d = \sqrt{\frac{2P}{m}} \cdot \frac{2}{3} t^{3/2} \propto t^{3/2}\).</p><p><strong>Step 5: Check and Final Answer</strong><br/>Since \(d \propto t^{3/2}\), the first derivative \(\frac{dd}{dt} \propto t^{1/2}\) is positive and increases with \(t\), and the second derivative \(\frac{d^2 d}{dt^2} &gt; 0\). Thus, the \(d\)-\(t\) curve starts at the origin with zero slope and curves upward (concave up).</p>]]></text></generalfeedback>
   <defaultgrade>4.0000000</defaultgrade>
   <penalty>0.2500000</penalty>
   <hidden>0</hidden>
   <single>true</single>
   <shuffleanswers>true</shuffleanswers>
   <answernumbering>abc</answernumbering>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p><img src="@@PLUGINFILE@@/img-12.jpeg" alt="Straight line displacement-time graph" /></p>]]></text>
-  </answer>
-  <answer fraction="100" format="html">
-    <text><![CDATA[<p><img src="@@PLUGINFILE@@/img-13.jpeg" alt="Displacement-time curve bending upward with increasing slope" /></p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p><img src="@@PLUGINFILE@@/img-14.jpeg" alt="Horizontal line displacement-time graph" /></p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p><img src="@@PLUGINFILE@@/img-15.jpeg" alt="Displacement-time curve bending downward with decreasing slope" /></p>]]></text>
-  </answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p><img src="@@PLUGINFILE@@/img-12.jpeg" alt="Linear d-t graph through origin" /></p>]]></text></answer>
+  <answer fraction="100" format="html"><text><![CDATA[<p><img src="@@PLUGINFILE@@/img-13.jpeg" alt="Concave up d-t curve starting from origin" /></p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p><img src="@@PLUGINFILE@@/img-14.jpeg" alt="Horizontal d-t line" /></p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p><img src="@@PLUGINFILE@@/img-15.jpeg" alt="Concave down d-t curve starting from origin" /></p>]]></text></answer>
   <tags>
     <tag><text>standard:neet_ug</text></tag>
     <tag><text>lang:en</text></tag>
     <tag><text>subject:physics</text></tag>
-    <tag><text>class:class_11</text></tag>
-    <tag><text>topic:work_energy_and_power</text></tag>
-    <tag><text>chapter:work_energy_and_power</text></tag>
-    <tag><text>typology:mcq</text></tag>
-    <tag><text>difficulty:medium</text></tag>
-    <tag><text>blooms:apply</text></tag>
-    <tag><text>calculation:moderate</text></tag>
-    <tag><text>media:graph</text></tag>
-    <tag><text>multiconcept:false</text></tag>
-  </tags>
-</question>
-<question type="multichoice">
-  <name>
-    <text>NEET_UG_PHYSICS_WORKENERGYANDPOWER_MCQ_Q12 - Kinetic energy of earth in elliptical orbit</text>
-  </name>
-  <questiontext format="html">
-    <text><![CDATA[<p>Which of the diagrams shown most closely shows the variation in kinetic energy of the earth as it moves once around the sun in its elliptical orbit?</p>]]></text>
-  </questiontext>
-  <generalfeedback format="html">
-    <text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>- Orbit: Earth revolves in an elliptical orbit around the Sun.<br/>- Time span: One complete revolution around the Sun.<br/>- Quantity of interest: Kinetic energy \(K\) as a function of time \(t\).</p><p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>The Sun is located at one focus of the elliptical orbit. Gravitational force is central and conservative.</p><p><strong>Step 3: Relevant Formulae and Principles</strong><br/>By conservation of angular momentum about the Sun:<br/>\[L = m r v_{\perp} = \text{constant}\]<br/>Kinetic energy:<br/>\[K = \frac{1}{2}mv^2\]</p><p><strong>Step 4: Step-by-Step Working</strong><br/>1. Speed variation:<br/>- At perihelion (minimum distance from the Sun, \(r = r_{\text{min}}\)), the Earth moves at its maximum speed \(v_{\text{max}}\), so kinetic energy is maximum: \(K_{\text{max}}\).<br/>- At aphelion (maximum distance from the Sun, \(r = r_{\text{max}}\)), the Earth moves at its minimum speed \(v_{\text{min}}\), so kinetic energy is minimum: \(K_{\text{min}}\).<br/>2. Physical constraints on kinetic energy:<br/>- Kinetic energy depends on the square of speed, so it is strictly non-negative (\(K \ge 0\)). It can never take negative values.<br/>- Since the Earth never stops during its orbital motion, its speed is strictly non-zero at all times (\(v > 0\)), which means the kinetic energy never drops to zero (\(K_{\text{min}} > 0\)).<br/>- The orbit is elliptical (eccentricity \(e \ne 0\)), so speed and kinetic energy vary periodically rather than remaining constant.<br/>3. Identification of the graph:<br/>The graph must be a smooth periodic wave that oscillates above a strictly positive baseline and never touches or crosses the time axis.</p><p><strong>Step 5: Check and Final Answer</strong><br/>The kinetic energy oscillates periodically between a positive minimum and a positive maximum without ever dropping to zero.</p><p><strong>Final Answer:</strong><br/>The curve oscillating periodically entirely above a positive baseline without reaching zero.</p>]]></text>
-  </generalfeedback>
-  <defaultgrade>4.0000000</defaultgrade>
-  <penalty>0.2500000</penalty>
-  <hidden>0</hidden>
-  <single>true</single>
-  <shuffleanswers>true</shuffleanswers>
-  <answernumbering>abc</answernumbering>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p><img src="@@PLUGINFILE@@/img-16.jpeg" alt="Constant kinetic energy graph" /></p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p><img src="@@PLUGINFILE@@/img-17.jpeg" alt="Kinetic energy dropping to zero" /></p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p><img src="@@PLUGINFILE@@/img-18.jpeg" alt="Kinetic energy oscillating below zero" /></p>]]></text>
-  </answer>
-  <answer fraction="100" format="html">
-    <text><![CDATA[<p><img src="@@PLUGINFILE@@/img-19.jpeg" alt="Kinetic energy oscillating periodically above a non-zero baseline" /></p>]]></text>
-  </answer>
-  <tags>
-    <tag><text>standard:neet_ug</text></tag>
-    <tag><text>lang:en</text></tag>
-    <tag><text>subject:physics</text></tag>
-    <tag><text>class:class_11</text></tag>
-    <tag><text>topic:work_energy_and_power</text></tag>
+    <tag><text>section:mcq_i</text></tag>
+    <tag><text>class:11</text></tag>
     <tag><text>chapter:work_energy_and_power</text></tag>
     <tag><text>typology:mcq</text></tag>
     <tag><text>difficulty:medium</text></tag>
@@ -517,89 +314,88 @@
   </tags>
 </question>
 <question type="multichoice">
-  <name>
-    <text>NEET_UG_PHYSICS_WORKENERGYANDPOWER_MCQ_Q13 - Mechanical energy of pendulum oscillating in air</text>
-  </name>
-  <questiontext format="html">
-    <text><![CDATA[<p>Which of the diagrams shown represents variation of total mechanical energy of a pendulum oscillating in air as function of time?</p>]]></text>
-  </questiontext>
-  <generalfeedback format="html">
-    <text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>When a pendulum oscillates in air, it experiences a dissipative damping force (air resistance) that opposes its motion. Mechanical energy is continuously dissipated as heat to the surrounding air.</p><p><strong>Step 2: Mathematical Formulation</strong><br/>For a damped simple harmonic oscillator with viscous damping proportional to velocity, the oscillation amplitude decays exponentially with time:<br/>\[A(t) = A_0 e^{-\gamma t}\]<br/>where \(\gamma\) is the damping constant.<br/>Because total mechanical energy \(E\) of an oscillator is proportional to the square of its amplitude:<br/>\[E(t) = \frac{1}{2} k [A(t)]^2 = \frac{1}{2} k A_0^2 e^{-2\gamma t} = E_0 e^{-\lambda t}\]<br/>where \(\lambda = 2\gamma\).</p><p><strong>Step 3: Graph Characteristics</strong><br/>- The total mechanical energy is always positive (\(E \ge 0\)), as kinetic energy is non-negative and potential energy is measured relative to the equilibrium bottom position.<br/>- Due to continuous dissipation, \(E(t)\) decreases monotonically and exponentially toward zero as \(t \to \infty\).<br/>- The energy does not oscillate or cross below the horizontal axis; rather, it decays asymptotically toward the time axis.</p><p><strong>Step 4: Final Conclusion</strong><br/>The variation of total mechanical energy with time is represented by an exponentially decaying curve that remains strictly above the horizontal axis and asymptotically approaches zero.</p><p><strong>Final Answer:</strong><br/>The curve showing a smooth exponential decay of total mechanical energy toward zero without oscillating.</p>]]></text>
-  </generalfeedback>
+  <name><text>NEET_UG_PHYSICS_MCQI_WORKENERGYANDPOWER_MCQ_Q6_12 - Kinetic energy of Earth in elliptical orbit</text></name>
+  <questiontext format="html"><text><![CDATA[<p>Which of the diagrams shown in Fig. 6.6 most closely shows the variation in kinetic energy of the earth as it moves once around the sun in its elliptical orbit?</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>As the Earth revolves around the Sun in an elliptical orbit, its orbital speed \(v\) varies with its distance \(r\) from the Sun by conservation of angular momentum (\(mvr = \text{constant}\) at apsides) and conservation of mechanical energy.</p><p><strong>Step 2: Evaluation</strong><br/>The Earth moves fastest at perihelion (closest approach to the Sun) and slowest at aphelion (farthest point from the Sun). Consequently, its kinetic energy \(K = \frac{1}{2}mv^2\) reaches a maximum at perihelion and a non-zero minimum at aphelion.</p><p><strong>Step 3: Application</strong><br/>Kinetic energy is always a strictly positive quantity (\(K &gt; 0\) throughout the orbit) and cannot become zero or negative. Over one complete revolution, it oscillates smoothly and periodically above zero around a positive mean value, returning to its initial value after one period.</p><p><strong>Step 4: Final Conclusion</strong><br/>The correct graph is the smooth, periodic curve oscillating entirely above the time axis around a positive mean value.</p>]]></text></generalfeedback>
   <defaultgrade>4.0000000</defaultgrade>
   <penalty>0.2500000</penalty>
   <hidden>0</hidden>
   <single>true</single>
   <shuffleanswers>true</shuffleanswers>
   <answernumbering>abc</answernumbering>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p><img src="@@PLUGINFILE@@/img-20.jpeg" alt="Oscillating curve with decaying amplitude crossing zero" /></p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p><img src="@@PLUGINFILE@@/img-21.jpeg" alt="Curve decreasing concavely to zero" /></p>]]></text>
-  </answer>
-  <answer fraction="100" format="html">
-    <text><![CDATA[<p><img src="@@PLUGINFILE@@/img-22.jpeg" alt="Exponential decay curve asymptotically approaching zero" /></p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p><img src="@@PLUGINFILE@@/img-23.jpeg" alt="Sinusoidally oscillating curve" /></p>]]></text>
-  </answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p><img src="@@PLUGINFILE@@/img-16.jpeg" alt="Constant K.E. versus time graph" /></p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p><img src="@@PLUGINFILE@@/img-17.jpeg" alt="Parabolic K.E. graph starting and ending at zero" /></p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p><img src="@@PLUGINFILE@@/img-18.jpeg" alt="Sinusoidal K.E. graph going negative" /></p>]]></text></answer>
+  <answer fraction="100" format="html"><text><![CDATA[<p><img src="@@PLUGINFILE@@/img-19.jpeg" alt="Positive sinusoidal K.E. graph oscillating about a positive mean" /></p>]]></text></answer>
   <tags>
     <tag><text>standard:neet_ug</text></tag>
     <tag><text>lang:en</text></tag>
     <tag><text>subject:physics</text></tag>
-    <tag><text>class:class_11</text></tag>
-    <tag><text>topic:work_energy_and_power</text></tag>
+    <tag><text>section:mcq_i</text></tag>
+    <tag><text>class:11</text></tag>
     <tag><text>chapter:work_energy_and_power</text></tag>
     <tag><text>typology:mcq</text></tag>
     <tag><text>difficulty:medium</text></tag>
     <tag><text>blooms:understand</text></tag>
-    <tag><text>calculation:light</text></tag>
     <tag><text>media:graph</text></tag>
-    <tag><text>multiconcept:false</text></tag>
+    <tag><text>multiconcept:true</text></tag>
   </tags>
 </question>
 <question type="multichoice">
-  <name>
-    <text>NEET_UG_PHYSICS_WORKENERGYANDPOWER_MCQ_Q14 - Kinetic energy of mass in circular path</text>
-  </name>
-  <questiontext format="html">
-    <text><![CDATA[<p>A mass of \(5\mathrm{kg}\) is moving along a circular path of radius \(1\mathrm{m}\). If the mass moves with 300 revolutions per minute, its kinetic energy would be</p>]]></text>
-  </questiontext>
-  <generalfeedback format="html">
-    <text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>- Mass: \(m = 5\text{ kg}\).<br/>- Radius of circular path: \(r = 1\text{ m}\).<br/>- Rotational frequency: \(N = 300\text{ rpm}\) (revolutions per minute).</p><p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>The body executes uniform circular motion. All quantities are evaluated in SI units.</p><p><strong>Step 3: Relevant Formulae and Principles</strong><br/>- Frequency in revolutions per second:<br/>\[\nu = \frac{N}{60}\]<br/>- Angular velocity:<br/>\[\omega = 2\pi\nu\]<br/>- Linear speed:<br/>\[v = r\omega\]<br/>- Kinetic energy:<br/>\[K = \frac{1}{2}mv^2\]</p><p><strong>Step 4: Step-by-Step Working</strong><br/>1. Calculate rotational frequency in \(\text{s}^{-1}\):<br/>\[\nu = \frac{300}{60} = 5\text{ rev/s}\]<br/>2. Calculate angular speed:<br/>\[\omega = 2\pi \times 5 = 10\pi\text{ rad/s}\]<br/>3. Calculate linear speed along the circle:<br/>\[v = r\omega = 1\text{ m} \times 10\pi\text{ rad/s} = 10\pi\text{ m/s}\]<br/>4. Calculate kinetic energy:<br/>\[K = \frac{1}{2}mv^2 = \frac{1}{2} \times 5\text{ kg} \times (10\pi\text{ m/s})^2 = \frac{1}{2} \times 5 \times 100\pi^2 = 250\pi^2\text{ J}\]</p><p><strong>Step 5: Check and Final Answer</strong><br/>The computed kinetic energy is \(250\pi^2\).</p><p><strong>Final Answer:</strong><br/>\(250\pi^2\)</p>]]></text>
-  </generalfeedback>
+  <name><text>NEET_UG_PHYSICS_MCQI_WORKENERGYANDPOWER_MCQ_Q6_13 - Mechanical energy of pendulum oscillating in air</text></name>
+  <questiontext format="html"><text><![CDATA[<p>Which of the diagrams shown in Fig. 6.7 represents variation of total mechanical energy of a pendulum oscillating in air as function of time?</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>A pendulum oscillating in air experiences a dissipative drag force (air resistance) that opposes its motion and does negative work on the bob.</p><p><strong>Step 2: Evaluation</strong><br/>Because of air resistance, the amplitude of oscillation decreases exponentially with time: \(A(t) = A_0 e^{-\gamma t}\). Since the total mechanical energy \(E\) of a simple harmonic oscillator is proportional to the square of its amplitude (\(E \propto A^2\)), the total mechanical energy also decreases exponentially with time: \(E(t) = E_0 e^{-2\gamma t}\).</p><p><strong>Step 3: Application</strong><br/>Total mechanical energy is never negative here (taking the lowest point as \(U = 0\)) and does not oscillate above and below zero like displacement. Instead, it starts at a positive initial value \(E_0\) and decays smoothly and monotonically toward zero asymptotically.</p><p><strong>Step 4: Final Conclusion</strong><br/>The correct representation is the monotonically decreasing, concave-up exponential decay curve that approaches the time axis asymptotically.</p>]]></text></generalfeedback>
   <defaultgrade>4.0000000</defaultgrade>
   <penalty>0.2500000</penalty>
   <hidden>0</hidden>
   <single>true</single>
   <shuffleanswers>true</shuffleanswers>
   <answernumbering>abc</answernumbering>
-  <answer fraction="100" format="html">
-    <text><![CDATA[<p>\(250\pi^2\)</p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>\(100\pi^2\)</p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>\(5\pi^2\)</p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>0</p>]]></text>
-  </answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p><img src="@@PLUGINFILE@@/img-20.jpeg" alt="Damped oscillatory E versus t curve crossing zero" /></p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p><img src="@@PLUGINFILE@@/img-21.jpeg" alt="Concave down E versus t curve hitting zero" /></p>]]></text></answer>
+  <answer fraction="100" format="html"><text><![CDATA[<p><img src="@@PLUGINFILE@@/img-22.jpeg" alt="Exponentially decaying E versus t curve" /></p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p><img src="@@PLUGINFILE@@/img-23.jpeg" alt="Oscillatory E versus t curve crossing zero" /></p>]]></text></answer>
   <tags>
     <tag><text>standard:neet_ug</text></tag>
     <tag><text>lang:en</text></tag>
     <tag><text>subject:physics</text></tag>
-    <tag><text>class:class_11</text></tag>
-    <tag><text>topic:work_energy_and_power</text></tag>
+    <tag><text>section:mcq_i</text></tag>
+    <tag><text>class:11</text></tag>
+    <tag><text>chapter:work_energy_and_power</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:medium</text></tag>
+    <tag><text>blooms:understand</text></tag>
+    <tag><text>media:graph</text></tag>
+    <tag><text>multiconcept:true</text></tag>
+  </tags>
+</question>
+<question type="multichoice">
+  <name><text>NEET_UG_PHYSICS_MCQI_WORKENERGYANDPOWER_MCQ_Q6_14 - Kinetic energy of mass in circular path</text></name>
+  <questiontext format="html"><text><![CDATA[<p>A mass of \(5\text{ kg}\) is moving along a circular path of radius \(1\text{ m}\). If the mass moves with 300 revolutions per minute, its kinetic energy would be</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>Mass, \(m = 5\text{ kg}\). Radius of the circular path, \(R = 1\text{ m}\). Rotational frequency, \(n = 300\text{ revolutions per minute}\).</p><p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>The mass moves with uniform angular speed in a circle of fixed radius \(R\).</p><p><strong>Step 3: Relevant Formulae and Principles</strong><br/>Frequency in revolutions per second is \(\nu = \frac{n}{60}\text{ Hz}\). Angular speed is \(\omega = 2\pi\nu\), linear speed is \(v = \omega R\), and kinetic energy is \(K = \frac{1}{2}mv^2\).</p><p><strong>Step 4: Step-by-Step Working</strong><br/>Convert frequency to SI units: \(\nu = \frac{300}{60} = 5\text{ s}^{-1}\).<br/>Angular speed: \(\omega = 2\pi(5) = 10\pi\text{ rad/s}\).<br/>Linear speed: \(v = \omega R = (10\pi\text{ rad/s})(1\text{ m}) = 10\pi\text{ m/s}\).<br/>Kinetic energy: \(K = \frac{1}{2}(5\text{ kg})(10\pi\text{ m/s})^2 = \frac{5}{2} \times 100\pi^2 = 250\pi^2\text{ J}\).</p><p><strong>Step 5: Check and Final Answer</strong><br/>Checking units: \(\text{kg}\cdot(\text{m/s})^2 = \text{J}\). The kinetic energy of the mass is \(250\pi^2\).</p>]]></text></generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="100" format="html"><text><![CDATA[<p>\(250\pi^2\)</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>\(100\pi^2\)</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>\(5\pi^2\)</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>0</p>]]></text></answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>section:mcq_i</text></tag>
+    <tag><text>class:11</text></tag>
     <tag><text>chapter:work_energy_and_power</text></tag>
     <tag><text>typology:mcq</text></tag>
     <tag><text>difficulty:easy</text></tag>
     <tag><text>blooms:apply</text></tag>
-    <tag><text>calculation:moderate</text></tag>
+    <tag><text>calculation:light</text></tag>
     <tag><text>media:text</text></tag>
-    <tag><text>multiconcept:false</text></tag>
+    <tag><text>multiconcept:true</text></tag>
   </tags>
 </question>
 </quiz>

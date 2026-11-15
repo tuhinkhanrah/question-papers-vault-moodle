@@ -1,306 +1,244 @@
 <question type="multichoice">
-  <name>
-    <text>NEET_UG_PHYSICS_MECHANICAL_PROPERTIES_OF_FLUIDS_MCQ_Q10_01 - Velocity time graph of falling pebble</text>
-  </name>
-  <questiontext format="html">
-    <text><![CDATA[<p>A tall cylinder is filled with viscous oil. A round pebble is dropped from the top with zero initial velocity. From the plot shown in Fig. 10.1, indicate the one that represents the velocity (\(v\)) of the pebble as a function of time (\(t\)).</p><hr/><p>একটি দীর্ঘ সিলিন্ডার সান্দ্র তেলে পূর্ণ। ওপর থেকে শূন্য প্রারম্ভিক বেগে একটি গোল নুড়ি ফেলে দেওয়া হলো। চিত্রে প্রদর্শিত লেখচিত্রগুলির মধ্যে কোনটি সময় (\(t\))-এর সাপেক্ষে নুড়িটির বেগ (\(v\))-এর পরিবর্তনকে সঠিকভাবে নির্দেশ করে?</p>]]></text>
-  </questiontext>
-  <generalfeedback format="html">
-    <text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>A round pebble of radius \(r\) and density \(\rho\) is released from rest (\(v = 0\) at \(t = 0\)) inside a tall column of fluid of density \(\sigma\) and dynamic viscosity \(\eta\).</p><p><strong>Step 2: Assumptions and Physical Principles</strong><br/>The forces acting on the pebble along the vertical direction are:
-1. Downward gravitational force: \(W = mg = \rho V g\)
-2. Upward buoyant force: \(F_B = \sigma V g\)
-3. Upward viscous drag force given by Stokes&#39; law: \(F_v = 6\pi \eta r v\)</p><p><strong>Step 3: Relevant Formulae</strong><br/>The net downward force on the pebble is:
-\[m\frac{dv}{dt} = (\rho - \sigma)Vg - 6\pi\eta r v\]
-Initial acceleration at \(t = 0\) (where \(v = 0\)) is:
-\[a_0 = \frac{(\rho - \sigma)}{\rho}g\]
-As the velocity \(v\) increases, the upward retarding viscous drag force increases proportionally, causing the net downward force and acceleration to decrease continuously.</p><p><strong>Step 4: Step-by-Step Working and Graphical Form</strong><br/>Solving the differential equation yields the velocity as a function of time:
-\[v(t) = v_t\left(1 - e^{-t/\tau}\right)\]
-where \(\tau = \frac{m}{6\pi\eta r}\) is the characteristic time constant and \(v_t = \frac{2r^2(\rho - \sigma)g}{9\eta}\) is the terminal velocity.
-The curve starts from the origin with a positive initial slope \(\left(\frac{dv}{dt}\right)_{t=0} = a_0\). As time progresses, the slope decreases monotonically toward zero, asymptotically approaching the constant horizontal asymptote \(v = v_t\).</p><p><strong>Step 5: Final Conceptual Answer</strong><br/>The physical motion corresponds to the smooth curve that starts from the origin, bends with a decreasing slope, and asymptotically approaches a constant terminal velocity.</p><hr/><p><strong>ধাপ ১: প্রদত্ত তথ্য ও শর্তাবলী</strong><br/>\(r\) ব্যাসার্ধ ও \(\rho\) ঘনত্বের একটি গোল নুড়িকে \(\sigma\) ঘনত্ব ও \(\eta\) সান্দ্রতাঙ্কবিশিষ্ট একটি দীর্ঘ তরল স্তম্ভের মধ্যে স্থির অবস্থা থেকে ফেলে দেওয়া হলো (\(t = 0\) সময়ে \(v = 0\))।</p><p><strong>ধাপ ২: ভৌত নীতি ও বলের বিশ্লেষণ</strong><br/>উল্লম্ব দিকে নুড়িটির ওপর ক্রিয়াশীল বলসমূহ হলো:
-১. নিম্নমুখী অভিকর্ষজ বল: \(W = mg = \rho V g\)
-২. ঊর্ধ্বমুখী প্লবতা বল: \(F_B = \sigma V g\)
-৩. ঊর্ধ্বমুখী সান্দ্রতা বল (স্টোকসের সূত্রানুযায়ী): \(F_v = 6\pi \eta r v\)</p><p><strong>ধাপ ৩: প্রাসঙ্গিক সূত্রাবলী</strong><br/>নুড়িটির ওপর কার্যকর নিম্নমুখী লব্ধি বল:
-\[m\frac{dv}{dt} = (\rho - \sigma)Vg - 6\pi\eta r v\]
-প্রারম্ভিক ত্বরণ (\(t = 0\) সময়ে, যখন \(v = 0\)):
-\[a_0 = \frac{(\rho - \sigma)}{\rho}g\]
-বেগ বৃদ্ধি পাওয়ার সাথে সাথে সান্দ্রতাজনিত ঊর্ধ্বমুখী বাধা বল বৃদ্ধি পায়, ফলে লব্ধি নিম্নমুখী ত্বরণ ক্রমান্বয়ে হ্রাস পেতে থাকে।</p><p><strong>ধাপ ৪: বেগ-সময় সমীকরণ ও লেখচিত্রের প্রকৃতি</strong><br/>অবকল সমীকরণটির সমাধান করলে বেগ ও সময়ের সম্পর্ক পাওয়া যায়:
-\[v(t) = v_t\left(1 - e^{-t/\tau}\right)\]
-এখানে \(\tau = \frac{m}{6\pi\eta r}\) হলো সময় ধ্রুবক এবং \(v_t = \frac{2r^2(\rho - \sigma)g}{9\eta}\) হলো অন্তিম বা প্রান্তীয় বেগ।
-লেখচিত্রটি মূলবিন্দু থেকে একটি নির্দিষ্ট ধনাত্মক নতি সহ শুরু হয়, তারপর নতি ক্রমশ কমতে থাকে এবং শেষপর্যন্ত একটি অনুভূমিক প্রান্তীয় বেগের মানের সাথে অসীমতট রেখায় রূপান্তরিত হয়।</p><p><strong>ধাপ ৫: চূড়ান্ত সিদ্ধান্ত</strong><br/>ভৌত আচরণটি সেই মসৃণ বক্ররেখা দ্বারা প্রকাশ পায় যা মূলবিন্দু থেকে শুরু হয়ে ক্রমহ্রাসমান নতি সহ একটি নির্দিষ্ট অন্তিম বেগে পৌঁছায়।</p>]]></text>
-  </generalfeedback>
+  <name><text>NEET_UG_PHYSICS_MECHANICALPROPERTIESOFFLUIDS_MCQI_Q10_1 - Velocity time graph of falling pebble</text></name>
+  <questiontext format="html"><text><![CDATA[<p>A tall cylinder is filled with viscous oil. A round pebble is dropped from the top with zero initial velocity. From the plot shown in Fig. 10.1, indicate the one that represents the velocity (\(v\)) of the pebble as a function of time (\(t\)).</p><hr/><p>একটি লম্বা সিলিন্ডার সান্দ্র তেলে পূর্ণ। শূন্য প্রারম্ভিক বেগে উপর থেকে একটি গোলাকার নুড়ি ফেলা হলো। Fig. 10.1-এ প্রদর্শিত লেখচিত্রগুলির মধ্যে কোনটি সময়ের (\(t\)) অপেক্ষক হিসেবে নুড়িটির বেগ (\(v\)) নির্দেশ করে তা চিহ্নিত করো।</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>When a round pebble is dropped from rest into a viscous fluid, it experiences three vertical forces: downward gravitational force \(mg\), upward buoyant force \(F_B\), and upward viscous drag force \(F_v = 6\pi\eta r v\) (according to Stokes' law).</p>
+<p><strong>Step 2: Evaluation of Motion</strong><br/>At \(t = 0\), the initial velocity is \(v = 0\), so the viscous drag \(F_v = 0\) and the pebble accelerates downward with an initial acceleration \(a_0 = \frac{mg - F_B}{m}\). As the pebble speeds up, the viscous drag increases proportionally to \(v\), reducing the net downward force and hence reducing the acceleration \(a = \frac{dv}{dt}\).</p>
+<p><strong>Step 3: Asymptotic Behaviour and Final Conclusion</strong><br/>Eventually, the upward forces balance the weight (\(F_B + 6\pi\eta r v_t = mg\)), the acceleration becomes zero, and the pebble attains a constant terminal velocity \(v_t\). Therefore, the \(v\)-\(t\) graph starts from the origin, rises with a continuously decreasing slope, and asymptotically approaches a horizontal line corresponding to \(v_t\).</p><hr/><p><strong>ধাপ ১: ধারণাগত নীতি</strong><br/>যখন একটি গোলাকার নুড়িকে স্থিরাবস্থা থেকে কোনো সান্দ্র তরলে ফেলা হয়, তখন তার ওপর তিনটি উল্লম্ব বল ক্রিয়া করে: নিম্নমুখী অভিকর্ষ বল \(mg\), ঊর্ধ্বমুখী প্লবতা বল \(F_B\), এবং ঊর্ধ্বমুখী সান্দ্র টান বল \(F_v = 6\pi\eta r v\) (স্টোকসের সূত্র অনুযায়ী)।</p>
+<p><strong>ধাপ ২: গতির মূল্যায়ন</strong><br/>\(t = 0\) সময়ে প্রারম্ভিক বেগ \(v = 0\), তাই সান্দ্র বল \(F_v = 0\) এবং নুড়িটি \(a_0 = \frac{mg - F_B}{m}\) প্রারম্ভিক ত্বরণে নিচের দিকে পড়তে থাকে। নুড়ির বেগ বাড়ার সাথে সাথে সান্দ্র বল \(v\)-এর সমানুপাতে বৃদ্ধি পায়, ফলে লব্ধি নিম্নমুখী বল এবং ত্বরণ \(a = \frac{dv}{dt}\) ক্রমশ হ্রাস পায়।</p>
+<p><strong>ধাপ ৩: চূড়ান্ত আচরণ ও উপসংহার</strong><br/>পরিশেষে ঊর্ধ্বমুখী বলগুলি ওজনের সমান হয় (\(F_B + 6\pi\eta r v_t = mg\)), ত্বরণ শূন্য হয় এবং নুড়িটি একটি ধ্রুবক প্রান্তিক বেগ \(v_t\) লাভ করে। সুতরাং, \(v\)-\(t\) লেখচিত্রটি মূলবিন্দু থেকে শুরু হয়ে ক্রমহ্রাসমান ঢালের সাথে বৃদ্ধি পায় এবং অসীমে \(v_t\)-এর সমান্তরাল একটি অনুভূমিক সরলরেখার নিকটবর্তী হয়।</p>]]></text></generalfeedback>
   <defaultgrade>4.0000000</defaultgrade>
   <penalty>0.2500000</penalty>
   <hidden>0</hidden>
   <single>true</single>
   <shuffleanswers>true</shuffleanswers>
   <answernumbering>abc</answernumbering>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p><img src="@@PLUGINFILE@@/img-0.jpeg" alt="Graph (a)" /></p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p><img src="@@PLUGINFILE@@/img-1.jpeg" alt="Graph (b)" /></p>]]></text>
-  </answer>
-  <answer fraction="100" format="html">
-    <text><![CDATA[<p><img src="@@PLUGINFILE@@/img-2.jpeg" alt="Graph (c)" /></p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p><img src="@@PLUGINFILE@@/img-3.jpeg" alt="Graph (d)" /></p>]]></text>
-  </answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p><img src="@@PLUGINFILE@@/img-0.jpeg" alt="Linear velocity-time graph from origin" /></p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p><img src="@@PLUGINFILE@@/img-1.jpeg" alt="Delayed linear velocity-time graph" /></p>]]></text></answer>
+  <answer fraction="100" format="html"><text><![CDATA[<p><img src="@@PLUGINFILE@@/img-2.jpeg" alt="Curved velocity-time graph approaching terminal velocity" /></p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p><img src="@@PLUGINFILE@@/img-3.jpeg" alt="Piecewise linear velocity-time graph" /></p>]]></text></answer>
   <tags>
     <tag><text>standard:neet_ug</text></tag>
     <tag><text>lang:en</text></tag>
     <tag><text>lang:bn</text></tag>
     <tag><text>subject:physics</text></tag>
-    <tag><text>class:class_11</text></tag>
+    <tag><text>section:mcq_i</text></tag>
+    <tag><text>class:11</text></tag>
     <tag><text>chapter:mechanical_properties_of_fluids</text></tag>
-    <tag><text>typology:mcq</text></tag>
-    <tag><text>difficulty:easy</text></tag>
-    <tag><text>blooms:understand</text></tag>
+    <tag><text>typology:single_correct_mcq</text></tag>
+    <tag><text>difficulty:medium</text></tag>
+    <tag><text>blooms:analyze</text></tag>
     <tag><text>calculation:light</text></tag>
     <tag><text>media:graph</text></tag>
     <tag><text>multiconcept:false</text></tag>
   </tags>
 </question>
+
 <question type="multichoice">
-  <name>
-    <text>NEET_UG_PHYSICS_MECHANICAL_PROPERTIES_OF_FLUIDS_MCQ_Q10_02 - Identification of non streamline flow diagram</text>
-  </name>
-  <questiontext format="html">
-    <text><![CDATA[<p>Which of the following diagrams (Fig. 10.2) does not represent a streamline flow?</p><p><img src="@@PLUGINFILE@@/img-4.jpeg" alt="Fig. 10.2 Streamline patterns" /></p><hr/><p>নিম্নলিখিত চিত্রগুলির মধ্যে কোনটি ধারাখো প্রবাহ নির্দেশ করে না?</p>]]></text>
-  </questiontext>
-  <generalfeedback format="html">
-    <text><![CDATA[<p><strong>Step 1: Conceptual Principle of Streamlines</strong><br/>A streamline is defined as an imaginary curve in a flow field such that the tangent drawn at any point on the curve gives the direction of the velocity vector of a fluid particle at that point.</p><p><strong>Step 2: Condition for Steady/Streamline Flow</strong><br/>In steady or streamline flow, each fluid particle arriving at a specific spatial location follows the exact trajectory of the preceding particles with a well-defined, unique velocity vector.</p><p><strong>Step 3: Impossibility of Intersection</strong><br/>Two streamlines can never intersect. If two streamlines were to cross each other, a fluid particle located at the point of intersection would simultaneously have two different tangents and hence two distinct velocity directions at the same instant, which violates the defining principle of steady streamline flow.</p><p><strong>Step 4: Evaluation of Flow Patterns</strong><br/>Patterns featuring parallel curved lines, diverging lines, or smoothly converging curved paths without intersection all represent geometrically valid streamline configurations. The pattern depicting intersecting lines crossing each other violates the uniqueness of fluid velocity at a point.</p><p><strong>Step 5: Final Conclusion</strong><br/>The diagram exhibiting intersecting flow lines cannot represent a streamline flow.</p><hr/><p><strong>ধাপ ১: ধারাখো রেখার মূল নীতি</strong><br/>প্রবাহী ক্ষেত্রে ধারাখো রেখা হলো এমন একটি কাল্পনিক রেখা যার যেকোনো বিন্দুতে অঙ্কিত স্পর্শক ওই বিন্দুতে প্রবাহী কণার বেগের দিক নির্দেশ করে।</p><p><strong>ধাপ ২: ধারাখো প্রবাহের শর্ত</strong><br/>স্থির বা ধারাখো প্রবাহের ক্ষেত্রে কোনো নির্দিষ্ট স্থান দিয়ে অতিক্রমকারী প্রতিটি কণা পূর্ববর্তী কণার গতিপথ ও নির্দিষ্ট বেগ বজায় রেখে চলে।</p><p><strong>ধাপ ৩: ছেদবিন্দুর অসম্ভবতা</strong><br/>দুটি ধারাখো রেখা কখনো পরস্পরকে ছেদ করতে পারে না। যদি দুটি রেখা পরস্পরকে ছেদ করে, তবে ছেদবিন্দুতে দুটি ভিন্ন স্পর্শক থাকবে, যা নির্দেশ করে যে একই বিন্দুতে একই সময়ে তরল কণার দুটি ভিন্ন বেগ রয়েছে। এটি ধারাখো প্রবাহের সংজ্ঞার পরিপন্থী।</p><p><strong>ধাপ ৪: প্রবাহ বিন্যাসের মূল্যায়ন</strong><br/>সমান্তরাল বক্ররেখা, অপসারী সরলরেখা বা মসৃণ বক্ররেখার বিন্যাসগুলি কোনো ছেদবিন্দু তৈরি না করায় ধারাখো প্রবাহ নির্দেশ করতে পারে। কিন্তু পরস্পরছেদী রেখাবিশিষ্ট বিন্যাসটি ধারাখো প্রবাহের শর্ত লঙ্ঘন করে।</p><p><strong>ধাপ ৫: চূড়ান্ত সিদ্ধান্ত</strong><br/>পরস্পরকে ছেদকারী রেখা সমন্বিত চিত্রটি ধারাখো প্রবাহ নির্দেশ করতে পারে না।</p>]]></text>
-  </generalfeedback>
+  <name><text>NEET_UG_PHYSICS_MECHANICALPROPERTIESOFFLUIDS_MCQI_Q10_2 - Diagram not representing streamline flow</text></name>
+  <questiontext format="html"><text><![CDATA[<p>Which of the following diagrams (Fig. 10.2) does not represent a streamline flow?</p><p><img src="@@PLUGINFILE@@/img-4.jpeg" alt="Four fluid flow diagrams" /></p><hr/><p>নিচের কোন চিত্রটি (Fig. 10.2) ধারারেখ প্রবাহ নির্দেশ করে না?</p><p><img src="@@PLUGINFILE@@/img-4.jpeg" alt="Four fluid flow diagrams" /></p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>In a streamline (steady) flow, the tangent to a streamline at any point gives the direction of velocity of the fluid particle at that point.</p>
+<p><strong>Step 2: Evaluation</strong><br/>If two streamlines were to intersect at a point, a fluid particle at that point of intersection would have two different directions of velocity simultaneously, which is physically impossible in steady flow.</p>
+<p><strong>Step 3: Final Conclusion</strong><br/>Therefore, the diagram showing intersecting streamlines does not represent a streamline flow, whereas parallel, diverging, or smoothly curving non-intersecting streamlines represent valid streamline flows.</p><hr/><p><strong>ধাপ ১: ধারণাগত নীতি</strong><br/>ধারারেখ (স্থিতিশীল) প্রবাহে কোনো বিন্দুতে ধারারেখার স্পর্শক ওই বিন্দুতে তরল কণার বেগের দিক নির্দেশ করে।</p>
+<p><strong>ধাপ ২: মূল্যায়ন</strong><br/>যদি দুটি ধারারেখা কোনো বিন্দুতে পরস্পরকে ছেদ করে, তবে সেই ছেদবিন্দুতে একটি তরল কণার একই সাথে দুটি ভিন্ন বেগের দিক থাকতে হবে, যা স্থিতিশীল প্রবাহে ভৌতভাবে অসম্ভব।</p>
+<p><strong>ধাপ ৩: চূড়ান্ত উপসংহার</strong><br/>অতএব, যে চিত্রে পরস্পরছেদী রেখা দেখা যাচ্ছে তা ধারারেখ প্রবাহ নির্দেশ করে না; পক্ষান্তরে সমান্তরাল, অপসারী বা মসৃণভাবে বাঁকানো অছেদী রেখাগুলি ধারারেখ প্রবাহ নির্দেশ করে।</p>]]></text></generalfeedback>
   <defaultgrade>4.0000000</defaultgrade>
   <penalty>0.2500000</penalty>
   <hidden>0</hidden>
   <single>true</single>
   <shuffleanswers>false</shuffleanswers>
   <answernumbering>abc</answernumbering>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>(a)</p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>(b)</p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>(c)</p>]]></text>
-  </answer>
-  <answer fraction="100" format="html">
-    <text><![CDATA[<p>(d)</p>]]></text>
-  </answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>First diagram from the left</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>Second diagram from the left</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>Third diagram from the left</p>]]></text></answer>
+  <answer fraction="100" format="html"><text><![CDATA[<p>Fourth diagram from the left</p>]]></text></answer>
   <tags>
     <tag><text>standard:neet_ug</text></tag>
     <tag><text>lang:en</text></tag>
     <tag><text>lang:bn</text></tag>
     <tag><text>subject:physics</text></tag>
-    <tag><text>class:class_11</text></tag>
+    <tag><text>section:mcq_i</text></tag>
+    <tag><text>class:11</text></tag>
     <tag><text>chapter:mechanical_properties_of_fluids</text></tag>
-    <tag><text>typology:mcq</text></tag>
+    <tag><text>typology:single_correct_mcq</text></tag>
     <tag><text>difficulty:easy</text></tag>
-    <tag><text>blooms:remember</text></tag>
+    <tag><text>blooms:understand</text></tag>
     <tag><text>calculation:light</text></tag>
     <tag><text>media:diagram</text></tag>
     <tag><text>multiconcept:false</text></tag>
   </tags>
 </question>
+
 <question type="multichoice">
-  <name>
-    <text>NEET_UG_PHYSICS_MECHANICAL_PROPERTIES_OF_FLUIDS_MCQ_Q10_03 - Fluid particle velocity along a streamline</text>
-  </name>
-  <questiontext format="html">
-    <text><![CDATA[<p>Along a streamline</p><hr/><p>একটি ধারাখো রেখা বরাবর—</p>]]></text>
-  </questiontext>
-  <generalfeedback format="html">
-    <text><![CDATA[<p><strong>Step 1: Definition of Streamline Flow</strong><br/>Streamline flow is steady laminar flow where fluid properties at any fixed spatial point do not change with time:
-\[\left(\frac{\partial \vec{v}}{\partial t}\right)_{\vec{r}} = 0\]</p><p><strong>Step 2: Particle Behavior vs. Fixed Point Behavior</strong><br/>As an individual fluid particle moves along a streamline, its velocity can vary if the cross-sectional area changes, so neither the velocity nor the speed of a single moving particle remains constant in general.</p><p><strong>Step 3: Spatial Consistency at a Given Location</strong><br/>Because steady conditions prevail, every successive fluid particle that reaches a specific point in space experiences identical boundary and pressure forces, thereby moving with the exact same velocity (both magnitude and direction) as the particle before it.</p><p><strong>Step 4: Final Conclusion</strong><br/>The governing characteristic of streamline flow is that the velocity of all fluid particles crossing a given position is constant.</p><hr/><p><strong>ধাপ ১: ধারাখো প্রবাহের সংজ্ঞা</strong><br/>ধারাখো প্রবাহ হলো এমন একটি স্থির প্রবাহ যেখানে স্থানের যেকোনো নির্দিষ্ট বিন্দুতে সময়ের সাথে প্রবাহীর বেগ অপরিবর্তিত থাকে:
-\[\left(\frac{\partial \vec{v}}{\partial t}\right)_{\vec{r}} = 0\]</p><p><strong>ধাপ ২: নির্দিষ্ট বিন্দু বনাম চলমান কণার বৈশিষ্ট্য</strong><br/>একটি প্রবাহী কণা যখন কোনো ধারাখো রেখা ধরে এগিয়ে যায়, প্রস্থচ্ছেদের ক্ষেত্রফলের পরিবর্তনের কারণে তার বেগ ও দ্রুতি উভয়ই পরিবর্তিত হতে পারে। তাই একক কণার বেগ বা দ্রুতি সর্বত্র ধ্রুবক থাকে না।</p><p><strong>ধাপ ৩: নির্দিষ্ট অবস্থানে কণার বেগ</strong><br/>স্থির প্রবাহের কারণে কোনো একটি নির্দিষ্ট স্থান দিয়ে যখন কোনো প্রবাহী কণা অতিক্রম করে, তখন তার পূর্ববর্তী ও পরবর্তী সমস্ত কণা ঠিক একই গতিবেগ (মান ও দিক) নিয়ে ওই স্থানটি পার হয়।</p><p><strong>ধাপ ৪: চূড়ান্ত সিদ্ধান্ত</strong><br/>ধারাখো প্রবাহের মৌলিক বৈশিষ্ট্য হলো কোনো নির্দিষ্ট অবস্থান অতিক্রমকারী সমস্ত প্রবাহী কণার বেগ ধ্রুবক থাকে।</p>]]></text>
-  </generalfeedback>
+  <name><text>NEET_UG_PHYSICS_MECHANICALPROPERTIESOFFLUIDS_MCQI_Q10_3 - Velocity property along a streamline</text></name>
+  <questiontext format="html"><text><![CDATA[<p>Along a streamline</p><hr/><p>একটি ধারারেখা বরাবর</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>Streamline flow (steady flow) is defined as a flow in which the velocity of fluid particles at any given point in space remains constant with time.</p>
+<p><strong>Step 2: Evaluation</strong><br/>As a single fluid particle moves along a streamline, its speed and direction may change from one position to another (for example, when the cross-sectional area of the flow tube changes). However, every fluid particle that crosses a specific fixed position along the streamline has the exact same velocity at that position.</p>
+<p><strong>Step 3: Final Conclusion</strong><br/>Thus, along a streamline, the velocity of all fluid particles crossing a given position is constant.</p><hr/><p><strong>ধাপ ১: ধারণাগত নীতি</strong><br/>ধারারেখ প্রবাহ (স্থিতিশীল প্রবাহ) বলতে এমন প্রবাহকে বোঝায় যেখানে স্থানের যেকোনো নির্দিষ্ট বিন্দুতে তরল কণার বেগ সময়ের সাথে ধ্রুবক থাকে।</p>
+<p><strong>ধাপ ২: মূল্যায়ন</strong><br/>একটি তরল কণা ধারারেখা বরাবর চলার সময় এক অবস্থান থেকে অন্য অবস্থানে তার দ্রুতি ও দিক পরিবর্তিত হতে পারে (যেমন প্রবাহনালীর প্রস্থচ্ছেদের ক্ষেত্রফল পরিবর্তিত হলে)। কিন্তু ধারারেখার একটি নির্দিষ্ট বিন্দু অতিক্রমকারী প্রতিটি তরল কণার বেগ ওই বিন্দুতে সর্বদা একই থাকে।</p>
+<p><strong>ধাপ ৩: চূড়ান্ত উপসংহার</strong><br/>সুতরাং, একটি ধারারেখা বরাবর কোনো নির্দিষ্ট অবস্থান অতিক্রমকারী সকল তরল কণার বেগ ধ্রুবক থাকে।</p>]]></text></generalfeedback>
   <defaultgrade>4.0000000</defaultgrade>
   <penalty>0.2500000</penalty>
   <hidden>0</hidden>
   <single>true</single>
   <shuffleanswers>true</shuffleanswers>
   <answernumbering>abc</answernumbering>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>the velocity of a fluid particle remains constant.</p>]]></text>
-  </answer>
-  <answer fraction="100" format="html">
-    <text><![CDATA[<p>the velocity of all fluid particles crossing a given position is constant.</p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>the velocity of all fluid particles at a given instant is constant.</p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>the speed of a fluid particle remains constant.</p>]]></text>
-  </answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>the velocity of a fluid particle remains constant.</p>]]></text></answer>
+  <answer fraction="100" format="html"><text><![CDATA[<p>the velocity of all fluid particles crossing a given position is constant.</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>the velocity of all fluid particles at a given instant is constant.</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>the speed of a fluid particle remains constant.</p>]]></text></answer>
   <tags>
     <tag><text>standard:neet_ug</text></tag>
     <tag><text>lang:en</text></tag>
     <tag><text>lang:bn</text></tag>
     <tag><text>subject:physics</text></tag>
-    <tag><text>class:class_11</text></tag>
+    <tag><text>section:mcq_i</text></tag>
+    <tag><text>class:11</text></tag>
     <tag><text>chapter:mechanical_properties_of_fluids</text></tag>
-    <tag><text>typology:mcq</text></tag>
+    <tag><text>typology:single_correct_mcq</text></tag>
     <tag><text>difficulty:easy</text></tag>
-    <tag><text>blooms:remember</text></tag>
+    <tag><text>blooms:understand</text></tag>
     <tag><text>calculation:light</text></tag>
     <tag><text>media:text</text></tag>
     <tag><text>multiconcept:false</text></tag>
   </tags>
 </question>
+
 <question type="multichoice">
-  <name>
-    <text>NEET_UG_PHYSICS_MECHANICAL_PROPERTIES_OF_FLUIDS_MCQ_Q10_04 - Ratio of velocities in varying pipe sections</text>
-  </name>
-  <questiontext format="html">
-    <text><![CDATA[<p>An ideal fluid flows through a pipe of circular cross-section made of two sections with diameters \(2.5\text{ cm}\) and \(3.75\text{ cm}\). The ratio of the velocities in the two pipes is</p><hr/><p>\(2.5\text{ cm}\) এবং \(3.75\text{ cm}\) ব্যাসবিশিষ্ট দুটি বৃত্তাকার প্রস্থচ্ছেদের অংশ নিয়ে গঠিত একটি নলের মধ্য দিয়ে একটি আদর্শ প্রবাহী প্রবাহিত হচ্ছে। নল দুটিতে প্রবাহীর বেগের অনুপাত হলো—</p>]]></text>
-  </questiontext>
-  <generalfeedback format="html">
-    <text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>- Diameter of first circular section: \(d_1 = 2.5\text{ cm}\)<br/>- Diameter of second circular section: \(d_2 = 3.75\text{ cm}\)<br/>- Fluid type: Incompressible, ideal fluid flowing steadily.</p><p><strong>Step 2: Governing Physical Law</strong><br/>By the equation of continuity for steady flow of an incompressible fluid:
-\[A_1 v_1 = A_2 v_2\]
-where \(A\) is the cross-sectional area and \(v\) is the flow velocity.</p><p><strong>Step 3: Relationship with Diameter</strong><br/>For a pipe with a circular cross-section:
-\[A = \frac{\pi d^2}{4}\]
-Substituting the area into the continuity equation:
-\[\frac{\pi d_1^2}{4} v_1 = \frac{\pi d_2^2}{4} v_2 \implies \frac{v_1}{v_2} = \left(\frac{d_2}{d_1}\right)^2\]</p><p><strong>Step 4: Step-by-Step Calculation</strong><br/>Calculate the ratio of the diameters:
-\[\frac{d_2}{d_1} = \frac{3.75}{2.5} = \frac{375}{250} = \frac{3}{2}\]
-Square this ratio to find the velocity ratio:
-\[\frac{v_1}{v_2} = \left(\frac{3}{2}\right)^2 = \frac{9}{4}\]
-Thus, the ratio of the velocities is \(9:4\).</p><p><strong>Step 5: Final Conclusion</strong><br/>The ratio of velocities in the two pipe sections is \(9:4\).</p><hr/><p><strong>ধাপ ১: প্রদত্ত তথ্য</strong><br/>- প্রথম অংশের ব্যাস: \(d_1 = 2.5\text{ cm}\)<br/>- দ্বিতীয় অংশের ব্যাস: \(d_2 = 3.75\text{ cm}\)<br/>- প্রবাহী: সান্দ্রতাহীন এবং অসংকোচ্য আদর্শ তরল।</p><p><strong>ধাপ ২: মূল নীতি ও সমীকরণ</strong><br/>অসংকোচ্য তরলের স্থির প্রবাহের ক্ষেত্রে শান্তত্য সমীকরণ (Equation of Continuity):
-\[A_1 v_1 = A_2 v_2\]
-এখানে \(A\) হলো প্রস্থচ্ছেদের ক্ষেত্রফল এবং \(v\) হলো প্রবাহের বেগ।</p><p><strong>ধাপ ৩: ব্যাসের সাথে সম্পর্ক</strong><br/>বৃত্তাকার প্রস্থচ্ছেদের জন্য ক্ষেত্রফল:
-\[A = \frac{\pi d^2}{4}\]
-শান্তত্য সমীকরণে মান বসালে পাই:
-\[\frac{v_1}{v_2} = \left(\frac{d_2}{d_1}\right)^2\]</p><p><strong>ধাপ ৪: গণনা</strong><br/>ব্যাসদ্বয়ের অনুপাত:
-\[\frac{d_2}{d_1} = \frac{3.75}{2.5} = \frac{3}{2}\]
-অতএব বেগের অনুপাত:
-\[\frac{v_1}{v_2} = \left(\frac{3}{2}\right)^2 = \frac{9}{4}\]
-অর্থাৎ বেগের অনুপাত হলো \(9:4\)।</p><p><strong>ধাপ ৫: চূড়ান্ত উত্তর</strong><br/>নল দুটিতে প্রবাহীর বেগের অনুপাত হলো \(9:4\)।</p>]]></text>
-  </generalfeedback>
+  <name><text>NEET_UG_PHYSICS_MECHANICALPROPERTIESOFFLUIDS_MCQI_Q10_4 - Ratio of velocities in two pipes</text></name>
+  <questiontext format="html"><text><![CDATA[<p>An ideal fluid flows through a pipe of circular cross-section made of two sections with diameters \(2.5\text{ cm}\) and \(3.75\text{ cm}\). The ratio of the velocities in the two pipes is</p><hr/><p>একটি আদর্শ তরল \(2.5\text{ cm}\) ও \(3.75\text{ cm}\) ব্যাসবিশিষ্ট দুটি বৃত্তাকার প্রস্থচ্ছেদের অংশ নিয়ে গঠিত একটি নলের মধ্য দিয়ে প্রবাহিত হচ্ছে। নল দুটিতে তরলের বেগের অনুপাত হলো</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>Diameter of the first section, \(d_1 = 2.5\text{ cm}\).<br/>Diameter of the second section, \(d_2 = 3.75\text{ cm}\).<br/>The fluid is ideal (incompressible and non-viscous) and flows through circular cross-sections.</p>
+<p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>Steady flow is assumed, so the mass flow rate (and volume flow rate for an incompressible fluid) is conserved across both sections.</p>
+<p><strong>Step 3: Relevant Formulae and Principles</strong><br/>By the equation of continuity:<br/>\[A_1 v_1 = A_2 v_2\]<br/>For a circular cross-section, area \(A = \frac{\pi d^2}{4}\).</p>
+<p><strong>Step 4: Step-by-Step Working</strong><br/>\[\frac{v_1}{v_2} = \frac{A_2}{A_1} = \frac{\frac{\pi d_2^2}{4}}{\frac{\pi d_1^2}{4}} = \left(\frac{d_2}{d_1}\right)^2\]<br/>Substituting the given diameters:<br/>\[\frac{v_1}{v_2} = \left(\frac{3.75\text{ cm}}{2.5\text{ cm}}\right)^2 = \left(\frac{3}{2}\right)^2 = \frac{9}{4}\]</p>
+<p><strong>Step 5: Check and Final Answer</strong><br/>The ratio is dimensionless, and since the first section is narrower, \(v_1 &gt; v_2\), which is consistent with \(9:4\). The ratio of the velocities in the two pipes is \(9:4\).</p><hr/><p><strong>ধাপ ১: প্রদত্ত তথ্য ও শর্তাবলি</strong><br/>প্রথম অংশের ব্যাস, \(d_1 = 2.5\text{ cm}\)।<br/>দ্বিতীয় অংশের ব্যাস, \(d_2 = 3.75\text{ cm}\)।<br/>তরলটি আদর্শ (অসংনম্য ও সান্দ্রতাহীন) এবং বৃত্তাকার প্রস্থচ্ছেদের মধ্য দিয়ে প্রবাহিত হচ্ছে।</p>
+<p><strong>ধাপ ২: অনুমান ও চিহ্ন প্রথা</strong><br/>স্থিতিশীল প্রবাহ ধরে নেওয়া হয়েছে, তাই উভয় প্রস্থচ্ছেদে ভর প্রবাহের হার (এবং অসংনম্য তরলের জন্য আয়তন প্রবাহের হার) সংরক্ষিত থাকে।</p>
+<p><strong>ধাপ ৩: প্রাসঙ্গিক সূত্র ও নীতি</strong><br/>ধারাবাহিকতার সমীকরণ অনুসারে:<br/>\[A_1 v_1 = A_2 v_2\]<br/>বৃত্তাকার প্রস্থচ্ছেদের ক্ষেত্রফল \(A = \frac{\pi d^2}{4}\)।</p>
+<p><strong>ধাপ ৪: ধাপে ধাপে গণনা</strong><br/>\[\frac{v_1}{v_2} = \frac{A_2}{A_1} = \frac{\frac{\pi d_2^2}{4}}{\frac{\pi d_1^2}{4}} = \left(\frac{d_2}{d_1}\right)^2\]<br/>প্রদত্ত ব্যাস বসিয়ে পাই:<br/>\[\frac{v_1}{v_2} = \left(\frac{3.75\text{ cm}}{2.5\text{ cm}}\right)^2 = \left(\frac{3}{2}\right)^2 = \frac{9}{4}\]</p>
+<p><strong>ধাপ ৫: যাচাইকরণ ও চূড়ান্ত উত্তর</strong><br/>অনুপাতটি মাত্রাহীন এবং প্রথম অংশটি সরু হওয়ায় \(v_1 &gt; v_2\), যা \(9:4\) মানের সাথে সামঞ্জস্যপূর্ণ। নল দুটিতে বেগের অনুপাত \(9:4\)।</p>]]></text></generalfeedback>
   <defaultgrade>4.0000000</defaultgrade>
   <penalty>0.2500000</penalty>
   <hidden>0</hidden>
   <single>true</single>
   <shuffleanswers>true</shuffleanswers>
   <answernumbering>abc</answernumbering>
-  <answer fraction="100" format="html">
-    <text><![CDATA[<p>9:4</p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>3:2</p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>\(\sqrt{3}:\sqrt{2}\)</p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>\(\sqrt{2}:\sqrt{3}\)</p>]]></text>
-  </answer>
+  <answer fraction="100" format="html"><text><![CDATA[<p>\(9:4\)</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>\(3:2\)</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>\(\sqrt{3} : \sqrt{2}\)</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>\(\sqrt{2} : \sqrt{3}\)</p>]]></text></answer>
   <tags>
     <tag><text>standard:neet_ug</text></tag>
     <tag><text>lang:en</text></tag>
     <tag><text>lang:bn</text></tag>
     <tag><text>subject:physics</text></tag>
-    <tag><text>class:class_11</text></tag>
+    <tag><text>section:mcq_i</text></tag>
+    <tag><text>class:11</text></tag>
     <tag><text>chapter:mechanical_properties_of_fluids</text></tag>
-    <tag><text>typology:mcq</text></tag>
+    <tag><text>typology:single_correct_mcq</text></tag>
     <tag><text>difficulty:easy</text></tag>
     <tag><text>blooms:apply</text></tag>
     <tag><text>calculation:light</text></tag>
-    <tag><text>media:equation</text></tag>
+    <tag><text>media:text</text></tag>
     <tag><text>multiconcept:false</text></tag>
   </tags>
 </question>
+
 <question type="multichoice">
-  <name>
-    <text>NEET_UG_PHYSICS_MECHANICAL_PROPERTIES_OF_FLUIDS_MCQ_Q10_05 - Capillary meniscus curvature and contact angle</text>
-  </name>
-  <questiontext format="html">
-    <text><![CDATA[<p>The angle of contact at the interface of water-glass is \(0^{\circ}\), ethylalcohol-glass is \(0^{\circ}\), mercury-glass is \(140^{\circ}\) and methyliodide-glass is \(30^{\circ}\). A glass capillary is put in a trough containing one of these four liquids. It is observed that the meniscus is convex. The liquid in the trough is</p><hr/><p>জল-কাচ সংযোগতলে স্পর্শকোণ \(0^{\circ}\), ইথাইল অ্যালকোহল-কাচ সংযোগতলে \(0^{\circ}\), পারদ-কাচ সংযোগতলে \(140^{\circ}\) এবং মিথাইল আয়োডাইড-কাচ সংযোগতলে \(30^{\circ}\)। এই চারটি তরলের একটি রাখা আছে এমন একটি পাত্রে একটি কাচের কৈশিক নল ডোবানো হলো। দেখা গেল যে তরলের মুক্ততল বা মেনিসকাস উত্তল। পাত্রের তরলটি হলো—</p>]]></text>
-  </questiontext>
-  <generalfeedback format="html">
-    <text><![CDATA[<p><strong>Step 1: Governing Concept</strong><br/>The curvature of a liquid meniscus in a solid capillary tube depends directly on the angle of contact \(\theta\) between the liquid and the tube wall:
-- An acute angle of contact (\(\theta < 90^{\circ}\)) produces a concave meniscus (liquid wets the tube wall due to adhesive forces exceeding cohesive forces).
-- An obtuse angle of contact (\(\theta > 90^{\circ}\)) produces a convex meniscus (cohesive forces dominate over adhesive forces, and the liquid does not wet the wall).</p><p><strong>Step 2: Analysis of the Given Liquids</strong><br/>- Water-glass: \(\theta = 0^{\circ} < 90^{\circ}\) (concave meniscus)
-- Ethylalcohol-glass: \(\theta = 0^{\circ} < 90^{\circ}\) (concave meniscus)
-- Methyliodide-glass: \(\theta = 30^{\circ} < 90^{\circ}\) (concave meniscus)
-- Mercury-glass: \(\theta = 140^{\circ} > 90^{\circ}\) (convex meniscus)</p><p><strong>Step 3: Final Conclusion</strong><br/>Since an obtuse contact angle of \(140^{\circ}\) corresponds exclusively to mercury with glass, the liquid in the trough is mercury.</p><hr/><p><strong>ধাপ ১: মূল নীতি</strong><br/>কৈশিক নলে তরলের মেনিসকাস বা মুক্ততলের আকৃতি তরল ও নলের মধ্যবর্তী স্পর্শকোণ \(\theta\)-এর ওপর নির্ভর করে:
-- স্পর্শকোণ সূক্ষ্মকোণ (\(\theta < 90^{\circ}\)) হলে আসঞ্জন বল সংসক্তি বলের চেয়ে বেশি হয়, তরল কাচকে ভেজায় এবং মুক্ততল অবতল হয়।
-- স্পর্শকোণ স্থূলকোণ (\(\theta > 90^{\circ}\)) হলে তরলের সংসক্তি বল প্রভাবশালী হয়, তরল কাচকে ভেজায় না এবং মুক্ততল উত্তল হয়।</p><p><strong>ধাপ ২: তরলগুলির স্পর্শকোণ বিশ্লেষণ</strong><br/>- জল-কাচ: \(\theta = 0^{\circ} < 90^{\circ}\) (অবতল মুক্ততল)
-- ইথাইল অ্যালকোহল-কাচ: \(\theta = 0^{\circ} < 90^{\circ}\) (অবতল মুক্ততল)
-- মিথাইল আয়োডাইড-কাচ: \(\theta = 30^{\circ} < 90^{\circ}\) (অবতল মুক্ততল)
-- পারদ-কাচ: \(\theta = 140^{\circ} > 90^{\circ}\) (উত্তল মুক্ততল)</p><p><strong>ধাপ ৩: চূড়ান্ত উত্তর</strong><br/>যেহেতু পারদের ক্ষেত্রে স্পর্শকোণ স্থূলকোণ (\(140^{\circ}\)), তাই পাত্রে উপস্থিত তরলটি হলো পারদ।</p>]]></text>
-  </generalfeedback>
+  <name><text>NEET_UG_PHYSICS_MECHANICALPROPERTIESOFFLUIDS_MCQI_Q10_5 - Convex meniscus and angle of contact</text></name>
+  <questiontext format="html"><text><![CDATA[<p>The angle of contact at the interface of water-glass is \(0^\circ\), Ethylalcohol-glass is \(0^\circ\), Mercury-glass is \(140^\circ\) and Methyliodide-glass is \(30^\circ\). A glass capillary is put in a trough containing one of these four liquids. It is observed that the meniscus is convex. The liquid in the trough is</p><hr/><p>জল-কাচ সংযোগস্থলে স্পর্শকোণ \(0^\circ\), ইথাইল অ্যালকোহল-কাচের জন্য \(0^\circ\), পারদ-কাচের জন্য \(140^\circ\) এবং মিথাইল আয়োডাইড-কাচের জন্য \(30^\circ\)। এই চারটি তরলের যেকোনো একটি পূর্ণ পাত্রে একটি কাচের কৈশিক নল ডোবানো হলো। দেখা গেল তরলপৃষ্ঠটি উত্তল। পাত্রের তরলটি হলো</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>The shape of the liquid meniscus inside a glass capillary depends on the angle of contact \(\theta\) between the liquid and glass.</p>
+<p><strong>Step 2: Evaluation</strong><br/>When \(\theta &lt; 90^\circ\) (acute angle), the adhesive forces between the liquid and glass exceed the cohesive forces within the liquid, resulting in a concave meniscus. When \(\theta &gt; 90^\circ\) (obtuse angle), cohesive forces dominate over adhesive forces, resulting in a convex meniscus.</p>
+<p><strong>Step 3: Application and Final Conclusion</strong><br/>Among the given liquids, water (\(0^\circ\)), ethyl alcohol (\(0^\circ\)), and methyl iodide (\(30^\circ\)) all have acute angles of contact with glass, whereas mercury has an obtuse angle of contact of \(140^\circ\). Therefore, the liquid forming a convex meniscus in the trough is mercury.</p><hr/><p><strong>ধাপ ১: ধারণাগত নীতি</strong><br/>কাচের কৈশিক নলের ভেতরে তরলপৃষ্ঠের (মেনিস্কাসের) আকৃতি তরল ও কাচের মধ্যকার স্পর্শকোণ \(\theta\)-এর ওপর নির্ভর করে।</p>
+<p><strong>ধাপ ২: মূল্যায়ন</strong><br/>যখন \(\theta &lt; 90^\circ\) (সূক্ষ্মকোণ) হয়, তখন তরল ও কাচের মধ্যকার আসঞ্জন বল তরলের অণুগুলির মধ্যকার সংশক্তি বলের চেয়ে বেশি হয়, ফলে অবতল মেনিস্কাস গঠিত হয়। যখন \(\theta &gt; 90^\circ\) (স্থূলকোণ) হয়, তখন সংশক্তি বল প্রাধান্য পায় এবং উত্তল মেনিস্কাস গঠিত হয়।</p>
+<p><strong>ধাপ ৩: প্রয়োগ ও চূড়ান্ত উপসংহার</strong><br/>প্রদত্ত তরলগুলির মধ্যে জল (\(0^\circ\)), ইথাইল অ্যালকোহল (\(0^\circ\)) এবং মিথাইল আয়োডাইডের (\(30^\circ\)) স্পর্শকোণ সূক্ষ্মকোণ, কিন্তু পারদের স্পর্শকোণ \(140^\circ\), যা স্থূলকোণ। অতএব, পাত্রে থাকা উত্তল মেনিস্কাস সৃষ্টিকারী তরলটি হলো পারদ।</p>]]></text></generalfeedback>
   <defaultgrade>4.0000000</defaultgrade>
   <penalty>0.2500000</penalty>
   <hidden>0</hidden>
   <single>true</single>
   <shuffleanswers>true</shuffleanswers>
   <answernumbering>abc</answernumbering>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>water</p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>ethylalcohol</p>]]></text>
-  </answer>
-  <answer fraction="100" format="html">
-    <text><![CDATA[<p>mercury</p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>methyliodide</p>]]></text>
-  </answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>water</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>ethylalcohol</p>]]></text></answer>
+  <answer fraction="100" format="html"><text><![CDATA[<p>mercury</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>methyliodide.</p>]]></text></answer>
   <tags>
     <tag><text>standard:neet_ug</text></tag>
     <tag><text>lang:en</text></tag>
     <tag><text>lang:bn</text></tag>
     <tag><text>subject:physics</text></tag>
-    <tag><text>class:class_11</text></tag>
+    <tag><text>section:mcq_i</text></tag>
+    <tag><text>class:11</text></tag>
     <tag><text>chapter:mechanical_properties_of_fluids</text></tag>
-    <tag><text>typology:mcq</text></tag>
+    <tag><text>typology:single_correct_mcq</text></tag>
     <tag><text>difficulty:easy</text></tag>
-    <tag><text>blooms:remember</text></tag>
+    <tag><text>blooms:understand</text></tag>
     <tag><text>calculation:light</text></tag>
     <tag><text>media:text</text></tag>
     <tag><text>multiconcept:false</text></tag>
   </tags>
 </question>
+
 <question type="multichoice">
-  <name>
-    <text>NEET_UG_PHYSICS_MECHANICAL_PROPERTIES_OF_FLUIDS_MCQ_Q10_06 - Net force and potential energy of surface molecule</text>
-  </name>
-  <questiontext format="html">
-    <text><![CDATA[<p>For a surface molecule</p><hr/><p>তরলের পৃষ্ঠতলে অবস্থিত একটি অণুর ক্ষেত্রে—</p>]]></text>
-  </questiontext>
-  <generalfeedback format="html">
-    <text><![CDATA[<p><strong>Step 1: Force Analysis on a Bulk vs. Surface Molecule</strong><br/>A molecule completely inside the bulk liquid is surrounded uniformly on all sides by neighboring molecules. By spherical symmetry, cohesive attractive forces cancel out, resulting in zero net force.
-In contrast, a molecule situated at the liquid surface has neighboring molecules only in the lower hemisphere beneath it. The horizontal intermolecular components cancel, but the vertical upward components are missing, yielding an unbalanced net downward cohesive force toward the interior.</p><p><strong>Step 2: Potential Energy Considerations</strong><br/>To bring an interior molecule to the surface layer, work must be done against this inward downward attractive pull. This work increases the potential energy of the molecule. Taking potential energy in the interior to be deeply negative (bound state), a surface molecule with fewer attractive interactions has a higher (less negative) potential energy than a molecule in the interior.</p><p><strong>Step 3: Final Conceptual Conclusion</strong><br/>A surface molecule experiences a net downward force and possesses a potential energy that is greater than that of a molecule inside the bulk.</p><hr/><p><strong>ধাপ ১: বলের বিশ্লেষণ (অভ্যন্তরীণ বনাম পৃষ্ঠতল অণু)</strong><br/>তরলের ভেতরে থাকা একটি অণু সব দিক থেকে সমানভাবে প্রতিবেশী অণু দ্বারা আকৃষ্ট হয়। প্রতিসাম্যের কারণে লব্ধি আন্তঃআণবিক আকর্ষণ বল শূন্য হয়।
-কিন্তু তরলের পৃষ্ঠতলে অবস্থিত একটি অণুর ক্ষেত্রে কেবল নিচের দিকেই তরলের অন্যান্য অণু থাকে। পার্শ্ববর্তী বলগুলি পরস্পরকে নিষ্ক্রিয় করলেও উল্লম্ব দিকের ঊর্ধ্বমুখী বল অনুপস্থিত থাকে, ফলে অণুটির ওপর সার্বিকভাবে একটি লব্ধি নিম্নমুখী আকর্ষণ বল ক্রিয়া করে।</p><p><strong>ধাপ ২: স্থিতি শক্তির তুলনা</strong><br/>ভেতর থেকে একটি অণুকে পৃষ্ঠতলে নিয়ে আসতে হলে এই নিম্নমুখী আকর্ষণ বলের বিরুদ্ধে কাজ করতে হয়। এই অতিরিক্ত কৃতকার্য অণুর পৃষ্ঠ শক্তি বা স্থিতি শক্তি হিসেবে জমা থাকে। ফলে অভ্যন্তরে থাকা অণুর তুলনায় পৃষ্ঠতলের অণুর স্থিতি শক্তি বেশি হয়।</p><p><strong>ধাপ ৩: চূড়ান্ত সিদ্ধান্ত</strong><br/>পৃষ্ঠতলের অণুর ওপর একটি নিট নিম্নমুখী বল ক্রিয়া করে এবং এর স্থিতি শক্তি অভ্যন্তরে অবস্থিত অণুর চেয়ে বেশি হয়।</p>]]></text>
-  </generalfeedback>
+  <name><text>NEET_UG_PHYSICS_MECHANICALPROPERTIESOFFLUIDS_MCQII_Q10_6 - Force and potential energy of surface molecule</text></name>
+  <questiontext format="html"><text><![CDATA[<p>For a surface molecule</p><hr/><p>তরলের পৃষ্ঠতলে অবস্থিত একটি অণুর ক্ষেত্রে</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>Liquid molecules attract each other through cohesive intermolecular forces within a short range (molecular range).</p>
+<p><strong>Step 2: Evaluation of Force</strong><br/>A molecule deep inside the liquid is surrounded uniformly on all sides by other liquid molecules, so the net intermolecular force on it is zero. In contrast, a molecule at the free surface has liquid molecules below it and virtually none (only sparse vapour molecules) above it. Hence, it experiences a net downward cohesive force into the bulk of the liquid.</p>
+<p><strong>Step 3: Evaluation of Potential Energy and Final Conclusion</strong><br/>To bring a molecule from the interior of the liquid to the surface, work must be done against this net downward cohesive force. Consequently, a surface molecule possesses more potential energy than a molecule inside the liquid. Therefore, there is a net downward force on a surface molecule, and its potential energy is more than that of a molecule inside.</p><hr/><p><strong>ধাপ ১: ধারণাগত নীতি</strong><br/>তরলের অণুগুলি স্বল্প পাল্লার (আণবিক পাল্লা) মধ্যে সংশক্তি আন্তঃআণবিক বল দ্বারা পরস্পরকে আকর্ষণ করে।</p>
+<p><strong>ধাপ ২: বলের মূল্যায়ন</strong><br/>তরলের অভ্যন্তরে থাকা একটি অণু চারপাশে সমভাবে অন্যান্য তরল অণু দ্বারা পরিবেষ্টিত থাকে, তাই তার ওপর লব্ধি আন্তঃআণবিক বল শূন্য হয়। বিপরীতে, মুক্ত পৃষ্ঠতলের একটি অণুর নিচে তরল অণু থাকে কিন্তু উপরে প্রায় কোনো তরল অণু থাকে না। ফলে, পৃষ্ঠতলের অণুটি তরলের অভ্যন্তরের দিকে একটি লব্ধি নিম্নমুখী সংশক্তি বল অনুভব করে।</p>
+<p><strong>ধাপ ৩: স্থিতিশক্তির মূল্যায়ন ও চূড়ান্ত উপসংহার</strong><br/>তরলের অভ্যন্তর থেকে একটি অণুকে পৃষ্ঠতলে নিয়ে আসতে এই লব্ধি নিম্নমুখী সংশক্তি বলের বিরুদ্ধে কার্য করতে হয়। এর ফলে, পৃষ্ঠতলের একটি অণুর স্থিতিশক্তি অভ্যন্তরের একটি অণুর তুলনায় বেশি হয়। অতএব, পৃষ্ঠতলের অণুর ওপর একটি লব্ধি নিম্নমুখী বল ক্রিয়া করে এবং এর স্থিতিশক্তি অভ্যন্তরের অণুর চেয়ে বেশি হয়।</p>]]></text></generalfeedback>
   <defaultgrade>4.0000000</defaultgrade>
   <penalty>0.2500000</penalty>
   <hidden>0</hidden>
   <single>false</single>
   <shuffleanswers>true</shuffleanswers>
   <answernumbering>abc</answernumbering>
-  <answer fraction="-50" format="html">
-    <text><![CDATA[<p>the net force on it is zero.</p>]]></text>
-  </answer>
-  <answer fraction="50" format="html">
-    <text><![CDATA[<p>there is a net downward force.</p>]]></text>
-  </answer>
-  <answer fraction="-50" format="html">
-    <text><![CDATA[<p>the potential energy is less than that of a molecule inside.</p>]]></text>
-  </answer>
-  <answer fraction="50" format="html">
-    <text><![CDATA[<p>the potential energy is more than that of a molecule inside.</p>]]></text>
-  </answer>
+  <answer fraction="-50" format="html"><text><![CDATA[<p>the net force on it is zero.</p>]]></text></answer>
+  <answer fraction="50" format="html"><text><![CDATA[<p>there is a net downward force.</p>]]></text></answer>
+  <answer fraction="-50" format="html"><text><![CDATA[<p>the potential energy is less than that of a molecule inside.</p>]]></text></answer>
+  <answer fraction="50" format="html"><text><![CDATA[<p>the potential energy is more than that of a molecule inside.</p>]]></text></answer>
   <tags>
     <tag><text>standard:neet_ug</text></tag>
     <tag><text>lang:en</text></tag>
     <tag><text>lang:bn</text></tag>
     <tag><text>subject:physics</text></tag>
-    <tag><text>class:class_11</text></tag>
+    <tag><text>section:mcq_ii</text></tag>
+    <tag><text>class:11</text></tag>
     <tag><text>chapter:mechanical_properties_of_fluids</text></tag>
-    <tag><text>typology:mcq</text></tag>
+    <tag><text>typology:multi_correct_mcq</text></tag>
+    <tag><text>difficulty:easy</text></tag>
+    <tag><text>blooms:understand</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:text</text></tag>
+    <tag><text>multiconcept:true</text></tag>
+  </tags>
+</question>
+
+<question type="multichoice">
+  <name><text>NEET_UG_PHYSICS_MECHANICALPROPERTIESOFFLUIDS_MCQII_Q10_7 - Why pressure is a scalar quantity</text></name>
+  <questiontext format="html"><text><![CDATA[<p>Pressure is a scalar quantity because</p><hr/><p>চাপ একটি স্কেলার রাশি, কারণ</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>Pressure at a point in a fluid is defined as the magnitude of the normal force acting per unit area, \(P = \frac{F_\perp}{A}\).</p>
+<p><strong>Step 2: Evaluation</strong><br/>In the definition of pressure, we take only the magnitude of the force component acting perpendicular (normal) to the surface area, rather than treating force as a directed vector. Because the direction of the normal component is fixed by the orientation of the surface itself and not by an independent directional property of pressure (which acts equally in all directions at a point in a static fluid), pressure has only magnitude and no unique direction.</p>
+<p><strong>Step 3: Final Conclusion</strong><br/>Thus, pressure is a scalar quantity because it is the ratio of the magnitude of the force to area, and it is the ratio of the component of the force normal to the area.</p><hr/><p><strong>ধাপ ১: ধারণাগত নীতি</strong><br/>প্রবাহীর কোনো বিন্দুতে চাপ বলতে একক ক্ষেত্রফলের ওপর লম্বভাবে ক্রিয়াশীল বলের মানকে বোঝায়, \(P = \frac{F_\perp}{A}\)।</p>
+<p><strong>ধাপ ২: মূল্যায়ন</strong><br/>চাপের সংজ্ঞায় বলকে দিকনির্দেশক ভেক্টর হিসেবে না নিয়ে পৃষ্ঠের ক্ষেত্রফলের ওপর লম্ব (অভিলম্ব) উপাংশের কেবল মান নেওয়া হয়। স্থির প্রবাহীর কোনো বিন্দুতে চাপ সব দিকে সমানভাবে ক্রিয়া করে এবং এর কোনো নির্দিষ্ট দিক নেই।</p>
+<p><strong>ধাপ ৩: চূড়ান্ত উপসংহার</strong><br/>সুতরাং, চাপ একটি স্কেলার রাশি কারণ এটি বলের মান ও ক্ষেত্রফলের অনুপাত এবং ক্ষেত্রফলের সাথে লম্বভাবে ক্রিয়াশীল বলের উপাংশ ও ক্ষেত্রফলের অনুপাত।</p>]]></text></generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>false</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="-50" format="html"><text><![CDATA[<p>it is the ratio of force to area and both force and area are vectors.</p>]]></text></answer>
+  <answer fraction="50" format="html"><text><![CDATA[<p>it is the ratio of the magnitude of the force to area.</p>]]></text></answer>
+  <answer fraction="50" format="html"><text><![CDATA[<p>it is the ratio of the component of the force normal to the area.</p>]]></text></answer>
+  <answer fraction="-50" format="html"><text><![CDATA[<p>it does not depend on the size of the area chosen.</p>]]></text></answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:bn</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>section:mcq_ii</text></tag>
+    <tag><text>class:11</text></tag>
+    <tag><text>chapter:mechanical_properties_of_fluids</text></tag>
+    <tag><text>typology:multi_correct_mcq</text></tag>
     <tag><text>difficulty:medium</text></tag>
     <tag><text>blooms:understand</text></tag>
     <tag><text>calculation:light</text></tag>
@@ -308,111 +246,38 @@ In contrast, a molecule situated at the liquid surface has neighboring molecules
     <tag><text>multiconcept:false</text></tag>
   </tags>
 </question>
+
 <question type="multichoice">
-  <name>
-    <text>NEET_UG_PHYSICS_MECHANICAL_PROPERTIES_OF_FLUIDS_MCQ_Q10_07 - Physical basis of pressure as scalar quantity</text>
-  </name>
-  <questiontext format="html">
-    <text><![CDATA[<p>Pressure is a scalar quantity because</p><hr/><p>চাপ একটি স্কেলার রাশি কারণ—</p>]]></text>
-  </questiontext>
-  <generalfeedback format="html">
-    <text><![CDATA[<p><strong>Step 1: Definition of Fluid Pressure</strong><br/>In fluid mechanics, hydrostatic pressure at a point in a fluid at rest is defined as the magnitude of the normal compressive force \(dF_\perp\) acting per unit surface area \(dA\):
-\[P = \frac{dF_\perp}{dA}\]</p><p><strong>Step 2: Directional Independence (Isotropy)</strong><br/>Fluids at rest cannot sustain shear stresses; hence, the force exerted by a static fluid on any surface is always perpendicular to that surface regardless of its spatial orientation. The pressure itself has a definite magnitude at a given point but acts uniformly in all directions.</p><p><strong>Step 3: Relationship between Force and Pressure</strong><br/>When pressure is calculated, it evaluates only the component of the force normal to the surface divided by the area. Because the direction of the resulting force is determined solely by the normal to the chosen surface rather than by the pressure itself, pressure has no intrinsic direction.</p><p><strong>Step 4: Final Conclusion</strong><br/>Pressure is a scalar quantity because it is defined as the ratio of the component of the force normal to the area.</p><hr/><p><strong>ধাপ ১: চাপের সংজ্ঞা</strong><br/>স্থির প্রবাহীর ক্ষেত্রে কোনো বিন্দুতে চাপ হলো ওই বিন্দুর চারপাশের একক ক্ষেত্রফলের ওপর প্রযুক্ত লম্ব বলের মানের অনুপাত:
-\[P = \frac{dF_\perp}{dA}\]</p><p><strong>ধাপ ২: দিক-নিরপেক্ষতা (আইসোট্রপি)</strong><br/>স্থির তরলে কোনো কৃন্তন পীড়ন থাকতে পারে না, ফলে প্রবাহী দ্বারা যেকোনো তলের ওপর প্রযুক্ত বল সর্বদা ওই তলের সাথে লম্বভাবে কাজ করে। চাপের নির্দিষ্ট মান থাকলেও কোনো নিজস্ব নির্দিষ্ট দিক নেই; এটি সব দিকে সমভাবে কার্যকর।</p><p><strong>ধাপ ৩: লম্ব উপাংশের অনুপাত</strong><br/>সংজ্ঞানুযায়ী ক্ষেত্রফলের সাথে লম্বভাবে ক্রিয়াশীল বলের উপাংশকে ক্ষেত্রফল দ্বারা ভাগ করে চাপ পরিমাপ করা হয়। প্রযুক্ত বলের দিক শুধুমাত্র তলের অভিমুখ দিয়ে নির্ধারিত হয়, তাই চাপের কোনো নিজস্ব দিক থাকে না।</p><p><strong>ধাপ ৪: চূড়ান্ত সিদ্ধান্ত</strong><br/>চাপ একটি স্কেলার রাশি কারণ এটি ক্ষেত্রফলের সাথে লম্বভাবে ক্রিয়াশীল বলের উপাংশের অনুপাত।</p>]]></text>
-  </generalfeedback>
-  <defaultgrade>4.0000000</defaultgrade>
-  <penalty>0.2500000</penalty>
-  <hidden>0</hidden>
-  <single>true</single>
-  <shuffleanswers>true</shuffleanswers>
-  <answernumbering>abc</answernumbering>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>it is the ratio of force to area and both force and area are vectors.</p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>it is the ratio of the magnitude of the force to area.</p>]]></text>
-  </answer>
-  <answer fraction="100" format="html">
-    <text><![CDATA[<p>it is the ratio of the component of the force normal to the area.</p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>it does not depend on the size of the area chosen.</p>]]></text>
-  </answer>
-  <tags>
-    <tag><text>standard:neet_ug</text></tag>
-    <tag><text>lang:en</text></tag>
-    <tag><text>lang:bn</text></tag>
-    <tag><text>subject:physics</text></tag>
-    <tag><text>class:class_11</text></tag>
-    <tag><text>chapter:mechanical_properties_of_fluids</text></tag>
-    <tag><text>typology:mcq</text></tag>
-    <tag><text>difficulty:easy</text></tag>
-    <tag><text>blooms:remember</text></tag>
-    <tag><text>calculation:light</text></tag>
-    <tag><text>media:text</text></tag>
-    <tag><text>multiconcept:false</text></tag>
-  </tags>
-</question>
-<question type="multichoice">
-  <name>
-    <text>NEET_UG_PHYSICS_MECHANICAL_PROPERTIES_OF_FLUIDS_MCQ_Q10_08 - Flotation changes after coin falls in water</text>
-  </name>
-  <questiontext format="html">
-    <text><![CDATA[<p>A wooden block with a coin placed on its top, floats in water as shown in Fig. 10.3.</p><p><img src="@@PLUGINFILE@@/img-5.jpeg" alt="Fig. 10.3 Floating wooden block with coin" /></p><p>The distance \(l\) and \(h\) are shown in the figure. After some time the coin falls into the water. Then</p><hr/><p>একটি কাঠের ব্লকের ওপর একটি মুদ্রা রেখে জলে ভাসানো হলো, যেমনটি চিত্রে প্রদর্শিত হয়েছে। চিত্রে \(l\) এবং \(h\) দূরত্ব নির্দেশ করা হয়েছে। কিছু সময় পর মুদ্রাটি জলে পড়ে গেল। তাহলে—</p>]]></text>
-  </questiontext>
-  <generalfeedback format="html">
-    <text><![CDATA[<p><strong>Step 1: Analysis of Immersion Depth \(l\)</strong><br/>Initially, the wooden block floats while supporting both its own mass \(M_b\) and the mass of the coin \(M_c\). By the principle of flotation:
-\[V_{\text{sub, initial}}\,\rho_w = M_b + M_c \implies l \propto M_b + M_c\]
-When the coin falls into the water, the block supports only its own mass \(M_b\). Since the supported mass decreases:
-\[V_{\text{sub, final}}\,\rho_w = M_b \implies l' < l\]
-Therefore, the submerged depth \(l\) of the wooden block decreases.</p><p><strong>Step 2: Analysis of Water Level \(h\)</strong><br/>Initially, the combined system (block + coin) floats, displacing a total volume of water corresponding to their combined weight:
-\[V_{\text{disp, initial}} = \frac{M_b}{\rho_w} + \frac{M_c}{\rho_w}\]
-After the coin falls into the water, the metallic coin sinks to the bottom because its density \(\rho_c > \rho_w\).
-The floating block now displaces \(\frac{M_b}{\rho_w}\), whereas the submerged coin displaces water equal only to its own volume \(\frac{M_c}{\rho_c}\).
-The total final volume of water displaced is:
-\[V_{\text{disp, final}} = \frac{M_b}{\rho_w} + \frac{M_c}{\rho_c}\]
-Since \(\rho_c > \rho_w\), it follows that \(\frac{M_c}{\rho_c} < \frac{M_c}{\rho_w}\), so:
-\[V_{\text{disp, final}} < V_{\text{disp, initial}}\]
-Because less water is displaced in the vessel, the overall water height \(h\) decreases.</p><p><strong>Step 3: Final Conceptual Conclusion</strong><br/>Both the immersion depth \(l\) decreases and the total liquid level \(h\) decreases.</p><hr/><p><strong>ধাপ ১: নিমজ্জিত গভীরতা \(l\)-এর পরিবর্তন</strong><br/>প্রাথমিকভাবে কাঠের ব্লকটি নিজের ভর \(M_b\) এবং মুদ্রার ভর \(M_c\) উভয়ের ওজনকে ভাসিয়ে রাখে। প্লবতার সূত্রানুযায়ী:
-\[V_{\text{নিমজ্জিত, আদি}}\,\rho_w = M_b + M_c \implies l \propto M_b + M_c\]
-মুদ্রাটি জলে পড়ে গেলে ব্লকটির ওপর কেবল তার নিজের ভর \(M_b\) থাকে। ভর কমে যাওয়ার কারণে:
-\[V_{\text{নিমজ্জিত, অন্তিম}}\,\rho_w = M_b \implies l' < l\]
-অতএব কাঠের ব্লকের নিমজ্জিত দৈর্ঘ্য \(l\) হ্রাস পায়।</p><p><strong>ধাপ ২: জলের উচ্চতা \(h\)-এর পরিবর্তন</strong><br/>প্রথমে ব্লক ও মুদ্রা উভয়ে ভাসমান থাকায় অপসারিত জলের মোট আয়তন ছিল:
-\[V_{\text{অপসারিত, আদি}} = \frac{M_b}{\rho_w} + \frac{M_c}{\rho_w}\]
-মুদ্রাটি জলে পড়ে ডুবে যায় কারণ মুদ্রার ঘনত্ব \(\rho_c > \rho_w\)।
-এখন ব্লক অপসারিত করে \(\frac{M_b}{\rho_w}\) আয়তন এবং নিমজ্জিত মুদ্রা অপসারিত করে তার নিজস্ব আয়তন \(\frac{M_c}{\rho_c}\)।
-অন্তিম অপসারিত জলের আয়তন:
-\[V_{\text{অপসারিত, অন্তিম}} = \frac{M_b}{\rho_w} + \frac{M_c}{\rho_c}\]
-যেহেতু \(\rho_c > \rho_w\), তাই \(\frac{M_c}{\rho_c} < \frac{M_c}{\rho_w}\)। ফলে:
-\[V_{\text{অপসারিত, অন্তিম}} < V_{\text{অপসারিত, আদি}}\]
-মোট অপসারিত জলের আয়তন হ্রাস পাওয়ার দরুন পাত্রে জলের সামগ্রিক উচ্চতা \(h\) হ্রাস পায়।</p><p><strong>ধাপ ৩: চূড়ান্ত সিদ্ধান্ত</strong><br/>\(l\) হ্রাস পায় এবং \(h\) হ্রাস পায়।</p>]]></text>
-  </generalfeedback>
+  <name><text>NEET_UG_PHYSICS_MECHANICALPROPERTIESOFFLUIDS_MCQII_Q10_8 - Wooden block with coin falling into water</text></name>
+  <questiontext format="html"><text><![CDATA[<p>A wooden block with a coin placed on its top, floats in water as shown in Fig. 10.3.</p><p><img src="@@PLUGINFILE@@/img-5.jpeg" alt="Wooden block with coin floating in water" /></p><p>The distance \(l\) and \(h\) are shown in the figure. After some time the coin falls into the water. Then</p><hr/><p>একটি কাঠের ব্লকের উপরে একটি মুদ্রা রেখে সেটিকে জলে ভাসানো হয়েছে, যা Fig. 10.3-এ দেখানো হয়েছে।</p><p><img src="@@PLUGINFILE@@/img-5.jpeg" alt="Wooden block with coin floating in water" /></p><p>চিত্রে \(l\) এবং \(h\) দূরত্ব দেখানো হয়েছে। কিছুক্ষণ পর মুদ্রাটি জলে পড়ে গেলে</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>A wooden block of mass \(M_b\) with a coin of mass \(M_c\) (density \(\rho_c &gt; \rho_w\)) floats in water of density \(\rho_w\). The submerged depth of the block is \(l\) and the water level in the vessel is \(h\).</p>
+<p><strong>Step 2: Assumptions and Principles</strong><br/>By Archimedes' principle, a floating body displaces a weight of water equal to its own weight.</p>
+<p><strong>Step 3: Analysis Before the Coin Falls</strong><br/>Initially, the combined system (block + coin) floats, so the volume of water displaced is:<br/>\[V_1 = \frac{M_b + M_c}{\rho_w} = \frac{M_b}{\rho_w} + \frac{M_c}{\rho_w}\]<br/>Since the block must support both \(M_b\) and \(M_c\), its submerged depth \(l\) corresponds to displacing volume \(V_1\).</p>
+<p><strong>Step 4: Analysis After the Coin Falls</strong><br/>When the coin falls into the water, the wooden block floats alone and now supports only its own mass \(M_b\). The block rises slightly, so the submerged depth \(l\) decreases.<br/>Meanwhile, the coin sinks to the bottom and displaces only its own geometric volume \(\frac{M_c}{\rho_c}\). Thus, the total displaced volume of water becomes:<br/>\[V_2 = \frac{M_b}{\rho_w} + \frac{M_c}{\rho_c}\]<br/>Since \(\rho_c &gt; \rho_w\), we have \(\frac{M_c}{\rho_c} &lt; \frac{M_c}{\rho_w}\), which means \(V_2 &lt; V_1\).</p>
+<p><strong>Step 5: Final Conclusion</strong><br/>Because the total volume of displaced water decreases, the water level \(h\) in the vessel also decreases. Hence, both \(l\) decreases and \(h\) decreases.</p><hr/><p><strong>ধাপ ১: প্রদত্ত তথ্য ও শর্তাবলি</strong><br/>\(M_b\) ভরের একটি কাঠের ব্লকের ওপর \(M_c\) ভরের একটি মুদ্রা (ঘনত্ব \(\rho_c &gt; \rho_w\)) রেখে \(\rho_w\) ঘনত্বের জলে ভাসানো হয়েছে। ব্লকটির নিমজ্জিত গভীরতা \(l\) এবং পাত্রে জলের উচ্চতা \(h\)।</p>
+<p><strong>ধাপ ২: অনুমান ও নীতি</strong><br/>আর্কিমিডিসের নীতি অনুসারে, কোনো ভাসমান বস্তু তার নিজস্ব ওজনের সমান ওজনের জল অপসারণ করে।</p>
+<p><strong>ধাপ ৩: মুদ্রাটি পড়ার পূর্বের বিশ্লেষণ</strong><br/>প্রথমে ব্লক ও মুদ্রার যৌথ সংস্থাটি ভাসে, তাই অপসারিত জলের আয়তন:<br/>\[V_1 = \frac{M_b + M_c}{\rho_w} = \frac{M_b}{\rho_w} + \frac{M_c}{\rho_w}\]<br/>যেহেতু ব্লকটিকে \(M_b\) এবং \(M_c\) উভয়ের ওজনই বহন করতে হয়, তাই এর নিমজ্জিত গভীরতা \(l\) এই \(V_1\) আয়তনের অনুরূপ।</p>
+<p><strong>ধাপ ৪: মুদ্রাটি পড়ার পরের বিশ্লেষণ</strong><br/>মুদ্রাটি জলে পড়ে গেলে কাঠের ব্লকটি একা ভাসে এবং কেবল নিজের ভর \(M_b\) বহন করে। ফলে ব্লকটি কিছুটা উপরে উঠে আসে, অর্থাৎ নিমজ্জিত গভীরতা \(l\) হ্রাস পায়।<br/>অন্যদিকে, মুদ্রাটি পাত্রের তলায় ডুবে যায় এবং কেবল নিজের আয়তন \(\frac{M_c}{\rho_c}\) পরিমাণ জল অপসারণ করে। সুতরাং, মোট অপসারিত জলের আয়তন হয়:<br/>\[V_2 = \frac{M_b}{\rho_w} + \frac{M_c}{\rho_c}\]<br/>যেহেতু \(\rho_c &gt; \rho_w\), তাই \(\frac{M_c}{\rho_c} &lt; \frac{M_c}{\rho_w}\), অর্থাৎ \(V_2 &lt; V_1\)।</p>
+<p><strong>ধাপ ৫: চূড়ান্ত উপসংহার</strong><br/>মোট অপসারিত জলের আয়তন কমে যাওয়ায় পাত্রে জলের স্তর \(h\)-ও হ্রাস পায়। অতএব, \(l\) হ্রাস পায় এবং \(h\)-ও হ্রাস পায়।</p>]]></text></generalfeedback>
   <defaultgrade>4.0000000</defaultgrade>
   <penalty>0.2500000</penalty>
   <hidden>0</hidden>
   <single>false</single>
   <shuffleanswers>true</shuffleanswers>
   <answernumbering>abc</answernumbering>
-  <answer fraction="50" format="html">
-    <text><![CDATA[<p>\(l\) decreases.</p>]]></text>
-  </answer>
-  <answer fraction="50" format="html">
-    <text><![CDATA[<p>\(h\) decreases.</p>]]></text>
-  </answer>
-  <answer fraction="-50" format="html">
-    <text><![CDATA[<p>\(l\) increases.</p>]]></text>
-  </answer>
-  <answer fraction="-50" format="html">
-    <text><![CDATA[<p>\(h\) increase.</p>]]></text>
-  </answer>
+  <answer fraction="50" format="html"><text><![CDATA[<p>\(l\) decreases.</p>]]></text></answer>
+  <answer fraction="50" format="html"><text><![CDATA[<p>\(h\) decreases.</p>]]></text></answer>
+  <answer fraction="-50" format="html"><text><![CDATA[<p>\(l\) increases.</p>]]></text></answer>
+  <answer fraction="-50" format="html"><text><![CDATA[<p>\(h\) increase.</p>]]></text></answer>
   <tags>
     <tag><text>standard:neet_ug</text></tag>
     <tag><text>lang:en</text></tag>
     <tag><text>lang:bn</text></tag>
     <tag><text>subject:physics</text></tag>
-    <tag><text>class:class_11</text></tag>
+    <tag><text>section:mcq_ii</text></tag>
+    <tag><text>class:11</text></tag>
     <tag><text>chapter:mechanical_properties_of_fluids</text></tag>
-    <tag><text>typology:mcq</text></tag>
+    <tag><text>typology:multi_correct_mcq</text></tag>
     <tag><text>difficulty:medium</text></tag>
     <tag><text>blooms:analyze</text></tag>
     <tag><text>calculation:light</text></tag>
@@ -420,93 +285,69 @@ Because less water is displaced in the vessel, the overall water height \(h\) de
     <tag><text>multiconcept:true</text></tag>
   </tags>
 </question>
+
 <question type="multichoice">
-  <name>
-    <text>NEET_UG_PHYSICS_MECHANICAL_PROPERTIES_OF_FLUIDS_MCQ_Q10_09 - Effect of temperature on fluid viscosity</text>
-  </name>
-  <questiontext format="html">
-    <text><![CDATA[<p>With increase in temperature, the viscosity of</p><hr/><p>উষ্ণতা বৃদ্ধির সাথে সাথে সান্দ্রতা—</p>]]></text>
-  </questiontext>
-  <generalfeedback format="html">
-    <text><![CDATA[<p><strong>Step 1: Mechanism of Viscosity in Liquids</strong><br/>In liquids, viscous drag arises primarily from intermolecular attractive forces (cohesive forces) between adjacent layers. As temperature rises, the thermal kinetic energy of the liquid molecules increases, weakening intermolecular bonds and facilitating relative slip between liquid layers. Consequently, the viscosity of liquids decreases as temperature increases.</p><p><strong>Step 2: Mechanism of Viscosity in Gases</strong><br/>In gases, viscosity arises from the transport of momentum across layers caused by the random diffusion of molecules. From kinetic molecular theory, the average thermal speed of gas molecules is proportional to \(\sqrt{T}\). With rising temperature, molecules move faster and diffuse more rapidly between layers, increasing momentum exchange and internal friction. Consequently, the viscosity of gases increases as temperature increases (\(\eta \propto \sqrt{T}\)).</p><p><strong>Step 3: Final Conceptual Conclusion</strong><br/>With an increase in temperature, the viscosity of gases increases and the viscosity of liquids decreases.</p><hr/><p><strong>ধাপ ১: তরলের সান্দ্রতার ওপর উষ্ণতার প্রভাব</strong><br/>তরলে সান্দ্রতা প্রধানত পাশাপাশি থাকা স্তরগুলির মধ্যে আন্তঃআণবিক আকর্ষণ (সংসক্তি বল)-এর কারণে ঘটে। উষ্ণতা বৃদ্ধি পেলে অণুগুলির তাপীয় গতিশক্তি বৃদ্ধি পায় এবং তাদের মধ্যকার সংসক্তি বল শিথিল হয়ে পড়ে। ফলে তরল স্তরগুলির মধ্যকার আপেক্ষিক গতি সহজতর হয় এবং তরলের সান্দ্রতা হ্রাস পায়।</p><p><strong>ধাপ ২: গ্যাসের সান্দ্রতার ওপর উষ্ণতার প্রভাব</strong><br/>গ্যাসের ক্ষেত্রে সান্দ্রতার মূল কারণ হলো অণুগুলির অনিয়মিত গতির দরুন এক স্তর থেকে অন্য স্তরে ভরবেগের স্থানান্তর। গ্যাসের গতিতত্ত্ব অনুযায়ী অণুর গড় দ্রুতি পরম উষ্ণতার বর্গমূলের সমানুপাতিক (\(v_{\text{rms}} \propto \sqrt{T}\))। উষ্ণতা বাড়লে অণুগুলির বেগ বৃদ্ধি পায়, ফলে স্তরগুলির মধ্যে দ্রুত ভরবেগ বিনিময় ঘটে এবং অভ্যন্তরীণ ঘর্ষণ বৃদ্ধি পায়। অতএব উষ্ণতা বৃদ্ধির সাথে সাথে গ্যাসের সান্দ্রতা বৃদ্ধি পায়।</p><p><strong>ধাপ ৩: চূড়ান্ত সিদ্ধান্ত</strong><br/>উষ্ণতা বৃদ্ধির সাথে সাথে গ্যাসের সান্দ্রতা বৃদ্ধি পায় এবং তরলের সান্দ্রতা হ্রাস পায়।</p>]]></text>
-  </generalfeedback>
+  <name><text>NEET_UG_PHYSICS_MECHANICALPROPERTIESOFFLUIDS_MCQII_Q10_9 - Temperature effect on viscosity</text></name>
+  <questiontext format="html"><text><![CDATA[<p>With increase in temperature, the viscosity of</p><hr/><p>তাপমাত্রা বৃদ্ধির সাথে সাথে সান্দ্রতা</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>Viscosity in liquids and gases arises from different microscopic mechanisms.</p>
+<p><strong>Step 2: Evaluation for Liquids</strong><br/>In liquids, viscosity is primarily due to cohesive intermolecular forces between adjacent layers. With an increase in temperature, the kinetic energy of the molecules increases, allowing them to overcome the cohesive forces more easily. Hence, the viscosity of liquids decreases.</p>
+<p><strong>Step 3: Evaluation for Gases and Final Conclusion</strong><br/>In gases, viscosity arises from the transfer of momentum between adjacent layers due to random thermal motion of molecules. With an increase in temperature, the average speed of gas molecules increases, increasing the rate of momentum transfer. Hence, the viscosity of gases increases. Therefore, with increase in temperature, the viscosity of gases increases and the viscosity of liquids decreases.</p><hr/><p><strong>ধাপ ১: ধারণাগত নীতি</strong><br/>তরল এবং গ্যাসের সান্দ্রতা দুটি ভিন্ন আণুবীক্ষণিক কৌশলের কারণে সৃষ্টি হয়।</p>
+<p><strong>ধাপ ২: তরলের ক্ষেত্রে মূল্যায়ন</strong><br/>তরলে সান্দ্রতা মূলত পাশাপাশি স্তরগুলির অণুগুলোর মধ্যকার সংশক্তি আন্তঃআণবিক বলের কারণে হয়। তাপমাত্রা বাড়লে অণুগুলির গতিশক্তি বৃদ্ধি পায়, ফলে তারা সহজেই সংশক্তি বল অতিক্রম করতে পারে। তাই তরলের সান্দ্রতা হ্রাস পায়।</p>
+<p><strong>ধাপ ৩: গ্যাসের ক্ষেত্রে মূল্যায়ন ও চূড়ান্ত উপসংহার</strong><br/>গ্যাসে সান্দ্রতা সৃষ্টি হয় অণুগুলির এলোমেলো তাপীয় গতির কারণে পাশাপাশি স্তরগুলির মধ্যে ভরবেগের আদান-প্রদানের ফলে। তাপমাত্রা বাড়লে গ্যাসের অণুগুলির গড় বেগ বৃদ্ধি পায়, যা ভরবেগ আদান-প্রদানের হার বাড়িয়ে দেয়। তাই গ্যাসের সান্দ্রতা বৃদ্ধি পায়। অতএব, তাপমাত্রা বৃদ্ধির সাথে গ্যাসের সান্দ্রতা বৃদ্ধি পায় এবং তরলের সান্দ্রতা হ্রাস পায়।</p>]]></text></generalfeedback>
   <defaultgrade>4.0000000</defaultgrade>
   <penalty>0.2500000</penalty>
   <hidden>0</hidden>
   <single>false</single>
   <shuffleanswers>true</shuffleanswers>
   <answernumbering>abc</answernumbering>
-  <answer fraction="-50" format="html">
-    <text><![CDATA[<p>gases decreases.</p>]]></text>
-  </answer>
-  <answer fraction="-50" format="html">
-    <text><![CDATA[<p>liquids increases.</p>]]></text>
-  </answer>
-  <answer fraction="50" format="html">
-    <text><![CDATA[<p>gases increases.</p>]]></text>
-  </answer>
-  <answer fraction="50" format="html">
-    <text><![CDATA[<p>liquids decreases.</p>]]></text>
-  </answer>
+  <answer fraction="-50" format="html"><text><![CDATA[<p>gases decreases.</p>]]></text></answer>
+  <answer fraction="-50" format="html"><text><![CDATA[<p>liquids increases.</p>]]></text></answer>
+  <answer fraction="50" format="html"><text><![CDATA[<p>gases increases.</p>]]></text></answer>
+  <answer fraction="50" format="html"><text><![CDATA[<p>liquids decreases.</p>]]></text></answer>
   <tags>
     <tag><text>standard:neet_ug</text></tag>
     <tag><text>lang:en</text></tag>
     <tag><text>lang:bn</text></tag>
     <tag><text>subject:physics</text></tag>
-    <tag><text>class:class_11</text></tag>
+    <tag><text>section:mcq_ii</text></tag>
+    <tag><text>class:11</text></tag>
     <tag><text>chapter:mechanical_properties_of_fluids</text></tag>
-    <tag><text>typology:mcq</text></tag>
+    <tag><text>typology:multi_correct_mcq</text></tag>
     <tag><text>difficulty:easy</text></tag>
-    <tag><text>blooms:remember</text></tag>
+    <tag><text>blooms:understand</text></tag>
     <tag><text>calculation:light</text></tag>
     <tag><text>media:text</text></tag>
     <tag><text>multiconcept:false</text></tag>
   </tags>
 </question>
+
 <question type="multichoice">
-  <name>
-    <text>NEET_UG_PHYSICS_MECHANICAL_PROPERTIES_OF_FLUIDS_MCQ_Q10_10 - Liquid properties favoring streamline fluid flow</text>
-  </name>
-  <questiontext format="html">
-    <text><![CDATA[<p>Streamline flow is more likely for liquids with</p><hr/><p>ধারাখো প্রবাহ হওয়ার সম্ভাবনা বেশি থাকে সেই তরলগুলির ক্ষেত্রে যেগুলির—</p>]]></text>
-  </questiontext>
-  <generalfeedback format="html">
-    <text><![CDATA[<p><strong>Step 1: Governing Criterion (Reynolds Number)</strong><br/>The transition between laminar (streamline) flow and turbulent flow is determined by the dimensionless Reynolds number:
-\[R_e = \frac{\rho v d}{\eta}\]
-where \(\rho\) is the density of the fluid, \(v\) is the flow speed, \(d\) is the characteristic diameter of the channel or pipe, and \(\eta\) is the coefficient of viscosity.</p><p><strong>Step 2: Condition for Streamline Flow</strong><br/>Streamline or laminar flow remains stable when the Reynolds number is below the critical value (\(R_e < R_c\), where typically \(R_c \approx 1000\) to \(2000\)).</p><p><strong>Step 3: Minimizing Reynolds Number</strong><br/>To maintain a small value of \(R_e\) for a given speed and geometry:
-- The fluid density \(\rho\) should be low (since \(R_e \propto \rho\)).
-- The dynamic viscosity \(\eta\) should be high (since \(R_e \propto \frac{1}{\eta}\)).</p><p><strong>Step 4: Final Conceptual Conclusion</strong><br/>Streamline flow is more likely for liquids characterized by high viscosity and low density.</p><hr/><p><strong>ধাপ ১: মূল নীতি (রেনল্ডস সংখ্যা)</strong><br/>কোনো প্রবাহ ধারাখো (ল্যামিনার) নাকি বিক্ষুব্ধ হবে তা মাত্রাহীন রেনল্ডস সংখ্যার (\(R_e\)) ওপর নির্ভর করে:
-\[R_e = \frac{\rho v d}{\eta}\]
-এখানে \(\rho\) হলো তরলের ঘনত্ব, \(v\) হলো প্রবাহের বেগ, \(d\) হলো নলের ব্যাস এবং \(\eta\) হলো সান্দ্রতাঙ্ক।</p><p><strong>ধাপ ২: ধারাখো প্রবাহের শর্ত</strong><br/>রেনল্ডস সংখ্যার মান একটি নির্দিষ্ট সংকট মানের চেয়ে কম হলে (\(R_e < 1000\)) প্রবাহ সুশৃঙ্খল ও ধারাখো থাকে।</p><p><strong>ধাপ ৩: রেনল্ডস সংখ্যা হ্রাস করার উপায়</strong><br/>\(R_e\)-এর মান কম রাখতে হলে:
-- তরলের ঘনত্ব \(\rho\) কম হওয়া প্রয়োজন (কারণ \(R_e \propto \rho\))।
-- তরলের সান্দ্রতা \(\eta\) বেশি হওয়া প্রয়োজন (কারণ \(R_e \propto \frac{1}{\eta}\))।</p><p><strong>ধাপ ৪: চূড়ান্ত সিদ্ধান্ত</strong><br/>উচ্চ সান্দ্রতা এবং নিম্ন ঘনত্ববিশিষ্ট তরলের ক্ষেত্রে ধারাখো প্রবাহ ঘটার সম্ভাবনা সবচেয়ে বেশি থাকে।</p>]]></text>
-  </generalfeedback>
+  <name><text>NEET_UG_PHYSICS_MECHANICALPROPERTIESOFFLUIDS_MCQII_Q10_10 - Conditions for streamline flow</text></name>
+  <questiontext format="html"><text><![CDATA[<p>Streamline flow is more likely for liquids with</p><hr/><p>ধারারেখ প্রবাহ ঘটার সম্ভাবনা বেশি হয় সেইসব তরলের ক্ষেত্রে যাদের</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>Whether a fluid flow is streamline (laminar) or turbulent is determined by the dimensionless Reynolds number \(R_e\).</p>
+<p><strong>Step 2: Relevant Formula</strong><br/>\[R_e = \frac{\rho v d}{\eta}\]<br/>where \(\rho\) is the density of the liquid, \(v\) is the flow speed, \(d\) is the characteristic dimension (such as pipe diameter), and \(\eta\) is the coefficient of viscosity.</p>
+<p><strong>Step 3: Evaluation and Final Conclusion</strong><br/>Streamline flow occurs when \(R_e\) is small (typically \(R_e &lt; 1000\)). From the formula, \(R_e\) is directly proportional to \(\rho\) and inversely proportional to \(\eta\). Therefore, streamline flow is more likely for liquids with low density and high viscosity.</p><hr/><p><strong>ধাপ ১: ধারণাগত নীতি</strong><br/>কোনো তরলের প্রবাহ ধারারেখ (শান্ত) না কি অশান্ত হবে তা মাত্রাহীন রেনল্ডস সংখ্যা \(R_e\) দ্বারা নির্ধারিত হয়।</p>
+<p><strong>ধাপ ২: প্রাসঙ্গিক সূত্র</strong><br/>\[R_e = \frac{\rho v d}{\eta}\]<br/>যেখানে \(\rho\) হলো তরলের ঘনত্ব, \(v\) হলো প্রবাহের দ্রুতি, \(d\) হলো নলের ব্যাস বা বৈশিষ্ট্যসূচক মাত্রা এবং \(\eta\) হলো সান্দ্রতাঙ্ক।</p>
+<p><strong>ধাপ ৩: মূল্যায়ন ও চূড়ান্ত উপসংহার</strong><br/>\(R_e\)-এর মান কম হলে (সাধারণত \(R_e &lt; 1000\)) প্রবাহ ধারারেখ হয়। সূত্র থেকে দেখা যায় যে, \(R_e\) ঘনত্ব \(\rho\)-এর সমানুপাতিক এবং সান্দ্রতাঙ্ক \(\eta\)-এর ব্যস্তানুপাতিক। অতএব, কম ঘনত্ব এবং উচ্চ সান্দ্রতাবিশিষ্ট তরলের ক্ষেত্রে ধারারেখ প্রবাহ ঘটার সম্ভাবনা বেশি।</p>]]></text></generalfeedback>
   <defaultgrade>4.0000000</defaultgrade>
   <penalty>0.2500000</penalty>
   <hidden>0</hidden>
   <single>false</single>
   <shuffleanswers>true</shuffleanswers>
   <answernumbering>abc</answernumbering>
-  <answer fraction="-50" format="html">
-    <text><![CDATA[<p>high density.</p>]]></text>
-  </answer>
-  <answer fraction="50" format="html">
-    <text><![CDATA[<p>high viscosity.</p>]]></text>
-  </answer>
-  <answer fraction="50" format="html">
-    <text><![CDATA[<p>low density.</p>]]></text>
-  </answer>
-  <answer fraction="-50" format="html">
-    <text><![CDATA[<p>low viscosity.</p>]]></text>
-  </answer>
+  <answer fraction="-50" format="html"><text><![CDATA[<p>high density.</p>]]></text></answer>
+  <answer fraction="50" format="html"><text><![CDATA[<p>high viscosity.</p>]]></text></answer>
+  <answer fraction="50" format="html"><text><![CDATA[<p>low density.</p>]]></text></answer>
+  <answer fraction="-50" format="html"><text><![CDATA[<p>low viscosity.</p>]]></text></answer>
   <tags>
     <tag><text>standard:neet_ug</text></tag>
     <tag><text>lang:en</text></tag>
     <tag><text>lang:bn</text></tag>
     <tag><text>subject:physics</text></tag>
-    <tag><text>class:class_11</text></tag>
+    <tag><text>section:mcq_ii</text></tag>
+    <tag><text>class:11</text></tag>
     <tag><text>chapter:mechanical_properties_of_fluids</text></tag>
-    <tag><text>typology:mcq</text></tag>
+    <tag><text>typology:multi_correct_mcq</text></tag>
     <tag><text>difficulty:easy</text></tag>
     <tag><text>blooms:understand</text></tag>
     <tag><text>calculation:light</text></tag>

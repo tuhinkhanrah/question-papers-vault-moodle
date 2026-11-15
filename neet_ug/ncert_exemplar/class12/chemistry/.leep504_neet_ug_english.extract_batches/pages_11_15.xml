@@ -1,59 +1,46 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <quiz>
 <question type="matching">
-  <name>
-    <text>NEET_UG_CHEMISTRY_CHEMICAL_KINETICS_MCQ_Q53 - Match kinetic graphs with reaction order</text>
-  </name>
-  <questiontext format="html">
-    <text><![CDATA[<p>Match the graph given in Column I with the order of reaction given in Column II. More than one item in Column I may link to the same item of Column II.</p>]]></text>
-  </questiontext>
-  <generalfeedback format="html">
-    <text><![CDATA[<p><strong>Step 1: Rate versus Concentration Relationships</strong><br/>- For a first-order reaction, the rate is directly proportional to concentration (\(\text{Rate} = k [\text{Concentration}]\)), yielding a straight line passing through the origin with a positive slope. Hence, the linear Rate versus Concentration graph corresponds to a 1st order reaction.<br/>- For a zero-order reaction, the rate is independent of reactant concentration (\(\text{Rate} = k [\text{Concentration}]^0 = k\)), yielding a horizontal line parallel to the concentration axis. Hence, the horizontal Rate versus Concentration graph corresponds to a Zero order reaction.</p><p><strong>Step 2: Concentration versus Time Relationships</strong><br/>- For a zero-order reaction, the integrated rate equation is \([\mathrm{A}] = [\mathrm{A}]_0 - kt\). Plotting concentration against time yields a straight line with a constant negative slope \(-k\). Hence, the Concentration versus Time linear plot corresponds to a Zero order reaction.<br/>- For a first-order reaction, the integrated rate equation is \(\ln[\mathrm{A}] = \ln[\mathrm{A}]_0 - kt\) (or \(\log[\mathrm{A}] = \log[\mathrm{A}]_0 - \frac{kt}{2.303}\)). Plotting \(\log(\text{Concentration})\) against time yields a straight line with a negative slope. Hence, the \(\log(\text{Concentration})\) versus Time plot corresponds to a 1st order reaction.</p><p><strong>Step 3: Conclusion</strong><br/>The linear Rate-Concentration graph links to 1st order; the horizontal Rate-Concentration graph links to Zero order; the linear Concentration-Time graph links to Zero order; and the linear \(\log(\text{Concentration})\)-Time graph links to 1st order.</p>]]></text>
-  </generalfeedback>
+  <name><text>NEET_UG_CHEMISTRY_MATCHING_CHEMICALKINETICS_MATCHING_Q53 - Match kinetic graphs with order of reaction</text></name>
+  <questiontext format="html"><text><![CDATA[<p>Match the graph given in Column I with the order of reaction given in Column II. More than one item in Column I may link to the same item of Column II.</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>Four kinetic graphs are provided, plotting either reaction rate versus concentration, concentration versus time, or \(\log(\text{Conc.})\) versus time, to be matched with either first-order or zero-order kinetics.</p><p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>Let \([R]_0\) be the initial reactant concentration, \([R]\) be the reactant concentration at time \(t\), and \(k\) be the rate constant (\(k &gt; 0\)).</p><p><strong>Step 3: Relevant Formulae and Principles</strong><br/>For a zero-order reaction: \(\text{Rate} = k\) (constant, independent of concentration) and \([R] = [R]_0 - kt\).<br/>For a first-order reaction: \(\text{Rate} = k[R]\) (directly proportional to concentration) and \(\log [R] = \log [R]_0 - \frac{kt}{2.303}\).</p><p><strong>Step 4: Step-by-Step Working</strong><br/>1. The rate versus concentration graph that is a straight line passing through the origin represents \(\text{Rate} = k[R]\), which corresponds to a 1st order reaction.<br/>2. The rate versus concentration graph that is a horizontal straight line represents \(\text{Rate} = k\) (independent of concentration), which corresponds to a Zero order reaction.<br/>3. The concentration versus time graph that is a straight line with a negative slope represents \([R] = [R]_0 - kt\), which corresponds to a Zero order reaction.<br/>4. The \(\log(\text{Conc.})\) versus time graph that is a straight line with a negative slope represents \(\log [R] = \log [R]_0 - \frac{k}{2.303}t\), which corresponds to a 1st order reaction.</p><p><strong>Step 5: Check and Final Answer</strong><br/>Matching each graph to its integrated or differential rate law confirms that the linear rate-concentration and \(\log(\text{Conc.})\)-time plots belong to 1st order, whereas the horizontal rate-concentration and linear concentration-time plots belong to Zero order.</p>]]></text></generalfeedback>
   <defaultgrade>4.0000000</defaultgrade>
   <penalty>0.2500000</penalty>
   <hidden>0</hidden>
   <shuffleanswers>true</shuffleanswers>
   <subquestion format="html">
-    <text><![CDATA[<p><img src="@@PLUGINFILE@@/img-22.jpeg" alt="Rate vs Concentration linear" /></p>]]></text>
+    <text><![CDATA[<p><img src="@@PLUGINFILE@@/img-22.jpeg" alt="Rate vs Concentration straight line passing through origin" /></p>]]></text>
     <answer><text>1st order</text></answer>
   </subquestion>
   <subquestion format="html">
-    <text><![CDATA[<p><img src="@@PLUGINFILE@@/img-23.jpeg" alt="Rate vs Concentration horizontal" /></p>]]></text>
+    <text><![CDATA[<p><img src="@@PLUGINFILE@@/img-23.jpeg" alt="Rate vs Concentration horizontal straight line" /></p>]]></text>
     <answer><text>Zero order</text></answer>
   </subquestion>
   <subquestion format="html">
-    <text><![CDATA[<p><img src="@@PLUGINFILE@@/img-24.jpeg" alt="Concentration vs Time linear negative slope" /></p>]]></text>
+    <text><![CDATA[<p><img src="@@PLUGINFILE@@/img-24.jpeg" alt="Concentration vs time straight line with negative slope" /></p>]]></text>
     <answer><text>Zero order</text></answer>
   </subquestion>
   <subquestion format="html">
-    <text><![CDATA[<p><img src="@@PLUGINFILE@@/img-25.jpeg" alt="log Conc vs Time linear negative slope" /></p>]]></text>
+    <text><![CDATA[<p><img src="@@PLUGINFILE@@/img-25.jpeg" alt="Log(Conc.) vs time straight line with negative slope" /></p>]]></text>
     <answer><text>1st order</text></answer>
   </subquestion>
   <tags>
     <tag><text>standard:neet_ug</text></tag>
     <tag><text>lang:en</text></tag>
     <tag><text>subject:chemistry</text></tag>
-    <tag><text>class:class_12</text></tag>
+    <tag><text>section:matching</text></tag>
     <tag><text>chapter:chemical_kinetics</text></tag>
-    <tag><text>typology:matching-native</text></tag>
+    <tag><text>typology:matching</text></tag>
     <tag><text>difficulty:medium</text></tag>
     <tag><text>blooms:analyze</text></tag>
-    <tag><text>calculation:light</text></tag>
     <tag><text>media:graph</text></tag>
-    <tag><text>multiconcept:false</text></tag>
+    <tag><text>multiconcept:true</text></tag>
   </tags>
 </question>
 <question type="matching">
-  <name>
-    <text>NEET_UG_CHEMISTRY_CHEMICAL_KINETICS_MCQ_Q54 - Match chemical kinetics statements and concepts</text>
-  </name>
-  <questiontext format="html">
-    <text><![CDATA[<p>Match the statements given in Column I and Column II.</p>]]></text>
-  </questiontext>
-  <generalfeedback format="html">
-    <text><![CDATA[<p><strong>Step 1: Analysis of Chemical Concepts</strong><br/>- Catalyst: A catalyst accelerates reaction rates by providing an alternative pathway with reduced activation energy. Thus, "Catalyst alters the rate of reaction" matches "by lowering the activation energy".<br/>- Molecularity: Molecularity represents the discrete number of reacting molecules colliding in an elementary step; hence, it must be a positive integer and "cannot be fraction or zero".<br/>- Half-life of First Order Reaction: The half-life of a first-order process is \(t_{1/2} = \frac{0.693}{k}\), which is independent of initial concentration. Therefore, the "Second half life of first order reaction" matches "is same as the first".<br/>- Exponential Factor: In the Arrhenius expression, the Boltzmann term \(e^{-E_{\mathrm{a}}/RT}\) corresponds to the fraction of molecular collisions having kinetic energy equal to or exceeding the activation energy \(E_{\mathrm{a}}\).<br/>- Collision Theory Requirements: Even if collisions are energetically sufficient, molecules must collide with appropriate spatial alignment; otherwise, reactions remain sluggish, matching "proper orientation is not there always".<br/>- Maxwell-Boltzmann Distribution: The total area under the probability distribution represents the sum of fractions of all molecules, matching "total probability is one".</p>]]></text>
-  </generalfeedback>
+  <name><text>NEET_UG_CHEMISTRY_MATCHING_CHEMICALKINETICS_MATCHING_Q54 - Match kinetic concepts and statements</text></name>
+  <questiontext format="html"><text><![CDATA[<p>Match the statements given in Column I and Column II.</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>Each kinetic statement describes a fundamental property of catalysis, molecularity, first-order half-life, collision theory, or the Maxwell–Boltzmann distribution.</p><p><strong>Step 2: Evaluation</strong><br/>- A catalyst alters the rate of reaction by providing an alternative pathway with a lower activation energy.<br/>- Molecularity is the number of reacting species taking part in an elementary step, so it must be a positive integer and cannot be a fraction or zero.<br/>- For a first-order reaction, half-life \(t_{1/2} = \frac{0.693}{k}\) is independent of initial concentration, so the second half-life is the same as the first.<br/>- In the Arrhenius equation, the Boltzmann factor \(e^{-E_a / RT}\) refers to the fraction of molecules with kinetic energy equal to or greater than the activation energy.<br/>- Energetically favourable reactions are sometimes slow because proper orientation of colliding molecules is not always present.<br/>- The area under the Maxwell–Boltzmann distribution curve is constant because the total probability of all molecular energies is equal to one.</p><p><strong>Step 3: Final Conclusion</strong><br/>Each statement matches uniquely with its corresponding physical explanation.</p>]]></text></generalfeedback>
   <defaultgrade>4.0000000</defaultgrade>
   <penalty>0.2500000</penalty>
   <hidden>0</hidden>
@@ -71,7 +58,7 @@
     <answer><text>is same as the first</text></answer>
   </subquestion>
   <subquestion format="html">
-    <text><![CDATA[<p>\(e^{-E_{\mathrm{a}} / RT}\)</p>]]></text>
+    <text><![CDATA[<p>\(e^{-E_{a} / RT}\)</p>]]></text>
     <answer><text>refers to the fraction of molecules with energy equal to or greater than activation energy</text></answer>
   </subquestion>
   <subquestion format="html">
@@ -86,26 +73,19 @@
     <tag><text>standard:neet_ug</text></tag>
     <tag><text>lang:en</text></tag>
     <tag><text>subject:chemistry</text></tag>
-    <tag><text>class:class_12</text></tag>
+    <tag><text>section:matching</text></tag>
     <tag><text>chapter:chemical_kinetics</text></tag>
-    <tag><text>typology:matching-native</text></tag>
+    <tag><text>typology:matching</text></tag>
     <tag><text>difficulty:medium</text></tag>
     <tag><text>blooms:understand</text></tag>
-    <tag><text>calculation:light</text></tag>
     <tag><text>media:text</text></tag>
-    <tag><text>multiconcept:false</text></tag>
+    <tag><text>multiconcept:true</text></tag>
   </tags>
 </question>
 <question type="matching">
-  <name>
-    <text>NEET_UG_CHEMISTRY_CHEMICAL_KINETICS_MCQ_Q55 - Match rate definitions and conversion duration</text>
-  </name>
-  <questiontext format="html">
-    <text><![CDATA[<p>Match the items of Column I and Column II.</p>]]></text>
-  </questiontext>
-  <generalfeedback format="html">
-    <text><![CDATA[<p><strong>Step 1: Conceptual Principles</strong><br/>- Diamond: The allotropic conversion of diamond to graphite is thermodynamically spontaneous (\(\Delta G < 0\)) but possesses an extraordinarily high activation energy barrier, so "ordinarily rate of conversion is imperceptible".<br/>- Instantaneous Rate: The rate of reaction at a particular instant of time is defined as the limit \(\lim_{\Delta t \to 0} \frac{\Delta c}{\Delta t}\), evaluated over an infinitesimally "short interval of time".<br/>- Average Rate: The rate of reaction evaluated over a macroscopic finite time interval is measured over a "long duration of time".</p>]]></text>
-  </generalfeedback>
+  <name><text>NEET_UG_CHEMISTRY_MATCHING_CHEMICALKINETICS_MATCHING_Q55 - Match diamond conversion and reaction rates</text></name>
+  <questiontext format="html"><text><![CDATA[<p>Match the items of Column I and Column II.</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>Reaction rates can be measured over a finite time interval (average rate) or at a specific instant (instantaneous rate), and thermodynamically feasible processes may still occur at imperceptibly slow rates due to high activation energy.</p><p><strong>Step 2: Evaluation</strong><br/>- Although the conversion of diamond to graphite is thermodynamically feasible, its activation energy is extremely high, so ordinarily the rate of conversion is imperceptible.<br/>- Instantaneous rate is the rate of reaction at a particular moment of time, obtained over an infinitesimally short interval of time (\(\Delta t \to 0\)).<br/>- Average rate is the change in concentration of reactant or product divided by a measurable, long duration of time (\(\Delta t\)).</p><p><strong>Step 3: Final Conclusion</strong><br/>Thus, diamond corresponds to an ordinarily imperceptible rate of conversion, instantaneous rate to a short interval of time, and average rate to a long duration of time.</p>]]></text></generalfeedback>
   <defaultgrade>4.0000000</defaultgrade>
   <penalty>0.2500000</penalty>
   <hidden>0</hidden>
@@ -126,26 +106,19 @@
     <tag><text>standard:neet_ug</text></tag>
     <tag><text>lang:en</text></tag>
     <tag><text>subject:chemistry</text></tag>
-    <tag><text>class:class_12</text></tag>
+    <tag><text>section:matching</text></tag>
     <tag><text>chapter:chemical_kinetics</text></tag>
-    <tag><text>typology:matching-native</text></tag>
+    <tag><text>typology:matching</text></tag>
     <tag><text>difficulty:easy</text></tag>
-    <tag><text>blooms:remember</text></tag>
-    <tag><text>calculation:light</text></tag>
+    <tag><text>blooms:understand</text></tag>
     <tag><text>media:text</text></tag>
     <tag><text>multiconcept:false</text></tag>
   </tags>
 </question>
 <question type="matching">
-  <name>
-    <text>NEET_UG_CHEMISTRY_CHEMICAL_KINETICS_MCQ_Q56 - Match kinetic terms and zero order properties</text>
-  </name>
-  <questiontext format="html">
-    <text><![CDATA[<p>Match the items of Column I and Column II.</p>]]></text>
-  </questiontext>
-  <generalfeedback format="html">
-    <text><![CDATA[<p><strong>Step 1: Conceptual Principles</strong><br/>- Mathematical expression for rate of reaction: The expression relating the rate of a chemical reaction to the molar concentrations of the reactants is known as the "rate law".<br/>- Rate of reaction for zero order reaction: For a zero-order reaction, \(\text{Rate} = k [\mathrm{A}]^0 = k\), so the rate of reaction is numerically equal to the "rate constant".<br/>- Units of rate constant for zero order reaction: The unit of \(k\) for a zero-order reaction is \(\mathrm{mol\ L^{-1}\ s^{-1}}\), which is identical to the units of "rate of a reaction".<br/>- Order of a complex reaction: In a multi-step reaction mechanism, the overall reaction velocity and reaction order are determined by the slowest elementary step, linking to "order of slowest step".</p>]]></text>
-  </generalfeedback>
+  <name><text>NEET_UG_CHEMISTRY_MATCHING_CHEMICALKINETICS_MATCHING_Q56 - Match rate law, zero order rate constant, and complex reaction</text></name>
+  <questiontext format="html"><text><![CDATA[<p>Match the items of Column I and Column II.</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>Rate expressions, rate constants, and reaction mechanisms are interconnected through the rate law and the rate-determining step.</p><p><strong>Step 2: Evaluation</strong><br/>- The mathematical expression for the rate of a reaction in terms of molar concentrations of reactants is called the rate law.<br/>- For a zero-order reaction, \(\text{Rate} = k[R]^0 = k\), so the rate of reaction is equal to the rate constant.<br/>- Since \(\text{Rate} = k\) for a zero-order reaction, the units of the rate constant for a zero-order reaction are the same as that of the rate of a reaction (\(\mathrm{mol\,L^{-1}\,s^{-1}}\)).<br/>- The order of a complex reaction is determined by the order of the slowest (rate-determining) step in the reaction mechanism.</p><p><strong>Step 3: Final Conclusion</strong><br/>Each kinetic description matches its corresponding term directly.</p>]]></text></generalfeedback>
   <defaultgrade>4.0000000</defaultgrade>
   <penalty>0.2500000</penalty>
   <hidden>0</hidden>
@@ -170,222 +143,151 @@
     <tag><text>standard:neet_ug</text></tag>
     <tag><text>lang:en</text></tag>
     <tag><text>subject:chemistry</text></tag>
-    <tag><text>class:class_12</text></tag>
+    <tag><text>section:matching</text></tag>
     <tag><text>chapter:chemical_kinetics</text></tag>
-    <tag><text>typology:matching-native</text></tag>
-    <tag><text>difficulty:easy</text></tag>
-    <tag><text>blooms:remember</text></tag>
-    <tag><text>calculation:light</text></tag>
-    <tag><text>media:text</text></tag>
-    <tag><text>multiconcept:false</text></tag>
-  </tags>
-</question>
-<question type="multichoice">
-  <name>
-    <text>NEET_UG_CHEMISTRY_CHEMICAL_KINETICS_MCQ_Q57 - Assertion reasoning on fractional reaction order</text>
-  </name>
-  <questiontext format="html">
-    <text><![CDATA[<p><strong>Assertion (A):</strong> Order of the reaction can be zero or fractional.</p><p><strong>Reason (R):</strong> We cannot determine order from balanced chemical equation.</p>]]></text>
-  </questiontext>
-  <generalfeedback format="html">
-    <text><![CDATA[<p><strong>Step 1: Evaluation of Assertion</strong><br/>The order of a chemical reaction is defined by the empirical rate law \(\text{Rate} = k [\mathrm{A}]^x [\mathrm{B}]^y\). The sum of exponents \(x + y\) can take integer, zero, or non-integer fractional values depending on the complex mechanism. Therefore, the assertion is correct.</p><p><strong>Step 2: Evaluation of Reason</strong><br/>Because complex reactions proceed through multiple elementary steps with intermediate species, overall stoichiometric coefficients do not indicate which step governs the rate. Hence, reaction order cannot be deduced from a balanced chemical equation alone and must be determined experimentally. Therefore, the reason is also correct.</p><p><strong>Step 3: Evaluation of Explanation</strong><br/>The reason that order cannot be determined from a balanced equation explains why experimental determination is mandatory, but it does not physically explain why order can assume fractional or zero values (which arises from the participation of free radicals, chain mechanisms, or catalytic surface saturation). Therefore, both assertion and reason are correct, but the reason is not the correct explanation of the assertion.</p>]]></text>
-  </generalfeedback>
-  <defaultgrade>4.0000000</defaultgrade>
-  <penalty>0.2500000</penalty>
-  <hidden>0</hidden>
-  <single>true</single>
-  <shuffleanswers>false</shuffleanswers>
-  <answernumbering>abc</answernumbering>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>Both (A) and (R) are correct and (R) is the correct explanation of (A).</p>]]></text>
-  </answer>
-  <answer fraction="100" format="html">
-    <text><![CDATA[<p>Both (A) and (R) are correct but (R) is NOT the correct explanation of (A).</p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>(A) is correct but (R) is incorrect.</p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>(A) is incorrect but (R) is correct.</p>]]></text>
-  </answer>
-  <tags>
-    <tag><text>standard:neet_ug</text></tag>
-    <tag><text>lang:en</text></tag>
-    <tag><text>subject:chemistry</text></tag>
-    <tag><text>class:class_12</text></tag>
-    <tag><text>chapter:chemical_kinetics</text></tag>
-    <tag><text>typology:assertion-reason</text></tag>
-    <tag><text>difficulty:medium</text></tag>
-    <tag><text>blooms:analyze</text></tag>
-    <tag><text>calculation:light</text></tag>
-    <tag><text>media:text</text></tag>
-    <tag><text>multiconcept:false</text></tag>
-  </tags>
-</question>
-<question type="multichoice">
-  <name>
-    <text>NEET_UG_CHEMISTRY_CHEMICAL_KINETICS_MCQ_Q58 - Assertion reasoning on order versus molecularity</text>
-  </name>
-  <questiontext format="html">
-    <text><![CDATA[<p><strong>Assertion (A):</strong> Order and molecularity are same.</p><p><strong>Reason (R):</strong> Order is determined experimentally and molecularity is the sum of the stoichiometric coefficient of rate determining elementary step.</p>]]></text>
-  </questiontext>
-  <generalfeedback format="html">
-    <text><![CDATA[<p><strong>Step 1: Evaluation of Assertion</strong><br/>Order and molecularity are identical only for simple, single-step elementary reactions. For complex reactions involving multiple sequential steps, overall order generally differs from molecularity, and molecularity has no physical meaning for the overall complex process. Thus, asserting that order and molecularity are universally the same is incorrect.</p><p><strong>Step 2: Evaluation of Reason</strong><br/>Order is strictly an experimentally evaluated quantity determined from initial rate or concentration-time data. Molecularity represents the number of reactant molecules colliding simultaneously in an elementary step; for a complex reaction, the molecularity of the slowest (rate-determining) step corresponds to the sum of stoichiometric coefficients of the reacting species in that step. Thus, the reason is correct.</p><p><strong>Step 3: Conclusion</strong><br/>The assertion is incorrect, but the reason is correct.</p>]]></text>
-  </generalfeedback>
-  <defaultgrade>4.0000000</defaultgrade>
-  <penalty>0.2500000</penalty>
-  <hidden>0</hidden>
-  <single>true</single>
-  <shuffleanswers>false</shuffleanswers>
-  <answernumbering>abc</answernumbering>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>Both (A) and (R) are correct and (R) is the correct explanation of (A).</p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>Both (A) and (R) are correct but (R) is NOT the correct explanation of (A).</p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>(A) is correct but (R) is incorrect.</p>]]></text>
-  </answer>
-  <answer fraction="100" format="html">
-    <text><![CDATA[<p>(A) is incorrect but (R) is correct.</p>]]></text>
-  </answer>
-  <tags>
-    <tag><text>standard:neet_ug</text></tag>
-    <tag><text>lang:en</text></tag>
-    <tag><text>subject:chemistry</text></tag>
-    <tag><text>class:class_12</text></tag>
-    <tag><text>chapter:chemical_kinetics</text></tag>
-    <tag><text>typology:assertion-reason</text></tag>
+    <tag><text>typology:matching</text></tag>
     <tag><text>difficulty:easy</text></tag>
     <tag><text>blooms:understand</text></tag>
-    <tag><text>calculation:light</text></tag>
     <tag><text>media:text</text></tag>
     <tag><text>multiconcept:false</text></tag>
   </tags>
 </question>
 <question type="multichoice">
-  <name>
-    <text>NEET_UG_CHEMISTRY_CHEMICAL_KINETICS_MCQ_Q59 - Assertion reasoning on enthalpy invariance with catalyst</text>
-  </name>
-  <questiontext format="html">
-    <text><![CDATA[<p><strong>Assertion (A):</strong> The enthalpy of reaction remains constant in the presence of a catalyst.</p><p><strong>Reason (R):</strong> A catalyst participating in the reaction, forms different activated complex and lowers down the activation energy but the difference in energy of reactant and product remains the same.</p>]]></text>
-  </questiontext>
-  <generalfeedback format="html">
-    <text><![CDATA[<p><strong>Step 1: Evaluation of Assertion</strong><br/>The enthalpy change of a reaction, \(\Delta_{\mathrm{r}}H\), is defined by the difference between the enthalpies of products and reactants: \[\Delta_{\mathrm{r}}H = H_{\text{products}} - H_{\text{reactants}}\] Because enthalpy is a state function that depends only on the initial and final states, \(\Delta_{\mathrm{r}}H\) remains strictly constant in the presence of a catalyst. Thus, the assertion is correct.</p><p><strong>Step 2: Evaluation of Reason</strong><br/>A catalyst provides an alternative reaction pathway involving a different activated complex with lower activation energy, facilitating faster conversion. However, it does not alter the thermodynamic stability or chemical potential of either the reactants or the products. Therefore, the net energy gap between reactants and products remains identical. Thus, the reason is correct.</p><p><strong>Step 3: Evaluation of Explanation</strong><br/>Because the reason accurately explains why the enthalpy of reaction does not change (the energy levels of reactants and products are unaltered), both assertion and reason are correct and the reason is the correct explanation of the assertion.</p>]]></text>
-  </generalfeedback>
+  <name><text>NEET_UG_CHEMISTRY_ASSERTIONREASON_CHEMICALKINETICS_ASSERTION_REASON_Q57 - Order of reaction zero or fractional</text></name>
+  <questiontext format="html"><text><![CDATA[<p><strong>Assertion :</strong> Order of the reaction can be zero or fractional.<br/><strong>Reason :</strong> We cannot determine order from balanced chemical equation.</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>The order of a reaction is the sum of the powers of the concentration terms of the reactants in the experimentally determined rate law expression.</p><p><strong>Step 2: Evaluation</strong><br/>The assertion is correct because the order of a reaction is an experimental quantity that can take positive, zero, or fractional values depending on the reaction mechanism. The reason is also correct because the balanced chemical equation only gives stoichiometric coefficients, whereas order must be determined experimentally from the rate law.</p><p><strong>Step 3: Application</strong><br/>However, the fact that order cannot be determined from the balanced chemical equation does not explain why order can be zero or fractional; rather, order can be zero or fractional because the reaction rate may be independent of concentration or depend on a fractional power of concentration in the mechanism.</p><p><strong>Step 4: Final Conclusion</strong><br/>Therefore, both assertion and reason are correct, but the reason does not explain the assertion.</p>]]></text></generalfeedback>
   <defaultgrade>4.0000000</defaultgrade>
   <penalty>0.2500000</penalty>
   <hidden>0</hidden>
   <single>true</single>
-  <shuffleanswers>false</shuffleanswers>
-  <answernumbering>abc</answernumbering>
-  <answer fraction="100" format="html">
-    <text><![CDATA[<p>Both (A) and (R) are correct and (R) is the correct explanation of (A).</p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>Both (A) and (R) are correct but (R) is NOT the correct explanation of (A).</p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>(A) is correct but (R) is incorrect.</p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>(A) is incorrect but (R) is correct.</p>]]></text>
-  </answer>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>iii</answernumbering>
+  <answer fraction="0" format="html"><text><![CDATA[<p>Both assertion and reason are correct and the reason is correct explanation of assertion.</p>]]></text></answer>
+  <answer fraction="100" format="html"><text><![CDATA[<p>Both assertion and reason are correct but reason does not explain assertion.</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>Assertion is correct but reason is incorrect.</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>Both assertion and reason are incorrect.</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>Assertion is incorrect but reason is correct.</p>]]></text></answer>
   <tags>
     <tag><text>standard:neet_ug</text></tag>
     <tag><text>lang:en</text></tag>
     <tag><text>subject:chemistry</text></tag>
-    <tag><text>class:class_12</text></tag>
+    <tag><text>section:assertion_reason</text></tag>
     <tag><text>chapter:chemical_kinetics</text></tag>
-    <tag><text>typology:assertion-reason</text></tag>
+    <tag><text>typology:assertion_reason</text></tag>
+    <tag><text>difficulty:medium</text></tag>
+    <tag><text>blooms:understand</text></tag>
+    <tag><text>media:text</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+<question type="multichoice">
+  <name><text>NEET_UG_CHEMISTRY_ASSERTIONREASON_CHEMICALKINETICS_ASSERTION_REASON_Q58 - Order and molecularity comparison</text></name>
+  <questiontext format="html"><text><![CDATA[<p><strong>Assertion :</strong> Order and molecularity are same.<br/><strong>Reason :</strong> Order is determined experimentally and molecularity is the sum of the stoichiometric coefficient of rate determining elementary step.</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>Order of a reaction is an experimental quantity defined by the rate law, whereas molecularity is a theoretical quantity equal to the number of reacting species participating in an elementary step.</p><p><strong>Step 2: Evaluation</strong><br/>The assertion is incorrect because order and molecularity are the same only for elementary reactions; for complex reactions, they need not be equal (for example, order can be zero or fractional, whereas molecularity is always a positive integer). The reason is correct because order is determined experimentally, while molecularity is the sum of the stoichiometric coefficients of the rate-determining elementary step.</p><p><strong>Step 3: Final Conclusion</strong><br/>Therefore, the assertion is incorrect, but the reason is correct.</p>]]></text></generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>iii</answernumbering>
+  <answer fraction="0" format="html"><text><![CDATA[<p>Both assertion and reason are correct and the reason is correct explanation of assertion.</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>Both assertion and reason are correct but reason does not explain assertion.</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>Assertion is correct but reason is incorrect.</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>Both assertion and reason are incorrect.</p>]]></text></answer>
+  <answer fraction="100" format="html"><text><![CDATA[<p>Assertion is incorrect but reason is correct.</p>]]></text></answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>subject:chemistry</text></tag>
+    <tag><text>section:assertion_reason</text></tag>
+    <tag><text>chapter:chemical_kinetics</text></tag>
+    <tag><text>typology:assertion_reason</text></tag>
     <tag><text>difficulty:easy</text></tag>
     <tag><text>blooms:understand</text></tag>
-    <tag><text>calculation:light</text></tag>
     <tag><text>media:text</text></tag>
     <tag><text>multiconcept:false</text></tag>
   </tags>
 </question>
 <question type="multichoice">
-  <name>
-    <text>NEET_UG_CHEMISTRY_CHEMICAL_KINETICS_MCQ_Q60 - Assertion reasoning on collision efficacy conditions</text>
-  </name>
-  <questiontext format="html">
-    <text><![CDATA[<p><strong>Assertion (A):</strong> All collision of reactant molecules lead to product formation.</p><p><strong>Reason (R):</strong> Only those collisions in which molecules have correct orientation and sufficient kinetic energy lead to compound formation.</p>]]></text>
-  </questiontext>
-  <generalfeedback format="html">
-    <text><![CDATA[<p><strong>Step 1: Evaluation of Assertion</strong><br/>According to the collision theory of chemical reactions, collision frequency is extremely high (on the order of \(10^{25}\) to \(10^{28}\) collisions per liter per second in gases), yet reaction rates are finite because the overwhelming majority of collisions are elastic and do not result in reaction. Therefore, asserting that all collisions lead to product formation is incorrect.</p><p><strong>Step 2: Evaluation of Reason</strong><br/>For a collision to result in a chemical change (an effective collision), two criteria must be satisfied simultaneously: the colliding particles must possess energy equal to or exceeding the threshold energy, and they must collide with a proper mutual spatial orientation to facilitate bond breaking and bond formation. Therefore, the reason is correct.</p><p><strong>Step 3: Conclusion</strong><br/>The assertion is incorrect, but the reason is correct.</p>]]></text>
-  </generalfeedback>
+  <name><text>NEET_UG_CHEMISTRY_ASSERTIONREASON_CHEMICALKINETICS_ASSERTION_REASON_Q59 - Enthalpy of reaction in presence of catalyst</text></name>
+  <questiontext format="html"><text><![CDATA[<p><strong>Assertion :</strong> The enthalpy of reaction remains constant in the presence of a catalyst.<br/><strong>Reason :</strong> A catalyst participating in the reaction, forms different activated complex and lowers down the activation energy but the difference in energy of reactant and product remains the same.</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>The enthalpy of reaction \(\Delta H = H_{\text{products}} - H_{\text{reactants}}\) is a thermodynamic state function that depends only on the initial and final states, not on the reaction pathway.</p><p><strong>Step 2: Evaluation</strong><br/>The assertion is correct because adding a catalyst does not alter \(\Delta H\) of the reaction. The reason is also correct because a catalyst participates in the reaction by forming an alternative activated complex with lower activation energy, while leaving the energies of the reactants and products unchanged, so the energy difference between them remains the same.</p><p><strong>Step 3: Application</strong><br/>Since the difference in energy between reactants and products equals \(\Delta H\), the reason directly explains why the enthalpy of reaction remains constant in the presence of a catalyst.</p><p><strong>Step 4: Final Conclusion</strong><br/>Therefore, both assertion and reason are correct, and the reason is the correct explanation of the assertion.</p>]]></text></generalfeedback>
   <defaultgrade>4.0000000</defaultgrade>
   <penalty>0.2500000</penalty>
   <hidden>0</hidden>
   <single>true</single>
-  <shuffleanswers>false</shuffleanswers>
-  <answernumbering>abc</answernumbering>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>Both (A) and (R) are correct and (R) is the correct explanation of (A).</p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>Both (A) and (R) are correct but (R) is NOT the correct explanation of (A).</p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>(A) is correct but (R) is incorrect.</p>]]></text>
-  </answer>
-  <answer fraction="100" format="html">
-    <text><![CDATA[<p>(A) is incorrect but (R) is correct.</p>]]></text>
-  </answer>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>iii</answernumbering>
+  <answer fraction="100" format="html"><text><![CDATA[<p>Both assertion and reason are correct and the reason is correct explanation of assertion.</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>Both assertion and reason are correct but reason does not explain assertion.</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>Assertion is correct but reason is incorrect.</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>Both assertion and reason are incorrect.</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>Assertion is incorrect but reason is correct.</p>]]></text></answer>
   <tags>
     <tag><text>standard:neet_ug</text></tag>
     <tag><text>lang:en</text></tag>
     <tag><text>subject:chemistry</text></tag>
-    <tag><text>class:class_12</text></tag>
+    <tag><text>section:assertion_reason</text></tag>
     <tag><text>chapter:chemical_kinetics</text></tag>
-    <tag><text>typology:assertion-reason</text></tag>
+    <tag><text>typology:assertion_reason</text></tag>
     <tag><text>difficulty:easy</text></tag>
-    <tag><text>blooms:remember</text></tag>
-    <tag><text>calculation:light</text></tag>
+    <tag><text>blooms:understand</text></tag>
     <tag><text>media:text</text></tag>
     <tag><text>multiconcept:false</text></tag>
   </tags>
 </question>
 <question type="multichoice">
-  <name>
-    <text>NEET_UG_CHEMISTRY_CHEMICAL_KINETICS_MCQ_Q61 - Assertion reasoning on Arrhenius equation steric limits</text>
-  </name>
-  <questiontext format="html">
-    <text><![CDATA[<p><strong>Assertion (A):</strong> Rate constants determined from Arrhenius equation are fairly accurate for simple as well as complex molecules.</p><p><strong>Reason (R):</strong> Reactant molecules undergo chemical change irrespective of their orientation during collision.</p>]]></text>
-  </questiontext>
-  <generalfeedback format="html">
-    <text><![CDATA[<p><strong>Step 1: Evaluation of Assertion</strong><br/>The Arrhenius equation \(k = A \exp\left(-\frac{E_{\mathrm{a}}}{RT}\right)\) accurately accounts for temperature dependence across a wide range of reactions by incorporating empirical frequency factors determined experimentally for both simple and complex molecules. Therefore, the assertion is accepted as correct.</p><p><strong>Step 2: Evaluation of Reason</strong><br/>Collision theory demonstrates that for complex polyatomic molecules, chemical reaction occurs only when colliding species possess the correct steric orientation to enable interaction between the active functional groups. Collisions occurring with improper orientation fail to yield products. Hence, stating that molecules undergo chemical change irrespective of their orientation during collision is incorrect.</p><p><strong>Step 3: Conclusion</strong><br/>The assertion is correct, but the reason is incorrect.</p>]]></text>
-  </generalfeedback>
+  <name><text>NEET_UG_CHEMISTRY_ASSERTIONREASON_CHEMICALKINETICS_ASSERTION_REASON_Q60 - Collision theory and effective collisions</text></name>
+  <questiontext format="html"><text><![CDATA[<p><strong>Assertion :</strong> All collision of reactant molecules lead to product formation.<br/><strong>Reason :</strong> Only those collisions in which molecules have correct orientation and sufficient kinetic energy lead to compound formation.</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>According to collision theory, a chemical reaction occurs only when reactant molecules undergo effective collisions.</p><p><strong>Step 2: Evaluation</strong><br/>The assertion is incorrect because not all collisions between reactant molecules result in product formation; most collisions fail to overcome the energy barrier or lack proper alignment. The reason is correct because only collisions in which the colliding molecules possess both sufficient kinetic energy (at least equal to the threshold energy) and proper spatial orientation lead to product formation.</p><p><strong>Step 3: Final Conclusion</strong><br/>Therefore, the assertion is incorrect, but the reason is correct.</p>]]></text></generalfeedback>
   <defaultgrade>4.0000000</defaultgrade>
   <penalty>0.2500000</penalty>
   <hidden>0</hidden>
   <single>true</single>
-  <shuffleanswers>false</shuffleanswers>
-  <answernumbering>abc</answernumbering>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>Both (A) and (R) are correct and (R) is the correct explanation of (A).</p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>Both (A) and (R) are correct but (R) is NOT the correct explanation of (A).</p>]]></text>
-  </answer>
-  <answer fraction="100" format="html">
-    <text><![CDATA[<p>(A) is correct but (R) is incorrect.</p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>(A) is incorrect but (R) is correct.</p>]]></text>
-  </answer>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>iii</answernumbering>
+  <answer fraction="0" format="html"><text><![CDATA[<p>Both assertion and reason are correct and the reason is correct explanation of assertion.</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>Both assertion and reason are correct but reason does not explain assertion.</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>Assertion is correct but reason is incorrect.</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>Both assertion and reason are incorrect.</p>]]></text></answer>
+  <answer fraction="100" format="html"><text><![CDATA[<p>Assertion is incorrect but reason is correct.</p>]]></text></answer>
   <tags>
     <tag><text>standard:neet_ug</text></tag>
     <tag><text>lang:en</text></tag>
     <tag><text>subject:chemistry</text></tag>
-    <tag><text>class:class_12</text></tag>
+    <tag><text>section:assertion_reason</text></tag>
     <tag><text>chapter:chemical_kinetics</text></tag>
-    <tag><text>typology:assertion-reason</text></tag>
+    <tag><text>typology:assertion_reason</text></tag>
+    <tag><text>difficulty:easy</text></tag>
+    <tag><text>blooms:understand</text></tag>
+    <tag><text>media:text</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+<question type="multichoice">
+  <name><text>NEET_UG_CHEMISTRY_ASSERTIONREASON_CHEMICALKINETICS_ASSERTION_REASON_Q61 - Arrhenius equation accuracy and molecular orientation</text></name>
+  <questiontext format="html"><text><![CDATA[<p><strong>Assertion :</strong> Rate constants determined from Arrhenius equation are fairly accurate for simple as well as complex molecules.<br/><strong>Reason :</strong> Reactant molecules undergo chemical change irrespective of their orientation during collision.</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>The Arrhenius equation \(k = A e^{-E_a / RT}\) gives the temperature dependence of the rate constant, where the pre-exponential factor \(A\) accounts for collision frequency and steric/orientation effects.</p><p><strong>Step 2: Evaluation</strong><br/>The assertion is correct because rate constants obtained from the Arrhenius equation agree fairly well with experimental values for both simple and complex molecules when the pre-exponential factor \(A\) is used. However, the reason is incorrect because reactant molecules do not undergo chemical change irrespective of their orientation; according to collision theory, proper orientation during collision is essential for bond breaking and bond formation to occur.</p><p><strong>Step 3: Final Conclusion</strong><br/>Therefore, the assertion is correct, but the reason is incorrect.</p>]]></text></generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>iii</answernumbering>
+  <answer fraction="0" format="html"><text><![CDATA[<p>Both assertion and reason are correct and the reason is correct explanation of assertion.</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>Both assertion and reason are correct but reason does not explain assertion.</p>]]></text></answer>
+  <answer fraction="100" format="html"><text><![CDATA[<p>Assertion is correct but reason is incorrect.</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>Both assertion and reason are incorrect.</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>Assertion is incorrect but reason is correct.</p>]]></text></answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>subject:chemistry</text></tag>
+    <tag><text>section:assertion_reason</text></tag>
+    <tag><text>chapter:chemical_kinetics</text></tag>
+    <tag><text>typology:assertion_reason</text></tag>
     <tag><text>difficulty:medium</text></tag>
-    <tag><text>blooms:analyze</text></tag>
-    <tag><text>calculation:light</text></tag>
+    <tag><text>blooms:understand</text></tag>
     <tag><text>media:text</text></tag>
     <tag><text>multiconcept:false</text></tag>
   </tags>

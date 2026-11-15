@@ -1,873 +1,495 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <quiz>
 <question type="multichoice">
-  <name><text>NEET_UG_CHEMISTRY_HYDROCARBONS_MCQ_Q01 - Decreasing order of boiling points of alkanes</text></name>
-  <questiontext format="html">
-    <text><![CDATA[<p>Arrange the following in decreasing order of their boiling points.</p>
-<p>(A) \(n\)-butane<br/>(B) 2-methylbutane<br/>(C) \(n\)-pentane<br/>(D) 2,2-dimethylpropane</p>
-<hr/>
-<p>নিচের যৌগগুলিকে তাদের স্ফুটনাঙ্কের অধঃক্রম অনুসারে সাজাও।</p>
-<p>(A) \(n\)-বিউটেন<br/>(B) 2-মিথাইলবিউটেন<br/>(C) \(n\)-পেন্টেন<br/>(D) 2,2-ডাইমিথাইলপ্রোপেন</p>]]></text>
-  </questiontext>
-  <generalfeedback format="html">
-    <text><![CDATA[<p><strong>Step 1: Understanding Factors Governing Boiling Points of Alkanes</strong><br/>The boiling points of alkanes depend on the magnitude of intermolecular van der Waals forces. These forces increase with an increase in molecular mass and surface area. For isomeric alkanes with identical molecular formula, branching causes the molecule to adopt a more spherical and compact shape, reducing the contact surface area and weakening van der Waals attractions. As a result, increased branching leads to a lower boiling point.</p>
-<p><strong>Step 2: Comparison of the Given Compounds</strong><br/>Comparing the five-carbon isomers: \(n\)-pentane is a continuous straight chain and has the largest surface area, followed by the singly-branched 2-methylbutane, while 2,2-dimethylpropane is highly branched and most spherical, giving it the lowest boiling point among the pentane isomers. The four-carbon compound, \(n\)-butane, has a lower molecular mass and fewer carbon atoms than all three pentanes, giving it the lowest boiling point overall.</p>
-<p><strong>Step 3: Conclusion and Final Conceptual Order</strong><br/>The correct decreasing order of boiling points is: \(n\)-pentane > 2-methylbutane > 2,2-dimethylpropane > \(n\)-butane, which corresponds to \(\mathrm{C} > \mathrm{B} > \mathrm{D} > \mathrm{A}\).</p>
-<hr/>
-<p><strong>ধাপ ১: অ্যালকেনের স্ফুটনাঙ্ক নির্ধারক বিষয়সমূহ</strong><br/>অ্যালকেনের স্ফুটনাঙ্ক তাদের আন্তঃআণবিক ভ্যান ডার ওয়ালস বলের ওপর নির্ভর করে। আণবিক ভর এবং পৃষ্ঠতলের ক্ষেত্রফল বৃদ্ধির সাথে এই আকর্ষণ বল বৃদ্ধি পায়। একই আণবিক সংকেতযুক্ত সমাবয়বী (আইসোমেরিক) অ্যালকেনের ক্ষেত্রে শাখা বৃদ্ধি পেলে অণুটি অধিকতর সুষম গোলকাকার রূপ নেয়, যার ফলে পৃষ্ঠতলের ক্ষেত্রফল হ্রাস পায় এবং ভ্যান ডার ওয়ালস বল দুর্বল হয়ে স্ফুটনাঙ্ক কমে যায়।</p>
-<p><strong>ধাপ ২: প্রদত্ত যৌগগুলির তুলনা</strong><br/>পাঁচটি কার্বনযুক্ত সমাবয়বীগুলির মধ্যে: \(n\)-পেন্টেন সরল রৈখিক হওয়ায় এর পৃষ্ঠতলের ক্ষেত্রফল সর্বাধিক, এরপর একটি শাখাযুক্ত 2-মিথাইলবিউটেন, এবং দুটি শাখাযুক্ত 2,2-ডাইমিথাইলপ্রোপেন সবচেয়ে গোলকাকার হওয়ায় এর স্ফুটনাঙ্ক পেন্টেন সমাবয়বীদের মধ্যে সর্বনিম্ন। চারটি কার্বনযুক্ত \(n\)-বিউটেনের আণবিক ভর পাঁচ কার্বনযুক্ত যৌগগুলির চেয়ে কম হওয়ায় সামগ্রিকভাবে এর স্ফুটনাঙ্ক সর্বনিম্ন।</p>
-<p><strong>ধাপ ৩: সিদ্ধান্ত ও চূড়ান্ত ক্রম</strong><br/>স্ফুটনাঙ্কের সঠিক অধঃক্রম হলো: \(n\)-পেন্টেন > 2-মিথাইলবিউটেন > 2,2-ডাইমিথাইলপ্রোপেন > \(n\)-বিউটেন, অর্থাৎ \(\mathrm{C} > \mathrm{B} > \mathrm{D} > \mathrm{A}\)।</p>]]></text>
-  </generalfeedback>
+  <name><text>CHEMISTRY_HYDROCARBONS_MCQ_Q01 - Decreasing order of boiling points of alkanes</text></name>
+  <questiontext format="html"><text><![CDATA[<p>Arrange the following in decreasing order of their boiling points.<br/>(A) \(n\)-butane<br/>(B) 2-methylbutane<br/>(C) \(n\)-pentane<br/>(D) 2,2-dimethylpropane</p><hr/><p>নিচের যৌগগুলিকে তাদের স্ফুটনাঙ্কের অধঃক্রমে সাজাও।<br/>(A) \(n\)-বিউটেন<br/>(B) 2-মিথাইলবিউটেন<br/>(C) \(n\)-পেন্টেন<br/>(D) 2,2-ডাইমিথাইলপ্রোপেন</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>The boiling point of alkanes depends on intermolecular van der Waals forces of attraction, which increase with molecular mass (chain length) and surface area of contact.</p><p><strong>Step 2: Evaluation</strong><br/>\(n\)-Butane has 4 carbon atoms, whereas \(n\)-pentane, 2-methylbutane, and 2,2-dimethylpropane are isomeric pentanes with 5 carbon atoms each. Therefore, \(n\)-butane has the lowest boiling point due to its lower molecular mass.</p><p><strong>Step 3: Application</strong><br/>Among the isomeric pentanes, branching makes the molecule more compact and spherical, reducing the surface area and weakening intermolecular van der Waals forces. Thus, the unbranched \(n\)-pentane has the highest boiling point, followed by the singly branched 2-methylbutane, and then the doubly branched 2,2-dimethylpropane.</p><p><strong>Step 4: Final Conclusion</strong><br/>The decreasing order of boiling points is \(n\)-pentane &gt; 2-methylbutane &gt; 2,2-dimethylpropane &gt; \(n\)-butane, which corresponds to \(\mathrm{C} > \mathrm{B} > \mathrm{D} > \mathrm{A}\).</p><hr/><p><strong>ধাপ ১: মৌলিক নীতি</strong><br/>অ্যালকেনের স্ফুটনাঙ্ক আন্তঃআণবিক ভ্যান ডার ওয়ালস আকর্ষণ বলের উপর নির্ভর করে, যা আণবিক ভর (শৃঙ্খলের দৈর্ঘ্য) এবং পৃষ্ঠতলের ক্ষেত্রফল বৃদ্ধির সাথে বৃদ্ধি পায়।</p><p><strong>ধাপ ২: মূল্যায়ন</strong><br/>\(n\)-বিউটেনে ৪টি কার্বন পরমাণু থাকে, যেখানে \(n\)-পেন্টেন, 2-মিথাইলবিউটেন এবং 2,2-ডাইমিথাইলপ্রোপেন হলো ৫টি কার্বন পরমাণুবিশিষ্ট সমাবয়বী পেন্টেন। তাই কম আণবিক ভরের কারণে \(n\)-বিউটেনের স্ফুটনাঙ্ক সর্বনিম্ন।</p><p><strong>ধাপ ৩: প্রয়োগ</strong><br/>সমাবয়বী পেন্টেনগুলির মধ্যে শাখা বৃদ্ধি পেলে অণুগুলি আরও গোলাকার ও সংকুচিত হয়, ফলে পৃষ্ঠতলের ক্ষেত্রফল কমে যায় এবং আন্তঃআণবিক ভ্যান ডার ওয়ালস বল দুর্বল হয়। তাই শাখাহীন \(n\)-পেন্টেনের স্ফুটনাঙ্ক সর্বাধিক, এরপর একটি শাখাযুক্ত 2-মিথাইলবিউটেন এবং তারপর দুটি শাখাযুক্ত 2,2-ডাইমিথাইলপ্রোপেন।</p><p><strong>ধাপ ৪: চূড়ান্ত সিদ্ধান্ত</strong><br/>স্ফুটনাঙ্কের অধঃক্রম হলো \(n\)-পেন্টেন &gt; 2-মিথাইলবিউটেন &gt; 2,2-ডাইমিথাইলপ্রোপেন &gt; \(n\)-বিউটেন, অর্থাৎ \(\mathrm{C} > \mathrm{B} > \mathrm{D} > \mathrm{A}\)।</p>]]></text></generalfeedback>
   <defaultgrade>4.0000000</defaultgrade>
   <penalty>0.2500000</penalty>
   <hidden>0</hidden>
   <single>true</single>
   <shuffleanswers>true</shuffleanswers>
   <answernumbering>iii</answernumbering>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>\(\mathrm{A} > \mathrm{B} > \mathrm{C} > \mathrm{D}\)</p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>\(\mathrm{B} > \mathrm{C} > \mathrm{D} > \mathrm{A}\)</p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>\(\mathrm{D} > \mathrm{C} > \mathrm{B} > \mathrm{A}\)</p>]]></text>
-  </answer>
-  <answer fraction="100" format="html">
-    <text><![CDATA[<p>\(\mathrm{C} > \mathrm{B} > \mathrm{D} > \mathrm{A}\)</p>]]></text>
-  </answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>\(\mathrm{A} > \mathrm{B} > \mathrm{C} > \mathrm{D}\)</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>\(\mathrm{B} > \mathrm{C} > \mathrm{D} > \mathrm{A}\)</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>\(\mathrm{D} > \mathrm{C} > \mathrm{B} > \mathrm{A}\)</p>]]></text></answer>
+  <answer fraction="100" format="html"><text><![CDATA[<p>\(\mathrm{C} > \mathrm{B} > \mathrm{D} > \mathrm{A}\)</p>]]></text></answer>
   <tags>
     <tag><text>standard:neet_ug</text></tag>
     <tag><text>lang:en</text></tag>
     <tag><text>lang:bn</text></tag>
     <tag><text>subject:chemistry</text></tag>
+    <tag><text>class:11</text></tag>
     <tag><text>chapter:hydrocarbons</text></tag>
     <tag><text>typology:mcq</text></tag>
     <tag><text>difficulty:easy</text></tag>
     <tag><text>blooms:understand</text></tag>
-    <tag><text>calculation:light</text></tag>
     <tag><text>media:text</text></tag>
     <tag><text>multiconcept:false</text></tag>
   </tags>
 </question>
 <question type="multichoice">
-  <name><text>NEET_UG_CHEMISTRY_HYDROCARBONS_MCQ_Q02 - Reactivity order of halogens with alkanes</text></name>
-  <questiontext format="html">
-    <text><![CDATA[<p>Arrange the halogens \(\mathrm{F}_2\), \(\mathrm{Cl}_2\), \(\mathrm{Br}_2\), \(\mathrm{I}_2\), in order of their increasing reactivity with alkanes.</p>
-<hr/>
-<p>অ্যালকেনের সাথে বিক্রিয়াশীলতার ঊর্ধ্বক্রম অনুসারে হ্যালোজেনগুলিকে (\(\mathrm{F}_2\), \(\mathrm{Cl}_2\), \(\mathrm{Br}_2\), \(\mathrm{I}_2\)) সাজাও।</p>]]></text>
-  </questiontext>
-  <generalfeedback format="html">
-    <text><![CDATA[<p><strong>Step 1: Reaction Mechanism and Energetics</strong><br/>Halogenation of alkanes proceeds through a free-radical chain mechanism involving initiation, propagation, and termination steps. The reactivity of halogens is governed by the activation energy of the hydrogen-abstraction propagation step and the overall enthalpy of the reaction.</p>
-<p><strong>Step 2: Comparison of Halogen Reactivities</strong><br/>Fluorine (\(\mathrm{F}_2\)) reacts extremely violently and explosively even in the dark because the activation energy is very low and the reaction is highly exothermic. Chlorine (\(\mathrm{Cl}_2\)) reacts rapidly in the presence of diffuse sunlight. Bromine (\(\mathrm{Br}_2\)) reacts relatively slowly and requires higher energy or light, exhibiting high selectivity. Iodine (\(\mathrm{I}_2\)) reacts so slowly that the reaction is reversible and endothermic, requiring an oxidizing agent to drive it forward.</p>
-<p><strong>Step 3: Final Conceptual Order</strong><br/>The reactivity decreases in the order \(\mathrm{F}_2 > \mathrm{Cl}_2 > \mathrm{Br}_2 > \mathrm{I}_2\). Therefore, the order of increasing reactivity is \(\mathrm{I}_2 < \mathrm{Br}_2 < \mathrm{Cl}_2 < \mathrm{F}_2\).</p>
-<hr/>
-<p><strong>ধাপ ১: বিক্রিয়ার কৌশল ও শক্তিবিদ্যা</strong><br/>অ্যালকেনের হ্যালোজিনেশন মুক্ত মূলক (ফ্রি র‍্যাডিক্যাল) শৃঙ্খল প্রক্রিয়ার মাধ্যমে ঘটে। হ্যালোজেনগুলির বিক্রিয়াশীলতা মূলত হাইড্রোজেন অপসারণ ধাপের সক্রিয়করণ শক্তি এবং সামগ্রিক বিক্রিয়ার তাপীয় পরিবর্তনের ওপর নির্ভর করে।</p>
-<p><strong>ধাপ ২: হ্যালোজেনসমূহের সক্রিয়তার তুলনা</strong><br/>ফ্লুরিনের (\(\mathrm{F}_2\)) ক্ষেত্রে বিক্রিয়াটি অত্যন্ত তীব্র এবং বিস্ফোরণ সহকারে ঘটে, কারণ এর সক্রিয়করণ শক্তি অত্যন্ত কম এবং বিক্রিয়াটি প্রবল তাপমোচী। ক্লোরিন (\(\mathrm{Cl}_2\)) মৃদু সূর্যালোকের উপস্থিতিতে দ্রুত বিক্রিয়া করে। ব্রোমিনের (\(\mathrm{Br}_2\)) বিক্রিয়া অপেক্ষাকৃত ধীরগতির ও সুনির্দিষ্ট (সিলেক্টিভ)। আয়োডিন (\(\mathrm{I}_2\)) অত্যন্ত ধীরগতিতে বিক্রিয়া করে এবং বিক্রিয়াটি উভমুখী ও তাপগ্রাহী হওয়ায় এটি চালনা করতে জারক পদার্থের প্রয়োজন হয়।</p>
-<p><strong>ধাপ ৩: চূড়ান্ত ক্রম</strong><br/>সক্রিয়তার অধঃক্রম হলো \(\mathrm{F}_2 > \mathrm{Cl}_2 > \mathrm{Br}_2 > \mathrm{I}_2\)। সুতরাং, অ্যালকেনের সাথে বিক্রিয়াশীলতার ঊর্ধ্বক্রম হলো \(\mathrm{I}_2 < \mathrm{Br}_2 < \mathrm{Cl}_2 < \mathrm{F}_2\)।</p>]]></text>
-  </generalfeedback>
+  <name><text>CHEMISTRY_HYDROCARBONS_MCQ_Q02 - Increasing reactivity of halogens with alkanes</text></name>
+  <questiontext format="html"><text><![CDATA[<p>Arrange the halogens \(\mathrm{F}_2\), \(\mathrm{Cl}_2\), \(\mathrm{Br}_2\), \(\mathrm{I}_2\), in order of their increasing reactivity with alkanes.</p><hr/><p>অ্যালকেনের সাথে হ্যালোজেনগুলির (\(\mathrm{F}_2\), \(\mathrm{Cl}_2\), \(\mathrm{Br}_2\), \(\mathrm{I}_2\)) বিক্রিয়াশীলতার বর্ধিত ক্রমে সাজাও।</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>Halogenation of alkanes proceeds via a free-radical chain mechanism. The reactivity of halogens towards alkanes is governed by the electronegativity of the halogen and the energetics of the hydrogen-abstraction step.</p><p><strong>Step 2: Evaluation</strong><br/>Down Group 17 from fluorine to iodine, electronegativity decreases and the \(\mathrm{H-X}\) bond strength decreases, making the hydrogen-abstraction step progressively less exothermic (and endothermic for iodine).</p><p><strong>Step 3: Application</strong><br/>Fluorine (\(\mathrm{F}_2\)) reacts violently even in the dark, chlorine (\(\mathrm{Cl}_2\)) and bromine (\(\mathrm{Br}_2\)) react in the presence of light or heat with decreasing vigour, and iodine (\(\mathrm{I}_2\)) reacts very slowly and reversibly.</p><p><strong>Step 4: Final Conclusion</strong><br/>The increasing order of reactivity of halogens with alkanes is \(\mathrm{I}_2 < \mathrm{Br}_2 < \mathrm{Cl}_2 < \mathrm{F}_2\).</p><hr/><p><strong>ধাপ ১: মৌলিক নীতি</strong><br/>অ্যালকেনের হ্যালোজেনেশন মুক্ত-মূলক শৃঙ্খল বিক্রিয়ার মাধ্যমে ঘটে। অ্যালকেনের প্রতি হ্যালোজেনের বিক্রিয়াশীলতা হ্যালোজেনের তড়িৎঋণাত্মকতা এবং হাইড্রোজেন-অপসারণ ধাপের শক্তির উপর নির্ভর করে।</p><p><strong>ধাপ ২: মূল্যায়ন</strong><br/>শ্রেণি ১৭ বরাবর ফ্লুরিন থেকে আয়োডিন পর্যন্ত নিচে নামলে তড়িৎঋণাত্মকতা এবং \(\mathrm{H-X}\) বন্ধন-শক্তি হ্রাস পায়, ফলে হাইড্রোজেন-অপসারণ ধাপটি ক্রমশ কম তাপমোচী (এবং আয়োডিনের ক্ষেত্রে তাপগ্রাহী) হয়।</p><p><strong>ধাপ ৩: প্রয়োগ</strong><br/>ফ্লুরিন (\(\mathrm{F}_2\)) অন্ধকারেও প্রবলভাবে বিক্রিয়া করে, ক্লোরিন (\(\mathrm{Cl}_2\)) ও ব্রোমিন (\(\mathrm{Br}_2\)) আলো বা তাপের উপস্থিতিতে ক্রমহ্রাসমান তীব্রতায় বিক্রিয়া করে, এবং আয়োডিন (\(\mathrm{I}_2\)) অত্যন্ত ধীরে ও উভমুখীভাবে বিক্রিয়া করে।</p><p><strong>ধাপ ৪: চূড়ান্ত সিদ্ধান্ত</strong><br/>অ্যালকেনের সাথে হ্যালোজেনের বিক্রিয়াশীলতার বর্ধিত ক্রম হলো \(\mathrm{I}_2 < \mathrm{Br}_2 < \mathrm{Cl}_2 < \mathrm{F}_2\)।</p>]]></text></generalfeedback>
   <defaultgrade>4.0000000</defaultgrade>
   <penalty>0.2500000</penalty>
   <hidden>0</hidden>
   <single>true</single>
   <shuffleanswers>true</shuffleanswers>
   <answernumbering>iii</answernumbering>
-  <answer fraction="100" format="html">
-    <text><![CDATA[<p>\(\mathrm{I}_2 < \mathrm{Br}_2 < \mathrm{Cl}_2 < \mathrm{F}_2\)</p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>\(\mathrm{Br}_2 < \mathrm{Cl}_2 < \mathrm{F}_2 < \mathrm{I}_2\)</p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>\(\mathrm{F}_2 < \mathrm{Cl}_2 < \mathrm{Br}_2 < \mathrm{I}_2\)</p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>\(\mathrm{Br}_2 < \mathrm{I}_2 < \mathrm{Cl}_2 < \mathrm{F}_2\)</p>]]></text>
-  </answer>
+  <answer fraction="100" format="html"><text><![CDATA[<p>\(\mathrm{I}_2 < \mathrm{Br}_2 < \mathrm{Cl}_2 < \mathrm{F}_2\)</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>\(\mathrm{Br}_2 < \mathrm{Cl}_2 < \mathrm{F}_2 < \mathrm{I}_2\)</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>\(\mathrm{F}_2 < \mathrm{Cl}_2 < \mathrm{Br}_2 < \mathrm{I}_2\)</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>\(\mathrm{Br}_2 < \mathrm{I}_2 < \mathrm{Cl}_2 < \mathrm{F}_2\)</p>]]></text></answer>
   <tags>
     <tag><text>standard:neet_ug</text></tag>
     <tag><text>lang:en</text></tag>
     <tag><text>lang:bn</text></tag>
     <tag><text>subject:chemistry</text></tag>
+    <tag><text>class:11</text></tag>
     <tag><text>chapter:hydrocarbons</text></tag>
     <tag><text>typology:mcq</text></tag>
     <tag><text>difficulty:easy</text></tag>
     <tag><text>blooms:remember</text></tag>
-    <tag><text>calculation:light</text></tag>
     <tag><text>media:text</text></tag>
     <tag><text>multiconcept:false</text></tag>
   </tags>
 </question>
 <question type="multichoice">
-  <name><text>NEET_UG_CHEMISTRY_HYDROCARBONS_MCQ_Q03 - Increasing order of reduction of alkyl halides with zinc and dilute HCl</text></name>
-  <questiontext format="html">
-    <text><![CDATA[<p>The increasing order of reduction of alkyl halides with zinc and dilute HCl is</p>
-<hr/>
-<p>জিঙ্ক এবং লঘু HCl দ্বারা অ্যালকিল হ্যালাইডের বিজারণের ঊর্ধ্বক্রম হলো</p>]]></text>
-  </questiontext>
-  <generalfeedback format="html">
-    <text><![CDATA[<p><strong>Step 1: Reaction Principle</strong><br/>Reduction of alkyl halides (\(\mathrm{R-X}\)) with zinc and dilute hydrochloric acid yields alkanes: \[\mathrm{R-X} + \mathrm{Zn} + \mathrm{H}^+ \longrightarrow \mathrm{R-H} + \mathrm{Zn}^{2+} + \mathrm{X}^-\] The ease of reduction depends on the ease of cleavage of the carbon–halogen (\(\mathrm{C-X}\)) bond.</p>
-<p><strong>Step 2: Carbon-Halogen Bond Strength Comparison</strong><br/>As the size of the halogen atom increases from chlorine to iodine (\(\mathrm{Cl} < \mathrm{Br} < \mathrm{I}\)), the bond length increases and the bond dissociation energy decreases in the order: \[\mathrm{C-Cl} > \mathrm{C-Br} > \mathrm{C-I}\] Weaker bonds break more readily during the reduction process.</p>
-<p><strong>Step 3: Final Conceptual Order</strong><br/>Because the \(\mathrm{C-I}\) bond is weakest, alkyl iodides undergo reduction most readily, while alkyl chlorides undergo reduction least readily. Thus, the increasing order of reduction is \(\mathrm{R - Cl} < \mathrm{R - Br} < \mathrm{R - I}\).</p>
-<hr/>
-<p><strong>ধাপ ১: বিক্রিয়ার নীতি</strong><br/>জিঙ্ক এবং লঘু হাইড্রোক্লোরিক অ্যাসিড দ্বারা অ্যালকিল হ্যালাইডের (\(\mathrm{R-X}\)) বিজারণের ফলে অ্যালকেন উৎপন্ন হয়। বিজারণের হার কার্বন–হ্যালোজেন (\(\mathrm{C-X}\)) বন্ধন ভেঙে যাওয়ার সহজলভ্যতার ওপর নির্ভর করে।</p>
-<p><strong>ধাপ ২: বন্ধন শক্তির তুলনা</strong><br/>হ্যালোজেন পরমাণুর আকার ক্লোরিন থেকে আয়োডিনে বৃদ্ধি পাওয়ায় (\(\mathrm{Cl} < \mathrm{Br} < \mathrm{I}\)), বন্ধনের দৈর্ঘ্য বাড়ে এবং বন্ধন বিয়োজন শক্তি হ্রাস পায়: \[\mathrm{C-Cl} > \mathrm{C-Br} > \mathrm{C-I}\] দুর্বল বন্ধন বিজারণ প্রক্রিয়ায় সহজে ভেঙে যায়।</p>
-<p><strong>ধাপ ৩: চূড়ান্ত সিদ্ধান্ত</strong><br/>\(\mathrm{C-I}\) বন্ধন সবচেয়ে দুর্বল হওয়ায় অ্যালকিল আয়োডাইড সবচেয়ে সহজে বিজারিত হয় এবং অ্যালকিল ক্লোরাইড সবচেয়ে দেরিতে বিজারিত হয়। অতএব, বিজারণের সঠিক ঊর্ধ্বক্রম হলো \(\mathrm{R - Cl} < \mathrm{R - Br} < \mathrm{R - I}\)।</p>]]></text>
-  </generalfeedback>
+  <name><text>CHEMISTRY_HYDROCARBONS_MCQ_Q03 - Reduction of alkyl halides with zinc and HCl</text></name>
+  <questiontext format="html"><text><![CDATA[<p>The increasing order of reduction of alkyl halides with zinc and dilute \(\mathrm{HCl}\) is</p><hr/><p>জিঙ্ক ও লঘু \(\mathrm{HCl}\) দ্বারা অ্যালকিল হ্যালাইডের বিজারণের বর্ধিত ক্রম হলো</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>Alkyl halides undergo reduction with zinc and dilute \(\mathrm{HCl}\) to give alkanes by cleavage of the carbon–halogen (\(\mathrm{C-X}\)) bond. The ease of reduction increases as the \(\mathrm{C-X}\) bond dissociation enthalpy decreases.</p><p><strong>Step 2: Evaluation</strong><br/>As the atomic size of the halogen increases down Group 17 (\(\mathrm{Cl} < \mathrm{Br} < \mathrm{I}\)), the \(\mathrm{C-X}\) bond length increases and the bond strength decreases.</p><p><strong>Step 3: Application</strong><br/>Since the \(\mathrm{C-I}\) bond is the weakest, \(\mathrm{R-I}\) is reduced most readily, followed by \(\mathrm{R-Br}\), while \(\mathrm{R-Cl}\) has the strongest \(\mathrm{C-X}\) bond among the three and is reduced most slowly.</p><p><strong>Step 4: Final Conclusion</strong><br/>The increasing order of reduction of alkyl halides with zinc and dilute \(\mathrm{HCl}\) is \(\mathrm{R-Cl} < \mathrm{R-Br} < \mathrm{R-I}\).</p><hr/><p><strong>ধাপ ১: মৌলিক নীতি</strong><br/>জিঙ্ক ও লঘু \(\mathrm{HCl}\)-এর সাথে বিক্রিয়ায় অ্যালকিল হ্যালাইডের কার্বন–হ্যালোজেন (\(\mathrm{C-X}\)) বন্ধন বিচ্ছিন্ন হয়ে অ্যালকেন উৎপন্ন হয়। \(\mathrm{C-X}\) বন্ধন-বিয়োজন এনথ্যালপি কমলে বিজারণের প্রবণতা বৃদ্ধি পায়।</p><p><strong>ধাপ ২: মূল্যায়ন</strong><br/>শ্রেণি ১৭ বরাবর হ্যালোজেনের পারমাণবিক আকার বৃদ্ধি পেলে (\(\mathrm{Cl} < \mathrm{Br} < \mathrm{I}\)) \(\mathrm{C-X}\) বন্ধনের দৈর্ঘ্য বাড়ে এবং বন্ধন-শক্তি হ্রাস পায়।</p><p><strong>ধাপ ৩: প্রয়োগ</strong><br/>যেহেতু \(\mathrm{C-I}\) বন্ধন সবচেয়ে দুর্বল, তাই \(\mathrm{R-I}\) সবচেয়ে সহজে বিজারিত হয়, এরপর \(\mathrm{R-Br}\), এবং এই তিনটির মধ্যে \(\mathrm{R-Cl}\)-এর বন্ধন সবচেয়ে শক্তিশালী হওয়ায় এটি সবচেয়ে ধীরে বিজারিত হয়।</p><p><strong>ধাপ ৪: চূড়ান্ত সিদ্ধান্ত</strong><br/>জিঙ্ক ও লঘু \(\mathrm{HCl}\) দ্বারা অ্যালকিল হ্যালাইডের বিজারণের বর্ধিত ক্রম হলো \(\mathrm{R-Cl} < \mathrm{R-Br} < \mathrm{R-I}\)।</p>]]></text></generalfeedback>
   <defaultgrade>4.0000000</defaultgrade>
   <penalty>0.2500000</penalty>
   <hidden>0</hidden>
   <single>true</single>
   <shuffleanswers>true</shuffleanswers>
   <answernumbering>iii</answernumbering>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>\(\mathrm{R - Cl} < \mathrm{R - I} < \mathrm{R - Br}\)</p>]]></text>
-  </answer>
-  <answer fraction="100" format="html">
-    <text><![CDATA[<p>\(\mathrm{R - Cl} < \mathrm{R - Br} < \mathrm{R - I}\)</p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>\(\mathrm{R - I} < \mathrm{R - Br} < \mathrm{R - Cl}\)</p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>\(\mathrm{R - Br} < \mathrm{R - I} < \mathrm{R - Cl}\)</p>]]></text>
-  </answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>\(\mathrm{R - Cl} < \mathrm{R - I} < \mathrm{R - Br}\)</p>]]></text></answer>
+  <answer fraction="100" format="html"><text><![CDATA[<p>\(\mathrm{R - Cl} < \mathrm{R - Br} < \mathrm{R - I}\)</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>\(\mathrm{R - I} < \mathrm{R - Br} < \mathrm{R - Cl}\)</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>\(\mathrm{R - Br} < \mathrm{R - I} < \mathrm{R - Cl}\)</p>]]></text></answer>
   <tags>
     <tag><text>standard:neet_ug</text></tag>
     <tag><text>lang:en</text></tag>
     <tag><text>lang:bn</text></tag>
     <tag><text>subject:chemistry</text></tag>
+    <tag><text>class:11</text></tag>
     <tag><text>chapter:hydrocarbons</text></tag>
     <tag><text>typology:mcq</text></tag>
     <tag><text>difficulty:easy</text></tag>
-    <tag><text>blooms:remember</text></tag>
-    <tag><text>calculation:light</text></tag>
+    <tag><text>blooms:understand</text></tag>
     <tag><text>media:text</text></tag>
     <tag><text>multiconcept:false</text></tag>
   </tags>
 </question>
 <question type="multichoice">
-  <name><text>NEET_UG_CHEMISTRY_HYDROCARBONS_MCQ_Q04 - Correct IUPAC name of branched alkane</text></name>
-  <questiontext format="html">
-    <text><![CDATA[<p>The correct IUPAC name of the following alkane is</p>
-<p><img src="@@PLUGINFILE@@/img-0.jpeg" alt="Alkane structure" /></p>
-<hr/>
-<p>নিচের অ্যালকেনটির সঠিক IUPAC নামটি হলো</p>
-<p><img src="@@PLUGINFILE@@/img-0.jpeg" alt="Alkane structure" /></p>]]></text>
-  </questiontext>
-  <generalfeedback format="html">
-    <text><![CDATA[<p><strong>Step 1: Identifying the Longest Continuous Carbon Chain</strong><br/>The longest continuous carbon chain in the structure contains 8 carbon atoms (octane parent). Tracing the chain from the left side through the branch gives two possible 8-carbon paths: one straight through having 2 substituents (isopropyl and ethyl), and another beginning from the methyl branch of the isopropyl group giving 3 substituents (methyl and two ethyl groups).</p>
-<p><strong>Step 2: Applying the Maximum Substituents Rule</strong><br/>According to IUPAC nomenclature, when two chains of equal length compete for selection as the parent chain, choose the chain with the greater number of substituents. The selected 8-carbon chain has three substituents: a methyl group and two ethyl groups.</p>
-<p><strong>Step 3: Numbering the Chain and Alphabetical Order</strong><br/>Numbering from the end that gives lower locants: starting from the methyl group of the isopropyl fragment gives locants 2 for methyl, 3 for ethyl, and 6 for ethyl (locant set: 2, 3, 6). Numbering from the opposite end would give locants 3, 6, 7, which is higher. Ordering substituents alphabetically ('ethyl' before 'methyl'), the name is 3,6-diethyl-2-methyloctane.</p>
-<hr/>
-<p><strong>ধাপ ১: দীর্ঘতম কার্বন শৃঙ্খল নির্ধারণ</strong><br/>গঠনটিতে দীর্ঘতম অবিচ্ছিন্ন কার্বন শৃঙ্খলে ৮টি কার্বন পরমাণু রয়েছে (মূল শৃঙ্খল অকটেন)। শাখা বরাবর গণনা করলে ৮টি কার্বনের দুটি সম্ভাব্য শৃঙ্খল পাওয়া যায়: একটিতে ২টি প্রতিস্থাপক (আইসোপ্রোপাইল ও ইথাইল) থাকে এবং অন্যটিতে ৩টি প্রতিস্থাপক (মিথাইল ও দুটি ইথাইল) থাকে।</p>
-<p><strong>ধাপ ২: সর্বাধিক প্রতিস্থাপকের নিয়ম প্রয়োগ</strong><br/>IUPAC নিয়ম অনুসারে, সমান দৈর্ঘ্যের দুটি শৃঙ্খল থাকলে যেটিতে বেশি সংখ্যক পার্শ্ব-শৃঙ্খল বা প্রতিস্থাপক উপস্থিত থাকে, সেটিকে প্রধান শৃঙ্খল হিসেবে নির্বাচন করতে হয়। সুতরাং ৩টি প্রতিস্থাপকযুক্ত শৃঙ্খলটি নির্বাচিত হবে।</p>
-<p><strong>ধাপ ৩: সংখ্যায়ন এবং বর্ণানুক্রমিক নামকরণ</strong><br/>যেদিক থেকে সংখ্যায়ন করলে প্রতিস্থাপকগুলি ক্ষুদ্রতম অবস্থান পায়: আইসোপ্রোপাইলের প্রান্তীয় মিথাইল থেকে শুরু করলে অবস্থানগুলি হয় 2 (মিথাইল), 3 (ইথাইল) এবং 6 (ইথাইল) — অর্থাৎ (2, 3, 6)। বর্ণানুক্রম অনুযায়ী 'ethyl' আগে এবং 'methyl' পরে আসে। অতএব, যৌগটির সঠিক IUPAC নাম হলো 3,6-ডাইইথাইল-2-মিথাইলঅকটেন (3,6-Diethyl-2-methyloctane)।</p>]]></text>
-  </generalfeedback>
+  <name><text>CHEMISTRY_HYDROCARBONS_MCQ_Q04 - Correct IUPAC name of the given alkane</text></name>
+  <questiontext format="html"><text><![CDATA[<p>The correct IUPAC name of the following alkane is</p><p><img src="@@PLUGINFILE@@/img-0.jpeg" alt="Alkane structure" /></p><hr/><p>প্রদত্ত অ্যালকেনটির সঠিক IUPAC নাম হলো</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>According to IUPAC nomenclature rules, when two or more carbon chains of equal maximum length are present, the chain with the greater number of substituents (side chains) is selected as the parent chain, and numbering is done to give the lowest set of locants.</p><p><strong>Step 2: Evaluation</strong><br/>In the given structure, the longest continuous carbon chain has 8 carbon atoms (octane). Choosing the chain that includes the methyl-bearing carbon of the isopropyl branch gives three substituents (one methyl and two ethyl groups), whereas the straight horizontal chain gives only two substituents (one ethyl and one isopropyl group). Hence, the 8-carbon chain with three substituents is chosen as the parent chain.</p><p><strong>Step 3: Application</strong><br/>Numbering from the end closer to the methyl substituent assigns locant 2 to the methyl group and locants 3 and 6 to the two ethyl groups (locant set 2, 3, 6, which is lower than 3, 6, 7). Arranging substituents alphabetically places "ethyl" (with prefix "di-" ignored in alphabetization) before "methyl".</p><p><strong>Step 4: Final Conclusion</strong><br/>The correct IUPAC name of the alkane is 3,6-Diethyl-2-methyloctane.</p><hr/><p><strong>ধাপ ১: মৌলিক নীতি</strong><br/>IUPAC নামকরণের নিয়ম অনুযায়ী, সমান সর্বোচ্চ দৈর্ঘ্যের একাধিক কার্বন শৃঙ্খল থাকলে যে শৃঙ্খলে প্রতিস্থাপকের (পার্শ্ব শৃঙ্খলের) সংখ্যা বেশি, সেটিকেই প্রধান শৃঙ্খল হিসেবে নির্বাচন করা হয় এবং ক্ষুদ্রতম অবস্থান-সংখ্যা (lowest locant) পাওয়ার জন্য সংখ্যায়ন করা হয়।</p><p><strong>ধাপ ২: মূল্যায়ন</strong><br/>প্রদত্ত গঠনে দীর্ঘতম অবিচ্ছিন্ন কার্বন শৃঙ্খলে ৮টি কার্বন পরমাণু রয়েছে (অক্টেন)। আইসোপ্রোপাইল শাখার মিথাইল-যুক্ত কার্বনটিকে অন্তর্ভুক্ত করে শৃঙ্খলটি নিলে ৩টি প্রতিস্থাপক (একটি মিথাইল ও দুটি ইথাইল মূলক) পাওয়া যায়, যেখানে অনুভূমিক সোজা শৃঙ্খলে মাত্র ২টি প্রতিস্থাপক থাকে। তাই ৩টি প্রতিস্থাপকযুক্ত ৮-কার্বন শৃঙ্খলটি প্রধান শৃঙ্খল হিসেবে নির্বাচিত হয়।</p><p><strong>ধাপ ৩: প্রয়োগ</strong><br/>মিথাইল প্রতিস্থাপকের নিকটবর্তী প্রান্ত থেকে সংখ্যায়ন করলে মিথাইল মূলকটি ২ নম্বর অবস্থানে এবং দুটি ইথাইল মূলক ৩ ও ৬ নম্বর অবস্থানে থাকে (অবস্থান সেট ২, ৩, ৬, যা ৩, ৬, ৭ অপেক্ষা ক্ষুদ্রতর)। বর্ণানুক্রমিকভাবে সাজালে ("di-" উপসর্গ বাদ দিয়ে) "ethyl" আগে এবং "methyl" পরে বসে।</p><p><strong>ধাপ ৪: চূড়ান্ত সিদ্ধান্ত</strong><br/>অ্যালকেনটির সঠিক IUPAC নাম হলো 3,6-Diethyl-2-methyloctane।</p>]]></text></generalfeedback>
   <defaultgrade>4.0000000</defaultgrade>
   <penalty>0.2500000</penalty>
   <hidden>0</hidden>
   <single>true</single>
   <shuffleanswers>true</shuffleanswers>
   <answernumbering>iii</answernumbering>
-  <answer fraction="100" format="html">
-    <text><![CDATA[<p>3,6-Diethyl-2-methyloctane</p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>5-Isopropyl-3-ethyloctane</p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>3-Ethyl-5-isopropyloctane</p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>3-Isopropyl-6-ethyloctane</p>]]></text>
-  </answer>
+  <answer fraction="100" format="html"><text><![CDATA[<p>3,6-Diethyl-2-methyloctane</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>5-Isopropyl-3-ethyloctane</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>3-Ethyl-5-isopropyloctane</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>3-Isopropyl-6-ethyloctane</p>]]></text></answer>
   <tags>
     <tag><text>standard:neet_ug</text></tag>
     <tag><text>lang:en</text></tag>
     <tag><text>lang:bn</text></tag>
     <tag><text>subject:chemistry</text></tag>
+    <tag><text>class:11</text></tag>
     <tag><text>chapter:hydrocarbons</text></tag>
     <tag><text>typology:mcq</text></tag>
     <tag><text>difficulty:medium</text></tag>
     <tag><text>blooms:apply</text></tag>
-    <tag><text>calculation:light</text></tag>
     <tag><text>media:diagram</text></tag>
     <tag><text>multiconcept:false</text></tag>
   </tags>
 </question>
 <question type="multichoice">
-  <name><text>NEET_UG_CHEMISTRY_HYDROCARBONS_MCQ_Q05 - Addition of HBr to 1-butene products</text></name>
-  <questiontext format="html">
-    <text><![CDATA[<p>The addition of HBr to 1-butene gives a mixture of products A, B and C</p>
-<p><img src="@@PLUGINFILE@@/img-1.jpeg" alt="Product A" /></p>
-<p>(A)</p>
-<p><img src="@@PLUGINFILE@@/img-2.jpeg" alt="Product B" /></p>
-<p>(B)</p>
-<p><img src="@@PLUGINFILE@@/img-3.jpeg" alt="Product C" /></p>
-<p>(C)</p>
-<p>The mixture consists of</p>
-<hr/>
-<p>1-বিউটিনে HBr যোগ করার ফলে A, B এবং C এর একটি বিক্রিয়াজাত মিশ্রণ পাওয়া যায়</p>
-<p><img src="@@PLUGINFILE@@/img-1.jpeg" alt="Product A" /></p>
-<p>(A)</p>
-<p><img src="@@PLUGINFILE@@/img-2.jpeg" alt="Product B" /></p>
-<p>(B)</p>
-<p><img src="@@PLUGINFILE@@/img-3.jpeg" alt="Product C" /></p>
-<p>(C)</p>
-<p>মিশ্রণটিতে উপস্থিত থাকে</p>]]></text>
-  </questiontext>
-  <generalfeedback format="html">
-    <text><![CDATA[<p><strong>Step 1: Markovnikov Addition Mechanism</strong><br/>Electrophilic addition of \(\mathrm{HBr}\) to unsymmetrical alkene 1-butene (\(\mathrm{CH}_3-\mathrm{CH}_2-\mathrm{CH}=\mathrm{CH}_2\)) proceeds via protonation to form carbocations. Protonation at the terminal carbon yields the more stable secondary carbocation (\(\mathrm{CH}_3-\mathrm{CH}_2-\overset{+}{\mathrm{C}}\mathrm{H}-\mathrm{CH}_3\)), while protonation at C-2 yields the less stable primary carbocation (\(\mathrm{CH}_3-\mathrm{CH}_2-\mathrm{CH}_2-\overset{+}{\mathrm{C}}\mathrm{H}_2\)).</p>
-<p><strong>Step 2: Major vs. Minor Products and Stereochemistry</strong><br/>According to Markovnikov's rule, the secondary carbocation leads to the major product, 2-bromobutane. Because the carbocation is planar (\(sp^2\)-hybridized), the bromide ion (\(\mathrm{Br}^-\)) attacks equally from both the top and bottom faces, yielding equal amounts of the two enantiomers (A) and (B) of 2-bromobutane as a racemic mixture. Attack on the minor primary carbocation yields 1-bromobutane (C) as the minor product.</p>
-<p><strong>Step 3: Conclusion</strong><br/>Thus, the product mixture contains A and B as major products and C as the minor product.</p>
-<hr/>
-<p><strong>ধাপ ১: মারকনিকভের নিয়ম ও কার্বোক্যাটায়ন গঠন</strong><br/>1-বিউটিনে (\(\mathrm{CH}_3-\mathrm{CH}_2-\mathrm{CH}=\mathrm{CH}_2\)) \(\mathrm{HBr}\)-এর ইলেকট্রোফিলিক সংযোজন কার্বোক্যাটায়ন গঠনের মাধ্যমে ঘটে। প্রান্তীয় কার্বনে প্রোটন যুক্ত হলে অধিক সুস্থিত ২° কার্বোক্যাটায়ন (\(\mathrm{CH}_3-\mathrm{CH}_2-\overset{+}{\mathrm{C}}\mathrm{H}-\mathrm{CH}_3\)) তৈরি হয়, পক্ষান্তরে ২নং কার্বনে যুক্ত হলে কম সুস্থিত ১° কার্বোক্যাটায়ন তৈরি হয়।</p>
-<p><strong>ধাপ ২: প্রধান বনাম অপ্রধান উৎপাদ ও স্টেরিওরসায়ন</strong><br/>মারকনিকভের নিয়ম অনুযায়ী, ২° কার্বোক্যাটায়ন থেকে প্রধান উৎপাদ হিসেবে 2-ব্রোমোবিউটেন উৎপন্ন হয়। ২° কার্বোক্যাটায়নটি সমতলীয় হওয়ায় ব্রোমাইড আয়ন (\(\mathrm{Br}^-\)) উভয় দিক থেকেই সমসম্ভাবনায় আক্রমণ করতে পারে, যার ফলে 2-ব্রোমোবিউটেনের দুটি এন্যানশিওমার (A) ও (B) সমপরিমাণে তৈরি হয়ে রেসিমিক মিশ্রণ (প্রধান উৎপাদ) গঠন করে। ১° কার্বোক্যাটায়ন থেকে অপ্রধান উৎপাদ হিসেবে 1-ব্রোমোবিউটেন (C) গঠিত হয়।</p>
-<p><strong>ধাপ ৩: সিদ্ধান্ত</strong><br/>অতএব, মিশ্রণটিতে A এবং B প্রধান উৎপাদ হিসেবে এবং C অপ্রধান উৎপাদ হিসেবে বিদ্যমান থাকে।</p>]]></text>
-  </generalfeedback>
+  <name><text>CHEMISTRY_HYDROCARBONS_MCQ_Q05 - Addition of HBr to 1-butene products</text></name>
+  <questiontext format="html"><text><![CDATA[<p>The addition of \(\mathrm{HBr}\) to 1-butene gives a mixture of products A, B and C</p><p><img src="@@PLUGINFILE@@/img-1.jpeg" alt="Product A" /><br/>(A)</p><p><img src="@@PLUGINFILE@@/img-2.jpeg" alt="Product B" /><br/>(B)</p><p><img src="@@PLUGINFILE@@/img-3.jpeg" alt="Product C" /><br/>(C)</p><p>The mixture consists of</p><hr/><p>1-বিউটিনের সাথে \(\mathrm{HBr}\)-এর সংযোজন বিক্রিয়ায় A, B এবং C উৎপাদগুলির মিশ্রণ পাওয়া যায়। মিশ্রণটিতে থাকে</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>Electrophilic addition of \(\mathrm{HBr}\) to an unsymmetrical alkene like 1-butene (\(\mathrm{CH}_3\mathrm{CH}_2\mathrm{CH}=\mathrm{CH}_2\)) proceeds predominantly via the more stable carbocation intermediate in accordance with Markovnikov's rule.</p><p><strong>Step 2: Evaluation</strong><br/>Protonation of 1-butene at C-1 yields the more stable secondary carbocation (\(\mathrm{CH}_3\mathrm{CH}_2\overset{+}{\mathrm{C}}\mathrm{H}\mathrm{CH}_3\)), whereas protonation at C-2 yields the less stable primary carbocation (\(\mathrm{CH}_3\mathrm{CH}_2\mathrm{CH}_2\overset{+}{\mathrm{C}}\mathrm{H}_2\)).</p><p><strong>Step 3: Application</strong><br/>Because the secondary carbocation is planar, the bromide ion (\(\mathrm{Br}^-\)) attacks equally from both faces to form 2-bromobutane as a racemic mixture of two enantiomers, represented by the two chiral 3D structures (A) and (B), as the major products. Attack on the less stable primary carbocation gives 1-bromobutane, represented by the straight-chain structure (C), as the minor product.</p><p><strong>Step 4: Final Conclusion</strong><br/>The mixture consists of A and B as major and C as minor products.</p><hr/><p><strong>ধাপ ১: মৌলিক নীতি</strong><br/>1-বিউটিনের (\(\mathrm{CH}_3\mathrm{CH}_2\mathrm{CH}=\mathrm{CH}_2\)) মতো অপ্রতিসম অ্যালকিনে \(\mathrm{HBr}\)-এর ইলেকট্রোফিলিক সংযোজন মার্কভনিকভের নিয়ম অনুসারে অধিকতর স্থায়ী কার্বোক্যাটায়ন মধ্যবর্তী অবস্থার মাধ্যমে ঘটে।</p><p><strong>ধাপ ২: মূল্যায়ন</strong><br/>1-বিউটিনের C-1 অবস্থানে প্রোটোনেশনের ফলে অধিক স্থায়ী সেকেন্ডারি কার্বোক্যাটায়ন (\(\mathrm{CH}_3\mathrm{CH}_2\overset{+}{\mathrm{C}}\mathrm{H}\mathrm{CH}_3\)) উৎপন্ন হয়, যেখানে C-2 অবস্থানে প্রোটোনেশনের ফলে কম স্থায়ী প্রাইমারি কার্বোক্যাটায়ন (\(\mathrm{CH}_3\mathrm{CH}_2\mathrm{CH}_2\overset{+}{\mathrm{C}}\mathrm{H}_2\)) গঠিত হয়।</p><p><strong>ধাপ ৩: প্রয়োগ</strong><br/>সেকেন্ডারি কার্বোক্যাটায়নটি সমতলীয় হওয়ায় ব্রোমাইড আয়ন (\(\mathrm{Br}^-\)) উভয় দিক থেকে সমানভাবে আক্রমণ করে এবং দুটি এনানশিওমার (A এবং B)-এর রেসিমিক মিশ্রণ রূপে 2-ব্রোমোবিউটেন প্রধান উৎপাদ হিসেবে গঠিত হয়। কম স্থায়ী প্রাইমারি কার্বোক্যাটায়ন থেকে 1-ব্রোমোবিউটেন (C) গৌণ উৎপাদ হিসেবে পাওয়া যায়।</p><p><strong>ধাপ ৪: চূড়ান্ত সিদ্ধান্ত</strong><br/>মিশ্রণটিতে A এবং B প্রধান উৎপাদ হিসেবে এবং C গৌণ উৎপাদ হিসেবে থাকে।</p>]]></text></generalfeedback>
   <defaultgrade>4.0000000</defaultgrade>
   <penalty>0.2500000</penalty>
   <hidden>0</hidden>
   <single>true</single>
   <shuffleanswers>true</shuffleanswers>
   <answernumbering>iii</answernumbering>
-  <answer fraction="100" format="html">
-    <text><![CDATA[<p>A and B as major and C as minor products</p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>B as major, A and C as minor products</p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>B as minor, A and C as major products</p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>A and B as minor and C as major products</p>]]></text>
-  </answer>
+  <answer fraction="100" format="html"><text><![CDATA[<p>A and B as major and C as minor products</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>B as major, A and C as minor products</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>B as minor, A and C as major products</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>A and B as minor and C as major products</p>]]></text></answer>
   <tags>
     <tag><text>standard:neet_ug</text></tag>
     <tag><text>lang:en</text></tag>
     <tag><text>lang:bn</text></tag>
     <tag><text>subject:chemistry</text></tag>
+    <tag><text>class:11</text></tag>
     <tag><text>chapter:hydrocarbons</text></tag>
     <tag><text>typology:mcq</text></tag>
     <tag><text>difficulty:medium</text></tag>
-    <tag><text>blooms:analyze</text></tag>
-    <tag><text>calculation:light</text></tag>
+    <tag><text>blooms:apply</text></tag>
     <tag><text>media:diagram</text></tag>
     <tag><text>multiconcept:true</text></tag>
   </tags>
 </question>
 <question type="multichoice">
-  <name><text>NEET_UG_CHEMISTRY_HYDROCARBONS_MCQ_Q06 - Identification of alkene not showing geometrical isomerism</text></name>
-  <questiontext format="html">
-    <text><![CDATA[<p>Which of the following will not show geometrical isomerism?</p>
-<hr/>
-<p>নিচের কোনটি জ্যামিতিক সমাবয়বতা (geometrical isomerism) প্রদর্শন করবে না?</p>]]></text>
-  </questiontext>
-  <generalfeedback format="html">
-    <text><![CDATA[<p><strong>Step 1: Necessary Condition for Geometrical Isomerism in Alkenes</strong><br/>An alkene exhibits geometrical isomerism if and only if each of the doubly-bonded carbon atoms is attached to two different atoms or groups (i.e., of the form \(\mathrm{abC=Ccd}\) or \(\mathrm{abC=Cab}\), where \(\mathrm{a} \neq \mathrm{b}\) and \(\mathrm{c} \neq \mathrm{d}\)). If either doubly-bonded carbon holds two identical atoms or groups, rotation about the double bond (even conceptually) produces superimposable structures, and geometrical isomerism is impossible.</p>
-<p><strong>Step 2: Analysis of the Given Structures</strong><br/>- In \(\mathrm{FC(Cl)=C(H)D}\), one carbon has \(\mathrm{-F}\) and \(\mathrm{-Cl}\) (\(\mathrm{F} \neq \mathrm{Cl}\)) and the other has \(\mathrm{-H}\) and \(\mathrm{-D}\) (\(\mathrm{H} \neq \mathrm{D}\)), so it shows geometrical isomerism.<br/>- In \(\mathrm{FC(Cl)=C(F)Cl}\), both carbons possess \(\mathrm{-F}\) and \(\mathrm{-Cl}\) (\(\mathrm{F} \neq \mathrm{Cl}\)), so it shows geometrical isomerism.<br/>- In \((\mathrm{CH}_3)(\mathrm{C}_2\mathrm{H}_5)\mathrm{C=C}(\mathrm{C}_2\mathrm{H}_5)(\mathrm{CH}_3)\), each double-bonded carbon carries a methyl and an ethyl group (\(\mathrm{CH}_3 \neq \mathrm{C}_2\mathrm{H}_5\)), so it shows geometrical isomerism.<br/>- In \((\mathrm{CH}_3)_2\mathrm{C=C}(\mathrm{CH}_3)(\mathrm{C}_2\mathrm{H}_5)\), the left-hand carbon atom has two identical methyl groups (\(-\mathrm{CH}_3\)) attached to it.</p>
-<p><strong>Step 3: Final Conclusion</strong><br/>Due to the presence of two identical methyl groups on the same doubly-bonded carbon atom, the structure \((\mathrm{CH}_3)_2\mathrm{C=C}(\mathrm{CH}_3)(\mathrm{C}_2\mathrm{H}_5)\) cannot exhibit geometrical isomerism.</p>
-<hr/>
-<p><strong>ধাপ ১: অ্যালকেনে জ্যামিতিক সমাবয়বতার অপরিহার্য শর্ত</strong><br/>দ্বিবন্ধনযুক্ত প্রতিটি কার্বন পরমাণুর সাথে দুটি ভিন্ন পরমাণু বা মূলক যুক্ত থাকলেই কেবল একটি অ্যালকেন জ্যামিতিক সমাবয়বতা প্রদর্শন করতে পারে (অর্থাৎ \(\mathrm{abC=Ccd}\) রূপ, যেখানে \(\mathrm{a} \neq \mathrm{b}\) এবং \(\mathrm{c} \neq \mathrm{d}\))। যদি দ্বিবন্ধনের যেকোনো একটি কার্বনে দুটি একই মূলক বা পরমাণু যুক্ত থাকে, তবে তা জ্যামিতিক সমাবয়বতা দেখাতে পারে না।</p>
-<p><strong>ধাপ ২: প্রদত্ত গঠনসমূহের বিশ্লেষণ</strong><br/>- \(\mathrm{FC(Cl)=C(H)D}\)-তে প্রতিটি কার্বনে দুটি ভিন্ন মূলক যুক্ত থাকায় এটি জ্যামিতিক সমাবয়বতা প্রদর্শন করে।<br/>- \(\mathrm{FC(Cl)=C(F)Cl}\)-তে প্রতিটি কার্বনে \(\mathrm{-F}\) ও \(\mathrm{-Cl}\) থাকায় এটি জ্যামিতিক সমাবয়বতা প্রদর্শন করে।<br/>- \((\mathrm{CH}_3)(\mathrm{C}_2\mathrm{H}_5)\mathrm{C=C}(\mathrm{C}_2\mathrm{H}_5)(\mathrm{CH}_3)\)-তে প্রতিটি কার্বনে মিথাইল ও ইথাইল যুক্ত থাকায় এটিও জ্যামিতিক সমাবয়বতা প্রদর্শন করে।<br/>- \((\mathrm{CH}_3)_2\mathrm{C=C}(\mathrm{CH}_3)(\mathrm{C}_2\mathrm{H}_5)\)-তে বামদিকের দ্বিবন্ধনযুক্ত কার্বনে দুটি একই মিথাইল মূলক (\(-\mathrm{CH}_3\)) যুক্ত রয়েছে।</p>
-<p><strong>ধাপ ৩: চূড়ান্ত সিদ্ধান্ত</strong><br/>একই কার্বনে দুটি অভিন্ন মিথাইল মূলক থাকার কারণে \((\mathrm{CH}_3)_2\mathrm{C=C}(\mathrm{CH}_3)(\mathrm{C}_2\mathrm{H}_5)\) গঠনটি জ্যামিতিক সমাবয়বতা প্রদর্শন করবে না।</p>]]></text>
-  </generalfeedback>
+  <name><text>CHEMISTRY_HYDROCARBONS_MCQ_Q06 - Alkene not showing geometrical isomerism</text></name>
+  <questiontext format="html"><text><![CDATA[<p>Which of the following will not show geometrical isomerism?</p><hr/><p>নিচের কোনটি জ্যামিতিক সমাবয়বতা প্রদর্শন করবে না?</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>For an alkene \(\mathrm{abC}=\mathrm{Ccd}\) to exhibit geometrical (cis-trans or E-Z) isomerism, each doubly bonded carbon atom must be attached to two different atoms or groups (i.e., \(a \neq b\) and \(c \neq d\)).</p><p><strong>Step 2: Evaluation</strong><br/>In \(\mathrm{F}(\mathrm{Cl})\mathrm{C}=\mathrm{C}(\mathrm{H})\mathrm{D}\), \(\mathrm{F}(\mathrm{Cl})\mathrm{C}=\mathrm{C}(\mathrm{F})\mathrm{Cl}\), and \(\mathrm{H}_3\mathrm{C}(\mathrm{C}_2\mathrm{H}_5)\mathrm{C}=\mathrm{C}(\mathrm{C}_2\mathrm{H}_5)\mathrm{CH}_3\), both carbons of the double bond carry two different substituents, so all three show geometrical isomerism.</p><p><strong>Step 3: Application</strong><br/>In \((\mathrm{CH}_3)_2\mathrm{C}=\mathrm{C}(\mathrm{CH}_3)(\mathrm{C}_2\mathrm{H}_5)\), one of the doubly bonded carbon atoms is attached to two identical methyl (\(-\mathrm{CH}_3\)) groups. Interchanging these identical groups does not produce a new spatial arrangement.</p><p><strong>Step 4: Final Conclusion</strong><br/>Therefore, \((\mathrm{CH}_3)_2\mathrm{C}=\mathrm{C}(\mathrm{CH}_3)(\mathrm{C}_2\mathrm{H}_5)\) will not show geometrical isomerism.</p><hr/><p><strong>ধাপ ১: মৌলিক নীতি</strong><br/>কোনো অ্যালকিন \(\mathrm{abC}=\mathrm{Ccd}\) জ্যামিতিক সমাবয়বতা প্রদর্শন করতে হলে দ্বিবন্ধনযুক্ত প্রতিটি কার্বন পরমাণুর সাথে দুটি ভিন্ন পরমাণু বা মূলক যুক্ত থাকতে হবে (অর্থাৎ, \(a \neq b\) এবং \(c \neq d\))।</p><p><strong>ধাপ ২: মূল্যায়ন</strong><br/>\(\mathrm{F}(\mathrm{Cl})\mathrm{C}=\mathrm{C}(\mathrm{H})\mathrm{D}\), \(\mathrm{F}(\mathrm{Cl})\mathrm{C}=\mathrm{C}(\mathrm{F})\mathrm{Cl}\) এবং \(\mathrm{H}_3\mathrm{C}(\mathrm{C}_2\mathrm{H}_5)\mathrm{C}=\mathrm{C}(\mathrm{C}_2\mathrm{H}_5)\mathrm{CH}_3\) যৌগগুলিতে দ্বিবন্ধনযুক্ত উভয় কার্বন পরমাণুই দুটি ভিন্ন প্রতিস্থাপক বহন করে, তাই এগুলি জ্যামিতিক সমাবয়বতা দেখায়।</p><p><strong>ধাপ ৩: প্রয়োগ</strong><br/>\((\mathrm{CH}_3)_2\mathrm{C}=\mathrm{C}(\mathrm{CH}_3)(\mathrm{C}_2\mathrm{H}_5)\) যৌগটিতে দ্বিবন্ধনযুক্ত একটি কার্বন পরমাণুর সাথে দুটি অভিন্ন মিথাইল (\(-\mathrm{CH}_3\)) মূলক যুক্ত আছে। ফলে এই মূলকগুলির স্থান বিনিময়ে কোনো নতুন ত্রিমাত্রিক বিন্যাস তৈরি হয় না।</p><p><strong>ধাপ ৪: চূড়ান্ত সিদ্ধান্ত</strong><br/>সুতরাং, \((\mathrm{CH}_3)_2\mathrm{C}=\mathrm{C}(\mathrm{CH}_3)(\mathrm{C}_2\mathrm{H}_5)\) জ্যামিতিক সমাবয়বতা প্রদর্শন করবে না।</p>]]></text></generalfeedback>
   <defaultgrade>4.0000000</defaultgrade>
   <penalty>0.2500000</penalty>
   <hidden>0</hidden>
   <single>true</single>
   <shuffleanswers>true</shuffleanswers>
   <answernumbering>iii</answernumbering>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p><img src="@@PLUGINFILE@@/img-4.jpeg" alt="Alkene structure (i)" /></p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p><img src="@@PLUGINFILE@@/img-5.jpeg" alt="Alkene structure (ii)" /></p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p><img src="@@PLUGINFILE@@/img-6.jpeg" alt="Alkene structure (iii)" /></p>]]></text>
-  </answer>
-  <answer fraction="100" format="html">
-    <text><![CDATA[<p><img src="@@PLUGINFILE@@/img-7.jpeg" alt="Alkene structure (iv)" /></p>]]></text>
-  </answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p><img src="@@PLUGINFILE@@/img-4.jpeg" alt="Alkene structure i" /></p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p><img src="@@PLUGINFILE@@/img-5.jpeg" alt="Alkene structure ii" /></p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p><img src="@@PLUGINFILE@@/img-6.jpeg" alt="Alkene structure iii" /></p>]]></text></answer>
+  <answer fraction="100" format="html"><text><![CDATA[<p><img src="@@PLUGINFILE@@/img-7.jpeg" alt="Alkene structure iv" /></p>]]></text></answer>
   <tags>
     <tag><text>standard:neet_ug</text></tag>
     <tag><text>lang:en</text></tag>
     <tag><text>lang:bn</text></tag>
     <tag><text>subject:chemistry</text></tag>
+    <tag><text>class:11</text></tag>
     <tag><text>chapter:hydrocarbons</text></tag>
     <tag><text>typology:mcq</text></tag>
     <tag><text>difficulty:easy</text></tag>
-    <tag><text>blooms:analyze</text></tag>
-    <tag><text>calculation:light</text></tag>
+    <tag><text>blooms:understand</text></tag>
     <tag><text>media:diagram</text></tag>
     <tag><text>multiconcept:false</text></tag>
   </tags>
 </question>
 <question type="multichoice">
-  <name><text>NEET_UG_CHEMISTRY_HYDROCARBONS_MCQ_Q07 - Decreasing reactivity of hydrogen halides with propene</text></name>
-  <questiontext format="html">
-    <text><![CDATA[<p>Arrange the following hydrogen halides in order of their decreasing reactivity with propene.</p>
-<hr/>
-<p>প্রোপিনের সাথে বিক্রিয়াশীলতার অধঃক্রম অনুসারে নিচের হাইড্রোজেন হ্যালাইডগুলিকে সাজাও।</p>]]></text>
-  </questiontext>
-  <generalfeedback format="html">
-    <text><![CDATA[<p><strong>Step 1: Mechanism of Electrophilic Addition to Alkenes</strong><br/>The addition of hydrogen halides (\(\mathrm{HX}\)) to propene is an electrophilic addition reaction. The rate-determining step is the electrophilic attack of a proton (\(\mathrm{H}^+\)) from the hydrogen halide onto the alkene double bond to generate a carbocation intermediate.</p>
-<p><strong>Step 2: Role of Bond Dissociation Enthalpy and Acidity</strong><br/>The ease of proton donation depends on the strength of the hydrogen–halogen (\(\mathrm{H-X}\)) bond. As the size of halogen increases from \(\mathrm{Cl}\) to \(\mathrm{I}\), the bond length increases and the bond dissociation energy decreases in the order: \[\mathrm{H-Cl} > \mathrm{H-Br} > \mathrm{H-I}\] Therefore, \(\mathrm{HI}\) releases \(\mathrm{H}^+\) most readily and is the most reactive, while \(\mathrm{HCl}\) is the least reactive.</p>
-<p><strong>Step 3: Final Conceptual Order</strong><br/>The decreasing order of reactivity of hydrogen halides with propene is \(\mathrm{HI} > \mathrm{HBr} > \mathrm{HCl}\).</p>
-<hr/>
-<p><strong>ধাপ ১: অ্যালকিনে ইলেকট্রোফিলিক সংযোজনের কৌশল</strong><br/>প্রোপিনের সাথে হাইড্রোজেন হ্যালাইডের (\(\mathrm{HX}\)) সংযোজন একটি ইলেকট্রোফিলিক সংযোজন বিক্রিয়া। এই বিক্রিয়ার গতি-নির্ধারক ধাপ হলো হাইড্রোজেন হ্যালাইড থেকে প্রোটনের (\(\mathrm{H}^+\)) আক্রমণ এবং মধ্যবর্তী কার্বোক্যাটায়ন গঠন।</p>
-<p><strong>ধাপ ২: বন্ধন বিয়োজন শক্তি ও অম্লত্বের ভূমিকা</strong><br/>প্রোটন ত্যাগের সহজলভ্যতা \(\mathrm{H-X}\) বন্ধনের শক্তির ওপর নির্ভর করে। ক্লোরিন থেকে আয়োডিন পর্যন্ত হ্যালোজেনের আকার বৃদ্ধির সাথে সাথে বন্ধন দৈর্ঘ্য বাড়ে এবং বন্ধন বিয়োজন শক্তি কমে যায়: \[\mathrm{H-Cl} > \mathrm{H-Br} > \mathrm{H-I}\] ফলে \(\mathrm{HI}\) সবচেয়ে সহজে \(\mathrm{H}^+\) প্রদান করে এবং সর্বাধিক সক্রিয় হয়, অন্যদিকে \(\mathrm{HCl}\) সবচেয়ে কম সক্রিয়।</p>
-<p><strong>ধাপ ৩: চূড়ান্ত ক্রম</strong><br/>প্রোপিনের সাথে হাইড্রোজেন হ্যালাইডসমূহের সক্রিয়তার অধঃক্রম হলো \(\mathrm{HI} > \mathrm{HBr} > \mathrm{HCl}\)।</p>]]></text>
-  </generalfeedback>
+  <name><text>CHEMISTRY_HYDROCARBONS_MCQ_Q07 - Decreasing reactivity of hydrogen halides with propene</text></name>
+  <questiontext format="html"><text><![CDATA[<p>Arrange the following hydrogen halides in order of their decreasing reactivity with propene.</p><hr/><p>প্রোপিনের সাথে নিচের হাইড্রোজেন হ্যালাইডগুলির বিক্রিয়াশীলতার অধঃক্রমে সাজাও।</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>Addition of hydrogen halides (\(\mathrm{HX}\)) to propene is an electrophilic addition reaction in which the rate-determining step is protonation of the alkene to form a carbocation intermediate. The ease of proton donation depends inversely on the \(\mathrm{H-X}\) bond dissociation enthalpy.</p><p><strong>Step 2: Evaluation</strong><br/>Down Group 17, the halogen atom becomes larger, increasing the \(\mathrm{H-X}\) bond length and decreasing the bond dissociation enthalpy: \(\mathrm{HCl}\) (\(430.5\ \mathrm{kJ\ mol^{-1}}\)) &gt; \(\mathrm{HBr}\) (\(363.7\ \mathrm{kJ\ mol^{-1}}\)) &gt; \(\mathrm{HI}\) (\(296.8\ \mathrm{kJ\ mol^{-1}}\)).</p><p><strong>Step 3: Application</strong><br/>Since \(\mathrm{HI}\) has the lowest bond dissociation energy, it donates a proton most readily to propene, whereas \(\mathrm{HCl}\) has the highest bond dissociation energy and reacts slowest.</p><p><strong>Step 4: Final Conclusion</strong><br/>The decreasing order of reactivity with propene is \(\mathrm{HI} > \mathrm{HBr} > \mathrm{HCl}\).</p><hr/><p><strong>ধাপ ১: মৌলিক নীতি</strong><br/>প্রোপিনে হাইড্রোজেন হ্যালাইডের (\(\mathrm{HX}\)) সংযোজন একটি ইলেকট্রোফিলিক সংযোজন বিক্রিয়া, যেখানে অ্যালকিনের প্রোটোনেশন হয়ে কার্বোক্যাটায়ন গঠনই হলো হার-নির্ধারক ধাপ। প্রোটন দানের সহজতা \(\mathrm{H-X}\) বন্ধন-বিয়োজন এনথ্যালপির সাথে ব্যস্তানুপাতিক।</p><p><strong>ধাপ ২: মূল্যায়ন</strong><br/>শ্রেণি ১৭ বরাবর নিচে নামলে হ্যালোজেন পরমাণুর আকার বৃদ্ধি পায়, ফলে \(\mathrm{H-X}\) বন্ধন-দৈর্ঘ্য বাড়ে এবং বন্ধন-বিয়োজন এনথ্যালপি কমে: \(\mathrm{HCl}\) (\(430.5\ \mathrm{kJ\ mol^{-1}}\)) &gt; \(\mathrm{HBr}\) (\(363.7\ \mathrm{kJ\ mol^{-1}}\)) &gt; \(\mathrm{HI}\) (\(296.8\ \mathrm{kJ\ mol^{-1}}\))।</p><p><strong>ধাপ ৩: প্রয়োগ</strong><br/>যেহেতু \(\mathrm{HI}\)-এর বন্ধন-বিয়োজন শক্তি সর্বনিম্ন, তাই এটি প্রোপিনকে সবচেয়ে সহজে প্রোটন দান করে এবং \(\mathrm{HCl}\) সবচেয়ে ধীরে বিক্রিয়া করে।</p><p><strong>ধাপ ৪: চূড়ান্ত সিদ্ধান্ত</strong><br/>প্রোপিনের সাথে বিক্রিয়াশীলতার অধঃক্রম হলো \(\mathrm{HI} > \mathrm{HBr} > \mathrm{HCl}\)।</p>]]></text></generalfeedback>
   <defaultgrade>4.0000000</defaultgrade>
   <penalty>0.2500000</penalty>
   <hidden>0</hidden>
   <single>true</single>
   <shuffleanswers>true</shuffleanswers>
   <answernumbering>iii</answernumbering>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>\(\mathrm{HCl} > \mathrm{HBr} > \mathrm{HI}\)</p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>\(\mathrm{HBr} > \mathrm{HI} > \mathrm{HCl}\)</p>]]></text>
-  </answer>
-  <answer fraction="100" format="html">
-    <text><![CDATA[<p>\(\mathrm{HI} > \mathrm{HBr} > \mathrm{HCl}\)</p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>\(\mathrm{HCl} > \mathrm{HI} > \mathrm{HBr}\)</p>]]></text>
-  </answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>\(\mathrm{HCl} > \mathrm{HBr} > \mathrm{HI}\)</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>\(\mathrm{HBr} > \mathrm{HI} > \mathrm{HCl}\)</p>]]></text></answer>
+  <answer fraction="100" format="html"><text><![CDATA[<p>\(\mathrm{HI} > \mathrm{HBr} > \mathrm{HCl}\)</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>\(\mathrm{HCl} > \mathrm{HI} > \mathrm{HBr}\)</p>]]></text></answer>
   <tags>
     <tag><text>standard:neet_ug</text></tag>
     <tag><text>lang:en</text></tag>
     <tag><text>lang:bn</text></tag>
     <tag><text>subject:chemistry</text></tag>
+    <tag><text>class:11</text></tag>
     <tag><text>chapter:hydrocarbons</text></tag>
     <tag><text>typology:mcq</text></tag>
     <tag><text>difficulty:easy</text></tag>
     <tag><text>blooms:understand</text></tag>
-    <tag><text>calculation:light</text></tag>
     <tag><text>media:text</text></tag>
     <tag><text>multiconcept:false</text></tag>
   </tags>
 </question>
 <question type="multichoice">
-  <name><text>NEET_UG_CHEMISTRY_HYDROCARBONS_MCQ_Q08 - Decreasing stability order of carbanions</text></name>
-  <questiontext format="html">
-    <text><![CDATA[<p>Arrange the following carbanions in order of their decreasing stability.</p>
-<p>(A) \(\mathrm{H}_3\mathrm{C} - \mathrm{C} \equiv \mathrm{C}^-\)<br/>(B) \(\mathrm{H} - \mathrm{C} \equiv \mathrm{C}^-\)<br/>(C) \(\mathrm{H}_3\mathrm{C}-\mathrm{CH}_2^-\)</p>
-<hr/>
-<p>নিচের কার্বঅ্যানায়নগুলিকে তাদের স্থায়িত্বের অধঃক্রম অনুসারে সাজাও।</p>
-<p>(A) \(\mathrm{H}_3\mathrm{C} - \mathrm{C} \equiv \mathrm{C}^-\)<br/>(B) \(\mathrm{H} - \mathrm{C} \equiv \mathrm{C}^-\)<br/>(C) \(\mathrm{H}_3\mathrm{C}-\mathrm{CH}_2^-\)</p>]]></text>
-  </questiontext>
-  <generalfeedback format="html">
-    <text><![CDATA[<p><strong>Step 1: Effect of Hybridization on Carbanion Stability</strong><br/>The stability of a carbanion is directly proportional to the electronegativity of the carbon bearing the negative charge, which increases with the percentage of \(s\)-character. An \(sp\)-hybridized carbon has 50% \(s\)-character, whereas an \(sp^3\)-hybridized carbon has only 25% \(s\)-character. Consequently, negative charge is held much more tightly and stably on an \(sp\)-hybridized acetylenic carbon than on an \(sp^3\)-hybridized alkyl carbon. Therefore, carbanions A and B are significantly more stable than C.</p>
-<p><strong>Step 2: Inductive Effect Comparison Between A and B</strong><br/>Both A and B possess an \(sp\)-hybridized anionic carbon. However, in carbanion A, an electron-donating methyl group (\(-\mathrm{CH}_3\)) exerts a \(+I\) inductive effect, which increases the electron density on the already negatively charged carbon and destabilizes it. In carbanion B, only a hydrogen atom is attached, so no such destabilizing \(+I\) effect operates.</p>
-<p><strong>Step 3: Final Conceptual Stability Order</strong><br/>Comparing all three carbanions, the stability decreases in the order: \(\mathrm{H} - \mathrm{C} \equiv \mathrm{C}^- > \mathrm{H}_3\mathrm{C} - \mathrm{C} \equiv \mathrm{C}^- > \mathrm{H}_3\mathrm{C}-\mathrm{CH}_2^-\), which is \(\mathrm{B} > \mathrm{A} > \mathrm{C}\).</p>
-<hr/>
-<p><strong>ধাপ ১: সংকরায়নের প্রভাব</strong><br/>কার্বঅ্যানায়নের স্থায়িত্ব ঋণাত্মক আধানযুক্ত কার্বনের তড়িৎ-ঋণাত্মকতার ওপর সরাসরি নির্ভর করে, যা \(s\)-চরিত্রের শতকরা পরিমাণের সাথে বৃদ্ধি পায়। \(sp\)-সংকরায়িত কার্বনে 50% \(s\)-চরিত্র থাকে, যেখানে \(sp^3\)-সংকরায়িত কার্বনে মাত্র 25% থাকে। ফলে \(sp\)-সংকরায়িত কার্বনে ঋণাত্মক আধান অনেক বেশি সুস্থিত হয়। এজন্য A এবং B কার্বঅ্যানায়ন দুটি C-এর তুলনায় অনেক বেশি সুস্থিত।</p>
-<p><strong>ধাপ ২: আবেশীয় প্রভাবের (Inductive effect) তুলনা</strong><br/>A এবং B উভয় কার্বঅ্যানায়নেই অ্যানায়নিক কার্বনটি \(sp\)-সংকরায়িত। কিন্তু A-তে যুক্ত মিথাইল মূলকটি (\(-\mathrm{CH}_3\)) ইলেকট্রন প্রদানকারী \(+I\) প্রভাবের মাধ্যমে ঋণাত্মক আধানের ঘনত্ব বৃদ্ধি করে এটিকে কিছুটা অস্থিতিশীল করে তোলে। B-তে কোনো অ্যালকিল মূলক না থাকায় এমন কোনো অস্থিতিশীল প্রভাব নেই।</p>
-<p><strong>ধাপ ৩: চূড়ান্ত স্থায়িত্বের ক্রম</strong><br/>কার্বঅ্যানায়নগুলির স্থায়িত্বের সঠিক অধঃক্রম হলো: \(\mathrm{H} - \mathrm{C} \equiv \mathrm{C}^- > \mathrm{H}_3\mathrm{C} - \mathrm{C} \equiv \mathrm{C}^- > \mathrm{H}_3\mathrm{C}-\mathrm{CH}_2^-\), অর্থাৎ \(\mathrm{B} > \mathrm{A} > \mathrm{C}\)।</p>]]></text>
-  </generalfeedback>
+  <name><text>CHEMISTRY_HYDROCARBONS_MCQ_Q08 - Decreasing stability of carbanions</text></name>
+  <questiontext format="html"><text><![CDATA[<p>Arrange the following carbanions in order of their decreasing stability.<br/>(A) \(\mathrm{H}_3\mathrm{C} - \mathrm{C}\equiv \mathrm{C}^{-}\)<br/>(B) \(\mathrm{H} - \mathrm{C}\equiv \mathrm{C}^{-}\)<br/>(C) \(\mathrm{H}_3\mathrm{C}-\mathrm{CH}_2^{-}\)</p><hr/><p>নিচের কার্বানায়নগুলিকে তাদের স্থায়িত্বের অধঃক্রমে সাজাও।<br/>(A) \(\mathrm{H}_3\mathrm{C} - \mathrm{C}\equiv \mathrm{C}^{-}\)<br/>(B) \(\mathrm{H} - \mathrm{C}\equiv \mathrm{C}^{-}\)<br/>(C) \(\mathrm{H}_3\mathrm{C}-\mathrm{CH}_2^{-}\)</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>Carbanion stability increases with the \(s\)-character (and hence electronegativity) of the negatively charged carbon atom, and decreases when electron-donating (\(+I\)) groups intensify the negative charge.</p><p><strong>Step 2: Evaluation</strong><br/>In \(\mathrm{H}-\mathrm{C}\equiv\mathrm{C}^{-}\) and \(\mathrm{H}_3\mathrm{C}-\mathrm{C}\equiv\mathrm{C}^{-}\), the negatively charged carbon is \(sp\)-hybridized (\(50\%\) \(s\)-character, high electronegativity), whereas in \(\mathrm{H}_3\mathrm{C}-\mathrm{CH}_2^{-}\), the negatively charged carbon is \(sp^3\)-hybridized (\(25\%\) \(s\)-character, lower electronegativity). Thus, both acetylide ions are much more stable than the ethyl carbanion.</p><p><strong>Step 3: Application</strong><br/>Comparing the two \(sp\)-hybridized carbanions, the electron-donating methyl group (\(+I\) effect) in \(\mathrm{H}_3\mathrm{C}-\mathrm{C}\equiv\mathrm{C}^{-}\) increases the electron density on the anionic carbon and destabilizes it relative to \(\mathrm{H}-\mathrm{C}\equiv\mathrm{C}^{-}\).</p><p><strong>Step 4: Final Conclusion</strong><br/>The decreasing order of carbanion stability is \(\mathrm{H}-\mathrm{C}\equiv\mathrm{C}^{-} > \mathrm{H}_3\mathrm{C}-\mathrm{C}\equiv\mathrm{C}^{-} > \mathrm{H}_3\mathrm{C}-\mathrm{CH}_2^{-}\), which corresponds to \(\mathrm{B} > \mathrm{A} > \mathrm{C}\).</p><hr/><p><strong>ধাপ ১: মৌলিক নীতি</strong><br/>ঋণাত্মক আধানযুক্ত কার্বন পরমাণুর \(s\)-চরিত্র (এবং তড়িৎঋণাত্মকতা) বৃদ্ধি পেলে কার্বানায়নের স্থায়িত্ব বাড়ে, আর ইলেকট্রন-দানকারী (\(+I\)) মূলক ঋণাত্মক আধানের ঘনত্ব বাড়িয়ে স্থায়িত্ব কমায়।</p><p><strong>ধাপ ২: মূল্যায়ন</strong><br/>\(\mathrm{H}-\mathrm{C}\equiv\mathrm{C}^{-}\) এবং \(\mathrm{H}_3\mathrm{C}-\mathrm{C}\equiv\mathrm{C}^{-}\) আয়নে ঋণাত্মক কার্বনটি \(sp\)-সংকরায়িত (\(50\%\) \(s\)-চরিত্র, উচ্চ তড়িৎঋণাত্মকতা), যেখানে \(\mathrm{H}_3\mathrm{C}-\mathrm{CH}_2^{-}\) আয়নে কার্বনটি \(sp^3\)-সংকরায়িত (\(25\%\) \(s\)-চরিত্র, কম তড়িৎঋণাত্মকতা)। তাই অ্যাসিটাইলাইড আয়ন দুটি ইথাইল কার্বানায়ন অপেক্ষা অনেক বেশি স্থায়ী।</p><p><strong>ধাপ ৩: প্রয়োগ</strong><br/>\(sp\)-সংকরায়িত কার্বানায়ন দুটির মধ্যে \(\mathrm{H}_3\mathrm{C}-\mathrm{C}\equiv\mathrm{C}^{-}\)-এ উপস্থিত মিথাইল মূলকের \(+I\) প্রভাব অ্যানায়নিক কার্বনে ইলেকট্রন ঘনত্ব বাড়িয়ে \(\mathrm{H}-\mathrm{C}\equiv\mathrm{C}^{-}\)-এর তুলনায় একে কম স্থায়ী করে।</p><p><strong>ধাপ ৪: চূড়ান্ত সিদ্ধান্ত</strong><br/>কার্বানায়নগুলির স্থায়িত্বের অধঃক্রম হলো \(\mathrm{H}-\mathrm{C}\equiv\mathrm{C}^{-} > \mathrm{H}_3\mathrm{C}-\mathrm{C}\equiv\mathrm{C}^{-} > \mathrm{H}_3\mathrm{C}-\mathrm{CH}_2^{-}\), অর্থাৎ \(\mathrm{B} > \mathrm{A} > \mathrm{C}\)।</p>]]></text></generalfeedback>
   <defaultgrade>4.0000000</defaultgrade>
   <penalty>0.2500000</penalty>
   <hidden>0</hidden>
   <single>true</single>
   <shuffleanswers>true</shuffleanswers>
   <answernumbering>iii</answernumbering>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>\(\mathrm{A} > \mathrm{B} > \mathrm{C}\)</p>]]></text>
-  </answer>
-  <answer fraction="100" format="html">
-    <text><![CDATA[<p>\(\mathrm{B} > \mathrm{A} > \mathrm{C}\)</p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>\(\mathrm{C} > \mathrm{B} > \mathrm{A}\)</p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>\(\mathrm{C} > \mathrm{A} > \mathrm{B}\)</p>]]></text>
-  </answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>\(\mathrm{A} > \mathrm{B} > \mathrm{C}\)</p>]]></text></answer>
+  <answer fraction="100" format="html"><text><![CDATA[<p>\(\mathrm{B} > \mathrm{A} > \mathrm{C}\)</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>\(\mathrm{C} > \mathrm{B} > \mathrm{A}\)</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>\(\mathrm{C} > \mathrm{A} > \mathrm{B}\)</p>]]></text></answer>
   <tags>
     <tag><text>standard:neet_ug</text></tag>
     <tag><text>lang:en</text></tag>
     <tag><text>lang:bn</text></tag>
     <tag><text>subject:chemistry</text></tag>
+    <tag><text>class:11</text></tag>
     <tag><text>chapter:hydrocarbons</text></tag>
     <tag><text>typology:mcq</text></tag>
     <tag><text>difficulty:medium</text></tag>
-    <tag><text>blooms:analyze</text></tag>
-    <tag><text>calculation:light</text></tag>
+    <tag><text>blooms:understand</text></tag>
     <tag><text>media:text</text></tag>
-    <tag><text>multiconcept:true</text></tag>
+    <tag><text>multiconcept:false</text></tag>
   </tags>
 </question>
 <question type="multichoice">
-  <name><text>NEET_UG_CHEMISTRY_HYDROCARBONS_MCQ_Q09 - Rate of beta-elimination reaction with alcoholic KOH</text></name>
-  <questiontext format="html">
-    <text><![CDATA[<p>Arrange the following alkyl halides in decreasing order of the rate of \(\beta\)-elimination reaction with alcoholic KOH.</p>
-<p>(A) \(\mathrm{CH}_3-\underset{\mathrm{CH}_3}{\overset{\mathrm{H}}{\mathrm{C}}}-\mathrm{CH}_2\mathrm{Br}\)<br/>(B) \(\mathrm{CH}_3-\mathrm{CH}_2-\mathrm{Br}\)<br/>(C) \(\mathrm{CH}_3-\mathrm{CH}_2-\mathrm{CH}_2-\mathrm{Br}\)</p>
-<hr/>
-<p>অ্যালকোহলীয় KOH-এর সাথে \(\beta\)-অপনয়ন (elimination) বিক্রিয়ার হারের অধঃক্রম অনুসারে নিচের অ্যালকিল হ্যালাইডগুলিকে সাজাও।</p>
-<p>(A) \(\mathrm{CH}_3-\underset{\mathrm{CH}_3}{\overset{\mathrm{H}}{\mathrm{C}}}-\mathrm{CH}_2\mathrm{Br}\)<br/>(B) \(\mathrm{CH}_3-\mathrm{CH}_2-\mathrm{Br}\)<br/>(C) \(\mathrm{CH}_3-\mathrm{CH}_2-\mathrm{CH}_2-\mathrm{Br}\)</p>]]></text>
-  </questiontext>
-  <generalfeedback format="html">
-    <text><![CDATA[<p><strong>Step 1: Governing Principle of \(\beta\)-Elimination</strong><br/>In an E2 elimination reaction with alcoholic \(\mathrm{KOH}\), the transition state possesses substantial double-bond character. Therefore, the rate of dehydrobromination is directly related to the thermodynamic stability of the alkene formed in accordance with Saytzeff's rule. Alkenes with more alkyl substituents and more \(\alpha\)-hydrogen atoms are stabilized by hyperconjugation and form faster.</p>
-<p><strong>Step 2: Products and Alkene Stabilities</strong><br/>- Elimination from (A) \(\mathrm{(CH_3)_2CH-CH_2Br}\) yields 2-methylpropene, \(\mathrm{(CH_3)_2C=CH_2}\), which has 6 \(\alpha\)-hydrogens.<br/>- Elimination from (C) \(\mathrm{CH_3CH_2CH_2Br}\) yields propene, \(\mathrm{CH_3-CH=CH_2}\), which has 3 \(\alpha\)-hydrogens.<br/>- Elimination from (B) \(\mathrm{CH_3CH_2Br}\) yields ethene, \(\mathrm{CH_2=CH_2}\), which has 0 \(\alpha\)-hydrogens.</p>
-<p><strong>Step 3: Final Conceptual Order</strong><br/>The stability of the resulting alkenes decreases as 2-methylpropene > propene > ethene. Consequently, the rate of \(\beta\)-elimination follows the decreasing order: \(\mathrm{A} > \mathrm{C} > \mathrm{B}\).</p>
-<hr/>
-<p><strong>ধাপ ১: \(\beta\)-অপনয়ন বিক্রিয়ার মূল নীতি</strong><br/>অ্যালকোহলীয় \(\mathrm{KOH}\) সহযোগে E2 অপনয়ন বিক্রিয়ায় অবস্থান্তর দশায় দ্বিবন্ধন চরিত্র বিকশিত হয়। ফলে সাইজেফ নিয়ম অনুযায়ী উৎপন্ন অ্যালকিনের স্থায়িত্ব যত বেশি হয়, বিক্রিয়ার হারও তত বাড়ে। অধিক প্রতিস্থাপিত অ্যালকিন হাইপারকনজুগেশনের মাধ্যমে সুস্থিত হয় এবং দ্রুত উৎপন্ন হয়।</p>
-<p><strong>ধাপ ২: উৎপন্ন অ্যালকিনসমূহের স্থায়িত্বের তুলনা</strong><br/>- (A) \(\mathrm{(CH_3)_2CH-CH_2Br}\) থেকে অপনয়নের ফলে 2-মিথাইলপ্রোপিন \(\mathrm{(CH_3)_2C=CH_2}\) গঠিত হয়, যাতে ৬টি \(\alpha\)-হাইড্রোজেন রয়েছে।<br/>- (C) \(\mathrm{CH_3CH_2CH_2Br}\) থেকে অপনয়নে প্রোপিন \(\mathrm{CH_3-CH=CH_2}\) গঠিত হয়, যাতে ৩টি \(\alpha\)-হাইড্রোজেন রয়েছে।<br/>- (B) \(\mathrm{CH_3CH_2Br}\) থেকে অপনয়নে ইথিন \(\mathrm{CH_2=CH_2}\) গঠিত হয়, যাতে কোনো \(\alpha\)-হাইড্রোজেন নেই।</p>
-<p><strong>ধাপ ৩: চূড়ান্ত সিদ্ধান্ত</strong><br/>উৎপন্ন অ্যালকিনগুলির স্থায়িত্বের ক্রম: 2-মিথাইলপ্রোপিন > প্রোপিন > ইথিন। অতএব, \(\beta\)-অপনয়ন বিক্রিয়ার হারের সঠিক অধঃক্রম হলো \(\mathrm{A} > \mathrm{C} > \mathrm{B}\)।</p>]]></text>
-  </generalfeedback>
+  <name><text>CHEMISTRY_HYDROCARBONS_MCQ_Q09 - Rate of beta elimination of alkyl halides</text></name>
+  <questiontext format="html"><text><![CDATA[<p>Arrange the following alkyl halides in decreasing order of the rate of \(\beta\)-elimination reaction with alcoholic \(\mathrm{KOH}\).<br/>(A) \(\mathrm{CH}_3-\underset{\mathrm{CH}_3}{\overset{\mathrm{H}}{\mathrm{C}}}-\mathrm{CH}_2\mathrm{Br}\)<br/>(B) \(\mathrm{CH}_3-\mathrm{CH}_2-\mathrm{Br}\)<br/>(C) \(\mathrm{CH}_3-\mathrm{CH}_2-\mathrm{CH}_2-\mathrm{Br}\)</p><hr/><p>অ্যালকোহলীয় \(\mathrm{KOH}\)-এর সাথে \(\beta\)-অপনয়ন বিক্রিয়ার হারের অধঃক্রমে নিচের অ্যালকিল হ্যালাইডগুলিকে সাজাও।<br/>(A) \(\mathrm{CH}_3-\underset{\mathrm{CH}_3}{\overset{\mathrm{H}}{\mathrm{C}}}-\mathrm{CH}_2\mathrm{Br}\)<br/>(B) \(\mathrm{CH}_3-\mathrm{CH}_2-\mathrm{Br}\)<br/>(C) \(\mathrm{CH}_3-\mathrm{CH}_2-\mathrm{CH}_2-\mathrm{Br}\)</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>In \(\beta\)-elimination (dehydrohalogenation) of alkyl halides with alcoholic \(\mathrm{KOH}\), a hydrogen atom from the \(\beta\)-carbon and the halide from the \(\alpha\)-carbon are eliminated to form an alkene. The rate of elimination increases with the stability of the alkene formed in the transition state (Saytzeff's rule / hyperconjugation).</p><p><strong>Step 2: Evaluation</strong><br/>1-Bromo-2-methylpropane, \(\mathrm{CH}_3-\mathrm{CH}(\mathrm{CH}_3)-\mathrm{CH}_2\mathrm{Br}\), yields 2-methylpropene (\((\mathrm{CH}_3)_2\mathrm{C}=\mathrm{CH}_2\)), which has \(6\ \alpha\)-hydrogens. 1-Bromopropane, \(\mathrm{CH}_3-\mathrm{CH}_2-\mathrm{CH}_2\mathrm{Br}\), yields propene (\(\mathrm{CH}_3-\mathrm{CH}=\mathrm{CH}_2\)), which has \(3\ \alpha\)-hydrogens. Bromoethane, \(\mathrm{CH}_3-\mathrm{CH}_2\mathrm{Br}\), yields ethene (\(\mathrm{CH}_2=\mathrm{CH}_2\)), which has \(0\ \alpha\)-hydrogens.</p><p><strong>Step 3: Application</strong><br/>Because alkene stability increases with the number of \(\alpha\)-hydrogens (hyperconjugation), the transition state leading to 2-methylpropene is the most stable, followed by propene, and then ethene.</p><p><strong>Step 4: Final Conclusion</strong><br/>The decreasing order of the rate of \(\beta\)-elimination is \(\mathrm{CH}_3-\mathrm{CH}(\mathrm{CH}_3)-\mathrm{CH}_2\mathrm{Br} > \mathrm{CH}_3-\mathrm{CH}_2-\mathrm{CH}_2\mathrm{Br} > \mathrm{CH}_3-\mathrm{CH}_2\mathrm{Br}\), which corresponds to \(\mathrm{A} > \mathrm{C} > \mathrm{B}\).</p><hr/><p><strong>ধাপ ১: মৌলিক নীতি</strong><br/>অ্যালকোহলীয় \(\mathrm{KOH}\)-এর সাথে অ্যালকিল হ্যালাইডের \(\beta\)-অপনয়ন (ডিহাইড্রোহ্যালোজেনেশন) বিক্রিয়ায় \(\beta\)-কার্বন থেকে একটি হাইড্রোজেন এবং \(\alpha\)-কার্বন থেকে হ্যালাইড অপসারিত হয়ে অ্যালকিন উৎপন্ন হয়। উৎপন্ন অ্যালকিনের স্থায়িত্ব যত বেশি হয় (সেইটজেফ নিয়ম / হাইপারকনজুগেশন), বিক্রিয়ার হার তত বেশি হয়।</p><p><strong>ধাপ ২: মূল্যায়ন</strong><br/>1-ব্রোমো-2-মিথাইলপ্রোপেন (\(\mathrm{CH}_3-\mathrm{CH}(\mathrm{CH}_3)-\mathrm{CH}_2\mathrm{Br}\)) থেকে 2-মিথাইলপ্রোপিন (\((\mathrm{CH}_3)_2\mathrm{C}=\mathrm{CH}_2\)) উৎপন্ন হয় যাতে \(6\)টি \(\alpha\)-হাইড্রোজেন আছে। 1-ব্রোমোপ্রোপেন (\(\mathrm{CH}_3-\mathrm{CH}_2-\mathrm{CH}_2\mathrm{Br}\)) থেকে প্রোপিন (\(\mathrm{CH}_3-\mathrm{CH}=\mathrm{CH}_2\)) উৎপন্ন হয় যাতে \(3\)টি \(\alpha\)-হাইড্রোজেন আছে। ব্রোমোইথেন (\(\mathrm{CH}_3-\mathrm{CH}_2\mathrm{Br}\)) থেকে ইথিন (\(\mathrm{CH}_2=\mathrm{CH}_2\)) উৎপন্ন হয় যাতে \(0\)টি \(\alpha\)-হাইড্রোজেন আছে।</p><p><strong>ধাপ ৩: প্রয়োগ</strong><br/>\(\alpha\)-হাইড্রোজেনের সংখ্যা বৃদ্ধির সাথে অ্যালকিনের স্থায়িত্ব বৃদ্ধি পায় বলে 2-মিথাইলপ্রোপিন গঠনের অন্তর্বর্তী অবস্থা সবচেয়ে স্থায়ী, এরপর প্রোপিন এবং তারপর ইথিন।</p><p><strong>ধাপ ৪: চূড়ান্ত সিদ্ধান্ত</strong><br/>\(\beta\)-অপনয়ন বিক্রিয়ার হারের অধঃক্রম হলো \(\mathrm{CH}_3-\mathrm{CH}(\mathrm{CH}_3)-\mathrm{CH}_2\mathrm{Br} > \mathrm{CH}_3-\mathrm{CH}_2-\mathrm{CH}_2\mathrm{Br} > \mathrm{CH}_3-\mathrm{CH}_2\mathrm{Br}\), অর্থাৎ \(\mathrm{A} > \mathrm{C} > \mathrm{B}\)।</p>]]></text></generalfeedback>
   <defaultgrade>4.0000000</defaultgrade>
   <penalty>0.2500000</penalty>
   <hidden>0</hidden>
   <single>true</single>
   <shuffleanswers>true</shuffleanswers>
   <answernumbering>iii</answernumbering>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>\(\mathrm{A} > \mathrm{B} > \mathrm{C}\)</p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>\(\mathrm{C} > \mathrm{B} > \mathrm{A}\)</p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>\(\mathrm{B} > \mathrm{C} > \mathrm{A}\)</p>]]></text>
-  </answer>
-  <answer fraction="100" format="html">
-    <text><![CDATA[<p>\(\mathrm{A} > \mathrm{C} > \mathrm{B}\)</p>]]></text>
-  </answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>\(\mathrm{A} > \mathrm{B} > \mathrm{C}\)</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>\(\mathrm{C} > \mathrm{B} > \mathrm{A}\)</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>\(\mathrm{B} > \mathrm{C} > \mathrm{A}\)</p>]]></text></answer>
+  <answer fraction="100" format="html"><text><![CDATA[<p>\(\mathrm{A} > \mathrm{C} > \mathrm{B}\)</p>]]></text></answer>
   <tags>
     <tag><text>standard:neet_ug</text></tag>
     <tag><text>lang:en</text></tag>
     <tag><text>lang:bn</text></tag>
     <tag><text>subject:chemistry</text></tag>
+    <tag><text>class:11</text></tag>
     <tag><text>chapter:hydrocarbons</text></tag>
     <tag><text>typology:mcq</text></tag>
     <tag><text>difficulty:medium</text></tag>
     <tag><text>blooms:apply</text></tag>
-    <tag><text>calculation:light</text></tag>
     <tag><text>media:text</text></tag>
     <tag><text>multiconcept:false</text></tag>
   </tags>
 </question>
 <question type="multichoice">
-  <name><text>NEET_UG_CHEMISTRY_HYDROCARBONS_MCQ_Q10 - Identification of incomplete combustion of methane</text></name>
-  <questiontext format="html">
-    <text><![CDATA[<p>Which of the following reactions of methane is incomplete combustion:</p>
-<hr/>
-<p>মিথেনের নিচের কোন বিক্রিয়াটি অসম্পূর্ণ দহন নির্দেশ করে?</p>]]></text>
-  </questiontext>
-  <generalfeedback format="html">
-    <text><![CDATA[<p><strong>Step 1: Distinguishing Types of Hydrocarbon Oxidation</strong><br/>Hydrocarbons undergo different oxidation pathways depending on reaction conditions and oxygen supply:<br/>1. Complete combustion: In an excess of dioxygen, hydrocarbons burn with a non-luminous flame producing carbon dioxide (\(\mathrm{CO}_2\)) and water (\(\mathrm{H}_2\mathrm{O}\)).<br/>2. Incomplete combustion: When heated with an insufficient or limited supply of air/dioxygen, incomplete oxidation produces carbon black (soot) and water.<br/>3. Controlled/catalytic oxidation: Reaction of alkanes with oxygen under specific catalysts, temperatures, and pressures yields functional derivatives like alcohols or aldehydes.</p>
-<p><strong>Step 2: Evaluating the Given Reactions</strong><br/>- The reaction yielding methanol (\(2\mathrm{CH}_4 + \mathrm{O}_2 \xrightarrow{\mathrm{Cu}/523\mathrm{K}/100\mathrm{atm}} 2\mathrm{CH}_3\mathrm{OH}\)) and the reaction yielding formaldehyde (\(\mathrm{CH}_4 + \mathrm{O}_2 \xrightarrow{\mathrm{Mo}_2\mathrm{O}_3} \mathrm{HCHO} + \mathrm{H}_2\mathrm{O}\)) are controlled catalytic oxidations.<br/>- The reaction producing carbon dioxide (\(\mathrm{CH}_4 + 2\mathrm{O}_2 \longrightarrow \mathrm{CO}_2(\mathrm{g}) + 2\mathrm{H}_2\mathrm{O}(\mathrm{l})\)) represents complete combustion.<br/>- The reaction \(\mathrm{CH}_4 + \mathrm{O}_2 \longrightarrow \mathrm{C(s)} + 2\mathrm{H}_2\mathrm{O(l)}\) occurs in limited oxygen to yield solid elemental carbon (carbon black) and liquid water.</p>
-<p><strong>Step 3: Final Conclusion</strong><br/>The reaction representing incomplete combustion is \(\mathrm{CH}_4 + \mathrm{O}_2 \longrightarrow \mathrm{C(s)} + 2\mathrm{H}_2\mathrm{O(l)}\).</p>
-<hr/>
-<p><strong>ধাপ ১: হাইড্রোকার্বনের জারণ প্রক্রিয়ার প্রকারভেদ</strong><br/>অক্সিজেনের সরবরাহ ও বিক্রিয়ার শর্তের ওপর নির্ভর করে জারণ বিভিন্ন ধরনের হতে পারে:<br/>১. সম্পূর্ণ দহন: পর্যাপ্ত অক্সিজেনের উপস্থিতিতে মিথেন সম্পূর্ণ জারিত হয়ে কার্বন ডাইঅক্সাইড (\(\mathrm{CO}_2\)) ও জল (\(\mathrm{H}_2\mathrm{O}\)) উৎপন্ন করে।<br/>২. অসম্পূর্ণ দহন: অপর্যাপ্ত বা সীমিত পরিমাণ বায়ুর উপস্থিতিতে অ্যালকেনকে উত্তপ্ত করলে কার্বন ব্ল্যাক (কালি) ও জল উৎপন্ন হয়।<br/>৩. নিয়ন্ত্রিত জারণ: উপযুক্ত অনুঘটক ও নিয়ন্ত্রিত তাপমাত্রায় অ্যালকোহল বা অ্যালডিহাইড উৎপন্ন হয়।</p>
-<p><strong>ধাপ ২: প্রদত্ত বিক্রিয়াগুলির মূল্যায়ন</strong><br/>- কপার অনুঘটকের উপস্থিতিতে মিথানল প্রস্তুতি এবং মলিবডেনাম অক্সাইডের উপস্থিতিতে ফর্ম্যালডিহাইড প্রস্তুতি হলো নিয়ন্ত্রিত অনুঘটকীয় জারণ।<br/>- \(\mathrm{CO}_2\) ও জল উৎপন্নের বিক্রিয়াটি হলো সম্পূর্ণ দহন।<br/>- সীমিত অক্সিজেনে \(\mathrm{CH}_4 + \mathrm{O}_2 \longrightarrow \mathrm{C(s)} + 2\mathrm{H}_2\mathrm{O(l)}\) বিক্রিয়ায় কঠিন কার্বন (কার্বন ব্ল্যাক) ও জল উৎপন্ন হয়, যা অসম্পূর্ণ দহনকে নির্দেশ করে।</p>
-<p><strong>ধাপ ৩: চূড়ান্ত সিদ্ধান্ত</strong><br/>অসম্পূর্ণ দহনের সঠিক বিক্রিয়াটি হলো \(\mathrm{CH}_4 + \mathrm{O}_2 \longrightarrow \mathrm{C(s)} + 2\mathrm{H}_2\mathrm{O(l)}\)।</p>]]></text>
-  </generalfeedback>
+  <name><text>CHEMISTRY_HYDROCARBONS_MCQ_Q10 - Incomplete combustion reaction of methane</text></name>
+  <questiontext format="html"><text><![CDATA[<p>Which of the following reactions of methane is incomplete combustion:</p><hr/><p>মিথেনের নিচের কোন বিক্রিয়াটি অসম্পূর্ণ দহন:</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>Incomplete combustion of alkanes occurs when they are burned in an insufficient supply of air or dioxygen, producing carbon black (soot) and water instead of carbon dioxide.</p><p><strong>Step 2: Evaluation</strong><br/>The reactions forming \(\mathrm{CH}_3\mathrm{OH}\) (using \(\mathrm{Cu}\) catalyst at \(523\ \mathrm{K}\)) and \(\mathrm{HCHO}\) (using \(\mathrm{Mo}_2\mathrm{O}_3\) catalyst) are controlled catalytic oxidation reactions, while the reaction yielding \(\mathrm{CO}_2\) and \(\mathrm{H}_2\mathrm{O}\) is complete combustion.</p><p><strong>Step 3: Application</strong><br/>The reaction \(\mathrm{CH}_4 + \mathrm{O}_2 \longrightarrow \mathrm{C(s)} + 2\mathrm{H}_2\mathrm{O(l)}\) represents burning of methane in limited oxygen to form carbon black and water.</p><p><strong>Step 4: Final Conclusion</strong><br/>Therefore, \(\mathrm{CH}_4 + \mathrm{O}_2 \longrightarrow \mathrm{C(s)} + 2\mathrm{H}_2\mathrm{O(l)}\) is the incomplete combustion reaction of methane.</p><hr/><p><strong>ধাপ ১: মৌলিক নীতি</strong><br/>পর্যাপ্ত বায়ু বা অক্সিজেনের অভাবে অ্যালকেনের দহন ঘটলে কার্বন ডাইঅক্সাইডের পরিবর্তে কার্বন ব্ল্যাক (ভুসা কালি) ও জল উৎপন্ন হয়; একে অসম্পূর্ণ দহন বলে।</p><p><strong>ধাপ ২: মূল্যায়ন</strong><br/>\(\mathrm{Cu}\) অনুঘটকের উপস্থিতিতে \(523\ \mathrm{K}\) তাপমাত্রায় \(\mathrm{CH}_3\mathrm{OH}\) এবং \(\mathrm{Mo}_2\mathrm{O}_3\) অনুঘটকের উপস্থিতিতে \(\mathrm{HCHO}\) উৎপন্ন হওয়ার বিক্রিয়াগুলি হলো নিয়ন্ত্রিত জারণ বিক্রিয়া, আর \(\mathrm{CO}_2\) ও \(\mathrm{H}_2\mathrm{O}\) উৎপন্ন হওয়ার বিক্রিয়াটি হলো সম্পূর্ণ দহন।</p><p><strong>ধাপ ৩: প্রয়োগ</strong><br/>\(\mathrm{CH}_4 + \mathrm{O}_2 \longrightarrow \mathrm{C(s)} + 2\mathrm{H}_2\mathrm{O(l)}\) বিক্রিয়াটিতে সীমিত অক্সিজেনের উপস্থিতিতে মিথেন দহনের ফলে কার্বন ব্ল্যাক ও জল উৎপন্ন হয়।</p><p><strong>ধাপ ৪: চূড়ান্ত সিদ্ধান্ত</strong><br/>অতএব, \(\mathrm{CH}_4 + \mathrm{O}_2 \longrightarrow \mathrm{C(s)} + 2\mathrm{H}_2\mathrm{O(l)}\) হলো মিথেনের অসম্পূর্ণ দহন বিক্রিয়া।</p>]]></text></generalfeedback>
   <defaultgrade>4.0000000</defaultgrade>
   <penalty>0.2500000</penalty>
   <hidden>0</hidden>
   <single>true</single>
   <shuffleanswers>true</shuffleanswers>
   <answernumbering>iii</answernumbering>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>\(2\mathrm{CH}_4 + \mathrm{O}_2 \xrightarrow{\mathrm{Cu} / 523\mathrm{K} / 100\mathrm{atm}} 2\mathrm{CH}_3\mathrm{OH}\)</p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>\(\mathrm{CH}_4 + \mathrm{O}_2 \xrightarrow{\mathrm{Mo}_2\mathrm{O}_3} \mathrm{HCHO} + \mathrm{H}_2\mathrm{O}\)</p>]]></text>
-  </answer>
-  <answer fraction="100" format="html">
-    <text><![CDATA[<p>\(\mathrm{CH}_4 + \mathrm{O}_2 \longrightarrow \mathrm{C(s)} + 2\mathrm{H}_2\mathrm{O(l)}\)</p>]]></text>
-  </answer>
-  <answer fraction="0" format="html">
-    <text><![CDATA[<p>\(\mathrm{CH}_4 + 2\mathrm{O}_2 \longrightarrow \mathrm{CO}_2(\mathrm{g}) + 2\mathrm{H}_2\mathrm{O}(\mathrm{l})\)</p>]]></text>
-  </answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>\(2\mathrm{CH}_4 + \mathrm{O}_2\xrightarrow{\mathrm{Cu} / 523\mathrm{K} / 100\mathrm{atm}}2\mathrm{CH}_3\mathrm{OH}\)</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>\(\mathrm{CH}_4 + \mathrm{O}_2\xrightarrow{\mathrm{Mo}_2\mathrm{O}_3}\mathrm{HCHO} + \mathrm{H}_2\mathrm{O}\)</p>]]></text></answer>
+  <answer fraction="100" format="html"><text><![CDATA[<p>\(\mathrm{CH}_4 + \mathrm{O}_2\longrightarrow \mathrm{C(s)} + 2\mathrm{H}_2\mathrm{O(l)}\)</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>\(\mathrm{CH}_4 + 2\mathrm{O}_2\longrightarrow \mathrm{CO}_2(\mathrm{g}) + 2\mathrm{H}_2\mathrm{O}(\mathrm{l})\)</p>]]></text></answer>
   <tags>
     <tag><text>standard:neet_ug</text></tag>
     <tag><text>lang:en</text></tag>
     <tag><text>lang:bn</text></tag>
     <tag><text>subject:chemistry</text></tag>
+    <tag><text>class:11</text></tag>
     <tag><text>chapter:hydrocarbons</text></tag>
     <tag><text>typology:mcq</text></tag>
     <tag><text>difficulty:easy</text></tag>
     <tag><text>blooms:remember</text></tag>
-    <tag><text>calculation:light</text></tag>
-    <tag><text>media:equation</text></tag>
+    <tag><text>media:text</text></tag>
     <tag><text>multiconcept:false</text></tag>
   </tags>
 </question>
 <question type="multichoice">
-  <name><text>NEET_UG_CHEMISTRY_HYDROCARBONS_MCQ_Q11 - Controlled oxidation reactions of methane</text></name>
-  <questiontext format="html">
-    <text><![CDATA[<p>Some oxidation reactions of methane are given below. Which of them is/are controlled oxidation reactions?</p>
-<hr/>
-<p>নিচে মিথেনের কয়েকটি জারণ বিক্রিয়া দেওয়া হলো। এগুলির মধ্যে কোনটি/কোনগুলি নিয়ন্ত্রিত জারণ (controlled oxidation) বিক্রিয়া?</p>]]></text>
-  </questiontext>
-  <generalfeedback format="html">
-    <text><![CDATA[<p><strong>Step 1: Classification of Oxidation Reactions of Alkanes</strong><br/>Alkanes on heating with a regulated amount of dioxygen or air at high pressure and in the presence of suitable catalysts undergo controlled oxidation to yield various products such as alcohols, aldehydes, or carboxylic acids, rather than undergoing complete degradation to \(\mathrm{CO}_2\) and \(\mathrm{H}_2\mathrm{O}\).</p>
-<p><strong>Step 2: Analysis of the Given Reactions</strong><br/>- \(\mathrm{CH}_4(\mathrm{g}) + 2\mathrm{O}_2(\mathrm{g}) \longrightarrow \mathrm{CO}_2(\mathrm{g}) + 2\mathrm{H}_2\mathrm{O}(\mathrm{l})\) is complete combustion.<br/>- \(\mathrm{CH}_4(\mathrm{g}) + \mathrm{O}_2(\mathrm{g}) \longrightarrow \mathrm{C}(\mathrm{s}) + 2\mathrm{H}_2\mathrm{O}(\mathrm{l})\) is incomplete combustion in a limited supply of oxygen.<br/>- \(\mathrm{CH}_4(\mathrm{g}) + \mathrm{O}_2(\mathrm{g}) \xrightarrow{\mathrm{Mo}_2\mathrm{O}_3} \mathrm{HCHO} + \mathrm{H}_2\mathrm{O}\) uses molybdenum oxide to partially oxidize methane to formaldehyde under controlled catalytic conditions.<br/>- \(2\mathrm{CH}_4(\mathrm{g}) + \mathrm{O}_2(\mathrm{g}) \xrightarrow{\mathrm{Cu}/523\mathrm{K}/100\ \mathrm{atm}} 2\mathrm{CH}_3\mathrm{OH}\) uses a copper tube at \(523\ \mathrm{K}\) and \(100\ \mathrm{atm}\) to selectively oxidize methane to methanol.</p>
-<p><strong>Step 3: Conclusion</strong><br/>Both the reaction giving formaldehyde with molybdenum oxide catalyst and the reaction giving methanol with copper catalyst at high temperature and pressure are controlled oxidation reactions.</p>
-<hr/>
-<p><strong>ধাপ ১: অ্যালকেনের নিয়ন্ত্রিত জারণের ধারণা</strong><br/>উপযুক্ত অনুঘটকের উপস্থিতিতে উচ্চ চাপে এবং নির্দিষ্ট পরিমাণ অক্সিজেনের সাথে অ্যালকেনকে উত্তপ্ত করলে সম্পূর্ণ দহনের পরিবর্তে নির্দিষ্ট কার্যকরী মূলকযুক্ত যৌগ যেমন অ্যালকোহল, অ্যালডিহাইড বা কার্বক্সিলিক অ্যাসিড তৈরি হয়। একে নিয়ন্ত্রিত জারণ বলা হয়।</p>
-<p><strong>ধাপ ২: বিক্রিয়াসমূহের বিশ্লেষণ</strong><br/>- \(\mathrm{CO}_2\) ও জল উৎপন্ন হওয়ার বিক্রিয়াটি হলো সম্পূর্ণ দহন।<br/>- কঠিন কার্বন ও জল উৎপন্ন হওয়ার বিক্রিয়াটি হলো সীমিত অক্সিজেনে অসম্পূর্ণ দহন।<br/>- মলিবডেনাম অক্সাইড (\(\mathrm{Mo}_2\mathrm{O}_3\)) অনুঘটকের উপস্থিতিতে মিথেন জারিত হয়ে মিথান্যাল (ফর্ম্যালডিহাইড) উৎপন্ন করে, যা একটি নিয়ন্ত্রিত জারণ বিক্রিয়া।<br/>- কপার নলের মধ্যে \(523\ \mathrm{K}\) উষ্ণতায় ও \(100\ \mathrm{atm}\) চাপে মিথেন জারিত হয়ে মিথানল গঠন করে, যা অপর একটি নিয়ন্ত্রিত জারণ বিক্রিয়া।</p>
-<p><strong>ধাপ ৩: চূড়ান্ত সিদ্ধান্ত</strong><br/>মলিবডেনাম অক্সাইড দ্বারা ফর্ম্যালডিহাইড প্রস্তুতি এবং কপার অনুঘটক দ্বারা মিথানল প্রস্তুতি উভয় বিক্রিয়াই নিয়ন্ত্রিত জারণ বিক্রিয়ার উদাহরণ।</p>]]></text>
-  </generalfeedback>
+  <name><text>CHEMISTRY_HYDROCARBONS_MCQ_Q11 - Controlled oxidation reactions of methane</text></name>
+  <questiontext format="html"><text><![CDATA[<p>Some oxidation reactions of methane are given below. Which of them is/are controlled oxidation reactions?</p><hr/><p>নিচে মিথেনের কয়েকটি জারণ বিক্রিয়া দেওয়া হলো। এগুলির মধ্যে কোনটি/কোনগুলি নিয়ন্ত্রিত জারণ বিক্রিয়া?</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>Controlled oxidation of alkanes involves heating them with a regulated supply of dioxygen or air at high pressure and in the presence of suitable catalysts to obtain useful oxygenated organic compounds without complete or incomplete combustion.</p><p><strong>Step 2: Evaluation</strong><br/>The reaction \(\mathrm{CH}_4(\mathrm{g}) + 2\mathrm{O}_2(\mathrm{g}) \longrightarrow \mathrm{CO}_2(\mathrm{g}) + 2\mathrm{H}_2\mathrm{O}(\mathrm{l})\) is complete combustion, and \(\mathrm{CH}_4(\mathrm{g}) + \mathrm{O}_2(\mathrm{g}) \longrightarrow \mathrm{C}(\mathrm{s}) + 2\mathrm{H}_2\mathrm{O}(\mathrm{l})\) is incomplete combustion.</p><p><strong>Step 3: Application</strong><br/>Heating methane with \(\mathrm{O}_2\) in the presence of \(\mathrm{Mo}_2\mathrm{O}_3\) produces methanal (\(\mathrm{HCHO}\)) and water, while heating methane with \(\mathrm{O}_2\) over a \(\mathrm{Cu}\) catalyst at \(523\ \mathrm{K}\) and \(100\ \mathrm{atm}\) yields methanol (\(\mathrm{CH}_3\mathrm{OH}\)). Both are controlled catalytic oxidations.</p><p><strong>Step 4: Final Conclusion</strong><br/>The controlled oxidation reactions are \(\mathrm{CH}_4(\mathrm{g}) + \mathrm{O}_2(\mathrm{g})\xrightarrow{\mathrm{Mo}_2\mathrm{O}_3}\mathrm{HCHO} + \mathrm{H}_2\mathrm{O}\) and \(2\mathrm{CH}_4(\mathrm{g}) + \mathrm{O}_2(\mathrm{g}) \xrightarrow{\mathrm{Cu}/523/100\ \mathrm{atm}} 2\mathrm{CH}_3\mathrm{OH}\).</p><hr/><p><strong>ধাপ ১: মৌলিক নীতি</strong><br/>অ্যালকেনের নিয়ন্ত্রিত জারণ বলতে উচ্চ চাপে এবং উপযুক্ত অনুঘটকের উপস্থিতিতে পরিমিত অক্সিজেন বা বায়ুর সাথে উত্তপ্ত করে সম্পূর্ণ বা অসম্পূর্ণ দহন ছাড়াই অক্সিজেনযুক্ত জৈব যৌগ প্রস্তুত করাকে বোঝায়।</p><p><strong>ধাপ ২: মূল্যায়ন</strong><br/>\(\mathrm{CH}_4(\mathrm{g}) + 2\mathrm{O}_2(\mathrm{g}) \longrightarrow \mathrm{CO}_2(\mathrm{g}) + 2\mathrm{H}_2\mathrm{O}(\mathrm{l})\) বিক্রিয়াটি সম্পূর্ণ দহন এবং \(\mathrm{CH}_4(\mathrm{g}) + \mathrm{O}_2(\mathrm{g}) \longrightarrow \mathrm{C}(\mathrm{s}) + 2\mathrm{H}_2\mathrm{O}(\mathrm{l})\) বিক্রিয়াটি অসম্পূর্ণ দহন।</p><p><strong>ধাপ ৩: প্রয়োগ</strong><br/>\(\mathrm{Mo}_2\mathrm{O}_3\) অনুঘটকের উপস্থিতিতে মিথেন ও \(\mathrm{O}_2\)-এর বিক্রিয়ায় মিথান্যাল (\(\mathrm{HCHO}\)) ও জল উৎপন্ন হয় এবং \(\mathrm{Cu}\) অনুঘটকের উপস্থিতিতে \(523\ \mathrm{K}\) ও \(100\ \mathrm{atm}\) চাপে মিথানল (\(\mathrm{CH}_3\mathrm{OH}\)) উৎপন্ন হয়। এই দুটিই নিয়ন্ত্রিত অনুঘটকীয় জারণ বিক্রিয়া।</p><p><strong>ধাপ ৪: চূড়ান্ত সিদ্ধান্ত</strong><br/>নিয়ন্ত্রিত জারণ বিক্রিয়াগুলি হলো \(\mathrm{CH}_4(\mathrm{g}) + \mathrm{O}_2(\mathrm{g})\xrightarrow{\mathrm{Mo}_2\mathrm{O}_3}\mathrm{HCHO} + \mathrm{H}_2\mathrm{O}\) এবং \(2\mathrm{CH}_4(\mathrm{g}) + \mathrm{O}_2(\mathrm{g}) \xrightarrow{\mathrm{Cu}/523/100\ \mathrm{atm}} 2\mathrm{CH}_3\mathrm{OH}\)।</p>]]></text></generalfeedback>
   <defaultgrade>4.0000000</defaultgrade>
   <penalty>0.2500000</penalty>
   <hidden>0</hidden>
   <single>false</single>
   <shuffleanswers>true</shuffleanswers>
   <answernumbering>iii</answernumbering>
-  <answer fraction="-50" format="html">
-    <text><![CDATA[<p>\(\mathrm{CH}_4(\mathrm{g}) + 2\mathrm{O}_2(\mathrm{g}) \longrightarrow \mathrm{CO}_2(\mathrm{g}) + 2\mathrm{H}_2\mathrm{O}(\mathrm{l})\)</p>]]></text>
-  </answer>
-  <answer fraction="-50" format="html">
-    <text><![CDATA[<p>\(\mathrm{CH}_4(\mathrm{g}) + \mathrm{O}_2(\mathrm{g}) \longrightarrow \mathrm{C}(\mathrm{s}) + 2\mathrm{H}_2\mathrm{O}(\mathrm{l})\)</p>]]></text>
-  </answer>
-  <answer fraction="50" format="html">
-    <text><![CDATA[<p>\(\mathrm{CH}_4(\mathrm{g}) + \mathrm{O}_2(\mathrm{g}) \xrightarrow{\mathrm{Mo}_2\mathrm{O}_3} \mathrm{HCHO} + \mathrm{H}_2\mathrm{O}\)</p>]]></text>
-  </answer>
-  <answer fraction="50" format="html">
-    <text><![CDATA[<p>\(2\mathrm{CH}_4(\mathrm{g}) + \mathrm{O}_2(\mathrm{g}) \xrightarrow{\mathrm{Cu}/523\mathrm{K}/100\ \mathrm{atm}} 2\mathrm{CH}_3\mathrm{OH}\)</p>]]></text>
-  </answer>
+  <answer fraction="-50" format="html"><text><![CDATA[<p>\(\mathrm{CH}_4(\mathrm{g}) + 2\mathrm{O}_2(\mathrm{g}) \longrightarrow \mathrm{CO}_2(\mathrm{g}) + 2\mathrm{H}_2\mathrm{O}(\mathrm{l})\)</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>\(\mathrm{CH}_4(\mathrm{g}) + \mathrm{O}_2(\mathrm{g})\longrightarrow \mathrm{C}(\mathrm{s}) + 2\mathrm{H}_2\mathrm{O}(\mathrm{l})\)</p>]]></text></answer>
+  <answer fraction="50" format="html"><text><![CDATA[<p>\(\mathrm{CH}_4(\mathrm{g}) + \mathrm{O}_2(\mathrm{g})\xrightarrow{\mathrm{Mo}_2\mathrm{O}_3}\mathrm{HCHO} + \mathrm{H}_2\mathrm{O}\)</p>]]></text></answer>
+  <answer fraction="50" format="html"><text><![CDATA[<p>\(2\mathrm{CH}_4(\mathrm{g}) + \mathrm{O}_2(\mathrm{g}) \xrightarrow{\mathrm{Cu}/523/100\ \mathrm{atm}} 2\mathrm{CH}_3\mathrm{OH}\)</p>]]></text></answer>
   <tags>
     <tag><text>standard:neet_ug</text></tag>
     <tag><text>lang:en</text></tag>
     <tag><text>lang:bn</text></tag>
     <tag><text>subject:chemistry</text></tag>
+    <tag><text>class:11</text></tag>
     <tag><text>chapter:hydrocarbons</text></tag>
     <tag><text>typology:mcq</text></tag>
     <tag><text>difficulty:easy</text></tag>
-    <tag><text>blooms:remember</text></tag>
-    <tag><text>calculation:light</text></tag>
-    <tag><text>media:equation</text></tag>
+    <tag><text>blooms:understand</text></tag>
+    <tag><text>media:text</text></tag>
     <tag><text>multiconcept:false</text></tag>
   </tags>
 </question>
 <question type="multichoice">
-  <name><text>NEET_UG_CHEMISTRY_HYDROCARBONS_MCQ_Q13 - Correct IUPAC names of branched decane</text></name>
-  <questiontext format="html">
-    <text><![CDATA[<p>Which are the correct IUPAC names of the following compound?</p>
-<pre>
-        HC(CH<sub>3</sub>)<sub>2</sub>
-        |
-H<sub>3</sub>C–CH<sub>2</sub>–CH<sub>2</sub>–CH–CH–CH<sub>2</sub>–CH<sub>2</sub>–CH<sub>2</sub>–CH<sub>2</sub>–CH<sub>3</sub>
-            |
-        H<sub>3</sub>C–CH–CH<sub>2</sub>CH<sub>3</sub>
-</pre>
-<hr/>
-<p>নিচের যৌগটির সঠিক IUPAC নাম কোনটি/কোনগুলি?</p>
-<pre>
-        HC(CH<sub>3</sub>)<sub>2</sub>
-        |
-H<sub>3</sub>C–CH<sub>2</sub>–CH<sub>2</sub>–CH–CH–CH<sub>2</sub>–CH<sub>2</sub>–CH<sub>2</sub>–CH<sub>2</sub>–CH<sub>3</sub>
-            |
-        H<sub>3</sub>C–CH–CH<sub>2</sub>CH<sub>3</sub>
-</pre>]]></text>
-  </questiontext>
-  <generalfeedback format="html">
-    <text><![CDATA[<p><strong>Step 1: Longest Carbon Chain and Numbering</strong><br/>The longest continuous carbon chain consists of 10 carbon atoms (parent name: decane). Numbering from the left gives substituents at positions 4 and 5 (locant set: 4, 5). Numbering from the right would give positions 6 and 7, so numbering from the left is correct.</p>
-<p><strong>Step 2: Identifying the Substituents</strong><br/>- At C-4, the substituent is \(-\mathrm{CH(CH_3)_2}\), which has the systematic IUPAC name (1-methylethyl) and the IUPAC-retained traditional name isopropyl.<br/>- At C-5, the substituent is \(-\mathrm{CH(CH_3)CH_2CH_3}\), which has the systematic IUPAC name (1-methylpropyl) and the IUPAC-retained traditional name <em>sec</em>-butyl.</p>
-<p><strong>Step 3: Alphabetical Ordering and Approved Names</strong><br/>When using systematic names, '(1-methylethyl)' precedes '(1-methylpropyl)' alphabetically (since 'm-e-t-h-y-l-e' comes before 'm-e-t-h-y-l-p'), giving: 4-(1-methylethyl)-5-(1-methylpropyl)decane.<br/>When using traditional IUPAC-retained names, '<em>sec</em>-butyl' is alphabetized under 'b' (the prefix <em>sec</em>- is italicized and ignored), so it precedes 'isopropyl' (alphabetized under 'i'), yielding: 5-<em>sec</em>-butyl-4-isopropyldecane.<br/>Both systematic and retained IUPAC nomenclatures are valid according to IUPAC rules.</p>
-<hr/>
-<p><strong>ধাপ ১: দীর্ঘতম শৃঙ্খল ও সংখ্যায়ন</strong><br/>যৌগটির দীর্ঘতম কার্বন শৃঙ্খলে ১০টি কার্বন পরমাণু রয়েছে (মূল নাম: ডেকেন)। বামদিক থেকে সংখ্যায়ন করলে প্রতিস্থাপকগুলি 4 এবং 5 অবস্থানে আসে। ডানদিক থেকে সংখ্যায়ন করলে 6 এবং 7 অবস্থান হতো, তাই বামদিক থেকে সংখ্যায়ন সঠিক।</p>
-<p><strong>ধাপ ২: প্রতিস্থাপকসমূহের সনাক্তকরণ</strong><br/>- 4 নং কার্বনে রয়েছে \(-\mathrm{CH(CH_3)_2}\) মূলক, যার প্রণালীবদ্ধ IUPAC নাম (1-মিথাইলইথাইল) এবং প্রচলিত স্বীকৃত নাম আইসোপ্রোপাইল।<br/>- 5 নং কার্বনে রয়েছে \(-\mathrm{CH(CH_3)CH_2CH_3}\) মূলক, যার প্রণালীবদ্ধ IUPAC নাম (1-মিথাইলপ্রোপাইল) এবং প্রচলিত স্বীকৃত নাম <em>sec</em>-বিউটাইল।</p>
-<p><strong>ধাপ ৩: বর্ণানুক্রমিক বিন্যাস ও সঠিক নামসমূহ</strong><br/>প্রণালীবদ্ধ নামে বর্ণানুক্রমিকভাবে '1-methylethyl' অংশটি '1-methylpropyl'-এর আগে আসে, ফলে নামটি হয়: 4-(1-methylethyl)-5-(1-methylpropyl)decane।<br/>প্রচলিত নামের ক্ষেত্রে '<em>sec</em>-butyl'-এর 'b' বর্ণটি 'isopropyl'-এর 'i' বর্ণের পূর্বে গণ্য হয়, ফলে নামটি হয়: 5-<em>sec</em>-butyl-4-isopropyldecane।<br/>IUPAC নিয়ম অনুসারে এই দুটি নামই গ্রহণযোগ্য ও সঠিক।</p>]]></text>
-  </generalfeedback>
+  <name><text>CHEMISTRY_HYDROCARBONS_MCQ_Q13 - IUPAC names of branched decane</text></name>
+  <questiontext format="html"><text><![CDATA[<p>Which are the correct IUPAC names of the following compound?</p><p>\[
+\begin{array}{c}
+\mathrm{HC(CH_3)_2} \\
+| \\
+\mathrm{H_3C-CH_2-CH_2-CH-CH-CH_2-CH_2-CH_2-CH_2-CH_3} \\
+| \\
+\mathrm{H_3C-CH-CH_2CH_3}
+\end{array}
+\]</p><hr/><p>নিচের যৌগটির সঠিক IUPAC নামগুলি কোনগুলি?</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>To name a branched alkane, identify the longest continuous carbon chain as the parent alkane, number it to give the lowest locants to the substituents, and name the branched alkyl substituents using either systematic numbering or accepted IUPAC retained names (such as isopropyl and <em>sec</em>-butyl).</p><p><strong>Step 2: Evaluation</strong><br/>The longest continuous carbon chain contains 10 carbon atoms, so the parent alkane is decane. Numbering from the left end gives locants 4 and 5 to the two branched substituents (which is lower than 6 and 7 from the right end).</p><p><strong>Step 3: Application</strong><br/>At C-4, the substituent is \(-\mathrm{CH}(\mathrm{CH}_3)_2\), whose retained IUPAC name is isopropyl (systematic name: 1-methylethyl). At C-5, the substituent is \(-\mathrm{CH}(\mathrm{CH}_3)\mathrm{CH}_2\mathrm{CH}_3\), whose retained IUPAC name is <em>sec</em>-butyl (systematic name: 1-methylpropyl). Alphabetizing "butyl" before "isopropyl" (since hyphenated "<em>sec</em>-" is ignored) gives 5-<em>sec</em>-Butyl-4-iso-propyldecane, while alphabetizing "1-methylethyl" before "1-methylpropyl" gives 4-(1-methylethyl)-5-(1-methylpropyl)-decane.</p><p><strong>Step 4: Final Conclusion</strong><br/>Both 5-sec-Butyl-4-iso-propyldecane and 4-(1-methylethyl)-5-(1-methylpropyl)-decane are correct IUPAC names.</p><hr/><p><strong>ধাপ ১: মৌলিক নীতি</strong><br/>শাখাযুক্ত অ্যালকেনের নামকরণের জন্য দীর্ঘতম অবিচ্ছিন্ন কার্বন শৃঙ্খলটিকে জনক অ্যালকেন হিসেবে চিহ্নিত করতে হয়, প্রতিস্থাপকগুলির ক্ষুদ্রতম অবস্থান-সংখ্যা পাওয়ার জন্য সংখ্যায়ন করতে হয় এবং শাখাযুক্ত অ্যালকিল মূলকগুলিকে পদ্ধতিগত নাম বা IUPAC অনুমোদিত সাধারণ নাম (যেমন আইসোপ্রোপাইল ও সেক-বিউটাইল) ব্যবহার করে লিখতে হয়।</p><p><strong>ধাপ ২: মূল্যায়ন</strong><br/>দীর্ঘতম অবিচ্ছিন্ন কার্বন শৃঙ্খলে ১০টি কার্বন পরমাণু আছে, তাই জনক অ্যালকেন হলো ডেকেন। বাম দিক থেকে সংখ্যায়ন করলে শাখা প্রতিস্থাপক দুটি ৪ ও ৫ নম্বর অবস্থানে থাকে (যা ডান দিক থেকে ৬ ও ৭ অপেক্ষা ক্ষুদ্রতর)।</p><p><strong>ধাপ ৩: প্রয়োগ</strong><br/>C-4 অবস্থানে থাকা \(-\mathrm{CH}(\mathrm{CH}_3)_2\) মূলকটির অনুমোদিত নাম হলো আইসোপ্রোপাইল (পদ্ধতিগত নাম: 1-methylethyl) এবং C-5 অবস্থানে থাকা \(-\mathrm{CH}(\mathrm{CH}_3)\mathrm{CH}_2\mathrm{CH}_3\) মূলকটির অনুমোদিত নাম হলো সেক-বিউটাইল (পদ্ধতিগত নাম: 1-methylpropyl)। বর্ণানুক্রমিকভাবে সাজালে যথাক্রমে 5-sec-Butyl-4-iso-propyldecane এবং 4-(1-methylethyl)-5-(1-methylpropyl)-decane পাওয়া যায়।</p><p><strong>ধাপ ৪: চূড়ান্ত সিদ্ধান্ত</strong><br/>অতএব, 5-sec-Butyl-4-iso-propyldecane এবং 4-(1-methylethyl)-5-(1-methylpropyl)-decane উভয়ই সঠিক IUPAC নাম।</p>]]></text></generalfeedback>
   <defaultgrade>4.0000000</defaultgrade>
   <penalty>0.2500000</penalty>
   <hidden>0</hidden>
   <single>false</single>
   <shuffleanswers>true</shuffleanswers>
   <answernumbering>iii</answernumbering>
-  <answer fraction="-50" format="html">
-    <text><![CDATA[<p>5-Butyl-4-isopropyldecane</p>]]></text>
-  </answer>
-  <answer fraction="-50" format="html">
-    <text><![CDATA[<p>5-Ethyl-4-propyldecane</p>]]></text>
-  </answer>
-  <answer fraction="50" format="html">
-    <text><![CDATA[<p>5-sec-Butyl-4-iso-propyldecane</p>]]></text>
-  </answer>
-  <answer fraction="50" format="html">
-    <text><![CDATA[<p>4-(1-methylethyl)-5-(1-methylpropyl)-decane</p>]]></text>
-  </answer>
+  <answer fraction="-50" format="html"><text><![CDATA[<p>5-Butyl-4-isopropyldecane</p>]]></text></answer>
+  <answer fraction="-50" format="html"><text><![CDATA[<p>5-Ethyl-4-propyldecane</p>]]></text></answer>
+  <answer fraction="50" format="html"><text><![CDATA[<p>5-sec-Butyl-4-iso-propyldecane</p>]]></text></answer>
+  <answer fraction="50" format="html"><text><![CDATA[<p>4-(1-methylethyl)-5-(1-methylpropyl)-decane</p>]]></text></answer>
   <tags>
     <tag><text>standard:neet_ug</text></tag>
     <tag><text>lang:en</text></tag>
     <tag><text>lang:bn</text></tag>
     <tag><text>subject:chemistry</text></tag>
+    <tag><text>class:11</text></tag>
     <tag><text>chapter:hydrocarbons</text></tag>
     <tag><text>typology:mcq</text></tag>
     <tag><text>difficulty:medium</text></tag>
     <tag><text>blooms:apply</text></tag>
-    <tag><text>calculation:light</text></tag>
     <tag><text>media:text</text></tag>
     <tag><text>multiconcept:false</text></tag>
   </tags>
 </question>
 <question type="multichoice">
-  <name><text>NEET_UG_CHEMISTRY_HYDROCARBONS_MCQ_Q14 - Correct IUPAC names of neopentyl substituted decane</text></name>
-  <questiontext format="html">
-    <text><![CDATA[<p>Which are the correct IUPAC names of the following compound?</p>
-<pre>
-H<sub>3</sub>C–CH<sub>2</sub>–CH<sub>2</sub>–CH<sub>2</sub>–CH–CH<sub>2</sub>–CH<sub>2</sub>–CH<sub>2</sub>–CH<sub>2</sub>–CH<sub>3</sub>
-                |
-                CH<sub>2</sub>
-                |
-            H<sub>3</sub>C–C–CH<sub>3</sub>
-                |
-                CH<sub>3</sub>
-</pre>
-<hr/>
-<p>নিচের যৌগটির সঠিক IUPAC নাম কোনটি/কোনগুলি?</p>
-<pre>
-H<sub>3</sub>C–CH<sub>2</sub>–CH<sub>2</sub>–CH<sub>2</sub>–CH–CH<sub>2</sub>–CH<sub>2</sub>–CH<sub>2</sub>–CH<sub>2</sub>–CH<sub>3</sub>
-                |
-                CH<sub>2</sub>
-                |
-            H<sub>3</sub>C–C–CH<sub>3</sub>
-                |
-                CH<sub>3</sub>
-</pre>]]></text>
-  </questiontext>
-  <generalfeedback format="html">
-    <text><![CDATA[<p><strong>Step 1: Identifying the Longest Carbon Chain</strong><br/>The longest continuous carbon chain contains 10 carbon atoms, making the parent alkane decane. Numbering from the left gives the side chain at position 5 (locants from right would give position 6, which is higher).</p>
-<p><strong>Step 2: Naming the Substituent</strong><br/>The branched substituent at C-5 is \(-\mathrm{CH_2-C(CH_3)_3}\).<br/>- Systematically, numbering the substituent chain starting from the carbon attached to the parent gives a 3-carbon propyl group with two methyl substituents at C-2': \(2',2'\)-dimethylpropyl (or 2,2-dimethylpropyl).<br/>- Traditionally and retained by IUPAC, the common name for the \(-\mathrm{CH_2-C(CH_3)_3}\) group is <em>neo</em>-pentyl.</p>
-<p><strong>Step 3: Constructing the IUPAC Names</strong><br/>Combining the locant, substituent name, and parent chain gives:<br/>1. 5-(2',2'-Dimethylpropyl)decane<br/>2. 5-<em>neo</em>-Pentyldecane<br/>Both of these are valid names under IUPAC nomenclature rules.</p>
-<hr/>
-<p><strong>ধাপ ১: দীর্ঘতম কার্বন শৃঙ্খল নির্ধারণ</strong><br/>যৌগটির দীর্ঘতম অবিচ্ছিন্ন কার্বন শৃঙ্খলে ১০টি কার্বন পরমাণু বিদ্যমান, ফলে মূল যৌগটি হলো ডেকেন। বামদিক থেকে সংখ্যায়ন করলে প্রতিস্থাপকটি 5 নং কার্বনে অবস্থান করে।</p>
-<p><strong>ধাপ ২: প্রতিস্থাপকের নামকরণ</strong><br/>5 নং কার্বনে যুক্ত শাখাটি হলো \(-\mathrm{CH_2-C(CH_3)_3}\)।<br/>- প্রণালীবদ্ধ নিয়মে, মূল শৃঙ্খলের সাথে যুক্ত কার্বন থেকে সংখ্যায়ন করলে এটি একটি প্রোপাইল শৃঙ্খল যার ২' নং কার্বনে দুটি মিথাইল মূলক রয়েছে, অর্থাৎ (2',2'-ডাইমিথাইলপ্রোপাইল)।<br/>- প্রচলিত IUPAC-অনুমোদিত নামে \(-\mathrm{CH_2-C(CH_3)_3}\) মূলকটিকে <em>নিও</em>-পেন্টাইল (<em>neo</em>-pentyl) বলা হয়।</p>
-<p><strong>ধাপ ৩: পূর্ণাঙ্গ IUPAC নামসমূহ</strong><br/>অতএব, যৌগটির দুটি সঠিক ও গ্রহণযোগ্য IUPAC নাম হলো:<br/>১. 5-(2',2'-Dimethylpropyl)-decane<br/>২. 5-<em>neo</em>-Pentyldecane</p>]]></text>
-  </generalfeedback>
+  <name><text>CHEMISTRY_HYDROCARBONS_MCQ_Q14 - IUPAC names of neopentyl substituted decane</text></name>
+  <questiontext format="html"><text><![CDATA[<p>Which are the correct IUPAC names of the following compound?</p><p>\[
+\begin{array}{c}
+\mathrm{H_3C-CH_2-CH_2-CH_2-CH-CH_2-CH_2-CH_2-CH_2-CH_3} \\
+| \\
+\mathrm{CH_2} \\
+| \\
+\mathrm{H_3C-C-CH_3} \\
+| \\
+\mathrm{CH_3}
+\end{array}
+\]</p><hr/><p>নিচের যৌগটির সঠিক IUPAC নামগুলি কোনগুলি?</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>Select the longest continuous carbon chain as the parent alkane, number from the end nearest to the substituent, and express the branched substituent using either its systematic IUPAC name or its accepted retained name.</p><p><strong>Step 2: Evaluation</strong><br/>The longest continuous carbon chain in the molecule has 10 carbon atoms (decane), not 9 (nonane) or 8 (octane). Numbering from the left end places the substituent at C-5 (locant 5 is lower than 6 from the right end).</p><p><strong>Step 3: Application</strong><br/>The substituent attached at C-5 is \(-\mathrm{CH}_2-\mathrm{C}(\mathrm{CH}_3)_3\), which is systematically named 2,2-dimethylpropyl (using primed locants \(2',2'\)-dimethylpropyl) and has the accepted IUPAC retained name <em>neo</em>-pentyl.</p><p><strong>Step 4: Final Conclusion</strong><br/>Both 5-(2',2'-Dimethylpropyl)-decane and 5-neo-Pentyldecane are correct IUPAC names.</p><hr/><p><strong>ধাপ ১: মৌলিক নীতি</strong><br/>দীর্ঘতম অবিচ্ছিন্ন কার্বন শৃঙ্খলটিকে জনক অ্যালকেন হিসেবে নির্বাচন করে প্রতিস্থাপকের নিকটবর্তী প্রান্ত থেকে সংখ্যায়ন করতে হয় এবং শাখাযুক্ত প্রতিস্থাপকটিকে পদ্ধতিগত নাম বা অনুমোদিত সাধারণ নামে প্রকাশ করতে হয়।</p><p><strong>ধাপ ২: মূল্যায়ন</strong><br/>অণুটিতে দীর্ঘতম অবিচ্ছিন্ন কার্বন শৃঙ্খলে ১০টি কার্বন পরমাণু আছে (ডেকেন), ৯টি (ননেন) বা ৮টি (অক্টেন) নয়। বাম দিক থেকে সংখ্যায়ন করলে প্রতিস্থাপকটি C-5 অবস্থানে থাকে (যা ডান দিক থেকে ৬ অপেক্ষা ক্ষুদ্রতর)।</p><p><strong>ধাপ ৩: প্রয়োগ</strong><br/>C-5 অবস্থানে যুক্ত প্রতিস্থাপকটি হলো \(-\mathrm{CH}_2-\mathrm{C}(\mathrm{CH}_3)_3\), যার পদ্ধতিগত নাম 2,2-dimethylpropyl (বা \(2',2'\)-dimethylpropyl) এবং অনুমোদিত সাধারণ নাম হলো <em>neo</em>-pentyl।</p><p><strong>ধাপ ৪: চূড়ান্ত সিদ্ধান্ত</strong><br/>অতএব, 5-(2',2'-Dimethylpropyl)-decane এবং 5-neo-Pentyldecane উভয়ই সঠিক IUPAC নাম।</p>]]></text></generalfeedback>
   <defaultgrade>4.0000000</defaultgrade>
   <penalty>0.2500000</penalty>
   <hidden>0</hidden>
   <single>false</single>
   <shuffleanswers>true</shuffleanswers>
   <answernumbering>iii</answernumbering>
-  <answer fraction="50" format="html">
-    <text><![CDATA[<p>5-(2',2'-Dimethylpropyl)-decane</p>]]></text>
-  </answer>
-  <answer fraction="-50" format="html">
-    <text><![CDATA[<p>4-Butyl-2,2-dimethylnonane</p>]]></text>
-  </answer>
-  <answer fraction="-50" format="html">
-    <text><![CDATA[<p>2,2-Dimethyl-4-pentyloctane</p>]]></text>
-  </answer>
-  <answer fraction="50" format="html">
-    <text><![CDATA[<p>5-neo-Pentyldecane</p>]]></text>
-  </answer>
+  <answer fraction="50" format="html"><text><![CDATA[<p>5-(2',2'-Dimethylpropyl)-decane</p>]]></text></answer>
+  <answer fraction="-50" format="html"><text><![CDATA[<p>4-Butyl-2,2-dimethylnonane</p>]]></text></answer>
+  <answer fraction="-50" format="html"><text><![CDATA[<p>2,2-Dimethyl-4-pentyloctane</p>]]></text></answer>
+  <answer fraction="50" format="html"><text><![CDATA[<p>5-neo-Pentyldecane</p>]]></text></answer>
   <tags>
     <tag><text>standard:neet_ug</text></tag>
     <tag><text>lang:en</text></tag>
     <tag><text>lang:bn</text></tag>
     <tag><text>subject:chemistry</text></tag>
+    <tag><text>class:11</text></tag>
     <tag><text>chapter:hydrocarbons</text></tag>
     <tag><text>typology:mcq</text></tag>
     <tag><text>difficulty:medium</text></tag>
     <tag><text>blooms:apply</text></tag>
-    <tag><text>calculation:light</text></tag>
     <tag><text>media:text</text></tag>
     <tag><text>multiconcept:false</text></tag>
   </tags>
 </question>
 <question type="multichoice">
-  <name><text>NEET_UG_CHEMISTRY_HYDROCARBONS_MCQ_Q15 - Effect of halogen substituent on electrophilic aromatic substitution</text></name>
-  <questiontext format="html">
-    <text><![CDATA[<p>For an electrophilic substitution reaction, the presence of a halogen atom in the benzene ring ______.</p>
-<hr/>
-<p>ইলেকট্রোফিলিক প্রতিস্থাপন বিক্রিয়ার ক্ষেত্রে বেনজিন বলয়ে হ্যালোজেন পরমাণুর উপস্থিতি ______।</p>]]></text>
-  </questiontext>
-  <generalfeedback format="html">
-    <text><![CDATA[<p><strong>Step 1: Inductive Effect of Halogens</strong><br/>Halogen atoms are highly electronegative compared to carbon. They withdraw electron density from the benzene ring through a strong \(-I\) (negative inductive) effect. This overall withdrawal decreases the electron density of the aromatic ring relative to benzene, thereby deactivating the ring towards electrophilic substitution reactions.</p>
-<p><strong>Step 2: Resonance Effect and Regioselectivity</strong><br/>Simultaneously, halogens possess lone pairs of electrons that can be donated to the aromatic \(\pi\)-system via resonance (\(+R\) effect). Delocalization of these lone pairs into the ring introduces partial negative charges at the <em>ortho</em> and <em>para</em> positions, while the <em>meta</em> position remains unaffected by resonance. Consequently, the electron density at the <em>ortho</em> and <em>para</em> positions increases relative to the <em>meta</em> position, directing the incoming electrophile preferentially to the <em>ortho</em> and <em>para</em> positions.</p>
-<p><strong>Step 3: Conclusion</strong><br/>In summary, the halogen atom deactivates the ring by its inductive effect and increases the charge density at the <em>ortho</em> and <em>para</em> positions relative to the <em>meta</em> position by resonance.</p>
-<hr/>
-<p><strong>ধাপ ১: হ্যালোজেনের আবেশীয় প্রভাব (Inductive Effect)</strong><br/>হ্যালোজেন পরমাণুগুলি কার্বনের চেয়ে অধিক তড়িৎ-ঋণাত্মক হওয়ায় শক্তিশালী \(-I\) প্রভাবের মাধ্যমে বেনজিন বলয় থেকে ইলেকট্রন ঘনত্ব নিজের দিকে টেনে নেয়। এর ফলে সমগ্র বলয়ের ইলেকট্রন ঘনত্ব হ্রাস পায় এবং বলয়টি ইলেকট্রোফিলিক প্রতিস্থাপন বিক্রিয়ার প্রতি নিষ্ক্রিয় (deactivated) হয়ে পড়ে।</p>
-<p><strong>ধাপ ২: রেজোন্যান্স প্রভাব এবং দিকনির্দেশকতা</strong><br/>একই সাথে হ্যালোজেন পরমাণুর নিঃসঙ্গ ইলেকট্রন জোড় রেজোন্যান্সের (\(+R\) প্রভাব) মাধ্যমে বলয়ে বিস্তৃত হয়। রেজোন্যান্সের কারণে <em>অর্থো</em> ও <em>প্যারা</em> অবস্থানে আংশিক ঋণাত্মক আধান বা ইলেকট্রন ঘনত্ব বৃদ্ধি পায়, যা <em>মেটা</em> অবস্থানে ঘটে না। ফলে <em>মেটা</em> অবস্থানের তুলনায় <em>অর্থো</em> ও <em>প্যারা</em> অবস্থানে ইলেকট্রন ঘনত্ব অপেক্ষাকৃত বেশি থাকে এবং আগত ইলেকট্রোফাইল <em>অর্থো</em> ও <em>প্যারা</em> অবস্থানে যুক্ত হয়।</p>
-<p><strong>ধাপ ৩: সিদ্ধান্ত</strong><br/>অতএব, হ্যালোজেন পরমাণু আবেশীয় প্রভাবের মাধ্যমে বলয়কে নিষ্ক্রিয় করে এবং রেজোন্যান্সের মাধ্যমে <em>মেটা</em> অবস্থানের তুলনায় <em>অর্থো</em> ও <em>প্যারা</em> অবস্থানে আধানের ঘনত্ব বৃদ্ধি করে।</p>]]></text>
-  </generalfeedback>
+  <name><text>CHEMISTRY_HYDROCARBONS_MCQ_Q15 - Effect of halogen on benzene ring</text></name>
+  <questiontext format="html"><text><![CDATA[<p>For an electrophilic substitution reaction, the presence of a halogen atom in the benzene ring</p><hr/><p>ইলেকট্রোফিলিক প্রতিস্থাপন বিক্রিয়ার ক্ষেত্রে, বেনজিন বলয়ে একটি হ্যালোজেন পরমাণুর উপস্থিতি</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>A halogen substituent on a benzene ring exerts two opposing electronic effects: a strong electron-withdrawing inductive effect (\(-I\)) and a weaker electron-donating resonance effect (\(+R\)).</p><p><strong>Step 2: Evaluation</strong><br/>Because the \(-I\) effect of the electronegative halogen outweighs its \(+R\) effect, the overall electron density on the benzene ring decreases compared to unsubstituted benzene, thereby deactivating the ring towards electrophilic attack.</p><p><strong>Step 3: Application</strong><br/>However, through resonance (\(+R\)), the lone pair of electrons on the halogen atom is delocalized into the ring specifically at the <em>ortho</em> and <em>para</em> positions, making the charge density at the <em>ortho</em> and <em>para</em> positions higher than at the <em>meta</em> position. Consequently, halogens are <em>ortho</em>- and <em>para</em>-directing.</p><p><strong>Step 4: Final Conclusion</strong><br/>Therefore, a halogen atom deactivates the ring by inductive effect and increases the charge density at <em>ortho</em> and <em>para</em> positions relative to the <em>meta</em> position by resonance.</p><hr/><p><strong>ধাপ ১: মৌলিক নীতি</strong><br/>বেনজিন বলয়ে যুক্ত একটি হ্যালোজেন প্রতিস্থাপক দুটি বিপরীতধর্মী ইলেকট্রনিক প্রভাব বিস্তার করে: একটি শক্তিশালী ইলেকট্রন-আকর্ষী আবেশীয় প্রভাব (\(-I\)) এবং একটি তুলনামূলকভাবে দুর্বল ইলেকট্রন-দানকারী রেজোন্যান্স প্রভাব (\(+R\))।</p><p><strong>ধাপ ২: মূল্যায়ন</strong><br/>তড়িৎঋণাত্মক হ্যালোজেনের \(-I\) প্রভাব তার \(+R\) প্রভাবের চেয়ে বেশি শক্তিশালী হওয়ায় বেনজিন বলয়ের সামগ্রিক ইলেকট্রন ঘনত্ব অপ্রতিস্থাপিত বেনজিনের তুলনায় হ্রাস পায়, অর্থাৎ আবেশীয় প্রভাবের মাধ্যমে এটি বলয়টিকে নিষ্ক্রিয় (deactivate) করে।</p><p><strong>ধাপ ৩: প্রয়োগ</strong><br/>তবে রেজোন্যান্স (\(+R\))-এর মাধ্যমে হ্যালোজেনের নিঃসঙ্গ ইলেকট্রন জোড় বলয়ের অর্থো এবং প্যারা অবস্থানে সঞ্চারিত হয়, ফলে মেটা অবস্থানের তুলনায় অর্থো ও প্যারা অবস্থানে ঋণাত্মক আধানের ঘনত্ব বৃদ্ধি পায় এবং হ্যালোজেন অর্থো-প্যারা নির্দেশক হিসেবে কাজ করে।</p><p><strong>ধাপ ৪: চূড়ান্ত সিদ্ধান্ত</strong><br/>সুতরাং, হ্যালোজেন পরমাণু আবেশীয় প্রভাবের দ্বারা বলয়টিকে নিষ্ক্রিয় করে এবং রেজোন্যান্সের দ্বারা মেটা অবস্থানের সাপেক্ষে অর্থো ও প্যারা অবস্থানে আধানের ঘনত্ব বৃদ্ধি করে।</p>]]></text></generalfeedback>
   <defaultgrade>4.0000000</defaultgrade>
   <penalty>0.2500000</penalty>
   <hidden>0</hidden>
   <single>false</single>
   <shuffleanswers>true</shuffleanswers>
   <answernumbering>iii</answernumbering>
-  <answer fraction="50" format="html">
-    <text><![CDATA[<p>deactivates the ring by inductive effect</p>]]></text>
-  </answer>
-  <answer fraction="-50" format="html">
-    <text><![CDATA[<p>deactivates the ring by resonance</p>]]></text>
-  </answer>
-  <answer fraction="50" format="html">
-    <text><![CDATA[<p>increases the charge density at ortho and para position relative to meta position by resonance</p>]]></text>
-  </answer>
-  <answer fraction="-50" format="html">
-    <text><![CDATA[<p>directs the incoming electrophile to meta position by increasing the charge density relative to ortho and para position.</p>]]></text>
-  </answer>
+  <answer fraction="50" format="html"><text><![CDATA[<p>deactivates the ring by inductive effect</p>]]></text></answer>
+  <answer fraction="-50" format="html"><text><![CDATA[<p>deactivates the ring by resonance</p>]]></text></answer>
+  <answer fraction="50" format="html"><text><![CDATA[<p>increases the charge density at ortho and para position relative to meta position by resonance</p>]]></text></answer>
+  <answer fraction="-50" format="html"><text><![CDATA[<p>directs the incoming electrophile to meta position by increasing the charge density relative to ortho and para position.</p>]]></text></answer>
   <tags>
     <tag><text>standard:neet_ug</text></tag>
     <tag><text>lang:en</text></tag>
     <tag><text>lang:bn</text></tag>
     <tag><text>subject:chemistry</text></tag>
+    <tag><text>class:11</text></tag>
     <tag><text>chapter:hydrocarbons</text></tag>
     <tag><text>typology:mcq</text></tag>
     <tag><text>difficulty:medium</text></tag>
     <tag><text>blooms:understand</text></tag>
-    <tag><text>calculation:light</text></tag>
     <tag><text>media:text</text></tag>
-    <tag><text>multiconcept:true</text></tag>
+    <tag><text>multiconcept:false</text></tag>
   </tags>
 </question>
 <question type="multichoice">
-  <name><text>NEET_UG_CHEMISTRY_HYDROCARBONS_MCQ_Q16 - Effect of nitro group in electrophilic substitution of nitrobenzene</text></name>
-  <questiontext format="html">
-    <text><![CDATA[<p>In an electrophilic substitution reaction of nitrobenzene, the presence of nitro group ______.</p>
-<hr/>
-<p>নাইট্রোবেনজিনের ইলেকট্রোফিলিক প্রতিস্থাপন বিক্রিয়ার ক্ষেত্রে নাইট্রো মূলকের উপস্থিতি ______।</p>]]></text>
-  </questiontext>
-  <generalfeedback format="html">
-    <text><![CDATA[<p><strong>Step 1: Electron-Withdrawing Nature of the Nitro Group</strong><br/>The nitro group (\(-\mathrm{NO}_2\)) is a powerful electron-withdrawing group. Due to the high electronegativity of nitrogen and oxygen and the formal positive charge on nitrogen, it strongly withdraws electron density from the aromatic \(\sigma\)-framework via a \(-I\) (negative inductive) effect, thereby deactivating the benzene ring toward electrophilic attack.</p>
-<p><strong>Step 2: Resonance Effect of the Nitro Group</strong><br/>The nitro group also withdraws \(\pi\)-electrons from the benzene ring via resonance (\(-R\) or \(-M\) effect). Resonating structures of nitrobenzene place positive charges specifically at the <em>ortho</em> and <em>para</em> positions of the ring. Consequently, the electron density is markedly decreased at the <em>ortho</em> and <em>para</em> positions relative to the <em>meta</em> position. The <em>meta</em> position thus remains comparatively richer in electrons, directing incoming electrophiles to the <em>meta</em> position.</p>
-<p><strong>Step 3: Conclusion</strong><br/>The presence of the nitro group deactivates the ring by the inductive effect and decreases the charge density at the <em>ortho</em> and <em>para</em> positions of the ring relative to the <em>meta</em> position by resonance.</p>
-<hr/>
-<p><strong>ধাপ ১: নাইট্রো মূলকের ইলেকট্রন আকর্ষণকারী প্রকৃতি</strong><br/>নাইট্রো মূলক (\(-\mathrm{NO}_2\)) একটি অত্যন্ত শক্তিশালী ইলেকট্রন প্রত্যাহারী মূলক। নাইট্রোজেনের ধনাত্মক আধান এবং নাইট্রোজেন ও অক্সিজেনের উচ্চ তড়িৎ-ঋণাত্মকতার কারণে এটি শক্তিশালী \(-I\) (আবেশীয়) প্রভাবের মাধ্যমে বলয়ের ইলেকট্রন ঘনত্ব নিজের দিকে টেনে নেয়, ফলে বলয়টি তীব্রভাবে নিষ্ক্রিয় (deactivated) হয়ে পড়ে।</p>
-<p><strong>ধাপ ২: নাইট্রো মূলকের রেজোন্যান্স প্রভাব</strong><br/>নাইট্রো মূলকটি বলয় থেকে \(-R\) প্রভাবের মাধ্যমে \(\pi\)-ইলেকট্রন ঘনত্ব টেনে নেয়। নাইট্রোবেনজিনের রেজোন্যান্স কাঠামোগুলিতে স্পষ্টভাবে দেখা যায় যে <em>অর্থো</em> এবং <em>প্যারা</em> অবস্থানে ধনাত্মক আধানের সৃষ্টি হয়। ফলে <em>মেটা</em> অবস্থানের তুলনায় <em>অর্থো</em> ও <em>প্যারা</em> অবস্থানে ইলেকট্রন বা আধানের ঘনত্ব উল্লেখযোগ্যভাবে কমে যায়। এর ফলে আগত ইলেকট্রোফাইল অপেক্ষাকৃত বেশি ইলেকট্রন ঘনত্বযুক্ত <em>মেটা</em> অবস্থানে আক্রমণ করে।</p>
-<p><strong>ধাপ ৩: সিদ্ধান্ত</strong><br/>অতএব, নাইট্রো মূলক আবেশীয় প্রভাবের মাধ্যমে বলয়টিকে নিষ্ক্রিয় করে এবং রেজোন্যান্সের মাধ্যমে বলয়ের <em>মেটা</em> অবস্থানের তুলনায় <em>অর্থো</em> ও <em>প্যারা</em> অবস্থানে আধানের ঘনত্ব হ্রাস করে।</p>]]></text>
-  </generalfeedback>
+  <name><text>CHEMISTRY_HYDROCARBONS_MCQ_Q16 - Effect of nitro group in nitrobenzene</text></name>
+  <questiontext format="html"><text><![CDATA[<p>In an electrophilic substitution reaction of nitrobenzene, the presence of nitro group</p><hr/><p>নাইট্রোবেনজিনের ইলেকট্রোফিলিক প্রতিস্থাপন বিক্রিয়ায়, নাইট্রো মূলকের উপস্থিতি</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>The nitro group (\(-\mathrm{NO}_2\)) is a strongly electron-withdrawing group that exerts both a \(-I\) (inductive) effect and a \(-R\) (resonance) effect on the benzene ring.</p><p><strong>Step 2: Evaluation</strong><br/>Due to its strong \(-I\) effect, the nitro group withdraws electron density from the benzene ring, deactivating the entire ring towards electrophilic attack compared to benzene.</p><p><strong>Step 3: Application</strong><br/>Through its \(-R\) effect, the nitro group places positive charges specifically on the <em>ortho</em> and <em>para</em> carbons in the resonance structures, thereby decreasing the electron density at the <em>ortho</em> and <em>para</em> positions relative to the <em>meta</em> position (it does not increase electron density at the <em>meta</em> position).</p><p><strong>Step 4: Final Conclusion</strong><br/>Therefore, the nitro group deactivates the ring by inductive effect and decreases the charge density at the <em>ortho</em> and <em>para</em> positions of the ring relative to the <em>meta</em> position by resonance.</p><hr/><p><strong>ধাপ ১: মৌলিক নীতি</strong><br/>নাইট্রো মূলক (\(-\mathrm{NO}_2\)) একটি শক্তিশালী ইলেকট্রন-আকর্ষী মূলক, যা বেনজিন বলয়ের উপর \(-I\) (আবেশীয়) এবং \(-R\) (রেজোন্যান্স) উভয় প্রভাব বিস্তার করে।</p><p><strong>ধাপ ২: মূল্যায়ন</strong><br/>শক্তিশালী \(-I\) প্রভাবের কারণে নাইট্রো মূলক বেনজিন বলয় থেকে ইলেকট্রন ঘনত্ব টেনে নেয়, ফলে ইলেকট্রোফিলিক প্রতিস্থাপন বিক্রিয়ার প্রতি বলয়টি নিষ্ক্রিয় (deactivate) হয়ে পড়ে।</p><p><strong>ধাপ ৩: প্রয়োগ</strong><br/>রেজোন্যান্স (\(-R\)) প্রভাবের ফলে রেজোন্যান্স গঠনগুলিতে অর্থো ও প্যারা অবস্থানে ধনাত্মক আধান সৃষ্টি হয়; অর্থাৎ এটি মেটা অবস্থানের তুলনায় অর্থো ও প্যারা অবস্থানে ইলেকট্রন ঘনত্ব কমিয়ে দেয় (মেটা অবস্থানে ইলেকট্রন ঘনত্ব বৃদ্ধি করে না)।</p><p><strong>ধাপ ৪: চূড়ান্ত সিদ্ধান্ত</strong><br/>সুতরাং, নাইট্রো মূলক আবেশীয় প্রভাবের দ্বারা বলয়টিকে নিষ্ক্রিয় করে এবং রেজোন্যান্সের দ্বারা মেটা অবস্থানের সাপেক্ষে অর্থো ও প্যারা অবস্থানে আধানের ঘনত্ব হ্রাস করে।</p>]]></text></generalfeedback>
   <defaultgrade>4.0000000</defaultgrade>
   <penalty>0.2500000</penalty>
   <hidden>0</hidden>
   <single>false</single>
   <shuffleanswers>true</shuffleanswers>
   <answernumbering>iii</answernumbering>
-  <answer fraction="50" format="html">
-    <text><![CDATA[<p>deactivates the ring by inductive effect.</p>]]></text>
-  </answer>
-  <answer fraction="-50" format="html">
-    <text><![CDATA[<p>activates the ring by inductive effect.</p>]]></text>
-  </answer>
-  <answer fraction="50" format="html">
-    <text><![CDATA[<p>decreases the charge density at ortho and para position of the ring relative to meta position by resonance.</p>]]></text>
-  </answer>
-  <answer fraction="-50" format="html">
-    <text><![CDATA[<p>increases the charge density at meta position relative to the ortho and para positions of the ring by resonance.</p>]]></text>
-  </answer>
+  <answer fraction="50" format="html"><text><![CDATA[<p>deactivates the ring by inductive effect.</p>]]></text></answer>
+  <answer fraction="-50" format="html"><text><![CDATA[<p>activates the ring by inductive effect.</p>]]></text></answer>
+  <answer fraction="50" format="html"><text><![CDATA[<p>decreases the charge density at ortho and para position of the ring relative to meta position by resonance.</p>]]></text></answer>
+  <answer fraction="-50" format="html"><text><![CDATA[<p>increases the charge density at meta position relative to the ortho and para positions of the ring by resonance.</p>]]></text></answer>
   <tags>
     <tag><text>standard:neet_ug</text></tag>
     <tag><text>lang:en</text></tag>
     <tag><text>lang:bn</text></tag>
     <tag><text>subject:chemistry</text></tag>
+    <tag><text>class:11</text></tag>
     <tag><text>chapter:hydrocarbons</text></tag>
     <tag><text>typology:mcq</text></tag>
     <tag><text>difficulty:medium</text></tag>
     <tag><text>blooms:understand</text></tag>
-    <tag><text>calculation:light</text></tag>
     <tag><text>media:text</text></tag>
-    <tag><text>multiconcept:true</text></tag>
+    <tag><text>multiconcept:false</text></tag>
   </tags>
 </question>
 <question type="multichoice">
-  <name><text>NEET_UG_CHEMISTRY_HYDROCARBONS_MCQ_Q17 - Relative stability of carbocations</text></name>
-  <questiontext format="html">
-    <text><![CDATA[<p>Which of the following are correct?</p>
-<hr/>
-<p>নিচের বিবৃতিগুলির মধ্যে কোনগুলি সঠিক?</p>]]></text>
-  </questiontext>
-  <generalfeedback format="html">
-    <text><![CDATA[<p><strong>Step 1: Evaluation of \(\mathrm{CH}_3-\mathrm{O}-\mathrm{CH}_2^{\oplus}\) versus \(\mathrm{CH}_3-\mathrm{CH}_2^{\oplus}\)</strong><br/>In the methoxymethyl carbocation (\(\mathrm{CH}_3-\mathrm{O}-\mathrm{CH}_2^{\oplus}\)), the lone pair of electrons on the adjacent oxygen atom is donated to the vacant \(p\)-orbital of the carbocation carbon via \(+R\) (resonance) stabilization: \[\mathrm{CH}_3-\ddot{\mathrm{O}}-\mathrm{CH}_2^{\oplus} \longleftrightarrow \mathrm{CH}_3-\overset{\oplus}{\mathrm{O}}=\mathrm{CH}_2\] In this resonance contributor, every atom (including carbon and oxygen) attains a complete octet of electrons, which provides exceptional thermodynamic stability. In contrast, the ethyl carbocation (\(\mathrm{CH}_3-\mathrm{CH}_2^{\oplus}\)) is stabilized only by weak hyperconjugation (3 \(\alpha\)-hydrogens) and inductive effects. Thus, \(\mathrm{CH}_3-\mathrm{O}-\mathrm{CH}_2^{\oplus}\) is significantly more stable than \(\mathrm{CH}_3-\mathrm{CH}_2^{\oplus}\).</p>
-<p><strong>Step 2: Evaluation of \(\mathrm{CH}_2=\mathrm{CH}-\mathrm{CH}_2^{\oplus}\) versus \(\mathrm{CH}_3-\mathrm{CH}_2-\mathrm{CH}_2^{\oplus}\)</strong><br/>The allyl carbocation (\(\mathrm{CH}_2=\mathrm{CH}-\mathrm{CH}_2^{\oplus}\)) is stabilized by resonance delocalization of the positive charge across two equivalent allylic positions: \[\mathrm{CH}_2=\mathrm{CH}-\mathrm{CH}_2^{\oplus} \longleftrightarrow \mathrm{CH}_2^{\oplus}-\mathrm{CH}=\mathrm{CH}_2\] In contrast, the 1-propyl carbocation (\(\mathrm{CH}_3-\mathrm{CH}_2-\mathrm{CH}_2^{\oplus}\)) is a simple primary alkyl carbocation stabilized only by hyperconjugation (2 \(\alpha\)-hydrogens). Resonance stabilization is far more effective than hyperconjugation; hence, \(\mathrm{CH}_2=\mathrm{CH}-\mathrm{CH}_2^{\oplus}\) is more stable than \(\mathrm{CH}_3-\mathrm{CH}_2-\mathrm{CH}_2^{\oplus}\).</p>
-<p><strong>Step 3: Evaluation of the Remaining Statements</strong><br/>- \((\mathrm{CH}_3)_2\mathrm{CH}^\oplus\) is a secondary carbocation (6 \(\alpha\)-hydrogens), which is more stable than the primary 1-propyl carbocation \(\mathrm{CH}_3-\mathrm{CH}_2-\mathrm{CH}_2^\oplus\) (2 \(\alpha\)-hydrogens), so stating it is less stable is incorrect.<br/>- \(\mathrm{CH}_2=\mathrm{CH}^\oplus\) has the positive charge on an electronegative \(sp^2\)-hybridized carbon with no resonance stabilization, making it far less stable than the primary alkyl carbocation \(\mathrm{CH}_3-\mathrm{CH}_2^\oplus\), so stating it is more stable is incorrect.</p>
-<p><strong>Step 4: Conclusion</strong><br/>The correct statements are that \(\mathrm{CH}_3-\mathrm{O}-\mathrm{CH}_2^{\oplus}\) is more stable than \(\mathrm{CH}_3-\mathrm{CH}_2^{\oplus}\), and \(\mathrm{CH}_2=\mathrm{CH}-\mathrm{CH}_2^{\oplus}\) is more stable than \(\mathrm{CH}_3-\mathrm{CH}_2-\mathrm{CH}_2^{\oplus}\).</p>
-<hr/>
-<p><strong>ধাপ ১: \(\mathrm{CH}_3-\mathrm{O}-\mathrm{CH}_2^{\oplus}\) এবং \(\mathrm{CH}_3-\mathrm{CH}_2^{\oplus}\)-এর তুলনা</strong><br/>মিথক্সিমিথাইল কার্বোক্যাটায়নে (\(\mathrm{CH}_3-\mathrm{O}-\mathrm{CH}_2^{\oplus}\)) সংলগ্ন অক্সিজেন পরমাণুর নিঃসঙ্গ ইলেকট্রন জোড় রেজোন্যান্সের (\(+R\) প্রভাব) মাধ্যমে কার্বনের ফাঁকা \(p\)-অরবিটালে স্থানান্তরিত হয়: \[\mathrm{CH}_3-\ddot{\mathrm{O}}-\mathrm{CH}_2^{\oplus} \longleftrightarrow \mathrm{CH}_3-\overset{\oplus}{\mathrm{O}}=\mathrm{CH}_2\] এর ফলে প্রতিটি পরমাণুর অষ্টক পূর্ণ হয় এবং কার্বোক্যাটায়নটি অত্যন্ত স্থিতিশীল হয়। কিন্তু ইথাইল কার্বোক্যাটায়নে কেবল দুর্বল হাইপারকনজুগেশন বিদ্যমান। তাই \(\mathrm{CH}_3-\mathrm{O}-\mathrm{CH}_2^{\oplus}\)-এর স্থায়িত্ব \(\mathrm{CH}_3-\mathrm{CH}_2^{\oplus}\)-এর চেয়ে অনেক বেশি।</p>
-<p><strong>ধাপ ২: \(\mathrm{CH}_2=\mathrm{CH}-\mathrm{CH}_2^{\oplus}\) এবং \(\mathrm{CH}_3-\mathrm{CH}_2-\mathrm{CH}_2^{\oplus}\)-এর তুলনা</strong><br/>অ্যালাইল কার্বোক্যাটায়ন (\(\mathrm{CH}_2=\mathrm{CH}-\mathrm{CH}_2^{\oplus}\)) রেজোন্যান্স ডিলোক্যালাইজেশনের মাধ্যমে সুস্থিত হয়: \[\mathrm{CH}_2=\mathrm{CH}-\mathrm{CH}_2^{\oplus} \longleftrightarrow \mathrm{CH}_2^{\oplus}-\mathrm{CH}=\mathrm{CH}_2\] পক্ষান্তরে 1-প্রোপাইল কার্বোক্যাটায়ন একটি প্রাইমারি কার্বোক্যাটায়ন যা কেবল হাইপারকনজুগেশন (২টি \(\alpha\)-হাইড্রোজেন) দ্বারা সুস্থিত। রেজোন্যান্সের প্রভাব হাইপারকনজুগেশনের চেয়ে অনেক শক্তিশালী হওয়ায় অ্যালাইল কার্বোক্যাটায়ন অধিক সুস্থিত।</p>
-<p><strong>ধাপ ৩: অপর বিবৃতিগুলির মূল্যায়ন</strong><br/>- \((\mathrm{CH}_3)_2\mathrm{CH}^\oplus\) একটি ২° কার্বোক্যাটায়ন (৬টি \(\alpha\)-হাইড্রোজেন), যা ১° প্রোপাইল কার্বোক্যাটায়ন অপেক্ষা বেশি সুস্থিত; তাই এটিকে কম সুস্থিত বলা ভুল।<br/>- ভিনাইল কার্বোক্যাটায়নে (\(\mathrm{CH}_2=\mathrm{CH}^\oplus\)) ধনাত্মক আধান অধিক তড়িৎ-ঋণাত্মক \(sp^2\) কার্বনে অবস্থিত হওয়ায় এটি অত্যন্ত অস্থিতিশীল; তাই এটিকে ইথাইল অপেক্ষা বেশি সুস্থিত বলা ভুল।</p>
-<p><strong>ধাপ ৪: সিদ্ধান্ত</strong><br/>সঠিক বিবৃতি দুটি হলো: \(\mathrm{CH}_3-\mathrm{O}-\mathrm{CH}_2^{\oplus}\) এর স্থায়িত্ব \(\mathrm{CH}_3-\mathrm{CH}_2^{\oplus}\) অপেক্ষা বেশি, এবং \(\mathrm{CH}_2=\mathrm{CH}-\mathrm{CH}_2^{\oplus}\) এর স্থায়িত্ব \(\mathrm{CH}_3-\mathrm{CH}_2-\mathrm{CH}_2^{\oplus}\) অপেক্ষা বেশি।</p>]]></text>
-  </generalfeedback>
+  <name><text>CHEMISTRY_HYDROCARBONS_MCQ_Q17 - Relative stability of carbocations</text></name>
+  <questiontext format="html"><text><![CDATA[<p>Which of the following are correct?</p><hr/><p>নিচের কোনগুলি সঠিক?</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>Carbocation stability is enhanced by resonance delocalization of the positive charge (including lone-pair donation or \(\pi\)-bond conjugation), hyperconjugation, and \(+I\) inductive effects, whereas placing a positive charge on a more electronegative \(sp^2\)-hybridized carbon reduces stability.</p><p><strong>Step 2: Evaluation</strong><br/>In \(\mathrm{CH}_3-\mathrm{O}-\mathrm{CH}_2^{\oplus}\), the lone pair on oxygen delocalizes into the empty \(p\)-orbital of carbon via resonance (\(\mathrm{CH}_3-\ddot{\mathrm{O}}-\mathrm{CH}_2^{\oplus} \leftrightarrow \mathrm{CH}_3-\overset{\oplus}{\mathrm{O}}=\mathrm{CH}_2\)), making it much more stable than \(\mathrm{CH}_3-\mathrm{CH}_2^{\oplus}\). Similarly, the allylic carbocation \(\mathrm{CH}_2=\mathrm{CH}-\mathrm{CH}_2^{\oplus}\) is resonance-stabilized (\(\mathrm{CH}_2=\mathrm{CH}-\mathrm{CH}_2^{\oplus} \leftrightarrow \overset{\oplus}{\mathrm{C}}\mathrm{H}_2-\mathrm{CH}=\mathrm{CH}_2\)) and hence more stable than the primary propyl carbocation \(\mathrm{CH}_3-\mathrm{CH}_2-\mathrm{CH}_2^{\oplus}\).</p><p><strong>Step 3: Application</strong><br/>Conversely, \((\mathrm{CH}_3)_2\mathrm{CH}^{\oplus}\) (secondary, \(6\ \alpha\)-H) is more stable than \(\mathrm{CH}_3-\mathrm{CH}_2-\mathrm{CH}_2^{\oplus}\) (primary, \(2\ \alpha\)-H), and the vinyl carbocation \(\mathrm{CH}_2=\mathrm{CH}^{\oplus}\) (positive charge on a more electronegative \(sp^2\) carbon) is less stable than \(\mathrm{CH}_3-\mathrm{CH}_2^{\oplus}\) (positive charge on a less electronegative \(sp^3\)-derived carbon).</p><p><strong>Step 4: Final Conclusion</strong><br/>The correct statements are that \(\mathrm{CH}_3-\mathrm{O}-\mathrm{CH}_2^{\oplus}\) is more stable than \(\mathrm{CH}_3-\mathrm{CH}_2^{\oplus}\) and \(\mathrm{CH}_2=\mathrm{CH}-\mathrm{CH}_2^{\oplus}\) is more stable than \(\mathrm{CH}_3-\mathrm{CH}_2-\mathrm{CH}_2^{\oplus}\).</p><hr/><p><strong>ধাপ ১: মৌলিক নীতি</strong><br/>রেজোন্যান্স সঞ্চালন (নিঃসঙ্গ ইলেকট্রন জোড় বা \(\pi\)-বন্ধনের কনজুগেশন), হাইপারকনজুগেশন এবং \(+I\) প্রভাব কার্বোক্যাটায়নের স্থায়িত্ব বৃদ্ধি করে, অন্যদিকে অধিক তড়িৎঋণাত্মক \(sp^2\)-সংকরায়িত কার্বনে ধনাত্মক আধান থাকলে স্থায়িত্ব কমে যায়।</p><p><strong>ধাপ ২: মূল্যায়ন</strong><br/>\(\mathrm{CH}_3-\mathrm{O}-\mathrm{CH}_2^{\oplus}\) আয়নে অক্সিজেনের নিঃসঙ্গ ইলেকট্রন জোড় রেজোন্যান্সের মাধ্যমে ধনাত্মক আধানকে স্থায়িত্ব দান করে, তাই এটি \(\mathrm{CH}_3-\mathrm{CH}_2^{\oplus}\) অপেক্ষা অনেক বেশি স্থায়ী। একইভাবে, অ্যালাইলিক কার্বোক্যাটায়ন \(\mathrm{CH}_2=\mathrm{CH}-\mathrm{CH}_2^{\oplus}\) রেজোন্যান্স দ্বারা স্থায়ী হওয়ায় এটি প্রাইমারি প্রোপাইল কার্বোক্যাটায়ন \(\mathrm{CH}_3-\mathrm{CH}_2-\mathrm{CH}_2^{\oplus}\) অপেক্ষা বেশি স্থায়ী।</p><p><strong>ধাপ ৩: প্রয়োগ</strong><br/>অপরদিকে, \((\mathrm{CH}_3)_2\mathrm{CH}^{\oplus}\) (সেকেন্ডারি) হলো \(\mathrm{CH}_3-\mathrm{CH}_2-\mathrm{CH}_2^{\oplus}\) (প্রাইমারি) অপেক্ষা বেশি স্থায়ী, এবং ভিনাইল কার্বোক্যাটায়ন \(\mathrm{CH}_2=\mathrm{CH}^{\oplus}\) (\(sp^2\) কার্বনে ধনাত্মক আধান) হলো \(\mathrm{CH}_3-\mathrm{CH}_2^{\oplus}\) অপেক্ষা কম স্থায়ী।</p><p><strong>ধাপ ৪: চূড়ান্ত সিদ্ধান্ত</strong><br/>অতএব, সঠিক বিবৃতিগুলি হলো \(\mathrm{CH}_3-\mathrm{O}-\mathrm{CH}_2^{\oplus}\) হলো \(\mathrm{CH}_3-\mathrm{CH}_2^{\oplus}\) অপেক্ষা বেশি স্থায়ী এবং \(\mathrm{CH}_2=\mathrm{CH}-\mathrm{CH}_2^{\oplus}\) হলো \(\mathrm{CH}_3-\mathrm{CH}_2-\mathrm{CH}_2^{\oplus}\) অপেক্ষা বেশি স্থায়ী।</p>]]></text></generalfeedback>
   <defaultgrade>4.0000000</defaultgrade>
   <penalty>0.2500000</penalty>
   <hidden>0</hidden>
   <single>false</single>
   <shuffleanswers>true</shuffleanswers>
   <answernumbering>iii</answernumbering>
-  <answer fraction="50" format="html">
-    <text><![CDATA[<p>\(\mathrm{CH}_3 - \mathrm{O} - \mathrm{CH}_2^{\oplus}\) is more stable than \(\mathrm{CH}_3 - \mathrm{CH}_2^{\oplus}\)</p>]]></text>
-  </answer>
-  <answer fraction="-50" format="html">
-    <text><![CDATA[<p>\((\mathrm{CH}_3)_2\mathrm{CH}^\oplus\) is less stable than \(\mathrm{CH}_3 - \mathrm{CH}_2 - \mathrm{CH}_2^\oplus\)</p>]]></text>
-  </answer>
-  <answer fraction="50" format="html">
-    <text><![CDATA[<p>\(\mathrm{CH}_2 = \mathrm{CH} - \mathrm{CH}_2^\oplus\) is more stable than \(\mathrm{CH}_3 - \mathrm{CH}_2 - \mathrm{CH}_2^\oplus\)</p>]]></text>
-  </answer>
-  <answer fraction="-50" format="html">
-    <text><![CDATA[<p>\(\mathrm{CH}_2 = \mathrm{CH}^\oplus\) is more stable than \(\mathrm{CH}_3 - \mathrm{CH}_2^\oplus\)</p>]]></text>
-  </answer>
+  <answer fraction="50" format="html"><text><![CDATA[<p>\(\mathrm{CH}_3 - \mathrm{O} - \mathrm{CH}_2^{\oplus}\) is more stable than \(\mathrm{CH}_3 - \mathrm{CH}_2^{\oplus}\)</p>]]></text></answer>
+  <answer fraction="-50" format="html"><text><![CDATA[<p>\((\mathrm{CH}_3)_2\mathrm{CH}^\oplus\) is less stable than \(\mathrm{CH}_3 - \mathrm{CH}_2 - \mathrm{CH}_2^\oplus\)</p>]]></text></answer>
+  <answer fraction="50" format="html"><text><![CDATA[<p>\(\mathrm{CH}_2 = \mathrm{CH} - \mathrm{CH}_2^\oplus\) is more stable than \(\mathrm{CH}_3 - \mathrm{CH}_2 - \mathrm{CH}_2^\oplus\)</p>]]></text></answer>
+  <answer fraction="-50" format="html"><text><![CDATA[<p>\(\mathrm{CH}_2 = \mathrm{CH}^\oplus\) is more stable than \(\mathrm{CH}_3 - \mathrm{CH}_2^\oplus\)</p>]]></text></answer>
   <tags>
     <tag><text>standard:neet_ug</text></tag>
     <tag><text>lang:en</text></tag>
     <tag><text>lang:bn</text></tag>
     <tag><text>subject:chemistry</text></tag>
+    <tag><text>class:11</text></tag>
     <tag><text>chapter:hydrocarbons</text></tag>
     <tag><text>typology:mcq</text></tag>
     <tag><text>difficulty:medium</text></tag>
     <tag><text>blooms:analyze</text></tag>
-    <tag><text>calculation:light</text></tag>
-    <tag><text>media:equation</text></tag>
-    <tag><text>multiconcept:true</text></tag>
+    <tag><text>media:text</text></tag>
+    <tag><text>multiconcept:false</text></tag>
   </tags>
 </question>
 <question type="multichoice">
-  <name><text>NEET_UG_CHEMISTRY_HYDROCARBONS_MCQ_Q19 - Identification of molecules having a dipole moment</text></name>
-  <questiontext format="html">
-    <text><![CDATA[<p>The molecules having dipole moment are ______.</p>
-<hr/>
-<p>নিচের কোন অণুগুলির দ্বিমেরু ভ্রামক (dipole moment) রয়েছে?</p>]]></text>
-  </questiontext>
-  <generalfeedback format="html">
-    <text><![CDATA[<p><strong>Step 1: Symmetry and Dipole Moment in Highly Symmetric Alkanes</strong><br/>- 2,2-Dimethylpropane (neopentane) has a perfectly tetrahedral geometry (\(T_d\) point group) around the central carbon atom. The four identical methyl groups produce bond dipole vectors that cancel out completely in three dimensions, resulting in a net dipole moment of zero (\(\mu = 0\)).<br/>- 2,2,3,3-Tetramethylbutane is centrosymmetric and highly symmetrical; the individual \(\mathrm{C-C}\) and \(\mathrm{C-H}\) bond dipoles cancel out symmetrically, resulting in a net dipole moment of zero (\(\mu = 0\)).</p>
-<p><strong>Step 2: Vector Analysis of Alkene Isomers</strong><br/>- In <em>trans</em>-pent-2-ene (\(\mathrm{CH}_3-\mathrm{CH}=\mathrm{CH}-\mathrm{CH}_2\mathrm{CH}_3\)), the two alkyl groups attached to the double bond are different: a methyl group on one side and an ethyl group on the other. Because the electron-donating inductive tendencies and bond dipole magnitudes of methyl and ethyl groups are unequal, their bond dipole vectors do not cancel out completely across the <em>trans</em> double bond, resulting in a small net dipole moment (\(\mu \neq 0\)).<br/>- In <em>cis</em>-hex-3-ene (\(\mathrm{CH}_3\mathrm{CH}_2-\mathrm{CH}=\mathrm{CH}-\mathrm{CH}_2\mathrm{CH}_3\)), both ethyl groups reside on the same side of the double bond. The \(sp^3\)-to-\(sp^2\) carbon bond dipole moments reinforce each other vectorially in the same direction, resulting in a permanent net dipole moment (\(\mu \neq 0\)).</p>
-<p><strong>Step 3: Conclusion</strong><br/>The molecules possessing a non-zero dipole moment are <em>trans</em>-pent-2-ene and <em>cis</em>-hex-3-ene.</p>
-<hr/>
-<p><strong>ধাপ ১: প্রতিসম অ্যালকেনসমূহের দ্বিমেরু ভ্রামক বিশ্লেষণ</strong><br/>- 2,2-ডাইমিথাইলপ্রোপেন (নিওপেন্টেন) কেন্দ্রীয় কার্বনের চারপাশে সুষম চতুস্তলকীয় জ্যামিতি ধারণ করে। চারটি মিথাইল মূলকের বন্ধন ভ্রামক পরস্পরকে সম্পূর্ণরূপে প্রশমিত করে, ফলে মোট দ্বিমেরু ভ্রামক শূন্য হয় (\(\mu = 0\))।<br/>- 2,2,3,3-টেট্রামিথাইলবিউটেন অত্যন্ত প্রতিসম অণু হওয়ায় এর পৃথক বন্ধন ভ্রামকগুলি প্রতিসাম্যের কারণে পরস্পরকে বাতিল করে দেয়, ফলে দ্বিমেরু ভ্রামক শূন্য হয় (\(\mu = 0\))।</p>
-<p><strong>ধাপ ২: অ্যালকিন সমাবয়বীসমূহের ভেক্টর বিশ্লেষণ</strong><br/>- <em>trans</em>-পেন্ট-2-ইন-এ (\(\mathrm{CH}_3-\mathrm{CH}=\mathrm{CH}-\mathrm{CH}_2\mathrm{CH}_3\)) দ্বিবন্ধনের দুই পাশে দুটি ভিন্ন অ্যালকিল মূলক (মিথাইল ও ইথাইল) যুক্ত থাকে। মিথাইল ও ইথাইল মূলকের ইলেকট্রন প্রদানকারী ক্ষমতা ও বন্ধন ভ্রামকের মান অসমান হওয়ায় <em>trans</em> অবস্থানে থেকেও এরা পরস্পরকে সম্পূর্ণরূপে প্রশমিত করতে পারে না; ফলে অণুটির একটি লব্ধি দ্বিমেরু ভ্রামক থাকে (\(\mu \neq 0\))।<br/>- <em>cis</em>-হেক্স-3-ইন-এ (\(\mathrm{CH}_3\mathrm{CH}_2-\mathrm{CH}=\mathrm{CH}-\mathrm{CH}_2\mathrm{CH}_3\)) দুটি ইথাইল মূলক দ্বিবন্ধনের একই পাশে অবস্থিত। ফলে এদের বন্ধন ভ্রামকগুলি ভেক্টর সমষ্টির মাধ্যমে পরস্পরের সাথে যুক্ত হয়ে একটি স্থায়ী লব্ধি দ্বিমেরু ভ্রামক সৃষ্টি করে (\(\mu \neq 0\))।</p>
-<p><strong>ধাপ ৩: সিদ্ধান্ত</strong><br/>অতএব, যেসব অণুর দ্বিমেরু ভ্রামক রয়েছে সেগুলি হলো <em>trans</em>-পেন্ট-2-ইন এবং <em>cis</em>-হেক্স-3-ইন।</p>]]></text>
-  </generalfeedback>
+  <name><text>CHEMISTRY_HYDROCARBONS_MCQ_Q19 - Molecules having non-zero dipole moment</text></name>
+  <questiontext format="html"><text><![CDATA[<p>The molecules having dipole moment are</p><hr/><p>যে অণুগুলির দ্বিমেরু ভ্রামক (dipole moment) রয়েছে সেগুলি হলো</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>The net dipole moment of a molecule is the vector sum of all individual bond dipole moments. Symmetrical molecules in which bond dipoles cancel each other completely have zero net dipole moment, whereas unsymmetrical molecules have a non-zero dipole moment.</p><p><strong>Step 2: Evaluation</strong><br/>2,2-Dimethylpropane (neopentane) has a completely symmetrical tetrahedral geometry, and 2,2,3,3-tetramethylbutane is also completely symmetrical; thus, all bond dipoles cancel out, giving zero net dipole moment for both.</p><p><strong>Step 3: Application</strong><br/>In <em>trans</em>-pent-2-ene, the two alkyl groups attached across the double bond are different (a methyl group and an ethyl group), so their bond dipoles do not cancel completely, resulting in a small net dipole moment. In <em>cis</em>-hex-3-ene, both ethyl groups lie on the same side of the double bond, so their dipole vectors add up to give a non-zero resultant dipole moment.</p><p><strong>Step 4: Final Conclusion</strong><br/>The molecules having a non-zero dipole moment are <em>trans</em>-pent-2-ene and <em>cis</em>-hex-3-ene.</p><hr/><p><strong>ধাপ ১: মৌলিক নীতি</strong><br/>কোনো অণুর লব্ধি দ্বিমেরু ভ্রামক হলো তার সমস্ত বন্ধন দ্বিমেরু ভ্রামকের ভেক্টর যোগফল। যে প্রতিসম অণুগুলিতে বন্ধন দ্বিমেরুগুলি পরস্পরকে সম্পূর্ণরূপে প্রশমিত করে, তাদের লব্ধি দ্বিমেরু ভ্রামক শূন্য হয়; কিন্তু অপ্রতিসম অণুগুলির অশূন্য দ্বিমেরু ভ্রামক থাকে।</p><p><strong>ধাপ ২: মূল্যায়ন</strong><br/>2,2-ডাইমিথাইলপ্রোপেন (নিওপেন্টেন) এবং 2,2,3,3-টেট্রামিথাইলবিউটেন উভয়ই সম্পূর্ণ প্রতিসম হওয়ায় এদের বন্ধন দ্বিমেরুগুলি পরস্পরকে প্রশমিত করে এবং লব্ধি দ্বিমেরু ভ্রামক শূন্য হয়।</p><p><strong>ধাপ ৩: প্রয়োগ</strong><br/><em>trans</em>-পেন্ট-2-ইন-এ দ্বিবন্ধনের দুই পাশে দুটি ভিন্ন অ্যালকিল মূলক (মিথাইল ও ইথাইল) থাকায় এদের দ্বিমেরু ভ্রামক সম্পূর্ণরূপে প্রশমিত হয় না। <em>cis</em>-হেক্স-3-ইন-এ দুটি ইথাইল মূলক দ্বিবন্ধনের একই পাশে থাকায় এদের দ্বিমেরু ভ্রামকগুলি যুক্ত হয়ে একটি অশূন্য লব্ধি দ্বিমেরু ভ্রামক তৈরি করে।</p><p><strong>ধাপ ৪: চূড়ান্ত সিদ্ধান্ত</strong><br/>যে অণুগুলির দ্বিমেরু ভ্রামক রয়েছে সেগুলি হলো <em>trans</em>-Pent-2-ene এবং <em>cis</em>-Hex-3-ene।</p>]]></text></generalfeedback>
   <defaultgrade>4.0000000</defaultgrade>
   <penalty>0.2500000</penalty>
   <hidden>0</hidden>
   <single>false</single>
   <shuffleanswers>true</shuffleanswers>
   <answernumbering>iii</answernumbering>
-  <answer fraction="-50" format="html">
-    <text><![CDATA[<p>2,2-Dimethylpropane</p>]]></text>
-  </answer>
-  <answer fraction="50" format="html">
-    <text><![CDATA[<p>trans-Pent-2-ene</p>]]></text>
-  </answer>
-  <answer fraction="50" format="html">
-    <text><![CDATA[<p>cis-Hex-3-ene</p>]]></text>
-  </answer>
-  <answer fraction="-50" format="html">
-    <text><![CDATA[<p>2, 2, 3, 3 - Tetramethylbutane.</p>]]></text>
-  </answer>
+  <answer fraction="-50" format="html"><text><![CDATA[<p>2,2-Dimethylpropane</p>]]></text></answer>
+  <answer fraction="50" format="html"><text><![CDATA[<p>trans-Pent-2-ene</p>]]></text></answer>
+  <answer fraction="50" format="html"><text><![CDATA[<p>cis-Hex-3-ene</p>]]></text></answer>
+  <answer fraction="-50" format="html"><text><![CDATA[<p>2, 2, 3, 3 - Tetramethylbutane</p>]]></text></answer>
   <tags>
     <tag><text>standard:neet_ug</text></tag>
     <tag><text>lang:en</text></tag>
     <tag><text>lang:bn</text></tag>
     <tag><text>subject:chemistry</text></tag>
+    <tag><text>class:11</text></tag>
     <tag><text>chapter:hydrocarbons</text></tag>
     <tag><text>typology:mcq</text></tag>
     <tag><text>difficulty:medium</text></tag>
     <tag><text>blooms:analyze</text></tag>
-    <tag><text>calculation:light</text></tag>
     <tag><text>media:text</text></tag>
     <tag><text>multiconcept:false</text></tag>
   </tags>

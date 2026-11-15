@@ -1,4 +1,453 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <quiz>
-
+<question type="multichoice">
+  <name><text>NEETUG_PHYSICS_MOTIONINAPLANE_MCQI_Q4_1 - Angle between two given perpendicular vectors</text></name>
+  <questiontext format="html"><text><![CDATA[<p>The angle between \(\mathbf{A} = \hat{\mathbf{i}} + \hat{\mathbf{j}}\) and \(\mathbf{B} = \hat{\mathbf{i}} - \hat{\mathbf{j}}\) is</p><hr/><p>\(\mathbf{A} = \hat{\mathbf{i}} + \hat{\mathbf{j}}\) और \(\mathbf{B} = \hat{\mathbf{i}} - \hat{\mathbf{j}}\) के बीच का कोण है</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>We are given two vectors \(\mathbf{A} = \hat{\mathbf{i}} + \hat{\mathbf{j}}\) and \(\mathbf{B} = \hat{\mathbf{i}} - \hat{\mathbf{j}}\).</p><p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>\(\hat{\mathbf{i}}\) and \(\hat{\mathbf{j}}\) are orthogonal unit vectors along the positive \(X\)-axis and positive \(Y\)-axis, respectively.</p><p><strong>Step 3: Relevant Formulae and Principles</strong><br/>The dot product of two vectors \(\mathbf{A}\) and \(\mathbf{B}\) is given by \(\mathbf{A} \cdot \mathbf{B} = |\mathbf{A}||\mathbf{B}|\cos\theta\), where \(\theta\) is the angle between them.</p><p><strong>Step 4: Step-by-Step Working</strong><br/>Calculating the dot product:<br/>\(\mathbf{A} \cdot \mathbf{B} = (\hat{\mathbf{i}} + \hat{\mathbf{j}}) \cdot (\hat{\mathbf{i}} - \hat{\mathbf{j}}) = (1)(1) + (1)(-1) = 1 - 1 = 0\).<br/>Since \(|\mathbf{A}| = \sqrt{1^2 + 1^2} = \sqrt{2} \neq 0\) and \(|\mathbf{B}| = \sqrt{1^2 + (-1)^2} = \sqrt{2} \neq 0\), we have \(\cos\theta = 0\), which gives \(\theta = 90^\circ\).</p><p><strong>Step 5: Check and Final Answer</strong><br/>The dot product is zero for non-zero vectors, confirming they are perpendicular. The angle between the two vectors is \(90^\circ\).</p><hr/><p><strong>चरण 1: दिए गए आँकड़े और शर्तें</strong><br/>हमें दो सदिश \(\mathbf{A} = \hat{\mathbf{i}} + \hat{\mathbf{j}}\) और \(\mathbf{B} = \hat{\mathbf{i}} - \hat{\mathbf{j}}\) दिए गए हैं।</p><p><strong>चरण 2: मान्यताएँ और चिह्न परिपाटी</strong><br/>\(\hat{\mathbf{i}}\) और \(\hat{\mathbf{j}}\) क्रमशः धनात्मक \(X\)-अक्ष और धनात्मक \(Y\)-अक्ष के अनुदिश परस्पर लंबवत एकांक सदिश हैं।</p><p><strong>चरण 3: संबंधित सूत्र और सिद्धांत</strong><br/>दो सदिशों \(\mathbf{A}\) और \(\mathbf{B}\) का अदिश गुणनफल \(\mathbf{A} \cdot \mathbf{B} = |\mathbf{A}||\mathbf{B}|\cos\theta\) होता है, जहाँ \(\theta\) उनके बीच का कोण है।</p><p><strong>चरण 4: चरण-दर-चरण गणना</strong><br/>अदिश गुणनफल की गणना करने पर:<br/>\(\mathbf{A} \cdot \mathbf{B} = (\hat{\mathbf{i}} + \hat{\mathbf{j}}) \cdot (\hat{\mathbf{i}} - \hat{\mathbf{j}}) = (1)(1) + (1)(-1) = 1 - 1 = 0\)।<br/>चूँकि \(|\mathbf{A}| = \sqrt{1^2 + 1^2} = \sqrt{2} \neq 0\) और \(|\mathbf{B}| = \sqrt{1^2 + (-1)^2} = \sqrt{2} \neq 0\), इसलिए \(\cos\theta = 0\), जिससे \(\theta = 90^\circ\) प्राप्त होता है।</p><p><strong>चरण 5: जाँच और अंतिम उत्तर</strong><br/>अशून्य सदिशों के लिए अदिश गुणनफल शून्य है, जो पुष्टि करता है कि वे परस्पर लंबवत हैं। दोनों सदिशों के बीच का कोण \(90^\circ\) है।</p>]]></text></generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="0" format="html"><text><![CDATA[<p>\(45^{\circ}\)</p>]]></text></answer>
+  <answer fraction="100" format="html"><text><![CDATA[<p>\(90^{\circ}\)</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>\(-45^{\circ}\)</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>\(180^{\circ}\)</p>]]></text></answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:hi</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>section:mcq_i</text></tag>
+    <tag><text>class:11</text></tag>
+    <tag><text>chapter:motion_in_a_plane</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:easy</text></tag>
+    <tag><text>blooms:apply</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:equation</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+<question type="multichoice">
+  <name><text>NEETUG_PHYSICS_MOTIONINAPLANE_MCQI_Q4_2 - Fundamental property of a scalar quantity</text></name>
+  <questiontext format="html"><text><![CDATA[<p>Which one of the following statements is true?</p><hr/><p>निम्नलिखित में से कौन-सा कथन सत्य है?</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>A scalar quantity is completely specified by its magnitude (and unit) alone and has no direction. Because it has no directional dependence, it remains invariant under rotation of the coordinate axes.</p><p><strong>Step 2: Evaluation</strong><br/>Scalars need not be conserved in physical processes (for example, kinetic energy or temperature can change). They can take negative values (such as temperature in Celsius or electric charge), and they can vary from point to point in space (such as gravitational potential). However, observers using differently oriented coordinate axes will measure the exact same value for a scalar quantity.</p><p><strong>Step 3: Final Conclusion</strong><br/>Therefore, the true statement is that a scalar quantity has the same value for observers with different orientations of the axes.</p><hr/><p><strong>चरण 1: अवधारणात्मक सिद्धांत</strong><br/>एक अदिश राशि को केवल उसके परिमाण (और मात्रक) द्वारा पूर्णतः व्यक्त किया जाता है और इसकी कोई दिशा नहीं होती है। दिशा पर निर्भर न होने के कारण, यह निर्देशांक अक्षों के घूर्णन के अंतर्गत अपरिवर्तित रहती है।</p><p><strong>चरण 2: मूल्यांकन</strong><br/>भौतिक प्रक्रियाओं में अदिश राशियों का संरक्षित रहना आवश्यक नहीं है (उदाहरण के लिए, गतिज ऊर्जा या तापमान बदल सकते हैं)। वे ऋणात्मक मान ले सकती हैं (जैसे सेल्सियस में तापमान या विद्युत आवेश), और वे स्थान में एक बिंदु से दूसरे बिंदु तक भिन्न हो सकती हैं (जैसे गुरुत्वीय विभव)। तथापि, विभिन्न अभिविन्यास वाले निर्देशांक अक्षों का उपयोग करने वाले प्रेक्षकों के लिए किसी अदिश राशि का मान समान रहता है।</p><p><strong>चरण 3: अंतिम निष्कर्ष</strong><br/>अतः, सत्य कथन यह है कि अक्षों के विभिन्न अभिविन्यास वाले प्रेक्षकों के लिए किसी अदिश राशि का मान समान होता है।</p>]]></text></generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="0" format="html"><text><![CDATA[<p>A scalar quantity is the one that is conserved in a process.</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>A scalar quantity is the one that can never take negative values.</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>A scalar quantity is the one that does not vary from one point to another in space.</p>]]></text></answer>
+  <answer fraction="100" format="html"><text><![CDATA[<p>A scalar quantity has the same value for observers with different orientations of the axes.</p>]]></text></answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:hi</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>section:mcq_i</text></tag>
+    <tag><text>class:11</text></tag>
+    <tag><text>chapter:motion_in_a_plane</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:easy</text></tag>
+    <tag><text>blooms:understand</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:text</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+<question type="multichoice">
+  <name><text>NEETUG_PHYSICS_MOTIONINAPLANE_MCQI_Q4_3 - Signs of components of two vectors in XY plane</text></name>
+  <questiontext format="html"><text><![CDATA[<p>Figure 4.1 shows the orientation of two vectors \(\mathbf{u}\) and \(\mathbf{v}\) in the \(XY\) plane.</p><p>If \(\mathbf{u} = a\hat{\mathbf{i}} + b\hat{\mathbf{j}}\) and \(\mathbf{v} = p\hat{\mathbf{i}} + q\hat{\mathbf{j}}\)</p><p><img src="@@PLUGINFILE@@/img-0.jpeg" alt="Orientation of vectors u and v in the XY plane" /></p><p>which of the following is correct?</p><hr/><p>चित्र 4.1 में \(XY\) तल में दो सदिशों \(\mathbf{u}\) और \(\mathbf{v}\) का अभिविन्यास दर्शाया गया है।</p><p>यदि \(\mathbf{u} = a\hat{\mathbf{i}} + b\hat{\mathbf{j}}\) तथा \(\mathbf{v} = p\hat{\mathbf{i}} + q\hat{\mathbf{j}}\) हो, तो निम्नलिखित में से कौन-सा सही है?</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>From the given diagram in the \(XY\) plane, vector \(\mathbf{u} = a\hat{\mathbf{i}} + b\hat{\mathbf{j}}\) originates at the origin \(O\) and points into the first quadrant (upward and to the right). Vector \(\mathbf{v} = p\hat{\mathbf{i}} + q\hat{\mathbf{j}}\) starts from the head of \(\mathbf{u}\) and points downward and slightly to the right.</p><p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>Directions along the positive \(X\)-axis (to the right) and positive \(Y\)-axis (upward) are taken as positive, while directions to the left and downward are negative.</p><p><strong>Step 3: Relevant Formulae and Principles</strong><br/>For any vector \(\mathbf{r} = x\hat{\mathbf{i}} + y\hat{\mathbf{j}}\), \(x\) is the horizontal displacement from its tail to its head, and \(y\) is the vertical displacement from its tail to its head.</p><p><strong>Step 4: Step-by-Step Working</strong><br/>For vector \(\mathbf{u}\): moving from tail to head goes to the right (\(a &gt; 0\)) and upward (\(b &gt; 0\)).<br/>For vector \(\mathbf{v}\): moving from tail to head goes to the right (\(p &gt; 0\)) and downward (\(q &lt; 0\)).</p><p><strong>Step 5: Check and Final Answer</strong><br/>Thus, \(a\), \(p\), and \(b\) are positive while \(q\) is negative.</p><hr/><p><strong>चरण 1: दिए गए आँकड़े और शर्तें</strong><br/>\(XY\) तल में दिए गए चित्र से, सदिश \(\mathbf{u} = a\hat{\mathbf{i}} + b\hat{\mathbf{j}}\) मूल बिंदु \(O\) से प्रारंभ होकर प्रथम चतुर्थांश (ऊपर और दाईं ओर) की ओर इंगित करता है। सदिश \(\mathbf{v} = p\hat{\mathbf{i}} + q\hat{\mathbf{j}}\) सदिश \(\mathbf{u}\) के शीर्ष से प्रारंभ होकर नीचे और थोड़ा दाईं ओर इंगित करता है।</p><p><strong>चरण 2: मान्यताएँ और चिह्न परिपाटी</strong><br/>धनात्मक \(X\)-अक्ष (दाईं ओर) और धनात्मक \(Y\)-अक्ष (ऊपर की ओर) की दिशाओं को धनात्मक माना जाता है, जबकि बाईं ओर और नीचे की दिशाओं को ऋणात्मक माना जाता है।</p><p><strong>चरण 3: संबंधित सूत्र और सिद्धांत</strong><br/>किसी भी सदिश \(\mathbf{r} = x\hat{\mathbf{i}} + y\hat{\mathbf{j}}\) के लिए, \(x\) उसकी पूँछ से शीर्ष तक क्षैतिज विस्थापन है, और \(y\) उसकी पूँछ से शीर्ष तक ऊर्ध्वाधर विस्थापन है।</p><p><strong>चरण 4: चरण-दर-चरण गणना</strong><br/>सदिश \(\mathbf{u}\) के लिए: पूँछ से शीर्ष की ओर जाने पर दाईं ओर (\(a &gt; 0\)) और ऊपर की ओर (\(b &gt; 0\)) विस्थापन होता है।<br/>सदिश \(\mathbf{v}\) के लिए: पूँछ से शीर्ष की ओर जाने पर दाईं ओर (\(p &gt; 0\)) और नीचे की ओर (\(q &lt; 0\)) विस्थापन होता है।</p><p><strong>चरण 5: जाँच और अंतिम उत्तर</strong><br/>इस प्रकार, \(a\), \(p\) और \(b\) धनात्मक हैं जबकि \(q\) ऋणात्मक है।</p>]]></text></generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="0" format="html"><text><![CDATA[<p>\(a\) and \(p\) are positive while \(b\) and \(q\) are negative.</p>]]></text></answer>
+  <answer fraction="100" format="html"><text><![CDATA[<p>\(a\), \(p\) and \(b\) are positive while \(q\) is negative.</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>\(a\), \(q\) and \(b\) are positive while \(p\) is negative.</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>\(a\), \(b\), \(p\) and \(q\) are all positive.</p>]]></text></answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:hi</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>section:mcq_i</text></tag>
+    <tag><text>class:11</text></tag>
+    <tag><text>chapter:motion_in_a_plane</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:easy</text></tag>
+    <tag><text>blooms:analyze</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:diagram</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+<question type="multichoice">
+  <name><text>NEETUG_PHYSICS_MOTIONINAPLANE_MCQI_Q4_4 - Maximum component of a vector along X-axis</text></name>
+  <questiontext format="html"><text><![CDATA[<p>The component of a vector \(\mathbf{r}\) along X-axis will have maximum value if</p><hr/><p>किसी सदिश \(\mathbf{r}\) के X-अक्ष के अनुदिश घटक का मान अधिकतम होगा यदि</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>The component of a vector \(\mathbf{r}\) of magnitude \(r\) along the positive \(X\)-axis is given by \(r_x = r\cos\theta\), where \(\theta\) is the angle between \(\mathbf{r}\) and the positive \(X\)-axis.</p><p><strong>Step 2: Evaluation</strong><br/>Since the cosine function has a maximum value of \(+1\) when \(\theta = 0^\circ\), the component \(r_x\) achieves its maximum possible value of \(r\) when \(\mathbf{r}\) points directly along the positive \(X\)-axis. Along the positive or negative \(Y\)-axis, \(\theta = 90^\circ\), making \(r_x = 0\); at \(45^\circ\), \(r_x = r/\sqrt{2} &lt; r\).</p><p><strong>Step 3: Final Conclusion</strong><br/>Hence, the component of \(\mathbf{r}\) along the \(X\)-axis is maximum when \(\mathbf{r}\) is along the positive \(X\)-axis.</p><hr/><p><strong>चरण 1: अवधारणात्मक सिद्धांत</strong><br/>परिमाण \(r\) वाले किसी सदिश \(\mathbf{r}\) का धनात्मक \(X\)-अक्ष के अनुदिश घटक \(r_x = r\cos\theta\) होता है, जहाँ \(\theta\) सदिश \(\mathbf{r}\) और धनात्मक \(X\)-अक्ष के बीच का कोण है।</p><p><strong>चरण 2: मूल्यांकन</strong><br/>चूँकि \(\theta = 0^\circ\) होने पर कोज्या फलन का अधिकतम मान \(+1\) होता है, इसलिए घटक \(r_x\) का अधिकतम मान \(r\) तब प्राप्त होता है जब \(\mathbf{r}\) सीधे धनात्मक \(X\)-अक्ष के अनुदिश हो। धनात्मक या ऋणात्मक \(Y\)-अक्ष के अनुदिश \(\theta = 90^\circ\) होने से \(r_x = 0\) होता है; तथा \(45^\circ\) पर \(r_x = r/\sqrt{2} &lt; r\) होता है।</p><p><strong>चरण 3: अंतिम निष्कर्ष</strong><br/>अतः, \(\mathbf{r}\) का \(X\)-अक्ष के अनुदिश घटक अधिकतम तब होगा जब \(\mathbf{r}\) धनात्मक \(X\)-अक्ष के अनुदिश हो।</p>]]></text></generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="0" format="html"><text><![CDATA[<p>\(\mathbf{r}\) is along positive Y-axis</p>]]></text></answer>
+  <answer fraction="100" format="html"><text><![CDATA[<p>\(\mathbf{r}\) is along positive X-axis</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>\(\mathbf{r}\) makes an angle of \(45^\circ\) with the X-axis</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>\(\mathbf{r}\) is along negative Y-axis</p>]]></text></answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:hi</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>section:mcq_i</text></tag>
+    <tag><text>class:11</text></tag>
+    <tag><text>chapter:motion_in_a_plane</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:easy</text></tag>
+    <tag><text>blooms:understand</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:text</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+<question type="multichoice">
+  <name><text>NEETUG_PHYSICS_MOTIONINAPLANE_MCQI_Q4_5 - Horizontal range of projectile at 45 degrees</text></name>
+  <questiontext format="html"><text><![CDATA[<p>The horizontal range of a projectile fired at an angle of \(15^\circ\) is \(50\text{ m}\). If it is fired with the same speed at an angle of \(45^\circ\), its range will be</p><hr/><p>\(15^\circ\) के कोण पर दागे गए किसी प्रक्षेप्य की क्षैतिज परास \(50\text{ m}\) है। यदि इसे उसी चाल से \(45^\circ\) के कोण पर दागा जाए, तो इसकी परास होगी</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>Angle of projection in first case, \(\theta_1 = 15^\circ\); horizontal range, \(R_1 = 50\text{ m}\).<br/>Angle of projection in second case, \(\theta_2 = 45^\circ\), with the same initial speed \(u\).</p><p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>The projectile is launched from and lands on the same horizontal level, and air resistance is neglected.</p><p><strong>Step 3: Relevant Formulae and Principles</strong><br/>The horizontal range of a projectile is given by \(R = \frac{u^2 \sin(2\theta)}{g}\).</p><p><strong>Step 4: Step-by-Step Working</strong><br/>For the first case:<br/>\(R_1 = \frac{u^2 \sin(2 \times 15^\circ)}{g} = \frac{u^2 \sin 30^\circ}{g} = \frac{u^2}{2g} = 50\text{ m}\).<br/>Therefore, \(\frac{u^2}{g} = 100\text{ m}\).<br/>For the second case at \(\theta_2 = 45^\circ\):<br/>\(R_2 = \frac{u^2 \sin(2 \times 45^\circ)}{g} = \frac{u^2 \sin 90^\circ}{g} = \frac{u^2}{g} = 100\text{ m}\).</p><p><strong>Step 5: Check and Final Answer</strong><br/>The range at \(45^\circ\) is the maximum range for a given speed, which is twice the range at \(15^\circ\). Hence, the range is \(100\text{ m}\).</p><hr/><p><strong>चरण 1: दिए गए आँकड़े और शर्तें</strong><br/>प्रथम स्थिति में प्रक्षेपण कोण, \(\theta_1 = 15^\circ\); क्षैतिज परास, \(R_1 = 50\text{ m}\)।<br/>द्वितीय स्थिति में प्रक्षेपण कोण, \(\theta_2 = 45^\circ\), तथा प्रारंभिक चाल \(u\) समान है।</p><p><strong>चरण 2: मान्यताएँ और चिह्न परिपाटी</strong><br/>प्रक्षेप्य को एक ही क्षैतिज स्तर से प्रक्षेपित किया जाता है और वह उसी स्तर पर गिरता है, तथा वायु प्रतिरोध नगण्य माना गया है।</p><p><strong>चरण 3: संबंधित सूत्र और सिद्धांत</strong><br/>प्रक्षेप्य की क्षैतिज परास का सूत्र \(R = \frac{u^2 \sin(2\theta)}{g}\) है।</p><p><strong>चरण 4: चरण-दर-चरण गणना</strong><br/>प्रथम स्थिति के लिए:<br/>\(R_1 = \frac{u^2 \sin(2 \times 15^\circ)}{g} = \frac{u^2 \sin 30^\circ}{g} = \frac{u^2}{2g} = 50\text{ m}\)।<br/>अतः, \(\frac{u^2}{g} = 100\text{ m}\)।<br/>\(\theta_2 = 45^\circ\) पर द्वितीय स्थिति के लिए:<br/>\(R_2 = \frac{u^2 \sin(2 \times 45^\circ)}{g} = \frac{u^2 \sin 90^\circ}{g} = \frac{u^2}{g} = 100\text{ m}\)।</p><p><strong>चरण 5: जाँच और अंतिम उत्तर</strong><br/>दी गई चाल के लिए \(45^\circ\) पर परास अधिकतम होती है, जो \(15^\circ\) पर परास की दोगुनी है। अतः, परास \(100\text{ m}\) होगी।</p>]]></text></generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="0" format="html"><text><![CDATA[<p>\(60\text{ m}\)</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>\(71\text{ m}\)</p>]]></text></answer>
+  <answer fraction="100" format="html"><text><![CDATA[<p>\(100\text{ m}\)</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>\(141\text{ m}\)</p>]]></text></answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:hi</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>section:mcq_i</text></tag>
+    <tag><text>class:11</text></tag>
+    <tag><text>chapter:motion_in_a_plane</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:easy</text></tag>
+    <tag><text>blooms:apply</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:text</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+<question type="multichoice">
+  <name><text>NEETUG_PHYSICS_MOTIONINAPLANE_MCQI_Q4_6 - Identifying vector quantities from a given list</text></name>
+  <questiontext format="html"><text><![CDATA[<p>Consider the quantities, pressure, power, energy, impulse, gravitational potential, electrical charge, temperature, area. Out of these, the only vector quantities are</p><hr/><p>दाब, शक्ति, ऊर्जा, आवेग, गुरुत्वीय विभव, विद्युत आवेश, ताप, क्षेत्रफल राशियों पर विचार कीजिए। इनमें से केवल सदिश राशियाँ हैं</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>A vector quantity possesses both magnitude and direction and obeys the laws of vector addition. A scalar quantity has only magnitude.</p><p><strong>Step 2: Evaluation</strong><br/>Among the listed quantities:<br/>- Impulse (\(\mathbf{J} = \mathbf{F}\Delta t = \Delta\mathbf{p}\)) has both magnitude and direction, so it is a vector.<br/>- Area (\(\mathbf{A} = A\hat{\mathbf{n}}\)) is treated as a vector directed along the outward normal to the surface.<br/>- Pressure, power, energy, gravitational potential, electrical charge, and temperature have no associated direction and are scalar quantities.</p><p><strong>Step 3: Final Conclusion</strong><br/>Thus, out of the given quantities, only impulse and area are vector quantities.</p><hr/><p><strong>चरण 1: अवधारणात्मक सिद्धांत</strong><br/>सदिश राशि में परिमाण और दिशा दोनों होते हैं तथा यह सदिश योग के नियमों का पालन करती है। अदिश राशि में केवल परिमाण होता है।</p><p><strong>चरण 2: मूल्यांकन</strong><br/>सूचीबद्ध राशियों में से:<br/>- आवेग (\(\mathbf{J} = \mathbf{F}\Delta t = \Delta\mathbf{p}\)) में परिमाण और दिशा दोनों होते हैं, अतः यह एक सदिश राशि है।<br/>- क्षेत्रफल (\(\mathbf{A} = A\hat{\mathbf{n}}\)) को पृष्ठ के अभिलंबवत बाहर की ओर निर्देशित एक सदिश के रूप में माना जाता है।<br/>- दाब, शक्ति, ऊर्जा, गुरुत्वीय विभव, विद्युत आवेश और ताप से कोई दिशा संबद्ध नहीं होती है और ये अदिश राशियाँ हैं।</p><p><strong>चरण 3: अंतिम निष्कर्ष</strong><br/>अतः, दी गई राशियों में से केवल आवेग और क्षेत्रफल ही सदिश राशियाँ हैं।</p>]]></text></generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="0" format="html"><text><![CDATA[<p>Impulse, pressure and area</p>]]></text></answer>
+  <answer fraction="100" format="html"><text><![CDATA[<p>Impulse and area</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>Area and gravitational potential</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>Impulse and pressure</p>]]></text></answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:hi</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>section:mcq_i</text></tag>
+    <tag><text>class:11</text></tag>
+    <tag><text>chapter:motion_in_a_plane</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:easy</text></tag>
+    <tag><text>blooms:remember</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:text</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+<question type="multichoice">
+  <name><text>NEETUG_PHYSICS_MOTIONINAPLANE_MCQI_Q4_7 - Two dimensional motion with constant positive speed</text></name>
+  <questiontext format="html"><text><![CDATA[<p>In a two dimensional motion, instantaneous speed \(v_0\) is a positive constant. Then which of the following are necessarily true?</p><hr/><p>एक द्विविमीय गति में तात्क्षणिक चाल \(v_0\) एक धनात्मक नियतांक है। तब निम्नलिखित में से कौन-सा अवश्य ही सत्य है?</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>Instantaneous speed is the rate of change of path length (distance) with respect to time: \(v_0 = \frac{ds}{dt}\).</p><p><strong>Step 2: Evaluation</strong><br/>Since \(v_0\) is a positive constant, the path length traversed in any time interval \(\Delta t\) is \(\Delta s = \int v_0 \, dt = v_0 \Delta t\), which depends only on \(\Delta t\). Thus, equal path lengths are traversed in equal time intervals. On the other hand, in two-dimensional motion (such as uniform circular motion), the direction of velocity can change continuously; therefore, average velocity can be zero over a closed loop, average acceleration need not vanish, and displacements in equal intervals need not be equal.</p><p><strong>Step 3: Final Conclusion</strong><br/>Therefore, it is necessarily true that equal path lengths are traversed in equal intervals.</p><hr/><p><strong>चरण 1: अवधारणात्मक सिद्धांत</strong><br/>तात्क्षणिक चाल समय के सापेक्ष पथ की लंबाई (दूरी) के परिवर्तन की दर होती है: \(v_0 = \frac{ds}{dt}\)।</p><p><strong>चरण 2: मूल्यांकन</strong><br/>चूँकि \(v_0\) एक धनात्मक नियतांक है, इसलिए किसी भी समय अंतराल \(\Delta t\) में तय की गई पथ की लंबाई \(\Delta s = \int v_0 \, dt = v_0 \Delta t\) होगी, जो केवल \(\Delta t\) पर निर्भर करती है। इस प्रकार, समान समय अंतरालों में समान पथ लंबाइयाँ तय की जाती हैं। दूसरी ओर, द्विविमीय गति (जैसे एकसमान वृत्तीय गति) में वेग की दिशा लगातार बदल सकती है; इसलिए बंद पथ पर औसत वेग शून्य हो सकता है, औसत त्वरण का शून्य होना आवश्यक नहीं है, और समान अंतरालों में विस्थापन का समान होना आवश्यक नहीं है।</p><p><strong>चरण 3: अंतिम निष्कर्ष</strong><br/>अतः, यह अवश्य ही सत्य है कि समान अंतरालों में समान पथ लंबाइयाँ तय की जाती हैं।</p>]]></text></generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="0" format="html"><text><![CDATA[<p>The average velocity is not zero at any time.</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>Average acceleration must always vanish.</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>Displacements in equal time intervals are equal.</p>]]></text></answer>
+  <answer fraction="100" format="html"><text><![CDATA[<p>Equal path lengths are traversed in equal intervals.</p>]]></text></answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:hi</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>section:mcq_i</text></tag>
+    <tag><text>class:11</text></tag>
+    <tag><text>chapter:motion_in_a_plane</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:medium</text></tag>
+    <tag><text>blooms:understand</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:text</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+<question type="multichoice">
+  <name><text>NEETUG_PHYSICS_MOTIONINAPLANE_MCQI_Q4_8 - Acceleration direction in two dimensional constant speed motion</text></name>
+  <questiontext format="html"><text><![CDATA[<p>In a two dimensional motion, instantaneous speed \(v_0\) is a positive constant. Then which of the following are necessarily true?</p><hr/><p>एक द्विविमीय गति में तात्क्षणिक चाल \(v_0\) एक धनात्मक नियतांक है। तब निम्नलिखित में से कौन-सा अवश्य ही सत्य है?</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>For a particle moving in a two-dimensional plane, its position vector \(\mathbf{r}(t)\) always lies within that fixed plane.</p><p><strong>Step 2: Evaluation</strong><br/>Because the position vector \(\mathbf{r}(t)\) remains in the plane of motion at all times, its first time derivative (velocity \(\mathbf{v} = \frac{d\mathbf{r}}{dt}\)) and its second time derivative (acceleration \(\mathbf{a} = \frac{d\mathbf{v}}{dt}\)) must also lie entirely within that same plane. The acceleration need not be zero (the direction of velocity can change), need not be bounded (the path could have arbitrarily sharp curvature), and the motion need not be uniform circular motion (any curved planar path at constant speed is possible).</p><p><strong>Step 3: Final Conclusion</strong><br/>Therefore, the acceleration of the particle is necessarily in the plane of motion.</p><hr/><p><strong>चरण 1: अवधारणात्मक सिद्धांत</strong><br/>एक द्विविमीय तल में गतिमान कण के लिए, उसका स्थिति सदिश \(\mathbf{r}(t)\) सदैव उसी निश्चित तल में स्थित होता है।</p><p><strong>चरण 2: मूल्यांकन</strong><br/>चूँकि स्थिति सदिश \(\mathbf{r}(t)\) हर समय गति के तल में ही रहता है, इसलिए समय के सापेक्ष इसका प्रथम अवकलज (वेग \(\mathbf{v} = \frac{d\mathbf{r}}{dt}\)) और द्वितीय अवकलज (त्वरण \(\mathbf{a} = \frac{d\mathbf{v}}{dt}\)) भी पूर्णतः उसी तल में स्थित होने चाहिए। त्वरण का शून्य होना आवश्यक नहीं है (वेग की दिशा बदल सकती है), इसका परिबद्ध होना आवश्यक नहीं है (पथ में अत्यधिक तीक्ष्ण वक्रता हो सकती है), और गति का एकसमान वृत्तीय गति होना भी आवश्यक नहीं है (नियत चाल से कोई भी वक्र समतलीय पथ संभव है)।</p><p><strong>चरण 3: अंतिम निष्कर्ष</strong><br/>अतः, कण का त्वरण अवश्य ही गति के तल में होता है।</p>]]></text></generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="0" format="html"><text><![CDATA[<p>The acceleration of the particle is zero.</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>The acceleration of the particle is bounded.</p>]]></text></answer>
+  <answer fraction="100" format="html"><text><![CDATA[<p>The acceleration of the particle is necessarily in the plane of motion.</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>The particle must be undergoing a uniform circular motion</p>]]></text></answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:hi</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>section:mcq_i</text></tag>
+    <tag><text>class:11</text></tag>
+    <tag><text>chapter:motion_in_a_plane</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:medium</text></tag>
+    <tag><text>blooms:analyze</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:text</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+<question type="multichoice">
+  <name><text>NEETUG_PHYSICS_MOTIONINAPLANE_MCQI_Q4_9 - Vector triple and scalar triple products of coplanar vectors</text></name>
+  <questiontext format="html"><text><![CDATA[<p>Three vectors \(\mathbf{A}\), \(\mathbf{B}\) and \(\mathbf{C}\) add up to zero. Find which is false.</p><hr/><p>तीन सदिश \(\mathbf{A}\), \(\mathbf{B}\) और \(\mathbf{C}\) का योग शून्य है। ज्ञात कीजिए कि कौन-सा कथन असत्य है।</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>Three vectors satisfy \(\mathbf{A} + \mathbf{B} + \mathbf{C} = \mathbf{0}\).</p><p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>Since \(\mathbf{A} + \mathbf{B} + \mathbf{C} = \mathbf{0}\), the three vectors form a closed triangle (or are collinear) and therefore must be coplanar.</p><p><strong>Step 3: Relevant Formulae and Principles</strong><br/>The cross product \(\mathbf{A} \times \mathbf{B}\) is perpendicular to the plane containing \(\mathbf{A}\) and \(\mathbf{B}\). The scalar triple product \((\mathbf{A} \times \mathbf{B}) \cdot \mathbf{C}\) equals zero whenever \(\mathbf{A}\), \(\mathbf{B}\), and \(\mathbf{C}\) are coplanar.</p><p><strong>Step 4: Step-by-Step Working</strong><br/>Since \(\mathbf{A}\), \(\mathbf{B}\), and \(\mathbf{C}\) lie in the same plane, \(\mathbf{A} \times \mathbf{B}\) is perpendicular to \(\mathbf{C}\).<br/>Therefore, \((\mathbf{A} \times \mathbf{B}) \cdot \mathbf{C} = 0\) always, even when \(\mathbf{B}\) and \(\mathbf{C}\) are not parallel.<br/>Hence, the statement claiming that \((\mathbf{A} \times \mathbf{B}) \cdot \mathbf{C}\) is not zero unless \(\mathbf{B}, \mathbf{C}\) are parallel is false.</p><p><strong>Step 5: Check and Final Answer</strong><br/>All other relations are consistent with \(\mathbf{A} + \mathbf{B} + \mathbf{C} = \mathbf{0}\). Thus, the false statement is that \((\mathbf{A} \times \mathbf{B}) \cdot \mathbf{C}\) is not zero unless \(\mathbf{B}, \mathbf{C}\) are parallel.</p><hr/><p><strong>चरण 1: दिए गए आँकड़े और शर्तें</strong><br/>तीन सदिश \(\mathbf{A} + \mathbf{B} + \mathbf{C} = \mathbf{0}\) को संतुष्ट करते हैं।</p><p><strong>चरण 2: मान्यताएँ और चिह्न परिपाटी</strong><br/>चूँकि \(\mathbf{A} + \mathbf{B} + \mathbf{C} = \mathbf{0}\) है, इसलिए तीनों सदिश एक बंद त्रिभुज बनाते हैं (या संरेख हैं) और अतः वे समतलीय होने चाहिए।</p><p><strong>चरण 3: संबंधित सूत्र और सिद्धांत</strong><br/>सदिश गुणनफल \(\mathbf{A} \times \mathbf{B}\), \(\mathbf{A}\) और \(\mathbf{B}\) वाले तल के लंबवत होता है। अदिश त्रिक गुणनफल \((\mathbf{A} \times \mathbf{B}) \cdot \mathbf{C}\) का मान शून्य होता है जब भी \(\mathbf{A}\), \(\mathbf{B}\) और \(\mathbf{C}\) समतलीय हों।</p><p><strong>चरण 4: चरण-दर-चरण गणना</strong><br/>चूँकि \(\mathbf{A}\), \(\mathbf{B}\) और \(\mathbf{C}\) एक ही तल में स्थित हैं, इसलिए \(\mathbf{A} \times \mathbf{B}\) सदिश \(\mathbf{C}\) के लंबवत होता है।<br/>अतः, \((\mathbf{A} \times \mathbf{B}) \cdot \mathbf{C} = 0\) सदैव शून्य होता है, भले ही \(\mathbf{B}\) और \(\mathbf{C}\) समानांतर न हों।<br/>इसलिए, यह कथन कि \((\mathbf{A} \times \mathbf{B}) \cdot \mathbf{C}\) शून्य नहीं है जब तक कि \(\mathbf{B}, \mathbf{C}\) समानांतर न हों, असत्य है।</p><p><strong>चरण 5: जाँच और अंतिम उत्तर</strong><br/>अन्य सभी संबंध \(\mathbf{A} + \mathbf{B} + \mathbf{C} = \mathbf{0}\) के अनुरूप हैं। अतः, असत्य कथन यह है कि \((\mathbf{A} \times \mathbf{B}) \cdot \mathbf{C}\) शून्य नहीं है जब तक कि \(\mathbf{B}, \mathbf{C}\) समानांतर न हों।</p>]]></text></generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="0" format="html"><text><![CDATA[<p>\((\mathbf{A} \times \mathbf{B}) \times \mathbf{C}\) is not zero unless \(\mathbf{B}, \mathbf{C}\) are parallel</p>]]></text></answer>
+  <answer fraction="100" format="html"><text><![CDATA[<p>\((\mathbf{A} \times \mathbf{B}) \cdot \mathbf{C}\) is not zero unless \(\mathbf{B}, \mathbf{C}\) are parallel</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>If \(\mathbf{A}, \mathbf{B}, \mathbf{C}\) define a plane, \((\mathbf{A} \times \mathbf{B}) \times \mathbf{C}\) is in that plane</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>\((\mathbf{A} \times \mathbf{B}) \cdot \mathbf{C} = |\mathbf{A}||\mathbf{B}||\mathbf{C}| \rightarrow C^2 = A^2 + B^2\)</p>]]></text></answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:hi</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>section:mcq_i</text></tag>
+    <tag><text>class:11</text></tag>
+    <tag><text>chapter:motion_in_a_plane</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:hard</text></tag>
+    <tag><text>blooms:analyze</text></tag>
+    <tag><text>calculation:moderate</text></tag>
+    <tag><text>media:equation</text></tag>
+    <tag><text>multiconcept:true</text></tag>
+  </tags>
+</question>
+<question type="multichoice">
+  <name><text>NEETUG_PHYSICS_MOTIONINAPLANE_MCQI_Q4_10 - Implication of magnitude of sum of two vectors</text></name>
+  <questiontext format="html"><text><![CDATA[<p>It is found that \(|\mathbf{A} + \mathbf{B}| = |\mathbf{A}|\). This necessarily implies,</p><hr/><p>यह पाया जाता है कि \(|\mathbf{A} + \mathbf{B}| = |\mathbf{A}|\) है। इससे अनिवार्य रूप से यह निष्कर्ष निकलता है कि</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>The magnitudes of vectors \(\mathbf{A}\) and \(\mathbf{A} + \mathbf{B}\) are equal: \(|\mathbf{A} + \mathbf{B}| = |\mathbf{A}|\).</p><p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>Let \(|\mathbf{A}| = A\) and \(|\mathbf{B}| = B\), where \(A \ge 0\) and \(B \ge 0\).</p><p><strong>Step 3: Relevant Formulae and Principles</strong><br/>For any vector \(\mathbf{V}\), \(|\mathbf{V}|^2 = \mathbf{V} \cdot \mathbf{V}\).</p><p><strong>Step 4: Step-by-Step Working</strong><br/>Squaring both sides of \(|\mathbf{A} + \mathbf{B}| = |\mathbf{A}|\):<br/>\((\mathbf{A} + \mathbf{B}) \cdot (\mathbf{A} + \mathbf{B}) = \mathbf{A} \cdot \mathbf{A}\)<br/>\(A^2 + B^2 + 2\mathbf{A} \cdot \mathbf{B} = A^2\)<br/>\(B^2 + 2\mathbf{A} \cdot \mathbf{B} = 0\)<br/>\(\mathbf{A} \cdot \mathbf{B} = -\frac{B^2}{2}\).</p><p><strong>Step 5: Check and Final Answer</strong><br/>Since \(B^2 \ge 0\) for any real vector \(\mathbf{B}\), it follows that \(-\frac{B^2}{2} \le 0\). Thus, \(\mathbf{A} \cdot \mathbf{B} \le 0\) is necessarily implied.</p><hr/><p><strong>चरण 1: दिए गए आँकड़े और शर्तें</strong><br/>सदिशों \(\mathbf{A}\) और \(\mathbf{A} + \mathbf{B}\) के परिमाण बराबर हैं: \(|\mathbf{A} + \mathbf{B}| = |\mathbf{A}|\)।</p><p><strong>चरण 2: मान्यताएँ और चिह्न परिपाटी</strong><br/>मान लीजिए \(|\mathbf{A}| = A\) तथा \(|\mathbf{B}| = B\), जहाँ \(A \ge 0\) और \(B \ge 0\) हैं।</p><p><strong>चरण 3: संबंधित सूत्र और सिद्धांत</strong><br/>किसी भी सदिश \(\mathbf{V}\) के लिए, \(|\mathbf{V}|^2 = \mathbf{V} \cdot \mathbf{V}\) होता है।</p><p><strong>चरण 4: चरण-दर-चरण गणना</strong><br/>\(|\mathbf{A} + \mathbf{B}| = |\mathbf{A}|\) के दोनों पक्षों का वर्ग करने पर:<br/>\((\mathbf{A} + \mathbf{B}) \cdot (\mathbf{A} + \mathbf{B}) = \mathbf{A} \cdot \mathbf{A}\)<br/>\(A^2 + B^2 + 2\mathbf{A} \cdot \mathbf{B} = A^2\)<br/>\(B^2 + 2\mathbf{A} \cdot \mathbf{B} = 0\)<br/>\(\mathbf{A} \cdot \mathbf{B} = -\frac{B^2}{2}\)।</p><p><strong>चरण 5: जाँच और अंतिम उत्तर</strong><br/>चूँकि किसी भी वास्तविक सदिश \(\mathbf{B}\) के लिए \(B^2 \ge 0\) होता है, इसलिए \(-\frac{B^2}{2} \le 0\) होगा। अतः, \(\mathbf{A} \cdot \mathbf{B} \le 0\) अनिवार्य रूप से निहित है।</p>]]></text></generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="0" format="html"><text><![CDATA[<p>\(\mathbf{B} = \mathbf{0}\)</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>\(\mathbf{A}, \mathbf{B}\) are antiparallel</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>\(\mathbf{A}, \mathbf{B}\) are perpendicular</p>]]></text></answer>
+  <answer fraction="100" format="html"><text><![CDATA[<p>\(\mathbf{A} \cdot \mathbf{B} \leq 0\)</p>]]></text></answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:hi</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>section:mcq_i</text></tag>
+    <tag><text>class:11</text></tag>
+    <tag><text>chapter:motion_in_a_plane</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:medium</text></tag>
+    <tag><text>blooms:apply</text></tag>
+    <tag><text>calculation:moderate</text></tag>
+    <tag><text>media:equation</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+<question type="multichoice">
+  <name><text>NEETUG_PHYSICS_MOTIONINAPLANE_MCQII_Q4_11 - Comparing two projectiles reaching different maximum heights</text></name>
+  <questiontext format="html"><text><![CDATA[<p>Two particles are projected in air with speed \(v_0\) at angles \(\theta_1\) and \(\theta_2\) (both acute) to the horizontal, respectively. If the height reached by the first particle is greater than that of the second, then tick the right choices</p><hr/><p>दो कणों को वायु में क्षैतिज से क्रमशः \(\theta_1\) और \(\theta_2\) (दोनों न्यूनकोण) कोणों पर \(v_0\) चाल से प्रक्षेपित किया जाता है। यदि पहले कण द्वारा प्राप्त ऊँचाई दूसरे कण की ऊँचाई से अधिक है, तो सही विकल्पों का चयन कीजिए</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>Both particles have the same initial speed \(v_0\). Their angles of projection with the horizontal are acute: \(0^\circ &lt; \theta_1, \theta_2 &lt; 90^\circ\). The maximum height of the first particle exceeds that of the second: \(H_1 &gt; H_2\).</p><p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>Neglecting air resistance, the acceleration due to gravity \(g\) is constant and directed downward.</p><p><strong>Step 3: Relevant Formulae and Principles</strong><br/>Maximum height: \(H = \frac{v_0^2 \sin^2\theta}{2g}\).<br/>Time of flight: \(T = \frac{2v_0 \sin\theta}{g}\).<br/>Horizontal range: \(R = \frac{v_0^2 \sin(2\theta)}{g}\).</p><p><strong>Step 4: Step-by-Step Working</strong><br/>Since \(H_1 &gt; H_2\) and \(v_0, g\) are the same:<br/>\(\frac{v_0^2 \sin^2\theta_1}{2g} &gt; \frac{v_0^2 \sin^2\theta_2}{2g} \implies \sin\theta_1 &gt; \sin\theta_2\) (since \(\sin\theta &gt; 0\) for acute angles).<br/>Because \(\sin\theta\) is strictly increasing in \((0^\circ, 90^\circ)\), this gives \(\theta_1 &gt; \theta_2\).<br/>For the time of flight, \(T \propto \sin\theta\), so \(\sin\theta_1 &gt; \sin\theta_2 \implies T_1 &gt; T_2\).<br/>For horizontal range, \(\sin(2\theta_1)\) is not necessarily greater than \(\sin(2\theta_2)\) without knowing whether \(\theta_1 + \theta_2 &lt; 90^\circ\). Total energy depends on mass, which is not specified.</p><p><strong>Step 5: Check and Final Answer</strong><br/>Thus, the correct conclusions are \(\theta_1 &gt; \theta_2\) and \(T_1 &gt; T_2\).</p><hr/><p><strong>चरण 1: दिए गए आँकड़े और शर्तें</strong><br/>दोनों कणों की प्रारंभिक चाल \(v_0\) समान है। क्षैतिज के साथ उनके प्रक्षेपण कोण न्यूनकोण हैं: \(0^\circ &lt; \theta_1, \theta_2 &lt; 90^\circ\)। पहले कण की अधिकतम ऊँचाई दूसरे कण से अधिक है: \(H_1 &gt; H_2\)।</p><p><strong>चरण 2: मान्यताएँ और चिह्न परिपाटी</strong><br/>वायु प्रतिरोध को नगण्य मानते हुए, गुरुत्वीय त्वरण \(g\) नियत है और नीचे की ओर दिष्ट है।</p><p><strong>चरण 3: संबंधित सूत्र और सिद्धांत</strong><br/>अधिकतम ऊँचाई: \(H = \frac{v_0^2 \sin^2\theta}{2g}\)।<br/>उड्डयन काल: \(T = \frac{2v_0 \sin\theta}{g}\)।<br/>क्षैतिज परास: \(R = \frac{v_0^2 \sin(2\theta)}{g}\)।</p><p><strong>चरण 4: चरण-दर-चरण गणना</strong><br/>चूँकि \(H_1 &gt; H_2\) तथा \(v_0, g\) समान हैं:<br/>\(\frac{v_0^2 \sin^2\theta_1}{2g} &gt; \frac{v_0^2 \sin^2\theta_2}{2g} \implies \sin\theta_1 &gt; \sin\theta_2\) (न्यूनकोणों के लिए \(\sin\theta &gt; 0\))।<br/>चूँकि \((0^\circ, 90^\circ)\) में \(\sin\theta\) एक वर्धमान फलन है, इसलिए \(\theta_1 &gt; \theta_2\) प्राप्त होता है।<br/>उड्डयन काल के लिए, \(T \propto \sin\theta\), अतः \(\sin\theta_1 &gt; \sin\theta_2 \implies T_1 &gt; T_2\)।<br/>क्षैतिज परास के लिए, यह ज्ञात न होने पर कि \(\theta_1 + \theta_2 &lt; 90^\circ\) है या नहीं, \(\sin(2\theta_1) &gt; \sin(2\theta_2)\) होना आवश्यक नहीं है। कुल ऊर्जा द्रव्यमान पर निर्भर करती है, जो दिया नहीं गया है।</p><p><strong>चरण 5: जाँच और अंतिम उत्तर</strong><br/>अतः, सही निष्कर्ष \(\theta_1 &gt; \theta_2\) और \(T_1 &gt; T_2\) हैं।</p>]]></text></generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>false</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="50" format="html"><text><![CDATA[<p>angle of projection: \(\theta_1 &gt; \theta_2\)</p>]]></text></answer>
+  <answer fraction="50" format="html"><text><![CDATA[<p>time of flight: \(T_1 &gt; T_2\)</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>horizontal range: \(R_1 &gt; R_2\)</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>total energy: \(U_1 &gt; U_2\)</p>]]></text></answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:hi</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>section:mcq_ii</text></tag>
+    <tag><text>class:11</text></tag>
+    <tag><text>chapter:motion_in_a_plane</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:medium</text></tag>
+    <tag><text>blooms:analyze</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:text</text></tag>
+    <tag><text>multiconcept:true</text></tag>
+  </tags>
+</question>
+<question type="multichoice">
+  <name><text>NEETUG_PHYSICS_MOTIONINAPLANE_MCQII_Q4_12 - Particle sliding on frictionless parabolic track and projectile</text></name>
+  <questiontext format="html"><text><![CDATA[<p>A particle slides down a frictionless parabolic (\(y = x^2\)) track (A - B - C) starting from rest at point A (Fig. 4.2). Point B is at the vertex of parabola and point C is at a height less than that of point A. After C, the particle moves freely in air as a projectile. If the particle reaches highest point at P, then</p><p><img src="@@PLUGINFILE@@/img-1.jpeg" alt="Parabolic track A-B-C and projectile trajectory to P" /></p><hr/><p>एक कण बिंदु A से विरामावस्था से प्रारंभ करके एक घर्षणरहित परवलयाकार (\(y = x^2\)) पथ (A - B - C) पर नीचे फिसलता है (चित्र 4.2)। बिंदु B परवलय के शीर्ष पर है और बिंदु C, बिंदु A की ऊँचाई से कम ऊँचाई पर है। C के बाद, कण वायु में एक प्रक्षेप्य के रूप में स्वतंत्र रूप से गति करता है। यदि कण उच्चतम बिंदु P पर पहुँचता है, तो</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>The particle starts from rest at point A on a frictionless track \(y = x^2\), passes through the vertex B (\(y = 0\)), leaves the track at C, and reaches the highest point P of its projectile trajectory.</p><p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>Zero gravitational potential energy is taken at vertex B (\(y = 0\)). Air resistance is negligible.</p><p><strong>Step 3: Relevant Formulae and Principles</strong><br/>By conservation of mechanical energy, total mechanical energy \(E = K + U\) remains constant in the absence of friction and air resistance.</p><p><strong>Step 4: Step-by-Step Working</strong><br/>Since no non-conservative forces act, total energy at P equals total energy at A.<br/>At A, kinetic energy is zero (\(K_A = 0\)), so \(E = U_A = mgh_A\).<br/>At P (the highest point of projectile motion), the particle still has horizontal velocity \(v_P = v_C \cos\theta &gt; 0\), so \(K_P &gt; 0\). Since \(K_P + U_P = U_A\), we have \(U_P &lt; U_A\), meaning height at P is less than height at A.<br/>At B, \(U_B = 0\), so \(K_B = E &gt; K_P\) (because \(U_P &gt; 0\)).<br/>The time of travel from A to B and from B to P are not equal because the heights and accelerations along the paths differ.</p><p><strong>Step 5: Check and Final Answer</strong><br/>Therefore, the only correct statement is that the total energy at P equals the total energy at A.</p><hr/><p><strong>चरण 1: दिए गए आँकड़े और शर्तें</strong><br/>कण घर्षणरहित पथ \(y = x^2\) पर बिंदु A से विरामावस्था से प्रारंभ होता है, शीर्ष B (\(y = 0\)) से गुजरता है, C पर पथ को छोड़ता है, और अपने प्रक्षेप्य पथ के उच्चतम बिंदु P पर पहुँचता है।</p><p><strong>चरण 2: मान्यताएँ और चिह्न परिपाटी</strong><br/>शीर्ष B (\(y = 0\)) पर गुरुत्वीय स्थितिज ऊर्जा शून्य मानी गई है। वायु प्रतिरोध नगण्य है।</p><p><strong>चरण 3: संबंधित सूत्र और सिद्धांत</strong><br/>यांत्रिक ऊर्जा संरक्षण के नियम के अनुसार, घर्षण और वायु प्रतिरोध की अनुपस्थिति में कुल यांत्रिक ऊर्जा \(E = K + U\) नियत रहती है।</p><p><strong>चरण 4: चरण-दर-चरण गणना</strong><br/>चूँकि कोई असंरक्षी बल कार्य नहीं करता है, इसलिए P पर कुल ऊर्जा A पर कुल ऊर्जा के बराबर होती है।<br/>A पर गतिज ऊर्जा शून्य है (\(K_A = 0\)), अतः \(E = U_A = mgh_A\)।<br/>P (प्रक्षेप्य गति के उच्चतम बिंदु) पर कण के पास अभी भी क्षैतिज वेग \(v_P = v_C \cos\theta &gt; 0\) है, अतः \(K_P &gt; 0\)। चूँकि \(K_P + U_P = U_A\), इसलिए \(U_P &lt; U_A\), अर्थात P पर ऊँचाई A पर ऊँचाई से कम है।<br/>B पर \(U_B = 0\) है, अतः \(K_B = E &gt; K_P\) (क्योंकि \(U_P &gt; 0\))।<br/>A से B तक और B से P तक यात्रा का समय बराबर नहीं है क्योंकि पथों के अनुदिश ऊँचाइयाँ और त्वरण भिन्न हैं।</p><p><strong>चरण 5: जाँच और अंतिम उत्तर</strong><br/>अतः, एकमात्र सही कथन यह है कि P पर कुल ऊर्जा A पर कुल ऊर्जा के बराबर है।</p>]]></text></generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>false</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="0" format="html"><text><![CDATA[<p>KE at \(\mathrm{P} = \mathrm{KE}\) at B</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>height at \(\mathrm{P} =\) height at A</p>]]></text></answer>
+  <answer fraction="100" format="html"><text><![CDATA[<p>total energy at \(\mathrm{P} =\) total energy at A</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>time of travel from A to B = time of travel from B to P.</p>]]></text></answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:hi</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>section:mcq_ii</text></tag>
+    <tag><text>class:11</text></tag>
+    <tag><text>chapter:motion_in_a_plane</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:medium</text></tag>
+    <tag><text>blooms:analyze</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:diagram</text></tag>
+    <tag><text>multiconcept:true</text></tag>
+  </tags>
+</question>
+<question type="multichoice">
+  <name><text>NEETUG_PHYSICS_MOTIONINAPLANE_MCQII_Q4_13 - Identifying incorrect kinematic relations for general motion</text></name>
+  <questiontext format="html"><text><![CDATA[<p>Following are four different relations about displacement, velocity and acceleration for the motion of a particle in general. Choose the incorrect one (s) :</p><hr/><p>किसी कण की सामान्य गति के लिए विस्थापन, वेग और त्वरण से संबंधित चार विभिन्न संबंध नीचे दिए गए हैं। इनमें से असत्य कथन (कथनों) को चुनिए:</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>For general motion (where acceleration need not be constant), average velocity is defined as \(\mathbf{v}_{av} = \frac{\mathbf{r}(t_2) - \mathbf{r}(t_1)}{t_2 - t_1}\) and average acceleration is defined as \(\mathbf{a}_{av} = \frac{\mathbf{v}(t_2) - \mathbf{v}(t_1)}{t_2 - t_1}\).</p><p><strong>Step 2: Evaluation</strong><br/>- The definitions \(\mathbf{v}_{av} = \frac{\mathbf{r}(t_2) - \mathbf{r}(t_1)}{t_2 - t_1}\) and \(\mathbf{a}_{av} = \frac{\mathbf{v}(t_2) - \mathbf{v}(t_1)}{t_2 - t_1}\) are universally valid for any motion.<br/>- The relation \(\mathbf{v}_{av} = \frac{1}{2}[\mathbf{v}(t_1) + \mathbf{v}(t_2)]\) holds only when acceleration is constant, so it is incorrect for motion in general.<br/>- The relation \(\mathbf{r} = \frac{1}{2}(\mathbf{v}(t_2) - \mathbf{v}(t_1))(t_2 - t_1)\) is also incorrect (even for constant acceleration, displacement involves the sum of velocities, not their difference).</p><p><strong>Step 3: Final Conclusion</strong><br/>Therefore, the incorrect relations are \(\mathbf{v}_{av} = \frac{1}{2}[\mathbf{v}(t_1) + \mathbf{v}(t_2)]\) and \(\mathbf{r} = \frac{1}{2}(\mathbf{v}(t_2) - \mathbf{v}(t_1))(t_2 - t_1)\).</p><hr/><p><strong>चरण 1: अवधारणात्मक सिद्धांत</strong><br/>सामान्य गति (जहाँ त्वरण का नियत होना आवश्यक नहीं है) के लिए, औसत वेग को \(\mathbf{v}_{av} = \frac{\mathbf{r}(t_2) - \mathbf{r}(t_1)}{t_2 - t_1}\) तथा औसत त्वरण को \(\mathbf{a}_{av} = \frac{\mathbf{v}(t_2) - \mathbf{v}(t_1)}{t_2 - t_1}\) के रूप में परिभाषित किया जाता है।</p><p><strong>चरण 2: मूल्यांकन</strong><br/>- परिभाषाएँ \(\mathbf{v}_{av} = \frac{\mathbf{r}(t_2) - \mathbf{r}(t_1)}{t_2 - t_1}\) और \(\mathbf{a}_{av} = \frac{\mathbf{v}(t_2) - \mathbf{v}(t_1)}{t_2 - t_1}\) किसी भी गति के लिए सार्वभौमिक रूप से सत्य हैं।<br/>- संबंध \(\mathbf{v}_{av} = \frac{1}{2}[\mathbf{v}(t_1) + \mathbf{v}(t_2)]\) केवल तभी सत्य होता है जब त्वरण नियत हो, इसलिए यह सामान्य गति के लिए असत्य है।<br/>- संबंध \(\mathbf{r} = \frac{1}{2}(\mathbf{v}(t_2) - \mathbf{v}(t_1))(t_2 - t_1)\) भी असत्य है (नियत त्वरण के लिए भी विस्थापन में वेगों का योग होता है, अंतर नहीं)।</p><p><strong>चरण 3: अंतिम निष्कर्ष</strong><br/>अतः, असत्य संबंध \(\mathbf{v}_{av} = \frac{1}{2}[\mathbf{v}(t_1) + \mathbf{v}(t_2)]\) और \(\mathbf{r} = \frac{1}{2}(\mathbf{v}(t_2) - \mathbf{v}(t_1))(t_2 - t_1)\) हैं।</p>]]></text></generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>false</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="50" format="html"><text><![CDATA[<p>\(\mathbf{v}_{av} = \frac{1}{2}\left[\mathbf{v}(t_1) + \mathbf{v}(t_2)\right]\)</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>\(\mathbf{v}_{av} = \frac{\mathbf{r}(t_2) - \mathbf{r}(t_1)}{t_2 - t_1}\)</p>]]></text></answer>
+  <answer fraction="50" format="html"><text><![CDATA[<p>\(\mathbf{r} = \frac{1}{2} (\mathbf{v}(t_2) - \mathbf{v}(t_1))(t_2 - t_1)\)</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>\(\mathbf{a}_{av} = \frac{\mathbf{v}(t_2) - \mathbf{v}(t_1)}{t_2 - t_1}\)</p>]]></text></answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:hi</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>section:mcq_ii</text></tag>
+    <tag><text>class:11</text></tag>
+    <tag><text>chapter:motion_in_a_plane</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:medium</text></tag>
+    <tag><text>blooms:understand</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:equation</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+<question type="multichoice">
+  <name><text>NEETUG_PHYSICS_MOTIONINAPLANE_MCQII_Q4_14 - Characteristics of uniform circular motion</text></name>
+  <questiontext format="html"><text><![CDATA[<p>For a particle performing uniform circular motion, choose the correct statement(s) from the following:</p><hr/><p>एकसमान वृत्तीय गति करते हुए किसी कण के लिए निम्नलिखित में से सही कथन (कथनों) को चुनिए:</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>In uniform circular motion (UCM), a particle moves in a circle of fixed radius with constant speed.</p><p><strong>Step 2: Evaluation</strong><br/>- The magnitude of velocity (speed) remains constant throughout the motion.<br/>- The velocity is always tangential to the circular path, so it remains perpendicular to the radius vector.<br/>- The acceleration is centripetal, always directed toward the centre of the circle; since the particle's position changes continuously, the direction of acceleration keeps changing.<br/>- Angular momentum about the centre is \(\mathbf{L} = \mathbf{r} \times m\mathbf{v}\), which is constant in both magnitude (\(mvr\)) and direction (perpendicular to the plane of the circle).</p><p><strong>Step 3: Final Conclusion</strong><br/>Hence, the correct statements are that the speed remains constant, the velocity remains perpendicular to the radius vector, and the direction of acceleration keeps changing.</p><hr/><p><strong>चरण 1: अवधारणात्मक सिद्धांत</strong><br/>एकसमान वृत्तीय गति (UCM) में, कोई कण नियत त्रिज्या के वृत्त पर नियत चाल से गति करता है।</p><p><strong>चरण 2: मूल्यांकन</strong><br/>- पूरी गति के दौरान वेग का परिमाण (चाल) नियत रहता है।<br/>- वेग सदैव वृत्ताकार पथ के स्पर्शरेखीय होता है, इसलिए यह त्रिज्या सदिश के लंबवत रहता है।<br/>- त्वरण अभिकेंद्रीय होता है, जो सदैव वृत्त के केंद्र की ओर दिष्ट होता है; चूँकि कण की स्थिति लगातार बदलती है, इसलिए त्वरण की दिशा बदलती रहती है।<br/>- केंद्र के परितः कोणीय संवेग \(\mathbf{L} = \mathbf{r} \times m\mathbf{v}\) होता है, जिसका परिमाण (\(mvr\)) और दिशा (वृत्त के तल के लंबवत) दोनों नियत रहते हैं।</p><p><strong>चरण 3: अंतिम निष्कर्ष</strong><br/>अतः, सही कथन ये हैं कि चाल नियत रहती है, वेग त्रिज्या सदिश के लंबवत रहता है, और त्वरण की दिशा बदलती रहती है।</p>]]></text></generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>false</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="33.33333" format="html"><text><![CDATA[<p>Magnitude of particle velocity (speed) remains constant.</p>]]></text></answer>
+  <answer fraction="33.33333" format="html"><text><![CDATA[<p>Particle velocity remains directed perpendicular to radius vector.</p>]]></text></answer>
+  <answer fraction="33.33333" format="html"><text><![CDATA[<p>Direction of acceleration keeps changing as particle moves.</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>Angular momentum is constant in magnitude but direction keeps changing.</p>]]></text></answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:hi</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>section:mcq_ii</text></tag>
+    <tag><text>class:11</text></tag>
+    <tag><text>chapter:motion_in_a_plane</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:easy</text></tag>
+    <tag><text>blooms:understand</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:text</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+<question type="multichoice">
+  <name><text>NEETUG_PHYSICS_MOTIONINAPLANE_MCQII_Q4_15 - Conditions for equal magnitudes of sum and difference of vectors</text></name>
+  <questiontext format="html"><text><![CDATA[<p>For two vectors \(\mathbf{A}\) and \(\mathbf{B}\), \(|\mathbf{A} + \mathbf{B}| = |\mathbf{A} - \mathbf{B}|\) is always true when</p><hr/><p>दो सदिशों \(\mathbf{A}\) और \(\mathbf{B}\) के लिए, \(|\mathbf{A} + \mathbf{B}| = |\mathbf{A} - \mathbf{B}|\) सदैव सत्य होता है जब</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>Two vectors \(\mathbf{A}\) and \(\mathbf{B}\) satisfy \(|\mathbf{A} + \mathbf{B}| = |\mathbf{A} - \mathbf{B}|\).</p><p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>Let \(\theta\) be the angle between \(\mathbf{A}\) and \(\mathbf{B}\) when both are non-zero.</p><p><strong>Step 3: Relevant Formulae and Principles</strong><br/>\(|\mathbf{A} \pm \mathbf{B}|^2 = |\mathbf{A}|^2 + |\mathbf{B}|^2 \pm 2\mathbf{A} \cdot \mathbf{B}\).</p><p><strong>Step 4: Step-by-Step Working</strong><br/>Squaring both sides of \(|\mathbf{A} + \mathbf{B}| = |\mathbf{A} - \mathbf{B}|\):<br/>\(|\mathbf{A}|^2 + |\mathbf{B}|^2 + 2\mathbf{A} \cdot \mathbf{B} = |\mathbf{A}|^2 + |\mathbf{B}|^2 - 2\mathbf{A} \cdot \mathbf{B}\)<br/>\(4\mathbf{A} \cdot \mathbf{B} = 0 \implies \mathbf{A} \cdot \mathbf{B} = 0\)<br/>\(|\mathbf{A}||\mathbf{B}|\cos\theta = 0\).<br/>This equation is satisfied either when \(\mathbf{A} \perp \mathbf{B}\) (\(\cos\theta = 0\)) or when either \(|\mathbf{A}| = 0\) or \(|\mathbf{B}| = 0\).</p><p><strong>Step 5: Check and Final Answer</strong><br/>Therefore, the relation is always true when \(\mathbf{A} \perp \mathbf{B}\) or when either \(|\mathbf{A}|\) or \(|\mathbf{B}|\) is zero.</p><hr/><p><strong>चरण 1: दिए गए आँकड़े और शर्तें</strong><br/>दो सदिश \(\mathbf{A}\) और \(\mathbf{B}\) संबंध \(|\mathbf{A} + \mathbf{B}| = |\mathbf{A} - \mathbf{B}|\) को संतुष्ट करते हैं।</p><p><strong>चरण 2: मान्यताएँ और चिह्न परिपाटी</strong><br/>मान लीजिए जब दोनों सदिश अशून्य हैं, तब \(\mathbf{A}\) और \(\mathbf{B}\) के बीच का कोण \(\theta\) है।</p><p><strong>चरण 3: संबंधित सूत्र और सिद्धांत</strong><br/>\(|\mathbf{A} \pm \mathbf{B}|^2 = |\mathbf{A}|^2 + |\mathbf{B}|^2 \pm 2\mathbf{A} \cdot \mathbf{B}\)।</p><p><strong>चरण 4: चरण-दर-चरण गणना</strong><br/>\(|\mathbf{A} + \mathbf{B}| = |\mathbf{A} - \mathbf{B}|\) के दोनों पक्षों का वर्ग करने पर:<br/>\(|\mathbf{A}|^2 + |\mathbf{B}|^2 + 2\mathbf{A} \cdot \mathbf{B} = |\mathbf{A}|^2 + |\mathbf{B}|^2 - 2\mathbf{A} \cdot \mathbf{B}\)<br/>\(4\mathbf{A} \cdot \mathbf{B} = 0 \implies \mathbf{A} \cdot \mathbf{B} = 0\)<br/>\(|\mathbf{A}||\mathbf{B}|\cos\theta = 0\)।<br/>यह समीकरण तब संतुष्ट होता है जब या तो \(\mathbf{A} \perp \mathbf{B}\) (\(\cos\theta = 0\)) हो या \(|\mathbf{A}| = 0\) अथवा \(|\mathbf{B}| = 0\) हो।</p><p><strong>चरण 5: जाँच और अंतिम उत्तर</strong><br/>अतः, यह संबंध सदैव सत्य होता है जब \(\mathbf{A} \perp \mathbf{B}\) हो या जब \(|\mathbf{A}|\) अथवा \(|\mathbf{B}|\) में से कोई एक शून्य हो।</p>]]></text></generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>false</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="0" format="html"><text><![CDATA[<p>\(|\mathbf{A}| = |\mathbf{B}| \neq 0\)</p>]]></text></answer>
+  <answer fraction="50" format="html"><text><![CDATA[<p>\(\mathbf{A} \perp \mathbf{B}\)</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>\(|\mathbf{A}| = |\mathbf{B}| \neq 0\) and \(\mathbf{A}\) and \(\mathbf{B}\) are parallel or anti parallel</p>]]></text></answer>
+  <answer fraction="50" format="html"><text><![CDATA[<p>when either \(|\mathbf{A}|\) or \(|\mathbf{B}|\) is zero.</p>]]></text></answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:hi</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>section:mcq_ii</text></tag>
+    <tag><text>class:11</text></tag>
+    <tag><text>chapter:motion_in_a_plane</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:medium</text></tag>
+    <tag><text>blooms:apply</text></tag>
+    <tag><text>calculation:moderate</text></tag>
+    <tag><text>media:equation</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
 </quiz>

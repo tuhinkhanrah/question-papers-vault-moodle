@@ -1,1 +1,511 @@
-<quiz></quiz>
+<question type="multichoice">
+  <name><text>NEETUG_PHYSICS_ALTERNATINGCURRENT_MCQI_Q01 - Instantaneous current in an AC circuit</text></name>
+  <questiontext format="html"><text><![CDATA[<p>7.1 If the rms current in a \(50\text{ Hz}\) ac circuit is \(5\text{ A}\), the value of the current \(1/300\) seconds after its value becomes zero is</p><hr/><p>7.1 একটি \(50\text{ Hz}\) এসি (AC) বর্তনীতে rms প্রবাহমাত্রা \(5\text{ A}\) হলে, প্রবাহমাত্রা শূন্য হওয়ার \(1/300\) সেকেন্ড পরে প্রবাহমাত্রার মান হবে</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>Frequency of the alternating current, \(f = 50\text{ Hz}\). Root mean square (rms) current, \(I_{\text{rms}} = 5\text{ A}\). Time elapsed after the current becomes zero, \(t = \frac{1}{300}\text{ s}\).</p>
+<p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>The alternating current is assumed to vary sinusoidally with time starting from zero at \(t = 0\), i.e., \(i(t) = I_0 \sin(\omega t)\), where \(I_0\) is the peak current and \(\omega\) is the angular frequency.</p>
+<p><strong>Step 3: Relevant Formulae and Principles</strong><br/>Peak current is related to rms current by \(I_0 = \sqrt{2}\,I_{\text{rms}}\). Angular frequency is \(\omega = 2\pi f\). Instantaneous current is \(i(t) = I_0 \sin(\omega t)\).</p>
+<p><strong>Step 4: Step-by-Step Working</strong><br/>First, calculate the peak current:<br/>\[I_0 = \sqrt{2} \times 5 = 5\sqrt{2}\text{ A}\]<br/>Next, calculate the angular frequency:<br/>\[\omega = 2\pi \times 50 = 100\pi\text{ rad/s}\]<br/>Now, find the phase angle at \(t = \frac{1}{300}\text{ s}\):<br/>\[\omega t = 100\pi \times \frac{1}{300} = \frac{\pi}{3}\text{ rad}\]<br/>Substitute into the instantaneous current equation:<br/>\[i = 5\sqrt{2} \sin\left(\frac{\pi}{3}\right) = 5\sqrt{2} \times \frac{\sqrt{3}}{2} = 5\sqrt{\frac{3}{2}}\text{ A}\]</p>
+<p><strong>Step 5: Check and Final Answer</strong><br/>Since \(0 &lt; t &lt; \frac{T}{4}\) (where \(T = 0.02\text{ s}\)), the current is positive and less than the peak value \(5\sqrt{2}\text{ A} \approx 7.07\text{ A}\). Here \(5\sqrt{3/2}\text{ A} \approx 6.12\text{ A}\), which is physically consistent. Thus, the value of the current is \(5\sqrt{3/2}\text{ A}\).</p>
+<hr/>
+<p><strong>ধাপ ১: প্রদত্ত তথ্য ও শর্তাবলি</strong><br/>পরিবর্তী প্রবাহের কম্পাঙ্ক, \(f = 50\text{ Hz}\)। প্রবাহমাত্রার rms মান, \(I_{\text{rms}} = 5\text{ A}\)। প্রবাহমাত্রা শূন্য হওয়ার পর অতিক্রান্ত সময়, \(t = \frac{1}{300}\text{ s}\)।</p>
+<p><strong>ধাপ ২: অনুমান ও চিহ্নের প্রথা</strong><br/>ধরা হয় পরিবর্তী প্রবাহ সময়ের সাথে সাইনুসয়েডালভাবে পরিবর্তিত হয় এবং \(t = 0\) সময়ে এর মান শূন্য, অর্থাৎ \(i(t) = I_0 \sin(\omega t)\), যেখানে \(I_0\) হলো শীর্ষ প্রবাহমাত্রা এবং \(\omega\) হলো কৌণিক কম্পাঙ্ক।</p>
+<p><strong>ধাপ ৩: প্রাসঙ্গিক সূত্র ও নীতি</strong><br/>শীর্ষ প্রবাহমাত্রা এবং rms প্রবাহমাত্রার সম্পর্ক হলো \(I_0 = \sqrt{2}\,I_{\text{rms}}\)। কৌণিক কম্পাঙ্ক \(\omega = 2\pi f\)। তাৎক্ষণিক প্রবাহমাত্রা \(i(t) = I_0 \sin(\omega t)\)।</p>
+<p><strong>ধাপ ৪: ধাপে ধাপে গণনা</strong><br/>প্রথমে শীর্ষ প্রবাহমাত্রা নির্ণয় করা যাক:<br/>\[I_0 = \sqrt{2} \times 5 = 5\sqrt{2}\text{ A}\]<br/>এরপর কৌণিক কম্পাঙ্ক:<br/>\[\omega = 2\pi \times 50 = 100\pi\text{ rad/s}\]<br/>এখন \(t = \frac{1}{300}\text{ s}\) সময়ে দশা কোণ:<br/>\[\omega t = 100\pi \times \frac{1}{300} = \frac{\pi}{3}\text{ rad}\]<br/>তাৎক্ষণিক প্রবাহমাত্রার সমীকরণে মান বসিয়ে পাই:<br/>\[i = 5\sqrt{2} \sin\left(\frac{\pi}{3}\right) = 5\sqrt{2} \times \frac{\sqrt{3}}{2} = 5\sqrt{\frac{3}{2}}\text{ A}\]</p>
+<p><strong>ধাপ ৫: যাচাই ও চূড়ান্ত উত্তর</strong><br/>যেহেতু \(0 &lt; t &lt; \frac{T}{4}\) (যেখানে \(T = 0.02\text{ s}\)), প্রবাহমাত্রা ধনাত্মক এবং শীর্ষ মান \(5\sqrt{2}\text{ A} \approx 7.07\text{ A}\)-এর চেয়ে কম। এখানে \(5\sqrt{3/2}\text{ A} \approx 6.12\text{ A}\), যা ভৌতভাবে সামঞ্জস্যপূর্ণ। সুতরাং, প্রবাহমাত্রার মান \(5\sqrt{3/2}\text{ A}\)।</p>]]></text></generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="0" format="html"><text><![CDATA[<p>\(5\sqrt{2}\text{ A}\)</p>]]></text></answer>
+  <answer fraction="100" format="html"><text><![CDATA[<p>\(5\sqrt{3/2}\text{ A}\)</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>\(5/6\text{ A}\)</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>\(5/\sqrt{2}\text{ A}\)</p>]]></text></answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:bn</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>section:mcq_i</text></tag>
+    <tag><text>class:12</text></tag>
+    <tag><text>topic:alternating_current</text></tag>
+    <tag><text>chapter:alternating_current</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:easy</text></tag>
+    <tag><text>blooms:apply</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:text</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+
+<question type="multichoice">
+  <name><text>NEETUG_PHYSICS_ALTERNATINGCURRENT_MCQI_Q02 - Maximum power transfer in AC circuit</text></name>
+  <questiontext format="html"><text><![CDATA[<p>7.2 An alternating current generator has an internal resistance \(R_g\) and an internal reactance \(X_g\). It is used to supply power to a passive load consisting of a resistance \(R_g\) and a reactance \(X_L\). For maximum power to be delivered from the generator to the load, the value of \(X_L\) is equal to</p><hr/><p>7.2 একটি পরিবর্তী প্রবাহ জেনারেটরের অভ্যন্তরীণ রোধ \(R_g\) এবং অভ্যন্তরীণ প্রতিঘাত \(X_g\)। এটি একটি \(R_g\) রোধ এবং \(X_L\) প্রতিঘাত বিশিষ্ট নিষ্ক্রিয় লোডে ক্ষমতা সরবরাহ করতে ব্যবহৃত হয়। জেনারেটর থেকে লোডে সর্বাধিক ক্ষমতা সরবরাহের জন্য \(X_L\)-এর মান হবে</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>Generator internal resistance = \(R_g\), generator internal reactance = \(X_g\). Load resistance = \(R_g\), load reactance = \(X_L\). The generator and load are connected in series.</p>
+<p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>Let the rms emf of the generator be \(E_{\text{rms}}\). Inductive reactance is taken as positive and capacitive reactance as negative in the net reactance sum.</p>
+<p><strong>Step 3: Relevant Formulae and Principles</strong><br/>Total impedance of the circuit is \(Z = \sqrt{(R_g + R_g)^2 + (X_g + X_L)^2}\). The rms current is \(I_{\text{rms}} = \frac{E_{\text{rms}}}{Z}\). Average power delivered to the load resistance \(R_g\) is \(P = I_{\text{rms}}^2 R_g\).</p>
+<p><strong>Step 4: Step-by-Step Working</strong><br/>Substituting \(I_{\text{rms}}\) into the power expression:<br/>\[P = \frac{E_{\text{rms}}^2 R_g}{(2R_g)^2 + (X_g + X_L)^2}\]<br/>Since \(E_{\text{rms}}\) and \(R_g\) are fixed, \(P\) is maximum when the denominator is minimum. Because \((X_g + X_L)^2 \ge 0\), the minimum occurs when:<br/>\[X_g + X_L = 0 \implies X_L = -X_g\]</p>
+<p><strong>Step 5: Check and Final Answer</strong><br/>When \(X_L = -X_g\), the load impedance is the complex conjugate of the internal impedance of the generator, which satisfies the maximum power transfer theorem. Thus, \(X_L = -X_g\).</p>
+<hr/>
+<p><strong>ধাপ ১: প্রদত্ত তথ্য ও শর্তাবলি</strong><br/>জেনারেটরের অভ্যন্তরীণ রোধ = \(R_g\), অভ্যন্তরীণ প্রতিঘাত = \(X_g\)। লোড রোধ = \(R_g\), লোড প্রতিঘাত = \(X_L\)। জেনারেটর এবং লোড শ্রেণি সমবায়ে যুক্ত।</p>
+<p><strong>ধাপ ২: অনুমান ও চিহ্নের প্রথা</strong><br/>ধরা যাক জেনারেটরের rms তড়িচ্চালক বল \(E_{\text{rms}}\)। মোট প্রতিঘাতের যোগফলে আবেশী প্রতিঘাত ধনাত্মক এবং ধারকীয় প্রতিঘাত ঋণাত্মক ধরা হয়।</p>
+<p><strong>ধাপ ৩: প্রাসঙ্গিক সূত্র ও নীতি</strong><br/>বর্তনীর মোট প্রতিবন্ধকতা \(Z = \sqrt{(R_g + R_g)^2 + (X_g + X_L)^2}\)। প্রবাহমাত্রা \(I_{\text{rms}} = \frac{E_{\text{rms}}}{Z}\)। লোড রোধ \(R_g\)-তে সরবরাহকৃত গড় ক্ষমতা \(P = I_{\text{rms}}^2 R_g\)।</p>
+<p><strong>ধাপ ৪: ধাপে ধাপে গণনা</strong><br/>ক্ষমতার রাশিমালায় \(I_{\text{rms}}\)-এর মান বসিয়ে পাই:<br/>\[P = \frac{E_{\text{rms}}^2 R_g}{(2R_g)^2 + (X_g + X_L)^2}\]<br/>যেহেতু \(E_{\text{rms}}\) এবং \(R_g\) ধ্রুবক, তাই হরের মান সর্বনিম্ন হলে \(P\) সর্বাধিক হবে। যেহেতু \((X_g + X_L)^2 \ge 0\), সর্বনিম্ন মান পাওয়া যায় যখন:<br/>\[X_g + X_L = 0 \implies X_L = -X_g\]</p>
+<p><strong>ধাপ ৫: যাচাই ও চূড়ান্ত উত্তর</strong><br/>যখন \(X_L = -X_g\), তখন লোড প্রতিবন্ধকতা জেনারেটরের অভ্যন্তরীণ প্রতিবন্ধকতার অনুবন্ধী জটিল রাশি হয়, যা সর্বাধিক ক্ষমতা স্থানান্তর উপপাদ্যকে সিদ্ধ করে। সুতরাং, \(X_L = -X_g\)।</p>]]></text></generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="0" format="html"><text><![CDATA[<p>zero.</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>\(X_g\).</p>]]></text></answer>
+  <answer fraction="100" format="html"><text><![CDATA[<p>\(-X_g\).</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>\(R_g\).</p>]]></text></answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:bn</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>section:mcq_i</text></tag>
+    <tag><text>class:12</text></tag>
+    <tag><text>topic:alternating_current</text></tag>
+    <tag><text>chapter:alternating_current</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:medium</text></tag>
+    <tag><text>blooms:apply</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:text</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+
+<question type="multichoice">
+  <name><text>NEETUG_PHYSICS_ALTERNATINGCURRENT_MCQI_Q03 - RMS voltage measurement on AC mains</text></name>
+  <questiontext format="html"><text><![CDATA[<p>7.3 When a voltage measuring device is connected to AC mains, the meter shows the steady input voltage of \(220\text{ V}\). This means</p><hr/><p>7.3 যখন একটি বিভব পরিমাপক যন্ত্রকে এসি (AC) মেইনসের সাথে যুক্ত করা হয়, তখন মিটারটি \(220\text{ V}\) স্থির ইনপুট বিভব প্রদর্শন করে। এর অর্থ হলো</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>An alternating voltage varies sinusoidally with time, \(v(t) = V_0 \sin(\omega t)\), so its average value over a complete cycle is zero. Standard AC voltmeters are designed to respond to the heating effect or the mean square value of voltage.</p>
+<p><strong>Step 2: Evaluation</strong><br/>The meter actually senses the time-averaged square of the instantaneous voltage, \(\langle v^2 \rangle\), rather than the instantaneous voltage \(v\) itself, because \(\langle v^2 \rangle\) is non-zero and steady for a stable AC supply.</p>
+<p><strong>Step 3: Application</strong><br/>The scale of the AC voltmeter is calibrated to display the root mean square (rms) value, \(V_{\text{rms}} = \sqrt{\langle v^2 \rangle} = \frac{V_0}{\sqrt{2}}\), which equals \(220\text{ V}\) for standard domestic AC mains (while the peak voltage is \(220\sqrt{2}\text{ V} \approx 311\text{ V}\)).</p>
+<p><strong>Step 4: Final Conclusion</strong><br/>Therefore, the meter reads not \(v\) but \(\langle v^2 \rangle\) and is calibrated to read \(\sqrt{\langle v^2 \rangle}\).</p>
+<hr/>
+<p><strong>ধাপ ১: ধারণাগত নীতি</strong><br/>একটি পরিবর্তী বিভব সময়ের সাথে সাইনুসয়েডালভাবে পরিবর্তিত হয়, \(v(t) = V_0 \sin(\omega t)\), তাই একটি পূর্ণ চক্রে এর গড় মান শূন্য হয়। সাধারণ এসি ভোল্টমিটারগুলি তাপীয় ফল বা বিভবের বর্গের গড় মানের ওপর ভিত্তি করে কাজ করে।</p>
+<p><strong>ধাপ ২: মূল্যায়ন</strong><br/>মিটারটি তাৎক্ষণিক বিভব \(v\)-এর পরিবর্তে তাৎক্ষণিক বিভবের বর্গের গড় মান \(\langle v^2 \rangle\) পরিমাপ করে, কারণ একটি স্থির এসি সরবরাহের জন্য \(\langle v^2 \rangle\) অশূন্য এবং ধ্রুবক হয়।</p>
+<p><strong>ধাপ ৩: প্রয়োগ</strong><br/>এসি ভোল্টমিটারের স্কেলটি মূল গড় বর্গ (rms) মান \(V_{\text{rms}} = \sqrt{\langle v^2 \rangle} = \frac{V_0}{\sqrt{2}}\) প্রদর্শনের জন্য দাগাঙ্কিত থাকে, যা আদর্শ গৃহস্থালী এসি মেইনসের জন্য \(220\text{ V}\) হয় (যেখানে শীর্ষ বিভব হলো \(220\sqrt{2}\text{ V} \approx 311\text{ V}\))।</p>
+<p><strong>ধাপ ৪: চূড়ান্ত সিদ্ধান্ত</strong><br/>অতএব, মিটারটি \(v\) নয় বরং \(\langle v^2 \rangle\) পাঠ করে এবং \(\sqrt{\langle v^2 \rangle}\) দেখানোর জন্য দাগাঙ্কিত থাকে।</p>]]></text></generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="0" format="html"><text><![CDATA[<p>input voltage cannot be AC voltage, but a DC voltage.</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>maximum input voltage is \(220\text{ V}\).</p>]]></text></answer>
+  <answer fraction="100" format="html"><text><![CDATA[<p>the meter reads not \(v\) but \(\langle v^2 \rangle\) and is calibrated to read \(\sqrt{\langle v^2 \rangle}\).</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>the pointer of the meter is stuck by some mechanical defect.</p>]]></text></answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:bn</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>section:mcq_i</text></tag>
+    <tag><text>class:12</text></tag>
+    <tag><text>topic:alternating_current</text></tag>
+    <tag><text>chapter:alternating_current</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:easy</text></tag>
+    <tag><text>blooms:understand</text></tag>
+    <tag><text>media:text</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+
+<question type="multichoice">
+  <name><text>NEETUG_PHYSICS_ALTERNATINGCURRENT_MCQI_Q04 - Reducing resonant frequency in LCR circuit</text></name>
+  <questiontext format="html"><text><![CDATA[<p>7.4 To reduce the resonant frequency in an LCR series circuit with a generator</p><hr/><p>7.4 একটি জেনারেটরযুক্ত LCR শ্রেণি বর্তনীতে অনুনাদী কম্পাঙ্ক কমানোর জন্য</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>The resonant frequency of a series LCR circuit depends only on its inductance \(L\) and capacitance \(C\), and is given by \(f_r = \frac{1}{2\pi\sqrt{LC}}\).</p>
+<p><strong>Step 2: Evaluation</strong><br/>To reduce \(f_r\), either the inductance \(L\) or the capacitance \(C\) (or both) must be increased. Changing the generator frequency does not alter the natural resonant frequency of the circuit. Removing the iron core from an inductor decreases \(L\), and removing the dielectric from a capacitor decreases \(C\); both actions would increase \(f_r\).</p>
+<p><strong>Step 3: Application</strong><br/>When another capacitor is added in parallel to the existing capacitor, the equivalent capacitance becomes \(C_{\text{eq}} = C_1 + C_2 &gt; C_1\). Increasing the capacitance increases \(\sqrt{LC}\), thereby decreasing the resonant frequency \(f_r\).</p>
+<p><strong>Step 4: Final Conclusion</strong><br/>Thus, to reduce the resonant frequency, another capacitor should be added in parallel to the first.</p>
+<hr/>
+<p><strong>ধাপ ১: ধারণাগত নীতি</strong><br/>একটি শ্রেণি LCR বর্তনীর অনুনাদী কম্পাঙ্ক কেবল এর আবেশাঙ্ক \(L\) এবং ধারকত্ব \(C\)-এর ওপর নির্ভর করে এবং এর সূত্র হলো \(f_r = \frac{1}{2\pi\sqrt{LC}}\)।</p>
+<p><strong>ধাপ ২: মূল্যায়ন</strong><br/>\(f_r\) কমাতে হলে হয় আবেশাঙ্ক \(L\) অথবা ধারকত্ব \(C\) (বা উভয়ই) বাড়াতে হবে। জেনারেটরের কম্পাঙ্ক পরিবর্তন করলে বর্তনীর স্বাভাবিক অনুনাদী কম্পাঙ্ক পরিবর্তিত হয় না। আবেশক থেকে লোহার মজ্জা সরিয়ে নিলে \(L\) কমে যায় এবং ধারক থেকে পরাবৈদ্যুতিক মাধ্যম সরিয়ে নিলে \(C\) কমে যায়; উভয় ক্ষেত্রেই \(f_r\) বৃদ্ধি পাবে।</p>
+<p><strong>ধাপ ৩: প্রয়োগ</strong><br/>যখন প্রথম ধারকের সাথে সমান্তরাল সমবায়ে আরেকটি ধারক যুক্ত করা হয়, তখন তুল্য ধারকত্ব হয় \(C_{\text{eq}} = C_1 + C_2 &gt; C_1\)। ধারকত্ব বৃদ্ধির ফলে \(\sqrt{LC}\) বৃদ্ধি পায়, যার ফলে অনুনাদী কম্পাঙ্ক \(f_r\) হ্রাস পায়।</p>
+<p><strong>ধাপ ৪: চূড়ান্ত সিদ্ধান্ত</strong><br/>সুতরাং, অনুনাদী কম্পাঙ্ক কমানোর জন্য প্রথমটির সাথে সমান্তরালে আরেকটি ধারক যুক্ত করা উচিত।</p>]]></text></generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="0" format="html"><text><![CDATA[<p>the generator frequency should be reduced.</p>]]></text></answer>
+  <answer fraction="100" format="html"><text><![CDATA[<p>another capacitor should be added in parallel to the first.</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>the iron core of the inductor should be removed.</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>dielectric in the capacitor should be removed.</p>]]></text></answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:bn</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>section:mcq_i</text></tag>
+    <tag><text>class:12</text></tag>
+    <tag><text>topic:alternating_current</text></tag>
+    <tag><text>chapter:alternating_current</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:easy</text></tag>
+    <tag><text>blooms:understand</text></tag>
+    <tag><text>media:text</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+
+<question type="multichoice">
+  <name><text>NEETUG_PHYSICS_ALTERNATINGCURRENT_MCQI_Q05 - Quality factor for better LCR tuning</text></name>
+  <questiontext format="html"><text><![CDATA[<p>7.5 Which of the following combinations should be selected for better tuning of an LCR circuit used for communication?</p><hr/><p>7.5 যোগাযোগের জন্য ব্যবহৃত একটি LCR বর্তনীর উন্নত টিউনিংয়ের (better tuning) জন্য নিচের কোন সমবায়টি নির্বাচন করা উচিত?</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>Four combinations of \((R, L, C)\) are given:<br/>1) \(R = 20\,\Omega, L = 1.5\text{ H}, C = 35\,\mu\text{F}\)<br/>2) \(R = 25\,\Omega, L = 2.5\text{ H}, C = 45\,\mu\text{F}\)<br/>3) \(R = 15\,\Omega, L = 3.5\text{ H}, C = 30\,\mu\text{F}\)<br/>4) \(R = 25\,\Omega, L = 1.5\text{ H}, C = 45\,\mu\text{F}\)</p>
+<p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>Better tuning corresponds to a sharper resonance peak, which requires the highest possible quality factor \(Q\).</p>
+<p><strong>Step 3: Relevant Formulae and Principles</strong><br/>The quality factor of a series LCR circuit is given by:<br/>\[Q = \frac{1}{R}\sqrt{\frac{L}{C}}\]</p>
+<p><strong>Step 4: Step-by-Step Working</strong><br/>To maximize \(Q\), \(R\) should be as small as possible, \(L\) should be as large as possible, and \(C\) should be as small as possible.<br/>Comparing the given sets, the combination with \(R = 15\,\Omega\), \(L = 3.5\text{ H}\), and \(C = 30\,\mu\text{F}\) has the smallest resistance, largest inductance, and smallest capacitance simultaneously.<br/>Calculating its \(Q\) value:<br/>\[Q = \frac{1}{15}\sqrt{\frac{3.5}{30 \times 10^{-6}}} = \frac{1}{15}\sqrt{1.167 \times 10^5} \approx \frac{341.6}{15} \approx 22.8\]</p>
+<p><strong>Step 5: Check and Final Answer</strong><br/>Any other combination has a larger \(R\), smaller \(L\), and larger \(C\), giving a strictly smaller \(Q\). Therefore, the combination \(R = 15\,\Omega, L = 3.5\text{ H}, C = 30\,\mu\text{F}\) provides the best tuning.</p>
+<hr/>
+<p><strong>ধাপ ১: প্রদত্ত তথ্য ও শর্তাবলি</strong><br/>\((R, L, C)\)-এর চারটি সমবায় দেওয়া আছে:<br/>১) \(R = 20\,\Omega, L = 1.5\text{ H}, C = 35\,\mu\text{F}\)<br/>২) \(R = 25\,\Omega, L = 2.5\text{ H}, C = 45\,\mu\text{F}\)<br/>৩) \(R = 15\,\Omega, L = 3.5\text{ H}, C = 30\,\mu\text{F}\)<br/>৪) \(R = 25\,\Omega, L = 1.5\text{ H}, C = 45\,\mu\text{F}\)</p>
+<p><strong>ধাপ ২: অনুমান ও চিহ্নের প্রথা</strong><br/>উন্নত টিউনিং বলতে অধিক তীক্ষ্ণ অনুনাদ চূড়া বোঝায়, যার জন্য সর্বোচ্চ মানের গুণমান গুণাঙ্ক (quality factor) \(Q\) প্রয়োজন।</p>
+<p><strong>ধাপ ৩: প্রাসঙ্গিক সূত্র ও নীতি</strong><br/>একটি শ্রেণি LCR বর্তনীর গুণমান গুণাঙ্কের সূত্র হলো:<br/>\[Q = \frac{1}{R}\sqrt{\frac{L}{C}}\]</p>
+<p><strong>ধাপ ৪: ধাপে ধাপে গণনা</strong><br/>\(Q\) সর্বাধিক করতে হলে \(R\) সর্বনিম্ন, \(L\) সর্বাধিক এবং \(C\) সর্বনিম্ন হতে হবে।<br/>প্রদত্ত সমবায়গুলোর মধ্যে \(R = 15\,\Omega\), \(L = 3.5\text{ H}\) এবং \(C = 30\,\mu\text{F}\) সমবায়টিতে একই সাথে রোধ সর্বনিম্ন, আবেশাঙ্ক সর্বাধিক এবং ধারকত্ব সর্বনিম্ন।<br/>এর \(Q\)-এর মান গণনা করে পাই:<br/>\[Q = \frac{1}{15}\sqrt{\frac{3.5}{30 \times 10^{-6}}} = \frac{1}{15}\sqrt{1.167 \times 10^5} \approx \frac{341.6}{15} \approx 22.8\]</p>
+<p><strong>ধাপ ৫: যাচাই ও চূড়ান্ত উত্তর</strong><br/>অন্য প্রতিটি সমবায়ে \(R\) বেশি, \(L\) কম এবং \(C\) বেশি হওয়ায় \(Q\)-এর মান কম হবে। সুতরাং, \(R = 15\,\Omega, L = 3.5\text{ H}, C = 30\,\mu\text{F}\) সমবায়টি উন্নত টিউনিং প্রদান করে।</p>]]></text></generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="0" format="html"><text><![CDATA[<p>\(R = 20\,\Omega, L = 1.5\text{ H}, C = 35\,\mu\text{F}\).</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>\(R = 25\,\Omega, L = 2.5\text{ H}, C = 45\,\mu\text{F}\).</p>]]></text></answer>
+  <answer fraction="100" format="html"><text><![CDATA[<p>\(R = 15\,\Omega, L = 3.5\text{ H}, C = 30\,\mu\text{F}\).</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>\(R = 25\,\Omega, L = 1.5\text{ H}, C = 45\,\mu\text{F}\).</p>]]></text></answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:bn</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>section:mcq_i</text></tag>
+    <tag><text>class:12</text></tag>
+    <tag><text>topic:alternating_current</text></tag>
+    <tag><text>chapter:alternating_current</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:medium</text></tag>
+    <tag><text>blooms:analyze</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:text</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+
+<question type="multichoice">
+  <name><text>NEETUG_PHYSICS_ALTERNATINGCURRENT_MCQI_Q06 - Power dissipated in series RL circuit</text></name>
+  <questiontext format="html"><text><![CDATA[<p>7.6 An inductor of reactance \(1\,\Omega\) and a resistor of \(2\,\Omega\) are connected in series to the terminals of a \(6\text{ V}\) (rms) a.c. source. The power dissipated in the circuit is</p><hr/><p>7.6 \(1\,\Omega\) প্রতিঘাতের একটি আবেশক এবং \(2\,\Omega\) মানের একটি রোধককে শ্রেণি সমবায়ে একটি \(6\text{ V}\) (rms) এসি (a.c.) উৎসের প্রান্তের সাথে যুক্ত করা হয়েছে। বর্তনীতে ব্যয়িত ক্ষমতা হলো</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>Inductive reactance, \(X_L = 1\,\Omega\). Resistance, \(R = 2\,\Omega\). Applied rms voltage, \(V_{\text{rms}} = 6\text{ V}\).</p>
+<p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>The inductor is assumed to be ideal (purely reactive with zero internal resistance), so power is dissipated only across the resistor.</p>
+<p><strong>Step 3: Relevant Formulae and Principles</strong><br/>Impedance of a series RL circuit: \(Z = \sqrt{R^2 + X_L^2}\). RMS current: \(I_{\text{rms}} = \frac{V_{\text{rms}}}{Z}\). Average power dissipated: \(P = I_{\text{rms}}^2 R\).</p>
+<p><strong>Step 4: Step-by-Step Working</strong><br/>Calculate the impedance:<br/>\[Z = \sqrt{2^2 + 1^2} = \sqrt{4 + 1} = \sqrt{5}\,\Omega\]<br/>Calculate the rms current:<br/>\[I_{\text{rms}} = \frac{6}{\sqrt{5}}\text{ A}\]<br/>Calculate the power dissipated:<br/>\[P = \left(\frac{6}{\sqrt{5}}\right)^2 \times 2 = \frac{36}{5} \times 2 = \frac{72}{5} = 14.4\text{ W}\]</p>
+<p><strong>Step 5: Check and Final Answer</strong><br/>Without the inductor, the power dissipated in the \(2\,\Omega\) resistor would be \(\frac{6^2}{2} = 18\text{ W}\). Adding inductive reactance reduces the current and thus reduces the power dissipated to \(14.4\text{ W}\), which is consistent. The power dissipated is \(14.4\text{ W}\).</p>
+<hr/>
+<p><strong>ধাপ ১: প্রদত্ত তথ্য ও শর্তাবলি</strong><br/>আবেশী প্রতিঘাত, \(X_L = 1\,\Omega\)। রোধ, \(R = 2\,\Omega\)। প্রযুক্ত rms বিভব, \(V_{\text{rms}} = 6\text{ V}\)।</p>
+<p><strong>ধাপ ২: অনুমান ও চিহ্নের প্রথা</strong><br/>আবেশকটিকে আদর্শ (শূন্য অভ্যন্তরীণ রোধবিশিষ্ট) ধরা হয়েছে, ফলে কেবল রোধকের মাধ্যমেই ক্ষমতা ব্যয়িত হয়।</p>
+<p><strong>ধাপ ৩: প্রাসঙ্গিক সূত্র ও নীতি</strong><br/>শ্রেণি RL বর্তনীর প্রতিবন্ধকতা: \(Z = \sqrt{R^2 + X_L^2}\)। rms প্রবাহমাত্রা: \(I_{\text{rms}} = \frac{V_{\text{rms}}}{Z}\)। গড় ব্যয়িত ক্ষমতা: \(P = I_{\text{rms}}^2 R\)।</p>
+<p><strong>ধাপ ৪: ধাপে ধাপে গণনা</strong><br/>প্রতিবন্ধকতা নির্ণয়:<br/>\[Z = \sqrt{2^2 + 1^2} = \sqrt{4 + 1} = \sqrt{5}\,\Omega\]<br/>rms প্রবাহমাত্রা নির্ণয়:<br/>\[I_{\text{rms}} = \frac{6}{\sqrt{5}}\text{ A}\]<br/>ব্যয়িত ক্ষমতা নির্ণয়:<br/>\[P = \left(\frac{6}{\sqrt{5}}\right)^2 \times 2 = \frac{36}{5} \times 2 = \frac{72}{5} = 14.4\text{ W}\]</p>
+<p><strong>ধাপ ৫: যাচাই ও চূড়ান্ত উত্তর</strong><br/>আবেশক না থাকলে \(2\,\Omega\) রোধকে ব্যয়িত ক্ষমতা হতো \(\frac{6^2}{2} = 18\text{ W}\)। আবেশী প্রতিঘাত যুক্ত করায় প্রবাহমাত্রা কমে যায় এবং ব্যয়িত ক্ষমতা হ্রাস পেয়ে \(14.4\text{ W}\) হয়, যা সামঞ্জস্যপূর্ণ। সুতরাং, ব্যয়িত ক্ষমতা \(14.4\text{ W}\)।</p>]]></text></generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="0" format="html"><text><![CDATA[<p>\(8\text{ W}\).</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>\(12\text{ W}\).</p>]]></text></answer>
+  <answer fraction="100" format="html"><text><![CDATA[<p>\(14.4\text{ W}\).</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>\(18\text{ W}\).</p>]]></text></answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:bn</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>section:mcq_i</text></tag>
+    <tag><text>class:12</text></tag>
+    <tag><text>topic:alternating_current</text></tag>
+    <tag><text>chapter:alternating_current</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:easy</text></tag>
+    <tag><text>blooms:apply</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:text</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+
+<question type="multichoice">
+  <name><text>NEETUG_PHYSICS_ALTERNATINGCURRENT_MCQI_Q07 - Peak current in step-down transformer load</text></name>
+  <questiontext format="html"><text><![CDATA[<p>7.7 The output of a step-down transformer is measured to be \(24\text{ V}\) when connected to a \(12\text{ watt}\) light bulb. The value of the peak current is</p><hr/><p>7.7 একটি \(12\text{ watt}\) বৈদ্যুতিক বাতির সাথে যুক্ত অবস্থায় একটি স্টেপ-ডাউন ট্রান্সফরমারের আউটপুট বিভব \(24\text{ V}\) পরিমাপ করা হয়। শীর্ষ প্রবাহমাত্রার মান হলো</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>Output rms voltage of the transformer, \(V_{\text{rms}} = 24\text{ V}\). Power consumed by the light bulb, \(P = 12\text{ W}\).</p>
+<p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>The light bulb acts as a purely resistive load (\(\cos\phi = 1\)), and the measured AC voltage is the rms value.</p>
+<p><strong>Step 3: Relevant Formulae and Principles</strong><br/>Average power in a resistive load: \(P = V_{\text{rms}} I_{\text{rms}}\). Peak current: \(I_0 = \sqrt{2}\,I_{\text{rms}}\).</p>
+<p><strong>Step 4: Step-by-Step Working</strong><br/>First, calculate the rms current:<br/>\[I_{\text{rms}} = \frac{P}{V_{\text{rms}}} = \frac{12}{24} = \frac{1}{2}\text{ A}\]<br/>Next, calculate the peak current:<br/>\[I_0 = \sqrt{2}\,I_{\text{rms}} = \sqrt{2} \times \frac{1}{2} = \frac{1}{\sqrt{2}}\text{ A}\]</p>
+<p><strong>Step 5: Check and Final Answer</strong><br/>Checking units: \(\text{W}/\text{V} = \text{A}\). The peak current \(\frac{1}{\sqrt{2}}\text{ A} \approx 0.707\text{ A}\) is greater than the rms current \(0.5\text{ A}\) by a factor of \(\sqrt{2}\). Thus, the peak current is \(1/\sqrt{2}\text{ A}\).</p>
+<hr/>
+<p><strong>ধাপ ১: প্রদত্ত তথ্য ও শর্তাবলি</strong><br/>ট্রান্সফরমারের আউটপুট rms বিভব, \(V_{\text{rms}} = 24\text{ V}\)। বৈদ্যুতিক বাতি দ্বারা ব্যয়িত ক্ষমতা, \(P = 12\text{ W}\)।</p>
+<p><strong>ধাপ ২: অনুমান ও চিহ্নের প্রথা</strong><br/>বৈদ্যুতিক বাতিটি একটি বিশুদ্ধ রোধক লোড হিসেবে কাজ করে (\(\cos\phi = 1\)) এবং পরিমাপকৃত এসি বিভবটি হলো rms মান।</p>
+<p><strong>ধাপ ৩: প্রাসঙ্গিক সূত্র ও নীতি</strong><br/>বিশুদ্ধ রোধক লোডে গড় ক্ষমতা: \(P = V_{\text{rms}} I_{\text{rms}}\)। শীর্ষ প্রবাহমাত্রা: \(I_0 = \sqrt{2}\,I_{\text{rms}}\)।</p>
+<p><strong>ধাপ ৪: ধাপে ধাপে গণনা</strong><br/>প্রথমে rms প্রবাহমাত্রা নির্ণয় করি:<br/>\[I_{\text{rms}} = \frac{P}{V_{\text{rms}}} = \frac{12}{24} = \frac{1}{2}\text{ A}\]<br/>এরপর শীর্ষ প্রবাহমাত্রা নির্ণয় করি:<br/>\[I_0 = \sqrt{2}\,I_{\text{rms}} = \sqrt{2} \times \frac{1}{2} = \frac{1}{\sqrt{2}}\text{ A}\]</p>
+<p><strong>ধাপ ৫: যাচাই ও চূড়ান্ত উত্তর</strong><br/>একক যাচাই: \(\text{W}/\text{V} = \text{A}\)। শীর্ষ প্রবাহমাত্রা \(\frac{1}{\sqrt{2}}\text{ A} \approx 0.707\text{ A}\), যা rms প্রবাহমাত্রা \(0.5\text{ A}\)-এর চেয়ে \(\sqrt{2}\) গুণ বেশি। সুতরাং, শীর্ষ প্রবাহমাত্রা হলো \(1/\sqrt{2}\text{ A}\)।</p>]]></text></generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="100" format="html"><text><![CDATA[<p>\(1/\sqrt{2}\text{ A}\)</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>\(\sqrt{2}\text{ A}\)</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>\(2\text{ A}\).</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>\(2\sqrt{2}\text{ A}\)</p>]]></text></answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:bn</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>section:mcq_i</text></tag>
+    <tag><text>class:12</text></tag>
+    <tag><text>topic:alternating_current</text></tag>
+    <tag><text>chapter:alternating_current</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:easy</text></tag>
+    <tag><text>blooms:apply</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:text</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+
+<question type="multichoice">
+  <name><text>NEETUG_PHYSICS_ALTERNATINGCURRENT_MCQII_Q08 - Resonance behavior with increasing AC frequency</text></name>
+  <questiontext format="html"><text><![CDATA[<p>7.8 As the frequency of an ac circuit increases, the current first increases and then decreases. What combination of circuit elements is most likely to comprise the circuit?</p><hr/><p>7.8 একটি এসি (ac) বর্তনীর কম্পাঙ্ক বৃদ্ধির সাথে সাথে প্রবাহমাত্রা প্রথমে বৃদ্ধি পায় এবং তারপর হ্রাস পায়। কোন বর্তনী উপাদানগুলোর সমবায় দিয়ে বর্তনীটি গঠিত হওয়ার সম্ভাবনা সবচেয়ে বেশি?</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>In a series AC circuit, the current is given by \(I = \frac{V}{Z}\). For the current to first increase and then decrease as frequency increases, the impedance \(Z\) must first decrease, reach a minimum at a resonant frequency, and then increase.</p>
+<p><strong>Step 2: Evaluation</strong><br/>Inductive reactance \(X_L = \omega L\) increases with frequency, while capacitive reactance \(X_C = \frac{1}{\omega C}\) decreases with frequency. In an RL circuit, \(Z = \sqrt{R^2 + X_L^2}\) monotonically increases (current only decreases). In an RC circuit, \(Z = \sqrt{R^2 + X_C^2}\) monotonically decreases (current only increases).</p>
+<p><strong>Step 3: Application</strong><br/>Only when both an inductor and a capacitor are present (either an LC circuit or an LCR circuit) does the net reactance \(|X_L - X_C|\) decrease to zero at \(\omega_r = \frac{1}{\sqrt{LC}}\) and then increase again, causing the current to peak at resonance.</p>
+<p><strong>Step 4: Final Conclusion</strong><br/>Therefore, the circuit must comprise either an inductor and capacitor, or a resistor, inductor and capacitor.</p>
+<hr/>
+<p><strong>ধাপ ১: ধারণাগত নীতি</strong><br/>একটি শ্রেণি এসি বর্তনীতে প্রবাহমাত্রা হলো \(I = \frac{V}{Z}\)। কম্পাঙ্ক বৃদ্ধির সাথে সাথে প্রবাহমাত্রা প্রথমে বৃদ্ধি পেয়ে তারপর হ্রাস পাওয়ার অর্থ হলো প্রতিবন্ধকতা \(Z\) প্রথমে হ্রাস পেয়ে একটি অনুনাদী কম্পাঙ্কে সর্বনিম্ন হয় এবং তারপর বৃদ্ধি পায়।</p>
+<p><strong>ধাপ ২: মূল্যায়ন</strong><br/>আবেশী প্রতিঘাত \(X_L = \omega L\) কম্পাঙ্কের সাথে বৃদ্ধি পায়, যেখানে ধারকীয় প্রতিঘাত \(X_C = \frac{1}{\omega C}\) কম্পাঙ্কের সাথে হ্রাস পায়। RL বর্তনীতে \(Z = \sqrt{R^2 + X_L^2}\) ক্রমাগত বৃদ্ধি পায় (প্রবাহ কেবল কমে)। RC বর্তনীতে \(Z = \sqrt{R^2 + X_C^2}\) ক্রমাগত হ্রাস পায় (প্রবাহ কেবল বাড়ে)।</p>
+<p><strong>ধাপ ৩: প্রয়োগ</strong><br/>কেবল তখনই যখন বর্তনীতে আবেশক এবং ধারক উভয়ই উপস্থিত থাকে (যেমন LC বর্তনী বা LCR বর্তনী), নিট প্রতিঘাত \(|X_L - X_C|\) কমতে কমতে \(\omega_r = \frac{1}{\sqrt{LC}}\) কম্পাঙ্কে শূন্য হয় এবং তারপর পুনরায় বাড়তে থাকে, যার ফলে অনুনাদে প্রবাহমাত্রা সর্বোচ্চ হয়।</p>
+<p><strong>ধাপ ৪: চূড়ান্ত সিদ্ধান্ত</strong><br/>সুতরাং, বর্তনীটি আবেশক ও ধারক অথবা রোধক, আবেশক ও ধারক নিয়ে গঠিত হতে পারে।</p>]]></text></generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>false</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="50" format="html"><text><![CDATA[<p>Inductor and capacitor.</p>]]></text></answer>
+  <answer fraction="-50" format="html"><text><![CDATA[<p>Resistor and inductor.</p>]]></text></answer>
+  <answer fraction="-50" format="html"><text><![CDATA[<p>Resistor and capacitor.</p>]]></text></answer>
+  <answer fraction="50" format="html"><text><![CDATA[<p>Resistor, inductor and capacitor.</p>]]></text></answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:bn</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>section:mcq_ii</text></tag>
+    <tag><text>class:12</text></tag>
+    <tag><text>topic:alternating_current</text></tag>
+    <tag><text>chapter:alternating_current</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:easy</text></tag>
+    <tag><text>blooms:analyze</text></tag>
+    <tag><text>media:text</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+
+<question type="multichoice">
+  <name><text>NEETUG_PHYSICS_ALTERNATINGCURRENT_MCQII_Q09 - Capacitive circuit current vs frequency</text></name>
+  <questiontext format="html"><text><![CDATA[<p>7.9 In an alternating current circuit consisting of elements in series, the current increases on increasing the frequency of supply. Which of the following elements are likely to constitute the circuit?</p><hr/><p>7.9 শ্রেণি সমবায়ে যুক্ত উপাদানবিশিষ্ট একটি পরিবর্তী প্রবাহ বর্তনীতে সরবরাহের কম্পাঙ্ক বাড়ালে প্রবাহমাত্রা বৃদ্ধি পায়। নিচের কোন উপাদানগুলো দিয়ে বর্তনীটি গঠিত হওয়ার সম্ভাবনা রয়েছে?</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>For a fixed supply voltage \(V\), the current \(I = \frac{V}{Z}\) increases with increasing frequency \(f\) only if the total impedance \(Z\) decreases as \(f\) increases.</p>
+<p><strong>Step 2: Evaluation</strong><br/>- For a pure resistor, \(Z = R\), which is independent of frequency.<br/>- For a resistor and an inductor in series, \(Z = \sqrt{R^2 + (2\pi f L)^2}\), which increases with \(f\), causing current to decrease.<br/>- For a resistor and a capacitor in series, \(Z = \sqrt{R^2 + \left(\frac{1}{2\pi f C}\right)^2}\), which decreases as \(f\) increases.<br/>- For only a capacitor, \(Z = X_C = \frac{1}{2\pi f C}\), which also decreases as \(f\) increases.</p>
+<p><strong>Step 3: Final Conclusion</strong><br/>Therefore, the circuit is likely to consist of either a resistor and a capacitor, or only a capacitor.</p>
+<hr/>
+<p><strong>ধাপ ১: ধারণাগত নীতি</strong><br/>একটি নির্দিষ্ট সরবরাহ বিভব \(V\)-এর জন্য, কম্পাঙ্ক \(f\) বৃদ্ধির সাথে সাথে প্রবাহমাত্রা \(I = \frac{V}{Z}\) কেবল তখনই বৃদ্ধি পায় যখন \(f\) বাড়ার সাথে সাথে মোট প্রতিবন্ধকতা \(Z\) হ্রাস পায়।</p>
+<p><strong>ধাপ ২: মূল্যায়ন</strong><br/>- কেবল রোধকের ক্ষেত্রে \(Z = R\), যা কম্পাঙ্কের ওপর নির্ভরশীল নয়।<br/>- শ্রেণিতে যুক্ত রোধক ও আবেশকের ক্ষেত্রে \(Z = \sqrt{R^2 + (2\pi f L)^2}\), যা \(f\) বাড়ার সাথে সাথে বাড়ে এবং প্রবাহমাত্রা কমে।<br/>- শ্রেণিতে যুক্ত রোধক ও ধারকের ক্ষেত্রে \(Z = \sqrt{R^2 + \left(\frac{1}{2\pi f C}\right)^2}\), যা \(f\) বাড়ার সাথে সাথে কমে।<br/>- কেবল ধারকের ক্ষেত্রে \(Z = X_C = \frac{1}{2\pi f C}\), যা \(f\) বাড়ার সাথে সাথে কমে।</p>
+<p><strong>ধাপ ৩: চূড়ান্ত সিদ্ধান্ত</strong><br/>সুতরাং, বর্তনীটি হয় একটি রোধক ও একটি ধারক অথবা কেবল একটি ধারক নিয়ে গঠিত হতে পারে।</p>]]></text></generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>false</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="-50" format="html"><text><![CDATA[<p>Only resistor.</p>]]></text></answer>
+  <answer fraction="-50" format="html"><text><![CDATA[<p>Resistor and an inductor.</p>]]></text></answer>
+  <answer fraction="50" format="html"><text><![CDATA[<p>Resistor and a capacitor.</p>]]></text></answer>
+  <answer fraction="50" format="html"><text><![CDATA[<p>Only a capacitor.</p>]]></text></answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:bn</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>section:mcq_ii</text></tag>
+    <tag><text>class:12</text></tag>
+    <tag><text>topic:alternating_current</text></tag>
+    <tag><text>chapter:alternating_current</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:easy</text></tag>
+    <tag><text>blooms:analyze</text></tag>
+    <tag><text>media:text</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+
+<question type="multichoice">
+  <name><text>NEETUG_PHYSICS_ALTERNATINGCURRENT_MCQII_Q10 - High voltage AC power transmission</text></name>
+  <questiontext format="html"><text><![CDATA[<p>7.10 Electrical energy is transmitted over large distances at high alternating voltages. Which of the following statements is (are) correct?</p><hr/><p>7.10 দূরবর্তী স্থানে বৈদ্যুতিক শক্তি উচ্চ পরিবর্তী বিভবে (high alternating voltage) প্রেরণ করা হয়। নিচের কোন বিবৃতিটি/বিবৃতিগুলো সঠিক?</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>Electrical power transmitted at voltage \(V\) and current \(I\) is given by \(P = VI\). The ohmic power loss in transmission cables of resistance \(R\) is \(P_{\text{loss}} = I^2 R\).</p>
+<p><strong>Step 2: Evaluation</strong><br/>For a fixed transmitted power \(P\), increasing the transmission voltage \(V\) reduces the current \(I = P/V\) proportionally. Since \(P_{\text{loss}} = I^2 R = \left(\frac{P}{V}\right)^2 R\), a lower current results in significantly smaller resistive power loss. Furthermore, alternating voltages can be easily stepped up at the generating station and stepped down at the receiving end using transformers. Making transmission lines thinner increases their resistance \(R = \rho l / A\), which would increase ohmic losses rather than being a direct advantage of high-voltage transmission.</p>
+<p><strong>Step 3: Final Conclusion</strong><br/>Therefore, the correct statements are that for a given power level there is a lower current, lower current implies less power loss, and it is easy to reduce the voltage at the receiving end using step-down transformers.</p>
+<hr/>
+<p><strong>ধাপ ১: ধারণাগত নীতি</strong><br/>\(V\) বিভব এবং \(I\) প্রবাহমাত্রায় প্রেরিত বৈদ্যুতিক ক্ষমতা হলো \(P = VI\)। \(R\) রোধবিশিষ্ট পরিবাহী তারে ওহমীয় ক্ষমতা ক্ষয় হলো \(P_{\text{loss}} = I^2 R\)।</p>
+<p><strong>ধাপ ২: মূল্যায়ন</strong><br/>একটি নির্দিষ্ট প্রেরিত ক্ষমতা \(P\)-এর জন্য, পরিবহন বিভব \(V\) বৃদ্ধি করলে প্রবাহমাত্রা \(I = P/V\) আনুপাতিকভাবে হ্রাস পায়। যেহেতু \(P_{\text{loss}} = I^2 R = \left(\frac{P}{V}\right)^2 R\), তাই কম প্রবাহমাত্রার কারণে ক্ষমতা ক্ষয় উল্লেখযোগ্যভাবে কমে যায়। এছাড়া, ট্রান্সফরমার ব্যবহার করে উৎপাদন কেন্দ্রে পরিবর্তী বিভব সহজেই বৃদ্ধি করা যায় এবং গ্রাহক প্রান্তে স্টেপ-ডাউন ট্রান্সফরমার দিয়ে সহজেই কমানো যায়। পরিবাহী তার সরু করলে রোধ \(R = \rho l / A\) বৃদ্ধি পায়, যা ক্ষমতা ক্ষয় বাড়িয়ে দেবে।</p>
+<p><strong>ধাপ ৩: চূড়ান্ত সিদ্ধান্ত</strong><br/>অতএব, সঠিক বিবৃতিগুলো হলো: একটি নির্দিষ্ট ক্ষমতার জন্য প্রবাহমাত্রা কম হয়, কম প্রবাহমাত্রার অর্থ কম ক্ষমতা ক্ষয়, এবং গ্রাহক প্রান্তে স্টেপ-ডাউন ট্রান্সফরমার ব্যবহার করে বিভব সহজেই কমানো যায়।</p>]]></text></generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>false</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="33.33333" format="html"><text><![CDATA[<p>For a given power level, there is a lower current.</p>]]></text></answer>
+  <answer fraction="33.33333" format="html"><text><![CDATA[<p>Lower current implies less power loss.</p>]]></text></answer>
+  <answer fraction="-100" format="html"><text><![CDATA[<p>Transmission lines can be made thinner.</p>]]></text></answer>
+  <answer fraction="33.33333" format="html"><text><![CDATA[<p>It is easy to reduce the voltage at the receiving end using step-down transformers.</p>]]></text></answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:bn</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>section:mcq_ii</text></tag>
+    <tag><text>class:12</text></tag>
+    <tag><text>topic:alternating_current</text></tag>
+    <tag><text>chapter:alternating_current</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:easy</text></tag>
+    <tag><text>blooms:understand</text></tag>
+    <tag><text>media:text</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+
+<question type="multichoice">
+  <name><text>NEETUG_PHYSICS_ALTERNATINGCURRENT_MCQII_Q11 - Power transferred in driven LCR oscillator</text></name>
+  <questiontext format="html"><text><![CDATA[<p>7.11 For an \(LCR\) circuit, the power transferred from the driving source to the driven oscillator is \(P = I^2 Z \cos\phi\).</p><hr/><p>7.11 একটি \(LCR\) বর্তনীর জন্য, চালক উৎস (driving source) থেকে চালিত স্পন্দকে (driven oscillator) স্থানান্তরিত ক্ষমতা হলো \(P = I^2 Z \cos\phi\)।</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>In a series \(LCR\) circuit, the power factor is \(\cos\phi = \frac{R}{Z}\), where \(R \ge 0\) is the resistance and \(Z = \sqrt{R^2 + (X_L - X_C)^2} &gt; 0\) is the impedance.</p>
+<p><strong>Step 2: Evaluation</strong><br/>Since \(R \ge 0\) and \(Z &gt; 0\), the power factor \(\cos\phi = \frac{R}{Z} \ge 0\) always. Consequently, the average power transferred \(P = I^2 Z \cos\phi = I^2 R \ge 0\) can never be negative. When \(R = 0\) (a purely reactive circuit, where \(\phi = \pm \frac{\pi}{2}\) and \(\cos\phi = 0\)), the driving force transfers zero net energy over a cycle (\(P = 0\)). Because \(P \ge 0\) always, the driving force cannot syphon energy out of the oscillator (\(P &lt; 0\) is impossible).</p>
+<p><strong>Step 3: Final Conclusion</strong><br/>Thus, \(\cos\phi \ge 0\) and \(P \ge 0\); the driving force can give no energy to the oscillator (\(P = 0\)) in some cases; and the driving force cannot syphon out (\(P &lt; 0\)) energy from the oscillator.</p>
+<hr/>
+<p><strong>ধাপ ১: ধারণাগত নীতি</strong><br/>একটি শ্রেণি \(LCR\) বর্তনীতে ক্ষমতা গুণাঙ্ক হলো \(\cos\phi = \frac{R}{Z}\), যেখানে \(R \ge 0\) হলো রোধ এবং \(Z = \sqrt{R^2 + (X_L - X_C)^2} &gt; 0\) হলো প্রতিবন্ধকতা।</p>
+<p><strong>ধাপ ২: মূল্যায়ন</strong><br/>যেহেতু \(R \ge 0\) এবং \(Z &gt; 0\), তাই ক্ষমতা গুণাঙ্ক \(\cos\phi = \frac{R}{Z} \ge 0\) সর্বদা অঋণাত্মক। এর ফলে স্থানান্তরিত গড় ক্ষমতা \(P = I^2 Z \cos\phi = I^2 R \ge 0\) কখনোই ঋণাত্মক হতে পারে না। যখন \(R = 0\) (বিশুদ্ধ প্রতিঘাতযুক্ত বর্তনী, যেখানে \(\phi = \pm \frac{\pi}{2}\) এবং \(\cos\phi = 0\)), তখন চালক বল একটি পূর্ণ চক্রে কোনো নিট শক্তি সরবরাহ করে না (\(P = 0\))। যেহেতু সর্বদা \(P \ge 0\), তাই চালক বল স্পন্দক থেকে শক্তি শোষণ বা বাইরে টেনে নিতে (\(P &lt; 0\)) পারে না।</p>
+<p><strong>ধাপ ৩: চূড়ান্ত সিদ্ধান্ত</strong><br/>অতএব, \(\cos\phi \ge 0\) এবং \(P \ge 0\); কিছু ক্ষেত্রে চালক বল স্পন্দককে কোনো শক্তি নাও দিতে পারে (\(P = 0\)); এবং চালক বল স্পন্দক থেকে শক্তি শোষণ করতে (\(P &lt; 0\)) পারে না।</p>]]></text></generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>false</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="33.33333" format="html"><text><![CDATA[<p>Here, the power factor \(\cos\phi \ge 0\), \(P \ge 0\).</p>]]></text></answer>
+  <answer fraction="33.33333" format="html"><text><![CDATA[<p>The driving force can give no energy to the oscillator (\(P = 0\)) in some cases.</p>]]></text></answer>
+  <answer fraction="33.33333" format="html"><text><![CDATA[<p>The driving force cannot syphon out (\(P &lt; 0\)) the energy out of oscillator.</p>]]></text></answer>
+  <answer fraction="-100" format="html"><text><![CDATA[<p>The driving force can take away energy out of the oscillator.</p>]]></text></answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:bn</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>section:mcq_ii</text></tag>
+    <tag><text>class:12</text></tag>
+    <tag><text>topic:alternating_current</text></tag>
+    <tag><text>chapter:alternating_current</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:medium</text></tag>
+    <tag><text>blooms:analyze</text></tag>
+    <tag><text>media:text</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+
+<question type="multichoice">
+  <name><text>NEETUG_PHYSICS_ALTERNATINGCURRENT_MCQII_Q12 - AC voltage applied to a pure capacitor</text></name>
+  <questiontext format="html"><text><![CDATA[<p>7.12 When an AC voltage of \(220\text{ V}\) is applied to the capacitor \(C\)</p><hr/><p>7.12 যখন \(220\text{ V}\)-এর একটি এসি (AC) বিভব একটি ধারক \(C\)-এর দুই প্রান্তে প্রয়োগ করা হয়</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>An AC voltage rating of \(220\text{ V}\) specifies the rms value, \(V_{\text{rms}} = 220\text{ V}\). Across an ideal capacitor \(C\), the instantaneous charge is \(q(t) = C v(t)\).</p>
+<p><strong>Step 2: Evaluation</strong><br/>- The maximum (peak) voltage between the plates is \(V_0 = \sqrt{2}\,V_{\text{rms}} = 220\sqrt{2}\text{ V} \approx 311\text{ V}\), not \(220\text{ V}\).<br/>- Since \(q(t) = C v(t)\) and \(C\) is a positive constant, the charge on the plates is strictly in phase with the applied voltage.<br/>- The current \(i(t) = \frac{dq}{dt}\) leads the applied voltage by \(\frac{\pi}{2}\) (\(90^\circ\)), so they are not in phase.<br/>- Because the phase difference between voltage and current is \(\phi = \frac{\pi}{2}\), the average power delivered to the capacitor over a cycle is \(P = V_{\text{rms}} I_{\text{rms}} \cos\left(\frac{\pi}{2}\right) = 0\).</p>
+<p><strong>Step 3: Final Conclusion</strong><br/>Therefore, the charge on the plates is in phase with the applied voltage, and the power delivered to the capacitor is zero.</p>
+<hr/>
+<p><strong>ধাপ ১: ধারণাগত নীতি</strong><br/>\(220\text{ V}\) এসি বিভব বলতে এর rms মান \(V_{\text{rms}} = 220\text{ V}\) বোঝায়। একটি আদর্শ ধারক \(C\)-এর দুই প্রান্তে তাৎক্ষণিক আধান হলো \(q(t) = C v(t)\)।</p>
+<p><strong>ধাপ ২: মূল্যায়ন</strong><br/>- পাতদ্বয়ের মধ্যে সর্বোচ্চ (শীর্ষ) বিভব হলো \(V_0 = \sqrt{2}\,V_{\text{rms}} = 220\sqrt{2}\text{ V} \approx 311\text{ V}\), \(220\text{ V}\) নয়।<br/>- যেহেতু \(q(t) = C v(t)\) এবং \(C\) একটি ধনাত্মক ধ্রুবক, তাই পাতদ্বয়ের আধান প্রযুক্ত বিভবের সাথে সমদশায় থাকে।<br/>- প্রবাহমাত্রা \(i(t) = \frac{dq}{dt}\) প্রযুক্ত বিভবের চেয়ে \(\frac{\pi}{2}\) (\(90^\circ\)) দশায় এগিয়ে থাকে, তাই তারা সমদশায় থাকে না।<br/>- বিভব ও প্রবাহমাত্রার মধ্যে দশা পার্থক্য \(\phi = \frac{\pi}{2}\) হওয়ায় এক পূর্ণ চক্রে ধারকে সরবরাহকৃত গড় ক্ষমতা \(P = V_{\text{rms}} I_{\text{rms}} \cos\left(\frac{\pi}{2}\right) = 0\)।</p>
+<p><strong>ধাপ ৩: চূড়ান্ত সিদ্ধান্ত</strong><br/>সুতরাং, পাতদ্বয়ের আধান প্রযুক্ত বিভবের সাথে সমদশায় থাকে এবং ধারকে সরবরাহকৃত ক্ষমতা শূন্য হয়।</p>]]></text></generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>false</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="-50" format="html"><text><![CDATA[<p>the maximum voltage between plates is \(220\text{ V}\).</p>]]></text></answer>
+  <answer fraction="-50" format="html"><text><![CDATA[<p>the current is in phase with the applied voltage.</p>]]></text></answer>
+  <answer fraction="50" format="html"><text><![CDATA[<p>the charge on the plates is in phase with the applied voltage.</p>]]></text></answer>
+  <answer fraction="50" format="html"><text><![CDATA[<p>power delivered to the capacitor is zero.</p>]]></text></answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:bn</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>section:mcq_ii</text></tag>
+    <tag><text>class:12</text></tag>
+    <tag><text>topic:alternating_current</text></tag>
+    <tag><text>chapter:alternating_current</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:medium</text></tag>
+    <tag><text>blooms:understand</text></tag>
+    <tag><text>media:text</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+
+<question type="multichoice">
+  <name><text>NEETUG_PHYSICS_ALTERNATINGCURRENT_MCQII_Q13 - Household AC power supply characteristics</text></name>
+  <questiontext format="html"><text><![CDATA[<p>7.13 The line that draws power supply to your house from street has</p><hr/><p>7.13 রাস্তার লাইন থেকে আপনার বাড়িতে বিদ্যুৎ সরবরাহকারী তারটিতে থাকে</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>Domestic power supply is alternating current (AC), where both voltage and current vary sinusoidally with time, reversing direction periodically.</p>
+<p><strong>Step 2: Evaluation</strong><br/>- Over a complete cycle, the average value of both sinusoidal current and sinusoidal voltage is zero. The \(220\text{ V}\) rating is the rms voltage, not the average voltage.<br/>- Household appliances include resistive, inductive, and capacitive loads, so there is always some non-zero resistance \(R &gt; 0\) in the net load.<br/>- Since \(\cos\phi = \frac{R}{Z} &gt; 0\) (and \(R &lt; Z\) in general), the phase difference \(\phi\) between voltage and current satisfies \(|\phi| &lt; \frac{\pi}{2}\), rather than being \(90^\circ\).</p>
+<p><strong>Step 3: Final Conclusion</strong><br/>Therefore, the domestic supply line has zero average current, and voltage and current possibly differing in phase \(\phi\) such that \(|\phi| &lt; \frac{\pi}{2}\).</p>
+<hr/>
+<p><strong>ধাপ ১: ধারণাগত নীতি</strong><br/>গৃহস্থালী বিদ্যুৎ সরবরাহ হলো পরিবর্তী প্রবাহ (AC), যেখানে বিভব এবং প্রবাহমাত্রা উভয়ই সময়ের সাথে সাইনুসয়েডালভাবে পরিবর্তিত হয় এবং পর্যায়ক্রমে দিক পরিবর্তন করে।</p>
+<p><strong>ধাপ ২: মূল্যায়ন</strong><br/>- একটি পূর্ণ চক্রে সাইনুসয়েডাল প্রবাহমাত্রা এবং সাইনুসয়েডাল বিভব উভয়েরই গড় মান শূন্য হয়। \(220\text{ V}\) হলো rms বিভব, গড় বিভব নয়।<br/>- গৃহস্থালী যন্ত্রপাতিতে রোধক, আবেশক এবং ধারকীয় লোড থাকে, তাই নিট লোডে সর্বদা একটি অশূন্য রোধ \(R &gt; 0\) উপস্থিত থাকে।<br/>- যেহেতু \(\cos\phi = \frac{R}{Z} &gt; 0\), তাই বিভব ও প্রবাহমাত্রার মধ্যে দশা পার্থক্য \(\phi\) সর্বদা \(|\phi| &lt; \frac{\pi}{2}\) শর্ত মেনে চলে, \(90^\circ\) হয় না।</p>
+<p><strong>ধাপ ৩: চূড়ান্ত সিদ্ধান্ত</strong><br/>সুতরাং, গৃহস্থালী সরবরাহ লাইনে গড় প্রবাহমাত্রা শূন্য হয় এবং বিভব ও প্রবাহমাত্রার মধ্যে দশা পার্থক্য \(\phi\) এমন হতে পারে যাতে \(|\phi| &lt; \frac{\pi}{2}\) হয়।</p>]]></text></generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>false</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="50" format="html"><text><![CDATA[<p>zero average current.</p>]]></text></answer>
+  <answer fraction="-50" format="html"><text><![CDATA[<p>\(220\text{ V}\) average voltage.</p>]]></text></answer>
+  <answer fraction="-50" format="html"><text><![CDATA[<p>voltage and current out of phase by \(90^\circ\).</p>]]></text></answer>
+  <answer fraction="50" format="html"><text><![CDATA[<p>voltage and current possibly differing in phase \(\phi\) such that \(|\phi| &lt; \frac{\pi}{2}\).</p>]]></text></answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>lang:bn</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>section:mcq_ii</text></tag>
+    <tag><text>class:12</text></tag>
+    <tag><text>topic:alternating_current</text></tag>
+    <tag><text>chapter:alternating_current</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:medium</text></tag>
+    <tag><text>blooms:understand</text></tag>
+    <tag><text>media:text</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
