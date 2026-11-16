@@ -12,7 +12,7 @@ from pathlib import Path
 
 CLASSES = ("class11", "class12")
 SUBJECTS = ("biology", "chemistry", "physics")
-DEFAULT_CATEGORY_ROOT = "$module$/top/NCERT Exemplar"
+DEFAULT_CATEGORY_ROOT = "$module$/top/NCERT Exemplar Question Bank"
 
 
 def parse_languages(value: str) -> list[str]:
@@ -62,20 +62,27 @@ def build_combined(
             except (OSError, ET.ParseError) as exc:
                 raise ValueError(f"Cannot read Moodle XML {path}: {exc}") from exc
             if source.tag != "quiz" or any(
-                node.tag != "question" or not node.get("type") or node.get("type") == "category"
-                for node in source
+                node.tag != "question" or not node.get("type") for node in source
             ):
-                raise ValueError(f"{path}: expected a quiz containing only non-category questions.")
-            label = language.replace("_", " ").title()
-            category_path = (
-                f"{category_root.rstrip('/')}/Class {class_name[5:]}/"
-                f"{subject.title()}/{chapter}/{label}"
-            )
-            category = ET.SubElement(quiz, "question", {"type": "category"})
-            ET.SubElement(ET.SubElement(category, "category"), "text").text = category_path
-            if not len(source):
+                raise ValueError(f"{path}: expected a quiz containing typed questions.")
+            markers = [node for node in source if node.get("type") == "category"]
+            if markers:
+                if (len(markers) != 1 or source[0] is not markers[0]
+                        or not (markers[0].findtext("category/text") or "").strip()):
+                    raise ValueError(f"{path}: expected one non-empty category before the questions.")
+                quiz.append(markers[0])
+            else:
+                label = language.replace("_", " ").title()
+                category_path = (
+                    f"{category_root.rstrip('/')}/Class {class_name[5:]}/"
+                    f"{subject.title()}/{chapter}/{label}"
+                )
+                category = ET.SubElement(quiz, "question", {"type": "category"})
+                ET.SubElement(ET.SubElement(category, "category"), "text").text = category_path
+            questions = [node for node in source if node.get("type") != "category"]
+            if not questions:
                 empty_files.append(path)
-            for question in source:
+            for question in questions:
                 quiz.append(question)
                 question_count += 1
     return quiz, len(chapters) * len(languages), question_count, empty_files

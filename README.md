@@ -27,7 +27,9 @@ the six combined files into their respective class and subject folders. Use
 `--output-root` to write the combined files elsewhere. Missing or unexpected
 language files stop the build; empty files produce a warning.
 
-Each chapter/language gets a Moodle category under
-`$module$/top/NCERT Exemplar`. Enable **Get category from file** when
-importing. Combining files does not check question content or source coverage.
+Each chapter/language gets a Moodle category. If a source XML already has a
+category marker, the combiner preserves it; otherwise it constructs one under
+`$module$/top/NCERT Exemplar Question Bank`, or the supplied `--category-root`.
+Enable **Get category from file** when importing. Combining files does not
+check question content or source coverage.
 Re-importing into an existing Moodle bank can create duplicates.

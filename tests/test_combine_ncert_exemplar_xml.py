@@ -17,6 +17,23 @@ class CombineExemplarTests(unittest.TestCase):
             capture_output=True, text=True, check=False,
         )
 
+    def test_preserves_category_from_categorized_source(self):
+        with tempfile.TemporaryDirectory() as temporary_directory:
+            root = Path(temporary_directory)
+            folder = root / "class11" / "biology"
+            folder.mkdir(parents=True)
+            category = "$module$/top/Bank/neet_ug/ncert_exemplar/class11/biology/keep401/english"
+            (folder / "keep401_neet_ug_english.xml").write_text(
+                f'<quiz><question type="category"><category><text>{category}</text></category>'
+                '</question><question type="multichoice"><name><text>Q</text></name>'
+                '</question></quiz>', encoding="utf-8"
+            )
+            result = self.run_combiner(root, "--languages", "english")
+            self.assertEqual(result.returncode, 0, result.stderr)
+            quiz = ET.parse(folder / "class11_biology_combined_moodle.xml").getroot()
+            self.assertEqual(quiz[0].findtext("category/text"), category)
+            self.assertEqual([q.get("type") for q in quiz], ["category", "multichoice"])
+
     def test_combines_languages_and_preserves_question_content(self):
         with tempfile.TemporaryDirectory() as temporary_directory:
             root = Path(temporary_directory)
@@ -42,7 +59,7 @@ class CombineExemplarTests(unittest.TestCase):
                 category, question = questions[index * 2:index * 2 + 2]
                 self.assertEqual(
                     category.findtext("category/text"),
-                    f"$course$/top/NCERT Exemplar/Class 11/Biology/keep401/{language}",
+                    f"$module$/top/NCERT Exemplar Question Bank/Class 11/Biology/keep401/{language}",
                 )
                 self.assertEqual(question.findtext("questiontext/text"), "<p>A &amp; B</p>")
                 self.assertEqual(question.findtext("questiontext/file"), "YWJj")
