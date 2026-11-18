@@ -1,0 +1,60 @@
+{
+  "schema_version": 1,
+  "status": "completed",
+  "operation": "full",
+  "source_pdf": "keep305.pdf",
+  "source_sha256": "61ebeb99639c0662a6819157981dc8a52d2297d627fa457dede3fb884a3fe974",
+  "configuration": {
+    "communicator": "AgentSessionBackend",
+    "model_name": "gemini-4-hydrogen",
+    "agent_name": "antigravity-preview-09-2026",
+    "agent_type": "antigravity",
+    "bucket_name": null,
+    "ocr_model": "mistral-ocr-latest",
+    "languages": [
+      "english",
+      "hindi"
+    ],
+    "standards": "neet_ug",
+    "tags": "",
+    "page_range": null,
+    "no_instruction_page": false,
+    "instruction_page": 1,
+    "output_format": "xml",
+    "pdf_engine": "html",
+    "batch_size": 5,
+    "verify_online": false,
+    "rules_sha256": "ac4d9c809f092109c95bbaf4968d9f72c09090e161bc6d8a0dfa5ed3679d233b",
+    "category_path": "$module$/top/NCERT Exemplar Question Bank/ncert-exemplar-question-bank/class11/physics/keep305/english_hindi"
+  },
+  "output_file": "keep305_neet_ug_english_hindi.xml",
+  "batch_ids": [
+    "pages_1_5",
+    "pages_6_9"
+  ],
+  "batches": [
+    {
+      "id": "pages_1_5",
+      "status": "completed",
+      "page_start": 1,
+      "page_end": 5,
+      "response_file": "pages_1_5.response.txt",
+      "questions_file": "pages_1_5.xml",
+      "question_count": 15,
+      "error": null,
+      "attempt_count": 1
+    },
+    {
+      "id": "pages_6_9",
+      "status": "completed",
+      "page_start": 6,
+      "page_end": 9,
+      "response_file": "pages_6_9.response.txt",
+      "questions_file": "pages_6_9.xml",
+      "question_count": 0,
+      "error": null,
+      "attempt_count": 1
+    }
+  ],
+  "final_sha256": "bd7c0d109317688553fe63b15373e803181568f57d71f53dc5a7101125eef095"
+}

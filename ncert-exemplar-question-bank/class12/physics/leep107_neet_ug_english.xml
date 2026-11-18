@@ -1,0 +1,371 @@
+<?xml version="1.0" encoding="UTF-8"?><quiz><question type="category"><category><text>$module$/top/NCERT Exemplar Question Bank/ncert-exemplar-question-bank/class12/physics/leep107/english</text></category></question>
+<question type="multichoice">
+  <name><text>NEET_UG_PHYSICS_MCQI_ALTERNATINGCURRENT_MCQ_Q71 - Instantaneous current in an AC circuit</text></name>
+  <questiontext format="html"><text><![CDATA[<p>If the rms current in a \(50\text{ Hz}\) ac circuit is \(5\text{ A}\), the value of the current \(\frac{1}{300}\) seconds after its value becomes zero is</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>Root-mean-square current, \(I_{\text{rms}} = 5\text{ A}\); frequency of the alternating current, \(f = 50\text{ Hz}\); time elapsed after the current passes through zero, \(t = \frac{1}{300}\text{ s}\).</p><p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>The alternating current is sinusoidal and starts from zero at \(t = 0\) with positive slope, so it is represented by \(I(t) = I_0 \sin(\omega t)\).</p><p><strong>Step 3: Relevant Formulae and Principles</strong><br/>The peak current is related to the rms current by \(I_0 = I_{\text{rms}}\sqrt{2}\), and the angular frequency is \(\omega = 2\pi f\).</p><p><strong>Step 4: Step-by-Step Working</strong><br/>First, calculate the peak current:<br/>\[I_0 = 5\sqrt{2}\text{ A}\]<br/>Next, calculate the phase angle at \(t = \frac{1}{300}\text{ s}\):<br/>\[\omega t = 2\pi f t = 2\pi \times 50 \times \frac{1}{300} = \frac{\pi}{3}\text{ rad}\]<br/>Substitute into the instantaneous current expression:<br/>\[I(t) = 5\sqrt{2}\sin\left(\frac{\pi}{3}\right) = 5\sqrt{2} \times \frac{\sqrt{3}}{2} = 5\sqrt{\frac{3}{2}}\text{ A}\]</p><p><strong>Step 5: Check and Final Answer</strong><br/>Since \(\frac{1}{300}\text{ s}\) is less than one-quarter of the time period (\(T/4 = \frac{1}{200}\text{ s}\)), the instantaneous current is positive and less than the peak value \(5\sqrt{2}\text{ A}\). The value of the current is \(5\sqrt{\frac{3}{2}}\text{ A}\).</p>]]></text></generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="0" format="html"><text><![CDATA[<p>\(5\sqrt{2}\text{ A}\)</p>]]></text></answer>
+  <answer fraction="100" format="html"><text><![CDATA[<p>\(5\sqrt{3/2}\text{ A}\)</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>\(\frac{5}{6}\text{ A}\)</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>\(\frac{5}{\sqrt{2}}\text{ A}\)</p>]]></text></answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>section:mcq_i</text></tag>
+    <tag><text>class:class_12</text></tag>
+    <tag><text>chapter:alternating_current</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:easy</text></tag>
+    <tag><text>blooms:apply</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:text</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+<question type="multichoice">
+  <name><text>NEET_UG_PHYSICS_MCQI_ALTERNATINGCURRENT_MCQ_Q72 - Maximum power transfer from AC generator</text></name>
+  <questiontext format="html"><text><![CDATA[<p>An alternating current generator has an internal resistance \(R_g\) and an internal reactance \(X_g\). It is used to supply power to a passive load consisting of a resistance \(R_g\) and a reactance \(X_L\). For maximum power to be delivered from the generator to the load, the value of \(X_L\) is equal to</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>Generator internal resistance is \(R_g\) and internal reactance is \(X_g\). Load resistance is \(R_g\) and load reactance is \(X_L\). Let the rms emf of the generator be \(E\).</p><p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>The generator and load are connected in series. Reactances combine algebraically as \(X_{\text{net}} = X_g + X_L\).</p><p><strong>Step 3: Relevant Formulae and Principles</strong><br/>The total impedance of the circuit is \(Z = \sqrt{(R_g + R_g)^2 + (X_g + X_L)^2}\). The rms current is \(I = \frac{E}{Z}\), and the average power delivered to the load resistance \(R_g\) is \(P = I^2 R_g\).</p><p><strong>Step 4: Step-by-Step Working</strong><br/>Substituting \(I\) into the power expression gives:<br/>\[P = \frac{E^2 R_g}{4R_g^2 + (X_g + X_L)^2}\]<br/>Since \(E\) and \(R_g\) are fixed, \(P\) is maximized when the denominator \(4R_g^2 + (X_g + X_L)^2\) is minimized. Because \((X_g + X_L)^2 \ge 0\), its minimum value is zero, which occurs when:<br/>\[X_g + X_L = 0 \implies X_L = -X_g\]</p><p><strong>Step 5: Check and Final Answer</strong><br/>This matches the maximum power transfer condition for AC circuits, where the load impedance is the complex conjugate of the source impedance. Thus, \(X_L = -X_g\).</p>]]></text></generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="0" format="html"><text><![CDATA[<p>zero.</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>\(X_g\).</p>]]></text></answer>
+  <answer fraction="100" format="html"><text><![CDATA[<p>\(-X_g\).</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>\(R_g\).</p>]]></text></answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>section:mcq_i</text></tag>
+    <tag><text>class:class_12</text></tag>
+    <tag><text>chapter:alternating_current</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:medium</text></tag>
+    <tag><text>blooms:apply</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:text</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+<question type="multichoice">
+  <name><text>NEET_UG_PHYSICS_MCQI_ALTERNATINGCURRENT_MCQ_Q73 - Meaning of steady AC mains voltage reading</text></name>
+  <questiontext format="html"><text><![CDATA[<p>When a voltage measuring device is connected to AC mains, the meter shows the steady input voltage of \(220\text{ V}\). This means</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>An alternating voltage \(v(t)\) varies sinusoidally with time, so its average over a complete cycle is zero. Standard AC voltmeters (such as hot-wire or moving-iron instruments) respond to the heating effect or mean-square value of the voltage.</p><p><strong>Step 2: Evaluation</strong><br/>Because the heating effect is proportional to \(v^2\), the meter effectively averages \(v^2\) over a cycle, denoted \(\langle v^2 \rangle\), and its scale is calibrated to display the square root of this mean square value, \(\sqrt{\langle v^2 \rangle}\), which is the root-mean-square (rms) voltage.</p><p><strong>Step 3: Application and Final Conclusion</strong><br/>A steady reading of \(220\text{ V}\) does not mean the input is DC or that the peak voltage is \(220\text{ V}\) (the peak voltage is \(220\sqrt{2}\text{ V} \approx 311\text{ V}\)), nor does it indicate a mechanical defect. It means the meter reads \(\langle v^2 \rangle\) and is calibrated to display \(\sqrt{\langle v^2 \rangle}\).</p>]]></text></generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="0" format="html"><text><![CDATA[<p>input voltage cannot be AC voltage, but a DC voltage.</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>maximum input voltage is \(220\text{ V}\).</p>]]></text></answer>
+  <answer fraction="100" format="html"><text><![CDATA[<p>the meter reads not \(v\) but \(\langle v^2 \rangle\) and is calibrated to read \(\sqrt{\langle v^2 \rangle}\).</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>the pointer of the meter is stuck by some mechanical defect.</p>]]></text></answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>section:mcq_i</text></tag>
+    <tag><text>class:class_12</text></tag>
+    <tag><text>chapter:alternating_current</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:easy</text></tag>
+    <tag><text>blooms:understand</text></tag>
+    <tag><text>media:text</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+<question type="multichoice">
+  <name><text>NEET_UG_PHYSICS_MCQI_ALTERNATINGCURRENT_MCQ_Q74 - Reducing resonant frequency in LCR circuit</text></name>
+  <questiontext format="html"><text><![CDATA[<p>To reduce the resonant frequency in an LCR series circuit with a generator</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>The resonant frequency \(f_0\) of a series LCR circuit is an intrinsic property of its inductance \(L\) and capacitance \(C\), given by:<br/>\[f_0 = \frac{1}{2\pi\sqrt{LC}}\]</p><p><strong>Step 2: Evaluation</strong><br/>To reduce \(f_0\), the product \(LC\) must be increased, which requires increasing either \(L\) or \(C\). Changing the generator frequency does not alter \(f_0\). Removing the iron core from the inductor decreases \(L\), and removing the dielectric from the capacitor decreases \(C\); both actions would increase \(f_0\).</p><p><strong>Step 3: Application and Final Conclusion</strong><br/>Connecting another capacitor in parallel with the existing capacitor increases the total capacitance (\(C_{\text{eq}} = C_1 + C_2\)), thereby increasing \(LC\) and reducing the resonant frequency. Therefore, another capacitor should be added in parallel to the first.</p>]]></text></generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="0" format="html"><text><![CDATA[<p>the generator frequency should be reduced.</p>]]></text></answer>
+  <answer fraction="100" format="html"><text><![CDATA[<p>another capacitor should be added in parallel to the first.</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>the iron core of the inductor should be removed.</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>dielectric in the capacitor should be removed.</p>]]></text></answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>section:mcq_i</text></tag>
+    <tag><text>class:class_12</text></tag>
+    <tag><text>chapter:alternating_current</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:easy</text></tag>
+    <tag><text>blooms:apply</text></tag>
+    <tag><text>media:text</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+<question type="multichoice">
+  <name><text>NEET_UG_PHYSICS_MCQI_ALTERNATINGCURRENT_MCQ_Q75 - Selecting LCR parameters for better tuning</text></name>
+  <questiontext format="html"><text><![CDATA[<p>Which of the following combinations should be selected for better tuning of an LCR circuit used for communication?</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>Four combinations of resistance \(R\), inductance \(L\), and capacitance \(C\) are given for a series LCR communication circuit.</p><p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>Better tuning corresponds to a sharper resonance peak, which is quantified by a higher quality factor \(Q\).</p><p><strong>Step 3: Relevant Formulae and Principles</strong><br/>The quality factor of a series LCR circuit is given by:<br/>\[Q = \frac{1}{R}\sqrt{\frac{L}{C}}\]</p><p><strong>Step 4: Step-by-Step Working</strong><br/>To maximize \(Q\), the circuit needs the smallest resistance \(R\), the largest inductance \(L\), and the smallest capacitance \(C\).<br/>For \(R = 15\,\Omega\), \(L = 3.5\text{ H}\), \(C = 30\,\mu\text{F}\):<br/>\[Q = \frac{1}{15}\sqrt{\frac{3.5}{30 \times 10^{-6}}} \approx 22.8\]<br/>By comparison, the other combinations have larger \(R\) (\(20\,\Omega\) or \(25\,\Omega\)), smaller \(L\) (\(1.5\text{ H}\) or \(2.5\text{ H}\)), and larger \(C\) (\(35\,\mu\text{F}\) or \(45\,\mu\text{F}\)), yielding \(Q\) values around \(7.3\) to \(10.4\).</p><p><strong>Step 5: Check and Final Answer</strong><br/>The combination \(R = 15\,\Omega\), \(L = 3.5\text{ H}\), \(C = 30\,\mu\text{F}\) provides the highest quality factor and therefore the best tuning.</p>]]></text></generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="0" format="html"><text><![CDATA[<p>\(R = 20\,\Omega, L = 1.5\text{ H}, C = 35\,\mu\text{F}\).</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>\(R = 25\,\Omega, L = 2.5\text{ H}, C = 45\,\mu\text{F}\).</p>]]></text></answer>
+  <answer fraction="100" format="html"><text><![CDATA[<p>\(R = 15\,\Omega, L = 3.5\text{ H}, C = 30\,\mu\text{F}\).</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>\(R = 25\,\Omega, L = 1.5\text{ H}, C = 45\,\mu\text{F}\).</p>]]></text></answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>section:mcq_i</text></tag>
+    <tag><text>class:class_12</text></tag>
+    <tag><text>chapter:alternating_current</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:medium</text></tag>
+    <tag><text>blooms:analyze</text></tag>
+    <tag><text>calculation:moderate</text></tag>
+    <tag><text>media:text</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+<question type="multichoice">
+  <name><text>NEET_UG_PHYSICS_MCQI_ALTERNATINGCURRENT_MCQ_Q76 - Power dissipated in series RL circuit</text></name>
+  <questiontext format="html"><text><![CDATA[<p>An inductor of reactance \(1\,\Omega\) and a resistor of \(2\,\Omega\) are connected in series to the terminals of a \(6\text{ V (rms)}\) a.c. source. The power dissipated in the circuit is</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>Inductive reactance, \(X_L = 1\,\Omega\); resistance, \(R = 2\,\Omega\); rms supply voltage, \(V_{\text{rms}} = 6\text{ V}\).</p><p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>The inductor is ideal (purely reactive), so average power is dissipated only in the resistor.</p><p><strong>Step 3: Relevant Formulae and Principles</strong><br/>The impedance of the series RL circuit is \(Z = \sqrt{R^2 + X_L^2}\), the rms current is \(I_{\text{rms}} = \frac{V_{\text{rms}}}{Z}\), and the average power dissipated is \(P = I_{\text{rms}}^2 R\).</p><p><strong>Step 4: Step-by-Step Working</strong><br/>Calculate the impedance:<br/>\[Z = \sqrt{2^2 + 1^2} = \sqrt{5}\,\Omega\]<br/>Calculate the rms current:<br/>\[I_{\text{rms}} = \frac{6}{\sqrt{5}}\text{ A}\]<br/>Calculate the power dissipated:<br/>\[P = \left(\frac{6}{\sqrt{5}}\right)^2 \times 2 = \frac{36}{5} \times 2 = \frac{72}{5} = 14.4\text{ W}\]</p><p><strong>Step 5: Check and Final Answer</strong><br/>Alternatively, using \(P = \frac{V_{\text{rms}}^2 R}{Z^2} = \frac{36 \times 2}{5} = 14.4\text{ W}\). The power dissipated in the circuit is \(14.4\text{ W}\).</p>]]></text></generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="0" format="html"><text><![CDATA[<p>\(8\text{ W}\).</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>\(12\text{ W}\).</p>]]></text></answer>
+  <answer fraction="100" format="html"><text><![CDATA[<p>\(14.4\text{ W}\).</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>\(18\text{ W}\).</p>]]></text></answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>section:mcq_i</text></tag>
+    <tag><text>class:class_12</text></tag>
+    <tag><text>chapter:alternating_current</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:easy</text></tag>
+    <tag><text>blooms:apply</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:text</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+<question type="multichoice">
+  <name><text>NEET_UG_PHYSICS_MCQI_ALTERNATINGCURRENT_MCQ_Q77 - Peak current in step-down transformer load</text></name>
+  <questiontext format="html"><text><![CDATA[<p>The output of a step-down transformer is measured to be \(24\text{ V}\) when connected to a \(12\text{ watt}\) light bulb. The value of the peak current is</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Given Data and Conditions</strong><br/>Secondary rms output voltage, \(V_{\text{rms}} = 24\text{ V}\); power consumed by the light bulb, \(P = 12\text{ W}\).</p><p><strong>Step 2: Assumptions and Sign Conventions</strong><br/>The light bulb acts as a purely resistive load (\(\cos\phi = 1\)), and the measured AC voltage \(24\text{ V}\) is the rms value.</p><p><strong>Step 3: Relevant Formulae and Principles</strong><br/>For a resistive load, \(P = V_{\text{rms}} I_{\text{rms}}\). The peak current \(I_0\) is related to the rms current by \(I_0 = I_{\text{rms}}\sqrt{2}\).</p><p><strong>Step 4: Step-by-Step Working</strong><br/>Calculate the rms current:<br/>\[I_{\text{rms}} = \frac{P}{V_{\text{rms}}} = \frac{12}{24} = \frac{1}{2}\text{ A}\]<br/>Calculate the peak current:<br/>\[I_0 = \frac{1}{2}\sqrt{2} = \frac{1}{\sqrt{2}}\text{ A}\]</p><p><strong>Step 5: Check and Final Answer</strong><br/>The peak current is greater than the rms current by a factor of \(\sqrt{2}\), giving \(\frac{1}{\sqrt{2}}\text{ A} \approx 0.707\text{ A}\).</p>]]></text></generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="100" format="html"><text><![CDATA[<p>\(\frac{1}{\sqrt{2}}\text{ A}\)</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>\(\sqrt{2}\text{ A}\)</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>\(2\text{ A}\).</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>\(2\sqrt{2}\text{ A}\)</p>]]></text></answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>section:mcq_i</text></tag>
+    <tag><text>class:class_12</text></tag>
+    <tag><text>chapter:alternating_current</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:easy</text></tag>
+    <tag><text>blooms:apply</text></tag>
+    <tag><text>calculation:light</text></tag>
+    <tag><text>media:text</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+<question type="multichoice">
+  <name><text>NEET_UG_PHYSICS_MCQII_ALTERNATINGCURRENT_MCQ_Q78 - Resonance behavior in an AC circuit</text></name>
+  <questiontext format="html"><text><![CDATA[<p>As the frequency of an ac circuit increases, the current first increases and then decreases. What combination of circuit elements is most likely to comprise the circuit?</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>For the current in a series AC circuit to first increase, reach a maximum, and then decrease as the supply frequency \(\omega\) increases, the circuit must exhibit resonance.</p><p><strong>Step 2: Evaluation</strong><br/>In an RL circuit, impedance \(Z = \sqrt{R^2 + (\omega L)^2}\) monotonically increases with frequency, so current only decreases. In an RC circuit, impedance \(Z = \sqrt{R^2 + (1/\omega C)^2}\) monotonically decreases with frequency, so current only increases.</p><p><strong>Step 3: Application and Final Conclusion</strong><br/>When both an inductor and a capacitor are present (either an LC combination or a resistor, inductor, and capacitor LCR combination), the net reactance \(|X_L - X_C| = |\omega L - \frac{1}{\omega C}|\) decreases to zero at the resonant frequency \(\omega_0 = \frac{1}{\sqrt{LC}}\) and then increases again. Thus, the circuit most likely comprises either an inductor and capacitor, or a resistor, inductor, and capacitor.</p>]]></text></generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>false</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="50" format="html"><text><![CDATA[<p>Inductor and capacitor.</p>]]></text></answer>
+  <answer fraction="-50" format="html"><text><![CDATA[<p>Resistor and inductor.</p>]]></text></answer>
+  <answer fraction="-50" format="html"><text><![CDATA[<p>Resistor and capacitor.</p>]]></text></answer>
+  <answer fraction="50" format="html"><text><![CDATA[<p>Resistor, inductor and capacitor.</p>]]></text></answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>section:mcq_ii</text></tag>
+    <tag><text>class:class_12</text></tag>
+    <tag><text>chapter:alternating_current</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:easy</text></tag>
+    <tag><text>blooms:understand</text></tag>
+    <tag><text>media:text</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+<question type="multichoice">
+  <name><text>NEET_UG_PHYSICS_MCQII_ALTERNATINGCURRENT_MCQ_Q79 - Circuit elements where current increases with frequency</text></name>
+  <questiontext format="html"><text><![CDATA[<p>In an alternating current circuit consisting of elements in series, the current increases on increasing the frequency of supply. Which of the following elements are likely to constitute the circuit?</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>For the current \(I = \frac{V}{Z}\) to increase continuously as the supply frequency \(\omega\) increases, the total impedance \(Z\) of the series circuit must decrease with increasing frequency.</p><p><strong>Step 2: Evaluation</strong><br/>For a pure resistor, \(Z = R\) is independent of frequency, so current remains constant. For a resistor and inductor in series, \(Z = \sqrt{R^2 + \omega^2 L^2}\) increases with frequency, so current decreases.</p><p><strong>Step 3: Application and Final Conclusion</strong><br/>Capacitive reactance \(X_C = \frac{1}{\omega C}\) decreases as \(\omega\) increases. Therefore, both a circuit with only a capacitor (\(Z = X_C\)) and a circuit with a resistor and a capacitor in series (\(Z = \sqrt{R^2 + X_C^2}\)) have decreasing impedance and increasing current as frequency increases.</p>]]></text></generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>false</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="-50" format="html"><text><![CDATA[<p>Only resistor.</p>]]></text></answer>
+  <answer fraction="-50" format="html"><text><![CDATA[<p>Resistor and an inductor.</p>]]></text></answer>
+  <answer fraction="50" format="html"><text><![CDATA[<p>Resistor and a capacitor.</p>]]></text></answer>
+  <answer fraction="50" format="html"><text><![CDATA[<p>Only a capacitor.</p>]]></text></answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>section:mcq_ii</text></tag>
+    <tag><text>class:class_12</text></tag>
+    <tag><text>chapter:alternating_current</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:easy</text></tag>
+    <tag><text>blooms:understand</text></tag>
+    <tag><text>media:text</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+<question type="multichoice">
+  <name><text>NEET_UG_PHYSICS_MCQII_ALTERNATINGCURRENT_MCQ_Q710 - High voltage AC power transmission</text></name>
+  <questiontext format="html"><text><![CDATA[<p>Electrical energy is transmitted over large distances at high alternating voltages. Which of the following statements is (are) correct?</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>Electrical power transmitted at voltage \(V\) and current \(I\) is given by \(P = VI\) (assuming unity power factor), while the ohmic power loss in a transmission line of resistance \(R\) is \(P_{\text{loss}} = I^2 R\).</p><p><strong>Step 2: Evaluation</strong><br/>For a fixed power level \(P\), transmitting at a high voltage \(V\) results in a lower current \(I = P/V\). This lower current directly reduces the Joule heating power loss \(I^2 R\) in the lines. Furthermore, alternating voltages can be easily stepped up at the generating station and stepped down at the receiving end using transformers. Making transmission lines thinner would increase resistance \(R = \rho l/A\), which increases power loss rather than reducing it.</p><p><strong>Step 3: Final Conclusion</strong><br/>Therefore, the correct statements are that for a given power level there is a lower current, lower current implies less power loss, and it is easy to reduce the voltage at the receiving end using step-down transformers.</p>]]></text></generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>false</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="33.33333" format="html"><text><![CDATA[<p>For a given power level, there is a lower current.</p>]]></text></answer>
+  <answer fraction="33.33333" format="html"><text><![CDATA[<p>Lower current implies less power loss.</p>]]></text></answer>
+  <answer fraction="-100" format="html"><text><![CDATA[<p>Transmission lines can be made thinner.</p>]]></text></answer>
+  <answer fraction="33.33333" format="html"><text><![CDATA[<p>It is easy to reduce the voltage at the receiving end using step-down transformers.</p>]]></text></answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>section:mcq_ii</text></tag>
+    <tag><text>class:class_12</text></tag>
+    <tag><text>chapter:alternating_current</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:easy</text></tag>
+    <tag><text>blooms:understand</text></tag>
+    <tag><text>media:text</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+<question type="multichoice">
+  <name><text>NEET_UG_PHYSICS_MCQII_ALTERNATINGCURRENT_MCQ_Q711 - Power transferred in a driven LCR circuit</text></name>
+  <questiontext format="html"><text><![CDATA[<p>For an \(LCR\) circuit, the power transferred from the driving source to the driven oscillator is \(P = I^2 Z \cos\phi\).</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>In a series \(LCR\) circuit, the average power transferred from the driving source to the oscillator is \(P = I^2 Z \cos\phi\), where the power factor is \(\cos\phi = \frac{R}{Z}\).</p><p><strong>Step 2: Evaluation</strong><br/>Since resistance \(R \ge 0\) and impedance \(Z > 0\), the power factor satisfies \(\cos\phi \ge 0\), which guarantees \(P = I^2 R \ge 0\). Consequently, the driving force cannot syphon energy out of the oscillator (\(P\) can never be negative). When \(R = 0\) (a purely reactive circuit), \(\cos\phi = 0\) and \(P = 0\), meaning the driving force delivers no net energy over a cycle.</p><p><strong>Step 3: Final Conclusion</strong><br/>Thus, \(\cos\phi \ge 0\) and \(P \ge 0\), the driving force can give no energy (\(P = 0\)) in some cases, and the driving force cannot syphon energy out of the oscillator (\(P &lt; 0\)).</p>]]></text></generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>false</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="33.33333" format="html"><text><![CDATA[<p>Here, the power factor \(\cos\phi \ge 0\), \(P \ge 0\).</p>]]></text></answer>
+  <answer fraction="33.33333" format="html"><text><![CDATA[<p>The driving force can give no energy to the oscillator (\(P = 0\)) in some cases.</p>]]></text></answer>
+  <answer fraction="33.33333" format="html"><text><![CDATA[<p>The driving force cannot syphon out (\(P &lt; 0\)) the energy out of oscillator.</p>]]></text></answer>
+  <answer fraction="-100" format="html"><text><![CDATA[<p>The driving force can take away energy out of the oscillator.</p>]]></text></answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>section:mcq_ii</text></tag>
+    <tag><text>class:class_12</text></tag>
+    <tag><text>chapter:alternating_current</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:medium</text></tag>
+    <tag><text>blooms:understand</text></tag>
+    <tag><text>media:text</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+<question type="multichoice">
+  <name><text>NEET_UG_PHYSICS_MCQII_ALTERNATINGCURRENT_MCQ_Q712 - AC voltage applied to a capacitor</text></name>
+  <questiontext format="html"><text><![CDATA[<p>When an AC voltage of \(220\text{ V}\) is applied to the capacitor \(C\)</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>An AC voltage rating of \(220\text{ V}\) represents the rms value, so the peak voltage between the plates is \(V_0 = 220\sqrt{2}\text{ V} \approx 311\text{ V}\).</p><p><strong>Step 2: Evaluation</strong><br/>If the applied voltage is \(v = V_0 \sin(\omega t)\), the instantaneous charge on the capacitor plates is \(q = Cv = C V_0 \sin(\omega t)\), which is in phase with the applied voltage. The current \(i = \frac{dq}{dt} = \omega C V_0 \cos(\omega t) = I_0 \sin(\omega t + \frac{\pi}{2})\) leads the applied voltage by \(\frac{\pi}{2}\).</p><p><strong>Step 3: Application and Final Conclusion</strong><br/>Because the phase difference between voltage and current is \(\phi = \frac{\pi}{2}\), the average power delivered to the capacitor over a complete cycle is \(P = V_{\text{rms}} I_{\text{rms}} \cos\left(\frac{\pi}{2}\right) = 0\). Hence, the charge on the plates is in phase with the applied voltage, and the power delivered to the capacitor is zero.</p>]]></text></generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>false</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="-50" format="html"><text><![CDATA[<p>the maximum voltage between plates is \(220\text{ V}\).</p>]]></text></answer>
+  <answer fraction="-50" format="html"><text><![CDATA[<p>the current is in phase with the applied voltage.</p>]]></text></answer>
+  <answer fraction="50" format="html"><text><![CDATA[<p>the charge on the plates is in phase with the applied voltage.</p>]]></text></answer>
+  <answer fraction="50" format="html"><text><![CDATA[<p>power delivered to the capacitor is zero.</p>]]></text></answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>section:mcq_ii</text></tag>
+    <tag><text>class:class_12</text></tag>
+    <tag><text>chapter:alternating_current</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:easy</text></tag>
+    <tag><text>blooms:understand</text></tag>
+    <tag><text>media:text</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+<question type="multichoice">
+  <name><text>NEET_UG_PHYSICS_MCQII_ALTERNATINGCURRENT_MCQ_Q713 - Characteristics of household AC power supply line</text></name>
+  <questiontext format="html"><text><![CDATA[<p>The line that draws power supply to your house from street has</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><strong>Step 1: Conceptual Principle</strong><br/>Household power lines carry sinusoidal alternating current and voltage. Over a full cycle, the average value of a sinusoidal alternating current or voltage is zero; the rated \(220\text{ V}\) is the rms voltage, not the average voltage.</p><p><strong>Step 2: Evaluation</strong><br/>For the household supply to deliver positive net power \(P = V_{\text{rms}} I_{\text{rms}} \cos\phi > 0\) to resistive and inductive appliances, the power factor \(\cos\phi\) must be positive. If voltage and current were out of phase by \(90^\circ\), \(\cos 90^\circ = 0\) and no power would be delivered.</p><p><strong>Step 3: Application and Final Conclusion</strong><br/>Therefore, the supply line has zero average current, and the voltage and current may differ in phase \(\phi\) such that \(|\phi| &lt; \frac{\pi}{2}\).</p>]]></text></generalfeedback>
+  <defaultgrade>4.0000000</defaultgrade>
+  <penalty>0.2500000</penalty>
+  <hidden>0</hidden>
+  <single>false</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="50" format="html"><text><![CDATA[<p>zero average current.</p>]]></text></answer>
+  <answer fraction="-50" format="html"><text><![CDATA[<p>\(220\text{ V}\) average voltage.</p>]]></text></answer>
+  <answer fraction="-50" format="html"><text><![CDATA[<p>voltage and current out of phase by \(90^\circ\).</p>]]></text></answer>
+  <answer fraction="50" format="html"><text><![CDATA[<p>voltage and current possibly differing in phase \(\phi\) such that \(|\phi| &lt; \frac{\pi}{2}\).</p>]]></text></answer>
+  <tags>
+    <tag><text>standard:neet_ug</text></tag>
+    <tag><text>lang:en</text></tag>
+    <tag><text>subject:physics</text></tag>
+    <tag><text>section:mcq_ii</text></tag>
+    <tag><text>class:class_12</text></tag>
+    <tag><text>chapter:alternating_current</text></tag>
+    <tag><text>typology:mcq</text></tag>
+    <tag><text>difficulty:easy</text></tag>
+    <tag><text>blooms:understand</text></tag>
+    <tag><text>media:text</text></tag>
+    <tag><text>multiconcept:false</text></tag>
+  </tags>
+</question>
+</quiz>

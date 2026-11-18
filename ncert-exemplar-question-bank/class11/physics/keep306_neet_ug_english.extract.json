@@ -1,0 +1,71 @@
+{
+  "schema_version": 1,
+  "status": "completed",
+  "operation": "full",
+  "source_pdf": "keep306.pdf",
+  "source_sha256": "6d98486da615217fead2fc651f696d9eb54f1b8d8cd47458f1660f4d3aa2e9b9",
+  "configuration": {
+    "communicator": "AgentSessionBackend",
+    "model_name": "gemini-4-hydrogen",
+    "agent_name": "antigravity-preview-09-2026",
+    "agent_type": "antigravity",
+    "bucket_name": null,
+    "ocr_model": "mistral-ocr-latest",
+    "languages": [
+      "english"
+    ],
+    "standards": "neet_ug",
+    "tags": "",
+    "page_range": null,
+    "no_instruction_page": false,
+    "instruction_page": 1,
+    "output_format": "xml",
+    "pdf_engine": "html",
+    "batch_size": 5,
+    "verify_online": false,
+    "rules_sha256": "ac4d9c809f092109c95bbaf4968d9f72c09090e161bc6d8a0dfa5ed3679d233b",
+    "category_path": "$module$/top/NCERT Exemplar Question Bank/ncert-exemplar-question-bank/class11/physics/keep306/english"
+  },
+  "output_file": "keep306_neet_ug_english.xml",
+  "batch_ids": [
+    "pages_1_5",
+    "pages_6_10",
+    "pages_11_12"
+  ],
+  "batches": [
+    {
+      "id": "pages_1_5",
+      "status": "completed",
+      "page_start": 1,
+      "page_end": 5,
+      "response_file": "pages_1_5.response.txt",
+      "questions_file": "pages_1_5.xml",
+      "question_count": 14,
+      "error": null,
+      "attempt_count": 1
+    },
+    {
+      "id": "pages_6_10",
+      "status": "completed",
+      "page_start": 6,
+      "page_end": 10,
+      "response_file": "pages_6_10.response.txt",
+      "questions_file": "pages_6_10.xml",
+      "question_count": 6,
+      "error": null,
+      "attempt_count": 3
+    },
+    {
+      "id": "pages_11_12",
+      "status": "completed",
+      "page_start": 11,
+      "page_end": 12,
+      "response_file": "pages_11_12.response.txt",
+      "questions_file": "pages_11_12.xml",
+      "question_count": 0,
+      "error": null,
+      "attempt_count": 1
+    }
+  ],
+  "final_sha256": "c57065f579ef9931e00909174e37a4553f8edd14c208fcae61d34bb4b609cabc"
+}
