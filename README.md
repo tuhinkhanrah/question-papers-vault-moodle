@@ -75,25 +75,3 @@ instead of `all` to limit the migration. The checkpointed migration remains
 the default when `--legacy-years` is omitted. Continue checkpointed runs with
 the same extraction settings (including `--mode agent` for checkpoints created
 by the agent backend).
-
-## NCERT Exemplar combined imports
-
-From the repository root, rebuild one import per class and subject:
-
-```bash
-python scripts/combine_ncert_exemplar_xml.py --root ncert-exemplar-question-bank
-```
-
-By default, the script expects English, Bengali and Hindi chapter XMLs and writes
-the six combined files into their respective class and subject folders. Use
-`--class class11` and/or `--subject biology` to select a subset. Use
-`--languages english,bengali,hindi,tamil` when adding another language, and
-`--output-root` to write the combined files elsewhere. Missing or unexpected
-language files stop the build; empty files produce a warning.
-
-Each chapter/language gets a Moodle category. If a source XML already has a
-category marker, the combiner preserves it; otherwise it constructs one under
-`$module$/top/NCERT Exemplar Question Bank`, or the supplied `--category-root`.
-Enable **Get category from file** when importing. Combining files does not
-check question content or source coverage.
-Re-importing into an existing Moodle bank can create duplicates.
